@@ -39,10 +39,13 @@ indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
   source_index: project-control/source-index.yaml
+  tag_index: project-control/tag-index.yaml
 
 appendices:
   generated_only: true
   generator_script: scripts/generate_appendices.py
+  structured_sources:
+    open_questions: project-control/structured-sources/open-questions.yaml
 
 cache:
   current_text: .tmp/current-chapter.txt

@@ -1,5 +1,8 @@
 project:
   name: 'Hogwarts: A History Seed Builder'
+  tracking_status: secondary_index
+  authoritative_state: project-control/processing-state.yaml
+  update_note: scripts/update_next_run.py keeps completed chapter status synchronized when advancing after a validated extraction.
 current_phase: automated-book-04-forward-extraction
 sources:
 - source_file: pdfs/harrypotter.pdf

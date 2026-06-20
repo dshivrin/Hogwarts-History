@@ -8,10 +8,8 @@ For a normal run, read only:
 
 1. `docs/instructions/runtime-contract.md`
 2. `project-control/processing-state.yaml`
-3. `project-control/duplicate-index.yaml`
-4. `project-control/entry-index.yaml`
-5. `.tmp/current-chapter.txt` after extraction
-6. The current output YAML only if it already exists
+3. `.tmp/current-chapter.txt` after extraction
+4. The current output YAML only if it already exists
 
 ## Conditional Reads
 
@@ -19,6 +17,8 @@ Read these only when needed:
 
 - `docs/instructions/schema-reference.md` for schema uncertainty or validation failure.
 - `docs/instructions/background-guide.md` for canon, era, or classification ambiguity.
+- `project-control/tag-index.yaml` and `project-control/duplicate-index.yaml` through targeted `rg` searches for topic/tag lookup.
+- `project-control/entry-index.yaml` only for browsing all known entries or appendix generation.
 - Historical YAML files only when `project-control/duplicate-index.yaml` identifies a likely duplicate.
 - `appendix/generated/*.md` only for human-facing review, not routine extraction.
 
@@ -46,7 +46,7 @@ Do not read:
 ## Duplicate Check Procedure
 
 1. Normalize 3-8 topic tags for each candidate.
-2. Search `project-control/duplicate-index.yaml` for overlapping tags or canonical topic.
+2. Search compact indexes with `rg "<tag-or-topic>" project-control/tag-index.yaml project-control/duplicate-index.yaml`.
 3. If no likely match appears, mark `possible_duplicate: false`.
 4. If a likely match appears, open only the referenced YAML file and compare evidence.
 5. Record the result in the entry `duplicate_check` block.
@@ -58,6 +58,7 @@ Do not read:
 3. Rebuild compact indexes:
    - `scripts/build_duplicate_index.py`
    - `scripts/build_entry_index.py`
+   - `scripts/build_tag_index.py`
 4. Regenerate `project-control/next-run.md` from `processing-state.yaml`.
 5. Regenerate appendices only when needed with `scripts/generate_appendices.py`.
 6. Run `scripts/cleanup_tmp.py` after extraction artifacts are no longer needed.

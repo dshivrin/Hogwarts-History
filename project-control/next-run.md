@@ -18,9 +18,11 @@ Read only:
 
 - `docs/instructions/runtime-contract.md`
 - `project-control/processing-state.yaml`
-- `project-control/duplicate-index.yaml`
-- `project-control/entry-index.yaml`
 - `.tmp/current-chapter.txt`
 - Current output YAML only if it exists
 
-Do not read appendices, archives, old prompts, all prior YAML files, or `chapters-index.md` during normal runs.
+Use `rg "<tag-or-topic>" project-control/tag-index.yaml project-control/duplicate-index.yaml`
+for duplicate and context lookup. Open only referenced YAML files for likely matches.
+
+Do not read appendices, archives, old prompts, full indexes, all prior YAML files, or
+`chapters-index.md` during normal runs.

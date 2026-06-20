@@ -14,12 +14,15 @@ SOURCES_DIR = ROOT / "sources"
 GENERATED_DIR = ROOT / "appendix" / "generated"
 ENTRY_INDEX_PATH = ROOT / "project-control" / "entry-index.yaml"
 SOURCE_INDEX_PATH = ROOT / "project-control" / "source-index.yaml"
+STRUCTURED_OPEN_QUESTIONS_PATH = (
+    ROOT / "project-control" / "structured-sources" / "open-questions.yaml"
+)
 
 HEADER = """# Generated File
 
 Do not edit manually.
 Regenerate with `scripts/generate_appendices.py`.
-Source data: sources YAML + project-control indexes.
+Source data: sources YAML + project-control indexes + structured source data.
 """
 
 
@@ -95,6 +98,7 @@ def generate_explicit_references(entries: list[dict]) -> str:
 
 
 def generate_open_questions(entries: list[dict]) -> str:
+    structured_questions = load_structured_open_questions()
     uncertain = [
         entry
         for entry in entries
@@ -102,9 +106,34 @@ def generate_open_questions(entries: list[dict]) -> str:
         or entry.get("era_classification") == "unknown_or_uncertain"
     ]
     lines = ["# Open Questions", ""]
-    if not uncertain:
+    if structured_questions:
+        current_topic = None
+        for question in structured_questions:
+            topic = str(question.get("topic") or "Unassigned")
+            if topic != current_topic:
+                if current_topic is not None:
+                    lines.append("")
+                lines.extend([f"## {topic}", ""])
+                current_topic = topic
+            suffix_parts = []
+            tags = question.get("tags") or []
+            related_entries = question.get("related_entries") or []
+            if tags:
+                suffix_parts.append("tags: " + ", ".join(f"`{tag}`" for tag in tags))
+            if related_entries:
+                suffix_parts.append(
+                    "related: " + ", ".join(f"`{entry}`" for entry in related_entries)
+                )
+            suffix = f" ({'; '.join(suffix_parts)})" if suffix_parts else ""
+            lines.append(f"- {question.get('question')}{suffix}")
+        lines.append("")
+
+    if not uncertain and not structured_questions:
         lines.append("No low-confidence or unknown-era entries are currently indexed.")
         return "\n".join(lines)
+
+    if uncertain:
+        lines.extend(["## Generated From Low-Confidence Entries", ""])
     for entry in uncertain:
         lines.append(
             "- "
@@ -112,6 +141,16 @@ def generate_open_questions(entries: list[dict]) -> str:
             f"{entry.get('limitations')}"
         )
     return "\n".join(lines)
+
+
+def load_structured_open_questions() -> list[dict]:
+    if not STRUCTURED_OPEN_QUESTIONS_PATH.exists():
+        return []
+    data = load_yaml(STRUCTURED_OPEN_QUESTIONS_PATH)
+    questions = data.get("questions") or []
+    if not isinstance(questions, list):
+        raise ValueError(f"Expected questions list in {STRUCTURED_OPEN_QUESTIONS_PATH}")
+    return [question for question in questions if isinstance(question, dict)]
 
 
 def generate_source_index() -> str:

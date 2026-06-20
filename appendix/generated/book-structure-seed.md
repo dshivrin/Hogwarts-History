@@ -2,7 +2,7 @@
 
 Do not edit manually.
 Regenerate with `scripts/generate_appendices.py`.
-Source data: sources YAML + project-control indexes.
+Source data: sources YAML + project-control indexes + structured source data.
 
 # Book Structure Seed
 
