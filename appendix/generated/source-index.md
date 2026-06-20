@@ -1,0 +1,66 @@
+# Generated File
+
+Do not edit manually.
+Regenerate with `scripts/generate_appendices.py`.
+Source data: sources YAML + project-control indexes.
+
+# Source Index
+
+- `ps-ch01`: Harry Potter and the Philosopher's Stone, Chapter One - The Boy Who Lived, pages 12-25, 5 entries, 0 explicit references.
+- `ps-ch02`: Harry Potter and the Philosopher's Stone, Chapter Two - The Vanishing Glass, pages 26-36, 6 entries, 0 explicit references.
+- `ps-ch03`: Harry Potter and the Philosopher's Stone, Chapter Three - The Letters From No One, pages 37-49, 5 entries, 0 explicit references.
+- `ps-ch04`: Harry Potter and the Philosopher's Stone, Chapter Four - The Keeper of the Keys, pages 50-61, 7 entries, 0 explicit references.
+- `ps-ch05`: Harry Potter and the Philosopher's Stone, Chapter Five - Diagon Alley, pages 62-84, 7 entries, 0 explicit references.
+- `ps-ch06`: Harry Potter and the Philosopher's Stone, Chapter Six - The Journey from Platform Nine and Three-Quarters, pages 85-106, 7 entries, 0 explicit references.
+- `ps-ch07`: Harry Potter and the Philosopher's Stone, Chapter Seven - The Sorting Hat, pages 107-122, 2 entries, 1 explicit references.
+- `ps-ch08`: Harry Potter and the Philosopher's Stone, Chapter Eight - The Potions Master, pages 123-132, 7 entries, 0 explicit references.
+- `ps-ch09`: Harry Potter and the Philosopher's Stone, Chapter Nine - The Midnight Duel, pages 133-149, 7 entries, 0 explicit references.
+- `ps-ch10`: Harry Potter and the Philosopher's Stone, Chapter Ten - Halloween, pages 150-163, 5 entries, 0 explicit references.
+- `ps-ch11`: Harry Potter and the Philosopher's Stone, Chapter Eleven - Quidditch, pages 164-175, 7 entries, 0 explicit references.
+- `ps-ch12`: Harry Potter and the Philosopher's Stone, Chapter Twelve - The Mirror of Erised, pages 176-193, 6 entries, 0 explicit references.
+- `ps-ch13`: Harry Potter and the Philosopher's Stone, Chapter Thirteen - Nicolas Flamel, pages 194-204, 6 entries, 0 explicit references.
+- `ps-ch14`: Harry Potter and the Philosopher's Stone, Chapter Fourteen - Norbert the Norwegian Ridgeback, pages 205-216, 7 entries, 0 explicit references.
+- `ps-ch15`: Harry Potter and the Philosopher's Stone, Chapter Fifteen - The Forbidden Forest, pages 217-233, 7 entries, 0 explicit references.
+- `ps-ch16`: Harry Potter and the Philosopher's Stone, Chapter Sixteen - Through the Trapdoor, pages 234-256, 7 entries, 0 explicit references.
+- `ps-ch17`: Harry Potter and the Philosopher's Stone, Chapter Seventeen - The Man with Two Faces, pages 257-274, 6 entries, 0 explicit references.
+- `cos-ch01`: Harry Potter and the Chamber of Secrets, Chapter One - The Worst Birthday, pages 282-290, 5 entries, 0 explicit references.
+- `cos-ch02`: Harry Potter and the Chamber of Secrets, Chapter Two - Dobby's Warning, pages 291-300, 5 entries, 0 explicit references.
+- `cos-ch03`: Harry Potter and the Chamber of Secrets, Chapter Three - The Burrow, pages 301-315, 5 entries, 0 explicit references.
+- `cos-ch04`: Harry Potter and the Chamber of Secrets, Chapter Four - At Flourish and Blotts, pages 316-334, 6 entries, 0 explicit references.
+- `cos-ch05`: Harry Potter and the Chamber of Secrets, Chapter Five - The Whomping Willow, pages 335-352, 6 entries, 0 explicit references.
+- `cos-ch06`: Harry Potter and the Chamber of Secrets, Chapter Six - Gilderoy Lockhart, pages 353-367, 7 entries, 0 explicit references.
+- `cos-ch07`: Harry Potter and the Chamber of Secrets, Chapter Seven - Mudbloods and Murmurs, pages 368-382, 6 entries, 0 explicit references.
+- `cos-ch08`: Harry Potter and the Chamber of Secrets, Chapter Eight - The Deathday Party, pages 383-398, 6 entries, 0 explicit references.
+- `cos-ch09`: Harry Potter and the Chamber of Secrets, Chapter Nine - The Writing on the Wall, pages 399-416, 7 entries, 1 explicit references.
+- `cos-ch10`: Harry Potter and the Chamber of Secrets, Chapter Ten - The Rogue Bludger, pages 417-433, 6 entries, 0 explicit references.
+- `cos-ch11`: Harry Potter and the Chamber of Secrets, Chapter Eleven - The Dueling Club, pages 434-452, 7 entries, 0 explicit references.
+- `cos-ch12`: Harry Potter and the Chamber of Secrets, Chapter Twelve - The Polyjuice Potion, pages 453-470, 7 entries, 0 explicit references.
+- `cos-ch13`: Harry Potter and the Chamber of Secrets, Chapter Thirteen - The Very Secret Diary, pages 471-488, 7 entries, 0 explicit references.
+- `cos-ch14`: Harry Potter and the Chamber of Secrets, Chapter Fourteen - Cornelius Fudge, pages 489-501, 7 entries, 0 explicit references.
+- `cos-ch15`: Harry Potter and the Chamber of Secrets, Chapter Fifteen - Aragog, pages 502-516, 7 entries, 0 explicit references.
+- `cos-ch16`: Harry Potter and the Chamber of Secrets, Chapter Sixteen - The Chamber of Secrets, pages 517-535, 7 entries, 0 explicit references.
+- `cos-ch17`: Harry Potter and the Chamber of Secrets, Chapter Seventeen - The Heir of Slytherin, pages 536-552, 7 entries, 0 explicit references.
+- `cos-ch18`: Harry Potter and the Chamber of Secrets, Chapter Eighteen - Dobby's Reward, pages 553-565, 7 entries, 0 explicit references.
+- `poa-ch01`: Harry Potter and the Prisoner of Azkaban, Chapter One - Owl Post, pages 573-584, 7 entries, 0 explicit references.
+- `poa-ch02`: Harry Potter and the Prisoner of Azkaban, Chapter Two - Aunt Marge's Big Mistake, pages 585-597, 4 entries, 0 explicit references.
+- `poa-ch03`: Harry Potter and the Prisoner of Azkaban, Chapter Three - The Knight Bus, pages 598-612, 5 entries, 0 explicit references.
+- `poa-ch04`: Harry Potter and the Prisoner of Azkaban, Chapter Four - The Leaky Cauldron, pages 613-629, 7 entries, 0 explicit references.
+- `poa-ch05`: Harry Potter and the Prisoner of Azkaban, Chapter Five - The Dementor, pages 630-652, 7 entries, 0 explicit references.
+- `poa-ch06`: Harry Potter and the Prisoner of Azkaban, Chapter Six - Talons and Tea Leaves, pages 653-674, 7 entries, 0 explicit references.
+- `poa-ch07`: Harry Potter and the Prisoner of Azkaban, Chapter Seven - The Boggart in the Wardrobe, pages 675-689, 7 entries, 0 explicit references.
+- `poa-ch08`: Harry Potter and the Prisoner of Azkaban, Chapter Eight - Flight of the Fat Lady, pages 690-707, 7 entries, 0 explicit references.
+- `poa-ch09`: Harry Potter and the Prisoner of Azkaban, Chapter Nine - Grim Defeat, pages 708-725, 7 entries, 1 explicit references.
+- `poa-ch10`: Harry Potter and the Prisoner of Azkaban, Chapter Ten - The Marauder's Map, pages 726-748, 6 entries, 0 explicit references.
+- `poa-ch11`: Harry Potter and the Prisoner of Azkaban, Chapter Eleven - The Firebolt, pages 749-767, 7 entries, 0 explicit references.
+- `poa-ch12`: Harry Potter and the Prisoner of Azkaban, Chapter Twelve - The Patronus, pages 768-784, 7 entries, 0 explicit references.
+- `poa-ch13`: Harry Potter and the Prisoner of Azkaban, Chapter Thirteen - Gryffindor Versus Ravenclaw, pages 785-798, 7 entries, 0 explicit references.
+- `poa-ch14`: Harry Potter and the Prisoner of Azkaban, Chapter Fourteen - Snape's Grudge, pages 799-817, 7 entries, 0 explicit references.
+- `poa-ch15`: Harry Potter and the Prisoner of Azkaban, Chapter Fifteen - The Quidditch Final, pages 818-836, 7 entries, 0 explicit references.
+- `poa-ch16`: Harry Potter and the Prisoner of Azkaban, Chapter Sixteen - Professor Trelawney's Prediction, pages 837-851, 6 entries, 0 explicit references.
+- `poa-ch17`: Harry Potter and the Prisoner of Azkaban, Chapter Seventeen - Cat, Rat, and Dog, pages 852-866, 5 entries, 0 explicit references.
+- `poa-ch18`: Harry Potter and the Prisoner of Azkaban, Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs, pages 867-873, 7 entries, 0 explicit references.
+- `poa-ch19`: Harry Potter and the Prisoner of Azkaban, Chapter Nineteen - The Servant of Lord Voldemort, pages 874-890, 7 entries, 0 explicit references.
+- `poa-ch20`: Harry Potter and the Prisoner of Azkaban, Chapter Twenty - The Dementor's Kiss, pages 891-897, 7 entries, 0 explicit references.
+- `poa-ch21`: Harry Potter and the Prisoner of Azkaban, Chapter Twenty-One - Hermione's Secret, pages 898-923, 7 entries, 0 explicit references.
+- `poa-ch22`: Harry Potter and the Prisoner of Azkaban, Chapter Twenty-Two - Owl Post Again, pages 924-939, 7 entries, 0 explicit references.
+- `gof-ch01`: Harry Potter and the Goblet of Fire, Chapter One - The Riddle House, pages 949-960, 5 entries, 0 explicit references.

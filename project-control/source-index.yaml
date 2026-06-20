@@ -1,0 +1,699 @@
+version: 1
+updated: '2026-06-20'
+processed_units:
+- source_unit_id: ps-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 1
+  chapter_title: Chapter One - The Boy Who Lived
+  page_start: 12
+  page_end: 25
+  output_yaml: sources/book-01/chapter-01-boy-who-lived.yaml
+  processed_at: '2026-06-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 12-25.
+- source_unit_id: ps-ch02
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 2
+  chapter_title: Chapter Two - The Vanishing Glass
+  page_start: 26
+  page_end: 36
+  output_yaml: sources/book-01/chapter-02-vanishing-glass.yaml
+  processed_at: '2026-06-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 26-36.
+- source_unit_id: ps-ch03
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 3
+  chapter_title: Chapter Three - The Letters From No One
+  page_start: 37
+  page_end: 49
+  output_yaml: sources/book-01/chapter-03-letters-from-no-one.yaml
+  processed_at: '2026-06-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 37-49.
+- source_unit_id: ps-ch04
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 4
+  chapter_title: Chapter Four - The Keeper of the Keys
+  page_start: 50
+  page_end: 61
+  output_yaml: sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  processed_at: '2026-06-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 50-61.
+- source_unit_id: ps-ch05
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 5
+  chapter_title: Chapter Five - Diagon Alley
+  page_start: 62
+  page_end: 84
+  output_yaml: sources/book-01/chapter-05-diagon-alley.yaml
+  processed_at: '2026-06-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 62-84.
+- source_unit_id: ps-ch06
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 6
+  chapter_title: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  page_start: 85
+  page_end: 106
+  output_yaml: sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
+  processed_at: '2026-06-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 85-106.
+- source_unit_id: ps-ch07
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 7
+  chapter_title: Chapter Seven - The Sorting Hat
+  page_start: 107
+  page_end: 122
+  output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
+  processed_at: '2026-06-09'
+  explicit_reference_count: 1
+  candidate_entry_count: 2
+  boundary_summary: Used indexed page range; extracted only pages 107-122.
+- source_unit_id: ps-ch08
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 8
+  chapter_title: Chapter Eight - The Potions Master
+  page_start: 123
+  page_end: 132
+  output_yaml: sources/book-01/chapter-08-potions-master.yaml
+  processed_at: '2026-06-09'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 123-132.
+- source_unit_id: ps-ch09
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 9
+  chapter_title: Chapter Nine - The Midnight Duel
+  page_start: 133
+  page_end: 149
+  output_yaml: sources/book-01/chapter-09-midnight-duel.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 133-149.
+- source_unit_id: ps-ch10
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 10
+  chapter_title: Chapter Ten - Halloween
+  page_start: 150
+  page_end: 163
+  output_yaml: sources/book-01/chapter-10-halloween.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 150-163.
+- source_unit_id: ps-ch11
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 11
+  chapter_title: Chapter Eleven - Quidditch
+  page_start: 164
+  page_end: 175
+  output_yaml: sources/book-01/chapter-11-quidditch.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 164-175.
+- source_unit_id: ps-ch12
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 12
+  chapter_title: Chapter Twelve - The Mirror of Erised
+  page_start: 176
+  page_end: 193
+  output_yaml: sources/book-01/chapter-12-mirror-of-erised.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 176-193.
+- source_unit_id: ps-ch13
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 13
+  chapter_title: Chapter Thirteen - Nicolas Flamel
+  page_start: 194
+  page_end: 204
+  output_yaml: sources/book-01/chapter-13-nicolas-flamel.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 194-204.
+- source_unit_id: ps-ch14
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 14
+  chapter_title: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  page_start: 205
+  page_end: 216
+  output_yaml: sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 205-216.
+- source_unit_id: ps-ch15
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 15
+  chapter_title: Chapter Fifteen - The Forbidden Forest
+  page_start: 217
+  page_end: 233
+  output_yaml: sources/book-01/chapter-15-forbidden-forest.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 217-233.
+- source_unit_id: ps-ch16
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 16
+  chapter_title: Chapter Sixteen - Through the Trapdoor
+  page_start: 234
+  page_end: 256
+  output_yaml: sources/book-01/chapter-16-through-the-trapdoor.yaml
+  processed_at: '2026-06-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 234-256.
+- source_unit_id: ps-ch17
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 17
+  chapter_title: Chapter Seventeen - The Man with Two Faces
+  page_start: 257
+  page_end: 274
+  output_yaml: sources/book-01/chapter-17-man-with-two-faces.yaml
+  processed_at: '2026-06-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 257-274.
+- source_unit_id: cos-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 1
+  chapter_title: Chapter One - The Worst Birthday
+  page_start: 282
+  page_end: 290
+  output_yaml: sources/book-02/chapter-01-worst-birthday.yaml
+  processed_at: '2026-06-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 282-290.
+- source_unit_id: cos-ch02
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 2
+  chapter_title: Chapter Two - Dobby's Warning
+  page_start: 291
+  page_end: 300
+  output_yaml: sources/book-02/chapter-02-dobbys-warning.yaml
+  processed_at: '2026-06-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 291-300.
+- source_unit_id: cos-ch03
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 3
+  chapter_title: Chapter Three - The Burrow
+  page_start: 301
+  page_end: 315
+  output_yaml: sources/book-02/chapter-03-burrow.yaml
+  processed_at: '2026-06-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 301-315.
+- source_unit_id: cos-ch04
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 4
+  chapter_title: Chapter Four - At Flourish and Blotts
+  page_start: 316
+  page_end: 334
+  output_yaml: sources/book-02/chapter-04-at-flourish-and-blotts.yaml
+  processed_at: '2026-06-14'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 316-334.
+- source_unit_id: cos-ch05
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 5
+  chapter_title: Chapter Five - The Whomping Willow
+  page_start: 335
+  page_end: 352
+  output_yaml: sources/book-02/chapter-05-whomping-willow.yaml
+  processed_at: '2026-06-14'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 335-352.
+- source_unit_id: cos-ch06
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 6
+  chapter_title: Chapter Six - Gilderoy Lockhart
+  page_start: 353
+  page_end: 367
+  output_yaml: sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  processed_at: '2026-06-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 353-367.
+- source_unit_id: cos-ch07
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 7
+  chapter_title: Chapter Seven - Mudbloods and Murmurs
+  page_start: 368
+  page_end: 382
+  output_yaml: sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  processed_at: '2026-06-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 368-382.
+- source_unit_id: cos-ch08
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 8
+  chapter_title: Chapter Eight - The Deathday Party
+  page_start: 383
+  page_end: 398
+  output_yaml: sources/book-02/chapter-08-the-deathday-party.yaml
+  processed_at: '2026-06-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 383-398.
+- source_unit_id: cos-ch09
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 9
+  chapter_title: Chapter Nine - The Writing on the Wall
+  page_start: 399
+  page_end: 416
+  output_yaml: sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  processed_at: '2026-06-16'
+  explicit_reference_count: 1
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 399-416.
+- source_unit_id: cos-ch10
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 10
+  chapter_title: Chapter Ten - The Rogue Bludger
+  page_start: 417
+  page_end: 433
+  output_yaml: sources/book-02/chapter-10-the-rogue-bludger.yaml
+  processed_at: '2026-06-16'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 417-433.
+- source_unit_id: cos-ch11
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 11
+  chapter_title: Chapter Eleven - The Dueling Club
+  page_start: 434
+  page_end: 452
+  output_yaml: sources/book-02/chapter-11-the-dueling-club.yaml
+  processed_at: '2026-06-16'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 434-452.
+- source_unit_id: cos-ch12
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 12
+  chapter_title: Chapter Twelve - The Polyjuice Potion
+  page_start: 453
+  page_end: 470
+  output_yaml: sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  processed_at: '2026-06-16'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 453-470.
+- source_unit_id: cos-ch13
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 13
+  chapter_title: Chapter Thirteen - The Very Secret Diary
+  page_start: 471
+  page_end: 488
+  output_yaml: sources/book-02/chapter-13-the-very-secret-diary.yaml
+  processed_at: '2026-06-16'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 471-488.
+- source_unit_id: cos-ch14
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 14
+  chapter_title: Chapter Fourteen - Cornelius Fudge
+  page_start: 489
+  page_end: 501
+  output_yaml: sources/book-02/chapter-14-cornelius-fudge.yaml
+  processed_at: '2026-06-17'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 489-501.
+- source_unit_id: cos-ch15
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 15
+  chapter_title: Chapter Fifteen - Aragog
+  page_start: 502
+  page_end: 516
+  output_yaml: sources/book-02/chapter-15-aragog.yaml
+  processed_at: '2026-06-17'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 502-516.
+- source_unit_id: cos-ch16
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 16
+  chapter_title: Chapter Sixteen - The Chamber of Secrets
+  page_start: 517
+  page_end: 535
+  output_yaml: sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  processed_at: '2026-06-18'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 517-535.
+- source_unit_id: cos-ch17
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 17
+  chapter_title: Chapter Seventeen - The Heir of Slytherin
+  page_start: 536
+  page_end: 552
+  output_yaml: sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  processed_at: '2026-06-18'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 536-552.
+- source_unit_id: cos-ch18
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter_number: 18
+  chapter_title: Chapter Eighteen - Dobby's Reward
+  page_start: 553
+  page_end: 565
+  output_yaml: sources/book-02/chapter-18-dobbys-reward.yaml
+  processed_at: '2026-06-18'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 553-565.
+- source_unit_id: poa-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 1
+  chapter_title: Chapter One - Owl Post
+  page_start: 573
+  page_end: 584
+  output_yaml: sources/book-03/chapter-01-owl-post.yaml
+  processed_at: '2026-06-19'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 573-584.
+- source_unit_id: poa-ch02
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 2
+  chapter_title: Chapter Two - Aunt Marge's Big Mistake
+  page_start: 585
+  page_end: 597
+  output_yaml: sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  processed_at: '2026-06-19'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Used indexed page range; extracted only pages 585-597.
+- source_unit_id: poa-ch03
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 3
+  chapter_title: Chapter Three - The Knight Bus
+  page_start: 598
+  page_end: 612
+  output_yaml: sources/book-03/chapter-03-the-knight-bus.yaml
+  processed_at: '2026-06-19'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 598-612.
+- source_unit_id: poa-ch04
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 4
+  chapter_title: Chapter Four - The Leaky Cauldron
+  page_start: 613
+  page_end: 629
+  output_yaml: sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  processed_at: '2026-06-19'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 613-629.
+- source_unit_id: poa-ch05
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 5
+  chapter_title: Chapter Five - The Dementor
+  page_start: 630
+  page_end: 652
+  output_yaml: sources/book-03/chapter-05-the-dementor.yaml
+  processed_at: '2026-06-19'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 630-652.
+- source_unit_id: poa-ch06
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 6
+  chapter_title: Chapter Six - Talons and Tea Leaves
+  page_start: 653
+  page_end: 674
+  output_yaml: sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+  processed_at: '2026-06-19'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 653-674.
+- source_unit_id: poa-ch07
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 7
+  chapter_title: Chapter Seven - The Boggart in the Wardrobe
+  page_start: 675
+  page_end: 689
+  output_yaml: sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 675-689.
+- source_unit_id: poa-ch08
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 8
+  chapter_title: Chapter Eight - Flight of the Fat Lady
+  page_start: 690
+  page_end: 707
+  output_yaml: sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 690-707.
+- source_unit_id: poa-ch09
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 9
+  chapter_title: Chapter Nine - Grim Defeat
+  page_start: 708
+  page_end: 725
+  output_yaml: sources/book-03/chapter-09-grim-defeat.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 1
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 708-725.
+- source_unit_id: poa-ch10
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 10
+  chapter_title: Chapter Ten - The Marauder's Map
+  page_start: 726
+  page_end: 748
+  output_yaml: sources/book-03/chapter-10-the-marauders-map.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 726-748.
+- source_unit_id: poa-ch11
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 11
+  chapter_title: Chapter Eleven - The Firebolt
+  page_start: 749
+  page_end: 767
+  output_yaml: sources/book-03/chapter-11-the-firebolt.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 749-767.
+- source_unit_id: poa-ch12
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 12
+  chapter_title: Chapter Twelve - The Patronus
+  page_start: 768
+  page_end: 784
+  output_yaml: sources/book-03/chapter-12-the-patronus.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 768-784.
+- source_unit_id: poa-ch13
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 13
+  chapter_title: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  page_start: 785
+  page_end: 798
+  output_yaml: sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 785-798.
+- source_unit_id: poa-ch14
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 14
+  chapter_title: Chapter Fourteen - Snape's Grudge
+  page_start: 799
+  page_end: 817
+  output_yaml: sources/book-03/chapter-14-snapes-grudge.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 799-817.
+- source_unit_id: poa-ch15
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 15
+  chapter_title: Chapter Fifteen - The Quidditch Final
+  page_start: 818
+  page_end: 836
+  output_yaml: sources/book-03/chapter-15-the-quidditch-final.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 818-836.
+- source_unit_id: poa-ch16
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 16
+  chapter_title: Chapter Sixteen - Professor Trelawney's Prediction
+  page_start: 837
+  page_end: 851
+  output_yaml: sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 837-851.
+- source_unit_id: poa-ch17
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 17
+  chapter_title: Chapter Seventeen - Cat, Rat, and Dog
+  page_start: 852
+  page_end: 866
+  output_yaml: sources/book-03/chapter-17-cat-rat-and-dog.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 852-866.
+- source_unit_id: poa-ch18
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 18
+  chapter_title: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  page_start: 867
+  page_end: 873
+  output_yaml: sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 867-873.
+- source_unit_id: poa-ch19
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 19
+  chapter_title: Chapter Nineteen - The Servant of Lord Voldemort
+  page_start: 874
+  page_end: 890
+  output_yaml: sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 874-890.
+- source_unit_id: poa-ch20
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 20
+  chapter_title: Chapter Twenty - The Dementor's Kiss
+  page_start: 891
+  page_end: 897
+  output_yaml: sources/book-03/chapter-20-the-dementors-kiss.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 891-897.
+- source_unit_id: poa-ch21
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 21
+  chapter_title: Chapter Twenty-One - Hermione's Secret
+  page_start: 898
+  page_end: 923
+  output_yaml: sources/book-03/chapter-21-hermiones-secret.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 898-923.
+- source_unit_id: poa-ch22
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter_number: 22
+  chapter_title: Chapter Twenty-Two - Owl Post Again
+  page_start: 924
+  page_end: 939
+  output_yaml: sources/book-03/chapter-22-owl-post-again.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 924-939.
+- source_unit_id: gof-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 1
+  chapter_title: Chapter One - The Riddle House
+  page_start: 949
+  page_end: 960
+  output_yaml: sources/book-04/chapter-01-the-riddle-house.yaml
+  processed_at: '2026-06-20'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 949-960.

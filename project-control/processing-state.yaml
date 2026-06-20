@@ -1,20 +1,53 @@
-last_completed:
+project:
+  mode: minimal_context
+  canonical_runtime_contract: docs/instructions/runtime-contract.md
+  schema_reference: docs/instructions/schema-reference.md
+  background_guide: docs/instructions/background-guide.md
+
+last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
   chapter_number: 1
   chapter_title: Chapter One - The Riddle House
-  output_file: sources/book-04/chapter-01-the-riddle-house.yaml
-  chapter_start_pdf_page: 949
-  chapter_end_pdf_page: 960
-  next_chapter_start_pdf_page: 961
-next_pending:
+  page_start: 949
+  page_end: 960
+  output_yaml: sources/book-04/chapter-01-the-riddle-house.yaml
+
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
   chapter_number: 2
   chapter_title: Chapter Two - The Scar
-  output_file: sources/book-04/chapter-02-the-scar.yaml
+  page_start: 961
+  page_end: 968
+  extracted_text_path: .tmp/current-chapter.txt
+  output_yaml: sources/book-04/chapter-02-the-scar.yaml
+
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 3
+  chapter_title: Chapter Three - The Invitation
+  page_start: 969
+  page_end: 978
+  output_yaml: sources/book-04/chapter-03-the-invitation.yaml
+
+indexes:
+  duplicate_index: project-control/duplicate-index.yaml
+  entry_index: project-control/entry-index.yaml
+  source_index: project-control/source-index.yaml
+
+appendices:
+  generated_only: true
+  generator_script: scripts/generate_appendices.py
+
+cache:
+  current_text: .tmp/current-chapter.txt
+  keep_last_n_chapters: 3
+
 automation_rules:
   process_one_unit_per_run: true
   never_scan_full_pdf_if_anchor_exists: true
