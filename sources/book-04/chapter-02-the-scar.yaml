@@ -1,0 +1,272 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  boundary_confidence: high
+  boundary_notes: Chapter Two range was taken from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Two starts on PDF page 961 and Chapter Three starts on PDF page 969, so only PDF pages 961-968 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Two. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. The chapter is mostly summer/off-campus later-editorial context, so entries are limited to curse-scar evidence, student materials, underage-magic/secrecy context, Voldemort history, named source/communication evidence, and the Sirius-Azkaban recap. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch02-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  pdf_page: 963
+  printed_page: not available
+  extracted_text_lines: PDF page 961, lines 7-25; PDF page 963, lines 70-81; PDF page 968, lines 256-259
+  text_anchor:
+    start_phrase: The old scar on his forehead
+    end_phrase: curse scars sometimes hurt years afterward
+    local_occurrence_note: Harry wakes from the Riddle House dream, links his scar pain to Voldemort's earlier presence at Hogwarts, and writes to Sirius about curse scars.
+  nearby_context: Harry's scar burns after a vivid dream of Voldemort and Wormtail; he recalls that the previous scar pain was tied to Voldemort's presence at Hogwarts and asks Sirius whether old curse scars can hurt years later.
+  match_terms:
+  - scar
+  - Voldemort
+  - Hogwarts
+  - curse scars
+  - dream
+  - Wormtail
+  quote_excerpt_short: "Voldemort was at Hogwarts"
+  source_note: The chapter treats Harry's lightning scar as a continuing magical trace of Voldemort's curse and records Harry's own link between scar pain and Voldemort's earlier proximity at Hogwarts.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - lightning-scar
+  - curse-scars
+  - voldemort
+  - hogwarts
+  - harry-potter
+  - magical-injury
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter and Voldemort's Return
+  candidate_section: Curse Scars and Voldemort Proximity
+  reason_for_placement: The passage gives later editorial evidence for how Harry interprets post-curse symptoms after the first-year Hogwarts confrontation.
+  relevance_to_hogwarts_a_history: This is not institutional Hogwarts history, but it cross-references the school as the site of the earlier Voldemort proximity event and supports later biographical notes on Harry's exceptional status.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch02-005
+    notes: Book 1 Chapter Two records Harry's sensory memory of green light and forehead pain from Godric's Hollow; this entry adds a later scar-pain recurrence and Harry's explicit association with Voldemort at Hogwarts.
+  confidence: medium
+  limitations: Harry is reasoning from memory and prior experience; the chapter does not yet explain the mechanism connecting the scar pain, dream, and Voldemort.
+- id: gof-ch02-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  pdf_page: 962
+  printed_page: not available
+  extracted_text_lines: PDF page 962, lines 47-62
+  text_anchor:
+    start_phrase: A large wooden trunk stood open
+    end_phrase: Flying with the Cannons
+    local_occurrence_note: Harry surveys his bedroom after waking, including school supplies and a Quidditch book with moving pictures.
+  nearby_context: Harry's open trunk contains a cauldron, broomstick, robes, and spellbooks; his desk has parchment and Hedwig's cage; a Quidditch book shows moving players in orange robes.
+  match_terms:
+  - trunk
+  - cauldron
+  - broomstick
+  - robes
+  - spellbooks
+  - parchment
+  - Flying with the Cannons
+  quote_excerpt_short: "Flying with the Cannons"
+  source_note: The chapter confirms Harry has his school materials in his room during the summer and names a Quidditch book whose pictures move like other magical images.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-materials
+  - summer-homework
+  - spellbooks
+  - broomstick
+  - quidditch-books
+  - moving-pictures
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Books and Moving Illustrations
+  reason_for_placement: The passage identifies a named recreational Quidditch source and also reinforces summer possession of Hogwarts materials.
+  relevance_to_hogwarts_a_history: This can support later notes on students' magical books, independent reading, and the wider Quidditch culture that informs school recreation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior entries record school materials and holiday homework, but no existing seed records Flying with the Cannons or its moving Quidditch illustrations.
+  confidence: medium
+  limitations: The book is recreational and not assigned Hogwarts reading; the passage does not state whether the moving images are typical of all wizarding books.
+- id: gof-ch02-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  pdf_page: 963
+  printed_page: not available
+  extracted_text_lines: PDF page 963, lines 89-97; PDF page 964, lines 99-103
+  text_anchor:
+    start_phrase: They were Muggles who hated
+    end_phrase: his worries about Voldemort, was laughable
+    local_occurrence_note: Narration explains the Dursleys' public cover story and their knowledge of the outside-Hogwarts magic rule.
+  nearby_context: The Dursleys explain Harry's long Hogwarts absences as attendance at St. Brutus's and know that underage wizards are not allowed to use magic outside Hogwarts.
+  match_terms:
+  - Muggles
+  - St. Brutus's
+  - Hogwarts
+  - underage wizard
+  - magic outside Hogwarts
+  - Wizarding world
+  quote_excerpt_short: "wasn't allowed to use magic outside Hogwarts"
+  source_note: The chapter combines Muggle cover-story practice for Hogwarts absences with another statement of the underage magic restriction outside school.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - muggle-secrecy
+  - holiday-conduct
+  - magic-outside-school
+  - dursleys
+  - school-absence-cover
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Holiday Conduct and Underage Magic
+  candidate_section: Muggle Cover Stories and Outside-School Magic
+  reason_for_placement: The passage ties student holiday conduct to secrecy management around Muggle guardians and neighbors.
+  relevance_to_hogwarts_a_history: This supports later editorial treatment of the practical problems created when a Hogwarts student's guardians are Muggles and school attendance must be hidden.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-005
+    notes: Book 2 Chapter Two gives the formal Ministry warning and legal citations for underage magic outside school; this entry adds the Dursleys' recurring cover story for Hogwarts absences.
+  confidence: high
+  limitations: The cover story is specific to the Dursleys and does not prove a formal Hogwarts policy for Muggle-family explanations.
+- id: gof-ch02-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  pdf_page: 964
+  printed_page: not available
+  extracted_text_lines: PDF page 964, lines 104-126
+  text_anchor:
+    start_phrase: And yet it was because of Voldemort
+    end_phrase: back at the castle again
+    local_occurrence_note: Narrative recap of Voldemort's attack, curse rebound, Harry's fame, and his later arrival at Hogwarts.
+  nearby_context: The narration describes Voldemort's eleven-year rise, the killing of Harry's parents, the failed curse that rebounded, Voldemort's loss of power, Harry's fame, and Harry's fourth-year return to Hogwarts.
+  match_terms:
+  - Voldemort
+  - curse
+  - lightning scar
+  - secret community
+  - Harry Potter
+  - Hogwarts
+  quote_excerpt_short: "the curse had rebounded upon Voldemort"
+  source_note: The chapter recaps the Godric's Hollow event with explicit cause-and-effect language around the failed curse, Voldemort's fall, Harry's fame, and Harry's known status at Hogwarts.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - godrics-hollow
+  - voldemort-fall
+  - lightning-scar
+  - harry-potter
+  - wizarding-fame
+  - hogwarts-memory
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Fall of Voldemort
+  candidate_section: Harry Potter's Fame at Hogwarts
+  reason_for_placement: The passage is a later recap that makes the historical connection between the failed curse, public magical memory, and Harry's reception at Hogwarts explicit.
+  relevance_to_hogwarts_a_history: This is useful later editorial context for explaining why Harry's presence at Hogwarts carried unusual historical weight for students and staff.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch01-003
+    notes: Book 1 Chapter One records the Godric's Hollow reports confirmed by Dumbledore; this entry adds later narration about the curse rebounding and Harry's fame at Hogwarts.
+  confidence: high
+  limitations: The passage is retrospective narration rather than an in-universe school source and should not replace the original Godric's Hollow seed.
+- id: gof-ch02-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  pdf_page: 965
+  printed_page: not available
+  extracted_text_lines: PDF page 965, lines 133-155
+  text_anchor:
+    start_phrase: Your scar hurt?
+    end_phrase: even without an address
+    local_occurrence_note: Harry imagines Hermione recommending Dumbledore and a medical reference, then considers Hedwig's ability to find Dumbledore.
+  nearby_context: Hermione's imagined advice is to write to Dumbledore and check Common Magical Ailments and Afflictions; Harry doubts a book would list his unique symptoms but believes Hedwig can deliver a letter to Dumbledore without an address.
+  match_terms:
+  - Professor Dumbledore
+  - Common Magical Ailments and Afflictions
+  - curse scars
+  - headmaster
+  - Hedwig
+  - address
+  quote_excerpt_short: "Common Magical Ailments and Afflictions"
+  source_note: The chapter names a magical medical reference book and gives practical owl-post evidence that Harry expects Hedwig to find Dumbledore without a physical address.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - in-universe-source
+  - magical-medicine
+  - curse-scars
+  - owl-post
+  - dumbledore
+  - headmaster-contact
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Magical Medical References and Student Problem-Solving
+  reason_for_placement: The passage records a named reference work and shows how students may combine books, headmaster authority, and owl post when confronting magical problems.
+  relevance_to_hogwarts_a_history: This supports later notes on scholarship habits around Hogwarts students and on informal communication with school authority during holidays.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior owl-post entries record holiday delivery and Hogwarts letters, but no existing seed records Common Magical Ailments and Afflictions or addressless delivery to Dumbledore.
+  confidence: medium
+  limitations: Hermione's advice is imagined by Harry, and the book is not shown on the page or confirmed to contain relevant scar information.
+- id: gof-ch02-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Two - The Scar
+  chapter_start_pdf_page: 961
+  chapter_end_pdf_page: 968
+  pdf_page: 966
+  printed_page: not available
+  extracted_text_lines: PDF page 966, lines 195-203; PDF page 967, lines 209-211
+  text_anchor:
+    start_phrase: Sirius had been in Azkaban
+    end_phrase: on the back of a hippogriff called Buckbeak
+    local_occurrence_note: Narrative recap of Sirius's imprisonment, dementors at Hogwarts, Wormtail's escape, and Buckbeak-assisted flight.
+  nearby_context: The narration summarizes that Sirius had been in Azkaban, dementors came to Hogwarts during the search, Wormtail was the real culprit, Dumbledore believed the students, and Harry helped Sirius escape on Buckbeak.
+  match_terms:
+  - Sirius
+  - Azkaban
+  - dementors
+  - Hogwarts
+  - Wormtail
+  - Dumbledore
+  - Buckbeak
+  quote_excerpt_short: "search for Sirius at Hogwarts"
+  source_note: The chapter gives a compact recap of the Sirius Black crisis, including Azkaban, dementors at Hogwarts, Wormtail's role, Dumbledore's acceptance of the students' account, and the Buckbeak escape.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black
+  - azkaban
+  - dementors
+  - hogwarts-security
+  - wormtail
+  - buckbeak
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Sirius Black Crisis
+  candidate_section: Dementors, False Conviction, and Escape
+  reason_for_placement: The passage provides a later summary of the prior year's security crisis and its continuing consequences for Harry.
+  relevance_to_hogwarts_a_history: This is later editorial recap material for the Hogwarts dementor deployment and the limits of official accounts after the Sirius Black crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch22-002
+    notes: Book 3 Chapter Twenty-Two records Fudge agreeing to remove dementors from Hogwarts after they endangered Harry; this entry is a later recap that preserves the broader Sirius and Wormtail context.
+  confidence: medium
+  limitations: The passage compresses a prior book's events and should be used as recap/corroboration rather than primary evidence for the crisis details.

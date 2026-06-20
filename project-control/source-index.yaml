@@ -697,3 +697,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 5
   boundary_summary: Used indexed page range; extracted only pages 949-960.
+- source_unit_id: gof-ch02
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 2
+  chapter_title: Chapter Two - The Scar
+  page_start: 961
+  page_end: 968
+  output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 961-968.

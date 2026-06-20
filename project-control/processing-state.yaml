@@ -3,18 +3,7 @@ project:
   canonical_runtime_contract: docs/instructions/runtime-contract.md
   schema_reference: docs/instructions/schema-reference.md
   background_guide: docs/instructions/background-guide.md
-
 last_completed_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
-  chapter_number: 1
-  chapter_title: Chapter One - The Riddle House
-  page_start: 949
-  page_end: 960
-  output_yaml: sources/book-04/chapter-01-the-riddle-house.yaml
-
-current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -22,10 +11,8 @@ current_source_unit:
   chapter_title: Chapter Two - The Scar
   page_start: 961
   page_end: 968
-  extracted_text_path: .tmp/current-chapter.txt
   output_yaml: sources/book-04/chapter-02-the-scar.yaml
-
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -34,23 +21,29 @@ next_source_unit:
   page_start: 969
   page_end: 978
   output_yaml: sources/book-04/chapter-03-the-invitation.yaml
-
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 4
+  chapter_title: Chapter Four - Back to the Burrow
+  page_start: 979
+  page_end: 988
+  output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
   source_index: project-control/source-index.yaml
   tag_index: project-control/tag-index.yaml
-
 appendices:
   generated_only: true
   generator_script: scripts/generate_appendices.py
   structured_sources:
     open_questions: project-control/structured-sources/open-questions.yaml
-
 cache:
   current_text: .tmp/current-chapter.txt
   keep_last_n_chapters: 3
-
 automation_rules:
   process_one_unit_per_run: true
   never_scan_full_pdf_if_anchor_exists: true
@@ -61,6 +54,7 @@ automation_rules:
 cleanup_runs:
 - date: '2026-06-20'
   type: appendix_consolidation
-  scope: Consolidated append-only PoA Chapter Eight through Chapter Twenty-One additions into cumulative Emerging Parts sections without processing a new source unit.
+  scope: Consolidated append-only PoA Chapter Eight through Chapter Twenty-One additions
+    into cumulative Emerging Parts sections without processing a new source unit.
   source_units_newly_processed: 0
   next_pending_preserved: true

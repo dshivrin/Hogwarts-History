@@ -4945,6 +4945,85 @@ by_entry:
     - voldemort
     source_unit: gof-ch01
     output_yaml: sources/book-04/chapter-01-the-riddle-house.yaml
+  gof-ch02-001:
+    title: 'Harry Potter and Voldemort''s Return: Curse Scars and Voldemort Proximity'
+    classification: later_editorial_note
+    confidence: medium
+    tags:
+    - curse-scars
+    - harry-potter
+    - hogwarts
+    - lightning-scar
+    - magical-injury
+    - voldemort
+    source_unit: gof-ch02
+    output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  gof-ch02-002:
+    title: 'Named In-Universe Sources: Quidditch Books and Moving Illustrations'
+    classification: harry_era_confirmation
+    confidence: medium
+    tags:
+    - broomstick
+    - moving-pictures
+    - quidditch-books
+    - school-materials
+    - spellbooks
+    - summer-homework
+    source_unit: gof-ch02
+    output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  gof-ch02-003:
+    title: 'Holiday Conduct and Underage Magic: Muggle Cover Stories and Outside-School
+      Magic'
+    classification: harry_era_confirmation
+    confidence: high
+    tags:
+    - dursleys
+    - holiday-conduct
+    - magic-outside-school
+    - muggle-secrecy
+    - school-absence-cover
+    - underage-magic
+    source_unit: gof-ch02
+    output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  gof-ch02-004:
+    title: 'The Fall of Voldemort: Harry Potter''s Fame at Hogwarts'
+    classification: later_editorial_note
+    confidence: high
+    tags:
+    - godrics-hollow
+    - harry-potter
+    - hogwarts-memory
+    - lightning-scar
+    - voldemort-fall
+    - wizarding-fame
+    source_unit: gof-ch02
+    output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  gof-ch02-005:
+    title: 'Named In-Universe Sources: Magical Medical References and Student Problem-Solving'
+    classification: harry_era_confirmation
+    confidence: medium
+    tags:
+    - curse-scars
+    - dumbledore
+    - headmaster-contact
+    - in-universe-source
+    - magical-medicine
+    - owl-post
+    source_unit: gof-ch02
+    output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  gof-ch02-006:
+    title: 'The Sirius Black Crisis: Dementors, False Conviction, and Escape'
+    classification: later_editorial_note
+    confidence: medium
+    tags:
+    - azkaban
+    - buckbeak
+    - dementors
+    - hogwarts-security
+    - sirius-black
+    - wormtail
+    source_unit: gof-ch02
+    output_yaml: sources/book-04/chapter-02-the-scar.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5050,6 +5129,7 @@ by_tag:
   azkaban:
   - cos-ch12-007
   - cos-ch14-005
+  - gof-ch02-006
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -5125,6 +5205,7 @@ by_tag:
   - poa-ch02-004
   broomstick:
   - cos-ch03-005
+  - gof-ch02-002
   - poa-ch01-002
   - poa-ch09-007
   broomstick-maintenance:
@@ -5142,6 +5223,7 @@ by_tag:
   - ps-ch11-001
   - ps-ch16-006
   buckbeak:
+  - gof-ch02-006
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch14-003
@@ -5419,6 +5501,9 @@ by_tag:
   - poa-ch10-001
   curse-checks:
   - poa-ch12-005
+  curse-scars:
+  - gof-ch02-001
+  - gof-ch02-005
   curses:
   - ps-ch13-003
   daily-prophet:
@@ -5482,6 +5567,7 @@ by_tag:
   dementor-imitation:
   - poa-ch13-004
   dementors:
+  - gof-ch02-006
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -5585,6 +5671,7 @@ by_tag:
   - cos-ch17-005
   - cos-ch18-001
   - cos-ch18-005
+  - gof-ch02-005
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -5637,6 +5724,7 @@ by_tag:
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
+  - gof-ch02-003
   - ps-ch01-004
   - ps-ch02-001
   - ps-ch02-002
@@ -5914,6 +6002,7 @@ by_tag:
   godric-gryffindor:
   - cos-ch18-004
   godrics-hollow:
+  - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
   - ps-ch02-001
@@ -6079,6 +6168,8 @@ by_tag:
   harry-potter:
   - cos-ch01-004
   - gof-ch01-004
+  - gof-ch02-001
+  - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -6132,6 +6223,8 @@ by_tag:
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
+  headmaster-contact:
+  - gof-ch02-005
   headmaster-office:
   - cos-ch11-007
   - cos-ch12-001
@@ -6253,6 +6346,8 @@ by_tag:
   - poa-ch14-002
   hogsmeade-station:
   - poa-ch05-005
+  hogwarts:
+  - gof-ch02-001
   hogwarts-a-history:
   - cos-ch09-001
   - poa-ch09-001
@@ -6301,12 +6396,14 @@ by_tag:
   - ps-ch04-004
   hogwarts-memory:
   - cos-ch01-001
+  - gof-ch02-004
   hogwarts-messages:
   - cos-ch01-003
   hogwarts-return:
   - poa-ch19-004
   hogwarts-security:
   - gof-ch01-004
+  - gof-ch02-006
   - ps-ch04-005
   - ps-ch05-001
   hogwarts-staff:
@@ -6315,6 +6412,7 @@ by_tag:
   - cos-ch01-005
   - cos-ch02-005
   - cos-ch03-001
+  - gof-ch02-003
   - poa-ch03-001
   holiday-contact:
   - cos-ch01-003
@@ -6453,6 +6551,7 @@ by_tag:
   in-universe-source:
   - cos-ch04-005
   - cos-ch13-004
+  - gof-ch02-005
   - poa-ch01-001
   - poa-ch02-004
   - ps-ch06-003
@@ -6567,6 +6666,8 @@ by_tag:
   - cos-ch10-001
   - ps-ch11-003
   lightning-scar:
+  - gof-ch02-001
+  - gof-ch02-004
   - ps-ch02-001
   - ps-ch02-005
   lily-and-james:
@@ -6632,6 +6733,7 @@ by_tag:
   - ps-ch17-004
   magic-outside-school:
   - cos-ch01-005
+  - gof-ch02-003
   magic-restriction:
   - cos-ch07-005
   magical-architecture:
@@ -6663,8 +6765,12 @@ by_tag:
   - ps-ch03-004
   magical-entrance:
   - poa-ch03-003
+  magical-injury:
+  - gof-ch02-001
   magical-instruments:
   - cos-ch12-001
+  magical-medicine:
+  - gof-ch02-005
   magical-memory-source:
   - cos-ch17-002
   magical-menagerie:
@@ -6824,6 +6930,8 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-001
   - cos-ch12-004
+  moving-pictures:
+  - gof-ch02-002
   moving-staircase:
   - cos-ch11-007
   - cos-ch13-006
@@ -6857,6 +6965,7 @@ by_tag:
   - cos-ch03-004
   - cos-ch05-001
   - gof-ch01-002
+  - gof-ch02-003
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -6953,6 +7062,7 @@ by_tag:
   - cos-ch02-005
   - cos-ch03-003
   - cos-ch06-001
+  - gof-ch02-005
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -7272,6 +7382,8 @@ by_tag:
   - poa-ch15-006
   - ps-ch05-006
   - ps-ch09-003
+  quidditch-books:
+  - gof-ch02-002
   quidditch-cup:
   - poa-ch08-002
   - poa-ch09-006
@@ -7386,6 +7498,8 @@ by_tag:
   scabbers:
   - poa-ch19-004
   - poa-ch19-006
+  school-absence-cover:
+  - gof-ch02-003
   school-awards:
   - cos-ch13-002
   school-brooms:
@@ -7443,6 +7557,7 @@ by_tag:
   school-materials:
   - cos-ch01-002
   - cos-ch03-005
+  - gof-ch02-002
   - poa-ch01-002
   school-oversight:
   - cos-ch14-006
@@ -7570,6 +7685,7 @@ by_tag:
   sir-patrick-delaney-podmore:
   - cos-ch08-001
   sirius-black:
+  - gof-ch02-006
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -7660,6 +7776,7 @@ by_tag:
   spellbooks:
   - cos-ch01-002
   - cos-ch03-005
+  - gof-ch02-002
   - poa-ch01-002
   spiral-staircase:
   - ps-ch14-006
@@ -7842,6 +7959,7 @@ by_tag:
   summer-homework:
   - cos-ch01-002
   - cos-ch03-005
+  - gof-ch02-002
   summer-residence:
   - cos-ch13-007
   supervised-training:
@@ -7979,6 +8097,7 @@ by_tag:
   - cos-ch02-005
   - cos-ch03-001
   - cos-ch05-005
+  - gof-ch02-003
   - poa-ch02-003
   - poa-ch03-001
   underground-harbor:
@@ -8022,10 +8141,12 @@ by_tag:
   - gof-ch01-003
   - gof-ch01-004
   - gof-ch01-005
+  - gof-ch02-001
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
   voldemort-fall:
+  - gof-ch02-004
   - ps-ch01-001
   - ps-ch01-003
   - ps-ch02-005
@@ -8097,6 +8218,7 @@ by_tag:
   wizarding-celebrations:
   - ps-ch01-001
   wizarding-fame:
+  - gof-ch02-004
   - ps-ch01-004
   - ps-ch02-006
   wizarding-families:
@@ -8118,6 +8240,7 @@ by_tag:
   world-cup-1473:
   - ps-ch11-002
   wormtail:
+  - gof-ch02-006
   - poa-ch14-007
   - poa-ch18-006
   written-papers:

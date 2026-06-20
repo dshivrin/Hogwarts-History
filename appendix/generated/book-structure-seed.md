@@ -174,6 +174,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Owl Post and School Contact
   - Intercepted Holiday Correspondence
   - Suppressed Holiday Contact
+- Harry Potter and Voldemort's Return
+  - Curse Scars and Voldemort Proximity
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
@@ -186,6 +188,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pettigrew's Concealed Animagus Identity
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
+- The Fall of Voldemort
+  - Harry Potter's Fame at Hogwarts
+- The Sirius Black Crisis
+  - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
   - Ministry Information Leaks and Memory Charm Limits
 - The Wizarding War and Hogwarts Memory
@@ -371,6 +377,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Warnings and School Return Problems
   - Ministry Warnings, Reversal, and Expulsion Discretion
   - Muggle Artifact Law and Secrecy Context
+  - Muggle Cover Stories and Outside-School Magic
 - Hospital Wing Authority and Student Care
   - Patient Privacy and Continued Classwork
 - House Points as Discipline and Reward
@@ -454,6 +461,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Named In-Universe Sources
   - Bathilda Bagshot's A History of Magic
   - Informal Historical Expertise
+  - Magical Medical References and Student Problem-Solving
+  - Quidditch Books and Moving Illustrations
 - Named Sources About Hogwarts
   - Prefect Career Studies
 - Newspapers, Notices, and Public Wizarding Sources
