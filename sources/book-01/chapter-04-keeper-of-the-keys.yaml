@@ -1,0 +1,307 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  boundary_confidence: high
+  boundary_notes: Chapter Four start was taken from the known Chapter Three/Four boundary and confirmed on PDF page 50; Chapter Five - Diagon Alley was found by scanning a small bounded window after that anchor and begins on PDF page 62. Only PDF pages 50-61 were extracted and searched.
+  processed_date: '2026-06-12'
+  processor_notes: "Processed only Book 1, Chapter Four. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ps-ch04-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 51
+  printed_page: not available
+  extracted_text_lines: PDF page 51, lines 30-31; PDF page 52, lines 24-26
+  text_anchor:
+    start_phrase: Rubeus Hagrid
+    end_phrase: Keeper of Keys at Hogwarts
+    local_occurrence_note: Hagrid introduces himself in the sea-rock shack after giving Harry the birthday cake.
+  nearby_context: Hagrid identifies himself to Harry as Rubeus Hagrid and gives his Hogwarts office as Keeper of Keys and Grounds, then repeats that he is Keeper of Keys at Hogwarts.
+  match_terms:
+  - Hagrid
+  - Keeper of Keys
+  - Grounds
+  - Hogwarts
+  - staff
+  quote_excerpt_short: "Keeper of Keys and Grounds at Hogwarts"
+  source_note: Hagrid's own introduction establishes his formal Hogwarts-associated role as Keeper of Keys and Grounds.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hagrid
+  - keeper-of-keys
+  - grounds
+  - hogwarts-staff
+  - gamekeeping-cross-reference
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Grounds and Edge of the Forest
+  candidate_section: Hagrid's Grounds Duties
+  reason_for_placement: The passage directly names a Hogwarts office connected to keys and grounds, later reinforced by Hagrid's gamekeeping duties.
+  relevance_to_hogwarts_a_history: This supplies a staff-role anchor for future coverage of Hogwarts grounds management and Hagrid's institutional position.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter One records Dumbledore's trust in Hagrid, but does not name Hagrid's Hogwarts office.
+  confidence: high
+  limitations: The title is not explained beyond Hagrid's self-identification, and the passage does not define ordinary duties.
+- id: ps-ch04-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 54
+  printed_page: not available
+  extracted_text_lines: PDF page 54, lines 19-33; PDF page 55, lines 1-6
+  text_anchor:
+    start_phrase: it is about time yeh read yer letter
+    end_phrase: Minerva McGonagall, Deputy Headmistress
+    local_occurrence_note: Harry reads the Hogwarts acceptance letter after Hagrid tells him he is a wizard.
+  nearby_context: Hagrid gives Harry the letter addressed to the sea-rock hut; the letter names Hogwarts School of Witchcraft and Wizardry, Dumbledore as Headmaster, acceptance, required books and equipment, the September 1 term date, owl response deadline, and McGonagall as Deputy Headmistress.
+  match_terms:
+  - acceptance letter
+  - Hogwarts School of Witchcraft and Wizardry
+  - Albus Dumbledore
+  - Minerva McGonagall
+  - Deputy Headmistress
+  - September 1
+  - owl
+  quote_excerpt_short: "accepted at Hogwarts School of Witchcraft and Wizardry"
+  source_note: Harry's opened letter gives the institutional wording of a Hogwarts acceptance letter and identifies the headmaster, deputy headmistress, response deadline, and term start.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-letters
+  - admissions
+  - term-dates
+  - headmaster
+  - deputy-headmistress
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Acceptance Letters and Term Dates
+  reason_for_placement: The letter itself is an in-universe school document that gives core admissions language and first-year preparation timing.
+  relevance_to_hogwarts_a_history: This is direct evidence for Hogwarts admissions correspondence and the school calendar as presented to a new student.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Three records the envelope and delivery escalation; this entry records the letter contents after Harry opens it.
+  confidence: high
+  limitations: The enclosed equipment list begins in the next chapter, so this entry records only the acceptance letter body.
+- id: ps-ch04-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 55
+  printed_page: not available
+  extracted_text_lines: PDF page 55, lines 10-22
+  text_anchor:
+    start_phrase: Gallopin' Gorgons, that reminds me
+    end_phrase: as normal as talking on the telephone
+    local_occurrence_note: Immediately after Harry asks what the acceptance letter means by awaiting his owl.
+  nearby_context: Hagrid produces an owl, quill, and parchment, then sends Dumbledore a note saying Harry has received his letter and that Hagrid will take him to buy his school things the next day.
+  match_terms:
+  - owl
+  - Professor Dumbledore
+  - Given Harry his letter
+  - buy his things
+  - Hagrid
+  quote_excerpt_short: "Given Harry his letter."
+  source_note: Hagrid reports the successful delivery of Harry's letter to Dumbledore by owl and frames the next step as buying school supplies.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - admissions
+  - owl-post
+  - dumbledore
+  - hagrid
+  - school-supplies
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Follow-Up and School-Supply Preparation
+  reason_for_placement: The passage shows immediate administrative follow-up after a difficult letter delivery and connects acceptance to supervised supply purchase.
+  relevance_to_hogwarts_a_history: This supports a future discussion of admissions logistics, owl communication, and staff intervention when ordinary letter delivery fails.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Three sets up the midnight contact; this entry identifies the follow-up mission and report to Dumbledore.
+  confidence: medium
+  limitations: The passage may reflect Harry's exceptional circumstances rather than ordinary admissions procedure.
+- id: ps-ch04-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 56
+  printed_page: not available
+  extracted_text_lines: PDF page 56, lines 14-28
+  text_anchor:
+    start_phrase: Of course we knew!
+    end_phrase: Then she met that Potter at school
+    local_occurrence_note: Petunia explains her knowledge of Lily's magical identity after Harry learns he is a wizard.
+  nearby_context: Petunia says Lily received a letter like Harry's, attended the same school, returned during vacations with magic, and met James Potter there.
+  match_terms:
+  - letter
+  - school
+  - Lily
+  - witch
+  - vacations
+  - James Potter
+  quote_excerpt_short: "got a letter just like that"
+  source_note: Petunia's hostile recollection confirms that Lily Evans also received a Hogwarts-style letter and attended the school before Harry's birth.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - lily-evans
+  - hogwarts-letters
+  - admissions
+  - school-vacations
+  - james-potter
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Earlier Generations and Hogwarts Letters
+  reason_for_placement: The passage extends the acceptance-letter evidence back to Lily's generation and links school attendance with recurring vacation returns.
+  relevance_to_hogwarts_a_history: This is useful historical support that Hogwarts letters and term/vacation patterns predate Harry's own admission.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed records Lily receiving a Hogwarts-style letter or Petunia's memory of Lily's school attendance.
+  confidence: medium
+  limitations: Petunia is hostile and imprecise; the passage does not quote Lily's letter or name Hogwarts directly in Petunia's line.
+- id: ps-ch04-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 57
+  printed_page: not available
+  extracted_text_lines: PDF page 57, lines 15-32
+  text_anchor:
+    start_phrase: there was this wizard who went
+    end_phrase: Head boy an' girl at Hogwarts in their day
+    local_occurrence_note: Hagrid explains Voldemort and the First Wizarding War to Harry in the hut.
+  nearby_context: Hagrid says Voldemort gathered followers about twenty years earlier, that terrible things happened, that Hogwarts was one of the only safe places left, that Voldemort feared Dumbledore and did not try taking the school then, and that Lily and James were Head Boy and Girl at Hogwarts.
+  match_terms:
+  - Voldemort
+  - followers
+  - Hogwarts
+  - Dumbledore
+  - safe places
+  - Head boy
+  - Head girl
+  quote_excerpt_short: "one o' the only safe places left was Hogwarts"
+  source_note: Hagrid frames Hogwarts as a rare safe place during Voldemort's rise and connects Dumbledore's feared reputation to Voldemort's reluctance to attack the school at that time.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - first-wizarding-war
+  - hogwarts-security
+  - dumbledore
+  - voldemort
+  - lily-and-james
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: Dumbledore and the First Wizarding War
+  candidate_section: Hogwarts as a Wartime Safe Place
+  reason_for_placement: The passage gives a pre-Harry historical claim about Hogwarts' wartime status and Dumbledore's deterrent role.
+  relevance_to_hogwarts_a_history: This could support later editorial context on Hogwarts during the First Wizarding War, while remaining separate from the original in-universe book unless later sources confirm coverage.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch01-002
+    notes: Chapter One already records McGonagall's claim that Voldemort feared Dumbledore; this entry corroborates that claim and adds Hogwarts as a wartime safe place.
+  confidence: medium
+  limitations: Hagrid's explanation is broad oral history and does not identify a written source or formal protective measures.
+- id: ps-ch04-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 60
+  printed_page: not available
+  extracted_text_lines: PDF page 60, lines 21-30
+  text_anchor:
+    start_phrase: If he wants ter go
+    end_phrase: greatest headmaster Hogwarts ever had
+    local_occurrence_note: Hagrid answers Vernon's claim that Harry will not attend Hogwarts.
+  nearby_context: Hagrid says Harry's name has been down since birth, calls Hogwarts the finest school of witchcraft and wizardry, describes seven years of schooling, and names Dumbledore as the greatest headmaster Hogwarts has had.
+  match_terms:
+  - name's been down
+  - since he was born
+  - finest school
+  - seven years
+  - headmaster
+  - Dumbledore
+  quote_excerpt_short: "name's been down ever since he was born"
+  source_note: Hagrid claims that Harry has been registered for Hogwarts since birth and describes Hogwarts education as a seven-year course under Dumbledore's headmastership.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - admissions
+  - student-registry
+  - seven-year-education
+  - dumbledore
+  - headmaster
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Student Names and Seven-Year Schooling
+  reason_for_placement: The passage suggests a pre-letter registration mechanism and gives the clearest chapter evidence for Hogwarts' seven-year schooling structure.
+  relevance_to_hogwarts_a_history: This supports the future admissions chapter and may require later confirmation about how Hogwarts records prospective students.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed records birth-time registration or the seven-year description of Hogwarts education.
+  confidence: medium
+  limitations: Hagrid does not explain who maintains the register or whether every magical child is recorded at birth in the same way.
+- id: ps-ch04-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Four - The Keeper of the Keys
+  chapter_start_pdf_page: 50
+  chapter_end_pdf_page: 61
+  pdf_page: 61
+  printed_page: not available
+  extracted_text_lines: PDF page 61, lines 12-24
+  text_anchor:
+    start_phrase: Shouldn'ta lost me temper
+    end_phrase: Dumbledore let me stay on as gamekeeper
+    local_occurrence_note: After Hagrid uses the pink umbrella on Dudley, Harry asks why Hagrid is not supposed to do magic.
+  nearby_context: Hagrid says he is not supposed to do magic, was allowed to do some while following Harry and getting his letters to him, then says he attended Hogwarts, was expelled in his third year, had his wand snapped, and was allowed by Dumbledore to stay as gamekeeper.
+  match_terms:
+  - not supposed to do magic
+  - follow yeh
+  - get yer letters
+  - Hogwarts
+  - expelled
+  - wand
+  - gamekeeper
+  quote_excerpt_short: "got expelled...in me third year"
+  source_note: Hagrid links his current magic restriction to a past Hogwarts expulsion, wand-snapping, and Dumbledore's decision to retain him as gamekeeper.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - hagrid
+  - expulsion
+  - wand-discipline
+  - gamekeeper
+  - dumbledore
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: Expulsion, Wand Sanctions, and Staff Retention
+  reason_for_placement: The passage gives concrete evidence for severe school discipline and a later staff-retention decision connected to Hogwarts governance.
+  relevance_to_hogwarts_a_history: This is important supporting material for institutional discipline, Hagrid's biography, and the gamekeeper role, though it may belong partly in later editorial notes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Later chapters mention Hagrid as gamekeeper; this entry records the expulsion, wand sanction, and Dumbledore's retention decision.
+  confidence: high
+  limitations: Hagrid avoids explaining the reason for expulsion in this chapter.

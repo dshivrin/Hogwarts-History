@@ -1,0 +1,318 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  boundary_confidence: high
+  boundary_notes: Chapter Six range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Five boundary. Book 3 Chapter Six starts on PDF page 653 and Chapter Seven starts on PDF page 675, so only PDF pages 653-674 were extracted and searched.
+  processed_date: '2026-06-19'
+  processor_notes: "Processed only Book 3, Chapter Six. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch06-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 654
+  printed_page: not available
+  extracted_text_lines: PDF page 654, lines 20-39; PDF page 655, lines 2-7
+  text_anchor:
+    start_phrase: Hermione was examining her new schedule
+    end_phrase: fixed it all with Professor McGonagall
+    local_occurrence_note: Great Hall breakfast before Hagrid reaches the staff table and students leave for Divination.
+  nearby_context: Hermione's third-year timetable lists Divination, Muggle Studies, and Arithmancy at the same nine o'clock slot, while she says she has arranged the problem with Professor McGonagall.
+  match_terms:
+  - course schedule
+  - new subjects
+  - Divination
+  - Muggle Studies
+  - Arithmancy
+  - Professor McGonagall
+  quote_excerpt_short: "Divination. And underneath, nine o'clock, Muggle Studies."
+  source_note: The chapter confirms active third-year elective scheduling and shows Hermione's exceptional overloaded timetable being handled through McGonagall.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - third-year-subjects
+  - electives
+  - course-schedules
+  - divination
+  - muggle-studies
+  - arithmancy
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Elective Selection
+  reason_for_placement: The passage moves elective evidence from booklists and shopping into an active timetable, showing how third-year subjects are scheduled and where exceptional loads need staff arrangement.
+  relevance_to_hogwarts_a_history: This supports future coverage of academic progression, elective breadth, and the administrative handling of unusual student course loads.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch04-004
+    notes: Book 3 Chapter Four records Hermione buying books for these electives and explains Muggle Studies; this entry corroborates active enrollment and adds the schedule-conflict evidence.
+  confidence: high
+  limitations: Hermione's workload is explicitly exceptional and should not be treated as a normal third-year timetable.
+- id: poa-ch06-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 656
+  printed_page: not available
+  extracted_text_lines: PDF page 655, lines 20-31; PDF page 656, lines 2-31; PDF page 657, lines 2-24
+  text_anchor:
+    start_phrase: Divination's at the top of North Tower
+    end_phrase: a silvery ladder descended right at Harry's feet
+    local_occurrence_note: Route from the Great Hall to the North Tower classroom before the first Divination lesson.
+  nearby_context: The students struggle to find North Tower despite two years at Hogwarts, follow Sir Cadogan through moving portraits, climb a narrow spiral staircase, and reach a ceiling trapdoor whose ladder descends.
+  match_terms:
+  - North Tower
+  - seventh long staircase
+  - Hogwarts paintings
+  - Sir Cadogan
+  - narrow spiral staircase
+  - trapdoor
+  - silvery ladder
+  quote_excerpt_short: "call upon Sir Cadogan"
+  source_note: The chapter adds a concrete North Tower route, a named portrait figure who moves through frames to guide students, and a magical trapdoor-ladder entrance to the Divination classroom.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - north-tower
+  - sir-cadogan
+  - portraits
+  - staircases
+  - divination-classroom
+  - castle-navigation
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Changing Staircases and Responsive Doors
+  candidate_section: Navigating the Castle
+  reason_for_placement: The passage expands castle-navigation evidence with a specific upper-tower route, portrait mobility used for wayfinding, and a classroom entrance that responds to students.
+  relevance_to_hogwarts_a_history: This supports sections on castle navigation, magical portrait behavior, tower classrooms, and how difficult the castle remains even for returning students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001
+    notes: Book 1 Chapter Eight seeded general staircases, doors, portraits, and castle navigation; this entry adds North Tower, Sir Cadogan, and the Divination trapdoor-ladder route.
+  confidence: high
+  limitations: The source does not date the North Tower classroom entrance, Sir Cadogan's installation, or the route's stability across school years.
+- id: poa-ch06-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 659
+  printed_page: not available
+  extracted_text_lines: PDF page 658, lines 21-31; PDF page 659, lines 2-32; PDF page 660, lines 2-4 and 19-31
+  text_anchor:
+    start_phrase: Welcome to Divination
+    end_phrase: You will interpret the patterns using pages five and six
+    local_occurrence_note: Trelawney's opening explanation and first tea-leaf exercise in the tower classroom.
+  nearby_context: Trelawney says Divination depends on the Sight, outlines the year's basic methods, assigns tea-leaf reading, palmistry, crystal balls, fire omens, and has students use Unfogging the Future to interpret cup patterns.
+  match_terms:
+  - Divination
+  - Sight
+  - tea leaves
+  - palmistry
+  - crystal ball
+  - fire omens
+  - Unfogging the Future
+  quote_excerpt_short: "Books can take you only so far"
+  source_note: The chapter supplies the first live Divination syllabus evidence and connects the lesson to a named course text, Unfogging the Future.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - professor-trelawney
+  - sight
+  - unfogging-the-future
+  - tea-leaves
+  - palmistry
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Divination and Third-Year Electives
+  reason_for_placement: The passage gives subject content, teacher claims about aptitude, term sequencing, and a named textbook for a third-year elective.
+  relevance_to_hogwarts_a_history: This can support a future academic-life section on elective subjects and how Hogwarts distinguishes textbook learning from claimed innate magical gifts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch04-003
+    notes: Book 3 Chapter Four confirms Unfogging the Future as a third-year Divination text; this entry adds its use in class and the year plan for tea leaves, palmistry, crystal balls, and fire omens.
+  confidence: high
+  limitations: Trelawney's statements mix syllabus information with personal pedagogy and predictions, so later evidence should separate formal curriculum from her teaching style.
+- id: poa-ch06-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 664
+  printed_page: not available
+  extracted_text_lines: PDF page 663, lines 14-23 and 26-35; PDF page 664, lines 2-10
+  text_anchor:
+    start_phrase: telling them about Animagi
+    end_phrase: True Seers are very rare
+    local_occurrence_note: Transfiguration class immediately after the first Divination lesson and the tea-leaf death omen.
+  nearby_context: McGonagall demonstrates Animagus transformation in Transfiguration, then tells the class that Trelawney predicts one student death per year, calls Divination imprecise, and says True Seers are rare.
+  match_terms:
+  - Animagi
+  - Transfiguration
+  - Professor McGonagall
+  - Divination
+  - Sybill Trelawney
+  - True Seers
+  quote_excerpt_short: "True Seers are very rare"
+  source_note: The chapter frames Animagi as Transfiguration subject matter and gives McGonagall's faculty perspective that Divination is an imprecise branch of magic, distinct from the rare status of true seers.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - transfiguration
+  - animagi
+  - divination
+  - true-seers
+  - professor-mcgonagall
+  - professor-trelawney
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Divination and Third-Year Electives
+  reason_for_placement: The passage cross-checks Trelawney's subject claims against another teacher's disciplinary judgment and preserves Animagi as explicit Transfiguration content.
+  relevance_to_hogwarts_a_history: This helps a future curriculum chapter handle contested or imprecise magical subjects without treating one teacher's claims as institutional consensus.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch15-007
+    notes: Book 1 Chapter Fifteen already records Hermione citing McGonagall's view that fortune-telling is imprecise; this entry gives McGonagall's direct statement in a class context and adds True Seers plus Animagi instruction.
+  confidence: high
+  limitations: The evidence reflects McGonagall's opinion and teaching moment; it does not define a formal Hogwarts policy on Divination.
+- id: poa-ch06-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 666
+  printed_page: not available
+  extracted_text_lines: PDF page 665, lines 25-31; PDF page 666, lines 2-34; PDF page 667, lines 2-14
+  text_anchor:
+    start_phrase: first-ever Care of Magical Creatures class
+    end_phrase: He strode away from them into the forest
+    local_occurrence_note: Students leave the castle after lunch and arrive at Hagrid's hut for the first Care of Magical Creatures lesson.
+  nearby_context: Gryffindors and Slytherins attend Care of Magical Creatures together near Hagrid's hut at the edge of the Forbidden Forest; Hagrid uses a paddock and explains how to open The Monster Book of Monsters.
+  match_terms:
+  - Care of Magical Creatures
+  - Hagrid's hut
+  - Forbidden Forest
+  - Slytherins
+  - paddock
+  - The Monster Book of Monsters
+  - stroke
+  quote_excerpt_short: "first-ever Care of Magical Creatures class"
+  source_note: The chapter confirms the physical location and cross-House pairing of the first third-year Care of Magical Creatures lesson and gives the handling method for the assigned biting textbook.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - hagrid
+  - hagrids-hut
+  - forbidden-forest
+  - monster-book-of-monsters
+  - cross-house-classes
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures
+  candidate_section: Course Books and Dangerous Texts
+  reason_for_placement: The passage confirms class location, course logistics, and the course text's practical handling as part of a live magical-creature lesson.
+  relevance_to_hogwarts_a_history: This strengthens curriculum and grounds-use evidence for Care of Magical Creatures, including the risks and expectations of practical outdoor teaching.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-006
+    notes: Book 3 Chapter One introduces The Monster Book of Monsters as a hazardous likely course text; this entry confirms its classroom use and explains the stroking method.
+  confidence: high
+  limitations: The lesson reflects Hagrid's first day as teacher and may not represent long-standing Care of Magical Creatures pedagogy.
+- id: poa-ch06-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 668
+  printed_page: not available
+  extracted_text_lines: PDF page 667, lines 21-32; PDF page 668, lines 2-31; PDF page 669, lines 2-30; PDF page 670, lines 2-27
+  text_anchor:
+    start_phrase: Hippogriffs!
+    end_phrase: people were bowing nervously, all over the paddock
+    local_occurrence_note: Hagrid introduces the hippogriffs and supervises Harry's first approach and ride.
+  nearby_context: Hagrid brings a dozen chained hippogriffs into the paddock, teaches respect, eye contact, bowing, permission to touch, and riding position, then has the class practice after Harry succeeds with Buckbeak.
+  match_terms:
+  - Hippogriffs
+  - Buckbeak
+  - bow
+  - eye contact
+  - talons
+  - ride
+  - paddock
+  quote_excerpt_short: "you always wait for the hippogriff"
+  source_note: The chapter gives detailed practical creature-handling instruction for hippogriffs and shows Hogwarts students learning through supervised contact with dangerous live creatures.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hippogriffs
+  - buckbeak
+  - creature-handling
+  - care-of-magical-creatures
+  - hagrid
+  - student-safety
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures
+  candidate_section: Live Creature Handling and Safety
+  reason_for_placement: The passage supplies the strongest practical lesson evidence so far for live-creature etiquette, risk, and supervised student participation.
+  relevance_to_hogwarts_a_history: This can support a future treatment of magical-creature curriculum, especially how Hogwarts teaches respect-based handling of intelligent or pride-sensitive creatures.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch08-003
+    notes: Book 2 Chapter Eight records Care of Magical Creatures via a salamander taken from class; this entry adds a full live hippogriff lesson, Hagrid's safety instructions, and student riding practice.
+  confidence: high
+  limitations: This is one teacher's first lesson and the later injury shows that the adequacy of safety procedures is disputed.
+- id: poa-ch06-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Six - Talons and Tea Leaves
+  chapter_start_pdf_page: 653
+  chapter_end_pdf_page: 674
+  pdf_page: 673
+  printed_page: not available
+  extracted_text_lines: PDF page 671, lines 2-26; PDF page 672, lines 2-13; PDF page 673, lines 5-19
+  text_anchor:
+    start_phrase: It happened in a flash of steely talons
+    end_phrase: We'll tell Dumbledore what really happened
+    local_occurrence_note: After Malfoy insults Buckbeak during Hagrid's first Care of Magical Creatures lesson.
+  nearby_context: Buckbeak injures Malfoy after the warning not to insult hippogriffs; Malfoy is taken toward the castle, Madam Pomfrey treats him, school governors are told, and students offer to give Dumbledore witness evidence.
+  match_terms:
+  - steely talons
+  - Madam Pomfrey
+  - School governors
+  - hippogriffs
+  - flobberworms
+  - Dumbledore
+  - witnesses
+  quote_excerpt_short: "School gov'nors have bin told"
+  source_note: The chapter shows a classroom injury triggering hospital-wing treatment, governor attention, and concern about whether a teacher's lesson plan was too advanced for students.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - care-of-magical-creatures
+  - student-injury
+  - school-governors
+  - madam-pomfrey
+  - dumbledore
+  - teacher-accountability
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Governors, Public Pressure, and Crisis Accountability
+  reason_for_placement: The passage links classroom safety, hospital treatment, teacher accountability, governors, and Dumbledore-facing witness evidence after a student injury.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on how Hogwarts handles practical-class risks and how parents or governors may pressure staff after student injuries.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch12-006
+    notes: Book 2 Chapter Twelve introduces governors as external school oversight; this entry adds governor attention to a class-injury and teacher-accountability dispute.
+  confidence: high
+  limitations: Hagrid reports the governors' reaction secondhand, and the incident is Harry-era staff context rather than original-book historical content.

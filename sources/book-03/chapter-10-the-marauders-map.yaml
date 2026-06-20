@@ -1,0 +1,281 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  boundary_confidence: high
+  boundary_notes: Chapter Ten range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Nine boundary. Book 3 Chapter Ten starts on PDF page 726 and Chapter Eleven starts on PDF page 749, so only PDF pages 726-748 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Ten. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch10-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  pdf_page: 728
+  printed_page: not available
+  extracted_text_lines: PDF page 728, lines 2-23
+  text_anchor:
+    start_phrase: We don't know anything about werewolves
+    end_phrase: Lures travelers into bogs
+    local_occurrence_note: Start of Lupin's first lesson back after Snape's substitute class.
+  nearby_context: Students complain that Snape assigned a two-roll werewolf essay before they had covered werewolves; Lupin cancels the essay and resumes his own planned sequence with a hinkypunk lesson using a boxed specimen.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Professor Lupin
+  - Professor Snape
+  - werewolves
+  - homework
+  - essay
+  - hinkypunk
+  quote_excerpt_short: "You don't have to do the essay"
+  source_note: The chapter clarifies that Lupin regards Snape's werewolf essay as outside the class's current coverage and resumes third-year Defense Against the Dark Arts with hinkypunks.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - professor-snape
+  - werewolves
+  - hinkypunks
+  - homework
+  - curriculum-sequence
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Creature Sequence
+  reason_for_placement: The passage extends the third-year Defense Against the Dark Arts sequence and distinguishes Lupin's planned progression from Snape's substitute assignment.
+  relevance_to_hogwarts_a_history: This helps future curriculum coverage track subject sequencing, substitute-teacher disruption, and practical creature study in Harry-era Defense Against the Dark Arts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-005
+    notes: Book 3 Chapter Nine records Snape assigning werewolf homework after skipping ahead; this entry adds Lupin's cancellation of that essay and the return to a hinkypunk lesson.
+  confidence: high
+  limitations: The passage confirms Lupin's sequence for this class but does not prove the sequence was standard across all years or teachers.
+- id: poa-ch10-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  pdf_page: 729
+  printed_page: not available
+  extracted_text_lines: PDF page 729, lines 3-8
+  text_anchor:
+    start_phrase: They planted the Whomping Willow
+    end_phrase: No broomstick would have a chance
+    local_occurrence_note: Lupin explains the tree after Harry says his broom was destroyed.
+  nearby_context: Lupin says the Whomping Willow was planted the year he arrived at Hogwarts, describes a student game of trying to touch the trunk, and says students were forbidden to go near it after Davey Gudgeon nearly lost an eye.
+  match_terms:
+  - Whomping Willow
+  - planted
+  - Hogwarts
+  - Davey Gudgeon
+  - forbidden
+  - broomstick
+  quote_excerpt_short: "They planted the Whomping Willow"
+  source_note: Lupin dates the Whomping Willow to his own arrival year at Hogwarts and describes a resulting student safety prohibition after an injury.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - whomping-willow
+  - hogwarts-grounds
+  - magical-tree
+  - grounds-hazards
+  - student-safety
+  - remus-lupin
+  - davey-gudgeon
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Grounds and Edge of the Forest
+  candidate_section: The Whomping Willow
+  reason_for_placement: The passage adds the first dated planting evidence and a historical student-safety rule for a major magical grounds feature.
+  relevance_to_hogwarts_a_history: This is a strong candidate for a grounds-history section because it moves the Whomping Willow from observed Harry-era hazard to a dated pre-Harry Hogwarts feature.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch05-003
+    notes: Book 2 Chapter Five records the Whomping Willow as an old valuable tree on the grounds; this entry adds Lupin's planting-date claim and the Davey Gudgeon safety prohibition.
+  confidence: high
+  limitations: Lupin does not state the calendar year or the reason the tree was planted in this passage.
+- id: poa-ch10-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  pdf_page: 734
+  printed_page: not available
+  extracted_text_lines: PDF page 733, lines 14-26; PDF page 734, lines 2-38
+  text_anchor:
+    start_phrase: Confiscated and Highly Dangerous
+    end_phrase: We owe them so much
+    local_occurrence_note: Fred and George explain the map's origin and reveal its castle-and-grounds display.
+  nearby_context: Fred and George say they stole the parchment from Filch's confiscated dangerous-items drawer, activate it with a wand phrase, and reveal a map of Hogwarts castle and grounds showing named moving dots, staff locations, Peeves, Mrs. Norris, and hidden passages.
+  match_terms:
+  - Marauder's Map
+  - Confiscated and Highly Dangerous
+  - Hogwarts castle and grounds
+  - Professor Dumbledore
+  - Mrs. Norris
+  - Peeves
+  - secret passages
+  - Filch
+  quote_excerpt_short: "every detail of the Hogwarts castle and grounds"
+  source_note: The chapter introduces the Marauder's Map as a confiscated magical object that displays Hogwarts castle and grounds, tracks named occupants, and reveals secret passages.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - marauders-map
+  - castle-map
+  - secret-passages
+  - hogwarts-grounds
+  - filch
+  - peeves
+  - magical-surveillance
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map
+  reason_for_placement: The passage gives uniquely concrete evidence for a magical representation of Hogwarts geography, occupant movement, and concealed route knowledge.
+  relevance_to_hogwarts_a_history: This supports future coverage of castle mapping, secret passageways, and the limits of official versus student-held knowledge of Hogwarts architecture.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch05-002
+    notes: Book 3 Chapter Five records student talk about secret passages out of the castle; this entry adds the Marauder's Map, named tracking dots, Filch's confiscation, and seven mapped Hogsmeade passages.
+  confidence: high
+  limitations: The source does not yet identify the mapmakers, creation date, or whether all mapped routes were original castle architecture.
+- id: poa-ch10-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  pdf_page: 736
+  printed_page: not available
+  extracted_text_lines: PDF page 735, lines 23-35; PDF page 736, lines 2-36; PDF page 737, lines 11-16
+  text_anchor:
+    start_phrase: Harry traced the secret passage to Honeydukes
+    end_phrase: found himself behind the counter of Honeydukes
+    local_occurrence_note: Harry follows the Marauder's Map from the one-eyed witch statue to Honeydukes.
+  nearby_context: The map prompts Harry to tap the one-eyed witch statue with the Dissendium spell, opening the statue's hump into a slide and narrow earthy passage that rises to worn stone steps and a hidden trapdoor in Honeydukes' cellar.
+  match_terms:
+  - Honeydukes
+  - secret passage
+  - one-eyed witch
+  - Dissendium
+  - stone slide
+  - trapdoor
+  - cellar
+  quote_excerpt_short: "Dissendium"
+  source_note: The chapter maps one concrete secret route from Hogwarts to Hogsmeade, including its concealed castle entrance, activation spell, long underground passage, and hidden Honeydukes cellar trapdoor.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - secret-passages
+  - honeydukes
+  - hogsmeade
+  - one-eyed-witch
+  - dissendium
+  - hidden-trapdoor
+  - castle-navigation
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Honeydukes Passage
+  reason_for_placement: The passage gives specific physical evidence for a concealed route linking the castle interior to Hogsmeade.
+  relevance_to_hogwarts_a_history: This is important later-editorial evidence for undocumented or semi-documented castle routes and the security implications of external Hogsmeade access.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch05-002
+    notes: Book 3 Chapter Five mentions secret passages as a possible Hogsmeade workaround; this entry identifies one route's entrance, spell, underground path, and Honeydukes endpoint.
+  confidence: high
+  limitations: The route is illicitly used by students, and the passage does not explain who built it, who maintains it, or whether Hogwarts staff know the endpoint.
+- id: poa-ch10-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  pdf_page: 739
+  printed_page: not available
+  extracted_text_lines: PDF page 739, lines 9-26
+  text_anchor:
+    start_phrase: BY ORDER OF THE MINISTRY OF MAGIC
+    end_phrase: He hasn't got a signed form
+    local_occurrence_note: Honeydukes scene after Harry uses the secret passage into Hogsmeade.
+  nearby_context: A Ministry notice says dementors patrol Hogsmeade streets after sundown for resident safety until Black is recaptured; Hermione objects that Harry still lacks the signed Hogsmeade permission form.
+  match_terms:
+  - Ministry of Magic
+  - dementors
+  - Hogsmeade
+  - safety
+  - Sirius Black
+  - signed form
+  quote_excerpt_short: "He hasn't got a signed form"
+  source_note: The chapter shows Hogsmeade operating under Ministry night patrols during the Black crisis while the school permission-form rule still applies to student visits.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogsmeade
+  - permission-form
+  - dementors
+  - ministry-of-magic
+  - student-movement
+  - security-threat
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage extends Hogsmeade visit evidence by showing how external security measures coexist with school permission rules.
+  relevance_to_hogwarts_a_history: This helps distinguish ordinary Hogsmeade weekend governance from crisis-era Ministry patrols affecting the village and student movement.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-003
+    notes: Book 3 Chapter Eight records Head-of-House collection and Filch checks for Hogsmeade permission forms; this entry adds a crisis-era Ministry notice and Hermione's continued objection to an unsigned visit.
+  confidence: high
+  limitations: The Ministry notice governs Hogsmeade residents and customers, not Hogwarts directly, and the chapter does not show official school enforcement in the village.
+- id: poa-ch10-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Ten - The Marauder's Map
+  chapter_start_pdf_page: 726
+  chapter_end_pdf_page: 748
+  pdf_page: 743
+  printed_page: not available
+  extracted_text_lines: PDF page 743, lines 4-31; PDF page 746, lines 18-31; PDF page 747, lines 14-17
+  text_anchor:
+    start_phrase: I remember him when he was a boy at Hogwarts
+    end_phrase: Black's been in Azkaban ever since
+    local_occurrence_note: Three Broomsticks conversation among Rosmerta, Fudge, McGonagall, Flitwick, and Hagrid.
+  nearby_context: Rosmerta, McGonagall, Flitwick, Fudge, and Hagrid discuss Sirius Black, James Potter, and Peter Pettigrew as Hogwarts students and recount the accepted public story of Black's betrayal, Pettigrew's death, and Black's imprisonment.
+  match_terms:
+  - Hogwarts
+  - Sirius Black
+  - James Potter
+  - Peter Pettigrew
+  - McGonagall
+  - Flitwick
+  - Fudge
+  - Order of Merlin
+  quote_excerpt_short: "ringleaders of their little gang"
+  source_note: The chapter preserves staff and local testimony about Black, James Potter, and Peter Pettigrew as former Hogwarts students, while also recording the then-accepted account of Black's crimes and Pettigrew's posthumous honor.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black
+  - james-potter
+  - peter-pettigrew
+  - hogwarts-alumni
+  - staff-memory
+  - first-wizarding-war
+  - order-of-merlin
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Alumni, War Memory, and Unreliable Testimony
+  candidate_section: Black, Potter, and Pettigrew in School Memory
+  reason_for_placement: The passage is less institutional than the other entries, but it records Hogwarts staff memory of notable alumni and a major pre-Harry public narrative later relevant to school security.
+  relevance_to_hogwarts_a_history: This should be treated as later editorial context for Hogwarts alumni and First Wizarding War memory, not as stable original-book history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed focuses on this Three Broomsticks oral-history account of Black, Potter, and Pettigrew as Hogwarts alumni.
+  confidence: medium
+  limitations: The account is partly based on incomplete or mistaken public belief at this point in the story and must be cross-checked with later chapters before being used as historical fact.

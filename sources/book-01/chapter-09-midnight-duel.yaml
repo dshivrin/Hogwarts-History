@@ -1,0 +1,364 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  boundary_confidence: high
+  boundary_notes: Chapter Nine title was located on PDF page 133; Chapter Ten - Halloween begins on PDF page 150, so only
+    pages 133-149 were searched for entries.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Nine. Text was extracted locally with pypdf into .tmp/ and searched with
+    rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry. The three-headed
+    dog is not named Fluffy in this chapter, so the entry avoids that unsupported name.'
+entries:
+- id: ps-ch09-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 134
+  printed_page: not available
+  extracted_text_lines: PDF page 134, lines 10-14
+  text_anchor:
+    start_phrase: Hermione Granger was almost as nervous about flying
+    end_phrase: Quidditch Through the Ages
+    local_occurrence_note: Breakfast before the first flying lesson, immediately before the mail arrives.
+  nearby_context: Hermione prepares for the first flying lesson by using a named library book for flying advice.
+  match_terms:
+  - library book
+  - Quidditch Through the Ages
+  - flying tips
+  - book
+  quote_excerpt_short: flying tips she’d gotten out of a library book
+  source_note: Hermione has consulted a library copy of Quidditch Through the Ages for flying advice before the first flying
+    lesson, showing student use of library books for practical school preparation.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library
+  - student-research
+  - quidditch-through-the-ages
+  - flying
+  - school-preparation
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Library Books
+  candidate_section: Practical Preparation from Published Sources
+  reason_for_placement: The passage names an in-universe book consulted by a student for schoolwork-adjacent preparation,
+    making it useful for future treatment of scholarship and library use at Hogwarts.
+  relevance_to_hogwarts_a_history: 'This is not a Hogwarts: A History reference, but it helps track how Hogwarts students
+    rely on library books and named magical publications.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate named-book/library-use entry found in the existing Chapter Seven or Chapter Eight seeds.
+  confidence: medium
+  limitations: The passage confirms one student using a library book but does not describe the library collection, borrowing
+    rules, or whether the book came from Hogwarts rather than another source.
+- id: ps-ch09-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 135
+  printed_page: not available
+  extracted_text_lines: PDF page 133, lines 8-11; PDF page 135, lines 7-29; PDF page 136, lines 1-7 and 21-24
+  text_anchor:
+    start_phrase: Flying lessons would be starting on Thursday
+    end_phrase: leave those brooms where they are
+    local_occurrence_note: Flying lesson notice and the first lesson on the grounds with Madam Hooch.
+  nearby_context: Gryffindor and Slytherin first-years attend their first flying lesson together on the school grounds.
+  match_terms:
+  - flying lessons
+  - Madam Hooch
+  - broomsticks
+  - school brooms
+  - Gryffindor
+  - Slytherin
+  - grounds
+  quote_excerpt_short: twenty broomsticks lying in neat lines
+  source_note: A notice announces flying lessons; first-year Gryffindors and Slytherins learn together on the grounds with
+    school brooms under Madam Hooch, who teaches mounting, grip, takeoff, and landing instructions.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - flying-lessons
+  - madam-hooch
+  - broomsticks
+  - school-brooms
+  - first-year-curriculum
+  - grounds
+  - gryffindor
+  - slytherin
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Flying Lessons
+  candidate_section: First-Year Broom Training
+  reason_for_placement: The passage directly documents a first-year practical subject, its teacher, shared House grouping,
+    equipment, location, and lesson content.
+  relevance_to_hogwarts_a_history: 'This provides strong supporting evidence for a future curriculum section on flying instruction,
+    though it is not explicitly attributed to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Eight seeded first-year subjects generally, but did not include flying lessons or Madam Hooch.
+  confidence: high
+  limitations: The passage confirms Harry-era first-year flying instruction but does not establish when the subject began
+    or whether the same House pairings are stable across years.
+- id: ps-ch09-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 140
+  printed_page: not available
+  extracted_text_lines: PDF page 133, lines 18-20; PDF page 139, lines 23-27; PDF page 140, lines 5-22 and 30-35; PDF page
+    141, lines 1-9
+  text_anchor:
+    start_phrase: first years never getting on the House Quidditch teams
+    end_phrase: We haven’t won since Charlie left
+    local_occurrence_note: Harry is recruited after the flying lesson; McGonagall discusses a first-year exception and Gryffindor
+      team needs.
+  nearby_context: After seeing Harry fly, McGonagall introduces him to Oliver Wood and proposes a first-year exception for
+    the Gryffindor Quidditch team.
+  match_terms:
+  - first years
+  - House Quidditch teams
+  - Gryffindor team
+  - Seeker
+  - first-year rule
+  - Quidditch Cup
+  - Charlie Weasley
+  quote_excerpt_short: bend the first-year rule
+  source_note: The chapter indicates that first-years normally do not play on House Quidditch teams, but McGonagall considers
+    an exception for Harry after consulting Dumbledore; Ron and Wood frame Harry as an unusually young House player.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-teams
+  - first-year-rule
+  - gryffindor
+  - seeker
+  - oliver-wood
+  - mcgonagall
+  - dumbledore
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: First-Year Restrictions and Exceptions
+  reason_for_placement: The passage supplies evidence for a school policy governing House team membership and for faculty
+    discretion in exceptional cases.
+  relevance_to_hogwarts_a_history: This supports a future section on school Quidditch governance and House teams, while Harry’s
+    appointment itself belongs to later editorial context.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002
+    notes: Related to the Chapter Seven House-system seed because it concerns House competition, but this entry is narrower
+      and specific to Quidditch team eligibility.
+  confidence: medium
+  limitations: The rule is clearly referenced, but the chapter does not provide formal wording, origin, or scope beyond first-year
+    House Quidditch participation.
+- id: ps-ch09-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 145
+  printed_page: not available
+  extracted_text_lines: PDF page 141, lines 23-30; PDF page 145, lines 6-11 and 20-23
+  text_anchor:
+    start_phrase: We’ll meet you in the trophy room
+    end_phrase: down a long gallery full of suits of armor
+    local_occurrence_note: The proposed duel location is later reached during the midnight excursion.
+  nearby_context: Malfoy names the trophy room as the duel location; Harry’s group later enters it and passes through an adjacent
+    armor-lined gallery while evading Filch.
+  match_terms:
+  - trophy room
+  - crystal trophy cases
+  - cups
+  - shields
+  - plates
+  - statues
+  - suits of armor
+  quote_excerpt_short: crystal trophy cases glimmered
+  source_note: The trophy room is presented as an interior room accessible at night, containing trophy cases with cups, shields,
+    plates, and statues; a nearby gallery contains suits of armor.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - trophy-room
+  - interior-rooms
+  - trophies
+  - suits-of-armor
+  - castle-setting
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Interior Rooms
+  candidate_section: Trophy Room
+  reason_for_placement: The passage gives a concrete castle room and its contents, suitable for a future catalog of Hogwarts
+    interior spaces.
+  relevance_to_hogwarts_a_history: This is direct setting evidence for Hogwarts rooms and commemorative displays, though not
+    an explicit historical explanation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001
+    notes: Related to the Chapter Eight castle navigation entry through armor and interior corridors, but this is the first
+      seed specifically for the trophy room.
+  confidence: high
+  limitations: The passage does not explain the age, purpose, or specific contents of any trophy beyond general room description.
+- id: ps-ch09-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 146
+  printed_page: not available
+  extracted_text_lines: PDF page 142, lines 20-24 and 32-33; PDF page 143, lines 14-15 and 21-28; PDF page 144, lines 8-14;
+    PDF page 145, lines 16-21; PDF page 146, lines 23-31; PDF page 147, lines 5-24
+  text_anchor:
+    start_phrase: you mustn’t go wandering around the school at night
+    end_phrase: Filch cursing in rage
+    local_occurrence_note: Hermione warns Harry and Ron before the midnight outing; Filch, Mrs. Norris, and Peeves then function
+      as enforcement risks.
+  nearby_context: The planned midnight duel requires students to leave their dormitory at night, risking lost House points
+    and interception by prefects, Filch, Mrs. Norris, and Peeves.
+  match_terms:
+  - wandering around the school at night
+  - points
+  - school rule
+  - prefect
+  - Filch
+  - Mrs. Norris
+  - Peeves
+  - students out of bed
+  - midnight
+  quote_excerpt_short: wandering around the school at night
+  source_note: The chapter treats nighttime wandering as rule-breaking that can lose Gryffindor points; Hermione invokes prefect
+    authority, and Filch, Mrs. Norris, and Peeves all appear as practical enforcement threats.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-rules
+  - curfew
+  - nighttime-wandering
+  - house-points
+  - prefects
+  - filch
+  - mrs-norris
+  - peeves
+  - discipline
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Caretakers, Corridor Patrols, and Restricted Areas
+  candidate_section: Nighttime Wandering and Corridor Enforcement
+  reason_for_placement: The passage directly concerns student movement rules, House-point penalties, prefect authority, and
+    enforcement by staff-adjacent figures.
+  relevance_to_hogwarts_a_history: This strengthens the governance seed by showing how rule enforcement operates in practice
+    during Harry’s first year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-003; ps-ch08-007; ps-ch07-002
+    notes: Overlaps with Chapter Eight entries on Filch/Mrs. Norris and House-point deductions, and Chapter Seven on House
+      points. This entry should be cross-referenced rather than treated as a new broad concept.
+  confidence: high
+  limitations: The chapter implies a nighttime restriction but does not provide a formal curfew time or written school rule.
+- id: ps-ch09-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 146
+  printed_page: not available
+  extracted_text_lines: PDF page 141, lines 11-14; PDF page 146, lines 1-3
+  text_anchor:
+    start_phrase: Lee Jordan reckons he’s found a new secret passageway
+    end_phrase: came out near their Charms classroom
+    local_occurrence_note: Secret-passage references before and during the midnight flight from Filch.
+  nearby_context: Fred and George mention a secret passage behind the statue of Gregory the Smarmy; Harry’s group later passes
+    through a tapestry into a hidden passageway that exits near Charms.
+  match_terms:
+  - secret passageway
+  - statue of Gregory the Smarmy
+  - tapestry
+  - hidden passageway
+  - Charms classroom
+  quote_excerpt_short: a hidden passageway
+  source_note: 'The chapter gives two secret-passage references: one behind the statue of Gregory the Smarmy and one concealed
+    by a tapestry, which carries the students from near the trophy-room route to near the Charms classroom.'
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - secret-passageways
+  - hidden-passageway
+  - tapestry
+  - gregory-the-smarmy
+  - charms-classroom
+  - castle-navigation
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Secret Passageways and Hidden Routes
+  candidate_section: Tapestries, Statues, and Student Wayfinding
+  reason_for_placement: The passage provides concrete evidence that Hogwarts contains concealed routes associated with ordinary
+    architectural features.
+  relevance_to_hogwarts_a_history: This develops the existing castle-navigation seed by adding specific hidden-route mechanisms
+    and landmarks.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001; ps-ch08-003
+    notes: Chapter Eight already noted secret passageways and difficult castle navigation; this entry adds concrete examples
+      and should be merged or cross-referenced later.
+  confidence: medium
+  limitations: The chapter does not state who built the passages, whether they are enchanted, or how stable the routes are.
+- id: ps-ch09-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Nine - The Midnight Duel
+  chapter_start_pdf_page: 133
+  chapter_end_pdf_page: 149
+  pdf_page: 148
+  printed_page: not available
+  extracted_text_lines: PDF page 147, lines 31-36; PDF page 148, lines 1-15 and 23-31; PDF page 149, lines 1 and 8-13
+  text_anchor:
+    start_phrase: The forbidden corridor on the third floor
+    end_phrase: vault seven hundred and thirteen
+    local_occurrence_note: The chapter climax after Hermione unlocks a door while fleeing Filch.
+  nearby_context: After entering the forbidden third-floor corridor, the students encounter a three-headed dog and Hermione
+    notices that it is standing on a trapdoor.
+  match_terms:
+  - forbidden corridor
+  - third floor
+  - three heads
+  - trapdoor
+  - guarding something
+  - Hogwarts
+  - magical security
+  quote_excerpt_short: standing on a trapdoor
+  source_note: The forbidden third-floor corridor contains a huge three-headed dog positioned over a trapdoor; Hermione concludes
+    that it is guarding something, and Harry connects the protected object with the Gringotts package.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - third-floor-corridor
+  - forbidden-corridor
+  - three-headed-dog
+  - trapdoor
+  - guarded-chamber
+  - magical-security
+  - philosophers-stone
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Trapdoor and Creature-Based Protection
+  reason_for_placement: The passage directly links a restricted castle corridor, a trapdoor, and a dangerous magical creature
+    used as a guard.
+  relevance_to_hogwarts_a_history: This is important security evidence for the fan edition, but it appears tied to the 1991-1992
+    protection of the Philosopher’s Stone rather than the presumed original book body.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-003
+    notes: Chapter Eight already identified the third-floor corridor as out of bounds. This entry adds the protective creature
+      and trapdoor behind the restriction.
+  confidence: high
+  limitations: The chapter does not name the dog as Fluffy, identify who installed the protection, or prove that the restriction
+    existed before the 1991-1992 school year.

@@ -1,0 +1,231 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seventeen - Cat, Rat, and Dog
+  chapter_start_pdf_page: 852
+  chapter_end_pdf_page: 866
+  boundary_confidence: high
+  boundary_notes: Chapter Seventeen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Sixteen boundary. Book 3 Chapter Seventeen starts on PDF page 852 and Chapter Eighteen starts on PDF page 867, so only PDF pages 852-866 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Seventeen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch17-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seventeen - Cat, Rat, and Dog
+  chapter_start_pdf_page: 852
+  chapter_end_pdf_page: 866
+  pdf_page: 854
+  printed_page: not available
+  extracted_text_lines: PDF page 854, lines 24-30; PDF page 855, lines 2-27; PDF page 856, lines 2-12
+  text_anchor:
+    start_phrase: the shadow of the Whomping Willow
+    end_phrase: looked like it ends up in Hogsmeade
+    local_occurrence_note: Dog attack at the Willow, Crookshanks stopping the tree, and the trio entering the low tunnel.
+  nearby_context: Black in dog form drags Ron toward a large gap in the Whomping Willow's roots; Crookshanks stops the tree by pressing a knot on the trunk, and Harry follows a low tunnel marked on the Marauder's Map toward a Hogsmeade endpoint.
+  match_terms:
+  - Whomping Willow
+  - tunnel
+  - knot
+  - Marauder's Map
+  - Hogsmeade
+  - Crookshanks
+  - secret passage
+  quote_excerpt_short: "placed his front paws upon a knot"
+  source_note: The chapter reveals a usable tunnel under the Whomping Willow, a trunk knot that stops the tree, and a route whose map endpoint appears to run toward Hogsmeade.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - whomping-willow
+  - secret-passages
+  - marauders-map
+  - hogsmeade
+  - castle-grounds
+  - shrieking-shack-route
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Whomping Willow Tunnel
+  reason_for_placement: The passage connects a known dangerous grounds feature to a concealed route beyond the map edge, adding concrete route mechanics and security implications.
+  relevance_to_hogwarts_a_history: This is important later-editorial evidence for secret school-adjacent architecture and for the mismatch between visible grounds hazards and concealed access routes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch10-002
+    notes: Book 3 Chapter Ten dates the Whomping Willow to Lupin's arrival and records the safety ban; this entry adds the root gap, stopping knot, and hidden tunnel route.
+  confidence: high
+  limitations: This chapter still does not state who built the tunnel, who authorized it, or why Crookshanks knows the stopping mechanism.
+- id: poa-ch17-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seventeen - Cat, Rat, and Dog
+  chapter_start_pdf_page: 852
+  chapter_end_pdf_page: 866
+  pdf_page: 856
+  printed_page: not available
+  extracted_text_lines: PDF page 856, lines 12-31; PDF page 857, lines 2-11
+  text_anchor:
+    start_phrase: It was a room
+    end_phrase: a wide shiny stripe
+    local_occurrence_note: First interior observation after Harry and Hermione climb out of the tunnel into the Shrieking Shack.
+  nearby_context: The tunnel opens into a dusty, damaged, boarded room that Hermione identifies as the Shrieking Shack; Harry notes that ghosts did not cause the damage, and a dragged stripe on the dusty floor leads upstairs.
+  match_terms:
+  - Shrieking Shack
+  - boarded windows
+  - broken furniture
+  - ghosts
+  - tunnel
+  - Hogsmeade
+  quote_excerpt_short: "Ghosts didn't do that"
+  source_note: The chapter confirms the Willow tunnel's endpoint inside the Shrieking Shack and provides observed evidence that the Shack's damage is physical rather than ghost-made.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - shrieking-shack
+  - haunted-reputation
+  - hogsmeade
+  - secret-passages
+  - physical-evidence
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Ghosts and Haunted Places
+  candidate_section: The Shrieking Shack Reputation
+  reason_for_placement: The passage connects the already seeded haunted-site reputation to direct physical evidence and a hidden Hogwarts grounds route.
+  relevance_to_hogwarts_a_history: This supports later editorial treatment of how Hogwarts-adjacent folklore can conceal practical institutional history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-005
+    notes: Book 3 Chapter Fourteen records Ron's and Nick's haunted-reputation evidence; this entry adds the interior endpoint, boarded windows, broken furniture, and non-ghost damage clue.
+  confidence: high
+  limitations: The true cause of the Shack's damage is not explained until later context, so this entry should not yet resolve the folklore question.
+- id: poa-ch17-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seventeen - Cat, Rat, and Dog
+  chapter_start_pdf_page: 852
+  chapter_end_pdf_page: 866
+  pdf_page: 863
+  printed_page: not available
+  extracted_text_lines: PDF page 863, lines 4-31; PDF page 864, lines 2-4
+  text_anchor:
+    start_phrase: he's a werewolf
+    end_phrase: certain teachers that I'm trustworthy
+    local_occurrence_note: Hermione accuses Lupin in the Shack and Lupin confirms staff knowledge and Dumbledore's hiring decision.
+  nearby_context: Hermione identifies Lupin as a werewolf, explains that Snape's essay, the lunar chart, and the boggart moon revealed the pattern, and Lupin says the staff already know while Dumbledore had to persuade certain teachers of his trustworthiness.
+  match_terms:
+  - werewolf
+  - Professor Lupin
+  - Professor Snape
+  - lunar chart
+  - boggart
+  - Dumbledore
+  - staff
+  quote_excerpt_short: "the staff do"
+  source_note: The chapter confirms that Lupin's werewolf status is known to Hogwarts staff and that Dumbledore knowingly hired him despite resistance from some teachers.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - remus-lupin
+  - werewolves
+  - staff-appointments
+  - dumbledore
+  - professor-snape
+  - defense-against-the-dark-arts
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Staff Appointments and School Safety
+  candidate_section: Werewolf Employment and Staff Knowledge
+  reason_for_placement: The passage shows a headmaster-level staffing decision involving a stigmatized magical condition, staff awareness, and school safety trust.
+  relevance_to_hogwarts_a_history: This belongs in later editorial governance notes because it affects Harry-era staffing and retrospective understanding of why the Whomping Willow and Shack matter.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-005
+    notes: Book 3 Chapter Eight records Snape brewing a complex potion for Lupin without naming the condition; this entry identifies Lupin as a werewolf and adds staff knowledge plus Dumbledore's hiring judgment.
+  confidence: high
+  limitations: The chapter does not name the potion or give the original accommodation arrangement for Lupin's own student years.
+- id: poa-ch17-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seventeen - Cat, Rat, and Dog
+  chapter_start_pdf_page: 852
+  chapter_end_pdf_page: 866
+  pdf_page: 864
+  printed_page: not available
+  extracted_text_lines: PDF page 864, lines 20-31; PDF page 865, lines 2-20
+  text_anchor:
+    start_phrase: The map
+    end_phrase: he pulled two of you into the Whomping Willow
+    local_occurrence_note: Lupin explains how he used and helped create the Marauder's Map.
+  nearby_context: Lupin says he knows how to work the Marauder's Map because he helped write it as Moony, watched the trio cross the grounds to Hagrid's hut, explains that Invisibility Cloak users still appear, and saw dots labeled for Sirius Black and another person moving toward the Whomping Willow.
+  match_terms:
+  - Marauder's Map
+  - Moony
+  - helped write it
+  - Invisibility Cloak
+  - Hagrid's hut
+  - Whomping Willow
+  - Sirius Black
+  quote_excerpt_short: "I helped write it"
+  source_note: The chapter identifies Lupin as one of the mapmakers and confirms that the map can track Invisibility Cloak users, grounds movement, named people, and the Whomping Willow route.
+  reference_type: magical_architecture
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - marauders-map
+  - moony
+  - invisibility-cloak
+  - magical-surveillance
+  - hogwarts-grounds
+  - hagrids-hut
+  - whomping-willow
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map
+  reason_for_placement: The passage materially expands the map seed by naming a creator, proving advanced tracking through an Invisibility Cloak, and showing the map's grounds coverage in active use.
+  relevance_to_hogwarts_a_history: This helps a later editorial chapter distinguish official Hogwarts protections from powerful student-created geographic and surveillance knowledge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-007
+    notes: Book 3 Chapter Fourteen records the map's aliases and older provenance; this entry identifies Moony as Lupin, says he helped write it, and adds Invisibility Cloak visibility plus live grounds tracking.
+  confidence: high
+  limitations: The chapter still does not fully explain how the map identifies concealed, transformed, or apparently dead people.
+- id: poa-ch17-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seventeen - Cat, Rat, and Dog
+  chapter_start_pdf_page: 852
+  chapter_end_pdf_page: 866
+  pdf_page: 866
+  printed_page: not available
+  extracted_text_lines: PDF page 857, lines 19-23; PDF page 865, lines 21-32; PDF page 866, lines 2-4
+  text_anchor:
+    start_phrase: He's the dog
+    end_phrase: by the name of Peter Pettigrew
+    local_occurrence_note: Ron first identifies Black as an Animagus, then Lupin and Black identify Scabbers as Peter Pettigrew.
+  nearby_context: Ron warns that the dog is an Animagus, and later Lupin asks to inspect Scabbers after seeing an extra map dot; Black and Lupin state that the rat is actually Peter Pettigrew, a wizard and Animagus.
+  match_terms:
+  - Animagus
+  - Sirius Black
+  - Peter Pettigrew
+  - Scabbers
+  - wizard
+  - rat
+  - dog
+  quote_excerpt_short: "by the name of Peter Pettigrew"
+  source_note: The chapter reveals that both the dog and Ron's rat are human Animagi, tying animal disguise to the map's person-identification evidence.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - animagi
+  - sirius-black
+  - peter-pettigrew
+  - marauders-map
+  - hidden-identities
+  - transfiguration
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Marauders-Era Context and Hidden Identities
+  candidate_section: Animagi, Map Dots, and Pettigrew's Survival
+  reason_for_placement: The passage is Harry-era revelation evidence with implications for older Hogwarts alumni history, illegal or concealed Animagus magic, and map identification.
+  relevance_to_hogwarts_a_history: This is not original-book core material, but it is useful later editorial context for the Marauder's Map, Hogwarts-era alumni, and Animagus-related school history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-005
+    notes: Book 3 Chapter Six records McGonagall's Animagus demonstration and rarity context; this entry adds two concealed Animagi tied to Hogwarts alumni and map identification.
+  confidence: high
+  limitations: The chapter gives the reveal but not the registration status, training history, or full Hogwarts-era background of these Animagi.

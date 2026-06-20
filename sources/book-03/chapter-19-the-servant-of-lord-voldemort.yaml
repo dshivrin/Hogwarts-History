@@ -1,0 +1,321 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  boundary_confidence: high
+  boundary_notes: Chapter Nineteen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Eighteen boundary. Book 3 Chapter Nineteen starts on PDF page 874 and Chapter Twenty starts on PDF page 891, so only PDF pages 874-890 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Nineteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch19-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 874
+  printed_page: not available
+  extracted_text_lines: PDF page 874, lines 8-16
+  text_anchor:
+    start_phrase: I found this at the base of the Whomping Willow
+    end_phrase: running along this passageway and out of sight
+    local_occurrence_note: Snape arrives at the Shrieking Shack after finding the Invisibility Cloak and using the map from Lupin's office.
+  nearby_context: Snape says he found the Cloak at the base of the Whomping Willow, brought Lupin's forgotten potion from his office, saw the Marauder's Map there, and used it to track Lupin running along the passageway.
+  match_terms:
+  - Whomping Willow
+  - Invisibility Cloak
+  - Lupin's office
+  - potion
+  - Marauder's Map
+  - passageway
+  quote_excerpt_short: "a certain map"
+  source_note: The chapter confirms that the map can expose movement along the Willow-Shack passage and that leaving the map in a staff office can compromise hidden-route secrecy even when an Invisibility Cloak is involved.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - marauders-map
+  - invisibility-cloak
+  - whomping-willow
+  - shrieking-shack
+  - lupins-office
+  - secret-passages
+  - wolfsbane-potion
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map
+  reason_for_placement: The passage extends map evidence from route discovery to active staff-level misuse risk when the map is left unsecured.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how unofficial maps and concealed passages could undermine Hogwarts crisis security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-004
+    notes: Book 3 Chapter Seventeen records Lupin using the map to track the trio through an Invisibility Cloak; this entry adds Snape finding the Cloak, reading the map in Lupin's office, and following movement into the Willow-Shack passage.
+  confidence: high
+  limitations: The chapter does not show exactly how much of the passage Snape could see or whether the map displayed the Shrieking Shack interior beyond the route.
+- id: poa-ch19-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 875
+  printed_page: not available
+  extracted_text_lines: PDF page 875, lines 20-25; PDF page 876, lines 4-15
+  text_anchor:
+    start_phrase: facing suspension from this school
+    end_phrase: the dementors will have a Kiss for him too
+    local_occurrence_note: Snape rejects Hermione's plea, identifies the students as out-of-bounds, and threatens to call dementors before reaching the castle.
+  nearby_context: Snape says Hermione, Harry, and Ron face suspension for being out of bounds with a convicted murderer and a werewolf, then says he can call dementors after leaving the Willow instead of taking Black to the castle.
+  match_terms:
+  - suspension
+  - out-of-bounds
+  - school
+  - convicted murderer
+  - werewolf
+  - dementors
+  - Kiss
+  quote_excerpt_short: "facing suspension"
+  source_note: The chapter links serious out-of-bounds misconduct to threatened suspension and shows a staff member attempting to route the Sirius Black crisis directly to dementors rather than first to castle adjudication.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - student-discipline
+  - out-of-bounds
+  - suspension
+  - dementors
+  - dementors-kiss
+  - crisis-security
+  - professor-snape
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: House Points, Detentions, and Student Discipline
+  candidate_section: Suspension Threats and Crisis Discipline
+  reason_for_placement: The passage gives a high-severity discipline example and raises questions about school process when external security forces are stationed near Hogwarts.
+  relevance_to_hogwarts_a_history: This belongs in later editorial notes on crisis discipline, staff discretion, and the risks of Ministry-linked dementor deployment around the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch12-003
+    notes: Book 3 Chapter Twelve records Lupin's explanation that the Ministry authorized dementors to perform the Kiss on Black; this entry adds Snape's attempt to invoke that threat immediately outside the Willow and extend it toward Lupin.
+  confidence: high
+  limitations: Snape is emotionally compromised in the scene, so his threatened procedure may not reflect approved school or Ministry protocol.
+- id: poa-ch19-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 877
+  printed_page: not available
+  extracted_text_lines: PDF page 877, lines 6-15 and 20-22
+  text_anchor:
+    start_phrase: Before Snape could take even one step
+    end_phrase: we're going to be in so much trouble
+    local_occurrence_note: Harry, Ron, and Hermione simultaneously cast Expelliarmus at Snape in the Shrieking Shack.
+  nearby_context: The three students cast the Disarming Charm together, knocking Snape unconscious and sending his wand away; Hermione immediately recognizes that attacking a teacher will create serious school trouble.
+  match_terms:
+  - Expelliarmus
+  - Disarm
+  - teacher
+  - Snape
+  - wand
+  - trouble
+  quote_excerpt_short: "attacked a teacher"
+  source_note: The chapter shows an already taught defensive spell used by students outside formal instruction and frames its use against a teacher as a serious disciplinary breach.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - expelliarmus
+  - disarming-charm
+  - student-discipline
+  - professor-snape
+  - defensive-magic
+  - teacher-authority
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Dueling Spells Outside Formal Instruction
+  reason_for_placement: The passage connects classroom-demonstrated defensive magic to later student use and to discipline concerns when magic is used against staff.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how a school-taught or school-demonstrated spell can become part of student crisis action outside class.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-002
+    notes: Book 2 Chapter Eleven records Dumbledore-authorized Dueling Club instruction and Snape's Expelliarmus demonstration; this entry adds simultaneous student use of the spell against a teacher and immediate awareness of disciplinary consequences.
+  confidence: high
+  limitations: The scene is an emergency confrontation, not a normal disciplinary proceeding or classroom assessment.
+- id: poa-ch19-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 878
+  printed_page: not available
+  extracted_text_lines: PDF page 878, lines 7-19
+  text_anchor:
+    start_phrase: the photograph of Ron and his family
+    end_phrase: to where Harry was
+    local_occurrence_note: Black explains how Fudge's Daily Prophet during an Azkaban inspection revealed Pettigrew's location.
+  nearby_context: Black says Cornelius Fudge gave him the Daily Prophet during an Azkaban inspection; the newspaper photograph showed Pettigrew on Ron's shoulder and the caption indicated the boy would return to Hogwarts, near Harry.
+  match_terms:
+  - Daily Prophet
+  - Fudge
+  - Azkaban
+  - inspect
+  - Scabbers
+  - transform
+  - Hogwarts
+  quote_excerpt_short: "back to Hogwarts"
+  source_note: The chapter gives a named in-universe newspaper and Ministry inspection context for how information about a Hogwarts student's pet became evidence that Pettigrew was alive and at school.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - cornelius-fudge
+  - azkaban
+  - peter-pettigrew
+  - scabbers
+  - hogwarts-return
+  - sirius-black
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Newspapers, Notices, and Public Wizarding Sources
+  candidate_section: Daily Prophet Evidence Affecting Hogwarts
+  reason_for_placement: The passage shows how a public wizarding source outside the school can become crucial evidence for a hidden Hogwarts security problem.
+  relevance_to_hogwarts_a_history: "This supports later editorial source criticism around Harry-era evidence: not all Hogwarts-relevant facts come from school records or books."
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior entry specifically indexes the Daily Prophet photograph as the source connecting Pettigrew, Ron's pet, and Hogwarts return.
+  confidence: high
+  limitations: The Daily Prophet caption is paraphrased by Black, and the source does not provide the full article text or date.
+- id: poa-ch19-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 879
+  printed_page: not available
+  extracted_text_lines: PDF page 879, lines 12-21
+  text_anchor:
+    start_phrase: This cat isn't mad
+    end_phrase: a boy's bedside table
+    local_occurrence_note: Black explains Crookshanks's recognition of Pettigrew and the theft of the Gryffindor Tower password list.
+  nearby_context: Black says Crookshanks recognized Pettigrew and Black as more than ordinary animals, helped Black, tried to bring Pettigrew to him, and stole the Gryffindor Tower passwords from a boy's bedside table.
+  match_terms:
+  - Crookshanks
+  - Peter
+  - dog
+  - passwords
+  - Gryffindor Tower
+  - bedside table
+  quote_excerpt_short: "stole the passwords"
+  source_note: "The chapter explains the mechanism behind the Gryffindor Tower password breach: an exceptionally intelligent pet removed written passwords from a student's bedside table for Black."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gryffindor-tower
+  - passwords
+  - crookshanks
+  - sirius-black
+  - peter-pettigrew
+  - house-security
+  - student-pets
+  candidate_part: Protective Magic and Security
+  candidate_chapter: House Entrances and Common-Room Security
+  candidate_section: Password Lists and Animal-Mediated Breaches
+  reason_for_placement: The passage adds a missing causal link for the earlier House-entry breach and shows that written passwords can be compromised indirectly.
+  relevance_to_hogwarts_a_history: This is later editorial security evidence for common-room access weaknesses during the Sirius Black crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch13-007
+    notes: Book 3 Chapter Thirteen records that Black entered Gryffindor Tower using Neville's written password list; this entry adds Crookshanks's role in stealing the list from a bedside table.
+  confidence: high
+  limitations: The account comes from Black's explanation and does not clarify whether Hogwarts ever learned the animal-mediated theft mechanism.
+- id: poa-ch19-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 881
+  printed_page: not available
+  extracted_text_lines: PDF page 881, lines 8-23
+  text_anchor:
+    start_phrase: holding Scabbers tightly
+    end_phrase: the rat lingered around his pointed nose
+    local_occurrence_note: Lupin and Black force Scabbers back into Peter Pettigrew's human form.
+  nearby_context: Lupin and Black cast together on Scabbers; the rat transforms into Peter Pettigrew, confirming that Ron's pet has been a concealed human Animagus.
+  match_terms:
+  - Scabbers
+  - Peter Pettigrew
+  - rat
+  - transform
+  - wand
+  - Animagus
+  quote_excerpt_short: "where Scabbers had been"
+  source_note: The chapter provides the visible proof that Scabbers is Peter Pettigrew in Animagus form, turning prior map and testimony clues into direct confirmation.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - peter-pettigrew
+  - scabbers
+  - animagi
+  - remus-lupin
+  - sirius-black
+  - student-dormitories
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Marauders-Era Context and Hidden Identities
+  candidate_section: Pettigrew's Concealed Animagus Identity
+  reason_for_placement: The passage is the decisive confirmation for Pettigrew's hidden identity and the long-running security implications of an adult Animagus living as a student pet.
+  relevance_to_hogwarts_a_history: This belongs in later editorial context for concealed magic, unregistered Animagi, and vulnerabilities in Hogwarts dormitory life.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-005
+    notes: Book 3 Chapter Seventeen identifies Scabbers as Pettigrew through Lupin and Black's testimony; this entry adds the forced transformation and direct visual confirmation.
+  confidence: high
+  limitations: The chapter shows the reversal but does not name the spell used or explain the magic by which two wands force the Animagus transformation.
+- id: poa-ch19-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nineteen - The Servant of Lord Voldemort
+  chapter_start_pdf_page: 874
+  chapter_end_pdf_page: 890
+  pdf_page: 885
+  printed_page: not available
+  extracted_text_lines: PDF page 885, lines 9-22; PDF page 886, lines 2-10
+  text_anchor:
+    start_phrase: I don't know how I did it
+    end_phrase: living in the forest ever since
+    local_occurrence_note: Black explains the Animagus mechanics of escaping Azkaban and entering the Hogwarts grounds.
+  nearby_context: Black says his innocence preserved his identity and powers under dementor confinement, that dementors sense emotion rather than sight, that his dog form made escape possible, and that he entered the Hogwarts grounds and lived in the forest.
+  match_terms:
+  - Azkaban
+  - dementors
+  - transform
+  - dog
+  - emotions
+  - Hogwarts grounds
+  - forest
+  quote_excerpt_short: "as a dog"
+  source_note: The chapter explains how an Animagus form let Black evade dementor perception, escape Azkaban, travel to Hogwarts, and remain on the grounds as an animal.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black
+  - azkaban
+  - dementors
+  - animagi
+  - hogwarts-grounds
+  - forbidden-forest
+  - crisis-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Crisis Security and External Forces
+  candidate_section: Animagus Evasion of Dementor and Grounds Security
+  reason_for_placement: The passage links external prison security, dementor sensory limits, Animagus concealment, and Hogwarts grounds infiltration during the Black crisis.
+  relevance_to_hogwarts_a_history: "This is later editorial evidence for a major security exception: an unregistered Animagus could bypass both Azkaban custody and the school grounds perimeter."
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch18-005
+    notes: Book 3 Chapter Eighteen explains the Marauders' illegal Animagus transformations; this entry adds Black's later use of dog form to evade dementors, escape Azkaban, and enter the Hogwarts grounds.
+  confidence: high
+  limitations: Black says he does not know exactly how he managed the escape, and the chapter does not explain whether Hogwarts' protective enchantments should have detected an Animagus intruder.

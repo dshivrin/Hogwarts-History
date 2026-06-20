@@ -1,0 +1,330 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  boundary_confidence: high
+  boundary_notes: Chapter Thirteen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Twelve boundary. Book 3 Chapter Thirteen starts on PDF page 785 and Chapter Fourteen starts on PDF page 799, so only PDF pages 785-798 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Thirteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch13-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 786
+  printed_page: not available
+  extracted_text_lines: PDF page 786, lines 14-31; PDF page 787, lines 2-9 and 18-28; PDF page 788, lines 2-15
+  text_anchor:
+    start_phrase: final practice before the Ravenclaw match
+    end_phrase: insisted that they go back to the castle
+    local_occurrence_note: Gryffindor's final practice with Madam Hooch supervising Harry and the Firebolt before the Ravenclaw match.
+  nearby_context: Harry brings Ron to Gryffindor's final practice, where Madam Hooch continues overseeing practices to protect Harry, assesses the Firebolt professionally, permits Harry to use it, and later sends Harry and Ron back to the castle after post-practice flying.
+  match_terms:
+  - Gryffindor team
+  - final practice
+  - Ravenclaw match
+  - Madam Hooch
+  - Firebolt
+  - Nimbus
+  - Cleansweeps
+  - Silver Arrows
+  quote_excerpt_short: "still overseeing Gryffindor practices"
+  source_note: The chapter corroborates staff-supervised Quidditch training during the Black crisis and adds Madam Hooch's practical broom expertise, including comparisons among Firebolt, Nimbus, Cleansweep, and Silver Arrow models.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch
+  - madam-hooch
+  - firebolt
+  - broomstick-safety
+  - gryffindor-team
+  - team-practice
+  - crisis-supervision
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Training Supervision and Broom Expertise
+  reason_for_placement: The passage combines captain-led practice, staff safety supervision, and expert equipment assessment in a Hogwarts Quidditch setting.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of Quidditch training practices, staff oversight, and the school's reliance on Madam Hooch's broom and flying expertise.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-006
+    notes: Book 3 Chapter Nine records McGonagall requiring Madam Hooch to oversee training under the security threat; this entry adds a final Ravenclaw-match practice, Firebolt clearance in practice, and Hooch's broom expertise.
+  confidence: high
+  limitations: The supervision is crisis-specific because Sirius Black is believed to be targeting Harry, so it should not be generalized as ordinary team practice procedure.
+- id: poa-ch13-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 791
+  printed_page: not available
+  extracted_text_lines: PDF page 791, lines 7-18; PDF page 792, lines 10-15
+  text_anchor:
+    start_phrase: According to Which Broomstick
+    end_phrase: GET ON WITH THE COMMENTARY
+    local_occurrence_note: Lee Jordan's match commentary repeatedly digresses into Firebolt source facts before McGonagall redirects him.
+  nearby_context: During the Gryffindor-Ravenclaw match, Lee Jordan cites Which Broomstick for the Firebolt's expected national-team use and mentions a built-in auto-brake and precision-balance while Professor McGonagall supervises the commentary.
+  match_terms:
+  - Which Broomstick
+  - Firebolt
+  - national teams
+  - World Championship
+  - auto-brake
+  - precision-balance
+  - Lee Jordan
+  quote_excerpt_short: "According to Which Broomstick"
+  source_note: The chapter names Which Broomstick as an in-universe broomstick source and uses match commentary to supply Firebolt specifications and reputation.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - which-broomstick
+  - firebolt
+  - broomstick-source
+  - quidditch
+  - match-commentary
+  - lee-jordan
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Practical Books and Specialist Periodicals
+  candidate_section: Broomstick Publications
+  reason_for_placement: The passage adds a named specialist source for broomstick information and shows students using such material in school Quidditch discourse.
+  relevance_to_hogwarts_a_history: This can support source-indexing for later editorial notes on Quidditch equipment, separating named in-universe publications from observed school practice.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically indexes Which Broomstick as a named in-universe broomstick source.
+  confidence: high
+  limitations: The chapter does not show the publication directly, and the facts are relayed by Lee Jordan during enthusiastic match commentary.
+- id: poa-ch13-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 790
+  printed_page: not available
+  extracted_text_lines: PDF page 790, lines 13-32; PDF page 791, lines 2-8 and 20-31; PDF page 792, lines 16-25
+  text_anchor:
+    start_phrase: the Gryffindor team set off for the locker rooms
+    end_phrase: KNOCK HER OFF HER BROOM IF YOU HAVE TO
+    local_occurrence_note: Match opening and in-play sequence for Gryffindor versus Ravenclaw, before the fake dementor incident.
+  nearby_context: Gryffindor use locker rooms and robes before a whole-school match; Madam Hooch has captains Wood and Davies shake hands, starts play by whistle, Lee Jordan provides commentary, and the play shows scoring pressure, Beater interference, and Seeker marking.
+  match_terms:
+  - locker rooms
+  - Quidditch robes
+  - Madam Hooch
+  - captains
+  - whistle
+  - Lee Jordan
+  - Ravenclaw
+  - Seeker
+  quote_excerpt_short: "Wood, Davies, shake hands"
+  source_note: The chapter provides another observed House Quidditch match with locker-room preparation, captain handshake, referee whistle, commentary supervision, team tactics, scoring stakes, and Seeker-on-Seeker marking.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-matches
+  - madam-hooch
+  - matchday
+  - ravenclaw
+  - gryffindor
+  - lee-jordan
+  - seeker-tactics
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Matchday Procedure and In-Play Tactics
+  reason_for_placement: The passage corroborates established Hogwarts matchday procedures while adding Ravenclaw opponent details and tactical evidence during a decisive Cup match.
+  relevance_to_hogwarts_a_history: This helps future Quidditch coverage distinguish recurring officiating and match-presentation customs from one-match tactical details.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-003
+    notes: Book 2 Chapter Ten records whole-school matchday organization, locker rooms, House robes, captains' handshake, and Hooch's kickoff role; this entry corroborates those procedures and adds Ravenclaw match tactics and scoring pressure.
+  confidence: high
+  limitations: The chapter records a single House match and does not define the complete rulebook or season schedule.
+- id: poa-ch13-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 794
+  printed_page: not available
+  extracted_text_lines: PDF page 793, lines 7-22; PDF page 794, lines 4-22
+  text_anchor:
+    start_phrase: Three dementors, three tall, black, hooded dementors
+    end_phrase: speaking to Professor Dumbledore about this
+    local_occurrence_note: Fake-dementor sabotage immediately before Harry catches the Snitch and McGonagall disciplines the Slytherin students.
+  nearby_context: Cho points out what appear to be dementors, Harry casts the Patronus Charm and catches the Snitch, Lupin reveals they were Malfoy, Crabbe, Goyle, and Marcus Flint in robes, and McGonagall assigns detention plus a fifty-point Slytherin deduction while escalating to Dumbledore.
+  match_terms:
+  - dementors
+  - Expecto Patronum
+  - Malfoy
+  - Crabbe
+  - Goyle
+  - Marcus Flint
+  - detention
+  - fifty points
+  quote_excerpt_short: "attempt to sabotage the Gryffindor Seeker"
+  source_note: The chapter records a Quidditch sabotage attempt imitating dementors and shows immediate disciplinary consequences from McGonagall, including detention, House-point deduction, and headmaster escalation.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch
+  - match-sabotage
+  - dementor-imitation
+  - patronus-charm
+  - house-points
+  - detention
+  - professor-mcgonagall
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: House Points, Detentions, and Student Discipline
+  candidate_section: Match Sabotage and Sports Discipline
+  reason_for_placement: The passage gives a concrete disciplinary response to student interference with a school sport under crisis conditions.
+  relevance_to_hogwarts_a_history: This belongs in later editorial notes on student discipline and Quidditch safety because it shows House-point and detention penalties for dangerous match interference.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-007
+    notes: Book 3 Chapter Nine records an actual dementor breach at a Quidditch match; this entry adds a student imitation of that threat, Harry's Patronus response, and McGonagall's disciplinary action.
+  confidence: high
+  limitations: The incident is specific to the Sirius Black dementor crisis and does not prove ordinary penalties for all forms of match sabotage.
+- id: poa-ch13-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 795
+  printed_page: not available
+  extracted_text_lines: PDF page 795, lines 10-24 and 33-35
+  text_anchor:
+    start_phrase: Home Life and Social Habits of British Muggles
+    end_phrase: ran toward the staircase to the girls' dormitories
+    local_occurrence_note: Hermione reads through the Gryffindor victory party in the common room.
+  nearby_context: Hermione attempts to read the large Muggle Studies book Home Life and Social Habits of British Muggles during the Quidditch celebration and says she still has hundreds of pages to finish by Monday.
+  match_terms:
+  - Home Life and Social Habits of British Muggles
+  - Muggle Studies
+  - book
+  - Monday
+  - read
+  - Hermione
+  quote_excerpt_short: "Home Life and Social Habits of British Muggles"
+  source_note: The chapter supplies a named Muggle Studies text and further evidence of Hermione's exceptional third-year elective workload.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - muggle-studies
+  - home-life-and-social-habits
+  - hermione-course-load
+  - third-year-electives
+  - student-books
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Elective Selection
+  reason_for_placement: The passage adds a named text and reading burden for one of the active third-year elective subjects.
+  relevance_to_hogwarts_a_history: This can support academic-life coverage and source lists for Muggle Studies while preserving Hermione's overload as exceptional.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch12-007
+    notes: Book 3 Chapter Twelve records Hermione's overlapping elective workload and Muggle Studies homework; this entry adds the named Muggle Studies text and a Monday reading deadline.
+  confidence: high
+  limitations: The chapter does not state whether the book is a required class text, library book, or Hermione's own copy.
+- id: poa-ch13-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 795
+  printed_page: not available
+  extracted_text_lines: PDF page 794, lines 27-31; PDF page 795, lines 2-9; PDF page 796, lines 4-6
+  text_anchor:
+    start_phrase: Party! Gryffindor common room, now
+    end_phrase: insist that they all go to bed
+    local_occurrence_note: Gryffindor victory party after the Ravenclaw match, before the dormitory breach.
+  nearby_context: Gryffindors celebrate in the common room all day and into the night; Fred and George disappear and return with Honeydukes sweets and drinks, hinting at help from the Marauder's Map aliases, before McGonagall ends the party at one in the morning.
+  match_terms:
+  - Gryffindor common room
+  - party
+  - Honeydukes
+  - Moony
+  - Wormtail
+  - Padfoot
+  - Prongs
+  - Professor McGonagall
+  quote_excerpt_short: "Party! Gryffindor common room, now!"
+  source_note: The chapter shows a House common-room victory celebration, illicit or unofficial Honeydukes supply access via the Marauder's Map, and Head-of-House intervention to restore bedtime order.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - gryffindor-common-room
+  - house-celebrations
+  - honeydukes
+  - marauders-map
+  - secret-passages
+  - professor-mcgonagall
+  - bedtime-enforcement
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: House Life and Student Celebrations
+  candidate_section: Common-Room Parties and Head-of-House Enforcement
+  reason_for_placement: The passage records House social life inside a common room and shows staff intervention when celebration runs too late.
+  relevance_to_hogwarts_a_history: This is later editorial context for House culture, common-room life, secret-route misuse, and Head-of-House authority over residential order.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch10-004
+    notes: Book 3 Chapter Ten identifies the Honeydukes secret passage and Marauder's Map route; this entry adds later use of that route to supply a Gryffindor common-room celebration.
+  confidence: high
+  limitations: The party is spontaneous after a major Quidditch victory and should not be treated as an authorized school feast or formal House custom.
+- id: poa-ch13-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Thirteen - Gryffindor Versus Ravenclaw
+  chapter_start_pdf_page: 785
+  chapter_end_pdf_page: 798
+  pdf_page: 798
+  printed_page: not available
+  extracted_text_lines: PDF page 796, lines 17-32; PDF page 797, lines 2-31; PDF page 798, lines 2-30
+  text_anchor:
+    start_phrase: Black! Sirius Black! With a knife!
+    end_phrase: Neville Longbottom, trembling from head to fluffy-slippered toes
+    local_occurrence_note: Nighttime Gryffindor dormitory breach and immediate common-room investigation by Percy and McGonagall.
+  nearby_context: Ron reports Sirius Black in the boys' dormitory, Percy tries to send students back upstairs as Head Boy, McGonagall investigates the portrait hole, and Sir Cadogan says he admitted a man who had the whole week's passwords written on paper.
+  match_terms:
+  - Sirius Black
+  - dormitory
+  - common room
+  - Percy
+  - Head Boy
+  - Professor McGonagall
+  - Sir Cadogan
+  - passwords
+  quote_excerpt_short: "Had the whole week's"
+  source_note: The chapter records a serious Gryffindor Tower security failure caused by written passwords, with Head Boy intervention, Head-of-House investigation, and portrait-guardian authentication based only on possession of current passwords.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gryffindor-tower
+  - common-room-security
+  - sir-cadogan
+  - passwords
+  - neville-longbottom
+  - head-boy
+  - professor-mcgonagall
+  - sirius-black
+  candidate_part: Protective Magic and Security
+  candidate_chapter: House Common-Room Security
+  candidate_section: Password Lists and Portrait-Hole Breaches
+  reason_for_placement: The passage is the clearest evidence so far that a House entrance portrait may admit anyone with current passwords, even during a security crisis.
+  relevance_to_hogwarts_a_history: This is important later editorial evidence for the limits of portrait-password security, senior-student emergency duties, and the consequences of writing down House passwords.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch12-006
+    notes: Book 3 Chapter Twelve records Neville losing a written list of Sir Cadogan's changing passwords; this entry confirms that Black used the week's written passwords to enter Gryffindor Tower and reach the dormitory.
+  confidence: high
+  limitations: Sir Cadogan is a temporary guardian, so the breach should be cross-checked against Fat Lady practice before generalizing to all portrait-hole security.

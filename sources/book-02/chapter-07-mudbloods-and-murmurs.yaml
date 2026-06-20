@@ -1,0 +1,288 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  boundary_confidence: high
+  boundary_notes: Chapter Seven range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Six boundary. Book 2 Chapter Seven starts on PDF page 368 and Chapter Eight starts on PDF page 383, so only PDF pages 368-382 were extracted and searched.
+  processed_date: '2026-06-15'
+  processor_notes: "Processed only Book 2, Chapter Seven. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch07-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  pdf_page: 370
+  printed_page: not available
+  extracted_text_lines: PDF page 370, lines 13-31; PDF page 371, lines 5-11
+  text_anchor:
+    start_phrase: I don't really understand Quidditch
+    end_phrase: I'll go and get a good seat
+    local_occurrence_note: Colin asks Harry about Quidditch while following him from Gryffindor Tower to the pitch.
+  nearby_context: Harry explains Bludgers, Beaters, Quaffle scoring, Chasers, goal hoops, the Golden Snitch, Seeker duties, the 150-point Snitch award, Keeper duties, and the route from the castle to the Quidditch field stands and changing rooms.
+  match_terms:
+  - Quidditch
+  - Bludgers
+  - Beaters
+  - Quaffle
+  - Chasers
+  - Golden Snitch
+  - Seeker
+  - Keeper
+  - goalposts
+  quote_excerpt_short: "there are four balls"
+  source_note: Harry gives Colin a compact explanation of school Quidditch positions, balls, scoring, and the Snitch ending condition while approaching the Hogwarts pitch.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - quidditch-rules
+  - house-teams
+  - seeker
+  - keeper
+  - bludgers
+  - quaffle
+  - snitch
+  - pitch
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Balls, Positions, Scoring, and Match Endings
+  reason_for_placement: The passage gives a concise student-level account of the core rules and team positions used in Hogwarts House Quidditch.
+  relevance_to_hogwarts_a_history: This corroborates and condenses Quidditch match mechanics for a future Hogwarts recreation chapter.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-005
+    notes: Chapter Eleven seeded Quidditch balls, positions, fouls, penalties, and scoring during an actual match; this entry corroborates the same rules through Harry's explanation to a new first-year observer.
+  confidence: high
+  limitations: Harry is explaining informally and does not cover full Quidditch rules, fouls, substitutions, or school scheduling.
+- id: cos-ch07-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  pdf_page: 373
+  printed_page: not available
+  extracted_text_lines: PDF page 371, lines 17-29; PDF page 372, lines 2-14; PDF page 373, lines 5-32; PDF page 374, lines 7-35
+  text_anchor:
+    start_phrase: spent the summer devising a whole new training program
+    end_phrase: brooms my father's bought our team
+    local_occurrence_note: Gryffindor practice meeting and Slytherin team's arrival on the field with Snape's signed note.
+  nearby_context: Oliver Wood drills Gryffindor with tactical diagrams before practice, refers to the previous year's Quidditch Cup loss and a three-hundred-year defeat, disputes a field booking with Marcus Flint, and Flint presents Snape's signed permission for Slytherin to practice because they have a new Seeker and new brooms.
+  match_terms:
+  - training program
+  - Quidditch Cup
+  - three hundred years
+  - booked the field
+  - Professor Snape
+  - Slytherin team
+  - new Seeker
+  - Nimbus Two Thousand and One
+  quote_excerpt_short: "I booked the field for today"
+  source_note: The scene adds House-team practice logistics, tactical preparation, field booking conflict, staff permission for practice, a new Slytherin Seeker, and team equipment inequality through donated Nimbus Two Thousand and Ones.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-practice
+  - house-teams
+  - field-booking
+  - staff-permission
+  - slytherin
+  - gryffindor
+  - team-captains
+  - broomsticks
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Practice Scheduling, Captains, and Equipment
+  reason_for_placement: The passage shows how House teams prepare, compete for pitch access, receive staff permission, and equip players.
+  relevance_to_hogwarts_a_history: This supports a future Hogwarts Quidditch section on team administration and practice infrastructure, while keeping the Malfoy donation as Harry-era context.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch13-005
+    notes: Chapter Thirteen seeded House Quidditch practice, match infrastructure, and staff referee authority; this entry adds pre-season tactical drills, field booking, staff permission notes, and equipment sponsorship.
+  confidence: high
+  limitations: The chapter does not explain the formal authority hierarchy for booking the pitch or whether donated team brooms are regulated.
+- id: cos-ch07-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  pdf_page: 377
+  printed_page: not available
+  extracted_text_lines: PDF page 375, lines 2-24; PDF page 377, lines 23-37; PDF page 378, lines 2-16
+  text_anchor:
+    start_phrase: you filthy little Mudblood
+    end_phrase: Most wizards these days are half-blood anyway
+    local_occurrence_note: Malfoy's insult on the Quidditch field and Ron's later explanation in Hagrid's cabin.
+  nearby_context: Malfoy calls Hermione a Mudblood after she says Gryffindor players earned their places by talent; the insult provokes immediate outrage, Ron's retaliatory curse backfires, and Ron explains the term as anti-Muggle-born blood prejudice while Hagrid praises Hermione's magical ability.
+  match_terms:
+  - Mudblood
+  - Muggle-born
+  - pure-blood
+  - Hermione
+  - Malfoy
+  - curse
+  - half-blood
+  quote_excerpt_short: "a really foul name for someone who is Muggle-born"
+  source_note: The chapter defines Mudblood as an insulting term for Muggle-born witches and wizards, connects it to pure-blood prejudice, and contrasts that prejudice with Hermione's demonstrated magical competence.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - blood-status
+  - muggle-born-students
+  - pure-blood-prejudice
+  - hermione-granger
+  - student-conflict
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Blood Status and Hogwarts Society
+  candidate_section: Slurs, Prejudice, and Student Achievement
+  reason_for_placement: The passage supplies explicit social terminology and attitudes around Muggle-born students at Hogwarts, but it reflects prejudice rather than official school policy.
+  relevance_to_hogwarts_a_history: This helps separate Hogwarts admissions and achievement evidence from blood-status prejudice in the later fan edition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch04-004
+    notes: Chapter Four seeded Lucius Malfoy's blood-status prejudice around Hermione's exam performance; this entry adds the explicit slur, student reaction, and Ron's explanation of Muggle-born, pure-blood, and half-blood terms.
+  confidence: high
+  limitations: Ron's explanation is informal; later sources should confirm terminology history and distinguish social prejudice from school policy.
+- id: cos-ch07-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  pdf_page: 377
+  printed_page: not available
+  extracted_text_lines: PDF page 377, lines 4-21
+  text_anchor:
+    start_phrase: What did Lockhart want with you
+    end_phrase: No one's lasted long fer a while now
+    local_occurrence_note: Hagrid discusses Lockhart's visit and the Defense Against the Dark Arts job while Ron is recovering in the cabin.
+  nearby_context: Hagrid doubts Lockhart's claims about banishing a banshee, says Lockhart was the only person available for the Defense Against the Dark Arts job, and reports that people are starting to think the post is jinxed because no one has lasted long for a while.
+  match_terms:
+  - Lockhart
+  - Professor Dumbledore
+  - Dark Arts job
+  - jinxed
+  - Hogwarts teacher
+  - banshee
+  quote_excerpt_short: "People aren't too keen ter take it on"
+  source_note: Hagrid gives informal staff-side evidence that the Defense Against the Dark Arts post has become hard to fill and is rumored to be jinxed after a run of short tenures.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - staffing
+  - teacher-appointments
+  - lockhart
+  - dumbledore
+  - jinxed-post
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Staffing
+  reason_for_placement: The passage links a curriculum post to repeated staffing instability and appointment constraints under Dumbledore.
+  relevance_to_hogwarts_a_history: This is later editorial context for Hogwarts staffing history and can frame recurring Defense Against the Dark Arts teacher turnover.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch04-006
+    notes: Chapter Four seeded Lockhart's Defense Against the Dark Arts appointment and required books; this entry adds Hagrid's explanation that the post has become difficult to fill and is rumored to be jinxed.
+  confidence: medium
+  limitations: Hagrid's claim is informal and does not date the beginning of the rumored jinx or identify prior teachers.
+- id: cos-ch07-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  pdf_page: 379
+  printed_page: not available
+  extracted_text_lines: PDF page 379, lines 7-22
+  text_anchor:
+    start_phrase: Come an' see what I've bin growin'
+    end_phrase: An Engorgement Charm, I suppose?
+    local_occurrence_note: Hagrid shows the pumpkin patch behind his cabin after the students visit for Ron's backfired curse.
+  nearby_context: Hagrid is growing enormous pumpkins for the Halloween feast near his cabin; Harry notices Hagrid's umbrella and reflects that Hagrid's old school wand may be hidden inside it, that Hagrid is not supposed to use magic, and that he was expelled from Hogwarts in third year for an unknown reason.
+  match_terms:
+  - Halloween feast
+  - Hagrid
+  - umbrella
+  - old school wand
+  - expelled from Hogwarts
+  - Engorgement Charm
+  - grounds
+  quote_excerpt_short: "He had been expelled from Hogwarts in his third year"
+  source_note: The passage corroborates Hagrid's expulsion and magic restriction, adds suspected concealed wand use through the umbrella, and links his grounds work to growing pumpkins for the Halloween feast.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hagrid
+  - expulsion
+  - wand-sanctions
+  - magic-restriction
+  - halloween-feast
+  - grounds
+  - engorgement-charm
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: Expulsion, Wand Sanctions, and Staff Retention
+  reason_for_placement: The passage revisits Hagrid's expulsion and magic ban while placing his later grounds role beside school feast preparation.
+  relevance_to_hogwarts_a_history: This strengthens the Hagrid discipline and staff-retention thread and cross-references Hogwarts feast logistics.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch04-007
+    notes: Chapter Four seeded Hagrid's expulsion, wand snapping, magic restriction, and Dumbledore's decision to keep him as gamekeeper; this entry corroborates the expulsion and adds the umbrella suspicion and Halloween pumpkin context.
+  confidence: medium
+  limitations: Harry's belief about the concealed wand and magical pumpkin growth is inferred, and the reason for Hagrid's expulsion remains unknown in this chapter.
+- id: cos-ch07-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seven - Mudbloods and Murmurs
+  chapter_start_pdf_page: 368
+  chapter_end_pdf_page: 382
+  pdf_page: 380
+  printed_page: not available
+  extracted_text_lines: PDF page 380, lines 5-31; PDF page 381, lines 22-36; PDF page 382, lines 8-23
+  text_anchor:
+    start_phrase: You will both do your detentions this evening
+    end_phrase: even someone invisible would've had to open the door
+    local_occurrence_note: McGonagall assigns Harry and Ron detention, followed by Harry hearing the hidden voice during Lockhart's office detention.
+  nearby_context: McGonagall assigns Ron to polish trophy-room silver with Filch without magic and Harry to help Lockhart answer fan mail; during detention in Lockhart's second-floor office, Harry hears a threatening voice that Lockhart cannot hear, and Ron later reasons that even an invisible person would need to open a door.
+  match_terms:
+  - detentions
+  - trophy room
+  - Mr. Filch
+  - no magic
+  - Lockhart's office
+  - second-floor corridor
+  - voice
+  - invisible
+  - Quidditch Cup
+  - Special Award for Services to the School
+  quote_excerpt_short: "polishing the silver in the trophy room"
+  source_note: The chapter records differentiated detention assignments, trophy-room cleaning without magic, Filch's custodial role, Lockhart's office detention, and the first observed hidden voice connected to the Chamber of Secrets crisis.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - detention
+  - trophy-room
+  - filch
+  - no-magic-punishment
+  - lockhart
+  - chamber-of-secrets
+  - hidden-voice
+  - castle-security
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Detention Logistics and Punishments
+  candidate_section: Staff-Assigned Tasks, Filch, and Trophy Room Labor
+  reason_for_placement: The passage gives concrete detention tasks and locations, while the hidden voice also supports later security coverage of the Chamber crisis.
+  relevance_to_hogwarts_a_history: This supports disciplinary-practice indexing and provides an early later-editorial marker for the Chamber of Secrets events inside the castle.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior seeds cover detention notices, Hagrid-supervised forest detention, and Filch enforcement, but not trophy-room polishing, no-magic cleaning, Lockhart fan-mail detention, or the hidden voice in the second-floor area.
+  confidence: medium
+  limitations: The detention tasks are specific to Harry and Ron's incident, and the voice is not identified in this chapter.

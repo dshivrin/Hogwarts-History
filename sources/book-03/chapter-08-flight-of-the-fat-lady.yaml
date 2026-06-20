@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  boundary_confidence: high
+  boundary_notes: Chapter Eight range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Seven boundary. Book 3 Chapter Eight starts on PDF page 690 and Chapter Nine starts on PDF page 708, so only PDF pages 690-707 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Eight. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch08-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 690
+  printed_page: not available
+  extracted_text_lines: PDF page 690, lines 6-18; PDF page 700, lines 26-30; PDF page 701, lines 2-10
+  text_anchor:
+    start_phrase: Defense Against the Dark Arts had become most people's favorite class
+    end_phrase: Strong, but very brittle
+    local_occurrence_note: Opening DADA curriculum summary, then Lupin's office showing the grindylow for the next lesson.
+  nearby_context: The chapter reports Lupin's sequence of practical creature lessons after boggarts, including Red Caps and kappas, and later shows a grindylow delivered to his office for the next lesson.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Professor Lupin
+  - Red Caps
+  - kappas
+  - grindylow
+  - next lesson
+  quote_excerpt_short: "After boggarts, they studied Red Caps"
+  source_note: The chapter gives a short third-year Defense Against the Dark Arts sequence under Lupin, moving from boggarts to Red Caps, kappas, and an upcoming grindylow lesson.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - red-caps
+  - kappas
+  - grindylows
+  - creature-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Creature Sequence
+  reason_for_placement: The passage extends the practical DADA seed with named dark or dangerous creatures taught across successive lessons.
+  relevance_to_hogwarts_a_history: This supports later curriculum coverage of third-year Defense Against the Dark Arts and how Lupin organizes defensive creature instruction.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch07-007
+    notes: Book 3 Chapter Seven records the boggart lesson and follow-up reading; this entry adds the next named DADA creatures and a grindylow prepared for a later lesson.
+  confidence: high
+  limitations: The sequence reflects Lupin's Harry-era teaching plan and does not prove that all third-year DADA classes historically used the same creature order.
+- id: poa-ch08-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 691
+  printed_page: not available
+  extracted_text_lines: PDF page 691, lines 23-35; PDF page 692, lines 2-40; PDF page 693, lines 3-6
+  text_anchor:
+    start_phrase: The Quidditch season was approaching
+    end_phrase: winning the huge, silver Quidditch Cup
+    local_occurrence_note: Oliver Wood's start-of-season Gryffindor team meeting and subsequent practice schedule.
+  nearby_context: Oliver Wood, now a seventh-year captain, gathers the seven Gryffindor players in the locker rooms, restates team positions and scoring, frames the Quidditch Cup as a House team goal, and begins three-evening-per-week training.
+  match_terms:
+  - Quidditch season
+  - Gryffindor team
+  - Chasers
+  - Beaters
+  - Keeper
+  - Seeker
+  - Quidditch Cup
+  - training sessions
+  quote_excerpt_short: "training sessions, three evenings a week"
+  source_note: The chapter corroborates Hogwarts House Quidditch structure with a captain-led seasonal meeting, team positions, Cup stakes, locker-room setting, and regular practice schedule.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-teams
+  - quidditch-cup
+  - team-captains
+  - practice-schedule
+  - locker-rooms
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Season Preparation, Captains, and the Quidditch Cup
+  reason_for_placement: The passage shows how a House team prepares for the season and gives another internal description of positions, scoring, and Cup motivation.
+  relevance_to_hogwarts_a_history: This strengthens a future section on House Quidditch organization, training routines, and the Quidditch Cup as a recurring school competition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch07-001
+    notes: Book 2 Chapter Seven already records Quidditch positions and scoring; this entry adds captain-led season planning, locker-room setting, Cup urgency, and three-evening practices.
+  confidence: high
+  limitations: Wood's comments are Gryffindor-specific and emotionally shaped by his final school year, so the practice schedule should not be generalized to every House team without corroboration.
+- id: poa-ch08-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 697
+  printed_page: not available
+  extracted_text_lines: PDF page 697, lines 6-15; PDF page 698, lines 2-11; PDF page 699, lines 10-15
+  text_anchor:
+    start_phrase: you should hand Hogsmeade permission forms to me
+    end_phrase: making sure that no one was sneaking out
+    local_occurrence_note: McGonagall's Transfiguration-class reminder and Filch's Halloween departure check at the front doors.
+  nearby_context: McGonagall tells Gryffindors to submit Hogsmeade permission forms to her before Halloween, refuses to override Harry's missing guardian signature, and Filch checks names at the front doors before students leave.
+  match_terms:
+  - Hogsmeade
+  - permission forms
+  - parent or guardian
+  - Professor McGonagall
+  - Halloween
+  - Filch
+  - front doors
+  quote_excerpt_short: "No form, no visiting the village"
+  source_note: The chapter shows the school-side enforcement of Hogsmeade permission forms through Head-of-House collection, strict guardian-signature interpretation, and caretaker name checks.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - permission-forms
+  - guardian-signature
+  - head-of-house
+  - filch
+  - student-movement
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage turns the earlier permission-form requirement into observed school procedure and departure enforcement.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogsmeade weekends as regulated student privileges managed by Heads of House and checked at castle exits.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch03-005
+    notes: Book 3 Chapter Three records Fudge refusing to override the parent-or-guardian rule; this entry adds McGonagall's Head-of-House handling and Filch's exit-list enforcement.
+  confidence: high
+  limitations: The chapter does not explain who creates the departure list, how many staff supervise Hogsmeade visits, or whether security-threat years use extra checks.
+- id: poa-ch08-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 699
+  printed_page: not available
+  extracted_text_lines: PDF page 699, lines 16-23; PDF page 700, lines 2-6
+  text_anchor:
+    start_phrase: back to Gryffindor Tower
+    end_phrase: the Fat Lady called grumpily after him
+    local_occurrence_note: Harry returns alone after the Hogsmeade group leaves and immediately exits again.
+  nearby_context: Harry reaches Gryffindor Tower by marble staircase and corridors, gives the Fat Lady the password Fortuna Major, climbs through the portrait hole into the common room, then exits again while the Fat Lady complains.
+  match_terms:
+  - Gryffindor Tower
+  - Password
+  - Fat Lady
+  - Fortuna Major
+  - portrait
+  - portrait hole
+  - common room
+  quote_excerpt_short: "The portrait swung open"
+  source_note: The chapter provides another observed instance of Gryffindor Tower's password-controlled Fat Lady portrait entrance and shows the portrait behaving as an interactive resident gatekeeper.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - gryffindor-tower
+  - fat-lady
+  - portraits
+  - passwords
+  - common-room
+  - portrait-hole
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Gryffindor Tower Access
+  reason_for_placement: The passage combines House residential access, password authentication, and a sentient or responsive portrait entrance.
+  relevance_to_hogwarts_a_history: This supports future treatment of House common-room security customs and magical portrait architecture at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch05-006
+    notes: Book 2 Chapter Five records Gryffindor Tower portrait-password access; this entry adds the current password, the Fat Lady's active gatekeeping, and solitary access during a Hogsmeade weekend.
+  confidence: high
+  limitations: The entry does not explain password-setting authority, frequency of password changes, or whether the Fat Lady has discretion beyond recognizing the password.
+- id: poa-ch08-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 703
+  printed_page: not available
+  extracted_text_lines: PDF page 703, lines 3-28
+  text_anchor:
+    start_phrase: Snape was carrying a goblet
+    end_phrase: there aren't many wizards who are up to making it
+    local_occurrence_note: Snape brings Lupin a smoking potion in Lupin's office after the grindylow discussion.
+  nearby_context: Snape delivers a smoking potion to Lupin, says he made an entire cauldronful, and Lupin describes it as particularly complex, sugar-sensitive, and one that few wizards can make.
+  match_terms:
+  - Professor Snape
+  - goblet
+  - cauldronful
+  - potion
+  - potion-brewer
+  - complex
+  - sugar
+  quote_excerpt_short: "particularly complex"
+  source_note: The chapter gives staff-level evidence of advanced Potions expertise through Snape brewing an unnamed complex medicinal potion for Lupin.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - potions
+  - snape
+  - lupin
+  - staff-expertise
+  - medicinal-potion
+  - advanced-magic
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions
+  candidate_section: Advanced Potion-Brewing and Staff Expertise
+  reason_for_placement: The passage supports Potions as a serious magical discipline beyond student lessons and shows staff reliance on specialist brewing skill.
+  relevance_to_hogwarts_a_history: This can support later editorial notes on teacher expertise and the institutional value of advanced Potions knowledge at Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically records a staff-brewed complex medicinal potion for a colleague.
+  confidence: medium
+  limitations: The potion is unnamed in this chapter and Lupin's medical condition is not explained here, so later entries should identify or contextualize it before drawing stronger conclusions.
+- id: poa-ch08-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 705
+  printed_page: not available
+  extracted_text_lines: PDF page 705, lines 17-32
+  text_anchor:
+    start_phrase: crossed into the Great Hall
+    end_phrase: a reenactment of his own botched beheading
+    local_occurrence_note: Halloween feast scene after Harry, Ron, and Hermione leave Gryffindor Tower.
+  nearby_context: The Great Hall is decorated for Halloween with pumpkins, live bats, streamers, and stormy ceiling imagery; the feast ends with Hogwarts ghosts performing formation gliding and Nearly Headless Nick reenacting his botched beheading.
+  match_terms:
+  - Great Hall
+  - Halloween
+  - pumpkins
+  - live bats
+  - stormy ceiling
+  - Hogwarts ghosts
+  - Nearly Headless Nick
+  quote_excerpt_short: "entertainment provided by the Hogwarts ghosts"
+  source_note: The chapter corroborates the Halloween feast as a decorated Great Hall tradition and adds ghostly entertainment, including formation gliding and Nick's beheading reenactment.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - halloween-feast
+  - great-hall
+  - seasonal-decorations
+  - ghosts
+  - nearly-headless-nick
+  - enchanted-ceiling
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Halloween Feast
+  candidate_section: Great Hall Decorations and Ghost Entertainment
+  reason_for_placement: The passage combines seasonal Great Hall decoration with a school-wide ghost performance at the feast.
+  relevance_to_hogwarts_a_history: This strengthens future coverage of annual feast customs, Great Hall adaptability, and cooperation or overlap between school traditions and resident ghosts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch10-002
+    notes: Book 1 Chapter Ten records the Halloween feast with Great Hall decorations; this entry corroborates the feast and adds ghost entertainment and a stormy-ceiling image.
+  confidence: high
+  limitations: The chapter does not state who arranged the ghost entertainment or whether ghost performances are an annual feature.
+- id: poa-ch08-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eight - Flight of the Fat Lady
+  chapter_start_pdf_page: 690
+  chapter_end_pdf_page: 707
+  pdf_page: 706
+  printed_page: not available
+  extracted_text_lines: PDF page 706, lines 2-31; PDF page 707, lines 2-13
+  text_anchor:
+    start_phrase: the corridor that ended with the portrait of the Fat Lady
+    end_phrase: Nasty temper he's got, that Sirius Black
+    local_occurrence_note: Return from Halloween feast to Gryffindor Tower and discovery of the slashed Fat Lady portrait.
+  nearby_context: Gryffindors find their tower entrance blocked after the Fat Lady vanishes from her slashed portrait; Percy as Head Boy calls for Dumbledore, and Dumbledore orders McGonagall and Filch to search every painting for her before Peeves identifies Sirius Black.
+  match_terms:
+  - Fat Lady
+  - portrait
+  - password
+  - Head Boy
+  - Dumbledore
+  - McGonagall
+  - Filch
+  - every painting
+  - Peeves
+  - Sirius Black
+  quote_excerpt_short: "search every painting in the castle"
+  source_note: The chapter records a breach of Gryffindor Tower's portrait entrance, showing portrait mobility, Head Boy escalation, headmaster response, Filch's search role, and Peeves as an informant.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - fat-lady
+  - portraits
+  - gryffindor-tower
+  - sirius-black
+  - head-boy
+  - dumbledore
+  - filch
+  - peeves
+  - crisis-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: House Entrances and Castle Security
+  candidate_section: Portrait Gatekeepers and Breach Response
+  reason_for_placement: The passage shows that a House entrance portrait can refuse entry, flee through painting-landscapes, and trigger schoolwide staff search procedures when attacked.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the security role and vulnerability of portrait entrances, plus crisis escalation through Head Students, staff, and resident magical beings.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch05-006
+    notes: Book 2 Chapter Five records normal Gryffindor Tower portrait-password access; this entry adds a violent breach, missing portrait, schoolwide painting search, and Sirius Black crisis context.
+  confidence: high
+  limitations: The attack is specific to the 1993 Sirius Black crisis and should not be treated as a normal weakness of Hogwarts security without later corroboration.

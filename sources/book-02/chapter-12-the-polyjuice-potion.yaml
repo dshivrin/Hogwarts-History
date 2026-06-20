@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  boundary_confidence: high
+  boundary_notes: Chapter Twelve range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Eleven boundary. Book 2 Chapter Twelve starts on PDF page 453 and Chapter Thirteen starts on PDF page 471, so only PDF pages 453-470 were extracted and searched.
+  processed_date: '2026-06-16'
+  processor_notes: "Processed only Book 2, Chapter Twelve. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch12-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 453
+  printed_page: not available
+  extracted_text_lines: PDF page 453, lines 9-20
+  text_anchor:
+    start_phrase: Harry looked around
+    end_phrase: the Sorting Hat
+    local_occurrence_note: Opening scene in Dumbledore's office after McGonagall leaves Harry alone.
+  nearby_context: Harry observes Dumbledore's circular office, including silver instruments, portraits of old headmasters and headmistresses, a claw-footed desk, and the Sorting Hat on a shelf.
+  match_terms:
+  - Dumbledore's office
+  - silver instruments
+  - portraits
+  - headmasters
+  - headmistresses
+  - Sorting Hat
+  quote_excerpt_short: "portraits of old headmasters and headmistresses"
+  source_note: The chapter adds interior details for Dumbledore's office, including headmaster and headmistress portraits, magical instruments, and the Sorting Hat kept behind the desk.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore-office
+  - headmaster-office
+  - headmaster-portraits
+  - sorting-hat
+  - administrative-spaces
+  - magical-instruments
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: Office Interior, Portraits, and Artifacts
+  reason_for_placement: The passage extends the headmaster's office seed from entrance architecture to the interior administrative space and its magical objects.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts administrative spaces, headmaster portrait traditions, and the Sorting Hat's storage outside ceremonies.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-007
+    notes: Chapter Eleven records the office entrance and moving staircase; this entry concerns the same office and adds interior portraits, instruments, and the Sorting Hat.
+  confidence: high
+  limitations: The source does not explain when the portraits were installed, whether they can advise the headmaster, or why the Sorting Hat is kept there.
+- id: cos-ch12-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 456
+  printed_page: not available
+  extracted_text_lines: PDF page 456, lines 24-33; PDF page 457, lines 32-37; PDF page 458, lines 2-7
+  text_anchor:
+    start_phrase: The double attack on Justin
+    end_phrase: support the teachers during this troubled time
+    local_occurrence_note: Post-attack Christmas departure panic and term-end castle quiet before Christmas morning.
+  nearby_context: After Justin and Nearly Headless Nick are attacked, many students book seats home on the Hogwarts Express. A small group remains at school, and Percy says his prefect duty is to support the teachers during the crisis.
+  match_terms:
+  - Hogwarts Express
+  - Christmas
+  - stay over the holidays
+  - Gryffindor Tower
+  - prefect
+  - teachers
+  quote_excerpt_short: "support the teachers during this troubled time"
+  source_note: The chapter shows the Christmas-holiday residence system under emergency pressure, with students leaving by train, a smaller group staying in the castle, and a prefect framing his presence as teacher support.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - christmas-holidays
+  - student-residence
+  - hogwarts-express
+  - prefects
+  - emergency-response
+  - teachers
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Holiday Residence During School Emergencies
+  reason_for_placement: The passage connects ordinary Christmas residence procedures to emergency departures and prefect support during a school crisis.
+  relevance_to_hogwarts_a_history: This helps separate standing holiday customs from later editorial notes about how Hogwarts operated during the Chamber attacks.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-001
+    notes: Chapter Eleven already records McGonagall's Christmas stay sign-up; this entry follows the same holiday-residence thread and adds emergency departure pressure plus a prefect-support claim.
+  confidence: high
+  limitations: Percy's description of prefect duty may reflect self-importance or crisis-specific behavior rather than a formal written responsibility.
+- id: cos-ch12-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 459
+  printed_page: not available
+  extracted_text_lines: PDF page 459, lines 7-20
+  text_anchor:
+    start_phrase: No one, not even someone dreading
+    end_phrase: finalize their plans for the evening
+    local_occurrence_note: Christmas dinner in the Great Hall before the Polyjuice plan begins.
+  nearby_context: The Great Hall is decorated with frost-covered Christmas trees, holly, mistletoe, warm dry enchanted snow, carols led by Dumbledore, eggnog, House tables, and Christmas pudding.
+  match_terms:
+  - Christmas dinner
+  - Hogwarts
+  - Great Hall
+  - enchanted snow
+  - Christmas trees
+  - carols
+  quote_excerpt_short: "enchanted snow was falling, warm and dry"
+  source_note: The chapter gives another observed Christmas dinner at Hogwarts, adding enchanted warm dry snow, carols led by Dumbledore, and seasonal Great Hall decorations.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas-dinner
+  - great-hall
+  - enchanted-snow
+  - holiday-decorations
+  - school-traditions
+  - dumbledore
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Great Hall Decorations and Dinner
+  reason_for_placement: The passage corroborates Christmas dinner as a school tradition and adds a specific enchanted decoration not recorded in the prior Christmas dinner seed.
+  relevance_to_hogwarts_a_history: This strengthens future coverage of Hogwarts holiday feasts and magical Great Hall decoration practices.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-003
+    notes: Chapter Twelve of Book 1 already records Great Hall Christmas decorations and dinner; this entry corroborates the tradition in the next year and adds enchanted warm dry snow and carols.
+  confidence: high
+  limitations: The passage does not identify who creates or maintains the enchanted snow or whether this exact decoration recurs every year.
+- id: cos-ch12-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 461
+  printed_page: not available
+  extracted_text_lines: PDF page 461, lines 21-28; PDF page 462, lines 2-31; PDF page 470, lines 21-28
+  text_anchor:
+    start_phrase: I'm sure I've done everything right
+    end_phrase: animal transformations
+    local_occurrence_note: Moaning Myrtle's bathroom brewing scene and Hermione's later explanation of the cat-hair error.
+  nearby_context: Hermione checks Moste Potente Potions, says the Polyjuice transformation should last exactly an hour, adds hairs to the potion, and later discovers that the potion is not meant for animal transformations.
+  match_terms:
+  - Moste Potente Potions
+  - Polyjuice Potion
+  - one hour
+  - hair
+  - animal transformations
+  - Moaning Myrtle's bathroom
+  quote_excerpt_short: "exactly an hour before we change back"
+  source_note: The chapter confirms further details from the restricted Polyjuice source, including the one-hour duration, hair-dependent target transformation, and a limitation against animal transformations.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - polyjuice-potion
+  - moste-potente-potions
+  - restricted-books
+  - advanced-potions
+  - animal-transformation
+  - moaning-myrtle-bathroom
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions Instruction and Materials
+  candidate_section: Advanced Recipes, Duration, and Misuse Risks
+  reason_for_placement: The passage adds functional and safety details to the advanced Potions and restricted-text seed.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the hazards of student access to advanced potion knowledge and the limits of recipe interpretation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-002
+    notes: Chapter Ten already records Moste Potente Potions and the Polyjuice recipe; this entry follows that same restricted-text thread and adds duration, target-hair use, and the animal-transformation limitation.
+  confidence: high
+  limitations: The brewing and use are illicit student actions, so they should not be treated as normal Hogwarts instruction.
+- id: cos-ch12-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 466
+  printed_page: not available
+  extracted_text_lines: PDF page 464, lines 18-35; PDF page 465, lines 3-15; PDF page 466, lines 11-23
+  text_anchor:
+    start_phrase: They went down the marble staircase
+    end_phrase: high-backed chairs
+    local_occurrence_note: Harry and Ron search the dungeons, follow Malfoy, and enter the Slytherin common room.
+  nearby_context: Ron says Slytherins come up to breakfast from the dungeon entrance; Harry and Ron pass through labyrinthine passages beneath the school before a password opens a concealed stone door into a low underground common room with greenish lamps.
+  match_terms:
+  - Slytherin common room
+  - dungeons
+  - labyrinthine passages
+  - password
+  - stone door
+  - underground
+  quote_excerpt_short: "long, low underground room"
+  source_note: The chapter locates the Slytherin common room under the school near dungeon passages and shows password access through a concealed stone door.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - slytherin-common-room
+  - dungeons
+  - house-common-rooms
+  - passwords
+  - concealed-doors
+  - castle-navigation
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Slytherin Dungeon Entrance and Common Room
+  reason_for_placement: The passage gives concrete architecture, location, and access evidence for a second House common room.
+  relevance_to_hogwarts_a_history: This supports future comparative coverage of House spaces, passwords, and concealed entrances within the castle.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior seeds describe Gryffindor Tower access, but no earlier entry records the Slytherin common room's dungeon location and concealed stone-door password.
+  confidence: high
+  limitations: The password shown is Harry-era and prejudicial; it should not be treated as a stable historical Slytherin password.
+- id: cos-ch12-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 467
+  printed_page: not available
+  extracted_text_lines: PDF page 466, lines 29-33; PDF page 467, lines 2-16; PDF page 467, lines 27-33
+  text_anchor:
+    start_phrase: It had been clipped out of the Daily Prophet
+    end_phrase: He loves Muggle-borns
+    local_occurrence_note: Malfoy shows Harry and Ron a Daily Prophet clipping in the Slytherin common room.
+  nearby_context: A Daily Prophet clipping identifies Lucius Malfoy as a Hogwarts governor and reports him calling for Arthur Weasley's resignation after the flying-car incident; Draco then says Dumbledore could be sacked if the attacks continue.
+  match_terms:
+  - Daily Prophet
+  - Lucius Malfoy
+  - governor of Hogwarts
+  - Dumbledore
+  - headmaster
+  - sacked
+  quote_excerpt_short: "a governor of Hogwarts School of Witchcraft and Wizardry"
+  source_note: The chapter identifies Lucius Malfoy as a Hogwarts governor and shows external political pressure around the school, the headmaster, and the public handling of the Chamber attacks.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-governors
+  - lucius-malfoy
+  - dumbledore
+  - headmaster
+  - daily-prophet
+  - school-governance
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Governors, Public Pressure, and Crisis Accountability
+  reason_for_placement: The passage introduces Hogwarts governors as an institutional oversight body and ties governance pressure to a school crisis.
+  relevance_to_hogwarts_a_history: This provides evidence for a governance chapter beyond staff discipline, showing that Hogwarts has governors with public and political influence.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically records the Hogwarts governors or their relationship to headmaster accountability.
+  confidence: high
+  limitations: The clipping and Draco's comments do not define the governors' formal powers or appointment process.
+- id: cos-ch12-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Twelve - The Polyjuice Potion
+  chapter_start_pdf_page: 453
+  chapter_end_pdf_page: 470
+  pdf_page: 468
+  printed_page: not available
+  extracted_text_lines: PDF page 468, lines 27-43; PDF page 469, lines 2-9
+  text_anchor:
+    start_phrase: Father won't tell me anything
+    end_phrase: ridding of all the Mudblood filth
+    local_occurrence_note: Malfoy discusses what his father said about the previous Chamber opening in the Slytherin common room.
+  nearby_context: Malfoy says the Chamber was opened fifty years earlier, before Lucius's time; he says the matter was kept quiet, that a Muggle-born student died, and that the person blamed was expelled and possibly sent to Azkaban.
+  match_terms:
+  - Chamber of Secrets
+  - fifty years ago
+  - kept quiet
+  - Mudblood died
+  - expelled
+  - Azkaban
+  quote_excerpt_short: "last time the Chamber of Secrets was opened"
+  source_note: The chapter adds a secondhand account of a previous Chamber opening, including a fifty-year timeframe, institutional secrecy, a Muggle-born death, and expulsion of the alleged culprit.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chamber-of-secrets
+  - prior-opening
+  - school-history
+  - muggle-born-student
+  - expulsion
+  - azkaban
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: The First Known Chamber Opening
+  candidate_section: Death, Secrecy, and Expulsion
+  reason_for_placement: The passage supplies new pre-Harry timeline evidence about the earlier Chamber incident and its institutional aftermath.
+  relevance_to_hogwarts_a_history: This is important for later editorial reconstruction of the Chamber's history, while its reliability must be checked against later evidence.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch09-005
+    notes: Chapter Nine records the Chamber legend and heir language; this entry overlaps that Chamber-history thread and adds a claimed prior opening, death, secrecy, and expulsion.
+  confidence: medium
+  limitations: The information is filtered through Draco Malfoy and his father, includes rumor about Azkaban, and needs later corroboration before being treated as settled history.

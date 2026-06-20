@@ -1,0 +1,85 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seven - The Sorting Hat
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 122
+  boundary_confidence: high
+  boundary_notes: Chapter Seven title was located on PDF page 107; Chapter Eight - The Potions Master begins on PDF page 123, so only pages 107-122 were searched for entries.
+  processed_date: '2026-06-09'
+  processor_notes: Processed only Book 1, Chapter Seven. Text was extracted locally with pypdf into .tmp/ and searched with rg. Quote excerpts were kept under 25 words per entry.
+entries:
+- id: ps-ch07-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seven - The Sorting Hat
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 122
+  pdf_page: 110
+  printed_page: not available
+  extracted_text_lines: PDF page 110, lines 11-17
+  nearby_context: First-years enter the Great Hall before the Sorting Ceremony; Harry notices the starry ceiling and Hermione identifies the enchantment and its source.
+  match_terms:
+  - 'Hogwarts: A History'
+  - Great Hall
+  - bewitched
+  - ceiling
+  - sky outside
+  quote_excerpt_short: bewitched to look like the sky outside
+  source_note: 'Hermione explains that the Great Hall ceiling is enchanted to resemble the outside sky and says she read this in Hogwarts: A History.'
+  reference_type: explicit_hogwarts_a_history
+  era_classification: original_book_core_candidate
+  topic_tags:
+  - great-hall
+  - enchanted-ceiling
+  - magical-architecture
+  - hermione-source
+  - explicit-reference
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: The Great Hall
+  candidate_section: The Enchanted Ceiling
+  reason_for_placement: 'The fact describes a permanent magical feature of the castle and is explicitly attributed to Hogwarts: A History.'
+  relevance_to_hogwarts_a_history: 'This is a direct in-universe confirmation that information about the Great Hall ceiling appears in Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No earlier YAML seed files were present in this workspace when checked.
+  confidence: high
+  limitations: Only Chapter Seven was processed in this run; later books may contain additional Great Hall ceiling references.
+- id: ps-ch07-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seven - The Sorting Hat
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 122
+  pdf_page: 108
+  printed_page: not available
+  extracted_text_lines: PDF page 107, lines 20-22; PDF page 108, lines 1-13
+  nearby_context: Professor McGonagall briefs the first-years before they enter the Great Hall for the start-of-term banquet and Sorting Ceremony.
+  match_terms:
+  - Sorting Ceremony
+  - first years
+  - Great Hall
+  - Houses
+  - House Cup
+  quote_excerpt_short: The Sorting Ceremony will take place in a few minutes
+  source_note: McGonagall presents the Sorting as a start-of-term ceremony for first-years before the assembled school, explains the four Houses, and links House membership to classes, dormitories, common rooms, points, and the House Cup.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - sorting-ceremony
+  - first-year-arrival
+  - house-system
+  - start-of-term-banquet
+  - institutional-custom
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: Arrival of First-Year Students
+  reason_for_placement: The scene records a school-wide ritual used to assign first-years to Houses at the start-of-term banquet.
+  relevance_to_hogwarts_a_history: 'This provides supporting evidence for a future section on Hogwarts ceremonies and House assignment practices, though it is not explicitly attributed to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No earlier YAML seed files were present in this workspace when checked.
+  confidence: medium
+  limitations: 'The chapter confirms the ceremony in Harry-era practice but does not state its origin, age, or whether Hogwarts: A History covers it.'

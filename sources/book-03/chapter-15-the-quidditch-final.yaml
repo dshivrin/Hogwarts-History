@@ -1,0 +1,337 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  boundary_confidence: high
+  boundary_notes: Chapter Fifteen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Fourteen boundary. Book 3 Chapter Fifteen starts on PDF page 818 and Chapter Sixteen starts on PDF page 837, so only PDF pages 818-836 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Fifteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch15-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 818
+  printed_page: not available
+  extracted_text_lines: PDF page 818, lines 6-19; PDF page 819, lines 13-24
+  text_anchor:
+    start_phrase: We lost. I'm allowed to bring him back to Hogwarts.
+    end_phrase: Committee's in Lucius Malfoy's pocket
+    local_occurrence_note: Opening Buckbeak verdict letter and Hagrid's Care of Magical Creatures lesson account.
+  nearby_context: Hagrid's letter tells Hermione that Buckbeak lost before the Committee, may return to Hogwarts until an execution date is fixed, and enjoyed London; during class Hagrid says he forgot dates Hermione had researched, describes the black-robed Committee, and says an appeal remains but looks hopeless.
+  match_terms:
+  - Buckbeak
+  - Hogwarts
+  - Execution date
+  - London
+  - Committee
+  - appeal
+  - Care of Magical Creatures
+  quote_excerpt_short: "Execution date to be fixed"
+  source_note: The chapter records the Committee verdict against Buckbeak, the temporary return to Hogwarts, the pending execution date, Hagrid's appeal route, and Hermione's researched dates for the defense.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - buckbeak
+  - dangerous-creatures
+  - committee-for-disposal
+  - care-of-magical-creatures
+  - hagrid
+  - lucius-malfoy
+  - appeals
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Governors, Ministry, and School Accountability
+  candidate_section: Dangerous-Creature Hearings After Class Injuries
+  reason_for_placement: The passage expands the dangerous-creature legal thread by showing verdict, return-to-Hogwarts custody, appeal possibility, and research-based defense preparation.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on how Hogwarts classroom incidents can become external legal proceedings involving school staff, students, families, and creature authorities.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-003
+    notes: Book 3 Chapter Fourteen records the imminent Committee hearing and Hermione's defense research; this entry adds the adverse verdict, temporary return to Hogwarts, execution-date language, and appeal context.
+  confidence: high
+  limitations: The formal legal rules of the Committee and appeal body are not quoted, and Hagrid's account is distressed and informal.
+- id: poa-ch15-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 819
+  printed_page: not available
+  extracted_text_lines: PDF page 819, lines 8-11; PDF page 821, lines 12-14
+  text_anchor:
+    start_phrase: The safety measures imposed on the students
+    end_phrase: scrambled through the portrait hole into the common room
+    local_occurrence_note: Security restriction after Buckbeak's verdict and later Gryffindor Tower entry after lunch.
+  nearby_context: Since Black's second break-in, students cannot visit Hagrid in the evenings and must use Care of Magical Creatures lessons to speak with him; Harry and Ron later pass security trolls, give the Fat Lady the password, and enter Gryffindor common room.
+  match_terms:
+  - safety measures
+  - Black's second break-in
+  - Hagrid
+  - evenings
+  - Care of Magical Creatures
+  - security trolls
+  - Fat Lady
+  - password
+  quote_excerpt_short: "safety measures imposed on the students"
+  source_note: The chapter shows crisis movement restrictions affecting evening visits to Hagrid and corroborates the continuing security-troll and Fat Lady password checkpoint at Gryffindor Tower.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black-crisis
+  - student-movement
+  - hagrid
+  - care-of-magical-creatures
+  - security-trolls
+  - fat-lady
+  - gryffindor-tower
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Emergency Lockdowns and Student Safety
+  candidate_section: Post-Breach Student Movement Restrictions
+  reason_for_placement: The passage describes how an intrusion crisis changes ordinary student movement and House entrance security.
+  relevance_to_hogwarts_a_history: This gives later editorial evidence for Hogwarts' ability to restrict student movement and maintain guarded House access during a school-security crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-001
+    notes: Book 3 Chapter Fourteen records the post-breach security escalation; this entry adds the practical effect on evening student movement and confirms the security trolls remain at Gryffindor Tower.
+  confidence: high
+  limitations: These measures are explicitly crisis-specific and should not be treated as ordinary term-time movement rules.
+- id: poa-ch15-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 820
+  printed_page: not available
+  extracted_text_lines: PDF page 820, lines 25-29; PDF page 821, lines 3-6; PDF page 822, lines 5-31; PDF page 823, lines 2-17; PDF page 824, lines 18-24
+  text_anchor:
+    start_phrase: we're experimenting with Cheering Charms today
+    end_phrase: climbed down the ladder out of sight
+    local_occurrence_note: Charms lesson absence, Divination crystal-gazing lesson, and Hermione's departure from Divination.
+  nearby_context: Flitwick's Charms class is experimenting with Cheering Charms in pairs and hints they may appear in exams; Trelawney introduces crystal balls earlier than planned because the June exam will concern the Orb, explains the crystal-gazing practice method, and Hermione leaves Divination after a confrontation.
+  match_terms:
+  - Charms
+  - Cheering Charms
+  - Professor Flitwick
+  - exams
+  - Divination
+  - crystal balls
+  - Orb
+  - Unfogging the Future
+  quote_excerpt_short: "we're experimenting with Cheering Charms today"
+  source_note: The chapter gives concrete third-year Charms and Divination curriculum evidence, including Cheering Charm practice, exam hints, early crystal-ball instruction, Orb examination content, and Hermione's dropped elective.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - charms
+  - cheering-charms
+  - professor-flitwick
+  - exams
+  - divination
+  - crystal-gazing
+  - unfogging-the-future
+  - hermione-course-load
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Charms and Divination Assessment
+  reason_for_placement: The passage records lesson content, exam preparation, and elective-dropping behavior within Hogwarts academic life.
+  relevance_to_hogwarts_a_history: This supports later editorial curriculum notes, especially for third-year elective structure and teacher-controlled exam preparation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-003
+    notes: Book 3 Chapter Six introduces Divination, Trelawney, and Unfogging the Future; this entry adds crystal-ball timing, Orb exam content, Cheering Charms, and Hermione's departure from the subject.
+  confidence: high
+  limitations: The chapter reflects Trelawney's teaching style and a single third-year cohort, not a complete Divination or Charms syllabus.
+- id: poa-ch15-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 825
+  printed_page: not available
+  extracted_text_lines: PDF page 825, lines 9-34; PDF page 826, lines 2-7
+  text_anchor:
+    start_phrase: The Easter holidays were not exactly relaxing.
+    end_phrase: Charlie Weasley had been Seeker
+    local_occurrence_note: Easter holiday workload paragraph leading into Wood's Quidditch Cup calculations.
+  nearby_context: Third-years receive heavy Easter homework; Hermione, even without Divination, has more subjects than anyone else and works late in the common room and early in the library; Ron researches Buckbeak's appeal in named hippogriff books; Harry works around daily Quidditch practice and Wood's Cup arithmetic.
+  match_terms:
+  - Easter holidays
+  - homework
+  - library
+  - The Handbook of Hippogriff Psychology
+  - Fowl or Foul?
+  - Quidditch practice
+  - tournament
+  - Quidditch Cup
+  quote_excerpt_short: "Fowl or Foul? A Study of Hippogriff Brutality"
+  source_note: The chapter combines third-year holiday homework pressure, Hermione's remaining elective overload, library-based creature-law research using named hippogriff books, daily Quidditch practice, Cup standings, Snitch arithmetic, and a Charlie Weasley-era Gryffindor Cup memory.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - homework
+  - library
+  - hermione-course-load
+  - hippogriff-books
+  - buckbeak-appeal
+  - quidditch-practice
+  - quidditch-cup
+  - charlie-weasley
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Practical Books and Specialist Periodicals
+  candidate_section: Creature-Law and Hippogriff Sources
+  reason_for_placement: The passage names specialist hippogriff sources and shows library research serving a Hogwarts-related legal appeal.
+  relevance_to_hogwarts_a_history: This can seed both curriculum/workload coverage and a source index for magical-creature scholarship connected to Hogwarts teaching disputes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-003
+    notes: Book 3 Chapter Fourteen records Hermione's defense research for Buckbeak; this entry adds the named hippogriff volumes, Ron's library work, Easter workload context, and simultaneous Quidditch Cup preparation.
+  confidence: high
+  limitations: The passage does not prove whether the hippogriff books are Hogwarts library holdings or personal/class texts, though the library routine strongly suggests school research access.
+- id: poa-ch15-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 826
+  printed_page: not available
+  extracted_text_lines: PDF page 826, lines 15-33
+  text_anchor:
+    start_phrase: Never, in anyone's memory
+    end_phrase: Even Hermione had put down her books
+    local_occurrence_note: Pre-final House tension and Firebolt security paragraph before the night-before common-room scene.
+  nearby_context: The Gryffindor-Slytherin final creates exceptional House tension, corridor scuffles send students to the hospital wing, Wood orders Harry accompanied everywhere to prevent sabotage, Gryffindor students escort him, and Harry secures the Firebolt in his trunk and checks it repeatedly.
+  match_terms:
+  - House tension
+  - scuffles
+  - hospital wing
+  - Wood
+  - accompanied everywhere
+  - Slytherins
+  - Firebolt
+  - Gryffindor Tower
+  quote_excerpt_short: "tension between the two teams and their Houses"
+  source_note: The chapter records the social and safety consequences of a high-stakes House Quidditch final, including inter-House scuffles, injury, informal escorting, and player-equipment protection.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-rivalry
+  - quidditch-final
+  - hospital-wing
+  - gryffindor
+  - slytherin
+  - firebolt
+  - player-safety
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: House Rivalry and Player Protection
+  reason_for_placement: The passage shows how intense House sport can spill into corridors, health care, and informal student safety measures.
+  relevance_to_hogwarts_a_history: This belongs in later editorial notes on Quidditch culture, House rivalry, and player safety during exceptional matches.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch13-004
+    notes: Book 3 Chapter Thirteen records match sabotage by Slytherin students; this entry extends the same rivalry into pre-final corridor scuffles, informal escorting, and equipment custody.
+  confidence: high
+  limitations: The source explicitly frames this atmosphere as unprecedented in memory, so it should not be treated as normal House rivalry.
+- id: poa-ch15-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 829
+  printed_page: not available
+  extracted_text_lines: PDF page 828, lines 28-33; PDF page 829, lines 2-32; PDF page 830, lines 3-8
+  text_anchor:
+    start_phrase: Harry and the rest of the Gryffindor team entered the Great Hall
+    end_phrase: fourteen brooms rose into the air
+    local_occurrence_note: Matchday breakfast, field inspection, crowd display, team introduction, captain handshake, and kickoff.
+  nearby_context: The team receives Great Hall applause from multiple House tables, inspects field conditions before the crowd arrives, changes into scarlet robes in locker rooms, enters before House-colored supporters and banners, receives Lee Jordan's team introduction, and begins under Madam Hooch's captain handshake, mount-brooms command, countdown, and whistle.
+  match_terms:
+  - Great Hall
+  - Ravenclaw
+  - Hufflepuff
+  - locker rooms
+  - scarlet robes
+  - Lee Jordan
+  - Madam Hooch
+  - captains
+  quote_excerpt_short: "Captains, shake hands"
+  source_note: The chapter provides a detailed House Quidditch final procedure from Great Hall sendoff through pitch inspection, locker-room robes, House-colored crowd support, commentary, captain handshake, and Hooch's whistle start.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - matchday
+  - great-hall
+  - locker-rooms
+  - house-colors
+  - lee-jordan
+  - madam-hooch
+  - captains
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Matchday Procedure and House Support
+  reason_for_placement: The passage corroborates and enriches recurring Hogwarts Quidditch matchday practices.
+  relevance_to_hogwarts_a_history: This helps future Quidditch sections distinguish stable ceremonial and procedural elements from one-match tactics.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-003
+    notes: Book 2 Chapter Ten and Book 3 Chapter Thirteen record locker rooms, robes, Hooch kickoff, and commentary; this entry adds final-specific Great Hall sendoff, field-condition inspection, House-colored crowd displays, and cross-House applause.
+  confidence: high
+  limitations: The cross-House support and unusually large Gryffindor backing are final-specific and shaped by Slytherin rivalry.
+- id: poa-ch15-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fifteen - The Quidditch Final
+  chapter_start_pdf_page: 818
+  chapter_end_pdf_page: 836
+  pdf_page: 830
+  printed_page: not available
+  extracted_text_lines: PDF page 830, lines 23-34; PDF page 831, lines 19-27; PDF page 832, lines 21-31; PDF page 833, lines 10-13 and 17-26; PDF page 834, lines 2-10; PDF page 835, lines 17-34; PDF page 836, lines 2-5
+  text_anchor:
+    start_phrase: That will do!
+    end_phrase: Dumbledore stood waiting with the enormous Quidditch Cup
+    local_occurrence_note: Final match fouls, penalty rulings, keeper-scoring-area rule, victory celebration, and Cup presentation.
+  nearby_context: Madam Hooch awards penalties for unprovoked attacks, deliberate damage, illegal contact with a Chaser, attacking the Keeper away from the scoring area, and Malfoy's Firebolt-tail foul; McGonagall supervises Lee Jordan's commentary but is herself furious at Malfoy; after Harry catches the Snitch, the crowd floods the field and Dumbledore stands ready with the Quidditch Cup.
+  match_terms:
+  - Madam Hooch
+  - penalty
+  - Keeper
+  - scoring area
+  - Lee Jordan
+  - Professor McGonagall
+  - Dumbledore
+  - Quidditch Cup
+  quote_excerpt_short: "YOU DO NOT ATTACK THE KEEPER"
+  source_note: The chapter offers unusually dense evidence for Hogwarts Quidditch officiating, including foul penalties, a Keeper-protection rule, commentary supervision, visible staff bias under extreme conditions, pitch invasion, and Dumbledore's Cup presentation.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-rules
+  - madam-hooch
+  - penalties
+  - keeper-protection
+  - lee-jordan
+  - professor-mcgonagall
+  - dumbledore
+  - quidditch-cup
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Officiating, Fouls, and Cup Presentation
+  reason_for_placement: The passage gives direct observed rules enforcement and the ceremonial endpoint of the House Quidditch Cup.
+  relevance_to_hogwarts_a_history: This is a strong later editorial seed for Hogwarts sporting governance, referee authority, spectator behavior, and Cup ceremony practice.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch13-003
+    notes: Book 3 Chapter Thirteen records normal matchday procedure and tactics; this entry adds heavy foul enforcement, a stated Keeper-protection rule, repeated penalties, pitch invasion, and the Cup presentation.
+  confidence: high
+  limitations: The final is unusually violent and emotionally charged, so the number and intensity of penalties should not be generalized as ordinary match flow.

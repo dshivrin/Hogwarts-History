@@ -1,0 +1,316 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  boundary_confidence: high
+  boundary_notes: Chapter Six range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Five boundary. Book 2 Chapter Six starts on PDF page 353 and Chapter Seven starts on PDF page 368, so only PDF pages 353-367 were extracted and searched.
+  processed_date: '2026-06-15'
+  processor_notes: "Processed only Book 2, Chapter Six. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch06-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 353
+  printed_page: not available
+  extracted_text_lines: PDF page 353, lines 5-13; PDF page 354, lines 1-34; PDF page 355, lines 1-32
+  text_anchor:
+    start_phrase: downhill from breakfast in the Great Hall
+    end_phrase: Professor McGonagall was moving along the Gryffindor table
+    local_occurrence_note: Opening breakfast scene before the first course schedules are handed out.
+  nearby_context: The Great Hall breakfast uses four House tables under the enchanted ceiling; morning owl post arrives with letters and packages, including Ron's Howler, and Molly Weasley refers to a letter from Dumbledore after the flying-car incident.
+  match_terms:
+  - Great Hall
+  - four long House tables
+  - enchanted ceiling
+  - owls
+  - Howler
+  - letter from Dumbledore
+  quote_excerpt_short: "beneath the enchanted ceiling"
+  source_note: The chapter confirms ordinary breakfast in the Great Hall under the enchanted ceiling, mass owl-post delivery to students, Howlers as magical correspondence, and Dumbledore's family notification after serious misconduct.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - great-hall
+  - enchanted-ceiling
+  - house-tables
+  - owl-post
+  - howlers
+  - family-notification
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Great Hall Daily Life
+  candidate_section: Meals, Owl Post, and Public Correspondence
+  reason_for_placement: The passage joins Great Hall architecture with repeated daily routines and visible student correspondence during breakfast.
+  relevance_to_hogwarts_a_history: This supports future coverage of Great Hall use beyond ceremonies, including daily meals, House-table organization, and school/family communication.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-001
+    notes: "Chapter Seven seeded the Great Hall enchanted ceiling from an explicit Hogwarts: A History reference; this entry corroborates the same ceiling during a later ordinary breakfast and adds owl-post context."
+  confidence: high
+  limitations: The chapter does not explain the ceiling enchantment's origin or whether Howlers are governed by school policy.
+- id: cos-ch06-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 356
+  printed_page: not available
+  extracted_text_lines: PDF page 355, lines 31-33; PDF page 356, lines 1-28
+  text_anchor:
+    start_phrase: handing out course schedules
+    end_phrase: Professor Sprout took a large key from her belt and unlocked the door
+    local_occurrence_note: Immediately after breakfast, before the Mandrake lesson begins.
+  nearby_context: McGonagall distributes course schedules, second-year Gryffindors have double Herbology with Hufflepuffs, students cross the vegetable patch to the greenhouses, and Professor Sprout unlocks greenhouse three, which contains more dangerous plants than greenhouse one.
+  match_terms:
+  - course schedules
+  - double Herbology
+  - Hufflepuffs
+  - vegetable patch
+  - greenhouses
+  - greenhouse three
+  - dangerous plants
+  quote_excerpt_short: "greenhouse three housed far more interesting and dangerous plants"
+  source_note: The passage documents course-schedule distribution, cross-House Herbology classes, the grounds route to the greenhouses, and differentiated greenhouse access by plant danger.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - course-schedules
+  - herbology
+  - hufflepuff
+  - greenhouses
+  - greenhouse-three
+  - dangerous-plants
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Herbology Greenhouses and Class Pairings
+  reason_for_placement: The passage adds concrete second-year timetable and classroom-location evidence for Herbology and greenhouse safety levels.
+  relevance_to_hogwarts_a_history: This supports curriculum and grounds chapters by showing how Hogwarts manages plant-based instruction and greenhouse access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier seeds mention greenhouses as grounds features and Herbology as a subject, but this is the first seed for greenhouse-number progression and locked access.
+  confidence: high
+  limitations: The passage does not state whether greenhouse numbering, House pairings, or second-year schedules are historically stable.
+- id: cos-ch06-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 358
+  printed_page: not available
+  extracted_text_lines: PDF page 358, lines 1-34; PDF page 359, lines 1-39
+  text_anchor:
+    start_phrase: We'll be repotting Mandrakes today
+    end_phrase: be careful of the Venomous Tentacula
+    local_occurrence_note: Professor Sprout's greenhouse three lesson before the students begin repotting in groups.
+  nearby_context: Professor Sprout asks students for Mandrake properties, awards Hermione House points for answers, requires earmuffs, demonstrates repotting young Mandrakes, explains seedling cries can incapacitate students, and warns about nearby Venomous Tentacula.
+  match_terms:
+  - Mandrake
+  - Mandragora
+  - restorative
+  - antidotes
+  - earmuffs
+  - Venomous Tentacula
+  - ten points to Gryffindor
+  quote_excerpt_short: "The Mandrake forms an essential part of most antidotes"
+  source_note: The lesson gives second-year Herbology content on Mandrake restorative properties, lethal or incapacitating cries, required ear protection, practical repotting, and classroom House-point rewards.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - herbology
+  - mandrakes
+  - magical-plants
+  - safety-equipment
+  - house-points
+  - practical-lessons
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Herbology and Magical Plant Safety
+  reason_for_placement: The passage provides detailed subject content, safety protocol, and practical teaching method for a Hogwarts class.
+  relevance_to_hogwarts_a_history: This is strong curriculum evidence for magical plant instruction and a cross-reference for later Chamber of Secrets medical remedies.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier Herbology seeds mention the subject and plant-based protections, but not Mandrake properties or greenhouse safety procedure.
+  confidence: high
+  limitations: This is Harry-era second-year evidence and does not prove when Mandrakes entered the curriculum.
+- id: cos-ch06-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 360
+  printed_page: not available
+  extracted_text_lines: PDF page 360, lines 13-34; PDF page 361, lines 1-10
+  text_anchor:
+    start_phrase: the Gryffindors hurried off to Transfiguration
+    end_phrase: showing them the handful of perfect coat buttons
+    local_occurrence_note: After Herbology and before lunch, during McGonagall's second-year Transfiguration lesson.
+  nearby_context: Professor McGonagall's class has students try to turn beetles into buttons; Harry struggles after the summer, Ron's damaged wand misfires, and Hermione successfully produces coat buttons.
+  match_terms:
+  - Transfiguration
+  - Professor McGonagall
+  - beetle
+  - button
+  - wand
+  - coat buttons
+  quote_excerpt_short: "turning a beetle into a button"
+  source_note: The chapter supplies a concrete second-year Transfiguration exercise and shows that damaged student wands can disrupt classroom spellwork.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - transfiguration
+  - professor-mcgonagall
+  - practical-lessons
+  - wands
+  - second-year-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Transfiguration Practice and Wand Dependence
+  reason_for_placement: The passage identifies a practical Transfiguration task and links successful performance to functional student equipment.
+  relevance_to_hogwarts_a_history: This supports curriculum coverage and may cross-reference equipment requirements, wand maintenance, and classroom safety.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier entries seed Transfiguration as a subject and exam area; this entry adds a specific second-year practical exercise and damaged-wand classroom effects.
+  confidence: medium
+  limitations: The lesson is Harry-era and may not represent a long-standing standardized curriculum sequence.
+- id: cos-ch06-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 361
+  printed_page: not available
+  extracted_text_lines: PDF page 361, lines 11-40; PDF page 362, lines 1-8
+  text_anchor:
+    start_phrase: I'm Colin Creevey
+    end_phrase: loads of pictures to send home to him
+    local_occurrence_note: Courtyard scene before afternoon Defense Against the Dark Arts.
+  nearby_context: Colin Creevey introduces himself as a Gryffindor first-year from a non-magical household, says he learned his unusual abilities were magic when his Hogwarts letter arrived, and reports that wizard photographs can move if developed in the right potion.
+  match_terms:
+  - Colin Creevey
+  - Gryffindor
+  - letter from Hogwarts
+  - magic
+  - Muggle camera
+  - pictures
+  - potion
+  quote_excerpt_short: "till I got the letter from Hogwarts"
+  source_note: Colin's account gives another Muggle-born or Muggle-raised admissions example and adds student-level evidence for moving photographs produced through magical photographic development.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - admissions
+  - muggle-born-students
+  - hogwarts-letters
+  - gryffindor
+  - magical-photographs
+  - student-family-contact
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Muggle-Born Discovery and Family Communication
+  reason_for_placement: The passage provides a second student's admissions perspective and shows how magical students explain Hogwarts to non-magical family members.
+  relevance_to_hogwarts_a_history: This helps future admissions coverage compare Harry's exceptional suppressed-contact case with a more ordinary Muggle household discovery.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch04-002
+    notes: Chapter Four records Harry's Hogwarts acceptance letter; this entry corroborates the letter as the moment a Muggle-raised student learns their abilities are magic, using Colin rather than Harry.
+  confidence: medium
+  limitations: Colin's account is brief and informal; it does not quote the letter or explain how Hogwarts contacted his family.
+- id: cos-ch06-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 364
+  printed_page: not available
+  extracted_text_lines: PDF page 363, lines 26-34; PDF page 364, lines 1-31; PDF page 365, lines 1-22
+  text_anchor:
+    start_phrase: piling all seven of Lockhart's books
+    end_phrase: Take ten points for Gryffindor
+    local_occurrence_note: Start of Lockhart's first Defense Against the Dark Arts lesson.
+  nearby_context: Students arrive with all seven required Lockhart books; Lockhart uses a copy of Travels with Trolls to present his credentials and begins with a quiz on his books, awarding Hermione points for full marks.
+  match_terms:
+  - all seven of Lockhart's books
+  - Travels with Trolls
+  - Order of Merlin
+  - Dark Force Defense League
+  - quiz
+  - read them
+  - ten points for Gryffindor
+  quote_excerpt_short: "check how well you've read them"
+  source_note: The first Defense Against the Dark Arts lesson confirms that Lockhart's required books function as class reading and that the teacher assesses students on those texts before instruction.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - gilderoy-lockhart
+  - course-books
+  - classroom-assessment
+  - house-points
+  - second-year-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Staff and Materials
+  reason_for_placement: The passage shows how a Harry-era teacher uses required texts and classroom assessment in a named subject.
+  relevance_to_hogwarts_a_history: This strengthens later editorial coverage of Lockhart's appointment by showing the classroom consequences of his booklist.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch04-006
+    notes: Chapter Four seeded Lockhart's appointment and required booklist; this entry corroborates that thread by showing the books used and tested in class.
+  confidence: high
+  limitations: Lockhart's self-presentation is unreliable, and his approach should not be generalized to long-running Defense Against the Dark Arts practice.
+- id: cos-ch06-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Six - Gilderoy Lockhart
+  chapter_start_pdf_page: 353
+  chapter_end_pdf_page: 367
+  pdf_page: 365
+  printed_page: not available
+  extracted_text_lines: PDF page 365, lines 23-34; PDF page 366, lines 1-34; PDF page 367, lines 1-17
+  text_anchor:
+    start_phrase: arm you against the foulest creatures
+    end_phrase: immobilizing two pixies at once
+    local_occurrence_note: Lockhart's Cornish pixie demonstration after the book quiz.
+  nearby_context: Lockhart frames Defense Against the Dark Arts as preparation against dangerous creatures, releases Cornish pixies in the classroom, fails to control them with a spell, leaves Harry, Ron, and Hermione to cage them, and Hermione uses a Freezing Charm effectively.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Cornish pixies
+  - classroom
+  - Peskipiksi Pesternomi
+  - Freezing Charm
+  - hands-on experience
+  quote_excerpt_short: "Freshly caught Cornish pixies"
+  source_note: The lesson presents a practical creature-control exercise in Defense Against the Dark Arts, but the teacher loses control and student spellwork restores order.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - cornish-pixies
+  - classroom-safety
+  - practical-lessons
+  - freezing-charm
+  - gilderoy-lockhart
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Practical Instruction
+  reason_for_placement: The passage gives a vivid example of a practical DADA classroom activity and its safety failure.
+  relevance_to_hogwarts_a_history: This belongs as later editorial curriculum evidence, especially for unstable Harry-era DADA staffing and practical classroom risk.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier Defense Against the Dark Arts entries cover staff and topics, but not Cornish pixies or a classroom containment failure.
+  confidence: high
+  limitations: The incident reflects Lockhart's incompetence and may be atypical for the subject or for Hogwarts teaching standards.

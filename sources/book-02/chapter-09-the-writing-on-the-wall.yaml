@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  boundary_confidence: high
+  boundary_notes: Chapter Nine range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Eight boundary. Book 2 Chapter Nine starts on PDF page 399 and Chapter Ten starts on PDF page 417, so only PDF pages 399-416 were extracted and searched.
+  processed_date: '2026-06-16'
+  processor_notes: "Processed only Book 2, Chapter Nine. Text was extracted locally with pypdf into .tmp/ and searched with rg. One explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch09-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 405
+  printed_page: not available
+  extracted_text_lines: PDF page 405, lines 22-38
+  text_anchor:
+    start_phrase: Hermione emerged from between the bookshelves
+    end_phrase: I can't find the story anywhere else
+    local_occurrence_note: Library scene before History of Magic, after Harry finds Ron measuring his Binns homework.
+  nearby_context: "Hermione says every copy of Hogwarts: A History has been borrowed, that there is a two-week waiting list, and that she left her own copy at home; she wants the book to read about the Chamber of Secrets legend."
+  match_terms:
+  - 'Hogwarts: A History'
+  - library
+  - two-week waiting list
+  - Chamber of Secrets
+  - legend
+  - Hermione
+  quote_excerpt_short: "All the copies of Hogwarts: A History have been taken out"
+  source_note: "Hermione identifies Hogwarts: A History as the book everyone wants in order to read about the Chamber of Secrets legend, while also confirming Hogwarts library demand and her personal copy at home."
+  reference_type: explicit_hogwarts_a_history
+  era_classification: original_book_core_candidate
+  topic_tags:
+  - hogwarts-a-history
+  - explicit-reference
+  - chamber-of-secrets
+  - library
+  - hermione-source
+  - book-circulation
+  candidate_part: "Appendix: Explicit References to Hogwarts: A History"
+  candidate_chapter: Chamber of Secrets References
+  candidate_section: "Library Demand for Hogwarts: A History"
+  reason_for_placement: "The passage explicitly names Hogwarts: A History as the desired source for Chamber of Secrets information, making it a direct project anchor."
+  relevance_to_hogwarts_a_history: "This is direct in-universe evidence that the book is treated as relevant to the Chamber of Secrets legend and is widely sought after the first attack."
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: "No prior entry records an explicit Hogwarts: A History reference tied to the Chamber of Secrets legend."
+  confidence: high
+  limitations: Hermione does not quote the book's Chamber material here; the entry supports expected coverage rather than exact wording.
+- id: cos-ch09-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 406
+  printed_page: not available
+  extracted_text_lines: PDF page 406, lines 7-26
+  text_anchor:
+    start_phrase: The bell rang
+    end_phrase: the Chamber of Secrets
+    local_occurrence_note: History of Magic lesson immediately after the library scene.
+  nearby_context: Ron and Hermione go to History of Magic; Binns is again described as the only ghost teacher, and Hermione interrupts his lecture to ask about the Chamber of Secrets.
+  match_terms:
+  - History of Magic
+  - Professor Binns
+  - ghost teacher
+  - Chamber of Secrets
+  - lecture
+  quote_excerpt_short: "only ghost teacher"
+  source_note: The chapter corroborates Professor Binns as the ghost teacher of History of Magic and shows his class as the setting for a historical challenge about the Chamber of Secrets.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - history-of-magic
+  - professor-binns
+  - ghost-teacher
+  - classroom-instruction
+  - chamber-of-secrets
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: History of Magic
+  candidate_section: Professor Binns and Historical Instruction
+  reason_for_placement: The passage places a major Hogwarts-origin legend inside a History of Magic class and confirms the ghost-teacher curriculum seed.
+  relevance_to_hogwarts_a_history: This supports the future book's treatment of Hogwarts historical instruction and identifies a school authority who distinguishes history from legend.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-005
+    notes: Chapter Eight of Book 1 already seeded History of Magic and Professor Binns as a ghost teacher; this entry corroborates that fact and adds his classroom handling of the Chamber question.
+  confidence: high
+  limitations: The passage confirms Harry-era classroom practice but does not date Professor Binns's death or tenure.
+- id: cos-ch09-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 407
+  printed_page: not available
+  extracted_text_lines: PDF page 407, lines 22-30
+  text_anchor:
+    start_phrase: Oh, very well
+    end_phrase: witches and wizards suffered much persecution
+    local_occurrence_note: Opening of Professor Binns's Chamber explanation after Hermione asks whether legends have a basis in fact.
+  nearby_context: Binns states that Hogwarts was founded over a thousand years ago by Gryffindor, Hufflepuff, Ravenclaw, and Slytherin, that the Houses are named after them, and that they built the castle away from Muggle attention during a period of persecution.
+  match_terms:
+  - Hogwarts founded
+  - four founders
+  - Godric Gryffindor
+  - Helga Hufflepuff
+  - Rowena Ravenclaw
+  - Salazar Slytherin
+  - Muggle persecution
+  quote_excerpt_short: "founded over a thousand years ago"
+  source_note: Professor Binns gives a concise founding account, naming the four founders, connecting them to the House names, and explaining the castle's remote construction as a response to Muggle persecution.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - founders
+  - founding
+  - four-houses
+  - castle
+  - muggle-persecution
+  - professor-binns
+  candidate_part: Origins of the School
+  candidate_chapter: The Founding of Hogwarts
+  candidate_section: Founders, Houses, and Castle Site
+  reason_for_placement: The passage is a direct historical account of Hogwarts' origin and the relationship between the founders, castle, and Houses.
+  relevance_to_hogwarts_a_history: This is core material for any Hogwarts history and likely belongs near the beginning of the future fan edition.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier entries introduced the four Houses and Slytherin reputation, but no prior seed recorded this founding account from a History of Magic lesson.
+  confidence: high
+  limitations: Binns says the precise date is uncertain and does not name his sources for the founding account.
+- id: cos-ch09-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 408
+  printed_page: not available
+  extracted_text_lines: PDF page 407, lines 31-38; PDF page 408, lines 2-4
+  text_anchor:
+    start_phrase: For a few years, the founders worked in harmony together
+    end_phrase: Slytherin left the school
+    local_occurrence_note: Continuation of Binns's founding account, immediately before he separates reliable history from Chamber legend.
+  nearby_context: Binns says the founders initially sought magical children together, then split over Slytherin's desire to restrict admission to all-magic families and exclude students of Muggle parentage.
+  match_terms:
+  - founders
+  - harmony
+  - Slytherin
+  - Muggle parentage
+  - admissions
+  - Gryffindor
+  quote_excerpt_short: "Slytherin left the school"
+  source_note: Binns presents Slytherin's break with the other founders as an admissions dispute rooted in bloodline ideology and distrust of Muggle-born students.
+  reference_type: house_system
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - salazar-slytherin
+  - founders-rift
+  - admissions
+  - muggle-born-students
+  - house-system
+  - blood-status
+  candidate_part: Origins of the School
+  candidate_chapter: The Founders' Rift
+  candidate_section: Admission, Bloodline Ideology, and Slytherin's Departure
+  reason_for_placement: The passage supplies the historical origin of a major House conflict and connects later blood-status prejudice to the founding era.
+  relevance_to_hogwarts_a_history: This belongs in a founding-era chapter and provides context for later House and Chamber material.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier entries record later blood-status language and Slytherin reputation, but this entry adds the founding-era dispute and Slytherin's departure.
+  confidence: high
+  limitations: The passage summarizes a complex historical dispute briefly and does not identify primary sources.
+- id: cos-ch09-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 408
+  printed_page: not available
+  extracted_text_lines: PDF page 408, lines 5-15
+  text_anchor:
+    start_phrase: Reliable historical sources tell us this much
+    end_phrase: unworthy to study magic
+    local_occurrence_note: Binns pivots from accepted founding history to the Chamber legend.
+  nearby_context: Binns says reliable historical facts are obscured by the Chamber legend, then summarizes the story that Slytherin built and sealed a hidden chamber for his heir to open and use against students judged unworthy.
+  match_terms:
+  - reliable historical sources
+  - Chamber of Secrets
+  - hidden chamber
+  - Slytherin's heir
+  - purge
+  - legend
+  quote_excerpt_short: "hidden chamber in the castle"
+  source_note: Binns distinguishes accepted founding history from the Chamber legend and gives the legend's core claims about the hidden chamber, Slytherin's heir, and a concealed horror used to purge the school.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chamber-of-secrets
+  - salazar-slytherin
+  - hidden-chamber
+  - heir-of-slytherin
+  - legend
+  - castle-secrets
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets
+  candidate_section: Legend, Hidden Room, and Heir Language
+  reason_for_placement: The passage gives the earliest structured account in this seed of the Chamber as a historical or legendary hidden room inside the castle.
+  relevance_to_hogwarts_a_history: "This is central Chamber evidence and likely intersects directly with the material Hermione expected to find in Hogwarts: A History."
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier entries recorded warnings, hidden voices, and the first wall message; this entry adds the historical legend and should cross-reference rather than replace those crisis entries.
+  confidence: medium
+  limitations: Binns explicitly frames the Chamber account as legend and denies its reliability; later evidence is needed before treating it as verified school history.
+- id: cos-ch09-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 409
+  printed_page: not available
+  extracted_text_lines: PDF page 408, lines 20-27; PDF page 409, lines 5-25
+  text_anchor:
+    start_phrase: Naturally, the school has been searched
+    end_phrase: solid, believable, verifiable fact
+    local_occurrence_note: Binns dismisses the Chamber after explaining the monster belief and responding to student objections.
+  nearby_context: Binns says the school has been searched many times by learned witches and wizards, invokes a long succession of headmasters and headmistresses, and insists there is no evidence of a Chamber or monster.
+  match_terms:
+  - searched
+  - headmasters
+  - headmistresses
+  - evidence
+  - Chamber
+  - monster
+  - Dark Magic
+  quote_excerpt_short: "searched for evidence of such a chamber"
+  source_note: Binns states that repeated searches by learned witches and wizards and by Hogwarts leadership failed to find evidence of the Chamber, while students raise Dark Magic and bloodline-access possibilities.
+  reference_type: security_or_protection
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chamber-of-secrets
+  - school-searches
+  - headmasters
+  - headmistresses
+  - dark-magic
+  - castle-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets
+  candidate_section: Searches, Denials, and Institutional Memory
+  reason_for_placement: The passage records institutional attempts to verify or disprove a hidden castle threat and shows how school authority treats the legend before the later crisis is understood.
+  relevance_to_hogwarts_a_history: This provides historical and governance context for how Hogwarts handles alleged hidden threats inside the castle.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No earlier entry records repeated institutional searches for the Chamber or Binns's denial.
+  confidence: medium
+  limitations: Binns's denial is later complicated by the plot; this entry should preserve his pre-confirmation view rather than treat it as final fact.
+- id: cos-ch09-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Nine - The Writing on the Wall
+  chapter_start_pdf_page: 399
+  chapter_end_pdf_page: 416
+  pdf_page: 416
+  printed_page: not available
+  extracted_text_lines: PDF page 416, lines 2-13
+  text_anchor:
+    start_phrase: book called Moste Potente Potions
+    end_phrase: They'd have to be really thick
+    local_occurrence_note: Common-room planning scene after Hermione introduces Polyjuice Potion.
+  nearby_context: Hermione says Snape mentioned Polyjuice Potion in class and that the recipe is in Moste Potente Potions, expected to be in the library's Restricted Section; the narration states a teacher-signed permission note is needed to get such a book.
+  match_terms:
+  - Moste Potente Potions
+  - Polyjuice Potion
+  - Restricted Section
+  - library
+  - signed note
+  - teacher
+  quote_excerpt_short: "signed note of permission from a teacher"
+  source_note: The chapter corroborates the Restricted Section access rule and adds a named advanced Potions book as the likely location for the Polyjuice Potion recipe.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - restricted-section
+  - library-rules
+  - teacher-permission
+  - moste-potente-potions
+  - polyjuice-potion
+  - potions
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Restricted Section Permissions and Advanced Potions
+  reason_for_placement: The passage strengthens the Restricted Section rule seed and identifies an advanced magical text that students expect to be restricted.
+  relevance_to_hogwarts_a_history: This helps index library governance and controlled access to dangerous or advanced magical knowledge at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-004
+    notes: Chapter Twelve of Book 1 already records that Restricted Section books require a teacher-signed note; this entry corroborates the rule and adds Moste Potente Potions as a likely restricted title.
+  confidence: high
+  limitations: The passage does not show Madam Pince, borrowing procedure, or the book physically present in the library yet.

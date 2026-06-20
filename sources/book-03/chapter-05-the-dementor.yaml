@@ -1,0 +1,321 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  boundary_confidence: high
+  boundary_notes: Chapter Five range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Four boundary. Book 3 Chapter Five starts on PDF page 630 and Chapter Six starts on PDF page 653, so only PDF pages 630-652 were extracted and searched.
+  processed_date: '2026-06-19'
+  processor_notes: "Processed only Book 3, Chapter Five. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch05-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 632
+  printed_page: not available
+  extracted_text_lines: PDF page 632, lines 2-23
+  text_anchor:
+    start_phrase: Let's do this in pairs
+    end_phrase: stowed Hedwig and Crookshanks in the luggage rack
+    local_occurrence_note: King's Cross departure sequence before Mr. Weasley warns Harry privately.
+  nearby_context: Mr. Weasley directs paired crossing through the barrier between platforms nine and ten, the group reaches platform nine and three-quarters, and students board the scarlet Hogwarts Express with trunks and pets.
+  match_terms:
+  - platform nine and three-quarters
+  - Hogwarts Express
+  - barrier
+  - scarlet steam engine
+  - witches and wizards
+  - luggage rack
+  quote_excerpt_short: "platform nine and three-quarters"
+  source_note: The chapter corroborates the hidden King's Cross barrier route, the platform crowd of magical families, and the start-of-term loading of trunks and student pets onto the Hogwarts Express.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-express
+  - platform-nine-and-three-quarters
+  - kings-cross
+  - school-travel
+  - student-pets
+  - luggage
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Platform Nine and Three-Quarters
+  reason_for_placement: The passage gives another observed start-of-term departure sequence and includes practical details about group crossing, family sendoff, luggage, and pets.
+  relevance_to_hogwarts_a_history: This strengthens the travel-history seed for the standard student route to Hogwarts and its hidden platform access.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch06-001
+    notes: Book 1 Chapter Six seeded the hidden King's Cross platform and eleven o'clock Hogwarts Express; this entry corroborates the route and adds paired crossing, family crowding, and pet/luggage loading.
+  confidence: high
+  limitations: The passage does not explain the barrier's origin, who maintains it, or when the Express route became standard.
+- id: poa-ch05-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 637
+  printed_page: not available
+  extracted_text_lines: PDF page 636, lines 23-29; PDF page 637, lines 4-32
+  text_anchor:
+    start_phrase: Do you know much about Hogsmeade?
+    end_phrase: when I ask for permission
+    local_occurrence_note: Train-compartment discussion of Hogsmeade before Crookshanks distracts Ron and Hermione.
+  nearby_context: Hermione cites Sites of Historical Sorcery about Hogsmeade, while Harry explains that he cannot visit because his guardians and Fudge did not sign the permission form; the conversation also mentions secret passages out of the castle.
+  match_terms:
+  - Hogsmeade
+  - Sites of Historical Sorcery
+  - non-Muggle settlement
+  - 1612 goblin rebellion
+  - Shrieking Shack
+  - permission form
+  - secret passage
+  quote_excerpt_short: "the only entirely non-Muggle settlement in Britain"
+  source_note: Hermione treats Hogsmeade as a historically interesting settlement from a named source, while the same scene reinforces Hogsmeade weekend access as dependent on a signed permission form.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - sites-of-historical-sorcery
+  - permission-form
+  - goblin-rebellion
+  - shrieking-shack
+  - secret-passages
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage joins Hogsmeade's source-backed historical importance to the school rule governing third-year student access.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogsmeade visits as both a regulated Hogwarts privilege and an external historical setting relevant to students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch03-005
+    notes: Book 3 Chapter Three records Fudge refusing to override the guardian permission rule; this entry adds Hermione's named Hogsmeade source, historical claims, and student discussion of secret-passage workarounds.
+  confidence: high
+  limitations: Sites of Historical Sorcery is not identified as a Hogwarts text, and the secret-passage point is student talk rather than approved school policy.
+- id: poa-ch05-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 635
+  printed_page: not available
+  extracted_text_lines: PDF page 634, lines 14-32; PDF page 635, lines 2-12
+  text_anchor:
+    start_phrase: The Hogwarts Express was usually reserved
+    end_phrase: There were rumors that the job was jinxed
+    local_occurrence_note: Trio enters the nearly empty rear train compartment and identifies the sleeping adult by his luggage.
+  nearby_context: The trio note that adults are unusual on the Hogwarts Express, Hermione reads Lupin's professorial name from his case, and she infers the Defense Against the Dark Arts vacancy from recent teacher turnover and rumors.
+  match_terms:
+  - Professor R. J. Lupin
+  - Hogwarts Express
+  - usually reserved for students
+  - Defense Against the Dark Arts
+  - vacancy
+  - jinxed
+  quote_excerpt_short: "the job was jinxed"
+  source_note: The chapter adds observed evidence for an incoming teacher traveling on the Hogwarts Express and confirms student awareness of repeated Defense Against the Dark Arts turnover.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - staffing
+  - hogwarts-express
+  - teacher-appointments
+  - jinxed-post
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Staffing
+  reason_for_placement: The passage directly connects the curriculum post to vacancy, teacher arrival, and the student-rumor record around short tenures.
+  relevance_to_hogwarts_a_history: This is later editorial context for how Hogwarts staff vacancies and recurring Defense Against the Dark Arts turnover are perceived by students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch07-004
+    notes: Book 2 Chapter Seven records Hagrid's claim that the Defense Against the Dark Arts post is hard to fill and rumored jinxed; this entry corroborates the rumor through student inference and Lupin's arrival.
+  confidence: medium
+  limitations: The jinxed-job point is framed as rumor and student inference, not official school history or a staff explanation.
+- id: poa-ch05-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 643
+  printed_page: not available
+  extracted_text_lines: PDF page 643, lines 18-29; PDF page 644, lines 6-31; PDF page 648, lines 2-7
+  text_anchor:
+    start_phrase: Professor Lupin was breaking an enormous slab of chocolate
+    end_phrase: teacher who knows his remedies
+    local_occurrence_note: After the dementor leaves the Hogwarts Express compartment, Lupin distributes chocolate and Madam Pomfrey later approves his response.
+  nearby_context: Lupin identifies the intruder as a dementor of Azkaban, distributes chocolate as a remedy, and is later credited by Madam Pomfrey as a Defense Against the Dark Arts teacher who knows his remedies.
+  match_terms:
+  - dementor
+  - Azkaban
+  - chocolate
+  - remedies
+  - Defense Against the Dark Arts
+  - silvery thing
+  - wand
+  quote_excerpt_short: "One of the dementors of Azkaban"
+  source_note: The chapter shows a dementor's search of the Hogwarts Express, Lupin's defensive response, and chocolate as immediate treatment recognized by the school nurse.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - azkaban
+  - hogwarts-express
+  - professor-lupin
+  - defense-against-the-dark-arts
+  - chocolate-remedy
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dumbledore and External Security Arrangements
+  candidate_section: Azkaban Guards at the Grounds Entrances
+  reason_for_placement: The passage records the consequences of external security forces searching student transport before arrival and links remedial knowledge to the Defense Against the Dark Arts teacher.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the risks created by Ministry-linked dementor security and for school medical response to a dementor encounter.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry records an actual dementor search of the Hogwarts Express, Lupin's repelling action, or chocolate treatment.
+  confidence: high
+  limitations: The event is specific to the Sirius Black crisis and should not be generalized as ordinary Hogwarts Express security.
+- id: poa-ch05-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 645
+  printed_page: not available
+  extracted_text_lines: PDF page 645, lines 7-32; PDF page 646, lines 2-29
+  text_anchor:
+    start_phrase: the train stopped at Hogsmeade station
+    end_phrase: enchanted ceiling, which was black and cloudy tonight
+    local_occurrence_note: Arrival at Hogsmeade station and route through the gates, drive, entrance hall, and Great Hall doorway.
+  nearby_context: Returning students leave Hogsmeade station for stagecoaches, first-years are called forward for the traditional lake journey, the coaches pass winged-boar gates and dementors, and the students enter through the front doors toward the Great Hall.
+  match_terms:
+  - Hogsmeade station
+  - first years
+  - traditional journey across the lake
+  - stagecoaches
+  - winged boars
+  - entrance hall
+  - enchanted ceiling
+  quote_excerpt_short: "traditional journey across the lake"
+  source_note: The chapter corroborates the split arrival procedure at Hogsmeade station, with first-years directed to the lake while older students ride stagecoaches through the gates to the castle.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade-station
+  - first-year-arrival
+  - lake
+  - stagecoaches
+  - winged-boar-gates
+  - entrance-hall
+  - great-hall
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Lake and Castle Approach
+  candidate_section: Arrival at Hogsmeade and First-Year Gathering
+  reason_for_placement: The passage gives concrete arrival geography and distinguishes the traditional first-year route from the older-student carriage route.
+  relevance_to_hogwarts_a_history: This strengthens future treatment of school arrival customs, castle approaches, the grounds entrance, and Great Hall access.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch06-006
+    notes: Book 1 Chapter Six records Hagrid gathering first-years after the train; this entry corroborates that arrival routine and adds the older-student stagecoach route, Hogsmeade station, winged-boar gates, and entrance hall approach.
+  confidence: high
+  limitations: The invisible pullers of the coaches are not identified in this chapter, and the scene does not date the origin of either arrival route.
+- id: poa-ch05-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 649
+  printed_page: not available
+  extracted_text_lines: PDF page 649, lines 14-32
+  text_anchor:
+    start_phrase: after their search of the Hogwarts Express
+    end_phrase: runs afoul of the dementors
+    local_occurrence_note: Dumbledore's start-of-term speech before announcing new teachers.
+  nearby_context: Dumbledore tells the school that dementors of Azkaban are present on Ministry business, stationed at every entrance to the grounds, and that nobody may leave school without permission; he assigns prefects and the new Head Boy and Girl to help prevent student incidents.
+  match_terms:
+  - Hogwarts Express
+  - dementors of Azkaban
+  - Ministry of Magic
+  - entrance to the grounds
+  - leave school without permission
+  - prefects
+  - Head Boy and Girl
+  quote_excerpt_short: "nobody is to leave school without permission"
+  source_note: The chapter provides the official student-facing rule for the dementor security period, including boundary placement, movement restrictions, and senior-student monitoring responsibilities.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - ministry-of-magic
+  - school-grounds
+  - student-movement
+  - prefects
+  - head-boy
+  - head-girl
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dumbledore and External Security Arrangements
+  candidate_section: Azkaban Guards at the Grounds Entrances
+  reason_for_placement: The speech turns the previously reported external deployment into an official Hogwarts rule and monitoring arrangement.
+  relevance_to_hogwarts_a_history: This is key later editorial evidence for crisis governance at school boundaries and the use of prefects and Head Students in student-safety enforcement.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch04-007
+    notes: Book 3 Chapter Four records Mr. Weasley's account of Dumbledore reluctantly accepting Azkaban guards around school entrances; this entry adds Dumbledore's formal announcement, no-leaving rule, and prefect/Head Student duties.
+  confidence: high
+  limitations: This is an exceptional crisis rule and does not describe normal school-boundary policy.
+- id: poa-ch05-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Five - The Dementor
+  chapter_start_pdf_page: 630
+  chapter_end_pdf_page: 652
+  pdf_page: 650
+  printed_page: not available
+  extracted_text_lines: PDF page 650, lines 4-32; PDF page 651, lines 10-25
+  text_anchor:
+    start_phrase: two new teachers to our ranks
+    end_phrase: after Professor Kettleburn said he'd had enough
+    local_occurrence_note: Dumbledore announces staff appointments at the start-of-term feast, followed by Hagrid's explanation at the teachers' table.
+  nearby_context: Dumbledore names Lupin as Defense Against the Dark Arts teacher, says Kettleburn retired from Care of Magical Creatures, and appoints Hagrid to the teaching job in addition to gamekeeping; the narration notes Hagrid's past expulsion and clearing after the prior year's events.
+  match_terms:
+  - Professor Lupin
+  - Defense Against the Dark Arts
+  - Professor Kettleburn
+  - Care of Magical Creatures
+  - Rubeus Hagrid
+  - gamekeeping duties
+  - expelled from Hogwarts
+  quote_excerpt_short: "two new teachers to our ranks"
+  source_note: The start-of-term feast formally records two staff changes, including Hagrid replacing Kettleburn in Care of Magical Creatures while retaining gamekeeping duties.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - professor-lupin
+  - defense-against-the-dark-arts
+  - care-of-magical-creatures
+  - professor-kettleburn
+  - hagrid
+  - gamekeeper
+  - staff-appointments
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Course Materials
+  reason_for_placement: The passage identifies the teachers for two third-year subjects and connects course staffing with Hagrid's existing grounds role.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of Harry-era staff turnover, Care of Magical Creatures instruction, and the institutional significance of Hagrid's appointment after his name is cleared.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch04-003
+    notes: Book 3 Chapter Four records The Monster Book of Monsters as the required Care of Magical Creatures book; this entry identifies Hagrid as the new teacher, Kettleburn as retired, and the staff context for that course.
+  confidence: high
+  limitations: The staff appointments are Harry-era later editorial context and should not be projected backward into the original in-universe book body.

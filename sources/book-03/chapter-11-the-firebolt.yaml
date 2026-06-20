@@ -1,0 +1,317 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  boundary_confidence: high
+  boundary_notes: Chapter Eleven range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Ten boundary. Book 3 Chapter Eleven starts on PDF page 749 and Chapter Twelve starts on PDF page 768, so only PDF pages 749-767 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Eleven. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch11-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 754
+  printed_page: not available
+  extracted_text_lines: PDF page 754, lines 20-28; PDF page 755, lines 1-5
+  text_anchor:
+    start_phrase: Further to our inquiry
+    end_phrase: list of the school governors
+    local_occurrence_note: Hagrid's official letter about the Buckbeak complaint, read aloud in his cabin.
+  nearby_context: An official letter says Dumbledore's assurances clear Hagrid of responsibility for the student injury, but the governors uphold Lucius Malfoy's complaint and send Buckbeak to a London hearing before the Committee for the Disposal of Dangerous Creatures.
+  match_terms:
+  - inquiry
+  - hippogriff
+  - Professor Dumbledore
+  - Lucius Malfoy
+  - Committee for the Disposal of Dangerous Creatures
+  - school governors
+  quote_excerpt_short: "Committee for the Disposal of Dangerous Creatures"
+  source_note: "The chapter records a formal escalation route after the Care of Magical Creatures injury: Dumbledore's assurance, governor sign-off, a dangerous-creature hearing, and interim tethering and isolation instructions."
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - care-of-magical-creatures
+  - hippogriffs
+  - buckbeak
+  - school-governors
+  - dumbledore
+  - lucius-malfoy
+  - dangerous-creatures
+  - teacher-accountability
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Creature-Injury Hearings and External Committees
+  reason_for_placement: The passage gives concrete governance evidence for how a Hogwarts class injury can move from headmaster assurance to governor-backed external creature-law proceedings.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of school oversight, practical-class risk, and the boundary between Hogwarts discipline and wider magical legal institutions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch07-002
+    notes: Book 3 Chapter Seven records Malfoy's family pressure through governors and the Ministry; this entry adds the official letter, Dumbledore's assurances, the Committee hearing, and interim handling orders.
+  confidence: high
+  limitations: The procedure is shown in one politically pressured Harry-era incident and may not represent ordinary creature-injury handling.
+- id: poa-ch11-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 755
+  printed_page: not available
+  extracted_text_lines: PDF page 755, lines 29-31; PDF page 756, line 1
+  text_anchor:
+    start_phrase: He's done more'n enough fer me already
+    end_phrase: Sirius Black lurkin' around
+    local_occurrence_note: Hagrid explains why he does not want to ask more from Dumbledore during the Buckbeak crisis.
+  nearby_context: Hagrid says Dumbledore already has enough to manage, including keeping dementors out of the castle while Sirius Black remains at large.
+  match_terms:
+  - Dumbledore
+  - dementors
+  - castle
+  - Sirius Black
+  - security
+  quote_excerpt_short: "keepin' them dementors outta the castle"
+  source_note: Hagrid frames Dumbledore's current crisis burden as including the active exclusion of dementors from the castle during the Black search.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - dementors
+  - castle-security
+  - sirius-black
+  - headmaster-authority
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Crisis Security and External Forces
+  candidate_section: Dementors at the Castle Boundary
+  reason_for_placement: The passage corroborates that dementor access to Hogwarts interior space is treated as a headmaster-level security issue.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for Hogwarts' castle-boundary protections and governance during Ministry-backed security deployments.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-004
+    notes: Book 3 Chapter Nine records Dumbledore explicitly refusing to let dementors cross the castle threshold; this entry independently corroborates that ongoing burden from Hagrid's viewpoint.
+  confidence: high
+  limitations: Hagrid speaks informally and does not describe the magical or legal mechanism used to keep dementors outside.
+- id: poa-ch11-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 758
+  printed_page: not available
+  extracted_text_lines: PDF page 756, lines 9-10; PDF page 758, lines 1-12
+  text_anchor:
+    start_phrase: I've read about a case of hippogriff-baiting
+    end_phrase: too scared to go near it
+    local_occurrence_note: Hermione first recalls a precedent in Hagrid's cabin, then the trio researches dusty legal-case volumes in the common room.
+  nearby_context: Hermione recalls a hippogriff-baiting case and promises to look it up; the next day the trio brings books from the library and searches old creature-law case volumes, including a 1722 hippogriff case and a 1296 manticore case.
+  match_terms:
+  - hippogriff-baiting
+  - library
+  - books
+  - dusty volumes
+  - 1722
+  - manticore
+  - 1296
+  quote_excerpt_short: "dusty volumes about famous cases"
+  source_note: The chapter shows students using the Hogwarts library for legal and historical magical-creature precedents while preparing Buckbeak's defense.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - library
+  - magical-creature-law
+  - hippogriffs
+  - manticores
+  - legal-precedents
+  - student-research
+  - dangerous-creatures
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Library Books
+  candidate_section: Creature-Law and Case Precedents
+  reason_for_placement: The passage expands library evidence from classwork and reference books to legal case research using old volumes.
+  relevance_to_hogwarts_a_history: This can support future library coverage and cross-reference Hogwarts creature incidents with older magical legal precedent.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-002
+    notes: Book 1 Chapter Fourteen records library dragon-care books and magical-creature law; this entry adds historical legal-case volumes for hippogriffs, manticores, and dangerous-creature hearings.
+  confidence: high
+  limitations: The source does not name the volumes or prove whether they are formal Hogwarts library holdings rather than books borrowed from another school source.
+- id: poa-ch11-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 758
+  printed_page: not available
+  extracted_text_lines: PDF page 758, lines 13-20
+  text_anchor:
+    start_phrase: usual magnificent Christmas decorations
+    end_phrase: usual twelve Christmas trees
+    local_occurrence_note: Christmas Eve description after the trio researches Buckbeak's defense.
+  nearby_context: "Even with few students remaining, the castle receives Christmas decorations: holly and mistletoe in corridors, lights inside suits of armor, twelve Great Hall trees with golden stars, and cooking smells through the corridors."
+  match_terms:
+  - Christmas decorations
+  - holly
+  - mistletoe
+  - suits of armor
+  - Great Hall
+  - twelve Christmas trees
+  quote_excerpt_short: "usual twelve Christmas trees"
+  source_note: The chapter corroborates Hogwarts Christmas decoration as a recurring practice and adds corridor lights in suits of armor alongside the Great Hall tree display.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas
+  - great-hall
+  - decorations
+  - suits-of-armor
+  - holidays-at-hogwarts
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Castle Decorations and the Twelve Trees
+  reason_for_placement: The passage explicitly calls the decoration pattern usual and repeats the Great Hall twelve-tree motif.
+  relevance_to_hogwarts_a_history: This strengthens future treatment of Christmas as a recurring school custom rather than a one-year scene.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-002
+    notes: Book 1 Chapter Twelve records twelve Christmas trees and Great Hall decoration; this entry corroborates the usual twelve-tree pattern and adds corridor holly, mistletoe, and lights in suits of armor.
+  confidence: high
+  limitations: The chapter still does not date the origin of the decorations or identify who enchants the armor lights.
+- id: poa-ch11-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 762
+  printed_page: not available
+  extracted_text_lines: PDF page 762, lines 25-33; PDF page 763, lines 1-13
+  text_anchor:
+    start_phrase: House tables had been moved
+    end_phrase: Dig in!
+    local_occurrence_note: Christmas lunch in the Great Hall before Trelawney arrives.
+  nearby_context: For the small Christmas group, Dumbledore has the House tables moved to the walls and a single central table set for staff and remaining students, with crackers and holiday food shared together.
+  match_terms:
+  - Great Hall
+  - House tables
+  - Christmas
+  - Dumbledore
+  - staff
+  - students
+  - crackers
+  quote_excerpt_short: "House tables had been moved"
+  source_note: The chapter shows the Great Hall layout adapting for a small holiday meal by replacing the ordinary four-House arrangement with one shared table.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - great-hall
+  - christmas-dinner
+  - house-tables
+  - staff-and-students
+  - dumbledore
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Small-Holiday Meals and Great Hall Layout
+  reason_for_placement: The passage documents a flexible ceremonial and dining use of the Great Hall during low-attendance holidays.
+  relevance_to_hogwarts_a_history: This helps future coverage distinguish ordinary House-table dining from adapted holiday arrangements inside the Great Hall.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Related to prior Christmas dinner entries, but this entry adds the specific low-attendance single-table Great Hall arrangement.
+  confidence: high
+  limitations: The scene does not state whether the layout change is standard every low-attendance Christmas or Dumbledore's ad hoc decision.
+- id: poa-ch11-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 765
+  printed_page: not available
+  extracted_text_lines: PDF page 765, lines 20-27
+  text_anchor:
+    start_phrase: When they reached the portrait hole
+    end_phrase: painting swung forward to admit them
+    local_occurrence_note: Return from Christmas dinner to Gryffindor Tower.
+  nearby_context: Sir Cadogan holds a Christmas party with monks, previous Hogwarts headmasters, and his pony near the Gryffindor portrait hole, then requests the password and admits Harry and Ron.
+  match_terms:
+  - portrait hole
+  - Sir Cadogan
+  - previous headmasters
+  - Hogwarts
+  - password
+  - painting
+  quote_excerpt_short: "several previous headmasters of Hogwarts"
+  source_note: The chapter shows a portrait guardian continuing password-controlled entry while socializing with other portraits, including previous Hogwarts headmasters.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - portraits
+  - sir-cadogan
+  - gryffindor-tower
+  - passwords
+  - headmaster-portraits
+  - common-room-access
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Portraits, Passwords, and Residential Access
+  candidate_section: Portrait Social Life and Access Control
+  reason_for_placement: The passage combines House access control with evidence that portraits can gather socially and include prior Hogwarts headmasters.
+  relevance_to_hogwarts_a_history: This supports future portrait lore and cross-links to House common-room security and headmaster portrait traditions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-004
+    notes: Book 3 Chapter Eight records Gryffindor Tower password entry through the portrait hole; this entry adds Sir Cadogan's portrait social scene and previous headmasters of Hogwarts.
+  confidence: high
+  limitations: The passage does not explain whether these previous headmasters are the same advisory portraits found in the headmaster's office.
+- id: poa-ch11-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eleven - The Firebolt
+  chapter_start_pdf_page: 749
+  chapter_end_pdf_page: 767
+  pdf_page: 766
+  printed_page: not available
+  extracted_text_lines: PDF page 766, lines 6-29; PDF page 767, lines 1-8
+  text_anchor:
+    start_phrase: Professor McGonagall was head of Gryffindor House
+    end_phrase: it has not been tampered with
+    local_occurrence_note: McGonagall enters Gryffindor common room after Hermione reports the anonymous Firebolt.
+  nearby_context: McGonagall, acting as Head of Gryffindor House, confiscates Harry's anonymously delivered Firebolt and says it must be checked for jinxes by Madam Hooch and Professor Flitwick before he can fly it.
+  match_terms:
+  - Professor McGonagall
+  - Head of Gryffindor House
+  - Firebolt
+  - jinxes
+  - Madam Hooch
+  - Professor Flitwick
+  - tampered
+  quote_excerpt_short: "checked for jinxes"
+  source_note: The chapter shows staff responding to a suspicious student-owned broom as a safety threat, with a Head of House confiscation and specialist inspection before use.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch
+  - broomsticks
+  - firebolt
+  - mcgonagall
+  - madam-hooch
+  - professor-flitwick
+  - jinxes
+  - student-safety
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Equipment and Safety
+  candidate_section: Jinx Inspection and Tampered Brooms
+  reason_for_placement: The passage gives concrete evidence for staff authority over potentially cursed Quidditch equipment and identifies likely inspection personnel.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of student equipment safety, Quidditch governance, and the intersection of House authority with magical security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-004
+    notes: Book 2 Chapter Ten records tampered Bludger concerns and Madam Hooch's equipment-storage context; this entry adds anonymous broom delivery, confiscation, and jinx inspection by Hooch and Flitwick.
+  confidence: high
+  limitations: The inspection is prompted by the Sirius Black threat and an anonymous gift, so it should not be generalized to ordinary student broom ownership without more evidence.

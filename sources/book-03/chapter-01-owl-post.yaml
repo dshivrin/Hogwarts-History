@@ -1,0 +1,316 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  boundary_confidence: high
+  boundary_notes: Chapter One range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 2 Chapter Eighteen boundary. Book 3 Chapter One starts on PDF page 573 and Chapter Two starts on PDF page 585, so only PDF pages 573-584 were extracted and searched.
+  processed_date: '2026-06-19'
+  processor_notes: "Processed only Book 3, Chapter One. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch01-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 573
+  printed_page: not available
+  extracted_text_lines: PDF page 573, lines 10-27; PDF page 574, lines 2-4
+  text_anchor:
+    start_phrase: large leather-bound book
+    end_phrase: forty-seven times in various disguises
+    local_occurrence_note: Opening homework scene under Harry's blanket at Privet Drive.
+  nearby_context: Harry secretly uses Bathilda Bagshot's A History of Magic to write a History of Magic essay on medieval witch burning and copies details about Muggle persecution, the Flame-Freezing Charm, and Wendelin the Weird.
+  match_terms:
+  - A History of Magic
+  - Bathilda Bagshot
+  - History of Magic
+  - witch burning
+  - Flame-Freezing Charm
+  - Wendelin the Weird
+  quote_excerpt_short: "A History of Magic by Bathilda Bagshot"
+  source_note: The chapter names Bathilda Bagshot's A History of Magic as a Hogwarts homework source and gives a short excerpted historical claim about medieval witch burning and Flame-Freezing Charms.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - history-of-magic
+  - bathilda-bagshot
+  - in-universe-source
+  - medieval-witch-burning
+  - flame-freezing-charm
+  - wendelin-the-weird
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Bathilda Bagshot's A History of Magic
+  reason_for_placement: The passage identifies a named historical textbook/source used for Hogwarts coursework and shows the kind of historical material students extract from it.
+  relevance_to_hogwarts_a_history: "This is not an explicit Hogwarts: A History reference, but it is important source-context for Bathilda Bagshot as an in-universe historian and for History of Magic coursework."
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-005
+    notes: Book 1 Chapter Eight identifies History of Magic and Professor Binns; this entry adds Bathilda Bagshot's named textbook and a specific homework-use excerpt.
+  confidence: high
+  limitations: The excerpt concerns general magical history rather than Hogwarts history; use it as source-context unless later evidence links Bagshot's textbook directly to Hogwarts institutional history.
+- id: poa-ch01-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 574
+  printed_page: not available
+  extracted_text_lines: PDF page 574, lines 19-34; PDF page 575, line 2
+  text_anchor:
+    start_phrase: The most they could do
+    end_phrase: studying magic by night
+    local_occurrence_note: Privet Drive summer passage after the explanation of the Dursleys' fear of Hogwarts exposure.
+  nearby_context: The Dursleys lock away Harry's spellbooks, wand, cauldron, and broomstick at the start of summer, while Hogwarts teachers have assigned substantial holiday work that forces Harry to retrieve some books secretly.
+  match_terms:
+  - spellbooks
+  - wand
+  - cauldron
+  - broomstick
+  - teachers
+  - Hogwarts
+  - holiday work
+  quote_excerpt_short: "a lot of holiday work"
+  source_note: The chapter confirms that Hogwarts teachers assign holiday work and that students may need school books and writing materials during summer, even when guardians restrict access.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - holiday-homework
+  - school-materials
+  - spellbooks
+  - wand
+  - cauldron
+  - broomstick
+  - privet-drive
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Homework and Independent Study
+  candidate_section: Holiday Homework and Student Materials
+  reason_for_placement: The passage gives direct evidence of between-term academic expectations and the practical dependence on retained school materials.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts academic obligations outside term and helps distinguish ordinary homework expectations from Harry's unusual home restrictions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch01-002
+    notes: Book 2 Chapter One records locked school materials and unfinished summer homework; this entry corroborates the pattern and adds named third-year-style assignments and materials.
+  confidence: high
+  limitations: Harry's need for secrecy is exceptional; the chapter does not explain official policy for students whose guardians block homework access.
+- id: poa-ch01-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 578
+  printed_page: not available
+  extracted_text_lines: PDF page 578, lines 2-20
+  text_anchor:
+    start_phrase: Through the window soared three owls
+    end_phrase: took off through the window into the night
+    local_occurrence_note: Birthday owl delivery sequence after Harry watches the sky from his bedroom window.
+  nearby_context: Three owls deliver birthday mail and packages, including Hedwig, Errol, and a tawny owl carrying a Hogwarts-crest letter before departing after delivery.
+  match_terms:
+  - owls
+  - Hedwig
+  - Errol
+  - Hogwarts crest
+  - letter
+  - packages
+  quote_excerpt_short: "a letter bearing the Hogwarts crest"
+  source_note: The chapter shows owl post delivering personal mail and an official Hogwarts-crest letter to a student during summer vacation.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - owl-post
+  - hogwarts-letters
+  - holiday-contact
+  - school-correspondence
+  - hedwig
+  - errol
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Great Hall Daily Life
+  candidate_section: Meals, Owl Post, and Public Correspondence
+  reason_for_placement: The passage extends owl-post evidence beyond Great Hall delivery by showing summer delivery of both student and school correspondence.
+  relevance_to_hogwarts_a_history: This supports later treatment of owl post as the ordinary communication infrastructure connecting Hogwarts, students, families, and the wider wizarding world.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch01-003
+    notes: Book 2 Chapter One records blocked holiday owl contact; this entry shows successful holiday delivery, including an official Hogwarts-crest letter.
+  confidence: high
+  limitations: The scene does not explain how Hogwarts chooses delivery owls or how official letters locate students outside school.
+- id: poa-ch01-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 580
+  printed_page: not available
+  extracted_text_lines: PDF page 580, lines 2-11; PDF page 581, lines 20-25
+  text_anchor:
+    start_phrase: Percy's Head Boy
+    end_phrase: Ron doesn't seem too happy about it
+    local_occurrence_note: Ron's letter and Hermione's postscript both report Percy's new Head Boy status.
+  nearby_context: Ron writes that Percy received his Head Boy letter the previous week; the accompanying photograph shows Percy wearing his Head Boy badge, and Hermione independently mentions the appointment.
+  match_terms:
+  - Percy
+  - Head Boy
+  - letter
+  - badge
+  - seventh year
+  - Hogwarts
+  quote_excerpt_short: "Percy's Head Boy"
+  source_note: The chapter confirms Percy's appointment as Head Boy through a letter, badge, and two student correspondents.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - head-boy
+  - percy-weasley
+  - student-leadership
+  - senior-students
+  - badge
+  - school-letter
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Exams and Assessment
+  candidate_section: O.W.L.s and Student Advancement
+  reason_for_placement: The passage adds a concrete Harry-era Head Boy appointment and shows that students receive formal notice and wear a badge.
+  relevance_to_hogwarts_a_history: This strengthens the student-leadership thread by moving from Head Boy expectations and old records to an observed appointment process.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch04-003
+    notes: Book 2 Chapter Four links Percy's O.W.L. results to Head Boy expectations; this entry confirms Percy's later appointment letter and badge.
+  confidence: high
+  limitations: The selection criteria and appointing authority remain unstated.
+- id: poa-ch01-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 583
+  printed_page: not available
+  extracted_text_lines: PDF page 583, lines 23-32; PDF page 584, lines 2-9
+  text_anchor:
+    start_phrase: only the letter from Hogwarts left
+    end_phrase: persuade Uncle Vernon or Aunt Petunia to sign the form
+    local_occurrence_note: Harry reads the official Hogwarts letter after opening birthday presents.
+  nearby_context: The official Hogwarts letter states the September 1 start date, King's Cross platform nine and three-quarters departure at eleven, third-year Hogsmeade weekend permission, parent or guardian signature requirement, and enclosed booklist.
+  match_terms:
+  - Hogwarts letter
+  - September the first
+  - Hogwarts Express
+  - platform nine and three-quarters
+  - Hogsmeade
+  - permission form
+  - list of books
+  quote_excerpt_short: "Third years are permitted"
+  source_note: The chapter gives a returning-student Hogwarts letter with travel logistics, booklist enclosure, and the third-year Hogsmeade permission-form requirement.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-letters
+  - hogwarts-express
+  - platform-nine-and-three-quarters
+  - hogsmeade
+  - permission-forms
+  - booklists
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage directly records start-of-term travel instructions and the formal guardian-permission requirement for third-year Hogsmeade visits.
+  relevance_to_hogwarts_a_history: This supports future coverage of student travel, annual letters, and regulated student access to Hogsmeade as a school-supervised privilege.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch04-001
+    notes: Book 2 Chapter Four records a returning-student letter with Express instructions and booklist; this entry adds third-year Hogsmeade permission requirements.
+  confidence: high
+  limitations: The letter does not state how Hogsmeade weekends are scheduled, supervised, or approved after the guardian form is signed.
+- id: poa-ch01-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 582
+  printed_page: not available
+  extracted_text_lines: PDF page 582, lines 10-29; PDF page 583, lines 2-22
+  text_anchor:
+    start_phrase: This was from Hagrid
+    end_phrase: might find this useful for next year
+    local_occurrence_note: Hagrid's birthday package contains the animated green textbook before the Hogwarts letter is opened.
+  nearby_context: Hagrid, the Hogwarts gamekeeper, sends Harry The Monster Book of Monsters and says it may be useful next year; the book snaps, moves, and has to be restrained with a belt.
+  match_terms:
+  - Hagrid
+  - Hogwarts gamekeeper
+  - The Monster Book of Monsters
+  - next year
+  - book
+  - useful
+  quote_excerpt_short: "The Monster Book of Monsters"
+  source_note: The chapter introduces a named, physically aggressive magical book sent by Hagrid as something useful for the coming school year.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - monster-book-of-monsters
+  - care-of-magical-creatures
+  - hagrid
+  - gamekeeper
+  - magical-books
+  - course-books
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures
+  candidate_section: Course Books and Dangerous Texts
+  reason_for_placement: The passage foreshadows a Care of Magical Creatures course text and shows that some magical textbooks can be hazardous objects.
+  relevance_to_hogwarts_a_history: This supports later curriculum and library/source coverage, especially around practical creature-care materials and student safety.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch14-002
+    notes: Book 2 Chapter Fourteen records Care of Magical Creatures as a selectable third-year subject; this entry adds a likely associated course book sent before the new school year.
+  confidence: medium
+  limitations: This chapter does not include the official booklist text or explicitly state the book is required for Care of Magical Creatures; that connection should be confirmed in the next source unit.
+- id: poa-ch01-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter One - Owl Post
+  chapter_start_pdf_page: 573
+  chapter_end_pdf_page: 584
+  pdf_page: 582
+  printed_page: not available
+  extracted_text_lines: PDF page 581, lines 26-35; PDF page 582, lines 2-9
+  text_anchor:
+    start_phrase: Broomstick Servicing Kit
+    end_phrase: Hogwarts House teams
+    local_occurrence_note: Hermione's birthday gift and narrative Quidditch summary after her letter.
+  nearby_context: Hermione gives Harry a Broomstick Servicing Kit including a broomcare handbook, and the narration identifies Quidditch as a broomstick sport, Harry's House-team status, and his Nimbus Two Thousand.
+  match_terms:
+  - Broomstick Servicing Kit
+  - Handbook of Do-It-Yourself Broomcare
+  - Quidditch
+  - broomsticks
+  - Hogwarts House teams
+  - Nimbus Two Thousand
+  quote_excerpt_short: "Hogwarts House teams"
+  source_note: The chapter adds broom maintenance materials and restates Harry's unusual place on a Hogwarts House Quidditch team, with his Nimbus Two Thousand as prized equipment.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-teams
+  - broomsticks
+  - broomcare
+  - student-equipment
+  - nimbus-two-thousand
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Brooms and Player Equipment
+  reason_for_placement: The passage supports practical House Quidditch coverage by connecting student equipment, broom maintenance, and team participation.
+  relevance_to_hogwarts_a_history: This can support a future Quidditch chapter's equipment subsection while keeping Harry's exceptional age as later editorial context.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-003
+    notes: Book 1 Chapter Nine records Harry's first-year exception to join a House team; this entry corroborates his unusual team status and adds broom-maintenance materials.
+  confidence: medium
+  limitations: The broomcare kit is a personal gift, not a school-issued requirement, and the century claim concerns Harry's exceptional case.

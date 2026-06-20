@@ -1,0 +1,334 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  boundary_confidence: high
+  boundary_notes: Chapter Nine range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Eight boundary. Book 3 Chapter Nine starts on PDF page 708 and Chapter Ten starts on PDF page 726, so only PDF pages 708-725 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Nine. Text was extracted locally with pypdf into .tmp/ and searched with rg. One explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch09-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 709
+  printed_page: not available
+  extracted_text_lines: PDF page 709, lines 21-35
+  text_anchor:
+    start_phrase: Honestly, am I the only person
+    end_phrase: they'll have them covered
+    local_occurrence_note: Great Hall overnight discussion after students speculate how Sirius Black entered the castle.
+  nearby_context: "During the emergency night in the Great Hall, Hermione cites Hogwarts: A History to reject simple entry theories and explains that the castle has many enchantments against stealth entry, including anti-Apparition protections."
+  match_terms:
+  - "Hogwarts: A History"
+  - castle
+  - protected
+  - enchantments
+  - stealth
+  - Apparate
+  - secret passages
+  quote_excerpt_short: "protected by more than walls"
+  source_note: "Hermione explicitly invokes Hogwarts: A History while explaining that Hogwarts has protective enchantments against stealth entry and Apparition, with secret passages also expected to be watched during the crisis."
+  reference_type: explicit_hogwarts_a_history
+  era_classification: original_book_core_candidate
+  topic_tags:
+  - hogwarts-a-history
+  - castle-protections
+  - anti-apparition
+  - stealth-entry
+  - secret-passages
+  - hermione-source
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Castle-Wide Protective Enchantments
+  candidate_section: Anti-Intrusion and Anti-Apparition Protections
+  reason_for_placement: The passage is an explicit in-universe source citation for permanent castle protections and therefore belongs in a core security chapter.
+  relevance_to_hogwarts_a_history: This is direct evidence that the in-universe book covers Hogwarts' protective enchantments, including anti-Apparition protections and stealth-entry safeguards.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: "No prior seed records an explicit Hogwarts: A History citation for castle-wide anti-intrusion or anti-Apparition protections."
+  confidence: high
+  limitations: Hermione summarizes the protections in a crisis conversation; the source does not quote the book's exact wording or date the enchantments.
+- id: poa-ch09-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 708
+  printed_page: not available
+  extracted_text_lines: PDF page 708, lines 6-22; PDF page 710, lines 2-18
+  text_anchor:
+    start_phrase: conduct a thorough search of the castle
+    end_phrase: temporary guardian for the Gryffindor portrait hole
+    local_occurrence_note: Dumbledore's emergency instructions in the Great Hall and the later hourly-check scene.
+  nearby_context: Dumbledore houses the whole school overnight in the Great Hall, assigns prefects to guard entrances, leaves the Head Boy and Girl in charge, uses ghosts for messages, conjures sleeping bags, and staff check the hall hourly.
+  match_terms:
+  - Great Hall
+  - search of the castle
+  - prefects
+  - Head Boy
+  - Head Girl
+  - ghosts
+  - sleeping bags
+  - teacher check
+  quote_excerpt_short: "prefects to stand guard"
+  source_note: The chapter shows a castle-security emergency procedure using the Great Hall as a temporary dormitory, with senior-student guard duties, ghost messengers, staff searches, and periodic teacher checks.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - great-hall
+  - emergency-lockdown
+  - prefects
+  - head-boy
+  - head-girl
+  - ghosts
+  - staff-search
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Emergency Lockdowns and Student Safety
+  candidate_section: Great Hall Overnight Assembly
+  reason_for_placement: The passage gives concrete evidence for how Hogwarts can concentrate students in a secure central space during a castle search.
+  relevance_to_hogwarts_a_history: This is useful later editorial evidence for Hogwarts crisis management, senior-student duties, ghost communication, and the flexible institutional use of the Great Hall.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch05-006
+    notes: Book 3 Chapter Five records prefects and Head Boy/Girl being charged with student safety under dementor security; this entry adds Great Hall overnight assembly, ghost messengers, sleeping bags, staff searches, and hourly checks after a castle breach.
+  confidence: high
+  limitations: This procedure is tied to the Sirius Black crisis and should not be treated as an ordinary dormitory or curfew practice.
+- id: poa-ch09-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 710
+  printed_page: not available
+  extracted_text_lines: PDF page 710, lines 17-31; PDF page 712, lines 2-11
+  text_anchor:
+    start_phrase: I've found a temporary guardian
+    end_phrase: brave enough to volunteer
+    local_occurrence_note: Dumbledore and Percy discuss the Fat Lady; later Sir Cadogan replaces her at Gryffindor Tower.
+  nearby_context: Dumbledore says the Fat Lady hid in a map after refusing entry without the password, Filch will restore her later, and Sir Cadogan volunteers as temporary Gryffindor portrait-hole guardian because other pictures fear the job.
+  match_terms:
+  - temporary guardian
+  - Gryffindor portrait hole
+  - Fat Lady
+  - password
+  - Filch
+  - Sir Cadogan
+  - pictures
+  quote_excerpt_short: "refused to let Black in without the password"
+  source_note: The chapter explains that House portrait guardians can be replaced after a breach, that the Fat Lady enforces the password rule, and that other portraits can volunteer or refuse guardian duties.
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  topic_tags:
+  - fat-lady
+  - sir-cadogan
+  - gryffindor-tower
+  - portrait-guardians
+  - passwords
+  - filch
+  - portrait-mobility
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Portraits as Residents and Gatekeepers
+  candidate_section: Temporary Portrait Guardians
+  reason_for_placement: The passage shows portraits as active participants in House security, with job-like gatekeeping roles and individual willingness or fear.
+  relevance_to_hogwarts_a_history: This supports future coverage of magical portrait society, portrait movement, and House common-room gatekeeping.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-007
+    notes: Book 3 Chapter Eight records the attack on the Fat Lady and the search for her; this entry adds the password-refusal explanation, Filch restoration plan, temporary guardian, and other portraits' refusal to serve.
+  confidence: high
+  limitations: The replacement is an emergency arrangement and does not establish the normal appointment process for House portrait guardians.
+- id: poa-ch09-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 711
+  printed_page: not available
+  extracted_text_lines: PDF page 710, lines 25-31; PDF page 711, lines 2-21
+  text_anchor:
+    start_phrase: The whole of the third floor has been searched
+    end_phrase: while I am headmaster
+    local_occurrence_note: Late-night Great Hall conversation between Snape, Percy, and Dumbledore after the castle search.
+  nearby_context: Snape reports searched locations including the third floor, dungeons, Astronomy Tower, Trelawney's room, and Owlery; Dumbledore says he will inform the dementors but refuses to allow any dementor across the castle threshold.
+  match_terms:
+  - third floor
+  - dungeons
+  - Astronomy Tower
+  - Trelawney's room
+  - Owlery
+  - dementors
+  - threshold
+  quote_excerpt_short: "no dementor will cross the threshold"
+  source_note: The chapter gives a partial map of the castle search and records Dumbledore's headmaster-level refusal to allow dementors inside the castle despite their external security role.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - castle-search
+  - dumbledore
+  - dementors
+  - headmaster-authority
+  - astronomy-tower
+  - owlery
+  - dungeons
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dumbledore and External Security Arrangements
+  candidate_section: Dementors Barred from the Castle Interior
+  reason_for_placement: The passage clarifies the boundary between external Ministry-linked security and Dumbledore's control over the castle interior.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for headmaster authority, crisis searches, and Hogwarts' resistance to allowing dementors into student spaces.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch05-006
+    notes: Book 3 Chapter Five records dementors stationed at every entrance to the grounds; this entry adds Dumbledore's explicit refusal to allow them across the castle threshold after the breach search.
+  confidence: high
+  limitations: The authority basis is not explained, and the rule is expressed by Dumbledore during one crisis rather than as a quoted school statute.
+- id: poa-ch09-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 715
+  printed_page: not available
+  extracted_text_lines: PDF page 714, lines 24-34; PDF page 715, lines 9-28; PDF page 717, lines 2-12
+  text_anchor:
+    start_phrase: Professor Lupin has not left any record
+    end_phrase: two rolls of parchment on the subject
+    local_occurrence_note: Snape substitutes for Lupin in Defense Against the Dark Arts and assigns werewolf work.
+  nearby_context: Snape takes over Lupin's class, complains about missing coverage records, confirms the recent sequence of boggarts, Red Caps, kappas, and grindylows, skips ahead to werewolves in the textbook, deducts House points, assigns detention, and sets a werewolf essay.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Professor Lupin
+  - Snape
+  - boggarts
+  - Red Caps
+  - kappas
+  - grindylows
+  - werewolves
+  - homework
+  quote_excerpt_short: "we're due to start hinkypunks"
+  source_note: The chapter records a disrupted third-year Defense Against the Dark Arts lesson, including recent creature topics, a planned hinkypunk unit, a skipped-ahead werewolf topic, textbook use, House-point deductions, detention, and homework.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - professor-snape
+  - werewolves
+  - hinkypunks
+  - creature-curriculum
+  - house-points
+  - detention
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Creature Sequence
+  reason_for_placement: The passage extends the third-year DADA curriculum seed with planned and substitute-taught creature topics, assignment scale, and class-management evidence.
+  relevance_to_hogwarts_a_history: This helps index curriculum progression, textbook-centered substitute teaching, and how House discipline can be used inside subject lessons.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-001
+    notes: Book 3 Chapter Eight records Lupin's boggart-to-grindylow sequence; this entry corroborates that sequence and adds hinkypunks, werewolves, substitute teaching, essay homework, detention, and point deductions.
+  confidence: high
+  limitations: Snape's lesson is adversarial and temporary, so it should not be treated as Lupin's intended werewolf timing or ordinary DADA pedagogy.
+- id: poa-ch09-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 719
+  printed_page: not available
+  extracted_text_lines: PDF page 712, lines 23-32; PDF page 713, lines 2-8; PDF page 719, lines 6-29; PDF page 720, lines 12-20; PDF page 723, lines 11-19
+  text_anchor:
+    start_phrase: I'd be happier if a teacher were present
+    end_phrase: they won fair and square
+    local_occurrence_note: McGonagall arranges supervised training before the stormy Gryffindor-Hufflepuff match and the hospital-wing result discussion.
+  nearby_context: McGonagall permits exposed Quidditch training only with Madam Hooch present; the Hufflepuff match proceeds in a thunderstorm before the whole school, includes captains' handshake, whistle start, timeout, and a final result accepted as fair despite Harry's fall.
+  match_terms:
+  - Quidditch
+  - Madam Hooch
+  - training sessions
+  - Cup
+  - Hufflepuff
+  - captains
+  - time-out
+  - Snitch
+  - fair and square
+  quote_excerpt_short: "Madam Hooch to oversee your training sessions"
+  source_note: The chapter shows staff-supervised Quidditch training under a security threat and further match governance through weather-tolerant play, whole-school attendance, captain procedure, time-out, scoring pressure, and acceptance of the Snitch result.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - madam-hooch
+  - supervised-training
+  - house-match
+  - hufflepuff
+  - time-out
+  - quidditch-cup
+  - match-governance
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Training Supervision, Weather, and Match Results
+  reason_for_placement: The passage extends the Hogwarts Quidditch seed with security-adjusted training supervision and observed match procedures in severe weather.
+  relevance_to_hogwarts_a_history: This supports future coverage of Quidditch as a school institution, including staff oversight, match persistence in bad weather, time-outs, and how results affect Cup calculations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-003
+    notes: Book 2 Chapter Ten records matchday organization and Madam Hooch's kickoff role; this entry adds security-driven training supervision, severe-weather play, time-out, and post-fall result acceptance.
+  confidence: high
+  limitations: The training supervision is shaped by a special threat to Harry, so it should not be generalized as ordinary practice for all teams.
+- id: poa-ch09-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Nine - Grim Defeat
+  chapter_start_pdf_page: 708
+  chapter_end_pdf_page: 725
+  pdf_page: 724
+  printed_page: not available
+  extracted_text_lines: PDF page 722, lines 3-16; PDF page 724, lines 12-19; PDF page 724, lines 28-30; PDF page 725, lines 2-10
+  text_anchor:
+    start_phrase: At least a hundred dementors
+    end_phrase: the only remains of Harry's faithful
+    local_occurrence_note: Dementors enter the Quidditch field, Dumbledore responds, and Harry later learns his broom was destroyed by the Whomping Willow.
+  nearby_context: Dementors enter the Quidditch field and cause Harry to fall; Dumbledore slows his fall, drives the dementors from the stadium, levitates him to the hospital wing, and Harry's blown-away Nimbus is later returned in fragments after hitting the Whomping Willow.
+  match_terms:
+  - dementors
+  - Quidditch field
+  - Dumbledore
+  - stadium
+  - hospital wing
+  - stretcher
+  - Whomping Willow
+  - broomstick
+  quote_excerpt_short: "furious they'd come onto the grounds"
+  source_note: The chapter records a failure of external dementor security at a school Quidditch match, Dumbledore's immediate protective response, hospital-wing transport, and the Whomping Willow destroying a windblown broom.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - quidditch-field
+  - dumbledore
+  - hospital-wing
+  - whomping-willow
+  - broomstick
+  - grounds-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dumbledore and External Security Arrangements
+  candidate_section: Dementor Breach at the Quidditch Stadium
+  reason_for_placement: The passage captures a major Harry-era security failure involving external guards, school grounds, student sport, emergency magic, and medical evacuation.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the risks of dementor deployment at Hogwarts and a cross-reference for dangerous magical features on the grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch05-004
+    notes: Book 3 Chapter Five records the first dementor encounter and chocolate remedy; this entry adds a mass dementor breach onto the Quidditch field, Dumbledore's response, hospital transport, and Whomping Willow broom destruction.
+  confidence: high
+  limitations: The event is exceptional to the Sirius Black crisis and should not be treated as ordinary Hogwarts grounds security or ordinary Quidditch risk.

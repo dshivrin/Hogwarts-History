@@ -1,0 +1,222 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Three - The Letters From No One
+  chapter_start_pdf_page: 37
+  chapter_end_pdf_page: 49
+  boundary_confidence: high
+  boundary_notes: Chapter Three start was taken from the known Chapter Two/Three boundary and confirmed on PDF page 37; Chapter Four - The Keeper of the Keys was found by scanning a small bounded window after that anchor and begins on PDF page 50. Only PDF pages 37-49 were extracted and searched.
+  processed_date: '2026-06-12'
+  processor_notes: "Processed only Book 1, Chapter Three. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ps-ch03-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Three - The Letters From No One
+  chapter_start_pdf_page: 37
+  chapter_end_pdf_page: 49
+  pdf_page: 39
+  printed_page: not available
+  extracted_text_lines: PDF page 39, lines 18-30; PDF page 40, lines 1-4
+  text_anchor:
+    start_phrase: a letter for Harry
+    end_phrase: surrounding a large letter H
+    local_occurrence_note: First arrival of Harry's addressed letter at Privet Drive, before Vernon confiscates it.
+  nearby_context: Harry receives a thick parchment envelope addressed to him in the cupboard under the stairs; the envelope has emerald-green ink, no stamp, and a purple wax seal bearing four animal emblems around an H.
+  match_terms:
+  - letter
+  - parchment
+  - emerald-green ink
+  - purple wax seal
+  - coat of arms
+  - H
+  quote_excerpt_short: "a lion, an eagle, a badger, and a snake"
+  source_note: The chapter presents the first unopened Hogwarts-style letter to Harry, including its exact address, material form, green ink, unstamped envelope, and crest-like seal.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-letters
+  - admissions
+  - school-crest
+  - four-houses
+  - harry-potter
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Acceptance Letters and School Identity
+  reason_for_placement: The passage documents the physical form and identifying symbolism of Hogwarts correspondence sent before a student's first year.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts admissions correspondence and early House symbolism, though Harry's specific letter is later editorial context.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry records the physical form or crest of Harry's first Hogwarts-style letter.
+  confidence: high
+  limitations: Harry does not read the letter in this chapter, and the sender is not named until the following chapter.
+- id: ps-ch03-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Three - The Letters From No One
+  chapter_start_pdf_page: 37
+  chapter_end_pdf_page: 49
+  pdf_page: 41
+  printed_page: not available
+  extracted_text_lines: PDF page 40, lines 20-29; PDF page 41, lines 19-32
+  text_anchor:
+    start_phrase: Who'd be writing to you?
+    end_phrase: stamp out that dangerous nonsense
+    local_occurrence_note: Vernon and Petunia react to the first letter after confiscating it from Harry.
+  nearby_context: Vernon and Petunia read enough of Harry's letter to panic; Petunia notices that the address identifies where Harry sleeps, and Vernon decides to ignore the sender rather than reply.
+  match_terms:
+  - address
+  - watching
+  - spying
+  - write back
+  - dangerous nonsense
+  - Dursleys
+  quote_excerpt_short: "how could they possibly know where he sleeps?"
+  source_note: The Dursleys' reaction shows they recognize the letter as connected to the magical world and fear that its sender knows Harry's exact living situation.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogwarts-letters
+  - dursleys
+  - hidden-magical-history
+  - harry-potter
+  - admissions
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: Suppressed Hogwarts Contact
+  reason_for_placement: The scene extends the pre-Hogwarts biography seed by showing Harry's guardians suppressing school contact before he can read it.
+  relevance_to_hogwarts_a_history: This is useful later editorial context for Harry's unusual admission circumstances, not likely original-book institutional content.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Two records broader magical suppression; this entry records the Dursleys' specific suppression of the first school letter.
+  confidence: medium
+  limitations: The passage does not state the letter's contents or identify the school by name.
+- id: ps-ch03-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Three - The Letters From No One
+  chapter_start_pdf_page: 37
+  chapter_end_pdf_page: 49
+  pdf_page: 43
+  printed_page: not available
+  extracted_text_lines: PDF page 42, lines 10-19; PDF page 43, lines 7-22
+  text_anchor:
+    start_phrase: about this cupboard
+    end_phrase: Surely that meant they'd try again?
+    local_occurrence_note: After Harry is moved from the cupboard to Dudley's second bedroom, a new letter arrives with the updated room address.
+  nearby_context: The Dursleys move Harry out of the cupboard after the first letter; the next day's letter is addressed to the smallest bedroom, making Harry infer that the sender knows he has moved and will keep trying.
+  match_terms:
+  - cupboard
+  - smallest bedroom
+  - moved
+  - address
+  - try again
+  - letter
+  quote_excerpt_short: "The Smallest Bedroom, 4 Privet Drive"
+  source_note: The chapter shows a second letter updating Harry's address from the cupboard to the smallest bedroom after the Dursleys move him.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-letters
+  - address-tracking
+  - admissions
+  - privet-drive
+  - harry-potter
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Locating Prospective Students
+  reason_for_placement: The passage suggests that Hogwarts-related correspondence can track a prospective student's current location with unusual precision.
+  relevance_to_hogwarts_a_history: This may support a future note on magical admissions logistics, while remaining cautious about the unexplained mechanism.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Distinct from ps-ch03-001 because it records the changed address after Harry's relocation.
+  confidence: medium
+  limitations: The source does not explain whether the address update is produced by Hogwarts magic, a person, or another delivery mechanism.
+- id: ps-ch03-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Three - The Letters From No One
+  chapter_start_pdf_page: 37
+  chapter_end_pdf_page: 49
+  pdf_page: 44
+  printed_page: not available
+  extracted_text_lines: PDF page 44, lines 10-35; PDF page 45, lines 1-19
+  text_anchor:
+    start_phrase: three letters addressed in green ink
+    end_phrase: still streaming into the room
+    local_occurrence_note: Escalation after Vernon blocks the mail slot, boards up doors, and tries to prevent delivery.
+  nearby_context: More letters arrive despite blocked mail routes, appearing through door cracks, a bathroom window, eggs delivered by the milkman, and the fireplace on Sunday.
+  match_terms:
+  - green ink
+  - mail slot
+  - eggs
+  - fireplace
+  - Sunday
+  - delivery
+  quote_excerpt_short: "thirty or forty letters came pelting out"
+  source_note: The chapter documents escalating delivery attempts that bypass ordinary postal barriers and continue even when there is no Sunday post.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-letters
+  - magical-delivery
+  - admissions
+  - muggle-households
+  - harry-potter
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Persistent Delivery to Muggle Households
+  reason_for_placement: The passage is the strongest evidence in the chapter for a determined magical delivery process around first-year school correspondence.
+  relevance_to_hogwarts_a_history: This supports later discussion of how Hogwarts reaches students whose guardians obstruct contact, though the mechanism remains unstated.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior entry records the escalating delivery pattern through blocked household access points.
+  confidence: high
+  limitations: The chapter does not name the institution sending the letters or define whether this is ordinary policy or an exceptional response.
+- id: ps-ch03-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Three - The Letters From No One
+  chapter_start_pdf_page: 37
+  chapter_end_pdf_page: 49
+  pdf_page: 46
+  printed_page: not available
+  extracted_text_lines: PDF page 46, lines 10-19; PDF page 47, lines 8-15; PDF page 48, lines 20-26; PDF page 49, lines 1-4
+  text_anchor:
+    start_phrase: one of you Mr. H. Potter?
+    end_phrase: Someone was outside, knocking to come in.
+    local_occurrence_note: Final flight from the letters, from Railview Hotel to the sea-rock shack as Harry turns eleven.
+  nearby_context: Around a hundred letters reach Harry at a hotel under a precise room address; Vernon takes the family to an isolated shack before Harry's eleventh birthday, and someone arrives at midnight.
+  match_terms:
+  - Room 17
+  - Railview Hotel
+  - eleventh birthday
+  - letter writer
+  - Privet Drive
+  - knocking
+  quote_excerpt_short: "about an 'undred of these"
+  source_note: The chapter shows the letter pursuit continuing after the Dursleys flee Privet Drive, leading up to Harry's eleventh birthday and the arrival of an unidentified visitor.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogwarts-letters
+  - admissions
+  - eleventh-birthday
+  - hagrid-cross-reference
+  - harry-potter
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: The Eleventh Birthday Contact
+  reason_for_placement: The passage sets up the transition from written contact to personal intervention in Harry's pre-Hogwarts admission story.
+  relevance_to_hogwarts_a_history: This is later editorial context for Harry's unusual route into Hogwarts, especially when cross-referenced with Hagrid's explanation in the next chapter.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: This extends the letter-delivery sequence beyond Privet Drive and should be cross-referenced with Chapter Four rather than treated as a duplicate.
+  confidence: medium
+  limitations: The visitor is not identified until the next chapter, and this chapter still does not reveal the letter contents.

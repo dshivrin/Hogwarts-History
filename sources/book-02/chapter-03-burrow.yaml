@@ -1,0 +1,227 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Three - The Burrow
+  chapter_start_pdf_page: 301
+  chapter_end_pdf_page: 315
+  boundary_confidence: high
+  boundary_notes: Chapter Three range was taken from chapters-index.md and the prior Book 2 Chapter Two boundary. Book 2 Chapter Three starts on PDF page 301 and Chapter Four starts on PDF page 316, so only PDF pages 301-315 were extracted and searched.
+  processed_date: '2026-06-13'
+  processor_notes: "Processed only Book 2, Chapter Three. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch03-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Three - The Burrow
+  chapter_start_pdf_page: 301
+  chapter_end_pdf_page: 315
+  pdf_page: 301
+  printed_page: not available
+  extracted_text_lines: PDF page 301, lines 15-28; PDF page 302, lines 1-7
+  text_anchor:
+    start_phrase: Why haven't you been answering my letters?
+    end_phrase: We've come to take you home with us.
+    local_occurrence_note: Opening rescue conversation through Harry's barred bedroom window.
+  nearby_context: Ron says his father learned through the Ministry that Harry received an official warning for magic in front of Muggles, reminds Harry that students are not supposed to do spells outside school, and Harry says Hogwarts needs to know the Dursleys are preventing his return.
+  match_terms:
+  - official warning
+  - Ministry
+  - magic in front of Muggles
+  - spells outside school
+  - Hogwarts
+  - second spell
+  quote_excerpt_short: "we're not supposed to do spells outside school"
+  source_note: Ron independently repeats the outside-school magic restriction and connects Harry's official warning to Ministry knowledge, while Harry frames guardian obstruction as something Hogwarts should be told.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - holiday-conduct
+  - ministry-warning
+  - muggle-secrecy
+  - guardian-obstruction
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Holiday Conduct and Underage Magic
+  candidate_section: Ministry Warnings and School Return Problems
+  reason_for_placement: The passage reinforces the outside-school magic rule and adds a practical school-return problem when a guardian blocks a student's access to Hogwarts.
+  relevance_to_hogwarts_a_history: This supports later governance coverage of holiday conduct and the boundary between Ministry enforcement and Hogwarts attendance obligations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-005
+    notes: Chapter Two records the formal Ministry warning and legal citations; this entry repeats the outside-school rule through Ron and adds the blocked-return concern.
+  confidence: medium
+  limitations: Ron's summary is informal, and the chapter does not show whether Hogwarts receives Harry's message or has a formal intervention procedure.
+- id: cos-ch03-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Three - The Burrow
+  chapter_start_pdf_page: 301
+  chapter_end_pdf_page: 315
+  pdf_page: 305
+  printed_page: not available
+  extracted_text_lines: PDF page 305, lines 7-10 and 23-29; PDF page 306, lines 1-5
+  text_anchor:
+    start_phrase: house-elves have got powerful magic
+    end_phrase: you wouldn't catch one in our house
+    local_occurrence_note: Flying-car discussion after Harry recounts Dobby's warning.
+  nearby_context: Fred says house-elves have powerful magic but usually cannot use it without a master's permission; the twins link house-elves to rich old wizarding families, manors, castles, and the possibility that Dobby was sent to stop Harry returning to Hogwarts.
+  match_terms:
+  - house-elves
+  - powerful magic
+  - master's permission
+  - old Wizarding family
+  - manors
+  - castles
+  - Hogwarts
+  quote_excerpt_short: "can't usually use it without their master's permission"
+  source_note: The chapter adds peer-supplied house-elf lore about magic-use permission and social association with wealthy old wizarding households.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - magical-servitude
+  - wizarding-families
+  - old-manors
+  - dobby-warning
+  candidate_part: Later Editorial Notes
+  candidate_chapter: House-Elves and Hogwarts
+  candidate_section: House-Elf Magic and Old Wizarding Households
+  reason_for_placement: The passage extends the house-elf background thread that may later support Hogwarts-specific house-elf evidence once the school kitchens are indexed.
+  relevance_to_hogwarts_a_history: This is not direct Hogwarts house-elf evidence, but it supplies later-editorial context for how house-elf service and permission-bound magic are understood before Hogwarts house-elves appear.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-001
+    notes: Chapter Two records Dobby's bondage to one family until freed; this entry adds magic-use permission and association with old wealthy households.
+  confidence: medium
+  limitations: The claims come from Fred and George's conversation, not a formal historical or legal source, and they still concern private households rather than Hogwarts.
+- id: cos-ch03-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Three - The Burrow
+  chapter_start_pdf_page: 301
+  chapter_end_pdf_page: 315
+  pdf_page: 306
+  printed_page: not available
+  extracted_text_lines: PDF page 306, lines 6-21
+  text_anchor:
+    start_phrase: worried when you didn't answer any of my letters
+    end_phrase: so many times you can polish a prefect badge
+    local_occurrence_note: Ron explains holiday correspondence failures during the flight to the Burrow.
+  nearby_context: Ron says he sent many letters, first blamed the family owl Errol, tried unsuccessfully to borrow Percy's owl Hermes, and the twins note Percy has been sending many letters while repeatedly polishing his prefect badge.
+  match_terms:
+  - letters
+  - Errol
+  - owl
+  - Hermes
+  - Percy
+  - prefect badge
+  - summer
+  quote_excerpt_short: "worried when you didn't answer any of my letters"
+  source_note: The passage confirms ordinary student holiday correspondence by owl, distinguishes family owls by name and ownership, and links Percy's prefect status to separate owl use and correspondence.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - owl-post
+  - holiday-contact
+  - student-correspondence
+  - prefects
+  - percy-weasley
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Holiday Letters and Family Owls
+  reason_for_placement: The passage clarifies that Ron did try to maintain ordinary summer contact with Harry and gives practical detail about owl access within a wizarding family.
+  relevance_to_hogwarts_a_history: This supports later editorial context on student-student contact outside term and on how owl communication interacts with prefect status and family resources.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-004
+    notes: Chapter Two reveals Dobby intercepted Harry's letters; this entry shows Ron's sending attempts, Errol and Hermes, and Percy's separate letter activity.
+  confidence: high
+  limitations: The evidence is family-specific and does not define an official Hogwarts holiday correspondence policy.
+- id: cos-ch03-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Three - The Burrow
+  chapter_start_pdf_page: 301
+  chapter_end_pdf_page: 315
+  pdf_page: 307
+  printed_page: not available
+  extracted_text_lines: PDF page 306, lines 27-34; PDF page 307, lines 1-16; PDF page 313, lines 9-24; PDF page 314, lines 1-20
+  text_anchor:
+    start_phrase: The Misuse of Muggle Artifacts Office
+    end_phrase: the car you weren't intending to fly
+    local_occurrence_note: Arthur Weasley's Ministry work is explained during and after the flying-car journey.
+  nearby_context: Ron explains that Arthur Weasley works in the Misuse of Muggle Artifacts Office, which handles bewitched Muggle-made objects that return to Muggle hands; Mr. Weasley later describes raids, Muggle-baiting, and a legal loophole around enchanting a car that was not intended to fly.
+  match_terms:
+  - Ministry of Magic
+  - Misuse of Muggle Artifacts Office
+  - Muggle-made
+  - Memory Charms
+  - Muggle-baiting
+  - loophole
+  - flying car
+  quote_excerpt_short: "The Misuse of Muggle Artifacts Office"
+  source_note: The chapter gives legal and Ministry context for enchanted Muggle artifacts, including enforcement raids, Memory Charms after Muggle exposure, Muggle-baiting, and Arthur's loophole around the flying car.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - muggle-artifacts
+  - muggle-secrecy
+  - memory-charms
+  - flying-car
+  - muggle-baiting
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Holiday Conduct and Underage Magic
+  candidate_section: Muggle Artifact Law and Secrecy Context
+  reason_for_placement: The passage expands the legal setting around Harry's flying-car rescue and explains why enchanted Muggle objects can create secrecy and enforcement problems.
+  relevance_to_hogwarts_a_history: This is not Hogwarts policy, but it helps later editorial notes explain the wider legal framework that intersects with student travel, secrecy, and underage conduct outside school.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry records the Misuse of Muggle Artifacts Office or enchanted Muggle-object enforcement.
+  confidence: medium
+  limitations: The evidence concerns Ministry law and Arthur Weasley's work rather than Hogwarts rules or school governance.
+- id: cos-ch03-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Three - The Burrow
+  chapter_start_pdf_page: 301
+  chapter_end_pdf_page: 315
+  pdf_page: 315
+  printed_page: not available
+  extracted_text_lines: PDF page 302, lines 22-24; PDF page 315, lines 14-19
+  text_anchor:
+    start_phrase: But all my Hogwarts stuff
+    end_phrase: Ron's magic wand was lying on top of a fish tank
+    local_occurrence_note: Harry's locked school trunk is recovered before the flight; Ron's room later shows school materials kept at home.
+  nearby_context: Harry identifies his wand, broomstick, and Hogwarts things as locked under the stairs; in Ron's room, school spellbooks are stacked in a corner and Ron's wand lies on the windowsill near Scabbers.
+  match_terms:
+  - Hogwarts stuff
+  - wand
+  - broomstick
+  - trunk
+  - school spellbooks
+  - magic wand
+  quote_excerpt_short: "all my Hogwarts stuff"
+  source_note: The chapter reinforces that students have Hogwarts materials at home during summer, including trunks, spellbooks, wands, and broomsticks, though their access and storage vary by household.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-materials
+  - summer-homework
+  - spellbooks
+  - wand
+  - broomstick
+  - student-trunks
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Homework and Independent Study
+  candidate_section: Holiday Storage of School Materials
+  reason_for_placement: The passage adds concrete examples of required school materials being kept or retrieved during summer away from Hogwarts.
+  relevance_to_hogwarts_a_history: This supports future coverage of student materials, holiday study conditions, and the practical difference between Muggle and wizarding households.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch01-002
+    notes: Chapter One records Vernon's locking away of Harry's school materials; this entry adds the rescue retrieval and Ron's accessible spellbooks and wand at home.
+  confidence: medium
+  limitations: The passage does not state any formal Hogwarts requirement for where students must keep materials over the holidays.

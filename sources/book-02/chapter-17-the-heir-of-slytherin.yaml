@@ -1,0 +1,311 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  boundary_confidence: high
+  boundary_notes: Chapter Seventeen range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Sixteen boundary. Book 2 Chapter Seventeen starts on PDF page 536 and Chapter Eighteen starts on PDF page 553, so only PDF pages 536-552 were extracted and searched.
+  processed_date: '2026-06-18'
+  processor_notes: "Processed only Book 2, Chapter Seventeen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch17-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 536
+  printed_page: not available
+  extracted_text_lines: PDF page 536, lines 6-22; PDF page 537, lines 24-26
+  text_anchor:
+    start_phrase: He was standing at the end of a very long
+    end_phrase: two enormous gray feet stood on the smooth Chamber floor
+    local_occurrence_note: Opening description of the central Chamber before Harry reaches Ginny and Riddle.
+  nearby_context: Harry enters the main Chamber and observes tall serpent-entwined pillars, shadowed greenish light, hollow-eyed stone snakes, and a giant ancient statue at the far wall.
+  match_terms:
+  - Chamber of Secrets
+  - stone pillars
+  - carved serpents
+  - statue
+  - Slytherin
+  quote_excerpt_short: "stone pillars entwined with more carved serpents"
+  source_note: The chapter gives the first direct view of the Chamber's central room, emphasizing serpent imagery, monumental scale, and a large ancient wizard statue.
+  reference_type: magical_architecture
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chamber-of-secrets
+  - magical-architecture
+  - serpent-imagery
+  - slytherin-statue
+  - hidden-room
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Secret Passageways and Hidden Routes
+  candidate_section: The Central Chamber and Serpent Architecture
+  reason_for_placement: The passage documents a hidden architectural space inside Hogwarts whose imagery and mechanism connect directly to Slytherin's founder legend.
+  relevance_to_hogwarts_a_history: This is core evidence for any later treatment of the Chamber's physical form, especially where Binns's legend and Harry-era confirmation must be reconciled.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch16-007
+    notes: Chapter Sixteen reaches the serpent-carved wall and route toward the Chamber; this entry continues that route into the central room and adds direct architectural description.
+  confidence: high
+  limitations: Harry's observation does not identify the statue by name until Riddle later addresses it as Slytherin.
+- id: cos-ch17-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 537
+  printed_page: not available
+  extracted_text_lines: PDF page 537, lines 48-55; PDF page 539, lines 97-137
+  text_anchor:
+    start_phrase: A memory
+    end_phrase: She set the serpent of Slytherin on four Mudbloods
+    local_occurrence_note: Riddle explains the diary's preserved memory and Ginny's role in the current Chamber attacks.
+  nearby_context: Riddle identifies himself as a diary-preserved memory from fifty years earlier, then explains that Ginny wrote in the diary for months and was made to open the Chamber, attack roosters, write messages, and direct the basilisk.
+  match_terms:
+  - memory
+  - diary
+  - fifty years
+  - Ginny Weasley
+  - Chamber of Secrets
+  - serpent of Slytherin
+  quote_excerpt_short: "Preserved in a diary for fifty years"
+  source_note: Riddle's diary is confirmed as a magical memory source that could possess and direct a student, making it the mechanism behind the current Chamber opening.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - riddle-diary
+  - magical-memory-source
+  - chamber-crisis
+  - ginny-weasley
+  - possession
+  - basilisk
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Magical Sources and Unreliable Records
+  candidate_section: The Riddle Diary as Memory and Weapon
+  reason_for_placement: The diary is a book-like magical source that preserves testimony but also manipulates events, so it belongs with source criticism rather than ordinary library evidence.
+  relevance_to_hogwarts_a_history: This helps future editors evaluate Riddle's memory claims against observed evidence and official school records.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch13-004
+    notes: Chapter Thirteen introduced the diary as a memory-bearing historical source; this entry confirms its possessive function and its role in the current Chamber attacks.
+  confidence: high
+  limitations: Riddle is self-interested and hostile; the current attack mechanism is corroborated by Ginny's condition and later admissions, but his framing remains selective.
+- id: cos-ch17-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 540
+  printed_page: not available
+  extracted_text_lines: PDF page 540, lines 178-187; PDF page 541, lines 190-208
+  text_anchor:
+    start_phrase: It was my word against Hagrid's
+    end_phrase: finish Salazar Slytherin's noble work
+    local_occurrence_note: Riddle's confession after Harry accuses him of framing Hagrid.
+  nearby_context: Riddle says Dippet accepted the apparent contrast between prefect Riddle and frequently troublesome Hagrid, claims he spent five years finding the Chamber and entrance, and says Dumbledore suspected Hagrid's innocence and persuaded Dippet to keep Hagrid as gamekeeper.
+  match_terms:
+  - Hagrid
+  - Armando Dippet
+  - school prefect
+  - Chamber of Secrets
+  - secret entrance
+  - Dumbledore
+  - gamekeeper
+  quote_excerpt_short: "five whole years to find out everything"
+  source_note: Riddle corrects the earlier Hagrid narrative by claiming he framed Hagrid, spent five school years researching the Chamber, and left the diary after Dumbledore kept watch on him.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - first-chamber-opening
+  - hagrid-expulsion
+  - armando-dippet
+  - dumbledore
+  - gamekeeper
+  - riddle
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: The First Known Chamber Opening
+  candidate_section: Riddle's Confession and Hagrid's Expulsion
+  reason_for_placement: The passage directly addresses the historical record of the first known Chamber opening, its false culprit, and school leadership responses.
+  relevance_to_hogwarts_a_history: This is major pre-Harry evidence for a later chapter on how Hogwarts misidentified the first Chamber culprit and retained Hagrid despite expulsion.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch13-005
+    notes: Chapter Thirteen records Riddle's earlier memory framing Hagrid as culprit; this entry corrects that source by making Riddle's frame-up explicit and adding Dumbledore's suspicion.
+  confidence: high
+  limitations: The details still come from Riddle's confession; Hagrid's own testimony and official records remain needed for a neutral account.
+- id: cos-ch17-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 542
+  printed_page: not available
+  extracted_text_lines: PDF page 542, lines 251-265; PDF page 545, lines 350-363
+  text_anchor:
+    start_phrase: It was a name I was already using at Hogwarts
+    end_phrase: Heir of Salazar Slytherin
+    local_occurrence_note: Riddle reveals his Voldemort name and later compares his and Harry's Parselmouth status.
+  nearby_context: Riddle says he used the Voldemort name at Hogwarts among close friends, claims descent from Salazar Slytherin through his mother, and later calls Harry and himself likely the only Parselmouths at Hogwarts since Slytherin.
+  match_terms:
+  - Tom Marvolo Riddle
+  - Lord Voldemort
+  - Hogwarts
+  - Salazar Slytherin
+  - Parselmouths
+  - heir
+  quote_excerpt_short: "the blood of Salazar Slytherin himself"
+  source_note: The chapter links Riddle's Hogwarts-era identity, claimed Slytherin descent, and Parseltongue ability to the broader Slytherin heir tradition.
+  reference_type: house_system
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - salazar-slytherin
+  - parseltongue
+  - slytherin-heir
+  - voldemort
+  - house-lore
+  - bloodline
+  candidate_part: The Four Houses
+  candidate_chapter: House Identity and Reputation
+  candidate_section: Slytherin Heir Claims and Parseltongue
+  reason_for_placement: The passage extends existing Slytherin House lore by connecting founder descent, Parseltongue, and an identified former Hogwarts student.
+  relevance_to_hogwarts_a_history: This supports a cautious editorial account of Slytherin heir claims, while keeping Riddle's self-presentation distinct from official school history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-004
+    notes: Chapter Eleven records student explanations that Parseltongue is linked to Salazar Slytherin; this entry adds Riddle's claimed descent and rarity claim for Parselmouths at Hogwarts.
+  confidence: medium
+  limitations: Riddle's descent claim is self-reported here and should be corroborated by later sources before being treated as genealogical fact.
+- id: cos-ch17-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 544
+  printed_page: not available
+  extracted_text_lines: PDF page 544, lines 305-319; PDF page 547, lines 421-436
+  text_anchor:
+    start_phrase: That's a phoenix
+    end_phrase: A gleaming silver sword had appeared inside the hat
+    local_occurrence_note: Fawkes arrives with the Sorting Hat, and Harry later draws the sword from the hat during the basilisk fight.
+  nearby_context: Fawkes brings Harry the old school Sorting Hat in the Chamber; when Harry asks for help, a silver sword with a ruby-studded handle appears inside the hat.
+  match_terms:
+  - Fawkes
+  - phoenix
+  - old school Sorting Hat
+  - sword
+  - Dumbledore
+  - basilisk
+  quote_excerpt_short: "the old school Sorting Hat"
+  source_note: The chapter shows Dumbledore's phoenix delivering the school Sorting Hat, which then produces a sword in direct response to Harry's need.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - sorting-hat
+  - fawkes
+  - phoenix
+  - sword
+  - dumbledore
+  - magical-artifact
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: The Sorting Hat as Magical School Artifact
+  reason_for_placement: The Sorting Hat is already central to the school ceremony, and this chapter adds evidence that it can function as more than a sorting instrument.
+  relevance_to_hogwarts_a_history: This is important later editorial evidence for the Sorting Hat's magical properties and its association with Dumbledore's aid during the Chamber crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch12-001
+    notes: Chapter Twelve records the Sorting Hat stored in Dumbledore's office; this entry shows the same school artifact delivered into the Chamber and producing a sword.
+  confidence: high
+  limitations: The sword is not named in this chapter, and the mechanism by which it appears inside the hat remains unexplained.
+- id: cos-ch17-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 545
+  printed_page: not available
+  extracted_text_lines: PDF page 545, lines 365-379; PDF page 546, lines 381-410
+  text_anchor:
+    start_phrase: Speak to me, Slytherin
+    end_phrase: its eyes, both its great, bulbous yellow eyes
+    local_occurrence_note: Riddle commands the Slytherin statue in Parseltongue and the basilisk emerges from its mouth.
+  nearby_context: Riddle addresses Slytherin as one of the Hogwarts Four, the statue's mouth opens, and the basilisk emerges; the creature is then observed as enormous, poisonous green, fanged, and vulnerable to Fawkes's attack on its eyes.
+  match_terms:
+  - Slytherin
+  - Hogwarts Four
+  - statue
+  - basilisk
+  - Parseltongue
+  - king of serpents
+  quote_excerpt_short: "Speak to me, Slytherin, greatest of the Hogwarts Four"
+  source_note: The chapter confirms that the Chamber's founder-linked statue is Parseltongue-responsive and functions as the basilisk's release point.
+  reference_type: security_or_protection
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chamber-of-secrets
+  - salazar-slytherin
+  - hogwarts-four
+  - parseltongue
+  - basilisk
+  - monster-release
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Founder-Built Monster Release Mechanism
+  reason_for_placement: The passage resolves the Chamber legend into an observed magical mechanism tying founder symbolism, language access, and creature containment.
+  relevance_to_hogwarts_a_history: This is key evidence for explaining how prior searches could miss the Chamber and how access was restricted to Parselmouth heirs.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch16-006
+    notes: Chapter Sixteen identifies the snake-marked bathroom entrance and Parseltongue trigger; this entry adds the inner statue trigger and basilisk release mechanism.
+  confidence: high
+  limitations: The chapter does not state whether Salazar Slytherin personally built every observed mechanism or whether later heirs altered it.
+- id: cos-ch17-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Seventeen - The Heir of Slytherin
+  chapter_start_pdf_page: 536
+  chapter_end_pdf_page: 552
+  pdf_page: 552
+  printed_page: not available
+  extracted_text_lines: PDF page 552, lines 597-611
+  text_anchor:
+    start_phrase: Fawkes isn't an ordinary bird
+    end_phrase: the sink that hid the pipe was sliding back into place
+    local_occurrence_note: Escape from the Chamber route through the pipe into Moaning Myrtle's bathroom.
+  nearby_context: Harry, Ron, Ginny, and Lockhart hold on to one another and to Fawkes's tail feathers; they fly up the pipe and land back in Myrtle's bathroom as the sink concealing the pipe closes.
+  match_terms:
+  - Fawkes
+  - pipe
+  - Moaning Myrtle's bathroom
+  - sink
+  - Chamber
+  - Sorting Hat
+  quote_excerpt_short: "the sink that hid the pipe was sliding back"
+  source_note: The chapter confirms the Chamber route is traversable upward with Fawkes's aid and that the bathroom sink mechanism closes over the pipe entrance afterward.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - chamber-of-secrets
+  - bathroom-entrance
+  - pipe-route
+  - fawkes
+  - hidden-mechanism
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Secret Passageways and Hidden Routes
+  candidate_section: The Bathroom Pipe Exit
+  reason_for_placement: The passage corroborates the hidden plumbing-linked route by showing its return endpoint and concealed sink closure.
+  relevance_to_hogwarts_a_history: This helps map the Chamber entrance and exit system, while distinguishing observed Harry-era escape logistics from founding-era construction history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch16-007
+    notes: Chapter Sixteen records descent through the bathroom pipe and tunnel; this entry confirms upward travel through the same route and the sink closing over the pipe.
+  confidence: high
+  limitations: Fawkes's unusual transport ability is not explained here, and ordinary human ascent without a phoenix remains uncertain.

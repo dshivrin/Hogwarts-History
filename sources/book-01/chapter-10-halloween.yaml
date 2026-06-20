@@ -1,0 +1,226 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Ten - Halloween
+  chapter_start_pdf_page: 150
+  chapter_end_pdf_page: 163
+  boundary_confidence: high
+  boundary_notes: Chapter Ten start was taken from the previously processed Chapter Nine boundary and confirmed by scanning forward from PDF page 150. Chapter Eleven - Quidditch was located on PDF page 164, so only pages 150-163 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Ten. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch10-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Ten - Halloween
+  chapter_start_pdf_page: 150
+  chapter_end_pdf_page: 163
+  pdf_page: 156
+  printed_page: not available
+  extracted_text_lines: PDF page 156, lines 187-201; PDF page 157, lines 206-221; PDF page 161, lines 337-343
+  text_anchor:
+    start_phrase: announced in Charms that he thought they were ready
+    end_phrase: dropped, with a sickening crack
+    local_occurrence_note: Charms levitation lesson on Halloween morning, with the same spell later used against the troll.
+  nearby_context: Professor Flitwick teaches first-years to make objects fly; Hermione succeeds with the feather, and Ron later uses the spell on the troll's club.
+  match_terms:
+  - Charms
+  - Professor Flitwick
+  - Wingardium Leviosa
+  - swish and flick
+  - feather
+  - troll
+  quote_excerpt_short: "Swish and flick"
+  source_note: On Halloween morning, Flitwick's Charms class practices levitation with wrist movement and precise pronunciation. Hermione makes a feather hover, and Ron later uses Wingardium Leviosa to lift the troll's club.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - charms
+  - first-year-spellwork
+  - flitwick
+  - wingardium-leviosa
+  - levitation
+  - classroom-practice
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Charms
+  candidate_section: First-Year Spellwork
+  reason_for_placement: The passage gives concrete evidence for a first-year Charms lesson, including teacher, spell, classroom exercise, technique, and practical effect.
+  relevance_to_hogwarts_a_history: 'This supports a future curriculum section on Charms and first-year spell instruction, though it is not explicitly attributed to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-004
+    notes: Chapter Eight already seeded Charms as a first-year subject; this Chapter Ten entry adds a specific spell and lesson method.
+  confidence: high
+  limitations: The passage confirms Harry-era instruction but does not establish when Wingardium Leviosa entered the first-year curriculum.
+- id: ps-ch10-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Ten - Halloween
+  chapter_start_pdf_page: 150
+  chapter_end_pdf_page: 163
+  pdf_page: 157
+  printed_page: not available
+  extracted_text_lines: PDF page 157, lines 232-240
+  text_anchor:
+    start_phrase: On their way down to the Great Hall
+    end_phrase: as it had at the start-of-term banquet
+    local_occurrence_note: Entrance into the Great Hall for the Halloween feast, immediately before Quirrell's troll warning.
+  nearby_context: Students go to the Great Hall for the Halloween feast and see seasonal decorations before the feast appears on the plates.
+  match_terms:
+  - Halloween
+  - Great Hall
+  - Halloween feast
+  - decorations
+  - golden plates
+  quote_excerpt_short: "the Halloween decorations"
+  source_note: The chapter presents a Halloween feast in the Great Hall with bats, pumpkin candles, and food appearing on golden plates as at the start-of-term banquet.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - halloween-feast
+  - great-hall
+  - school-traditions
+  - banquet
+  - seasonal-decorations
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Halloween Feast
+  candidate_section: Great Hall Decorations and Banquets
+  reason_for_placement: The passage documents a school-wide seasonal feast held in the Great Hall with magical or enchanted banquet presentation.
+  relevance_to_hogwarts_a_history: This supports a future section on annual school feasts and Great Hall ceremonial use.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-001; ps-ch07-002
+    notes: Related to earlier Great Hall and banquet evidence, but this is the first seed specifically for the Halloween feast.
+  confidence: medium
+  limitations: The source confirms the feast during Harry's first year but does not state its origin, age, or whether it is held every year in the same form.
+- id: ps-ch10-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Ten - Halloween
+  chapter_start_pdf_page: 150
+  chapter_end_pdf_page: 163
+  pdf_page: 158
+  printed_page: not available
+  extracted_text_lines: PDF page 158, lines 241-253
+  text_anchor:
+    start_phrase: Professor Quirrell came sprinting into the hall
+    end_phrase: Excuse me, I'm a prefect
+    local_occurrence_note: Troll alert in the Great Hall during the Halloween feast.
+  nearby_context: Quirrell warns Dumbledore about a troll in the dungeons; Dumbledore orders prefects to lead Houses back to dormitories, and Percy directs the first-years to stay together.
+  match_terms:
+  - Quirrell
+  - troll
+  - dungeons
+  - Dumbledore
+  - Prefects
+  - Houses
+  - dormitories
+  quote_excerpt_short: "lead your Houses back to the dormitories"
+  source_note: During the feast, Quirrell reports a troll in the dungeons. Dumbledore quiets the hall and orders prefect-led House movement back to dormitories, with Percy managing first-year students.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - troll-incident
+  - dungeons
+  - emergency-response
+  - prefects
+  - student-safety
+  - dormitories
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Internal Threats and Emergency Response
+  candidate_section: Prefect-Led Evacuation by House
+  reason_for_placement: The passage shows how staff and prefects respond to an internal creature threat during a school feast.
+  relevance_to_hogwarts_a_history: This is important later editorial evidence for Hogwarts emergency response, but the troll incident itself postdates the presumed original book body.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically records an emergency response or prefect-led evacuation.
+  confidence: high
+  limitations: The passage records a single 1991 incident and does not prove a formal written emergency policy or long-standing procedure.
+- id: ps-ch10-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Ten - Halloween
+  chapter_start_pdf_page: 150
+  chapter_end_pdf_page: 163
+  pdf_page: 158
+  printed_page: not available
+  extracted_text_lines: PDF page 158, lines 254-268; PDF page 159, lines 269-290; PDF page 160, lines 298-302
+  text_anchor:
+    start_phrase: How could a troll get in?
+    end_phrase: It's the girls' bathroom!
+    local_occurrence_note: Harry and Ron leave the prefect-led route, use a side corridor, and encounter the troll near the bathroom.
+  nearby_context: After the evacuation order, students move through stairs and corridors while Harry and Ron divert toward the girls' bathroom.
+  match_terms:
+  - dungeons
+  - stairs
+  - side corridor
+  - third floor
+  - passage
+  - girls' bathroom
+  quote_excerpt_short: "slipped down a deserted side corridor"
+  source_note: The emergency scene gives direct setting evidence for Hogwarts interior movement, including dungeons, stairs, corridors, a side corridor, a third-floor direction, and the girls' bathroom.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dungeons
+  - corridors
+  - side-corridor
+  - girls-bathroom
+  - castle-navigation
+  - interior-setting
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Dungeons and Corridors
+  candidate_section: Interior Routes and Bathrooms
+  reason_for_placement: The passage provides concrete observed locations and route language inside the castle during a bounded incident.
+  relevance_to_hogwarts_a_history: This helps index Hogwarts interior spaces and movement routes for future cross-reference, though it is not historical exposition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001; ps-ch08-006; ps-ch09-006
+    notes: Related to earlier castle navigation, dungeon classroom, and secret-passage entries; this entry adds emergency-route context rather than a new architectural system.
+  confidence: medium
+  limitations: The scene is plot-specific and gives little architectural detail beyond named interior zones and route markers.
+- id: ps-ch10-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Ten - Halloween
+  chapter_start_pdf_page: 150
+  chapter_end_pdf_page: 163
+  pdf_page: 162
+  printed_page: not available
+  extracted_text_lines: PDF page 162, lines 364-390; PDF page 163, lines 393-396
+  text_anchor:
+    start_phrase: What on earth were you thinking of?
+    end_phrase: Professor Dumbledore will be informed of this
+    local_occurrence_note: McGonagall's response after the troll is knocked out in the girls' bathroom.
+  nearby_context: McGonagall questions why the students were not in the dormitory, deducts points from Hermione, awards points to Harry and Ron, and says Dumbledore will be informed.
+  match_terms:
+  - rules
+  - Gryffindor
+  - House points
+  - dormitory
+  - Dumbledore
+  - students
+  quote_excerpt_short: "five points will be taken from Gryffindor"
+  source_note: McGonagall treats the incident as dangerous rule-breaking, deducts five points from Gryffindor for Hermione's supposed action, awards five points each to Harry and Ron, and escalates the matter to Dumbledore.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - house-points
+  - gryffindor
+  - school-discipline
+  - student-safety
+  - dumbledore
+  - mcgonagall
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: House Points as Discipline and Reward
+  candidate_section: Emergency Incident Assessment
+  reason_for_placement: The passage shows House points being used both as punishment and reward after a safety-related rule breach.
+  relevance_to_hogwarts_a_history: This strengthens the governance and House-points seed by showing point decisions outside ordinary classroom discipline.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002; ps-ch08-007; ps-ch09-005
+    notes: Related to earlier House-point and rule-enforcement entries; this occurrence adds emergency and staff-escalation context.
+  confidence: high
+  limitations: This is a Harry-era incident and does not establish the origin, formal scale, or written policy behind House-point awards and deductions.

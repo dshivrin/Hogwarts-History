@@ -1,0 +1,261 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  boundary_confidence: high
+  boundary_notes: Chapter Two start was taken from the known Chapter One boundary and confirmed on PDF page 26; Chapter Three - The Letters From No One was confirmed on PDF page 37. Only PDF pages 26-36 were extracted and searched.
+  processed_date: '2026-06-12'
+  processor_notes: "Processed only Book 1, Chapter Two. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ps-ch02-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  pdf_page: 28
+  printed_page: not available
+  extracted_text_lines: PDF page 27, lines 28-31; PDF page 28, lines 1-7
+  text_anchor:
+    start_phrase: The only thing Harry liked about his own appearance
+    end_phrase: the first rule for a quiet life with the Dursleys
+    local_occurrence_note: Early kitchen scene, after Harry's physical description and before Vernon enters.
+  nearby_context: Harry notices the lightning-shaped scar he has had as long as he can remember; Petunia has told him it came from the car crash in which his parents died and discourages questions.
+  match_terms:
+  - scar
+  - car crash
+  - parents died
+  - questions
+  - Dursleys
+  quote_excerpt_short: "In the car crash when your parents died"
+  source_note: The chapter shows that Harry's relatives give him a false mundane explanation for his scar and parents' deaths, and that questioning the story is discouraged.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - harry-potter
+  - lightning-scar
+  - dursleys
+  - godrics-hollow
+  - hidden-magical-history
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: Suppressed Magical Identity
+  reason_for_placement: The passage gives later editorial context for how Harry's pre-Hogwarts history and magical identity were concealed from him.
+  relevance_to_hogwarts_a_history: This is not an original-book Hogwarts institutional fact, but it helps explain the biographical context behind Harry's later arrival at Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter One records the Godric's Hollow event itself; this entry records the Dursleys' false explanation and Harry's lack of knowledge.
+  confidence: medium
+  limitations: The passage reports what Petunia told Harry, not the true cause of the scar or the protective magic involved.
+- id: ps-ch02-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  pdf_page: 31
+  printed_page: not available
+  extracted_text_lines: PDF page 31, lines 1-32
+  text_anchor:
+    start_phrase: The problem was, strange things often happened around Harry
+    end_phrase: the wind must have caught him in mid-jump
+    local_occurrence_note: Vernon warns Harry before the zoo trip; the narration summarizes earlier unexplained incidents.
+  nearby_context: After Vernon warns Harry against funny business, the narration recalls hair regrowing overnight, a sweater shrinking away from him, and Harry unexpectedly appearing on the school-kitchen roof.
+  match_terms:
+  - strange things
+  - hair
+  - sweater
+  - roof
+  - school kitchens
+  - cupboard
+  quote_excerpt_short: "strange things often happened around Harry"
+  source_note: The chapter gives several examples of uncontrolled magical effects around Harry before he knows he is a wizard.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - accidental-magic
+  - harry-potter
+  - pre-hogwarts-childhood
+  - dursleys
+  - muggle-school
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: Accidental Magic Before School
+  reason_for_placement: The passage documents pre-Hogwarts accidental magic, a useful later editorial bridge into Hogwarts admissions and magical education.
+  relevance_to_hogwarts_a_history: This can support a later editorial note on why magical children require formal schooling and supervision, though it is not evidence about Hogwarts policy by itself.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry records Harry's pre-Hogwarts accidental magic incidents.
+  confidence: high
+  limitations: The chapter does not name accidental magic as a category or explain Ministry, school, or family policy for such incidents.
+- id: ps-ch02-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  pdf_page: 32
+  printed_page: not available
+  extracted_text_lines: PDF page 32, lines 2-18
+  text_anchor:
+    start_phrase: motorcycles
+    end_phrase: he might get dangerous ideas
+    local_occurrence_note: In the car on the way to the zoo, Harry recalls a flying motorcycle dream.
+  nearby_context: Harry mentions dreaming about a flying motorcycle; Vernon reacts angrily and the narration says the Dursleys dislike Harry speaking about anything behaving unnaturally.
+  match_terms:
+  - motorcycle
+  - flying
+  - dream
+  - dangerous ideas
+  - Dursleys
+  quote_excerpt_short: "I had a dream about a motorcycle"
+  source_note: Harry's recurring dream of a flying motorcycle recalls Hagrid's earlier arrival, while the Dursleys' reaction shows their continuing suppression of magical explanations.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - flying-motorcycle
+  - hagrid
+  - harry-potter
+  - dursleys
+  - hidden-magical-history
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: Residual Memory and Magical Suppression
+  reason_for_placement: The detail cross-references Chapter One's rescue mission and shows Harry retaining fragmentary memory of magical transport before school.
+  relevance_to_hogwarts_a_history: This is supporting context for Harry's biography and Hagrid cross-references, not a core Hogwarts history claim.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter One records Hagrid's motorcycle arrival; this entry adds Harry's later recurring dream and the Dursleys' response.
+  confidence: medium
+  limitations: The chapter frames the motorcycle as Harry's dream and does not explicitly confirm that he remembers Hagrid's actual flight.
+- id: ps-ch02-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  pdf_page: 34
+  printed_page: not available
+  extracted_text_lines: PDF page 33, lines 17-30; PDF page 34, lines 1-28
+  text_anchor:
+    start_phrase: Harry moved in front of the tank
+    end_phrase: where did the glass go
+    local_occurrence_note: Reptile-house scene after lunch, centered on the boa constrictor's tank.
+  nearby_context: Harry appears to communicate with a boa constrictor, reads that it was bred in the zoo, and after Dudley pushes him the tank glass vanishes and the snake escapes.
+  match_terms:
+  - snake
+  - Boa Constrictor
+  - Brazil
+  - glass
+  - vanished
+  - hissing voice
+  quote_excerpt_short: "the glass front of the boa constrictor's tank had vanished"
+  source_note: The chapter records Harry apparently communicating with a snake and causing or coinciding with the vanishing of the tank glass.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - accidental-magic
+  - snake-communication
+  - parseltongue-foreshadowing
+  - harry-potter
+  - muggle-witnesses
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: The Vanishing Glass Incident
+  reason_for_placement: The incident is the chapter's clearest pre-Hogwarts magical event and later informs Harry's magical identity and public biography.
+  relevance_to_hogwarts_a_history: This can support an editorial note on Harry's pre-school manifestations of magic and unusual abilities, but it is not material for the presumed original school history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry records the zoo snake or vanishing-glass incident.
+  confidence: high
+  limitations: The chapter does not explain the mechanism of the vanished glass or identify the snake communication as Parseltongue.
+- id: ps-ch02-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  pdf_page: 35
+  printed_page: not available
+  extracted_text_lines: PDF page 35, lines 13-22
+  text_anchor:
+    start_phrase: He'd lived with the Dursleys almost ten years
+    end_phrase: There were no photographs of them in the house
+    local_occurrence_note: After the zoo incident punishment, Harry lies in the cupboard and strains to remember his parents.
+  nearby_context: Harry recalls no memory of the supposed car crash, but sometimes remembers a flash of green light and pain in his forehead; his relatives never discuss his parents and keep no photographs.
+  match_terms:
+  - green light
+  - burning pain
+  - forehead
+  - parents
+  - car crash
+  quote_excerpt_short: "a blinding flash of green light"
+  source_note: The chapter gives Harry's own sensory memory of the attack that killed his parents, while showing that he lacks the true explanation.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - godrics-hollow
+  - harry-potter
+  - voldemort-fall
+  - lightning-scar
+  - memory
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: The Fall of Voldemort
+  candidate_section: Godric's Hollow and the Boy Who Lived
+  reason_for_placement: The passage corroborates the earlier Godric's Hollow evidence from Harry's limited memory of the event.
+  relevance_to_hogwarts_a_history: This is later editorial context for Harry's fame and arrival at Hogwarts, and a cross-reference to the pre-1984 event already seeded from Chapter One.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch01-003
+    notes: Possible duplicate or corroborating entry for the Godric's Hollow event; this one adds Harry's own memory of green light and pain.
+  confidence: medium
+  limitations: Harry misattributes the memory to the supposed crash and the passage does not identify Voldemort, Lily's protection, or the curse.
+- id: ps-ch02-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Two - The Vanishing Glass
+  chapter_start_pdf_page: 26
+  chapter_end_pdf_page: 36
+  pdf_page: 35
+  printed_page: not available
+  extracted_text_lines: PDF page 35, lines 23-33; PDF page 36, line 1
+  text_anchor:
+    start_phrase: sometimes he thought
+    end_phrase: vanish the second Harry tried to get a closer look
+    local_occurrence_note: Final passage of Chapter Two, after Harry thinks about unknown relations.
+  nearby_context: Harry remembers oddly dressed strangers in public who seem to recognize him, including a man bowing, a woman waving, and a man shaking his hand before disappearing.
+  match_terms:
+  - strangers
+  - violet top hat
+  - green
+  - purple coat
+  - vanish
+  - know him
+  quote_excerpt_short: "strangers in the street seemed to know him"
+  source_note: The chapter suggests that members of the wizarding world recognize Harry before he learns about magic, then disappear before he can investigate.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - harry-potter
+  - wizarding-fame
+  - public-memory
+  - magical-community
+  - pre-hogwarts-childhood
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: Public Recognition Before School
+  reason_for_placement: The passage adds observed examples of Harry's wizarding fame reaching him before Hogwarts, extending Chapter One's prediction of public memory.
+  relevance_to_hogwarts_a_history: This supports later editorial context for Harry's celebrity status on arrival at Hogwarts, not the original in-universe history of the school.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter One anticipates Harry's fame; this entry records later encounters that appear to confirm recognition by magical strangers.
+  confidence: medium
+  limitations: The strangers are not named, their magical identities are implied rather than explicitly stated, and no Hogwarts connection is made.

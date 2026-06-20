@@ -1,0 +1,314 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  boundary_confidence: high
+  boundary_notes: Chapter Seven range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Six boundary. Book 3 Chapter Seven starts on PDF page 675 and Chapter Eight starts on PDF page 690, so only PDF pages 675-689 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Seven. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch07-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 675
+  printed_page: not available
+  extracted_text_lines: PDF page 675, lines 5-22; PDF page 679, lines 13-31; PDF page 680, lines 2-4
+  text_anchor:
+    start_phrase: the Slytherins and Gryffindors were halfway through double Potions
+    end_phrase: Five points from Gryffindor because the potion was all right
+    local_occurrence_note: Opening double Potions lesson before lunch and the first Defense Against the Dark Arts lesson.
+  nearby_context: Gryffindors and Slytherins share double Potions in the dungeon, work on a Shrinking Solution with ingredients such as daisy roots and shrivelfig, and Snape tests Neville's potion on Trevor before deducting points.
+  match_terms:
+  - double Potions
+  - Slytherins
+  - Gryffindors
+  - Shrinking Solution
+  - daisy roots
+  - shrivelfig
+  - House points
+  quote_excerpt_short: "a new potion today, a Shrinking Solution"
+  source_note: The chapter gives another practical Potions class with cross-House grouping, named ingredients, a potion outcome test on a toad, and House-point discipline.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - potions
+  - shrinking-solution
+  - cross-house-classes
+  - dungeon-classroom
+  - house-points
+  - snape
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions
+  candidate_section: Cross-House Lessons
+  reason_for_placement: The passage corroborates Potions as a practical dungeon subject and adds a third-year potion, ingredient preparation, and teacher-controlled testing.
+  relevance_to_hogwarts_a_history: This supports a future curriculum chapter on Potions lesson structure, cross-House scheduling, and how classroom discipline intersects with the House-point system.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-006
+    notes: Book 1 Chapter Eight already seeds Potions as a cross-House dungeon class; this entry adds third-year Shrinking Solution practice and the Trevor test.
+  confidence: high
+  limitations: The passage reflects Snape's Harry-era classroom conduct and should not be generalized into ordinary Potions assessment policy without corroboration.
+- id: poa-ch07-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 677
+  printed_page: not available
+  extracted_text_lines: PDF page 677, lines 1-15
+  text_anchor:
+    start_phrase: Father's not very happy about my injury
+    end_phrase: To try to get Hagrid fired
+    local_occurrence_note: Malfoy's quiet remarks during double Potions, after the Buckbeak injury from the prior chapter.
+  nearby_context: Malfoy says his father complained to the school governors and the Ministry of Magic after the hippogriff injury, making explicit the external pressure against Hagrid's teaching post.
+  match_terms:
+  - school governors
+  - Ministry of Magic
+  - Hagrid
+  - injury
+  - teacher
+  - fired
+  quote_excerpt_short: "complained to the school governors"
+  source_note: The chapter confirms that Malfoy's family escalates the Care of Magical Creatures injury to both governors and the Ministry in an attempt to threaten Hagrid's position.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-governors
+  - ministry-of-magic
+  - hagrid
+  - teacher-accountability
+  - care-of-magical-creatures
+  - student-injury
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Governors, Public Pressure, and Crisis Accountability
+  reason_for_placement: The passage adds a direct family-pressure mechanism after a student injury and links governors, the Ministry, and teacher employment risk.
+  relevance_to_hogwarts_a_history: This is useful later editorial evidence for Hogwarts governance and for how outside political or parental influence can affect staff accountability.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-007
+    notes: Book 3 Chapter Six records Hagrid saying governors were told after the injury; this entry clarifies Malfoy's family and Ministry complaint strategy.
+  confidence: high
+  limitations: The evidence is Malfoy's boast during class and does not define the governors' or Ministry's formal authority over Hagrid's job.
+- id: poa-ch07-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 680
+  printed_page: not available
+  extracted_text_lines: PDF page 680, lines 11-31; PDF page 681, lines 1-5
+  text_anchor:
+    start_phrase: One minute you were right behind us
+    end_phrase: You know how many subjects I'm taking
+    local_occurrence_note: Corridor and lunch passage between Potions and Defense Against the Dark Arts.
+  nearby_context: Hermione appears to have moved back to the bottom of the stairs, carries a bag crammed with at least a dozen heavy books, and explains the load by the number of subjects she is taking.
+  match_terms:
+  - subjects
+  - books
+  - Defense Against the Dark Arts
+  - stairs
+  - Hermione
+  - course load
+  quote_excerpt_short: "at least a dozen large and heavy books"
+  source_note: The chapter strengthens the exceptional-course-load thread by showing Hermione carrying many books and behaving as if she is managing overlapping academic demands.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - third-year-subjects
+  - hermione-course-load
+  - course-books
+  - academic-overload
+  - defense-against-the-dark-arts
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Elective Selection
+  reason_for_placement: The passage follows the previous chapter's timetable evidence with a classroom-day consequence of taking an unusual number of subjects.
+  relevance_to_hogwarts_a_history: This supports later coverage of elective overloads and the administrative distinction between ordinary third-year options and Hermione's exceptional arrangement.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-001
+    notes: Book 3 Chapter Six records Hermione's conflicting timetable; this entry adds her heavy book load and unexplained movement between classes.
+  confidence: medium
+  limitations: The mechanism behind Hermione's movement is not explained in this chapter, so the entry should not yet name or infer a Time-Turner.
+- id: poa-ch07-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 681
+  printed_page: not available
+  extracted_text_lines: PDF page 681, lines 6-21; PDF page 682, lines 23-27
+  text_anchor:
+    start_phrase: his first Defense Against the Dark Arts lesson
+    end_phrase: right outside the staffroom door
+    local_occurrence_note: Opening of Lupin's first classroom lesson before the staffroom boggart exercise.
+  nearby_context: Lupin tells third-years to put books away for a practical lesson needing only wands, then leads the class out of the classroom and down corridors to the staffroom.
+  match_terms:
+  - Defense Against the Dark Arts
+  - practical lesson
+  - books
+  - wands
+  - Professor Lupin
+  - staffroom
+  quote_excerpt_short: "Today's will be a practical lesson"
+  source_note: Lupin's first Defense Against the Dark Arts class is explicitly practical rather than book-based and uses a different castle room for the exercise.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - practical-lessons
+  - staffroom
+  - wands
+  - third-year-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Practical Instruction
+  reason_for_placement: The passage gives a clear teacher-led practical format for third-year Defense Against the Dark Arts and shows class movement through the castle for a controlled exercise.
+  relevance_to_hogwarts_a_history: This supports the curriculum seed by contrasting Lupin's hands-on defensive instruction with earlier book-heavy or failed practical DADA examples.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch06-007
+    notes: Book 2 Chapter Six records Lockhart's failed practical pixie lesson; this entry adds Lupin's planned practical format and staffroom setup.
+  confidence: high
+  limitations: This is one teacher's lesson design in Harry's third year and does not by itself define standard Defense Against the Dark Arts pedagogy.
+- id: poa-ch07-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 682
+  printed_page: not available
+  extracted_text_lines: PDF page 681, lines 25-32; PDF page 682, lines 2-18
+  text_anchor:
+    start_phrase: Peeves the Poltergeist
+    end_phrase: straight down Peeves's left nostril
+    local_occurrence_note: Corridor encounter during Lupin's first Defense Against the Dark Arts lesson.
+  nearby_context: Peeves blocks a keyhole with chewing gum, Filch's broom access is mentioned, and Lupin demonstrates Waddiwasi to remove the obstruction and drive Peeves away.
+  match_terms:
+  - Peeves
+  - Poltergeist
+  - Filch
+  - caretaker
+  - brooms
+  - Waddiwasi
+  quote_excerpt_short: "This is a useful little spell"
+  source_note: The chapter adds another example of Peeves disrupting school infrastructure and shows a teacher using a spell demonstration to manage him in front of students.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - peeves
+  - poltergeist
+  - filch
+  - caretaker
+  - wands
+  - corridor-management
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Resident Ghosts and Poltergeists
+  candidate_section: Peeves the Poltergeist
+  reason_for_placement: The passage corroborates Peeves as an ongoing resident nuisance and adds an interaction with Filch's practical duties and teacher spellwork.
+  relevance_to_hogwarts_a_history: This can support later sections on Hogwarts' nonhuman residents, caretaker problems, and informal magical responses to castle disruption.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-002
+    notes: Book 1 Chapter Eight already seeds Peeves as a disruptive poltergeist; this entry adds a specific keyhole obstruction, Filch's brooms, and Lupin's Waddiwasi response.
+  confidence: high
+  limitations: The source does not explain the spell's formal curriculum status or Peeves's origin and authority limits.
+- id: poa-ch07-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 683
+  printed_page: not available
+  extracted_text_lines: PDF page 682, lines 25-31; PDF page 683, lines 14-31
+  text_anchor:
+    start_phrase: The staffroom, a long, paneled room
+    end_phrase: leave it to give my third years some practice
+    local_occurrence_note: Lupin brings the class into the staffroom and explains why the boggart remains in the wardrobe.
+  nearby_context: The staffroom is described as a long paneled room with mismatched chairs and a robe wardrobe, where a boggart has moved in and Lupin says he asked the headmaster to have staff leave it for third-year practice.
+  match_terms:
+  - staffroom
+  - wardrobe
+  - teachers
+  - boggart
+  - headmaster
+  - third years
+  quote_excerpt_short: "leave it to give my third years some practice"
+  source_note: The chapter gives staffroom layout evidence and shows headmaster-approved use of an opportunistic magical creature or being as supervised class material.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - staffroom
+  - boggart
+  - headmaster-approval
+  - defense-against-the-dark-arts
+  - third-year-curriculum
+  - teacher-spaces
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Practical Instruction
+  reason_for_placement: The passage links a staff space, headmaster approval, and third-year defensive practice using a contained boggart.
+  relevance_to_hogwarts_a_history: This supports future coverage of flexible classroom spaces, teacher authorization, and risk-managed use of real magical threats in instruction.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically records a staffroom boggart held with headmaster approval for DADA practice.
+  confidence: high
+  limitations: The boggart's arrival was recent and opportunistic, so the passage should not be treated as evidence for a permanent staffroom fixture.
+- id: poa-ch07-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Seven - The Boggart in the Wardrobe
+  chapter_start_pdf_page: 675
+  chapter_end_pdf_page: 689
+  pdf_page: 684
+  printed_page: not available
+  extracted_text_lines: PDF page 683, lines 24-34; PDF page 684, lines 2-29; PDF page 688, lines 36-38; PDF page 689, lines 1-6
+  text_anchor:
+    start_phrase: Boggarts like dark, enclosed spaces
+    end_phrase: read the chapter on boggarts and summarize it
+    local_occurrence_note: Lupin's boggart explanation, the class exercise, point awards, and homework instruction.
+  nearby_context: Lupin explains boggart behavior, teaches that company can confuse one, introduces Riddikulus and laughter as the repelling method, awards points for participation and answers, and assigns a textbook chapter summary.
+  match_terms:
+  - boggarts
+  - dark enclosed spaces
+  - shape-shifter
+  - Riddikulus
+  - laughter
+  - House points
+  - homework
+  quote_excerpt_short: "Boggarts like dark, enclosed spaces"
+  source_note: The chapter gives a concentrated Defense Against the Dark Arts lesson on boggart nature, group tactics, the Riddikulus charm, classroom point awards, and follow-up reading.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - boggarts
+  - riddikulus
+  - defense-against-the-dark-arts
+  - homework
+  - house-points
+  - practical-lessons
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Practical Instruction
+  reason_for_placement: The passage supplies both the magical-creature theory and the taught charm procedure for a major practical DADA lesson.
+  relevance_to_hogwarts_a_history: This is strong later editorial curriculum evidence for what third-year students learn about boggarts and how practical defensive magic can be taught and assessed.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically records boggart theory, Riddikulus, or assigned boggart reading.
+  confidence: high
+  limitations: The textbook is not named, and the chapter does not show whether boggart instruction was standard before Lupin's year.

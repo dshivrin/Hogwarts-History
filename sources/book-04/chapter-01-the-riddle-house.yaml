@@ -1,0 +1,223 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter One - The Riddle House
+  chapter_start_pdf_page: 949
+  chapter_end_pdf_page: 960
+  boundary_confidence: high
+  boundary_notes: Chapter One range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Twenty-Two boundary. Book 4 Chapter One starts on PDF page 949 and Chapter Two starts on PDF page 961, so only PDF pages 949-960 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 4, Chapter One. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. The chapter is mostly off-campus later-editorial context, so entries are limited to Riddle/Voldemort background, wizarding-security context, the hidden Hogwarts-servant hook, and Parseltongue corroboration. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch01-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter One - The Riddle House
+  chapter_start_pdf_page: 949
+  chapter_end_pdf_page: 960
+  pdf_page: 951
+  printed_page: not available
+  extracted_text_lines: PDF page 949, lines 12-20; PDF page 951, lines 11-24
+  text_anchor:
+    start_phrase: Half a century ago
+    end_phrase: each of the Riddles had a look of terror
+    local_occurrence_note: Opening village account of the Riddle family deaths and Frank Bryce's statement about a teenage stranger near the house.
+  nearby_context: The narration recounts that the Riddle family was found dead fifty years earlier, that Frank Bryce reported seeing an unnamed dark-haired teenage boy near the house, and that Muggle doctors found no injury or poison.
+  match_terms:
+  - Riddle House
+  - Riddles
+  - Frank Bryce
+  - teenage boy
+  - fifty years
+  - look of terror
+  quote_excerpt_short: "a teenage boy, a stranger, dark-haired and pale"
+  source_note: "The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause."
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - riddle-family
+  - tom-riddle
+  - voldemort
+  - muggle-records
+  - little-hangleton
+  - unexplained-deaths
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: Voldemort, Riddle, and Hogwarts Memory
+  candidate_section: Riddle Family Background and Muggle Records
+  reason_for_placement: The passage gives off-campus historical context for Voldemort's family background and later biographical treatment of the former Hogwarts student Tom Riddle.
+  relevance_to_hogwarts_a_history: This does not belong in the original Hogwarts institutional core, but it is useful later editorial context for reconciling Tom Riddle's Hogwarts record with wider pre-1984 history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch18-001
+    notes: Book 2 Chapter Eighteen identifies Voldemort as former Hogwarts student Tom Riddle; this entry adds off-campus family-death evidence that later editors can connect cautiously to that biography.
+  confidence: medium
+  limitations: The chapter itself does not explicitly identify the teenage stranger as Voldemort or connect the murders to Hogwarts; that connection depends on later and earlier corroborating Riddle evidence.
+- id: gof-ch01-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter One - The Riddle House
+  chapter_start_pdf_page: 949
+  chapter_end_pdf_page: 960
+  pdf_page: 954
+  printed_page: not available
+  extracted_text_lines: PDF page 954, lines 15-32
+  text_anchor:
+    start_phrase: the Quidditch World Cup is over
+    end_phrase: lest the Muggles notice anything
+    local_occurrence_note: Voldemort explains to Wormtail why they must wait before acting during the World Cup security period.
+  nearby_context: Wormtail asks why the plan must wait until after the Quidditch World Cup, and Voldemort says international wizard arrivals and Ministry security will make unusual activity too visible.
+  match_terms:
+  - Quidditch World Cup
+  - wizards
+  - Ministry of Magic
+  - security
+  - Muggles
+  - unusual activity
+  quote_excerpt_short: "obsessed with security, lest the Muggles notice"
+  source_note: The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-world-cup
+  - ministry-security
+  - muggle-secrecy
+  - wizarding-transport
+  - international-wizards
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: Quidditch Beyond Hogwarts
+  candidate_section: International Events and Security Context
+  reason_for_placement: Although external to Hogwarts, the World Cup context helps separate school Quidditch traditions from wider wizarding sport and security practices.
+  relevance_to_hogwarts_a_history: This is background-only for future editorial notes when Hogwarts students attend or discuss international Quidditch; it should not be treated as Hogwarts institutional history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing seed records the Quidditch World Cup security context.
+  confidence: medium
+  limitations: The passage concerns a non-Hogwarts event and is spoken by Voldemort, though the Ministry-security and Muggle-secrecy logic is concrete.
+- id: gof-ch01-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter One - The Riddle House
+  chapter_start_pdf_page: 949
+  chapter_end_pdf_page: 960
+  pdf_page: 957
+  printed_page: not available
+  extracted_text_lines: PDF page 957, lines 1-33
+  text_anchor:
+    start_phrase: I brought you Bertha Jorkins
+    end_phrase: information I extracted from her
+    local_occurrence_note: Voldemort explains why Bertha Jorkins was useful and why memory modification would not have protected the plan.
+  nearby_context: Wormtail says he brought Bertha Jorkins to Voldemort; Voldemort says her information was invaluable, admits killing her after questioning, and states that powerful wizards can break Memory Charms.
+  match_terms:
+  - Bertha Jorkins
+  - Ministry
+  - Memory Charms
+  - information
+  - questioning
+  - powerful wizard
+  quote_excerpt_short: "Memory Charms can be broken"
+  source_note: The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - bertha-jorkins
+  - ministry-of-magic
+  - memory-charms
+  - voldemort
+  - information-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Ministry Information Leaks and Memory Charm Limits
+  reason_for_placement: This is later plot-context evidence for how Ministry information can affect Hogwarts events without yet naming the school mechanism.
+  relevance_to_hogwarts_a_history: The entry should be retained only as later editorial context until subsequent chapters identify what Bertha knew and how it affected Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing seed records Bertha Jorkins, her Ministry information, or the stated Memory Charm vulnerability.
+  confidence: medium
+  limitations: The chapter does not specify what Bertha revealed or how the information connects to Hogwarts; later chapters must identify the institutional link.
+- id: gof-ch01-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter One - The Riddle House
+  chapter_start_pdf_page: 949
+  chapter_end_pdf_page: 960
+  pdf_page: 958
+  printed_page: not available
+  extracted_text_lines: PDF page 956, lines 27-35; PDF page 958, lines 1-11
+  text_anchor:
+    start_phrase: my faithful servant will have rejoined us
+    end_phrase: my faithful servant at Hogwarts
+    local_occurrence_note: Voldemort first mentions a faithful servant rejoining the plan, then identifies the servant's location as Hogwarts.
+  nearby_context: Voldemort tells Wormtail that one more death will clear the path to Harry Potter and says a faithful servant at Hogwarts will rejoin them.
+  match_terms:
+  - faithful servant
+  - Hogwarts
+  - Harry Potter
+  - Wormtail
+  - plan
+  - murder
+  quote_excerpt_short: "my faithful servant at Hogwarts"
+  source_note: The chapter gives direct evidence that Voldemort believes he has a hidden loyal agent positioned at Hogwarts before the plan against Harry proceeds.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogwarts-security
+  - voldemort
+  - hidden-agent
+  - harry-potter
+  - triwizard-year
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Infiltration and Internal Threats
+  candidate_section: Hidden Servants and Staff-Side Vulnerability
+  reason_for_placement: The passage directly frames Hogwarts as the site of an internal security threat before the school year begins.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for a Harry-era breach risk, useful for a future security appendix rather than original pre-Harry institutional history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing seed records Voldemort's claim that a faithful servant is already at Hogwarts during the Triwizard year setup.
+  confidence: high
+  limitations: The servant is unnamed in this chapter, and the role, position, and method of access to Hogwarts must be identified from later chapters.
+- id: gof-ch01-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter One - The Riddle House
+  chapter_start_pdf_page: 949
+  chapter_end_pdf_page: 960
+  pdf_page: 958
+  printed_page: not available
+  extracted_text_lines: PDF page 958, lines 12-34; PDF page 959, lines 1-6
+  text_anchor:
+    start_phrase: he was hissing and spitting
+    end_phrase: According to Nagini
+    local_occurrence_note: Frank hears Voldemort communicate with Nagini in the corridor outside the room.
+  nearby_context: Voldemort switches from English to hissing sounds, Nagini responds by entering the room, and Frank concludes that the speaker can talk to snakes before Voldemort reports Nagini's warning.
+  match_terms:
+  - Nagini
+  - snake
+  - hissing
+  - talk to snakes
+  - Voldemort
+  - Muggle
+  quote_excerpt_short: "This man could talk to snakes"
+  source_note: The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - parseltongue
+  - nagini
+  - voldemort
+  - slytherin-heir
+  - snake-language
+  candidate_part: The Four Houses
+  candidate_chapter: House Identity and Reputation
+  candidate_section: Slytherin Heir Claims and Parseltongue
+  reason_for_placement: The passage provides later corroboration that Voldemort can speak to snakes, strengthening but not replacing earlier Hogwarts-based Slytherin lore.
+  relevance_to_hogwarts_a_history: This is cross-reference evidence for later editorial notes on Parseltongue, Voldemort, and Slytherin-associated claims rather than core school history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch17-004
+    notes: Book 2 Chapter Seventeen records Riddle's claim that he is a Parselmouth and Slytherin heir; this entry later corroborates Voldemort's snake communication with Nagini.
+  confidence: high
+  limitations: Frank does not know the word Parseltongue, and the scene does not mention Slytherin or Hogwarts directly.

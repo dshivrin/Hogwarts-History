@@ -1,0 +1,221 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Three - The Knight Bus
+  chapter_start_pdf_page: 598
+  chapter_end_pdf_page: 612
+  boundary_confidence: high
+  boundary_notes: Chapter Three range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Two boundary. Book 3 Chapter Three starts on PDF page 598 and Chapter Four starts on PDF page 613, so only PDF pages 598-612 were extracted and searched.
+  processed_date: '2026-06-19'
+  processor_notes: "Processed only Book 3, Chapter Three. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch03-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Three - The Knight Bus
+  chapter_start_pdf_page: 598
+  chapter_end_pdf_page: 612
+  pdf_page: 608
+  printed_page: not available
+  extracted_text_lines: PDF page 608, lines 31-33; PDF page 609, lines 2-4 and 30-34; PDF page 610, lines 3-12
+  text_anchor:
+    start_phrase: You will be pleased to hear
+    end_phrase: Surely you don't want to be expelled
+    local_occurrence_note: Fudge's private-parlor explanation after Harry reaches the Leaky Cauldron.
+  nearby_context: Fudge says the Accidental Magic Reversal Squad handled Aunt Marge's inflation and memory modification, then declines to punish Harry for accidental underage magic despite Harry recalling the prior warning that further magic could mean Hogwarts expulsion.
+  match_terms:
+  - Accidental Magic Reversal Squad
+  - Decree for the Restriction of Underage Wizardry
+  - Ministry of Magic
+  - expelled
+  - Hogwarts
+  - underage magic
+  quote_excerpt_short: "Accidental Magic Reversal Squad"
+  source_note: The chapter shows Ministry response to accidental underage magic, including reversal and memory modification, and then shows Fudge treating punishment and Hogwarts expulsion as discretionary under changed circumstances.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - accidental-magic-reversal
+  - ministry-discretion
+  - expulsion
+  - holiday-conduct
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Holiday Conduct and Underage Magic
+  candidate_section: Ministry Warnings, Reversal, and Expulsion Discretion
+  reason_for_placement: The passage directly extends the outside-school magic thread by showing the enforcement response after a serious accidental-magic incident.
+  relevance_to_hogwarts_a_history: This belongs in later editorial notes about the legal framework that intersects with Hogwarts enrollment, holiday conduct, and possible expulsion.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-005
+    notes: Book 2 Chapter Two records the official Ministry warning and legal citations; this entry adds reversal-squad response and discretionary non-expulsion after a later incident.
+  confidence: high
+  limitations: Fudge's leniency is politically motivated by the Black crisis and should not be generalized as ordinary underage-magic policy.
+- id: poa-ch03-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Three - The Knight Bus
+  chapter_start_pdf_page: 598
+  chapter_end_pdf_page: 612
+  pdf_page: 600
+  printed_page: not available
+  extracted_text_lines: PDF page 600, lines 6-18; PDF page 601, lines 16-24; PDF page 602, lines 14-24
+  text_anchor:
+    start_phrase: Welcome to the Knight Bus
+    end_phrase: jumped out of its way
+    local_occurrence_note: Stan introduces the Knight Bus and Harry observes its travel behavior after boarding.
+  nearby_context: The Knight Bus appears suddenly when Harry sticks out his wand hand, is described as emergency transport for stranded witches and wizards, can travel anywhere on land for a fare, and avoids Muggle notice while obstacles move aside.
+  match_terms:
+  - Knight Bus
+  - emergency transport
+  - stranded witch or wizard
+  - wand hand
+  - anywhere
+  - Muggles
+  quote_excerpt_short: "emergency transport for the stranded witch or wizard"
+  source_note: The chapter introduces the Knight Bus as a wand-summoned emergency transport service for witches and wizards, with land-travel limits, fares, and magical concealment or avoidance around Muggles.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - knight-bus
+  - magical-transport
+  - emergency-transport
+  - muggle-secrecy
+  - student-travel
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Emergency Magical Transport Outside School Routes
+  reason_for_placement: Although external to Hogwarts, the service provides useful context for student travel when ordinary school or guardian transport fails.
+  relevance_to_hogwarts_a_history: This supports a later editorial travel note distinguishing Hogwarts-controlled routes from wider wizarding emergency transport available to students.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing seed records the Knight Bus or emergency magical transport outside school routes.
+  confidence: medium
+  limitations: The Knight Bus is not described as a Hogwarts service and should not be treated as part of ordinary school travel.
+- id: poa-ch03-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Three - The Knight Bus
+  chapter_start_pdf_page: 598
+  chapter_end_pdf_page: 612
+  pdf_page: 606
+  printed_page: not available
+  extracted_text_lines: PDF page 606, lines 20-32; PDF page 607, lines 12-32; PDF page 610, lines 23-28
+  text_anchor:
+    start_phrase: Diagon Alley
+    end_phrase: Tom will be keeping an eye on you for me
+    local_occurrence_note: Arrival at the Leaky Cauldron, followed by Fudge arranging Harry's room and movement limits.
+  nearby_context: The Knight Bus delivers Harry to the Leaky Cauldron, identified as the pub behind which lies the magical entrance to Diagon Alley; Fudge later arranges a room and tells Harry to stay within Diagon Alley and return before dark under Tom's supervision.
+  match_terms:
+  - Leaky Cauldron
+  - Diagon Alley
+  - magical entrance
+  - room eleven
+  - Muggle London
+  - Tom
+  quote_excerpt_short: "magical entrance to Diagon Alley"
+  source_note: The chapter corroborates the Leaky Cauldron as the access point to Diagon Alley and adds a supervised temporary lodging arrangement for a Hogwarts student in the pre-term supply district.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - leaky-cauldron
+  - diagon-alley
+  - student-lodging
+  - pre-term-residence
+  - magical-entrance
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Diagon Alley and Supply Access
+  reason_for_placement: The passage extends the Diagon Alley access thread from supply buying into temporary student residence and supervision before term.
+  relevance_to_hogwarts_a_history: This can support later editorial notes on how students may access supplies and lodging near Diagon Alley when household arrangements break down.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch05-003
+    notes: Book 1 Chapter Five records the Leaky Cauldron route into Diagon Alley for school-supply access; this entry adds arrival by Knight Bus and Ministry-arranged lodging before term.
+  confidence: medium
+  limitations: Harry's lodging is exceptional and Ministry-directed; it should not be generalized into ordinary Hogwarts accommodation policy.
+- id: poa-ch03-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Three - The Knight Bus
+  chapter_start_pdf_page: 598
+  chapter_end_pdf_page: 612
+  pdf_page: 609
+  printed_page: not available
+  extracted_text_lines: PDF page 609, lines 8-16 and 24-26
+  text_anchor:
+    start_phrase: prepared to take you back next summer
+    end_phrase: take a room here at the Leaky Cauldron
+    local_occurrence_note: Fudge explains holiday and vacation arrangements after the reversal-squad report.
+  nearby_context: Fudge says the Dursleys will take Harry back next summer if he stays at Hogwarts for the Christmas and Easter holidays, and Harry says he always stays at Hogwarts for those holidays before Fudge proposes lodging him at the Leaky Cauldron for the rest of vacation.
+  match_terms:
+  - stay at Hogwarts
+  - Christmas
+  - Easter holidays
+  - vacation
+  - Leaky Cauldron
+  quote_excerpt_short: "stay at Hogwarts for the Christmas and Easter holidays"
+  source_note: The chapter confirms that Harry customarily stays at Hogwarts during Christmas and Easter breaks and shows an extraordinary alternative lodging plan for the remaining summer vacation.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas-holidays
+  - easter-holidays
+  - student-residence
+  - vacation
+  - leaky-cauldron
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Holiday Residence and Easter Stays
+  reason_for_placement: The passage corroborates holiday residence as a recurring student practice and adds Easter to the already seeded Christmas-holiday thread.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts remaining available to some students over school holidays, while separating the Leaky Cauldron lodging as later editorial context.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-001
+    notes: Book 1 Chapter Twelve records students staying at Hogwarts for Christmas; this entry adds Harry's recurring Christmas and Easter residence pattern plus an exceptional summer lodging alternative.
+  confidence: high
+  limitations: The passage is Harry-specific and does not explain the formal sign-up or staffing procedure for Easter holidays.
+- id: poa-ch03-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Three - The Knight Bus
+  chapter_start_pdf_page: 598
+  chapter_end_pdf_page: 612
+  pdf_page: 611
+  printed_page: not available
+  extracted_text_lines: PDF page 611, lines 8-20
+  text_anchor:
+    start_phrase: third years at Hogwarts are allowed
+    end_phrase: rules are rules
+    local_occurrence_note: Harry asks Fudge to substitute for guardian permission before Fudge leaves.
+  nearby_context: Harry asks whether Fudge can authorize his Hogsmeade visits because his aunt and uncle did not sign the form, but Fudge refuses because he is not Harry's parent or guardian and says the rules cannot be bypassed.
+  match_terms:
+  - third years
+  - Hogwarts
+  - Hogsmeade
+  - permission form
+  - parent or guardian
+  - rules are rules
+  quote_excerpt_short: "rules are rules"
+  source_note: The chapter confirms that even the Minister of Magic will not substitute for a parent or guardian signature on the third-year Hogsmeade permission form.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - permission-form
+  - parent-or-guardian
+  - minister-of-magic
+  - student-privileges
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage clarifies the authority boundary around Hogsmeade permissions by excluding a Ministry substitute for parent or guardian consent.
+  relevance_to_hogwarts_a_history: This strengthens future treatment of Hogsmeade weekends as a regulated privilege with formal guardian-consent limits.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-005
+    notes: Book 3 Chapter One records the official permission-form requirement; this entry adds Fudge's refusal to override the parent-or-guardian signature rule.
+  confidence: high
+  limitations: The chapter still does not state whether Hogwarts has an internal appeal route when a guardian refuses to sign.

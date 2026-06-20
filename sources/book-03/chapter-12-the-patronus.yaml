@@ -1,0 +1,324 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  boundary_confidence: high
+  boundary_notes: Chapter Twelve range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Eleven boundary. Book 3 Chapter Twelve starts on PDF page 768 and Chapter Thirteen starts on PDF page 785, so only PDF pages 768-784 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Twelve. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch12-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 770
+  printed_page: not available
+  extracted_text_lines: PDF page 770, lines 6-13 and 32-33; PDF page 771, lines 2-11
+  text_anchor:
+    start_phrase: The History of Magic classroom should be large enough
+    end_phrase: there's a cupboard under my desk
+    local_occurrence_note: Lupin's one-on-one anti-dementor lesson arrangement and first practice setup in Professor Binns's classroom.
+  nearby_context: Lupin schedules Harry's anti-dementor training for the empty History of Magic classroom, rules out using a real dementor inside the castle, and brings a boggart found in Filch's filing cabinet to use as a substitute.
+  match_terms:
+  - Defense Against the Dark Arts
+  - anti-dementor lessons
+  - History of Magic classroom
+  - real dementor
+  - castle
+  - boggart
+  - Filch's filing cabinet
+  quote_excerpt_short: "We can't bring a real dementor into the castle"
+  source_note: The chapter shows Lupin adapting Hogwarts space and magical-creature handling for private Defense Against the Dark Arts instruction while maintaining the rule that a real dementor cannot be brought inside the castle.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - patronus-lessons
+  - history-of-magic-classroom
+  - boggarts
+  - dementors
+  - filch
+  - castle-security
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Defense Against the Dark Arts Practical Instruction
+  reason_for_placement: The passage extends Lupin's practical DADA pattern into individualized remedial training, classroom reuse, and controlled use of a boggart as a dementor proxy.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of Hogwarts defensive instruction, crisis-era accommodations, and limits on bringing external threats into the castle.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch07-004
+    notes: Book 3 Chapter Seven records Lupin's practical DADA staffroom lesson; this entry adds one-on-one anti-dementor instruction in the History of Magic classroom and the explicit refusal to bring a real dementor into the castle.
+  confidence: high
+  limitations: The lesson is arranged specifically for Harry during the Sirius Black crisis and should not be treated as ordinary curriculum.
+- id: poa-ch12-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 771
+  printed_page: not available
+  extracted_text_lines: PDF page 771, lines 15-31; PDF page 772, lines 2-29; PDF page 778, lines 25-37; PDF page 779, lines 2-5
+  text_anchor:
+    start_phrase: The spell I am going to try and teach you
+    end_phrase: keep them at bay long enough to get back to the ground
+    local_occurrence_note: Lupin's Patronus explanation, early practice, and fourth-week progress assessment.
+  nearby_context: Lupin identifies the Patronus Charm as magic beyond O.W.L. level, explains the Patronus as a unique anti-dementor guardian powered by a happy memory, teaches the incantation, and later says even an indistinct Patronus is a major achievement for a thirteen-year-old.
+  match_terms:
+  - Patronus Charm
+  - Ordinary Wizarding Level
+  - anti-dementor
+  - guardian
+  - happy memory
+  - Expecto Patronum
+  - true Patronus
+  quote_excerpt_short: "well beyond Ordinary Wizarding Level"
+  source_note: Lupin gives a compact technical lesson on the Patronus Charm, including its difficulty, incantation, emotional requirement, anti-dementor function, and expected limits for a young student.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - patronus-charm
+  - expecto-patronum
+  - defense-against-the-dark-arts
+  - ordinary-wizarding-level
+  - dementors
+  - advanced-magic
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Advanced Defensive Magic
+  reason_for_placement: The passage provides one of the clearest school-based explanations of advanced defensive magic and where it sits relative to O.W.L.-level expectations.
+  relevance_to_hogwarts_a_history: This can support later editorial material on defensive instruction and the exceptional training given during the dementor deployment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior entry specifically indexes Patronus Charm instruction, difficulty, and anti-dementor theory.
+  confidence: high
+  limitations: This is private crisis instruction, not proof that Patronus work is normally taught at Hogwarts.
+- id: poa-ch12-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 779
+  printed_page: not available
+  extracted_text_lines: PDF page 779, lines 20-29; PDF page 780, lines 2-12
+  text_anchor:
+    start_phrase: What's under a dementor's hood?
+    end_phrase: if they find him
+    local_occurrence_note: Harry asks Lupin about dementors after a Patronus practice session in the History of Magic classroom.
+  nearby_context: Lupin explains the Dementor's Kiss and says the Daily Prophet reported that the Ministry has authorized dementors to perform it on Sirius Black if they find him.
+  match_terms:
+  - dementor
+  - Dementor's Kiss
+  - soul
+  - Daily Prophet
+  - Ministry
+  - Sirius Black
+  quote_excerpt_short: "They call it the Dementor's Kiss"
+  source_note: The chapter provides school-based exposition about dementors' worst weapon and links the Black manhunt to a reported Ministry authorization.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - dementors-kiss
+  - daily-prophet
+  - ministry-of-magic
+  - sirius-black
+  - crisis-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Crisis Security and External Forces
+  candidate_section: Dementor Powers and Ministry Authorization
+  reason_for_placement: The passage adds institutional context for what the dementor deployment around Hogwarts could mean if the target were found.
+  relevance_to_hogwarts_a_history: This is later editorial background for the Azkaban-guard crisis affecting Hogwarts and should be cross-referenced with school-boundary rules for dementors.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Related to prior dementor-security entries, but this entry adds the Dementor's Kiss and a Daily Prophet-reported Ministry authorization.
+  confidence: high
+  limitations: The source is Lupin's explanation of a newspaper report, not a formal Ministry document.
+- id: poa-ch12-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 777
+  printed_page: not available
+  extracted_text_lines: PDF page 777, lines 5-10
+  text_anchor:
+    start_phrase: Ravenclaw played Slytherin
+    end_phrase: one night a week to do all his homework
+    local_occurrence_note: Post-New-Year Quidditch standings and Wood's practice response before the Firebolt follow-up.
+  nearby_context: After Slytherin narrowly beats Ravenclaw, Wood calculates that Gryffindor can move into second place by beating Ravenclaw and increases team practices to five per week.
+  match_terms:
+  - Ravenclaw
+  - Slytherin
+  - Gryffindor
+  - team practices
+  - Quidditch Cup
+  - homework
+  quote_excerpt_short: "team practices to five a week"
+  source_note: The chapter shows House Quidditch standings shaping team practice frequency and confirms captain-driven preparation intensifying around Cup implications.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - gryffindor
+  - ravenclaw
+  - slytherin
+  - team-practice
+  - quidditch-cup
+  - house-competition
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: School Quidditch Season
+  candidate_section: Team Practices and Cup Standings
+  reason_for_placement: The passage provides concrete evidence that inter-House match results and Cup standings influence team workload and practice scheduling.
+  relevance_to_hogwarts_a_history: This helps future Quidditch coverage describe the competitive rhythm of the school season and the authority captains exercise over practice intensity.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-006
+    notes: Book 3 Chapter Nine records staff-supervised training and match governance; this entry adds standings calculations after a Ravenclaw-Slytherin match and five weekly Gryffindor practices.
+  confidence: high
+  limitations: The passage does not state whether five practices a week requires staff approval or is exceptional to Gryffindor's Cup position.
+- id: poa-ch12-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 778
+  printed_page: not available
+  extracted_text_lines: PDF page 778, lines 18-24; PDF page 780, lines 31-33; PDF page 781, lines 2-12
+  text_anchor:
+    start_phrase: We've checked for most of the usual curses
+    end_phrase: out of the running for the eighth year in a row
+    local_occurrence_note: McGonagall first refuses to return the Firebolt, then returns it after inspection.
+  nearby_context: McGonagall says the Firebolt has been checked for most usual curses, Flitwick suspects a possible Hurling Hex, and later returns the broom after staff have done everything they can think of.
+  match_terms:
+  - Firebolt
+  - Professor McGonagall
+  - Professor Flitwick
+  - usual curses
+  - Hurling Hex
+  - checking
+  - Quidditch
+  quote_excerpt_short: "most of the usual curses"
+  source_note: The chapter continues the suspicious-broom inspection thread by naming ordinary curse checks and the Hurling Hex as a specific suspected broom threat before McGonagall returns the Firebolt.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch
+  - firebolt
+  - hurling-hex
+  - professor-flitwick
+  - professor-mcgonagall
+  - broomstick-safety
+  - curse-checks
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Equipment and Safety
+  candidate_section: Jinx Inspection and Tampered Brooms
+  reason_for_placement: The passage supplies specific inspection vocabulary and shows staff retaining student equipment until they judge it safe enough to return.
+  relevance_to_hogwarts_a_history: This strengthens later editorial coverage of Quidditch equipment safety and staff procedures around suspected magical tampering.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch11-007
+    notes: Book 3 Chapter Eleven records the Firebolt confiscation for jinx inspection; this entry adds usual-curse checks, the suspected Hurling Hex, and the broom's return after inspection.
+  confidence: high
+  limitations: The inspection arises from an anonymous gift during a murder-threat crisis, so it should not be generalized to routine broom checks.
+- id: poa-ch12-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 781
+  printed_page: not available
+  extracted_text_lines: PDF page 781, lines 23-33; PDF page 782, lines 2-5
+  text_anchor:
+    start_phrase: pleading with Sir Cadogan
+    end_phrase: reluctantly swung forward to let them into the common room
+    local_occurrence_note: Gryffindor Tower entrance scene immediately after McGonagall returns Harry's Firebolt.
+  nearby_context: Neville says he wrote down the passwords because Sir Cadogan keeps changing them, loses the list, and is refused entry until Harry supplies the current password.
+  match_terms:
+  - Sir Cadogan
+  - passwords
+  - Gryffindor Tower
+  - common room
+  - force entry
+  - Oddsbodikins
+  quote_excerpt_short: "he keeps changing them"
+  source_note: The chapter shows Sir Cadogan changing Gryffindor Tower passwords frequently enough that Neville records a week's set, and enforcing entry by refusing Neville without the current password.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - gryffindor-tower
+  - sir-cadogan
+  - passwords
+  - common-room
+  - portrait-guardianship
+  - neville-longbottom
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Gryffindor Tower Access
+  reason_for_placement: The passage gives new evidence for password frequency, portrait-guardian enforcement, and the practical risks of password lists.
+  relevance_to_hogwarts_a_history: This supports future treatment of House common-room security and portrait-controlled residential access, with later editorial caution around Sir Cadogan's temporary guardianship.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch11-006
+    notes: Book 3 Chapter Eleven records Sir Cadogan's password-controlled entry; this entry adds frequent password changes, Neville's written password list, and refusal at the portrait hole.
+  confidence: high
+  limitations: Sir Cadogan is a temporary replacement guardian during a security crisis, so his password-changing behavior may not represent ordinary Fat Lady practice.
+- id: poa-ch12-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twelve - The Patronus
+  chapter_start_pdf_page: 768
+  chapter_end_pdf_page: 784
+  pdf_page: 777
+  printed_page: not available
+  extracted_text_lines: PDF page 777, lines 13-26; PDF page 782, lines 29-33; PDF page 783, lines 2-14
+  text_anchor:
+    start_phrase: several tables spread with books
+    end_phrase: It's my favorite subject
+    local_occurrence_note: Hermione's common-room workload scenes before and after the Firebolt is returned.
+  nearby_context: Hermione works nightly with Arithmancy charts, rune dictionaries, Muggle Studies diagrams, and extensive notes; Ron reports overlapping classes across Arithmancy, Care of Magical Creatures, Muggle Studies, and Divination, and Harry later sees her Arithmancy essay, Muggle Studies essay, rune translation, and number chart.
+  match_terms:
+  - Arithmancy
+  - Professor Vector
+  - Muggle Studies
+  - Divination
+  - Ancient Runes
+  - Care of Magical Creatures
+  - rune dictionary
+  - course load
+  quote_excerpt_short: "half of them are at the same time as Divination"
+  source_note: The chapter adds concrete details to Hermione's exceptional course load, including named elective work, Professor Vector's Arithmancy, Ancient Runes materials, Muggle Studies homework, and overlapping class reports.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - third-year-subjects
+  - electives
+  - arithmancy
+  - professor-vector
+  - ancient-runes
+  - muggle-studies
+  - divination
+  - hermione-course-load
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Elective Selection
+  reason_for_placement: The passage strengthens the elective-selection thread with subject-specific work products and multiple reports that Hermione attends mutually overlapping classes.
+  relevance_to_hogwarts_a_history: This helps future academic-life coverage distinguish ordinary third-year electives from exceptional overload arrangements.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-001
+    notes: Book 3 Chapter Six records Hermione's conflicting timetable and McGonagall arrangement; this entry adds Professor Vector, course products, and further reports of overlapping Arithmancy, Muggle Studies, Divination, and Care of Magical Creatures attendance.
+  confidence: high
+  limitations: The mechanism behind Hermione's schedule is still unrevealed in this chapter and should not yet be named.

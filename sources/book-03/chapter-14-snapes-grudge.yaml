@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  boundary_confidence: high
+  boundary_notes: Chapter Fourteen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Thirteen boundary. Book 3 Chapter Fourteen starts on PDF page 799 and Chapter Fifteen starts on PDF page 818, so only PDF pages 799-817 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Fourteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch14-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 799
+  printed_page: not available
+  extracted_text_lines: PDF page 799, lines 6-25; PDF page 800, lines 2-6
+  text_anchor:
+    start_phrase: signs of tighter security
+    end_phrase: hidden passageway within it
+    local_occurrence_note: Opening security response after Sirius Black reaches Gryffindor Tower, before Ron retells the dormitory break-in.
+  nearby_context: After Black's second breach, McGonagall reports that he escaped again; Flitwick teaches the front doors to recognize Black's picture, Filch boards small openings, Sir Cadogan is removed, the Fat Lady returns with hired security trolls, and the one-eyed witch passage remains unblocked.
+  match_terms:
+  - tighter security
+  - Professor Flitwick
+  - front doors
+  - Filch
+  - Sir Cadogan
+  - Fat Lady
+  - security trolls
+  - one-eyed witch
+  quote_excerpt_short: "teaching the front doors"
+  source_note: The chapter records immediate crisis security changes after Black reaches Gryffindor Tower, combining enchanted doors, physical blocking of gaps, replacement of a failed portrait guardian, restored Fat Lady protection, and the overlooked Honeydukes passage.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black-crisis
+  - castle-security
+  - professor-flitwick
+  - filch
+  - fat-lady
+  - sir-cadogan
+  - security-trolls
+  - secret-passages
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Emergency Lockdowns and Student Safety
+  candidate_section: Post-Breach Castle Security
+  reason_for_placement: The passage gives concrete examples of how Hogwarts modifies magical, physical, and portrait-based security after an intrusion.
+  relevance_to_hogwarts_a_history: This belongs in later editorial security notes because it shows institutional response mechanisms and the limits of official knowledge about concealed routes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-003
+    notes: Book 3 Chapter Nine records Sir Cadogan's emergency appointment after the Fat Lady attack; this entry adds Sir Cadogan's removal, the Fat Lady's protected return, security trolls, Flitwick's door enchantment, and Filch's physical blocking.
+  confidence: high
+  limitations: The measures are crisis-specific to the Sirius Black manhunt and should not be generalized as ordinary castle security practice.
+- id: poa-ch14-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 800
+  printed_page: not available
+  extracted_text_lines: PDF page 800, lines 26-34; PDF page 801, lines 2-5
+  text_anchor:
+    start_phrase: Neville was in total disgrace
+    end_phrase: a Howler
+    local_occurrence_note: Discipline paragraph after Ron's account of Black standing over his bed.
+  nearby_context: McGonagall punishes Neville after his lost password list enables Black's entry, banning future Hogsmeade visits, assigning detention, forbidding anyone to give him the tower password, and leaving him dependent on others to enter while security trolls guard the corridor; his grandmother later sends a Howler.
+  match_terms:
+  - Professor McGonagall
+  - Hogsmeade visits
+  - detention
+  - password
+  - common room
+  - security trolls
+  - Howler
+  quote_excerpt_short: "forbidden anyone to give him the password"
+  source_note: The chapter gives the disciplinary consequences for a compromised House password list, including loss of Hogsmeade privilege, detention, restricted password access, and external family shame through a Howler.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - gryffindor-tower
+  - passwords
+  - house-security
+  - professor-mcgonagall
+  - hogsmeade-privileges
+  - detention
+  - howlers
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: House Points, Detentions, and Student Discipline
+  candidate_section: Password Misuse and Hogsmeade Privilege Loss
+  reason_for_placement: The passage links a House-security failure to concrete school discipline and loss of a regulated student privilege.
+  relevance_to_hogwarts_a_history: This supports later editorial treatment of House password rules, Hogsmeade access as a privilege, and Head-of-House disciplinary authority.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch13-007
+    notes: Book 3 Chapter Thirteen records Black entering because Sir Cadogan accepted Neville's full password list; this entry adds McGonagall's penalties, restricted password access, Hogsmeade ban, and the Howler aftermath.
+  confidence: high
+  limitations: The punishment follows an extraordinary security breach and may not represent ordinary penalties for minor password mistakes.
+- id: poa-ch14-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 802
+  printed_page: not available
+  extracted_text_lines: PDF page 802, lines 14-22; PDF page 803, lines 5-9
+  text_anchor:
+    start_phrase: Buckbeak's case against the Committee
+    end_phrase: stand a good chance now
+    local_occurrence_note: Hagrid's cabin visit before the renewed Hogsmeade notice appears in the common room.
+  nearby_context: Hagrid says Buckbeak's case before the Committee for the Disposal of Dangerous Creatures is imminent and that he has booked Knight Bus beds to London; Hermione has continued researching the defense despite her overloaded schedule.
+  match_terms:
+  - Buckbeak
+  - Committee for the Disposal of Dangerous Creatures
+  - London
+  - Knight Bus
+  - defense
+  - Hermione
+  quote_excerpt_short: "Buckbeak's case against the Committee"
+  source_note: The chapter advances the dangerous-creature legal process by naming the Committee hearing, travel to London, and Hermione's continued research support for Hagrid's defense.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - buckbeak
+  - dangerous-creatures
+  - committee-for-disposal
+  - hagrid
+  - hermione-research
+  - knight-bus
+  - creature-law
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Governors, Ministry, and School Accountability
+  candidate_section: Dangerous-Creature Hearings After Class Injuries
+  reason_for_placement: The passage ties a Hogwarts class injury to an external creature-law hearing and student-assisted defense preparation.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how Hogwarts teaching incidents can be escalated beyond school discipline into wizarding legal machinery.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch11-001
+    notes: Book 3 Chapter Eleven records the official letter sending Buckbeak before the Committee after Dumbledore's assurances; this entry adds the imminent London hearing, Knight Bus travel, and Hermione's defense research.
+  confidence: high
+  limitations: The chapter does not quote the legal rules or identify the Committee's full procedure.
+- id: poa-ch14-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 805
+  printed_page: not available
+  extracted_text_lines: PDF page 804, lines 26-31; PDF page 805, lines 2-31; PDF page 806, lines 3-15
+  text_anchor:
+    start_phrase: slipping the Marauder's Map out of his pocket
+    end_phrase: emerged into the sunlight outside Honeydukes
+    local_occurrence_note: Harry's second use of the one-eyed witch passage on the Saturday Hogsmeade visit.
+  nearby_context: Harry uses the Marauder's Map to check the third-floor corridor, opens the one-eyed witch statue with Dissendium, uses Fat Lady password access to misdirect Neville, rechecks Snape's location, travels through the stone chute and passage, and emerges outside Honeydukes under the Invisibility Cloak.
+  match_terms:
+  - Marauder's Map
+  - one-eyed witch
+  - Dissendium
+  - Gryffindor Tower
+  - Fat Lady
+  - password
+  - Honeydukes
+  - Invisibility Cloak
+  quote_excerpt_short: "Dissendium"
+  source_note: The chapter corroborates the Honeydukes passage mechanism and shows how the Marauder's Map and Invisibility Cloak let Harry evade ordinary Hogsmeade controls and staff observation.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - secret-passages
+  - honeydukes
+  - one-eyed-witch
+  - marauders-map
+  - dissendium
+  - invisibility-cloak
+  - hogsmeade
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Honeydukes Passage
+  reason_for_placement: The passage confirms repeatability of the route and its security implications during an active threat.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of concealed castle-to-Hogsmeade routes and the mismatch between formal security measures and student-held route knowledge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch10-004
+    notes: Book 3 Chapter Ten identifies the one-eyed-witch route and Honeydukes endpoint; this entry corroborates its repeat use, map-based route checking, Fat Lady misdirection, and interaction with crisis security.
+  confidence: high
+  limitations: The route's origin, builders, and staff knowledge remain unstated.
+- id: poa-ch14-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 807
+  printed_page: not available
+  extracted_text_lines: PDF page 807, lines 3-11
+  text_anchor:
+    start_phrase: the most haunted dwelling in Britain
+    end_phrase: all the entrances are sealed shut
+    local_occurrence_note: Ron and invisible Harry visit the Shrieking Shack fence during the Hogsmeade weekend.
+  nearby_context: Ron identifies the Shrieking Shack as Britain's most haunted dwelling, says even the Hogwarts ghosts avoid it, attributes that point to Nearly Headless Nick, and notes that Fred and George found all entrances sealed.
+  match_terms:
+  - Shrieking Shack
+  - haunted dwelling
+  - Hogwarts ghosts
+  - Nearly Headless Nick
+  - entrances
+  quote_excerpt_short: "Even the Hogwarts ghosts avoid it"
+  source_note: The chapter adds school-ghost testimony to the Shrieking Shack's reputation and observes that its entrances are sealed against student access.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - shrieking-shack
+  - hogsmeade
+  - hogwarts-ghosts
+  - nearly-headless-nick
+  - haunted-places
+  - sealed-entrances
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Ghosts and Haunted Places
+  candidate_section: The Shrieking Shack Reputation
+  reason_for_placement: The passage connects a Hogwarts-adjacent haunted site to Hogwarts ghost testimony and student folklore.
+  relevance_to_hogwarts_a_history: This can support later editorial notes on Hogwarts ghost knowledge, Hogsmeade attractions, and haunted-site reputations near the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch05-002
+    notes: Book 3 Chapter Five records Hermione's named-source mention of the Shrieking Shack as a Hogsmeade attraction; this entry adds Nearly Headless Nick's ghost testimony and sealed-entrance student observations.
+  confidence: high
+  limitations: Ron relays Nick's claim indirectly, and the chapter does not yet reveal the Shack's true history.
+- id: poa-ch14-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 811
+  printed_page: not available
+  extracted_text_lines: PDF page 811, lines 7-22
+  text_anchor:
+    start_phrase: Your head is not allowed in Hogsmeade
+    end_phrase: no thought for the consequences
+    local_occurrence_note: Snape interrogates Harry after Malfoy reports seeing Harry near the Shrieking Shack.
+  nearby_context: Snape states that no part of Harry has permission to be in Hogsmeade and frames Harry's unsanctioned visit as a safety breach during the Black crisis, invoking the Minister-to-school effort to protect him.
+  match_terms:
+  - Hogsmeade
+  - permission
+  - Minister of Magic
+  - Sirius Black
+  - safety
+  - Snape
+  quote_excerpt_short: "No part of your body has permission"
+  source_note: The chapter gives a staff enforcement statement that Hogsmeade permission applies absolutely, even to an invisible or partially seen student, and connects the violation to crisis safety obligations.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogsmeade
+  - permission-form
+  - student-safety
+  - professor-snape
+  - sirius-black-crisis
+  - rule-enforcement
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage reinforces Hogsmeade visits as a regulated school privilege enforced by staff, especially during external-security threats.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on Hogsmeade access control and the interaction between permissions, student movement, and crisis safety.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-003
+    notes: Book 3 Chapter Eight records Head-of-House collection and Filch checks for Hogsmeade permissions; this entry adds Snape's strict enforcement after suspected illicit travel during the Black crisis.
+  confidence: high
+  limitations: The statement is made by Snape during an adversarial interrogation and does not explain the formal written policy.
+- id: poa-ch14-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Fourteen - Snape's Grudge
+  chapter_start_pdf_page: 799
+  chapter_end_pdf_page: 817
+  pdf_page: 816
+  printed_page: not available
+  extracted_text_lines: PDF page 813, lines 19-31; PDF page 814, lines 2-30; PDF page 815, lines 7-28; PDF page 816, lines 9-21
+  text_anchor:
+    start_phrase: instructions to get into Hogsmeade
+    end_phrase: information about the castle lying around
+    local_occurrence_note: Snape tests the blank parchment, the map insults him, Lupin removes it, and later explains its confiscation history.
+  nearby_context: Snape suspects the parchment may contain instructions for bypassing dementors into Hogsmeade and attempts to command it; the map responds under Moony, Prongs, Padfoot, and Wormtail aliases, Snape calls Lupin through the fire, and Lupin later says Filch confiscated the map many years ago and treats castle information as dangerous after the password-list breach.
+  match_terms:
+  - Marauder's Map
+  - Hogsmeade
+  - dementors
+  - Moony
+  - Prongs
+  - Padfoot
+  - Wormtail
+  - Filch
+  quote_excerpt_short: "confiscated by Mr. Filch many years ago"
+  source_note: "The chapter adds provenance and risk context for the Marauder's Map: Snape suspects route instructions, the map names its alias-makers while resisting him, and Lupin says Filch confiscated it many years earlier."
+  reference_type: cross_reference_candidate
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - marauders-map
+  - filch
+  - moony
+  - prongs
+  - padfoot
+  - wormtail
+  - castle-information
+  - confiscated-items
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map
+  reason_for_placement: The passage moves the map from a current student tool toward older Hogwarts provenance and explicitly frames castle information as a security risk.
+  relevance_to_hogwarts_a_history: This is important later editorial and pre-1984 evidence for student-made castle mapping, confiscated magical artifacts, and the danger of circulating castle-route information.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch10-003
+    notes: Book 3 Chapter Ten introduces the Marauder's Map as Filch-confiscated and castle-tracking; this entry adds the alias-makers' self-identification, Snape's suspicion of Hogsmeade instructions, Lupin's "many years ago" provenance, and the castle-information warning.
+  confidence: high
+  limitations: The chapter still does not fully identify the mapmakers by real names or explain the map's creation method.

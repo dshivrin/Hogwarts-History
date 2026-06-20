@@ -1,0 +1,323 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  boundary_confidence: high
+  boundary_notes: Chapter Eleven start was taken from the previous Chapter Ten boundary and confirmed on PDF page 164. Chapter Twelve - The Mirror of Erised was located by scanning forward from that anchor and starts on PDF page 176, so only pages 164-175 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Eleven. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch11-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 164
+  printed_page: not available
+  extracted_text_lines: PDF page 164, lines 5-14
+  text_anchor:
+    start_phrase: As they entered November
+    end_phrase: second place in the House Championship
+    local_occurrence_note: Opening of Chapter Eleven, before Harry borrows Quidditch Through the Ages.
+  nearby_context: November weather affects the grounds; Hagrid defrosts broomsticks on the Quidditch field, and the Gryffindor-Slytherin match is tied to House Championship standing.
+  match_terms:
+  - Quidditch season
+  - Quidditch field
+  - broomsticks
+  - Hagrid
+  - Gryffindor
+  - Slytherin
+  - House Championship
+  quote_excerpt_short: "The Quidditch season had begun"
+  source_note: The chapter establishes that the school Quidditch season is underway in November, with Hagrid tending broomsticks on the field and House Championship standing affected by match results.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-season
+  - quidditch-field
+  - house-championship
+  - grounds
+  - broomsticks
+  - hagrid
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: School Quidditch Season
+  candidate_section: House Championship Context
+  reason_for_placement: The passage documents seasonal school Quidditch, field maintenance, and a link between House competition and match outcomes.
+  relevance_to_hogwarts_a_history: 'This supports a future section on Hogwarts Quidditch as a recurring school institution, though it is not explicitly attributed to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-003
+    notes: Chapter Nine seeded first-year House team eligibility; this entry adds season timing, field preparation, and House Championship stakes.
+  confidence: medium
+  limitations: The passage confirms Harry-era season context but does not state the full annual schedule or how Quidditch results affect House points.
+- id: ps-ch11-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 165
+  printed_page: not available
+  extracted_text_lines: PDF page 164, lines 20-27; PDF page 165, lines 1-5
+  text_anchor:
+    start_phrase: She had also lent him Quidditch Through the Ages
+    end_phrase: turn up months later in the Sahara Desert
+    local_occurrence_note: Harry reads Hermione's lent book before his first Quidditch match.
+  nearby_context: Harry uses a named in-universe book to learn Quidditch facts about fouls, the 1473 World Cup, Seekers, accidents, and referees.
+  match_terms:
+  - Quidditch Through the Ages
+  - Quidditch foul
+  - World Cup
+  - 1473
+  - Seekers
+  - referees
+  quote_excerpt_short: "seven hundred ways of committing a Quidditch foul"
+  source_note: Hermione lends Harry Quidditch Through the Ages, from which he learns historical and practical Quidditch facts, including fouls, a 1473 World Cup match, Seeker traits, and referee hazards.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-through-the-ages
+  - named-book
+  - student-research
+  - quidditch-history
+  - world-cup-1473
+  - fouls
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Library Books
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: The passage names a magical book and shows it being used as a source of historical and practical knowledge by a Hogwarts student.
+  relevance_to_hogwarts_a_history: 'This is not a Hogwarts: A History reference, but it helps index named in-universe books that support future cross-references on Hogwarts recreation and scholarship.'
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-001
+    notes: Chapter Nine already seeded Hermione using Quidditch Through the Ages before flying lessons; this occurrence adds specific contents from the book.
+  confidence: high
+  limitations: The passage does not explicitly say whether Hermione's copy is from the Hogwarts library until Snape's later rule statement.
+- id: ps-ch11-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 165
+  printed_page: not available
+  extracted_text_lines: PDF page 165, lines 17-23
+  text_anchor:
+    start_phrase: What's that you've got there, Potter?
+    end_phrase: Five points from Gryffindor
+    local_occurrence_note: Snape confiscates Quidditch Through the Ages in the courtyard during break.
+  nearby_context: Snape identifies Quidditch Through the Ages as a library book, says library books are not to be taken outside the school, confiscates it, and deducts Gryffindor points.
+  match_terms:
+  - library books
+  - outside the school
+  - Snape
+  - five points
+  - Gryffindor
+  - Quidditch Through the Ages
+  quote_excerpt_short: "Library books are not to be taken outside the school"
+  source_note: Snape states a restriction on taking library books outside the school, confiscates Harry's copy of Quidditch Through the Ages, and deducts five points from Gryffindor.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library-rules
+  - school-discipline
+  - house-points
+  - snape
+  - gryffindor
+  - courtyard
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Library Rules and Enforcement
+  candidate_section: Books Outside the School
+  reason_for_placement: The passage gives a stated school rule or asserted rule about library books and an immediate House-point penalty.
+  relevance_to_hogwarts_a_history: This supports future coverage of library governance and discipline, while also cross-linking to House points.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-007; ps-ch10-005
+    notes: Related to earlier House-point discipline entries; this is the first seed specifically about a library-book rule.
+  confidence: medium
+  limitations: Harry believes Snape invented the rule, so later evidence is needed before treating it as a stable formal policy.
+- id: ps-ch11-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 167
+  printed_page: not available
+  extracted_text_lines: PDF page 167, lines 22-32; PDF page 168, lines 1-3
+  text_anchor:
+    start_phrase: the whole school seemed to be out in the stands
+    end_phrase: Slytherin would be playing in green
+    local_occurrence_note: Matchday transition from spectator stands to locker room before the teams enter the field.
+  nearby_context: The school gathers in raised stands around the Quidditch pitch; students use binoculars, supporters display a banner, and teams change into House-colored robes in a locker room.
+  match_terms:
+  - Quidditch pitch
+  - stands
+  - binoculars
+  - seats
+  - locker room
+  - Quidditch robes
+  - Gryffindor
+  - Slytherin
+  quote_excerpt_short: "stands around the Quidditch pitch"
+  source_note: The chapter describes matchday infrastructure around the Quidditch pitch, including raised spectator seating, binocular use, a team locker room, and House-colored Quidditch robes.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-pitch
+  - stands
+  - locker-room
+  - house-robes
+  - spectators
+  - matchday
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: Quidditch Pitch and Matchday Infrastructure
+  candidate_section: Stands, Locker Rooms, and House Colors
+  reason_for_placement: The passage gives concrete observed features of Hogwarts Quidditch facilities and matchday presentation.
+  relevance_to_hogwarts_a_history: This helps build a future section on where and how Hogwarts Quidditch matches are staged.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-002
+    notes: Chapter Nine seeded flying lessons on the grounds; this entry focuses on the Quidditch pitch as a competitive venue.
+  confidence: high
+  limitations: The source does not date the construction of the stands or explain whether seating is permanently raised or magically adjusted for matches.
+- id: ps-ch11-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 169
+  printed_page: not available
+  extracted_text_lines: PDF page 168, lines 18-30; PDF page 169, lines 1-22; PDF page 170, lines 16-29; PDF page 171, lines 1-20; PDF page 173, lines 28-35; PDF page 174, lines 1-2
+  text_anchor:
+    start_phrase: Madam Hooch was refereeing
+    end_phrase: Gryffindor had won by one hundred and seventy points to sixty
+    local_occurrence_note: First Gryffindor-Slytherin match sequence, from kickoff through Harry catching the Snitch.
+  nearby_context: Madam Hooch referees, Lee Jordan commentates under McGonagall's supervision, players use Quaffle, Bludgers, goalposts, and Snitch, and a foul leads to a Gryffindor penalty before the final score is announced.
+  match_terms:
+  - Madam Hooch
+  - referee
+  - Lee Jordan
+  - Professor McGonagall
+  - Quaffle
+  - Bludger
+  - Golden Snitch
+  - penalty
+  - score
+  quote_excerpt_short: "Madam Hooch was refereeing"
+  source_note: The match shows Hogwarts Quidditch officiation, supervised commentary, player positions, balls, fouls, penalties, and scoring in a school House match.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-rules
+  - refereeing
+  - match-commentary
+  - house-match
+  - scoring
+  - madam-hooch
+  - mcgonagall
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Refereeing, Commentary, Fouls, and Scoring
+  reason_for_placement: The passage provides direct evidence for how Hogwarts House Quidditch matches are officiated, watched, narrated, penalized, and scored.
+  relevance_to_hogwarts_a_history: This is a strong supporting seed for a future Hogwarts Quidditch chapter, though it reflects a Harry-era match rather than explicit historical exposition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-003
+    notes: Related to Chapter Nine's House team eligibility seed; this entry adds live-match organization and rule enforcement.
+  confidence: high
+  limitations: The match confirms practice during Harry's first year but does not explain the origin of Hogwarts Quidditch rules or whether commentary supervision is standard.
+- id: ps-ch11-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 172
+  printed_page: not available
+  extracted_text_lines: PDF page 171, lines 21-29; PDF page 172, lines 7-29; PDF page 173, lines 1-22
+  text_anchor:
+    start_phrase: His broom gave a sudden, frightening lurch
+    end_phrase: Harry was suddenly able to clamber back on to his broom
+    local_occurrence_note: Harry's broom behaves uncontrollably during the match while spectators infer magical interference.
+  nearby_context: Harry loses control of his broom during the match; Hagrid says only powerful Dark magic can interfere with a broomstick, Hermione identifies a suspected jinx, and the danger ends after her intervention in the stands.
+  match_terms:
+  - broom
+  - Dark magic
+  - jinxing
+  - Snape
+  - Hermione
+  - stands
+  - Quirrell
+  quote_excerpt_short: "powerful Dark magic"
+  source_note: The chapter presents a broomstick interference incident during a school match and includes Hagrid's claim that powerful Dark magic would be needed to affect a Nimbus Two Thousand in that way.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - broom-jinx
+  - quidditch-safety
+  - dark-magic
+  - match-security
+  - nimbus-two-thousand
+  - spectator-stands
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Magical Interference and Student Safety
+  candidate_section: Quidditch Match Risks
+  reason_for_placement: The passage is later editorial evidence for magical hazards that can affect school recreation and student safety.
+  relevance_to_hogwarts_a_history: This should not be treated as original book core content, but it helps a fan edition note vulnerabilities and later incidents involving Hogwarts Quidditch.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically addresses magical interference with broomsticks during school Quidditch.
+  confidence: medium
+  limitations: The characters misidentify the apparent caster in this chapter, so the entry records the observed incident and Hagrid's claim without asserting Snape caused it.
+- id: ps-ch11-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eleven - Quidditch
+  chapter_start_pdf_page: 164
+  chapter_end_pdf_page: 175
+  pdf_page: 174
+  printed_page: not available
+  extracted_text_lines: PDF page 174, lines 11-25; PDF page 175, lines 1-6
+  text_anchor:
+    start_phrase: He tried to get past that three-headed dog on Halloween
+    end_phrase: between Professor Dumbledore and Nicolas Flamel
+    local_occurrence_note: Post-match conversation in Hagrid's hut after Harry's broom incident.
+  nearby_context: Hagrid confirms the three-headed dog is named Fluffy, says he owns it, bought it the previous year, lent it to Dumbledore, and accidentally connects the guarded object to Nicolas Flamel.
+  match_terms:
+  - three-headed dog
+  - Fluffy
+  - Hagrid
+  - Dumbledore
+  - guard
+  - Nicolas Flamel
+  - top secret
+  quote_excerpt_short: "I lent him to Dumbledore to guard"
+  source_note: Hagrid confirms that the three-headed dog is Fluffy, belongs to him, was bought the previous year, and was lent to Dumbledore for a secret guarding purpose involving Nicolas Flamel.
+  reference_type: security_or_protection
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - fluffy
+  - three-headed-dog
+  - dumbledore
+  - hagrid
+  - nicolas-flamel
+  - guarded-chamber
+  - philosopher-stone-protection
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Fluffy and the Philosopher's Stone Protections
+  reason_for_placement: The passage adds ownership, acquisition timing, and Dumbledore's use of the creature as a guard to an already seeded restricted-corridor protection.
+  relevance_to_hogwarts_a_history: This is important later editorial security evidence but should be excluded from the presumed original pre-Harry book body.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-007
+    notes: Chapter Nine introduced the three-headed dog and trapdoor; this entry supplies the dog's name, Hagrid's ownership, acquisition timing, and link to Dumbledore and Nicolas Flamel.
+  confidence: high
+  limitations: The guarded object is not fully named in this chapter, and this 1991-1992 protection arrangement postdates the original-book cutoff.

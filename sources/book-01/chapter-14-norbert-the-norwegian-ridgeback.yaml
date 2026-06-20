@@ -1,0 +1,339 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  boundary_confidence: high
+  boundary_notes: Chapter Fourteen start was taken from the previously processed Chapter Thirteen boundary and confirmed on PDF page 205. Chapter Fifteen - The Forbidden Forest was located by scanning forward from that anchor and starts on PDF page 217, so only pages 205-216 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Fourteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch14-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 206
+  printed_page: not available
+  extracted_text_lines: PDF page 205, lines 14-23; PDF page 206, lines 1-16
+  text_anchor:
+    start_phrase: Hermione, however, had more on her mind
+    end_phrase: What are you doing in the library?
+    local_occurrence_note: Exam-preparation passage before Hagrid is noticed in the library.
+  nearby_context: Hermione organizes study schedules for end-of-year exams, teachers assign heavy Easter homework, students review dragon's blood, wand movements, and Dittany, and Harry and Ron work in the library with Hermione.
+  match_terms:
+  - exams
+  - homework
+  - Easter holidays
+  - dragon's blood
+  - wand movements
+  - Dittany
+  - One Thousand Magical Herbs and Fungi
+  - library
+  quote_excerpt_short: "twelve uses of dragon's blood"
+  source_note: The chapter shows exam preparation intensifying before the end of first year, with teacher-assigned homework, student study schedules, library work, and named study material.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - exams
+  - homework
+  - library
+  - herbology
+  - dittany
+  - study-schedules
+  - first-year-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Exam Preparation and Homework Load
+  reason_for_placement: The passage documents first-year academic pressure, homework patterns, and subject matter reviewed during Easter study.
+  relevance_to_hogwarts_a_history: This supports future coverage of academic life at Hogwarts, especially exam preparation and student use of the library for coursework.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-004
+    notes: Chapter Eight seeded first-year subjects and classroom contexts; this entry adds Easter exam preparation, homework pressure, and library-based study.
+  confidence: medium
+  limitations: The passage confirms Harry-era study habits and assignments but does not describe formal exam policy or historical continuity.
+- id: ps-ch14-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 207
+  printed_page: not available
+  extracted_text_lines: PDF page 207, lines 3-24
+  text_anchor:
+    start_phrase: I am going to see what section he was in
+    end_phrase: to make them forget
+    local_occurrence_note: Library table scene after Hagrid leaves with something hidden behind his back.
+  nearby_context: Ron checks Hagrid's library section, finds named dragon-care books, and explains dragon-breeding law, wild dragons in Britain, and Ministry concealment from Muggles.
+  match_terms:
+  - Dragons
+  - Dragon Species of Great Britain and Ireland
+  - From Egg to Inferno
+  - Dragon Keeper's Guide
+  - Warlocks' Convention of 1709
+  - Ministry of Magic
+  - Common Welsh Green
+  - Hebridean Blacks
+  quote_excerpt_short: "Dragon breeding was outlawed by the Warlocks' Convention of 1709"
+  source_note: The chapter names dragon reference books in the library and gives a student-stated historical legal claim about dragon breeding and magical concealment.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - library
+  - named-books
+  - dragons
+  - warlocks-convention-1709
+  - ministry-of-magic
+  - statute-of-secrecy-context
+  - magical-creatures
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Library Books
+  candidate_section: Creature-Care and Magical Law Sources
+  reason_for_placement: The passage shows Hogwarts students locating named books in the library and using them alongside remembered wizarding legal history.
+  relevance_to_hogwarts_a_history: 'This is not an explicit Hogwarts: A History reference, but it helps index library holdings and historical context that may cross-reference Hogwarts creature-related incidents.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry names these dragon books or the Warlocks' Convention of 1709.
+  confidence: high
+  limitations: Ron's legal summary is not directly tied to Hogwarts history, and the passage does not prove the books are standard curriculum texts.
+- id: ps-ch14-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 208
+  printed_page: not available
+  extracted_text_lines: PDF page 206, lines 25-33; PDF page 208, lines 1-36
+  text_anchor:
+    start_phrase: about what is guarding the Stone apart from Fluffy
+    end_phrase: Not a soul knows except me an' Dumbledore
+    local_occurrence_note: Hagrid first quiets the students in the library, then answers in his hut after Hermione flatters him.
+  nearby_context: Hagrid says students are not supposed to know about the Stone, confirms it was almost stolen from Gringotts, says Dumbledore borrowed Fluffy from him, and identifies teachers who helped protect the Stone with enchantments or other measures.
+  match_terms:
+  - Sorcerer's Stone
+  - Fluffy
+  - students
+  - Gringotts
+  - Dumbledore
+  - enchantments
+  - Professor Sprout
+  - Professor Flitwick
+  - Professor McGonagall
+  - Professor Quirrell
+  - Professor Snape
+  quote_excerpt_short: "some o' the teachers did enchantments"
+  source_note: Hagrid gives the clearest evidence so far that the Stone is protected by multiple staff members, including Fluffy and teacher-made enchantments, while still keeping the details secret from students.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - philosopher-stone-protections
+  - fluffy
+  - enchantments
+  - staff-protections
+  - dumbledore
+  - gringotts
+  - secrecy
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Fluffy and the Philosopher's Stone Protections
+  reason_for_placement: The passage identifies the protection as a layered staff effort inside Hogwarts and supplies named participants.
+  relevance_to_hogwarts_a_history: This is later editorial context for Hogwarts security practices and staff-created protections, not likely part of the original pre-Harry in-universe book.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch13-006; ps-ch11-007
+    notes: Chapter Eleven named Fluffy and Dumbledore's guarding purpose, and Chapter Thirteen seeded secrecy and possible layered protections; this entry confirms named staff contributors and enchantments.
+  confidence: high
+  limitations: Hagrid does not identify which staff member created which protection, and the arrangement is specific to the 1991-1992 Stone incident.
+- id: ps-ch14-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 209
+  printed_page: not available
+  extracted_text_lines: PDF page 209, lines 8-32
+  text_anchor:
+    start_phrase: In the very heart of the fire
+    end_phrase: hiding an illegal dragon in his hut
+    local_occurrence_note: Hagrid's hut scene after the students ask about the Stone protections.
+  nearby_context: Hagrid has a black dragon egg in his hut, says he won it in the village, consults a library book called Dragon Breeding for Pleasure and Profit, identifies the egg as a rare Norwegian Ridgeback, and is hiding an illegal dragon in a wooden hut.
+  match_terms:
+  - dragon egg
+  - village
+  - Dragon Breeding for Pleasure and Profit
+  - library
+  - Norwegian Ridgeback
+  - rare
+  - illegal dragon
+  - Hagrid's hut
+  quote_excerpt_short: "Dragon Breeding for Pleasure and Profit"
+  source_note: The chapter shows Hagrid relying on an out-of-date library book for dragon husbandry while keeping an illegal Norwegian Ridgeback egg in his hut on the Hogwarts grounds.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - hagrid
+  - gamekeepers-hut
+  - library-book
+  - dragons
+  - norwegian-ridgeback
+  - illegal-creature
+  - grounds
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Library Books
+  candidate_section: Creature-Care and Magical Law Sources
+  reason_for_placement: The passage names a library source and shows a Hogwarts staff member using it for practical magical-creature care.
+  relevance_to_hogwarts_a_history: This supports cross-references between library holdings, grounds staff, and later editorial notes on creature incidents at Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry identifies Dragon Breeding for Pleasure and Profit or Hagrid's use of a library dragon-care manual.
+  confidence: high
+  limitations: The source book is described as out of date, and the dragon incident is Harry-era context rather than original-book core material.
+- id: ps-ch14-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 211
+  printed_page: not available
+  extracted_text_lines: PDF page 210, lines 13-17 and 22-31; PDF page 211, lines 1-18; PDF page 212, lines 1-8
+  text_anchor:
+    start_phrase: When the bell sounded from the castle
+    end_phrase: send an owl to Charlie to ask him
+    local_occurrence_note: From morning-break visit after Herbology through the decision to send Norbert to Charlie in Romania.
+  nearby_context: The castle bell ends Herbology, students cross the grounds to the forest edge and Hagrid's hut, observe Norbert hatch, then learn the dragon grows quickly and has interfered with Hagrid's gamekeeping duties before arranging removal through Charlie Weasley.
+  match_terms:
+  - Herbology
+  - bell
+  - castle
+  - grounds
+  - edge of the forest
+  - gamekeeping duties
+  - Norwegian Ridgeback
+  - Charlie
+  - Romania
+  quote_excerpt_short: "the edge of the forest"
+  source_note: The chapter links class schedules, the grounds route to Hagrid's hut, the forest edge, and Hagrid's gamekeeping duties to the practical problem of an illegal dragon on school grounds.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - grounds
+  - forest-edge
+  - hagrid
+  - gamekeeping
+  - herbology
+  - dragon-hatching
+  - charlie-weasley
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Grounds and Edge of the Forest
+  candidate_section: Hagrid's Hut and Gamekeeping Duties
+  reason_for_placement: The passage gives concrete setting evidence for the grounds, the forest edge, and the gamekeeper's work during a later creature incident.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on the grounds and Hagrid's role, while separating Harry-era events from original-book core history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry focuses on Hagrid's hut, the forest edge, and gamekeeping duties together.
+  confidence: medium
+  limitations: The dragon incident is not a normal school practice and should not be generalized into standard Hogwarts creature management.
+- id: ps-ch14-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 215
+  printed_page: not available
+  extracted_text_lines: PDF page 214, lines 22-31; PDF page 215, lines 1-6 and 21-23; PDF page 216, lines 4-12
+  text_anchor:
+    start_phrase: It was a very dark, cloudy night
+    end_phrase: left the Invisibility Cloak on top of the tower
+    local_occurrence_note: Night route carrying Norbert from Hagrid's hut through the entrance hall to the top of the tallest tower and back down.
+  nearby_context: Harry and Hermione wait for Peeves in the entrance hall, carry Norbert up the marble staircase, dark corridors, multiple staircases, and a steep spiral staircase to the top of the tallest tower, then encounter Filch after returning.
+  match_terms:
+  - Peeves
+  - entrance hall
+  - marble staircase
+  - dark corridors
+  - tallest tower
+  - steep spiral staircase
+  - top of the tower
+  - Filch
+  quote_excerpt_short: "the corridor beneath the tallest tower"
+  source_note: The chapter provides a concrete nighttime route through the entrance hall, staircases, corridors, and the tallest tower, with Peeves and Filch as navigation or enforcement obstacles.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - entrance-hall
+  - marble-staircase
+  - corridors
+  - tallest-tower
+  - spiral-staircase
+  - peeves
+  - filch
+  - nighttime-route
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Changing Staircases and Responsive Doors
+  candidate_section: Nighttime Routes and Tower Access
+  reason_for_placement: The passage adds specific castle route markers and tower access details to the developing navigation seed.
+  relevance_to_hogwarts_a_history: This supports future castle-layout and wayfinding coverage, though the route is observed in a Harry-era nighttime incident.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001
+    notes: Chapter Eight seeded Hogwarts staircases and navigation difficulties; this entry adds the entrance hall, marble staircase, dark corridors, and tallest-tower spiral staircase as a route.
+  confidence: medium
+  limitations: The passage does not name the tower or explain whether the route is ordinary, enchanted, or shortcut-dependent.
+- id: ps-ch14-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fourteen - Norbert the Norwegian Ridgeback
+  chapter_start_pdf_page: 205
+  chapter_end_pdf_page: 216
+  pdf_page: 215
+  printed_page: not available
+  extracted_text_lines: PDF page 215, lines 7-25; PDF page 216, lines 4-12
+  text_anchor:
+    start_phrase: Professor McGonagall, in a tartan bathrobe
+    end_phrase: Well, well, well
+    local_occurrence_note: McGonagall catches Malfoy near the tallest tower; Filch later catches Harry and Hermione after they leave the cloak behind.
+  nearby_context: McGonagall gives Malfoy detention and deducts twenty points from Slytherin for nighttime wandering and a false dragon story, says she will consult Snape, and Filch catches Harry and Hermione in the corridor after they return from the tower.
+  match_terms:
+  - Professor McGonagall
+  - detention
+  - twenty points
+  - Slytherin
+  - nighttime
+  - Professor Snape
+  - Filch
+  - corridor
+  quote_excerpt_short: "Detention! And twenty points from Slytherin!"
+  source_note: The chapter shows a teacher applying detention and House-point discipline for nighttime wandering, with later corridor enforcement by Filch.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - detention
+  - house-points
+  - nighttime-wandering
+  - mcgonagall
+  - snape
+  - filch
+  - slytherin
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Caretakers, Corridor Patrols, and Restricted Areas
+  candidate_section: Nighttime Wandering and Corridor Enforcement
+  reason_for_placement: The passage gives a direct disciplinary consequence for being out at night and shows teacher and caretaker enforcement.
+  relevance_to_hogwarts_a_history: This strengthens future coverage of Hogwarts discipline, House-point deductions, detention, and nighttime corridor control.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-005; ps-ch12-005
+    notes: Chapter Nine and Chapter Twelve seeded nighttime wandering and patrol enforcement; this entry adds explicit detention and a twenty-point Slytherin deduction.
+  confidence: high
+  limitations: The passage does not state the formal curfew rule or the content of the eventual detention.

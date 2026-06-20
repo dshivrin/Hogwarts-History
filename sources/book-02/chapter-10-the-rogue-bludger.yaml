@@ -1,0 +1,271 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  boundary_confidence: high
+  boundary_notes: Chapter Ten range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Nine boundary. Book 2 Chapter Ten starts on PDF page 417 and Chapter Eleven starts on PDF page 434, so only PDF pages 417-433 were extracted and searched.
+  processed_date: '2026-06-16'
+  processor_notes: "Processed only Book 2, Chapter Ten. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch10-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  pdf_page: 419
+  printed_page: not available
+  extracted_text_lines: PDF page 418, lines 12-22; PDF page 419, lines 18-32
+  text_anchor:
+    start_phrase: I wanted to get this book out of the library
+    end_phrase: carrying a large and moldy-looking book
+    local_occurrence_note: Hermione gets Lockhart's signature after Defense Against the Dark Arts, then presents it to Madam Pince in the library.
+  nearby_context: Hermione obtains a teacher-signed note for a Restricted Section book; Madam Pince inspects the note for forgery before retrieving Moste Potente Potions from the shelves.
+  match_terms:
+  - Restricted Section
+  - library
+  - Madam Pince
+  - teacher signature
+  - Moste Potente Potions
+  - Lockhart
+  quote_excerpt_short: "in the Restricted Section of the library"
+  source_note: "The chapter confirms the practical borrowing procedure for a Restricted Section book: a teacher-signed note is presented to Madam Pince, who verifies it before handing over the requested volume."
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - restricted-section
+  - library-rules
+  - madam-pince
+  - teacher-permission
+  - moste-potente-potions
+  - borrowing-procedure
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Restricted Section Permissions and Advanced Potions
+  reason_for_placement: The passage turns the previously stated permission rule into an observed borrowing procedure involving a teacher signature and librarian verification.
+  relevance_to_hogwarts_a_history: This helps index Hogwarts library governance and controlled access to dangerous or advanced magical knowledge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch09-007
+    notes: Chapter Nine already recorded the teacher-signed-note requirement and Moste Potente Potions as the expected Restricted Section source; this entry confirms the book's retrieval and Madam Pince's role.
+  confidence: high
+  limitations: The passage shows one successful borrowing through a signed note but does not define the full approval policy for all Restricted Section books.
+- id: cos-ch10-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  pdf_page: 420
+  printed_page: not available
+  extracted_text_lines: PDF page 420, lines 1-29; PDF page 421, lines 1-12
+  text_anchor:
+    start_phrase: Here it is
+    end_phrase: lacewings have got to be stewed for twenty-one days
+    local_occurrence_note: Moaning Myrtle's bathroom scene after the trio retrieves Moste Potente Potions.
+  nearby_context: Hermione reads the Polyjuice Potion recipe from Moste Potente Potions, identifies ingredients available from the student store-cupboard and rarer ingredients likely requiring Snape's private stores, and estimates the brewing time.
+  match_terms:
+  - Moste Potente Potions
+  - Polyjuice Potion
+  - student store-cupboard
+  - Snape's private stores
+  - fluxweed
+  - lacewings
+  quote_excerpt_short: "This is the most complicated potion I've ever seen"
+  source_note: The restricted book supplies a complex Polyjuice Potion recipe and reveals a distinction between ordinary student-accessible ingredients and ingredients kept outside the student cupboard.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - polyjuice-potion
+  - potions
+  - restricted-books
+  - student-store-cupboard
+  - snape-private-stores
+  - advanced-magic
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions Instruction and Materials
+  candidate_section: Advanced Recipes, Student Supplies, and Private Stores
+  reason_for_placement: The passage gives concrete evidence for advanced potion knowledge, student supply access, and teacher-controlled ingredient storage.
+  relevance_to_hogwarts_a_history: This can support future curriculum and library sections on controlled magical knowledge and how Hogwarts separates student materials from restricted supplies.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Related to the Restricted Section access entries, but this entry adds recipe complexity, ingredient categories, and storage evidence rather than duplicating the access rule.
+  confidence: high
+  limitations: The recipe is used illicitly by students; the passage does not establish whether Polyjuice Potion is formally taught at Hogwarts.
+- id: cos-ch10-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  pdf_page: 422
+  printed_page: not available
+  extracted_text_lines: PDF page 421, lines 22-31; PDF page 422, lines 9-17
+  text_anchor:
+    start_phrase: the whole school started to make its way down
+    end_phrase: On my whistle
+    local_occurrence_note: Start of the Gryffindor-Slytherin Quidditch match before the rogue Bludger attack.
+  nearby_context: The whole school goes to the Quidditch stadium for the first match of the season; teams use House robes and locker rooms, Ravenclaw and Hufflepuff spectators support Gryffindor, and Madam Hooch supervises the captains' handshake and kickoff.
+  match_terms:
+  - Quidditch stadium
+  - first match of the season
+  - locker rooms
+  - House robes
+  - Madam Hooch
+  - captains
+  quote_excerpt_short: "the first match of the season"
+  source_note: The chapter corroborates Hogwarts matchday organization through school-wide attendance, locker-room preparation, House-colored robes, House spectatorship, and Madam Hooch's officiating role.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-season
+  - house-match
+  - quidditch-stadium
+  - locker-rooms
+  - house-robes
+  - madam-hooch
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Matchday Organization and Officiating
+  reason_for_placement: The passage strengthens the seed for Hogwarts Quidditch as a school-wide House competition with regular facilities and staff officiation.
+  relevance_to_hogwarts_a_history: This supports future coverage of Quidditch as a recurring Hogwarts institution and recreational tradition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-005
+    notes: Chapter Eleven of Book 1 already records Madam Hooch officiating a Gryffindor-Slytherin match; this entry corroborates live-match procedure and adds first-match-of-season timing and broader House spectator alignment.
+  confidence: high
+  limitations: The scene confirms Harry-era matchday practice but does not define the full season schedule or historical origin of the stadium customs.
+- id: cos-ch10-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  pdf_page: 424
+  printed_page: not available
+  extracted_text_lines: PDF page 422, lines 21-31; PDF page 423, lines 2-35; PDF page 424, lines 2-4
+  text_anchor:
+    start_phrase: a heavy black Bludger came pelting toward him
+    end_phrase: locked in Madam Hooch's office since our last practice
+    local_occurrence_note: Gryffindor team timeout after Fred and George realize the Bludger is targeting Harry.
+  nearby_context: A Bludger repeatedly targets only Harry during the match; Fred and George infer tampering, while Wood says the Bludgers had been locked in Madam Hooch's office since Gryffindor's last practice.
+  match_terms:
+  - Bludger
+  - tampered
+  - Madam Hooch's office
+  - locked
+  - practice
+  - match safety
+  quote_excerpt_short: "the Bludgers have been locked in Madam Hooch's office"
+  source_note: The match shows a magical-sport safety incident and gives a concrete storage detail for Hogwarts Quidditch equipment between practices and matches.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - rogue-bludger
+  - quidditch-safety
+  - match-security
+  - madam-hooch
+  - equipment-storage
+  - tampering
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Magical Interference and Student Safety
+  candidate_section: Quidditch Match Risks
+  reason_for_placement: The passage documents another Harry-era interference incident affecting school recreation and adds evidence about Quidditch-equipment custody.
+  relevance_to_hogwarts_a_history: This belongs as later editorial safety evidence and as a cross-reference for Hogwarts Quidditch administration.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-006
+    notes: Chapter Eleven of Book 1 already records magical interference during a Quidditch match; this entry adds Bludger tampering and Madam Hooch's equipment-storage context.
+  confidence: high
+  limitations: The characters do not yet know who tampered with the Bludger; the storage detail comes from Wood's in-match explanation.
+- id: cos-ch10-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  pdf_page: 428
+  printed_page: not available
+  extracted_text_lines: PDF page 426, lines 18-29; PDF page 427, lines 7-24; PDF page 428, lines 4-29
+  text_anchor:
+    start_phrase: Why can't I just go to the hospital wing
+    end_phrase: thirty-three bones to regrow
+    local_occurrence_note: After Lockhart removes Harry's arm bones and Harry is taken to Madam Pomfrey.
+  nearby_context: Harry asks to go to the hospital wing for a broken arm, Lockhart's failed charm worsens the injury, and Madam Pomfrey treats Harry with Skele-Gro, keeps him overnight, and expels visitors so he can rest.
+  match_terms:
+  - hospital wing
+  - Madam Pomfrey
+  - Skele-Gro
+  - regrowing bones
+  - overnight
+  - visitors
+  quote_excerpt_short: "I can mend bones in a second"
+  source_note: "The chapter gives concrete hospital wing evidence: Madam Pomfrey can mend ordinary broken bones quickly, uses Skele-Gro for regrowth, requires overnight recovery, and controls visits for patient rest."
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hospital-wing
+  - madam-pomfrey
+  - student-health
+  - skele-gro
+  - visitor-control
+  - quidditch-injury
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Health and the Hospital Wing
+  candidate_section: Treatment, Overnight Care, and Visitor Control
+  reason_for_placement: The passage expands the hospital wing seed from access control into actual school medical treatment and recovery management.
+  relevance_to_hogwarts_a_history: This supports future governance coverage of student health infrastructure and staff authority in medical spaces.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch17-004
+    notes: Chapter Seventeen of Book 1 already records Madam Pomfrey controlling hospital wing visitors; this entry adds injury treatment, Skele-Gro, overnight care, and team-visitor removal.
+  confidence: high
+  limitations: This is an emergency injury case and may not represent ordinary hospital wing routines.
+- id: cos-ch10-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Ten - The Rogue Bludger
+  chapter_start_pdf_page: 417
+  chapter_end_pdf_page: 433
+  pdf_page: 433
+  printed_page: not available
+  extracted_text_lines: PDF page 430, lines 27-40; PDF page 431, lines 6-25; PDF page 432, lines 8-30; PDF page 433, lines 4-12
+  text_anchor:
+    start_phrase: now that history is to repeat itself
+    end_phrase: the question is, how
+    local_occurrence_note: Hospital wing night scene after Dobby's confession and Colin Creevey's arrival petrified.
+  nearby_context: Dobby says the Chamber has been opened before and is open once more; later that night Dumbledore, McGonagall, and Madam Pomfrey bring in petrified Colin Creevey, whose camera has melted, and Dumbledore states the Chamber is open again.
+  match_terms:
+  - history is to repeat itself
+  - Chamber of Secrets
+  - opened before
+  - Colin Creevey
+  - Petrified
+  - camera
+  - Dumbledore
+  quote_excerpt_short: "the Chamber of Secrets is indeed open again"
+  source_note: "The chapter moves the Chamber evidence from warning and legend into staff-recognized crisis evidence: Dobby confirms a prior opening, Colin is petrified, and Dumbledore says the Chamber is open again."
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - chamber-of-secrets
+  - prior-opening
+  - colin-creevey
+  - petrification
+  - dumbledore
+  - school-emergency
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Reopened Chamber and Staff Recognition
+  reason_for_placement: The passage confirms the current crisis while pointing back to an earlier opening, making it central to later editorial treatment of the Chamber's history and school response.
+  relevance_to_hogwarts_a_history: This is not final original-book prose, but it is crucial evidence for distinguishing Chamber legend, past incident, and Harry-era reopening.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch09-005
+    notes: Chapter Nine records Binns's account of the Chamber legend; this entry corroborates and revises that thread by showing Dobby and Dumbledore treating the Chamber as actually reopened.
+  confidence: high
+  limitations: The chapter still does not identify the attacker, the monster, the prior-opening date, or the mechanism by which Colin survived.

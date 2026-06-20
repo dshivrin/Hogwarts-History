@@ -1,0 +1,317 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  boundary_confidence: high
+  boundary_notes: Chapter Eleven range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Ten boundary. Book 2 Chapter Eleven starts on PDF page 434 and Chapter Twelve starts on PDF page 453, so only PDF pages 434-452 were extracted and searched.
+  processed_date: '2026-06-16'
+  processor_notes: "Processed only Book 2, Chapter Eleven. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch11-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 437
+  printed_page: not available
+  extracted_text_lines: PDF page 437, lines 2-7
+  text_anchor:
+    start_phrase: In the second week of December
+    end_phrase: confession out of him
+    local_occurrence_note: McGonagall's Christmas-stay sign-up scene immediately before the Potions diversion planning.
+  nearby_context: Professor McGonagall collects names of students staying at Hogwarts for Christmas; Harry, Ron, and Hermione sign the list because Malfoy is also staying.
+  match_terms:
+  - Christmas
+  - staying at school
+  - Professor McGonagall
+  - list
+  - holidays
+  quote_excerpt_short: "staying at school for Christmas"
+  source_note: The chapter repeats the Christmas-holiday residence procedure, with McGonagall circulating a list for students who will remain at school.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas-holidays
+  - student-residence
+  - professor-mcgonagall
+  - holiday-sign-up
+  - school-traditions
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Holiday Residence Sign-Ups
+  reason_for_placement: The passage corroborates Hogwarts holiday-residence administration through a repeated staff-managed sign-up process.
+  relevance_to_hogwarts_a_history: This supports future treatment of Hogwarts holiday customs and how the school remains staffed for students over Christmas.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-001
+    notes: Chapter Twelve of Book 1 already records McGonagall collecting names of students staying for Christmas; this entry corroborates the practice in the following school year.
+  confidence: high
+  limitations: The chapter confirms a repeated Harry-era procedure but does not date when the Christmas sign-up custom began.
+- id: cos-ch11-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 437
+  printed_page: not available
+  extracted_text_lines: PDF page 437, lines 8-33; PDF page 438, lines 7-24
+  text_anchor:
+    start_phrase: They still needed the bicorn horn
+    end_phrase: come here for a Deflating Draught
+    local_occurrence_note: Potion-ingredient theft plan and classroom explosion during Thursday double Potions.
+  nearby_context: Hermione says the remaining Polyjuice ingredients must come from Snape's private stores, then a Swelling Solution explosion disrupts a dungeon Potions lesson and Snape dispenses a Deflating Draught.
+  match_terms:
+  - bicorn horn
+  - boomslang skin
+  - Snape's private stores
+  - Potions lesson
+  - large dungeons
+  - Swelling Solution
+  - Deflating Draught
+  quote_excerpt_short: "Snape's private stores"
+  source_note: The chapter confirms that some advanced potion ingredients are kept in a teacher's private stores, while ordinary Potions instruction occurs in large dungeons with antidotes available for classroom mishaps.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - potions
+  - private-stores
+  - snape
+  - dungeon-classroom
+  - potion-ingredients
+  - deflating-draught
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions Instruction and Materials
+  candidate_section: Private Stores, Dungeon Lessons, and Antidotes
+  reason_for_placement: The passage adds classroom-setting and staff-storage evidence to the Potions curriculum seed.
+  relevance_to_hogwarts_a_history: This helps distinguish student-accessible supplies from teacher-controlled materials in Hogwarts practical magic instruction.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-002
+    notes: Chapter Ten already recorded the distinction between student-store-cupboard ingredients and Snape's private stores; this entry corroborates the private-store evidence and adds the dungeon lesson and Deflating Draught response.
+  confidence: high
+  limitations: The private-store access here is illicit, so it should not be treated as a normal student procedure.
+- id: cos-ch11-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 439
+  printed_page: not available
+  extracted_text_lines: PDF page 439, lines 6-32; PDF page 440, lines 3-35
+  text_anchor:
+    start_phrase: They're starting a Dueling Club
+    end_phrase: That was a Disarming Charm
+    local_occurrence_note: First Dueling Club meeting in the transformed Great Hall.
+  nearby_context: A notice-board announcement sends students to the Great Hall, where the dining tables have vanished, a stage has appeared, Lockhart says Dumbledore permitted the club, and Snape demonstrates Expelliarmus.
+  match_terms:
+  - Dueling Club
+  - notice board
+  - Great Hall
+  - Professor Dumbledore
+  - Professor Snape
+  - Expelliarmus
+  - Disarming Charm
+  quote_excerpt_short: "permission to start this little dueling club"
+  source_note: The chapter documents an authorized extracurricular defensive-practice session using the Great Hall, staff demonstration, combative wand stance, and the Disarming Charm.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - dueling-club
+  - defense-against-the-dark-arts
+  - great-hall
+  - staff-authorization
+  - expelliarmus
+  - disarming-charm
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Second-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Practical Instruction
+  reason_for_placement: The passage gives a practical combat-magic learning event connected to Defense Against the Dark Arts and supervised by Hogwarts teachers.
+  relevance_to_hogwarts_a_history: This is useful later editorial evidence for extracurricular instruction, staff authorization, and flexible use of the Great Hall for school-wide training.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Related to earlier Lockhart Defense Against the Dark Arts entries, but this entry adds a Dumbledore-authorized club, a transformed Great Hall, and a specific dueling demonstration.
+  confidence: high
+  limitations: The club appears to be an emergency Harry-era response rather than evidence of a permanent long-running Hogwarts institution.
+- id: cos-ch11-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 445
+  printed_page: not available
+  extracted_text_lines: PDF page 444, lines 19-34; PDF page 445, lines 2-30; PDF page 447, lines 23-28
+  text_anchor:
+    start_phrase: You're a Parselmouth
+    end_phrase: symbol of Slytherin House is a serpent
+    local_occurrence_note: Gryffindor common-room explanation after Harry stops the snake, with later Hufflepuff rumor in the library.
+  nearby_context: Ron identifies Harry as a Parselmouth and says Parseltongue is snake language; Hermione links the ability to Salazar Slytherin's fame and the serpent symbol of Slytherin House, while Hufflepuffs repeat the association.
+  match_terms:
+  - Parselmouth
+  - Parseltongue
+  - snake language
+  - Salazar Slytherin
+  - Slytherin House
+  - serpent
+  - Serpent-tongue
+  quote_excerpt_short: "symbol of Slytherin House is a serpent"
+  source_note: The chapter links Parseltongue to Salazar Slytherin's reputation and explains why Slytherin House is symbolized by a serpent, while showing the resulting school-wide suspicion.
+  reference_type: house_system
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - parseltongue
+  - parselmouth
+  - salazar-slytherin
+  - slytherin-house
+  - serpent-symbol
+  - bloodline-rumor
+  candidate_part: The Four Houses
+  candidate_chapter: Slytherin House
+  candidate_section: Serpent Symbolism and Parseltongue Lore
+  reason_for_placement: The passage gives a concrete explanation of Slytherin's House symbol and ties it to founder lore.
+  relevance_to_hogwarts_a_history: This supports future House-history coverage and cross-references the Chamber of Secrets legend without treating student rumor as proof.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch09-005
+    notes: Chapter Nine already records Binns's Chamber legend involving Salazar Slytherin and his heir; this entry adds Parseltongue and serpent-symbol lore around Slytherin House.
+  confidence: medium
+  limitations: The explanation comes from students rather than an identified historical text or teacher, and the school-wide Dark-wizard association is rumor rather than institutional doctrine.
+- id: cos-ch11-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 447
+  printed_page: not available
+  extracted_text_lines: PDF page 447, lines 2-38; PDF page 449, lines 7-9
+  text_anchor:
+    start_phrase: deciding to check the library first
+    end_phrase: polishing the gilded cover of a large spell book
+    local_occurrence_note: Harry looks for Justin in the library, overhears Hufflepuffs, then leaves under Madam Pince's glare.
+  nearby_context: Hufflepuffs use the library during canceled Herbology, sit at the back among long high bookshelves, Harry hides in the Invisibility section, and Madam Pince monitors student behavior while handling a spell book.
+  match_terms:
+  - library
+  - Hufflepuffs
+  - high bookshelves
+  - Invisibility section
+  - Madam Pince
+  - spell book
+  quote_excerpt_short: "hidden in the Invisibility section"
+  source_note: The chapter adds concrete library-layout and supervision evidence, including the back shelves, a named Invisibility section, and Madam Pince's visible oversight.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library
+  - invisibility-section
+  - madam-pince
+  - bookshelves
+  - student-study
+  - library-conduct
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Subject Sections, Study Space, and Supervision
+  reason_for_placement: The passage provides a named library section and daily-use details beyond restricted-book access.
+  relevance_to_hogwarts_a_history: This supports future description of the Hogwarts library as a structured, supervised space used for study and student congregation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-004
+    notes: Chapter Twelve of Book 1 already records library scale and student research; this entry adds a named Invisibility section, back-shelf congregation, and Madam Pince's supervision.
+  confidence: high
+  limitations: The named section is observed only once here, so later evidence should confirm whether it is a formal catalog section.
+- id: cos-ch11-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 451
+  printed_page: not available
+  extracted_text_lines: PDF page 450, lines 12-32; PDF page 451, lines 2-33
+  text_anchor:
+    start_phrase: Justin Finch-Fletchley was lying on the floor
+    end_phrase: waft Nearly Headless Nick up the stairs
+    local_occurrence_note: Corridor discovery and staff response after Harry leaves the library.
+  nearby_context: Justin and Nearly Headless Nick are found petrified; Peeves raises the alarm, teachers clear the corridor, Justin is carried to the hospital wing, and McGonagall improvises a method for moving Nick.
+  match_terms:
+  - Justin Finch-Fletchley
+  - Nearly Headless Nick
+  - Petrified
+  - Peeves
+  - hospital wing
+  - Professor Flitwick
+  - Professor Sinistra
+  - Professor McGonagall
+  quote_excerpt_short: "NO MORTAL OR GHOST IS SAFE"
+  source_note: The chapter records another Chamber-related attack affecting both a student and a ghost, plus the immediate staff response and the different handling needed for a petrified ghost.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - chamber-of-secrets
+  - petrification
+  - justin-finch-fletchley
+  - nearly-headless-nick
+  - hospital-wing
+  - staff-response
+  - peeves
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Staff Response to Student and Ghost Attacks
+  reason_for_placement: The passage expands the Chamber crisis evidence from students and Mrs. Norris to a ghost, showing staff triage and corridor control during an emergency.
+  relevance_to_hogwarts_a_history: This belongs in later editorial treatment of the Chamber crisis and in cross-references for ghost lore and hospital-wing response.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-006
+    notes: Chapter Ten already records Colin Creevey's petrification and Dumbledore's confirmation that the Chamber is open; this entry adds Justin, Nearly Headless Nick, Peeves's alarm, and staff triage.
+  confidence: high
+  limitations: The chapter does not yet identify the attacker, method, or cure beyond the implied Mandrake context from the same chapter.
+- id: cos-ch11-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eleven - The Dueling Club
+  chapter_start_pdf_page: 434
+  chapter_end_pdf_page: 452
+  pdf_page: 452
+  printed_page: not available
+  extracted_text_lines: PDF page 452, lines 2-18
+  text_anchor:
+    start_phrase: she stopped before a large
+    end_phrase: This must be where Dumbledore lived
+    local_occurrence_note: McGonagall takes Harry from the attack scene to Dumbledore's office.
+  nearby_context: McGonagall gives a password to a stone gargoyle, which opens a wall to a moving spiral staircase leading to an oak door with a griffin-shaped brass knocker.
+  match_terms:
+  - stone gargoyle
+  - password
+  - moving staircase
+  - oak door
+  - griffin knocker
+  - Dumbledore
+  quote_excerpt_short: "spiral staircase that was moving smoothly upward"
+  source_note: "The chapter gives the first concrete access details for Dumbledore's office: a passworded stone gargoyle, concealed wall opening, moving spiral staircase, and griffin-knocker door."
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore-office
+  - headmaster-office
+  - stone-gargoyle
+  - password
+  - moving-staircase
+  - magical-architecture
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: Passworded Gargoyle and Moving Staircase
+  reason_for_placement: The passage documents a specific castle access mechanism tied to the headmaster's office.
+  relevance_to_hogwarts_a_history: This can support future coverage of protected administrative spaces and castle architecture.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier entries mention Dumbledore's office as an unknown destination or office role, but no prior seed records the gargoyle entrance and moving staircase.
+  confidence: high
+  limitations: The passage does not explain how the office password is set, how often it changes, or when this entrance mechanism was created.

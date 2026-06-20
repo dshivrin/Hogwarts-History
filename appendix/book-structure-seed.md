@@ -1,0 +1,1175 @@
+# Hogwarts: A History - Book Structure Seed
+
+## Emerging Parts
+
+### Origins of the School
+
+Possible chapters:
+- The Founding of Hogwarts
+  - Founders, Houses, and Castle Site
+- The Founders' Rift
+  - Admission, Bloodline Ideology, and Slytherin's Departure
+
+Evidence:
+- CoS, Chapter Nine, PDF page 407: Professor Binns says Hogwarts was founded over a thousand years ago by Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin; the Houses are named after them, and the castle was built away from Muggle attention during a period of persecution.
+- CoS, Chapter Nine, PDF pages 407-408: Binns says the founders initially worked together to educate magical children before Slytherin split from the others over admission of students with Muggle parentage.
+- CoS, Chapter Seventeen, PDF pages 542 and 545: Riddle claims descent from Salazar Slytherin and later addresses Slytherin as greatest of the Hogwarts Four while commanding the founder-linked statue in Parseltongue.
+
+Confidence:
+- Strong support for the broad founding account from an in-school History of Magic source, though Binns says the precise founding date is uncertain.
+- Strong support for the Slytherin admission dispute as a founding-era conflict, but the passage summarizes rather than documents primary historical sources.
+- Medium support for Riddle's Slytherin-descent claim and founder-address language because both come from Riddle, while the statue response confirms the Chamber's Slytherin-linked mechanism.
+
+### Magical Architecture and Enchantments
+
+Possible chapters:
+- The Great Hall
+  - The Enchanted Ceiling
+  - Ceremonial Use of the Hall
+- Changing Staircases and Responsive Doors
+  - Navigating the Castle
+  - Vanishing Steps and Moving Routes
+  - Doors Requiring Magical or Social Interaction
+- Secret Passageways and Hidden Routes
+  - Tapestries, Statues, and Student Wayfinding
+- House Common Rooms and Dormitories
+  - Gryffindor Tower Access
+  - Slytherin Dungeon Entrance and Common Room
+- Enchanted Objects and Hidden Rooms
+  - The Mirror of Erised
+- Headmaster's Office and Protected Entrances
+  - Passworded Gargoyle and Moving Staircase
+  - Office Interior, Portraits, and Artifacts
+- Tower Classrooms
+  - North Tower and Divination Access
+- Castle Navigation, Maps, and Concealed Routes
+  - The Marauder's Map
+  - The Honeydukes Passage
+  - The Whomping Willow Tunnel
+- Towers, Offices, and Upper-Floor Access
+  - Professor Flitwick's Office and West Tower Windows
+
+Evidence:
+- PS, Chapter Seven, PDF page 110: Hermione says the Great Hall ceiling is bewitched to look like the sky outside and that she read about it in *Hogwarts: A History*.
+- PS, Chapter Eight, PDF page 123: Hogwarts is described as having 142 staircases, including stairs that lead somewhere different on Fridays, a vanishing step, responsive doors, false doors, visiting portraits, and possibly walking armor.
+- PS, Chapter Nine, PDF pages 141 and 146: Fred and George mention a secret passage behind the statue of Gregory the Smarmy, and Harry's group later finds a hidden passage concealed by a tapestry.
+- PS, Chapter Twelve, PDF pages 186-192: Harry finds the Mirror of Erised in an unused classroom near a suit of armor, and Dumbledore says hundreds before Harry have discovered it.
+- PS, Chapter Fourteen, PDF pages 214-216: Harry and Hermione carry Norbert through the entrance hall, marble staircase, dark corridors, additional staircases, and a steep spiral staircase to the top of the tallest tower.
+- CoS, Chapter Five, PDF pages 350-351: The route to Gryffindor Tower passes muttering portraits, suits of armor, stone stairs, a password-controlled portrait entrance, and a second-year dormitory.
+- CoS, Chapter Eleven, PDF page 452: McGonagall takes Harry to Dumbledore's office through a passworded stone gargoyle, a concealed wall opening, a moving spiral staircase, and an oak door with a griffin-shaped knocker.
+- CoS, Chapter Twelve, PDF page 453: Dumbledore's circular office contains silver instruments, old headmaster and headmistress portraits, a claw-footed desk, and the Sorting Hat on a shelf.
+- CoS, Chapter Twelve, PDF pages 464-466: The Slytherin common room is reached through dungeon passages and a passworded concealed stone door, leading to a low underground room with greenish lamps and a carved mantelpiece.
+- CoS, Chapter Thirteen, PDF pages 484 and 486: Riddle's memory shows Professor Dippet's era using the same circular headmaster's office, sleeping portraits, moving spiral staircase, and gargoyle entrance, while Fawkes and Dumbledore's silver instruments are absent.
+- CoS, Chapter Sixteen, PDF pages 530-532: Moaning Myrtle's death testimony leads Harry to a nonworking snake-marked tap in the girls' bathroom; Parseltongue opens the sink and exposes a large pipe entrance.
+- CoS, Chapter Sixteen, PDF pages 532-535: The route toward the Chamber descends through plumbing below the dungeons into stone tunnels and ends at a serpent-carved wall opened by Parseltongue.
+- CoS, Chapter Seventeen, PDF pages 536-537: The central Chamber contains serpent-entwined stone pillars, greenish gloom, hollow-eyed stone snakes, and an ancient giant wizard statue at the back wall.
+- CoS, Chapter Seventeen, PDF page 552: Fawkes carries Harry's group upward through the pipe into Moaning Myrtle's bathroom, where the sink hiding the pipe slides back into place.
+- PoA, Chapter Six, PDF pages 655-657: The route to the North Tower Divination classroom involves multiple staircases, Sir Cadogan moving through portrait frames as a guide, a narrow spiral staircase, and a ceiling trapdoor with a descending ladder.
+- PoA, Chapter Eight, PDF pages 699-700: Harry uses the Fat Lady password to enter Gryffindor Tower through the portrait hole. [classification: original_book_candidate]
+- PoA, Chapter Ten, PDF pages 733-734: Fred and George explain that the Marauder's Map came from Filch's confiscated dangerous-items drawer, activates by wand phrase, shows Hogwarts castle and grounds, tracks named moving dots, and reveals seven passages toward Hogsmeade. [classification: pre_1984_institutional_history]
+- PoA, Chapter Ten, PDF pages 735-737: The map guides Harry through the one-eyed witch statue by the spell Dissendium, down a hidden slide and passage, and up through a concealed Honeydukes cellar trapdoor. [classification: pre_1984_institutional_history]
+- PoA, Chapter Twelve, PDF pages 781-782: Neville is refused entry by Sir Cadogan after losing the week's passwords, showing frequent password changes and portrait-guardian enforcement at Gryffindor Tower during Sir Cadogan's temporary guardianship. [classification: original_book_candidate]
+- PoA, Chapter Fourteen, PDF pages 804-806 and 809: Harry uses the Marauder's Map, the Dissendium spell, the one-eyed witch statue, and the Honeydukes passage again during a Hogsmeade weekend, then returns through the same route after Malfoy sees him. [classification: pre_1984_institutional_history]
+- PoA, Chapter Fourteen, PDF pages 813-816: Snape suspects the blank parchment may contain Hogsmeade-bypass instructions; the map answers under the Moony, Prongs, Padfoot, and Wormtail aliases; Lupin later says Filch confiscated it many years ago and treats castle information as dangerous. [classification: pre_1984_institutional_history]
+- PoA, Chapter Seventeen, PDF pages 854-856: Black in dog form drags Ron toward the Whomping Willow's root gap, Crookshanks stops the tree by pressing a trunk knot, and Harry follows a low tunnel that the Marauder's Map shows running toward Hogsmeade. [classification: pre_1984_institutional_history]
+- PoA, Chapter Seventeen, PDF pages 864-865: Lupin says he helped write the Marauder's Map as Moony, watched the trio cross the grounds to Hagrid's hut, confirms that Invisibility Cloak users still appear, and follows map dots toward the Whomping Willow. [classification: pre_1984_institutional_history]
+- PoA, Chapter Eighteen, PDF page 870: Lupin says Dumbledore admitted him to Hogwarts with precautions, the Whomping Willow was planted because he came to school, and the tunnel and Shrieking Shack were built for his monthly transformations. [classification: pre_1984_institutional_history]
+- PoA, Chapter Eighteen, PDF page 872: Lupin says the Marauders' night roaming gave them exceptional knowledge of the Hogwarts grounds and Hogsmeade and led them to write the Marauder's Map under the Moony, Padfoot, Wormtail, and Prongs nicknames. [classification: pre_1984_institutional_history]
+- PoA, Chapter Nineteen, PDF page 874: Snape finds the Invisibility Cloak at the Whomping Willow, sees the Marauder's Map in Lupin's office, and uses it to follow movement along the passage toward the Shrieking Shack. [classification: pre_1984_institutional_history]
+- PoA, Chapter Twenty, PDF pages 891-892: The group returns from the Shrieking Shack through the low tunnel, and Crookshanks presses the Whomping Willow trunk knot so they can exit safely onto the dark grounds near the castle. [classification: pre_1984_institutional_history]
+- PoA, Chapter Twenty-One, PDF pages 913-914: The time-replay perspective shows Crookshanks, Lupin, and Snape each using the Whomping Willow stopping knot and concealed passage. [classification: pre_1984_institutional_history]
+- PoA, Chapter Twenty-One, PDF pages 921-922: Flitwick's office is located on the seventh floor, thirteenth window from the right of the West Tower, and Hermione opens its locked window from outside with Alohomora. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-Two, PDF page 931: After resigning, Lupin returns Harry's Invisibility Cloak and Marauder's Map and explicitly frames secret passages out of the castle as knowledge James Potter would have approved. [classification: pre_1984_institutional_history]
+
+Confidence:
+- Strong explicit support for the enchanted ceiling.
+- Chapter placement is tentative but likely because the passage describes a permanent magical feature of the castle.
+- Strong support for Harry-era observation of castle navigation features, but the source does not date their origin.
+- Medium support for hidden-route examples; the chapter does not state who made them or whether their routes are stable.
+- Medium support for the Mirror of Erised as Hogwarts magical-object lore; Dumbledore's "hundreds before" phrase suggests prior history but does not date the mirror's arrival at Hogwarts.
+- Medium support for Chapter Fourteen's nighttime tower route; the source gives concrete route markers but does not name the tower or explain whether the route is enchanted.
+- Medium support for Gryffindor Tower access customs; the source shows Harry-era password and portrait-hole use but does not explain how passwords are set or whether all Houses use comparable mechanisms.
+- Strong support for Dumbledore's office entrance architecture in Harry's era, though the source does not date the mechanism or explain password governance.
+- Strong support for Dumbledore's office interior and portrait/artifact placement, though the source does not explain portrait function or Sorting Hat storage policy.
+- Strong support for the Slytherin common room's Harry-era dungeon location and concealed password entrance; the specific password is not historically stable evidence.
+- Strong support for Dippet-era continuity of the headmaster's office architecture and portraits, with caution that the memory source may not show every office feature.
+- Strong support for the bathroom entrance as a concealed magical mechanism, though the chapter does not yet explain who built or modified the plumbing-linked route.
+- Strong support for the subterranean serpent-gate route as hidden castle architecture, with caution that the "under the lake" location is Ron's inference.
+- Strong support for the central Chamber's observed architecture, though the passage does not independently date the construction or name the statue until Riddle addresses it.
+- Strong support for the bathroom-pipe route as a working two-way concealed route when assisted by Fawkes; ordinary ascent without magical aid remains uncertain.
+- Strong support for North Tower navigation and Divination classroom access in Harry's era; the source does not date the trapdoor-ladder entrance or Sir Cadogan's portrait installation.
+- Strong support for repeated Gryffindor Tower password-controlled access; Sir Cadogan's rapid password changes remain guardian-specific and likely exceptional.
+- Strong support for the Marauder's Map as a pre-Harry magical map of castle, grounds, occupants, and Hogsmeade routes; its spellwork, date, and relationship to official castle protections remain unresolved.
+- Strong support for the Honeydukes passage, one-eyed-witch entrance, and Whomping Willow tunnel as older concealed routes; ordinary authorization, monitoring, and maintenance remain uncertain.
+- Strong support for the Willow tunnel's original purpose as a Lupin accommodation route, but the source does not identify the builders or formal school records for the arrangement.
+- Strong support for Flitwick's office location and a security-relevant exterior-window access incident; the evidence belongs in later editorial notes unless later sources show a stable architectural vulnerability.
+- Strong support for the Marauder's Map as dangerous route knowledge that can be withheld or returned through staff discretion, though the formal rule for confiscated magical artifacts remains unstated.
+
+### The Castle and Its Grounds
+
+Possible chapters:
+- Interior Rooms
+  - Trophy Room
+  - Armor Galleries
+- Dungeons and Corridors
+  - Interior Routes and Bathrooms
+- The Lake and Castle Approach
+  - First-Year Boat Route
+  - Underground Harbor
+  - Express Route and Aerial Approach
+- The Grounds and Edge of the Forest
+  - Hagrid's Grounds Duties
+  - Hagrid's Hut and Gamekeeping Duties
+  - Forbidden Forest Paths and Supervised Searches
+  - Forbidden Forest Paths and Warnings
+  - The Whomping Willow
+
+Evidence:
+- PS, Chapter Four, PDF pages 51-52: Hagrid introduces himself as Keeper of Keys and Grounds at Hogwarts, then repeats that he is Keeper of Keys at Hogwarts.
+- PS, Chapter Six, PDF page 105: First-years first see Hogwarts from across the lake, cross in small boats, pass through an ivy-hidden opening, and reach an underground harbor beneath the castle.
+- PS, Chapter Nine, PDF page 145: The trophy room contains crystal trophy cases with cups, shields, plates, and statues; a nearby gallery contains suits of armor.
+- CoS, Chapter Thirteen, PDF pages 474-477: T. M. Riddle's special-services shield, Medal for Magical Merit, and place on an old Head Boys list show that the trophy room preserves named student honors and records.
+- PS, Chapter Ten, PDF pages 158-160: During the troll emergency, the text references dungeons, stairs, corridors, a deserted side corridor, a third-floor direction, and the girls' bathroom.
+- PS, Chapter Fourteen, PDF pages 210-212: The castle bell ends Herbology, students cross the grounds to the edge of the forest and Hagrid's hut, and Norbert interferes with Hagrid's gamekeeping duties.
+- PS, Chapter Fifteen, PDF pages 222-228: Filch escorts students across the grounds toward Hagrid's hut; Hagrid leads them to the forest edge, identifies paths, and uses colored wand sparks during a unicorn search.
+- CoS, Chapter Fifteen, PDF pages 508-509: Harry and Ron follow spiders along a forest path, reach denser forest, and remember Hagrid's warning not to leave the path.
+- CoS, Chapter Five, PDF pages 340-342: Following the Hogwarts Express by air gives a route north toward a castle high over the lake, then over greenhouses, a vegetable patch, and the lawns.
+- CoS, Chapter Five, PDF pages 343-344 and 348: The Whomping Willow attacks the crashed car and is later described as an old and valuable tree.
+- PoA, Chapter Five, PDF pages 645-646: Returning students leave Hogsmeade station by stagecoach, first-years are directed to the traditional lake journey, and the approach passes winged-boar gates, the drive, the entrance hall, and the Great Hall doorway.
+- PoA, Chapter Ten, PDF page 729: Lupin says the Whomping Willow was planted the year he arrived at Hogwarts, recalls students trying to touch it, and says students were forbidden to go near it after Davey Gudgeon nearly lost an eye. [classification: pre_1984_institutional_history]
+
+Confidence:
+- Strong support for Hagrid's named role, though the title's exact duties are not explained in this chapter.
+- Strong support for the first-year boat route and underground harbor as observed castle-and-grounds geography; the source does not date the route or explain its origin.
+- Strong support for the trophy room as a direct observed setting.
+- The source does not explain the age, purpose, or named contents of the trophies.
+- Strong support for named trophy-room records and honors, though Riddle's shield does not state the reason for the award in this chapter.
+- Medium support for dungeons and corridors as direct observed settings; the emergency scene gives route markers but little architectural explanation.
+- Medium support for the grounds, forest-edge, and gamekeeper's-hut evidence; the dragon incident itself is Harry-era later editorial context.
+- Strong support for Chapter Fifteen's Forbidden Forest path and search-protocol evidence, but the student access occurs as an exceptional detention during a dangerous incident.
+- Strong support for the later path-warning evidence, though Harry and Ron's nighttime route is unsupervised and follows spiders rather than an ordinary staff path.
+- Medium support for the aerial approach geography because it follows an unofficial route, but it corroborates the castle's relationship to the lake and grounds features.
+- Strong support for the Whomping Willow as a magical grounds feature and school property; this chapter does not date its planting or explain its purpose.
+- Strong support for Hogsmeade station arrival, older-student carriages, first-year lake routing, and the winged-boar gate approach; the chapter does not identify the invisible carriage pullers or date the routes' origins.
+- Strong support for a pre-Harry planting-date claim and student-safety prohibition around the Whomping Willow; the passage does not state the calendar year or original purpose.
+
+### Ceremonies and School Traditions
+
+Possible chapters:
+- Great Hall Daily Life
+  - Meals, Owl Post, and Public Correspondence
+- The Sorting Ceremony
+  - Arrival of First-Year Students
+  - House Assignment
+  - House Points and the House Cup
+  - Sorting Hat as Magical School Artifact
+- Halloween Feast
+  - Great Hall Decorations and Banquets
+- Christmas at Hogwarts
+  - Holiday Residence and Winter Conditions
+  - Great Hall Decorations and Dinner
+  - Holiday Residence During School Emergencies
+  - Holiday Residence and Easter Stays
+  - Small-Holiday Meals and Great Hall Layout
+- End-of-Year Feast and House Cup
+  - Final Standings, Point Awards, and Hall Decorations
+  - Crisis Feasts, Special Awards, and Final-Term Adjustments
+- House Life and Student Celebrations
+  - Common-Room Parties and Head-of-House Enforcement
+- The Hogwarts Express and School Travel
+  - Platform Nine and Three-Quarters
+  - Platform Barrier Access and Secrecy
+  - Arrival at Hogsmeade and First-Year Gathering
+  - End-of-Year Departure and Muggle-Secrecy Measures
+  - Emergency Magical Transport Outside School Routes
+  - Hogsmeade Weekend Permissions
+
+Evidence:
+- PS, Chapter Six, PDF pages 86-90: Harry's ticket, Molly Weasley's instructions, and the hidden King's Cross barrier identify platform nine and three-quarters and the eleven o'clock Hogwarts Express departure.
+- PS, Chapter Six, PDF pages 104-105: Students change into robes, luggage is left on the train for separate transport, Hagrid gathers first-years, and the first-years cross the lake by boat.
+- PS, Chapter Seven, PDF pages 107-108: Professor McGonagall introduces Sorting as a start-of-term ceremony before first-years enter the Great Hall for the banquet, and explains House membership, House points, and the House Cup.
+- PS, Chapter Ten, PDF page 157: Students attend a Halloween feast in the Great Hall with seasonal decorations and food appearing on the golden plates as at the start-of-term banquet.
+- PS, Chapter Twelve, PDF pages 176-178 and 184: McGonagall records students staying at Hogwarts for Christmas; the Great Hall is decorated with holly, mistletoe, twelve trees, magical bubbles, and candles; Christmas dinner is held with staff and students.
+- PS, Chapter Seventeen, PDF pages 270-272: The end-of-year feast includes House Cup standings, last-minute point awards, and Great Hall decoration changes from Slytherin to Gryffindor colors.
+- PS, Chapter Seventeen, PDF page 273: Students receive holiday magic warnings, cross the lake to the Hogwarts Express, return to platform nine and three-quarters, and leave through the barrier in small groups to avoid alarming Muggles.
+- CoS, Chapter Five, PDF pages 337-338: The King's Cross barrier must be crossed discreetly to reach platform nine and three-quarters, but Harry and Ron find it sealed before the train leaves.
+- CoS, Chapter Five, PDF pages 344-345: Harry and Ron observe the start-of-term Sorting through a Great Hall window; the text calls the Sorting Hat aged and says it sorts new students every year.
+- CoS, Chapter Six, PDF pages 353-355: Breakfast in the Great Hall confirms four House tables beneath the enchanted ceiling, mass owl-post delivery, Howlers, and Dumbledore's family notification after serious misconduct.
+- CoS, Chapter Eight, PDF pages 390-391: The Halloween feast is again treated as a school-wide Great Hall event, with usual live bats, carved Hagrid pumpkins, gold plates, candles, and rumored dancing-skeleton entertainment.
+- CoS, Chapter Eleven, PDF page 437: McGonagall again collects names of students staying at Hogwarts for Christmas, corroborating the holiday-residence sign-up procedure.
+- CoS, Chapter Twelve, PDF pages 456-458: After the Justin/Nick attacks, many students book Christmas seats on the Hogwarts Express, while a smaller group remains at school and Percy claims prefect duty to support the teachers.
+- CoS, Chapter Twelve, PDF page 459: Christmas dinner in the Great Hall includes frost-covered trees, holly, mistletoe, warm dry enchanted snow, carols led by Dumbledore, and holiday food.
+- CoS, Chapter Thirteen, PDF pages 478-480: Lockhart arranges a Valentine's Day morale event with Great Hall decoration, schoolwide message delivery by dwarfs, and class/corridor disruption.
+- CoS, Chapter Seventeen, PDF pages 544 and 547: Fawkes brings Harry the old school Sorting Hat in the Chamber, and a silver sword appears inside it when Harry asks for help.
+- CoS, Chapter Eighteen, PDF page 556: Dumbledore awards Harry and Ron Special Awards for Services to the School and two hundred points each after the Chamber rescue.
+- CoS, Chapter Eighteen, PDF pages 558-559: Dumbledore identifies the sword from the Sorting Hat as Godric Gryffindor's and says only a true Gryffindor could have drawn it.
+- CoS, Chapter Eighteen, PDF pages 563-565: The post-Chamber celebration is an all-night Hogwarts feast, Gryffindor's points secure the House Cup, exams are canceled, and students later leave by Hogwarts Express through the enchanted barrier.
+- PoA, Chapter One, PDF page 578: Summer owl post delivers personal birthday packages and an official Hogwarts-crest letter to Harry at Privet Drive.
+- PoA, Chapter One, PDF pages 583-584: The third-year Hogwarts letter gives Express departure logistics and requires a parent or guardian signature for Hogsmeade weekend visits.
+- PoA, Chapter Two, PDF pages 588-589: Harry confirms that third years are allowed to visit Hogsmeade and negotiates for Uncle Vernon to sign the required permission form.
+- PoA, Chapter Three, PDF pages 600-602: The Knight Bus appears when Harry extends his wand hand and is described as emergency transport for stranded witches and wizards, with land-travel limits, fares, and Muggle notice avoidance.
+- PoA, Chapter Three, PDF page 609: Fudge says Harry may return to the Dursleys next summer if he stays at Hogwarts for the Christmas and Easter holidays, and Harry says he always does.
+- PoA, Chapter Three, PDF page 611: Fudge refuses to sign Harry's Hogsmeade permission as Minister of Magic because he is not Harry's parent or guardian, saying the rules cannot be bypassed.
+- PoA, Chapter Five, PDF page 632: The Weasleys use the barrier between platforms nine and ten in pairs to reach platform nine and three-quarters, where families see students onto the Hogwarts Express with trunks and pets.
+- PoA, Chapter Five, PDF pages 636-637: Hermione cites *Sites of Historical Sorcery* for Hogsmeade as Britain's only entirely non-Muggle settlement, the 1612 goblin rebellion inn, and the Shrieking Shack, while Harry again notes that he lacks a signed Hogsmeade permission form.
+- PoA, Chapter Five, PDF pages 648-649: Harry and Hermione miss the Sorting after McGonagall's office summons, then Dumbledore opens the start-of-term feast with schoolwide announcements.
+- PoA, Chapter Eight, PDF pages 697-699: McGonagall collects Hogsmeade forms, refuses to override the guardian-signature rule, and Filch checks names at the front doors. [classification: original_book_candidate]
+- PoA, Chapter Eight, PDF page 705: The Great Hall Halloween feast includes seasonal decorations, stormy ceiling imagery, and entertainment by Hogwarts ghosts. [classification: original_book_candidate]
+- PoA, Chapter Ten, PDF page 739: A Ministry notice says dementors patrol Hogsmeade after sundown during the Black crisis, while Hermione continues to object that Harry lacks a signed Hogsmeade form. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Eleven, PDF page 758: The castle has the usual Christmas decorations despite low student attendance, including corridor holly and mistletoe, lights in suits of armor, and the Great Hall's usual twelve Christmas trees. [classification: original_book_candidate]
+- PoA, Chapter Eleven, PDF pages 762-763: During the small Christmas lunch, the House tables are moved to the walls and a single central table is set for staff and the few remaining students. [classification: original_book_candidate]
+- PoA, Chapter Thirteen, PDF pages 794-796: Gryffindors hold an all-day common-room victory party, Fred and George return with Honeydukes supplies with implied Marauder's Map help, and McGonagall ends the celebration at one in the morning. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fourteen, PDF page 811: Snape states that Harry has no permission to be in Hogsmeade and frames the illicit visit as a safety violation during the Sirius Black crisis. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-Two, PDF page 935: The final exam results come out on the last day of term, Percy receives top-grade N.E.W.T.s, Fred and George scrape O.W.L.s, and Gryffindor's House Championship win sets the end-of-term feast decorations. [classification: original_book_candidate]
+- PoA, Chapter Twenty-Two, PDF pages 937-939: Sirius sends Harry a signed godfather permission note for Hogsmeade weekends, which Harry expects will be good enough for Dumbledore. [classification: post_1984_later_editorial_note]
+
+Confidence:
+- Strong support for ordinary Great Hall breakfast and owl-post routines; the chapter does not explain how Howlers are regulated or whether family notification follows a formal policy.
+- Strong support for Harry-era departure and arrival procedures on the Hogwarts Express; the source does not state when the train route, hidden platform, luggage transfer, or boat tradition began.
+- Medium support for ceremony structure and first-year arrival practice.
+- The source confirms Harry-era practice but does not state the custom's origin or whether *Hogwarts: A History* covers it.
+- Medium support for the Halloween feast as a school tradition; the chapter does not state its origin or regularity beyond this observed feast.
+- Strong support for observed Christmas practices in Harry's first year, but the source does not state the origin or age of the holiday traditions.
+- Strong support for the end-of-year feast as a House Cup awarding venue and public school ceremony, though the last-minute point awards are Harry-era specific.
+- Strong support for end-of-year travel logistics and Muggle-secrecy measures; the chapter does not explain who issues the holiday magic warning or whether the departure process is historically stable.
+- Strong support for the platform barrier's ordinary secrecy procedure and for failure/closure as a school-travel disruption; later evidence is needed to identify who can close it and how.
+- Strong support for the Sorting as an annual ceremony in Harry's era, but the chapter still does not date its origin.
+- Strong support for Halloween feast recurrence and seasonal decoration details; the source still does not identify the feast's origin or who arranges decorations and entertainment.
+- Strong support for repeated Christmas holiday sign-ups as a staff-managed practice across Harry's first two school years, though the custom's origin remains unstated.
+- Strong support for Christmas residence and dinner during the Chamber crisis, while emergency departures and Percy's prefect framing should be treated as later editorial context.
+- Medium support for a one-off staff-arranged Valentine's Day morale event; it should not be treated as an annual Hogwarts tradition without further evidence.
+- Strong support for the Sorting Hat as a magical school artifact beyond the ceremony, while the sword's identity and appearance mechanism remain unexplained in this chapter.
+- Strong support for extraordinary service awards and large House-point awards after a crisis, but the scale should not be treated as ordinary point policy.
+- Strong support for the sword's identity as Godric Gryffindor's and for its link to true Gryffindor identity, though the Hat-sword mechanism remains unexplained.
+- Strong support for a crisis-altered end-of-year feast, House Cup outcome, and Express departure; canceled exams and classes are exceptional Chamber-crisis measures.
+- Strong support for owl post as summer correspondence infrastructure connecting Hogwarts and students, though delivery routing mechanisms remain unexplained.
+- Strong support for Hogsmeade weekend visits as a regulated third-year privilege requiring guardian permission; scheduling and supervision remain unstated.
+- Strong corroboration that Hogsmeade access depends on a signed guardian permission form, though the school-side approval and supervision process remain unstated.
+- Medium support for the Knight Bus as emergency magical transport relevant to student travel failures; it is not a Hogwarts service and belongs in later editorial travel context.
+- Strong support that Hogwarts can function as a recurring Christmas and Easter holiday residence for at least some students, but formal Easter sign-up procedures remain unstated.
+- Strong corroboration that Hogsmeade permission requires parent or guardian authority and cannot be replaced by a Minister's signature; an appeal route remains unknown.
+- Strong corroboration for platform nine and three-quarters and Hogwarts Express departure logistics, with additional evidence for paired barrier crossing, family sendoff, and pet/luggage handling.
+- Strong support for Hogsmeade as a named historical destination and for the continued force of the guardian-permission rule; the cited source is external to *Hogwarts: A History* and should be indexed separately.
+- Medium support for start-of-term feast and Sorting sequencing because Harry and Hermione miss part of the ceremony, but the passage confirms the ceremony's place before Dumbledore's announcements and feast.
+- Strong support for observed Hogsmeade permission collection and front-door list checking; staff discretion and appeal routes remain open.
+- Strong support for Halloween and Christmas tradition continuity, though decoration origins, organizers, and feast entertainment authority remain unstated.
+- Medium support for common-room victory celebrations; the party is spontaneous and partly supplied through illicit or unofficial Hogsmeade access.
+- Strong support for exam results and House Championship outcome being part of end-of-term closure, though the scoring formula and ceremony details remain incomplete.
+- Strong support that a signed substitute permission note can matter for Hogsmeade access, but Dumbledore's actual acceptance and the formal godparent rule remain unstated.
+
+### Ghosts, Portraits, and Magical Residents
+
+Possible chapters:
+- Resident Ghosts and Poltergeists
+  - Wayfinding and Disruption
+  - Nearly Headless Nick and House Guidance
+  - Nearly Headless Nick and Ghost Society
+  - Peeves the Poltergeist
+  - House Ghosts and Bathroom Hauntings
+  - Deathday Customs
+- Portraits as Residents and Gatekeepers
+  - Temporary Portrait Guardians
+  - Portrait Social Life and Access Control
+- Ghosts and Haunted Places
+  - The Shrieking Shack Reputation
+- Magical Residents of the Grounds
+  - Centaurs in the Forbidden Forest
+  - The Giant Squid in the Lake
+  - Forbidden Forest Creature Lore
+  - Aragog's Colony in the Forbidden Forest
+
+Evidence:
+- PS, Chapter Eight, PDF page 124: Ghosts can pass through doors; Nearly Headless Nick helps new Gryffindors find their way; Peeves disrupts students and can act invisibly.
+- PS, Chapter Eight, PDF page 125: History of Magic is taught by Professor Binns, a ghost who continued teaching after leaving his body behind.
+- PS, Chapter Fifteen, PDF pages 225-227: Harry and Hermione meet centaurs Ronan and Bane in the Forbidden Forest; Hagrid says several centaurs live there, keep mostly to themselves, and sometimes respond when he wants a word.
+- PS, Chapter Sixteen, PDF page 235: Students relax by the lake after exams while the Weasley twins and Lee Jordan interact with a giant squid in the warm shallows.
+- CoS, Chapter Fifteen, PDF pages 505-506: Harry and Ron discuss the Forbidden Forest as a place associated with werewolf rumors, centaurs, and unicorns.
+- CoS, Chapter Fifteen, PDF pages 511-512: Harry and Ron are carried to a hollow deep in the forest where Aragog and a colony of giant spiders live.
+- CoS, Chapter Eight, PDF pages 384-385: Nearly Headless Nick is identified as the ghost of Gryffindor Tower and reads a Headless Hunt rejection letter whose requirements exclude him because his head is not fully severed.
+- CoS, Chapter Eight, PDF pages 391-394: Nick's deathday party gathers Hogwarts and visiting ghosts, names the Fat Friar, Bloody Baron, Moaning Myrtle, and Peeves, gives Sir Nicholas's death date as October 31, 1492, and locates Myrtle's haunting in a first-floor girls' bathroom.
+- PoA, Chapter Seven, PDF pages 681-682: Peeves blocks a keyhole with chewing gum, threatens Filch's broom access, and Lupin uses Waddiwasi to remove the obstruction.
+- PoA, Chapter Nine, PDF pages 710 and 712: The Fat Lady refused Sirius Black entry without the password, hid in another painting, Filch is expected to restore her, and Sir Cadogan volunteers as temporary Gryffindor portrait-hole guardian after other pictures refuse. [classification: original_book_candidate]
+- PoA, Chapter Eleven, PDF page 765: Sir Cadogan holds a Christmas party with monks, previous Hogwarts headmasters, and his pony, then asks for the Gryffindor Tower password and admits Harry and Ron. [classification: original_book_candidate]
+- PoA, Chapter Fourteen, PDF page 807: Ron calls the Shrieking Shack Britain's most haunted dwelling, says even Hogwarts ghosts avoid it, attributes that information to Nearly Headless Nick, and notes that Fred and George found all entrances sealed. [classification: external_context]
+- PoA, Chapter Seventeen, PDF pages 856-857: The Willow tunnel opens into a dusty, boarded, damaged room Hermione identifies as the Shrieking Shack, and Harry observes that ghosts did not cause the physical destruction. [classification: pre_1984_institutional_history]
+- PoA, Chapter Eighteen, PDF pages 869-870: Lupin says the Shrieking Shack was never haunted; villagers heard his werewolf screams, mistook them for violent spirits, and Dumbledore encouraged the rumor. [classification: pre_1984_institutional_history]
+
+Confidence:
+- Strong support for ghosts and Peeves as part of Hogwarts daily life.
+- Origins, age, and formal institutional status remain unconfirmed in this source unit.
+- Strong support for centaurs as magical residents of the Forbidden Forest, but the source does not state when they first lived there or their formal relationship to Hogwarts.
+- Strong support for the giant squid as an observed magical resident of the lake; the source does not explain its origin, age, or formal relationship to the school.
+- Medium support for broader Forbidden Forest creature lore; the werewolf point is student rumor, while centaurs and unicorns are already independently supported.
+- Strong support for Aragog's colony as a Harry-era observed forest resident community, though the chapter does not name the species.
+- Strong support for Nick's ghostly status, deathday, and exclusion from the Headless Hunt, though the source does not explain when he became Gryffindor-associated.
+- Strong support for Moaning Myrtle haunting a first-floor girls' bathroom in Harry's era, but the source does not yet explain her death or the origin of the haunting.
+- Strong support for Peeves as a continuing disruptive resident who affects castle maintenance and class movement; the spell response is teacher-specific and does not define Peeves policy.
+- Strong support for portraits as active, mobile castle residents with security roles and individual choice; ordinary appointment of portrait guardians remains uncertain.
+- Strong support for portrait social behavior and continued password-controlled access; the previous-headmaster portraits at Sir Cadogan's party need cross-checking against headmaster's-office portrait tradition.
+- Strong support for correcting the Shrieking Shack's haunted reputation as a Dumbledore-encouraged cover story rather than ghost evidence; its village reputation remains external Hogwarts-adjacent context.
+
+### Academic Life and Curriculum
+
+Possible chapters:
+- Admissions and First-Year Preparation
+  - Acceptance Letters and School Identity
+  - Locating Prospective Students
+  - Persistent Delivery to Muggle Households
+  - Acceptance Letters and Term Dates
+  - Follow-Up and School-Supply Preparation
+  - Earlier Generations and Hogwarts Letters
+  - Student Names and Seven-Year Schooling
+  - First-Year Supply List
+  - Annual School Letters and Booklists
+  - Third-Year Hogsmeade Permission Forms
+  - Diagon Alley and Supply Access
+  - Pets, Owls, and Student Belongings
+  - Wands as Required Equipment
+  - Student Use of Books Before Arrival
+  - Muggle-Born Discovery and Family Communication
+- First-Year Curriculum
+  - Core Subjects and Introductory Lessons
+  - Astronomy, Herbology, Charms, Transfiguration, and Defense Against the Dark Arts
+  - Defense Against the Dark Arts Staff and Materials
+- Second-Year Curriculum
+  - Herbology Greenhouses and Class Pairings
+  - Herbology and Magical Plant Safety
+  - Transfiguration Practice and Wand Dependence
+  - Care of Magical Creatures and Classroom Creatures
+  - Course Books and Dangerous Texts
+  - Live Creature Handling and Safety
+  - Defense Against the Dark Arts Practical Instruction
+  - Dueling Club and Defensive Practice
+- Course Structure and Academic Progression
+  - Third-Year Elective Selection
+  - Third-Year Course Materials
+  - Third-Year Books and Supplies
+  - Divination and Third-Year Electives
+  - Timetables, Electives, and Exceptional Study Arrangements
+- Exams and Assessment
+  - Written Papers, Practical Exams, and Anti-Cheating Measures
+  - O.W.L.s and Student Advancement
+  - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
+  - Third-Year Practical and Written Exams
+- Homework and Independent Study
+  - Holiday Homework and Student Materials
+  - Holiday Storage of School Materials
+  - Holiday Homework and Supply Shopping
+- Charms
+  - First-Year Spellwork
+- History of Magic
+  - Professor Binns and Historical Instruction
+  - Course Books and Historical Essay Topics
+- Magical Creatures in School Knowledge
+  - Unicorn Materials and Centaur Divination
+- Potions
+  - Dungeon Classrooms and Introductory Potion-Making
+  - Cross-House Lessons
+  - Advanced Potion-Brewing and Staff Expertise
+- Defense Against the Dark Arts
+  - Defense Against the Dark Arts Creature Sequence
+  - Practical Creature-Based Assessment
+  - Patronus Instruction and Anti-Dementor Defense
+- Divination and Third-Year Electives
+  - Crystal-Gazing Exams and True Seer Evidence
+- Transfiguration and Advanced Magical Transformations
+  - Animagi in Classroom Study and External Registers
+- Flying Lessons
+  - First-Year Broom Training
+  - School Brooms and Practical Instruction
+
+Evidence:
+- PS, Chapter Three, PDF pages 39-40: Harry's first unopened school-style letter arrives on parchment with emerald-green ink, no stamp, and a purple wax seal showing four animal emblems around an H.
+- PS, Chapter Three, PDF pages 43-45: Later letters update Harry's address after he is moved to the smallest bedroom and then arrive through blocked household routes, eggs, and the fireplace.
+- PS, Chapter Four, PDF pages 54-55: Harry reads his Hogwarts acceptance letter, which names Dumbledore as Headmaster, McGonagall as Deputy Headmistress, a September 1 term start, and a July 31 owl-response deadline.
+- PS, Chapter Four, PDF page 55: Hagrid sends Dumbledore an owl saying Harry has received his letter and that Hagrid will take him to buy his school things.
+- PS, Chapter Four, PDF page 56: Petunia says Lily received a similar letter, attended the school, returned for vacations, and later met James Potter at school.
+- PS, Chapter Four, PDF page 60: Hagrid says Harry's name has been down since birth, describes Hogwarts as a seven-year school, and identifies Dumbledore as the current headmaster.
+- PS, Chapter Five, PDF pages 66-67: The enclosed Hogwarts supply list names first-year uniform requirements, course books, equipment, optional pets, and the rule that first-years may not bring their own broomsticks.
+- PS, Chapter Five, PDF pages 68-71: Hagrid takes Harry through the Leaky Cauldron and brick-wall entrance into Diagon Alley to buy school supplies.
+- PoA, Chapter Three, PDF pages 606-610: The Knight Bus drops Harry at the Leaky Cauldron, behind which lies the magical entrance to Diagon Alley, and Fudge arranges supervised temporary lodging there before term.
+- PS, Chapter Five, PDF pages 69-70: Hagrid identifies Quirrell as a Hogwarts teacher, and Quirrell names Defense Against the Dark Arts as his subject while mentioning a new vampire book.
+- PS, Chapter Five, PDF pages 79-82: Harry buys his required wand at Ollivanders; Ollivander explains wand selection, wand cores, first-wand records, and the principle that the wand chooses the wizard.
+- PS, Chapter Six, PDF page 100: Hermione says she learned the first-year course books by heart, practiced simple spells, and bought extra named background-reading books before arrival.
+- PS, Chapter Eight, PDF pages 124-126: Harry's first week includes Astronomy, Herbology, Charms, Transfiguration, and Defense Against the Dark Arts, with named teachers and lesson contexts.
+- PS, Chapter Eight, PDF page 125: History of Magic is identified as the only class taught by a ghost, Professor Binns.
+- PS, Chapter Eight, PDF pages 126-129: First-year Gryffindors have double Potions with Slytherins; Potions takes place in the dungeons under Snape; the first lesson includes potion ingredients and a boil-cure potion.
+- PS, Chapter Nine, PDF pages 133 and 135-136: First-year Gryffindors and Slytherins attend flying lessons together on the grounds with school brooms under Madam Hooch.
+- PS, Chapter Ten, PDF pages 156-157 and 161: Flitwick's Charms class practices levitation with Wingardium Leviosa, and the same spell is later used against the troll's club.
+- PS, Chapter Thirteen, PDF page 198: A Defense Against the Dark Arts class has students copying down different methods for treating werewolf bites.
+- PS, Chapter Fourteen, PDF pages 205-206: Hermione starts exam study schedules; teachers assign heavy Easter homework; students review dragon's blood, wand movements, Dittany, and library coursework.
+- PS, Chapter Fifteen, PDF pages 230-233: Firenze explains unicorn blood, Harry says unicorn horn and tail hair have been used in Potions, and Hermione links centaur predictions to McGonagall's view of fortune-telling as imprecise.
+- PS, Chapter Sixteen, PDF pages 234-235: End-of-year exams include written papers with bewitched anti-cheating quills, practical Charms, Transfiguration, and Potions tasks, and a History of Magic exam with named historical topics.
+- CoS, Chapter Sixteen, PDF pages 517-518: McGonagall says exams will proceed because Dumbledore instructed staff to keep the school running as normally as possible while it remains open.
+- CoS, Chapter One, PDF page 284: Harry's school materials are locked away during summer, leaving him unable to complete homework or practice Quidditch before returning to school.
+- CoS, Chapter Three, PDF pages 302 and 315: Harry's locked Hogwarts trunk, wand, and broomstick are retrieved during the rescue, while Ron's room shows school spellbooks and wand kept at home.
+- CoS, Chapter Four, PDF page 317: Harry receives a second-year school letter in green ink on yellowish parchment, with the usual Hogwarts Express instruction and a new required booklist.
+- CoS, Chapter Four, PDF pages 318-319: Hermione reports being busy with schoolwork during vacation and plans Diagon Alley book shopping; the Weasleys must buy multiple sets of Lockhart books plus Ginny's first-year supplies.
+- CoS, Chapter Four, PDF page 319: Percy receives twelve O.W.L.s, George expands the acronym as Ordinary Wizarding Levels, and the twins connect strong results to Head Boy precedent.
+- CoS, Chapter Four, PDF pages 330-331: Lockhart's signing at Flourish and Blotts confirms his required books and his appointment as Defense Against the Dark Arts teacher at Hogwarts.
+- CoS, Chapter Six, PDF pages 355-356: McGonagall distributes course schedules; Gryffindors have double Herbology with Hufflepuffs; students cross the vegetable patch to locked greenhouses, including greenhouse three with more dangerous plants.
+- CoS, Chapter Six, PDF pages 358-359: Sprout's Mandrake lesson covers Mandragora restorative uses, antidotes, fatal or incapacitating cries, earmuff safety, repotting practice, and Venomous Tentacula caution.
+- CoS, Chapter Six, PDF pages 360-361: McGonagall's Transfiguration class has second-years attempt beetle-to-button transformations, while Ron's damaged wand disrupts the lesson.
+- CoS, Chapter Six, PDF pages 361-362: Colin Creevey says he learned his unusual abilities were magic when his Hogwarts letter arrived and discusses magical photographic development to send pictures home.
+- CoS, Chapter Six, PDF pages 363-365: Lockhart's first Defense Against the Dark Arts class uses all seven required Lockhart books and begins with a quiz on those texts.
+- CoS, Chapter Six, PDF pages 365-367: Lockhart releases Cornish pixies in Defense Against the Dark Arts, fails to control them, and Hermione restores order with a Freezing Charm.
+- CoS, Chapter Seven, PDF page 377: Hagrid says the Defense Against the Dark Arts job has become difficult to fill and that people are starting to think the post is jinxed after a run of short tenures.
+- CoS, Chapter Eight, PDF page 390: A fire-dwelling salamander taken from Care of Magical Creatures class appears in the Gryffindor common room, where Fred and George experiment with feeding it a firework.
+- CoS, Chapter Nine, PDF pages 406-407: History of Magic is again taught by Professor Binns, the only ghost teacher, and Hermione redirects his class from the International Warlock Convention of 1289 to the Chamber of Secrets.
+- CoS, Chapter Eleven, PDF pages 437-438: The trio identify bicorn horn and boomslang skin as ingredients from Snape's private stores; a double Potions lesson in the dungeons includes Swelling Solution, brass scales, ingredient jars, and Snape's Deflating Draught response.
+- CoS, Chapter Eleven, PDF pages 439-440: Dumbledore permits Lockhart to start a Dueling Club in the Great Hall, where Lockhart and Snape demonstrate combative wand posture and the Disarming Charm.
+- CoS, Chapter Fourteen, PDF page 490: Professor Sprout says Mandrake maturity will allow the petrified students in the hospital wing to be revived.
+- CoS, Chapter Fourteen, PDF pages 490-491: Second-years choose third-year subjects from new-subject lists while retaining old subjects, with advice connecting electives to future work.
+- CoS, Chapter Sixteen, PDF page 518: McGonagall announces that Sprout's Mandrakes are ready for cutting and that the petrified victims should be revived that night.
+- CoS, Chapter Eighteen, PDF page 564: After the Chamber crisis, exams are canceled as a school treat and Defense Against the Dark Arts classes are canceled for the rest of term because Lockhart cannot return.
+- PoA, Chapter One, PDF pages 573-574: Harry uses Bathilda Bagshot's *A History of Magic* for a holiday History of Magic essay on medieval witch burning, Flame-Freezing Charms, and Wendelin the Weird.
+- PoA, Chapter One, PDF page 574: The Dursleys lock away Harry's spellbooks, wand, cauldron, and broomstick while Hogwarts teachers have assigned summer work, including a shrinking-potions essay for Snape.
+- PoA, Chapter One, PDF pages 580-581: Percy Weasley receives a Head Boy letter before his seventh year, is shown wearing the badge, and Hermione comments on the appointment.
+- PoA, Chapter One, PDF pages 582-583: Hagrid sends Harry *The Monster Book of Monsters* and says it may be useful next year, previewing a likely third-year course text.
+- PoA, Chapter One, PDF pages 583-584: Harry's third-year Hogwarts letter repeats September 1 and Hogwarts Express instructions, encloses a booklist, and adds a Hogsmeade permission form signed by a parent or guardian.
+- PoA, Chapter Two, PDF pages 594-595: Harry uses the *Handbook of Do-It-Yourself Broomcare* as a practical in-universe source, including a named charm for reluctant reversers and broom-handling instructions.
+- PoA, Chapter Four, PDF page 613: Harry stays at the Leaky Cauldron and repeatedly opens the courtyard brick-wall entrance into Diagon Alley while using the district for pre-term supplies.
+- PoA, Chapter Four, PDF page 614: Harry finishes holiday essays with help from Florean Fortescue, who is described as knowing a great deal about medieval witch burnings.
+- PoA, Chapter Four, PDF pages 615-617: Harry's booklist and shopping confirm third-year course materials, including *The Monster Book of Monsters* for Care of Magical Creatures, *Unfogging the Future* for Divination, *Intermediate Transfiguration*, and *The Standard Book of Spells, Grade Three*.
+- PoA, Chapter Four, PDF page 619: Hermione's book purchases confirm Arithmancy, Care of Magical Creatures, Divination, Study of Ancient Runes, and Muggle Studies, with Muggle Studies framed from the wizarding point of view.
+- PoA, Chapter Four, PDF pages 619-622: Hermione buys Crookshanks at the Magical Menagerie after discussing owls, family owls, Scabbers, and where pets sleep in student dormitories.
+- PoA, Chapter Five, PDF pages 634-635: Lupin's case identifies him as Professor R. J. Lupin, Hermione infers the Defense Against the Dark Arts vacancy, and the narration repeats rumors that the post is jinxed after recent short tenures.
+- PoA, Chapter Five, PDF page 648: Madam Pomfrey approves Lupin's use of chocolate after the dementor encounter and frames him as a Defense Against the Dark Arts teacher who knows remedies.
+- PoA, Chapter Five, PDF pages 650-651: Dumbledore announces Lupin as Defense Against the Dark Arts teacher and Hagrid as the new Care of Magical Creatures teacher replacing the retired Professor Kettleburn while retaining gamekeeping duties.
+- PoA, Chapter Six, PDF pages 654-655: Hermione's timetable shows Divination, Muggle Studies, and Arithmancy at the same time, and she says she has arranged the overload with Professor McGonagall.
+- PoA, Chapter Six, PDF pages 658-660: Trelawney introduces Divination as a subject requiring the Sight, outlines tea leaves, palmistry, crystal balls, and fire omens for the year, and has students use *Unfogging the Future* in class.
+- PoA, Chapter Six, PDF pages 663-664: McGonagall teaches Animagi in Transfiguration and directly calls Divination imprecise while distinguishing it from rare true Seers.
+- PoA, Chapter Six, PDF pages 665-667: The first Care of Magical Creatures lesson takes place near Hagrid's hut and the Forbidden Forest, pairs Gryffindors with Slytherins, and explains how to open *The Monster Book of Monsters*.
+- PoA, Chapter Six, PDF pages 667-670: Hagrid teaches hippogriff etiquette, bowing, eye contact, permission to touch, and riding basics during a supervised live-creature lesson.
+- PoA, Chapter Seven, PDF pages 675-680: A third-year double Potions lesson with Gryffindors and Slytherins covers Shrinking Solution ingredients, potion testing on Trevor, and classroom point discipline.
+- PoA, Chapter Seven, PDF pages 680-681: Hermione's heavy book bag and unexplained movement between stairs strengthen the exceptional third-year course-load thread without yet explaining the mechanism.
+- PoA, Chapter Seven, PDF pages 681-683: Lupin's first Defense Against the Dark Arts lesson is practical, requires only wands, and relocates students from the classroom to the staffroom.
+- PoA, Chapter Seven, PDF page 683: Lupin says a boggart moved into the staffroom wardrobe and that he asked the headmaster to have staff leave it for third-year practice.
+- PoA, Chapter Seven, PDF pages 683-689: Lupin teaches boggart behavior, Riddikulus, laughter as the repelling method, participation-based House points, and follow-up homework reading.
+- PoA, Chapter Eight, PDF pages 690 and 700-701: Lupin's Defense Against the Dark Arts lessons move from boggarts to Red Caps, kappas, and a grindylow prepared for the next lesson. [classification: original_book_candidate]
+- PoA, Chapter Eight, PDF page 703: Snape brews an unnamed complex potion for Lupin, and Lupin says few wizards are up to making it. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nine, PDF pages 714-717: Snape substitutes for Lupin, reviews the class's recent creature topics, skips ahead to werewolves, assigns two rolls of parchment, deducts House points, and gives Ron detention. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Ten, PDF page 728: Lupin cancels Snape's substitute werewolf essay because the class has not covered werewolves, then resumes his own Defense Against the Dark Arts sequence with a hinkypunk lesson. [classification: original_book_candidate]
+- PoA, Chapter Twelve, PDF pages 770-772 and 778-779: Lupin arranges private anti-dementor instruction in the History of Magic classroom, says a real dementor cannot be brought into the castle, uses a boggart from Filch's filing cabinet as a substitute, and teaches the Patronus Charm as advanced magic beyond O.W.L. level. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twelve, PDF pages 777 and 782-783: Hermione's workload includes Arithmancy charts, rune dictionaries, Muggle Studies diagrams and essays, Professor Vector's Arithmancy, overlapping elective classes, and Ancient Runes translation work. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Thirteen, PDF page 795: Hermione reads *Home Life and Social Habits of British Muggles* during the Gryffindor celebration and says she has hundreds of pages to finish by Monday. [classification: external_context]
+- PoA, Chapter Fifteen, PDF pages 820-824: Flitwick's class practices Cheering Charms and hints at exam relevance; Trelawney introduces crystal-ball work because the June exam will concern the Orb; Hermione leaves Divination after challenging the subject. [classification: original_book_candidate]
+- PoA, Chapter Sixteen, PDF pages 837-838: O.W.L.s and N.E.W.T.s are tied to exam pressure and school advancement; N.E.W.T.s are described as the highest qualification Hogwarts offers, while Hermione's schedule again shows overlapping exam times. [classification: original_book_candidate]
+- PoA, Chapter Sixteen, PDF pages 839-840: Third-year exams include Transfiguration, Charms, Care of Magical Creatures, Potions, midnight Astronomy, History of Magic, and Herbology, with several concrete practical tasks and locations. [classification: original_book_candidate]
+- PoA, Chapter Sixteen, PDF pages 840-841: Lupin's Defense Against the Dark Arts final is an outdoor obstacle course using a grindylow, Red Caps, a hinkypunk, and a boggart. [classification: original_book_candidate]
+- PoA, Chapter Sixteen, PDF pages 842-846: Trelawney tests students individually on crystal-gazing from *Unfogging the Future*, frames true-Seer ability as exceptional, and makes a real prediction she later does not remember. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Eighteen, PDF page 869: Hermione cites Professor McGonagall's Animagi class, her homework research, and the Ministry register while arguing that Pettigrew cannot be an Animagus; Lupin replies that the Ministry never knew three unregistered Animagi had been at Hogwarts. [classification: original_book_candidate]
+- PoA, Chapter Twenty-One, PDF pages 904 and 906: Hermione identifies her Time-Turner, says McGonagall obtained it through Ministry correspondence, and explains that she used it all year for overlapping lessons. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-One, PDF pages 919-920: Harry casts a corporeal stag Patronus across the lake, scatters the dementors, and Hermione calls the feat very advanced magic. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-Two, PDF pages 935-936: Hermione consults McGonagall, drops Muggle Studies after already leaving Divination, returns the Time-Turner, and expects a normal schedule again. [classification: post_1984_later_editorial_note]
+
+Confidence:
+- Medium support for admissions-letter logistics because Chapter Three shows the process in action but does not name Hogwarts until Chapter Four or explain the mechanism.
+- Strong support for the physical form and House-symbol crest of the first letter, but the letter contents remain unread in this chapter.
+- Strong support for the acceptance-letter wording and response timing; the enclosed equipment list is not fully included until the next chapter.
+- Medium support for owl follow-up and Hagrid's supply-buying mission because Harry's obstructed delivery situation may be exceptional.
+- Medium support for Lily's generation as earlier admissions evidence; Petunia's account is hostile and does not quote Lily's letter.
+- Medium support for birth-time registration and seven-year schooling; Hagrid gives the claim but not the registry mechanism.
+- Strong support for the first-year supply list as an in-universe Hogwarts document; continuity across school years remains to be checked.
+- Medium support for Diagon Alley access as admissions-adjacent infrastructure; it is external to Hogwarts but directly supports required school preparation.
+- Medium support for the Leaky Cauldron as student lodging and Diagon Alley access during an exceptional pre-term situation; this should remain later editorial context rather than ordinary Hogwarts accommodation policy.
+- Strong support for Quirrell's Harry-era Defense Against the Dark Arts role and materials; his appointment belongs in later editorial staff context.
+- Strong support for wands as required equipment and Ollivanders' wandlore; the evidence comes from an external supplier rather than a Hogwarts lesson.
+- Medium support for course-book preparation and extra reading before arrival; Hermione's habits are individual rather than representative of all first-years.
+- Strong support for Harry-era curriculum evidence.
+- The source does not establish how far back these timetables, classrooms, or staff assignments extend.
+- Strong support for Harry-era first-year flying instruction; the source does not date the origin of flying lessons or confirm stable House pairings.
+- Strong support for first-year Charms spellwork in Harry's year; the source does not date when this spell entered the curriculum.
+- Strong support for a specific Harry-era Defense Against the Dark Arts lesson topic; the text does not identify the textbook or prove the topic was standard historically.
+- Medium support for first-year exam preparation and Easter homework patterns; the passage does not describe formal exam policy or historical continuity.
+- Medium support for unicorn and centaur knowledge as curriculum-adjacent material; the chapter does not prove formal lesson scope beyond the Potions ingredient reference and Hermione's report of McGonagall's view.
+- Strong support for Harry-era exam formats and anti-cheating measures; the source does not date their origin or prove the same practices were long-standing.
+- Medium support for summer homework and holiday possession of school materials; the chapter does not identify which teachers assigned the work or whether Quidditch summer practice is formally required.
+- Medium support for holiday storage of school materials; Chapter Three adds examples from both Muggle and wizarding households but does not state a formal Hogwarts storage policy.
+- Strong support for annual returning-student letters and booklists; the evidence confirms a second-year list but not how stable booklist practices are across eras.
+- Medium support for holiday homework and supply shopping; Hermione's study habits may be exceptional, but the shopping logistics cover multiple students.
+- Strong support for O.W.L.s as named assessment credentials and Head Boy-adjacent achievement evidence, though the scoring system and selection process remain unstated.
+- Strong support for Lockhart's Harry-era Defense Against the Dark Arts appointment and course-material link; his staff role remains later editorial context.
+- Strong support for second-year course scheduling, Herbology greenhouse access, and Mandrake practical instruction; the chapter does not date the curriculum or establish stable House pairings.
+- Medium support for second-year Transfiguration practice and wand-dependence evidence; the lesson may not represent a long-term standardized curriculum sequence.
+- Medium support for Muggle-born admissions context through Colin's account; the passage is informal and does not quote his letter or family contact.
+- Strong support for Lockhart's required texts as classroom material, but the evidence also confirms his unreliable, atypical teaching style.
+- Strong support for a Harry-era practical Defense Against the Dark Arts classroom failure; the incident should be treated as later editorial staff context, not ordinary Hogwarts pedagogy.
+- Medium support for Defense Against the Dark Arts staffing instability; Hagrid's claim is informal and does not date the alleged jinx or identify prior teachers.
+- Medium support for Care of Magical Creatures as a Harry-era class involving live magical creatures; the chapter does not name the teacher, class year, or authorized handling rules.
+- Strong corroboration for Professor Binns and History of Magic as a historical-instruction source, though the chapter still does not date Binns's death or tenure.
+- Strong support for teacher-controlled potion ingredients and antidote response during practical Potions, though the private-store access in this chapter is illicit.
+- Strong support for a Harry-era defensive-practice club authorized by the headmaster, but the club may be an emergency response rather than a long-standing curriculum feature.
+- Strong support for Mandrake maturity as a practical link between Herbology and school medical response, though the use is crisis-specific.
+- Strong support for Lupin's Harry-era third-year Defense Against the Dark Arts creature sequence, but later evidence is needed before treating his order of topics as a standard Hogwarts syllabus.
+- Medium support for advanced Potions expertise and Wolfsbane-related context; the potion evidence is later editorial and not ordinary curriculum.
+- Strong support for private Patronus instruction as crisis-specific advanced defensive teaching rather than ordinary Hogwarts coursework.
+- Strong support for Hermione's exceptional elective overload and Time-Turner accommodation, while Ministry authorization details and precedent remain open.
+- Strong support that Hermione's Time-Turner academic accommodation was exceptional and ended with elective reduction, though the administrative return process remains unstated.
+- Strong support for O.W.L.s, N.E.W.T.s, third-year exam formats, and practical assessments as Hogwarts academic structures, though individual exam tasks may be teacher- and year-specific.
+- Strong support for Animagi as a classroom and research topic, with Ministry-register context external to Hogwarts instruction.
+- Strong support for third-year elective selection and academic progression, though the chapter does not provide an official complete course-selection form.
+- Strong support for crisis-era education continuity and exams continuing under Dumbledore's instruction, though this does not establish a general emergency-exam policy.
+- Strong support that Mandrake restorative use moves from planned maturity to immediate treatment readiness in the Chamber crisis.
+- Strong support for crisis-era academic disruption after the Chamber is resolved, including canceled exams and canceled Defense Against the Dark Arts classes; this is exceptional later-editorial evidence, not ordinary curriculum policy.
+- Strong support for Bathilda Bagshot's *A History of Magic* as a named course source, though the assignment topic is wider wizarding history rather than Hogwarts institutional history.
+- Strong corroboration for holiday homework and student-material access outside term; Harry's Muggle household restrictions remain exceptional.
+- Strong support that Percy receives formal Head Boy notification and a badge, though selection criteria and duties remain unstated.
+- Medium support for *The Monster Book of Monsters* as a third-year course text; the chapter strongly implies school relevance but does not yet quote the formal booklist.
+- Strong support for recurring annual school letters and booklists, plus first evidence for third-year Hogsmeade permission forms.
+- Medium support for the broomcare handbook as a practical student source; it is personally owned rather than confirmed as a Hogwarts-assigned text.
+- Medium support for the Leaky Cauldron and Diagon Alley as pre-term supply infrastructure; Harry's lodging remains exceptional.
+- Medium support for Florean Fortescue as an informal historical source; the passage does not make him a Hogwarts authority.
+- Strong support for specific third-year booklist requirements and elective course materials, though historical stability remains unstated.
+- Strong support for active third-year elective options and Muggle Studies framing, with Hermione's workload treated as exceptional.
+- Medium support for student pets and dormitory accommodation; the passage reflects observed practice rather than a formal pet rule.
+- Medium support for student awareness of Defense Against the Dark Arts staffing instability because the jinxed-job point remains rumor, though Lupin's appointment is formally confirmed later in the chapter.
+- Strong support for Lupin's practical dementor-remedy knowledge as later editorial evidence for Defense Against the Dark Arts expertise; the scene does not identify a textbook or ordinary lesson context.
+- Strong support for Harry-era staff appointments in Defense Against the Dark Arts and Care of Magical Creatures; Kettleburn's retirement and Hagrid's dual role need later context before becoming broader staff-history claims.
+- Strong support for active third-year timetable evidence, though Hermione's three-way scheduling conflict is exceptional and should not be generalized.
+- Strong support for Divination's Harry-era syllabus and named textbook use; Trelawney's claims should be separated from formal curriculum where possible.
+- Strong support for McGonagall's direct view of Divination and rare True Seers, but it remains one teacher's disciplinary judgment rather than a written policy.
+- Strong support for another third-year Potions practical lesson and House-point discipline example, though Snape's conduct should not be generalized to all Potions teaching.
+- Medium support for Hermione's exceptional course-load logistics; the underlying mechanism is deliberately unexplained in this chapter.
+- Strong support for Lupin's practical Defense Against the Dark Arts instruction and boggart lesson content, though the staffroom boggart was opportunistic rather than a standing fixture.
+- Strong support for boggart theory and Riddikulus as Harry-era third-year DADA material; the assigned textbook chapter is not named.
+- Strong support for the Care of Magical Creatures outdoor classroom location, dangerous course-text handling, and live hippogriff instruction; Hagrid's first-lesson choices remain disputed.
+
+### Rules, Discipline, and Governance
+
+Possible chapters:
+- Caretakers, Corridor Patrols, and Restricted Areas
+  - Out-of-Bounds Corridors
+  - Mrs. Norris and Rule Enforcement
+  - Secret Passageways
+  - Nighttime Wandering and Corridor Enforcement
+- Prefects and Student Authority
+  - Prefects on the Hogwarts Express
+  - Prefect Career Studies
+  - Head Boy Appointment and Insignia
+- Restricted Areas
+  - Third-Floor Corridor
+  - Astronomy Tower Access
+- House Points as Discipline and Reward
+  - Emergency Incident Assessment
+  - Fighting and Corridor Discipline
+- Library Rules and Enforcement
+  - Books Outside the School
+  - Restricted Section Intrusions
+- Detention Logistics and Punishments
+- Student Discipline and Expulsion
+  - Expulsion, Wand Sanctions, and Staff Retention
+  - Head of House Responsibility and Term-Bound Points
+- Student Health and the Hospital Wing
+  - Visitor Access and Headmaster Exception
+  - Treatment, Overnight Care, and Visitor Control
+  - Crisis Visitor Restrictions
+- Headmasters and School Authority
+  - Dumbledore's Reputation
+  - Dumbledore's Removal and Continuing Influence
+- Headmaster, Governors, and School Oversight
+  - Governors, Public Pressure, and Crisis Accountability
+  - Ministry Intervention During School Crises
+  - Governor Authority Over the Headmaster
+  - Teacher Accountability and Lesson-Safety Disputes
+  - Creature-Injury Hearings and External Committees
+  - Dangerous-Creature Appeals and Execution Authority
+  - Headmaster Authority and External Legal Power
+- Staff Appointments and School Safety
+  - Werewolf Employment and Staff Knowledge
+  - Wolfsbane Potion and Werewolf Accommodation
+  - Confidentiality and Near-Miss Safety Incidents
+- Magical Safety Rules and Exceptional Permissions
+  - Time-Turner Noninterference Rules
+- Creatures, Liability, and External Committees
+  - Dangerous-Creature Execution Procedure
+- Holiday Conduct and Underage Magic
+  - Magic Outside School
+  - Ministry Warning Letters and Secrecy Law
+  - Ministry Warnings and School Return Problems
+  - Ministry Warnings, Reversal, and Expulsion Discretion
+  - Muggle Artifact Law and Secrecy Context
+
+Evidence:
+- PS, Chapter Four, PDF page 61: Hagrid says he was expelled from Hogwarts in his third year, had his wand snapped, was restricted from doing magic, and was allowed by Dumbledore to stay on as gamekeeper.
+- PS, Chapter Six, PDF pages 91-92: Percy wears a prefect badge on his Hogwarts robes, says prefects have two front train compartments to themselves, and is expected to send an owl after arrival.
+- PS, Chapter Eight, PDF page 124: Filch and Mrs. Norris enforce rules in corridors; the third-floor corridor is out of bounds; Filch knows many secret passageways.
+- PS, Chapter Nine, PDF pages 142-147: Nighttime wandering is treated as rule-breaking that risks lost House points; Filch, Mrs. Norris, Peeves, and prefect authority appear as enforcement pressures.
+- PS, Chapter Nine, PDF page 147: The forbidden third-floor corridor is reached after Hermione opens a locked door while the students flee Filch.
+- PS, Chapter Ten, PDF pages 162-163: McGonagall deducts Gryffindor points and awards Gryffindor points after the troll incident, while questioning why students were not in their dormitory.
+- PS, Chapter Eleven, PDF page 165: Snape invokes a rule against taking library books outside the school and deducts five points from Gryffindor.
+- PS, Chapter Twelve, PDF page 177: Snape says fighting is against Hogwarts rules and deducts five points from Gryffindor.
+- PS, Chapter Twelve, PDF page 186: Filch reports nighttime wandering and an intrusion into the library's Restricted Section to Snape.
+- PS, Chapter Thirteen, PDF page 196: Neville is cursed by Malfoy near the library; Hermione performs the countercurse and urges Neville to report the incident to Professor McGonagall.
+- PS, Chapter Fourteen, PDF pages 215-216: McGonagall gives Malfoy detention and deducts twenty points from Slytherin for nighttime wandering and a false dragon story; Filch catches Harry and Hermione in the corridor after the tower incident.
+- PS, Chapter Fifteen, PDF pages 217-218: The tallest Astronomy Tower is identified as out of bounds except for classes, and Filch brings the students to McGonagall after they are found there at one o'clock in the morning.
+- PS, Chapter Fifteen, PDF pages 221-223: Detention notices direct students to meet Filch in the entrance hall at eleven; Filch escorts them toward Hagrid, comments on older punishments, and Hagrid frames useful forest work as the detention.
+- PS, Chapter Sixteen, PDF pages 239-240: McGonagall and Snape warn Harry away from the third-floor corridor and nighttime wandering, with threatened penalties up to another fifty House points and expulsion.
+- PS, Chapter Seventeen, PDF page 268: Madam Pomfrey restricts hospital wing visitors, treats Dumbledore's headmaster status as a special exception, and allows Ron and Hermione only five minutes.
+- CoS, Chapter One, PDF pages 287-288: The narration states that underage wizards are not allowed to use magic outside school, and Harry hides this from the Dursleys.
+- CoS, Chapter Two, PDF page 295: Dobby repeats that Albus Dumbledore is the greatest headmaster Hogwarts has had and says Dumbledore's powers rival Voldemort's at full strength.
+- CoS, Chapter Two, PDF pages 298-299: A Ministry warning letter cites the 1875 Decree for the Reasonable Restriction of Underage Sorcery, possible Hogwarts expulsion, and the Statute of Secrecy after detected spellwork at Harry's residence.
+- CoS, Chapter Three, PDF pages 301-302: Ron repeats that students are not supposed to do spells outside school and Harry says Hogwarts should be told that the Dursleys are preventing his return.
+- CoS, Chapter Three, PDF pages 306-307 and 313-314: Ron and Arthur Weasley explain the Misuse of Muggle Artifacts Office, Memory Charms after Muggle exposure, Muggle-baiting, raids, and the loophole around the enchanted flying car.
+- CoS, Chapter Four, PDF page 329: Percy reads *Prefects Who Gained Power*, described as a study of Hogwarts prefects and their later careers.
+- CoS, Chapter Five, PDF pages 348-349: Dumbledore warns Harry and Ron that another similar incident would mean expulsion, says he will write to their families, and leaves detention decisions to McGonagall because they are in her House.
+- CoS, Chapter Seven, PDF page 379: Harry again notes that Hagrid was expelled from Hogwarts in his third year, is not supposed to use magic, and may be concealing his old school wand inside his umbrella.
+- CoS, Chapter Seven, PDF page 380: McGonagall assigns Harry and Ron evening detentions, including trophy-room silver polishing with Filch and no magic for Ron, plus Lockhart fan-mail duty for Harry.
+- CoS, Chapter Eight, PDF pages 385-388: Mrs. Norris acts as Filch's deputy; Filch's office contains pupil punishment records, disciplinary paperwork, chains and manacles, and his private Kwikspell correspondence-course material.
+- CoS, Chapter Ten, PDF pages 426-428: After a Quidditch injury and Lockhart's failed charm, Madam Pomfrey treats Harry with Skele-Gro, keeps him overnight, and removes visitors so he can rest.
+- CoS, Chapter Twelve, PDF pages 466-467: A Daily Prophet clipping identifies Lucius Malfoy as a Hogwarts governor, and Draco Malfoy links continued Chamber attacks to possible pressure on Dumbledore's headmastership.
+- CoS, Chapter Thirteen, PDF page 471: During Hermione's extended hospital wing recovery, Madam Pomfrey uses curtains for patient privacy while classmates deliver daily homework.
+- CoS, Chapter Thirteen, PDF page 485: Headmaster Dippet refuses Riddle summer residence during the earlier Chamber crisis and says the Ministry is discussing school closure.
+- CoS, Chapter Fourteen, PDF page 499: Fudge says the Ministry must act after four attacks on Muggle-borns, cites Hagrid's record, and says school governors have been in touch.
+- CoS, Chapter Fourteen, PDF page 500: Lucius Malfoy presents an Order of Suspension with twelve governor signatures, and Fudge acknowledges headmaster suspension as a governors' matter.
+- CoS, Chapter Fourteen, PDF page 501: Dumbledore accepts governor removal while saying help will always be given at Hogwarts to those who ask for it.
+- CoS, Chapter Fifteen, PDF page 502: Madam Pomfrey bars visitors from the hospital wing because the Chamber attacker might return to the petrified victims.
+- CoS, Chapter Sixteen, PDF pages 521-522: McGonagall permits Harry and Ron to visit Hermione in the hospital wing and tells them to inform Madam Pomfrey that she has given permission.
+- CoS, Chapter Eighteen, PDF page 555: Dumbledore sends Ginny to the hospital wing, rules out punishment, and notes that Madam Pomfrey is administering Mandrake juice to the basilisk's victims.
+- CoS, Chapter Eighteen, PDF pages 559-560 and 564: The governors recall Dumbledore after the Chamber rescue, and Lucius Malfoy is later sacked as a school governor.
+- PoA, Chapter Two, PDF page 593: After accidental magic breaks a wineglass, Harry recalls that underage wizards are forbidden by wizard law to do magic outside school and that another detected Privet Drive incident could mean Hogwarts expulsion.
+- PoA, Chapter Three, PDF pages 608-610: Fudge says the Accidental Magic Reversal Squad has reversed the Aunt Marge incident and modified her memory, then declines to punish Harry or expel him despite the underage-magic decree.
+- PoA, Chapter Four, PDF pages 623-625: Percy is identified as newly elected Head Boy, wears a new silver badge, and is distinguished from Fred and George not being made prefects.
+- PoA, Chapter Five, PDF page 649: Dumbledore tells students that nobody may leave school without permission while dementors guard the grounds and looks to prefects plus the new Head Boy and Girl to prevent student incidents.
+- PoA, Chapter Six, PDF pages 671-673: After Buckbeak injures Malfoy in Care of Magical Creatures, Madam Pomfrey treats him, school governors are told, and Harry offers to give Dumbledore witness evidence that Hagrid warned students about insults.
+- PoA, Chapter Six, PDF pages 672-674: During the Sirius Black crisis, Harry believes he may walk across the grounds early in the evening, but Hagrid angrily returns the trio to school after dark.
+- PoA, Chapter Seven, PDF page 677: Malfoy says his father has complained to both the school governors and the Ministry of Magic after the hippogriff injury to pressure Hagrid's position.
+- PoA, Chapter Eleven, PDF pages 754-755: An official letter clears Hagrid of personal responsibility after Dumbledore's assurances but upholds Lucius Malfoy's complaint and sends Buckbeak before the Committee for the Disposal of Dangerous Creatures. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Thirteen, PDF pages 793-794: Malfoy, Crabbe, Goyle, and Marcus Flint imitate dementors to distract Harry during the match; McGonagall gives detentions, removes fifty points from Slytherin, and says she will speak to Dumbledore. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fourteen, PDF pages 800-801: McGonagall responds to Neville's password-list breach with a Hogsmeade ban, detention, and an order that nobody give him the Gryffindor Tower password; his grandmother sends a Howler. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fourteen, PDF pages 802-803: Hagrid prepares for Buckbeak's Committee for the Disposal of Dangerous Creatures case in London, books Knight Bus beds, and says Hermione has found useful defense material. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fifteen, PDF pages 818-819: Hagrid reports Buckbeak lost before the Committee, may return to Hogwarts until an execution date is fixed, and still has an appeal route; he also says he forgot defense dates Hermione had researched. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Sixteen, PDF pages 838-842 and 848-850: Buckbeak's appeal is held at Hogwarts with Ministry and Committee representatives present, an executioner prepared, Fudge acting as witness, and Hagrid reporting that Dumbledore tried but lacked power to overrule the Committee. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Seventeen, PDF pages 863-864: Hermione identifies Lupin as a werewolf from Snape's essay, the lunar chart, and the boggart moon; Lupin says Hogwarts staff already know and that Dumbledore had to persuade certain teachers he was trustworthy. [classification: pre_1984_institutional_history]
+- PoA, Chapter Eighteen, PDF page 870: Lupin names Wolfsbane Potion as a recent discovery brewed by Snape and explains that it lets him keep his mind during transformations. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Eighteen, PDF page 873: Lupin says Snape saw Madam Pomfrey escort him toward the Whomping Willow, nearly reached the transformed werewolf after Sirius told him how to stop the tree, was rescued by James, and was then forbidden by Dumbledore to tell anyone. [classification: pre_1984_institutional_history]
+- PoA, Chapter Nineteen, PDF pages 875-876: Snape says Harry, Ron, and Hermione face suspension for being out-of-bounds with Black and Lupin, then threatens to call the dementors before returning to the castle. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nineteen, PDF page 877: Harry, Ron, and Hermione simultaneously use the Disarming Charm on Snape, knocking him unconscious, and Hermione immediately frames it as attacking a teacher. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty, PDF page 893: Hermione realizes Lupin did not take his potion that night, and Lupin transforms on the school grounds when moonlight reaches him. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-One, PDF page 903: Dumbledore says Harry and Hermione have no proof beyond their word, that prior eyewitness and Ministry evidence support the official Black/Pettigrew account, and that he cannot overrule the Minister of Magic. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-One, PDF pages 904 and 908-909: Dumbledore and Hermione stress that Time-Turner users must not be seen, and Hermione says changing time violates major Wizarding law and can lead to dangerous self-encounters. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-One, PDF pages 910-911: Fudge reads Buckbeak's official execution notice, names the Committee decision and appointed executioner, and requires signatures as part of the procedure. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-Two, PDF pages 929-930: Snape's breakfast disclosure spreads Lupin's werewolf status, and Lupin resigns because parents will not want a werewolf teaching their children after the previous night's safety failure. [classification: post_1984_later_editorial_note]
+
+Confidence:
+- Strong support for Hagrid's expulsion, wand sanction, and later gamekeeper retention, but the reason for the expulsion is not given in this chapter.
+- Strong support for visible prefect status and train-compartment arrangements; the source does not define prefect duties on the journey.
+- Strong corroboration for Head Boy insignia and appointment visibility, though selection criteria and formal duties remain unstated.
+- Strong support for crisis-era senior-student monitoring duties under Dumbledore's explicit instruction, but the assignment is tied to the dementor deployment and should not be generalized to ordinary prefect duties.
+- Medium support for rule enforcement and restricted areas.
+- The third-floor restriction may be specific to the 1991-1992 school year and should be treated as a later editorial note unless confirmed elsewhere.
+- Strong support for Harry-era nighttime rule enforcement, but the chapter does not state a formal curfew time.
+- The Chapter Nine third-floor corridor evidence strengthens the restricted-area seed but remains likely tied to 1991-1992 security.
+- Strong support for House points being used after a safety-related incident; the formal policy and historical origin remain unknown.
+- Medium support for the library-book rule because Harry questions whether Snape invented it.
+- Strong support for fighting being treated as a Hogwarts rule breach, though the exact policy text remains unstated.
+- Strong support for Restricted Section intrusion being subject to staff enforcement.
+- Medium support for reporting student curse misconduct to faculty; the passage does not show the resulting procedure because Neville declines to report it.
+- Strong support for detention and House-point deductions as nighttime disciplinary consequences; the formal curfew wording remains unstated.
+- Strong support for the Astronomy Tower's Harry-era access restriction and for detention logistics in this case, but neither passage gives a written rulebook text or historical origin.
+- Strong support for staff escalation around repeated nighttime wandering and the third-floor corridor, but the corridor rule remains tied to the 1991-1992 Stone security arrangement.
+- Medium support for hospital wing visitor control; the scene may reflect medical judgment rather than a formal written policy.
+- Strong support for a holiday/outside-school magic restriction; the chapter does not identify whether Hogwarts, the Ministry, or both enforce it.
+- Medium support for Dumbledore's headmaster reputation from Dobby's independent testimony; it corroborates Hagrid but is still reputation rather than formal institutional record.
+- Strong support for the Ministry's cited underage-magic and secrecy warning; enforcement attribution and detection mechanics remain unresolved.
+- Medium support for blocked-return and informal warning evidence; Chapter Three shows Harry expecting Hogwarts to be told, but does not show a formal school intervention.
+- Medium support for Muggle-artifact law as related legal context; the evidence is Ministry-centered rather than Hogwarts-centered.
+- Strong support for *Prefects Who Gained Power* as a named in-universe source about Hogwarts prefects; the chapter does not prove it is part of the Hogwarts library.
+- Strong support for Head of House responsibility in this disciplinary case and for family notification after severe misconduct; the point-decision evidence is tied to a term-start edge case.
+- Medium support for Hagrid's expulsion and magic-restriction thread because the chapter corroborates earlier evidence but still withholds the reason for his expulsion.
+- Strong support for differentiated detention assignments, Filch-supervised trophy-room labor, and no-magic punishment conditions, while leaving ordinary detention policy unstated.
+- Strong support for Filch's recordkeeping and office discipline context; his preferred chains and manacles may be personal or obsolete rather than authorized current policy.
+- Strong support for hospital wing treatment authority and recovery management, though the case is an emergency injury rather than evidence for ordinary infirmary routine.
+- Strong support for hospital wing visitor restrictions during the Chamber crisis, while the reason is explicitly emergency security rather than ordinary medical practice.
+- Strong support for the existence of Hogwarts governors and public pressure around headmaster accountability, though the passage does not define governors' formal powers.
+- Strong support for hospital wing privacy management during extended recovery, though Hermione's case follows an illicit magical mishap.
+- Strong support for headmaster discretion over crisis-era summer residence and for Ministry closure pressure, while ordinary summer residence policy remains undefined.
+- Strong support for Ministry crisis intervention and governor pressure, though Fudge's explanation is political rather than a full legal account.
+- Strong support for governor authority over headmaster suspension, while Hagrid's coercion allegation leaves this particular vote's legitimacy uncertain.
+- Medium support for Dumbledore's continued influence and help-at-Hogwarts statement; it is personal and rhetorical rather than a written institutional rule.
+- Medium support for Head-of-House permission overriding crisis hospital-wing visitor limits, but the evidence is emotionally exceptional and does not define ordinary access rules.
+- Strong corroboration for Ministry-linked underage magic enforcement and Hogwarts expulsion risk; the chapter summarizes Harry's understanding rather than quoting a fresh warning.
+- Strong support for Ministry reversal and discretionary non-expulsion after accidental underage magic, but Fudge's response is shaped by the Sirius Black crisis and should not be treated as ordinary policy.
+- Strong support for headmaster discretion in a possession-related disciplinary case and for Madam Pomfrey's crisis treatment role, but the no-punishment ruling is highly context-specific.
+- Strong support for governor reversal and Lucius Malfoy's removal after the Chamber crisis, though the formal recall and removal procedures remain unstated.
+- Strong support for governor attention to a student injury in a practical class and for Dumbledore-facing witness evidence, though Hagrid's report of governor reaction is secondhand.
+- Medium support for after-dark grounds movement limits during the Sirius Black crisis; the chapter shows Hagrid's warning rather than a quoted written rule.
+- Strong support for parental or family pressure reaching governors and the Ministry after a class injury, though Malfoy's account does not define formal authority over teacher dismissal.
+- Strong support for Buckbeak's legal thread as later editorial evidence of external dangerous-creature procedure intruding into Hogwarts after a class injury; it should not be generalized as ordinary lesson policy.
+- Strong support for password-related discipline and Quidditch sabotage discipline during a security crisis, with caution that penalties are incident-specific.
+- Strong support for Dumbledore's pre-Harry accommodation of Lupin and staff knowledge of his condition, though formal authority, written policy, and confidentiality rules remain unstated.
+- Strong support for Wolfsbane Potion as later editorial mitigation evidence; the missed-dose transformation illustrates safety consequences but not a formal accommodation policy.
+- Strong support for headmaster authority limits, Ministry evidence standards, Time-Turner safety rules, and dangerous-creature execution procedure as later editorial governance material; exact statutory texts are not quoted.
+- Strong support for parent-facing safety pressure as an effective limit on staff retention after Lupin's condition becomes public, but the passage does not show a formal dismissal procedure.
+
+### The Four Houses
+
+Possible chapters:
+- House Identity and Reputation
+  - Pre-Arrival Explanations of Houses
+  - Slytherin Serpent Symbolism and Parseltongue Lore
+- House Points and the House Cup
+  - Classroom Deductions
+  - Safety-Related Awards and Deductions
+- Heads of House
+  - Slytherin and Gryffindor Examples
+
+Evidence:
+- PS, Chapter Five, PDF pages 75-78: Before arrival, an incoming student says no one knows their House until they get to Hogwarts, while Hagrid later says there are four school Houses and gives Harry an informal account of Slytherin and Hufflepuff reputations.
+- PS, Chapter Six, PDF pages 100-101: Students discuss uncertain House placement on the train, including Gryffindor hopes, Ravenclaw as acceptable, family House continuity, and Slytherin's association with Voldemort.
+- PS, Chapter Eight, PDF page 126: Snape is identified as Head of Slytherin House and McGonagall as Head of Gryffindor House.
+- PS, Chapter Eight, PDF pages 129-130: Snape deducts points from Gryffindor during Potions, giving a classroom example of House points as discipline.
+- PS, Chapter Ten, PDF pages 162-163: McGonagall deducts points from Hermione and awards points to Harry and Ron after the troll incident.
+- PS, Chapter Fifteen, PDF pages 218-219: McGonagall deducts fifty points each from three Gryffindors; the loss affects the House Cup race and is visible in the giant House-point hourglasses.
+- PS, Chapter Seventeen, PDF pages 271-272: Dumbledore announces final House Cup totals and awards last-minute points that move Gryffindor from fourth place to winning the cup.
+- CoS, Chapter Nine, PDF pages 407-408: Binns says the four school Houses are named after the founders and that Slytherin left the school after a dispute over admitting students of Muggle parentage.
+- CoS, Chapter Eleven, PDF pages 444-445 and 447: Ron and Hermione identify Parseltongue as snake language, connect it to Salazar Slytherin's reputation, and explain the serpent symbol of Slytherin House; Hufflepuff students repeat the same Serpent-tongue association as rumor.
+- CoS, Chapter Seventeen, PDF pages 542 and 545: Riddle says he used the Voldemort name at Hogwarts, claims Salazar Slytherin's blood through his mother's side, and calls himself and Harry likely the only Parselmouths at Hogwarts since Slytherin.
+
+Confidence:
+- Medium support for pre-arrival House knowledge and reputation because the claims are informal and partly biased, but they show how new students understand House identity before Sorting.
+- Medium support for train-compartment House rumors and family expectations; the claims are student conversation rather than official school explanation.
+- Medium support because Chapter Seven already introduced House points and the House Cup; Chapter Eight adds classroom deduction examples and named Heads of House.
+- Chapter Ten adds strong Harry-era evidence for House points functioning outside classroom discipline, but it does not explain the point scale.
+- Chapter Fifteen strongly supports visible point records and major disciplinary deductions, while leaving the hourglasses' enchantment and origin unexplained.
+- Chapter Seventeen strongly supports the House Cup award ceremony and headmaster-awarded points, while leaving ordinary award timing and limits unclear.
+- Strong support for the House system's founding-era names and for Slytherin's ideological split, though the passage gives only a compressed History of Magic account.
+- Medium support for Slytherin serpent-symbol and Parseltongue lore; the explanation is student-transmitted and should be cross-checked against more formal sources.
+- Medium support for Slytherin heir and Parselmouth rarity claims because they are Riddle's self-description, not neutral school history.
+
+### Quidditch and School Recreation
+
+Possible chapters:
+- School Quidditch Season
+  - House Championship Context
+  - Team Practices and Cup Standings
+- House Quidditch Teams
+  - First-Year Restrictions and Exceptions
+  - House Team Captains and Positions
+  - Brooms and Player Equipment
+  - Season Preparation, Captains, and the Quidditch Cup
+  - Training Supervision and Broom Expertise
+  - House Rivalry and Player Protection
+- Quidditch Pitch and Matchday Infrastructure
+  - Stands, Locker Rooms, and House Colors
+- House Quidditch Matches
+  - Refereeing, Commentary, Fouls, and Scoring
+  - Training Supervision, Weather, and Match Results
+  - Matchday Procedure and In-Play Tactics
+  - Matchday Procedure and House Support
+  - Officiating, Fouls, and Cup Presentation
+- Quidditch Risks and Magical Interference
+  - Broom Jinxes and Match Safety
+  - Jinx Inspection and Tampered Brooms
+
+Evidence:
+- PS, Chapter Five, PDF pages 66-67 and 75-78: The Hogwarts supply list says first-years are not allowed their own broomsticks; the robe-shop conversation and Hagrid's explanation introduce Quidditch as a widely followed broomstick sport before Harry arrives at school.
+- PS, Chapter Nine, PDF pages 139-141: McGonagall introduces Harry to Oliver Wood as a Seeker and says she will ask Dumbledore about bending the first-year rule.
+- PS, Chapter Eleven, PDF page 164: The Quidditch season has begun by November; Hagrid defrosts broomsticks on the Quidditch field, and the Gryffindor-Slytherin match affects House Championship standing.
+- PS, Chapter Eleven, PDF pages 167-168: The Quidditch pitch has raised spectator seating, students use binoculars, and teams change in a locker room into House-colored robes.
+- PS, Chapter Eleven, PDF pages 168-174: Madam Hooch referees a House match, Lee Jordan commentates under McGonagall's supervision, and fouls, penalties, balls, positions, and scoring are shown in play.
+- PS, Chapter Eleven, PDF pages 171-173: Harry's broom is affected during the match; Hagrid says only powerful Dark magic could interfere with a Nimbus Two Thousand in that way.
+- PS, Chapter Thirteen, PDF pages 194-201: Gryffindor practices for Hufflepuff in bad weather, Snape referees, penalties are awarded, Dumbledore watches, and Harry's fast Snitch catch puts Gryffindor in the lead.
+- PS, Chapter Seventeen, PDF pages 257-258: Quirrell identifies himself as the broom attacker, says Snape used a countercurse, and says Snape refereed the next match to prevent a repeat attack.
+- CoS, Chapter Seven, PDF pages 370-371: Harry explains Quidditch balls, positions, goal scoring, the Golden Snitch, the Seeker's role, the Keeper, and pitch facilities to Colin Creevey.
+- CoS, Chapter Seven, PDF pages 371-374: Gryffindor's team meeting uses tactical diagrams; Wood cites the prior Quidditch Cup loss, while Snape's signed note gives Slytherin permission to use the pitch for a new Seeker and new brooms.
+- CoS, Chapter Ten, PDF pages 421-422: The first Quidditch match of the season draws the whole school to the stadium; teams use locker rooms and House-colored robes, and Madam Hooch manages the captains' handshake and kickoff.
+- CoS, Chapter Ten, PDF pages 422-424: A Bludger repeatedly targets Harry, Fred and George infer tampering, and Wood says the Bludgers had been locked in Madam Hooch's office since the last practice.
+- PoA, Chapter One, PDF pages 581-582: Hermione gives Harry a Broomstick Servicing Kit and handbook, while the narration restates his exceptional place on a Hogwarts House team and his Nimbus Two Thousand.
+- PoA, Chapter Eight, PDF pages 691-693: Oliver Wood holds a Gryffindor team meeting, restates positions and Cup stakes, and starts three-evening-per-week practices. [classification: original_book_candidate]
+- PoA, Chapter Nine, PDF pages 712-713 and 719-723: McGonagall allows Harry's exposed Quidditch training only with Madam Hooch present; the Gryffindor-Hufflepuff match proceeds in severe weather with whole-school attendance, captain procedure, a time-out, and a result treated as fair after Cedric catches the Snitch. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Eleven, PDF pages 766-767: McGonagall confiscates Harry's anonymous Firebolt so Madam Hooch and Professor Flitwick can check it for jinxes before Harry is allowed to fly it. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twelve, PDF page 777: After Slytherin narrowly beats Ravenclaw, Wood calculates Gryffindor's path to second place and increases Gryffindor practices to five per week. [classification: original_book_candidate]
+- PoA, Chapter Twelve, PDF pages 778 and 780-781: McGonagall says the Firebolt has been checked for usual curses, Flitwick suspects a possible Hurling Hex, and she later returns the broom after staff have done everything they can think of. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Thirteen, PDF pages 786-788: Madam Hooch continues overseeing Gryffindor practice under the Black security threat, gives a professional assessment of the Firebolt against Nimbus, Cleansweep, and Silver Arrow brooms, and sends Harry and Ron back to the castle after post-practice flying. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Thirteen, PDF pages 790-792: The Gryffindor-Ravenclaw match uses locker rooms, House robes, captains' handshake, Hooch's whistle start, Lee Jordan commentary, scoring pressure, Beater interference, and Seeker marking. [classification: original_book_candidate]
+- PoA, Chapter Fifteen, PDF pages 825-826: Daily Quidditch practice, Cup standings, Snitch-point arithmetic, and a Charlie Weasley-era Gryffindor Cup memory frame the final. [classification: original_book_candidate]
+- PoA, Chapter Fifteen, PDF page 826: The Gryffindor-Slytherin final creates exceptional House tension, corridor scuffles, hospital-wing injuries, informal escorting of Harry, and Firebolt security checks. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fifteen, PDF pages 828-830: The final includes Great Hall sendoff, field-condition inspection, locker-room robes, House-colored crowd displays, Lee Jordan commentary, captain handshake, and Hooch's whistle start. [classification: original_book_candidate]
+- PoA, Chapter Fifteen, PDF pages 830-836: Madam Hooch awards multiple penalties, states a Keeper-protection rule, McGonagall supervises commentary under visible House emotion, the crowd floods the pitch, and Dumbledore presents the Quidditch Cup. [classification: original_book_candidate]
+
+Confidence:
+- Strong support for a written first-year own-broom restriction from the Hogwarts supply list; separate evidence is still needed for House-team eligibility rules.
+- Medium support for a first-year restriction on House Quidditch team membership.
+- Harry's appointment is Harry-era context; the underlying rule may be older, but this chapter does not prove its origin or formal wording.
+- Medium support for November season timing and House Championship context; the full schedule and scoring relationship are not explained.
+- Strong support for observed matchday facilities and live-match practices in Harry's first year.
+- Medium support for broom-jinx risk as later editorial safety context; the chapter's characters misidentify the apparent caster, so causal claims should remain cautious.
+- Strong support for a second observed House match and referee penalty authority; claims about referee bias should remain character perception rather than institutional fact.
+- Strong support that the first match's broom interference was hostile magic and that staff counter-magic and refereeing were used defensively; it remains a Harry-era incident rather than general match policy.
+- Strong support for Quidditch rules and team positions as repeated Harry-era evidence, though Harry's explanation is informal rather than rulebook text.
+- Strong support for House-team practice, pitch booking, captain planning, and staff permission notes; formal pitch-booking authority and equipment regulation remain unstated.
+- Strong support for first-match-of-season timing, matchday attendance, and repeated Madam Hooch officiation; the full season schedule remains unstated.
+- Strong later-editorial support for Bludger tampering as another Quidditch safety incident and for Madam Hooch's office as equipment storage, but the chapter does not yet identify the tamperer.
+- Medium support for broom maintenance as player equipment context; Hermione's kit is a personal gift rather than a school-issued requirement.
+- Strong support for House team organization, captain-led practices, Cup standings, and matchday procedure, though practice frequency and rivalry intensity may vary by year and circumstance.
+- Strong support for Madam Hooch's match and practice authority, including weather play, time-outs, fouls, and Keeper-protection enforcement; the complete school Quidditch rulebook remains unstated.
+- Strong support for staff inspection of suspected broom tampering during a security crisis; ordinary inspection requirements and specialist assignments remain uncertain.
+- Strong support for Dumbledore presenting the Quidditch Cup after the final, though later evidence is needed before treating the headmaster as the regular presenter.
+
+### The Library, Books, and Scholarship
+
+Possible chapters:
+- Named Sources About Hogwarts
+  - Prefect Career Studies
+- Required Teacher Texts
+  - Lockhart's Defense Against the Dark Arts Books
+- Student Use of Books Before Arrival
+  - Course Books and Background Reading
+- Student Use of Library Books
+  - Practical Preparation from Published Sources
+  - Quidditch Through the Ages
+  - Creature-Law and Case Precedents
+- Magical Ephemera as Sources
+  - Famous Witches and Wizards Cards
+- Newspapers, Notices, and Public Wizarding Sources
+  - Daily Prophet Evidence Affecting Hogwarts
+- Practical Books and Specialist Periodicals
+  - Broomstick Publications
+  - Creature-Law and Hippogriff Sources
+- Library Rules and Enforcement
+  - Books Outside the School
+- Library Collections and Restricted Books
+  - Research, Reference Works, and Teacher Permission
+  - Physical Boundary and Enforced Restrictions
+  - Restricted Section Permissions and Advanced Potions
+  - Subject Sections, Study Space, and Supervision
+- Hogwarts: A History
+  - Chamber of Secrets References
+
+Evidence:
+- PS, Chapter Six, PDF pages 97-98: Ron explains Chocolate Frog cards as collectible Famous Witches and Wizards sources, and Harry reads Dumbledore's card naming him Headmaster of Hogwarts and summarizing major achievements.
+- PS, Chapter Six, PDF page 100: Hermione identifies extra background-reading books including *Modern Magical History*, *The Rise and Fall of the Dark Arts*, and *Great Wizarding Events of the Twentieth Century*.
+- PS, Chapter Nine, PDF page 134: Hermione uses a library book, *Quidditch Through the Ages*, for flying tips before the first flying lesson.
+- PS, Chapter Eleven, PDF pages 164-165: Hermione lends Harry *Quidditch Through the Ages*, which supplies historical and practical Quidditch facts including a 1473 World Cup foul reference.
+- PS, Chapter Eleven, PDF page 165: Snape states that library books are not to be taken outside the school and deducts points from Gryffindor when Harry has *Quidditch Through the Ages* in the courtyard.
+- PS, Chapter Twelve, PDF page 179: Students search named magical reference books for Nicolas Flamel; the library contains tens of thousands of books, and the Restricted Section requires a teacher-signed note.
+- PS, Chapter Twelve, PDF pages 185-186: The Restricted Section is at the back of the library, separated by a rope, and contains unsettling magical books including a screaming volume.
+- PS, Chapter Thirteen, PDF pages 197-198: Harry uses a Dumbledore Famous Wizard card and Hermione uses an old library book to identify Nicolas Flamel and learn about alchemy and the Sorcerer's Stone.
+- PS, Chapter Fourteen, PDF pages 207-209: Ron finds named dragon books in the library, cites the Warlocks' Convention of 1709, and Hagrid uses *Dragon Breeding for Pleasure and Profit* from the library.
+- PS, Chapter Fifteen, PDF page 221: The library again appears as a research setting with thousands of books, while students speculate about whether a book might explain how to get past a three-headed dog.
+- CoS, Chapter Four, PDF page 329: *Prefects Who Gained Power* is identified as a book about Hogwarts prefects and later careers.
+- CoS, Chapter Six, PDF pages 363-365: Students bring all seven Lockhart books to Defense Against the Dark Arts, and Lockhart quizzes them to check how well they have read the required texts.
+- CoS, Chapter Nine, PDF page 405: Hermione says all copies of *Hogwarts: A History* have been taken out, there is a two-week waiting list, and everyone wants it to read about the Chamber of Secrets legend.
+- CoS, Chapter Nine, PDF page 416: Hermione expects *Moste Potente Potions* to be in the Restricted Section, and the narration says a teacher-signed permission note is needed to get a Restricted Section book.
+- CoS, Chapter Ten, PDF pages 418-419: Hermione gets Lockhart's signature for a Restricted Section book; Madam Pince inspects the note for forgery before retrieving *Moste Potente Potions*.
+- CoS, Chapter Ten, PDF pages 420-421: *Moste Potente Potions* gives the Polyjuice Potion recipe, including ingredients from the student store-cupboard and rarer ingredients outside ordinary student access.
+- CoS, Chapter Eleven, PDF pages 447 and 449: Hufflepuffs gather near the back of the library among high bookshelves, Harry hides in the Invisibility section, and Madam Pince monitors the room while handling a large spell book.
+- CoS, Chapter Twelve, PDF pages 461-462 and 470: Hermione rereads *Moste Potente Potions* while using Polyjuice Potion, which should last exactly an hour and is not meant for animal transformations.
+- CoS, Chapter Thirteen, PDF pages 482-483: Riddle's diary presents itself as a magical memory source for covered-up events at Hogwarts and pulls Harry into a June thirteenth memory.
+- CoS, Chapter Sixteen, PDF pages 522-523: Hermione's torn page from a very old library book supplies basilisk lore, including spider fear, rooster vulnerability, and lethal gaze, while her handwritten note identifies pipes as the likely route.
+- PoA, Chapter Eleven, PDF pages 756 and 758: Hermione recalls a hippogriff-baiting precedent, then the trio searches library books and dusty volumes for older creature-law cases including a 1722 hippogriff case and a 1296 manticore case. [classification: external_context]
+- PoA, Chapter Thirteen, PDF pages 791-792: Lee Jordan cites *Which Broomstick* during match commentary for Firebolt background, including expected national-team use, auto-brake, and precision-balance. [classification: external_context]
+- PoA, Chapter Fifteen, PDF page 825: Ron works on Buckbeak's appeal with named hippogriff books, including *The Handbook of Hippogriff Psychology* and *Fowl or Foul? A Study of Hippogriff Brutality*, while Hermione continues an overloaded library routine. [classification: external_context]
+- PoA, Chapter Nineteen, PDF page 878: Black says Fudge gave him the *Daily Prophet* during an Azkaban inspection; the photograph and caption let Black identify Pettigrew as Ron's pet and infer he was returning to Hogwarts. [classification: external_context]
+
+Confidence:
+- Strong support for Chocolate Frog cards and named background-reading books as in-universe sources students can use; their reliability and relation to Hogwarts library holdings remain uncertain.
+- Medium support for library-book use as a student practice.
+- The source does not describe library rules, borrowing procedures, or whether the copy came from Hogwarts.
+- Strong support that *Quidditch Through the Ages* functions as a named in-universe source for students.
+- Medium support for the library-book outdoor restriction because Harry believes Snape may have invented the rule.
+- Strong support for the Restricted Section access rule, physical boundary, and presence of advanced Dark Magic material.
+- Medium support for the magical behavior of restricted books as a broader collection feature; the chapter gives one observed night intrusion rather than a library policy explanation.
+- Strong support for student research drawing on library books and magical ephemera; the alchemy book itself is not titled in this passage.
+- Strong support for named creature-care books and practical library use; the dragon-law material is wider wizarding history rather than Hogwarts-specific institutional history.
+- Medium support for the Chapter Fifteen library/security cross-reference because the possible three-headed-dog book is Ron's speculation rather than an identified source.
+- Strong support for a named source about Hogwarts prefects; its shop setting means library holding status remains unknown.
+- Strong support for required teacher-authored books as class materials in Lockhart's year; the books are course texts rather than confirmed Hogwarts library holdings.
+- Strong support that *Hogwarts: A History* is treated as a relevant source for the Chamber of Secrets legend, though the chapter does not quote the book's contents.
+- Strong corroboration of the Restricted Section permission rule and medium support for *Moste Potente Potions* as a restricted title until the book is physically located.
+- Strong support for Madam Pince's role in Restricted Section borrowing and for *Moste Potente Potions* as a physically retrieved restricted text.
+- Strong support for advanced Potions knowledge and supply separation, while the students' planned use is illicit and not evidence that Polyjuice Potion is normally taught.
+- Strong support for a named library subject section and supervised student use, though the chapter does not establish whether the Invisibility section is a formal catalog heading or a local wayfinding label.
+- Strong support for further Polyjuice recipe details from the restricted text, but the use remains illicit and should not be treated as ordinary curriculum.
+- Medium support for the Riddle diary as historical-source evidence; it is magical, self-interested, and needs corroboration before being treated as reliable history.
+- Strong support for an old library book as a crisis-solving creature-lore source, though the title and precise library classification remain unknown.
+- Strong support for student library-based creature-law research and named hippogriff sources, though the exact titles, holdings, and legal authority of the volumes remain uncertain.
+- Strong support for *Which Broomstick* and the *Daily Prophet* as wider wizarding sources affecting Hogwarts-related events; both should be marked external context unless confirmed as school holdings or official school sources.
+
+### Protective Magic and Security
+
+Possible chapters:
+- Dumbledore and External Security Arrangements
+  - Gringotts Business and Hogwarts Trust
+  - Azkaban Guards at the Grounds Entrances
+  - Dementors Barred from the Castle Interior
+  - Dementor Deployment Around Hogwarts
+- Guarded Chambers
+  - Trapdoor and Creature-Based Protection
+  - Fluffy and the Philosopher's Stone Protections
+  - Trapdoor and Plant-Based Protections
+  - Charms and Transfiguration Protections
+  - Creature, Potion, and Logic Protections
+- Internal Threats and Emergency Response
+  - Prefect-Led Evacuation by House
+  - Troll Intrusion and Stone Diversion
+  - Emergency Suspension of School Activities
+- Magical Interference and Student Safety
+  - Quidditch Match Risks
+  - Broom Jinxes and Countercurses
+- Castle-Wide Protective Enchantments
+  - Anti-Intrusion and Anti-Apparition Protections
+- House Entrances and Castle Security
+  - Portrait Gatekeepers and Breach Response
+  - Password Lists and Portrait-Hole Breaches
+  - House Entrances and Common-Room Security
+- Emergency Lockdowns and Student Safety
+  - Great Hall Overnight Assembly
+  - Post-Breach Castle Security
+  - Post-Breach Student Movement Restrictions
+  - Post-Breach Security and Secret-Route Risk
+- Anti-Dementor Defenses
+  - Patronus Instruction and Field Performance
+  - Corporeal Patronus Intervention
+- The Chamber of Secrets Crisis
+  - Early Warnings Before Term
+  - Hidden Voice and First Visible Attack
+  - Legend, Hidden Room, and Heir Language
+  - Searches, Denials, and Institutional Memory
+  - Staff Response to Student and Ghost Attacks
+  - Lockdown Rules and Closure Threat
+  - Lockdown Movement Rules
+  - First Known Opening, Death, and Expulsion
+  - Aragog's Corrective Testimony
+  - Diary Possession and Current Attacks
+  - Founder-Built Monster Release Mechanism
+
+Evidence:
+- PS, Chapter Five, PDF pages 64-65 and 72-75: Hagrid compares Gringotts' safety with Hogwarts, says he is handling Dumbledore's secret Hogwarts business at the bank, and retrieves a package from high-security vault 713.
+- PS, Chapter Nine, PDF pages 147-149: The forbidden third-floor corridor contains a three-headed dog standing on a trapdoor, and Hermione concludes that it is guarding something.
+- PS, Chapter Ten, PDF page 158: After Quirrell reports a troll in the dungeons, Dumbledore orders prefects to lead their Houses back to the dormitories.
+- PS, Chapter Eleven, PDF page 174: Hagrid confirms the three-headed dog is Fluffy, says he owns it, bought it the previous year, and lent it to Dumbledore for a secret guarding purpose.
+- PS, Chapter Eleven, PDF pages 171-173: Harry's broom behaves uncontrollably during a House Quidditch match, and Hagrid frames broomstick interference as requiring powerful Dark magic.
+- PS, Chapter Thirteen, PDF pages 203-204: Snape says students are not supposed to know about the Sorcerer's Stone, asks about getting past Hagrid's beast, and Harry infers that protections beyond Fluffy may include enchantments or anti-Dark Arts magic.
+- PS, Chapter Fourteen, PDF pages 206-208: Hagrid says students are not supposed to know about the Stone, names staff involved in protecting it, and confirms that some teachers performed enchantments.
+- PS, Chapter Fifteen, PDF page 221: Harry says students are not supposed to know about the Stone or Fluffy, Hermione recommends going to Dumbledore, and the library scene reinforces secrecy around the guarded chamber.
+- PS, Chapter Sixteen, PDF page 237: Hagrid reveals that music puts Fluffy to sleep and that this method was extracted from him during the dragon-egg encounter.
+- PS, Chapter Sixteen, PDF pages 245-248: The students pass Fluffy and the trapdoor, land in a lower chamber, and escape Devil's Snare by applying Herbology knowledge and conjured flames.
+- PS, Chapter Sixteen, PDF pages 248-253: The next chambers contain bewitched flying keys and living chessmen, which Hermione attributes to Flitwick's charms and McGonagall's Transfiguration.
+- PS, Chapter Sixteen, PDF pages 253-256: After an unconscious troll room, Snape's chamber uses bottles, purple and black flames, and a logic puzzle to control safe passage.
+- PS, Chapter Seventeen, PDF pages 257-258: Quirrell confirms the Quidditch broom attack, Snape's countercurse, Snape's later refereeing, the Halloween troll diversion, and Snape's attempt to intercept him on the third floor.
+- PS, Chapter Seventeen, PDF page 267: Dumbledore explains that the Mirror of Erised protection lets only someone who wants to find the Stone, but not use it, retrieve it.
+- CoS, Chapter Two, PDF pages 294-295: Dobby warns that Harry must not return to Hogwarts because a plot will make terrible things happen at the school during the coming year.
+- CoS, Chapter Seven, PDF pages 381-382: During detention in Lockhart's second-floor office, Harry hears a threatening hidden voice that Lockhart cannot hear; Ron later reasons that even an invisible person would have needed to open the door.
+- CoS, Chapter Eight, PDF pages 396-398: Harry hears the hidden voice again, follows it from the dungeon passage toward the entrance hall, marble staircase, first floor, and second-floor corridor, and finds a Chamber of Secrets wall message above the immobilized Mrs. Norris.
+- CoS, Chapter Nine, PDF page 408: Professor Binns summarizes the Chamber of Secrets legend: Slytherin supposedly built a hidden chamber, sealed it for his heir, and left a horror that could purge the school.
+- CoS, Chapter Nine, PDF pages 408-409: Binns says the school has been searched many times by learned witches and wizards and by a succession of Hogwarts headmasters and headmistresses, with no evidence found.
+- CoS, Chapter Ten, PDF pages 430-433: Dobby says the Chamber has been opened before and is open once more; after Colin Creevey is petrified and his camera is melted, Dumbledore states that the Chamber is indeed open again.
+- CoS, Chapter Eleven, PDF pages 450-451: Justin Finch-Fletchley and Nearly Headless Nick are found petrified; teachers clear the corridor, Justin is carried to the hospital wing, and McGonagall improvises a way to move Nick.
+- CoS, Chapter Twelve, PDF pages 468-469: Draco Malfoy says the Chamber was opened fifty years earlier, a Muggle-born student died, the matter was kept quiet, and the alleged culprit was expelled.
+- CoS, Chapter Thirteen, PDF pages 483 and 487-488: Riddle claims that in his fifth year the Chamber opened, attacks killed a girl, Dippet suppressed the truth, Riddle received a trophy, and Hagrid was the culprit.
+- CoS, Chapter Fourteen, PDF pages 494-495: McGonagall cancels a Quidditch match and sends students back to House common rooms for Heads-of-House instructions.
+- CoS, Chapter Fourteen, PDF pages 495-496: Hermione and Penelope Clearwater are found petrified near the library, after which McGonagall announces strict movement restrictions, teacher escorts, activity cancellations, and possible closure.
+- CoS, Chapter Fifteen, PDF pages 503 and 506: The lockdown continues with teacher-supervised movement by House groups and Gryffindor common-room confinement from six o'clock onward.
+- CoS, Chapter Fifteen, PDF pages 513-516: Aragog says the killed girl was found in a bathroom, denies being the Chamber monster, describes the true castle creature as ancient and feared by spiders, and leads Harry toward the Moaning Myrtle clue.
+- CoS, Chapter Sixteen, PDF pages 520-521: Lockhart's escort scene confirms that teachers are walking students to classes, standing guard at night, and patrolling corridors under McGonagall's security measures.
+- CoS, Chapter Sixteen, PDF pages 525-527: McGonagall orders students to House dormitories and teachers to the staffroom, identifies Ginny Weasley as taken into the Chamber, and directs Heads of House to announce a Hogwarts Express departure home.
+- CoS, Chapter Sixteen, PDF pages 530-531: Moaning Myrtle says she died in the bathroom after hearing a boy speak another language and seeing great yellow eyes.
+- CoS, Chapter Sixteen, PDF pages 532-535: Harry, Ron, and Lockhart descend through the bathroom pipe to deep tunnels, find a giant snake skin, and reach a serpent-carved wall opened with Parseltongue.
+- CoS, Chapter Seventeen, PDF pages 537 and 539: Riddle identifies himself as a diary-preserved memory and says Ginny used the diary before being made to open the Chamber, kill roosters, write messages, and direct the serpent of Slytherin.
+- CoS, Chapter Seventeen, PDF pages 545-546: Riddle addresses Slytherin as one of the Hogwarts Four, opens the statue's mouth by Parseltongue, and releases the basilisk from within it.
+- PoA, Chapter Four, PDF pages 626-628: Mr. Weasley says Dumbledore reluctantly agreed to Azkaban guards being stationed around the entrances to the school grounds during the Sirius Black crisis.
+- PoA, Chapter Five, PDF pages 643-644 and 648: A dementor searches the Hogwarts Express, Lupin repels it and gives students chocolate, and Madam Pomfrey later approves the remedy.
+- PoA, Chapter Five, PDF page 649: Dumbledore announces that the school is hosting dementors of Azkaban on Ministry business, stationed at every grounds entrance, and forbids students to leave school without permission.
+- PoA, Chapter Eight, PDF pages 706-707: The Fat Lady's portrait is slashed, she vanishes into another painting, Percy calls for Dumbledore, and Dumbledore orders a castlewide painting search. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nine, PDF page 709: Hermione cites *Hogwarts: A History* while explaining that Hogwarts is protected by more than walls, including enchantments against stealth entry and Apparition. [classification: original_book_candidate]
+- PoA, Chapter Nine, PDF pages 708-710: After the Fat Lady attack, Dumbledore houses students in the Great Hall, assigns prefects to guard entrances, leaves the Head Boy and Girl in charge, uses ghosts for messages, and has teachers check hourly. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nine, PDF pages 710-711: Staff search the third floor, dungeons, Astronomy Tower, Trelawney's room, and Owlery; Dumbledore refuses to let dementors cross the castle threshold. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nine, PDF pages 722-724: Dementors enter the Quidditch field, causing Harry's fall, and Dumbledore drives them from the stadium before sending Harry to the hospital wing. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Eleven, PDF pages 755-756: Hagrid says Dumbledore already has enough to manage, including keeping dementors out of the castle while Sirius Black remains at large. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twelve, PDF pages 779-780: Lupin explains the Dementor's Kiss and says the *Daily Prophet* reported that the Ministry authorized dementors to perform it on Sirius Black if they find him. [classification: external_context]
+- PoA, Chapter Thirteen, PDF pages 796-798: Sirius Black reaches the Gryffindor boys' dormitory after Sir Cadogan admits a man who has the whole week's passwords written on paper; Percy and McGonagall respond in the common room. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fourteen, PDF pages 799-800: After Black's second breach, Flitwick teaches the front doors to recognize Black's picture, Filch boards cracks and mouse holes, Sir Cadogan is removed, the Fat Lady returns under security-troll guard, and the one-eyed witch passage remains unguarded. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Fifteen, PDF pages 819 and 821: Post-break-in safety measures prevent evening visits to Hagrid, leaving Care of Magical Creatures lessons as the practical contact point; security trolls and Fat Lady password access continue at Gryffindor Tower. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Sixteen, PDF pages 839 and 846-847: The strict security measures remain in place, security trolls still guard Gryffindor Tower, the Fat Lady portrait controls common-room access, and Hermione retrieves the Invisibility Cloak through the one-eyed-witch passage using Dissendium. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nineteen, PDF page 879: Black explains that Crookshanks recognized Pettigrew and Black, helped Black, and stole Gryffindor Tower passwords from a student's bedside table. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Nineteen, PDF pages 885-886: Black explains that dementors sense emotion rather than sight, that his dog form helped him escape Azkaban, and that he entered the Hogwarts grounds and lived in the forest. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty, PDF page 894: Pettigrew takes Lupin's wand, incapacitates Ron and Crookshanks, transforms into a rat, escapes the manacle, and disappears through the grass while Lupin runs toward the forest. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty, PDF page 895: At least a hundred dementors close in around the Hogwarts lakeshore, surrounding Sirius, Harry, and Hermione. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty, PDF pages 895-896: Harry and Hermione try to cast Expecto Patronum under real dementor pressure; Hermione cannot complete it, while Harry's formless silver Patronus briefly stops one dementor. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty, PDF page 896: A dementor lowers its hood, exposes its mouth, and begins forcing Harry's face upward before the Kiss can be completed. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty, PDF page 897: A bright animal-shaped light circles Harry, Sirius, and Hermione, drives the dementors back, and gallops across the lake toward an unidentified familiar-looking figure. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Twenty-Two, PDF page 926: Snape states that nobody can Apparate or Disapparate inside the castle while rejecting Fudge's theory of Sirius Black's escape. [classification: original_book_candidate]
+- PoA, Chapter Twenty-Two, PDF page 928: Fudge agrees to remove the dementors from the school and return them to Azkaban after they attempted the Kiss on an innocent student. [classification: post_1984_later_editorial_note]
+
+Confidence:
+- Medium support for Hogwarts' safety reputation and Dumbledore's external security arrangements; Hagrid does not yet identify the retrieved package or define Hogwarts' protections.
+- Strong support for a Harry-era security arrangement involving a restricted corridor, a creature guard, and a trapdoor.
+- This should remain a later editorial note unless later evidence shows the arrangement predates Harry's first year.
+- Strong support for a Harry-era emergency response to an internal creature threat; the source does not prove a formal standing procedure.
+- Strong support for Fluffy's name, ownership, acquisition timing, and loan to Dumbledore, but the arrangement postdates the original-book cutoff.
+- Medium support for broom-jinx risk as student-safety context; the chapter does not establish a formal Hogwarts security policy for match interference.
+- Medium support for secrecy and layered protections around the Stone; Harry's claims about additional enchantments remain partly inferential until later confirmed.
+- Strong support that multiple named staff helped protect the Stone; the source does not assign each protection to a specific person.
+- Medium support for Chapter Fifteen's secrecy reinforcement; it adds student reasoning and Dumbledore escalation, but not new confirmed protection mechanics.
+- Strong support for the observed protection sequence beneath the trapdoor; staff attribution is strongest for Snape's puzzle and interpretive but well-supported for Sprout, Flitwick, McGonagall, and Quirrell.
+- The entire protection sequence is Harry-era later editorial material and should not be treated as part of the presumed original in-universe book body.
+- Strong support for Quirrell as the source of both the broom attack and troll diversion, and for Snape's protective actions, correcting earlier student misreadings.
+- Strong direct support for Dumbledore's final Mirror-based protection mechanism, but it remains specific to the Stone incident.
+- Medium support for an early warning about the Chamber of Secrets crisis; Dobby withholds the plotter and mechanism in this chapter.
+- Medium support for the first observed Chamber-related voice incident; the source does not identify the speaker, route, or mechanism in this chapter.
+- Strong support for the first visible Chamber of Secrets attack marker and wall message, but the chapter does not yet identify the attacker, mechanism, or historical origin of the Chamber.
+- Medium support for the Chamber legend as historical evidence because Binns explicitly distinguishes reliable history from legend and denies the Chamber's existence at this point.
+- Medium support for institutional search history and headmaster/headmistress involvement; later evidence should clarify how these searches failed.
+- Strong later-editorial support that the Chamber crisis is real and linked to a prior opening, though the attacker, monster, prior date, and mechanism remain unidentified in this chapter.
+- Strong later-editorial support for staff triage during the Chamber crisis, especially the distinction between moving a petrified student and a petrified ghost.
+- Medium support for a prior Chamber opening, death, secrecy, and expulsion because the account is secondhand through Draco and Lucius Malfoy and needs later corroboration.
+- Medium support for Riddle's account of the first Chamber opening because it is detailed and memory-backed but self-interested and later needs correction or corroboration.
+- Strong support for emergency suspension of school recreation and House-based student communication during the Chamber crisis.
+- Strong support for formal crisis lockdown restrictions, teacher escorts, and closure threat, but these rules should not be generalized to ordinary Hogwarts routines.
+- Strong support for observed lockdown movement rules in practice, though the common-room confinement remains a crisis measure rather than ordinary routine.
+- Strong support for Aragog's corrective testimony about the first known Chamber opening, but the true creature remains unnamed in this chapter.
+- Strong support for staff patrols and escort duties as implemented security measures during the Chamber lockdown.
+- Strong support for emergency closure and House-based communication after a student is taken into the Chamber.
+- Strong support for Myrtle's firsthand death testimony and the hidden bathroom entrance, but the passage does not yet supply an official school record of her death.
+- Strong support for the real subterranean route toward the Chamber, though the central Chamber room is not entered until the next chapter.
+- Strong support for the current Chamber attack mechanism as diary possession, though Riddle's account should be handled as hostile testimony and checked against Ginny's recovery account.
+- Strong support for the inner Chamber's monster-release mechanism and Parseltongue restriction, while authorship of each mechanism still needs corroboration beyond Riddle's Slytherin framing.
+- Strong support for the Azkaban-guard deployment around Hogwarts entrances as a later crisis security measure; it should not be treated as a standing school protection.
+- Strong support for an actual dementor search of the Hogwarts Express and for chocolate as immediate treatment after exposure, though both belong to the Sirius Black crisis rather than ordinary school security.
+- Strong support for Dumbledore's official movement restriction and student-facing warning during the dementor deployment; the policy should remain a later editorial crisis measure.
+- Strong explicit support for anti-intrusion and anti-Apparition protections as content Hermione attributes to *Hogwarts: A History*; origins, maintenance, and boundaries remain open.
+- Strong later-editorial support for portrait-hole breach response, Great Hall lockdown, staff searches, and senior-student safety assignments during the Sirius Black crisis; these should not be treated as standing procedures without corroboration.
+- Strong later-editorial support for Dumbledore barring dementors from the castle interior and for the stadium and lakeshore dementor breaches as exceptional failures.
+- Strong later-editorial support for common-room password vulnerabilities, animal-mediated breaches, and Animagus evasion of dementor and grounds security; the record does not show a full institutional postmortem.
+- Strong support for Patronus field performance against dementors, while Harry's private instruction and lake intervention remain later editorial student-specific evidence rather than ordinary curriculum or castle protection.
+- Strong corroboration that the anti-Apparition protection applies inside the castle, with open questions about grounds coverage and exceptions.
+- Strong support that the dementor deployment was reversed after student endangerment, though the formal Ministry order and postmortem are not quoted.
+
+### Notable Events Before 1984
+
+Possible chapters:
+- The Fall of Voldemort
+  - Godric's Hollow and the Boy Who Lived
+- Dumbledore and the First Wizarding War
+  - Reputation, Power, and Voldemort
+  - Hogwarts as a Wartime Safe Place
+- The First Known Chamber Opening
+  - Death, Secrecy, and Expulsion
+  - Hagrid, Aragog, and the False Culprit
+
+Evidence:
+- PS, Chapter One, PDF page 20: McGonagall reports that Voldemort went to Godric's Hollow, Lily and James Potter were killed, Harry survived, and Voldemort's power broke; Dumbledore confirms the event while saying Harry's survival remains unexplained.
+- PS, Chapter One, PDF page 20: McGonagall says Voldemort was frightened of Dumbledore, while Dumbledore distinguishes his own powers and principles from Voldemort's.
+- PS, Chapter Two, PDF page 35: Harry remembers a flash of green light and pain in his forehead while lacking the true explanation for the Godric's Hollow attack.
+- PS, Chapter Four, PDF page 57: Hagrid says Hogwarts was one of the only safe places left during Voldemort's rise, and that Voldemort feared Dumbledore and did not try to take the school then.
+- PS, Chapter Six, PDF page 97: Dumbledore's Chocolate Frog card names him current Headmaster of Hogwarts and records his 1945 defeat of Grindelwald, dragon's-blood work, and partnership with Nicolas Flamel.
+- CoS, Chapter Twelve, PDF pages 468-469: Draco Malfoy's secondhand account dates an earlier Chamber opening to roughly fifty years before Harry's second year and claims that it involved a Muggle-born student's death and an expulsion.
+- CoS, Chapter Thirteen, PDF pages 483-488: Riddle's diary and memory give a fuller but unreliable account of the earlier Chamber opening, Dippet's secrecy, trophy award, and alleged culprit.
+- CoS, Chapter Fifteen, PDF pages 512-513: Aragog says he came to Hagrid as an egg, was hidden in a castle cupboard, was blamed after a girl's death, and then lived in the forest after Hagrid protected him.
+- CoS, Chapter Sixteen, PDF pages 530-531: Myrtle's account confirms the earlier killed student died after hearing a boy speaking an unfamiliar language and seeing great yellow eyes.
+- CoS, Chapter Seventeen, PDF pages 540-541: Riddle says he framed Hagrid, spent five years learning about the Chamber and secret entrance, and that Dumbledore suspected Hagrid's innocence and persuaded Dippet to keep him as gamekeeper.
+- CoS, Chapter Eighteen, PDF page 555: Dumbledore identifies Lord Voldemort as the former Tom Riddle, says he taught him at Hogwarts fifty years earlier, and recalls Riddle as a former Head Boy.
+
+Confidence:
+- Strong support for the Godric's Hollow event as pre-Harry historical context, though the chapter gives no Hogwarts-specific source and does not explain the protective magic.
+- Medium support for Dumbledore's wartime reputation because the claim is made by McGonagall in conversation with Dumbledore, but the passage does not identify Dumbledore's formal Hogwarts office.
+- Medium support for Harry's sensory memory as corroborating evidence; Harry misattributes it to the false car-crash story and the passage does not identify Voldemort or the curse.
+- Medium support for Hogwarts' wartime safety status because Hagrid gives a broad oral-history claim without identifying formal protections.
+- Medium support for Dumbledore's public biographical card as a historical source; it is a popular collectible rather than a Hogwarts-authored account.
+- Medium support for the prior Chamber opening as pre-1984 event evidence; the Malfoy account is useful but biased and incomplete.
+- Medium support for the Riddle memory as pre-1984 event evidence; it is richer than the Malfoy account but still controlled by Riddle.
+- Strong support for Aragog's first-person correction of the false-culprit thread, while his testimony should still be checked against neutral records where possible.
+- Strong support for Myrtle's first-person testimony about the first known Chamber death, while her account still needs to be reconciled with official records and Riddle's version.
+- Strong support for Riddle's confession as a correction to his earlier memory-framing of Hagrid, though official school records and Hagrid's account remain needed for final adjudication.
+- Strong support for Dumbledore's identification of Tom Riddle as Voldemort and a former Head Boy; the passage strengthens the school-record thread but does not itself quote the records.
+
+### Later Editorial Notes
+
+Possible chapters:
+- The Wizarding War and Hogwarts Memory
+  - Secrecy Strains After Voldemort's Fall
+- Blood Status and Hogwarts Society
+  - Academic Merit and Pure-Blood Prejudice
+- Harry Potter Before Hogwarts
+  - Guardianship and Public Memory
+  - Suppressed Magical Identity
+  - Suppressed Hogwarts Contact
+  - Accidental Magic Before School
+  - The Vanishing Glass Incident
+  - Public Recognition Before School
+  - The Eleventh Birthday Contact
+- Harry Potter Between School Years
+  - Hogwarts Memory During Summer Exile
+  - Suppressed Holiday Contact
+  - Intercepted Holiday Correspondence
+  - Holiday Letters and Family Owls
+  - Holiday Owl Post and School Contact
+- Hogwarts Staff and Associates Before Harry's Arrival
+  - Hagrid's Trusted Mission
+  - Hagrid's Staff Role and Expulsion
+- House-Elves and Hogwarts
+  - House-Elf Bondage Before Hogwarts Kitchen Evidence
+  - House-Elf Magic and Old Wizarding Households
+- Alumni, War Memory, and Unreliable Testimony
+  - Black, Potter, and Pettigrew in School Memory
+- Marauders-Era Context and Hidden Identities
+  - Animagi, Map Dots, and Pettigrew's Survival
+  - Illegal Animagi and Monthly Transformations
+  - Pettigrew's Concealed Animagus Identity
+
+Evidence:
+- PS, Chapter One, PDF page 19: McGonagall says magical celebrations after Voldemort's apparent fall have been careless enough for Muggles to notice owls, shooting stars, Muggle clothing lapses, and rumor-swapping.
+- PS, Chapter One, PDF pages 21-22: Dumbledore places Harry with his only remaining family, leaves a letter for the Dursleys, and argues that growing up away from wizarding fame will protect him until he is ready.
+- PS, Chapter One, PDF pages 22-23: Dumbledore says he trusts Hagrid with his life; Hagrid retrieves infant Harry before Muggles swarm the destroyed house and brings him to Privet Drive.
+- PS, Chapter Two, PDF page 28: Harry's relatives tell him his scar and parents' deaths came from a car crash and discourage questions.
+- PS, Chapter Two, PDF pages 31-32: The narration summarizes unexplained childhood incidents around Harry, including hair regrowth, a shrinking sweater, sudden appearance on a school roof, and a recurring flying-motorcycle dream.
+- PS, Chapter Two, PDF pages 33-35: Harry appears to communicate with a boa constrictor before the glass front of its tank vanishes and the snake escapes.
+- PS, Chapter Two, PDF pages 35-36: Oddly dressed strangers seem to recognize Harry in public and vanish when he tries to inspect them more closely.
+- PS, Chapter Three, PDF page 41: Vernon and Petunia react fearfully to Harry's first letter, note that its address reveals where he sleeps, and decide to suppress contact rather than reply.
+- PS, Chapter Three, PDF pages 46-49: Around a hundred letters reach Harry at the Railview Hotel, after which the Dursleys flee to a sea-rock shack before Harry's eleventh birthday and an unidentified visitor arrives at midnight.
+- PS, Chapter Four, PDF pages 51-61: Hagrid identifies his Hogwarts role, delivers the letter in person, explains Harry's suppressed magical identity, and later says Dumbledore allowed him to remain as gamekeeper after expulsion.
+- CoS, Chapter One, PDF page 284: Harry's summer memory of Hogwarts gathers the castle, secret passageways, ghosts, classes, owl mail, Great Hall banquets, tower dormitory, Hagrid's cabin, the Forbidden Forest, and Quidditch into a compact between-years summary.
+- CoS, Chapter One, PDF pages 284 and 287-288: Vernon locks Hedwig in her cage, and Harry's lack of letters from Ron, Hermione, or Hogwarts leaves him cut off from school and the wizarding world during summer.
+- CoS, Chapter Two, PDF page 293: Dobby explains that a house-elf is bound to serve one wizarding house and family until freed by that family.
+- CoS, Chapter Two, PDF pages 296-297: Dobby reveals that he intercepted Harry's letters from Hermione, Ron, and Hagrid to discourage Harry from returning to school.
+- CoS, Chapter Three, PDF pages 305-306: Fred and George say house-elves have powerful magic but usually need a master's permission to use it, and associate them with wealthy old wizarding families, manors, and castles.
+- CoS, Chapter Three, PDF page 306: Ron explains that he sent repeated holiday letters to Harry, first blamed Errol, and tried to borrow Percy's owl Hermes while Percy was sending many letters.
+- CoS, Chapter Eighteen, PDF pages 561-563: Harry accuses Lucius Malfoy of planting Riddle's diary in Ginny's Transfiguration book and then frees Dobby when Lucius unknowingly gives him a sock.
+- CoS, Chapter Four, PDF page 324: Lucius Malfoy criticizes Draco's grades because Hermione Granger, described as having no wizard family, beat him in every exam; Borgin and Lucius frame this through blood-status prejudice.
+- CoS, Chapter Seven, PDF pages 375 and 377-378: Malfoy uses the Mudblood slur against Hermione, prompting immediate outrage; Ron defines it as an insult for Muggle-born people and explains pure-blood and half-blood attitudes.
+- PoA, Chapter One, PDF pages 578 and 581: Owls deliver birthday parcels and an official Hogwarts letter to Harry, while Hermione's letter shows Hedwig carrying international holiday correspondence and an owl-order purchase.
+- PoA, Chapter Two, PDF page 589: Harry hides birthday cards and homework, sends Hedwig away with Errol, and attaches a note to Ron so school and owl-post evidence will not expose him during Aunt Marge's visit.
+- PoA, Chapter Ten, PDF pages 743-747: Rosmerta, McGonagall, Flitwick, Fudge, and Hagrid discuss Sirius Black, James Potter, and Peter Pettigrew as former Hogwarts students while recounting the then-accepted public account of Black's betrayal and Pettigrew's death. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Seventeen, PDF pages 857 and 865-866: Ron identifies Black as a dog Animagus, and Lupin and Black identify Scabbers as Peter Pettigrew, a wizard and Animagus, after the map shows an unexpected person with the trio. [classification: post_1984_later_editorial_note]
+- PoA, Chapter Eighteen, PDF pages 871-872: Lupin says James, Sirius, and Peter took nearly three years to become Animagi, succeeded in fifth year, used James's Invisibility Cloak and Peter's small form to reach him through the Willow tunnel, then repeatedly broke Dumbledore's safety rules by roaming the grounds and village. [classification: pre_1984_institutional_history]
+- PoA, Chapter Nineteen, PDF page 881: Lupin and Black force Scabbers back into Peter Pettigrew's human form, directly confirming the concealed Animagus identity that earlier map evidence and testimony implied. [classification: post_1984_later_editorial_note]
+
+Confidence:
+- Medium support for secrecy-strain context; the passage concerns the wider magical world rather than Hogwarts directly.
+- Medium support for Harry's guardianship and public-memory context; it explains Harry's pre-Hogwarts placement but not Dumbledore's formal authority.
+- Medium support for Hagrid as a trusted Dumbledore associate before Harry's Hogwarts years; Hagrid's Hogwarts role must be supplied by later chapters.
+- Medium support for Harry's suppressed magical identity; the Dursleys' car-crash account is false context rather than a reliable historical explanation.
+- Strong support for observed accidental magic incidents and the vanishing-glass incident, though the chapter does not explain Ministry or Hogwarts policy for underage magic.
+- Medium support for public recognition before school; the strangers are implied magical-community members but remain unnamed and unconnected to Hogwarts.
+- Medium support for suppressed Hogwarts contact and birthday-timed intervention; Chapter Three does not identify the visitor or reveal the letter's contents.
+- Strong support for Hagrid's role in resolving Harry's suppressed contact, but the visit is specific to Harry and should remain later editorial context.
+- Medium support for Harry's between-years Hogwarts memory and holiday isolation; the evidence is Harry-specific and should not be generalized into ordinary student holiday experience.
+- Medium support for house-elf servitude as later-editorial background; the chapter concerns a private wizarding family rather than Hogwarts house-elves.
+- Strong support that Harry's lack of holiday letters was caused by Dobby's interception, not ordinary silence from his friends or Hagrid.
+- Medium support for house-elf magic-use and social-status context; the source is informal family conversation and not yet Hogwarts-specific.
+- Strong support for ordinary student holiday letters by owl in this case, though the evidence is family-specific and does not define school policy.
+- Strong support for private-family house-elf manumission through clothing and for the diary's route into school supplies; this remains later-editorial background until Hogwarts house-elves are directly processed.
+- Medium support for blood-status social conflict around Hogwarts achievement; the source shows prejudice reacting to exam results rather than official school policy.
+- Strong support for blood-status terminology and student reaction; Ron's explanation is informal and should not be treated as official school doctrine.
+- Strong support for holiday owl-post channels linking students, friends, Hogwarts, newspapers, and commerce, though this remains Harry-specific evidence rather than a formal school mail policy.
+- Medium support for secrecy-disrupted holiday owl contact in Harry's Muggle household; the concealment is exceptional and should remain later editorial context.
+- Medium support for the public Black/Potter/Pettigrew account as later editorial context; the testimony is important precisely because later chapters correct it.
+- Strong support for the concealed-Animagi and Pettigrew-survival thread, but registration status, school disciplinary records, and full Ministry treatment require later corroboration.
+- Strong support for Marauders-era illegal Animagus transformations and roaming as pre-1984 hidden history; because staff did not fully know it at the time, it should be framed as later editorial recovery rather than original-book core.
+
+## GoF Chapter One Additions - 2026-06-20
+
+Evidence:
+- GoF, Chapter One, PDF pages 949-951: The Riddle family deaths are presented through Muggle village memory, Frank Bryce's disputed sighting of a dark-haired teenage stranger, and a medical report that found no physical cause of death. [classification: pre_1984_historical_candidate]
+- GoF, Chapter One, PDF page 954: Voldemort says the Quidditch World Cup brings international wizard traffic and Ministry security checks meant to prevent Muggle notice. [classification: post_1984_later_editorial_note]
+- GoF, Chapter One, PDF page 957: Voldemort says Bertha Jorkins's information was invaluable, admits killing her after questioning, and says Memory Charms can be broken by a powerful wizard. [classification: post_1984_later_editorial_note]
+- GoF, Chapter One, PDF page 958: Voldemort says his faithful servant is at Hogwarts, creating an internal-security thread for the Triwizard year. [classification: post_1984_later_editorial_note]
+- GoF, Chapter One, PDF pages 958-959: Voldemort communicates with Nagini in snake language, corroborating his Parseltongue ability outside the Chamber context. [classification: post_1984_later_editorial_note]
+
+Confidence:
+- Medium support for Riddle-family background because the chapter does not identify the teenage stranger or explicitly connect the event to Hogwarts.
+- Medium support for World Cup and Bertha Jorkins context because both are external to Hogwarts until later chapters identify their effect on school events.
+- Strong support for the hidden-servant-at-Hogwarts security hook, while the servant's identity and role remain unresolved in this chapter.
+- Strong support for Voldemort's snake communication, though Frank does not know the formal term Parseltongue and the scene is off-campus.

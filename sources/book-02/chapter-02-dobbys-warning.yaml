@@ -1,0 +1,222 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: "Chapter Two - Dobby's Warning"
+  chapter_start_pdf_page: 291
+  chapter_end_pdf_page: 300
+  boundary_confidence: high
+  boundary_notes: Chapter Two range was taken from chapters-index.md and the prior Book 2 Chapter One boundary. Book 2 Chapter Two starts on PDF page 291 and Chapter Three starts on PDF page 301, so only PDF pages 291-300 were extracted and searched.
+  processed_date: '2026-06-13'
+  processor_notes: "Processed only Book 2, Chapter Two. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch02-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: "Chapter Two - Dobby's Warning"
+  chapter_start_pdf_page: 291
+  chapter_end_pdf_page: 300
+  pdf_page: 293
+  printed_page: not available
+  extracted_text_lines: PDF page 293, lines 4-17
+  text_anchor:
+    start_phrase: The wizard family Dobby serves
+    end_phrase: serve the family until he dies
+    local_occurrence_note: Dobby explains house-elf bondage after Harry asks about the family he serves.
+  nearby_context: Dobby identifies himself as a house-elf serving one wizarding family and explains that a house-elf must be set free by the family rather than simply leaving.
+  match_terms:
+  - house-elf
+  - wizard family
+  - bound
+  - serve
+  - set free
+  quote_excerpt_short: "bound to serve one house and one family forever"
+  source_note: Dobby describes house-elves as bound servants of wizarding families who require release by the family to become free.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - magical-servitude
+  - wizarding-households
+  - dobby
+  - later-context
+  candidate_part: Later Editorial Notes
+  candidate_chapter: House-Elves and Hogwarts
+  candidate_section: House-Elf Bondage Before Hogwarts Kitchen Evidence
+  reason_for_placement: The passage gives early house-elf social and magical context that may later support Hogwarts-specific house-elf evidence once the school kitchens and staff are indexed.
+  relevance_to_hogwarts_a_history: This is not direct Hogwarts institutional evidence in this chapter, but it supplies necessary later-editorial background for any future Hogwarts house-elf section.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior source entry records house-elf bondage or manumission rules.
+  confidence: medium
+  limitations: The passage concerns Dobby's service to a private wizarding family, not Hogwarts house-elves or school policy.
+- id: cos-ch02-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: "Chapter Two - Dobby's Warning"
+  chapter_start_pdf_page: 291
+  chapter_end_pdf_page: 300
+  pdf_page: 294
+  printed_page: not available
+  extracted_text_lines: PDF page 294, lines 20-35; PDF page 295, lines 1-4
+  text_anchor:
+    start_phrase: Harry Potter must not go back to Hogwarts
+    end_phrase: terrible things happen at Hogwarts School of Witchcraft and Wizardry this year
+    local_occurrence_note: Dobby's central warning after praising Harry's survival of recent dangers.
+  nearby_context: Dobby warns that Harry should not return to Hogwarts because a plot will cause terrible things at the school during the coming year, though he cannot name the plotters.
+  match_terms:
+  - Hogwarts
+  - warning
+  - mortal danger
+  - plot
+  - Hogwarts School of Witchcraft and Wizardry
+  quote_excerpt_short: "a plot to make most terrible things happen"
+  source_note: Dobby claims he has known for months about a plot targeting Hogwarts during Harry's second year and tries to prevent Harry from returning.
+  reference_type: security_or_protection
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - chamber-of-secrets
+  - dobby-warning
+  - school-security
+  - hogwarts-danger
+  - second-year
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Early Warnings Before Term
+  reason_for_placement: The warning is Harry-era plot evidence rather than original-book history, but it frames the later school security crisis before students return.
+  relevance_to_hogwarts_a_history: This can support a later editorial note on threats to Hogwarts, especially when later chapters identify the Chamber of Secrets and the attacks.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier security entries concern the Philosopher's Stone protections; this is the first seed for the Chamber of Secrets crisis.
+  confidence: medium
+  limitations: Dobby withholds the source, agent, and exact nature of the plot in this chapter.
+- id: cos-ch02-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: "Chapter Two - Dobby's Warning"
+  chapter_start_pdf_page: 291
+  chapter_end_pdf_page: 300
+  pdf_page: 295
+  printed_page: not available
+  extracted_text_lines: PDF page 295, lines 24-32
+  text_anchor:
+    start_phrase: you know who Dumbledore is
+    end_phrase: rival those of He-Who-Must-Not-Be-Named
+    local_occurrence_note: Harry invokes Dumbledore as a reason Hogwarts should be safe, and Dobby answers.
+  nearby_context: Harry argues that Hogwarts has Dumbledore; Dobby calls Albus Dumbledore the greatest headmaster Hogwarts has ever had and says Dumbledore's powers rival Voldemort's at full strength.
+  match_terms:
+  - Dumbledore
+  - headmaster
+  - Hogwarts
+  - powers
+  - He-Who-Must-Not-Be-Named
+  quote_excerpt_short: "the greatest headmaster Hogwarts has ever had"
+  source_note: Dobby independently repeats the claim that Dumbledore is Hogwarts' greatest headmaster and links Dumbledore's reputation to exceptional magical power.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore
+  - headmaster
+  - headmastership
+  - magical-reputation
+  - voldemort
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Dumbledore's Reputation
+  reason_for_placement: The passage strengthens the headmastership thread and shows Dumbledore's authority functioning as part of Harry's expectation of Hogwarts safety.
+  relevance_to_hogwarts_a_history: This corroborates earlier evidence for Dumbledore's standing as headmaster, useful for later editorial treatment of Hogwarts leadership.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch04-006
+    notes: Chapter Four records Hagrid calling Dumbledore the greatest headmaster Hogwarts has had; this entry repeats the claim through Dobby and adds a comparison to Voldemort's power.
+  confidence: medium
+  limitations: Dobby reports reputation rather than citing an official school history or formal ranking.
+- id: cos-ch02-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: "Chapter Two - Dobby's Warning"
+  chapter_start_pdf_page: 291
+  chapter_end_pdf_page: 300
+  pdf_page: 296
+  printed_page: not available
+  extracted_text_lines: PDF page 296, lines 18-36; PDF page 297, lines 1-5
+  text_anchor:
+    start_phrase: Friends who don't even write
+    end_phrase: Give me my friends' letters
+    local_occurrence_note: Dobby reveals the intercepted letters after Harry says Hogwarts is the only place he has.
+  nearby_context: Dobby admits he has stopped Harry's letters and produces a bundle from Hermione, Ron, and Hagrid, hoping Harry would think his friends had forgotten him and choose not to return to school.
+  match_terms:
+  - write
+  - letters
+  - Hermione
+  - Ron
+  - Hogwarts gamekeeper
+  - Hagrid
+  - back to school
+  quote_excerpt_short: "Have you been stopping my letters?"
+  source_note: The chapter confirms that Harry's apparent holiday isolation was caused by Dobby intercepting letters from school friends and Hagrid.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - owl-post
+  - holiday-contact
+  - student-correspondence
+  - hagrid
+  - dobby
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Intercepted Holiday Correspondence
+  reason_for_placement: The passage resolves the prior holiday-contact question by showing that student and staff-adjacent letters were sent but intercepted.
+  relevance_to_hogwarts_a_history: This supports later editorial context on ordinary student correspondence during holidays, while preserving Harry's isolation as an exceptional interference case.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch01-003
+    notes: Chapter One records Harry's blocked communication and lack of letters; this entry explains that Dobby intercepted letters from Hermione, Ron, and Hagrid.
+  confidence: high
+  limitations: The chapter shows letters from friends and Hagrid, but does not identify whether any official Hogwarts office wrote to Harry.
+- id: cos-ch02-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: "Chapter Two - Dobby's Warning"
+  chapter_start_pdf_page: 291
+  chapter_end_pdf_page: 300
+  pdf_page: 298
+  printed_page: not available
+  extracted_text_lines: PDF page 298, lines 12-31; PDF page 299, lines 1-7
+  text_anchor:
+    start_phrase: a huge barn owl swooped
+    end_phrase: Improper Use of Magic Office
+    local_occurrence_note: Ministry warning letter arrives immediately after Dobby drops the pudding.
+  nearby_context: An owl delivers a formal Ministry letter stating that a Hover Charm was detected at Harry's residence, underage wizards may not perform spells outside school, further spellwork may lead to expulsion, and Muggle-notice risks violate the Statute of Secrecy.
+  match_terms:
+  - Hover Charm
+  - underage wizards
+  - outside school
+  - expulsion
+  - Decree for the Reasonable Restriction of Underage Sorcery
+  - Statute of Secrecy
+  - Improper Use of Magic Office
+  quote_excerpt_short: "underage wizards are not permitted to perform spells outside school"
+  source_note: The Ministry warning names the underage magic restriction, cites the 1875 Decree and the International Confederation of Warlocks' Statute of Secrecy, and warns of possible school expulsion.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - holiday-conduct
+  - expulsion
+  - statute-of-secrecy
+  - ministry-of-magic
+  - owl-post
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Holiday Conduct and Underage Magic
+  candidate_section: Ministry Warning Letters and Secrecy Law
+  reason_for_placement: The letter provides the clearest cited source so far for the underage magic rule and its relationship to Hogwarts expulsion and Muggle secrecy.
+  relevance_to_hogwarts_a_history: This is strong evidence for a later section explaining student conduct outside school, though the legal authority is Ministry-based rather than purely Hogwarts-based.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch01-005
+    notes: Chapter One states the same outside-school magic rule in narration; this entry provides the official Ministry warning, legal citations, and expulsion consequence.
+  confidence: high
+  limitations: The letter comes from the Ministry rather than Hogwarts and does not explain how enforcement distinguishes Harry's magic from Dobby's.

@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  boundary_confidence: high
+  boundary_notes: Chapter Sixteen start was taken from the previously processed Chapter Fifteen boundary and confirmed on PDF page 234. Chapter Seventeen - The Man with Two Faces was located by scanning forward from that anchor and starts on PDF page 257, so only pages 234-256 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Sixteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch16-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 234
+  printed_page: not available
+  extracted_text_lines: PDF page 234, lines 9-17; PDF page 235, lines 7-15
+  text_anchor:
+    start_phrase: It was sweltering hot, especially in the large classroom
+    end_phrase: the uprising of Elfric the Eager
+    local_occurrence_note: End-of-year exam sequence from written papers through History of Magic.
+  nearby_context: Students sit written papers with bewitched anti-cheating quills, complete practical exams for Charms, Transfiguration, and Potions, and finish with a History of Magic paper covering historical magical topics.
+  match_terms:
+  - exams
+  - Anti-Cheating spell
+  - practical exams
+  - Professor Flitwick
+  - Professor McGonagall
+  - Forgetfulness potion
+  - History of Magic
+  quote_excerpt_short: "bewitched with an Anti-Cheating spell"
+  source_note: The chapter gives concrete end-of-year assessment details, including anti-cheating quills, written papers, practical exams, subject-specific tasks, and History of Magic topics.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - exams
+  - anti-cheating-spell
+  - written-papers
+  - practical-exams
+  - charms
+  - transfiguration
+  - potions
+  - history-of-magic
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Exams and Assessment
+  candidate_section: Written Papers, Practical Exams, and Anti-Cheating Measures
+  reason_for_placement: The passage gives the clearest exam-format evidence so far and links assessment to multiple first-year subjects.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts academic assessment practices and magical exam safeguards.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-001
+    notes: Chapter Fourteen seeded exam preparation and study material; this entry adds actual exam formats, anti-cheating quills, and subject-specific practical tasks.
+  confidence: high
+  limitations: This is observed in Harry's first year and does not state when these exam practices or anti-cheating quill enchantments began.
+- id: ps-ch16-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 235
+  printed_page: not available
+  extracted_text_lines: PDF page 235, lines 16-19
+  text_anchor:
+    start_phrase: they wandered down to the lake
+    end_phrase: basking in the warm shallows
+    local_occurrence_note: Post-exam grounds scene by the lake.
+  nearby_context: After the last exam, students go to the lake, and the Weasley twins and Lee Jordan interact with a giant squid resting in the shallows.
+  match_terms:
+  - lake
+  - giant squid
+  - grounds
+  - warm shallows
+  - students
+  quote_excerpt_short: "tickling the tentacles of a giant squid"
+  source_note: The chapter confirms a giant squid in the Hogwarts lake and shows students interacting with it casually from the shore after exams.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - lake
+  - giant-squid
+  - grounds
+  - magical-residents
+  - student-recreation
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: The Giant Squid in the Lake
+  reason_for_placement: The passage adds a named magical resident to the Hogwarts grounds and lake evidence.
+  relevance_to_hogwarts_a_history: This is a useful seed for future coverage of the lake as a habitat for long-standing magical residents.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate giant-squid entry found in the current seed.
+  confidence: high
+  limitations: The passage does not explain the squid's origin, age, species details, or formal relationship to the school.
+- id: ps-ch16-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 237
+  printed_page: not available
+  extracted_text_lines: PDF page 237, lines 1-25; PDF page 238, lines 1-4
+  text_anchor:
+    start_phrase: that night you won Norbert
+    end_phrase: Where's Dumbledore's office?
+    local_occurrence_note: Hagrid explains the masked stranger, Fluffy, and the music method.
+  nearby_context: Harry questions Hagrid about the cloaked stranger from the Hog's Head; Hagrid says he discussed his gamekeeping duties, creatures, the dragon egg, Fluffy, and the fact that music puts the three-headed dog to sleep.
+  match_terms:
+  - Hog's Head
+  - gamekeeper
+  - Fluffy
+  - music
+  - three-headed dogs
+  - Dumbledore
+  - Sorcerer's Stone
+  quote_excerpt_short: "jus' play him a bit o' music"
+  source_note: Hagrid reveals that the method for bypassing Fluffy is music and that this secret was extracted from him during the dragon-egg encounter.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - fluffy
+  - three-headed-dog
+  - music
+  - hagrid
+  - gamekeeper
+  - hogs-head
+  - philosopher-stone-protections
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Fluffy and the Philosopher's Stone Protections
+  reason_for_placement: The passage identifies a concrete vulnerability in the creature-based protection and links it to Hagrid's role as gamekeeper.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the 1991-1992 Stone protections and for the risks of creature-based security depending on keeper knowledge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-007; ps-ch14-003; ps-ch15-003
+    notes: Earlier entries named Fluffy, Dumbledore's guarding purpose, and Stone-protection secrecy; this entry adds the music method and the social-engineering route by which it leaked.
+  confidence: high
+  limitations: "The arrangement is specific to the Stone incident and postdates the presumed original Hogwarts: A History core."
+- id: ps-ch16-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 240
+  printed_page: not available
+  extracted_text_lines: PDF page 239, lines 8-14; PDF page 240, lines 3-5 and 18-26
+  text_anchor:
+    start_phrase: no one can possibly steal it
+    end_phrase: another fifty points from Gryffindor
+    local_occurrence_note: McGonagall's warnings after Harry reports the Stone threat.
+  nearby_context: McGonagall says the Stone is too well protected to steal, Snape warns Harry that more nighttime wandering will mean expulsion, and McGonagall threatens another major House-point deduction if Harry and Ron approach the third-floor corridor again.
+  match_terms:
+  - Sorcerer's Stone
+  - too well protected
+  - nighttime wanderings
+  - expelled
+  - third-floor corridor
+  - pack of enchantments
+  - fifty points
+  quote_excerpt_short: "harder to get past than a pack of enchantments"
+  source_note: The chapter combines staff confidence in the Stone protections with disciplinary warnings around renewed nighttime wandering and access to the third-floor corridor.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - third-floor-corridor
+  - philosopher-stone-protections
+  - mcgonagall
+  - snape
+  - nighttime-wandering
+  - expulsion
+  - house-points
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Restricted Areas
+  candidate_section: Third-Floor Corridor Enforcement
+  reason_for_placement: The passage shows staff enforcement of a restricted security area and the disciplinary scale attached to repeated violations.
+  relevance_to_hogwarts_a_history: This strengthens later editorial coverage of the Stone corridor as both a security site and a school-discipline flashpoint.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-003; ps-ch09-007; ps-ch14-003
+    notes: Earlier entries seeded the out-of-bounds corridor and Stone protections; this entry adds McGonagall's direct warning, the phrase "pack of enchantments," and expulsion-level escalation for further nighttime wandering.
+  confidence: high
+  limitations: The corridor restriction and protection warnings are tied to the 1991-1992 Stone incident, not a standing pre-Harry rule.
+- id: ps-ch16-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 247
+  printed_page: not available
+  extracted_text_lines: PDF page 245, lines 15-29; PDF page 246, lines 1-17; PDF page 247, lines 1-25; PDF page 248, lines 1-7
+  text_anchor:
+    start_phrase: Harry pushed the door open
+    end_phrase: lucky you pay attention in Herbology
+    local_occurrence_note: Fluffy, trapdoor descent, and Devil's Snare chamber.
+  nearby_context: The students use music to put Fluffy to sleep, open the trapdoor, drop into a subterranean chamber, and escape Devil's Snare using Herbology knowledge and conjured flames.
+  match_terms:
+  - Fluffy
+  - trapdoor
+  - flute
+  - Devil's Snare
+  - Professor Sprout
+  - Herbology
+  - bluebell flames
+  quote_excerpt_short: "it likes the dark and the damp"
+  source_note: "The chapter reveals the first layers below the trapdoor: music calms Fluffy, the trapdoor leads into a deep chamber, and Devil's Snare functions as a plant-based protection requiring Herbology knowledge."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - fluffy
+  - trapdoor
+  - devil's-snare
+  - herbology
+  - professor-sprout
+  - philosopher-stone-protections
+  - subterranean-chamber
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Trapdoor and Plant-Based Protections
+  reason_for_placement: The passage supplies direct observed evidence for the first hidden chambers and the plant protection later attributed to Sprout.
+  relevance_to_hogwarts_a_history: This is key later editorial evidence for how Hogwarts staff combined creature, architectural, and subject-specific magic to guard the Stone.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-007; ps-ch11-007; ps-ch14-003
+    notes: Earlier entries seeded Fluffy, the trapdoor, and named staff involvement; this entry adds direct passage through the trapdoor and identifies the Devil's Snare protection.
+  confidence: high
+  limitations: The source reveals the protection during Harry's 1991-1992 school year and should not be treated as original-book core history.
+- id: ps-ch16-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 250
+  printed_page: not available
+  extracted_text_lines: PDF page 248, lines 25-28; PDF page 249, lines 3-29; PDF page 250, lines 1-29; PDF page 251, lines 11-18; PDF page 252, lines 21-23; PDF page 253, lines 1-2
+  text_anchor:
+    start_phrase: saw before them a brilliantly lit chamber
+    end_phrase: McGonagall transfigured the chessmen to make them alive
+    local_occurrence_note: Winged-key room, animated chessboard, and Hermione's staff attribution.
+  nearby_context: The next chambers contain bewitched winged keys and brooms, followed by a giant chessboard whose transfigured chessmen move, fight, and clear the route after checkmate; Hermione attributes the key charms to Flitwick and the living chessmen to McGonagall.
+  match_terms:
+  - winged keys
+  - broomsticks
+  - bewitched keys
+  - chessboard
+  - chessmen
+  - Flitwick
+  - McGonagall
+  - transfigured
+  quote_excerpt_short: "Flitwick must've put charms on the keys"
+  source_note: The chapter reveals a flying-key chamber that depends on broom skill and a transfigured chess challenge later attributed to Flitwick and McGonagall respectively.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - winged-keys
+  - broomsticks
+  - professor-flitwick
+  - transfigured-chessmen
+  - professor-mcgonagall
+  - philosopher-stone-protections
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Charms and Transfiguration Protections
+  reason_for_placement: The passage assigns two Stone-protection chambers to subject-specific Hogwarts magic and staff expertise.
+  relevance_to_hogwarts_a_history: This provides later editorial evidence for staff-created protections that reflect Hogwarts curricular disciplines and teacher specializations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-003
+    notes: Chapter Fourteen named Flitwick and McGonagall among staff protecting the Stone; this entry identifies their likely specific protection chambers.
+  confidence: high
+  limitations: Hermione's attribution is reasoned from the chambers and staff specialties; the chapter does not include direct confirmation from Flitwick or McGonagall.
+- id: ps-ch16-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Sixteen - Through the Trapdoor
+  chapter_start_pdf_page: 234
+  chapter_end_pdf_page: 256
+  pdf_page: 253
+  printed_page: not available
+  extracted_text_lines: PDF page 253, lines 7-28; PDF page 254, lines 1-27; PDF page 255, lines 1-9; PDF page 256, lines 1-9
+  text_anchor:
+    start_phrase: a table with seven differently shaped bottles
+    end_phrase: he was on the other side, in the last chamber
+    local_occurrence_note: Snape's potion-and-logic chamber after the troll room.
+  nearby_context: After passing an unconscious troll, Harry and Hermione enter a chamber where purple and black flames trap them with seven bottles and a written logic puzzle; Hermione solves which potion leads onward and which returns safely.
+  match_terms:
+  - troll
+  - Snape
+  - seven bottles
+  - purple fire
+  - black flames
+  - logic
+  - potions
+  - Stone
+  quote_excerpt_short: "This isn't magic - it's logic"
+  source_note: The chapter reveals a troll room followed by Snape's potion-and-fire puzzle, where logic rather than spell-casting determines safe passage forward or back.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - troll
+  - professor-quirrell
+  - professor-snape
+  - potions
+  - logic-puzzle
+  - purple-fire
+  - black-flames
+  - philosopher-stone-protections
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Creature, Potion, and Logic Protections
+  reason_for_placement: The passage documents the final protection layers before the last chamber and shows a staff protection built from Potions and logic.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the Stone gauntlet and a useful cross-reference for the intersection of Potions expertise and magical security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-003
+    notes: Chapter Fourteen named Quirrell and Snape among staff protecting the Stone; this entry adds the observed troll chamber and Snape's potion-and-logic protection.
+  confidence: high
+  limitations: The attribution of the troll chamber to Quirrell is inferred from Hermione's list and Hagrid's earlier staff list; the chapter directly labels the bottle puzzle as Snape's but does not show Snape creating it.

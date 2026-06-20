@@ -1,0 +1,276 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  boundary_confidence: high
+  boundary_notes: Chapter Thirteen start was taken from the Chapter Twelve boundary and confirmed on PDF page 194. Chapter Fourteen - Norbert the Norwegian Ridgeback was located by scanning forward from that anchor and starts on PDF page 205, so only pages 194-204 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Thirteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch13-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  pdf_page: 197
+  printed_page: not available
+  extracted_text_lines: PDF page 197, lines 4-23; PDF page 198, lines 1-18 and 23-27
+  text_anchor:
+    start_phrase: As Neville walked away
+    end_phrase: six hundred and sixty-five
+    local_occurrence_note: Common-room discovery sequence after Neville gives Harry the Dumbledore Famous Wizard card.
+  nearby_context: Harry identifies Nicolas Flamel from Dumbledore's Chocolate Frog card, then Hermione retrieves an old library book that explains Flamel, alchemy, the Sorcerer's Stone, the Elixir of Life, and Perenelle.
+  match_terms:
+  - Dumbledore
+  - Nicolas Flamel
+  - library
+  - alchemy
+  - Sorcerer's Stone
+  - Elixir of Life
+  - Famous Wizard card
+  quote_excerpt_short: "I got this out of the library weeks ago"
+  source_note: The chapter shows students combining a collectible Famous Wizard card with an old library book to identify Nicolas Flamel and learn basic alchemical information about the Sorcerer's Stone.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library
+  - named-sources
+  - student-research
+  - alchemy
+  - nicolas-flamel
+  - dumbledore
+  - chocolate-frog-card
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Library Books
+  candidate_section: Research Across Books and Magical Ephemera
+  reason_for_placement: The passage documents student research using both a Hogwarts library book and an in-universe biographical card as sources.
+  relevance_to_hogwarts_a_history: 'This helps index how Hogwarts students assemble knowledge from books and secondary magical sources, though it is not an explicit reference to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-004
+    notes: Chapter Twelve seeded Flamel research in named reference books and the library's scale; this entry adds the successful source combination of a Famous Wizard card and a borrowed old library book.
+  confidence: high
+  limitations: The old book Hermione borrowed is not titled in this passage, and the information is about wider wizarding history rather than Hogwarts specifically.
+- id: ps-ch13-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  pdf_page: 195
+  printed_page: not available
+  extracted_text_lines: PDF page 194, lines 20-24; PDF page 195, lines 1-21
+  text_anchor:
+    start_phrase: Quidditch practice had started again
+    end_phrase: we play a clean game
+    local_occurrence_note: Opening Quidditch practice passage before Harry returns to Gryffindor common room.
+  nearby_context: Gryffindor resumes hard Quidditch practices in bad weather before the Hufflepuff match; Wood says a win would overtake Slytherin in the House Championship and worries that Snape, the referee, may use penalties against Gryffindor.
+  match_terms:
+  - Quidditch practice
+  - Hufflepuff
+  - Slytherin
+  - House Championship
+  - Snape
+  - referee
+  - clean game
+  quote_excerpt_short: "overtake Slytherin in the House Championship"
+  source_note: The chapter ties an upcoming Gryffindor-Hufflepuff match to House Championship standings, shows weather-resistant team practice, and identifies referee decisions and penalties as tactical concerns.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-season
+  - house-championship
+  - hufflepuff
+  - slytherin
+  - refereeing
+  - penalties
+  - team-practice
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: School Quidditch Season
+  candidate_section: House Championship Context
+  reason_for_placement: The passage strengthens the connection between House Quidditch results, team preparation, referee authority, and House Championship position.
+  relevance_to_hogwarts_a_history: This supports a future Hogwarts Quidditch section on seasonal competition and how match outcomes affect House standing.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-001
+    notes: Chapter Eleven seeded Quidditch season and House Championship stakes; this entry adds the Hufflepuff match, seven-year Slytherin lead context, and referee-penalty concern.
+  confidence: high
+  limitations: The passage still does not define the formal scoring relationship between Quidditch results and the House Championship.
+- id: ps-ch13-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  pdf_page: 196
+  printed_page: not available
+  extracted_text_lines: PDF page 196, lines 8-24
+  text_anchor:
+    start_phrase: Neville toppled into the common room
+    end_phrase: make it easier
+    local_occurrence_note: Gryffindor common-room scene after Harry discusses Snape refereeing the match.
+  nearby_context: Neville enters through the Gryffindor portrait hole with his legs locked by Malfoy's curse; Hermione performs the countercurse and urges Neville to report Malfoy to Professor McGonagall.
+  match_terms:
+  - portrait hole
+  - Leg-Locker Curse
+  - countercurse
+  - library
+  - report
+  - Professor McGonagall
+  quote_excerpt_short: "performed the countercurse"
+  source_note: The scene shows a student curse used outside class near the library, a peer countercurse in the common room, and a suggested disciplinary report to McGonagall.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - student-discipline
+  - curses
+  - leg-locker-curse
+  - countercurse
+  - mcgonagall
+  - library
+  - gryffindor-common-room
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Misconduct and Reporting
+  candidate_section: Curses, Countercurses, and Faculty Reports
+  reason_for_placement: The passage provides evidence for student-on-student spell misuse and the expected option of reporting misconduct to a teacher.
+  relevance_to_hogwarts_a_history: This supports a future discipline section on how student magical misconduct is handled or reported at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-002
+    notes: Chapter Twelve seeded fighting as a rule breach; this entry adds curse-based misconduct and peer advice to report it to McGonagall.
+  confidence: medium
+  limitations: Neville chooses not to report the incident, so the passage does not show the actual penalty or formal reporting procedure.
+- id: ps-ch13-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  pdf_page: 198
+  printed_page: not available
+  extracted_text_lines: PDF page 198, lines 28-31
+  text_anchor:
+    start_phrase: The next morning in Defense Against the Dark Arts
+    end_phrase: treating werewolf bites
+    local_occurrence_note: Brief class reference immediately after the Flamel library-book discovery.
+  nearby_context: Harry and Ron are in Defense Against the Dark Arts, copying down different methods for treating werewolf bites while discussing the Sorcerer's Stone.
+  match_terms:
+  - Defense Against the Dark Arts
+  - werewolf bites
+  - class
+  - copying down
+  quote_excerpt_short: "treating werewolf bites"
+  source_note: 'The chapter gives a specific Defense Against the Dark Arts lesson topic: methods for treating werewolf bites.'
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - werewolves
+  - curriculum
+  - lesson-content
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Topics
+  reason_for_placement: The passage adds a concrete first-year Defense Against the Dark Arts topic to the existing curriculum seed.
+  relevance_to_hogwarts_a_history: This supports future curriculum coverage by identifying a specific lesson subject within a named Hogwarts class.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-004
+    notes: Chapter Eight seeded Defense Against the Dark Arts as part of the first-year curriculum; this entry adds a specific werewolf-bite treatment topic.
+  confidence: high
+  limitations: The passage does not identify the textbook, spellwork, or whether this topic was standard across years.
+- id: ps-ch13-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  pdf_page: 201
+  printed_page: not available
+  extracted_text_lines: PDF page 199, lines 12-35; PDF page 200, lines 17-23; PDF page 201, lines 19-30
+  text_anchor:
+    start_phrase: outside the locker rooms
+    end_phrase: the game was over
+    local_occurrence_note: Gryffindor-Hufflepuff match sequence from locker-room preparation through Harry's quick Snitch catch.
+  nearby_context: The teams prepare in locker rooms, spectators gather in stands, Dumbledore attends, Snape referees, penalties are awarded to Hufflepuff, and Harry ends the match by catching the Snitch in about five minutes.
+  match_terms:
+  - locker rooms
+  - stands
+  - Dumbledore
+  - Snape
+  - referee
+  - Hufflepuff
+  - penalty
+  - Snitch
+  quote_excerpt_short: "Snape awarded Hufflepuff another penalty"
+  source_note: The match shows staff attendance, locker-room preparation, spectator stands, referee-assessed penalties, and a rapid Snitch catch that ends a House Quidditch match.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-match
+  - refereeing
+  - penalties
+  - snitch
+  - locker-rooms
+  - stands
+  - dumbledore
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Matches
+  candidate_section: Refereeing, Penalties, and Match Endings
+  reason_for_placement: The passage adds a second observed House match, confirming match infrastructure and referee penalty authority while illustrating how catching the Snitch ends play.
+  relevance_to_hogwarts_a_history: This strengthens the Hogwarts Quidditch seed with another match example and a different staff referee.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-004; ps-ch11-005
+    notes: Chapter Eleven seeded matchday infrastructure and Madam Hooch's refereeing; this entry adds Snape as referee, Hufflepuff penalties, Dumbledore's attendance, and a rapid Snitch-catch ending.
+  confidence: high
+  limitations: Some referee-bias observations are character judgments; the entry records observable match mechanics and penalties rather than treating bias as institutional fact.
+- id: ps-ch13-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Thirteen - Nicolas Flamel
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 204
+  pdf_page: 203
+  printed_page: not available
+  extracted_text_lines: PDF page 203, lines 4-22; PDF page 204, lines 7-17
+  text_anchor:
+    start_phrase: Students aren't supposed to know
+    end_phrase: apart from Fluffy, loads of enchantments
+    local_occurrence_note: Forest conversation overheard after the Quidditch match and Harry's immediate report in an empty room.
+  nearby_context: Snape tells Quirrell students are not supposed to know about the Sorcerer's Stone, asks about getting past Hagrid's beast, and refers to Quirrell's hocus-pocus; Harry infers that protections beyond Fluffy may include enchantments and anti-Dark Arts magic.
+  match_terms:
+  - Sorcerer's Stone
+  - students
+  - Fluffy
+  - Hagrid
+  - hocus-pocus
+  - enchantments
+  - anti-Dark Arts
+  quote_excerpt_short: "Students aren't supposed to know"
+  source_note: The chapter reinforces that the Stone's presence is secret from students, links the guarded object to Fluffy, and suggests that additional magical protections may be involved.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - philosopher-stone-protections
+  - fluffy
+  - secrecy
+  - enchantments
+  - anti-dark-arts
+  - hagrid
+  - quirrell
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Secrecy and Layered Protections
+  reason_for_placement: The passage concerns a concealed Hogwarts security arrangement involving guarded access and possible layered magical defenses.
+  relevance_to_hogwarts_a_history: This is later editorial context for Hogwarts security practices, not likely part of the original pre-Harry in-universe book.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-007; ps-ch11-007
+    notes: Chapter Nine seeded the guarded third-floor trapdoor, and Chapter Eleven named Fluffy and Dumbledore's guarding purpose; this entry adds secrecy and possible layered enchantments.
+  confidence: medium
+  limitations: Harry's statement about additional enchantments is partly inference from overheard dialogue, so later chapters must confirm the exact protection sequence.

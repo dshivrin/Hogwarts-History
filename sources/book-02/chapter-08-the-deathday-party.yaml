@@ -1,0 +1,283 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  boundary_confidence: high
+  boundary_notes: Chapter Eight range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Seven boundary. Book 2 Chapter Eight starts on PDF page 383 and Chapter Nine starts on PDF page 399, so only PDF pages 383-398 were extracted and searched.
+  processed_date: '2026-06-15'
+  processor_notes: "Processed only Book 2, Chapter Eight. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch08-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  pdf_page: 384
+  printed_page: not available
+  extracted_text_lines: PDF page 384, lines 8-31; PDF page 385, lines 4-14
+  text_anchor:
+    start_phrase: Nearly Headless Nick, the ghost of Gryffindor Tower
+    end_phrase: not enough for Sir Properly Decapitated-Podmore
+    local_occurrence_note: Nick reads Sir Patrick's rejection letter in the corridor before Filch catches Harry.
+  nearby_context: Nearly Headless Nick is identified as the ghost of Gryffindor Tower, explains his failed Headless Hunt application, and gives details about his botched beheading and ghostly eligibility rules.
+  match_terms:
+  - Nearly Headless Nick
+  - Gryffindor Tower
+  - Headless Hunt
+  - Sir Patrick Delaney-Podmore
+  - ghost
+  - requirements
+  quote_excerpt_short: "forty-five times in the neck"
+  source_note: Nick's exchange with Harry adds ghost-society lore, including Headless Hunt membership requirements and the reason Nick is not accepted despite his near-beheading.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ghosts
+  - nearly-headless-nick
+  - gryffindor-tower
+  - headless-hunt
+  - sir-patrick-delaney-podmore
+  - ghost-society
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Resident Ghosts and Poltergeists
+  candidate_section: Nearly Headless Nick and Ghost Society
+  reason_for_placement: The passage expands Hogwarts ghost lore beyond daily wayfinding by showing social affiliations, exclusion rules, and Nick's House-associated identity.
+  relevance_to_hogwarts_a_history: This supports a future ghost chapter with concrete evidence about resident ghosts and external ghost communities connected to Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-002
+    notes: Chapter Eight of Book 1 seeded ghosts, Nearly Headless Nick, and Peeves as daily Hogwarts residents; this entry corroborates Nick's role and adds Headless Hunt eligibility and personal death lore.
+  confidence: high
+  limitations: The passage gives Nick's personal account and a rejection letter, but does not explain when he became associated with Gryffindor Tower.
+- id: cos-ch08-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  pdf_page: 386
+  printed_page: not available
+  extracted_text_lines: PDF page 385, lines 19-32; PDF page 386, lines 3-39; PDF page 387, lines 2-20; PDF page 388, lines 11-29
+  text_anchor:
+    start_phrase: Mrs. Norris, the skeletal gray cat
+    end_phrase: not that it's mine
+    local_occurrence_note: Filch takes Harry to his office after the muddy corridor encounter and reacts to Harry seeing the Kwikspell envelope.
+  nearby_context: Mrs. Norris functions as Filch's deputy in student enforcement; Filch's office contains punishment records for pupils, old chains and manacles, a disciplinary form, and a private Kwikspell course.
+  match_terms:
+  - Mrs. Norris
+  - caretaker
+  - Filch
+  - office
+  - punished
+  - chains
+  - manacles
+  - Kwikspell
+  quote_excerpt_short: "details of every pupil Filch had ever punished"
+  source_note: The chapter gives a rare look inside Filch's office, showing disciplinary filing cabinets, punishment forms, obsolete or desired restraints, Mrs. Norris's enforcement role, and Filch's hidden interest in beginner magic.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - filch
+  - mrs-norris
+  - caretaker
+  - discipline-records
+  - punishment
+  - kwikspell
+  - squib-context
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Caretakers, Corridor Patrols, and Restricted Areas
+  candidate_section: Filch's Office, Punishment Records, and Mrs. Norris
+  reason_for_placement: The scene supplies institutional discipline evidence through the caretaker's recordkeeping, enforcement companion, punishment preferences, and office setting.
+  relevance_to_hogwarts_a_history: This strengthens the governance seed by showing how a caretaker tracks and pursues student infractions inside the castle.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-003
+    notes: Chapter Eight of Book 1 seeded Filch and Mrs. Norris as corridor enforcers; this entry adds office records, punishment forms, chains, manacles, and Kwikspell context.
+  confidence: high
+  limitations: Filch's desired punishments may reflect his personal preferences rather than current authorized Hogwarts policy; Harry's inference about Filch's magical status remains uncertain here.
+- id: cos-ch08-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  pdf_page: 390
+  printed_page: not available
+  extracted_text_lines: PDF page 390, lines 19-32
+  text_anchor:
+    start_phrase: people sat reading, talking, doing homework
+    end_phrase: drove both Filch and the Kwikspell envelope from Harry's mind
+    local_occurrence_note: Gryffindor common-room scene after Harry returns from Filch's office.
+  nearby_context: Students read, talk, and do homework in the Gryffindor common room while Fred and George experiment with a fire-dwelling salamander taken from Care of Magical Creatures class.
+  match_terms:
+  - Care of Magical Creatures
+  - salamander
+  - common room
+  - homework
+  - firework
+  - Percy
+  quote_excerpt_short: "Care of Magical Creatures class"
+  source_note: A fire-dwelling salamander from Care of Magical Creatures appears in the Gryffindor common room, giving curriculum-adjacent evidence for magical creature handling and student misuse outside class.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - salamanders
+  - common-room
+  - magical-creatures
+  - student-misconduct
+  - homework
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures
+  candidate_section: Classroom Creatures and Student Handling
+  reason_for_placement: The passage is one of the first concrete Harry-era references to Care of Magical Creatures as a Hogwarts class and shows a creature leaving classroom control.
+  relevance_to_hogwarts_a_history: This can seed a future curriculum section on magical-creature instruction and safety, while treating the common-room experiment as student misconduct.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior Care of Magical Creatures classroom-creature entry found in the existing seed.
+  confidence: medium
+  limitations: The chapter does not identify the teacher, year level, lesson objective, or whether Fred's access to the salamander was authorized.
+- id: cos-ch08-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  pdf_page: 390
+  printed_page: not available
+  extracted_text_lines: PDF page 390, lines 33-36; PDF page 391, lines 2-29
+  text_anchor:
+    start_phrase: The rest of the school was happily anticipating their Halloween feast
+    end_phrase: it was like stepping into a freezer
+    local_occurrence_note: Halloween evening contrast between the Great Hall feast and Nick's dungeon deathday party.
+  nearby_context: The Great Hall is decorated for Halloween with usual live bats, carved Hagrid pumpkins, gold plates, candles, and rumored dancing skeletons, while Nick's party occupies a dungeon decorated for ghosts with black candles, blue flames, and intense cold.
+  match_terms:
+  - Halloween feast
+  - Great Hall
+  - usual live bats
+  - Hagrid's pumpkins
+  - dancing skeletons
+  - dungeons
+  - deathday party
+  quote_excerpt_short: "usual live bats"
+  source_note: The chapter corroborates the Hogwarts Halloween feast as a school-wide custom and contrasts it with a ghost-hosted deathday party in the dungeons.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - halloween-feast
+  - great-hall
+  - school-traditions
+  - hagrid-pumpkins
+  - dungeons
+  - deathday-party
+  - ghost-customs
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Halloween Feast
+  candidate_section: Great Hall Decorations and Ghostly Counter-Customs
+  reason_for_placement: The passage documents recurring seasonal decoration language and the school's Halloween feast while adding an overlapping ghost tradition on the same night.
+  relevance_to_hogwarts_a_history: This strengthens the future school-traditions section and creates a cross-reference to ghost customs.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch10-002
+    notes: Chapter Ten seeded the Halloween feast with Great Hall decorations and magically appearing food; this entry corroborates the feast and adds usual live bats, Hagrid pumpkins, possible entertainment, and a ghost-party contrast.
+  confidence: high
+  limitations: The passage still does not state the origin of the Halloween feast or who arranges the decorations and entertainment.
+- id: cos-ch08-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  pdf_page: 392
+  printed_page: not available
+  extracted_text_lines: PDF page 391, lines 24-35; PDF page 392, lines 2-44; PDF page 393, lines 1-44; PDF page 394, lines 1-15
+  text_anchor:
+    start_phrase: The dungeon was full of hundreds
+    end_phrase: Miserable, moaning, moping Myrtle
+    local_occurrence_note: Nick's deathday party tour, including House ghosts, Moaning Myrtle, ghost food, and Peeves.
+  nearby_context: The deathday party gathers many ghosts, including the Fat Friar, Bloody Baron, Moaning Myrtle, Peeves, and visiting ghosts. Hermione says Myrtle haunts a first-floor girls' bathroom that has been out of order all year because of Myrtle's tantrums.
+  match_terms:
+  - Fat Friar
+  - Bloody Baron
+  - Moaning Myrtle
+  - first floor
+  - girls' bathroom
+  - Peeves
+  - ghost food
+  - Sir Nicholas
+  quote_excerpt_short: "DIED 31ST OCTOBER, 1492"
+  source_note: The party identifies multiple Hogwarts ghosts and ghost customs, gives Sir Nicholas's death date, and locates Moaning Myrtle's haunting in a first-floor girls' bathroom that disrupts student use.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ghosts
+  - nearly-headless-nick
+  - fat-friar
+  - bloody-baron
+  - moaning-myrtle
+  - peeves
+  - first-floor-bathroom
+  - ghost-customs
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Resident Ghosts and Poltergeists
+  candidate_section: House Ghosts, Bathroom Hauntings, and Deathday Customs
+  reason_for_placement: The passage expands the ghost roster and shows how ghost behavior affects castle spaces and student routines.
+  relevance_to_hogwarts_a_history: This supplies concrete resident-ghost evidence for a future ghost chapter and links ghost lore to castle-room usage.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-002
+    notes: Chapter Eight of Book 1 seeded ghosts and Peeves as Hogwarts residents; this entry adds named House ghosts, Moaning Myrtle's first-floor bathroom haunting, Nick's death date, and deathday-party customs.
+  confidence: high
+  limitations: The chapter does not explain Myrtle's death, the origin of the haunting, or the formal status of ghost use of school spaces.
+- id: cos-ch08-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eight - The Deathday Party
+  chapter_start_pdf_page: 383
+  chapter_end_pdf_page: 398
+  pdf_page: 397
+  printed_page: not available
+  extracted_text_lines: PDF page 396, lines 7-27; PDF page 397, lines 2-34; PDF page 398, lines 5-18
+  text_anchor:
+    start_phrase: Pudding might not be finished yet
+    end_phrase: You'll be next, Mudbloods
+    local_occurrence_note: Harry follows the hidden voice from the dungeon passage toward the second floor after the deathday party.
+  nearby_context: Harry hears the same hidden voice from Lockhart's office moving upward through the castle, follows it through the entrance hall and marble staircase to the second floor, and finds the Chamber of Secrets message above the petrified Mrs. Norris.
+  match_terms:
+  - voice
+  - entrance hall
+  - Great Hall
+  - marble staircase
+  - second floor
+  - Chamber of Secrets
+  - Heir
+  - Mrs. Norris
+  - Mudbloods
+  quote_excerpt_short: "THE CHAMBER OF SECRETS HAS BEEN OPENED"
+  source_note: "The chapter gives the first visible Chamber of Secrets attack marker: a threatening wall message, Mrs. Norris petrified beneath it, and a route from the dungeon passage to a second-floor corridor after the Halloween feast."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - chamber-of-secrets
+  - heir-of-slytherin
+  - mrs-norris
+  - petrification
+  - hidden-voice
+  - second-floor-corridor
+  - blood-status-threat
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: First Visible Attack and Wall Message
+  reason_for_placement: The scene identifies the Chamber crisis as an active castle security event and ties the earlier hidden voice to a concrete attack site.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for a major Hogwarts crisis, not original-book core material, but it will anchor future Chamber-related structure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch07-006
+    notes: Chapter Seven seeded the hidden voice during Lockhart's office detention; this entry follows the voice to the first visible Chamber message and Mrs. Norris's petrification.
+  confidence: high
+  limitations: The chapter does not yet identify the attacker, victim condition as petrification by name, route mechanism, or historical origin of the Chamber.

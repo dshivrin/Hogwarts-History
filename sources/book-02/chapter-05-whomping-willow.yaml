@@ -1,0 +1,279 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  boundary_confidence: high
+  boundary_notes: Chapter Five range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Four boundary. Book 2 Chapter Five starts on PDF page 335 and Chapter Six starts on PDF page 353, so only PDF pages 335-352 were extracted and searched.
+  processed_date: '2026-06-14'
+  processor_notes: "Processed only Book 2, Chapter Five. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch05-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  pdf_page: 337
+  printed_page: not available
+  extracted_text_lines: PDF page 337, lines 2-30; PDF page 338, lines 2-7
+  text_anchor:
+    start_phrase: What you had to do was walk through the solid barrier
+    end_phrase: The metal remained solid
+    local_occurrence_note: King's Cross arrival sequence, after the Weasleys begin crossing to platform nine and three-quarters.
+  nearby_context: Harry recalls the hidden platform entrance, the Weasleys pass through in small groups, and Harry and Ron are blocked when the gateway becomes solid before the train leaves.
+  match_terms:
+  - platform nine and three-quarters
+  - solid barrier
+  - Muggle eye
+  - disappear casually
+  - gateway sealed
+  - Hogwarts Express
+  quote_excerpt_short: "the gateway's sealed itself"
+  source_note: The chapter confirms the platform nine and three-quarters barrier is normally hidden from Muggles, requires discreet crossings, and can be obstructed or sealed.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-express
+  - platform-nine-and-three-quarters
+  - kings-cross
+  - muggle-secrecy
+  - school-travel
+  - magical-barrier
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Platform Barrier Access and Secrecy
+  reason_for_placement: The passage gives operational evidence for the hidden student route from King's Cross to the Hogwarts Express and its secrecy requirements.
+  relevance_to_hogwarts_a_history: This strengthens a future travel-history section by showing the platform entrance in use and identifying failure or closure as a serious start-of-term problem.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch06-001
+    notes: Chapter Six seeded platform nine and three-quarters access and the eleven o'clock train; this entry corroborates the barrier procedure and adds the sealed-gateway failure.
+  confidence: high
+  limitations: The chapter does not identify who sealed the barrier until later evidence, and it does not explain the barrier's enchantment or origin.
+- id: cos-ch05-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  pdf_page: 340
+  printed_page: not available
+  extracted_text_lines: PDF page 340, lines 5-33; PDF page 341, lines 13-32; PDF page 342, lines 10-24
+  text_anchor:
+    start_phrase: The Hogwarts Express was streaking along below them
+    end_phrase: soaring over the dark greenhouses
+    local_occurrence_note: Harry and Ron follow the Hogwarts Express north by flying car and approach the castle at dusk.
+  nearby_context: Harry and Ron track the Hogwarts Express north, pass landscape changes, see the castle's turrets and towers high above the lake, then fly over the lake, dark stone wall, greenhouses, vegetable patch, and lawns.
+  match_terms:
+  - Hogwarts Express
+  - due north
+  - lake
+  - turrets and towers
+  - Hogwarts castle
+  - greenhouses
+  - vegetable patch
+  - lawns
+  quote_excerpt_short: "high on the cliff over the lake"
+  source_note: "The flight supplies a broad approach map for Hogwarts: the Express travels north, the castle stands high over the lake, and grounds features include greenhouses, a vegetable patch, and lawns."
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-express
+  - castle-approach
+  - lake
+  - greenhouses
+  - grounds
+  - school-geography
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Lake and Castle Approach
+  candidate_section: Express Route and Aerial Approach
+  reason_for_placement: The passage combines travel-route evidence with concrete castle-and-grounds geography.
+  relevance_to_hogwarts_a_history: This helps locate the castle relative to the lake, train route, greenhouses, and grounds for future structural chapters.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch06-007
+    notes: Chapter Six records the first-year boat approach across the lake; this entry corroborates the lake-and-castle geography from an aerial route and adds greenhouses and lawns.
+  confidence: medium
+  limitations: The route is observed from an illicit flying car rather than an official school approach, and the text does not provide exact distances or maps.
+- id: cos-ch05-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  pdf_page: 343
+  printed_page: not available
+  extracted_text_lines: PDF page 343, lines 7-31; PDF page 344, lines 9-18; PDF page 348, lines 24-27
+  text_anchor:
+    start_phrase: The tree they had hit was attacking them
+    end_phrase: serious damage to an old and valuable tree
+    local_occurrence_note: Whomping Willow crash and later staff discipline in Snape's office.
+  nearby_context: After the car hits the tree on the grounds, the tree attacks the car with heavy branches; Ron later calls it an ancient tree, and Snape describes it as old and valuable during the disciplinary confrontation.
+  match_terms:
+  - Whomping Willow
+  - tree
+  - attacking
+  - ancient tree
+  - old and valuable tree
+  - Hogwarts grounds
+  quote_excerpt_short: "old and valuable tree"
+  source_note: The chapter identifies the Whomping Willow as an animated, dangerous, ancient or old tree on Hogwarts grounds whose damage is treated as a serious school matter.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - whomping-willow
+  - hogwarts-grounds
+  - magical-tree
+  - school-property
+  - grounds-hazards
+  - magical-residents
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Grounds and Edge of the Forest
+  candidate_section: The Whomping Willow
+  reason_for_placement: The passage introduces a distinctive magical feature of the school grounds and frames it as valuable institutional property.
+  relevance_to_hogwarts_a_history: This is a strong seed for a later grounds-history section, while later sources are needed to date the tree and explain why it was planted.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No earlier seed records the Whomping Willow as a Hogwarts grounds feature.
+  confidence: high
+  limitations: The chapter calls the tree old but does not give its planting date, purpose, caretaking method, or official name in the immediate crash passage.
+- id: cos-ch05-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  pdf_page: 344
+  printed_page: not available
+  extracted_text_lines: PDF page 344, lines 19-33; PDF page 345, lines 1-8
+  text_anchor:
+    start_phrase: Hey - Harry - come and look - it's the Sorting
+    end_phrase: beating Slytherin for the first time in seven years
+    local_occurrence_note: Harry and Ron watch the start-of-term feast and Sorting through a Great Hall window after crashing outside.
+  nearby_context: The Great Hall has four long tables, hovering candles, golden plates and goblets, and a ceiling that mirrors the outside sky. The aged Sorting Hat is placed before first-years and sorts them into the four Houses every year; Harry recalls Slytherin's reputation and Gryffindor's recent House Championship.
+  match_terms:
+  - Great Hall
+  - bewitched ceiling
+  - Sorting Hat
+  - every year
+  - four Hogwarts Houses
+  - House Championship
+  - Slytherin
+  quote_excerpt_short: "sorted new students into the four Hogwarts Houses"
+  source_note: The chapter restates the annual Sorting, the four-House system, the aged Sorting Hat, and the Great Hall's bewitched ceiling during the start-of-term feast.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - sorting-ceremony
+  - sorting-hat
+  - four-houses
+  - great-hall
+  - enchanted-ceiling
+  - house-championship
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: Annual House Assignment in the Great Hall
+  reason_for_placement: The passage directly confirms the Sorting as an annual first-year ceremony in the Great Hall and connects it to House identity.
+  relevance_to_hogwarts_a_history: This corroborates the first-year Sorting seed and adds explicit annual language plus a second observation of the Great Hall ceiling.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002
+    notes: Chapter Seven introduced the Sorting Ceremony and House assignment; this entry corroborates the annual practice and adds aged-hat and Great Hall context.
+  confidence: high
+  limitations: The passage does not explain the Sorting Hat's origin, founders' involvement, or when the ceremony began.
+- id: cos-ch05-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  pdf_page: 348
+  printed_page: not available
+  extracted_text_lines: PDF page 348, lines 16-31; PDF page 349, lines 7-22
+  text_anchor:
+    start_phrase: Not today, Mr. Weasley
+    end_phrase: But you will both get a detention
+    local_occurrence_note: Dumbledore and McGonagall decide consequences after Snape reports the flying-car incident.
+  nearby_context: Dumbledore warns that repeating the incident would force expulsion, says he will write to both families, Snape cites underage-wizardry law and damage to the tree, and Dumbledore says McGonagall decides punishment because the boys are in her House; she gives detention but no House-point deduction.
+  match_terms:
+  - expel
+  - writing to both your families
+  - Decree for the Restriction of Underage Wizardry
+  - old and valuable tree
+  - her House
+  - her responsibility
+  - detention
+  - points
+  quote_excerpt_short: "They are in her House"
+  source_note: The disciplinary scene shows headmaster warning authority, family notification, Ministry-law context, Head of House responsibility for punishment, and detention without point loss because term had not started.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - discipline
+  - expulsion
+  - detention
+  - heads-of-house
+  - underage-magic
+  - family-notification
+  - house-points
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: Head of House Responsibility and Term-Bound Points
+  reason_for_placement: The passage documents how major misconduct is escalated among staff, how punishment authority is assigned by House, and how House points may depend on term status.
+  relevance_to_hogwarts_a_history: This is key governance evidence for disciplinary authority, expulsion thresholds, detention, House responsibility, and the boundary between school discipline and outside-school magic law.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-005
+    notes: Chapter Two records the Ministry warning about underage magic and possible expulsion; this entry corroborates that context and adds Head of House punishment authority and term-status point reasoning.
+  confidence: high
+  limitations: The scene is an exceptional safety and secrecy incident, so the exact punishment scale should not be generalized without later policy evidence.
+- id: cos-ch05-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Five - The Whomping Willow
+  chapter_start_pdf_page: 335
+  chapter_end_pdf_page: 352
+  pdf_page: 350
+  printed_page: not available
+  extracted_text_lines: PDF page 350, lines 14-45; PDF page 351, lines 1-28
+  text_anchor:
+    start_phrase: treading the familiar path to Gryffindor Tower
+    end_phrase: SECOND YEARS
+    local_occurrence_note: Harry and Ron return from Snape's office to Gryffindor Tower after missing the feast.
+  nearby_context: The route to Gryffindor Tower passes portraits, suits of armor, stone stairs, and a secret portrait entrance. Students need the new year's password, normally learned through contact with a Gryffindor prefect, and the second-year dormitory contains five four-posters.
+  match_terms:
+  - Gryffindor Tower
+  - muttering portraits
+  - suits of armor
+  - secret entrance
+  - password
+  - Gryffindor prefect
+  - portrait hole
+  - second years
+  quote_excerpt_short: "the new year's password"
+  source_note: The chapter supplies castle-navigation and common-room access evidence, including portrait-door password control, prefect-mediated password knowledge, and a second-year Gryffindor dormitory arrangement.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - gryffindor-tower
+  - common-room
+  - portrait-hole
+  - passwords
+  - prefects
+  - dormitories
+  - castle-navigation
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Gryffindor Tower Access
+  reason_for_placement: The passage describes a House-specific residential route, password-controlled portrait access, and year-group dormitory space.
+  relevance_to_hogwarts_a_history: This supports future coverage of House residence architecture, common-room security customs, and prefect communication roles.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001
+    notes: Chapter Eight seeded castle navigation with portraits and armor; this entry corroborates those features and adds House-specific password access and dormitory evidence.
+  confidence: medium
+  limitations: The passage does not explain how passwords are set, how often they change, or whether all Houses use comparable entrance mechanisms.

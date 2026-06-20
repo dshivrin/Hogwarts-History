@@ -1,0 +1,278 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  boundary_confidence: high
+  boundary_notes: Chapter Seventeen start was taken from the previously processed Chapter Sixteen boundary and confirmed on PDF page 257. The chapter narrative ends on PDF page 274; PDF page 275 begins copyright/front matter before Book Two, so only pages 257-274 were extracted and searched.
+  processed_date: '2026-06-13'
+  processor_notes: 'Processed only Book 1, Chapter Seventeen. Text was extracted locally with pypdf into .tmp/ and searched with rg using the Chapter Sixteen anchor. No explicit Hogwarts: A History reference was found. Existing draft entries for this current unit were reconciled rather than duplicated. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch17-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  pdf_page: 257
+  printed_page: not available
+  extracted_text_lines: PDF page 257, lines 17-24; PDF page 258, lines 1-8
+  text_anchor:
+    start_phrase: No, no, no. I tried to kill you.
+    end_phrase: what a waste of time
+    local_occurrence_note: Quirrell's confession immediately after Harry reaches the final chamber.
+  nearby_context: Quirrell explains that he was jinxing Harry's broom during the Quidditch match, that Hermione broke his eye contact by rushing at Snape, that Snape was muttering a countercurse, and that Snape refereed the next match to prevent another attempt.
+  match_terms:
+  - Quidditch match
+  - broom
+  - eye contact
+  - countercurse
+  - Snape
+  - Dumbledore
+  - referee
+  quote_excerpt_short: "muttering a countercurse"
+  source_note: Quirrell confirms that the earlier broom incident was his attack, not Snape's, and says Snape tried to protect Harry through counter-magic and later refereeing.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - broom-jinx
+  - countercurse
+  - quidditch-safety
+  - match-security
+  - professor-quirrell
+  - professor-snape
+  - dumbledore
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Magical Interference and Student Safety
+  candidate_section: Quidditch Match Risks
+  reason_for_placement: The confession corrects the causality of an earlier match-safety incident and identifies both hostile interference and defensive counter-magic during a school match.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for magical interference risks in Hogwarts recreation and for staff response to suspected match danger.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-006
+    notes: Chapter Eleven recorded the observed broom interference and Hagrid's Dark Magic assessment; this entry identifies Quirrell as the attacker and Snape's countercurse and refereeing as protective actions.
+  confidence: high
+  limitations: The incident is specific to Harry's first year and does not establish a general Hogwarts policy for preventing magical interference in Quidditch.
+- id: ps-ch17-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  pdf_page: 258
+  printed_page: not available
+  extracted_text_lines: PDF page 258, lines 9-28
+  text_anchor:
+    start_phrase: Scurrying around the school on Halloween
+    end_phrase: I need to examine this interesting mirror
+    local_occurrence_note: Quirrell explains the Halloween troll diversion and begins examining the Mirror of Erised.
+  nearby_context: Quirrell admits letting the troll into Hogwarts as a diversion, says Snape went to the third floor to head him off, and identifies the Mirror of Erised as the key to finding the Stone.
+  match_terms:
+  - Halloween
+  - troll
+  - third floor
+  - three-headed dog
+  - Snape
+  - Mirror of Erised
+  - Stone
+  quote_excerpt_short: "I have a special gift with trolls"
+  source_note: Quirrell reveals that the Halloween troll incident was deliberate, that Snape used the diversion to intercept him at the third floor, and that Dumbledore's Mirror protection blocks Quirrell from finding the Stone.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - troll-incident
+  - third-floor-corridor
+  - mirror-of-erised
+  - professor-quirrell
+  - professor-snape
+  - philosopher-stone-protections
+  - internal-threat
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Internal Threats and Emergency Response
+  candidate_section: Troll Intrusion and Stone Diversion
+  reason_for_placement: The passage reframes the earlier troll emergency as a deliberate breach connected to the third-floor protection route.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for a Harry-era internal threat, staff interception, and how a school emergency was exploited against a guarded chamber.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch10-003; ps-ch16-007
+    notes: Chapter Ten recorded the troll emergency response, and Chapter Sixteen recorded the troll chamber; this entry links Quirrell to both the Halloween diversion and troll-based Stone protection context.
+  confidence: high
+  limitations: This is a 1991-1992 incident and should not be treated as standing Hogwarts security history without later corroboration.
+- id: ps-ch17-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  pdf_page: 267
+  printed_page: not available
+  extracted_text_lines: PDF page 267, lines 16-23
+  text_anchor:
+    start_phrase: How did I get the Stone out of the mirror?
+    end_phrase: drinking Elixir of Life
+    local_occurrence_note: Hospital wing conversation after Harry asks Dumbledore about the Mirror's final protection.
+  nearby_context: Dumbledore explains that he enchanted the Mirror arrangement so that only someone who wanted to find the Stone, but not use it, could obtain it; those who wanted wealth or immortality would only see themselves using it.
+  match_terms:
+  - Mirror of Erised
+  - Stone
+  - Dumbledore
+  - find it
+  - use it
+  - Elixir of Life
+  quote_excerpt_short: "find it, but not use it"
+  source_note: Dumbledore explains the final Mirror-based protection for the Stone and the desire-based condition for retrieving it.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - mirror-of-erised
+  - philosopher-stone-protections
+  - dumbledore
+  - desire-based-magic
+  - elixir-of-life
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Mirror-Based Final Protection
+  reason_for_placement: The passage supplies direct staff explanation of the final protection mechanism below the third-floor corridor.
+  relevance_to_hogwarts_a_history: This is key later editorial evidence for how Dumbledore adapted a Hogwarts magical object into the Stone's final security layer.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-006; ps-ch14-003; ps-ch16-007
+    notes: Chapter Twelve introduced the Mirror's properties, Chapter Fourteen named Dumbledore among the protectors, and Chapter Sixteen reached the final chamber; this entry gives Dumbledore's direct explanation of the retrieval condition.
+  confidence: high
+  limitations: The protection is specific to the 1991-1992 Stone incident and does not prove the Mirror was historically used for school security.
+- id: ps-ch17-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  pdf_page: 268
+  printed_page: not available
+  extracted_text_lines: PDF page 268, lines 1-9
+  text_anchor:
+    start_phrase: You let Professor Dumbledore in
+    end_phrase: five minutes only
+    local_occurrence_note: Hospital wing scene before Ron and Hermione visit Harry.
+  nearby_context: Madam Pomfrey allows Dumbledore to see Harry because he is headmaster, then restricts Ron and Hermione's visit to five minutes.
+  match_terms:
+  - Madam Pomfrey
+  - hospital wing
+  - headmaster
+  - Dumbledore
+  - visitors
+  - five minutes
+  quote_excerpt_short: "that was the headmaster"
+  source_note: The hospital wing scene shows Madam Pomfrey exercising strict visitor control while treating the headmaster as an exception to ordinary access limits.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hospital-wing
+  - madam-pomfrey
+  - headmaster
+  - visitor-access
+  - student-health
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Health and the Hospital Wing
+  candidate_section: Visitor Access and Headmaster Exception
+  reason_for_placement: The passage gives a concrete example of infirmary access control and the headmaster's exceptional authority.
+  relevance_to_hogwarts_a_history: This supports future governance coverage of the hospital wing as a controlled school space with staff-managed access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed specifically records hospital wing visitor control or headmaster access.
+  confidence: medium
+  limitations: This is one Harry-era recovery scene and may reflect medical judgment rather than a written school policy.
+- id: ps-ch17-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  pdf_page: 271
+  printed_page: not available
+  extracted_text_lines: PDF page 270, lines 22-27; PDF page 271, lines 1-29; PDF page 272, lines 1-27
+  text_anchor:
+    start_phrase: Harry made his way down to the end-of-year feast
+    end_phrase: a towering Gryffindor lion took its place
+    local_occurrence_note: End-of-year feast, House Cup standings, last-minute points, and decoration change in the Great Hall.
+  nearby_context: The Great Hall is decorated in Slytherin colors for the expected House Cup result; Dumbledore announces standings, awards last-minute points to Ron, Hermione, Harry, and Neville, and changes the decorations to Gryffindor colors after Gryffindor wins.
+  match_terms:
+  - end-of-year feast
+  - Great Hall
+  - Slytherin colors
+  - House Cup
+  - points
+  - Gryffindor
+  - Ravenclaw
+  - Hufflepuff
+  quote_excerpt_short: "the House Cup here needs awarding"
+  source_note: The chapter documents the end-of-year feast as the setting for House Cup standings, headmaster-awarded last-minute points, and immediate Great Hall decoration changes for the winning House.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - end-of-year-feast
+  - house-cup
+  - house-points
+  - great-hall
+  - gryffindor
+  - slytherin
+  - decorations
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: End-of-Year Feast and House Cup
+  candidate_section: Final Standings, Point Awards, and Hall Decorations
+  reason_for_placement: The passage ties a recurring school feast to House Cup award procedure, public point totals, and ceremonial Great Hall decoration.
+  relevance_to_hogwarts_a_history: This supplies strong evidence for the House Cup's annual public conclusion and for the Great Hall's ceremonial adaptability.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002; ps-ch15-002
+    notes: Chapter Seven introduced the House Cup, and Chapter Fifteen recorded major point changes and hourglasses; this entry adds the end-of-year awarding ceremony, final public totals, and Great Hall color change.
+  confidence: high
+  limitations: The last-minute point awards are specific to Harry's first year; the chapter does not explain ordinary House Cup award rules or decoration mechanics.
+- id: ps-ch17-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seventeen - The Man with Two Faces
+  chapter_start_pdf_page: 257
+  chapter_end_pdf_page: 274
+  pdf_page: 273
+  printed_page: not available
+  extracted_text_lines: PDF page 273, lines 11-24
+  text_anchor:
+    start_phrase: notes were handed out to all students
+    end_phrase: alarming the Muggles
+    local_occurrence_note: End-of-year departure sequence after exam results and before students leave platform nine and three-quarters.
+  nearby_context: Students receive holiday magic warnings, Hagrid leads them to boats across the lake, they board the Hogwarts Express, change out of robes, and a guard releases students through the King's Cross barrier in small groups to avoid alarming Muggles.
+  match_terms:
+  - notes
+  - magic over the holidays
+  - Hagrid
+  - boats
+  - lake
+  - Hogwarts Express
+  - platform nine and three-quarters
+  - Muggles
+  quote_excerpt_short: "not to use magic over the holidays"
+  source_note: The chapter gives a compact end-of-year departure sequence, including holiday magic warnings, lake crossing, train travel, robe-changing, and controlled exit into the Muggle station.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - end-of-year-departure
+  - holiday-magic-warning
+  - hogwarts-express
+  - boats
+  - lake
+  - platform-nine-and-three-quarters
+  - muggle-secrecy
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: End-of-Year Departure and Muggle-Secrecy Measures
+  reason_for_placement: The passage documents the institutional process for sending students home and managing secrecy at the Muggle-side platform.
+  relevance_to_hogwarts_a_history: This supports a future section on annual student travel, holiday conduct notices, and secrecy practices around the Hogwarts Express.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Six records the arrival journey; this entry records the return journey and should be cross-checked with Chapter Six travel entries rather than treated as a duplicate.
+  confidence: high
+  limitations: The source does not identify who writes the holiday magic notice or whether the same boat route is used for all non-first-year departures.

@@ -1,0 +1,314 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  boundary_confidence: high
+  boundary_notes: Chapter Fourteen range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Thirteen boundary. Book 2 Chapter Fourteen starts on PDF page 489 and Chapter Fifteen starts on PDF page 502, so only PDF pages 489-501 were extracted and searched.
+  processed_date: '2026-06-17'
+  processor_notes: "Processed only Book 2, Chapter Fourteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch14-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 490
+  printed_page: not available
+  extracted_text_lines: PDF page 490, lines 30-34
+  text_anchor:
+    start_phrase: several of the Mandrakes threw a loud and raucous party
+    end_phrase: revive those poor people in the hospital wing
+    local_occurrence_note: Herbology update after the attack lull, before third-year subject selection begins.
+  nearby_context: Professor Sprout is pleased by Mandrake behavior in greenhouse three and explains that attempts to move into one another's pots will signal maturity, allowing the petrified victims to be revived.
+  match_terms:
+  - Mandrakes
+  - greenhouse three
+  - fully mature
+  - Professor Sprout
+  - hospital wing
+  - revive
+  quote_excerpt_short: "we'll know they're fully mature"
+  source_note: The chapter links Mandrake maturation in Herbology to the planned medical revival of petrified students in the hospital wing.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - herbology
+  - mandrakes
+  - greenhouse-three
+  - hospital-wing
+  - petrification
+  - magical-remedies
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Herbology and Magical Plant Safety
+  candidate_section: Mandrake Maturity and Restorative Use
+  reason_for_placement: The passage connects classroom plant care with school medical response during the Chamber crisis.
+  relevance_to_hogwarts_a_history: This supports future treatment of Hogwarts curriculum as practical magical infrastructure, especially where class-grown materials become remedies.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch06-003
+    notes: Chapter Six records Mandrake restorative properties and greenhouse safety; this entry adds the maturity signal and planned use for petrified hospital wing patients.
+  confidence: high
+  limitations: This is tied to the Harry-era Chamber crisis and does not prove that Mandrake cultivation for medical use is a standing annual practice.
+- id: cos-ch14-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 491
+  printed_page: not available
+  extracted_text_lines: PDF page 490, lines 35-37; PDF page 491, lines 2-31
+  text_anchor:
+    start_phrase: The time had come to choose their subjects
+    end_phrase: Play to your strengths
+    local_occurrence_note: Easter holiday subject-selection scene after the Mandrake update.
+  nearby_context: Second-years choose third-year subjects from lists, keep existing subjects, consult family or peers, and receive advice connecting electives such as Divination, Muggle Studies, Arithmancy, Study of Ancient Runes, and Care of Magical Creatures to future work.
+  match_terms:
+  - third year
+  - subjects
+  - Divination
+  - Muggle Studies
+  - Arithmancy
+  - Ancient Runes
+  - Care of Magical Creatures
+  quote_excerpt_short: "lists of new subjects"
+  source_note: The chapter shows second-year students selecting third-year electives while retaining old subjects and treating the choice as relevant to future careers.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - course-selection
+  - third-year-subjects
+  - electives
+  - career-guidance
+  - muggle-studies
+  - care-of-magical-creatures
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Elective Selection
+  reason_for_placement: The passage gives concrete evidence for when Hogwarts students choose additional subjects and how those choices relate to later specialization.
+  relevance_to_hogwarts_a_history: This supports a future academic-life chapter on course progression, electives, and student guidance.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior curriculum seeds record timetables, classes, and O.W.L. context, but not second-year selection of third-year electives.
+  confidence: high
+  limitations: The source gives informal advice and observed student choices but not an official course-selection form or complete subject list.
+- id: cos-ch14-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 494
+  printed_page: not available
+  extracted_text_lines: PDF page 494, lines 20-32; PDF page 495, lines 2-4
+  text_anchor:
+    start_phrase: Professor McGonagall came half marching
+    end_phrase: Heads of Houses will give them further information
+    local_occurrence_note: Hufflepuff-Gryffindor Quidditch match cancellation on the pitch before Harry and Ron are taken to the infirmary.
+  nearby_context: McGonagall cancels a scheduled Quidditch match by megaphone and orders all students back to House common rooms for instructions from their Heads of House.
+  match_terms:
+  - Quidditch
+  - match canceled
+  - Professor McGonagall
+  - House common rooms
+  - Heads of Houses
+  - emergency response
+  quote_excerpt_short: "This match has been canceled"
+  source_note: The chapter shows a schoolwide emergency overriding Quidditch and routing students back through House structures for further instructions.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - emergency-response
+  - quidditch
+  - heads-of-house
+  - house-common-rooms
+  - student-safety
+  - chamber-crisis
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Emergency Suspension of School Activities
+  reason_for_placement: The passage documents crisis governance that uses House organization and staff communication to control student movement.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how Hogwarts responds when student safety supersedes ordinary school recreation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch10-003
+    notes: Chapter Ten of Book 1 records a prefect-led emergency return to dormitories during the troll incident; this entry adds match cancellation and Head-of-House communication during a broader crisis.
+  confidence: high
+  limitations: The procedure is crisis-specific and does not by itself prove a formal standing emergency policy.
+- id: cos-ch14-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 495
+  printed_page: not available
+  extracted_text_lines: PDF page 495, lines 16-31; PDF page 496, lines 2-13
+  text_anchor:
+    start_phrase: There has been another attack
+    end_phrase: come forward
+    local_occurrence_note: McGonagall takes Harry and Ron to the infirmary, then addresses Gryffindor in the common room.
+  nearby_context: Hermione and Penelope Clearwater are found petrified near the library with a mirror beside them. McGonagall announces a six o'clock common-room return, dormitory confinement, teacher escorts to lessons and bathrooms, postponed Quidditch, no evening activities, and possible school closure.
+  match_terms:
+  - another attack
+  - library
+  - infirmary
+  - teacher escort
+  - Quidditch postponed
+  - school closed
+  quote_excerpt_short: "escorted to each lesson by a teacher"
+  source_note: The chapter records a severe Chamber-crisis lockdown after the double petrification, including teacher escorts, activity cancellations, bathroom accompaniment, and closure warnings.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - chamber-crisis
+  - student-lockdown
+  - teacher-escorts
+  - hospital-wing
+  - library
+  - school-closure
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Lockdown Rules and Closure Threat
+  reason_for_placement: The passage gives the clearest rule-like statement so far for student movement restrictions during the Chamber crisis.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of emergency security policy, the role of teachers in escorts, and the threshold for school closure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-006
+    notes: Chapter Eleven records staff response to Justin and Nearly Headless Nick's petrification; this entry adds the later double attack, mirror clue, formal lockdown rules, and possible closure.
+  confidence: high
+  limitations: The rules are explicitly crisis-era restrictions and should not be generalized to ordinary Hogwarts curfews or bathroom access.
+- id: cos-ch14-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 499
+  printed_page: not available
+  extracted_text_lines: PDF page 499, lines 2-23
+  text_anchor:
+    start_phrase: Bad business, Hagrid
+    end_phrase: Not Azkaban?
+    local_occurrence_note: Fudge explains Ministry action in Hagrid's hut after arriving with Dumbledore.
+  nearby_context: Cornelius Fudge says four attacks on Muggle-borns mean the Ministry must act, cites Hagrid's record and contact from the school governors, and frames taking Hagrid away as a precaution rather than a punishment.
+  match_terms:
+  - Cornelius Fudge
+  - Minister of Magic
+  - Ministry
+  - school governors
+  - Hagrid's record
+  - Azkaban
+  quote_excerpt_short: "more a precaution"
+  source_note: The chapter shows Ministry intervention during a Hogwarts safety crisis, including a precautionary removal tied to prior school discipline and pressure from governors.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - cornelius-fudge
+  - hagrid
+  - school-governors
+  - azkaban
+  - crisis-governance
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Ministry Intervention During School Crises
+  reason_for_placement: The passage shows external government involvement in a Hogwarts internal crisis and links Hagrid's earlier expulsion record to later institutional suspicion.
+  relevance_to_hogwarts_a_history: This helps distinguish Hogwarts staff authority, governors' pressure, and Ministry action during student-safety emergencies.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch12-006
+    notes: Chapter Twelve introduces Hogwarts governors and public pressure on Dumbledore; this entry adds direct Ministry action and governor contact during the same crisis.
+  confidence: high
+  limitations: Fudge's explanation is political and procedural rather than a full legal account of Ministry authority over Hogwarts personnel.
+- id: cos-ch14-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 500
+  printed_page: not available
+  extracted_text_lines: PDF page 500, lines 10-30
+  text_anchor:
+    start_phrase: the governors feel it's time
+    end_phrase: all twelve of us have voted
+    local_occurrence_note: Lucius Malfoy presents the Order of Suspension in Hagrid's hut.
+  nearby_context: Lucius Malfoy presents an Order of Suspension with twelve signatures, says the governors voted to remove Dumbledore, and Fudge recognizes that headmaster appointment or suspension belongs to the governors.
+  match_terms:
+  - governors
+  - Order of Suspension
+  - twelve signatures
+  - Dumbledore
+  - headmaster
+  - suspension
+  quote_excerpt_short: "all twelve signatures on it"
+  source_note: The chapter confirms that Hogwarts has twelve governors and that they can suspend a headmaster through a signed order.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-governors
+  - headmaster
+  - dumbledore
+  - order-of-suspension
+  - lucius-malfoy
+  - school-oversight
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Governor Authority Over the Headmaster
+  reason_for_placement: The passage supplies the strongest formal evidence so far for governors' power over headmaster appointment or suspension.
+  relevance_to_hogwarts_a_history: This is central evidence for a governance chapter covering the oversight structure above the headmaster.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch12-006
+    notes: Chapter Twelve identifies Lucius Malfoy as a Hogwarts governor and raises possible headmaster accountability; this entry confirms the twelve-governor suspension mechanism.
+  confidence: high
+  limitations: Hagrid alleges coercion, so the legitimacy of this particular vote should be separated from the existence of the formal mechanism.
+- id: cos-ch14-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fourteen - Cornelius Fudge
+  chapter_start_pdf_page: 489
+  chapter_end_pdf_page: 501
+  pdf_page: 501
+  printed_page: not available
+  extracted_text_lines: PDF page 501, lines 2-17
+  text_anchor:
+    start_phrase: If the governors want my removal
+    end_phrase: those who ask for it
+    local_occurrence_note: Dumbledore's response to Lucius Malfoy after the Order of Suspension is presented.
+  nearby_context: Dumbledore accepts that he will step aside if the governors want his removal, but says he will only truly have left when no one at the school is loyal to him and that help will always be given at Hogwarts to those who ask.
+  match_terms:
+  - governors
+  - removal
+  - Dumbledore
+  - loyal
+  - help
+  - Hogwarts
+  quote_excerpt_short: "help will always be given at Hogwarts"
+  source_note: The chapter gives Dumbledore's statement about stepping aside under governor authority while preserving a loyalty-based idea of continued headmaster influence and help at Hogwarts.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - headmaster-authority
+  - school-governors
+  - loyalty
+  - hogwarts-ethos
+  - crisis-support
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Dumbledore's Removal and Continuing Influence
+  reason_for_placement: The passage complements formal governance evidence with a statement of headmaster authority, school loyalty, and help during crisis.
+  relevance_to_hogwarts_a_history: This belongs as later editorial evidence about Dumbledore's headmastership and the social authority that can persist even after formal suspension.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed records Dumbledore's statement about help at Hogwarts or loyal presence after formal removal.
+  confidence: medium
+  limitations: The statement is rhetorical and personal to Dumbledore, so it should not be treated as a general institutional rule.

@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  boundary_confidence: high
+  boundary_notes: Chapter Eighteen range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Seventeen boundary. Book 2 Chapter Eighteen starts on PDF page 553 and narrative content for Book 2 ends on PDF page 565; Book 3 Chapter One starts on PDF page 573 after front matter. Only PDF pages 553-565 were extracted and searched.
+  processed_date: '2026-06-18'
+  processor_notes: "Processed only Book 2, Chapter Eighteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch18-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 555
+  printed_page: not available
+  extracted_text_lines: PDF page 554, lines 53-68; PDF page 555, lines 72-80
+  text_anchor:
+    start_phrase: What interests me most
+    end_phrase: once Head Boy here
+    local_occurrence_note: Dumbledore explains the diary and Riddle's Hogwarts identity to the Weasleys after Ginny is rescued.
+  nearby_context: Dumbledore asks how Voldemort enchanted Ginny while reportedly in Albania, recognizes Riddle's diary, and tells the Weasleys that Voldemort was once Tom Riddle, whom he taught fifty years earlier at Hogwarts.
+  match_terms:
+  - Tom Riddle
+  - Lord Voldemort
+  - Hogwarts
+  - Head Boy
+  - diary
+  - Dark Arts
+  quote_excerpt_short: "once Head Boy here"
+  source_note: Dumbledore identifies Tom Riddle as Voldemort's former name, says he taught Riddle at Hogwarts fifty years earlier, and recalls Riddle as a former Head Boy.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - tom-riddle
+  - voldemort
+  - head-boy
+  - dumbledore
+  - school-history
+  - dark-arts
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: The First Known Chamber Opening
+  candidate_section: Tom Riddle's Hogwarts Record
+  reason_for_placement: The passage gives direct headmaster testimony linking Voldemort to his student identity and Hogwarts record before the first Chamber case was revisited.
+  relevance_to_hogwarts_a_history: This helps future editors connect trophy-room records, Head Boy status, and Riddle's later identity without relying only on the diary's self-presentation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch13-002
+    notes: Chapter Thirteen records Riddle's trophy-room awards and Head Boy listing; this entry adds Dumbledore's direct identification of Riddle as Voldemort and as his former student.
+  confidence: high
+  limitations: Dumbledore summarizes rather than quotes formal school records; details of Riddle's transformations after leaving Hogwarts belong outside the original school-history core unless later sourced.
+- id: cos-ch18-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 555
+  printed_page: not available
+  extracted_text_lines: PDF page 555, lines 102-112
+  text_anchor:
+    start_phrase: Miss Weasley should go up
+    end_phrase: basilisk's victims will be waking up
+    local_occurrence_note: Dumbledore sends Ginny to the hospital wing and comments on Madam Pomfrey's Mandrake treatment.
+  nearby_context: Dumbledore says Ginny will not be punished for the diary possession, sends her to Madam Pomfrey for bed rest, and notes that Mandrake juice is being given to revive the basilisk's victims.
+  match_terms:
+  - hospital wing
+  - Madam Pomfrey
+  - Mandrake juice
+  - basilisk
+  - punishment
+  - Ginny Weasley
+  quote_excerpt_short: "Madam Pomfrey is still awake"
+  source_note: The chapter combines headmaster disciplinary discretion for Ginny with hospital-wing recovery after the Chamber crisis, including Mandrake juice for petrified victims.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - hospital-wing
+  - madam-pomfrey
+  - mandrake-juice
+  - student-discipline
+  - chamber-crisis
+  - ginny-weasley
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Health and the Hospital Wing
+  candidate_section: Crisis Recovery and Headmaster Discretion
+  reason_for_placement: The passage shows medical response and disciplinary judgment converging after a school safety crisis.
+  relevance_to_hogwarts_a_history: This supports later editorial treatment of hospital-wing authority, Mandrake restorative use, and how Hogwarts handles possessed or manipulated students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch16-002
+    notes: Chapter Sixteen confirms Mandrakes are ready for cutting and planned revival; this entry shows Madam Pomfrey actively administering Mandrake juice and adds Ginny's no-punishment ruling.
+  confidence: high
+  limitations: The disciplinary decision is specific to Ginny's possession by Riddle's diary and should not be generalized to ordinary rule-breaking.
+- id: cos-ch18-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 556
+  printed_page: not available
+  extracted_text_lines: PDF page 556, lines 117-140
+  text_anchor:
+    start_phrase: I think all this merits
+    end_phrase: two hundred points apiece for Gryffindor
+    local_occurrence_note: Dumbledore decides on a feast, Special Awards, and large House-point awards after the Chamber rescue.
+  nearby_context: Dumbledore asks McGonagall to alert the kitchens for a feast, recalls the earlier expulsion warning, then awards Harry and Ron Special Awards for Services to the School and two hundred Gryffindor points each.
+  match_terms:
+  - feast
+  - school rules
+  - Special Awards
+  - Services to the School
+  - points
+  - Gryffindor
+  quote_excerpt_short: "Special Awards for Services to the School"
+  source_note: The headmaster turns a major rule-breaking rescue into formal school honors, a feast, and large House-point awards.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - special-awards
+  - house-points
+  - gryffindor
+  - headmaster-authority
+  - feast
+  - chamber-crisis
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: House Points and the House Cup
+  reason_for_placement: The passage shows how extraordinary service can be recognized through school awards and House points in a public celebratory context.
+  relevance_to_hogwarts_a_history: This gives later editorial evidence for the special-services award category already seen in Riddle's trophy-room record.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch13-002
+    notes: Chapter Thirteen records Riddle's earlier special-services award; this entry shows the same award category being granted after the second Chamber crisis.
+  confidence: high
+  limitations: The award and point scale are extraordinary crisis responses, not evidence for ordinary point-award limits.
+- id: cos-ch18-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 558
+  printed_page: not available
+  extracted_text_lines: PDF page 558, lines 189-242; PDF page 559, line 245
+  text_anchor:
+    start_phrase: The Sorting Hat told me
+    end_phrase: Only a true Gryffindor could have pulled
+    local_occurrence_note: Dumbledore explains Harry's Sorting choice and identifies the sword after the Chamber fight.
+  nearby_context: Harry worries that Parseltongue and Slytherin traits mean he belongs in Slytherin, but Dumbledore points to the Hat's placement and to the sword's engraved name as proof of Gryffindor identity.
+  match_terms:
+  - Sorting Hat
+  - Slytherin
+  - Parseltongue
+  - Godric Gryffindor
+  - sword
+  - true Gryffindor
+  quote_excerpt_short: "Godric Gryffindor"
+  source_note: The chapter identifies the sword pulled from the Sorting Hat as Godric Gryffindor's and links its appearance to true Gryffindor identity.
+  reference_type: house_system
+  era_classification: later_editorial_note
+  topic_tags:
+  - sorting-hat
+  - godric-gryffindor
+  - gryffindor-sword
+  - house-identity
+  - parseltongue
+  - slytherin
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: The Sorting Hat as Magical School Artifact
+  reason_for_placement: The passage connects the Sorting Hat, House identity, and a founder-linked artifact in a way that extends the Sorting ceremony beyond ordinary assignment.
+  relevance_to_hogwarts_a_history: This is key later editorial evidence for the Sorting Hat's relationship to House identity and to Godric Gryffindor's sword.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch17-005
+    notes: Chapter Seventeen shows the Sorting Hat producing a sword; this entry identifies the sword as Godric Gryffindor's and gives Dumbledore's true-Gryffindor explanation.
+  confidence: high
+  limitations: The chapter does not explain when or how the sword became connected to the Hat, or whether the mechanism predates Harry.
+- id: cos-ch18-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 560
+  printed_page: not available
+  extracted_text_lines: PDF page 559, lines 272-279; PDF page 560, lines 282-291; PDF page 564, lines 431-435
+  text_anchor:
+    start_phrase: the other eleven governors contacted me
+    end_phrase: Lucius Malfoy had been sacked as a school governor
+    local_occurrence_note: Dumbledore describes the governors reversing his suspension; the end-of-term summary records Lucius Malfoy's removal.
+  nearby_context: Dumbledore tells Lucius Malfoy that the other eleven governors recalled him after hearing Ginny had been killed and suggests several had been threatened; later the school returns to normal and Lucius is removed as a governor.
+  match_terms:
+  - governors
+  - suspended
+  - Hogwarts
+  - Dumbledore
+  - Lucius Malfoy
+  - school governor
+  quote_excerpt_short: "the other eleven governors contacted me"
+  source_note: The chapter shows the governors reversing Dumbledore's suspension under crisis pressure and records Lucius Malfoy's later removal from the board.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-governors
+  - dumbledore
+  - lucius-malfoy
+  - headmaster-authority
+  - chamber-crisis
+  - school-governance
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Governor Recall and Removal
+  reason_for_placement: The passage provides aftermath evidence for governor authority, recall of a suspended headmaster, and consequences for a governor accused of coercion.
+  relevance_to_hogwarts_a_history: This extends the governance thread from suspension authority to board-level reversal and later removal.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch14-006
+    notes: Chapter Fourteen records the twelve-governor suspension mechanism; this entry adds the other eleven governors' recall of Dumbledore and Lucius Malfoy's later sacking.
+  confidence: high
+  limitations: The source does not describe the formal procedure for removing a governor or prove the threats beyond Dumbledore's report.
+- id: cos-ch18-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 562
+  printed_page: not available
+  extracted_text_lines: PDF page 561, lines 321-340; PDF page 562, lines 351-383; PDF page 563, lines 387-410
+  text_anchor:
+    start_phrase: Because you gave it to her
+    end_phrase: Harry Potter set Dobby free
+    local_occurrence_note: Harry confronts Lucius about the diary, then uses the returned diary and sock to free Dobby.
+  nearby_context: Harry accuses Lucius of slipping the diary into Ginny's Transfiguration book, Dumbledore warns Lucius against giving out more of Voldemort's old school things, and Dobby is freed when Lucius unknowingly gives him a sock.
+  match_terms:
+  - diary
+  - Transfiguration book
+  - old school things
+  - house-elf
+  - Dobby
+  - free
+  quote_excerpt_short: "Master has given a sock"
+  source_note: The chapter ties the diary's route into Hogwarts supplies to Lucius Malfoy and demonstrates house-elf manumission through clothing.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - dobby
+  - house-elves
+  - lucius-malfoy
+  - riddle-diary
+  - transfiguration-book
+  - manumission
+  candidate_part: Later Editorial Notes
+  candidate_chapter: House-Elves and Hogwarts
+  candidate_section: House-Elf Bondage and Manumission
+  reason_for_placement: The house-elf evidence concerns a private wizarding household, but it supplies necessary context before later Hogwarts kitchen evidence is processed.
+  relevance_to_hogwarts_a_history: This should inform later editorial notes about house-elves without being mistaken for direct evidence about Hogwarts-employed elves.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-001
+    notes: Chapter Two records Dobby's explanation that house-elves are bound until freed by a family; this entry demonstrates the clothing-based manumission rule and adds the diary-in-book route.
+  confidence: high
+  limitations: This is private Malfoy family house-elf evidence, not direct proof of Hogwarts house-elf policy.
+- id: cos-ch18-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Eighteen - Dobby's Reward
+  chapter_start_pdf_page: 553
+  chapter_end_pdf_page: 565
+  pdf_page: 564
+  printed_page: not available
+  extracted_text_lines: PDF page 563, lines 411-417; PDF page 564, lines 419-443; PDF page 565, lines 468-481
+  text_anchor:
+    start_phrase: Harry had been to several Hogwarts feasts
+    end_phrase: gateway to the Muggle world
+    local_occurrence_note: All-night celebration, final-term changes, Hogwarts Express departure, and platform barrier exit.
+  nearby_context: The school holds an all-night pajama feast after the crisis; revived students return, Gryffindor wins the House Cup, exams and Defense Against the Dark Arts classes are canceled, and students later leave on the Hogwarts Express through the enchanted barrier.
+  match_terms:
+  - Hogwarts feasts
+  - House Cup
+  - exams canceled
+  - Defense Against the Dark Arts
+  - Hogwarts Express
+  - enchanted barrier
+  quote_excerpt_short: "the exams had been canceled"
+  source_note: The chapter records end-of-year operations after the Chamber crisis, including an extraordinary feast, House Cup result, canceled exams and classes, and the train journey home.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - end-of-year-feast
+  - house-cup
+  - exams
+  - defense-against-the-dark-arts
+  - hogwarts-express
+  - platform-barrier
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: End-of-Year Feast and House Cup
+  candidate_section: Crisis Feast, Canceled Exams, and Departure
+  reason_for_placement: The passage shows how ordinary end-of-year rituals are altered by a major school crisis while still ending with the Hogwarts Express departure.
+  relevance_to_hogwarts_a_history: This provides later editorial evidence for crisis-era departures, final-term academic adjustments, and the House Cup's ceremonial role.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch17-005
+    notes: Book 1 Chapter Seventeen records an ordinary end-of-year feast and House Cup ceremony; this entry gives the crisis-altered second-year version with canceled exams and DADA classes.
+  confidence: high
+  limitations: The canceled exams, all-night pajama feast, and canceled Defense Against the Dark Arts classes are exceptional Chamber-crisis outcomes rather than standard annual practice.

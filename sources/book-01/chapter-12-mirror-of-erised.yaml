@@ -1,0 +1,282 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  boundary_confidence: high
+  boundary_notes: Chapter Twelve start was taken from the Chapter Eleven boundary and confirmed on PDF page 176. Chapter Thirteen - Nicolas Flamel was located by scanning forward from that anchor and starts on PDF page 194, so only pages 176-193 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Twelve. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch12-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  pdf_page: 176
+  printed_page: not available
+  extracted_text_lines: PDF page 176, lines 5-15; PDF page 177, lines 5-10
+  text_anchor:
+    start_phrase: Christmas was coming
+    end_phrase: Harry had signed up at once
+    local_occurrence_note: Opening winter-holiday passage, before Hagrid carries the final Christmas tree.
+  nearby_context: Mid-December snow affects the lake, owls, corridors, classrooms, and dungeons; McGonagall has made a list of students staying at Hogwarts for the Christmas holidays.
+  match_terms:
+  - Christmas
+  - Hogwarts
+  - lake
+  - Great Hall
+  - corridors
+  - classrooms
+  - dungeons
+  - holidays
+  quote_excerpt_short: "covered in several feet of snow"
+  source_note: The chapter shows Hogwarts operating through winter conditions, with some students remaining at school over Christmas after McGonagall records who will stay for the holidays.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas-holidays
+  - winter-at-hogwarts
+  - lake
+  - great-hall
+  - corridors
+  - dungeons
+  - student-residence
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Holiday Residence and Winter Conditions
+  reason_for_placement: The passage documents Hogwarts holiday residence practices and seasonal school conditions rather than a single plot-only event.
+  relevance_to_hogwarts_a_history: 'This supports a future section on how Hogwarts functions during holidays and winter weather, though it is not explicitly attributed to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch10-002
+    notes: Chapter Ten seeded seasonal Great Hall feast evidence; this entry adds Christmas-holiday residence and winter conditions.
+  confidence: medium
+  limitations: The passage confirms Harry-era Christmas arrangements but does not state whether the sign-up procedure or winter practices are historically stable.
+- id: ps-ch12-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  pdf_page: 177
+  printed_page: not available
+  extracted_text_lines: PDF page 177, lines 21-28
+  text_anchor:
+    start_phrase: Ron dived at Malfoy
+    end_phrase: Five points from Gryffindor
+    local_occurrence_note: Corridor encounter after Potions, while Hagrid is carrying a fir tree.
+  nearby_context: Snape stops Ron from fighting Malfoy, states that fighting is against Hogwarts rules, and deducts five points from Gryffindor.
+  match_terms:
+  - Hogwarts rules
+  - fighting
+  - Snape
+  - five points
+  - Gryffindor
+  quote_excerpt_short: "fighting is against Hogwarts rules"
+  source_note: Snape explicitly frames fighting as a breach of Hogwarts rules and enforces it through a Gryffindor point deduction.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-rules
+  - fighting
+  - house-points
+  - gryffindor
+  - snape
+  - corridor-discipline
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: House Points as Discipline and Reward
+  candidate_section: Fighting and Corridor Discipline
+  reason_for_placement: The passage gives a stated rule and immediate House-point consequence for student conduct outside class.
+  relevance_to_hogwarts_a_history: This strengthens the governance seed by adding a specific conduct rule and enforcement example.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-007; ps-ch09-005; ps-ch10-005
+    notes: Earlier entries seed House-point discipline and nighttime rule-breaking; this entry adds a direct fighting rule.
+  confidence: high
+  limitations: The passage does not state the formal written rule text or ordinary range of penalties for fighting.
+- id: ps-ch12-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  pdf_page: 178
+  printed_page: not available
+  extracted_text_lines: PDF page 178, lines 4-19; PDF page 184, lines 1-17
+  text_anchor:
+    start_phrase: come with me an' see the Great Hall
+    end_phrase: Flaming Christmas puddings followed the turkey
+    local_occurrence_note: Great Hall Christmas setup before holidays, then Christmas dinner description.
+  nearby_context: Hagrid brings the last tree to the Great Hall; McGonagall and Flitwick decorate with holly, mistletoe, twelve trees, magical bubbles, and candles; Christmas dinner later takes place at the tables and High Table.
+  match_terms:
+  - Great Hall
+  - Christmas decorations
+  - McGonagall
+  - Flitwick
+  - twelve trees
+  - High Table
+  - Christmas dinner
+  quote_excerpt_short: "no less than twelve towering Christmas trees"
+  source_note: The chapter presents a decorated Great Hall for Christmas and a school Christmas dinner involving staff, students, wizard crackers, the High Table, and holiday food.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas
+  - great-hall
+  - school-traditions
+  - seasonal-decorations
+  - high-table
+  - feasts
+  - flitwick
+  - mcgonagall
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Great Hall Decorations and Dinner
+  reason_for_placement: The passage documents a school holiday tradition centered on Great Hall decoration and communal dining.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts feasts, holiday observances, and ceremonial use of the Great Hall.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002; ps-ch10-002
+    notes: Earlier entries seed Great Hall banquets and the Halloween feast; this entry adds Christmas-specific decoration and dinner evidence.
+  confidence: high
+  limitations: The source confirms Christmas practice in Harry's first year but does not state the origin or age of the tradition.
+- id: ps-ch12-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  pdf_page: 179
+  printed_page: not available
+  extracted_text_lines: PDF page 179, lines 3-36
+  text_anchor:
+    start_phrase: hurried off to the library
+    end_phrase: advanced Defense Against the Dark Arts
+    local_occurrence_note: Library research sequence after the Great Hall Christmas-decoration scene.
+  nearby_context: Harry, Ron, and Hermione search for Nicolas Flamel in named modern magical reference books; the library has tens of thousands of books, and the Restricted Section requires a teacher-signed note for access.
+  match_terms:
+  - library
+  - Great Wizards of the Twentieth Century
+  - Notable Magical Names of Our Time
+  - Important Modern Magical Discoveries
+  - Restricted Section
+  - signed note
+  - Dark Magic
+  - Defense Against the Dark Arts
+  quote_excerpt_short: "tens of thousands of books"
+  source_note: The chapter shows Hogwarts students using the library for research, names several magical reference books, describes the collection's scale, and states the permission requirement and subject matter for restricted books.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library
+  - student-research
+  - named-books
+  - restricted-section
+  - signed-note
+  - dark-magic
+  - defense-against-the-dark-arts
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Research, Reference Works, and Teacher Permission
+  reason_for_placement: The passage directly describes library use, named reference works, collection scale, and restricted-access policy.
+  relevance_to_hogwarts_a_history: This is strong supporting evidence for a future library chapter and for indexing named in-universe sources available to Hogwarts students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-001; ps-ch11-002; ps-ch11-003
+    notes: Earlier entries seed library-book use and a library-book rule; this entry adds collection scale, named reference titles, and Restricted Section permission requirements.
+  confidence: high
+  limitations: The passage does not explain who grants final Restricted Section authority beyond requiring a specially signed teacher note.
+- id: ps-ch12-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  pdf_page: 186
+  printed_page: not available
+  extracted_text_lines: PDF page 185, lines 25-32; PDF page 186, lines 1-32
+  text_anchor:
+    start_phrase: The Restricted Section in the library
+    end_phrase: Well, they can't be far
+    local_occurrence_note: Harry's first nighttime use of the Invisibility Cloak, from library entry to Filch and Snape pursuit.
+  nearby_context: The Restricted Section is at the back of the library and separated by a rope; its books appear old, untitled, stained, whispering, and in one case screaming. Filch responds to night wandering and reports the Restricted Section intrusion to Snape.
+  match_terms:
+  - Restricted Section
+  - library
+  - rope
+  - books
+  - screaming book
+  - Filch
+  - Snape
+  - night
+  quote_excerpt_short: "right at the back of the library"
+  source_note: Harry's nighttime intrusion gives physical and magical details about the Restricted Section, including its position, rope boundary, unsettling books, a screaming volume, and immediate enforcement by Filch and Snape.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - restricted-section
+  - library
+  - magical-books
+  - night-patrol
+  - filch
+  - snape
+  - rule-enforcement
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Physical Boundary and Enforced Restrictions
+  reason_for_placement: The passage adds concrete setting and enforcement evidence for the Restricted Section beyond the access rule stated earlier in the chapter.
+  relevance_to_hogwarts_a_history: This supports treatment of the Hogwarts library as both a scholarly resource and a controlled magical space.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-005; ps-ch11-003; ps-ch12-004
+    notes: Related to prior rule-enforcement and library-rule entries, and to this chapter's earlier Restricted Section access entry; this occurrence adds physical layout and magical-book behavior.
+  confidence: high
+  limitations: The passage gives Harry's observed experience but does not establish whether all Restricted Section books are similarly dangerous or protected.
+- id: ps-ch12-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Twelve - The Mirror of Erised
+  chapter_start_pdf_page: 176
+  chapter_end_pdf_page: 193
+  pdf_page: 192
+  printed_page: not available
+  extracted_text_lines: PDF page 186, lines 22-26; PDF page 187, lines 5-20; PDF page 192, lines 4-31
+  text_anchor:
+    start_phrase: It looked like an unused classroom
+    end_phrase: forget to live, remember that
+    local_occurrence_note: Mirror room discovery after Harry flees the library, with Dumbledore's explanation on the third night.
+  nearby_context: Harry finds a tall suit of armor far above the kitchens, hides in an unused classroom, discovers the Mirror of Erised, and later hears Dumbledore explain that hundreds before him discovered it, what it shows, its dangers, and that it will be moved.
+  match_terms:
+  - suit of armor
+  - unused classroom
+  - Mirror of Erised
+  - Dumbledore
+  - hundreds before you
+  - desire
+  - moved
+  quote_excerpt_short: "hundreds before you"
+  source_note: The chapter places the Mirror of Erised in an unused classroom near a suit of armor, then has Dumbledore identify the mirror, describe its desire-revealing function and danger, and say it will be moved.
+  reference_type: magical_architecture
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - mirror-of-erised
+  - unused-classroom
+  - magical-artifact
+  - dumbledore
+  - castle-interior
+  - suit-of-armor
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Enchanted Objects and Hidden Rooms
+  candidate_section: The Mirror of Erised
+  reason_for_placement: The passage gives named magical-object lore, a castle-room setting, and Dumbledore's indication that many earlier people encountered the mirror.
+  relevance_to_hogwarts_a_history: This is a strong candidate for a magical objects or castle secrets section, though its placement in the original book remains uncertain.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch08-001; ps-ch09-004; ps-ch10-004
+    notes: Earlier entries seed castle navigation, armor, and interior rooms; this entry adds a specific magical object and Dumbledore's historical-context statement.
+  confidence: medium
+  limitations: The source does not say how long the mirror has been at Hogwarts or whether it was present before the original-book cutoff; the pre-1984 classification rests on Dumbledore's "hundreds before you" phrasing.

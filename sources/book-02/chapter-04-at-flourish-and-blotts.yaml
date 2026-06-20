@@ -1,0 +1,273 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  boundary_confidence: high
+  boundary_notes: Chapter Four range was taken from chapters-index.md and the prior Book 2 Chapter Three boundary. Book 2 Chapter Four starts on PDF page 316 and Chapter Five starts on PDF page 335, so only PDF pages 316-334 were extracted and searched.
+  processed_date: '2026-06-14'
+  processor_notes: "Processed only Book 2, Chapter Four. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch04-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  pdf_page: 317
+  printed_page: not available
+  extracted_text_lines: PDF page 317, lines 9-39
+  text_anchor:
+    start_phrase: Letters from school
+    end_phrase: The new Defense Against the Dark Arts teacher must be a fan
+    local_occurrence_note: Breakfast at the Burrow when Harry, Ron, Fred, and George receive their school letters.
+  nearby_context: Mr. Weasley passes out yellowish parchment school letters in green ink, says Dumbledore already knows Harry is at the Burrow, and Harry's letter tells him to take the Hogwarts Express as usual from King's Cross on September first. The letter also includes a second-year booklist dominated by Lockhart titles and The Standard Book of Spells, Grade 2.
+  match_terms:
+  - letters from school
+  - yellowish parchment
+  - green ink
+  - Dumbledore
+  - Hogwarts Express
+  - King's Cross
+  - second-year students
+  - booklist
+  quote_excerpt_short: "SECOND-YEAR STUDENTS WILL REQUIRE"
+  source_note: The chapter gives a second-year school letter and booklist, confirms the normal Hogwarts Express departure route, and implies Dumbledore can track Harry's changed holiday location.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-letters
+  - second-year-booklist
+  - hogwarts-express
+  - kings-cross
+  - dumbledore
+  - course-books
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Annual School Letters and Booklists
+  reason_for_placement: The passage extends the supply-list evidence beyond first year by showing annual letters with travel instructions and course-book requirements.
+  relevance_to_hogwarts_a_history: This is direct institutional evidence for how Hogwarts communicates start-of-term logistics and required books to returning students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch05-002
+    notes: Chapter Five records the first-year supply list; this entry corroborates annual Hogwarts booklists and adds second-year titles plus the usual Hogwarts Express instruction.
+  confidence: high
+  limitations: The letter is Harry-era evidence and does not establish how stable second-year booklist practices are historically.
+- id: cos-ch04-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  pdf_page: 318
+  printed_page: not available
+  extracted_text_lines: PDF page 318, lines 25-38; PDF page 319, lines 1-3 and 27-29
+  text_anchor:
+    start_phrase: I hope everything went all right
+    end_phrase: Ginny needs robes and a wand and everything
+    local_occurrence_note: Hermione's letter is read at the Burrow, followed by the plan to buy school things in Diagon Alley.
+  nearby_context: Hermione writes that she is busy with schoolwork during vacation and will buy her new books in London. Mrs. Weasley uses the same trip for Harry's things, and George notes that the family must buy five sets of Lockhart books plus Ginny's robes, wand, and other supplies.
+  match_terms:
+  - schoolwork
+  - vacation
+  - new books
+  - Diagon Alley
+  - school stuff
+  - Lockhart books
+  - robes
+  - wand
+  quote_excerpt_short: "I'm very busy with schoolwork"
+  source_note: Hermione's holiday letter confirms vacation schoolwork and pre-term book buying, while the Weasleys' shopping plan shows multiple returning students and a first-year needing required supplies.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - holiday-homework
+  - school-supplies
+  - diagon-alley
+  - course-books
+  - robes
+  - wands
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Homework and Independent Study
+  candidate_section: Holiday Homework and Supply Shopping
+  reason_for_placement: The passage connects holiday academic work with the practical pre-term acquisition of books and equipment.
+  relevance_to_hogwarts_a_history: This supports future coverage of homework expectations, returning-student preparation, and the cost and logistics of school materials.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch01-002
+    notes: Chapter One records Harry's locked-away school materials and unfinished homework; this entry corroborates holiday schoolwork and adds planned book and supply shopping.
+  confidence: medium
+  limitations: Hermione's work habits may be exceptional, and the passage does not state which assignments or teachers require the vacation schoolwork.
+- id: cos-ch04-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  pdf_page: 319
+  printed_page: not available
+  extracted_text_lines: PDF page 319, lines 17-26
+  text_anchor:
+    start_phrase: His exam results came the day before you did
+    end_phrase: Bill in Egypt working for the wizards' bank
+    local_occurrence_note: Fred and George explain Percy's exam results while walking to the paddock.
+  nearby_context: Fred says Percy received twelve O.W.L.s, George expands the acronym as Ordinary Wizarding Levels, and the twins connect strong results to Head Boy precedent in the Weasley family. Bill and Charlie are identified as former Hogwarts students now working abroad.
+  match_terms:
+  - exam results
+  - twelve O.W.L.s
+  - Ordinary Wizarding Levels
+  - Head Boy
+  - left Hogwarts
+  - Bill
+  - Charlie
+  quote_excerpt_short: "twelve O.W.L.s"
+  source_note: The passage identifies O.W.L.s as an exam credential, links high achievement to Head Boy expectations, and gives post-Hogwarts examples of former students' paths.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - owls
+  - exams
+  - head-boy
+  - student-achievement
+  - alumni
+  - weasley-family
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Exams and Assessment
+  candidate_section: O.W.L.s and Student Advancement
+  reason_for_placement: The passage supplies named examination terminology and connects academic results to later student leadership.
+  relevance_to_hogwarts_a_history: This supports future sections on Hogwarts assessment, senior student distinction, and alumni outcomes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior exam entries cover first-year exams; no earlier seed records O.W.L.s or their link to Head Boy expectations.
+  confidence: high
+  limitations: The passage does not explain when O.W.L.s are taken, their full scoring system, or the formal Head Boy selection process.
+- id: cos-ch04-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  pdf_page: 324
+  printed_page: not available
+  extracted_text_lines: PDF page 324, lines 16-27
+  text_anchor:
+    start_phrase: if his grades don't pick up
+    end_phrase: Wizard blood is counting for less everywhere
+    local_occurrence_note: Lucius Malfoy and Borgin discuss Draco's grades and Hermione Granger inside Borgin and Burkes.
+  nearby_context: Lucius criticizes Draco's grades and says Hermione, described as a girl of no wizard family, beat him in every exam. Borgin responds with a prejudiced comment that wizard blood is counting for less, and Lucius agrees with the blood-status grievance.
+  match_terms:
+  - grades
+  - teachers
+  - Hermione Granger
+  - no wizard family
+  - every exam
+  - wizard blood
+  quote_excerpt_short: "beat you in every exam"
+  source_note: The exchange confirms Muggle-born academic success at Hogwarts through Hermione's exam performance and shows blood-status prejudice responding to merit-based school achievement.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - blood-status
+  - muggle-born-students
+  - exams
+  - hermione-granger
+  - draco-malfoy
+  - academic-merit
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Blood Status and Hogwarts Society
+  candidate_section: Academic Merit and Pure-Blood Prejudice
+  reason_for_placement: The passage is not formal school policy, but it shows how Hogwarts exam outcomes interact with wider wizarding blood-status ideology.
+  relevance_to_hogwarts_a_history: This can support later editorial treatment of Muggle-born students, school achievement, and social conflict around Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier House and admissions entries mention Muggle-born students, but no prior seed records Hermione's exam success against Draco or this explicit blood-status reaction.
+  confidence: medium
+  limitations: The evidence comes through hostile private conversation and does not identify official Hogwarts policy on blood status.
+- id: cos-ch04-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  pdf_page: 329
+  printed_page: not available
+  extracted_text_lines: PDF page 329, lines 13-25
+  text_anchor:
+    start_phrase: they found Percy, deeply immersed
+    end_phrase: he wants to be Minister of Magic
+    local_occurrence_note: Shopping montage in Diagon Alley before the group reaches Flourish and Blotts.
+  nearby_context: Percy is found reading Prefects Who Gained Power, whose back cover Ron reads as a study of Hogwarts prefects and their later careers, while Ron comments on Percy's ambition to become Minister of Magic.
+  match_terms:
+  - Prefects Who Gained Power
+  - Hogwarts prefects
+  - later careers
+  - Percy
+  - Minister of Magic
+  quote_excerpt_short: "A study of Hogwarts prefects and their later careers"
+  source_note: The chapter names an in-universe book specifically about Hogwarts prefects and later careers, connecting prefect status to ambitions for public office.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - prefects
+  - in-universe-source
+  - student-leadership
+  - careers
+  - minister-of-magic
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named Sources About Hogwarts
+  candidate_section: Prefect Career Studies
+  reason_for_placement: The passage identifies a named book whose subject is Hogwarts prefects, making it a direct source lead for governance and alumni research.
+  relevance_to_hogwarts_a_history: This is a valuable bibliographic seed for future scholarship on Hogwarts student authority and career pathways.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior prefect entries record observed badge, travel, and authority practices; this entry uniquely names a secondary source about Hogwarts prefects.
+  confidence: high
+  limitations: The book is seen in a shop rather than confirmed as a Hogwarts library holding, and only the back-cover summary is available here.
+- id: cos-ch04-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Four - At Flourish and Blotts
+  chapter_start_pdf_page: 316
+  chapter_end_pdf_page: 334
+  pdf_page: 331
+  printed_page: not available
+  extracted_text_lines: PDF page 330, lines 2-11; PDF page 331, lines 8-30
+  text_anchor:
+    start_phrase: he's written almost the whole booklist
+    end_phrase: I will be taking up the post of Defense Against the Dark Arts teacher
+    local_occurrence_note: Lockhart book signing and public announcement at Flourish and Blotts.
+  nearby_context: Hermione notes Lockhart wrote almost the whole booklist; students pick up The Standard Book of Spells, Grade 2; Lockhart publicly announces that he will teach Defense Against the Dark Arts at Hogwarts and presents Harry with his works.
+  match_terms:
+  - Gilderoy Lockhart
+  - booklist
+  - The Standard Book of Spells, Grade 2
+  - Magical Me
+  - Defense Against the Dark Arts
+  - Hogwarts School of Witchcraft and Wizardry
+  quote_excerpt_short: "taking up the post of Defense Against the Dark Arts teacher"
+  source_note: Lockhart's public announcement confirms his appointment as Defense Against the Dark Arts teacher and explains why his books dominate the second-year required list.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - gilderoy-lockhart
+  - course-books
+  - flourish-and-blotts
+  - staff-appointment
+  - second-year-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Staff and Materials
+  reason_for_placement: The passage names the incoming teacher and connects staff appointment to required course materials.
+  relevance_to_hogwarts_a_history: This supports later curriculum and staff coverage by linking a specific teacher appointment to the school booklist.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch05-004
+    notes: Chapter Five records Quirrell as the prior Defense Against the Dark Arts teacher; this entry corroborates the staff-and-materials thread with Lockhart's appointment and booklist.
+  confidence: high
+  limitations: Lockhart's appointment is Harry-era staff context and does not establish long-term Defense Against the Dark Arts curriculum history.

@@ -1,0 +1,309 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Nineteen boundary. Book 3 Chapter Twenty starts on PDF page 891 and Chapter Twenty-One starts on PDF page 898, so only PDF pages 891-897 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Twenty. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch20-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 891
+  printed_page: not available
+  extracted_text_lines: PDF page 891, lines 12-17; PDF page 892, lines 24-31
+  text_anchor:
+    start_phrase: Getting back into the tunnel was difficult
+    end_phrase: the distant windows of the castle
+    local_occurrence_note: The group leaves the Shrieking Shack, moves through the low tunnel, and emerges by the Whomping Willow before crossing the dark grounds toward the castle.
+  nearby_context: Lupin, Pettigrew, Ron, Snape, Sirius, Harry, Hermione, and Crookshanks move single file through the low Willow-Shack tunnel; Crookshanks presses the trunk knot so the group can exit without the branches attacking.
+  match_terms:
+  - tunnel
+  - Whomping Willow
+  - knot
+  - castle
+  - grounds
+  - Crookshanks
+  quote_excerpt_short: "pressed his paw to the knot"
+  source_note: The chapter reconfirms the low tunnel between the Shrieking Shack and the Whomping Willow, the trunk knot that disables the tree, and the route from the Willow back across the grounds toward the castle.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - whomping-willow
+  - shrieking-shack
+  - secret-passages
+  - castle-grounds
+  - concealed-route
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Whomping Willow Tunnel
+  reason_for_placement: The passage gives another observed use of the concealed Willow-Shack route and its control mechanism.
+  relevance_to_hogwarts_a_history: This supports a later editorial cross-reference for a pre-Harry Hogwarts accommodation that became a serious route-security vulnerability.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-001
+    notes: Book 3 Chapter Seventeen records the root gap, stopping knot, and tunnel route; this entry adds the full group's return passage and confirms Crookshanks can operate the knot from the exit side.
+  confidence: high
+  limitations: The chapter does not newly explain who built the tunnel or whether the route is formally inside Hogwarts boundaries.
+- id: poa-ch20-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 893
+  printed_page: not available
+  extracted_text_lines: PDF page 893, lines 11-31
+  text_anchor:
+    start_phrase: Their party was bathed in moonlight
+    end_phrase: claws ripping at each other
+    local_occurrence_note: The moon emerges while the group is crossing the Hogwarts grounds, revealing Lupin's missed potion and triggering his transformation.
+  nearby_context: Hermione realizes Lupin has not taken his potion; Sirius orders Harry and Hermione to run, then transforms into dog form to pull the werewolf away from Ron and Pettigrew.
+  match_terms:
+  - moonlight
+  - potion
+  - werewolf
+  - Lupin
+  - Sirius
+  - grounds
+  quote_excerpt_short: "He didn't take his potion tonight"
+  source_note: "The chapter shows the practical failure mode of Lupin's Harry-era accommodation: without the Wolfsbane Potion dose, moonlight causes an uncontrolled transformation on the school grounds."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - remus-lupin
+  - werewolf
+  - wolfsbane-potion
+  - school-grounds
+  - staff-accommodation
+  - crisis-security
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Staff Appointments and School Safety
+  candidate_section: Wolfsbane Potion and Werewolf Accommodation
+  reason_for_placement: The passage connects staff hiring/accommodation decisions to concrete student-safety risk when a medical precaution fails.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the risks and limits of Hogwarts' werewolf accommodation measures in Lupin's teaching year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch18-002
+    notes: Book 3 Chapter Eighteen explains Wolfsbane Potion as a recent safety measure for Lupin; this entry adds the observed consequence when he misses the potion during a full-moon incident on the grounds.
+  confidence: high
+  limitations: The scene is an exceptional crisis, not a formal account of Hogwarts accommodation policy or medical supervision.
+- id: poa-ch20-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 894
+  printed_page: not available
+  extracted_text_lines: PDF page 894, lines 4-20
+  text_anchor:
+    start_phrase: Pettigrew had dived for Lupin's dropped wand
+    end_phrase: he pounded away across the grounds
+    local_occurrence_note: Pettigrew uses the distraction of Lupin's transformation, attacks Ron and Crookshanks, then escapes in rat form.
+  nearby_context: Pettigrew takes Lupin's wand, incapacitates Ron and Crookshanks, is disarmed by Harry, transforms into a rat, slips through the manacle, and disappears through the grass while Lupin runs toward the forest and Sirius pursues Pettigrew.
+  match_terms:
+  - Pettigrew
+  - wand
+  - transformed
+  - rat
+  - manacle
+  - forest
+  - grounds
+  quote_excerpt_short: "Pettigrew had transformed"
+  source_note: The chapter records how an Animagus transformation lets Pettigrew evade physical restraint on the Hogwarts grounds during a werewolf and dementor crisis.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - peter-pettigrew
+  - animagus
+  - escape
+  - school-grounds
+  - wand-use
+  - crisis-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Crisis Security During Harry's Third Year
+  candidate_section: Animagus Evasion of Grounds Security
+  reason_for_placement: The passage shows how an unregistered Animagus can bypass restraint and complicate school-ground security during an emergency.
+  relevance_to_hogwarts_a_history: This later editorial note helps connect Animagus concealment to concrete security failures around Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch19-007
+    notes: Book 3 Chapter Nineteen records Black's Animagus form as a route around dementor detection and grounds security; this entry adds Pettigrew's rat-form escape from restraint on the grounds.
+  confidence: high
+  limitations: The source does not identify any ordinary Hogwarts detection method for transformed Animagi or escaped prisoners.
+- id: poa-ch20-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 895
+  printed_page: not available
+  extracted_text_lines: PDF page 895, lines 4-16
+  text_anchor:
+    start_phrase: The yelping seemed to be coming from near the lake
+    end_phrase: they were encircling them
+    local_occurrence_note: Harry and Hermione follow Sirius's cries to the lakeshore and find a mass of dementors closing in from around the lake.
+  nearby_context: At the lakeshore near Hogwarts, Sirius has reverted from dog to human form under dementor pressure; Harry sees at least a hundred dementors moving in a black mass around the lake and encircling them.
+  match_terms:
+  - lake
+  - Dementors
+  - Sirius
+  - grounds
+  - encircling
+  - cold
+  quote_excerpt_short: "at least a hundred of them"
+  source_note: The chapter records a mass dementor incursion on the Hogwarts lakeshore, beyond their stated guarding role at the entrances to the grounds.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - great-lake
+  - school-grounds
+  - ministry-security
+  - crisis-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dementor Deployment Around Hogwarts
+  candidate_section: Lake and Grounds Encirclement
+  reason_for_placement: The incident exposes the danger of placing dementors on or near school grounds during a manhunt.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for why the dementor security period should be treated as an extraordinary threat to Hogwarts students and guests.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-007
+    notes: Book 3 Chapter Nine records a mass dementor breach at the Quidditch stadium; this entry adds a later lakeshore encirclement with Sirius, Harry, and Hermione directly threatened.
+  confidence: high
+  limitations: The chapter does not state who ordered or permitted the dementors to move to the lakeshore.
+- id: poa-ch20-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 895
+  printed_page: not available
+  extracted_text_lines: PDF page 895, lines 17-41; PDF page 896, lines 2-20
+  text_anchor:
+    start_phrase: Hermione, think of something happy
+    end_phrase: sweep the Patronus aside
+    local_occurrence_note: Harry and Hermione try to cast the Patronus Charm under real dementor pressure at the lakeshore.
+  nearby_context: Harry instructs Hermione to think of something happy and repeatedly casts Expecto Patronum; Hermione cannot complete the spell, while Harry's formless silver Patronus briefly stops a nearby dementor.
+  match_terms:
+  - Expecto Patronum
+  - Patronus
+  - happy
+  - dementor
+  - Hermione
+  - wand
+  quote_excerpt_short: "thin wisp of silver"
+  source_note: The chapter tests Lupin's private Patronus instruction in a real crisis and shows that a weak, formless Patronus can briefly obstruct but not reliably repel a dementor.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - patronus-charm
+  - defense-against-the-dark-arts
+  - private-instruction
+  - dementors
+  - crisis-magic
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Patronus Instruction and Anti-Dementor Defense
+  reason_for_placement: The passage connects an exceptional private lesson to actual spell performance during a school-ground crisis.
+  relevance_to_hogwarts_a_history: This later editorial evidence clarifies the practical limits of emergency anti-dementor instruction for students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch12-002
+    notes: Book 3 Chapter Twelve indexes Lupin's Patronus theory and private instruction; this entry adds Harry's and Hermione's field performance against real dementors.
+  confidence: high
+  limitations: Patronus instruction remains private crisis training, not evidence that the charm is part of ordinary Hogwarts coursework.
+- id: poa-ch20-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 896
+  printed_page: not available
+  extracted_text_lines: PDF page 896, lines 29-48
+  text_anchor:
+    start_phrase: The nearest dementor seemed to be considering him
+    end_phrase: the last thing he ever heard
+    local_occurrence_note: A dementor lowers its hood and begins forcing Harry's face upward at the lakeshore.
+  nearby_context: Harry sees the dementor's eyeless face and mouth after it lowers its hood; after his Patronus fails, clammy hands grip his neck and force his face upward before the later rescue light appears.
+  match_terms:
+  - dementor
+  - hood
+  - mouth
+  - Patronus
+  - Kiss
+  - Harry
+  quote_excerpt_short: "lowered its hood"
+  source_note: The chapter provides observed detail for the Dementor's Kiss process, including the hood removal, mouth, physical grip, and apparent targeting of Harry before Sirius.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors-kiss
+  - dementors
+  - patronus-failure
+  - crisis-security
+  - ministry-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dementor Deployment Around Hogwarts
+  candidate_section: Dementor Powers and the Kiss
+  reason_for_placement: The passage gives direct observed confirmation of the Kiss mechanics previously explained by Lupin.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for the severity of allowing dementors near Hogwarts students and school grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch12-003
+    notes: Book 3 Chapter Twelve records Lupin's explanation of the Dementor's Kiss and Ministry authorization; this entry adds Harry's observed near-Kiss at the lakeshore.
+  confidence: high
+  limitations: The scene is interrupted before the Kiss is completed, so the entry should not describe the final effect beyond earlier corroborating explanations.
+- id: poa-ch20-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty - The Dementor's Kiss
+  chapter_start_pdf_page: 891
+  chapter_end_pdf_page: 897
+  pdf_page: 897
+  printed_page: not available
+  extracted_text_lines: PDF page 897, lines 2-18
+  text_anchor:
+    start_phrase: through the fog that was drowning him
+    end_phrase: someone who looked strangely familiar
+    local_occurrence_note: After Harry nearly loses consciousness, a bright animal-shaped light drives the dementors back and crosses the lake.
+  nearby_context: A silvery animal-shaped light circles Harry, Sirius, and Hermione, drives the dementors away, and gallops across the lake toward someone on the opposite shore whom Harry dimly recognizes.
+  match_terms:
+  - silvery light
+  - dementors
+  - animal
+  - lake
+  - Sirius
+  - Hermione
+  quote_excerpt_short: "driving the dementors back"
+  source_note: The chapter observes a powerful animal-shaped Patronus-like intervention that repels a mass of dementors around the lake, though Harry does not yet understand the caster or form.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - patronus
+  - anti-dementor-defense
+  - great-lake
+  - school-grounds
+  - crisis-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Anti-Dementor Defenses
+  candidate_section: Corporeal Patronus Intervention
+  reason_for_placement: The passage demonstrates the scale of protection a strong Patronus can provide during a Hogwarts grounds crisis.
+  relevance_to_hogwarts_a_history: This later editorial evidence helps distinguish weak student practice from effective anti-dementor protection near the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch12-002
+    notes: Book 3 Chapter Twelve indexes Patronus theory and Harry's indistinct practice; this entry adds an observed full-strength animal-shaped intervention against a mass of dementors.
+  confidence: high
+  limitations: The chapter does not yet identify the caster, animal form, or time-travel context behind the intervention.

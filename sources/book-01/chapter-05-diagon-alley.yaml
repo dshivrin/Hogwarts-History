@@ -1,0 +1,314 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  boundary_confidence: high
+  boundary_notes: Chapter Five start was taken from the known Chapter Four/Five boundary and confirmed on PDF page 62. Chapter Six - The Journey from Platform Nine and Three-Quarters was located by scanning a small bounded window after the Chapter Five anchor and begins on PDF page 85. Only PDF pages 62-84 were extracted and searched for Chapter Five entries.
+  processed_date: '2026-06-12'
+  processor_notes: "Processed only Book 1, Chapter Five. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ps-ch05-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 64
+  printed_page: not available
+  extracted_text_lines: PDF page 64, lines 3-17; PDF page 65, lines 4-9
+  text_anchor:
+    start_phrase: first stop fer us is Gringotts
+    end_phrase: dragons guardin' the high-security vaults
+    local_occurrence_note: Hagrid explains Gringotts before taking Harry from the sea-rock hut to London.
+  nearby_context: Hagrid says Gringotts is the wizard bank, run by goblins, and one of the safest places in the world except perhaps Hogwarts; he is also visiting Gringotts for Dumbledore on Hogwarts business.
+  match_terms:
+  - Gringotts
+  - goblins
+  - Hogwarts
+  - Dumbledore
+  - Hogwarts business
+  - high-security vaults
+  quote_excerpt_short: "except maybe Hogwarts"
+  source_note: Hagrid compares Gringotts security with Hogwarts and says he has Dumbledore-authorized Hogwarts business at the bank.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - gringotts
+  - hogwarts-security
+  - dumbledore
+  - hagrid
+  - stone-protection
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dumbledore and External Security Arrangements
+  candidate_section: Gringotts Business and Hogwarts Trust
+  reason_for_placement: The passage links Hogwarts to a secret Dumbledore-directed retrieval from a heavily protected wizarding bank and compares Hogwarts' safety with Gringotts.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of Hogwarts' security reputation and Dumbledore's trusted use of Hagrid for sensitive school business.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Related to Chapter Four's trust-in-Hagrid evidence, but this entry adds the Gringotts mission and explicit Hogwarts-business context.
+  confidence: medium
+  limitations: Hagrid does not yet identify the object or explain whether the security comparison reflects formal Hogwarts protections or personal judgment.
+- id: ps-ch05-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 66
+  printed_page: not available
+  extracted_text_lines: PDF page 66, lines 17-33; PDF page 67, lines 1-27
+  text_anchor:
+    start_phrase: There's a list there of everything yeh need
+    end_phrase: first years are not allowed their own broomsticks
+    local_occurrence_note: Harry unfolds the second sheet enclosed with his Hogwarts letter while traveling to London with Hagrid.
+  nearby_context: Harry reads the Hogwarts first-year supply list, including required robes, hat, gloves, cloak, name tags, course books, wand, cauldron, phials, telescope, scales, optional pets, and the broomstick restriction.
+  match_terms:
+  - Hogwarts School of Witchcraft and Wizardry
+  - uniform
+  - course books
+  - wand
+  - cauldron
+  - owl
+  - first years
+  - broomsticks
+  quote_excerpt_short: "first years are not allowed their own broomsticks"
+  source_note: The enclosed Hogwarts supply list states first-year uniform requirements, named course books, standard equipment, optional pets, and a rule barring first-years from bringing their own broomsticks.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - admissions
+  - supply-list
+  - uniform
+  - course-books
+  - first-year-broom-rule
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: First-Year Supply List
+  reason_for_placement: The passage is an in-universe school document giving direct evidence for preparation requirements before arrival.
+  relevance_to_hogwarts_a_history: This is a high-value institutional source for first-year preparation, curriculum materials, permitted pets, and equipment policy.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Four records the acceptance letter body; this entry records the separate enclosed supply list.
+  confidence: high
+  limitations: The list is Harry-era evidence and may need later comparison to other years to determine which requirements are stable.
+- id: ps-ch05-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 68
+  printed_page: not available
+  extracted_text_lines: PDF page 68, lines 12-28; PDF page 70, lines 23-30; PDF page 71, lines 1-3
+  text_anchor:
+    start_phrase: the Leaky Cauldron. It's a famous place
+    end_phrase: shrink instantly back into solid wall
+    local_occurrence_note: Hagrid brings Harry through the Leaky Cauldron courtyard entrance into Diagon Alley.
+  nearby_context: The Leaky Cauldron appears unnoticed by Muggle passersby, Hagrid says he is on Hogwarts business inside it, and the courtyard brick sequence opens and closes an archway into Diagon Alley.
+  match_terms:
+  - Leaky Cauldron
+  - Hogwarts business
+  - Diagon Alley
+  - brick wall
+  - archway
+  - Muggles
+  quote_excerpt_short: "the Leaky Cauldron. It's a famous place"
+  source_note: Hagrid uses the Leaky Cauldron and a brick-wall entrance to reach Diagon Alley, the supply district where Harry buys his Hogwarts equipment.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - diagon-alley
+  - leaky-cauldron
+  - magical-concealment
+  - supply-shopping
+  - muggle-secrecy
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Diagon Alley and Supply Access
+  reason_for_placement: The passage identifies the hidden route used to provision new students after acceptance, connecting Hogwarts admission to wider wizarding infrastructure.
+  relevance_to_hogwarts_a_history: This supports a future admissions chapter on how new students obtain required supplies while preserving magical secrecy.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry records Diagon Alley access or the Leaky Cauldron route.
+  confidence: medium
+  limitations: The evidence concerns external wizarding infrastructure rather than Hogwarts itself, so placement should remain admissions-adjacent.
+- id: ps-ch05-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 69
+  printed_page: not available
+  extracted_text_lines: PDF page 69, lines 22-28; PDF page 70, lines 1-5 and 16-21
+  text_anchor:
+    start_phrase: Professor Quirrell will be one of your teachers
+    end_phrase: Scared of the students, scared of his own subject
+    local_occurrence_note: Harry meets Quirrell in the Leaky Cauldron before entering Diagon Alley.
+  nearby_context: Hagrid introduces Quirrell as one of Harry's Hogwarts teachers; Quirrell identifies Defense Against the Dark Arts as his subject and mentions getting a new book on vampires, while Hagrid describes his book-learning and later field experience.
+  match_terms:
+  - Professor Quirrell
+  - teachers at Hogwarts
+  - Defense Against the Dark Arts
+  - book on vampires
+  - first-hand experience
+  quote_excerpt_short: "Defense Against the Dark Arts"
+  source_note: The scene identifies Quirrell as Harry's Defense Against the Dark Arts teacher and frames the subject through books, vampires, hags, and field experience.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-quirrell
+  - curriculum
+  - vampires
+  - staff
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Staff and Materials
+  reason_for_placement: The passage names a Hogwarts subject and teacher before term begins and links the subject to both books and practical encounters.
+  relevance_to_hogwarts_a_history: This supports future curriculum coverage and staff notes for the 1991-1992 school year.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Later curriculum entries mention Defense Against the Dark Arts lessons, but this is the first seed for Quirrell's role and pre-term materials.
+  confidence: high
+  limitations: Quirrell's appointment is Harry-era staff context and should not be treated as original-book core history.
+- id: ps-ch05-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 75
+  printed_page: not available
+  extracted_text_lines: PDF page 75, lines 11-29; PDF page 76, lines 9-23; PDF page 77, lines 3-6
+  text_anchor:
+    start_phrase: Might as well get yer uniform
+    end_phrase: never even heard of Hogwarts until they get the letter
+    local_occurrence_note: Harry is fitted for school robes beside the pale boy later known as Draco Malfoy.
+  nearby_context: Madam Malkin immediately recognizes Harry as a Hogwarts customer and fits him for robes; the other boy says no one knows their House until arrival, refers to family House expectations, notes the first-year broom restriction by planning to smuggle one, and voices prejudice against Muggle-born students.
+  match_terms:
+  - uniform
+  - Hogwarts
+  - robes
+  - first years
+  - House
+  - Slytherin
+  - Hufflepuff
+  - Muggle families
+  quote_excerpt_short: "no one really knows until they get there"
+  source_note: The robe shop scene reinforces uniform fitting as a first-year preparation step and records student assumptions about House assignment, broom restrictions, and Muggle-born admissions.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - uniform
+  - robe-fitting
+  - house-assignment
+  - first-year-broom-rule
+  - muggle-born-students
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: Pre-Arrival House Uncertainty
+  reason_for_placement: The passage shows that incoming students do not formally know their Houses before arriving, while also reinforcing first-year preparation and school social expectations.
+  relevance_to_hogwarts_a_history: This gives pre-arrival evidence for how House placement is understood before the Sorting and how admissions reach students from different family backgrounds.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Seven explains the Sorting Ceremony formally; this entry records pre-arrival uncertainty and robe-fitting context.
+  confidence: medium
+  limitations: Some claims come from an eleven-year-old prospective student and include prejudice rather than official school policy.
+- id: ps-ch05-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 78
+  printed_page: not available
+  extracted_text_lines: PDF page 78, lines 1-12
+  text_anchor:
+    start_phrase: It's our sport. Wizard sport
+    end_phrase: You-Know-Who was at Hogwarts
+    local_occurrence_note: Hagrid answers Harry's questions after the robe-shop conversation.
+  nearby_context: Hagrid gives Harry a brief explanation of Quidditch as a broomstick sport, says there are four school Houses, describes common views of Hufflepuff and Slytherin, and confirms that Voldemort attended Hogwarts years earlier.
+  match_terms:
+  - Quidditch
+  - wizard sport
+  - School Houses
+  - four
+  - Hufflepuff
+  - Slytherin
+  - You-Know-Who
+  - Hogwarts
+  quote_excerpt_short: "School Houses. There's four."
+  source_note: Hagrid supplies Harry's first oral explanation of Quidditch and the four-House system, including a prejudiced Slytherin reputation and Voldemort's past Hogwarts attendance.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-system
+  - slytherin
+  - hufflepuff
+  - voldemort
+  candidate_part: The Four Houses
+  candidate_chapter: House Identity and Reputation
+  candidate_section: Pre-Arrival Explanations of Houses
+  reason_for_placement: The passage gives a concise pre-arrival explanation of Houses and links later House reputation to older Hogwarts attendance.
+  relevance_to_hogwarts_a_history: This supports House-system coverage and later editorial notes on how students are introduced to Hogwarts social categories before Sorting.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Seven gives the formal Sorting explanation; this entry records Hagrid's earlier informal explanation and Voldemort's former-student context.
+  confidence: medium
+  limitations: Hagrid's broad claim about Slytherin is biased and should be checked against later canon before being treated as institutional history.
+- id: ps-ch05-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Five - Diagon Alley
+  chapter_start_pdf_page: 62
+  chapter_end_pdf_page: 84
+  pdf_page: 79
+  printed_page: not available
+  extracted_text_lines: PDF page 79, lines 21-33; PDF page 80, lines 9-17; PDF page 81, lines 1-18; PDF page 82, lines 19-27
+  text_anchor:
+    start_phrase: Ollivanders, and yeh gotta have the best wand
+    end_phrase: The wand chooses the wizard
+    local_occurrence_note: Harry's wand fitting at Ollivanders after he has bought the rest of his school supplies.
+  nearby_context: Hagrid says Ollivanders is the place for wands; the shop sign dates the maker to 382 B.C.; Ollivander remembers Lily's, James's, Hagrid's, Voldemort's, and Harry's wands, explains core materials, warns that another wizard's wand gives inferior results, and says the wand chooses the wizard.
+  match_terms:
+  - Ollivanders
+  - wands
+  - 382 B.C.
+  - charm work
+  - transfiguration
+  - wand chooses the wizard
+  - unicorn hairs
+  - phoenix tail feathers
+  - dragon heartstrings
+  quote_excerpt_short: "The wand chooses the wizard"
+  source_note: Harry's school wand fitting introduces Ollivanders' ancient shop, wand selection, wand cores, first-wand records, and the principle that the wand chooses the wizard.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - wands
+  - ollivanders
+  - school-equipment
+  - wand-cores
+  - hagrid-expulsion-corroboration
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Wands as Required Equipment
+  reason_for_placement: The passage explains the required wand purchase that follows from the Hogwarts supply list and supplies older wandmaking context.
+  relevance_to_hogwarts_a_history: This supports first-year preparation and wand-equipment coverage, with secondary value for Hagrid's disciplinary history and Potter-family pre-Harry context.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Four records Hagrid's wand sanction; this entry primarily covers wand selection and only secondarily corroborates Hagrid's snapped wand.
+  confidence: high
+  limitations: Most of the institutional evidence comes from Ollivander's shop rather than Hogwarts; original-book placement should be limited to school preparation unless later sources tie wand lore directly to Hogwarts instruction.

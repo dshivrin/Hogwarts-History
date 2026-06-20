@@ -1,0 +1,233 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter One - The Worst Birthday
+  chapter_start_pdf_page: 282
+  chapter_end_pdf_page: 290
+  boundary_confidence: high
+  boundary_notes: Chapter One range was taken from chapters-index.md and the prior Book 1 endpoint/Book 2 opening anchors. Book 2 Chapter One starts on PDF page 282 and Chapter Two starts on PDF page 291, so only PDF pages 282-290 were extracted and searched.
+  processed_date: '2026-06-13'
+  processor_notes: 'Processed only Book 2, Chapter One. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: cos-ch01-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter One - The Worst Birthday
+  chapter_start_pdf_page: 282
+  chapter_end_pdf_page: 290
+  pdf_page: 284
+  printed_page: not available
+  extracted_text_lines: PDF page 284, lines 3-10
+  text_anchor:
+    start_phrase: He missed Hogwarts so much
+    end_phrase: fourteen players on broomsticks
+    local_occurrence_note: Narrative summary of the Hogwarts features Harry misses while back at Privet Drive for summer.
+  nearby_context: Harry remembers Hogwarts through the castle, secret passageways, ghosts, classes, owl mail, Great Hall banquets, tower dormitory, Hagrid's cabin by the Forbidden Forest, and Quidditch.
+  match_terms:
+  - Hogwarts
+  - castle
+  - secret passageways
+  - ghosts
+  - Great Hall
+  - tower dormitory
+  - Forbidden Forest
+  - Quidditch
+  quote_excerpt_short: "the castle, with its secret passageways and ghosts"
+  source_note: The chapter gives a compact retrospective list of Hogwarts spaces, residents, customs, and activities that Harry associates with school life after his first year.
+  reference_type: cross_reference_candidate
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-memory
+  - castle
+  - secret-passageways
+  - ghosts
+  - great-hall
+  - tower-dormitory
+  - forbidden-forest
+  - quidditch
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Hogwarts Memory During Summer Exile
+  reason_for_placement: The passage is a retrospective bridge between school years, summarizing which Hogwarts features define the institution in Harry's lived experience.
+  relevance_to_hogwarts_a_history: This helps cross-reference earlier castle, resident, feast, dormitory, grounds, and Quidditch seeds without adding new origin claims.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: The passage echoes several existing topics, but no single prior entry duplicates this compact between-years synthesis.
+  confidence: medium
+  limitations: The passage is a broad memory summary and does not add dates, origins, mechanisms, or formal institutional explanations for the listed features.
+- id: cos-ch01-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter One - The Worst Birthday
+  chapter_start_pdf_page: 282
+  chapter_end_pdf_page: 290
+  pdf_page: 284
+  printed_page: not available
+  extracted_text_lines: PDF page 284, lines 11-16
+  text_anchor:
+    start_phrase: All Harry's spellbooks
+    end_phrase: without any of his homework done
+    local_occurrence_note: Privet Drive summer passage describing Harry's locked school materials and consequences.
+  nearby_context: Vernon has locked away Harry's spellbooks, wand, robes, cauldron, and broomstick, leaving Harry unable to practice Quidditch or complete homework before returning to school.
+  match_terms:
+  - spellbooks
+  - wand
+  - robes
+  - cauldron
+  - Nimbus Two Thousand
+  - House Quidditch team
+  - homework
+  quote_excerpt_short: "without any of his homework done"
+  source_note: The chapter confirms that Harry has school materials at home during summer and is expected to return with homework completed, while Quidditch practice can matter for House team standing.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - summer-homework
+  - school-materials
+  - spellbooks
+  - wand
+  - robes
+  - cauldron
+  - quidditch-practice
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Homework and Independent Study
+  candidate_section: Holiday Homework and Student Materials
+  reason_for_placement: The passage extends academic-life evidence beyond term time by showing student obligations and required materials during summer holidays.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogwarts expectations for student preparation outside school terms.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Fourteen records Easter homework and exam study; this entry records summer homework and locked school materials during the holiday.
+  confidence: medium
+  limitations: The chapter does not specify which teachers assigned the homework or whether Quidditch summer practice is a formal team requirement.
+- id: cos-ch01-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter One - The Worst Birthday
+  chapter_start_pdf_page: 282
+  chapter_end_pdf_page: 290
+  pdf_page: 284
+  printed_page: not available
+  extracted_text_lines: PDF page 284, lines 17-20; PDF page 287, lines 22-29; PDF page 288, lines 1-6
+  text_anchor:
+    start_phrase: Uncle Vernon had even padlocked Harry's owl
+    end_phrase: a message from Hogwarts
+    local_occurrence_note: Summer isolation passages describing blocked owl communication and lack of letters from friends or Hogwarts.
+  nearby_context: Hedwig is locked in her cage to prevent messages to the wizarding world; later Harry misses Ron and Hermione, considers sending Hedwig with a letter, and longs for any message from Hogwarts or another witch or wizard.
+  match_terms:
+  - owl
+  - Hedwig
+  - messages
+  - Wizarding world
+  - Ron
+  - Hermione
+  - letter
+  - message from Hogwarts
+  quote_excerpt_short: "stop her from carrying messages"
+  source_note: The chapter shows owl post as Harry's expected channel for holiday contact with friends, Hogwarts, and the wider wizarding world, and shows how guardian interference can cut off that contact.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - owl-post
+  - holiday-contact
+  - hedwig
+  - hogwarts-messages
+  - wizarding-world
+  - dursleys
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Suppressed Holiday Contact
+  reason_for_placement: The passage continues Harry's suppressed-contact thread after his first year and illustrates practical reliance on owl post outside school.
+  relevance_to_hogwarts_a_history: This can support later editorial context on student communication during holidays and on Harry's unusual isolation from school contacts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier owl-post entries record school delivery and travel follow-up; this entry records holiday isolation and blocked student communication.
+  confidence: medium
+  limitations: The evidence is centered on Harry's exceptional home situation and does not define ordinary Hogwarts holiday communication policy.
+- id: cos-ch01-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter One - The Worst Birthday
+  chapter_start_pdf_page: 282
+  chapter_end_pdf_page: 290
+  pdf_page: 285
+  printed_page: not available
+  extracted_text_lines: PDF page 285, lines 8-10
+  text_anchor:
+    start_phrase: exactly a year ago
+    end_phrase: famous
+    local_occurrence_note: Narrative recap of Hogwarts writing to Harry and Harry taking up his school place.
+  nearby_context: The narrator summarizes that Hogwarts wrote to Harry one year earlier, the truth about his magical identity came out, and he took up his place at wizard school where he and his scar were famous.
+  match_terms:
+  - Hogwarts
+  - written to Harry
+  - place at wizard school
+  - scar
+  - famous
+  quote_excerpt_short: "Hogwarts had written to Harry"
+  source_note: The chapter recaps Harry's Hogwarts correspondence and frames his attendance as taking up an already available school place.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-letters
+  - admissions
+  - school-place
+  - harry-potter
+  - wizard-school
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Acceptance Letters and School Placement
+  reason_for_placement: The passage corroborates the admissions-letter sequence and clarifies that the correspondence led to Harry taking his place at school.
+  relevance_to_hogwarts_a_history: This supports the admissions seed as a later recap, while keeping the detailed letter evidence anchored to Book 1.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch04-002
+    notes: Chapter Four records the opened Hogwarts acceptance letter; this entry is a later narrative recap that confirms the letter resulted in Harry taking his school place.
+  confidence: medium
+  limitations: This is a summary recap, not a new school document or policy explanation.
+- id: cos-ch01-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter One - The Worst Birthday
+  chapter_start_pdf_page: 282
+  chapter_end_pdf_page: 290
+  pdf_page: 287
+  printed_page: not available
+  extracted_text_lines: PDF page 287, lines 27-34; PDF page 288, lines 1-4
+  text_anchor:
+    start_phrase: unlocking Hedwig's cage by magic
+    end_phrase: lost its appeal
+    local_occurrence_note: Harry considers sending Hedwig by magic, then decides not to risk using magic outside school.
+  nearby_context: Harry thinks about magically unlocking Hedwig's cage to send a letter, but the narration states that underage wizards are not allowed to use magic outside school; Harry has hidden this fact from the Dursleys.
+  match_terms:
+  - magic
+  - letter
+  - Underage wizards
+  - outside of school
+  - Dursleys
+  - wand
+  - broomstick
+  quote_excerpt_short: "not allowed to use magic outside of school"
+  source_note: The chapter states a general rule that underage wizards may not use magic outside school, and shows Harry relying on the Dursleys' ignorance of that rule.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - holiday-conduct
+  - magic-outside-school
+  - owl-post
+  - dursleys
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Holiday Conduct and Underage Magic
+  candidate_section: Magic Outside School
+  reason_for_placement: The passage gives direct rule language about student conduct away from Hogwarts during holidays.
+  relevance_to_hogwarts_a_history: This is important context for school-year boundaries, holiday conduct, and the notices students receive before leaving Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch17-006
+    notes: Chapter Seventeen records end-of-year notes warning students not to use magic over the holidays; this entry states the outside-school rule in narrative form and shows its practical effect.
+  confidence: high
+  limitations: The chapter does not identify the legal source of the rule, the enforcement mechanism, or whether Hogwarts or the Ministry issues the prohibition.

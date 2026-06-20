@@ -1,0 +1,308 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Two range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Twenty-One boundary. Book 3 Chapter Twenty-Two starts on PDF page 924 and Book 4 begins on PDF page 941, so only PDF pages 924-939 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Twenty-Two. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch22-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 926
+  printed_page: not available
+  extracted_text_lines: PDF page 926, lines 22-28
+  text_anchor:
+    start_phrase: He must have Disapparated
+    end_phrase: inside this castle
+    local_occurrence_note: Snape rejects Fudge's escape theory while entering the hospital wing after Sirius Black vanishes from Flitwick's office.
+  nearby_context: Fudge suggests that Sirius must have Disapparated, but Snape angrily insists that neither Apparating nor Disapparating is possible inside the castle.
+  match_terms:
+  - Apparate
+  - Disapparate
+  - inside this castle
+  - Snape
+  - Sirius Black
+  - hospital wing
+  quote_excerpt_short: "inside this castle"
+  source_note: Snape independently corroborates that Apparition and Disapparition cannot be used inside Hogwarts castle when officials try to explain Sirius Black's locked-room escape.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - anti-apparition
+  - castle-protections
+  - sirius-black
+  - hospital-wing
+  - security-failure
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Castle-Wide Protective Enchantments
+  candidate_section: Anti-Intrusion and Anti-Apparition Protections
+  reason_for_placement: The passage gives a staff member's direct confirmation of the castle's anti-Apparition constraint during an active security incident.
+  relevance_to_hogwarts_a_history: This corroborates the explicit earlier claim that Hogwarts has anti-Apparition protections and helps define their castle-interior scope.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-001
+    notes: "Book 3 Chapter Nine records Hermione's explicit Hogwarts: A History citation for anti-Apparition and anti-intrusion protections; this entry adds Snape's crisis confirmation that the rule applies inside the castle."
+  confidence: high
+  limitations: The passage confirms the castle interior but does not define whether the same protection covers all grounds or authorized exceptions.
+- id: poa-ch22-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 928
+  printed_page: not available
+  extracted_text_lines: PDF page 928, lines 2-9
+  text_anchor:
+    start_phrase: And the dementors?
+    end_phrase: back to Azkaban tonight
+    local_occurrence_note: Dumbledore questions Fudge in the hospital wing after the failed Kiss and Sirius Black's escape.
+  nearby_context: Dumbledore asks whether the dementors will be removed from the school, and Fudge agrees that they must leave because they tried to administer the Kiss on an innocent boy.
+  match_terms:
+  - dementors
+  - removed from the school
+  - Kiss
+  - innocent boy
+  - Azkaban
+  - school entrance
+  quote_excerpt_short: "removed from the school"
+  source_note: After the lakeshore incident, Fudge agrees to remove the dementors from Hogwarts and return them to Azkaban because they were out of control near a student.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - azkaban
+  - ministry-security
+  - dumbledore
+  - school-entrance
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dementor Deployment Around Hogwarts
+  candidate_section: Removal After Student Endangerment
+  reason_for_placement: The passage records the official rollback of an external security deployment after the force endangered a Hogwarts student.
+  relevance_to_hogwarts_a_history: This later editorial note helps close the Sirius Black crisis security arc and clarifies that dementor presence at Hogwarts was temporary and discredited.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch20-004
+    notes: Book 3 Chapter Twenty records the lakeshore dementor encirclement; this entry adds Fudge's official decision to remove dementors after the near-Kiss.
+  confidence: high
+  limitations: Fudge's response is crisis-specific and does not state the formal removal order or who had originally authorized all movement near the lake.
+- id: poa-ch22-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 929
+  printed_page: not available
+  extracted_text_lines: PDF page 929, lines 13-22; PDF page 930, lines 11-22
+  text_anchor:
+    start_phrase: Professor Lupin's a werewolf
+    end_phrase: That must never happen again
+    local_occurrence_note: Hagrid reports Snape's breakfast disclosure, then Lupin explains in his office why he resigned.
+  nearby_context: Snape's disclosure to Slytherins spreads Lupin's werewolf status; Lupin says parents will object to a werewolf teaching their children and resigns after acknowledging the danger from his missed transformation.
+  match_terms:
+  - Professor Lupin
+  - werewolf
+  - resigned
+  - parents
+  - Defense Against the Dark Arts
+  - Dumbledore
+  quote_excerpt_short: "will not want a werewolf teaching their children"
+  source_note: The chapter shows how public disclosure and parental expectations end Lupin's Hogwarts teaching post after a werewolf safety failure on the grounds.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - staff-resignation
+  - werewolf
+  - parental-pressure
+  - defense-against-the-dark-arts
+  - safety-accommodation
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Staff Appointment, Disclosure, and Safety
+  candidate_section: Werewolf Disclosure and Resignation
+  reason_for_placement: The passage shows informal but decisive constraints on a teacher with a dangerous magical condition after a breached accommodation.
+  relevance_to_hogwarts_a_history: This later editorial evidence helps frame how Hogwarts staff accommodation, confidentiality, parental trust, and student safety collide in Lupin's tenure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch20-002
+    notes: Book 3 Chapter Twenty records Lupin's missed Wolfsbane and transformation on the grounds; this entry adds public disclosure, expected parent response, and resignation.
+  confidence: high
+  limitations: The source describes Lupin's expectation of parent objections rather than quoting a formal dismissal policy or actual parent letters.
+- id: poa-ch22-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 931
+  printed_page: not available
+  extracted_text_lines: PDF page 931, lines 6-19
+  text_anchor:
+    start_phrase: I brought this from the Shrieking Shack last night
+    end_phrase: secret passages out of the castle
+    local_occurrence_note: Lupin returns Harry's Invisibility Cloak and Marauder's Map in his office after resigning.
+  nearby_context: Lupin gives back the Invisibility Cloak and Marauder's Map because he is no longer Harry's teacher, and he says James Potter would have approved of Harry finding secret passages out of the castle.
+  match_terms:
+  - Invisibility Cloak
+  - Marauder's Map
+  - no longer your teacher
+  - secret passages
+  - out of school
+  - castle
+  quote_excerpt_short: "secret passages out of the castle"
+  source_note: Lupin's resignation changes his custodial stance toward confiscated dangerous knowledge, and he returns tools that enable hidden movement through Hogwarts.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - marauders-map
+  - invisibility-cloak
+  - secret-passages
+  - teacher-authority
+  - castle-security
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map and Secret Passage Knowledge
+  reason_for_placement: The passage reinforces the map's security significance and explicitly frames hidden castle exits as a known Marauders-era value.
+  relevance_to_hogwarts_a_history: This supports later editorial cross-reference between secret passages, confiscated artifacts, teacher discretion, and student-era knowledge of Hogwarts routes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch18-006
+    notes: Book 3 Chapter Eighteen explains the Marauder's Map as the product of Marauders' grounds and Hogsmeade exploration; this entry adds Lupin's post-resignation return of the map and explicit approval of secret-passage discovery.
+  confidence: high
+  limitations: The passage does not identify additional passages or state any formal school rule governing return of confiscated dangerous artifacts.
+- id: poa-ch22-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 935
+  printed_page: not available
+  extracted_text_lines: PDF page 935, lines 12-28
+  text_anchor:
+    start_phrase: The exam results came out
+    end_phrase: celebrated
+    local_occurrence_note: End-of-term wrap-up before the Hogwarts Express leaves the next morning.
+  nearby_context: Exam results are released on the last day of term; students receive subject results and older students receive O.W.L. and N.E.W.T. outcomes, while Gryffindor's House Championship win sets the end-of-term feast decorations.
+  match_terms:
+  - exam results
+  - O.W.L.s
+  - N.E.W.T.s
+  - House Championship
+  - end of term feast
+  - Gryffindor
+  quote_excerpt_short: "the end of term feast"
+  source_note: The chapter ties final exam results, advanced exam credentials, the House Championship, and winning-House Great Hall decorations to the last days of term.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - end-of-term
+  - exams
+  - owls
+  - newts
+  - house-championship
+  - great-hall
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: End-of-Year Feast and House Cup
+  candidate_section: Exam Results and Winning-House Decorations
+  reason_for_placement: The passage joins academic-year closure, House competition, and ceremonial decoration in one recurring end-of-term context.
+  relevance_to_hogwarts_a_history: This strengthens evidence for Hogwarts' term-ending rituals and the relationship between academic results, House competition, and the Great Hall feast.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch17-005
+    notes: Book 1 Chapter Seventeen records an end-of-year feast and House Cup award; this entry adds final exam-result timing, O.W.L./N.E.W.T. outcomes, and Gryffindor's third consecutive House Championship.
+  confidence: high
+  limitations: The chapter does not explain the full marking scale, House Championship scoring formula, or whether every end-of-term feast announces academic results.
+- id: poa-ch22-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 935
+  printed_page: not available
+  extracted_text_lines: PDF page 935, lines 29-33; PDF page 936, lines 3-15
+  text_anchor:
+    start_phrase: I went to see Professor McGonagall
+    end_phrase: I promised I wouldn't tell anyone
+    local_occurrence_note: Hermione explains on the Hogwarts Express why she is dropping Muggle Studies after returning the Time-Turner.
+  nearby_context: Hermione says she consulted McGonagall, decided to drop Muggle Studies, handed in the Time-Turner, and expects a normal schedule without Muggle Studies and Divination.
+  match_terms:
+  - Professor McGonagall
+  - Muggle Studies
+  - Divination
+  - Time-Turner
+  - normal schedule
+  - promised
+  quote_excerpt_short: "I've handed it in"
+  source_note: Hermione ends the exceptional Time-Turner arrangement by returning the device and reducing her third-year electives to avoid another year of impossible scheduling.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - time-turner
+  - professor-mcgonagall
+  - muggle-studies
+  - divination
+  - electives
+  - timetable
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Timetables, Electives, and Exceptional Study Arrangements
+  candidate_section: Ending a Time-Turner Accommodation
+  reason_for_placement: The passage shows that Hermione's overloaded timetable and Time-Turner use were exceptional and reversible through subject withdrawal.
+  relevance_to_hogwarts_a_history: This later editorial note closes the Time-Turner academic-accommodation thread and distinguishes ordinary scheduling from extraordinary Ministry-backed arrangements.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch21-002
+    notes: Book 3 Chapter Twenty-One identifies the Time-Turner authorization and yearlong use; this entry adds Hermione's return of the device and elective reduction.
+  confidence: high
+  limitations: The source does not specify the administrative paperwork, whether the Time-Turner returned to McGonagall or the Ministry, or normal withdrawal deadlines.
+- id: poa-ch22-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Twenty-Two - Owl Post Again
+  chapter_start_pdf_page: 924
+  chapter_end_pdf_page: 939
+  pdf_page: 938
+  printed_page: not available
+  extracted_text_lines: PDF page 938, lines 16-22
+  text_anchor:
+    start_phrase: another piece of parchment
+    end_phrase: good enough for Dumbledore
+    local_occurrence_note: Harry reads the enclosed permission note from Sirius on the Hogwarts Express.
+  nearby_context: Sirius encloses a signed note as Harry's godfather granting permission to visit Hogsmeade on weekends, and Harry expects Dumbledore to accept it.
+  match_terms:
+  - Sirius Black
+  - godfather
+  - permission
+  - Hogsmeade
+  - weekends
+  - Dumbledore
+  quote_excerpt_short: "permission to visit Hogsmeade on weekends"
+  source_note: Sirius provides a signed godfather permission note for Harry's future Hogsmeade visits, extending the third-year permission-form thread beyond parent or guardian signatures.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - permission-form
+  - guardian-permission
+  - sirius-black
+  - dumbledore
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage adds a signed substitute permission source and implies headmaster acceptance may matter after the formal guardian-signature problem.
+  relevance_to_hogwarts_a_history: This helps refine future coverage of Hogsmeade access as a regulated school privilege whose documentation can depend on recognized guardianship or headmaster judgment.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-005
+    notes: Book 3 Chapter One records the formal third-year Hogsmeade permission-form requirement; this entry adds Sirius's godfather permission note and Harry's expectation that Dumbledore will accept it.
+  confidence: high
+  limitations: The chapter records Harry's expectation, not Dumbledore's actual written acceptance or the school's formal rule for godparent authorization.

@@ -1,0 +1,292 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  boundary_confidence: high
+  boundary_notes: Chapter Sixteen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Fifteen boundary. Book 3 Chapter Sixteen starts on PDF page 837 and Chapter Seventeen starts on PDF page 852, so only PDF pages 837-851 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Sixteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch16-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  pdf_page: 837
+  printed_page: not available
+  extracted_text_lines: PDF page 837, lines 12-21; PDF page 838, lines 2-30
+  text_anchor:
+    start_phrase: Exams were nearly upon them
+    end_phrase: Someone from the Ministry of Magic
+    local_occurrence_note: Opening exam-preparation passage and Hermione's overlapping Monday exam schedule before Hagrid's note arrives.
+  nearby_context: Students remain inside the castle to study; Fred and George prepare for O.W.L.s, Percy prepares for N.E.W.T.s as Hogwarts' highest qualification, Percy enforces quiet in the Gryffindor common room, and Hermione's exam schedule lists simultaneous Arithmancy and Transfiguration plus simultaneous Charms and Ancient Runes.
+  match_terms:
+  - exams
+  - O.W.L.s
+  - N.E.W.T.s
+  - highest qualification
+  - exam schedule
+  - Arithmancy
+  - Transfiguration
+  - Ancient Runes
+  quote_excerpt_short: "highest qualification Hogwarts offered"
+  source_note: The chapter ties end-of-year exam pressure to Hogwarts assessment credentials and again shows Hermione managing officially scheduled overlapping third-year exams.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - exams
+  - owls
+  - newts
+  - academic-progression
+  - hermione-course-load
+  - arithmancy
+  - ancient-runes
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Exams and Assessment
+  candidate_section: O.W.L.s, N.E.W.T.s, and Overlapping Timetables
+  reason_for_placement: The passage names major school qualifications and gives concrete evidence for third-year exam scheduling, including Hermione's exceptional conflicts.
+  relevance_to_hogwarts_a_history: This strengthens the academic-life seed for Hogwarts qualifications, exam culture, and exceptional elective timetabling.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-001
+    notes: Book 3 Chapter Six records Hermione's conflicting timetable; this entry adds exam-week conflicts and corroborates earlier O.W.L./Head Boy qualification evidence.
+  confidence: high
+  limitations: The chapter still does not explain the mechanism that lets Hermione attend or sit simultaneous classes and exams.
+- id: poa-ch16-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  pdf_page: 841
+  printed_page: not available
+  extracted_text_lines: PDF page 838, lines 25-32; PDF page 839, lines 2-18; PDF page 841, lines 21-31; PDF page 842, lines 2-18; PDF page 848, lines 21-31; PDF page 850, lines 2-4
+  text_anchor:
+    start_phrase: Buckbeak's appeal
+    end_phrase: the executioner, Macnair
+    local_occurrence_note: Buckbeak appeal setup, Ministry witness explanation, Committee arrival, Hagrid's account of Dumbledore's attempted intervention, and final descent to the cabin.
+  nearby_context: Hagrid's note says the appeal is set for the day exams finish, with Ministry presence and an executioner; Fudge says the Committee requires a witness and combines the duty with checking the Black situation; Committee representatives arrive with Macnair, and Hagrid later says Dumbledore has tried but cannot overrule the Committee.
+  match_terms:
+  - Buckbeak
+  - appeal
+  - Ministry of Magic
+  - executioner
+  - Committee for the Disposal of Dangerous Creatures
+  - Cornelius Fudge
+  - Dumbledore
+  - Macnair
+  quote_excerpt_short: "required a witness to the execution"
+  source_note: The chapter expands the dangerous-creature appeal process by showing Ministry witness duty, Committee representatives, an executioner present before the appeal, and Dumbledore's lack of power to overrule the Committee.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - buckbeak
+  - dangerous-creatures
+  - committee-for-disposal
+  - ministry-of-magic
+  - cornelius-fudge
+  - dumbledore
+  - macnair
+  - appeals
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Governors, Ministry, and School Accountability
+  candidate_section: Dangerous-Creature Appeals and Execution Authority
+  reason_for_placement: The passage shows how a Hogwarts class injury can move into external legal authority involving the Ministry, a Committee, and limits on headmaster intervention.
+  relevance_to_hogwarts_a_history: This supports later editorial governance notes on the boundary between Hogwarts authority and external creature-law decisions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch15-001
+    notes: Book 3 Chapter Fifteen records Buckbeak's verdict and appeal possibility; this entry adds the appeal date, Ministry witness, executioner, Committee arrival, and Dumbledore's inability to overrule the outcome.
+  confidence: high
+  limitations: The formal statute, appeal rules, and Committee composition are still not quoted.
+- id: poa-ch16-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  pdf_page: 839
+  printed_page: not available
+  extracted_text_lines: PDF page 839, lines 19-36; PDF page 840, lines 2-23
+  text_anchor:
+    start_phrase: Exam week began
+    end_phrase: when it would all be over
+    local_occurrence_note: Exam-week sequence from Monday Transfiguration through Wednesday Herbology.
+  nearby_context: Third-years sit a Transfiguration practical involving a teapot and tortoise, a Charms exam on Cheering Charms, Care of Magical Creatures with flobberworms, Potions with a Confusing Concoction, midnight Astronomy on the tallest tower, History of Magic in a classroom, and Herbology in greenhouses.
+  match_terms:
+  - exam week
+  - Transfiguration
+  - Cheering Charms
+  - Care of Magical Creatures
+  - flobberworms
+  - Confusing Concoction
+  - Astronomy
+  - History of Magic
+  quote_excerpt_short: "did indeed test them on Cheering Charms"
+  source_note: The chapter gives a compact multi-subject exam sequence, including practical tasks, locations, and a History of Magic essay topic tied to Florean Fortescue's medieval witch-hunt knowledge.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - exams
+  - transfiguration
+  - charms
+  - care-of-magical-creatures
+  - potions
+  - astronomy
+  - history-of-magic
+  - herbology
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Exams and Assessment
+  candidate_section: Third-Year Practical and Written Exams
+  reason_for_placement: The passage records concrete end-of-year assessment practices across multiple Hogwarts subjects.
+  relevance_to_hogwarts_a_history: This supports a future academic chapter on assessment formats, subject locations, and how practical skills are tested.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch16-001
+    notes: Book 1 Chapter Sixteen records first-year exam formats and anti-cheating quills; this entry adds third-year subject-specific tasks and locations.
+  confidence: high
+  limitations: The chapter reflects Harry's third-year exams and does not prove these exact tasks recur annually.
+- id: poa-ch16-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  pdf_page: 840
+  printed_page: not available
+  extracted_text_lines: PDF page 840, lines 24-33; PDF page 841, lines 2-10
+  text_anchor:
+    start_phrase: Defense Against the Dark Arts
+    end_phrase: went back to the castle
+    local_occurrence_note: Lupin's Thursday morning practical obstacle-course exam and Hermione's boggart reaction.
+  nearby_context: Lupin sets an outdoor Defense Against the Dark Arts practical exam requiring students to handle a grindylow, Red Caps, a hinkypunk, and a boggart; Harry receives full marks, Ron is misled by the hinkypunk, and Hermione's boggart becomes McGonagall saying she failed everything.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Professor Lupin
+  - obstacle course
+  - grindylow
+  - Red Caps
+  - hinkypunk
+  - boggart
+  - full marks
+  quote_excerpt_short: "a sort of obstacle course"
+  source_note: The chapter shows Lupin assessing Defense Against the Dark Arts through a practical outdoor obstacle course using several dark or dangerous creatures from the year's lessons.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - practical-exams
+  - grindylows
+  - red-caps
+  - hinkypunks
+  - boggarts
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Practical Creature-Based Assessment
+  reason_for_placement: The passage is unusually concrete evidence for a teacher-designed practical Defense Against the Dark Arts exam.
+  relevance_to_hogwarts_a_history: This helps distinguish Lupin's practical pedagogy from more bookish or unstable Defense Against the Dark Arts years.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch07-004
+    notes: Book 3 Chapter Seven records Lupin's practical boggart lesson; this entry adds the end-of-year assessment sequence and multiple creature hazards.
+  confidence: high
+  limitations: Lupin's exam may reflect his own teaching style rather than a standard Defense Against the Dark Arts examination format.
+- id: poa-ch16-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  pdf_page: 842
+  printed_page: not available
+  extracted_text_lines: PDF page 842, lines 23-37; PDF page 843, lines 2-31; PDF page 844, lines 2-30; PDF page 845, lines 4-47; PDF page 846, lines 2-11
+  text_anchor:
+    start_phrase: Harry's and Ron's last exam was Divination
+    end_phrase: an impressive end to the test
+    local_occurrence_note: Divination exam queue, individual crystal-ball test, and Trelawney's second real prediction.
+  nearby_context: Trelawney tests students individually in the North Tower on crystal-gazing from Unfogging the Future, frames Parvati as having the makings of a true Seer, prompts Harry through the Orb exam, then enters a trance-like state and delivers a prediction she does not remember afterward.
+  match_terms:
+  - Divination
+  - Professor Trelawney
+  - Muggle Studies
+  - Unfogging the Future
+  - crystal ball
+  - true Seer
+  - Orb
+  - prediction
+  quote_excerpt_short: "all the makings of a true Seer"
+  source_note: The chapter records a separate Divination exam on crystal-gazing and provides the strongest chapter-level evidence so far that Trelawney can produce rare true predictions despite ordinary classroom unreliability.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - professor-trelawney
+  - true-seers
+  - crystal-gazing
+  - unfogging-the-future
+  - muggle-studies
+  - exams
+  - prophecy
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Divination and Third-Year Electives
+  candidate_section: Crystal-Gazing Exams and True Seer Evidence
+  reason_for_placement: The passage combines exam procedure, assigned text use, the true-Seer concept, and a rare actual prophecy.
+  relevance_to_hogwarts_a_history: This strengthens future coverage of Divination's academic status and the distinction between formal coursework and genuine prophetic ability.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-003
+    notes: Book 3 Chapter Six introduces Trelawney's Divination syllabus and McGonagall's distinction between Divination and true Seers; this entry adds the exam format and a concrete true-prediction event.
+  confidence: high
+  limitations: The prophecy itself is Harry-era event evidence and should be treated as later editorial context, not original pre-Harry Hogwarts history.
+- id: poa-ch16-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Sixteen - Professor Trelawney's Prediction
+  chapter_start_pdf_page: 837
+  chapter_end_pdf_page: 851
+  pdf_page: 846
+  printed_page: not available
+  extracted_text_lines: PDF page 839, lines 16-18; PDF page 846, lines 12-17; PDF page 847, lines 2-16; PDF page 847, lines 21-30
+  text_anchor:
+    start_phrase: strict new security measures
+    end_phrase: down the stone front steps into the grounds
+    local_occurrence_note: Security restrictions before exam week, Gryffindor Tower return, Hermione retrieving the Cloak from the one-eyed-witch passage, and covert evening exit.
+  nearby_context: The strict security measures remain in force, Harry avoids the one-eyed-witch passage because of Snape, security trolls guard the Gryffindor Tower route, the Fat Lady portrait still controls the common-room entrance, Hermione opens the witch's hump with Dissendium, and the trio later use the Cloak to leave the entrance hall for the grounds.
+  match_terms:
+  - security measures
+  - Invisibility Cloak
+  - one-eyed witch
+  - Dissendium
+  - security trolls
+  - Gryffindor Tower
+  - Fat Lady
+  - portrait hole
+  quote_excerpt_short: "tap it and say, 'Dissendium'"
+  source_note: The chapter corroborates ongoing post-breach security and adds another concrete use of the one-eyed-witch passage access command, Fat Lady portrait movement, and covert student movement from the entrance hall to the grounds.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black-crisis
+  - security-trolls
+  - gryffindor-tower
+  - fat-lady
+  - one-eyed-witch-passage
+  - dissendium
+  - invisibility-cloak
+  - student-movement
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Emergency Lockdowns and Student Safety
+  candidate_section: Post-Breach Security and Secret-Route Risk
+  reason_for_placement: The passage joins official crisis security with a hidden-route vulnerability known to students.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on how secret passages complicate Hogwarts security even when visible checkpoints are reinforced.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-001
+    notes: Book 3 Chapter Fourteen records post-breach security escalation; this entry adds continuing restrictions, security trolls, and corroboration of the one-eyed-witch passage access command from Book 3 Chapter Ten.
+  confidence: high
+  limitations: The official measures are crisis-specific, while the secret-passage use is illicit and not evidence of authorized school access.

@@ -1,0 +1,330 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  boundary_confidence: high
+  boundary_notes: Chapter Fifteen start was taken from the previously processed Chapter Fourteen boundary and confirmed on PDF page 217. Chapter Sixteen - Through the Trapdoor was located by scanning forward from that anchor and starts on PDF page 234, so only pages 217-233 were extracted and searched.
+  processed_date: '2026-06-11'
+  processor_notes: 'Processed only Book 1, Chapter Fifteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+
+entries:
+- id: ps-ch15-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 217
+  printed_page: not available
+  extracted_text_lines: PDF page 217, lines 6-15; PDF page 218, lines 2-5
+  text_anchor:
+    start_phrase: Filch took them down to Professor McGonagall's study
+    end_phrase: It is one o'clock in the morning
+    local_occurrence_note: Opening disciplinary scene after Harry and Hermione leave the Invisibility Cloak on the tower.
+  nearby_context: Filch brings Harry, Hermione, and Neville to McGonagall's study after the tower incident; Harry reflects that the tallest Astronomy Tower is out of bounds except for classes, and McGonagall cites the time and location.
+  match_terms:
+  - Filch
+  - Professor McGonagall's study
+  - Astronomy Tower
+  - out-of-bounds
+  - classes
+  - one o'clock
+  quote_excerpt_short: "out-of-bounds except for classes"
+  source_note: The chapter identifies the tallest Astronomy Tower as out of bounds except for classes and shows Filch escalating the nighttime violation to Professor McGonagall.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - astronomy-tower
+  - out-of-bounds
+  - classes
+  - filch
+  - mcgonagall
+  - nighttime-wandering
+  - rule-enforcement
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Restricted Areas
+  candidate_section: Astronomy Tower Access
+  reason_for_placement: The passage gives a clear access rule for a named school tower and connects it to staff enforcement.
+  relevance_to_hogwarts_a_history: This supports a future rules and restricted-areas section, while also refining the prior tallest-tower route evidence from Chapter Fourteen.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-006; ps-ch14-007
+    notes: Chapter Fourteen seeded the tallest-tower nighttime route and immediate discipline; this entry adds the explicit out-of-bounds-except-for-classes rule and McGonagall's study escalation.
+  confidence: high
+  limitations: The passage identifies the tower access rule in Harry's first year but does not state when the rule began or whether all towers follow the same policy.
+- id: ps-ch15-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 218
+  printed_page: not available
+  extracted_text_lines: PDF page 218, lines 17-32; PDF page 219, lines 1-24
+  text_anchor:
+    start_phrase: Four students out of bed in one night
+    end_phrase: the giant hourglasses that recorded the House points
+    local_occurrence_note: McGonagall's point deduction and the next-day reaction at the House point hourglasses.
+  nearby_context: McGonagall assigns detention and removes fifty points each from Harry, Hermione, and Neville; Gryffindor drops to last place, the House Cup stakes are discussed, and students see the change in the giant hourglasses.
+  match_terms:
+  - detentions
+  - fifty points each
+  - Gryffindor
+  - House Cup
+  - giant hourglasses
+  - House points
+  - Slytherin
+  quote_excerpt_short: "fifty points each"
+  source_note: The chapter gives a large-scale House-point deduction for nighttime rule-breaking and confirms that giant hourglasses visibly record House points.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - house-points
+  - house-cup
+  - hourglasses
+  - detention
+  - gryffindor
+  - slytherin
+  - mcgonagall
+  candidate_part: The Four Houses
+  candidate_chapter: House Points and the House Cup
+  candidate_section: Point Records and Major Deductions
+  reason_for_placement: The passage links discipline, House standings, the House Cup, and the physical display of points in the hourglasses.
+  relevance_to_hogwarts_a_history: This strengthens the House system seed by documenting how major point changes affect House Cup standings and are displayed to the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002; ps-ch08-007; ps-ch14-007
+    notes: Earlier entries seeded the House points system and smaller deductions; this entry adds giant hourglasses and a 150-point Gryffindor loss tied to the House Cup.
+  confidence: high
+  limitations: The point scale is exceptional and tied to Harry-era events; the passage does not explain the origin, mechanics, or location of the hourglasses.
+- id: ps-ch15-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 221
+  printed_page: not available
+  extracted_text_lines: PDF page 221, lines 1-23
+  text_anchor:
+    start_phrase: Harry went back to the library
+    end_phrase: That'll take a lot of explaining
+    local_occurrence_note: Library discussion after Harry overhears Quirrell and before detention notes arrive.
+  nearby_context: Harry returns to the library, where Hermione is testing Ron on Astronomy; Ron speculates that among the thousands of books there may be a way to get past a three-headed dog, Hermione recommends going to Dumbledore, and Harry notes that students are not supposed to know about the Stone or Fluffy.
+  match_terms:
+  - library
+  - Astronomy
+  - thousands of books
+  - three-headed dog
+  - Dumbledore
+  - Stone
+  - Fluffy
+  quote_excerpt_short: "thousands of books surrounding them"
+  source_note: The chapter again presents the Hogwarts library as a large research setting and reinforces student secrecy around the Stone and Fluffy.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - library
+  - thousands-of-books
+  - fluffy
+  - philosopher-stone-protections
+  - dumbledore
+  - secrecy
+  - student-research
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Guarded Chambers
+  candidate_section: Secrecy Around the Stone Protections
+  reason_for_placement: The passage connects library research possibilities with guarded-chamber secrecy and the students' awareness that the Stone and Fluffy are restricted knowledge.
+  relevance_to_hogwarts_a_history: This is later editorial context for the Stone protections and a supporting cross-reference for library scale and student research habits.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-004; ps-ch13-006; ps-ch14-003
+    notes: Earlier entries seeded the library's scale and Stone-protection secrecy; this entry adds speculation about books on bypassing a three-headed dog and Hermione's Dumbledore recommendation.
+  confidence: medium
+  limitations: Ron's idea about a relevant book is speculative, and the Stone protection is a 1991-1992 incident rather than original-book core history.
+- id: ps-ch15-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 222
+  printed_page: not available
+  extracted_text_lines: PDF page 221, lines 29-32; PDF page 222, lines 1-28; PDF page 223, lines 8-30
+  text_anchor:
+    start_phrase: Your detention will take place at eleven o'clock tonight
+    end_phrase: Yeh'll do summat useful or yeh'll get out
+    local_occurrence_note: Detention notice, Filch's escort from the entrance hall, and Hagrid taking over at the forest edge.
+  nearby_context: Detention notes direct the students to meet Filch in the entrance hall at eleven; Filch escorts them across the grounds toward Hagrid's hut, mentions old punishments and office chains, and Hagrid says forest work is useful punishment.
+  match_terms:
+  - detention
+  - eleven o'clock
+  - Mr. Filch
+  - entrance hall
+  - grounds
+  - Hagrid's hut
+  - old punishments
+  - forest
+  quote_excerpt_short: "Meet Mr. Filch in the entrance hall"
+  source_note: "The chapter shows detention logistics: written notices, a late-night meeting point, caretaker escort, Hagrid's role in supervising the punishment, and Filch's comments about older disciplinary methods."
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - detention
+  - filch
+  - entrance-hall
+  - hagrid
+  - grounds
+  - forbidden-forest
+  - old-punishments
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Caretakers, Corridor Patrols, and Restricted Areas
+  candidate_section: Detention Logistics and Punishments
+  reason_for_placement: The passage documents how a detention is assigned, communicated, and transferred from caretaker to grounds staff.
+  relevance_to_hogwarts_a_history: This supports a future governance section on punishment practices and staff roles in discipline.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-007
+    notes: Chapter Fourteen seeded detention as a consequence of nighttime wandering; this entry adds the detention notice, meeting time and place, Filch's escort, and Hagrid's supervisory role.
+  confidence: high
+  limitations: Filch's claims about older punishments may reflect his preference rather than current Hogwarts policy.
+- id: ps-ch15-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 224
+  printed_page: not available
+  extracted_text_lines: PDF page 224, lines 3-31; PDF page 225, lines 1-21; PDF page 227, lines 25-29; PDF page 228, lines 8-19
+  text_anchor:
+    start_phrase: He led them to the very edge of the forest
+    end_phrase: deeper and deeper into the forest
+    local_occurrence_note: Hagrid explains the unicorn search at the forest edge and later changes groups after red sparks.
+  nearby_context: Hagrid takes students to the forest edge, identifies a narrow earth track, explains an injured-unicorn search, orders them to keep to the path, divides them into parties, assigns green sparks for finding the unicorn and red sparks for trouble, then changes groups after Neville sends sparks.
+  match_terms:
+  - edge of the forest
+  - earth track
+  - unicorn blood
+  - keep to the path
+  - green sparks
+  - red sparks
+  - Fang
+  - Hagrid
+  quote_excerpt_short: "send up green sparks"
+  source_note: The chapter gives concrete Forbidden Forest geography and a supervised search protocol using paths, student groups, Fang, and colored wand sparks.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - forbidden-forest
+  - forest-edge
+  - hagrid
+  - fang
+  - unicorns
+  - wand-sparks
+  - paths
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Grounds and Edge of the Forest
+  candidate_section: Forbidden Forest Paths and Supervised Searches
+  reason_for_placement: The passage gives the strongest chapter-level evidence for the forest's edge, paths, risks, and Hagrid's practical procedure when leading students inside.
+  relevance_to_hogwarts_a_history: This supports future coverage of the grounds and Forbidden Forest as a dangerous but institutionally connected place used under groundskeeper supervision.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-005
+    notes: Chapter Fourteen seeded Hagrid's hut and the forest edge; this entry moves into the forest and adds paths, unicorn search protocol, and colored-spark signals.
+  confidence: high
+  limitations: The search is an exceptional detention during a dangerous incident and should not be generalized as normal student access to the forest.
+- id: ps-ch15-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 226
+  printed_page: not available
+  extracted_text_lines: PDF page 225, lines 24-31; PDF page 226, lines 1-29; PDF page 227, lines 1-21
+  text_anchor:
+    start_phrase: And into the clearing came
+    end_phrase: centaurs they know things
+    local_occurrence_note: First encounter with Ronan and Bane during the forest detention search.
+  nearby_context: Harry and Hermione meet centaurs Ronan and Bane in a clearing; Hagrid introduces them, says several centaurs live in the forest, describes them as stargazers who keep to themselves but sometimes respond when he wants a word, and notes that they know things without saying much.
+  match_terms:
+  - Ronan
+  - Bane
+  - centaur
+  - forest
+  - Mars
+  - stargazers
+  - Hagrid
+  - fair few
+  quote_excerpt_short: "a fair few"
+  source_note: The chapter establishes centaurs as resident magical beings in the Forbidden Forest and shows Hagrid's working familiarity with Ronan and Bane.
+  reference_type: direct_observed_setting
+  era_classification: original_book_core_candidate
+  topic_tags:
+  - forbidden-forest
+  - centaurs
+  - ronan
+  - bane
+  - hagrid
+  - magical-residents
+  - stargazing
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: Centaurs in the Forbidden Forest
+  reason_for_placement: Existing structure has a magical-residents part, and this passage adds non-ghost residents tied specifically to Hogwarts grounds.
+  relevance_to_hogwarts_a_history: This is strong evidence for a future section on long-term magical residents of the Hogwarts grounds and Hagrid's relationship to them.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry focuses on centaurs or magical residents of the Forbidden Forest.
+  confidence: high
+  limitations: The chapter does not state when centaurs first lived in the forest or the formal nature of their relationship to the school.
+- id: ps-ch15-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Fifteen - The Forbidden Forest
+  chapter_start_pdf_page: 217
+  chapter_end_pdf_page: 233
+  pdf_page: 230
+  printed_page: not available
+  extracted_text_lines: PDF page 230, lines 4-18 and 29-30; PDF page 231, lines 1-17; PDF page 232, lines 3-4 and 18-22; PDF page 233, line 1
+  text_anchor:
+    start_phrase: Have we not read what is to come
+    end_phrase: a very imprecise branch of magic
+    local_occurrence_note: Firenze's argument with Bane, his explanation of unicorn blood, and Hermione's later comparison to fortune-telling.
+  nearby_context: Bane says centaurs read events in the movements of the planets and are concerned with what has been foretold; Firenze explains unicorn blood's properties and price, connects the Stone to the Elixir of Life, and Hermione later says McGonagall calls fortune-telling imprecise.
+  match_terms:
+  - Firenze
+  - Bane
+  - planets
+  - foretold
+  - unicorn blood
+  - Potions
+  - Sorcerer's Stone
+  - fortune-telling
+  quote_excerpt_short: "the movements of the planets"
+  source_note: The chapter presents centaur planetary divination, Firenze's explanation of unicorn blood, and a classroom-adjacent note that unicorn horn and tail hair are Potions ingredients.
+  reference_type: cross_reference_candidate
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - centaur-divination
+  - unicorn-blood
+  - potions
+  - magical-creatures
+  - firenze
+  - bane
+  - sorcerers-stone
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Magical Creatures in School Knowledge
+  candidate_section: Unicorn Materials and Centaur Divination
+  reason_for_placement: The passage bridges forest residents, magical-creature properties, and curriculum references to Potions and fortune-telling.
+  relevance_to_hogwarts_a_history: This is not an explicit Hogwarts history fact, but it may support later cross-sections on forest residents, creature materials, and which branches of magic Hogwarts recognizes or teaches.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed entry covers unicorn blood, centaur planetary divination, or unicorn materials in Potions.
+  confidence: medium
+  limitations: Much of the passage concerns wider magical-creature lore and Harry-era events; placement in a Hogwarts history structure is interpretive.

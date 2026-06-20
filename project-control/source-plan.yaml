@@ -1,0 +1,256 @@
+project:
+  name: 'Hogwarts: A History Seed Builder'
+current_phase: automated-book-04-forward-extraction
+sources:
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-01
+  book: Harry Potter and the Philosopher's Stone
+  chapters:
+  - number: 1
+    title: Chapter One - The Boy Who Lived
+    status: complete
+    output_file: sources/book-01/chapter-01-boy-who-lived.yaml
+  - number: 2
+    title: Chapter Two - The Vanishing Glass
+    status: complete
+    output_file: sources/book-01/chapter-02-vanishing-glass.yaml
+  - number: 3
+    title: Chapter Three - The Letters From No One
+    status: complete
+    output_file: sources/book-01/chapter-03-letters-from-no-one.yaml
+  - number: 4
+    title: Chapter Four - The Keeper of the Keys
+    status: complete
+    output_file: sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  - number: 5
+    title: Chapter Five - Diagon Alley
+    status: complete
+    output_file: sources/book-01/chapter-05-diagon-alley.yaml
+  - number: 6
+    title: Chapter Six - The Journey from Platform Nine and Three-Quarters
+    status: complete
+    output_file: sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
+  - number: 7
+    title: Chapter Seven - The Sorting Hat
+    status: complete
+    output_file: sources/book-01/chapter-07-sorting-hat.yaml
+  - number: 8
+    title: Chapter Eight - The Potions Master
+    status: complete
+    output_file: sources/book-01/chapter-08-potions-master.yaml
+  - number: 9
+    title: Chapter Nine - The Midnight Duel
+    status: complete
+    output_file: sources/book-01/chapter-09-midnight-duel.yaml
+  - number: 10
+    title: Chapter Ten - Halloween
+    status: complete
+    output_file: sources/book-01/chapter-10-halloween.yaml
+  - number: 11
+    title: Chapter Eleven - Quidditch
+    status: complete
+    output_file: sources/book-01/chapter-11-quidditch.yaml
+  - number: 12
+    title: Chapter Twelve - The Mirror of Erised
+    status: complete
+    output_file: sources/book-01/chapter-12-mirror-of-erised.yaml
+  - number: 13
+    title: Chapter Thirteen - Nicolas Flamel
+    status: complete
+    output_file: sources/book-01/chapter-13-nicolas-flamel.yaml
+  - number: 14
+    title: Chapter Fourteen - Norbert the Norwegian Ridgeback
+    status: complete
+    output_file: sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  - number: 15
+    title: Chapter Fifteen - The Forbidden Forest
+    status: complete
+    output_file: sources/book-01/chapter-15-forbidden-forest.yaml
+  - number: 16
+    title: Chapter Sixteen - Through the Trapdoor
+    status: complete
+    output_file: sources/book-01/chapter-16-through-the-trapdoor.yaml
+  - number: 17
+    title: Chapter Seventeen - The Man with Two Faces
+    status: complete
+    output_file: sources/book-01/chapter-17-man-with-two-faces.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-02
+  book: Harry Potter and the Chamber of Secrets
+  chapters:
+  - number: 1
+    title: Chapter One - The Worst Birthday
+    status: complete
+    output_file: sources/book-02/chapter-01-worst-birthday.yaml
+  - number: 2
+    title: Chapter Two - Dobby's Warning
+    status: complete
+    output_file: sources/book-02/chapter-02-dobbys-warning.yaml
+  - number: 3
+    title: Chapter Three - The Burrow
+    status: complete
+    output_file: sources/book-02/chapter-03-burrow.yaml
+  - number: 4
+    title: Chapter Four - At Flourish and Blotts
+    status: complete
+    output_file: sources/book-02/chapter-04-at-flourish-and-blotts.yaml
+  - number: 5
+    title: Chapter Five - The Whomping Willow
+    status: complete
+    output_file: sources/book-02/chapter-05-whomping-willow.yaml
+  - number: 6
+    title: Chapter Six - Gilderoy Lockhart
+    status: complete
+    output_file: sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  - number: 7
+    title: Chapter Seven - Mudbloods and Murmurs
+    status: complete
+    output_file: sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  - number: 8
+    title: Chapter Eight - The Deathday Party
+    status: complete
+    output_file: sources/book-02/chapter-08-the-deathday-party.yaml
+  - number: 9
+    title: Chapter Nine - The Writing on the Wall
+    status: complete
+    output_file: sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  - number: 10
+    title: Chapter Ten - The Rogue Bludger
+    status: complete
+    output_file: sources/book-02/chapter-10-the-rogue-bludger.yaml
+  - number: 11
+    title: Chapter Eleven - The Dueling Club
+    status: complete
+    output_file: sources/book-02/chapter-11-the-dueling-club.yaml
+  - number: 12
+    title: Chapter Twelve - The Polyjuice Potion
+    status: complete
+    output_file: sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  - number: 13
+    title: Chapter Thirteen - The Very Secret Diary
+    status: complete
+    output_file: sources/book-02/chapter-13-the-very-secret-diary.yaml
+  - number: 14
+    title: Chapter Fourteen - Cornelius Fudge
+    status: complete
+    output_file: sources/book-02/chapter-14-cornelius-fudge.yaml
+  - number: 15
+    title: Chapter Fifteen - Aragog
+    status: complete
+    output_file: sources/book-02/chapter-15-aragog.yaml
+  - number: 16
+    title: Chapter Sixteen - The Chamber of Secrets
+    status: complete
+    output_file: sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  - number: 17
+    title: Chapter Seventeen - The Heir of Slytherin
+    status: complete
+    output_file: sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  - number: 18
+    title: Chapter Eighteen - Dobby's Reward
+    status: complete
+    output_file: sources/book-02/chapter-18-dobbys-reward.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-03
+  book: Harry Potter and the Prisoner of Azkaban
+  chapters:
+  - number: 1
+    title: Chapter One - Owl Post
+    status: complete
+    output_file: sources/book-03/chapter-01-owl-post.yaml
+  - number: 2
+    title: Chapter Two - Aunt Marge's Big Mistake
+    status: complete
+    output_file: sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  - number: 3
+    title: Chapter Three - The Knight Bus
+    status: complete
+    output_file: sources/book-03/chapter-03-the-knight-bus.yaml
+  - number: 4
+    title: Chapter Four - The Leaky Cauldron
+    status: complete
+    output_file: sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  - number: 5
+    title: Chapter Five - The Dementor
+    status: complete
+    output_file: sources/book-03/chapter-05-the-dementor.yaml
+  - number: 6
+    title: Chapter Six - Talons and Tea Leaves
+    status: complete
+    output_file: sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+  - number: 7
+    title: Chapter Seven - The Boggart in the Wardrobe
+    status: complete
+    output_file: sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  - number: 8
+    title: Chapter Eight - Flight of the Fat Lady
+    status: complete
+    output_file: sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  - number: 9
+    title: Chapter Nine - Grim Defeat
+    status: complete
+    output_file: sources/book-03/chapter-09-grim-defeat.yaml
+  - number: 10
+    title: Chapter Ten - The Marauder's Map
+    status: complete
+    output_file: sources/book-03/chapter-10-the-marauders-map.yaml
+  - number: 11
+    title: Chapter Eleven - The Firebolt
+    status: complete
+    output_file: sources/book-03/chapter-11-the-firebolt.yaml
+  - number: 12
+    title: Chapter Twelve - The Patronus
+    status: complete
+    output_file: sources/book-03/chapter-12-the-patronus.yaml
+  - number: 13
+    title: Chapter Thirteen - Gryffindor Versus Ravenclaw
+    status: complete
+    output_file: sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  - number: 14
+    title: Chapter Fourteen - Snape's Grudge
+    status: complete
+    output_file: sources/book-03/chapter-14-snapes-grudge.yaml
+  - number: 15
+    title: Chapter Fifteen - The Quidditch Final
+    status: complete
+    output_file: sources/book-03/chapter-15-the-quidditch-final.yaml
+  - number: 16
+    title: Chapter Sixteen - Professor Trelawney's Prediction
+    status: complete
+    output_file: sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+  - number: 17
+    title: Chapter Seventeen - Cat, Rat, and Dog
+    status: complete
+    output_file: sources/book-03/chapter-17-cat-rat-and-dog.yaml
+  - number: 18
+    title: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+    status: complete
+    output_file: sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  - number: 19
+    title: Chapter Nineteen - The Servant of Lord Voldemort
+    status: complete
+    output_file: sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  - number: 20
+    title: Chapter Twenty - The Dementor's Kiss
+    status: complete
+    output_file: sources/book-03/chapter-20-the-dementors-kiss.yaml
+  - number: 21
+    title: Chapter Twenty-One - Hermione's Secret
+    status: complete
+    output_file: sources/book-03/chapter-21-hermiones-secret.yaml
+  - number: 22
+    title: Chapter Twenty-Two - Owl Post Again
+    status: complete
+    output_file: sources/book-03/chapter-22-owl-post-again.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapters:
+  - number: 1
+    title: Chapter One - The Riddle House
+    status: complete
+    output_file: sources/book-04/chapter-01-the-riddle-house.yaml
+  - number: 2
+    title: Chapter Two - The Scar
+    status: pending
+    output_file: sources/book-04/chapter-02-the-scar.yaml

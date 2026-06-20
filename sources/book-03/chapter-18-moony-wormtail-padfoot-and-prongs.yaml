@@ -1,0 +1,325 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  boundary_confidence: high
+  boundary_notes: Chapter Eighteen range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Seventeen boundary. Book 3 Chapter Eighteen starts on PDF page 867 and Chapter Nineteen starts on PDF page 874, so only PDF pages 867-873 were extracted and searched.
+  processed_date: '2026-06-20'
+  processor_notes: "Processed only Book 3, Chapter Eighteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch18-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 869
+  printed_page: not available
+  extracted_text_lines: PDF page 869, lines 5-18
+  text_anchor:
+    start_phrase: people would know
+    end_phrase: three unregistered Animagi running around Hogwarts
+    local_occurrence_note: Hermione challenges the Pettigrew-as-Animagus claim using McGonagall's class and Ministry register evidence.
+  nearby_context: Hermione says Professor McGonagall taught Animagi in class, that she looked up the subject for homework, and that the Ministry maintains a register listing animal forms and markings; Lupin replies that the Ministry never knew about three unregistered Hogwarts student Animagi.
+  match_terms:
+  - Animagi
+  - Professor McGonagall
+  - homework
+  - Ministry of Magic
+  - register
+  - unregistered Animagi
+  - Hogwarts
+  quote_excerpt_short: "there have been only seven Animagi this century"
+  source_note: The chapter links classroom Transfiguration study, Hermione's homework research, and Ministry registration to the discovery that three Hogwarts students became unregistered Animagi.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - animagi
+  - transfiguration
+  - professor-mcgonagall
+  - ministry-register
+  - homework
+  - unregistered-magic
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Transfiguration and Advanced Magical Transformations
+  candidate_section: Animagi in Classroom Study and External Registers
+  reason_for_placement: The passage connects Hogwarts instruction to external Ministry records and shows how student research can test claims about advanced magic.
+  relevance_to_hogwarts_a_history: This supports later treatment of how Hogwarts teaches advanced magical categories while legal registration and enforcement remain external to the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-005
+    notes: Book 3 Chapter Six records McGonagall's Animagus demonstration and rarity context; this entry adds Hermione's homework lookup, the Ministry register fields, the seven-this-century count, and the unregistered Marauders exception.
+  confidence: high
+  limitations: The chapter does not identify the register's formal title or say whether Hogwarts reports student Animagus attempts to the Ministry.
+- id: poa-ch18-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 870
+  printed_page: not available
+  extracted_text_lines: PDF page 870, lines 5-14
+  text_anchor:
+    start_phrase: I was a very small boy
+    end_phrase: exposed to me
+    local_occurrence_note: Lupin explains his childhood bite, the recent Wolfsbane discovery, and why attending Hogwarts once seemed impossible.
+  nearby_context: Lupin says there was no cure when he was bitten, explains that Snape's recently discovered Wolfsbane Potion lets him keep his mind during transformations, and contrasts that with earlier fears that parents would not want their children exposed to him.
+  match_terms:
+  - werewolf
+  - Wolfsbane Potion
+  - Professor Snape
+  - full moon
+  - transform
+  - Hogwarts
+  - parents
+  quote_excerpt_short: "The potion that Professor Snape has been making"
+  source_note: The chapter names Wolfsbane Potion as a recent discovery and explains why Snape's brewing materially changes Lupin's adult safety profile while older student accommodations had to work without it.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - wolfsbane-potion
+  - professor-snape
+  - remus-lupin
+  - werewolves
+  - staff-accommodation
+  - full-moon-safety
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Staff Appointments and School Safety
+  candidate_section: Wolfsbane Potion and Werewolf Accommodation
+  reason_for_placement: The passage clarifies the medical and safety context behind Lupin's Harry-era appointment and distinguishes it from his earlier student years.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how a new potion changed the practical risk profile of a werewolf teacher at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-005
+    notes: Book 3 Chapter Eight records Snape brewing an unnamed complex potion for Lupin; this entry names the potion, explains its recent discovery, and states its effect during transformations.
+  confidence: high
+  limitations: The chapter does not name the inventor of Wolfsbane Potion or any formal Hogwarts policy for medical accommodations.
+- id: poa-ch18-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 870
+  printed_page: not available
+  extracted_text_lines: PDF page 870, lines 15-26
+  text_anchor:
+    start_phrase: But then Dumbledore became headmaster
+    end_phrase: while I was dangerous
+    local_occurrence_note: Lupin explains Dumbledore's school-admission decision and the built accommodation route.
+  nearby_context: Lupin says Dumbledore became headmaster, admitted him with precautions, had the Whomping Willow planted because Lupin came to Hogwarts, and used the tunnel and Shrieking Shack to remove him from the castle for monthly transformations.
+  match_terms:
+  - Dumbledore
+  - headmaster
+  - precautions
+  - Whomping Willow
+  - tunnel
+  - castle
+  - transform
+  quote_excerpt_short: "it was planted because I came to Hogwarts"
+  source_note: The chapter reveals that the Whomping Willow, the tunnel, and the Shrieking Shack route were arranged as a specific accommodation for Lupin's student attendance.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - remus-lupin
+  - dumbledore
+  - whomping-willow
+  - shrieking-shack
+  - secret-passages
+  - student-accommodation
+  - werewolves
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Whomping Willow Tunnel
+  reason_for_placement: The passage supplies the origin and purpose of a concealed Hogwarts-adjacent route and ties it to a headmaster-approved safety accommodation.
+  relevance_to_hogwarts_a_history: This is crucial later-editorial evidence for why a dangerous magical tree and concealed tunnel existed near Hogwarts, though the secrecy likely kept it out of the original in-universe book.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-001
+    notes: Book 3 Chapter Seventeen records the tunnel, root gap, and stopping knot in use; this entry explains why the Willow was planted and why the tunnel and house were built.
+  confidence: high
+  limitations: The chapter does not identify who built the tunnel or house, what approvals were required, or which staff knew the full arrangement.
+- id: poa-ch18-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 870
+  printed_page: not available
+  extracted_text_lines: PDF page 869, lines 28-34; PDF page 870, lines 30-35
+  text_anchor:
+    start_phrase: The Shrieking Shack was never haunted
+    end_phrase: the villagers don't dare approach it
+    local_occurrence_note: Lupin corrects the haunted-house belief and explains the origin of the public rumor.
+  nearby_context: Lupin says the Shrieking Shack was never haunted, that the villagers heard his monthly werewolf screams, and that Dumbledore encouraged the rumor so people would keep away even after the house fell silent.
+  match_terms:
+  - Shrieking Shack
+  - haunted
+  - screams
+  - villagers
+  - violent spirits
+  - Dumbledore
+  - rumor
+  quote_excerpt_short: "Dumbledore encouraged the rumor"
+  source_note: The chapter resolves the Shrieking Shack's haunted reputation as deliberate cover for Lupin's transformations rather than genuine ghost activity.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - shrieking-shack
+  - haunted-reputation
+  - dumbledore
+  - werewolves
+  - hogsmeade
+  - public-cover-story
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Ghosts and Haunted Places
+  candidate_section: The Shrieking Shack Reputation
+  reason_for_placement: The passage directly explains how a false haunted-site reputation formed and why it persisted around a Hogwarts-linked location.
+  relevance_to_hogwarts_a_history: This belongs in later editorial notes that correct Hogwarts-adjacent folklore and distinguish actual ghost lore from institutional concealment.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-002
+    notes: Book 3 Chapter Seventeen records physical evidence that ghosts did not damage the Shack; this entry identifies Lupin's transformations and Dumbledore's encouraged rumor as the source of the reputation.
+  confidence: high
+  limitations: Lupin's account is firsthand but the chapter does not provide village records, staff records, or independent Hogsmeade testimony about the rumor's spread.
+- id: poa-ch18-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 871
+  printed_page: not available
+  extracted_text_lines: PDF page 871, lines 10-27; PDF page 872, lines 15-20
+  text_anchor:
+    start_phrase: they did something for me
+    end_phrase: plan our next month's adventure
+    local_occurrence_note: Lupin explains why his friends became Animagi, how they reached him, and later admits the rule-breaking.
+  nearby_context: Lupin says James, Sirius, and Peter took nearly three years to become Animagi, succeeded in their fifth year, used James's Invisibility Cloak to leave the castle monthly, used Peter's small form to freeze the Willow, and later planned repeated adventures despite Dumbledore's safety rules.
+  match_terms:
+  - Animagi
+  - fifth year
+  - Invisibility Cloak
+  - Whomping Willow
+  - knot
+  - rules
+  - Dumbledore
+  quote_excerpt_short: "Finally, in our fifth year, they managed it"
+  source_note: The chapter gives the Hogwarts-era timeline and method for the three Marauders becoming illegal Animagi and using that ability to accompany Lupin through the Willow route.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - marauders
+  - animagi
+  - james-potter
+  - sirius-black
+  - peter-pettigrew
+  - invisibility-cloak
+  - rule-breaking
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Marauders-Era Context and Hidden Identities
+  candidate_section: Illegal Animagi and Monthly Transformations
+  reason_for_placement: The passage explains the older student history behind the Harry-era Animagus revelations and the recurring use of the Willow tunnel.
+  relevance_to_hogwarts_a_history: This is valuable later editorial context for hidden student magic, school-rule breaches, and the origins of secret route knowledge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-005
+    notes: Book 3 Chapter Seventeen reveals Black and Pettigrew as Animagi; this entry adds the three-year learning period, fifth-year success, monthly use of the Cloak and Willow knot, and Lupin's rule-breaking admission.
+  confidence: high
+  limitations: The chapter does not state exactly how the students learned the transformation or whether any staff ever discovered the illegal Animagi before later events.
+- id: poa-ch18-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 872
+  printed_page: not available
+  extracted_text_lines: PDF page 872, lines 2-8
+  text_anchor:
+    start_phrase: Soon we were leaving the Shrieking Shack
+    end_phrase: James was Prongs
+    local_occurrence_note: Lupin links night roaming, grounds knowledge, map creation, and each nickname.
+  nearby_context: Lupin says the transformed students roamed the school grounds and Hogsmeade by night, learned exceptional detail about the grounds and village, wrote the Marauder's Map from that knowledge, and signed it as Moony, Padfoot, Wormtail, and Prongs.
+  match_terms:
+  - Shrieking Shack
+  - school grounds
+  - Hogsmeade
+  - Marauder's Map
+  - Moony
+  - Padfoot
+  - Wormtail
+  - Prongs
+  quote_excerpt_short: "how we came to write the Marauder's Map"
+  source_note: The chapter explains the Marauder's Map as the product of repeated illicit exploration of the Hogwarts grounds and Hogsmeade, and identifies the nicknames behind its signatures.
+  reference_type: magical_architecture
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - marauders-map
+  - moony
+  - padfoot
+  - wormtail
+  - prongs
+  - hogwarts-grounds
+  - hogsmeade
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map
+  reason_for_placement: The passage directly states the experiential origin of the map and connects its creators' nicknames to route knowledge beyond ordinary student access.
+  relevance_to_hogwarts_a_history: This supports a later editorial chapter on unofficial student mapping, hidden-route knowledge, and the relationship between Hogwarts geography and Hogsmeade.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-004
+    notes: Book 3 Chapter Seventeen identifies Lupin as a mapmaker and confirms live tracking; this entry explains the map's origin in nocturnal grounds and Hogsmeade exploration and maps the nicknames to Sirius, Peter, and James.
+  confidence: high
+  limitations: The chapter still does not explain the spellwork that lets the map identify people, update movement, or resist unauthorized readers.
+- id: poa-ch18-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+  chapter_start_pdf_page: 867
+  chapter_end_pdf_page: 873
+  pdf_page: 873
+  printed_page: not available
+  extracted_text_lines: PDF page 873, lines 5-26
+  text_anchor:
+    start_phrase: Professor Snape was at school with us
+    end_phrase: from that time on he knew what I was
+    local_occurrence_note: Lupin explains Snape's student-era discovery, Sirius's near-fatal trick, James's rescue, and Dumbledore's silence order.
+  nearby_context: Lupin says Snape was in their year, opposed Lupin's later appointment, saw Madam Pomfrey escort Lupin toward the Willow, was told by Sirius how to use the knot, was pulled back by James before reaching the Shack, glimpsed Lupin as a werewolf, and was forbidden by Dumbledore to tell anyone.
+  match_terms:
+  - Professor Snape
+  - Madam Pomfrey
+  - Whomping Willow
+  - knot
+  - James Potter
+  - Dumbledore
+  - forbidden
+  quote_excerpt_short: "He was forbidden by Dumbledore to tell anybody"
+  source_note: The chapter records a student-era breach of Lupin's secret accommodation and a headmaster-imposed confidentiality order after Snape nearly reached the transformed werewolf.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - severus-snape
+  - remus-lupin
+  - madam-pomfrey
+  - james-potter
+  - dumbledore
+  - whomping-willow
+  - confidentiality
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Staff Appointments and School Safety
+  candidate_section: Confidentiality and Near-Miss Safety Incidents
+  reason_for_placement: The passage exposes the safety and confidentiality problems created by the hidden accommodation and later explains staff distrust during Lupin's appointment.
+  relevance_to_hogwarts_a_history: This later editorial evidence helps explain how a secret school safety arrangement generated long-term staff conflict and disclosure limits.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-003
+    notes: Book 3 Chapter Seventeen records staff knowledge and Dumbledore's hiring trust; this entry adds Snape's student-era discovery, Madam Pomfrey's escort role, James's rescue, and Dumbledore's order not to disclose Lupin's condition.
+  confidence: high
+  limitations: The chapter does not state whether Sirius was disciplined, whether the incident entered school records, or the legal basis for Dumbledore's silence order.

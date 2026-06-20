@@ -1,0 +1,314 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  boundary_confidence: high
+  boundary_notes: Chapter Six start was taken from the known Chapter Five/Six boundary and confirmed on PDF page 85. Chapter Seven - The Sorting Hat was already known and confirmed on PDF page 107. Only PDF pages 85-106 were extracted and searched for Chapter Six entries.
+  processed_date: '2026-06-12'
+  processor_notes: "Processed only Book 1, Chapter Six. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ps-ch06-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 89
+  printed_page: not available
+  extracted_text_lines: PDF page 86, lines 13-21; PDF page 88, lines 17-26; PDF page 89, lines 11-30
+  text_anchor:
+    start_phrase: I just take the train
+    end_phrase: Platform Nine and Three-Quarters
+    local_occurrence_note: Harry uses his ticket and Molly Weasley's instructions to reach the hidden Hogwarts Express platform.
+  nearby_context: Harry's ticket directs him to platform nine and three-quarters at eleven o'clock; Molly Weasley explains the barrier access between platforms nine and ten; Harry enters and sees the Hogwarts Express waiting.
+  match_terms:
+  - platform nine and three-quarters
+  - Hogwarts Express
+  - eleven o'clock
+  - King's Cross
+  - barrier
+  - wrought-iron archway
+  quote_excerpt_short: "walk straight at the barrier between platforms nine and ten"
+  source_note: The chapter identifies the hidden King's Cross barrier route to platform nine and three-quarters and the eleven o'clock Hogwarts Express as the standard departure point for students.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-express
+  - platform-nine-and-three-quarters
+  - kings-cross
+  - school-travel
+  - muggle-secrecy
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Platform Nine and Three-Quarters
+  reason_for_placement: The passage documents the hidden access point and train departure that structure student travel to Hogwarts.
+  relevance_to_hogwarts_a_history: This is strong supporting evidence for a future section on Hogwarts travel, magical concealment, and school-year departure logistics.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Seventeen records the end-of-year return through the platform; this entry records the first outbound access procedure and departure.
+  confidence: high
+  limitations: The passage confirms Harry-era practice but does not state when the platform or train route began.
+- id: ps-ch06-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 91
+  printed_page: not available
+  extracted_text_lines: PDF page 91, lines 20-30; PDF page 92, lines 3-8
+  text_anchor:
+    start_phrase: Where's Percy?
+    end_phrase: send me an owl when you get there
+    local_occurrence_note: Weasley family platform farewell just before the Hogwarts Express leaves.
+  nearby_context: Percy has changed into Hogwarts robes, wears a red-and-gold prefect badge, says prefects have two front compartments to themselves, and Molly tells him to send an owl when he arrives.
+  match_terms:
+  - prefect
+  - badge
+  - Hogwarts robes
+  - compartments
+  - owl
+  - term
+  quote_excerpt_short: "prefects have got two compartments to themselves"
+  source_note: The platform scene shows a prefect badge, travel compartments reserved for prefects, and family expectation of owl confirmation after arrival.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - prefects
+  - hogwarts-express
+  - student-governance
+  - owl-post
+  - robes
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Prefects and Student Authority
+  candidate_section: Prefects on the Hogwarts Express
+  reason_for_placement: The passage gives concrete evidence for prefect status markers and a travel arrangement that separates prefects from ordinary student compartments.
+  relevance_to_hogwarts_a_history: This supports future governance coverage of prefect roles, insignia, and possible travel responsibilities.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier entries mention prefect authority in corridors; this entry adds train-specific compartments and visible badge evidence.
+  confidence: high
+  limitations: The passage does not define prefect duties on the train or whether the compartments are tied to supervision, meetings, or custom.
+- id: ps-ch06-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 97
+  printed_page: not available
+  extracted_text_lines: PDF page 97, lines 7-36; PDF page 98, lines 1-16
+  text_anchor:
+    start_phrase: Chocolate Frogs have cards inside them
+    end_phrase: Professor Dumbledore enjoys chamber music and tenpin bowling
+    local_occurrence_note: Harry's first Chocolate Frog card reading during the train journey.
+  nearby_context: Ron explains collectible Famous Witches and Wizards cards; Harry reads Dumbledore's card, which names him current Headmaster of Hogwarts and summarizes his 1945 Grindelwald defeat, dragon's-blood discovery, and alchemical work with Nicolas Flamel.
+  match_terms:
+  - Chocolate Frogs
+  - Famous Witches and Wizards
+  - Albus Dumbledore
+  - Headmaster of Hogwarts
+  - Grindelwald
+  - dragon's blood
+  - Nicolas Flamel
+  quote_excerpt_short: "CURRENTLY HEADMASTER OF HOGWARTS"
+  source_note: The Chocolate Frog card functions as an in-universe biographical source for Dumbledore's Hogwarts office and several pre-Harry historical achievements.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - dumbledore
+  - headmaster
+  - famous-wizard-card
+  - grindelwald
+  - nicolas-flamel
+  - in-universe-source
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: Dumbledore and the First Wizarding War
+  candidate_section: Biographical Sources and Public Reputation
+  reason_for_placement: The card gives an in-universe summary of Dumbledore's public reputation and historical achievements relevant to later Hogwarts leadership context.
+  relevance_to_hogwarts_a_history: This supports a later editorial note on Dumbledore as Headmaster and notable wizard, while also illustrating non-book sources students use for wizarding history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch13-001
+    notes: Chapter Thirteen uses the same Dumbledore Famous Wizard card to identify Nicolas Flamel; this entry records the card's first reading and full Dumbledore biographical value.
+  confidence: high
+  limitations: The card is a popular collectible rather than a Hogwarts-authored source, and "currently" reflects Harry's era.
+- id: ps-ch06-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 100
+  printed_page: not available
+  extracted_text_lines: PDF page 100, lines 7-16 and 19-33
+  text_anchor:
+    start_phrase: I've tried a few simple spells
+    end_phrase: Great Wizarding Events of the Twentieth Century
+    local_occurrence_note: Hermione introduces herself while helping Neville search the train for Trevor.
+  nearby_context: Hermione says she has practiced simple spells, learned her course books by heart, and bought extra background-reading books that include Harry in their historical coverage.
+  match_terms:
+  - simple spells
+  - course books
+  - background reading
+  - Modern Magical History
+  - The Rise and Fall of the Dark Arts
+  - Great Wizarding Events of the Twentieth Century
+  quote_excerpt_short: "learned all our course books by heart"
+  source_note: Hermione's introduction documents pre-arrival study from required course books and extra named history or Dark Arts books.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - course-books
+  - background-reading
+  - hermione
+  - named-sources
+  - student-preparation
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Student Use of Books Before Arrival
+  candidate_section: Course Books and Background Reading
+  reason_for_placement: The passage shows how a new student prepares academically before arrival and names additional wizarding-history sources.
+  relevance_to_hogwarts_a_history: This supports future coverage of required books, student scholarship, and the broader ecosystem of in-universe historical sources.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Five records the required course-book list; this entry records actual pre-arrival study and extra named books.
+  confidence: high
+  limitations: Hermione's study habits are individual and should not be generalized to all first-years.
+- id: ps-ch06-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 101
+  printed_page: not available
+  extracted_text_lines: PDF page 100, lines 30-33; PDF page 101, lines 1-12
+  text_anchor:
+    start_phrase: Do either of you know what House you'll be in?
+    end_phrase: That's the House You-Know-Who was in?
+    local_occurrence_note: Train-compartment discussion immediately after Hermione introduces herself.
+  nearby_context: Hermione asks about House placement, says she has been asking around, hopes for Gryffindor, has heard Dumbledore was in Gryffindor, and Ron describes his family House expectations and dread of Slytherin.
+  match_terms:
+  - House
+  - Gryffindor
+  - Ravenclaw
+  - Slytherin
+  - Dumbledore
+  - You-Know-Who
+  - brothers
+  quote_excerpt_short: "Do either of you know what House you'll be in?"
+  source_note: The train conversation shows incoming students discussing uncertain House placement, family House continuity, and public reputations of Gryffindor, Ravenclaw, and Slytherin before the Sorting.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - house-system
+  - gryffindor
+  - ravenclaw
+  - slytherin
+  - sorting-expectations
+  - dumbledore
+  candidate_part: The Four Houses
+  candidate_chapter: House Identity and Reputation
+  candidate_section: Pre-Sorting Rumors and Family Expectations
+  reason_for_placement: The passage expands pre-arrival House evidence by showing peer rumors, family identity, and expectations immediately before the official Sorting.
+  relevance_to_hogwarts_a_history: This supports a future House-system section on how students understand Houses before assignment and how reputations circulate.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch05-006
+    notes: Chapter Five seeded Hagrid's informal explanation of the four Houses and Slytherin reputation; this entry adds student rumors, family House continuity, and Dumbledore's reported Gryffindor association.
+  confidence: medium
+  limitations: The claims are student conversation and rumor rather than official school explanation.
+- id: ps-ch06-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 104
+  printed_page: not available
+  extracted_text_lines: PDF page 104, lines 3-18 and 22-29
+  text_anchor:
+    start_phrase: conductor, and he says we're nearly there
+    end_phrase: Firs' years follow me
+    local_occurrence_note: End of train journey as students change into robes and leave the train platform.
+  nearby_context: Hermione reports the conductor says they are nearly there; students put on black robes; an announcement says luggage will be taken separately; Hagrid gathers first-years on the small dark platform.
+  match_terms:
+  - conductor
+  - robes
+  - luggage
+  - school separately
+  - first years
+  - Hagrid
+  - platform
+  quote_excerpt_short: "luggage on the train, it will be taken to the school separately"
+  source_note: The arrival sequence shows students changing into robes before arrival, luggage transfer handled separately, and Hagrid organizing first-years off the train.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-express
+  - arrival-logistics
+  - first-years
+  - robes
+  - luggage
+  - hagrid
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Arrival at Hogsmeade and First-Year Gathering
+  reason_for_placement: The passage documents the transition from train journey to school arrival and separates first-year handling from general student movement.
+  relevance_to_hogwarts_a_history: This supports school-travel and arrival-procedure coverage, including student dress expectations and luggage handling.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Seven begins after Hagrid has brought the first-years to the door; this entry records the train-to-ground transfer before that point.
+  confidence: high
+  limitations: The passage does not identify who transports the luggage or whether the same process applies in every year.
+- id: ps-ch06-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Six - The Journey from Platform Nine and Three-Quarters
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 106
+  pdf_page: 105
+  printed_page: not available
+  extracted_text_lines: PDF page 105, lines 4-30; PDF page 106, lines 1-2
+  text_anchor:
+    start_phrase: Yeh'll get yer firs' sight o' Hogwarts
+    end_phrase: knocked three times on the castle door
+    local_occurrence_note: First-years' first approach to Hogwarts after leaving the train platform.
+  nearby_context: Hagrid leads first-years to a great black lake, where they first see the castle on a mountain; students cross in boats, pass through an ivy-hidden opening into a tunnel and underground harbor, climb through rock, and reach the oak front door.
+  match_terms:
+  - first sight of Hogwarts
+  - lake
+  - castle
+  - four to a boat
+  - underground harbor
+  - stone steps
+  - oak front door
+  quote_excerpt_short: "No more'n four to a boat"
+  source_note: The first-year approach uses a lake crossing by small boats, reveals the castle from across the water, and brings students through an underground harbor beneath the castle.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - first-year-arrival
+  - lake
+  - boats
+  - castle
+  - underground-harbor
+  - hagrid
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: First-Year Lake Crossing
+  reason_for_placement: The passage provides detailed evidence for the ceremonial route by which first-years arrive at the castle before the Sorting.
+  relevance_to_hogwarts_a_history: This is a major seed for arrival tradition, castle geography, and the lake's role in first-year initiation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Chapter Seventeen records an end-of-year lake crossing in the opposite direction; this entry records the first-year arrival route and underground harbor.
+  confidence: high
+  limitations: The passage does not state the origin or age of the boat tradition.

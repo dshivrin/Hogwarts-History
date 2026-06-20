@@ -1,0 +1,312 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  boundary_confidence: high
+  boundary_notes: Chapter Fifteen range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 2 Chapter Fourteen boundary. Book 2 Chapter Fifteen starts on PDF page 502 and Chapter Sixteen starts on PDF page 517, so only PDF pages 502-516 were extracted and searched.
+  processed_date: '2026-06-17'
+  processor_notes: "Processed only Book 2, Chapter Fifteen. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: cos-ch15-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 502
+  printed_page: not available
+  extracted_text_lines: PDF page 502, lines 6-16
+  text_anchor:
+    start_phrase: Harry and Ron had tried to visit Hermione
+    end_phrase: might come back to finish these people off
+    local_occurrence_note: Opening hospital-wing access scene after Dumbledore and Hagrid leave Hogwarts.
+  nearby_context: Madam Pomfrey bars Harry and Ron from visiting Hermione in the hospital wing because the attacker may return to finish off the petrified victims.
+  match_terms:
+  - hospital wing
+  - visitors barred
+  - Madam Pomfrey
+  - attacker
+  - petrified victims
+  quote_excerpt_short: "visitors were now barred"
+  source_note: The chapter shows hospital wing visitor restrictions tightening during the Chamber crisis, with Madam Pomfrey treating the ward as a possible target for a returning attacker.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - hospital-wing
+  - madam-pomfrey
+  - visitor-control
+  - chamber-crisis
+  - student-safety
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Health and the Hospital Wing
+  candidate_section: Crisis Visitor Restrictions
+  reason_for_placement: The passage adds a crisis-security reason for hospital wing access control beyond ordinary rest and privacy concerns.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of Hogwarts medical authority and the hospital wing's security role during internal threats.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch10-005
+    notes: Chapter Ten records Madam Pomfrey removing visitors so Harry can rest after Skele-Gro; this entry adds a stricter crisis-era ban because the attacker might return.
+  confidence: high
+  limitations: This restriction is explicitly crisis-specific and should not be treated as ordinary hospital wing visiting policy.
+- id: cos-ch15-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 503
+  printed_page: not available
+  extracted_text_lines: PDF page 503, lines 6-16; PDF page 506, lines 25-31
+  text_anchor:
+    start_phrase: weren't allowed to wander off on their own
+    end_phrase: from six o'clock onward the Gryffindors had nowhere else to go
+    local_occurrence_note: Lockdown continuation before and after the Herbology and Defense Against the Dark Arts classes.
+  nearby_context: Students must move around the castle in House groups under teacher escort, and Gryffindors are confined to their common room from six o'clock onward.
+  match_terms:
+  - teacher escort
+  - castle
+  - Gryffindors
+  - class to class
+  - common room
+  - six o'clock
+  quote_excerpt_short: "shepherded from class to class by teachers"
+  source_note: The chapter continues the Chamber-crisis lockdown by showing teacher-supervised movement and evening common-room confinement.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - chamber-crisis
+  - teacher-escorts
+  - common-room-confinement
+  - gryffindor
+  - student-movement
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Lockdown Movement Rules
+  reason_for_placement: The passage gives observed enforcement details for the lockdown rules announced in the previous chapter.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how Hogwarts uses House structure, teachers, and common rooms to control students during a deadly crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch14-004
+    notes: Chapter Fourteen announces teacher escorts, bathroom accompaniment, canceled activities, and possible closure; this entry corroborates actual movement in groups and evening common-room confinement.
+  confidence: high
+  limitations: The rule is temporary emergency practice and does not establish an ordinary curfew or standing escort policy.
+- id: cos-ch15-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 505
+  printed_page: not available
+  extracted_text_lines: PDF page 505, lines 15-31; PDF page 506, lines 1-2
+  text_anchor:
+    start_phrase: Looks like they're heading for the Forbidden Forest
+    end_phrase: The centaurs are all right, and the unicorns
+    local_occurrence_note: Harry and Ron discuss following spiders into the Forbidden Forest after Herbology.
+  nearby_context: Ron associates the Forbidden Forest with rumored werewolves, while Harry counters that centaurs and unicorns are also present there.
+  match_terms:
+  - Forbidden Forest
+  - werewolves
+  - centaurs
+  - unicorns
+  - Fang
+  - Hagrid
+  quote_excerpt_short: "centaurs are all right, and the unicorns"
+  source_note: The chapter summarizes student-level creature lore about the Forbidden Forest, including feared werewolves and known centaurs and unicorns.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - forbidden-forest
+  - werewolves
+  - centaurs
+  - unicorns
+  - magical-residents
+  - student-lore
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: Forbidden Forest Creature Lore
+  reason_for_placement: The passage confirms that students understand the forest as inhabited by multiple dangerous and nonhuman magical beings.
+  relevance_to_hogwarts_a_history: This supports a future section distinguishing confirmed forest residents from student rumor and creature-specific lore.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch15-006
+    notes: Chapter Fifteen of Book 1 establishes centaurs as forest residents; this entry corroborates centaurs and unicorns while adding werewolf rumor as student-level caution.
+  confidence: medium
+  limitations: The werewolf point is phrased as Ron's uncertain question and should be treated as rumor until corroborated elsewhere.
+- id: cos-ch15-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 508
+  printed_page: not available
+  extracted_text_lines: PDF page 508, lines 5-31; PDF page 509, lines 1-2
+  text_anchor:
+    start_phrase: they followed the steady trickle of spiders moving along the path
+    end_phrase: Hagrid advising him not to leave the forest path
+    local_occurrence_note: Harry and Ron follow spiders into the forest, then leave the path despite Harry remembering Hagrid's earlier warning.
+  nearby_context: The forest route begins on a path, grows darker and denser after about twenty minutes, and then leads off-path despite Hagrid's prior advice not to leave the forest path.
+  match_terms:
+  - Forbidden Forest
+  - path
+  - Hagrid
+  - spiders
+  - wandlight
+  - off path
+  quote_excerpt_short: "not to leave the forest path"
+  source_note: The chapter gives additional forest geography by showing a path into the forest, deepening tree cover, and an explicit warning against leaving the path.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - forbidden-forest
+  - forest-path
+  - hagrid
+  - grounds
+  - student-safety
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: The Grounds and Edge of the Forest
+  candidate_section: Forbidden Forest Paths and Warnings
+  reason_for_placement: The passage adds concrete path and safety-warning evidence to the emerging map of the forest edge and interior.
+  relevance_to_hogwarts_a_history: This supports future treatment of the Forbidden Forest as a managed but hazardous part of the Hogwarts grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch15-005
+    notes: Chapter Fifteen of Book 1 records Hagrid-supervised forest paths during detention; this entry adds an unsupervised deeper route and repeats Hagrid's warning not to leave the path.
+  confidence: high
+  limitations: The route follows spiders at night and may not represent an ordinary mapped route used by staff or students.
+- id: cos-ch15-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 511
+  printed_page: not available
+  extracted_text_lines: PDF page 511, lines 1-31; PDF page 512, lines 1-6
+  text_anchor:
+    start_phrase: they had reached the ridge of a vast hollow
+    end_phrase: Hagrid has never sent men into our hollow before
+    local_occurrence_note: Arrival at the spider hollow and first exchange with Aragog.
+  nearby_context: Harry and Ron are carried to a tree-cleared hollow filled with giant spiders and Aragog's domed web, where Aragog recognizes Hagrid as someone who knows the colony.
+  match_terms:
+  - Aragog
+  - hollow
+  - giant spiders
+  - domed web
+  - Hagrid
+  - Forbidden Forest
+  quote_excerpt_short: "a vast hollow"
+  source_note: The chapter establishes a giant-spider colony in a hollow deep inside the Forbidden Forest, centered on Aragog and connected socially to Hagrid.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - forbidden-forest
+  - aragog
+  - acromantula-colony
+  - magical-residents
+  - hagrid
+  - forest-hollow
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: Aragog's Colony in the Forbidden Forest
+  reason_for_placement: The passage adds a major nonhuman resident community to the forest evidence.
+  relevance_to_hogwarts_a_history: This supports later editorial coverage of dangerous magical inhabitants of the grounds and the limits of ordinary school control over the forest.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior forest entries establish centaurs, unicorns, and paths, but not Aragog's giant-spider colony.
+  confidence: high
+  limitations: The species name Acromantula is not stated in this chapter; classification should be cross-checked against later sources.
+- id: cos-ch15-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 512
+  printed_page: not available
+  extracted_text_lines: PDF page 512, lines 10-31; PDF page 513, lines 1-6
+  text_anchor:
+    start_phrase: I was not born in the castle
+    end_phrase: you see how our family has grown
+    local_occurrence_note: Aragog recounts his origin, Hagrid's care for him, and his relocation to the forest.
+  nearby_context: Aragog says he came from a distant land as an egg given to Hagrid, was hidden in a castle cupboard, was blamed for a girl's death, and has lived in the forest since Hagrid protected him and found him Mosag.
+  match_terms:
+  - Hagrid
+  - castle cupboard
+  - distant land
+  - egg
+  - blamed
+  - Mosag
+  - forest
+  quote_excerpt_short: "hidden in a cupboard in the castle"
+  source_note: Aragog gives a first-person account of Hagrid secretly raising him at school, being discovered and blamed after a death, and later establishing a forest family with Mosag.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - hagrid
+  - aragog
+  - expulsion
+  - chamber-of-secrets
+  - forbidden-forest
+  - mosag
+  - pre-harry-history
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: The First Known Chamber Opening
+  candidate_section: Hagrid, Aragog, and the False Culprit
+  reason_for_placement: The passage directly concerns the earlier Chamber-opening case and Hagrid's student-era expulsion context.
+  relevance_to_hogwarts_a_history: This is important pre-Harry evidence for the Chamber case, Hagrid's disciplinary history, and the origin of a dangerous forest colony.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch13-005
+    notes: Chapter Thirteen gives Riddle's accusation and Hagrid-as-culprit narrative; this entry adds Aragog's corrective account, his non-castle origin, and Hagrid's protection after discovery.
+  confidence: high
+  limitations: Aragog is a participant and beneficiary of Hagrid's protection, so his testimony should still be cross-checked against school records and later corroboration.
+- id: cos-ch15-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Chamber of Secrets
+  chapter: Chapter Fifteen - Aragog
+  chapter_start_pdf_page: 502
+  chapter_end_pdf_page: 516
+  pdf_page: 513
+  printed_page: not available
+  extracted_text_lines: PDF page 513, lines 7-31; PDF page 516, lines 1-15
+  text_anchor:
+    start_phrase: The body of the girl who was killed was discovered in a bathroom
+    end_phrase: You don't think - not Moaning Myrtle?
+    local_occurrence_note: Aragog's account of the killed girl and unnamed castle creature, followed by Harry's dormitory realization.
+  nearby_context: Aragog says the killed girl was found in a bathroom, that an ancient castle creature feared by spiders was moving through the school, and Harry later connects the bathroom clue to Moaning Myrtle.
+  match_terms:
+  - killed girl
+  - bathroom
+  - castle
+  - ancient creature
+  - spiders fear
+  - Chamber of Secrets
+  - Moaning Myrtle
+  quote_excerpt_short: "an ancient creature we spiders fear"
+  source_note: Aragog corrects the prior Chamber-opening account by identifying a bathroom death, denying that he was the monster, and describing the real castle creature as ancient and feared by spiders.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chamber-of-secrets
+  - first-opening
+  - bathroom
+  - moaning-myrtle
+  - ancient-creature
+  - hagrid-innocence
+  candidate_part: Protective Magic and Security
+  candidate_chapter: The Chamber of Secrets Crisis
+  candidate_section: Aragog's Corrective Testimony
+  reason_for_placement: The passage materially revises earlier accounts of the first Chamber opening and provides the next investigative clue.
+  relevance_to_hogwarts_a_history: This is key later-editorial evidence for separating legend, false accusation, and confirmed historical clues around the Chamber of Secrets.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch13-005
+    notes: Chapter Thirteen records Riddle's unreliable account of the first Chamber opening; this entry corroborates the death and expulsion frame while correcting the culprit and adding the bathroom/Myrtle clue.
+  confidence: high
+  limitations: Aragog refuses to name the creature, so the entry should remain unresolved until the source text identifies it directly.

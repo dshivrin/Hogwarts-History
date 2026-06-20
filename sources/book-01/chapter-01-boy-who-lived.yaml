@@ -1,0 +1,225 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter One - The Boy Who Lived
+  chapter_start_pdf_page: 12
+  chapter_end_pdf_page: 25
+  boundary_confidence: high
+  boundary_notes: Chapter One was located by extracting a bounded early-book window, PDF pages 1-60, using the known Chapter Seven anchor on PDF page 107 and the Book One contents pages as orientation rather than scanning the full collection. Chapter One starts on PDF page 12; Chapter Two - The Vanishing Glass starts on PDF page 26. Only pages 12-25 were searched for entries.
+  processed_date: '2026-06-12'
+  processor_notes: "Processed only Book 1, Chapter One. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ps-ch01-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter One - The Boy Who Lived
+  chapter_start_pdf_page: 12
+  chapter_end_pdf_page: 25
+  pdf_page: 19
+  printed_page: not available
+  extracted_text_lines: PDF page 19, lines 4-18
+  text_anchor:
+    start_phrase: When you could have been celebrating?
+    end_phrase: swapping rumors
+    local_occurrence_note: Dumbledore and McGonagall discuss public wizarding celebrations after the Muggle news report.
+  nearby_context: McGonagall criticizes the magical community for celebrating openly, citing Muggle news reports of owls and shooting stars, while Dumbledore says they have had little to celebrate for eleven years.
+  match_terms:
+  - Muggles
+  - owls
+  - shooting stars
+  - Muggle clothes
+  - rumors
+  - celebrations
+  quote_excerpt_short: "not even dressed in Muggle clothes"
+  source_note: McGonagall says the magical community has been careless enough for Muggles to notice unusual events after Voldemort's apparent disappearance.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - muggle-secrecy
+  - wizarding-celebrations
+  - voldemort-fall
+  - professor-mcgonagall
+  - albus-dumbledore
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Wizarding War and Hogwarts Memory
+  candidate_section: Secrecy Strains After Voldemort's Fall
+  reason_for_placement: The passage is not Hogwarts-specific, but it frames a major pre-Harry event involving future Hogwarts staff and later institutional memory.
+  relevance_to_hogwarts_a_history: This can support editorial context about the public magical aftermath that shaped the world Harry later entered at Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed records the open magical celebrations and Muggle-noticed secrecy strain after Voldemort's fall.
+  confidence: medium
+  limitations: The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
+- id: ps-ch01-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter One - The Boy Who Lived
+  chapter_start_pdf_page: 12
+  chapter_end_pdf_page: 25
+  pdf_page: 20
+  printed_page: not available
+  extracted_text_lines: PDF page 20, lines 1-21
+  text_anchor:
+    start_phrase: surely a sensible person like yourself
+    end_phrase: she liked my new earmuffs
+    local_occurrence_note: Dumbledore and McGonagall discuss Voldemort's name and Dumbledore's reputation before the Godric's Hollow rumors.
+  nearby_context: Dumbledore urges McGonagall to use Voldemort's name; McGonagall says everyone knows Voldemort feared Dumbledore, while Dumbledore says Voldemort had powers he will never have.
+  match_terms:
+  - Voldemort
+  - You-Know-Who
+  - Dumbledore
+  - Professor McGonagall
+  - powers
+  - Madam Pomfrey
+  quote_excerpt_short: "the only one You-Know- oh, all right, Voldemort, was frightened of"
+  source_note: McGonagall identifies Dumbledore as uniquely feared by Voldemort, while Dumbledore distinguishes his own power from Voldemort's.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - albus-dumbledore
+  - voldemort
+  - professor-mcgonagall
+  - wizarding-war
+  - staff-history
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: Dumbledore and the First Wizarding War
+  candidate_section: Reputation, Power, and Voldemort
+  reason_for_placement: The claim gives historical context for Dumbledore's standing before Harry's school years and may matter in later coverage of Hogwarts leadership.
+  relevance_to_hogwarts_a_history: This is supporting evidence for a later editorial note on Dumbledore's pre-Harry reputation, not a direct Hogwarts institutional fact.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed focuses on Dumbledore's First Wizarding War reputation or Voldemort's fear of him.
+  confidence: medium
+  limitations: The chapter does not identify Dumbledore's Hogwarts office or connect this reputation to school governance.
+- id: ps-ch01-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter One - The Boy Who Lived
+  chapter_start_pdf_page: 12
+  chapter_end_pdf_page: 25
+  pdf_page: 20
+  printed_page: not available
+  extracted_text_lines: PDF page 20, lines 22-42; PDF page 21, lines 1-16
+  text_anchor:
+    start_phrase: The owls are nothing next to the rumors
+    end_phrase: We may never know
+    local_occurrence_note: McGonagall states the rumors about Godric's Hollow and Dumbledore confirms the essentials.
+  nearby_context: McGonagall reports that Voldemort went to Godric's Hollow, Lily and James Potter were killed, Harry survived, and Voldemort's power broke; Dumbledore confirms enough to treat the reports as true, but says Harry's survival remains unknown.
+  match_terms:
+  - Godric's Hollow
+  - Lily and James Potter
+  - Harry Potter
+  - Voldemort
+  - Dumbledore
+  - Professor McGonagall
+  quote_excerpt_short: "when he couldn't kill Harry Potter, Voldemort's power somehow broke"
+  source_note: McGonagall summarizes the Godric's Hollow attack and Harry's survival; Dumbledore confirms the event while withholding an explanation for how Harry survived.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - godrics-hollow
+  - harry-potter
+  - lily-potter
+  - james-potter
+  - voldemort-fall
+  - albus-dumbledore
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: The Fall of Voldemort
+  candidate_section: Godric's Hollow and the Boy Who Lived
+  reason_for_placement: The 1981 attack is a major pre-Harry historical event that later determines Harry's status and the school community's knowledge of him.
+  relevance_to_hogwarts_a_history: This supports later editorial context for why Harry arrived at Hogwarts already famous and why staff treated his background as historically significant.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed records the Godric's Hollow event or Harry's survival as pre-Hogwarts historical context.
+  confidence: high
+  limitations: The passage reports rumor confirmed by Dumbledore but does not explain the protective magic or provide a Hogwarts-specific source.
+- id: ps-ch01-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter One - The Boy Who Lived
+  chapter_start_pdf_page: 12
+  chapter_end_pdf_page: 25
+  pdf_page: 22
+  printed_page: not available
+  extracted_text_lines: PDF page 21, lines 28-39; PDF page 22, lines 1-14
+  text_anchor:
+    start_phrase: I've come to bring Harry
+    end_phrase: until he's ready to take it
+    local_occurrence_note: Dumbledore explains placing Harry with the Dursleys and keeping him away from wizarding fame.
+  nearby_context: Dumbledore says Harry's aunt and uncle are his only remaining family and that he has written them a letter; McGonagall predicts Harry will become famous, and Dumbledore argues that growing up away from that fame is better for him.
+  match_terms:
+  - Harry
+  - aunt and uncle
+  - letter
+  - Harry Potter Day
+  - books
+  - every child
+  quote_excerpt_short: "there will be books written about Harry"
+  source_note: Dumbledore chooses Harry's Muggle relatives as guardians and explains that distance from wizarding fame is part of the decision.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - harry-potter
+  - albus-dumbledore
+  - professor-mcgonagall
+  - dursleys
+  - wizarding-fame
+  - guardianship
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Before Hogwarts
+  candidate_section: Guardianship and Public Memory
+  reason_for_placement: The passage explains the pre-Hogwarts placement decision and anticipates Harry's fame before his schooling begins.
+  relevance_to_hogwarts_a_history: This is useful later editorial context for Harry's arrival at Hogwarts, but it is not material for the original in-universe book body.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No prior seed covers Dumbledore's decision to place Harry with the Dursleys or McGonagall's prediction of future books about Harry.
+  confidence: medium
+  limitations: The chapter does not state Dumbledore's formal authority for the guardianship decision or connect the letter to Hogwarts admissions.
+- id: ps-ch01-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter One - The Boy Who Lived
+  chapter_start_pdf_page: 12
+  chapter_end_pdf_page: 25
+  pdf_page: 23
+  printed_page: not available
+  extracted_text_lines: PDF page 22, lines 19-31; PDF page 23, lines 7-25
+  text_anchor:
+    start_phrase: Hagrid's bringing him
+    end_phrase: give him here, Hagrid
+    local_occurrence_note: Hagrid arrives with infant Harry, explains the rescue, and hands him to Dumbledore.
+  nearby_context: Dumbledore says Hagrid is bringing Harry and that he trusts Hagrid with his life; Hagrid arrives on Sirius Black's motorcycle, says he rescued Harry before Muggles swarmed, and gives Harry to Dumbledore.
+  match_terms:
+  - Hagrid
+  - Professor Dumbledore
+  - Sirius Black
+  - motorcycle
+  - Muggles
+  - scar
+  quote_excerpt_short: "I would trust Hagrid with my life"
+  source_note: The chapter shows Dumbledore relying on Hagrid for a sensitive mission connected to Harry's survival and removal from Godric's Hollow.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - hagrid
+  - albus-dumbledore
+  - harry-potter
+  - godrics-hollow
+  - sirius-black
+  - staff-history
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Hogwarts Staff and Associates Before Harry's Arrival
+  candidate_section: Hagrid's Trusted Mission
+  reason_for_placement: The passage gives early evidence of Dumbledore's trust in Hagrid, later relevant to Hagrid's Hogwarts role and duties.
+  relevance_to_hogwarts_a_history: This should be used as cross-reference context for Hagrid and Dumbledore, not as proof of formal Hogwarts policy.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Later seeds cover Hagrid's school duties, hut, and security role, but no prior entry records this pre-Hogwarts rescue mission.
+  confidence: medium
+  limitations: Hagrid's Hogwarts office is not stated in this chapter, so the institutional connection depends on later sources.

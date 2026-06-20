@@ -1,0 +1,343 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  boundary_confidence: high
+  boundary_notes: Chapter Eight title was located on PDF page 123; Chapter Nine - The Midnight Duel begins on PDF page 133,
+    so only pages 123-132 were searched for entries.
+  processed_date: '2026-06-09'
+  processor_notes: 'Processed only Book 1, Chapter Eight. Text was extracted locally with pypdf into .tmp/ and searched with
+    rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry.'
+entries:
+- id: ps-ch08-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 123
+  printed_page: not available
+  extracted_text_lines: PDF page 123, lines 15-23
+  text_anchor:
+    start_phrase: There were a hundred and forty-two staircases at Hogwarts
+    end_phrase: the coats of armor could walk
+    local_occurrence_note: Early Chapter Eight navigation passage immediately after students stare at Harry outside classrooms.
+  nearby_context: During Harry's first week, the narration describes why new students struggle to find classes inside Hogwarts.
+  match_terms:
+  - Hogwarts
+  - classes
+  - staircases
+  - doors
+  - portraits
+  - coats of armor
+  quote_excerpt_short: "a hundred and forty-two staircases at Hogwarts"
+  source_note: The chapter describes Hogwarts as having 142 staircases, including staircases that lead somewhere different
+    on Fridays and one with a vanishing step, along with doors requiring polite requests or tickling and doors disguised as
+    walls. Portrait occupants visit one another, and armor may be mobile.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - castle-navigation
+  - staircases
+  - doors
+  - portraits
+  - armor
+  - magical-architecture
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Changing Staircases and Responsive Doors
+  candidate_section: Navigating the Castle
+  reason_for_placement: The passage gives concrete, recurring magical architecture details that could support a future chapter
+    on how Hogwarts interior spaces behave.
+  relevance_to_hogwarts_a_history: 'This is strong supporting material for castle architecture and enchantment sections, though
+    it is not explicitly attributed to Hogwarts: A History.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate candidate found in the existing Chapter Seven seed.
+  confidence: high
+  limitations: The source confirms Harry-era observation of castle features but does not state when the staircases, doors,
+    portraits, or armor were enchanted.
+- id: ps-ch08-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 124
+  printed_page: not available
+  extracted_text_lines: PDF page 124, lines 1-8
+  text_anchor:
+    start_phrase: The ghosts
+    end_phrase: GOT YOUR CONK
+    local_occurrence_note: Directly follows the staircases, doors, portraits, and armor passage on the next PDF page.
+  nearby_context: The chapter continues the navigation passage by describing ghosts, Nearly Headless Nick, and Peeves as factors
+    in moving around the school.
+  match_terms:
+  - ghosts
+  - Nearly Headless Nick
+  - Gryffindors
+  - Peeves
+  - Poltergeist
+  - class
+  quote_excerpt_short: "Peeves the Poltergeist was worth two locked doors"
+  source_note: Ghosts can glide through doors; Nearly Headless Nick helps new Gryffindors find their way, while Peeves disrupts
+    students with pranks and can move invisibly.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ghosts
+  - peeves
+  - nearly-headless-nick
+  - gryffindor
+  - poltergeist
+  - castle-navigation
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Resident Ghosts and Poltergeists
+  candidate_section: Wayfinding and Disruption
+  reason_for_placement: The passage gives concrete evidence that ghosts and Peeves affect daily student life and navigation
+    at Hogwarts.
+  relevance_to_hogwarts_a_history: This supports a future section on nonhuman and posthumous magical residents of Hogwarts,
+    with Peeves treated as institutional lore rather than ordinary plot movement.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate candidate found in the existing Chapter Seven seed.
+  confidence: high
+  limitations: The passage does not explain Peeves's origin, age, or formal status in Hogwarts history.
+- id: ps-ch08-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 124
+  printed_page: not available
+  extracted_text_lines: PDF page 124, lines 9-23
+  text_anchor:
+    start_phrase: Even worse than Peeves
+    end_phrase: give Mrs. Norris a good kick
+    local_occurrence_note: Filch and Mrs. Norris passage after the Peeves paragraph and before the first overview of classes.
+  nearby_context: Harry and Ron encounter Argus Filch after trying a door that leads to the out-of-bounds third-floor corridor;
+    the narration then describes Mrs. Norris and Filch's corridor patrols.
+  match_terms:
+  - out-of-bounds
+  - third floor
+  - Filch
+  - Mrs. Norris
+  - rule
+  - secret passageways
+  - ghosts
+  quote_excerpt_short: "the entrance to the out-of-bounds corridor on the third floor"
+  source_note: The chapter identifies an out-of-bounds third-floor corridor and describes Filch and Mrs. Norris as rule enforcers,
+    with Filch knowing the school's secret passageways unusually well.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-rules
+  - discipline
+  - filch
+  - mrs-norris
+  - third-floor-corridor
+  - secret-passageways
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Caretakers, Corridor Patrols, and Restricted Areas
+  candidate_section: Out-of-Bounds Corridors
+  reason_for_placement: The passage combines school discipline, restricted areas, and staff enforcement, making it relevant
+    to governance and rule systems.
+  relevance_to_hogwarts_a_history: This provides supporting evidence for Hogwarts rules and enforcement practices, while the
+    third-floor restriction itself is likely a Harry-era security context.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate candidate found in the existing Chapter Seven seed.
+  confidence: medium
+  limitations: The third-floor corridor restriction may be specific to the 1991-1992 school year and should not be treated
+    as an original-book historical feature without later support.
+- id: ps-ch08-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 124
+  printed_page: not available
+  extracted_text_lines: PDF page 124, lines 24-32; PDF page 125, lines 7-16 and 24-30; PDF page 126, lines 1-7
+  text_anchor:
+    start_phrase: there were the classes themselves
+    end_phrase: even people like Ron
+    local_occurrence_note: Curriculum survey from the end of PDF page 124 through the opening of PDF page 126.
+  nearby_context: After describing the difficulty of finding classrooms, the chapter surveys first-year lessons and teachers
+    across several subjects.
+  match_terms:
+  - classes
+  - Herbology
+  - Charms
+  - Transfiguration
+  - Defense Against the Dark Arts
+  - night skies
+  quote_excerpt_short: "There was a lot more to magic"
+  source_note: 'The chapter presents an early curriculum overview: Astronomy at midnight, Herbology in the greenhouses, Charms
+    with Flitwick, Transfiguration with McGonagall, and Defense Against the Dark Arts with Quirrell.'
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - curriculum
+  - astronomy
+  - herbology
+  - charms
+  - transfiguration
+  - defense-against-the-dark-arts
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Core Subjects and Introductory Lessons
+  reason_for_placement: The passage supplies direct evidence for the subjects first-year students encounter during their opening
+    week.
+  relevance_to_hogwarts_a_history: This supports future curriculum chapters by identifying subject areas, classroom contexts,
+    and teacher assignments in Harry's first year.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate candidate found in the existing Chapter Seven seed.
+  confidence: high
+  limitations: The passage reflects Harry's first-year timetable and does not establish whether the same schedule applied
+    historically before 1984.
+- id: ps-ch08-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 125
+  printed_page: not available
+  extracted_text_lines: PDF page 125, lines 1-6
+  text_anchor:
+    start_phrase: Easily the most boring class was History of Magic
+    end_phrase: Emeric the Evil and Uric the Oddball mixed up
+    local_occurrence_note: Opening paragraph of PDF page 125 within the curriculum survey.
+  nearby_context: The curriculum overview pauses on History of Magic and its teacher, Professor Binns.
+  match_terms:
+  - History of Magic
+  - ghost
+  - Professor Binns
+  - names and dates
+  quote_excerpt_short: "History of Magic, which was the only one taught by a ghost"
+  source_note: History of Magic is identified as a Hogwarts class taught by the ghost Professor Binns, who is said to have
+    died after falling asleep near the staffroom fire and continued teaching afterward.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - history-of-magic
+  - professor-binns
+  - ghost-teacher
+  - curriculum
+  - staffroom
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: History of Magic
+  candidate_section: Professor Binns and Historical Instruction
+  reason_for_placement: The passage directly concerns the subject most aligned with institutional historical knowledge and
+    identifies its unusual ghost teacher.
+  relevance_to_hogwarts_a_history: 'This is strong supporting material for a future section on how Hogwarts teaches magical
+    history, though it is not a quotation from Hogwarts: A History itself.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate candidate found in the existing Chapter Seven seed.
+  confidence: high
+  limitations: The passage does not date Professor Binns's death or clarify how long he has taught as a ghost.
+- id: ps-ch08-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 126
+  printed_page: not available
+  extracted_text_lines: PDF page 126, lines 12-16; PDF page 127, lines 13-34; PDF page 128, lines 1-25; PDF page 129, lines
+    1-5 and 9-20
+  text_anchor:
+    start_phrase: Double Potions with the Slytherins
+    end_phrase: a simple potion to cure boils
+    local_occurrence_note: Potions setup begins at Friday breakfast on PDF page 126 and continues into the dungeon lesson
+      on pages 127-129.
+  nearby_context: Friday breakfast introduces double Potions with Slytherin; the lesson then takes place in the dungeons under
+    Professor Snape.
+  match_terms:
+  - Potions
+  - Slytherins
+  - Snape
+  - Head of Slytherin House
+  - Gryffindor House
+  - dungeons
+  quote_excerpt_short: "Double Potions with the Slytherins"
+  source_note: The chapter states that first-year Gryffindors have double Potions with Slytherins, identifies Snape as Head
+    of Slytherin and McGonagall as Head of Gryffindor, places Potions lessons in the dungeons, and shows Snape teaching potion
+    ingredients and a simple boil-cure potion.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - potions
+  - snape
+  - slytherin
+  - gryffindor
+  - dungeons
+  - heads-of-house
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions
+  candidate_section: Dungeon Classrooms and Introductory Potion-Making
+  reason_for_placement: The passage gives subject, teacher, location, cross-House class grouping, and lesson content for Potions.
+  relevance_to_hogwarts_a_history: This supports a future curriculum chapter on Potions and may cross-reference House administration
+    through Snape and McGonagall's Head of House roles.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No duplicate candidate found in the existing Chapter Seven seed.
+  confidence: high
+  limitations: The chapter documents the 1991 first-year class and does not state the age of the Potions classroom arrangement
+    or Head of House assignments.
+- id: ps-ch08-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Eight - The Potions Master
+  chapter_start_pdf_page: 123
+  chapter_end_pdf_page: 132
+  pdf_page: 129
+  printed_page: not available
+  extracted_text_lines: PDF page 129, lines 6-8 and 21-29; PDF page 130, lines 2-8
+  text_anchor:
+    start_phrase: And a point will be taken from Gryffindor House
+    end_phrase: taking points off Fred and George
+    local_occurrence_note: Point deductions near the end of the first Potions lesson, spanning PDF pages 129-130.
+  nearby_context: During the first Potions lesson, Snape deducts points from Gryffindor twice and Ron comments that Snape
+    often takes points from Fred and George.
+  match_terms:
+  - House points
+  - Gryffindor
+  - Snape
+  - points
+  quote_excerpt_short: "a point will be taken from Gryffindor House"
+  source_note: The chapter shows a teacher deducting House points during class discipline, with Harry losing two Gryffindor
+    points in his first week and Ron presenting such deductions as normal for Snape.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - house-points
+  - gryffindor
+  - classroom-discipline
+  - snape
+  - teacher-authority
+  candidate_part: The Four Houses
+  candidate_chapter: House Points and the House Cup
+  candidate_section: Classroom Deductions
+  reason_for_placement: The passage gives a concrete example of House points functioning as a disciplinary mechanism during
+    lessons.
+  relevance_to_hogwarts_a_history: This supports the House points system already seeded from Chapter Seven by showing how
+    points can be deducted in classroom practice.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch07-002
+    notes: Related to ps-ch07-002, which introduced House points and the House Cup. This entry is narrower and records classroom
+      point deductions, so it should be merged or cross-referenced later rather than treated as a fully separate concept.
+  confidence: medium
+  limitations: This is a Harry-era example of point deductions and does not state when the point system originated.

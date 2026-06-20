@@ -1,0 +1,315 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  boundary_confidence: high
+  boundary_notes: Chapter Four range was taken from chapters-index.md, project-control/next-run.md, appendix/source-index.md, and the prior Book 3 Chapter Three boundary. Book 3 Chapter Four starts on PDF page 613 and Chapter Five starts on PDF page 630, so only PDF pages 613-629 were extracted and searched.
+  processed_date: '2026-06-19'
+  processor_notes: "Processed only Book 3, Chapter Four. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch04-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 613
+  printed_page: not available
+  extracted_text_lines: PDF page 613, lines 6-21; PDF page 614, lines 2-9
+  text_anchor:
+    start_phrase: strange new freedom
+    end_phrase: archway into Diagon Alley opened
+    local_occurrence_note: Opening Leaky Cauldron residence passage before Harry begins pre-term shopping and homework.
+  nearby_context: Harry is allowed to move freely inside Diagon Alley while staying at the Leaky Cauldron, eats breakfast among magical guests, and opens the brick-wall entrance from the courtyard into Diagon Alley.
+  match_terms:
+  - Leaky Cauldron
+  - Diagon Alley
+  - third brick
+  - archway
+  - Muggle world
+  - pre-term lodging
+  quote_excerpt_short: "third brick from the left"
+  source_note: The chapter corroborates the Leaky Cauldron courtyard entrance into Diagon Alley and shows a student temporarily living near the supply district under an instruction not to re-enter Muggle London.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - leaky-cauldron
+  - diagon-alley
+  - brick-entrance
+  - student-lodging
+  - supply-district
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Diagon Alley and Supply Access
+  reason_for_placement: The passage gives concrete relocation details for the Diagon Alley entrance and extends the supply-access thread into supervised pre-term residence.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on external infrastructure used by Hogwarts students for supply buying, lodging, and access to the magical shopping district.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch03-003
+    notes: Book 3 Chapter Three records Harry's arrival and Ministry-arranged lodging at the Leaky Cauldron; this entry adds the repeated courtyard entrance details and several days of pre-term student use.
+  confidence: medium
+  limitations: Harry's residence is exceptional and Ministry-directed; it should not be generalized into ordinary Hogwarts housing or travel policy.
+- id: poa-ch04-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 614
+  printed_page: not available
+  extracted_text_lines: PDF page 614, lines 5-9
+  text_anchor:
+    start_phrase: homework under the blankets
+    end_phrase: medieval witch burnings
+    local_occurrence_note: Harry works outside Florean Fortescue's Ice Cream Parlor during the Diagon Alley stay.
+  nearby_context: Harry finishes his essays in Diagon Alley with occasional help from Florean Fortescue, who is described as knowing a great deal about medieval witch burnings.
+  match_terms:
+  - homework
+  - essays
+  - Florean Fortescue
+  - medieval witch burnings
+  - Diagon Alley
+  quote_excerpt_short: "medieval witch burnings"
+  source_note: The chapter shows holiday essays continuing during the pre-term period and names Florean Fortescue as a knowledgeable helper on medieval witch-burning history.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - holiday-homework
+  - history-of-magic
+  - medieval-witch-burning
+  - florean-fortescue
+  - informal-source
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Informal Historical Expertise
+  reason_for_placement: The passage links a Hogwarts holiday essay topic to an outside historical informant, complementing named textbook evidence.
+  relevance_to_hogwarts_a_history: "This does not identify Hogwarts: A History, but it supports the source-network around magical history topics that overlap with History of Magic coursework."
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-001
+    notes: Book 3 Chapter One records Harry using Bathilda Bagshot's A History of Magic for a medieval witch-burning essay; this entry adds Florean Fortescue as an informal helper on the same topic.
+  confidence: medium
+  limitations: The passage does not say Fortescue is a Hogwarts source, a historian by profession, or that his information specifically concerns Hogwarts history.
+- id: poa-ch04-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 615
+  printed_page: not available
+  extracted_text_lines: PDF page 615, lines 17-37; PDF page 616, lines 25-40; PDF page 617, lines 2-17
+  text_anchor:
+    start_phrase: things that Harry needed to buy
+    end_phrase: The Standard Book of Spells, Grade Three
+    local_occurrence_note: Harry's school-supply shopping at the Apothecary, Madam Malkin's, and Flourish and Blotts.
+  nearby_context: Harry replenishes potions ingredients, replaces outgrown robes, and buys third-year books for Care of Magical Creatures, Divination, Transfiguration, and Charms; the booklist identifies The Monster Book of Monsters as required for Care of Magical Creatures and the shop supplies Unfogging the Future.
+  match_terms:
+  - potions ingredients
+  - school robes
+  - schoolbooks
+  - Care of Magical Creatures
+  - Divination
+  - The Monster Book of Monsters
+  - Unfogging the Future
+  - Intermediate Transfiguration
+  - Standard Book of Spells
+  quote_excerpt_short: "required book for Care of Magical Creatures"
+  source_note: The chapter provides direct booklist confirmation for third-year supplies, including subject-specific texts and recurring equipment purchases such as robes and potion ingredients.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - third-year-booklist
+  - course-books
+  - care-of-magical-creatures
+  - divination
+  - transfiguration
+  - charms
+  - school-supplies
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Books and Supplies
+  reason_for_placement: The passage supplies named third-year subject materials and connects elective progression to required shopping before term.
+  relevance_to_hogwarts_a_history: This strengthens future coverage of annual booklists, third-year academic progression, and how Hogwarts subjects depend on external supply networks.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-006
+    notes: Book 3 Chapter One introduces The Monster Book of Monsters as likely useful for the coming year; this entry confirms it is the required Care of Magical Creatures book and adds other third-year texts.
+  confidence: high
+  limitations: The passage is Harry-era booklist evidence and does not prove how stable these course texts were historically.
+- id: poa-ch04-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 619
+  printed_page: not available
+  extracted_text_lines: PDF page 619, lines 21-30
+  text_anchor:
+    start_phrase: more new subjects than you
+    end_phrase: Wizarding point of view
+    local_occurrence_note: Hermione explains her large book purchase at Florean Fortescue's outdoor table.
+  nearby_context: Hermione says her books cover Arithmancy, Care of Magical Creatures, Divination, Study of Ancient Runes, and Muggle Studies, then explains that Muggle Studies examines Muggles from the wizarding point of view.
+  match_terms:
+  - Arithmancy
+  - Care of Magical Creatures
+  - Divination
+  - Study of Ancient Runes
+  - Muggle Studies
+  - Wizarding point of view
+  quote_excerpt_short: "from the Wizarding point of view"
+  source_note: The chapter confirms a set of third-year elective subjects in active use and clarifies the framing of Muggle Studies as wizarding analysis of Muggles.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - third-year-subjects
+  - electives
+  - arithmancy
+  - ancient-runes
+  - muggle-studies
+  - hermione-granger
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Third-Year Elective Selection
+  reason_for_placement: The passage adds observed enrollment evidence for multiple electives and gives a subject framing not captured by the earlier selection scene.
+  relevance_to_hogwarts_a_history: This supports a future academic-life chapter on elective breadth, course framing, and third-year workload.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch14-002
+    notes: Book 2 Chapter Fourteen records second-year selection of third-year elective subjects; this entry confirms the chosen subjects through purchased books and adds Muggle Studies framing.
+  confidence: high
+  limitations: Hermione's workload is unusual and should not be treated as a normal student timetable without later confirmation.
+- id: poa-ch04-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 620
+  printed_page: not available
+  extracted_text_lines: PDF page 619, lines 33-38; PDF page 620, lines 1-18 and 26-30; PDF page 622, lines 33-54
+  text_anchor:
+    start_phrase: I really want an owl
+    end_phrase: Crookshanks will be sleeping in my dormitory
+    local_occurrence_note: Ron and Hermione discuss pets before and after visiting the Magical Menagerie.
+  nearby_context: Hermione wants an owl because Harry has Hedwig and Ron's owl is a family owl, Ron has a rat, and Hermione later says Crookshanks will sleep in her dormitory while Scabbers sleeps in Ron's.
+  match_terms:
+  - owl
+  - family owl
+  - Scabbers
+  - Crookshanks
+  - dormitory
+  - Magical Menagerie
+  quote_excerpt_short: "sleeping in my dormitory"
+  source_note: The chapter shows students buying or bringing pets before term and assumes that cats and rats can sleep in House dormitories, while owls serve personal or family mail roles.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - student-pets
+  - owls
+  - cats
+  - rats
+  - dormitories
+  - magical-menagerie
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Pets, Owls, and Student Belongings
+  reason_for_placement: The passage adds lived evidence for student pet ownership and dormitory accommodation beyond the formal first-year supply-list options.
+  relevance_to_hogwarts_a_history: This can support future notes on permitted animals, owl communication, and how student belongings are integrated into dormitory life.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch05-002
+    notes: Book 1 Chapter Five records the formal first-year supply-list pet options; this entry adds observed third-year pet purchasing and dormitory placement for a cat and rat.
+  confidence: medium
+  limitations: The passage reflects student assumptions and observed practice, not a quoted Hogwarts pet rule or full list of permitted animals.
+- id: poa-ch04-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 624
+  printed_page: not available
+  extracted_text_lines: PDF page 623, lines 35-38; PDF page 624, lines 8-21; PDF page 625, lines 25-32
+  text_anchor:
+    start_phrase: newly elected Head Boy, Percy
+    end_phrase: My Head Boy badge is gone
+    local_occurrence_note: Weasley family arrival at the Leaky Cauldron, followed by dinner and Percy's missing badge.
+  nearby_context: Percy is identified as newly elected Head Boy, wears a new silver badge, and Molly notes that Fred and George have not been made prefects; Percy later searches for his Head Boy badge after taking it off for polishing.
+  match_terms:
+  - Head Boy
+  - silver badge
+  - prefects
+  - newly elected
+  - Percy
+  quote_excerpt_short: "brand-new silver badge"
+  source_note: The chapter confirms visible Head Boy insignia, family recognition of the office, and the distinction between Head Boy and prefect appointments.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - head-boy
+  - prefects
+  - student-leadership
+  - badges
+  - percy-weasley
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Prefects, Head Students, and Student Authority
+  candidate_section: Head Boy Appointment and Insignia
+  reason_for_placement: The passage adds social and visible-status evidence for Hogwarts student leadership offices and their badges.
+  relevance_to_hogwarts_a_history: This supports future governance coverage of senior student offices, insignia, and how appointments are distinguished from prefect status.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-004
+    notes: Book 3 Chapter One records Percy's Head Boy letter and badge in correspondence; this entry adds in-person recognition, the silver badge, and contrast with unappointed prefects.
+  confidence: high
+  limitations: The source still does not state selection criteria, duties, or the appointing authority for Head Boy or prefects.
+- id: poa-ch04-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Four - The Leaky Cauldron
+  chapter_start_pdf_page: 613
+  chapter_end_pdf_page: 629
+  pdf_page: 627
+  printed_page: not available
+  extracted_text_lines: PDF page 626, lines 11-38; PDF page 627, lines 5-24; PDF page 628, lines 12-33
+  text_anchor:
+    start_phrase: Harry's got a right to know
+    end_phrase: all around the school
+    local_occurrence_note: Harry overhears Mr. and Mrs. Weasley arguing in the Leaky Cauldron parlor after dinner.
+  nearby_context: Mr. Weasley says Sirius Black's escape from Azkaban has prompted concern about Harry's safety at Hogwarts; Dumbledore was asked whether Azkaban guards could be stationed around entrances to the school grounds, and he reluctantly agreed.
+  match_terms:
+  - Sirius Black
+  - Azkaban
+  - Hogwarts
+  - Albus Dumbledore
+  - headmaster
+  - school grounds
+  - entrances
+  - guards
+  quote_excerpt_short: "around the entrances to the school grounds"
+  source_note: The chapter records an extraordinary external security deployment around Hogwarts entrances, requiring Dumbledore's awareness and consent despite his dislike of the Azkaban guards.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - azkaban-guards
+  - dementors
+  - school-grounds
+  - entrances
+  - dumbledore
+  - crisis-security
+  - sirius-black
+  candidate_part: Protective Magic and Security
+  candidate_chapter: External Security and School Boundaries
+  candidate_section: Azkaban Guards at the Grounds Entrances
+  reason_for_placement: The passage gives concrete evidence for school-boundary security during an external threat and shows the headmaster's role in accepting or resisting outside protective forces.
+  relevance_to_hogwarts_a_history: This is later editorial evidence for how Hogwarts interacts with Ministry-linked security during crises, distinct from older castle protections.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing seed records Azkaban guards stationed around Hogwarts entrances or Dumbledore's reluctant consent to their presence.
+  confidence: high
+  limitations: The deployment is specific to the Sirius Black crisis and should not be treated as a standing Hogwarts security arrangement.

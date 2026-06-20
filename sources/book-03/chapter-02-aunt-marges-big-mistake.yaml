@@ -1,0 +1,181 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Two - Aunt Marge's Big Mistake
+  chapter_start_pdf_page: 585
+  chapter_end_pdf_page: 597
+  boundary_confidence: high
+  boundary_notes: Chapter Two range was taken from chapters-index.md, project-control/next-run.md, and the prior Book 3 Chapter One boundary. Book 3 Chapter Two starts on PDF page 585 and Chapter Three starts on PDF page 598, so only PDF pages 585-597 were extracted and searched.
+  processed_date: '2026-06-19'
+  processor_notes: "Processed only Book 3, Chapter Two. Text was extracted locally with pypdf into .tmp/ and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: poa-ch02-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Two - Aunt Marge's Big Mistake
+  chapter_start_pdf_page: 585
+  chapter_end_pdf_page: 597
+  pdf_page: 588
+  printed_page: not available
+  extracted_text_lines: PDF page 588, lines 21-25; PDF page 589, lines 11-18
+  text_anchor:
+    start_phrase: Third years at Hog
+    end_phrase: sign your ruddy form
+    local_occurrence_note: Front-door negotiation before Uncle Vernon leaves to collect Aunt Marge.
+  nearby_context: Harry reminds Vernon that third years at Hogwarts may visit Hogsmeade, asks for the guardian permission form to be signed, and later secures a conditional promise that Vernon will sign if Harry maintains the cover story.
+  match_terms:
+  - third years
+  - Hogsmeade
+  - permission form
+  - school
+  - guardian permission
+  quote_excerpt_short: "Third years at Hog"
+  source_note: The chapter corroborates Hogsmeade visits as a third-year privilege requiring a signed permission form and shows the practical dependence on a guardian's signature.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - permission-form
+  - guardian-signature
+  - third-years
+  - student-privileges
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions
+  reason_for_placement: The passage directly continues the formal permission-form thread from the previous chapter and shows the rule operating in a student's household.
+  relevance_to_hogwarts_a_history: This supports future coverage of Hogsmeade weekends as regulated school-supervised access outside Hogwarts grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-005
+    notes: Book 3 Chapter One records the official Hogwarts letter and guardian-signature requirement; this entry adds Harry's attempt to obtain that signature and the guardian leverage involved.
+  confidence: high
+  limitations: The chapter still does not state the scheduling, supervision, or school-side approval process for Hogsmeade visits.
+- id: poa-ch02-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Two - Aunt Marge's Big Mistake
+  chapter_start_pdf_page: 585
+  chapter_end_pdf_page: 597
+  pdf_page: 589
+  printed_page: not available
+  extracted_text_lines: PDF page 589, lines 21-33
+  text_anchor:
+    start_phrase: If he was going to act like a real Muggle
+    end_phrase: allowed to visit Hogsmeade with Ron and Hermione
+    local_occurrence_note: Harry hides presents and sends Hedwig away after Vernon's conditional promise.
+  nearby_context: To preserve the Dursleys' cover story, Harry hides birthday cards and homework under a loose floorboard, sends Hedwig away with Errol, and attaches a note to Ron explaining the temporary absence.
+  match_terms:
+  - Muggle
+  - homework
+  - Hedwig
+  - Errol
+  - note
+  - Hogsmeade
+  quote_excerpt_short: "act like a real Muggle"
+  source_note: The chapter shows Harry concealing school-related materials and interrupting owl contact during a Muggle-relative visit, while still preserving student-to-student communication by note.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - holiday-contact
+  - owl-post
+  - muggle-secrecy
+  - homework
+  - suppressed-contact
+  - privet-drive
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Holiday Owl Post and School Contact
+  reason_for_placement: The passage is Harry-specific later context, but it helps separate ordinary holiday owl communication from secrecy pressures in a Muggle household.
+  relevance_to_hogwarts_a_history: This can support editorial notes on how Hogwarts students maintain contact over holidays and how Muggle secrecy can disrupt that ordinary channel.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-003
+    notes: Book 3 Chapter One shows successful holiday owl delivery; this entry adds a temporary concealment measure and a student note sent by owl during the same holiday period.
+  confidence: medium
+  limitations: Harry's household situation is exceptional and should not be generalized into ordinary Hogwarts holiday practice.
+- id: poa-ch02-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Two - Aunt Marge's Big Mistake
+  chapter_start_pdf_page: 585
+  chapter_end_pdf_page: 597
+  pdf_page: 593
+  printed_page: not available
+  extracted_text_lines: PDF page 593, lines 25-34
+  text_anchor:
+    start_phrase: It had been a long time
+    end_phrase: expulsion from Hogwarts
+    local_occurrence_note: Hallway reflection after Harry accidentally explodes Aunt Marge's wineglass.
+  nearby_context: After accidental magic breaks a wineglass, Harry recalls that underage wizards are forbidden by wizard law to use magic outside school and that another Privet Drive incident could mean Ministry trouble and Hogwarts expulsion.
+  match_terms:
+  - Ministry of Magic
+  - underage wizard
+  - wizard law
+  - outside school
+  - official warning
+  - expulsion
+  - Hogwarts
+  quote_excerpt_short: "forbidden by wizard law"
+  source_note: The chapter reiterates the underage outside-school magic restriction and links repeat detected magic at Harry's residence with possible expulsion from Hogwarts.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - outside-school-magic
+  - ministry-warning
+  - expulsion
+  - privet-drive
+  - wizard-law
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Underage Magic and Hogwarts Expulsion Risk
+  reason_for_placement: The passage connects external wizarding law, Ministry enforcement, and possible Hogwarts expulsion during school holidays.
+  relevance_to_hogwarts_a_history: This supports a future rules section distinguishing Hogwarts discipline from Ministry enforcement when students are away from school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-005
+    notes: Book 2 Chapter Two records the Ministry warning letter with the Decree and Statute; this entry shows Harry applying that warning to another accidental-magic incident.
+  confidence: high
+  limitations: The passage summarizes Harry's understanding rather than quoting the Ministry warning again or showing a current school response.
+- id: poa-ch02-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Prisoner of Azkaban
+  chapter: Chapter Two - Aunt Marge's Big Mistake
+  chapter_start_pdf_page: 585
+  chapter_end_pdf_page: 597
+  pdf_page: 594
+  printed_page: not available
+  extracted_text_lines: PDF page 594, lines 2-4 and 30-32; PDF page 595, lines 3-5 and 11-14
+  text_anchor:
+    start_phrase: Handbook of Do-It-Yourself Broomcare
+    end_phrase: Grasp your broom firmly by the tail
+    local_occurrence_note: Harry repeatedly uses the broomcare handbook as mental distraction during Aunt Marge's visit.
+  nearby_context: Harry thinks about the Handbook of Do-It-Yourself Broomcare, including a named charm for reluctant reversers and broom-handling instructions, while trying to control his temper.
+  match_terms:
+  - Handbook of Do-It-Yourself Broomcare
+  - Charm
+  - Reluctant Reversers
+  - broom
+  - broomcare
+  quote_excerpt_short: "A Charm to Cure Reluctant Reversers"
+  source_note: The chapter gives another glimpse of the broomcare handbook as a practical in-universe source with named charm and maintenance guidance.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - broomcare
+  - quidditch
+  - in-universe-source
+  - magical-books
+  - broomstick-maintenance
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Brooms and Player Equipment
+  reason_for_placement: The passage adds practical detail to the broom-maintenance source introduced in the prior chapter and belongs with House Quidditch equipment evidence.
+  relevance_to_hogwarts_a_history: This can support a future Quidditch equipment subsection and cross-reference student-owned broom maintenance materials.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-007
+    notes: Book 3 Chapter One introduced the Broomstick Servicing Kit and handbook; this entry adds named handbook content and practical broom handling.
+  confidence: medium
+  limitations: The handbook is a personal gift, not a school-issued text, and the chapter does not show Hogwarts assigning or endorsing it.
