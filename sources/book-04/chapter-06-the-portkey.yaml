@@ -1,0 +1,189 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Six - The Portkey
+  chapter_start_pdf_page: 1001
+  chapter_end_pdf_page: 1008
+  boundary_confidence: high
+  boundary_notes: Chapter Six range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Six starts on PDF page 1001 and Chapter Seven starts on PDF page 1009, so only PDF pages 1001-1008 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Six. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch06-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Six - The Portkey
+  chapter_start_pdf_page: 1001
+  chapter_end_pdf_page: 1008
+  pdf_page: 1002
+  printed_page: not available
+  extracted_text_lines: PDF page 1002, lines 32-54; PDF page 1003, lines 60-71
+  text_anchor:
+    start_phrase: Harry knew that Apparating meant
+    end_phrase: just to prove he can
+    local_occurrence_note: The breakfast conversation explains why the older Weasley sons can Apparate to the World Cup while the school-age children cannot.
+  nearby_context: Harry notes he has never known a Hogwarts student to Apparate; Mrs. Weasley says Fred and George are underage and untested; Mr. Weasley describes Department of Magical Transportation licensing, fines, Splinching, and Accidental Magic Reversal Squad cleanup.
+  match_terms:
+  - Apparating
+  - Hogwarts student
+  - Department of Magical Transportation
+  - license
+  - Splinched
+  - Accidental Magic Reversal Squad
+  - Apparition test
+  quote_excerpt_short: "you haven't passed your test"
+  source_note: The chapter records Apparition as a licensed adult magical transport skill, with formal testing, fines for unlicensed use, Splinching risks, and Ministry reversal response when Muggles might notice.
+  reference_type: cross_reference_candidate
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - apparition
+  - magical-transportation
+  - department-of-magical-transportation
+  - licensing
+  - splinching
+  - accidental-magic-reversal-squad
+  - underage-magic
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Magical Transportation and Student Restrictions
+  candidate_section: Apparition Licensing and Risks
+  reason_for_placement: The passage does not describe a Hogwarts lesson, but it distinguishes school-age students from licensed adult Apparators and supplies institutional transport-law context.
+  relevance_to_hogwarts_a_history: This can support later coverage of why Hogwarts students rely on school-arranged travel rather than Apparition, while also informing magical-transport background notes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned magical-safety and Quidditch matches, but no prior entry on Apparition licensing, Splinching, or the Department of Magical Transportation.
+  confidence: medium
+  limitations: The evidence comes from a family breakfast before a World Cup trip and does not state Hogwarts curriculum rules for Apparition instruction.
+- id: gof-ch06-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Six - The Portkey
+  chapter_start_pdf_page: 1001
+  chapter_end_pdf_page: 1008
+  pdf_page: 1005
+  printed_page: not available
+  extracted_text_lines: PDF page 1005, lines 130-154; PDF page 1008, lines 234-250
+  text_anchor:
+    start_phrase: It's been a massive organizational problem
+    end_phrase: the Portkey hit the ground near his head
+    local_occurrence_note: Mr. Weasley explains World Cup travel logistics during the walk to the Portkey, and the chapter later shows the boot Portkey activating.
+  nearby_context: Mr. Weasley says about one hundred thousand wizards must be moved without Muggle notice, requiring anti-Muggle precautions, staggered arrivals, limited Muggle transport, Apparition points, and two hundred Portkeys placed around Britain.
+  match_terms:
+  - Quidditch World Cup
+  - anti-Muggle precautions
+  - Ministry
+  - stagger the arrivals
+  - Apparition point
+  - Portkeys
+  - Stoatshead Hill
+  quote_excerpt_short: "two hundred Portkeys placed at strategic points"
+  source_note: The chapter gives concrete Ministry logistics for a mass international wizarding event, including secrecy precautions, staggered arrivals, safe Apparition points, and timed Portkeys disguised as ordinary objects.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-world-cup
+  - portkeys
+  - anti-muggle-precautions
+  - magical-transportation
+  - ministry-of-magic
+  - muggle-secrecy
+  - apparition-points
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: Portkeys and Mass Event Travel
+  reason_for_placement: The scene is not set at Hogwarts, but it gives unusually detailed magical-transport and secrecy logistics relevant to later school-linked tournament-year context.
+  relevance_to_hogwarts_a_history: This can support later editorial notes contrasting ordinary Hogwarts travel with wider wizarding transport systems and Ministry secrecy planning.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch01-002
+    notes: Book 4 Chapter One already records Quidditch World Cup security, international wizard movement, and Muggle-secrecy pressure; this entry adds the travel mechanics of staggered arrivals, Apparition points, and Portkeys.
+  confidence: high
+  limitations: The details concern the Quidditch World Cup rather than a Hogwarts event, so school relevance depends on later tournament-year context.
+- id: gof-ch06-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Six - The Portkey
+  chapter_start_pdf_page: 1001
+  chapter_end_pdf_page: 1008
+  pdf_page: 1004
+  printed_page: not available
+  extracted_text_lines: PDF page 1004, lines 95-108
+  text_anchor:
+    start_phrase: more Ton-Tongue Toffees
+    end_phrase: didn't get more O.W.L.s
+    local_occurrence_note: Mrs. Weasley catches Fred and George smuggling joke sweets while the group is leaving for the World Cup.
+  nearby_context: Mrs. Weasley uses repeated Summoning Charms to pull hidden Ton-Tongue Toffees from the twins' pockets and clothing, after which Fred says the twins spent six months developing the sweets and Mrs. Weasley links the work to their O.W.L. performance.
+  match_terms:
+  - Ton-Tongue Toffees
+  - Summoning Charm
+  - Accio
+  - six months developing those
+  - O.W.L.s
+  - Fred and George
+  quote_excerpt_short: "six months developing those"
+  source_note: The chapter corroborates Fred and George's student joke-product development, showing hidden Ton-Tongue Toffees, repeated Summoning Charm retrieval, six months of development work, and O.W.L. consequences.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - ton-tongue-toffee
+  - weasleys-wizard-wheezes
+  - joke-products
+  - summoning-charm
+  - owls
+  - student-misconduct
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Student Inventions and Magical Misconduct
+  candidate_section: Weasley Joke Products at Hogwarts
+  reason_for_placement: The evidence is part of a Harry-era student-enterprise thread and belongs in later editorial coverage rather than the original in-universe book body.
+  relevance_to_hogwarts_a_history: This can support later notes on student-made magical products, informal experimentation outside class, and the academic cost of extracurricular mischief.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch05-002
+    notes: Book 4 Chapter Five already records Weasleys' Wizard Wheezes order forms, planned Hogwarts sales, fake wands, trick sweets, and O.W.L. context; this entry adds the attempted smuggling and six-month development detail.
+  confidence: medium
+  limitations: The scene takes place at the Burrow and does not show the products being used or sold at Hogwarts.
+- id: gof-ch06-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Six - The Portkey
+  chapter_start_pdf_page: 1001
+  chapter_end_pdf_page: 1008
+  pdf_page: 1006
+  printed_page: not available
+  extracted_text_lines: PDF page 1006, lines 177-187; PDF page 1007, lines 208-223
+  text_anchor:
+    start_phrase: This is Amos Diggory
+    end_phrase: better flier
+    local_occurrence_note: The Weasleys meet Amos and Cedric Diggory at the Portkey site before the World Cup departure.
+  nearby_context: Cedric is identified as Captain and Seeker of the Hufflepuff House Quidditch team at Hogwarts; the narration recalls Hufflepuff beating Gryffindor the previous year, and Amos discusses Cedric playing against Harry.
+  match_terms:
+  - Cedric Diggory
+  - Captain and Seeker
+  - Hufflepuff House Quidditch team
+  - Hogwarts
+  - Gryffindor
+  - Quidditch match
+  quote_excerpt_short: "Captain and Seeker of the Hufflepuff House Quidditch team"
+  source_note: The chapter confirms Cedric Diggory's Hogwarts Quidditch role as Hufflepuff Captain and Seeker, and it recalls the previous year's Hufflepuff-over-Gryffindor match result.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-teams
+  - hufflepuff
+  - cedric-diggory
+  - seeker
+  - team-captains
+  - gryffindor
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Hufflepuff Captain and Seeker
+  reason_for_placement: The passage provides a compact named example of House-team structure, captaincy, playing position, and inter-House match memory.
+  relevance_to_hogwarts_a_history: This can corroborate future coverage of House Quidditch offices, team roles, and how match results become part of student and family reputation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch09-006
+    notes: Book 3 Chapter Nine records the Hufflepuff match, match governance, and Snitch result; this entry corroborates Cedric's team role and the lasting interpretation of that match.
+  confidence: high
+  limitations: The passage is a recap outside Hogwarts and does not describe full Hufflepuff team organization or season standings.

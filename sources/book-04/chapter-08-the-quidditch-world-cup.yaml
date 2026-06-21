@@ -1,0 +1,268 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  boundary_confidence: high
+  boundary_notes: Chapter Eight range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Eight starts on PDF page 1026 and Chapter Nine starts on PDF page 1044, so only PDF pages 1026-1043 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Eight. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch08-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  pdf_page: 1026
+  printed_page: not available
+  extracted_text_lines: PDF page 1026, lines 15-23 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Seats a hundred thousand
+    end_phrase: Top Box! Straight upstairs
+    local_occurrence_note: Mr. Weasley explains the stadium's scale and anti-Muggle protection before the Ministry witch directs them to the Top Box.
+  nearby_context: The party emerges from the woods at the enormous World Cup stadium. Mr. Weasley says a five-hundred-person Ministry task force has worked on it all year and put Muggle Repelling Charms on every inch.
+  match_terms:
+  - Quidditch World Cup
+  - Ministry task force
+  - Muggle Repelling Charms
+  - Top Box
+  - stadium
+  quote_excerpt_short: "Muggle Repelling Charms on every inch of it"
+  source_note: The chapter adds stadium-scale secrecy architecture for the World Cup, including a year-long Ministry task force and comprehensive Muggle Repelling Charms.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-world-cup
+  - muggle-repelling-charms
+  - ministry-of-magic
+  - magical-secrecy
+  - public-event-security
+  - stadium
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: Quidditch World Cup Stadium Protections
+  reason_for_placement: The passage is external to Hogwarts but gives a concrete benchmark for Ministry-scale concealment and protective charm deployment at a major wizarding public event.
+  relevance_to_hogwarts_a_history: This can support later editorial contrast between Hogwarts protective enchantments and Ministry-managed public-event secrecy during a school-linked tournament year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch07-001
+    notes: Book 4 Chapter Seven records World Cup campsite anti-Muggle security and Memory Charms; this entry adds stadium-wide Muggle Repelling Charms and the dedicated Ministry task force.
+  confidence: high
+  limitations: The passage concerns the World Cup stadium, not Hogwarts grounds, so its school relevance is contextual.
+- id: gof-ch08-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  pdf_page: 1028
+  printed_page: not available
+  extracted_text_lines: PDF page 1028, lines 77-95; PDF page 1029, lines 99-108 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: How's freedom suiting him?
+    end_phrase: Winky is a good house-elf
+    local_occurrence_note: Winky reacts to Dobby's freedom, unpaid work expectations, possible creature-regulation consequences, and obedience to her master.
+  nearby_context: Winky says Dobby cannot find a position because he wants pay, insists house-elves are not paid, mentions the Department for the Regulation and Control of Magical Creatures, and obeys her master's command despite fear of heights.
+  match_terms:
+  - Winky
+  - Dobby
+  - house-elves
+  - paid
+  - Department for the Regulation and Control of Magical Creatures
+  - master
+  quote_excerpt_short: "House-elves is not paid, sir!"
+  source_note: The chapter expands house-elf service norms with Winky's claims about unpaid labor, master obedience, and possible Department regulation for nonconforming conduct.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - winky
+  - dobby
+  - magical-servitude
+  - department-for-regulation-and-control-of-magical-creatures
+  - unpaid-labor
+  candidate_part: Later Editorial Notes
+  candidate_chapter: House-Elves and Hogwarts
+  candidate_section: Service Norms, Pay, and Regulation
+  reason_for_placement: The passage is not yet direct Hogwarts kitchen evidence, but it supplies context for house-elf labor assumptions before Dobby and Winky become connected to Hogwarts.
+  relevance_to_hogwarts_a_history: This should inform later editorial notes about Hogwarts house-elves without treating private-service norms as official school policy.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-001
+    notes: Book 2 Chapter Two records Dobby's bondage to a wizarding family; this entry adds Winky's claims about unpaid work, job placement after freedom, obedience to a master, and creature-regulation pressure.
+  confidence: high
+  limitations: Winky is defending conventional house-elf views, so the passage should be balanced against later evidence about Dobby's paid Hogwarts work.
+- id: gof-ch08-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  pdf_page: 1031
+  printed_page: not available
+  extracted_text_lines: PDF page 1031, lines 181-186 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: The Malfoys prided themselves
+    end_phrase: Mr. Malfoy didn't dare say anything
+    local_occurrence_note: Lucius Malfoy's reaction to Hermione is narrated under the gaze of the Minister of Magic.
+  nearby_context: The Top Box includes the Malfoys, the Weasleys, and the Minister. Lucius looks at Hermione with contempt, and the narration explains that the Malfoys consider people of Muggle descent second-class.
+  match_terms:
+  - Malfoys
+  - purebloods
+  - Muggle descent
+  - Hermione
+  - Minister of Magic
+  quote_excerpt_short: "anyone of Muggle descent, like Hermione, second-class"
+  source_note: The chapter corroborates pure-blood prejudice toward Muggle-born or Muggle-descended witches and shows that such prejudice persists in elite public wizarding spaces.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - blood-status
+  - pure-blood-prejudice
+  - muggle-born-students
+  - hermione-granger
+  - lucius-malfoy
+  - wizarding-society
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Blood Status and Hogwarts Society
+  candidate_section: Pure-Blood Prejudice Beyond School
+  reason_for_placement: The evidence is outside Hogwarts but directly concerns known Hogwarts students and families, showing the wider social ideology behind school blood-status conflict.
+  relevance_to_hogwarts_a_history: This can help a later fan edition distinguish Hogwarts admissions and achievement from the social prejudice students bring into school life.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch07-003
+    notes: Book 2 Chapter Seven defines the Muggle-born slur and pure-blood prejudice in a Hogwarts student conflict; this entry corroborates that prejudice in elite adult society under Ministry scrutiny.
+  confidence: high
+  limitations: The passage summarizes Malfoy attitudes in narration and does not give a formal law, policy, or school rule.
+- id: gof-ch08-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  pdf_page: 1035
+  printed_page: not available
+  extracted_text_lines: PDF page 1029, lines 113-116; PDF page 1034, lines 302-304; PDF page 1035, lines 322-329 and 393-399 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Ron pulled out his Omnioculars
+    end_phrase: Wronski Defensive Feint
+    local_occurrence_note: Omniocular functions are shown before and during the match, including replay, speed control, player-name visibility, and play-by-play labels.
+  nearby_context: Ron tests the replay knob in the Top Box. During the match, Harry slows the players enough to read broom and robe details, then uses slow motion and play-by-play lettering to identify tactics such as the Hawkshead Attacking Formation, Porskoff Ploy, and Wronski Defensive Feint.
+  match_terms:
+  - Omnioculars
+  - replay
+  - slow motion
+  - play-by-play
+  - Hawkshead Attacking Formation
+  - Wronski Defensive Feint
+  quote_excerpt_short: "replay and play-by-play buttons"
+  source_note: The chapter introduces Omnioculars as magical sports-viewing devices with replay, speed control, magnification, and tactical play-by-play overlays.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - omnioculars
+  - magical-devices
+  - quidditch
+  - spectator-magic
+  - sports-commentary
+  - in-universe-analysis
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Quidditch Beyond Hogwarts
+  candidate_section: Spectator Devices and Tactical Literacy
+  reason_for_placement: The device is external to Hogwarts, but it shows how wizarding sport can be analyzed and replayed outside ordinary school commentary.
+  relevance_to_hogwarts_a_history: This can support later notes on how students understand Quidditch tactics and how wider wizarding sport culture supplements school experience.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search found prior Quidditch entries but no earlier seed specifically about Omnioculars or magical replay/play-by-play devices.
+  confidence: high
+  limitations: The chapter does not state who manufactures Omnioculars, whether they are allowed at Hogwarts matches, or how the tactical labels are generated.
+- id: gof-ch08-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  pdf_page: 1034
+  printed_page: not available
+  extracted_text_lines: PDF page 1034, lines 282-307; PDF page 1038, lines 421-426; PDF page 1039, lines 456-474 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: the Bulgarian National Quidditch Team
+    end_phrase: it's got to be another penalty
+    local_occurrence_note: The teams, international referee, fouls, and penalties are named across the match sequence.
+  nearby_context: Bagman introduces the Bulgarian and Irish national teams, then Hassan Mostafa as Chairwizard of the International Association of Quidditch. Mostafa releases the four balls, referees fouls, and awards penalties for cobbing, arguing, and deliberate collision.
+  match_terms:
+  - International Association of Quidditch
+  - Hassan Mostafa
+  - Bulgarian National Quidditch Team
+  - Irish National Quidditch Team
+  - cobbing
+  - penalty
+  quote_excerpt_short: "Chairwizard of the International Association of Quidditch"
+  source_note: The chapter supplies international Quidditch governance evidence through named national teams, a named international association chairwizard, referee procedure, fouls, and penalties.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - international-quidditch
+  - international-association-of-quidditch
+  - quidditch-world-cup
+  - hassan-mostafa
+  - quidditch-rules
+  - fouls-and-penalties
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: Quidditch Beyond Hogwarts
+  candidate_section: International Governance and Match Rules
+  reason_for_placement: The passage helps distinguish school Quidditch practice from the sport's international institutions, professional standards, and rule enforcement.
+  relevance_to_hogwarts_a_history: This can contextualize Hogwarts House Quidditch as part of a wider regulated wizarding sport with international bodies and formal rules.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch03-001
+    notes: Book 4 Chapter Three records World Cup administration through the Department of Magical Games and Sports; this entry adds the International Association of Quidditch, named national teams, referee authority, and in-match penalties.
+  confidence: high
+  limitations: The chapter gives observed match procedure but not a full rulebook or the association's formal jurisdiction.
+- id: gof-ch08-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eight - The Quidditch World Cup
+  chapter_start_pdf_page: 1026
+  chapter_end_pdf_page: 1043
+  pdf_page: 1039
+  printed_page: not available
+  extracted_text_lines: PDF page 1029, lines 117-122; PDF page 1032, lines 211-230; PDF page 1033, lines 256-273; PDF page 1039, lines 475-488 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: A display from the team mascots
+    end_phrase: separate the veela and the leprechauns
+    local_occurrence_note: The program announces mascot displays, Mr. Weasley explains the custom, and the mascots later escalate into a creature conflict.
+  nearby_context: Hermione reads that team mascots precede the match. Mr. Weasley says national teams bring creatures from their native land. Bulgaria presents Veela whose dance affects spectators, Ireland presents leprechauns that form a shamrock and drop gold, and Ministry wizards intervene when the mascots fight.
+  match_terms:
+  - team mascots
+  - native land
+  - Veela
+  - leprechauns
+  - Ministry wizards
+  - crowd control
+  quote_excerpt_short: "National teams bring creatures from their native land"
+  source_note: The chapter records a public-event custom in which national Quidditch teams bring native magical creatures as mascots, with Veela enchantment, leprechaun displays, and Ministry crowd-control intervention.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - magical-creatures
+  - veela
+  - leprechauns
+  - quidditch-mascots
+  - ministry-crowd-control
+  - public-events
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Magical Creatures in Public Wizarding Life
+  candidate_section: National Mascots and Event Control
+  reason_for_placement: The evidence is not Hogwarts-specific, but it broadens magical-creature context beyond classrooms and grounds into regulated public wizarding events.
+  relevance_to_hogwarts_a_history: This can support later editorial comparison with Care of Magical Creatures and school safety practices when magical creatures appear near students.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned general magical-creature and school-event entries, but no prior seed on Veela, leprechauns, national team mascots, or Ministry crowd control at sporting events.
+  confidence: medium
+  limitations: The scene is a World Cup spectacle, not a Hogwarts lesson or school policy, and the leprechaun gold is not explained in this chapter.

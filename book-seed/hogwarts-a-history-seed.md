@@ -500,6 +500,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch16-001; Book 1 Chapter Sixteen records end-of-year exam formats; this entry adds that exams continue during a schoolwide Chamber crisis under Dumbledore's normality instruction.
 **Notes:** The evidence is crisis-specific and does not prove how often Hogwarts continues exams during other emergencies.
 
+#### Section: Head Boy, Student Achievement, and Alumni Paths
+
+**Fact:** The chapter corroborates Hogwarts alumni pathways by identifying Bill as a former Head Boy now working for Gringotts and Charlie as a dragon worker in Romania.
+**Evidence:** "Bill had been Head Boy at Hogwarts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 990, entry `gof-ch05-001`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch04-003; Book 2 Chapter Four already links Bill, Charlie, O.W.L.s, Head Boy expectations, and alumni careers; this entry corroborates Bill's Head Boy status and adds his Gringotts role plus Charlie's dragon work.
+**Notes:** The passage is a narrative recap and does not explain the Head Boy selection process or whether either career path is typical for Hogwarts alumni.
+
 #### Section: O.W.L.s and Student Advancement
 
 **Fact:** The passage identifies O.W.L.s as an exam credential, links high achievement to Head Boy expectations, and gives post-Hogwarts examples of former students' paths.
@@ -792,6 +803,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch03-005; Book 2 Chapter Three records holiday storage of trunks, spellbooks, wands, and broomsticks; this entry corroborates the pattern and adds quills plus a September first return countdown.
 **Notes:** The passage describes Harry's individual packing and does not state a formal Hogwarts packing list.
+
+#### Section: School Lists and Pre-Term Supply Shopping
+
+**Fact:** The chapter confirms that returning students still use school lists for pre-term Diagon Alley purchases and that family shopping logistics can be coordinated around major wizarding events.
+**Evidence:** "leave your school list out"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 1000, entry `gof-ch05-006`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch04-001; Book 4 Chapter Four records Harry's packed school trunk and September first return; this entry corroborates pre-term material preparation and adds school-list shopping in Diagon Alley before the World Cup.
+**Notes:** The passage does not quote the contents of the school list or show the shopping trip itself.
 
 ### Chapter: Magical Creatures in School Knowledge
 
@@ -1556,6 +1578,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Earlier House and admissions entries mention Muggle-born students, but no prior seed records Hermione's exam success against Draco or this explicit blood-status reaction.
 **Notes:** The evidence comes through hostile private conversation and does not identify official Hogwarts policy on blood status.
 
+#### Section: Pure-Blood Prejudice Beyond School
+
+**Fact:** The chapter corroborates pure-blood prejudice toward Muggle-born or Muggle-descended witches and shows that such prejudice persists in elite public wizarding spaces.
+**Evidence:** "anyone of Muggle descent, like Hermione, second-class"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1031, entry `gof-ch08-003`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch07-003; Book 2 Chapter Seven defines the Muggle-born slur and pure-blood prejudice in a Hogwarts student conflict; this entry corroborates that prejudice in elite adult society under Ministry scrutiny.
+**Notes:** The passage summarizes Malfoy attitudes in narration and does not give a formal law, policy, or school rule.
+
 #### Section: Slurs, Prejudice, and Student Achievement
 
 **Fact:** The chapter defines Mudblood as an insulting term for Muggle-born witches and wizards, connects it to pure-blood prejudice, and contrasts that prejudice with Hermione's demonstrated magical competence.
@@ -1566,6 +1599,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch04-004; Chapter Four seeded Lucius Malfoy's blood-status prejudice around Hermione's exam performance; this entry adds the explicit slur, student reaction, and Ron's explanation of Muggle-born, pure-blood, and half-blood terms.
 **Notes:** Ron's explanation is informal; later sources should confirm terminology history and distinguish social prejudice from school policy.
+
+### Chapter: Dark Magic, Security, and Public Panic
+
+#### Section: Dark Mark Summoning and Emergency Response
+
+**Fact:** The chapter records the incantation and appearance of the Dark Mark and shows the Ministry's immediate armed response to its summoning.
+**Evidence:** "It's the Dark Mark"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1053, entry `gof-ch09-004`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned Defense Against the Dark Arts and broad Voldemort entries but no direct prior seed for Morsmordre, Dark Mark appearance, or the Ministry Stunner response.
+**Notes:** The caster is not identified in this chapter, so the entry should not assign responsibility beyond the observed spell and response.
 
 ### Chapter: Harry Potter Before Hogwarts
 
@@ -1764,6 +1810,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: House-Elves and Hogwarts
 
+#### Section: Clothing, Dismissal, and Servitude Norms
+
+**Fact:** The chapter links house-elf obedience magic, social acceptance of servitude, and the clothing mechanism that frees or dismisses a house-elf.
+**Evidence:** "This means clothes."
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1050, entry `gof-ch09-003`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch18-006; Book 2 Chapter Eighteen demonstrates house-elf manumission through clothing with Dobby; this entry corroborates that mechanism through Winky and adds obedience, reputation, and dismissal context from Crouch's household.
+**Notes:** Winky's case reflects one master's household authority and the wider custom around house-elves, not a formal Hogwarts rule.
+
 #### Section: House-Elf Bondage Before Hogwarts Kitchen Evidence
 
 **Fact:** Dobby describes house-elves as bound servants of wizarding families who require release by the family to become free.
@@ -1796,6 +1853,56 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-001; Chapter Two records Dobby's bondage to one family until freed; this entry adds magic-use permission and association with old wealthy households.
 **Notes:** The claims come from Fred and George's conversation, not a formal historical or legal source, and they still concern private households rather than Hogwarts.
+
+#### Section: Service Norms, Pay, and Regulation
+
+**Fact:** The chapter expands house-elf service norms with Winky's claims about unpaid labor, master obedience, and possible Department regulation for nonconforming conduct.
+**Evidence:** "House-elves is not paid, sir!"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1028, entry `gof-ch08-002`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-001; Book 2 Chapter Two records Dobby's bondage to a wizarding family; this entry adds Winky's claims about unpaid work, job placement after freedom, obedience to a master, and creature-regulation pressure.
+**Notes:** Winky is defending conventional house-elf views, so the passage should be balanced against later evidence about Dobby's paid Hogwarts work.
+
+### Chapter: Law, Creatures, and Magical Citizenship
+
+#### Section: Code of Wand Use and Non-Human Wand Restrictions
+
+**Fact:** The chapter names clause three of the Code of Wand Use and connects wand possession by non-human creatures to Ministry creature-regulation authority.
+**Evidence:** "No non-human creature is permitted to carry or use a wand."
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1057, entry `gof-ch09-005`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned creature-law and wand-sanction entries but no prior seed naming clause three of the Code of Wand Use or the non-human wand restriction.
+**Notes:** Diggory quotes the rule in an accusatory investigation; the chapter does not supply the law's full text, history, enforcement standards, or exceptions.
+
+### Chapter: Magical Creatures in Public Wizarding Life
+
+#### Section: National Mascots and Event Control
+
+**Fact:** The chapter records a public-event custom in which national Quidditch teams bring native magical creatures as mascots, with Veela enchantment, leprechaun displays, and Ministry crowd-control intervention.
+**Evidence:** "National teams bring creatures from their native land"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1039, entry `gof-ch08-006`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general magical-creature and school-event entries, but no prior seed on Veela, leprechauns, national team mascots, or Ministry crowd control at sporting events.
+**Notes:** The scene is a World Cup spectacle, not a Hogwarts lesson or school policy, and the leprechaun gold is not explained in this chapter.
+
+### Chapter: Magical Evidence and Investigation
+
+#### Section: Wand Spell Echoes and Prior Incantato
+
+**Fact:** The chapter gives practical magical-forensics evidence that Prior Incantato can reveal a wand's last performed spell and that Deletrius can dismiss the resulting echo.
+**Evidence:** "the ghost of a spell"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1059, entry `gof-ch09-006`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned generic wand and source entries but no prior seed for Prior Incantato as a wand-forensics method.
+**Notes:** The chapter shows the method in one case and does not define its limits, reliability, time window, or susceptibility to tampering.
 
 ### Chapter: Marauders-Era Context and Hidden Identities
 
@@ -1845,7 +1952,40 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-002; Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
 **Notes:** The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
 
+### Chapter: Quidditch Beyond Hogwarts
+
+#### Section: Spectator Devices and Tactical Literacy
+
+**Fact:** The chapter introduces Omnioculars as magical sports-viewing devices with replay, speed control, magnification, and tactical play-by-play overlays.
+**Evidence:** "replay and play-by-play buttons"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1035, entry `gof-ch08-004`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found prior Quidditch entries but no earlier seed specifically about Omnioculars or magical replay/play-by-play devices.
+**Notes:** The chapter does not state who manufactures Omnioculars, whether they are allowed at Hogwarts matches, or how the tactical labels are generated.
+
 ### Chapter: Student Inventions and Magical Misconduct
+
+#### Section: Weasley Joke Products at Hogwarts
+
+**Fact:** The chapter documents Fred and George's student-made joke products, their attempted Hogwarts market, family concern over product danger, and a reminder that O.W.L.s are age-fifteen Hogwarts examinations.
+**Evidence:** "they were planning to sell it at Hogwarts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 992, entry `gof-ch05-002`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch04-005; Book 4 Chapter Four records the Ton-Tongue Toffee incident as a student-made joke sweet with an Engorgement Charm effect; this entry corroborates that product line and adds order forms, planned Hogwarts sales, fake wands, and O.W.L. context.
+**Notes:** The passage summarizes the twins' plans through family conversation and does not show actual sales at Hogwarts or official school confiscation.
+
+**Fact:** The chapter corroborates Fred and George's student joke-product development, showing hidden Ton-Tongue Toffees, repeated Summoning Charm retrieval, six months of development work, and O.W.L. consequences.
+**Evidence:** "six months developing those"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Six - The Portkey, PDF page 1004, entry `gof-ch06-003`, `sources/book-04/chapter-06-the-portkey.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-002; Book 4 Chapter Five already records Weasleys' Wizard Wheezes order forms, planned Hogwarts sales, fake wands, trick sweets, and O.W.L. context; this entry adds the attempted smuggling and six-month development detail.
+**Notes:** The scene takes place at the Burrow and does not show the products being used or sold at Hogwarts.
 
 #### Section: Weasley Joke Sweets and Engorgement Charms
 
@@ -1899,6 +2039,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: The Triwizard Year and Institutional Security
 
+#### Section: Bertha Jorkins and Ministry Search Failure
+
+**Fact:** The chapter corroborates Bertha Jorkins's disappearance from the Ministry side and shows Bagman's reluctance to assign search resources despite Crouch's concern.
+**Evidence:** "memory like a leaky cauldron"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1021, entry `gof-ch07-005`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records Bertha Jorkins's disappearance and Ministry workload; this entry adds Bagman's minimization and Crouch's push to search.
+**Notes:** The scene does not reveal what happened to Bertha or what information she carried.
+
+#### Section: Classified Ministry Announcement at Hogwarts
+
+**Fact:** The chapter directly foreshadows a Ministry-organized, signed, classified event at Hogwarts before the school year begins.
+**Evidence:** "it's happening at Hogwarts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1023, entry `gof-ch07-007`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records a top-secret post-World Cup event; this entry identifies Hogwarts as the venue and adds signed agreement/classification details.
+**Notes:** The chapter does not yet name the event as the Triwizard Tournament or explain who signed the agreement.
+
 #### Section: Ministry Information Leaks and Memory Charm Limits
 
 **Fact:** The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
@@ -1909,6 +2071,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; No existing seed records Bertha Jorkins, her Ministry information, or the stated Memory Charm vulnerability.
 **Notes:** The chapter does not specify what Bertha revealed or how the information connects to Hogwarts; later chapters must identify the institutional link.
+
+#### Section: Ministry Workload Before the Tournament
+
+**Fact:** The chapter connects Ministry international-cooperation work to cauldron-safety standards, World Cup logistics, Bertha Jorkins's disappearance, and a secret event soon to follow the World Cup.
+**Evidence:** "another big event to organize right after the World Cup"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 993, entry `gof-ch05-003`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch01-003; Book 4 Chapter One records Bertha Jorkins as a Ministry information source for Voldemort's plan; this entry corroborates her disappearance from the Ministry side and adds the post-World Cup secret-event workload.
+**Notes:** The event is unnamed in this chapter, so the Hogwarts connection depends on later corroborating chapters rather than this passage alone.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -1922,6 +2095,87 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; No prior seed records the open magical celebrations and Muggle-noticed secrecy strain after Voldemort's fall.
 **Notes:** The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
+
+### Chapter: Wizarding Schools Beyond Britain
+
+#### Section: Beauxbatons and European Magical Education Sources
+
+**Fact:** The chapter confirms Beauxbatons Academy of Magic as a European magical school known through Hermione's named in-universe educational reference.
+**Evidence:** "An Appraisal of Magical Education in Europe"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1049, entry `gof-ch09-002`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found prior generic in-universe source entries but no direct prior seed for Beauxbatons or An Appraisal of Magical Education in Europe.
+**Notes:** The passage identifies Beauxbatons but gives no details about its curriculum, governance, age range, or relationship with Hogwarts.
+
+#### Section: International Schools and Exchange Awareness
+
+**Fact:** The chapter confirms that Hogwarts is one school within a wider international wizarding education network, with references to a Brazilian school, exchange travel, and Hermione's book-based knowledge.
+**Evidence:** "Hogwarts couldn't be the only one"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1017, entry `gof-ch07-003`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general World Cup and Hogwarts matches, but no prior entry focused on other wizarding schools or exchange awareness.
+**Notes:** The Brazilian school and exchange trip are reported secondhand by Ron, and the Salem banner does not by itself define whether the institute is a school.
+
+### Chapter: Wizarding Transport, Public Events, and Secrecy
+
+#### Section: Campsite Memory Charms and Anti-Muggle Security
+
+**Fact:** The chapter shows World Cup secrecy enforcement at the campsite, including repeated Memory Charms on the Muggle manager and Ministry frustration with Bagman's loose talk near Muggles.
+**Evidence:** "Needs a Memory Charm ten times a day"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1011, entry `gof-ch07-001`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-002; Book 4 Chapter Six already records mass World Cup travel and anti-Muggle precautions; this entry adds the campsite-level Memory Charm operation and Bagman's security laxity.
+**Notes:** The scene concerns a World Cup campsite rather than Hogwarts grounds, so school relevance is contextual rather than institutional.
+
+#### Section: International Portkey Coordination
+
+**Fact:** The chapter expands World Cup transport logistics from British Portkey sites to an international, five-continent Ministry operation coordinated by Crouch.
+**Evidence:** "Organizing Portkeys across five continents"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1023, entry `gof-ch07-006`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-002; Book 4 Chapter Six records timed Portkeys around Britain for World Cup arrivals; this entry corroborates and extends that seed to Crouch's five-continent coordination.
+**Notes:** The passage gives scale but not operational details such as sites, timing, or authorization process.
+
+#### Section: Portkeys and Mass Event Travel
+
+**Fact:** The chapter gives concrete Ministry logistics for a mass international wizarding event, including secrecy precautions, staggered arrivals, safe Apparition points, and timed Portkeys disguised as ordinary objects.
+**Evidence:** "two hundred Portkeys placed at strategic points"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Six - The Portkey, PDF page 1005, entry `gof-ch06-002`, `sources/book-04/chapter-06-the-portkey.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch01-002; Book 4 Chapter One already records Quidditch World Cup security, international wizard movement, and Muggle-secrecy pressure; this entry adds the travel mechanics of staggered arrivals, Apparition points, and Portkeys.
+**Notes:** The details concern the Quidditch World Cup rather than a Hogwarts event, so school relevance depends on later tournament-year context.
+
+#### Section: Quidditch World Cup Stadium Protections
+
+**Fact:** The chapter adds stadium-scale secrecy architecture for the World Cup, including a year-long Ministry task force and comprehensive Muggle Repelling Charms.
+**Evidence:** "Muggle Repelling Charms on every inch of it"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1026, entry `gof-ch08-001`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-001; Book 4 Chapter Seven records World Cup campsite anti-Muggle security and Memory Charms; this entry adds stadium-wide Muggle Repelling Charms and the dedicated Ministry task force.
+**Notes:** The passage concerns the World Cup stadium, not Hogwarts grounds, so its school relevance is contextual.
+
+#### Section: World Cup Riot and Muggle Victim Rescue
+
+**Fact:** The chapter gives direct evidence of Death Eater-style Muggle-baiting at a public wizarding event and shows Ministry responders constrained by victim safety.
+**Evidence:** "the smallest Muggle child"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1046, entry `gof-ch09-001`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned broad war and security entries, but no prior seed specifically records the Roberts family levitation or the World Cup riot rescue problem.
+**Notes:** The passage identifies the attackers visually as masked wizards; later dialogue says they were probably Death Eaters but does not prove individual identities.
 
 ## Part: Magical Architecture and Enchantments
 
@@ -2247,7 +2501,35 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; No direct duplicate found for Flitwick's office location or this specific exterior-window access.
 **Notes:** The chapter does not say whether the office window normally has stronger protections or whether Alohomora works because of unusual circumstances.
 
+## Part: Magical Architecture and Spaces
+
+### Chapter: Enchanted Space Beyond the Castle
+
+#### Section: Expanded Tents and Public Camouflage
+
+**Fact:** The chapter gives observed evidence for magically expanded temporary living spaces and for imperfect magical camouflage when wizards gather in public.
+**Evidence:** "three-room flat, complete with bathroom and kitchen"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1013, entry `gof-ch07-002`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** magical_architecture
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general magical-object and Quidditch matches but no prior entry on expanded tents or campsite camouflage.
+**Notes:** The passage does not name the spell or object enchantment used to expand the tents.
+
 ## Part: Notable Events Before 1984
+
+### Chapter: Dark Marks and Wartime Terror
+
+#### Section: Death Eaters, Public Terror, and Postwar Denials
+
+**Fact:** The chapter names an in-universe Dark Arts history source and summarizes the Dark Mark's First Wizarding War use, Death Eater identity, postwar denials, Azkaban avoidance, and immediate Muggle memory cleanup.
+**Evidence:** "The Rise and Fall of the Dark Arts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1064, entry `gof-ch09-007`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** pre_1984_historical_candidate
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-001; Book 4 Chapter Seven records campsite Memory Charms for ordinary anti-Muggle secrecy; this entry adds post-riot modification of the Roberts family's memories and broader Dark Mark/Death Eater history.
+**Notes:** The explanation is secondhand adult testimony and a student-cited source title; it does not identify the caster or prove all masked rioters were Death Eaters.
 
 ### Chapter: Dumbledore and the First Wizarding War
 
@@ -3136,6 +3418,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch01-007; Book 3 Chapter One introduced the Broomstick Servicing Kit and handbook; this entry adds named handbook content and practical broom handling.
 **Notes:** The handbook is a personal gift, not a school-issued text, and the chapter does not show Hogwarts assigning or endorsing it.
 
+#### Section: Brooms, Positions, and Wider Wizarding Sport
+
+**Fact:** The chapter contrasts international Quidditch discussion with Harry's Hogwarts House-team role, confirming his Gryffindor Seeker position and Firebolt ownership.
+**Evidence:** "played in the position of Seeker"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 999, entry `gof-ch05-005`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch01-007; Book 3 Chapter One already restates Harry's Hogwarts House-team status and broom equipment; this entry corroborates that role and updates the broom reference to the Firebolt while adding World Cup context.
+**Notes:** The passage is retrospective and focused on Harry; it does not describe ordinary team selection, school match rules, or Firebolt regulation.
+
 #### Section: First-Year Restrictions and Exceptions
 
 **Fact:** The chapter indicates that first-years normally do not play on House Quidditch teams, but McGonagall considers an exception for Harry after consulting Dumbledore; Ron and Wood frame Harry as an unusually young House player.
@@ -3157,6 +3450,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch13-004; Book 3 Chapter Thirteen records match sabotage by Slytherin students; this entry extends the same rivalry into pre-final corridor scuffles, informal escorting, and equipment custody.
 **Notes:** The source explicitly frames this atmosphere as unprecedented in memory, so it should not be treated as normal House rivalry.
+
+#### Section: Hufflepuff Captain and Seeker
+
+**Fact:** The chapter confirms Cedric Diggory's Hogwarts Quidditch role as Hufflepuff Captain and Seeker, and it recalls the previous year's Hufflepuff-over-Gryffindor match result.
+**Evidence:** "Captain and Seeker of the Hufflepuff House Quidditch team"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Six - The Portkey, PDF page 1006, entry `gof-ch06-004`, `sources/book-04/chapter-06-the-portkey.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch09-006; Book 3 Chapter Nine records the Hufflepuff match, match governance, and Snitch result; this entry corroborates Cedric's team role and the lasting interpretation of that match.
+**Notes:** The passage is a recap outside Hogwarts and does not describe full Hufflepuff team organization or season standings.
 
 #### Section: Practice Scheduling, Captains, and Equipment
 
@@ -3214,6 +3518,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; No existing seed records the Quidditch World Cup security context.
 **Notes:** The passage concerns a non-Hogwarts event and is spoken by Voldemort, though the Ministry-security and Muggle-secrecy logic is concrete.
+
+#### Section: International Governance and Match Rules
+
+**Fact:** The chapter supplies international Quidditch governance evidence through named national teams, a named international association chairwizard, referee procedure, fouls, and penalties.
+**Evidence:** "Chairwizard of the International Association of Quidditch"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1034, entry `gof-ch08-005`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch03-001; Book 4 Chapter Three records World Cup administration through the Department of Magical Games and Sports; this entry adds the International Association of Quidditch, named national teams, referee authority, and in-match penalties.
+**Notes:** The chapter gives observed match procedure but not a full rulebook or the association's formal jurisdiction.
 
 ### Chapter: Quidditch Pitch and Matchday Infrastructure
 
@@ -3668,6 +3983,32 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; No duplicate found; previous course-load entries imply unusual scheduling but do not state Time-Turner law or noninterference rules.
 **Notes:** Hermione paraphrases the law and McGonagall's warnings; the exact legal text and enforcement authority are not quoted.
 
+### Chapter: Magical Transportation and Student Restrictions
+
+#### Section: Apparition Licensing and Risks
+
+**Fact:** The chapter records Apparition as a licensed adult magical transport skill, with formal testing, fines for unlicensed use, Splinching risks, and Ministry reversal response when Muggles might notice.
+**Evidence:** "you haven't passed your test"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Six - The Portkey, PDF page 1002, entry `gof-ch06-001`, `sources/book-04/chapter-06-the-portkey.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned magical-safety and Quidditch matches, but no prior entry on Apparition licensing, Splinching, or the Department of Magical Transportation.
+**Notes:** The evidence comes from a family breakfast before a World Cup trip and does not state Hogwarts curriculum rules for Apparition instruction.
+
+### Chapter: Ministry Interfaces with Hogwarts
+
+#### Section: Specialist Offices and External Governance Context
+
+**Fact:** The chapter supplies compact Ministry organizational evidence by naming several offices and specialist roles present at the World Cup.
+**Evidence:** "they're Unspeakables"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1018, entry `gof-ch07-004`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned broad Ministry-law matches, but no prior entry naming these specific offices and roles together.
+**Notes:** The passage is a campsite identification list and does not describe each office's formal jurisdiction or relationship to Hogwarts.
+
 ### Chapter: Prefects and Student Authority
 
 #### Section: Prefects on the Hogwarts Express
@@ -3809,6 +4150,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=false; Later chapters mention Hagrid as gamekeeper; this entry records the expulsion, wand sanction, and Dumbledore's retention decision.
 **Notes:** Hagrid avoids explaining the reason for expulsion in this chapter.
+
+#### Section: Family Notification and Escalation
+
+**Fact:** The chapter gives family-side evidence that Hogwarts sends repeated disciplinary owls about student misconduct and frames the twins' fake-wand habit as conduct that could escalate beyond school.
+**Evidence:** "more owls from Hogwarts about them"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 995, entry `gof-ch05-004`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** school_rule_or_policy
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-005; Book 2 Chapter Five records Dumbledore writing to families after serious misconduct; this entry corroborates family notification and adds repeated Hogwarts owls about ongoing student behavior.
+**Notes:** The evidence is Mrs. Weasley's summary and does not quote any Hogwarts disciplinary letter or specify which staff member sent the owls.
 
 #### Section: Head of House Responsibility and Term-Bound Points
 

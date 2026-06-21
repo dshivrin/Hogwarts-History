@@ -46,6 +46,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crystal-Gazing Exams and True Seer Evidence
 - Exams and Assessment
   - Education Continuity During Crisis
+  - Head Boy, Student Achievement, and Alumni Paths
   - O.W.L.s and Student Advancement
   - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
   - Third-Year Practical and Written Exams
@@ -71,6 +72,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Homework and Student Materials
   - Holiday Homework and Supply Shopping
   - Holiday Storage of School Materials
+  - School Lists and Pre-Term Supply Shopping
 - Magical Creatures in School Knowledge
   - Unicorn Materials and Centaur Divination
 - Potions
@@ -159,7 +161,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Black, Potter, and Pettigrew in School Memory
 - Blood Status and Hogwarts Society
   - Academic Merit and Pure-Blood Prejudice
+  - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
+- Dark Magic, Security, and Public Panic
+  - Dark Mark Summoning and Emergency Response
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -182,16 +187,27 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
+  - Clothing, Dismissal, and Servitude Norms
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
   - House-Elf Bondage and Manumission
   - House-Elf Magic and Old Wizarding Households
+  - Service Norms, Pay, and Regulation
+- Law, Creatures, and Magical Citizenship
+  - Code of Wand Use and Non-Human Wand Restrictions
+- Magical Creatures in Public Wizarding Life
+  - National Mascots and Event Control
+- Magical Evidence and Investigation
+  - Wand Spell Echoes and Prior Incantato
 - Marauders-Era Context and Hidden Identities
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Quidditch Beyond Hogwarts
+  - Spectator Devices and Tactical Literacy
 - Student Inventions and Magical Misconduct
+  - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
@@ -200,9 +216,21 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
+  - Bertha Jorkins and Ministry Search Failure
+  - Classified Ministry Announcement at Hogwarts
   - Ministry Information Leaks and Memory Charm Limits
+  - Ministry Workload Before the Tournament
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wizarding Schools Beyond Britain
+  - Beauxbatons and European Magical Education Sources
+  - International Schools and Exchange Awareness
+- Wizarding Transport, Public Events, and Secrecy
+  - Campsite Memory Charms and Anti-Muggle Security
+  - International Portkey Coordination
+  - Portkeys and Mass Event Travel
+  - Quidditch World Cup Stadium Protections
+  - World Cup Riot and Muggle Victim Rescue
 
 ## Magical Architecture and Enchantments
 
@@ -233,8 +261,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Towers, Offices, and Upper-Floor Access
   - Professor Flitwick's Office and West Tower Windows
 
+## Magical Architecture and Spaces
+
+- Enchanted Space Beyond the Castle
+  - Expanded Tents and Public Camouflage
+
 ## Notable Events Before 1984
 
+- Dark Marks and Wartime Terror
+  - Death Eaters, Public Terror, and Postwar Denials
 - Dumbledore and the First Wizarding War
   - Biographical Sources and Public Reputation
   - Hogwarts as a Wartime Safe Place
@@ -338,14 +373,17 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Training Supervision, Weather, and Match Results
 - House Quidditch Teams
   - Brooms and Player Equipment
+  - Brooms, Positions, and Wider Wizarding Sport
   - First-Year Restrictions and Exceptions
   - House Rivalry and Player Protection
+  - Hufflepuff Captain and Seeker
   - Practice Scheduling, Captains, and Equipment
   - Season Preparation, Captains, and the Quidditch Cup
   - Training Supervision and Broom Expertise
 - Quidditch Beyond Hogwarts
   - International Events and Ministry Sport Administration
   - International Events and Security Context
+  - International Governance and Match Rules
 - Quidditch Pitch and Matchday Infrastructure
   - Stands, Locker Rooms, and House Colors
 - School Quidditch Season
@@ -399,6 +437,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Books Outside the School
 - Magical Safety Rules and Exceptional Permissions
   - Time-Turner Noninterference Rules
+- Magical Transportation and Student Restrictions
+  - Apparition Licensing and Risks
+- Ministry Interfaces with Hogwarts
+  - Specialist Offices and External Governance Context
 - Prefects and Student Authority
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority
@@ -416,6 +458,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Underage Magic and Hogwarts Expulsion Risk
 - Student Discipline and Expulsion
   - Expulsion, Wand Sanctions, and Staff Retention
+  - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
