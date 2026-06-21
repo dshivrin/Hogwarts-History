@@ -50,8 +50,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, pages 1026-1043, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, `sources/book-04/chapter-09-the-dark-mark.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, `sources/book-04/chapter-09-the-dark-mark.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, pages 1067-1077, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`

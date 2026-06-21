@@ -2,6 +2,20 @@
 
 Use this compact contract for routine extraction runs. Read full background or schema files only when this contract says to.
 
+## CLI Workflow
+
+Prefer short project recipes over repeated long shell commands.
+
+- Start orientation with `just brief`.
+- Use `just next` for the current next-run display.
+- Use `just search "pattern"` or direct `rg "pattern" path/` before reading broad files.
+- Use `just query-dupes <tag> <tag>` for duplicate lookup after candidate tags are known.
+- Use `just validate` after source YAML changes.
+- Use `just post` after a completed extraction or generator change.
+
+Do not require `yq`; use project Python scripts for YAML.
+Use `jq` only for JSON output.
+
 ## Required Reads
 
 For a normal run, read only:
@@ -17,9 +31,10 @@ Read these only when needed:
 
 - `docs/instructions/schema-reference.md` for schema uncertainty or validation failure.
 - `docs/instructions/background-guide.md` for canon, era, or classification ambiguity.
-- `scripts/query_duplicates.py` for duplicate and context lookup.
-- `scripts/query_entries.py` for compact entry lookup by tag, classification, source unit, or output YAML.
-- Historical YAML files only when a query script identifies a likely duplicate.
+- `just query-dupes <tag> <tag>` for duplicate and context lookup after candidate tags are known.
+- `just query-entries <tag>` for compact entry lookup by tag.
+- Query script source files only when debugging the query tools themselves.
+- Historical YAML files only when a query recipe identifies a likely duplicate.
 - `appendix/generated/*.md` only for human-facing review, not routine extraction.
 
 ## Prohibited During Normal Runs
@@ -46,7 +61,7 @@ Do not read:
 ## Duplicate Check Procedure
 
 1. Normalize 3-8 topic tags for each candidate.
-2. Run `scripts/query_duplicates.py` with candidate tags and placement terms.
+2. Run `just query-dupes <tag> <tag>` with candidate tags and placement terms.
 3. If no likely match appears, mark `possible_duplicate: false`.
 4. If a likely match appears, open only the referenced YAML file and compare evidence.
 5. Do not open full index files during normal extraction.
@@ -56,19 +71,7 @@ Do not read:
 
 1. Write or update the current chapter YAML path in `processing-state.yaml`.
 2. Keep full chapter YAML self-contained and schema-compliant.
-3. Run the normal post-extraction command sequence:
-
-```bash
-.venv/bin/python scripts/build_duplicate_index.py
-.venv/bin/python scripts/build_entry_index.py
-.venv/bin/python scripts/build_tag_index.py
-.venv/bin/python scripts/validate_source_yaml.py
-.venv/bin/python scripts/generate_book_seed.py
-.venv/bin/python scripts/generate_appendices.py
-.venv/bin/python scripts/update_next_run.py
-.venv/bin/python scripts/cleanup_tmp.py
-```
-
+3. Run `just post`.
 4. Keep `book-seed/hogwarts-a-history-seed.md` as the main human-readable result.
 5. Keep `appendix/generated/*.md` as generated support/reference files.
 
@@ -80,8 +83,8 @@ Do not read:
 - `reference_type` and `era_classification` use values from `schema-reference.md`.
 - Changed indexes parse as YAML.
 - Generated appendices start with the generated-file notice.
-- Run `scripts/validate_source_yaml.py` after changing source YAML or generated helper files.
-- Run `scripts/generate_book_seed.py` when appendices are regenerated or after each completed source unit.
+- Run `just validate` after changing source YAML or generated helper files.
+- Run `just post` when appendices are regenerated or after each completed source unit.
 
 ## Git Backup Rule
 

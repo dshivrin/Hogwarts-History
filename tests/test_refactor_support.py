@@ -369,7 +369,8 @@ class RefactorSupportTests(unittest.TestCase):
 
         self.assertEqual(state["current_source_unit"]["chapter_number"], 2)
         self.assertIn("Chapter Two - The Scar", next_run)
-        self.assertIn("scripts/query_duplicates.py", next_run)
+        self.assertIn("just query-dupes", next_run)
+        self.assertNotIn("scripts/query_duplicates.py", next_run)
         self.assertNotIn("Open full index files", next_run)
         self.assertNotIn("project-control/entry-index.yaml`", next_run)
 
@@ -445,20 +446,50 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertEqual(state["next_source_unit"]["chapter_number"], 4)
         self.assertEqual(source_plan["sources"][0]["chapters"][0]["status"], "complete")
 
-    def test_runtime_contract_lists_post_extraction_flow_order(self) -> None:
+    def test_runtime_contract_uses_compact_cli_workflow(self) -> None:
         contract = Path("docs/instructions/runtime-contract.md").read_text(encoding="utf-8")
-        expected_order = [
-            "build_duplicate_index.py",
-            "build_entry_index.py",
-            "build_tag_index.py",
-            "validate_source_yaml.py",
-            "generate_book_seed.py",
-            "generate_appendices.py",
-            "update_next_run.py",
-            "cleanup_tmp.py",
-        ]
-        positions = [contract.index(item) for item in expected_order]
-        self.assertEqual(positions, sorted(positions))
+
+        self.assertIn("## CLI Workflow", contract)
+        for text in [
+            "just brief",
+            "just next",
+            "just search",
+            "just query-dupes",
+            "just query-entries",
+            "just validate",
+            "just post",
+            "Do not require `yq`",
+        ]:
+            self.assertIn(text, contract)
+
+        self.assertIn("3. Run `just post`.", contract)
+        self.assertNotIn("`scripts/query_duplicates.py` for duplicate and context lookup", contract)
+        self.assertNotIn("`scripts/query_entries.py` for " "compact entry lookup", contract)
+        for text in [
+            ".venv/bin/python scripts/build_duplicate_index.py",
+            ".venv/bin/python scripts/build_entry_index.py",
+            ".venv/bin/python scripts/build_tag_index.py",
+            ".venv/bin/python scripts/validate_source_yaml.py",
+            ".venv/bin/python scripts/generate_book_seed.py",
+            ".venv/bin/python scripts/generate_appendices.py",
+            ".venv/bin/python scripts/update_next_run.py",
+            ".venv/bin/python scripts/cleanup_tmp.py",
+        ]:
+            self.assertNotIn(text, contract)
+
+    def test_justfile_exposes_compact_workflow_recipes(self) -> None:
+        justfile = Path("Justfile").read_text(encoding="utf-8")
+
+        for recipe in [
+            "brief:",
+            "test:",
+            "indexes:",
+            "generate:",
+            "post:",
+            "query-dupes *tags:",
+            "query-entries tag:",
+        ]:
+            self.assertIn(recipe, justfile)
 
     def _state_yaml(self) -> str:
         return (

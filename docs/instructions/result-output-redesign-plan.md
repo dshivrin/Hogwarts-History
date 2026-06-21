@@ -3,7 +3,7 @@
 Review date: 2026-06-21
 Repository state: current workspace after validator, query scripts, generated appendices, stats, review flags, `book-seed/hogwarts-a-history-seed.md`, and CLI tooling support already exist.
 
-Prerequisite: implement `docs/instructions/cli-tooling-runtime-update-plan.md` before this plan. This result-output plan assumes the root `Justfile` has real project recipes such as `just brief`, `just search`, `just validate`, `just test`, `just indexes`, `just generate`, `just post`, `just query-dupes`, and `just query-entries`.
+Prerequisite status: `docs/instructions/cli-tooling-runtime-update-plan.md` has been implemented. This result-output plan assumes the root `Justfile` has real project recipes such as `just brief`, `just search`, `just validate`, `just test`, `just indexes`, `just generate`, `just post`, `just query-dupes`, and `just query-entries`.
 
 ## Purpose
 
@@ -56,7 +56,7 @@ just test
 Expected current result:
 
 ```text
-Ran 12 tests
+Ran 13 tests
 OK
 ```
 
@@ -314,7 +314,7 @@ Acceptance criteria:
 - The final seed is shorter and easier to scan.
 - Entry ids, source paths, page references, confidence, and classifications remain visible.
 - No evidence traceability is lost.
-- `just search "possible_duplicate=false" book-seed/hogwarts-a-history-seed.md` returns no matches after regeneration.
+- `rg "possible_duplicate=false" book-seed/hogwarts-a-history-seed.md` returns no matches after regeneration.
 
 ### Task 3: Enrich Explicit References Appendix
 
@@ -372,7 +372,7 @@ Files:
 
 Steps:
 
-Run the normal post-generation recipe:
+Run the compact normal post-generation recipe; the root `Justfile` contains its expanded implementation:
 
 ```bash
 just post
@@ -380,7 +380,7 @@ just post
 
 Review:
 
-- `just search "## Part:" book-seed/hogwarts-a-history-seed.md`
+- `rg "## Part:" book-seed/hogwarts-a-history-seed.md`
 - top 200 lines of `book-seed/hogwarts-a-history-seed.md`
 - explicit references appendix
 - review flags appendix

@@ -21,8 +21,9 @@ Read only:
 - `.tmp/current-chapter.txt`
 - Current output YAML only if it exists
 
-Use `scripts/query_duplicates.py` for duplicate and context lookup. Open only referenced
-YAML files for likely matches.
+Use `just query-dupes <tag> <tag>` for duplicate and context lookup after candidate
+tags are known. Open only referenced YAML files for likely matches.
+Use `just search "pattern"` or targeted `rg` before opening broad files.
 
 Do not read appendices, archives, old prompts, full indexes, all prior YAML files, or
 `chapters-index.md` during normal runs.
