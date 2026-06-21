@@ -29,6 +29,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Live Creature Handling and Safety
 - Charms
   - First-Year Spellwork
+- Course Materials and Annual Booklists
+  - Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
 - Course Structure and Academic Progression
   - Advanced Defensive Magic
   - Defense Against the Dark Arts Creature Sequence
@@ -106,6 +108,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Residence and Easter Stays
   - Holiday Residence and Winter Conditions
   - Small-Holiday Meals and Great Hall Layout
+- Dress, Uniform, and Formal Occasions
+  - Dress Robes on the Fourth-Year School List
 - End-of-Year Feast and House Cup
   - Crisis Feast, Canceled Exams, and Departure
   - Exam Results and Winning-House Decorations
@@ -165,6 +169,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slurs, Prejudice, and Student Achievement
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
+- Divination, Prophecy, and School Testimony
+  - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -194,6 +200,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Service Norms, Pay, and Regulation
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
+  - Ministry Guidelines for Non-Wizard Part-Humans
 - Magical Creatures in Public Wizarding Life
   - National Mascots and Event Control
 - Magical Evidence and Investigation
@@ -204,6 +211,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pettigrew's Concealed Animagus Identity
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Public Records and Wizarding Press Sources
+  - Daily Prophet Coverage of the World Cup Crisis
 - Quidditch Beyond Hogwarts
   - Spectator Devices and Tactical Literacy
 - Student Inventions and Magical Misconduct
@@ -228,6 +237,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Transport, Public Events, and Secrecy
   - Campsite Memory Charms and Anti-Muggle Security
   - International Portkey Coordination
+  - Muggle Memory Cleanup After Public Incidents
+  - Portkeys and Emergency Event Departure
   - Portkeys and Mass Event Travel
   - Quidditch World Cup Stadium Protections
   - World Cup Riot and Muggle Victim Rescue

@@ -998,6 +998,7 @@ tags:
     - cos-ch04-002
     - cos-ch04-006
     - cos-ch06-006
+    - gof-ch10-006
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch07-003
@@ -1011,6 +1012,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   course-load:
     entries:
     - poa-ch21-002
@@ -1055,6 +1057,11 @@ tags:
     - poa-ch14-003
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+  creature-regulation:
+    entries:
+    - gof-ch10-004
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   crisis-governance:
     entries:
     - cos-ch14-005
@@ -1158,12 +1165,14 @@ tags:
   daily-prophet:
     entries:
     - cos-ch12-006
+    - gof-ch10-003
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -1202,8 +1211,10 @@ tags:
     - gof-ch09-004
     - gof-ch09-006
     - gof-ch09-007
+    - gof-ch10-003
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   davey-gudgeon:
     entries:
     - poa-ch10-002
@@ -1444,6 +1455,7 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
   divination:
     entries:
+    - gof-ch10-005
     - poa-ch04-003
     - poa-ch06-001
     - poa-ch06-003
@@ -1459,6 +1471,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -1516,6 +1529,11 @@ tags:
     - ps-ch14-004
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  dress-robes:
+    entries:
+    - gof-ch10-007
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   dueling-club:
     entries:
     - cos-ch11-003
@@ -1680,6 +1698,11 @@ tags:
     - ps-ch17-003
     output_yaml:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  emergency-departure:
+    entries:
+    - gof-ch10-002
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   emergency-lockdown:
     entries:
     - poa-ch09-002
@@ -2175,6 +2198,11 @@ tags:
     - cos-ch15-004
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+  formal-occasions:
+    entries:
+    - gof-ch10-007
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   fouls:
     entries:
     - ps-ch11-002
@@ -2209,6 +2237,12 @@ tags:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  fourth-year:
+    entries:
+    - gof-ch10-006
+    - gof-ch10-007
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   fred-and-george:
     entries:
     - gof-ch04-005
@@ -2867,6 +2901,7 @@ tags:
     - cos-ch06-003
     - cos-ch14-001
     - cos-ch16-002
+    - gof-ch10-006
     - poa-ch16-003
     - ps-ch08-004
     - ps-ch14-001
@@ -2880,6 +2915,7 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   hermione:
     entries:
     - ps-ch06-004
@@ -3192,6 +3228,11 @@ tags:
     - poa-ch19-004
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  hogwarts-robes:
+    entries:
+    - gof-ch10-007
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   hogwarts-security:
     entries:
     - gof-ch01-004
@@ -3548,6 +3589,7 @@ tags:
     - gof-ch02-005
     - gof-ch09-002
     - gof-ch09-007
+    - gof-ch10-004
     - poa-ch01-001
     - poa-ch02-004
     - ps-ch06-003
@@ -3559,6 +3601,7 @@ tags:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   informal-source:
     entries:
     - poa-ch04-002
@@ -4113,6 +4156,11 @@ tags:
     - cos-ch12-001
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  magical-law:
+    entries:
+    - gof-ch10-004
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   magical-medicine:
     entries:
     - gof-ch02-005
@@ -4217,9 +4265,11 @@ tags:
     - gof-ch06-001
     - gof-ch06-002
     - gof-ch07-006
+    - gof-ch10-002
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   magical-tree:
     entries:
     - cos-ch05-003
@@ -4370,11 +4420,13 @@ tags:
     - gof-ch01-003
     - gof-ch07-001
     - gof-ch09-007
+    - gof-ch10-001
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   memory-magic:
     entries:
     - cos-ch13-004
@@ -4407,6 +4459,11 @@ tags:
     - poa-ch03-001
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  ministry-guidelines:
+    entries:
+    - gof-ch10-004
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -4420,8 +4477,10 @@ tags:
   ministry-logistics:
     entries:
     - gof-ch07-006
+    - gof-ch10-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   ministry-of-magic:
     entries:
     - cos-ch02-005
@@ -4439,6 +4498,8 @@ tags:
     - gof-ch07-007
     - gof-ch08-001
     - gof-ch09-001
+    - gof-ch10-001
+    - gof-ch10-003
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -4464,6 +4525,7 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -4664,6 +4726,7 @@ tags:
     - gof-ch06-002
     - gof-ch07-001
     - gof-ch09-001
+    - gof-ch10-001
     - poa-ch02-002
     - poa-ch03-002
     - ps-ch01-001
@@ -4686,6 +4749,7 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -4995,6 +5059,11 @@ tags:
     - ps-ch02-004
     output_yaml:
     - sources/book-01/chapter-02-vanishing-glass.yaml
+  part-humans:
+    entries:
+    - gof-ch10-004
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   password:
     entries:
     - cos-ch11-007
@@ -5244,9 +5313,11 @@ tags:
     entries:
     - gof-ch06-002
     - gof-ch07-006
+    - gof-ch10-002
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   portrait-guardians:
     entries:
     - poa-ch09-003
@@ -5286,6 +5357,11 @@ tags:
     - cos-ch17-002
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  post-riot-cleanup:
+    entries:
+    - gof-ch10-001
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   potion-ingredients:
     entries:
     - cos-ch11-002
@@ -5296,6 +5372,7 @@ tags:
     - cos-ch09-007
     - cos-ch10-002
     - cos-ch11-002
+    - gof-ch10-006
     - poa-ch07-001
     - poa-ch08-005
     - poa-ch16-003
@@ -5313,6 +5390,7 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   practical-exams:
     entries:
     - poa-ch16-004
@@ -5538,12 +5616,14 @@ tags:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
   professor-trelawney:
     entries:
+    - gof-ch10-005
     - poa-ch06-003
     - poa-ch06-004
     - poa-ch16-005
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   professor-vector:
     entries:
     - poa-ch12-007
@@ -5558,9 +5638,11 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
   prophecy:
     entries:
+    - gof-ch10-005
     - poa-ch16-005
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   public-cover-story:
     entries:
     - poa-ch18-004
@@ -5570,9 +5652,12 @@ tags:
     entries:
     - gof-ch08-001
     - gof-ch09-001
+    - gof-ch10-002
+    - gof-ch10-003
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   public-events:
     entries:
     - gof-ch08-006
@@ -5762,6 +5847,9 @@ tags:
     - gof-ch08-001
     - gof-ch08-005
     - gof-ch09-001
+    - gof-ch10-001
+    - gof-ch10-002
+    - gof-ch10-003
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
@@ -5770,6 +5858,7 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   quills:
     entries:
     - gof-ch04-001
@@ -5868,11 +5957,21 @@ tags:
     - gof-ch09-007
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  rita-skeeter:
+    entries:
+    - gof-ch10-003
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+  roberts-family:
+    entries:
+    - gof-ch10-001
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   robes:
     entries:
     - cos-ch01-002
@@ -6075,8 +6174,10 @@ tags:
   school-list:
     entries:
     - gof-ch05-006
+    - gof-ch10-007
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   school-materials:
     entries:
     - cos-ch01-002
@@ -6134,12 +6235,14 @@ tags:
   school-supplies:
     entries:
     - cos-ch04-002
+    - gof-ch10-006
     - poa-ch04-003
     - ps-ch04-003
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   school-traditions:
     entries:
     - cos-ch08-004
@@ -6751,6 +6854,11 @@ tags:
     - gof-ch03-002
     output_yaml:
     - sources/book-04/chapter-03-the-invitation.yaml
+  standard-book-of-spells:
+    entries:
+    - gof-ch10-006
+    output_yaml:
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   stands:
     entries:
     - ps-ch11-004
@@ -7240,8 +7348,10 @@ tags:
   term-preparation:
     entries:
     - gof-ch05-006
+    - gof-ch10-007
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   third-floor-corridor:
     entries:
     - ps-ch08-003
@@ -7437,11 +7547,13 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   true-seers:
     entries:
+    - gof-ch10-005
     - poa-ch06-004
     - poa-ch16-005
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   underage-magic:
     entries:
     - cos-ch01-005
@@ -7537,9 +7649,11 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   vampires:
     entries:
+    - gof-ch10-004
     - ps-ch05-004
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   veela:
     entries:
     - gof-ch08-006
@@ -7568,6 +7682,7 @@ tags:
     - gof-ch01-005
     - gof-ch02-001
     - gof-ch09-007
+    - gof-ch10-005
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -7581,6 +7696,7 @@ tags:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   voldemort-fall:
     entries:
     - gof-ch02-004
@@ -7852,12 +7968,14 @@ tags:
   wormtail:
     entries:
     - gof-ch02-006
+    - gof-ch10-005
     - poa-ch14-007
     - poa-ch18-006
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   written-papers:
     entries:
     - ps-ch16-001

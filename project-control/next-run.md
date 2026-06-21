@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Ten - Mayhem at the Ministry
-- Page range: 1067-1077
+- Chapter: Chapter Eleven - Aboard the Hogwarts Express
+- Page range: 1078-1088
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+- Output YAML: `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
 
 ## Minimal Context
 

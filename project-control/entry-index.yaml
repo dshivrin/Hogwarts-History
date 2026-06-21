@@ -5971,6 +5971,111 @@ by_entry:
     - voldemort
     source_unit: gof-ch09
     output_yaml: sources/book-04/chapter-09-the-dark-mark.yaml
+  gof-ch10-001:
+    title: 'Wizarding Transport, Public Events, and Secrecy: Muggle Memory Cleanup
+      After Public Incidents'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - memory-charms
+    - ministry-of-magic
+    - muggle-secrecy
+    - post-riot-cleanup
+    - quidditch-world-cup
+    - roberts-family
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  gof-ch10-002:
+    title: 'Wizarding Transport, Public Events, and Secrecy: Portkeys and Emergency
+      Event Departure'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - emergency-departure
+    - magical-transportation
+    - ministry-logistics
+    - portkeys
+    - public-event-security
+    - quidditch-world-cup
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  gof-ch10-003:
+    title: 'Public Records and Wizarding Press Sources: Daily Prophet Coverage of
+      the World Cup Crisis'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - daily-prophet
+    - dark-mark
+    - ministry-of-magic
+    - public-event-security
+    - quidditch-world-cup
+    - rita-skeeter
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  gof-ch10-004:
+    title: 'Law, Creatures, and Magical Citizenship: Ministry Guidelines for Non-Wizard
+      Part-Humans'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - creature-regulation
+    - in-universe-source
+    - magical-law
+    - ministry-guidelines
+    - part-humans
+    - vampires
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  gof-ch10-005:
+    title: 'Divination, Prophecy, and School Testimony: Trelawney''s True Prophecy
+      and Later Corroboration'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - divination
+    - professor-trelawney
+    - prophecy
+    - true-seers
+    - voldemort
+    - wormtail
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  gof-ch10-006:
+    title: 'Course Materials and Annual Booklists: Fourth-Year Spellbooks, Herbology
+      Texts, and Potions Supplies'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - course-books
+    - fourth-year
+    - herbology
+    - potions
+    - school-supplies
+    - standard-book-of-spells
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  gof-ch10-007:
+    title: 'Dress, Uniform, and Formal Occasions: Dress Robes on the Fourth-Year School
+      List'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dress-robes
+    - formal-occasions
+    - fourth-year
+    - hogwarts-robes
+    - school-list
+    - term-preparation
+    source_unit: gof-ch10
+    output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6423,6 +6528,7 @@ by_tag:
   - cos-ch04-002
   - cos-ch04-006
   - cos-ch06-006
+  - gof-ch10-006
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch07-003
@@ -6446,6 +6552,8 @@ by_tag:
   - poa-ch06-006
   creature-law:
   - poa-ch14-003
+  creature-regulation:
+  - gof-ch10-004
   crisis-governance:
   - cos-ch14-005
   - poa-ch21-001
@@ -6494,6 +6602,7 @@ by_tag:
   - ps-ch13-003
   daily-prophet:
   - cos-ch12-006
+  - gof-ch10-003
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -6515,6 +6624,7 @@ by_tag:
   - gof-ch09-004
   - gof-ch09-006
   - gof-ch09-007
+  - gof-ch10-003
   davey-gudgeon:
   - poa-ch10-002
   death-eaters:
@@ -6631,6 +6741,7 @@ by_tag:
   dittany:
   - ps-ch14-001
   divination:
+  - gof-ch10-005
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -6664,6 +6775,8 @@ by_tag:
   dragons:
   - ps-ch14-002
   - ps-ch14-004
+  dress-robes:
+  - gof-ch10-007
   dueling-club:
   - cos-ch11-003
   dumbledore:
@@ -6751,6 +6864,8 @@ by_tag:
   - ps-ch03-005
   elixir-of-life:
   - ps-ch17-003
+  emergency-departure:
+  - gof-ch10-002
   emergency-lockdown:
   - poa-ch09-002
   emergency-protocol:
@@ -6973,6 +7088,8 @@ by_tag:
   - cos-ch15-005
   forest-path:
   - cos-ch15-004
+  formal-occasions:
+  - gof-ch10-007
   fouls:
   - ps-ch11-002
   fouls-and-penalties:
@@ -6987,6 +7104,9 @@ by_tag:
   - cos-ch05-004
   - cos-ch09-003
   - ps-ch03-001
+  fourth-year:
+  - gof-ch10-006
+  - gof-ch10-007
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
@@ -7302,6 +7422,7 @@ by_tag:
   - cos-ch06-003
   - cos-ch14-001
   - cos-ch16-002
+  - gof-ch10-006
   - poa-ch16-003
   - ps-ch08-004
   - ps-ch14-001
@@ -7454,6 +7575,8 @@ by_tag:
   - cos-ch01-003
   hogwarts-return:
   - poa-ch19-004
+  hogwarts-robes:
+  - gof-ch10-007
   hogwarts-security:
   - gof-ch01-004
   - gof-ch02-006
@@ -7617,6 +7740,7 @@ by_tag:
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
+  - gof-ch10-004
   - poa-ch01-001
   - poa-ch02-004
   - ps-ch06-003
@@ -7866,6 +7990,8 @@ by_tag:
   - gof-ch02-001
   magical-instruments:
   - cos-ch12-001
+  magical-law:
+  - gof-ch10-004
   magical-medicine:
   - gof-ch02-005
   magical-memory-source:
@@ -7912,6 +8038,7 @@ by_tag:
   - gof-ch06-001
   - gof-ch06-002
   - gof-ch07-006
+  - gof-ch10-002
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
@@ -7982,6 +8109,7 @@ by_tag:
   - gof-ch01-003
   - gof-ch07-001
   - gof-ch09-007
+  - gof-ch10-001
   memory-magic:
   - cos-ch13-004
   minister-of-magic:
@@ -7995,12 +8123,15 @@ by_tag:
   - gof-ch08-006
   ministry-discretion:
   - poa-ch03-001
+  ministry-guidelines:
+  - gof-ch10-004
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
   - poa-ch21-004
   ministry-logistics:
   - gof-ch07-006
+  - gof-ch10-002
   ministry-of-magic:
   - cos-ch02-005
   - cos-ch03-004
@@ -8017,6 +8148,8 @@ by_tag:
   - gof-ch07-007
   - gof-ch08-001
   - gof-ch09-001
+  - gof-ch10-001
+  - gof-ch10-003
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -8115,6 +8248,7 @@ by_tag:
   - gof-ch06-002
   - gof-ch07-001
   - gof-ch09-001
+  - gof-ch10-001
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -8256,6 +8390,8 @@ by_tag:
   - gof-ch01-005
   parseltongue-foreshadowing:
   - ps-ch02-004
+  part-humans:
+  - gof-ch10-004
   password:
   - cos-ch11-007
   passwords:
@@ -8371,6 +8507,7 @@ by_tag:
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
+  - gof-ch10-002
   portrait-guardians:
   - poa-ch09-003
   portrait-guardianship:
@@ -8388,12 +8525,15 @@ by_tag:
   - ps-ch08-001
   possession:
   - cos-ch17-002
+  post-riot-cleanup:
+  - gof-ch10-001
   potion-ingredients:
   - cos-ch11-002
   potions:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch11-002
+  - gof-ch10-006
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -8512,6 +8652,7 @@ by_tag:
   professor-sprout:
   - ps-ch16-005
   professor-trelawney:
+  - gof-ch10-005
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -8521,12 +8662,15 @@ by_tag:
   - poa-ch14-007
   - poa-ch18-006
   prophecy:
+  - gof-ch10-005
   - poa-ch16-005
   public-cover-story:
   - poa-ch18-004
   public-event-security:
   - gof-ch08-001
   - gof-ch09-001
+  - gof-ch10-002
+  - gof-ch10-003
   public-events:
   - gof-ch08-006
   public-memory:
@@ -8619,6 +8763,9 @@ by_tag:
   - gof-ch08-001
   - gof-ch08-005
   - gof-ch09-001
+  - gof-ch10-001
+  - gof-ch10-002
+  - gof-ch10-003
   quills:
   - gof-ch04-001
   quirrell:
@@ -8663,8 +8810,12 @@ by_tag:
   - gof-ch01-001
   rise-and-fall-of-the-dark-arts:
   - gof-ch09-007
+  rita-skeeter:
+  - gof-ch10-003
   robe-fitting:
   - ps-ch05-005
+  roberts-family:
+  - gof-ch10-001
   robes:
   - cos-ch01-002
   - cos-ch04-002
@@ -8756,6 +8907,7 @@ by_tag:
   - poa-ch01-005
   school-list:
   - gof-ch05-006
+  - gof-ch10-007
   school-materials:
   - cos-ch01-002
   - cos-ch03-005
@@ -8781,6 +8933,7 @@ by_tag:
   - cos-ch02-002
   school-supplies:
   - cos-ch04-002
+  - gof-ch10-006
   - poa-ch04-003
   - ps-ch04-003
   school-traditions:
@@ -9053,6 +9206,8 @@ by_tag:
   - ps-ch08-001
   stamps:
   - gof-ch03-002
+  standard-book-of-spells:
+  - gof-ch10-006
   stands:
   - ps-ch11-004
   - ps-ch13-005
@@ -9265,6 +9420,7 @@ by_tag:
   - ps-ch04-002
   term-preparation:
   - gof-ch05-006
+  - gof-ch10-007
   third-floor-corridor:
   - ps-ch08-003
   - ps-ch09-007
@@ -9350,6 +9506,7 @@ by_tag:
   - cos-ch13-002
   - ps-ch09-004
   true-seers:
+  - gof-ch10-005
   - poa-ch06-004
   - poa-ch16-005
   underage-magic:
@@ -9393,6 +9550,7 @@ by_tag:
   valentines-day:
   - cos-ch13-003
   vampires:
+  - gof-ch10-004
   - ps-ch05-004
   veela:
   - gof-ch08-006
@@ -9411,6 +9569,7 @@ by_tag:
   - gof-ch01-005
   - gof-ch02-001
   - gof-ch09-007
+  - gof-ch10-005
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -9534,6 +9693,7 @@ by_tag:
   - ps-ch11-002
   wormtail:
   - gof-ch02-006
+  - gof-ch10-005
   - poa-ch14-007
   - poa-ch18-006
   written-papers:

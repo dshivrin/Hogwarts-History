@@ -241,6 +241,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch08-004; Chapter Eight already seeded Charms as a first-year subject; this Chapter Ten entry adds a specific spell and lesson method.
 **Notes:** The passage confirms Harry-era instruction but does not establish when Wingardium Leviosa entered the first-year curriculum.
 
+### Chapter: Course Materials and Annual Booklists
+
+#### Section: Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
+
+**Fact:** The chapter gives fourth-year materials evidence, including named course books, writing supplies, and replenished potion ingredients.
+**Evidence:** "The Standard Book of Spells, Grade 4"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1073, entry `gof-ch10-006`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch04-003; Book 3 Chapter Four records third-year booklist and supply purchases; this entry corroborates the recurring pattern and adds fourth-year spellbook, Herbology text, and potion-refill details.
+**Notes:** The passage names materials but does not quote the full fourth-year school list or identify which items are required for which teacher.
+
 ### Chapter: Course Structure and Academic Progression
 
 #### Section: Advanced Defensive Magic
@@ -1053,6 +1066,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Related to prior Christmas dinner entries, but this entry adds the specific low-attendance single-table Great Hall arrangement.
 **Notes:** The scene does not state whether the layout change is standard every low-attendance Christmas or Dumbledore's ad hoc decision.
 
+### Chapter: Dress, Uniform, and Formal Occasions
+
+#### Section: Dress Robes on the Fourth-Year School List
+
+**Fact:** The chapter confirms that the fourth-year school list requires dress robes for formal occasions and distinguishes them from ordinary black school robes.
+**Evidence:** "robes for formal occasions"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1076, entry `gof-ch10-007`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general robe and school-list entries, but no prior seed specifically records dress robes as a formal-occasion school-list requirement.
+**Notes:** The passage does not yet identify the formal occasion, its rules, or whether dress robes were required in years without the Triwizard Tournament.
+
 ### Chapter: End-of-Year Feast and House Cup
 
 #### Section: Crisis Feast, Canceled Exams, and Departure
@@ -1613,6 +1639,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned Defense Against the Dark Arts and broad Voldemort entries but no direct prior seed for Morsmordre, Dark Mark appearance, or the Ministry Stunner response.
 **Notes:** The caster is not identified in this chapter, so the entry should not assign responsibility beyond the observed spell and response.
 
+### Chapter: Divination, Prophecy, and School Testimony
+
+#### Section: Trelawney's True Prophecy and Later Corroboration
+
+**Fact:** The chapter corroborates Trelawney's rare true-prophecy evidence and records Harry's interpretation that the servant in the prophecy was Wormtail.
+**Evidence:** "she went into a trance"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1071, entry `gof-ch10-005`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch16-005; Book 3 Chapter Sixteen records Trelawney's true-prediction episode directly; this entry corroborates it through Harry's later summary and Wormtail interpretation.
+**Notes:** The evidence is Harry's recollection and interpretation, not a fresh transcription of the original prophecy.
+
 ### Chapter: Harry Potter Before Hogwarts
 
 #### Section: Accidental Magic Before School
@@ -1878,6 +1917,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned creature-law and wand-sanction entries but no prior seed naming clause three of the Code of Wand Use or the non-human wand restriction.
 **Notes:** Diggory quotes the rule in an accusatory investigation; the chapter does not supply the law's full text, history, enforcement standards, or exceptions.
 
+#### Section: Ministry Guidelines for Non-Wizard Part-Humans
+
+**Fact:** The chapter names a Ministry guideline document and shows Percy treating it as authoritative for vampire or part-human policy boundaries.
+**Evidence:** "Guidelines for the Treatment of Non-Wizard Part-Humans"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1069, entry `gof-ch10-004`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found a prior vampire-related Defense Against the Dark Arts seed, but no prior entry naming these Guidelines or paragraph twelve.
+**Notes:** Percy's sentence is interrupted, so the passage names the guideline but does not provide paragraph twelve's complete rule or its practical effect.
+
 ### Chapter: Magical Creatures in Public Wizarding Life
 
 #### Section: National Mascots and Event Control
@@ -1951,6 +2001,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-002; Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
 **Notes:** The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
+
+### Chapter: Public Records and Wizarding Press Sources
+
+#### Section: Daily Prophet Coverage of the World Cup Crisis
+
+**Fact:** The chapter provides a named wizarding newspaper source for public reporting on the Dark Mark incident and Ministry crisis response.
+**Evidence:** "SCENES OF TERROR AT THE QUIDDITCH WORLD CUP"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1068, entry `gof-ch10-003`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned broad Daily Prophet and World Cup security entries, but no prior seed specifically records Skeeter's World Cup article or Mr. Weasley's resulting Ministry crisis work.
+**Notes:** Rita Skeeter's article is contested by Mr. Weasley, so it should be used as evidence of public reporting and rumor circulation, not as proof of casualties.
 
 ### Chapter: Quidditch Beyond Hogwarts
 
@@ -2143,6 +2206,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-002; Book 4 Chapter Six records timed Portkeys around Britain for World Cup arrivals; this entry corroborates and extends that seed to Crouch's five-continent coordination.
 **Notes:** The passage gives scale but not operational details such as sites, timing, or authorization process.
+
+#### Section: Muggle Memory Cleanup After Public Incidents
+
+**Fact:** The chapter records the immediate aftereffect of Ministry memory modification on a Muggle witness after a large public secrecy breach.
+**Evidence:** "when a person's memory's modified"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1067, entry `gof-ch10-001`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch09-007; Book 4 Chapter Nine records the Roberts family's memory cleanup after the riot; this entry corroborates it with the next-morning effect on Mr. Roberts.
+**Notes:** The passage describes Roberts's disorientation and Mr. Weasley's explanation, but it does not name the exact Memory Charm used or the Ministry personnel who cast it.
+
+#### Section: Portkeys and Emergency Event Departure
+
+**Fact:** The chapter shows Portkeys serving not only scheduled arrivals but also rapid post-incident departures from a mass wizarding event.
+**Evidence:** "clamoring to get away"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, PDF page 1067, entry `gof-ch10-002`, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-002; Book 4 Chapter Six records scheduled World Cup Portkeys around Britain; this entry corroborates that system and adds urgent post-riot departure use, while Book 4 Chapter Seven adds international coordination.
+**Notes:** The passage does not explain whether the emergency departures used the original schedule, newly assigned Portkeys, or ad hoc Ministry coordination.
 
 #### Section: Portkeys and Mass Event Travel
 

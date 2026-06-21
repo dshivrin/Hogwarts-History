@@ -72,3 +72,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch07`: Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, pages 1009-1025, 7 entries, 0 explicit references.
 - `gof-ch08`: Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, pages 1026-1043, 6 entries, 0 explicit references.
 - `gof-ch09`: Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, 7 entries, 0 explicit references.
+- `gof-ch10`: Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, pages 1067-1077, 7 entries, 0 explicit references.

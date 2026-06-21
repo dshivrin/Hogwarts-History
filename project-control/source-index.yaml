@@ -793,3 +793,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1044-1066.
+- source_unit_id: gof-ch10
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 10
+  chapter_title: Chapter Ten - Mayhem at the Ministry
+  page_start: 1067
+  page_end: 1077
+  output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1067-1077.

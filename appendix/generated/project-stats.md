@@ -8,33 +8,33 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 66
+- Total: 67
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 50
+- Harry Potter and the Goblet of Fire: 57
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 201
-- later_editorial_note: 162
+- harry_era_confirmation: 203
+- later_editorial_note: 167
 - original_book_core_candidate: 4
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 45
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 35
-- curriculum_or_subject: 58
+- cross_reference_candidate: 38
+- curriculum_or_subject: 59
 - direct_observed_setting: 19
 - explicit_hogwarts_a_history: 3
-- explicit_in_universe_source: 34
+- explicit_in_universe_source: 36
 - historical_claim: 43
 - house_system: 8
-- institutional_custom: 73
+- institutional_custom: 74
 - magical_architecture: 30
 - portrait_or_ghost_lore: 7
 - school_rule_or_policy: 54
@@ -46,12 +46,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 297
+- Total: 301
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, `sources/book-04/chapter-09-the-dark-mark.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, pages 1067-1077, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, pages 1067-1077, `sources/book-04/chapter-10-mayhem-at-the-ministry.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, pages 1078-1088, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
