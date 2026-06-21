@@ -500,6 +500,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch16-001; Book 1 Chapter Sixteen records end-of-year exam formats; this entry adds that exams continue during a schoolwide Chamber crisis under Dumbledore's normality instruction.
 **Notes:** The evidence is crisis-specific and does not prove how often Hogwarts continues exams during other emergencies.
 
+#### Section: Head Boy, Student Achievement, and Alumni Paths
+
+**Fact:** The chapter corroborates Hogwarts alumni pathways by identifying Bill as a former Head Boy now working for Gringotts and Charlie as a dragon worker in Romania.
+**Evidence:** "Bill had been Head Boy at Hogwarts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 990, entry `gof-ch05-001`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch04-003; Book 2 Chapter Four already links Bill, Charlie, O.W.L.s, Head Boy expectations, and alumni careers; this entry corroborates Bill's Head Boy status and adds his Gringotts role plus Charlie's dragon work.
+**Notes:** The passage is a narrative recap and does not explain the Head Boy selection process or whether either career path is typical for Hogwarts alumni.
+
 #### Section: O.W.L.s and Student Advancement
 
 **Fact:** The passage identifies O.W.L.s as an exam credential, links high achievement to Head Boy expectations, and gives post-Hogwarts examples of former students' paths.
@@ -792,6 +803,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch03-005; Book 2 Chapter Three records holiday storage of trunks, spellbooks, wands, and broomsticks; this entry corroborates the pattern and adds quills plus a September first return countdown.
 **Notes:** The passage describes Harry's individual packing and does not state a formal Hogwarts packing list.
+
+#### Section: School Lists and Pre-Term Supply Shopping
+
+**Fact:** The chapter confirms that returning students still use school lists for pre-term Diagon Alley purchases and that family shopping logistics can be coordinated around major wizarding events.
+**Evidence:** "leave your school list out"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 1000, entry `gof-ch05-006`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch04-001; Book 4 Chapter Four records Harry's packed school trunk and September first return; this entry corroborates pre-term material preparation and adds school-list shopping in Diagon Alley before the World Cup.
+**Notes:** The passage does not quote the contents of the school list or show the shopping trip itself.
 
 ### Chapter: Magical Creatures in School Knowledge
 
@@ -1847,6 +1869,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: Student Inventions and Magical Misconduct
 
+#### Section: Weasley Joke Products at Hogwarts
+
+**Fact:** The chapter documents Fred and George's student-made joke products, their attempted Hogwarts market, family concern over product danger, and a reminder that O.W.L.s are age-fifteen Hogwarts examinations.
+**Evidence:** "they were planning to sell it at Hogwarts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 992, entry `gof-ch05-002`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch04-005; Book 4 Chapter Four records the Ton-Tongue Toffee incident as a student-made joke sweet with an Engorgement Charm effect; this entry corroborates that product line and adds order forms, planned Hogwarts sales, fake wands, and O.W.L. context.
+**Notes:** The passage summarizes the twins' plans through family conversation and does not show actual sales at Hogwarts or official school confiscation.
+
 #### Section: Weasley Joke Sweets and Engorgement Charms
 
 **Fact:** The chapter shows student-made joke sweets using an Engorgement Charm in a Muggle household, foreshadowing later Weasley joke-product development and raising outside-school magic and secrecy concerns.
@@ -1909,6 +1942,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; No existing seed records Bertha Jorkins, her Ministry information, or the stated Memory Charm vulnerability.
 **Notes:** The chapter does not specify what Bertha revealed or how the information connects to Hogwarts; later chapters must identify the institutional link.
+
+#### Section: Ministry Workload Before the Tournament
+
+**Fact:** The chapter connects Ministry international-cooperation work to cauldron-safety standards, World Cup logistics, Bertha Jorkins's disappearance, and a secret event soon to follow the World Cup.
+**Evidence:** "another big event to organize right after the World Cup"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 993, entry `gof-ch05-003`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch01-003; Book 4 Chapter One records Bertha Jorkins as a Ministry information source for Voldemort's plan; this entry corroborates her disappearance from the Ministry side and adds the post-World Cup secret-event workload.
+**Notes:** The event is unnamed in this chapter, so the Hogwarts connection depends on later corroborating chapters rather than this passage alone.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -3136,6 +3180,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch01-007; Book 3 Chapter One introduced the Broomstick Servicing Kit and handbook; this entry adds named handbook content and practical broom handling.
 **Notes:** The handbook is a personal gift, not a school-issued text, and the chapter does not show Hogwarts assigning or endorsing it.
 
+#### Section: Brooms, Positions, and Wider Wizarding Sport
+
+**Fact:** The chapter contrasts international Quidditch discussion with Harry's Hogwarts House-team role, confirming his Gryffindor Seeker position and Firebolt ownership.
+**Evidence:** "played in the position of Seeker"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 999, entry `gof-ch05-005`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch01-007; Book 3 Chapter One already restates Harry's Hogwarts House-team status and broom equipment; this entry corroborates that role and updates the broom reference to the Firebolt while adding World Cup context.
+**Notes:** The passage is retrospective and focused on Harry; it does not describe ordinary team selection, school match rules, or Firebolt regulation.
+
 #### Section: First-Year Restrictions and Exceptions
 
 **Fact:** The chapter indicates that first-years normally do not play on House Quidditch teams, but McGonagall considers an exception for Harry after consulting Dumbledore; Ron and Wood frame Harry as an unusually young House player.
@@ -3809,6 +3864,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=false; Later chapters mention Hagrid as gamekeeper; this entry records the expulsion, wand sanction, and Dumbledore's retention decision.
 **Notes:** Hagrid avoids explaining the reason for expulsion in this chapter.
+
+#### Section: Family Notification and Escalation
+
+**Fact:** The chapter gives family-side evidence that Hogwarts sends repeated disciplinary owls about student misconduct and frames the twins' fake-wand habit as conduct that could escalate beyond school.
+**Evidence:** "more owls from Hogwarts about them"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, PDF page 995, entry `gof-ch05-004`, `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** school_rule_or_policy
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-005; Book 2 Chapter Five records Dumbledore writing to families after serious misconduct; this entry corroborates family notification and adds repeated Hogwarts owls about ongoing student behavior.
+**Notes:** The evidence is Mrs. Weasley's summary and does not quote any Hogwarts disciplinary letter or specify which staff member sent the owls.
 
 #### Section: Head of House Responsibility and Term-Bound Points
 

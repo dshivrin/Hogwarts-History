@@ -67,3 +67,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch02`: Harry Potter and the Goblet of Fire, Chapter Two - The Scar, pages 961-968, 6 entries, 0 explicit references.
 - `gof-ch03`: Harry Potter and the Goblet of Fire, Chapter Three - The Invitation, pages 969-978, 4 entries, 0 explicit references.
 - `gof-ch04`: Harry Potter and the Goblet of Fire, Chapter Four - Back to the Burrow, pages 979-988, 5 entries, 0 explicit references.
+- `gof-ch05`: Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, pages 989-1000, 6 entries, 0 explicit references.

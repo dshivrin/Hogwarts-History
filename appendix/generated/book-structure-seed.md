@@ -46,6 +46,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crystal-Gazing Exams and True Seer Evidence
 - Exams and Assessment
   - Education Continuity During Crisis
+  - Head Boy, Student Achievement, and Alumni Paths
   - O.W.L.s and Student Advancement
   - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
   - Third-Year Practical and Written Exams
@@ -71,6 +72,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Homework and Student Materials
   - Holiday Homework and Supply Shopping
   - Holiday Storage of School Materials
+  - School Lists and Pre-Term Supply Shopping
 - Magical Creatures in School Knowledge
   - Unicorn Materials and Centaur Divination
 - Potions
@@ -192,6 +194,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Student Inventions and Magical Misconduct
+  - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
@@ -201,6 +204,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
   - Ministry Information Leaks and Memory Charm Limits
+  - Ministry Workload Before the Tournament
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 
@@ -338,6 +342,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Training Supervision, Weather, and Match Results
 - House Quidditch Teams
   - Brooms and Player Equipment
+  - Brooms, Positions, and Wider Wizarding Sport
   - First-Year Restrictions and Exceptions
   - House Rivalry and Player Protection
   - Practice Scheduling, Captains, and Equipment
@@ -416,6 +421,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Underage Magic and Hogwarts Expulsion Risk
 - Student Discipline and Expulsion
   - Expulsion, Wand Sanctions, and Staff Retention
+  - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion

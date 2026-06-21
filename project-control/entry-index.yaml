@@ -5529,6 +5529,91 @@ by_entry:
     - underage-magic
     source_unit: gof-ch04
     output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  gof-ch05-001:
+    title: 'Exams and Assessment: Head Boy, Student Achievement, and Alumni Paths'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - alumni
+    - dragon-keeping
+    - gringotts
+    - head-boy
+    - student-leadership
+    - weasley-family
+    source_unit: gof-ch05
+    output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  gof-ch05-002:
+    title: 'Student Inventions and Magical Misconduct: Weasley Joke Products at Hogwarts'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - fake-wands
+    - joke-products
+    - owls
+    - student-enterprise
+    - trick-sweets
+    - weasleys-wizard-wheezes
+    source_unit: gof-ch05
+    output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  gof-ch05-003:
+    title: 'The Triwizard Year and Institutional Security: Ministry Workload Before
+      the Tournament'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - bertha-jorkins
+    - cauldron-standards
+    - international-magical-cooperation
+    - ministry-of-magic
+    - quidditch-world-cup
+    - triwizard-year
+    source_unit: gof-ch05
+    output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  gof-ch05-004:
+    title: 'Student Discipline and Expulsion: Family Notification and Escalation'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - fake-wands
+    - family-notification
+    - fred-and-george
+    - improper-use-of-magic-office
+    - owl-post
+    - school-discipline
+    source_unit: gof-ch05
+    output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  gof-ch05-005:
+    title: 'House Quidditch Teams: Brooms, Positions, and Wider Wizarding Sport'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - firebolt
+    - gryffindor
+    - house-teams
+    - quidditch
+    - quidditch-world-cup
+    - seeker
+    source_unit: gof-ch05
+    output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  gof-ch05-006:
+    title: 'Homework and Independent Study: School Lists and Pre-Term Supply Shopping'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - diagon-alley
+    - quidditch-world-cup
+    - school-list
+    - school-materials
+    - summer-holidays
+    - term-preparation
+    source_unit: gof-ch05
+    output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5580,6 +5665,7 @@ by_tag:
   - poa-ch21-007
   alumni:
   - cos-ch04-003
+  - gof-ch05-001
   ancient-creature:
   - cos-ch15-007
   ancient-runes:
@@ -5667,6 +5753,7 @@ by_tag:
   - poa-ch13-006
   bertha-jorkins:
   - gof-ch01-003
+  - gof-ch05-003
   black-flames:
   - ps-ch16-007
   blood-status:
@@ -5810,6 +5897,8 @@ by_tag:
   cauldron:
   - cos-ch01-002
   - poa-ch01-002
+  cauldron-standards:
+  - gof-ch05-003
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -6115,6 +6204,7 @@ by_tag:
   - ps-ch16-005
   diagon-alley:
   - cos-ch04-002
+  - gof-ch05-006
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
@@ -6161,6 +6251,8 @@ by_tag:
   - cos-ch04-004
   dragon-hatching:
   - ps-ch14-005
+  dragon-keeping:
+  - gof-ch05-001
   dragons:
   - ps-ch14-002
   - ps-ch14-004
@@ -6327,9 +6419,13 @@ by_tag:
   - poa-ch03-001
   - ps-ch04-007
   - ps-ch16-004
+  fake-wands:
+  - gof-ch05-002
+  - gof-ch05-004
   family-notification:
   - cos-ch05-005
   - cos-ch06-001
+  - gof-ch05-004
   famous-wizard-card:
   - ps-ch06-003
   fang:
@@ -6373,6 +6469,7 @@ by_tag:
   - ps-ch15-001
   - ps-ch15-004
   firebolt:
+  - gof-ch05-005
   - poa-ch11-007
   - poa-ch12-005
   - poa-ch13-001
@@ -6473,6 +6570,7 @@ by_tag:
   - ps-ch03-001
   fred-and-george:
   - gof-ch04-005
+  - gof-ch05-004
   freezing-charm:
   - cos-ch06-007
   full-moon-safety:
@@ -6564,6 +6662,7 @@ by_tag:
   - poa-ch08-001
   - poa-ch16-004
   gringotts:
+  - gof-ch05-001
   - ps-ch05-001
   - ps-ch14-003
   grounds:
@@ -6587,6 +6686,7 @@ by_tag:
   - cos-ch07-002
   - cos-ch15-002
   - cos-ch18-003
+  - gof-ch05-005
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -6713,6 +6813,7 @@ by_tag:
   - cos-ch04-003
   - cos-ch13-002
   - cos-ch18-001
+  - gof-ch05-001
   - poa-ch01-004
   - poa-ch04-006
   - poa-ch05-006
@@ -7056,6 +7157,7 @@ by_tag:
   house-teams:
   - cos-ch07-001
   - cos-ch07-002
+  - gof-ch05-005
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
@@ -7071,6 +7173,8 @@ by_tag:
   - poa-ch12-005
   illegal-creature:
   - ps-ch14-004
+  improper-use-of-magic-office:
+  - gof-ch05-004
   in-universe-source:
   - cos-ch04-005
   - cos-ch13-004
@@ -7092,6 +7196,8 @@ by_tag:
   - ps-ch10-004
   internal-threat:
   - ps-ch17-002
+  international-magical-cooperation:
+  - gof-ch05-003
   international-wizards:
   - gof-ch01-002
   invisibility-cloak:
@@ -7116,6 +7222,8 @@ by_tag:
   - poa-ch05-003
   jinxes:
   - poa-ch11-007
+  joke-products:
+  - gof-ch05-002
   joke-sweets:
   - gof-ch04-005
   justin-finch-fletchley:
@@ -7419,6 +7527,7 @@ by_tag:
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
+  - gof-ch05-003
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -7605,6 +7714,7 @@ by_tag:
   - gof-ch02-005
   - gof-ch03-002
   - gof-ch03-004
+  - gof-ch05-004
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -7613,6 +7723,7 @@ by_tag:
   - poa-ch09-004
   owls:
   - cos-ch04-003
+  - gof-ch05-002
   - poa-ch04-005
   - poa-ch16-001
   - poa-ch22-005
@@ -7913,6 +8024,7 @@ by_tag:
   - cos-ch01-001
   - cos-ch07-001
   - cos-ch14-003
+  - gof-ch05-005
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -7972,6 +8084,9 @@ by_tag:
   quidditch-world-cup:
   - gof-ch01-002
   - gof-ch03-001
+  - gof-ch05-003
+  - gof-ch05-005
+  - gof-ch05-006
   quills:
   - gof-ch04-001
   quirrell:
@@ -8065,6 +8180,7 @@ by_tag:
   school-crest:
   - ps-ch03-001
   school-discipline:
+  - gof-ch05-004
   - ps-ch10-005
   - ps-ch11-003
   school-emergency:
@@ -8102,11 +8218,14 @@ by_tag:
   school-letters:
   - cos-ch04-001
   - poa-ch01-005
+  school-list:
+  - gof-ch05-006
   school-materials:
   - cos-ch01-002
   - cos-ch03-005
   - gof-ch02-002
   - gof-ch04-001
+  - gof-ch05-006
   - poa-ch01-002
   school-oversight:
   - cos-ch14-006
@@ -8193,6 +8312,7 @@ by_tag:
   - poa-ch16-006
   seeker:
   - cos-ch07-001
+  - gof-ch05-005
   - ps-ch09-003
   seeker-tactics:
   - poa-ch13-003
@@ -8426,6 +8546,8 @@ by_tag:
   - ps-ch13-003
   student-dormitories:
   - poa-ch19-006
+  student-enterprise:
+  - gof-ch05-002
   student-equipment:
   - poa-ch01-007
   student-family-contact:
@@ -8440,6 +8562,7 @@ by_tag:
   - poa-ch07-002
   student-leadership:
   - cos-ch04-005
+  - gof-ch05-001
   - poa-ch01-004
   - poa-ch04-006
   student-lockdown:
@@ -8524,6 +8647,7 @@ by_tag:
   - gof-ch03-003
   - gof-ch04-001
   - gof-ch04-003
+  - gof-ch05-006
   summer-homework:
   - cos-ch01-002
   - cos-ch03-005
@@ -8586,6 +8710,8 @@ by_tag:
   - gof-ch04-001
   term-dates:
   - ps-ch04-002
+  term-preparation:
+  - gof-ch05-006
   third-floor-corridor:
   - ps-ch08-003
   - ps-ch09-007
@@ -8649,8 +8775,11 @@ by_tag:
   trapdoor:
   - ps-ch09-007
   - ps-ch16-005
+  trick-sweets:
+  - gof-ch05-002
   triwizard-year:
   - gof-ch01-004
+  - gof-ch05-003
   troll:
   - ps-ch16-007
   troll-incident:
@@ -8750,6 +8879,9 @@ by_tag:
   - cos-ch04-003
   - gof-ch03-003
   - gof-ch03-004
+  - gof-ch05-001
+  weasleys-wizard-wheezes:
+  - gof-ch05-002
   wendelin-the-weird:
   - poa-ch01-001
   werewolf:
