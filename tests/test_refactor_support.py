@@ -10,6 +10,43 @@ import yaml
 
 
 class RefactorSupportTests(unittest.TestCase):
+    def test_validate_source_yaml_accepts_valid_source_file(self) -> None:
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_schema_reference(root)
+            source_dir = root / "sources" / "book-01"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-07-sorting-hat.yaml").write_text(
+                self._source_yaml("ps-ch07-001"),
+                encoding="utf-8",
+            )
+
+            self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 0)
+
+    def test_validate_source_yaml_rejects_missing_duplicate_target(self) -> None:
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_schema_reference(root)
+            source_dir = root / "sources" / "book-01"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-07-sorting-hat.yaml").write_text(
+                self._source_yaml(
+                    "ps-ch07-001",
+                    duplicate_check=(
+                        "    possible_duplicate: true\n"
+                        "    duplicate_of: missing-id\n"
+                        "    notes: Missing duplicate target.\n"
+                    ),
+                ),
+                encoding="utf-8",
+            )
+
+            self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 1)
+
     def test_build_tag_index_groups_entries_by_tag_with_output_paths(self) -> None:
         build_tag_index = importlib.import_module("scripts.build_tag_index")
 
@@ -250,6 +287,77 @@ class RefactorSupportTests(unittest.TestCase):
                   output_yaml: sources/book-04/chapter-03-the-invitation.yaml
                 """
             ).strip()
+            + "\n"
+        )
+
+    def _write_schema_reference(self, root: Path) -> None:
+        instructions = root / "docs" / "instructions"
+        instructions.mkdir(parents=True)
+        (instructions / "schema-reference.md").write_text(
+            textwrap.dedent(
+                """
+                # Schema Reference
+
+                ## Reference Types
+
+                Use only:
+
+                - `explicit_hogwarts_a_history`
+                - `institutional_custom`
+
+                ## Era Classifications
+
+                Use only:
+
+                - `original_book_core_candidate`
+                - `harry_era_confirmation`
+                """
+            ).strip()
+            + "\n",
+            encoding="utf-8",
+        )
+
+    def _source_yaml(self, entry_id: str, duplicate_check: str | None = None) -> str:
+        duplicate_check = duplicate_check or (
+            "    possible_duplicate: false\n"
+            "    duplicate_of: null\n"
+            "    notes: No duplicate found.\n"
+        )
+        return (
+            textwrap.dedent(
+                f"""
+                source_unit:
+                  source_file: pdfs/harrypotter.pdf
+                  book: Harry Potter and the Philosopher's Stone
+                  chapter: Chapter Seven - The Sorting Hat
+                  chapter_start_pdf_page: 107
+                  chapter_end_pdf_page: 122
+                  processed_date: '2026-06-21'
+                entries:
+                - id: {entry_id}
+                  pdf_page: 110
+                  text_anchor:
+                    start_phrase: First-years enter the Great Hall
+                    end_phrase: bewitched to look like the sky outside
+                    local_occurrence_note: One occurrence.
+                  quote_excerpt_short: bewitched to look like the sky outside
+                  source_note: Hermione identifies the Great Hall ceiling enchantment.
+                  reference_type: explicit_hogwarts_a_history
+                  era_classification: original_book_core_candidate
+                  topic_tags:
+                  - great-hall
+                  - enchanted-ceiling
+                  - magical-architecture
+                  candidate_part: Magical Architecture and Enchantments
+                  candidate_chapter: The Great Hall
+                  candidate_section: The Enchanted Ceiling
+                  duplicate_check:
+                __DUPLICATE_CHECK__
+                  confidence: high
+                  limitations: Later books may add corroborating references.
+                """
+            ).strip()
+            .replace("__DUPLICATE_CHECK__", duplicate_check.rstrip())
             + "\n"
         )
 
