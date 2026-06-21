@@ -1600,6 +1600,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch04-004; Chapter Four seeded Lucius Malfoy's blood-status prejudice around Hermione's exam performance; this entry adds the explicit slur, student reaction, and Ron's explanation of Muggle-born, pure-blood, and half-blood terms.
 **Notes:** Ron's explanation is informal; later sources should confirm terminology history and distinguish social prejudice from school policy.
 
+### Chapter: Dark Magic, Security, and Public Panic
+
+#### Section: Dark Mark Summoning and Emergency Response
+
+**Fact:** The chapter records the incantation and appearance of the Dark Mark and shows the Ministry's immediate armed response to its summoning.
+**Evidence:** "It's the Dark Mark"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1053, entry `gof-ch09-004`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned Defense Against the Dark Arts and broad Voldemort entries but no direct prior seed for Morsmordre, Dark Mark appearance, or the Ministry Stunner response.
+**Notes:** The caster is not identified in this chapter, so the entry should not assign responsibility beyond the observed spell and response.
+
 ### Chapter: Harry Potter Before Hogwarts
 
 #### Section: Accidental Magic Before School
@@ -1797,6 +1810,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: House-Elves and Hogwarts
 
+#### Section: Clothing, Dismissal, and Servitude Norms
+
+**Fact:** The chapter links house-elf obedience magic, social acceptance of servitude, and the clothing mechanism that frees or dismisses a house-elf.
+**Evidence:** "This means clothes."
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1050, entry `gof-ch09-003`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch18-006; Book 2 Chapter Eighteen demonstrates house-elf manumission through clothing with Dobby; this entry corroborates that mechanism through Winky and adds obedience, reputation, and dismissal context from Crouch's household.
+**Notes:** Winky's case reflects one master's household authority and the wider custom around house-elves, not a formal Hogwarts rule.
+
 #### Section: House-Elf Bondage Before Hogwarts Kitchen Evidence
 
 **Fact:** Dobby describes house-elves as bound servants of wizarding families who require release by the family to become free.
@@ -1841,6 +1865,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-001; Book 2 Chapter Two records Dobby's bondage to a wizarding family; this entry adds Winky's claims about unpaid work, job placement after freedom, obedience to a master, and creature-regulation pressure.
 **Notes:** Winky is defending conventional house-elf views, so the passage should be balanced against later evidence about Dobby's paid Hogwarts work.
 
+### Chapter: Law, Creatures, and Magical Citizenship
+
+#### Section: Code of Wand Use and Non-Human Wand Restrictions
+
+**Fact:** The chapter names clause three of the Code of Wand Use and connects wand possession by non-human creatures to Ministry creature-regulation authority.
+**Evidence:** "No non-human creature is permitted to carry or use a wand."
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1057, entry `gof-ch09-005`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned creature-law and wand-sanction entries but no prior seed naming clause three of the Code of Wand Use or the non-human wand restriction.
+**Notes:** Diggory quotes the rule in an accusatory investigation; the chapter does not supply the law's full text, history, enforcement standards, or exceptions.
+
 ### Chapter: Magical Creatures in Public Wizarding Life
 
 #### Section: National Mascots and Event Control
@@ -1853,6 +1890,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general magical-creature and school-event entries, but no prior seed on Veela, leprechauns, national team mascots, or Ministry crowd control at sporting events.
 **Notes:** The scene is a World Cup spectacle, not a Hogwarts lesson or school policy, and the leprechaun gold is not explained in this chapter.
+
+### Chapter: Magical Evidence and Investigation
+
+#### Section: Wand Spell Echoes and Prior Incantato
+
+**Fact:** The chapter gives practical magical-forensics evidence that Prior Incantato can reveal a wand's last performed spell and that Deletrius can dismiss the resulting echo.
+**Evidence:** "the ghost of a spell"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1059, entry `gof-ch09-006`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned generic wand and source entries but no prior seed for Prior Incantato as a wand-forensics method.
+**Notes:** The chapter shows the method in one case and does not define its limits, reliability, time window, or susceptibility to tampering.
 
 ### Chapter: Marauders-Era Context and Hidden Identities
 
@@ -2048,6 +2098,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: Wizarding Schools Beyond Britain
 
+#### Section: Beauxbatons and European Magical Education Sources
+
+**Fact:** The chapter confirms Beauxbatons Academy of Magic as a European magical school known through Hermione's named in-universe educational reference.
+**Evidence:** "An Appraisal of Magical Education in Europe"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1049, entry `gof-ch09-002`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found prior generic in-universe source entries but no direct prior seed for Beauxbatons or An Appraisal of Magical Education in Europe.
+**Notes:** The passage identifies Beauxbatons but gives no details about its curriculum, governance, age range, or relationship with Hogwarts.
+
 #### Section: International Schools and Exchange Awareness
 
 **Fact:** The chapter confirms that Hogwarts is one school within a wider international wizarding education network, with references to a Brazilian school, exchange travel, and Hermione's book-based knowledge.
@@ -2104,6 +2165,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-001; Book 4 Chapter Seven records World Cup campsite anti-Muggle security and Memory Charms; this entry adds stadium-wide Muggle Repelling Charms and the dedicated Ministry task force.
 **Notes:** The passage concerns the World Cup stadium, not Hogwarts grounds, so its school relevance is contextual.
+
+#### Section: World Cup Riot and Muggle Victim Rescue
+
+**Fact:** The chapter gives direct evidence of Death Eater-style Muggle-baiting at a public wizarding event and shows Ministry responders constrained by victim safety.
+**Evidence:** "the smallest Muggle child"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1046, entry `gof-ch09-001`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned broad war and security entries, but no prior seed specifically records the Roberts family levitation or the World Cup riot rescue problem.
+**Notes:** The passage identifies the attackers visually as masked wizards; later dialogue says they were probably Death Eaters but does not prove individual identities.
 
 ## Part: Magical Architecture and Enchantments
 
@@ -2445,6 +2517,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Notes:** The passage does not name the spell or object enchantment used to expand the tents.
 
 ## Part: Notable Events Before 1984
+
+### Chapter: Dark Marks and Wartime Terror
+
+#### Section: Death Eaters, Public Terror, and Postwar Denials
+
+**Fact:** The chapter names an in-universe Dark Arts history source and summarizes the Dark Mark's First Wizarding War use, Death Eater identity, postwar denials, Azkaban avoidance, and immediate Muggle memory cleanup.
+**Evidence:** "The Rise and Fall of the Dark Arts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, PDF page 1064, entry `gof-ch09-007`, `sources/book-04/chapter-09-the-dark-mark.yaml`
+**Classification:** pre_1984_historical_candidate
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-001; Book 4 Chapter Seven records campsite Memory Charms for ordinary anti-Muggle secrecy; this entry adds post-riot modification of the Roberts family's memories and broader Dark Mark/Death Eater history.
+**Notes:** The explanation is secondhand adult testimony and a student-cited source title; it does not identify the caster or prove all masked rioters were Death Eaters.
 
 ### Chapter: Dumbledore and the First Wizarding War
 

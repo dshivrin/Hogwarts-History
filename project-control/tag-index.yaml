@@ -186,8 +186,10 @@ tags:
   apparition:
     entries:
     - gof-ch06-001
+    - gof-ch09-004
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -256,6 +258,7 @@ tags:
     - cos-ch12-007
     - cos-ch14-005
     - gof-ch02-006
+    - gof-ch09-007
     - poa-ch05-004
     - poa-ch19-004
     - poa-ch19-007
@@ -267,6 +270,7 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   azkaban-guards:
     entries:
     - poa-ch04-007
@@ -303,8 +307,10 @@ tags:
     - gof-ch07-005
     - gof-ch07-006
     - gof-ch07-007
+    - gof-ch09-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   basilisk:
     entries:
     - cos-ch16-003
@@ -330,6 +336,11 @@ tags:
     - cos-ch17-007
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  beauxbatons:
+    entries:
+    - gof-ch09-002
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -861,6 +872,16 @@ tags:
     - cos-ch06-007
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  clothing:
+    entries:
+    - gof-ch09-003
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
+  code-of-wand-use:
+    entries:
+    - gof-ch09-005
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   colin-creevey:
     entries:
     - cos-ch10-006
@@ -1176,11 +1197,25 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  dark-mark:
+    entries:
+    - gof-ch09-004
+    - gof-ch09-006
+    - gof-ch09-007
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   davey-gudgeon:
     entries:
     - poa-ch10-002
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
+  death-eaters:
+    entries:
+    - gof-ch09-001
+    - gof-ch09-004
+    - gof-ch09-007
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   deathday-party:
     entries:
     - cos-ch08-004
@@ -1253,6 +1288,11 @@ tags:
     - cos-ch11-002
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+  deletrius:
+    entries:
+    - gof-ch09-006
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   dementor-imitation:
     entries:
     - poa-ch13-004
@@ -1302,8 +1342,10 @@ tags:
   department-for-regulation-and-control-of-magical-creatures:
     entries:
     - gof-ch08-002
+    - gof-ch09-005
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   department-of-magical-games-and-sports:
     entries:
     - gof-ch03-001
@@ -1743,6 +1785,11 @@ tags:
     - poa-ch21-007
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  europe:
+    entries:
+    - gof-ch09-002
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   evidence:
     entries:
     - poa-ch21-001
@@ -1959,11 +2006,13 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
   first-wizarding-war:
     entries:
+    - gof-ch09-007
     - poa-ch10-006
     - ps-ch04-005
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
     - sources/book-03/chapter-10-the-marauders-map.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   first-year-arrival:
     entries:
     - poa-ch05-005
@@ -2855,12 +2904,14 @@ tags:
     - cos-ch04-004
     - cos-ch07-003
     - gof-ch08-003
+    - gof-ch09-002
     - poa-ch04-004
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   hermione-research:
     entries:
     - poa-ch14-003
@@ -3331,11 +3382,13 @@ tags:
     - cos-ch03-002
     - cos-ch18-006
     - gof-ch08-002
+    - gof-ch09-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -3493,6 +3546,8 @@ tags:
     - cos-ch04-005
     - cos-ch13-004
     - gof-ch02-005
+    - gof-ch09-002
+    - gof-ch09-007
     - poa-ch01-001
     - poa-ch02-004
     - ps-ch06-003
@@ -3503,6 +3558,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   informal-source:
     entries:
     - poa-ch04-002
@@ -4018,6 +4074,7 @@ tags:
     entries:
     - cos-ch08-003
     - gof-ch08-006
+    - gof-ch09-005
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
@@ -4025,6 +4082,7 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   magical-delivery:
     entries:
     - ps-ch03-004
@@ -4035,6 +4093,11 @@ tags:
     - gof-ch08-004
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  magical-education:
+    entries:
+    - gof-ch09-002
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   magical-entrance:
     entries:
     - poa-ch03-003
@@ -4124,10 +4187,12 @@ tags:
     - cos-ch02-001
     - cos-ch03-002
     - gof-ch08-002
+    - gof-ch09-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   magical-spaces:
     entries:
     - gof-ch07-002
@@ -4184,8 +4249,10 @@ tags:
   manumission:
     entries:
     - cos-ch18-006
+    - gof-ch09-003
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   marauders:
     entries:
     - poa-ch18-005
@@ -4302,10 +4369,12 @@ tags:
     - cos-ch03-004
     - gof-ch01-003
     - gof-ch07-001
+    - gof-ch09-007
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   memory-magic:
     entries:
     - cos-ch13-004
@@ -4338,6 +4407,11 @@ tags:
     - poa-ch03-001
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  ministry-investigation:
+    entries:
+    - gof-ch09-006
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   ministry-law:
     entries:
     - poa-ch21-004
@@ -4364,6 +4438,7 @@ tags:
     - gof-ch07-005
     - gof-ch07-007
     - gof-ch08-001
+    - gof-ch09-001
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -4388,11 +4463,17 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   ministry-register:
     entries:
     - poa-ch18-001
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  ministry-response:
+    entries:
+    - gof-ch09-004
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   ministry-security:
     entries:
     - gof-ch01-002
@@ -4458,6 +4539,11 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  morsmordre:
+    entries:
+    - gof-ch09-004
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   mosag:
     entries:
     - cos-ch15-006
@@ -4502,8 +4588,10 @@ tags:
   muggle-baiting:
     entries:
     - cos-ch03-004
+    - gof-ch09-001
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   muggle-born-student:
     entries:
     - cos-ch12-007
@@ -4575,6 +4663,7 @@ tags:
     - gof-ch04-005
     - gof-ch06-002
     - gof-ch07-001
+    - gof-ch09-001
     - poa-ch02-002
     - poa-ch03-002
     - ps-ch01-001
@@ -4596,6 +4685,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -4727,6 +4817,11 @@ tags:
     - cos-ch07-006
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  non-human-creatures:
+    entries:
+    - gof-ch09-005
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   north-tower:
     entries:
     - poa-ch06-002
@@ -5287,6 +5382,11 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+  prior-incantato:
+    entries:
+    - gof-ch09-006
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   prior-opening:
     entries:
     - cos-ch10-006
@@ -5469,8 +5569,10 @@ tags:
   public-event-security:
     entries:
     - gof-ch08-001
+    - gof-ch09-001
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   public-events:
     entries:
     - gof-ch08-006
@@ -5659,6 +5761,7 @@ tags:
     - gof-ch07-006
     - gof-ch08-001
     - gof-ch08-005
+    - gof-ch09-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
@@ -5666,6 +5769,7 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   quills:
     entries:
     - gof-ch04-001
@@ -5759,6 +5863,11 @@ tags:
     - gof-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+  rise-and-fall-of-the-dark-arts:
+    entries:
+    - gof-ch09-007
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -6475,6 +6584,11 @@ tags:
     - ps-ch11-004
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+  spell-evidence:
+    entries:
+    - gof-ch09-006
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   spellbooks:
     entries:
     - cos-ch01-002
@@ -6935,6 +7049,11 @@ tags:
     - ps-ch14-001
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  stunning-spell:
+    entries:
+    - gof-ch09-004
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   subterranean-chamber:
     entries:
     - ps-ch16-005
@@ -7448,6 +7567,7 @@ tags:
     - gof-ch01-004
     - gof-ch01-005
     - gof-ch02-001
+    - gof-ch09-007
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -7460,6 +7580,7 @@ tags:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   voldemort-fall:
     entries:
     - gof-ch02-004
@@ -7489,6 +7610,16 @@ tags:
     - ps-ch04-007
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  wand-law:
+    entries:
+    - gof-ch09-005
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
+  wand-magic:
+    entries:
+    - gof-ch09-006
+    output_yaml:
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   wand-sanctions:
     entries:
     - cos-ch07-005
@@ -7616,8 +7747,11 @@ tags:
   winky:
     entries:
     - gof-ch08-002
+    - gof-ch09-003
+    - gof-ch09-005
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   winter-at-hogwarts:
     entries:
     - ps-ch12-001
@@ -7667,8 +7801,10 @@ tags:
   wizarding-schools:
     entries:
     - gof-ch07-003
+    - gof-ch09-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-09-the-dark-mark.yaml
   wizarding-society:
     entries:
     - gof-ch08-003

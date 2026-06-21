@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 8
-  chapter_title: Chapter Eight - The Quidditch World Cup
-  page_start: 1026
-  page_end: 1043
-  output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 9
   chapter_title: Chapter Nine - The Dark Mark
   page_start: 1044
   page_end: 1066
   output_yaml: sources/book-04/chapter-09-the-dark-mark.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1067
   page_end: 1077
   output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 11
+  chapter_title: Chapter Eleven - Aboard the Hogwarts Express
+  page_start: 1078
+  page_end: 1088
+  output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

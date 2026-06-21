@@ -163,6 +163,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Academic Merit and Pure-Blood Prejudice
   - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
+- Dark Magic, Security, and Public Panic
+  - Dark Mark Summoning and Emergency Response
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -185,12 +187,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
+  - Clothing, Dismissal, and Servitude Norms
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
   - House-Elf Bondage and Manumission
   - House-Elf Magic and Old Wizarding Households
   - Service Norms, Pay, and Regulation
+- Law, Creatures, and Magical Citizenship
+  - Code of Wand Use and Non-Human Wand Restrictions
 - Magical Creatures in Public Wizarding Life
   - National Mascots and Event Control
+- Magical Evidence and Investigation
+  - Wand Spell Echoes and Prior Incantato
 - Marauders-Era Context and Hidden Identities
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
@@ -216,12 +223,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Schools Beyond Britain
+  - Beauxbatons and European Magical Education Sources
   - International Schools and Exchange Awareness
 - Wizarding Transport, Public Events, and Secrecy
   - Campsite Memory Charms and Anti-Muggle Security
   - International Portkey Coordination
   - Portkeys and Mass Event Travel
   - Quidditch World Cup Stadium Protections
+  - World Cup Riot and Muggle Victim Rescue
 
 ## Magical Architecture and Enchantments
 
@@ -259,6 +268,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Notable Events Before 1984
 
+- Dark Marks and Wartime Terror
+  - Death Eaters, Public Terror, and Postwar Denials
 - Dumbledore and the First Wizarding War
   - Biographical Sources and Public Reputation
   - Hogwarts as a Wartime Safe Place
