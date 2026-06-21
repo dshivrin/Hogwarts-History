@@ -8,37 +8,37 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 64
+- Total: 65
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 37
+- Harry Potter and the Goblet of Fire: 43
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 200
-- later_editorial_note: 151
+- harry_era_confirmation: 201
+- later_editorial_note: 156
 - original_book_core_candidate: 4
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 44
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 30
+- cross_reference_candidate: 33
 - curriculum_or_subject: 58
 - direct_observed_setting: 19
 - explicit_hogwarts_a_history: 3
 - explicit_in_universe_source: 32
-- historical_claim: 39
+- historical_claim: 41
 - house_system: 8
 - institutional_custom: 73
 - magical_architecture: 30
 - portrait_or_ghost_lore: 7
 - school_rule_or_policy: 54
-- security_or_protection: 48
+- security_or_protection: 49
 
 ## Explicit `Hogwarts: A History` References
 
@@ -46,12 +46,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 291
+- Total: 295
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Six - The Portkey, pages 1001-1008, `sources/book-04/chapter-06-the-portkey.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, pages 1026-1043, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, pages 1009-1025, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, `sources/book-04/chapter-09-the-dark-mark.yaml`

@@ -354,10 +354,12 @@ tags:
     - cos-ch04-004
     - cos-ch07-003
     - cos-ch09-004
+    - gof-ch08-003
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   blood-status-threat:
     entries:
     - cos-ch08-006
@@ -1297,6 +1299,11 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  department-for-regulation-and-control-of-magical-creatures:
+    entries:
+    - gof-ch08-002
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   department-of-magical-games-and-sports:
     entries:
     - gof-ch03-001
@@ -1420,9 +1427,11 @@ tags:
     - cos-ch02-001
     - cos-ch02-004
     - cos-ch18-006
+    - gof-ch08-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   dobby-warning:
     entries:
     - cos-ch02-002
@@ -2122,6 +2131,11 @@ tags:
     - ps-ch11-002
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+  fouls-and-penalties:
+    entries:
+    - gof-ch08-005
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   founders:
     entries:
     - cos-ch09-003
@@ -2643,6 +2657,11 @@ tags:
     - sources/book-02/chapter-01-worst-birthday.yaml
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+  hassan-mostafa:
+    entries:
+    - gof-ch08-005
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   haunted-places:
     entries:
     - poa-ch14-005
@@ -2835,11 +2854,13 @@ tags:
     entries:
     - cos-ch04-004
     - cos-ch07-003
+    - gof-ch08-003
     - poa-ch04-004
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   hermione-research:
     entries:
     - poa-ch14-003
@@ -3309,10 +3330,12 @@ tags:
     - cos-ch02-001
     - cos-ch03-002
     - cos-ch18-006
+    - gof-ch08-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -3460,6 +3483,11 @@ tags:
     - gof-ch05-004
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  in-universe-analysis:
+    entries:
+    - gof-ch08-004
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   in-universe-source:
     entries:
     - cos-ch04-005
@@ -3512,11 +3540,21 @@ tags:
     - ps-ch17-002
     output_yaml:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  international-association-of-quidditch:
+    entries:
+    - gof-ch08-005
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   international-magical-cooperation:
     entries:
     - gof-ch05-003
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  international-quidditch:
+    entries:
+    - gof-ch08-005
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   international-transport:
     entries:
     - gof-ch07-006
@@ -3696,6 +3734,11 @@ tags:
     - cos-ch09-005
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  leprechauns:
+    entries:
+    - gof-ch08-006
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   lesson-content:
     entries:
     - ps-ch13-004
@@ -3827,6 +3870,7 @@ tags:
     - cos-ch14-006
     - cos-ch18-005
     - cos-ch18-006
+    - gof-ch08-003
     - poa-ch11-001
     - poa-ch15-001
     output_yaml:
@@ -3835,6 +3879,7 @@ tags:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   ludo-bagman:
     entries:
     - gof-ch07-001
@@ -3972,17 +4017,24 @@ tags:
   magical-creatures:
     entries:
     - cos-ch08-003
+    - gof-ch08-006
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-08-the-deathday-party.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   magical-delivery:
     entries:
     - ps-ch03-004
     output_yaml:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
+  magical-devices:
+    entries:
+    - gof-ch08-004
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   magical-entrance:
     entries:
     - poa-ch03-003
@@ -4057,6 +4109,11 @@ tags:
     - poa-ch21-003
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  magical-secrecy:
+    entries:
+    - gof-ch08-001
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   magical-security:
     entries:
     - ps-ch09-007
@@ -4066,9 +4123,11 @@ tags:
     entries:
     - cos-ch02-001
     - cos-ch03-002
+    - gof-ch08-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   magical-spaces:
     entries:
     - gof-ch07-002
@@ -4269,6 +4328,11 @@ tags:
     - poa-ch21-002
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  ministry-crowd-control:
+    entries:
+    - gof-ch08-006
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   ministry-discretion:
     entries:
     - poa-ch03-001
@@ -4299,6 +4363,7 @@ tags:
     - gof-ch07-004
     - gof-ch07-005
     - gof-ch07-007
+    - gof-ch08-001
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -4322,6 +4387,7 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -4449,6 +4515,7 @@ tags:
     - cos-ch06-005
     - cos-ch07-003
     - cos-ch09-004
+    - gof-ch08-003
     - ps-ch05-005
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
@@ -4456,6 +4523,7 @@ tags:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   muggle-camouflage:
     entries:
     - gof-ch07-002
@@ -4486,6 +4554,11 @@ tags:
     - gof-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+  muggle-repelling-charms:
+    entries:
+    - gof-ch08-001
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   muggle-school:
     entries:
     - ps-ch02-002
@@ -4689,6 +4762,11 @@ tags:
     - ps-ch05-007
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+  omnioculars:
+    entries:
+    - gof-ch08-004
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   one-eyed-witch:
     entries:
     - poa-ch10-004
@@ -5388,6 +5466,16 @@ tags:
     - poa-ch18-004
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  public-event-security:
+    entries:
+    - gof-ch08-001
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  public-events:
+    entries:
+    - gof-ch08-006
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   public-memory:
     entries:
     - ps-ch02-006
@@ -5401,8 +5489,10 @@ tags:
   pure-blood-prejudice:
     entries:
     - cos-ch07-003
+    - gof-ch08-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   purple-fire:
     entries:
     - ps-ch16-007
@@ -5420,6 +5510,7 @@ tags:
     - cos-ch14-003
     - gof-ch05-005
     - gof-ch06-004
+    - gof-ch08-004
     - poa-ch01-007
     - poa-ch02-004
     - poa-ch08-002
@@ -5450,6 +5541,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   quidditch-books:
     entries:
     - gof-ch02-002
@@ -5489,6 +5581,11 @@ tags:
     - cos-ch10-005
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  quidditch-mascots:
+    entries:
+    - gof-ch08-006
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   quidditch-match:
     entries:
     - ps-ch13-005
@@ -5511,12 +5608,14 @@ tags:
   quidditch-rules:
     entries:
     - cos-ch07-001
+    - gof-ch08-005
     - poa-ch15-007
     - ps-ch11-005
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   quidditch-safety:
     entries:
     - cos-ch10-004
@@ -5558,12 +5657,15 @@ tags:
     - gof-ch07-001
     - gof-ch07-002
     - gof-ch07-006
+    - gof-ch08-001
+    - gof-ch08-005
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   quills:
     entries:
     - gof-ch04-001
@@ -6358,6 +6460,11 @@ tags:
     - cos-ch18-003
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
+  spectator-magic:
+    entries:
+    - gof-ch08-004
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   spectator-stands:
     entries:
     - ps-ch11-006
@@ -6391,11 +6498,21 @@ tags:
     - gof-ch06-001
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+  sports-commentary:
+    entries:
+    - gof-ch08-004
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   squib-context:
     entries:
     - cos-ch08-002
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  stadium:
+    entries:
+    - gof-ch08-001
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   staff:
     entries:
     - ps-ch05-004
@@ -7269,6 +7386,11 @@ tags:
     - ps-ch05-005
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+  unpaid-labor:
+    entries:
+    - gof-ch08-002
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   unregistered-magic:
     entries:
     - poa-ch18-001
@@ -7299,6 +7421,11 @@ tags:
     - ps-ch05-004
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+  veela:
+    entries:
+    - gof-ch08-006
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   visitor-access:
     entries:
     - ps-ch17-004
@@ -7486,6 +7613,11 @@ tags:
     - ps-ch16-006
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  winky:
+    entries:
+    - gof-ch08-002
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   winter-at-hogwarts:
     entries:
     - ps-ch12-001
@@ -7537,6 +7669,11 @@ tags:
     - gof-ch07-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  wizarding-society:
+    entries:
+    - gof-ch08-003
+    output_yaml:
+    - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   wizarding-sport:
     entries:
     - gof-ch03-001

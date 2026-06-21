@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Eight - The Quidditch World Cup
-- Page range: 1026-1043
+- Chapter: Chapter Nine - The Dark Mark
+- Page range: 1044-1066
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+- Output YAML: `sources/book-04/chapter-09-the-dark-mark.yaml`
 
 ## Minimal Context
 

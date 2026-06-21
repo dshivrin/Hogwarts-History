@@ -161,6 +161,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Black, Potter, and Pettigrew in School Memory
 - Blood Status and Hogwarts Society
   - Academic Merit and Pure-Blood Prejudice
+  - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
@@ -187,12 +188,17 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
   - House-Elf Bondage and Manumission
   - House-Elf Magic and Old Wizarding Households
+  - Service Norms, Pay, and Regulation
+- Magical Creatures in Public Wizarding Life
+  - National Mascots and Event Control
 - Marauders-Era Context and Hidden Identities
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Quidditch Beyond Hogwarts
+  - Spectator Devices and Tactical Literacy
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
@@ -215,6 +221,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Campsite Memory Charms and Anti-Muggle Security
   - International Portkey Coordination
   - Portkeys and Mass Event Travel
+  - Quidditch World Cup Stadium Protections
 
 ## Magical Architecture and Enchantments
 
@@ -365,6 +372,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Quidditch Beyond Hogwarts
   - International Events and Ministry Sport Administration
   - International Events and Security Context
+  - International Governance and Match Rules
 - Quidditch Pitch and Matchday Infrastructure
   - Stands, Locker Rooms, and House Colors
 - School Quidditch Season

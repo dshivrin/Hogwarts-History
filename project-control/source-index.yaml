@@ -769,3 +769,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1009-1025.
+- source_unit_id: gof-ch08
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 8
+  chapter_title: Chapter Eight - The Quidditch World Cup
+  page_start: 1026
+  page_end: 1043
+  output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 1026-1043.

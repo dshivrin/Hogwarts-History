@@ -1578,6 +1578,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Earlier House and admissions entries mention Muggle-born students, but no prior seed records Hermione's exam success against Draco or this explicit blood-status reaction.
 **Notes:** The evidence comes through hostile private conversation and does not identify official Hogwarts policy on blood status.
 
+#### Section: Pure-Blood Prejudice Beyond School
+
+**Fact:** The chapter corroborates pure-blood prejudice toward Muggle-born or Muggle-descended witches and shows that such prejudice persists in elite public wizarding spaces.
+**Evidence:** "anyone of Muggle descent, like Hermione, second-class"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1031, entry `gof-ch08-003`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch07-003; Book 2 Chapter Seven defines the Muggle-born slur and pure-blood prejudice in a Hogwarts student conflict; this entry corroborates that prejudice in elite adult society under Ministry scrutiny.
+**Notes:** The passage summarizes Malfoy attitudes in narration and does not give a formal law, policy, or school rule.
+
 #### Section: Slurs, Prejudice, and Student Achievement
 
 **Fact:** The chapter defines Mudblood as an insulting term for Muggle-born witches and wizards, connects it to pure-blood prejudice, and contrasts that prejudice with Hermione's demonstrated magical competence.
@@ -1819,6 +1830,30 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-001; Chapter Two records Dobby's bondage to one family until freed; this entry adds magic-use permission and association with old wealthy households.
 **Notes:** The claims come from Fred and George's conversation, not a formal historical or legal source, and they still concern private households rather than Hogwarts.
 
+#### Section: Service Norms, Pay, and Regulation
+
+**Fact:** The chapter expands house-elf service norms with Winky's claims about unpaid labor, master obedience, and possible Department regulation for nonconforming conduct.
+**Evidence:** "House-elves is not paid, sir!"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1028, entry `gof-ch08-002`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-001; Book 2 Chapter Two records Dobby's bondage to a wizarding family; this entry adds Winky's claims about unpaid work, job placement after freedom, obedience to a master, and creature-regulation pressure.
+**Notes:** Winky is defending conventional house-elf views, so the passage should be balanced against later evidence about Dobby's paid Hogwarts work.
+
+### Chapter: Magical Creatures in Public Wizarding Life
+
+#### Section: National Mascots and Event Control
+
+**Fact:** The chapter records a public-event custom in which national Quidditch teams bring native magical creatures as mascots, with Veela enchantment, leprechaun displays, and Ministry crowd-control intervention.
+**Evidence:** "National teams bring creatures from their native land"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1039, entry `gof-ch08-006`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general magical-creature and school-event entries, but no prior seed on Veela, leprechauns, national team mascots, or Ministry crowd control at sporting events.
+**Notes:** The scene is a World Cup spectacle, not a Hogwarts lesson or school policy, and the leprechaun gold is not explained in this chapter.
+
 ### Chapter: Marauders-Era Context and Hidden Identities
 
 #### Section: Animagi, Map Dots, and Pettigrew's Survival
@@ -1866,6 +1901,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-002; Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
 **Notes:** The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
+
+### Chapter: Quidditch Beyond Hogwarts
+
+#### Section: Spectator Devices and Tactical Literacy
+
+**Fact:** The chapter introduces Omnioculars as magical sports-viewing devices with replay, speed control, magnification, and tactical play-by-play overlays.
+**Evidence:** "replay and play-by-play buttons"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1035, entry `gof-ch08-004`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found prior Quidditch entries but no earlier seed specifically about Omnioculars or magical replay/play-by-play devices.
+**Notes:** The chapter does not state who manufactures Omnioculars, whether they are allowed at Hogwarts matches, or how the tactical labels are generated.
 
 ### Chapter: Student Inventions and Magical Misconduct
 
@@ -2045,6 +2093,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch01-002; Book 4 Chapter One already records Quidditch World Cup security, international wizard movement, and Muggle-secrecy pressure; this entry adds the travel mechanics of staggered arrivals, Apparition points, and Portkeys.
 **Notes:** The details concern the Quidditch World Cup rather than a Hogwarts event, so school relevance depends on later tournament-year context.
+
+#### Section: Quidditch World Cup Stadium Protections
+
+**Fact:** The chapter adds stadium-scale secrecy architecture for the World Cup, including a year-long Ministry task force and comprehensive Muggle Repelling Charms.
+**Evidence:** "Muggle Repelling Charms on every inch of it"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1026, entry `gof-ch08-001`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-001; Book 4 Chapter Seven records World Cup campsite anti-Muggle security and Memory Charms; this entry adds stadium-wide Muggle Repelling Charms and the dedicated Ministry task force.
+**Notes:** The passage concerns the World Cup stadium, not Hogwarts grounds, so its school relevance is contextual.
 
 ## Part: Magical Architecture and Enchantments
 
@@ -3374,6 +3433,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; No existing seed records the Quidditch World Cup security context.
 **Notes:** The passage concerns a non-Hogwarts event and is spoken by Voldemort, though the Ministry-security and Muggle-secrecy logic is concrete.
+
+#### Section: International Governance and Match Rules
+
+**Fact:** The chapter supplies international Quidditch governance evidence through named national teams, a named international association chairwizard, referee procedure, fouls, and penalties.
+**Evidence:** "Chairwizard of the International Association of Quidditch"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, PDF page 1034, entry `gof-ch08-005`, `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch03-001; Book 4 Chapter Three records World Cup administration through the Department of Magical Games and Sports; this entry adds the International Association of Quidditch, named national teams, referee authority, and in-match penalties.
+**Notes:** The chapter gives observed match procedure but not a full rulebook or the association's formal jurisdiction.
 
 ### Chapter: Quidditch Pitch and Matchday Infrastructure
 

@@ -5780,6 +5780,92 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch07
     output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch08-001:
+    title: 'Wizarding Transport, Public Events, and Secrecy: Quidditch World Cup Stadium
+      Protections'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - magical-secrecy
+    - ministry-of-magic
+    - muggle-repelling-charms
+    - public-event-security
+    - quidditch-world-cup
+    - stadium
+    source_unit: gof-ch08
+    output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  gof-ch08-002:
+    title: 'House-Elves and Hogwarts: Service Norms, Pay, and Regulation'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - department-for-regulation-and-control-of-magical-creatures
+    - dobby
+    - house-elves
+    - magical-servitude
+    - unpaid-labor
+    - winky
+    source_unit: gof-ch08
+    output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  gof-ch08-003:
+    title: 'Blood Status and Hogwarts Society: Pure-Blood Prejudice Beyond School'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - blood-status
+    - hermione-granger
+    - lucius-malfoy
+    - muggle-born-students
+    - pure-blood-prejudice
+    - wizarding-society
+    source_unit: gof-ch08
+    output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  gof-ch08-004:
+    title: 'Quidditch Beyond Hogwarts: Spectator Devices and Tactical Literacy'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - in-universe-analysis
+    - magical-devices
+    - omnioculars
+    - quidditch
+    - spectator-magic
+    - sports-commentary
+    source_unit: gof-ch08
+    output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  gof-ch08-005:
+    title: 'Quidditch Beyond Hogwarts: International Governance and Match Rules'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - fouls-and-penalties
+    - hassan-mostafa
+    - international-association-of-quidditch
+    - international-quidditch
+    - quidditch-rules
+    - quidditch-world-cup
+    source_unit: gof-ch08
+    output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  gof-ch08-006:
+    title: 'Magical Creatures in Public Wizarding Life: National Mascots and Event
+      Control'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - leprechauns
+    - magical-creatures
+    - ministry-crowd-control
+    - public-events
+    - quidditch-mascots
+    - veela
+    source_unit: gof-ch08
+    output_yaml: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5943,6 +6029,7 @@ by_tag:
   - cos-ch04-004
   - cos-ch07-003
   - cos-ch09-004
+  - gof-ch08-003
   blood-status-threat:
   - cos-ch08-006
   bloodline:
@@ -6374,6 +6461,8 @@ by_tag:
   - poa-ch12-003
   - poa-ch19-002
   - poa-ch20-006
+  department-for-regulation-and-control-of-magical-creatures:
+  - gof-ch08-002
   department-of-magical-games-and-sports:
   - gof-ch03-001
   department-of-magical-transportation:
@@ -6431,6 +6520,7 @@ by_tag:
   - cos-ch02-001
   - cos-ch02-004
   - cos-ch18-006
+  - gof-ch08-002
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
@@ -6757,6 +6847,8 @@ by_tag:
   - cos-ch15-004
   fouls:
   - ps-ch11-002
+  fouls-and-penalties:
+  - gof-ch08-005
   founders:
   - cos-ch09-003
   founders-rift:
@@ -7008,6 +7100,8 @@ by_tag:
   - ps-ch03-003
   - ps-ch03-004
   - ps-ch03-005
+  hassan-mostafa:
+  - gof-ch08-005
   haunted-places:
   - poa-ch14-005
   haunted-reputation:
@@ -7097,6 +7191,7 @@ by_tag:
   hermione-granger:
   - cos-ch04-004
   - cos-ch07-003
+  - gof-ch08-003
   - poa-ch04-004
   hermione-research:
   - poa-ch14-003
@@ -7316,6 +7411,7 @@ by_tag:
   - cos-ch02-001
   - cos-ch03-002
   - cos-ch18-006
+  - gof-ch08-002
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -7383,6 +7479,8 @@ by_tag:
   - ps-ch14-004
   improper-use-of-magic-office:
   - gof-ch05-004
+  in-universe-analysis:
+  - gof-ch08-004
   in-universe-source:
   - cos-ch04-005
   - cos-ch13-004
@@ -7405,8 +7503,12 @@ by_tag:
   - ps-ch10-004
   internal-threat:
   - ps-ch17-002
+  international-association-of-quidditch:
+  - gof-ch08-005
   international-magical-cooperation:
   - gof-ch05-003
+  international-quidditch:
+  - gof-ch08-005
   international-transport:
   - gof-ch07-006
   international-wizarding-world:
@@ -7486,6 +7588,8 @@ by_tag:
   - poa-ch11-003
   legend:
   - cos-ch09-005
+  leprechauns:
+  - gof-ch08-006
   lesson-content:
   - ps-ch13-004
   levitation:
@@ -7548,6 +7652,7 @@ by_tag:
   - cos-ch14-006
   - cos-ch18-005
   - cos-ch18-006
+  - gof-ch08-003
   - poa-ch11-001
   - poa-ch15-001
   ludo-bagman:
@@ -7613,10 +7718,13 @@ by_tag:
   - poa-ch11-003
   magical-creatures:
   - cos-ch08-003
+  - gof-ch08-006
   - ps-ch14-002
   - ps-ch15-007
   magical-delivery:
   - ps-ch03-004
+  magical-devices:
+  - gof-ch08-004
   magical-entrance:
   - poa-ch03-003
   magical-injury:
@@ -7648,11 +7756,14 @@ by_tag:
   - ps-ch16-002
   magical-safety:
   - poa-ch21-003
+  magical-secrecy:
+  - gof-ch08-001
   magical-security:
   - ps-ch09-007
   magical-servitude:
   - cos-ch02-001
   - cos-ch03-002
+  - gof-ch08-002
   magical-spaces:
   - gof-ch07-002
   magical-surveillance:
@@ -7742,6 +7853,8 @@ by_tag:
   - poa-ch21-001
   ministry-authorization:
   - poa-ch21-002
+  ministry-crowd-control:
+  - gof-ch08-006
   ministry-discretion:
   - poa-ch03-001
   ministry-law:
@@ -7762,6 +7875,7 @@ by_tag:
   - gof-ch07-004
   - gof-ch07-005
   - gof-ch07-007
+  - gof-ch08-001
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -7826,6 +7940,7 @@ by_tag:
   - cos-ch06-005
   - cos-ch07-003
   - cos-ch09-004
+  - gof-ch08-003
   - ps-ch05-005
   muggle-camouflage:
   - gof-ch07-002
@@ -7839,6 +7954,8 @@ by_tag:
   - gof-ch03-002
   muggle-records:
   - gof-ch01-001
+  muggle-repelling-charms:
+  - gof-ch08-001
   muggle-school:
   - ps-ch02-002
   muggle-secrecy:
@@ -7928,6 +8045,8 @@ by_tag:
   - ps-ch09-003
   ollivanders:
   - ps-ch05-007
+  omnioculars:
+  - gof-ch08-004
   one-eyed-witch:
   - poa-ch10-004
   - poa-ch14-004
@@ -8254,12 +8373,17 @@ by_tag:
   - poa-ch16-005
   public-cover-story:
   - poa-ch18-004
+  public-event-security:
+  - gof-ch08-001
+  public-events:
+  - gof-ch08-006
   public-memory:
   - ps-ch02-006
   punishment:
   - cos-ch08-002
   pure-blood-prejudice:
   - cos-ch07-003
+  - gof-ch08-003
   purple-fire:
   - ps-ch16-007
   quaffle:
@@ -8270,6 +8394,7 @@ by_tag:
   - cos-ch14-003
   - gof-ch05-005
   - gof-ch06-004
+  - gof-ch08-004
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -8301,6 +8426,8 @@ by_tag:
   - ps-ch11-002
   quidditch-injury:
   - cos-ch10-005
+  quidditch-mascots:
+  - gof-ch08-006
   quidditch-match:
   - ps-ch13-005
   quidditch-pitch:
@@ -8311,6 +8438,7 @@ by_tag:
   - poa-ch15-004
   quidditch-rules:
   - cos-ch07-001
+  - gof-ch08-005
   - poa-ch15-007
   - ps-ch11-005
   quidditch-safety:
@@ -8336,6 +8464,8 @@ by_tag:
   - gof-ch07-001
   - gof-ch07-002
   - gof-ch07-006
+  - gof-ch08-001
+  - gof-ch08-005
   quills:
   - gof-ch04-001
   quirrell:
@@ -8692,6 +8822,8 @@ by_tag:
   - cos-ch18-004
   special-awards:
   - cos-ch18-003
+  spectator-magic:
+  - gof-ch08-004
   spectator-stands:
   - ps-ch11-006
   spectators:
@@ -8706,8 +8838,12 @@ by_tag:
   - ps-ch14-006
   splinching:
   - gof-ch06-001
+  sports-commentary:
+  - gof-ch08-004
   squib-context:
   - cos-ch08-002
+  stadium:
+  - gof-ch08-001
   staff:
   - ps-ch05-004
   staff-accommodation:
@@ -9085,6 +9221,8 @@ by_tag:
   uniform:
   - ps-ch05-002
   - ps-ch05-005
+  unpaid-labor:
+  - gof-ch08-002
   unregistered-magic:
   - poa-ch18-001
   unspeakables:
@@ -9097,6 +9235,8 @@ by_tag:
   - cos-ch13-003
   vampires:
   - ps-ch05-004
+  veela:
+  - gof-ch08-006
   visitor-access:
   - ps-ch17-004
   visitor-control:
@@ -9184,6 +9324,8 @@ by_tag:
   - poa-ch05-005
   winged-keys:
   - ps-ch16-006
+  winky:
+  - gof-ch08-002
   winter-at-hogwarts:
   - ps-ch12-001
   wizard-law:
@@ -9205,6 +9347,8 @@ by_tag:
   - poa-ch21-003
   wizarding-schools:
   - gof-ch07-003
+  wizarding-society:
+  - gof-ch08-003
   wizarding-sport:
   - gof-ch03-001
   wizarding-tents:
