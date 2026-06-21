@@ -5675,6 +5675,111 @@ by_entry:
     - team-captains
     source_unit: gof-ch06
     output_yaml: sources/book-04/chapter-06-the-portkey.yaml
+  gof-ch07-001:
+    title: 'Wizarding Transport, Public Events, and Secrecy: Campsite Memory Charms
+      and Anti-Muggle Security'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - anti-muggle-security
+    - ludo-bagman
+    - memory-charms
+    - ministry-of-magic
+    - muggle-secrecy
+    - quidditch-world-cup
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch07-002:
+    title: 'Enchanted Space Beyond the Castle: Expanded Tents and Public Camouflage'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - anti-muggle-security
+    - expanded-interiors
+    - magical-spaces
+    - muggle-camouflage
+    - quidditch-world-cup
+    - wizarding-tents
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch07-003:
+    title: 'Wizarding Schools Beyond Britain: International Schools and Exchange Awareness'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - brazilian-school
+    - foreign-schools
+    - hogwarts
+    - international-wizarding-world
+    - salem-witches-institute
+    - wizarding-schools
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch07-004:
+    title: 'Ministry Interfaces with Hogwarts: Specialist Offices and External Governance
+      Context'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - accidental-magic-reversal-squad
+    - department-of-mysteries
+    - experimental-charms
+    - goblin-liaison
+    - ministry-of-magic
+    - obliviator
+    - unspeakables
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch07-005:
+    title: 'The Triwizard Year and Institutional Security: Bertha Jorkins and Ministry
+      Search Failure'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - barty-crouch
+    - bertha-jorkins
+    - information-security
+    - ludo-bagman
+    - ministry-of-magic
+    - triwizard-year
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch07-006:
+    title: 'Wizarding Transport, Public Events, and Secrecy: International Portkey
+      Coordination'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - barty-crouch
+    - international-transport
+    - magical-transportation
+    - ministry-logistics
+    - portkeys
+    - quidditch-world-cup
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  gof-ch07-007:
+    title: 'The Triwizard Year and Institutional Security: Classified Ministry Announcement
+      at Hogwarts'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - barty-crouch
+    - classified-information
+    - goblet-of-fire
+    - hogwarts
+    - ludo-bagman
+    - ministry-of-magic
+    - triwizard-tournament
+    source_unit: gof-ch07
+    output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5689,6 +5794,7 @@ by_tag:
   - poa-ch03-001
   accidental-magic-reversal-squad:
   - gof-ch06-001
+  - gof-ch07-004
   acromantula-colony:
   - cos-ch15-005
   address-tracking:
@@ -5757,6 +5863,9 @@ by_tag:
   - poa-ch20-007
   anti-muggle-precautions:
   - gof-ch06-002
+  anti-muggle-security:
+  - gof-ch07-001
+  - gof-ch07-002
   apparition:
   - gof-ch06-001
   apparition-points:
@@ -5807,6 +5916,10 @@ by_tag:
   - ps-ch15-007
   banquet:
   - ps-ch10-002
+  barty-crouch:
+  - gof-ch07-005
+  - gof-ch07-006
+  - gof-ch07-007
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -5823,6 +5936,7 @@ by_tag:
   bertha-jorkins:
   - gof-ch01-003
   - gof-ch05-003
+  - gof-ch07-005
   black-flames:
   - ps-ch16-007
   blood-status:
@@ -5856,6 +5970,8 @@ by_tag:
   - cos-ch11-005
   borrowing-procedure:
   - cos-ch10-001
+  brazilian-school:
+  - gof-ch07-003
   brick-entrance:
   - poa-ch04-001
   broom-jinx:
@@ -6041,6 +6157,8 @@ by_tag:
   - ps-ch12-001
   classes:
   - ps-ch15-001
+  classified-information:
+  - gof-ch07-007
   classroom-assessment:
   - cos-ch06-006
   classroom-discipline:
@@ -6260,6 +6378,8 @@ by_tag:
   - gof-ch03-001
   department-of-magical-transportation:
   - gof-ch06-001
+  department-of-mysteries:
+  - gof-ch07-004
   deputy-headmistress:
   - ps-ch04-002
   desire-based-magic:
@@ -6474,11 +6594,15 @@ by_tag:
   - poa-ch22-005
   - ps-ch14-001
   - ps-ch16-001
+  expanded-interiors:
+  - gof-ch07-002
   expecto-patronum:
   - poa-ch12-002
   expelliarmus:
   - cos-ch11-003
   - poa-ch19-003
+  experimental-charms:
+  - gof-ch07-004
   explicit-reference:
   - cos-ch09-001
   - ps-ch07-001
@@ -6622,6 +6746,8 @@ by_tag:
   - ps-ch15-004
   - ps-ch15-005
   - ps-ch15-006
+  foreign-schools:
+  - gof-ch07-003
   forest-edge:
   - ps-ch14-005
   - ps-ch15-005
@@ -6688,6 +6814,10 @@ by_tag:
   - cos-ch18-002
   girls-bathroom:
   - ps-ch10-004
+  goblet-of-fire:
+  - gof-ch07-007
+  goblin-liaison:
+  - gof-ch07-004
   goblin-rebellion:
   - poa-ch05-002
   godric-gryffindor:
@@ -7043,6 +7173,8 @@ by_tag:
   - poa-ch05-005
   hogwarts:
   - gof-ch02-001
+  - gof-ch07-003
+  - gof-ch07-007
   hogwarts-a-history:
   - cos-ch09-001
   - poa-ch09-001
@@ -7262,6 +7394,7 @@ by_tag:
   - poa-ch04-002
   information-security:
   - gof-ch01-003
+  - gof-ch07-005
   institutional-custom:
   - ps-ch07-002
   institutional-secrecy:
@@ -7274,6 +7407,10 @@ by_tag:
   - ps-ch17-002
   international-magical-cooperation:
   - gof-ch05-003
+  international-transport:
+  - gof-ch07-006
+  international-wizarding-world:
+  - gof-ch07-003
   international-wizards:
   - gof-ch01-002
   invisibility-cloak:
@@ -7413,6 +7550,10 @@ by_tag:
   - cos-ch18-006
   - poa-ch11-001
   - poa-ch15-001
+  ludo-bagman:
+  - gof-ch07-001
+  - gof-ch07-005
+  - gof-ch07-007
   luggage:
   - poa-ch05-001
   - ps-ch06-006
@@ -7512,6 +7653,8 @@ by_tag:
   magical-servitude:
   - cos-ch02-001
   - cos-ch03-002
+  magical-spaces:
+  - gof-ch07-002
   magical-surveillance:
   - poa-ch10-003
   - poa-ch17-004
@@ -7521,6 +7664,7 @@ by_tag:
   magical-transportation:
   - gof-ch06-001
   - gof-ch06-002
+  - gof-ch07-006
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
@@ -7588,6 +7732,7 @@ by_tag:
   memory-charms:
   - cos-ch03-004
   - gof-ch01-003
+  - gof-ch07-001
   memory-magic:
   - cos-ch13-004
   minister-of-magic:
@@ -7601,6 +7746,8 @@ by_tag:
   - poa-ch03-001
   ministry-law:
   - poa-ch21-004
+  ministry-logistics:
+  - gof-ch07-006
   ministry-of-magic:
   - cos-ch02-005
   - cos-ch03-004
@@ -7611,6 +7758,10 @@ by_tag:
   - gof-ch04-003
   - gof-ch05-003
   - gof-ch06-002
+  - gof-ch07-001
+  - gof-ch07-004
+  - gof-ch07-005
+  - gof-ch07-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -7676,6 +7827,8 @@ by_tag:
   - cos-ch07-003
   - cos-ch09-004
   - ps-ch05-005
+  muggle-camouflage:
+  - gof-ch07-002
   muggle-fireplaces:
   - gof-ch04-004
   muggle-households:
@@ -7697,6 +7850,7 @@ by_tag:
   - gof-ch03-002
   - gof-ch04-005
   - gof-ch06-002
+  - gof-ch07-001
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -7764,6 +7918,8 @@ by_tag:
   - poa-ch06-002
   norwegian-ridgeback:
   - ps-ch14-004
+  obliviator:
+  - gof-ch07-004
   old-manors:
   - cos-ch03-002
   old-punishments:
@@ -7946,6 +8102,7 @@ by_tag:
   - cos-ch12-004
   portkeys:
   - gof-ch06-002
+  - gof-ch07-006
   portrait-guardians:
   - poa-ch09-003
   portrait-guardianship:
@@ -8176,6 +8333,9 @@ by_tag:
   - gof-ch05-005
   - gof-ch05-006
   - gof-ch06-002
+  - gof-ch07-001
+  - gof-ch07-002
+  - gof-ch07-006
   quills:
   - gof-ch04-001
   quirrell:
@@ -8247,6 +8407,8 @@ by_tag:
   - cos-ch11-004
   - cos-ch17-004
   - cos-ch17-006
+  salem-witches-institute:
+  - gof-ch07-003
   scabbers:
   - poa-ch19-004
   - poa-ch19-006
@@ -8875,9 +9037,12 @@ by_tag:
   - ps-ch16-005
   trick-sweets:
   - gof-ch05-002
+  triwizard-tournament:
+  - gof-ch07-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
+  - gof-ch07-005
   troll:
   - ps-ch16-007
   troll-incident:
@@ -8922,6 +9087,8 @@ by_tag:
   - ps-ch05-005
   unregistered-magic:
   - poa-ch18-001
+  unspeakables:
+  - gof-ch07-004
   unused-classroom:
   - ps-ch12-006
   vacation:
@@ -9036,8 +9203,12 @@ by_tag:
   - gof-ch03-002
   wizarding-law:
   - poa-ch21-003
+  wizarding-schools:
+  - gof-ch07-003
   wizarding-sport:
   - gof-ch03-001
+  wizarding-tents:
+  - gof-ch07-002
   wizarding-transport:
   - gof-ch01-002
   wizarding-war:

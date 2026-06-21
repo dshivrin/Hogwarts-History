@@ -69,3 +69,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch04`: Harry Potter and the Goblet of Fire, Chapter Four - Back to the Burrow, pages 979-988, 5 entries, 0 explicit references.
 - `gof-ch05`: Harry Potter and the Goblet of Fire, Chapter Five - Weasleys’ Wizard Wheezes, pages 989-1000, 6 entries, 0 explicit references.
 - `gof-ch06`: Harry Potter and the Goblet of Fire, Chapter Six - The Portkey, pages 1001-1008, 4 entries, 0 explicit references.
+- `gof-ch07`: Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, pages 1009-1025, 7 entries, 0 explicit references.

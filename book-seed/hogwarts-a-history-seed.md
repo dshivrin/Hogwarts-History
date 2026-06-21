@@ -1941,6 +1941,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: The Triwizard Year and Institutional Security
 
+#### Section: Bertha Jorkins and Ministry Search Failure
+
+**Fact:** The chapter corroborates Bertha Jorkins's disappearance from the Ministry side and shows Bagman's reluctance to assign search resources despite Crouch's concern.
+**Evidence:** "memory like a leaky cauldron"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1021, entry `gof-ch07-005`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records Bertha Jorkins's disappearance and Ministry workload; this entry adds Bagman's minimization and Crouch's push to search.
+**Notes:** The scene does not reveal what happened to Bertha or what information she carried.
+
+#### Section: Classified Ministry Announcement at Hogwarts
+
+**Fact:** The chapter directly foreshadows a Ministry-organized, signed, classified event at Hogwarts before the school year begins.
+**Evidence:** "it's happening at Hogwarts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1023, entry `gof-ch07-007`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records a top-secret post-World Cup event; this entry identifies Hogwarts as the venue and adds signed agreement/classification details.
+**Notes:** The chapter does not yet name the event as the Triwizard Tournament or explain who signed the agreement.
+
 #### Section: Ministry Information Leaks and Memory Charm Limits
 
 **Fact:** The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
@@ -1976,7 +1998,42 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; No prior seed records the open magical celebrations and Muggle-noticed secrecy strain after Voldemort's fall.
 **Notes:** The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
 
+### Chapter: Wizarding Schools Beyond Britain
+
+#### Section: International Schools and Exchange Awareness
+
+**Fact:** The chapter confirms that Hogwarts is one school within a wider international wizarding education network, with references to a Brazilian school, exchange travel, and Hermione's book-based knowledge.
+**Evidence:** "Hogwarts couldn't be the only one"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1017, entry `gof-ch07-003`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general World Cup and Hogwarts matches, but no prior entry focused on other wizarding schools or exchange awareness.
+**Notes:** The Brazilian school and exchange trip are reported secondhand by Ron, and the Salem banner does not by itself define whether the institute is a school.
+
 ### Chapter: Wizarding Transport, Public Events, and Secrecy
+
+#### Section: Campsite Memory Charms and Anti-Muggle Security
+
+**Fact:** The chapter shows World Cup secrecy enforcement at the campsite, including repeated Memory Charms on the Muggle manager and Ministry frustration with Bagman's loose talk near Muggles.
+**Evidence:** "Needs a Memory Charm ten times a day"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1011, entry `gof-ch07-001`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-002; Book 4 Chapter Six already records mass World Cup travel and anti-Muggle precautions; this entry adds the campsite-level Memory Charm operation and Bagman's security laxity.
+**Notes:** The scene concerns a World Cup campsite rather than Hogwarts grounds, so school relevance is contextual rather than institutional.
+
+#### Section: International Portkey Coordination
+
+**Fact:** The chapter expands World Cup transport logistics from British Portkey sites to an international, five-continent Ministry operation coordinated by Crouch.
+**Evidence:** "Organizing Portkeys across five continents"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1023, entry `gof-ch07-006`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-002; Book 4 Chapter Six records timed Portkeys around Britain for World Cup arrivals; this entry corroborates and extends that seed to Crouch's five-continent coordination.
+**Notes:** The passage gives scale but not operational details such as sites, timing, or authorization process.
 
 #### Section: Portkeys and Mass Event Travel
 
@@ -2312,6 +2369,21 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=false; No direct duplicate found for Flitwick's office location or this specific exterior-window access.
 **Notes:** The chapter does not say whether the office window normally has stronger protections or whether Alohomora works because of unusual circumstances.
+
+## Part: Magical Architecture and Spaces
+
+### Chapter: Enchanted Space Beyond the Castle
+
+#### Section: Expanded Tents and Public Camouflage
+
+**Fact:** The chapter gives observed evidence for magically expanded temporary living spaces and for imperfect magical camouflage when wizards gather in public.
+**Evidence:** "three-room flat, complete with bathroom and kitchen"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1013, entry `gof-ch07-002`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** magical_architecture
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned general magical-object and Quidditch matches but no prior entry on expanded tents or campsite camouflage.
+**Notes:** The passage does not name the spell or object enchantment used to expand the tents.
 
 ## Part: Notable Events Before 1984
 
@@ -3768,6 +3840,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned magical-safety and Quidditch matches, but no prior entry on Apparition licensing, Splinching, or the Department of Magical Transportation.
 **Notes:** The evidence comes from a family breakfast before a World Cup trip and does not state Hogwarts curriculum rules for Apparition instruction.
+
+### Chapter: Ministry Interfaces with Hogwarts
+
+#### Section: Specialist Offices and External Governance Context
+
+**Fact:** The chapter supplies compact Ministry organizational evidence by naming several offices and specialist roles present at the World Cup.
+**Evidence:** "they're Unspeakables"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, PDF page 1018, entry `gof-ch07-004`, `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned broad Ministry-law matches, but no prior entry naming these specific offices and roles together.
+**Notes:** The passage is a campsite identification list and does not describe each office's formal jurisdiction or relationship to Hogwarts.
 
 ### Chapter: Prefects and Student Authority
 

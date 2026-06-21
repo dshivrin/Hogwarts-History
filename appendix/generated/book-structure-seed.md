@@ -203,11 +203,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
+  - Bertha Jorkins and Ministry Search Failure
+  - Classified Ministry Announcement at Hogwarts
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wizarding Schools Beyond Britain
+  - International Schools and Exchange Awareness
 - Wizarding Transport, Public Events, and Secrecy
+  - Campsite Memory Charms and Anti-Muggle Security
+  - International Portkey Coordination
   - Portkeys and Mass Event Travel
 
 ## Magical Architecture and Enchantments
@@ -238,6 +244,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Enchanted Ceiling
 - Towers, Offices, and Upper-Floor Access
   - Professor Flitwick's Office and West Tower Windows
+
+## Magical Architecture and Spaces
+
+- Enchanted Space Beyond the Castle
+  - Expanded Tents and Public Camouflage
 
 ## Notable Events Before 1984
 
@@ -409,6 +420,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Time-Turner Noninterference Rules
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
+- Ministry Interfaces with Hogwarts
+  - Specialist Offices and External Governance Context
 - Prefects and Student Authority
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority

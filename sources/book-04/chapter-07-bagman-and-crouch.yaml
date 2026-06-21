@@ -1,0 +1,316 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  boundary_confidence: high
+  boundary_notes: Chapter Seven range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Seven starts on PDF page 1009 and Chapter Eight starts on PDF page 1026, so only PDF pages 1009-1025 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Seven. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch07-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1011
+  printed_page: not available
+  extracted_text_lines: PDF page 1011, lines 74-90; PDF page 1012, lines 90-103
+  text_anchor:
+    start_phrase: Obliviate!
+    end_phrase: the best Beater the Wimbourne Wasps ever had
+    local_occurrence_note: The campsite Ministry worker modifies Mr. Roberts's memory, then complains about the repeated strain of maintaining anti-Muggle security.
+  nearby_context: Mr. Roberts is the Muggle campsite manager for a mass wizarding event; a Ministry wizard performs a Memory Charm in front of the group and says Roberts needs repeated charms because Bagman talks openly about Quidditch near Muggles.
+  match_terms:
+  - Mr. Roberts
+  - Obliviate
+  - Memory Charm
+  - anti-Muggle security
+  - Ludo Bagman
+  - Bludgers
+  - Quaffles
+  quote_excerpt_short: "Needs a Memory Charm ten times a day"
+  source_note: The chapter shows World Cup secrecy enforcement at the campsite, including repeated Memory Charms on the Muggle manager and Ministry frustration with Bagman's loose talk near Muggles.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-world-cup
+  - anti-muggle-security
+  - memory-charms
+  - ministry-of-magic
+  - muggle-secrecy
+  - ludo-bagman
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: Campsite Memory Charms and Anti-Muggle Security
+  reason_for_placement: The evidence is external to Hogwarts, but it gives unusually concrete public-event secrecy practices during the same year as the later school-linked tournament.
+  relevance_to_hogwarts_a_history: This can support later editorial notes contrasting Hogwarts-contained magical concealment with Ministry-managed secrecy at large international events attended by students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch06-002
+    notes: Book 4 Chapter Six already records mass World Cup travel and anti-Muggle precautions; this entry adds the campsite-level Memory Charm operation and Bagman's security laxity.
+  confidence: high
+  limitations: The scene concerns a World Cup campsite rather than Hogwarts grounds, so school relevance is contextual rather than institutional.
+- id: gof-ch07-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1013
+  printed_page: not available
+  extracted_text_lines: PDF page 1012, lines 105-116; PDF page 1013, lines 135-156
+  text_anchor:
+    start_phrase: Most looked almost ordinary
+    end_phrase: extraordinary inner proportions
+    local_occurrence_note: The chapter first surveys badly camouflaged magical tents, then shows the Weasley tents' concealed expanded interiors.
+  nearby_context: Campers try to disguise tents as Muggle-like but add impossible details such as chimneys, turrets, gardens, and peacocks; the Weasley tent appears small outside but opens into a furnished three-room flat.
+  match_terms:
+  - tents
+  - Muggle-like
+  - magical
+  - three-room flat
+  - extraordinary inner proportions
+  - campsite
+  quote_excerpt_short: "three-room flat, complete with bathroom and kitchen"
+  source_note: The chapter gives observed evidence for magically expanded temporary living spaces and for imperfect magical camouflage when wizards gather in public.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - magical-spaces
+  - wizarding-tents
+  - muggle-camouflage
+  - quidditch-world-cup
+  - anti-muggle-security
+  - expanded-interiors
+  candidate_part: Magical Architecture and Spaces
+  candidate_chapter: Enchanted Space Beyond the Castle
+  candidate_section: Expanded Tents and Public Camouflage
+  reason_for_placement: The tent evidence is not Hogwarts architecture, but it provides a useful comparator for magically expanded spaces and concealment practices.
+  relevance_to_hogwarts_a_history: This can support later cross-reference notes on the broader magical-space techniques that make Hogwarts interiors, tents, and concealed public sites understandable together.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned general magical-object and Quidditch matches but no prior entry on expanded tents or campsite camouflage.
+  confidence: medium
+  limitations: The passage does not name the spell or object enchantment used to expand the tents.
+- id: gof-ch07-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1017
+  printed_page: not available
+  extracted_text_lines: PDF page 1015, lines 198-205; PDF page 1017, lines 273-298
+  text_anchor:
+    start_phrase: THE SALEM WITCHES' INSTITUTE
+    end_phrase: other Wizarding schools in some book or other
+    local_occurrence_note: After passing international campers and Hogwarts students, Harry wonders about unfamiliar teenagers and learns about other wizarding schools.
+  nearby_context: The campsite includes international witches and wizards, a Salem Witches' Institute banner, Hogwarts students and alumni, and Ron's account of Bill's Brazilian school penfriend and attempted exchange trip.
+  match_terms:
+  - Salem Witches' Institute
+  - Hogwarts students
+  - foreign school
+  - school in Brazil
+  - exchange trip
+  - other Wizarding schools
+  quote_excerpt_short: "Hogwarts couldn't be the only one"
+  source_note: The chapter confirms that Hogwarts is one school within a wider international wizarding education network, with references to a Brazilian school, exchange travel, and Hermione's book-based knowledge.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - wizarding-schools
+  - international-wizarding-world
+  - hogwarts
+  - foreign-schools
+  - brazilian-school
+  - salem-witches-institute
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Schools Beyond Britain
+  candidate_section: International Schools and Exchange Awareness
+  reason_for_placement: The evidence directly reframes Hogwarts in a global school network but arises during a World Cup outing rather than a Hogwarts institutional explanation.
+  relevance_to_hogwarts_a_history: This can support later editorial framing that Hogwarts history is British-centered and should be cross-referenced against other known wizarding schools.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned general World Cup and Hogwarts matches, but no prior entry focused on other wizarding schools or exchange awareness.
+  confidence: medium
+  limitations: The Brazilian school and exchange trip are reported secondhand by Ron, and the Salem banner does not by itself define whether the institute is a school.
+- id: gof-ch07-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1018
+  printed_page: not available
+  extracted_text_lines: PDF page 1018, lines 315-328
+  text_anchor:
+    start_phrase: Ministry members kept hurrying up and down
+    end_phrase: no idea what they get up to
+    local_occurrence_note: Mr. Weasley identifies passing Ministry colleagues while the group cooks beside a campsite thoroughfare.
+  nearby_context: Arthur names the Head of the Goblin Liaison Office, a Committee on Experimental Charms worker, an Obliviator from the Accidental Magic Reversal Squad, and Bode and Croaker as Unspeakables from the Department of Mysteries.
+  match_terms:
+  - Goblin Liaison Office
+  - Committee on Experimental Charms
+  - Obliviator
+  - Accidental Magic Reversal Squad
+  - Unspeakables
+  - Department of Mysteries
+  quote_excerpt_short: "they're Unspeakables"
+  source_note: The chapter supplies compact Ministry organizational evidence by naming several offices and specialist roles present at the World Cup.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - goblin-liaison
+  - experimental-charms
+  - obliviator
+  - accidental-magic-reversal-squad
+  - department-of-mysteries
+  - unspeakables
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Interfaces with Hogwarts
+  candidate_section: Specialist Offices and External Governance Context
+  reason_for_placement: The evidence is Ministry-facing, but these offices provide governance context for magic reversal, secrecy, and later school-adjacent crises.
+  relevance_to_hogwarts_a_history: This can support later editorial notes where Hogwarts events intersect with Ministry specialist offices or external magical governance.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned broad Ministry-law matches, but no prior entry naming these specific offices and roles together.
+  confidence: medium
+  limitations: The passage is a campsite identification list and does not describe each office's formal jurisdiction or relationship to Hogwarts.
+- id: gof-ch07-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1021
+  printed_page: not available
+  extracted_text_lines: PDF page 1021, lines 421-430
+  text_anchor:
+    start_phrase: Any news of Bertha Jorkins yet
+    end_phrase: we really can't spare anyone at the moment
+    local_occurrence_note: Arthur asks Bagman about Bertha Jorkins while they wait for Barty Crouch.
+  nearby_context: Bagman dismisses Bertha Jorkins as merely lost despite Crouch urging a search, says her memory and direction are poor, and claims the Ministry cannot spare anyone during World Cup work.
+  match_terms:
+  - Bertha Jorkins
+  - Ludo Bagman
+  - Barty Crouch
+  - memory
+  - Ministry
+  - search
+  quote_excerpt_short: "memory like a leaky cauldron"
+  source_note: The chapter corroborates Bertha Jorkins's disappearance from the Ministry side and shows Bagman's reluctance to assign search resources despite Crouch's concern.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - bertha-jorkins
+  - ministry-of-magic
+  - ludo-bagman
+  - barty-crouch
+  - information-security
+  - triwizard-year
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Bertha Jorkins and Ministry Search Failure
+  reason_for_placement: The evidence extends the pre-tournament Ministry information thread that will later matter to Hogwarts security and tournament events.
+  relevance_to_hogwarts_a_history: This should remain later editorial context until the later chapters identify how Bertha's information affects Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch05-003
+    notes: Book 4 Chapter Five already records Bertha Jorkins's disappearance and Ministry workload; this entry adds Bagman's minimization and Crouch's push to search.
+  confidence: medium
+  limitations: The scene does not reveal what happened to Bertha or what information she carried.
+- id: gof-ch07-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1023
+  printed_page: not available
+  extracted_text_lines: PDF page 1023, lines 477-479
+  text_anchor:
+    start_phrase: So, been keeping busy, Barty?
+    end_phrase: no mean feat, Ludo
+    local_occurrence_note: Bagman asks Crouch about workload after Crouch discusses the Bulgarian delegation and flying carpets.
+  nearby_context: Crouch dryly says organizing Portkeys across five continents is a substantial task, adding an international scale marker to the earlier British Portkey and World Cup transport logistics.
+  match_terms:
+  - Barty Crouch
+  - organizing Portkeys
+  - five continents
+  - Ludo Bagman
+  - World Cup
+  quote_excerpt_short: "Organizing Portkeys across five continents"
+  source_note: The chapter expands World Cup transport logistics from British Portkey sites to an international, five-continent Ministry operation coordinated by Crouch.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - portkeys
+  - international-transport
+  - quidditch-world-cup
+  - ministry-logistics
+  - barty-crouch
+  - magical-transportation
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: International Portkey Coordination
+  reason_for_placement: The passage gives wider magical-transport context for a public international event rather than school-specific travel.
+  relevance_to_hogwarts_a_history: This can support later notes contrasting ordinary Hogwarts travel arrangements with Ministry-scale event transport.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch06-002
+    notes: Book 4 Chapter Six records timed Portkeys around Britain for World Cup arrivals; this entry corroborates and extends that seed to Crouch's five-continent coordination.
+  confidence: high
+  limitations: The passage gives scale but not operational details such as sites, timing, or authorization process.
+- id: gof-ch07-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seven - Bagman and Crouch
+  chapter_start_pdf_page: 1009
+  chapter_end_pdf_page: 1025
+  pdf_page: 1023
+  printed_page: not available
+  extracted_text_lines: PDF page 1023, lines 482-490; PDF page 1024, lines 499-505
+  text_anchor:
+    start_phrase: Plenty left to organize
+    end_phrase: until such time as the Ministry decides to release it
+    local_occurrence_note: Bagman nearly reveals the next major event before Crouch stops him; the children immediately ask what is happening at Hogwarts.
+  nearby_context: Bagman says the parties have signed and agreed to an event happening at Hogwarts; Crouch cuts him off, and Percy calls the matter classified Ministry information.
+  match_terms:
+  - signed
+  - agreed
+  - Hogwarts
+  - classified information
+  - Ministry
+  - Barty Crouch
+  - Ludo Bagman
+  quote_excerpt_short: "it's happening at Hogwarts"
+  source_note: The chapter directly foreshadows a Ministry-organized, signed, classified event at Hogwarts before the school year begins.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - classified-information
+  - hogwarts
+  - ministry-of-magic
+  - ludo-bagman
+  - barty-crouch
+  - goblet-of-fire
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Classified Ministry Announcement at Hogwarts
+  reason_for_placement: The passage is the first direct World Cup-side confirmation that the secret post-Cup event will happen at Hogwarts, but the event remains unnamed.
+  relevance_to_hogwarts_a_history: This can anchor later editorial coverage once subsequent chapters identify the event and its institutional impact on Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch05-003
+    notes: Book 4 Chapter Five already records a top-secret post-World Cup event; this entry identifies Hogwarts as the venue and adds signed agreement/classification details.
+  confidence: high
+  limitations: The chapter does not yet name the event as the Triwizard Tournament or explain who signed the agreement.

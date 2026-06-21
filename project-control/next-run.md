@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Seven - Bagman and Crouch
-- Page range: 1009-1025
+- Chapter: Chapter Eight - The Quidditch World Cup
+- Page range: 1026-1043
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-07-bagman-and-crouch.yaml`
+- Output YAML: `sources/book-04/chapter-08-the-quidditch-world-cup.yaml`
 
 ## Minimal Context
 

@@ -757,3 +757,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 4
   boundary_summary: Used indexed page range; extracted only pages 1001-1008.
+- source_unit_id: gof-ch07
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 7
+  chapter_title: Chapter Seven - Bagman and Crouch
+  page_start: 1009
+  page_end: 1025
+  output_yaml: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1009-1025.
