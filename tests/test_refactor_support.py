@@ -176,6 +176,30 @@ class RefactorSupportTests(unittest.TestCase):
 
         self.assertEqual([match["entry_id"] for match in payload["matches"]], ["ps-ch07-001"])
 
+    def test_generate_book_seed_groups_entries_with_sources(self) -> None:
+        generate_book_seed = importlib.import_module("scripts.generate_book_seed")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            source_dir = root / "sources" / "book-01"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-07-sorting-hat.yaml").write_text(
+                self._book_seed_source_yaml(),
+                encoding="utf-8",
+            )
+
+            self.assertEqual(generate_book_seed.main(["--root", str(root)]), 0)
+            book_seed = (root / "book-seed" / "hogwarts-a-history-seed.md").read_text()
+
+        self.assertIn("# Generated File", book_seed)
+        self.assertIn("# Hogwarts: A History - Evidence-Backed Seed", book_seed)
+        self.assertEqual(book_seed.count("## Part:"), 1)
+        self.assertEqual(book_seed.count("### Chapter:"), 1)
+        self.assertEqual(book_seed.count("#### Section:"), 1)
+        self.assertEqual(book_seed.count("**Fact:**"), 2)
+        self.assertIn("entry `ps-ch07-001`", book_seed)
+        self.assertIn("`sources/book-01/chapter-07-sorting-hat.yaml`", book_seed)
+
     def test_generate_appendices_includes_structured_open_questions(self) -> None:
         appendices = importlib.import_module("scripts.generate_appendices")
 
@@ -511,6 +535,7 @@ class RefactorSupportTests(unittest.TestCase):
                   ps-ch07-001:
                     title: 'The Great Hall: The Enchanted Ceiling'
                     classification: original_book_core_candidate
+                    reference_type: explicit_hogwarts_a_history
                     confidence: high
                     tags:
                     - great-hall
@@ -520,6 +545,7 @@ class RefactorSupportTests(unittest.TestCase):
                   ps-ch03-001:
                     title: 'Admissions: Acceptance Letters'
                     classification: harry_era_confirmation
+                    reference_type: institutional_custom
                     confidence: medium
                     tags:
                     - admissions
@@ -529,6 +555,67 @@ class RefactorSupportTests(unittest.TestCase):
             ).strip()
             + "\n",
             encoding="utf-8",
+        )
+
+    def _book_seed_source_yaml(self) -> str:
+        return (
+            textwrap.dedent(
+                """
+                source_unit:
+                  source_file: pdfs/harrypotter.pdf
+                  book: Harry Potter and the Philosopher's Stone
+                  chapter: Chapter Seven - The Sorting Hat
+                  chapter_start_pdf_page: 107
+                  chapter_end_pdf_page: 122
+                  processed_date: '2026-06-21'
+                entries:
+                - id: ps-ch07-001
+                  pdf_page: 110
+                  text_anchor:
+                    start_phrase: First-years enter the Great Hall
+                    end_phrase: bewitched to look like the sky outside
+                    local_occurrence_note: One occurrence.
+                  quote_excerpt_short: bewitched to look like the sky outside
+                  source_note: Hermione identifies the Great Hall ceiling enchantment.
+                  reference_type: explicit_hogwarts_a_history
+                  era_classification: original_book_core_candidate
+                  topic_tags:
+                  - great-hall
+                  - enchanted-ceiling
+                  candidate_part: Magical Architecture and Enchantments
+                  candidate_chapter: The Great Hall
+                  candidate_section: The Enchanted Ceiling
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                    notes: No duplicate found.
+                  confidence: high
+                  limitations: Later books may add corroborating references.
+                - id: ps-ch07-002
+                  pdf_page: 108
+                  text_anchor:
+                    start_phrase: The Sorting Ceremony will take place
+                    end_phrase: earn your House points
+                    local_occurrence_note: One occurrence.
+                  quote_excerpt_short: The Sorting Ceremony will take place
+                  source_note: McGonagall describes the Sorting Ceremony.
+                  reference_type: institutional_custom
+                  era_classification: harry_era_confirmation
+                  topic_tags:
+                  - sorting-ceremony
+                  - house-system
+                  candidate_part: Magical Architecture and Enchantments
+                  candidate_chapter: The Great Hall
+                  candidate_section: The Enchanted Ceiling
+                  duplicate_check:
+                    possible_duplicate: true
+                    duplicate_of: ps-ch07-001
+                    notes: Corroborates Great Hall context.
+                  confidence: medium
+                  limitations: Ceremony origin is not stated.
+                """
+            ).strip()
+            + "\n"
         )
 
 
