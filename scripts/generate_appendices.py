@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import yaml
@@ -17,6 +17,7 @@ SOURCE_INDEX_PATH = ROOT / "project-control" / "source-index.yaml"
 STRUCTURED_OPEN_QUESTIONS_PATH = (
     ROOT / "project-control" / "structured-sources" / "open-questions.yaml"
 )
+PROCESSING_STATE_PATH = ROOT / "project-control" / "processing-state.yaml"
 
 HEADER = """# Generated File
 
@@ -168,6 +169,154 @@ def generate_source_index() -> str:
     return "\n".join(lines)
 
 
+def entry_label(entry: dict) -> str:
+    return (
+        f"`{entry.get('id')}` ({entry.get('_book')}, {entry.get('_chapter')}): "
+        f"{entry.get('source_note') or entry.get('limitations') or 'No note recorded.'}"
+    )
+
+
+def matching_entries(entries: list[dict], predicate) -> list[dict]:
+    return [entry for entry in entries if predicate(entry)]
+
+
+def add_entry_section(lines: list[str], heading: str, entries: list[dict]) -> None:
+    lines.extend([f"## {heading}", ""])
+    if not entries:
+        lines.extend(["No entries currently flagged.", ""])
+        return
+    for entry in sorted(entries, key=lambda item: str(item.get("id") or "")):
+        lines.append(f"- {entry_label(entry)}")
+    lines.append("")
+
+
+def has_limited_evidence(entry: dict) -> bool:
+    text = f"{entry.get('limitations') or ''} {entry.get('source_note') or ''}".lower()
+    markers = ["limited", "uncertain", "not stated", "does not", "may", "only"]
+    return any(marker in text for marker in markers)
+
+
+def has_off_campus_context(entry: dict) -> bool:
+    tags = " ".join(str(tag) for tag in entry.get("topic_tags") or []).lower()
+    text = f"{tags} {entry.get('candidate_part') or ''} {entry.get('source_note') or ''}".lower()
+    return any(marker in text for marker in ["off-campus", "holiday", "muggle", "privet"])
+
+
+def schema_warnings(entry: dict) -> list[str]:
+    warnings = []
+    tags = entry.get("topic_tags")
+    if not isinstance(tags, list) or len(tags) < 3 or len(tags) > 8:
+        warnings.append("topic tag count outside recommended 3-8 range")
+    if not entry.get("text_anchor"):
+        warnings.append("missing text_anchor relocation aid")
+    if not entry.get("quote_excerpt_short"):
+        warnings.append("missing quote excerpt")
+    return warnings
+
+
+def generate_review_flags(entries: list[dict]) -> str:
+    lines = ["# Review Flags", ""]
+    add_entry_section(
+        lines,
+        "Low Confidence",
+        matching_entries(entries, lambda entry: entry.get("confidence") == "low"),
+    )
+    add_entry_section(
+        lines,
+        "Unknown Era",
+        matching_entries(entries, lambda entry: entry.get("era_classification") == "unknown_or_uncertain"),
+    )
+    add_entry_section(
+        lines,
+        "Possible Duplicates",
+        matching_entries(
+            entries,
+            lambda entry: isinstance(entry.get("duplicate_check"), dict)
+            and entry["duplicate_check"].get("possible_duplicate") is True,
+        ),
+    )
+    add_entry_section(
+        lines,
+        "Later Editorial Notes",
+        matching_entries(
+            entries,
+            lambda entry: entry.get("era_classification")
+            in {"later_editorial_note", "post_1984_excluded_from_original"},
+        ),
+    )
+    add_entry_section(lines, "Off-Campus Context", matching_entries(entries, has_off_campus_context))
+    add_entry_section(lines, "Limited Evidence", matching_entries(entries, has_limited_evidence))
+
+    lines.extend(["## Schema Warnings", ""])
+    warning_rows = []
+    for entry in entries:
+        for warning in schema_warnings(entry):
+            warning_rows.append(f"- `{entry.get('id')}`: {warning}")
+    if warning_rows:
+        lines.extend(sorted(warning_rows))
+    else:
+        lines.append("No schema warnings from appendix review.")
+    return "\n".join(lines)
+
+
+def load_processing_state() -> dict:
+    if not PROCESSING_STATE_PATH.exists():
+        return {}
+    return load_yaml(PROCESSING_STATE_PATH)
+
+
+def counter_lines(counter: Counter) -> list[str]:
+    if not counter:
+        return ["- None recorded."]
+    return [f"- {key}: {counter[key]}" for key in sorted(counter)]
+
+
+def unit_summary(unit: dict) -> str:
+    if not unit:
+        return "Not recorded."
+    return (
+        f"{unit.get('book')}, {unit.get('chapter_title')}, "
+        f"pages {unit.get('page_start')}-{unit.get('page_end')}, "
+        f"`{unit.get('output_yaml')}`"
+    )
+
+
+def generate_project_stats(entries: list[dict]) -> str:
+    source_index = load_yaml(SOURCE_INDEX_PATH)
+    state = load_processing_state()
+    processed_units = source_index.get("processed_units") or []
+    by_book = Counter(str(entry.get("_book") or "Unknown") for entry in entries)
+    by_era = Counter(str(entry.get("era_classification") or "unknown") for entry in entries)
+    by_reference = Counter(str(entry.get("reference_type") or "unknown") for entry in entries)
+    explicit_count = by_reference.get("explicit_hogwarts_a_history", 0)
+    duplicate_count = sum(
+        1
+        for entry in entries
+        if isinstance(entry.get("duplicate_check"), dict)
+        and entry["duplicate_check"].get("possible_duplicate") is True
+    )
+
+    lines = ["# Project Stats", ""]
+    lines.extend(["## Processed Source Units", "", f"- Total: {len(processed_units)}", ""])
+    lines.extend(["## Entries by Book", "", *counter_lines(by_book), ""])
+    lines.extend(["## Entries by Era Classification", "", *counter_lines(by_era), ""])
+    lines.extend(["## Entries by Reference Type", "", *counter_lines(by_reference), ""])
+    lines.extend(["## Explicit `Hogwarts: A History` References", "", f"- Total: {explicit_count}", ""])
+    lines.extend(["## Possible Duplicates", "", f"- Total: {duplicate_count}", ""])
+    lines.extend(
+        [
+            "## Latest Processed Unit",
+            "",
+            f"- {unit_summary(state.get('last_completed_source_unit') or {})}",
+            "",
+            "## Next Pending Unit",
+            "",
+            f"- {unit_summary(state.get('current_source_unit') or {})}",
+        ]
+    )
+    return "\n".join(lines)
+
+
 def main() -> int:
     if not ENTRY_INDEX_PATH.exists() or not SOURCE_INDEX_PATH.exists():
         raise SystemExit("Run build_entry_index.py before generate_appendices.py.")
@@ -181,6 +330,8 @@ def main() -> int:
     )
     write(GENERATED_DIR / "open-questions.md", generate_open_questions(entries))
     write(GENERATED_DIR / "source-index.md", generate_source_index())
+    write(GENERATED_DIR / "review-flags.md", generate_review_flags(entries))
+    write(GENERATED_DIR / "project-stats.md", generate_project_stats(entries))
     print(f"Wrote generated appendices to {GENERATED_DIR.relative_to(ROOT)}")
     return 0
 

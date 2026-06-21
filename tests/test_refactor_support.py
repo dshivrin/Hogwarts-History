@@ -268,6 +268,84 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertIn("Does Hogwarts: A History explicitly describe", open_questions)
         self.assertIn("ps-ch07-999", open_questions)
 
+    def test_generate_appendices_includes_review_flags_and_project_stats(self) -> None:
+        appendices = importlib.import_module("scripts.generate_appendices")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            generated_dir = root / "appendix" / "generated"
+            source_dir = root / "sources" / "book-01"
+            source_dir.mkdir(parents=True)
+            (root / "project-control" / "structured-sources").mkdir(parents=True)
+            (source_dir / "chapter-07-sorting-hat.yaml").write_text(
+                self._appendix_flags_source_yaml(),
+                encoding="utf-8",
+            )
+            (root / "project-control" / "entry-index.yaml").write_text(
+                "version: 1\nby_entry: {}\n", encoding="utf-8"
+            )
+            (root / "project-control" / "source-index.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    version: 1
+                    processed_units:
+                    - source_unit_id: ps-ch07
+                      book: Harry Potter and the Philosopher's Stone
+                      chapter_title: Chapter Seven - The Sorting Hat
+                      candidate_entry_count: 1
+                      explicit_reference_count: 1
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+            (root / "project-control" / "processing-state.yaml").write_text(
+                self._state_yaml(),
+                encoding="utf-8",
+            )
+            (root / "project-control" / "structured-sources" / "open-questions.yaml").write_text(
+                "version: 1\nquestions: []\n",
+                encoding="utf-8",
+            )
+
+            appendices.ROOT = root
+            appendices.SOURCES_DIR = root / "sources"
+            appendices.GENERATED_DIR = generated_dir
+            appendices.ENTRY_INDEX_PATH = root / "project-control" / "entry-index.yaml"
+            appendices.SOURCE_INDEX_PATH = root / "project-control" / "source-index.yaml"
+            appendices.PROCESSING_STATE_PATH = root / "project-control" / "processing-state.yaml"
+            appendices.STRUCTURED_OPEN_QUESTIONS_PATH = (
+                root / "project-control" / "structured-sources" / "open-questions.yaml"
+            )
+
+            self.assertEqual(appendices.main(), 0)
+            review_flags = (generated_dir / "review-flags.md").read_text()
+            project_stats = (generated_dir / "project-stats.md").read_text()
+
+        for heading in [
+            "## Low Confidence",
+            "## Unknown Era",
+            "## Possible Duplicates",
+            "## Later Editorial Notes",
+            "## Off-Campus Context",
+            "## Limited Evidence",
+            "## Schema Warnings",
+        ]:
+            self.assertIn(heading, review_flags)
+        for text in [
+            "## Processed Source Units",
+            "## Entries by Book",
+            "## Entries by Era Classification",
+            "## Entries by Reference Type",
+            "## Explicit `Hogwarts: A History` References",
+            "## Possible Duplicates",
+            "## Latest Processed Unit",
+            "## Next Pending Unit",
+            "Chapter One - The Riddle House",
+            "Chapter Two - The Scar",
+        ]:
+            self.assertIn(text, project_stats)
+
     def test_update_next_run_default_only_regenerates_prompt(self) -> None:
         update_next_run = importlib.import_module("scripts.update_next_run")
 
@@ -613,6 +691,40 @@ class RefactorSupportTests(unittest.TestCase):
                     notes: Corroborates Great Hall context.
                   confidence: medium
                   limitations: Ceremony origin is not stated.
+                """
+            ).strip()
+            + "\n"
+        )
+
+    def _appendix_flags_source_yaml(self) -> str:
+        return (
+            textwrap.dedent(
+                """
+                source_unit:
+                  source_file: pdfs/harrypotter.pdf
+                  book: Harry Potter and the Philosopher's Stone
+                  chapter: Chapter Seven - The Sorting Hat
+                  chapter_start_pdf_page: 107
+                  chapter_end_pdf_page: 122
+                  processed_date: '2026-06-21'
+                entries:
+                - id: ps-ch07-flag
+                  pdf_page: 110
+                  quote_excerpt_short: bewitched to look like the sky outside
+                  source_note: Hermione identifies an off-campus later note with limited corroboration.
+                  reference_type: explicit_hogwarts_a_history
+                  era_classification: later_editorial_note
+                  topic_tags:
+                  - off-campus-context
+                  candidate_part: Magical Architecture and Enchantments
+                  candidate_chapter: The Great Hall
+                  candidate_section: The Enchanted Ceiling
+                  duplicate_check:
+                    possible_duplicate: true
+                    duplicate_of: ps-ch07-001
+                    notes: Needs comparison.
+                  confidence: low
+                  limitations: Limited evidence; origin is not stated.
                 """
             ).strip()
             + "\n"
