@@ -369,7 +369,8 @@ class RefactorSupportTests(unittest.TestCase):
 
         self.assertEqual(state["current_source_unit"]["chapter_number"], 2)
         self.assertIn("Chapter Two - The Scar", next_run)
-        self.assertIn("project-control/tag-index.yaml", next_run)
+        self.assertIn("scripts/query_duplicates.py", next_run)
+        self.assertNotIn("Open full index files", next_run)
         self.assertNotIn("project-control/entry-index.yaml`", next_run)
 
     def test_update_next_run_advances_after_valid_current_output(self) -> None:

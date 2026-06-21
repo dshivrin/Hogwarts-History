@@ -21,8 +21,8 @@ Read only:
 - `.tmp/current-chapter.txt`
 - Current output YAML only if it exists
 
-Use `rg "<tag-or-topic>" project-control/tag-index.yaml project-control/duplicate-index.yaml`
-for duplicate and context lookup. Open only referenced YAML files for likely matches.
+Use `scripts/query_duplicates.py` for duplicate and context lookup. Open only referenced
+YAML files for likely matches.
 
 Do not read appendices, archives, old prompts, full indexes, all prior YAML files, or
 `chapters-index.md` during normal runs.

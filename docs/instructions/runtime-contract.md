@@ -17,9 +17,9 @@ Read these only when needed:
 
 - `docs/instructions/schema-reference.md` for schema uncertainty or validation failure.
 - `docs/instructions/background-guide.md` for canon, era, or classification ambiguity.
-- `project-control/tag-index.yaml` and `project-control/duplicate-index.yaml` through targeted `rg` searches for topic/tag lookup.
-- `project-control/entry-index.yaml` only for browsing all known entries or appendix generation.
-- Historical YAML files only when `project-control/duplicate-index.yaml` identifies a likely duplicate.
+- `scripts/query_duplicates.py` for duplicate and context lookup.
+- `scripts/query_entries.py` for compact entry lookup by tag, classification, source unit, or output YAML.
+- Historical YAML files only when a query script identifies a likely duplicate.
 - `appendix/generated/*.md` only for human-facing review, not routine extraction.
 
 ## Prohibited During Normal Runs
@@ -46,10 +46,11 @@ Do not read:
 ## Duplicate Check Procedure
 
 1. Normalize 3-8 topic tags for each candidate.
-2. Search compact indexes with `rg "<tag-or-topic>" project-control/tag-index.yaml project-control/duplicate-index.yaml`.
+2. Run `scripts/query_duplicates.py` with candidate tags and placement terms.
 3. If no likely match appears, mark `possible_duplicate: false`.
 4. If a likely match appears, open only the referenced YAML file and compare evidence.
-5. Record the result in the entry `duplicate_check` block.
+5. Do not open full index files during normal extraction.
+6. Record the result in the entry `duplicate_check` block.
 
 ## Output Steps
 
@@ -59,9 +60,11 @@ Do not read:
    - `scripts/build_duplicate_index.py`
    - `scripts/build_entry_index.py`
    - `scripts/build_tag_index.py`
-4. Regenerate `project-control/next-run.md` from `processing-state.yaml`.
-5. Regenerate appendices only when needed with `scripts/generate_appendices.py`.
-6. Run `scripts/cleanup_tmp.py` after extraction artifacts are no longer needed.
+4. Run `scripts/validate_source_yaml.py` after changing source YAML or generated helper files.
+5. Run `scripts/generate_book_seed.py` when appendices are regenerated or after each completed source unit.
+6. Regenerate `project-control/next-run.md` from `processing-state.yaml`.
+7. Regenerate appendices only when needed with `scripts/generate_appendices.py`.
+8. Run `scripts/cleanup_tmp.py` after extraction artifacts are no longer needed.
 
 ## Validation Checklist
 
@@ -71,6 +74,8 @@ Do not read:
 - `reference_type` and `era_classification` use values from `schema-reference.md`.
 - Changed indexes parse as YAML.
 - Generated appendices start with the generated-file notice.
+- Run `scripts/validate_source_yaml.py` after changing source YAML or generated helper files.
+- Run `scripts/generate_book_seed.py` when appendices are regenerated or after each completed source unit.
 
 ## Git Backup Rule
 
