@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import importlib
+import io
 from pathlib import Path
 import tempfile
 import textwrap
 import unittest
+from contextlib import redirect_stdout
 
 import yaml
 
@@ -84,6 +86,95 @@ class RefactorSupportTests(unittest.TestCase):
             tag_index["tags"]["great-hall"]["output_yaml"],
             ["sources/book-01/chapter-07-sorting-hat.yaml"],
         )
+
+    def test_build_entry_index_includes_reference_type_for_queries(self) -> None:
+        build_entry_index = importlib.import_module("scripts.build_entry_index")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            source_dir = root / "sources" / "book-01"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-07-sorting-hat.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    source_unit:
+                      source_file: pdfs/harrypotter.pdf
+                      book: Harry Potter and the Philosopher's Stone
+                      chapter: Chapter Seven - The Sorting Hat
+                    entries:
+                    - id: ps-ch07-001
+                      reference_type: explicit_hogwarts_a_history
+                      topic_tags:
+                      - great-hall
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            build_entry_index.ROOT = root
+            build_entry_index.SOURCES_DIR = root / "sources"
+            build_entry_index.ENTRY_INDEX_PATH = root / "project-control" / "entry-index.yaml"
+            build_entry_index.SOURCE_INDEX_PATH = root / "project-control" / "source-index.yaml"
+
+            self.assertEqual(build_entry_index.main(), 0)
+            entry_index = yaml.safe_load(build_entry_index.ENTRY_INDEX_PATH.read_text())
+
+        self.assertEqual(
+            entry_index["by_entry"]["ps-ch07-001"]["reference_type"],
+            "explicit_hogwarts_a_history",
+        )
+
+    def test_query_duplicates_returns_only_matching_tags(self) -> None:
+        query_duplicates = importlib.import_module("scripts.query_duplicates")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_query_indexes(root)
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                self.assertEqual(
+                    query_duplicates.main(
+                        [
+                            "--root",
+                            str(root),
+                            "--tags",
+                            "great-hall",
+                            "enchanted-ceiling",
+                        ]
+                    ),
+                    0,
+                )
+            payload = yaml.safe_load(stdout.getvalue())
+
+        match_ids = [match["entry_id"] for match in payload["matches"]]
+        self.assertIn("ps-ch07-001", match_ids)
+        self.assertNotIn("ps-ch03-001", match_ids)
+
+    def test_query_entries_filters_by_tag_and_classification(self) -> None:
+        query_entries = importlib.import_module("scripts.query_entries")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_query_indexes(root)
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                self.assertEqual(
+                    query_entries.main(
+                        [
+                            "--root",
+                            str(root),
+                            "--tag",
+                            "great-hall",
+                            "--classification",
+                            "original_book_core_candidate",
+                        ]
+                    ),
+                    0,
+                )
+            payload = yaml.safe_load(stdout.getvalue())
+
+        self.assertEqual([match["entry_id"] for match in payload["matches"]], ["ps-ch07-001"])
 
     def test_generate_appendices_includes_structured_open_questions(self) -> None:
         appendices = importlib.import_module("scripts.generate_appendices")
@@ -359,6 +450,85 @@ class RefactorSupportTests(unittest.TestCase):
             ).strip()
             .replace("__DUPLICATE_CHECK__", duplicate_check.rstrip())
             + "\n"
+        )
+
+    def _write_query_indexes(self, root: Path) -> None:
+        control = root / "project-control"
+        control.mkdir(parents=True)
+        (control / "tag-index.yaml").write_text(
+            textwrap.dedent(
+                """
+                version: 1
+                tags:
+                  great-hall:
+                    entries:
+                    - ps-ch07-001
+                    output_yaml:
+                    - sources/book-01/chapter-07-sorting-hat.yaml
+                  enchanted-ceiling:
+                    entries:
+                    - ps-ch07-001
+                    output_yaml:
+                    - sources/book-01/chapter-07-sorting-hat.yaml
+                  admissions:
+                    entries:
+                    - ps-ch03-001
+                    output_yaml:
+                    - sources/book-01/chapter-03-letters-from-no-one.yaml
+                """
+            ).strip()
+            + "\n",
+            encoding="utf-8",
+        )
+        (control / "duplicate-index.yaml").write_text(
+            textwrap.dedent(
+                """
+                version: 1
+                entries:
+                - entry_id: ps-ch07-001
+                  canonical_topic: the-great-hall-the-enchanted-ceiling
+                  tags:
+                  - great-hall
+                  - enchanted-ceiling
+                  source_note: Hermione explains the Great Hall ceiling enchantment.
+                  output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
+                - entry_id: ps-ch03-001
+                  canonical_topic: admissions-acceptance-letters
+                  tags:
+                  - admissions
+                  source_note: The first Hogwarts letter arrives.
+                  output_yaml: sources/book-01/chapter-03-letters-from-no-one.yaml
+                """
+            ).strip()
+            + "\n",
+            encoding="utf-8",
+        )
+        (control / "entry-index.yaml").write_text(
+            textwrap.dedent(
+                """
+                version: 1
+                by_entry:
+                  ps-ch07-001:
+                    title: 'The Great Hall: The Enchanted Ceiling'
+                    classification: original_book_core_candidate
+                    confidence: high
+                    tags:
+                    - great-hall
+                    - enchanted-ceiling
+                    source_unit: ps-ch07
+                    output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
+                  ps-ch03-001:
+                    title: 'Admissions: Acceptance Letters'
+                    classification: harry_era_confirmation
+                    confidence: medium
+                    tags:
+                    - admissions
+                    source_unit: ps-ch03
+                    output_yaml: sources/book-01/chapter-03-letters-from-no-one.yaml
+                """
+            ).strip()
+            + "\n",
+            encoding="utf-8",
         )
 
 

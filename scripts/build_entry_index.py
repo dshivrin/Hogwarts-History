@@ -105,6 +105,7 @@ def build_indexes() -> tuple[dict, dict]:
             by_entry[entry_id] = {
                 "title": title_for(entry),
                 "classification": entry.get("era_classification"),
+                "reference_type": entry.get("reference_type"),
                 "confidence": entry.get("confidence"),
                 "tags": tags,
                 "source_unit": source_id,
