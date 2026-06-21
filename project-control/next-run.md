@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Four - Back to the Burrow
-- Page range: 979-988
+- Chapter: Chapter Five - Weasleys’ Wizard Wheezes
+- Page range: 989-1000
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-04-back-to-the-burrow.yaml`
+- Output YAML: `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
 
 ## Minimal Context
 

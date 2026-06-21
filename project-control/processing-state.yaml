@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 3
-  chapter_title: Chapter Three - The Invitation
-  page_start: 969
-  page_end: 978
-  output_yaml: sources/book-04/chapter-03-the-invitation.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 4
   chapter_title: Chapter Four - Back to the Burrow
   page_start: 979
   page_end: 988
   output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 989
   page_end: 1000
   output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 6
+  chapter_title: Chapter Six - The Portkey
+  page_start: 1001
+  page_end: 1008
+  output_yaml: sources/book-04/chapter-06-the-portkey.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

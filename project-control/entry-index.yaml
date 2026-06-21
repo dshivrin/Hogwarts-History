@@ -5077,6 +5077,74 @@ by_entry:
     - weasley-family
     source_unit: gof-ch03
     output_yaml: sources/book-04/chapter-03-the-invitation.yaml
+  gof-ch04-001:
+    title: 'Homework and Independent Study: Holiday Storage of School Materials'
+    classification: harry_era_confirmation
+    confidence: high
+    tags:
+    - quills
+    - school-materials
+    - spellbooks
+    - student-trunks
+    - summer-holidays
+    - term-boundaries
+    source_unit: gof-ch04
+    output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  gof-ch04-002:
+    title: 'Castle Navigation, Maps, and Concealed Routes: The Marauder''s Map'
+    classification: later_editorial_note
+    confidence: medium
+    tags:
+    - broomstick
+    - castle-information
+    - invisibility-cloak
+    - magical-objects
+    - marauders-map
+    - student-possessions
+    source_unit: gof-ch04
+    output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  gof-ch04-003:
+    title: 'Post-1984 Incidents and Confirmations: Enchanted Vehicles on Hogwarts
+      Grounds'
+    classification: later_editorial_note
+    confidence: medium
+    tags:
+    - flying-car
+    - forbidden-forest
+    - hogwarts-grounds
+    - ministry-of-magic
+    - student-travel
+    - summer-holidays
+    source_unit: gof-ch04
+    output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  gof-ch04-004:
+    title: 'Wizarding Transport and Secrecy: Floo Network Regulation and Muggle Fireplaces'
+    classification: later_editorial_note
+    confidence: high
+    tags:
+    - floo-network
+    - floo-powder
+    - floo-regulation-panel
+    - magical-transport
+    - muggle-fireplaces
+    - statute-of-secrecy
+    - student-travel
+    source_unit: gof-ch04
+    output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  gof-ch04-005:
+    title: 'Student Inventions and Magical Misconduct: Weasley Joke Sweets and Engorgement
+      Charms'
+    classification: later_editorial_note
+    confidence: medium
+    tags:
+    - engorgement-charm
+    - fred-and-george
+    - joke-sweets
+    - muggle-secrecy
+    - practical-jokes
+    - underage-magic
+    source_unit: gof-ch04
+    output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5259,6 +5327,7 @@ by_tag:
   broomstick:
   - cos-ch03-005
   - gof-ch02-002
+  - gof-ch04-002
   - poa-ch01-002
   - poa-ch09-007
   broomstick-maintenance:
@@ -5319,6 +5388,7 @@ by_tag:
   - poa-ch20-001
   - poa-ch21-005
   castle-information:
+  - gof-ch04-002
   - poa-ch14-007
   castle-interior:
   - ps-ch12-006
@@ -5826,6 +5896,7 @@ by_tag:
   - ps-ch17-005
   engorgement-charm:
   - cos-ch07-005
+  - gof-ch04-005
   entrance-hall:
   - poa-ch05-005
   - ps-ch14-006
@@ -5957,6 +6028,12 @@ by_tag:
   - ps-ch12-003
   flitwick-office:
   - poa-ch21-007
+  floo-network:
+  - gof-ch04-004
+  floo-powder:
+  - gof-ch04-004
+  floo-regulation-panel:
+  - gof-ch04-004
   florean-fortescue:
   - poa-ch04-002
   flourish-and-blotts:
@@ -5972,6 +6049,7 @@ by_tag:
   - ps-ch09-001
   flying-car:
   - cos-ch03-004
+  - gof-ch04-003
   flying-lessons:
   - ps-ch09-002
   flying-motorcycle:
@@ -5984,6 +6062,7 @@ by_tag:
   - cos-ch15-004
   - cos-ch15-005
   - cos-ch15-006
+  - gof-ch04-003
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -6008,6 +6087,8 @@ by_tag:
   - cos-ch05-004
   - cos-ch09-003
   - ps-ch03-001
+  fred-and-george:
+  - gof-ch04-005
   freezing-charm:
   - cos-ch06-007
   full-moon-safety:
@@ -6434,6 +6515,7 @@ by_tag:
   - poa-ch14-005
   hogwarts-grounds:
   - cos-ch05-003
+  - gof-ch04-003
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -6629,6 +6711,7 @@ by_tag:
   international-wizards:
   - gof-ch01-002
   invisibility-cloak:
+  - gof-ch04-002
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -6649,6 +6732,8 @@ by_tag:
   - poa-ch05-003
   jinxes:
   - poa-ch11-007
+  joke-sweets:
+  - gof-ch04-005
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -6832,6 +6917,8 @@ by_tag:
   - cos-ch17-002
   magical-menagerie:
   - poa-ch04-005
+  magical-objects:
+  - gof-ch04-002
   magical-photographs:
   - cos-ch06-005
   magical-plants:
@@ -6858,6 +6945,7 @@ by_tag:
   - poa-ch10-003
   - poa-ch17-004
   magical-transport:
+  - gof-ch04-004
   - poa-ch03-002
   magical-tree:
   - cos-ch05-003
@@ -6875,6 +6963,7 @@ by_tag:
   marauders:
   - poa-ch18-005
   marauders-map:
+  - gof-ch04-002
   - poa-ch10-003
   - poa-ch13-006
   - poa-ch14-004
@@ -6945,6 +7034,7 @@ by_tag:
   - cos-ch14-005
   - gof-ch01-003
   - gof-ch03-001
+  - gof-ch04-003
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -7010,6 +7100,8 @@ by_tag:
   - cos-ch07-003
   - cos-ch09-004
   - ps-ch05-005
+  muggle-fireplaces:
+  - gof-ch04-004
   muggle-households:
   - ps-ch03-004
   muggle-persecution:
@@ -7027,6 +7119,7 @@ by_tag:
   - gof-ch01-002
   - gof-ch02-003
   - gof-ch03-002
+  - gof-ch04-005
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -7304,6 +7397,8 @@ by_tag:
   practical-exams:
   - poa-ch16-004
   - ps-ch16-001
+  practical-jokes:
+  - gof-ch04-005
   practical-lessons:
   - cos-ch06-003
   - cos-ch06-004
@@ -7493,6 +7588,8 @@ by_tag:
   quidditch-world-cup:
   - gof-ch01-002
   - gof-ch03-001
+  quills:
+  - gof-ch04-001
   quirrell:
   - ps-ch13-006
   rats:
@@ -7625,6 +7722,7 @@ by_tag:
   - cos-ch01-002
   - cos-ch03-005
   - gof-ch02-002
+  - gof-ch04-001
   - poa-ch01-002
   school-oversight:
   - cos-ch14-006
@@ -7846,6 +7944,7 @@ by_tag:
   - cos-ch01-002
   - cos-ch03-005
   - gof-ch02-002
+  - gof-ch04-001
   - poa-ch01-002
   spiral-staircase:
   - ps-ch14-006
@@ -7912,6 +8011,7 @@ by_tag:
   - ps-ch07-002
   statute-of-secrecy:
   - cos-ch02-005
+  - gof-ch04-004
   statute-of-secrecy-context:
   - ps-ch14-002
   stealth-entry:
@@ -7978,6 +8078,8 @@ by_tag:
   - poa-ch04-005
   - poa-ch05-001
   - poa-ch19-005
+  student-possessions:
+  - gof-ch04-002
   student-preparation:
   - ps-ch06-004
   student-privileges:
@@ -8018,9 +8120,12 @@ by_tag:
   - cos-ch11-005
   student-travel:
   - gof-ch03-003
+  - gof-ch04-003
+  - gof-ch04-004
   - poa-ch03-002
   student-trunks:
   - cos-ch03-005
+  - gof-ch04-001
   study-schedules:
   - ps-ch14-001
   subterranean-chamber:
@@ -8033,6 +8138,8 @@ by_tag:
   summer-holidays:
   - gof-ch03-001
   - gof-ch03-003
+  - gof-ch04-001
+  - gof-ch04-003
   summer-homework:
   - cos-ch01-002
   - cos-ch03-005
@@ -8092,6 +8199,7 @@ by_tag:
   - ps-ch13-002
   term-boundaries:
   - gof-ch03-003
+  - gof-ch04-001
   term-dates:
   - ps-ch04-002
   third-floor-corridor:
@@ -8179,6 +8287,7 @@ by_tag:
   - cos-ch03-001
   - cos-ch05-005
   - gof-ch02-003
+  - gof-ch04-005
   - poa-ch02-003
   - poa-ch03-001
   underground-harbor:

@@ -189,6 +189,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Post-1984 Incidents and Confirmations
+  - Enchanted Vehicles on Hogwarts Grounds
+- Student Inventions and Magical Misconduct
+  - Weasley Joke Sweets and Engorgement Charms
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
 - The Fall of Voldemort
@@ -422,6 +426,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curses, Countercurses, and Faculty Reports
 - Student Offices, Awards, and Records
   - Trophy Room Records and Head Boy Lists
+- Wizarding Transport and Secrecy
+  - Floo Network Regulation and Muggle Fireplaces
 
 ## The Castle and Its Grounds
 

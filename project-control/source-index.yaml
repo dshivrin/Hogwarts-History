@@ -721,3 +721,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 4
   boundary_summary: Used indexed page range; extracted only pages 969-978.
+- source_unit_id: gof-ch04
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 4
+  chapter_title: Chapter Four - Back to the Burrow
+  page_start: 979
+  page_end: 988
+  output_yaml: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 979-988.
