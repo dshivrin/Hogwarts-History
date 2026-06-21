@@ -56,15 +56,21 @@ Do not read:
 
 1. Write or update the current chapter YAML path in `processing-state.yaml`.
 2. Keep full chapter YAML self-contained and schema-compliant.
-3. Rebuild compact indexes:
-   - `scripts/build_duplicate_index.py`
-   - `scripts/build_entry_index.py`
-   - `scripts/build_tag_index.py`
-4. Run `scripts/validate_source_yaml.py` after changing source YAML or generated helper files.
-5. Run `scripts/generate_book_seed.py` when appendices are regenerated or after each completed source unit.
-6. Regenerate `project-control/next-run.md` from `processing-state.yaml`.
-7. Regenerate appendices only when needed with `scripts/generate_appendices.py`.
-8. Run `scripts/cleanup_tmp.py` after extraction artifacts are no longer needed.
+3. Run the normal post-extraction command sequence:
+
+```bash
+.venv/bin/python scripts/build_duplicate_index.py
+.venv/bin/python scripts/build_entry_index.py
+.venv/bin/python scripts/build_tag_index.py
+.venv/bin/python scripts/validate_source_yaml.py
+.venv/bin/python scripts/generate_book_seed.py
+.venv/bin/python scripts/generate_appendices.py
+.venv/bin/python scripts/update_next_run.py
+.venv/bin/python scripts/cleanup_tmp.py
+```
+
+4. Keep `book-seed/hogwarts-a-history-seed.md` as the main human-readable result.
+5. Keep `appendix/generated/*.md` as generated support/reference files.
 
 ## Validation Checklist
 

@@ -445,6 +445,21 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertEqual(state["next_source_unit"]["chapter_number"], 4)
         self.assertEqual(source_plan["sources"][0]["chapters"][0]["status"], "complete")
 
+    def test_runtime_contract_lists_post_extraction_flow_order(self) -> None:
+        contract = Path("docs/instructions/runtime-contract.md").read_text(encoding="utf-8")
+        expected_order = [
+            "build_duplicate_index.py",
+            "build_entry_index.py",
+            "build_tag_index.py",
+            "validate_source_yaml.py",
+            "generate_book_seed.py",
+            "generate_appendices.py",
+            "update_next_run.py",
+            "cleanup_tmp.py",
+        ]
+        positions = [contract.index(item) for item in expected_order]
+        self.assertEqual(positions, sorted(positions))
+
     def _state_yaml(self) -> str:
         return (
             textwrap.dedent(
