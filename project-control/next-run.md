@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Six - The Portkey
-- Page range: 1001-1008
+- Chapter: Chapter Seven - Bagman and Crouch
+- Page range: 1009-1025
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-06-the-portkey.yaml`
+- Output YAML: `sources/book-04/chapter-07-bagman-and-crouch.yaml`
 
 ## Minimal Context
 

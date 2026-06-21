@@ -5614,6 +5614,67 @@ by_entry:
     - term-preparation
     source_unit: gof-ch05
     output_yaml: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  gof-ch06-001:
+    title: 'Magical Transportation and Student Restrictions: Apparition Licensing
+      and Risks'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - accidental-magic-reversal-squad
+    - apparition
+    - department-of-magical-transportation
+    - licensing
+    - magical-transportation
+    - splinching
+    - underage-magic
+    source_unit: gof-ch06
+    output_yaml: sources/book-04/chapter-06-the-portkey.yaml
+  gof-ch06-002:
+    title: 'Wizarding Transport, Public Events, and Secrecy: Portkeys and Mass Event
+      Travel'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - anti-muggle-precautions
+    - apparition-points
+    - magical-transportation
+    - ministry-of-magic
+    - muggle-secrecy
+    - portkeys
+    - quidditch-world-cup
+    source_unit: gof-ch06
+    output_yaml: sources/book-04/chapter-06-the-portkey.yaml
+  gof-ch06-003:
+    title: 'Student Inventions and Magical Misconduct: Weasley Joke Products at Hogwarts'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - joke-products
+    - owls
+    - student-misconduct
+    - summoning-charm
+    - ton-tongue-toffee
+    - weasleys-wizard-wheezes
+    source_unit: gof-ch06
+    output_yaml: sources/book-04/chapter-06-the-portkey.yaml
+  gof-ch06-004:
+    title: 'House Quidditch Teams: Hufflepuff Captain and Seeker'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - cedric-diggory
+    - gryffindor
+    - house-teams
+    - hufflepuff
+    - quidditch
+    - seeker
+    - team-captains
+    source_unit: gof-ch06
+    output_yaml: sources/book-04/chapter-06-the-portkey.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5626,6 +5687,8 @@ by_tag:
   - ps-ch02-004
   accidental-magic-reversal:
   - poa-ch03-001
+  accidental-magic-reversal-squad:
+  - gof-ch06-001
   acromantula-colony:
   - cos-ch15-005
   address-tracking:
@@ -5692,6 +5755,12 @@ by_tag:
   - ps-ch13-006
   anti-dementor-defense:
   - poa-ch20-007
+  anti-muggle-precautions:
+  - gof-ch06-002
+  apparition:
+  - gof-ch06-001
+  apparition-points:
+  - gof-ch06-002
   appeals:
   - poa-ch15-001
   - poa-ch16-002
@@ -5899,6 +5968,8 @@ by_tag:
   - poa-ch01-002
   cauldron-standards:
   - gof-ch05-003
+  cedric-diggory:
+  - gof-ch06-004
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -6187,6 +6258,8 @@ by_tag:
   - poa-ch20-006
   department-of-magical-games-and-sports:
   - gof-ch03-001
+  department-of-magical-transportation:
+  - gof-ch06-001
   deputy-headmistress:
   - ps-ch04-002
   desire-based-magic:
@@ -6687,6 +6760,7 @@ by_tag:
   - cos-ch15-002
   - cos-ch18-003
   - gof-ch05-005
+  - gof-ch06-004
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -7158,6 +7232,7 @@ by_tag:
   - cos-ch07-001
   - cos-ch07-002
   - gof-ch05-005
+  - gof-ch06-004
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
@@ -7166,6 +7241,7 @@ by_tag:
   - poa-ch14-002
   hufflepuff:
   - cos-ch06-002
+  - gof-ch06-004
   - poa-ch09-006
   - ps-ch05-006
   - ps-ch13-002
@@ -7224,6 +7300,7 @@ by_tag:
   - poa-ch11-007
   joke-products:
   - gof-ch05-002
+  - gof-ch06-003
   joke-sweets:
   - gof-ch04-005
   justin-finch-fletchley:
@@ -7299,6 +7376,8 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-001
   - ps-ch11-003
+  licensing:
+  - gof-ch06-001
   lightning-scar:
   - gof-ch02-001
   - gof-ch02-004
@@ -7439,6 +7518,9 @@ by_tag:
   magical-transport:
   - gof-ch04-004
   - poa-ch03-002
+  magical-transportation:
+  - gof-ch06-001
+  - gof-ch06-002
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
@@ -7528,6 +7610,7 @@ by_tag:
   - gof-ch03-001
   - gof-ch04-003
   - gof-ch05-003
+  - gof-ch06-002
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -7613,6 +7696,7 @@ by_tag:
   - gof-ch02-003
   - gof-ch03-002
   - gof-ch04-005
+  - gof-ch06-002
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -7724,6 +7808,7 @@ by_tag:
   owls:
   - cos-ch04-003
   - gof-ch05-002
+  - gof-ch06-003
   - poa-ch04-005
   - poa-ch16-001
   - poa-ch22-005
@@ -7859,6 +7944,8 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch12-004
+  portkeys:
+  - gof-ch06-002
   portrait-guardians:
   - poa-ch09-003
   portrait-guardianship:
@@ -8025,6 +8112,7 @@ by_tag:
   - cos-ch07-001
   - cos-ch14-003
   - gof-ch05-005
+  - gof-ch06-004
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -8087,6 +8175,7 @@ by_tag:
   - gof-ch05-003
   - gof-ch05-005
   - gof-ch05-006
+  - gof-ch06-002
   quills:
   - gof-ch04-001
   quirrell:
@@ -8313,6 +8402,7 @@ by_tag:
   seeker:
   - cos-ch07-001
   - gof-ch05-005
+  - gof-ch06-004
   - ps-ch09-003
   seeker-tactics:
   - poa-ch13-003
@@ -8452,6 +8542,8 @@ by_tag:
   - poa-ch01-002
   spiral-staircase:
   - ps-ch14-006
+  splinching:
+  - gof-ch06-001
   squib-context:
   - cos-ch08-002
   staff:
@@ -8574,6 +8666,7 @@ by_tag:
   - cos-ch15-003
   student-misconduct:
   - cos-ch08-003
+  - gof-ch06-003
   student-movement:
   - cos-ch15-002
   - poa-ch05-006
@@ -8654,6 +8747,8 @@ by_tag:
   - gof-ch02-002
   summer-residence:
   - cos-ch13-007
+  summoning-charm:
+  - gof-ch06-003
   supervised-training:
   - poa-ch09-006
   supply-district:
@@ -8700,6 +8795,7 @@ by_tag:
   - cos-ch12-002
   team-captains:
   - cos-ch07-002
+  - gof-ch06-004
   - poa-ch08-002
   team-practice:
   - poa-ch12-004
@@ -8757,6 +8853,8 @@ by_tag:
   - gof-ch01-001
   tom-riddle-diary:
   - cos-ch13-004
+  ton-tongue-toffee:
+  - gof-ch06-003
   tower-dormitory:
   - cos-ch01-001
   transfiguration:
@@ -8801,6 +8899,7 @@ by_tag:
   - cos-ch05-005
   - gof-ch02-003
   - gof-ch04-005
+  - gof-ch06-001
   - poa-ch02-003
   - poa-ch03-001
   underground-harbor:
@@ -8882,6 +8981,7 @@ by_tag:
   - gof-ch05-001
   weasleys-wizard-wheezes:
   - gof-ch05-002
+  - gof-ch06-003
   wendelin-the-weird:
   - poa-ch01-001
   werewolf:

@@ -745,3 +745,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 989-1000.
+- source_unit_id: gof-ch06
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 6
+  chapter_title: Chapter Six - The Portkey
+  page_start: 1001
+  page_end: 1008
+  output_yaml: sources/book-04/chapter-06-the-portkey.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Used indexed page range; extracted only pages 1001-1008.

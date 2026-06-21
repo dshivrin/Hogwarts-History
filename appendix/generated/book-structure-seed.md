@@ -207,6 +207,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Workload Before the Tournament
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wizarding Transport, Public Events, and Secrecy
+  - Portkeys and Mass Event Travel
 
 ## Magical Architecture and Enchantments
 
@@ -345,6 +347,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Brooms, Positions, and Wider Wizarding Sport
   - First-Year Restrictions and Exceptions
   - House Rivalry and Player Protection
+  - Hufflepuff Captain and Seeker
   - Practice Scheduling, Captains, and Equipment
   - Season Preparation, Captains, and the Quidditch Cup
   - Training Supervision and Broom Expertise
@@ -404,6 +407,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Books Outside the School
 - Magical Safety Rules and Exceptional Permissions
   - Time-Turner Noninterference Rules
+- Magical Transportation and Student Restrictions
+  - Apparition Licensing and Risks
 - Prefects and Student Authority
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority
