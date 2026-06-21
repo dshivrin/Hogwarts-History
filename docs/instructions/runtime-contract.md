@@ -8,10 +8,8 @@ For a normal run, read only:
 
 1. `docs/instructions/runtime-contract.md`
 2. `project-control/processing-state.yaml`
-3. `project-control/duplicate-index.yaml`
-4. `project-control/entry-index.yaml`
-5. `.tmp/current-chapter.txt` after extraction
-6. The current output YAML only if it already exists
+3. `.tmp/current-chapter.txt` after extraction
+4. The current output YAML only if it already exists
 
 ## Conditional Reads
 
@@ -19,7 +17,9 @@ Read these only when needed:
 
 - `docs/instructions/schema-reference.md` for schema uncertainty or validation failure.
 - `docs/instructions/background-guide.md` for canon, era, or classification ambiguity.
-- Historical YAML files only when `project-control/duplicate-index.yaml` identifies a likely duplicate.
+- `scripts/query_duplicates.py` for duplicate and context lookup.
+- `scripts/query_entries.py` for compact entry lookup by tag, classification, source unit, or output YAML.
+- Historical YAML files only when a query script identifies a likely duplicate.
 - `appendix/generated/*.md` only for human-facing review, not routine extraction.
 
 ## Prohibited During Normal Runs
@@ -46,21 +46,31 @@ Do not read:
 ## Duplicate Check Procedure
 
 1. Normalize 3-8 topic tags for each candidate.
-2. Search `project-control/duplicate-index.yaml` for overlapping tags or canonical topic.
+2. Run `scripts/query_duplicates.py` with candidate tags and placement terms.
 3. If no likely match appears, mark `possible_duplicate: false`.
 4. If a likely match appears, open only the referenced YAML file and compare evidence.
-5. Record the result in the entry `duplicate_check` block.
+5. Do not open full index files during normal extraction.
+6. Record the result in the entry `duplicate_check` block.
 
 ## Output Steps
 
 1. Write or update the current chapter YAML path in `processing-state.yaml`.
 2. Keep full chapter YAML self-contained and schema-compliant.
-3. Rebuild compact indexes:
-   - `scripts/build_duplicate_index.py`
-   - `scripts/build_entry_index.py`
-4. Regenerate `project-control/next-run.md` from `processing-state.yaml`.
-5. Regenerate appendices only when needed with `scripts/generate_appendices.py`.
-6. Run `scripts/cleanup_tmp.py` after extraction artifacts are no longer needed.
+3. Run the normal post-extraction command sequence:
+
+```bash
+.venv/bin/python scripts/build_duplicate_index.py
+.venv/bin/python scripts/build_entry_index.py
+.venv/bin/python scripts/build_tag_index.py
+.venv/bin/python scripts/validate_source_yaml.py
+.venv/bin/python scripts/generate_book_seed.py
+.venv/bin/python scripts/generate_appendices.py
+.venv/bin/python scripts/update_next_run.py
+.venv/bin/python scripts/cleanup_tmp.py
+```
+
+4. Keep `book-seed/hogwarts-a-history-seed.md` as the main human-readable result.
+5. Keep `appendix/generated/*.md` as generated support/reference files.
 
 ## Validation Checklist
 
@@ -70,6 +80,8 @@ Do not read:
 - `reference_type` and `era_classification` use values from `schema-reference.md`.
 - Changed indexes parse as YAML.
 - Generated appendices start with the generated-file notice.
+- Run `scripts/validate_source_yaml.py` after changing source YAML or generated helper files.
+- Run `scripts/generate_book_seed.py` when appendices are regenerated or after each completed source unit.
 
 ## Git Backup Rule
 

@@ -81,6 +81,7 @@ Use only:
 
 ## Field Guidance
 
+- Current source YAML is intentionally self-contained. Source metadata may repeat per entry so each entry remains portable and auditable. A compact inherited-location schema may be introduced later only after validators, index builders, query scripts, and generators support both shapes.
 - `text_anchor` is a relocation aid using local start/end phrases and a short occurrence note.
 - `quote_excerpt_short` must be a short identifying excerpt under 25 words.
 - `source_note` paraphrases the evidence.

@@ -2,7 +2,7 @@
 
 Do not edit manually.
 Regenerate with `scripts/generate_appendices.py`.
-Source data: sources YAML + project-control indexes.
+Source data: sources YAML + project-control indexes + structured source data.
 
 # Source Index
 
@@ -64,3 +64,6 @@ Source data: sources YAML + project-control indexes.
 - `poa-ch21`: Harry Potter and the Prisoner of Azkaban, Chapter Twenty-One - Hermione's Secret, pages 898-923, 7 entries, 0 explicit references.
 - `poa-ch22`: Harry Potter and the Prisoner of Azkaban, Chapter Twenty-Two - Owl Post Again, pages 924-939, 7 entries, 0 explicit references.
 - `gof-ch01`: Harry Potter and the Goblet of Fire, Chapter One - The Riddle House, pages 949-960, 5 entries, 0 explicit references.
+- `gof-ch02`: Harry Potter and the Goblet of Fire, Chapter Two - The Scar, pages 961-968, 6 entries, 0 explicit references.
+- `gof-ch03`: Harry Potter and the Goblet of Fire, Chapter Three - The Invitation, pages 969-978, 4 entries, 0 explicit references.
+- `gof-ch04`: Harry Potter and the Goblet of Fire, Chapter Four - Back to the Burrow, pages 979-988, 5 entries, 0 explicit references.

@@ -2,7 +2,7 @@
 
 Do not edit manually.
 Regenerate with `scripts/generate_appendices.py`.
-Source data: sources YAML + project-control indexes.
+Source data: sources YAML + project-control indexes + structured source data.
 
 # Book Structure Seed
 
@@ -125,6 +125,7 @@ Source data: sources YAML + project-control indexes.
   - Hogsmeade Weekend Permissions
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
+  - Summer Return and End-of-Term Pickup
 - The Sorting Ceremony
   - Annual House Assignment in the Great Hall
   - Arrival of First-Year Students
@@ -171,9 +172,13 @@ Source data: sources YAML + project-control indexes.
 - Harry Potter Between School Years
   - Hogwarts Memory During Summer Exile
   - Holiday Letters and Family Owls
+  - Holiday Owl Post and Family Coordination
   - Holiday Owl Post and School Contact
   - Intercepted Holiday Correspondence
+  - Muggle Post and Wizard Owl Correspondence
   - Suppressed Holiday Contact
+- Harry Potter and Voldemort's Return
+  - Curse Scars and Voldemort Proximity
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
@@ -184,8 +189,16 @@ Source data: sources YAML + project-control indexes.
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Post-1984 Incidents and Confirmations
+  - Enchanted Vehicles on Hogwarts Grounds
+- Student Inventions and Magical Misconduct
+  - Weasley Joke Sweets and Engorgement Charms
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
+- The Fall of Voldemort
+  - Harry Potter's Fame at Hogwarts
+- The Sirius Black Crisis
+  - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
   - Ministry Information Leaks and Memory Charm Limits
 - The Wizarding War and Hogwarts Memory
@@ -331,6 +344,7 @@ Source data: sources YAML + project-control indexes.
   - Season Preparation, Captains, and the Quidditch Cup
   - Training Supervision and Broom Expertise
 - Quidditch Beyond Hogwarts
+  - International Events and Ministry Sport Administration
   - International Events and Security Context
 - Quidditch Pitch and Matchday Infrastructure
   - Stands, Locker Rooms, and House Colors
@@ -371,6 +385,7 @@ Source data: sources YAML + project-control indexes.
   - Ministry Warnings and School Return Problems
   - Ministry Warnings, Reversal, and Expulsion Discretion
   - Muggle Artifact Law and Secrecy Context
+  - Muggle Cover Stories and Outside-School Magic
 - Hospital Wing Authority and Student Care
   - Patient Privacy and Continued Classwork
 - House Points as Discipline and Reward
@@ -411,6 +426,8 @@ Source data: sources YAML + project-control indexes.
   - Curses, Countercurses, and Faculty Reports
 - Student Offices, Awards, and Records
   - Trophy Room Records and Head Boy Lists
+- Wizarding Transport and Secrecy
+  - Floo Network Regulation and Muggle Fireplaces
 
 ## The Castle and Its Grounds
 
@@ -454,6 +471,8 @@ Source data: sources YAML + project-control indexes.
 - Named In-Universe Sources
   - Bathilda Bagshot's A History of Magic
   - Informal Historical Expertise
+  - Magical Medical References and Student Problem-Solving
+  - Quidditch Books and Moving Illustrations
 - Named Sources About Hogwarts
   - Prefect Career Studies
 - Newspapers, Notices, and Public Wizarding Sources

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Two - The Scar
-- Page range: 961-968
+- Chapter: Chapter Five - Weasleys’ Wizard Wheezes
+- Page range: 989-1000
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-02-the-scar.yaml`
+- Output YAML: `sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml`
 
 ## Minimal Context
 
@@ -18,9 +18,11 @@ Read only:
 
 - `docs/instructions/runtime-contract.md`
 - `project-control/processing-state.yaml`
-- `project-control/duplicate-index.yaml`
-- `project-control/entry-index.yaml`
 - `.tmp/current-chapter.txt`
 - Current output YAML only if it exists
 
-Do not read appendices, archives, old prompts, all prior YAML files, or `chapters-index.md` during normal runs.
+Use `scripts/query_duplicates.py` for duplicate and context lookup. Open only referenced
+YAML files for likely matches.
+
+Do not read appendices, archives, old prompts, full indexes, all prior YAML files, or
+`chapters-index.md` during normal runs.

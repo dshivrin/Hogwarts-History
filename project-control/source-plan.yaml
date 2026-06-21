@@ -1,5 +1,9 @@
 project:
   name: 'Hogwarts: A History Seed Builder'
+  tracking_status: secondary_index
+  authoritative_state: project-control/processing-state.yaml
+  update_note: scripts/update_next_run.py keeps completed chapter status synchronized
+    when advancing after a validated extraction.
 current_phase: automated-book-04-forward-extraction
 sources:
 - source_file: pdfs/harrypotter.pdf
@@ -252,5 +256,17 @@ sources:
     output_file: sources/book-04/chapter-01-the-riddle-house.yaml
   - number: 2
     title: Chapter Two - The Scar
-    status: pending
+    status: complete
     output_file: sources/book-04/chapter-02-the-scar.yaml
+  - number: 3
+    title: Chapter Three - The Invitation
+    status: complete
+    output_file: sources/book-04/chapter-03-the-invitation.yaml
+  - number: 4
+    title: Chapter Four - Back to the Burrow
+    status: complete
+    output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  - number: 5
+    title: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+    status: pending
+    output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
