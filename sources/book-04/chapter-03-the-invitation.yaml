@@ -1,0 +1,184 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Three - The Invitation
+  chapter_start_pdf_page: 969
+  chapter_end_pdf_page: 978
+  boundary_confidence: high
+  boundary_notes: Chapter Three range was taken from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Three starts on PDF page 969 and Chapter Four starts on PDF page 979, so only PDF pages 969-978 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Three. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. The chapter is mostly off-campus summer logistics, so entries are limited to World Cup/Ministry sport context, wizarding postal practice, school-train continuity, and holiday owl correspondence. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch03-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Three - The Invitation
+  chapter_start_pdf_page: 969
+  chapter_end_pdf_page: 978
+  pdf_page: 972
+  printed_page: not available
+  extracted_text_lines: PDF page 972, lines 105-117; PDF page 976, lines 231-242
+  text_anchor:
+    start_phrase: the final of the Quidditch World Cup
+    end_phrase: Britain hasn't hosted the Cup for thirty years
+    local_occurrence_note: Mrs. Weasley's letter invites Harry to the World Cup and explains Arthur Weasley's ticket access through a Ministry department.
+  nearby_context: Uncle Vernon reads Mrs. Weasley's letter, which says Arthur Weasley obtained prime World Cup tickets through the Department of Magical Games and Sports and that Britain has not hosted the Cup for thirty years.
+  match_terms:
+  - Quidditch World Cup
+  - Department of Magical Games and Sports
+  - tickets
+  - Britain
+  - Ministry
+  - summer holidays
+  quote_excerpt_short: "Department of Magical Games and Sports"
+  source_note: The chapter adds administrative and historical context for the Quidditch World Cup, including Ministry ticket access through the Department of Magical Games and Sports and Britain's thirty-year hosting gap.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-world-cup
+  - department-of-magical-games-and-sports
+  - ministry-of-magic
+  - wizarding-sport
+  - tickets
+  - summer-holidays
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: Quidditch Beyond Hogwarts
+  candidate_section: International Events and Ministry Sport Administration
+  reason_for_placement: The evidence is external to Hogwarts but helps distinguish school Quidditch from wider wizarding sport and the Ministry offices that administer it.
+  relevance_to_hogwarts_a_history: This should be used only as later editorial context when Hogwarts students' Quidditch culture is connected to international wizarding sport.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch01-002
+    notes: Book 4 Chapter One already records World Cup security and international movement; this entry adds ticket access, the Department of Magical Games and Sports, and Britain's thirty-year hosting gap.
+  confidence: medium
+  limitations: The event is not a Hogwarts institution, and the ticket claim comes from a family invitation rather than an official Ministry document.
+- id: gof-ch03-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Three - The Invitation
+  chapter_start_pdf_page: 969
+  chapter_end_pdf_page: 978
+  pdf_page: 972
+  printed_page: not available
+  extracted_text_lines: PDF page 972, lines 118-123; PDF page 973, lines 126-145; PDF page 974, lines 175-190
+  text_anchor:
+    start_phrase: It would be best for Harry
+    end_phrase: That's what's normal for wizards
+    local_occurrence_note: Mrs. Weasley's letter asks Harry to reply in the normal way because Muggle post does not reach the Weasley house; Harry later identifies owl post as normal for wizards.
+  nearby_context: Mrs. Weasley worries about Muggle post delivery and stamps, the postman notices the over-stamped envelope, and Harry explains to Vernon that owl post is normal wizard correspondence.
+  match_terms:
+  - Muggle postman
+  - stamps
+  - owl post
+  - wizards
+  - normal way
+  - Weasley house
+  quote_excerpt_short: "owl post. That's what's normal for wizards"
+  source_note: The chapter contrasts Muggle postal delivery with ordinary wizard owl post and shows a wizarding household struggling to use Muggle stamps and address conventions.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - owl-post
+  - muggle-post
+  - wizarding-households
+  - muggle-secrecy
+  - student-correspondence
+  - stamps
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Muggle Post and Wizard Owl Correspondence
+  reason_for_placement: The passage gives practical holiday correspondence evidence at the boundary between Muggle guardians and wizarding families.
+  relevance_to_hogwarts_a_history: This can support later notes on how Hogwarts students communicate outside term and how Muggle postal systems interact awkwardly with wizarding homes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch02-005
+    notes: Book 4 Chapter Two records Harry's expectation that Hedwig can find Dumbledore without an address; this entry adds the inverse problem of Muggle post failing to locate the Weasley home and confirms owl post as normal wizard practice.
+  confidence: high
+  limitations: The evidence is not from a formal postal authority and is framed through one family's mistake with Muggle delivery.
+- id: gof-ch03-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Three - The Invitation
+  chapter_start_pdf_page: 969
+  chapter_end_pdf_page: 978
+  pdf_page: 972
+  printed_page: not available
+  extracted_text_lines: PDF page 972, lines 112-117; PDF page 974, lines 162-167
+  text_anchor:
+    start_phrase: see him safely onto the train back to school
+    end_phrase: Nobody ever mentioned the name of Harry's school aloud
+    local_occurrence_note: Mrs. Weasley offers to put Harry on the return train, and Harry nearly names the Hogwarts Express while recalling the end-of-term school train.
+  nearby_context: The Weasleys offer to keep Harry for the rest of the holidays and return him to the school train; Harry identifies Molly from the end-of-term train pickup and avoids saying Hogwarts Express in the Dursley home.
+  match_terms:
+  - train back to school
+  - school train
+  - Hogwarts Express
+  - end of last term
+  - summer holidays
+  - Weasleys
+  quote_excerpt_short: "train back to school"
+  source_note: The chapter corroborates that students are expected to return to school by train after summer holidays and that the Hogwarts Express remains the named school-travel frame in Harry's household.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-express
+  - school-train
+  - summer-holidays
+  - student-travel
+  - term-boundaries
+  - weasley-family
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Summer Return and End-of-Term Pickup
+  reason_for_placement: The passage gives another observed planning point for school-train continuity across term boundaries.
+  relevance_to_hogwarts_a_history: This can corroborate existing travel seeds about the Hogwarts Express, especially the family logistics around end-of-term pickup and start-of-term return.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-005
+    notes: Book 3 Chapter One gives official Hogwarts letter travel instructions; this entry adds family planning around returning Harry to the train after the summer holiday.
+  confidence: medium
+  limitations: The precise departure platform, time, and school-issued instructions are not repeated in this chapter.
+- id: gof-ch03-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Three - The Invitation
+  chapter_start_pdf_page: 969
+  chapter_end_pdf_page: 978
+  pdf_page: 976
+  printed_page: not available
+  extracted_text_lines: PDF page 970, lines 51-62; PDF page 976, lines 252-267; PDF page 977, lines 273-293; PDF page 978, lines 296-313
+  text_anchor:
+    start_phrase: Harry had sent Hedwig to his friends
+    end_phrase: how a real post owl should behave
+    local_occurrence_note: Harry receives food by owl earlier in the summer, receives Ron's timed note by Pig, replies by Pig, and sends Hedwig to Sirius.
+  nearby_context: Hedwig, Errol, Pig, and Harry's correspondents move food, invitations, answers, and contact information between Privet Drive, the Weasleys, and Sirius during the summer holiday.
+  match_terms:
+  - Hedwig
+  - Errol
+  - Pig
+  - owl
+  - letter
+  - Sirius
+  quote_excerpt_short: "Thought I'd send this with Pig anyway"
+  source_note: The chapter gives dense practical evidence for holiday owl correspondence, including multiple named owls, quick replies, long-distance delivery, and student-to-family coordination outside school.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - owl-post
+  - holiday-contact
+  - named-owls
+  - student-correspondence
+  - privet-drive
+  - weasley-family
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Harry Potter Between School Years
+  candidate_section: Holiday Owl Post and Family Coordination
+  reason_for_placement: The passage extends the ordinary holiday-contact thread with multiple named owls and tightly timed arrangements between school friends and guardians.
+  relevance_to_hogwarts_a_history: This supports later editorial notes on how Hogwarts students maintain social and logistical contact during school holidays.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch03-003
+    notes: Book 2 Chapter Three already records Ron's owl letters, Errol, Hermes, and Percy's separate owl use; this entry adds Pig, timed pickup coordination, food deliveries, and Sirius contact.
+  confidence: high
+  limitations: The evidence is holiday practice around one student and does not establish a formal Hogwarts correspondence policy.

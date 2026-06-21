@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Three - The Invitation
-- Page range: 969-978
+- Chapter: Chapter Four - Back to the Burrow
+- Page range: 979-988
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-03-the-invitation.yaml`
+- Output YAML: `sources/book-04/chapter-04-back-to-the-burrow.yaml`
 
 ## Minimal Context
 

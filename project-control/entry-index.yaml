@@ -5024,6 +5024,59 @@ by_entry:
     - wormtail
     source_unit: gof-ch02
     output_yaml: sources/book-04/chapter-02-the-scar.yaml
+  gof-ch03-001:
+    title: 'Quidditch Beyond Hogwarts: International Events and Ministry Sport Administration'
+    classification: later_editorial_note
+    confidence: medium
+    tags:
+    - department-of-magical-games-and-sports
+    - ministry-of-magic
+    - quidditch-world-cup
+    - summer-holidays
+    - tickets
+    - wizarding-sport
+    source_unit: gof-ch03
+    output_yaml: sources/book-04/chapter-03-the-invitation.yaml
+  gof-ch03-002:
+    title: 'Harry Potter Between School Years: Muggle Post and Wizard Owl Correspondence'
+    classification: harry_era_confirmation
+    confidence: high
+    tags:
+    - muggle-post
+    - muggle-secrecy
+    - owl-post
+    - stamps
+    - student-correspondence
+    - wizarding-households
+    source_unit: gof-ch03
+    output_yaml: sources/book-04/chapter-03-the-invitation.yaml
+  gof-ch03-003:
+    title: 'The Hogwarts Express and School Travel: Summer Return and End-of-Term
+      Pickup'
+    classification: harry_era_confirmation
+    confidence: medium
+    tags:
+    - hogwarts-express
+    - school-train
+    - student-travel
+    - summer-holidays
+    - term-boundaries
+    - weasley-family
+    source_unit: gof-ch03
+    output_yaml: sources/book-04/chapter-03-the-invitation.yaml
+  gof-ch03-004:
+    title: 'Harry Potter Between School Years: Holiday Owl Post and Family Coordination'
+    classification: later_editorial_note
+    confidence: high
+    tags:
+    - holiday-contact
+    - named-owls
+    - owl-post
+    - privet-drive
+    - student-correspondence
+    - weasley-family
+    source_unit: gof-ch03
+    output_yaml: sources/book-04/chapter-03-the-invitation.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -5589,6 +5642,8 @@ by_tag:
   - poa-ch12-003
   - poa-ch19-002
   - poa-ch20-006
+  department-of-magical-games-and-sports:
+  - gof-ch03-001
   deputy-headmistress:
   - ps-ch04-002
   desire-based-magic:
@@ -6364,6 +6419,7 @@ by_tag:
   - cos-ch12-002
   - cos-ch16-005
   - cos-ch18-007
+  - gof-ch03-003
   - poa-ch01-005
   - poa-ch05-001
   - poa-ch05-003
@@ -6418,6 +6474,7 @@ by_tag:
   - cos-ch01-003
   - cos-ch02-004
   - cos-ch03-003
+  - gof-ch03-004
   - poa-ch01-003
   - poa-ch02-002
   holiday-decorations:
@@ -6887,6 +6944,7 @@ by_tag:
   - cos-ch13-007
   - cos-ch14-005
   - gof-ch01-003
+  - gof-ch03-001
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -6956,6 +7014,8 @@ by_tag:
   - ps-ch03-004
   muggle-persecution:
   - cos-ch09-003
+  muggle-post:
+  - gof-ch03-002
   muggle-records:
   - gof-ch01-001
   muggle-school:
@@ -6966,6 +7026,7 @@ by_tag:
   - cos-ch05-001
   - gof-ch01-002
   - gof-ch02-003
+  - gof-ch03-002
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -6991,6 +7052,8 @@ by_tag:
   named-books:
   - ps-ch12-004
   - ps-ch14-002
+  named-owls:
+  - gof-ch03-004
   named-sources:
   - ps-ch06-004
   - ps-ch13-001
@@ -7063,6 +7126,8 @@ by_tag:
   - cos-ch03-003
   - cos-ch06-001
   - gof-ch02-005
+  - gof-ch03-002
+  - gof-ch03-004
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -7275,6 +7340,7 @@ by_tag:
   private-stores:
   - cos-ch11-002
   privet-drive:
+  - gof-ch03-004
   - poa-ch01-002
   - poa-ch02-002
   - poa-ch02-003
@@ -7426,6 +7492,7 @@ by_tag:
   - ps-ch11-002
   quidditch-world-cup:
   - gof-ch01-002
+  - gof-ch03-001
   quirrell:
   - ps-ch13-006
   rats:
@@ -7585,6 +7652,8 @@ by_tag:
   - cos-ch12-003
   - ps-ch10-002
   - ps-ch12-003
+  school-train:
+  - gof-ch03-003
   school-travel:
   - cos-ch05-001
   - poa-ch05-001
@@ -7832,6 +7901,8 @@ by_tag:
   staircases:
   - poa-ch06-002
   - ps-ch08-001
+  stamps:
+  - gof-ch03-002
   stands:
   - ps-ch11-004
   - ps-ch13-005
@@ -7862,6 +7933,8 @@ by_tag:
   student-correspondence:
   - cos-ch02-004
   - cos-ch03-003
+  - gof-ch03-002
+  - gof-ch03-004
   student-discipline:
   - cos-ch18-002
   - poa-ch19-002
@@ -7944,6 +8017,7 @@ by_tag:
   student-study:
   - cos-ch11-005
   student-travel:
+  - gof-ch03-003
   - poa-ch03-002
   student-trunks:
   - cos-ch03-005
@@ -7956,6 +8030,9 @@ by_tag:
   suits-of-armor:
   - poa-ch11-004
   - ps-ch09-004
+  summer-holidays:
+  - gof-ch03-001
+  - gof-ch03-003
   summer-homework:
   - cos-ch01-002
   - cos-ch03-005
@@ -8013,6 +8090,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  term-boundaries:
+  - gof-ch03-003
   term-dates:
   - ps-ch04-002
   third-floor-corridor:
@@ -8041,6 +8120,8 @@ by_tag:
   - ps-ch09-007
   - ps-ch11-007
   - ps-ch16-003
+  tickets:
+  - gof-ch03-001
   time-out:
   - poa-ch09-006
   time-turner:
@@ -8174,6 +8255,8 @@ by_tag:
   - ps-ch14-002
   weasley-family:
   - cos-ch04-003
+  - gof-ch03-003
+  - gof-ch03-004
   wendelin-the-weird:
   - poa-ch01-001
   werewolf:
@@ -8225,8 +8308,11 @@ by_tag:
   - cos-ch03-002
   wizarding-households:
   - cos-ch02-001
+  - gof-ch03-002
   wizarding-law:
   - poa-ch21-003
+  wizarding-sport:
+  - gof-ch03-001
   wizarding-transport:
   - gof-ch01-002
   wizarding-war:

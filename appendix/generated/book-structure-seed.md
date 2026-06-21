@@ -125,6 +125,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hogsmeade Weekend Permissions
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
+  - Summer Return and End-of-Term Pickup
 - The Sorting Ceremony
   - Annual House Assignment in the Great Hall
   - Arrival of First-Year Students
@@ -171,8 +172,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Harry Potter Between School Years
   - Hogwarts Memory During Summer Exile
   - Holiday Letters and Family Owls
+  - Holiday Owl Post and Family Coordination
   - Holiday Owl Post and School Contact
   - Intercepted Holiday Correspondence
+  - Muggle Post and Wizard Owl Correspondence
   - Suppressed Holiday Contact
 - Harry Potter and Voldemort's Return
   - Curse Scars and Voldemort Proximity
@@ -337,6 +340,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Season Preparation, Captains, and the Quidditch Cup
   - Training Supervision and Broom Expertise
 - Quidditch Beyond Hogwarts
+  - International Events and Ministry Sport Administration
   - International Events and Security Context
 - Quidditch Pitch and Matchday Infrastructure
   - Stands, Locker Rooms, and House Colors

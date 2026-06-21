@@ -709,3 +709,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 961-968.
+- source_unit_id: gof-ch03
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 3
+  chapter_title: Chapter Three - The Invitation
+  page_start: 969
+  page_end: 978
+  output_yaml: sources/book-04/chapter-03-the-invitation.yaml
+  processed_at: '2026-06-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Used indexed page range; extracted only pages 969-978.
