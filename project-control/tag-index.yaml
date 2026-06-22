@@ -91,13 +91,18 @@ tags:
     entries:
     - gof-ch16-003
     - gof-ch16-004
+    - gof-ch17-002
+    - gof-ch17-003
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   age-restriction:
     entries:
     - gof-ch12-007
+    - gof-ch17-001
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   aging-potion:
     entries:
     - gof-ch16-004
@@ -358,9 +363,12 @@ tags:
     - gof-ch07-006
     - gof-ch07-007
     - gof-ch09-003
+    - gof-ch17-003
+    - gof-ch17-006
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   basilisk:
     entries:
     - cos-ch16-003
@@ -395,12 +403,14 @@ tags:
     - gof-ch15-007
     - gof-ch16-001
     - gof-ch16-005
+    - gof-ch17-002
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -865,8 +875,10 @@ tags:
     entries:
     - gof-ch16-003
     - gof-ch16-007
+    - gof-ch17-004
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   charlie-weasley:
     entries:
     - poa-ch15-004
@@ -1021,6 +1033,7 @@ tags:
     entries:
     - cos-ch05-006
     - cos-ch08-003
+    - gof-ch17-007
     - poa-ch08-004
     - poa-ch12-006
     output_yaml:
@@ -1028,6 +1041,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   common-room-access:
     entries:
     - poa-ch11-006
@@ -1063,6 +1077,11 @@ tags:
     - poa-ch14-007
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+  confundus-charm:
+    entries:
+    - gof-ch17-005
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   cornelius-fudge:
     entries:
     - cos-ch14-005
@@ -1841,11 +1860,14 @@ tags:
     - gof-ch15-005
     - gof-ch15-007
     - gof-ch16-001
+    - gof-ch17-002
+    - gof-ch17-004
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   dursleys:
     entries:
     - cos-ch01-003
@@ -1959,6 +1981,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+  end-of-year-tests:
+    entries:
+    - gof-ch17-006
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   engorgement-charm:
     entries:
     - cos-ch07-005
@@ -2121,6 +2148,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
   fat-lady:
     entries:
+    - gof-ch17-007
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -2133,6 +2161,7 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   fawkes:
     entries:
     - cos-ch17-005
@@ -2228,6 +2257,11 @@ tags:
     - cos-ch15-007
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+  first-task:
+    entries:
+    - gof-ch17-006
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   first-wizarding-war:
     entries:
     - gof-ch09-007
@@ -2289,8 +2323,10 @@ tags:
   fleur-delacour:
     entries:
     - gof-ch16-007
+    - gof-ch17-001
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   flitwick:
     entries:
     - ps-ch10-001
@@ -2468,6 +2504,16 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  fourth-champion:
+    entries:
+    - gof-ch17-001
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
+  fourth-school:
+    entries:
+    - gof-ch17-005
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   fourth-year:
     entries:
     - gof-ch10-006
@@ -2607,9 +2653,14 @@ tags:
     - gof-ch16-003
     - gof-ch16-004
     - gof-ch16-007
+    - gof-ch17-001
+    - gof-ch17-003
+    - gof-ch17-004
+    - gof-ch17-005
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   goblin-liaison:
     entries:
     - gof-ch07-004
@@ -2836,6 +2887,7 @@ tags:
     entries:
     - cos-ch05-006
     - cos-ch08-001
+    - gof-ch17-007
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -2858,6 +2910,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   guarded-chamber:
     entries:
     - ps-ch09-007
@@ -3012,6 +3065,7 @@ tags:
     - gof-ch02-004
     - gof-ch14-004
     - gof-ch16-007
+    - gof-ch17-001
     - ps-ch01-003
     - ps-ch01-004
     - ps-ch01-005
@@ -3035,6 +3089,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -3712,6 +3767,11 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  host-school:
+    entries:
+    - gof-ch17-002
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   hourglasses:
     entries:
     - ps-ch15-002
@@ -4015,6 +4075,11 @@ tags:
     - gof-ch12-005
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  inter-school-relations:
+    entries:
+    - gof-ch17-002
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   interior-rooms:
     entries:
     - ps-ch09-004
@@ -4127,8 +4192,10 @@ tags:
   judges:
     entries:
     - gof-ch16-002
+    - gof-ch17-006
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   justin-finch-fletchley:
     entries:
     - cos-ch11-006
@@ -4404,9 +4471,12 @@ tags:
     - gof-ch07-005
     - gof-ch07-007
     - gof-ch11-003
+    - gof-ch17-001
+    - gof-ch17-004
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   luggage:
     entries:
     - gof-ch11-002
@@ -4439,11 +4509,13 @@ tags:
     - gof-ch13-006
     - gof-ch13-007
     - gof-ch14-001
+    - gof-ch17-005
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -4514,6 +4586,7 @@ tags:
     - cos-ch11-007
     - cos-ch17-001
     - gof-ch11-005
+    - gof-ch17-007
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -4522,6 +4595,7 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -4558,8 +4632,11 @@ tags:
   magical-contract:
     entries:
     - gof-ch16-003
+    - gof-ch17-003
+    - gof-ch17-004
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   magical-creature-law:
     entries:
     - poa-ch11-003
@@ -4637,6 +4714,11 @@ tags:
     - poa-ch04-005
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  magical-object:
+    entries:
+    - gof-ch17-005
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   magical-objects:
     entries:
     - gof-ch04-002
@@ -5342,6 +5424,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+  next-tournament:
+    entries:
+    - gof-ch17-004
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   nicolas-flamel:
     entries:
     - ps-ch06-003
@@ -5421,6 +5508,11 @@ tags:
     - ps-ch15-004
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+  older-student:
+    entries:
+    - gof-ch17-003
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   oliver-wood:
     entries:
     - ps-ch09-003
@@ -5594,6 +5686,7 @@ tags:
     entries:
     - cos-ch05-006
     - cos-ch12-005
+    - gof-ch17-007
     - poa-ch08-004
     - poa-ch09-003
     - poa-ch11-006
@@ -5611,6 +5704,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   paths:
     entries:
     - ps-ch15-005
@@ -5865,8 +5959,14 @@ tags:
     - poa-ch09-003
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+  portrait-network:
+    entries:
+    - gof-ch17-007
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   portraits:
     entries:
+    - gof-ch17-007
     - poa-ch06-002
     - poa-ch08-004
     - poa-ch08-007
@@ -5877,6 +5977,7 @@ tags:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   possession:
     entries:
     - cos-ch17-002
@@ -6092,6 +6193,7 @@ tags:
     - cos-ch06-004
     - cos-ch11-001
     - gof-ch13-006
+    - gof-ch17-003
     - poa-ch06-004
     - poa-ch12-005
     - poa-ch13-004
@@ -6121,6 +6223,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   professor-quirrell:
     entries:
     - ps-ch05-004
@@ -7954,6 +8057,11 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  teacher-help:
+    entries:
+    - gof-ch17-006
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   teacher-permission:
     entries:
     - cos-ch09-007
@@ -8125,6 +8233,16 @@ tags:
     - gof-ch15-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+  tournament-rules:
+    entries:
+    - gof-ch17-003
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
+  tournament-security:
+    entries:
+    - gof-ch17-005
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   tower-dormitory:
     entries:
     - cos-ch01-001
@@ -8178,6 +8296,11 @@ tags:
     - gof-ch05-002
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  triwizard-rules:
+    entries:
+    - gof-ch17-001
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   triwizard-tournament:
     entries:
     - gof-ch07-007
@@ -8191,12 +8314,17 @@ tags:
     - gof-ch16-003
     - gof-ch16-005
     - gof-ch16-007
+    - gof-ch17-002
+    - gof-ch17-004
+    - gof-ch17-005
+    - gof-ch17-006
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -8241,6 +8369,11 @@ tags:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  two-champions:
+    entries:
+    - gof-ch17-002
+    output_yaml:
+    - sources/book-04/chapter-17-the-four-champions.yaml
   underage-magic:
     entries:
     - cos-ch01-005
@@ -8484,6 +8617,7 @@ tags:
     entries:
     - cos-ch04-002
     - cos-ch06-004
+    - gof-ch17-006
     - poa-ch07-004
     - poa-ch07-005
     - ps-ch05-007
@@ -8492,6 +8626,7 @@ tags:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+    - sources/book-04/chapter-17-the-four-champions.yaml
   warlocks-convention-1709:
     entries:
     - ps-ch14-002

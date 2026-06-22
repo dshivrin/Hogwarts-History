@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 16
-  chapter_title: Chapter Sixteen - The Goblet of Fire
-  page_start: 1154
-  page_end: 1173
-  output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 17
   chapter_title: Chapter Seventeen - The Four Champions
   page_start: 1174
   page_end: 1187
   output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1188
   page_end: 1209
   output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 19
+  chapter_title: Chapter Nineteen - The Hungarian Horntail
+  page_start: 1210
+  page_end: 1229
+  output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

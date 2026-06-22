@@ -6712,6 +6712,116 @@ by_entry:
     - viktor-krum
     source_unit: gof-ch16
     output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch17-001:
+    title: 'The Triwizard Year and Institutional Security: The fourth champion anomaly'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - age-restriction
+    - fleur-delacour
+    - fourth-champion
+    - goblet-of-fire
+    - harry-potter
+    - ludo-bagman
+    - triwizard-rules
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch17-002:
+    title: 'The Triwizard Year and Institutional Security: Host-school fairness dispute'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - age-line
+    - beauxbatons
+    - durmstrang
+    - host-school
+    - inter-school-relations
+    - triwizard-tournament
+    - two-champions
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch17-003:
+    title: 'The Triwizard Year and Institutional Security: Binding selection and failed
+      eligibility safeguards'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - age-line
+    - barty-crouch
+    - goblet-of-fire
+    - magical-contract
+    - older-student
+    - professor-mcgonagall
+    - tournament-rules
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch17-004:
+    title: 'The Triwizard Year and Institutional Security: Goblet lifecycle and closed
+      selection'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - champion-selection
+    - durmstrang
+    - goblet-of-fire
+    - ludo-bagman
+    - magical-contract
+    - next-tournament
+    - triwizard-tournament
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch17-005:
+    title: 'The Triwizard Year and Institutional Security: Confunding the Goblet of
+      Fire'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - confundus-charm
+    - fourth-school
+    - goblet-of-fire
+    - mad-eye-moody
+    - magical-object
+    - tournament-security
+    - triwizard-tournament
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch17-006:
+    title: 'The Triwizard Year and Institutional Security: Champion instructions for
+      the first task'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - barty-crouch
+    - end-of-year-tests
+    - first-task
+    - judges
+    - teacher-help
+    - triwizard-tournament
+    - wands
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch17-007:
+    title: 'Portraits, Passwords, and House Entrances: Portrait communication and
+      Gryffindor access'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - common-room
+    - fat-lady
+    - gryffindor-tower
+    - magical-architecture
+    - passwords
+    - portrait-network
+    - portraits
+    source_unit: gof-ch17
+    output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6757,8 +6867,11 @@ by_tag:
   age-line:
   - gof-ch16-003
   - gof-ch16-004
+  - gof-ch17-002
+  - gof-ch17-003
   age-restriction:
   - gof-ch12-007
+  - gof-ch17-001
   aging-potion:
   - gof-ch16-004
   albus-dumbledore:
@@ -6877,6 +6990,8 @@ by_tag:
   - gof-ch07-006
   - gof-ch07-007
   - gof-ch09-003
+  - gof-ch17-003
+  - gof-ch17-006
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -6896,6 +7011,7 @@ by_tag:
   - gof-ch15-007
   - gof-ch16-001
   - gof-ch16-005
+  - gof-ch17-002
   bedtime-enforcement:
   - poa-ch13-006
   bertha-jorkins:
@@ -7110,6 +7226,7 @@ by_tag:
   champion-selection:
   - gof-ch16-003
   - gof-ch16-007
+  - gof-ch17-004
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -7176,6 +7293,7 @@ by_tag:
   common-room:
   - cos-ch05-006
   - cos-ch08-003
+  - gof-ch17-007
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -7192,6 +7310,8 @@ by_tag:
   - poa-ch18-007
   confiscated-items:
   - poa-ch14-007
+  confundus-charm:
+  - gof-ch17-005
   cornelius-fudge:
   - cos-ch14-005
   - gof-ch11-003
@@ -7569,6 +7689,8 @@ by_tag:
   - gof-ch15-005
   - gof-ch15-007
   - gof-ch16-001
+  - gof-ch17-002
+  - gof-ch17-004
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -7619,6 +7741,8 @@ by_tag:
   end-of-year-feast:
   - cos-ch18-007
   - ps-ch17-005
+  end-of-year-tests:
+  - gof-ch17-006
   engorgement-charm:
   - cos-ch07-005
   - gof-ch04-005
@@ -7692,6 +7816,7 @@ by_tag:
   fat-friar:
   - cos-ch08-005
   fat-lady:
+  - gof-ch17-007
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -7743,6 +7868,8 @@ by_tag:
   - cos-ch08-005
   first-opening:
   - cos-ch15-007
+  first-task:
+  - gof-ch17-006
   first-wizarding-war:
   - gof-ch09-007
   - gof-ch14-003
@@ -7771,6 +7898,7 @@ by_tag:
   - poa-ch01-001
   fleur-delacour:
   - gof-ch16-007
+  - gof-ch17-001
   flitwick:
   - ps-ch10-001
   - ps-ch12-003
@@ -7849,6 +7977,10 @@ by_tag:
   - cos-ch09-003
   - gof-ch12-002
   - ps-ch03-001
+  fourth-champion:
+  - gof-ch17-001
+  fourth-school:
+  - gof-ch17-005
   fourth-year:
   - gof-ch10-006
   - gof-ch10-007
@@ -7913,6 +8045,10 @@ by_tag:
   - gof-ch16-003
   - gof-ch16-004
   - gof-ch16-007
+  - gof-ch17-001
+  - gof-ch17-003
+  - gof-ch17-004
+  - gof-ch17-005
   goblin-liaison:
   - gof-ch07-004
   goblin-rebellion:
@@ -8022,6 +8158,7 @@ by_tag:
   gryffindor-tower:
   - cos-ch05-006
   - cos-ch08-001
+  - gof-ch17-007
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -8110,6 +8247,7 @@ by_tag:
   - gof-ch02-004
   - gof-ch14-004
   - gof-ch16-007
+  - gof-ch17-001
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -8437,6 +8575,8 @@ by_tag:
   - poa-ch15-005
   - poa-ch22-001
   - ps-ch17-004
+  host-school:
+  - gof-ch17-002
   hourglasses:
   - ps-ch15-002
   house-assignment:
@@ -8574,6 +8714,8 @@ by_tag:
   - cos-ch13-005
   inter-house-quidditch-cup:
   - gof-ch12-005
+  inter-school-relations:
+  - gof-ch17-002
   interior-rooms:
   - ps-ch09-004
   interior-setting:
@@ -8623,6 +8765,7 @@ by_tag:
   - gof-ch04-005
   judges:
   - gof-ch16-002
+  - gof-ch17-006
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -8749,6 +8892,8 @@ by_tag:
   - gof-ch07-005
   - gof-ch07-007
   - gof-ch11-003
+  - gof-ch17-001
+  - gof-ch17-004
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -8766,6 +8911,7 @@ by_tag:
   - gof-ch13-006
   - gof-ch13-007
   - gof-ch14-001
+  - gof-ch17-005
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -8801,6 +8947,7 @@ by_tag:
   - cos-ch11-007
   - cos-ch17-001
   - gof-ch11-005
+  - gof-ch17-007
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -8819,6 +8966,8 @@ by_tag:
   - ps-ch05-003
   magical-contract:
   - gof-ch16-003
+  - gof-ch17-003
+  - gof-ch17-004
   magical-creature-law:
   - poa-ch11-003
   magical-creatures:
@@ -8851,6 +9000,8 @@ by_tag:
   - cos-ch17-002
   magical-menagerie:
   - poa-ch04-005
+  magical-object:
+  - gof-ch17-005
   magical-objects:
   - gof-ch04-002
   magical-photographs:
@@ -9169,6 +9320,8 @@ by_tag:
   newts:
   - poa-ch16-001
   - poa-ch22-005
+  next-tournament:
+  - gof-ch17-004
   nicolas-flamel:
   - ps-ch06-003
   - ps-ch11-007
@@ -9202,6 +9355,8 @@ by_tag:
   - cos-ch03-002
   old-punishments:
   - ps-ch15-004
+  older-student:
+  - gof-ch17-003
   oliver-wood:
   - ps-ch09-003
   ollivanders:
@@ -9280,6 +9435,7 @@ by_tag:
   passwords:
   - cos-ch05-006
   - cos-ch12-005
+  - gof-ch17-007
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -9402,7 +9558,10 @@ by_tag:
   - poa-ch08-004
   portrait-mobility:
   - poa-ch09-003
+  portrait-network:
+  - gof-ch17-007
   portraits:
+  - gof-ch17-007
   - poa-ch06-002
   - poa-ch08-004
   - poa-ch08-007
@@ -9511,6 +9670,7 @@ by_tag:
   - cos-ch06-004
   - cos-ch11-001
   - gof-ch13-006
+  - gof-ch17-003
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -10342,6 +10502,8 @@ by_tag:
   - cos-ch14-004
   - cos-ch15-002
   - cos-ch16-004
+  teacher-help:
+  - gof-ch17-006
   teacher-permission:
   - cos-ch09-007
   - cos-ch10-001
@@ -10416,6 +10578,10 @@ by_tag:
   - gof-ch06-003
   tournament-of-1792:
   - gof-ch15-003
+  tournament-rules:
+  - gof-ch17-003
+  tournament-security:
+  - gof-ch17-005
   tower-dormitory:
   - cos-ch01-001
   transfiguration:
@@ -10439,6 +10605,8 @@ by_tag:
   - ps-ch16-005
   trick-sweets:
   - gof-ch05-002
+  triwizard-rules:
+  - gof-ch17-001
   triwizard-tournament:
   - gof-ch07-007
   - gof-ch11-003
@@ -10451,6 +10619,10 @@ by_tag:
   - gof-ch16-003
   - gof-ch16-005
   - gof-ch16-007
+  - gof-ch17-002
+  - gof-ch17-004
+  - gof-ch17-005
+  - gof-ch17-006
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -10470,6 +10642,8 @@ by_tag:
   - gof-ch10-005
   - poa-ch06-004
   - poa-ch16-005
+  two-champions:
+  - gof-ch17-002
   underage-magic:
   - cos-ch01-005
   - cos-ch02-005
@@ -10579,6 +10753,7 @@ by_tag:
   wands:
   - cos-ch04-002
   - cos-ch06-004
+  - gof-ch17-006
   - poa-ch07-004
   - poa-ch07-005
   - ps-ch05-007

@@ -1020,6 +1020,21 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; No prior entry records an explicit Hogwarts: A History reference tied to the Chamber of Secrets legend.
 **Notes:** Hermione does not quote the book's Chamber material here; the entry supports expected coverage rather than exact wording.
 
+## Part: Castle Architecture and Everyday Magic
+
+### Chapter: Portraits, Passwords, and House Entrances
+
+#### Section: Portrait communication and Gryffindor access
+
+**Fact:** The scene confirms that Hogwarts portraits can move news through connected frames across staircases and that the Fat Lady remains the passworded gatekeeper to Gryffindor Tower.
+**Evidence:** "through every picture lining seven staircases"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1184, entry `gof-ch17-007`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** magical_architecture
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch08-004; poa-ch08-007; poa-ch08-004 covers Fat Lady password access, and poa-ch08-007 covers portrait mobility during a security breach. This entry adds routine gossip transfer across seven staircases after the champion selection.
+**Notes:** The scene does not explain the full range or rules of portrait travel between frames.
+
 ## Part: Ceremonies and School Traditions
 
 ### Chapter: Christmas at Hogwarts
@@ -2359,6 +2374,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records Bertha Jorkins's disappearance and Ministry workload; this entry adds Bagman's minimization and Crouch's push to search.
 **Notes:** The scene does not reveal what happened to Bertha or what information she carried.
 
+#### Section: Binding selection and failed eligibility safeguards
+
+**Fact:** The official inquiry distinguishes possible entry methods from the final rule: once the Goblet returns a name, that person is bound to compete.
+**Evidence:** "bound to compete in the tournament"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1178, entry `gof-ch17-003`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** later_editorial_note
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch16-003; gof-ch16-004; gof-ch16-003 announces the binding magical contract before selection, and gof-ch16-004 shows Age Line enforcement. This entry documents the rule being applied after Harry's anomalous selection.
+**Notes:** The exact penalty or magical consequence for refusal is not described here.
+
+#### Section: Champion instructions for the first task
+
+**Fact:** The first-task briefing establishes tournament limits on teacher help, public judging, wand-only preparation, staged task information, and exam exemptions for champions.
+**Evidence:** "exempted from end-of-year tests"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1181, entry `gof-ch17-006`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** later_editorial_note
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch16-002; gof-ch16-002 records the three tasks and judging panel in broad terms. This entry adds the first-task date, no-teacher-help rule, wand-only condition, staged information, and test exemption.
+**Notes:** The actual first task is deliberately withheld in this briefing.
+
 #### Section: Champion selection and the fourth name
 
 **Fact:** The Goblet selects Viktor Krum, Fleur Delacour, and Cedric Diggory as official champions before producing Harry Potter's unexpected fourth name.
@@ -2392,6 +2429,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-007; Book 4 Chapter Seven records a signed, classified Hogwarts event; this entry corroborates that seed and adds changed rules, entry eligibility, prize money, and Fudge-linked leakage.
 **Notes:** The chapter still does not name the Triwizard Tournament or state the full rules.
 
+#### Section: Confunding the Goblet of Fire
+
+**Fact:** Moody theorizes that the Goblet was Confunded into treating Harry as the only entrant from a fourth school, exposing a security failure in the tournament selector.
+**Evidence:** "an exceptionally strong Confundus Charm"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1180, entry `gof-ch17-005`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** later_editorial_note
+**Reference type:** security_or_protection
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=false; Duplicate search for Confundus, Goblet, magical-object, and Triwizard terms did not return a likely existing entry.
+**Notes:** This is Moody's immediate theory, not yet confirmed within this chapter.
+
 #### Section: Entry procedure, Age Line, and binding contract
 
 **Fact:** The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
@@ -2402,6 +2450,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch12-007 already records the Halloween selection and seventeen-plus restriction; this entry adds name-and-school submission, the Age Line, and the binding magical contract.
 **Notes:** The chapter states the intended safeguards but not their exact spellwork or later failure mode.
+
+#### Section: Goblet lifecycle and closed selection
+
+**Fact:** The Goblet cannot simply be reopened for a corrective draw; once extinguished, it will not reignite until the next tournament, leaving the selected champions bound.
+**Evidence:** "it won't reignite until the start of the next tournament"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1179, entry `gof-ch17-004`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** later_editorial_note
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch16-002; gof-ch16-007; gof-ch16-002 covers the Goblet as selector and gof-ch16-007 covers the fourth name. This entry adds the post-selection fact that the Goblet has gone out and cannot be restarted until the next tournament.
+**Notes:** Bagman states the operational limit, but the enchantment's origin and technical mechanics are not explained.
+
+#### Section: Host-school fairness dispute
+
+**Fact:** Durmstrang and Beauxbatons treat two Hogwarts champions as a rules fairness problem, tying the objection to inter-school equality and trust in the Age Line.
+**Evidence:** "the host school is allowed two champions"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1177, entry `gof-ch17-002`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** later_editorial_note
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch16-003; gof-ch12-007 records the three-school tournament framework and age restriction; gof-ch16-003 records the Age Line mechanism. This entry adds the visiting schools' fairness objection to two Hogwarts champions.
+**Notes:** The objection is voiced by aggrieved visitors and does not quote the full rulebook.
 
 #### Section: Judges, tasks, scoring, and the Goblet selector
 
@@ -2435,6 +2505,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch01-003; Book 4 Chapter One records Bertha Jorkins as a Ministry information source for Voldemort's plan; this entry corroborates her disappearance from the Ministry side and adds the post-World Cup secret-event workload.
 **Notes:** The event is unnamed in this chapter, so the Hogwarts connection depends on later corroborating chapters rather than this passage alone.
+
+#### Section: The fourth champion anomaly
+
+**Fact:** Harry is formally presented as an anomalous fourth champion, and the initial response treats his youth as irregular but not enough to void selection.
+**Evidence:** "the fourth Triwizard champion"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, PDF page 1176, entry `gof-ch17-001`, `sources/book-04/chapter-17-the-four-champions.yaml`
+**Classification:** later_editorial_note
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch16-007; gof-ch16-003; gof-ch16-007 records Harry's name emerging from the Goblet; gof-ch16-003 records the announced entry rules. This entry adds the immediate official interpretation once the fourth champion is in the champions' room.
+**Notes:** The scene gives Bagman's immediate reading, not a formal written tournament-law ruling.
 
 #### Section: Tournament History, Revival, Selection, and Age Restriction
 

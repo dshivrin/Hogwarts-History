@@ -102,6 +102,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Chamber of Secrets References
   - Library Demand for Hogwarts: A History
 
+## Castle Architecture and Everyday Magic
+
+- Portraits, Passwords, and House Entrances
+  - Portrait communication and Gryffindor access
+
 ## Ceremonies and School Traditions
 
 - Christmas at Hogwarts
@@ -267,13 +272,19 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
+  - Binding selection and failed eligibility safeguards
+  - Champion instructions for the first task
   - Champion selection and the fourth name
   - Classified Ministry Announcement at Hogwarts
   - Classified Rules, Entry, and Prize Foreshadowing
+  - Confunding the Goblet of Fire
   - Entry procedure, Age Line, and binding contract
+  - Goblet lifecycle and closed selection
+  - Host-school fairness dispute
   - Judges, tasks, scoring, and the Goblet selector
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
+  - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
