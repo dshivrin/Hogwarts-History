@@ -31,6 +31,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - First-Year Spellwork
 - Course Materials and Annual Booklists
   - Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
+  - Fourth-Year Spellwork and Summoning Charms
 - Course Structure and Academic Progression
   - Advanced Defensive Magic
   - Defense Against the Dark Arts Creature Sequence
@@ -128,6 +129,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Arrival at Hogsmeade and First-Year Gathering
   - Emergency Magical Transport Outside School Routes
   - End-of-Year Departure and Muggle-Secrecy Measures
+  - First-Year Lake Crossing and Upper-Year Carriages
   - Hogsmeade Weekend Permissions
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
@@ -226,6 +228,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
   - Bertha Jorkins and Ministry Search Failure
+  - Classified Event Hints Before the Announcement
   - Classified Ministry Announcement at Hogwarts
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
@@ -233,6 +236,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Schools Beyond Britain
   - Beauxbatons and European Magical Education Sources
+  - European Magical Education and School Secrecy
   - International Schools and Exchange Awareness
 - Wizarding Transport, Public Events, and Secrecy
   - Campsite Memory Charms and Anti-Muggle Security
@@ -309,6 +313,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
+  - Concealment from Muggles and Map Protections
 - Crisis Security During Harry's Third Year
   - Animagus Evasion of Grounds Security
 - Crisis Security and External Forces

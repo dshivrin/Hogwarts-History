@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Eleven - Aboard the Hogwarts Express
-- Page range: 1078-1088
+- Chapter: Chapter Twelve - The Triwizard Tournament
+- Page range: 1089-1106
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+- Output YAML: `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
 
 ## Minimal Context
 

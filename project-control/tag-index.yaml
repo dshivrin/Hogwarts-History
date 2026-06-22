@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-21'
+updated: '2026-06-22'
 tags:
   academic-merit:
     entries:
@@ -339,8 +339,10 @@ tags:
   beauxbatons:
     entries:
     - gof-ch09-002
+    - gof-ch11-004
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -576,6 +578,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  carriages:
+    entries:
+    - gof-ch11-006
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   castle:
     entries:
     - cos-ch01-001
@@ -588,8 +595,10 @@ tags:
   castle-approach:
     entries:
     - cos-ch05-002
+    - gof-ch11-006
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   castle-grounds:
     entries:
     - poa-ch17-001
@@ -774,6 +783,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
   charms:
     entries:
+    - gof-ch11-005
     - poa-ch04-003
     - poa-ch15-003
     - poa-ch16-003
@@ -787,6 +797,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   charms-classroom:
     entries:
     - ps-ch09-006
@@ -840,8 +851,10 @@ tags:
   classified-information:
     entries:
     - gof-ch07-007
+    - gof-ch11-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   classroom-assessment:
     entries:
     - cos-ch06-006
@@ -932,6 +945,11 @@ tags:
     - cos-ch12-005
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  concealed-hogwarts:
+    entries:
+    - gof-ch11-001
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   concealed-route:
     entries:
     - poa-ch20-001
@@ -999,6 +1017,7 @@ tags:
     - cos-ch04-006
     - cos-ch06-006
     - gof-ch10-006
+    - gof-ch11-005
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch07-003
@@ -1013,6 +1032,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   course-load:
     entries:
     - poa-ch21-002
@@ -1195,8 +1215,10 @@ tags:
   dark-arts:
     entries:
     - cos-ch18-001
+    - gof-ch11-004
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   dark-magic:
     entries:
     - cos-ch09-006
@@ -1555,6 +1577,7 @@ tags:
     - cos-ch18-001
     - cos-ch18-005
     - gof-ch02-005
+    - gof-ch11-003
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -1622,6 +1645,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -1654,6 +1678,11 @@ tags:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+  durmstrang:
+    entries:
+    - gof-ch11-004
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   dursleys:
     entries:
     - cos-ch01-003
@@ -2038,6 +2067,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
   first-year-arrival:
     entries:
+    - gof-ch11-006
     - poa-ch05-005
     - ps-ch06-007
     - ps-ch07-002
@@ -2045,6 +2075,7 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-01/chapter-07-sorting-hat.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   first-year-broom-rule:
     entries:
     - ps-ch05-002
@@ -2241,8 +2272,10 @@ tags:
     entries:
     - gof-ch10-006
     - gof-ch10-007
+    - gof-ch11-005
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   fred-and-george:
     entries:
     - gof-ch04-005
@@ -2353,8 +2386,10 @@ tags:
   goblet-of-fire:
     entries:
     - gof-ch07-007
+    - gof-ch11-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   goblin-liaison:
     entries:
     - gof-ch07-004
@@ -2621,6 +2656,7 @@ tags:
     - cos-ch15-004
     - cos-ch15-005
     - cos-ch15-006
+    - gof-ch11-006
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -2670,6 +2706,7 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   hagrid-cross-reference:
     entries:
     - ps-ch03-005
@@ -2957,6 +2994,7 @@ tags:
     entries:
     - cos-ch09-001
     - cos-ch16-003
+    - gof-ch11-001
     - poa-ch09-001
     - ps-ch07-001
     output_yaml:
@@ -2964,6 +3002,7 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   hidden-agent:
     entries:
     - gof-ch01-004
@@ -3106,24 +3145,30 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
   hogsmeade-station:
     entries:
+    - gof-ch11-006
     - poa-ch05-005
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   hogwarts:
     entries:
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
+    - gof-ch11-003
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
+    - gof-ch11-001
     - poa-ch09-001
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   hogwarts-alumni:
     entries:
     - poa-ch10-006
@@ -3148,6 +3193,7 @@ tags:
     - cos-ch16-005
     - cos-ch18-007
     - gof-ch03-003
+    - gof-ch11-002
     - poa-ch01-005
     - poa-ch05-001
     - poa-ch05-003
@@ -3167,6 +3213,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   hogwarts-four:
     entries:
     - cos-ch17-006
@@ -3590,6 +3637,7 @@ tags:
     - gof-ch09-002
     - gof-ch09-007
     - gof-ch10-004
+    - gof-ch11-004
     - poa-ch01-001
     - poa-ch02-004
     - ps-ch06-003
@@ -3602,6 +3650,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   informal-source:
     entries:
     - poa-ch04-002
@@ -3758,6 +3807,7 @@ tags:
     entries:
     - cos-ch04-001
     - cos-ch05-001
+    - gof-ch11-002
     - poa-ch05-001
     - ps-ch06-001
     output_yaml:
@@ -3765,6 +3815,7 @@ tags:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   knight-bus:
     entries:
     - poa-ch03-002
@@ -3781,6 +3832,7 @@ tags:
     entries:
     - cos-ch05-002
     - cos-ch16-007
+    - gof-ch11-006
     - poa-ch05-005
     - ps-ch06-007
     - ps-ch12-001
@@ -3794,6 +3846,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   later-context:
     entries:
     - cos-ch02-001
@@ -3988,11 +4041,13 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
   luggage:
     entries:
+    - gof-ch11-002
     - poa-ch05-001
     - ps-ch06-006
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   lupin:
     entries:
     - poa-ch08-005
@@ -4139,8 +4194,10 @@ tags:
   magical-education:
     entries:
     - gof-ch09-002
+    - gof-ch11-004
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   magical-entrance:
     entries:
     - poa-ch03-003
@@ -4220,6 +4277,11 @@ tags:
     - poa-ch21-003
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  magical-schools:
+    entries:
+    - gof-ch11-001
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   magical-secrecy:
     entries:
     - gof-ch08-001
@@ -4500,6 +4562,7 @@ tags:
     - gof-ch09-001
     - gof-ch10-001
     - gof-ch10-003
+    - gof-ch11-003
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -4526,6 +4589,7 @@ tags:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -4707,8 +4771,10 @@ tags:
   muggle-repelling-charms:
     entries:
     - gof-ch08-001
+    - gof-ch11-001
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   muggle-school:
     entries:
     - ps-ch02-002
@@ -4727,6 +4793,8 @@ tags:
     - gof-ch07-001
     - gof-ch09-001
     - gof-ch10-001
+    - gof-ch11-001
+    - gof-ch11-002
     - poa-ch02-002
     - poa-ch03-002
     - ps-ch01-001
@@ -4750,6 +4818,7 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -5273,6 +5342,7 @@ tags:
   platform-nine-and-three-quarters:
     entries:
     - cos-ch05-001
+    - gof-ch11-002
     - poa-ch01-005
     - poa-ch05-001
     - ps-ch06-001
@@ -5283,6 +5353,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   player-safety:
     entries:
     - poa-ch15-005
@@ -5997,6 +6068,11 @@ tags:
     - poa-ch18-005
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  rule-change:
+    entries:
+    - gof-ch11-003
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   rule-enforcement:
     entries:
     - poa-ch14-006
@@ -6213,6 +6289,11 @@ tags:
     - cos-ch05-003
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
+  school-rivalry:
+    entries:
+    - gof-ch11-004
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   school-rules:
     entries:
     - ps-ch08-003
@@ -6264,12 +6345,15 @@ tags:
   school-travel:
     entries:
     - cos-ch05-001
+    - gof-ch11-002
+    - gof-ch11-006
     - poa-ch05-001
     - ps-ch06-001
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   school-vacations:
     entries:
     - ps-ch04-004
@@ -6705,6 +6789,11 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+  spellwork:
+    entries:
+    - gof-ch11-005
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   spiral-staircase:
     entries:
     - ps-ch14-006
@@ -6857,8 +6946,10 @@ tags:
   standard-book-of-spells:
     entries:
     - gof-ch10-006
+    - gof-ch11-005
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   stands:
     entries:
     - ps-ch11-004
@@ -7207,8 +7298,10 @@ tags:
   summoning-charm:
     entries:
     - gof-ch06-003
+    - gof-ch11-005
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   supervised-training:
     entries:
     - poa-ch09-006
@@ -7508,8 +7601,10 @@ tags:
   triwizard-tournament:
     entries:
     - gof-ch07-007
+    - gof-ch11-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -7622,6 +7717,11 @@ tags:
     - gof-ch08-002
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  unplottable:
+    entries:
+    - gof-ch11-001
+    output_yaml:
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   unregistered-magic:
     entries:
     - poa-ch18-001
@@ -7918,9 +8018,11 @@ tags:
     entries:
     - gof-ch07-003
     - gof-ch09-002
+    - gof-ch11-004
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   wizarding-society:
     entries:
     - gof-ch08-003

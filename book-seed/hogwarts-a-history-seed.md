@@ -254,6 +254,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch04-003; Book 3 Chapter Four records third-year booklist and supply purchases; this entry corroborates the recurring pattern and adds fourth-year spellbook, Herbology text, and potion-refill details.
 **Notes:** The passage names materials but does not quote the full fourth-year school list or identify which items are required for which teacher.
 
+#### Section: Fourth-Year Spellwork and Summoning Charms
+
+**Fact:** The chapter corroborates fourth-year Charms or spellwork progression by showing Hermione studying The Standard Book of Spells, Grade 4 and attempting a Summoning Charm before term begins.
+**Evidence:** "learn a Summoning Charm"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, PDF page 1086, entry `gof-ch11-005`, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch10-006; Book 4 Chapter Ten records the fourth-year spellbook as a pre-term material; this entry corroborates it with actual student study of the Summoning Charm.
+**Notes:** The scene does not state the teacher's lesson plan or confirm exactly when the Summoning Charm is formally taught.
+
 ### Chapter: Course Structure and Academic Progression
 
 #### Section: Advanced Defensive Magic
@@ -1232,6 +1243,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Chapter Six records the arrival journey; this entry records the return journey and should be cross-checked with Chapter Six travel entries rather than treated as a duplicate.
 **Notes:** The source does not identify who writes the holiday magic notice or whether the same boat route is used for all non-first-year departures.
 
+#### Section: First-Year Lake Crossing and Upper-Year Carriages
+
+**Fact:** The chapter corroborates the split arrival procedure: first-years take the traditional lake route with Hagrid while returning students ride carriages from Hogsmeade station.
+**Evidence:** "First years traditionally reached Hogwarts Castle"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, PDF page 1088, entry `gof-ch11-006`, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch05-005; Book 3 Chapter Five already corroborates first-years being sent to the lake and older students taking stagecoaches through the gates; this entry adds the explicit wording that the lake route is traditional.
+**Notes:** The passage does not explain when the tradition began, why first-years use the lake, or what pulls the carriages.
+
 #### Section: Hogsmeade Weekend Permissions
 
 **Fact:** The chapter gives a returning-student Hogwarts letter with travel logistics, booklist enclosure, and the third-year Hogsmeade permission-form requirement.
@@ -1318,6 +1340,15 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Notes:** The chapter does not identify who sealed the barrier until later evidence, and it does not explain the barrier's enchantment or origin.
 
 #### Section: Platform Nine and Three-Quarters
+
+**Fact:** The chapter corroborates the hidden platform route, group crossing practice, Muggle-secrecy concern, and start-of-term boarding of the Hogwarts Express.
+**Evidence:** "avoid attracting Muggle attention"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, PDF page 1082, entry `gof-ch11-002`, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch05-001; Book 3 Chapter Five corroborates barrier crossing, platform crowding, pets, luggage, and the scarlet Hogwarts Express; this entry adds a clearer statement of avoiding Muggle attention.
+**Notes:** The passage does not explain who maintains the barrier, how it is keyed to magical travelers, or when the Express route became standard.
 
 **Fact:** The chapter corroborates the hidden King's Cross barrier route, the platform crowd of magical families, and the start-of-term loading of trunks and student pets onto the Hogwarts Express.
 **Evidence:** "platform nine and three-quarters"
@@ -2113,6 +2144,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records Bertha Jorkins's disappearance and Ministry workload; this entry adds Bagman's minimization and Crouch's push to search.
 **Notes:** The scene does not reveal what happened to Bertha or what information she carried.
 
+#### Section: Classified Event Hints Before the Announcement
+
+**Fact:** The chapter intensifies the pre-announcement evidence for a Ministry-linked Hogwarts event with rule changes, entry, prize money, and information circulating through officials' families.
+**Evidence:** "they've changed the rules"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, PDF page 1083, entry `gof-ch11-003`, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+**Classification:** later_editorial_note
+**Reference type:** cross_reference_candidate
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-007; Book 4 Chapter Seven already records a signed, classified event at Hogwarts; this entry corroborates that thread and adds changed rules, entry, prize money, and Dumbledore's pending announcement.
+**Notes:** The chapter still does not name the event as the Triwizard Tournament or state the new age restriction.
+
 #### Section: Classified Ministry Announcement at Hogwarts
 
 **Fact:** The chapter directly foreshadows a Ministry-organized, signed, classified event at Hogwarts before the school year begins.
@@ -2171,6 +2213,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found prior generic in-universe source entries but no direct prior seed for Beauxbatons or An Appraisal of Magical Education in Europe.
 **Notes:** The passage identifies Beauxbatons but gives no details about its curriculum, governance, age range, or relationship with Hogwarts.
+
+#### Section: European Magical Education and School Secrecy
+
+**Fact:** The chapter names a source on European magical education and gives comparative evidence about Durmstrang, Beauxbatons, Hogwarts, rivalry, location secrecy, and Dark Arts reputation.
+**Evidence:** "An Appraisal of Magical Education in Europe"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, PDF page 1084, entry `gof-ch11-004`, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-003; Book 4 Chapter Seven already records other wizarding schools and exchange awareness; this entry adds Durmstrang, Beauxbatons, a named European-education book, and school-location secrecy.
+**Notes:** Several claims about Durmstrang come from Malfoy or inference and should be kept separate from Hermione's named-source evidence.
 
 #### Section: International Schools and Exchange Awareness
 
@@ -2807,6 +2860,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch09-001; Book 3 Chapter Nine records Hermione's explicit Hogwarts: A History citation for anti-Apparition and anti-intrusion protections; this entry adds Snape's crisis confirmation that the rule applies inside the castle.
 **Notes:** The passage confirms the castle interior but does not define whether the same protection covers all grounds or authorized exceptions.
+
+#### Section: Concealment from Muggles and Map Protections
+
+**Fact:** Hermione explicitly cites Hogwarts: A History while explaining that Hogwarts is hidden from Muggle view and then discusses related concealment methods for magical schools.
+**Evidence:** "everyone who's read Hogwarts: A History"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, PDF page 1085, entry `gof-ch11-001`, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`
+**Classification:** original_book_core_candidate
+**Reference type:** explicit_hogwarts_a_history
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch09-001; Book 3 Chapter Nine already records an explicit Hogwarts: A History citation for castle-wide protective enchantments; this entry adds the specific Muggle-concealment and possible Unplottable context.
+**Notes:** Hermione's Unplottable explanation is linked to Durmstrang and hidden schools generally, so only the Hogwarts concealment claim is directly attributed to Hogwarts: A History.
 
 ### Chapter: Crisis Security During Harry's Third Year
 
