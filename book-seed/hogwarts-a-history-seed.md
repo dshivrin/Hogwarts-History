@@ -1480,6 +1480,34 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch17-005; Chapter Seventeen shows the Sorting Hat producing a sword; this entry identifies the sword as Godric Gryffindor's and gives Dumbledore's true-Gryffindor explanation.
 **Notes:** The chapter does not explain when or how the sword became connected to the Hat, or whether the mechanism predates Harry.
 
+## Part: Ceremonies, Feasts, and Inter-School Relations
+
+### Chapter: The Triwizard Tournament at Hogwarts
+
+#### Section: Welcoming visiting delegations
+
+**Fact:** Hogwarts posts formal arrival instructions for Beauxbatons and Durmstrang, ending lessons early and sending students to greet the visitors before a Welcoming Feast.
+**Evidence:** "assemble in front of the castle to greet our guests"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1142, entry `gof-ch15-005`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch12-007 gives the tournament history, schools, selection, and age restriction; this entry adds the concrete hosting protocol for the delegations' arrival.
+**Notes:** The evidence is limited to the 1994 Triwizard revival and may not reflect earlier hosting customs.
+
+### Chapter: Visiting Schools and Magical Travel
+
+#### Section: Beauxbatons carriage and Durmstrang lake ship
+
+**Fact:** The foreign schools arrive through distinctive magical transport: Beauxbatons by a giant winged-horse carriage and Durmstrang by a ship rising from the lake.
+**Evidence:** "a gigantic, powder-blue, horse-drawn carriage"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1149, entry `gof-ch15-007`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** direct_observed_setting
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch11-004; gof-ch12-007; gof-ch11-004 and gof-ch12-007 establish the foreign schools and tournament context; this entry adds observed arrival methods, heads of school, and use of Hogwarts grounds and lake.
+**Notes:** The passage describes one ceremonial arrival and does not establish whether these are routine school transport methods.
+
 ## Part: Ghosts, Portraits, and Magical Residents
 
 ### Chapter: Ghosts and Haunted Places
@@ -1633,6 +1661,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ## Part: Hogwarts Curriculum and Instruction
 
+### Chapter: Academic Progression and Examinations
+
+#### Section: Fourth-year preparation for O.W.L. pressure
+
+**Fact:** The chapter shows fourth-year workload intensifying before O.W.L.s, with assignments in Transfiguration, Divination, History of Magic, Potions, and Charms.
+**Evidence:** "Your Ordinary Wizarding Levels are drawing closer"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1141, entry `gof-ch15-002`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Duplicate search found broad curriculum and History of Magic entries, but no prior seed combines fourth-year workload escalation with pre-O.W.L. preparation.
+**Notes:** The passage reflects one fourth-year cohort and does not prove identical workload patterns in all eras.
+
 ### Chapter: Defense Against the Dark Arts
 
 #### Section: Fourth-year curse curriculum after Dark creature groundwork
@@ -1686,6 +1727,21 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch09-007; gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
 **Notes:** It summarizes wizarding law through a teacher's classroom speech.
+
+## Part: Houses, Heraldry, and School Identity
+
+### Chapter: The Four Houses
+
+#### Section: House colors, animals, and the Hogwarts coat of arms
+
+**Fact:** The decorated Great Hall displays each House's colors and animal, plus a larger Hogwarts coat of arms uniting lion, eagle, badger, and snake around an H.
+**Evidence:** "largest banner of all bore the Hogwarts coat of arms"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1144, entry `gof-ch15-004`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** house_system
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-003; gof-ch12-003 records House tables and Sorting procedure; this entry corroborates the House system and adds explicit heraldic colors, animals, and the combined Hogwarts coat of arms.
+**Notes:** The decorations are for a special Triwizard occasion, though the symbols appear official rather than temporary inventions.
 
 ## Part: Later Editorial Notes
 
@@ -2986,6 +3042,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-001; Book 2 Chapter Five already corroborates platform nine and three-quarters barrier access and Muggle-secrecy constraints; this entry adds Book 4 group crossing, pets, and train boarding context.
 **Notes:** The passage does not explain the barrier's enchantment, origin, maintenance, or failure conditions.
+
+### Chapter: Tournament History and Institutional Omissions
+
+#### Section: Triwizard judging, 1792 disaster, and house-elf silence
+
+**Fact:** Hermione explicitly cites Hogwarts: A History for the 1792 Triwizard judges' injury by cockatrice, then says the book omits Hogwarts house-elf enslavement.
+**Evidence:** "It's all in Hogwarts: A History"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1145, entry `gof-ch15-003`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** original_book_core_candidate
+**Reference type:** explicit_hogwarts_a_history
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch12-004; gof-ch14-007; gof-ch12-007 covers the Triwizard revival and participating schools; gof-ch12-004 and gof-ch14-007 cover Hogwarts house-elf labor and S.P.E.W.; this entry adds an explicit Hogwarts: A History citation and reliability critique.
+**Notes:** Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
 
 ## Part: Origins of the School
 
@@ -4769,6 +4838,36 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch06-007; Chapter Six records the first-year boat approach across the lake; this entry corroborates the lake-and-castle geography from an aerial route and adds greenhouses and lawns.
 **Notes:** The route is observed from an illicit flying car rather than an official school approach, and the text does not provide exact distances or maps.
+
+## Part: The Castle and Its Protections
+
+### Chapter: Movement Limits and Anti-Apparition Protections
+
+#### Section: Apparition blocked inside the grounds
+
+**Fact:** Hermione states as a familiar rule that Apparition is not possible inside the Hogwarts grounds, limiting how visitors can arrive.
+**Evidence:** "You can't Apparate inside the Hogwarts grounds"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1148, entry `gof-ch15-006`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-001; gof-ch06-001 covers general Apparition licensing and risks; this entry adds the Hogwarts-specific restriction on Apparition inside the grounds.
+**Notes:** The rule is stated by Hermione in dialogue and does not explain the enchantment's origin, exact boundary, or exceptions.
+
+## Part: The Castle and Its Working Spaces
+
+### Chapter: Towers, Corridors, and Service Rooms
+
+#### Section: The Owlery in West Tower
+
+**Fact:** The passage locates the Owlery at the top of West Tower and describes it as a glassless circular stone room used by many school owls.
+**Evidence:** "situated at the top of West Tower"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, PDF page 1137, entry `gof-ch15-001`, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** magical_architecture
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search returned broad owl-post entries, but no prior seed specifically locates or describes the Owlery in West Tower.
+**Notes:** The passage describes Harry's route and the room's condition in one era; it does not establish when the Owlery was built.
 
 ## Part: The Four Houses
 

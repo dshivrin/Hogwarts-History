@@ -8,50 +8,50 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 71
+- Total: 72
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 84
+- Harry Potter and the Goblet of Fire: 91
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 220
+- harry_era_confirmation: 226
 - later_editorial_note: 175
-- original_book_core_candidate: 5
+- original_book_core_candidate: 6
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 46
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 40
-- curriculum_or_subject: 66
-- direct_observed_setting: 20
-- explicit_hogwarts_a_history: 4
+- curriculum_or_subject: 67
+- direct_observed_setting: 21
+- explicit_hogwarts_a_history: 5
 - explicit_in_universe_source: 38
 - historical_claim: 47
-- house_system: 8
-- institutional_custom: 80
-- magical_architecture: 30
+- house_system: 9
+- institutional_custom: 81
+- magical_architecture: 31
 - portrait_or_ghost_lore: 7
 - school_rule_or_policy: 58
-- security_or_protection: 50
+- security_or_protection: 51
 
 ## Explicit `Hogwarts: A History` References
 
-- Total: 4
+- Total: 5
 
 ## Possible Duplicates
 
-- Total: 325
+- Total: 330
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, pages 1121-1136, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, pages 1137-1153, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, pages 1137-1153, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, pages 1154-1173, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`

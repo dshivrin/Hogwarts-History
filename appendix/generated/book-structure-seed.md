@@ -145,6 +145,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pre-Arrival House Uncertainty
   - The Sorting Hat as Magical School Artifact
 
+## Ceremonies, Feasts, and Inter-School Relations
+
+- The Triwizard Tournament at Hogwarts
+  - Welcoming visiting delegations
+- Visiting Schools and Magical Travel
+  - Beauxbatons carriage and Durmstrang lake ship
+
 ## Ghosts, Portraits, and Magical Residents
 
 - Ghosts and Haunted Places
@@ -166,6 +173,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Hogwarts Curriculum and Instruction
 
+- Academic Progression and Examinations
+  - Fourth-year preparation for O.W.L. pressure
 - Defense Against the Dark Arts
   - Fourth-year curse curriculum after Dark creature groundwork
 - Divination and Elective Study
@@ -177,6 +186,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Defense instruction beyond ordinary Ministry limits
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
+
+## Houses, Heraldry, and School Identity
+
+- The Four Houses
+  - House colors, animals, and the Hogwarts coat of arms
 
 ## Later Editorial Notes
 
@@ -333,6 +347,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hogwarts Hidden from Muggles
 - The Hogwarts Express and School Travel
   - Hidden Platform Access and Boarding Customs
+- Tournament History and Institutional Omissions
+  - Triwizard judging, 1792 disaster, and house-elf silence
 
 ## Origins of the School
 
@@ -550,6 +566,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Lake and Castle Approach
   - Arrival at Hogsmeade and First-Year Gathering
   - Express Route and Aerial Approach
+
+## The Castle and Its Protections
+
+- Movement Limits and Anti-Apparition Protections
+  - Apparition blocked inside the grounds
+
+## The Castle and Its Working Spaces
+
+- Towers, Corridors, and Service Rooms
+  - The Owlery in West Tower
 
 ## The Four Houses
 

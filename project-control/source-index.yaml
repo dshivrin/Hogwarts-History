@@ -853,3 +853,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1121-1136.
+- source_unit_id: gof-ch15
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 15
+  chapter_title: Chapter Fifteen - Beauxbatons and Durmstrang
+  page_start: 1137
+  page_end: 1153
+  output_yaml: sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+  processed_at: '2026-06-22'
+  explicit_reference_count: 1
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1137-1153.

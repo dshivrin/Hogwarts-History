@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Fifteen - Beauxbatons and Durmstrang
-- Page range: 1137-1153
+- Chapter: Chapter Sixteen - The Goblet of Fire
+- Page range: 1154-1173
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
+- Output YAML: `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
 
 ## Minimal Context
 

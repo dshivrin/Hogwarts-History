@@ -1,0 +1,315 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  boundary_confidence: high
+  boundary_notes: Extracted from the processing-state bounded page range; page 1137 begins the chapter title and page 1153 closes with Krum's recognition after the Durmstrang arrival.
+  processed_date: '2026-06-22'
+  processor_notes: "Created from bounded extraction of PDF pages 1137-1153; one explicit Hogwarts: A History passage with two title mentions was found."
+entries:
+- id: gof-ch15-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1137
+  printed_page: null
+  extracted_text_lines: 16-21
+  text_anchor:
+    start_phrase: climbed out of the portrait hole
+    end_phrase: situated at the top of West Tower
+    local_occurrence_note: Harry leaves Gryffindor Tower before breakfast and reaches the Owlery.
+  nearby_context: Harry writes to Sirius in the common room, crosses the silent castle, passes Peeves on the fourth-floor corridor, and reaches the Owlery at dawn.
+  match_terms:
+  - owlery
+  - west-tower
+  - owl-post
+  - castle-navigation
+  - peeves
+  quote_excerpt_short: situated at the top of West Tower
+  source_note: The passage locates the Owlery at the top of West Tower and describes it as a glassless circular stone room used by many school owls.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - owlery
+  - west-tower
+  - owl-post
+  - castle-architecture
+  - student-correspondence
+  - peeves
+  candidate_part: The Castle and Its Working Spaces
+  candidate_chapter: Towers, Corridors, and Service Rooms
+  candidate_section: The Owlery in West Tower
+  reason_for_placement: The entry gives a named castle room, its location, and its role in everyday student communication.
+  relevance_to_hogwarts_a_history: A school history can use this as architectural and practical evidence for how owl post was supported inside the castle.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned broad owl-post entries, but no prior seed specifically locates or describes the Owlery in West Tower.
+  confidence: high
+  limitations: The passage describes Harry's route and the room's condition in one era; it does not establish when the Owlery was built.
+- id: gof-ch15-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1141
+  printed_page: null
+  extracted_text_lines: 140-170
+  text_anchor:
+    start_phrase: All the fourth years had noticed
+    end_phrase: preparation for their lesson on Summoning Charms
+    local_occurrence_note: Narrative summary of fourth-year workload after Moody's Imperius lesson.
+  nearby_context: McGonagall links increased Transfiguration homework to O.W.L. preparation, while Binns, Snape, Trelawney, and Flitwick add subject-specific work.
+  match_terms:
+  - fourth-year
+  - ordinary-wizarding-levels
+  - transfiguration
+  - history-of-magic
+  - summoning-charms
+  quote_excerpt_short: Your Ordinary Wizarding Levels are drawing closer
+  source_note: The chapter shows fourth-year workload intensifying before O.W.L.s, with assignments in Transfiguration, Divination, History of Magic, Potions, and Charms.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - fourth-year
+  - ordinary-wizarding-levels
+  - curriculum
+  - transfiguration
+  - history-of-magic
+  - potions
+  - charms
+  - workload
+  candidate_part: Hogwarts Curriculum and Instruction
+  candidate_chapter: Academic Progression and Examinations
+  candidate_section: Fourth-year preparation for O.W.L. pressure
+  reason_for_placement: The entry ties academic escalation across several subjects to the looming Ordinary Wizarding Levels.
+  relevance_to_hogwarts_a_history: Useful for describing how Hogwarts teachers prepared students before formal examination years and how workload varied by subject.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate search found broad curriculum and History of Magic entries, but no prior seed combines fourth-year workload escalation with pre-O.W.L. preparation.
+  confidence: high
+  limitations: The passage reflects one fourth-year cohort and does not prove identical workload patterns in all eras.
+- id: gof-ch15-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1145
+  printed_page: null
+  extracted_text_lines: 293-321
+  text_anchor:
+    start_phrase: the Heads of the participating schools
+    end_phrase: oppression of a hundred slaves
+    local_occurrence_note: "Hermione cites Hogwarts: A History while explaining Triwizard judging and then criticizes the book's omissions."
+  nearby_context: Ron, Harry, Fred, and George speculate about tournament tasks and judges before Hermione supplies historical context from the book.
+  match_terms:
+  - "Hogwarts: A History"
+  - triwizard-tournament
+  - tournament-of-1792
+  - cockatrice
+  - house-elves
+  quote_excerpt_short: "It's all in Hogwarts: A History"
+  source_note: "Hermione explicitly cites Hogwarts: A History for the 1792 Triwizard judges' injury by cockatrice, then says the book omits Hogwarts house-elf enslavement."
+  reference_type: explicit_hogwarts_a_history
+  era_classification: original_book_core_candidate
+  topic_tags:
+  - hogwarts-a-history
+  - triwizard-tournament
+  - tournament-of-1792
+  - cockatrice
+  - house-elves
+  - source-reliability
+  - magical-servitude
+  candidate_part: Original Book Core
+  candidate_chapter: Tournament History and Institutional Omissions
+  candidate_section: Triwizard judging, 1792 disaster, and house-elf silence
+  reason_for_placement: This is a direct citation to the target in-universe book and identifies both a historical tournament claim and an omission in its school history.
+  relevance_to_hogwarts_a_history: "This passage anchors two editorial needs: preserve the book's Triwizard material while flagging Hermione's criticism of its house-elf omissions."
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007; gof-ch12-004; gof-ch14-007
+    notes: "gof-ch12-007 covers the Triwizard revival and participating schools; gof-ch12-004 and gof-ch14-007 cover Hogwarts house-elf labor and S.P.E.W.; this entry adds an explicit Hogwarts: A History citation and reliability critique."
+  confidence: high
+  limitations: Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
+- id: gof-ch15-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1144
+  printed_page: null
+  extracted_text_lines: 263-270
+  text_anchor:
+    start_phrase: the Great Hall had been decorated overnight
+    end_phrase: around a large letter H
+    local_occurrence_note: The Great Hall decorations appear on the morning the foreign delegations are due.
+  nearby_context: The school prepares for Beauxbatons and Durmstrang by displaying House banners and the united Hogwarts coat of arms.
+  match_terms:
+  - great-hall
+  - house-banners
+  - coat-of-arms
+  - gryffindor
+  - ravenclaw
+  - hufflepuff
+  - slytherin
+  quote_excerpt_short: largest banner of all bore the Hogwarts coat of arms
+  source_note: The decorated Great Hall displays each House's colors and animal, plus a larger Hogwarts coat of arms uniting lion, eagle, badger, and snake around an H.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - house-system
+  - great-hall
+  - house-banners
+  - coat-of-arms
+  - gryffindor
+  - ravenclaw
+  - hufflepuff
+  - slytherin
+  candidate_part: Houses, Heraldry, and School Identity
+  candidate_chapter: The Four Houses
+  candidate_section: House colors, animals, and the Hogwarts coat of arms
+  reason_for_placement: The passage gives a compact visual inventory of House heraldry and the unified school emblem.
+  relevance_to_hogwarts_a_history: A future history can use this to describe official school symbolism during ceremonial occasions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-003
+    notes: gof-ch12-003 records House tables and Sorting procedure; this entry corroborates the House system and adds explicit heraldic colors, animals, and the combined Hogwarts coat of arms.
+  confidence: high
+  limitations: The decorations are for a special Triwizard occasion, though the symbols appear official rather than temporary inventions.
+- id: gof-ch15-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1142
+  printed_page: null
+  extracted_text_lines: 188-219
+  text_anchor:
+    start_phrase: large crowd of students congregated there
+    end_phrase: before the Welcoming Feast
+    local_occurrence_note: Students read the entrance-hall sign announcing the arrival procedure.
+  nearby_context: The sign stands at the foot of the marble staircase and changes the castle's daily schedule for the foreign delegations.
+  match_terms:
+  - triwizard-tournament
+  - beauxbatons
+  - durmstrang
+  - welcoming-feast
+  - entrance-hall
+  quote_excerpt_short: assemble in front of the castle to greet our guests
+  source_note: Hogwarts posts formal arrival instructions for Beauxbatons and Durmstrang, ending lessons early and sending students to greet the visitors before a Welcoming Feast.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - triwizard-tournament
+  - beauxbatons
+  - durmstrang
+  - visiting-schools
+  - welcoming-feast
+  - entrance-hall
+  - school-schedule
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Tournament at Hogwarts
+  candidate_section: Welcoming visiting delegations
+  reason_for_placement: The sign records an official school procedure for receiving international guests and reorganizing lessons around a ceremonial feast.
+  relevance_to_hogwarts_a_history: This supports a section on how Hogwarts hosted major inter-school events and integrated them into the school day.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007
+    notes: gof-ch12-007 gives the tournament history, schools, selection, and age restriction; this entry adds the concrete hosting protocol for the delegations' arrival.
+  confidence: high
+  limitations: The evidence is limited to the 1994 Triwizard revival and may not reflect earlier hosting customs.
+- id: gof-ch15-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1148
+  printed_page: null
+  extracted_text_lines: 402-410
+  text_anchor:
+    start_phrase: How d'you reckon they're coming
+    end_phrase: how often do I have to tell you
+    local_occurrence_note: Students speculate on how the foreign delegations will travel to Hogwarts.
+  nearby_context: Ron suggests Apparition before Hermione corrects him while the student body waits outside the castle.
+  match_terms:
+  - apparition
+  - hogwarts-grounds
+  - magical-transportation
+  - school-protection
+  quote_excerpt_short: You can't Apparate inside the Hogwarts grounds
+  source_note: Hermione states as a familiar rule that Apparition is not possible inside the Hogwarts grounds, limiting how visitors can arrive.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - apparition
+  - hogwarts-grounds
+  - magical-transportation
+  - security
+  - school-protection
+  - visiting-schools
+  candidate_part: The Castle and Its Protections
+  candidate_chapter: Movement Limits and Anti-Apparition Protections
+  candidate_section: Apparition blocked inside the grounds
+  reason_for_placement: The passage records a practical protective boundary that shapes magical transport to and from Hogwarts.
+  relevance_to_hogwarts_a_history: A school history can use this as evidence for campus-wide anti-Apparition protections and their effects on visitor logistics.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch06-001
+    notes: gof-ch06-001 covers general Apparition licensing and risks; this entry adds the Hogwarts-specific restriction on Apparition inside the grounds.
+  confidence: high
+  limitations: The rule is stated by Hermione in dialogue and does not explain the enchantment's origin, exact boundary, or exceptions.
+- id: gof-ch15-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fifteen - Beauxbatons and Durmstrang
+  chapter_start_pdf_page: 1137
+  chapter_end_pdf_page: 1153
+  pdf_page: 1149
+  printed_page: null
+  extracted_text_lines: 419-443; 530-553
+  text_anchor:
+    start_phrase: delegation from Beauxbatons approaches
+    end_phrase: Blooming, thank you, Professor Karkaroff
+    local_occurrence_note: Beauxbatons arrives by airborne carriage and Durmstrang by ship from the lake.
+  nearby_context: Dumbledore welcomes Madame Maxime at the front steps, arranges care for the Beauxbatons horses, and then greets Karkaroff after the Durmstrang ship surfaces.
+  match_terms:
+  - beauxbatons
+  - durmstrang
+  - madame-maxime
+  - karkaroff
+  - magical-transportation
+  - black-lake
+  quote_excerpt_short: a gigantic, powder-blue, horse-drawn carriage
+  source_note: "The foreign schools arrive through distinctive magical transport: Beauxbatons by a giant winged-horse carriage and Durmstrang by a ship rising from the lake."
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - beauxbatons
+  - durmstrang
+  - magical-transportation
+  - triwizard-tournament
+  - madame-maxime
+  - karkaroff
+  - black-lake
+  - winged-horses
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: Visiting Schools and Magical Travel
+  candidate_section: Beauxbatons carriage and Durmstrang lake ship
+  reason_for_placement: The arrival scene gives concrete comparative evidence for other magical schools' travel customs and Hogwarts's landscape as a reception site.
+  relevance_to_hogwarts_a_history: A later account can use this to document the 1994 international delegations and the grounds' role in ceremonial arrivals.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch11-004; gof-ch12-007
+    notes: gof-ch11-004 and gof-ch12-007 establish the foreign schools and tournament context; this entry adds observed arrival methods, heads of school, and use of Hogwarts grounds and lake.
+  confidence: high
+  limitations: The passage describes one ceremonial arrival and does not establish whether these are routine school transport methods.
