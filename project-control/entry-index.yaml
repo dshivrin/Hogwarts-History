@@ -6603,6 +6603,115 @@ by_entry:
     - winged-horses
     source_unit: gof-ch15
     output_yaml: sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+  gof-ch16-001:
+    title: 'The Triwizard Tournament at Hogwarts: Guest seating at House tables'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - beauxbatons
+    - durmstrang
+    - great-hall
+    - house-tables
+    - visiting-schools
+    - welcoming-feast
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch16-002:
+    title: 'The Triwizard Year and Institutional Security: Judges, tasks, scoring,
+      and the Goblet selector'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - goblet-of-fire
+    - international-magical-cooperation
+    - judges
+    - magical-games-and-sports
+    - ministry-of-magic
+    - three-tasks
+    - triwizard-tournament
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch16-003:
+    title: 'The Triwizard Year and Institutional Security: Entry procedure, Age Line,
+      and binding contract'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - age-line
+    - champion-selection
+    - entrance-hall
+    - goblet-of-fire
+    - magical-contract
+    - school-rules
+    - triwizard-tournament
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch16-004:
+    title: 'The Triwizard Year and Institutional Security: Age Line enforcement and
+      student attempts to bypass it'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - age-line
+    - aging-potion
+    - entrance-hall
+    - goblet-of-fire
+    - hospital-wing
+    - madam-pomfrey
+    - underage-students
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch16-005:
+    title: 'Visiting Schools and Magical Travel: Beauxbatons carriage as guest lodging'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - beauxbatons
+    - carriage
+    - guest-lodging
+    - hagrid-cabin
+    - hogwarts-grounds
+    - triwizard-tournament
+    - winged-horses
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch16-006:
+    title: 'House-Elves and Hogwarts Labor: Staff-side attitudes toward wages and
+      freedom'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - freedom
+    - hagrid
+    - house-elves
+    - magical-servitude
+    - social-attitudes
+    - spew
+    - wages
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  gof-ch16-007:
+    title: 'The Triwizard Year and Institutional Security: Champion selection and
+      the fourth name'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cedric-diggory
+    - champion-selection
+    - fleur-delacour
+    - goblet-of-fire
+    - harry-potter
+    - triwizard-tournament
+    - viktor-krum
+    source_unit: gof-ch16
+    output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6645,8 +6754,13 @@ by_tag:
   - poa-ch21-006
   advanced-potions:
   - cos-ch12-004
+  age-line:
+  - gof-ch16-003
+  - gof-ch16-004
   age-restriction:
   - gof-ch12-007
+  aging-potion:
+  - gof-ch16-004
   albus-dumbledore:
   - ps-ch01-001
   - ps-ch01-002
@@ -6780,6 +6894,8 @@ by_tag:
   - gof-ch12-007
   - gof-ch15-005
   - gof-ch15-007
+  - gof-ch16-001
+  - gof-ch16-005
   bedtime-enforcement:
   - poa-ch13-006
   bertha-jorkins:
@@ -6890,6 +7006,8 @@ by_tag:
   caretaker:
   - cos-ch08-002
   - poa-ch07-005
+  carriage:
+  - gof-ch16-005
   castle:
   - cos-ch01-001
   - cos-ch09-003
@@ -6948,6 +7066,7 @@ by_tag:
   - gof-ch05-003
   cedric-diggory:
   - gof-ch06-004
+  - gof-ch16-007
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -6988,6 +7107,9 @@ by_tag:
   - cos-ch17-001
   - cos-ch17-006
   - cos-ch17-007
+  champion-selection:
+  - gof-ch16-003
+  - gof-ch16-007
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -7446,6 +7568,7 @@ by_tag:
   - gof-ch12-007
   - gof-ch15-005
   - gof-ch15-007
+  - gof-ch16-001
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -7502,6 +7625,8 @@ by_tag:
   entrance-hall:
   - gof-ch12-001
   - gof-ch15-005
+  - gof-ch16-003
+  - gof-ch16-004
   - poa-ch05-005
   - ps-ch14-006
   - ps-ch15-004
@@ -7644,6 +7769,8 @@ by_tag:
   - ps-ch06-006
   flame-freezing-charm:
   - poa-ch01-001
+  fleur-delacour:
+  - gof-ch16-007
   flitwick:
   - ps-ch10-001
   - ps-ch12-003
@@ -7734,6 +7861,8 @@ by_tag:
   - gof-ch05-004
   free-will:
   - gof-ch14-003
+  freedom:
+  - gof-ch16-006
   freezing-charm:
   - cos-ch06-007
   full-moon-safety:
@@ -7780,6 +7909,10 @@ by_tag:
   - ps-ch10-004
   goblet-of-fire:
   - gof-ch07-007
+  - gof-ch16-002
+  - gof-ch16-003
+  - gof-ch16-004
+  - gof-ch16-007
   goblin-liaison:
   - gof-ch07-004
   goblin-rebellion:
@@ -7805,6 +7938,7 @@ by_tag:
   - gof-ch12-003
   - gof-ch13-001
   - gof-ch15-004
+  - gof-ch16-001
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -7910,6 +8044,8 @@ by_tag:
   - poa-ch08-003
   guardianship:
   - ps-ch01-004
+  guest-lodging:
+  - gof-ch16-005
   hagrid:
   - cos-ch02-004
   - cos-ch07-005
@@ -7920,6 +8056,7 @@ by_tag:
   - cos-ch15-006
   - gof-ch11-006
   - gof-ch13-003
+  - gof-ch16-006
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -7946,6 +8083,8 @@ by_tag:
   - ps-ch15-005
   - ps-ch15-006
   - ps-ch16-003
+  hagrid-cabin:
+  - gof-ch16-005
   hagrid-cross-reference:
   - ps-ch03-005
   hagrid-expulsion:
@@ -7970,6 +8109,7 @@ by_tag:
   - gof-ch02-001
   - gof-ch02-004
   - gof-ch14-004
+  - gof-ch16-007
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -8201,6 +8341,7 @@ by_tag:
   - cos-ch05-003
   - gof-ch04-003
   - gof-ch15-006
+  - gof-ch16-005
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -8291,6 +8432,7 @@ by_tag:
   - cos-ch15-001
   - cos-ch16-002
   - cos-ch18-002
+  - gof-ch16-004
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -8329,6 +8471,7 @@ by_tag:
   - gof-ch12-004
   - gof-ch14-007
   - gof-ch15-003
+  - gof-ch16-006
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -8376,6 +8519,7 @@ by_tag:
   house-tables:
   - cos-ch06-001
   - gof-ch12-001
+  - gof-ch16-001
   - poa-ch11-005
   house-teams:
   - cos-ch07-001
@@ -8441,6 +8585,7 @@ by_tag:
   international-magical-cooperation:
   - gof-ch05-003
   - gof-ch12-007
+  - gof-ch16-002
   international-quidditch:
   - gof-ch08-005
   international-transport:
@@ -8476,6 +8621,8 @@ by_tag:
   - gof-ch06-003
   joke-sweets:
   - gof-ch04-005
+  judges:
+  - gof-ch16-002
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -8639,6 +8786,7 @@ by_tag:
   - cos-ch15-001
   - cos-ch18-002
   - gof-ch13-002
+  - gof-ch16-004
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
@@ -8669,6 +8817,8 @@ by_tag:
   - ps-ch02-006
   magical-concealment:
   - ps-ch05-003
+  magical-contract:
+  - gof-ch16-003
   magical-creature-law:
   - poa-ch11-003
   magical-creatures:
@@ -8688,6 +8838,7 @@ by_tag:
   - poa-ch03-003
   magical-games-and-sports:
   - gof-ch12-007
+  - gof-ch16-002
   magical-injury:
   - gof-ch02-001
   magical-instruments:
@@ -8733,6 +8884,7 @@ by_tag:
   - gof-ch12-004
   - gof-ch14-007
   - gof-ch15-003
+  - gof-ch16-006
   magical-spaces:
   - gof-ch07-002
   magical-surveillance:
@@ -8867,6 +9019,7 @@ by_tag:
   - gof-ch13-005
   - gof-ch14-002
   - gof-ch14-003
+  - gof-ch16-002
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -9681,6 +9834,7 @@ by_tag:
   school-rules:
   - gof-ch11-003
   - gof-ch12-005
+  - gof-ch16-003
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
@@ -9884,6 +10038,8 @@ by_tag:
   snitch:
   - cos-ch07-001
   - ps-ch13-005
+  social-attitudes:
+  - gof-ch16-006
   sorcerers-stone:
   - ps-ch15-007
   sorting-ceremony:
@@ -9919,6 +10075,7 @@ by_tag:
   - poa-ch01-002
   spew:
   - gof-ch14-007
+  - gof-ch16-006
   spiral-staircase:
   - ps-ch14-006
   splinching:
@@ -10234,6 +10391,8 @@ by_tag:
   - ps-ch09-007
   - ps-ch11-007
   - ps-ch16-003
+  three-tasks:
+  - gof-ch16-002
   tickets:
   - gof-ch03-001
   time-out:
@@ -10288,6 +10447,10 @@ by_tag:
   - gof-ch15-003
   - gof-ch15-005
   - gof-ch15-007
+  - gof-ch16-002
+  - gof-ch16-003
+  - gof-ch16-005
+  - gof-ch16-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -10317,6 +10480,8 @@ by_tag:
   - gof-ch06-001
   - poa-ch02-003
   - poa-ch03-001
+  underage-students:
+  - gof-ch16-004
   underground-harbor:
   - ps-ch06-007
   underground-tunnels:
@@ -10358,9 +10523,12 @@ by_tag:
   - ps-ch05-004
   veela:
   - gof-ch08-006
+  viktor-krum:
+  - gof-ch16-007
   visiting-schools:
   - gof-ch15-005
   - gof-ch15-006
+  - gof-ch16-001
   visitor-access:
   - ps-ch17-004
   visitor-control:
@@ -10387,6 +10555,8 @@ by_tag:
   - ps-ch01-001
   - ps-ch01-003
   - ps-ch02-005
+  wages:
+  - gof-ch16-006
   wand:
   - cos-ch01-002
   - cos-ch03-005
@@ -10424,6 +10594,7 @@ by_tag:
   - gof-ch06-003
   welcoming-feast:
   - gof-ch15-005
+  - gof-ch16-001
   wendelin-the-weird:
   - poa-ch01-001
   werewolf:
@@ -10461,6 +10632,7 @@ by_tag:
   - poa-ch05-005
   winged-horses:
   - gof-ch15-007
+  - gof-ch16-005
   winged-keys:
   - ps-ch16-006
   winky:

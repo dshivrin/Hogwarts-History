@@ -1484,6 +1484,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: The Triwizard Tournament at Hogwarts
 
+#### Section: Guest seating at House tables
+
+**Fact:** The chapter shows visiting delegations being integrated into the Great Hall by sitting at existing House tables rather than at separate guest tables.
+**Evidence:** "The students from Beauxbatons had chosen seats"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1155, entry `gof-ch16-001`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch15-005; gof-ch12-001; gof-ch15-005 covers the arrival instructions and Welcoming Feast; gof-ch12-001 covers Great Hall House-table seating. This entry adds observed guest seating choices during the feast.
+**Notes:** The scene shows the 1994 revival only and does not state whether seating was assigned or chosen freely.
+
 #### Section: Welcoming visiting delegations
 
 **Fact:** Hogwarts posts formal arrival instructions for Beauxbatons and Durmstrang, ending lessons early and sending students to greet the visitors before a Welcoming Feast.
@@ -1507,6 +1518,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch11-004; gof-ch12-007; gof-ch11-004 and gof-ch12-007 establish the foreign schools and tournament context; this entry adds observed arrival methods, heads of school, and use of Hogwarts grounds and lake.
 **Notes:** The passage describes one ceremonial arrival and does not establish whether these are routine school transport methods.
+
+#### Section: Beauxbatons carriage as guest lodging
+
+**Fact:** The Beauxbatons delegation appears to sleep in its giant carriage on the grounds, with the horses kept nearby in a temporary paddock.
+**Evidence:** "students were climbing back inside it"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1166, entry `gof-ch16-005`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** direct_observed_setting
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch15-007; gof-ch15-007 records the Beauxbatons carriage arrival; this entry adds that the carriage remains on the grounds as apparent lodging with a paddock for the horses.
+**Notes:** The passage strongly implies lodging but does not explicitly say the students sleep there overnight.
 
 ## Part: Ghosts, Portraits, and Magical Residents
 
@@ -2315,6 +2337,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 
 ### Chapter: The Triwizard Year and Institutional Security
 
+#### Section: Age Line enforcement and student attempts to bypass it
+
+**Fact:** The Age Line actively repels underage entrants despite Aging Potion and produces enough magical side effects to send multiple students to Madam Pomfrey.
+**Evidence:** "both twins were hurled out"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1164, entry `gof-ch16-004`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** security_or_protection
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch12-007 records the age restriction before implementation; this entry documents actual Age Line enforcement and hospital-wing aftermath.
+**Notes:** The scene proves the line defeated simple aging tricks but not stronger attempts or outside interference.
+
 #### Section: Bertha Jorkins and Ministry Search Failure
 
 **Fact:** The chapter corroborates Bertha Jorkins's disappearance from the Ministry side and shows Bagman's reluctance to assign search resources despite Crouch's concern.
@@ -2325,6 +2358,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch05-003; Book 4 Chapter Five already records Bertha Jorkins's disappearance and Ministry workload; this entry adds Bagman's minimization and Crouch's push to search.
 **Notes:** The scene does not reveal what happened to Bertha or what information she carried.
+
+#### Section: Champion selection and the fourth name
+
+**Fact:** The Goblet selects Viktor Krum, Fleur Delacour, and Cedric Diggory as official champions before producing Harry Potter's unexpected fourth name.
+**Evidence:** "The Hogwarts champion is Cedric Diggory"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1171, entry `gof-ch16-007`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch12-007 anticipates Halloween champion selection and age restrictions; this entry records the actual selected champions and the anomalous fourth name.
+**Notes:** The chapter ends at Harry's name and does not yet explain how the Goblet was deceived or how officials respond.
 
 #### Section: Classified Ministry Announcement at Hogwarts
 
@@ -2347,6 +2391,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch07-007; Book 4 Chapter Seven records a signed, classified Hogwarts event; this entry corroborates that seed and adds changed rules, entry eligibility, prize money, and Fudge-linked leakage.
 **Notes:** The chapter still does not name the Triwizard Tournament or state the full rules.
+
+#### Section: Entry procedure, Age Line, and binding contract
+
+**Fact:** The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
+**Evidence:** "binding, magical contract"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1160, entry `gof-ch16-003`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** later_editorial_note
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch12-007 already records the Halloween selection and seventeen-plus restriction; this entry adds name-and-school submission, the Age Line, and the binding magical contract.
+**Notes:** The chapter states the intended safeguards but not their exact spellwork or later failure mode.
+
+#### Section: Judges, tasks, scoring, and the Goblet selector
+
+**Fact:** Dumbledore gives the concrete operating procedure for the revived tournament, including its judges, three scored tasks, and the Goblet of Fire as selector.
+**Evidence:** "The champions will be chosen by an impartial selector"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1159, entry `gof-ch16-002`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** later_editorial_note
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-007; gof-ch07-007; gof-ch12-007 gives the full first announcement and gof-ch07-007 foreshadows the classified event; this entry adds the active judges, scoring structure, tasks, and Goblet selector.
+**Notes:** The procedure is official as announced before the later fourth-name anomaly exposes weaknesses in the system.
 
 #### Section: Ministry Information Leaks and Memory Charm Limits
 
@@ -3098,6 +3164,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 ## Part: Peoples, Creatures, and Non-Human Communities
 
 ### Chapter: House-Elves and Hogwarts Labor
+
+#### Section: Staff-side attitudes toward wages and freedom
+
+**Fact:** Hagrid articulates the pro-status-quo view of house-elf labor, arguing that most elves want unpaid work and would be insulted by wages or freedom.
+**Evidence:** "It's in their nature ter look after humans"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, PDF page 1168, entry `gof-ch16-006`, `sources/book-04/chapter-16-the-goblet-of-fire.yaml`
+**Classification:** later_editorial_note
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch14-007; gof-ch12-004; gof-ch14-007 covers S.P.E.W.'s legal framing and gof-ch12-004 covers Hogwarts kitchen labor; this entry adds Hagrid's explicit anti-reform rationale.
+**Notes:** Hagrid's claim is a social attitude rather than independent testimony from most Hogwarts house-elves.
 
 #### Section: Student activism and house-elf legal status
 

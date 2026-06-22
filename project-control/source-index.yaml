@@ -865,3 +865,15 @@ processed_units:
   explicit_reference_count: 1
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1137-1153.
+- source_unit_id: gof-ch16
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 16
+  chapter_title: Chapter Sixteen - The Goblet of Fire
+  page_start: 1154
+  page_end: 1173
+  output_yaml: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  processed_at: '2026-06-22'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1154-1173.

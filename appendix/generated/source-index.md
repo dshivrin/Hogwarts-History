@@ -78,3 +78,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch13`: Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, pages 1107-1120, 7 entries, 0 explicit references.
 - `gof-ch14`: Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, pages 1121-1136, 7 entries, 0 explicit references.
 - `gof-ch15`: Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, pages 1137-1153, 7 entries, 1 explicit references.
+- `gof-ch16`: Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, pages 1154-1173, 7 entries, 0 explicit references.

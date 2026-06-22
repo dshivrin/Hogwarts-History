@@ -148,9 +148,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Ceremonies, Feasts, and Inter-School Relations
 
 - The Triwizard Tournament at Hogwarts
+  - Guest seating at House tables
   - Welcoming visiting delegations
 - Visiting Schools and Magical Travel
   - Beauxbatons carriage and Durmstrang lake ship
+  - Beauxbatons carriage as guest lodging
 
 ## Ghosts, Portraits, and Magical Residents
 
@@ -263,9 +265,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
+  - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
+  - Champion selection and the fourth name
   - Classified Ministry Announcement at Hogwarts
   - Classified Rules, Entry, and Prize Foreshadowing
+  - Entry procedure, Age Line, and binding contract
+  - Judges, tasks, scoring, and the Goblet selector
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
   - Tournament History, Revival, Selection, and Age Restriction
@@ -361,6 +367,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Peoples, Creatures, and Non-Human Communities
 
 - House-Elves and Hogwarts Labor
+  - Staff-side attitudes toward wages and freedom
   - Student activism and house-elf legal status
 
 ## Protective Magic and Security
