@@ -1631,6 +1631,62 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; No duplicate candidate found in the existing Chapter Seven seed.
 **Notes:** The passage does not explain Peeves's origin, age, or formal status in Hogwarts history.
 
+## Part: Hogwarts Curriculum and Instruction
+
+### Chapter: Defense Against the Dark Arts
+
+#### Section: Fourth-year curse curriculum after Dark creature groundwork
+
+**Fact:** Moody's lesson inventories prior third-year Dark creature coverage and reframes fourth-year Defense Against the Dark Arts as urgent curse instruction.
+**Evidence:** "you've had a pretty thorough grounding in tackling Dark creatures"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1122, entry `gof-ch14-001`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Query found general DADA staffing and curriculum entries, but this passage adds distinct fourth-year curse-syllabus detail.
+**Notes:** The scene reflects Moody's in-class framing and may not represent a formal written syllabus.
+
+### Chapter: Divination and Elective Study
+
+#### Section: Fourth-year prediction homework and student skepticism
+
+**Fact:** The scene confirms fourth-year Divination work using Unfogging the Future, monthly predictions, charts, calculations, and Trelawney's expected tragic style.
+**Evidence:** "set to work on their predictions for the coming month"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1131, entry `gof-ch14-006`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch13-004; gof-ch13-004 already records fourth-year astrology and calculation-heavy Divination homework; this entry adds the monthly prediction assignment.
+**Notes:** The assignment is filtered through Harry and Ron's poor-faith completion of the work.
+
+## Part: Hogwarts Governance and External Oversight
+
+### Chapter: Ministry Policy and Headmaster Discretion
+
+#### Section: Defense instruction beyond ordinary Ministry limits
+
+**Fact:** The lesson records Ministry guidance that illegal Dark curses are normally withheld until sixth year, contrasted with Dumbledore's local judgment.
+**Evidence:** "I'm not supposed to show you what illegal Dark curses look like"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1123, entry `gof-ch14-002`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-006; gof-ch12-006 covers Moody's DADA appointment; this passage extends the same appointment into Ministry-disputed course content.
+**Notes:** The Ministry policy is reported by Moody in dialogue, not quoted from a regulation.
+
+### Chapter: Wizarding Law in the Classroom
+
+#### Section: Unforgivable Curses and Azkaban sentencing
+
+**Fact:** Moody names Avada Kedavra, Imperius, and Cruciatus as the Unforgivable Curses and states that use on a human earns life in Azkaban.
+**Evidence:** "known as the Unforgivable Curses"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1128, entry `gof-ch14-005`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch09-007; gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
+**Notes:** It summarizes wizarding law through a teacher's classroom speech.
+
 ## Part: Later Editorial Notes
 
 ### Chapter: Alumni, War Memory, and Unreliable Testimony
@@ -2969,6 +3025,21 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch09-003; Chamber of Secrets Chapter Nine already gives Binns's founding account; this entry corroborates it through the Sorting Hat and adds House virtues plus the Hat's origin.
 **Notes:** The Hat's song is ceremonial and compressed; it does not cite sources or resolve the exact founding date.
+
+## Part: Peoples, Creatures, and Non-Human Communities
+
+### Chapter: House-Elves and Hogwarts Labor
+
+#### Section: Student activism and house-elf legal status
+
+**Fact:** Hermione founds S.P.E.W. after library research, framing house-elf enslavement as centuries old and targeting wages, legal status, wand law, and Ministry representation.
+**Evidence:** "Elf enslavement goes back centuries"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1134, entry `gof-ch14-007`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** later_editorial_note
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch08-002; gof-ch09-005; gof-ch12-004; Prior entries cover unpaid service norms, non-human wand restrictions, and Hogwarts kitchen labor; this entry adds S.P.E.W.'s student-activist legal framing.
+**Notes:** Hermione's historical claim comes from library research summarized in dialogue; the source texts are not named.
 
 ## Part: Protective Magic and Security
 
@@ -5050,3 +5121,31 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch12-004; Chapter Twelve seeded Flamel research in named reference books and the library's scale; this entry adds the successful source combination of a Famous Wizard card and a borrowed old library book.
 **Notes:** The old book Hermione borrowed is not titled in this passage, and the information is about wider wizarding history rather than Hogwarts specifically.
+
+## Part: Wars, Crises, and School Memory
+
+### Chapter: Harry Potter and the End of the First Wizarding War
+
+#### Section: Killing Curse survival and Potter-family testimony
+
+**Fact:** The lesson identifies Avada Kedavra as unblockable, marks Harry as its only known survivor, and recalls the Potter murders and dementor-memory evidence.
+**Evidence:** "Only one known person has ever survived it"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1127, entry `gof-ch14-004`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch02-001; gof-ch02-001 covers Harry's scar as a continuing trace of Voldemort's curse; this entry supplies the named curse and survival context.
+**Notes:** Harry's recollection is mediated through prior dementor memories and classroom trauma rather than a documentary source.
+
+### Chapter: The First Wizarding War in Later Hogwarts Teaching
+
+#### Section: Imperius Curse culpability and postwar denials
+
+**Fact:** Moody connects Imperius Curse control to Voldemort-era legal aftermath, when the Ministry had to distinguish coerced acts from willing ones.
+**Evidence:** "who was being forced to act, and who was acting of their own free will"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, PDF page 1124, entry `gof-ch14-003`, `sources/book-04/chapter-14-the-unforgivable-curses.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch09-007; gof-ch09-007 covers Death Eater postwar denials and Azkaban avoidance; this entry gives the related Imperius-specific legal problem.
+**Notes:** Harry infers the Voldemort-era connection; Moody does not explicitly name Voldemort in the quoted explanation.

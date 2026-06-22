@@ -164,6 +164,20 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Peeves the Poltergeist
   - Wayfinding and Disruption
 
+## Hogwarts Curriculum and Instruction
+
+- Defense Against the Dark Arts
+  - Fourth-year curse curriculum after Dark creature groundwork
+- Divination and Elective Study
+  - Fourth-year prediction homework and student skepticism
+
+## Hogwarts Governance and External Oversight
+
+- Ministry Policy and Headmaster Discretion
+  - Defense instruction beyond ordinary Ministry limits
+- Wizarding Law in the Classroom
+  - Unforgivable Curses and Azkaban sentencing
+
 ## Later Editorial Notes
 
 - Alumni, War Memory, and Unreliable Testimony
@@ -327,6 +341,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Founding of Hogwarts
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
+
+## Peoples, Creatures, and Non-Human Communities
+
+- House-Elves and Hogwarts Labor
+  - Student activism and house-elf legal status
 
 ## Protective Magic and Security
 
@@ -576,3 +595,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Practical Preparation from Published Sources
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
+
+## Wars, Crises, and School Memory
+
+- Harry Potter and the End of the First Wizarding War
+  - Killing Curse survival and Potter-family testimony
+- The First Wizarding War in Later Hogwarts Teaching
+  - Imperius Curse culpability and postwar denials
