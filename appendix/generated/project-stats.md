@@ -19,16 +19,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 206
-- later_editorial_note: 169
+- harry_era_confirmation: 205
+- later_editorial_note: 170
 - original_book_core_candidate: 5
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 45
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 39
-- curriculum_or_subject: 60
+- cross_reference_candidate: 40
+- curriculum_or_subject: 59
 - direct_observed_setting: 19
 - explicit_hogwarts_a_history: 4
 - explicit_in_universe_source: 37
@@ -46,7 +46,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 307
+- Total: 305
 
 ## Latest Processed Unit
 

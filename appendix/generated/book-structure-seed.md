@@ -31,7 +31,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - First-Year Spellwork
 - Course Materials and Annual Booklists
   - Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
-  - Fourth-Year Spellwork and Summoning Charms
 - Course Structure and Academic Progression
   - Advanced Defensive Magic
   - Defense Against the Dark Arts Creature Sequence
@@ -129,7 +128,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Arrival at Hogsmeade and First-Year Gathering
   - Emergency Magical Transport Outside School Routes
   - End-of-Year Departure and Muggle-Secrecy Measures
-  - First-Year Lake Crossing and Upper-Year Carriages
   - Hogsmeade Weekend Permissions
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
@@ -171,6 +169,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slurs, Prejudice, and Student Achievement
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
+- Defense Against the Dark Arts Staffing and Ministry Links
+  - Alastor Moody's Auror Record Before Hogwarts
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -228,15 +228,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Security
   - Bertha Jorkins and Ministry Search Failure
-  - Classified Event Hints Before the Announcement
   - Classified Ministry Announcement at Hogwarts
+  - Classified Rules, Entry, and Prize Foreshadowing
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Schools Beyond Britain
   - Beauxbatons and European Magical Education Sources
-  - European Magical Education and School Secrecy
+  - Durmstrang, School Rivalry, and Dark Arts Curriculum
   - International Schools and Exchange Awareness
 - Wizarding Transport, Public Events, and Secrecy
   - Campsite Memory Charms and Anti-Muggle Security
@@ -300,6 +300,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Voldemort, Riddle, and Hogwarts Memory
   - Riddle Family Background and Muggle Records
 
+## Original Book Core
+
+- Arrival at Hogwarts
+  - First-Year Lake Crossing and Carriage Route
+- The Castle and Its Concealments
+  - Hogwarts Hidden from Muggles
+- The Hogwarts Express and School Travel
+  - Hidden Platform Access and Boarding Customs
+
 ## Origins of the School
 
 - The Founders' Rift
@@ -313,7 +322,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
-  - Concealment from Muggles and Map Protections
 - Crisis Security During Harry's Third Year
   - Animagus Evasion of Grounds Security
 - Crisis Security and External Forces

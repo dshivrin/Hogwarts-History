@@ -6077,23 +6077,23 @@ by_entry:
     source_unit: gof-ch10
     output_yaml: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
   gof-ch11-001:
-    title: 'Castle-Wide Protective Enchantments: Concealment from Muggles and Map
-      Protections'
-    classification: original_book_core_candidate
-    reference_type: explicit_hogwarts_a_history
+    title: 'Defense Against the Dark Arts Staffing and Ministry Links: Alastor Moody''s
+      Auror Record Before Hogwarts'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
     confidence: high
     tags:
-    - concealed-hogwarts
-    - hermione-source
-    - hogwarts-a-history
-    - magical-schools
-    - muggle-repelling-charms
-    - muggle-secrecy
-    - unplottable
+    - aurors
+    - dark-wizards
+    - defense-against-the-dark-arts
+    - dumbledore
+    - mad-eye-moody
+    - ministry-of-magic
     source_unit: gof-ch11
     output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   gof-ch11-002:
-    title: 'The Hogwarts Express and School Travel: Platform Nine and Three-Quarters'
+    title: 'The Hogwarts Express and School Travel: Hidden Platform Access and Boarding
+      Customs'
     classification: harry_era_confirmation
     reference_type: institutional_custom
     confidence: high
@@ -6104,27 +6104,28 @@ by_entry:
     - muggle-secrecy
     - platform-nine-and-three-quarters
     - school-travel
+    - student-pets
     source_unit: gof-ch11
     output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   gof-ch11-003:
-    title: 'The Triwizard Year and Institutional Security: Classified Event Hints
-      Before the Announcement'
+    title: 'The Triwizard Year and Institutional Security: Classified Rules, Entry,
+      and Prize Foreshadowing'
     classification: later_editorial_note
     reference_type: cross_reference_candidate
     confidence: high
     tags:
     - classified-information
-    - dumbledore
-    - goblet-of-fire
+    - cornelius-fudge
     - hogwarts
+    - ludo-bagman
     - ministry-of-magic
-    - rule-change
+    - school-rules
     - triwizard-tournament
     source_unit: gof-ch11
     output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   gof-ch11-004:
-    title: 'Wizarding Schools Beyond Britain: European Magical Education and School
-      Secrecy'
+    title: 'Wizarding Schools Beyond Britain: Durmstrang, School Rivalry, and Dark
+      Arts Curriculum'
     classification: later_editorial_note
     reference_type: explicit_in_universe_source
     confidence: high
@@ -6134,37 +6135,36 @@ by_entry:
     - durmstrang
     - in-universe-source
     - magical-education
-    - school-rivalry
+    - school-secrecy
     - wizarding-schools
     source_unit: gof-ch11
     output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   gof-ch11-005:
-    title: 'Course Materials and Annual Booklists: Fourth-Year Spellwork and Summoning
-      Charms'
-    classification: harry_era_confirmation
-    reference_type: curriculum_or_subject
+    title: 'The Castle and Its Concealments: Hogwarts Hidden from Muggles'
+    classification: original_book_core_candidate
+    reference_type: explicit_hogwarts_a_history
     confidence: high
     tags:
-    - charms
-    - course-books
-    - fourth-year
-    - spellwork
-    - standard-book-of-spells
-    - summoning-charm
+    - hogwarts-a-history
+    - hogwarts-hidden
+    - magical-architecture
+    - muggle-repelling
+    - muggle-secrecy
+    - school-protections
+    - unplottable
     source_unit: gof-ch11
     output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
   gof-ch11-006:
-    title: 'The Hogwarts Express and School Travel: First-Year Lake Crossing and Upper-Year
-      Carriages'
+    title: 'Arrival at Hogwarts: First-Year Lake Crossing and Carriage Route'
     classification: harry_era_confirmation
     reference_type: institutional_custom
     confidence: high
     tags:
-    - carriages
-    - castle-approach
-    - first-year-arrival
+    - arrival-logistics
+    - first-years
     - hagrid
     - hogsmeade-station
+    - horseless-carriages
     - lake
     - school-travel
     source_unit: gof-ch11
@@ -6276,6 +6276,7 @@ by_tag:
   armor:
   - ps-ch08-001
   arrival-logistics:
+  - gof-ch11-006
   - ps-ch06-006
   assessment:
   - cos-ch16-001
@@ -6285,6 +6286,8 @@ by_tag:
   astronomy-tower:
   - poa-ch09-004
   - ps-ch15-001
+  aurors:
+  - gof-ch11-001
   azkaban:
   - cos-ch12-007
   - cos-ch14-005
@@ -6429,15 +6432,12 @@ by_tag:
   caretaker:
   - cos-ch08-002
   - poa-ch07-005
-  carriages:
-  - gof-ch11-006
   castle:
   - cos-ch01-001
   - cos-ch09-003
   - ps-ch06-007
   castle-approach:
   - cos-ch05-002
-  - gof-ch11-006
   castle-grounds:
   - poa-ch17-001
   - poa-ch20-001
@@ -6529,7 +6529,6 @@ by_tag:
   - poa-ch15-004
   - ps-ch14-005
   charms:
-  - gof-ch11-005
   - poa-ch04-003
   - poa-ch15-003
   - poa-ch16-003
@@ -6597,8 +6596,6 @@ by_tag:
   - poa-ch13-007
   concealed-doors:
   - cos-ch12-005
-  concealed-hogwarts:
-  - gof-ch11-001
   concealed-route:
   - poa-ch20-001
   confidentiality:
@@ -6607,6 +6604,7 @@ by_tag:
   - poa-ch14-007
   cornelius-fudge:
   - cos-ch14-005
+  - gof-ch11-003
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -6630,7 +6628,6 @@ by_tag:
   - cos-ch04-006
   - cos-ch06-006
   - gof-ch10-006
-  - gof-ch11-005
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch07-003
@@ -6728,6 +6725,8 @@ by_tag:
   - gof-ch09-006
   - gof-ch09-007
   - gof-ch10-003
+  dark-wizards:
+  - gof-ch11-001
   davey-gudgeon:
   - poa-ch10-002
   death-eaters:
@@ -6746,6 +6745,7 @@ by_tag:
   - cos-ch07-004
   - cos-ch11-003
   - cos-ch18-007
+  - gof-ch11-001
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -6897,7 +6897,7 @@ by_tag:
   - cos-ch18-001
   - cos-ch18-005
   - gof-ch02-005
-  - gof-ch11-003
+  - gof-ch11-001
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -7123,7 +7123,6 @@ by_tag:
   - poa-ch10-006
   - ps-ch04-005
   first-year-arrival:
-  - gof-ch11-006
   - poa-ch05-005
   - ps-ch06-007
   - ps-ch07-002
@@ -7138,6 +7137,7 @@ by_tag:
   first-year-spellwork:
   - ps-ch10-001
   first-years:
+  - gof-ch11-006
   - ps-ch06-006
   flame-freezing-charm:
   - poa-ch01-001
@@ -7214,7 +7214,6 @@ by_tag:
   fourth-year:
   - gof-ch10-006
   - gof-ch10-007
-  - gof-ch11-005
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
@@ -7264,7 +7263,6 @@ by_tag:
   - ps-ch10-004
   goblet-of-fire:
   - gof-ch07-007
-  - gof-ch11-003
   goblin-liaison:
   - gof-ch07-004
   goblin-rebellion:
@@ -7558,7 +7556,6 @@ by_tag:
   hermione-source:
   - cos-ch09-001
   - cos-ch16-003
-  - gof-ch11-001
   - poa-ch09-001
   - ps-ch07-001
   hidden-agent:
@@ -7635,7 +7632,7 @@ by_tag:
   - gof-ch11-003
   hogwarts-a-history:
   - cos-ch09-001
-  - gof-ch11-001
+  - gof-ch11-005
   - poa-ch09-001
   hogwarts-alumni:
   - poa-ch10-006
@@ -7672,6 +7669,8 @@ by_tag:
   - poa-ch17-004
   - poa-ch18-006
   - poa-ch19-007
+  hogwarts-hidden:
+  - gof-ch11-005
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -7739,6 +7738,8 @@ by_tag:
   - poa-ch10-004
   - poa-ch13-006
   - poa-ch14-004
+  horseless-carriages:
+  - gof-ch11-006
   hospital-wing:
   - cos-ch10-005
   - cos-ch11-006
@@ -8033,6 +8034,7 @@ by_tag:
   - gof-ch07-001
   - gof-ch07-005
   - gof-ch07-007
+  - gof-ch11-003
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -8043,6 +8045,8 @@ by_tag:
   - poa-ch19-001
   macnair:
   - poa-ch16-002
+  mad-eye-moody:
+  - gof-ch11-001
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -8073,6 +8077,7 @@ by_tag:
   magical-architecture:
   - cos-ch11-007
   - cos-ch17-001
+  - gof-ch11-005
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -8137,8 +8142,6 @@ by_tag:
   - ps-ch16-002
   magical-safety:
   - poa-ch21-003
-  magical-schools:
-  - gof-ch11-001
   magical-secrecy:
   - gof-ch08-001
   magical-security:
@@ -8272,6 +8275,7 @@ by_tag:
   - gof-ch09-001
   - gof-ch10-001
   - gof-ch10-003
+  - gof-ch11-001
   - gof-ch11-003
   - poa-ch05-006
   - poa-ch07-002
@@ -8356,9 +8360,10 @@ by_tag:
   - gof-ch03-002
   muggle-records:
   - gof-ch01-001
+  muggle-repelling:
+  - gof-ch11-005
   muggle-repelling-charms:
   - gof-ch08-001
-  - gof-ch11-001
   muggle-school:
   - ps-ch02-002
   muggle-secrecy:
@@ -8373,8 +8378,8 @@ by_tag:
   - gof-ch07-001
   - gof-ch09-001
   - gof-ch10-001
-  - gof-ch11-001
   - gof-ch11-002
+  - gof-ch11-005
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -8954,8 +8959,6 @@ by_tag:
   - ps-ch15-006
   rule-breaking:
   - poa-ch18-005
-  rule-change:
-  - gof-ch11-003
   rule-enforcement:
   - poa-ch14-006
   - ps-ch12-005
@@ -9052,14 +9055,17 @@ by_tag:
   - ps-ch09-001
   school-property:
   - cos-ch05-003
-  school-rivalry:
-  - gof-ch11-004
+  school-protections:
+  - gof-ch11-005
   school-rules:
+  - gof-ch11-003
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
   school-searches:
   - cos-ch09-006
+  school-secrecy:
+  - gof-ch11-004
   school-security:
   - cos-ch02-002
   school-supplies:
@@ -9277,8 +9283,6 @@ by_tag:
   - gof-ch02-002
   - gof-ch04-001
   - poa-ch01-002
-  spellwork:
-  - gof-ch11-005
   spiral-staircase:
   - ps-ch14-006
   splinching:
@@ -9343,7 +9347,6 @@ by_tag:
   - gof-ch03-002
   standard-book-of-spells:
   - gof-ch10-006
-  - gof-ch11-005
   stands:
   - ps-ch11-004
   - ps-ch13-005
@@ -9421,6 +9424,7 @@ by_tag:
   - poa-ch15-002
   - poa-ch16-006
   student-pets:
+  - gof-ch11-002
   - poa-ch04-005
   - poa-ch05-001
   - poa-ch19-005
@@ -9497,7 +9501,6 @@ by_tag:
   - cos-ch13-007
   summoning-charm:
   - gof-ch06-003
-  - gof-ch11-005
   supervised-training:
   - poa-ch09-006
   supply-district:
@@ -9678,7 +9681,7 @@ by_tag:
   unpaid-labor:
   - gof-ch08-002
   unplottable:
-  - gof-ch11-001
+  - gof-ch11-005
   unregistered-magic:
   - poa-ch18-001
   unspeakables:

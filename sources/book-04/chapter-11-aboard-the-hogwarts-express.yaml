@@ -16,44 +16,43 @@ entries:
   chapter: Chapter Eleven - Aboard the Hogwarts Express
   chapter_start_pdf_page: 1078
   chapter_end_pdf_page: 1088
-  pdf_page: 1085
+  pdf_page: 1081
   printed_page: not available
-  extracted_text_lines: PDF page 1084, lines 222-231; PDF page 1085, lines 234-257 in .tmp/current-chapter.txt
+  extracted_text_lines: PDF page 1080, lines 62-66; PDF page 1081, lines 91-110 in .tmp/current-chapter.txt
   text_anchor:
-    start_phrase: Durmstrang's another Wizarding school
-    end_phrase: impossible to plot on a map
-    local_occurrence_note: "Hermione compares hidden wizarding schools and explicitly names Hogwarts: A History as the source everyone should know for Hogwarts being hidden."
-  nearby_context: After Malfoy says Durmstrang teaches the Dark Arts more directly, Hermione explains school rivalry, concealed school locations, Hogwarts's own concealment from Muggles, Muggle-repelling charms, and Unplottable buildings.
+    start_phrase: Mad-Eye's supposed to be starting his new job today
+    end_phrase: Sees Dark wizards everywhere
+    local_occurrence_note: Amos Diggory says Moody is due to start a new job; Bill and Charlie explain Moody's Auror background and connection to Dumbledore.
+  nearby_context: A Ministry alert over Moody's exploding dustbins delays Arthur Weasley, while Bill and Charlie identify Moody as a retired Auror, a friend of Dumbledore, and a major Dark wizard catcher.
   match_terms:
-  - "Hogwarts: A History"
-  - Durmstrang
-  - Beauxbatons
-  - hidden
-  - Muggle-repelling charms
-  - Unplottable
-  quote_excerpt_short: "everyone who's read Hogwarts: A History"
-  source_note: "Hermione explicitly cites Hogwarts: A History while explaining that Hogwarts is hidden from Muggle view and then discusses related concealment methods for magical schools."
-  reference_type: explicit_hogwarts_a_history
-  era_classification: original_book_core_candidate
+  - Mad-Eye Moody
+  - Auror
+  - Dumbledore
+  - Dark wizard catcher
+  - new job
+  - Ministry
+  quote_excerpt_short: "He was an Auror"
+  source_note: The chapter supplies pre-arrival context for Moody's Hogwarts appointment by identifying him as a retired Auror with a major anti-Dark-wizard record and Dumbledore connection.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
   topic_tags:
-  - hogwarts-a-history
-  - concealed-hogwarts
-  - muggle-secrecy
-  - magical-schools
-  - muggle-repelling-charms
-  - unplottable
-  - hermione-source
-  candidate_part: Protective Magic and Security
-  candidate_chapter: Castle-Wide Protective Enchantments
-  candidate_section: Concealment from Muggles and Map Protections
-  reason_for_placement: The passage is an explicit in-universe source citation for Hogwarts concealment and belongs in the core treatment of protective enchantments.
-  relevance_to_hogwarts_a_history: This is direct evidence that the in-universe book covers how Hogwarts is hidden, including the Muggle-facing appearance of the castle or grounds.
+  - mad-eye-moody
+  - aurors
+  - defense-against-the-dark-arts
+  - dumbledore
+  - ministry-of-magic
+  - dark-wizards
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Staffing and Ministry Links
+  candidate_section: Alastor Moody's Auror Record Before Hogwarts
+  reason_for_placement: The passage precedes Moody's formal school introduction but explains why Dumbledore might draw on an experienced Auror during the Triwizard year.
+  relevance_to_hogwarts_a_history: This can support later editorial notes on exceptional Defense Against the Dark Arts staffing choices and their relationship to Ministry security history.
   duplicate_check:
-    possible_duplicate: true
-    duplicate_of: poa-ch09-001
-    notes: "Book 3 Chapter Nine already records an explicit Hogwarts: A History citation for castle-wide protective enchantments; this entry adds the specific Muggle-concealment and possible Unplottable context."
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search found no prior source entry for Moody's Auror background or the pre-term incident around his new job.
   confidence: high
-  limitations: "Hermione's Unplottable explanation is linked to Durmstrang and hidden schools generally, so only the Hogwarts concealment claim is directly attributed to Hogwarts: A History."
+  limitations: The chapter does not yet name Moody's Hogwarts post or identify the later impersonation plot.
 - id: gof-ch11-002
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Goblet of Fire
@@ -62,21 +61,21 @@ entries:
   chapter_end_pdf_page: 1088
   pdf_page: 1082
   printed_page: not available
-  extracted_text_lines: PDF page 1082, lines 132-153 in .tmp/current-chapter.txt
+  extracted_text_lines: PDF page 1082, lines 138-153 in .tmp/current-chapter.txt
   text_anchor:
-    start_phrase: Harry was used to getting onto platform nine and three-quarters
+    start_phrase: getting onto platform nine and three-quarters
     end_phrase: stowing their luggage in a compartment
-    local_occurrence_note: The trio cross the barrier discreetly in a group and find the scarlet train already waiting among students and parents.
-  nearby_context: The travelers carry trunks into King's Cross, pass through the barrier between platforms nine and ten without attracting Muggle attention, and board the Hogwarts Express with pets and luggage.
+    local_occurrence_note: Harry, Ron, and Hermione cross the hidden King's Cross barrier in a group and board the Hogwarts Express with pets and luggage.
+  nearby_context: The students arrive by Muggle taxis, discreetly pass through the barrier between platforms nine and ten, find the scarlet Hogwarts Express waiting, and load luggage into a train compartment.
   match_terms:
   - platform nine and three-quarters
-  - platforms nine and ten
+  - apparently solid barrier
   - Muggle attention
   - Hogwarts Express
-  - scarlet steam engine
   - luggage
+  - student pets
   quote_excerpt_short: "avoid attracting Muggle attention"
-  source_note: The chapter corroborates the hidden platform route, group crossing practice, Muggle-secrecy concern, and start-of-term boarding of the Hogwarts Express.
+  source_note: The chapter corroborates the hidden King's Cross barrier route, the need for discreet group crossings, and the standard student boarding of the Hogwarts Express with trunks and pets.
   reference_type: institutional_custom
   era_classification: harry_era_confirmation
   topic_tags:
@@ -85,18 +84,19 @@ entries:
   - kings-cross
   - muggle-secrecy
   - school-travel
+  - student-pets
   - luggage
-  candidate_part: Ceremonies and School Traditions
+  candidate_part: Original Book Core
   candidate_chapter: The Hogwarts Express and School Travel
-  candidate_section: Platform Nine and Three-Quarters
-  reason_for_placement: The passage gives another observed start-of-term use of the concealed King's Cross platform and the school train.
-  relevance_to_hogwarts_a_history: This strengthens travel-history coverage of the ordinary student route to Hogwarts and the secrecy discipline required in a Muggle railway station.
+  candidate_section: Hidden Platform Access and Boarding Customs
+  reason_for_placement: The scene adds another observed start-of-term departure sequence with secrecy, group-crossing, luggage, pets, and family sendoff details.
+  relevance_to_hogwarts_a_history: This strengthens travel-history coverage by showing the platform entrance as a recurring, operationally discreet school custom.
   duplicate_check:
     possible_duplicate: true
-    duplicate_of: poa-ch05-001
-    notes: Book 3 Chapter Five corroborates barrier crossing, platform crowding, pets, luggage, and the scarlet Hogwarts Express; this entry adds a clearer statement of avoiding Muggle attention.
+    duplicate_of: cos-ch05-001
+    notes: Book 2 Chapter Five already corroborates platform nine and three-quarters barrier access and Muggle-secrecy constraints; this entry adds Book 4 group crossing, pets, and train boarding context.
   confidence: high
-  limitations: The passage does not explain who maintains the barrier, how it is keyed to magical travelers, or when the Express route became standard.
+  limitations: The passage does not explain the barrier's enchantment, origin, maintenance, or failure conditions.
 - id: gof-ch11-003
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Goblet of Fire
@@ -105,43 +105,43 @@ entries:
   chapter_end_pdf_page: 1088
   pdf_page: 1083
   printed_page: not available
-  extracted_text_lines: PDF page 1083, lines 154-192; PDF page 1084, lines 201-203; PDF page 1087, lines 321-345 in .tmp/current-chapter.txt
+  extracted_text_lines: PDF page 1083, lines 160-192; PDF page 1084, lines 197-203; PDF page 1087, lines 321-345 in .tmp/current-chapter.txt
   text_anchor:
-    start_phrase: it's classified information
-    end_phrase: they probably don't talk about important stuff
-    local_occurrence_note: Charlie, Bill, Mrs. Weasley, Ron, and Malfoy all hint at the same still-unnamed Hogwarts event and changed rules.
-  nearby_context: Older Weasleys know Ministry-classified information about an interesting year at Hogwarts; Mrs. Weasley says Dumbledore will explain the changed rules, and Malfoy later taunts Ron about entering and winning money.
+    start_phrase: classified information, until such time as the Ministry sees fit to release it
+    end_phrase: Father told me about it ages ago
+    local_occurrence_note: Charlie, Bill, Mrs. Weasley, Ron, and Malfoy all hint at a classified Hogwarts event with changed rules, entry, and prize money before Dumbledore's announcement.
+  nearby_context: Adults connected to the Ministry know a classified event is coming at Hogwarts; Mrs. Weasley says rules have changed, Ron remembers Bagman's hint, and Malfoy taunts Ron about entering and prize money.
   match_terms:
   - classified information
   - Hogwarts
   - changed the rules
-  - Professor Dumbledore
+  - Bagman
   - enter
-  - money involved
+  - prize money
   - Cornelius Fudge
-  quote_excerpt_short: "they've changed the rules"
-  source_note: The chapter intensifies the pre-announcement evidence for a Ministry-linked Hogwarts event with rule changes, entry, prize money, and information circulating through officials' families.
+  quote_excerpt_short: "What rules are they changing?"
+  source_note: The chapter gives layered pre-announcement evidence for the Triwizard Tournament by linking a classified Ministry/Hogwarts event to changed rules, student entry, and prize money.
   reference_type: cross_reference_candidate
   era_classification: later_editorial_note
   topic_tags:
   - triwizard-tournament
   - classified-information
-  - rule-change
-  - hogwarts
   - ministry-of-magic
-  - dumbledore
-  - goblet-of-fire
+  - hogwarts
+  - school-rules
+  - ludo-bagman
+  - cornelius-fudge
   candidate_part: Later Editorial Notes
   candidate_chapter: The Triwizard Year and Institutional Security
-  candidate_section: Classified Event Hints Before the Announcement
-  reason_for_placement: The event remains unnamed in this chapter, but the institutional clues directly concern Hogwarts, Dumbledore, Ministry secrecy, eligibility rules, and competition entry.
-  relevance_to_hogwarts_a_history: This can anchor later editorial coverage of how the Triwizard Tournament returned to Hogwarts before students were formally briefed.
+  candidate_section: Classified Rules, Entry, and Prize Foreshadowing
+  reason_for_placement: The passage still withholds the tournament name but expands the classified event seed with rules, entry, and Ministry-information leakage through Fudge.
+  relevance_to_hogwarts_a_history: This can support later editorial treatment of how the Triwizard year altered normal Hogwarts operations before students were officially briefed.
   duplicate_check:
     possible_duplicate: true
     duplicate_of: gof-ch07-007
-    notes: Book 4 Chapter Seven already records a signed, classified event at Hogwarts; this entry corroborates that thread and adds changed rules, entry, prize money, and Dumbledore's pending announcement.
+    notes: Book 4 Chapter Seven records a signed, classified Hogwarts event; this entry corroborates that seed and adds changed rules, entry eligibility, prize money, and Fudge-linked leakage.
   confidence: high
-  limitations: The chapter still does not name the event as the Triwizard Tournament or state the new age restriction.
+  limitations: The chapter still does not name the Triwizard Tournament or state the full rules.
 - id: gof-ch11-004
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Goblet of Fire
@@ -152,83 +152,86 @@ entries:
   printed_page: not available
   extracted_text_lines: PDF page 1084, lines 207-231; PDF page 1085, lines 234-261 in .tmp/current-chapter.txt
   text_anchor:
-    start_phrase: Father actually considered sending me to Durmstrang
+    start_phrase: sending me to Durmstrang rather than Hogwarts
     end_phrase: fur capes as part of their uniforms
-    local_occurrence_note: Malfoy contrasts Hogwarts with Durmstrang, and Hermione uses a named source and school-rivalry explanation to frame Durmstrang and Beauxbatons.
-  nearby_context: Malfoy claims Durmstrang does not admit Muggle-born students and teaches the Dark Arts; Hermione cites An Appraisal of Magical Education in Europe and explains that rival schools hide their locations.
+    local_occurrence_note: Malfoy and Hermione compare Durmstrang with Hogwarts, cite European magical education, school secrecy, Dark Arts emphasis, and Durmstrang uniform/climate clues.
+  nearby_context: Malfoy says his father considered Durmstrang because it rejects Muggle-borns and teaches the Dark Arts; Hermione cites An Appraisal of Magical Education in Europe and explains school rivalry and concealed locations.
   match_terms:
   - Durmstrang
   - Hogwarts
   - Dark Arts
   - An Appraisal of Magical Education in Europe
+  - magical schools
   - Beauxbatons
-  - magic schools
+  - concealed whereabouts
   quote_excerpt_short: "An Appraisal of Magical Education in Europe"
-  source_note: The chapter names a source on European magical education and gives comparative evidence about Durmstrang, Beauxbatons, Hogwarts, rivalry, location secrecy, and Dark Arts reputation.
+  source_note: The chapter extends the European magical-school context by contrasting Durmstrang with Hogwarts and Beauxbatons through curriculum, admissions prejudice, secrecy, and Hermione's named source.
   reference_type: explicit_in_universe_source
   era_classification: later_editorial_note
   topic_tags:
-  - magical-education
-  - wizarding-schools
   - durmstrang
   - beauxbatons
-  - dark-arts
+  - magical-education
   - in-universe-source
-  - school-rivalry
+  - dark-arts
+  - wizarding-schools
+  - school-secrecy
   candidate_part: Later Editorial Notes
   candidate_chapter: Wizarding Schools Beyond Britain
-  candidate_section: European Magical Education and School Secrecy
-  reason_for_placement: The evidence contextualizes Hogwarts within a wider European school network and identifies a named comparative-education source.
-  relevance_to_hogwarts_a_history: This can support later editorial notes that distinguish Hogwarts history from international magical education and cross-reference rival schools' concealment practices.
+  candidate_section: Durmstrang, School Rivalry, and Dark Arts Curriculum
+  reason_for_placement: The passage situates Hogwarts in comparison with other European schools and gives a named source plus details unavailable in the earlier Beauxbatons seed.
+  relevance_to_hogwarts_a_history: This can support later framing of Hogwarts's curriculum and openness by comparison with rival institutions during the Triwizard year.
   duplicate_check:
     possible_duplicate: true
-    duplicate_of: gof-ch07-003
-    notes: Book 4 Chapter Seven already records other wizarding schools and exchange awareness; this entry adds Durmstrang, Beauxbatons, a named European-education book, and school-location secrecy.
+    duplicate_of: gof-ch09-002
+    notes: Book 4 Chapter Nine introduces Beauxbatons and An Appraisal of Magical Education in Europe; this entry corroborates that source and adds Durmstrang curriculum, secrecy, and rivalry details.
   confidence: high
-  limitations: Several claims about Durmstrang come from Malfoy or inference and should be kept separate from Hermione's named-source evidence.
+  limitations: Malfoy's claims about Durmstrang admissions and curriculum are biased secondhand claims, though Hermione independently confirms its reputation and source title.
 - id: gof-ch11-005
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Goblet of Fire
   chapter: Chapter Eleven - Aboard the Hogwarts Express
   chapter_start_pdf_page: 1078
   chapter_end_pdf_page: 1088
-  pdf_page: 1086
+  pdf_page: 1085
   printed_page: not available
-  extracted_text_lines: PDF page 1086, lines 271-283; PDF page 1087, lines 330-332 in .tmp/current-chapter.txt
+  extracted_text_lines: PDF page 1085, lines 238-257 in .tmp/current-chapter.txt
   text_anchor:
-    start_phrase: The Standard Book of Spells, Grade 4
-    end_phrase: The Standard Book of Spells, Grade 4
-    local_occurrence_note: Hermione studies the fourth-year spellbook on the train, first trying to learn a Summoning Charm and later reading from the same text during Malfoy's taunts.
-  nearby_context: On the journey to Hogwarts, Hermione resumes independent study from The Standard Book of Spells, Grade 4 while other students discuss Quidditch.
+    start_phrase: But Hogwarts is hidden
+    end_phrase: impossible to plot on a map
+    local_occurrence_note: "Hermione cites Hogwarts: A History for Hogwarts being hidden, then explains what Muggles see and compares concealment methods with Muggle-repelling charms and Unplottability."
+  nearby_context: "In a discussion of how large wizarding schools can be concealed, Hermione says Hogwarts is hidden according to Hogwarts: A History and describes the Muggle-facing ruin illusion."
   match_terms:
-  - The Standard Book of Spells, Grade 4
-  - Summoning Charm
-  - Hermione
-  - fourth-year
-  - spellbook
-  - independent study
-  quote_excerpt_short: "learn a Summoning Charm"
-  source_note: The chapter corroborates fourth-year Charms or spellwork progression by showing Hermione studying The Standard Book of Spells, Grade 4 and attempting a Summoning Charm before term begins.
-  reference_type: curriculum_or_subject
-  era_classification: harry_era_confirmation
+  - "Hogwarts: A History"
+  - Hogwarts is hidden
+  - Muggle
+  - moldering old ruin
+  - DANGER DO NOT ENTER UNSAFE
+  - Muggle-repelling charms
+  - Unplottable
+  quote_excerpt_short: "Hogwarts: A History"
+  source_note: "The chapter explicitly cites Hogwarts: A History as Hermione's source for Hogwarts being hidden from outsiders and gives the Muggle-facing ruin illusion as the visible effect."
+  reference_type: explicit_hogwarts_a_history
+  era_classification: original_book_core_candidate
   topic_tags:
-  - fourth-year
-  - standard-book-of-spells
-  - summoning-charm
-  - charms
-  - spellwork
-  - course-books
-  candidate_part: Academic Life and Curriculum
-  candidate_chapter: Course Materials and Annual Booklists
-  candidate_section: Fourth-Year Spellwork and Summoning Charms
-  reason_for_placement: The passage connects a named fourth-year spellbook with a specific spell Hermione practices during the school journey.
-  relevance_to_hogwarts_a_history: This can support curriculum notes on fourth-year spellwork and the recurring Standard Book of Spells sequence.
+  - hogwarts-a-history
+  - hogwarts-hidden
+  - muggle-secrecy
+  - magical-architecture
+  - muggle-repelling
+  - unplottable
+  - school-protections
+  candidate_part: Original Book Core
+  candidate_chapter: The Castle and Its Concealments
+  candidate_section: Hogwarts Hidden from Muggles
+  reason_for_placement: This is a direct citation to the target in-universe book and supplies concrete protective architecture/secrecy content likely suitable for the original Hogwarts-centered text.
+  relevance_to_hogwarts_a_history: "This is explicit canon evidence that Hogwarts: A History includes school-concealment information and can anchor a castle protection section."
   duplicate_check:
-    possible_duplicate: true
-    duplicate_of: gof-ch10-006
-    notes: Book 4 Chapter Ten records the fourth-year spellbook as a pre-term material; this entry corroborates it with actual student study of the Summoning Charm.
+    possible_duplicate: false
+    duplicate_of: null
+    notes: "Compact duplicate search returned broad secrecy entries but no prior explicit Hogwarts: A History seed for Hogwarts's Muggle-facing concealment."
   confidence: high
-  limitations: The scene does not state the teacher's lesson plan or confirm exactly when the Summoning Charm is formally taught.
+  limitations: The passage gives Hermione's summary rather than a verbatim excerpt from the book, and Unplottability is discussed as a general building enchantment rather than explicitly confirmed for Hogwarts.
 - id: gof-ch11-006
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Goblet of Fire
@@ -239,38 +242,38 @@ entries:
   printed_page: not available
   extracted_text_lines: PDF page 1088, lines 367-389 in .tmp/current-chapter.txt
   text_anchor:
-    start_phrase: they changed into their school robes
-    end_phrase: rumbling and splashing its way up the track toward Hogwarts Castle
-    local_occurrence_note: The train reaches Hogsmeade in darkness and rain; first-years are routed to Hagrid and the lake while older students board carriages.
-  nearby_context: Students change into robes before arrival, Hagrid calls to first-years at the end of the platform, and older students leave Hogsmeade station in horseless carriages toward the castle.
+    start_phrase: stopped in the pitch-darkness of Hogsmeade station
+    end_phrase: toward Hogwarts Castle
+    local_occurrence_note: Students disembark at Hogsmeade; Hagrid waits for first-years, while older students use horseless carriages to reach the castle.
+  nearby_context: After changing into school robes before arrival, the train stops at Hogsmeade; Hagrid calls from the platform, first-years traditionally cross the lake with him, and other students take horseless carriages to the castle.
   match_terms:
-  - school robes
   - Hogsmeade station
-  - First years
+  - school robes
   - Hagrid
+  - first years
   - lake
   - horseless carriages
   - Hogwarts Castle
   quote_excerpt_short: "First years traditionally reached Hogwarts Castle"
-  source_note: "The chapter corroborates the split arrival procedure: first-years take the traditional lake route with Hagrid while returning students ride carriages from Hogsmeade station."
+  source_note: The chapter corroborates arrival customs by contrasting the traditional first-year lake crossing with the older-student carriage route from Hogsmeade station.
   reference_type: institutional_custom
   era_classification: harry_era_confirmation
   topic_tags:
-  - first-year-arrival
+  - arrival-logistics
+  - first-years
   - lake
   - hagrid
+  - horseless-carriages
   - hogsmeade-station
-  - carriages
-  - castle-approach
   - school-travel
-  candidate_part: Ceremonies and School Traditions
-  candidate_chapter: The Hogwarts Express and School Travel
-  candidate_section: First-Year Lake Crossing and Upper-Year Carriages
-  reason_for_placement: The passage explicitly identifies the lake crossing as traditional for first-years and contrasts it with the carriage route for older students.
-  relevance_to_hogwarts_a_history: This strengthens a future arrival-customs section covering the transition from Hogsmeade station to Hogwarts Castle by year group.
+  candidate_part: Original Book Core
+  candidate_chapter: Arrival at Hogwarts
+  candidate_section: First-Year Lake Crossing and Carriage Route
+  reason_for_placement: The passage directly names the lake crossing as a first-year tradition while showing the standard carriage route for returning students.
+  relevance_to_hogwarts_a_history: This can support coverage of arrival rituals, station-to-castle logistics, and how student movement differs by year.
   duplicate_check:
     possible_duplicate: true
-    duplicate_of: poa-ch05-005
-    notes: Book 3 Chapter Five already corroborates first-years being sent to the lake and older students taking stagecoaches through the gates; this entry adds the explicit wording that the lake route is traditional.
+    duplicate_of: ps-ch06-007
+    notes: Book 1 Chapter Six gives the detailed first-year lake crossing; this entry corroborates it as a tradition and adds the returning-student horseless carriage route in the same arrival sequence.
   confidence: high
-  limitations: The passage does not explain when the tradition began, why first-years use the lake, or what pulls the carriages.
+  limitations: The chapter does not explain why first-years use boats, who established the tradition, or the nature of the horseless carriages.
