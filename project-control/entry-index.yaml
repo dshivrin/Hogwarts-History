@@ -6279,6 +6279,117 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch12
     output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch13-001:
+    title: 'Course Structure and Academic Progression: Fourth-Year Schedules, Electives,
+      and Morning Owl Post'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - arithmancy
+    - course-schedules
+    - cross-house-classes
+    - divination
+    - fourth-year-curriculum
+    - great-hall
+    - owl-post
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  gof-ch13-002:
+    title: 'Herbology and Magical Plant Safety: Bubotuber Pus Collection and Medical
+      Use'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - bubotubers
+    - greenhouse-three
+    - herbology
+    - madam-pomfrey
+    - magical-plants
+    - magical-remedies
+    - safety-equipment
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  gof-ch13-003:
+    title: 'Care of Magical Creatures: Skrewt Rearing, Experimental Feeding, and Safety
+      Risks'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - blast-ended-skrewts
+    - care-of-magical-creatures
+    - cross-house-classes
+    - forbidden-forest-edge
+    - hagrid
+    - hazardous-creatures
+    - student-safety
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  gof-ch13-004:
+    title: 'Course Structure and Academic Progression: Fourth-Year Divination and
+      Arithmancy Contrast'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - arithmancy
+    - astrology
+    - divination
+    - homework
+    - north-tower
+    - professor-trelawney
+    - professor-vector
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  gof-ch13-005:
+    title: 'Wizarding Press and Public Records: Daily Prophet Coverage of Moody Before
+      His Hogwarts Term'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - daily-prophet
+    - mad-eye-moody
+    - memory-modification
+    - ministry-of-magic
+    - misuse-of-muggle-artifacts
+    - muggle-secrecy
+    - rita-skeeter
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  gof-ch13-006:
+    title: 'Student Discipline and Expulsion: Prohibited Punishments, Detentions,
+      and Head-of-House Referral'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - detention
+    - heads-of-house
+    - mad-eye-moody
+    - professor-mcgonagall
+    - school-discipline
+    - student-safety
+    - transfiguration-punishment
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  gof-ch13-007:
+    title: 'Defense Against the Dark Arts Staffing and Ministry Links: Moody''s Experience-Based
+      Teaching Reputation'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - auror-experience
+    - dark-arts
+    - defense-against-the-dark-arts
+    - mad-eye-moody
+    - practical-lessons
+    - student-reaction
+    source_unit: gof-ch13
+    output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6381,6 +6492,8 @@ by_tag:
   - cos-ch15-005
   - cos-ch15-006
   arithmancy:
+  - gof-ch13-001
+  - gof-ch13-004
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -6394,12 +6507,16 @@ by_tag:
   - ps-ch06-006
   assessment:
   - cos-ch16-001
+  astrology:
+  - gof-ch13-004
   astronomy:
   - poa-ch16-003
   - ps-ch08-004
   astronomy-tower:
   - poa-ch09-004
   - ps-ch15-001
+  auror-experience:
+  - gof-ch13-007
   aurors:
   - gof-ch11-001
   azkaban:
@@ -6452,6 +6569,8 @@ by_tag:
   - gof-ch07-005
   black-flames:
   - ps-ch16-007
+  blast-ended-skrewts:
+  - gof-ch13-003
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -6514,6 +6633,8 @@ by_tag:
   - ps-ch09-002
   - ps-ch11-001
   - ps-ch16-006
+  bubotubers:
+  - gof-ch13-002
   buckbeak:
   - gof-ch02-006
   - poa-ch06-006
@@ -6529,6 +6650,7 @@ by_tag:
   care-of-magical-creatures:
   - cos-ch08-003
   - cos-ch14-002
+  - gof-ch13-003
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -6755,6 +6877,7 @@ by_tag:
   - poa-ch21-002
   course-schedules:
   - cos-ch06-002
+  - gof-ch13-001
   - poa-ch06-001
   course-selection:
   - cos-ch14-002
@@ -6796,6 +6919,8 @@ by_tag:
   crookshanks:
   - poa-ch19-005
   cross-house-classes:
+  - gof-ch13-001
+  - gof-ch13-003
   - poa-ch06-005
   - poa-ch07-001
   crystal-gazing:
@@ -6821,6 +6946,7 @@ by_tag:
   daily-prophet:
   - cos-ch12-006
   - gof-ch10-003
+  - gof-ch13-005
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -6835,6 +6961,7 @@ by_tag:
   dark-arts:
   - cos-ch18-001
   - gof-ch11-004
+  - gof-ch13-007
   dark-magic:
   - cos-ch09-006
   - ps-ch11-006
@@ -6866,6 +6993,7 @@ by_tag:
   - cos-ch18-007
   - gof-ch11-001
   - gof-ch12-006
+  - gof-ch13-007
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -6934,6 +7062,7 @@ by_tag:
   detention:
   - cos-ch05-005
   - cos-ch07-006
+  - gof-ch13-006
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -6965,6 +7094,8 @@ by_tag:
   - ps-ch14-001
   divination:
   - gof-ch10-005
+  - gof-ch13-001
+  - gof-ch13-004
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -7313,6 +7444,8 @@ by_tag:
   - ps-ch15-004
   - ps-ch15-005
   - ps-ch15-006
+  forbidden-forest-edge:
+  - gof-ch13-003
   forbidden-objects:
   - gof-ch12-005
   foreign-schools:
@@ -7346,6 +7479,8 @@ by_tag:
   fourth-year:
   - gof-ch10-006
   - gof-ch10-007
+  fourth-year-curriculum:
+  - gof-ch13-001
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
@@ -7418,6 +7553,7 @@ by_tag:
   - cos-ch13-003
   - gof-ch12-001
   - gof-ch12-003
+  - gof-ch13-001
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -7438,6 +7574,7 @@ by_tag:
   greenhouse-three:
   - cos-ch06-002
   - cos-ch14-001
+  - gof-ch13-002
   greenhouses:
   - cos-ch05-002
   - cos-ch06-002
@@ -7530,6 +7667,7 @@ by_tag:
   - cos-ch15-005
   - cos-ch15-006
   - gof-ch11-006
+  - gof-ch13-003
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -7600,6 +7738,8 @@ by_tag:
   haunted-reputation:
   - poa-ch17-002
   - poa-ch18-004
+  hazardous-creatures:
+  - gof-ch13-003
   head-boy:
   - cos-ch04-003
   - cos-ch13-002
@@ -7655,6 +7795,7 @@ by_tag:
   - cos-ch05-005
   - cos-ch14-003
   - cos-ch16-005
+  - gof-ch13-006
   - ps-ch08-006
   hedwig:
   - cos-ch01-003
@@ -7668,6 +7809,7 @@ by_tag:
   - cos-ch14-001
   - cos-ch16-002
   - gof-ch10-006
+  - gof-ch13-002
   - poa-ch16-003
   - ps-ch08-004
   - ps-ch14-001
@@ -7869,6 +8011,7 @@ by_tag:
   homework:
   - cos-ch08-003
   - cos-ch13-001
+  - gof-ch13-004
   - poa-ch02-002
   - poa-ch07-007
   - poa-ch10-001
@@ -8198,6 +8341,9 @@ by_tag:
   mad-eye-moody:
   - gof-ch11-001
   - gof-ch12-006
+  - gof-ch13-005
+  - gof-ch13-006
+  - gof-ch13-007
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -8217,6 +8363,7 @@ by_tag:
   - cos-ch13-001
   - cos-ch15-001
   - cos-ch18-002
+  - gof-ch13-002
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
@@ -8282,9 +8429,11 @@ by_tag:
   - cos-ch06-005
   magical-plants:
   - cos-ch06-003
+  - gof-ch13-002
   magical-remedies:
   - cos-ch14-001
   - cos-ch16-002
+  - gof-ch13-002
   magical-reputation:
   - cos-ch02-003
   magical-residents:
@@ -8391,6 +8540,8 @@ by_tag:
   - gof-ch10-001
   memory-magic:
   - cos-ch13-004
+  memory-modification:
+  - gof-ch13-005
   minister-of-magic:
   - cos-ch04-005
   - poa-ch03-005
@@ -8432,6 +8583,7 @@ by_tag:
   - gof-ch11-001
   - gof-ch11-003
   - gof-ch12-007
+  - gof-ch13-005
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -8454,6 +8606,8 @@ by_tag:
   - ps-ch12-006
   - ps-ch17-002
   - ps-ch17-003
+  misuse-of-muggle-artifacts:
+  - gof-ch13-005
   moaning-myrtle:
   - cos-ch08-005
   - cos-ch15-007
@@ -8535,6 +8689,7 @@ by_tag:
   - gof-ch10-001
   - gof-ch11-002
   - gof-ch11-005
+  - gof-ch13-005
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -8601,6 +8756,7 @@ by_tag:
   non-human-creatures:
   - gof-ch09-005
   north-tower:
+  - gof-ch13-004
   - poa-ch06-002
   norwegian-ridgeback:
   - ps-ch14-004
@@ -8643,6 +8799,7 @@ by_tag:
   - gof-ch03-002
   - gof-ch03-004
   - gof-ch05-004
+  - gof-ch13-001
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -8837,6 +8994,7 @@ by_tag:
   - cos-ch06-003
   - cos-ch06-004
   - cos-ch06-007
+  - gof-ch13-007
   - poa-ch07-004
   - poa-ch07-007
   practice-schedule:
@@ -8905,6 +9063,7 @@ by_tag:
   professor-mcgonagall:
   - cos-ch06-004
   - cos-ch11-001
+  - gof-ch13-006
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -8940,10 +9099,12 @@ by_tag:
   - ps-ch16-005
   professor-trelawney:
   - gof-ch10-005
+  - gof-ch13-004
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
   professor-vector:
+  - gof-ch13-004
   - poa-ch12-007
   prongs:
   - poa-ch14-007
@@ -9099,6 +9260,7 @@ by_tag:
   - gof-ch09-007
   rita-skeeter:
   - gof-ch10-003
+  - gof-ch13-005
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -9122,6 +9284,7 @@ by_tag:
   - poa-ch22-003
   safety-equipment:
   - cos-ch06-003
+  - gof-ch13-002
   salamanders:
   - cos-ch08-003
   salazar-slytherin:
@@ -9155,6 +9318,7 @@ by_tag:
   - ps-ch03-001
   school-discipline:
   - gof-ch05-004
+  - gof-ch13-006
   - ps-ch10-005
   - ps-ch11-003
   school-emergency:
@@ -9601,6 +9765,8 @@ by_tag:
   student-privileges:
   - poa-ch02-001
   - poa-ch03-005
+  student-reaction:
+  - gof-ch13-007
   student-recovery:
   - cos-ch13-001
   student-recreation:
@@ -9624,6 +9790,8 @@ by_tag:
   - cos-ch14-003
   - cos-ch15-001
   - cos-ch15-004
+  - gof-ch13-003
+  - gof-ch13-006
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -9788,6 +9956,8 @@ by_tag:
   - ps-ch16-001
   transfiguration-book:
   - cos-ch18-006
+  transfiguration-punishment:
+  - gof-ch13-006
   transfigured-chessmen:
   - ps-ch16-006
   trapdoor:

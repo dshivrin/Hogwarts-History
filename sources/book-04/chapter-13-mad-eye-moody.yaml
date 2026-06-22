@@ -1,0 +1,325 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  boundary_confidence: high
+  boundary_notes: Chapter Thirteen range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Thirteen starts on PDF page 1107 and Chapter Fourteen starts on PDF page 1121, so only PDF pages 1107-1120 were extracted and searched.
+  processed_date: '2026-06-22'
+  processor_notes: "Processed only Book 4, Chapter Thirteen. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch13-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1107
+  printed_page: not available
+  extracted_text_lines: PDF page 1107, lines 5-21; PDF page 1108, lines 29-39 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: examined their new course schedules at breakfast
+    end_phrase: Was it possible that something had happened to Hedwig
+    local_occurrence_note: Fourth-year students review the first day's timetable at Great Hall breakfast while morning owl post delivers letters and parcels.
+  nearby_context: The Great Hall ceiling reflects the previous storm, students compare Herbology, Care of Magical Creatures, Divination, Potions, and Arithmancy, then the morning mail arrives by owl.
+  match_terms:
+  - Great Hall
+  - course schedules
+  - Herbology
+  - Care of Magical Creatures
+  - Divination
+  - Arithmancy
+  - morning mail
+  quote_excerpt_short: "new course schedules at breakfast"
+  source_note: The chapter confirms fourth-year course scheduling, cross-House class pairings, elective alternatives such as Arithmancy, and ordinary Great Hall morning owl post.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - great-hall
+  - course-schedules
+  - fourth-year-curriculum
+  - owl-post
+  - arithmancy
+  - divination
+  - cross-house-classes
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Fourth-Year Schedules, Electives, and Morning Owl Post
+  reason_for_placement: The passage links timetable distribution, House-paired classes, elective differences, and Great Hall daily routine at the start of the school year.
+  relevance_to_hogwarts_a_history: This supports academic-life coverage of how returning students encounter course schedules and how daily correspondence operates during meals.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch06-001
+    notes: Chamber of Secrets Chapter Six already records Great Hall breakfast and mass owl post; this entry corroborates that routine and adds fourth-year course schedules plus named elective alternatives.
+  confidence: high
+  limitations: The passage does not reproduce the full timetable or explain who prepares schedules and House pairings.
+- id: gof-ch13-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1108
+  printed_page: not available
+  extracted_text_lines: PDF page 1108, lines 42-59; PDF page 1109, lines 63-70 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: they arrived in greenhouse three
+    end_phrase: Madam Pomfrey fixed her nose back on in the end
+    local_occurrence_note: Professor Sprout teaches Bubotuber pus collection in greenhouse three and explains its medical use for stubborn acne.
+  nearby_context: Students wear dragon-hide gloves, squeeze Bubotubers into bottles, and learn that undiluted pus can affect skin while Madam Pomfrey uses it as a remedy.
+  match_terms:
+  - greenhouse three
+  - Bubotubers
+  - Professor Sprout
+  - dragon-hide gloves
+  - Madam Pomfrey
+  - acne remedy
+  - magical plants
+  quote_excerpt_short: "Wear your dragon-hide gloves"
+  source_note: The Herbology lesson gives practical plant-handling evidence for Bubotubers, required protective gloves, harvested pus, and hospital-wing medical use.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - herbology
+  - bubotubers
+  - greenhouse-three
+  - magical-plants
+  - safety-equipment
+  - madam-pomfrey
+  - magical-remedies
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Herbology and Magical Plant Safety
+  candidate_section: Bubotuber Pus Collection and Medical Use
+  reason_for_placement: The passage supplies a concrete fourth-year practical Herbology activity and connects greenhouse work to school medical care.
+  relevance_to_hogwarts_a_history: This can support curriculum history and castle operations by showing how class-harvested plant materials serve the hospital wing.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch06-003
+    notes: Chamber of Secrets Chapter Six already records practical Herbology and plant safety with Mandrakes; this entry adds fourth-year Bubotuber harvesting, dragon-hide gloves, and Madam Pomfrey's acne remedy.
+  confidence: high
+  limitations: The passage does not state whether students routinely supply the hospital wing or whether Bubotubers are grown at Hogwarts year-round.
+- id: gof-ch13-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1109
+  printed_page: not available
+  extracted_text_lines: PDF page 1109, lines 73-92; PDF page 1110, lines 95-137; PDF page 1111, lines 139-156 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: down the sloping lawn toward Hagrid's small wooden cabin
+    end_phrase: before they start attacking us all
+    local_occurrence_note: Hagrid introduces newly hatched Blast-Ended Skrewts and has Gryffindor and Slytherin students feed them despite burns, stings, and uncertainty about their use.
+  nearby_context: The lesson takes place by Hagrid's hut at the Forbidden Forest edge, with open crates of skrewts, possible male and female anatomy, experimental feeding, and at least one student burn.
+  match_terms:
+  - Care of Magical Creatures
+  - Hagrid
+  - Blast-Ended Skrewts
+  - Forbidden Forest
+  - Slytherins
+  - student injury
+  - hazardous creatures
+  quote_excerpt_short: "Blast-Ended Skrewts"
+  source_note: The Care of Magical Creatures lesson shows Hagrid using a live, dangerous, poorly understood creature-rearing project with cross-House students.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - hagrid
+  - blast-ended-skrewts
+  - hazardous-creatures
+  - cross-house-classes
+  - forbidden-forest-edge
+  - student-safety
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures
+  candidate_section: Skrewt Rearing, Experimental Feeding, and Safety Risks
+  reason_for_placement: The passage expands live-creature curriculum evidence with an experimental classroom project and visible safety concerns.
+  relevance_to_hogwarts_a_history: This gives later editorial material for how Hagrid's teaching style changed creature studies and exposed students to unusually hazardous specimens.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-006
+    notes: Prisoner of Azkaban Chapter Six already records Hagrid's supervised hippogriff handling lesson; this entry adds the later Skrewt-rearing project, uncertain feeding methods, burns, stings, and student doubts about usefulness.
+  confidence: high
+  limitations: The source does not explain the Skrewts' origin, Ministry classification, or whether the lesson plan was approved.
+- id: gof-ch13-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1112
+  printed_page: not available
+  extracted_text_lines: PDF page 1112, lines 169-199; PDF page 1113, lines 204-239; PDF page 1114, lines 241-270 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: set off for North Tower
+    end_phrase: Professor Vector didn't give us any at all
+    local_occurrence_note: Harry and Ron attend Divination in the North Tower classroom, work on planetary birth charts, and contrast the homework load with Arithmancy.
+  nearby_context: The room is reached by spiral stairs and a trapdoor ladder, retains Trelawney's curtained and perfumed classroom setup, and assigns chart analysis with timetable and angle calculations.
+  match_terms:
+  - North Tower
+  - Professor Trelawney
+  - Divination
+  - planetary movements
+  - birth chart
+  - homework
+  - Professor Vector
+  quote_excerpt_short: "the position of the planets"
+  source_note: The chapter corroborates the North Tower Divination classroom and adds fourth-year astrology work, personal birth charts, calculation-heavy homework, and comparison with Professor Vector's Arithmancy.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - north-tower
+  - professor-trelawney
+  - astrology
+  - homework
+  - arithmancy
+  - professor-vector
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Fourth-Year Divination and Arithmancy Contrast
+  reason_for_placement: The passage adds an upper-year example of Divination content and preserves a comparison point with a separate elective.
+  relevance_to_hogwarts_a_history: This helps distinguish elective subject methods, classroom environments, and homework expectations within Hogwarts academic life.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch06-003
+    notes: Prisoner of Azkaban Chapter Six records the first live Divination syllabus and North Tower classroom context; this entry corroborates the setting and adds fourth-year planetary-chart work plus Professor Vector's Arithmancy contrast.
+  confidence: high
+  limitations: Trelawney's prediction about Harry is unreliable classroom performance, so the entry treats it as pedagogy context rather than historical fact.
+- id: gof-ch13-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1115
+  printed_page: not available
+  extracted_text_lines: PDF page 1115, lines 282-321; PDF page 1116, lines 323-333 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: FURTHER MISTAKES AT THE MINISTRY OF MAGIC
+    end_phrase: potentially embarrassing scene
+    local_occurrence_note: Malfoy reads a Daily Prophet article in the entrance hall about Arthur Weasley, Moody, aggressive dustbins, Muggle police, and Memory Charm cleanup.
+  nearby_context: The article follows World Cup criticism and Bertha Jorkins's disappearance, misnames Arthur Weasley, identifies Moody as a retired ex-Auror, and reports memory modification after Muggle police involvement.
+  match_terms:
+  - Daily Prophet
+  - Rita Skeeter
+  - Ministry of Magic
+  - Misuse of Muggle Artifacts Office
+  - Mad-Eye Moody
+  - Muggle law-keepers
+  - memory modification
+  quote_excerpt_short: "forced to modify several memories"
+  source_note: The wizarding press article provides public-record context for Moody's pre-Hogwarts incident, Ministry embarrassment, Muggle secrecy cleanup, and Arthur Weasley's office.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - rita-skeeter
+  - ministry-of-magic
+  - misuse-of-muggle-artifacts
+  - mad-eye-moody
+  - memory-modification
+  - muggle-secrecy
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Press and Public Records
+  candidate_section: Daily Prophet Coverage of Moody Before His Hogwarts Term
+  reason_for_placement: The passage is a named in-universe newspaper source that frames events around the new Defense Against the Dark Arts teacher and Ministry secrecy work.
+  relevance_to_hogwarts_a_history: This is useful later editorial context for Moody's appointment year and for how public records shaped student perception of Ministry-linked staff.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch11-001
+    notes: Goblet of Fire Chapter Eleven already records Moody's Auror background before Hogwarts; this entry adds Daily Prophet public coverage, aggressive dustbins, Muggle police, and Memory Charm cleanup immediately before his school term.
+  confidence: medium
+  limitations: The article is by Rita Skeeter and may be biased or mocking; the entry uses it as public-record context rather than a fully reliable account.
+- id: gof-ch13-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1116
+  printed_page: not available
+  extracted_text_lines: PDF page 1116, lines 335-343; PDF page 1117, lines 345-374; PDF page 1118, lines 376-405 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Professor Moody was limping down the marble staircase
+    end_phrase: marched him off toward the dungeons
+    local_occurrence_note: Moody transfigures Malfoy into a ferret after Malfoy attacks Harry, and McGonagall corrects him on permitted punishment.
+  nearby_context: The incident occurs in the entrance hall near the marble staircase, is witnessed by students, and ends with McGonagall naming detentions and Head-of-House referral as proper discipline.
+  match_terms:
+  - Professor Moody
+  - Professor McGonagall
+  - Transfiguration
+  - punishment
+  - detention
+  - Head of House
+  - Snape
+  quote_excerpt_short: "never use Transfiguration as a punishment"
+  source_note: The scene states a clear Hogwarts discipline rule against Transfiguration as punishment and confirms detentions or Head-of-House referral as ordinary disciplinary channels.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-discipline
+  - transfiguration-punishment
+  - detention
+  - heads-of-house
+  - professor-mcgonagall
+  - mad-eye-moody
+  - student-safety
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: Prohibited Punishments, Detentions, and Head-of-House Referral
+  reason_for_placement: The passage gives unusually explicit rule language about what punishments Hogwarts staff may not use and what processes should replace them.
+  relevance_to_hogwarts_a_history: This is strong governance evidence for staff discipline limits, House-based responsibility, and the school's response to teacher misconduct.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch05-005
+    notes: Chamber of Secrets Chapter Five already records Head-of-House responsibility and detention after major misconduct; this entry adds an explicit ban on Transfiguration as punishment and shows McGonagall correcting a teacher.
+  confidence: high
+  limitations: The scene shows emergency correction in public and does not cite a written rulebook or formal disciplinary code.
+- id: gof-ch13-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirteen - Mad-Eye Moody
+  chapter_start_pdf_page: 1107
+  chapter_end_pdf_page: 1120
+  pdf_page: 1119
+  printed_page: not available
+  extracted_text_lines: PDF page 1119, lines 432-442; PDF page 1120, lines 445-453 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: We had him this afternoon
+    end_phrase: We haven't got him till Thursday
+    local_occurrence_note: Fred, George, and Lee report that Moody's Defense Against the Dark Arts class is unlike previous lessons because he knows active Dark Arts combat.
+  nearby_context: After dinner, students discuss Moody's first teaching day and characterize his authority as practical experience fighting the Dark Arts outside school.
+  match_terms:
+  - Moody
+  - Defense Against the Dark Arts
+  - lesson
+  - Fighting the Dark Arts
+  - seen it all
+  - Thursday
+  quote_excerpt_short: "Fighting the Dark Arts"
+  source_note: Student reports indicate Moody's early Defense Against the Dark Arts teaching is perceived as experience-based and unusually practical compared with ordinary lessons.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - mad-eye-moody
+  - practical-lessons
+  - dark-arts
+  - auror-experience
+  - student-reaction
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Staffing and Ministry Links
+  candidate_section: Moody's Experience-Based Teaching Reputation
+  reason_for_placement: The passage records immediate student reception of the new teacher's practical authority before Harry's own first lesson.
+  relevance_to_hogwarts_a_history: This helps a later editorial account compare Defense Against the Dark Arts teaching styles across successive one-year appointments.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-006
+    notes: Goblet of Fire Chapter Twelve already confirms Moody's formal Defense Against the Dark Arts appointment; this entry adds student reports that his first lesson drew on real Dark Arts combat experience.
+  confidence: medium
+  limitations: The evidence is secondhand student reaction and does not describe the lesson content in detail.

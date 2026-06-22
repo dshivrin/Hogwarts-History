@@ -228,6 +228,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch08-003; Book 2 Chapter Eight records Care of Magical Creatures via a salamander taken from class; this entry adds a full live hippogriff lesson, Hagrid's safety instructions, and student riding practice.
 **Notes:** This is one teacher's first lesson and the later injury shows that the adequacy of safety procedures is disputed.
 
+#### Section: Skrewt Rearing, Experimental Feeding, and Safety Risks
+
+**Fact:** The Care of Magical Creatures lesson shows Hagrid using a live, dangerous, poorly understood creature-rearing project with cross-House students.
+**Evidence:** "Blast-Ended Skrewts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1109, entry `gof-ch13-003`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch06-006; Prisoner of Azkaban Chapter Six already records Hagrid's supervised hippogriff handling lesson; this entry adds the later Skrewt-rearing project, uncertain feeding methods, burns, stings, and student doubts about usefulness.
+**Notes:** The source does not explain the Skrewts' origin, Ministry classification, or whether the lesson plan was approved.
+
 ### Chapter: Charms
 
 #### Section: First-Year Spellwork
@@ -353,6 +364,28 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch15-007; Book 1 Chapter Fifteen already records Hermione citing McGonagall's view that fortune-telling is imprecise; this entry gives McGonagall's direct statement in a class context and adds True Seers plus Animagi instruction.
 **Notes:** The evidence reflects McGonagall's opinion and teaching moment; it does not define a formal Hogwarts policy on Divination.
+
+#### Section: Fourth-Year Divination and Arithmancy Contrast
+
+**Fact:** The chapter corroborates the North Tower Divination classroom and adds fourth-year astrology work, personal birth charts, calculation-heavy homework, and comparison with Professor Vector's Arithmancy.
+**Evidence:** "the position of the planets"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1112, entry `gof-ch13-004`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch06-003; Prisoner of Azkaban Chapter Six records the first live Divination syllabus and North Tower classroom context; this entry corroborates the setting and adds fourth-year planetary-chart work plus Professor Vector's Arithmancy contrast.
+**Notes:** Trelawney's prediction about Harry is unreliable classroom performance, so the entry treats it as pedagogy context rather than historical fact.
+
+#### Section: Fourth-Year Schedules, Electives, and Morning Owl Post
+
+**Fact:** The chapter confirms fourth-year course scheduling, cross-House class pairings, elective alternatives such as Arithmancy, and ordinary Great Hall morning owl post.
+**Evidence:** "new course schedules at breakfast"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1107, entry `gof-ch13-001`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch06-001; Chamber of Secrets Chapter Six already records Great Hall breakfast and mass owl post; this entry corroborates that routine and adds fourth-year course schedules plus named elective alternatives.
+**Notes:** The passage does not reproduce the full timetable or explain who prepares schedules and House pairings.
 
 #### Section: Third-Year Books and Supplies
 
@@ -719,6 +752,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Notes:** The passage confirms Harry-era first-year flying instruction but does not establish when the subject began or whether the same House pairings are stable across years.
 
 ### Chapter: Herbology and Magical Plant Safety
+
+#### Section: Bubotuber Pus Collection and Medical Use
+
+**Fact:** The Herbology lesson gives practical plant-handling evidence for Bubotubers, required protective gloves, harvested pus, and hospital-wing medical use.
+**Evidence:** "Wear your dragon-hide gloves"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1108, entry `gof-ch13-002`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch06-003; Chamber of Secrets Chapter Six already records practical Herbology and plant safety with Mandrakes; this entry adds fourth-year Bubotuber harvesting, dragon-hide gloves, and Madam Pomfrey's acne remedy.
+**Notes:** The passage does not state whether students routinely supply the hospital wing or whether Bubotubers are grown at Hogwarts year-round.
 
 #### Section: Mandrake Maturity and Restorative Use
 
@@ -1663,6 +1707,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found no prior source entry for Moody's Auror background or the pre-term incident around his new job.
 **Notes:** The chapter does not yet name Moody's Hogwarts post or identify the later impersonation plot.
 
+#### Section: Moody's Experience-Based Teaching Reputation
+
+**Fact:** Student reports indicate Moody's early Defense Against the Dark Arts teaching is perceived as experience-based and unusually practical compared with ordinary lessons.
+**Evidence:** "Fighting the Dark Arts"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1119, entry `gof-ch13-007`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch12-006; Goblet of Fire Chapter Twelve already confirms Moody's formal Defense Against the Dark Arts appointment; this entry adds student reports that his first lesson drew on real Dark Arts combat experience.
+**Notes:** The evidence is secondhand student reaction and does not describe the lesson content in detail.
+
 #### Section: Moody's Formal Appointment at the Start-of-Term Feast
 
 **Fact:** The chapter confirms Alastor Moody's formal appointment as the new Defense Against the Dark Arts teacher and records the student/staff reaction to his arrival.
@@ -2226,6 +2281,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=false; No prior seed records the open magical celebrations and Muggle-noticed secrecy strain after Voldemort's fall.
 **Notes:** The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
+
+### Chapter: Wizarding Press and Public Records
+
+#### Section: Daily Prophet Coverage of Moody Before His Hogwarts Term
+
+**Fact:** The wizarding press article provides public-record context for Moody's pre-Hogwarts incident, Ministry embarrassment, Muggle secrecy cleanup, and Arthur Weasley's office.
+**Evidence:** "forced to modify several memories"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1115, entry `gof-ch13-005`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** medium
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch11-001; Goblet of Fire Chapter Eleven already records Moody's Auror background before Hogwarts; this entry adds Daily Prophet public coverage, aggressive dustbins, Muggle police, and Memory Charm cleanup immediately before his school term.
+**Notes:** The article is by Rita Skeeter and may be biased or mocking; the entry uses it as public-record context rather than a fully reliable account.
 
 ### Chapter: Wizarding Schools Beyond Britain
 
@@ -4388,6 +4456,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-005; Chapter Two records the Ministry warning about underage magic and possible expulsion; this entry corroborates that context and adds Head of House punishment authority and term-status point reasoning.
 **Notes:** The scene is an exceptional safety and secrecy incident, so the exact punishment scale should not be generalized without later policy evidence.
+
+#### Section: Prohibited Punishments, Detentions, and Head-of-House Referral
+
+**Fact:** The scene states a clear Hogwarts discipline rule against Transfiguration as punishment and confirms detentions or Head-of-House referral as ordinary disciplinary channels.
+**Evidence:** "never use Transfiguration as a punishment"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, PDF page 1116, entry `gof-ch13-006`, `sources/book-04/chapter-13-mad-eye-moody.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-005; Chamber of Secrets Chapter Five already records Head-of-House responsibility and detention after major misconduct; this entry adds an explicit ban on Transfiguration as punishment and shows McGonagall correcting a teacher.
+**Notes:** The scene shows emergency correction in public and does not cite a written rulebook or formal disciplinary code.
 
 ### Chapter: Student Health and the Hospital Wing
 

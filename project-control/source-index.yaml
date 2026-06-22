@@ -829,3 +829,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1089-1106.
+- source_unit_id: gof-ch13
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 13
+  chapter_title: Chapter Thirteen - Mad-Eye Moody
+  page_start: 1107
+  page_end: 1120
+  output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  processed_at: '2026-06-22'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1107-1120.

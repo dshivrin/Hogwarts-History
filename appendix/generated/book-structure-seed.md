@@ -27,6 +27,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classroom Creatures and Student Handling
   - Course Books and Dangerous Texts
   - Live Creature Handling and Safety
+  - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Charms
   - First-Year Spellwork
 - Course Materials and Annual Booklists
@@ -36,6 +37,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Defense Against the Dark Arts Creature Sequence
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
+  - Fourth-Year Divination and Arithmancy Contrast
+  - Fourth-Year Schedules, Electives, and Morning Owl Post
   - Third-Year Books and Supplies
   - Third-Year Charms and Divination Assessment
   - Third-Year Course Materials
@@ -66,6 +69,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Flying Lessons
   - First-Year Broom Training
 - Herbology and Magical Plant Safety
+  - Bubotuber Pus Collection and Medical Use
   - Mandrake Maturity and Restorative Use
   - Mandrake Restorative Use
 - History of Magic
@@ -172,6 +176,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dark Mark Summoning and Emergency Response
 - Defense Against the Dark Arts Staffing and Ministry Links
   - Alastor Moody's Auror Record Before Hogwarts
+  - Moody's Experience-Based Teaching Reputation
   - Moody's Formal Appointment at the Start-of-Term Feast
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
@@ -238,6 +243,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Tournament History, Revival, Selection, and Age Restriction
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wizarding Press and Public Records
+  - Daily Prophet Coverage of Moody Before His Hogwarts Term
 - Wizarding Schools Beyond Britain
   - Beauxbatons and European Magical Education Sources
   - Durmstrang, School Rivalry, and Dark Arts Curriculum
@@ -489,6 +496,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Expulsion, Wand Sanctions, and Staff Retention
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
+  - Prohibited Punishments, Detentions, and Head-of-House Referral
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
   - Crisis Visitor Restrictions
