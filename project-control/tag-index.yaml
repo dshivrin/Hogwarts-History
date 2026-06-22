@@ -87,6 +87,11 @@ tags:
     - cos-ch12-004
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  age-restriction:
+    entries:
+    - gof-ch12-007
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   albus-dumbledore:
     entries:
     - ps-ch01-001
@@ -150,6 +155,11 @@ tags:
     - cos-ch12-004
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  annual-customs:
+    entries:
+    - gof-ch12-003
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   anti-apparition:
     entries:
     - poa-ch09-001
@@ -347,9 +357,11 @@ tags:
     entries:
     - gof-ch09-002
     - gof-ch11-004
+    - gof-ch12-007
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -597,8 +609,10 @@ tags:
   castle-approach:
     entries:
     - cos-ch05-002
+    - gof-ch12-001
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   castle-grounds:
     entries:
     - poa-ch17-001
@@ -620,6 +634,11 @@ tags:
     - ps-ch12-006
     output_yaml:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
+  castle-maintenance:
+    entries:
+    - gof-ch12-004
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   castle-map:
     entries:
     - poa-ch10-003
@@ -1146,6 +1165,7 @@ tags:
     - sources/book-01/chapter-09-midnight-duel.yaml
   curriculum:
     entries:
+    - gof-ch12-006
     - ps-ch05-004
     - ps-ch08-004
     - ps-ch08-005
@@ -1154,6 +1174,7 @@ tags:
     - sources/book-01/chapter-05-diagon-alley.yaml
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   curriculum-sequence:
     entries:
     - poa-ch10-001
@@ -1268,6 +1289,7 @@ tags:
     - cos-ch11-003
     - cos-ch18-007
     - gof-ch11-001
+    - gof-ch12-006
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -1311,6 +1333,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -1524,12 +1547,14 @@ tags:
   dormitories:
     entries:
     - cos-ch05-006
+    - gof-ch12-004
     - poa-ch04-005
     - ps-ch10-003
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   draco-malfoy:
     entries:
     - cos-ch04-004
@@ -1578,6 +1603,7 @@ tags:
     - cos-ch18-005
     - gof-ch02-005
     - gof-ch11-001
+    - gof-ch12-006
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -1646,6 +1672,7 @@ tags:
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -1681,8 +1708,10 @@ tags:
   durmstrang:
     entries:
     - gof-ch11-004
+    - gof-ch12-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   dursleys:
     entries:
     - cos-ch01-003
@@ -1805,6 +1834,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
   entrance-hall:
     entries:
+    - gof-ch12-001
     - poa-ch05-005
     - ps-ch14-006
     - ps-ch15-004
@@ -1812,6 +1842,7 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   entrances:
     entries:
     - poa-ch04-007
@@ -1993,6 +2024,7 @@ tags:
     entries:
     - cos-ch07-006
     - cos-ch08-002
+    - gof-ch12-005
     - poa-ch07-005
     - poa-ch08-003
     - poa-ch08-007
@@ -2022,6 +2054,7 @@ tags:
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-14-snapes-grudge.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   firebolt:
     entries:
     - gof-ch05-005
@@ -2100,10 +2133,12 @@ tags:
   first-years:
     entries:
     - gof-ch11-006
+    - gof-ch12-003
     - ps-ch06-006
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   flame-freezing-charm:
     entries:
     - poa-ch01-001
@@ -2195,6 +2230,7 @@ tags:
     - cos-ch15-005
     - cos-ch15-006
     - gof-ch04-003
+    - gof-ch12-005
     - poa-ch06-005
     - poa-ch19-007
     - ps-ch15-004
@@ -2207,6 +2243,12 @@ tags:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  forbidden-objects:
+    entries:
+    - gof-ch12-005
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   foreign-schools:
     entries:
     - gof-ch07-003
@@ -2247,8 +2289,10 @@ tags:
   founders:
     entries:
     - cos-ch09-003
+    - gof-ch12-002
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   founders-rift:
     entries:
     - cos-ch09-004
@@ -2257,17 +2301,21 @@ tags:
   founding:
     entries:
     - cos-ch09-003
+    - gof-ch12-002
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   four-houses:
     entries:
     - cos-ch05-004
     - cos-ch09-003
+    - gof-ch12-002
     - ps-ch03-001
     output_yaml:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   fourth-year:
     entries:
     - gof-ch10-006
@@ -2399,8 +2447,10 @@ tags:
   godric-gryffindor:
     entries:
     - cos-ch18-004
+    - gof-ch12-002
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   godrics-hollow:
     entries:
     - gof-ch02-004
@@ -2421,6 +2471,8 @@ tags:
     - cos-ch11-003
     - cos-ch12-003
     - cos-ch13-003
+    - gof-ch12-001
+    - gof-ch12-003
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -2451,6 +2503,12 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  great-hall-feast:
+    entries:
+    - gof-ch12-004
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   great-lake:
     entries:
     - poa-ch20-004
@@ -3106,6 +3164,7 @@ tags:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
   hogsmeade:
     entries:
+    - gof-ch12-005
     - poa-ch01-005
     - poa-ch02-001
     - poa-ch03-005
@@ -3132,6 +3191,7 @@ tags:
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   hogsmeade-privileges:
     entries:
     - poa-ch14-002
@@ -3150,10 +3210,12 @@ tags:
     - gof-ch07-003
     - gof-ch07-007
     - gof-ch11-003
+    - gof-ch12-007
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -3239,6 +3301,11 @@ tags:
     - gof-ch11-005
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  hogwarts-kitchens:
+    entries:
+    - gof-ch12-004
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   hogwarts-letters:
     entries:
     - cos-ch01-004
@@ -3388,8 +3455,10 @@ tags:
   horseless-carriages:
     entries:
     - gof-ch11-006
+    - gof-ch12-001
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   hospital-wing:
     entries:
     - cos-ch10-005
@@ -3434,6 +3503,7 @@ tags:
   house-championship:
     entries:
     - cos-ch05-004
+    - gof-ch12-003
     - poa-ch22-005
     - ps-ch11-001
     - ps-ch13-002
@@ -3442,6 +3512,7 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   house-colors:
     entries:
     - poa-ch15-006
@@ -3475,12 +3546,14 @@ tags:
     - cos-ch18-006
     - gof-ch08-002
     - gof-ch09-003
+    - gof-ch12-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -3562,6 +3635,8 @@ tags:
   house-system:
     entries:
     - cos-ch09-004
+    - gof-ch12-002
+    - gof-ch12-003
     - ps-ch05-006
     - ps-ch06-005
     - ps-ch07-002
@@ -3570,13 +3645,16 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-01/chapter-07-sorting-hat.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   house-tables:
     entries:
     - cos-ch06-001
+    - gof-ch12-001
     - poa-ch11-005
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   house-teams:
     entries:
     - cos-ch07-001
@@ -3677,6 +3755,11 @@ tags:
     - cos-ch13-005
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  inter-house-quidditch-cup:
+    entries:
+    - gof-ch12-005
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   interior-rooms:
     entries:
     - ps-ch09-004
@@ -3700,8 +3783,10 @@ tags:
   international-magical-cooperation:
     entries:
     - gof-ch05-003
+    - gof-ch12-007
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   international-quidditch:
     entries:
     - gof-ch08-005
@@ -4072,8 +4157,10 @@ tags:
   mad-eye-moody:
     entries:
     - gof-ch11-001
+    - gof-ch12-006
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -4216,6 +4303,11 @@ tags:
     - poa-ch03-003
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  magical-games-and-sports:
+    entries:
+    - gof-ch12-007
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   magical-injury:
     entries:
     - gof-ch02-001
@@ -4306,11 +4398,13 @@ tags:
     - cos-ch03-002
     - gof-ch08-002
     - gof-ch09-003
+    - gof-ch12-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   magical-spaces:
     entries:
     - gof-ch07-002
@@ -4572,6 +4666,7 @@ tags:
     - gof-ch10-003
     - gof-ch11-001
     - gof-ch11-003
+    - gof-ch12-007
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -4599,6 +4694,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -6276,6 +6372,11 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  school-origins:
+    entries:
+    - gof-ch12-002
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   school-oversight:
     entries:
     - cos-ch14-006
@@ -6304,6 +6405,7 @@ tags:
   school-rules:
     entries:
     - gof-ch11-003
+    - gof-ch12-005
     - ps-ch08-003
     - ps-ch09-005
     - ps-ch12-002
@@ -6312,6 +6414,7 @@ tags:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   school-searches:
     entries:
     - cos-ch09-006
@@ -6745,10 +6848,12 @@ tags:
   sorting-ceremony:
     entries:
     - cos-ch05-004
+    - gof-ch12-003
     - ps-ch07-002
     output_yaml:
     - sources/book-01/chapter-07-sorting-hat.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   sorting-expectations:
     entries:
     - ps-ch06-005
@@ -6760,11 +6865,14 @@ tags:
     - cos-ch12-001
     - cos-ch17-005
     - cos-ch18-004
+    - gof-ch12-002
+    - gof-ch12-003
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   special-awards:
     entries:
     - cos-ch18-003
@@ -6848,8 +6956,10 @@ tags:
   staff-appointment:
     entries:
     - cos-ch04-006
+    - gof-ch12-006
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   staff-appointments:
     entries:
     - poa-ch05-007
@@ -6913,6 +7023,11 @@ tags:
     - poa-ch09-002
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+  staff-table:
+    entries:
+    - gof-ch12-006
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   staffing:
     entries:
     - cos-ch07-004
@@ -6969,6 +7084,11 @@ tags:
     - ps-ch15-006
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+  start-of-term:
+    entries:
+    - gof-ch12-001
+    output_yaml:
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   start-of-term-banquet:
     entries:
     - ps-ch07-002
@@ -7376,10 +7496,12 @@ tags:
   teacher-appointments:
     entries:
     - cos-ch07-004
+    - gof-ch12-006
     - poa-ch05-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   teacher-authority:
     entries:
     - poa-ch19-003
@@ -7609,9 +7731,12 @@ tags:
     entries:
     - gof-ch07-007
     - gof-ch11-003
+    - gof-ch12-005
+    - gof-ch12-007
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -7722,8 +7847,10 @@ tags:
   unpaid-labor:
     entries:
     - gof-ch08-002
+    - gof-ch12-004
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   unplottable:
     entries:
     - gof-ch11-005
@@ -7959,9 +8086,11 @@ tags:
     - sources/book-01/chapter-10-halloween.yaml
   winged-boar-gates:
     entries:
+    - gof-ch12-001
     - poa-ch05-005
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   winged-keys:
     entries:
     - ps-ch16-006

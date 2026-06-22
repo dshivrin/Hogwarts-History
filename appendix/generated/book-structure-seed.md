@@ -134,6 +134,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Summer Return and End-of-Term Pickup
 - The Sorting Ceremony
   - Annual House Assignment in the Great Hall
+  - Annual Songs, Scroll, Stool, and House Tables
   - Arrival of First-Year Students
   - First-Year Lake Crossing
   - House Points and the House Cup
@@ -171,6 +172,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dark Mark Summoning and Emergency Response
 - Defense Against the Dark Arts Staffing and Ministry Links
   - Alastor Moody's Auror Record Before Hogwarts
+  - Moody's Formal Appointment at the Start-of-Term Feast
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -199,6 +201,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
   - House-Elf Bondage and Manumission
   - House-Elf Magic and Old Wizarding Households
+  - Kitchen Labor, Cleaning, Fires, and Dormitory Service
   - Service Norms, Pay, and Regulation
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
@@ -232,6 +235,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classified Rules, Entry, and Prize Foreshadowing
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
+  - Tournament History, Revival, Selection, and Age Restriction
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Schools Beyond Britain
@@ -315,6 +319,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Admission, Bloodline Ideology, and Slytherin's Departure
 - The Founding of Hogwarts
   - Founders, Houses, and Castle Site
+  - The Sorting Hat's Founding Song
 
 ## Protective Magic and Security
 
@@ -496,8 +501,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Transport and Secrecy
   - Floo Network Regulation and Muggle Fireplaces
 
+## School Governance and Rules
+
+- Start-of-Term Notices
+  - Forbidden Objects, Restricted Places, and Yearly Exceptions
+
 ## The Castle and Its Grounds
 
+- Arrival at Hogwarts
+  - Carriage Route, Gates, Entrance Hall, and Great Hall
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
 - Interior Rooms

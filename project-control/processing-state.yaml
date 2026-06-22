@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 11
-  chapter_title: Chapter Eleven - Aboard the Hogwarts Express
-  page_start: 1078
-  page_end: 1088
-  output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 12
   chapter_title: Chapter Twelve - The Triwizard Tournament
   page_start: 1089
   page_end: 1106
   output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1107
   page_end: 1120
   output_yaml: sources/book-04/chapter-13-mad-eye-moody.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 14
+  chapter_title: Chapter Fourteen - The Unforgivable Curses
+  page_start: 1121
+  page_end: 1136
+  output_yaml: sources/book-04/chapter-14-the-unforgivable-curses.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

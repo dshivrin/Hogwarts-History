@@ -1361,6 +1361,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch07-002; Chapter Seven introduced the Sorting Ceremony and House assignment; this entry corroborates the annual practice and adds aged-hat and Great Hall context.
 **Notes:** The passage does not explain the Sorting Hat's origin, founders' involvement, or when the ceremony began.
 
+#### Section: Annual Songs, Scroll, Stool, and House Tables
+
+**Fact:** The chapter confirms annual Sorting procedure, yearly Hat songs, name-calling from a parchment roll, stool seating, and House-table placement, with sibling placement not guaranteed.
+**Evidence:** "different one every year"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1091, entry `gof-ch12-003`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch05-004; Chamber of Secrets Chapter Five already corroborates annual Sorting in the Great Hall; this entry adds the yearly song variation, sibling-placement caveat, name scroll, stool, and House-table procedure.
+**Notes:** The passage does not explain who prepares the scroll or how the Hat decides individual placements.
+
 #### Section: Arrival of First-Year Students
 
 **Fact:** McGonagall presents the Sorting as a start-of-term ceremony for first-years before the assembled school, explains the four Houses, and links House membership to classes, dormitories, common rooms, points, and the House Cup.
@@ -1652,6 +1663,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Compact duplicate search found no prior source entry for Moody's Auror background or the pre-term incident around his new job.
 **Notes:** The chapter does not yet name Moody's Hogwarts post or identify the later impersonation plot.
 
+#### Section: Moody's Formal Appointment at the Start-of-Term Feast
+
+**Fact:** The chapter confirms Alastor Moody's formal appointment as the new Defense Against the Dark Arts teacher and records the student/staff reaction to his arrival.
+**Evidence:** "Professor Moody"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1101, entry `gof-ch12-006`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch11-001; Goblet of Fire Chapter Eleven records Moody's Auror background and expected new job; this entry confirms the Hogwarts Defense Against the Dark Arts appointment and public staff-table arrival.
+**Notes:** The passage does not yet reveal that the apparent Moody is an impostor.
+
 ### Chapter: Divination, Prophecy, and School Testimony
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
@@ -1905,6 +1927,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch02-001; Chapter Two records Dobby's bondage to one family until freed; this entry adds magic-use permission and association with old wealthy households.
 **Notes:** The claims come from Fred and George's conversation, not a formal historical or legal source, and they still concern private households rather than Hogwarts.
+
+#### Section: Kitchen Labor, Cleaning, Fires, and Dormitory Service
+
+**Fact:** The chapter provides direct Hogwarts kitchen evidence for a large unseen house-elf workforce that prepares food, cleans, tends fires, and performs dormitory comfort work.
+**Evidence:** "Over a hundred"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1098, entry `gof-ch12-004`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch08-002; Goblet of Fire Chapter Eight records general house-elf service norms through Winky; this entry is direct Hogwarts evidence and adds the kitchen population, invisibility norm, and dormitory warming pans.
+**Notes:** Nick gives the population as a belief, and the passage does not state official employment terms or whether the elves are paid.
 
 #### Section: Service Norms, Pay, and Regulation
 
@@ -2169,6 +2202,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** medium
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch01-003; Book 4 Chapter One records Bertha Jorkins as a Ministry information source for Voldemort's plan; this entry corroborates her disappearance from the Ministry side and adds the post-World Cup secret-event workload.
 **Notes:** The event is unnamed in this chapter, so the Hogwarts connection depends on later corroborating chapters rather than this passage alone.
+
+#### Section: Tournament History, Revival, Selection, and Age Restriction
+
+**Fact:** Dumbledore gives the first full in-school explanation of the Triwizard Tournament's origin, schools, hosting cycle, death toll, revival, Ministry role, Halloween selection, prize money, and seventeen-plus age restriction.
+**Evidence:** "first established some seven hundred years ago"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1102, entry `gof-ch12-007`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** later_editorial_note
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch11-003; Goblet of Fire Chapter Eleven foreshadows changed rules, entry, and prize money; this entry names the tournament and adds the historical origin, participating schools, Ministry departments, age restriction, and selection process.
+**Notes:** Dumbledore presents the official account before the Goblet appears and before later security failures reveal weaknesses in the arrangements.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -2846,6 +2890,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=false; Earlier entries introduced the four Houses and Slytherin reputation, but no prior seed recorded this founding account from a History of Magic lesson.
 **Notes:** Binns says the precise date is uncertain and does not name his sources for the founding account.
+
+#### Section: The Sorting Hat's Founding Song
+
+**Fact:** The Sorting Hat song gives a ritualized founding account: the founders began Hogwarts, formed Houses around preferred virtues, and enchanted Gryffindor's hat to continue sorting students.
+**Evidence:** "Thus Hogwarts School began"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1093, entry `gof-ch12-002`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** pre_1984_historical_candidate
+**Reference type:** historical_claim
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch09-003; Chamber of Secrets Chapter Nine already gives Binns's founding account; this entry corroborates it through the Sorting Hat and adds House virtues plus the Hat's origin.
+**Notes:** The Hat's song is ceremonial and compressed; it does not cite sources or resolve the exact founding date.
 
 ## Part: Protective Magic and Security
 
@@ -4419,7 +4474,35 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=false; Targeted searches found prior school-travel and Ministry-law entries, but no existing seed focused on Floo Network regulation or Muggle fireplace connection.
 **Notes:** The passage reflects Arthur Weasley's informal contact and may not represent standard lawful procedure.
 
+## Part: School Governance and Rules
+
+### Chapter: Start-of-Term Notices
+
+#### Section: Forbidden Objects, Restricted Places, and Yearly Exceptions
+
+**Fact:** The chapter records start-of-term rule notices: Filch's expanded forbidden-object list, Forest restrictions, Hogsmeade age restrictions, and cancellation of the Inter-House Quidditch Cup for the Triwizard year.
+**Evidence:** "forbidden inside the castle"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1099, entry `gof-ch12-005`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** school_rule_or_policy
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch08-003; Prisoner of Azkaban Chapter Eight records Hogsmeade access enforcement; this entry corroborates the lower-year restriction and adds the 437-item forbidden list, Forest reminder, and Quidditch Cup cancellation.
+**Notes:** The passage names only three new forbidden objects and does not reproduce the full list or specify how Quidditch cancellation was approved.
+
 ## Part: The Castle and Its Grounds
+
+### Chapter: Arrival at Hogwarts
+
+#### Section: Carriage Route, Gates, Entrance Hall, and Great Hall
+
+**Fact:** The chapter gives another observed start-of-term arrival route through the winged-boar gates, oak front doors, entrance hall, marble staircase, and Great Hall seating by House.
+**Evidence:** "the great oak front doors"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, PDF page 1089, entry `gof-ch12-001`, `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** direct_observed_setting
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch05-005; Prisoner of Azkaban Chapter Five already records the Hogsmeade arrival route through the winged-boar gates; this entry adds the storm arrival, oak doors, entrance hall, and House-table transition.
+**Notes:** The passage does not explain who maintains the gates, carriages, entrance hall, or Great Hall enchantments.
 
 ### Chapter: Dungeons and Corridors
 

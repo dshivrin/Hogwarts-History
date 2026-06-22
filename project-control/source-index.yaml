@@ -817,3 +817,15 @@ processed_units:
   explicit_reference_count: 1
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 1078-1088.
+- source_unit_id: gof-ch12
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 12
+  chapter_title: Chapter Twelve - The Triwizard Tournament
+  page_start: 1089
+  page_end: 1106
+  output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  processed_at: '2026-06-22'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1089-1106.

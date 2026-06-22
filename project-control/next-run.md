@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twelve - The Triwizard Tournament
-- Page range: 1089-1106
+- Chapter: Chapter Thirteen - Mad-Eye Moody
+- Page range: 1107-1120
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-12-the-triwizard-tournament.yaml`
+- Output YAML: `sources/book-04/chapter-13-mad-eye-moody.yaml`
 
 ## Minimal Context
 

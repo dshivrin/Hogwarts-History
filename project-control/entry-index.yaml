@@ -6169,6 +6169,116 @@ by_entry:
     - school-travel
     source_unit: gof-ch11
     output_yaml: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  gof-ch12-001:
+    title: 'Arrival at Hogwarts: Carriage Route, Gates, Entrance Hall, and Great Hall'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - castle-approach
+    - entrance-hall
+    - great-hall
+    - horseless-carriages
+    - house-tables
+    - start-of-term
+    - winged-boar-gates
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch12-002:
+    title: 'The Founding of Hogwarts: The Sorting Hat''s Founding Song'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founders
+    - founding
+    - four-houses
+    - godric-gryffindor
+    - house-system
+    - school-origins
+    - sorting-hat
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch12-003:
+    title: 'The Sorting Ceremony: Annual Songs, Scroll, Stool, and House Tables'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - annual-customs
+    - first-years
+    - great-hall
+    - house-championship
+    - house-system
+    - sorting-ceremony
+    - sorting-hat
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch12-004:
+    title: 'House-Elves and Hogwarts: Kitchen Labor, Cleaning, Fires, and Dormitory
+      Service'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - castle-maintenance
+    - dormitories
+    - great-hall-feast
+    - hogwarts-kitchens
+    - house-elves
+    - magical-servitude
+    - unpaid-labor
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch12-005:
+    title: 'Start-of-Term Notices: Forbidden Objects, Restricted Places, and Yearly
+      Exceptions'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - filch
+    - forbidden-forest
+    - forbidden-objects
+    - hogsmeade
+    - inter-house-quidditch-cup
+    - school-rules
+    - triwizard-tournament
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch12-006:
+    title: 'Defense Against the Dark Arts Staffing and Ministry Links: Moody''s Formal
+      Appointment at the Start-of-Term Feast'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - curriculum
+    - defense-against-the-dark-arts
+    - dumbledore
+    - mad-eye-moody
+    - staff-appointment
+    - staff-table
+    - teacher-appointments
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  gof-ch12-007:
+    title: 'The Triwizard Year and Institutional Security: Tournament History, Revival,
+      Selection, and Age Restriction'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - age-restriction
+    - beauxbatons
+    - durmstrang
+    - hogwarts
+    - international-magical-cooperation
+    - magical-games-and-sports
+    - ministry-of-magic
+    - triwizard-tournament
+    source_unit: gof-ch12
+    output_yaml: sources/book-04/chapter-12-the-triwizard-tournament.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6211,6 +6321,8 @@ by_tag:
   - poa-ch21-006
   advanced-potions:
   - cos-ch12-004
+  age-restriction:
+  - gof-ch12-007
   albus-dumbledore:
   - ps-ch01-001
   - ps-ch01-002
@@ -6241,6 +6353,8 @@ by_tag:
   - poa-ch20-003
   animal-transformation:
   - cos-ch12-004
+  annual-customs:
+  - gof-ch12-003
   anti-apparition:
   - poa-ch09-001
   - poa-ch22-001
@@ -6329,6 +6443,7 @@ by_tag:
   beauxbatons:
   - gof-ch09-002
   - gof-ch11-004
+  - gof-ch12-007
   bedtime-enforcement:
   - poa-ch13-006
   bertha-jorkins:
@@ -6438,6 +6553,7 @@ by_tag:
   - ps-ch06-007
   castle-approach:
   - cos-ch05-002
+  - gof-ch12-001
   castle-grounds:
   - poa-ch17-001
   - poa-ch20-001
@@ -6447,6 +6563,8 @@ by_tag:
   - poa-ch14-007
   castle-interior:
   - ps-ch12-006
+  castle-maintenance:
+  - gof-ch12-004
   castle-map:
   - poa-ch10-003
   castle-navigation:
@@ -6686,6 +6804,7 @@ by_tag:
   curfew:
   - ps-ch09-005
   curriculum:
+  - gof-ch12-006
   - ps-ch05-004
   - ps-ch08-004
   - ps-ch08-005
@@ -6746,6 +6865,7 @@ by_tag:
   - cos-ch11-003
   - cos-ch18-007
   - gof-ch11-001
+  - gof-ch12-006
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -6867,6 +6987,7 @@ by_tag:
   - ps-ch08-001
   dormitories:
   - cos-ch05-006
+  - gof-ch12-004
   - poa-ch04-005
   - ps-ch10-003
   draco-malfoy:
@@ -6898,6 +7019,7 @@ by_tag:
   - cos-ch18-005
   - gof-ch02-005
   - gof-ch11-001
+  - gof-ch12-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -6949,6 +7071,7 @@ by_tag:
   - ps-ch12-001
   durmstrang:
   - gof-ch11-004
+  - gof-ch12-007
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -7003,6 +7126,7 @@ by_tag:
   - cos-ch07-005
   - gof-ch04-005
   entrance-hall:
+  - gof-ch12-001
   - poa-ch05-005
   - ps-ch14-006
   - ps-ch15-004
@@ -7088,6 +7212,7 @@ by_tag:
   filch:
   - cos-ch07-006
   - cos-ch08-002
+  - gof-ch12-005
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -7138,6 +7263,7 @@ by_tag:
   - ps-ch10-001
   first-years:
   - gof-ch11-006
+  - gof-ch12-003
   - ps-ch06-006
   flame-freezing-charm:
   - poa-ch01-001
@@ -7181,11 +7307,14 @@ by_tag:
   - cos-ch15-005
   - cos-ch15-006
   - gof-ch04-003
+  - gof-ch12-005
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
   - ps-ch15-005
   - ps-ch15-006
+  forbidden-objects:
+  - gof-ch12-005
   foreign-schools:
   - gof-ch07-003
   forest-edge:
@@ -7203,13 +7332,16 @@ by_tag:
   - gof-ch08-005
   founders:
   - cos-ch09-003
+  - gof-ch12-002
   founders-rift:
   - cos-ch09-004
   founding:
   - cos-ch09-003
+  - gof-ch12-002
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
+  - gof-ch12-002
   - ps-ch03-001
   fourth-year:
   - gof-ch10-006
@@ -7269,6 +7401,7 @@ by_tag:
   - poa-ch05-002
   godric-gryffindor:
   - cos-ch18-004
+  - gof-ch12-002
   godrics-hollow:
   - gof-ch02-004
   - ps-ch01-003
@@ -7283,6 +7416,8 @@ by_tag:
   - cos-ch11-003
   - cos-ch12-003
   - cos-ch13-003
+  - gof-ch12-001
+  - gof-ch12-003
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -7295,6 +7430,8 @@ by_tag:
   - ps-ch12-001
   - ps-ch12-003
   - ps-ch17-005
+  great-hall-feast:
+  - gof-ch12-004
   great-lake:
   - poa-ch20-004
   - poa-ch20-007
@@ -7605,6 +7742,7 @@ by_tag:
   hogs-head:
   - ps-ch16-003
   hogsmeade:
+  - gof-ch12-005
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -7630,6 +7768,7 @@ by_tag:
   - gof-ch07-003
   - gof-ch07-007
   - gof-ch11-003
+  - gof-ch12-007
   hogwarts-a-history:
   - cos-ch09-001
   - gof-ch11-005
@@ -7671,6 +7810,8 @@ by_tag:
   - poa-ch19-007
   hogwarts-hidden:
   - gof-ch11-005
+  hogwarts-kitchens:
+  - gof-ch12-004
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -7740,6 +7881,7 @@ by_tag:
   - poa-ch14-004
   horseless-carriages:
   - gof-ch11-006
+  - gof-ch12-001
   hospital-wing:
   - cos-ch10-005
   - cos-ch11-006
@@ -7761,6 +7903,7 @@ by_tag:
   - poa-ch13-006
   house-championship:
   - cos-ch05-004
+  - gof-ch12-003
   - poa-ch22-005
   - ps-ch11-001
   - ps-ch13-002
@@ -7781,6 +7924,7 @@ by_tag:
   - cos-ch18-006
   - gof-ch08-002
   - gof-ch09-003
+  - gof-ch12-004
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -7819,11 +7963,14 @@ by_tag:
   - poa-ch19-005
   house-system:
   - cos-ch09-004
+  - gof-ch12-002
+  - gof-ch12-003
   - ps-ch05-006
   - ps-ch06-005
   - ps-ch07-002
   house-tables:
   - cos-ch06-001
+  - gof-ch12-001
   - poa-ch11-005
   house-teams:
   - cos-ch07-001
@@ -7870,6 +8017,8 @@ by_tag:
   - ps-ch07-002
   institutional-secrecy:
   - cos-ch13-005
+  inter-house-quidditch-cup:
+  - gof-ch12-005
   interior-rooms:
   - ps-ch09-004
   interior-setting:
@@ -7880,6 +8029,7 @@ by_tag:
   - gof-ch08-005
   international-magical-cooperation:
   - gof-ch05-003
+  - gof-ch12-007
   international-quidditch:
   - gof-ch08-005
   international-transport:
@@ -8047,6 +8197,7 @@ by_tag:
   - poa-ch16-002
   mad-eye-moody:
   - gof-ch11-001
+  - gof-ch12-006
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -8111,6 +8262,8 @@ by_tag:
   - gof-ch11-004
   magical-entrance:
   - poa-ch03-003
+  magical-games-and-sports:
+  - gof-ch12-007
   magical-injury:
   - gof-ch02-001
   magical-instruments:
@@ -8151,6 +8304,7 @@ by_tag:
   - cos-ch03-002
   - gof-ch08-002
   - gof-ch09-003
+  - gof-ch12-004
   magical-spaces:
   - gof-ch07-002
   magical-surveillance:
@@ -8277,6 +8431,7 @@ by_tag:
   - gof-ch10-003
   - gof-ch11-001
   - gof-ch11-003
+  - gof-ch12-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -9047,6 +9202,8 @@ by_tag:
   - gof-ch04-001
   - gof-ch05-006
   - poa-ch01-002
+  school-origins:
+  - gof-ch12-002
   school-oversight:
   - cos-ch14-006
   school-place:
@@ -9059,6 +9216,7 @@ by_tag:
   - gof-ch11-005
   school-rules:
   - gof-ch11-003
+  - gof-ch12-005
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
@@ -9259,6 +9417,7 @@ by_tag:
   - ps-ch15-007
   sorting-ceremony:
   - cos-ch05-004
+  - gof-ch12-003
   - ps-ch07-002
   sorting-expectations:
   - ps-ch06-005
@@ -9267,6 +9426,8 @@ by_tag:
   - cos-ch12-001
   - cos-ch17-005
   - cos-ch18-004
+  - gof-ch12-002
+  - gof-ch12-003
   special-awards:
   - cos-ch18-003
   spectator-magic:
@@ -9302,6 +9463,7 @@ by_tag:
   - poa-ch11-005
   staff-appointment:
   - cos-ch04-006
+  - gof-ch12-006
   staff-appointments:
   - poa-ch05-007
   - poa-ch17-003
@@ -9328,6 +9490,8 @@ by_tag:
   - cos-ch11-006
   staff-search:
   - poa-ch09-002
+  staff-table:
+  - gof-ch12-006
   staffing:
   - cos-ch07-004
   - poa-ch05-003
@@ -9352,6 +9516,8 @@ by_tag:
   - ps-ch13-005
   stargazing:
   - ps-ch15-006
+  start-of-term:
+  - gof-ch12-001
   start-of-term-banquet:
   - ps-ch07-002
   statute-of-secrecy:
@@ -9529,6 +9695,7 @@ by_tag:
   - poa-ch11-001
   teacher-appointments:
   - cos-ch07-004
+  - gof-ch12-006
   - poa-ch05-003
   teacher-authority:
   - poa-ch19-003
@@ -9631,6 +9798,8 @@ by_tag:
   triwizard-tournament:
   - gof-ch07-007
   - gof-ch11-003
+  - gof-ch12-005
+  - gof-ch12-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -9680,6 +9849,7 @@ by_tag:
   - ps-ch05-005
   unpaid-labor:
   - gof-ch08-002
+  - gof-ch12-004
   unplottable:
   - gof-ch11-005
   unregistered-magic:
@@ -9787,6 +9957,7 @@ by_tag:
   wingardium-leviosa:
   - ps-ch10-001
   winged-boar-gates:
+  - gof-ch12-001
   - poa-ch05-005
   winged-keys:
   - ps-ch16-006

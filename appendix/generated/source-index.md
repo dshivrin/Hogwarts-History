@@ -74,3 +74,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch09`: Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, 7 entries, 0 explicit references.
 - `gof-ch10`: Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, pages 1067-1077, 7 entries, 0 explicit references.
 - `gof-ch11`: Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, pages 1078-1088, 6 entries, 1 explicit references.
+- `gof-ch12`: Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, pages 1089-1106, 7 entries, 0 explicit references.
