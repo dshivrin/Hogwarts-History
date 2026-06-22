@@ -80,3 +80,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch15`: Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, pages 1137-1153, 7 entries, 1 explicit references.
 - `gof-ch16`: Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, pages 1154-1173, 7 entries, 0 explicit references.
 - `gof-ch17`: Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, pages 1174-1187, 7 entries, 0 explicit references.
+- `gof-ch18`: Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, pages 1188-1209, 7 entries, 0 explicit references.

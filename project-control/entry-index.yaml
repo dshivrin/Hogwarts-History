@@ -6822,6 +6822,116 @@ by_entry:
     - portraits
     source_unit: gof-ch17
     output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
+  gof-ch18-001:
+    title: 'Towers, Corridors, and Service Rooms: The Owlery and school owls'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - barn-owl
+    - owl-post
+    - owlery
+    - school-owls
+    - shared-resources
+    - sirius-black
+    - student-correspondence
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch18-002:
+    title: 'House Identity and Reputation: House loyalty during the Triwizard Tournament'
+    classification: later_editorial_note
+    reference_type: house_system
+    confidence: high
+    tags:
+    - cedric-diggory
+    - gryffindor
+    - head-of-house
+    - house-system
+    - hufflepuff
+    - professor-sprout
+    - triwizard-tournament
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch18-003:
+    title: 'Care of Magical Creatures and Practical Handling: Blast-Ended Skrewt growth
+      and handling risks'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - blast-ended-skrewts
+    - care-of-magical-creatures
+    - creature-handling
+    - dragon-hide-gloves
+    - hagrid
+    - hazardous-creatures
+    - student-safety
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch18-004:
+    title: 'Potions, Practical Testing, and Discipline: Antidote brewing and detention
+      penalties'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - antidotes
+    - detention
+    - dungeon-classroom
+    - hospital-wing
+    - house-points
+    - potions
+    - snape
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch18-005:
+    title: 'The Triwizard Year and Public Records: Press access and distorted champion
+      coverage'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - champion-publicity
+    - daily-prophet
+    - ludo-bagman
+    - quick-quotes-quill
+    - rita-skeeter
+    - triwizard-tournament
+    - wizarding-press
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch18-006:
+    title: 'The Triwizard Year and Institutional Ceremonies: The Weighing of the Wands'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - champions
+    - judges
+    - ollivander
+    - tournament-ceremony
+    - triwizard-tournament
+    - wand-inspection
+    - wand-weighing
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch18-007:
+    title: 'Wands, Equipment, and Magical Materials: Champion wand materials and condition
+      tests'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dragon-heartstring
+    - gregorovitch
+    - ollivander
+    - phoenix-feather
+    - unicorn-hair
+    - veela-hair
+    - wand-cores
+    - wands
+    source_unit: gof-ch18
+    output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6920,6 +7030,8 @@ by_tag:
   anti-muggle-security:
   - gof-ch07-001
   - gof-ch07-002
+  antidotes:
+  - gof-ch18-004
   apparition:
   - gof-ch06-001
   - gof-ch09-004
@@ -6985,6 +7097,8 @@ by_tag:
   - ps-ch15-007
   banquet:
   - ps-ch10-002
+  barn-owl:
+  - gof-ch18-001
   barty-crouch:
   - gof-ch07-005
   - gof-ch07-006
@@ -7024,6 +7138,7 @@ by_tag:
   - gof-ch15-007
   blast-ended-skrewts:
   - gof-ch13-003
+  - gof-ch18-003
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -7104,6 +7219,7 @@ by_tag:
   - cos-ch08-003
   - cos-ch14-002
   - gof-ch13-003
+  - gof-ch18-003
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -7183,6 +7299,7 @@ by_tag:
   cedric-diggory:
   - gof-ch06-004
   - gof-ch16-007
+  - gof-ch18-002
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -7223,10 +7340,14 @@ by_tag:
   - cos-ch17-001
   - cos-ch17-006
   - cos-ch17-007
+  champion-publicity:
+  - gof-ch18-005
   champion-selection:
   - gof-ch16-003
   - gof-ch16-007
   - gof-ch17-004
+  champions:
+  - gof-ch18-006
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -7359,6 +7480,7 @@ by_tag:
   - poa-ch08-001
   - poa-ch09-005
   creature-handling:
+  - gof-ch18-003
   - poa-ch06-006
   creature-law:
   - poa-ch14-003
@@ -7422,6 +7544,7 @@ by_tag:
   - cos-ch12-006
   - gof-ch10-003
   - gof-ch13-005
+  - gof-ch18-005
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -7544,6 +7667,7 @@ by_tag:
   - cos-ch05-005
   - cos-ch07-006
   - gof-ch13-006
+  - gof-ch18-004
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -7607,6 +7731,10 @@ by_tag:
   - cos-ch04-004
   dragon-hatching:
   - ps-ch14-005
+  dragon-heartstring:
+  - gof-ch18-007
+  dragon-hide-gloves:
+  - gof-ch18-003
   dragon-keeping:
   - gof-ch05-001
   dragons:
@@ -7673,6 +7801,7 @@ by_tag:
   - cos-ch12-001
   dungeon-classroom:
   - cos-ch11-002
+  - gof-ch18-004
   - poa-ch07-001
   dungeons:
   - cos-ch08-004
@@ -8099,6 +8228,8 @@ by_tag:
   greenhouses:
   - cos-ch05-002
   - cos-ch06-002
+  gregorovitch:
+  - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
   grindelwald:
@@ -8134,6 +8265,7 @@ by_tag:
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
+  - gof-ch18-002
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -8194,6 +8326,7 @@ by_tag:
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
+  - gof-ch18-003
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -8271,6 +8404,7 @@ by_tag:
   - poa-ch18-004
   hazardous-creatures:
   - gof-ch13-003
+  - gof-ch18-003
   head-boy:
   - cos-ch04-003
   - cos-ch13-002
@@ -8286,6 +8420,7 @@ by_tag:
   - poa-ch05-006
   - poa-ch09-002
   head-of-house:
+  - gof-ch18-002
   - poa-ch08-003
   headless-hunt:
   - cos-ch08-001
@@ -8571,6 +8706,7 @@ by_tag:
   - cos-ch16-002
   - cos-ch18-002
   - gof-ch16-004
+  - gof-ch18-004
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -8627,6 +8763,7 @@ by_tag:
   - cos-ch06-003
   - cos-ch06-006
   - cos-ch18-003
+  - gof-ch18-004
   - poa-ch07-001
   - poa-ch07-007
   - poa-ch09-005
@@ -8653,6 +8790,7 @@ by_tag:
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
+  - gof-ch18-002
   - ps-ch05-006
   - ps-ch06-005
   - ps-ch07-002
@@ -8676,6 +8814,7 @@ by_tag:
   - cos-ch06-002
   - gof-ch06-004
   - gof-ch15-004
+  - gof-ch18-002
   - poa-ch09-006
   - ps-ch05-006
   - ps-ch13-002
@@ -8766,6 +8905,7 @@ by_tag:
   judges:
   - gof-ch16-002
   - gof-ch17-006
+  - gof-ch18-006
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -8894,6 +9034,7 @@ by_tag:
   - gof-ch11-003
   - gof-ch17-001
   - gof-ch17-004
+  - gof-ch18-005
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -9359,6 +9500,9 @@ by_tag:
   - gof-ch17-003
   oliver-wood:
   - ps-ch09-003
+  ollivander:
+  - gof-ch18-006
+  - gof-ch18-007
   ollivanders:
   - ps-ch05-007
   omnioculars:
@@ -9394,12 +9538,14 @@ by_tag:
   - gof-ch05-004
   - gof-ch13-001
   - gof-ch15-001
+  - gof-ch18-001
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
   - ps-ch06-002
   owlery:
   - gof-ch15-001
+  - gof-ch18-001
   - poa-ch09-004
   owls:
   - cos-ch04-003
@@ -9517,6 +9663,8 @@ by_tag:
   - ps-ch09-007
   phoenix:
   - cos-ch17-005
+  phoenix-feather:
+  - gof-ch18-007
   physical-evidence:
   - poa-ch17-002
   pipe-route:
@@ -9579,6 +9727,7 @@ by_tag:
   - cos-ch11-002
   - gof-ch10-006
   - gof-ch15-002
+  - gof-ch18-004
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -9703,6 +9852,7 @@ by_tag:
   - ps-ch17-001
   - ps-ch17-002
   professor-sprout:
+  - gof-ch18-002
   - ps-ch16-005
   professor-trelawney:
   - gof-ch10-005
@@ -9740,6 +9890,8 @@ by_tag:
   - ps-ch16-007
   quaffle:
   - cos-ch07-001
+  quick-quotes-quill:
+  - gof-ch18-005
   quidditch:
   - cos-ch01-001
   - cos-ch07-001
@@ -9870,6 +10022,7 @@ by_tag:
   rita-skeeter:
   - gof-ch10-003
   - gof-ch13-005
+  - gof-ch18-005
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -9979,6 +10132,8 @@ by_tag:
   - gof-ch12-002
   school-oversight:
   - cos-ch14-006
+  school-owls:
+  - gof-ch18-001
   school-place:
   - cos-ch01-004
   school-policy:
@@ -10097,6 +10252,8 @@ by_tag:
   - ps-ch04-006
   severus-snape:
   - poa-ch18-007
+  shared-resources:
+  - gof-ch18-001
   shrieking-shack:
   - poa-ch05-002
   - poa-ch14-005
@@ -10126,6 +10283,7 @@ by_tag:
   - cos-ch08-001
   sirius-black:
   - gof-ch02-006
+  - gof-ch18-001
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -10184,6 +10342,7 @@ by_tag:
   - cos-ch16-006
   snape:
   - cos-ch11-002
+  - gof-ch18-004
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -10339,6 +10498,7 @@ by_tag:
   - gof-ch03-002
   - gof-ch03-004
   - gof-ch15-001
+  - gof-ch18-001
   student-discipline:
   - cos-ch18-002
   - poa-ch19-002
@@ -10421,6 +10581,7 @@ by_tag:
   - cos-ch15-004
   - gof-ch13-003
   - gof-ch13-006
+  - gof-ch18-003
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -10576,6 +10737,8 @@ by_tag:
   - cos-ch13-004
   ton-tongue-toffee:
   - gof-ch06-003
+  tournament-ceremony:
+  - gof-ch18-006
   tournament-of-1792:
   - gof-ch15-003
   tournament-rules:
@@ -10623,6 +10786,9 @@ by_tag:
   - gof-ch17-004
   - gof-ch17-005
   - gof-ch17-006
+  - gof-ch18-002
+  - gof-ch18-005
+  - gof-ch18-006
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -10671,6 +10837,8 @@ by_tag:
   - gof-ch14-005
   unicorn-blood:
   - ps-ch15-007
+  unicorn-hair:
+  - gof-ch18-007
   unicorns:
   - cos-ch15-003
   - ps-ch15-005
@@ -10697,6 +10865,8 @@ by_tag:
   - ps-ch05-004
   veela:
   - gof-ch08-006
+  veela-hair:
+  - gof-ch18-007
   viktor-krum:
   - gof-ch16-007
   visiting-schools:
@@ -10736,9 +10906,12 @@ by_tag:
   - cos-ch03-005
   - poa-ch01-002
   wand-cores:
+  - gof-ch18-007
   - ps-ch05-007
   wand-discipline:
   - ps-ch04-007
+  wand-inspection:
+  - gof-ch18-006
   wand-law:
   - gof-ch09-005
   - gof-ch14-007
@@ -10750,10 +10923,13 @@ by_tag:
   - ps-ch15-005
   wand-use:
   - poa-ch20-003
+  wand-weighing:
+  - gof-ch18-006
   wands:
   - cos-ch04-002
   - cos-ch06-004
   - gof-ch17-006
+  - gof-ch18-007
   - poa-ch07-004
   - poa-ch07-005
   - ps-ch05-007
@@ -10835,6 +11011,8 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-005
   - poa-ch21-003
+  wizarding-press:
+  - gof-ch18-005
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002

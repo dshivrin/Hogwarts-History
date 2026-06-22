@@ -239,6 +239,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch06-006; Prisoner of Azkaban Chapter Six already records Hagrid's supervised hippogriff handling lesson; this entry adds the later Skrewt-rearing project, uncertain feeding methods, burns, stings, and student doubts about usefulness.
 **Notes:** The source does not explain the Skrewts' origin, Ministry classification, or whether the lesson plan was approved.
 
+### Chapter: Care of Magical Creatures and Practical Handling
+
+#### Section: Blast-Ended Skrewt growth and handling risks
+
+**Fact:** The lesson extends the Skrewt-rearing project, showing larger armored creatures, student leashing work, protective gloves, and a continuing safety problem.
+**Evidence:** "fix a leash on a skrewt"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1193, entry `gof-ch18-003`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch13-003; gof-ch13-003 introduces Hagrid's live Blast-Ended Skrewt project with cross-House students; this entry corroborates it and adds growth, armor, leashing, and dragon-hide glove precautions.
+**Notes:** The passage does not explain the creatures' origin or whether this curriculum had staff approval beyond Hagrid's lesson plan.
+
 ### Chapter: Charms
 
 #### Section: First-Year Spellwork
@@ -955,6 +968,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch10-002; Chapter Ten already recorded the distinction between student-store-cupboard ingredients and Snape's private stores; this entry corroborates the private-store evidence and adds the dungeon lesson and Deflating Draught response.
 **Notes:** The private-store access here is illicit, so it should not be treated as a normal student procedure.
 
+### Chapter: Potions, Practical Testing, and Discipline
+
+#### Section: Antidote brewing and detention penalties
+
+**Fact:** The passage combines ordinary school discipline with Potions curriculum evidence: detention and point loss follow corridor misconduct, while fourth-years brew antidotes for testing.
+**Evidence:** "Fifty points from Gryffindor and a detention each"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1198, entry `gof-ch18-004`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** curriculum_or_subject
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=cos-ch11-002; ps-ch14-007; cos-ch11-002 records Potions antidotes and dungeon instruction, while ps-ch14-007 records detention and point deductions. This entry adds fourth-year antidote brewing and a Snape-assigned detention after a corridor jinx exchange.
+**Notes:** Snape's punishment is personally biased in context, so it should not be generalized as a neutral disciplinary standard without corroboration.
+
 ### Chapter: Second-Year Curriculum
 
 #### Section: Defense Against the Dark Arts Practical Instruction
@@ -1004,6 +1030,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch06-005; Book 3 Chapter Six records McGonagall's Animagus demonstration and rarity context; this entry adds Hermione's homework lookup, the Ministry register fields, the seven-this-century count, and the unregistered Marauders exception.
 **Notes:** The chapter does not identify the register's formal title or say whether Hogwarts reports student Animagus attempts to the Ministry.
+
+### Chapter: Wands, Equipment, and Magical Materials
+
+#### Section: Champion wand materials and condition tests
+
+**Fact:** The ceremony supplies comparative wandlore, including measurements, woods, core materials, makers, condition checks, and diagnostic spell effects.
+**Evidence:** "hornbeam and dragon heartstring"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1205, entry `gof-ch18-007`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch05-007; ps-ch05-007 introduces Ollivanders, wand cores, Harry's wand selection, and the wand-chooses-wizard principle. This entry corroborates that wandlore and adds comparative champion wands plus formal condition testing.
+**Notes:** Wand details are specific to the champions and should not be overextended into a complete taxonomy of wand materials.
 
 ## Part: Appendix: Explicit References to Hogwarts: A History
 
@@ -2350,6 +2389,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=poa-ch22-002; Book 3 Chapter Twenty-Two records Fudge agreeing to remove dementors from Hogwarts after they endangered Harry; this entry is a later recap that preserves the broader Sirius and Wormtail context.
 **Notes:** The passage compresses a prior book's events and should be used as recap/corroboration rather than primary evidence for the crisis details.
 
+### Chapter: The Triwizard Year and Institutional Ceremonies
+
+#### Section: The Weighing of the Wands
+
+**Fact:** The tournament includes a formal wand-weighing ceremony where an expert inspects each champion's wand before the tasks.
+**Evidence:** "checking your wands to ensure that they are in good condition"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1204, entry `gof-ch18-006`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** later_editorial_note
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=false; Duplicate search for Triwizard, wand-weighing, and Ollivander terms did not return a likely existing ceremony entry.
+**Notes:** The passage does not state whether the ceremony existed in every historical tournament or was adapted for the 1994 revival.
+
 ### Chapter: The Triwizard Year and Institutional Security
 
 #### Section: Age Line enforcement and student attempts to bypass it
@@ -2527,6 +2579,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Confidence:** high
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch11-003; Goblet of Fire Chapter Eleven foreshadows changed rules, entry, and prize money; this entry names the tournament and adds the historical origin, participating schools, Ministry departments, age restriction, and selection process.
 **Notes:** Dumbledore presents the official account before the Goblet appears and before later security failures reveal weaknesses in the arrangements.
+
+### Chapter: The Triwizard Year and Public Records
+
+#### Section: Press access and distorted champion coverage
+
+**Fact:** The revived tournament includes press access and magical reporting tools, with Rita Skeeter shaping a public account of Hogwarts's youngest champion before the ceremony.
+**Evidence:** "Quick-Quotes Quill"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1201, entry `gof-ch18-005`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** later_editorial_note
+**Reference type:** explicit_in_universe_source
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch10-003; gof-ch13-005; gof-ch10-003 and gof-ch13-005 record earlier Rita Skeeter/Daily Prophet public-record material. This entry adds tournament press access at Hogwarts and the Quick-Quotes Quill's distortion of interview evidence.
+**Notes:** The quill's text is shown in draft form, not as the final published Daily Prophet article.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -4997,6 +5062,19 @@ This generated seed arranges archived source evidence into a readable draft stru
 **Duplicate / corroboration:** possible_duplicate=true; duplicate_of=ps-ch06-007; Chapter Six records the first-year boat approach across the lake; this entry corroborates the lake-and-castle geography from an aerial route and adds greenhouses and lawns.
 **Notes:** The route is observed from an illicit flying car rather than an official school approach, and the text does not provide exact distances or maps.
 
+### Chapter: Towers, Corridors, and Service Rooms
+
+#### Section: The Owlery and school owls
+
+**Fact:** The passage confirms that Hogwarts maintains school owls available for student use, with the Owlery functioning as shared correspondence infrastructure.
+**Evidence:** "anyone can use them"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1191, entry `gof-ch18-001`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** harry_era_confirmation
+**Reference type:** institutional_custom
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch15-001; gof-ch15-001 locates the Owlery in West Tower and describes the school owls; this entry corroborates that setting and adds the explicit rule that anyone may borrow a school owl.
+**Notes:** The scene does not state whether all correspondence destinations are permitted or whether staff monitor school owl use.
+
 ## Part: The Castle and Its Protections
 
 ### Chapter: Movement Limits and Anti-Apparition Protections
@@ -5030,6 +5108,17 @@ This generated seed arranges archived source evidence into a readable draft stru
 ## Part: The Four Houses
 
 ### Chapter: House Identity and Reputation
+
+#### Section: House loyalty during the Triwizard Tournament
+
+**Fact:** The chapter shows House loyalty shaping student and staff responses to the Triwizard selection, with Cedric's champion status treated as rare Hufflepuff glory.
+**Evidence:** "Head of Hufflepuff House"
+**Source:** Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, PDF page 1192, entry `gof-ch18-002`, `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+**Classification:** later_editorial_note
+**Reference type:** house_system
+**Confidence:** high
+**Duplicate / corroboration:** possible_duplicate=true; duplicate_of=gof-ch06-004; gof-ch15-004; gof-ch06-004 records Cedric's Hufflepuff Quidditch role and earlier Hufflepuff-over-Gryffindor match context; gof-ch15-004 records House symbols in the Great Hall. This entry adds House loyalty around Cedric as champion and Sprout's Head-of-House affiliation.
+**Notes:** The passage reflects Harry's perception of Sprout's reaction and does not quote Sprout directly.
 
 #### Section: Pre-Arrival Explanations of Houses
 

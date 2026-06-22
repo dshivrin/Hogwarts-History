@@ -28,6 +28,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Course Books and Dangerous Texts
   - Live Creature Handling and Safety
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
+- Care of Magical Creatures and Practical Handling
+  - Blast-Ended Skrewt growth and handling risks
 - Charms
   - First-Year Spellwork
 - Course Materials and Annual Booklists
@@ -89,6 +91,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
   - Private Stores, Dungeon Lessons, and Antidotes
+- Potions, Practical Testing, and Discipline
+  - Antidote brewing and detention penalties
 - Second-Year Curriculum
   - Defense Against the Dark Arts Practical Instruction
 - Timetables, Electives, and Exceptional Study Arrangements
@@ -96,6 +100,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Time-Turner Authorization for Overlapping Lessons
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
+- Wands, Equipment, and Magical Materials
+  - Champion wand materials and condition tests
 
 ## Appendix: Explicit References to Hogwarts: A History
 
@@ -269,6 +275,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry Potter's Fame at Hogwarts
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
+- The Triwizard Year and Institutional Ceremonies
+  - The Weighing of the Wands
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
@@ -286,6 +294,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Workload Before the Tournament
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
+- The Triwizard Year and Public Records
+  - Press access and distorted champion coverage
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Press and Public Records
@@ -584,6 +594,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Lake and Castle Approach
   - Arrival at Hogsmeade and First-Year Gathering
   - Express Route and Aerial Approach
+- Towers, Corridors, and Service Rooms
+  - The Owlery and school owls
 
 ## The Castle and Its Protections
 
@@ -598,6 +610,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## The Four Houses
 
 - House Identity and Reputation
+  - House loyalty during the Triwizard Tournament
   - Pre-Arrival Explanations of Houses
   - Pre-Sorting Rumors and Family Expectations
   - Slytherin Heir Claims and Parseltongue

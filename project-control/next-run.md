@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Eighteen - The Weighing of the Wands
-- Page range: 1188-1209
+- Chapter: Chapter Nineteen - The Hungarian Horntail
+- Page range: 1210-1229
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-18-the-weighing-of-the-wands.yaml`
+- Output YAML: `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
 
 ## Minimal Context
 

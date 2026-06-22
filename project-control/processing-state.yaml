@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 17
-  chapter_title: Chapter Seventeen - The Four Champions
-  page_start: 1174
-  page_end: 1187
-  output_yaml: sources/book-04/chapter-17-the-four-champions.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 18
   chapter_title: Chapter Eighteen - The Weighing of the Wands
   page_start: 1188
   page_end: 1209
   output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1210
   page_end: 1229
   output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 20
+  chapter_title: Chapter Twenty - The First Task
+  page_start: 1230
+  page_end: 1251
+  output_yaml: sources/book-04/chapter-20-the-first-task.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
