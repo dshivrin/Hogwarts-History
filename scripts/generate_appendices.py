@@ -89,12 +89,41 @@ def generate_explicit_references(entries: list[dict]) -> str:
         lines.append("No explicit references have been indexed yet.")
         return "\n".join(lines)
 
+    grouped: dict[tuple[str, str], list[dict]] = {}
     for entry in explicit:
-        lines.append(
-            "- "
-            f"{entry.get('_book')}, {entry.get('_chapter')}, "
-            f"entry `{entry.get('id')}`: {entry.get('source_note')}"
-        )
+        key = (str(entry.get("_book") or "Unknown book"), str(entry.get("_chapter") or "Unknown chapter"))
+        grouped.setdefault(key, []).append(entry)
+
+    for (book, chapter), group_entries in grouped.items():
+        lines.extend([f"## {book}, {chapter}", ""])
+        for entry in group_entries:
+            lines.append(f"- `{entry.get('id')}`")
+            quote = str(entry.get("quote_excerpt_short") or "").strip()
+            if quote:
+                lines.append(f'  - Quote: "{quote}"')
+            note = str(entry.get("source_note") or "").strip()
+            if note:
+                lines.append(f"  - Evidence note: {note}")
+            destination = " / ".join(
+                str(value)
+                for value in [
+                    entry.get("candidate_part"),
+                    entry.get("candidate_chapter"),
+                    entry.get("candidate_section"),
+                ]
+                if value
+            )
+            if destination:
+                lines.append(f"  - Destination: {destination}")
+            lines.append(
+                f"  - Source: PDF p. {entry.get('pdf_page')}, `{entry.get('_output_yaml')}`"
+            )
+            lines.append(
+                "  - "
+                f"Classification: {entry.get('era_classification')} | "
+                f"Confidence: {entry.get('confidence')}"
+            )
+        lines.append("")
     return "\n".join(lines)
 
 

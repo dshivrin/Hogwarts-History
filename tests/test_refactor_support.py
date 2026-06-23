@@ -24,6 +24,7 @@ class RefactorSupportTests(unittest.TestCase):
                 self._source_yaml("ps-ch07-001"),
                 encoding="utf-8",
             )
+            self._write_valid_seed_contract(root)
 
             self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 0)
 
@@ -46,8 +47,85 @@ class RefactorSupportTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            self._write_valid_seed_contract(root)
 
             self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 1)
+
+    def test_validate_book_seed_accepts_current_contract(self) -> None:
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            seed_dir = root / "book-seed"
+            seed_dir.mkdir(parents=True)
+            (seed_dir / "hogwarts-a-history-seed.md").write_text(
+                textwrap.dedent(
+                    """
+                    # Generated File
+
+                    # Hogwarts: A History - Evidence-Backed Seed
+
+                    ## Part: Academic Life and Curriculum
+                    """
+                ).lstrip(),
+                encoding="utf-8",
+            )
+
+            errors = validate_source_yaml.validate_book_seed(root, source_entry_count=1)
+
+        self.assertEqual(errors, [])
+
+    def test_validate_book_seed_rejects_old_fact_label(self) -> None:
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            seed_dir = root / "book-seed"
+            seed_dir.mkdir(parents=True)
+            (seed_dir / "hogwarts-a-history-seed.md").write_text(
+                textwrap.dedent(
+                    """
+                    # Generated File
+
+                    # Hogwarts: A History - Evidence-Backed Seed
+
+                    ## Part: Academic Life and Curriculum
+
+                    **Fact:** Old ledger output.
+                    """
+                ).lstrip(),
+                encoding="utf-8",
+            )
+
+            errors = validate_source_yaml.validate_book_seed(root, source_entry_count=1)
+
+        self.assertTrue(any("**Fact:**" in error for error in errors))
+
+    def test_validate_book_seed_rejects_negative_duplicate_noise(self) -> None:
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            seed_dir = root / "book-seed"
+            seed_dir.mkdir(parents=True)
+            (seed_dir / "hogwarts-a-history-seed.md").write_text(
+                textwrap.dedent(
+                    """
+                    # Generated File
+
+                    # Hogwarts: A History - Evidence-Backed Seed
+
+                    ## Part: Academic Life and Curriculum
+
+                    possible_duplicate=false
+                    """
+                ).lstrip(),
+                encoding="utf-8",
+            )
+
+            errors = validate_source_yaml.validate_book_seed(root, source_entry_count=1)
+
+        self.assertTrue(any("possible_duplicate=false" in error for error in errors))
 
     def test_build_tag_index_groups_entries_by_tag_with_output_paths(self) -> None:
         build_tag_index = importlib.import_module("scripts.build_tag_index")
@@ -196,9 +274,72 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertEqual(book_seed.count("## Part:"), 1)
         self.assertEqual(book_seed.count("### Chapter:"), 1)
         self.assertEqual(book_seed.count("#### Section:"), 1)
-        self.assertEqual(book_seed.count("**Fact:**"), 2)
-        self.assertIn("entry `ps-ch07-001`", book_seed)
+        self.assertIn("Summary: The available evidence includes 2 source items", book_seed)
+        self.assertIn(
+            "- **Direct evidence:** Hermione identifies the Great Hall ceiling enchantment.",
+            book_seed,
+        )
+        self.assertIn(
+            "Source: Harry Potter and the Philosopher's Stone, "
+            "Chapter Seven - The Sorting Hat, PDF p. 110, `ps-ch07-001`, "
+            "`sources/book-01/chapter-07-sorting-hat.yaml`",
+            book_seed,
+        )
+        self.assertIn(
+            "Classification: original_book_core_candidate | Confidence: high",
+            book_seed,
+        )
+        self.assertIn(
+            "Corroborates: `ps-ch07-001`. Corroborates Great Hall context.",
+            book_seed,
+        )
         self.assertIn("`sources/book-01/chapter-07-sorting-hat.yaml`", book_seed)
+        self.assertNotIn("**Fact:**", book_seed)
+        self.assertNotIn("**Duplicate / corroboration:**", book_seed)
+        self.assertNotIn("possible_duplicate=false", book_seed)
+
+    def test_generate_book_seed_uses_configured_order_before_unknowns(self) -> None:
+        generate_book_seed = importlib.import_module("scripts.generate_book_seed")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            source_dir = root / "sources" / "book-01"
+            control_dir = root / "project-control"
+            source_dir.mkdir(parents=True)
+            control_dir.mkdir(parents=True)
+            (source_dir / "chapter-07-sorting-hat.yaml").write_text(
+                self._ordered_book_seed_source_yaml(),
+                encoding="utf-8",
+            )
+            (control_dir / "book-seed-order.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    parts:
+                      - title: Zulu Part
+                        chapters:
+                          - title: Zulu Chapter
+                            sections:
+                              - Beta Section
+                      - title: Alpha Part
+                        chapters: []
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            self.assertEqual(generate_book_seed.main(["--root", str(root)]), 0)
+            book_seed = (root / "book-seed" / "hogwarts-a-history-seed.md").read_text()
+
+        self.assertLess(book_seed.index("## Part: Zulu Part"), book_seed.index("## Part: Alpha Part"))
+        self.assertLess(
+            book_seed.index("#### Section: Beta Section"),
+            book_seed.index("#### Section: Alpha Section"),
+        )
+        self.assertLess(
+            book_seed.index("#### Section: Alpha Section"),
+            book_seed.index("#### Section: Gamma Section"),
+        )
 
     def test_generate_appendices_includes_structured_open_questions(self) -> None:
         appendices = importlib.import_module("scripts.generate_appendices")
@@ -267,6 +408,63 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertIn("Castle Navigation and Magical Architecture", open_questions)
         self.assertIn("Does Hogwarts: A History explicitly describe", open_questions)
         self.assertIn("ps-ch07-999", open_questions)
+
+    def test_generate_appendices_enriches_explicit_reference_blocks(self) -> None:
+        appendices = importlib.import_module("scripts.generate_appendices")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            generated_dir = root / "appendix" / "generated"
+            source_dir = root / "sources" / "book-04"
+            source_dir.mkdir(parents=True)
+            (root / "project-control" / "structured-sources").mkdir(parents=True)
+            (root / "project-control" / "entry-index.yaml").write_text(
+                "version: 1\nby_entry: {}\n", encoding="utf-8"
+            )
+            (root / "project-control" / "source-index.yaml").write_text(
+                "version: 1\nprocessed_units: []\n", encoding="utf-8"
+            )
+            (root / "project-control" / "structured-sources" / "open-questions.yaml").write_text(
+                "version: 1\nquestions: []\n", encoding="utf-8"
+            )
+            (source_dir / "chapter-11-aboard-the-hogwarts-express.yaml").write_text(
+                self._explicit_references_source_yaml(),
+                encoding="utf-8",
+            )
+
+            appendices.ROOT = root
+            appendices.SOURCES_DIR = root / "sources"
+            appendices.GENERATED_DIR = generated_dir
+            appendices.ENTRY_INDEX_PATH = root / "project-control" / "entry-index.yaml"
+            appendices.SOURCE_INDEX_PATH = root / "project-control" / "source-index.yaml"
+            appendices.PROCESSING_STATE_PATH = root / "project-control" / "processing-state.yaml"
+            appendices.STRUCTURED_OPEN_QUESTIONS_PATH = (
+                root / "project-control" / "structured-sources" / "open-questions.yaml"
+            )
+
+            self.assertEqual(appendices.main(), 0)
+            explicit_refs = (
+                generated_dir / "explicit-hogwarts-a-history-references.md"
+            ).read_text()
+
+        self.assertTrue(explicit_refs.startswith("# Generated File"))
+        self.assertIn("## Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express", explicit_refs)
+        self.assertIn("- `gof-ch11-005`", explicit_refs)
+        self.assertIn('Quote: "Hogwarts hidden from outsiders"', explicit_refs)
+        self.assertIn("Evidence note: Hermione cites Hogwarts: A History", explicit_refs)
+        self.assertIn(
+            "Destination: Protective Magic and Security / The Castle and Its Concealments / "
+            "Hogwarts Hidden from Muggles",
+            explicit_refs,
+        )
+        self.assertIn(
+            "Source: PDF p. 1081, `sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml`",
+            explicit_refs,
+        )
+        self.assertIn("Classification: original_book_core_candidate | Confidence: high", explicit_refs)
+        self.assertIn("- `gof-ch11-006`", explicit_refs)
+        self.assertNotIn('Quote: ""', explicit_refs)
+        self.assertNotIn("Evidence note: None", explicit_refs)
 
     def test_generate_appendices_includes_review_flags_and_project_stats(self) -> None:
         appendices = importlib.import_module("scripts.generate_appendices")
@@ -557,6 +755,22 @@ class RefactorSupportTests(unittest.TestCase):
             encoding="utf-8",
         )
 
+    def _write_valid_seed_contract(self, root: Path) -> None:
+        seed_dir = root / "book-seed"
+        seed_dir.mkdir(parents=True)
+        (seed_dir / "hogwarts-a-history-seed.md").write_text(
+            textwrap.dedent(
+                """
+                # Generated File
+
+                # Hogwarts: A History - Evidence-Backed Seed
+
+                ## Part: Academic Life and Curriculum
+                """
+            ).lstrip(),
+            encoding="utf-8",
+        )
+
     def _source_yaml(self, entry_id: str, duplicate_check: str | None = None) -> str:
         duplicate_check = duplicate_check or (
             "    possible_duplicate: false\n"
@@ -738,6 +952,116 @@ class RefactorSupportTests(unittest.TestCase):
                     notes: Corroborates Great Hall context.
                   confidence: medium
                   limitations: Ceremony origin is not stated.
+                """
+            ).strip()
+            + "\n"
+        )
+
+    def _ordered_book_seed_source_yaml(self) -> str:
+        return (
+            textwrap.dedent(
+                """
+                source_unit:
+                  source_file: pdfs/harrypotter.pdf
+                  book: Harry Potter and the Philosopher's Stone
+                  chapter: Chapter Seven - The Sorting Hat
+                entries:
+                - id: order-001
+                  pdf_page: 110
+                  quote_excerpt_short: beta quote
+                  source_note: Beta section note.
+                  reference_type: institutional_custom
+                  era_classification: original_book_core_candidate
+                  candidate_part: Zulu Part
+                  candidate_chapter: Zulu Chapter
+                  candidate_section: Beta Section
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                  confidence: high
+                  limitations: ""
+                - id: order-002
+                  pdf_page: 111
+                  quote_excerpt_short: alpha quote
+                  source_note: Alpha section note.
+                  reference_type: institutional_custom
+                  era_classification: original_book_core_candidate
+                  candidate_part: Zulu Part
+                  candidate_chapter: Zulu Chapter
+                  candidate_section: Alpha Section
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                  confidence: high
+                  limitations: ""
+                - id: order-003
+                  pdf_page: 112
+                  quote_excerpt_short: gamma quote
+                  source_note: Gamma section note.
+                  reference_type: institutional_custom
+                  era_classification: original_book_core_candidate
+                  candidate_part: Zulu Part
+                  candidate_chapter: Zulu Chapter
+                  candidate_section: Gamma Section
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                  confidence: high
+                  limitations: ""
+                - id: order-004
+                  pdf_page: 113
+                  quote_excerpt_short: alpha part quote
+                  source_note: Alpha part note.
+                  reference_type: institutional_custom
+                  era_classification: original_book_core_candidate
+                  candidate_part: Alpha Part
+                  candidate_chapter: Alpha Chapter
+                  candidate_section: Alpha Section
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                  confidence: high
+                  limitations: ""
+                """
+            ).strip()
+            + "\n"
+        )
+
+    def _explicit_references_source_yaml(self) -> str:
+        return (
+            textwrap.dedent(
+                """
+                source_unit:
+                  source_file: pdfs/harrypotter.pdf
+                  book: Harry Potter and the Goblet of Fire
+                  chapter: Chapter Eleven - Aboard the Hogwarts Express
+                entries:
+                - id: gof-ch11-005
+                  pdf_page: 1081
+                  quote_excerpt_short: Hogwarts hidden from outsiders
+                  source_note: "Hermione cites Hogwarts: A History as the source for Hogwarts being hidden from outsiders."
+                  reference_type: explicit_hogwarts_a_history
+                  era_classification: original_book_core_candidate
+                  candidate_part: Protective Magic and Security
+                  candidate_chapter: The Castle and Its Concealments
+                  candidate_section: Hogwarts Hidden from Muggles
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                  confidence: high
+                  limitations: ""
+                - id: gof-ch11-006
+                  pdf_page: 1082
+                  reference_type: explicit_hogwarts_a_history
+                  era_classification: original_book_core_candidate
+                  candidate_part: Protective Magic and Security
+                  candidate_chapter: The Castle and Its Concealments
+                  candidate_section: Hogwarts Hidden from Muggles
+                  duplicate_check:
+                    possible_duplicate: false
+                    duplicate_of: null
+                  confidence: medium
+                  limitations: ""
                 """
             ).strip()
             + "\n"

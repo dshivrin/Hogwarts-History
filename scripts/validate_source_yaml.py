@@ -201,6 +201,54 @@ def validate_generated_files(root: Path) -> list[str]:
     return errors
 
 
+def count_source_entries(root: Path) -> int:
+    count = 0
+    for path in sorted((root / "sources").glob("book-*/*.yaml")):
+        try:
+            data = load_yaml(path)
+        except Exception:
+            continue
+        if not isinstance(data, dict):
+            continue
+        entries = data.get("entries") or []
+        if isinstance(entries, list):
+            count += len([entry for entry in entries if isinstance(entry, dict)])
+    return count
+
+
+def validate_book_seed(root: Path, source_entry_count: int) -> list[str]:
+    errors: list[str] = []
+    path = root / "book-seed" / "hogwarts-a-history-seed.md"
+    if source_entry_count > 0 and not path.exists():
+        return ["book-seed/hogwarts-a-history-seed.md: generated seed is missing"]
+    if not path.exists():
+        return errors
+
+    text = path.read_text(encoding="utf-8")
+    rel_path = rel(path, root)
+    if not text.startswith("# Generated File"):
+        errors.append(f"{rel_path}: generated seed must start with # Generated File")
+    if "# Hogwarts: A History - Evidence-Backed Seed" not in text:
+        errors.append(f"{rel_path}: missing evidence-backed seed heading")
+    if source_entry_count > 0 and "## Part:" not in text:
+        errors.append(f"{rel_path}: missing rendered part headings")
+    for old_label in [
+        "**Fact:**",
+        "**Duplicate / corroboration:**",
+        "possible_duplicate=false",
+    ]:
+        if old_label in text:
+            errors.append(f"{rel_path}: old output label remains: {old_label}")
+
+    appendix = root / "appendix" / "generated" / "explicit-hogwarts-a-history-references.md"
+    if appendix.exists() and not appendix.read_text(encoding="utf-8").startswith("# Generated File"):
+        errors.append(
+            "appendix/generated/explicit-hogwarts-a-history-references.md: "
+            "generated appendix must start with # Generated File"
+        )
+    return errors
+
+
 def validate_index_files(root: Path) -> list[str]:
     errors: list[str] = []
     for path in sorted((root / "project-control").glob("*index.yaml")):
@@ -216,7 +264,9 @@ def validate(root: Path, strict: bool) -> list[str]:
     era_classifications = schema_values(root, "Era Classifications")
     errors: list[str] = []
     errors.extend(validate_source_files(root, strict, reference_types, era_classifications))
+    source_entry_count = count_source_entries(root)
     errors.extend(validate_generated_files(root))
+    errors.extend(validate_book_seed(root, source_entry_count))
     errors.extend(validate_index_files(root))
     return errors
 
