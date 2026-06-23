@@ -27,13 +27,20 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classroom Creatures and Student Handling
   - Course Books and Dangerous Texts
   - Live Creature Handling and Safety
+  - Skrewt Rearing, Experimental Feeding, and Safety Risks
+- Care of Magical Creatures and Practical Handling
+  - Blast-Ended Skrewt growth and handling risks
 - Charms
   - First-Year Spellwork
+- Course Materials and Annual Booklists
+  - Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
 - Course Structure and Academic Progression
   - Advanced Defensive Magic
   - Defense Against the Dark Arts Creature Sequence
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
+  - Fourth-Year Divination and Arithmancy Contrast
+  - Fourth-Year Schedules, Electives, and Morning Owl Post
   - Third-Year Books and Supplies
   - Third-Year Charms and Divination Assessment
   - Third-Year Course Materials
@@ -64,6 +71,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Flying Lessons
   - First-Year Broom Training
 - Herbology and Magical Plant Safety
+  - Bubotuber Pus Collection and Medical Use
   - Mandrake Maturity and Restorative Use
   - Mandrake Restorative Use
 - History of Magic
@@ -83,6 +91,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
   - Private Stores, Dungeon Lessons, and Antidotes
+- Potions, Practical Testing, and Discipline
+  - Antidote brewing and detention penalties
 - Second-Year Curriculum
   - Defense Against the Dark Arts Practical Instruction
 - Timetables, Electives, and Exceptional Study Arrangements
@@ -90,11 +100,18 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Time-Turner Authorization for Overlapping Lessons
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
+- Wands, Equipment, and Magical Materials
+  - Champion wand materials and condition tests
 
 ## Appendix: Explicit References to Hogwarts: A History
 
 - Chamber of Secrets References
   - Library Demand for Hogwarts: A History
+
+## Castle Architecture and Everyday Magic
+
+- Portraits, Passwords, and House Entrances
+  - Portrait communication and Gryffindor access
 
 ## Ceremonies and School Traditions
 
@@ -106,6 +123,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Residence and Easter Stays
   - Holiday Residence and Winter Conditions
   - Small-Holiday Meals and Great Hall Layout
+- Dress, Uniform, and Formal Occasions
+  - Dress Robes on the Fourth-Year School List
 - End-of-Year Feast and House Cup
   - Crisis Feast, Canceled Exams, and Departure
   - Exam Results and Winning-House Decorations
@@ -130,11 +149,21 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Summer Return and End-of-Term Pickup
 - The Sorting Ceremony
   - Annual House Assignment in the Great Hall
+  - Annual Songs, Scroll, Stool, and House Tables
   - Arrival of First-Year Students
   - First-Year Lake Crossing
   - House Points and the House Cup
   - Pre-Arrival House Uncertainty
   - The Sorting Hat as Magical School Artifact
+
+## Ceremonies, Feasts, and Inter-School Relations
+
+- The Triwizard Tournament at Hogwarts
+  - Guest seating at House tables
+  - Welcoming visiting delegations
+- Visiting Schools and Magical Travel
+  - Beauxbatons carriage and Durmstrang lake ship
+  - Beauxbatons carriage as guest lodging
 
 ## Ghosts, Portraits, and Magical Residents
 
@@ -155,6 +184,27 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Peeves the Poltergeist
   - Wayfinding and Disruption
 
+## Hogwarts Curriculum and Instruction
+
+- Academic Progression and Examinations
+  - Fourth-year preparation for O.W.L. pressure
+- Defense Against the Dark Arts
+  - Fourth-year curse curriculum after Dark creature groundwork
+- Divination and Elective Study
+  - Fourth-year prediction homework and student skepticism
+
+## Hogwarts Governance and External Oversight
+
+- Ministry Policy and Headmaster Discretion
+  - Defense instruction beyond ordinary Ministry limits
+- Wizarding Law in the Classroom
+  - Unforgivable Curses and Azkaban sentencing
+
+## Houses, Heraldry, and School Identity
+
+- The Four Houses
+  - House colors, animals, and the Hogwarts coat of arms
+
 ## Later Editorial Notes
 
 - Alumni, War Memory, and Unreliable Testimony
@@ -165,6 +215,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slurs, Prejudice, and Student Achievement
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
+- Defense Against the Dark Arts Staffing and Ministry Links
+  - Alastor Moody's Auror Record Before Hogwarts
+  - Moody's Experience-Based Teaching Reputation
+  - Moody's Formal Appointment at the Start-of-Term Feast
+- Divination, Prophecy, and School Testimony
+  - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -191,9 +247,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
   - House-Elf Bondage and Manumission
   - House-Elf Magic and Old Wizarding Households
+  - Kitchen Labor, Cleaning, Fires, and Dormitory Service
   - Service Norms, Pay, and Regulation
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
+  - Ministry Guidelines for Non-Wizard Part-Humans
 - Magical Creatures in Public Wizarding Life
   - National Mascots and Event Control
 - Magical Evidence and Investigation
@@ -204,6 +262,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pettigrew's Concealed Animagus Identity
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Public Records and Wizarding Press Sources
+  - Daily Prophet Coverage of the World Cup Crisis
 - Quidditch Beyond Hogwarts
   - Spectator Devices and Tactical Literacy
 - Student Inventions and Magical Misconduct
@@ -215,19 +275,40 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry Potter's Fame at Hogwarts
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
+- The Triwizard Year and Institutional Ceremonies
+  - The Weighing of the Wands
 - The Triwizard Year and Institutional Security
+  - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
+  - Binding selection and failed eligibility safeguards
+  - Champion instructions for the first task
+  - Champion selection and the fourth name
   - Classified Ministry Announcement at Hogwarts
+  - Classified Rules, Entry, and Prize Foreshadowing
+  - Confunding the Goblet of Fire
+  - Entry procedure, Age Line, and binding contract
+  - Goblet lifecycle and closed selection
+  - Host-school fairness dispute
+  - Judges, tasks, scoring, and the Goblet selector
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
+  - The fourth champion anomaly
+  - Tournament History, Revival, Selection, and Age Restriction
+- The Triwizard Year and Public Records
+  - Press access and distorted champion coverage
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wizarding Press and Public Records
+  - Daily Prophet Coverage of Moody Before His Hogwarts Term
 - Wizarding Schools Beyond Britain
   - Beauxbatons and European Magical Education Sources
+  - Durmstrang, School Rivalry, and Dark Arts Curriculum
   - International Schools and Exchange Awareness
 - Wizarding Transport, Public Events, and Secrecy
   - Campsite Memory Charms and Anti-Muggle Security
   - International Portkey Coordination
+  - Muggle Memory Cleanup After Public Incidents
+  - Portkeys and Emergency Event Departure
   - Portkeys and Mass Event Travel
   - Quidditch World Cup Stadium Protections
   - World Cup Riot and Muggle Victim Rescue
@@ -285,12 +366,30 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Voldemort, Riddle, and Hogwarts Memory
   - Riddle Family Background and Muggle Records
 
+## Original Book Core
+
+- Arrival at Hogwarts
+  - First-Year Lake Crossing and Carriage Route
+- The Castle and Its Concealments
+  - Hogwarts Hidden from Muggles
+- The Hogwarts Express and School Travel
+  - Hidden Platform Access and Boarding Customs
+- Tournament History and Institutional Omissions
+  - Triwizard judging, 1792 disaster, and house-elf silence
+
 ## Origins of the School
 
 - The Founders' Rift
   - Admission, Bloodline Ideology, and Slytherin's Departure
 - The Founding of Hogwarts
   - Founders, Houses, and Castle Site
+  - The Sorting Hat's Founding Song
+
+## Peoples, Creatures, and Non-Human Communities
+
+- House-Elves and Hogwarts Labor
+  - Staff-side attitudes toward wages and freedom
+  - Student activism and house-elf legal status
 
 ## Protective Magic and Security
 
@@ -460,6 +559,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Expulsion, Wand Sanctions, and Staff Retention
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
+  - Prohibited Punishments, Detentions, and Head-of-House Referral
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
   - Crisis Visitor Restrictions
@@ -472,8 +572,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Transport and Secrecy
   - Floo Network Regulation and Muggle Fireplaces
 
+## School Governance and Rules
+
+- Start-of-Term Notices
+  - Forbidden Objects, Restricted Places, and Yearly Exceptions
+
 ## The Castle and Its Grounds
 
+- Arrival at Hogwarts
+  - Carriage Route, Gates, Entrance Hall, and Great Hall
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
 - Interior Rooms
@@ -487,10 +594,23 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Lake and Castle Approach
   - Arrival at Hogsmeade and First-Year Gathering
   - Express Route and Aerial Approach
+- Towers, Corridors, and Service Rooms
+  - The Owlery and school owls
+
+## The Castle and Its Protections
+
+- Movement Limits and Anti-Apparition Protections
+  - Apparition blocked inside the grounds
+
+## The Castle and Its Working Spaces
+
+- Towers, Corridors, and Service Rooms
+  - The Owlery in West Tower
 
 ## The Four Houses
 
 - House Identity and Reputation
+  - House loyalty during the Triwizard Tournament
   - Pre-Arrival Explanations of Houses
   - Pre-Sorting Rumors and Family Expectations
   - Slytherin Heir Claims and Parseltongue
@@ -532,3 +652,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Practical Preparation from Published Sources
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
+
+## Wars, Crises, and School Memory
+
+- Harry Potter and the End of the First Wizarding War
+  - Killing Curse survival and Potter-family testimony
+- The First Wizarding War in Later Hogwarts Teaching
+  - Imperius Curse culpability and postwar denials

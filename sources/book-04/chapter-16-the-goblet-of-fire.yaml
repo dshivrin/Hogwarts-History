@@ -1,0 +1,312 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  boundary_confidence: high
+  boundary_notes: Extracted from the processing-state bounded page range; page 1154 begins the chapter title and page 1173 ends with Harry Potter named by the Goblet of Fire.
+  processed_date: '2026-06-22'
+  processor_notes: 'Created from bounded extraction of PDF pages 1154-1173; no explicit Hogwarts: A History title reference found.'
+entries:
+- id: gof-ch16-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1155
+  printed_page: null
+  extracted_text_lines: 32-58
+  text_anchor:
+    start_phrase: The students from Beauxbatons had chosen seats
+    end_phrase: apparently impressed
+    local_occurrence_note: Visiting students choose House tables after entering the Great Hall for the Welcoming Feast.
+  nearby_context: Beauxbatons students sit at the Ravenclaw table while Durmstrang students sit at the Slytherin table, with Durmstrang pupils examining the Hall ceiling and tableware.
+  match_terms:
+  - visiting-schools
+  - great-hall
+  - house-tables
+  - beauxbatons
+  - durmstrang
+  quote_excerpt_short: The students from Beauxbatons had chosen seats
+  source_note: The chapter shows visiting delegations being integrated into the Great Hall by sitting at existing House tables rather than at separate guest tables.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - visiting-schools
+  - great-hall
+  - house-tables
+  - beauxbatons
+  - durmstrang
+  - welcoming-feast
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Tournament at Hogwarts
+  candidate_section: Guest seating at House tables
+  reason_for_placement: The passage gives practical hosting evidence for how Hogwarts received foreign students inside its normal House-table layout.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe how the castle adapted ordinary ceremonial spaces for inter-school hospitality.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-005; gof-ch12-001
+    notes: gof-ch15-005 covers the arrival instructions and Welcoming Feast; gof-ch12-001 covers Great Hall House-table seating. This entry adds observed guest seating choices during the feast.
+  confidence: high
+  limitations: The scene shows the 1994 revival only and does not state whether seating was assigned or chosen freely.
+- id: gof-ch16-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1159
+  printed_page: null
+  extracted_text_lines: 170-214
+  text_anchor:
+    start_phrase: The Triwizard Tournament is about to start
+    end_phrase: The champions will be chosen by an impartial selector
+    local_occurrence_note: Dumbledore explains the operating procedure immediately before Filch brings the casket.
+  nearby_context: Dumbledore introduces Bagman and Crouch, names the judging panel, and describes three tasks testing magical prowess, daring, deduction, and danger.
+  match_terms:
+  - triwizard-tournament
+  - goblet-of-fire
+  - judges
+  - three-tasks
+  - ministry-of-magic
+  quote_excerpt_short: The champions will be chosen by an impartial selector
+  source_note: Dumbledore gives the concrete operating procedure for the revived tournament, including its judges, three scored tasks, and the Goblet of Fire as selector.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - goblet-of-fire
+  - judges
+  - three-tasks
+  - ministry-of-magic
+  - international-magical-cooperation
+  - magical-games-and-sports
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Judges, tasks, scoring, and the Goblet selector
+  reason_for_placement: The passage turns the earlier announcement into observed tournament procedure at Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can document the 1994 revival's mechanics and the Ministry/school partnership that governed it.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007; gof-ch07-007
+    notes: gof-ch12-007 gives the full first announcement and gof-ch07-007 foreshadows the classified event; this entry adds the active judges, scoring structure, tasks, and Goblet selector.
+  confidence: high
+  limitations: The procedure is official as announced before the later fourth-name anomaly exposes weaknesses in the system.
+- id: gof-ch16-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1160
+  printed_page: null
+  extracted_text_lines: 221-239
+  text_anchor:
+    start_phrase: Anybody wishing to submit themselves as champion
+    end_phrase: binding, magical contract
+    local_occurrence_note: Dumbledore explains how names are submitted and what legal-magical obligation follows selection.
+  nearby_context: The Goblet will stand in the entrance hall for twenty-four hours, accept slips naming entrant and school, return three names at Halloween, and bind selected champions to finish.
+  match_terms:
+  - goblet-of-fire
+  - champion-selection
+  - entrance-hall
+  - age-line
+  - magical-contract
+  quote_excerpt_short: binding, magical contract
+  source_note: The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - goblet-of-fire
+  - champion-selection
+  - entrance-hall
+  - age-line
+  - magical-contract
+  - school-rules
+  - triwizard-tournament
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Entry procedure, Age Line, and binding contract
+  reason_for_placement: The passage gives the formal rule set students must follow to enter the revived tournament.
+  relevance_to_hogwarts_a_history: This is direct evidence for the legal-magical stakes of the 1994 Hogwarts tournament and its attempted age safeguard.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007
+    notes: gof-ch12-007 already records the Halloween selection and seventeen-plus restriction; this entry adds name-and-school submission, the Age Line, and the binding magical contract.
+  confidence: high
+  limitations: The chapter states the intended safeguards but not their exact spellwork or later failure mode.
+- id: gof-ch16-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1164
+  printed_page: null
+  extracted_text_lines: 339-360
+  text_anchor:
+    start_phrase: Fred Weasley - Hogwarts
+    end_phrase: set off for the hospital wing
+    local_occurrence_note: Fred and George attempt to cross the Age Line after taking Aging Potion.
+  nearby_context: The golden circle throws the twins out, gives them white beards, and Dumbledore notes that Madam Pomfrey is already treating two other failed underage entrants.
+  match_terms:
+  - age-line
+  - aging-potion
+  - underage-students
+  - madam-pomfrey
+  - hospital-wing
+  quote_excerpt_short: both twins were hurled out
+  source_note: The Age Line actively repels underage entrants despite Aging Potion and produces enough magical side effects to send multiple students to Madam Pomfrey.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - age-line
+  - aging-potion
+  - underage-students
+  - madam-pomfrey
+  - hospital-wing
+  - goblet-of-fire
+  - entrance-hall
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Age Line enforcement and student attempts to bypass it
+  reason_for_placement: The incident tests the announced safeguard and shows how Hogwarts handled minor magical injuries from enforcement.
+  relevance_to_hogwarts_a_history: This supplies observed evidence for protective enchantments used during the tournament and for student attempts to defeat school restrictions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007
+    notes: gof-ch12-007 records the age restriction before implementation; this entry documents actual Age Line enforcement and hospital-wing aftermath.
+  confidence: high
+  limitations: The scene proves the line defeated simple aging tricks but not stronger attempts or outside interference.
+- id: gof-ch16-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1166
+  printed_page: null
+  extracted_text_lines: 406-434
+  text_anchor:
+    start_phrase: The students from Beauxbatons were coming through
+    end_phrase: grazing in a makeshift paddock alongside it
+    local_occurrence_note: Harry, Ron, and Hermione follow the Beauxbatons party toward Hagrid's cabin.
+  nearby_context: Beauxbatons students leave the entrance hall, cross the lawn, and return to the giant carriage parked near Hagrid's cabin with its winged horses in a temporary paddock.
+  match_terms:
+  - beauxbatons
+  - carriage
+  - guest-lodging
+  - grounds
+  - winged-horses
+  quote_excerpt_short: students were climbing back inside it
+  source_note: The Beauxbatons delegation appears to sleep in its giant carriage on the grounds, with the horses kept nearby in a temporary paddock.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - beauxbatons
+  - carriage
+  - guest-lodging
+  - hogwarts-grounds
+  - winged-horses
+  - hagrid-cabin
+  - triwizard-tournament
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: Visiting Schools and Magical Travel
+  candidate_section: Beauxbatons carriage as guest lodging
+  reason_for_placement: The passage extends the arrival evidence into overnight hosting arrangements on Hogwarts grounds.
+  relevance_to_hogwarts_a_history: This can document how Hogwarts hosted foreign delegations without necessarily housing them inside the castle.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-007
+    notes: gof-ch15-007 records the Beauxbatons carriage arrival; this entry adds that the carriage remains on the grounds as apparent lodging with a paddock for the horses.
+  confidence: high
+  limitations: The passage strongly implies lodging but does not explicitly say the students sleep there overnight.
+- id: gof-ch16-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1168
+  printed_page: null
+  extracted_text_lines: 487-502
+  text_anchor:
+    start_phrase: arguing with Hermione about house-elves
+    end_phrase: no, nothin' doin', Hermione
+    local_occurrence_note: Hagrid refuses to join S.P.E.W. while the trio spends Halloween afternoon in his cabin.
+  nearby_context: Hermione argues for freedom and wages, cites Dobby's happiness after freedom, and Hagrid frames house-elf service as natural and desired by most elves.
+  match_terms:
+  - house-elves
+  - spew
+  - wages
+  - freedom
+  - hagrid
+  quote_excerpt_short: It's in their nature ter look after humans
+  source_note: Hagrid articulates the pro-status-quo view of house-elf labor, arguing that most elves want unpaid work and would be insulted by wages or freedom.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - spew
+  - magical-servitude
+  - wages
+  - freedom
+  - hagrid
+  - social-attitudes
+  candidate_part: Peoples, Creatures, and Non-Human Communities
+  candidate_chapter: House-Elves and Hogwarts Labor
+  candidate_section: Staff-side attitudes toward wages and freedom
+  reason_for_placement: The passage gives a Hogwarts staff-adjacent defense of the labor system Hermione is challenging.
+  relevance_to_hogwarts_a_history: A later edition can use this to show why house-elf labor persisted and how anti-reform arguments appeared inside the Hogwarts community.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch14-007; gof-ch12-004
+    notes: gof-ch14-007 covers S.P.E.W.'s legal framing and gof-ch12-004 covers Hogwarts kitchen labor; this entry adds Hagrid's explicit anti-reform rationale.
+  confidence: high
+  limitations: Hagrid's claim is a social attitude rather than independent testimony from most Hogwarts house-elves.
+- id: gof-ch16-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Sixteen - The Goblet of Fire
+  chapter_start_pdf_page: 1154
+  chapter_end_pdf_page: 1173
+  pdf_page: 1171
+  printed_page: null
+  extracted_text_lines: 573-641
+  text_anchor:
+    start_phrase: the goblet is almost ready to make its decision
+    end_phrase: Harry Potter
+    local_occurrence_note: The Halloween feast reaches the champion-selection ceremony.
+  nearby_context: Dumbledore directs champions to the side chamber, the Goblet names Krum, Fleur, and Cedric, and then unexpectedly emits Harry's name as a fourth selection.
+  match_terms:
+  - goblet-of-fire
+  - champion-selection
+  - cedric-diggory
+  - viktor-krum
+  - fleur-delacour
+  - harry-potter
+  quote_excerpt_short: The Hogwarts champion is Cedric Diggory
+  source_note: The Goblet selects Viktor Krum, Fleur Delacour, and Cedric Diggory as official champions before producing Harry Potter's unexpected fourth name.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - goblet-of-fire
+  - champion-selection
+  - cedric-diggory
+  - viktor-krum
+  - fleur-delacour
+  - harry-potter
+  - triwizard-tournament
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Champion selection and the fourth name
+  reason_for_placement: The selection ceremony is the public turning point where the tournament's official procedure produces an anomalous result.
+  relevance_to_hogwarts_a_history: This is central later-editorial evidence for the 1994 tournament crisis and the failure of apparently impartial selection controls.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007
+    notes: gof-ch12-007 anticipates Halloween champion selection and age restrictions; this entry records the actual selected champions and the anomalous fourth name.
+  confidence: high
+  limitations: The chapter ends at Harry's name and does not yet explain how the Goblet was deceived or how officials respond.

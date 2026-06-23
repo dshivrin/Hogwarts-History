@@ -72,3 +72,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch07`: Harry Potter and the Goblet of Fire, Chapter Seven - Bagman and Crouch, pages 1009-1025, 7 entries, 0 explicit references.
 - `gof-ch08`: Harry Potter and the Goblet of Fire, Chapter Eight - The Quidditch World Cup, pages 1026-1043, 6 entries, 0 explicit references.
 - `gof-ch09`: Harry Potter and the Goblet of Fire, Chapter Nine - The Dark Mark, pages 1044-1066, 7 entries, 0 explicit references.
+- `gof-ch10`: Harry Potter and the Goblet of Fire, Chapter Ten - Mayhem at the Ministry, pages 1067-1077, 7 entries, 0 explicit references.
+- `gof-ch11`: Harry Potter and the Goblet of Fire, Chapter Eleven - Aboard the Hogwarts Express, pages 1078-1088, 6 entries, 1 explicit references.
+- `gof-ch12`: Harry Potter and the Goblet of Fire, Chapter Twelve - The Triwizard Tournament, pages 1089-1106, 7 entries, 0 explicit references.
+- `gof-ch13`: Harry Potter and the Goblet of Fire, Chapter Thirteen - Mad-Eye Moody, pages 1107-1120, 7 entries, 0 explicit references.
+- `gof-ch14`: Harry Potter and the Goblet of Fire, Chapter Fourteen - The Unforgivable Curses, pages 1121-1136, 7 entries, 0 explicit references.
+- `gof-ch15`: Harry Potter and the Goblet of Fire, Chapter Fifteen - Beauxbatons and Durmstrang, pages 1137-1153, 7 entries, 1 explicit references.
+- `gof-ch16`: Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, pages 1154-1173, 7 entries, 0 explicit references.
+- `gof-ch17`: Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, pages 1174-1187, 7 entries, 0 explicit references.
+- `gof-ch18`: Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, pages 1188-1209, 7 entries, 0 explicit references.

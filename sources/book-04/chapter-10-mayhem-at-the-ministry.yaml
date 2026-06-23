@@ -1,0 +1,312 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  boundary_confidence: high
+  boundary_notes: Chapter Ten range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Ten starts on PDF page 1067 and Chapter Eleven starts on PDF page 1078, so only PDF pages 1067-1077 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Ten. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch10-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1067
+  printed_page: not available
+  extracted_text_lines: PDF page 1067, lines 6-20 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Mr. Roberts had a strange
+    end_phrase: old rubber tire back to Stoatshead Hill
+    local_occurrence_note: Mr. Weasley explains Roberts's disorientation after the memory modification before the family joins the urgent Portkey queue.
+  nearby_context: The morning after the Dark Mark, the Weasleys leave the campsite, pass the dazed Muggle site manager, and return by emergency Portkey from Basil's departure point.
+  match_terms:
+  - Mr. Roberts
+  - memory modified
+  - Portkeys
+  - Basil
+  - old rubber tire
+  - Stoatshead Hill
+  quote_excerpt_short: "when a person's memory's modified"
+  source_note: The chapter records the immediate aftereffect of Ministry memory modification on a Muggle witness after a large public secrecy breach.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - memory-charms
+  - muggle-secrecy
+  - roberts-family
+  - ministry-of-magic
+  - quidditch-world-cup
+  - post-riot-cleanup
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: Muggle Memory Cleanup After Public Incidents
+  reason_for_placement: The passage is outside Hogwarts, but it gives practical evidence for the secrecy and memory-cleanup systems surrounding a school-linked tournament year.
+  relevance_to_hogwarts_a_history: This can support later editorial notes explaining the Ministry secrecy machinery operating around public magical incidents involving students and families before term begins.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch09-007
+    notes: Book 4 Chapter Nine records the Roberts family's memory cleanup after the riot; this entry corroborates it with the next-morning effect on Mr. Roberts.
+  confidence: high
+  limitations: The passage describes Roberts's disorientation and Mr. Weasley's explanation, but it does not name the exact Memory Charm used or the Ministry personnel who cast it.
+- id: gof-ch10-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1067
+  printed_page: not available
+  extracted_text_lines: PDF page 1067, lines 15-20 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: the spot where the Portkeys lay
+    end_phrase: before the sun had really risen
+    local_occurrence_note: Witches and wizards crowd around Basil to leave the campsite quickly, and the Weasleys take a tire Portkey back to Stoatshead Hill.
+  nearby_context: After the World Cup security crisis, Basil is still managing Portkeys, now under urgent departure pressure from frightened attendees.
+  match_terms:
+  - Portkeys
+  - Basil
+  - campsite
+  - old rubber tire
+  - Stoatshead Hill
+  - evacuation
+  quote_excerpt_short: "clamoring to get away"
+  source_note: The chapter shows Portkeys serving not only scheduled arrivals but also rapid post-incident departures from a mass wizarding event.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - portkeys
+  - magical-transportation
+  - quidditch-world-cup
+  - emergency-departure
+  - ministry-logistics
+  - public-event-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: Portkeys and Emergency Event Departure
+  reason_for_placement: The evidence extends earlier World Cup travel logistics from planned movement to emergency dispersal after a public-security failure.
+  relevance_to_hogwarts_a_history: This can help later editors contrast routine Hogwarts travel with Ministry-managed public-event transport and emergency mobility systems.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch06-002
+    notes: Book 4 Chapter Six records scheduled World Cup Portkeys around Britain; this entry corroborates that system and adds urgent post-riot departure use, while Book 4 Chapter Seven adds international coordination.
+  confidence: high
+  limitations: The passage does not explain whether the emergency departures used the original schedule, newly assigned Portkeys, or ad hoc Ministry coordination.
+- id: gof-ch10-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1068
+  printed_page: not available
+  extracted_text_lines: PDF page 1068, lines 30-69; PDF page 1069, lines 85-103 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: SCENES OF TERROR
+    end_phrase: this is going to take some smoothing over
+    local_occurrence_note: Mrs. Weasley has the Daily Prophet account of the Dark Mark, and Mr. Weasley reads Skeeter's report on Ministry statements and rumors.
+  nearby_context: The Daily Prophet headline and Rita Skeeter's article turn the World Cup incident into a public Ministry crisis, including claims about lax security, unnamed officials, and rumored bodies.
+  match_terms:
+  - Daily Prophet
+  - Rita Skeeter
+  - Ministry blunders
+  - Dark Mark
+  - lax security
+  - rumors
+  quote_excerpt_short: "SCENES OF TERROR AT THE QUIDDITCH WORLD CUP"
+  source_note: The chapter provides a named wizarding newspaper source for public reporting on the Dark Mark incident and Ministry crisis response.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - rita-skeeter
+  - ministry-of-magic
+  - quidditch-world-cup
+  - public-event-security
+  - dark-mark
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Public Records and Wizarding Press Sources
+  candidate_section: Daily Prophet Coverage of the World Cup Crisis
+  reason_for_placement: The article is not Hogwarts evidence, but it is a concrete in-universe source that records the public narrative around a security crisis preceding the Triwizard school year.
+  relevance_to_hogwarts_a_history: This can support later editorial apparatus that distinguishes observed events from press accounts and Ministry public relations during the year Hogwarts hosts an international tournament.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned broad Daily Prophet and World Cup security entries, but no prior seed specifically records Skeeter's World Cup article or Mr. Weasley's resulting Ministry crisis work.
+  confidence: high
+  limitations: Rita Skeeter's article is contested by Mr. Weasley, so it should be used as evidence of public reporting and rumor circulation, not as proof of casualties.
+- id: gof-ch10-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1069
+  printed_page: not available
+  extracted_text_lines: PDF page 1069, lines 72-77 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: quibbling about cauldron thickness
+    end_phrase: Guidelines for the Treatment of Non-Wizard Part-Humans
+    local_occurrence_note: Percy objects to Rita Skeeter's vampire remark by citing paragraph twelve of a named Ministry guideline.
+  nearby_context: In defending Ministry work after the World Cup, Percy cites an explicit policy document governing non-wizard part-humans.
+  match_terms:
+  - Guidelines for the Treatment of Non-Wizard Part-Humans
+  - paragraph twelve
+  - vampires
+  - Ministry of Magic
+  - cauldron thickness
+  quote_excerpt_short: "Guidelines for the Treatment of Non-Wizard Part-Humans"
+  source_note: The chapter names a Ministry guideline document and shows Percy treating it as authoritative for vampire or part-human policy boundaries.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - in-universe-source
+  - ministry-guidelines
+  - part-humans
+  - vampires
+  - magical-law
+  - creature-regulation
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Law, Creatures, and Magical Citizenship
+  candidate_section: Ministry Guidelines for Non-Wizard Part-Humans
+  reason_for_placement: The named guideline is not a Hogwarts text, but it supplies legal-cultural context for beings and classifications that affect magical education and Defense Against the Dark Arts framing.
+  relevance_to_hogwarts_a_history: This can support later notes on how Hogwarts-adjacent creature and being categories draw on wider Ministry classifications rather than school custom alone.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search found a prior vampire-related Defense Against the Dark Arts seed, but no prior entry naming these Guidelines or paragraph twelve.
+  confidence: medium
+  limitations: Percy's sentence is interrupted, so the passage names the guideline but does not provide paragraph twelve's complete rule or its practical effect.
+- id: gof-ch10-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1071
+  printed_page: not available
+  extracted_text_lines: PDF page 1071, lines 147-158 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: remember what Professor Trelawney said
+    end_phrase: that night Wormtail escaped
+    local_occurrence_note: Harry distinguishes Trelawney's true trance from her ordinary classroom behavior and links it to Wormtail's escape.
+  nearby_context: While discussing scar pain, Voldemort, and the Dark Mark, Harry recalls Trelawney's end-of-year prophecy about the Dark Lord's servant returning.
+  match_terms:
+  - Professor Trelawney
+  - Divination
+  - trance
+  - Dark Lord
+  - servant
+  - Wormtail
+  quote_excerpt_short: "she went into a trance"
+  source_note: The chapter corroborates Trelawney's rare true-prophecy evidence and records Harry's interpretation that the servant in the prophecy was Wormtail.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - divination
+  - professor-trelawney
+  - prophecy
+  - wormtail
+  - voldemort
+  - true-seers
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Divination, Prophecy, and School Testimony
+  candidate_section: Trelawney's True Prophecy and Later Corroboration
+  reason_for_placement: The passage revisits a Hogwarts teacher's prophetic episode and ties it to later events, while remaining post-1984 student-era evidence.
+  relevance_to_hogwarts_a_history: This can support later editorial discussion of Divination's contested classroom reputation versus rare, consequential prophecy evidence at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch16-005
+    notes: Book 3 Chapter Sixteen records Trelawney's true-prediction episode directly; this entry corroborates it through Harry's later summary and Wormtail interpretation.
+  confidence: medium
+  limitations: The evidence is Harry's recollection and interpretation, not a fresh transcription of the original prophecy.
+- id: gof-ch10-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1073
+  printed_page: not available
+  extracted_text_lines: PDF page 1073, lines 237-243; PDF page 1075, lines 322-331 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: The Standard Book of Spells, Grade 4
+    end_phrase: essence of belladonna
+    local_occurrence_note: The chapter names fourth-year books and Harry's renewed quills, parchment, and potion-making ingredients.
+  nearby_context: Hermione reads the fourth-grade Standard Book of Spells before term, Ginny repairs One Thousand Magical Herbs and Fungi, and Harry receives Diagon Alley supplies including potions refills.
+  match_terms:
+  - The Standard Book of Spells, Grade 4
+  - One Thousand Magical Herbs and Fungi
+  - quills
+  - parchment
+  - potion-making kit
+  - essence of belladonna
+  quote_excerpt_short: "The Standard Book of Spells, Grade 4"
+  source_note: The chapter gives fourth-year materials evidence, including named course books, writing supplies, and replenished potion ingredients.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - fourth-year
+  - course-books
+  - standard-book-of-spells
+  - herbology
+  - potions
+  - school-supplies
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Materials and Annual Booklists
+  candidate_section: Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
+  reason_for_placement: The passage supplies concrete fourth-year book and equipment evidence tied to annual pre-term school preparation.
+  relevance_to_hogwarts_a_history: This can support a curriculum and supplies section tracking how course materials scale by year and subject.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch04-003
+    notes: Book 3 Chapter Four records third-year booklist and supply purchases; this entry corroborates the recurring pattern and adds fourth-year spellbook, Herbology text, and potion-refill details.
+  confidence: high
+  limitations: The passage names materials but does not quote the full fourth-year school list or identify which items are required for which teacher.
+- id: gof-ch10-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Ten - Mayhem at the Ministry
+  chapter_start_pdf_page: 1067
+  chapter_end_pdf_page: 1077
+  pdf_page: 1076
+  printed_page: not available
+  extracted_text_lines: PDF page 1076, lines 341-362; PDF page 1077, lines 369-375 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: freshly laundered Hogwarts robes
+    end_phrase: they were bottle green instead of black
+    local_occurrence_note: Mrs. Weasley sorts Hogwarts robes, identifies Ron's dress robes as a school-list item, and contrasts Harry's formal robes with ordinary school ones.
+  nearby_context: On the night before returning to Hogwarts, Ron discovers secondhand dress robes bought because the school list requires formal robes this year.
+  match_terms:
+  - Hogwarts robes
+  - dress robes
+  - school list
+  - formal occasions
+  - secondhand
+  - school ones
+  quote_excerpt_short: "robes for formal occasions"
+  source_note: The chapter confirms that the fourth-year school list requires dress robes for formal occasions and distinguishes them from ordinary black school robes.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dress-robes
+  - school-list
+  - formal-occasions
+  - hogwarts-robes
+  - term-preparation
+  - fourth-year
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Dress, Uniform, and Formal Occasions
+  candidate_section: Dress Robes on the Fourth-Year School List
+  reason_for_placement: The passage directly ties formal attire to a Hogwarts school-list requirement and foreshadows school-hosted formal occasions.
+  relevance_to_hogwarts_a_history: This can support future coverage of student clothing requirements, ordinary robes, and the institutional expectation of formal events.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned general robe and school-list entries, but no prior seed specifically records dress robes as a formal-occasion school-list requirement.
+  confidence: high
+  limitations: The passage does not yet identify the formal occasion, its rules, or whether dress robes were required in years without the Triwizard Tournament.
