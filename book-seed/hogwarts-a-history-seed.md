@@ -377,6 +377,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter loca
   - Reference type: magical_architecture
   - Notes: The password shown is Harry-era and prejudicial; it should not be treated as a stable historical Slytherin password.
 
+#### Section: Password Access and Fireplace Communication
+
+Summary: The available evidence includes 1 source item, led by: The Gryffindor common-room fireplace can carry an outside magical conversation into Hogwarts, creating both access and Ministry-security implications.
+
+- **Corroboration:** The Gryffindor common-room fireplace can carry an outside magical conversation into Hogwarts, creating both access and Ministry-security implications.
+  - Quote: "Sirius's head was sitting in the fire"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1224, `gof-ch19-007`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch17-007`, `poa-ch08-004`. gof-ch17-007 and poa-ch08-004 cover Fat Lady/password access and portrait behavior; this entry adds the common-room fire as a covert communication route with Ministry implications.
+  - Notes: The passage does not name the fireplace magic mechanism or specify whether the fire is normally monitored.
+
 ### Chapter: Changing Staircases and Responsive Doors
 
 #### Section: Navigating the Castle
@@ -746,6 +758,18 @@ Summary: The available evidence includes 8 source items, led by: The chapter giv
   - Reference type: school_rule_or_policy
   - Corroborates: `poa-ch01-005`. Book 3 Chapter One records the formal third-year Hogsmeade permission-form requirement; this entry adds Sirius's godfather permission note and Harry's expectation that Dumbledore will accept it.
   - Notes: The chapter records Harry's expectation, not Dumbledore's actual written acceptance or the school's formal rule for godparent authorization.
+
+#### Section: Hogsmeade Weekend Permissions and Village Context
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates Hogsmeade visits as a privilege for third-year-and-above students and identifies the village as Britain's only all-wizard settlement.
+
+- **Corroboration:** The chapter corroborates Hogsmeade visits as a privilege for third-year-and-above students and identifies the village as Britain's only all-wizard settlement.
+  - Quote: "the only all-wizard village in Britain"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1213, `gof-ch19-001`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch12-005`, `poa-ch08-003`. gof-ch12-005 records Dumbledore's Hogsmeade age restriction notice and poa-ch08-003 records permission-form enforcement; this entry adds the third-year-and-above phrasing during an observed visit and the all-wizard-village context.
+  - Notes: The passage does not describe permission-form collection or staff supervision for this particular visit.
 
 #### Section: Platform Barrier Access and Secrecy
 
@@ -3634,6 +3658,20 @@ Summary: The available evidence includes 3 source items, led by: The match shows
   - Corroborates: `ps-ch11-006`. Chapter Eleven recorded the observed broom interference and Hagrid's Dark Magic assessment; this entry identifies Quirrell as the attacker and Snape's countercurse and refereeing as protective actions.
   - Notes: The incident is specific to Harry's first year and does not establish a general Hogwarts policy for preventing magical interference in Quidditch.
 
+### Chapter: Staff Expertise and Magical Surveillance
+
+#### Section: Moody's Eye and Anti-Concealment Detection
+
+Summary: The available evidence includes 1 source item, led by: Moody's classroom security habits and magical eye demonstrate a level of surveillance that can defeat an Invisibility Cloak.
+
+- **Corroboration:** Moody's classroom security habits and magical eye demonstrate a level of surveillance that can defeat an Invisibility Cloak.
+  - Quote: "it can see through Invisibility Cloaks"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1217, `gof-ch19-003`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `poa-ch17-004`, `poa-ch14-004`. poa-ch17-004 records the Marauder's Map tracking Invisibility Cloak users and poa-ch14-004 records cloak-assisted evasion; this entry adds Moody's personal magical-eye detection.
+  - Notes: The eye is Moody's personal artifact, not a general Hogwarts security enchantment.
+
 ### Chapter: The Chamber of Secrets
 
 #### Section: Legend, Hidden Room, and Heir Language
@@ -4521,6 +4559,18 @@ Summary: The available evidence includes 1 source item, led by: The tournament e
   - Corroborates: `gof-ch12-007`. gof-ch12-007 already records the Halloween selection and seventeen-plus restriction; this entry adds name-and-school submission, the Age Line, and the binding magical contract.
   - Notes: The chapter states the intended safeguards but not their exact spellwork or later failure mode.
 
+#### Section: First-Task Secrecy and Informal Leaks
+
+Summary: The available evidence includes 1 source item, led by: The first task's secrecy is operationally fragile, with Hagrid, Madame Maxime, Karkaroff, and Harry all gaining advance knowledge before the task.
+
+- **Corroboration:** The first task's secrecy is operationally fragile, with Hagrid, Madame Maxime, Karkaroff, and Harry all gaining advance knowledge before the task.
+  - Quote: "The champions aren't supposed to know"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1222, `gof-ch19-004`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch17-006`, `gof-ch18-006`. gof-ch17-006 records the formal first-task rules and staged information, while gof-ch18-006 records a pre-task ceremony; this entry adds the breach of secrecy around the dragon task.
+  - Notes: The passage shows informal leaks but not the official response, if any, before the task.
+
 #### Section: Goblet lifecycle and closed selection
 
 Summary: The available evidence includes 1 source item, led by: The Goblet cannot simply be reopened for a corrective draw; once extinguished, it will not reignite until the next tournament, leaving the selected champions bound.
@@ -4556,6 +4606,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore gives
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-007`, `gof-ch07-007`. gof-ch12-007 gives the full first announcement and gof-ch07-007 foreshadows the classified event; this entry adds the active judges, scoring structure, tasks, and Goblet selector.
   - Notes: The procedure is official as announced before the later fourth-name anomaly exposes weaknesses in the system.
+
+#### Section: Karkaroff, Moody, and Durmstrang Risk
+
+Summary: The available evidence includes 1 source item, led by: Sirius links Karkaroff's Death Eater history, Moody's Auror background, and Durmstrang's Dark Arts reputation to security concerns during the tournament year.
+
+- **Corroboration:** Sirius links Karkaroff's Death Eater history, Moody's Auror background, and Durmstrang's Dark Arts reputation to security concerns during the tournament year.
+  - Quote: "Dumbledore wanted an Auror at Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1225, `gof-ch19-006`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch13-007`, `gof-ch11-004`. gof-ch13-007 covers Moody's practical DADA reputation and gof-ch11-004 covers Durmstrang's Dark Arts reputation; this entry adds Karkaroff's Death Eater past and the inferred Auror-at-Hogwarts security rationale.
+  - Notes: Sirius's interpretation of Dumbledore's motive is informed but not an official staffing statement.
 
 #### Section: Ministry Workload Before the Tournament
 
@@ -5017,6 +5079,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: historical_claim
   - Notes: Hagrid's Hogwarts office is not stated in this chapter, so the institutional connection depends on later sources.
 
+### Chapter: House-Elves and Hogwarts Labor
+
+#### Section: Student Activism and Kitchen Access
+
+Summary: The available evidence includes 1 source item, led by: Hermione's house-elf activism moves from membership records toward direct engagement with the Hogwarts kitchens and their hidden labor force.
+
+- **Corroboration:** Hermione's house-elf activism moves from membership records toward direct engagement with the Hogwarts kitchens and their hidden labor force.
+  - Quote: "decent wages and working conditions"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1215, `gof-ch19-002`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch12-004`, `gof-ch14-007`, `gof-ch16-006`. gof-ch12-004 covers the kitchen workforce, gof-ch14-007 covers S.P.E.W.'s legal framing, and gof-ch16-006 covers Hagrid's anti-reform view; this entry adds Hermione's shift toward direct kitchen access.
+  - Notes: The scene does not yet reveal the kitchen entrance or include testimony from Hogwarts house-elves.
+
 ### Chapter: Law, Creatures, and Magical Citizenship
 
 #### Section: Code of Wand Use and Non-Human Wand Restrictions
@@ -5232,6 +5308,20 @@ Summary: The available evidence includes 1 source item, led by: The tournament i
   - Classification: later_editorial_note | Confidence: high
   - Reference type: institutional_custom
   - Notes: The passage does not state whether the ceremony existed in every historical tournament or was adapted for the 1994 revival.
+
+### Chapter: The Triwizard Year and Magical Creature Hazards
+
+#### Section: Dragon Breeds, Keepers, and Containment
+
+Summary: The available evidence includes 1 source item, led by: The chapter names the four first-task dragon breeds and shows the specialist containment practices needed to manage adult nesting mothers on the Hogwarts grounds.
+
+- **Corroboration:** The chapter names the four first-task dragon breeds and shows the specialist containment practices needed to manage adult nesting mothers on the Hogwarts grounds.
+  - Quote: "This is a Hungarian Horntail"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, PDF p. 1221, `gof-ch19-005`, `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ps-ch14-002`, `ps-ch14-004`. ps-ch14-002 and ps-ch14-004 cover library dragon sources and Hagrid's illegal Norwegian Ridgeback incident; this entry adds sanctioned tournament dragons, named breeds, keepers, and containment methods.
+  - Notes: The evidence is specific to the Triwizard revival and should not be generalized to normal Hogwarts grounds management.
 
 ### Chapter: The Triwizard Year and Public Records
 

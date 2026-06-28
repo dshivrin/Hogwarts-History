@@ -1,0 +1,328 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  boundary_confidence: high
+  boundary_notes: Chapter Nineteen begins on PDF page 1210 and the bounded control-state range ends on PDF page 1229, immediately before the queued Chapter Twenty range.
+  processed_date: '2026-06-28'
+  processor_notes: "Extracted only PDF pages 1210-1229 with scripts/extract_pages.py using the processing-state boundary; no explicit Hogwarts: A History title mention appears in this chapter."
+entries:
+- id: gof-ch19-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1213
+  printed_page: null
+  extracted_text_lines: 125-127; 174-178
+  text_anchor:
+    start_phrase: all students in the third year and above
+    end_phrase: the only all-wizard village in Britain
+    local_occurrence_note: The pre-first-task Saturday Hogsmeade visit frames ordinary student permission and the village's broader magical population.
+  nearby_context: Hermione persuades Harry to leave the castle for Hogsmeade, and the Three Broomsticks is crowded with Hogwarts students and nonhuman or semi-human magical visitors.
+  match_terms:
+  - Hogsmeade
+  - third year and above
+  - Hogwarts students
+  - Three Broomsticks
+  - all-wizard village
+  - hags
+  quote_excerpt_short: "the only all-wizard village in Britain"
+  source_note: The chapter corroborates Hogsmeade visits as a privilege for third-year-and-above students and identifies the village as Britain's only all-wizard settlement.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - student-privileges
+  - third-years
+  - three-broomsticks
+  - all-wizard-village
+  - magical-settlements
+  - student-movement
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Hogsmeade Weekend Permissions and Village Context
+  reason_for_placement: The passage links Hogwarts student movement rules to the larger magical settlement that students are allowed to visit.
+  relevance_to_hogwarts_a_history: This supports coverage of Hogsmeade weekends as a regulated student privilege and adds concise settlement context for why the village matters to Hogwarts life.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-005; poa-ch08-003
+    notes: gof-ch12-005 records Dumbledore's Hogsmeade age restriction notice and poa-ch08-003 records permission-form enforcement; this entry adds the third-year-and-above phrasing during an observed visit and the all-wizard-village context.
+  confidence: high
+  limitations: The passage does not describe permission-form collection or staff supervision for this particular visit.
+- id: gof-ch19-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1215
+  printed_page: null
+  extracted_text_lines: 190-203
+  text_anchor:
+    start_phrase: keeping a record of S.P.E.W. members
+    end_phrase: how you get into the school kitchens
+    local_occurrence_note: Hermione considers recruiting Hogsmeade villagers and then asks how to enter the Hogwarts kitchens.
+  nearby_context: Hermione tracks S.P.E.W. membership in the Three Broomsticks, argues for wages and working conditions, and begins thinking about direct action toward the Hogwarts kitchen workforce.
+  match_terms:
+  - S.P.E.W.
+  - house-elves
+  - wages
+  - working conditions
+  - school kitchens
+  - villagers
+  quote_excerpt_short: "decent wages and working conditions"
+  source_note: Hermione's house-elf activism moves from membership records toward direct engagement with the Hogwarts kitchens and their hidden labor force.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - spew
+  - hogwarts-kitchens
+  - wages
+  - working-conditions
+  - magical-servitude
+  - student-activism
+  candidate_part: Later Editorial Notes
+  candidate_chapter: House-Elves and Hogwarts Labor
+  candidate_section: Student Activism and Kitchen Access
+  reason_for_placement: The passage connects S.P.E.W.'s reform goals to a practical question about accessing the hidden Hogwarts kitchens.
+  relevance_to_hogwarts_a_history: A later edition can use this to trace how students discovered and challenged the concealed labor system behind Hogwarts food service.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-004; gof-ch14-007; gof-ch16-006
+    notes: gof-ch12-004 covers the kitchen workforce, gof-ch14-007 covers S.P.E.W.'s legal framing, and gof-ch16-006 covers Hagrid's anti-reform view; this entry adds Hermione's shift toward direct kitchen access.
+  confidence: high
+  limitations: The scene does not yet reveal the kitchen entrance or include testimony from Hogwarts house-elves.
+- id: gof-ch19-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1217
+  printed_page: null
+  extracted_text_lines: 245-263
+  text_anchor:
+    start_phrase: he preferred to prepare his own food and drink
+    end_phrase: it can see through Invisibility Cloaks
+    local_occurrence_note: In the Three Broomsticks, Moody's classroom caution about poisoning and his magical eye's detection ability are both demonstrated around Harry's cloak.
+  nearby_context: Moody drinks from a hip flask, explains in class that unattended cups are easy to poison, notices Harry under the Invisibility Cloak, and confirms the eye can see through it.
+  match_terms:
+  - Moody
+  - Defense Against the Dark Arts
+  - poison
+  - magical eye
+  - Invisibility Cloak
+  - security
+  quote_excerpt_short: "it can see through Invisibility Cloaks"
+  source_note: Moody's classroom security habits and magical eye demonstrate a level of surveillance that can defeat an Invisibility Cloak.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - mad-eye-moody
+  - magical-eye
+  - invisibility-cloak
+  - defense-against-the-dark-arts
+  - poisoning
+  - magical-surveillance
+  - school-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Staff Expertise and Magical Surveillance
+  candidate_section: Moody's Eye and Anti-Concealment Detection
+  reason_for_placement: The passage shows a staff member's personal magical device overriding a common concealment tool and links his teaching to real security practice.
+  relevance_to_hogwarts_a_history: This can support later editorial discussion of unusual staff-carried protections and the limits of student concealment inside and around Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch17-004; poa-ch14-004
+    notes: poa-ch17-004 records the Marauder's Map tracking Invisibility Cloak users and poa-ch14-004 records cloak-assisted evasion; this entry adds Moody's personal magical-eye detection.
+  confidence: high
+  limitations: The eye is Moody's personal artifact, not a general Hogwarts security enchantment.
+- id: gof-ch19-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1222
+  printed_page: null
+  extracted_text_lines: 342-345; 417-426; 484-491
+  text_anchor:
+    start_phrase: Yeh're not s'posed ter know
+    end_phrase: the only champion who would be facing the unknown
+    local_occurrence_note: Hagrid leaks the dragon task to Harry and Madame Maxime, Charlie objects, and Harry later sees Karkaroff seeking the same information.
+  nearby_context: The first task is meant to remain unknown to champions, but multiple school representatives learn the dragon setup before Tuesday through informal access to the enclosure.
+  match_terms:
+  - first task
+  - champions
+  - dragons
+  - secrecy
+  - Hagrid
+  - Madame Maxime
+  - Karkaroff
+  quote_excerpt_short: "The champions aren't supposed to know"
+  source_note: The first task's secrecy is operationally fragile, with Hagrid, Madame Maxime, Karkaroff, and Harry all gaining advance knowledge before the task.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - first-task
+  - champions
+  - dragons
+  - secrecy
+  - visiting-schools
+  - staff-boundaries
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: First-Task Secrecy and Informal Leaks
+  reason_for_placement: The passage turns the formal first-task information controls into a concrete case study in inter-school fairness and staff-boundary failure.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how the revived tournament's rules depended on trust and were undermined before the first task began.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch17-006; gof-ch18-006
+    notes: gof-ch17-006 records the formal first-task rules and staged information, while gof-ch18-006 records a pre-task ceremony; this entry adds the breach of secrecy around the dragon task.
+  confidence: high
+  limitations: The passage shows informal leaks but not the official response, if any, before the task.
+- id: gof-ch19-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1221
+  printed_page: null
+  extracted_text_lines: 360-405; 412-430; 610-613
+  text_anchor:
+    start_phrase: Four fully grown
+    end_phrase: half a dozen wizards at a time
+    local_occurrence_note: Harry observes the first-task dragons, Charlie identifies the breeds and containment measures, and Sirius later confirms the need for multiple Stunners.
+  nearby_context: Dragon keepers restrain four adult dragons with chains, coordinated Stunning Spells, Sleeping Draught, iron pegs, and Extinguishing Spells; the Hungarian Horntail is singled out as especially dangerous.
+  match_terms:
+  - Hungarian Horntail
+  - Common Welsh Green
+  - Swedish Short-Snout
+  - Chinese Fireball
+  - dragon keepers
+  - Stunning Spells
+  - Sleeping Draught
+  - Extinguishing Spells
+  quote_excerpt_short: "This is a Hungarian Horntail"
+  source_note: The chapter names the four first-task dragon breeds and shows the specialist containment practices needed to manage adult nesting mothers on the Hogwarts grounds.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - dragons
+  - hungarian-horntail
+  - dragon-keepers
+  - first-task
+  - magical-creatures
+  - stunning-spells
+  - nesting-mothers
+  - hogwarts-grounds
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Magical Creature Hazards
+  candidate_section: Dragon Breeds, Keepers, and Containment
+  reason_for_placement: The passage supplies concrete creature logistics for the Hogwarts-hosted first task rather than merely announcing that the tournament involves danger.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence of the exceptional hazards introduced onto the grounds during the 1994 Triwizard revival.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch14-002; ps-ch14-004
+    notes: ps-ch14-002 and ps-ch14-004 cover library dragon sources and Hagrid's illegal Norwegian Ridgeback incident; this entry adds sanctioned tournament dragons, named breeds, keepers, and containment methods.
+  confidence: high
+  limitations: The evidence is specific to the Triwizard revival and should not be generalized to normal Hogwarts grounds management.
+- id: gof-ch19-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1225
+  printed_page: null
+  extracted_text_lines: 544-560
+  text_anchor:
+    start_phrase: Karkaroff
+    end_phrase: every student who passes through that school
+    local_occurrence_note: Sirius warns Harry about Karkaroff's Death Eater past, Moody's Auror link, and Durmstrang's Dark Arts teaching.
+  nearby_context: Sirius frames Karkaroff as a released former Death Eater and infers that Dumbledore wanted Moody at Hogwarts to watch him during the Triwizard year.
+  match_terms:
+  - Karkaroff
+  - Death Eater
+  - Azkaban
+  - Dumbledore
+  - Auror
+  - Hogwarts
+  - Durmstrang
+  - Dark Arts
+  quote_excerpt_short: "Dumbledore wanted an Auror at Hogwarts"
+  source_note: Sirius links Karkaroff's Death Eater history, Moody's Auror background, and Durmstrang's Dark Arts reputation to security concerns during the tournament year.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - karkaroff
+  - death-eaters
+  - mad-eye-moody
+  - auror
+  - durmstrang
+  - dark-arts
+  - triwizard-tournament
+  - school-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Karkaroff, Moody, and Durmstrang Risk
+  reason_for_placement: The passage connects the visiting-headmaster arrangement to former Death Eater history and Dumbledore's apparent staffing choice.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain why the 1994-1995 staffing and visiting-school context had unusual security implications.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-007; gof-ch11-004
+    notes: gof-ch13-007 covers Moody's practical DADA reputation and gof-ch11-004 covers Durmstrang's Dark Arts reputation; this entry adds Karkaroff's Death Eater past and the inferred Auror-at-Hogwarts security rationale.
+  confidence: medium
+  limitations: Sirius's interpretation of Dumbledore's motive is informed but not an official staffing statement.
+- id: gof-ch19-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nineteen - The Hungarian Horntail
+  chapter_start_pdf_page: 1210
+  chapter_end_pdf_page: 1229
+  pdf_page: 1224
+  printed_page: null
+  extracted_text_lines: 492-513; 625-628
+  text_anchor:
+    start_phrase: slipped in through the front doors
+    end_phrase: Sirius's whereabouts
+    local_occurrence_note: Harry enters Gryffindor Tower by password and finds Sirius's head in the common-room fire, then hides the contact because Ministry involvement would follow.
+  nearby_context: The Fat Lady admits Harry with the password, the common-room fire permits a covert outside conversation, and Harry fears the consequences if Sirius is seen inside Hogwarts by fireplace.
+  match_terms:
+  - Fat Lady
+  - Balderdash
+  - Gryffindor common room
+  - fire
+  - Sirius
+  - Ministry
+  - whereabouts
+  quote_excerpt_short: "Sirius's head was sitting in the fire"
+  source_note: The Gryffindor common-room fireplace can carry an outside magical conversation into Hogwarts, creating both access and Ministry-security implications.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - gryffindor-tower
+  - common-room
+  - fat-lady
+  - passwords
+  - fireplace-communication
+  - sirius-black
+  - ministry-of-magic
+  - school-security
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Password Access and Fireplace Communication
+  reason_for_placement: The passage combines ordinary portrait-password access with a less visible communication channel into a House common room.
+  relevance_to_hogwarts_a_history: This supports later editorial discussion of common-room architecture, privacy, and how external magical communication could intersect with school security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch17-007; poa-ch08-004
+    notes: gof-ch17-007 and poa-ch08-004 cover Fat Lady/password access and portrait behavior; this entry adds the common-room fire as a covert communication route with Ministry implications.
+  confidence: high
+  limitations: The passage does not name the fireplace magic mechanism or specify whether the fire is normally monitored.

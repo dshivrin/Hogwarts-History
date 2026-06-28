@@ -144,6 +144,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Emergency Magical Transport Outside School Routes
   - End-of-Year Departure and Muggle-Secrecy Measures
   - Hogsmeade Weekend Permissions
+  - Hogsmeade Weekend Permissions and Village Context
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
   - Summer Return and End-of-Term Pickup
@@ -249,6 +250,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-Elf Magic and Old Wizarding Households
   - Kitchen Labor, Cleaning, Fires, and Dormitory Service
   - Service Norms, Pay, and Regulation
+- House-Elves and Hogwarts Labor
+  - Student Activism and Kitchen Access
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
   - Ministry Guidelines for Non-Wizard Part-Humans
@@ -287,13 +290,17 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classified Rules, Entry, and Prize Foreshadowing
   - Confunding the Goblet of Fire
   - Entry procedure, Age Line, and binding contract
+  - First-Task Secrecy and Informal Leaks
   - Goblet lifecycle and closed selection
   - Host-school fairness dispute
   - Judges, tasks, scoring, and the Goblet selector
+  - Karkaroff, Moody, and Durmstrang Risk
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
+- The Triwizard Year and Magical Creature Hazards
+  - Dragon Breeds, Keepers, and Containment
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
 - The Wizarding War and Hogwarts Memory
@@ -331,6 +338,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Passworded Gargoyle and Moving Staircase
 - House Common Rooms and Dormitories
   - Gryffindor Tower Access
+  - Password Access and Fireplace Communication
   - Slytherin Dungeon Entrance and Common Room
 - Secret Passageways and Hidden Routes
   - Tapestries, Statues, and Student Wayfinding
@@ -441,6 +449,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Troll Intrusion and Stone Diversion
 - Magical Interference and Student Safety
   - Quidditch Match Risks
+- Staff Expertise and Magical Surveillance
+  - Moody's Eye and Anti-Concealment Detection
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory

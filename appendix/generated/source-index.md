@@ -81,3 +81,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch16`: Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, pages 1154-1173, 7 entries, 0 explicit references.
 - `gof-ch17`: Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, pages 1174-1187, 7 entries, 0 explicit references.
 - `gof-ch18`: Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, pages 1188-1209, 7 entries, 0 explicit references.
+- `gof-ch19`: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, pages 1210-1229, 7 entries, 0 explicit references.

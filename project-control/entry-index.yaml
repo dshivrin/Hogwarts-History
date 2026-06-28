@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-23'
+updated: '2026-06-28'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -6932,6 +6932,119 @@ by_entry:
     - wands
     source_unit: gof-ch18
     output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  gof-ch19-001:
+    title: 'The Hogwarts Express and School Travel: Hogsmeade Weekend Permissions
+      and Village Context'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - all-wizard-village
+    - hogsmeade
+    - magical-settlements
+    - student-movement
+    - student-privileges
+    - third-years
+    - three-broomsticks
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch19-002:
+    title: 'House-Elves and Hogwarts Labor: Student Activism and Kitchen Access'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hogwarts-kitchens
+    - house-elves
+    - magical-servitude
+    - spew
+    - student-activism
+    - wages
+    - working-conditions
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch19-003:
+    title: 'Staff Expertise and Magical Surveillance: Moody''s Eye and Anti-Concealment
+      Detection'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - invisibility-cloak
+    - mad-eye-moody
+    - magical-eye
+    - magical-surveillance
+    - poisoning
+    - school-security
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch19-004:
+    title: 'The Triwizard Year and Institutional Security: First-Task Secrecy and
+      Informal Leaks'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - champions
+    - dragons
+    - first-task
+    - secrecy
+    - staff-boundaries
+    - triwizard-tournament
+    - visiting-schools
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch19-005:
+    title: 'The Triwizard Year and Magical Creature Hazards: Dragon Breeds, Keepers,
+      and Containment'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - dragon-keepers
+    - dragons
+    - first-task
+    - hogwarts-grounds
+    - hungarian-horntail
+    - magical-creatures
+    - nesting-mothers
+    - stunning-spells
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch19-006:
+    title: 'The Triwizard Year and Institutional Security: Karkaroff, Moody, and Durmstrang
+      Risk'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - auror
+    - dark-arts
+    - death-eaters
+    - durmstrang
+    - karkaroff
+    - mad-eye-moody
+    - school-security
+    - triwizard-tournament
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch19-007:
+    title: 'House Common Rooms and Dormitories: Password Access and Fireplace Communication'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - common-room
+    - fat-lady
+    - fireplace-communication
+    - gryffindor-tower
+    - ministry-of-magic
+    - passwords
+    - school-security
+    - sirius-black
+    source_unit: gof-ch19
+    output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -6992,6 +7105,8 @@ by_tag:
   - ps-ch01-005
   alchemy:
   - ps-ch13-001
+  all-wizard-village:
+  - gof-ch19-001
   alohomora:
   - poa-ch21-007
   alumni:
@@ -7068,6 +7183,8 @@ by_tag:
   astronomy-tower:
   - poa-ch09-004
   - ps-ch15-001
+  auror:
+  - gof-ch19-006
   auror-experience:
   - gof-ch13-007
   aurors:
@@ -7348,6 +7465,7 @@ by_tag:
   - gof-ch17-004
   champions:
   - gof-ch18-006
+  - gof-ch19-004
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -7415,6 +7533,7 @@ by_tag:
   - cos-ch05-006
   - cos-ch08-003
   - gof-ch17-007
+  - gof-ch19-007
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -7560,6 +7679,7 @@ by_tag:
   - cos-ch18-001
   - gof-ch11-004
   - gof-ch13-007
+  - gof-ch19-006
   dark-creatures:
   - gof-ch14-001
   dark-magic:
@@ -7579,6 +7699,7 @@ by_tag:
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
+  - gof-ch19-006
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -7596,6 +7717,7 @@ by_tag:
   - gof-ch13-007
   - gof-ch14-001
   - gof-ch14-002
+  - gof-ch19-003
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -7735,9 +7857,13 @@ by_tag:
   - gof-ch18-007
   dragon-hide-gloves:
   - gof-ch18-003
+  dragon-keepers:
+  - gof-ch19-005
   dragon-keeping:
   - gof-ch05-001
   dragons:
+  - gof-ch19-004
+  - gof-ch19-005
   - ps-ch14-002
   - ps-ch14-004
   dress-robes:
@@ -7820,6 +7946,7 @@ by_tag:
   - gof-ch16-001
   - gof-ch17-002
   - gof-ch17-004
+  - gof-ch19-006
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -7946,6 +8073,7 @@ by_tag:
   - cos-ch08-005
   fat-lady:
   - gof-ch17-007
+  - gof-ch19-007
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -7991,6 +8119,8 @@ by_tag:
   - poa-ch15-005
   firenze:
   - ps-ch15-007
+  fireplace-communication:
+  - gof-ch19-007
   first-chamber-opening:
   - cos-ch17-003
   first-floor-bathroom:
@@ -7999,6 +8129,8 @@ by_tag:
   - cos-ch15-007
   first-task:
   - gof-ch17-006
+  - gof-ch19-004
+  - gof-ch19-005
   first-wizarding-war:
   - gof-ch09-007
   - gof-ch14-003
@@ -8291,6 +8423,7 @@ by_tag:
   - cos-ch05-006
   - cos-ch08-001
   - gof-ch17-007
+  - gof-ch19-007
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -8552,6 +8685,7 @@ by_tag:
   - ps-ch16-003
   hogsmeade:
   - gof-ch12-005
+  - gof-ch19-001
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -8615,6 +8749,7 @@ by_tag:
   - gof-ch04-003
   - gof-ch15-006
   - gof-ch16-005
+  - gof-ch19-005
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -8624,6 +8759,7 @@ by_tag:
   - gof-ch11-005
   hogwarts-kitchens:
   - gof-ch12-004
+  - gof-ch19-002
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -8748,6 +8884,7 @@ by_tag:
   - gof-ch14-007
   - gof-ch15-003
   - gof-ch16-006
+  - gof-ch19-002
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -8818,6 +8955,8 @@ by_tag:
   - poa-ch09-006
   - ps-ch05-006
   - ps-ch13-002
+  hungarian-horntail:
+  - gof-ch19-005
   hurling-hex:
   - poa-ch12-005
   illegal-creature:
@@ -8877,6 +9016,7 @@ by_tag:
   - gof-ch01-002
   invisibility-cloak:
   - gof-ch04-002
+  - gof-ch19-003
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -8912,6 +9052,7 @@ by_tag:
   - poa-ch08-001
   karkaroff:
   - gof-ch15-007
+  - gof-ch19-006
   keeper:
   - cos-ch07-001
   keeper-of-keys:
@@ -9053,6 +9194,8 @@ by_tag:
   - gof-ch13-007
   - gof-ch14-001
   - gof-ch17-005
+  - gof-ch19-003
+  - gof-ch19-006
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -9115,6 +9258,7 @@ by_tag:
   - cos-ch08-003
   - gof-ch08-006
   - gof-ch09-005
+  - gof-ch19-005
   - ps-ch14-002
   - ps-ch15-007
   magical-delivery:
@@ -9126,6 +9270,8 @@ by_tag:
   - gof-ch11-004
   magical-entrance:
   - poa-ch03-003
+  magical-eye:
+  - gof-ch19-003
   magical-games-and-sports:
   - gof-ch12-007
   - gof-ch16-002
@@ -9177,9 +9323,13 @@ by_tag:
   - gof-ch14-007
   - gof-ch15-003
   - gof-ch16-006
+  - gof-ch19-002
+  magical-settlements:
+  - gof-ch19-001
   magical-spaces:
   - gof-ch07-002
   magical-surveillance:
+  - gof-ch19-003
   - poa-ch10-003
   - poa-ch17-004
   magical-transport:
@@ -9312,6 +9462,7 @@ by_tag:
   - gof-ch14-002
   - gof-ch14-003
   - gof-ch16-002
+  - gof-ch19-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -9455,6 +9606,8 @@ by_tag:
   - poa-ch08-006
   - poa-ch14-005
   - ps-ch08-002
+  nesting-mothers:
+  - gof-ch19-005
   neville-longbottom:
   - poa-ch12-006
   - poa-ch13-007
@@ -9582,6 +9735,7 @@ by_tag:
   - cos-ch05-006
   - cos-ch12-005
   - gof-ch17-007
+  - gof-ch19-007
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -9686,6 +9840,8 @@ by_tag:
   - poa-ch15-005
   plumbing:
   - cos-ch16-007
+  poisoning:
+  - gof-ch19-003
   poltergeist:
   - poa-ch07-005
   - ps-ch08-002
@@ -10161,6 +10317,9 @@ by_tag:
   - gof-ch11-004
   school-security:
   - cos-ch02-002
+  - gof-ch19-003
+  - gof-ch19-006
+  - gof-ch19-007
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
@@ -10201,6 +10360,7 @@ by_tag:
   - cos-ch06-004
   - cos-ch06-006
   secrecy:
+  - gof-ch19-004
   - ps-ch13-006
   - ps-ch14-003
   - ps-ch15-003
@@ -10284,6 +10444,7 @@ by_tag:
   sirius-black:
   - gof-ch02-006
   - gof-ch18-001
+  - gof-ch19-007
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -10395,6 +10556,7 @@ by_tag:
   spew:
   - gof-ch14-007
   - gof-ch16-006
+  - gof-ch19-002
   spiral-staircase:
   - ps-ch14-006
   splinching:
@@ -10420,6 +10582,8 @@ by_tag:
   - poa-ch17-003
   staff-authorization:
   - cos-ch11-003
+  staff-boundaries:
+  - gof-ch19-004
   staff-duties:
   - cos-ch16-004
   staff-events:
@@ -10488,6 +10652,8 @@ by_tag:
   - poa-ch18-003
   student-achievement:
   - cos-ch04-003
+  student-activism:
+  - gof-ch19-002
   student-books:
   - poa-ch13-005
   student-conflict:
@@ -10537,6 +10703,7 @@ by_tag:
   - gof-ch06-003
   student-movement:
   - cos-ch15-002
+  - gof-ch19-001
   - poa-ch05-006
   - poa-ch08-003
   - poa-ch10-005
@@ -10552,6 +10719,7 @@ by_tag:
   student-preparation:
   - ps-ch06-004
   student-privileges:
+  - gof-ch19-001
   - poa-ch02-001
   - poa-ch03-005
   student-reaction:
@@ -10604,6 +10772,8 @@ by_tag:
   - ps-ch14-001
   stunning-spell:
   - gof-ch09-004
+  stunning-spells:
+  - gof-ch19-005
   subterranean-chamber:
   - ps-ch16-005
   suit-of-armor:
@@ -10707,9 +10877,12 @@ by_tag:
   - poa-ch07-003
   - poa-ch12-007
   third-years:
+  - gof-ch19-001
   - poa-ch02-001
   thousands-of-books:
   - ps-ch15-003
+  three-broomsticks:
+  - gof-ch19-001
   three-headed-dog:
   - ps-ch09-007
   - ps-ch11-007
@@ -10789,6 +10962,8 @@ by_tag:
   - gof-ch18-002
   - gof-ch18-005
   - gof-ch18-006
+  - gof-ch19-004
+  - gof-ch19-006
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -10873,6 +11048,7 @@ by_tag:
   - gof-ch15-005
   - gof-ch15-006
   - gof-ch16-001
+  - gof-ch19-004
   visitor-access:
   - ps-ch17-004
   visitor-control:
@@ -10901,6 +11077,7 @@ by_tag:
   - ps-ch02-005
   wages:
   - gof-ch16-006
+  - gof-ch19-002
   wand:
   - cos-ch01-002
   - cos-ch03-005
@@ -11033,6 +11210,8 @@ by_tag:
   - poa-ch18-002
   - poa-ch19-001
   - poa-ch20-002
+  working-conditions:
+  - gof-ch19-002
   workload:
   - gof-ch15-002
   world-cup-1473:

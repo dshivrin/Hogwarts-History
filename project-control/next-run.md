@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Nineteen - The Hungarian Horntail
-- Page range: 1210-1229
+- Chapter: Chapter Twenty - The First Task
+- Page range: 1230-1251
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-19-the-hungarian-horntail.yaml`
+- Output YAML: `sources/book-04/chapter-20-the-first-task.yaml`
 
 ## Minimal Context
 
