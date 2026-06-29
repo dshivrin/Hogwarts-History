@@ -160,11 +160,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Ceremonies, Feasts, and Inter-School Relations
 
 - The Triwizard Tournament at Hogwarts
+  - First-Task Spectatorship and School-Day Disruption
   - Guest seating at House tables
   - Welcoming visiting delegations
 - Visiting Schools and Magical Travel
   - Beauxbatons carriage and Durmstrang lake ship
   - Beauxbatons carriage as guest lodging
+
+## Curriculum, Study, and Practical Magic
+
+- Charms Instruction and Independent Practice
+  - Summoning Charms Beyond the Classroom
 
 ## Ghosts, Portraits, and Magical Residents
 
@@ -280,6 +286,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors, False Conviction, and Escape
 - The Triwizard Year and Institutional Ceremonies
   - The Weighing of the Wands
+- The Triwizard Year and Institutional Procedure
+  - Scoring and Second-Task Clue Distribution
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
@@ -299,7 +307,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Workload Before the Tournament
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
+  - Traditional Cheating and First-Task Fairness
 - The Triwizard Year and Magical Creature Hazards
+  - Dragon Assignment and First-Task Order
   - Dragon Breeds, Keepers, and Containment
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
@@ -354,6 +364,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Enchanted Space Beyond the Castle
   - Expanded Tents and Public Camouflage
+
+## Magical Creatures and the School Library
+
+- Dangerous Creatures in Study and Tournament Use
+  - Dragon Lore in Hogwarts Library Sources
 
 ## Notable Events Before 1984
 
@@ -450,6 +465,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Magical Interference and Student Safety
   - Quidditch Match Risks
 - Staff Expertise and Magical Surveillance
+  - Moody's Dark Detectors in the Classroom Office
   - Moody's Eye and Anti-Concealment Detection
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language

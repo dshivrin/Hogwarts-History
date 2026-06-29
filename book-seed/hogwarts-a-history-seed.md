@@ -3660,6 +3660,17 @@ Summary: The available evidence includes 3 source items, led by: The match shows
 
 ### Chapter: Staff Expertise and Magical Surveillance
 
+#### Section: Moody's Dark Detectors in the Classroom Office
+
+Summary: The available evidence includes 1 source item, led by: Moody's office contains multiple Dark Detectors, including a Sneakoscope, Secrecy Sensor, Foe-Glass, and seven-locked trunk.
+
+- **Supporting evidence:** Moody's office contains multiple Dark Detectors, including a Sneakoscope, Secrecy Sensor, Foe-Glass, and seven-locked trunk.
+  - Quote: "Secrecy Sensor. Vibrates when it detects concealment and lies"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1235, `gof-ch20-003`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: These are Moody's personal objects, not permanent Hogwarts defenses, and the Secrecy Sensor is described as unreliable in the noisy school environment.
+
 #### Section: Moody's Eye and Anti-Concealment Detection
 
 Summary: The available evidence includes 1 source item, led by: Moody's classroom security habits and magical eye demonstrate a level of surveillance that can defeat an Invisibility Cloak.
@@ -4655,6 +4666,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore gives
   - Corroborates: `gof-ch11-003`. Goblet of Fire Chapter Eleven foreshadows changed rules, entry, and prize money; this entry names the tournament and adds the historical origin, participating schools, Ministry departments, age restriction, and selection process.
   - Notes: Dumbledore presents the official account before the Goblet appears and before later security failures reveal weaknesses in the arrangements.
 
+#### Section: Traditional Cheating and First-Task Fairness
+
+Summary: The available evidence includes 1 source item, led by: Moody tells Harry that task-related cheating has long been part of the tournament and expects rival heads to brief their champions.
+
+- **Corroboration:** Moody tells Harry that task-related cheating has long been part of the tournament and expects rival heads to brief their champions.
+  - Quote: "Cheating's a traditional part of the Triwizard Tournament"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1235, `gof-ch20-002`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch19-004`, `gof-ch17-006`. gof-ch19-004 records the actual first-task secrecy breach, and gof-ch17-006 records the formal first-task restrictions; this entry adds Moody's claim that cheating is traditional in the tournament.
+  - Notes: Moody's statement is an informed but informal historical claim, and his hidden role later complicates his reliability.
+
 ### Chapter: Wizarding Schools Beyond Britain
 
 #### Section: Beauxbatons and European Magical Education Sources
@@ -5309,7 +5332,33 @@ Summary: The available evidence includes 1 source item, led by: The tournament i
   - Reference type: institutional_custom
   - Notes: The passage does not state whether the ceremony existed in every historical tournament or was adapted for the 1994 revival.
 
+### Chapter: The Triwizard Year and Institutional Procedure
+
+#### Section: Scoring and Second-Task Clue Distribution
+
+Summary: The available evidence includes 1 source item, led by: The five judges score Harry by projecting numbers from their wands, and Bagman later explains that each golden egg contains the clue for the second task.
+
+- **Corroboration:** The five judges score Harry by projecting numbers from their wands, and Bagman later explains that each golden egg contains the clue for the second task.
+  - Quote: "marks out of ten from each one"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1249, `gof-ch20-007`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch16-002`, `gof-ch17-006`. gof-ch16-002 records the broad three-task and judging system, and gof-ch17-006 records staged first-task information; this entry adds per-judge wand-displayed scores and the golden-egg clue for the second task.
+  - Notes: The chapter shows Harry's score in detail but only summarizes the other champions' scores and clue instructions.
+
 ### Chapter: The Triwizard Year and Magical Creature Hazards
+
+#### Section: Dragon Assignment and First-Task Order
+
+Summary: The available evidence includes 1 source item, led by: Bagman has each champion draw a numbered miniature dragon model to determine both the assigned dragon and the order of performance.
+
+- **Corroboration:** Bagman has each champion draw a numbered miniature dragon model to determine both the assigned dragon and the order of performance.
+  - Quote: "select a small model of the thing you are about to face"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1241, `gof-ch20-006`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch19-005`. gof-ch19-005 names the same dragon breeds and containment setup before the task; this entry adds the official model-draw procedure and champion order.
+  - Notes: The draw procedure is shown only for this task and does not state whether similar randomization was used historically.
 
 #### Section: Dragon Breeds, Keepers, and Containment
 
@@ -5484,6 +5533,18 @@ Summary: The available evidence includes 1 source item, led by: The scene confir
 
 ### Chapter: The Triwizard Tournament at Hogwarts
 
+#### Section: First-Task Spectatorship and School-Day Disruption
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts suspends lessons so students can attend the first task, while McGonagall escorts Harry to the champions' tent on the grounds.
+
+- **Corroboration:** Hogwarts suspends lessons so students can attend the first task, while McGonagall escorts Harry to the champions' tent on the grounds.
+  - Quote: "Lessons were to stop at midday"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1238, `gof-ch20-005`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch17-006`, `gof-ch15-005`. gof-ch17-006 records the formal first-task date and student audience, while gof-ch15-005 records a prior schedule disruption for visiting delegations; this entry adds the actual midday class stop and movement to the dragon enclosure.
+  - Notes: This describes one tournament day and does not establish whether all Triwizard tasks disrupted lessons in the same way.
+
 #### Section: Guest seating at House tables
 
 Summary: The available evidence includes 1 source item, led by: The chapter shows visiting delegations being integrated into the Great Hall by sitting at existing House tables rather than at separate guest tables.
@@ -5533,6 +5594,22 @@ Summary: The available evidence includes 1 source item, led by: The Beauxbatons 
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch15-007`. gof-ch15-007 records the Beauxbatons carriage arrival; this entry adds that the carriage remains on the grounds as apparent lodging with a paddock for the horses.
   - Notes: The passage strongly implies lodging but does not explicitly say the students sleep there overnight.
+
+## Part: Curriculum, Study, and Practical Magic
+
+### Chapter: Charms Instruction and Independent Practice
+
+#### Section: Summoning Charms Beyond the Classroom
+
+Summary: The available evidence includes 1 source item, led by: Hermione helps Harry practice the Summoning Charm until he can call objects reliably and plans to summon his Firebolt from the castle to the task grounds.
+
+- **Corroboration:** Hermione helps Harry practice the Summoning Charm until he can call objects reliably and plans to summon his Firebolt from the castle to the task grounds.
+  - Quote: "Accio Dictionary!"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1238, `gof-ch20-004`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch15-002`, `gof-ch06-003`. gof-ch15-002 records Summoning Charm lesson preparation in the fourth-year workload, and gof-ch06-003 records a non-school use of Accio; this entry adds intensive student practice and long-distance first-task application planning.
+  - Notes: The account follows Harry's accelerated practice rather than the ordinary lesson itself, so it should not be treated as a standard syllabus description.
 
 ## Part: Hogwarts Curriculum and Instruction
 
@@ -5636,6 +5713,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: magical_architecture
   - Notes: The passage does not name the spell or object enchantment used to expand the tents.
+
+## Part: Magical Creatures and the School Library
+
+### Chapter: Dangerous Creatures in Study and Tournament Use
+
+#### Section: Dragon Lore in Hogwarts Library Sources
+
+Summary: The available evidence includes 1 source item, led by: Harry and Hermione use Hogwarts library dragon books and spellbooks to research the first task, finding that ancient magic protects dragon hides from most spells.
+
+- **Supporting evidence:** Harry and Hermione use Hogwarts library dragon books and spellbooks to research the first task, finding that ancient magic protects dragon hides from most spells.
+  - Quote: "Dragons are extremely difficult to slay"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, PDF p. 1230, `gof-ch20-001`, `sources/book-04/chapter-20-the-first-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
 
 ## Part: Original Book Core
 

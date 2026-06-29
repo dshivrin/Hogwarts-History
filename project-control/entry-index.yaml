@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-28'
+updated: '2026-06-29'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -7045,6 +7045,111 @@ by_entry:
     - sirius-black
     source_unit: gof-ch19
     output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  gof-ch20-001:
+    title: 'Dangerous Creatures in Study and Tournament Use: Dragon Lore in Hogwarts
+      Library Sources'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - ancient-magic
+    - dragons
+    - library
+    - magical-creatures
+    - spellbooks
+    - student-research
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  gof-ch20-002:
+    title: 'The Triwizard Year and Institutional Security: Traditional Cheating and
+      First-Task Fairness'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - champions
+    - cheating
+    - fairness
+    - first-task
+    - triwizard-tournament
+    - visiting-schools
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  gof-ch20-003:
+    title: 'Staff Expertise and Magical Surveillance: Moody''s Dark Detectors in the
+      Classroom Office'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - auror-tools
+    - dark-detectors
+    - defense-against-the-dark-arts
+    - foe-glass
+    - secrecy-sensor
+    - sneakoscope
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  gof-ch20-004:
+    title: 'Charms Instruction and Independent Practice: Summoning Charms Beyond the
+      Classroom'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - accio
+    - charms
+    - common-room
+    - firebolt
+    - student-practice
+    - summoning-charm
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  gof-ch20-005:
+    title: 'The Triwizard Tournament at Hogwarts: First-Task Spectatorship and School-Day
+      Disruption'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - champions-tent
+    - first-task
+    - hogwarts-grounds
+    - school-schedule
+    - staff-escort
+    - tournament-spectators
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  gof-ch20-006:
+    title: 'The Triwizard Year and Magical Creature Hazards: Dragon Assignment and
+      First-Task Order'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - champions
+    - dragon-breeds
+    - dragon-enclosure
+    - first-task
+    - golden-egg
+    - task-order
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  gof-ch20-007:
+    title: 'The Triwizard Year and Institutional Procedure: Scoring and Second-Task
+      Clue Distribution'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - clue
+    - golden-egg
+    - judges
+    - scoring
+    - second-task
+    - triwizard-tournament
+    source_unit: gof-ch20
+    output_yaml: sources/book-04/chapter-20-the-first-task.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7060,6 +7165,8 @@ by_tag:
   accidental-magic-reversal-squad:
   - gof-ch06-001
   - gof-ch07-004
+  accio:
+  - gof-ch20-004
   acromantula-colony:
   - cos-ch15-005
   address-tracking:
@@ -7114,6 +7221,8 @@ by_tag:
   - gof-ch05-001
   ancient-creature:
   - cos-ch15-007
+  ancient-magic:
+  - gof-ch20-001
   ancient-runes:
   - poa-ch04-004
   - poa-ch12-007
@@ -7187,6 +7296,8 @@ by_tag:
   - gof-ch19-006
   auror-experience:
   - gof-ch13-007
+  auror-tools:
+  - gof-ch20-003
   aurors:
   - gof-ch11-001
   avada-kedavra:
@@ -7466,11 +7577,16 @@ by_tag:
   champions:
   - gof-ch18-006
   - gof-ch19-004
+  - gof-ch20-002
+  - gof-ch20-006
+  champions-tent:
+  - gof-ch20-005
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
   charms:
   - gof-ch15-002
+  - gof-ch20-004
   - poa-ch04-003
   - poa-ch15-003
   - poa-ch16-003
@@ -7479,6 +7595,8 @@ by_tag:
   - ps-ch16-001
   charms-classroom:
   - ps-ch09-006
+  cheating:
+  - gof-ch20-002
   cheering-charms:
   - poa-ch15-003
   chocolate-frog-card:
@@ -7515,6 +7633,8 @@ by_tag:
   - cos-ch06-007
   clothing:
   - gof-ch09-003
+  clue:
+  - gof-ch20-007
   coat-of-arms:
   - gof-ch15-004
   cockatrice:
@@ -7534,6 +7654,7 @@ by_tag:
   - cos-ch08-003
   - gof-ch17-007
   - gof-ch19-007
+  - gof-ch20-004
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -7682,6 +7803,8 @@ by_tag:
   - gof-ch19-006
   dark-creatures:
   - gof-ch14-001
+  dark-detectors:
+  - gof-ch20-003
   dark-magic:
   - cos-ch09-006
   - ps-ch11-006
@@ -7718,6 +7841,7 @@ by_tag:
   - gof-ch14-001
   - gof-ch14-002
   - gof-ch19-003
+  - gof-ch20-003
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -7851,6 +7975,10 @@ by_tag:
   - ps-ch10-003
   draco-malfoy:
   - cos-ch04-004
+  dragon-breeds:
+  - gof-ch20-006
+  dragon-enclosure:
+  - gof-ch20-006
   dragon-hatching:
   - ps-ch14-005
   dragon-heartstring:
@@ -7864,6 +7992,7 @@ by_tag:
   dragons:
   - gof-ch19-004
   - gof-ch19-005
+  - gof-ch20-001
   - ps-ch14-002
   - ps-ch14-004
   dress-robes:
@@ -8058,6 +8187,8 @@ by_tag:
   - poa-ch03-001
   - ps-ch04-007
   - ps-ch16-004
+  fairness:
+  - gof-ch20-002
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
@@ -8112,6 +8243,7 @@ by_tag:
   - ps-ch15-004
   firebolt:
   - gof-ch05-005
+  - gof-ch20-004
   - poa-ch11-007
   - poa-ch12-005
   - poa-ch13-001
@@ -8131,6 +8263,9 @@ by_tag:
   - gof-ch17-006
   - gof-ch19-004
   - gof-ch19-005
+  - gof-ch20-002
+  - gof-ch20-005
+  - gof-ch20-006
   first-wizarding-war:
   - gof-ch09-007
   - gof-ch14-003
@@ -8191,6 +8326,8 @@ by_tag:
   - ps-ch09-002
   flying-motorcycle:
   - ps-ch02-003
+  foe-glass:
+  - gof-ch20-003
   forbidden-corridor:
   - ps-ch09-007
   forbidden-forest:
@@ -8323,6 +8460,9 @@ by_tag:
   - ps-ch01-005
   - ps-ch02-001
   - ps-ch02-005
+  golden-egg:
+  - gof-ch20-006
+  - gof-ch20-007
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -8750,6 +8890,7 @@ by_tag:
   - gof-ch15-006
   - gof-ch16-005
   - gof-ch19-005
+  - gof-ch20-005
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -9046,6 +9187,7 @@ by_tag:
   - gof-ch16-002
   - gof-ch17-006
   - gof-ch18-006
+  - gof-ch20-007
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -9111,6 +9253,7 @@ by_tag:
   - cos-ch09-001
   - cos-ch11-005
   - cos-ch14-004
+  - gof-ch20-001
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -9259,6 +9402,7 @@ by_tag:
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
+  - gof-ch20-001
   - ps-ch14-002
   - ps-ch15-007
   magical-delivery:
@@ -10311,6 +10455,7 @@ by_tag:
   - ps-ch12-002
   school-schedule:
   - gof-ch15-005
+  - gof-ch20-005
   school-searches:
   - cos-ch09-006
   school-secrecy:
@@ -10342,6 +10487,7 @@ by_tag:
   school-vacations:
   - ps-ch04-004
   scoring:
+  - gof-ch20-007
   - ps-ch11-005
   sealed-entrances:
   - poa-ch14-005
@@ -10351,6 +10497,8 @@ by_tag:
   - ps-ch12-003
   second-floor-corridor:
   - cos-ch08-006
+  second-task:
+  - gof-ch20-007
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -10364,6 +10512,8 @@ by_tag:
   - ps-ch13-006
   - ps-ch14-003
   - ps-ch15-003
+  secrecy-sensor:
+  - gof-ch20-003
   secret-passages:
   - poa-ch05-002
   - poa-ch09-001
@@ -10515,6 +10665,8 @@ by_tag:
   - ps-ch16-004
   snape-private-stores:
   - cos-ch10-002
+  sneakoscope:
+  - gof-ch20-003
   snitch:
   - cos-ch07-001
   - ps-ch13-005
@@ -10552,6 +10704,7 @@ by_tag:
   - cos-ch03-005
   - gof-ch02-002
   - gof-ch04-001
+  - gof-ch20-001
   - poa-ch01-002
   spew:
   - gof-ch14-007
@@ -10586,6 +10739,8 @@ by_tag:
   - gof-ch19-004
   staff-duties:
   - cos-ch16-004
+  staff-escort:
+  - gof-ch20-005
   staff-events:
   - cos-ch13-003
   staff-expertise:
@@ -10716,6 +10871,8 @@ by_tag:
   - poa-ch19-005
   student-possessions:
   - gof-ch04-002
+  student-practice:
+  - gof-ch20-004
   student-preparation:
   - ps-ch06-004
   student-privileges:
@@ -10731,6 +10888,7 @@ by_tag:
   student-registry:
   - ps-ch04-006
   student-research:
+  - gof-ch20-001
   - poa-ch11-003
   - ps-ch09-001
   - ps-ch11-002
@@ -10795,6 +10953,7 @@ by_tag:
   - cos-ch13-007
   summoning-charm:
   - gof-ch06-003
+  - gof-ch20-004
   supervised-training:
   - poa-ch09-006
   supply-district:
@@ -10815,6 +10974,8 @@ by_tag:
   - cos-ch10-004
   tapestry:
   - ps-ch09-006
+  task-order:
+  - gof-ch20-006
   tea-leaves:
   - poa-ch06-003
   teacher-accountability:
@@ -10918,6 +11079,8 @@ by_tag:
   - gof-ch17-003
   tournament-security:
   - gof-ch17-005
+  tournament-spectators:
+  - gof-ch20-005
   tower-dormitory:
   - cos-ch01-001
   transfiguration:
@@ -10964,6 +11127,8 @@ by_tag:
   - gof-ch18-006
   - gof-ch19-004
   - gof-ch19-006
+  - gof-ch20-002
+  - gof-ch20-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -11049,6 +11214,7 @@ by_tag:
   - gof-ch15-006
   - gof-ch16-001
   - gof-ch19-004
+  - gof-ch20-002
   visitor-access:
   - ps-ch17-004
   visitor-control:

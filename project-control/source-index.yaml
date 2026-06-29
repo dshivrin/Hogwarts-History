@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-28'
+updated: '2026-06-29'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -913,3 +913,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1210-1229.
+- source_unit_id: gof-ch20
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 20
+  chapter_title: Chapter Twenty - The First Task
+  page_start: 1230
+  page_end: 1251
+  output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  processed_at: '2026-06-29'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1230-1251.

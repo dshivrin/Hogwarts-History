@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-28'
+updated: '2026-06-29'
 tags:
   academic-merit:
     entries:
@@ -34,6 +34,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  accio:
+    entries:
+    - gof-ch20-004
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   acromantula-colony:
     entries:
     - cos-ch15-005
@@ -144,6 +149,11 @@ tags:
     - cos-ch15-007
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+  ancient-magic:
+    entries:
+    - gof-ch20-001
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   ancient-runes:
     entries:
     - poa-ch04-004
@@ -311,6 +321,11 @@ tags:
     - gof-ch13-007
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  auror-tools:
+    entries:
+    - gof-ch20-003
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   aurors:
     entries:
     - gof-ch11-001
@@ -914,9 +929,17 @@ tags:
     entries:
     - gof-ch18-006
     - gof-ch19-004
+    - gof-ch20-002
+    - gof-ch20-006
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
+  champions-tent:
+    entries:
+    - gof-ch20-005
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   charlie-weasley:
     entries:
     - poa-ch15-004
@@ -927,6 +950,7 @@ tags:
   charms:
     entries:
     - gof-ch15-002
+    - gof-ch20-004
     - poa-ch04-003
     - poa-ch15-003
     - poa-ch16-003
@@ -941,11 +965,17 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   charms-classroom:
     entries:
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  cheating:
+    entries:
+    - gof-ch20-002
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   cheering-charms:
     entries:
     - poa-ch15-003
@@ -1033,6 +1063,11 @@ tags:
     - gof-ch09-003
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  clue:
+    entries:
+    - gof-ch20-007
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   coat-of-arms:
     entries:
     - gof-ch15-004
@@ -1073,6 +1108,7 @@ tags:
     - cos-ch08-003
     - gof-ch17-007
     - gof-ch19-007
+    - gof-ch20-004
     - poa-ch08-004
     - poa-ch12-006
     output_yaml:
@@ -1082,6 +1118,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   common-room-access:
     entries:
     - poa-ch11-006
@@ -1409,6 +1446,11 @@ tags:
     - gof-ch14-001
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+  dark-detectors:
+    entries:
+    - gof-ch20-003
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   dark-magic:
     entries:
     - cos-ch09-006
@@ -1472,6 +1514,7 @@ tags:
     - gof-ch14-001
     - gof-ch14-002
     - gof-ch19-003
+    - gof-ch20-003
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -1519,6 +1562,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -1758,6 +1802,16 @@ tags:
     - cos-ch04-004
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
+  dragon-breeds:
+    entries:
+    - gof-ch20-006
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
+  dragon-enclosure:
+    entries:
+    - gof-ch20-006
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   dragon-hatching:
     entries:
     - ps-ch14-005
@@ -1787,11 +1841,13 @@ tags:
     entries:
     - gof-ch19-004
     - gof-ch19-005
+    - gof-ch20-001
     - ps-ch14-002
     - ps-ch14-004
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   dress-robes:
     entries:
     - gof-ch10-007
@@ -2190,6 +2246,11 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  fairness:
+    entries:
+    - gof-ch20-002
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   fake-wands:
     entries:
     - gof-ch05-002
@@ -2302,6 +2363,7 @@ tags:
   firebolt:
     entries:
     - gof-ch05-005
+    - gof-ch20-004
     - poa-ch11-007
     - poa-ch12-005
     - poa-ch13-001
@@ -2313,6 +2375,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   firenze:
     entries:
     - ps-ch15-007
@@ -2343,9 +2406,13 @@ tags:
     - gof-ch17-006
     - gof-ch19-004
     - gof-ch19-005
+    - gof-ch20-002
+    - gof-ch20-005
+    - gof-ch20-006
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   first-wizarding-war:
     entries:
     - gof-ch09-007
@@ -2484,6 +2551,11 @@ tags:
     - ps-ch02-003
     output_yaml:
     - sources/book-01/chapter-02-vanishing-glass.yaml
+  foe-glass:
+    entries:
+    - gof-ch20-003
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   forbidden-corridor:
     entries:
     - ps-ch09-007
@@ -2773,6 +2845,12 @@ tags:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+  golden-egg:
+    entries:
+    - gof-ch20-006
+    - gof-ch20-007
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -3660,6 +3738,7 @@ tags:
     - gof-ch15-006
     - gof-ch16-005
     - gof-ch19-005
+    - gof-ch20-005
     - poa-ch10-002
     - poa-ch10-003
     - poa-ch17-004
@@ -3675,6 +3754,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   hogwarts-hidden:
     entries:
     - gof-ch11-005
@@ -4316,10 +4396,12 @@ tags:
     - gof-ch16-002
     - gof-ch17-006
     - gof-ch18-006
+    - gof-ch20-007
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   justin-finch-fletchley:
     entries:
     - cos-ch11-006
@@ -4465,6 +4547,7 @@ tags:
     - cos-ch09-001
     - cos-ch11-005
     - cos-ch14-004
+    - gof-ch20-001
     - poa-ch11-003
     - poa-ch15-004
     - ps-ch09-001
@@ -4486,6 +4569,7 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   library-book:
     entries:
     - cos-ch16-003
@@ -4779,6 +4863,7 @@ tags:
     - gof-ch08-006
     - gof-ch09-005
     - gof-ch19-005
+    - gof-ch20-001
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
@@ -4788,6 +4873,7 @@ tags:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   magical-delivery:
     entries:
     - ps-ch03-004
@@ -7103,8 +7189,10 @@ tags:
   school-schedule:
     entries:
     - gof-ch15-005
+    - gof-ch20-005
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   school-searches:
     entries:
     - cos-ch09-006
@@ -7172,9 +7260,11 @@ tags:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
   scoring:
     entries:
+    - gof-ch20-007
     - ps-ch11-005
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   sealed-entrances:
     entries:
     - poa-ch14-005
@@ -7194,6 +7284,11 @@ tags:
     - cos-ch08-006
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  second-task:
+    entries:
+    - gof-ch20-007
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -7223,6 +7318,11 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  secrecy-sensor:
+    entries:
+    - gof-ch20-003
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   secret-passages:
     entries:
     - poa-ch05-002
@@ -7552,6 +7652,11 @@ tags:
     - cos-ch10-002
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  sneakoscope:
+    entries:
+    - gof-ch20-003
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   snitch:
     entries:
     - cos-ch07-001
@@ -7633,6 +7738,7 @@ tags:
     - cos-ch03-005
     - gof-ch02-002
     - gof-ch04-001
+    - gof-ch20-001
     - poa-ch01-002
     output_yaml:
     - sources/book-02/chapter-01-worst-birthday.yaml
@@ -7640,6 +7746,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   spew:
     entries:
     - gof-ch14-007
@@ -7720,6 +7827,11 @@ tags:
     - cos-ch16-004
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  staff-escort:
+    entries:
+    - gof-ch20-005
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   staff-events:
     entries:
     - cos-ch13-003
@@ -8025,6 +8137,11 @@ tags:
     - gof-ch04-002
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+  student-practice:
+    entries:
+    - gof-ch20-004
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   student-preparation:
     entries:
     - ps-ch06-004
@@ -8061,6 +8178,7 @@ tags:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
   student-research:
     entries:
+    - gof-ch20-001
     - poa-ch11-003
     - ps-ch09-001
     - ps-ch11-002
@@ -8074,6 +8192,7 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   student-residence:
     entries:
     - cos-ch11-001
@@ -8198,8 +8317,10 @@ tags:
   summoning-charm:
     entries:
     - gof-ch06-003
+    - gof-ch20-004
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   supervised-training:
     entries:
     - poa-ch09-006
@@ -8250,6 +8371,11 @@ tags:
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  task-order:
+    entries:
+    - gof-ch20-006
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   tea-leaves:
     entries:
     - poa-ch06-003
@@ -8489,6 +8615,11 @@ tags:
     - gof-ch17-005
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  tournament-spectators:
+    entries:
+    - gof-ch20-005
+    output_yaml:
+    - sources/book-04/chapter-20-the-first-task.yaml
   tower-dormitory:
     entries:
     - cos-ch01-001
@@ -8569,6 +8700,8 @@ tags:
     - gof-ch18-006
     - gof-ch19-004
     - gof-ch19-006
+    - gof-ch20-002
+    - gof-ch20-007
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -8578,6 +8711,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -8772,10 +8906,12 @@ tags:
     - gof-ch15-006
     - gof-ch16-001
     - gof-ch19-004
+    - gof-ch20-002
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-20-the-first-task.yaml
   visitor-access:
     entries:
     - ps-ch17-004
