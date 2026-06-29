@@ -84,3 +84,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch19`: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, pages 1210-1229, 7 entries, 0 explicit references.
 - `gof-ch20`: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, pages 1230-1251, 7 entries, 0 explicit references.
 - `gof-ch21`: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, pages 1252-1269, 7 entries, 0 explicit references.
+- `gof-ch22`: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, pages 1270-1284, 7 entries, 0 explicit references.

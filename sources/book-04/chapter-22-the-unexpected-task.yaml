@@ -1,0 +1,315 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Two range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty-One and next Chapter Twenty-Three anchors and extracted only PDF pages 1270-1284 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Twenty-Two. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch22-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1270
+  printed_page: null
+  extracted_text_lines: 27-49
+  text_anchor:
+    start_phrase: The Yule Ball is approaching
+    end_phrase: embarrasses the school in any way
+    local_occurrence_note: McGonagall announces Yule Ball eligibility, dress requirements, timing, venue, and behavioral expectations at the end of Transfiguration.
+  nearby_context: McGonagall identifies the ball as part of the Triwizard Tournament, limits ordinary attendance to fourth years and above while allowing younger invited students, and says it will be held in the Great Hall on Christmas night.
+  match_terms:
+  - Yule Ball
+  - Triwizard Tournament
+  - fourth years
+  - dress robes
+  - Great Hall
+  - Christmas Day
+  quote_excerpt_short: "traditional part of the Triwizard Tournament"
+  source_note: McGonagall formally presents the Yule Ball as a Triwizard custom with age-based attendance rules, dress robes, a Great Hall venue, and school-behavior expectations.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - yule-ball
+  - triwizard-tournament
+  - great-hall
+  - dress-robes
+  - fourth-year
+  - student-conduct
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Yule Ball Eligibility, Dress, and Conduct
+  reason_for_placement: The passage gives the official announcement of a formal tournament-linked school event and the conduct rules attached to hosting foreign delegations.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how revived Triwizard customs were operationalized inside Hogwarts as schoolwide social and disciplinary events.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results found prior dress-robe and Great Hall entries, but no prior entry for the Yule Ball's formal eligibility, timing, venue, and conduct rules.
+  confidence: high
+  limitations: The passage states the custom but does not explain the historical origin of the Yule Ball.
+- id: gof-ch22-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1272
+  printed_page: null
+  extracted_text_lines: 56-79
+  text_anchor:
+    start_phrase: Potter, the champions and their partners
+    end_phrase: representative of the school
+    local_occurrence_note: McGonagall privately tells Harry that champions must bring partners and open the ball.
+  nearby_context: Harry objects that he does not dance, but McGonagall treats the opening dance as a nonoptional duty tied to his status as Hogwarts champion.
+  match_terms:
+  - champions
+  - partners
+  - opening dance
+  - Hogwarts champion
+  - school representative
+  - Yule Ball
+  quote_excerpt_short: "champions and their partners open the ball"
+  source_note: Champions are expected to bring dance partners and open the Yule Ball as public representatives of their schools.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - yule-ball
+  - champions
+  - triwizard-tournament
+  - school-representatives
+  - ceremonial-duty
+  - professor-mcgonagall
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Champion Representative Duties
+  reason_for_placement: The passage supplies the ceremonial obligation attached to champion status after the first task.
+  relevance_to_hogwarts_a_history: A later edition can distinguish ordinary student attendance from champion duties and show how Hogwarts enforced representative protocol.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup for Yule Ball and champion terms found no prior entry for the champions' required opening dance.
+  confidence: high
+  limitations: The rule is explained by McGonagall in practice, not through a written tournament rulebook.
+- id: gof-ch22-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1278
+  printed_page: null
+  extracted_text_lines: 286-298
+  text_anchor:
+    start_phrase: The Hogwarts staff, demonstrating a continued desire
+    end_phrase: all of which were very rude
+    local_occurrence_note: The castle receives unusually elaborate Christmas decorations during the visiting schools' stay.
+  nearby_context: Staff decorate the marble staircase, Great Hall, and suits of armor, while Filch repeatedly removes Peeves from the armor after he disrupts the carols.
+  match_terms:
+  - Christmas
+  - decorations
+  - Great Hall
+  - marble staircase
+  - suits of armor
+  - visiting schools
+  quote_excerpt_short: "the usual twelve Christmas trees"
+  source_note: Hogwarts Christmas display includes the twelve Great Hall trees, marble-staircase icicles, singing suits of armor, and staff concern with impressing Beauxbatons and Durmstrang visitors.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas
+  - decorations
+  - great-hall
+  - marble-staircase
+  - suits-of-armor
+  - visiting-schools
+  - peeves
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Tournament-Year Castle Presentation
+  reason_for_placement: The passage corroborates recurring Hogwarts Christmas decoration while adding tournament-year motive and details about enchanted castle fixtures.
+  relevance_to_hogwarts_a_history: This supports an account of annual seasonal decoration and shows how the school altered presentation for foreign guests.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch11-004; ps-ch12-003
+    notes: poa-ch11-004 and ps-ch12-003 already record Christmas decorations and Great Hall trees; this entry adds the tournament-hosting motive, marble-staircase icicles, golden owls, and singing armor with Peeves disruption.
+  confidence: high
+  limitations: The account describes decorations before the ball rather than the full Christmas feast.
+- id: gof-ch22-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1274
+  printed_page: null
+  extracted_text_lines: 146-158
+  text_anchor:
+    start_phrase: during the last Care of Magical Creatures lesson
+    end_phrase: food with which to tempt the skrewts
+    local_occurrence_note: Hagrid has stopped direct contact with the Skrewts and moves students to food-preparation work behind his cabin.
+  nearby_context: The lesson follows Rita Skeeter's interview with Hagrid; students shelter behind his cabin and prepare food including dragon liver and salamander eggs.
+  match_terms:
+  - Care of Magical Creatures
+  - Blast-Ended Skrewts
+  - Hagrid
+  - cabin
+  - dragon liver
+  - salamander eggs
+  quote_excerpt_short: "given up on direct contact with the skrewts"
+  source_note: Hagrid modifies his Care of Magical Creatures approach by ending direct Skrewt handling and assigning students to prepare creature food behind his cabin.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - blast-ended-skrewts
+  - hagrid
+  - hazardous-creatures
+  - creature-feeding
+  - student-safety
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Practical Handling
+  candidate_section: Skrewt Feeding Work After Handling Risks
+  reason_for_placement: The passage gives a later adjustment to a risky creature curriculum and supplies details of student work around experimental creature feeding.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that practical creature lessons could be adjusted after safety problems without abandoning the project.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-003; gof-ch18-003; gof-ch21-004
+    notes: Prior entries record Skrewt introduction, growth, handling risks, and hibernation injuries; this entry adds Hagrid's subsequent retreat from direct handling and the food-preparation lesson behind his cabin.
+  confidence: high
+  limitations: The chapter does not say whether staff supervision changed after earlier Skrewt injuries.
+- id: gof-ch22-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1275
+  printed_page: null
+  extracted_text_lines: 188-200
+  text_anchor:
+    start_phrase: Some of the teachers, like little Professor Flitwick
+    end_phrase: play games in class than adopt Harry
+    local_occurrence_note: The last week of term contrasts relaxed and strict teaching styles before the holiday.
+  nearby_context: Flitwick lets students play games, Binns continues teaching goblin rebellions, McGonagall and Moody keep lessons going, and Snape announces an antidote test.
+  match_terms:
+  - Professor Flitwick
+  - Professor Binns
+  - goblin rebellions
+  - Professor Moody
+  - Professor Snape
+  - antidotes
+  quote_excerpt_short: "notes on goblin rebellions"
+  source_note: The chapter contrasts end-of-term teaching styles and confirms History of Magic coverage of goblin rebellions, continued ghostly instruction by Binns, and a Potions antidote test.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - history-of-magic
+  - professor-binns
+  - goblin-rebellions
+  - potions
+  - antidotes
+  - professor-flitwick
+  - term-end-classes
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: End-of-Term Instruction and Historical Topics
+  reason_for_placement: The passage offers multi-subject evidence for how teaching continued or relaxed near Christmas and names a History of Magic topic.
+  relevance_to_hogwarts_a_history: This can support a later curriculum section that notes staff discretion, Binns's continuity after death, and historical instruction on goblin conflicts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch09-002; ps-ch08-005; gof-ch15-002
+    notes: cos-ch09-002 and ps-ch08-005 already establish Binns as History of Magic's ghost teacher, and gof-ch15-002 records fourth-year workload; this entry adds goblin rebellions as the current topic and term-end variation across teachers.
+  confidence: high
+  limitations: The passage summarizes several classes briefly and does not describe the content of the goblin rebellions lesson.
+- id: gof-ch22-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1276
+  printed_page: null
+  extracted_text_lines: 217-229
+  text_anchor:
+    start_phrase: That egg!
+    end_phrase: the next task is and you don't
+    local_occurrence_note: Hermione urges Harry in the common room to resume work on the golden egg clue.
+  nearby_context: Harry says the second task is on February twenty-fourth, the egg remains in his trunk, and he still understands its sound only as screechy wailing.
+  match_terms:
+  - golden egg
+  - second task
+  - February twenty-fourth
+  - clue
+  - Gryffindor common room
+  - trunk
+  quote_excerpt_short: "till February the twenty-fourth"
+  source_note: Harry treats the second-task clue as low priority because the task is months away, leaving the golden egg unopened in his trunk despite Hermione's concern that it may take weeks to solve.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - golden-egg
+  - second-task
+  - clue
+  - tournament-schedule
+  - gryffindor-tower
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Second-Task Schedule and Clue Management
+  reason_for_placement: The passage adds the second-task date and shows how the clue could be retained privately between tasks.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain task spacing, champion preparation expectations, and the risks of unsupervised clue interpretation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch20-007; gof-ch21-001
+    notes: gof-ch20-007 records formal clue distribution, and gof-ch21-001 records the first failed opening of the egg; this entry adds the February twenty-fourth deadline and Harry's continued postponement.
+  confidence: high
+  limitations: The passage still does not identify the egg's intended solution.
+- id: gof-ch22-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Two - The Unexpected Task
+  chapter_start_pdf_page: 1270
+  chapter_end_pdf_page: 1284
+  pdf_page: 1281
+  printed_page: null
+  extracted_text_lines: 375-383
+  text_anchor:
+    start_phrase: Fairy lights
+    end_phrase: swung forward to admit him
+    local_occurrence_note: Harry returns to Gryffindor Tower and uses the newly changed password at the Fat Lady's portrait.
+  nearby_context: The Fat Lady responds to the password, adjusts a festive tinsel hair band, and swings forward to grant access to the Gryffindor common room.
+  match_terms:
+  - Gryffindor Tower
+  - Fat Lady
+  - password
+  - portrait
+  - common room
+  - fairy lights
+  quote_excerpt_short: "the password had been changed"
+  source_note: Gryffindor Tower continues to use a changeable password enforced by the Fat Lady's portrait, which functions as an interactive entrance to the common room.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - gryffindor-tower
+  - fat-lady
+  - passwords
+  - portrait-hole
+  - common-room
+  - portraits
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Passworded Portrait Access
+  reason_for_placement: The passage gives another observed access instance and confirms password changes as ordinary common-room security.
+  relevance_to_hogwarts_a_history: This supports a castle-architecture section on portrait-controlled House entrances and everyday residential security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-004; cos-ch05-006; gof-ch17-007; gof-ch19-007
+    notes: Earlier entries already establish passworded Fat Lady access and Gryffindor common-room security; this entry adds a routine password change during the tournament-year Christmas period.
+  confidence: high
+  limitations: The passage does not specify who changed the password or how frequently routine changes occur.

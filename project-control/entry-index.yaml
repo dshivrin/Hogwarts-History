@@ -7258,6 +7258,111 @@ by_entry:
     - winky
     source_unit: gof-ch21
     output_yaml: sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+  gof-ch22-001:
+    title: 'The Triwizard Year and Institutional Procedure: Yule Ball Eligibility,
+      Dress, and Conduct'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dress-robes
+    - fourth-year
+    - great-hall
+    - student-conduct
+    - triwizard-tournament
+    - yule-ball
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch22-002:
+    title: 'The Triwizard Year and Institutional Procedure: Champion Representative
+      Duties'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - ceremonial-duty
+    - champions
+    - professor-mcgonagall
+    - school-representatives
+    - triwizard-tournament
+    - yule-ball
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch22-003:
+    title: 'Christmas at Hogwarts: Tournament-Year Castle Presentation'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - christmas
+    - decorations
+    - great-hall
+    - marble-staircase
+    - peeves
+    - suits-of-armor
+    - visiting-schools
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch22-004:
+    title: 'Care of Magical Creatures and Practical Handling: Skrewt Feeding Work
+      After Handling Risks'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - blast-ended-skrewts
+    - care-of-magical-creatures
+    - creature-feeding
+    - hagrid
+    - hazardous-creatures
+    - student-safety
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch22-005:
+    title: 'Course Structure and Academic Progression: End-of-Term Instruction and
+      Historical Topics'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - antidotes
+    - goblin-rebellions
+    - history-of-magic
+    - potions
+    - professor-binns
+    - professor-flitwick
+    - term-end-classes
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch22-006:
+    title: 'The Triwizard Year and Institutional Procedure: Second-Task Schedule and
+      Clue Management'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - clue
+    - golden-egg
+    - gryffindor-tower
+    - second-task
+    - tournament-schedule
+    - triwizard-tournament
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch22-007:
+    title: 'House Common Rooms and Dormitories: Passworded Portrait Access'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - common-room
+    - fat-lady
+    - gryffindor-tower
+    - passwords
+    - portrait-hole
+    - portraits
+    source_unit: gof-ch22
+    output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7364,6 +7469,7 @@ by_tag:
   - gof-ch07-002
   antidotes:
   - gof-ch18-004
+  - gof-ch22-005
   apparition:
   - gof-ch06-001
   - gof-ch09-004
@@ -7480,6 +7586,7 @@ by_tag:
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
+  - gof-ch22-004
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -7562,6 +7669,7 @@ by_tag:
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
+  - gof-ch22-004
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -7649,6 +7757,8 @@ by_tag:
   centaurs:
   - cos-ch15-003
   - ps-ch15-006
+  ceremonial-duty:
+  - gof-ch22-002
   chamber-crisis:
   - cos-ch14-003
   - cos-ch14-004
@@ -7695,6 +7805,7 @@ by_tag:
   - gof-ch19-004
   - gof-ch20-002
   - gof-ch20-006
+  - gof-ch22-002
   champions-tent:
   - gof-ch20-005
   charlie-weasley:
@@ -7720,6 +7831,7 @@ by_tag:
   chocolate-remedy:
   - poa-ch05-004
   christmas:
+  - gof-ch22-003
   - poa-ch11-004
   - ps-ch12-003
   christmas-dinner:
@@ -7752,6 +7864,7 @@ by_tag:
   clue:
   - gof-ch20-007
   - gof-ch21-001
+  - gof-ch22-006
   coat-of-arms:
   - gof-ch15-004
   cockatrice:
@@ -7772,6 +7885,7 @@ by_tag:
   - gof-ch17-007
   - gof-ch19-007
   - gof-ch20-004
+  - gof-ch22-007
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -7836,6 +7950,8 @@ by_tag:
   creature-curriculum:
   - poa-ch08-001
   - poa-ch09-005
+  creature-feeding:
+  - gof-ch22-004
   creature-handling:
   - gof-ch18-003
   - poa-ch06-006
@@ -7945,6 +8061,7 @@ by_tag:
   deathday-party:
   - cos-ch08-004
   decorations:
+  - gof-ch22-003
   - poa-ch11-004
   - ps-ch17-005
   defense-against-the-dark-arts:
@@ -8118,6 +8235,7 @@ by_tag:
   - ps-ch14-004
   dress-robes:
   - gof-ch10-007
+  - gof-ch22-001
   dueling-club:
   - cos-ch11-003
   dumbledore:
@@ -8328,6 +8446,7 @@ by_tag:
   fat-lady:
   - gof-ch17-007
   - gof-ch19-007
+  - gof-ch22-007
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -8508,6 +8627,7 @@ by_tag:
   - gof-ch10-006
   - gof-ch10-007
   - gof-ch15-002
+  - gof-ch22-001
   fourth-year-curriculum:
   - gof-ch13-001
   - gof-ch14-006
@@ -8578,6 +8698,8 @@ by_tag:
   - gof-ch07-004
   goblin-rebellion:
   - poa-ch05-002
+  goblin-rebellions:
+  - gof-ch22-005
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
@@ -8591,6 +8713,7 @@ by_tag:
   - gof-ch20-006
   - gof-ch20-007
   - gof-ch21-001
+  - gof-ch22-006
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -8605,6 +8728,8 @@ by_tag:
   - gof-ch15-004
   - gof-ch16-001
   - gof-ch21-006
+  - gof-ch22-001
+  - gof-ch22-003
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -8695,6 +8820,8 @@ by_tag:
   - gof-ch19-007
   - gof-ch21-001
   - gof-ch21-002
+  - gof-ch22-006
+  - gof-ch22-007
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -8733,6 +8860,7 @@ by_tag:
   - gof-ch16-006
   - gof-ch18-003
   - gof-ch21-004
+  - gof-ch22-004
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -8812,6 +8940,7 @@ by_tag:
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
+  - gof-ch22-004
   head-boy:
   - cos-ch04-003
   - cos-ch13-002
@@ -8948,6 +9077,7 @@ by_tag:
   history-of-magic:
   - cos-ch09-002
   - gof-ch15-002
+  - gof-ch22-005
   - poa-ch01-001
   - poa-ch04-002
   - poa-ch16-003
@@ -9658,6 +9788,7 @@ by_tag:
   - poa-ch19-001
   - poa-ch22-004
   marble-staircase:
+  - gof-ch22-003
   - ps-ch14-006
   match-commentary:
   - poa-ch13-002
@@ -10023,6 +10154,7 @@ by_tag:
   - cos-ch12-005
   - gof-ch17-007
   - gof-ch19-007
+  - gof-ch22-007
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -10049,6 +10181,7 @@ by_tag:
   - cos-ch08-005
   - cos-ch11-006
   - gof-ch15-001
+  - gof-ch22-003
   - poa-ch07-005
   - poa-ch08-007
   - poa-ch10-003
@@ -10146,6 +10279,7 @@ by_tag:
   - poa-ch12-006
   portrait-hole:
   - cos-ch05-006
+  - gof-ch22-007
   - poa-ch08-004
   portrait-mobility:
   - poa-ch09-003
@@ -10153,6 +10287,7 @@ by_tag:
   - gof-ch17-007
   portraits:
   - gof-ch17-007
+  - gof-ch22-007
   - poa-ch06-002
   - poa-ch08-004
   - poa-ch08-007
@@ -10171,6 +10306,7 @@ by_tag:
   - gof-ch10-006
   - gof-ch15-002
   - gof-ch18-004
+  - gof-ch22-005
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -10234,12 +10370,14 @@ by_tag:
   professor-binns:
   - cos-ch09-002
   - cos-ch09-003
+  - gof-ch22-005
   - ps-ch08-005
   professor-dippet:
   - cos-ch13-005
   - cos-ch13-006
   - cos-ch13-007
   professor-flitwick:
+  - gof-ch22-005
   - poa-ch11-007
   - poa-ch12-005
   - poa-ch14-001
@@ -10263,6 +10401,7 @@ by_tag:
   - cos-ch11-001
   - gof-ch13-006
   - gof-ch17-003
+  - gof-ch22-002
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -10592,6 +10731,8 @@ by_tag:
   - gof-ch15-006
   school-protections:
   - gof-ch11-005
+  school-representatives:
+  - gof-ch22-002
   school-rules:
   - gof-ch11-003
   - gof-ch12-005
@@ -10646,6 +10787,7 @@ by_tag:
   second-task:
   - gof-ch20-007
   - gof-ch21-001
+  - gof-ch22-006
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -10963,6 +11105,8 @@ by_tag:
   - gof-ch19-002
   student-books:
   - poa-ch13-005
+  student-conduct:
+  - gof-ch22-001
   student-conflict:
   - cos-ch07-003
   student-correspondence:
@@ -11063,6 +11207,7 @@ by_tag:
   - gof-ch13-006
   - gof-ch18-003
   - gof-ch21-004
+  - gof-ch22-004
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -11092,6 +11237,7 @@ by_tag:
   suit-of-armor:
   - ps-ch12-006
   suits-of-armor:
+  - gof-ch22-003
   - poa-ch11-004
   - ps-ch09-004
   summer-holidays:
@@ -11171,6 +11317,8 @@ by_tag:
   - gof-ch04-001
   term-dates:
   - ps-ch04-002
+  term-end-classes:
+  - gof-ch22-005
   term-preparation:
   - gof-ch05-006
   - gof-ch10-007
@@ -11233,6 +11381,8 @@ by_tag:
   tournament-rules:
   - gof-ch17-003
   - gof-ch21-001
+  tournament-schedule:
+  - gof-ch22-006
   tournament-security:
   - gof-ch17-005
   tournament-spectators:
@@ -11286,6 +11436,9 @@ by_tag:
   - gof-ch20-002
   - gof-ch20-007
   - gof-ch21-001
+  - gof-ch22-001
+  - gof-ch22-002
+  - gof-ch22-006
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -11372,6 +11525,7 @@ by_tag:
   - gof-ch16-001
   - gof-ch19-004
   - gof-ch20-002
+  - gof-ch22-003
   visitor-access:
   - ps-ch17-004
   visitor-control:
@@ -11550,3 +11704,6 @@ by_tag:
   - poa-ch18-006
   written-papers:
   - ps-ch16-001
+  yule-ball:
+  - gof-ch22-001
+  - gof-ch22-002

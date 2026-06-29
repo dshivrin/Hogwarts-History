@@ -8,19 +8,19 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 78
+- Total: 79
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 133
+- Harry Potter and the Goblet of Fire: 140
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 245
-- later_editorial_note: 198
+- harry_era_confirmation: 249
+- later_editorial_note: 201
 - original_book_core_candidate: 6
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 46
@@ -28,14 +28,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Reference Type
 
 - cross_reference_candidate: 40
-- curriculum_or_subject: 72
-- direct_observed_setting: 25
+- curriculum_or_subject: 74
+- direct_observed_setting: 26
 - explicit_hogwarts_a_history: 5
 - explicit_in_universe_source: 41
 - historical_claim: 49
 - house_system: 10
-- institutional_custom: 93
-- magical_architecture: 35
+- institutional_custom: 96
+- magical_architecture: 36
 - portrait_or_ghost_lore: 7
 - school_rule_or_policy: 63
 - security_or_protection: 57
@@ -46,12 +46,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 368
+- Total: 373
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, pages 1252-1269, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, pages 1270-1284, `sources/book-04/chapter-22-the-unexpected-task.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, pages 1270-1284, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, pages 1285-1309, `sources/book-04/chapter-23-the-yule-ball.yaml`

@@ -1569,6 +1569,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter sup
   - Corroborates: `ps-ch15-007`. Book 1 Chapter Fifteen already records Hermione citing McGonagall's view that fortune-telling is imprecise; this entry gives McGonagall's direct statement in a class context and adds True Seers plus Animagi instruction.
   - Notes: The evidence reflects McGonagall's opinion and teaching moment; it does not define a formal Hogwarts policy on Divination.
 
+#### Section: End-of-Term Instruction and Historical Topics
+
+Summary: The available evidence includes 1 source item, led by: The chapter contrasts end-of-term teaching styles and confirms History of Magic coverage of goblin rebellions, continued ghostly instruction by Binns, and a Potions antidote test.
+
+- **Corroboration:** The chapter contrasts end-of-term teaching styles and confirms History of Magic coverage of goblin rebellions, continued ghostly instruction by Binns, and a Potions antidote test.
+  - Quote: "notes on goblin rebellions"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1275, `gof-ch22-005`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `cos-ch09-002`, `ps-ch08-005`, `gof-ch15-002`. cos-ch09-002 and ps-ch08-005 already establish Binns as History of Magic's ghost teacher, and gof-ch15-002 records fourth-year workload; this entry adds goblin rebellions as the current topic and term-end variation across teachers.
+  - Notes: The passage summarizes several classes briefly and does not describe the content of the goblin rebellions lesson.
+
 #### Section: Fourth-Year Divination Astrology and Crystal-Gazing
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates fourth-year Divination as a mix of astrology, crystal-gazing, death prediction, and inconsistent homework pressure compared with Arithmancy.
@@ -1792,6 +1804,18 @@ Summary: The available evidence includes 1 source item, led by: The lesson exten
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch13-003`. gof-ch13-003 introduces Hagrid's live Blast-Ended Skrewt project with cross-House students; this entry corroborates it and adds growth, armor, leashing, and dragon-hide glove precautions.
   - Notes: The passage does not explain the creatures' origin or whether this curriculum had staff approval beyond Hagrid's lesson plan.
+
+#### Section: Skrewt Feeding Work After Handling Risks
+
+Summary: The available evidence includes 1 source item, led by: Hagrid modifies his Care of Magical Creatures approach by ending direct Skrewt handling and assigning students to prepare creature food behind his cabin.
+
+- **Corroboration:** Hagrid modifies his Care of Magical Creatures approach by ending direct Skrewt handling and assigning students to prepare creature food behind his cabin.
+  - Quote: "given up on direct contact with the skrewts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1274, `gof-ch22-004`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch13-003`, `gof-ch18-003`, `gof-ch21-004`. Prior entries record Skrewt introduction, growth, handling risks, and hibernation injuries; this entry adds Hagrid's subsequent retreat from direct handling and the food-preparation lesson behind his cabin.
+  - Notes: The chapter does not say whether staff supervision changed after earlier Skrewt injuries.
 
 #### Section: Skrewt Hibernation Experiment and Press Exposure
 
@@ -5382,6 +5406,18 @@ Summary: The available evidence includes 1 source item, led by: The golden egg i
   - Corroborates: `gof-ch20-007`. gof-ch20-007 records Bagman's formal explanation that the egg contains the second-task clue; this entry adds the rule that Harry should solve it himself and the first failed common-room interpretation.
   - Notes: The passage does not reveal the clue's intended underwater solution.
 
+#### Section: Second-Task Schedule and Clue Management
+
+Summary: The available evidence includes 1 source item, led by: Harry treats the second-task clue as low priority because the task is months away, leaving the golden egg unopened in his trunk despite Hermione's concern that it may take weeks to solve.
+
+- **Corroboration:** Harry treats the second-task clue as low priority because the task is months away, leaving the golden egg unopened in his trunk despite Hermione's concern that it may take weeks to solve.
+  - Quote: "till February the twenty-fourth"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1276, `gof-ch22-006`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch20-007`, `gof-ch21-001`. gof-ch20-007 records formal clue distribution, and gof-ch21-001 records the first failed opening of the egg; this entry adds the February twenty-fourth deadline and Harry's continued postponement.
+  - Notes: The passage still does not identify the egg's intended solution.
+
 ### Chapter: The Triwizard Year and Magical Creature Hazards
 
 #### Section: Dragon Assignment and First-Task Order
@@ -5551,6 +5587,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione identif
 
 ## Part: Castle Architecture and Daily Operations
 
+### Chapter: House Common Rooms and Dormitories
+
+#### Section: Passworded Portrait Access
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor Tower continues to use a changeable password enforced by the Fat Lady's portrait, which functions as an interactive entrance to the common room.
+
+- **Corroboration:** Gryffindor Tower continues to use a changeable password enforced by the Fat Lady's portrait, which functions as an interactive entrance to the common room.
+  - Quote: "the password had been changed"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1281, `gof-ch22-007`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `poa-ch08-004`, `cos-ch05-006`, `gof-ch17-007`, `gof-ch19-007`. Earlier entries already establish passworded Fat Lady access and Gryffindor common-room security; this entry adds a routine password change during the tournament-year Christmas period.
+  - Notes: The passage does not specify who changed the password or how frequently routine changes occur.
+
 ### Chapter: Kitchens, Food Service, and Hidden Labor
 
 #### Section: Fruit-Painting Entrance and Informal Student Access
@@ -5595,6 +5645,20 @@ Summary: The available evidence includes 1 source item, led by: The scene confir
 
 ## Part: Ceremonies, Feasts, and Inter-School Relations
 
+### Chapter: Christmas at Hogwarts
+
+#### Section: Tournament-Year Castle Presentation
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts Christmas display includes the twelve Great Hall trees, marble-staircase icicles, singing suits of armor, and staff concern with impressing Beauxbatons and Durmstrang visitors.
+
+- **Corroboration:** Hogwarts Christmas display includes the twelve Great Hall trees, marble-staircase icicles, singing suits of armor, and staff concern with impressing Beauxbatons and Durmstrang visitors.
+  - Quote: "the usual twelve Christmas trees"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1278, `gof-ch22-003`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `poa-ch11-004`, `ps-ch12-003`. poa-ch11-004 and ps-ch12-003 already record Christmas decorations and Great Hall trees; this entry adds the tournament-hosting motive, marble-staircase icicles, golden owls, and singing armor with Peeves disruption.
+  - Notes: The account describes decorations before the ball rather than the full Christmas feast.
+
 ### Chapter: The Triwizard Tournament at Hogwarts
 
 #### Section: First-Task Spectatorship and School-Day Disruption
@@ -5632,6 +5696,30 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts posts f
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-007`. gof-ch12-007 gives the tournament history, schools, selection, and age restriction; this entry adds the concrete hosting protocol for the delegations' arrival.
   - Notes: The evidence is limited to the 1994 Triwizard revival and may not reflect earlier hosting customs.
+
+### Chapter: The Triwizard Year and Institutional Procedure
+
+#### Section: Champion Representative Duties
+
+Summary: The available evidence includes 1 source item, led by: Champions are expected to bring dance partners and open the Yule Ball as public representatives of their schools.
+
+- **Context:** Champions are expected to bring dance partners and open the Yule Ball as public representatives of their schools.
+  - Quote: "champions and their partners open the ball"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1272, `gof-ch22-002`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The rule is explained by McGonagall in practice, not through a written tournament rulebook.
+
+#### Section: Yule Ball Eligibility, Dress, and Conduct
+
+Summary: The available evidence includes 1 source item, led by: McGonagall formally presents the Yule Ball as a Triwizard custom with age-based attendance rules, dress robes, a Great Hall venue, and school-behavior expectations.
+
+- **Context:** McGonagall formally presents the Yule Ball as a Triwizard custom with age-based attendance rules, dress robes, a Great Hall venue, and school-behavior expectations.
+  - Quote: "traditional part of the Triwizard Tournament"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, PDF p. 1270, `gof-ch22-001`, `sources/book-04/chapter-22-the-unexpected-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The passage states the custom but does not explain the historical origin of the Yule Ball.
 
 ### Chapter: Visiting Schools and Magical Travel
 

@@ -30,6 +30,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
+  - Skrewt Feeding Work After Handling Risks
   - Skrewt Hibernation Experiment and Press Exposure
 - Charms
   - First-Year Spellwork
@@ -40,6 +41,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Defense Against the Dark Arts Creature Sequence
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
+  - End-of-Term Instruction and Historical Topics
   - Fourth-Year Divination Astrology and Crystal-Gazing
   - Fourth-Year Divination and Arithmancy Contrast
   - Fourth-Year Schedules, Electives, and Morning Owl Post
@@ -112,6 +114,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Castle Architecture and Daily Operations
 
+- House Common Rooms and Dormitories
+  - Passworded Portrait Access
 - Kitchens, Food Service, and Hidden Labor
   - Fruit-Painting Entrance and Informal Student Access
   - Kitchen Layout Beneath the Great Hall
@@ -167,10 +171,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Ceremonies, Feasts, and Inter-School Relations
 
+- Christmas at Hogwarts
+  - Tournament-Year Castle Presentation
 - The Triwizard Tournament at Hogwarts
   - First-Task Spectatorship and School-Day Disruption
   - Guest seating at House tables
   - Welcoming visiting delegations
+- The Triwizard Year and Institutional Procedure
+  - Champion Representative Duties
+  - Yule Ball Eligibility, Dress, and Conduct
 - Visiting Schools and Magical Travel
   - Beauxbatons carriage and Durmstrang lake ship
   - Beauxbatons carriage as guest lodging
@@ -298,6 +307,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Procedure
   - Scoring and Second-Task Clue Distribution
   - Second-Task Clue Rules and Misreadings
+  - Second-Task Schedule and Clue Management
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure

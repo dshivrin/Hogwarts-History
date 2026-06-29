@@ -937,3 +937,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1252-1269.
+- source_unit_id: gof-ch22
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 22
+  chapter_title: Chapter Twenty-Two - The Unexpected Task
+  page_start: 1270
+  page_end: 1284
+  output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  processed_at: '2026-06-30'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1270-1284.
