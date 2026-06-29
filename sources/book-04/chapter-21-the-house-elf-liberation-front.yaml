@@ -1,0 +1,319 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-One range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty and next Chapter Twenty-Two anchors and extracted only PDF pages 1252-1269 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-29'
+  processor_notes: "Processed only Book 4, Chapter Twenty-One. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch21-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1254
+  printed_page: null
+  extracted_text_lines: 55-81
+  text_anchor:
+    start_phrase: picking up the golden egg
+    end_phrase: They wouldn't use the Cruciatus Curse on the champions
+    local_occurrence_note: Gryffindor students urge Harry to open the egg in the common room after the first task.
+  nearby_context: Hermione says the clue is meant to be worked out by Harry under tournament rules, then the opened egg emits a harsh sound that students misinterpret as torture, a banshee, or another danger.
+  match_terms:
+  - golden egg
+  - second task
+  - clue
+  - tournament rules
+  - champions
+  - Gryffindor common room
+  quote_excerpt_short: "work out the clue on his own"
+  source_note: The golden egg is treated as a private second-task clue under tournament rules, but Harry tests it publicly in Gryffindor Tower and hears only an unintelligible wailing sound.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - golden-egg
+  - second-task
+  - clue
+  - tournament-rules
+  - gryffindor-tower
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Second-Task Clue Rules and Misreadings
+  reason_for_placement: The passage adds how the clue operated after formal distribution and how student interpretation initially failed outside the intended context.
+  relevance_to_hogwarts_a_history: A later edition can use this to document clue-based task sequencing, informal House support, and the gap between tournament instructions and student practice.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch20-007
+    notes: gof-ch20-007 records Bagman's formal explanation that the egg contains the second-task clue; this entry adds the rule that Harry should solve it himself and the first failed common-room interpretation.
+  confidence: high
+  limitations: The passage does not reveal the clue's intended underwater solution.
+- id: gof-ch21-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1255
+  printed_page: null
+  extracted_text_lines: 91-107
+  text_anchor:
+    start_phrase: Did you get all this from the kitchens
+    end_phrase: You'll put them off their cooking
+    local_occurrence_note: Fred explains how students can enter the Hogwarts kitchens while warning Hermione not to agitate the elves.
+  nearby_context: A Gryffindor celebration uses food taken from the kitchens; Fred says the entrance is a concealed door behind a fruit-bowl painting opened by tickling the pear.
+  match_terms:
+  - Hogwarts kitchens
+  - fruit painting
+  - concealed door
+  - house-elves
+  - food
+  - S.P.E.W.
+  quote_excerpt_short: "concealed door behind a painting"
+  source_note: Fred identifies the hidden kitchen entrance and describes house-elves as extremely willing providers of food for students.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-kitchens
+  - secret-entrance
+  - fruit-painting
+  - house-elves
+  - gryffindor-tower
+  - student-customs
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Kitchens, Food Service, and Hidden Labor
+  candidate_section: Fruit-Painting Entrance and Informal Student Access
+  reason_for_placement: The passage gives the practical access mechanism for a major concealed service space beneath Hogwarts.
+  relevance_to_hogwarts_a_history: This supports a later account of castle service architecture and the informal routes by which students discovered hidden labor spaces.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch19-002; gof-ch12-004
+    notes: gof-ch19-002 records Hermione seeking kitchen access, and gof-ch12-004 records the house-elf workforce; this entry supplies the exact fruit-painting entrance and casual student food access.
+  confidence: high
+  limitations: Fred and George's access appears informal and may not represent official student permission.
+- id: gof-ch21-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1256
+  printed_page: null
+  extracted_text_lines: 124-134
+  text_anchor:
+    start_phrase: The start of December brought wind and sleet to Hogwarts
+    end_phrase: needed their wits about them
+    local_occurrence_note: Harry contrasts the castle's winter shelter with the visiting schools' exposed magical transport lodgings.
+  nearby_context: The Durmstrang ship remains on the lake in high winds, the Beauxbatons carriage is still on the grounds, and Madame Maxime's horses are kept in a paddock with single-malt whiskey.
+  match_terms:
+  - Durmstrang ship
+  - Beauxbatons carriage
+  - Hogwarts winter
+  - castle fires
+  - thick walls
+  - winged horses
+  quote_excerpt_short: "fires and thick walls"
+  source_note: The chapter confirms winter conditions at Hogwarts and shows both visiting delegations continuing to use their own transport as lodging or staging on the grounds.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - beauxbatons
+  - durmstrang
+  - guest-lodging
+  - black-lake
+  - hogwarts-grounds
+  - castle
+  - winter
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: Visiting Schools and Magical Travel
+  candidate_section: Winter Lodging on the Grounds
+  reason_for_placement: The passage extends arrival and lodging evidence into the winter term and contrasts foreign magical accommodations with the castle itself.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe how Hogwarts hosted visiting schools while leaving their delegations partly outside the castle.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-005; gof-ch15-007
+    notes: gof-ch15-007 records the arrivals, and gof-ch16-005 records Beauxbatons carriage lodging; this entry adds winter conditions and the continuing Durmstrang ship and Beauxbatons carriage presence.
+  confidence: high
+  limitations: The passage implies but does not explicitly state the exact sleeping arrangements for every visiting student.
+- id: gof-ch21-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1256
+  printed_page: null
+  extracted_text_lines: 135-232
+  text_anchor:
+    start_phrase: I'm not sure whether they hibernate or not
+    end_phrase: exactly the sort of thing Hagrid might do
+    local_occurrence_note: Hagrid's attempted Skrewt hibernation lesson collapses into injuries and draws Rita Skeeter's attention.
+  nearby_context: The remaining Blast-Ended Skrewts are six feet long, resist confinement, burn and cut students, and raise questions about their origin when Rita Skeeter interviews Hagrid.
+  match_terms:
+  - Blast-Ended Skrewts
+  - Care of Magical Creatures
+  - hibernation
+  - student injuries
+  - Rita Skeeter
+  - illegal import
+  quote_excerpt_short: "at the cost of numerous burns and cuts"
+  source_note: A Care of Magical Creatures lesson shows Hagrid experimenting with Skrewt hibernation, causing student injuries and prompting public-record risk through Rita Skeeter's interest.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - blast-ended-skrewts
+  - hagrid
+  - hazardous-creatures
+  - student-safety
+  - rita-skeeter
+  - daily-prophet
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Practical Handling
+  candidate_section: Skrewt Hibernation Experiment and Press Exposure
+  reason_for_placement: The passage supplies a later stage of Hagrid's practical creature curriculum and links classroom safety to outside scrutiny.
+  relevance_to_hogwarts_a_history: A later edition can use this to discuss Hogwarts's tolerance for risky live-creature teaching and how the wizarding press could turn lessons into governance problems.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-003; gof-ch18-003
+    notes: gof-ch13-003 introduces the Skrewt project, and gof-ch18-003 records larger Skrewt handling; this entry adds failed hibernation testing, student injuries, Rita Skeeter's school-access issue, and concern over possible illegal origin.
+  confidence: high
+  limitations: The chapter raises but does not answer whether Hagrid imported or bred the Skrewts legally.
+- id: gof-ch21-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1259
+  printed_page: null
+  extracted_text_lines: 240-279
+  text_anchor:
+    start_phrase: they were still doing star charts and predictions
+    end_phrase: I hope Hermione got loads off Professor Vector
+    local_occurrence_note: Harry and Ron attend a double Divination lesson and leave without homework.
+  nearby_context: Trelawney discusses Pluto's effects, crystal-gazing, and another death omen over the castle, while Ron contrasts the lack of Divination homework with Hermione's Arithmancy.
+  match_terms:
+  - Divination
+  - star charts
+  - predictions
+  - Pluto
+  - crystal gazing
+  - Professor Vector
+  quote_excerpt_short: "star charts and predictions"
+  source_note: The chapter corroborates fourth-year Divination as a mix of astrology, crystal-gazing, death prediction, and inconsistent homework pressure compared with Arithmancy.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - astrology
+  - star-charts
+  - crystal-gazing
+  - professor-trelawney
+  - arithmancy
+  - professor-vector
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Fourth-Year Divination Astrology and Crystal-Gazing
+  reason_for_placement: The passage adds another observed fourth-year elective lesson and confirms recurring Divination methods.
+  relevance_to_hogwarts_a_history: This helps a later school history document upper-year elective practice and compare Divination's classroom rhythm with other electives.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-004; gof-ch14-006
+    notes: gof-ch13-004 records fourth-year planetary-chart work, and gof-ch14-006 records prediction homework; this entry adds Pluto instruction, crystal-gazing in class, and a no-homework contrast with Arithmancy.
+  confidence: high
+  limitations: The scene is filtered through Harry and Ron's skepticism and does not establish the formal full-year syllabus.
+- id: gof-ch21-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1261
+  printed_page: null
+  extracted_text_lines: 310-419
+  text_anchor:
+    start_phrase: down through six floors
+    end_phrase: the elves all looked delighted
+    local_occurrence_note: Hermione leads Harry and Ron from Gryffindor Tower to the kitchens and Harry observes the room's layout.
+  nearby_context: The kitchen corridor is reached from the entrance hall, decorated with food paintings, entered through a pear handle, and contains four long tables directly beneath the Great Hall House tables.
+  match_terms:
+  - Hogwarts kitchens
+  - Great Hall
+  - House tables
+  - fruit bowl
+  - food through ceiling
+  - Hogwarts crest
+  quote_excerpt_short: "positioned exactly beneath the four House tables"
+  source_note: "Harry directly observes the Hogwarts kitchens: a huge room below the Great Hall, with four tables aligned to the House tables above and at least a hundred uniformed elves."
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-kitchens
+  - great-hall
+  - house-tables
+  - magical-architecture
+  - house-elves
+  - food-service
+  - castle-navigation
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Kitchens, Food Service, and Hidden Labor
+  candidate_section: Kitchen Layout Beneath the Great Hall
+  reason_for_placement: The passage gives the clearest observed spatial relationship between the hidden kitchens and the public Great Hall.
+  relevance_to_hogwarts_a_history: This is core evidence for the castle's service architecture and for how feasts and meals physically move from hidden labor spaces to student-facing rituals.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-004; gof-ch19-002
+    notes: gof-ch12-004 records the kitchen workforce and unseen service, while gof-ch19-002 records Hermione's plan to access the kitchens; this entry adds the room layout, House-table alignment, and food-transfer inference.
+  confidence: high
+  limitations: Harry infers the food-transfer mechanism from table placement rather than seeing dishes move through the ceiling.
+- id: gof-ch21-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-One - The House-Elf Liberation Front
+  chapter_start_pdf_page: 1252
+  chapter_end_pdf_page: 1269
+  pdf_page: 1264
+  printed_page: null
+  extracted_text_lines: 420-552
+  text_anchor:
+    start_phrase: Dobby came to see Professor Dumbledore
+    end_phrase: Winky keeps her master's secrets
+    local_occurrence_note: Dobby explains his and Winky's Hogwarts employment, wages, freedom, and secrecy obligations.
+  nearby_context: Dumbledore hires both freed elves, offers Dobby wages and days off, does not require silence about himself, while Winky rejects wages and continues to identify with the Crouch family.
+  match_terms:
+  - Dobby
+  - Winky
+  - Professor Dumbledore
+  - wages
+  - freedom
+  - secrets
+  - Crouch family
+  quote_excerpt_short: "part of the house-elf's enslavement"
+  source_note: Dobby and Winky's Hogwarts employment exposes competing house-elf views of freedom, wages, family loyalty, silence, and Dumbledore's unusually permissive terms.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - dobby
+  - winky
+  - wages
+  - magical-servitude
+  - dumbledore
+  - secrecy
+  candidate_part: Peoples, Creatures, and Non-Human Communities
+  candidate_chapter: House-Elves and Hogwarts Labor
+  candidate_section: Freed Elves, Wages, and Enslavement Customs
+  reason_for_placement: The passage gives direct testimony from house-elves about social norms that shape Hogwarts labor and wizarding household service.
+  relevance_to_hogwarts_a_history: A later edition can use this as key evidence for Dumbledore's reforms, limits on elf speech, and the contrast between institutional employment and household bondage.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-006; gof-ch19-002
+    notes: gof-ch16-006 records Hagrid's anti-reform claim about wages and freedom, and gof-ch19-002 records Hermione's activism; this entry adds Dobby and Winky's direct testimony, Dumbledore's offered terms, and secrecy obligations.
+  confidence: high
+  limitations: The evidence centers on two freed elves and may not represent all Hogwarts house-elves' preferences.

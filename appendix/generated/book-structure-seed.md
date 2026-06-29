@@ -30,6 +30,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
+  - Skrewt Hibernation Experiment and Press Exposure
 - Charms
   - First-Year Spellwork
 - Course Materials and Annual Booklists
@@ -39,6 +40,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Defense Against the Dark Arts Creature Sequence
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
+  - Fourth-Year Divination Astrology and Crystal-Gazing
   - Fourth-Year Divination and Arithmancy Contrast
   - Fourth-Year Schedules, Electives, and Morning Owl Post
   - Third-Year Books and Supplies
@@ -108,6 +110,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Chamber of Secrets References
   - Library Demand for Hogwarts: A History
 
+## Castle Architecture and Daily Operations
+
+- Kitchens, Food Service, and Hidden Labor
+  - Fruit-Painting Entrance and Informal Student Access
+  - Kitchen Layout Beneath the Great Hall
+
 ## Castle Architecture and Everyday Magic
 
 - Portraits, Passwords, and House Entrances
@@ -166,6 +174,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Visiting Schools and Magical Travel
   - Beauxbatons carriage and Durmstrang lake ship
   - Beauxbatons carriage as guest lodging
+  - Winter Lodging on the Grounds
 
 ## Curriculum, Study, and Practical Magic
 
@@ -288,6 +297,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Weighing of the Wands
 - The Triwizard Year and Institutional Procedure
   - Scoring and Second-Task Clue Distribution
+  - Second-Task Clue Rules and Misreadings
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
@@ -411,6 +421,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Peoples, Creatures, and Non-Human Communities
 
 - House-Elves and Hogwarts Labor
+  - Freed Elves, Wages, and Enslavement Customs
   - Staff-side attitudes toward wages and freedom
   - Student activism and house-elf legal status
 

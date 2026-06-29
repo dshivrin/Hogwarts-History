@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 20
-  chapter_title: Chapter Twenty - The First Task
-  page_start: 1230
-  page_end: 1251
-  output_yaml: sources/book-04/chapter-20-the-first-task.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 21
   chapter_title: Chapter Twenty-One - The House-Elf Liberation Front
   page_start: 1252
   page_end: 1269
   output_yaml: sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1270
   page_end: 1284
   output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 23
+  chapter_title: Chapter Twenty-Three - The Yule Ball
+  page_start: 1285
+  page_end: 1309
+  output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

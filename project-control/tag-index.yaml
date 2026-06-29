@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-29'
+updated: '2026-06-30'
 tags:
   academic-merit:
     entries:
@@ -260,6 +260,7 @@ tags:
     entries:
     - gof-ch13-001
     - gof-ch13-004
+    - gof-ch21-005
     - poa-ch04-004
     - poa-ch06-001
     - poa-ch12-007
@@ -270,6 +271,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   armando-dippet:
     entries:
     - cos-ch17-003
@@ -295,8 +297,10 @@ tags:
   astrology:
     entries:
     - gof-ch13-004
+    - gof-ch21-005
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   astronomy:
     entries:
     - poa-ch16-003
@@ -439,6 +443,7 @@ tags:
     - gof-ch16-001
     - gof-ch16-005
     - gof-ch17-002
+    - gof-ch21-003
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -446,6 +451,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -468,15 +474,19 @@ tags:
   black-lake:
     entries:
     - gof-ch15-007
+    - gof-ch21-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
     - gof-ch18-003
+    - gof-ch21-004
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   blood-status:
     entries:
     - cos-ch04-004
@@ -661,6 +671,7 @@ tags:
     - cos-ch14-002
     - gof-ch13-003
     - gof-ch18-003
+    - gof-ch21-004
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -685,6 +696,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   career-guidance:
     entries:
     - cos-ch14-002
@@ -711,11 +723,13 @@ tags:
     entries:
     - cos-ch01-001
     - cos-ch09-003
+    - gof-ch21-003
     - ps-ch06-007
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-02/chapter-01-worst-birthday.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   castle-approach:
     entries:
     - cos-ch05-002
@@ -763,6 +777,7 @@ tags:
     entries:
     - cos-ch05-006
     - cos-ch12-005
+    - gof-ch21-006
     - poa-ch06-002
     - poa-ch10-004
     - ps-ch08-001
@@ -777,6 +792,7 @@ tags:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-10-the-marauders-map.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   castle-protections:
     entries:
     - poa-ch09-001
@@ -1066,8 +1082,10 @@ tags:
   clue:
     entries:
     - gof-ch20-007
+    - gof-ch21-001
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   coat-of-arms:
     entries:
     - gof-ch15-004
@@ -1347,11 +1365,13 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
   crystal-gazing:
     entries:
+    - gof-ch21-005
     - poa-ch15-003
     - poa-ch16-005
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   curfew:
     entries:
     - ps-ch09-005
@@ -1402,6 +1422,7 @@ tags:
     - gof-ch10-003
     - gof-ch13-005
     - gof-ch18-005
+    - gof-ch21-004
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -1411,6 +1432,7 @@ tags:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -1741,6 +1763,7 @@ tags:
     - gof-ch13-001
     - gof-ch13-004
     - gof-ch14-006
+    - gof-ch21-005
     - poa-ch04-003
     - poa-ch06-001
     - poa-ch06-003
@@ -1759,6 +1782,7 @@ tags:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -1770,10 +1794,12 @@ tags:
     - cos-ch02-004
     - cos-ch18-006
     - gof-ch08-002
+    - gof-ch21-007
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   dobby-warning:
     entries:
     - cos-ch02-002
@@ -1877,6 +1903,7 @@ tags:
     - gof-ch11-001
     - gof-ch12-006
     - gof-ch14-002
+    - gof-ch21-007
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -1947,6 +1974,7 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -1991,6 +2019,7 @@ tags:
     - gof-ch17-002
     - gof-ch17-004
     - gof-ch19-006
+    - gof-ch21-003
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -1998,6 +2027,7 @@ tags:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   dursleys:
     entries:
     - cos-ch01-003
@@ -2556,6 +2586,11 @@ tags:
     - gof-ch20-003
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+  food-service:
+    entries:
+    - gof-ch21-006
+    output_yaml:
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   forbidden-corridor:
     entries:
     - ps-ch09-007
@@ -2707,6 +2742,11 @@ tags:
     - cos-ch06-007
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  fruit-painting:
+    entries:
+    - gof-ch21-002
+    output_yaml:
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   full-moon-safety:
     entries:
     - poa-ch18-002
@@ -2849,8 +2889,10 @@ tags:
     entries:
     - gof-ch20-006
     - gof-ch20-007
+    - gof-ch21-001
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -2865,6 +2907,7 @@ tags:
     - gof-ch13-001
     - gof-ch15-004
     - gof-ch16-001
+    - gof-ch21-006
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -2899,6 +2942,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -3058,6 +3102,8 @@ tags:
     - cos-ch08-001
     - gof-ch17-007
     - gof-ch19-007
+    - gof-ch21-001
+    - gof-ch21-002
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -3082,6 +3128,7 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   guarded-chamber:
     entries:
     - ps-ch09-007
@@ -3114,8 +3161,10 @@ tags:
   guest-lodging:
     entries:
     - gof-ch16-005
+    - gof-ch21-003
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   hagrid:
     entries:
     - cos-ch02-004
@@ -3129,6 +3178,7 @@ tags:
     - gof-ch13-003
     - gof-ch16-006
     - gof-ch18-003
+    - gof-ch21-004
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -3182,6 +3232,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -3284,9 +3335,11 @@ tags:
     entries:
     - gof-ch13-003
     - gof-ch18-003
+    - gof-ch21-004
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   head-boy:
     entries:
     - cos-ch04-003
@@ -3739,6 +3792,7 @@ tags:
     - gof-ch16-005
     - gof-ch19-005
     - gof-ch20-005
+    - gof-ch21-003
     - poa-ch10-002
     - poa-ch10-003
     - poa-ch17-004
@@ -3755,6 +3809,7 @@ tags:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   hogwarts-hidden:
     entries:
     - gof-ch11-005
@@ -3764,9 +3819,12 @@ tags:
     entries:
     - gof-ch12-004
     - gof-ch19-002
+    - gof-ch21-002
+    - gof-ch21-006
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   hogwarts-letters:
     entries:
     - cos-ch01-004
@@ -4030,6 +4088,9 @@ tags:
     - gof-ch15-003
     - gof-ch16-006
     - gof-ch19-002
+    - gof-ch21-002
+    - gof-ch21-006
+    - gof-ch21-007
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -4041,6 +4102,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -4144,12 +4206,14 @@ tags:
     - cos-ch06-001
     - gof-ch12-001
     - gof-ch16-001
+    - gof-ch21-006
     - poa-ch11-005
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   house-teams:
     entries:
     - cos-ch07-001
@@ -4802,6 +4866,7 @@ tags:
     - cos-ch17-001
     - gof-ch11-005
     - gof-ch17-007
+    - gof-ch21-006
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -4811,6 +4876,7 @@ tags:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -5012,6 +5078,7 @@ tags:
     - gof-ch15-003
     - gof-ch16-006
     - gof-ch19-002
+    - gof-ch21-007
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -5022,6 +5089,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   magical-settlements:
     entries:
     - gof-ch19-001
@@ -6531,6 +6599,7 @@ tags:
     - gof-ch10-005
     - gof-ch13-004
     - gof-ch14-006
+    - gof-ch21-005
     - poa-ch06-003
     - poa-ch06-004
     - poa-ch16-005
@@ -6540,13 +6609,16 @@ tags:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   professor-vector:
     entries:
     - gof-ch13-004
+    - gof-ch21-005
     - poa-ch12-007
     output_yaml:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   prongs:
     entries:
     - poa-ch14-007
@@ -6887,10 +6959,12 @@ tags:
     - gof-ch10-003
     - gof-ch13-005
     - gof-ch18-005
+    - gof-ch21-004
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -7287,8 +7361,10 @@ tags:
   second-task:
     entries:
     - gof-ch20-007
+    - gof-ch21-001
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -7310,6 +7386,7 @@ tags:
   secrecy:
     entries:
     - gof-ch19-004
+    - gof-ch21-007
     - ps-ch13-006
     - ps-ch14-003
     - ps-ch15-003
@@ -7318,11 +7395,17 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   secrecy-sensor:
     entries:
     - gof-ch20-003
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+  secret-entrance:
+    entries:
+    - gof-ch21-002
+    output_yaml:
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   secret-passages:
     entries:
     - poa-ch05-002
@@ -7934,6 +8017,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  star-charts:
+    entries:
+    - gof-ch21-005
+    output_yaml:
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   stargazing:
     entries:
     - ps-ch15-006
@@ -8020,6 +8108,11 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  student-customs:
+    entries:
+    - gof-ch21-002
+    output_yaml:
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   student-discipline:
     entries:
     - cos-ch18-002
@@ -8213,6 +8306,7 @@ tags:
     - gof-ch13-003
     - gof-ch13-006
     - gof-ch18-003
+    - gof-ch21-004
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -8230,6 +8324,7 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -8608,8 +8703,10 @@ tags:
   tournament-rules:
     entries:
     - gof-ch17-003
+    - gof-ch21-001
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   tournament-security:
     entries:
     - gof-ch17-005
@@ -8702,6 +8799,7 @@ tags:
     - gof-ch19-006
     - gof-ch20-002
     - gof-ch20-007
+    - gof-ch21-001
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -8712,6 +8810,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -8967,9 +9066,11 @@ tags:
     entries:
     - gof-ch16-006
     - gof-ch19-002
+    - gof-ch21-007
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   wand:
     entries:
     - cos-ch01-002
@@ -9164,9 +9265,16 @@ tags:
     - gof-ch08-002
     - gof-ch09-003
     - gof-ch09-005
+    - gof-ch21-007
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+  winter:
+    entries:
+    - gof-ch21-003
+    output_yaml:
+    - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   winter-at-hogwarts:
     entries:
     - ps-ch12-001

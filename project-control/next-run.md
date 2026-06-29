@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-One - The House-Elf Liberation Front
-- Page range: 1252-1269
+- Chapter: Chapter Twenty-Two - The Unexpected Task
+- Page range: 1270-1284
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+- Output YAML: `sources/book-04/chapter-22-the-unexpected-task.yaml`
 
 ## Minimal Context
 

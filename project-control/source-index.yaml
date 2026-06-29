@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-29'
+updated: '2026-06-30'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -925,3 +925,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1230-1251.
+- source_unit_id: gof-ch21
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 21
+  chapter_title: Chapter Twenty-One - The House-Elf Liberation Front
+  page_start: 1252
+  page_end: 1269
+  output_yaml: sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+  processed_at: '2026-06-29'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1252-1269.

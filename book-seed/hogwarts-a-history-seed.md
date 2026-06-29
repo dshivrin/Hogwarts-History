@@ -1569,6 +1569,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter sup
   - Corroborates: `ps-ch15-007`. Book 1 Chapter Fifteen already records Hermione citing McGonagall's view that fortune-telling is imprecise; this entry gives McGonagall's direct statement in a class context and adds True Seers plus Animagi instruction.
   - Notes: The evidence reflects McGonagall's opinion and teaching moment; it does not define a formal Hogwarts policy on Divination.
 
+#### Section: Fourth-Year Divination Astrology and Crystal-Gazing
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates fourth-year Divination as a mix of astrology, crystal-gazing, death prediction, and inconsistent homework pressure compared with Arithmancy.
+
+- **Corroboration:** The chapter corroborates fourth-year Divination as a mix of astrology, crystal-gazing, death prediction, and inconsistent homework pressure compared with Arithmancy.
+  - Quote: "star charts and predictions"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1259, `gof-ch21-005`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch13-004`, `gof-ch14-006`. gof-ch13-004 records fourth-year planetary-chart work, and gof-ch14-006 records prediction homework; this entry adds Pluto instruction, crystal-gazing in class, and a no-homework contrast with Arithmancy.
+  - Notes: The scene is filtered through Harry and Ron's skepticism and does not establish the formal full-year syllabus.
+
 #### Section: Fourth-Year Divination and Arithmancy Contrast
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates the North Tower Divination classroom and adds fourth-year astrology work, personal birth charts, calculation-heavy homework, and comparison with Professor Vector's Arithmancy.
@@ -1780,6 +1792,18 @@ Summary: The available evidence includes 1 source item, led by: The lesson exten
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch13-003`. gof-ch13-003 introduces Hagrid's live Blast-Ended Skrewt project with cross-House students; this entry corroborates it and adds growth, armor, leashing, and dragon-hide glove precautions.
   - Notes: The passage does not explain the creatures' origin or whether this curriculum had staff approval beyond Hagrid's lesson plan.
+
+#### Section: Skrewt Hibernation Experiment and Press Exposure
+
+Summary: The available evidence includes 1 source item, led by: A Care of Magical Creatures lesson shows Hagrid experimenting with Skrewt hibernation, causing student injuries and prompting public-record risk through Rita Skeeter's interest.
+
+- **Corroboration:** A Care of Magical Creatures lesson shows Hagrid experimenting with Skrewt hibernation, causing student injuries and prompting public-record risk through Rita Skeeter's interest.
+  - Quote: "at the cost of numerous burns and cuts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1256, `gof-ch21-004`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch13-003`, `gof-ch18-003`. gof-ch13-003 introduces the Skrewt project, and gof-ch18-003 records larger Skrewt handling; this entry adds failed hibernation testing, student injuries, Rita Skeeter's school-access issue, and concern over possible illegal origin.
+  - Notes: The chapter raises but does not answer whether Hagrid imported or bred the Skrewts legally.
 
 ### Chapter: Charms
 
@@ -5346,6 +5370,18 @@ Summary: The available evidence includes 1 source item, led by: The five judges 
   - Corroborates: `gof-ch16-002`, `gof-ch17-006`. gof-ch16-002 records the broad three-task and judging system, and gof-ch17-006 records staged first-task information; this entry adds per-judge wand-displayed scores and the golden-egg clue for the second task.
   - Notes: The chapter shows Harry's score in detail but only summarizes the other champions' scores and clue instructions.
 
+#### Section: Second-Task Clue Rules and Misreadings
+
+Summary: The available evidence includes 1 source item, led by: The golden egg is treated as a private second-task clue under tournament rules, but Harry tests it publicly in Gryffindor Tower and hears only an unintelligible wailing sound.
+
+- **Corroboration:** The golden egg is treated as a private second-task clue under tournament rules, but Harry tests it publicly in Gryffindor Tower and hears only an unintelligible wailing sound.
+  - Quote: "work out the clue on his own"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1254, `gof-ch21-001`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch20-007`. gof-ch20-007 records Bagman's formal explanation that the egg contains the second-task clue; this entry adds the rule that Harry should solve it himself and the first failed common-room interpretation.
+  - Notes: The passage does not reveal the clue's intended underwater solution.
+
 ### Chapter: The Triwizard Year and Magical Creature Hazards
 
 #### Section: Dragon Assignment and First-Task Order
@@ -5513,6 +5549,34 @@ Summary: The available evidence includes 1 source item, led by: Hermione identif
   - Reference type: explicit_hogwarts_a_history
   - Notes: Hermione does not quote the book's Chamber material here; the entry supports expected coverage rather than exact wording.
 
+## Part: Castle Architecture and Daily Operations
+
+### Chapter: Kitchens, Food Service, and Hidden Labor
+
+#### Section: Fruit-Painting Entrance and Informal Student Access
+
+Summary: The available evidence includes 1 source item, led by: Fred identifies the hidden kitchen entrance and describes house-elves as extremely willing providers of food for students.
+
+- **Corroboration:** Fred identifies the hidden kitchen entrance and describes house-elves as extremely willing providers of food for students.
+  - Quote: "concealed door behind a painting"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1255, `gof-ch21-002`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch19-002`, `gof-ch12-004`. gof-ch19-002 records Hermione seeking kitchen access, and gof-ch12-004 records the house-elf workforce; this entry supplies the exact fruit-painting entrance and casual student food access.
+  - Notes: Fred and George's access appears informal and may not represent official student permission.
+
+#### Section: Kitchen Layout Beneath the Great Hall
+
+Summary: The available evidence includes 1 source item, led by: Harry directly observes the Hogwarts kitchens: a huge room below the Great Hall, with four tables aligned to the House tables above and at least a hundred uniformed elves.
+
+- **Corroboration:** Harry directly observes the Hogwarts kitchens: a huge room below the Great Hall, with four tables aligned to the House tables above and at least a hundred uniformed elves.
+  - Quote: "positioned exactly beneath the four House tables"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1261, `gof-ch21-006`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch12-004`, `gof-ch19-002`. gof-ch12-004 records the kitchen workforce and unseen service, while gof-ch19-002 records Hermione's plan to access the kitchens; this entry adds the room layout, House-table alignment, and food-transfer inference.
+  - Notes: Harry infers the food-transfer mechanism from table placement rather than seeing dishes move through the ceiling.
+
 ## Part: Castle Architecture and Everyday Magic
 
 ### Chapter: Portraits, Passwords, and House Entrances
@@ -5594,6 +5658,18 @@ Summary: The available evidence includes 1 source item, led by: The Beauxbatons 
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch15-007`. gof-ch15-007 records the Beauxbatons carriage arrival; this entry adds that the carriage remains on the grounds as apparent lodging with a paddock for the horses.
   - Notes: The passage strongly implies lodging but does not explicitly say the students sleep there overnight.
+
+#### Section: Winter Lodging on the Grounds
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms winter conditions at Hogwarts and shows both visiting delegations continuing to use their own transport as lodging or staging on the grounds.
+
+- **Corroboration:** The chapter confirms winter conditions at Hogwarts and shows both visiting delegations continuing to use their own transport as lodging or staging on the grounds.
+  - Quote: "fires and thick walls"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1256, `gof-ch21-003`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch16-005`, `gof-ch15-007`. gof-ch15-007 records the arrivals, and gof-ch16-005 records Beauxbatons carriage lodging; this entry adds winter conditions and the continuing Durmstrang ship and Beauxbatons carriage presence.
+  - Notes: The passage implies but does not explicitly state the exact sleeping arrangements for every visiting student.
 
 ## Part: Curriculum, Study, and Practical Magic
 
@@ -5789,6 +5865,18 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
 ## Part: Peoples, Creatures, and Non-Human Communities
 
 ### Chapter: House-Elves and Hogwarts Labor
+
+#### Section: Freed Elves, Wages, and Enslavement Customs
+
+Summary: The available evidence includes 1 source item, led by: Dobby and Winky's Hogwarts employment exposes competing house-elf views of freedom, wages, family loyalty, silence, and Dumbledore's unusually permissive terms.
+
+- **Corroboration:** Dobby and Winky's Hogwarts employment exposes competing house-elf views of freedom, wages, family loyalty, silence, and Dumbledore's unusually permissive terms.
+  - Quote: "part of the house-elf's enslavement"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, PDF p. 1264, `gof-ch21-007`, `sources/book-04/chapter-21-the-house-elf-liberation-front.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch16-006`, `gof-ch19-002`. gof-ch16-006 records Hagrid's anti-reform claim about wages and freedom, and gof-ch19-002 records Hermione's activism; this entry adds Dobby and Winky's direct testimony, Dumbledore's offered terms, and secrecy obligations.
+  - Notes: The evidence centers on two freed elves and may not represent all Hogwarts house-elves' preferences.
 
 #### Section: Staff-side attitudes toward wages and freedom
 
