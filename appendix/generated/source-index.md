@@ -91,3 +91,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch26`: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, pages 1348-1371, 7 entries, 0 explicit references.
 - `gof-ch27`: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, pages 1372-1393, 7 entries, 0 explicit references.
 - `gof-ch28`: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, pages 1394-1418, 7 entries, 1 explicit references.
+- `gof-ch29`: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, pages 1419-1433, 7 entries, 0 explicit references.

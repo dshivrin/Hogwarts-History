@@ -502,6 +502,18 @@ Summary: The available evidence includes 1 source item, led by: The memory confi
   - Corroborates: `cos-ch12-001`. Chapter Twelve records Dumbledore's office interior in 1992; this entry corroborates the same office fifty years earlier and adds Dippet-era continuity for portraits, staircase, and gargoyle.
   - Notes: The memory does not explain when the office architecture, portraits, staircase, or gargoyle were created, and Riddle's memory may not show every office feature.
 
+#### Section: Gargoyle password and moving staircase
+
+Summary: The available evidence includes 1 source item, led by: The passage supplies the current password to Dumbledore's office entrance and reconfirms the stone gargoyle, wall opening, moving spiral staircase, polished oak door, and brass knocker.
+
+- **Corroboration:** The passage supplies the current password to Dumbledore's office entrance and reconfirms the stone gargoyle, wall opening, moving spiral staircase, polished oak door, and brass knocker.
+  - Quote: "Cockroach Cluster?"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1431, `gof-ch29-006`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `cos-ch11-007`, `gof-ch28-006`, `cos-ch13-006`. Corroborates prior headmaster-office entrance evidence; adds Cockroach Cluster as the current password and repeats the moving staircase route.
+  - Notes: The password is time-specific and should not be treated as permanent.
+
 #### Section: Office Interior, Portraits, and Artifacts
 
 Summary: The available evidence includes 1 source item, led by: The chapter adds interior details for Dumbledore's office, including headmaster and headmistress portraits, magical instruments, and the Sorting Hat kept behind the desk.
@@ -2030,6 +2042,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `poa-ch07-004`. Book 3 Chapter Seven records Lupin's practical boggart lesson; this entry adds the end-of-year assessment sequence and multiple creature hazards.
   - Notes: Lupin's exam may reflect his own teaching style rather than a standard Defense Against the Dark Arts examination format.
 
+### Chapter: Divination and Elective Study
+
+#### Section: Planetary divination in the North Tower classroom
+
+Summary: The available evidence includes 1 source item, led by: The Divination classroom scene adds North Tower route details, the silver ladder and trapdoor, Trelawney's perfumed room, and a planetary-divination lesson using a magical solar-system model.
+
+- **Corroboration:** The Divination classroom scene adds North Tower route details, the silver ladder and trapdoor, Trelawney's perfumed room, and a planetary-divination lesson using a magical solar-system model.
+  - Quote: "our work on planetary divination"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1428, `gof-ch29-005`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch13-004`, `gof-ch21-005`, `poa-ch06-002`. Corroborates North Tower Divination and fourth-year astrology work; adds Mars-Neptune planetary-divination and the glass-dome solar-system model.
+  - Notes: The lesson is described only up to Harry falling asleep.
+
 ### Chapter: Divination and Third-Year Electives
 
 #### Section: Crystal-Gazing Exams and True Seer Evidence
@@ -2115,6 +2141,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter cor
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The passage does not date Professor Binns's death or clarify how long he has taught as a ghost.
+
+#### Section: Professor Binns and routine historical instruction
+
+Summary: The available evidence includes 1 source item, led by: The passage corroborates History of Magic as an ordinary scheduled class taught by Professor Binns, with Hermione normally taking notes.
+
+- **Corroboration:** The passage corroborates History of Magic as an ordinary scheduled class taught by Professor Binns, with Hermione normally taking notes.
+  - Quote: "History of Magic had rarely gone so slowly"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1423, `gof-ch29-002`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ps-ch08-005`, `cos-ch09-002`, `gof-ch22-005`. Corroborates previous Binns and History of Magic entries without adding a new historical topic.
+  - Notes: The passage gives class context but no specific lesson content.
 
 ### Chapter: Homework and Independent Study
 
@@ -3886,6 +3924,34 @@ Summary: The available evidence includes 3 source items, led by: The match shows
   - Corroborates: `ps-ch11-006`. Chapter Eleven recorded the observed broom interference and Hagrid's Dark Magic assessment; this entry identifies Quirrell as the attacker and Snape's countercurse and refereeing as protective actions.
   - Notes: The incident is specific to Harry's first year and does not establish a general Hogwarts policy for preventing magical interference in Quidditch.
 
+### Chapter: Magical Surveillance and Staff Security Tools
+
+#### Section: Moody's map search for Crouch
+
+Summary: The available evidence includes 1 source item, led by: Moody's search shows staff-level use of the Marauder's Map, its ability to display invisible people, his magical-eye surveillance, and Ministry notification after Crouch's disappearance.
+
+- **Corroboration:** Moody's search shows staff-level use of the Marauder's Map, its ability to display invisible people, his magical-eye surveillance, and Ministry notification after Crouch's disappearance.
+  - Quote: "Summoned it from my office into the forest"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1424, `gof-ch29-003`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch25-007`, `poa-ch17-004`, `gof-ch25-001`. Corroborates Moody's staff-level map use and the map's ability to track invisible people; adds the Summoning-from-office search and Ministry notification.
+  - Notes: Harry and the others rely on Moody's report; the search itself is not directly observed on-page.
+
+### Chapter: Movement Limits and Boundary Magic
+
+#### Section: Anti-Disapparition protections and map boundaries
+
+Summary: The available evidence includes 1 source item, led by: The scene restates the anti-Disapparition rule for Hogwarts grounds and adds a practical boundary limit for the Marauder's Map during a search for Crouch.
+
+- **Corroboration:** The scene restates the anti-Disapparition rule for Hogwarts grounds and adds a practical boundary limit for the Marauder's Map during a search for Crouch.
+  - Quote: "can't Disapparate on the Hogwarts grounds"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1419, `gof-ch29-001`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch15-006`, `poa-ch10-003`, `poa-ch17-004`. Corroborates the anti-Apparition rule and prior Marauder's Map evidence; adds a concise statement that the map shows only to the boundaries.
+  - Notes: The map-boundary detail is inferred by Ron and should be paired with other map evidence.
+
 ### Chapter: Staff Expertise and Magical Surveillance
 
 #### Section: Moody's Dark Detectors in the Classroom Office
@@ -5608,6 +5674,32 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: security_or_protection
   - Corroborates: `poa-ch22-002`. Book 3 Chapter Twenty-Two records Fudge agreeing to remove dementors from Hogwarts after they endangered Harry; this entry is a later recap that preserves the broader Sirius and Wormtail context.
   - Notes: The passage compresses a prior book's events and should be used as recap/corroboration rather than primary evidence for the crisis details.
+
+### Chapter: The Triwizard Tournament Revival
+
+#### Section: Ministry investigation and visiting-school tensions
+
+Summary: The available evidence includes 1 source item, led by: The office discussion records Ministry reluctance to connect Bertha and Crouch, Dumbledore's skepticism, planned grounds inspection, and Fudge's prejudiced suspicion of Madame Maxime and Hagrid.
+
+- **Corroboration:** The office discussion records Ministry reluctance to connect Bertha and Crouch, Dumbledore's skepticism, planned grounds inspection, and Fudge's prejudiced suspicion of Madame Maxime and Hagrid.
+  - Quote: "no evidence of foul play"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1432, `gof-ch29-007`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch28-007`, `gof-ch23-006`, `gof-ch24-002`. Corroborates prior emergency-response, half-giant prejudice, and Hagrid staff-publicity evidence; adds Fudge's office-level framing of the Crouch/Bertha/Maxime investigation.
+  - Notes: The passage is overheard and ends before the grounds inspection occurs.
+
+#### Section: Student preparation for the third task
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows informal student preparation for the third task through library research, empty-classroom practice, Stunning, Disarming, and the Impediment Curse.
+
+- **Corroboration:** The chapter shows informal student preparation for the third task through library research, empty-classroom practice, Stunning, Disarming, and the Impediment Curse.
+  - Quote: "Practice Stunning and Disarming."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, PDF p. 1426, `gof-ch29-004`, `sources/book-04/chapter-29-the-dream.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch28-004`, `gof-ch26-002`, `gof-ch20-001`. Corroborates third-task setup and prior tournament research entries; adds the specific spell-practice program for the final task.
+  - Notes: This is informal preparation, not a sanctioned class lesson.
 
 ### Chapter: The Triwizard Year and Institutional Ceremonies
 

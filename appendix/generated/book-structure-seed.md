@@ -59,6 +59,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dueling Spells Outside Formal Instruction
   - Patronus Instruction and Anti-Dementor Defense
   - Practical Creature-Based Assessment
+- Divination and Elective Study
+  - Planetary divination in the North Tower classroom
 - Divination and Third-Year Electives
   - Crystal-Gazing Exams and True Seer Evidence
 - Exams and Assessment
@@ -86,6 +88,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Mandrake Restorative Use
 - History of Magic
   - Professor Binns and Historical Instruction
+  - Professor Binns and routine historical instruction
 - Homework and Independent Study
   - Holiday Homework and Student Materials
   - Holiday Homework and Supply Shopping
@@ -335,6 +338,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry Potter's Fame at Hogwarts
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
+- The Triwizard Tournament Revival
+  - Ministry investigation and visiting-school tensions
+  - Student preparation for the third task
 - The Triwizard Year and Institutional Ceremonies
   - The Weighing of the Wands
 - The Triwizard Year and Institutional Procedure
@@ -402,6 +408,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Mirror of Erised
 - Headmaster's Office and Protected Entrances
   - Dippet-Era Office and Entrance Continuity
+  - Gargoyle password and moving staircase
   - Office Interior, Portraits, and Artifacts
   - Passworded Gargoyle and Moving Staircase
 - House Common Rooms and Dormitories
@@ -534,6 +541,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Troll Intrusion and Stone Diversion
 - Magical Interference and Student Safety
   - Quidditch Match Risks
+- Magical Surveillance and Staff Security Tools
+  - Moody's map search for Crouch
+- Movement Limits and Boundary Magic
+  - Anti-Disapparition protections and map boundaries
 - Staff Expertise and Magical Surveillance
   - Moody's Dark Detectors in the Classroom Office
   - Moody's Eye and Anti-Concealment Detection

@@ -1,0 +1,335 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml; extracted only PDF pages 1419-1433.
+  processed_date: '2026-06-30'
+  processor_notes: Processed only Book 4, Chapter Twenty-Nine. Text was extracted with pypdf via scripts/extract_pages.py into .tmp/current-chapter.txt and searched with rg.
+entries:
+- id: gof-ch29-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1419
+  printed_page: null
+  extracted_text_lines: 11-23, 64-68
+  text_anchor:
+    start_phrase: I don't reckon he was up to Disapparating
+    end_phrase: it only shows up to the boundaries
+    local_occurrence_note: Early morning Owlery discussion after Crouch disappears from the forest.
+  nearby_context: Hermione repeats that Disapparition is impossible on Hogwarts grounds, and Ron notes the Marauder's Map only shows up to the school's boundaries.
+  match_terms:
+  - Disapparition
+  - Hogwarts grounds
+  - Marauder's Map
+  - boundaries
+  - Owlery
+  quote_excerpt_short: can't Disapparate on the Hogwarts grounds
+  source_note: The scene restates the anti-Disapparition rule for Hogwarts grounds and adds a practical boundary limit for the Marauder's Map during a search for Crouch.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - apparition
+  - hogwarts-grounds
+  - school-protection
+  - marauders-map
+  - boundaries
+  - owlery
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Movement Limits and Boundary Magic
+  candidate_section: Anti-Disapparition protections and map boundaries
+  reason_for_placement: The passage gives direct evidence for movement restrictions and the mapped extent of Hogwarts grounds.
+  relevance_to_hogwarts_a_history: Useful for explaining why disappearance from the grounds implies either an alternative escape method or movement beyond the mapped boundary.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch15-006
+    - poa-ch10-003
+    - poa-ch17-004
+    notes: Corroborates the anti-Apparition rule and prior Marauder's Map evidence; adds a concise statement that the map shows only to the boundaries.
+  confidence: high
+  limitations: The map-boundary detail is inferred by Ron and should be paired with other map evidence.
+- id: gof-ch29-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1423
+  printed_page: null
+  extracted_text_lines: 146-151
+  text_anchor:
+    start_phrase: History of Magic had rarely gone so slowly
+    end_phrase: gazing at Professor Binns with her eyes out of focus
+    local_occurrence_note: Morning lesson after the Owlery exchange and before the trio consult Moody.
+  nearby_context: The trio sit through Professor Binns's History of Magic class while exhausted and distracted by the Crouch mystery.
+  match_terms:
+  - History of Magic
+  - Professor Binns
+  - class
+  - notes
+  - curriculum
+  quote_excerpt_short: History of Magic had rarely gone so slowly
+  source_note: The passage corroborates History of Magic as an ordinary scheduled class taught by Professor Binns, with Hermione normally taking notes.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - history-of-magic
+  - professor-binns
+  - curriculum
+  - classroom-instruction
+  - student-notes
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: History of Magic
+  candidate_section: Professor Binns and routine historical instruction
+  reason_for_placement: It is direct classroom evidence for a named subject and teacher.
+  relevance_to_hogwarts_a_history: Adds another small confirmation of Binns's continuing role and the class's place in ordinary fourth-year schedules.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch08-005
+    - cos-ch09-002
+    - gof-ch22-005
+    notes: Corroborates previous Binns and History of Magic entries without adding a new historical topic.
+  confidence: medium
+  limitations: The passage gives class context but no specific lesson content.
+- id: gof-ch29-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1424
+  printed_page: null
+  extracted_text_lines: 160-184, 192-200
+  text_anchor:
+    start_phrase: His magical eye followed a couple of passing first years
+    end_phrase: Dumbledore's notified them
+    local_occurrence_note: Private conversation in Moody's empty Defense Against the Dark Arts classroom.
+  nearby_context: Moody's magical eye watches students around a corner, he says he Summoned the map from his office into the forest, and the group reasons that Crouch was not invisible and is no longer on the grounds.
+  match_terms:
+  - Moody
+  - magical eye
+  - Marauder's Map
+  - office
+  - invisible people
+  - Ministry search
+  quote_excerpt_short: Summoned it from my office into the forest
+  source_note: Moody's search shows staff-level use of the Marauder's Map, its ability to display invisible people, his magical-eye surveillance, and Ministry notification after Crouch's disappearance.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - mad-eye-moody
+  - marauders-map
+  - magical-surveillance
+  - invisibility
+  - defense-against-the-dark-arts
+  - ministry-of-magic
+  - tournament-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Magical Surveillance and Staff Security Tools
+  candidate_section: Moody's map search for Crouch
+  reason_for_placement: The passage records staff investigation methods and the limits of map-based surveillance during a tournament crisis.
+  relevance_to_hogwarts_a_history: Supports a later editorial note on how Hogwarts staff used magical surveillance tools during an emergency.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch25-007
+    - poa-ch17-004
+    - gof-ch25-001
+    notes: Corroborates Moody's staff-level map use and the map's ability to track invisible people; adds the Summoning-from-office search and Ministry notification.
+  confidence: high
+  limitations: Harry and the others rely on Moody's report; the search itself is not directly observed on-page.
+- id: gof-ch29-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1426
+  printed_page: null
+  extracted_text_lines: 229-243, 267-296
+  text_anchor:
+    start_phrase: arm yourself for the third task
+    end_phrase: We'll start with that one
+    local_occurrence_note: Sirius's warning letter followed by Harry, Ron, and Hermione's third-task preparation.
+  nearby_context: Sirius tells Harry to practice Stunning, Disarming, and hexes; the trio research in the library and use empty classrooms and a Charms classroom to practice Stunning and the Impediment Curse.
+  match_terms:
+  - third task
+  - Stunning Spell
+  - Disarming
+  - Impediment Curse
+  - library
+  - empty classrooms
+  quote_excerpt_short: Practice Stunning and Disarming.
+  source_note: The chapter shows informal student preparation for the third task through library research, empty-classroom practice, Stunning, Disarming, and the Impediment Curse.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - third-task
+  - stunning-spell
+  - disarming
+  - impediment-curse
+  - library
+  - empty-classrooms
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Tournament Revival
+  candidate_section: Student preparation for the third task
+  reason_for_placement: The scene is tournament-specific but also shows how students repurpose school spaces and library research for practical spell training.
+  relevance_to_hogwarts_a_history: Useful for an editorial note on tournament preparation and a cross-reference to ordinary student research and spell-practice spaces.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch28-004
+    - gof-ch26-002
+    - gof-ch20-001
+    notes: Corroborates third-task setup and prior tournament research entries; adds the specific spell-practice program for the final task.
+  confidence: high
+  limitations: This is informal preparation, not a sanctioned class lesson.
+- id: gof-ch29-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1428
+  printed_page: null
+  extracted_text_lines: 300-326
+  text_anchor:
+    start_phrase: Harry and Ron headed toward North Tower, and Divination
+    end_phrase: angle Mars was making to Neptune
+    local_occurrence_note: Divination lesson immediately before Harry's dream.
+  nearby_context: The class climbs toward the North Tower trapdoor, enters Trelawney's hot perfumed room, and studies planetary divination with a glass-dome model of the solar system.
+  match_terms:
+  - Divination
+  - North Tower
+  - Trelawney
+  - planetary divination
+  - Mars
+  - Neptune
+  quote_excerpt_short: our work on planetary divination
+  source_note: The Divination classroom scene adds North Tower route details, the silver ladder and trapdoor, Trelawney's perfumed room, and a planetary-divination lesson using a magical solar-system model.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - professor-trelawney
+  - north-tower
+  - planetary-divination
+  - mars
+  - neptune
+  - classroom-architecture
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Divination and Elective Study
+  candidate_section: Planetary divination in the North Tower classroom
+  reason_for_placement: The passage gives both classroom-access details and specific Divination syllabus content.
+  relevance_to_hogwarts_a_history: Adds concrete material for elective-study coverage and the magical design of specialized classrooms.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch13-004
+    - gof-ch21-005
+    - poa-ch06-002
+    notes: Corroborates North Tower Divination and fourth-year astrology work; adds Mars-Neptune planetary-divination and the glass-dome solar-system model.
+  confidence: high
+  limitations: The lesson is described only up to Harry falling asleep.
+- id: gof-ch29-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1431
+  printed_page: null
+  extracted_text_lines: 405-425
+  text_anchor:
+    start_phrase: the stone gargoyle guarding the entrance to Dumbledore's office
+    end_phrase: a polished oak door with a brass door knocker
+    local_occurrence_note: Harry reaches Dumbledore's office after leaving Divination.
+  nearby_context: Harry guesses several sweet-themed passwords, succeeds with Cockroach Cluster, then rides the moving spiral stone staircase to the office door.
+  match_terms:
+  - Dumbledore's office
+  - stone gargoyle
+  - Cockroach Cluster
+  - spiral stone staircase
+  - brass door knocker
+  quote_excerpt_short: Cockroach Cluster?
+  source_note: The passage supplies the current password to Dumbledore's office entrance and reconfirms the stone gargoyle, wall opening, moving spiral staircase, polished oak door, and brass knocker.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore-office
+  - headmaster-office
+  - stone-gargoyle
+  - password
+  - cockroach-cluster
+  - spiral-staircase
+  - magical-architecture
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: Gargoyle password and moving staircase
+  reason_for_placement: It is precise architectural and access-control evidence for the headmaster's office.
+  relevance_to_hogwarts_a_history: Corroborates the protected office entrance and adds a named password and door detail for a Harry-era snapshot.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch11-007
+    - gof-ch28-006
+    - cos-ch13-006
+    notes: Corroborates prior headmaster-office entrance evidence; adds Cockroach Cluster as the current password and repeats the moving staircase route.
+  confidence: high
+  limitations: The password is time-specific and should not be treated as permanent.
+- id: gof-ch29-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Nine - The Dream
+  chapter_start_pdf_page: 1419
+  chapter_end_pdf_page: 1433
+  pdf_page: 1432
+  printed_page: null
+  extracted_text_lines: 428-460
+  text_anchor:
+    start_phrase: Dumbledore, I'm afraid I don't see the connection
+    end_phrase: Potter wants a word with you, Dumbledore
+    local_occurrence_note: Harry overhears Fudge, Moody, and Dumbledore inside the headmaster's office.
+  nearby_context: Fudge resists linking Bertha Jorkins and Crouch, suggests Crouch may have cracked, raises suspicion of Madame Maxime near the Beauxbatons carriage, and Dumbledore pushes back against prejudice.
+  match_terms:
+  - Cornelius Fudge
+  - Dumbledore
+  - Barty Crouch
+  - Bertha Jorkins
+  - Madame Maxime
+  - Ministry
+  - grounds
+  quote_excerpt_short: no evidence of foul play
+  source_note: The office discussion records Ministry reluctance to connect Bertha and Crouch, Dumbledore's skepticism, planned grounds inspection, and Fudge's prejudiced suspicion of Madame Maxime and Hagrid.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - cornelius-fudge
+  - dumbledore
+  - barty-crouch
+  - bertha-jorkins
+  - madame-maxime
+  - wizarding-prejudice
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Tournament Revival
+  candidate_section: Ministry investigation and visiting-school tensions
+  reason_for_placement: The scene captures external governance pressure and prejudice affecting Hogwarts during a school-hosted international event.
+  relevance_to_hogwarts_a_history: Useful for a later editorial note on Ministry oversight, staff advocacy, and inter-school tension during the Triwizard year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch28-007
+    - gof-ch23-006
+    - gof-ch24-002
+    notes: Corroborates prior emergency-response, half-giant prejudice, and Hagrid staff-publicity evidence; adds Fudge's office-level framing of the Crouch/Bertha/Maxime investigation.
+  confidence: high
+  limitations: The passage is overheard and ends before the grounds inspection occurs.

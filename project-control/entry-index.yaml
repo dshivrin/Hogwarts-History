@@ -8031,6 +8031,113 @@ by_entry:
     - rennervate
     source_unit: gof-ch28
     output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch29-001:
+    title: 'Movement Limits and Boundary Magic: Anti-Disapparition protections and
+      map boundaries'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - boundaries
+    - hogwarts-grounds
+    - marauders-map
+    - owlery
+    - school-protection
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch29-002:
+    title: 'History of Magic: Professor Binns and routine historical instruction'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - classroom-instruction
+    - curriculum
+    - history-of-magic
+    - professor-binns
+    - student-notes
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch29-003:
+    title: 'Magical Surveillance and Staff Security Tools: Moody''s map search for
+      Crouch'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - invisibility
+    - mad-eye-moody
+    - magical-surveillance
+    - marauders-map
+    - ministry-of-magic
+    - tournament-security
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch29-004:
+    title: 'The Triwizard Tournament Revival: Student preparation for the third task'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - disarming
+    - empty-classrooms
+    - impediment-curse
+    - library
+    - stunning-spell
+    - third-task
+    - triwizard-tournament
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch29-005:
+    title: 'Divination and Elective Study: Planetary divination in the North Tower
+      classroom'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - classroom-architecture
+    - divination
+    - mars
+    - neptune
+    - north-tower
+    - planetary-divination
+    - professor-trelawney
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch29-006:
+    title: 'Headmaster''s Office and Protected Entrances: Gargoyle password and moving
+      staircase'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - cockroach-cluster
+    - dumbledore-office
+    - headmaster-office
+    - magical-architecture
+    - password
+    - spiral-staircase
+    - stone-gargoyle
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch29-007:
+    title: 'The Triwizard Tournament Revival: Ministry investigation and visiting-school
+      tensions'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - barty-crouch
+    - bertha-jorkins
+    - cornelius-fudge
+    - dumbledore
+    - madame-maxime
+    - ministry-of-magic
+    - wizarding-prejudice
+    source_unit: gof-ch29
+    output_yaml: sources/book-04/chapter-29-the-dream.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8143,6 +8250,7 @@ by_tag:
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
+  - gof-ch29-001
   apparition-points:
   - gof-ch06-002
   appeals:
@@ -8229,6 +8337,7 @@ by_tag:
   - gof-ch17-006
   - gof-ch25-007
   - gof-ch27-007
+  - gof-ch29-007
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -8262,6 +8371,7 @@ by_tag:
   - gof-ch05-003
   - gof-ch07-005
   - gof-ch28-005
+  - gof-ch29-007
   bewitched-sleep:
   - gof-ch27-001
   black-flames:
@@ -8318,6 +8428,8 @@ by_tag:
   - gof-ch25-002
   borrowing-procedure:
   - cos-ch10-001
+  boundaries:
+  - gof-ch29-001
   brazilian-school:
   - gof-ch07-003
   brick-entrance:
@@ -8565,6 +8677,8 @@ by_tag:
   classified-information:
   - gof-ch07-007
   - gof-ch11-003
+  classroom-architecture:
+  - gof-ch29-005
   classroom-assessment:
   - cos-ch06-006
   classroom-discipline:
@@ -8573,6 +8687,7 @@ by_tag:
   - cos-ch13-003
   classroom-instruction:
   - cos-ch09-002
+  - gof-ch29-002
   classroom-practice:
   - gof-ch26-001
   - ps-ch10-001
@@ -8590,6 +8705,8 @@ by_tag:
   - gof-ch15-004
   cockatrice:
   - gof-ch15-003
+  cockroach-cluster:
+  - gof-ch29-006
   code-of-wand-use:
   - gof-ch09-005
   colin-creevey:
@@ -8630,6 +8747,7 @@ by_tag:
   cornelius-fudge:
   - cos-ch14-005
   - gof-ch11-003
+  - gof-ch29-007
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -8729,6 +8847,7 @@ by_tag:
   - gof-ch12-006
   - gof-ch14-001
   - gof-ch15-002
+  - gof-ch29-002
   - ps-ch05-004
   - ps-ch08-004
   - ps-ch08-005
@@ -8812,6 +8931,7 @@ by_tag:
   - gof-ch14-002
   - gof-ch19-003
   - gof-ch20-003
+  - gof-ch29-003
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -8900,6 +9020,8 @@ by_tag:
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
+  disarming:
+  - gof-ch29-004
   disarming-charm:
   - cos-ch11-003
   - poa-ch19-003
@@ -8921,6 +9043,7 @@ by_tag:
   - gof-ch13-004
   - gof-ch14-006
   - gof-ch21-005
+  - gof-ch29-005
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -9005,6 +9128,7 @@ by_tag:
   - gof-ch28-001
   - gof-ch28-005
   - gof-ch28-007
+  - gof-ch29-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9043,6 +9167,7 @@ by_tag:
   - cos-ch11-007
   - cos-ch12-001
   - gof-ch28-006
+  - gof-ch29-006
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -9107,6 +9232,8 @@ by_tag:
   - ps-ch10-003
   emergency-transport:
   - poa-ch03-002
+  empty-classrooms:
+  - gof-ch29-004
   enchanted-ceiling:
   - cos-ch05-004
   - cos-ch06-001
@@ -9781,6 +9908,7 @@ by_tag:
   - cos-ch12-001
   - cos-ch13-006
   - gof-ch28-006
+  - gof-ch29-006
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
@@ -9879,6 +10007,7 @@ by_tag:
   - cos-ch09-002
   - gof-ch15-002
   - gof-ch22-005
+  - gof-ch29-002
   - poa-ch01-001
   - poa-ch04-002
   - poa-ch16-003
@@ -9963,6 +10092,7 @@ by_tag:
   - gof-ch20-005
   - gof-ch21-003
   - gof-ch23-001
+  - gof-ch29-001
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -10198,6 +10328,8 @@ by_tag:
   - ps-ch14-004
   illegal-curses:
   - gof-ch14-002
+  impediment-curse:
+  - gof-ch29-004
   imperius-curse:
   - gof-ch14-003
   - gof-ch14-005
@@ -10256,6 +10388,8 @@ by_tag:
   - gof-ch01-002
   intruders:
   - gof-ch25-006
+  invisibility:
+  - gof-ch29-003
   invisibility-cloak:
   - gof-ch04-002
   - gof-ch19-003
@@ -10368,6 +10502,7 @@ by_tag:
   - cos-ch14-004
   - gof-ch20-001
   - gof-ch26-002
+  - gof-ch29-004
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -10458,6 +10593,7 @@ by_tag:
   - gof-ch19-006
   - gof-ch25-007
   - gof-ch28-007
+  - gof-ch29-003
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -10485,6 +10621,7 @@ by_tag:
   - ps-ch17-004
   madame-maxime:
   - gof-ch15-007
+  - gof-ch29-007
   magic-outside-school:
   - cos-ch01-005
   - gof-ch02-003
@@ -10499,6 +10636,7 @@ by_tag:
   - gof-ch23-004
   - gof-ch25-002
   - gof-ch28-006
+  - gof-ch29-006
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -10615,6 +10753,7 @@ by_tag:
   - gof-ch19-003
   - gof-ch25-001
   - gof-ch25-007
+  - gof-ch29-003
   - poa-ch10-003
   - poa-ch17-004
   magical-table-service:
@@ -10649,6 +10788,8 @@ by_tag:
   - gof-ch04-002
   - gof-ch25-001
   - gof-ch25-007
+  - gof-ch29-001
+  - gof-ch29-003
   - poa-ch10-003
   - poa-ch13-006
   - poa-ch14-004
@@ -10662,6 +10803,8 @@ by_tag:
   marble-staircase:
   - gof-ch22-003
   - ps-ch14-006
+  mars:
+  - gof-ch29-005
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
@@ -10767,6 +10910,8 @@ by_tag:
   - gof-ch14-003
   - gof-ch16-002
   - gof-ch19-007
+  - gof-ch29-003
+  - gof-ch29-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -10916,6 +11061,8 @@ by_tag:
   - poa-ch08-006
   - poa-ch14-005
   - ps-ch08-002
+  neptune:
+  - gof-ch29-005
   nesting-mothers:
   - gof-ch19-005
   neville-longbottom:
@@ -10953,6 +11100,7 @@ by_tag:
   - gof-ch09-005
   north-tower:
   - gof-ch13-004
+  - gof-ch29-005
   - poa-ch06-002
   norwegian-ridgeback:
   - ps-ch14-004
@@ -11017,6 +11165,7 @@ by_tag:
   owlery:
   - gof-ch15-001
   - gof-ch18-001
+  - gof-ch29-001
   - poa-ch09-004
   owls:
   - cos-ch04-003
@@ -11052,6 +11201,7 @@ by_tag:
   password:
   - cos-ch11-007
   - gof-ch28-006
+  - gof-ch29-006
   passwords:
   - cos-ch05-006
   - cos-ch12-005
@@ -11152,6 +11302,8 @@ by_tag:
   - cos-ch16-003
   pitch:
   - cos-ch07-001
+  planetary-divination:
+  - gof-ch29-005
   platform-barrier:
   - cos-ch18-007
   platform-nine-and-three-quarters:
@@ -11293,6 +11445,7 @@ by_tag:
   - cos-ch09-002
   - cos-ch09-003
   - gof-ch22-005
+  - gof-ch29-002
   - ps-ch08-005
   professor-dippet:
   - cos-ch13-005
@@ -11369,6 +11522,7 @@ by_tag:
   - gof-ch13-004
   - gof-ch14-006
   - gof-ch21-005
+  - gof-ch29-005
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -11675,6 +11829,7 @@ by_tag:
   - cos-ch05-003
   school-protection:
   - gof-ch15-006
+  - gof-ch29-001
   school-protections:
   - gof-ch11-005
   - gof-ch28-003
@@ -11974,6 +12129,7 @@ by_tag:
   - gof-ch19-002
   - gof-ch23-003
   spiral-staircase:
+  - gof-ch29-006
   - ps-ch14-006
   splinching:
   - gof-ch06-001
@@ -12075,6 +12231,7 @@ by_tag:
   stone-gargoyle:
   - cos-ch11-007
   - gof-ch28-006
+  - gof-ch29-006
   stone-protection:
   - ps-ch05-001
   stopping-knot:
@@ -12146,6 +12303,8 @@ by_tag:
   - poa-ch10-005
   - poa-ch15-002
   - poa-ch16-006
+  student-notes:
+  - gof-ch29-002
   student-pets:
   - gof-ch11-002
   - poa-ch04-005
@@ -12223,6 +12382,7 @@ by_tag:
   - ps-ch14-001
   stunning-spell:
   - gof-ch09-004
+  - gof-ch29-004
   stunning-spells:
   - gof-ch19-005
   substitute-teacher:
@@ -12325,6 +12485,7 @@ by_tag:
   - ps-ch17-002
   third-task:
   - gof-ch28-004
+  - gof-ch29-004
   third-year-booklist:
   - poa-ch04-003
   third-year-curriculum:
@@ -12387,6 +12548,7 @@ by_tag:
   - gof-ch22-006
   tournament-security:
   - gof-ch17-005
+  - gof-ch29-003
   tournament-spectators:
   - gof-ch20-005
   tower-dormitory:
@@ -12458,6 +12620,7 @@ by_tag:
   - gof-ch27-001
   - gof-ch28-004
   - gof-ch28-005
+  - gof-ch29-004
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -12709,6 +12872,7 @@ by_tag:
   - poa-ch21-003
   wizarding-prejudice:
   - gof-ch23-006
+  - gof-ch29-007
   wizarding-press:
   - gof-ch18-005
   wizarding-schools:

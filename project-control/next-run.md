@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-Nine - The Dream
-- Page range: 1419-1433
+- Chapter: Chapter Thirty - The Pensieve
+- Page range: 1434-1453
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-29-the-dream.yaml`
+- Output YAML: `sources/book-04/chapter-30-the-pensieve.yaml`
 
 ## Minimal Context
 
