@@ -157,20 +157,6 @@ Summary: The available evidence includes 1 source item, led by: The emergency sc
   - Corroborates: `ps-ch08-001`, `ps-ch08-006`, `ps-ch09-006`. Related to earlier castle navigation, dungeon classroom, and secret-passage entries; this entry adds emergency-route context rather than a new architectural system.
   - Notes: The scene is plot-specific and gives little architectural detail beyond named interior zones and route markers.
 
-### Chapter: Alumni Memory and Grounds Chronology
-
-#### Section: Portraits, caretakers, gamekeepers, and the Whomping Willow
-
-Summary: The available evidence includes 1 source item, led by: The family-visit sequence preserves alumni testimony about castle portraits, past caretakers and gamekeepers, Whomping Willow chronology, visiting-school landmarks, and Fudge replacing Crouch as fifth judge.
-
-- **Corroboration:** The family-visit sequence preserves alumni testimony about castle portraits, past caretakers and gamekeepers, Whomping Willow chronology, visiting-school landmarks, and Fudge replacing Crouch as fifth judge.
-  - Quote: "the Whomping Willow, which had been planted after she had left school"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1461, `gof-ch31-004`, `sources/book-04/chapter-31-the-third-task.yaml`
-  - Classification: pre_1984_historical_candidate | Confidence: high
-  - Reference type: historical_claim
-  - Corroborates: `poa-ch10-002`, `cos-ch05-003`, `gof-ch17-007`. poa-ch10-002 and cos-ch05-003 cover Whomping Willow history, while gof-ch17-007 covers portrait movement and Fat Lady access; this entry adds Molly's chronology, Pringle, Ogg, and the champion-family visit context.
-  - Notes: Molly's memories give relative chronology but not exact dates for Pringle, Ogg, the Whomping Willow, or the Fat Lady's tenure.
-
 ### Chapter: Arrival at Hogwarts
 
 #### Section: Carriage Route, Gates, Entrance Hall, and Great Hall
@@ -455,18 +441,6 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Corroborates: `gof-ch11-005`, `poa-ch09-001`, `cos-ch09-001`. gof-ch11-005 and poa-ch09-001 cite Hogwarts: A History for castle concealment and protective enchantments, while cos-ch09-001 records library demand for the book; this entry adds Muggle technology failure from ambient magic.
   - Notes: Hermione paraphrases the book rather than quoting a full passage, and the scene applies the rule to an eavesdropping investigation rather than a technical demonstration.
 
-#### Section: Muggle technology failure around Hogwarts
-
-Summary: The available evidence includes 1 source item, led by: Hermione repeats the rule that Muggle communication devices do not function around Hogwarts, corroborating the earlier explicit Hogwarts: A History explanation of ambient magic disrupting technology.
-
-- **Corroboration:** Hermione repeats the rule that Muggle communication devices do not function around Hogwarts, corroborating the earlier explicit Hogwarts: A History explanation of ambient magic disrupting technology.
-  - Quote: "those sorts of things don't work around Hogwarts"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1457, `gof-ch31-002`, `sources/book-04/chapter-31-the-third-task.yaml`
-  - Classification: original_book_core_candidate | Confidence: high
-  - Reference type: cross_reference_candidate
-  - Corroborates: `gof-ch28-003`. gof-ch28-003 is the explicit Hogwarts: A History citation for electricity, computers, radar, and Muggle substitutes failing around Hogwarts; this entry adds a later walkie-talkie comparison.
-  - Notes: This chapter paraphrases a remembered rule and does not name the book directly.
-
 ### Chapter: Changing Staircases and Responsive Doors
 
 #### Section: Navigating the Castle
@@ -649,6 +623,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: magical_architecture
   - Corroborates: `cos-ch16-007`. Chapter Sixteen reaches the serpent-carved wall and route toward the Chamber; this entry continues that route into the central room and adds direct architectural description.
   - Notes: Harry's observation does not identify the statue by name until Riddle later addresses it as Slytherin.
+
+### Chapter: Temporary Tournament Enchantments
+
+#### Section: Maze Silencing, Navigation, and Spell Obstacles
+
+Summary: The available evidence includes 1 source item, led by: The maze behaves as more than a physical hedge layout, suppressing outside sound and containing orientation, boggart, and gravity-reversal enchantment challenges.
+
+- **Corroboration:** The maze behaves as more than a physical hedge layout, suppressing outside sound and containing orientation, boggart, and gravity-reversal enchantment challenges.
+  - Quote: "sound of the surrounding crowd was silenced"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1467, `gof-ch31-005`, `sources/book-04/chapter-31-the-third-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch28-004`. gof-ch28-004 anticipates spell obstacles in the maze; this entry adds observed effects including crowd-silencing hedges, boggart deployment, and golden mist.
+  - Notes: The passage does not identify who cast each enchantment or whether the silencing effect comes from hedge thickness, explicit enchantment, or both.
 
 ### Chapter: Towers, Offices, and Upper-Floor Access
 
@@ -2407,20 +2395,6 @@ Summary: The available evidence includes 1 source item, led by: Hermione explain
   - Corroborates: `poa-ch06-001`. Book 3 Chapter Six records Hermione's impossible-looking third-year elective timetable; this entry identifies the Time-Turner and approval process behind it.
   - Notes: The source does not give the Ministry department, written conditions, or whether similar devices were ever granted to other students.
 
-### Chapter: Tournament-Year Academic Adjustments
-
-#### Section: Champion exam exemptions and final-task practice
-
-Summary: The available evidence includes 1 source item, led by: The chapter shows Hogwarts adapting classroom space and exam obligations around a champion's final-task preparation while students practice spells outside ordinary lesson coverage.
-
-- **Corroboration:** The chapter shows Hogwarts adapting classroom space and exam obligations around a champion's final-task preparation while students practice spells outside ordinary lesson coverage.
-  - Quote: "permission to use the empty Transfiguration classroom"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1456, `gof-ch31-001`, `sources/book-04/chapter-31-the-third-task.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: institutional_custom
-  - Corroborates: `gof-ch17-006`. gof-ch17-006 records the first-task briefing and champion exam exemptions; this entry corroborates the exemption and adds final-task spell practice in an empty Transfiguration classroom.
-  - Notes: The practice arrangement appears to be McGonagall's response to Harry's situation, not a general rule for all tournament years.
-
 ### Chapter: Transfiguration and Advanced Magical Transformations
 
 #### Section: Animagi in Classroom Study and External Registers
@@ -3641,18 +3615,6 @@ Summary: The available evidence includes 1 source item, led by: The conversation
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: security_or_protection
   - Notes: The ban is reported by students recalling Hagrid's statement, not quoted directly from Dumbledore or a formal notice.
-
-#### Section: Press leaks and hidden surveillance
-
-Summary: The available evidence includes 1 source item, led by: The chapter gives public-record evidence for hostile press treatment of a Hogwarts champion and sharpens the information-security problem of a banned reporter accessing school observations.
-
-- **Corroboration:** The chapter gives public-record evidence for hostile press treatment of a Hogwarts champion and sharpens the information-security problem of a banned reporter accessing school observations.
-  - Quote: "your Daily Prophet reporter witnessed Potter"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1459, `gof-ch31-003`, `sources/book-04/chapter-31-the-third-task.yaml`
-  - Classification: harry_era_confirmation | Confidence: medium
-  - Reference type: explicit_in_universe_source
-  - Corroborates: `gof-ch24-004`, `gof-ch18-005`. gof-ch24-004 records Dumbledore's ban on Rita Skeeter and unexplained leaks, while gof-ch18-005 records tournament press access and distorted champion coverage; this entry adds a later public article and Hermione's Animagus-linked inference.
-  - Notes: The Animagus mechanism is implied here but not yet openly confirmed in this chapter.
 
 ### Chapter: Anti-Dementor Defenses
 
@@ -5109,6 +5071,17 @@ Summary: The available evidence includes 1 source item, led by: Moody tells Harr
   - Corroborates: `gof-ch19-004`, `gof-ch17-006`. gof-ch19-004 records the actual first-task secrecy breach, and gof-ch17-006 records the formal first-task restrictions; this entry adds Moody's claim that cheating is traditional in the tournament.
   - Notes: Moody's statement is an informed but informal historical claim, and his hidden role later complicates his reliability.
 
+#### Section: Triwizard Cup Endpoint and Portkey Breach
+
+Summary: The available evidence includes 1 source item, led by: The chapter records the final-task endpoint, the champions' understanding that reaching the Cup earns points, Harry and Cedric's voluntary tie, and the Cup's sudden Portkey-like activation.
+
+- **Context:** The chapter records the final-task endpoint, the champions' understanding that reaching the Cup earns points, Harry and Cedric's voluntary tie, and the Cup's sudden Portkey-like activation.
+  - Quote: "It's still a Hogwarts victory"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1476, `gof-ch31-007`, `sources/book-04/chapter-31-the-third-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: This chapter shows the transport effect but does not yet reveal who altered the Cup, where it sends them, or how the breach bypassed tournament protections.
+
 ### Chapter: Wizarding Schools Beyond Britain
 
 #### Section: Beauxbatons and European Magical Education Sources
@@ -6248,6 +6221,41 @@ Summary: The available evidence includes 1 source item, led by: Student conflict
   - Corroborates: `gof-ch12-007`, `gof-ch15-005`, `gof-ch17-002`. gof-ch12-007 records the Tournament revival and Ministry role, gof-ch15-005 records formal delegation welcome, and gof-ch17-002 records fairness disputes; this entry adds explicit social-diplomatic purpose and student suspicion during the ball.
   - Notes: Hermione and Percy articulate the cooperation purpose informally; the passage does not quote the tournament charter.
 
+#### Section: Creature Obstacles in the Final Task Maze
+
+Summary: The available evidence includes 1 source item, led by: The final maze uses dangerous creatures and an intelligent riddle guardian as obstacles, including a mature Blast-Ended Skrewt, a sphinx, and a giant spider near the Cup.
+
+- **Corroboration:** The final maze uses dangerous creatures and an intelligent riddle guardian as obstacles, including a mature Blast-Ended Skrewt, a sphinx, and a giant spider near the Cup.
+  - Quote: "Not unless you can answer my riddle"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1470, `gof-ch31-006`, `sources/book-04/chapter-31-the-third-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch13-003`, `gof-ch18-003`, `gof-ch21-004`, `gof-ch22-004`, `gof-ch24-003`, `gof-ch28-004`. Earlier entries cover Skrewt rearing and the final-task briefing; this entry adds mature Skrewt use as an obstacle plus the sphinx and spider encounters.
+  - Notes: The passage does not state whether the spider is an Acromantula, how the creatures were contained, or who selected each obstacle.
+
+#### Section: Final Task Rescue Signals and Staff Patrols
+
+Summary: The available evidence includes 1 source item, led by: The final task uses a staff-and-gamekeeper perimeter patrol with luminous identifiers and a red-sparks distress signal for champion rescue.
+
+- **Context:** The final task uses a staff-and-gamekeeper perimeter patrol with luminous identifiers and a red-sparks distress signal for champion rescue.
+  - Quote: "send red sparks into the air"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1466, `gof-ch31-003`, `sources/book-04/chapter-31-the-third-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage describes intended rescue procedure but not response times, medical backup, or whether patrollers could see inside the maze.
+
+#### Section: Final Task Venue and Spectator Use of the Quidditch Field
+
+Summary: The available evidence includes 1 source item, led by: The final task transforms the Quidditch field into a twenty-foot-hedged maze while retaining the stadium stands for the school audience.
+
+- **Corroboration:** The final task transforms the Quidditch field into a twenty-foot-hedged maze while retaining the stadium stands for the school audience.
+  - Quote: "Quidditch field, which was now completely unrecognizable"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1466, `gof-ch31-002`, `sources/book-04/chapter-31-the-third-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch28-004`. gof-ch28-004 records the pre-task briefing; this entry adds the completed venue, hedge height, and spectator use at the actual event.
+  - Notes: The passage does not explain the full construction magic or how long the Quidditch field remained unusable afterward.
+
 #### Section: Golden-Egg Clue and Lake Task Preparation
 
 Summary: The available evidence includes 1 source item, led by: The golden egg's clue is solved by submerging it, identifying the second task as an underwater retrieval connected to the merpeople in the Hogwarts lake.
@@ -6272,17 +6280,17 @@ Summary: The available evidence includes 1 source item, led by: Bagman's private
   - Corroborates: `gof-ch20-002`, `gof-ch20-007`, `gof-ch21-001`, `gof-ch22-006`. gof-ch20-002 records traditional task cheating, gof-ch20-007 records egg clue distribution, gof-ch21-001 records the private-clue rule, and gof-ch22-006 records schedule pressure; this entry adds a judge's direct offer of unequal assistance.
   - Notes: The rule is stated through Harry's and Hermione's interpretation rather than a quoted official rulebook.
 
-#### Section: Maze obstacles and magical hazard design
+#### Section: Point Standings and Final Task Entry Order
 
-Summary: The available evidence includes 1 source item, led by: The maze combines enchantment, navigation tests, spell-resistant creatures, and riddle-based passage rules into the final tournament obstacle course.
+Summary: The available evidence includes 1 source item, led by: The final task publicly confirms point standings and staggered maze entry, with the tied Hogwarts champions starting first before Durmstrang and Beauxbatons.
 
-- **Corroboration:** The maze combines enchantment, navigation tests, spell-resistant creatures, and riddle-based passage rules into the final tournament obstacle course.
-  - Quote: "Answer on your first guess - I let you pass"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1467, `gof-ch31-006`, `sources/book-04/chapter-31-the-third-task.yaml`
+- **Corroboration:** The final task publicly confirms point standings and staggered maze entry, with the tied Hogwarts champions starting first before Durmstrang and Beauxbatons.
+  - Quote: "Tied in first place, with eighty-five points each"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1467, `gof-ch31-004`, `sources/book-04/chapter-31-the-third-task.yaml`
   - Classification: later_editorial_note | Confidence: high
-  - Reference type: security_or_protection
-  - Corroborates: `gof-ch28-004`, `poa-ch07-006`. gof-ch28-004 previews creature and spell obstacles in the maze, while poa-ch07-006 records supervised boggart instruction; this entry adds the observed obstacle sequence, Sphinx rules, golden mist, and combined-stun spider defeat.
-  - Notes: The source does not identify who selected every maze obstacle or how each creature was controlled before the task.
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch28-004`. gof-ch28-004 records Bagman's earlier explanation of point-based entry; this entry gives the actual final standings and entry sequence at the event.
+  - Notes: The source does not show the complete scoring calculation for the prior two tasks.
 
 #### Section: Second-Task Hostage Preparation
 
@@ -6319,30 +6327,6 @@ Summary: The available evidence includes 1 source item, led by: The third-task b
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-007`, `gof-ch17-006`, `gof-ch20-007`. gof-ch12-007 records the tournament revival, gof-ch17-006 records first-task champion instructions, and gof-ch20-007 records the second-task clue; this entry adds the third-task maze layout, scoring order, and Quidditch-field conversion.
   - Notes: The briefing summarizes task structure before the actual event and does not list the final creature or spell obstacle inventory.
-
-#### Section: Third-task staging and rescue protocol
-
-Summary: The available evidence includes 1 source item, led by: The chapter shows the live operation of the final task, including field conversion, spectator staging, staff patrols, rescue signals, Sonorus announcements, and point-ordered entry.
-
-- **Corroboration:** The chapter shows the live operation of the final task, including field conversion, spectator staging, staff patrols, rescue signals, Sonorus announcements, and point-ordered entry.
-  - Quote: "send red sparks into the air"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1466, `gof-ch31-005`, `sources/book-04/chapter-31-the-third-task.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: institutional_custom
-  - Corroborates: `gof-ch28-004`. gof-ch28-004 records the pre-task briefing for maze construction, Cup placement, obstacles, and entry order; this entry corroborates it with the live field layout, staff patrol, red-sparks rescue signal, and Sonorus announcement.
-  - Notes: The passage records the intended rescue protocol but not whether it was adequate against covert interference inside the maze.
-
-#### Section: Triwizard Cup and Portkey breach
-
-Summary: The available evidence includes 1 source item, led by: The Triwizard Cup is physically placed as the final goal, but when touched it transports Harry and Cedric like a Portkey rather than ending the task in the stadium.
-
-- **Corroboration:** The Triwizard Cup is physically placed as the final goal, but when touched it transports Harry and Cedric like a Portkey rather than ending the task in the stadium.
-  - Quote: "a jerk somewhere behind his navel"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1476, `gof-ch31-007`, `sources/book-04/chapter-31-the-third-task.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: direct_observed_setting
-  - Corroborates: `gof-ch28-004`. gof-ch28-004 records the Cup's planned placement at the maze center; this entry adds the observed Portkey activation and the shared-grip tie decision immediately before transport.
-  - Notes: The chapter shows the transport effect but does not yet reveal who altered the Cup or where it sends the champions.
 
 #### Section: Yule Ball Eligibility, Dress, and Conduct
 
@@ -6420,6 +6404,22 @@ Summary: The available evidence includes 1 source item, led by: Hermione helps H
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch15-002`, `gof-ch06-003`. gof-ch15-002 records Summoning Charm lesson preparation in the fourth-year workload, and gof-ch06-003 records a non-school use of Accio; this entry adds intensive student practice and long-distance first-task application planning.
   - Notes: The account follows Harry's accelerated practice rather than the ordinary lesson itself, so it should not be treated as a standard syllabus description.
+
+## Part: Founders, Staff, and Institutional Memory
+
+### Chapter: Older Staff, Residents, and Alumni Memory
+
+#### Section: Weasley Family Recollections of Pringle, Ogg, and the Fat Lady
+
+Summary: The available evidence includes 1 source item, led by: Alumni recollections provide school-history evidence for the Fat Lady's long tenure, an earlier caretaker named Apollyon Pringle, pre-Hagrid gamekeeper Ogg, and the Whomping Willow's post-Molly planting.
+
+- **Corroboration:** Alumni recollections provide school-history evidence for the Fat Lady's long tenure, an earlier caretaker named Apollyon Pringle, pre-Hagrid gamekeeper Ogg, and the Whomping Willow's post-Molly planting.
+  - Quote: "Apollyon Pringle - he was the caretaker"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, PDF p. 1463, `gof-ch31-001`, `sources/book-04/chapter-31-the-third-task.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch05-003`, `gof-ch17-007`, `gof-ch22-007`. Prior entries cover the Whomping Willow and Fat Lady portrait access; this entry adds alumni chronology, Apollyon Pringle, and gamekeeper Ogg.
+  - Notes: The dating is relative to Molly Weasley's and Bill Weasley's school years, and the passage does not give exact appointment or planting dates.
 
 ## Part: Grounds, Lake, and Village Approaches
 

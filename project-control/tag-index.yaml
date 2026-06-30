@@ -141,10 +141,13 @@ tags:
     entries:
     - cos-ch04-003
     - gof-ch05-001
-    - gof-ch31-004
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  alumni-memory:
+    entries:
+    - gof-ch31-001
+    output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
   ancient-creature:
     entries:
@@ -181,12 +184,10 @@ tags:
   animagus:
     entries:
     - gof-ch27-006
-    - gof-ch31-003
     - poa-ch20-003
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   animal-transformation:
     entries:
     - cos-ch12-004
@@ -239,7 +240,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
   apollyon-pringle:
     entries:
-    - gof-ch31-004
+    - gof-ch31-001
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
   apparition:
@@ -503,6 +504,7 @@ tags:
     - gof-ch21-003
     - gof-ch23-005
     - gof-ch24-001
+    - gof-ch31-004
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -513,6 +515,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -559,11 +562,6 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
-  blast-ended-skrewt:
-    entries:
-    - gof-ch31-006
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
@@ -571,12 +569,14 @@ tags:
     - gof-ch21-004
     - gof-ch22-004
     - gof-ch24-003
+    - gof-ch31-006
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   blood-status:
     entries:
     - cos-ch04-004
@@ -622,7 +622,7 @@ tags:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
   boggart:
     entries:
-    - gof-ch31-006
+    - gof-ch31-005
     - poa-ch07-006
     output_yaml:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
@@ -836,10 +836,12 @@ tags:
   caretaker:
     entries:
     - cos-ch08-002
+    - gof-ch31-001
     - poa-ch07-005
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   carriage:
     entries:
     - gof-ch16-005
@@ -1075,6 +1077,12 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  champion-points:
+    entries:
+    - gof-ch31-004
+    - gof-ch31-007
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   champion-publicity:
     entries:
     - gof-ch18-005
@@ -1648,7 +1656,6 @@ tags:
     - gof-ch18-005
     - gof-ch21-004
     - gof-ch24-002
-    - gof-ch31-003
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -1660,7 +1667,6 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -1779,7 +1785,6 @@ tags:
     - gof-ch19-003
     - gof-ch20-003
     - gof-ch29-003
-    - gof-ch31-001
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -1829,7 +1834,6 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-29-the-dream.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -2318,6 +2322,7 @@ tags:
     - gof-ch24-005
     - gof-ch27-005
     - gof-ch28-005
+    - gof-ch31-004
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -2330,6 +2335,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   dursleys:
     entries:
     - cos-ch01-003
@@ -2426,6 +2432,11 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  enchanted-maze:
+    entries:
+    - gof-ch31-005
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   enchanted-snow:
     entries:
     - cos-ch12-003
@@ -2518,11 +2529,6 @@ tags:
     - poa-ch21-001
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
-  exam-exemption:
-    entries:
-    - gof-ch31-001
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   exams:
     entries:
     - cos-ch04-003
@@ -2635,7 +2641,7 @@ tags:
     - gof-ch17-007
     - gof-ch19-007
     - gof-ch22-007
-    - gof-ch31-004
+    - gof-ch31-001
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -3040,8 +3046,7 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   four-point-spell:
     entries:
-    - gof-ch31-001
-    - gof-ch31-006
+    - gof-ch31-005
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
   fourth-champion:
@@ -3125,11 +3130,6 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
-  gamekeeper-ogg:
-    entries:
-    - gof-ch31-004
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   gamekeepers-hut:
     entries:
     - ps-ch14-004
@@ -3296,6 +3296,11 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  golden-mist:
+    entries:
+    - gof-ch31-005
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -4195,7 +4200,6 @@ tags:
     - gof-ch11-005
     - gof-ch15-003
     - gof-ch28-003
-    - gof-ch31-002
     - poa-ch09-001
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
@@ -4203,12 +4207,16 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   hogwarts-alumni:
     entries:
     - poa-ch10-006
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
+  hogwarts-champions:
+    entries:
+    - gof-ch31-004
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   hogwarts-danger:
     entries:
     - cos-ch02-002
@@ -4270,6 +4278,7 @@ tags:
     - gof-ch21-003
     - gof-ch23-001
     - gof-ch29-001
+    - gof-ch31-001
     - poa-ch10-002
     - poa-ch10-003
     - poa-ch17-004
@@ -4289,6 +4298,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   hogwarts-hidden:
     entries:
     - gof-ch11-005
@@ -4845,12 +4855,10 @@ tags:
     - gof-ch01-003
     - gof-ch07-005
     - gof-ch24-004
-    - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   institutional-custom:
     entries:
     - ps-ch07-002
@@ -5015,7 +5023,6 @@ tags:
     - gof-ch23-002
     - gof-ch24-006
     - gof-ch26-005
-    - gof-ch31-004
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
@@ -5024,7 +5031,6 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   judging:
     entries:
     - gof-ch26-007
@@ -5474,6 +5480,7 @@ tags:
     - gof-ch25-002
     - gof-ch28-006
     - gof-ch29-006
+    - gof-ch31-005
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -5488,6 +5495,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -5701,10 +5709,8 @@ tags:
   magical-saturation:
     entries:
     - gof-ch28-003
-    - gof-ch31-002
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   magical-secrecy:
     entries:
     - gof-ch08-001
@@ -5784,13 +5790,11 @@ tags:
     - gof-ch10-002
     - gof-ch15-006
     - gof-ch15-007
-    - gof-ch31-007
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   magical-tree:
     entries:
     - cos-ch05-003
@@ -5907,14 +5911,10 @@ tags:
   maze:
     entries:
     - gof-ch28-004
-    - gof-ch31-005
+    - gof-ch31-002
+    - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
-  maze-obstacles:
-    entries:
-    - gof-ch31-006
-    output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
   mcgonagall:
     entries:
@@ -6402,10 +6402,8 @@ tags:
   muggle-technology:
     entries:
     - gof-ch28-003
-    - gof-ch31-002
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   muggle-witnesses:
     entries:
     - ps-ch02-004
@@ -6551,13 +6549,11 @@ tags:
     entries:
     - gof-ch13-004
     - gof-ch29-005
-    - gof-ch31-003
     - poa-ch06-002
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-29-the-dream.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   norwegian-ridgeback:
     entries:
     - ps-ch14-004
@@ -6573,6 +6569,11 @@ tags:
     - gof-ch25-006
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  ogg:
+    entries:
+    - gof-ch31-001
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   old-manors:
     entries:
     - cos-ch03-002
@@ -7115,7 +7116,7 @@ tags:
     entries:
     - gof-ch17-007
     - gof-ch22-007
-    - gof-ch31-004
+    - gof-ch31-001
     - poa-ch06-002
     - poa-ch08-004
     - poa-ch08-007
@@ -7279,10 +7280,8 @@ tags:
   press-access:
     entries:
     - gof-ch24-004
-    - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   prior-incantato:
     entries:
     - gof-ch09-006
@@ -7639,7 +7638,7 @@ tags:
   quidditch-field:
     entries:
     - gof-ch28-004
-    - gof-ch31-005
+    - gof-ch31-002
     - poa-ch09-007
     - ps-ch11-001
     output_yaml:
@@ -7793,7 +7792,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
   red-sparks:
     entries:
-    - gof-ch31-005
+    - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
   refereeing:
@@ -7829,6 +7828,11 @@ tags:
     - gof-ch28-007
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  rescue-signal:
+    entries:
+    - gof-ch31-003
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   resignation:
     entries:
     - gof-ch24-007
@@ -7888,8 +7892,6 @@ tags:
     - gof-ch21-004
     - gof-ch24-004
     - gof-ch27-003
-    - gof-ch31-002
-    - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
@@ -7897,7 +7899,6 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -8093,6 +8094,8 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
   school-grounds:
     entries:
+    - gof-ch31-002
+    - gof-ch31-005
     - poa-ch04-007
     - poa-ch05-006
     - poa-ch20-002
@@ -8103,6 +8106,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
   school-history:
     entries:
     - cos-ch12-007
@@ -8190,11 +8194,9 @@ tags:
     entries:
     - gof-ch11-005
     - gof-ch28-003
-    - gof-ch31-002
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
-    - sources/book-04/chapter-31-the-third-task.yaml
   school-representatives:
     entries:
     - gof-ch22-002
@@ -8751,11 +8753,6 @@ tags:
     - gof-ch16-006
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
-  sonorus:
-    entries:
-    - gof-ch31-005
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   sorcerers-stone:
     entries:
     - ps-ch15-007
@@ -8823,11 +8820,6 @@ tags:
     - gof-ch09-006
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
-  spell-practice:
-    entries:
-    - gof-ch31-001
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   spellbooks:
     entries:
     - cos-ch01-002
@@ -8860,6 +8852,11 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
   sphinx:
+    entries:
+    - gof-ch31-006
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
+  spider:
     entries:
     - gof-ch31-006
     output_yaml:
@@ -8982,6 +8979,11 @@ tags:
     - gof-ch25-006
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  staff-patrol:
+    entries:
+    - gof-ch31-003
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   staff-permission:
     entries:
     - cos-ch07-002
@@ -9041,6 +9043,11 @@ tags:
     - poa-ch05-005
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
+  staggered-entry:
+    entries:
+    - gof-ch31-004
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   staircases:
     entries:
     - gof-ch25-005
@@ -9392,6 +9399,8 @@ tags:
     - gof-ch24-003
     - gof-ch25-005
     - gof-ch28-002
+    - gof-ch31-003
+    - gof-ch31-006
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -9414,6 +9423,12 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-04/chapter-31-the-third-task.yaml
+  student-spectators:
+    entries:
+    - gof-ch31-002
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -9691,9 +9706,8 @@ tags:
     entries:
     - gof-ch28-004
     - gof-ch29-004
-    - gof-ch31-001
-    - gof-ch31-005
-    - gof-ch31-007
+    - gof-ch31-002
+    - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
@@ -9821,6 +9835,11 @@ tags:
     - gof-ch26-005
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+  tournament-obstacles:
+    entries:
+    - gof-ch31-006
+    output_yaml:
+    - sources/book-04/chapter-31-the-third-task.yaml
   tournament-of-1792:
     entries:
     - gof-ch15-003
@@ -9832,7 +9851,7 @@ tags:
     - gof-ch21-001
     - gof-ch24-006
     - gof-ch28-004
-    - gof-ch31-005
+    - gof-ch31-004
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
@@ -9889,11 +9908,6 @@ tags:
     - cos-ch18-006
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
-  transfiguration-classroom:
-    entries:
-    - gof-ch31-001
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   transfiguration-punishment:
     entries:
     - gof-ch13-006
@@ -9975,11 +9989,12 @@ tags:
     - gof-ch28-004
     - gof-ch28-005
     - gof-ch29-004
-    - gof-ch31-001
+    - gof-ch31-002
     - gof-ch31-003
     - gof-ch31-004
     - gof-ch31-005
     - gof-ch31-006
+    - gof-ch31-007
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -10291,11 +10306,6 @@ tags:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
-  walkie-talkie:
-    entries:
-    - gof-ch31-002
-    output_yaml:
-    - sources/book-04/chapter-31-the-third-task.yaml
   wand:
     entries:
     - cos-ch01-002
@@ -10448,7 +10458,7 @@ tags:
   whomping-willow:
     entries:
     - cos-ch05-003
-    - gof-ch31-004
+    - gof-ch31-001
     - poa-ch09-007
     - poa-ch10-002
     - poa-ch17-001

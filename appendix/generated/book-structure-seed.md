@@ -111,8 +111,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
   - Time-Turner Authorization for Overlapping Lessons
-- Tournament-Year Academic Adjustments
-  - Champion exam exemptions and final-task practice
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
 - Wands, Equipment, and Magical Materials
@@ -206,14 +204,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Procedure
   - Champion Representative Duties
   - Cooperation, Rivalry, and Foreign Student Contact
+  - Creature Obstacles in the Final Task Maze
+  - Final Task Rescue Signals and Staff Patrols
+  - Final Task Venue and Spectator Use of the Quidditch Field
   - Golden-Egg Clue and Lake Task Preparation
   - Judge Conduct and Second-Task Clue Fairness
-  - Maze obstacles and magical hazard design
+  - Point Standings and Final Task Entry Order
   - Second-Task Hostage Preparation
   - Second-Task Lakeside Staging and Time Limit
   - Third-Task Maze Construction and Rules
-  - Third-task staging and rescue protocol
-  - Triwizard Cup and Portkey breach
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
 - Visiting Schools and Magical Travel
@@ -225,6 +224,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Charms Instruction and Independent Practice
   - Summoning Charms Beyond the Classroom
+
+## Founders, Staff, and Institutional Memory
+
+- Older Staff, Residents, and Alumni Memory
+  - Weasley Family Recollections of Pringle, Ogg, and the Fat Lady
 
 ## Ghosts, Portraits, and Magical Residents
 
@@ -374,6 +378,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
   - Traditional Cheating and First-Task Fairness
+  - Triwizard Cup Endpoint and Portkey Breach
 - The Triwizard Year and Magical Creature Hazards
   - Dragon Assignment and First-Task Order
   - Dragon Breeds, Keepers, and Containment
@@ -407,7 +412,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Whomping Willow Tunnel
 - Castle-Wide Magical Environment
   - Muggle Technology Failure Around Hogwarts
-  - Muggle technology failure around Hogwarts
 - Changing Staircases and Responsive Doors
   - Navigating the Castle
   - Nighttime Routes and Tower Access
@@ -431,6 +435,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Bathroom Entrance to the Chamber
   - The Bathroom Pipe Exit
   - The Central Chamber and Serpent Architecture
+- Temporary Tournament Enchantments
+  - Maze Silencing, Navigation, and Spell Obstacles
 - The Great Hall
   - The Enchanted Ceiling
 - Towers, Offices, and Upper-Floor Access
@@ -500,7 +506,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Access Control, Visitors, and Information Security
   - Press Exclusion and Unexplained Information Leaks
-  - Press leaks and hidden surveillance
 - Anti-Dementor Defenses
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
@@ -713,8 +718,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Castle and Its Grounds
 
-- Alumni Memory and Grounds Chronology
-  - Portraits, caretakers, gamekeepers, and the Whomping Willow
 - Arrival at Hogwarts
   - Carriage Route, Gates, Entrance Hall, and Great Hall
 - Dungeons and Corridors
