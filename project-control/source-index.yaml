@@ -961,3 +961,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1285-1309.
+- source_unit_id: gof-ch24
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 24
+  chapter_title: Chapter Twenty-Four - Rita Skeeter's Scoop
+  page_start: 1310
+  page_end: 1329
+  output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  processed_at: '2026-06-30'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1310-1329.

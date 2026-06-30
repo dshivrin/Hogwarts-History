@@ -447,6 +447,7 @@ tags:
     - gof-ch17-002
     - gof-ch21-003
     - gof-ch23-005
+    - gof-ch24-001
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -456,6 +457,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   bedtime-enforcement:
     entries:
     - poa-ch13-006
@@ -479,20 +481,24 @@ tags:
     entries:
     - gof-ch15-007
     - gof-ch21-003
+    - gof-ch24-005
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
     - gof-ch18-003
     - gof-ch21-004
     - gof-ch22-004
+    - gof-ch24-003
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   blood-status:
     entries:
     - cos-ch04-004
@@ -684,6 +690,9 @@ tags:
     - gof-ch18-003
     - gof-ch21-004
     - gof-ch22-004
+    - gof-ch24-001
+    - gof-ch24-002
+    - gof-ch24-003
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -710,6 +719,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   career-guidance:
     entries:
     - cos-ch14-002
@@ -1012,8 +1022,10 @@ tags:
   cheating:
     entries:
     - gof-ch20-002
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   cheering-charms:
     entries:
     - poa-ch15-003
@@ -1304,6 +1316,11 @@ tags:
     - cos-ch13-004
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  creature-breeding:
+    entries:
+    - gof-ch24-003
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   creature-curriculum:
     entries:
     - poa-ch08-001
@@ -1458,6 +1475,7 @@ tags:
     - gof-ch13-005
     - gof-ch18-005
     - gof-ch21-004
+    - gof-ch24-002
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -1468,6 +1486,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -1945,6 +1964,9 @@ tags:
     - gof-ch21-007
     - gof-ch23-004
     - gof-ch23-006
+    - gof-ch24-002
+    - gof-ch24-004
+    - gof-ch24-007
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2017,6 +2039,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2064,6 +2087,7 @@ tags:
     - gof-ch21-003
     - gof-ch23-004
     - gof-ch23-005
+    - gof-ch24-005
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -2073,6 +2097,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   dursleys:
     entries:
     - cos-ch01-003
@@ -2675,8 +2700,10 @@ tags:
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
+    - gof-ch24-001
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   forbidden-objects:
     entries:
     - gof-ch12-005
@@ -2811,6 +2838,7 @@ tags:
   gamekeeper:
     entries:
     - cos-ch17-003
+    - gof-ch24-002
     - poa-ch01-006
     - poa-ch05-007
     - ps-ch04-007
@@ -2821,6 +2849,7 @@ tags:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   gamekeepers-hut:
     entries:
     - ps-ch14-004
@@ -2875,9 +2904,11 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
   giant-squid:
     entries:
+    - gof-ch24-005
     - ps-ch16-002
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   giantess:
     entries:
     - gof-ch23-006
@@ -2964,11 +2995,13 @@ tags:
     - gof-ch22-006
     - gof-ch23-005
     - gof-ch23-007
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -3269,6 +3302,10 @@ tags:
     - gof-ch21-004
     - gof-ch22-004
     - gof-ch23-006
+    - gof-ch24-001
+    - gof-ch24-002
+    - gof-ch24-003
+    - gof-ch24-007
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -3325,6 +3362,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -3507,6 +3545,7 @@ tags:
     - cos-ch14-007
     - cos-ch18-003
     - cos-ch18-005
+    - gof-ch24-007
     - poa-ch09-004
     - poa-ch11-002
     - poa-ch21-001
@@ -3516,6 +3555,7 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   headmaster-contact:
     entries:
     - gof-ch02-005
@@ -3769,6 +3809,7 @@ tags:
     entries:
     - gof-ch12-005
     - gof-ch19-001
+    - gof-ch24-005
     - poa-ch01-005
     - poa-ch02-001
     - poa-ch03-005
@@ -3797,6 +3838,7 @@ tags:
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   hogsmeade-privileges:
     entries:
     - poa-ch14-002
@@ -4445,9 +4487,11 @@ tags:
     entries:
     - gof-ch01-003
     - gof-ch07-005
+    - gof-ch24-004
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   institutional-custom:
     entries:
     - ps-ch07-002
@@ -4525,6 +4569,7 @@ tags:
     entries:
     - gof-ch04-002
     - gof-ch19-003
+    - gof-ch24-004
     - poa-ch14-004
     - poa-ch16-006
     - poa-ch17-004
@@ -4542,6 +4587,7 @@ tags:
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -4590,12 +4636,14 @@ tags:
     - gof-ch18-006
     - gof-ch20-007
     - gof-ch23-002
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   justin-finch-fletchley:
     entries:
     - cos-ch11-006
@@ -4878,11 +4926,13 @@ tags:
     - gof-ch17-001
     - gof-ch17-004
     - gof-ch18-005
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   luggage:
     entries:
     - gof-ch11-002
@@ -5072,6 +5122,11 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+  magical-creatures-department:
+    entries:
+    - gof-ch24-003
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   magical-decorations:
     entries:
     - gof-ch23-002
@@ -6100,6 +6155,11 @@ tags:
     - poa-ch06-003
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+  parent-letters:
+    entries:
+    - gof-ch24-007
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   parent-or-guardian:
     entries:
     - poa-ch03-005
@@ -6593,6 +6653,11 @@ tags:
     - gof-ch23-007
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+  press-access:
+    entries:
+    - gof-ch24-004
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   prior-incantato:
     entries:
     - gof-ch09-006
@@ -6664,6 +6729,11 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+  professor-grubbly-plank:
+    entries:
+    - gof-ch24-001
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   professor-kettleburn:
     entries:
     - poa-ch05-007
@@ -6805,6 +6875,16 @@ tags:
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  public-accountability:
+    entries:
+    - gof-ch24-002
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  public-complaints:
+    entries:
+    - gof-ch24-007
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   public-cover-story:
     entries:
     - poa-ch18-004
@@ -7067,6 +7147,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  regulation:
+    entries:
+    - gof-ch24-003
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   remus-lupin:
     entries:
     - poa-ch10-002
@@ -7082,6 +7167,11 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  resignation:
+    entries:
+    - gof-ch24-007
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   restricted-books:
     entries:
     - cos-ch10-002
@@ -7132,11 +7222,13 @@ tags:
     - gof-ch13-005
     - gof-ch18-005
     - gof-ch21-004
+    - gof-ch24-004
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -7472,9 +7564,11 @@ tags:
     - gof-ch19-003
     - gof-ch19-006
     - gof-ch19-007
+    - gof-ch24-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   school-supplies:
     entries:
     - cos-ch04-002
@@ -7553,11 +7647,13 @@ tags:
     - gof-ch21-001
     - gof-ch22-006
     - gof-ch23-007
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -8085,11 +8181,13 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   staff-appointments:
     entries:
+    - gof-ch24-002
     - poa-ch05-007
     - poa-ch17-003
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   staff-authorization:
     entries:
     - cos-ch11-003
@@ -8125,6 +8223,11 @@ tags:
     - poa-ch08-005
     output_yaml:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  staff-governance:
+    entries:
+    - gof-ch24-007
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   staff-history:
     entries:
     - ps-ch01-002
@@ -8513,6 +8616,7 @@ tags:
     - gof-ch18-003
     - gof-ch21-004
     - gof-ch22-004
+    - gof-ch24-003
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -8532,6 +8636,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -8574,6 +8679,11 @@ tags:
     - gof-ch19-005
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  substitute-teacher:
+    entries:
+    - gof-ch24-001
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   subterranean-chamber:
     entries:
     - ps-ch16-005
@@ -8918,9 +9028,11 @@ tags:
     entries:
     - gof-ch17-003
     - gof-ch21-001
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   tournament-schedule:
     entries:
     - gof-ch22-006
@@ -9024,6 +9136,8 @@ tags:
     - gof-ch22-006
     - gof-ch23-005
     - gof-ch23-007
+    - gof-ch24-005
+    - gof-ch24-006
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -9037,15 +9151,18 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
     - gof-ch05-003
     - gof-ch07-005
+    - gof-ch24-004
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   troll:
     entries:
     - ps-ch16-007
@@ -9156,10 +9273,12 @@ tags:
   unicorns:
     entries:
     - cos-ch15-003
+    - gof-ch24-001
     - ps-ch15-005
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-15-aragog.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   uniform:
     entries:
     - ps-ch05-002
@@ -9234,6 +9353,7 @@ tags:
     - gof-ch20-002
     - gof-ch22-003
     - gof-ch23-001
+    - gof-ch24-005
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
@@ -9241,6 +9361,7 @@ tags:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   visitor-access:
     entries:
     - ps-ch17-004
@@ -9510,6 +9631,11 @@ tags:
     - ps-ch12-001
     output_yaml:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
+  winter-grounds:
+    entries:
+    - gof-ch24-005
+    output_yaml:
+    - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   wizard-law:
     entries:
     - poa-ch02-003

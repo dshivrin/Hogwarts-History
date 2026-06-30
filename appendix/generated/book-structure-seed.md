@@ -28,6 +28,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Course Books and Dangerous Texts
   - Live Creature Handling and Safety
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
+- Care of Magical Creatures and Grounds-Based Teaching
+  - Experimental Breeding, Safety, and Oversight
+  - Substitute Instruction and Unicorn Handling
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
   - Skrewt Feeding Work After Handling Risks
@@ -190,6 +193,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Procedure
   - Champion Representative Duties
   - Cooperation, Rivalry, and Foreign Student Contact
+  - Judge Conduct and Second-Task Clue Fairness
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
 - Visiting Schools and Magical Travel
@@ -449,6 +453,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Protective Magic and Security
 
+- Access Control, Visitors, and Information Security
+  - Press Exclusion and Unexplained Information Leaks
 - Anti-Dementor Defenses
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
@@ -564,6 +570,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dangerous-Creature Hearings After Class Injuries
 - Headmaster Authority and External Legal Power
   - Limits of School Authority During Ministry Action
+- Headmaster Authority and Staff Appointments
+  - Parent Pressure, Complaints, and Staff Continuity
+  - Public Scrutiny of Hagrid's Dual Role
 - Headmaster, Governors, and School Oversight
   - Creature-Injury Hearings and External Committees
   - Governor Authority Over the Headmaster
@@ -647,6 +656,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Carriage Route, Gates, Entrance Hall, and Great Hall
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
+- Grounds, Lake, and Village Approaches
+  - Visiting-School Lodging and Hogsmeade Route
 - Interior Rooms
   - Trophy Room
 - The Grounds and Edge of the Forest

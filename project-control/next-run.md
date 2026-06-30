@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-Four - Rita Skeeter’s Scoop
-- Page range: 1310-1329
+- Chapter: Chapter Twenty-Five - The Egg and the Eye
+- Page range: 1330-1347
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+- Output YAML: `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
 
 ## Minimal Context
 

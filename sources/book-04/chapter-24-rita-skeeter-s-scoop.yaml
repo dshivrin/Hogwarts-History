@@ -1,0 +1,319 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Four range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty-Three and next Chapter Twenty-Five anchors and extracted only PDF pages 1310-1329 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Twenty-Four. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch24-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1312
+  printed_page: null
+  extracted_text_lines: 56-104
+  text_anchor:
+    start_phrase: Snow was still thick upon the grounds
+    end_phrase: Girls to the front
+    local_occurrence_note: The first lesson after Christmas has a temporary Care of Magical Creatures teacher, the Beauxbatons horses still by Hagrid's paddock, and a unicorn lesson at the edge of the forest.
+  nearby_context: Professor Grubbly-Plank replaces Hagrid without explaining his absence, leads the class past the Beauxbatons horses, and separates boys from girls before approaching the unicorn.
+  match_terms:
+  - Care of Magical Creatures
+  - Professor Grubbly-Plank
+  - unicorn
+  - temporary teacher
+  - Beauxbatons horses
+  - forest edge
+  quote_excerpt_short: "temporary Care of Magical Creatures teacher"
+  source_note: Hagrid's temporary replacement conducts a more conventional Care of Magical Creatures lesson around a tethered unicorn, including handling guidance and gendered approach rules.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - professor-grubbly-plank
+  - unicorns
+  - substitute-teacher
+  - hagrid
+  - forbidden-forest-edge
+  - beauxbatons
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Grounds-Based Teaching
+  candidate_section: Substitute Instruction and Unicorn Handling
+  reason_for_placement: The passage gives a contrasting model of the subject under a substitute teacher, with a named magical creature and observed handling protocol.
+  relevance_to_hogwarts_a_history: A later edition can use this to show the subject's range, from Hagrid's experimental lessons to more traditional creature handling near the forest.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup for Care of Magical Creatures, Grubbly-Plank, and unicorn lesson terms found no prior unicorn or substitute-teacher entry.
+  confidence: high
+  limitations: The lesson is observed during an unusual staff absence and may not represent the whole course.
+- id: gof-ch24-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1313
+  printed_page: null
+  extracted_text_lines: 116-146
+  text_anchor:
+    start_phrase: DUMBLEDORE'S GIANT MISTAKE
+    end_phrase: too scared to say anything
+    local_occurrence_note: Rita Skeeter's article frames Dumbledore's staff appointments as controversial and reviews Hagrid's expulsion, gamekeeper role, and Care of Magical Creatures appointment.
+  nearby_context: The article compares Moody and Hagrid as controversial hires, names Hogwarts formally, and quotes Malfoy to support a hostile claim about Hagrid's teaching.
+  match_terms:
+  - Daily Prophet
+  - staff appointments
+  - Dumbledore
+  - Hagrid
+  - gamekeeper
+  - Care of Magical Creatures
+  quote_excerpt_short: "controversial staff appointments"
+  source_note: The Daily Prophet article is biased, but it preserves public-facing evidence that Dumbledore retained Hagrid after expulsion and later added Care of Magical Creatures duties to his gamekeeping role.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - daily-prophet
+  - dumbledore
+  - hagrid
+  - staff-appointments
+  - gamekeeper
+  - care-of-magical-creatures
+  - public-accountability
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster Authority and Staff Appointments
+  candidate_section: Public Scrutiny of Hagrid's Dual Role
+  reason_for_placement: The article connects appointment authority, prior expulsion, staff duties, student safety claims, and external public scrutiny.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a hostile contemporary source when discussing how headmaster discretion and staff appointments were viewed outside the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch04-007; cos-ch07-005; poa-ch05-007
+    notes: ps-ch04-007 and cos-ch07-005 record Hagrid's expulsion and gamekeeper retention, and poa-ch05-007 records his formal Care of Magical Creatures appointment; this entry adds public press framing and parent-facing controversy.
+  confidence: medium
+  limitations: The article is sensational and includes demonstrably misleading student testimony, so factual use should be limited to claims corroborated elsewhere or to public-reaction evidence.
+- id: gof-ch24-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1314
+  printed_page: null
+  extracted_text_lines: 147-158
+  text_anchor:
+    start_phrase: Hagrid has no intention of ceasing
+    end_phrase: before hastily changing the subject
+    local_occurrence_note: Skeeter's article quotes Hagrid on the Blast-Ended Skrewts and states a regulatory norm for creating new magical-creature breeds.
+  nearby_context: The passage names Skrewts as crosses between manticores and fire-crabs and says new magical-creature breeds are usually watched by the Department for the Regulation and Control of Magical Creatures.
+  match_terms:
+  - Blast-Ended Skrewts
+  - manticores
+  - fire-crabs
+  - Department for the Regulation and Control of Magical Creatures
+  - creature breeding
+  quote_excerpt_short: "creation of new breeds of magical creature"
+  source_note: The article supplies the clearest regulatory context for Hagrid's Skrewt project, describing new creature-breed creation as normally subject to Department oversight.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - blast-ended-skrewts
+  - creature-breeding
+  - magical-creatures-department
+  - care-of-magical-creatures
+  - hagrid
+  - student-safety
+  - regulation
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Grounds-Based Teaching
+  candidate_section: Experimental Breeding, Safety, and Oversight
+  reason_for_placement: The passage ties a Hogwarts lesson project to wider Ministry regulation and clarifies why Skrewt use raised institutional risk.
+  relevance_to_hogwarts_a_history: A later edition can use this as a cautionary note on the boundary between school instruction, creature experimentation, and external regulation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-003; gof-ch18-003; gof-ch21-004
+    notes: gof-ch13-003 introduces live Skrewt rearing, gof-ch18-003 adds handling precautions, and gof-ch21-004 adds hibernation failure and illegal-origin concern; this entry adds explicit Department oversight language and parent-facing regulatory controversy.
+  confidence: medium
+  limitations: The regulatory framing comes from a hostile article, though Hagrid's quoted "having some fun" response supports that the Skrewt project was real.
+- id: gof-ch24-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1317
+  printed_page: null
+  extracted_text_lines: 241-256
+  text_anchor:
+    start_phrase: Maybe she heard him telling Madame Maxime
+    end_phrase: anyone could have heard him
+    local_occurrence_note: Students reason through how Rita Skeeter learned Hagrid's secret and state that Dumbledore had banned her from entering the school.
+  nearby_context: Harry suggests an Invisibility Cloak, Ron says Skeeter was not supposed to be at school, and Hermione compares their accidental eavesdropping with possible reporter surveillance.
+  match_terms:
+  - Rita Skeeter
+  - Dumbledore
+  - banned
+  - school access
+  - Invisibility Cloak
+  - eavesdropping
+  quote_excerpt_short: "Dumbledore banned her"
+  source_note: The conversation implies headmaster-level control over press access to Hogwarts and raises the security problem of a banned reporter obtaining information from school grounds.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - rita-skeeter
+  - dumbledore
+  - press-access
+  - school-security
+  - invisibility-cloak
+  - information-security
+  - triwizard-year
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Access Control, Visitors, and Information Security
+  candidate_section: Press Exclusion and Unexplained Information Leaks
+  reason_for_placement: The passage records a concrete access-control decision and the limits of that decision when information still leaks from Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can use this to discuss visitor exclusion powers and why wartime or tournament-era security included information control, not only physical barriers.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found broad Dumbledore and school-governance entries but no prior entry for a reporter being banned from school or for Triwizard-year press access control.
+  confidence: medium
+  limitations: The ban is reported by students recalling Hagrid's statement, not quoted directly from Dumbledore or a formal notice.
+- id: gof-ch24-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1318
+  printed_page: null
+  extracted_text_lines: 287-314
+  text_anchor:
+    start_phrase: There was a Hogsmeade visit halfway through January
+    end_phrase: He likes it much better here
+    local_occurrence_note: During a January Hogsmeade visit, the students pass the Durmstrang ship still moored in the lake and see Krum dive into the cold water.
+  nearby_context: Harry, Ron, and Hermione leave the castle through cold wet grounds toward the gates, pass the Durmstrang ship, and discuss the giant squid and Durmstrang climate.
+  match_terms:
+  - Hogsmeade visit
+  - Durmstrang ship
+  - lake
+  - Viktor Krum
+  - giant squid
+  - winter grounds
+  quote_excerpt_short: "ship moored in the lake"
+  source_note: The scene confirms mid-January Hogsmeade access, the Durmstrang ship's continuing lake mooring, and ordinary student movement from castle grounds to village gates past visiting-school lodgings.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - durmstrang
+  - black-lake
+  - visiting-schools
+  - giant-squid
+  - winter-grounds
+  - triwizard-tournament
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Grounds, Lake, and Village Approaches
+  candidate_section: Visiting-School Lodging and Hogsmeade Route
+  reason_for_placement: The passage combines grounds geography, student travel to Hogsmeade, and the continuing use of the lake by a visiting delegation.
+  relevance_to_hogwarts_a_history: A later edition can use this as a tournament-year map note for the lake, gates, Durmstrang lodging, and winter Hogsmeade movement.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-007; gof-ch21-003; gof-ch19-001
+    notes: gof-ch15-007 records the ship's arrival, gof-ch21-003 records continuing winter lodging, and gof-ch19-001 records Hogsmeade visit logistics; this entry adds a January route past the moored ship, Krum's lake use, and giant-squid awareness.
+  confidence: high
+  limitations: The scene observes the ship from the route to Hogsmeade but does not describe its interior or formal mooring arrangements.
+- id: gof-ch24-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1321
+  printed_page: null
+  extracted_text_lines: 397-444
+  text_anchor:
+    start_phrase: how are you getting on with your golden egg
+    end_phrase: He's not, I asked
+    local_occurrence_note: Bagman privately offers Harry help with the second-task clue, and Hermione later identifies this as improper because Bagman is a judge.
+  nearby_context: Bagman says he wants a Hogwarts victory, denies offering Cedric help, and leaves after Harry refuses assistance; Ron and Hermione then discuss the fairness issue.
+  match_terms:
+  - Ludo Bagman
+  - golden egg
+  - judges
+  - cheating
+  - Hogwarts victory
+  - second task
+  quote_excerpt_short: "one of the judges"
+  source_note: Bagman's private offer shows a judge attempting to influence second-task preparation, while Harry and Hermione articulate the expected rule that champions solve clues alone.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - ludo-bagman
+  - judges
+  - golden-egg
+  - second-task
+  - tournament-rules
+  - cheating
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Judge Conduct and Second-Task Clue Fairness
+  reason_for_placement: The passage supplies practical evidence for tournament fairness norms and the conflict between Hogwarts loyalty and neutral judging.
+  relevance_to_hogwarts_a_history: A later edition can treat this as an example of how the revived tournament's formal procedures were strained by partial judges and informal help.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch20-002; gof-ch20-007; gof-ch21-001; gof-ch22-006
+    notes: gof-ch20-002 records traditional task cheating, gof-ch20-007 records egg clue distribution, gof-ch21-001 records the private-clue rule, and gof-ch22-006 records schedule pressure; this entry adds a judge's direct offer of unequal assistance.
+  confidence: high
+  limitations: The rule is stated through Harry's and Hermione's interpretation rather than a quoted official rulebook.
+- id: gof-ch24-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Four - Rita Skeeter's Scoop
+  chapter_start_pdf_page: 1310
+  chapter_end_pdf_page: 1329
+  pdf_page: 1327
+  printed_page: null
+  extracted_text_lines: 590-618
+  text_anchor:
+    start_phrase: Living proof of what I've been telling you
+    end_phrase: No excuses
+    local_occurrence_note: Dumbledore cites parent letters supporting Hagrid, normalizes complaints about his headmastership, refuses Hagrid's resignation, and orders him back to work.
+  nearby_context: The conversation takes place in Hagrid's cabin after days of absence from staff duties; Dumbledore has been persuading Hagrid that support outweighs hostile reaction.
+  match_terms:
+  - parent letters
+  - headmaster
+  - complaints
+  - resignation
+  - Hagrid
+  - Great Hall breakfast
+  quote_excerpt_short: "I refuse to accept your resignation"
+  source_note: Dumbledore's handling of Hagrid's attempted resignation shows headmaster discretion over staff continuity, parent feedback, and the expectation that a teacher return to public school life.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore
+  - hagrid
+  - headmaster-authority
+  - parent-letters
+  - staff-governance
+  - resignation
+  - public-complaints
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster Authority and Staff Appointments
+  candidate_section: Parent Pressure, Complaints, and Staff Continuity
+  reason_for_placement: The passage gives rare direct evidence of how a headmaster weighs parent correspondence, complaints, and a staff member's resignation.
+  relevance_to_hogwarts_a_history: A later edition can use this as an institutional note on headmaster authority, public criticism, and staff retention during controversy.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch12-006; cos-ch14-006; gof-ch23-006
+    notes: cos-ch12-006 and cos-ch14-006 record public and governor pressure on headmaster authority, and gof-ch23-006 records Hagrid's Dumbledore-backed staff history; this entry adds parent letters, routine complaint owls, and refusal of resignation.
+  confidence: high
+  limitations: The parent letters are summarized by Dumbledore and not individually preserved in the chapter.

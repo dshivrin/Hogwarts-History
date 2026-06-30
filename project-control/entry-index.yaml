@@ -7474,6 +7474,118 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch23
     output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch24-001:
+    title: 'Care of Magical Creatures and Grounds-Based Teaching: Substitute Instruction
+      and Unicorn Handling'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - beauxbatons
+    - care-of-magical-creatures
+    - forbidden-forest-edge
+    - hagrid
+    - professor-grubbly-plank
+    - substitute-teacher
+    - unicorns
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch24-002:
+    title: 'Headmaster Authority and Staff Appointments: Public Scrutiny of Hagrid''s
+      Dual Role'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - care-of-magical-creatures
+    - daily-prophet
+    - dumbledore
+    - gamekeeper
+    - hagrid
+    - public-accountability
+    - staff-appointments
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch24-003:
+    title: 'Care of Magical Creatures and Grounds-Based Teaching: Experimental Breeding,
+      Safety, and Oversight'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - blast-ended-skrewts
+    - care-of-magical-creatures
+    - creature-breeding
+    - hagrid
+    - magical-creatures-department
+    - regulation
+    - student-safety
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch24-004:
+    title: 'Access Control, Visitors, and Information Security: Press Exclusion and
+      Unexplained Information Leaks'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - dumbledore
+    - information-security
+    - invisibility-cloak
+    - press-access
+    - rita-skeeter
+    - school-security
+    - triwizard-year
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch24-005:
+    title: 'Grounds, Lake, and Village Approaches: Visiting-School Lodging and Hogsmeade
+      Route'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - black-lake
+    - durmstrang
+    - giant-squid
+    - hogsmeade
+    - triwizard-tournament
+    - visiting-schools
+    - winter-grounds
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch24-006:
+    title: 'The Triwizard Year and Institutional Procedure: Judge Conduct and Second-Task
+      Clue Fairness'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - cheating
+    - golden-egg
+    - judges
+    - ludo-bagman
+    - second-task
+    - tournament-rules
+    - triwizard-tournament
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch24-007:
+    title: 'Headmaster Authority and Staff Appointments: Parent Pressure, Complaints,
+      and Staff Continuity'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dumbledore
+    - hagrid
+    - headmaster-authority
+    - parent-letters
+    - public-complaints
+    - resignation
+    - staff-governance
+    source_unit: gof-ch24
+    output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7683,6 +7795,7 @@ by_tag:
   - gof-ch17-002
   - gof-ch21-003
   - gof-ch23-005
+  - gof-ch24-001
   bedtime-enforcement:
   - poa-ch13-006
   bertha-jorkins:
@@ -7694,11 +7807,13 @@ by_tag:
   black-lake:
   - gof-ch15-007
   - gof-ch21-003
+  - gof-ch24-005
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
   - gof-ch22-004
+  - gof-ch24-003
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -7784,6 +7899,9 @@ by_tag:
   - gof-ch18-003
   - gof-ch21-004
   - gof-ch22-004
+  - gof-ch24-001
+  - gof-ch24-002
+  - gof-ch24-003
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -7939,6 +8057,7 @@ by_tag:
   - ps-ch09-006
   cheating:
   - gof-ch20-002
+  - gof-ch24-006
   cheering-charms:
   - poa-ch15-003
   chocolate-frog-card:
@@ -8063,6 +8182,8 @@ by_tag:
   - ps-ch11-003
   covered-up-events:
   - cos-ch13-004
+  creature-breeding:
+  - gof-ch24-003
   creature-curriculum:
   - poa-ch08-001
   - poa-ch09-005
@@ -8136,6 +8257,7 @@ by_tag:
   - gof-ch13-005
   - gof-ch18-005
   - gof-ch21-004
+  - gof-ch24-002
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -8375,6 +8497,9 @@ by_tag:
   - gof-ch21-007
   - gof-ch23-004
   - gof-ch23-006
+  - gof-ch24-002
+  - gof-ch24-004
+  - gof-ch24-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -8437,6 +8562,7 @@ by_tag:
   - gof-ch21-003
   - gof-ch23-004
   - gof-ch23-005
+  - gof-ch24-005
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -8712,6 +8838,7 @@ by_tag:
   - ps-ch15-006
   forbidden-forest-edge:
   - gof-ch13-003
+  - gof-ch24-001
   forbidden-objects:
   - gof-ch12-005
   foreign-schools:
@@ -8769,6 +8896,7 @@ by_tag:
   - poa-ch18-002
   gamekeeper:
   - cos-ch17-003
+  - gof-ch24-002
   - poa-ch01-006
   - poa-ch05-007
   - ps-ch04-007
@@ -8797,6 +8925,7 @@ by_tag:
   - poa-ch09-002
   - ps-ch08-002
   giant-squid:
+  - gof-ch24-005
   - ps-ch16-002
   giantess:
   - gof-ch23-006
@@ -8843,6 +8972,7 @@ by_tag:
   - gof-ch22-006
   - gof-ch23-005
   - gof-ch23-007
+  - gof-ch24-006
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -8994,6 +9124,10 @@ by_tag:
   - gof-ch21-004
   - gof-ch22-004
   - gof-ch23-006
+  - gof-ch24-001
+  - gof-ch24-002
+  - gof-ch24-003
+  - gof-ch24-007
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -9109,6 +9243,7 @@ by_tag:
   - cos-ch14-007
   - cos-ch18-003
   - cos-ch18-005
+  - gof-ch24-007
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
@@ -9226,6 +9361,7 @@ by_tag:
   hogsmeade:
   - gof-ch12-005
   - gof-ch19-001
+  - gof-ch24-005
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -9544,6 +9680,7 @@ by_tag:
   information-security:
   - gof-ch01-003
   - gof-ch07-005
+  - gof-ch24-004
   institutional-custom:
   - ps-ch07-002
   institutional-secrecy:
@@ -9577,6 +9714,7 @@ by_tag:
   invisibility-cloak:
   - gof-ch04-002
   - gof-ch19-003
+  - gof-ch24-004
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -9608,6 +9746,7 @@ by_tag:
   - gof-ch18-006
   - gof-ch20-007
   - gof-ch23-002
+  - gof-ch24-006
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -9739,6 +9878,7 @@ by_tag:
   - gof-ch17-001
   - gof-ch17-004
   - gof-ch18-005
+  - gof-ch24-006
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -9827,6 +9967,8 @@ by_tag:
   - gof-ch20-001
   - ps-ch14-002
   - ps-ch15-007
+  magical-creatures-department:
+  - gof-ch24-003
   magical-decorations:
   - gof-ch23-002
   magical-delivery:
@@ -10284,6 +10426,8 @@ by_tag:
   - poa-ch18-006
   palmistry:
   - poa-ch06-003
+  parent-letters:
+  - gof-ch24-007
   parent-or-guardian:
   - poa-ch03-005
   parental-pressure:
@@ -10509,6 +10653,8 @@ by_tag:
   - ps-ch10-003
   prefects-bathroom:
   - gof-ch23-007
+  press-access:
+  - gof-ch24-004
   prior-incantato:
   - gof-ch09-006
   prior-opening:
@@ -10542,6 +10688,8 @@ by_tag:
   - poa-ch14-001
   - poa-ch15-003
   - ps-ch16-006
+  professor-grubbly-plank:
+  - gof-ch24-001
   professor-kettleburn:
   - poa-ch05-007
   professor-lupin:
@@ -10613,6 +10761,10 @@ by_tag:
   prophecy:
   - gof-ch10-005
   - poa-ch16-005
+  public-accountability:
+  - gof-ch24-002
+  public-complaints:
+  - gof-ch24-007
   public-cover-story:
   - poa-ch18-004
   public-event-security:
@@ -10735,6 +10887,8 @@ by_tag:
   - ps-ch11-005
   - ps-ch13-002
   - ps-ch13-005
+  regulation:
+  - gof-ch24-003
   remus-lupin:
   - poa-ch10-002
   - poa-ch17-003
@@ -10743,6 +10897,8 @@ by_tag:
   - poa-ch18-007
   - poa-ch19-006
   - poa-ch20-002
+  resignation:
+  - gof-ch24-007
   restricted-books:
   - cos-ch10-002
   - cos-ch12-004
@@ -10767,6 +10923,7 @@ by_tag:
   - gof-ch13-005
   - gof-ch18-005
   - gof-ch21-004
+  - gof-ch24-004
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -10916,6 +11073,7 @@ by_tag:
   - gof-ch19-003
   - gof-ch19-006
   - gof-ch19-007
+  - gof-ch24-004
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
@@ -10953,6 +11111,7 @@ by_tag:
   - gof-ch21-001
   - gof-ch22-006
   - gof-ch23-007
+  - gof-ch24-006
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -11189,6 +11348,7 @@ by_tag:
   - cos-ch04-006
   - gof-ch12-006
   staff-appointments:
+  - gof-ch24-002
   - poa-ch05-007
   - poa-ch17-003
   staff-authorization:
@@ -11205,6 +11365,8 @@ by_tag:
   - cos-ch13-003
   staff-expertise:
   - poa-ch08-005
+  staff-governance:
+  - gof-ch24-007
   staff-history:
   - ps-ch01-002
   - ps-ch01-005
@@ -11376,6 +11538,7 @@ by_tag:
   - gof-ch18-003
   - gof-ch21-004
   - gof-ch22-004
+  - gof-ch24-003
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -11400,6 +11563,8 @@ by_tag:
   - gof-ch09-004
   stunning-spells:
   - gof-ch19-005
+  substitute-teacher:
+  - gof-ch24-001
   subterranean-chamber:
   - ps-ch16-005
   suit-of-armor:
@@ -11549,6 +11714,7 @@ by_tag:
   tournament-rules:
   - gof-ch17-003
   - gof-ch21-001
+  - gof-ch24-006
   tournament-schedule:
   - gof-ch22-006
   tournament-security:
@@ -11609,10 +11775,13 @@ by_tag:
   - gof-ch22-006
   - gof-ch23-005
   - gof-ch23-007
+  - gof-ch24-005
+  - gof-ch24-006
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
   - gof-ch07-005
+  - gof-ch24-004
   troll:
   - ps-ch16-007
   troll-incident:
@@ -11661,6 +11830,7 @@ by_tag:
   - gof-ch18-007
   unicorns:
   - cos-ch15-003
+  - gof-ch24-001
   - ps-ch15-005
   uniform:
   - ps-ch05-002
@@ -11697,6 +11867,7 @@ by_tag:
   - gof-ch20-002
   - gof-ch22-003
   - gof-ch23-001
+  - gof-ch24-005
   visitor-access:
   - ps-ch17-004
   visitor-control:
@@ -11821,6 +11992,8 @@ by_tag:
   - gof-ch21-003
   winter-at-hogwarts:
   - ps-ch12-001
+  winter-grounds:
+  - gof-ch24-005
   wizard-law:
   - poa-ch02-003
   wizard-school:

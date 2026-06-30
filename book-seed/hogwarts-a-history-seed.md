@@ -171,6 +171,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Corroborates: `poa-ch05-005`. Prisoner of Azkaban Chapter Five already records the Hogsmeade arrival route through the winged-boar gates; this entry adds the storm arrival, oak doors, entrance hall, and House-table transition.
   - Notes: The passage does not explain who maintains the gates, carriages, entrance hall, or Great Hall enchantments.
 
+### Chapter: Grounds, Lake, and Village Approaches
+
+#### Section: Visiting-School Lodging and Hogsmeade Route
+
+Summary: The available evidence includes 1 source item, led by: The scene confirms mid-January Hogsmeade access, the Durmstrang ship's continuing lake mooring, and ordinary student movement from castle grounds to village gates past visiting-school lodgings.
+
+- **Corroboration:** The scene confirms mid-January Hogsmeade access, the Durmstrang ship's continuing lake mooring, and ordinary student movement from castle grounds to village gates past visiting-school lodgings.
+  - Quote: "ship moored in the lake"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1318, `gof-ch24-005`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch15-007`, `gof-ch21-003`, `gof-ch19-001`. gof-ch15-007 records the ship's arrival, gof-ch21-003 records continuing winter lodging, and gof-ch19-001 records Hogsmeade visit logistics; this entry adds a January route past the moored ship, Krum's lake use, and giant-squid awareness.
+  - Notes: The scene observes the ship from the route to Hogsmeade but does not describe its interior or formal mooring arrangements.
+
 ### Chapter: Interior Rooms
 
 #### Section: Trophy Room
@@ -1791,6 +1805,31 @@ Summary: The available evidence includes 1 source item, led by: The Care of Magi
   - Corroborates: `poa-ch06-006`. Prisoner of Azkaban Chapter Six already records Hagrid's supervised hippogriff handling lesson; this entry adds the later Skrewt-rearing project, uncertain feeding methods, burns, stings, and student doubts about usefulness.
   - Notes: The source does not explain the Skrewts' origin, Ministry classification, or whether the lesson plan was approved.
 
+### Chapter: Care of Magical Creatures and Grounds-Based Teaching
+
+#### Section: Experimental Breeding, Safety, and Oversight
+
+Summary: The available evidence includes 1 source item, led by: The article supplies the clearest regulatory context for Hagrid's Skrewt project, describing new creature-breed creation as normally subject to Department oversight.
+
+- **Corroboration:** The article supplies the clearest regulatory context for Hagrid's Skrewt project, describing new creature-breed creation as normally subject to Department oversight.
+  - Quote: "creation of new breeds of magical creature"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1314, `gof-ch24-003`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch13-003`, `gof-ch18-003`, `gof-ch21-004`. gof-ch13-003 introduces live Skrewt rearing, gof-ch18-003 adds handling precautions, and gof-ch21-004 adds hibernation failure and illegal-origin concern; this entry adds explicit Department oversight language and parent-facing regulatory controversy.
+  - Notes: The regulatory framing comes from a hostile article, though Hagrid's quoted "having some fun" response supports that the Skrewt project was real.
+
+#### Section: Substitute Instruction and Unicorn Handling
+
+Summary: The available evidence includes 1 source item, led by: Hagrid's temporary replacement conducts a more conventional Care of Magical Creatures lesson around a tethered unicorn, including handling guidance and gendered approach rules.
+
+- **Supporting evidence:** Hagrid's temporary replacement conducts a more conventional Care of Magical Creatures lesson around a tethered unicorn, including handling guidance and gendered approach rules.
+  - Quote: "temporary Care of Magical Creatures teacher"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1312, `gof-ch24-001`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The lesson is observed during an unusual staff absence and may not represent the whole course.
+
 ### Chapter: Care of Magical Creatures and Practical Handling
 
 #### Section: Blast-Ended Skrewt growth and handling risks
@@ -2513,6 +2552,32 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore disti
   - Classification: later_editorial_note | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The statement is made in an emergency and does not cite the formal legal instrument limiting the headmaster's authority.
+
+### Chapter: Headmaster Authority and Staff Appointments
+
+#### Section: Parent Pressure, Complaints, and Staff Continuity
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's handling of Hagrid's attempted resignation shows headmaster discretion over staff continuity, parent feedback, and the expectation that a teacher return to public school life.
+
+- **Corroboration:** Dumbledore's handling of Hagrid's attempted resignation shows headmaster discretion over staff continuity, parent feedback, and the expectation that a teacher return to public school life.
+  - Quote: "I refuse to accept your resignation"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1327, `gof-ch24-007`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `cos-ch12-006`, `cos-ch14-006`, `gof-ch23-006`. cos-ch12-006 and cos-ch14-006 record public and governor pressure on headmaster authority, and gof-ch23-006 records Hagrid's Dumbledore-backed staff history; this entry adds parent letters, routine complaint owls, and refusal of resignation.
+  - Notes: The parent letters are summarized by Dumbledore and not individually preserved in the chapter.
+
+#### Section: Public Scrutiny of Hagrid's Dual Role
+
+Summary: The available evidence includes 1 source item, led by: The Daily Prophet article is biased, but it preserves public-facing evidence that Dumbledore retained Hagrid after expulsion and later added Care of Magical Creatures duties to his gamekeeping role.
+
+- **Corroboration:** The Daily Prophet article is biased, but it preserves public-facing evidence that Dumbledore retained Hagrid after expulsion and later added Care of Magical Creatures duties to his gamekeeping role.
+  - Quote: "controversial staff appointments"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1313, `gof-ch24-002`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ps-ch04-007`, `cos-ch07-005`, `poa-ch05-007`. ps-ch04-007 and cos-ch07-005 record Hagrid's expulsion and gamekeeper retention, and poa-ch05-007 records his formal Care of Magical Creatures appointment; this entry adds public press framing and parent-facing controversy.
+  - Notes: The article is sensational and includes demonstrably misleading student testimony, so factual use should be limited to claims corroborated elsewhere or to public-reaction evidence.
 
 ### Chapter: Headmaster, Ministry, and Crisis Authority
 
@@ -3374,6 +3439,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter maps
   - Reference type: magical_architecture
   - Corroborates: `cos-ch09-006`. Chapter Nine records the Chamber legend and failed searches; this entry confirms a real hidden route, deep underground location, serpent controls, and why searches may have missed it.
   - Notes: Ron's "under the lake" statement is an uncertain inference, and the central Chamber room is not entered until the next chapter.
+
+### Chapter: Access Control, Visitors, and Information Security
+
+#### Section: Press Exclusion and Unexplained Information Leaks
+
+Summary: The available evidence includes 1 source item, led by: The conversation implies headmaster-level control over press access to Hogwarts and raises the security problem of a banned reporter obtaining information from school grounds.
+
+- **Supporting evidence:** The conversation implies headmaster-level control over press access to Hogwarts and raises the security problem of a banned reporter obtaining information from school grounds.
+  - Quote: "Dumbledore banned her"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1317, `gof-ch24-004`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The ban is reported by students recalling Hagrid's statement, not quoted directly from Dumbledore or a formal notice.
 
 ### Chapter: Anti-Dementor Defenses
 
@@ -5776,6 +5854,18 @@ Summary: The available evidence includes 1 source item, led by: Student conflict
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-007`, `gof-ch15-005`, `gof-ch17-002`. gof-ch12-007 records the Tournament revival and Ministry role, gof-ch15-005 records formal delegation welcome, and gof-ch17-002 records fairness disputes; this entry adds explicit social-diplomatic purpose and student suspicion during the ball.
   - Notes: Hermione and Percy articulate the cooperation purpose informally; the passage does not quote the tournament charter.
+
+#### Section: Judge Conduct and Second-Task Clue Fairness
+
+Summary: The available evidence includes 1 source item, led by: Bagman's private offer shows a judge attempting to influence second-task preparation, while Harry and Hermione articulate the expected rule that champions solve clues alone.
+
+- **Corroboration:** Bagman's private offer shows a judge attempting to influence second-task preparation, while Harry and Hermione articulate the expected rule that champions solve clues alone.
+  - Quote: "one of the judges"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, PDF p. 1321, `gof-ch24-006`, `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch20-002`, `gof-ch20-007`, `gof-ch21-001`, `gof-ch22-006`. gof-ch20-002 records traditional task cheating, gof-ch20-007 records egg clue distribution, gof-ch21-001 records the private-clue rule, and gof-ch22-006 records schedule pressure; this entry adds a judge's direct offer of unequal assistance.
+  - Notes: The rule is stated through Harry's and Hermione's interpretation rather than a quoted official rulebook.
 
 #### Section: Yule Ball Eligibility, Dress, and Conduct
 
