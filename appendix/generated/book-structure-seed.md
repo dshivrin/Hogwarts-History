@@ -100,7 +100,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
   - Private Stores, Dungeon Lessons, and Antidotes
-  - Private Stores, Veritaserum, and Ministry Controls
 - Potions, Practical Testing, and Discipline
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
@@ -123,6 +122,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Bathrooms, Prefect Privileges, and Protected Facilities
   - Prefects' Bathroom Interior and Access Controls
   - Prefects' Bathroom Location and Tournament Clue Use
+- Communication, Owl Post, and Student Movement
+  - Weather-Delayed Owl Post and Hogsmeade Rendezvous
 - House Common Rooms and Dormitories
   - Passworded Portrait Access
 - Kitchens, Food Service, and Hidden Labor
@@ -200,7 +201,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Cooperation, Rivalry, and Foreign Student Contact
   - Golden-Egg Clue and Lake Task Preparation
   - Judge Conduct and Second-Task Clue Fairness
-  - Second-Task Hostage Preparation and Safeguards
+  - Second-Task Hostage Preparation
   - Second-Task Lakeside Staging and Time Limit
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
@@ -232,6 +233,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Nearly Headless Nick and Ghost Society
   - Peeves the Poltergeist
   - Wayfinding and Disruption
+
+## Grounds, Lake, and Village Approaches
+
+- Hogsmeade Routes and Outlying Terrain
+  - Mountain Cave Beyond the Village Edge
 
 ## Hogwarts Curriculum and Instruction
 
@@ -356,7 +362,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dragon Assignment and First-Task Order
   - Dragon Breeds, Keepers, and Containment
 - The Triwizard Year and Public Records
-  - Crouch Absence and Bertha Jorkins Reports
   - Press access and distorted champion coverage
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
@@ -430,8 +435,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Biographical Sources and Public Reputation
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
-- First Wizarding War Governance and Aftermath
-  - Barty Crouch, Auror Powers, and Azkaban Without Trial
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
 - The First Known Chamber Opening
@@ -473,7 +476,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Access Control, Visitors, and Information Security
   - Press Exclusion and Unexplained Information Leaks
-  - Press Leaks and Banned Love Potions
 - Anti-Dementor Defenses
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
@@ -527,6 +529,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's Eye and Anti-Concealment Detection
   - Moody, the Map, and Tournament Surveillance
 - Staff Offices, Stores, and Restricted Access
+  - Private Stores and Controlled Truth Potions
   - Snape's Office Sealing Spell and Private Cupboard
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
@@ -662,6 +665,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Transport and Secrecy
   - Floo Network Regulation and Muggle Fireplaces
 
+## Rules, Discipline, and Student Conduct
+
+- Restricted Magic and Banned Items
+  - Love-Potion Ban and Press-Fueled Accusations
+
 ## School Governance and Rules
 
 - Start-of-Term Notices
@@ -671,11 +679,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Staff Biographies and Institutional Memory
   - Hagrid, Giant Ancestry, and Dumbledore's Patronage
-
-## Staff, Students, and School Memory
-
-- Former Students, Later Staff, and Dark Arts Associations
-  - Snape's School-Era Reputation and Teacher-Office Suspicion
 
 ## The Castle and Its Grounds
 
@@ -728,11 +731,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gillyweed, Grindylows, and Underwater Navigation
   - Merpeople Settlement and Second-Task Cooperation
 
-## The Grounds, Lake, and Neighboring Settlement
-
-- Hogsmeade, Roads, and Mountain Approaches
-  - Village Edge, Stile, and Fugitive Cave
-
 ## The Library, Books, and Scholarship
 
 - Library Collections and Restricted Books
@@ -771,5 +769,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Harry Potter and the End of the First Wizarding War
   - Killing Curse survival and Potter-family testimony
+- Ministry Wartime Powers and Postwar Memory
+  - Barty Crouch's Law-Enforcement Record
 - The First Wizarding War in Later Hogwarts Teaching
+  - Former Death Eater Associations During the Triwizard Year
   - Imperius Curse culpability and postwar denials

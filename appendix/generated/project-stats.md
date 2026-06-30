@@ -19,26 +19,26 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 272
-- later_editorial_note: 213
+- harry_era_confirmation: 273
+- later_editorial_note: 211
 - original_book_core_candidate: 6
 - post_1984_excluded_from_original: 2
-- pre_1984_historical_candidate: 46
+- pre_1984_historical_candidate: 47
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 40
+- cross_reference_candidate: 41
 - curriculum_or_subject: 77
-- direct_observed_setting: 31
+- direct_observed_setting: 32
 - explicit_hogwarts_a_history: 5
-- explicit_in_universe_source: 45
-- historical_claim: 52
+- explicit_in_universe_source: 43
+- historical_claim: 51
 - house_system: 10
 - institutional_custom: 104
 - magical_architecture: 41
 - portrait_or_ghost_lore: 8
-- school_rule_or_policy: 65
-- security_or_protection: 61
+- school_rule_or_policy: 67
+- security_or_protection: 60
 
 ## Explicit `Hogwarts: A History` References
 
@@ -46,7 +46,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 405
+- Total: 404
 
 ## Latest Processed Unit
 
