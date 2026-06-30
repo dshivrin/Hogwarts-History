@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-30'
+updated: '2026-07-01'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -8244,6 +8244,117 @@ by_entry:
     - voldemort
     source_unit: gof-ch30
     output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch31-001:
+    title: 'Tournament-Year Academic Adjustments: Champion exam exemptions and final-task
+      practice'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - exam-exemption
+    - four-point-spell
+    - spell-practice
+    - third-task
+    - transfiguration-classroom
+    - triwizard-tournament
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch31-002:
+    title: 'Castle-Wide Magical Environment: Muggle technology failure around Hogwarts'
+    classification: original_book_core_candidate
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - hogwarts-a-history
+    - magical-saturation
+    - muggle-technology
+    - rita-skeeter
+    - school-protections
+    - walkie-talkie
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch31-003:
+    title: 'Access Control, Visitors, and Information Security: Press leaks and hidden
+      surveillance'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - animagus
+    - daily-prophet
+    - information-security
+    - north-tower
+    - press-access
+    - rita-skeeter
+    - triwizard-tournament
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch31-004:
+    title: 'Alumni Memory and Grounds Chronology: Portraits, caretakers, gamekeepers,
+      and the Whomping Willow'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - alumni
+    - apollyon-pringle
+    - fat-lady
+    - gamekeeper-ogg
+    - judges
+    - portraits
+    - triwizard-tournament
+    - whomping-willow
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch31-005:
+    title: 'The Triwizard Year and Institutional Procedure: Third-task staging and
+      rescue protocol'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - maze
+    - quidditch-field
+    - red-sparks
+    - sonorus
+    - third-task
+    - tournament-rules
+    - triwizard-tournament
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch31-006:
+    title: 'The Triwizard Year and Institutional Procedure: Maze obstacles and magical
+      hazard design'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - blast-ended-skrewt
+    - boggart
+    - four-point-spell
+    - magical-creatures
+    - maze-obstacles
+    - sphinx
+    - triwizard-tournament
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch31-007:
+    title: 'The Triwizard Year and Institutional Procedure: Triwizard Cup and Portkey
+      breach'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - cedric-diggory
+    - hogwarts-victory
+    - magical-transportation
+    - portkey
+    - third-task
+    - tournament-security
+    - triwizard-cup
+    source_unit: gof-ch31
+    output_yaml: sources/book-04/chapter-31-the-third-task.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8313,6 +8424,7 @@ by_tag:
   alumni:
   - cos-ch04-003
   - gof-ch05-001
+  - gof-ch31-004
   ancient-creature:
   - cos-ch15-007
   ancient-magic:
@@ -8330,6 +8442,7 @@ by_tag:
   - poa-ch19-007
   animagus:
   - gof-ch27-006
+  - gof-ch31-003
   - poa-ch20-003
   animal-transformation:
   - cos-ch12-004
@@ -8352,6 +8465,8 @@ by_tag:
   antidotes:
   - gof-ch18-004
   - gof-ch22-005
+  apollyon-pringle:
+  - gof-ch31-004
   apparition:
   - gof-ch06-001
   - gof-ch09-004
@@ -8497,6 +8612,8 @@ by_tag:
   - gof-ch26-005
   - gof-ch26-006
   - gof-ch26-007
+  blast-ended-skrewt:
+  - gof-ch31-006
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
@@ -8522,6 +8639,7 @@ by_tag:
   - ps-ch06-007
   - ps-ch17-006
   boggart:
+  - gof-ch31-006
   - poa-ch07-006
   boggarts:
   - poa-ch07-007
@@ -8690,6 +8808,7 @@ by_tag:
   - gof-ch16-007
   - gof-ch18-002
   - gof-ch25-003
+  - gof-ch31-007
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -8988,6 +9107,7 @@ by_tag:
   - gof-ch18-005
   - gof-ch21-004
   - gof-ch24-002
+  - gof-ch31-003
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -9052,6 +9172,7 @@ by_tag:
   - gof-ch19-003
   - gof-ch20-003
   - gof-ch29-003
+  - gof-ch31-001
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -9404,6 +9525,8 @@ by_tag:
   - gof-ch09-002
   evidence:
   - poa-ch21-001
+  exam-exemption:
+  - gof-ch31-001
   exams:
   - cos-ch04-003
   - cos-ch04-004
@@ -9457,6 +9580,7 @@ by_tag:
   - gof-ch17-007
   - gof-ch19-007
   - gof-ch22-007
+  - gof-ch31-004
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -9640,6 +9764,9 @@ by_tag:
   - cos-ch09-003
   - gof-ch12-002
   - ps-ch03-001
+  four-point-spell:
+  - gof-ch31-001
+  - gof-ch31-006
   fourth-champion:
   - gof-ch17-001
   fourth-school:
@@ -9675,6 +9802,8 @@ by_tag:
   - poa-ch05-007
   - ps-ch04-007
   - ps-ch16-003
+  gamekeeper-ogg:
+  - gof-ch31-004
   gamekeepers-hut:
   - ps-ch14-004
   gamekeeping:
@@ -10190,6 +10319,7 @@ by_tag:
   - gof-ch11-005
   - gof-ch15-003
   - gof-ch28-003
+  - gof-ch31-002
   - poa-ch09-001
   hogwarts-alumni:
   - poa-ch10-006
@@ -10272,6 +10402,8 @@ by_tag:
   - ps-ch05-001
   hogwarts-staff:
   - ps-ch04-001
+  hogwarts-victory:
+  - gof-ch31-007
   holiday-conduct:
   - cos-ch01-005
   - cos-ch02-005
@@ -10489,6 +10621,7 @@ by_tag:
   - gof-ch01-003
   - gof-ch07-005
   - gof-ch24-004
+  - gof-ch31-003
   institutional-custom:
   - ps-ch07-002
   institutional-secrecy:
@@ -10564,6 +10697,7 @@ by_tag:
   - gof-ch23-002
   - gof-ch24-006
   - gof-ch26-005
+  - gof-ch31-004
   judging:
   - gof-ch26-007
   justin-finch-fletchley:
@@ -10807,6 +10941,7 @@ by_tag:
   - gof-ch20-001
   - gof-ch26-006
   - gof-ch28-002
+  - gof-ch31-006
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -10869,6 +11004,7 @@ by_tag:
   - poa-ch21-003
   magical-saturation:
   - gof-ch28-003
+  - gof-ch31-002
   magical-secrecy:
   - gof-ch08-001
   magical-security:
@@ -10908,6 +11044,7 @@ by_tag:
   - gof-ch10-002
   - gof-ch15-006
   - gof-ch15-007
+  - gof-ch31-007
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
@@ -10962,6 +11099,9 @@ by_tag:
   - ps-ch11-004
   maze:
   - gof-ch28-004
+  - gof-ch31-005
+  maze-obstacles:
+  - gof-ch31-006
   mcgonagall:
   - poa-ch11-007
   - ps-ch09-003
@@ -11185,6 +11325,7 @@ by_tag:
   - poa-ch22-006
   muggle-technology:
   - gof-ch28-003
+  - gof-ch31-002
   muggle-witnesses:
   - ps-ch02-004
   music:
@@ -11248,6 +11389,7 @@ by_tag:
   north-tower:
   - gof-ch13-004
   - gof-ch29-005
+  - gof-ch31-003
   - poa-ch06-002
   norwegian-ridgeback:
   - ps-ch14-004
@@ -11478,6 +11620,8 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch12-004
+  portkey:
+  - gof-ch31-007
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -11497,6 +11641,7 @@ by_tag:
   portraits:
   - gof-ch17-007
   - gof-ch22-007
+  - gof-ch31-004
   - poa-ch06-002
   - poa-ch08-004
   - poa-ch08-007
@@ -11573,6 +11718,7 @@ by_tag:
   - gof-ch25-002
   press-access:
   - gof-ch24-004
+  - gof-ch31-003
   prior-incantato:
   - gof-ch09-006
   prior-opening:
@@ -11745,6 +11891,7 @@ by_tag:
   - poa-ch15-007
   quidditch-field:
   - gof-ch28-004
+  - gof-ch31-005
   - poa-ch09-007
   - ps-ch11-001
   quidditch-final:
@@ -11813,6 +11960,8 @@ by_tag:
   red-caps:
   - poa-ch08-001
   - poa-ch16-004
+  red-sparks:
+  - gof-ch31-005
   refereeing:
   - ps-ch11-005
   - ps-ch13-002
@@ -11858,6 +12007,8 @@ by_tag:
   - gof-ch21-004
   - gof-ch24-004
   - gof-ch27-003
+  - gof-ch31-002
+  - gof-ch31-003
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -11988,6 +12139,7 @@ by_tag:
   school-protections:
   - gof-ch11-005
   - gof-ch28-003
+  - gof-ch31-002
   school-representatives:
   - gof-ch22-002
   school-rivalry:
@@ -12242,6 +12394,8 @@ by_tag:
   - ps-ch13-005
   social-attitudes:
   - gof-ch16-006
+  sonorus:
+  - gof-ch31-005
   sorcerers-stone:
   - ps-ch15-007
   sorting-ceremony:
@@ -12271,6 +12425,8 @@ by_tag:
   - ps-ch11-004
   spell-evidence:
   - gof-ch09-006
+  spell-practice:
+  - gof-ch31-001
   spellbooks:
   - cos-ch01-002
   - cos-ch03-005
@@ -12285,6 +12441,8 @@ by_tag:
   - gof-ch16-006
   - gof-ch19-002
   - gof-ch23-003
+  sphinx:
+  - gof-ch31-006
   spiral-staircase:
   - gof-ch29-006
   - ps-ch14-006
@@ -12643,6 +12801,9 @@ by_tag:
   third-task:
   - gof-ch28-004
   - gof-ch29-004
+  - gof-ch31-001
+  - gof-ch31-005
+  - gof-ch31-007
   third-year-booklist:
   - poa-ch04-003
   third-year-curriculum:
@@ -12703,11 +12864,13 @@ by_tag:
   - gof-ch21-001
   - gof-ch24-006
   - gof-ch28-004
+  - gof-ch31-005
   tournament-schedule:
   - gof-ch22-006
   tournament-security:
   - gof-ch17-005
   - gof-ch29-003
+  - gof-ch31-007
   tournament-spectators:
   - gof-ch20-005
   tower-dormitory:
@@ -12724,6 +12887,8 @@ by_tag:
   - ps-ch16-001
   transfiguration-book:
   - cos-ch18-006
+  transfiguration-classroom:
+  - gof-ch31-001
   transfiguration-punishment:
   - gof-ch13-006
   transfigured-chessmen:
@@ -12737,6 +12902,7 @@ by_tag:
   - gof-ch05-002
   triwizard-cup:
   - gof-ch28-004
+  - gof-ch31-007
   triwizard-rules:
   - gof-ch17-001
   triwizard-tournament:
@@ -12780,6 +12946,11 @@ by_tag:
   - gof-ch28-004
   - gof-ch28-005
   - gof-ch29-004
+  - gof-ch31-001
+  - gof-ch31-003
+  - gof-ch31-004
+  - gof-ch31-005
+  - gof-ch31-006
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -12910,6 +13081,8 @@ by_tag:
   - gof-ch16-006
   - gof-ch19-002
   - gof-ch21-007
+  walkie-talkie:
+  - gof-ch31-002
   wand:
   - cos-ch01-002
   - cos-ch03-005
@@ -12978,6 +13151,7 @@ by_tag:
   - poa-ch13-002
   whomping-willow:
   - cos-ch05-003
+  - gof-ch31-004
   - poa-ch09-007
   - poa-ch10-002
   - poa-ch17-001

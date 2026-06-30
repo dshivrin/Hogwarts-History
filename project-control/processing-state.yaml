@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 30
-  chapter_title: Chapter Thirty - The Pensieve
-  page_start: 1434
-  page_end: 1453
-  output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 31
   chapter_title: Chapter Thirty-One - The Third Task
   page_start: 1454
   page_end: 1478
   output_yaml: sources/book-04/chapter-31-the-third-task.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1479
   page_end: 1485
   output_yaml: sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 33
+  chapter_title: Chapter Thirty-Three - The Death Eaters
+  page_start: 1486
+  page_end: 1497
+  output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

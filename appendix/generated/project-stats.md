@@ -8,37 +8,37 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 87
+- Total: 88
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 196
+- Harry Potter and the Goblet of Fire: 203
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 281
-- later_editorial_note: 219
-- original_book_core_candidate: 7
+- harry_era_confirmation: 282
+- later_editorial_note: 223
+- original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
-- pre_1984_historical_candidate: 51
+- pre_1984_historical_candidate: 52
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 42
+- cross_reference_candidate: 43
 - curriculum_or_subject: 81
-- direct_observed_setting: 33
+- direct_observed_setting: 34
 - explicit_hogwarts_a_history: 6
-- explicit_in_universe_source: 44
-- historical_claim: 57
+- explicit_in_universe_source: 45
+- historical_claim: 58
 - house_system: 10
-- institutional_custom: 106
+- institutional_custom: 108
 - magical_architecture: 43
 - portrait_or_ghost_lore: 8
 - school_rule_or_policy: 67
-- security_or_protection: 63
+- security_or_protection: 64
 
 ## Explicit `Hogwarts: A History` References
 
@@ -46,12 +46,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 422
+- Total: 429
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, pages 1434-1453, `sources/book-04/chapter-30-the-pensieve.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, pages 1454-1478, `sources/book-04/chapter-31-the-third-task.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, pages 1454-1478, `sources/book-04/chapter-31-the-third-task.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Thirty-Two - Flesh, Blood, and Bone, pages 1479-1485, `sources/book-04/chapter-32-flesh-blood-and-bone.yaml`

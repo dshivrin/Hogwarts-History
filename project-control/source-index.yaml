@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-06-30'
+updated: '2026-07-01'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1045,3 +1045,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1434-1453.
+- source_unit_id: gof-ch31
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 31
+  chapter_title: Chapter Thirty-One - The Third Task
+  page_start: 1454
+  page_end: 1478
+  output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  processed_at: '2026-07-01'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1454-1478.

@@ -93,3 +93,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch28`: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, pages 1394-1418, 7 entries, 1 explicit references.
 - `gof-ch29`: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, pages 1419-1433, 7 entries, 0 explicit references.
 - `gof-ch30`: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, pages 1434-1453, 7 entries, 0 explicit references.
+- `gof-ch31`: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, pages 1454-1478, 7 entries, 0 explicit references.
