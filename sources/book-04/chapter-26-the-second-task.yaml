@@ -1,0 +1,320 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Six range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty-Five and next Chapter Twenty-Seven anchors and extracted only PDF pages 1348-1371 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Twenty-Six. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch26-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1348
+  printed_page: null
+  extracted_text_lines: 8-28
+  text_anchor:
+    start_phrase: They were supposed to be practicing the opposite of the Summoning Charm
+    end_phrase: landing on top of a large cabinet
+    local_occurrence_note: The chapter opens in Charms, where fourth-year students practice the Banishing Charm on cushions under Flitwick's supervision.
+  nearby_context: Flitwick chooses cushions to reduce injury risk, but Neville's poor aim sends heavier objects and even Flitwick flying across the room.
+  match_terms:
+  - Charms
+  - Banishing Charm
+  - Summoning Charm
+  - Professor Flitwick
+  - cushions
+  - classroom safety
+  quote_excerpt_short: "the opposite of the Summoning Charm"
+  source_note: The lesson identifies fourth-year Charms practice with the Banishing Charm and shows Flitwick adapting the exercise around classroom safety.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - charms
+  - banishing-charm
+  - professor-flitwick
+  - fourth-year
+  - classroom-practice
+  - classroom-safety
+  - spellwork
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Fourth-Year Charms and Banishing Practice
+  reason_for_placement: The scene gives a concrete fourth-year Charms exercise and shows how practical spell instruction is managed in a crowded classroom.
+  relevance_to_hogwarts_a_history: A later school history can use this to document Charms progression beyond first-year levitation and to show the ordinary hazards of practical wandwork.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-002; ps-ch10-001; gof-ch20-004
+    notes: gof-ch15-002 records fourth-year workload, ps-ch10-001 records first-year Flitwick spellwork, and gof-ch20-004 records Summoning Charm practice; this entry adds formal Banishing Charm classroom practice and safety adaptations.
+  confidence: high
+  limitations: The lesson is background to a private conversation and does not give the incantation or full teaching method.
+- id: gof-ch26-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1351
+  printed_page: null
+  extracted_text_lines: 98-107
+  text_anchor:
+    start_phrase: buried himself once more among the dusty volumes
+    end_phrase: spend an hour underwater and live to tell the tale
+    local_occurrence_note: Harry, Ron, and Hermione spend days researching underwater survival in the library, including a Restricted Section permission request and Madam Pince's help.
+  nearby_context: Hermione rejects Muggle Aqua-Lungs under the International Code of Wizarding Secrecy, then the students search during lunches, evenings, and weekends.
+  match_terms:
+  - library
+  - Restricted Section
+  - Madam Pince
+  - underwater survival
+  - student research
+  - International Code of Wizarding Secrecy
+  quote_excerpt_short: "a note of permission to use the Restricted Section"
+  source_note: The chapter shows intensive student research in Hogwarts library, including teacher permission for Restricted Section access and librarian help, while also showing that the holdings do not solve every practical problem.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library
+  - restricted-section
+  - madam-pince
+  - student-research
+  - underwater-survival
+  - international-code-of-wizarding-secrecy
+  - triwizard-tournament
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Tournament Research and Restricted-Section Permission
+  reason_for_placement: The passage extends the library evidence from policy and book access into a sustained failed research project for a school-administered task.
+  relevance_to_hogwarts_a_history: This helps a later edition treat the library as both a central research institution and a limited practical resource for rare magical problems.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch12-004; cos-ch10-001; gof-ch20-001
+    notes: ps-ch12-004 records the collection scale and signed-note rule, cos-ch10-001 records Madam Pince's Restricted Section procedure, and gof-ch20-001 records tournament research in library creature books; this entry adds librarian assistance and failed underwater-survival research.
+  confidence: high
+  limitations: The passage names no successful underwater-survival book and does not show whether the Restricted Section permission was granted.
+- id: gof-ch26-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1352
+  printed_page: null
+  extracted_text_lines: 143-165
+  text_anchor:
+    start_phrase: Hagrid had been continuing her lessons on unicorns
+    end_phrase: Don' go pure white till they're full grown
+    local_occurrence_note: Hagrid continues Grubbly-Plank's unicorn unit and presents two unicorn foals to the class.
+  nearby_context: Hagrid has returned to work, only two Skrewts remain, and he explains unicorn color changes, horn growth, maturity, and relative trust of young foals.
+  match_terms:
+  - Care of Magical Creatures
+  - Hagrid
+  - Grubbly-Plank
+  - unicorn foals
+  - gold
+  - horns
+  quote_excerpt_short: "They turn silver when they're abou' two years old"
+  source_note: Hagrid's returned Care of Magical Creatures class continues the unicorn curriculum and gives direct lifecycle details for unicorn foals, horns, coloration, and maturity.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - hagrid
+  - professor-grubbly-plank
+  - unicorns
+  - creature-lifecycle
+  - forbidden-forest-edge
+  - practical-lessons
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Grounds-Based Teaching
+  candidate_section: Unicorn Foals and Lifecycle Instruction
+  reason_for_placement: The passage corroborates a conventional Care of Magical Creatures unit and adds natural-history content rather than only handling protocol.
+  relevance_to_hogwarts_a_history: A later edition can use this to show that Hagrid's course included ordinary magical-creature biology alongside his riskier experimental lessons.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch24-001
+    notes: gof-ch24-001 records Grubbly-Plank's substitute unicorn lesson and handling rules; this entry adds Hagrid's continuation of the unit, foal handling, and unicorn lifecycle details.
+  confidence: high
+  limitations: Hagrid's wording is informal, and the lesson gives approximate ages rather than a full scholarly taxonomy.
+- id: gof-ch26-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1358
+  printed_page: null
+  extracted_text_lines: 369-395
+  text_anchor:
+    start_phrase: You has to eat this, sir
+    end_phrase: Dobby is supposed to be in the kitchens
+    local_occurrence_note: Dobby wakes Harry in the library, supplies gillyweed, and explains that he learned task details while doing house-elf work around the castle.
+  nearby_context: Dobby says house-elves go all over the castle lighting fires and mopping floors, overheard McGonagall and Moody in the staffroom, and needs to return to the kitchens before he is missed.
+  match_terms:
+  - Dobby
+  - gillyweed
+  - house-elf
+  - kitchens
+  - staffroom
+  - castle duties
+  quote_excerpt_short: "he goes all over the castle"
+  source_note: Dobby's intervention links Hogwarts house-elf labor to castle-wide maintenance, staffroom eavesdropping risk, kitchen duty expectations, and direct influence on a Triwizard task.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - dobby
+  - hogwarts-kitchens
+  - staffroom
+  - castle-maintenance
+  - gillyweed
+  - triwizard-tournament
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Kitchens, Food Service, and Hidden Labor
+  candidate_section: House-Elf Castle Duties and Information Flow
+  reason_for_placement: The passage turns abstract house-elf employment into observed operational evidence about where elves work and what they can overhear.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe invisible labor as a castle-wide system with security and information consequences, not only kitchen service.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch21-007; gof-ch21-006; gof-ch12-004
+    notes: gof-ch21-007 records Dobby's employment terms, gof-ch21-006 maps the kitchens, and gof-ch12-004 records unseen meal service; this entry adds castle-wide maintenance duties, staffroom access, and the risk of overheard staff planning.
+  confidence: high
+  limitations: Dobby's action is exceptional and covert, so it should not be treated as authorized tournament assistance.
+- id: gof-ch26-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1359
+  printed_page: null
+  extracted_text_lines: 404-448
+  text_anchor:
+    start_phrase: the seats that had encircled the dragons' enclosure
+    end_phrase: stuffed it into his mouth, and waded out into the lake
+    local_occurrence_note: Harry reaches the lakeside second-task venue minutes before Bagman starts the champions.
+  nearby_context: The stands have been moved to the opposite bank, judges sit at a gold-draped table, Percy substitutes for absent Crouch, and Bagman announces the one-hour recovery rule.
+  match_terms:
+  - second task
+  - lake
+  - stands
+  - judges
+  - gold-draped table
+  - one hour
+  quote_excerpt_short: "precisely an hour to recover what has been taken"
+  source_note: The second task repurposes Hogwarts lake as a public tournament arena with spectator stands, a judging table, champion spacing, and a one-hour recovery rule.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - second-task
+  - black-lake
+  - judges
+  - scoring
+  - spectators
+  - tournament-logistics
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Second-Task Lakeside Staging and Time Limit
+  reason_for_placement: The passage gives the official task-day staging, venue reuse, judge presence, and time limit after earlier chapters only prepared or inferred the lake task.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how the revived tournament transformed ordinary school grounds into temporary spectator and judging infrastructure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch20-007; gof-ch25-003
+    notes: gof-ch20-007 records second-task date and clue distribution, while gof-ch25-003 records the solved lake clue; this entry adds the actual lakeside arena, judges' arrangement, and one-hour operating rule.
+  confidence: high
+  limitations: The scene records Harry's arrival and Bagman's announcement but not the prior setup work or safety enchantments.
+- id: gof-ch26-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1361
+  printed_page: null
+  extracted_text_lines: 473-535
+  text_anchor:
+    start_phrase: His head had stopped spinning
+    end_phrase: they always chase me when I get too close
+    local_occurrence_note: Gillyweed lets Harry breathe and swim underwater, then he encounters grindylows before Myrtle points him toward the merpeople.
+  nearby_context: Harry's gills, webbed hands, and flipper-like feet let him cross the lake; he sees weeds, mud, fish, possible larger creatures, and grindylows that can be repelled by Relashio under water.
+  match_terms:
+  - gillyweed
+  - lake
+  - grindylows
+  - Moaning Myrtle
+  - Relashio
+  - underwater
+  quote_excerpt_short: "felt it pass smoothly through his gills"
+  source_note: The chapter records gillyweed's bodily effects and gives direct observed evidence of the lake's underwater terrain, grindylow habitat, and Myrtle's ability to guide someone below the surface.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - black-lake
+  - gillyweed
+  - grindylows
+  - moaning-myrtle
+  - underwater-terrain
+  - magical-creatures
+  - triwizard-tournament
+  candidate_part: The Grounds and Lake
+  candidate_chapter: Lake Ecology, Merpeople, and Dangerous Water Creatures
+  candidate_section: Gillyweed, Grindylows, and Underwater Navigation
+  reason_for_placement: The passage gives the first sustained observed traversal of the lake bottom and connects task magic, creature hazards, and ghostly local knowledge.
+  relevance_to_hogwarts_a_history: A later edition can use this for concrete detail on the lake's ecology and on why Hogwarts grounds contain dangerous non-human residents beyond the Forbidden Forest.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch25-003; poa-ch08-001; poa-ch16-004
+    notes: gof-ch25-003 predicts merpeople in the lake, while poa-ch08-001 and poa-ch16-004 record grindylows as Defense Against the Dark Arts creatures; this entry adds live lake habitat, underwater combat, and Myrtle's directional help.
+  confidence: high
+  limitations: Harry's perception is limited by murky water and task pressure, so creature distribution and lake geography remain approximate.
+- id: gof-ch26-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Six - The Second Task
+  chapter_start_pdf_page: 1348
+  chapter_end_pdf_page: 1371
+  pdf_page: 1363
+  printed_page: null
+  extracted_text_lines: 545-817
+  text_anchor:
+    start_phrase: A cluster of crude stone dwellings stained with algae
+    end_phrase: determination to return all hostages to safety
+    local_occurrence_note: Harry reaches the merpeople settlement, interacts with hostages and merpeople, returns late, and is judged after Dumbledore consults the Merchieftainess.
+  nearby_context: The settlement includes stone dwellings, weed gardens, pet grindylows, a village square, a statue, spear-carrying merpeople, hostage rules, Dumbledore speaking Mermish, and Murcus's official testimony.
+  match_terms:
+  - merpeople
+  - village square
+  - hostages
+  - Merchieftainess
+  - Mermish
+  - moral fiber
+  quote_excerpt_short: "a mer-version of a village square"
+  source_note: The second task supplies direct evidence for an organized merpeople community in the Hogwarts lake and for formal cooperation between that community and tournament judges.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - merpeople
+  - black-lake
+  - mermish
+  - merchieftainess-murcus
+  - hostages
+  - triwizard-tournament
+  - judging
+  candidate_part: The Grounds and Lake
+  candidate_chapter: Lake Ecology, Merpeople, and Dangerous Water Creatures
+  candidate_section: Merpeople Settlement and Second-Task Cooperation
+  reason_for_placement: The passage is the clearest source for the lake's merpeople society and for their negotiated role in a Hogwarts-hosted inter-school event.
+  relevance_to_hogwarts_a_history: A later edition can use this as major evidence that Hogwarts grounds include organized non-human communities whose relationship with the school can become operational and diplomatic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch25-003; gof-ch20-007
+    notes: gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
+  confidence: high
+  limitations: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.

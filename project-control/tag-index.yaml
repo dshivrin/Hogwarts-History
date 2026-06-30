@@ -388,6 +388,11 @@ tags:
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+  banishing-charm:
+    entries:
+    - gof-ch26-001
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   banquet:
     entries:
     - ps-ch10-002
@@ -493,11 +498,15 @@ tags:
     - gof-ch24-005
     - gof-ch25-003
     - gof-ch25-004
+    - gof-ch26-005
+    - gof-ch26-006
+    - gof-ch26-007
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
@@ -707,6 +716,7 @@ tags:
     - gof-ch24-001
     - gof-ch24-002
     - gof-ch24-003
+    - gof-ch26-003
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -734,6 +744,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   career-guidance:
     entries:
     - cos-ch14-002
@@ -803,8 +814,10 @@ tags:
   castle-maintenance:
     entries:
     - gof-ch12-004
+    - gof-ch26-004
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   castle-map:
     entries:
     - gof-ch25-001
@@ -1020,6 +1033,7 @@ tags:
     entries:
     - gof-ch15-002
     - gof-ch20-004
+    - gof-ch26-001
     - poa-ch04-003
     - poa-ch15-003
     - poa-ch16-003
@@ -1035,6 +1049,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   charms-classroom:
     entries:
     - ps-ch09-006
@@ -1125,14 +1140,18 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
   classroom-practice:
     entries:
+    - gof-ch26-001
     - ps-ch10-001
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   classroom-safety:
     entries:
     - cos-ch06-007
+    - gof-ch26-001
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   clothing:
     entries:
     - gof-ch09-003
@@ -1368,6 +1387,11 @@ tags:
     - poa-ch14-003
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+  creature-lifecycle:
+    entries:
+    - gof-ch26-003
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   creature-regulation:
     entries:
     - gof-ch10-004
@@ -1874,11 +1898,13 @@ tags:
     - cos-ch18-006
     - gof-ch08-002
     - gof-ch21-007
+    - gof-ch26-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   dobby-warning:
     entries:
     - cos-ch02-002
@@ -2724,9 +2750,11 @@ tags:
     entries:
     - gof-ch13-003
     - gof-ch24-001
+    - gof-ch26-003
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   forbidden-objects:
     entries:
     - gof-ch12-005
@@ -2815,10 +2843,12 @@ tags:
     - gof-ch10-007
     - gof-ch15-002
     - gof-ch22-001
+    - gof-ch26-001
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   fourth-year-curriculum:
     entries:
     - gof-ch13-001
@@ -2952,6 +2982,12 @@ tags:
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  gillyweed:
+    entries:
+    - gof-ch26-004
+    - gof-ch26-006
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   ginny-weasley:
     entries:
     - cos-ch17-002
@@ -3130,11 +3166,13 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
   grindylows:
     entries:
+    - gof-ch26-006
     - poa-ch08-001
     - poa-ch16-004
     output_yaml:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   gringotts:
     entries:
     - gof-ch05-001
@@ -3333,6 +3371,7 @@ tags:
     - gof-ch24-002
     - gof-ch24-003
     - gof-ch24-007
+    - gof-ch26-003
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -3390,6 +3429,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -3996,11 +4036,13 @@ tags:
     - gof-ch21-002
     - gof-ch21-006
     - gof-ch23-003
+    - gof-ch26-004
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   hogwarts-letters:
     entries:
     - cos-ch01-004
@@ -4205,6 +4247,11 @@ tags:
     - gof-ch17-002
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  hostages:
+    entries:
+    - gof-ch26-007
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   hourglasses:
     entries:
     - ps-ch15-002
@@ -4281,6 +4328,7 @@ tags:
     - gof-ch21-007
     - gof-ch23-001
     - gof-ch23-003
+    - gof-ch26-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -4294,6 +4342,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -4561,6 +4610,11 @@ tags:
     - gof-ch08-005
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  international-code-of-wizarding-secrecy:
+    entries:
+    - gof-ch26-002
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   international-magical-cooperation:
     entries:
     - gof-ch05-003
@@ -4672,6 +4726,7 @@ tags:
     - gof-ch20-007
     - gof-ch23-002
     - gof-ch24-006
+    - gof-ch26-005
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
@@ -4679,6 +4734,12 @@ tags:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
+  judging:
+    entries:
+    - gof-ch26-007
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   justin-finch-fletchley:
     entries:
     - cos-ch11-006
@@ -4825,6 +4886,7 @@ tags:
     - cos-ch11-005
     - cos-ch14-004
     - gof-ch20-001
+    - gof-ch26-002
     - poa-ch11-003
     - poa-ch15-004
     - ps-ch09-001
@@ -4847,6 +4909,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   library-book:
     entries:
     - cos-ch16-003
@@ -5036,9 +5099,11 @@ tags:
     entries:
     - cos-ch10-001
     - cos-ch11-005
+    - gof-ch26-002
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-02/chapter-11-the-dueling-club.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   madam-pomfrey:
     entries:
     - cos-ch10-005
@@ -5151,6 +5216,7 @@ tags:
     - gof-ch09-005
     - gof-ch19-005
     - gof-ch20-001
+    - gof-ch26-006
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
@@ -5161,6 +5227,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -5547,16 +5614,28 @@ tags:
     - gof-ch13-005
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  merchieftainess-murcus:
+    entries:
+    - gof-ch26-007
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   mermaid-portrait:
     entries:
     - gof-ch25-002
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  mermish:
+    entries:
+    - gof-ch26-007
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   merpeople:
     entries:
     - gof-ch25-003
+    - gof-ch26-007
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   minister-of-magic:
     entries:
     - cos-ch04-005
@@ -5711,11 +5790,13 @@ tags:
     - cos-ch15-007
     - cos-ch16-006
     - gof-ch25-004
+    - gof-ch26-006
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   moaning-myrtle-bathroom:
     entries:
     - cos-ch12-004
@@ -6672,12 +6753,14 @@ tags:
     - cos-ch06-004
     - cos-ch06-007
     - gof-ch13-007
+    - gof-ch26-003
     - poa-ch07-004
     - poa-ch07-007
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   practice-schedule:
     entries:
     - poa-ch08-002
@@ -6805,6 +6888,7 @@ tags:
   professor-flitwick:
     entries:
     - gof-ch22-005
+    - gof-ch26-001
     - poa-ch11-007
     - poa-ch12-005
     - poa-ch14-001
@@ -6817,11 +6901,14 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   professor-grubbly-plank:
     entries:
     - gof-ch24-001
+    - gof-ch26-003
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   professor-kettleburn:
     entries:
     - poa-ch05-007
@@ -7271,12 +7358,14 @@ tags:
     entries:
     - cos-ch09-007
     - cos-ch10-001
+    - gof-ch26-002
     - ps-ch12-004
     - ps-ch12-005
     output_yaml:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   riddikulus:
     entries:
     - poa-ch07-007
@@ -7708,10 +7797,12 @@ tags:
   scoring:
     entries:
     - gof-ch20-007
+    - gof-ch26-005
     - ps-ch11-005
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   sealed-entrances:
     entries:
     - poa-ch14-005
@@ -7739,6 +7830,7 @@ tags:
     - gof-ch23-007
     - gof-ch24-006
     - gof-ch25-003
+    - gof-ch26-005
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
@@ -7746,6 +7838,7 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -8193,9 +8286,11 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
   spectators:
     entries:
+    - gof-ch26-005
     - ps-ch11-004
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   spell-evidence:
     entries:
     - gof-ch09-006
@@ -8216,6 +8311,11 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+  spellwork:
+    entries:
+    - gof-ch26-001
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   spew:
     entries:
     - gof-ch14-007
@@ -8381,6 +8481,7 @@ tags:
   staffroom:
     entries:
     - cos-ch16-005
+    - gof-ch26-004
     - poa-ch07-004
     - poa-ch07-006
     - ps-ch08-005
@@ -8388,6 +8489,7 @@ tags:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   stag-patronus:
     entries:
     - poa-ch21-006
@@ -8686,6 +8788,7 @@ tags:
   student-research:
     entries:
     - gof-ch20-001
+    - gof-ch26-002
     - poa-ch11-003
     - ps-ch09-001
     - ps-ch11-002
@@ -8700,6 +8803,7 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   student-residence:
     entries:
     - cos-ch11-001
@@ -9134,6 +9238,11 @@ tags:
     - gof-ch18-006
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  tournament-logistics:
+    entries:
+    - gof-ch26-005
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   tournament-of-1792:
     entries:
     - gof-ch15-003
@@ -9259,6 +9368,11 @@ tags:
     - gof-ch24-005
     - gof-ch24-006
     - gof-ch25-003
+    - gof-ch26-002
+    - gof-ch26-004
+    - gof-ch26-005
+    - gof-ch26-006
+    - gof-ch26-007
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -9274,6 +9388,7 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -9361,6 +9476,16 @@ tags:
     - cos-ch16-007
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  underwater-survival:
+    entries:
+    - gof-ch26-002
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
+  underwater-terrain:
+    entries:
+    - gof-ch26-006
+    output_yaml:
+    - sources/book-04/chapter-26-the-second-task.yaml
   unexplained-deaths:
     entries:
     - gof-ch01-001
@@ -9396,11 +9521,13 @@ tags:
     entries:
     - cos-ch15-003
     - gof-ch24-001
+    - gof-ch26-003
     - ps-ch15-005
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-26-the-second-task.yaml
   uniform:
     entries:
     - ps-ch05-002

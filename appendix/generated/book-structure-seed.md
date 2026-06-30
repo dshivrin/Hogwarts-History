@@ -31,6 +31,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Care of Magical Creatures and Grounds-Based Teaching
   - Experimental Breeding, Safety, and Oversight
   - Substitute Instruction and Unicorn Handling
+  - Unicorn Foals and Lifecycle Instruction
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
   - Skrewt Feeding Work After Handling Risks
@@ -45,6 +46,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
   - End-of-Term Instruction and Historical Topics
+  - Fourth-Year Charms and Banishing Practice
   - Fourth-Year Divination Astrology and Crystal-Gazing
   - Fourth-Year Divination and Arithmancy Contrast
   - Fourth-Year Schedules, Electives, and Morning Owl Post
@@ -125,6 +127,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Kitchens, Food Service, and Hidden Labor
   - Feast Service by Spoken Menu Orders
   - Fruit-Painting Entrance and Informal Student Access
+  - House-Elf Castle Duties and Information Flow
   - Kitchen Layout Beneath the Great Hall
 - Secret Rooms, Moving Routes, and Responsive Castle Spaces
   - The Vanishing Chamber-Pot Room
@@ -196,6 +199,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Cooperation, Rivalry, and Foreign Student Contact
   - Golden-Egg Clue and Lake Task Preparation
   - Judge Conduct and Second-Task Clue Fairness
+  - Second-Task Lakeside Staging and Time Limit
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
 - Visiting Schools and Magical Travel
@@ -707,6 +711,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Slytherin House
   - Serpent Symbolism and Parseltongue Lore
 
+## The Grounds and Lake
+
+- Lake Ecology, Merpeople, and Dangerous Water Creatures
+  - Gillyweed, Grindylows, and Underwater Navigation
+  - Merpeople Settlement and Second-Task Cooperation
+
 ## The Library, Books, and Scholarship
 
 - Library Collections and Restricted Books
@@ -714,6 +724,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Research, Reference Works, and Teacher Permission
   - Restricted Section Permissions and Advanced Potions
   - Subject Sections, Study Space, and Supervision
+  - Tournament Research and Restricted-Section Permission
 - Magical Books, Records, and Unreliable Sources
   - The Riddle Diary as Memory Evidence
 - Magical Sources and Unreliable Records

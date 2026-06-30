@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-Six - The Second Task
-- Page range: 1348-1371
+- Chapter: Chapter Twenty-Seven - Padfoot Returns
+- Page range: 1372-1393
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-26-the-second-task.yaml`
+- Output YAML: `sources/book-04/chapter-27-padfoot-returns.yaml`
 
 ## Minimal Context
 

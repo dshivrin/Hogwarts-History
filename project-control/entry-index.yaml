@@ -7698,6 +7698,118 @@ by_entry:
     - school-security
     source_unit: gof-ch25
     output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch26-001:
+    title: 'Course Structure and Academic Progression: Fourth-Year Charms and Banishing
+      Practice'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - banishing-charm
+    - charms
+    - classroom-practice
+    - classroom-safety
+    - fourth-year
+    - professor-flitwick
+    - spellwork
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch26-002:
+    title: 'Library Collections and Restricted Books: Tournament Research and Restricted-Section
+      Permission'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - international-code-of-wizarding-secrecy
+    - library
+    - madam-pince
+    - restricted-section
+    - student-research
+    - triwizard-tournament
+    - underwater-survival
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch26-003:
+    title: 'Care of Magical Creatures and Grounds-Based Teaching: Unicorn Foals and
+      Lifecycle Instruction'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - creature-lifecycle
+    - forbidden-forest-edge
+    - hagrid
+    - practical-lessons
+    - professor-grubbly-plank
+    - unicorns
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch26-004:
+    title: 'Kitchens, Food Service, and Hidden Labor: House-Elf Castle Duties and
+      Information Flow'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - castle-maintenance
+    - dobby
+    - gillyweed
+    - hogwarts-kitchens
+    - house-elves
+    - staffroom
+    - triwizard-tournament
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch26-005:
+    title: 'The Triwizard Year and Institutional Procedure: Second-Task Lakeside Staging
+      and Time Limit'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - black-lake
+    - judges
+    - scoring
+    - second-task
+    - spectators
+    - tournament-logistics
+    - triwizard-tournament
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch26-006:
+    title: 'Lake Ecology, Merpeople, and Dangerous Water Creatures: Gillyweed, Grindylows,
+      and Underwater Navigation'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - black-lake
+    - gillyweed
+    - grindylows
+    - magical-creatures
+    - moaning-myrtle
+    - triwizard-tournament
+    - underwater-terrain
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch26-007:
+    title: 'Lake Ecology, Merpeople, and Dangerous Water Creatures: Merpeople Settlement
+      and Second-Task Cooperation'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - black-lake
+    - hostages
+    - judging
+    - merchieftainess-murcus
+    - mermish
+    - merpeople
+    - triwizard-tournament
+    source_unit: gof-ch26
+    output_yaml: sources/book-04/chapter-26-the-second-task.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7874,6 +7986,8 @@ by_tag:
   bane:
   - ps-ch15-006
   - ps-ch15-007
+  banishing-charm:
+  - gof-ch26-001
   banquet:
   - ps-ch10-002
   barn-owl:
@@ -7926,6 +8040,9 @@ by_tag:
   - gof-ch24-005
   - gof-ch25-003
   - gof-ch25-004
+  - gof-ch26-005
+  - gof-ch26-006
+  - gof-ch26-007
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
@@ -8021,6 +8138,7 @@ by_tag:
   - gof-ch24-001
   - gof-ch24-002
   - gof-ch24-003
+  - gof-ch26-003
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -8062,6 +8180,7 @@ by_tag:
   - ps-ch12-006
   castle-maintenance:
   - gof-ch12-004
+  - gof-ch26-004
   castle-map:
   - gof-ch25-001
   - poa-ch10-003
@@ -8170,6 +8289,7 @@ by_tag:
   charms:
   - gof-ch15-002
   - gof-ch20-004
+  - gof-ch26-001
   - poa-ch04-003
   - poa-ch15-003
   - poa-ch16-003
@@ -8214,9 +8334,11 @@ by_tag:
   classroom-instruction:
   - cos-ch09-002
   classroom-practice:
+  - gof-ch26-001
   - ps-ch10-001
   classroom-safety:
   - cos-ch06-007
+  - gof-ch26-001
   clothing:
   - gof-ch09-003
   clue:
@@ -8318,6 +8440,8 @@ by_tag:
   - poa-ch06-006
   creature-law:
   - poa-ch14-003
+  creature-lifecycle:
+  - gof-ch26-003
   creature-regulation:
   - gof-ch10-004
   crisis-governance:
@@ -8563,6 +8687,7 @@ by_tag:
   - cos-ch18-006
   - gof-ch08-002
   - gof-ch21-007
+  - gof-ch26-004
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
@@ -8963,6 +9088,7 @@ by_tag:
   forbidden-forest-edge:
   - gof-ch13-003
   - gof-ch24-001
+  - gof-ch26-003
   forbidden-objects:
   - gof-ch12-005
   foreign-schools:
@@ -9002,6 +9128,7 @@ by_tag:
   - gof-ch10-007
   - gof-ch15-002
   - gof-ch22-001
+  - gof-ch26-001
   fourth-year-curriculum:
   - gof-ch13-001
   - gof-ch14-006
@@ -9060,6 +9187,9 @@ by_tag:
   - cos-ch04-006
   - cos-ch06-006
   - cos-ch06-007
+  gillyweed:
+  - gof-ch26-004
+  - gof-ch26-006
   ginny-weasley:
   - cos-ch17-002
   - cos-ch18-002
@@ -9148,6 +9278,7 @@ by_tag:
   grindelwald:
   - ps-ch06-003
   grindylows:
+  - gof-ch26-006
   - poa-ch08-001
   - poa-ch16-004
   gringotts:
@@ -9254,6 +9385,7 @@ by_tag:
   - gof-ch24-002
   - gof-ch24-003
   - gof-ch24-007
+  - gof-ch26-003
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -9568,6 +9700,7 @@ by_tag:
   - gof-ch21-002
   - gof-ch21-006
   - gof-ch23-003
+  - gof-ch26-004
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -9662,6 +9795,8 @@ by_tag:
   - ps-ch17-004
   host-school:
   - gof-ch17-002
+  hostages:
+  - gof-ch26-007
   hourglasses:
   - ps-ch15-002
   house-assignment:
@@ -9703,6 +9838,7 @@ by_tag:
   - gof-ch21-007
   - gof-ch23-001
   - gof-ch23-003
+  - gof-ch26-004
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -9824,6 +9960,8 @@ by_tag:
   - ps-ch17-002
   international-association-of-quidditch:
   - gof-ch08-005
+  international-code-of-wizarding-secrecy:
+  - gof-ch26-002
   international-magical-cooperation:
   - gof-ch05-003
   - gof-ch12-007
@@ -9877,6 +10015,9 @@ by_tag:
   - gof-ch20-007
   - gof-ch23-002
   - gof-ch24-006
+  - gof-ch26-005
+  judging:
+  - gof-ch26-007
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -9943,6 +10084,7 @@ by_tag:
   - cos-ch11-005
   - cos-ch14-004
   - gof-ch20-001
+  - gof-ch26-002
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -10044,6 +10186,7 @@ by_tag:
   madam-pince:
   - cos-ch10-001
   - cos-ch11-005
+  - gof-ch26-002
   madam-pomfrey:
   - cos-ch10-005
   - cos-ch13-001
@@ -10097,6 +10240,7 @@ by_tag:
   - gof-ch09-005
   - gof-ch19-005
   - gof-ch20-001
+  - gof-ch26-006
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -10270,10 +10414,15 @@ by_tag:
   - cos-ch13-004
   memory-modification:
   - gof-ch13-005
+  merchieftainess-murcus:
+  - gof-ch26-007
   mermaid-portrait:
   - gof-ch25-002
+  mermish:
+  - gof-ch26-007
   merpeople:
   - gof-ch25-003
+  - gof-ch26-007
   minister-of-magic:
   - cos-ch04-005
   - poa-ch03-005
@@ -10349,6 +10498,7 @@ by_tag:
   - cos-ch15-007
   - cos-ch16-006
   - gof-ch25-004
+  - gof-ch26-006
   moaning-myrtle-bathroom:
   - cos-ch12-004
   monster-book-of-monsters:
@@ -10777,6 +10927,7 @@ by_tag:
   - cos-ch06-004
   - cos-ch06-007
   - gof-ch13-007
+  - gof-ch26-003
   - poa-ch07-004
   - poa-ch07-007
   practice-schedule:
@@ -10838,6 +10989,7 @@ by_tag:
   - gof-ch25-004
   professor-flitwick:
   - gof-ch22-005
+  - gof-ch26-001
   - poa-ch11-007
   - poa-ch12-005
   - poa-ch14-001
@@ -10845,6 +10997,7 @@ by_tag:
   - ps-ch16-006
   professor-grubbly-plank:
   - gof-ch24-001
+  - gof-ch26-003
   professor-kettleburn:
   - poa-ch05-007
   professor-lupin:
@@ -11060,6 +11213,7 @@ by_tag:
   restricted-section:
   - cos-ch09-007
   - cos-ch10-001
+  - gof-ch26-002
   - ps-ch12-004
   - ps-ch12-005
   riddikulus:
@@ -11253,6 +11407,7 @@ by_tag:
   - ps-ch04-004
   scoring:
   - gof-ch20-007
+  - gof-ch26-005
   - ps-ch11-005
   sealed-entrances:
   - poa-ch14-005
@@ -11269,6 +11424,7 @@ by_tag:
   - gof-ch23-007
   - gof-ch24-006
   - gof-ch25-003
+  - gof-ch26-005
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -11472,6 +11628,7 @@ by_tag:
   spectator-stands:
   - ps-ch11-006
   spectators:
+  - gof-ch26-005
   - ps-ch11-004
   spell-evidence:
   - gof-ch09-006
@@ -11482,6 +11639,8 @@ by_tag:
   - gof-ch04-001
   - gof-ch20-001
   - poa-ch01-002
+  spellwork:
+  - gof-ch26-001
   spew:
   - gof-ch14-007
   - gof-ch16-006
@@ -11551,6 +11710,7 @@ by_tag:
   - poa-ch05-003
   staffroom:
   - cos-ch16-005
+  - gof-ch26-004
   - poa-ch07-004
   - poa-ch07-006
   - ps-ch08-005
@@ -11681,6 +11841,7 @@ by_tag:
   - ps-ch04-006
   student-research:
   - gof-ch20-001
+  - gof-ch26-002
   - poa-ch11-003
   - ps-ch09-001
   - ps-ch11-002
@@ -11877,6 +12038,8 @@ by_tag:
   - gof-ch06-003
   tournament-ceremony:
   - gof-ch18-006
+  tournament-logistics:
+  - gof-ch26-005
   tournament-of-1792:
   - gof-ch15-003
   tournament-rules:
@@ -11948,6 +12111,11 @@ by_tag:
   - gof-ch24-005
   - gof-ch24-006
   - gof-ch25-003
+  - gof-ch26-002
+  - gof-ch26-004
+  - gof-ch26-005
+  - gof-ch26-006
+  - gof-ch26-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -11986,6 +12154,10 @@ by_tag:
   - ps-ch06-007
   underground-tunnels:
   - cos-ch16-007
+  underwater-survival:
+  - gof-ch26-002
+  underwater-terrain:
+  - gof-ch26-006
   unexplained-deaths:
   - gof-ch01-001
   unfogging-the-future:
@@ -12002,6 +12174,7 @@ by_tag:
   unicorns:
   - cos-ch15-003
   - gof-ch24-001
+  - gof-ch26-003
   - ps-ch15-005
   uniform:
   - ps-ch05-002

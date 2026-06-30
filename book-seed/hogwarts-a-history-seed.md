@@ -1619,6 +1619,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter cont
   - Corroborates: `cos-ch09-002`, `ps-ch08-005`, `gof-ch15-002`. cos-ch09-002 and ps-ch08-005 already establish Binns as History of Magic's ghost teacher, and gof-ch15-002 records fourth-year workload; this entry adds goblin rebellions as the current topic and term-end variation across teachers.
   - Notes: The passage summarizes several classes briefly and does not describe the content of the goblin rebellions lesson.
 
+#### Section: Fourth-Year Charms and Banishing Practice
+
+Summary: The available evidence includes 1 source item, led by: The lesson identifies fourth-year Charms practice with the Banishing Charm and shows Flitwick adapting the exercise around classroom safety.
+
+- **Corroboration:** The lesson identifies fourth-year Charms practice with the Banishing Charm and shows Flitwick adapting the exercise around classroom safety.
+  - Quote: "the opposite of the Summoning Charm"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1348, `gof-ch26-001`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch15-002`, `ps-ch10-001`, `gof-ch20-004`. gof-ch15-002 records fourth-year workload, ps-ch10-001 records first-year Flitwick spellwork, and gof-ch20-004 records Summoning Charm practice; this entry adds formal Banishing Charm classroom practice and safety adaptations.
+  - Notes: The lesson is background to a private conversation and does not give the incantation or full teaching method.
+
 #### Section: Fourth-Year Divination Astrology and Crystal-Gazing
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates fourth-year Divination as a mix of astrology, crystal-gazing, death prediction, and inconsistent homework pressure compared with Arithmancy.
@@ -1853,6 +1865,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's tempora
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The lesson is observed during an unusual staff absence and may not represent the whole course.
+
+#### Section: Unicorn Foals and Lifecycle Instruction
+
+Summary: The available evidence includes 1 source item, led by: Hagrid's returned Care of Magical Creatures class continues the unicorn curriculum and gives direct lifecycle details for unicorn foals, horns, coloration, and maturity.
+
+- **Corroboration:** Hagrid's returned Care of Magical Creatures class continues the unicorn curriculum and gives direct lifecycle details for unicorn foals, horns, coloration, and maturity.
+  - Quote: "They turn silver when they're abou' two years old"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1352, `gof-ch26-003`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch24-001`. gof-ch24-001 records Grubbly-Plank's substitute unicorn lesson and handling rules; this entry adds Hagrid's continuation of the unit, foal handling, and unicorn lifecycle details.
+  - Notes: Hagrid's wording is informal, and the lesson gives approximate ages rather than a full scholarly taxonomy.
 
 ### Chapter: Care of Magical Creatures and Practical Handling
 
@@ -4335,6 +4359,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter adds
   - Corroborates: `ps-ch12-004`. Chapter Twelve of Book 1 already records library scale and student research; this entry adds a named Invisibility section, back-shelf congregation, and Madam Pince's supervision.
   - Notes: The named section is observed only once here, so later evidence should confirm whether it is a formal catalog section.
 
+#### Section: Tournament Research and Restricted-Section Permission
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows intensive student research in Hogwarts library, including teacher permission for Restricted Section access and librarian help, while also showing that the holdings do not solve every practical problem.
+
+- **Corroboration:** The chapter shows intensive student research in Hogwarts library, including teacher permission for Restricted Section access and librarian help, while also showing that the holdings do not solve every practical problem.
+  - Quote: "a note of permission to use the Restricted Section"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1351, `gof-ch26-002`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ps-ch12-004`, `cos-ch10-001`, `gof-ch20-001`. ps-ch12-004 records the collection scale and signed-note rule, cos-ch10-001 records Madam Pince's Restricted Section procedure, and gof-ch20-001 records tournament research in library creature books; this entry adds librarian assistance and failed underwater-survival research.
+  - Notes: The passage names no successful underwater-survival book and does not show whether the Restricted Section permission was granted.
+
 ### Chapter: Named In-Universe Sources
 
 #### Section: Bathilda Bagshot's A History of Magic
@@ -5781,6 +5817,18 @@ Summary: The available evidence includes 1 source item, led by: Fred identifies 
   - Corroborates: `gof-ch19-002`, `gof-ch12-004`. gof-ch19-002 records Hermione seeking kitchen access, and gof-ch12-004 records the house-elf workforce; this entry supplies the exact fruit-painting entrance and casual student food access.
   - Notes: Fred and George's access appears informal and may not represent official student permission.
 
+#### Section: House-Elf Castle Duties and Information Flow
+
+Summary: The available evidence includes 1 source item, led by: Dobby's intervention links Hogwarts house-elf labor to castle-wide maintenance, staffroom eavesdropping risk, kitchen duty expectations, and direct influence on a Triwizard task.
+
+- **Corroboration:** Dobby's intervention links Hogwarts house-elf labor to castle-wide maintenance, staffroom eavesdropping risk, kitchen duty expectations, and direct influence on a Triwizard task.
+  - Quote: "he goes all over the castle"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1358, `gof-ch26-004`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch21-007`, `gof-ch21-006`, `gof-ch12-004`. gof-ch21-007 records Dobby's employment terms, gof-ch21-006 maps the kitchens, and gof-ch12-004 records unseen meal service; this entry adds castle-wide maintenance duties, staffroom access, and the risk of overheard staff planning.
+  - Notes: Dobby's action is exceptional and covert, so it should not be treated as authorized tournament assistance.
+
 #### Section: Kitchen Layout Beneath the Great Hall
 
 Summary: The available evidence includes 1 source item, led by: Harry directly observes the Hogwarts kitchens: a huge room below the Great Hall, with four tables aligned to the House tables above and at least a hundred uniformed elves.
@@ -5940,6 +5988,18 @@ Summary: The available evidence includes 1 source item, led by: Bagman's private
   - Reference type: school_rule_or_policy
   - Corroborates: `gof-ch20-002`, `gof-ch20-007`, `gof-ch21-001`, `gof-ch22-006`. gof-ch20-002 records traditional task cheating, gof-ch20-007 records egg clue distribution, gof-ch21-001 records the private-clue rule, and gof-ch22-006 records schedule pressure; this entry adds a judge's direct offer of unequal assistance.
   - Notes: The rule is stated through Harry's and Hermione's interpretation rather than a quoted official rulebook.
+
+#### Section: Second-Task Lakeside Staging and Time Limit
+
+Summary: The available evidence includes 1 source item, led by: The second task repurposes Hogwarts lake as a public tournament arena with spectator stands, a judging table, champion spacing, and a one-hour recovery rule.
+
+- **Corroboration:** The second task repurposes Hogwarts lake as a public tournament arena with spectator stands, a judging table, champion spacing, and a one-hour recovery rule.
+  - Quote: "precisely an hour to recover what has been taken"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1359, `gof-ch26-005`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch20-007`, `gof-ch25-003`. gof-ch20-007 records second-task date and clue distribution, while gof-ch25-003 records the solved lake clue; this entry adds the actual lakeside arena, judges' arrangement, and one-hour operating rule.
+  - Notes: The scene records Harry's arrival and Bagman's announcement but not the prior setup work or safety enchantments.
 
 #### Section: Yule Ball Eligibility, Dress, and Conduct
 
@@ -6311,6 +6371,34 @@ Summary: The available evidence includes 1 source item, led by: The passage loca
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: magical_architecture
   - Notes: The passage describes Harry's route and the room's condition in one era; it does not establish when the Owlery was built.
+
+## Part: The Grounds and Lake
+
+### Chapter: Lake Ecology, Merpeople, and Dangerous Water Creatures
+
+#### Section: Gillyweed, Grindylows, and Underwater Navigation
+
+Summary: The available evidence includes 1 source item, led by: The chapter records gillyweed's bodily effects and gives direct observed evidence of the lake's underwater terrain, grindylow habitat, and Myrtle's ability to guide someone below the surface.
+
+- **Corroboration:** The chapter records gillyweed's bodily effects and gives direct observed evidence of the lake's underwater terrain, grindylow habitat, and Myrtle's ability to guide someone below the surface.
+  - Quote: "felt it pass smoothly through his gills"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1361, `gof-ch26-006`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch25-003`, `poa-ch08-001`, `poa-ch16-004`. gof-ch25-003 predicts merpeople in the lake, while poa-ch08-001 and poa-ch16-004 record grindylows as Defense Against the Dark Arts creatures; this entry adds live lake habitat, underwater combat, and Myrtle's directional help.
+  - Notes: Harry's perception is limited by murky water and task pressure, so creature distribution and lake geography remain approximate.
+
+#### Section: Merpeople Settlement and Second-Task Cooperation
+
+Summary: The available evidence includes 1 source item, led by: The second task supplies direct evidence for an organized merpeople community in the Hogwarts lake and for formal cooperation between that community and tournament judges.
+
+- **Corroboration:** The second task supplies direct evidence for an organized merpeople community in the Hogwarts lake and for formal cooperation between that community and tournament judges.
+  - Quote: "a mer-version of a village square"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, PDF p. 1363, `gof-ch26-007`, `sources/book-04/chapter-26-the-second-task.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch25-003`, `gof-ch20-007`. gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
+  - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
 
 ## Part: Wars, Crises, and School Memory
 
