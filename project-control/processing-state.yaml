@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 26
-  chapter_title: Chapter Twenty-Six - The Second Task
-  page_start: 1348
-  page_end: 1371
-  output_yaml: sources/book-04/chapter-26-the-second-task.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 27
   chapter_title: Chapter Twenty-Seven - Padfoot Returns
   page_start: 1372
   page_end: 1393
   output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1394
   page_end: 1418
   output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 29
+  chapter_title: Chapter Twenty-Nine - The Dream
+  page_start: 1419
+  page_end: 1433
+  output_yaml: sources/book-04/chapter-29-the-dream.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

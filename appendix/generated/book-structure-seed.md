@@ -100,6 +100,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
   - Private Stores, Dungeon Lessons, and Antidotes
+  - Private Stores, Veritaserum, and Ministry Controls
 - Potions, Practical Testing, and Discipline
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
@@ -199,6 +200,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Cooperation, Rivalry, and Foreign Student Contact
   - Golden-Egg Clue and Lake Task Preparation
   - Judge Conduct and Second-Task Clue Fairness
+  - Second-Task Hostage Preparation and Safeguards
   - Second-Task Lakeside Staging and Time Limit
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
@@ -354,6 +356,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dragon Assignment and First-Task Order
   - Dragon Breeds, Keepers, and Containment
 - The Triwizard Year and Public Records
+  - Crouch Absence and Bertha Jorkins Reports
   - Press access and distorted champion coverage
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
@@ -427,6 +430,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Biographical Sources and Public Reputation
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
+- First Wizarding War Governance and Aftermath
+  - Barty Crouch, Auror Powers, and Azkaban Without Trial
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
 - The First Known Chamber Opening
@@ -468,6 +473,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Access Control, Visitors, and Information Security
   - Press Exclusion and Unexplained Information Leaks
+  - Press Leaks and Banned Love Potions
 - Anti-Dementor Defenses
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
@@ -666,6 +672,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Biographies and Institutional Memory
   - Hagrid, Giant Ancestry, and Dumbledore's Patronage
 
+## Staff, Students, and School Memory
+
+- Former Students, Later Staff, and Dark Arts Associations
+  - Snape's School-Era Reputation and Teacher-Office Suspicion
+
 ## The Castle and Its Grounds
 
 - Arrival at Hogwarts
@@ -716,6 +727,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Lake Ecology, Merpeople, and Dangerous Water Creatures
   - Gillyweed, Grindylows, and Underwater Navigation
   - Merpeople Settlement and Second-Task Cooperation
+
+## The Grounds, Lake, and Neighboring Settlement
+
+- Hogsmeade, Roads, and Mountain Approaches
+  - Village Edge, Stile, and Fugitive Cave
 
 ## The Library, Books, and Scholarship
 

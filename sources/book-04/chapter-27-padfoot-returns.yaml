@@ -1,0 +1,327 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Seven range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty-Six and next Chapter Twenty-Eight anchors and extracted only PDF pages 1372-1393 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Twenty-Seven. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch27-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1372
+  printed_page: null
+  extracted_text_lines: 6-27
+  text_anchor:
+    start_phrase: everybody was very keen to hear details
+    end_phrase: Ron's ears went red
+    local_occurrence_note: Ron's first account of the second-task hostage procedure tallies with Hermione's version before he starts embellishing the story.
+  nearby_context: The passage says Dumbledore put the hostages into a bewitched sleep in Professor McGonagall's office, assured them they would be safe, and arranged for them to wake after returning above water.
+  match_terms:
+  - second task
+  - hostages
+  - bewitched sleep
+  - Professor McGonagall's office
+  - Dumbledore
+  - lake
+  quote_excerpt_short: "put all the hostages into a bewitched sleep"
+  source_note: The second-task aftermath supplies procedural evidence that the hostages were prepared in McGonagall's office under Dumbledore's supervision before being placed in the lake.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - second-task
+  - hostages
+  - bewitched-sleep
+  - professor-mcgonagall
+  - dumbledore
+  - black-lake
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Second-Task Hostage Preparation and Safeguards
+  reason_for_placement: The passage extends the second-task record from the public lake event into the controlled staff preparation of non-champion participants.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain that the hostage element was staged through staff oversight and protective sleep magic, not an actual uncontrolled kidnapping.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch26-007; gof-ch26-005
+    notes: gof-ch26-007 records the merpeople settlement and hostage enforcement, while gof-ch26-005 records lakeside staging; this entry adds the prior McGonagall-office sleep procedure and Dumbledore's safety assurance.
+  confidence: high
+  limitations: The account is secondhand from Ron and Hermione after the task, though the narration treats the initial version as truthful.
+- id: gof-ch27-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1374
+  printed_page: null
+  extracted_text_lines: 53-150
+  text_anchor:
+    start_phrase: Pansy had a magazine in her hands
+    end_phrase: sneaked onto the grounds to watch the second task
+    local_occurrence_note: Pansy gives Hermione Witch Weekly, whose Rita Skeeter article repeats private second-task aftermath information and claims Love Potions are banned at Hogwarts.
+  nearby_context: Hermione notices that Skeeter knows Viktor Krum's private invitation, even though it happened away from the judges, and speculates about reporter surveillance by concealment or grounds access.
+  match_terms:
+  - Witch Weekly
+  - Rita Skeeter
+  - Love Potions
+  - Hogwarts
+  - Viktor Krum
+  - second task
+  - information leak
+  quote_excerpt_short: "Love Potions are, of course, banned at Hogwarts"
+  source_note: The chapter adds Witch Weekly as another wizarding press source, preserves a school-rule claim that Love Potions are banned, and further documents Rita Skeeter's unexplained access to private Hogwarts information.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - witch-weekly
+  - rita-skeeter
+  - wizarding-press
+  - love-potions
+  - school-rules
+  - information-security
+  - triwizard-tournament
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Access Control, Visitors, and Information Security
+  candidate_section: Press Leaks and Banned Love Potions
+  reason_for_placement: The passage combines public-source evidence with a Hogwarts rule and a repeated information-security failure during the tournament year.
+  relevance_to_hogwarts_a_history: A later edition can use this to discuss how press reports affected student life and how unofficial sources could preserve distorted but useful evidence about school rules and leaks.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch18-005; gof-ch24-004
+    notes: gof-ch18-005 records Rita Skeeter's Daily Prophet tournament interview, and gof-ch24-004 records Dumbledore's ban and unexplained leaks; this entry adds Witch Weekly, a Love Potion ban claim, and the private Krum/Hermione leak after the second task.
+  confidence: medium
+  limitations: The article is sensationalized and hostile, so only the publication/source context, rule claim, and information-leak problem should be treated as evidence.
+- id: gof-ch27-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1378
+  printed_page: null
+  extracted_text_lines: 208-245
+  text_anchor:
+    start_phrase: if I catch you breaking into my office one more time
+    end_phrase: whether you've been in my office or not
+    local_occurrence_note: Snape confronts Harry in Potions about missing boomslang skin and gillyweed, then displays Veritaserum while threatening an illicit use.
+  nearby_context: The scene ties Snape's private stores to earlier Polyjuice and gillyweed incidents and says Veritaserum is controlled by strict Ministry guidelines.
+  match_terms:
+  - Snape's office
+  - private stores
+  - boomslang skin
+  - gillyweed
+  - Veritaserum
+  - Ministry guidelines
+  quote_excerpt_short: "the use of this potion is controlled"
+  source_note: The Potions scene corroborates private staff ingredient stores and adds Veritaserum as a tightly regulated truth potion that a teacher physically possesses at school.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - snape
+  - potions
+  - private-stores
+  - veritaserum
+  - ministry-guidelines
+  - staff-offices
+  - gillyweed
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions Instruction and Materials
+  candidate_section: Private Stores, Veritaserum, and Ministry Controls
+  reason_for_placement: The passage links ordinary Potions storage to legally controlled truth magic and shows how staff-held materials can become a security issue.
+  relevance_to_hogwarts_a_history: A later edition can use this to document that Hogwarts staff offices contained restricted substances and that Ministry rules applied even inside school discipline contexts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch25-006; cos-ch11-002; gof-ch14-005
+    notes: gof-ch25-006 records Snape's office protections, cos-ch11-002 records private stores, and gof-ch14-005 records Azkaban penalties for Unforgivable Curses; this entry adds Veritaserum possession and Ministry-use guidelines.
+  confidence: high
+  limitations: Snape's threat is coercive and may exaggerate his willingness to violate the guidelines; the passage does not quote the guideline text.
+- id: gof-ch27-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1380
+  printed_page: null
+  extracted_text_lines: 300-375; 700-719
+  text_anchor:
+    start_phrase: past Dervish and Banges
+    end_phrase: made their way back into Hogsmeade and up toward Hogwarts
+    local_occurrence_note: Harry, Ron, and Hermione leave Hogsmeade by the road past Dervish and Banges, meet Sirius at a stile, climb to his mountain cave, and later return toward Hogwarts.
+  nearby_context: The cave lies beyond the village edge at the foot of the mountain in Hogsmeade's shadow; Sirius hides there as a dog with Buckbeak, while only the trio and Dumbledore know he is an Animagus.
+  match_terms:
+  - Hogsmeade
+  - Dervish and Banges
+  - stile
+  - mountain
+  - cave
+  - Sirius Black
+  - Buckbeak
+  quote_excerpt_short: "toward the foot of the mountain"
+  source_note: The chapter maps a practical route from Hogwarts through Hogsmeade to nearby mountain terrain and shows how an Animagus fugitive and hippogriff can hide just outside the village.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - dervish-and-banges
+  - mountain
+  - cave
+  - sirius-black
+  - animagus
+  - buckbeak
+  - school-security
+  candidate_part: The Grounds, Lake, and Neighboring Settlement
+  candidate_chapter: Hogsmeade, Roads, and Mountain Approaches
+  candidate_section: Village Edge, Stile, and Fugitive Cave
+  reason_for_placement: The passage adds concrete geography beyond the High Street and shows why the area around Hogsmeade matters to Hogwarts security and student movement.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe Hogwarts's relationship to the surrounding settlement, roads, and mountain cover, especially where school permissions meet external security risks.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch19-001; gof-ch24-005; poa-ch19-007; gof-ch02-006
+    notes: gof-ch19-001 and gof-ch24-005 cover Hogsmeade access and route context, poa-ch19-007 covers Animagus evasion near Hogwarts, and gof-ch02-006 recaps Sirius/Buckbeak; this entry adds the Dervish-and-Banges road, stile, mountain cave, and fugitive hiding arrangement.
+  confidence: high
+  limitations: The route is observed during one Hogsmeade weekend and should not be treated as an official school path.
+- id: gof-ch27-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1382
+  printed_page: null
+  extracted_text_lines: 345-387; 681-694
+  text_anchor:
+    start_phrase: the old Daily Prophets from his mouth
+    end_phrase: Bagman didn't bother to look for her for so long
+    local_occurrence_note: Sirius has stolen discarded Daily Prophets and uses their Crouch and Bertha Jorkins stories to brief the trio in the cave.
+  nearby_context: The headlines report Crouch's public absence and Jorkins's missing status, while Sirius reads Bagman's quoted dismissal of Bertha's memory against his own knowledge of her.
+  match_terms:
+  - Daily Prophet
+  - Bartemius Crouch
+  - Bertha Jorkins
+  - St. Mungo's
+  - Ministry of Magic
+  - Ludo Bagman
+  quote_excerpt_short: "hasn't been seen in public since November"
+  source_note: The chapter uses Daily Prophet reports as public-record evidence for Crouch's disappearance from public duties and Bertha Jorkins's missing-person case during the tournament year.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - bartemius-crouch
+  - bertha-jorkins
+  - ministry-of-magic
+  - st-mungos
+  - ludo-bagman
+  - public-records
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Public Records
+  candidate_section: Crouch Absence and Bertha Jorkins Reports
+  reason_for_placement: The passage shows how public newspapers can preserve a parallel record of Ministry dysfunction affecting Hogwarts's tournament year.
+  relevance_to_hogwarts_a_history: A later edition can use these newspaper summaries to connect school events with external Ministry crises that shaped the tournament's governance.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch10-003; gof-ch13-005; gof-ch18-005
+    notes: Earlier entries record Daily Prophet coverage of the World Cup, Moody, and tournament publicity; this entry adds public reporting on Crouch's absence, St. Mungo's noncomment, and the Bertha Jorkins investigation.
+  confidence: high
+  limitations: The newspaper passages are summarized through Harry's reading and Sirius's commentary rather than reproduced in full.
+- id: gof-ch27-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1385
+  printed_page: null
+  extracted_text_lines: 471-606
+  text_anchor:
+    start_phrase: All these absences of Barty Crouch's
+    end_phrase: catching one more Death Eater
+    local_occurrence_note: Sirius explains Crouch's former power, wartime law-enforcement choices, son's trial and death, and later transfer to International Magical Cooperation.
+  nearby_context: Sirius says Crouch was Head of Magical Law Enforcement, was tipped for Minister, expanded Auror powers, authorized Unforgivable Curses against suspects, sent people to Azkaban without trial, and lost popularity after his son's case.
+  match_terms:
+  - Barty Crouch
+  - Department of Magical Law Enforcement
+  - Aurors
+  - Unforgivable Curses
+  - Azkaban
+  - Death Eaters
+  - International Magical Cooperation
+  quote_excerpt_short: "The Aurors were given new powers"
+  source_note: Sirius's account supplies a concentrated historical claim about Barty Crouch's First Wizarding War policies, legal ruthlessness, failed ministerial prospects, and later bureaucratic transfer.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - bartemius-crouch
+  - aurors
+  - azkaban
+  - unforgivable-curses
+  - ministry-law-enforcement
+  - first-wizarding-war
+  - death-eaters
+  - international-magical-cooperation
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: First Wizarding War Governance and Aftermath
+  candidate_section: Barty Crouch, Auror Powers, and Azkaban Without Trial
+  reason_for_placement: The passage gives political and legal background that explains later Hogwarts tournament governance and Crouch's reputation.
+  relevance_to_hogwarts_a_history: A later edition can use this as contextual material for how wartime Ministry policy and postwar reputation shaped the official responsible for reviving the Triwizard Tournament.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch14-005; gof-ch09-007; gof-ch11-001
+    notes: gof-ch14-005 records Unforgivable Curses and Azkaban sentencing in class, gof-ch09-007 records Death Eater wartime/postwar history, and gof-ch11-001 records Moody's Auror record; this entry adds Crouch's law-enforcement command, emergency Auror powers, no-trial Azkaban orders, and political fall.
+  confidence: medium
+  limitations: The account comes from Sirius, who personally suffered under Crouch's orders; it is valuable but should be cross-checked against later Pensieve or Ministry evidence.
+- id: gof-ch27-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Seven - Padfoot Returns
+  chapter_start_pdf_page: 1372
+  chapter_end_pdf_page: 1393
+  pdf_page: 1390
+  printed_page: null
+  extracted_text_lines: 627-673
+  text_anchor:
+    start_phrase: Snape's always been fascinated by the Dark Arts
+    end_phrase: judging the tournament
+    local_occurrence_note: Sirius evaluates Snape's school history, names Slytherin associates who became Death Eaters, and contrasts Moody's office-searching paranoia with Crouch's suspicious absences.
+  nearby_context: The discussion includes Snape's childhood Dark Arts reputation, Rosier, Wilkes, the Lestranges, Avery, Karkaroff's arm concern, Moody's possible searches of all teacher offices, and Crouch's failure to use judging as a pretext to visit Hogwarts.
+  match_terms:
+  - Snape
+  - Dark Arts
+  - Slytherins
+  - Death Eaters
+  - Karkaroff
+  - Moody
+  - teacher offices
+  quote_excerpt_short: "more curses when he arrived at school"
+  source_note: The cave conversation gives school-era context for Snape's Dark Arts reputation and Slytherin peer group while tying current staff-office searches to tournament-year security suspicions.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - snape
+  - dark-arts
+  - slytherin
+  - death-eaters
+  - karkaroff
+  - mad-eye-moody
+  - staff-offices
+  - school-security
+  candidate_part: Staff, Students, and School Memory
+  candidate_chapter: Former Students, Later Staff, and Dark Arts Associations
+  candidate_section: Snape's School-Era Reputation and Teacher-Office Suspicion
+  reason_for_placement: The passage links a future teacher's Hogwarts student reputation to later staff trust, office searches, and tournament security concerns.
+  relevance_to_hogwarts_a_history: A later edition can use this to discuss how student-era networks and Dark Arts reputations carried forward into Hogwarts staff appointments and institutional trust debates.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch19-006; gof-ch25-006; gof-ch11-004
+    notes: gof-ch19-006 records Karkaroff/Moody/Durmstrang risk, gof-ch25-006 records Snape's office security, and gof-ch11-004 records Durmstrang Dark Arts reputation; this entry adds Snape's school-era curse knowledge, named Slytherin peers, and Moody's possible search of teacher offices.
+  confidence: medium
+  limitations: Sirius's view of Snape is adversarial, so names and broad relationships are stronger evidence than his evaluative insults.

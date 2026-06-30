@@ -7810,6 +7810,121 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch26
     output_yaml: sources/book-04/chapter-26-the-second-task.yaml
+  gof-ch27-001:
+    title: 'The Triwizard Year and Institutional Procedure: Second-Task Hostage Preparation
+      and Safeguards'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - bewitched-sleep
+    - black-lake
+    - dumbledore
+    - hostages
+    - professor-mcgonagall
+    - second-task
+    - triwizard-tournament
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch27-002:
+    title: 'Access Control, Visitors, and Information Security: Press Leaks and Banned
+      Love Potions'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - information-security
+    - love-potions
+    - rita-skeeter
+    - school-rules
+    - triwizard-tournament
+    - witch-weekly
+    - wizarding-press
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch27-003:
+    title: 'Potions Instruction and Materials: Private Stores, Veritaserum, and Ministry
+      Controls'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - gillyweed
+    - ministry-guidelines
+    - potions
+    - private-stores
+    - snape
+    - staff-offices
+    - veritaserum
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch27-004:
+    title: 'Hogsmeade, Roads, and Mountain Approaches: Village Edge, Stile, and Fugitive
+      Cave'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - animagus
+    - buckbeak
+    - cave
+    - dervish-and-banges
+    - hogsmeade
+    - mountain
+    - school-security
+    - sirius-black
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch27-005:
+    title: 'The Triwizard Year and Public Records: Crouch Absence and Bertha Jorkins
+      Reports'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - bartemius-crouch
+    - bertha-jorkins
+    - daily-prophet
+    - ludo-bagman
+    - ministry-of-magic
+    - public-records
+    - st-mungos
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch27-006:
+    title: 'First Wizarding War Governance and Aftermath: Barty Crouch, Auror Powers,
+      and Azkaban Without Trial'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - aurors
+    - azkaban
+    - bartemius-crouch
+    - death-eaters
+    - first-wizarding-war
+    - international-magical-cooperation
+    - ministry-law-enforcement
+    - unforgivable-curses
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch27-007:
+    title: 'Former Students, Later Staff, and Dark Arts Associations: Snape''s School-Era
+      Reputation and Teacher-Office Suspicion'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dark-arts
+    - death-eaters
+    - karkaroff
+    - mad-eye-moody
+    - school-security
+    - slytherin
+    - snape
+    - staff-offices
+    source_unit: gof-ch27
+    output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7895,6 +8010,7 @@ by_tag:
   - poa-ch19-006
   - poa-ch19-007
   animagus:
+  - gof-ch27-004
   - poa-ch20-003
   animal-transformation:
   - cos-ch12-004
@@ -7963,6 +8079,7 @@ by_tag:
   - gof-ch20-003
   aurors:
   - gof-ch11-001
+  - gof-ch27-006
   avada-kedavra:
   - gof-ch14-005
   azkaban:
@@ -7971,6 +8088,7 @@ by_tag:
   - gof-ch02-006
   - gof-ch09-007
   - gof-ch14-005
+  - gof-ch27-006
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -7992,6 +8110,9 @@ by_tag:
   - ps-ch10-002
   barn-owl:
   - gof-ch18-001
+  bartemius-crouch:
+  - gof-ch27-005
+  - gof-ch27-006
   barty-crouch:
   - gof-ch07-005
   - gof-ch07-006
@@ -8032,6 +8153,9 @@ by_tag:
   - gof-ch01-003
   - gof-ch05-003
   - gof-ch07-005
+  - gof-ch27-005
+  bewitched-sleep:
+  - gof-ch27-001
   black-flames:
   - ps-ch16-007
   black-lake:
@@ -8043,6 +8167,7 @@ by_tag:
   - gof-ch26-005
   - gof-ch26-006
   - gof-ch26-007
+  - gof-ch27-001
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
@@ -8118,6 +8243,7 @@ by_tag:
   - gof-ch13-002
   buckbeak:
   - gof-ch02-006
+  - gof-ch27-004
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch14-003
@@ -8221,6 +8347,8 @@ by_tag:
   - poa-ch01-002
   cauldron-standards:
   - gof-ch05-003
+  cave:
+  - gof-ch27-004
   cedric-diggory:
   - gof-ch06-004
   - gof-ch16-007
@@ -8506,6 +8634,7 @@ by_tag:
   - gof-ch18-005
   - gof-ch21-004
   - gof-ch24-002
+  - gof-ch27-005
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -8522,6 +8651,7 @@ by_tag:
   - gof-ch11-004
   - gof-ch13-007
   - gof-ch19-006
+  - gof-ch27-007
   dark-creatures:
   - gof-ch14-001
   dark-detectors:
@@ -8544,6 +8674,8 @@ by_tag:
   - gof-ch09-004
   - gof-ch09-007
   - gof-ch19-006
+  - gof-ch27-006
+  - gof-ch27-007
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -8629,6 +8761,8 @@ by_tag:
   - gof-ch07-004
   deputy-headmistress:
   - ps-ch04-002
+  dervish-and-banges:
+  - gof-ch27-004
   desire-based-magic:
   - ps-ch17-003
   detention:
@@ -8749,6 +8883,7 @@ by_tag:
   - gof-ch24-002
   - gof-ch24-004
   - gof-ch24-007
+  - gof-ch27-001
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9009,6 +9144,7 @@ by_tag:
   - gof-ch09-007
   - gof-ch14-003
   - gof-ch14-004
+  - gof-ch27-006
   - poa-ch10-006
   - ps-ch04-005
   first-year-arrival:
@@ -9190,6 +9326,7 @@ by_tag:
   gillyweed:
   - gof-ch26-004
   - gof-ch26-006
+  - gof-ch27-003
   ginny-weasley:
   - cos-ch17-002
   - cos-ch18-002
@@ -9620,6 +9757,7 @@ by_tag:
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
+  - gof-ch27-004
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -9797,6 +9935,7 @@ by_tag:
   - gof-ch17-002
   hostages:
   - gof-ch26-007
+  - gof-ch27-001
   hourglasses:
   - ps-ch15-002
   house-assignment:
@@ -9943,6 +10082,7 @@ by_tag:
   - gof-ch01-003
   - gof-ch07-005
   - gof-ch24-004
+  - gof-ch27-002
   institutional-custom:
   - ps-ch07-002
   institutional-secrecy:
@@ -9967,6 +10107,7 @@ by_tag:
   - gof-ch12-007
   - gof-ch16-002
   - gof-ch23-005
+  - gof-ch27-006
   international-quidditch:
   - gof-ch08-005
   international-transport:
@@ -10025,6 +10166,7 @@ by_tag:
   karkaroff:
   - gof-ch15-007
   - gof-ch19-006
+  - gof-ch27-007
   keeper:
   - cos-ch07-001
   keeper-of-keys:
@@ -10132,6 +10274,8 @@ by_tag:
   - cos-ch13-003
   logic-puzzle:
   - ps-ch16-007
+  love-potions:
+  - gof-ch27-002
   loyalty:
   - cos-ch14-007
   lucius-malfoy:
@@ -10151,6 +10295,7 @@ by_tag:
   - gof-ch17-004
   - gof-ch18-005
   - gof-ch24-006
+  - gof-ch27-005
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -10172,6 +10317,7 @@ by_tag:
   - gof-ch19-003
   - gof-ch19-006
   - gof-ch25-007
+  - gof-ch27-007
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -10436,10 +10582,13 @@ by_tag:
   - poa-ch03-001
   ministry-guidelines:
   - gof-ch10-004
+  - gof-ch27-003
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
   - poa-ch21-004
+  ministry-law-enforcement:
+  - gof-ch27-006
   ministry-logistics:
   - gof-ch07-006
   - gof-ch10-002
@@ -10469,6 +10618,7 @@ by_tag:
   - gof-ch14-003
   - gof-ch16-002
   - gof-ch19-007
+  - gof-ch27-005
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -10520,6 +10670,8 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-001
   - cos-ch12-004
+  mountain:
+  - gof-ch27-004
   moving-pictures:
   - gof-ch02-002
   moving-staircase:
@@ -10908,6 +11060,7 @@ by_tag:
   - gof-ch15-002
   - gof-ch18-004
   - gof-ch22-005
+  - gof-ch27-003
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -10969,6 +11122,7 @@ by_tag:
   private-stores:
   - cos-ch11-002
   - gof-ch25-006
+  - gof-ch27-003
   privet-drive:
   - gof-ch03-004
   - poa-ch01-002
@@ -11017,6 +11171,7 @@ by_tag:
   - gof-ch13-006
   - gof-ch17-003
   - gof-ch22-002
+  - gof-ch27-001
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -11084,6 +11239,8 @@ by_tag:
   - gof-ch08-006
   public-memory:
   - ps-ch02-006
+  public-records:
+  - gof-ch27-005
   punishment:
   - cos-ch08-002
   pure-blood-prejudice:
@@ -11233,6 +11390,7 @@ by_tag:
   - gof-ch18-005
   - gof-ch21-004
   - gof-ch24-004
+  - gof-ch27-002
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -11366,6 +11524,7 @@ by_tag:
   - gof-ch11-003
   - gof-ch12-005
   - gof-ch16-003
+  - gof-ch27-002
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
@@ -11384,6 +11543,8 @@ by_tag:
   - gof-ch19-007
   - gof-ch24-004
   - gof-ch25-007
+  - gof-ch27-004
+  - gof-ch27-007
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
@@ -11425,6 +11586,7 @@ by_tag:
   - gof-ch24-006
   - gof-ch25-003
   - gof-ch26-005
+  - gof-ch27-001
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -11526,6 +11688,7 @@ by_tag:
   - gof-ch02-006
   - gof-ch18-001
   - gof-ch19-007
+  - gof-ch27-004
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -11557,6 +11720,7 @@ by_tag:
   - cos-ch07-002
   - cos-ch18-004
   - gof-ch15-004
+  - gof-ch27-007
   - poa-ch12-004
   - poa-ch15-005
   - ps-ch05-006
@@ -11586,6 +11750,8 @@ by_tag:
   - cos-ch11-002
   - gof-ch18-004
   - gof-ch25-006
+  - gof-ch27-003
+  - gof-ch27-007
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -11654,6 +11820,8 @@ by_tag:
   - gof-ch08-004
   squib-context:
   - cos-ch08-002
+  st-mungos:
+  - gof-ch27-005
   stadium:
   - gof-ch08-001
   staff:
@@ -11693,6 +11861,8 @@ by_tag:
   - poa-ch10-006
   staff-offices:
   - gof-ch25-006
+  - gof-ch27-003
+  - gof-ch27-007
   staff-permission:
   - cos-ch07-002
   staff-protections:
@@ -12116,6 +12286,8 @@ by_tag:
   - gof-ch26-005
   - gof-ch26-006
   - gof-ch26-007
+  - gof-ch27-001
+  - gof-ch27-002
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -12167,6 +12339,7 @@ by_tag:
   - poa-ch16-005
   unforgivable-curses:
   - gof-ch14-005
+  - gof-ch27-006
   unicorn-blood:
   - ps-ch15-007
   unicorn-hair:
@@ -12201,6 +12374,8 @@ by_tag:
   - gof-ch08-006
   veela-hair:
   - gof-ch18-007
+  veritaserum:
+  - gof-ch27-003
   viktor-krum:
   - gof-ch16-007
   visiting-schools:
@@ -12338,6 +12513,8 @@ by_tag:
   - ps-ch12-001
   winter-grounds:
   - gof-ch24-005
+  witch-weekly:
+  - gof-ch27-002
   wizard-law:
   - poa-ch02-003
   wizard-school:
@@ -12361,6 +12538,7 @@ by_tag:
   - gof-ch23-006
   wizarding-press:
   - gof-ch18-005
+  - gof-ch27-002
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002

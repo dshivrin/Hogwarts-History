@@ -178,9 +178,11 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
   animagus:
     entries:
+    - gof-ch27-004
     - poa-ch20-003
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   animal-transformation:
     entries:
     - cos-ch12-004
@@ -335,8 +337,10 @@ tags:
   aurors:
     entries:
     - gof-ch11-001
+    - gof-ch27-006
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   avada-kedavra:
     entries:
     - gof-ch14-005
@@ -349,6 +353,7 @@ tags:
     - gof-ch02-006
     - gof-ch09-007
     - gof-ch14-005
+    - gof-ch27-006
     - poa-ch05-004
     - poa-ch19-004
     - poa-ch19-007
@@ -362,6 +367,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   azkaban-guards:
     entries:
     - poa-ch04-007
@@ -403,6 +409,12 @@ tags:
     - gof-ch18-001
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  bartemius-crouch:
+    entries:
+    - gof-ch27-005
+    - gof-ch27-006
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   barty-crouch:
     entries:
     - gof-ch07-005
@@ -482,10 +494,17 @@ tags:
     - gof-ch01-003
     - gof-ch05-003
     - gof-ch07-005
+    - gof-ch27-005
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
+  bewitched-sleep:
+    entries:
+    - gof-ch27-001
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   black-flames:
     entries:
     - ps-ch16-007
@@ -501,12 +520,14 @@ tags:
     - gof-ch26-005
     - gof-ch26-006
     - gof-ch26-007
+    - gof-ch27-001
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
@@ -681,6 +702,7 @@ tags:
   buckbeak:
     entries:
     - gof-ch02-006
+    - gof-ch27-004
     - poa-ch06-006
     - poa-ch11-001
     - poa-ch14-003
@@ -695,6 +717,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   buckbeak-appeal:
     entries:
     - poa-ch15-004
@@ -907,6 +930,11 @@ tags:
     - gof-ch05-003
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  cave:
+    entries:
+    - gof-ch27-004
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   cedric-diggory:
     entries:
     - gof-ch06-004
@@ -1523,6 +1551,7 @@ tags:
     - gof-ch18-005
     - gof-ch21-004
     - gof-ch24-002
+    - gof-ch27-005
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -1534,6 +1563,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -1559,11 +1589,13 @@ tags:
     - gof-ch11-004
     - gof-ch13-007
     - gof-ch19-006
+    - gof-ch27-007
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   dark-creatures:
     entries:
     - gof-ch14-001
@@ -1608,9 +1640,12 @@ tags:
     - gof-ch09-004
     - gof-ch09-007
     - gof-ch19-006
+    - gof-ch27-006
+    - gof-ch27-007
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   deathday-party:
     entries:
     - cos-ch08-004
@@ -1780,6 +1815,11 @@ tags:
     - ps-ch04-002
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  dervish-and-banges:
+    entries:
+    - gof-ch27-004
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   desire-based-magic:
     entries:
     - ps-ch17-003
@@ -2016,6 +2056,7 @@ tags:
     - gof-ch24-002
     - gof-ch24-004
     - gof-ch24-007
+    - gof-ch27-001
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2089,6 +2130,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2574,6 +2616,7 @@ tags:
     - gof-ch09-007
     - gof-ch14-003
     - gof-ch14-004
+    - gof-ch27-006
     - poa-ch10-006
     - ps-ch04-005
     output_yaml:
@@ -2581,6 +2624,7 @@ tags:
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   first-year-arrival:
     entries:
     - poa-ch05-005
@@ -2986,8 +3030,10 @@ tags:
     entries:
     - gof-ch26-004
     - gof-ch26-006
+    - gof-ch27-003
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   ginny-weasley:
     entries:
     - cos-ch17-002
@@ -3877,6 +3923,7 @@ tags:
     - gof-ch12-005
     - gof-ch19-001
     - gof-ch24-005
+    - gof-ch27-004
     - poa-ch01-005
     - poa-ch02-001
     - poa-ch03-005
@@ -3906,6 +3953,7 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   hogsmeade-privileges:
     entries:
     - poa-ch14-002
@@ -4250,8 +4298,10 @@ tags:
   hostages:
     entries:
     - gof-ch26-007
+    - gof-ch27-001
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   hourglasses:
     entries:
     - ps-ch15-002
@@ -4564,10 +4614,12 @@ tags:
     - gof-ch01-003
     - gof-ch07-005
     - gof-ch24-004
+    - gof-ch27-002
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   institutional-custom:
     entries:
     - ps-ch07-002
@@ -4621,11 +4673,13 @@ tags:
     - gof-ch12-007
     - gof-ch16-002
     - gof-ch23-005
+    - gof-ch27-006
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   international-quidditch:
     entries:
     - gof-ch08-005
@@ -4754,9 +4808,11 @@ tags:
     entries:
     - gof-ch15-007
     - gof-ch19-006
+    - gof-ch27-007
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   keeper:
     entries:
     - cos-ch07-001
@@ -4994,6 +5050,11 @@ tags:
     - ps-ch16-007
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  love-potions:
+    entries:
+    - gof-ch27-002
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   loyalty:
     entries:
     - cos-ch14-007
@@ -5025,12 +5086,14 @@ tags:
     - gof-ch17-004
     - gof-ch18-005
     - gof-ch24-006
+    - gof-ch27-005
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   luggage:
     entries:
     - gof-ch11-002
@@ -5067,6 +5130,7 @@ tags:
     - gof-ch19-003
     - gof-ch19-006
     - gof-ch25-007
+    - gof-ch27-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -5075,6 +5139,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -5666,8 +5731,10 @@ tags:
   ministry-guidelines:
     entries:
     - gof-ch10-004
+    - gof-ch27-003
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -5678,6 +5745,11 @@ tags:
     - poa-ch21-004
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  ministry-law-enforcement:
+    entries:
+    - gof-ch27-006
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   ministry-logistics:
     entries:
     - gof-ch07-006
@@ -5712,6 +5784,7 @@ tags:
     - gof-ch14-003
     - gof-ch16-002
     - gof-ch19-007
+    - gof-ch27-005
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -5744,6 +5817,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -5847,6 +5921,11 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  mountain:
+    entries:
+    - gof-ch27-004
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   moving-pictures:
     entries:
     - gof-ch02-002
@@ -6709,6 +6788,7 @@ tags:
     - gof-ch15-002
     - gof-ch18-004
     - gof-ch22-005
+    - gof-ch27-003
     - poa-ch07-001
     - poa-ch08-005
     - poa-ch16-003
@@ -6730,6 +6810,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   potter-family:
     entries:
     - gof-ch14-004
@@ -6846,9 +6927,11 @@ tags:
     entries:
     - cos-ch11-002
     - gof-ch25-006
+    - gof-ch27-003
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   privet-drive:
     entries:
     - gof-ch03-004
@@ -6942,6 +7025,7 @@ tags:
     - gof-ch13-006
     - gof-ch17-003
     - gof-ch22-002
+    - gof-ch27-001
     - poa-ch06-004
     - poa-ch12-005
     - poa-ch13-004
@@ -6973,6 +7057,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   professor-quirrell:
     entries:
     - ps-ch05-004
@@ -7085,6 +7170,11 @@ tags:
     - ps-ch02-006
     output_yaml:
     - sources/book-01/chapter-02-vanishing-glass.yaml
+  public-records:
+    entries:
+    - gof-ch27-005
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   punishment:
     entries:
     - cos-ch08-002
@@ -7400,12 +7490,14 @@ tags:
     - gof-ch18-005
     - gof-ch21-004
     - gof-ch24-004
+    - gof-ch27-002
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -7706,6 +7798,7 @@ tags:
     - gof-ch11-003
     - gof-ch12-005
     - gof-ch16-003
+    - gof-ch27-002
     - ps-ch08-003
     - ps-ch09-005
     - ps-ch12-002
@@ -7716,6 +7809,7 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   school-schedule:
     entries:
     - gof-ch15-005
@@ -7743,11 +7837,14 @@ tags:
     - gof-ch19-007
     - gof-ch24-004
     - gof-ch25-007
+    - gof-ch27-004
+    - gof-ch27-007
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   school-supplies:
     entries:
     - cos-ch04-002
@@ -7831,6 +7928,7 @@ tags:
     - gof-ch24-006
     - gof-ch25-003
     - gof-ch26-005
+    - gof-ch27-001
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
@@ -7839,6 +7937,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -8061,6 +8160,7 @@ tags:
     - gof-ch02-006
     - gof-ch18-001
     - gof-ch19-007
+    - gof-ch27-004
     - poa-ch04-007
     - poa-ch08-007
     - poa-ch10-006
@@ -8093,6 +8193,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -8123,6 +8224,7 @@ tags:
     - cos-ch07-002
     - cos-ch18-004
     - gof-ch15-004
+    - gof-ch27-007
     - poa-ch12-004
     - poa-ch15-005
     - ps-ch05-006
@@ -8147,6 +8249,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   slytherin-common-room:
     entries:
     - cos-ch12-005
@@ -8189,6 +8292,8 @@ tags:
     - cos-ch11-002
     - gof-ch18-004
     - gof-ch25-006
+    - gof-ch27-003
+    - gof-ch27-007
     - poa-ch07-001
     - poa-ch08-005
     - ps-ch08-006
@@ -8209,6 +8314,7 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   snape-private-stores:
     entries:
     - cos-ch10-002
@@ -8347,6 +8453,11 @@ tags:
     - cos-ch08-002
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  st-mungos:
+    entries:
+    - gof-ch27-005
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -8439,8 +8550,11 @@ tags:
   staff-offices:
     entries:
     - gof-ch25-006
+    - gof-ch27-003
+    - gof-ch27-007
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   staff-permission:
     entries:
     - cos-ch07-002
@@ -9373,6 +9487,8 @@ tags:
     - gof-ch26-005
     - gof-ch26-006
     - gof-ch26-007
+    - gof-ch27-001
+    - gof-ch27-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -9389,6 +9505,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   triwizard-year:
     entries:
     - gof-ch01-004
@@ -9505,8 +9622,10 @@ tags:
   unforgivable-curses:
     entries:
     - gof-ch14-005
+    - gof-ch27-006
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   unicorn-blood:
     entries:
     - ps-ch15-007
@@ -9588,6 +9707,11 @@ tags:
     - gof-ch18-007
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  veritaserum:
+    entries:
+    - gof-ch27-003
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   viktor-krum:
     entries:
     - gof-ch16-007
@@ -9885,6 +10009,11 @@ tags:
     - gof-ch24-005
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  witch-weekly:
+    entries:
+    - gof-ch27-002
+    output_yaml:
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   wizard-law:
     entries:
     - poa-ch02-003
@@ -9937,8 +10066,10 @@ tags:
   wizarding-press:
     entries:
     - gof-ch18-005
+    - gof-ch27-002
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-27-padfoot-returns.yaml
   wizarding-schools:
     entries:
     - gof-ch07-003

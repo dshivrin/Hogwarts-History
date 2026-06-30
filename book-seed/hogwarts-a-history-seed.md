@@ -2227,6 +2227,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `cos-ch10-002`. Chapter Ten already recorded the distinction between student-store-cupboard ingredients and Snape's private stores; this entry corroborates the private-store evidence and adds the dungeon lesson and Deflating Draught response.
   - Notes: The private-store access here is illicit, so it should not be treated as a normal student procedure.
 
+#### Section: Private Stores, Veritaserum, and Ministry Controls
+
+Summary: The available evidence includes 1 source item, led by: The Potions scene corroborates private staff ingredient stores and adds Veritaserum as a tightly regulated truth potion that a teacher physically possesses at school.
+
+- **Corroboration:** The Potions scene corroborates private staff ingredient stores and adds Veritaserum as a tightly regulated truth potion that a teacher physically possesses at school.
+  - Quote: "the use of this potion is controlled"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1378, `gof-ch27-003`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch25-006`, `cos-ch11-002`, `gof-ch14-005`. gof-ch25-006 records Snape's office protections, cos-ch11-002 records private stores, and gof-ch14-005 records Azkaban penalties for Unforgivable Curses; this entry adds Veritaserum possession and Ministry-use guidelines.
+  - Notes: Snape's threat is coercive and may exaggerate his willingness to violate the guidelines; the passage does not quote the guideline text.
+
 ### Chapter: Potions, Practical Testing, and Discipline
 
 #### Section: Antidote brewing and detention penalties
@@ -3501,6 +3513,18 @@ Summary: The available evidence includes 1 source item, led by: The conversation
   - Reference type: security_or_protection
   - Notes: The ban is reported by students recalling Hagrid's statement, not quoted directly from Dumbledore or a formal notice.
 
+#### Section: Press Leaks and Banned Love Potions
+
+Summary: The available evidence includes 1 source item, led by: The chapter adds Witch Weekly as another wizarding press source, preserves a school-rule claim that Love Potions are banned, and further documents Rita Skeeter's unexplained access to private Hogwarts information.
+
+- **Corroboration:** The chapter adds Witch Weekly as another wizarding press source, preserves a school-rule claim that Love Potions are banned, and further documents Rita Skeeter's unexplained access to private Hogwarts information.
+  - Quote: "Love Potions are, of course, banned at Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1374, `gof-ch27-002`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `gof-ch18-005`, `gof-ch24-004`. gof-ch18-005 records Rita Skeeter's Daily Prophet tournament interview, and gof-ch24-004 records Dumbledore's ban and unexplained leaks; this entry adds Witch Weekly, a Love Potion ban claim, and the private Krum/Hermione leak after the second task.
+  - Notes: The article is sensationalized and hostile, so only the publication/source context, rule claim, and information-leak problem should be treated as evidence.
+
 ### Chapter: Anti-Dementor Defenses
 
 #### Section: Corporeal Patronus Intervention
@@ -4646,6 +4670,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
   - Corroborates: `gof-ch07-001`. Book 4 Chapter Seven records campsite Memory Charms for ordinary anti-Muggle secrecy; this entry adds post-riot modification of the Roberts family's memories and broader Dark Mark/Death Eater history.
   - Notes: The explanation is secondhand adult testimony and a student-cited source title; it does not identify the caster or prove all masked rioters were Death Eaters.
 
+### Chapter: First Wizarding War Governance and Aftermath
+
+#### Section: Barty Crouch, Auror Powers, and Azkaban Without Trial
+
+Summary: The available evidence includes 1 source item, led by: Sirius's account supplies a concentrated historical claim about Barty Crouch's First Wizarding War policies, legal ruthlessness, failed ministerial prospects, and later bureaucratic transfer.
+
+- **Corroboration:** Sirius's account supplies a concentrated historical claim about Barty Crouch's First Wizarding War policies, legal ruthlessness, failed ministerial prospects, and later bureaucratic transfer.
+  - Quote: "The Aurors were given new powers"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1385, `gof-ch27-006`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch14-005`, `gof-ch09-007`, `gof-ch11-001`. gof-ch14-005 records Unforgivable Curses and Azkaban sentencing in class, gof-ch09-007 records Death Eater wartime/postwar history, and gof-ch11-001 records Moody's Auror record; this entry adds Crouch's law-enforcement command, emergency Auror powers, no-trial Azkaban orders, and political fall.
+  - Notes: The account comes from Sirius, who personally suffered under Crouch's orders; it is valuable but should be cross-checked against later Pensieve or Ministry evidence.
+
 ### Chapter: Voldemort, Riddle, and Hogwarts Memory
 
 #### Section: Riddle Family Background and Muggle Records
@@ -5610,6 +5648,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
 
 ### Chapter: The Triwizard Year and Public Records
 
+#### Section: Crouch Absence and Bertha Jorkins Reports
+
+Summary: The available evidence includes 1 source item, led by: The chapter uses Daily Prophet reports as public-record evidence for Crouch's disappearance from public duties and Bertha Jorkins's missing-person case during the tournament year.
+
+- **Corroboration:** The chapter uses Daily Prophet reports as public-record evidence for Crouch's disappearance from public duties and Bertha Jorkins's missing-person case during the tournament year.
+  - Quote: "hasn't been seen in public since November"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1382, `gof-ch27-005`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `gof-ch10-003`, `gof-ch13-005`, `gof-ch18-005`. Earlier entries record Daily Prophet coverage of the World Cup, Moody, and tournament publicity; this entry adds public reporting on Crouch's absence, St. Mungo's noncomment, and the Bertha Jorkins investigation.
+  - Notes: The newspaper passages are summarized through Harry's reading and Sirius's commentary rather than reproduced in full.
+
 #### Section: Press access and distorted champion coverage
 
 Summary: The available evidence includes 1 source item, led by: The revived tournament includes press access and magical reporting tools, with Rita Skeeter shaping a public account of Hogwarts's youngest champion before the ceremony.
@@ -5989,6 +6039,18 @@ Summary: The available evidence includes 1 source item, led by: Bagman's private
   - Corroborates: `gof-ch20-002`, `gof-ch20-007`, `gof-ch21-001`, `gof-ch22-006`. gof-ch20-002 records traditional task cheating, gof-ch20-007 records egg clue distribution, gof-ch21-001 records the private-clue rule, and gof-ch22-006 records schedule pressure; this entry adds a judge's direct offer of unequal assistance.
   - Notes: The rule is stated through Harry's and Hermione's interpretation rather than a quoted official rulebook.
 
+#### Section: Second-Task Hostage Preparation and Safeguards
+
+Summary: The available evidence includes 1 source item, led by: The second-task aftermath supplies procedural evidence that the hostages were prepared in McGonagall's office under Dumbledore's supervision before being placed in the lake.
+
+- **Corroboration:** The second-task aftermath supplies procedural evidence that the hostages were prepared in McGonagall's office under Dumbledore's supervision before being placed in the lake.
+  - Quote: "put all the hostages into a bewitched sleep"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1372, `gof-ch27-001`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch26-007`, `gof-ch26-005`. gof-ch26-007 records the merpeople settlement and hostage enforcement, while gof-ch26-005 records lakeside staging; this entry adds the prior McGonagall-office sleep procedure and Dumbledore's safety assurance.
+  - Notes: The account is secondhand from Ron and Hermione after the task, though the narration treats the initial version as truthful.
+
 #### Section: Second-Task Lakeside Staging and Time Limit
 
 Summary: The available evidence includes 1 source item, led by: The second task repurposes Hogwarts lake as a public tournament arena with spectator stands, a judging table, champion spacing, and a one-hour recovery rule.
@@ -6341,6 +6403,22 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's confess
   - Corroborates: `ps-ch04-007`, `cos-ch07-005`. ps-ch04-007 and cos-ch07-005 already record Hagrid's expulsion, magic restriction, and Dumbledore's retention of him; this entry adds giant ancestry, orphaned school years, and the social reason Hagrid kept his background secret.
   - Notes: Ron's comments about giants reflect common prejudice and partial knowledge rather than an authoritative historical survey.
 
+## Part: Staff, Students, and School Memory
+
+### Chapter: Former Students, Later Staff, and Dark Arts Associations
+
+#### Section: Snape's School-Era Reputation and Teacher-Office Suspicion
+
+Summary: The available evidence includes 1 source item, led by: The cave conversation gives school-era context for Snape's Dark Arts reputation and Slytherin peer group while tying current staff-office searches to tournament-year security suspicions.
+
+- **Corroboration:** The cave conversation gives school-era context for Snape's Dark Arts reputation and Slytherin peer group while tying current staff-office searches to tournament-year security suspicions.
+  - Quote: "more curses when he arrived at school"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1390, `gof-ch27-007`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch19-006`, `gof-ch25-006`, `gof-ch11-004`. gof-ch19-006 records Karkaroff/Moody/Durmstrang risk, gof-ch25-006 records Snape's office security, and gof-ch11-004 records Durmstrang Dark Arts reputation; this entry adds Snape's school-era curse knowledge, named Slytherin peers, and Moody's possible search of teacher offices.
+  - Notes: Sirius's view of Snape is adversarial, so names and broad relationships are stronger evidence than his evaluative insults.
+
 ## Part: The Castle and Its Protections
 
 ### Chapter: Movement Limits and Anti-Apparition Protections
@@ -6399,6 +6477,22 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Reference type: institutional_custom
   - Corroborates: `gof-ch25-003`, `gof-ch20-007`. gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
+
+## Part: The Grounds, Lake, and Neighboring Settlement
+
+### Chapter: Hogsmeade, Roads, and Mountain Approaches
+
+#### Section: Village Edge, Stile, and Fugitive Cave
+
+Summary: The available evidence includes 1 source item, led by: The chapter maps a practical route from Hogwarts through Hogsmeade to nearby mountain terrain and shows how an Animagus fugitive and hippogriff can hide just outside the village.
+
+- **Corroboration:** The chapter maps a practical route from Hogwarts through Hogsmeade to nearby mountain terrain and shows how an Animagus fugitive and hippogriff can hide just outside the village.
+  - Quote: "toward the foot of the mountain"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, PDF p. 1380, `gof-ch27-004`, `sources/book-04/chapter-27-padfoot-returns.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch19-001`, `gof-ch24-005`, `poa-ch19-007`, `gof-ch02-006`. gof-ch19-001 and gof-ch24-005 cover Hogsmeade access and route context, poa-ch19-007 covers Animagus evasion near Hogwarts, and gof-ch02-006 recaps Sirius/Buckbeak; this entry adds the Dervish-and-Banges road, stile, mountain cave, and fugitive hiding arrangement.
+  - Notes: The route is observed during one Hogsmeade weekend and should not be treated as an official school path.
 
 ## Part: Wars, Crises, and School Memory
 
