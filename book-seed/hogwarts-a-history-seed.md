@@ -526,6 +526,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter adds
   - Corroborates: `cos-ch11-007`. Chapter Eleven records the office entrance and moving staircase; this entry concerns the same office and adds interior portraits, instruments, and the Sorting Hat.
   - Notes: The source does not explain when the portraits were installed, whether they can advise the headmaster, or why the Sorting Hat is kept there.
 
+#### Section: Office artifacts and founder-linked objects
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates the headmaster's office interior and adds that Godric Gryffindor's sword is displayed near the Sorting Hat in a glass case.
+
+- **Corroboration:** The chapter corroborates the headmaster's office interior and adds that Godric Gryffindor's sword is displayed near the Sorting Hat in a glass case.
+  - Quote: "previous headmasters and headmistresses of Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1434, `gof-ch30-001`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `cos-ch12-001`, `cos-ch18-004`, `gof-ch29-006`. Corroborates Dumbledore's office interior and Godric Gryffindor sword evidence; adds the sword's office display location during the Triwizard year.
+  - Notes: The source does not explain who controls access to the sword or how long it normally remains in the office.
+
 #### Section: Passworded Gargoyle and Moving Staircase
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives the first concrete access details for Dumbledore's office: a passworded stone gargoyle, concealed wall opening, moving spiral staircase, and griffin-knocker door.
@@ -536,6 +548,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: magical_architecture
   - Notes: The passage does not explain how the office password is set, how often it changes, or when this entrance mechanism was created.
+
+#### Section: The Pensieve and stored memories
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
+
+- **Supporting evidence:** Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
+  - Quote: "It is called a Pensieve"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1436, `gof-ch30-002`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The passage explains Dumbledore's use of the Pensieve but not whether the artifact belongs to Hogwarts institutionally or personally to him.
 
 ### Chapter: Protected Offices and Moving Entrances
 
@@ -5677,6 +5700,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 ### Chapter: The Triwizard Tournament Revival
 
+#### Section: Linked disappearances and Ministry disagreement
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore connects Bertha Jorkins, Barty Crouch, and Frank Bryce as linked disappearances while noting Ministry resistance and his own use of Muggle newspapers.
+
+- **Corroboration:** Dumbledore connects Bertha Jorkins, Barty Crouch, and Frank Bryce as linked disappearances while noting Ministry resistance and his own use of Muggle newspapers.
+  - Quote: "These disappearances seem to me to be linked"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1451, `gof-ch30-007`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch29-007`, `gof-ch28-005`, `gof-ch07-005`. Corroborates the Crouch/Bertha investigation and earlier Bertha search concerns; adds Frank Bryce, Muggle newspapers, and Dumbledore's explicit linkage theory.
+  - Notes: Dumbledore calls his view a theory, and the Ministry's contrary position is summarized rather than quoted in full here.
+
 #### Section: Ministry investigation and visiting-school tensions
 
 Summary: The available evidence includes 1 source item, led by: The office discussion records Ministry reluctance to connect Bertha and Crouch, Dumbledore's skepticism, planned grounds inspection, and Fudge's prejudiced suspicion of Madame Maxime and Hagrid.
@@ -6652,6 +6687,54 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
 
 ## Part: Wars, Crises, and School Memory
+
+### Chapter: First Wizarding War Legal Aftermath
+
+#### Section: Bagman's Rookwood-linked acquittal
+
+Summary: The available evidence includes 1 source item, led by: Bagman's trial shows that popularity and Quidditch celebrity affected wartime legal judgment despite evidence that he passed information to Rookwood.
+
+- **Supporting evidence:** Bagman's trial shows that popularity and Quidditch celebrity affected wartime legal judgment despite evidence that he passed information to Rookwood.
+  - Quote: "caught passing information to Lord Voldemort's supporters"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1442, `gof-ch30-005`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The memory shows the verdict scene but does not include all evidence presented before Harry entered it.
+
+#### Section: Council of Magical Law courtroom procedure
+
+Summary: The available evidence includes 1 source item, led by: The memory records a Ministry legal chamber with tiered benches, a restraint chair, and dementor prisoner escorts during postwar trials.
+
+- **Supporting evidence:** The memory records a Ministry legal chamber with tiered benches, a restraint chair, and dementor prisoner escorts during postwar trials.
+  - Quote: "chair with the chains on its arms"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1436, `gof-ch30-003`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The courtroom is seen through Dumbledore's memory rather than a present-day location; its exact date is not stated in the passage.
+
+#### Section: Karkaroff testimony and Snape's wartime role
+
+Summary: The available evidence includes 1 source item, led by: Karkaroff's testimony preserves postwar Death Eater naming, Rookwood's Department of Mysteries leak, and Dumbledore's claim that Snape became a spy before Voldemort's downfall.
+
+- **Corroboration:** Karkaroff's testimony preserves postwar Death Eater naming, Rookwood's Department of Mysteries leak, and Dumbledore's claim that Snape became a spy before Voldemort's downfall.
+  - Quote: "Severus Snape is a Death Eater"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1439, `gof-ch30-004`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch27-005`, `gof-ch19-006`, `gof-ch09-007`. Corroborates Karkaroff/Snape/Death Eater context and Dark Mark history; adds the courtroom testimony, Rookwood information network, and Dumbledore's direct defense of Snape.
+  - Notes: Karkaroff is bargaining for leniency, so his motives are compromised even when some named information proves useful.
+
+#### Section: Longbottom torture trial and Crouch family scandal
+
+Summary: The available evidence includes 1 source item, led by: The memory and Dumbledore's explanation document the Longbottom torture case, public fury after Voldemort's fall, and the Ministry pressure that shaped Crouch Jr.'s sentencing.
+
+- **Corroboration:** The memory and Dumbledore's explanation document the Longbottom torture case, public fury after Voldemort's fall, and the Ministry pressure that shaped Crouch Jr.'s sentencing.
+  - Quote: "life sentence in Azkaban"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, PDF p. 1445, `gof-ch30-006`, `sources/book-04/chapter-30-the-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch27-007`, `gof-ch14-005`, `gof-ch09-007`. Corroborates Crouch's harsh law-enforcement record, Unforgivable Curse sentencing, and postwar Death Eater history; adds the trial scene and Dumbledore's Longbottom explanation.
+  - Notes: Dumbledore explicitly says he does not know whether Crouch's son was involved, so the entry should preserve that uncertainty.
 
 ### Chapter: Harry Potter and the End of the First Wizarding War
 

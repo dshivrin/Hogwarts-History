@@ -8138,6 +8138,112 @@ by_entry:
     - wizarding-prejudice
     source_unit: gof-ch29
     output_yaml: sources/book-04/chapter-29-the-dream.yaml
+  gof-ch30-001:
+    title: 'Headmaster''s Office and Protected Entrances: Office artifacts and founder-linked
+      objects'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - dumbledore-office
+    - godric-gryffindor
+    - gryffindor-sword
+    - headmaster-office
+    - headmaster-portraits
+    - sorting-hat
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch30-002:
+    title: 'Headmaster''s Office and Protected Entrances: The Pensieve and stored
+      memories'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dumbledore-office
+    - magical-artifact
+    - memory-magic
+    - pattern-analysis
+    - pensieve
+    - thoughts
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch30-003:
+    title: 'First Wizarding War Legal Aftermath: Council of Magical Law courtroom
+      procedure'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - azkaban
+    - council-of-magical-law
+    - courtroom
+    - dementors
+    - ministry-of-magic
+    - wizarding-law
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch30-004:
+    title: 'First Wizarding War Legal Aftermath: Karkaroff testimony and Snape''s
+      wartime role'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - death-eaters
+    - department-of-mysteries
+    - dumbledore
+    - first-wizarding-war
+    - karkaroff
+    - rookwood
+    - snape
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch30-005:
+    title: 'First Wizarding War Legal Aftermath: Bagman''s Rookwood-linked acquittal'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - council-of-magical-law
+    - first-wizarding-war
+    - ludo-bagman
+    - ministry-of-magic
+    - quidditch
+    - rookwood
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch30-006:
+    title: 'First Wizarding War Legal Aftermath: Longbottom torture trial and Crouch
+      family scandal'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - azkaban
+    - barty-crouch-jr
+    - council-of-magical-law
+    - cruciatus-curse
+    - first-wizarding-war
+    - longbottoms
+    - ministry-of-magic
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
+  gof-ch30-007:
+    title: 'The Triwizard Tournament Revival: Linked disappearances and Ministry disagreement'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - barty-crouch
+    - bertha-jorkins
+    - dumbledore
+    - frank-bryce
+    - ministry-of-magic
+    - muggle-newspapers
+    - voldemort
+    source_unit: gof-ch30
+    output_yaml: sources/book-04/chapter-30-the-pensieve.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8303,6 +8409,8 @@ by_tag:
   - gof-ch09-007
   - gof-ch14-005
   - gof-ch27-007
+  - gof-ch30-003
+  - gof-ch30-006
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -8338,6 +8446,9 @@ by_tag:
   - gof-ch25-007
   - gof-ch27-007
   - gof-ch29-007
+  - gof-ch30-007
+  barty-crouch-jr:
+  - gof-ch30-006
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -8372,6 +8483,7 @@ by_tag:
   - gof-ch07-005
   - gof-ch28-005
   - gof-ch29-007
+  - gof-ch30-007
   bewitched-sleep:
   - gof-ch27-001
   black-flames:
@@ -8764,6 +8876,10 @@ by_tag:
   - ps-ch10-004
   - ps-ch12-001
   - ps-ch14-006
+  council-of-magical-law:
+  - gof-ch30-003
+  - gof-ch30-005
+  - gof-ch30-006
   countercurse:
   - ps-ch13-003
   - ps-ch17-001
@@ -8786,6 +8902,8 @@ by_tag:
   - poa-ch06-001
   course-selection:
   - cos-ch14-002
+  courtroom:
+  - gof-ch30-003
   courtyard:
   - ps-ch11-003
   covered-up-events:
@@ -8837,6 +8955,7 @@ by_tag:
   - poa-ch07-001
   cruciatus-curse:
   - gof-ch14-005
+  - gof-ch30-006
   crystal-gazing:
   - gof-ch21-005
   - poa-ch15-003
@@ -8911,6 +9030,7 @@ by_tag:
   - gof-ch09-007
   - gof-ch19-006
   - gof-ch27-005
+  - gof-ch30-004
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -8964,6 +9084,7 @@ by_tag:
   dementors:
   - gof-ch02-006
   - gof-ch14-004
+  - gof-ch30-003
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -8995,6 +9116,7 @@ by_tag:
   - gof-ch06-001
   department-of-mysteries:
   - gof-ch07-004
+  - gof-ch30-004
   deputy-headmistress:
   - ps-ch04-002
   dervish-and-banges:
@@ -9129,6 +9251,8 @@ by_tag:
   - gof-ch28-005
   - gof-ch28-007
   - gof-ch29-007
+  - gof-ch30-004
+  - gof-ch30-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9168,6 +9292,8 @@ by_tag:
   - cos-ch12-001
   - gof-ch28-006
   - gof-ch29-006
+  - gof-ch30-001
+  - gof-ch30-002
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -9399,6 +9525,9 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-004
   - gof-ch27-007
+  - gof-ch30-004
+  - gof-ch30-005
+  - gof-ch30-006
   - poa-ch10-006
   - ps-ch04-005
   first-year-arrival:
@@ -9524,6 +9653,8 @@ by_tag:
   fourth-year-curriculum:
   - gof-ch13-001
   - gof-ch14-006
+  frank-bryce:
+  - gof-ch30-007
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
@@ -9607,6 +9738,7 @@ by_tag:
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
+  - gof-ch30-001
   godrics-hollow:
   - gof-ch02-004
   - ps-ch01-003
@@ -9722,6 +9854,7 @@ by_tag:
   - ps-ch13-003
   gryffindor-sword:
   - cos-ch18-004
+  - gof-ch30-001
   gryffindor-team:
   - poa-ch13-001
   gryffindor-tower:
@@ -9909,9 +10042,11 @@ by_tag:
   - cos-ch13-006
   - gof-ch28-006
   - gof-ch29-006
+  - gof-ch30-001
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
+  - gof-ch30-001
   - poa-ch11-006
   headmasters:
   - cos-ch09-006
@@ -10440,6 +10575,7 @@ by_tag:
   - gof-ch19-006
   - gof-ch27-005
   - gof-ch28-007
+  - gof-ch30-004
   keeper:
   - cos-ch07-001
   keeper-of-keys:
@@ -10550,6 +10686,8 @@ by_tag:
   - cos-ch13-003
   logic-puzzle:
   - ps-ch16-007
+  longbottoms:
+  - gof-ch30-006
   love-potions:
   - gof-ch27-003
   loyalty:
@@ -10571,6 +10709,7 @@ by_tag:
   - gof-ch17-004
   - gof-ch18-005
   - gof-ch24-006
+  - gof-ch30-005
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -10641,6 +10780,7 @@ by_tag:
   - ps-ch08-001
   magical-artifact:
   - cos-ch17-005
+  - gof-ch30-002
   - ps-ch12-006
   magical-barrier:
   - cos-ch05-001
@@ -10850,6 +10990,7 @@ by_tag:
   - gof-ch10-001
   memory-magic:
   - cos-ch13-004
+  - gof-ch30-002
   memory-modification:
   - gof-ch13-005
   merchieftainess-murcus:
@@ -10912,6 +11053,10 @@ by_tag:
   - gof-ch19-007
   - gof-ch29-003
   - gof-ch29-007
+  - gof-ch30-003
+  - gof-ch30-005
+  - gof-ch30-006
+  - gof-ch30-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -10995,6 +11140,8 @@ by_tag:
   - gof-ch04-004
   muggle-households:
   - ps-ch03-004
+  muggle-newspapers:
+  - gof-ch30-007
   muggle-persecution:
   - cos-ch09-003
   muggle-post:
@@ -11232,6 +11379,8 @@ by_tag:
   - poa-ch20-006
   patronus-lessons:
   - poa-ch12-001
+  pattern-analysis:
+  - gof-ch30-002
   peeves:
   - cos-ch08-005
   - cos-ch11-006
@@ -11247,6 +11396,8 @@ by_tag:
   - poa-ch15-007
   - ps-ch13-002
   - ps-ch13-005
+  pensieve:
+  - gof-ch30-002
   percy-weasley:
   - cos-ch03-003
   - poa-ch01-004
@@ -11569,6 +11720,7 @@ by_tag:
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
+  - gof-ch30-005
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -11719,6 +11871,9 @@ by_tag:
   - cos-ch10-004
   ronan:
   - ps-ch15-006
+  rookwood:
+  - gof-ch30-004
+  - gof-ch30-005
   room-of-requirement:
   - gof-ch23-004
   rule-breaking:
@@ -12066,6 +12221,7 @@ by_tag:
   - gof-ch25-006
   - gof-ch27-005
   - gof-ch28-006
+  - gof-ch30-004
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -12101,6 +12257,7 @@ by_tag:
   - cos-ch18-004
   - gof-ch12-002
   - gof-ch12-003
+  - gof-ch30-001
   source-reliability:
   - gof-ch15-003
   special-awards:
@@ -12502,6 +12659,8 @@ by_tag:
   third-years:
   - gof-ch19-001
   - poa-ch02-001
+  thoughts:
+  - gof-ch30-002
   thousands-of-books:
   - ps-ch15-003
   three-broomsticks:
@@ -12738,6 +12897,7 @@ by_tag:
   - gof-ch10-005
   - gof-ch14-003
   - gof-ch14-004
+  - gof-ch30-007
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -12869,6 +13029,7 @@ by_tag:
   wizarding-law:
   - gof-ch14-003
   - gof-ch14-005
+  - gof-ch30-003
   - poa-ch21-003
   wizarding-prejudice:
   - gof-ch23-006

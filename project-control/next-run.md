@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Thirty - The Pensieve
-- Page range: 1434-1453
+- Chapter: Chapter Thirty-One - The Third Task
+- Page range: 1454-1478
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-30-the-pensieve.yaml`
+- Output YAML: `sources/book-04/chapter-31-the-third-task.yaml`
 
 ## Minimal Context
 

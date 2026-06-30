@@ -339,6 +339,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
+  - Linked disappearances and Ministry disagreement
   - Ministry investigation and visiting-school tensions
   - Student preparation for the third task
 - The Triwizard Year and Institutional Ceremonies
@@ -410,7 +411,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dippet-Era Office and Entrance Continuity
   - Gargoyle password and moving staircase
   - Office Interior, Portraits, and Artifacts
+  - Office artifacts and founder-linked objects
   - Passworded Gargoyle and Moving Staircase
+  - The Pensieve and stored memories
 - House Common Rooms and Dormitories
   - Gryffindor Tower Access
   - Password Access and Fireplace Communication
@@ -788,6 +791,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Wars, Crises, and School Memory
 
+- First Wizarding War Legal Aftermath
+  - Bagman's Rookwood-linked acquittal
+  - Council of Magical Law courtroom procedure
+  - Karkaroff testimony and Snape's wartime role
+  - Longbottom torture trial and Crouch family scandal
 - Harry Potter and the End of the First Wizarding War
   - Killing Curse survival and Potter-family testimony
 - Ministry Wartime Powers and Postwar Memory

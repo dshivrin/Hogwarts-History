@@ -8,31 +8,31 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 86
+- Total: 87
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 189
+- Harry Potter and the Goblet of Fire: 196
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 279
-- later_editorial_note: 218
+- harry_era_confirmation: 281
+- later_editorial_note: 219
 - original_book_core_candidate: 7
 - post_1984_excluded_from_original: 2
-- pre_1984_historical_candidate: 47
+- pre_1984_historical_candidate: 51
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 42
 - curriculum_or_subject: 81
-- direct_observed_setting: 32
+- direct_observed_setting: 33
 - explicit_hogwarts_a_history: 6
-- explicit_in_universe_source: 43
-- historical_claim: 52
+- explicit_in_universe_source: 44
+- historical_claim: 57
 - house_system: 10
 - institutional_custom: 106
 - magical_architecture: 43
@@ -46,12 +46,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 418
+- Total: 422
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, pages 1419-1433, `sources/book-04/chapter-29-the-dream.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, pages 1434-1453, `sources/book-04/chapter-30-the-pensieve.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, pages 1434-1453, `sources/book-04/chapter-30-the-pensieve.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, pages 1454-1478, `sources/book-04/chapter-31-the-third-task.yaml`
