@@ -406,10 +406,12 @@ tags:
     - gof-ch09-003
     - gof-ch17-003
     - gof-ch17-006
+    - gof-ch25-007
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   basilisk:
     entries:
     - cos-ch16-003
@@ -427,14 +429,21 @@ tags:
     entries:
     - cos-ch15-007
     - cos-ch16-006
+    - gof-ch25-004
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   bathroom-entrance:
     entries:
     - cos-ch17-007
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  bathrooms:
+    entries:
+    - gof-ch25-002
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   beauxbatons:
     entries:
     - gof-ch09-002
@@ -482,10 +491,13 @@ tags:
     - gof-ch15-007
     - gof-ch21-003
     - gof-ch24-005
+    - gof-ch25-003
+    - gof-ch25-004
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
@@ -574,8 +586,10 @@ tags:
   boris-the-bewildered:
     entries:
     - gof-ch23-007
+    - gof-ch25-002
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   borrowing-procedure:
     entries:
     - cos-ch10-001
@@ -793,14 +807,18 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   castle-map:
     entries:
+    - gof-ch25-001
     - poa-ch10-003
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   castle-navigation:
     entries:
     - cos-ch05-006
     - cos-ch12-005
     - gof-ch21-006
+    - gof-ch25-001
+    - gof-ch25-005
     - poa-ch06-002
     - poa-ch10-004
     - ps-ch08-001
@@ -816,6 +834,7 @@ tags:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   castle-protections:
     entries:
     - poa-ch09-001
@@ -880,10 +899,12 @@ tags:
     - gof-ch06-004
     - gof-ch16-007
     - gof-ch18-002
+    - gof-ch25-003
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   centaur-divination:
     entries:
     - ps-ch15-007
@@ -1122,10 +1143,12 @@ tags:
     - gof-ch20-007
     - gof-ch21-001
     - gof-ch22-006
+    - gof-ch25-003
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   coat-of-arms:
     entries:
     - gof-ch15-004
@@ -2893,6 +2916,7 @@ tags:
     - cos-ch01-001
     - cos-ch08-001
     - cos-ch08-005
+    - gof-ch25-004
     - poa-ch08-006
     - poa-ch09-002
     - ps-ch08-002
@@ -2902,6 +2926,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   giant-squid:
     entries:
     - gof-ch24-005
@@ -2996,12 +3021,14 @@ tags:
     - gof-ch23-005
     - gof-ch23-007
     - gof-ch24-006
+    - gof-ch25-003
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -4565,11 +4592,18 @@ tags:
     - gof-ch01-002
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+  intruders:
+    entries:
+    - gof-ch25-006
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   invisibility-cloak:
     entries:
     - gof-ch04-002
     - gof-ch19-003
     - gof-ch24-004
+    - gof-ch25-001
+    - gof-ch25-007
     - poa-ch14-004
     - poa-ch16-006
     - poa-ch17-004
@@ -4588,6 +4622,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -4968,6 +5003,7 @@ tags:
     - gof-ch17-005
     - gof-ch19-003
     - gof-ch19-006
+    - gof-ch25-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -4975,6 +5011,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -5048,6 +5085,7 @@ tags:
     - gof-ch17-007
     - gof-ch21-006
     - gof-ch23-004
+    - gof-ch25-002
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -5059,6 +5097,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -5157,8 +5196,10 @@ tags:
   magical-eye:
     entries:
     - gof-ch19-003
+    - gof-ch25-007
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   magical-games-and-sports:
     entries:
     - gof-ch12-007
@@ -5181,6 +5222,11 @@ tags:
     - gof-ch10-004
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  magical-locking:
+    entries:
+    - gof-ch25-006
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   magical-medicine:
     entries:
     - gof-ch02-005
@@ -5295,12 +5341,15 @@ tags:
   magical-surveillance:
     entries:
     - gof-ch19-003
+    - gof-ch25-001
+    - gof-ch25-007
     - poa-ch10-003
     - poa-ch17-004
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   magical-table-service:
     entries:
     - gof-ch23-003
@@ -5367,6 +5416,8 @@ tags:
   marauders-map:
     entries:
     - gof-ch04-002
+    - gof-ch25-001
+    - gof-ch25-007
     - poa-ch10-003
     - poa-ch13-006
     - poa-ch14-004
@@ -5386,6 +5437,7 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   marble-staircase:
     entries:
     - gof-ch22-003
@@ -5495,6 +5547,16 @@ tags:
     - gof-ch13-005
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  mermaid-portrait:
+    entries:
+    - gof-ch25-002
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  merpeople:
+    entries:
+    - gof-ch25-003
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   minister-of-magic:
     entries:
     - cos-ch04-005
@@ -5648,10 +5710,12 @@ tags:
     - cos-ch08-005
     - cos-ch15-007
     - cos-ch16-006
+    - gof-ch25-004
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   moaning-myrtle-bathroom:
     entries:
     - cos-ch12-004
@@ -5962,6 +6026,7 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
   nighttime-wandering:
     entries:
+    - gof-ch25-005
     - ps-ch09-005
     - ps-ch14-007
     - ps-ch15-001
@@ -5971,6 +6036,7 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   nimbus-two-thousand:
     entries:
     - poa-ch01-007
@@ -6005,6 +6071,11 @@ tags:
     - gof-ch07-004
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  office-security:
+    entries:
+    - gof-ch25-006
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   old-manors:
     entries:
     - cos-ch03-002
@@ -6020,6 +6091,11 @@ tags:
     - gof-ch17-003
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  olive-hornby:
+    entries:
+    - gof-ch25-004
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   oliver-wood:
     entries:
     - ps-ch09-003
@@ -6212,6 +6288,7 @@ tags:
     - gof-ch19-007
     - gof-ch22-007
     - gof-ch23-007
+    - gof-ch25-002
     - poa-ch08-004
     - poa-ch09-003
     - poa-ch11-006
@@ -6233,6 +6310,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   paths:
     entries:
     - ps-ch15-005
@@ -6445,8 +6523,10 @@ tags:
   plumbing:
     entries:
     - cos-ch16-007
+    - gof-ch25-004
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   poisoning:
     entries:
     - gof-ch19-003
@@ -6535,8 +6615,10 @@ tags:
   potion-ingredients:
     entries:
     - cos-ch11-002
+    - gof-ch25-006
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   potions:
     entries:
     - cos-ch09-007
@@ -6651,8 +6733,10 @@ tags:
   prefects-bathroom:
     entries:
     - gof-ch23-007
+    - gof-ch25-002
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   press-access:
     entries:
     - gof-ch24-004
@@ -6678,8 +6762,10 @@ tags:
   private-stores:
     entries:
     - cos-ch11-002
+    - gof-ch25-006
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   privet-drive:
     entries:
     - gof-ch03-004
@@ -6712,8 +6798,10 @@ tags:
     - cos-ch13-005
     - cos-ch13-006
     - cos-ch13-007
+    - gof-ch25-004
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   professor-flitwick:
     entries:
     - gof-ch22-005
@@ -7565,10 +7653,12 @@ tags:
     - gof-ch19-006
     - gof-ch19-007
     - gof-ch24-004
+    - gof-ch25-007
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   school-supplies:
     entries:
     - cos-ch04-002
@@ -7648,12 +7738,14 @@ tags:
     - gof-ch22-006
     - gof-ch23-007
     - gof-ch24-006
+    - gof-ch25-003
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -7726,12 +7818,15 @@ tags:
   secret-passageways:
     entries:
     - cos-ch01-001
+    - gof-ch25-001
+    - gof-ch25-005
     - ps-ch08-003
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-02/chapter-01-worst-birthday.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   security:
     entries:
     - gof-ch15-006
@@ -8000,6 +8095,7 @@ tags:
     entries:
     - cos-ch11-002
     - gof-ch18-004
+    - gof-ch25-006
     - poa-ch07-001
     - poa-ch08-005
     - ps-ch08-006
@@ -8019,6 +8115,7 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   snape-private-stores:
     entries:
     - cos-ch10-002
@@ -8239,6 +8336,11 @@ tags:
     - poa-ch10-006
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
+  staff-offices:
+    entries:
+    - gof-ch25-006
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   staff-permission:
     entries:
     - cos-ch07-002
@@ -8298,11 +8400,13 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
   staircases:
     entries:
+    - gof-ch25-005
     - poa-ch06-002
     - ps-ch08-001
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   stamps:
     entries:
     - gof-ch03-002
@@ -8551,12 +8655,14 @@ tags:
   student-privileges:
     entries:
     - gof-ch19-001
+    - gof-ch25-002
     - poa-ch02-001
     - poa-ch03-005
     output_yaml:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   student-reaction:
     entries:
     - gof-ch13-007
@@ -8605,6 +8711,11 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  student-rulebreaking:
+    entries:
+    - gof-ch25-001
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   student-safety:
     entries:
     - cos-ch13-007
@@ -8617,6 +8728,7 @@ tags:
     - gof-ch21-004
     - gof-ch22-004
     - gof-ch24-003
+    - gof-ch25-005
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -8637,6 +8749,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -8782,9 +8895,11 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
   tapestry:
     entries:
+    - gof-ch25-005
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   task-order:
     entries:
     - gof-ch20-006
@@ -9096,6 +9211,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  trick-step:
+    entries:
+    - gof-ch25-005
+    output_yaml:
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   trick-sweets:
     entries:
     - gof-ch05-002
@@ -9138,6 +9258,7 @@ tags:
     - gof-ch23-007
     - gof-ch24-005
     - gof-ch24-006
+    - gof-ch25-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
@@ -9152,6 +9273,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   triwizard-year:
     entries:
     - gof-ch01-004

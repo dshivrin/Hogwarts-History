@@ -87,3 +87,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch22`: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, pages 1270-1284, 7 entries, 0 explicit references.
 - `gof-ch23`: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, pages 1285-1309, 7 entries, 0 explicit references.
 - `gof-ch24`: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, pages 1310-1329, 7 entries, 0 explicit references.
+- `gof-ch25`: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, pages 1330-1347, 7 entries, 0 explicit references.

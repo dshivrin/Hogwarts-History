@@ -7586,6 +7586,118 @@ by_entry:
     - staff-governance
     source_unit: gof-ch24
     output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  gof-ch25-001:
+    title: 'Castle Navigation, Maps, and Concealed Routes: The Marauder''s Map in
+      Nighttime Castle Movement'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-map
+    - castle-navigation
+    - invisibility-cloak
+    - magical-surveillance
+    - marauders-map
+    - secret-passageways
+    - student-rulebreaking
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch25-002:
+    title: 'Bathrooms, Prefect Privileges, and Protected Facilities: Prefects'' Bathroom
+      Interior and Access Controls'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - bathrooms
+    - boris-the-bewildered
+    - magical-architecture
+    - mermaid-portrait
+    - passwords
+    - prefects-bathroom
+    - student-privileges
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch25-003:
+    title: 'The Triwizard Year and Institutional Procedure: Golden-Egg Clue and Lake
+      Task Preparation'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - black-lake
+    - cedric-diggory
+    - clue
+    - golden-egg
+    - merpeople
+    - second-task
+    - triwizard-tournament
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch25-004:
+    title: 'Ghosts, Portraits, and Castle Memory: Moaning Myrtle, Plumbing, and the
+      Lake'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: medium
+    tags:
+    - bathroom
+    - black-lake
+    - ghosts
+    - moaning-myrtle
+    - olive-hornby
+    - plumbing
+    - professor-dippet
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch25-005:
+    title: 'Castle Navigation, Maps, and Concealed Routes: Tapestry Shortcuts and
+      Trick Steps'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-navigation
+    - nighttime-wandering
+    - secret-passageways
+    - staircases
+    - student-safety
+    - tapestry
+    - trick-step
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch25-006:
+    title: 'Staff Offices, Stores, and Restricted Access: Snape''s Office Sealing
+      Spell and Private Cupboard'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - intruders
+    - magical-locking
+    - office-security
+    - potion-ingredients
+    - private-stores
+    - snape
+    - staff-offices
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  gof-ch25-007:
+    title: 'Staff Expertise and Magical Surveillance: Moody, the Map, and Tournament
+      Surveillance'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - barty-crouch
+    - invisibility-cloak
+    - mad-eye-moody
+    - magical-eye
+    - magical-surveillance
+    - marauders-map
+    - school-security
+    source_unit: gof-ch25
+    output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7773,6 +7885,7 @@ by_tag:
   - gof-ch09-003
   - gof-ch17-003
   - gof-ch17-006
+  - gof-ch25-007
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -7782,8 +7895,11 @@ by_tag:
   bathroom:
   - cos-ch15-007
   - cos-ch16-006
+  - gof-ch25-004
   bathroom-entrance:
   - cos-ch17-007
+  bathrooms:
+  - gof-ch25-002
   beauxbatons:
   - gof-ch09-002
   - gof-ch11-004
@@ -7808,6 +7924,8 @@ by_tag:
   - gof-ch15-007
   - gof-ch21-003
   - gof-ch24-005
+  - gof-ch25-003
+  - gof-ch25-004
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
@@ -7846,6 +7964,7 @@ by_tag:
   - cos-ch11-005
   boris-the-bewildered:
   - gof-ch23-007
+  - gof-ch25-002
   borrowing-procedure:
   - cos-ch10-001
   brazilian-school:
@@ -7944,11 +8063,14 @@ by_tag:
   castle-maintenance:
   - gof-ch12-004
   castle-map:
+  - gof-ch25-001
   - poa-ch10-003
   castle-navigation:
   - cos-ch05-006
   - cos-ch12-005
   - gof-ch21-006
+  - gof-ch25-001
+  - gof-ch25-005
   - poa-ch06-002
   - poa-ch10-004
   - ps-ch08-001
@@ -7984,6 +8106,7 @@ by_tag:
   - gof-ch06-004
   - gof-ch16-007
   - gof-ch18-002
+  - gof-ch25-003
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -8100,6 +8223,7 @@ by_tag:
   - gof-ch20-007
   - gof-ch21-001
   - gof-ch22-006
+  - gof-ch25-003
   coat-of-arms:
   - gof-ch15-004
   cockatrice:
@@ -8921,6 +9045,7 @@ by_tag:
   - cos-ch01-001
   - cos-ch08-001
   - cos-ch08-005
+  - gof-ch25-004
   - poa-ch08-006
   - poa-ch09-002
   - ps-ch08-002
@@ -8973,6 +9098,7 @@ by_tag:
   - gof-ch23-005
   - gof-ch23-007
   - gof-ch24-006
+  - gof-ch25-003
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -9711,10 +9837,14 @@ by_tag:
   - gof-ch07-003
   international-wizards:
   - gof-ch01-002
+  intruders:
+  - gof-ch25-006
   invisibility-cloak:
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
+  - gof-ch25-001
+  - gof-ch25-007
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -9899,6 +10029,7 @@ by_tag:
   - gof-ch17-005
   - gof-ch19-003
   - gof-ch19-006
+  - gof-ch25-007
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -9937,6 +10068,7 @@ by_tag:
   - gof-ch17-007
   - gof-ch21-006
   - gof-ch23-004
+  - gof-ch25-002
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -9982,6 +10114,7 @@ by_tag:
   - poa-ch03-003
   magical-eye:
   - gof-ch19-003
+  - gof-ch25-007
   magical-games-and-sports:
   - gof-ch12-007
   - gof-ch16-002
@@ -9991,6 +10124,8 @@ by_tag:
   - cos-ch12-001
   magical-law:
   - gof-ch10-004
+  magical-locking:
+  - gof-ch25-006
   magical-medicine:
   - gof-ch02-005
   magical-memory-source:
@@ -10041,6 +10176,8 @@ by_tag:
   - gof-ch07-002
   magical-surveillance:
   - gof-ch19-003
+  - gof-ch25-001
+  - gof-ch25-007
   - poa-ch10-003
   - poa-ch17-004
   magical-table-service:
@@ -10073,6 +10210,8 @@ by_tag:
   - poa-ch18-005
   marauders-map:
   - gof-ch04-002
+  - gof-ch25-001
+  - gof-ch25-007
   - poa-ch10-003
   - poa-ch13-006
   - poa-ch14-004
@@ -10131,6 +10270,10 @@ by_tag:
   - cos-ch13-004
   memory-modification:
   - gof-ch13-005
+  mermaid-portrait:
+  - gof-ch25-002
+  merpeople:
+  - gof-ch25-003
   minister-of-magic:
   - cos-ch04-005
   - poa-ch03-005
@@ -10205,6 +10348,7 @@ by_tag:
   - cos-ch08-005
   - cos-ch15-007
   - cos-ch16-006
+  - gof-ch25-004
   moaning-myrtle-bathroom:
   - cos-ch12-004
   monster-book-of-monsters:
@@ -10341,6 +10485,7 @@ by_tag:
   nighttime-route:
   - ps-ch14-006
   nighttime-wandering:
+  - gof-ch25-005
   - ps-ch09-005
   - ps-ch14-007
   - ps-ch15-001
@@ -10359,12 +10504,16 @@ by_tag:
   - ps-ch14-004
   obliviator:
   - gof-ch07-004
+  office-security:
+  - gof-ch25-006
   old-manors:
   - cos-ch03-002
   old-punishments:
   - ps-ch15-004
   older-student:
   - gof-ch17-003
+  olive-hornby:
+  - gof-ch25-004
   oliver-wood:
   - ps-ch09-003
   ollivander:
@@ -10454,6 +10603,7 @@ by_tag:
   - gof-ch19-007
   - gof-ch22-007
   - gof-ch23-007
+  - gof-ch25-002
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -10559,6 +10709,7 @@ by_tag:
   - poa-ch15-005
   plumbing:
   - cos-ch16-007
+  - gof-ch25-004
   poisoning:
   - gof-ch19-003
   poltergeist:
@@ -10598,6 +10749,7 @@ by_tag:
   - gof-ch10-001
   potion-ingredients:
   - cos-ch11-002
+  - gof-ch25-006
   potions:
   - cos-ch09-007
   - cos-ch10-002
@@ -10653,6 +10805,7 @@ by_tag:
   - ps-ch10-003
   prefects-bathroom:
   - gof-ch23-007
+  - gof-ch25-002
   press-access:
   - gof-ch24-004
   prior-incantato:
@@ -10664,6 +10817,7 @@ by_tag:
   - poa-ch20-005
   private-stores:
   - cos-ch11-002
+  - gof-ch25-006
   privet-drive:
   - gof-ch03-004
   - poa-ch01-002
@@ -10681,6 +10835,7 @@ by_tag:
   - cos-ch13-005
   - cos-ch13-006
   - cos-ch13-007
+  - gof-ch25-004
   professor-flitwick:
   - gof-ch22-005
   - poa-ch11-007
@@ -11074,6 +11229,7 @@ by_tag:
   - gof-ch19-006
   - gof-ch19-007
   - gof-ch24-004
+  - gof-ch25-007
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
@@ -11112,6 +11268,7 @@ by_tag:
   - gof-ch22-006
   - gof-ch23-007
   - gof-ch24-006
+  - gof-ch25-003
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -11147,6 +11304,8 @@ by_tag:
   - poa-ch22-004
   secret-passageways:
   - cos-ch01-001
+  - gof-ch25-001
+  - gof-ch25-005
   - ps-ch08-003
   - ps-ch09-006
   security:
@@ -11270,6 +11429,7 @@ by_tag:
   snape:
   - cos-ch11-002
   - gof-ch18-004
+  - gof-ch25-006
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -11372,6 +11532,8 @@ by_tag:
   - ps-ch01-005
   staff-memory:
   - poa-ch10-006
+  staff-offices:
+  - gof-ch25-006
   staff-permission:
   - cos-ch07-002
   staff-protections:
@@ -11397,6 +11559,7 @@ by_tag:
   stagecoaches:
   - poa-ch05-005
   staircases:
+  - gof-ch25-005
   - poa-ch06-002
   - ps-ch08-001
   stamps:
@@ -11505,6 +11668,7 @@ by_tag:
   - ps-ch06-004
   student-privileges:
   - gof-ch19-001
+  - gof-ch25-002
   - poa-ch02-001
   - poa-ch03-005
   student-reaction:
@@ -11528,6 +11692,8 @@ by_tag:
   - cos-ch12-002
   - poa-ch03-004
   - ps-ch12-001
+  student-rulebreaking:
+  - gof-ch25-001
   student-safety:
   - cos-ch13-007
   - cos-ch14-003
@@ -11539,6 +11705,7 @@ by_tag:
   - gof-ch21-004
   - gof-ch22-004
   - gof-ch24-003
+  - gof-ch25-005
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -11607,6 +11774,7 @@ by_tag:
   tampering:
   - cos-ch10-004
   tapestry:
+  - gof-ch25-005
   - ps-ch09-006
   task-order:
   - gof-ch20-006
@@ -11742,6 +11910,8 @@ by_tag:
   trapdoor:
   - ps-ch09-007
   - ps-ch16-005
+  trick-step:
+  - gof-ch25-005
   trick-sweets:
   - gof-ch05-002
   triwizard-rules:
@@ -11777,6 +11947,7 @@ by_tag:
   - gof-ch23-007
   - gof-ch24-005
   - gof-ch24-006
+  - gof-ch25-003
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003

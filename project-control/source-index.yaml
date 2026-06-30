@@ -973,3 +973,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1310-1329.
+- source_unit_id: gof-ch25
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 25
+  chapter_title: Chapter Twenty-Five - The Egg and the Eye
+  page_start: 1330
+  page_end: 1347
+  output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  processed_at: '2026-06-30'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1330-1347.

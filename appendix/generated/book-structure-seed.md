@@ -118,6 +118,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Castle Architecture and Daily Operations
 
 - Bathrooms, Prefect Privileges, and Protected Facilities
+  - Prefects' Bathroom Interior and Access Controls
   - Prefects' Bathroom Location and Tournament Clue Use
 - House Common Rooms and Dormitories
   - Passworded Portrait Access
@@ -193,6 +194,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Procedure
   - Champion Representative Duties
   - Cooperation, Rivalry, and Foreign Student Contact
+  - Golden-Egg Clue and Lake Task Preparation
   - Judge Conduct and Second-Task Clue Fairness
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
@@ -369,9 +371,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Magical Architecture and Enchantments
 
 - Castle Navigation, Maps, and Concealed Routes
+  - Tapestry Shortcuts and Trick Steps
   - The Honeydukes Passage
   - The Marauder's Map
   - The Marauder's Map and Secret Passage Knowledge
+  - The Marauder's Map in Nighttime Castle Movement
   - The Whomping Willow Tunnel
 - Changing Staircases and Responsive Doors
   - Navigating the Castle
@@ -405,6 +409,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Dangerous Creatures in Study and Tournament Use
   - Dragon Lore in Hogwarts Library Sources
+
+## Magical Residents and Hidden Histories
+
+- Ghosts, Portraits, and Castle Memory
+  - Moaning Myrtle, Plumbing, and the Lake
 
 ## Notable Events Before 1984
 
@@ -506,6 +515,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Expertise and Magical Surveillance
   - Moody's Dark Detectors in the Classroom Office
   - Moody's Eye and Anti-Concealment Detection
+  - Moody, the Map, and Tournament Surveillance
+- Staff Offices, Stores, and Restricted Access
+  - Snape's Office Sealing Spell and Private Cupboard
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory

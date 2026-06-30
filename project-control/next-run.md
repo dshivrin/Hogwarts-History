@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-Five - The Egg and the Eye
-- Page range: 1330-1347
+- Chapter: Chapter Twenty-Six - The Second Task
+- Page range: 1348-1371
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+- Output YAML: `sources/book-04/chapter-26-the-second-task.yaml`
 
 ## Minimal Context
 

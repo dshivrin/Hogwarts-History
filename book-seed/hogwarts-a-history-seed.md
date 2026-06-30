@@ -302,6 +302,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter map
   - Corroborates: `poa-ch10-004`. Book 3 Chapter Ten identifies the one-eyed-witch route and Honeydukes endpoint; this entry corroborates its repeat use, map-based route checking, Fat Lady misdirection, and interaction with crisis security.
   - Notes: The route's origin, builders, and staff knowledge remain unstated.
 
+#### Section: Tapestry Shortcuts and Trick Steps
+
+Summary: The available evidence includes 1 source item, led by: The chapter adds a concrete hidden staircase route behind a tapestry and a recurring trick-step hazard that students must remember while navigating the castle.
+
+- **Corroboration:** The chapter adds a concrete hidden staircase route behind a tapestry and a recurring trick-step hazard that students must remember while navigating the castle.
+  - Quote: "a shortcut that would take him down two floors"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1337, `gof-ch25-005`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ps-ch09-006`. ps-ch09-006 records earlier tapestry/statue route evidence; this entry adds a different tapestry shortcut, a two-floor staircase, and the named trick step Neville often forgets.
+  - Notes: The passage does not identify the exact floor or endpoint beyond its relation to Snape's office route.
+
 #### Section: The Marauder's Map and Secret Passage Knowledge
 
 Summary: The available evidence includes 1 source item, led by: Lupin's resignation changes his custodial stance toward confiscated dangerous knowledge, and he returns tools that enable hidden movement through Hogwarts.
@@ -313,6 +325,18 @@ Summary: The available evidence includes 1 source item, led by: Lupin's resignat
   - Reference type: magical_architecture
   - Corroborates: `poa-ch18-006`. Book 3 Chapter Eighteen explains the Marauder's Map as the product of Marauders' grounds and Hogsmeade exploration; this entry adds Lupin's post-resignation return of the map and explicit approval of secret-passage discovery.
   - Notes: The passage does not identify additional passages or state any formal school rule governing return of confiscated dangerous artifacts.
+
+#### Section: The Marauder's Map in Nighttime Castle Movement
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates the Marauder's Map as a castle-wide surveillance and navigation object useful for avoiding staff during unauthorized movement.
+
+- **Corroboration:** The chapter corroborates the Marauder's Map as a castle-wide surveillance and navigation object useful for avoiding staff during unauthorized movement.
+  - Quote: "the whole of Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1330, `gof-ch25-001`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `poa-ch10-003`, `poa-ch17-004`. poa-ch10-003 introduces the map's castle-and-grounds display and secret passages, while poa-ch17-004 confirms tracking under concealment; this entry adds planned bathroom access and repeated in-castle avoidance of patrols.
+  - Notes: The map is an illicit student artifact rather than an official Hogwarts record.
 
 #### Section: The Whomping Willow Tunnel
 
@@ -3809,6 +3833,32 @@ Summary: The available evidence includes 1 source item, led by: Moody's classroo
   - Corroborates: `poa-ch17-004`, `poa-ch14-004`. poa-ch17-004 records the Marauder's Map tracking Invisibility Cloak users and poa-ch14-004 records cloak-assisted evasion; this entry adds Moody's personal magical-eye detection.
   - Notes: The eye is Moody's personal artifact, not a general Hogwarts security enchantment.
 
+#### Section: Moody, the Map, and Tournament Surveillance
+
+Summary: The available evidence includes 1 source item, led by: Moody's magical eye again defeats cloak concealment, and his borrowing of the Marauder's Map turns a student navigation artifact into a staff-level surveillance tool during the tournament crisis.
+
+- **Corroboration:** Moody's magical eye again defeats cloak concealment, and his borrowing of the Marauder's Map turns a student navigation artifact into a staff-level surveillance tool during the tournament crisis.
+  - Quote: "Moody could see through Invisibility Cloaks"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1340, `gof-ch25-007`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch19-003`, `poa-ch10-003`, `poa-ch17-004`. gof-ch19-003 records Moody's eye seeing through the cloak, while poa-ch10-003 and poa-ch17-004 record map tracking; this entry adds Moody's rescue, Crouch-in-office evidence, and temporary staff custody of the map.
+  - Notes: Moody's motives and identity are later complicated, so this entry should be treated as observed capability and behavior rather than a stable staff-policy example.
+
+### Chapter: Staff Offices, Stores, and Restricted Access
+
+#### Section: Snape's Office Sealing Spell and Private Cupboard
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that Snape protects his office with a wizard-only spell and that his private cupboard can be a target for searches or theft.
+
+- **Corroboration:** The chapter confirms that Snape protects his office with a wizard-only spell and that his private cupboard can be a target for searches or theft.
+  - Quote: "I seal my office with a spell"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1339, `gof-ch25-006`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `cos-ch11-002`. cos-ch11-002 records Snape's private stores and illicit ingredient theft; this entry adds the office search, lit torches, open cupboard, and wizard-only sealing spell.
+  - Notes: The passage does not list the missing or searched-for materials, and later plot revelations complicate who was actually in the office.
+
 ### Chapter: The Chamber of Secrets
 
 #### Section: Legend, Hidden Room, and Heir Language
@@ -5667,6 +5717,18 @@ Summary: The available evidence includes 1 source item, led by: Hermione identif
 
 ### Chapter: Bathrooms, Prefect Privileges, and Protected Facilities
 
+#### Section: Prefects' Bathroom Interior and Access Controls
+
+Summary: The available evidence includes 1 source item, led by: The chapter supplies detailed physical evidence for a protected prefect facility, including its password, nearby landmark, luxurious bath architecture, and resident mermaid portrait.
+
+- **Corroboration:** The chapter supplies detailed physical evidence for a protected prefect facility, including its password, nearby landmark, luxurious bath architecture, and resident mermaid portrait.
+  - Quote: "about a hundred golden taps"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1331, `gof-ch25-002`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch23-007`. gof-ch23-007 records Cedric's directions, fifth-floor location context, and the password; this entry adds direct interior observation, bath fittings, and the mermaid portrait.
+  - Notes: The chapter shows one visit and does not explain who maintains the bathroom or how often the password changes.
+
 #### Section: Prefects' Bathroom Location and Tournament Clue Use
 
 Summary: The available evidence includes 1 source item, led by: Cedric's reciprocal clue points Harry toward solving the golden egg in water and identifies a password-protected prefects' bathroom near Boris the Bewildered on the fifth floor.
@@ -5854,6 +5916,18 @@ Summary: The available evidence includes 1 source item, led by: Student conflict
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-007`, `gof-ch15-005`, `gof-ch17-002`. gof-ch12-007 records the Tournament revival and Ministry role, gof-ch15-005 records formal delegation welcome, and gof-ch17-002 records fairness disputes; this entry adds explicit social-diplomatic purpose and student suspicion during the ball.
   - Notes: Hermione and Percy articulate the cooperation purpose informally; the passage does not quote the tournament charter.
+
+#### Section: Golden-Egg Clue and Lake Task Preparation
+
+Summary: The available evidence includes 1 source item, led by: The golden egg's clue is solved by submerging it, identifying the second task as an underwater retrieval connected to the merpeople in the Hogwarts lake.
+
+- **Corroboration:** The golden egg's clue is solved by submerging it, identifying the second task as an underwater retrieval connected to the merpeople in the Hogwarts lake.
+  - Quote: "open it under the water"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1333, `gof-ch25-003`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch20-007`, `gof-ch21-001`, `gof-ch22-006`, `gof-ch23-007`, `gof-ch24-006`. Earlier entries record egg distribution, failed readings, schedule neglect, Cedric's bathroom hint, and Bagman's improper help offer; this entry adds the solved underwater message and merpeople-lake inference.
+  - Notes: Harry infers the lake task before official confirmation; the full task mechanics appear in the following chapter.
 
 #### Section: Judge Conduct and Second-Task Clue Fairness
 
@@ -6061,6 +6135,22 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
+
+## Part: Magical Residents and Hidden Histories
+
+### Chapter: Ghosts, Portraits, and Castle Memory
+
+#### Section: Moaning Myrtle, Plumbing, and the Lake
+
+Summary: The available evidence includes 1 source item, led by: Myrtle's account links Hogwarts ghost movement to plumbing that can reach the lake and adds historical testimony about her bathroom death under Professor Dippet's headmastership.
+
+- **Corroboration:** Myrtle's account links Hogwarts ghost movement to plumbing that can reach the lake and adds historical testimony about her bathroom death under Professor Dippet's headmastership.
+  - Quote: "someone flushes my toilet"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, PDF p. 1335, `gof-ch25-004`, `sources/book-04/chapter-25-the-egg-and-the-eye.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `cos-ch08-005`, `cos-ch15-007`, `cos-ch16-006`, `cos-ch16-007`. Earlier entries identify Myrtle's bathroom haunting, death evidence, Chamber bathroom entrance, and plumbing-linked tunnels; this entry adds her pipe-to-lake movement and Dippet/Olive Hornby body-discovery testimony.
+  - Notes: Myrtle is emotional and digressive, so the entry should be used for corroborated ghost and infrastructure details rather than precise legal chronology.
 
 ## Part: Original Book Core
 
