@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 22
-  chapter_title: Chapter Twenty-Two - The Unexpected Task
-  page_start: 1270
-  page_end: 1284
-  output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 23
   chapter_title: Chapter Twenty-Three - The Yule Ball
   page_start: 1285
   page_end: 1309
   output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1310
   page_end: 1329
   output_yaml: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 25
+  chapter_title: Chapter Twenty-Five - The Egg and the Eye
+  page_start: 1330
+  page_end: 1347
+  output_yaml: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

@@ -7363,6 +7363,117 @@ by_entry:
     - portraits
     source_unit: gof-ch22
     output_yaml: sources/book-04/chapter-22-the-unexpected-task.yaml
+  gof-ch23-001:
+    title: 'Christmas at Hogwarts: Holiday Residence, Food Service, and Visiting Delegations'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - christmas
+    - gryffindor-tower
+    - hogwarts-grounds
+    - holidays
+    - homework
+    - house-elves
+    - visiting-schools
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch23-002:
+    title: 'The Triwizard Year and Institutional Procedure: Yule Ball Staging and
+      Great Hall Reconfiguration'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - champions
+    - great-hall
+    - house-tables
+    - judges
+    - magical-decorations
+    - procession
+    - yule-ball
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch23-003:
+    title: 'Kitchens, Food Service, and Hidden Labor: Feast Service by Spoken Menu
+      Orders'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - food-service
+    - great-hall-feast
+    - hogwarts-kitchens
+    - house-elves
+    - magical-table-service
+    - spew
+    - yule-ball
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch23-004:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: The Vanishing
+      Chamber-Pot Room'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore
+    - durmstrang
+    - hidden-room
+    - hogwarts-secrets
+    - magical-architecture
+    - room-of-requirement
+    - school-secrecy
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch23-005:
+    title: 'The Triwizard Year and Institutional Procedure: Cooperation, Rivalry,
+      and Foreign Student Contact'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - beauxbatons
+    - durmstrang
+    - golden-egg
+    - inter-school-relations
+    - international-magical-cooperation
+    - school-rivalry
+    - triwizard-tournament
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch23-006:
+    title: 'Staff Biographies and Institutional Memory: Hagrid, Giant Ancestry, and
+      Dumbledore''s Patronage'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dumbledore
+    - giantess
+    - giants
+    - hagrid
+    - half-giant
+    - staff-biography
+    - wizarding-prejudice
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
+  gof-ch23-007:
+    title: 'Bathrooms, Prefect Privileges, and Protected Facilities: Prefects'' Bathroom
+      Location and Tournament Clue Use'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - boris-the-bewildered
+    - fifth-floor
+    - golden-egg
+    - passwords
+    - prefects-bathroom
+    - second-task
+    - triwizard-tournament
+    source_unit: gof-ch23
+    output_yaml: sources/book-04/chapter-23-the-yule-ball.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -7571,6 +7682,7 @@ by_tag:
   - gof-ch16-005
   - gof-ch17-002
   - gof-ch21-003
+  - gof-ch23-005
   bedtime-enforcement:
   - poa-ch13-006
   bertha-jorkins:
@@ -7617,6 +7729,8 @@ by_tag:
   - poa-ch01-005
   bookshelves:
   - cos-ch11-005
+  boris-the-bewildered:
+  - gof-ch23-007
   borrowing-procedure:
   - cos-ch10-001
   brazilian-school:
@@ -7806,6 +7920,7 @@ by_tag:
   - gof-ch20-002
   - gof-ch20-006
   - gof-ch22-002
+  - gof-ch23-002
   champions-tent:
   - gof-ch20-005
   charlie-weasley:
@@ -7832,6 +7947,7 @@ by_tag:
   - poa-ch05-004
   christmas:
   - gof-ch22-003
+  - gof-ch23-001
   - poa-ch11-004
   - ps-ch12-003
   christmas-dinner:
@@ -8257,6 +8373,8 @@ by_tag:
   - gof-ch12-006
   - gof-ch14-002
   - gof-ch21-007
+  - gof-ch23-004
+  - gof-ch23-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -8317,6 +8435,8 @@ by_tag:
   - gof-ch17-004
   - gof-ch19-006
   - gof-ch21-003
+  - gof-ch23-004
+  - gof-ch23-005
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -8462,6 +8582,8 @@ by_tag:
   - ps-ch12-003
   field-booking:
   - cos-ch07-002
+  fifth-floor:
+  - gof-ch23-007
   fighting:
   - ps-ch12-002
   filch:
@@ -8572,6 +8694,7 @@ by_tag:
   - gof-ch20-003
   food-service:
   - gof-ch21-006
+  - gof-ch23-003
   forbidden-corridor:
   - ps-ch09-007
   forbidden-forest:
@@ -8675,6 +8798,10 @@ by_tag:
   - ps-ch08-002
   giant-squid:
   - ps-ch16-002
+  giantess:
+  - gof-ch23-006
+  giants:
+  - gof-ch23-006
   gilderoy-lockhart:
   - cos-ch04-006
   - cos-ch06-006
@@ -8714,6 +8841,8 @@ by_tag:
   - gof-ch20-007
   - gof-ch21-001
   - gof-ch22-006
+  - gof-ch23-005
+  - gof-ch23-007
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -8730,6 +8859,7 @@ by_tag:
   - gof-ch21-006
   - gof-ch22-001
   - gof-ch22-003
+  - gof-ch23-002
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -8744,6 +8874,7 @@ by_tag:
   - ps-ch17-005
   great-hall-feast:
   - gof-ch12-004
+  - gof-ch23-003
   great-lake:
   - poa-ch20-004
   - poa-ch20-007
@@ -8822,6 +8953,7 @@ by_tag:
   - gof-ch21-002
   - gof-ch22-006
   - gof-ch22-007
+  - gof-ch23-001
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -8861,6 +8993,7 @@ by_tag:
   - gof-ch18-003
   - gof-ch21-004
   - gof-ch22-004
+  - gof-ch23-006
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -8902,6 +9035,8 @@ by_tag:
   hagrids-hut:
   - poa-ch06-005
   - poa-ch17-004
+  half-giant:
+  - gof-ch23-006
   halloween-feast:
   - cos-ch07-005
   - cos-ch08-004
@@ -9057,6 +9192,7 @@ by_tag:
   - ps-ch09-006
   hidden-room:
   - cos-ch17-001
+  - gof-ch23-004
   hidden-trapdoor:
   - poa-ch10-004
   hidden-voice:
@@ -9156,6 +9292,7 @@ by_tag:
   - gof-ch19-005
   - gof-ch20-005
   - gof-ch21-003
+  - gof-ch23-001
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -9168,6 +9305,7 @@ by_tag:
   - gof-ch19-002
   - gof-ch21-002
   - gof-ch21-006
+  - gof-ch23-003
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -9188,6 +9326,8 @@ by_tag:
   - poa-ch19-004
   hogwarts-robes:
   - gof-ch10-007
+  hogwarts-secrets:
+  - gof-ch23-004
   hogwarts-security:
   - gof-ch01-004
   - gof-ch02-006
@@ -9218,6 +9358,8 @@ by_tag:
   - ps-ch17-006
   holiday-sign-up:
   - cos-ch11-001
+  holidays:
+  - gof-ch23-001
   holidays-at-hogwarts:
   - poa-ch11-004
   home-life-and-social-habits:
@@ -9227,6 +9369,7 @@ by_tag:
   - cos-ch13-001
   - gof-ch13-004
   - gof-ch14-006
+  - gof-ch23-001
   - poa-ch02-002
   - poa-ch07-007
   - poa-ch10-001
@@ -9296,6 +9439,8 @@ by_tag:
   - gof-ch21-002
   - gof-ch21-006
   - gof-ch21-007
+  - gof-ch23-001
+  - gof-ch23-003
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -9347,6 +9492,7 @@ by_tag:
   - gof-ch12-001
   - gof-ch16-001
   - gof-ch21-006
+  - gof-ch23-002
   - poa-ch11-005
   house-teams:
   - cos-ch07-001
@@ -9406,6 +9552,7 @@ by_tag:
   - gof-ch12-005
   inter-school-relations:
   - gof-ch17-002
+  - gof-ch23-005
   interior-rooms:
   - ps-ch09-004
   interior-setting:
@@ -9418,6 +9565,7 @@ by_tag:
   - gof-ch05-003
   - gof-ch12-007
   - gof-ch16-002
+  - gof-ch23-005
   international-quidditch:
   - gof-ch08-005
   international-transport:
@@ -9459,6 +9607,7 @@ by_tag:
   - gof-ch17-006
   - gof-ch18-006
   - gof-ch20-007
+  - gof-ch23-002
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -9647,6 +9796,7 @@ by_tag:
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
+  - gof-ch23-004
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -9677,6 +9827,8 @@ by_tag:
   - gof-ch20-001
   - ps-ch14-002
   - ps-ch15-007
+  magical-decorations:
+  - gof-ch23-002
   magical-delivery:
   - ps-ch03-004
   magical-devices:
@@ -9749,6 +9901,8 @@ by_tag:
   - gof-ch19-003
   - poa-ch10-003
   - poa-ch17-004
+  magical-table-service:
+  - gof-ch23-003
   magical-transport:
   - gof-ch04-004
   - poa-ch03-002
@@ -10155,6 +10309,7 @@ by_tag:
   - gof-ch17-007
   - gof-ch19-007
   - gof-ch22-007
+  - gof-ch23-007
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -10352,6 +10507,8 @@ by_tag:
   - ps-ch06-002
   - ps-ch09-005
   - ps-ch10-003
+  prefects-bathroom:
+  - gof-ch23-007
   prior-incantato:
   - gof-ch09-006
   prior-opening:
@@ -10367,6 +10524,8 @@ by_tag:
   - poa-ch02-002
   - poa-ch02-003
   - ps-ch03-003
+  procession:
+  - gof-ch23-002
   professor-binns:
   - cos-ch09-002
   - cos-ch09-003
@@ -10621,6 +10780,8 @@ by_tag:
   - cos-ch10-004
   ronan:
   - ps-ch15-006
+  room-of-requirement:
+  - gof-ch23-004
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -10733,6 +10894,8 @@ by_tag:
   - gof-ch11-005
   school-representatives:
   - gof-ch22-002
+  school-rivalry:
+  - gof-ch23-005
   school-rules:
   - gof-ch11-003
   - gof-ch12-005
@@ -10747,6 +10910,7 @@ by_tag:
   - cos-ch09-006
   school-secrecy:
   - gof-ch11-004
+  - gof-ch23-004
   school-security:
   - cos-ch02-002
   - gof-ch19-003
@@ -10788,6 +10952,7 @@ by_tag:
   - gof-ch20-007
   - gof-ch21-001
   - gof-ch22-006
+  - gof-ch23-007
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -11002,6 +11167,7 @@ by_tag:
   - gof-ch14-007
   - gof-ch16-006
   - gof-ch19-002
+  - gof-ch23-003
   spiral-staircase:
   - ps-ch14-006
   splinching:
@@ -11027,6 +11193,8 @@ by_tag:
   - poa-ch17-003
   staff-authorization:
   - cos-ch11-003
+  staff-biography:
+  - gof-ch23-006
   staff-boundaries:
   - gof-ch19-004
   staff-duties:
@@ -11439,6 +11607,8 @@ by_tag:
   - gof-ch22-001
   - gof-ch22-002
   - gof-ch22-006
+  - gof-ch23-005
+  - gof-ch23-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -11526,6 +11696,7 @@ by_tag:
   - gof-ch19-004
   - gof-ch20-002
   - gof-ch22-003
+  - gof-ch23-001
   visitor-access:
   - ps-ch17-004
   visitor-control:
@@ -11669,6 +11840,8 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-005
   - poa-ch21-003
+  wizarding-prejudice:
+  - gof-ch23-006
   wizarding-press:
   - gof-ch18-005
   wizarding-schools:
@@ -11707,3 +11880,5 @@ by_tag:
   yule-ball:
   - gof-ch22-001
   - gof-ch22-002
+  - gof-ch23-002
+  - gof-ch23-003

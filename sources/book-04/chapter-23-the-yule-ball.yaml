@@ -1,0 +1,320 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Three range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty-Two and next Chapter Twenty-Four anchors and extracted only PDF pages 1285-1309 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Twenty-Three. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch23-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1285
+  printed_page: null
+  extracted_text_lines: 6-31
+  text_anchor:
+    start_phrase: Despite the very heavy load of homework
+    end_phrase: I will not fit into my dress robes
+    local_occurrence_note: The chapter opens with Christmas-week student life, winter conditions around the visiting schools' lodgings, and rich kitchen food before the ball.
+  nearby_context: Gryffindor Tower remains crowded during the holidays, snow covers the castle and grounds, the Beauxbatons carriage and Durmstrang ship remain on site, and the house-elves provide unusually rich food.
+  match_terms:
+  - Christmas holidays
+  - Gryffindor Tower
+  - Beauxbatons carriage
+  - Durmstrang ship
+  - house-elves
+  - Hogwarts food
+  quote_excerpt_short: "very heavy load of homework"
+  source_note: Christmas break at Hogwarts still carries fourth-year homework, crowded House common-room life, winter grounds conditions, guest-school lodging, and intensified kitchen service by house-elves.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - christmas
+  - holidays
+  - homework
+  - gryffindor-tower
+  - house-elves
+  - visiting-schools
+  - hogwarts-grounds
+  candidate_part: Castle Life and Seasonal Customs
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: Holiday Residence, Food Service, and Visiting Delegations
+  reason_for_placement: The passage gives practical holiday operations rather than only decoration, tying student residence, academic carryover, kitchens, and foreign delegation lodgings together.
+  relevance_to_hogwarts_a_history: A later edition can use this to document what Hogwarts looked like and how it operated during a tournament-year Christmas break.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch21-002; gof-ch21-003; gof-ch22-003
+    notes: gof-ch21-002 records informal kitchen food access, gof-ch21-003 records visiting-school winter lodging, and gof-ch22-003 records Christmas presentation; this entry adds holiday crowding, homework load, and rich kitchen service in the week before the ball.
+  confidence: high
+  limitations: The opening summarizes holiday conditions and does not describe a formal rule for who may remain at school over Christmas.
+- id: gof-ch23-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1293
+  printed_page: null
+  extracted_text_lines: 282-328
+  text_anchor:
+    start_phrase: The oak front doors opened
+    end_phrase: each seating about a dozen people
+    local_occurrence_note: McGonagall gathers the champions, sends ordinary attendees inside first, and leads the formal procession into the transformed Great Hall.
+  nearby_context: The lawn outside has been changed into a fairy-lit grotto, champions enter after the seated students, judges sit at the top table, and the House tables have been replaced by many smaller lantern-lit tables.
+  match_terms:
+  - Yule Ball
+  - champions
+  - procession
+  - Great Hall
+  - judges
+  - House tables
+  quote_excerpt_short: "enter the Great Hall in procession"
+  source_note: "The Yule Ball uses formal staging: outdoor magical decoration, champion assembly, a procession into the Great Hall, a judges' table, silver-frosted walls, and temporary replacement of House tables."
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - yule-ball
+  - champions
+  - great-hall
+  - judges
+  - house-tables
+  - procession
+  - magical-decorations
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Yule Ball Staging and Great Hall Reconfiguration
+  reason_for_placement: The passage shows the event's actual operating layout and ceremonial order after the prior chapter's announcement of the custom.
+  relevance_to_hogwarts_a_history: A later edition can describe how Hogwarts adapted the Great Hall and entrance grounds for a formal inter-school tournament occasion.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch22-001; gof-ch22-002; gof-ch22-003
+    notes: gof-ch22-001 records eligibility and venue, gof-ch22-002 records the champions' ceremonial duty, and gof-ch22-003 records Christmas decoration; this entry adds the enacted procession, judges' seating, outdoor grotto, and House-table replacement.
+  confidence: high
+  limitations: The passage documents the revived 1994 ball and does not prove every historical Yule Ball used the same layout.
+- id: gof-ch23-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1296
+  printed_page: null
+  extracted_text_lines: 371-380
+  text_anchor:
+    start_phrase: There was no food as yet
+    end_phrase: thinking about S.P.E.W.
+    local_occurrence_note: At the top table, guests order from small menus by speaking to their plates, and Harry infers extra work for house-elves.
+  nearby_context: Dumbledore models the service method by ordering pork chops, food appears on the plate, and Hermione's usual house-elf activism is briefly contrasted with her attention to Krum.
+  match_terms:
+  - Yule Ball feast
+  - menus
+  - plates
+  - house-elves
+  - S.P.E.W.
+  - Dumbledore
+  quote_excerpt_short: "placed their orders with their plates"
+  source_note: The Yule Ball feast uses menu-directed plate service instead of visible waiters, apparently increasing hidden house-elf labor behind the Great Hall service.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - yule-ball
+  - great-hall-feast
+  - house-elves
+  - hogwarts-kitchens
+  - food-service
+  - spew
+  - magical-table-service
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Kitchens, Food Service, and Hidden Labor
+  candidate_section: Feast Service by Spoken Menu Orders
+  reason_for_placement: The passage supplies a concrete food-service mechanism that connects Great Hall dining magic with unseen kitchen labor.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how elaborate Hogwarts feasts may be served without visible staff and why house-elf labor remains easy to overlook.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-004; gof-ch21-006; gof-ch15-003
+    notes: gof-ch12-004 records the house-elf workforce, gof-ch21-006 records the kitchen layout beneath the Great Hall, and gof-ch15-003 records Hermione's critique of house-elf omissions; this entry adds spoken menu plate service at a formal feast.
+  confidence: high
+  limitations: Harry infers the house-elf workload; the passage does not show the kitchens during this specific service.
+- id: gof-ch23-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1296
+  printed_page: null
+  extracted_text_lines: 384-409
+  text_anchor:
+    start_phrase: Vell, ve have a castle also
+    end_phrase: exceptionally full bladder
+    local_occurrence_note: Krum compares Durmstrang with Hogwarts, Karkaroff defends school secrecy, and Dumbledore gives an example of a vanished chamber-pot room.
+  nearby_context: Durmstrang is described as smaller but with larger grounds and strong location secrecy, while Dumbledore explicitly refuses to claim full knowledge of Hogwarts' secrets.
+  match_terms:
+  - Hogwarts secrets
+  - Durmstrang
+  - school secrecy
+  - hidden room
+  - chamber pots
+  - magical architecture
+  quote_excerpt_short: "I know all Hogwarts' secrets"
+  source_note: The dinner conversation frames magical schools as secretive institutions and confirms that even Dumbledore can encounter an unknown, vanishing room inside Hogwarts.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogwarts-secrets
+  - magical-architecture
+  - hidden-room
+  - room-of-requirement
+  - durmstrang
+  - school-secrecy
+  - dumbledore
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  candidate_section: The Vanishing Chamber-Pot Room
+  reason_for_placement: The passage is a rare staff-level admission that Hogwarts contains rooms not fully catalogued even by the headmaster.
+  relevance_to_hogwarts_a_history: This can support a later architectural chapter on unknown or responsive castle spaces and the limits of any official history's completeness.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found general hidden-room and magical-architecture entries, but no prior entry for Dumbledore's vanished chamber-pot room or his claim not to know all Hogwarts secrets.
+  confidence: high
+  limitations: The room is described in conversation and not directly visited by Harry in this chapter.
+- id: gof-ch23-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1300
+  printed_page: null
+  extracted_text_lines: 521-601
+  text_anchor:
+    start_phrase: He's from Durmstrang
+    end_phrase: international magical cooperation
+    local_occurrence_note: Ron frames Krum as an enemy, Hermione states the tournament's friendship purpose, and Percy reduces the same idea to Ministry language.
+  nearby_context: Ron suspects Durmstrang espionage and egg-clue manipulation, but Hermione insists the tournament is meant for getting to know foreign wizards; Percy later calls Ron's contact with Krum the point of international magical cooperation.
+  match_terms:
+  - Durmstrang
+  - foreign wizards
+  - international magical cooperation
+  - Triwizard Tournament
+  - Krum
+  - golden egg
+  quote_excerpt_short: "getting to know foreign wizards"
+  source_note: Student conflict over Hermione's attendance with Krum exposes the Triwizard Tournament's diplomatic purpose and the competing pressure to win for Hogwarts.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - international-magical-cooperation
+  - durmstrang
+  - beauxbatons
+  - inter-school-relations
+  - golden-egg
+  - school-rivalry
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Cooperation, Rivalry, and Foreign Student Contact
+  reason_for_placement: The passage states the event's diplomatic purpose while showing how rivalry and task secrecy complicated that aim in practice.
+  relevance_to_hogwarts_a_history: A later edition can use this as student-level evidence that revived Triwizard customs were supposed to foster international contact, not only competition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007; gof-ch15-005; gof-ch17-002
+    notes: gof-ch12-007 records the Tournament revival and Ministry role, gof-ch15-005 records formal delegation welcome, and gof-ch17-002 records fairness disputes; this entry adds explicit social-diplomatic purpose and student suspicion during the ball.
+  confidence: high
+  limitations: Hermione and Percy articulate the cooperation purpose informally; the passage does not quote the tournament charter.
+- id: gof-ch23-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1305
+  printed_page: null
+  extracted_text_lines: 703-786
+  text_anchor:
+    start_phrase: It was my mother
+    end_phrase: mountains mostly
+    local_occurrence_note: Hagrid tells Madame Maxime about his giantess mother, his father's death after he started school, Dumbledore's help, and later student knowledge of giant stigma.
+  nearby_context: Madame Maxime rejects the half-giant label, Harry initially does not understand the stigma, and Ron explains that giants are feared, mostly gone from Britain, and believed to survive abroad.
+  match_terms:
+  - Hagrid
+  - half-giant
+  - giantess
+  - Dumbledore
+  - Hogwarts
+  - Aurors
+  quote_excerpt_short: "Dumbledore was a real help"
+  source_note: Hagrid's confession connects his Hogwarts years and later staff life to giant ancestry, Dumbledore's personal support, and wider wizarding stigma against giants and half-giants.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hagrid
+  - half-giant
+  - giants
+  - giantess
+  - dumbledore
+  - staff-biography
+  - wizarding-prejudice
+  candidate_part: Staff, Founders, and Notable Residents
+  candidate_chapter: Staff Biographies and Institutional Memory
+  candidate_section: Hagrid, Giant Ancestry, and Dumbledore's Patronage
+  reason_for_placement: The passage supplies direct biographical material about a long-term Hogwarts resident and grounds staff member, including how Hogwarts support intersected with wizarding prejudice.
+  relevance_to_hogwarts_a_history: A later edition can incorporate this as sensitive staff-history context and as evidence for social attitudes a school history might omit or sanitize.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch04-007; cos-ch07-005
+    notes: ps-ch04-007 and cos-ch07-005 already record Hagrid's expulsion, magic restriction, and Dumbledore's retention of him; this entry adds giant ancestry, orphaned school years, and the social reason Hagrid kept his background secret.
+  confidence: high
+  limitations: Ron's comments about giants reflect common prejudice and partial knowledge rather than an authoritative historical survey.
+- id: gof-ch23-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Three - The Yule Ball
+  chapter_start_pdf_page: 1285
+  chapter_end_pdf_page: 1309
+  pdf_page: 1308
+  printed_page: null
+  extracted_text_lines: 812-829
+  text_anchor:
+    start_phrase: I owe you one for telling me about the dragons
+    end_phrase: look like a fool
+    local_occurrence_note: Cedric repays Harry's dragon warning by hinting that the golden egg should be opened in water and by giving the prefects' bathroom location and password.
+  nearby_context: The advice is given on the marble staircase after the ball, with Cedric naming Boris the Bewildered on the fifth floor and the password "pine fresh."
+  match_terms:
+  - Cedric Diggory
+  - golden egg
+  - second task
+  - prefects' bathroom
+  - Boris the Bewildered
+  - password
+  quote_excerpt_short: "use the prefects' bathroom"
+  source_note: Cedric's reciprocal clue points Harry toward solving the golden egg in water and identifies a password-protected prefects' bathroom near Boris the Bewildered on the fifth floor.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - prefects-bathroom
+  - golden-egg
+  - second-task
+  - fifth-floor
+  - passwords
+  - boris-the-bewildered
+  - triwizard-tournament
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Bathrooms, Prefect Privileges, and Protected Facilities
+  candidate_section: Prefects' Bathroom Location and Tournament Clue Use
+  reason_for_placement: The passage combines castle navigation data, passworded access, prefect privilege, and the practical use of a school facility for tournament preparation.
+  relevance_to_hogwarts_a_history: A later edition can use this as the first concrete seed for the prefects' bathroom and as further evidence for how champions informally solved task clues.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch20-007; gof-ch21-001; gof-ch22-006
+    notes: gof-ch20-007, gof-ch21-001, and gof-ch22-006 cover egg clue distribution, failed interpretation, and delay; this entry adds Cedric's reciprocal water hint plus the prefects' bathroom location and password.
+  confidence: high
+  limitations: The passage gives the bathroom password at this moment only and does not describe the room's interior.

@@ -114,16 +114,26 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Castle Architecture and Daily Operations
 
+- Bathrooms, Prefect Privileges, and Protected Facilities
+  - Prefects' Bathroom Location and Tournament Clue Use
 - House Common Rooms and Dormitories
   - Passworded Portrait Access
 - Kitchens, Food Service, and Hidden Labor
+  - Feast Service by Spoken Menu Orders
   - Fruit-Painting Entrance and Informal Student Access
   - Kitchen Layout Beneath the Great Hall
+- Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - The Vanishing Chamber-Pot Room
 
 ## Castle Architecture and Everyday Magic
 
 - Portraits, Passwords, and House Entrances
   - Portrait communication and Gryffindor access
+
+## Castle Life and Seasonal Customs
+
+- Christmas at Hogwarts
+  - Holiday Residence, Food Service, and Visiting Delegations
 
 ## Ceremonies and School Traditions
 
@@ -179,7 +189,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Welcoming visiting delegations
 - The Triwizard Year and Institutional Procedure
   - Champion Representative Duties
+  - Cooperation, Rivalry, and Foreign Student Contact
   - Yule Ball Eligibility, Dress, and Conduct
+  - Yule Ball Staging and Great Hall Reconfiguration
 - Visiting Schools and Magical Travel
   - Beauxbatons carriage and Durmstrang lake ship
   - Beauxbatons carriage as guest lodging
@@ -623,6 +635,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Start-of-Term Notices
   - Forbidden Objects, Restricted Places, and Yearly Exceptions
+
+## Staff, Founders, and Notable Residents
+
+- Staff Biographies and Institutional Memory
+  - Hagrid, Giant Ancestry, and Dumbledore's Patronage
 
 ## The Castle and Its Grounds
 

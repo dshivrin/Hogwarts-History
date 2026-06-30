@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-Three - The Yule Ball
-- Page range: 1285-1309
+- Chapter: Chapter Twenty-Four - Rita Skeeter’s Scoop
+- Page range: 1310-1329
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-23-the-yule-ball.yaml`
+- Output YAML: `sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml`
 
 ## Minimal Context
 

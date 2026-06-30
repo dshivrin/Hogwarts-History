@@ -5587,6 +5587,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione identif
 
 ## Part: Castle Architecture and Daily Operations
 
+### Chapter: Bathrooms, Prefect Privileges, and Protected Facilities
+
+#### Section: Prefects' Bathroom Location and Tournament Clue Use
+
+Summary: The available evidence includes 1 source item, led by: Cedric's reciprocal clue points Harry toward solving the golden egg in water and identifies a password-protected prefects' bathroom near Boris the Bewildered on the fifth floor.
+
+- **Corroboration:** Cedric's reciprocal clue points Harry toward solving the golden egg in water and identifies a password-protected prefects' bathroom near Boris the Bewildered on the fifth floor.
+  - Quote: "use the prefects' bathroom"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1308, `gof-ch23-007`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch20-007`, `gof-ch21-001`, `gof-ch22-006`. gof-ch20-007, gof-ch21-001, and gof-ch22-006 cover egg clue distribution, failed interpretation, and delay; this entry adds Cedric's reciprocal water hint plus the prefects' bathroom location and password.
+  - Notes: The passage gives the bathroom password at this moment only and does not describe the room's interior.
+
 ### Chapter: House Common Rooms and Dormitories
 
 #### Section: Passworded Portrait Access
@@ -5602,6 +5616,18 @@ Summary: The available evidence includes 1 source item, led by: Gryffindor Tower
   - Notes: The passage does not specify who changed the password or how frequently routine changes occur.
 
 ### Chapter: Kitchens, Food Service, and Hidden Labor
+
+#### Section: Feast Service by Spoken Menu Orders
+
+Summary: The available evidence includes 1 source item, led by: The Yule Ball feast uses menu-directed plate service instead of visible waiters, apparently increasing hidden house-elf labor behind the Great Hall service.
+
+- **Corroboration:** The Yule Ball feast uses menu-directed plate service instead of visible waiters, apparently increasing hidden house-elf labor behind the Great Hall service.
+  - Quote: "placed their orders with their plates"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1296, `gof-ch23-003`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch12-004`, `gof-ch21-006`, `gof-ch15-003`. gof-ch12-004 records the house-elf workforce, gof-ch21-006 records the kitchen layout beneath the Great Hall, and gof-ch15-003 records Hermione's critique of house-elf omissions; this entry adds spoken menu plate service at a formal feast.
+  - Notes: Harry infers the house-elf workload; the passage does not show the kitchens during this specific service.
 
 #### Section: Fruit-Painting Entrance and Informal Student Access
 
@@ -5627,6 +5653,19 @@ Summary: The available evidence includes 1 source item, led by: Harry directly o
   - Corroborates: `gof-ch12-004`, `gof-ch19-002`. gof-ch12-004 records the kitchen workforce and unseen service, while gof-ch19-002 records Hermione's plan to access the kitchens; this entry adds the room layout, House-table alignment, and food-transfer inference.
   - Notes: Harry infers the food-transfer mechanism from table placement rather than seeing dishes move through the ceiling.
 
+### Chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+
+#### Section: The Vanishing Chamber-Pot Room
+
+Summary: The available evidence includes 1 source item, led by: The dinner conversation frames magical schools as secretive institutions and confirms that even Dumbledore can encounter an unknown, vanishing room inside Hogwarts.
+
+- **Supporting evidence:** The dinner conversation frames magical schools as secretive institutions and confirms that even Dumbledore can encounter an unknown, vanishing room inside Hogwarts.
+  - Quote: "I know all Hogwarts' secrets"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1296, `gof-ch23-004`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The room is described in conversation and not directly visited by Harry in this chapter.
+
 ## Part: Castle Architecture and Everyday Magic
 
 ### Chapter: Portraits, Passwords, and House Entrances
@@ -5642,6 +5681,22 @@ Summary: The available evidence includes 1 source item, led by: The scene confir
   - Reference type: magical_architecture
   - Corroborates: `poa-ch08-004`, `poa-ch08-007`. poa-ch08-004 covers Fat Lady password access, and poa-ch08-007 covers portrait mobility during a security breach. This entry adds routine gossip transfer across seven staircases after the champion selection.
   - Notes: The scene does not explain the full range or rules of portrait travel between frames.
+
+## Part: Castle Life and Seasonal Customs
+
+### Chapter: Christmas at Hogwarts
+
+#### Section: Holiday Residence, Food Service, and Visiting Delegations
+
+Summary: The available evidence includes 1 source item, led by: Christmas break at Hogwarts still carries fourth-year homework, crowded House common-room life, winter grounds conditions, guest-school lodging, and intensified kitchen service by house-elves.
+
+- **Corroboration:** Christmas break at Hogwarts still carries fourth-year homework, crowded House common-room life, winter grounds conditions, guest-school lodging, and intensified kitchen service by house-elves.
+  - Quote: "very heavy load of homework"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1285, `gof-ch23-001`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch21-002`, `gof-ch21-003`, `gof-ch22-003`. gof-ch21-002 records informal kitchen food access, gof-ch21-003 records visiting-school winter lodging, and gof-ch22-003 records Christmas presentation; this entry adds holiday crowding, homework load, and rich kitchen service in the week before the ball.
+  - Notes: The opening summarizes holiday conditions and does not describe a formal rule for who may remain at school over Christmas.
 
 ## Part: Ceremonies, Feasts, and Inter-School Relations
 
@@ -5710,6 +5765,18 @@ Summary: The available evidence includes 1 source item, led by: Champions are ex
   - Reference type: institutional_custom
   - Notes: The rule is explained by McGonagall in practice, not through a written tournament rulebook.
 
+#### Section: Cooperation, Rivalry, and Foreign Student Contact
+
+Summary: The available evidence includes 1 source item, led by: Student conflict over Hermione's attendance with Krum exposes the Triwizard Tournament's diplomatic purpose and the competing pressure to win for Hogwarts.
+
+- **Corroboration:** Student conflict over Hermione's attendance with Krum exposes the Triwizard Tournament's diplomatic purpose and the competing pressure to win for Hogwarts.
+  - Quote: "getting to know foreign wizards"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1300, `gof-ch23-005`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch12-007`, `gof-ch15-005`, `gof-ch17-002`. gof-ch12-007 records the Tournament revival and Ministry role, gof-ch15-005 records formal delegation welcome, and gof-ch17-002 records fairness disputes; this entry adds explicit social-diplomatic purpose and student suspicion during the ball.
+  - Notes: Hermione and Percy articulate the cooperation purpose informally; the passage does not quote the tournament charter.
+
 #### Section: Yule Ball Eligibility, Dress, and Conduct
 
 Summary: The available evidence includes 1 source item, led by: McGonagall formally presents the Yule Ball as a Triwizard custom with age-based attendance rules, dress robes, a Great Hall venue, and school-behavior expectations.
@@ -5720,6 +5787,18 @@ Summary: The available evidence includes 1 source item, led by: McGonagall forma
   - Classification: later_editorial_note | Confidence: high
   - Reference type: institutional_custom
   - Notes: The passage states the custom but does not explain the historical origin of the Yule Ball.
+
+#### Section: Yule Ball Staging and Great Hall Reconfiguration
+
+Summary: The available evidence includes 1 source item, led by: The Yule Ball uses formal staging: outdoor magical decoration, champion assembly, a procession into the Great Hall, a judges' table, silver-frosted walls, and temporary replacement of House tables.
+
+- **Corroboration:** The Yule Ball uses formal staging: outdoor magical decoration, champion assembly, a procession into the Great Hall, a judges' table, silver-frosted walls, and temporary replacement of House tables.
+  - Quote: "enter the Great Hall in procession"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1293, `gof-ch23-002`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch22-001`, `gof-ch22-002`, `gof-ch22-003`. gof-ch22-001 records eligibility and venue, gof-ch22-002 records the champions' ceremonial duty, and gof-ch22-003 records Christmas decoration; this entry adds the enacted procession, judges' seating, outdoor grotto, and House-table replacement.
+  - Notes: The passage documents the revived 1994 ball and does not prove every historical Yule Ball used the same layout.
 
 ### Chapter: Visiting Schools and Magical Travel
 
@@ -6005,6 +6084,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: school_rule_or_policy
   - Corroborates: `poa-ch08-003`. Prisoner of Azkaban Chapter Eight records Hogsmeade access enforcement; this entry corroborates the lower-year restriction and adds the 437-item forbidden list, Forest reminder, and Quidditch Cup cancellation.
   - Notes: The passage names only three new forbidden objects and does not reproduce the full list or specify how Quidditch cancellation was approved.
+
+## Part: Staff, Founders, and Notable Residents
+
+### Chapter: Staff Biographies and Institutional Memory
+
+#### Section: Hagrid, Giant Ancestry, and Dumbledore's Patronage
+
+Summary: The available evidence includes 1 source item, led by: Hagrid's confession connects his Hogwarts years and later staff life to giant ancestry, Dumbledore's personal support, and wider wizarding stigma against giants and half-giants.
+
+- **Corroboration:** Hagrid's confession connects his Hogwarts years and later staff life to giant ancestry, Dumbledore's personal support, and wider wizarding stigma against giants and half-giants.
+  - Quote: "Dumbledore was a real help"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, PDF p. 1305, `gof-ch23-006`, `sources/book-04/chapter-23-the-yule-ball.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ps-ch04-007`, `cos-ch07-005`. ps-ch04-007 and cos-ch07-005 already record Hagrid's expulsion, magic restriction, and Dumbledore's retention of him; this entry adds giant ancestry, orphaned school years, and the social reason Hagrid kept his background secret.
+  - Notes: Ron's comments about giants reflect common prejudice and partial knowledge rather than an authoritative historical survey.
 
 ## Part: The Castle and Its Protections
 
