@@ -7920,6 +7920,117 @@ by_entry:
     - unforgivable-curses
     source_unit: gof-ch27
     output_yaml: sources/book-04/chapter-27-padfoot-returns.yaml
+  gof-ch28-001:
+    title: 'Kitchens, Food Service, and Hidden Labor: House-Elf Service, Secrecy,
+      and Winky''s Hogwarts Employment'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - butterbeer
+    - dobby
+    - dumbledore
+    - hogwarts-kitchens
+    - house-elves
+    - magical-servitude
+    - winky
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch28-002:
+    title: 'Care of Magical Creatures and Practical Handling: Niffler Treasure-Detection
+      Lesson'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - hagrid
+    - leprechaun-gold
+    - magical-creatures
+    - nifflers
+    - practical-lessons
+    - student-safety
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch28-003:
+    title: 'Castle-Wide Magical Environment: Muggle Technology Failure Around Hogwarts'
+    classification: original_book_core_candidate
+    reference_type: explicit_hogwarts_a_history
+    confidence: high
+    tags:
+    - computers
+    - electricity
+    - hogwarts-a-history
+    - magical-saturation
+    - muggle-technology
+    - radar
+    - school-protections
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch28-004:
+    title: 'The Triwizard Year and Institutional Procedure: Third-Task Maze Construction
+      and Rules'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hagrid
+    - maze
+    - quidditch-field
+    - third-task
+    - tournament-rules
+    - triwizard-cup
+    - triwizard-tournament
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch28-005:
+    title: 'The Triwizard Year and Institutional Security: Crouch''s Forest Warning
+      and Tournament Administration Fragments'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - bartemius-crouch
+    - bertha-jorkins
+    - dark-lord
+    - dumbledore
+    - durmstrang
+    - forbidden-forest
+    - triwizard-tournament
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch28-006:
+    title: 'Protected Offices and Moving Entrances: Headmaster''s Gargoyle Entrance
+      and Password Changes'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore-office
+    - headmaster-office
+    - hidden-staircase
+    - magical-architecture
+    - password
+    - snape
+    - stone-gargoyle
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  gof-ch28-007:
+    title: 'Emergencies on the Grounds: Forest Search, Revival Magic, and Visiting-School
+      Tension'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dumbledore
+    - emergency-response
+    - forbidden-forest
+    - hagrid
+    - karkaroff
+    - mad-eye-moody
+    - rennervate
+    source_unit: gof-ch28
+    output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8107,6 +8218,8 @@ by_tag:
   - ps-ch10-002
   barn-owl:
   - gof-ch18-001
+  bartemius-crouch:
+  - gof-ch28-005
   barty-crouch:
   - gof-ch07-005
   - gof-ch07-006
@@ -8148,6 +8261,7 @@ by_tag:
   - gof-ch01-003
   - gof-ch05-003
   - gof-ch07-005
+  - gof-ch28-005
   bewitched-sleep:
   - gof-ch27-001
   black-flames:
@@ -8247,6 +8361,8 @@ by_tag:
   - poa-ch21-004
   buckbeak-appeal:
   - poa-ch15-004
+  butterbeer:
+  - gof-ch28-001
   captains:
   - poa-ch15-006
   care-of-magical-creatures:
@@ -8260,6 +8376,7 @@ by_tag:
   - gof-ch24-002
   - gof-ch24-003
   - gof-ch26-003
+  - gof-ch28-002
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -8498,6 +8615,8 @@ by_tag:
   - cos-ch15-002
   common-room-security:
   - poa-ch13-007
+  computers:
+  - gof-ch28-003
   concealed-doors:
   - cos-ch12-005
   concealed-route:
@@ -8651,6 +8770,8 @@ by_tag:
   - gof-ch14-001
   dark-detectors:
   - gof-ch20-003
+  dark-lord:
+  - gof-ch28-005
   dark-magic:
   - cos-ch09-006
   - ps-ch11-006
@@ -8817,6 +8938,7 @@ by_tag:
   - gof-ch08-002
   - gof-ch21-007
   - gof-ch26-004
+  - gof-ch28-001
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
@@ -8880,6 +9002,9 @@ by_tag:
   - gof-ch24-007
   - gof-ch27-001
   - gof-ch27-003
+  - gof-ch28-001
+  - gof-ch28-005
+  - gof-ch28-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -8917,6 +9042,7 @@ by_tag:
   dumbledore-office:
   - cos-ch11-007
   - cos-ch12-001
+  - gof-ch28-006
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -8944,6 +9070,7 @@ by_tag:
   - gof-ch23-005
   - gof-ch24-005
   - gof-ch27-005
+  - gof-ch28-005
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -8961,6 +9088,8 @@ by_tag:
   - poa-ch06-001
   - poa-ch12-007
   - poa-ch22-006
+  electricity:
+  - gof-ch28-003
   eleventh-birthday:
   - ps-ch03-005
   elixir-of-life:
@@ -8974,6 +9103,7 @@ by_tag:
   emergency-response:
   - cos-ch12-002
   - cos-ch14-003
+  - gof-ch28-007
   - ps-ch10-003
   emergency-transport:
   - poa-ch03-002
@@ -9213,6 +9343,8 @@ by_tag:
   - cos-ch15-006
   - gof-ch04-003
   - gof-ch12-005
+  - gof-ch28-005
+  - gof-ch28-007
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -9520,6 +9652,9 @@ by_tag:
   - gof-ch24-003
   - gof-ch24-007
   - gof-ch26-003
+  - gof-ch28-002
+  - gof-ch28-004
+  - gof-ch28-007
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -9645,6 +9780,7 @@ by_tag:
   - cos-ch11-007
   - cos-ch12-001
   - cos-ch13-006
+  - gof-ch28-006
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
@@ -9720,6 +9856,8 @@ by_tag:
   hidden-room:
   - cos-ch17-001
   - gof-ch23-004
+  hidden-staircase:
+  - gof-ch28-006
   hidden-trapdoor:
   - poa-ch10-004
   hidden-voice:
@@ -9787,6 +9925,7 @@ by_tag:
   - cos-ch09-001
   - gof-ch11-005
   - gof-ch15-003
+  - gof-ch28-003
   - poa-ch09-001
   hogwarts-alumni:
   - poa-ch10-006
@@ -9838,6 +9977,7 @@ by_tag:
   - gof-ch21-006
   - gof-ch23-003
   - gof-ch26-004
+  - gof-ch28-001
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -9977,6 +10117,7 @@ by_tag:
   - gof-ch23-001
   - gof-ch23-003
   - gof-ch26-004
+  - gof-ch28-001
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -10164,6 +10305,7 @@ by_tag:
   - gof-ch15-007
   - gof-ch19-006
   - gof-ch27-005
+  - gof-ch28-007
   keeper:
   - cos-ch07-001
   keeper-of-keys:
@@ -10212,6 +10354,8 @@ by_tag:
   - gof-ch14-007
   legend:
   - cos-ch09-005
+  leprechaun-gold:
+  - gof-ch28-002
   leprechauns:
   - gof-ch08-006
   lesson-content:
@@ -10313,6 +10457,7 @@ by_tag:
   - gof-ch19-003
   - gof-ch19-006
   - gof-ch25-007
+  - gof-ch28-007
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -10353,6 +10498,7 @@ by_tag:
   - gof-ch21-006
   - gof-ch23-004
   - gof-ch25-002
+  - gof-ch28-006
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -10382,6 +10528,7 @@ by_tag:
   - gof-ch19-005
   - gof-ch20-001
   - gof-ch26-006
+  - gof-ch28-002
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -10442,6 +10589,8 @@ by_tag:
   - ps-ch16-002
   magical-safety:
   - poa-ch21-003
+  magical-saturation:
+  - gof-ch28-003
   magical-secrecy:
   - gof-ch08-001
   magical-security:
@@ -10457,6 +10606,7 @@ by_tag:
   - gof-ch16-006
   - gof-ch19-002
   - gof-ch21-007
+  - gof-ch28-001
   magical-settlements:
   - gof-ch19-001
   magical-spaces:
@@ -10527,6 +10677,8 @@ by_tag:
   - poa-ch13-003
   - poa-ch15-006
   - ps-ch11-004
+  maze:
+  - gof-ch28-004
   mcgonagall:
   - poa-ch11-007
   - ps-ch09-003
@@ -10739,6 +10891,8 @@ by_tag:
   - poa-ch13-005
   - poa-ch16-005
   - poa-ch22-006
+  muggle-technology:
+  - gof-ch28-003
   muggle-witnesses:
   - ps-ch02-004
   music:
@@ -10776,6 +10930,8 @@ by_tag:
   - ps-ch06-003
   - ps-ch11-007
   - ps-ch13-001
+  nifflers:
+  - gof-ch28-002
   night-guard:
   - cos-ch16-004
   night-patrol:
@@ -10895,6 +11051,7 @@ by_tag:
   - gof-ch10-004
   password:
   - cos-ch11-007
+  - gof-ch28-006
   passwords:
   - cos-ch05-006
   - cos-ch12-005
@@ -11081,6 +11238,7 @@ by_tag:
   - cos-ch06-007
   - gof-ch13-007
   - gof-ch26-003
+  - gof-ch28-002
   - poa-ch07-004
   - poa-ch07-007
   practice-schedule:
@@ -11280,6 +11438,7 @@ by_tag:
   - poa-ch15-004
   - poa-ch15-007
   quidditch-field:
+  - gof-ch28-004
   - poa-ch09-007
   - ps-ch11-001
   quidditch-final:
@@ -11336,6 +11495,8 @@ by_tag:
   - gof-ch04-001
   quirrell:
   - ps-ch13-006
+  radar:
+  - gof-ch28-003
   rats:
   - poa-ch04-005
   ravenclaw:
@@ -11360,6 +11521,8 @@ by_tag:
   - poa-ch18-007
   - poa-ch19-006
   - poa-ch20-002
+  rennervate:
+  - gof-ch28-007
   resignation:
   - gof-ch24-007
   restricted-books:
@@ -11514,6 +11677,7 @@ by_tag:
   - gof-ch15-006
   school-protections:
   - gof-ch11-005
+  - gof-ch28-003
   school-representatives:
   - gof-ch22-002
   school-rivalry:
@@ -11746,6 +11910,7 @@ by_tag:
   - gof-ch18-004
   - gof-ch25-006
   - gof-ch27-005
+  - gof-ch28-006
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -11909,6 +12074,7 @@ by_tag:
   - poa-ch09-001
   stone-gargoyle:
   - cos-ch11-007
+  - gof-ch28-006
   stone-protection:
   - ps-ch05-001
   stopping-knot:
@@ -12034,6 +12200,7 @@ by_tag:
   - gof-ch22-004
   - gof-ch24-003
   - gof-ch25-005
+  - gof-ch28-002
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -12156,6 +12323,8 @@ by_tag:
   - ps-ch09-007
   - ps-ch16-004
   - ps-ch17-002
+  third-task:
+  - gof-ch28-004
   third-year-booklist:
   - poa-ch04-003
   third-year-curriculum:
@@ -12213,6 +12382,7 @@ by_tag:
   - gof-ch17-003
   - gof-ch21-001
   - gof-ch24-006
+  - gof-ch28-004
   tournament-schedule:
   - gof-ch22-006
   tournament-security:
@@ -12244,6 +12414,8 @@ by_tag:
   - gof-ch25-005
   trick-sweets:
   - gof-ch05-002
+  triwizard-cup:
+  - gof-ch28-004
   triwizard-rules:
   - gof-ch17-001
   triwizard-tournament:
@@ -12284,6 +12456,8 @@ by_tag:
   - gof-ch26-006
   - gof-ch26-007
   - gof-ch27-001
+  - gof-ch28-004
+  - gof-ch28-005
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -12505,6 +12679,7 @@ by_tag:
   - gof-ch09-003
   - gof-ch09-005
   - gof-ch21-007
+  - gof-ch28-001
   winter:
   - gof-ch21-003
   winter-at-hogwarts:

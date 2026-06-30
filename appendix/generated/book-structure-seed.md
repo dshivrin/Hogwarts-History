@@ -34,6 +34,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Unicorn Foals and Lifecycle Instruction
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
+  - Niffler Treasure-Detection Lesson
   - Skrewt Feeding Work After Handling Risks
   - Skrewt Hibernation Experiment and Press Exposure
 - Charms
@@ -130,6 +131,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Feast Service by Spoken Menu Orders
   - Fruit-Painting Entrance and Informal Student Access
   - House-Elf Castle Duties and Information Flow
+  - House-Elf Service, Secrecy, and Winky's Hogwarts Employment
   - Kitchen Layout Beneath the Great Hall
 - Secret Rooms, Moving Routes, and Responsive Castle Spaces
   - The Vanishing Chamber-Pot Room
@@ -203,6 +205,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Judge Conduct and Second-Task Clue Fairness
   - Second-Task Hostage Preparation
   - Second-Task Lakeside Staging and Time Limit
+  - Third-Task Maze Construction and Rules
   - Yule Ball Eligibility, Dress, and Conduct
   - Yule Ball Staging and Great Hall Reconfiguration
 - Visiting Schools and Magical Travel
@@ -347,6 +350,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classified Ministry Announcement at Hogwarts
   - Classified Rules, Entry, and Prize Foreshadowing
   - Confunding the Goblet of Fire
+  - Crouch's Forest Warning and Tournament Administration Fragments
   - Entry procedure, Age Line, and binding contract
   - First-Task Secrecy and Informal Leaks
   - Goblet lifecycle and closed selection
@@ -389,6 +393,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Marauder's Map and Secret Passage Knowledge
   - The Marauder's Map in Nighttime Castle Movement
   - The Whomping Willow Tunnel
+- Castle-Wide Magical Environment
+  - Muggle Technology Failure Around Hogwarts
 - Changing Staircases and Responsive Doors
   - Navigating the Castle
   - Nighttime Routes and Tower Access
@@ -402,6 +408,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gryffindor Tower Access
   - Password Access and Fireplace Communication
   - Slytherin Dungeon Entrance and Common Room
+- Protected Offices and Moving Entrances
+  - Headmaster's Gargoyle Entrance and Password Changes
 - Secret Passageways and Hidden Routes
   - Tapestries, Statues, and Student Wayfinding
   - The Bathroom Entrance to the Chamber
@@ -495,6 +503,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementor Breach at the Quidditch Stadium
   - Dementors Barred from the Castle Interior
   - Gringotts Business and Hogwarts Trust
+- Emergencies on the Grounds
+  - Forest Search, Revival Magic, and Visiting-School Tension
 - Emergency Lockdowns and Student Safety
   - Great Hall Overnight Assembly
   - Post-Breach Castle Security

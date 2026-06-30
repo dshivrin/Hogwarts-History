@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
-- Page range: 1394-1418
+- Chapter: Chapter Twenty-Nine - The Dream
+- Page range: 1419-1433
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+- Output YAML: `sources/book-04/chapter-29-the-dream.yaml`
 
 ## Minimal Context
 

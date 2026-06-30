@@ -1009,3 +1009,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1372-1393.
+- source_unit_id: gof-ch28
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 28
+  chapter_title: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  page_start: 1394
+  page_end: 1418
+  output_yaml: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  processed_at: '2026-06-30'
+  explicit_reference_count: 1
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1394-1418.

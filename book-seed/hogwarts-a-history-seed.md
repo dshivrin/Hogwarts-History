@@ -427,6 +427,20 @@ Summary: The available evidence includes 1 source item, led by: The Gryffindor c
   - Corroborates: `gof-ch17-007`, `poa-ch08-004`. gof-ch17-007 and poa-ch08-004 cover Fat Lady/password access and portrait behavior; this entry adds the common-room fire as a covert communication route with Ministry implications.
   - Notes: The passage does not name the fireplace magic mechanism or specify whether the fire is normally monitored.
 
+### Chapter: Castle-Wide Magical Environment
+
+#### Section: Muggle Technology Failure Around Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Hermione explicitly invokes Hogwarts: A History to explain that electricity, computers, radar, and similar Muggle technologies malfunction around Hogwarts because of the surrounding magical saturation.
+
+- **Corroboration:** Hermione explicitly invokes Hogwarts: A History to explain that electricity, computers, radar, and similar Muggle technologies malfunction around Hogwarts because of the surrounding magical saturation.
+  - Quote: "they all go haywire around Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1404, `gof-ch28-003`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: original_book_core_candidate | Confidence: high
+  - Reference type: explicit_hogwarts_a_history
+  - Corroborates: `gof-ch11-005`, `poa-ch09-001`, `cos-ch09-001`. gof-ch11-005 and poa-ch09-001 cite Hogwarts: A History for castle concealment and protective enchantments, while cos-ch09-001 records library demand for the book; this entry adds Muggle technology failure from ambient magic.
+  - Notes: Hermione paraphrases the book rather than quoting a full passage, and the scene applies the rule to an eavesdropping investigation rather than a technical demonstration.
+
 ### Chapter: Changing Staircases and Responsive Doors
 
 #### Section: Navigating the Castle
@@ -510,6 +524,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: magical_architecture
   - Notes: The passage does not explain how the office password is set, how often it changes, or when this entrance mechanism was created.
+
+### Chapter: Protected Offices and Moving Entrances
+
+#### Section: Headmaster's Gargoyle Entrance and Password Changes
+
+Summary: The available evidence includes 1 source item, led by: The scene corroborates the headmaster-office entrance system and adds that passwords can change, blocking student access while staff can emerge through the concealed stair.
+
+- **Corroboration:** The scene corroborates the headmaster-office entrance system and adds that passwords can change, blocking student access while staff can emerge through the concealed stair.
+  - Quote: "the password to the hidden staircase"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1412, `gof-ch28-006`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `cos-ch11-007`, `cos-ch12-001`, `cos-ch13-006`. cos-ch11-007 records the passworded gargoyle and moving staircase, cos-ch12-001 adds office interior details, and cos-ch13-006 shows Dippet-era continuity; this entry adds changed-password failure and Snape's staff-side access.
+  - Notes: The scene does not enter the office or describe its interior, and it does not state who sets or changes the password.
 
 ### Chapter: Secret Passageways and Hidden Routes
 
@@ -1891,6 +1919,18 @@ Summary: The available evidence includes 1 source item, led by: The lesson exten
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch13-003`. gof-ch13-003 introduces Hagrid's live Blast-Ended Skrewt project with cross-House students; this entry corroborates it and adds growth, armor, leashing, and dragon-hide glove precautions.
   - Notes: The passage does not explain the creatures' origin or whether this curriculum had staff approval beyond Hagrid's lesson plan.
+
+#### Section: Niffler Treasure-Detection Lesson
+
+Summary: The available evidence includes 1 source item, led by: The Care of Magical Creatures lesson introduces nifflers as mine-dwelling treasure detectors and shows Hagrid structuring a controlled practical exercise with temporary leprechaun gold.
+
+- **Corroboration:** The Care of Magical Creatures lesson introduces nifflers as mine-dwelling treasure detectors and shows Hagrid structuring a controlled practical exercise with temporary leprechaun gold.
+  - Quote: "Useful little treasure detectors"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1400, `gof-ch28-002`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch26-003`, `gof-ch24-001`, `gof-ch13-003`. gof-ch26-003 and gof-ch24-001 cover nearby Care of Magical Creatures unicorn lessons, while gof-ch13-003 records Hagrid's riskier Skrewt project; this entry adds nifflers, treasure detection, and leprechaun-gold practice.
+  - Notes: The lesson occurs under Hagrid's individual teaching style and does not prove nifflers were part of the long-standing standard syllabus.
 
 #### Section: Skrewt Feeding Work After Handling Risks
 
@@ -3660,6 +3700,20 @@ Summary: The available evidence includes 1 source item, led by: Hagrid compares 
   - Reference type: historical_claim
   - Notes: Hagrid does not yet identify the object or explain whether the security comparison reflects formal Hogwarts protections or personal judgment.
 
+### Chapter: Emergencies on the Grounds
+
+#### Section: Forest Search, Revival Magic, and Visiting-School Tension
+
+Summary: The available evidence includes 1 source item, led by: The forest emergency shows Dumbledore coordinating a rapid staff response on the grounds, using message magic, revival magic, delegated search, and student containment during an international incident.
+
+- **Corroboration:** The forest emergency shows Dumbledore coordinating a rapid staff response on the grounds, using message magic, revival magic, delegated search, and student containment during an international incident.
+  - Quote: "it is essential that we find him"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1414, `gof-ch28-007`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch23-005`, `gof-ch19-006`, `cos-ch14-003`. gof-ch23-005 records tournament-era cooperation and rivalry, gof-ch19-006 records Karkaroff/Moody/Durmstrang security concerns, and cos-ch14-003 records school emergency routing; this entry adds Dumbledore's forest response, Rennervate, a staff search, and Karkaroff's accusation.
+  - Notes: The silvery birdlike signal is described by Harry without a named spell in this chapter, and Crouch's disappearance remains unresolved here.
+
 ### Chapter: Emergency Lockdowns and Student Safety
 
 #### Section: Great Hall Overnight Assembly
@@ -4782,6 +4836,18 @@ Summary: The available evidence includes 1 source item, led by: Moody theorizes 
   - Reference type: security_or_protection
   - Notes: This is Moody's immediate theory, not yet confirmed within this chapter.
 
+#### Section: Crouch's Forest Warning and Tournament Administration Fragments
+
+Summary: The available evidence includes 1 source item, led by: Crouch's appearance on the forest edge combines tournament-administration fragments with an urgent security warning linking Bertha Jorkins, his son, Harry, and Voldemort's growing strength.
+
+- **Corroboration:** Crouch's appearance on the forest edge combines tournament-administration fragments with an urgent security warning linking Bertha Jorkins, his son, Harry, and Voldemort's growing strength.
+  - Quote: "must warn . . . must tell"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1409, `gof-ch28-005`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch27-005`, `gof-ch07-005`, `gof-ch17-002`. gof-ch27-005 records public reports of Crouch's absence and Bertha's disappearance, gof-ch07-005 records early Ministry concern over Bertha, and gof-ch17-002 records inter-school fairness disputes; this entry adds Crouch's direct forest warning and delegation-number fragments.
+  - Notes: Crouch is disoriented and fragmented, so the entry should treat the warning as critical but not use his broken speech to reconstruct unstated events.
+
 #### Section: Entry procedure, Age Line, and binding contract
 
 Summary: The available evidence includes 1 source item, led by: The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
@@ -5855,6 +5921,18 @@ Summary: The available evidence includes 1 source item, led by: Dobby's interven
   - Corroborates: `gof-ch21-007`, `gof-ch21-006`, `gof-ch12-004`. gof-ch21-007 records Dobby's employment terms, gof-ch21-006 maps the kitchens, and gof-ch12-004 records unseen meal service; this entry adds castle-wide maintenance duties, staffroom access, and the risk of overheard staff planning.
   - Notes: Dobby's action is exceptional and covert, so it should not be treated as authorized tournament assistance.
 
+#### Section: House-Elf Service, Secrecy, and Winky's Hogwarts Employment
+
+Summary: The available evidence includes 1 source item, led by: The kitchen scene extends Hogwarts house-elf evidence by showing Winky's transfer into Dumbledore's service, house-elf sensitivity to butterbeer, labor norms against unhappiness, and elf secrecy around a former master.
+
+- **Corroboration:** The kitchen scene extends Hogwarts house-elf evidence by showing Winky's transfer into Dumbledore's service, house-elf sensitivity to butterbeer, labor norms against unhappiness, and elf secrecy around a former master.
+  - Quote: "Winky keeps her master's secrets"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1395, `gof-ch28-001`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch21-007`, `gof-ch08-002`, `gof-ch09-003`. gof-ch21-007 records Dobby and Winky's Hogwarts employment and wage conflict, gof-ch08-002 records house-elf service norms, and gof-ch09-003 records Winky's dismissal; this entry adds kitchen reactions, butterbeer effects, and Winky's secrecy about Crouch.
+  - Notes: The most sensitive Crouch material is fragmented by Winky's distress and intoxication, so the entry should not infer the secret's content beyond her refusal.
+
 #### Section: Kitchen Layout Beneath the Great Hall
 
 Summary: The available evidence includes 1 source item, led by: Harry directly observes the Hogwarts kitchens: a huge room below the Great Hall, with four tables aligned to the House tables above and at least a hundred uniformed elves.
@@ -6038,6 +6116,18 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Reference type: institutional_custom
   - Corroborates: `gof-ch20-007`, `gof-ch25-003`. gof-ch20-007 records second-task date and clue distribution, while gof-ch25-003 records the solved lake clue; this entry adds the actual lakeside arena, judges' arrangement, and one-hour operating rule.
   - Notes: The scene records Harry's arrival and Bagman's announcement but not the prior setup work or safety enchantments.
+
+#### Section: Third-Task Maze Construction and Rules
+
+Summary: The available evidence includes 1 source item, led by: The third-task briefing records the conversion of Hogwarts's Quidditch field into a temporary maze, the task's cup-centered goal, creature and spell obstacles, and staggered champion entry based on points.
+
+- **Corroboration:** The third-task briefing records the conversion of Hogwarts's Quidditch field into a temporary maze, the task's cup-centered goal, creature and spell obstacles, and staggered champion entry based on points.
+  - Quote: "The Triwizard Cup will be placed in the center"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, PDF p. 1406, `gof-ch28-004`, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch12-007`, `gof-ch17-006`, `gof-ch20-007`. gof-ch12-007 records the tournament revival, gof-ch17-006 records first-task champion instructions, and gof-ch20-007 records the second-task clue; this entry adds the third-task maze layout, scoring order, and Quidditch-field conversion.
+  - Notes: The briefing summarizes task structure before the actual event and does not list the final creature or spell obstacle inventory.
 
 #### Section: Yule Ball Eligibility, Dress, and Conduct
 

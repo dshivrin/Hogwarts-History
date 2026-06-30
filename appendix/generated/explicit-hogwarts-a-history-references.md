@@ -50,3 +50,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Destination: Original Book Core / Tournament History and Institutional Omissions / Triwizard judging, 1792 disaster, and house-elf silence
   - Source: PDF p. 1145, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
   - Classification: original_book_core_candidate | Confidence: high
+
+## Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch
+
+- `gof-ch28-003`
+  - Quote: "they all go haywire around Hogwarts"
+  - Evidence note: Hermione explicitly invokes Hogwarts: A History to explain that electricity, computers, radar, and similar Muggle technologies malfunction around Hogwarts because of the surrounding magical saturation.
+  - Destination: Magical Architecture and Enchantments / Castle-Wide Magical Environment / Muggle Technology Failure Around Hogwarts
+  - Source: PDF p. 1404, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: original_book_core_candidate | Confidence: high
