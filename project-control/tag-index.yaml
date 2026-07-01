@@ -358,8 +358,10 @@ tags:
   avada-kedavra:
     entries:
     - gof-ch14-005
+    - gof-ch34-003
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   azkaban:
     entries:
     - cos-ch12-007
@@ -532,6 +534,7 @@ tags:
     - gof-ch29-007
     - gof-ch30-007
     - gof-ch33-003
+    - gof-ch34-004
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
@@ -540,6 +543,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   bewitched-sleep:
     entries:
     - gof-ch27-001
@@ -1004,6 +1008,8 @@ tags:
     - gof-ch25-003
     - gof-ch31-007
     - gof-ch32-002
+    - gof-ch34-004
+    - gof-ch34-005
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
@@ -1011,6 +1017,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   centaur-divination:
     entries:
     - ps-ch15-007
@@ -1596,9 +1603,11 @@ tags:
     entries:
     - gof-ch14-005
     - gof-ch30-006
+    - gof-ch34-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   crystal-gazing:
     entries:
     - gof-ch21-005
@@ -1796,6 +1805,8 @@ tags:
     - gof-ch19-003
     - gof-ch20-003
     - gof-ch29-003
+    - gof-ch34-001
+    - gof-ch34-002
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -1845,6 +1856,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -1999,10 +2011,12 @@ tags:
   disarming-charm:
     entries:
     - cos-ch11-003
+    - gof-ch34-001
     - poa-ch19-003
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   discipline:
     entries:
     - cos-ch05-005
@@ -2164,8 +2178,10 @@ tags:
   dueling-club:
     entries:
     - cos-ch11-003
+    - gof-ch34-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   dumbledore:
     entries:
     - cos-ch02-003
@@ -2200,6 +2216,7 @@ tags:
     - gof-ch30-004
     - gof-ch30-007
     - gof-ch33-004
+    - gof-ch34-003
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2278,6 +2295,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2577,10 +2595,13 @@ tags:
   expelliarmus:
     entries:
     - cos-ch11-003
+    - gof-ch34-001
+    - gof-ch34-003
     - poa-ch19-003
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   experimental-charms:
     entries:
     - gof-ch07-004
@@ -3751,6 +3772,7 @@ tags:
     - gof-ch17-001
     - gof-ch33-001
     - gof-ch33-004
+    - gof-ch34-001
     - ps-ch01-003
     - ps-ch01-004
     - ps-ch01-005
@@ -3776,6 +3798,7 @@ tags:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -4210,11 +4233,13 @@ tags:
     - gof-ch07-007
     - gof-ch11-003
     - gof-ch12-007
+    - gof-ch34-005
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -4844,8 +4869,10 @@ tags:
     entries:
     - gof-ch14-003
     - gof-ch14-005
+    - gof-ch34-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   improper-use-of-magic-office:
     entries:
     - gof-ch05-004
@@ -5434,6 +5461,7 @@ tags:
     - gof-ch25-007
     - gof-ch28-007
     - gof-ch29-003
+    - gof-ch34-002
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -5444,6 +5472,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -5643,6 +5672,11 @@ tags:
     - poa-ch03-003
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  magical-evidence:
+    entries:
+    - gof-ch34-004
+    output_yaml:
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   magical-eye:
     entries:
     - gof-ch19-003
@@ -6615,8 +6649,10 @@ tags:
   off-campus-transport:
     entries:
     - gof-ch32-001
+    - gof-ch34-005
     output_yaml:
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   office-security:
     entries:
     - gof-ch25-006
@@ -7044,6 +7080,11 @@ tags:
     - gof-ch18-007
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  phoenix-song:
+    entries:
+    - gof-ch34-003
+    output_yaml:
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   physical-evidence:
     entries:
     - poa-ch17-002
@@ -7127,10 +7168,12 @@ tags:
     - gof-ch31-007
     - gof-ch32-001
     - gof-ch33-005
+    - gof-ch34-005
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   portkeys:
     entries:
     - gof-ch06-002
@@ -7247,8 +7290,10 @@ tags:
   potter-family:
     entries:
     - gof-ch14-004
+    - gof-ch34-004
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   practical-exams:
     entries:
     - poa-ch16-004
@@ -7353,6 +7398,12 @@ tags:
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  priori-incantatem:
+    entries:
+    - gof-ch34-003
+    - gof-ch34-004
+    output_yaml:
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   private-instruction:
     entries:
     - poa-ch20-005
@@ -9450,6 +9501,11 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  student-resistance:
+    entries:
+    - gof-ch34-002
+    output_yaml:
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   student-rulebreaking:
     entries:
     - gof-ch25-001
@@ -9509,6 +9565,11 @@ tags:
     - cos-ch11-005
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+  student-training:
+    entries:
+    - gof-ch34-001
+    output_yaml:
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   student-travel:
     entries:
     - gof-ch03-003
@@ -9945,12 +10006,14 @@ tags:
     - gof-ch31-007
     - gof-ch32-001
     - gof-ch33-005
+    - gof-ch34-005
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   tournament-spectators:
     entries:
     - gof-ch20-005
@@ -10020,11 +10083,13 @@ tags:
     - gof-ch31-007
     - gof-ch32-001
     - gof-ch33-005
+    - gof-ch34-005
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   triwizard-rules:
     entries:
     - gof-ch17-001
@@ -10223,9 +10288,11 @@ tags:
     entries:
     - gof-ch14-005
     - gof-ch27-007
+    - gof-ch34-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   unicorn-blood:
     entries:
     - ps-ch15-007
@@ -10365,6 +10432,7 @@ tags:
     - gof-ch32-002
     - gof-ch33-001
     - gof-ch33-002
+    - gof-ch34-004
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -10383,6 +10451,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   voldemort-fall:
     entries:
     - gof-ch02-004
@@ -10460,6 +10529,11 @@ tags:
     - gof-ch18-006
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  wandlore:
+    entries:
+    - gof-ch34-003
+    output_yaml:
+    - sources/book-04/chapter-34-priori-incantatem.yaml
   wands:
     entries:
     - cos-ch04-002

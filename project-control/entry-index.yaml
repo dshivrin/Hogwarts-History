@@ -8460,6 +8460,77 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch33
     output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
+  gof-ch34-001:
+    title: 'Defense Against the Dark Arts: Dueling Club Carryover'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - disarming-charm
+    - dueling-club
+    - expelliarmus
+    - harry-potter
+    - student-training
+    source_unit: gof-ch34
+    output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
+  gof-ch34-002:
+    title: 'Defense Against the Dark Arts: Unforgivable Curse Instruction and Resistance'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - cruciatus-curse
+    - defense-against-the-dark-arts
+    - imperius-curse
+    - mad-eye-moody
+    - student-resistance
+    - unforgivable-curses
+    source_unit: gof-ch34
+    output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
+  gof-ch34-003:
+    title: 'The Triwizard Year and Institutional Security: Priori Incantatem and Wand-Core
+      Evidence'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - avada-kedavra
+    - dumbledore
+    - expelliarmus
+    - phoenix-song
+    - priori-incantatem
+    - wandlore
+    source_unit: gof-ch34
+    output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
+  gof-ch34-004:
+    title: 'The Triwizard Year and Institutional Security: Graveyard Victim Echoes'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - bertha-jorkins
+    - cedric-diggory
+    - magical-evidence
+    - potter-family
+    - priori-incantatem
+    - voldemort
+    source_unit: gof-ch34
+    output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
+  gof-ch34-005:
+    title: 'The Triwizard Year and Institutional Security: Cup Portkey Return to Hogwarts'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - cedric-diggory
+    - hogwarts
+    - off-campus-transport
+    - portkey
+    - tournament-security
+    - triwizard-cup
+    source_unit: gof-ch34
+    output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8623,6 +8694,7 @@ by_tag:
   - gof-ch27-007
   avada-kedavra:
   - gof-ch14-005
+  - gof-ch34-003
   azkaban:
   - cos-ch12-007
   - cos-ch14-005
@@ -8707,6 +8779,7 @@ by_tag:
   - gof-ch29-007
   - gof-ch30-007
   - gof-ch33-003
+  - gof-ch34-004
   bewitched-sleep:
   - gof-ch27-001
   black-flames:
@@ -8918,6 +8991,8 @@ by_tag:
   - gof-ch25-003
   - gof-ch31-007
   - gof-ch32-002
+  - gof-ch34-004
+  - gof-ch34-005
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -9187,6 +9262,7 @@ by_tag:
   cruciatus-curse:
   - gof-ch14-005
   - gof-ch30-006
+  - gof-ch34-002
   crystal-gazing:
   - gof-ch21-005
   - poa-ch15-003
@@ -9285,6 +9361,8 @@ by_tag:
   - gof-ch19-003
   - gof-ch20-003
   - gof-ch29-003
+  - gof-ch34-001
+  - gof-ch34-002
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -9379,6 +9457,7 @@ by_tag:
   - gof-ch29-004
   disarming-charm:
   - cos-ch11-003
+  - gof-ch34-001
   - poa-ch19-003
   discipline:
   - cos-ch05-005
@@ -9454,6 +9533,7 @@ by_tag:
   - gof-ch22-001
   dueling-club:
   - cos-ch11-003
+  - gof-ch34-001
   dumbledore:
   - cos-ch02-003
   - cos-ch04-001
@@ -9487,6 +9567,7 @@ by_tag:
   - gof-ch30-004
   - gof-ch30-007
   - gof-ch33-004
+  - gof-ch34-003
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9659,6 +9740,8 @@ by_tag:
   - poa-ch12-002
   expelliarmus:
   - cos-ch11-003
+  - gof-ch34-001
+  - gof-ch34-003
   - poa-ch19-003
   experimental-charms:
   - gof-ch07-004
@@ -10216,6 +10299,7 @@ by_tag:
   - gof-ch17-001
   - gof-ch33-001
   - gof-ch33-004
+  - gof-ch34-001
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -10432,6 +10516,7 @@ by_tag:
   - gof-ch07-007
   - gof-ch11-003
   - gof-ch12-007
+  - gof-ch34-005
   hogwarts-a-history:
   - cos-ch09-001
   - gof-ch11-005
@@ -10727,6 +10812,7 @@ by_tag:
   imperius-curse:
   - gof-ch14-003
   - gof-ch14-005
+  - gof-ch34-002
   improper-use-of-magic-office:
   - gof-ch05-004
   in-universe-analysis:
@@ -10997,6 +11083,7 @@ by_tag:
   - gof-ch25-007
   - gof-ch28-007
   - gof-ch29-003
+  - gof-ch34-002
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -11088,6 +11175,8 @@ by_tag:
   - gof-ch11-004
   magical-entrance:
   - poa-ch03-003
+  magical-evidence:
+  - gof-ch34-004
   magical-eye:
   - gof-ch19-003
   - gof-ch25-007
@@ -11525,6 +11614,7 @@ by_tag:
   - gof-ch07-004
   off-campus-transport:
   - gof-ch32-001
+  - gof-ch34-005
   office-security:
   - gof-ch25-006
   ogg:
@@ -11719,6 +11809,8 @@ by_tag:
   - cos-ch17-005
   phoenix-feather:
   - gof-ch18-007
+  phoenix-song:
+  - gof-ch34-003
   physical-evidence:
   - poa-ch17-002
   pipe-route:
@@ -11756,6 +11848,7 @@ by_tag:
   - gof-ch31-007
   - gof-ch32-001
   - gof-ch33-005
+  - gof-ch34-005
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -11810,6 +11903,7 @@ by_tag:
   - gof-ch27-005
   potter-family:
   - gof-ch14-004
+  - gof-ch34-004
   practical-exams:
   - poa-ch16-004
   - ps-ch16-001
@@ -11858,6 +11952,9 @@ by_tag:
   prior-opening:
   - cos-ch10-006
   - cos-ch12-007
+  priori-incantatem:
+  - gof-ch34-003
+  - gof-ch34-004
   private-instruction:
   - poa-ch20-005
   private-stores:
@@ -12802,6 +12899,8 @@ by_tag:
   - cos-ch12-002
   - poa-ch03-004
   - ps-ch12-001
+  student-resistance:
+  - gof-ch34-002
   student-rulebreaking:
   - gof-ch25-001
   student-safety:
@@ -12831,6 +12930,8 @@ by_tag:
   - cos-ch10-002
   student-study:
   - cos-ch11-005
+  student-training:
+  - gof-ch34-001
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -13022,6 +13123,7 @@ by_tag:
   - gof-ch31-007
   - gof-ch32-001
   - gof-ch33-005
+  - gof-ch34-005
   tournament-spectators:
   - gof-ch20-005
   tower-dormitory:
@@ -13054,6 +13156,7 @@ by_tag:
   - gof-ch31-007
   - gof-ch32-001
   - gof-ch33-005
+  - gof-ch34-005
   triwizard-rules:
   - gof-ch17-001
   triwizard-tournament:
@@ -13160,6 +13263,7 @@ by_tag:
   unforgivable-curses:
   - gof-ch14-005
   - gof-ch27-007
+  - gof-ch34-002
   unicorn-blood:
   - ps-ch15-007
   unicorn-hair:
@@ -13229,6 +13333,7 @@ by_tag:
   - gof-ch32-002
   - gof-ch33-001
   - gof-ch33-002
+  - gof-ch34-004
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -13265,6 +13370,8 @@ by_tag:
   - poa-ch20-003
   wand-weighing:
   - gof-ch18-006
+  wandlore:
+  - gof-ch34-003
   wands:
   - cos-ch04-002
   - cos-ch06-004

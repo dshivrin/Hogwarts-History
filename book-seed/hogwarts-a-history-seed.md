@@ -5012,6 +5012,18 @@ Summary: The available evidence includes 1 source item, led by: Crouch's appeara
   - Corroborates: `gof-ch27-005`, `gof-ch07-005`, `gof-ch17-002`. gof-ch27-005 records public reports of Crouch's absence and Bertha's disappearance, gof-ch07-005 records early Ministry concern over Bertha, and gof-ch17-002 records inter-school fairness disputes; this entry adds Crouch's direct forest warning and delegation-number fragments.
   - Notes: Crouch is disoriented and fragmented, so the entry should treat the warning as critical but not use his broken speech to reconstruct unstated events.
 
+#### Section: Cup Portkey Return to Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that the altered Triwizard Cup still functions as a two-way Portkey, returning Harry and Cedric's body toward Hogwarts after the graveyard encounter.
+
+- **Corroboration:** The chapter confirms that the altered Triwizard Cup still functions as a two-way Portkey, returning Harry and Cedric's body toward Hogwarts after the graveyard encounter.
+  - Quote: "it will return you to Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, PDF p. 1505, `gof-ch34-005`, `sources/book-04/chapter-34-priori-incantatem.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch31-007`, `gof-ch32-001`, `gof-ch33-005`. gof-ch31-007 records the Cup's first observed activation, gof-ch32-001 confirms the off-grounds destination, and gof-ch33-005 confirms the sabotage chain; this entry adds the return-to-Hogwarts leg and Cedric's body retrieval.
+  - Notes: The destination is stated as Hogwarts by James's echo and implied by the Portkey's activation; the actual arrival scene occurs in the following chapter.
+
 #### Section: Entry procedure, Age Line, and binding contract
 
 Summary: The available evidence includes 1 source item, led by: The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
@@ -5059,6 +5071,17 @@ Summary: The available evidence includes 1 source item, led by: The Goblet canno
   - Reference type: security_or_protection
   - Corroborates: `gof-ch16-002`, `gof-ch16-007`. gof-ch16-002 covers the Goblet as selector and gof-ch16-007 covers the fourth name. This entry adds the post-selection fact that the Goblet has gone out and cannot be restarted until the next tournament.
   - Notes: Bagman states the operational limit, but the enchantment's origin and technical mechanics are not explained.
+
+#### Section: Graveyard Victim Echoes
+
+Summary: The available evidence includes 1 source item, led by: The chapter records Priori Incantatem producing wand echoes of Voldemort's recent victims, creating magical evidence for Cedric's murder, Bertha Jorkins's death, and the Potter murders.
+
+- **Context:** The chapter records Priori Incantatem producing wand echoes of Voldemort's recent victims, creating magical evidence for Cedric's murder, Bertha Jorkins's death, and the Potter murders.
+  - Quote: "Voldemort's dead victims whispered"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, PDF p. 1503, `gof-ch34-004`, `sources/book-04/chapter-34-priori-incantatem.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The victims appear as temporary echoes rather than conventional ghosts, and Harry does not yet understand the mechanism.
 
 #### Section: Host-school fairness dispute
 
@@ -5119,6 +5142,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: security_or_protection
   - Corroborates: `gof-ch31-007`. gof-ch31-007 records the Cup's activation at the maze endpoint; this entry adds the off-grounds destination and Cedric's Portkey identification.
   - Notes: The passage does not yet reveal who altered the Cup, when it was altered, or how the Portkey bypassed school protections.
+
+#### Section: Priori Incantatem and Wand-Core Evidence
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives the first direct observed evidence of the Priori Incantatem wand connection, including the golden thread, protective dome, and phoenix song that Harry associates with Dumbledore.
+
+- **Context:** The chapter gives the first direct observed evidence of the Priori Incantatem wand connection, including the golden thread, protective dome, and phoenix song that Harry associates with Dumbledore.
+  - Quote: "a cage of light"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, PDF p. 1501, `gof-ch34-003`, `sources/book-04/chapter-34-priori-incantatem.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The chapter describes the phenomenon before Dumbledore's technical explanation, so the exact wand-core cause must be supplied by later evidence.
 
 #### Section: The fourth champion anomaly
 
@@ -6473,6 +6507,34 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch16-005`, `gof-ch15-007`. gof-ch15-007 records the arrivals, and gof-ch16-005 records Beauxbatons carriage lodging; this entry adds winter conditions and the continuing Durmstrang ship and Beauxbatons carriage presence.
   - Notes: The passage implies but does not explicitly state the exact sleeping arrangements for every visiting student.
+
+## Part: Classroom Instruction and Practical Magic
+
+### Chapter: Defense Against the Dark Arts
+
+#### Section: Dueling Club Carryover
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that Harry's usable dueling preparation traces back to the brief Hogwarts dueling club, where the Disarming Spell became his practical defensive option.
+
+- **Corroboration:** The chapter confirms that Harry's usable dueling preparation traces back to the brief Hogwarts dueling club, where the Disarming Spell became his practical defensive option.
+  - Quote: "the dueling club at Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, PDF p. 1498, `gof-ch34-001`, `sources/book-04/chapter-34-priori-incantatem.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `cos-ch11-003`, `poa-ch19-003`. cos-ch11-003 records the original staff-authorized dueling club and Expelliarmus lesson, while poa-ch19-003 records later student use of the spell; this entry adds Harry's graveyard recollection that the club was his only formal dueling preparation.
+  - Notes: The passage is Harry's memory under extreme stress and does not add new procedural details about the dueling club itself.
+
+#### Section: Unforgivable Curse Instruction and Resistance
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Hogwarts fourth-year Unforgivable Curse instruction becoming field-relevant: Harry recognizes the threat of Avada Kedavra and resists Imperius compulsion after prior classroom exposure.
+
+- **Corroboration:** The chapter shows Hogwarts fourth-year Unforgivable Curse instruction becoming field-relevant: Harry recognizes the threat of Avada Kedavra and resists Imperius compulsion after prior classroom exposure.
+  - Quote: "I won't do it"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, PDF p. 1500, `gof-ch34-002`, `sources/book-04/chapter-34-priori-incantatem.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch14-001`, `gof-ch14-004`, `gof-ch14-005`. gof-ch14-001, gof-ch14-004, and gof-ch14-005 establish Moody's classroom framing of Dark curses and Avada Kedavra; this entry records the later survival context in which that instruction mattered.
+  - Notes: The scene occurs off campus and reflects an exceptional emergency rather than ordinary classroom practice.
 
 ## Part: Curriculum, Study, and Practical Magic
 

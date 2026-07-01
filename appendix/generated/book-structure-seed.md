@@ -220,6 +220,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Beauxbatons carriage as guest lodging
   - Winter Lodging on the Grounds
 
+## Classroom Instruction and Practical Magic
+
+- Defense Against the Dark Arts
+  - Dueling Club Carryover
+  - Unforgivable Curse Instruction and Resistance
+
 ## Curriculum, Study, and Practical Magic
 
 - Charms Instruction and Independent Practice
@@ -369,16 +375,19 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classified Rules, Entry, and Prize Foreshadowing
   - Confunding the Goblet of Fire
   - Crouch's Forest Warning and Tournament Administration Fragments
+  - Cup Portkey Return to Hogwarts
   - Entry procedure, Age Line, and binding contract
   - First-Task Secrecy and Informal Leaks
   - Goblet Manipulation and Cup Portkey Breach
   - Goblet lifecycle and closed selection
+  - Graveyard Victim Echoes
   - Host-school fairness dispute
   - Judges, tasks, scoring, and the Goblet selector
   - Karkaroff, Moody, and Durmstrang Risk
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
   - Portkey Breach Beyond Hogwarts Grounds
+  - Priori Incantatem and Wand-Core Evidence
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
   - Traditional Cheating and First-Task Fairness

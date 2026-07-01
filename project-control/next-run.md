@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Thirty-Four - Priori Incantatem
-- Page range: 1498-1506
+- Chapter: Chapter Thirty-Five - Veritaserum
+- Page range: 1507-1524
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-34-priori-incantatem.yaml`
+- Output YAML: `sources/book-04/chapter-35-veritaserum.yaml`
 
 ## Minimal Context
 
