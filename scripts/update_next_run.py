@@ -102,17 +102,27 @@ def parse_chapters_index() -> dict[tuple[int, int], dict]:
         return {}
 
     chapters = {}
+    current_book_title: str | None = None
+    heading_pattern = re.compile(r"^## Book [^:]+:\s*(?P<title>.+)$")
     pattern = re.compile(
         r"book:\s*(?P<book>\d+),\s*chapter:\s*(?P<chapter>\d+),\s*"
         r"title:\s*(?P<title>.*?),\s*pages:\s*(?P<start>\d+)-(?P<end>\d+)"
     )
     for line in CHAPTERS_INDEX_PATH.read_text(encoding="utf-8").splitlines():
+        heading_match = heading_pattern.search(line)
+        if heading_match:
+            current_book_title = heading_match.group("title").strip()
+            continue
+
         match = pattern.search(line)
         if not match:
             continue
         book_number = int(match.group("book"))
         chapter_number = int(match.group("chapter"))
         chapters[(book_number, chapter_number)] = {
+            "book_number": book_number,
+            "book_group": f"book-{book_number:02d}",
+            "book": current_book_title,
             "chapter_number": chapter_number,
             "short_title": match.group("title").strip(),
             "page_start": int(match.group("start")),
@@ -156,8 +166,8 @@ def output_yaml_for(unit: dict, source_plan: dict | None) -> str:
 def build_unit(base: dict, chapter_info: dict, source_plan: dict | None) -> dict:
     unit = {
         "source_file": base.get("source_file"),
-        "book_group": base.get("book_group"),
-        "book": base.get("book"),
+        "book_group": chapter_info.get("book_group") or base.get("book_group"),
+        "book": chapter_info.get("book") or base.get("book"),
         "chapter_number": chapter_info["chapter_number"],
         "chapter_title": chapter_title(
             chapter_info["chapter_number"],
@@ -168,6 +178,17 @@ def build_unit(base: dict, chapter_info: dict, source_plan: dict | None) -> dict
     }
     unit["output_yaml"] = output_yaml_for(unit, source_plan)
     return unit
+
+
+def following_chapter_info(
+    chapters: dict[tuple[int, int], dict],
+    book_number: int,
+    chapter_number: int,
+) -> dict | None:
+    same_book = chapters.get((book_number, chapter_number + 1))
+    if same_book:
+        return same_book
+    return chapters.get((book_number + 1, 1))
 
 
 def find_planned_chapter(source_plan: dict | None, unit: dict) -> dict | None:
@@ -203,10 +224,14 @@ def advance_state(state: dict) -> dict:
     validate_current_output(current)
     source_plan = load_yaml(SOURCE_PLAN_PATH) if SOURCE_PLAN_PATH.exists() else None
     chapters = parse_chapters_index()
-    book_number = book_number_from_group(str(current.get("book_group")))
+    next_book_number = book_number_from_group(str(next_unit.get("book_group")))
 
     next_chapter_number = int(next_unit.get("chapter_number") or 0)
-    following_info = chapters.get((book_number, next_chapter_number + 1))
+    following_info = following_chapter_info(
+        chapters,
+        next_book_number,
+        next_chapter_number,
+    )
     if not following_info:
         raise ValueError(
             f"Next source unit after chapter {next_chapter_number} is not known"

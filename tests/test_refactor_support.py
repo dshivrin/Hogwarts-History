@@ -644,6 +644,123 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertEqual(state["next_source_unit"]["chapter_number"], 4)
         self.assertEqual(source_plan["sources"][0]["chapters"][0]["status"], "complete")
 
+    def test_update_next_run_rolls_over_to_next_book_after_final_chapter(self) -> None:
+        update_next_run = importlib.import_module("scripts.update_next_run")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            control_dir = root / "project-control"
+            control_dir.mkdir()
+            state_path = control_dir / "processing-state.yaml"
+            next_run_path = control_dir / "next-run.md"
+            state_path.write_text(
+                textwrap.dedent(
+                    """
+                    project:
+                      mode: minimal_context
+                    last_completed_source_unit:
+                      source_file: pdfs/harrypotter.pdf
+                      book_group: book-04
+                      book: Harry Potter and the Goblet of Fire
+                      chapter_number: 35
+                      chapter_title: Chapter Thirty-Five - Veritaserum
+                      page_start: 1507
+                      page_end: 1524
+                      output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+                    current_source_unit:
+                      source_file: pdfs/harrypotter.pdf
+                      book_group: book-04
+                      book: Harry Potter and the Goblet of Fire
+                      chapter_number: 36
+                      chapter_title: Chapter Thirty-Six - The Parting of the Ways
+                      page_start: 1525
+                      page_end: 1544
+                      extracted_text_path: .tmp/current-chapter.txt
+                      output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+                    next_source_unit:
+                      source_file: pdfs/harrypotter.pdf
+                      book_group: book-04
+                      book: Harry Potter and the Goblet of Fire
+                      chapter_number: 37
+                      chapter_title: Chapter Thirty-Seven - The Beginning
+                      page_start: 1545
+                      page_end: 1560
+                      output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+            output_yaml = root / "sources" / "book-04" / "chapter-36-the-parting-of-the-ways.yaml"
+            output_yaml.parent.mkdir(parents=True)
+            output_yaml.write_text(
+                textwrap.dedent(
+                    """
+                    source_unit:
+                      book: Harry Potter and the Goblet of Fire
+                      chapter: Chapter Thirty-Six - The Parting of the Ways
+                    entries:
+                    - id: gof-ch36-001
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+            (root / "chapters-index.md").write_text(
+                textwrap.dedent(
+                    """
+                    ## Book four: Harry Potter and the Goblet of Fire
+
+                    - book: 4, chapter: 36, title: The Parting of the Ways, pages: 1525-1544
+                    - book: 4, chapter: 37, title: The Beginning, pages: 1545-1560
+
+                    ## Book five: Harry Potter and the Order of the Phoenix
+
+                    - book: 5, chapter: 1, title: Dudley Demented, pages: 1570-1587
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+            (control_dir / "source-plan.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    sources:
+                    - book_group: book-04
+                      book: Harry Potter and the Goblet of Fire
+                      chapters:
+                      - number: 36
+                        title: Chapter Thirty-Six - The Parting of the Ways
+                        status: in_progress
+                        output_file: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+                      - number: 37
+                        title: Chapter Thirty-Seven - The Beginning
+                        status: pending
+                        output_file: sources/book-04/chapter-37-the-beginning.yaml
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            update_next_run.ROOT = root
+            update_next_run.PROCESSING_STATE_PATH = state_path
+            update_next_run.NEXT_RUN_PATH = next_run_path
+            update_next_run.CHAPTERS_INDEX_PATH = root / "chapters-index.md"
+            update_next_run.SOURCE_PLAN_PATH = control_dir / "source-plan.yaml"
+
+            self.assertEqual(update_next_run.main(["--advance-after-success"]), 0)
+            state = yaml.safe_load(state_path.read_text())
+
+        self.assertEqual(state["last_completed_source_unit"]["chapter_number"], 36)
+        self.assertEqual(state["current_source_unit"]["chapter_number"], 37)
+        self.assertEqual(state["next_source_unit"]["book_group"], "book-05")
+        self.assertEqual(state["next_source_unit"]["chapter_number"], 1)
+        self.assertEqual(
+            state["next_source_unit"]["chapter_title"],
+            "Chapter One - Dudley Demented",
+        )
+
     def test_runtime_contract_uses_compact_cli_workflow(self) -> None:
         contract = Path("docs/instructions/runtime-contract.md").read_text(encoding="utf-8")
 

@@ -1,0 +1,327 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after completed Chapter Thirty-Five and before the Chapter Thirty-Seven anchor; extracted only PDF pages 1525-1544 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-Six. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. Entries focus on emergency staff command, House pastoral duties, hospital-wing crisis care, dementor exclusion from the castle, Ministry pressure on school autonomy, Dumbledore's post-crisis mobilization, and Triwizard prize ceremony aftermath. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch36-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1525
+  printed_page: null
+  extracted_text_lines: 6-18
+  text_anchor:
+    start_phrase: Dumbledore stood up
+    end_phrase: half an hour's time if he needs me
+    local_occurrence_note: After Crouch's confession, Dumbledore assigns McGonagall, Snape, Pomfrey, and Fudge-related tasks before moving Harry.
+  nearby_context: Dumbledore binds Barty Crouch, asks McGonagall to stand guard, sends Snape to summon Madam Pomfrey for Moody, and directs Snape to find Fudge on the grounds and bring him to the office.
+  match_terms:
+  - Barty Crouch
+  - Professor McGonagall
+  - Madam Pomfrey
+  - hospital wing
+  - Cornelius Fudge
+  - grounds
+  - office
+  quote_excerpt_short: we need to get Alastor Moody into the hospital wing
+  source_note: The chapter shows Dumbledore coordinating an immediate post-crisis command chain across staff guard duty, medical response, Ministry notification, and movement between office, grounds, and hospital wing.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - emergency-response
+  - staff-command
+  - hospital-wing
+  - professor-mcgonagall
+  - professor-snape
+  - madam-pomfrey
+  - ministry-of-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Immediate Staff Command After the Third Task
+  reason_for_placement: The passage gives concrete evidence for how Hogwarts leadership divided emergency duties immediately after uncovering the infiltrator.
+  relevance_to_hogwarts_a_history: A later edition can use this as a procedural example of headmaster-led crisis response inside the castle during the tournament disaster.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate searches for hospital-wing emergency care found related medical entries, but not this specific command chain spanning guard duty, Pomfrey, Fudge, and the hospital wing.
+  confidence: high
+  limitations: The response is exceptional and should not be generalized into routine emergency policy without corroborating examples.
+- id: gof-ch36-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1526
+  printed_page: null
+  extracted_text_lines: 37-41
+  text_anchor:
+    start_phrase: where are Mr. and Mrs. Diggory
+    end_phrase: knew him best
+    local_occurrence_note: Harry asks about Cedric's parents while Dumbledore escorts him to the office after the graveyard return.
+  nearby_context: Dumbledore says the Diggorys are with Professor Sprout because she was Head of Cedric's House and knew him best.
+  match_terms:
+  - Diggorys
+  - Professor Sprout
+  - Head of House
+  - Cedric Diggory
+  - Hufflepuff
+  - House pastoral care
+  quote_excerpt_short: She was Head of Cedric's House
+  source_note: The chapter gives direct evidence that a Head of House can serve as the closest staff contact for a student's family in a fatal school crisis.
+  reference_type: house_system
+  era_classification: later_editorial_note
+  topic_tags:
+  - head-of-house
+  - professor-sprout
+  - cedric-diggory
+  - hufflepuff
+  - pastoral-care
+  - student-family
+  - triwizard-tournament
+  candidate_part: The Four Houses
+  candidate_chapter: House Identity and Reputation
+  candidate_section: Head-of-House Pastoral Duties
+  reason_for_placement: The evidence extends Head-of-House function beyond House identity into crisis support for families.
+  relevance_to_hogwarts_a_history: This supports a later editorial note on the pastoral and administrative role of House heads when a student is harmed.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: gof-ch18-002 records Sprout's Head-of-House affiliation and Hufflepuff loyalty around Cedric; this entry adds parent support after Cedric's death rather than repeating the earlier House-reputation evidence.
+  confidence: high
+  limitations: The passage does not describe a formal policy or whether every Head of House has the same family-liaison duty.
+- id: gof-ch36-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1531
+  printed_page: null
+  extracted_text_lines: 187-224
+  text_anchor:
+    start_phrase: You will come with me to the hospital wing
+    end_phrase: until I have spoken to the school
+    local_occurrence_note: Dumbledore moves Harry from the office to the hospital wing and controls access to him after his testimony.
+  nearby_context: Dumbledore orders sleep and quiet, permits visitors only if Harry wants them, forbids questioning him that evening, allows Sirius-as-dog to remain, and tells Harry to stay in the hospital wing until the school has been addressed.
+  match_terms:
+  - hospital wing
+  - Sleeping Potion
+  - visitors
+  - questioning
+  - Madam Pomfrey
+  - school address
+  quote_excerpt_short: What he needs now is sleep, and peace, and quiet.
+  source_note: The chapter shows hospital-wing crisis care after traumatic testimony, including patient rest, controlled questioning, visitor discretion, and a temporary stay pending a schoolwide address.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - hospital-wing
+  - student-welfare
+  - visitor-control
+  - sleeping-potion
+  - dumbledore
+  - school-address
+  - crisis-care
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Health and the Hospital Wing
+  candidate_section: Crisis Rest, Visitors, and Questioning Limits
+  reason_for_placement: The passage combines medical treatment, emotional protection, and headmaster control of access after a major school crisis.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe how Hogwarts used the hospital wing as a controlled recovery and information-management space.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results found earlier hospital-wing entries for injuries, petrification, privacy, and visitor control; this entry adds post-trauma questioning limits and a school-address hold after the Triwizard disaster.
+  confidence: high
+  limitations: The exact protections are Dumbledore's crisis judgment and may not reflect ordinary hospital-wing rules.
+- id: gof-ch36-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1534
+  printed_page: null
+  extracted_text_lines: 263-309
+  text_anchor:
+    start_phrase: You should never have brought it inside the castle
+    end_phrase: He cannot give evidence
+    local_occurrence_note: McGonagall, Snape, Fudge, and Dumbledore argue in the hospital wing after Fudge brings a dementor to Crouch.
+  nearby_context: McGonagall says Dumbledore would never allow dementors inside the castle, Snape says Fudge summoned one for protection, and the dementor's Kiss prevents Crouch from giving testimony.
+  match_terms:
+  - dementor
+  - castle
+  - Barty Crouch
+  - Dementor's Kiss
+  - testimony
+  - Fudge
+  - McGonagall
+  quote_excerpt_short: never allow dementors to set foot inside the castle
+  source_note: The chapter gives explicit staff testimony that Dumbledore would not permit dementors inside Hogwarts castle and records the catastrophic result when the Minister brings one anyway.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - castle-security
+  - dumbledore
+  - professor-mcgonagall
+  - cornelius-fudge
+  - barty-crouch-jr
+  - testimony
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Dumbledore and External Security Arrangements
+  candidate_section: Dementors Excluded from the Castle Interior
+  reason_for_placement: The passage clarifies a boundary between external Ministry security and the protected castle interior, then shows why that boundary mattered.
+  relevance_to_hogwarts_a_history: This is strong later editorial evidence for castle security principles during Ministry involvement at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch04-007
+    - poa-ch05-006
+    notes: poa-ch04-007 and poa-ch05-006 record dementors stationed around Hogwarts entrances and grounds during the Sirius Black crisis; this entry adds the explicit castle-interior prohibition and the Crouch Kiss consequence.
+  confidence: high
+  limitations: The prohibition is reported by McGonagall in an emergency argument, not quoted from a formal school rulebook.
+- id: gof-ch36-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1539
+  printed_page: null
+  extracted_text_lines: 461-501
+  text_anchor:
+    start_phrase: we have reached a parting of the ways
+    end_phrase: discuss the running of this school
+    local_occurrence_note: Fudge warns Dumbledore after rejecting Voldemort's return and references prior tolerance of school decisions.
+  nearby_context: Dumbledore says he and Fudge will act separately; Fudge says he has given Dumbledore free rein, cites hiring werewolves, keeping Hagrid, and teaching without Ministry reference, then threatens to discuss the running of the school.
+  match_terms:
+  - Dumbledore
+  - Fudge
+  - free rein
+  - werewolves
+  - Hagrid
+  - Ministry
+  - running of this school
+  quote_excerpt_short: decide what to teach your students without reference to the Ministry
+  source_note: The chapter records a direct Ministry-headmaster governance conflict, with Fudge framing Dumbledore's staffing and curriculum autonomy as previously tolerated rather than guaranteed.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-governance
+  - headmaster-authority
+  - ministry-oversight
+  - curriculum
+  - staff-appointments
+  - hagrid
+  - professor-lupin
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Ministry Pressure on Staffing and Curriculum Autonomy
+  reason_for_placement: The passage gives unusually direct evidence for the contested boundary between Hogwarts headmaster authority and Ministry power over school operations.
+  relevance_to_hogwarts_a_history: A later edition can use this as key Harry-era evidence in a governance chapter, especially for Ministry pressure after a public crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch14-005
+    - cos-ch18-005
+    notes: cos-ch14-005 and cos-ch18-005 cover Ministry/governor intervention and recall during the Chamber crisis; this entry adds Fudge's explicit threat over staffing, curriculum, and the running of the school after the Triwizard disaster.
+  confidence: high
+  limitations: Fudge's statement is politically charged and does not provide the formal legal mechanism for Ministry intervention.
+- id: gof-ch36-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1541
+  printed_page: null
+  extracted_text_lines: 511-571
+  text_anchor:
+    start_phrase: There is work to be done
+    end_phrase: I will contact you there
+    local_occurrence_note: After Fudge leaves, Dumbledore assigns discreet Ministry contact, Hagrid and Maxime, Winky's care, and Sirius's alert mission.
+  nearby_context: Dumbledore sends Bill to Arthur for Ministry contacts, asks McGonagall to fetch Hagrid and Madame Maxime, directs Pomfrey to Winky and the kitchens, reveals Sirius, requires Sirius and Snape to cooperate, and sends Sirius to alert Lupin, Figg, Fletcher, and the old crowd.
+  match_terms:
+  - Arthur Weasley
+  - Ministry contacts
+  - Hagrid
+  - Madame Maxime
+  - Winky
+  - kitchens
+  - Sirius Black
+  quote_excerpt_short: There is work to be done.
+  source_note: The chapter shows Hogwarts becoming the staging point for Dumbledore's immediate post-Fudge response, using staff, family allies, house-elf care, visiting-school contacts, and the old anti-Voldemort network.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - crisis-mobilization
+  - ministry-contacts
+  - hagrid
+  - madame-maxime
+  - house-elves
+  - sirius-black
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Post-Fudge Mobilization from the Hospital Wing
+  reason_for_placement: The passage documents how the castle crisis space becomes an operations center after official Ministry cooperation fails.
+  relevance_to_hogwarts_a_history: A later edition can use this evidence to explain the institutional pivot from school emergency handling to broader wartime organization after Voldemort's return.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found many Dumbledore and governance entries but no prior seed for this specific multi-channel mobilization from the hospital wing after Fudge's refusal.
+  confidence: medium
+  limitations: Much of the network is not formal Hogwarts governance; it belongs in later editorial notes rather than original school-history core.
+- id: gof-ch36-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1540
+  printed_page: null
+  extracted_text_lines: 502-507
+  text_anchor:
+    start_phrase: Your winnings
+    end_phrase: under the circumstances
+    local_occurrence_note: Fudge drops Harry's Triwizard winnings on the hospital-wing bedside table while leaving after the argument.
+  nearby_context: Fudge gives Harry a bag containing one thousand Galleons and says there should have been a presentation ceremony, but circumstances have displaced it.
+  match_terms:
+  - winnings
+  - one thousand Galleons
+  - presentation ceremony
+  - Triwizard Tournament
+  - Fudge
+  - hospital wing
+  quote_excerpt_short: There should have been a presentation ceremony
+  source_note: The chapter confirms the Triwizard winner's prize amount and implies an expected presentation ceremony that is cancelled or bypassed after Cedric's death and the Ministry dispute.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - prize-money
+  - presentation-ceremony
+  - one-thousand-galleons
+  - cornelius-fudge
+  - hospital-wing
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Tournament at Hogwarts
+  candidate_section: Prize Ceremony and Winnings
+  reason_for_placement: The passage adds concrete tournament ceremonial and financial aftermath evidence not captured by the task descriptions alone.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe the intended public closure of the tournament and how the 1995 crisis disrupted it.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Querying Triwizard prize, ceremony, and winnings returned no existing duplicate candidates.
+  confidence: high
+  limitations: The passage does not identify who would normally present the prize or where the ceremony would have taken place.

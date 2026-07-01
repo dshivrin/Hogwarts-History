@@ -8,37 +8,37 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 92
+- Total: 93
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Goblet of Fire: 222
+- Harry Potter and the Goblet of Fire: 229
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
 - harry_era_confirmation: 283
-- later_editorial_note: 242
+- later_editorial_note: 249
 - original_book_core_candidate: 7
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 52
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 45
+- cross_reference_candidate: 46
 - curriculum_or_subject: 83
 - direct_observed_setting: 33
 - explicit_hogwarts_a_history: 6
 - explicit_in_universe_source: 44
 - historical_claim: 61
-- house_system: 10
-- institutional_custom: 110
+- house_system: 11
+- institutional_custom: 112
 - magical_architecture: 44
 - portrait_or_ghost_lore: 8
-- school_rule_or_policy: 67
-- security_or_protection: 75
+- school_rule_or_policy: 68
+- security_or_protection: 77
 
 ## Explicit `Hogwarts: A History` References
 
@@ -46,12 +46,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 441
+- Total: 443
 
 ## Latest Processed Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, pages 1498-1506, `sources/book-04/chapter-34-priori-incantatem.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, pages 1525-1544, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, pages 1507-1524, `sources/book-04/chapter-35-veritaserum.yaml`
+- Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, pages 1545-1560, `sources/book-04/chapter-37-the-beginning.yaml`

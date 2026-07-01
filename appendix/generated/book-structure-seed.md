@@ -357,6 +357,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Linked disappearances and Ministry disagreement
   - Ministry investigation and visiting-school tensions
   - Student preparation for the third task
+- The Triwizard Tournament at Hogwarts
+  - Prize Ceremony and Winnings
 - The Triwizard Year and Institutional Ceremonies
   - The Weighing of the Wands
 - The Triwizard Year and Institutional Procedure
@@ -387,11 +389,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Goblet lifecycle and closed selection
   - Graveyard Victim Echoes
   - Host-school fairness dispute
+  - Immediate Staff Command After the Third Task
   - Judges, tasks, scoring, and the Goblet selector
   - Karkaroff, Moody, and Durmstrang Risk
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
   - Portkey Breach Beyond Hogwarts Grounds
+  - Post-Fudge Mobilization from the Hospital Wing
   - Priori Incantatem and Wand-Core Evidence
   - Staff Impersonation and the Seven-Locked Trunk
   - The fourth champion anomaly
@@ -544,6 +548,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Azkaban Guards at the Grounds Entrances
   - Dementor Breach at the Quidditch Stadium
   - Dementors Barred from the Castle Interior
+  - Dementors Excluded from the Castle Interior
   - Gringotts Business and Hogwarts Trust
 - Emergencies on the Grounds
   - Forest Search, Revival Magic, and Visiting-School Tension
@@ -664,6 +669,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Governor Recall and Removal
   - Governors, Public Pressure, and Crisis Accountability
   - Ministry Intervention During School Crises
+  - Ministry Pressure on Staffing and Curriculum Autonomy
 - Headmaster, Ministry, and Crisis Authority
   - Summer Residence and Closure Threats
 - Headmasters and School Authority
@@ -715,6 +721,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Prohibited Punishments, Detentions, and Head-of-House Referral
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
+  - Crisis Rest, Visitors, and Questioning Limits
   - Crisis Visitor Restrictions
   - Treatment, Overnight Care, and Visitor Control
   - Visitor Access and Headmaster Exception
@@ -775,6 +782,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## The Four Houses
 
 - House Identity and Reputation
+  - Head-of-House Pastoral Duties
   - House loyalty during the Triwizard Tournament
   - Pre-Arrival Explanations of Houses
   - Pre-Sorting Rumors and Family Expectations

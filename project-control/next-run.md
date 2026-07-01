@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Thirty-Six - The Parting of the Ways
-- Page range: 1525-1544
+- Chapter: Chapter Thirty-Seven - The Beginning
+- Page range: 1545-1560
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+- Output YAML: `sources/book-04/chapter-37-the-beginning.yaml`
 
 ## Minimal Context
 
