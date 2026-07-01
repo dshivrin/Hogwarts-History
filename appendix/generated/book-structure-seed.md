@@ -165,6 +165,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crisis Feast, Canceled Exams, and Departure
   - Exam Results and Winning-House Decorations
   - Final Standings, Point Awards, and Hall Decorations
+  - Mourning Decorations After Cedric Diggory's Death
 - Great Hall Daily Life
   - Meals, Owl Post, and Public Correspondence
 - Halloween Feast
@@ -198,6 +199,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Christmas at Hogwarts
   - Tournament-Year Castle Presentation
 - The Triwizard Tournament at Hogwarts
+  - Closing Welcome and Unity After the Tournament
   - First-Task Spectatorship and School-Day Disruption
   - Guest seating at House tables
   - Welcoming visiting delegations
@@ -320,6 +322,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
+  - Public Truth-Telling Against Ministry Pressure
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
@@ -353,6 +356,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
+- Student Welfare and Crisis Response
+  - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
 - The Fall of Voldemort
@@ -366,6 +371,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Ceremonies
   - The Weighing of the Wands
 - The Triwizard Year and Institutional Procedure
+  - Bagman's Debts and Financial Pressure on Tournament Conduct
   - Scoring and Second-Task Clue Distribution
   - Second-Task Clue Rules and Misreadings
   - Second-Task Schedule and Clue Management
@@ -386,6 +392,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Cup Portkey Return to the Maze Edge
   - Dementor Entry and Loss of Crouch's Testimony
   - Entry procedure, Age Line, and binding contract
+  - Family Aftermath and Prize Refusal After Cedric Diggory's Death
   - Final-Task Patrol Sabotage
   - First-Task Secrecy and Informal Leaks
   - Foe-Glass Warning and Staff Rescue
@@ -413,6 +420,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dragon Breeds, Keepers, and Containment
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
+  - Rita Skeeter's Unregistered Animagus Surveillance
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Press and Public Records

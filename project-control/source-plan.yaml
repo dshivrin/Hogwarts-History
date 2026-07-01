@@ -4,7 +4,7 @@ project:
   authoritative_state: project-control/processing-state.yaml
   update_note: scripts/update_next_run.py keeps completed chapter status synchronized
     when advancing after a validated extraction.
-current_phase: automated-book-04-forward-extraction
+current_phase: automated-book-05-forward-extraction
 sources:
 - source_file: pdfs/harrypotter.pdf
   book_group: book-01
@@ -396,5 +396,17 @@ sources:
     output_file: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   - number: 37
     title: Chapter Thirty-Seven - The Beginning
-    status: pending
+    status: complete
     output_file: sources/book-04/chapter-37-the-beginning.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapters:
+  - number: 1
+    title: Chapter One - Dudley Demented
+    status: pending
+    output_file: sources/book-05/chapter-01-dudley-demented.yaml
+  - number: 2
+    title: Chapter Two - A Peck of Owls
+    status: pending
+    output_file: sources/book-05/chapter-02-a-peck-of-owls.yaml

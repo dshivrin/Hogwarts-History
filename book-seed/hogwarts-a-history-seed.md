@@ -1079,6 +1079,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter ties
   - Corroborates: `ps-ch17-005`. Book 1 Chapter Seventeen records an end-of-year feast and House Cup award; this entry adds final exam-result timing, O.W.L./N.E.W.T. outcomes, and Gryffindor's third consecutive House Championship.
   - Notes: The chapter does not explain the full marking scale, House Championship scoring formula, or whether every end-of-term feast announces academic results.
 
+#### Section: Mourning Decorations After Cedric Diggory's Death
+
+Summary: The available evidence includes 1 source item, led by: The chapter contrasts ordinary end-of-year feast customs with mourning practices after Cedric's death, while also showing staff-table consequences of the Moody imposture and Karkaroff's flight.
+
+- **Context:** The chapter contrasts ordinary end-of-year feast customs with mourning practices after Cedric's death, while also showing staff-table consequences of the Moody imposture and Karkaroff's flight.
+  - Quote: "black drapes on the wall behind the teachers' table"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1548, `gof-ch37-003`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The passage does not say whether the House Cup winner was formally announced that night.
+
 ### Chapter: Dress, Uniform, and Formal Occasions
 
 #### Section: Dress Robes on the Fourth-Year School List
@@ -5072,6 +5083,18 @@ Summary: The available evidence includes 1 source item, led by: The tournament e
   - Corroborates: `gof-ch12-007`. gof-ch12-007 already records the Halloween selection and seventeen-plus restriction; this entry adds name-and-school submission, the Age Line, and the binding magical contract.
   - Notes: The chapter states the intended safeguards but not their exact spellwork or later failure mode.
 
+#### Section: Family Aftermath and Prize Refusal After Cedric Diggory's Death
+
+Summary: The available evidence includes 1 source item, led by: The chapter records a direct family aftermath meeting after a student death connected to a Hogwarts-hosted tournament, including the parents' response to the returned body and prize money.
+
+- **Corroboration:** The chapter records a direct family aftermath meeting after a student death connected to a Hogwarts-hosted tournament, including the parents' response to the returned body and prize money.
+  - Quote: "thanked him for returning Cedric's body to them"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1545, `gof-ch37-001`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch36-002`. gof-ch36-002 records Professor Sprout's Head-of-House support for Cedric's parents; this entry adds Harry's later meeting with the Diggorys, their thanks for the returned body, and their refusal of the prize money.
+  - Notes: The passage does not specify which staff members arranged or attended the meeting.
+
 #### Section: Final-Task Patrol Sabotage
 
 Summary: The available evidence includes 1 source item, led by: The chapter confirms that the final-task maze was actively sabotaged from the patrol perimeter, including attacks on champions and manipulation of obstacles.
@@ -5756,6 +5779,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
 
+#### Section: Public Truth-Telling Against Ministry Pressure
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore publicly rejects the Ministry's preferred silence, tells students Cedric was murdered by Voldemort, and frames truthful disclosure as part of honoring the dead.
+
+- **Corroboration:** Dumbledore publicly rejects the Ministry's preferred silence, tells students Cedric was murdered by Voldemort, and frames truthful disclosure as part of honoring the dead.
+  - Quote: "truth is generally preferable to lies"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1550, `gof-ch37-004`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch36-005`. gof-ch36-005 records Fudge's private governance threat and Dumbledore's autonomy; this entry adds Dumbledore's public use of that autonomy before the assembled school.
+  - Notes: The account is filtered through Harry's observation and does not include any later formal Ministry response to the speech.
+
 ### Chapter: Hogwarts Staff and Associates Before Harry's Arrival
 
 #### Section: Hagrid's Trusted Mission
@@ -5958,6 +5993,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `cos-ch02-005`. Book 2 Chapter Two gives the official underage-magic and secrecy-law warning; this entry adds a later Muggle-household incident involving a student-made Engorgement Charm product.
   - Notes: The chapter does not state when or where the charm was performed, nor whether any Ministry or Hogwarts discipline followed.
 
+### Chapter: Student Welfare and Crisis Response
+
+#### Section: Privacy Instructions and Class Disruption After the Maze Crisis
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore addresses the school after the maze crisis to limit student questioning of Harry, and the exposed impostor's removal leaves Defense Against the Dark Arts lessons temporarily vacant.
+
+- **Context:** Dumbledore addresses the school after the maze crisis to limit student questioning of Harry, and the exposed impostor's removal leaves Defense Against the Dark Arts lessons temporarily vacant.
+  - Quote: "leave Harry alone"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1546, `gof-ch37-002`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The passage reports Dumbledore's breakfast address indirectly through Ron and Hermione rather than quoting it.
+
 ### Chapter: The Chamber of Secrets Crisis
 
 #### Section: Early Warnings Before Term
@@ -6052,6 +6100,18 @@ Summary: The available evidence includes 1 source item, led by: The tournament i
 
 ### Chapter: The Triwizard Year and Institutional Procedure
 
+#### Section: Bagman's Debts and Financial Pressure on Tournament Conduct
+
+Summary: The available evidence includes 1 source item, led by: The chapter reveals that Bagman's debts and bet on Harry brought goblin creditors to Hogwarts and motivated his attempts to help Harry win the tournament.
+
+- **Corroboration:** The chapter reveals that Bagman's debts and bet on Harry brought goblin creditors to Hogwarts and motivated his attempts to help Harry win the tournament.
+  - Quote: "followed him all the way to Hogwarts"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1558, `gof-ch37-007`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch24-006`, `gof-ch30-005`. gof-ch24-006 records Bagman's improper offer of task help, and gof-ch30-005 records earlier concerns about Bagman's judgment; this entry adds the goblin debt and betting motive behind the tournament pressure.
+  - Notes: The explanation is reported by Fred and George rather than Bagman, though it accounts for multiple observed behaviors across the tournament year.
+
 #### Section: Scoring and Second-Task Clue Distribution
 
 Summary: The available evidence includes 1 source item, led by: The five judges score Harry by projecting numbers from their wands, and Bagman later explains that each golden egg contains the clue for the second task.
@@ -6127,6 +6187,18 @@ Summary: The available evidence includes 1 source item, led by: The revived tour
   - Reference type: explicit_in_universe_source
   - Corroborates: `gof-ch10-003`, `gof-ch13-005`. gof-ch10-003 and gof-ch13-005 record earlier Rita Skeeter/Daily Prophet public-record material. This entry adds tournament press access at Hogwarts and the Quick-Quotes Quill's distortion of interview evidence.
   - Notes: The quill's text is shown in draft form, not as the final published Daily Prophet article.
+
+#### Section: Rita Skeeter's Unregistered Animagus Surveillance
+
+Summary: The available evidence includes 1 source item, led by: The chapter reveals that Skeeter's Hogwarts reporting depended on illegal Animagus surveillance across school spaces, including the hospital wing and classrooms.
+
+- **Corroboration:** The chapter reveals that Skeeter's Hogwarts reporting depended on illegal Animagus surveillance across school spaces, including the hospital wing and classrooms.
+  - Quote: "Rita Skeeter is an unregistered Animagus"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1554, `gof-ch37-006`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch18-005`. gof-ch18-005 flags Rita Skeeter's distorted tournament coverage and press access; this entry adds the concealed Animagus method and the later containment that stopped her reporting.
+  - Notes: Hermione's account is retrospective, and the passage does not show staff discovering the breach at the time.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -6435,6 +6507,18 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts Christm
   - Notes: The account describes decorations before the ball rather than the full Christmas feast.
 
 ### Chapter: The Triwizard Tournament at Hogwarts
+
+#### Section: Closing Welcome and Unity After the Tournament
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore interprets the revived Triwizard Tournament as an instrument of magical understanding and keeps Hogwarts open to its visiting schools despite the catastrophe.
+
+- **Corroboration:** Dumbledore interprets the revived Triwizard Tournament as an instrument of magical understanding and keeps Hogwarts open to its visiting schools despite the catastrophe.
+  - Quote: "welcomed back here at any time"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, PDF p. 1551, `gof-ch37-005`, `sources/book-04/chapter-37-the-beginning.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch12-007`, `gof-ch15-005`. gof-ch12-007 gives the tournament's history and revival; gof-ch15-005 records the arrival welcome procedure. This entry adds the closing statement of purpose and post-crisis invitation back to Hogwarts.
+  - Notes: The speech is aspirational and does not prove future Beauxbatons or Durmstrang visits occurred.
 
 #### Section: First-Task Spectatorship and School-Day Disruption
 

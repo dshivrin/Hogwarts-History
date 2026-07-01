@@ -5,12 +5,12 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 ## Current Source Unit
 
 - Source file: `pdfs/harrypotter.pdf`
-- Book group: `book-04`
-- Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Thirty-Seven - The Beginning
-- Page range: 1545-1560
+- Book group: `book-05`
+- Book: `Harry Potter and the Order of the Phoenix`
+- Chapter: Chapter One - Dudley Demented
+- Page range: 1570-1587
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-37-the-beginning.yaml`
+- Output YAML: `sources/book-05/chapter-01-dudley-demented.yaml`
 
 ## Minimal Context
 

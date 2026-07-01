@@ -8738,6 +8738,116 @@ by_entry:
     - winky
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+  gof-ch37-001:
+    title: 'The Triwizard Year and Institutional Security: Family Aftermath and Prize
+      Refusal After Cedric Diggory''s Death'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - cedric-diggory
+    - family-care
+    - pastoral-care
+    - student-death
+    - tournament-aftermath
+    - triwizard-winnings
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  gof-ch37-002:
+    title: 'Student Welfare and Crisis Response: Privacy Instructions and Class Disruption
+      After the Maze Crisis'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - barty-crouch-jr
+    - defense-against-the-dark-arts
+    - dumbledore
+    - student-privacy
+    - teacher-vacancy
+    - trauma-aftermath
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  gof-ch37-003:
+    title: 'End-of-Year Feast and House Cup: Mourning Decorations After Cedric Diggory''s
+      Death'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - cedric-diggory
+    - great-hall
+    - house-championship
+    - karkaroff
+    - leaving-feast
+    - mad-eye-moody
+    - mourning-customs
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  gof-ch37-004:
+    title: 'Headmasters and School Authority: Public Truth-Telling Against Ministry
+      Pressure'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - cedric-diggory
+    - dumbledore
+    - ministry-of-magic
+    - public-address
+    - school-autonomy
+    - truth-telling
+    - voldemort
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  gof-ch37-005:
+    title: 'The Triwizard Tournament at Hogwarts: Closing Welcome and Unity After
+      the Tournament'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - beauxbatons
+    - durmstrang
+    - inter-school-relations
+    - international-magical-cooperation
+    - magical-understanding
+    - triwizard-tournament
+    - voldemort
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  gof-ch37-006:
+    title: 'The Triwizard Year and Public Records: Rita Skeeter''s Unregistered Animagus
+      Surveillance'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - animagus
+    - daily-prophet
+    - hospital-wing
+    - rita-skeeter
+    - school-security
+    - surveillance
+    - wizarding-press
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  gof-ch37-007:
+    title: 'The Triwizard Year and Institutional Procedure: Bagman''s Debts and Financial
+      Pressure on Tournament Conduct'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - financial-scandal
+    - gambling
+    - goblins
+    - judge-conduct
+    - ludo-bagman
+    - tournament-rules
+    - triwizard-tournament
+    source_unit: gof-ch37
+    output_yaml: sources/book-04/chapter-37-the-beginning.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8830,6 +8940,7 @@ by_tag:
   - poa-ch19-007
   animagus:
   - gof-ch27-006
+  - gof-ch37-006
   - poa-ch20-003
   animal-transformation:
   - cos-ch12-004
@@ -8955,6 +9066,7 @@ by_tag:
   - gof-ch35-007
   - gof-ch36-001
   - gof-ch36-004
+  - gof-ch37-002
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -8982,6 +9094,7 @@ by_tag:
   - gof-ch23-005
   - gof-ch24-001
   - gof-ch31-004
+  - gof-ch37-005
   bedtime-enforcement:
   - poa-ch13-006
   bertha-jorkins:
@@ -9210,6 +9323,9 @@ by_tag:
   - gof-ch35-001
   - gof-ch36-002
   - gof-ch36-003
+  - gof-ch37-001
+  - gof-ch37-003
+  - gof-ch37-004
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -9519,6 +9635,7 @@ by_tag:
   - gof-ch18-005
   - gof-ch21-004
   - gof-ch24-002
+  - gof-ch37-006
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -9590,6 +9707,7 @@ by_tag:
   - gof-ch34-001
   - gof-ch34-002
   - gof-ch35-006
+  - gof-ch37-002
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -9802,6 +9920,8 @@ by_tag:
   - gof-ch35-007
   - gof-ch36-005
   - gof-ch36-006
+  - gof-ch37-002
+  - gof-ch37-004
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9872,6 +9992,7 @@ by_tag:
   - gof-ch27-005
   - gof-ch28-005
   - gof-ch31-004
+  - gof-ch37-005
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -10001,6 +10122,7 @@ by_tag:
   - gof-ch05-004
   family-care:
   - gof-ch36-002
+  - gof-ch37-001
   family-notification:
   - cos-ch05-005
   - cos-ch06-001
@@ -10055,6 +10177,8 @@ by_tag:
   - ps-ch14-007
   - ps-ch15-001
   - ps-ch15-004
+  financial-scandal:
+  - gof-ch37-007
   firebolt:
   - gof-ch05-005
   - gof-ch20-004
@@ -10232,6 +10356,8 @@ by_tag:
   - gof-ch21-002
   full-moon-safety:
   - poa-ch18-002
+  gambling:
+  - gof-ch37-007
   gamekeeper:
   - cos-ch17-003
   - gof-ch24-002
@@ -10303,6 +10429,8 @@ by_tag:
   - poa-ch05-002
   goblin-rebellions:
   - gof-ch22-005
+  goblins:
+  - gof-ch37-007
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
@@ -10341,6 +10469,7 @@ by_tag:
   - gof-ch22-001
   - gof-ch22-003
   - gof-ch23-002
+  - gof-ch37-003
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -10928,6 +11057,7 @@ by_tag:
   - gof-ch18-004
   - gof-ch35-005
   - gof-ch36-001
+  - gof-ch37-006
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -10948,6 +11078,7 @@ by_tag:
   house-championship:
   - cos-ch05-004
   - gof-ch12-003
+  - gof-ch37-003
   - poa-ch22-005
   - ps-ch11-001
   - ps-ch13-002
@@ -11101,6 +11232,7 @@ by_tag:
   inter-school-relations:
   - gof-ch17-002
   - gof-ch23-005
+  - gof-ch37-005
   interior-rooms:
   - ps-ch09-004
   interior-setting:
@@ -11117,6 +11249,7 @@ by_tag:
   - gof-ch12-007
   - gof-ch16-002
   - gof-ch23-005
+  - gof-ch37-005
   international-quidditch:
   - gof-ch08-005
   international-transport:
@@ -11160,6 +11293,8 @@ by_tag:
   - gof-ch06-003
   joke-sweets:
   - gof-ch04-005
+  judge-conduct:
+  - gof-ch37-007
   judges:
   - gof-ch16-002
   - gof-ch17-006
@@ -11180,6 +11315,7 @@ by_tag:
   - gof-ch27-005
   - gof-ch28-007
   - gof-ch30-004
+  - gof-ch37-003
   keeper:
   - cos-ch07-001
   keeper-of-keys:
@@ -11218,6 +11354,8 @@ by_tag:
   - poa-ch03-004
   - poa-ch04-001
   - ps-ch05-003
+  leaving-feast:
+  - gof-ch37-003
   lee-jordan:
   - poa-ch13-002
   - poa-ch13-003
@@ -11317,6 +11455,7 @@ by_tag:
   - gof-ch18-005
   - gof-ch24-006
   - gof-ch30-005
+  - gof-ch37-007
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -11341,6 +11480,7 @@ by_tag:
   - gof-ch28-007
   - gof-ch29-003
   - gof-ch34-002
+  - gof-ch37-003
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -11525,6 +11665,8 @@ by_tag:
   - poa-ch10-002
   magical-trunk:
   - gof-ch35-006
+  magical-understanding:
+  - gof-ch37-005
   mandrake-juice:
   - cos-ch18-002
   mandrakes:
@@ -11682,6 +11824,7 @@ by_tag:
   - gof-ch30-007
   - gof-ch33-003
   - gof-ch36-005
+  - gof-ch37-004
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -11735,6 +11878,8 @@ by_tag:
   - cos-ch12-004
   mountain:
   - gof-ch27-006
+  mourning-customs:
+  - gof-ch37-003
   moving-pictures:
   - gof-ch02-002
   moving-staircase:
@@ -11998,6 +12143,7 @@ by_tag:
   - poa-ch19-005
   pastoral-care:
   - gof-ch36-002
+  - gof-ch37-001
   paths:
   - ps-ch15-005
   patient-privacy:
@@ -12351,6 +12497,8 @@ by_tag:
   - gof-ch33-004
   public-accountability:
   - gof-ch24-002
+  public-address:
+  - gof-ch37-004
   public-complaints:
   - gof-ch24-007
   public-cover-story:
@@ -12526,6 +12674,7 @@ by_tag:
   - gof-ch21-004
   - gof-ch24-004
   - gof-ch27-003
+  - gof-ch37-006
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -12572,6 +12721,7 @@ by_tag:
   - gof-ch02-003
   school-autonomy:
   - gof-ch36-005
+  - gof-ch37-004
   school-awards:
   - cos-ch13-002
   school-brooms:
@@ -12687,6 +12837,7 @@ by_tag:
   - gof-ch19-007
   - gof-ch24-004
   - gof-ch25-007
+  - gof-ch37-006
   school-spectators:
   - gof-ch35-001
   school-supplies:
@@ -13107,6 +13258,8 @@ by_tag:
   - gof-ch18-001
   student-customs:
   - gof-ch21-002
+  student-death:
+  - gof-ch37-001
   student-discipline:
   - cos-ch18-002
   - poa-ch19-002
@@ -13168,6 +13321,8 @@ by_tag:
   - ps-ch06-004
   student-press:
   - gof-ch27-003
+  student-privacy:
+  - gof-ch37-002
   student-privileges:
   - gof-ch19-001
   - gof-ch25-002
@@ -13278,6 +13433,8 @@ by_tag:
   - ps-ch05-003
   suppressed-contact:
   - poa-ch02-002
+  surveillance:
+  - gof-ch37-006
   survivor-care:
   - gof-ch36-003
   suspension:
@@ -13318,6 +13475,8 @@ by_tag:
   - cos-ch10-001
   teacher-spaces:
   - poa-ch07-006
+  teacher-vacancy:
+  - gof-ch37-002
   teachers:
   - cos-ch12-002
   team-captains:
@@ -13400,6 +13559,8 @@ by_tag:
   - cos-ch13-004
   ton-tongue-toffee:
   - gof-ch06-003
+  tournament-aftermath:
+  - gof-ch37-001
   tournament-casualty:
   - gof-ch32-002
   tournament-ceremony:
@@ -13416,6 +13577,7 @@ by_tag:
   - gof-ch24-006
   - gof-ch28-004
   - gof-ch31-004
+  - gof-ch37-007
   tournament-schedule:
   - gof-ch22-006
   tournament-security:
@@ -13451,6 +13613,8 @@ by_tag:
   trapdoor:
   - ps-ch09-007
   - ps-ch16-005
+  trauma-aftermath:
+  - gof-ch37-002
   trick-step:
   - gof-ch25-005
   trick-sweets:
@@ -13517,6 +13681,10 @@ by_tag:
   - gof-ch33-005
   - gof-ch35-002
   - gof-ch35-003
+  - gof-ch37-005
+  - gof-ch37-007
+  triwizard-winnings:
+  - gof-ch37-001
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -13540,6 +13708,8 @@ by_tag:
   - poa-ch16-005
   truth-potion:
   - gof-ch35-007
+  truth-telling:
+  - gof-ch37-004
   two-champions:
   - gof-ch17-002
   underage-magic:
@@ -13645,6 +13815,8 @@ by_tag:
   - gof-ch33-001
   - gof-ch33-002
   - gof-ch34-004
+  - gof-ch37-004
+  - gof-ch37-005
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -13789,6 +13961,7 @@ by_tag:
   - gof-ch29-007
   wizarding-press:
   - gof-ch18-005
+  - gof-ch37-006
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002

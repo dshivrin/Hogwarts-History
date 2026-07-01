@@ -1117,3 +1117,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 1525-1544.
+- source_unit_id: gof-ch37
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 37
+  chapter_title: Chapter Thirty-Seven - The Beginning
+  page_start: 1545
+  page_end: 1560
+  output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  processed_at: '2026-07-01'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1545-1560.
