@@ -57,6 +57,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Third-Year Elective Selection
 - Defense Against the Dark Arts
   - Dueling Spells Outside Formal Instruction
+  - Patronus Defense Explained After an Emergency
   - Patronus Instruction and Anti-Dementor Defense
   - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
@@ -605,7 +606,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
 - Off-Campus Protection of Students
+  - Dumbledore's Howler and the Privet Drive Residence Requirement
   - Little Whinging Watch and Guard Failure
+  - Squib Observers and Duty Rotas at Little Whinging
 - Staff Expertise and Magical Surveillance
   - Moody's Dark Detectors in the Classroom Office
   - Moody's Eye and Anti-Concealment Detection
@@ -693,6 +696,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmasters and School Authority
   - Dumbledore's Removal and Continuing Influence
   - Dumbledore's Reputation
+  - Ministry Discipline Revised After Headmaster Intervention
 - Holiday Conduct and Underage Magic
   - Magic Outside School
   - Ministry Warning Letters and Secrecy Law
@@ -713,6 +717,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Books Outside the School
 - Magical Safety Rules and Exceptional Permissions
   - Time-Turner Noninterference Rules
+- Magical Secrecy and Muggle Relatives
+  - Petunia Dursley's Retained Azkaban Knowledge
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
 - Ministry Interfaces with Hogwarts
@@ -731,6 +737,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
 - Student Conduct Beyond School
+  - Official Underage-Magic Expulsion and Wand Sanctions
   - Underage Magic and Hogwarts Expulsion Risk
   - Underage Magic and Muggle Household Leverage
 - Student Discipline and Expulsion

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-01'
+updated: '2026-07-02'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -8919,6 +8919,99 @@ by_entry:
     - patronus
     source_unit: ootp-ch01
     output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
+  ootp-ch02-001:
+    title: 'Off-Campus Protection of Students: Squib Observers and Duty Rotas at Little
+      Whinging'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - little-whinging
+    - mrs-figg
+    - mundungus-fletcher
+    - off-campus-security
+    - order-guard
+    - privet-drive
+    - squibs
+    source_unit: ootp-ch02
+    output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  ootp-ch02-002:
+    title: 'Student Conduct Beyond School: Official Underage-Magic Expulsion and Wand
+      Sanctions'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - disciplinary-hearing
+    - expulsion
+    - ministry-of-magic
+    - patronus
+    - statute-of-secrecy
+    - underage-magic
+    - wand-sanctions
+    source_unit: ootp-ch02
+    output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  ootp-ch02-003:
+    title: 'Headmasters and School Authority: Ministry Discipline Revised After Headmaster
+      Intervention'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - disciplinary-hearing
+    - dumbledore
+    - headmaster-authority
+    - ministry-of-magic
+    - student-discipline
+    - suspension
+    - wand-sanctions
+    source_unit: ootp-ch02
+    output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  ootp-ch02-004:
+    title: 'Magical Secrecy and Muggle Relatives: Petunia Dursley''s Retained Azkaban
+      Knowledge'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - azkaban
+    - dementors
+    - lily-potter
+    - muggle-knowledge
+    - petunia-dursley
+    - statute-of-secrecy
+    source_unit: ootp-ch02
+    output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  ootp-ch02-005:
+    title: 'Defense Against the Dark Arts: Patronus Defense Explained After an Emergency'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - anti-dementor-defense
+    - defense-against-the-dark-arts
+    - dementors
+    - dementors-kiss
+    - muggle-witness
+    - patronus
+    source_unit: ootp-ch02
+    output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  ootp-ch02-006:
+    title: 'Off-Campus Protection of Students: Dumbledore''s Howler and the Privet
+      Drive Residence Requirement'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - blood-protection
+    - dumbledore
+    - howler
+    - petunia-dursley
+    - privet-drive
+    - protective-magic
+    - student-safety
+    source_unit: ootp-ch02
+    output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9026,6 +9119,7 @@ by_tag:
   - ps-ch13-006
   anti-dementor-defense:
   - ootp-ch01-005
+  - ootp-ch02-005
   - poa-ch20-007
   anti-muggle-precautions:
   - gof-ch06-002
@@ -9097,6 +9191,7 @@ by_tag:
   - gof-ch27-007
   - gof-ch30-003
   - gof-ch30-006
+  - ootp-ch02-004
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -9198,6 +9293,8 @@ by_tag:
   - gof-ch22-004
   - gof-ch24-003
   - gof-ch31-006
+  blood-protection:
+  - ootp-ch02-006
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -9784,6 +9881,7 @@ by_tag:
   - gof-ch35-006
   - gof-ch37-002
   - ootp-ch01-005
+  - ootp-ch02-005
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -9819,6 +9917,8 @@ by_tag:
   - gof-ch30-003
   - gof-ch36-004
   - ootp-ch01-004
+  - ootp-ch02-004
+  - ootp-ch02-005
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -9837,6 +9937,7 @@ by_tag:
   - poa-ch21-006
   - poa-ch22-002
   dementors-kiss:
+  - ootp-ch02-005
   - poa-ch12-003
   - poa-ch19-002
   - poa-ch20-006
@@ -9882,6 +9983,9 @@ by_tag:
   - cos-ch11-003
   - gof-ch34-001
   - poa-ch19-003
+  disciplinary-hearing:
+  - ootp-ch02-002
+  - ootp-ch02-003
   discipline:
   - cos-ch05-005
   - ps-ch08-003
@@ -9999,6 +10103,8 @@ by_tag:
   - gof-ch36-006
   - gof-ch37-002
   - gof-ch37-004
+  - ootp-ch02-003
+  - ootp-ch02-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10189,6 +10295,7 @@ by_tag:
   - cos-ch12-007
   - cos-ch15-006
   - ootp-ch01-003
+  - ootp-ch02-002
   - poa-ch02-003
   - poa-ch03-001
   - ps-ch04-007
@@ -10814,6 +10921,7 @@ by_tag:
   - cos-ch18-003
   - cos-ch18-005
   - gof-ch24-007
+  - ootp-ch02-003
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
@@ -11251,6 +11359,8 @@ by_tag:
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
+  howler:
+  - ootp-ch02-006
   howlers:
   - cos-ch06-001
   - poa-ch14-002
@@ -11493,6 +11603,7 @@ by_tag:
   lily-evans:
   - ps-ch04-004
   lily-potter:
+  - ootp-ch02-004
   - ps-ch01-003
   little-hangleton:
   - gof-ch01-001
@@ -11500,6 +11611,7 @@ by_tag:
   - ootp-ch01-002
   - ootp-ch01-004
   - ootp-ch01-005
+  - ootp-ch02-001
   locker-room:
   - ps-ch11-004
   locker-rooms:
@@ -11907,6 +12019,8 @@ by_tag:
   - gof-ch33-003
   - gof-ch36-005
   - gof-ch37-004
+  - ootp-ch02-002
+  - ootp-ch02-003
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -11970,6 +12084,7 @@ by_tag:
   - cos-ch13-006
   mrs-figg:
   - ootp-ch01-002
+  - ootp-ch02-001
   mrs-norris:
   - cos-ch08-002
   - cos-ch08-006
@@ -11997,6 +12112,8 @@ by_tag:
   - gof-ch04-004
   muggle-households:
   - ps-ch03-004
+  muggle-knowledge:
+  - ootp-ch02-004
   muggle-newspapers:
   - gof-ch30-007
   muggle-persecution:
@@ -12046,10 +12163,12 @@ by_tag:
   - gof-ch28-003
   muggle-witness:
   - ootp-ch01-005
+  - ootp-ch02-005
   muggle-witnesses:
   - ps-ch02-004
   mundungus-fletcher:
   - ootp-ch01-002
+  - ootp-ch02-001
   music:
   - ps-ch16-003
   nagini:
@@ -12119,6 +12238,7 @@ by_tag:
   off-campus-security:
   - ootp-ch01-002
   - ootp-ch01-004
+  - ootp-ch02-001
   off-campus-transport:
   - gof-ch32-001
   - gof-ch34-005
@@ -12152,6 +12272,7 @@ by_tag:
   - ootp-ch01-001
   order-guard:
   - ootp-ch01-002
+  - ootp-ch02-001
   order-network:
   - gof-ch36-006
   order-of-merlin:
@@ -12251,6 +12372,8 @@ by_tag:
   - cos-ch13-001
   patronus:
   - ootp-ch01-005
+  - ootp-ch02-002
+  - ootp-ch02-005
   - poa-ch20-007
   patronus-charm:
   - poa-ch12-002
@@ -12308,6 +12431,9 @@ by_tag:
   - cos-ch11-006
   - cos-ch14-001
   - cos-ch16-002
+  petunia-dursley:
+  - ootp-ch02-004
+  - ootp-ch02-006
   philosopher-stone-protection:
   - ps-ch11-007
   philosopher-stone-protections:
@@ -12488,6 +12614,8 @@ by_tag:
   - ootp-ch01-001
   - ootp-ch01-002
   - ootp-ch01-003
+  - ootp-ch02-001
+  - ootp-ch02-006
   - poa-ch01-002
   - poa-ch02-002
   - poa-ch02-003
@@ -12600,6 +12728,7 @@ by_tag:
   - poa-ch16-005
   protective-magic:
   - gof-ch33-004
+  - ootp-ch02-006
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -13232,6 +13361,8 @@ by_tag:
   - gof-ch08-004
   squib-context:
   - cos-ch08-002
+  squibs:
+  - ootp-ch02-001
   stadium:
   - gof-ch08-001
   staff:
@@ -13330,6 +13461,8 @@ by_tag:
   statute-of-secrecy:
   - cos-ch02-005
   - gof-ch04-004
+  - ootp-ch02-002
+  - ootp-ch02-004
   statute-of-secrecy-context:
   - ps-ch14-002
   stealth-entry:
@@ -13369,6 +13502,7 @@ by_tag:
   student-discipline:
   - cos-ch18-002
   - ootp-ch01-003
+  - ootp-ch02-003
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -13476,6 +13610,7 @@ by_tag:
   - gof-ch28-002
   - gof-ch31-003
   - gof-ch31-006
+  - ootp-ch02-006
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -13546,6 +13681,7 @@ by_tag:
   survivor-care:
   - gof-ch36-003
   suspension:
+  - ootp-ch02-003
   - poa-ch19-002
   sword:
   - cos-ch17-005
@@ -13829,6 +13965,7 @@ by_tag:
   - gof-ch04-005
   - gof-ch06-001
   - ootp-ch01-003
+  - ootp-ch02-002
   - poa-ch02-003
   - poa-ch03-001
   underage-students:
@@ -13958,6 +14095,8 @@ by_tag:
   - gof-ch09-006
   wand-sanctions:
   - cos-ch07-005
+  - ootp-ch02-002
+  - ootp-ch02-003
   wand-sparks:
   - ps-ch15-005
   wand-use:

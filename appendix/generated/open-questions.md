@@ -437,3 +437,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Source Processing
 
 - Are PDF page numbers stable enough for internal use, or should future runs add a separate extracted-page checksum or text-anchor field? (tags: `source-processing`, `source`, `processing`)
+
+## Protective Magic and Security
+
+- Which later source explains Dumbledore's "Remember my last" Howler to Petunia and how should that explanation be cross-referenced with Harry's Privet Drive protection? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `privet-drive`, `howler`, `blood-protection`, `petunia-dursley`; related: `ootp-ch02-006`)

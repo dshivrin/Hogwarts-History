@@ -2058,6 +2058,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `cos-ch11-002`. Book 2 Chapter Eleven records Dumbledore-authorized Dueling Club instruction and Snape's Expelliarmus demonstration; this entry adds simultaneous student use of the spell against a teacher and immediate awareness of disciplinary consequences.
   - Notes: The scene is an emergency confrontation, not a normal disciplinary proceeding or classroom assessment.
 
+#### Section: Patronus Defense Explained After an Emergency
+
+Summary: The available evidence includes 1 source item, led by: Harry gives a plain-language account of Dementor effects and identifies the Patronus as the effective defense that prevented the Dementor's Kiss.
+
+- **Corroboration:** Harry gives a plain-language account of Dementor effects and identifies the Patronus as the effective defense that prevented the Dementor's Kiss.
+  - Quote: "It's the only thing that works"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, PDF p. 1602, `ootp-ch02-005`, `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch01-005`. ootp-ch01-005 records Harry's corporeal Patronus repelling two Dementors; this entry adds his immediate explanation that the Patronus was the reason Dudley was not Kissed.
+  - Notes: Harry is explaining under pressure to Muggles and does not provide a classroom-level theory of the Patronus Charm.
+
 #### Section: Patronus Instruction and Anti-Dementor Defense
 
 Summary: The available evidence includes 2 source items, led by: The chapter tests Lupin's private Patronus instruction in a real crisis and shows that a weak, formless Patronus can briefly obstruct but not reliably repel a dementor.
@@ -2804,6 +2816,17 @@ Summary: The available evidence includes 1 source item, led by: Dobby independen
   - Corroborates: `ps-ch04-006`. Chapter Four records Hagrid calling Dumbledore the greatest headmaster Hogwarts has had; this entry repeats the claim through Dobby and adds a comparison to Voldemort's power.
   - Notes: Dobby reports reputation rather than citing an official school history or formal ranking.
 
+#### Section: Ministry Discipline Revised After Headmaster Intervention
+
+Summary: The available evidence includes 1 source item, led by: A second Ministry notice records headmaster-level intervention that converts immediate expulsion and wand destruction into suspension pending a disciplinary hearing.
+
+- **Context:** A second Ministry notice records headmaster-level intervention that converts immediate expulsion and wand destruction into suspension pending a disciplinary hearing.
+  - Quote: "suspended from school pending further inquiries"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, PDF p. 1600, `ootp-ch02-003`, `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The letter does not reveal Dumbledore's legal argument or the Ministry officials involved.
+
 ### Chapter: Holiday Conduct and Underage Magic
 
 #### Section: Magic Outside School
@@ -2956,6 +2979,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: school_rule_or_policy
   - Notes: Hermione paraphrases the law and McGonagall's warnings; the exact legal text and enforcement authority are not quoted.
 
+### Chapter: Magical Secrecy and Muggle Relatives
+
+#### Section: Petunia Dursley's Retained Azkaban Knowledge
+
+Summary: The available evidence includes 1 source item, led by: The scene shows a Muggle relative of a Hogwarts family retaining pre-Harry-era knowledge that Dementors guard Azkaban from an overheard magical-world conversation.
+
+- **Supporting evidence:** The scene shows a Muggle relative of a Hogwarts family retaining pre-Harry-era knowledge that Dementors guard Azkaban from an overheard magical-world conversation.
+  - Quote: "They guard the wizard prison, Azkaban"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, PDF p. 1599, `ootp-ch02-004`, `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Petunia reports the remembered conversation indirectly and does not name the exact year or speaker beyond "that awful boy" and Harry's mother.
+
 ### Chapter: Magical Transportation and Student Restrictions
 
 #### Section: Apparition Licensing and Risks
@@ -3096,6 +3132,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter nam
   - Notes: The scene is an exceptional crisis, not a formal account of Hogwarts accommodation policy or medical supervision.
 
 ### Chapter: Student Conduct Beyond School
+
+#### Section: Official Underage-Magic Expulsion and Wand Sanctions
+
+Summary: The available evidence includes 1 source item, led by: The Ministry notice shows underage-magic enforcement escalating from detection to Hogwarts expulsion, planned wand destruction, and a disciplinary hearing.
+
+- **Corroboration:** The Ministry notice shows underage-magic enforcement escalating from detection to Hogwarts expulsion, planned wand destruction, and a disciplinary hearing.
+  - Quote: "has resulted in your expulsion"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, PDF p. 1594, `ootp-ch02-002`, `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch02-005`, `poa-ch02-003`, `poa-ch03-001`, `ootp-ch01-003`. Earlier entries record warnings, possible expulsion, discretionary reversal, and household leverage; this entry adds the official expulsion notice, wand-destruction threat, and hearing date after detected emergency magic.
+  - Notes: The notice states the Ministry's initial position before later revision and before the hearing outcome.
 
 #### Section: Underage Magic and Hogwarts Expulsion Risk
 
@@ -4050,6 +4098,18 @@ Summary: The available evidence includes 1 source item, led by: The scene restat
 
 ### Chapter: Off-Campus Protection of Students
 
+#### Section: Dumbledore's Howler and the Privet Drive Residence Requirement
+
+Summary: The available evidence includes 1 source item, led by: A targeted Howler to Petunia enforces an earlier protective warning and immediately reverses Vernon's attempt to expel Harry from Privet Drive.
+
+- **Corroboration:** A targeted Howler to Petunia enforces an earlier protective warning and immediately reverses Vernon's attempt to expel Harry from Privet Drive.
+  - Quote: "REMEMBER MY LAST, PETUNIA"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, PDF p. 1607, `ootp-ch02-006`, `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch33-004`. gof-ch33-004 records Voldemort's account of Harry's layered protection, including ancient household magic and Dumbledore's arrangements; this entry adds the Howler that keeps the Dursley household protection in force.
+  - Notes: The Howler's sender is not named in this passage, and the content of the earlier warning is summarized only as "my last."
+
 #### Section: Little Whinging Watch and Guard Failure
 
 Summary: The available evidence includes 1 source item, led by: The chapter reveals that Harry's Muggle-neighborhood protection includes covert magical or near-magical observers, and that Mundungus Fletcher's absence has immediate security consequences.
@@ -4060,6 +4120,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reve
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The chapter has not yet explained Figg's formal status, who organized the watch, or why Mundungus left his post.
+
+#### Section: Squib Observers and Duty Rotas at Little Whinging
+
+Summary: The available evidence includes 1 source item, led by: The chapter expands the Little Whinging watch by identifying Figg as a Squib observer under Dumbledore's orders and Mundungus as the absent duty guard.
+
+- **Corroboration:** The chapter expands the Little Whinging watch by identifying Figg as a Squib observer under Dumbledore's orders and Mundungus as the absent duty guard.
+  - Quote: "I was to keep an eye on you"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, PDF p. 1590, `ootp-ch02-001`, `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch01-002`. ootp-ch01-002 records Figg's arrival and Mundungus's absence after the attack; this entry adds Figg's Squib status, Dumbledore's direct order, and the duty-until-midnight detail.
+  - Notes: The passage does not name the Order of the Phoenix or provide the full rota or command structure.
 
 ### Chapter: Staff Expertise and Magical Surveillance
 

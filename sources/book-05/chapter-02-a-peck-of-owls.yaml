@@ -1,0 +1,294 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter One anchor; extracted only PDF pages 1588-1608 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-02'
+  processor_notes: >-
+    Processed only Book 5, Chapter Two. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and institutional evidence. No explicit Hogwarts: A History title reference was
+    found. Entries focus on the Little Whinging protective watch, Ministry underage
+    magic discipline, Dumbledore's intervention in Harry's expulsion, Petunia's
+    retained knowledge of Azkaban and Dementors, practical anti-Dementor doctrine,
+    and the Howler that keeps Harry at Privet Drive. Quote excerpts were kept under
+    25 words per entry.
+
+entries:
+- id: ootp-ch02-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  pdf_page: 1590
+  printed_page: null
+  extracted_text_lines: 77-94
+  text_anchor:
+    start_phrase: "Why didn't you tell me you're a Squib?"
+    end_phrase: they'll know already
+    local_occurrence_note: Mrs. Figg explains that Dumbledore ordered her to watch Harry quietly and that the Ministry will already have detected the underage magic.
+  nearby_context: Mrs. Figg reveals she is a Squib, says Mundungus was supposed to be on duty until midnight, and stresses that Dumbledore must act quickly.
+  match_terms:
+  - Mrs. Figg
+  - Squib
+  - Dumbledore's orders
+  - Mundungus
+  - underage magic
+  - on duty
+  quote_excerpt_short: "I was to keep an eye on you"
+  source_note: The chapter expands the Little Whinging watch by identifying Figg as a Squib observer under Dumbledore's orders and Mundungus as the absent duty guard.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - privet-drive
+  - little-whinging
+  - mrs-figg
+  - squibs
+  - mundungus-fletcher
+  - order-guard
+  - off-campus-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Off-Campus Protection of Students
+  candidate_section: Squib Observers and Duty Rotas at Little Whinging
+  reason_for_placement: The passage moves the prior watch failure from implication to logistics by naming Figg's status, Dumbledore's instructions, and a specific guard-duty window.
+  relevance_to_hogwarts_a_history: A later edition can cite this as evidence of informal, Dumbledore-directed protective coverage for a Hogwarts student beyond school grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-002
+    notes: ootp-ch01-002 records Figg's arrival and Mundungus's absence after the attack; this entry adds Figg's Squib status, Dumbledore's direct order, and the duty-until-midnight detail.
+  confidence: high
+  limitations: The passage does not name the Order of the Phoenix or provide the full rota or command structure.
+
+- id: ootp-ch02-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  pdf_page: 1594
+  printed_page: null
+  extracted_text_lines: 230-260
+  text_anchor:
+    start_phrase: Dear Mr. Potter
+    end_phrase: IMPROPER USE OF MAGIC OFFICE
+    local_occurrence_note: The first Ministry owl delivers a formal notice of expulsion, wand destruction, and a disciplinary hearing after the Patronus Charm.
+  nearby_context: The notice cites a Patronus Charm at 9:23 p.m. in a Muggle-inhabited area and in a Muggle's presence, then links the incident to prior secrecy-warning history.
+  match_terms:
+  - Patronus Charm
+  - Decree
+  - Reasonable Restriction of Underage Sorcery
+  - expulsion
+  - wand
+  - hearing
+  quote_excerpt_short: "has resulted in your expulsion"
+  source_note: The Ministry notice shows underage-magic enforcement escalating from detection to Hogwarts expulsion, planned wand destruction, and a disciplinary hearing.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - expulsion
+  - wand-sanctions
+  - disciplinary-hearing
+  - ministry-of-magic
+  - statute-of-secrecy
+  - patronus
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Official Underage-Magic Expulsion and Wand Sanctions
+  reason_for_placement: The letter supplies formal wording for how an outside-school spell could be treated as a school expulsion matter and a Ministry disciplinary case.
+  relevance_to_hogwarts_a_history: This supports a rules section distinguishing the Ministry's detection and sanction powers from Hogwarts attendance consequences.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch02-005
+    - poa-ch02-003
+    - poa-ch03-001
+    - ootp-ch01-003
+    notes: Earlier entries record warnings, possible expulsion, discretionary reversal, and household leverage; this entry adds the official expulsion notice, wand-destruction threat, and hearing date after detected emergency magic.
+  confidence: high
+  limitations: The notice states the Ministry's initial position before later revision and before the hearing outcome.
+
+- id: ootp-ch02-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  pdf_page: 1600
+  printed_page: null
+  extracted_text_lines: 439-451
+  text_anchor:
+    start_phrase: Further to our letter of approximately twenty-two minutes ago
+    end_phrase: suspended from school pending further inquiries
+    local_occurrence_note: The third owl revises the Ministry's decision after discussions with Hogwarts's headmaster.
+  nearby_context: Mr. Weasley's earlier owl says Dumbledore has arrived at the Ministry and tells Harry not to leave, do more magic, or surrender his wand.
+  match_terms:
+  - Dumbledore
+  - headmaster
+  - Ministry of Magic
+  - suspended
+  - disciplinary hearing
+  - wand
+  quote_excerpt_short: "suspended from school pending further inquiries"
+  source_note: A second Ministry notice records headmaster-level intervention that converts immediate expulsion and wand destruction into suspension pending a disciplinary hearing.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - headmaster-authority
+  - ministry-of-magic
+  - suspension
+  - disciplinary-hearing
+  - student-discipline
+  - wand-sanctions
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Ministry Discipline Revised After Headmaster Intervention
+  reason_for_placement: The passage shows the headmaster's practical ability to intervene in a Ministry decision affecting a student's school status.
+  relevance_to_hogwarts_a_history: A later edition can use this as a concrete example of tension and negotiation between Hogwarts leadership and Ministry disciplinary authority.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found general headmaster and Ministry governance entries, but none recorded this rapid revision from expulsion to suspension after discussions with Hogwarts's headmaster.
+  confidence: high
+  limitations: The letter does not reveal Dumbledore's legal argument or the Ministry officials involved.
+
+- id: ootp-ch02-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  pdf_page: 1599
+  printed_page: null
+  extracted_text_lines: 391-419
+  text_anchor:
+    start_phrase: And what the ruddy hell are dementors?
+    end_phrase: pretending it didn't exist
+    local_occurrence_note: Aunt Petunia unexpectedly identifies Dementors as Azkaban guards and explains that she overheard the information years earlier.
+  nearby_context: Harry is astonished that Petunia retained this magical-world fact from a conversation involving his mother despite her long pretense that magic did not exist.
+  match_terms:
+  - Dementors
+  - Azkaban
+  - Aunt Petunia
+  - Lily Potter
+  - magical world
+  - Muggle knowledge
+  quote_excerpt_short: "They guard the wizard prison, Azkaban"
+  source_note: The scene shows a Muggle relative of a Hogwarts family retaining pre-Harry-era knowledge that Dementors guard Azkaban from an overheard magical-world conversation.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - azkaban
+  - dementors
+  - muggle-knowledge
+  - petunia-dursley
+  - lily-potter
+  - statute-of-secrecy
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Magical Secrecy and Muggle Relatives
+  candidate_section: Petunia Dursley's Retained Azkaban Knowledge
+  reason_for_placement: The passage gives a rare example of magical knowledge crossing into a Muggle household through family proximity to a future Hogwarts student.
+  relevance_to_hogwarts_a_history: A later edition can treat this as contextual evidence for the secrecy burdens surrounding Muggle-born or Muggle-connected Hogwarts families.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Azkaban and Dementor queries found institutional prison and security entries, but none involved Petunia's retained family knowledge or Muggle-relative secrecy context.
+  confidence: medium
+  limitations: Petunia reports the remembered conversation indirectly and does not name the exact year or speaker beyond "that awful boy" and Harry's mother.
+
+- id: ootp-ch02-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  pdf_page: 1602
+  printed_page: null
+  extracted_text_lines: 477-509
+  text_anchor:
+    start_phrase: Dudley and I were in the alleyway
+    end_phrase: Because I used the Patronus
+    local_occurrence_note: Harry explains Dementor effects to the Dursleys and states that the Patronus was why Dudley still has his soul.
+  nearby_context: Harry describes Dementors sucking happiness and, if they can, souls; the Dursleys press him on why Dudley survived.
+  match_terms:
+  - dementors
+  - happiness
+  - Kiss
+  - soul
+  - Patronus
+  - Dudley
+  quote_excerpt_short: "It's the only thing that works"
+  source_note: Harry gives a plain-language account of Dementor effects and identifies the Patronus as the effective defense that prevented the Dementor's Kiss.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - patronus
+  - dementors
+  - anti-dementor-defense
+  - defense-against-the-dark-arts
+  - dementors-kiss
+  - muggle-witness
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Patronus Defense Explained After an Emergency
+  reason_for_placement: The passage converts the prior action scene into explicit defensive doctrine that can support a concise explanation of anti-Dementor magic.
+  relevance_to_hogwarts_a_history: This corroborates the value of Patronus instruction and records how a Hogwarts-trained student explained the magic to Muggle relatives after an emergency.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-005
+    notes: ootp-ch01-005 records Harry's corporeal Patronus repelling two Dementors; this entry adds his immediate explanation that the Patronus was the reason Dudley was not Kissed.
+  confidence: medium
+  limitations: Harry is explaining under pressure to Muggles and does not provide a classroom-level theory of the Patronus Charm.
+
+- id: ootp-ch02-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Two - A Peck of Owls
+  chapter_start_pdf_page: 1588
+  chapter_end_pdf_page: 1608
+  pdf_page: 1607
+  printed_page: null
+  extracted_text_lines: 672-724
+  text_anchor:
+    start_phrase: The fifth owl zoomed down the chimney
+    end_phrase: Now get to bed
+    local_occurrence_note: A Howler addressed to Petunia says "Remember my last" and causes her to insist that Harry remain at number four.
+  nearby_context: Vernon has just ordered Harry out after learning Voldemort is back, despite repeated warnings from Mr. Weasley and Sirius not to leave the house.
+  match_terms:
+  - Howler
+  - Petunia Dursley
+  - Privet Drive
+  - Remember my last
+  - stay
+  - Dumbledore
+  quote_excerpt_short: "REMEMBER MY LAST, PETUNIA"
+  source_note: A targeted Howler to Petunia enforces an earlier protective warning and immediately reverses Vernon's attempt to expel Harry from Privet Drive.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - privet-drive
+  - petunia-dursley
+  - howler
+  - protective-magic
+  - dumbledore
+  - blood-protection
+  - student-safety
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Off-Campus Protection of Students
+  candidate_section: Dumbledore's Howler and the Privet Drive Residence Requirement
+  reason_for_placement: The scene gives observable evidence that Harry's safety depends on remaining in the Dursley household and that Dumbledore can compel Petunia through a prior warning.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a key post-1984 note on extraordinary off-campus protection for a Hogwarts student tied to the Dursley home.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch33-004
+    notes: gof-ch33-004 records Voldemort's account of Harry's layered protection, including ancient household magic and Dumbledore's arrangements; this entry adds the Howler that keeps the Dursley household protection in force.
+  confidence: high
+  limitations: The Howler's sender is not named in this passage, and the content of the earlier warning is summarized only as "my last."

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Two - A Peck of Owls
-- Page range: 1588-1608
+- Chapter: Chapter Three - The Advance Guard
+- Page range: 1609-1625
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-02-a-peck-of-owls.yaml`
+- Output YAML: `sources/book-05/chapter-03-the-advance-guard.yaml`
 
 ## Minimal Context
 

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-01'
+updated: '2026-07-02'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1141,3 +1141,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 5
   boundary_summary: Used indexed page range; extracted only pages 1570-1587.
+- source_unit_id: ootp-ch02
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 2
+  chapter_title: Chapter Two - A Peck of Owls
+  page_start: 1588
+  page_end: 1608
+  output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  processed_at: '2026-07-02'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 1588-1608.

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-01'
+updated: '2026-07-02'
 tags:
   academic-merit:
     entries:
@@ -229,10 +229,12 @@ tags:
   anti-dementor-defense:
     entries:
     - ootp-ch01-005
+    - ootp-ch02-005
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   anti-muggle-precautions:
     entries:
     - gof-ch06-002
@@ -383,6 +385,7 @@ tags:
     - gof-ch27-007
     - gof-ch30-003
     - gof-ch30-006
+    - ootp-ch02-004
     - poa-ch05-004
     - poa-ch19-004
     - poa-ch19-007
@@ -398,6 +401,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   azkaban-guards:
     entries:
     - poa-ch04-007
@@ -605,6 +609,11 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+  blood-protection:
+    entries:
+    - ootp-ch02-006
+    output_yaml:
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   blood-status:
     entries:
     - cos-ch04-004
@@ -1866,6 +1875,7 @@ tags:
     - gof-ch35-006
     - gof-ch37-002
     - ootp-ch01-005
+    - ootp-ch02-005
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -1919,6 +1929,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -1946,6 +1957,8 @@ tags:
     - gof-ch30-003
     - gof-ch36-004
     - ootp-ch01-004
+    - ootp-ch02-004
+    - ootp-ch02-005
     - poa-ch04-007
     - poa-ch05-004
     - poa-ch05-006
@@ -1979,8 +1992,10 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   dementors-kiss:
     entries:
+    - ootp-ch02-005
     - poa-ch12-003
     - poa-ch19-002
     - poa-ch20-006
@@ -1988,6 +2003,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   department-for-regulation-and-control-of-magical-creatures:
     entries:
     - gof-ch08-002
@@ -2083,6 +2099,12 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
+  disciplinary-hearing:
+    entries:
+    - ootp-ch02-002
+    - ootp-ch02-003
+    output_yaml:
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   discipline:
     entries:
     - cos-ch05-005
@@ -2292,6 +2314,8 @@ tags:
     - gof-ch36-006
     - gof-ch37-002
     - gof-ch37-004
+    - ootp-ch02-003
+    - ootp-ch02-006
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2374,6 +2398,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2707,6 +2732,7 @@ tags:
     - cos-ch12-007
     - cos-ch15-006
     - ootp-ch01-003
+    - ootp-ch02-002
     - poa-ch02-003
     - poa-ch03-001
     - ps-ch04-007
@@ -2722,6 +2748,7 @@ tags:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   fairness:
     entries:
     - gof-ch20-002
@@ -4025,6 +4052,7 @@ tags:
     - cos-ch18-003
     - cos-ch18-005
     - gof-ch24-007
+    - ootp-ch02-003
     - poa-ch09-004
     - poa-ch11-002
     - poa-ch21-001
@@ -4035,6 +4063,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   headmaster-contact:
     entries:
     - gof-ch02-005
@@ -4962,6 +4991,11 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
+  howler:
+    entries:
+    - ootp-ch02-006
+    output_yaml:
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   howlers:
     entries:
     - cos-ch06-001
@@ -5504,9 +5538,11 @@ tags:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
   lily-potter:
     entries:
+    - ootp-ch02-004
     - ps-ch01-003
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   little-hangleton:
     entries:
     - gof-ch01-001
@@ -5517,8 +5553,10 @@ tags:
     - ootp-ch01-002
     - ootp-ch01-004
     - ootp-ch01-005
+    - ootp-ch02-001
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   locker-room:
     entries:
     - ps-ch11-004
@@ -6379,6 +6417,8 @@ tags:
     - gof-ch33-003
     - gof-ch36-005
     - gof-ch37-004
+    - ootp-ch02-002
+    - ootp-ch02-003
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -6416,6 +6456,7 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -6546,8 +6587,10 @@ tags:
   mrs-figg:
     entries:
     - ootp-ch01-002
+    - ootp-ch02-001
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   mrs-norris:
     entries:
     - cos-ch08-002
@@ -6610,6 +6653,11 @@ tags:
     - ps-ch03-004
     output_yaml:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
+  muggle-knowledge:
+    entries:
+    - ootp-ch02-004
+    output_yaml:
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   muggle-newspapers:
     entries:
     - gof-ch30-007
@@ -6716,8 +6764,10 @@ tags:
   muggle-witness:
     entries:
     - ootp-ch01-005
+    - ootp-ch02-005
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   muggle-witnesses:
     entries:
     - ps-ch02-004
@@ -6726,8 +6776,10 @@ tags:
   mundungus-fletcher:
     entries:
     - ootp-ch01-002
+    - ootp-ch02-001
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   music:
     entries:
     - ps-ch16-003
@@ -6887,8 +6939,10 @@ tags:
     entries:
     - ootp-ch01-002
     - ootp-ch01-004
+    - ootp-ch02-001
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   off-campus-transport:
     entries:
     - gof-ch32-001
@@ -6967,8 +7021,10 @@ tags:
   order-guard:
     entries:
     - ootp-ch01-002
+    - ootp-ch02-001
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   order-network:
     entries:
     - gof-ch36-006
@@ -7186,10 +7242,13 @@ tags:
   patronus:
     entries:
     - ootp-ch01-005
+    - ootp-ch02-002
+    - ootp-ch02-005
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   patronus-charm:
     entries:
     - poa-ch12-002
@@ -7311,6 +7370,12 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  petunia-dursley:
+    entries:
+    - ootp-ch02-004
+    - ootp-ch02-006
+    output_yaml:
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   philosopher-stone-protection:
     entries:
     - ps-ch11-007
@@ -7701,6 +7766,8 @@ tags:
     - ootp-ch01-001
     - ootp-ch01-002
     - ootp-ch01-003
+    - ootp-ch02-001
+    - ootp-ch02-006
     - poa-ch01-002
     - poa-ch02-002
     - poa-ch02-003
@@ -7711,6 +7778,7 @@ tags:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   procession:
     entries:
     - gof-ch23-002
@@ -7924,8 +7992,10 @@ tags:
   protective-magic:
     entries:
     - gof-ch33-004
+    - ootp-ch02-006
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   public-accountability:
     entries:
     - gof-ch24-002
@@ -9324,6 +9394,11 @@ tags:
     - cos-ch08-002
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  squibs:
+    entries:
+    - ootp-ch02-001
+    output_yaml:
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -9554,9 +9629,12 @@ tags:
     entries:
     - cos-ch02-005
     - gof-ch04-004
+    - ootp-ch02-002
+    - ootp-ch02-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   statute-of-secrecy-context:
     entries:
     - ps-ch14-002
@@ -9646,6 +9724,7 @@ tags:
     entries:
     - cos-ch18-002
     - ootp-ch01-003
+    - ootp-ch02-003
     - poa-ch19-002
     - poa-ch19-003
     - ps-ch13-003
@@ -9654,6 +9733,7 @@ tags:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -9876,6 +9956,7 @@ tags:
     - gof-ch28-002
     - gof-ch31-003
     - gof-ch31-006
+    - ootp-ch02-006
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -9899,6 +9980,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   student-spectators:
     entries:
     - gof-ch31-002
@@ -10048,9 +10130,11 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   suspension:
     entries:
+    - ootp-ch02-003
     - poa-ch19-002
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   sword:
     entries:
     - cos-ch17-005
@@ -10644,6 +10728,7 @@ tags:
     - gof-ch04-005
     - gof-ch06-001
     - ootp-ch01-003
+    - ootp-ch02-002
     - poa-ch02-003
     - poa-ch03-001
     output_yaml:
@@ -10657,6 +10742,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   underage-students:
     entries:
     - gof-ch16-004
@@ -10938,8 +11024,11 @@ tags:
   wand-sanctions:
     entries:
     - cos-ch07-005
+    - ootp-ch02-002
+    - ootp-ch02-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/book-05/chapter-02-a-peck-of-owls.yaml
   wand-sparks:
     entries:
     - ps-ch15-005
