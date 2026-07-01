@@ -1,0 +1,338 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Thirty-Four anchor and before the Chapter Thirty-Six anchor; extracted only PDF pages 1507-1524 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-Five. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. Entries focus on the Cup's return to the maze edge, the revealed Hogwarts infiltrator, covert tournament manipulation, final-task sabotage, Moody's office security evidence, Polyjuice impersonation, and Veritaserum interrogation. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch35-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1508
+  printed_page: null
+  extracted_text_lines: 8-64
+  text_anchor:
+    start_phrase: He had come back to the edge of the maze
+    end_phrase: he’s in the stands
+    local_occurrence_note: Harry returns by Portkey with Cedric's body and is surrounded by staff, Ministry officials, spectators, and Cedric's parents nearby.
+  nearby_context: Harry arrives at the edge of the final-task maze still clutching the Cup and Cedric, sees the stands, tells Dumbledore that Voldemort is back, and Fudge immediately identifies Cedric's death and Harry's need for the hospital wing.
+  match_terms:
+  - Triwizard Cup
+  - Portkey
+  - maze
+  - stands
+  - Cedric Diggory
+  - Dumbledore
+  quote_excerpt_short: He had come back to the edge of the maze.
+  source_note: "The chapter confirms the exact Hogwarts return point of the sabotaged Cup Portkey: the edge of the final-task maze before the watching crowd."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-cup
+  - portkey
+  - tournament-security
+  - maze
+  - cedric-diggory
+  - school-spectators
+  - dumbledore
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Cup Portkey Return to the Maze Edge
+  reason_for_placement: The passage completes the route evidence for the sabotaged Cup by placing its return terminus within the tournament venue, in front of the school audience and officials.
+  relevance_to_hogwarts_a_history: A later edition can use this as eyewitness location evidence for how the fatal breach re-entered the official school event and became public.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch31-007
+    - gof-ch32-001
+    - gof-ch34-005
+    notes: gof-ch31-007 records the Cup's first activation, gof-ch32-001 confirms the off-grounds destination, and gof-ch34-005 records the return activation; this entry adds the precise return location at the maze edge and public event context.
+  confidence: high
+  limitations: The passage shows the arrival aftermath, not the enchantment process that made the Cup a Portkey.
+- id: gof-ch35-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1511
+  printed_page: null
+  extracted_text_lines: 132-181
+  text_anchor:
+    start_phrase: There’s a Death Eater at Hogwarts
+    end_phrase: Who put your name in the Goblet of Fire
+    local_occurrence_note: The impostor confirms Harry's warning and personally claims responsibility for entering Harry in the Goblet under another school.
+  nearby_context: Harry tries to warn Dumbledore of the Hogwarts Death Eater, Moody reveals that Karkaroff was not the culprit, draws his wand, and says he placed Harry's name in the Goblet of Fire.
+  match_terms:
+  - Death Eater at Hogwarts
+  - Goblet of Fire
+  - different school
+  - Karkaroff
+  - hidden agent
+  - tournament sabotage
+  quote_excerpt_short: It was I who did that.
+  source_note: The chapter names the apparent Hogwarts teacher as the internal agent who bypassed the Goblet's entry assumptions by submitting Harry under a different school.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - hidden-agent
+  - goblet-of-fire
+  - triwizard-tournament
+  - tournament-security
+  - death-eater
+  - hogwarts-security
+  - champion-selection
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Goblet Entry Sabotage by the Hogwarts Infiltrator
+  reason_for_placement: The confession links the final disaster back to a specific insider action against the tournament's selection system.
+  relevance_to_hogwarts_a_history: A later edition can cite this as core evidence that the revived tournament failed through internal staff-side infiltration, not only external attack.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch16-003
+    - gof-ch17-003
+    - gof-ch33-001
+    - gof-ch33-005
+    notes: gof-ch16-003 and gof-ch17-003 establish the intended entry and binding-selection safeguards, while gof-ch33-001 and gof-ch33-005 confirm a hidden Hogwarts servant and sabotage chain; this entry adds the culprit's own claim that he submitted Harry under a different school.
+  confidence: high
+  limitations: The speaker is still visually disguised as Moody at this moment; the later Veritaserum sequence identifies him as Barty Crouch Jr.
+- id: gof-ch35-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1512
+  printed_page: null
+  extracted_text_lines: 180-223
+  text_anchor:
+    start_phrase: Who nudged Hagrid into showing you the dragons
+    end_phrase: hurried to find you
+    local_occurrence_note: Crouch explains how he fed information through Hagrid, Cedric, Neville, and Dobby without exposing his own hand.
+  nearby_context: The infiltrator admits prompting Hagrid's dragon leak, telling Cedric to open the egg underwater, giving Neville the gillyweed book, and staging a staffroom conversation so Dobby would overhear task information.
+  match_terms:
+  - Hagrid
+  - Cedric
+  - Longbottom
+  - Dobby
+  - staffroom
+  - gillyweed
+  - hostages
+  quote_excerpt_short: I staged a loud conversation.
+  source_note: The chapter reveals that ordinary school information channels and trusted helpers were deliberately manipulated to guide Harry through tournament tasks.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - staffroom
+  - house-elves
+  - dobby
+  - gillyweed
+  - hagrid
+  - covert-assistance
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Covert Guidance Through School Information Networks
+  reason_for_placement: "The passage turns several earlier task clues into one institutional pattern: informal trust, staff spaces, and house-elf access could be exploited during a school crisis."
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how the tournament plot moved through normal Hogwarts relationships rather than only through direct magical coercion.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch26-004
+    - gof-ch27-001
+    notes: gof-ch26-004 records Dobby's gillyweed intervention and staffroom eavesdropping risk, while gof-ch27-001 records official hostage preparation; this entry adds Crouch's admission that he staged the staffroom leak and other task clues.
+  confidence: high
+  limitations: The confession gives the manipulator's retrospective framing and does not reproduce every earlier clue scene in full.
+- id: gof-ch35-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1513
+  printed_page: null
+  extracted_text_lines: 224-232
+  text_anchor:
+    start_phrase: You had an easier time of it
+    end_phrase: leave your path to the Cup clear
+    local_occurrence_note: Crouch explains his final-task patrol and direct interference with obstacles and rival champions.
+  nearby_context: Crouch says he patrolled around the maze, saw through the outer hedges, cursed obstacles out of Harry's path, Stunned Fleur, and put Krum under Imperius to remove Cedric.
+  match_terms:
+  - maze
+  - outer hedges
+  - obstacles
+  - Fleur Delacour
+  - Krum
+  - Imperius Curse
+  - Cup
+  quote_excerpt_short: curse many obstacles out of your way
+  source_note: The chapter confirms that the final-task maze was actively sabotaged from the patrol perimeter, including attacks on champions and manipulation of obstacles.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - third-task
+  - maze
+  - staff-patrol
+  - imperius-curse
+  - fleur-delacour
+  - viktor-krum
+  - tournament-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Final-Task Patrol Sabotage
+  reason_for_placement: "The passage exposes a failure mode in the final task's safety arrangement: a trusted perimeter patrol could alter the course of the maze from outside."
+  relevance_to_hogwarts_a_history: A later edition can use this to qualify the official third-task rules and rescue plan with evidence of direct insider interference.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch28-004
+    - gof-ch31-002
+    - gof-ch31-003
+    notes: gof-ch28-004 records the planned maze rules and obstacles, gof-ch31-002 records the final venue, and gof-ch31-003 records staff patrols; this entry adds Crouch's confession that he used that patrol position to clear obstacles and attack champions.
+  confidence: high
+  limitations: The confession does not list every obstacle he cursed or all staff movements around the maze.
+- id: gof-ch35-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1514
+  printed_page: null
+  extracted_text_lines: 236-303
+  text_anchor:
+    start_phrase: The foggy shapes in the Foe-Glass were sharpening
+    end_phrase: The moment he took you, I knew
+    local_occurrence_note: The Foe-Glass foreshadows the rescue party, and Dumbledore explains why he followed the fake Moody at once.
+  nearby_context: Dumbledore, Snape, and McGonagall appear in the Foe-Glass before blasting into Moody's office; Dumbledore refuses to send Harry away and says the real Moody would not have removed Harry from his sight.
+  match_terms:
+  - Foe-Glass
+  - Dumbledore
+  - Snape
+  - McGonagall
+  - Moody's office
+  - hospital wing
+  - staff response
+  quote_excerpt_short: looking back at him out of the Foe-Glass
+  source_note: The chapter shows Moody's Foe-Glass functioning during an emergency and records Dumbledore's immediate staff-led response to a suspicious removal of an injured student.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - foe-glass
+  - dark-detectors
+  - staff-response
+  - dumbledore
+  - professor-snape
+  - professor-mcgonagall
+  - hospital-wing
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Foe-Glass Warning and Staff Rescue
+  reason_for_placement: The episode connects a personal Auror detector in a teaching office to the headmaster's crisis response and student-protection judgment.
+  relevance_to_hogwarts_a_history: A later edition can use this as a concrete example of extraordinary Harry-era security tools operating inside ordinary staff space.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch20-003
+    notes: gof-ch20-003 catalogues the Dark Detectors in Moody's office, including the Foe-Glass and seven-locked trunk; this entry adds the Foe-Glass's visible emergency use and the staff rescue scene.
+  confidence: high
+  limitations: The Foe-Glass is Moody's personal equipment rather than a permanent Hogwarts installation.
+- id: gof-ch35-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1516
+  printed_page: null
+  extracted_text_lines: 313-348
+  text_anchor:
+    start_phrase: Dumbledore walked over to the trunk with seven locks
+    end_phrase: on the hour
+    local_occurrence_note: Dumbledore opens the seven-locked trunk, finds the real Moody hidden below, and identifies the Polyjuice system.
+  nearby_context: The trunk reveals different compartments before opening into a pit containing the real Alastor Moody, weak and Imperius-controlled; Dumbledore then spills the flask and explains the impostor's hourly Polyjuice use and hair supply.
+  match_terms:
+  - seven locks
+  - magical trunk
+  - Alastor Moody
+  - Polyjuice Potion
+  - Imperius Curse
+  - hip flask
+  - hair
+  quote_excerpt_short: an underground room
+  source_note: The chapter reveals that a complex magical trunk in a Hogwarts office concealed the real Moody all year while the impostor maintained his disguise with hourly Polyjuice Potion.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - magical-trunk
+  - polyjuice-potion
+  - alastor-moody
+  - imperius-curse
+  - staff-impersonation
+  - defense-against-the-dark-arts
+  - hogwarts-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Staff Impersonation and the Seven-Locked Trunk
+  reason_for_placement: The passage supplies the physical mechanism that let a false teacher operate inside Hogwarts while keeping the real teacher nearby.
+  relevance_to_hogwarts_a_history: A later edition can cite this as one of the clearest Harry-era examples of staff impersonation defeating Hogwarts's ordinary trust and identity assumptions.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries for Polyjuice, Moody, impostor, magical trunk, and security found related detector and hidden-agent entries, but no prior entry covering the real Moody's yearlong confinement and hourly Polyjuice mechanism.
+  confidence: high
+  limitations: The account explains the impersonation after discovery and does not show how school vetting failed before term began.
+- id: gof-ch35-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Five - Veritaserum
+  chapter_start_pdf_page: 1507
+  chapter_end_pdf_page: 1524
+  pdf_page: 1518
+  printed_page: null
+  extracted_text_lines: 384-398
+  text_anchor:
+    start_phrase: the Veritaserum with which he had threatened Harry in class
+    end_phrase: how you came to be here
+    local_occurrence_note: Snape supplies Veritaserum, Dumbledore doses and revives Crouch, and the interrogation begins in front of senior staff.
+  nearby_context: Dumbledore asks Snape for the strongest Truth Potion, administers three drops to Barty Crouch Jr. beneath the Foe-Glass, and asks how he came to be at Hogwarts.
+  match_terms:
+  - Veritaserum
+  - Truth Potion
+  - Snape
+  - Dumbledore
+  - Rennervate
+  - interrogation
+  - Barty Crouch
+  quote_excerpt_short: the strongest Truth Potion you possess
+  source_note: The chapter records a staff-led emergency interrogation using Veritaserum obtained from the Potions master, turning classroom-threat potion lore into formal crisis evidence.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - veritaserum
+  - truth-potion
+  - professor-snape
+  - dumbledore
+  - emergency-investigation
+  - potions
+  - barty-crouch-jr
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Veritaserum Interrogation After the Third Task
+  reason_for_placement: The scene documents how Hogwarts senior staff gathered a confession immediately after a catastrophic breach, using a controlled magical substance already associated with Potions authority.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for Harry-era emergency investigation practices and for the limits between classroom discipline, staff authority, and legal proof.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries for Veritaserum, Truth Potion, Dumbledore, interrogation, and Crouch found no prior entry focused on this emergency Veritaserum procedure.
+  confidence: high
+  limitations: The passage does not state Ministry rules for Veritaserum evidence or whether the confession was formally admissible outside Hogwarts.

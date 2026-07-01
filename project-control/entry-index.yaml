@@ -8531,6 +8531,117 @@ by_entry:
     - triwizard-cup
     source_unit: gof-ch34
     output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
+  gof-ch35-001:
+    title: 'The Triwizard Year and Institutional Security: Cup Portkey Return to the
+      Maze Edge'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - cedric-diggory
+    - dumbledore
+    - maze
+    - portkey
+    - school-spectators
+    - tournament-security
+    - triwizard-cup
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  gof-ch35-002:
+    title: 'The Triwizard Year and Institutional Security: Goblet Entry Sabotage by
+      the Hogwarts Infiltrator'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - champion-selection
+    - death-eater
+    - goblet-of-fire
+    - hidden-agent
+    - hogwarts-security
+    - tournament-security
+    - triwizard-tournament
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  gof-ch35-003:
+    title: 'The Triwizard Year and Institutional Security: Covert Guidance Through
+      School Information Networks'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - covert-assistance
+    - dobby
+    - gillyweed
+    - hagrid
+    - house-elves
+    - staffroom
+    - triwizard-tournament
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  gof-ch35-004:
+    title: 'The Triwizard Year and Institutional Security: Final-Task Patrol Sabotage'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - fleur-delacour
+    - imperius-curse
+    - maze
+    - staff-patrol
+    - third-task
+    - tournament-security
+    - viktor-krum
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  gof-ch35-005:
+    title: 'The Triwizard Year and Institutional Security: Foe-Glass Warning and Staff
+      Rescue'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dark-detectors
+    - dumbledore
+    - foe-glass
+    - hospital-wing
+    - professor-mcgonagall
+    - professor-snape
+    - staff-response
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  gof-ch35-006:
+    title: 'The Triwizard Year and Institutional Security: Staff Impersonation and
+      the Seven-Locked Trunk'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - alastor-moody
+    - defense-against-the-dark-arts
+    - hogwarts-security
+    - imperius-curse
+    - magical-trunk
+    - polyjuice-potion
+    - staff-impersonation
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  gof-ch35-007:
+    title: 'The Triwizard Year and Institutional Security: Veritaserum Interrogation
+      After the Third Task'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - barty-crouch-jr
+    - dumbledore
+    - emergency-investigation
+    - potions
+    - professor-snape
+    - truth-potion
+    - veritaserum
+    source_unit: gof-ch35
+    output_yaml: sources/book-04/chapter-35-veritaserum.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8585,6 +8696,8 @@ by_tag:
   - gof-ch17-001
   aging-potion:
   - gof-ch16-004
+  alastor-moody:
+  - gof-ch35-006
   albus-dumbledore:
   - ps-ch01-001
   - ps-ch01-002
@@ -8742,6 +8855,7 @@ by_tag:
   - gof-ch30-007
   barty-crouch-jr:
   - gof-ch30-006
+  - gof-ch35-007
   basilisk:
   - cos-ch16-003
   - cos-ch17-002
@@ -8993,6 +9107,7 @@ by_tag:
   - gof-ch32-002
   - gof-ch34-004
   - gof-ch34-005
+  - gof-ch35-001
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -9044,6 +9159,7 @@ by_tag:
   - gof-ch16-003
   - gof-ch16-007
   - gof-ch17-004
+  - gof-ch35-002
   champions:
   - gof-ch18-006
   - gof-ch19-004
@@ -9214,6 +9330,8 @@ by_tag:
   - ps-ch11-003
   covered-up-events:
   - cos-ch13-004
+  covert-assistance:
+  - gof-ch35-003
   creature-breeding:
   - gof-ch24-003
   creature-curriculum:
@@ -9315,6 +9433,7 @@ by_tag:
   - gof-ch14-001
   dark-detectors:
   - gof-ch20-003
+  - gof-ch35-005
   dark-lord:
   - gof-ch28-005
   dark-magic:
@@ -9333,6 +9452,7 @@ by_tag:
   - poa-ch10-002
   death-eater:
   - gof-ch33-001
+  - gof-ch35-002
   death-eaters:
   - gof-ch09-001
   - gof-ch09-004
@@ -9363,6 +9483,7 @@ by_tag:
   - gof-ch29-003
   - gof-ch34-001
   - gof-ch34-002
+  - gof-ch35-006
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -9496,6 +9617,7 @@ by_tag:
   - gof-ch21-007
   - gof-ch26-004
   - gof-ch28-001
+  - gof-ch35-003
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
@@ -9568,6 +9690,9 @@ by_tag:
   - gof-ch30-007
   - gof-ch33-004
   - gof-ch34-003
+  - gof-ch35-001
+  - gof-ch35-005
+  - gof-ch35-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9663,6 +9788,8 @@ by_tag:
   - ps-ch17-003
   emergency-departure:
   - gof-ch10-002
+  emergency-investigation:
+  - gof-ch35-007
   emergency-lockdown:
   - poa-ch09-002
   emergency-protocol:
@@ -9874,6 +10001,7 @@ by_tag:
   fleur-delacour:
   - gof-ch16-007
   - gof-ch17-001
+  - gof-ch35-004
   flitwick:
   - ps-ch10-001
   - ps-ch12-003
@@ -9907,6 +10035,7 @@ by_tag:
   - ps-ch02-003
   foe-glass:
   - gof-ch20-003
+  - gof-ch35-005
   food-service:
   - gof-ch21-006
   - gof-ch23-003
@@ -10037,6 +10166,7 @@ by_tag:
   - gof-ch26-004
   - gof-ch26-006
   - gof-ch27-004
+  - gof-ch35-003
   ginny-weasley:
   - cos-ch17-002
   - cos-ch18-002
@@ -10053,6 +10183,7 @@ by_tag:
   - gof-ch17-004
   - gof-ch17-005
   - gof-ch33-005
+  - gof-ch35-002
   goblin-liaison:
   - gof-ch07-004
   goblin-rebellion:
@@ -10241,6 +10372,7 @@ by_tag:
   - gof-ch28-002
   - gof-ch28-004
   - gof-ch28-007
+  - gof-ch35-003
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -10433,6 +10565,7 @@ by_tag:
   - gof-ch01-004
   - gof-ch33-001
   - gof-ch33-005
+  - gof-ch35-002
   hidden-chamber:
   - cos-ch09-005
   hidden-entrance:
@@ -10608,6 +10741,8 @@ by_tag:
   - gof-ch33-003
   - gof-ch33-004
   - gof-ch33-005
+  - gof-ch35-002
+  - gof-ch35-006
   - ps-ch04-005
   - ps-ch05-001
   hogwarts-staff:
@@ -10675,6 +10810,7 @@ by_tag:
   - cos-ch18-002
   - gof-ch16-004
   - gof-ch18-004
+  - gof-ch35-005
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -10727,6 +10863,7 @@ by_tag:
   - gof-ch23-003
   - gof-ch26-004
   - gof-ch28-001
+  - gof-ch35-003
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -10813,6 +10950,8 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch34-002
+  - gof-ch35-004
+  - gof-ch35-006
   improper-use-of-magic-office:
   - gof-ch05-004
   in-universe-analysis:
@@ -11266,6 +11405,8 @@ by_tag:
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
+  magical-trunk:
+  - gof-ch35-006
   mandrake-juice:
   - cos-ch18-002
   mandrakes:
@@ -11319,6 +11460,8 @@ by_tag:
   - gof-ch28-004
   - gof-ch31-002
   - gof-ch31-003
+  - gof-ch35-001
+  - gof-ch35-004
   mcgonagall:
   - poa-ch11-007
   - ps-ch09-003
@@ -11844,11 +11987,13 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch12-004
+  - gof-ch35-006
   portkey:
   - gof-ch31-007
   - gof-ch32-001
   - gof-ch33-005
   - gof-ch34-005
+  - gof-ch35-001
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -11891,6 +12036,7 @@ by_tag:
   - gof-ch15-002
   - gof-ch18-004
   - gof-ch22-005
+  - gof-ch35-007
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -12011,6 +12157,7 @@ by_tag:
   - gof-ch17-003
   - gof-ch22-002
   - gof-ch27-001
+  - gof-ch35-005
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -12033,6 +12180,8 @@ by_tag:
   - ps-ch17-001
   - ps-ch17-002
   professor-snape:
+  - gof-ch35-005
+  - gof-ch35-007
   - poa-ch09-005
   - poa-ch10-001
   - poa-ch14-006
@@ -12402,6 +12551,8 @@ by_tag:
   - gof-ch19-007
   - gof-ch24-004
   - gof-ch25-007
+  school-spectators:
+  - gof-ch35-001
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
@@ -12723,12 +12874,15 @@ by_tag:
   - gof-ch27-005
   - ps-ch01-002
   - ps-ch01-005
+  staff-impersonation:
+  - gof-ch35-006
   staff-memory:
   - poa-ch10-006
   staff-offices:
   - gof-ch25-006
   staff-patrol:
   - gof-ch31-003
+  - gof-ch35-004
   staff-permission:
   - cos-ch07-002
   staff-protections:
@@ -12737,6 +12891,7 @@ by_tag:
   - poa-ch22-003
   staff-response:
   - cos-ch11-006
+  - gof-ch35-005
   staff-search:
   - poa-ch09-002
   staff-table:
@@ -12747,6 +12902,7 @@ by_tag:
   staffroom:
   - cos-ch16-005
   - gof-ch26-004
+  - gof-ch35-003
   - poa-ch07-004
   - poa-ch07-006
   - ps-ch08-005
@@ -13050,6 +13206,7 @@ by_tag:
   - gof-ch29-004
   - gof-ch31-002
   - gof-ch31-003
+  - gof-ch35-004
   third-year-booklist:
   - poa-ch04-003
   third-year-curriculum:
@@ -13124,6 +13281,9 @@ by_tag:
   - gof-ch32-001
   - gof-ch33-005
   - gof-ch34-005
+  - gof-ch35-001
+  - gof-ch35-002
+  - gof-ch35-004
   tournament-spectators:
   - gof-ch20-005
   tower-dormitory:
@@ -13157,6 +13317,7 @@ by_tag:
   - gof-ch32-001
   - gof-ch33-005
   - gof-ch34-005
+  - gof-ch35-001
   triwizard-rules:
   - gof-ch17-001
   triwizard-tournament:
@@ -13210,6 +13371,8 @@ by_tag:
   - gof-ch32-002
   - gof-ch33-003
   - gof-ch33-005
+  - gof-ch35-002
+  - gof-ch35-003
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -13231,6 +13394,8 @@ by_tag:
   - gof-ch10-005
   - poa-ch06-004
   - poa-ch16-005
+  truth-potion:
+  - gof-ch35-007
   two-champions:
   - gof-ch17-002
   underage-magic:
@@ -13300,8 +13465,10 @@ by_tag:
   - gof-ch18-007
   veritaserum:
   - gof-ch27-004
+  - gof-ch35-007
   viktor-krum:
   - gof-ch16-007
+  - gof-ch35-004
   visiting-schools:
   - gof-ch15-005
   - gof-ch15-006

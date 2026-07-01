@@ -1093,3 +1093,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 5
   boundary_summary: Used indexed page range; extracted only pages 1498-1506.
+- source_unit_id: gof-ch35
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 35
+  chapter_title: Chapter Thirty-Five - Veritaserum
+  page_start: 1507
+  page_end: 1524
+  output_yaml: sources/book-04/chapter-35-veritaserum.yaml
+  processed_at: '2026-07-01'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1507-1524.

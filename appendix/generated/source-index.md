@@ -97,3 +97,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch32`: Harry Potter and the Goblet of Fire, Chapter Thirty-Two - Flesh, Blood, and Bone, pages 1479-1485, 2 entries, 0 explicit references.
 - `gof-ch33`: Harry Potter and the Goblet of Fire, Chapter Thirty-Three - The Death Eaters, pages 1486-1497, 5 entries, 0 explicit references.
 - `gof-ch34`: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, pages 1498-1506, 5 entries, 0 explicit references.
+- `gof-ch35`: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, pages 1507-1524, 7 entries, 0 explicit references.

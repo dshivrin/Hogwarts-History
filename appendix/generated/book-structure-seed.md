@@ -374,10 +374,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classified Ministry Announcement at Hogwarts
   - Classified Rules, Entry, and Prize Foreshadowing
   - Confunding the Goblet of Fire
+  - Covert Guidance Through School Information Networks
   - Crouch's Forest Warning and Tournament Administration Fragments
   - Cup Portkey Return to Hogwarts
+  - Cup Portkey Return to the Maze Edge
   - Entry procedure, Age Line, and binding contract
+  - Final-Task Patrol Sabotage
   - First-Task Secrecy and Informal Leaks
+  - Foe-Glass Warning and Staff Rescue
+  - Goblet Entry Sabotage by the Hogwarts Infiltrator
   - Goblet Manipulation and Cup Portkey Breach
   - Goblet lifecycle and closed selection
   - Graveyard Victim Echoes
@@ -388,10 +393,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Workload Before the Tournament
   - Portkey Breach Beyond Hogwarts Grounds
   - Priori Incantatem and Wand-Core Evidence
+  - Staff Impersonation and the Seven-Locked Trunk
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
   - Traditional Cheating and First-Task Fairness
   - Triwizard Cup Endpoint and Portkey Breach
+  - Veritaserum Interrogation After the Third Task
 - The Triwizard Year and Magical Creature Hazards
   - Dragon Assignment and First-Task Order
   - Dragon Breeds, Keepers, and Containment

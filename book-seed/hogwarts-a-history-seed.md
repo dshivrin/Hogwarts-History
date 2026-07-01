@@ -5000,6 +5000,18 @@ Summary: The available evidence includes 1 source item, led by: Moody theorizes 
   - Reference type: security_or_protection
   - Notes: This is Moody's immediate theory, not yet confirmed within this chapter.
 
+#### Section: Covert Guidance Through School Information Networks
+
+Summary: The available evidence includes 1 source item, led by: The chapter reveals that ordinary school information channels and trusted helpers were deliberately manipulated to guide Harry through tournament tasks.
+
+- **Corroboration:** The chapter reveals that ordinary school information channels and trusted helpers were deliberately manipulated to guide Harry through tournament tasks.
+  - Quote: "I staged a loud conversation."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1512, `gof-ch35-003`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch26-004`, `gof-ch27-001`. gof-ch26-004 records Dobby's gillyweed intervention and staffroom eavesdropping risk, while gof-ch27-001 records official hostage preparation; this entry adds Crouch's admission that he staged the staffroom leak and other task clues.
+  - Notes: The confession gives the manipulator's retrospective framing and does not reproduce every earlier clue scene in full.
+
 #### Section: Crouch's Forest Warning and Tournament Administration Fragments
 
 Summary: The available evidence includes 1 source item, led by: Crouch's appearance on the forest edge combines tournament-administration fragments with an urgent security warning linking Bertha Jorkins, his son, Harry, and Voldemort's growing strength.
@@ -5024,6 +5036,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `gof-ch31-007`, `gof-ch32-001`, `gof-ch33-005`. gof-ch31-007 records the Cup's first observed activation, gof-ch32-001 confirms the off-grounds destination, and gof-ch33-005 confirms the sabotage chain; this entry adds the return-to-Hogwarts leg and Cedric's body retrieval.
   - Notes: The destination is stated as Hogwarts by James's echo and implied by the Portkey's activation; the actual arrival scene occurs in the following chapter.
 
+#### Section: Cup Portkey Return to the Maze Edge
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms the exact Hogwarts return point of the sabotaged Cup Portkey: the edge of the final-task maze before the watching crowd.
+
+- **Corroboration:** The chapter confirms the exact Hogwarts return point of the sabotaged Cup Portkey: the edge of the final-task maze before the watching crowd.
+  - Quote: "He had come back to the edge of the maze."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1508, `gof-ch35-001`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch31-007`, `gof-ch32-001`, `gof-ch34-005`. gof-ch31-007 records the Cup's first activation, gof-ch32-001 confirms the off-grounds destination, and gof-ch34-005 records the return activation; this entry adds the precise return location at the maze edge and public event context.
+  - Notes: The passage shows the arrival aftermath, not the enchantment process that made the Cup a Portkey.
+
 #### Section: Entry procedure, Age Line, and binding contract
 
 Summary: The available evidence includes 1 source item, led by: The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
@@ -5036,6 +5060,18 @@ Summary: The available evidence includes 1 source item, led by: The tournament e
   - Corroborates: `gof-ch12-007`. gof-ch12-007 already records the Halloween selection and seventeen-plus restriction; this entry adds name-and-school submission, the Age Line, and the binding magical contract.
   - Notes: The chapter states the intended safeguards but not their exact spellwork or later failure mode.
 
+#### Section: Final-Task Patrol Sabotage
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that the final-task maze was actively sabotaged from the patrol perimeter, including attacks on champions and manipulation of obstacles.
+
+- **Corroboration:** The chapter confirms that the final-task maze was actively sabotaged from the patrol perimeter, including attacks on champions and manipulation of obstacles.
+  - Quote: "curse many obstacles out of your way"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1513, `gof-ch35-004`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch28-004`, `gof-ch31-002`, `gof-ch31-003`. gof-ch28-004 records the planned maze rules and obstacles, gof-ch31-002 records the final venue, and gof-ch31-003 records staff patrols; this entry adds Crouch's confession that he used that patrol position to clear obstacles and attack champions.
+  - Notes: The confession does not list every obstacle he cursed or all staff movements around the maze.
+
 #### Section: First-Task Secrecy and Informal Leaks
 
 Summary: The available evidence includes 1 source item, led by: The first task's secrecy is operationally fragile, with Hagrid, Madame Maxime, Karkaroff, and Harry all gaining advance knowledge before the task.
@@ -5047,6 +5083,30 @@ Summary: The available evidence includes 1 source item, led by: The first task's
   - Reference type: school_rule_or_policy
   - Corroborates: `gof-ch17-006`, `gof-ch18-006`. gof-ch17-006 records the formal first-task rules and staged information, while gof-ch18-006 records a pre-task ceremony; this entry adds the breach of secrecy around the dragon task.
   - Notes: The passage shows informal leaks but not the official response, if any, before the task.
+
+#### Section: Foe-Glass Warning and Staff Rescue
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Moody's Foe-Glass functioning during an emergency and records Dumbledore's immediate staff-led response to a suspicious removal of an injured student.
+
+- **Corroboration:** The chapter shows Moody's Foe-Glass functioning during an emergency and records Dumbledore's immediate staff-led response to a suspicious removal of an injured student.
+  - Quote: "looking back at him out of the Foe-Glass"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1514, `gof-ch35-005`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch20-003`. gof-ch20-003 catalogues the Dark Detectors in Moody's office, including the Foe-Glass and seven-locked trunk; this entry adds the Foe-Glass's visible emergency use and the staff rescue scene.
+  - Notes: The Foe-Glass is Moody's personal equipment rather than a permanent Hogwarts installation.
+
+#### Section: Goblet Entry Sabotage by the Hogwarts Infiltrator
+
+Summary: The available evidence includes 1 source item, led by: The chapter names the apparent Hogwarts teacher as the internal agent who bypassed the Goblet's entry assumptions by submitting Harry under a different school.
+
+- **Corroboration:** The chapter names the apparent Hogwarts teacher as the internal agent who bypassed the Goblet's entry assumptions by submitting Harry under a different school.
+  - Quote: "It was I who did that."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1511, `gof-ch35-002`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch16-003`, `gof-ch17-003`, `gof-ch33-001`, `gof-ch33-005`. gof-ch16-003 and gof-ch17-003 establish the intended entry and binding-selection safeguards, while gof-ch33-001 and gof-ch33-005 confirm a hidden Hogwarts servant and sabotage chain; this entry adds the culprit's own claim that he submitted Harry under a different school.
+  - Notes: The speaker is still visually disguised as Moody at this moment; the later Veritaserum sequence identifies him as Barty Crouch Jr.
 
 #### Section: Goblet Manipulation and Cup Portkey Breach
 
@@ -5154,6 +5214,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: cross_reference_candidate
   - Notes: The chapter describes the phenomenon before Dumbledore's technical explanation, so the exact wand-core cause must be supplied by later evidence.
 
+#### Section: Staff Impersonation and the Seven-Locked Trunk
+
+Summary: The available evidence includes 1 source item, led by: The chapter reveals that a complex magical trunk in a Hogwarts office concealed the real Moody all year while the impostor maintained his disguise with hourly Polyjuice Potion.
+
+- **Context:** The chapter reveals that a complex magical trunk in a Hogwarts office concealed the real Moody all year while the impostor maintained his disguise with hourly Polyjuice Potion.
+  - Quote: "an underground room"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1516, `gof-ch35-006`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The account explains the impersonation after discovery and does not show how school vetting failed before term began.
+
 #### Section: The fourth champion anomaly
 
 Summary: The available evidence includes 1 source item, led by: Harry is formally presented as an anomalous fourth champion, and the initial response treats his youth as irregular but not enough to void selection.
@@ -5200,6 +5271,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Classification: later_editorial_note | Confidence: high
   - Reference type: cross_reference_candidate
   - Notes: This chapter shows the transport effect but does not yet reveal who altered the Cup, where it sends them, or how the breach bypassed tournament protections.
+
+#### Section: Veritaserum Interrogation After the Third Task
+
+Summary: The available evidence includes 1 source item, led by: The chapter records a staff-led emergency interrogation using Veritaserum obtained from the Potions master, turning classroom-threat potion lore into formal crisis evidence.
+
+- **Context:** The chapter records a staff-led emergency interrogation using Veritaserum obtained from the Potions master, turning classroom-threat potion lore into formal crisis evidence.
+  - Quote: "the strongest Truth Potion you possess"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, PDF p. 1518, `gof-ch35-007`, `sources/book-04/chapter-35-veritaserum.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The passage does not state Ministry rules for Veritaserum evidence or whether the confession was formally admissible outside Hogwarts.
 
 ### Chapter: Wizarding Schools Beyond Britain
 

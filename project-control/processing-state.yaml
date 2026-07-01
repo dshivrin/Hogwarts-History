@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
-  chapter_number: 34
-  chapter_title: Chapter Thirty-Four - Priori Incantatem
-  page_start: 1498
-  page_end: 1506
-  output_yaml: sources/book-04/chapter-34-priori-incantatem.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
   chapter_number: 35
   chapter_title: Chapter Thirty-Five - Veritaserum
   page_start: 1507
   page_end: 1524
   output_yaml: sources/book-04/chapter-35-veritaserum.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-04
   book: Harry Potter and the Goblet of Fire
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1525
   page_end: 1544
   output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 37
+  chapter_title: Chapter Thirty-Seven - The Beginning
+  page_start: 1545
+  page_end: 1560
+  output_yaml: sources/book-04/chapter-37-the-beginning.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
