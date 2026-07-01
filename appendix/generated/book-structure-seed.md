@@ -361,6 +361,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
   - Binding selection and failed eligibility safeguards
+  - Cedric Diggory's Death and Tournament Aftermath
   - Champion instructions for the first task
   - Champion selection and the fourth name
   - Classified Ministry Announcement at Hogwarts
@@ -375,6 +376,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Karkaroff, Moody, and Durmstrang Risk
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
+  - Portkey Breach Beyond Hogwarts Grounds
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
   - Traditional Cheating and First-Task Fairness

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-04`
 - Book: `Harry Potter and the Goblet of Fire`
-- Chapter: Chapter Thirty-Two - Flesh, Blood, and Bone
-- Page range: 1479-1485
+- Chapter: Chapter Thirty-Three - The Death Eaters
+- Page range: 1486-1497
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-04/chapter-32-flesh-blood-and-bone.yaml`
+- Output YAML: `sources/book-04/chapter-33-the-death-eaters.yaml`
 
 ## Minimal Context
 

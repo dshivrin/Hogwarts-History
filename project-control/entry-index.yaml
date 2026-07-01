@@ -8356,6 +8356,36 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch31
     output_yaml: sources/book-04/chapter-31-the-third-task.yaml
+  gof-ch32-001:
+    title: 'The Triwizard Year and Institutional Security: Portkey Breach Beyond Hogwarts
+      Grounds'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - hogwarts-grounds
+    - off-campus-transport
+    - portkey
+    - tournament-security
+    - triwizard-cup
+    - triwizard-tournament
+    source_unit: gof-ch32
+    output_yaml: sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+  gof-ch32-002:
+    title: 'The Triwizard Year and Institutional Security: Cedric Diggory''s Death
+      and Tournament Aftermath'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cedric-diggory
+    - killing-curse
+    - later-editorial-note
+    - tournament-casualty
+    - triwizard-tournament
+    - voldemort
+    source_unit: gof-ch32
+    output_yaml: sources/book-04/chapter-32-flesh-blood-and-bone.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8811,6 +8841,7 @@ by_tag:
   - gof-ch18-002
   - gof-ch25-003
   - gof-ch31-007
+  - gof-ch32-002
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -10363,6 +10394,7 @@ by_tag:
   - gof-ch23-001
   - gof-ch29-001
   - gof-ch31-001
+  - gof-ch32-001
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -10721,6 +10753,7 @@ by_tag:
   - poa-ch15-007
   killing-curse:
   - gof-ch14-004
+  - gof-ch32-002
   kings-cross:
   - cos-ch04-001
   - cos-ch05-001
@@ -10743,6 +10776,8 @@ by_tag:
   - ps-ch17-006
   later-context:
   - cos-ch02-001
+  later-editorial-note:
+  - gof-ch32-002
   leaky-cauldron:
   - poa-ch03-003
   - poa-ch03-004
@@ -11394,6 +11429,8 @@ by_tag:
   - ps-ch14-004
   obliviator:
   - gof-ch07-004
+  off-campus-transport:
+  - gof-ch32-001
   office-security:
   - gof-ch25-006
   ogg:
@@ -11623,6 +11660,7 @@ by_tag:
   - cos-ch12-004
   portkey:
   - gof-ch31-007
+  - gof-ch32-001
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -12859,6 +12897,8 @@ by_tag:
   - cos-ch13-004
   ton-tongue-toffee:
   - gof-ch06-003
+  tournament-casualty:
+  - gof-ch32-002
   tournament-ceremony:
   - gof-ch18-006
   tournament-logistics:
@@ -12879,6 +12919,7 @@ by_tag:
   - gof-ch17-005
   - gof-ch29-003
   - gof-ch31-007
+  - gof-ch32-001
   tournament-spectators:
   - gof-ch20-005
   tower-dormitory:
@@ -12909,6 +12950,7 @@ by_tag:
   triwizard-cup:
   - gof-ch28-004
   - gof-ch31-007
+  - gof-ch32-001
   triwizard-rules:
   - gof-ch17-001
   triwizard-tournament:
@@ -12958,6 +13000,8 @@ by_tag:
   - gof-ch31-005
   - gof-ch31-006
   - gof-ch31-007
+  - gof-ch32-001
+  - gof-ch32-002
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -13076,6 +13120,7 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-004
   - gof-ch30-007
+  - gof-ch32-002
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006

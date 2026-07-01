@@ -4880,6 +4880,17 @@ Summary: The available evidence includes 1 source item, led by: The official inq
   - Corroborates: `gof-ch16-003`, `gof-ch16-004`. gof-ch16-003 announces the binding magical contract before selection, and gof-ch16-004 shows Age Line enforcement. This entry documents the rule being applied after Harry's anomalous selection.
   - Notes: The exact penalty or magical consequence for refusal is not described here.
 
+#### Section: Cedric Diggory's Death and Tournament Aftermath
+
+Summary: The available evidence includes 1 source item, led by: The chapter records Cedric Diggory's death immediately after the Cup transports the champions out of the final task.
+
+- **Context:** The chapter records Cedric Diggory's death immediately after the Cup transports the champions out of the final task.
+  - Quote: "Cedric was lying spread-eagled on the ground beside him"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Two - Flesh, Blood, and Bone, PDF p. 1480, `gof-ch32-002`, `sources/book-04/chapter-32-flesh-blood-and-bone.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage establishes the death but does not yet capture Hogwarts' discovery, official response, or public explanation.
+
 #### Section: Champion instructions for the first task
 
 Summary: The available evidence includes 1 source item, led by: The first-task briefing establishes tournament limits on teacher help, public judging, wand-only preparation, staged task information, and exam exemptions for champions.
@@ -5034,6 +5045,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conn
   - Reference type: cross_reference_candidate
   - Corroborates: `gof-ch01-003`. Book 4 Chapter One records Bertha Jorkins as a Ministry information source for Voldemort's plan; this entry corroborates her disappearance from the Ministry side and adds the post-World Cup secret-event workload.
   - Notes: The event is unnamed in this chapter, so the Hogwarts connection depends on later corroborating chapters rather than this passage alone.
+
+#### Section: Portkey Breach Beyond Hogwarts Grounds
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that the altered Triwizard Cup transported the Hogwarts champions completely off the school grounds to a distant graveyard.
+
+- **Corroboration:** The chapter confirms that the altered Triwizard Cup transported the Hogwarts champions completely off the school grounds to a distant graveyard.
+  - Quote: "left the Hogwarts grounds completely"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Two - Flesh, Blood, and Bone, PDF p. 1479, `gof-ch32-001`, `sources/book-04/chapter-32-flesh-blood-and-bone.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch31-007`. gof-ch31-007 records the Cup's activation at the maze endpoint; this entry adds the off-grounds destination and Cedric's Portkey identification.
+  - Notes: The passage does not yet reveal who altered the Cup, when it was altered, or how the Portkey bypassed school protections.
 
 #### Section: The fourth champion anomaly
 
