@@ -5,15 +5,6 @@ project:
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
-  chapter_number: 37
-  chapter_title: Chapter Thirty-Seven - The Beginning
-  page_start: 1545
-  page_end: 1560
-  output_yaml: sources/book-04/chapter-37-the-beginning.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
   chapter_number: 1
@@ -21,8 +12,7 @@ current_source_unit:
   page_start: 1570
   page_end: 1587
   output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1588
   page_end: 1608
   output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 3
+  chapter_title: Chapter Three - The Advance Guard
+  page_start: 1609
+  page_end: 1625
+  output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

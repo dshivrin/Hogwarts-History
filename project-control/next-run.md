@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter One - Dudley Demented
-- Page range: 1570-1587
+- Chapter: Chapter Two - A Peck of Owls
+- Page range: 1588-1608
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-01-dudley-demented.yaml`
+- Output YAML: `sources/book-05/chapter-02-a-peck-of-owls.yaml`
 
 ## Minimal Context
 

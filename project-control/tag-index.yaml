@@ -228,9 +228,11 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
   anti-dementor-defense:
     entries:
+    - ootp-ch01-005
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   anti-muggle-precautions:
     entries:
     - gof-ch06-002
@@ -1588,9 +1590,11 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
   crisis-magic:
     entries:
+    - ootp-ch01-005
     - poa-ch20-005
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   crisis-morale:
     entries:
     - cos-ch13-003
@@ -1598,6 +1602,7 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   crisis-security:
     entries:
+    - ootp-ch01-004
     - poa-ch04-007
     - poa-ch08-007
     - poa-ch12-003
@@ -1614,6 +1619,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   crisis-supervision:
     entries:
     - poa-ch13-001
@@ -1714,6 +1720,7 @@ tags:
     - gof-ch21-004
     - gof-ch24-002
     - gof-ch37-006
+    - ootp-ch01-001
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -1726,6 +1733,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -1857,6 +1865,7 @@ tags:
     - gof-ch34-002
     - gof-ch35-006
     - gof-ch37-002
+    - ootp-ch01-005
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -1909,6 +1918,7 @@ tags:
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -1935,6 +1945,7 @@ tags:
     - gof-ch14-004
     - gof-ch30-003
     - gof-ch36-004
+    - ootp-ch01-004
     - poa-ch04-007
     - poa-ch05-004
     - poa-ch05-006
@@ -1967,6 +1978,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   dementors-kiss:
     entries:
     - poa-ch12-003
@@ -2694,6 +2706,7 @@ tags:
     - cos-ch07-005
     - cos-ch12-007
     - cos-ch15-006
+    - ootp-ch01-003
     - poa-ch02-003
     - poa-ch03-001
     - ps-ch04-007
@@ -2708,6 +2721,7 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   fairness:
     entries:
     - gof-ch20-002
@@ -5498,6 +5512,13 @@ tags:
     - gof-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+  little-whinging:
+    entries:
+    - ootp-ch01-002
+    - ootp-ch01-004
+    - ootp-ch01-005
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   locker-room:
     entries:
     - ps-ch11-004
@@ -6408,6 +6429,7 @@ tags:
   ministry-security:
     entries:
     - gof-ch01-002
+    - ootp-ch01-004
     - poa-ch20-004
     - poa-ch20-006
     - poa-ch22-002
@@ -6415,6 +6437,7 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-01-the-riddle-house.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   ministry-warning:
     entries:
     - cos-ch03-001
@@ -6520,6 +6543,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  mrs-figg:
+    entries:
+    - ootp-ch01-002
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   mrs-norris:
     entries:
     - cos-ch08-002
@@ -6567,6 +6595,11 @@ tags:
     - gof-ch07-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  muggle-family:
+    entries:
+    - ootp-ch01-003
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   muggle-fireplaces:
     entries:
     - gof-ch04-004
@@ -6670,16 +6703,31 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+  muggle-suburb:
+    entries:
+    - ootp-ch01-004
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   muggle-technology:
     entries:
     - gof-ch28-003
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  muggle-witness:
+    entries:
+    - ootp-ch01-005
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   muggle-witnesses:
     entries:
     - ps-ch02-004
     output_yaml:
     - sources/book-01/chapter-02-vanishing-glass.yaml
+  mundungus-fletcher:
+    entries:
+    - ootp-ch01-002
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   music:
     entries:
     - ps-ch16-003
@@ -6835,6 +6883,12 @@ tags:
     - gof-ch07-004
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  off-campus-security:
+    entries:
+    - ootp-ch01-002
+    - ootp-ch01-004
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   off-campus-transport:
     entries:
     - gof-ch32-001
@@ -6905,6 +6959,16 @@ tags:
     - poa-ch16-006
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+  operational-secrecy:
+    entries:
+    - ootp-ch01-001
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
+  order-guard:
+    entries:
+    - ootp-ch01-002
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   order-network:
     entries:
     - gof-ch36-006
@@ -6939,9 +7003,11 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
   outside-school-magic:
     entries:
+    - ootp-ch01-003
     - poa-ch02-003
     output_yaml:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   owl-post:
     entries:
     - cos-ch01-003
@@ -7119,9 +7185,11 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   patronus:
     entries:
+    - ootp-ch01-005
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   patronus-charm:
     entries:
     - poa-ch12-002
@@ -7630,6 +7698,9 @@ tags:
   privet-drive:
     entries:
     - gof-ch03-004
+    - ootp-ch01-001
+    - ootp-ch01-002
+    - ootp-ch01-003
     - poa-ch01-002
     - poa-ch02-002
     - poa-ch02-003
@@ -7639,6 +7710,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   procession:
     entries:
     - gof-ch23-002
@@ -9552,12 +9624,14 @@ tags:
     - gof-ch03-004
     - gof-ch15-001
     - gof-ch18-001
+    - ootp-ch01-001
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   student-customs:
     entries:
     - gof-ch21-002
@@ -9571,6 +9645,7 @@ tags:
   student-discipline:
     entries:
     - cos-ch18-002
+    - ootp-ch01-003
     - poa-ch19-002
     - poa-ch19-003
     - ps-ch13-003
@@ -9578,6 +9653,7 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -9908,10 +9984,12 @@ tags:
     - gof-ch04-001
     - gof-ch04-003
     - gof-ch05-006
+    - ootp-ch01-001
     output_yaml:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   summer-homework:
     entries:
     - cos-ch01-002
@@ -10565,6 +10643,7 @@ tags:
     - gof-ch02-003
     - gof-ch04-005
     - gof-ch06-001
+    - ootp-ch01-003
     - poa-ch02-003
     - poa-ch03-001
     output_yaml:
@@ -10577,6 +10656,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-05/chapter-01-dudley-demented.yaml
   underage-students:
     entries:
     - gof-ch16-004
@@ -10803,6 +10883,11 @@ tags:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+  voldemort-return:
+    entries:
+    - ootp-ch01-001
+    output_yaml:
+    - sources/book-05/chapter-01-dudley-demented.yaml
   wages:
     entries:
     - gof-ch16-006

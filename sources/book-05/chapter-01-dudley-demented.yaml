@@ -1,0 +1,246 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter One - Dudley Demented
+  chapter_start_pdf_page: 1570
+  chapter_end_pdf_page: 1587
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Book 4 Chapter Thirty-Seven anchor; extracted only PDF pages 1570-1587 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: >-
+    Processed only Book 5, Chapter One. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and institutional evidence. No explicit Hogwarts: A History title reference was
+    found. Entries focus on Harry's post-return information blackout, covert
+    off-campus watch arrangements, underage-magic expulsion pressure, Dementors in
+    Little Whinging, and Harry's emergency Patronus rescue. Quote excerpts were
+    kept under 25 words per entry.
+
+entries:
+- id: ootp-ch01-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter One - Dudley Demented
+  chapter_start_pdf_page: 1570
+  chapter_end_pdf_page: 1587
+  pdf_page: 1576
+  printed_page: null
+  extracted_text_lines: 233-247
+  text_anchor:
+    start_phrase: Tomorrow morning he would be awoken
+    end_phrase: tell you everything when we see you
+    local_occurrence_note: Harry reflects on the Daily Prophet and his friends' deliberately vague letters during the summer after Voldemort's return.
+  nearby_context: Harry continues taking the Daily Prophet for signs of Voldemort's return while Ron, Hermione, and Sirius send letters that avoid operational detail in case correspondence goes astray.
+  match_terms:
+  - Daily Prophet
+  - letters
+  - Voldemort
+  - news
+  - go astray
+  - Ron
+  - Hermione
+  quote_excerpt_short: "not to say anything important"
+  source_note: The chapter records a post-Triwizard communication blackout in which Harry relies on the wizarding press and censored letters while his allies avoid writing sensitive details.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - student-correspondence
+  - voldemort-return
+  - operational-secrecy
+  - summer-holidays
+  - privet-drive
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts Communication
+  candidate_section: Post-Return Letter Secrecy and Press Silence
+  reason_for_placement: The passage shows how student correspondence and wizarding press records became constrained immediately after Voldemort's return, shaping what Hogwarts-connected witnesses knew before term.
+  relevance_to_hogwarts_a_history: A later edition can use this as background for the information gap surrounding Harry, Dumbledore's allies, and the wider school community in summer 1995.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results surfaced general Daily Prophet and correspondence entries, but none recorded this post-return secrecy pattern or Harry's reliance on the paper for confirmation.
+  confidence: medium
+  limitations: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
+
+- id: ootp-ch01-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter One - Dudley Demented
+  chapter_start_pdf_page: 1570
+  chapter_end_pdf_page: 1587
+  pdf_page: 1587
+  printed_page: null
+  extracted_text_lines: 631-638
+  text_anchor:
+    start_phrase: Mrs. Figg, their batty old neighbor
+    end_phrase: kill Mundungus Fletcher
+    local_occurrence_note: Mrs. Figg arrives immediately after the Dementors are repelled and reacts as though she expected someone else to be watching Harry.
+  nearby_context: Harry tries to hide his wand from Mrs. Figg, but she tells him to keep it ready in case more Dementors are nearby and angrily names Mundungus Fletcher.
+  match_terms:
+  - Mrs. Figg
+  - Mundungus Fletcher
+  - Dementors
+  - wand
+  - Little Whinging
+  - watch
+  quote_excerpt_short: "What if there are more of them around?"
+  source_note: The chapter reveals that Harry's Muggle-neighborhood protection includes covert magical or near-magical observers, and that Mundungus Fletcher's absence has immediate security consequences.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - privet-drive
+  - little-whinging
+  - mrs-figg
+  - mundungus-fletcher
+  - order-guard
+  - off-campus-security
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Off-Campus Protection of Students
+  candidate_section: Little Whinging Watch and Guard Failure
+  reason_for_placement: The scene gives concrete evidence that Harry's protection during school holidays extended beyond the Dursley household into a staffed watch around the neighborhood.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a rare example of informal protective arrangements for a Hogwarts student while away from school.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found Privet Drive and surveillance entries, but none covered Figg's post-attack warning or the named Mundungus watch failure.
+  confidence: high
+  limitations: The chapter has not yet explained Figg's formal status, who organized the watch, or why Mundungus left his post.
+
+- id: ootp-ch01-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter One - Dudley Demented
+  chapter_start_pdf_page: 1570
+  chapter_end_pdf_page: 1587
+  pdf_page: 1582
+  printed_page: null
+  extracted_text_lines: 446-451
+  text_anchor:
+    start_phrase: Harry pulled out his wand
+    end_phrase: though he didn't sound completely convinced
+    local_occurrence_note: Dudley recognizes Harry's wand and repeats the rule against using magic outside school.
+  nearby_context: Before the Dementor attack, Dudley tells Harry he is not allowed to use his wand and would be expelled from Hogwarts, showing that the Dursleys understand the leverage of the underage-magic rule.
+  match_terms:
+  - wand
+  - expelled
+  - school
+  - rules
+  - Dudley
+  - underage magic
+  quote_excerpt_short: "You'd get expelled"
+  source_note: The chapter corroborates the underage-magic rule by showing a Muggle relative using the threat of Hogwarts expulsion to constrain Harry outside school.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - underage-magic
+  - expulsion
+  - outside-school-magic
+  - privet-drive
+  - muggle-family
+  - student-discipline
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Underage Magic and Muggle Household Leverage
+  reason_for_placement: "The passage shows the rule's social effect beyond official warnings: Harry's Muggle relatives know enough to use possible expulsion as pressure."
+  relevance_to_hogwarts_a_history: This supports a rules section distinguishing Hogwarts expulsion risk, Ministry enforcement, and the practical consequences for students housed with Muggles.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch02-005
+    - poa-ch02-003
+    notes: cos-ch02-005 records the official Ministry warning and poa-ch02-003 records Harry's earlier application of the rule; this entry adds Dudley's lay understanding of the same expulsion threat before an emergency.
+  confidence: high
+  limitations: Dudley's statement is not an official source and may simplify the relationship between Ministry law and Hogwarts discipline.
+
+- id: ootp-ch01-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter One - Dudley Demented
+  chapter_start_pdf_page: 1570
+  chapter_end_pdf_page: 1587
+  pdf_page: 1584
+  printed_page: null
+  extracted_text_lines: 507-536
+  text_anchor:
+    start_phrase: Something had happened to the night
+    end_phrase: he had heard just the thing he had been dreading
+    local_occurrence_note: The alley turns dark and cold before Harry recognizes the presence of Dementors in Little Whinging.
+  nearby_context: The stars, moon, streetlamps, normal sound, and warmth vanish in a Muggle alley; Harry recognizes the impossible presence of Dementors before seeing them.
+  match_terms:
+  - Dementors
+  - Little Whinging
+  - darkness
+  - cold
+  - Dudley
+  - alleyway
+  quote_excerpt_short: "They couldn't be here"
+  source_note: The chapter records Dementors operating in a Muggle suburb rather than at Hogwarts, Azkaban, or Ministry-controlled school security perimeters.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - little-whinging
+  - muggle-suburb
+  - ministry-security
+  - off-campus-security
+  - crisis-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and External Threats
+  candidate_section: Dementors in Little Whinging
+  reason_for_placement: The incident marks a dangerous expansion of Dementor deployment into Harry's off-campus environment and directly threatens a Muggle witness.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that threats tied to Hogwarts students and Ministry policy followed students into holiday spaces after Voldemort's return.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch20-004
+    - poa-ch22-002
+    - gof-ch36-004
+    notes: Earlier entries cover Dementors around Hogwarts, their removal after student endangerment, and Fudge bringing one into the castle; this entry adds an off-campus Muggle-suburb attack.
+  confidence: high
+  limitations: This chapter does not yet identify who sent the Dementors or how they reached Little Whinging.
+
+- id: ootp-ch01-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter One - Dudley Demented
+  chapter_start_pdf_page: 1570
+  chapter_end_pdf_page: 1587
+  pdf_page: 1586
+  printed_page: null
+  extracted_text_lines: 572-617
+  text_anchor:
+    start_phrase: Stumbling backward, Harry raised his wand
+    end_phrase: dissolved into silver mist
+    local_occurrence_note: Harry's first two Patronus attempts are weak before a full stag repels the Dementor attacking him and then the second Dementor attacking Dudley.
+  nearby_context: Harry casts Expecto Patronum repeatedly under real threat; a full silver stag defeats one Dementor, then turns back to save Dudley from a near-Kiss.
+  match_terms:
+  - Expecto Patronum
+  - silver stag
+  - dementor
+  - Dudley
+  - Patronus
+  - Kiss
+  quote_excerpt_short: "An enormous silver stag erupted"
+  source_note: The chapter shows Harry using a corporeal Patronus outside school in an emergency to repel two Dementors, including one attacking a Muggle.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - patronus
+  - anti-dementor-defense
+  - defense-against-the-dark-arts
+  - crisis-magic
+  - muggle-witness
+  - little-whinging
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Patronus Instruction in Off-Campus Emergencies
+  reason_for_placement: The scene demonstrates that exceptional Defense Against the Dark Arts instruction could become decisive away from Hogwarts, while also exposing the student to underage-magic enforcement risk.
+  relevance_to_hogwarts_a_history: A later edition can connect Hogwarts-adjacent private Patronus instruction to a documented off-campus defensive use that saved both Harry and Dudley.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch20-005
+    - poa-ch20-007
+    notes: Earlier entries record weak Patronus field performance and an animal-shaped intervention at the Hogwarts lake; this entry adds Harry's conscious full stag against two off-campus Dementors.
+  confidence: high
+  limitations: The chapter records the spell's success but not the later legal ruling on whether emergency use satisfied the underage-magic exception.

@@ -58,6 +58,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Defense Against the Dark Arts
   - Dueling Spells Outside Formal Instruction
   - Patronus Instruction and Anti-Dementor Defense
+  - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
 - Divination and Elective Study
   - Planetary divination in the North Tower classroom
@@ -362,6 +363,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Early Warnings Before Term
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
+- The Second War and External Threats
+  - Dementors in Little Whinging
+- The Second War and Hogwarts Communication
+  - Post-Return Letter Secrecy and Press Silence
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -599,6 +604,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's map search for Crouch
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
+- Off-Campus Protection of Students
+  - Little Whinging Watch and Guard Failure
 - Staff Expertise and Magical Surveillance
   - Moody's Dark Detectors in the Classroom Office
   - Moody's Eye and Anti-Concealment Detection
@@ -725,6 +732,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wolfsbane Potion and Werewolf Accommodation
 - Student Conduct Beyond School
   - Underage Magic and Hogwarts Expulsion Risk
+  - Underage Magic and Muggle Household Leverage
 - Student Discipline and Expulsion
   - Expulsion, Wand Sanctions, and Staff Retention
   - Family Notification and Escalation

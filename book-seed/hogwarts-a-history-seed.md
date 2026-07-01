@@ -2078,6 +2078,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter tes
   - Corroborates: `poa-ch20-007`. Book 3 Chapter Twenty records an unidentified animal-shaped Patronus intervention; this entry identifies the caster as Harry and the Patronus form as a stag.
   - Notes: The scene explains the effect and form but not the broader theory of corporeal Patronus forms.
 
+#### Section: Patronus Instruction in Off-Campus Emergencies
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Harry using a corporeal Patronus outside school in an emergency to repel two Dementors, including one attacking a Muggle.
+
+- **Corroboration:** The chapter shows Harry using a corporeal Patronus outside school in an emergency to repel two Dementors, including one attacking a Muggle.
+  - Quote: "An enormous silver stag erupted"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, PDF p. 1586, `ootp-ch01-005`, `sources/book-05/chapter-01-dudley-demented.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `poa-ch20-005`, `poa-ch20-007`. Earlier entries record weak Patronus field performance and an animal-shaped intervention at the Hogwarts lake; this entry adds Harry's conscious full stag against two off-campus Dementors.
+  - Notes: The chapter records the spell's success but not the later legal ruling on whether emergency use satisfied the underage-magic exception.
+
 #### Section: Practical Creature-Based Assessment
 
 Summary: The available evidence includes 1 source item, led by: The chapter shows Lupin assessing Defense Against the Dark Arts through a practical outdoor obstacle course using several dark or dangerous creatures from the year's lessons.
@@ -3097,6 +3109,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reit
   - Corroborates: `cos-ch02-005`. Book 2 Chapter Two records the Ministry warning letter with the Decree and Statute; this entry shows Harry applying that warning to another accidental-magic incident.
   - Notes: The passage summarizes Harry's understanding rather than quoting the Ministry warning again or showing a current school response.
 
+#### Section: Underage Magic and Muggle Household Leverage
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates the underage-magic rule by showing a Muggle relative using the threat of Hogwarts expulsion to constrain Harry outside school.
+
+- **Corroboration:** The chapter corroborates the underage-magic rule by showing a Muggle relative using the threat of Hogwarts expulsion to constrain Harry outside school.
+  - Quote: "You'd get expelled"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, PDF p. 1582, `ootp-ch01-003`, `sources/book-05/chapter-01-dudley-demented.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch02-005`, `poa-ch02-003`. cos-ch02-005 records the official Ministry warning and poa-ch02-003 records Harry's earlier application of the rule; this entry adds Dudley's lay understanding of the same expulsion threat before an emergency.
+  - Notes: Dudley's statement is not an official source and may simplify the relationship between Ministry law and Hogwarts discipline.
+
 ### Chapter: Student Health and the Hospital Wing
 
 #### Section: Crisis Recovery and Headmaster Discretion
@@ -4023,6 +4047,19 @@ Summary: The available evidence includes 1 source item, led by: The scene restat
   - Reference type: security_or_protection
   - Corroborates: `gof-ch15-006`, `poa-ch10-003`, `poa-ch17-004`. Corroborates the anti-Apparition rule and prior Marauder's Map evidence; adds a concise statement that the map shows only to the boundaries.
   - Notes: The map-boundary detail is inferred by Ron and should be paired with other map evidence.
+
+### Chapter: Off-Campus Protection of Students
+
+#### Section: Little Whinging Watch and Guard Failure
+
+Summary: The available evidence includes 1 source item, led by: The chapter reveals that Harry's Muggle-neighborhood protection includes covert magical or near-magical observers, and that Mundungus Fletcher's absence has immediate security consequences.
+
+- **Context:** The chapter reveals that Harry's Muggle-neighborhood protection includes covert magical or near-magical observers, and that Mundungus Fletcher's absence has immediate security consequences.
+  - Quote: "What if there are more of them around?"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, PDF p. 1587, `ootp-ch01-002`, `sources/book-05/chapter-01-dudley-demented.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The chapter has not yet explained Figg's formal status, who organized the watch, or why Mundungus left his post.
 
 ### Chapter: Staff Expertise and Magical Surveillance
 
@@ -6032,6 +6069,33 @@ Summary: The available evidence includes 1 source item, led by: The chapter reca
   - Reference type: historical_claim
   - Corroborates: `ps-ch01-003`. Book 1 Chapter One records the Godric's Hollow reports confirmed by Dumbledore; this entry adds later narration about the curse rebounding and Harry's fame at Hogwarts.
   - Notes: The passage is retrospective narration rather than an in-universe school source and should not replace the original Godric's Hollow seed.
+
+### Chapter: The Second War and External Threats
+
+#### Section: Dementors in Little Whinging
+
+Summary: The available evidence includes 1 source item, led by: The chapter records Dementors operating in a Muggle suburb rather than at Hogwarts, Azkaban, or Ministry-controlled school security perimeters.
+
+- **Corroboration:** The chapter records Dementors operating in a Muggle suburb rather than at Hogwarts, Azkaban, or Ministry-controlled school security perimeters.
+  - Quote: "They couldn't be here"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, PDF p. 1584, `ootp-ch01-004`, `sources/book-05/chapter-01-dudley-demented.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `poa-ch20-004`, `poa-ch22-002`, `gof-ch36-004`. Earlier entries cover Dementors around Hogwarts, their removal after student endangerment, and Fudge bringing one into the castle; this entry adds an off-campus Muggle-suburb attack.
+  - Notes: This chapter does not yet identify who sent the Dementors or how they reached Little Whinging.
+
+### Chapter: The Second War and Hogwarts Communication
+
+#### Section: Post-Return Letter Secrecy and Press Silence
+
+Summary: The available evidence includes 1 source item, led by: The chapter records a post-Triwizard communication blackout in which Harry relies on the wizarding press and censored letters while his allies avoid writing sensitive details.
+
+- **Context:** The chapter records a post-Triwizard communication blackout in which Harry relies on the wizarding press and censored letters while his allies avoid writing sensitive details.
+  - Quote: "not to say anything important"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, PDF p. 1576, `ootp-ch01-001`, `sources/book-05/chapter-01-dudley-demented.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Notes: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
 
 ### Chapter: The Sirius Black Crisis
 

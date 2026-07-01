@@ -8848,6 +8848,77 @@ by_entry:
     - triwizard-tournament
     source_unit: gof-ch37
     output_yaml: sources/book-04/chapter-37-the-beginning.yaml
+  ootp-ch01-001:
+    title: 'The Second War and Hogwarts Communication: Post-Return Letter Secrecy
+      and Press Silence'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - daily-prophet
+    - operational-secrecy
+    - privet-drive
+    - student-correspondence
+    - summer-holidays
+    - voldemort-return
+    source_unit: ootp-ch01
+    output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
+  ootp-ch01-002:
+    title: 'Off-Campus Protection of Students: Little Whinging Watch and Guard Failure'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - little-whinging
+    - mrs-figg
+    - mundungus-fletcher
+    - off-campus-security
+    - order-guard
+    - privet-drive
+    source_unit: ootp-ch01
+    output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
+  ootp-ch01-003:
+    title: 'Student Conduct Beyond School: Underage Magic and Muggle Household Leverage'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - expulsion
+    - muggle-family
+    - outside-school-magic
+    - privet-drive
+    - student-discipline
+    - underage-magic
+    source_unit: ootp-ch01
+    output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
+  ootp-ch01-004:
+    title: 'The Second War and External Threats: Dementors in Little Whinging'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - crisis-security
+    - dementors
+    - little-whinging
+    - ministry-security
+    - muggle-suburb
+    - off-campus-security
+    source_unit: ootp-ch01
+    output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
+  ootp-ch01-005:
+    title: 'Defense Against the Dark Arts: Patronus Instruction in Off-Campus Emergencies'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - anti-dementor-defense
+    - crisis-magic
+    - defense-against-the-dark-arts
+    - little-whinging
+    - muggle-witness
+    - patronus
+    source_unit: ootp-ch01
+    output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8954,6 +9025,7 @@ by_tag:
   anti-dark-arts:
   - ps-ch13-006
   anti-dementor-defense:
+  - ootp-ch01-005
   - poa-ch20-007
   anti-muggle-precautions:
   - gof-ch06-002
@@ -9573,10 +9645,12 @@ by_tag:
   - cos-ch14-005
   - poa-ch21-001
   crisis-magic:
+  - ootp-ch01-005
   - poa-ch20-005
   crisis-morale:
   - cos-ch13-003
   crisis-security:
+  - ootp-ch01-004
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch12-003
@@ -9636,6 +9710,7 @@ by_tag:
   - gof-ch21-004
   - gof-ch24-002
   - gof-ch37-006
+  - ootp-ch01-001
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -9708,6 +9783,7 @@ by_tag:
   - gof-ch34-002
   - gof-ch35-006
   - gof-ch37-002
+  - ootp-ch01-005
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -9742,6 +9818,7 @@ by_tag:
   - gof-ch14-004
   - gof-ch30-003
   - gof-ch36-004
+  - ootp-ch01-004
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -10111,6 +10188,7 @@ by_tag:
   - cos-ch07-005
   - cos-ch12-007
   - cos-ch15-006
+  - ootp-ch01-003
   - poa-ch02-003
   - poa-ch03-001
   - ps-ch04-007
@@ -11418,6 +11496,10 @@ by_tag:
   - ps-ch01-003
   little-hangleton:
   - gof-ch01-001
+  little-whinging:
+  - ootp-ch01-002
+  - ootp-ch01-004
+  - ootp-ch01-005
   locker-room:
   - ps-ch11-004
   locker-rooms:
@@ -11837,6 +11919,7 @@ by_tag:
   - gof-ch09-004
   ministry-security:
   - gof-ch01-002
+  - ootp-ch01-004
   - poa-ch20-004
   - poa-ch20-006
   - poa-ch22-002
@@ -11885,6 +11968,8 @@ by_tag:
   moving-staircase:
   - cos-ch11-007
   - cos-ch13-006
+  mrs-figg:
+  - ootp-ch01-002
   mrs-norris:
   - cos-ch08-002
   - cos-ch08-006
@@ -11906,6 +11991,8 @@ by_tag:
   - ps-ch05-005
   muggle-camouflage:
   - gof-ch07-002
+  muggle-family:
+  - ootp-ch01-003
   muggle-fireplaces:
   - gof-ch04-004
   muggle-households:
@@ -11953,10 +12040,16 @@ by_tag:
   - poa-ch13-005
   - poa-ch16-005
   - poa-ch22-006
+  muggle-suburb:
+  - ootp-ch01-004
   muggle-technology:
   - gof-ch28-003
+  muggle-witness:
+  - ootp-ch01-005
   muggle-witnesses:
   - ps-ch02-004
+  mundungus-fletcher:
+  - ootp-ch01-002
   music:
   - ps-ch16-003
   nagini:
@@ -12023,6 +12116,9 @@ by_tag:
   - ps-ch14-004
   obliviator:
   - gof-ch07-004
+  off-campus-security:
+  - ootp-ch01-002
+  - ootp-ch01-004
   off-campus-transport:
   - gof-ch32-001
   - gof-ch34-005
@@ -12052,6 +12148,10 @@ by_tag:
   - poa-ch14-004
   one-eyed-witch-passage:
   - poa-ch16-006
+  operational-secrecy:
+  - ootp-ch01-001
+  order-guard:
+  - ootp-ch01-002
   order-network:
   - gof-ch36-006
   order-of-merlin:
@@ -12066,6 +12166,7 @@ by_tag:
   - poa-ch19-002
   - ps-ch15-001
   outside-school-magic:
+  - ootp-ch01-003
   - poa-ch02-003
   owl-post:
   - cos-ch01-003
@@ -12149,6 +12250,7 @@ by_tag:
   patient-privacy:
   - cos-ch13-001
   patronus:
+  - ootp-ch01-005
   - poa-ch20-007
   patronus-charm:
   - poa-ch12-002
@@ -12383,6 +12485,9 @@ by_tag:
   - gof-ch27-004
   privet-drive:
   - gof-ch03-004
+  - ootp-ch01-001
+  - ootp-ch01-002
+  - ootp-ch01-003
   - poa-ch01-002
   - poa-ch02-002
   - poa-ch02-003
@@ -13256,12 +13361,14 @@ by_tag:
   - gof-ch03-004
   - gof-ch15-001
   - gof-ch18-001
+  - ootp-ch01-001
   student-customs:
   - gof-ch21-002
   student-death:
   - gof-ch37-001
   student-discipline:
   - cos-ch18-002
+  - ootp-ch01-003
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -13414,6 +13521,7 @@ by_tag:
   - gof-ch04-001
   - gof-ch04-003
   - gof-ch05-006
+  - ootp-ch01-001
   summer-homework:
   - cos-ch01-002
   - cos-ch03-005
@@ -13720,6 +13828,7 @@ by_tag:
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
+  - ootp-ch01-003
   - poa-ch02-003
   - poa-ch03-001
   underage-students:
@@ -13825,6 +13934,8 @@ by_tag:
   - ps-ch01-001
   - ps-ch01-003
   - ps-ch02-005
+  voldemort-return:
+  - ootp-ch01-001
   wages:
   - gof-ch16-006
   - gof-ch19-002

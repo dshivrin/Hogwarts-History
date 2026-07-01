@@ -1129,3 +1129,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1545-1560.
+- source_unit_id: ootp-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 1
+  chapter_title: Chapter One - Dudley Demented
+  page_start: 1570
+  page_end: 1587
+  output_yaml: sources/book-05/chapter-01-dudley-demented.yaml
+  processed_at: '2026-07-01'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 1570-1587.
