@@ -360,6 +360,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
+  - Bertha Jorkins and Tournament Information Leakage
   - Binding selection and failed eligibility safeguards
   - Cedric Diggory's Death and Tournament Aftermath
   - Champion instructions for the first task
@@ -370,6 +371,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crouch's Forest Warning and Tournament Administration Fragments
   - Entry procedure, Age Line, and binding contract
   - First-Task Secrecy and Informal Leaks
+  - Goblet Manipulation and Cup Portkey Breach
   - Goblet lifecycle and closed selection
   - Host-school fairness dispute
   - Judges, tasks, scoring, and the Goblet selector
@@ -552,7 +554,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Entrances and Common-Room Security
   - Password Lists and Animal-Mediated Breaches
 - Infiltration and Internal Threats
+  - Hidden Death Eater at Hogwarts
   - Hidden Servants and Staff-Side Vulnerability
+  - Quirrell Possession and the Stone Attempt
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House
   - Troll Intrusion and Stone Diversion
@@ -569,6 +573,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Offices, Stores, and Restricted Access
   - Private Stores and Controlled Truth Potions
   - Snape's Office Sealing Spell and Private Cupboard
+- Student Protection and Exceptional Safeguards
+  - Harry Potter's Layered Protection
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory

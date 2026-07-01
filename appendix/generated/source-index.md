@@ -95,3 +95,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch30`: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, pages 1434-1453, 7 entries, 0 explicit references.
 - `gof-ch31`: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, pages 1454-1478, 7 entries, 0 explicit references.
 - `gof-ch32`: Harry Potter and the Goblet of Fire, Chapter Thirty-Two - Flesh, Blood, and Bone, pages 1479-1485, 2 entries, 0 explicit references.
+- `gof-ch33`: Harry Potter and the Goblet of Fire, Chapter Thirty-Three - The Death Eaters, pages 1486-1497, 5 entries, 0 explicit references.

@@ -8386,6 +8386,80 @@ by_entry:
     - voldemort
     source_unit: gof-ch32
     output_yaml: sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+  gof-ch33-001:
+    title: 'Infiltration and Internal Threats: Hidden Death Eater at Hogwarts'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - death-eater
+    - harry-potter
+    - hidden-agent
+    - hogwarts-security
+    - triwizard-year
+    - voldemort
+    source_unit: gof-ch33
+    output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
+  gof-ch33-002:
+    title: 'Infiltration and Internal Threats: Quirrell Possession and the Stone Attempt'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - hogwarts-teacher
+    - internal-threat
+    - possession
+    - professor-quirrell
+    - sorcerers-stone
+    - voldemort
+    source_unit: gof-ch33
+    output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
+  gof-ch33-003:
+    title: 'The Triwizard Year and Institutional Security: Bertha Jorkins and Tournament
+      Information Leakage'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - bertha-jorkins
+    - hogwarts-security
+    - information-security
+    - memory-charms
+    - ministry-of-magic
+    - triwizard-tournament
+    source_unit: gof-ch33
+    output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
+  gof-ch33-004:
+    title: 'Student Protection and Exceptional Safeguards: Harry Potter''s Layered
+      Protection'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - ancient-magic
+    - dumbledore
+    - harry-potter
+    - hogwarts-security
+    - protective-magic
+    - quidditch-world-cup
+    source_unit: gof-ch33
+    output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
+  gof-ch33-005:
+    title: 'The Triwizard Year and Institutional Security: Goblet Manipulation and
+      Cup Portkey Breach'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - goblet-of-fire
+    - hidden-agent
+    - hogwarts-security
+    - portkey
+    - tournament-security
+    - triwizard-cup
+    - triwizard-tournament
+    source_unit: gof-ch33
+    output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -8461,6 +8535,7 @@ by_tag:
   - cos-ch15-007
   ancient-magic:
   - gof-ch20-001
+  - gof-ch33-004
   ancient-runes:
   - poa-ch04-004
   - poa-ch12-007
@@ -8631,6 +8706,7 @@ by_tag:
   - gof-ch28-005
   - gof-ch29-007
   - gof-ch30-007
+  - gof-ch33-003
   bewitched-sleep:
   - gof-ch27-001
   black-flames:
@@ -9179,6 +9255,8 @@ by_tag:
   - gof-ch11-001
   davey-gudgeon:
   - poa-ch10-002
+  death-eater:
+  - gof-ch33-001
   death-eaters:
   - gof-ch09-001
   - gof-ch09-004
@@ -9408,6 +9486,7 @@ by_tag:
   - gof-ch29-007
   - gof-ch30-004
   - gof-ch30-007
+  - gof-ch33-004
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -9890,6 +9969,7 @@ by_tag:
   - gof-ch17-003
   - gof-ch17-004
   - gof-ch17-005
+  - gof-ch33-005
   goblin-liaison:
   - gof-ch07-004
   goblin-rebellion:
@@ -10134,6 +10214,8 @@ by_tag:
   - gof-ch14-004
   - gof-ch16-007
   - gof-ch17-001
+  - gof-ch33-001
+  - gof-ch33-004
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -10265,6 +10347,8 @@ by_tag:
   - ps-ch07-001
   hidden-agent:
   - gof-ch01-004
+  - gof-ch33-001
+  - gof-ch33-005
   hidden-chamber:
   - cos-ch09-005
   hidden-entrance:
@@ -10435,10 +10519,16 @@ by_tag:
   hogwarts-security:
   - gof-ch01-004
   - gof-ch02-006
+  - gof-ch33-001
+  - gof-ch33-003
+  - gof-ch33-004
+  - gof-ch33-005
   - ps-ch04-005
   - ps-ch05-001
   hogwarts-staff:
   - ps-ch04-001
+  hogwarts-teacher:
+  - gof-ch33-002
   hogwarts-victory:
   - gof-ch31-007
   holiday-conduct:
@@ -10658,6 +10748,7 @@ by_tag:
   - gof-ch01-003
   - gof-ch07-005
   - gof-ch24-004
+  - gof-ch33-003
   institutional-custom:
   - ps-ch07-002
   institutional-secrecy:
@@ -10672,6 +10763,7 @@ by_tag:
   interior-setting:
   - ps-ch10-004
   internal-threat:
+  - gof-ch33-002
   - ps-ch17-002
   international-association-of-quidditch:
   - gof-ch08-005
@@ -11164,6 +11256,7 @@ by_tag:
   - gof-ch07-001
   - gof-ch09-007
   - gof-ch10-001
+  - gof-ch33-003
   memory-magic:
   - cos-ch13-004
   - gof-ch30-002
@@ -11233,6 +11326,7 @@ by_tag:
   - gof-ch30-005
   - gof-ch30-006
   - gof-ch30-007
+  - gof-ch33-003
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -11661,6 +11755,7 @@ by_tag:
   portkey:
   - gof-ch31-007
   - gof-ch32-001
+  - gof-ch33-005
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -11688,6 +11783,7 @@ by_tag:
   - ps-ch08-001
   possession:
   - cos-ch17-002
+  - gof-ch33-002
   post-riot-cleanup:
   - gof-ch10-001
   potion-ingredients:
@@ -11834,6 +11930,7 @@ by_tag:
   - ps-ch01-004
   - ps-ch16-006
   professor-quirrell:
+  - gof-ch33-002
   - ps-ch05-004
   - ps-ch16-007
   - ps-ch17-001
@@ -11871,6 +11968,8 @@ by_tag:
   prophecy:
   - gof-ch10-005
   - poa-ch16-005
+  protective-magic:
+  - gof-ch33-004
   public-accountability:
   - gof-ch24-002
   public-complaints:
@@ -11982,6 +12081,7 @@ by_tag:
   - gof-ch10-001
   - gof-ch10-002
   - gof-ch10-003
+  - gof-ch33-004
   quills:
   - gof-ch04-001
   quirrell:
@@ -12434,6 +12534,7 @@ by_tag:
   social-attitudes:
   - gof-ch16-006
   sorcerers-stone:
+  - gof-ch33-002
   - ps-ch15-007
   sorting-ceremony:
   - cos-ch05-004
@@ -12920,6 +13021,7 @@ by_tag:
   - gof-ch29-003
   - gof-ch31-007
   - gof-ch32-001
+  - gof-ch33-005
   tournament-spectators:
   - gof-ch20-005
   tower-dormitory:
@@ -12951,6 +13053,7 @@ by_tag:
   - gof-ch28-004
   - gof-ch31-007
   - gof-ch32-001
+  - gof-ch33-005
   triwizard-rules:
   - gof-ch17-001
   triwizard-tournament:
@@ -13002,11 +13105,14 @@ by_tag:
   - gof-ch31-007
   - gof-ch32-001
   - gof-ch32-002
+  - gof-ch33-003
+  - gof-ch33-005
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
   - gof-ch07-005
   - gof-ch24-004
+  - gof-ch33-001
   troll:
   - ps-ch16-007
   troll-incident:
@@ -13121,6 +13227,8 @@ by_tag:
   - gof-ch14-004
   - gof-ch30-007
   - gof-ch32-002
+  - gof-ch33-001
+  - gof-ch33-002
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006

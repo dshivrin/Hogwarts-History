@@ -1,0 +1,236 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Three - The Death Eaters
+  chapter_start_pdf_page: 1486
+  chapter_end_pdf_page: 1497
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Thirty-Two anchor; extracted only PDF pages 1486-1497 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-Three. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. The chapter is mostly off-campus confession and later-editorial security evidence, so entries focus on Hogwarts-linked infiltration, tournament leakage, protection logic, and the Portkey breach. Quote excerpts were kept under 25 words per entry."
+entries:
+- id: gof-ch33-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Three - The Death Eaters
+  chapter_start_pdf_page: 1486
+  chapter_end_pdf_page: 1497
+  pdf_page: 1492
+  printed_page: null
+  extracted_text_lines: 216-226
+  text_anchor:
+    start_phrase: And here we have six missing Death Eaters
+    end_phrase: Harry Potter has kindly joined us
+    local_occurrence_note: Voldemort addresses the returned Death Eaters and identifies one missing follower as the servant at Hogwarts who caused Harry's arrival.
+  nearby_context: Voldemort surveys absent followers, distinguishes the one who has already reentered his service, and tells the gathered Death Eaters that the servant is at Hogwarts and responsible for bringing Harry to the graveyard.
+  match_terms:
+  - Death Eaters
+  - faithful servant
+  - Hogwarts
+  - Harry Potter
+  - rebirthing party
+  - hidden agent
+  quote_excerpt_short: "He is at Hogwarts, that faithful servant"
+  source_note: Voldemort confirms to the Death Eaters that a loyal servant is positioned at Hogwarts and that this internal agent caused Harry's removal to the graveyard.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogwarts-security
+  - death-eater
+  - hidden-agent
+  - voldemort
+  - harry-potter
+  - triwizard-year
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Infiltration and Internal Threats
+  candidate_section: Hidden Death Eater at Hogwarts
+  reason_for_placement: The passage converts earlier foreshadowing of a hidden Hogwarts servant into direct confirmation of a successful internal breach during the Triwizard year.
+  relevance_to_hogwarts_a_history: A later edition can use this as core evidence for the 1994-1995 security failure, while keeping it out of the original pre-Harry institutional body.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch01-004
+    notes: gof-ch01-004 records Voldemort's earlier claim that a faithful servant was at Hogwarts; this entry confirms the servant's active role in transporting Harry.
+  confidence: high
+  limitations: The servant is still unnamed in this chapter, and the specific disguise or staff role must be confirmed from later evidence.
+- id: gof-ch33-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Three - The Death Eaters
+  chapter_start_pdf_page: 1486
+  chapter_end_pdf_page: 1497
+  pdf_page: 1494
+  printed_page: null
+  extracted_text_lines: 270-294
+  text_anchor:
+    start_phrase: Only one power remained to me
+    end_phrase: I did not manage to steal the Sorcerer's Stone
+    local_occurrence_note: Voldemort recounts possessing a Hogwarts teacher four years earlier and using him in the failed Stone plan.
+  nearby_context: Voldemort explains that he could possess bodies, encountered a gullible wizard who was a teacher at Dumbledore's school, brought him back to Britain, possessed him, and failed to steal the Stone.
+  match_terms:
+  - possession
+  - teacher
+  - Dumbledore's school
+  - Sorcerer's Stone
+  - Quirrell
+  - internal threat
+  quote_excerpt_short: "he was a teacher at Dumbledore's school"
+  source_note: Voldemort retrospectively identifies his first return attempt as the possession of a Hogwarts teacher in the failed Sorcerer's Stone theft.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - professor-quirrell
+  - voldemort
+  - possession
+  - sorcerers-stone
+  - hogwarts-teacher
+  - internal-threat
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Infiltration and Internal Threats
+  candidate_section: Quirrell Possession and the Stone Attempt
+  reason_for_placement: The passage gives the hostile actor's retrospective account of a prior Hogwarts staff infiltration tied to the Stone incident.
+  relevance_to_hogwarts_a_history: This is later editorial security context that explains a first-year breach through staff possession rather than ordinary school operation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch17-002
+    - ps-ch17-003
+    notes: ps-ch17-002 and ps-ch17-003 already cover Quirrell's Stone-related actions and Dumbledore's final protection; this entry adds Voldemort's retrospective possession account.
+  confidence: medium
+  limitations: Voldemort does not name Quirrell in this passage, and his account is self-serving even though it matches earlier Stone-incident evidence.
+- id: gof-ch33-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Three - The Death Eaters
+  chapter_start_pdf_page: 1486
+  chapter_end_pdf_page: 1497
+  pdf_page: 1495
+  printed_page: null
+  extracted_text_lines: 308-325
+  text_anchor:
+    start_phrase: who should he meet there, but one Bertha Jorkins
+    end_phrase: I disposed of her
+    local_occurrence_note: Voldemort describes how Bertha Jorkins became the source of the Hogwarts tournament and hidden Death Eater information.
+  nearby_context: Wormtail captures Bertha near Albania; Voldemort extracts information from her, including that the Triwizard Tournament would be at Hogwarts and that a faithful Death Eater was available to help.
+  match_terms:
+  - Bertha Jorkins
+  - Ministry of Magic
+  - Triwizard Tournament
+  - Hogwarts
+  - faithful Death Eater
+  - Memory Charm
+  quote_excerpt_short: "the Triwizard Tournament would be played at Hogwarts"
+  source_note: Bertha Jorkins is confirmed as the information leak that exposed the Hogwarts tournament plan and the existence of a usable Death Eater agent.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - bertha-jorkins
+  - ministry-of-magic
+  - triwizard-tournament
+  - hogwarts-security
+  - information-security
+  - memory-charms
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Bertha Jorkins and Tournament Information Leakage
+  reason_for_placement: The passage explains how outside Ministry knowledge became a direct vulnerability for a school-hosted international tournament.
+  relevance_to_hogwarts_a_history: A later edition can use this to connect the revived tournament's Hogwarts administration to a Ministry-side intelligence breach.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch01-003
+    - gof-ch28-005
+    notes: gof-ch01-003 records Bertha as a Ministry information source, and gof-ch28-005 links her to Crouch's warning; this entry specifies the Hogwarts tournament and hidden-agent details she revealed.
+  confidence: high
+  limitations: The account comes from Voldemort and omits the exact Memory Charm history that made Bertha's information recoverable.
+- id: gof-ch33-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Three - The Death Eaters
+  chapter_start_pdf_page: 1486
+  chapter_end_pdf_page: 1497
+  pdf_page: 1496
+  printed_page: null
+  extracted_text_lines: 356-365
+  text_anchor:
+    start_phrase: But how to get at Harry Potter
+    end_phrase: So how could I take him
+    local_occurrence_note: Voldemort explains why Harry was difficult to abduct from home, the World Cup, or Hogwarts.
+  nearby_context: Voldemort says Harry was protected by Dumbledore's long-ago arrangements, ancient magic at his relatives' home, Ministry presence at the World Cup, and Dumbledore's daily proximity at Hogwarts.
+  match_terms:
+  - Harry Potter
+  - Dumbledore
+  - ancient magic
+  - relations
+  - Quidditch World Cup
+  - Hogwarts
+  quote_excerpt_short: "protected in ways devised by Dumbledore long ago"
+  source_note: Voldemort frames Harry's protection as layered between Dumbledore's arrangements, ancient household magic, Ministry crowds, and Dumbledore's presence at Hogwarts.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - harry-potter
+  - protective-magic
+  - hogwarts-security
+  - quidditch-world-cup
+  - ancient-magic
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Student Protection and Exceptional Safeguards
+  candidate_section: Harry Potter's Layered Protection
+  reason_for_placement: The passage explains why an attacker treated Hogwarts and Dumbledore's presence as part of the protective environment around one student.
+  relevance_to_hogwarts_a_history: This belongs as later editorial context for exceptional Harry-era protection, not as a general rule for all Hogwarts students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch04-005
+    - gof-ch02-001
+    notes: ps-ch04-005 records Hogwarts as a Dumbledore-associated wartime safe place, and gof-ch02-001 records Voldemort proximity through Harry's scar; this entry adds Voldemort's abduction-planning view of Harry's layered protections.
+  confidence: medium
+  limitations: The passage reflects Voldemort's strategic interpretation and does not define the exact protective enchantments around Hogwarts itself.
+- id: gof-ch33-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Three - The Death Eaters
+  chapter_start_pdf_page: 1486
+  chapter_end_pdf_page: 1497
+  pdf_page: 1496
+  printed_page: null
+  extracted_text_lines: 366-374
+  text_anchor:
+    start_phrase: Use my one faithful Death Eater
+    end_phrase: beyond the reach of Dumbledore's help
+    local_occurrence_note: Voldemort summarizes the operational plan using the Hogwarts agent, the Goblet of Fire, tournament victory, and the Portkey Cup.
+  nearby_context: Voldemort says the Hogwarts Death Eater entered Harry's name, ensured Harry won, made him touch the Cup first, and turned the Cup into a Portkey to the graveyard.
+  match_terms:
+  - faithful Death Eater
+  - Hogwarts
+  - Goblet of Fire
+  - Triwizard Cup
+  - Portkey
+  - Dumbledore
+  quote_excerpt_short: "turned into a Portkey"
+  source_note: "Voldemort confirms the full tournament sabotage chain: fraudulent Goblet entry, engineered victory, and a Triwizard Cup Portkey removing Harry beyond Dumbledore's aid."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - goblet-of-fire
+  - triwizard-cup
+  - portkey
+  - tournament-security
+  - hogwarts-security
+  - hidden-agent
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Goblet Manipulation and Cup Portkey Breach
+  reason_for_placement: The passage supplies the clearest explanation of how the final-task object and champion-selection system were turned into an abduction mechanism.
+  relevance_to_hogwarts_a_history: A later edition can use this as central evidence for the tournament year's institutional security collapse and the limits of official safeguards.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch31-007
+    - gof-ch32-001
+    notes: gof-ch31-007 records the Cup's observed transport activation, and gof-ch32-001 records the off-grounds destination; this entry identifies the sabotage chain and confirms the Cup was deliberately made a Portkey.
+  confidence: high
+  limitations: The chapter still does not name the Hogwarts agent or show the exact spellwork used to alter the Goblet or Cup.

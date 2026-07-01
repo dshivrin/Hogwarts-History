@@ -1069,3 +1069,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 2
   boundary_summary: Used indexed page range; extracted only pages 1479-1485.
+- source_unit_id: gof-ch33
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter_number: 33
+  chapter_title: Chapter Thirty-Three - The Death Eaters
+  page_start: 1486
+  page_end: 1497
+  output_yaml: sources/book-04/chapter-33-the-death-eaters.yaml
+  processed_at: '2026-07-01'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 1486-1497.
