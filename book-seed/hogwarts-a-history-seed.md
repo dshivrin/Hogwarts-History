@@ -675,17 +675,6 @@ Summary: The available evidence includes 2 source items, led by: The chapter lin
   - Corroborates: `cos-ch17-004`. Book 2 Chapter Seventeen records Riddle's claim that he is a Parselmouth and Slytherin heir; this entry later corroborates Voldemort's snake communication with Nagini.
   - Notes: Frank does not know the word Parseltongue, and the scene does not mention Slytherin or Hogwarts directly.
 
-#### Section: Head-of-House Pastoral Duties
-
-Summary: The available evidence includes 1 source item, led by: The chapter gives direct evidence that a Head of House can serve as the closest staff contact for a student's family in a fatal school crisis.
-
-- **Context:** The chapter gives direct evidence that a Head of House can serve as the closest staff contact for a student's family in a fatal school crisis.
-  - Quote: "She was Head of Cedric's House"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1526, `gof-ch36-002`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: house_system
-  - Notes: The passage does not describe a formal policy or whether every Head of House has the same family-liaison duty.
-
 #### Section: House loyalty during the Triwizard Tournament
 
 Summary: The available evidence includes 1 source item, led by: The chapter shows House loyalty shaping student and staff responses to the Triwizard selection, with Cedric's champion status treated as rare Hufflepuff glory.
@@ -2570,18 +2559,6 @@ Summary: The available evidence includes 3 source items, led by: The chapter ide
   - Corroborates: `poa-ch06-007`. Book 3 Chapter Six records Hagrid saying governors were told after the injury; this entry clarifies Malfoy's family and Ministry complaint strategy.
   - Notes: The evidence is Malfoy's boast during class and does not define the governors' or Ministry's formal authority over Hagrid's job.
 
-#### Section: Ministry Pressure on Staffing and Curriculum Autonomy
-
-Summary: The available evidence includes 1 source item, led by: The chapter records a direct Ministry-headmaster governance conflict, with Fudge framing Dumbledore's staffing and curriculum autonomy as previously tolerated rather than guaranteed.
-
-- **Corroboration:** The chapter records a direct Ministry-headmaster governance conflict, with Fudge framing Dumbledore's staffing and curriculum autonomy as previously tolerated rather than guaranteed.
-  - Quote: "decide what to teach your students without reference to the Ministry"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1539, `gof-ch36-005`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: school_rule_or_policy
-  - Corroborates: `cos-ch14-005`, `cos-ch18-005`. cos-ch14-005 and cos-ch18-005 cover Ministry/governor intervention and recall during the Chamber crisis; this entry adds Fudge's explicit threat over staffing, curriculum, and the running of the school after the Triwizard disaster.
-  - Notes: Fudge's statement is politically charged and does not provide the formal legal mechanism for Ministry intervention.
-
 ### Chapter: House Points as Discipline and Reward
 
 #### Section: Emergency Incident Assessment
@@ -3122,17 +3099,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter comb
   - Reference type: school_rule_or_policy
   - Corroborates: `cos-ch16-002`. Chapter Sixteen confirms Mandrakes are ready for cutting and planned revival; this entry shows Madam Pomfrey actively administering Mandrake juice and adds Ginny's no-punishment ruling.
   - Notes: The disciplinary decision is specific to Ginny's possession by Riddle's diary and should not be generalized to ordinary rule-breaking.
-
-#### Section: Crisis Rest, Visitors, and Questioning Limits
-
-Summary: The available evidence includes 1 source item, led by: The chapter shows hospital-wing crisis care after traumatic testimony, including patient rest, controlled questioning, visitor discretion, and a temporary stay pending a schoolwide address.
-
-- **Context:** The chapter shows hospital-wing crisis care after traumatic testimony, including patient rest, controlled questioning, visitor discretion, and a temporary stay pending a schoolwide address.
-  - Quote: "What he needs now is sleep, and peace, and quiet."
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1531, `gof-ch36-003`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: institutional_custom
-  - Notes: The exact protections are Dumbledore's crisis judgment and may not reflect ordinary hospital-wing rules.
 
 #### Section: Crisis Visitor Restrictions
 
@@ -3797,18 +3763,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: security_or_protection
   - Corroborates: `poa-ch05-006`. Book 3 Chapter Five records dementors stationed at every entrance to the grounds; this entry adds Dumbledore's explicit refusal to allow them across the castle threshold after the breach search.
   - Notes: The authority basis is not explained, and the rule is expressed by Dumbledore during one crisis rather than as a quoted school statute.
-
-#### Section: Dementors Excluded from the Castle Interior
-
-Summary: The available evidence includes 1 source item, led by: The chapter gives explicit staff testimony that Dumbledore would not permit dementors inside Hogwarts castle and records the catastrophic result when the Minister brings one anyway.
-
-- **Corroboration:** The chapter gives explicit staff testimony that Dumbledore would not permit dementors inside Hogwarts castle and records the catastrophic result when the Minister brings one anyway.
-  - Quote: "never allow dementors to set foot inside the castle"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1534, `gof-ch36-004`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: security_or_protection
-  - Corroborates: `poa-ch04-007`, `poa-ch05-006`. poa-ch04-007 and poa-ch05-006 record dementors stationed around Hogwarts entrances and grounds during the Sirius Black crisis; this entry adds the explicit castle-interior prohibition and the Crouch Kiss consequence.
-  - Notes: The prohibition is reported by McGonagall in an emergency argument, not quoted from a formal school rulebook.
 
 #### Section: Gringotts Business and Hogwarts Trust
 
@@ -5094,6 +5048,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `gof-ch31-007`, `gof-ch32-001`, `gof-ch34-005`. gof-ch31-007 records the Cup's first activation, gof-ch32-001 confirms the off-grounds destination, and gof-ch34-005 records the return activation; this entry adds the precise return location at the maze edge and public event context.
   - Notes: The passage shows the arrival aftermath, not the enchantment process that made the Cup a Portkey.
 
+#### Section: Dementor Entry and Loss of Crouch's Testimony
+
+Summary: The available evidence includes 1 source item, led by: The chapter records a Ministry security breach inside Hogwarts when Fudge brings in a Dementor that destroys Crouch's capacity to testify.
+
+- **Corroboration:** The chapter records a Ministry security breach inside Hogwarts when Fudge brings in a Dementor that destroys Crouch's capacity to testify.
+  - Quote: "brought it inside the castle"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1534, `gof-ch36-004`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch02-006`. gof-ch02-006 recaps Dementors at Hogwarts during the Sirius Black crisis; this entry adds Fudge's later unauthorized castle entry with a Dementor and the resulting destruction of the only captured infiltrator's testimony.
+  - Notes: The Dementor's Kiss itself is inferred by Harry from McGonagall's unfinished account, though Dumbledore and Fudge immediately discuss the loss of testimony.
+
 #### Section: Entry procedure, Age Line, and binding contract
 
 Summary: The available evidence includes 1 source item, led by: The tournament entry process requires students to submit name and school to the Goblet, bars under-seventeen entrants with an Age Line, and treats selection as a binding magical contract.
@@ -5201,16 +5167,16 @@ Summary: The available evidence includes 1 source item, led by: Durmstrang and B
   - Corroborates: `gof-ch12-007`, `gof-ch16-003`. gof-ch12-007 records the three-school tournament framework and age restriction; gof-ch16-003 records the Age Line mechanism. This entry adds the visiting schools' fairness objection to two Hogwarts champions.
   - Notes: The objection is voiced by aggrieved visitors and does not quote the full rulebook.
 
-#### Section: Immediate Staff Command After the Third Task
+#### Section: Immediate Mobilization After Fudge's Refusal
 
-Summary: The available evidence includes 1 source item, led by: The chapter shows Dumbledore coordinating an immediate post-crisis command chain across staff guard duty, medical response, Ministry notification, and movement between office, grounds, and hospital wing.
+Summary: The available evidence includes 1 source item, led by: The chapter shows Hogwarts becoming the staging point for Dumbledore's first organized response to Voldemort's return, including Ministry contacts, giant envoys, house-elf care, old allies, and Snape's mission.
 
-- **Context:** The chapter shows Dumbledore coordinating an immediate post-crisis command chain across staff guard duty, medical response, Ministry notification, and movement between office, grounds, and hospital wing.
-  - Quote: "we need to get Alastor Moody into the hospital wing"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1525, `gof-ch36-001`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+- **Context:** The chapter shows Hogwarts becoming the staging point for Dumbledore's first organized response to Voldemort's return, including Ministry contacts, giant envoys, house-elf care, old allies, and Snape's mission.
+  - Quote: "There is work to be done."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1540, `gof-ch36-006`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
   - Classification: later_editorial_note | Confidence: high
-  - Reference type: security_or_protection
-  - Notes: The response is exceptional and should not be generalized into routine emergency policy without corroborating examples.
+  - Reference type: cross_reference_candidate
+  - Notes: Several assignments are deliberately discreet or unspecified, especially Snape's task and the later outcome of the envoys to giants.
 
 #### Section: Judges, tasks, scoring, and the Goblet selector
 
@@ -5260,17 +5226,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `gof-ch31-007`. gof-ch31-007 records the Cup's activation at the maze endpoint; this entry adds the off-grounds destination and Cedric's Portkey identification.
   - Notes: The passage does not yet reveal who altered the Cup, when it was altered, or how the Portkey bypassed school protections.
 
-#### Section: Post-Fudge Mobilization from the Hospital Wing
-
-Summary: The available evidence includes 1 source item, led by: The chapter shows Hogwarts becoming the staging point for Dumbledore's immediate post-Fudge response, using staff, family allies, house-elf care, visiting-school contacts, and the old anti-Voldemort network.
-
-- **Context:** The chapter shows Hogwarts becoming the staging point for Dumbledore's immediate post-Fudge response, using staff, family allies, house-elf care, visiting-school contacts, and the old anti-Voldemort network.
-  - Quote: "There is work to be done."
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1541, `gof-ch36-006`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
-  - Classification: later_editorial_note | Confidence: medium
-  - Reference type: cross_reference_candidate
-  - Notes: Much of the network is not formal Hogwarts governance; it belongs in later editorial notes rather than original school-history core.
-
 #### Section: Priori Incantatem and Wand-Core Evidence
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives the first direct observed evidence of the Priori Incantatem wand connection, including the golden thread, protective dome, and phoenix song that Harry associates with Dumbledore.
@@ -5281,6 +5236,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: The chapter describes the phenomenon before Dumbledore's technical explanation, so the exact wand-core cause must be supplied by later evidence.
+
+#### Section: Staff Custody and Medical Response After the Impostor Exposure
+
+Summary: The available evidence includes 1 source item, led by: The chapter records the staff chain of command after the impostor is exposed, combining prisoner custody, medical transfer for the real Moody, and Ministerial notification.
+
+- **Corroboration:** The chapter records the staff chain of command after the impostor is exposed, combining prisoner custody, medical transfer for the real Moody, and Ministerial notification.
+  - Quote: "get Alastor Moody into the hospital wing"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1525, `gof-ch36-001`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch35-006`, `gof-ch35-007`. gof-ch35-006 identifies the real Moody's confinement and Polyjuice mechanism, while gof-ch35-007 records the Veritaserum interrogation; this entry adds the immediate custody, hospital-wing, and Ministry-notification response after those discoveries.
+  - Notes: The scene begins after the confession and does not show Moody's medical treatment itself.
 
 #### Section: Staff Impersonation and the Seven-Locked Trunk
 
@@ -5509,6 +5476,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter defi
   - Reference type: historical_claim
   - Corroborates: `cos-ch04-004`. Chapter Four seeded Lucius Malfoy's blood-status prejudice around Hermione's exam performance; this entry adds the explicit slur, student reaction, and Ron's explanation of Muggle-born, pure-blood, and half-blood terms.
   - Notes: Ron's explanation is informal; later sources should confirm terminology history and distinguish social prejudice from school policy.
+
+### Chapter: Crisis Evidence and Student Care
+
+#### Section: Immediate Survivor Account in the Headmaster's Office
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Dumbledore taking an immediate survivor account in the headmaster's office while balancing witness evidence, emotional harm, and magical comfort from Fawkes.
+
+- **Corroboration:** The chapter shows Dumbledore taking an immediate survivor account in the headmaster's office while balancing witness evidence, emotional harm, and magical comfort from Fawkes.
+  - Quote: "I ask you to tell us what happened."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1527, `gof-ch36-003`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch34-005`, `gof-ch35-007`. gof-ch34-005 records Harry's Portkey return and gof-ch35-007 records Crouch's Veritaserum confession; this entry adds Harry's immediate survivor debrief as a separate corroborating evidence channel.
+  - Notes: The account is summarized through Harry's retelling rather than fully transcribed, and it occurs before ordinary rest or formal public reporting.
 
 ### Chapter: Dark Magic, Security, and Public Panic
 
@@ -5762,6 +5743,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter trea
   - Corroborates: `ps-ch02-005`. Book 1 Chapter Two records Harry's sensory memory of green light and forehead pain from Godric's Hollow; this entry adds a later scar-pain recurrence and Harry's explicit association with Voldemort at Hogwarts.
   - Notes: Harry is reasoning from memory and prior experience; the chapter does not yet explain the mechanism connecting the scar pain, dream, and Voldemort.
 
+### Chapter: Headmasters and School Authority
+
+#### Section: Dumbledore's Autonomy and Fudge's Governance Threat
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives Fudge's explicit account of Dumbledore's broad practical autonomy over Hogwarts staffing and curriculum, followed by a threat of Ministry scrutiny.
+
+- **Context:** The chapter gives Fudge's explicit account of Dumbledore's broad practical autonomy over Hogwarts staffing and curriculum, followed by a threat of Ministry scrutiny.
+  - Quote: "decide what to teach your students"
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1539, `gof-ch36-005`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
+
 ### Chapter: Hogwarts Staff and Associates Before Harry's Arrival
 
 #### Section: Hagrid's Trusted Mission
@@ -5788,6 +5782,19 @@ Summary: The available evidence includes 1 source item, led by: Hermione's house
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-004`, `gof-ch14-007`, `gof-ch16-006`. gof-ch12-004 covers the kitchen workforce, gof-ch14-007 covers S.P.E.W.'s legal framing, and gof-ch16-006 covers Hagrid's anti-reform view; this entry adds Hermione's shift toward direct kitchen access.
   - Notes: The scene does not yet reveal the kitchen entrance or include testimony from Hogwarts house-elves.
+
+### Chapter: Houses, Heads, and Pastoral Responsibility
+
+#### Section: Head-of-House Family Support After Cedric Diggory's Death
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows a Head of House acting as the appropriate staff member to accompany and support a dead student's parents after a school tragedy.
+
+- **Context:** The chapter shows a Head of House acting as the appropriate staff member to accompany and support a dead student's parents after a school tragedy.
+  - Quote: "She was Head of Cedric's House."
+  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1526, `gof-ch36-002`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: house_system
+  - Notes: The scene reports Sprout's role indirectly through Dumbledore and does not show the conversation with the Diggorys.
 
 ### Chapter: Law, Creatures, and Magical Citizenship
 
@@ -6029,19 +6036,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch28-004`, `gof-ch26-002`, `gof-ch20-001`. Corroborates third-task setup and prior tournament research entries; adds the specific spell-practice program for the final task.
   - Notes: This is informal preparation, not a sanctioned class lesson.
-
-### Chapter: The Triwizard Tournament at Hogwarts
-
-#### Section: Prize Ceremony and Winnings
-
-Summary: The available evidence includes 1 source item, led by: The chapter confirms the Triwizard winner's prize amount and implies an expected presentation ceremony that is cancelled or bypassed after Cedric's death and the Ministry dispute.
-
-- **Context:** The chapter confirms the Triwizard winner's prize amount and implies an expected presentation ceremony that is cancelled or bypassed after Cedric's death and the Ministry dispute.
-  - Quote: "There should have been a presentation ceremony"
-  - Source: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, PDF p. 1540, `gof-ch36-007`, `sources/book-04/chapter-36-the-parting-of-the-ways.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: institutional_custom
-  - Notes: The passage does not identify who would normally present the prize or where the ceremony would have taken place.
 
 ### Chapter: The Triwizard Year and Institutional Ceremonies
 

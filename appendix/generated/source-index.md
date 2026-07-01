@@ -98,4 +98,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch33`: Harry Potter and the Goblet of Fire, Chapter Thirty-Three - The Death Eaters, pages 1486-1497, 5 entries, 0 explicit references.
 - `gof-ch34`: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, pages 1498-1506, 5 entries, 0 explicit references.
 - `gof-ch35`: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, pages 1507-1524, 7 entries, 0 explicit references.
-- `gof-ch36`: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, pages 1525-1544, 7 entries, 0 explicit references.
+- `gof-ch36`: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, pages 1525-1544, 6 entries, 0 explicit references.

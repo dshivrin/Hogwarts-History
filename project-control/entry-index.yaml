@@ -8643,55 +8643,55 @@ by_entry:
     source_unit: gof-ch35
     output_yaml: sources/book-04/chapter-35-veritaserum.yaml
   gof-ch36-001:
-    title: 'The Triwizard Year and Institutional Security: Immediate Staff Command
-      After the Third Task'
+    title: 'The Triwizard Year and Institutional Security: Staff Custody and Medical
+      Response After the Impostor Exposure'
     classification: later_editorial_note
-    reference_type: security_or_protection
+    reference_type: institutional_custom
     confidence: high
     tags:
-    - emergency-response
+    - alastor-moody
+    - barty-crouch-jr
+    - cornelius-fudge
     - hospital-wing
-    - madam-pomfrey
-    - ministry-of-magic
     - professor-mcgonagall
     - professor-snape
-    - staff-command
+    - staff-response
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   gof-ch36-002:
-    title: 'House Identity and Reputation: Head-of-House Pastoral Duties'
+    title: 'Houses, Heads, and Pastoral Responsibility: Head-of-House Family Support
+      After Cedric Diggory''s Death'
     classification: later_editorial_note
     reference_type: house_system
     confidence: high
     tags:
     - cedric-diggory
+    - family-care
     - head-of-house
     - hufflepuff
     - pastoral-care
     - professor-sprout
-    - student-family
-    - triwizard-tournament
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   gof-ch36-003:
-    title: 'Student Health and the Hospital Wing: Crisis Rest, Visitors, and Questioning
-      Limits'
+    title: 'Crisis Evidence and Student Care: Immediate Survivor Account in the Headmaster''s
+      Office'
     classification: later_editorial_note
     reference_type: institutional_custom
     confidence: high
     tags:
-    - crisis-care
-    - dumbledore
-    - hospital-wing
-    - school-address
-    - sleeping-potion
-    - student-welfare
-    - visitor-control
+    - cedric-diggory
+    - fawkes
+    - headmaster-office
+    - portkey
+    - sirius-black
+    - survivor-care
+    - witness-account
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   gof-ch36-004:
-    title: 'Dumbledore and External Security Arrangements: Dementors Excluded from
-      the Castle Interior'
+    title: 'The Triwizard Year and Institutional Security: Dementor Entry and Loss
+      of Crouch''s Testimony'
     classification: later_editorial_note
     reference_type: security_or_protection
     confidence: high
@@ -8700,55 +8700,42 @@ by_entry:
     - castle-security
     - cornelius-fudge
     - dementors
-    - dumbledore
+    - ministry-intervention
     - professor-mcgonagall
     - testimony
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   gof-ch36-005:
-    title: 'Headmaster, Governors, and School Oversight: Ministry Pressure on Staffing
-      and Curriculum Autonomy'
+    title: 'Headmasters and School Authority: Dumbledore''s Autonomy and Fudge''s
+      Governance Threat'
     classification: later_editorial_note
     reference_type: school_rule_or_policy
     confidence: high
     tags:
+    - cornelius-fudge
     - curriculum
-    - hagrid
-    - headmaster-authority
-    - ministry-oversight
-    - professor-lupin
+    - dumbledore
+    - ministry-of-magic
+    - school-autonomy
     - school-governance
-    - staff-appointments
+    - staffing
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   gof-ch36-006:
-    title: 'The Triwizard Year and Institutional Security: Post-Fudge Mobilization
-      from the Hospital Wing'
+    title: 'The Triwizard Year and Institutional Security: Immediate Mobilization
+      After Fudge''s Refusal'
     classification: later_editorial_note
     reference_type: cross_reference_candidate
-    confidence: medium
-    tags:
-    - crisis-mobilization
-    - dumbledore
-    - hagrid
-    - house-elves
-    - madame-maxime
-    - ministry-contacts
-    - sirius-black
-    source_unit: gof-ch36
-    output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
-  gof-ch36-007:
-    title: 'The Triwizard Tournament at Hogwarts: Prize Ceremony and Winnings'
-    classification: later_editorial_note
-    reference_type: institutional_custom
     confidence: high
     tags:
-    - cornelius-fudge
-    - hospital-wing
-    - one-thousand-galleons
-    - presentation-ceremony
-    - prize-money
-    - triwizard-tournament
+    - dumbledore
+    - giants
+    - hagrid
+    - ministry-contacts
+    - order-network
+    - professor-snape
+    - sirius-black
+    - winky
     source_unit: gof-ch36
     output_yaml: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
 by_tag:
@@ -8807,6 +8794,7 @@ by_tag:
   - gof-ch16-004
   alastor-moody:
   - gof-ch35-006
+  - gof-ch36-001
   albus-dumbledore:
   - ps-ch01-001
   - ps-ch01-002
@@ -8965,6 +8953,7 @@ by_tag:
   barty-crouch-jr:
   - gof-ch30-006
   - gof-ch35-007
+  - gof-ch36-001
   - gof-ch36-004
   basilisk:
   - cos-ch16-003
@@ -9220,6 +9209,7 @@ by_tag:
   - gof-ch34-005
   - gof-ch35-001
   - gof-ch36-002
+  - gof-ch36-003
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -9394,8 +9384,9 @@ by_tag:
   - cos-ch14-005
   - gof-ch11-003
   - gof-ch29-007
+  - gof-ch36-001
   - gof-ch36-004
-  - gof-ch36-007
+  - gof-ch36-005
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -9462,15 +9453,11 @@ by_tag:
   - gof-ch26-003
   creature-regulation:
   - gof-ch10-004
-  crisis-care:
-  - gof-ch36-003
   crisis-governance:
   - cos-ch14-005
   - poa-ch21-001
   crisis-magic:
   - poa-ch20-005
-  crisis-mobilization:
-  - gof-ch36-006
   crisis-morale:
   - cos-ch13-003
   crisis-security:
@@ -9813,8 +9800,7 @@ by_tag:
   - gof-ch35-001
   - gof-ch35-005
   - gof-ch35-007
-  - gof-ch36-003
-  - gof-ch36-004
+  - gof-ch36-005
   - gof-ch36-006
   - poa-ch04-007
   - poa-ch06-007
@@ -9921,7 +9907,6 @@ by_tag:
   - cos-ch12-002
   - cos-ch14-003
   - gof-ch28-007
-  - gof-ch36-001
   - ps-ch10-003
   emergency-transport:
   - poa-ch03-002
@@ -10014,6 +9999,8 @@ by_tag:
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
+  family-care:
+  - gof-ch36-002
   family-notification:
   - cos-ch05-005
   - cos-ch06-001
@@ -10038,6 +10025,7 @@ by_tag:
   fawkes:
   - cos-ch17-005
   - cos-ch17-007
+  - gof-ch36-003
   feast:
   - cos-ch18-003
   feasts:
@@ -10282,6 +10270,7 @@ by_tag:
   - gof-ch23-006
   giants:
   - gof-ch23-006
+  - gof-ch36-006
   gilderoy-lockhart:
   - cos-ch04-006
   - cos-ch06-006
@@ -10497,7 +10486,6 @@ by_tag:
   - gof-ch28-004
   - gof-ch28-007
   - gof-ch35-003
-  - gof-ch36-005
   - gof-ch36-006
   - poa-ch01-006
   - poa-ch05-007
@@ -10619,7 +10607,6 @@ by_tag:
   - cos-ch18-003
   - cos-ch18-005
   - gof-ch24-007
-  - gof-ch36-005
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
@@ -10632,6 +10619,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
+  - gof-ch36-003
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
@@ -10940,8 +10928,6 @@ by_tag:
   - gof-ch18-004
   - gof-ch35-005
   - gof-ch36-001
-  - gof-ch36-003
-  - gof-ch36-007
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -10995,7 +10981,6 @@ by_tag:
   - gof-ch26-004
   - gof-ch28-001
   - gof-ch35-003
-  - gof-ch36-006
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -11378,14 +11363,12 @@ by_tag:
   - cos-ch18-002
   - gof-ch13-002
   - gof-ch16-004
-  - gof-ch36-001
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
   madame-maxime:
   - gof-ch15-007
   - gof-ch29-007
-  - gof-ch36-006
   magic-outside-school:
   - cos-ch01-005
   - gof-ch02-003
@@ -11656,6 +11639,8 @@ by_tag:
   ministry-guidelines:
   - gof-ch10-004
   - gof-ch27-004
+  ministry-intervention:
+  - gof-ch36-004
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -11696,15 +11681,13 @@ by_tag:
   - gof-ch30-006
   - gof-ch30-007
   - gof-ch33-003
-  - gof-ch36-001
+  - gof-ch36-005
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
   - poa-ch12-003
   - poa-ch16-002
   - ps-ch14-002
-  ministry-oversight:
-  - gof-ch36-005
   ministry-register:
   - poa-ch18-001
   ministry-response:
@@ -11924,8 +11907,8 @@ by_tag:
   - poa-ch14-004
   one-eyed-witch-passage:
   - poa-ch16-006
-  one-thousand-galleons:
-  - gof-ch36-007
+  order-network:
+  - gof-ch36-006
   order-of-merlin:
   - poa-ch10-006
   order-of-suspension:
@@ -12138,6 +12121,7 @@ by_tag:
   - gof-ch33-005
   - gof-ch34-005
   - gof-ch35-001
+  - gof-ch36-003
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -12235,8 +12219,6 @@ by_tag:
   prefects-bathroom:
   - gof-ch23-007
   - gof-ch25-002
-  presentation-ceremony:
-  - gof-ch36-007
   press-access:
   - gof-ch24-004
   prior-incantato:
@@ -12259,8 +12241,6 @@ by_tag:
   - poa-ch02-002
   - poa-ch02-003
   - ps-ch03-003
-  prize-money:
-  - gof-ch36-007
   procession:
   - gof-ch23-002
   professor-binns:
@@ -12289,7 +12269,6 @@ by_tag:
   - poa-ch05-007
   professor-lupin:
   - gof-ch14-001
-  - gof-ch36-005
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -12334,6 +12313,7 @@ by_tag:
   - gof-ch35-005
   - gof-ch35-007
   - gof-ch36-001
+  - gof-ch36-006
   - poa-ch09-005
   - poa-ch10-001
   - poa-ch14-006
@@ -12590,8 +12570,8 @@ by_tag:
   - poa-ch19-006
   school-absence-cover:
   - gof-ch02-003
-  school-address:
-  - gof-ch36-003
+  school-autonomy:
+  - gof-ch36-005
   school-awards:
   - cos-ch13-002
   school-brooms:
@@ -12854,6 +12834,7 @@ by_tag:
   - gof-ch19-007
   - gof-ch27-002
   - gof-ch27-006
+  - gof-ch36-003
   - gof-ch36-006
   - poa-ch04-007
   - poa-ch08-007
@@ -12882,8 +12863,6 @@ by_tag:
   - gof-ch14-002
   skele-gro:
   - cos-ch10-005
-  sleeping-potion:
-  - gof-ch36-003
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -13011,7 +12990,6 @@ by_tag:
   - gof-ch12-006
   staff-appointments:
   - gof-ch24-002
-  - gof-ch36-005
   - poa-ch05-007
   - poa-ch17-003
   staff-authorization:
@@ -13020,8 +12998,6 @@ by_tag:
   - gof-ch23-006
   staff-boundaries:
   - gof-ch19-004
-  staff-command:
-  - gof-ch36-001
   staff-duties:
   - cos-ch16-004
   staff-escort:
@@ -13054,12 +13030,14 @@ by_tag:
   staff-response:
   - cos-ch11-006
   - gof-ch35-005
+  - gof-ch36-001
   staff-search:
   - poa-ch09-002
   staff-table:
   - gof-ch12-006
   staffing:
   - cos-ch07-004
+  - gof-ch36-005
   - poa-ch05-003
   staffroom:
   - cos-ch16-005
@@ -13140,8 +13118,6 @@ by_tag:
   - gof-ch05-002
   student-equipment:
   - poa-ch01-007
-  student-family:
-  - gof-ch36-002
   student-family-contact:
   - cos-ch06-005
   student-governance:
@@ -13260,8 +13236,6 @@ by_tag:
   student-trunks:
   - cos-ch03-005
   - gof-ch04-001
-  student-welfare:
-  - gof-ch36-003
   study-schedules:
   - ps-ch14-001
   stunning-spell:
@@ -13304,6 +13278,8 @@ by_tag:
   - ps-ch05-003
   suppressed-contact:
   - poa-ch02-002
+  survivor-care:
+  - gof-ch36-003
   suspension:
   - poa-ch19-002
   sword:
@@ -13541,8 +13517,6 @@ by_tag:
   - gof-ch33-005
   - gof-ch35-002
   - gof-ch35-003
-  - gof-ch36-002
-  - gof-ch36-007
   triwizard-year:
   - gof-ch01-004
   - gof-ch05-003
@@ -13653,7 +13627,6 @@ by_tag:
   visitor-control:
   - cos-ch10-005
   - cos-ch15-001
-  - gof-ch36-003
   voldemort:
   - cos-ch02-003
   - cos-ch17-004
@@ -13780,6 +13753,7 @@ by_tag:
   - gof-ch09-005
   - gof-ch21-007
   - gof-ch28-001
+  - gof-ch36-006
   winter:
   - gof-ch21-003
   winter-at-hogwarts:
@@ -13788,6 +13762,8 @@ by_tag:
   - gof-ch24-005
   witch-weekly:
   - gof-ch27-003
+  witness-account:
+  - gof-ch36-003
   wizard-law:
   - poa-ch02-003
   wizard-school:

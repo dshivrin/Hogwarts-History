@@ -289,6 +289,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Academic Merit and Pure-Blood Prejudice
   - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
+- Crisis Evidence and Student Care
+  - Immediate Survivor Account in the Headmaster's Office
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
 - Defense Against the Dark Arts Staffing and Ministry Links
@@ -316,6 +318,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Suppressed Holiday Contact
 - Harry Potter and Voldemort's Return
   - Curse Scars and Voldemort Proximity
+- Headmasters and School Authority
+  - Dumbledore's Autonomy and Fudge's Governance Threat
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
@@ -327,6 +331,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Service Norms, Pay, and Regulation
 - House-Elves and Hogwarts Labor
   - Student Activism and Kitchen Access
+- Houses, Heads, and Pastoral Responsibility
+  - Head-of-House Family Support After Cedric Diggory's Death
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
   - Ministry Guidelines for Non-Wizard Part-Humans
@@ -357,8 +363,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Linked disappearances and Ministry disagreement
   - Ministry investigation and visiting-school tensions
   - Student preparation for the third task
-- The Triwizard Tournament at Hogwarts
-  - Prize Ceremony and Winnings
 - The Triwizard Year and Institutional Ceremonies
   - The Weighing of the Wands
 - The Triwizard Year and Institutional Procedure
@@ -380,6 +384,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crouch's Forest Warning and Tournament Administration Fragments
   - Cup Portkey Return to Hogwarts
   - Cup Portkey Return to the Maze Edge
+  - Dementor Entry and Loss of Crouch's Testimony
   - Entry procedure, Age Line, and binding contract
   - Final-Task Patrol Sabotage
   - First-Task Secrecy and Informal Leaks
@@ -389,14 +394,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Goblet lifecycle and closed selection
   - Graveyard Victim Echoes
   - Host-school fairness dispute
-  - Immediate Staff Command After the Third Task
+  - Immediate Mobilization After Fudge's Refusal
   - Judges, tasks, scoring, and the Goblet selector
   - Karkaroff, Moody, and Durmstrang Risk
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
   - Portkey Breach Beyond Hogwarts Grounds
-  - Post-Fudge Mobilization from the Hospital Wing
   - Priori Incantatem and Wand-Core Evidence
+  - Staff Custody and Medical Response After the Impostor Exposure
   - Staff Impersonation and the Seven-Locked Trunk
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
@@ -548,7 +553,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Azkaban Guards at the Grounds Entrances
   - Dementor Breach at the Quidditch Stadium
   - Dementors Barred from the Castle Interior
-  - Dementors Excluded from the Castle Interior
   - Gringotts Business and Hogwarts Trust
 - Emergencies on the Grounds
   - Forest Search, Revival Magic, and Visiting-School Tension
@@ -669,7 +673,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Governor Recall and Removal
   - Governors, Public Pressure, and Crisis Accountability
   - Ministry Intervention During School Crises
-  - Ministry Pressure on Staffing and Curriculum Autonomy
 - Headmaster, Ministry, and Crisis Authority
   - Summer Residence and Closure Threats
 - Headmasters and School Authority
@@ -721,7 +724,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Prohibited Punishments, Detentions, and Head-of-House Referral
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
-  - Crisis Rest, Visitors, and Questioning Limits
   - Crisis Visitor Restrictions
   - Treatment, Overnight Care, and Visitor Control
   - Visitor Access and Headmaster Exception
@@ -782,7 +784,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## The Four Houses
 
 - House Identity and Reputation
-  - Head-of-House Pastoral Duties
   - House loyalty during the Triwizard Tournament
   - Pre-Arrival Explanations of Houses
   - Pre-Sorting Rumors and Family Expectations
