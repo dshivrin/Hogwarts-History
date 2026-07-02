@@ -3031,6 +3031,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter supp
   - Reference type: cross_reference_candidate
   - Notes: The passage is a campsite identification list and does not describe each office's formal jurisdiction or relationship to Hogwarts.
 
+### Chapter: Ministry Pressure and Public Records
+
+#### Section: Fudge, the Prophet, and Dumbledore's Allies
+
+Summary: The available evidence includes 1 source item, led by: The chapter links Ministry pressure against Dumbledore's allies with a Daily Prophet campaign that undermines Harry's credibility and suppresses the Dementor attack story.
+
+- **Corroboration:** The chapter links Ministry pressure against Dumbledore's allies with a Daily Prophet campaign that undermines Harry's credibility and suppresses the Dementor attack story.
+  - Quote: "turn you into someone nobody will believe"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1638, `ootp-ch04-007`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch01-001`, `gof-ch18-005`, `gof-ch37-006`. ootp-ch01-001 records Harry's reliance on press and censored letters, while GoF entries record Rita Skeeter's distorted reporting and surveillance; this entry adds the coordinated post-return smear and Ministry pressure on Dumbledore allies.
+  - Notes: Hermione infers Fudge's role in the smear campaign, and the account is not a direct Ministry or Prophet document.
+
 ### Chapter: Prefects and Student Authority
 
 #### Section: Prefects on the Hogwarts Express
@@ -3987,6 +4001,30 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Reference type: security_or_protection
   - Notes: The passage does not yet name the concealment charm protecting Grimmauld Place or explain the legal and magical status of the headquarters.
 
+#### Section: Layered Entry Controls at Grimmauld Place
+
+Summary: The available evidence includes 1 source item, led by: The headquarters uses layered physical and magical access controls, with wand-operated entry, resealed locks, light management, and post-flight concealment cleanup.
+
+- **Corroboration:** The headquarters uses layered physical and magical access controls, with wand-operated entry, resealed locks, light management, and post-flight concealment cleanup.
+  - Quote: "many loud, metallic clicks"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1627, `ootp-ch04-002`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch03-005`, `ootp-ch03-006`. ootp-ch03-005 covers the Disillusionment Charm during travel and ootp-ch03-006 covers the Put-Outer and address; this entry adds the door procedure and magical resealing inside the headquarters.
+  - Notes: The passage does not specify which protections are permanent enchantments and which are ordinary locking spells.
+
+#### Section: Number Twelve Revealed After Memorized Disclosure
+
+Summary: The available evidence includes 1 source item, led by: The chapter demonstrates the concealed headquarters becoming visible only after controlled disclosure of the address, while nearby Muggles do not perceive the change.
+
+- **Corroboration:** The chapter demonstrates the concealed headquarters becoming visible only after controlled disclosure of the address, while nearby Muggles do not perceive the change.
+  - Quote: "a battered door emerged out of nowhere"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1626, `ootp-ch04-001`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch03-006`. ootp-ch03-006 introduces Dumbledore's note and the headquarters address; this entry adds the visible manifestation of the hidden building after Harry memorizes it.
+  - Notes: The chapter still does not name the charm or fully explain the secret-keeping mechanics.
+
 ### Chapter: House Common-Room Security
 
 #### Section: Password Lists and Portrait-Hole Breaches
@@ -4065,6 +4103,19 @@ Summary: The available evidence includes 1 source item, led by: Voldemort retros
   - Reference type: historical_claim
   - Corroborates: `ps-ch17-002`, `ps-ch17-003`. ps-ch17-002 and ps-ch17-003 already cover Quirrell's Stone-related actions and Dumbledore's final protection; this entry adds Voldemort's retrospective possession account.
   - Notes: Voldemort does not name Quirrell in this passage, and his account is self-serving even though it matches earlier Stone-incident evidence.
+
+### Chapter: Information Security and Eavesdropping
+
+#### Section: Extendable Ears and Imperturbable Charm
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives practical evidence for magical eavesdropping devices and a counter-charm that blocks physical contact and prevents listening under a door.
+
+- **Context:** The chapter gives practical evidence for magical eavesdropping devices and a counter-charm that blocks physical contact and prevents listening under a door.
+  - Quote: "put an Imperturbable Charm on the kitchen door"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1635, `ootp-ch04-006`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage demonstrates function but does not explain the charm's formal theory or whether students learn it at Hogwarts.
 
 ### Chapter: Internal Threats and Emergency Response
 
@@ -6245,6 +6296,32 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: explicit_in_universe_source
   - Notes: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
 
+### Chapter: The Second War and Hogwarts-Connected Organizations
+
+#### Section: Order Leadership, Membership, and Headquarters Meetings
+
+Summary: The available evidence includes 1 source item, led by: The chapter defines the Order of the Phoenix as Dumbledore's secret society from the previous war and shows membership-controlled meetings at headquarters.
+
+- **Corroboration:** The chapter defines the Order of the Phoenix as Dumbledore's secret society from the previous war and shows membership-controlled meetings at headquarters.
+  - Quote: "It's a secret society"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1628, `ootp-ch04-004`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch03-002`. ootp-ch03-002 records an active guard operation and headquarters destination; this entry adds the Order's definition, founding, membership limits, and last-war purpose.
+  - Notes: Ron and Hermione are not members and admit they do not know all details or the full membership.
+
+#### Section: Order Operations and Intelligence Work
+
+Summary: The available evidence includes 1 source item, led by: The chapter sketches Order operations as surveillance, recruitment, guard work, foreign outreach, and intelligence reports involving Hogwarts-linked adults.
+
+- **Corroboration:** The chapter sketches Order operations as surveillance, recruitment, guard work, foreign outreach, and intelligence reports involving Hogwarts-linked adults.
+  - Quote: "following known Death Eaters"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1634, `ootp-ch04-005`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch03-002`. ootp-ch03-002 identifies the guard operation; this entry adds broader operational categories and names Bill, Charlie, and Snape in Order work.
+  - Notes: Much of the operational detail is secondhand, inferred by minors from overheard fragments and not confirmed by meeting records.
+
 ### Chapter: The Sirius Black Crisis
 
 #### Section: Dementors, False Conviction, and Escape
@@ -6701,6 +6778,22 @@ Summary: The available evidence includes 1 source item, led by: Christmas break 
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch21-002`, `gof-ch21-003`, `gof-ch22-003`. gof-ch21-002 records informal kitchen food access, gof-ch21-003 records visiting-school winter lodging, and gof-ch22-003 records Christmas presentation; this entry adds holiday crowding, homework load, and rich kitchen service in the week before the ball.
   - Notes: The opening summarizes holiday conditions and does not describe a formal rule for who may remain at school over Christmas.
+
+## Part: Castle, Grounds, and Magical Architecture
+
+### Chapter: Wizarding Households Connected to Hogwarts
+
+#### Section: Grimmauld Place and Black Family Domestic Evidence
+
+Summary: The available evidence includes 1 source item, led by: The chapter presents Grimmauld Place as an old dark wizarding household, preserving family artifacts, house-elf servitude evidence, hostile portraits, and Black-family material culture.
+
+- **Corroboration:** The chapter presents Grimmauld Place as an old dark wizarding household, preserving family artifacts, house-elf servitude evidence, hostile portraits, and Black-family material culture.
+  - Quote: "the heads belonged to house-elves"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, PDF p. 1627, `ootp-ch04-003`, `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `cos-ch02-001`, `cos-ch03-002`, `gof-ch14-007`. Earlier entries establish house-elf bondage, old-family association, and Hermione's activism; this entry adds Black-family household evidence, preserved elf-head trophies, and Kreacher at Grimmauld Place.
+  - Notes: Later chapters explain the Black family and Kreacher more fully; this chapter gives first observations rather than a complete household history.
 
 ## Part: Ceremonies, Feasts, and Inter-School Relations
 

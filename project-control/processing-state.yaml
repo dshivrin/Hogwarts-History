@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 3
-  chapter_title: Chapter Three - The Advance Guard
-  page_start: 1609
-  page_end: 1625
-  output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 4
   chapter_title: Chapter Four - Number Twelve, Grimmauld Place
   page_start: 1626
   page_end: 1644
   output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1645
   page_end: 1662
   output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 6
+  chapter_title: Chapter Six - The Noble and Most Ancient House of Black
+  page_start: 1663
+  page_end: 1684
+  output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

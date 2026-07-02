@@ -153,6 +153,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Christmas at Hogwarts
   - Holiday Residence, Food Service, and Visiting Delegations
 
+## Castle, Grounds, and Magical Architecture
+
+- Wizarding Households Connected to Hogwarts
+  - Grimmauld Place and Black Family Domestic Evidence
+
 ## Ceremonies and School Traditions
 
 - Christmas at Hogwarts
@@ -370,6 +375,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors in Little Whinging
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
+- The Second War and Hogwarts-Connected Organizations
+  - Order Leadership, Membership, and Headquarters Meetings
+  - Order Operations and Intelligence Work
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -592,6 +600,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trapdoor and Plant-Based Protections
 - Headquarters, Safe Houses, and Secret-Keeping
   - Dumbledore's Put-Outer and Grimmauld Place Arrival
+  - Layered Entry Controls at Grimmauld Place
+  - Number Twelve Revealed After Memorized Disclosure
 - House Common-Room Security
   - Password Lists and Portrait-Hole Breaches
 - House Entrances and Castle Security
@@ -602,6 +612,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hidden Death Eater at Hogwarts
   - Hidden Servants and Staff-Side Vulnerability
   - Quirrell Possession and the Stone Attempt
+- Information Security and Eavesdropping
+  - Extendable Ears and Imperturbable Charm
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House
   - Troll Intrusion and Stone Diversion
@@ -731,6 +743,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Apparition Licensing and Risks
 - Ministry Interfaces with Hogwarts
   - Specialist Offices and External Governance Context
+- Ministry Pressure and Public Records
+  - Fudge, the Prophet, and Dumbledore's Allies
 - Prefects and Student Authority
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority

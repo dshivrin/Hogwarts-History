@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Four - Number Twelve, Grimmauld Place
-- Page range: 1626-1644
+- Chapter: Chapter Five - The Order of the Phoenix
+- Page range: 1645-1662
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
+- Output YAML: `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
 
 ## Minimal Context
 

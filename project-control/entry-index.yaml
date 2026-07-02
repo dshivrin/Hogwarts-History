@@ -9102,6 +9102,114 @@ by_entry:
     - secret-headquarters
     source_unit: ootp-ch03
     output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
+  ootp-ch04-001:
+    title: 'Headquarters, Safe Houses, and Secret-Keeping: Number Twelve Revealed
+      After Memorized Disclosure'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - concealment
+    - grimmauld-place
+    - muggle-concealment
+    - order-of-the-phoenix
+    - protective-magic
+    - secret-headquarters
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch04-002:
+    title: 'Headquarters, Safe Houses, and Secret-Keeping: Layered Entry Controls
+      at Grimmauld Place'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - access-control
+    - disillusionment-charm
+    - grimmauld-place
+    - locks
+    - protective-magic
+    - put-outer
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch04-003:
+    title: 'Wizarding Households Connected to Hogwarts: Grimmauld Place and Black
+      Family Domestic Evidence'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - black-family
+    - grimmauld-place
+    - house-elves
+    - kreacher
+    - magical-architecture
+    - portraits
+    - pure-blood-households
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch04-004:
+    title: 'The Second War and Hogwarts-Connected Organizations: Order Leadership,
+      Membership, and Headquarters Meetings'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dumbledore
+    - headquarters
+    - membership
+    - order-of-the-phoenix
+    - second-war
+    - secret-society
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch04-005:
+    title: 'The Second War and Hogwarts-Connected Organizations: Order Operations
+      and Intelligence Work'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - death-eaters
+    - foreign-wizards
+    - guard-duty
+    - intelligence
+    - order-of-the-phoenix
+    - recruitment
+    - snape
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch04-006:
+    title: 'Information Security and Eavesdropping: Extendable Ears and Imperturbable
+      Charm'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - counter-surveillance
+    - eavesdropping
+    - extendable-ears
+    - fred-and-george
+    - imperturbable-charm
+    - order-of-the-phoenix
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch04-007:
+    title: 'Ministry Pressure and Public Records: Fudge, the Prophet, and Dumbledore''s
+      Allies'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - daily-prophet
+    - dumbledore
+    - harry-potter
+    - ministry-of-magic
+    - political-pressure
+    - public-opinion
+    - second-war
+    source_unit: ootp-ch04
+    output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9109,6 +9217,8 @@ by_tag:
   - poa-ch07-003
   academic-progression:
   - poa-ch16-001
+  access-control:
+  - ootp-ch04-002
   accidental-magic:
   - ps-ch02-002
   - ps-ch02-004
@@ -9367,6 +9477,8 @@ by_tag:
   - gof-ch34-004
   bewitched-sleep:
   - gof-ch27-001
+  black-family:
+  - ootp-ch04-003
   black-flames:
   - ps-ch16-007
   black-lake:
@@ -9757,6 +9869,7 @@ by_tag:
   concealment:
   - ootp-ch03-004
   - ootp-ch03-005
+  - ootp-ch04-001
   confidentiality:
   - poa-ch18-007
   confiscated-items:
@@ -9790,6 +9903,8 @@ by_tag:
   - gof-ch30-003
   - gof-ch30-005
   - gof-ch30-006
+  counter-surveillance:
+  - ootp-ch04-006
   countercurse:
   - ps-ch13-003
   - ps-ch17-001
@@ -9906,6 +10021,7 @@ by_tag:
   - gof-ch24-002
   - gof-ch37-006
   - ootp-ch01-001
+  - ootp-ch04-007
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -9953,6 +10069,7 @@ by_tag:
   - gof-ch19-006
   - gof-ch27-005
   - gof-ch30-004
+  - ootp-ch04-005
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -10094,6 +10211,7 @@ by_tag:
   - ootp-ch03-004
   disillusionment-charm:
   - ootp-ch03-005
+  - ootp-ch04-002
   dissendium:
   - poa-ch10-004
   - poa-ch14-004
@@ -10208,6 +10326,8 @@ by_tag:
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
+  - ootp-ch04-004
+  - ootp-ch04-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10290,6 +10410,8 @@ by_tag:
   - ps-ch03-002
   easter-holidays:
   - poa-ch03-004
+  eavesdropping:
+  - ootp-ch04-006
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -10403,6 +10525,8 @@ by_tag:
   - poa-ch03-001
   - ps-ch04-007
   - ps-ch16-004
+  extendable-ears:
+  - ootp-ch04-006
   fairness:
   - gof-ch20-002
   fake-wands:
@@ -10589,6 +10713,8 @@ by_tag:
   - gof-ch12-005
   foreign-schools:
   - gof-ch07-003
+  foreign-wizards:
+  - ootp-ch04-005
   forest-edge:
   - ps-ch14-005
   - ps-ch15-005
@@ -10635,6 +10761,7 @@ by_tag:
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
+  - ootp-ch04-006
   free-will:
   - gof-ch14-003
   freedom:
@@ -10791,6 +10918,9 @@ by_tag:
   grimmauld-place:
   - ootp-ch03-002
   - ootp-ch03-006
+  - ootp-ch04-001
+  - ootp-ch04-002
+  - ootp-ch04-003
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -10868,6 +10998,8 @@ by_tag:
   - poa-ch15-002
   - poa-ch16-006
   - poa-ch19-005
+  guard-duty:
+  - ootp-ch04-005
   guarded-chamber:
   - ps-ch09-007
   - ps-ch11-007
@@ -10967,6 +11099,7 @@ by_tag:
   - gof-ch33-001
   - gof-ch33-004
   - gof-ch34-001
+  - ootp-ch04-007
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -11055,6 +11188,7 @@ by_tag:
   - cos-ch09-006
   headquarters:
   - ootp-ch03-002
+  - ootp-ch04-004
   heads-of-house:
   - cos-ch05-005
   - cos-ch14-003
@@ -11407,6 +11541,7 @@ by_tag:
   - gof-ch26-004
   - gof-ch28-001
   - gof-ch35-003
+  - ootp-ch04-003
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -11502,6 +11637,8 @@ by_tag:
   - gof-ch35-006
   impersonation:
   - ootp-ch03-001
+  imperturbable-charm:
+  - ootp-ch04-006
   improper-use-of-magic-office:
   - gof-ch05-004
   in-universe-analysis:
@@ -11528,6 +11665,8 @@ by_tag:
   - ps-ch07-002
   institutional-secrecy:
   - cos-ch13-005
+  intelligence:
+  - ootp-ch04-005
   inter-house-quidditch-cup:
   - gof-ch12-005
   inter-school-relations:
@@ -11636,6 +11775,8 @@ by_tag:
   knight-bus:
   - poa-ch03-002
   - poa-ch14-003
+  kreacher:
+  - ootp-ch04-003
   kwikspell:
   - cos-ch08-002
   lake:
@@ -11737,6 +11878,8 @@ by_tag:
   - cos-ch07-004
   - cos-ch07-006
   - cos-ch13-003
+  locks:
+  - ootp-ch04-002
   logic-puzzle:
   - ps-ch16-007
   longbottoms:
@@ -11834,6 +11977,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch31-005
+  - ootp-ch04-003
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -12052,6 +12196,8 @@ by_tag:
   medieval-witch-burning:
   - poa-ch01-001
   - poa-ch04-002
+  membership:
+  - ootp-ch04-004
   memory:
   - ps-ch02-005
   memory-charms:
@@ -12141,6 +12287,7 @@ by_tag:
   - gof-ch37-004
   - ootp-ch02-002
   - ootp-ch02-003
+  - ootp-ch04-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -12228,6 +12375,7 @@ by_tag:
   - gof-ch07-002
   muggle-concealment:
   - ootp-ch03-006
+  - ootp-ch04-001
   muggle-family:
   - ootp-ch01-003
   muggle-fireplaces:
@@ -12410,6 +12558,10 @@ by_tag:
   - cos-ch14-006
   order-of-the-phoenix:
   - ootp-ch03-006
+  - ootp-ch04-001
+  - ootp-ch04-004
+  - ootp-ch04-005
+  - ootp-ch04-006
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -12613,6 +12765,8 @@ by_tag:
   - gof-ch25-004
   poisoning:
   - gof-ch19-003
+  political-pressure:
+  - ootp-ch04-007
   poltergeist:
   - poa-ch07-005
   - ps-ch08-002
@@ -12649,6 +12803,7 @@ by_tag:
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
+  - ootp-ch04-003
   - poa-ch06-002
   - poa-ch08-004
   - poa-ch08-007
@@ -12866,6 +13021,8 @@ by_tag:
   - gof-ch33-004
   - ootp-ch02-006
   - ootp-ch03-006
+  - ootp-ch04-001
+  - ootp-ch04-002
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -12883,8 +13040,12 @@ by_tag:
   - gof-ch08-006
   public-memory:
   - ps-ch02-006
+  public-opinion:
+  - ootp-ch04-007
   punishment:
   - cos-ch08-002
+  pure-blood-households:
+  - ootp-ch04-003
   pure-blood-prejudice:
   - cos-ch07-003
   - gof-ch08-003
@@ -12892,6 +13053,7 @@ by_tag:
   - ps-ch16-007
   put-outer:
   - ootp-ch03-006
+  - ootp-ch04-002
   quaffle:
   - cos-ch07-001
   quick-quotes-quill:
@@ -12995,6 +13157,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
+  recruitment:
+  - ootp-ch04-005
   red-caps:
   - poa-ch08-001
   - poa-ch16-004
@@ -13255,6 +13419,9 @@ by_tag:
   - gof-ch25-003
   - gof-ch26-005
   - gof-ch27-001
+  second-war:
+  - ootp-ch04-004
+  - ootp-ch04-007
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -13275,6 +13442,7 @@ by_tag:
   - gof-ch21-002
   secret-headquarters:
   - ootp-ch03-006
+  - ootp-ch04-001
   secret-passages:
   - poa-ch05-002
   - poa-ch09-001
@@ -13296,6 +13464,8 @@ by_tag:
   - gof-ch25-005
   - ps-ch08-003
   - ps-ch09-006
+  secret-society:
+  - ootp-ch04-004
   security:
   - gof-ch15-006
   security-failure:
@@ -13425,6 +13595,7 @@ by_tag:
   - gof-ch27-005
   - gof-ch28-006
   - gof-ch30-004
+  - ootp-ch04-005
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
