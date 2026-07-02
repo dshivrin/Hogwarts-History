@@ -108,3 +108,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch06`: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, pages 1663-1684, 7 entries, 0 explicit references.
 - `ootp-ch07`: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, pages 1685-1699, 7 entries, 0 explicit references.
 - `ootp-ch08`: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, pages 1700-1713, 7 entries, 0 explicit references.
+- `ootp-ch09`: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, pages 1714-1740, 7 entries, 0 explicit references.

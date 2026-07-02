@@ -1225,3 +1225,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1700-1713.
+- source_unit_id: ootp-ch09
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 9
+  chapter_title: Chapter Nine - The Woes of Mrs. Weasley
+  page_start: 1714
+  page_end: 1740
+  output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  processed_at: '2026-07-02'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1714-1740.

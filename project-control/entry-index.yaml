@@ -9652,6 +9652,114 @@ by_entry:
     - wizengamot-verdict
     source_unit: ootp-ch08
     output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch09-001:
+    title: 'Ministry Oversight and Student Hearings: Political Influence Around Student
+      Discipline'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - cornelius-fudge
+    - death-eaters
+    - lucius-malfoy
+    - ministry-influence
+    - political-donations
+    - school-governance
+    - underage-magic
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch09-002:
+    title: 'Beings, Beasts, and Wizarding Prejudice: Ministry Symbolism and Non-Human
+      Beings'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - centaurs
+    - fountain-magical-brethren
+    - goblins
+    - house-elves
+    - magical-servitude
+    - ministry-of-magic
+    - wizarding-ideology
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch09-003:
+    title: 'Information Security and Eavesdropping: Student Exclusion from Order Intelligence'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - extendable-ears
+    - grimmauld-place
+    - mrs-weasley
+    - operational-secrecy
+    - order-of-the-phoenix
+    - students
+    - wartime-security
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch09-004:
+    title: 'Defense Against the Dark Arts: Fifth-Year Textbooks and Staffing Trouble'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - dumbledore
+    - fifth-year-booklist
+    - school-letters
+    - teacher-appointments
+    - term-start
+    - textbooks
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch09-005:
+    title: 'Student Leadership and Prefects: Fifth-Year Prefect Selection'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - dumbledore
+    - fifth-year
+    - gryffindor
+    - hermione-granger
+    - prefects
+    - ron-weasley
+    - student-leadership
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch09-006:
+    title: 'Student Leadership and Prefects: Prefect Qualities and Alumni Examples'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - detention
+    - head-of-house
+    - marauders
+    - nymphadora-tonks
+    - prefects
+    - remus-lupin
+    - student-leadership
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch09-007:
+    title: 'The Second War and Hogwarts-Connected Organizations: Original Order Roster
+      and First War Casualties'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - death-eaters
+    - dumbledore
+    - first-wizarding-war
+    - hogwarts-alumni
+    - longbottoms
+    - original-order-phoenix
+    - prewett-family
+    source_unit: ootp-ch09
+    output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -10171,6 +10279,7 @@ by_tag:
   - ps-ch15-007
   centaurs:
   - cos-ch15-003
+  - ootp-ch09-002
   - ps-ch15-006
   ceremonial-duty:
   - gof-ch22-002
@@ -10351,6 +10460,7 @@ by_tag:
   - gof-ch36-004
   - gof-ch36-005
   - ootp-ch05-006
+  - ootp-ch09-001
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -10547,6 +10657,8 @@ by_tag:
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
+  - ootp-ch09-001
+  - ootp-ch09-007
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -10575,6 +10687,7 @@ by_tag:
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
+  - ootp-ch09-004
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -10661,6 +10774,7 @@ by_tag:
   - cos-ch07-006
   - gof-ch13-006
   - gof-ch18-004
+  - ootp-ch09-006
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -10828,6 +10942,9 @@ by_tag:
   - ootp-ch06-007
   - ootp-ch08-002
   - ootp-ch08-004
+  - ootp-ch09-004
+  - ootp-ch09-005
+  - ootp-ch09-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -11036,6 +11153,7 @@ by_tag:
   - ps-ch16-004
   extendable-ears:
   - ootp-ch04-006
+  - ootp-ch09-003
   fairness:
   - gof-ch20-002
   fake-wands:
@@ -11082,6 +11200,10 @@ by_tag:
   - cos-ch07-002
   fifth-floor:
   - gof-ch23-007
+  fifth-year:
+  - ootp-ch09-005
+  fifth-year-booklist:
+  - ootp-ch09-004
   fighting:
   - ps-ch12-002
   filch:
@@ -11139,6 +11261,7 @@ by_tag:
   - gof-ch30-005
   - gof-ch30-006
   - ootp-ch06-004
+  - ootp-ch09-007
   - poa-ch10-006
   - ps-ch04-005
   first-year-arrival:
@@ -11253,6 +11376,7 @@ by_tag:
   - gof-ch12-002
   fountain-magical-brethren:
   - ootp-ch07-003
+  - ootp-ch09-002
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
@@ -11371,6 +11495,7 @@ by_tag:
   - gof-ch37-007
   - ootp-ch05-004
   - ootp-ch07-003
+  - ootp-ch09-002
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
@@ -11451,6 +11576,7 @@ by_tag:
   - ootp-ch06-002
   - ootp-ch06-003
   - ootp-ch06-007
+  - ootp-ch09-003
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -11486,6 +11612,7 @@ by_tag:
   - gof-ch06-004
   - gof-ch15-004
   - gof-ch18-002
+  - ootp-ch09-005
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -11673,6 +11800,7 @@ by_tag:
   head-of-house:
   - gof-ch18-002
   - gof-ch36-002
+  - ootp-ch09-006
   - poa-ch08-003
   headless-hunt:
   - cos-ch08-001
@@ -11758,6 +11886,7 @@ by_tag:
   - cos-ch07-003
   - gof-ch08-003
   - gof-ch09-002
+  - ootp-ch09-005
   - poa-ch04-004
   hermione-research:
   - poa-ch14-003
@@ -11862,6 +11991,7 @@ by_tag:
   - gof-ch28-003
   - poa-ch09-001
   hogwarts-alumni:
+  - ootp-ch09-007
   - poa-ch10-006
   hogwarts-champions:
   - gof-ch31-004
@@ -12078,6 +12208,7 @@ by_tag:
   - ootp-ch06-002
   - ootp-ch06-005
   - ootp-ch07-003
+  - ootp-ch09-002
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -12442,6 +12573,7 @@ by_tag:
   - ps-ch16-007
   longbottoms:
   - gof-ch30-006
+  - ootp-ch09-007
   love-potions:
   - gof-ch27-003
   loyalty:
@@ -12452,6 +12584,7 @@ by_tag:
   - cos-ch18-005
   - cos-ch18-006
   - gof-ch08-003
+  - ootp-ch09-001
   - poa-ch11-001
   - poa-ch15-001
   ludo-bagman:
@@ -12664,6 +12797,7 @@ by_tag:
   - gof-ch19-002
   - gof-ch21-007
   - gof-ch28-001
+  - ootp-ch09-002
   magical-settlements:
   - gof-ch19-001
   magical-spaces:
@@ -12709,6 +12843,7 @@ by_tag:
   - cos-ch18-006
   - gof-ch09-003
   marauders:
+  - ootp-ch09-006
   - poa-ch18-005
   marauders-map:
   - gof-ch04-002
@@ -12826,6 +12961,8 @@ by_tag:
   ministry-guidelines:
   - gof-ch10-004
   - gof-ch27-004
+  ministry-influence:
+  - ootp-ch09-001
   ministry-intervention:
   - gof-ch36-004
   ministry-investigation:
@@ -12887,6 +13024,7 @@ by_tag:
   - ootp-ch07-007
   - ootp-ch08-001
   - ootp-ch08-002
+  - ootp-ch09-002
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -12958,6 +13096,8 @@ by_tag:
   - cos-ch08-006
   - ps-ch08-003
   - ps-ch09-005
+  mrs-weasley:
+  - ootp-ch09-003
   muggle-artifacts:
   - cos-ch03-004
   muggle-baiting:
@@ -13113,6 +13253,8 @@ by_tag:
   - poa-ch06-002
   norwegian-ridgeback:
   - ps-ch14-004
+  nymphadora-tonks:
+  - ootp-ch09-006
   obliviator:
   - gof-ch07-004
   off-campus-security:
@@ -13157,6 +13299,7 @@ by_tag:
   - ootp-ch05-001
   - ootp-ch06-002
   - ootp-ch07-005
+  - ootp-ch09-003
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -13184,10 +13327,13 @@ by_tag:
   - ootp-ch06-002
   - ootp-ch06-007
   - ootp-ch07-005
+  - ootp-ch09-003
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
   - gof-ch15-002
+  original-order-phoenix:
+  - ootp-ch09-007
   out-of-bounds:
   - poa-ch19-002
   - ps-ch15-001
@@ -13394,6 +13540,8 @@ by_tag:
   - gof-ch25-004
   poisoning:
   - gof-ch19-003
+  political-donations:
+  - ootp-ch09-001
   political-pressure:
   - ootp-ch04-007
   - ootp-ch05-007
@@ -13504,6 +13652,8 @@ by_tag:
   - cos-ch12-002
   - cos-ch13-002
   - cos-ch13-006
+  - ootp-ch09-005
+  - ootp-ch09-006
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -13515,6 +13665,8 @@ by_tag:
   - gof-ch25-002
   press-access:
   - gof-ch24-004
+  prewett-family:
+  - ootp-ch09-007
   prior-incantato:
   - gof-ch09-006
   prior-opening:
@@ -13813,6 +13965,7 @@ by_tag:
   regulus-black:
   - ootp-ch06-004
   remus-lupin:
+  - ootp-ch09-006
   - poa-ch10-002
   - poa-ch17-003
   - poa-ch18-002
@@ -13865,6 +14018,8 @@ by_tag:
   - ps-ch06-006
   rogue-bludger:
   - cos-ch10-004
+  ron-weasley:
+  - ootp-ch09-005
   ronan:
   - ps-ch15-006
   rookwood:
@@ -13935,6 +14090,7 @@ by_tag:
   - cos-ch12-006
   - cos-ch18-005
   - gof-ch36-005
+  - ootp-ch09-001
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -13960,6 +14116,7 @@ by_tag:
   - poa-ch01-004
   school-letters:
   - cos-ch04-001
+  - ootp-ch09-004
   - poa-ch01-005
   school-list:
   - gof-ch05-006
@@ -14502,6 +14659,8 @@ by_tag:
   student-leadership:
   - cos-ch04-005
   - gof-ch05-001
+  - ootp-ch09-005
+  - ootp-ch09-006
   - poa-ch01-004
   - poa-ch04-006
   student-lockdown:
@@ -14611,6 +14770,8 @@ by_tag:
   student-trunks:
   - cos-ch03-005
   - gof-ch04-001
+  students:
+  - ootp-ch09-003
   study-schedules:
   - ps-ch14-001
   stunning-spell:
@@ -14682,6 +14843,7 @@ by_tag:
   teacher-appointments:
   - cos-ch07-004
   - gof-ch12-006
+  - ootp-ch09-004
   - poa-ch05-003
   teacher-authority:
   - poa-ch19-003
@@ -14722,8 +14884,12 @@ by_tag:
   term-preparation:
   - gof-ch05-006
   - gof-ch10-007
+  term-start:
+  - ootp-ch09-004
   testimony:
   - gof-ch36-004
+  textbooks:
+  - ootp-ch09-004
   third-floor-corridor:
   - ps-ch08-003
   - ps-ch09-007
@@ -14953,6 +15119,7 @@ by_tag:
   - ootp-ch08-002
   - ootp-ch08-003
   - ootp-ch08-007
+  - ootp-ch09-001
   - poa-ch02-003
   - poa-ch03-001
   underage-students:
@@ -15111,6 +15278,8 @@ by_tag:
   - ps-ch05-007
   warlocks-convention-1709:
   - ps-ch14-002
+  wartime-security:
+  - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
   - gof-ch03-003
@@ -15204,6 +15373,8 @@ by_tag:
   wizarding-households:
   - cos-ch02-001
   - gof-ch03-002
+  wizarding-ideology:
+  - ootp-ch09-002
   wizarding-law:
   - gof-ch14-003
   - gof-ch14-005

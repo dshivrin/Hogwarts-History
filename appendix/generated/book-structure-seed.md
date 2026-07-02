@@ -236,6 +236,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Classes, Curriculum, and Learning
 
 - Defense Against the Dark Arts
+  - Fifth-Year Textbooks and Staffing Trouble
   - Patronus Instruction and Advanced Defensive Magic
 
 ## Classroom Instruction and Practical Magic
@@ -394,6 +395,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Order Leadership, Membership, and Headquarters Meetings
   - Order Operations and Intelligence Work
   - Order Recall and Voldemort's Recruitment Strategy
+  - Original Order Roster and First War Casualties
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -518,6 +520,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Magical Communities and Families
 
+- Beings, Beasts, and Wizarding Prejudice
+  - Ministry Symbolism and Non-Human Beings
 - Squibs, Muggle Neighbors, and Wizarding Records
   - Squib Witnesses and Ministry Registration Gaps
 
@@ -649,6 +653,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quirrell Possession and the Stone Attempt
 - Information Security and Eavesdropping
   - Extendable Ears and Imperturbable Charm
+  - Student Exclusion from Order Intelligence
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House
   - Troll Intrusion and Stone Diversion
@@ -790,6 +795,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Ministry Offices Affecting Muggle Relations
   - Misused Artifacts and Anti-Muggle Pranks
 - Ministry Oversight and Student Hearings
+  - Political Influence Around Student Discipline
   - Visitor Entry, Search, and Wand Registration
 - Ministry Pressure and Public Records
   - Fudge, the Prophet, and Dumbledore's Allies
@@ -825,6 +831,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crisis Visitor Restrictions
   - Treatment, Overnight Care, and Visitor Control
   - Visitor Access and Headmaster Exception
+- Student Leadership and Prefects
+  - Fifth-Year Prefect Selection
+  - Prefect Qualities and Alumni Examples
 - Student Misconduct and Reporting
   - Curses, Countercurses, and Faculty Reports
 - Student Offices, Awards, and Records

@@ -3112,6 +3112,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
 
 ### Chapter: Ministry Oversight and Student Hearings
 
+#### Section: Political Influence Around Student Discipline
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Lucius Malfoy gaining private access to the Minister after Harry's hearing and frames old Death Eater influence as working through donations, favors, delayed laws, and Fudge's willing denial.
+
+- **Corroboration:** The chapter shows Lucius Malfoy gaining private access to the Minister after Harry's hearing and frames old Death Eater influence as working through donations, favors, delayed laws, and Fudge's willing denial.
+  - Quote: "Malfoy's been giving generously"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1716, `ootp-ch09-001`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch12-006`, `cos-ch14-006`, `cos-ch18-005`. Earlier entries record Lucius Malfoy's Hogwarts governor role and pressure on school oversight; this entry adds his post-return access to Fudge, political donations, and possible influence over Harry's hearing aftermath.
+  - Notes: Arthur's explanation is informed but not documentary proof of specific payments, laws delayed, or favors granted in this scene.
+
 #### Section: Visitor Entry, Search, and Wand Registration
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives a step-by-step description of Ministry visitor entry: disguised public access, stated business, visitor badge, physical search, and wand registration.
@@ -3396,6 +3408,32 @@ Summary: The available evidence includes 1 source item, led by: The hospital win
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: school_rule_or_policy
   - Notes: This is one Harry-era recovery scene and may reflect medical judgment rather than a written school policy.
+
+### Chapter: Student Leadership and Prefects
+
+#### Section: Fifth-Year Prefect Selection
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that fifth-year Hogwarts letters can carry prefect appointments and House badges, naming Ron and Hermione as Gryffindor prefects and tying the selection to criteria beyond fame or dangerous exploits.
+
+- **Corroboration:** The chapter confirms that fifth-year Hogwarts letters can carry prefect appointments and House badges, naming Ron and Hermione as Gryffindor prefects and tying the selection to criteria beyond fame or dangerous exploits.
+  - Quote: "prefects being chosen in the fifth year"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1723, `ootp-ch09-005`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `cos-ch04-005`. cos-ch04-005 names an in-universe book about Hogwarts prefect careers; this entry adds direct fifth-year appointment evidence, House badge delivery, and named Gryffindor selections.
+  - Notes: The scene implies but does not formally document whether Dumbledore alone chooses prefects or acts with Heads of House.
+
+#### Section: Prefect Qualities and Alumni Examples
+
+Summary: The available evidence includes 1 source item, led by: Alumni testimony shows prefect status as selective rather than automatic: Heads of House could cite behavior, detention history mattered socially, and Lupin's appointment may have aimed to moderate his friends.
+
+- **Corroboration:** Alumni testimony shows prefect status as selective rather than automatic: Heads of House could cite behavior, detention history mattered socially, and Lupin's appointment may have aimed to moderate his friends.
+  - Quote: "My Head of House said"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1731, `ootp-ch09-006`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: institutional_custom
+  - Corroborates: `cos-ch04-005`. cos-ch04-005 establishes prefects as a named career-relevant institution; this entry adds alumni examples, Head-of-House judgment, detention reputation, and Lupin's appointment rationale.
+  - Notes: The evidence is conversational and retrospective, not an official prefect-selection rulebook.
 
 ### Chapter: Student Misconduct and Reporting
 
@@ -4292,6 +4330,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The passage demonstrates function but does not explain the charm's formal theory or whether students learn it at Hogwarts.
+
+#### Section: Student Exclusion from Order Intelligence
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that Order headquarters used active information boundaries around school-age children, including countering both normal listening and Extendable-Ear eavesdropping.
+
+- **Corroboration:** The chapter confirms that Order headquarters used active information boundaries around school-age children, including countering both normal listening and Extendable-Ear eavesdropping.
+  - Quote: "kept well out of earshot"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1721, `ootp-ch09-003`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch04-006`, `ootp-ch05-001`. ootp-ch04-006 records Extendable Ears and the Imperturbable Charm, while ootp-ch05-001 records confidential headquarters papers; this entry adds sustained child-exclusion practice after Harry's hearing.
+  - Notes: The passage does not list the specific conversations withheld or the full security rules for minors at headquarters.
 
 ### Chapter: Internal Threats and Emergency Response
 
@@ -6534,6 +6584,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter desc
   - Reference type: historical_claim
   - Notes: The weapon is deliberately unnamed in this chapter, so that detail remains unresolved here.
 
+#### Section: Original Order Roster and First War Casualties
+
+Summary: The available evidence includes 1 source item, led by: The chapter preserves a named First Wizarding War Order roster through Moody's photograph and connects those casualties to Lupin's claim that the old Order was badly outnumbered by Death Eaters.
+
+- **Corroboration:** The chapter preserves a named First Wizarding War Order roster through Moody's photograph and connects those casualties to Lupin's claim that the old Order was badly outnumbered by Death Eaters.
+  - Quote: "outnumbered twenty to one"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1735, `ootp-ch09-007`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch30-006`, `poa-ch10-006`, `ootp-ch04-004`. gof-ch30-006 records the Longbottom torture aftermath, poa-ch10-006 records Potter-era alumni war memory, and ootp-ch04-004 defines the Order as a prior-war secret society; this entry adds Moody's named photo roster and Lupin's twenty-to-one comparison.
+  - Notes: The roster is filtered through Moody's oral identifications and does not give exact dates, membership criteria, or complete casualty records.
+
 ### Chapter: The Sirius Black Crisis
 
 #### Section: Dementors, False Conviction, and Escape
@@ -7293,6 +7355,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
 
 ### Chapter: Defense Against the Dark Arts
 
+#### Section: Fifth-Year Textbooks and Staffing Trouble
+
+Summary: The available evidence includes 1 source item, led by: The school letter confirms returning-student term logistics and fifth-year required texts, while the Defense Against the Dark Arts booklist signals a late staff appointment after four consecutive failed tenures.
+
+- **Corroboration:** The school letter confirms returning-student term logistics and fifth-year required texts, while the Defense Against the Dark Arts booklist signals a late staff appointment after four consecutive failed tenures.
+  - Quote: "term started on the first of September"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1722, `ootp-ch09-004`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `cos-ch04-001`, `cos-ch07-004`, `gof-ch12-006`. cos-ch04-001 records an earlier annual booklist, cos-ch07-004 records the post's hard-to-fill reputation, and gof-ch12-006 records Moody's appointment; this entry adds the fifth-year texts and the post-Moody staffing inference.
+  - Notes: The passage gives the booklist and student inference but does not yet identify the new teacher or explain who selected the textbook.
+
 #### Section: Patronus Instruction and Advanced Defensive Magic
 
 Summary: The available evidence includes 1 source item, led by: The hearing confirms that Harry learned the Patronus Charm at Hogwarts from Professor Lupin in third year and that a corporeal Patronus at fifteen is considered unusually impressive by Amelia Bones.
@@ -7500,6 +7574,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Notes: The passage does not name the spell or object enchantment used to expand the tents.
 
 ## Part: Magical Communities and Families
+
+### Chapter: Beings, Beasts, and Wizarding Prejudice
+
+#### Section: Ministry Symbolism and Non-Human Beings
+
+Summary: The available evidence includes 1 source item, led by: Harry's second look at the Atrium fountain undercuts the Ministry's public ideology by noting that the goblin and centaur reverence is implausible while the house-elf servility looks convincing.
+
+- **Corroboration:** Harry's second look at the Atrium fountain undercuts the Ministry's public ideology by noting that the goblin and centaur reverence is implausible while the house-elf servility looks convincing.
+  - Quote: "Only the house-elf's attitude"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, PDF p. 1718, `ootp-ch09-002`, `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch07-003`. ootp-ch07-003 records the fountain's architecture and official display; this entry adds Harry's critical interpretation of its centaur, goblin, and house-elf symbolism.
+  - Notes: The interpretation is Harry's observation rather than an official Ministry explanation of the fountain's design.
 
 ### Chapter: Squibs, Muggle Neighbors, and Wizarding Records
 
