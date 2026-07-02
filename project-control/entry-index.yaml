@@ -9012,6 +9012,96 @@ by_entry:
     - student-safety
     source_unit: ootp-ch02
     output_yaml: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  ootp-ch03-001:
+    title: 'Off-Campus Protection of Students: Identity Verification After Impersonation'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - identity-verification
+    - impersonation
+    - mad-eye-moody
+    - order-guard
+    - patronus
+    - veritaserum
+    source_unit: ootp-ch03
+    output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
+  ootp-ch03-002:
+    title: 'Off-Campus Protection of Students: Advance Guard Retrieval From Privet
+      Drive'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - grimmauld-place
+    - headquarters
+    - off-campus-security
+    - operational-secrecy
+    - order-guard
+    - privet-drive
+    source_unit: ootp-ch03
+    output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
+  ootp-ch03-003:
+    title: 'Wizarding Transport and Secrecy: Covert Broom Transport Under Surveillance'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - broom-flight
+    - floo-network
+    - magical-transportation
+    - muggle-secrecy
+    - order-guard
+    - portkeys
+    source_unit: ootp-ch03
+    output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
+  ootp-ch03-004:
+    title: 'Careers After Hogwarts: Auror Training and Natural Disguise Talent'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - auror
+    - concealment
+    - disguise
+    - magical-careers
+    - metamorphmagus
+    - post-hogwarts-training
+    - stealth
+    source_unit: ootp-ch03
+    output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
+  ootp-ch03-005:
+    title: 'Concealment and Anti-Detection Magic: Disillusionment Charm in Student
+      Extraction'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - broom-flight
+    - concealment
+    - disillusionment-charm
+    - invisibility-cloak
+    - order-guard
+    - student-safety
+    source_unit: ootp-ch03
+    output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
+  ootp-ch03-006:
+    title: 'Headquarters, Safe Houses, and Secret-Keeping: Dumbledore''s Put-Outer
+      and Grimmauld Place Arrival'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - dumbledore
+    - grimmauld-place
+    - muggle-concealment
+    - order-of-the-phoenix
+    - protective-magic
+    - put-outer
+    - secret-headquarters
+    source_unit: ootp-ch03
+    output_yaml: sources/book-05/chapter-03-the-advance-guard.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9136,6 +9226,7 @@ by_tag:
   - gof-ch09-004
   - gof-ch15-006
   - gof-ch29-001
+  - ootp-ch03-003
   apparition-points:
   - gof-ch06-002
   appeals:
@@ -9172,6 +9263,7 @@ by_tag:
   - ps-ch15-001
   auror:
   - gof-ch19-006
+  - ootp-ch03-004
   auror-experience:
   - gof-ch13-007
   auror-tools:
@@ -9339,6 +9431,9 @@ by_tag:
   - gof-ch07-003
   brick-entrance:
   - poa-ch04-001
+  broom-flight:
+  - ootp-ch03-003
+  - ootp-ch03-005
   broom-jinx:
   - ps-ch11-006
   - ps-ch17-001
@@ -9659,6 +9754,9 @@ by_tag:
   - cos-ch12-005
   concealed-route:
   - poa-ch20-001
+  concealment:
+  - ootp-ch03-004
+  - ootp-ch03-005
   confidentiality:
   - poa-ch18-007
   confiscated-items:
@@ -9992,6 +10090,10 @@ by_tag:
   - ps-ch09-005
   discipline-records:
   - cos-ch08-002
+  disguise:
+  - ootp-ch03-004
+  disillusionment-charm:
+  - ootp-ch03-005
   dissendium:
   - poa-ch10-004
   - poa-ch14-004
@@ -10105,6 +10207,7 @@ by_tag:
   - gof-ch37-004
   - ootp-ch02-003
   - ootp-ch02-006
+  - ootp-ch03-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10430,6 +10533,7 @@ by_tag:
   - poa-ch21-007
   floo-network:
   - gof-ch04-004
+  - ootp-ch03-003
   floo-powder:
   - gof-ch04-004
   floo-regulation-panel:
@@ -10684,6 +10788,9 @@ by_tag:
   - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
+  grimmauld-place:
+  - ootp-ch03-002
+  - ootp-ch03-006
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -10946,6 +11053,8 @@ by_tag:
   - cos-ch02-003
   headmistresses:
   - cos-ch09-006
+  headquarters:
+  - ootp-ch03-002
   heads-of-house:
   - cos-ch05-005
   - cos-ch14-003
@@ -11377,6 +11486,8 @@ by_tag:
   - gof-ch19-005
   hurling-hex:
   - poa-ch12-005
+  identity-verification:
+  - ootp-ch03-001
   illegal-creature:
   - ps-ch14-004
   illegal-curses:
@@ -11389,6 +11500,8 @@ by_tag:
   - gof-ch34-002
   - gof-ch35-004
   - gof-ch35-006
+  impersonation:
+  - ootp-ch03-001
   improper-use-of-magic-office:
   - gof-ch05-004
   in-universe-analysis:
@@ -11456,6 +11569,7 @@ by_tag:
   - gof-ch24-004
   - gof-ch25-001
   - gof-ch25-007
+  - ootp-ch03-005
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -11675,6 +11789,7 @@ by_tag:
   - gof-ch29-003
   - gof-ch34-002
   - gof-ch37-003
+  - ootp-ch03-001
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
@@ -11732,6 +11847,8 @@ by_tag:
   - poa-ch01-006
   - poa-ch02-004
   - ps-ch12-005
+  magical-careers:
+  - ootp-ch03-004
   magical-community:
   - ps-ch02-006
   magical-concealment:
@@ -11854,6 +11971,7 @@ by_tag:
   - gof-ch10-002
   - gof-ch15-006
   - gof-ch15-007
+  - ootp-ch03-003
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
@@ -11958,6 +12076,8 @@ by_tag:
   - gof-ch25-003
   - gof-ch26-007
   - gof-ch27-001
+  metamorphmagus:
+  - ootp-ch03-004
   minister-of-magic:
   - cos-ch04-005
   - gof-ch27-007
@@ -12106,6 +12226,8 @@ by_tag:
   - ps-ch05-005
   muggle-camouflage:
   - gof-ch07-002
+  muggle-concealment:
+  - ootp-ch03-006
   muggle-family:
   - ootp-ch01-003
   muggle-fireplaces:
@@ -12143,6 +12265,7 @@ by_tag:
   - gof-ch11-002
   - gof-ch11-005
   - gof-ch13-005
+  - ootp-ch03-003
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -12239,6 +12362,7 @@ by_tag:
   - ootp-ch01-002
   - ootp-ch01-004
   - ootp-ch02-001
+  - ootp-ch03-002
   off-campus-transport:
   - gof-ch32-001
   - gof-ch34-005
@@ -12270,15 +12394,22 @@ by_tag:
   - poa-ch16-006
   operational-secrecy:
   - ootp-ch01-001
+  - ootp-ch03-002
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
+  - ootp-ch03-001
+  - ootp-ch03-002
+  - ootp-ch03-003
+  - ootp-ch03-005
   order-network:
   - gof-ch36-006
   order-of-merlin:
   - poa-ch10-006
   order-of-suspension:
   - cos-ch14-006
+  order-of-the-phoenix:
+  - ootp-ch03-006
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -12374,6 +12505,7 @@ by_tag:
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
+  - ootp-ch03-001
   - poa-ch20-007
   patronus-charm:
   - poa-ch12-002
@@ -12500,6 +12632,7 @@ by_tag:
   - gof-ch06-002
   - gof-ch07-006
   - gof-ch10-002
+  - ootp-ch03-003
   portrait-guardians:
   - poa-ch09-003
   portrait-guardianship:
@@ -12524,6 +12657,8 @@ by_tag:
   possession:
   - cos-ch17-002
   - gof-ch33-002
+  post-hogwarts-training:
+  - ootp-ch03-004
   post-riot-cleanup:
   - gof-ch10-001
   potion-ingredients:
@@ -12616,6 +12751,7 @@ by_tag:
   - ootp-ch01-003
   - ootp-ch02-001
   - ootp-ch02-006
+  - ootp-ch03-002
   - poa-ch01-002
   - poa-ch02-002
   - poa-ch02-003
@@ -12729,6 +12865,7 @@ by_tag:
   protective-magic:
   - gof-ch33-004
   - ootp-ch02-006
+  - ootp-ch03-006
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -12753,6 +12890,8 @@ by_tag:
   - gof-ch08-003
   purple-fire:
   - ps-ch16-007
+  put-outer:
+  - ootp-ch03-006
   quaffle:
   - cos-ch07-001
   quick-quotes-quill:
@@ -13134,6 +13273,8 @@ by_tag:
   - gof-ch20-003
   secret-entrance:
   - gof-ch21-002
+  secret-headquarters:
+  - ootp-ch03-006
   secret-passages:
   - poa-ch05-002
   - poa-ch09-001
@@ -13465,6 +13606,8 @@ by_tag:
   - ootp-ch02-004
   statute-of-secrecy-context:
   - ps-ch14-002
+  stealth:
+  - ootp-ch03-004
   stealth-entry:
   - poa-ch09-001
   stone-gargoyle:
@@ -13611,6 +13754,7 @@ by_tag:
   - gof-ch31-003
   - gof-ch31-006
   - ootp-ch02-006
+  - ootp-ch03-005
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -14026,6 +14170,7 @@ by_tag:
   veritaserum:
   - gof-ch27-004
   - gof-ch35-007
+  - ootp-ch03-001
   viktor-krum:
   - gof-ch16-007
   - gof-ch35-004

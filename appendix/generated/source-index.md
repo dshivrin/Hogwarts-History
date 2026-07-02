@@ -102,3 +102,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch37`: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, pages 1545-1560, 7 entries, 0 explicit references.
 - `ootp-ch01`: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, pages 1570-1587, 5 entries, 0 explicit references.
 - `ootp-ch02`: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, pages 1588-1608, 6 entries, 0 explicit references.
+- `ootp-ch03`: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, pages 1609-1625, 6 entries, 0 explicit references.

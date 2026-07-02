@@ -441,3 +441,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Protective Magic and Security
 
 - Which later source explains Dumbledore's "Remember my last" Howler to Petunia and how should that explanation be cross-referenced with Harry's Privet Drive protection? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `privet-drive`, `howler`, `blood-protection`, `petunia-dursley`; related: `ootp-ch02-006`)
+- Which later passage names and explains the concealment protecting number twelve, Grimmauld Place, and how should Dumbledore's note be cross-referenced with the headquarters arrival? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `grimmauld-place`, `order-of-the-phoenix`, `secret-headquarters`, `dumbledore`; related: `ootp-ch03-006`)

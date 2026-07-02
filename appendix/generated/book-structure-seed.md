@@ -37,6 +37,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Niffler Treasure-Detection Lesson
   - Skrewt Feeding Work After Handling Risks
   - Skrewt Hibernation Experiment and Press Exposure
+- Careers After Hogwarts
+  - Auror Training and Natural Disguise Talent
 - Charms
   - First-Year Spellwork
 - Course Materials and Annual Booklists
@@ -553,6 +555,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Corporeal Patronus Intervention
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
+- Concealment and Anti-Detection Magic
+  - Disillusionment Charm in Student Extraction
 - Crisis Security During Harry's Third Year
   - Animagus Evasion of Grounds Security
 - Crisis Security and External Forces
@@ -586,6 +590,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy and Layered Protections
   - Trapdoor and Creature-Based Protection
   - Trapdoor and Plant-Based Protections
+- Headquarters, Safe Houses, and Secret-Keeping
+  - Dumbledore's Put-Outer and Grimmauld Place Arrival
 - House Common-Room Security
   - Password Lists and Portrait-Hole Breaches
 - House Entrances and Castle Security
@@ -606,7 +612,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
 - Off-Campus Protection of Students
+  - Advance Guard Retrieval From Privet Drive
   - Dumbledore's Howler and the Privet Drive Residence Requirement
+  - Identity Verification After Impersonation
   - Little Whinging Watch and Guard Failure
   - Squib Observers and Duty Rotas at Little Whinging
 - Staff Expertise and Magical Surveillance
@@ -755,6 +763,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Offices, Awards, and Records
   - Trophy Room Records and Head Boy Lists
 - Wizarding Transport and Secrecy
+  - Covert Broom Transport Under Surveillance
   - Floo Network Regulation and Muggle Fireplaces
 
 ## Rules, Discipline, and Student Conduct

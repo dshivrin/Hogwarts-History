@@ -1,0 +1,297 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Two anchor; extracted only PDF pages 1609-1625 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-02'
+  processor_notes: >-
+    Processed only Book 5, Chapter Three. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and institutional evidence. No explicit Hogwarts: A History title reference was
+    found. Entries focus on the Advance Guard's off-campus retrieval, identity
+    verification after Moody's impersonation, transport restrictions and covert broom
+    flight, Tonks's Auror and Metamorphmagus evidence, operational concealment by
+    Disillusionment Charm, and Dumbledore-linked concealment around Grimmauld Place.
+    Quote excerpts were kept under 25 words per entry.
+
+entries:
+- id: ootp-ch03-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  pdf_page: 1614
+  printed_page: null
+  extracted_text_lines: 183-194
+  text_anchor:
+    start_phrase: Mad-Eye Moody, who had long grizzled gray hair
+    end_phrase: That's him, Mad-Eye
+    local_occurrence_note: Moody questions whether the person upstairs is really Harry after the previous year's impostor incident, and Lupin verifies him by asking the form of his Patronus.
+  nearby_context: Harry is wary because the person he knew as Moody for nine months was an impostor; Moody considers a private knowledge challenge or Veritaserum before Lupin uses Patronus form as a verification question.
+  match_terms:
+  - Mad-Eye Moody
+  - impersonating
+  - Veritaserum
+  - Patronus
+  - stag
+  - Lupin
+  quote_excerpt_short: "what form does your Patronus take?"
+  source_note: The retrieval party treats impersonation as an active security risk and uses Harry's Patronus form as a rapid identity check before moving him.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - order-guard
+  - identity-verification
+  - patronus
+  - impersonation
+  - veritaserum
+  - mad-eye-moody
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Off-Campus Protection of Students
+  candidate_section: Identity Verification After Impersonation
+  reason_for_placement: The scene shows post-Triwizard security practice adapting to the known risk of magical impersonation and using personal magical evidence during a student extraction.
+  relevance_to_hogwarts_a_history: A later edition can cite this as Second War evidence that student protection protocols incorporated anti-impersonation checks tied to Hogwarts-learned defensive magic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-005
+    - ootp-ch02-005
+    - gof-ch35-007
+    notes: ootp-ch01-005 and ootp-ch02-005 record Harry's Patronus use and explanation, while gof-ch35-007 records Veritaserum in a post-Triwizard interrogation; this entry adds Patronus form as an identity-verification question after Moody's impersonation.
+  confidence: high
+  limitations: The method is informal and situational; the passage does not state an Order-wide authentication protocol.
+
+- id: ootp-ch03-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  pdf_page: 1615
+  printed_page: null
+  extracted_text_lines: 210-230; 246-264
+  text_anchor:
+    start_phrase: Four weeks with nothing
+    end_phrase: We're your guard, Potter
+    local_occurrence_note: The Advance Guard appears after Tonks lures the Dursleys away, Lupin says the Burrow is too risky, and Moody identifies the group as Harry's guard.
+  nearby_context: Harry has had no removal plan for weeks, Tonks uses a Muggle-post deception to clear the house, Lupin says headquarters is undetectable, and multiple named Order members volunteer for the retrieval.
+  match_terms:
+  - Advance Guard
+  - Privet Drive
+  - Burrow
+  - undetectable
+  - headquarters
+  - guard
+  quote_excerpt_short: "We're your guard, Potter"
+  source_note: The chapter moves Harry's off-campus protection from observation to active extraction by a named multi-person guard, using deception and an undetectable headquarters instead of the Burrow.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - privet-drive
+  - order-guard
+  - off-campus-security
+  - headquarters
+  - grimmauld-place
+  - operational-secrecy
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Off-Campus Protection of Students
+  candidate_section: Advance Guard Retrieval From Privet Drive
+  reason_for_placement: The scene documents the practical logistics of removing a Hogwarts student from a protected Muggle residence during a Second War security crisis.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that Harry-era student safety extended beyond ordinary school oversight into covert extra-school guard operations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-002
+    - ootp-ch02-001
+    - ootp-ch02-006
+    notes: Earlier OotP entries record the Little Whinging watch, Figg's Squib role, and the Privet Drive residence requirement; this entry adds the active retrieval party, headquarters destination, and explicit guard role.
+  confidence: high
+  limitations: The passage does not yet name the Order of the Phoenix as an organization or explain the full authority for moving Harry.
+
+- id: ootp-ch03-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  pdf_page: 1617
+  printed_page: null
+  extracted_text_lines: 291-300; 429-445; 448-464
+  text_anchor:
+    start_phrase: How're we getting
+    end_phrase: there's a Muggle looking up
+    local_occurrence_note: Lupin explains why the guard must use brooms, then Moody describes close formation, rear guard fallback, and evasive flight around Muggle observation.
+  nearby_context: Harry is too young to Apparate, the Floo Network is being watched, an unauthorized Portkey is too dangerous, and the guard uses signals, close formation, circling cover, and route changes.
+  match_terms:
+  - brooms
+  - Apparate
+  - Floo Network
+  - unauthorized Portkey
+  - close formation
+  - Muggle looking up
+  quote_excerpt_short: "Brooms. Only way."
+  source_note: The chapter explains why broom flight becomes the safest covert transport option when Apparition, Floo, and Portkeys are unavailable or dangerous for an underage student extraction.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - magical-transportation
+  - broom-flight
+  - apparition
+  - floo-network
+  - portkeys
+  - muggle-secrecy
+  - order-guard
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Wizarding Transport and Secrecy
+  candidate_section: Covert Broom Transport Under Surveillance
+  reason_for_placement: The passage ties transport law, monitored networks, underage limits, and Muggle secrecy into a single operational decision during a student movement.
+  relevance_to_hogwarts_a_history: A later edition can contrast ordinary school travel with emergency wartime movement of a Hogwarts student outside Ministry-sanctioned routes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch04-004
+    - gof-ch06-001
+    - gof-ch31-007
+    notes: gof-ch04-004 records regulated Floo access, gof-ch06-001 records Apparition licensing, and gof-ch31-007 records Portkey breach risk; this entry combines those transport constraints in a covert guard operation.
+  confidence: high
+  limitations: The explanation is operational rather than a formal Ministry policy statement, and it does not identify who is watching the Floo Network.
+
+- id: ootp-ch03-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  pdf_page: 1619
+  printed_page: null
+  extracted_text_lines: 334-357
+  text_anchor:
+    start_phrase: I'm a Metamorphmagus
+    end_phrase: use a wand or potions to change their appearance
+    local_occurrence_note: Tonks explains her natural ability, links it to Auror training marks, and distinguishes born Metamorphmagi from ordinary transformation methods.
+  nearby_context: Tonks changes her hair color at will, says she earned top marks in Concealment and Disguise during Auror training without study, and identifies Kingsley as a senior Auror.
+  match_terms:
+  - Metamorphmagus
+  - appearance
+  - Auror training
+  - Concealment and Disguise
+  - Stealth and Tracking
+  - Dark wizard catcher
+  quote_excerpt_short: "I was born one."
+  source_note: Tonks supplies rare evidence for Metamorphmagi as born, not trained, and links her ability to Auror training in Concealment, Disguise, Stealth, and Tracking after Hogwarts.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - auror
+  - metamorphmagus
+  - concealment
+  - disguise
+  - stealth
+  - magical-careers
+  - post-hogwarts-training
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Careers After Hogwarts
+  candidate_section: Auror Training and Natural Disguise Talent
+  reason_for_placement: The scene connects a post-Hogwarts magical career path to specialized training areas and clarifies that one major disguise ability is innate rather than a school-taught skill.
+  relevance_to_hogwarts_a_history: A later edition can use this as career-context evidence for students considering Auror work and for distinguishing Hogwarts education from later professional training.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup surfaced Moody's Auror background in tournament security, but no prior entry on Tonks, Metamorphmagi, or Auror training subjects.
+  confidence: high
+  limitations: Tonks gives informal career evidence rather than a full Auror curriculum or Hogwarts prerequisite list.
+
+- id: ootp-ch03-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  pdf_page: 1621
+  printed_page: null
+  extracted_text_lines: 413-426; 429-440
+  text_anchor:
+    start_phrase: I need to Disillusion you
+    end_phrase: keep flying east and they'll join you
+    local_occurrence_note: Moody uses a Disillusionment Charm instead of Harry's Invisibility Cloak for the flight, then gives close-formation and rear-guard instructions.
+  nearby_context: Lupin knows Harry has an Invisibility Cloak, but Moody says it will not stay on during flight; after the charm, Harry's body takes on the color and texture of the kitchen unit behind him.
+  match_terms:
+  - Disillusionment Charm
+  - Invisibility Cloak
+  - disguise
+  - human chameleon
+  - close formation
+  - rear guard
+  quote_excerpt_short: "this'll disguise you better"
+  source_note: The chapter records the Disillusionment Charm as a practical concealment measure for aerial travel when an Invisibility Cloak is unsuitable.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - disillusionment-charm
+  - invisibility-cloak
+  - concealment
+  - broom-flight
+  - order-guard
+  - student-safety
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Concealment and Anti-Detection Magic
+  candidate_section: Disillusionment Charm in Student Extraction
+  reason_for_placement: The scene gives concrete field evidence for a defensive charm's use and distinguishes it from cloak-based invisibility under travel conditions.
+  relevance_to_hogwarts_a_history: A later edition can cite this as Harry-era operational evidence for protective concealment magic applied to a Hogwarts student outside school grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch19-003
+    - poa-ch14-004
+    notes: poa-ch14-004 records cloak-assisted evasion and gof-ch19-003 records Moody's eye defeating an Invisibility Cloak; this entry adds the Disillusionment Charm as a better fit for broom-flight concealment.
+  confidence: high
+  limitations: The charm is demonstrated by an adult Auror-level guard; the chapter does not state whether Hogwarts students learn it formally.
+
+- id: ootp-ch03-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Three - The Advance Guard
+  chapter_start_pdf_page: 1609
+  chapter_end_pdf_page: 1625
+  pdf_page: 1625
+  printed_page: null
+  extracted_text_lines: 528-554
+  text_anchor:
+    start_phrase: Got it
+    end_phrase: twelve, Grimmauld Place, London
+    local_occurrence_note: Moody extinguishes the square's streetlamps with Dumbledore's Put-Outer and gives Harry a handwritten note identifying Order headquarters.
+  nearby_context: The guard lands in a Muggle London square, uses Dumbledore's borrowed device to prevent Muggles from seeing them, and requires Harry to read and memorize the headquarters location.
+  match_terms:
+  - Dumbledore
+  - Put-Outer
+  - Muggles
+  - Order of the Phoenix
+  - headquarters
+  - Grimmauld Place
+  quote_excerpt_short: "Borrowed it from Dumbledore"
+  source_note: The chapter links Dumbledore's Put-Outer to Muggle concealment at the hidden Order headquarters and introduces the written location of number twelve, Grimmauld Place.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - put-outer
+  - grimmauld-place
+  - order-of-the-phoenix
+  - muggle-concealment
+  - secret-headquarters
+  - protective-magic
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Headquarters, Safe Houses, and Secret-Keeping
+  candidate_section: Dumbledore's Put-Outer and Grimmauld Place Arrival
+  reason_for_placement: The scene combines magical concealment of a Muggle street with controlled disclosure of a hidden headquarters address.
+  relevance_to_hogwarts_a_history: A later edition can treat this as Second War evidence for Dumbledore-linked protective tools and secret-headquarters logistics affecting Hogwarts-connected witnesses.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup surfaced many general Dumbledore entries but no prior Put-Outer, Grimmauld Place, or headquarters concealment entry.
+  confidence: medium
+  limitations: The passage does not yet name the concealment charm protecting Grimmauld Place or explain the legal and magical status of the headquarters.

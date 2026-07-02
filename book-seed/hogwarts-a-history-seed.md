@@ -2016,6 +2016,19 @@ Summary: The available evidence includes 1 source item, led by: A Care of Magica
   - Corroborates: `gof-ch13-003`, `gof-ch18-003`. gof-ch13-003 introduces the Skrewt project, and gof-ch18-003 records larger Skrewt handling; this entry adds failed hibernation testing, student injuries, Rita Skeeter's school-access issue, and concern over possible illegal origin.
   - Notes: The chapter raises but does not answer whether Hagrid imported or bred the Skrewts legally.
 
+### Chapter: Careers After Hogwarts
+
+#### Section: Auror Training and Natural Disguise Talent
+
+Summary: The available evidence includes 1 source item, led by: Tonks supplies rare evidence for Metamorphmagi as born, not trained, and links her ability to Auror training in Concealment, Disguise, Stealth, and Tracking after Hogwarts.
+
+- **Context:** Tonks supplies rare evidence for Metamorphmagi as born, not trained, and links her ability to Auror training in Concealment, Disguise, Stealth, and Tracking after Hogwarts.
+  - Quote: "I was born one."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, PDF p. 1619, `ootp-ch03-004`, `sources/book-05/chapter-03-the-advance-guard.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Tonks gives informal career evidence rather than a full Auror curriculum or Hogwarts prerequisite list.
+
 ### Chapter: Charms
 
 #### Section: First-Year Spellwork
@@ -3248,6 +3261,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter iden
 
 ### Chapter: Wizarding Transport and Secrecy
 
+#### Section: Covert Broom Transport Under Surveillance
+
+Summary: The available evidence includes 1 source item, led by: The chapter explains why broom flight becomes the safest covert transport option when Apparition, Floo, and Portkeys are unavailable or dangerous for an underage student extraction.
+
+- **Corroboration:** The chapter explains why broom flight becomes the safest covert transport option when Apparition, Floo, and Portkeys are unavailable or dangerous for an underage student extraction.
+  - Quote: "Brooms. Only way."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, PDF p. 1617, `ootp-ch03-003`, `sources/book-05/chapter-03-the-advance-guard.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch04-004`, `gof-ch06-001`, `gof-ch31-007`. gof-ch04-004 records regulated Floo access, gof-ch06-001 records Apparition licensing, and gof-ch31-007 records Portkey breach risk; this entry combines those transport constraints in a covert guard operation.
+  - Notes: The explanation is operational rather than a formal Ministry policy statement, and it does not identify who is watching the Floo Network.
+
 #### Section: Floo Network Regulation and Muggle Fireplaces
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives concrete evidence for regulated Floo Network access, including temporary connection of a Muggle fireplace, a Floo Regulation Panel contact, green-flame powder use, named destinations, and post-use repair.
@@ -3713,6 +3738,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter obse
   - Corroborates: `poa-ch12-002`. Book 3 Chapter Twelve indexes Patronus theory and Harry's indistinct practice; this entry adds an observed full-strength animal-shaped intervention against a mass of dementors.
   - Notes: The chapter does not yet identify the caster, animal form, or time-travel context behind the intervention.
 
+### Chapter: Concealment and Anti-Detection Magic
+
+#### Section: Disillusionment Charm in Student Extraction
+
+Summary: The available evidence includes 1 source item, led by: The chapter records the Disillusionment Charm as a practical concealment measure for aerial travel when an Invisibility Cloak is unsuitable.
+
+- **Corroboration:** The chapter records the Disillusionment Charm as a practical concealment measure for aerial travel when an Invisibility Cloak is unsuitable.
+  - Quote: "this'll disguise you better"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, PDF p. 1621, `ootp-ch03-005`, `sources/book-05/chapter-03-the-advance-guard.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch19-003`, `poa-ch14-004`. poa-ch14-004 records cloak-assisted evasion and gof-ch19-003 records Moody's eye defeating an Invisibility Cloak; this entry adds the Disillusionment Charm as a better fit for broom-flight concealment.
+  - Notes: The charm is demonstrated by an adult Auror-level guard; the chapter does not state whether Hogwarts students learn it formally.
+
 ### Chapter: Crisis Security During Harry's Third Year
 
 #### Section: Animagus Evasion of Grounds Security
@@ -3935,6 +3974,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: security_or_protection
   - Notes: The deployment is specific to the Sirius Black crisis and should not be treated as a standing Hogwarts security arrangement.
 
+### Chapter: Headquarters, Safe Houses, and Secret-Keeping
+
+#### Section: Dumbledore's Put-Outer and Grimmauld Place Arrival
+
+Summary: The available evidence includes 1 source item, led by: The chapter links Dumbledore's Put-Outer to Muggle concealment at the hidden Order headquarters and introduces the written location of number twelve, Grimmauld Place.
+
+- **Context:** The chapter links Dumbledore's Put-Outer to Muggle concealment at the hidden Order headquarters and introduces the written location of number twelve, Grimmauld Place.
+  - Quote: "Borrowed it from Dumbledore"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, PDF p. 1625, `ootp-ch03-006`, `sources/book-05/chapter-03-the-advance-guard.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The passage does not yet name the concealment charm protecting Grimmauld Place or explain the legal and magical status of the headquarters.
+
 ### Chapter: House Common-Room Security
 
 #### Section: Password Lists and Portrait-Hole Breaches
@@ -4098,6 +4150,18 @@ Summary: The available evidence includes 1 source item, led by: The scene restat
 
 ### Chapter: Off-Campus Protection of Students
 
+#### Section: Advance Guard Retrieval From Privet Drive
+
+Summary: The available evidence includes 1 source item, led by: The chapter moves Harry's off-campus protection from observation to active extraction by a named multi-person guard, using deception and an undetectable headquarters instead of the Burrow.
+
+- **Corroboration:** The chapter moves Harry's off-campus protection from observation to active extraction by a named multi-person guard, using deception and an undetectable headquarters instead of the Burrow.
+  - Quote: "We're your guard, Potter"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, PDF p. 1615, `ootp-ch03-002`, `sources/book-05/chapter-03-the-advance-guard.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch01-002`, `ootp-ch02-001`, `ootp-ch02-006`. Earlier OotP entries record the Little Whinging watch, Figg's Squib role, and the Privet Drive residence requirement; this entry adds the active retrieval party, headquarters destination, and explicit guard role.
+  - Notes: The passage does not yet name the Order of the Phoenix as an organization or explain the full authority for moving Harry.
+
 #### Section: Dumbledore's Howler and the Privet Drive Residence Requirement
 
 Summary: The available evidence includes 1 source item, led by: A targeted Howler to Petunia enforces an earlier protective warning and immediately reverses Vernon's attempt to expel Harry from Privet Drive.
@@ -4109,6 +4173,18 @@ Summary: The available evidence includes 1 source item, led by: A targeted Howle
   - Reference type: security_or_protection
   - Corroborates: `gof-ch33-004`. gof-ch33-004 records Voldemort's account of Harry's layered protection, including ancient household magic and Dumbledore's arrangements; this entry adds the Howler that keeps the Dursley household protection in force.
   - Notes: The Howler's sender is not named in this passage, and the content of the earlier warning is summarized only as "my last."
+
+#### Section: Identity Verification After Impersonation
+
+Summary: The available evidence includes 1 source item, led by: The retrieval party treats impersonation as an active security risk and uses Harry's Patronus form as a rapid identity check before moving him.
+
+- **Corroboration:** The retrieval party treats impersonation as an active security risk and uses Harry's Patronus form as a rapid identity check before moving him.
+  - Quote: "what form does your Patronus take?"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, PDF p. 1614, `ootp-ch03-001`, `sources/book-05/chapter-03-the-advance-guard.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch01-005`, `ootp-ch02-005`, `gof-ch35-007`. ootp-ch01-005 and ootp-ch02-005 record Harry's Patronus use and explanation, while gof-ch35-007 records Veritaserum in a post-Triwizard interrogation; this entry adds Patronus form as an identity-verification question after Moody's impersonation.
+  - Notes: The method is informal and situational; the passage does not state an Order-wide authentication protocol.
 
 #### Section: Little Whinging Watch and Guard Failure
 

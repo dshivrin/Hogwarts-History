@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Three - The Advance Guard
-- Page range: 1609-1625
+- Chapter: Chapter Four - Number Twelve, Grimmauld Place
+- Page range: 1626-1644
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-03-the-advance-guard.yaml`
+- Output YAML: `sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml`
 
 ## Minimal Context
 

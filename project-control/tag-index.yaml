@@ -264,11 +264,13 @@ tags:
     - gof-ch09-004
     - gof-ch15-006
     - gof-ch29-001
+    - ootp-ch03-003
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -349,8 +351,10 @@ tags:
   auror:
     entries:
     - gof-ch19-006
+    - ootp-ch03-004
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   auror-experience:
     entries:
     - gof-ch13-007
@@ -720,6 +724,12 @@ tags:
     - poa-ch04-001
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  broom-flight:
+    entries:
+    - ootp-ch03-003
+    - ootp-ch03-005
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   broom-jinx:
     entries:
     - ps-ch11-006
@@ -1411,6 +1421,12 @@ tags:
     - poa-ch20-001
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  concealment:
+    entries:
+    - ootp-ch03-004
+    - ootp-ch03-005
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   confidentiality:
     entries:
     - poa-ch18-007
@@ -2119,6 +2135,16 @@ tags:
     - cos-ch08-002
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  disguise:
+    entries:
+    - ootp-ch03-004
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
+  disillusionment-charm:
+    entries:
+    - ootp-ch03-005
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   dissendium:
     entries:
     - poa-ch10-004
@@ -2316,6 +2342,7 @@ tags:
     - gof-ch37-004
     - ootp-ch02-003
     - ootp-ch02-006
+    - ootp-ch03-006
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2399,6 +2426,7 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3027,8 +3055,10 @@ tags:
   floo-network:
     entries:
     - gof-ch04-004
+    - ootp-ch03-003
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -3581,6 +3611,12 @@ tags:
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  grimmauld-place:
+    entries:
+    - ootp-ch03-002
+    - ootp-ch03-006
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   grindelwald:
     entries:
     - ps-ch06-003
@@ -4112,6 +4148,11 @@ tags:
     - cos-ch09-006
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  headquarters:
+    entries:
+    - ootp-ch03-002
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   heads-of-house:
     entries:
     - cos-ch05-005
@@ -5032,6 +5073,11 @@ tags:
     - poa-ch12-005
     output_yaml:
     - sources/book-03/chapter-12-the-patronus.yaml
+  identity-verification:
+    entries:
+    - ootp-ch03-001
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   illegal-creature:
     entries:
     - ps-ch14-004
@@ -5058,6 +5104,11 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+  impersonation:
+    entries:
+    - ootp-ch03-001
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   improper-use-of-magic-office:
     entries:
     - gof-ch05-004
@@ -5207,6 +5258,7 @@ tags:
     - gof-ch24-004
     - gof-ch25-001
     - gof-ch25-007
+    - ootp-ch03-005
     - poa-ch14-004
     - poa-ch16-006
     - poa-ch17-004
@@ -5226,6 +5278,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -5677,6 +5730,7 @@ tags:
     - gof-ch29-003
     - gof-ch34-002
     - gof-ch37-003
+    - ootp-ch03-001
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
@@ -5689,6 +5743,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -5810,6 +5865,11 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  magical-careers:
+    entries:
+    - ootp-ch03-004
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   magical-community:
     entries:
     - ps-ch02-006
@@ -6084,11 +6144,13 @@ tags:
     - gof-ch10-002
     - gof-ch15-006
     - gof-ch15-007
+    - ootp-ch03-003
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   magical-tree:
     entries:
     - cos-ch05-003
@@ -6318,6 +6380,11 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  metamorphmagus:
+    entries:
+    - ootp-ch03-004
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   minister-of-magic:
     entries:
     - cos-ch04-005
@@ -6638,6 +6705,11 @@ tags:
     - gof-ch07-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  muggle-concealment:
+    entries:
+    - ootp-ch03-006
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   muggle-family:
     entries:
     - ootp-ch01-003
@@ -6709,6 +6781,7 @@ tags:
     - gof-ch11-002
     - gof-ch11-005
     - gof-ch13-005
+    - ootp-ch03-003
     - poa-ch02-002
     - poa-ch03-002
     - ps-ch01-001
@@ -6734,6 +6807,7 @@ tags:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -6940,9 +7014,11 @@ tags:
     - ootp-ch01-002
     - ootp-ch01-004
     - ootp-ch02-001
+    - ootp-ch03-002
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   off-campus-transport:
     entries:
     - gof-ch32-001
@@ -7016,15 +7092,22 @@ tags:
   operational-secrecy:
     entries:
     - ootp-ch01-001
+    - ootp-ch03-002
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   order-guard:
     entries:
     - ootp-ch01-002
     - ootp-ch02-001
+    - ootp-ch03-001
+    - ootp-ch03-002
+    - ootp-ch03-003
+    - ootp-ch03-005
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   order-network:
     entries:
     - gof-ch36-006
@@ -7040,6 +7123,11 @@ tags:
     - cos-ch14-006
     output_yaml:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
+  order-of-the-phoenix:
+    entries:
+    - ootp-ch03-006
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   ordinary-wizarding-level:
     entries:
     - poa-ch12-002
@@ -7244,11 +7332,13 @@ tags:
     - ootp-ch01-005
     - ootp-ch02-002
     - ootp-ch02-005
+    - ootp-ch03-001
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   patronus-charm:
     entries:
     - poa-ch12-002
@@ -7519,10 +7609,12 @@ tags:
     - gof-ch06-002
     - gof-ch07-006
     - gof-ch10-002
+    - ootp-ch03-003
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   portrait-guardians:
     entries:
     - poa-ch09-003
@@ -7577,6 +7669,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+  post-hogwarts-training:
+    entries:
+    - ootp-ch03-004
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   post-riot-cleanup:
     entries:
     - gof-ch10-001
@@ -7768,6 +7865,7 @@ tags:
     - ootp-ch01-003
     - ootp-ch02-001
     - ootp-ch02-006
+    - ootp-ch03-002
     - poa-ch01-002
     - poa-ch02-002
     - poa-ch02-003
@@ -7779,6 +7877,7 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   procession:
     entries:
     - gof-ch23-002
@@ -7993,9 +8092,11 @@ tags:
     entries:
     - gof-ch33-004
     - ootp-ch02-006
+    - ootp-ch03-006
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   public-accountability:
     entries:
     - gof-ch24-002
@@ -8053,6 +8154,11 @@ tags:
     - ps-ch16-007
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  put-outer:
+    entries:
+    - ootp-ch03-006
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   quaffle:
     entries:
     - cos-ch07-001
@@ -8894,6 +9000,11 @@ tags:
     - gof-ch21-002
     output_yaml:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+  secret-headquarters:
+    entries:
+    - ootp-ch03-006
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   secret-passages:
     entries:
     - poa-ch05-002
@@ -9640,6 +9751,11 @@ tags:
     - ps-ch14-002
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  stealth:
+    entries:
+    - ootp-ch03-004
+    output_yaml:
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   stealth-entry:
     entries:
     - poa-ch09-001
@@ -9957,6 +10073,7 @@ tags:
     - gof-ch31-003
     - gof-ch31-006
     - ootp-ch02-006
+    - ootp-ch03-005
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -9981,6 +10098,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   student-spectators:
     entries:
     - gof-ch31-002
@@ -10878,9 +10996,11 @@ tags:
     entries:
     - gof-ch27-004
     - gof-ch35-007
+    - ootp-ch03-001
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/book-05/chapter-03-the-advance-guard.yaml
   viktor-krum:
     entries:
     - gof-ch16-007
