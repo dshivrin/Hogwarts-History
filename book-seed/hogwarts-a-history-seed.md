@@ -3058,6 +3058,46 @@ Summary: The available evidence includes 1 source item, led by: The chapter supp
   - Reference type: cross_reference_candidate
   - Notes: The passage is a campsite identification list and does not describe each office's formal jurisdiction or relationship to Hogwarts.
 
+### Chapter: Ministry Offices Affecting Hogwarts
+
+#### Section: Departmental Structure and Internal Infrastructure
+
+Summary: The available evidence includes 1 source item, led by: The chapter maps a Ministry cross-section through lift announcements, naming major departments and showing internal magical infrastructure such as memo airplanes and weather-controlled windows.
+
+- **Corroboration:** The chapter maps a Ministry cross-section through lift announcements, naming major departments and showing internal magical infrastructure such as memo airplanes and weather-controlled windows.
+  - Quote: "Wizengamot Administration Services"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1693, `ootp-ch07-004`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `gof-ch27-007`, `ootp-ch05-007`. gof-ch27-007 and ootp-ch05-007 mention Magical Law Enforcement, Wizengamot, and Ministry political offices in narrower contexts; this entry adds an observed departmental directory plus memo and window infrastructure.
+  - Notes: The lift announcement is a snapshot and does not describe all Ministry departments or their full authority.
+
+### Chapter: Ministry Offices Affecting Muggle Relations
+
+#### Section: Misused Artifacts and Anti-Muggle Pranks
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows the Misuse of Muggle Artifacts Office handling enchanted Muggle-object incidents and routing lower-level anti-Muggle magical harassment to the Law Enforcement Patrol rather than Aurors.
+
+- **Context:** The chapter shows the Misuse of Muggle Artifacts Office handling enchanted Muggle-object incidents and routing lower-level anti-Muggle magical harassment to the Law Enforcement Patrol rather than Aurors.
+  - Quote: "Anti-Muggle pranksters"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1696, `ootp-ch07-006`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The scene is limited to Arthur's office and does not give formal statutes, penalties, or staffing levels.
+
+### Chapter: Ministry Oversight and Student Hearings
+
+#### Section: Visitor Entry, Search, and Wand Registration
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives a step-by-step description of Ministry visitor entry: disguised public access, stated business, visitor badge, physical search, and wand registration.
+
+- **Context:** The chapter gives a step-by-step description of Ministry visitor entry: disguised public access, stated business, visitor badge, physical search, and wand registration.
+  - Quote: "present your wand for registration"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1690, `ootp-ch07-002`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage describes visitor procedure on one morning and does not establish whether security was heightened because of Harry's case.
+
 ### Chapter: Ministry Pressure and Public Records
 
 #### Section: Fudge, the Prophet, and Dumbledore's Allies
@@ -3198,6 +3238,30 @@ Summary: The available evidence includes 2 source items, led by: The chapter nam
   - Notes: The scene is an exceptional crisis, not a formal account of Hogwarts accommodation policy or medical supervision.
 
 ### Chapter: Student Conduct Beyond School
+
+#### Section: Emergency Exception and Ministry Hearing Procedure
+
+Summary: The available evidence includes 1 source item, led by: The chapter identifies the expected hearing official and records an adult legal interpretation that underage wizards may use magic in life-threatening emergencies.
+
+- **Corroboration:** The chapter identifies the expected hearing official and records an adult legal interpretation that underage wizards may use magic in life-threatening emergencies.
+  - Quote: "allowed to use magic in life-threatening situations"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1687, `ootp-ch07-001`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch02-002`, `ootp-ch02-003`. ootp-ch02-002 and ootp-ch02-003 record the formal expulsion, wand-sanction, suspension, and hearing notices; this entry adds the pre-hearing official named by Arthur and Lupin's emergency-law interpretation.
+  - Notes: Lupin is advising Harry rather than quoting the statute, and the expected Amelia Bones office venue is changed later in the chapter.
+
+#### Section: Hearing Venue Changed to Old Courtroom Ten
+
+Summary: The available evidence includes 1 source item, led by: The chapter records an abrupt Ministry hearing change from Amelia Bones's office to old Courtroom Ten, a lower, rarely used judicial space where Harry's escort is barred.
+
+- **Corroboration:** The chapter records an abrupt Ministry hearing change from Amelia Bones's office to old Courtroom Ten, a lower, rarely used judicial space where Harry's escort is barred.
+  - Quote: "old Courtroom Ten"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1699, `ootp-ch07-007`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch02-002`, `ootp-ch02-003`. ootp-ch02-002 and ootp-ch02-003 establish the hearing notice and suspension context; this entry adds the last-minute time and venue change, old Courtroom Ten, and escort exclusion.
+  - Notes: The actual hearing proceedings occur in the next chapter, so this entry should be paired with Chapter Eight evidence.
 
 #### Section: Official Underage-Magic Expulsion and Wand Sanctions
 
@@ -7476,6 +7540,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `ootp-ch04-003`. ootp-ch04-003 introduces Kreacher and Black-family house-elf evidence; this entry adds direct-order obedience, the reason he cannot be freed, and his knowledge of Order activity.
   - Notes: Sirius and Hermione interpret Kreacher differently, and the passage does not state the full magical law governing house-elf secrecy or manumission.
 
+### Chapter: Ministry Public Ideology and Non-Human Beings
+
+#### Section: The Fountain of Magical Brethren
+
+Summary: The available evidence includes 1 source item, led by: The chapter records the Ministry Atrium's architectural display, commuter fireplaces, public charity collection, and official statue group representing wizard-centered relations with centaurs, goblins, and house-elves.
+
+- **Context:** The chapter records the Ministry Atrium's architectural display, commuter fireplaces, public charity collection, and official statue group representing wizard-centered relations with centaurs, goblins, and house-elves.
+  - Quote: "Fountain of Magical Brethren"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1690, `ootp-ch07-003`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: Harry observes the display without historical explanation of when the Atrium or fountain was built.
+
 ### Chapter: Pure-Blood Families and Genealogical Memory
 
 #### Section: Interrelated Pure-Blood Families and Marriage Exclusions
@@ -7710,6 +7787,20 @@ Summary: The available evidence includes 1 source item, led by: The lesson ident
   - Reference type: historical_claim
   - Corroborates: `gof-ch02-001`. gof-ch02-001 covers Harry's scar as a continuing trace of Voldemort's curse; this entry supplies the named curse and survival context.
   - Notes: Harry's recollection is mediated through prior dementor memories and classroom trauma rather than a documentary source.
+
+### Chapter: Ministry Investigations and Order Secrecy
+
+#### Section: Auror Headquarters and the Sirius Black File
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Auror Headquarters as an investigative workspace and documents Kingsley's covert Order role inside the official Sirius Black hunt.
+
+- **Corroboration:** The chapter shows Auror Headquarters as an investigative workspace and documents Kingsley's covert Order role inside the official Sirius Black hunt.
+  - Quote: "Sirius's face was blinking down at him"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, PDF p. 1695, `ootp-ch07-005`, `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch05-007`. ootp-ch05-007 already records Order infiltration of Ministry offices and Kingsley's misdirection of the Sirius search; this entry adds the observed Auror Headquarters setting and the cover exchange around Sirius's file.
+  - Notes: The passage does not disclose Kingsley's full investigative record or the exact information he has falsified.
 
 ### Chapter: Ministry Wartime Powers and Postwar Memory
 

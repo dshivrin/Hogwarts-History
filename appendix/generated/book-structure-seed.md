@@ -564,6 +564,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Goblin Neutrality and Recruitment Pressures
 - House-Elves, Service, and Wizarding Households
   - Kreacher, Family Loyalty, and Headquarters Secrecy
+- Ministry Public Ideology and Non-Human Beings
+  - The Fountain of Magical Brethren
 - Pure-Blood Families and Genealogical Memory
   - Interrelated Pure-Blood Families and Marriage Exclusions
   - The Black Family Tapestry and Disowned Relatives
@@ -769,6 +771,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Apparition Licensing and Risks
 - Ministry Interfaces with Hogwarts
   - Specialist Offices and External Governance Context
+- Ministry Offices Affecting Hogwarts
+  - Departmental Structure and Internal Infrastructure
+- Ministry Offices Affecting Muggle Relations
+  - Misused Artifacts and Anti-Muggle Pranks
+- Ministry Oversight and Student Hearings
+  - Visitor Entry, Search, and Wand Registration
 - Ministry Pressure and Public Records
   - Fudge, the Prophet, and Dumbledore's Allies
   - Press Suppression, Ministry Spies, and Dumbledore's Offices
@@ -786,6 +794,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
 - Student Conduct Beyond School
+  - Emergency Exception and Ministry Hearing Procedure
+  - Hearing Venue Changed to Old Courtroom Ten
   - Official Underage-Magic Expulsion and Wand Sanctions
   - Underage Magic and Hogwarts Expulsion Risk
   - Underage Magic and Muggle Household Leverage
@@ -916,6 +926,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Longbottom torture trial and Crouch family scandal
 - Harry Potter and the End of the First Wizarding War
   - Killing Curse survival and Potter-family testimony
+- Ministry Investigations and Order Secrecy
+  - Auror Headquarters and the Sirius Black File
 - Ministry Wartime Powers and Postwar Memory
   - Barty Crouch's Law-Enforcement Record
 - The First Wizarding War in Later Hogwarts Teaching

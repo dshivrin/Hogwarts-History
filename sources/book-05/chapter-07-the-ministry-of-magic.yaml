@@ -1,0 +1,343 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Six anchor; extracted only PDF pages 1685-1699 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-02'
+  processor_notes: >-
+    Processed only Book 5, Chapter Seven. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and Ministry-governance evidence relevant to Hogwarts discipline, external
+    oversight, and wizarding public institutions. No explicit Hogwarts: A History
+    title reference was found. Entries focus on underage-magic hearing procedure,
+    Ministry visitor access and wand registration, Atrium architecture and public
+    ideology, departmental structure and internal infrastructure, Auror
+    Headquarters and Order secrecy, anti-Muggle artifact enforcement, and the
+    moved hearing in old Courtroom Ten. Quote excerpts were kept under 25 words
+    per entry.
+
+entries:
+- id: ootp-ch07-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1687
+  printed_page: null
+  extracted_text_lines: 61-74
+  text_anchor:
+    start_phrase: The hearing's on my floor
+    end_phrase: life-threatening situations
+    local_occurrence_note: Mr. Weasley names Amelia Bones and the Department of Magical Law Enforcement before Lupin states the emergency exception to the underage-magic rule.
+  nearby_context: Harry is leaving for the Ministry hearing while Order adults advise him to stay factual, polite, and calm.
+  match_terms:
+  - Amelia Bones
+  - Department of Magical Law Enforcement
+  - hearing
+  - underage wizards
+  - life-threatening situations
+  - law
+  quote_excerpt_short: "allowed to use magic in life-threatening situations"
+  source_note: The chapter identifies the expected hearing official and records an adult legal interpretation that underage wizards may use magic in life-threatening emergencies.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - underage-magic
+  - disciplinary-hearing
+  - amelia-bones
+  - magical-law-enforcement
+  - emergency-magic
+  - student-discipline
+  - ministry-of-magic
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Emergency Exception and Ministry Hearing Procedure
+  reason_for_placement: The passage supplies the legal frame around a student's off-campus spell and ties Hogwarts status to Ministry disciplinary procedure.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how Ministry law governed student conduct beyond the school grounds, including emergency exceptions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch02-002
+    - ootp-ch02-003
+    notes: ootp-ch02-002 and ootp-ch02-003 record the formal expulsion, wand-sanction, suspension, and hearing notices; this entry adds the pre-hearing official named by Arthur and Lupin's emergency-law interpretation.
+  confidence: high
+  limitations: Lupin is advising Harry rather than quoting the statute, and the expected Amelia Bones office venue is changed later in the chapter.
+
+- id: ootp-ch07-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1690
+  printed_page: null
+  extracted_text_lines: 126-166; 216-238
+  text_anchor:
+    start_phrase: As a matter of fact I've never even used the visitor's entrance before
+    end_phrase: You get this back
+    local_occurrence_note: Arthur brings Harry through the visitor telephone-box entrance, where Harry receives a badge, is searched, and has his wand registered at security.
+  nearby_context: Arthur chooses a non-magical commute because Harry is being disciplined for outside-school magic, then enters the Ministry through a shabby Muggle-facing telephone box.
+  match_terms:
+  - visitor's entrance
+  - telephone box
+  - disciplinary hearing
+  - security desk
+  - wand registration
+  - Atrium
+  quote_excerpt_short: "present your wand for registration"
+  source_note: "The chapter gives a step-by-step description of Ministry visitor entry: disguised public access, stated business, visitor badge, physical search, and wand registration."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - visitor-entrance
+  - wand-registration
+  - security
+  - telephone-box
+  - atrium
+  - disciplinary-hearing
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Oversight and Student Hearings
+  candidate_section: Visitor Entry, Search, and Wand Registration
+  reason_for_placement: The process shows how a Hogwarts student entering the Ministry for discipline is treated as a controlled visitor with traceable wand credentials.
+  relevance_to_hogwarts_a_history: A later edition can use this as concrete evidence of Ministry security practice when school matters reached external legal offices.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries returned only general Hogwarts security and transport evidence, not a Ministry visitor-entry or wand-registration procedure.
+  confidence: high
+  limitations: The passage describes visitor procedure on one morning and does not establish whether security was heightened because of Harry's case.
+
+- id: ootp-ch07-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1690
+  printed_page: null
+  extracted_text_lines: 175-213
+  text_anchor:
+    start_phrase: They were standing at one end of a very long and splendid hall
+    end_phrase: will be given to St. Mungo's Hospital
+    local_occurrence_note: Harry first sees the Ministry Atrium, its moving ceiling symbols, fireplaces, Fountain of Magical Brethren, and St. Mungo's donation notice.
+  nearby_context: The visitor telephone box opens into the Atrium as Ministry employees arrive by fireplace and move toward the golden gates.
+  match_terms:
+  - Atrium
+  - peacock-blue ceiling
+  - gilded fireplaces
+  - Fountain of Magical Brethren
+  - St. Mungo's Hospital
+  - goblin
+  quote_excerpt_short: "Fountain of Magical Brethren"
+  source_note: The chapter records the Ministry Atrium's architectural display, commuter fireplaces, public charity collection, and official statue group representing wizard-centered relations with centaurs, goblins, and house-elves.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - atrium
+  - fountain-magical-brethren
+  - magical-architecture
+  - st-mungos
+  - goblins
+  - house-elves
+  candidate_part: Peoples, Beings, and Magical Society
+  candidate_chapter: Ministry Public Ideology and Non-Human Beings
+  candidate_section: The Fountain of Magical Brethren
+  reason_for_placement: The public statues and charity notice provide institutional evidence for how the Ministry presented wizard relations with other magical beings.
+  relevance_to_hogwarts_a_history: A later edition can contrast Ministry public symbolism with Hogwarts evidence about centaurs, goblins, house-elves, and magical hospitals.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found earlier house-elf, goblin, centaur, and creature entries but no existing entry for the Ministry Atrium or Fountain of Magical Brethren.
+  confidence: high
+  limitations: Harry observes the display without historical explanation of when the Atrium or fountain was built.
+
+- id: ootp-ch07-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1693
+  printed_page: null
+  extracted_text_lines: 262-321
+  text_anchor:
+    start_phrase: Level seven, Department of Magical Games and Sports
+    end_phrase: Magical Maintenance decide what weather we're getting every day
+    local_occurrence_note: The Ministry lift announces departments from Games and Sports through Magical Law Enforcement, while Arthur explains memo airplanes and enchanted windows.
+  nearby_context: Harry rides the employee lift toward Arthur's floor, seeing workers, broomsticks, memos, and underground windows.
+  match_terms:
+  - Department of Magical Games and Sports
+  - Department of Magical Transport
+  - Interdepartmental memos
+  - Magical Law Enforcement
+  - Wizengamot Administration Services
+  - enchanted windows
+  quote_excerpt_short: "Wizengamot Administration Services"
+  source_note: The chapter maps a Ministry cross-section through lift announcements, naming major departments and showing internal magical infrastructure such as memo airplanes and weather-controlled windows.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - ministry-departments
+  - magical-law-enforcement
+  - wizengamot
+  - interdepartmental-memos
+  - enchanted-windows
+  - magical-maintenance
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Offices Affecting Hogwarts
+  candidate_section: Departmental Structure and Internal Infrastructure
+  reason_for_placement: The lift announcements identify the bureaucratic structure behind transport, law enforcement, creature regulation, and Wizengamot administration that affects school life.
+  relevance_to_hogwarts_a_history: A later edition can use this as a compact institutional map for Ministry offices that intersect with Hogwarts discipline, transport, creatures, and public crises.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch27-007
+    - ootp-ch05-007
+    notes: gof-ch27-007 and ootp-ch05-007 mention Magical Law Enforcement, Wizengamot, and Ministry political offices in narrower contexts; this entry adds an observed departmental directory plus memo and window infrastructure.
+  confidence: high
+  limitations: The lift announcement is a snapshot and does not describe all Ministry departments or their full authority.
+
+- id: ootp-ch07-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1695
+  printed_page: null
+  extracted_text_lines: 322-358
+  text_anchor:
+    start_phrase: AUROR HEADQUARTERS
+    end_phrase: Molly's making meatballs
+    local_occurrence_note: Harry passes Auror cubicles, sees Sirius investigation materials in Kingsley's workspace, and hears Kingsley use official cover to pass Arthur a magazine message.
+  nearby_context: Arthur and Kingsley pretend not to know one another well while Kingsley continues the public Sirius Black investigation from inside the Ministry.
+  match_terms:
+  - Auror Headquarters
+  - Kingsley Shacklebolt
+  - Sirius
+  - map of the world
+  - flying Muggle vehicles
+  - motorcycle
+  quote_excerpt_short: "Sirius's face was blinking down at him"
+  source_note: The chapter shows Auror Headquarters as an investigative workspace and documents Kingsley's covert Order role inside the official Sirius Black hunt.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - auror-headquarters
+  - kingsley-shacklebolt
+  - sirius-black
+  - order-of-the-phoenix
+  - ministry-of-magic
+  - investigation
+  - operational-secrecy
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: Ministry Investigations and Order Secrecy
+  candidate_section: Auror Headquarters and the Sirius Black File
+  reason_for_placement: The scene shows how official Ministry investigations and covert anti-Voldemort work overlapped during a crisis affecting Hogwarts allies.
+  relevance_to_hogwarts_a_history: A later edition can cite this as evidence for why Ministry records about Sirius and the Order would need careful interpretation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch05-007
+    notes: ootp-ch05-007 already records Order infiltration of Ministry offices and Kingsley's misdirection of the Sirius search; this entry adds the observed Auror Headquarters setting and the cover exchange around Sirius's file.
+  confidence: high
+  limitations: The passage does not disclose Kingsley's full investigative record or the exact information he has falsified.
+
+- id: ootp-ch07-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1696
+  printed_page: null
+  extracted_text_lines: 366-421
+  text_anchor:
+    start_phrase: MISUSE OF MUGGLE ARTIFACTS
+    end_phrase: it'll be the ordinary Magical Law Enforcement Patrol
+    local_occurrence_note: Harry sees Arthur's small office, enchanted or tampered Muggle objects, and a memo about anti-Muggle pranksters causing regurgitating toilets.
+  nearby_context: Arthur's under-resourced office is crowded with Muggle-technology posters, files, a hiccuping toaster, and gloves twiddling their thumbs.
+  match_terms:
+  - Misuse of Muggle Artifacts
+  - regurgitating public toilet
+  - Anti-Muggle pranksters
+  - Muggles
+  - plumbers
+  - Magical Law Enforcement Patrol
+  quote_excerpt_short: "Anti-Muggle pranksters"
+  source_note: The chapter shows the Misuse of Muggle Artifacts Office handling enchanted Muggle-object incidents and routing lower-level anti-Muggle magical harassment to the Law Enforcement Patrol rather than Aurors.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - misuse-of-muggle-artifacts
+  - anti-muggle-pranks
+  - magical-law-enforcement
+  - muggle-protection
+  - enchanted-objects
+  - ministry-of-magic
+  - arthur-weasley
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Offices Affecting Muggle Relations
+  candidate_section: Misused Artifacts and Anti-Muggle Pranks
+  reason_for_placement: The office's casework shows the everyday enforcement machinery behind secrecy and Muggle-protection laws that frame students' outside-world conduct.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain the Ministry departments students and families encounter when magic affects Muggles beyond school.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found no existing entry for Misuse of Muggle Artifacts casework, anti-Muggle prank enforcement, or Law Enforcement Patrol routing.
+  confidence: high
+  limitations: The scene is limited to Arthur's office and does not give formal statutes, penalties, or staffing levels.
+
+- id: ootp-ch07-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Seven - The Ministry of Magic
+  chapter_start_pdf_page: 1685
+  chapter_end_pdf_page: 1699
+  pdf_page: 1699
+  printed_page: null
+  extracted_text_lines: 423-485
+  text_anchor:
+    start_phrase: they've changed the time and venue
+    end_phrase: stepped inside the courtroom
+    local_occurrence_note: Perkins reports the hearing has been moved to old Courtroom Ten; Arthur hurries Harry below the regular lift route and is not allowed inside.
+  nearby_context: Arthur says the old courtrooms have not been used in years and becomes alarmed at the venue change while escorting Harry through the Department of Mysteries level and down stone steps.
+  match_terms:
+  - changed the time and venue
+  - old Courtroom Ten
+  - courtrooms
+  - Department of Mysteries
+  - rough stone walls
+  - not allowed
+  quote_excerpt_short: "old Courtroom Ten"
+  source_note: The chapter records an abrupt Ministry hearing change from Amelia Bones's office to old Courtroom Ten, a lower, rarely used judicial space where Harry's escort is barred.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - disciplinary-hearing
+  - courtroom-ten
+  - ministry-of-magic
+  - wizengamot
+  - student-discipline
+  - judicial-procedure
+  - department-of-mysteries
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Hearing Venue Changed to Old Courtroom Ten
+  reason_for_placement: The venue change shows how Ministry legal process could be made intimidating and procedurally unstable for a Hogwarts student.
+  relevance_to_hogwarts_a_history: A later edition can use this as setup for the hearing itself when explaining external legal pressure on Hogwarts attendance and student status.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch02-002
+    - ootp-ch02-003
+    notes: ootp-ch02-002 and ootp-ch02-003 establish the hearing notice and suspension context; this entry adds the last-minute time and venue change, old Courtroom Ten, and escort exclusion.
+  confidence: high
+  limitations: The actual hearing proceedings occur in the next chapter, so this entry should be paired with Chapter Eight evidence.

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Seven - The Ministry of Magic
-- Page range: 1685-1699
+- Chapter: Chapter Eight - The Hearing
+- Page range: 1700-1713
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-07-the-ministry-of-magic.yaml`
+- Output YAML: `sources/book-05/chapter-08-the-hearing.yaml`
 
 ## Minimal Context
 

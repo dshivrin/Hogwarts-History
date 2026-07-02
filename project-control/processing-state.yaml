@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 6
-  chapter_title: Chapter Six - The Noble and Most Ancient House of Black
-  page_start: 1663
-  page_end: 1684
-  output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 7
   chapter_title: Chapter Seven - The Ministry of Magic
   page_start: 1685
   page_end: 1699
   output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1700
   page_end: 1713
   output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 9
+  chapter_title: Chapter Nine - The Woes of Mrs. Weasley
+  page_start: 1714
+  page_end: 1740
+  output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

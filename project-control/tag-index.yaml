@@ -161,6 +161,11 @@ tags:
     - gof-ch31-001
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  amelia-bones:
+    entries:
+    - ootp-ch07-001
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   ancient-creature:
     entries:
     - cos-ch15-007
@@ -240,6 +245,11 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+  anti-muggle-pranks:
+    entries:
+    - ootp-ch07-006
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   anti-muggle-precautions:
     entries:
     - gof-ch06-002
@@ -327,6 +337,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  arthur-weasley:
+    entries:
+    - ootp-ch07-006
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   assessment:
     entries:
     - cos-ch16-001
@@ -353,6 +368,12 @@ tags:
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+  atrium:
+    entries:
+    - ootp-ch07-002
+    - ootp-ch07-003
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   auror:
     entries:
     - gof-ch19-006
@@ -365,6 +386,11 @@ tags:
     - gof-ch13-007
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  auror-headquarters:
+    entries:
+    - ootp-ch07-005
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   auror-tools:
     entries:
     - gof-ch20-003
@@ -1581,6 +1607,11 @@ tags:
     - gof-ch30-003
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
+  courtroom-ten:
+    entries:
+    - ootp-ch07-007
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   courtyard:
     entries:
     - ps-ch11-003
@@ -2084,9 +2115,11 @@ tags:
     entries:
     - gof-ch07-004
     - gof-ch30-004
+    - ootp-ch07-007
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   deputy-headmistress:
     entries:
     - ps-ch04-002
@@ -2160,8 +2193,12 @@ tags:
     entries:
     - ootp-ch02-002
     - ootp-ch02-003
+    - ootp-ch07-001
+    - ootp-ch07-002
+    - ootp-ch07-007
     output_yaml:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   discipline:
     entries:
     - cos-ch05-005
@@ -2627,6 +2664,11 @@ tags:
     - poa-ch09-002
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+  emergency-magic:
+    entries:
+    - ootp-ch07-001
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   emergency-protocol:
     entries:
     - cos-ch16-005
@@ -2669,11 +2711,21 @@ tags:
     - gof-ch31-005
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  enchanted-objects:
+    entries:
+    - ootp-ch07-006
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   enchanted-snow:
     entries:
     - cos-ch12-003
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  enchanted-windows:
+    entries:
+    - ootp-ch07-004
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   enchantments:
     entries:
     - ps-ch13-006
@@ -3316,6 +3368,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  fountain-magical-brethren:
+    entries:
+    - ootp-ch07-003
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   four-houses:
     entries:
     - cos-ch05-004
@@ -3573,9 +3630,11 @@ tags:
     entries:
     - gof-ch37-007
     - ootp-ch05-004
+    - ootp-ch07-003
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   godric-gryffindor:
     entries:
     - cos-ch18-004
@@ -5021,6 +5080,7 @@ tags:
     - ootp-ch04-003
     - ootp-ch06-002
     - ootp-ch06-005
+    - ootp-ch07-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -5039,6 +5099,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -5327,6 +5388,11 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+  interdepartmental-memos:
+    entries:
+    - ootp-ch07-004
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   interior-rooms:
     entries:
     - ps-ch09-004
@@ -5402,6 +5468,11 @@ tags:
     - gof-ch25-006
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  investigation:
+    entries:
+    - ootp-ch07-005
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   invisibility:
     entries:
     - gof-ch29-003
@@ -5503,6 +5574,11 @@ tags:
     - gof-ch26-007
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+  judicial-procedure:
+    entries:
+    - ootp-ch07-007
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   justin-finch-fletchley:
     entries:
     - cos-ch11-006
@@ -5563,6 +5639,11 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  kingsley-shacklebolt:
+    entries:
+    - ootp-ch07-005
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   knight-bus:
     entries:
     - poa-ch03-002
@@ -6006,6 +6087,7 @@ tags:
     - gof-ch29-006
     - gof-ch31-005
     - ootp-ch04-003
+    - ootp-ch07-003
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -6022,6 +6104,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -6172,13 +6255,22 @@ tags:
   magical-law-enforcement:
     entries:
     - gof-ch27-007
+    - ootp-ch07-001
+    - ootp-ch07-004
+    - ootp-ch07-006
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   magical-locking:
     entries:
     - gof-ch25-006
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  magical-maintenance:
+    entries:
+    - ootp-ch07-004
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   magical-medicine:
     entries:
     - gof-ch02-005
@@ -6629,6 +6721,11 @@ tags:
     - gof-ch08-006
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  ministry-departments:
+    entries:
+    - ootp-ch07-004
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   ministry-discretion:
     entries:
     - poa-ch03-001
@@ -6705,6 +6802,13 @@ tags:
     - ootp-ch05-004
     - ootp-ch05-007
     - ootp-ch06-005
+    - ootp-ch07-001
+    - ootp-ch07-002
+    - ootp-ch07-003
+    - ootp-ch07-004
+    - ootp-ch07-005
+    - ootp-ch07-006
+    - ootp-ch07-007
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -6746,6 +6850,7 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -6786,8 +6891,10 @@ tags:
   misuse-of-muggle-artifacts:
     entries:
     - gof-ch13-005
+    - ootp-ch07-006
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   moaning-myrtle:
     entries:
     - cos-ch08-005
@@ -6981,6 +7088,11 @@ tags:
     - gof-ch03-002
     output_yaml:
     - sources/book-04/chapter-03-the-invitation.yaml
+  muggle-protection:
+    entries:
+    - ootp-ch07-006
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   muggle-records:
     entries:
     - gof-ch01-001
@@ -7331,11 +7443,13 @@ tags:
     - ootp-ch03-002
     - ootp-ch05-001
     - ootp-ch06-002
+    - ootp-ch07-005
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   order-guard:
     entries:
     - ootp-ch01-002
@@ -7379,11 +7493,13 @@ tags:
     - ootp-ch05-005
     - ootp-ch06-002
     - ootp-ch06-007
+    - ootp-ch07-005
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   ordinary-wizarding-level:
     entries:
     - poa-ch12-002
@@ -9400,8 +9516,10 @@ tags:
   security:
     entries:
     - gof-ch15-006
+    - ootp-ch07-002
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   security-failure:
     entries:
     - poa-ch22-001
@@ -9547,6 +9665,7 @@ tags:
     - gof-ch27-006
     - gof-ch36-003
     - gof-ch36-006
+    - ootp-ch07-005
     - poa-ch04-007
     - poa-ch08-007
     - poa-ch10-006
@@ -9581,6 +9700,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -9869,6 +9989,11 @@ tags:
     - ootp-ch02-001
     output_yaml:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+  st-mungos:
+    entries:
+    - ootp-ch07-003
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -10205,6 +10330,8 @@ tags:
     - cos-ch18-002
     - ootp-ch01-003
     - ootp-ch02-003
+    - ootp-ch07-001
+    - ootp-ch07-007
     - poa-ch19-002
     - poa-ch19-003
     - ps-ch13-003
@@ -10214,6 +10341,7 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -10732,6 +10860,11 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  telephone-box:
+    entries:
+    - ootp-ch07-002
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   term-boundaries:
     entries:
     - gof-ch03-003
@@ -11218,6 +11351,7 @@ tags:
     - gof-ch06-001
     - ootp-ch01-003
     - ootp-ch02-002
+    - ootp-ch07-001
     - poa-ch02-003
     - poa-ch03-001
     output_yaml:
@@ -11232,6 +11366,7 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   underage-students:
     entries:
     - gof-ch16-004
@@ -11411,6 +11546,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-02/chapter-15-aragog.yaml
+  visitor-entrance:
+    entries:
+    - ootp-ch07-002
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   voldemort:
     entries:
     - cos-ch02-003
@@ -11518,6 +11658,11 @@ tags:
     - gof-ch09-006
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  wand-registration:
+    entries:
+    - ootp-ch07-002
+    output_yaml:
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   wand-sanctions:
     entries:
     - cos-ch07-005
@@ -11842,8 +11987,11 @@ tags:
   wizengamot:
     entries:
     - ootp-ch05-007
+    - ootp-ch07-004
+    - ootp-ch07-007
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   wolfsbane-potion:
     entries:
     - poa-ch18-002

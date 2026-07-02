@@ -9429,6 +9429,118 @@ by_entry:
     - unplottable
     source_unit: ootp-ch06
     output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch07-001:
+    title: 'Student Conduct Beyond School: Emergency Exception and Ministry Hearing
+      Procedure'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - amelia-bones
+    - disciplinary-hearing
+    - emergency-magic
+    - magical-law-enforcement
+    - ministry-of-magic
+    - student-discipline
+    - underage-magic
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch07-002:
+    title: 'Ministry Oversight and Student Hearings: Visitor Entry, Search, and Wand
+      Registration'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - atrium
+    - disciplinary-hearing
+    - ministry-of-magic
+    - security
+    - telephone-box
+    - visitor-entrance
+    - wand-registration
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch07-003:
+    title: 'Ministry Public Ideology and Non-Human Beings: The Fountain of Magical
+      Brethren'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - atrium
+    - fountain-magical-brethren
+    - goblins
+    - house-elves
+    - magical-architecture
+    - ministry-of-magic
+    - st-mungos
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch07-004:
+    title: 'Ministry Offices Affecting Hogwarts: Departmental Structure and Internal
+      Infrastructure'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - enchanted-windows
+    - interdepartmental-memos
+    - magical-law-enforcement
+    - magical-maintenance
+    - ministry-departments
+    - ministry-of-magic
+    - wizengamot
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch07-005:
+    title: 'Ministry Investigations and Order Secrecy: Auror Headquarters and the
+      Sirius Black File'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - auror-headquarters
+    - investigation
+    - kingsley-shacklebolt
+    - ministry-of-magic
+    - operational-secrecy
+    - order-of-the-phoenix
+    - sirius-black
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch07-006:
+    title: 'Ministry Offices Affecting Muggle Relations: Misused Artifacts and Anti-Muggle
+      Pranks'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - anti-muggle-pranks
+    - arthur-weasley
+    - enchanted-objects
+    - magical-law-enforcement
+    - ministry-of-magic
+    - misuse-of-muggle-artifacts
+    - muggle-protection
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch07-007:
+    title: 'Student Conduct Beyond School: Hearing Venue Changed to Old Courtroom
+      Ten'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - courtroom-ten
+    - department-of-mysteries
+    - disciplinary-hearing
+    - judicial-procedure
+    - ministry-of-magic
+    - student-discipline
+    - wizengamot
+    source_unit: ootp-ch07
+    output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9505,6 +9617,8 @@ by_tag:
   - gof-ch05-001
   alumni-memory:
   - gof-ch31-001
+  amelia-bones:
+  - ootp-ch07-001
   ancient-creature:
   - cos-ch15-007
   ancient-magic:
@@ -9540,6 +9654,8 @@ by_tag:
   - ootp-ch01-005
   - ootp-ch02-005
   - poa-ch20-007
+  anti-muggle-pranks:
+  - ootp-ch07-006
   anti-muggle-precautions:
   - gof-ch06-002
   anti-muggle-security:
@@ -9579,6 +9695,8 @@ by_tag:
   arrival-logistics:
   - gof-ch11-006
   - ps-ch06-006
+  arthur-weasley:
+  - ootp-ch07-006
   assessment:
   - cos-ch16-001
   astrology:
@@ -9590,11 +9708,16 @@ by_tag:
   astronomy-tower:
   - poa-ch09-004
   - ps-ch15-001
+  atrium:
+  - ootp-ch07-002
+  - ootp-ch07-003
   auror:
   - gof-ch19-006
   - ootp-ch03-004
   auror-experience:
   - gof-ch13-007
+  auror-headquarters:
+  - ootp-ch07-005
   auror-tools:
   - gof-ch20-003
   aurors:
@@ -10157,6 +10280,8 @@ by_tag:
   - cos-ch14-002
   courtroom:
   - gof-ch30-003
+  courtroom-ten:
+  - ootp-ch07-007
   courtyard:
   - ps-ch11-003
   covered-up-events:
@@ -10399,6 +10524,7 @@ by_tag:
   department-of-mysteries:
   - gof-ch07-004
   - gof-ch30-004
+  - ootp-ch07-007
   deputy-headmistress:
   - ps-ch04-002
   dervish-and-banges:
@@ -10433,6 +10559,9 @@ by_tag:
   disciplinary-hearing:
   - ootp-ch02-002
   - ootp-ch02-003
+  - ootp-ch07-001
+  - ootp-ch07-002
+  - ootp-ch07-007
   discipline:
   - cos-ch05-005
   - ps-ch08-003
@@ -10669,6 +10798,8 @@ by_tag:
   - gof-ch35-007
   emergency-lockdown:
   - poa-ch09-002
+  emergency-magic:
+  - ootp-ch07-001
   emergency-protocol:
   - cos-ch16-005
   emergency-response:
@@ -10687,8 +10818,12 @@ by_tag:
   - ps-ch07-001
   enchanted-maze:
   - gof-ch31-005
+  enchanted-objects:
+  - ootp-ch07-006
   enchanted-snow:
   - cos-ch12-003
+  enchanted-windows:
+  - ootp-ch07-004
   enchantments:
   - ps-ch13-006
   - ps-ch14-003
@@ -10981,6 +11116,8 @@ by_tag:
   founding:
   - cos-ch09-003
   - gof-ch12-002
+  fountain-magical-brethren:
+  - ootp-ch07-003
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
@@ -11098,6 +11235,7 @@ by_tag:
   goblins:
   - gof-ch37-007
   - ootp-ch05-004
+  - ootp-ch07-003
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
@@ -11804,6 +11942,7 @@ by_tag:
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch06-005
+  - ootp-ch07-003
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -11935,6 +12074,8 @@ by_tag:
   - gof-ch17-002
   - gof-ch23-005
   - gof-ch37-005
+  interdepartmental-memos:
+  - ootp-ch07-004
   interior-rooms:
   - ps-ch09-004
   interior-setting:
@@ -11966,6 +12107,8 @@ by_tag:
   - gof-ch01-002
   intruders:
   - gof-ch25-006
+  investigation:
+  - ootp-ch07-005
   invisibility:
   - gof-ch29-003
   invisibility-cloak:
@@ -12012,6 +12155,8 @@ by_tag:
   - gof-ch26-005
   judging:
   - gof-ch26-007
+  judicial-procedure:
+  - ootp-ch07-007
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -12038,6 +12183,8 @@ by_tag:
   - gof-ch11-002
   - poa-ch05-001
   - ps-ch06-001
+  kingsley-shacklebolt:
+  - ootp-ch07-005
   knight-bus:
   - poa-ch03-002
   - poa-ch14-003
@@ -12250,6 +12397,7 @@ by_tag:
   - gof-ch29-006
   - gof-ch31-005
   - ootp-ch04-003
+  - ootp-ch07-003
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -12317,8 +12465,13 @@ by_tag:
   - gof-ch10-004
   magical-law-enforcement:
   - gof-ch27-007
+  - ootp-ch07-001
+  - ootp-ch07-004
+  - ootp-ch07-006
   magical-locking:
   - gof-ch25-006
+  magical-maintenance:
+  - ootp-ch07-004
   magical-medicine:
   - gof-ch02-005
   magical-memory-source:
@@ -12520,6 +12673,8 @@ by_tag:
   - gof-ch36-006
   ministry-crowd-control:
   - gof-ch08-006
+  ministry-departments:
+  - ootp-ch07-004
   ministry-discretion:
   - poa-ch03-001
   ministry-guidelines:
@@ -12575,6 +12730,13 @@ by_tag:
   - ootp-ch05-004
   - ootp-ch05-007
   - ootp-ch06-005
+  - ootp-ch07-001
+  - ootp-ch07-002
+  - ootp-ch07-003
+  - ootp-ch07-004
+  - ootp-ch07-005
+  - ootp-ch07-006
+  - ootp-ch07-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -12600,6 +12762,7 @@ by_tag:
   - ps-ch17-003
   misuse-of-muggle-artifacts:
   - gof-ch13-005
+  - ootp-ch07-006
   moaning-myrtle:
   - cos-ch08-005
   - cos-ch15-007
@@ -12682,6 +12845,8 @@ by_tag:
   - cos-ch09-003
   muggle-post:
   - gof-ch03-002
+  muggle-protection:
+  - ootp-ch07-006
   muggle-records:
   - gof-ch01-001
   muggle-repelling:
@@ -12837,6 +13002,7 @@ by_tag:
   - ootp-ch03-002
   - ootp-ch05-001
   - ootp-ch06-002
+  - ootp-ch07-005
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -12863,6 +13029,7 @@ by_tag:
   - ootp-ch05-005
   - ootp-ch06-002
   - ootp-ch06-007
+  - ootp-ch07-005
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -13793,6 +13960,7 @@ by_tag:
   - ootp-ch04-004
   security:
   - gof-ch15-006
+  - ootp-ch07-002
   security-failure:
   - poa-ch22-001
   security-threat:
@@ -13859,6 +14027,7 @@ by_tag:
   - gof-ch27-006
   - gof-ch36-003
   - gof-ch36-006
+  - ootp-ch07-005
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -14002,6 +14171,8 @@ by_tag:
   - cos-ch08-002
   squibs:
   - ootp-ch02-001
+  st-mungos:
+  - ootp-ch07-003
   stadium:
   - gof-ch08-001
   staff:
@@ -14146,6 +14317,8 @@ by_tag:
   - cos-ch18-002
   - ootp-ch01-003
   - ootp-ch02-003
+  - ootp-ch07-001
+  - ootp-ch07-007
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -14376,6 +14549,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  telephone-box:
+  - ootp-ch07-002
   term-boundaries:
   - gof-ch03-003
   - gof-ch04-001
@@ -14613,6 +14788,7 @@ by_tag:
   - gof-ch06-001
   - ootp-ch01-003
   - ootp-ch02-002
+  - ootp-ch07-001
   - poa-ch02-003
   - poa-ch03-001
   underage-students:
@@ -14692,6 +14868,8 @@ by_tag:
   visitor-control:
   - cos-ch10-005
   - cos-ch15-001
+  visitor-entrance:
+  - ootp-ch07-002
   voldemort:
   - cos-ch02-003
   - cos-ch17-004
@@ -14744,6 +14922,8 @@ by_tag:
   - gof-ch14-007
   wand-magic:
   - gof-ch09-006
+  wand-registration:
+  - ootp-ch07-002
   wand-sanctions:
   - cos-ch07-005
   - ootp-ch02-002
@@ -14888,6 +15068,8 @@ by_tag:
   - cos-ch01-003
   wizengamot:
   - ootp-ch05-007
+  - ootp-ch07-004
+  - ootp-ch07-007
   wolfsbane-potion:
   - poa-ch18-002
   - poa-ch19-001

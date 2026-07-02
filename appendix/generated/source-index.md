@@ -106,3 +106,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch04`: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, pages 1626-1644, 7 entries, 0 explicit references.
 - `ootp-ch05`: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, pages 1645-1662, 7 entries, 0 explicit references.
 - `ootp-ch06`: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, pages 1663-1684, 7 entries, 0 explicit references.
+- `ootp-ch07`: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, pages 1685-1699, 7 entries, 0 explicit references.
