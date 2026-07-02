@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Eight - The Hearing
-- Page range: 1700-1713
+- Chapter: Chapter Nine - The Woes of Mrs. Weasley
+- Page range: 1714-1740
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-08-the-hearing.yaml`
+- Output YAML: `sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml`
 
 ## Minimal Context
 

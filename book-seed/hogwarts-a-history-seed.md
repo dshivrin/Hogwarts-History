@@ -3058,6 +3058,31 @@ Summary: The available evidence includes 1 source item, led by: The chapter supp
   - Reference type: cross_reference_candidate
   - Notes: The passage is a campsite identification list and does not describe each office's formal jurisdiction or relationship to Hogwarts.
 
+### Chapter: Ministry Law and School-Age Wizards
+
+#### Section: Old Courtroom Ten and Wizengamot Procedure
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms old Courtroom Ten as a still-usable Ministry judicial chamber with dark-stone architecture, tiered benches, a chained restraint chair, and Wizengamot members in marked robes.
+
+- **Corroboration:** The chapter confirms old Courtroom Ten as a still-usable Ministry judicial chamber with dark-stone architecture, tiered benches, a chained restraint chair, and Wizengamot members in marked robes.
+  - Quote: "the arms of which were covered in chains"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1700, `ootp-ch08-001`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch30-003`, `ootp-ch07-007`. gof-ch30-003 records the same courtroom in Pensieve memory and ootp-ch07-007 records the venue change to old Courtroom Ten; this entry adds the present-day Wizengamot seating, robes, and current use in Harry's hearing.
+  - Notes: The passage gives observed architecture and procedure but no official construction date, courtroom inventory, or full history of old Courtroom Ten.
+
+#### Section: Rights of the Accused in Wizarding Hearings
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore cites the Wizengamot Charter of Rights to force the hearing to accept a defense witness, and Amelia Bones confirms that this is Department policy.
+
+- **Context:** Dumbledore cites the Wizengamot Charter of Rights to force the hearing to accept a defense witness, and Amelia Bones confirms that this is Department policy.
+  - Quote: "the accused has the right to present witnesses"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1705, `ootp-ch08-004`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The scene names the right but does not quote the full charter, describe appeals, or state whether the same rule applies outside Wizengamot proceedings.
+
 ### Chapter: Ministry Offices Affecting Hogwarts
 
 #### Section: Departmental Structure and Internal Infrastructure
@@ -3251,6 +3276,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter iden
   - Corroborates: `ootp-ch02-002`, `ootp-ch02-003`. ootp-ch02-002 and ootp-ch02-003 record the formal expulsion, wand-sanction, suspension, and hearing notices; this entry adds the pre-hearing official named by Arthur and Lupin's emergency-law interpretation.
   - Notes: Lupin is advising Harry rather than quoting the statute, and the expected Amelia Bones office venue is changed later in the chapter.
 
+#### Section: Emergency Exceptions and Limits on Ministry Discipline
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore cites clause seven's life-threatening emergency exception, states limits on Ministry power to expel Hogwarts students or confiscate wands before charges are proven, and the Wizengamot clears Harry.
+
+- **Corroboration:** Dumbledore cites clause seven's life-threatening emergency exception, states limits on Ministry power to expel Hogwarts students or confiscate wands before charges are proven, and the Wizengamot clears Harry.
+  - Quote: "magic may be used before Muggles in exceptional circumstances"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1710, `ootp-ch08-007`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch02-002`, `cos-ch02-005`, `gof-ch36-005`. ootp-ch02-002 and cos-ch02-005 record warning and sanction threats under underage-magic law, while gof-ch36-005 records Fudge's pressure on Dumbledore's school autonomy; this entry adds clause seven's emergency exception, wand-confiscation limits, and the acquittal.
+  - Notes: The passage quotes only the relevant exception and legal limits as Dumbledore uses them in argument; it does not reproduce the full Decree or later legal changes.
+
 #### Section: Hearing Venue Changed to Old Courtroom Ten
 
 Summary: The available evidence includes 1 source item, led by: The chapter records an abrupt Ministry hearing change from Amelia Bones's office to old Courtroom Ten, a lower, rarely used judicial space where Harry's escort is barred.
@@ -3274,6 +3311,18 @@ Summary: The available evidence includes 1 source item, led by: The Ministry not
   - Reference type: school_rule_or_policy
   - Corroborates: `cos-ch02-005`, `poa-ch02-003`, `poa-ch03-001`, `ootp-ch01-003`. Earlier entries record warnings, possible expulsion, discretionary reversal, and household leverage; this entry adds the official expulsion notice, wand-destruction threat, and hearing date after detected emergency magic.
   - Notes: The notice states the Ministry's initial position before later revision and before the hearing outcome.
+
+#### Section: Underage Magic Hearings and Ministry Procedure
+
+Summary: The available evidence includes 1 source item, led by: The hearing record names the underage-magic and secrecy-law charges, the Ministry officials acting as interrogators, Percy Weasley as court scribe, and Dumbledore as witness for the defense.
+
+- **Corroboration:** The hearing record names the underage-magic and secrecy-law charges, the Ministry officials acting as interrogators, Percy Weasley as court scribe, and Dumbledore as witness for the defense.
+  - Quote: "Disciplinary hearing of the twelfth of August"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1701, `ootp-ch08-002`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch02-002`, `ootp-ch07-007`. ootp-ch02-002 records the official notice and threatened sanctions, while ootp-ch07-007 records the venue change; this entry adds the named hearing officers, court scribe, defense witness, and formal charge language.
+  - Notes: The scene does not provide a full transcript, sentencing rules, or normal scheduling standards for comparable disciplinary hearings.
 
 #### Section: Underage Magic and Hogwarts Expulsion Risk
 
@@ -6398,6 +6447,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reca
 
 ### Chapter: The Second War and External Threats
 
+#### Section: Dementor Deployment Beyond Azkaban and Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The hearing explicitly raises the question of who ordered Dementors into Little Whinging and records Fudge's claim that Dementors remain in Azkaban under Ministry control.
+
+- **Corroboration:** The hearing explicitly raises the question of who ordered Dementors into Little Whinging and records Fudge's claim that Dementors remain in Azkaban under Ministry control.
+  - Quote: "somebody within the Ministry ordered"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1709, `ootp-ch08-006`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch01-004`, `poa-ch22-002`, `gof-ch36-004`. Earlier entries cover the Little Whinging Dementor attack, removal of Dementors from Hogwarts, and Fudge bringing a Dementor into the castle; this entry adds the hearing's explicit dispute over Ministry control and the possibility of an internal order.
+  - Notes: This chapter raises the ordered-attack issue but does not conclusively identify the person who sent the Dementors.
+
 #### Section: Dementors in Little Whinging
 
 Summary: The available evidence includes 1 source item, led by: The chapter records Dementors operating in a Muggle suburb rather than at Hogwarts, Azkaban, or Ministry-controlled school security perimeters.
@@ -7228,6 +7289,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `gof-ch16-005`, `gof-ch15-007`. gof-ch15-007 records the arrivals, and gof-ch16-005 records Beauxbatons carriage lodging; this entry adds winter conditions and the continuing Durmstrang ship and Beauxbatons carriage presence.
   - Notes: The passage implies but does not explicitly state the exact sleeping arrangements for every visiting student.
 
+## Part: Classes, Curriculum, and Learning
+
+### Chapter: Defense Against the Dark Arts
+
+#### Section: Patronus Instruction and Advanced Defensive Magic
+
+Summary: The available evidence includes 1 source item, led by: The hearing confirms that Harry learned the Patronus Charm at Hogwarts from Professor Lupin in third year and that a corporeal Patronus at fifteen is considered unusually impressive by Amelia Bones.
+
+- **Corroboration:** The hearing confirms that Harry learned the Patronus Charm at Hogwarts from Professor Lupin in third year and that a corporeal Patronus at fifteen is considered unusually impressive by Amelia Bones.
+  - Quote: "a true Patronus at that age"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1704, `ootp-ch08-003`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch01-005`, `ootp-ch02-005`. ootp-ch01-005 and ootp-ch02-005 record the emergency Patronus use and Harry's explanation after the attack; this entry adds official questioning about school instruction, age, corporeal form, and Ministry evaluation of the skill.
+  - Notes: The passage confirms Harry's training source but does not show the original third-year lesson or state whether Patronus instruction is part of ordinary third-year curriculum.
+
 ## Part: Classroom Instruction and Practical Magic
 
 ### Chapter: Defense Against the Dark Arts
@@ -7421,6 +7498,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: magical_architecture
   - Notes: The passage does not name the spell or object enchantment used to expand the tents.
+
+## Part: Magical Communities and Families
+
+### Chapter: Squibs, Muggle Neighbors, and Wizarding Records
+
+#### Section: Squib Witnesses and Ministry Registration Gaps
+
+Summary: The available evidence includes 1 source item, led by: The hearing confirms Figg's legal status as a Squib witness, shows that Squibs are not registered as local witches or wizards, and records Ministry monitoring of Harry's neighborhood after past events.
+
+- **Context:** The hearing confirms Figg's legal status as a Squib witness, shows that Squibs are not registered as local witches or wizards, and records Ministry monitoring of Harry's neighborhood after past events.
+  - Quote: "I'm a Squib"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, PDF p. 1706, `ootp-ch08-005`, `sources/book-05/chapter-08-the-hearing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The evidence is limited to hearing testimony and does not provide the full Ministry registry rules for Squibs or details of the Little Whinging monitoring system.
 
 ## Part: Magical Creatures and the School Library
 

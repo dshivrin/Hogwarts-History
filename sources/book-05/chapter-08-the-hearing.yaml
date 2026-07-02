@@ -1,0 +1,337 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the control-file page range. PDF page 1700 begins with "CHAPTER EIGHT THE HEARING"; PDF page 1713 ends the hearing scene before the next controlled unit begins on page 1714.
+  processed_date: '2026-07-02'
+  processor_notes: Extracted only PDF pages 1700-1713 with scripts/extract_pages.py using pypdf; no full-PDF scan was performed.
+
+entries:
+- id: ootp-ch08-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1700
+  printed_page: null
+  extracted_text_lines: 6-31
+  text_anchor:
+    start_phrase: The large dungeon he had entered
+    end_phrase: plum-colored robes with an elaborately worked silver W
+    local_occurrence_note: Harry recognizes old Courtroom Ten from Dumbledore's Pensieve memory and sees the chained chair, dark stone, torches, tiered benches, and Wizengamot robes.
+  nearby_context: The hearing opens in the same underground courtroom where Harry previously saw the Lestranges sentenced, now used for his underage-magic case.
+  match_terms:
+  - old Courtroom Ten
+  - Wizengamot
+  - chained chair
+  - Lestranges
+  - Azkaban
+  - plum robes
+  quote_excerpt_short: "the arms of which were covered in chains"
+  source_note: The chapter confirms old Courtroom Ten as a still-usable Ministry judicial chamber with dark-stone architecture, tiered benches, a chained restraint chair, and Wizengamot members in marked robes.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - courtroom-ten
+  - wizengamot
+  - ministry-of-magic
+  - judicial-procedure
+  - magical-architecture
+  - azkaban
+  - lestranges
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Law and School-Age Wizards
+  candidate_section: Old Courtroom Ten and Wizengamot Procedure
+  reason_for_placement: The old courtroom links student discipline to Ministry judicial spaces and gives architectural detail for a legal setting already tied to First Wizarding War trials.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for how Hogwarts-connected cases could be pulled into older Ministry courtrooms during wider political crises.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch30-003
+    - ootp-ch07-007
+    notes: gof-ch30-003 records the same courtroom in Pensieve memory and ootp-ch07-007 records the venue change to old Courtroom Ten; this entry adds the present-day Wizengamot seating, robes, and current use in Harry's hearing.
+  confidence: high
+  limitations: The passage gives observed architecture and procedure but no official construction date, courtroom inventory, or full history of old Courtroom Ten.
+
+- id: ootp-ch08-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1701
+  printed_page: null
+  extracted_text_lines: 40-57, 87-97
+  text_anchor:
+    start_phrase: Disciplinary hearing of the twelfth of August
+    end_phrase: Statute of Secrecy
+    local_occurrence_note: Fudge opens the hearing, names the offenses, interrogators, court scribe, and Dumbledore's defense-witness role, then reads the formal Patronus charge.
+  nearby_context: The panel includes Fudge, Amelia Bones, Dolores Umbridge, Percy Weasley as scribe, and Dumbledore as defense witness.
+  match_terms:
+  - disciplinary hearing
+  - Decree for the Reasonable Restriction of Underage Sorcery
+  - International Statute of Secrecy
+  - interrogators
+  - court scribe
+  - witness for the defense
+  quote_excerpt_short: "Disciplinary hearing of the twelfth of August"
+  source_note: The hearing record names the underage-magic and secrecy-law charges, the Ministry officials acting as interrogators, Percy Weasley as court scribe, and Dumbledore as witness for the defense.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - disciplinary-hearing
+  - underage-magic
+  - statute-of-secrecy
+  - magical-law-enforcement
+  - court-scribe
+  - dumbledore
+  - ministry-of-magic
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Underage Magic Hearings and Ministry Procedure
+  reason_for_placement: The passage turns the earlier owl notices into a formal courtroom proceeding, showing how Ministry law could be applied to a Hogwarts student during holidays.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a worked example of off-campus student conduct being handled by Ministry legal machinery rather than ordinary school discipline.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch02-002
+    - ootp-ch07-007
+    notes: ootp-ch02-002 records the official notice and threatened sanctions, while ootp-ch07-007 records the venue change; this entry adds the named hearing officers, court scribe, defense witness, and formal charge language.
+  confidence: high
+  limitations: The scene does not provide a full transcript, sentencing rules, or normal scheduling standards for comparable disciplinary hearings.
+
+- id: ootp-ch08-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1704
+  printed_page: null
+  extracted_text_lines: 116-142
+  text_anchor:
+    start_phrase: You produced a fully fledged Patronus?
+    end_phrase: plain view of a Muggle
+    local_occurrence_note: Madam Bones questions Harry about his corporeal stag Patronus, his age, and Lupin's third-year instruction before Fudge reframes the skill as aggravating under secrecy law.
+  nearby_context: Harry identifies the Patronus as a stag he has produced for over a year, and Madam Bones calls a true Patronus at fifteen impressive.
+  match_terms:
+  - fully fledged Patronus
+  - corporeal Patronus
+  - stag
+  - Professor Lupin
+  - third year
+  - Defense Against the Dark Arts
+  quote_excerpt_short: "a true Patronus at that age"
+  source_note: The hearing confirms that Harry learned the Patronus Charm at Hogwarts from Professor Lupin in third year and that a corporeal Patronus at fifteen is considered unusually impressive by Amelia Bones.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - patronus
+  - defense-against-the-dark-arts
+  - professor-lupin
+  - advanced-magic
+  - dementors
+  - underage-magic
+  - amelia-bones
+  candidate_part: Classes, Curriculum, and Learning
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Patronus Instruction and Advanced Defensive Magic
+  reason_for_placement: The exchange provides external Ministry recognition that Lupin's third-year instruction gave Harry a rare defensive skill beyond ordinary expectations for his age.
+  relevance_to_hogwarts_a_history: A later edition can use this to document the exceptional practical outcomes of Lupin's Defense Against the Dark Arts teaching.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-005
+    - ootp-ch02-005
+    notes: ootp-ch01-005 and ootp-ch02-005 record the emergency Patronus use and Harry's explanation after the attack; this entry adds official questioning about school instruction, age, corporeal form, and Ministry evaluation of the skill.
+  confidence: high
+  limitations: The passage confirms Harry's training source but does not show the original third-year lesson or state whether Patronus instruction is part of ordinary third-year curriculum.
+
+- id: ootp-ch08-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1705
+  printed_page: null
+  extracted_text_lines: 170-186
+  text_anchor:
+    start_phrase: We do, in fact, have a witness
+    end_phrase: Perfectly true
+    local_occurrence_note: After Fudge tries to hurry past Harry's Dementor claim, Dumbledore invokes the Wizengamot Charter of Rights and Madam Bones confirms the accused may present witnesses.
+  nearby_context: The right is framed as both a Wizengamot right and Department of Magical Law Enforcement policy.
+  match_terms:
+  - Wizengamot Charter of Rights
+  - accused
+  - witnesses
+  - Department of Magical Law Enforcement
+  - Madam Bones
+  quote_excerpt_short: "the accused has the right to present witnesses"
+  source_note: Dumbledore cites the Wizengamot Charter of Rights to force the hearing to accept a defense witness, and Amelia Bones confirms that this is Department policy.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - wizengamot
+  - charter-of-rights
+  - witnesses
+  - magical-law-enforcement
+  - due-process
+  - dumbledore
+  - student-discipline
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Law and School-Age Wizards
+  candidate_section: Rights of the Accused in Wizarding Hearings
+  reason_for_placement: The passage supplies a named procedural right that shapes the outcome of a Hogwarts student's Ministry hearing.
+  relevance_to_hogwarts_a_history: A later edition can cross-reference this when explaining legal protections available to students in Ministry proceedings beyond school authority.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries surfaced broad Wizengamot and hearing entries but no prior entry for the Wizengamot Charter of Rights or the accused's right to call witnesses.
+  confidence: high
+  limitations: The scene names the right but does not quote the full charter, describe appeals, or state whether the same rule applies outside Wizengamot proceedings.
+
+- id: ootp-ch08-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1706
+  printed_page: null
+  extracted_text_lines: 200-215, 220-262
+  text_anchor:
+    start_phrase: Arabella Doreen Figg
+    end_phrase: that was what happened
+    local_occurrence_note: Mrs. Figg identifies herself as a Squib living near Harry, explains why she is not registered as a witch or wizard, and testifies to the Dementor attack.
+  nearby_context: Madam Bones says the Ministry has closely monitored the lack of registered witches or wizards in Little Whinging other than Harry, given past events.
+  match_terms:
+  - Arabella Figg
+  - Squib
+  - Little Whinging
+  - closely monitored
+  - dementors
+  - witness
+  quote_excerpt_short: "I'm a Squib"
+  source_note: The hearing confirms Figg's legal status as a Squib witness, shows that Squibs are not registered as local witches or wizards, and records Ministry monitoring of Harry's neighborhood after past events.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - squibs
+  - mrs-figg
+  - little-whinging
+  - ministry-monitoring
+  - dementor-witness
+  - off-campus-security
+  - magical-law-enforcement
+  candidate_part: Magical Communities and Families
+  candidate_chapter: Squibs, Muggle Neighbors, and Wizarding Records
+  candidate_section: Squib Witnesses and Ministry Registration Gaps
+  reason_for_placement: The passage clarifies the administrative status of Squibs and explains why a magical-world witness near a Hogwarts student could be absent from Ministry witch-and-wizard records.
+  relevance_to_hogwarts_a_history: A later edition can cite this when explaining how non-student magical affiliates and Squibs intersect with Hogwarts-linked protective arrangements outside school grounds.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found no existing entry for Figg's hearing testimony, Squib registration status, or Little Whinging monitoring.
+  confidence: high
+  limitations: The evidence is limited to hearing testimony and does not provide the full Ministry registry rules for Squibs or details of the Little Whinging monitoring system.
+
+- id: ootp-ch08-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1709
+  printed_page: null
+  extracted_text_lines: 279-333
+  text_anchor:
+    start_phrase: I don't think any of us believe
+    end_phrase: this matter will not go uninvestigated
+    local_occurrence_note: Dumbledore argues that the Dementors were ordered to Little Whinging; Fudge insists they remain under Ministry control, while Umbridge reacts from the bench.
+  nearby_context: Dumbledore frames the possible explanations as either Dementors taking orders outside the Ministry or someone within the Ministry ordering the attack.
+  match_terms:
+  - dementors
+  - ordered there
+  - Ministry control
+  - Azkaban
+  - Dolores Umbridge
+  - full inquiry
+  quote_excerpt_short: "somebody within the Ministry ordered"
+  source_note: The hearing explicitly raises the question of who ordered Dementors into Little Whinging and records Fudge's claim that Dementors remain in Azkaban under Ministry control.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - ministry-control
+  - little-whinging
+  - azkaban
+  - dolores-umbridge
+  - off-campus-security
+  - second-war
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and External Threats
+  candidate_section: Dementor Deployment Beyond Azkaban and Hogwarts
+  reason_for_placement: The passage turns the Little Whinging attack from an unexplained security event into an institutional question about Ministry control and possible unauthorized deployment.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how external Ministry security failures and political interference affected a Hogwarts student outside school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-004
+    - poa-ch22-002
+    - gof-ch36-004
+    notes: Earlier entries cover the Little Whinging Dementor attack, removal of Dementors from Hogwarts, and Fudge bringing a Dementor into the castle; this entry adds the hearing's explicit dispute over Ministry control and the possibility of an internal order.
+  confidence: high
+  limitations: This chapter raises the ordered-attack issue but does not conclusively identify the person who sent the Dementors.
+
+- id: ootp-ch08-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eight - The Hearing
+  chapter_start_pdf_page: 1700
+  chapter_end_pdf_page: 1713
+  pdf_page: 1710
+  printed_page: null
+  extracted_text_lines: 336-349, 361-405, 424-437
+  text_anchor:
+    start_phrase: Clause seven of the Decree states
+    end_phrase: cleared of all charges
+    local_occurrence_note: Dumbledore invokes the emergency exception to underage-magic rules, rejects Ministry authority over Hogwarts school misconduct, and the Wizengamot clears Harry.
+  nearby_context: Fudge tries to broaden the hearing to earlier magic and school behavior, but Dumbledore argues that the court is limited to the specific charge.
+  match_terms:
+  - Clause seven
+  - exceptional circumstances
+  - Ministry authority
+  - expel Hogwarts students
+  - confiscate wands
+  - cleared of all charges
+  quote_excerpt_short: "magic may be used before Muggles in exceptional circumstances"
+  source_note: Dumbledore cites clause seven's life-threatening emergency exception, states limits on Ministry power to expel Hogwarts students or confiscate wands before charges are proven, and the Wizengamot clears Harry.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - underage-magic
+  - emergency-exception
+  - muggle-witness
+  - expulsion
+  - wand-sanctions
+  - school-autonomy
+  - wizengamot-verdict
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Conduct Beyond School
+  candidate_section: Emergency Exceptions and Limits on Ministry Discipline
+  reason_for_placement: The passage states both the legal exception that protected Harry's emergency Patronus and the institutional boundary between Ministry sanctions and Hogwarts student discipline.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a concise source for how off-campus student magic is limited, excused in emergencies, and contested between Ministry and school authority.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch02-002
+    - cos-ch02-005
+    - gof-ch36-005
+    notes: ootp-ch02-002 and cos-ch02-005 record warning and sanction threats under underage-magic law, while gof-ch36-005 records Fudge's pressure on Dumbledore's school autonomy; this entry adds clause seven's emergency exception, wand-confiscation limits, and the acquittal.
+  confidence: high
+  limitations: The passage quotes only the relevant exception and legal limits as Dumbledore uses them in argument; it does not reproduce the full Decree or later legal changes.

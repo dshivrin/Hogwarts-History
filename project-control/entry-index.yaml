@@ -9541,6 +9541,117 @@ by_entry:
     - wizengamot
     source_unit: ootp-ch07
     output_yaml: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  ootp-ch08-001:
+    title: 'Ministry Law and School-Age Wizards: Old Courtroom Ten and Wizengamot
+      Procedure'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - azkaban
+    - courtroom-ten
+    - judicial-procedure
+    - lestranges
+    - magical-architecture
+    - ministry-of-magic
+    - wizengamot
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch08-002:
+    title: 'Student Conduct Beyond School: Underage Magic Hearings and Ministry Procedure'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - court-scribe
+    - disciplinary-hearing
+    - dumbledore
+    - magical-law-enforcement
+    - ministry-of-magic
+    - statute-of-secrecy
+    - underage-magic
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch08-003:
+    title: 'Defense Against the Dark Arts: Patronus Instruction and Advanced Defensive
+      Magic'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - advanced-magic
+    - amelia-bones
+    - defense-against-the-dark-arts
+    - dementors
+    - patronus
+    - professor-lupin
+    - underage-magic
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch08-004:
+    title: 'Ministry Law and School-Age Wizards: Rights of the Accused in Wizarding
+      Hearings'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - charter-of-rights
+    - due-process
+    - dumbledore
+    - magical-law-enforcement
+    - student-discipline
+    - witnesses
+    - wizengamot
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch08-005:
+    title: 'Squibs, Muggle Neighbors, and Wizarding Records: Squib Witnesses and Ministry
+      Registration Gaps'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - dementor-witness
+    - little-whinging
+    - magical-law-enforcement
+    - ministry-monitoring
+    - mrs-figg
+    - off-campus-security
+    - squibs
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch08-006:
+    title: 'The Second War and External Threats: Dementor Deployment Beyond Azkaban
+      and Hogwarts'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - azkaban
+    - dementors
+    - dolores-umbridge
+    - little-whinging
+    - ministry-control
+    - off-campus-security
+    - second-war
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
+  ootp-ch08-007:
+    title: 'Student Conduct Beyond School: Emergency Exceptions and Limits on Ministry
+      Discipline'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - emergency-exception
+    - expulsion
+    - muggle-witness
+    - school-autonomy
+    - underage-magic
+    - wand-sanctions
+    - wizengamot-verdict
+    source_unit: ootp-ch08
+    output_yaml: sources/book-05/chapter-08-the-hearing.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9582,6 +9693,7 @@ by_tag:
   - ps-ch05-002
   advanced-magic:
   - cos-ch10-002
+  - ootp-ch08-003
   - poa-ch08-005
   - poa-ch12-002
   - poa-ch21-006
@@ -9619,6 +9731,7 @@ by_tag:
   - gof-ch31-001
   amelia-bones:
   - ootp-ch07-001
+  - ootp-ch08-003
   ancient-creature:
   - cos-ch15-007
   ancient-magic:
@@ -9736,6 +9849,8 @@ by_tag:
   - gof-ch30-003
   - gof-ch30-006
   - ootp-ch02-004
+  - ootp-ch08-001
+  - ootp-ch08-006
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -10128,6 +10243,8 @@ by_tag:
   - ps-ch16-001
   charms-classroom:
   - ps-ch09-006
+  charter-of-rights:
+  - ootp-ch08-004
   cheating:
   - gof-ch20-002
   - gof-ch24-006
@@ -10278,10 +10395,13 @@ by_tag:
   - poa-ch06-001
   course-selection:
   - cos-ch14-002
+  court-scribe:
+  - ootp-ch08-002
   courtroom:
   - gof-ch30-003
   courtroom-ten:
   - ootp-ch07-007
+  - ootp-ch08-001
   courtyard:
   - ps-ch11-003
   covered-up-events:
@@ -10454,6 +10574,7 @@ by_tag:
   - gof-ch37-002
   - ootp-ch01-005
   - ootp-ch02-005
+  - ootp-ch08-003
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -10483,6 +10604,8 @@ by_tag:
   - gof-ch09-006
   dementor-imitation:
   - poa-ch13-004
+  dementor-witness:
+  - ootp-ch08-005
   dementors:
   - gof-ch02-006
   - gof-ch14-004
@@ -10491,6 +10614,8 @@ by_tag:
   - ootp-ch01-004
   - ootp-ch02-004
   - ootp-ch02-005
+  - ootp-ch08-003
+  - ootp-ch08-006
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -10562,6 +10687,7 @@ by_tag:
   - ootp-ch07-001
   - ootp-ch07-002
   - ootp-ch07-007
+  - ootp-ch08-002
   discipline:
   - cos-ch05-005
   - ps-ch08-003
@@ -10610,6 +10736,8 @@ by_tag:
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
+  dolores-umbridge:
+  - ootp-ch08-006
   doors:
   - ps-ch08-001
   dormitories:
@@ -10642,6 +10770,8 @@ by_tag:
   dress-robes:
   - gof-ch10-007
   - gof-ch22-001
+  due-process:
+  - ootp-ch08-004
   dueling-club:
   - cos-ch11-003
   - gof-ch34-001
@@ -10696,6 +10826,8 @@ by_tag:
   - ootp-ch05-006
   - ootp-ch05-007
   - ootp-ch06-007
+  - ootp-ch08-002
+  - ootp-ch08-004
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10794,6 +10926,8 @@ by_tag:
   - ps-ch17-003
   emergency-departure:
   - gof-ch10-002
+  emergency-exception:
+  - ootp-ch08-007
   emergency-investigation:
   - gof-ch35-007
   emergency-lockdown:
@@ -10895,6 +11029,7 @@ by_tag:
   - cos-ch15-006
   - ootp-ch01-003
   - ootp-ch02-002
+  - ootp-ch08-007
   - poa-ch02-003
   - poa-ch03-001
   - ps-ch04-007
@@ -12157,6 +12292,7 @@ by_tag:
   - gof-ch26-007
   judicial-procedure:
   - ootp-ch07-007
+  - ootp-ch08-001
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -12236,6 +12372,8 @@ by_tag:
   - ps-ch13-004
   lestrange-family:
   - ootp-ch06-006
+  lestranges:
+  - ootp-ch08-001
   levitation:
   - ps-ch10-001
   library:
@@ -12285,6 +12423,8 @@ by_tag:
   - ootp-ch01-004
   - ootp-ch01-005
   - ootp-ch02-001
+  - ootp-ch08-005
+  - ootp-ch08-006
   locker-room:
   - ps-ch11-004
   locker-rooms:
@@ -12398,6 +12538,7 @@ by_tag:
   - gof-ch31-005
   - ootp-ch04-003
   - ootp-ch07-003
+  - ootp-ch08-001
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -12468,6 +12609,9 @@ by_tag:
   - ootp-ch07-001
   - ootp-ch07-004
   - ootp-ch07-006
+  - ootp-ch08-002
+  - ootp-ch08-004
+  - ootp-ch08-005
   magical-locking:
   - gof-ch25-006
   magical-maintenance:
@@ -12671,6 +12815,8 @@ by_tag:
   - poa-ch21-002
   ministry-contacts:
   - gof-ch36-006
+  ministry-control:
+  - ootp-ch08-006
   ministry-crowd-control:
   - gof-ch08-006
   ministry-departments:
@@ -12689,6 +12835,8 @@ by_tag:
   ministry-logistics:
   - gof-ch07-006
   - gof-ch10-002
+  ministry-monitoring:
+  - ootp-ch08-005
   ministry-of-magic:
   - cos-ch02-005
   - cos-ch03-004
@@ -12737,6 +12885,8 @@ by_tag:
   - ootp-ch07-005
   - ootp-ch07-006
   - ootp-ch07-007
+  - ootp-ch08-001
+  - ootp-ch08-002
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -12802,6 +12952,7 @@ by_tag:
   mrs-figg:
   - ootp-ch01-002
   - ootp-ch02-001
+  - ootp-ch08-005
   mrs-norris:
   - cos-ch08-002
   - cos-ch08-006
@@ -12892,6 +13043,7 @@ by_tag:
   muggle-witness:
   - ootp-ch01-005
   - ootp-ch02-005
+  - ootp-ch08-007
   muggle-witnesses:
   - ps-ch02-004
   mundungus-fletcher:
@@ -12968,6 +13120,8 @@ by_tag:
   - ootp-ch01-004
   - ootp-ch02-001
   - ootp-ch03-002
+  - ootp-ch08-005
+  - ootp-ch08-006
   off-campus-transport:
   - gof-ch32-001
   - gof-ch34-005
@@ -13128,6 +13282,7 @@ by_tag:
   - ootp-ch02-002
   - ootp-ch02-005
   - ootp-ch03-001
+  - ootp-ch08-003
   - poa-ch20-007
   patronus-charm:
   - poa-ch12-002
@@ -13414,6 +13569,7 @@ by_tag:
   - poa-ch05-007
   professor-lupin:
   - gof-ch14-001
+  - ootp-ch08-003
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -13745,6 +13901,7 @@ by_tag:
   school-autonomy:
   - gof-ch36-005
   - gof-ch37-004
+  - ootp-ch08-007
   school-awards:
   - cos-ch13-002
   school-brooms:
@@ -13912,6 +14069,7 @@ by_tag:
   - ootp-ch04-007
   - ootp-ch05-004
   - ootp-ch05-005
+  - ootp-ch08-006
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -14171,6 +14329,7 @@ by_tag:
   - cos-ch08-002
   squibs:
   - ootp-ch02-001
+  - ootp-ch08-005
   st-mungos:
   - ootp-ch07-003
   stadium:
@@ -14273,6 +14432,7 @@ by_tag:
   - gof-ch04-004
   - ootp-ch02-002
   - ootp-ch02-004
+  - ootp-ch08-002
   statute-of-secrecy-context:
   - ps-ch14-002
   stealth:
@@ -14319,6 +14479,7 @@ by_tag:
   - ootp-ch02-003
   - ootp-ch07-001
   - ootp-ch07-007
+  - ootp-ch08-004
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -14789,6 +14950,9 @@ by_tag:
   - ootp-ch01-003
   - ootp-ch02-002
   - ootp-ch07-001
+  - ootp-ch08-002
+  - ootp-ch08-003
+  - ootp-ch08-007
   - poa-ch02-003
   - poa-ch03-001
   underage-students:
@@ -14928,6 +15092,7 @@ by_tag:
   - cos-ch07-005
   - ootp-ch02-002
   - ootp-ch02-003
+  - ootp-ch08-007
   wand-sparks:
   - ps-ch15-005
   wand-use:
@@ -15018,6 +15183,8 @@ by_tag:
   - gof-ch27-003
   witness-account:
   - gof-ch36-003
+  witnesses:
+  - ootp-ch08-004
   wizard-goblin-relations:
   - ootp-ch05-004
   wizard-law:
@@ -15070,6 +15237,10 @@ by_tag:
   - ootp-ch05-007
   - ootp-ch07-004
   - ootp-ch07-007
+  - ootp-ch08-001
+  - ootp-ch08-004
+  wizengamot-verdict:
+  - ootp-ch08-007
   wolfsbane-potion:
   - poa-ch18-002
   - poa-ch19-001

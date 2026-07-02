@@ -233,6 +233,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Beauxbatons carriage as guest lodging
   - Winter Lodging on the Grounds
 
+## Classes, Curriculum, and Learning
+
+- Defense Against the Dark Arts
+  - Patronus Instruction and Advanced Defensive Magic
+
 ## Classroom Instruction and Practical Magic
 
 - Defense Against the Dark Arts
@@ -379,6 +384,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
 - The Second War and External Threats
+  - Dementor Deployment Beyond Azkaban and Hogwarts
   - Dementors in Little Whinging
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
@@ -509,6 +515,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Enchanted Space Beyond the Castle
   - Expanded Tents and Public Camouflage
+
+## Magical Communities and Families
+
+- Squibs, Muggle Neighbors, and Wizarding Records
+  - Squib Witnesses and Ministry Registration Gaps
 
 ## Magical Creatures and the School Library
 
@@ -771,6 +782,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Apparition Licensing and Risks
 - Ministry Interfaces with Hogwarts
   - Specialist Offices and External Governance Context
+- Ministry Law and School-Age Wizards
+  - Old Courtroom Ten and Wizengamot Procedure
+  - Rights of the Accused in Wizarding Hearings
 - Ministry Offices Affecting Hogwarts
   - Departmental Structure and Internal Infrastructure
 - Ministry Offices Affecting Muggle Relations
@@ -795,8 +809,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wolfsbane Potion and Werewolf Accommodation
 - Student Conduct Beyond School
   - Emergency Exception and Ministry Hearing Procedure
+  - Emergency Exceptions and Limits on Ministry Discipline
   - Hearing Venue Changed to Old Courtroom Ten
   - Official Underage-Magic Expulsion and Wand Sanctions
+  - Underage Magic Hearings and Ministry Procedure
   - Underage Magic and Hogwarts Expulsion Risk
   - Underage Magic and Muggle Household Leverage
 - Student Discipline and Expulsion
