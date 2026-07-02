@@ -9317,6 +9317,103 @@ by_entry:
     - wizengamot
     source_unit: ootp-ch05
     output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch06-001:
+    title: 'Headquarters, Safe Houses, and Secret Keeping: Grimmauld Place security
+      measures'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dumbledore
+    - grimmauld-place
+    - headquarters
+    - protective-magic
+    - secret-keeper
+    - unplottable
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-002:
+    title: 'Pure-Blood Houses, Heirlooms, and Domestic Magic: Enchanted family records
+      and fixtures'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - black-family
+    - grimmauld-place
+    - magical-architecture
+    - permanent-sticking-charm
+    - tapestry
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-003:
+    title: 'Servants, Secrecy, and Family Houses: House-elf knowledge and confidentiality'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - black-family
+    - house-elves
+    - kreacher
+    - operational-secrecy
+    - order-of-the-phoenix
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-004:
+    title: 'Pure-Blood Genealogies and Family Memory: The Black family tree'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - family-motto
+    - genealogy
+    - pure-blood-households
+    - tapestry
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-005:
+    title: 'Pure-Blood Kinship Networks: Intermarriage and disownment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - genealogy
+    - malfoy-family
+    - pure-blood
+    - tonks-family
+    - weasley-family
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-006:
+    title: 'Former Headmasters in Wizarding Memory: Phineas Nigellus Black'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - headmaster
+    - hogwarts-history
+    - house-elves
+    - muggle-hunting
+    - phineas-nigellus
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-007:
+    title: 'Heirlooms, Honors, and Hazardous Objects: Black family cabinet contents'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: medium
+    tags:
+    - black-family
+    - dark-artifacts
+    - genealogy
+    - grimmauld-place
+    - material-culture
+    - order-of-merlin
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9588,6 +9685,12 @@ by_tag:
   - ootp-ch04-003
   - ootp-ch05-001
   - ootp-ch05-002
+  - ootp-ch06-002
+  - ootp-ch06-003
+  - ootp-ch06-004
+  - ootp-ch06-005
+  - ootp-ch06-006
+  - ootp-ch06-007
   black-flames:
   - ps-ch16-007
   black-lake:
@@ -10144,6 +10247,8 @@ by_tag:
   - poa-ch21-004
   dangerous-plants:
   - cos-ch06-002
+  dark-artifacts:
+  - ootp-ch06-007
   dark-arts:
   - cos-ch18-001
   - gof-ch11-004
@@ -10445,6 +10550,7 @@ by_tag:
   - ootp-ch05-005
   - ootp-ch05-006
   - ootp-ch05-007
+  - ootp-ch06-001
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10654,6 +10760,8 @@ by_tag:
   - gof-ch37-001
   family-crests:
   - ootp-ch05-002
+  family-motto:
+  - ootp-ch06-004
   family-notification:
   - cos-ch05-005
   - cos-ch06-001
@@ -10908,6 +11016,10 @@ by_tag:
   - ps-ch04-001
   gargoyle:
   - cos-ch13-006
+  genealogy:
+  - ootp-ch06-004
+  - ootp-ch06-005
+  - ootp-ch06-007
   ghost-customs:
   - cos-ch08-004
   - cos-ch08-005
@@ -11046,6 +11158,9 @@ by_tag:
   - ootp-ch04-003
   - ootp-ch05-001
   - ootp-ch05-002
+  - ootp-ch06-001
+  - ootp-ch06-002
+  - ootp-ch06-007
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -11275,6 +11390,7 @@ by_tag:
   - cos-ch02-003
   - cos-ch12-006
   - cos-ch14-006
+  - ootp-ch06-006
   - ps-ch04-002
   - ps-ch04-006
   - ps-ch06-003
@@ -11315,6 +11431,7 @@ by_tag:
   - ootp-ch03-002
   - ootp-ch04-004
   - ootp-ch05-001
+  - ootp-ch06-001
   heads-of-house:
   - cos-ch05-005
   - cos-ch14-003
@@ -11504,6 +11621,8 @@ by_tag:
   - poa-ch19-007
   hogwarts-hidden:
   - gof-ch11-005
+  hogwarts-history:
+  - ootp-ch06-006
   hogwarts-kitchens:
   - gof-ch12-004
   - gof-ch19-002
@@ -11668,6 +11787,8 @@ by_tag:
   - gof-ch28-001
   - gof-ch35-003
   - ootp-ch04-003
+  - ootp-ch06-003
+  - ootp-ch06-006
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -11905,6 +12026,7 @@ by_tag:
   - poa-ch14-003
   kreacher:
   - ootp-ch04-003
+  - ootp-ch06-003
   kwikspell:
   - cos-ch08-002
   lake:
@@ -12109,6 +12231,7 @@ by_tag:
   - gof-ch29-006
   - gof-ch31-005
   - ootp-ch04-003
+  - ootp-ch06-002
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -12255,6 +12378,8 @@ by_tag:
   - gof-ch35-006
   magical-understanding:
   - gof-ch37-005
+  malfoy-family:
+  - ootp-ch06-005
   mandrake-juice:
   - cos-ch18-002
   mandrakes:
@@ -12306,6 +12431,7 @@ by_tag:
   - ps-ch11-004
   material-culture:
   - ootp-ch05-002
+  - ootp-ch06-007
   maze:
   - gof-ch28-004
   - gof-ch31-002
@@ -12522,6 +12648,8 @@ by_tag:
   - gof-ch04-004
   muggle-households:
   - ps-ch03-004
+  muggle-hunting:
+  - ootp-ch06-006
   muggle-knowledge:
   - ootp-ch02-004
   muggle-newspapers:
@@ -12684,6 +12812,7 @@ by_tag:
   - ootp-ch01-001
   - ootp-ch03-002
   - ootp-ch05-001
+  - ootp-ch06-003
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -12695,6 +12824,7 @@ by_tag:
   - gof-ch36-006
   order-of-merlin:
   - ootp-ch05-007
+  - ootp-ch06-007
   - poa-ch10-006
   order-of-suspension:
   - cos-ch14-006
@@ -12707,6 +12837,7 @@ by_tag:
   - ootp-ch05-001
   - ootp-ch05-003
   - ootp-ch05-005
+  - ootp-ch06-003
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -12838,6 +12969,8 @@ by_tag:
   - cos-ch03-003
   - poa-ch01-004
   - poa-ch04-006
+  permanent-sticking-charm:
+  - ootp-ch06-002
   permission-form:
   - poa-ch02-001
   - poa-ch03-005
@@ -12880,6 +13013,8 @@ by_tag:
   - ps-ch17-003
   philosophers-stone:
   - ps-ch09-007
+  phineas-nigellus:
+  - ootp-ch06-006
   phoenix:
   - cos-ch17-005
   phoenix-feather:
@@ -13171,6 +13306,7 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch04-002
+  - ootp-ch06-001
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -13192,9 +13328,12 @@ by_tag:
   - ootp-ch04-007
   punishment:
   - cos-ch08-002
+  pure-blood:
+  - ootp-ch06-005
   pure-blood-households:
   - ootp-ch04-003
   - ootp-ch05-002
+  - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
   - gof-ch08-003
@@ -13598,6 +13737,8 @@ by_tag:
   secret-headquarters:
   - ootp-ch03-006
   - ootp-ch04-001
+  secret-keeper:
+  - ootp-ch06-001
   secret-passages:
   - poa-ch05-002
   - poa-ch09-001
@@ -14163,6 +14304,8 @@ by_tag:
   - cos-ch10-004
   tapestry:
   - gof-ch25-005
+  - ootp-ch06-002
+  - ootp-ch06-004
   - ps-ch09-006
   task-order:
   - gof-ch20-006
@@ -14275,6 +14418,8 @@ by_tag:
   - cos-ch13-004
   ton-tongue-toffee:
   - gof-ch06-003
+  tonks-family:
+  - ootp-ch06-005
   tournament-aftermath:
   - gof-ch37-001
   tournament-casualty:
@@ -14478,6 +14623,7 @@ by_tag:
   - gof-ch12-004
   unplottable:
   - gof-ch11-005
+  - ootp-ch06-001
   unregistered-magic:
   - poa-ch18-001
   unspeakables:
@@ -14594,6 +14740,7 @@ by_tag:
   - gof-ch03-003
   - gof-ch03-004
   - gof-ch05-001
+  - ootp-ch06-005
   weasleys-wizard-wheezes:
   - gof-ch05-002
   - gof-ch06-003

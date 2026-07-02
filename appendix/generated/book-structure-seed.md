@@ -272,6 +272,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hogsmeade Routes and Outlying Terrain
   - Mountain Cave Beyond the Village Edge
 
+## Headmasters and School Authority
+
+- Former Headmasters in Wizarding Memory
+  - Phineas Nigellus Black
+
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
@@ -893,6 +898,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
 
+## The Second War and Hogwarts-Connected Organizations
+
+- Headquarters, Safe Houses, and Secret Keeping
+  - Grimmauld Place security measures
+
 ## Wars, Crises, and School Memory
 
 - First Wizarding War Legal Aftermath
@@ -907,3 +917,19 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The First Wizarding War in Later Hogwarts Teaching
   - Former Death Eater Associations During the Triwizard Year
   - Imperius Curse culpability and postwar denials
+
+## Wizarding Households Connected to Hogwarts
+
+- Heirlooms, Honors, and Hazardous Objects
+  - Black family cabinet contents
+- Pure-Blood Houses, Heirlooms, and Domestic Magic
+  - Enchanted family records and fixtures
+- Servants, Secrecy, and Family Houses
+  - House-elf knowledge and confidentiality
+
+## Wizarding Society and Blood Status
+
+- Pure-Blood Genealogies and Family Memory
+  - The Black family tree
+- Pure-Blood Kinship Networks
+  - Intermarriage and disownment
