@@ -1,0 +1,336 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Four anchor; extracted only PDF pages 1645-1662 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-02'
+  processor_notes: >-
+    Processed only Book 5, Chapter Five. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and institutional evidence. No explicit Hogwarts: A History title reference was
+    found. Entries focus on Order headquarters evidence and operational secrecy,
+    pure-blood material culture at Grimmauld Place, age and school-status limits for
+    Order membership, goblin political neutrality, Voldemort's post-return
+    recruitment strategy, Dumbledore's political standing, and Ministry/press
+    pressure against Dumbledore's warning. Quote excerpts were kept under 25 words
+    per entry.
+
+entries:
+- id: ootp-ch05-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1645
+  printed_page: null
+  extracted_text_lines: 14-16; 24-54
+  text_anchor:
+    start_phrase: Hasn't anyone told you?
+    end_phrase: and the scrolls vanished
+    local_occurrence_note: Sirius identifies Grimmauld Place as his inherited family house offered to Dumbledore, while Bill and Mrs. Weasley rapidly hide meeting parchments including a building plan.
+  nearby_context: Harry enters the basement kitchen just after an Order meeting, sees rolls of parchment and a possible building plan, and watches Bill vanish the scrolls after Mrs. Weasley notices Harry looking.
+  match_terms:
+  - Grimmauld Place
+  - headquarters
+  - Black family
+  - Dumbledore
+  - building plan
+  - Evanesco
+  quote_excerpt_short: "I offered it to Dumbledore for headquarters"
+  source_note: The chapter confirms number twelve, Grimmauld Place as Sirius Black's inherited house and Order headquarters, with meeting documents treated as confidential immediately after Harry arrives.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - grimmauld-place
+  - order-of-the-phoenix
+  - headquarters
+  - black-family
+  - operational-secrecy
+  - dumbledore
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Headquarters, Safe Houses, and Secret-Keeping
+  candidate_section: Grimmauld Place as Inherited Order Headquarters
+  reason_for_placement: The passage connects a private pure-blood family house to Dumbledore's wartime organization and shows practical document secrecy at headquarters.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that Dumbledore's Second War network operated from an inherited Black-family property rather than a school or Ministry site.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch04-001
+    - ootp-ch04-004
+    notes: ootp-ch04-001 records the hidden building's reveal and ootp-ch04-004 defines the Order's headquarters meetings; this entry adds Sirius's ownership and the immediate handling of confidential meeting papers.
+  confidence: high
+  limitations: The visible plan is not identified, and the chapter does not reveal the meeting agenda.
+
+- id: ootp-ch05-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1649
+  printed_page: null
+  extracted_text_lines: 132-140
+  text_anchor:
+    start_phrase: Trying to make this place fit for human habitation
+    end_phrase: embossed with the Black family crest
+    local_occurrence_note: Sirius explains the neglected house and identifies a goblet as fifteenth-century goblin-wrought silver carrying the Black family crest.
+  nearby_context: Sirius describes the house as unoccupied for ten years except for an elderly house-elf, and Mundungus evaluates the goblet as a possible theft or resale object.
+  match_terms:
+  - human habitation
+  - house-elf
+  - solid silver
+  - fifteenth-century
+  - goblin-wrought
+  - Black family crest
+  quote_excerpt_short: "Finest fifteenth-century goblin-wrought silver"
+  source_note: The chapter supplies material-culture evidence for the Black family, including an old goblin-made silver object marked with the family crest in the ancestral house.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - black-family
+  - goblin-wrought-silver
+  - family-crests
+  - grimmauld-place
+  - pure-blood-households
+  - material-culture
+  candidate_part: Castle, Grounds, and Magical Architecture
+  candidate_chapter: Wizarding Households Connected to Hogwarts
+  candidate_section: Black Family Artifacts and Goblin-Made Silver
+  reason_for_placement: The object gives concrete evidence for old-family wealth, heraldry, and goblin craft preserved in a household tied to many Hogwarts alumni.
+  relevance_to_hogwarts_a_history: A later edition can cite this when discussing prominent wizarding families, inherited artifacts, and the broader cultural world around Hogwarts houses and students.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found no prior entry for Black family crests, fifteenth-century goblin-wrought silver, or this Grimmauld Place artifact.
+  confidence: high
+  limitations: The chapter identifies the artifact but does not give provenance beyond Sirius's description.
+
+- id: ootp-ch05-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1653
+  printed_page: null
+  extracted_text_lines: 264-291; 303-340; 377-391; 573-584
+  text_anchor:
+    start_phrase: we're not allowed in the Order
+    end_phrase: Wizards who have left school
+    local_occurrence_note: Adults dispute what Harry may be told, Fred and George assert legal adulthood, and Lupin finally states that Order membership is only for overage wizards who have left school.
+  nearby_context: Mrs. Weasley excludes younger students from the discussion, Mr. Weasley concedes that Fred and George are legally adults, and Harry asks to join before Lupin refuses.
+  match_terms:
+  - too young
+  - needs to know
+  - still at school
+  - legally adults
+  - overage wizards
+  - left school
+  quote_excerpt_short: "only of overage wizards"
+  source_note: The chapter distinguishes legal adulthood from school status and states that Order membership is restricted to overage wizards who have left school.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - order-of-the-phoenix
+  - membership
+  - overage-wizards
+  - school-status
+  - legal-adulthood
+  - student-boundaries
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Age, School Status, and Adult Authority
+  candidate_section: Order Membership and Overage School Leavers
+  reason_for_placement: The passage clarifies a wartime organization's age boundary while preserving a legal distinction relevant to Hogwarts students who have come of age.
+  relevance_to_hogwarts_a_history: A later edition can use this as Harry-era evidence for how adult legal status, school attendance, and protective authority overlapped for older Hogwarts students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch04-004
+    notes: ootp-ch04-004 establishes Order membership secrecy and nonmember exclusion; this entry adds the explicit overage-and-left-school membership threshold and the legal-adult status of Fred and George while still at school.
+  confidence: high
+  limitations: The rule is stated by Lupin in conversation rather than quoted from formal Order bylaws.
+
+- id: ootp-ch05-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1651
+  printed_page: null
+  extracted_text_lines: 200-214
+  text_anchor:
+    start_phrase: Mr. Weasley, Bill, and Lupin were having
+    end_phrase: those goblins never got their gold from him
+    local_occurrence_note: Bill, Arthur, and Lupin discuss whether goblins will remain neutral, join Voldemort, or be tempted by freedoms denied by wizards for centuries.
+  nearby_context: The discussion names a murdered goblin family near Nottingham, Ragnok's anti-wizard mood, and Bagman's unpaid goblin creditors after the tournament scandal.
+  match_terms:
+  - goblins
+  - take sides
+  - freedoms
+  - Ragnok
+  - Bagman
+  - Ministry cover-up
+  quote_excerpt_short: "freedoms we've been denying them for centuries"
+  source_note: The chapter records Order-side concern that goblins may withhold allegiance or be tempted by political concessions because of long-standing wizard restrictions and recent Ministry injustice.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - goblins
+  - wizard-goblin-relations
+  - ragnok
+  - ludo-bagman
+  - ministry-of-magic
+  - second-war
+  candidate_part: Peoples, Beings, and Magical Society
+  candidate_chapter: Goblins and Wizarding Political Relations
+  candidate_section: Goblin Neutrality and Recruitment Pressures
+  reason_for_placement: The passage links Second War alliance-building to older wizard-goblin grievances and to the recent Bagman debt scandal.
+  relevance_to_hogwarts_a_history: A later edition can use this context for goblin relations around wizarding institutions, including Gringotts, Ministry politics, and Hogwarts-connected families.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch37-007
+    notes: gof-ch37-007 records Bagman's goblin debts and tournament motive; this entry adds Ragnok, goblin political neutrality, old grievances over denied freedoms, and Second War recruitment risk.
+  confidence: medium
+  limitations: The discussion is speculative Order analysis, not a goblin statement of policy.
+
+- id: ootp-ch05-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1658
+  printed_page: null
+  extracted_text_lines: 425-450; 547-559
+  text_anchor:
+    start_phrase: Nobody apart from his Death Eaters
+    end_phrase: Something he didn't have last time
+    local_occurrence_note: Sirius and Lupin explain that Harry's survival alerted Dumbledore, who recalled the Order quickly, and that Voldemort is rebuilding forces while pursuing a secret weapon.
+  nearby_context: Bill says Dumbledore is the only wizard Voldemort feared, Sirius identifies recruitment targets including giants and Dark creatures, and the adults stop before naming the weapon.
+  match_terms:
+  - Death Eaters
+  - Dumbledore
+  - recalled the Order
+  - army
+  - giants
+  - weapon
+  quote_excerpt_short: "recalled the Order of the Phoenix"
+  source_note: The chapter describes Dumbledore's rapid Order recall after Voldemort's return and identifies Voldemort's immediate strategy as covert recruitment plus pursuit of an unnamed weapon.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - voldemort
+  - order-of-the-phoenix
+  - death-eaters
+  - giants
+  - dark-creatures
+  - dumbledore
+  - second-war
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts-Connected Organizations
+  candidate_section: Order Recall and Voldemort's Recruitment Strategy
+  reason_for_placement: The passage ties the graveyard aftermath to Dumbledore's organized response and to the renewed alliance-building that will shape the war around Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can cite this as direct Order testimony about why Dumbledore's extra-school organization reactivated immediately after the Triwizard crisis.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup surfaced broad Voldemort and Death Eater history but no prior entry for Dumbledore recalling the Order about an hour after the return or this post-return recruitment assessment.
+  confidence: high
+  limitations: The weapon is deliberately unnamed in this chapter, so that detail remains unresolved here.
+
+- id: ootp-ch05-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1659
+  printed_page: null
+  extracted_text_lines: 468-484
+  text_anchor:
+    start_phrase: Fudge is frightened of him
+    end_phrase: stirring up trouble for the sake of it
+    local_occurrence_note: Arthur and Lupin explain Fudge's fear that Dumbledore wants the Minister's job and recall Dumbledore's popular support when Millicent Bagnold retired.
+  nearby_context: The adults say Dumbledore never wanted the office, that Fudge had often asked him for advice early in his Ministry, and that Fudge now interprets Dumbledore's warning as political destabilization.
+  match_terms:
+  - Fudge
+  - Dumbledore
+  - Minister of Magic
+  - Millicent Bagnold
+  - popular support
+  - help and advice
+  quote_excerpt_short: "Dumbledore never applied for the job"
+  source_note: The chapter records Dumbledore's past public support as a possible Minister of Magic and Fudge's shift from seeking Dumbledore's advice to fearing his political influence.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - cornelius-fudge
+  - minister-of-magic
+  - millicent-bagnold
+  - wizarding-politics
+  - magical-reputation
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmasters, Ministers, and Public Authority
+  candidate_section: Dumbledore's Refused Political Power
+  reason_for_placement: The passage situates Hogwarts's headmaster within wider wizarding governance and explains why Ministry suspicion attached to his warning.
+  relevance_to_hogwarts_a_history: A later edition can cite this when explaining Dumbledore's unusual public authority beyond Hogwarts and its effect on Ministry-school relations.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found broad Dumbledore reputation and governance entries but no prior entry for the Millicent Bagnold succession, Fudge's early reliance on Dumbledore, or the refused Ministerial role.
+  confidence: high
+  limitations: The account is secondhand from Order members and does not quote official election or appointment records.
+
+- id: ootp-ch05-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Five - The Order of the Phoenix
+  chapter_start_pdf_page: 1645
+  chapter_end_pdf_page: 1662
+  pdf_page: 1659
+  printed_page: null
+  extracted_text_lines: 493-535; 541-546
+  text_anchor:
+    start_phrase: While the Ministry insists there is nothing to fear
+    end_phrase: You-Know-Who will have a clear field
+    local_occurrence_note: Lupin describes Ministry pressure on the Daily Prophet, Sirius explains the need for Ministry spies, and the adults list offices and honors being stripped from Dumbledore.
+  nearby_context: Sirius cannot publicly campaign because of the bounty on him, Lupin cites werewolf prejudice, Tonks and Arthur risk Ministry jobs, and Kingsley misdirects the hunt for Sirius from inside the Ministry.
+  match_terms:
+  - Daily Prophet
+  - Ministry spies
+  - International Confederation of Wizards
+  - Chief Warlock
+  - Wizengamot
+  - Order of Merlin
+  quote_excerpt_short: "leaning heavily on the Daily Prophet"
+  source_note: The chapter links Ministry information control, Order infiltration of Ministry offices, and Dumbledore's removal from major wizarding posts after publicly announcing Voldemort's return.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - daily-prophet
+  - dumbledore
+  - wizengamot
+  - international-confederation
+  - order-of-merlin
+  - political-pressure
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Pressure and Public Records
+  candidate_section: Press Suppression, Ministry Spies, and Dumbledore's Offices
+  reason_for_placement: The passage records how wartime evidence was filtered through public institutions and how Dumbledore's standing in those institutions was attacked.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain why official public records around the Second War diverged from Hogwarts and Order testimony.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch04-007
+    - gof-ch36-005
+    notes: ootp-ch04-007 records Ministry and Prophet pressure against Dumbledore's allies and Harry; gof-ch36-005 records Fudge's governance threat to Dumbledore; this entry adds Daily Prophet suppression, Ministry spies, and Dumbledore's loss of Confederation and Wizengamot offices.
+  confidence: high
+  limitations: The chapter summarizes political events through Order conversation rather than reproducing the Prophet articles or official Ministry notices.

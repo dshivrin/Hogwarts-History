@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Five - The Order of the Phoenix
-- Page range: 1645-1662
+- Chapter: Chapter Six - The Noble and Most Ancient House of Black
+- Page range: 1663-1684
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+- Output YAML: `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
 
 ## Minimal Context
 

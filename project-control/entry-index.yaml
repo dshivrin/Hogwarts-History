@@ -9210,6 +9210,113 @@ by_entry:
     - second-war
     source_unit: ootp-ch04
     output_yaml: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  ootp-ch05-001:
+    title: 'Headquarters, Safe Houses, and Secret-Keeping: Grimmauld Place as Inherited
+      Order Headquarters'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - black-family
+    - dumbledore
+    - grimmauld-place
+    - headquarters
+    - operational-secrecy
+    - order-of-the-phoenix
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch05-002:
+    title: 'Wizarding Households Connected to Hogwarts: Black Family Artifacts and
+      Goblin-Made Silver'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - black-family
+    - family-crests
+    - goblin-wrought-silver
+    - grimmauld-place
+    - material-culture
+    - pure-blood-households
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch05-003:
+    title: 'Age, School Status, and Adult Authority: Order Membership and Overage
+      School Leavers'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - legal-adulthood
+    - membership
+    - order-of-the-phoenix
+    - overage-wizards
+    - school-status
+    - student-boundaries
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch05-004:
+    title: 'Goblins and Wizarding Political Relations: Goblin Neutrality and Recruitment
+      Pressures'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - goblins
+    - ludo-bagman
+    - ministry-of-magic
+    - ragnok
+    - second-war
+    - wizard-goblin-relations
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch05-005:
+    title: 'The Second War and Hogwarts-Connected Organizations: Order Recall and
+      Voldemort''s Recruitment Strategy'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dark-creatures
+    - death-eaters
+    - dumbledore
+    - giants
+    - order-of-the-phoenix
+    - second-war
+    - voldemort
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch05-006:
+    title: 'Headmasters, Ministers, and Public Authority: Dumbledore''s Refused Political
+      Power'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cornelius-fudge
+    - dumbledore
+    - magical-reputation
+    - millicent-bagnold
+    - minister-of-magic
+    - wizarding-politics
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  ootp-ch05-007:
+    title: 'Ministry Pressure and Public Records: Press Suppression, Ministry Spies,
+      and Dumbledore''s Offices'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - daily-prophet
+    - dumbledore
+    - international-confederation
+    - ministry-of-magic
+    - order-of-merlin
+    - political-pressure
+    - wizengamot
+    source_unit: ootp-ch05
+    output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9479,6 +9586,8 @@ by_tag:
   - gof-ch27-001
   black-family:
   - ootp-ch04-003
+  - ootp-ch05-001
+  - ootp-ch05-002
   black-flames:
   - ps-ch16-007
   black-lake:
@@ -9883,6 +9992,7 @@ by_tag:
   - gof-ch36-001
   - gof-ch36-004
   - gof-ch36-005
+  - ootp-ch05-006
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -10022,6 +10132,7 @@ by_tag:
   - gof-ch37-006
   - ootp-ch01-001
   - ootp-ch04-007
+  - ootp-ch05-007
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -10040,6 +10151,7 @@ by_tag:
   - gof-ch19-006
   dark-creatures:
   - gof-ch14-001
+  - ootp-ch05-005
   dark-detectors:
   - gof-ch20-003
   - gof-ch35-005
@@ -10070,6 +10182,7 @@ by_tag:
   - gof-ch27-005
   - gof-ch30-004
   - ootp-ch04-005
+  - ootp-ch05-005
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -10328,6 +10441,10 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-004
   - ootp-ch04-007
+  - ootp-ch05-001
+  - ootp-ch05-005
+  - ootp-ch05-006
+  - ootp-ch05-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10535,6 +10652,8 @@ by_tag:
   family-care:
   - gof-ch36-002
   - gof-ch37-001
+  family-crests:
+  - ootp-ch05-002
   family-notification:
   - cos-ch05-005
   - cos-ch06-001
@@ -10813,6 +10932,7 @@ by_tag:
   giants:
   - gof-ch23-006
   - gof-ch36-006
+  - ootp-ch05-005
   gilderoy-lockhart:
   - cos-ch04-006
   - cos-ch06-006
@@ -10845,8 +10965,11 @@ by_tag:
   - poa-ch05-002
   goblin-rebellions:
   - gof-ch22-005
+  goblin-wrought-silver:
+  - ootp-ch05-002
   goblins:
   - gof-ch37-007
+  - ootp-ch05-004
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
@@ -10921,6 +11044,8 @@ by_tag:
   - ootp-ch04-001
   - ootp-ch04-002
   - ootp-ch04-003
+  - ootp-ch05-001
+  - ootp-ch05-002
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -11189,6 +11314,7 @@ by_tag:
   headquarters:
   - ootp-ch03-002
   - ootp-ch04-004
+  - ootp-ch05-001
   heads-of-house:
   - cos-ch05-005
   - cos-ch14-003
@@ -11684,6 +11810,8 @@ by_tag:
   - gof-ch08-005
   international-code-of-wizarding-secrecy:
   - gof-ch26-002
+  international-confederation:
+  - ootp-ch05-007
   international-magical-cooperation:
   - gof-ch05-003
   - gof-ch12-007
@@ -11806,6 +11934,8 @@ by_tag:
   - poa-ch15-007
   leg-locker-curse:
   - ps-ch13-003
+  legal-adulthood:
+  - ootp-ch05-003
   legal-precedents:
   - poa-ch11-003
   legal-status:
@@ -11907,6 +12037,7 @@ by_tag:
   - gof-ch24-006
   - gof-ch30-005
   - gof-ch37-007
+  - ootp-ch05-004
   luggage:
   - gof-ch11-002
   - poa-ch05-001
@@ -12066,6 +12197,7 @@ by_tag:
   - gof-ch13-002
   magical-reputation:
   - cos-ch02-003
+  - ootp-ch05-006
   magical-residents:
   - cos-ch05-003
   - cos-ch15-003
@@ -12172,6 +12304,8 @@ by_tag:
   - poa-ch13-003
   - poa-ch15-006
   - ps-ch11-004
+  material-culture:
+  - ootp-ch05-002
   maze:
   - gof-ch28-004
   - gof-ch31-002
@@ -12198,6 +12332,7 @@ by_tag:
   - poa-ch04-002
   membership:
   - ootp-ch04-004
+  - ootp-ch05-003
   memory:
   - ps-ch02-005
   memory-charms:
@@ -12224,9 +12359,12 @@ by_tag:
   - gof-ch27-001
   metamorphmagus:
   - ootp-ch03-004
+  millicent-bagnold:
+  - ootp-ch05-006
   minister-of-magic:
   - cos-ch04-005
   - gof-ch27-007
+  - ootp-ch05-006
   - poa-ch03-005
   ministry-authority:
   - poa-ch21-001
@@ -12288,6 +12426,8 @@ by_tag:
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
+  - ootp-ch05-004
+  - ootp-ch05-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -12543,6 +12683,7 @@ by_tag:
   operational-secrecy:
   - ootp-ch01-001
   - ootp-ch03-002
+  - ootp-ch05-001
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -12553,6 +12694,7 @@ by_tag:
   order-network:
   - gof-ch36-006
   order-of-merlin:
+  - ootp-ch05-007
   - poa-ch10-006
   order-of-suspension:
   - cos-ch14-006
@@ -12562,6 +12704,9 @@ by_tag:
   - ootp-ch04-004
   - ootp-ch04-005
   - ootp-ch04-006
+  - ootp-ch05-001
+  - ootp-ch05-003
+  - ootp-ch05-005
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -12572,6 +12717,8 @@ by_tag:
   outside-school-magic:
   - ootp-ch01-003
   - poa-ch02-003
+  overage-wizards:
+  - ootp-ch05-003
   owl-post:
   - cos-ch01-003
   - cos-ch01-005
@@ -12767,6 +12914,7 @@ by_tag:
   - gof-ch19-003
   political-pressure:
   - ootp-ch04-007
+  - ootp-ch05-007
   poltergeist:
   - poa-ch07-005
   - ps-ch08-002
@@ -13046,6 +13194,7 @@ by_tag:
   - cos-ch08-002
   pure-blood-households:
   - ootp-ch04-003
+  - ootp-ch05-002
   pure-blood-prejudice:
   - cos-ch07-003
   - gof-ch08-003
@@ -13150,6 +13299,8 @@ by_tag:
   - ps-ch13-006
   radar:
   - gof-ch28-003
+  ragnok:
+  - ootp-ch05-004
   rats:
   - poa-ch04-005
   ravenclaw:
@@ -13377,6 +13528,8 @@ by_tag:
   - gof-ch37-006
   school-spectators:
   - gof-ch35-001
+  school-status:
+  - ootp-ch05-003
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
@@ -13422,6 +13575,8 @@ by_tag:
   second-war:
   - ootp-ch04-004
   - ootp-ch04-007
+  - ootp-ch05-004
+  - ootp-ch05-005
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -13797,6 +13952,8 @@ by_tag:
   - gof-ch19-002
   student-books:
   - poa-ch13-005
+  student-boundaries:
+  - ootp-ch05-003
   student-conduct:
   - gof-ch22-001
   student-conflict:
@@ -14379,6 +14536,7 @@ by_tag:
   - gof-ch34-004
   - gof-ch37-004
   - gof-ch37-005
+  - ootp-ch05-005
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -14502,6 +14660,8 @@ by_tag:
   - gof-ch27-003
   witness-account:
   - gof-ch36-003
+  wizard-goblin-relations:
+  - ootp-ch05-004
   wizard-law:
   - poa-ch02-003
   wizard-school:
@@ -14522,6 +14682,8 @@ by_tag:
   - gof-ch14-005
   - gof-ch30-003
   - poa-ch21-003
+  wizarding-politics:
+  - ootp-ch05-006
   wizarding-prejudice:
   - gof-ch23-006
   - gof-ch29-007
@@ -14544,6 +14706,8 @@ by_tag:
   - ps-ch01-002
   wizarding-world:
   - cos-ch01-003
+  wizengamot:
+  - ootp-ch05-007
   wolfsbane-potion:
   - poa-ch18-002
   - poa-ch19-001

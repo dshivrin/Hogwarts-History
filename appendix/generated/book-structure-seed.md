@@ -156,6 +156,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Castle, Grounds, and Magical Architecture
 
 - Wizarding Households Connected to Hogwarts
+  - Black Family Artifacts and Goblin-Made Silver
   - Grimmauld Place and Black Family Domestic Evidence
 
 ## Ceremonies and School Traditions
@@ -378,6 +379,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts-Connected Organizations
   - Order Leadership, Membership, and Headquarters Meetings
   - Order Operations and Intelligence Work
+  - Order Recall and Voldemort's Recruitment Strategy
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -548,6 +550,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
 
+## Peoples, Beings, and Magical Society
+
+- Goblins and Wizarding Political Relations
+  - Goblin Neutrality and Recruitment Pressures
+
 ## Peoples, Creatures, and Non-Human Communities
 
 - House-Elves and Hogwarts Labor
@@ -600,6 +607,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trapdoor and Plant-Based Protections
 - Headquarters, Safe Houses, and Secret-Keeping
   - Dumbledore's Put-Outer and Grimmauld Place Arrival
+  - Grimmauld Place as Inherited Order Headquarters
   - Layered Entry Controls at Grimmauld Place
   - Number Twelve Revealed After Memorized Disclosure
 - House Common-Room Security
@@ -688,6 +696,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Rules, Discipline, and Governance
 
+- Age, School Status, and Adult Authority
+  - Order Membership and Overage School Leavers
 - Caretakers, Corridor Patrols, and Restricted Areas
   - Detention Logistics and Punishments
   - Filch's Office, Punishment Records, and Mrs. Norris
@@ -717,6 +727,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dumbledore's Removal and Continuing Influence
   - Dumbledore's Reputation
   - Ministry Discipline Revised After Headmaster Intervention
+- Headmasters, Ministers, and Public Authority
+  - Dumbledore's Refused Political Power
 - Holiday Conduct and Underage Magic
   - Magic Outside School
   - Ministry Warning Letters and Secrecy Law
@@ -745,6 +757,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Specialist Offices and External Governance Context
 - Ministry Pressure and Public Records
   - Fudge, the Prophet, and Dumbledore's Allies
+  - Press Suppression, Ministry Spies, and Dumbledore's Offices
 - Prefects and Student Authority
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority

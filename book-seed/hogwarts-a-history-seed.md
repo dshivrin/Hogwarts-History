@@ -2633,6 +2633,20 @@ Summary: The available evidence includes 1 source item, led by: Snape explicitly
   - Corroborates: `ps-ch08-007`, `ps-ch09-005`, `ps-ch10-005`. Earlier entries seed House-point discipline and nighttime rule-breaking; this entry adds a direct fighting rule.
   - Notes: The passage does not state the formal written rule text or ordinary range of penalties for fighting.
 
+### Chapter: Age, School Status, and Adult Authority
+
+#### Section: Order Membership and Overage School Leavers
+
+Summary: The available evidence includes 1 source item, led by: The chapter distinguishes legal adulthood from school status and states that Order membership is restricted to overage wizards who have left school.
+
+- **Corroboration:** The chapter distinguishes legal adulthood from school status and states that Order membership is restricted to overage wizards who have left school.
+  - Quote: "only of overage wizards"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1653, `ootp-ch05-003`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch04-004`. ootp-ch04-004 establishes Order membership secrecy and nonmember exclusion; this entry adds the explicit overage-and-left-school membership threshold and the legal-adult status of Fred and George while still at school.
+  - Notes: The rule is stated by Lupin in conversation rather than quoted from formal Order bylaws.
+
 ### Chapter: Caretakers, Corridor Patrols, and Restricted Areas
 
 #### Section: Detention Logistics and Punishments
@@ -2840,6 +2854,19 @@ Summary: The available evidence includes 1 source item, led by: A second Ministr
   - Reference type: school_rule_or_policy
   - Notes: The letter does not reveal Dumbledore's legal argument or the Ministry officials involved.
 
+### Chapter: Headmasters, Ministers, and Public Authority
+
+#### Section: Dumbledore's Refused Political Power
+
+Summary: The available evidence includes 1 source item, led by: The chapter records Dumbledore's past public support as a possible Minister of Magic and Fudge's shift from seeking Dumbledore's advice to fearing his political influence.
+
+- **Context:** The chapter records Dumbledore's past public support as a possible Minister of Magic and Fudge's shift from seeking Dumbledore's advice to fearing his political influence.
+  - Quote: "Dumbledore never applied for the job"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1659, `ootp-ch05-006`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account is secondhand from Order members and does not quote official election or appointment records.
+
 ### Chapter: Holiday Conduct and Underage Magic
 
 #### Section: Magic Outside School
@@ -3044,6 +3071,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Reference type: explicit_in_universe_source
   - Corroborates: `ootp-ch01-001`, `gof-ch18-005`, `gof-ch37-006`. ootp-ch01-001 records Harry's reliance on press and censored letters, while GoF entries record Rita Skeeter's distorted reporting and surveillance; this entry adds the coordinated post-return smear and Ministry pressure on Dumbledore allies.
   - Notes: Hermione infers Fudge's role in the smear campaign, and the account is not a direct Ministry or Prophet document.
+
+#### Section: Press Suppression, Ministry Spies, and Dumbledore's Offices
+
+Summary: The available evidence includes 1 source item, led by: The chapter links Ministry information control, Order infiltration of Ministry offices, and Dumbledore's removal from major wizarding posts after publicly announcing Voldemort's return.
+
+- **Corroboration:** The chapter links Ministry information control, Order infiltration of Ministry offices, and Dumbledore's removal from major wizarding posts after publicly announcing Voldemort's return.
+  - Quote: "leaning heavily on the Daily Prophet"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1659, `ootp-ch05-007`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch04-007`, `gof-ch36-005`. ootp-ch04-007 records Ministry and Prophet pressure against Dumbledore's allies and Harry; gof-ch36-005 records Fudge's governance threat to Dumbledore; this entry adds Daily Prophet suppression, Ministry spies, and Dumbledore's loss of Confederation and Wizengamot offices.
+  - Notes: The chapter summarizes political events through Order conversation rather than reproducing the Prophet articles or official Ministry notices.
 
 ### Chapter: Prefects and Student Authority
 
@@ -4000,6 +4039,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: security_or_protection
   - Notes: The passage does not yet name the concealment charm protecting Grimmauld Place or explain the legal and magical status of the headquarters.
+
+#### Section: Grimmauld Place as Inherited Order Headquarters
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms number twelve, Grimmauld Place as Sirius Black's inherited house and Order headquarters, with meeting documents treated as confidential immediately after Harry arrives.
+
+- **Corroboration:** The chapter confirms number twelve, Grimmauld Place as Sirius Black's inherited house and Order headquarters, with meeting documents treated as confidential immediately after Harry arrives.
+  - Quote: "I offered it to Dumbledore for headquarters"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1645, `ootp-ch05-001`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch04-001`, `ootp-ch04-004`. ootp-ch04-001 records the hidden building's reveal and ootp-ch04-004 defines the Order's headquarters meetings; this entry adds Sirius's ownership and the immediate handling of confidential meeting papers.
+  - Notes: The visible plan is not identified, and the chapter does not reveal the meeting agenda.
 
 #### Section: Layered Entry Controls at Grimmauld Place
 
@@ -6322,6 +6373,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter sket
   - Corroborates: `ootp-ch03-002`. ootp-ch03-002 identifies the guard operation; this entry adds broader operational categories and names Bill, Charlie, and Snape in Order work.
   - Notes: Much of the operational detail is secondhand, inferred by minors from overheard fragments and not confirmed by meeting records.
 
+#### Section: Order Recall and Voldemort's Recruitment Strategy
+
+Summary: The available evidence includes 1 source item, led by: The chapter describes Dumbledore's rapid Order recall after Voldemort's return and identifies Voldemort's immediate strategy as covert recruitment plus pursuit of an unnamed weapon.
+
+- **Context:** The chapter describes Dumbledore's rapid Order recall after Voldemort's return and identifies Voldemort's immediate strategy as covert recruitment plus pursuit of an unnamed weapon.
+  - Quote: "recalled the Order of the Phoenix"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1658, `ootp-ch05-005`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The weapon is deliberately unnamed in this chapter, so that detail remains unresolved here.
+
 ### Chapter: The Sirius Black Crisis
 
 #### Section: Dementors, False Conviction, and Escape
@@ -6782,6 +6844,17 @@ Summary: The available evidence includes 1 source item, led by: Christmas break 
 ## Part: Castle, Grounds, and Magical Architecture
 
 ### Chapter: Wizarding Households Connected to Hogwarts
+
+#### Section: Black Family Artifacts and Goblin-Made Silver
+
+Summary: The available evidence includes 1 source item, led by: The chapter supplies material-culture evidence for the Black family, including an old goblin-made silver object marked with the family crest in the ancestral house.
+
+- **Context:** The chapter supplies material-culture evidence for the Black family, including an old goblin-made silver object marked with the family crest in the ancestral house.
+  - Quote: "Finest fifteenth-century goblin-wrought silver"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1649, `ootp-ch05-002`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The chapter identifies the artifact but does not give provenance beyond Sirius's description.
 
 #### Section: Grimmauld Place and Black Family Domestic Evidence
 
@@ -7320,6 +7393,22 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Reference type: explicit_hogwarts_a_history
   - Corroborates: `gof-ch12-007`, `gof-ch12-004`, `gof-ch14-007`. gof-ch12-007 covers the Triwizard revival and participating schools; gof-ch12-004 and gof-ch14-007 cover Hogwarts house-elf labor and S.P.E.W.; this entry adds an explicit Hogwarts: A History citation and reliability critique.
   - Notes: Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
+
+## Part: Peoples, Beings, and Magical Society
+
+### Chapter: Goblins and Wizarding Political Relations
+
+#### Section: Goblin Neutrality and Recruitment Pressures
+
+Summary: The available evidence includes 1 source item, led by: The chapter records Order-side concern that goblins may withhold allegiance or be tempted by political concessions because of long-standing wizard restrictions and recent Ministry injustice.
+
+- **Corroboration:** The chapter records Order-side concern that goblins may withhold allegiance or be tempted by political concessions because of long-standing wizard restrictions and recent Ministry injustice.
+  - Quote: "freedoms we've been denying them for centuries"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, PDF p. 1651, `ootp-ch05-004`, `sources/book-05/chapter-05-the-order-of-the-phoenix.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch37-007`. gof-ch37-007 records Bagman's goblin debts and tournament motive; this entry adds Ragnok, goblin political neutrality, old grievances over denied freedoms, and Second War recruitment risk.
+  - Notes: The discussion is speculative Order analysis, not a goblin statement of policy.
 
 ## Part: Peoples, Creatures, and Non-Human Communities
 
