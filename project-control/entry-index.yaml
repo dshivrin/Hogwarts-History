@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-02'
+updated: '2026-07-03'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -9760,6 +9760,112 @@ by_entry:
     - prewett-family
     source_unit: ootp-ch09
     output_yaml: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  ootp-ch10-001:
+    title: 'The Second War and Hogwarts-Connected Organizations: Order Escorts for
+      School Travel'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - guarded-travel
+    - kings-cross
+    - operational-security
+    - order-of-the-phoenix
+    - platform-nine-and-three-quarters
+    - school-travel
+    - sirius-black
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch10-002:
+    title: 'Prefects and Student Authority: Fifth-Year Prefects and Train Patrols'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - discipline
+    - head-boy
+    - head-girl
+    - hogwarts-express
+    - house-system
+    - prefects
+    - student-governance
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch10-003:
+    title: 'Ravenclaw House: House Motto and Student Identity'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - hogwarts-express
+    - house-motto
+    - house-system
+    - luna-lovegood
+    - ravenclaw
+    - student-identity
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch10-004:
+    title: 'Herbology and Magical Plant Safety: Rare Student-Brought Plants and Stinksap'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - greenhouses
+    - herbology
+    - magical-plants
+    - mimbulus-mimbletonia
+    - plant-defenses
+    - professor-sprout
+    - stinksap
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch10-005:
+    title: 'Public Records and Wizarding Press: The Quibbler as Unreliable Alternative
+      Press'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - ancient-runes
+    - cornelius-fudge
+    - gringotts
+    - luna-lovegood
+    - quibbler
+    - sirius-black
+    - wizarding-press
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch10-006:
+    title: 'Arrival at Hogwarts: First-Year Gathering Under Staff Substitution'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - arrival-logistics
+    - care-of-magical-creatures
+    - first-years
+    - grubbly-plank
+    - hagrid
+    - hogsmeade-station
+    - staff-substitution
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch10-007:
+    title: 'Arrival at Hogwarts: Thestral-Drawn Carriages'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-approach
+    - hogsmeade-station
+    - horseless-carriages
+    - luna-lovegood
+    - magical-creatures
+    - student-transport
+    - thestrals
+    source_unit: ootp-ch10
+    output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9846,6 +9952,7 @@ by_tag:
   - gof-ch20-001
   - gof-ch33-004
   ancient-runes:
+  - ootp-ch10-005
   - poa-ch04-004
   - poa-ch12-007
   - poa-ch16-001
@@ -9915,6 +10022,7 @@ by_tag:
   - ps-ch08-001
   arrival-logistics:
   - gof-ch11-006
+  - ootp-ch10-006
   - ps-ch06-006
   arthur-weasley:
   - ootp-ch07-006
@@ -10174,6 +10282,7 @@ by_tag:
   - gof-ch24-003
   - gof-ch26-003
   - gof-ch28-002
+  - ootp-ch10-006
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -10203,6 +10312,7 @@ by_tag:
   castle-approach:
   - cos-ch05-002
   - gof-ch12-001
+  - ootp-ch10-007
   castle-architecture:
   - gof-ch15-001
   castle-grounds:
@@ -10461,6 +10571,7 @@ by_tag:
   - gof-ch36-005
   - ootp-ch05-006
   - ootp-ch09-001
+  - ootp-ch10-005
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -10804,6 +10915,7 @@ by_tag:
   - ootp-ch08-002
   discipline:
   - cos-ch05-005
+  - ootp-ch10-002
   - ps-ch08-003
   - ps-ch09-005
   discipline-records:
@@ -11281,6 +11393,7 @@ by_tag:
   first-years:
   - gof-ch11-006
   - gof-ch12-003
+  - ootp-ch10-006
   - ps-ch06-006
   flame-freezing-charm:
   - poa-ch01-001
@@ -11560,6 +11673,7 @@ by_tag:
   greenhouses:
   - cos-ch05-002
   - cos-ch06-002
+  - ootp-ch10-004
   gregorovitch:
   - gof-ch18-007
   gregory-the-smarmy:
@@ -11585,6 +11699,7 @@ by_tag:
   - poa-ch16-004
   gringotts:
   - gof-ch05-001
+  - ootp-ch10-005
   - ps-ch05-001
   - ps-ch14-003
   grounds:
@@ -11603,6 +11718,8 @@ by_tag:
   - poa-ch10-002
   grounds-security:
   - poa-ch09-007
+  grubbly-plank:
+  - ootp-ch10-006
   gryffindor:
   - cos-ch06-005
   - cos-ch07-002
@@ -11660,6 +11777,8 @@ by_tag:
   guarded-chamber:
   - ps-ch09-007
   - ps-ch11-007
+  guarded-travel:
+  - ootp-ch10-001
   guardian-obstruction:
   - cos-ch03-001
   guardian-permission:
@@ -11697,6 +11816,7 @@ by_tag:
   - gof-ch28-007
   - gof-ch35-003
   - gof-ch36-006
+  - ootp-ch10-006
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -11788,6 +11908,7 @@ by_tag:
   - cos-ch13-002
   - cos-ch18-001
   - gof-ch05-001
+  - ootp-ch10-002
   - poa-ch01-004
   - poa-ch04-006
   - poa-ch05-006
@@ -11795,6 +11916,7 @@ by_tag:
   - poa-ch09-002
   - poa-ch13-007
   head-girl:
+  - ootp-ch10-002
   - poa-ch05-006
   - poa-ch09-002
   head-of-house:
@@ -11867,6 +11989,7 @@ by_tag:
   - cos-ch16-002
   - gof-ch10-006
   - gof-ch13-002
+  - ootp-ch10-004
   - poa-ch16-003
   - ps-ch08-004
   - ps-ch14-001
@@ -11974,6 +12097,8 @@ by_tag:
   - poa-ch14-002
   hogsmeade-station:
   - gof-ch11-006
+  - ootp-ch10-006
+  - ootp-ch10-007
   - poa-ch05-005
   hogsmeade-weekend:
   - gof-ch27-002
@@ -12008,6 +12133,8 @@ by_tag:
   - cos-ch18-007
   - gof-ch03-003
   - gof-ch11-002
+  - ootp-ch10-002
+  - ootp-ch10-003
   - poa-ch01-005
   - poa-ch05-001
   - poa-ch05-003
@@ -12136,6 +12263,7 @@ by_tag:
   horseless-carriages:
   - gof-ch11-006
   - gof-ch12-001
+  - ootp-ch10-007
   hospital-wing:
   - cos-ch10-005
   - cos-ch11-006
@@ -12219,6 +12347,8 @@ by_tag:
   - ps-ch11-005
   house-matches:
   - poa-ch13-003
+  house-motto:
+  - ootp-ch10-003
   house-points:
   - cos-ch05-005
   - cos-ch06-003
@@ -12252,6 +12382,8 @@ by_tag:
   - gof-ch12-003
   - gof-ch15-004
   - gof-ch18-002
+  - ootp-ch10-002
+  - ootp-ch10-003
   - ps-ch05-006
   - ps-ch06-005
   - ps-ch07-002
@@ -12448,6 +12580,7 @@ by_tag:
   - cos-ch04-001
   - cos-ch05-001
   - gof-ch11-002
+  - ootp-ch10-001
   - poa-ch05-001
   - ps-ch06-001
   kingsley-shacklebolt:
@@ -12603,6 +12736,10 @@ by_tag:
   - gof-ch11-002
   - poa-ch05-001
   - ps-ch06-006
+  luna-lovegood:
+  - ootp-ch10-003
+  - ootp-ch10-005
+  - ootp-ch10-007
   lupin:
   - poa-ch08-005
   lupins-office:
@@ -12708,6 +12845,7 @@ by_tag:
   - gof-ch26-006
   - gof-ch28-002
   - gof-ch31-006
+  - ootp-ch10-007
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -12764,6 +12902,7 @@ by_tag:
   magical-plants:
   - cos-ch06-003
   - gof-ch13-002
+  - ootp-ch10-004
   magical-remedies:
   - cos-ch14-001
   - cos-ch16-002
@@ -12939,6 +13078,8 @@ by_tag:
   - ootp-ch03-004
   millicent-bagnold:
   - ootp-ch05-006
+  mimbulus-mimbletonia:
+  - ootp-ch10-004
   minister-of-magic:
   - cos-ch04-005
   - gof-ch27-007
@@ -13300,6 +13441,8 @@ by_tag:
   - ootp-ch06-002
   - ootp-ch07-005
   - ootp-ch09-003
+  operational-security:
+  - ootp-ch10-001
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -13328,6 +13471,7 @@ by_tag:
   - ootp-ch06-007
   - ootp-ch07-005
   - ootp-ch09-003
+  - ootp-ch10-001
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -13524,11 +13668,14 @@ by_tag:
   - cos-ch07-001
   planetary-divination:
   - gof-ch29-005
+  plant-defenses:
+  - ootp-ch10-004
   platform-barrier:
   - cos-ch18-007
   platform-nine-and-three-quarters:
   - cos-ch05-001
   - gof-ch11-002
+  - ootp-ch10-001
   - poa-ch01-005
   - poa-ch05-001
   - ps-ch06-001
@@ -13654,6 +13801,7 @@ by_tag:
   - cos-ch13-006
   - ootp-ch09-005
   - ootp-ch09-006
+  - ootp-ch10-002
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -13780,6 +13928,7 @@ by_tag:
   professor-sprout:
   - gof-ch18-002
   - gof-ch36-002
+  - ootp-ch10-004
   - ps-ch16-005
   professor-trelawney:
   - gof-ch10-005
@@ -13846,6 +13995,8 @@ by_tag:
   - ootp-ch04-002
   quaffle:
   - cos-ch07-001
+  quibbler:
+  - ootp-ch10-005
   quick-quotes-quill:
   - gof-ch18-005
   quidditch:
@@ -13946,6 +14097,7 @@ by_tag:
   - poa-ch04-005
   ravenclaw:
   - gof-ch15-004
+  - ootp-ch10-003
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
@@ -14196,6 +14348,7 @@ by_tag:
   - cos-ch05-001
   - gof-ch11-002
   - gof-ch11-006
+  - ootp-ch10-001
   - poa-ch05-001
   - ps-ch06-001
   school-vacations:
@@ -14343,6 +14496,8 @@ by_tag:
   - gof-ch36-003
   - gof-ch36-006
   - ootp-ch07-005
+  - ootp-ch10-001
+  - ootp-ch10-005
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -14546,6 +14701,8 @@ by_tag:
   - gof-ch36-001
   staff-search:
   - poa-ch09-002
+  staff-substitution:
+  - ootp-ch10-006
   staff-table:
   - gof-ch12-006
   staffing:
@@ -14596,6 +14753,8 @@ by_tag:
   - ootp-ch03-004
   stealth-entry:
   - poa-ch09-001
+  stinksap:
+  - ootp-ch10-004
   stone-gargoyle:
   - cos-ch11-007
   - gof-ch28-006
@@ -14649,10 +14808,13 @@ by_tag:
   student-family-contact:
   - cos-ch06-005
   student-governance:
+  - ootp-ch10-002
   - ps-ch06-002
   student-health:
   - cos-ch10-005
   - ps-ch17-004
+  student-identity:
+  - ootp-ch10-003
   student-injury:
   - poa-ch06-007
   - poa-ch07-002
@@ -14762,6 +14924,8 @@ by_tag:
   - cos-ch11-005
   student-training:
   - gof-ch34-001
+  student-transport:
+  - ootp-ch10-007
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -14890,6 +15054,8 @@ by_tag:
   - gof-ch36-004
   textbooks:
   - ootp-ch09-004
+  thestrals:
+  - ootp-ch10-007
   third-floor-corridor:
   - ps-ch08-003
   - ps-ch09-007
@@ -15388,6 +15554,7 @@ by_tag:
   wizarding-press:
   - gof-ch18-005
   - gof-ch37-006
+  - ootp-ch10-005
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002

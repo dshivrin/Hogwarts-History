@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-02'
+updated: '2026-07-03'
 tags:
   academic-merit:
     entries:
@@ -184,6 +184,7 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
   ancient-runes:
     entries:
+    - ootp-ch10-005
     - poa-ch04-004
     - poa-ch12-007
     - poa-ch16-001
@@ -191,6 +192,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   animagi:
     entries:
     - poa-ch06-004
@@ -337,10 +339,12 @@ tags:
   arrival-logistics:
     entries:
     - gof-ch11-006
+    - ootp-ch10-006
     - ps-ch06-006
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   arthur-weasley:
     entries:
     - ootp-ch07-006
@@ -894,6 +898,7 @@ tags:
     - gof-ch24-003
     - gof-ch26-003
     - gof-ch28-002
+    - ootp-ch10-006
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -923,6 +928,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   career-guidance:
     entries:
     - cos-ch14-002
@@ -962,9 +968,11 @@ tags:
     entries:
     - cos-ch05-002
     - gof-ch12-001
+    - ootp-ch10-007
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   castle-architecture:
     entries:
     - gof-ch15-001
@@ -1514,6 +1522,7 @@ tags:
     - gof-ch36-005
     - ootp-ch05-006
     - ootp-ch09-001
+    - ootp-ch10-005
     - poa-ch16-002
     - poa-ch19-004
     output_yaml:
@@ -1525,6 +1534,7 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   cornish-pixies:
     entries:
     - cos-ch06-007
@@ -2244,12 +2254,14 @@ tags:
   discipline:
     entries:
     - cos-ch05-005
+    - ootp-ch10-002
     - ps-ch08-003
     - ps-ch09-005
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   discipline-records:
     entries:
     - cos-ch08-002
@@ -3235,11 +3247,13 @@ tags:
     entries:
     - gof-ch11-006
     - gof-ch12-003
+    - ootp-ch10-006
     - ps-ch06-006
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   flame-freezing-charm:
     entries:
     - poa-ch01-001
@@ -3844,9 +3858,11 @@ tags:
     entries:
     - cos-ch05-002
     - cos-ch06-002
+    - ootp-ch10-004
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   gregorovitch:
     entries:
     - gof-ch18-007
@@ -3894,12 +3910,14 @@ tags:
   gringotts:
     entries:
     - gof-ch05-001
+    - ootp-ch10-005
     - ps-ch05-001
     - ps-ch14-003
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   grounds:
     entries:
     - cos-ch05-002
@@ -3934,6 +3952,11 @@ tags:
     - poa-ch09-007
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+  grubbly-plank:
+    entries:
+    - ootp-ch10-006
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   gryffindor:
     entries:
     - cos-ch06-005
@@ -4049,6 +4072,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-01/chapter-11-quidditch.yaml
+  guarded-travel:
+    entries:
+    - ootp-ch10-001
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   guardian-obstruction:
     entries:
     - cos-ch03-001
@@ -4104,6 +4132,7 @@ tags:
     - gof-ch28-007
     - gof-ch35-003
     - gof-ch36-006
+    - ootp-ch10-006
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -4165,6 +4194,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -4292,6 +4322,7 @@ tags:
     - cos-ch13-002
     - cos-ch18-001
     - gof-ch05-001
+    - ootp-ch10-002
     - poa-ch01-004
     - poa-ch04-006
     - poa-ch05-006
@@ -4309,13 +4340,16 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   head-girl:
     entries:
+    - ootp-ch10-002
     - poa-ch05-006
     - poa-ch09-002
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   head-of-house:
     entries:
     - gof-ch18-002
@@ -4463,6 +4497,7 @@ tags:
     - cos-ch16-002
     - gof-ch10-006
     - gof-ch13-002
+    - ootp-ch10-004
     - poa-ch16-003
     - ps-ch08-004
     - ps-ch14-001
@@ -4478,6 +4513,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   hermione:
     entries:
     - ps-ch06-004
@@ -4697,10 +4733,13 @@ tags:
   hogsmeade-station:
     entries:
     - gof-ch11-006
+    - ootp-ch10-006
+    - ootp-ch10-007
     - poa-ch05-005
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   hogsmeade-weekend:
     entries:
     - gof-ch27-002
@@ -4765,6 +4804,8 @@ tags:
     - cos-ch18-007
     - gof-ch03-003
     - gof-ch11-002
+    - ootp-ch10-002
+    - ootp-ch10-003
     - poa-ch01-005
     - poa-ch05-001
     - poa-ch05-003
@@ -4785,6 +4826,7 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   hogwarts-four:
     entries:
     - cos-ch17-006
@@ -5039,9 +5081,11 @@ tags:
     entries:
     - gof-ch11-006
     - gof-ch12-001
+    - ootp-ch10-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   hospital-wing:
     entries:
     - cos-ch10-005
@@ -5220,6 +5264,11 @@ tags:
     - poa-ch13-003
     output_yaml:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  house-motto:
+    entries:
+    - ootp-ch10-003
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   house-points:
     entries:
     - cos-ch05-005
@@ -5283,6 +5332,8 @@ tags:
     - gof-ch12-003
     - gof-ch15-004
     - gof-ch18-002
+    - ootp-ch10-002
+    - ootp-ch10-003
     - ps-ch05-006
     - ps-ch06-005
     - ps-ch07-002
@@ -5294,6 +5345,7 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   house-tables:
     entries:
     - cos-ch06-001
@@ -5729,6 +5781,7 @@ tags:
     - cos-ch04-001
     - cos-ch05-001
     - gof-ch11-002
+    - ootp-ch10-001
     - poa-ch05-001
     - ps-ch06-001
     output_yaml:
@@ -5737,6 +5790,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   kingsley-shacklebolt:
     entries:
     - ootp-ch07-005
@@ -6070,6 +6124,13 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  luna-lovegood:
+    entries:
+    - ootp-ch10-003
+    - ootp-ch10-005
+    - ootp-ch10-007
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   lupin:
     entries:
     - poa-ch08-005
@@ -6285,6 +6346,7 @@ tags:
     - gof-ch26-006
     - gof-ch28-002
     - gof-ch31-006
+    - ootp-ch10-007
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
@@ -6298,6 +6360,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -6421,9 +6484,11 @@ tags:
     entries:
     - cos-ch06-003
     - gof-ch13-002
+    - ootp-ch10-004
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   magical-remedies:
     entries:
     - cos-ch14-001
@@ -6810,6 +6875,11 @@ tags:
     - ootp-ch05-006
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  mimbulus-mimbletonia:
+    entries:
+    - ootp-ch10-004
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   minister-of-magic:
     entries:
     - cos-ch04-005
@@ -7609,6 +7679,11 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  operational-security:
+    entries:
+    - ootp-ch10-001
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   order-guard:
     entries:
     - ootp-ch01-002
@@ -7654,6 +7729,7 @@ tags:
     - ootp-ch06-007
     - ootp-ch07-005
     - ootp-ch09-003
+    - ootp-ch10-001
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
@@ -7661,6 +7737,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   ordinary-wizarding-level:
     entries:
     - poa-ch12-002
@@ -8089,6 +8166,11 @@ tags:
     - gof-ch29-005
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+  plant-defenses:
+    entries:
+    - ootp-ch10-004
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   platform-barrier:
     entries:
     - cos-ch18-007
@@ -8098,6 +8180,7 @@ tags:
     entries:
     - cos-ch05-001
     - gof-ch11-002
+    - ootp-ch10-001
     - poa-ch01-005
     - poa-ch05-001
     - ps-ch06-001
@@ -8109,6 +8192,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   player-safety:
     entries:
     - poa-ch15-005
@@ -8366,6 +8450,7 @@ tags:
     - cos-ch13-006
     - ootp-ch09-005
     - ootp-ch09-006
+    - ootp-ch10-002
     - poa-ch04-006
     - poa-ch05-006
     - poa-ch09-002
@@ -8385,6 +8470,7 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   prefects-bathroom:
     entries:
     - gof-ch23-007
@@ -8621,11 +8707,13 @@ tags:
     entries:
     - gof-ch18-002
     - gof-ch36-002
+    - ootp-ch10-004
     - ps-ch16-005
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   professor-trelawney:
     entries:
     - gof-ch10-005
@@ -8774,6 +8862,11 @@ tags:
     - cos-ch07-001
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  quibbler:
+    entries:
+    - ootp-ch10-005
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   quick-quotes-quill:
     entries:
     - gof-ch18-005
@@ -8984,6 +9077,7 @@ tags:
   ravenclaw:
     entries:
     - gof-ch15-004
+    - ootp-ch10-003
     - poa-ch12-004
     - poa-ch13-003
     - ps-ch06-005
@@ -8992,6 +9086,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   recruitment:
     entries:
     - ootp-ch04-005
@@ -9543,6 +9638,7 @@ tags:
     - cos-ch05-001
     - gof-ch11-002
     - gof-ch11-006
+    - ootp-ch10-001
     - poa-ch05-001
     - ps-ch06-001
     output_yaml:
@@ -9550,6 +9646,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   school-vacations:
     entries:
     - ps-ch04-004
@@ -9864,6 +9961,8 @@ tags:
     - gof-ch36-003
     - gof-ch36-006
     - ootp-ch07-005
+    - ootp-ch10-001
+    - ootp-ch10-005
     - poa-ch04-007
     - poa-ch08-007
     - poa-ch10-006
@@ -9899,6 +9998,7 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -10331,6 +10431,11 @@ tags:
     - poa-ch09-002
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+  staff-substitution:
+    entries:
+    - ootp-ch10-006
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   staff-table:
     entries:
     - gof-ch12-006
@@ -10447,6 +10552,11 @@ tags:
     - poa-ch09-001
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+  stinksap:
+    entries:
+    - ootp-ch10-004
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   stone-gargoyle:
     entries:
     - cos-ch11-007
@@ -10568,9 +10678,11 @@ tags:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
   student-governance:
     entries:
+    - ootp-ch10-002
     - ps-ch06-002
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   student-health:
     entries:
     - cos-ch10-005
@@ -10578,6 +10690,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  student-identity:
+    entries:
+    - ootp-ch10-003
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   student-injury:
     entries:
     - poa-ch06-007
@@ -10818,6 +10935,11 @@ tags:
     - gof-ch34-001
     output_yaml:
     - sources/book-04/chapter-34-priori-incantatem.yaml
+  student-transport:
+    entries:
+    - ootp-ch10-007
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   student-travel:
     entries:
     - gof-ch03-003
@@ -11118,6 +11240,11 @@ tags:
     - ootp-ch09-004
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  thestrals:
+    entries:
+    - ootp-ch10-007
+    output_yaml:
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   third-floor-corridor:
     entries:
     - ps-ch08-003
@@ -12189,9 +12316,11 @@ tags:
     entries:
     - gof-ch18-005
     - gof-ch37-006
+    - ootp-ch10-005
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-10-luna-lovegood.yaml
   wizarding-schools:
     entries:
     - gof-ch07-003

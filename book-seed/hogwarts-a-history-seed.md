@@ -1090,6 +1090,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter cont
   - Reference type: institutional_custom
   - Notes: The passage does not say whether the House Cup winner was formally announced that night.
 
+### Chapter: Arrival at Hogwarts
+
+#### Section: First-Year Gathering Under Staff Substitution
+
+Summary: The available evidence includes 1 source item, led by: The arrival scene shows that the first-year station-gathering role can be performed by a substitute professor when Hagrid is absent, preserving the arrival procedure under staff substitution.
+
+- **Corroboration:** The arrival scene shows that the first-year station-gathering role can be performed by a substitute professor when Hagrid is absent, preserving the arrival procedure under staff substitution.
+  - Quote: "All first years to me!"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1756, `ootp-ch10-006`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ps-ch06-006`, `gof-ch11-006`. ps-ch06-006 and gof-ch11-006 document Hagrid gathering first years and the usual arrival split; this entry adds Grubbly-Plank as a substitute caller during Hagrid's absence.
+  - Notes: The passage does not explain why Hagrid is absent or whether Grubbly-Plank also supervises the lake crossing.
+
 ### Chapter: Dress, Uniform, and Formal Occasions
 
 #### Section: Dress Robes on the Fourth-Year School List
@@ -2206,6 +2220,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `cos-ch14-001`. Chapter Fourteen notes Mandrake maturity will revive petrified victims; this entry confirms readiness for cutting and immediate planned use.
   - Notes: This remains tied to an exceptional Chamber crisis and should not be generalized into routine annual hospital-wing supply practice without later evidence.
 
+#### Section: Rare Student-Brought Plants and Stinksap
+
+Summary: The available evidence includes 1 source item, led by: The chapter adds Herbology-adjacent evidence for a rare magical plant, student plant collecting, Sprout's likely interest, breeding potential, and Stinksap as a defensive secretion.
+
+- **Corroboration:** The chapter adds Herbology-adjacent evidence for a rare magical plant, student plant collecting, Sprout's likely interest, breeding potential, and Stinksap as a defensive secretion.
+  - Quote: "Stinksap's not poisonous"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1748, `ootp-ch10-004`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch13-002`, `cos-ch06-003`. Existing Herbology entries cover practical plant safety with Bubotubers and Mandrakes. This entry adds Mimbulus mimbletonia, Stinksap, rarity, and Neville's extracurricular plant interest.
+  - Notes: The plant is student-owned on the train; the passage does not confirm that Hogwarts later keeps or teaches with this specimen.
+
 ### Chapter: History of Magic
 
 #### Section: Professor Binns and Historical Instruction
@@ -3162,6 +3188,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Notes: The chapter summarizes political events through Order conversation rather than reproducing the Prophet articles or official Ministry notices.
 
 ### Chapter: Prefects and Student Authority
+
+#### Section: Fifth-Year Prefects and Train Patrols
+
+Summary: The available evidence includes 1 source item, led by: The chapter expands prefect evidence by naming the fifth-year House-pair structure, the Head Boy and Girl instruction process, corridor patrols, and the power to punish misconduct.
+
+- **Corroboration:** The chapter expands prefect evidence by naming the fifth-year House-pair structure, the Head Boy and Girl instruction process, corridor patrols, and the power to punish misconduct.
+  - Quote: "patrol the corridors from time to time"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1746, `ootp-ch10-002`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ps-ch06-002`. ps-ch06-002 already records prefect badges and reserved train compartments; this entry adds fifth-year House-pair appointments, Head Boy and Girl instructions, patrol duties, and punishment authority.
+  - Notes: The passage reports student understanding of powers and duties, not a written prefect handbook or staff statement.
 
 #### Section: Prefects on the Hogwarts Express
 
@@ -6395,6 +6433,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `cos-ch05-002`. Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
   - Notes: The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
 
+### Chapter: Public Records and Wizarding Press
+
+#### Section: The Quibbler as Unreliable Alternative Press
+
+Summary: The available evidence includes 1 source item, led by: The chapter identifies The Quibbler as a named in-universe periodical, illustrates its unreliable public claims, and links it to Sirius Black discourse and Luna Lovegood's family.
+
+- **Corroboration:** The chapter identifies The Quibbler as a named in-universe periodical, illustrates its unreliable public claims, and links it to Sirius Black discourse and Luna Lovegood's family.
+  - Quote: "SIRIUS BLACK: Villain or Victim?"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1752, `ootp-ch10-005`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `gof-ch18-005`, `ootp-ch07-005`. gof-ch18-005 already flags unreliable wizarding press around Hogwarts events; ootp-ch07-005 records the official Sirius investigation context. This entry adds The Quibbler's alternative press treatment and Lovegood editorial connection.
+  - Notes: The content is partly satirical or unreliable; the passage is most useful as evidence about press culture, not as factual confirmation of the articles' claims.
+
 ### Chapter: Public Records and Wizarding Press Sources
 
 #### Section: Daily Prophet Coverage of the World Cup Crisis
@@ -6548,6 +6600,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Notes: Sirius reports family attitudes and post-death information secondhand, and his hostility toward his family shapes the framing.
 
 ### Chapter: The Second War and Hogwarts-Connected Organizations
+
+#### Section: Order Escorts for School Travel
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows second-war protective logistics around Harry's school departure, combining Order escort practice, concealed travel from Grimmauld Place, platform secrecy, and follow-checking at King's Cross.
+
+- **Corroboration:** The chapter shows second-war protective logistics around Harry's school departure, combining Order escort practice, concealed travel from Grimmauld Place, platform secrecy, and follow-checking at King's Cross.
+  - Quote: "we can't leave unless Sturgis Podmore's here"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1742, `ootp-ch10-001`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch11-002`, `ootp-ch04-005`. gof-ch11-002 records the hidden platform route and discreet boarding customs; ootp-ch04-005 records Order guard work. This entry combines both into Harry's guarded start-of-term escort.
+  - Notes: The passage does not give the complete guard roster or a formal Order protocol for school travel.
 
 #### Section: Order Leadership, Membership, and Headquarters Meetings
 
@@ -7542,6 +7606,21 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
   - Notes: It summarizes wizarding law through a teacher's classroom speech.
 
+## Part: Houses and Student Life
+
+### Chapter: Ravenclaw House
+
+#### Section: House Motto and Student Identity
+
+Summary: The available evidence includes 1 source item, led by: The train scene introduces Luna Lovegood as a Ravenclaw student and gives a direct Ravenclaw identity motto centered on wit as treasure.
+
+- **Supporting evidence:** The train scene introduces Luna Lovegood as a Ravenclaw student and gives a direct Ravenclaw identity motto centered on wit as treasure.
+  - Quote: "Wit beyond measure is man's greatest treasure"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1747, `ootp-ch10-003`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Notes: Luna's delivery does not state whether the phrase is official, traditional, or simply commonly associated with Ravenclaw.
+
 ## Part: Houses, Heraldry, and School Identity
 
 ### Chapter: The Four Houses
@@ -7875,6 +7954,22 @@ Summary: The available evidence includes 1 source item, led by: The passage loca
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: magical_architecture
   - Notes: The passage describes Harry's route and the room's condition in one era; it does not establish when the Owlery was built.
+
+## Part: The Castle, Grounds, and Approaches
+
+### Chapter: Arrival at Hogwarts
+
+#### Section: Thestral-Drawn Carriages
+
+Summary: The available evidence includes 1 source item, led by: The chapter reveals that the supposedly horseless Hogwarts carriages are pulled by invisible winged creatures visible to Harry and Luna but not Ron.
+
+- **Corroboration:** The chapter reveals that the supposedly horseless Hogwarts carriages are pulled by invisible winged creatures visible to Harry and Luna but not Ron.
+  - Quote: "They've always pulled the carriages"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, PDF p. 1757, `ootp-ch10-007`, `sources/book-05/chapter-10-luna-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch11-006`. gof-ch11-006 records the returning-student horseless carriage route; this entry identifies the invisible creatures pulling those carriages and Luna's claim that they always have.
+  - Notes: The chapter does not name the creatures as Thestrals or explain the condition for seeing them.
 
 ## Part: The Grounds and Lake
 

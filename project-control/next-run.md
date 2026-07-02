@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Ten - Luna Lovegood
-- Page range: 1741-1760
+- Chapter: Chapter Eleven - The Sorting Hat’s New Song
+- Page range: 1761-1780
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-10-luna-lovegood.yaml`
+- Output YAML: `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
 
 ## Minimal Context
 

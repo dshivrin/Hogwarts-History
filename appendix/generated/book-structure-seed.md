@@ -90,6 +90,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bubotuber Pus Collection and Medical Use
   - Mandrake Maturity and Restorative Use
   - Mandrake Restorative Use
+  - Rare Student-Brought Plants and Stinksap
 - History of Magic
   - Professor Binns and Historical Instruction
   - Professor Binns and routine historical instruction
@@ -162,6 +163,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Ceremonies and School Traditions
 
+- Arrival at Hogwarts
+  - First-Year Gathering Under Staff Substitution
 - Christmas at Hogwarts
   - Castle Decorations and the Twelve Trees
   - Great Hall Decorations and Dinner
@@ -300,6 +303,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Houses and Student Life
+
+- Ravenclaw House
+  - House Motto and Student Identity
+
 ## Houses, Heraldry, and School Identity
 
 - The Four Houses
@@ -371,6 +379,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pettigrew's Concealed Animagus Identity
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Public Records and Wizarding Press
+  - The Quibbler as Unreliable Alternative Press
 - Public Records and Wizarding Press Sources
   - Daily Prophet Coverage of the World Cup Crisis
 - Quidditch Beyond Hogwarts
@@ -392,6 +402,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts-Connected Families
   - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
+  - Order Escorts for School Travel
   - Order Leadership, Membership, and Headquarters Meetings
   - Order Operations and Intelligence Work
   - Order Recall and Voldemort's Recruitment Strategy
@@ -801,6 +812,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Fudge, the Prophet, and Dumbledore's Allies
   - Press Suppression, Ministry Spies, and Dumbledore's Offices
 - Prefects and Student Authority
+  - Fifth-Year Prefects and Train Patrols
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority
   - Head Boy Appointment and Insignia
@@ -888,6 +900,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Towers, Corridors, and Service Rooms
   - The Owlery in West Tower
+
+## The Castle, Grounds, and Approaches
+
+- Arrival at Hogwarts
+  - Thestral-Drawn Carriages
 
 ## The Four Houses
 
