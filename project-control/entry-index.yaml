@@ -9318,100 +9318,115 @@ by_entry:
     source_unit: ootp-ch05
     output_yaml: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
   ootp-ch06-001:
-    title: 'Headquarters, Safe Houses, and Secret Keeping: Grimmauld Place security
-      measures'
-    classification: harry_era_confirmation
+    title: 'Wizarding Households Connected to Hogwarts: Black Family Artifacts and
+      Dangerous Domestic Objects'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - black-family
+    - family-crests
+    - grimmauld-place
+    - magical-artifacts
+    - material-culture
+    - order-of-merlin
+    - wizarding-genealogy
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-002:
+    title: 'House-Elves, Service, and Wizarding Households: Kreacher, Family Loyalty,
+      and Headquarters Secrecy'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - black-family
+    - grimmauld-place
+    - house-elves
+    - kreacher
+    - operational-secrecy
+    - order-of-the-phoenix
+    - servant-bondage
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-003:
+    title: 'Pure-Blood Families and Genealogical Memory: The Black Family Tapestry
+      and Disowned Relatives'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - disownment
+    - genealogy
+    - grimmauld-place
+    - permanent-sticking-charm
+    - pure-blood-households
+    - tapestry
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-004:
+    title: 'The Second War and Hogwarts-Connected Families: Pure-Blood Ideology and
+      Black Family War Alignment'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - black-family
+    - death-eaters
+    - first-wizarding-war
+    - muggle-borns
+    - pure-blood-ideology
+    - regulus-black
+    - voldemort
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-005:
+    title: 'Headmasters and School Authority: Phineas Nigellus and Black Family Public
+      History'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - black-family
+    - family-history
+    - hogwarts-headmasters
+    - house-elves
+    - ministry-of-magic
+    - muggle-hunting
+    - phineas-nigellus
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-006:
+    title: 'Pure-Blood Families and Genealogical Memory: Interrelated Pure-Blood Families
+      and Marriage Exclusions'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - intermarriage
+    - lestrange-family
+    - malfoy-family
+    - pure-blood-families
+    - tonks-family
+    - weasley-family
+    source_unit: ootp-ch06
+    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  ootp-ch06-007:
+    title: 'Headquarters, Safe Houses, and Secret-Keeping: Unplottable Headquarters
+      and Dumbledore as Secret-Keeper'
+    classification: later_editorial_note
     reference_type: security_or_protection
     confidence: high
     tags:
     - dumbledore
     - grimmauld-place
-    - headquarters
+    - muggle-concealment
+    - order-of-the-phoenix
     - protective-magic
     - secret-keeper
     - unplottable
-    source_unit: ootp-ch06
-    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-  ootp-ch06-002:
-    title: 'Pure-Blood Houses, Heirlooms, and Domestic Magic: Enchanted family records
-      and fixtures'
-    classification: harry_era_confirmation
-    reference_type: magical_architecture
-    confidence: high
-    tags:
-    - black-family
-    - grimmauld-place
-    - magical-architecture
-    - permanent-sticking-charm
-    - tapestry
-    source_unit: ootp-ch06
-    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-  ootp-ch06-003:
-    title: 'Servants, Secrecy, and Family Houses: House-elf knowledge and confidentiality'
-    classification: harry_era_confirmation
-    reference_type: institutional_custom
-    confidence: high
-    tags:
-    - black-family
-    - house-elves
-    - kreacher
-    - operational-secrecy
-    - order-of-the-phoenix
-    source_unit: ootp-ch06
-    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-  ootp-ch06-004:
-    title: 'Pure-Blood Genealogies and Family Memory: The Black family tree'
-    classification: pre_1984_historical_candidate
-    reference_type: historical_claim
-    confidence: high
-    tags:
-    - black-family
-    - family-motto
-    - genealogy
-    - pure-blood-households
-    - tapestry
-    source_unit: ootp-ch06
-    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-  ootp-ch06-005:
-    title: 'Pure-Blood Kinship Networks: Intermarriage and disownment'
-    classification: pre_1984_historical_candidate
-    reference_type: historical_claim
-    confidence: high
-    tags:
-    - black-family
-    - genealogy
-    - malfoy-family
-    - pure-blood
-    - tonks-family
-    - weasley-family
-    source_unit: ootp-ch06
-    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-  ootp-ch06-006:
-    title: 'Former Headmasters in Wizarding Memory: Phineas Nigellus Black'
-    classification: pre_1984_historical_candidate
-    reference_type: historical_claim
-    confidence: high
-    tags:
-    - black-family
-    - headmaster
-    - hogwarts-history
-    - house-elves
-    - muggle-hunting
-    - phineas-nigellus
-    source_unit: ootp-ch06
-    output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
-  ootp-ch06-007:
-    title: 'Heirlooms, Honors, and Hazardous Objects: Black family cabinet contents'
-    classification: harry_era_confirmation
-    reference_type: direct_observed_setting
-    confidence: medium
-    tags:
-    - black-family
-    - dark-artifacts
-    - genealogy
-    - grimmauld-place
-    - material-culture
-    - order-of-merlin
     source_unit: ootp-ch06
     output_yaml: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
 by_tag:
@@ -9685,12 +9700,12 @@ by_tag:
   - ootp-ch04-003
   - ootp-ch05-001
   - ootp-ch05-002
+  - ootp-ch06-001
   - ootp-ch06-002
   - ootp-ch06-003
   - ootp-ch06-004
   - ootp-ch06-005
   - ootp-ch06-006
-  - ootp-ch06-007
   black-flames:
   - ps-ch16-007
   black-lake:
@@ -10247,8 +10262,6 @@ by_tag:
   - poa-ch21-004
   dangerous-plants:
   - cos-ch06-002
-  dark-artifacts:
-  - ootp-ch06-007
   dark-arts:
   - cos-ch18-001
   - gof-ch11-004
@@ -10288,6 +10301,7 @@ by_tag:
   - gof-ch30-004
   - ootp-ch04-005
   - ootp-ch05-005
+  - ootp-ch06-004
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -10430,6 +10444,8 @@ by_tag:
   disillusionment-charm:
   - ootp-ch03-005
   - ootp-ch04-002
+  disownment:
+  - ootp-ch06-003
   dissendium:
   - poa-ch10-004
   - poa-ch14-004
@@ -10550,7 +10566,7 @@ by_tag:
   - ootp-ch05-005
   - ootp-ch05-006
   - ootp-ch05-007
-  - ootp-ch06-001
+  - ootp-ch06-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -10760,8 +10776,9 @@ by_tag:
   - gof-ch37-001
   family-crests:
   - ootp-ch05-002
-  family-motto:
-  - ootp-ch06-004
+  - ootp-ch06-001
+  family-history:
+  - ootp-ch06-005
   family-notification:
   - cos-ch05-005
   - cos-ch06-001
@@ -10851,6 +10868,7 @@ by_tag:
   - gof-ch30-004
   - gof-ch30-005
   - gof-ch30-006
+  - ootp-ch06-004
   - poa-ch10-006
   - ps-ch04-005
   first-year-arrival:
@@ -11017,9 +11035,7 @@ by_tag:
   gargoyle:
   - cos-ch13-006
   genealogy:
-  - ootp-ch06-004
-  - ootp-ch06-005
-  - ootp-ch06-007
+  - ootp-ch06-003
   ghost-customs:
   - cos-ch08-004
   - cos-ch08-005
@@ -11160,6 +11176,7 @@ by_tag:
   - ootp-ch05-002
   - ootp-ch06-001
   - ootp-ch06-002
+  - ootp-ch06-003
   - ootp-ch06-007
   grindelwald:
   - ps-ch06-003
@@ -11390,7 +11407,6 @@ by_tag:
   - cos-ch02-003
   - cos-ch12-006
   - cos-ch14-006
-  - ootp-ch06-006
   - ps-ch04-002
   - ps-ch04-006
   - ps-ch06-003
@@ -11431,7 +11447,6 @@ by_tag:
   - ootp-ch03-002
   - ootp-ch04-004
   - ootp-ch05-001
-  - ootp-ch06-001
   heads-of-house:
   - cos-ch05-005
   - cos-ch14-003
@@ -11619,10 +11634,10 @@ by_tag:
   - poa-ch17-004
   - poa-ch18-006
   - poa-ch19-007
+  hogwarts-headmasters:
+  - ootp-ch06-005
   hogwarts-hidden:
   - gof-ch11-005
-  hogwarts-history:
-  - ootp-ch06-006
   hogwarts-kitchens:
   - gof-ch12-004
   - gof-ch19-002
@@ -11787,8 +11802,8 @@ by_tag:
   - gof-ch28-001
   - gof-ch35-003
   - ootp-ch04-003
-  - ootp-ch06-003
-  - ootp-ch06-006
+  - ootp-ch06-002
+  - ootp-ch06-005
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -11924,6 +11939,8 @@ by_tag:
   - ps-ch09-004
   interior-setting:
   - ps-ch10-004
+  intermarriage:
+  - ootp-ch06-006
   internal-threat:
   - gof-ch33-002
   - ps-ch17-002
@@ -12026,7 +12043,7 @@ by_tag:
   - poa-ch14-003
   kreacher:
   - ootp-ch04-003
-  - ootp-ch06-003
+  - ootp-ch06-002
   kwikspell:
   - cos-ch08-002
   lake:
@@ -12070,6 +12087,8 @@ by_tag:
   - gof-ch08-006
   lesson-content:
   - ps-ch13-004
+  lestrange-family:
+  - ootp-ch06-006
   levitation:
   - ps-ch10-001
   library:
@@ -12231,13 +12250,14 @@ by_tag:
   - gof-ch29-006
   - gof-ch31-005
   - ootp-ch04-003
-  - ootp-ch06-002
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
   - cos-ch17-005
   - gof-ch30-002
   - ps-ch12-006
+  magical-artifacts:
+  - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
   magical-books:
@@ -12379,7 +12399,7 @@ by_tag:
   magical-understanding:
   - gof-ch37-005
   malfoy-family:
-  - ootp-ch06-005
+  - ootp-ch06-006
   mandrake-juice:
   - cos-ch18-002
   mandrakes:
@@ -12431,7 +12451,7 @@ by_tag:
   - ps-ch11-004
   material-culture:
   - ootp-ch05-002
-  - ootp-ch06-007
+  - ootp-ch06-001
   maze:
   - gof-ch28-004
   - gof-ch31-002
@@ -12554,6 +12574,7 @@ by_tag:
   - ootp-ch04-007
   - ootp-ch05-004
   - ootp-ch05-007
+  - ootp-ch06-005
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -12637,11 +12658,14 @@ by_tag:
   - cos-ch09-004
   - gof-ch08-003
   - ps-ch05-005
+  muggle-borns:
+  - ootp-ch06-004
   muggle-camouflage:
   - gof-ch07-002
   muggle-concealment:
   - ootp-ch03-006
   - ootp-ch04-001
+  - ootp-ch06-007
   muggle-family:
   - ootp-ch01-003
   muggle-fireplaces:
@@ -12649,7 +12673,7 @@ by_tag:
   muggle-households:
   - ps-ch03-004
   muggle-hunting:
-  - ootp-ch06-006
+  - ootp-ch06-005
   muggle-knowledge:
   - ootp-ch02-004
   muggle-newspapers:
@@ -12812,7 +12836,7 @@ by_tag:
   - ootp-ch01-001
   - ootp-ch03-002
   - ootp-ch05-001
-  - ootp-ch06-003
+  - ootp-ch06-002
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -12824,7 +12848,7 @@ by_tag:
   - gof-ch36-006
   order-of-merlin:
   - ootp-ch05-007
-  - ootp-ch06-007
+  - ootp-ch06-001
   - poa-ch10-006
   order-of-suspension:
   - cos-ch14-006
@@ -12837,7 +12861,8 @@ by_tag:
   - ootp-ch05-001
   - ootp-ch05-003
   - ootp-ch05-005
-  - ootp-ch06-003
+  - ootp-ch06-002
+  - ootp-ch06-007
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -12970,7 +12995,7 @@ by_tag:
   - poa-ch01-004
   - poa-ch04-006
   permanent-sticking-charm:
-  - ootp-ch06-002
+  - ootp-ch06-003
   permission-form:
   - poa-ch02-001
   - poa-ch03-005
@@ -13014,7 +13039,7 @@ by_tag:
   philosophers-stone:
   - ps-ch09-007
   phineas-nigellus:
-  - ootp-ch06-006
+  - ootp-ch06-005
   phoenix:
   - cos-ch17-005
   phoenix-feather:
@@ -13306,7 +13331,7 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch04-002
-  - ootp-ch06-001
+  - ootp-ch06-007
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -13328,11 +13353,13 @@ by_tag:
   - ootp-ch04-007
   punishment:
   - cos-ch08-002
-  pure-blood:
-  - ootp-ch06-005
+  pure-blood-families:
+  - ootp-ch06-006
   pure-blood-households:
   - ootp-ch04-003
   - ootp-ch05-002
+  - ootp-ch06-003
+  pure-blood-ideology:
   - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
@@ -13460,6 +13487,8 @@ by_tag:
   - ps-ch13-005
   regulation:
   - gof-ch24-003
+  regulus-black:
+  - ootp-ch06-004
   remus-lupin:
   - poa-ch10-002
   - poa-ch17-003
@@ -13738,7 +13767,7 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   secret-keeper:
-  - ootp-ch06-001
+  - ootp-ch06-007
   secret-passages:
   - poa-ch05-002
   - poa-ch09-001
@@ -13787,6 +13816,8 @@ by_tag:
   - cos-ch17-001
   serpent-symbol:
   - cos-ch11-004
+  servant-bondage:
+  - ootp-ch06-002
   seven-year-education:
   - ps-ch04-006
   severus-snape:
@@ -14304,8 +14335,7 @@ by_tag:
   - cos-ch10-004
   tapestry:
   - gof-ch25-005
-  - ootp-ch06-002
-  - ootp-ch06-004
+  - ootp-ch06-003
   - ps-ch09-006
   task-order:
   - gof-ch20-006
@@ -14419,7 +14449,7 @@ by_tag:
   ton-tongue-toffee:
   - gof-ch06-003
   tonks-family:
-  - ootp-ch06-005
+  - ootp-ch06-006
   tournament-aftermath:
   - gof-ch37-001
   tournament-casualty:
@@ -14623,7 +14653,7 @@ by_tag:
   - gof-ch12-004
   unplottable:
   - gof-ch11-005
-  - ootp-ch06-001
+  - ootp-ch06-007
   unregistered-magic:
   - poa-ch18-001
   unspeakables:
@@ -14683,6 +14713,7 @@ by_tag:
   - gof-ch37-004
   - gof-ch37-005
   - ootp-ch05-005
+  - ootp-ch06-004
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -14740,7 +14771,7 @@ by_tag:
   - gof-ch03-003
   - gof-ch03-004
   - gof-ch05-001
-  - ootp-ch06-005
+  - ootp-ch06-006
   weasleys-wizard-wheezes:
   - gof-ch05-002
   - gof-ch06-003
@@ -14821,6 +14852,8 @@ by_tag:
   - ps-ch02-006
   wizarding-families:
   - cos-ch03-002
+  wizarding-genealogy:
+  - ootp-ch06-001
   wizarding-households:
   - cos-ch02-001
   - gof-ch03-002

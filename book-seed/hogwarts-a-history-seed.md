@@ -4076,6 +4076,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter demo
   - Corroborates: `ootp-ch03-006`. ootp-ch03-006 introduces Dumbledore's note and the headquarters address; this entry adds the visible manifestation of the hidden building after Harry memorizes it.
   - Notes: The chapter still does not name the charm or fully explain the secret-keeping mechanics.
 
+#### Section: Unplottable Headquarters and Dumbledore as Secret-Keeper
+
+Summary: The available evidence includes 1 source item, led by: The chapter explicitly identifies Grimmauld Place as Unplottable and protected by Dumbledore's Secret-Keeper role for the Order.
+
+- **Corroboration:** The chapter explicitly identifies Grimmauld Place as Unplottable and protected by Dumbledore's Secret-Keeper role for the Order.
+  - Quote: "Dumbledore's Secret-Keeper for the Order"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1679, `ootp-ch06-007`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch11-005`, `ootp-ch04-001`, `ootp-ch04-002`, `ootp-ch05-001`. gof-ch11-005 explains Unplottability as a general concealment method, while earlier OotP entries show Grimmauld Place appearing, entry controls, and headquarters ownership; this entry names Grimmauld Place as Unplottable and Dumbledore as Secret-Keeper.
+  - Notes: The passage does not name the Fidelius Charm or distinguish which protections Sirius's father placed from which Dumbledore added.
+
 ### Chapter: House Common-Room Security
 
 #### Section: Password Lists and Portrait-Hole Breaches
@@ -6347,6 +6359,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: explicit_in_universe_source
   - Notes: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
 
+### Chapter: The Second War and Hogwarts-Connected Families
+
+#### Section: Pure-Blood Ideology and Black Family War Alignment
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives Black-family testimony about pure-blood supremacist ideology, early social support for Voldemort's program, and Regulus Black's fatal Death Eater involvement.
+
+- **Context:** The chapter gives Black-family testimony about pure-blood supremacist ideology, early social support for Voldemort's program, and Regulus Black's fatal Death Eater involvement.
+  - Quote: "purification of the Wizarding race"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1676, `ootp-ch06-004`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Sirius reports family attitudes and post-death information secondhand, and his hostility toward his family shapes the framing.
+
 ### Chapter: The Second War and Hogwarts-Connected Organizations
 
 #### Section: Order Leadership, Membership, and Headquarters Meetings
@@ -6845,6 +6870,18 @@ Summary: The available evidence includes 1 source item, led by: Christmas break 
 
 ### Chapter: Wizarding Households Connected to Hogwarts
 
+#### Section: Black Family Artifacts and Dangerous Domestic Objects
+
+Summary: The available evidence includes 1 source item, led by: The chapter expands Grimmauld Place material culture with dangerous household artifacts, a wizarding genealogy book, crest-bearing objects, and family honors preserved in the Black home.
+
+- **Corroboration:** The chapter expands Grimmauld Place material culture with dangerous household artifacts, a wizarding genealogy book, crest-bearing objects, and family honors preserved in the Black home.
+  - Quote: "Nature's Nobility: A Wizarding Genealogy"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1670, `ootp-ch06-001`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch04-003`, `ootp-ch05-002`. ootp-ch04-003 broadly records Black-family domestic evidence and ootp-ch05-002 records a crest-marked goblin-wrought artifact; this entry adds the larger hazardous collection, genealogy book, locket, Order of Merlin, china, and photographs.
+  - Notes: The chapter lists many objects without explaining provenance, enchantments, or which items are historically significant.
+
 #### Section: Black Family Artifacts and Goblin-Made Silver
 
 Summary: The available evidence includes 1 source item, led by: The chapter supplies material-culture evidence for the Black family, including an old goblin-made silver object marked with the family crest in the ancestral house.
@@ -7187,6 +7224,21 @@ Summary: The available evidence includes 1 source item, led by: Alumni recollect
   - Corroborates: `cos-ch05-003`, `gof-ch17-007`, `gof-ch22-007`. Prior entries cover the Whomping Willow and Fat Lady portrait access; this entry adds alumni chronology, Apollyon Pringle, and gamekeeper Ogg.
   - Notes: The dating is relative to Molly Weasley's and Bill Weasley's school years, and the passage does not give exact appointment or planting dates.
 
+## Part: Governance, Headmasters, and Public Authority
+
+### Chapter: Headmasters and School Authority
+
+#### Section: Phineas Nigellus and Black Family Public History
+
+Summary: The available evidence includes 1 source item, led by: The chapter names Black-family figures tied to Hogwarts headmastership, attempted anti-Muggle Ministry legislation, and a family tradition of beheading elderly house-elves.
+
+- **Context:** The chapter names Black-family figures tied to Hogwarts headmastership, attempted anti-Muggle Ministry legislation, and a family tradition of beheading elderly house-elves.
+  - Quote: "Least popular headmaster Hogwarts ever had"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1677, `ootp-ch06-005`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Sirius supplies brief judgments rather than dates, official records, or details of Phineas's tenure and the proposed Ministry bill.
+
 ## Part: Grounds, Lake, and Village Approaches
 
 ### Chapter: Hogsmeade Routes and Outlying Terrain
@@ -7202,21 +7254,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter maps
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch02-006`, `gof-ch19-001`, `gof-ch24-005`. gof-ch02-006 records the Sirius and Buckbeak escape context, gof-ch19-001 records Hogsmeade visit privilege, and gof-ch24-005 records ordinary castle-to-village movement; this entry adds the mountain-edge cave route.
   - Notes: The cave is not identified as an official site or a common student destination.
-
-## Part: Headmasters and School Authority
-
-### Chapter: Former Headmasters in Wizarding Memory
-
-#### Section: Phineas Nigellus Black
-
-Summary: The available evidence includes 1 source item, led by: The chapter identifies Phineas Nigellus Black as a former Hogwarts headmaster and connects other Black relatives to anti-Muggle politics and house-elf abuse.
-
-- **Supporting evidence:** The chapter identifies Phineas Nigellus Black as a former Hogwarts headmaster and connects other Black relatives to anti-Muggle politics and house-elf abuse.
-  - Quote: "Least popular headmaster Hogwarts ever had"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1677, `ootp-ch06-006`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: pre_1984_historical_candidate | Confidence: high
-  - Reference type: historical_claim
-  - Notes: The "least popular" judgment is Sirius's characterization and should be treated as attributed family commentary.
 
 ## Part: Hogwarts Curriculum and Instruction
 
@@ -7425,6 +7462,45 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Corroborates: `gof-ch37-007`. gof-ch37-007 records Bagman's goblin debts and tournament motive; this entry adds Ragnok, goblin political neutrality, old grievances over denied freedoms, and Second War recruitment risk.
   - Notes: The discussion is speculative Order analysis, not a goblin statement of policy.
 
+### Chapter: House-Elves, Service, and Wizarding Households
+
+#### Section: Kreacher, Family Loyalty, and Headquarters Secrecy
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Kreacher's inherited loyalty to the Black family, his obligation to obey direct orders, and the security problem created by a bound house-elf who knows Order secrets.
+
+- **Corroboration:** The chapter shows Kreacher's inherited loyalty to the Black family, his obligation to obey direct orders, and the security problem created by a bound house-elf who knows Order secrets.
+  - Quote: "he knows too much about the Order"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1672, `ootp-ch06-002`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch04-003`. ootp-ch04-003 introduces Kreacher and Black-family house-elf evidence; this entry adds direct-order obedience, the reason he cannot be freed, and his knowledge of Order activity.
+  - Notes: Sirius and Hermione interpret Kreacher differently, and the passage does not state the full magical law governing house-elf secrecy or manumission.
+
+### Chapter: Pure-Blood Families and Genealogical Memory
+
+#### Section: Interrelated Pure-Blood Families and Marriage Exclusions
+
+Summary: The available evidence includes 1 source item, led by: The chapter uses the Black tapestry to map pure-blood intermarriage among the Black, Malfoy, Weasley, Tonks, and Lestrange families.
+
+- **Context:** The chapter uses the Black tapestry to map pure-blood intermarriage among the Black, Malfoy, Weasley, Tonks, and Lestrange families.
+  - Quote: "The pure-blood families are all interrelated"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1678, `ootp-ch06-006`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account is limited to relationships visible on, or omitted from, the Black family tapestry and Sirius's commentary.
+
+#### Section: The Black Family Tapestry and Disowned Relatives
+
+Summary: The available evidence includes 1 source item, led by: The chapter identifies the Black family tapestry as a centuries-old genealogical record, magically fixed in place and edited by burning away disowned relatives.
+
+- **Corroboration:** The chapter identifies the Black family tapestry as a centuries-old genealogical record, magically fixed in place and edited by burning away disowned relatives.
+  - Quote: "seven centuries it's been in the family"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1674, `ootp-ch06-003`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch04-003`, `ootp-ch05-002`. Earlier entries establish Black-family domestic evidence and heraldic artifacts; this entry adds the specific centuries-old tapestry, its charm, motto, and burn-mark genealogy practice.
+  - Notes: Harry estimates the tree's age from its appearance, while Kreacher supplies the seven-century claim in muttered speech.
+
 ## Part: Peoples, Creatures, and Non-Human Communities
 
 ### Chapter: House-Elves and Hogwarts Labor
@@ -7571,22 +7647,6 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Corroborates: `gof-ch25-003`, `gof-ch20-007`. gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
 
-## Part: The Second War and Hogwarts-Connected Organizations
-
-### Chapter: Headquarters, Safe Houses, and Secret Keeping
-
-#### Section: Grimmauld Place security measures
-
-Summary: The available evidence includes 1 source item, led by: The chapter specifies Grimmauld Place's security stack as inherited protective measures, Unplottability, and Dumbledore's Secret-Keeper protection for the Order.
-
-- **Corroboration:** The chapter specifies Grimmauld Place's security stack as inherited protective measures, Unplottability, and Dumbledore's Secret-Keeper protection for the Order.
-  - Quote: "Dumbledore's Secret-Keeper for the Order"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1679, `ootp-ch06-001`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: harry_era_confirmation | Confidence: high
-  - Reference type: security_or_protection
-  - Corroborates: `ootp-ch03-006`, `ootp-ch04-001`, `ootp-ch05-001`. Earlier entries establish the written address, visible reveal, and headquarters ownership; this entry adds the named Unplottable and Secret-Keeper mechanisms.
-  - Notes: Sirius is summarizing family and Order protections rather than giving the full spellwork history.
-
 ## Part: Wars, Crises, and School Memory
 
 ### Chapter: First Wizarding War Legal Aftermath
@@ -7690,76 +7750,3 @@ Summary: The available evidence includes 1 source item, led by: Moody connects I
   - Reference type: historical_claim
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Death Eater postwar denials and Azkaban avoidance; this entry gives the related Imperius-specific legal problem.
   - Notes: Harry infers the Voldemort-era connection; Moody does not explicitly name Voldemort in the quoted explanation.
-
-## Part: Wizarding Households Connected to Hogwarts
-
-### Chapter: Heirlooms, Honors, and Hazardous Objects
-
-#### Section: Black family cabinet contents
-
-Summary: The available evidence includes 1 source item, led by: The chapter lists dangerous inherited objects, a wizarding genealogy book, and an Order of Merlin medal among Black family possessions.
-
-- **Corroboration:** The chapter lists dangerous inherited objects, a wizarding genealogy book, and an Order of Merlin medal among Black family possessions.
-  - Quote: "Nature's Nobility: A Wizarding Genealogy"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1681, `ootp-ch06-007`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: harry_era_confirmation | Confidence: medium
-  - Reference type: direct_observed_setting
-  - Corroborates: `ootp-ch05-002`. ootp-ch05-002 records Black-family artifacts and crest-marked silver; this entry adds hazardous objects, a genealogy volume, and an Order of Merlin medal.
-  - Notes: The objects are observed during cleaning and not all are fully identified or dated.
-
-### Chapter: Pure-Blood Houses, Heirlooms, and Domestic Magic
-
-#### Section: Enchanted family records and fixtures
-
-Summary: The available evidence includes 1 source item, led by: The chapter links the Black family tapestry to a Permanent Sticking Charm, making family memory physically difficult to remove from the house.
-
-- **Corroboration:** The chapter links the Black family tapestry to a Permanent Sticking Charm, making family memory physically difficult to remove from the house.
-  - Quote: "Permanent Sticking Charm on the back of it"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1674, `ootp-ch06-002`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: harry_era_confirmation | Confidence: high
-  - Reference type: magical_architecture
-  - Corroborates: `ootp-ch04-003`. ootp-ch04-003 broadly records hostile portraits and Black household artifacts; this entry adds the specific tapestry and Permanent Sticking Charm mechanism.
-  - Notes: Sirius infers the exact charm instead of witnessing it cast.
-
-### Chapter: Servants, Secrecy, and Family Houses
-
-#### Section: House-elf knowledge and confidentiality
-
-Summary: The available evidence includes 1 source item, led by: The chapter shows house-elf servitude intersecting with wartime secrecy, since Kreacher remains in service partly because he knows Order information.
-
-- **Corroboration:** The chapter shows house-elf servitude intersecting with wartime secrecy, since Kreacher remains in service partly because he knows Order information.
-  - Quote: "he knows too much about the Order"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1675, `ootp-ch06-003`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: harry_era_confirmation | Confidence: high
-  - Reference type: institutional_custom
-  - Corroborates: `ootp-ch04-003`. ootp-ch04-003 identifies Grimmauld's house-elf evidence; this entry adds the Order-secrecy reason Sirius gives for not freeing Kreacher.
-  - Notes: The passage reflects Sirius's judgment and not a formal legal statement about house-elf obligations.
-
-## Part: Wizarding Society and Blood Status
-
-### Chapter: Pure-Blood Genealogies and Family Memory
-
-#### Section: The Black family tree
-
-Summary: The available evidence includes 1 source item, led by: The chapter presents the Black family tapestry as a medieval-looking genealogy with a formal motto and visible burn marks for disowned relatives.
-
-- **Corroboration:** The chapter presents the Black family tapestry as a medieval-looking genealogy with a formal motto and visible burn marks for disowned relatives.
-  - Quote: "family tree dating back"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1675, `ootp-ch06-004`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: pre_1984_historical_candidate | Confidence: high
-  - Reference type: historical_claim
-  - Corroborates: `ootp-ch04-003`, `ootp-ch05-002`. Prior entries record Black domestic artifacts and family crests; this entry adds the full genealogy, motto, medieval depth, and disownment marks.
-  - Notes: Harry estimates the tapestry's age visually, and the date range is not independently verified here.
-
-### Chapter: Pure-Blood Kinship Networks
-
-#### Section: Intermarriage and disownment
-
-Summary: The available evidence includes 1 source item, led by: The chapter states that limited pure-blood marriage choices have made old magical families interrelated, linking the Blacks to the Malfoys, Tonkses, and Weasleys.
-
-- **Supporting evidence:** The chapter states that limited pure-blood marriage choices have made old magical families interrelated, linking the Blacks to the Malfoys, Tonkses, and Weasleys.
-  - Quote: "The pure-blood families are all interrelated"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, PDF p. 1678, `ootp-ch06-005`, `sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml`
-  - Classification: pre_1984_historical_candidate | Confidence: high
-  - Reference type: historical_claim
-  - Notes: Sirius summarizes a social pattern from one family tree rather than providing a complete wizarding genealogy.

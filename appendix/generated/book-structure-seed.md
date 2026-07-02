@@ -156,6 +156,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Castle, Grounds, and Magical Architecture
 
 - Wizarding Households Connected to Hogwarts
+  - Black Family Artifacts and Dangerous Domestic Objects
   - Black Family Artifacts and Goblin-Made Silver
   - Grimmauld Place and Black Family Domestic Evidence
 
@@ -267,15 +268,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Peeves the Poltergeist
   - Wayfinding and Disruption
 
+## Governance, Headmasters, and Public Authority
+
+- Headmasters and School Authority
+  - Phineas Nigellus and Black Family Public History
+
 ## Grounds, Lake, and Village Approaches
 
 - Hogsmeade Routes and Outlying Terrain
   - Mountain Cave Beyond the Village Edge
-
-## Headmasters and School Authority
-
-- Former Headmasters in Wizarding Memory
-  - Phineas Nigellus Black
 
 ## Hogwarts Curriculum and Instruction
 
@@ -381,6 +382,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors in Little Whinging
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
+- The Second War and Hogwarts-Connected Families
+  - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
   - Order Leadership, Membership, and Headquarters Meetings
   - Order Operations and Intelligence Work
@@ -559,6 +562,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Goblins and Wizarding Political Relations
   - Goblin Neutrality and Recruitment Pressures
+- House-Elves, Service, and Wizarding Households
+  - Kreacher, Family Loyalty, and Headquarters Secrecy
+- Pure-Blood Families and Genealogical Memory
+  - Interrelated Pure-Blood Families and Marriage Exclusions
+  - The Black Family Tapestry and Disowned Relatives
 
 ## Peoples, Creatures, and Non-Human Communities
 
@@ -615,6 +623,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Grimmauld Place as Inherited Order Headquarters
   - Layered Entry Controls at Grimmauld Place
   - Number Twelve Revealed After Memorized Disclosure
+  - Unplottable Headquarters and Dumbledore as Secret-Keeper
 - House Common-Room Security
   - Password Lists and Portrait-Hole Breaches
 - House Entrances and Castle Security
@@ -898,11 +907,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
 
-## The Second War and Hogwarts-Connected Organizations
-
-- Headquarters, Safe Houses, and Secret Keeping
-  - Grimmauld Place security measures
-
 ## Wars, Crises, and School Memory
 
 - First Wizarding War Legal Aftermath
@@ -917,19 +921,3 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The First Wizarding War in Later Hogwarts Teaching
   - Former Death Eater Associations During the Triwizard Year
   - Imperius Curse culpability and postwar denials
-
-## Wizarding Households Connected to Hogwarts
-
-- Heirlooms, Honors, and Hazardous Objects
-  - Black family cabinet contents
-- Pure-Blood Houses, Heirlooms, and Domestic Magic
-  - Enchanted family records and fixtures
-- Servants, Secrecy, and Family Houses
-  - House-elf knowledge and confidentiality
-
-## Wizarding Society and Blood Status
-
-- Pure-Blood Genealogies and Family Memory
-  - The Black family tree
-- Pure-Blood Kinship Networks
-  - Intermarriage and disownment

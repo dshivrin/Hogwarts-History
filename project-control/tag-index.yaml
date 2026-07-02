@@ -587,12 +587,12 @@ tags:
     - ootp-ch04-003
     - ootp-ch05-001
     - ootp-ch05-002
+    - ootp-ch06-001
     - ootp-ch06-002
     - ootp-ch06-003
     - ootp-ch06-004
     - ootp-ch06-005
     - ootp-ch06-006
-    - ootp-ch06-007
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
@@ -1811,11 +1811,6 @@ tags:
     - cos-ch06-002
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
-  dark-artifacts:
-    entries:
-    - ootp-ch06-007
-    output_yaml:
-    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   dark-arts:
     entries:
     - cos-ch18-001
@@ -1893,6 +1888,7 @@ tags:
     - gof-ch30-004
     - ootp-ch04-005
     - ootp-ch05-005
+    - ootp-ch06-004
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
@@ -1900,6 +1896,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   deathday-party:
     entries:
     - cos-ch08-004
@@ -2191,6 +2188,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  disownment:
+    entries:
+    - ootp-ch06-003
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   dissendium:
     entries:
     - poa-ch10-004
@@ -2395,7 +2397,7 @@ tags:
     - ootp-ch05-005
     - ootp-ch05-006
     - ootp-ch05-007
-    - ootp-ch06-001
+    - ootp-ch06-007
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2864,11 +2866,13 @@ tags:
   family-crests:
     entries:
     - ootp-ch05-002
+    - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
-  family-motto:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  family-history:
     entries:
-    - ootp-ch06-004
+    - ootp-ch06-005
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   family-notification:
@@ -3052,6 +3056,7 @@ tags:
     - gof-ch30-004
     - gof-ch30-005
     - gof-ch30-006
+    - ootp-ch06-004
     - poa-ch10-006
     - ps-ch04-005
     output_yaml:
@@ -3061,6 +3066,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   first-year-arrival:
     entries:
     - poa-ch05-005
@@ -3436,9 +3442,7 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   genealogy:
     entries:
-    - ootp-ch06-004
-    - ootp-ch06-005
-    - ootp-ch06-007
+    - ootp-ch06-003
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   ghost-customs:
@@ -3721,6 +3725,7 @@ tags:
     - ootp-ch05-002
     - ootp-ch06-001
     - ootp-ch06-002
+    - ootp-ch06-003
     - ootp-ch06-007
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
@@ -4183,7 +4188,6 @@ tags:
     - cos-ch02-003
     - cos-ch12-006
     - cos-ch14-006
-    - ootp-ch06-006
     - ps-ch04-002
     - ps-ch04-006
     - ps-ch06-003
@@ -4195,7 +4199,6 @@ tags:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-14-cornelius-fudge.yaml
-    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   headmaster-approval:
     entries:
     - poa-ch07-006
@@ -4272,12 +4275,10 @@ tags:
     - ootp-ch03-002
     - ootp-ch04-004
     - ootp-ch05-001
-    - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
-    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   heads-of-house:
     entries:
     - cos-ch05-005
@@ -4675,16 +4676,16 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+  hogwarts-headmasters:
+    entries:
+    - ootp-ch06-005
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   hogwarts-hidden:
     entries:
     - gof-ch11-005
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
-  hogwarts-history:
-    entries:
-    - ootp-ch06-006
-    output_yaml:
-    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   hogwarts-kitchens:
     entries:
     - gof-ch12-004
@@ -5018,8 +5019,8 @@ tags:
     - gof-ch28-001
     - gof-ch35-003
     - ootp-ch04-003
-    - ootp-ch06-003
-    - ootp-ch06-006
+    - ootp-ch06-002
+    - ootp-ch06-005
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -5336,6 +5337,11 @@ tags:
     - ps-ch10-004
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
+  intermarriage:
+    entries:
+    - ootp-ch06-006
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   internal-threat:
     entries:
     - gof-ch33-002
@@ -5567,7 +5573,7 @@ tags:
   kreacher:
     entries:
     - ootp-ch04-003
-    - ootp-ch06-003
+    - ootp-ch06-002
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
@@ -5669,6 +5675,11 @@ tags:
     - ps-ch13-004
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  lestrange-family:
+    entries:
+    - ootp-ch06-006
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   levitation:
     entries:
     - ps-ch10-001
@@ -5995,7 +6006,6 @@ tags:
     - gof-ch29-006
     - gof-ch31-005
     - ootp-ch04-003
-    - ootp-ch06-002
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -6012,7 +6022,6 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
-    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -6022,6 +6031,11 @@ tags:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+  magical-artifacts:
+    entries:
+    - ootp-ch06-001
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   magical-barrier:
     entries:
     - cos-ch05-001
@@ -6345,7 +6359,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
   malfoy-family:
     entries:
-    - ootp-ch06-005
+    - ootp-ch06-006
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   mandrake-juice:
@@ -6457,7 +6471,7 @@ tags:
   material-culture:
     entries:
     - ootp-ch05-002
-    - ootp-ch06-007
+    - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
@@ -6690,6 +6704,7 @@ tags:
     - ootp-ch04-007
     - ootp-ch05-004
     - ootp-ch05-007
+    - ootp-ch06-005
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -6730,6 +6745,7 @@ tags:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -6906,6 +6922,11 @@ tags:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  muggle-borns:
+    entries:
+    - ootp-ch06-004
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   muggle-camouflage:
     entries:
     - gof-ch07-002
@@ -6915,9 +6936,11 @@ tags:
     entries:
     - ootp-ch03-006
     - ootp-ch04-001
+    - ootp-ch06-007
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   muggle-family:
     entries:
     - ootp-ch01-003
@@ -6935,7 +6958,7 @@ tags:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
   muggle-hunting:
     entries:
-    - ootp-ch06-006
+    - ootp-ch06-005
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   muggle-knowledge:
@@ -7307,7 +7330,7 @@ tags:
     - ootp-ch01-001
     - ootp-ch03-002
     - ootp-ch05-001
-    - ootp-ch06-003
+    - ootp-ch06-002
     output_yaml:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
@@ -7333,7 +7356,7 @@ tags:
   order-of-merlin:
     entries:
     - ootp-ch05-007
-    - ootp-ch06-007
+    - ootp-ch06-001
     - poa-ch10-006
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
@@ -7354,7 +7377,8 @@ tags:
     - ootp-ch05-001
     - ootp-ch05-003
     - ootp-ch05-005
-    - ootp-ch06-003
+    - ootp-ch06-002
+    - ootp-ch06-007
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
@@ -7649,7 +7673,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
   permanent-sticking-charm:
     entries:
-    - ootp-ch06-002
+    - ootp-ch06-003
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   permission-form:
@@ -7738,7 +7762,7 @@ tags:
     - sources/book-01/chapter-09-midnight-duel.yaml
   phineas-nigellus:
     entries:
-    - ootp-ch06-006
+    - ootp-ch06-005
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   phoenix:
@@ -8351,7 +8375,7 @@ tags:
     - ootp-ch03-006
     - ootp-ch04-001
     - ootp-ch04-002
-    - ootp-ch06-001
+    - ootp-ch06-007
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
@@ -8408,19 +8432,24 @@ tags:
     - cos-ch08-002
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
-  pure-blood:
+  pure-blood-families:
     entries:
-    - ootp-ch06-005
+    - ootp-ch06-006
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   pure-blood-households:
     entries:
     - ootp-ch04-003
     - ootp-ch05-002
-    - ootp-ch06-004
+    - ootp-ch06-003
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  pure-blood-ideology:
+    entries:
+    - ootp-ch06-004
+    output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   pure-blood-prejudice:
     entries:
@@ -8694,6 +8723,11 @@ tags:
     - gof-ch24-003
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  regulus-black:
+    entries:
+    - ootp-ch06-004
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   remus-lupin:
     entries:
     - poa-ch10-002
@@ -9315,7 +9349,7 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
   secret-keeper:
     entries:
-    - ootp-ch06-001
+    - ootp-ch06-007
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   secret-passages:
@@ -9423,6 +9457,11 @@ tags:
     - cos-ch11-004
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+  servant-bondage:
+    entries:
+    - ootp-ch06-002
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   seven-year-education:
     entries:
     - ps-ch04-006
@@ -10596,8 +10635,7 @@ tags:
   tapestry:
     entries:
     - gof-ch25-005
-    - ootp-ch06-002
-    - ootp-ch06-004
+    - ootp-ch06-003
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
@@ -10861,7 +10899,7 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
   tonks-family:
     entries:
-    - ootp-ch06-005
+    - ootp-ch06-006
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   tournament-aftermath:
@@ -11281,7 +11319,7 @@ tags:
   unplottable:
     entries:
     - gof-ch11-005
-    - ootp-ch06-001
+    - ootp-ch06-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
@@ -11395,6 +11433,7 @@ tags:
     - gof-ch37-004
     - gof-ch37-005
     - ootp-ch05-005
+    - ootp-ch06-004
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -11416,6 +11455,7 @@ tags:
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   voldemort-fall:
     entries:
     - gof-ch02-004
@@ -11533,7 +11573,7 @@ tags:
     - gof-ch03-003
     - gof-ch03-004
     - gof-ch05-001
-    - ootp-ch06-005
+    - ootp-ch06-006
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
@@ -11719,6 +11759,11 @@ tags:
     - cos-ch03-002
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
+  wizarding-genealogy:
+    entries:
+    - ootp-ch06-001
+    output_yaml:
+    - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   wizarding-households:
     entries:
     - cos-ch02-001
