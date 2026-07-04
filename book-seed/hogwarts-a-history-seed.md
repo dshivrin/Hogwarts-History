@@ -2167,6 +2167,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
 
 ### Chapter: Divination and Elective Study
 
+#### Section: Dream interpretation and O.W.L. preparation
+
+Summary: The available evidence includes 1 source item, led by: The lesson identifies dream interpretation as fifth-year Divination material, names The Dream Oracle by Inigo Imago as the classroom text, and assigns a month-long dream diary.
+
+- **Corroboration:** The lesson identifies dream interpretation as fifth-year Divination material, names The Dream Oracle by Inigo Imago as the classroom text, and assigns a month-long dream diary.
+  - Quote: "Dream interpretation is a most important means"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1796, `ootp-ch12-005`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch13-004`, `gof-ch14-006`, `gof-ch29-005`. Earlier entries record Divination classroom setup, prediction homework, astrology, and planetary divination; this entry adds dream interpretation, The Dream Oracle, and a month-long dream diary for O.W.L. year.
+  - Notes: Trelawney qualifies exam importance through her own skepticism about grades, so the evidence should distinguish official O.W.L. preparation from her personal view of Divination.
+
 #### Section: Planetary divination in the North Tower classroom
 
 Summary: The available evidence includes 1 source item, led by: The Divination classroom scene adds North Tower route details, the silver ladder and trapdoor, Trelawney's perfumed room, and a planetary-divination lesson using a magical solar-system model.
@@ -2192,6 +2204,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: curriculum_or_subject
   - Corroborates: `poa-ch06-003`. Book 3 Chapter Six introduces Trelawney's Divination syllabus and McGonagall's distinction between Divination and true Seers; this entry adds the exam format and a concrete true-prediction event.
   - Notes: The prophecy itself is Harry-era event evidence and should be treated as later editorial context, not original pre-Harry Hogwarts history.
+
+### Chapter: Examinations and Academic Progression
+
+#### Section: Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
+
+Summary: The available evidence includes 1 source item, led by: The breakfast conversation links fifth year to O.W.L. pressure, career advice, job eligibility, and N.E.W.T. course selection for the sixth year.
+
+- **Corroboration:** The breakfast conversation links fifth year to O.W.L. pressure, career advice, job eligibility, and N.E.W.T. course selection for the sixth year.
+  - Quote: "O.W.L.s are really important"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1786, `ootp-ch12-002`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch15-002`, `cos-ch14-002`. gof-ch15-002 records mounting fourth-year workload before O.W.L.s and cos-ch14-002 records third-year elective selection tied to careers; this entry adds explicit fifth-year career advice and N.E.W.T. selection logic.
+  - Notes: Ron and the twins provide the explanation informally, though their statements are consistent with observed Hogwarts course structure.
 
 ### Chapter: Flying Lessons
 
@@ -2288,6 +2314,18 @@ Summary: The available evidence includes 1 source item, led by: The passage corr
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch08-005`, `cos-ch09-002`, `gof-ch22-005`. Corroborates previous Binns and History of Magic entries without adding a new historical topic.
   - Notes: The passage gives class context but no specific lesson content.
+
+#### Section: Professor Binns, giant wars, and lecture-based instruction
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates Professor Binns's lecture-based History of Magic teaching and identifies giant wars as a fifth-year topic with a substantial essay assignment.
+
+- **Corroboration:** The chapter corroborates Professor Binns's lecture-based History of Magic teaching and identifies giant wars as a fifth-year topic with a substantial essay assignment.
+  - Quote: "three-quarters of an hour's droning on the subject of giant wars"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1789, `ootp-ch12-003`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ps-ch08-005`, `cos-ch09-002`, `gof-ch29-002`. Prior entries establish Binns as History of Magic teacher and corroborate his routine instruction; this entry adds giant wars as a fifth-year topic and a named essay workload.
+  - Notes: Student commentary is dismissive, so the entry should not overstate the quality of the subject beyond the observed teaching format and assignment.
 
 ### Chapter: Homework and Independent Study
 
@@ -2402,6 +2440,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter stat
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The chapter documents the 1991 first-year class and does not state the age of the Potions classroom arrangement or Head of House assignments.
+
+#### Section: O.W.L. brewing standards and N.E.W.T. access
+
+Summary: The available evidence includes 1 source item, led by: Snape explicitly ties fifth-year Potions to O.W.L. assessment, N.E.W.T. entry standards, practical Draught of Peace brewing, ingredient precision, sample testing, and moonstone homework.
+
+- **Corroboration:** Snape explicitly ties fifth-year Potions to O.W.L. assessment, N.E.W.T. entry standards, practical Draught of Peace brewing, ingredient precision, sample testing, and moonstone homework.
+  - Quote: "often comes up at Ordinary Wizarding Level"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1792, `ootp-ch12-004`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ps-ch08-006`, `gof-ch15-002`, `gof-ch18-004`. ps-ch08-006 establishes introductory Potions with Snape, gof-ch15-002 records pre-O.W.L. workload, and gof-ch18-004 records practical Potions testing; this entry adds explicit O.W.L./N.E.W.T. Potions thresholds and the Draught of Peace.
+  - Notes: Snape's standards and tone may be personally biased, but the exam and course-progression claims are presented as instructional policy.
 
 ### Chapter: Potions Instruction and Materials
 
@@ -6100,6 +6150,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter intr
   - Corroborates: `ootp-ch10-006`, `gof-ch36-005`. ootp-ch10-006 records Grubbly-Plank handling first-year station arrival during Hagrid's absence; gof-ch36-005 records Fudge's earlier governance threat. This entry adds Umbridge's staff-table arrival and Grubbly-Plank taking Hagrid's subject seat.
   - Notes: The passage does not yet state Umbridge's job title or explain Hagrid's absence.
 
+### Chapter: Defense Against the Dark Arts Under Ministry Oversight
+
+#### Section: Umbridge's theory-centered curriculum
+
+Summary: The available evidence includes 1 source item, led by: Umbridge replaces practical Defense Against the Dark Arts work with a theory-centered, Ministry-approved course using Wilbert Slinkhard's Defensive Magical Theory and course aims focused on principles, legal recognition, and context.
+
+- **Corroboration:** Umbridge replaces practical Defense Against the Dark Arts work with a theory-centered, Ministry-approved course using Wilbert Slinkhard's Defensive Magical Theory and course aims focused on principles, legal recognition, and context.
+  - Quote: "a carefully structured, theory-centered, Ministry-approved course"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1799, `ootp-ch12-006`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch14-001`, `gof-ch36-005`, `ootp-ch11-006`. gof-ch14-001 records the previous practical curse curriculum, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's coded speech; this entry shows the policy enacted inside a classroom.
+  - Notes: The chapter captures Umbridge's stated rationale and student objections but does not reproduce any Ministry decree or exam-board guidance.
+
 ### Chapter: Divination, Prophecy, and School Testimony
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
@@ -6314,6 +6378,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
+
+#### Section: Ministry denial, classroom discipline, and staff constraints
+
+Summary: The available evidence includes 1 source item, led by: Umbridge states the Ministry's denial of Voldemort's return inside class, treats Harry's contradiction as punishable misconduct, and McGonagall confirms the wider danger of Ministry reporting and interference.
+
+- **Corroboration:** Umbridge states the Ministry's denial of Voldemort's return inside class, treats Harry's contradiction as punishable misconduct, and McGonagall confirms the wider danger of Ministry reporting and interference.
+  - Quote: "This is a lie"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1804, `ootp-ch12-007`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch37-004`, `gof-ch36-005`, `ootp-ch11-006`. gof-ch37-004 records Dumbledore's public truth-telling about Cedric and Voldemort, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's opening policy speech; this entry adds classroom denial, punishment, and McGonagall's warning.
+  - Notes: The note Umbridge sends to McGonagall is summarized by dialogue rather than quoted directly, so the precise written allegation remains unavailable.
 
 #### Section: Public Truth-Telling Against Ministry Pressure
 
@@ -7955,6 +8031,20 @@ Summary: The available evidence includes 1 source item, led by: A wizarding maga
   - Notes: The ban is stated in a Rita Skeeter article, so it should be corroborated before being treated as a complete written policy.
 
 ## Part: School Governance and Rules
+
+### Chapter: Common-Room Notices and Prefect Enforcement
+
+#### Section: Student advertising, Hogsmeade notices, and risky experiments
+
+Summary: The available evidence includes 1 source item, led by: The scene gives common-room notice-board evidence, confirms early notice of the first Hogsmeade weekend, and shows prefects treating unauthorized student advertising for risky work as something they should police.
+
+- **Corroboration:** The scene gives common-room notice-board evidence, confirms early notice of the first Hogsmeade weekend, and shows prefects treating unauthorized student advertising for risky work as something they should police.
+  - Quote: "It's up to us to stop this kind of thing"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, PDF p. 1782, `ootp-ch12-001`, `sources/book-05/chapter-12-professor-umbridge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch12-005`, `ps-ch09-005`. gof-ch12-005 records schoolwide start-of-term rule and Hogsmeade notices, while ps-ch09-005 records prefect-linked rule enforcement; this entry adds House notice-board practice and prefect response to risky student recruitment.
+  - Notes: The passage does not identify a written rule against such advertising or say whether staff saw the notice.
 
 ### Chapter: Start-of-Term Notices
 

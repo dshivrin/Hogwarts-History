@@ -9970,12 +9970,121 @@ by_entry:
     - wizengamot
     source_unit: ootp-ch11
     output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch12-001:
+    title: 'Common-Room Notices and Prefect Enforcement: Student advertising, Hogsmeade
+      notices, and risky experiments'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - common-room
+    - gryffindor
+    - hogsmeade-weekend
+    - notice-board
+    - prefects
+    - skiving-snackboxes
+    - student-misconduct
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch12-002:
+    title: 'Examinations and Academic Progression: Fifth-year O.W.L.s, career advice,
+      and N.E.W.T. selection'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - academic-progression
+    - career-advice
+    - course-selection
+    - fifth-year
+    - newt-courses
+    - ordinary-wizarding-levels
+    - workload
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch12-003:
+    title: 'History of Magic: Professor Binns, giant wars, and lecture-based instruction'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - fifth-year-curriculum
+    - giant-wars
+    - history-of-magic
+    - homework
+    - professor-binns
+    - student-notes
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch12-004:
+    title: 'Potions: O.W.L. brewing standards and N.E.W.T. access'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - draught-of-peace
+    - moonstone
+    - newt-courses
+    - ordinary-wizarding-levels
+    - potions
+    - practical-examination
+    - professor-snape
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch12-005:
+    title: 'Divination and Elective Study: Dream interpretation and O.W.L. preparation'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - divination
+    - dream-interpretation
+    - dream-oracle
+    - homework
+    - inigo-imago
+    - ordinary-wizarding-levels
+    - professor-trelawney
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch12-006:
+    title: 'Defense Against the Dark Arts Under Ministry Oversight: Umbridge''s theory-centered
+      curriculum'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - defensive-magical-theory
+    - dolores-umbridge
+    - ministry-approved-curriculum
+    - practical-magic
+    - theory-centered
+    - wilbert-slinkhard
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch12-007:
+    title: 'Headmasters and School Authority: Ministry denial, classroom discipline,
+      and staff constraints'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - cedric-diggory
+    - detention
+    - dolores-umbridge
+    - house-points
+    - ministry-intervention
+    - school-governance
+    - voldemort-denial
+    source_unit: ootp-ch12
+    output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
   academic-overload:
   - poa-ch07-003
   academic-progression:
+  - ootp-ch12-002
   - poa-ch16-001
   access-control:
   - ootp-ch04-002
@@ -10402,6 +10511,8 @@ by_tag:
   - poa-ch15-001
   - poa-ch15-002
   - poa-ch16-003
+  career-advice:
+  - ootp-ch12-002
   career-guidance:
   - cos-ch14-002
   careers:
@@ -10494,6 +10605,7 @@ by_tag:
   - gof-ch37-001
   - gof-ch37-003
   - gof-ch37-004
+  - ootp-ch12-007
   centaur-divination:
   - ps-ch15-007
   centaurs:
@@ -10647,6 +10759,7 @@ by_tag:
   - gof-ch19-007
   - gof-ch20-004
   - gof-ch22-007
+  - ootp-ch12-001
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -10725,6 +10838,7 @@ by_tag:
   - poa-ch06-001
   course-selection:
   - cos-ch14-002
+  - ootp-ch12-002
   court-scribe:
   - ootp-ch08-002
   courtroom:
@@ -10910,6 +11024,7 @@ by_tag:
   - ootp-ch08-003
   - ootp-ch09-004
   - ootp-ch11-005
+  - ootp-ch12-006
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -10933,6 +11048,8 @@ by_tag:
   - ps-ch13-004
   defensive-magic:
   - poa-ch19-003
+  defensive-magical-theory:
+  - ootp-ch12-006
   deflating-draught:
   - cos-ch11-002
   deletrius:
@@ -10997,6 +11114,7 @@ by_tag:
   - gof-ch13-006
   - gof-ch18-004
   - ootp-ch09-006
+  - ootp-ch12-007
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -11051,6 +11169,7 @@ by_tag:
   - gof-ch14-006
   - gof-ch21-005
   - gof-ch29-005
+  - ootp-ch12-005
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -11077,6 +11196,8 @@ by_tag:
   - ootp-ch08-006
   - ootp-ch11-002
   - ootp-ch11-006
+  - ootp-ch12-006
+  - ootp-ch12-007
   doors:
   - ps-ch08-001
   dormitories:
@@ -11106,6 +11227,12 @@ by_tag:
   - gof-ch20-001
   - ps-ch14-002
   - ps-ch14-004
+  draught-of-peace:
+  - ootp-ch12-004
+  dream-interpretation:
+  - ootp-ch12-005
+  dream-oracle:
+  - ootp-ch12-005
   dress-robes:
   - gof-ch10-007
   - gof-ch22-001
@@ -11430,8 +11557,11 @@ by_tag:
   - gof-ch23-007
   fifth-year:
   - ootp-ch09-005
+  - ootp-ch12-002
   fifth-year-booklist:
   - ootp-ch09-004
+  fifth-year-curriculum:
+  - ootp-ch12-003
   fighting:
   - ps-ch12-002
   filch:
@@ -11684,6 +11814,8 @@ by_tag:
   giant-squid:
   - gof-ch24-005
   - ps-ch16-002
+  giant-wars:
+  - ootp-ch12-003
   giantess:
   - gof-ch23-006
   giants:
@@ -11851,6 +11983,7 @@ by_tag:
   - gof-ch15-004
   - gof-ch18-002
   - ootp-ch09-005
+  - ootp-ch12-001
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -12188,6 +12321,7 @@ by_tag:
   - gof-ch15-002
   - gof-ch22-005
   - gof-ch29-002
+  - ootp-ch12-003
   - poa-ch01-001
   - poa-ch04-002
   - poa-ch16-003
@@ -12226,6 +12360,7 @@ by_tag:
   - poa-ch05-005
   hogsmeade-weekend:
   - gof-ch27-002
+  - ootp-ch12-001
   hogwarts:
   - gof-ch02-001
   - gof-ch07-003
@@ -12374,6 +12509,8 @@ by_tag:
   - gof-ch13-004
   - gof-ch14-006
   - gof-ch23-001
+  - ootp-ch12-003
+  - ootp-ch12-005
   - poa-ch02-002
   - poa-ch07-007
   - poa-ch10-001
@@ -12480,6 +12617,7 @@ by_tag:
   - cos-ch06-006
   - cos-ch18-003
   - gof-ch18-004
+  - ootp-ch12-007
   - poa-ch07-001
   - poa-ch07-007
   - poa-ch09-005
@@ -12586,6 +12724,8 @@ by_tag:
   - gof-ch07-005
   - gof-ch24-004
   - gof-ch33-003
+  inigo-imago:
+  - ootp-ch12-005
   institutional-custom:
   - ps-ch07-002
   institutional-secrecy:
@@ -13216,6 +13356,8 @@ by_tag:
   - gof-ch27-007
   - ootp-ch05-006
   - poa-ch03-005
+  ministry-approved-curriculum:
+  - ootp-ch12-006
   ministry-authority:
   - poa-ch21-001
   ministry-authorization:
@@ -13238,6 +13380,7 @@ by_tag:
   ministry-intervention:
   - gof-ch36-004
   - ootp-ch11-006
+  - ootp-ch12-007
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -13340,6 +13483,8 @@ by_tag:
   - cos-ch16-003
   monster-release:
   - cos-ch17-006
+  moonstone:
+  - ootp-ch12-004
   moony:
   - poa-ch14-007
   - poa-ch17-004
@@ -13492,6 +13637,9 @@ by_tag:
   neville-longbottom:
   - poa-ch12-006
   - poa-ch13-007
+  newt-courses:
+  - ootp-ch12-002
+  - ootp-ch12-004
   newts:
   - poa-ch16-001
   - poa-ch22-005
@@ -13528,6 +13676,8 @@ by_tag:
   - poa-ch06-002
   norwegian-ridgeback:
   - ps-ch14-004
+  notice-board:
+  - ootp-ch12-001
   nymphadora-tonks:
   - ootp-ch09-006
   obliviator:
@@ -13610,6 +13760,9 @@ by_tag:
   - poa-ch12-002
   ordinary-wizarding-levels:
   - gof-ch15-002
+  - ootp-ch12-002
+  - ootp-ch12-004
+  - ootp-ch12-005
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -13888,6 +14041,7 @@ by_tag:
   - gof-ch18-004
   - gof-ch22-005
   - gof-ch35-007
+  - ootp-ch12-004
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -13901,6 +14055,8 @@ by_tag:
   potter-family:
   - gof-ch14-004
   - gof-ch34-004
+  practical-examination:
+  - ootp-ch12-004
   practical-exams:
   - poa-ch16-004
   - ps-ch16-001
@@ -13915,6 +14071,8 @@ by_tag:
   - gof-ch28-002
   - poa-ch07-004
   - poa-ch07-007
+  practical-magic:
+  - ootp-ch12-006
   practice-schedule:
   - poa-ch08-002
   pre-harry-history:
@@ -13936,6 +14094,7 @@ by_tag:
   - ootp-ch09-005
   - ootp-ch09-006
   - ootp-ch10-002
+  - ootp-ch12-001
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -13982,6 +14141,7 @@ by_tag:
   - cos-ch09-003
   - gof-ch22-005
   - gof-ch29-002
+  - ootp-ch12-003
   - ps-ch08-005
   professor-dippet:
   - cos-ch13-005
@@ -14049,6 +14209,7 @@ by_tag:
   - gof-ch35-007
   - gof-ch36-001
   - gof-ch36-006
+  - ootp-ch12-004
   - poa-ch09-005
   - poa-ch10-001
   - poa-ch14-006
@@ -14070,6 +14231,7 @@ by_tag:
   - gof-ch14-006
   - gof-ch21-005
   - gof-ch29-005
+  - ootp-ch12-005
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -14382,6 +14544,7 @@ by_tag:
   - gof-ch36-005
   - ootp-ch09-001
   - ootp-ch11-006
+  - ootp-ch12-007
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -14668,6 +14831,8 @@ by_tag:
   - gof-ch14-002
   skele-gro:
   - cos-ch10-005
+  skiving-snackboxes:
+  - ootp-ch12-001
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -14987,6 +15152,7 @@ by_tag:
   student-misconduct:
   - cos-ch08-003
   - gof-ch06-003
+  - ootp-ch12-001
   student-movement:
   - cos-ch15-002
   - gof-ch19-001
@@ -14999,6 +15165,7 @@ by_tag:
   - poa-ch16-006
   student-notes:
   - gof-ch29-002
+  - ootp-ch12-003
   student-pets:
   - gof-ch11-002
   - poa-ch04-005
@@ -15208,6 +15375,8 @@ by_tag:
   - gof-ch36-004
   textbooks:
   - ootp-ch09-004
+  theory-centered:
+  - ootp-ch12-006
   thestrals:
   - ootp-ch10-007
   - ootp-ch11-001
@@ -15547,6 +15716,8 @@ by_tag:
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
+  voldemort-denial:
+  - ootp-ch12-007
   voldemort-fall:
   - gof-ch02-004
   - ps-ch01-001
@@ -15646,6 +15817,8 @@ by_tag:
   - poa-ch19-001
   - poa-ch20-001
   - poa-ch21-005
+  wilbert-slinkhard:
+  - ootp-ch12-006
   wingardium-leviosa:
   - ps-ch10-001
   winged-boar-gates:
@@ -15743,6 +15916,7 @@ by_tag:
   - gof-ch19-002
   workload:
   - gof-ch15-002
+  - ootp-ch12-002
   world-cup-1473:
   - ps-ch11-002
   wormtail:

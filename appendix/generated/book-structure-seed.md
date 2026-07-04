@@ -64,9 +64,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
 - Divination and Elective Study
+  - Dream interpretation and O.W.L. preparation
   - Planetary divination in the North Tower classroom
 - Divination and Third-Year Electives
   - Crystal-Gazing Exams and True Seer Evidence
+- Examinations and Academic Progression
+  - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
 - Exams and Assessment
   - Education Continuity During Crisis
   - Head Boy, Student Achievement, and Alumni Paths
@@ -94,6 +97,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - History of Magic
   - Professor Binns and Historical Instruction
   - Professor Binns and routine historical instruction
+  - Professor Binns, giant wars, and lecture-based instruction
 - Homework and Independent Study
   - Holiday Homework and Student Materials
   - Holiday Homework and Supply Shopping
@@ -105,6 +109,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced Potion-Brewing and Staff Expertise
   - Cross-House Lessons
   - Dungeon Classrooms and Introductory Potion-Making
+  - O.W.L. brewing standards and N.E.W.T. access
 - Potions Instruction and Materials
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
@@ -331,6 +336,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's Experience-Based Teaching Reputation
   - Moody's Formal Appointment at the Start-of-Term Feast
   - Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
+- Defense Against the Dark Arts Under Ministry Oversight
+  - Umbridge's theory-centered curriculum
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -354,6 +361,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
+  - Ministry denial, classroom discipline, and staff constraints
   - Public Truth-Telling Against Ministry Pressure
   - Umbridge's Opening Speech and Ministry Interference
 - Hogwarts Staff and Associates Before Harry's Arrival
@@ -867,6 +875,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## School Governance and Rules
 
+- Common-Room Notices and Prefect Enforcement
+  - Student advertising, Hogsmeade notices, and risky experiments
 - Start-of-Term Notices
   - Forbidden Objects, Restricted Places, and Yearly Exceptions
   - Rules, Restricted Places, and Staff Announcements

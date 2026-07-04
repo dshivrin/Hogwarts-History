@@ -1,0 +1,346 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  boundary_confidence: high
+  boundary_notes: Chapter Twelve range came from project-control/processing-state.yaml and project-control/next-run.md. Book 5 Chapter Twelve starts on PDF page 1781 and Chapter Thirteen starts on PDF page 1810, so only PDF pages 1781-1809 were extracted and searched.
+  processed_date: '2026-07-04'
+  processor_notes: "Processed only Book 5, Chapter Twelve. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch12-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1782
+  printed_page: null
+  extracted_text_lines: 30-41
+  text_anchor:
+    start_phrase: Pocket money failing to keep pace
+    end_phrase: It's up to us to stop this kind of thing
+    local_occurrence_note: Gryffindor common-room notice board before breakfast on the first full day of classes.
+  nearby_context: Fred and George advertise paid, risky testing work over a Hogsmeade-weekend poster, and Hermione frames removing the notice as prefect enforcement.
+  match_terms:
+  - Gryffindor common room
+  - notice board
+  - Hogsmeade weekend
+  - prefects
+  - Fred and George Weasley
+  - Skiving Snackboxes
+  quote_excerpt_short: "It's up to us to stop this kind of thing"
+  source_note: The scene gives common-room notice-board evidence, confirms early notice of the first Hogsmeade weekend, and shows prefects treating unauthorized student advertising for risky work as something they should police.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - notice-board
+  - common-room
+  - hogsmeade-weekend
+  - prefects
+  - student-misconduct
+  - skiving-snackboxes
+  - gryffindor
+  candidate_part: School Governance and Rules
+  candidate_chapter: Common-Room Notices and Prefect Enforcement
+  candidate_section: Student advertising, Hogsmeade notices, and risky experiments
+  reason_for_placement: The passage shows how House common-room notice boards carry both official school information and student postings, with prefects expected to intervene when postings breach school norms.
+  relevance_to_hogwarts_a_history: Useful for a governance section on House-level communication, prefect responsibility, and how student enterprise operated inside school spaces.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch12-005
+    - ps-ch09-005
+    notes: gof-ch12-005 records schoolwide start-of-term rule and Hogsmeade notices, while ps-ch09-005 records prefect-linked rule enforcement; this entry adds House notice-board practice and prefect response to risky student recruitment.
+  confidence: high
+  limitations: The passage does not identify a written rule against such advertising or say whether staff saw the notice.
+
+- id: ootp-ch12-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1786
+  printed_page: null
+  extracted_text_lines: 173-235
+  text_anchor:
+    start_phrase: Fifth year's O.W.L. year
+    end_phrase: choose what N.E.W.T.s you want to do next year
+    local_occurrence_note: Breakfast discussion after Ron receives the Monday timetable and before the trio leave for History of Magic.
+  nearby_context: Fred and George describe fifth-year exam pressure, joke about prior student stress, and Ron explains that O.W.L. results affect jobs and later N.E.W.T. choices.
+  match_terms:
+  - O.W.L.s
+  - fifth year
+  - N.E.W.T.s
+  - career advice
+  - academic achievement
+  - jobs
+  quote_excerpt_short: "O.W.L.s are really important"
+  source_note: The breakfast conversation links fifth year to O.W.L. pressure, career advice, job eligibility, and N.E.W.T. course selection for the sixth year.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ordinary-wizarding-levels
+  - fifth-year
+  - career-advice
+  - newt-courses
+  - course-selection
+  - academic-progression
+  - workload
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
+  reason_for_placement: The passage is direct evidence for how examination years structure Hogwarts study and post-Hogwarts planning.
+  relevance_to_hogwarts_a_history: This supports a curriculum chapter explaining why fifth year is institutionally different and how exam results govern later studies and careers.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch15-002
+    - cos-ch14-002
+    notes: gof-ch15-002 records mounting fourth-year workload before O.W.L.s and cos-ch14-002 records third-year elective selection tied to careers; this entry adds explicit fifth-year career advice and N.E.W.T. selection logic.
+  confidence: high
+  limitations: Ron and the twins provide the explanation informally, though their statements are consistent with observed Hogwarts course structure.
+
+- id: ootp-ch12-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1789
+  printed_page: null
+  extracted_text_lines: 253-270; 571-573
+  text_anchor:
+    start_phrase: History of Magic was by common consent
+    end_phrase: Binns set us a foot-and-a-half-long essay on giant wars
+    local_occurrence_note: History of Magic lesson and later homework complaint after Divination.
+  nearby_context: Binns lectures for three quarters of an hour on giant wars, students take or copy notes, and homework later confirms an extended essay on the topic.
+  match_terms:
+  - History of Magic
+  - Professor Binns
+  - giant wars
+  - notes
+  - essay
+  - O.W.L.s
+  quote_excerpt_short: "three-quarters of an hour's droning on the subject of giant wars"
+  source_note: The chapter corroborates Professor Binns's lecture-based History of Magic teaching and identifies giant wars as a fifth-year topic with a substantial essay assignment.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - history-of-magic
+  - professor-binns
+  - giant-wars
+  - homework
+  - student-notes
+  - fifth-year-curriculum
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: History of Magic
+  candidate_section: Professor Binns, giant wars, and lecture-based instruction
+  reason_for_placement: The passage supplies a specific historical topic and teaching method for a core Hogwarts subject.
+  relevance_to_hogwarts_a_history: Useful as both curriculum evidence and a later editorial note on how magical history was taught inside Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch08-005
+    - cos-ch09-002
+    - gof-ch29-002
+    notes: Prior entries establish Binns as History of Magic teacher and corroborate his routine instruction; this entry adds giant wars as a fifth-year topic and a named essay workload.
+  confidence: high
+  limitations: Student commentary is dismissive, so the entry should not overstate the quality of the subject beyond the observed teaching format and assignment.
+
+- id: ootp-ch12-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1792
+  printed_page: null
+  extracted_text_lines: 359-385; 432-438
+  text_anchor:
+    start_phrase: next June you will be sitting an important examination
+    end_phrase: twelve inches of parchment on the properties of moonstone
+    local_occurrence_note: Snape's first fifth-year Potions lesson before lunch.
+  nearby_context: Snape warns that only top students continue to N.E.W.T. Potions, assigns the O.W.L.-level Draught of Peace, and sets moonstone homework after testing potion samples.
+  match_terms:
+  - Potions
+  - O.W.L.
+  - N.E.W.T.
+  - Draught of Peace
+  - moonstone
+  - hellebore
+  quote_excerpt_short: "often comes up at Ordinary Wizarding Level"
+  source_note: Snape explicitly ties fifth-year Potions to O.W.L. assessment, N.E.W.T. entry standards, practical Draught of Peace brewing, ingredient precision, sample testing, and moonstone homework.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - potions
+  - ordinary-wizarding-levels
+  - newt-courses
+  - draught-of-peace
+  - moonstone
+  - professor-snape
+  - practical-examination
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions
+  candidate_section: O.W.L. brewing standards and N.E.W.T. access
+  reason_for_placement: The passage provides detailed fifth-year Potions evidence, including exam relevance, practical technique, and advanced-course gatekeeping.
+  relevance_to_hogwarts_a_history: This can support an academic progression section explaining how practical classwork, homework, and exam performance shaped advanced study.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch08-006
+    - gof-ch15-002
+    - gof-ch18-004
+    notes: ps-ch08-006 establishes introductory Potions with Snape, gof-ch15-002 records pre-O.W.L. workload, and gof-ch18-004 records practical Potions testing; this entry adds explicit O.W.L./N.E.W.T. Potions thresholds and the Draught of Peace.
+  confidence: high
+  limitations: Snape's standards and tone may be personally biased, but the exam and course-progression claims are presented as instructional policy.
+
+- id: ootp-ch12-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1796
+  printed_page: null
+  extracted_text_lines: 520-540; 563-573
+  text_anchor:
+    start_phrase: You will find on the tables before you copies
+    end_phrase: now we've got a month's dream diary from Trelawney
+    local_occurrence_note: First fifth-year Divination lesson in the North Tower classroom.
+  nearby_context: Trelawney introduces The Dream Oracle by Inigo Imago, explains dream interpretation as an O.W.L. topic, and assigns a month-long dream diary.
+  match_terms:
+  - Divination
+  - The Dream Oracle
+  - Inigo Imago
+  - dream interpretation
+  - O.W.L.
+  - dream diary
+  quote_excerpt_short: "Dream interpretation is a most important means"
+  source_note: The lesson identifies dream interpretation as fifth-year Divination material, names The Dream Oracle by Inigo Imago as the classroom text, and assigns a month-long dream diary.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - professor-trelawney
+  - dream-interpretation
+  - dream-oracle
+  - inigo-imago
+  - ordinary-wizarding-levels
+  - homework
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Divination and Elective Study
+  candidate_section: Dream interpretation and O.W.L. preparation
+  reason_for_placement: The passage names a Divination textbook, lesson topic, and homework form in the O.W.L. year.
+  relevance_to_hogwarts_a_history: Useful for documenting elective-study content and how Divination translated classroom work into ongoing personal records.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch13-004
+    - gof-ch14-006
+    - gof-ch29-005
+    notes: Earlier entries record Divination classroom setup, prediction homework, astrology, and planetary divination; this entry adds dream interpretation, The Dream Oracle, and a month-long dream diary for O.W.L. year.
+  confidence: high
+  limitations: Trelawney qualifies exam importance through her own skepticism about grades, so the evidence should distinguish official O.W.L. preparation from her personal view of Divination.
+
+- id: ootp-ch12-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1799
+  printed_page: null
+  extracted_text_lines: 576-640; 680-719; 761-771
+  text_anchor:
+    start_phrase: A Return to Basic Principles
+    end_phrase: controlled examination conditions
+    local_occurrence_note: Umbridge's first fifth-year Defense Against the Dark Arts lesson.
+  nearby_context: Umbridge orders wands away, writes course aims, assigns Defensive Magical Theory, and rejects practical defensive spell use in favor of Ministry-approved theory.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Umbridge
+  - Ministry-approved
+  - Defensive Magical Theory
+  - Wilbert Slinkhard
+  - course aims
+  - theory
+  quote_excerpt_short: "a carefully structured, theory-centered, Ministry-approved course"
+  source_note: Umbridge replaces practical Defense Against the Dark Arts work with a theory-centered, Ministry-approved course using Wilbert Slinkhard's Defensive Magical Theory and course aims focused on principles, legal recognition, and context.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - defense-against-the-dark-arts
+  - dolores-umbridge
+  - ministry-approved-curriculum
+  - defensive-magical-theory
+  - wilbert-slinkhard
+  - theory-centered
+  - practical-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Under Ministry Oversight
+  candidate_section: Umbridge's theory-centered curriculum
+  reason_for_placement: The passage gives the clearest classroom evidence of the Ministry's intervention in Hogwarts curriculum and pedagogy.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a turning point in Defense Against the Dark Arts, when external governance reshaped a practical subject into theoretical reading.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch14-001
+    - gof-ch36-005
+    - ootp-ch11-006
+    notes: gof-ch14-001 records the previous practical curse curriculum, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's coded speech; this entry shows the policy enacted inside a classroom.
+  confidence: high
+  limitations: The chapter captures Umbridge's stated rationale and student objections but does not reproduce any Ministry decree or exam-board guidance.
+
+- id: ootp-ch12-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twelve - Professor Umbridge
+  chapter_start_pdf_page: 1781
+  chapter_end_pdf_page: 1809
+  pdf_page: 1804
+  printed_page: null
+  extracted_text_lines: 798-819; 921-944; 953-957
+  text_anchor:
+    start_phrase: Now, let me make a few things quite plain
+    end_phrase: the Ministry of Magic is trying to interfere at Hogwarts
+    local_occurrence_note: End of Umbridge's first Defense Against the Dark Arts class and McGonagall's office response.
+  nearby_context: Umbridge denies Voldemort's return, punishes Harry with point loss and a week of detentions, sends him to McGonagall, and McGonagall warns that Umbridge reports to the Ministry.
+  match_terms:
+  - Dolores Umbridge
+  - Ministry of Magic
+  - Voldemort
+  - Cedric Diggory
+  - detention
+  - house points
+  - McGonagall
+  quote_excerpt_short: "This is a lie"
+  source_note: Umbridge states the Ministry's denial of Voldemort's return inside class, treats Harry's contradiction as punishable misconduct, and McGonagall confirms the wider danger of Ministry reporting and interference.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - dolores-umbridge
+  - ministry-intervention
+  - voldemort-denial
+  - cedric-diggory
+  - detention
+  - house-points
+  - school-governance
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Ministry denial, classroom discipline, and staff constraints
+  reason_for_placement: The passage connects classroom discipline to the Ministry's official public line and shows another senior teacher recognizing the political limits on ordinary staff response.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for how Ministry policy entered daily classroom life and altered the practical risks of student dissent.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch37-004
+    - gof-ch36-005
+    - ootp-ch11-006
+    notes: gof-ch37-004 records Dumbledore's public truth-telling about Cedric and Voldemort, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's opening policy speech; this entry adds classroom denial, punishment, and McGonagall's warning.
+  confidence: high
+  limitations: The note Umbridge sends to McGonagall is summarized by dialogue rather than quoted directly, so the precise written allegation remains unavailable.

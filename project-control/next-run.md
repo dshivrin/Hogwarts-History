@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twelve - Professor Umbridge
-- Page range: 1781-1809
+- Chapter: Chapter Thirteen - Detention with Dolores
+- Page range: 1810-1837
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-12-professor-umbridge.yaml`
+- Output YAML: `sources/book-05/chapter-13-detention-with-dolores.yaml`
 
 ## Minimal Context
 
