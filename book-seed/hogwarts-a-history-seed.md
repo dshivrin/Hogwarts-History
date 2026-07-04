@@ -23,6 +23,18 @@ Summary: The available evidence includes 1 source item, led by: Professor Binns 
   - Reference type: historical_claim
   - Notes: Binns says the precise date is uncertain and does not name his sources for the founding account.
 
+#### Section: Founder Unity, House Ideals, and Slytherin's Departure
+
+Summary: The available evidence includes 1 source item, led by: The Sorting Hat song expands the founding account by claiming eyewitness knowledge of the founders' initial unity, divergent admissions ideals, inter-House conflict, and Slytherin's departure.
+
+- **Corroboration:** The Sorting Hat song expands the founding account by claiming eyewitness knowledge of the founders' initial unity, divergent admissions ideals, inter-House conflict, and Slytherin's departure.
+  - Quote: "Why, I was there and so can tell"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1765, `ootp-ch11-003`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch12-002`, `cos-ch09-003`. gof-ch12-002 and cos-ch09-003 already cover the founding and House origins; this entry adds the Hat's eyewitness claim, founder friendship pairs, early dueling and fighting, and Slytherin's departure as a unity rupture.
+  - Notes: The account is poetic and compressed, so it should be treated as traditional historical testimony rather than a dated chronicle.
+
 #### Section: The Sorting Hat's Founding Song
 
 Summary: The available evidence includes 1 source item, led by: The Sorting Hat song gives a ritualized founding account: the founders began Hogwarts, formed Houses around preferred virtues, and enchanted Gryffindor's hat to continue sorting students.
@@ -1256,6 +1268,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter sho
   - Reference type: house_system
   - Corroborates: `cos-ch17-005`. Chapter Seventeen shows the Sorting Hat producing a sword; this entry identifies the sword as Godric Gryffindor's and gives Dumbledore's true-Gryffindor explanation.
   - Notes: The chapter does not explain when or how the sword became connected to the Hat, or whether the mechanism predates Harry.
+
+#### Section: Warning Songs in Times of School Danger
+
+Summary: The available evidence includes 1 source item, led by: Nearly Headless Nick gives ghostly testimony that the Sorting Hat has a precedent of warning Hogwarts during major danger and repeatedly advises internal unity.
+
+- **Corroboration:** Nearly Headless Nick gives ghostly testimony that the Sorting Hat has a precedent of warning Hogwarts during major danger and repeatedly advises internal unity.
+  - Quote: "periods of great danger for the school"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1769, `ootp-ch11-004`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `cos-ch12-001`, `gof-ch12-003`. cos-ch12-001 records the Sorting Hat kept in Dumbledore's office, and gof-ch12-003 records annual songs. This entry adds historical precedent for warning songs during danger and Nick's unity formula.
+  - Notes: Nick does not identify the earlier warning dates or explain exactly how the Hat detects danger.
 
 ## Part: Academic Life and Curriculum
 
@@ -6064,6 +6088,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `gof-ch11-001`. Goblet of Fire Chapter Eleven records Moody's Auror background and expected new job; this entry confirms the Hogwarts Defense Against the Dark Arts appointment and public staff-table arrival.
   - Notes: The passage does not yet reveal that the apparent Moody is an impostor.
 
+#### Section: Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
+
+Summary: The available evidence includes 1 source item, led by: The chapter introduces a Ministry-linked official at the Hogwarts staff table and shows Grubbly-Plank occupying Hagrid's Care of Magical Creatures place during his absence.
+
+- **Corroboration:** The chapter introduces a Ministry-linked official at the Hogwarts staff table and shows Grubbly-Plank occupying Hagrid's Care of Magical Creatures place during his absence.
+  - Quote: "She works for Fudge?"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1764, `ootp-ch11-002`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch10-006`, `gof-ch36-005`. ootp-ch10-006 records Grubbly-Plank handling first-year station arrival during Hagrid's absence; gof-ch36-005 records Fudge's earlier governance threat. This entry adds Umbridge's staff-table arrival and Grubbly-Plank taking Hagrid's subject seat.
+  - Notes: The passage does not yet state Umbridge's job title or explain Hagrid's absence.
+
 ### Chapter: Divination, Prophecy, and School Testimony
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
@@ -6291,6 +6327,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore publi
   - Corroborates: `gof-ch36-005`. gof-ch36-005 records Fudge's private governance threat and Dumbledore's autonomy; this entry adds Dumbledore's public use of that autonomy before the assembled school.
   - Notes: The account is filtered through Harry's observation and does not include any later formal Ministry response to the speech.
 
+#### Section: Umbridge's Opening Speech and Ministry Interference
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's first schoolwide speech signals a Ministry policy agenda inside Hogwarts, framed as tradition, accountability, and the pruning of prohibited practices.
+
+- **Corroboration:** Umbridge's first schoolwide speech signals a Ministry policy agenda inside Hogwarts, framed as tradition, accountability, and the pruning of prohibited practices.
+  - Quote: "The Ministry's interfering at Hogwarts"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1774, `ootp-ch11-006`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch36-005`, `ootp-ch05-007`. gof-ch36-005 records Fudge's threat to revisit school governance, and ootp-ch05-007 records Ministry pressure against Dumbledore. This entry shows the threat becoming an in-school policy speech by Umbridge.
+  - Notes: Hermione supplies the plain-language interpretation; Umbridge's speech itself remains coded and does not yet cite a formal decree.
+
 ### Chapter: Hogwarts Staff and Associates Before Harry's Arrival
 
 #### Section: Hagrid's Trusted Mission
@@ -6418,6 +6466,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter prov
   - Reference type: historical_claim
   - Corroborates: `poa-ch17-005`. Book 3 Chapter Seventeen identifies Scabbers as Pettigrew through Lupin and Black's testimony; this entry adds the forced transformation and direct visual confirmation.
   - Notes: The chapter shows the reversal but does not name the spell used or explain the magic by which two wands force the Animagus transformation.
+
+### Chapter: Ministry Pressure and Public Records
+
+#### Section: Public Opinion Inside Student Dormitories
+
+Summary: The available evidence includes 1 source item, led by: The dormitory argument shows Ministry-aligned Prophet claims affecting whether families trust Hogwarts, Harry, and Dumbledore after the Triwizard crisis.
+
+- **Corroboration:** The dormitory argument shows Ministry-aligned Prophet claims affecting whether families trust Hogwarts, Harry, and Dumbledore after the Triwizard crisis.
+  - Quote: "My gran says that's rubbish"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1779, `ootp-ch11-007`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch05-007`, `ootp-ch04-007`. ootp-ch05-007 and ootp-ch04-007 record Ministry and Prophet pressure against Dumbledore and Harry; this entry adds the impact inside Gryffindor dormitory life and a family-level rejection of the Prophet.
+  - Notes: The evidence is a student argument and family report, not the underlying Prophet article or official notices.
 
 ### Chapter: Post-1984 Incidents and Confirmations
 
@@ -7908,6 +7970,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Corroborates: `poa-ch08-003`. Prisoner of Azkaban Chapter Eight records Hogsmeade access enforcement; this entry corroborates the lower-year restriction and adds the 437-item forbidden list, Forest reminder, and Quidditch Cup cancellation.
   - Notes: The passage names only three new forbidden objects and does not reproduce the full list or specify how Quidditch cancellation was approved.
 
+#### Section: Rules, Restricted Places, and Staff Announcements
+
+Summary: The available evidence includes 1 source item, led by: The chapter records ordinary annual rule notices alongside two staff changes: Grubbly-Plank for Care of Magical Creatures and Umbridge for Defense Against the Dark Arts.
+
+- **Corroboration:** The chapter records ordinary annual rule notices alongside two staff changes: Grubbly-Plank for Care of Magical Creatures and Umbridge for Defense Against the Dark Arts.
+  - Quote: "the usual start-of-term notices"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1771, `ootp-ch11-005`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch12-005`, `cos-ch07-004`. gof-ch12-005 records similar start-of-term rule notices, and cos-ch07-004 records Defense Against the Dark Arts staffing difficulty. This entry adds the 462nd Filch reminder, corridor-magic ban, and Umbridge/Grubbly-Plank appointments for this year.
+  - Notes: The full Filch list is not reproduced, and Dumbledore does not say how long Grubbly-Plank will teach.
+
 ## Part: Staff, Founders, and Notable Residents
 
 ### Chapter: Staff Biographies and Institutional Memory
@@ -7961,7 +8035,7 @@ Summary: The available evidence includes 1 source item, led by: The passage loca
 
 #### Section: Thestral-Drawn Carriages
 
-Summary: The available evidence includes 1 source item, led by: The chapter reveals that the supposedly horseless Hogwarts carriages are pulled by invisible winged creatures visible to Harry and Luna but not Ron.
+Summary: The available evidence includes 2 source items, led by: The chapter reveals that the supposedly horseless Hogwarts carriages are pulled by invisible winged creatures visible to Harry and Luna but not Ron.
 
 - **Corroboration:** The chapter reveals that the supposedly horseless Hogwarts carriages are pulled by invisible winged creatures visible to Harry and Luna but not Ron.
   - Quote: "They've always pulled the carriages"
@@ -7970,6 +8044,14 @@ Summary: The available evidence includes 1 source item, led by: The chapter reve
   - Reference type: magical_architecture
   - Corroborates: `gof-ch11-006`. gof-ch11-006 records the returning-student horseless carriage route; this entry identifies the invisible creatures pulling those carriages and Luna's claim that they always have.
   - Notes: The chapter does not name the creatures as Thestrals or explain the condition for seeing them.
+
+- **Corroboration:** The chapter corroborates the thestral-drawn carriage system by showing the creatures at the castle end of the route as solid, numerous, and invisible to some students.
+  - Quote: "strong enough to pull a fleet of carriages"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, PDF p. 1762, `ootp-ch11-001`, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch10-007`. ootp-ch10-007 already identifies the invisible winged creatures pulling the carriages at Hogsmeade station; this entry corroborates them at the castle steps and adds their visible fleet-scale solidity.
+  - Notes: The chapter still does not name the creatures as Thestrals or explain the condition for seeing them.
 
 ## Part: The Grounds and Lake
 

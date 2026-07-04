@@ -1,0 +1,335 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  boundary_confidence: high
+  boundary_notes: >-
+    Extracted the bounded current source-unit range from processing-state.yaml,
+    PDF pages 1761-1780, without scanning from the start of the full PDF.
+  processed_date: '2026-07-04'
+  processor_notes: >-
+    Captured seven canon-evidence entries from the Hogwarts arrival, start-of-term
+    feast, Sorting Hat song, staffing notices, Umbridge speech, and dormitory
+    argument. No explicit Hogwarts: A History references appear in this chapter.
+
+entries:
+- id: ootp-ch11-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1762
+  printed_page: null
+  extracted_text_lines: PDF pages 1761-1762 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: the strange, skeletal creatures standing quietly
+    end_phrase: strong enough to pull a fleet of carriages
+    local_occurrence_note: Harry again sees the carriage creatures at the castle steps and compares their solidity with Ron's inability to see them.
+  nearby_context: The carriages pass the winged-boar gates and stop by the oak front doors; Harry looks toward Hagrid's dark cabin, then focuses on the creatures pulling the carriage fleet.
+  match_terms:
+  - skeletal creatures
+  - carriages
+  - Ron
+  - Luna
+  - invisible
+  - fleet
+  quote_excerpt_short: "strong enough to pull a fleet of carriages"
+  source_note: The chapter corroborates the thestral-drawn carriage system by showing the creatures at the castle end of the route as solid, numerous, and invisible to some students.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - thestrals
+  - horseless-carriages
+  - castle-approach
+  - student-transport
+  - magical-creatures
+  - invisibility
+  candidate_part: The Castle, Grounds, and Approaches
+  candidate_chapter: Arrival at Hogwarts
+  candidate_section: Thestral-Drawn Carriages
+  reason_for_placement: The passage strengthens the transport seed by confirming the creatures at the castle entrance, not only at Hogsmeade station.
+  relevance_to_hogwarts_a_history: This supports a school-transport section explaining the hidden magical-creature infrastructure behind the older-student carriage route.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch10-007
+    notes: ootp-ch10-007 already identifies the invisible winged creatures pulling the carriages at Hogsmeade station; this entry corroborates them at the castle steps and adds their visible fleet-scale solidity.
+  confidence: high
+  limitations: The chapter still does not name the creatures as Thestrals or explain the condition for seeing them.
+- id: ootp-ch11-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1764
+  printed_page: null
+  extracted_text_lines: PDF pages 1763-1764 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: It's that Umbridge woman
+    end_phrase: took the seat that ought to have been Hagrid's
+    local_occurrence_note: Harry recognizes Umbridge from his hearing at the staff table while Grubbly-Plank takes Hagrid's usual seat.
+  nearby_context: Umbridge sits beside Dumbledore and is identified as working for Fudge; Grubbly-Plank appears behind the staff table, and the first years enter after the lake crossing.
+  match_terms:
+  - Umbridge
+  - Fudge
+  - staff table
+  - Grubbly-Plank
+  - Hagrid
+  - Care of Magical Creatures
+  quote_excerpt_short: "She works for Fudge?"
+  source_note: The chapter introduces a Ministry-linked official at the Hogwarts staff table and shows Grubbly-Plank occupying Hagrid's Care of Magical Creatures place during his absence.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - staff-table
+  - dolores-umbridge
+  - ministry-of-magic
+  - grubbly-plank
+  - hagrid
+  - teacher-appointments
+  - care-of-magical-creatures
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Staffing and Ministry Links
+  candidate_section: Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
+  reason_for_placement: The scene links ordinary staff-table seating and subject coverage to the first visible Ministry presence inside Hogwarts teaching staff.
+  relevance_to_hogwarts_a_history: A later edition can use this as the opening schoolwide evidence of Ministry penetration into staffing and the temporary replacement of Hagrid.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch10-006
+    - gof-ch36-005
+    notes: ootp-ch10-006 records Grubbly-Plank handling first-year station arrival during Hagrid's absence; gof-ch36-005 records Fudge's earlier governance threat. This entry adds Umbridge's staff-table arrival and Grubbly-Plank taking Hagrid's subject seat.
+  confidence: high
+  limitations: The passage does not yet state Umbridge's job title or explain Hagrid's absence.
+- id: ootp-ch11-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1765
+  printed_page: null
+  extracted_text_lines: PDF pages 1765-1767 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: In times of old when I was new
+    end_phrase: Have the Houses been united
+    local_occurrence_note: The Sorting Hat gives an unusually historical song about the founders, House selection principles, discord, and Slytherin's departure.
+  nearby_context: McGonagall sets the patched Sorting Hat before the first years; the Hat says it was present when the founders' friendship fractured and frames House division as a lasting institutional wound.
+  match_terms:
+  - Sorting Hat
+  - founders
+  - Slytherin
+  - Gryffindor
+  - Hufflepuff
+  - Ravenclaw
+  - Houses
+  quote_excerpt_short: "Why, I was there and so can tell"
+  source_note: The Sorting Hat song expands the founding account by claiming eyewitness knowledge of the founders' initial unity, divergent admissions ideals, inter-House conflict, and Slytherin's departure.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - sorting-hat
+  - founders
+  - house-system
+  - salazar-slytherin
+  - school-origins
+  - inter-house-conflict
+  candidate_part: Origins of the School
+  candidate_chapter: The Founding of Hogwarts
+  candidate_section: Founder Unity, House Ideals, and Slytherin's Departure
+  reason_for_placement: The song is direct in-universe historical testimony from a founding artifact about the school's early unity and division.
+  relevance_to_hogwarts_a_history: This is core origins material for explaining why the Houses began as founder preferences but later became a source of institutional division.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch12-002
+    - cos-ch09-003
+    notes: gof-ch12-002 and cos-ch09-003 already cover the founding and House origins; this entry adds the Hat's eyewitness claim, founder friendship pairs, early dueling and fighting, and Slytherin's departure as a unity rupture.
+  confidence: high
+  limitations: The account is poetic and compressed, so it should be treated as traditional historical testimony rather than a dated chronicle.
+- id: ootp-ch11-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1769
+  printed_page: null
+  extracted_text_lines: PDF pages 1767-1769 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: I wonder if it's ever given warnings before
+    end_phrase: it lives in Dumbledore's office
+    local_occurrence_note: Nearly Headless Nick explains that the Sorting Hat has warned the school before during periods of great danger.
+  nearby_context: The students react to the Hat's unusual warning; Nick says the Hat always advises internal unity, and speculates that it learns from living in Dumbledore's office.
+  match_terms:
+  - Sorting Hat
+  - warnings
+  - danger
+  - Dumbledore's office
+  - stand together
+  - ghosts
+  quote_excerpt_short: "periods of great danger for the school"
+  source_note: Nearly Headless Nick gives ghostly testimony that the Sorting Hat has a precedent of warning Hogwarts during major danger and repeatedly advises internal unity.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - sorting-hat
+  - school-danger
+  - nearly-headless-nick
+  - dumbledore-office
+  - ghosts
+  - school-unity
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: Warning Songs in Times of School Danger
+  reason_for_placement: The passage turns the Hat's song from a one-off oddity into an occasional institutional warning custom recognized by a long-resident ghost.
+  relevance_to_hogwarts_a_history: This supports discussion of the Sorting Hat as a sentient school artifact whose ceremonial role can become advisory during crises.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch12-001
+    - gof-ch12-003
+    notes: cos-ch12-001 records the Sorting Hat kept in Dumbledore's office, and gof-ch12-003 records annual songs. This entry adds historical precedent for warning songs during danger and Nick's unity formula.
+  confidence: medium
+  limitations: Nick does not identify the earlier warning dates or explain exactly how the Hat detects danger.
+- id: ootp-ch11-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1771
+  printed_page: null
+  extracted_text_lines: PDF pages 1770-1771 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: usual start-of-term notices
+    end_phrase: our new Defense Against the Dark Arts teacher
+    local_occurrence_note: Dumbledore gives start-of-term notices covering the Forest, corridor magic, Filch's list, staffing, and Umbridge's Defense Against the Dark Arts appointment.
+  nearby_context: The notices come after the feast; Dumbledore states the Forest remains out of bounds, says Filch has posted an extensive list, welcomes Grubbly-Plank, and introduces Umbridge.
+  match_terms:
+  - start-of-term notices
+  - Forbidden Forest
+  - Filch
+  - corridors
+  - Grubbly-Plank
+  - Umbridge
+  quote_excerpt_short: "the usual start-of-term notices"
+  source_note: "The chapter records ordinary annual rule notices alongside two staff changes: Grubbly-Plank for Care of Magical Creatures and Umbridge for Defense Against the Dark Arts."
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - start-of-term
+  - school-rules
+  - forbidden-forest
+  - filch
+  - staffing
+  - defense-against-the-dark-arts
+  - care-of-magical-creatures
+  candidate_part: School Governance and Rules
+  candidate_chapter: Start-of-Term Notices
+  candidate_section: Rules, Restricted Places, and Staff Announcements
+  reason_for_placement: The passage shows how recurring rules and annual staffing changes are formally announced to the assembled school.
+  relevance_to_hogwarts_a_history: This supports a governance section on routine schoolwide notices, rule reminders, caretaker enforcement, and subject staffing.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch12-005
+    - cos-ch07-004
+    notes: gof-ch12-005 records similar start-of-term rule notices, and cos-ch07-004 records Defense Against the Dark Arts staffing difficulty. This entry adds the 462nd Filch reminder, corridor-magic ban, and Umbridge/Grubbly-Plank appointments for this year.
+  confidence: high
+  limitations: The full Filch list is not reproduced, and Dumbledore does not say how long Grubbly-Plank will teach.
+- id: ootp-ch11-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1774
+  printed_page: null
+  extracted_text_lines: PDF pages 1771-1774 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: The Ministry of Magic has always considered
+    end_phrase: The Ministry's interfering at Hogwarts
+    local_occurrence_note: Umbridge interrupts Dumbledore's notices with a Ministry-framed speech, and Hermione interprets its coded language as interference.
+  nearby_context: Staff and students react to Umbridge's breach of normal feast procedure; she praises education, tradition, progress, accountability, and pruning prohibited practices.
+  match_terms:
+  - Ministry of Magic
+  - Umbridge
+  - Hogwarts
+  - accountability
+  - progress
+  - interfering
+  quote_excerpt_short: "The Ministry's interfering at Hogwarts"
+  source_note: Umbridge's first schoolwide speech signals a Ministry policy agenda inside Hogwarts, framed as tradition, accountability, and the pruning of prohibited practices.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-intervention
+  - dolores-umbridge
+  - school-governance
+  - dumbledore
+  - staff-authority
+  - accountability
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Umbridge's Opening Speech and Ministry Interference
+  reason_for_placement: The speech is the first public policy statement of the Ministry's intervention at Hogwarts under Umbridge.
+  relevance_to_hogwarts_a_history: A later edition can cite this as the opening evidence for the Ministry's fifth-year campaign to reshape Hogwarts governance from within.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch36-005
+    - ootp-ch05-007
+    notes: gof-ch36-005 records Fudge's threat to revisit school governance, and ootp-ch05-007 records Ministry pressure against Dumbledore. This entry shows the threat becoming an in-school policy speech by Umbridge.
+  confidence: high
+  limitations: Hermione supplies the plain-language interpretation; Umbridge's speech itself remains coded and does not yet cite a formal decree.
+- id: ootp-ch11-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eleven - The Sorting Hat's New Song
+  chapter_start_pdf_page: 1761
+  chapter_end_pdf_page: 1780
+  pdf_page: 1779
+  printed_page: null
+  extracted_text_lines: PDF pages 1776-1780 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Me mam didn't want me to come back
+    end_phrase: We believe Harry
+    local_occurrence_note: Seamus's dormitory argument shows family and press distrust entering Gryffindor student life, while Neville cites his grandmother's opposite view.
+  nearby_context: Seamus says his mother believes the Daily Prophet's attacks on Harry and Dumbledore; Dean notes his Muggle parents do not know, and Neville says his grandmother canceled the Prophet.
+  match_terms:
+  - Seamus
+  - Daily Prophet
+  - Dumbledore
+  - Wizengamot
+  - International Confederation of Wizards
+  - Neville
+  quote_excerpt_short: "My gran says that's rubbish"
+  source_note: The dormitory argument shows Ministry-aligned Prophet claims affecting whether families trust Hogwarts, Harry, and Dumbledore after the Triwizard crisis.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - student-life
+  - dumbledore
+  - public-opinion
+  - wizengamot
+  - international-confederation
+  - gryffindor-dormitory
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Pressure and Public Records
+  candidate_section: Public Opinion Inside Student Dormitories
+  reason_for_placement: The scene traces external political messaging into student housing and family decisions about returning to Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can use this to show that official and press narratives did not stay outside the school but reshaped peer trust and parental confidence.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch05-007
+    - ootp-ch04-007
+    notes: ootp-ch05-007 and ootp-ch04-007 record Ministry and Prophet pressure against Dumbledore and Harry; this entry adds the impact inside Gryffindor dormitory life and a family-level rejection of the Prophet.
+  confidence: high
+  limitations: The evidence is a student argument and family report, not the underlying Prophet article or official notices.

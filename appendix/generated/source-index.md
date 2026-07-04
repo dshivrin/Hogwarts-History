@@ -110,3 +110,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch08`: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, pages 1700-1713, 7 entries, 0 explicit references.
 - `ootp-ch09`: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, pages 1714-1740, 7 entries, 0 explicit references.
 - `ootp-ch10`: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, pages 1741-1760, 7 entries, 0 explicit references.
+- `ootp-ch11`: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, pages 1761-1780, 7 entries, 0 explicit references.

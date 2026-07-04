@@ -207,6 +207,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House Points and the House Cup
   - Pre-Arrival House Uncertainty
   - The Sorting Hat as Magical School Artifact
+  - Warning Songs in Times of School Danger
 
 ## Ceremonies, Feasts, and Inter-School Relations
 
@@ -329,6 +330,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Alastor Moody's Auror Record Before Hogwarts
   - Moody's Experience-Based Teaching Reputation
   - Moody's Formal Appointment at the Start-of-Term Feast
+  - Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -353,6 +355,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
   - Public Truth-Telling Against Ministry Pressure
+  - Umbridge's Opening Speech and Ministry Interference
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - House-Elves and Hogwarts
@@ -377,6 +380,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Ministry Pressure and Public Records
+  - Public Opinion Inside Student Dormitories
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Public Records and Wizarding Press
@@ -581,6 +586,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Founders' Rift
   - Admission, Bloodline Ideology, and Slytherin's Departure
 - The Founding of Hogwarts
+  - Founder Unity, House Ideals, and Slytherin's Departure
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
 
@@ -863,6 +869,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Start-of-Term Notices
   - Forbidden Objects, Restricted Places, and Yearly Exceptions
+  - Rules, Restricted Places, and Staff Announcements
 
 ## Staff, Founders, and Notable Residents
 

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-03'
+updated: '2026-07-04'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -9866,6 +9866,110 @@ by_entry:
     - thestrals
     source_unit: ootp-ch10
     output_yaml: sources/book-05/chapter-10-luna-lovegood.yaml
+  ootp-ch11-001:
+    title: 'Arrival at Hogwarts: Thestral-Drawn Carriages'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-approach
+    - horseless-carriages
+    - invisibility
+    - magical-creatures
+    - student-transport
+    - thestrals
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch11-002:
+    title: 'Defense Against the Dark Arts Staffing and Ministry Links: Umbridge''s
+      Staff-Table Arrival and Grubbly-Plank''s Substitution'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - dolores-umbridge
+    - grubbly-plank
+    - hagrid
+    - ministry-of-magic
+    - staff-table
+    - teacher-appointments
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch11-003:
+    title: 'The Founding of Hogwarts: Founder Unity, House Ideals, and Slytherin''s
+      Departure'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founders
+    - house-system
+    - inter-house-conflict
+    - salazar-slytherin
+    - school-origins
+    - sorting-hat
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch11-004:
+    title: 'The Sorting Ceremony: Warning Songs in Times of School Danger'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: medium
+    tags:
+    - dumbledore-office
+    - ghosts
+    - nearly-headless-nick
+    - school-danger
+    - school-unity
+    - sorting-hat
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch11-005:
+    title: 'Start-of-Term Notices: Rules, Restricted Places, and Staff Announcements'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - defense-against-the-dark-arts
+    - filch
+    - forbidden-forest
+    - school-rules
+    - staffing
+    - start-of-term
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch11-006:
+    title: 'Headmasters and School Authority: Umbridge''s Opening Speech and Ministry
+      Interference'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - accountability
+    - dolores-umbridge
+    - dumbledore
+    - ministry-intervention
+    - school-governance
+    - staff-authority
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  ootp-ch11-007:
+    title: 'Ministry Pressure and Public Records: Public Opinion Inside Student Dormitories'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - daily-prophet
+    - dumbledore
+    - gryffindor-dormitory
+    - international-confederation
+    - public-opinion
+    - student-life
+    - wizengamot
+    source_unit: ootp-ch11
+    output_yaml: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -9885,6 +9989,8 @@ by_tag:
   - gof-ch07-004
   accio:
   - gof-ch20-004
+  accountability:
+  - ootp-ch11-006
   acromantula-colony:
   - cos-ch15-005
   address-tracking:
@@ -10283,6 +10389,8 @@ by_tag:
   - gof-ch26-003
   - gof-ch28-002
   - ootp-ch10-006
+  - ootp-ch11-002
+  - ootp-ch11-005
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -10313,6 +10421,7 @@ by_tag:
   - cos-ch05-002
   - gof-ch12-001
   - ootp-ch10-007
+  - ootp-ch11-001
   castle-architecture:
   - gof-ch15-001
   castle-grounds:
@@ -10717,6 +10826,7 @@ by_tag:
   - ootp-ch01-001
   - ootp-ch04-007
   - ootp-ch05-007
+  - ootp-ch11-007
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -10799,6 +10909,7 @@ by_tag:
   - ootp-ch02-005
   - ootp-ch08-003
   - ootp-ch09-004
+  - ootp-ch11-005
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -10964,6 +11075,8 @@ by_tag:
   - cos-ch03-002
   dolores-umbridge:
   - ootp-ch08-006
+  - ootp-ch11-002
+  - ootp-ch11-006
   doors:
   - ps-ch08-001
   dormitories:
@@ -11057,6 +11170,8 @@ by_tag:
   - ootp-ch09-004
   - ootp-ch09-005
   - ootp-ch09-007
+  - ootp-ch11-006
+  - ootp-ch11-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -11098,6 +11213,7 @@ by_tag:
   - gof-ch29-006
   - gof-ch30-001
   - gof-ch30-002
+  - ootp-ch11-004
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -11322,6 +11438,7 @@ by_tag:
   - cos-ch07-006
   - cos-ch08-002
   - gof-ch12-005
+  - ootp-ch11-005
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -11451,6 +11568,7 @@ by_tag:
   - gof-ch12-005
   - gof-ch28-005
   - gof-ch28-007
+  - ootp-ch11-005
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -11482,6 +11600,7 @@ by_tag:
   founders:
   - cos-ch09-003
   - gof-ch12-002
+  - ootp-ch11-003
   founders-rift:
   - cos-ch09-004
   founding:
@@ -11558,6 +11677,7 @@ by_tag:
   - cos-ch08-001
   - cos-ch08-005
   - gof-ch25-004
+  - ootp-ch11-004
   - poa-ch08-006
   - poa-ch09-002
   - ps-ch08-002
@@ -11720,6 +11840,7 @@ by_tag:
   - poa-ch09-007
   grubbly-plank:
   - ootp-ch10-006
+  - ootp-ch11-002
   gryffindor:
   - cos-ch06-005
   - cos-ch07-002
@@ -11747,6 +11868,8 @@ by_tag:
   gryffindor-common-room:
   - poa-ch13-006
   - ps-ch13-003
+  gryffindor-dormitory:
+  - ootp-ch11-007
   gryffindor-sword:
   - cos-ch18-004
   - gof-ch30-001
@@ -11817,6 +11940,7 @@ by_tag:
   - gof-ch35-003
   - gof-ch36-006
   - ootp-ch10-006
+  - ootp-ch11-002
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -12264,6 +12388,7 @@ by_tag:
   - gof-ch11-006
   - gof-ch12-001
   - ootp-ch10-007
+  - ootp-ch11-001
   hospital-wing:
   - cos-ch10-005
   - cos-ch11-006
@@ -12384,6 +12509,7 @@ by_tag:
   - gof-ch18-002
   - ootp-ch10-002
   - ootp-ch10-003
+  - ootp-ch11-003
   - ps-ch05-006
   - ps-ch06-005
   - ps-ch07-002
@@ -12466,6 +12592,8 @@ by_tag:
   - cos-ch13-005
   intelligence:
   - ootp-ch04-005
+  inter-house-conflict:
+  - ootp-ch11-003
   inter-house-quidditch-cup:
   - gof-ch12-005
   inter-school-relations:
@@ -12489,6 +12617,7 @@ by_tag:
   - gof-ch26-002
   international-confederation:
   - ootp-ch05-007
+  - ootp-ch11-007
   international-magical-cooperation:
   - gof-ch05-003
   - gof-ch12-007
@@ -12509,6 +12638,7 @@ by_tag:
   - ootp-ch07-005
   invisibility:
   - gof-ch29-003
+  - ootp-ch11-001
   invisibility-cloak:
   - gof-ch04-002
   - gof-ch19-003
@@ -12846,6 +12976,7 @@ by_tag:
   - gof-ch28-002
   - gof-ch31-006
   - ootp-ch10-007
+  - ootp-ch11-001
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -13106,6 +13237,7 @@ by_tag:
   - ootp-ch09-001
   ministry-intervention:
   - gof-ch36-004
+  - ootp-ch11-006
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -13166,6 +13298,7 @@ by_tag:
   - ootp-ch08-001
   - ootp-ch08-002
   - ootp-ch09-002
+  - ootp-ch11-002
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -13348,6 +13481,7 @@ by_tag:
   - cos-ch08-001
   - cos-ch08-005
   - cos-ch11-006
+  - ootp-ch11-004
   - poa-ch08-006
   - poa-ch14-005
   - ps-ch08-002
@@ -13975,6 +14109,7 @@ by_tag:
   - ps-ch02-006
   public-opinion:
   - ootp-ch04-007
+  - ootp-ch11-007
   punishment:
   - cos-ch08-002
   pure-blood-families:
@@ -14198,6 +14333,7 @@ by_tag:
   - cos-ch11-004
   - cos-ch17-004
   - cos-ch17-006
+  - ootp-ch11-003
   salem-witches-institute:
   - gof-ch07-003
   scabbers:
@@ -14225,6 +14361,8 @@ by_tag:
   - poa-ch01-003
   school-crest:
   - ps-ch03-001
+  school-danger:
+  - ootp-ch11-004
   school-discipline:
   - gof-ch05-004
   - gof-ch13-006
@@ -14243,6 +14381,7 @@ by_tag:
   - cos-ch18-005
   - gof-ch36-005
   - ootp-ch09-001
+  - ootp-ch11-006
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -14282,6 +14421,7 @@ by_tag:
   - poa-ch01-002
   school-origins:
   - gof-ch12-002
+  - ootp-ch11-003
   school-oversight:
   - cos-ch14-006
   school-owls:
@@ -14308,6 +14448,7 @@ by_tag:
   - gof-ch11-003
   - gof-ch12-005
   - gof-ch16-003
+  - ootp-ch11-005
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
@@ -14351,6 +14492,8 @@ by_tag:
   - ootp-ch10-001
   - poa-ch05-001
   - ps-ch06-001
+  school-unity:
+  - ootp-ch11-004
   school-vacations:
   - ps-ch04-004
   scoring:
@@ -14599,6 +14742,8 @@ by_tag:
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
+  - ootp-ch11-003
+  - ootp-ch11-004
   source-reliability:
   - gof-ch15-003
   special-awards:
@@ -14660,6 +14805,8 @@ by_tag:
   - gof-ch24-002
   - poa-ch05-007
   - poa-ch17-003
+  staff-authority:
+  - ootp-ch11-006
   staff-authorization:
   - cos-ch11-003
   staff-biography:
@@ -14705,9 +14852,11 @@ by_tag:
   - ootp-ch10-006
   staff-table:
   - gof-ch12-006
+  - ootp-ch11-002
   staffing:
   - cos-ch07-004
   - gof-ch36-005
+  - ootp-ch11-005
   - poa-ch05-003
   staffroom:
   - cos-ch16-005
@@ -14739,6 +14888,7 @@ by_tag:
   - ps-ch15-006
   start-of-term:
   - gof-ch12-001
+  - ootp-ch11-005
   start-of-term-banquet:
   - ps-ch07-002
   statute-of-secrecy:
@@ -14825,6 +14975,8 @@ by_tag:
   - ootp-ch09-006
   - poa-ch01-004
   - poa-ch04-006
+  student-life:
+  - ootp-ch11-007
   student-lockdown:
   - cos-ch14-004
   student-lodging:
@@ -14926,6 +15078,7 @@ by_tag:
   - gof-ch34-001
   student-transport:
   - ootp-ch10-007
+  - ootp-ch11-001
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -15008,6 +15161,7 @@ by_tag:
   - cos-ch07-004
   - gof-ch12-006
   - ootp-ch09-004
+  - ootp-ch11-002
   - poa-ch05-003
   teacher-authority:
   - poa-ch19-003
@@ -15056,6 +15210,7 @@ by_tag:
   - ootp-ch09-004
   thestrals:
   - ootp-ch10-007
+  - ootp-ch11-001
   third-floor-corridor:
   - ps-ch08-003
   - ps-ch09-007
@@ -15577,6 +15732,7 @@ by_tag:
   - ootp-ch07-007
   - ootp-ch08-001
   - ootp-ch08-004
+  - ootp-ch11-007
   wizengamot-verdict:
   - ootp-ch08-007
   wolfsbane-potion:

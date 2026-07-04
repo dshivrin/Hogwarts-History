@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-03'
+updated: '2026-07-04'
 tags:
   academic-merit:
     entries:
@@ -44,6 +44,11 @@ tags:
     - gof-ch20-004
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+  accountability:
+    entries:
+    - ootp-ch11-006
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   acromantula-colony:
     entries:
     - cos-ch15-005
@@ -899,6 +904,8 @@ tags:
     - gof-ch26-003
     - gof-ch28-002
     - ootp-ch10-006
+    - ootp-ch11-002
+    - ootp-ch11-005
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -929,6 +936,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   career-guidance:
     entries:
     - cos-ch14-002
@@ -969,10 +977,12 @@ tags:
     - cos-ch05-002
     - gof-ch12-001
     - ootp-ch10-007
+    - ootp-ch11-001
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   castle-architecture:
     entries:
     - gof-ch15-001
@@ -1841,6 +1851,7 @@ tags:
     - ootp-ch01-001
     - ootp-ch04-007
     - ootp-ch05-007
+    - ootp-ch11-007
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -1856,6 +1867,7 @@ tags:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -2002,6 +2014,7 @@ tags:
     - ootp-ch02-005
     - ootp-ch08-003
     - ootp-ch09-004
+    - ootp-ch11-005
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2058,6 +2071,7 @@ tags:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -2359,8 +2373,11 @@ tags:
   dolores-umbridge:
     entries:
     - ootp-ch08-006
+    - ootp-ch11-002
+    - ootp-ch11-006
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   doors:
     entries:
     - ps-ch08-001
@@ -2504,6 +2521,8 @@ tags:
     - ootp-ch09-004
     - ootp-ch09-005
     - ootp-ch09-007
+    - ootp-ch11-006
+    - ootp-ch11-007
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2593,6 +2612,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2601,12 +2621,14 @@ tags:
     - gof-ch29-006
     - gof-ch30-001
     - gof-ch30-002
+    - ootp-ch11-004
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -3101,6 +3123,7 @@ tags:
     - cos-ch07-006
     - cos-ch08-002
     - gof-ch12-005
+    - ootp-ch11-005
     - poa-ch07-005
     - poa-ch08-003
     - poa-ch08-007
@@ -3131,6 +3154,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   financial-scandal:
     entries:
     - gof-ch37-007
@@ -3373,6 +3397,7 @@ tags:
     - gof-ch12-005
     - gof-ch28-005
     - gof-ch28-007
+    - ootp-ch11-005
     - poa-ch06-005
     - poa-ch19-007
     - ps-ch15-004
@@ -3387,6 +3412,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
@@ -3447,9 +3473,11 @@ tags:
     entries:
     - cos-ch09-003
     - gof-ch12-002
+    - ootp-ch11-003
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   founders-rift:
     entries:
     - cos-ch09-004
@@ -3622,6 +3650,7 @@ tags:
     - cos-ch08-001
     - cos-ch08-005
     - gof-ch25-004
+    - ootp-ch11-004
     - poa-ch08-006
     - poa-ch09-002
     - ps-ch08-002
@@ -3632,6 +3661,7 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   giant-squid:
     entries:
     - gof-ch24-005
@@ -3955,8 +3985,10 @@ tags:
   grubbly-plank:
     entries:
     - ootp-ch10-006
+    - ootp-ch11-002
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   gryffindor:
     entries:
     - cos-ch06-005
@@ -4010,6 +4042,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  gryffindor-dormitory:
+    entries:
+    - ootp-ch11-007
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   gryffindor-sword:
     entries:
     - cos-ch18-004
@@ -4133,6 +4170,7 @@ tags:
     - gof-ch35-003
     - gof-ch36-006
     - ootp-ch10-006
+    - ootp-ch11-002
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -4195,6 +4233,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -5082,10 +5121,12 @@ tags:
     - gof-ch11-006
     - gof-ch12-001
     - ootp-ch10-007
+    - ootp-ch11-001
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   hospital-wing:
     entries:
     - cos-ch10-005
@@ -5334,6 +5375,7 @@ tags:
     - gof-ch18-002
     - ootp-ch10-002
     - ootp-ch10-003
+    - ootp-ch11-003
     - ps-ch05-006
     - ps-ch06-005
     - ps-ch07-002
@@ -5346,6 +5388,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   house-tables:
     entries:
     - cos-ch06-001
@@ -5522,6 +5565,11 @@ tags:
     - ootp-ch04-005
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  inter-house-conflict:
+    entries:
+    - ootp-ch11-003
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   inter-house-quidditch-cup:
     entries:
     - gof-ch12-005
@@ -5576,8 +5624,10 @@ tags:
   international-confederation:
     entries:
     - ootp-ch05-007
+    - ootp-ch11-007
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   international-magical-cooperation:
     entries:
     - gof-ch05-003
@@ -5624,8 +5674,10 @@ tags:
   invisibility:
     entries:
     - gof-ch29-003
+    - ootp-ch11-001
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   invisibility-cloak:
     entries:
     - gof-ch04-002
@@ -6347,6 +6399,7 @@ tags:
     - gof-ch28-002
     - gof-ch31-006
     - ootp-ch10-007
+    - ootp-ch11-001
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
@@ -6361,6 +6414,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -6941,8 +6995,10 @@ tags:
   ministry-intervention:
     entries:
     - gof-ch36-004
+    - ootp-ch11-006
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -7017,6 +7073,7 @@ tags:
     - ootp-ch08-001
     - ootp-ch08-002
     - ootp-ch09-002
+    - ootp-ch11-002
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -7061,6 +7118,7 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -7460,6 +7518,7 @@ tags:
     - cos-ch08-001
     - cos-ch08-005
     - cos-ch11-006
+    - ootp-ch11-004
     - poa-ch08-006
     - poa-ch14-005
     - ps-ch08-002
@@ -7469,6 +7528,7 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-14-snapes-grudge.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   neptune:
     entries:
     - gof-ch29-005
@@ -8812,8 +8872,10 @@ tags:
   public-opinion:
     entries:
     - ootp-ch04-007
+    - ootp-ch11-007
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   punishment:
     entries:
     - cos-ch08-002
@@ -9301,10 +9363,12 @@ tags:
     - cos-ch11-004
     - cos-ch17-004
     - cos-ch17-006
+    - ootp-ch11-003
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   salem-witches-institute:
     entries:
     - gof-ch07-003
@@ -9369,6 +9433,11 @@ tags:
     - ps-ch03-001
     output_yaml:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
+  school-danger:
+    entries:
+    - ootp-ch11-004
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   school-discipline:
     entries:
     - gof-ch05-004
@@ -9406,11 +9475,13 @@ tags:
     - cos-ch18-005
     - gof-ch36-005
     - ootp-ch09-001
+    - ootp-ch11-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -9489,8 +9560,10 @@ tags:
   school-origins:
     entries:
     - gof-ch12-002
+    - ootp-ch11-003
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   school-oversight:
     entries:
     - cos-ch14-006
@@ -9550,6 +9623,7 @@ tags:
     - gof-ch11-003
     - gof-ch12-005
     - gof-ch16-003
+    - ootp-ch11-005
     - ps-ch08-003
     - ps-ch09-005
     - ps-ch12-002
@@ -9560,6 +9634,7 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   school-schedule:
     entries:
     - gof-ch15-005
@@ -9647,6 +9722,11 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  school-unity:
+    entries:
+    - ootp-ch11-004
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   school-vacations:
     entries:
     - ps-ch04-004
@@ -10180,6 +10260,8 @@ tags:
     - gof-ch12-002
     - gof-ch12-003
     - gof-ch30-001
+    - ootp-ch11-003
+    - ootp-ch11-004
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -10187,6 +10269,7 @@ tags:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   source-reliability:
     entries:
     - gof-ch15-003
@@ -10332,6 +10415,11 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  staff-authority:
+    entries:
+    - ootp-ch11-006
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   staff-authorization:
     entries:
     - cos-ch11-003
@@ -10439,17 +10527,21 @@ tags:
   staff-table:
     entries:
     - gof-ch12-006
+    - ootp-ch11-002
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   staffing:
     entries:
     - cos-ch07-004
     - gof-ch36-005
+    - ootp-ch11-005
     - poa-ch05-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   staffroom:
     entries:
     - cos-ch16-005
@@ -10518,8 +10610,10 @@ tags:
   start-of-term:
     entries:
     - gof-ch12-001
+    - ootp-ch11-005
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   start-of-term-banquet:
     entries:
     - ps-ch07-002
@@ -10716,6 +10810,11 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  student-life:
+    entries:
+    - ootp-ch11-007
+    output_yaml:
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   student-lockdown:
     entries:
     - cos-ch14-004
@@ -10938,8 +11037,10 @@ tags:
   student-transport:
     entries:
     - ootp-ch10-007
+    - ootp-ch11-001
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   student-travel:
     entries:
     - gof-ch03-003
@@ -11127,12 +11228,14 @@ tags:
     - cos-ch07-004
     - gof-ch12-006
     - ootp-ch09-004
+    - ootp-ch11-002
     - poa-ch05-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   teacher-authority:
     entries:
     - poa-ch19-003
@@ -11243,8 +11346,10 @@ tags:
   thestrals:
     entries:
     - ootp-ch10-007
+    - ootp-ch11-001
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   third-floor-corridor:
     entries:
     - ps-ch08-003
@@ -12367,10 +12472,12 @@ tags:
     - ootp-ch07-007
     - ootp-ch08-001
     - ootp-ch08-004
+    - ootp-ch11-007
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   wizengamot-verdict:
     entries:
     - ootp-ch08-007
