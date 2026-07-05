@@ -10188,6 +10188,115 @@ by_entry:
     - team-tryouts
     source_unit: ootp-ch13
     output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch14-001:
+    title: 'House-Elves and Hidden Labor: Clothing, freedom, and Hogwarts service
+      spaces'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - castle-maintenance
+    - clothing
+    - common-room
+    - gryffindor-tower
+    - house-elves
+    - magical-servitude
+    - manumission
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch14-002:
+    title: 'Towers, Outbuildings, and Grounds: Owlery mail infrastructure and Thestrals
+      in the Forest'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-architecture
+    - forbidden-forest
+    - hagrid
+    - owlery
+    - school-owls
+    - student-transport
+    - thestrals
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch14-003:
+    title: 'Headmasters and School Authority: Ministry pressure on Dumbledore''s allies'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - azkaban
+    - daily-prophet
+    - ministry-of-magic
+    - order-of-the-phoenix
+    - school-politics
+    - sturgis-podmore
+    - wizengamot
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch14-004:
+    title: 'House Teams and Training: Practice sessions, equipment, and team discipline'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - captain-office
+    - gryffindor-team
+    - hospital-wing
+    - keeper
+    - pitch
+    - quidditch
+    - school-recreation
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch14-005:
+    title: 'Examinations and Academic Progression: Fifth-year weekend workload across
+      subjects'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - astronomy
+    - fifth-year
+    - herbology
+    - homework
+    - ordinary-wizarding-levels
+    - transfiguration
+    - workload
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch14-006:
+    title: 'Headmasters and School Authority: Ministry pressure on prefect loyalty'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - dumbledore
+    - head-boy
+    - ministry-intervention
+    - percy-weasley
+    - prefects
+    - school-governance
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch14-007:
+    title: 'Defense Against the Dark Arts Under Ministry Oversight: Combat suppression
+      and fireplace intelligence'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - dolores-umbridge
+    - fire-communication
+    - gryffindor-common-room
+    - hagrid
+    - ministry-intervention
+    - sirius-black
+    source_unit: ootp-ch14
+    output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -10358,6 +10467,7 @@ by_tag:
   - gof-ch13-004
   - gof-ch21-005
   astronomy:
+  - ootp-ch14-005
   - poa-ch16-003
   - ps-ch08-004
   astronomy-tower:
@@ -10393,6 +10503,7 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch08-001
   - ootp-ch08-006
+  - ootp-ch14-003
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -10598,6 +10709,8 @@ by_tag:
   - poa-ch15-004
   butterbeer:
   - gof-ch28-001
+  captain-office:
+  - ootp-ch14-004
   captains:
   - poa-ch15-006
   care-of-magical-creatures:
@@ -10651,6 +10764,7 @@ by_tag:
   - ootp-ch11-001
   castle-architecture:
   - gof-ch15-001
+  - ootp-ch14-002
   castle-grounds:
   - poa-ch17-001
   - poa-ch20-001
@@ -10663,6 +10777,7 @@ by_tag:
   castle-maintenance:
   - gof-ch12-004
   - gof-ch26-004
+  - ootp-ch14-001
   castle-map:
   - gof-ch25-001
   - poa-ch10-003
@@ -10849,6 +10964,7 @@ by_tag:
   clothing:
   - gof-ch09-003
   - ootp-ch13-002
+  - ootp-ch14-001
   clue:
   - gof-ch20-007
   - gof-ch21-001
@@ -10880,6 +10996,7 @@ by_tag:
   - ootp-ch12-001
   - ootp-ch13-001
   - ootp-ch13-002
+  - ootp-ch14-001
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -11064,6 +11181,7 @@ by_tag:
   - ootp-ch04-007
   - ootp-ch05-007
   - ootp-ch11-007
+  - ootp-ch14-003
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -11149,6 +11267,7 @@ by_tag:
   - ootp-ch11-005
   - ootp-ch12-006
   - ootp-ch13-005
+  - ootp-ch14-007
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -11325,6 +11444,8 @@ by_tag:
   - ootp-ch12-006
   - ootp-ch12-007
   - ootp-ch13-006
+  - ootp-ch14-006
+  - ootp-ch14-007
   doors:
   - ps-ch08-001
   dormitories:
@@ -11426,6 +11547,7 @@ by_tag:
   - ootp-ch09-007
   - ootp-ch11-006
   - ootp-ch11-007
+  - ootp-ch14-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -11685,6 +11807,7 @@ by_tag:
   fifth-year:
   - ootp-ch09-005
   - ootp-ch12-002
+  - ootp-ch14-005
   fifth-year-booklist:
   - ootp-ch09-004
   fifth-year-curriculum:
@@ -11713,6 +11836,8 @@ by_tag:
   - ps-ch15-004
   financial-scandal:
   - gof-ch37-007
+  fire-communication:
+  - ootp-ch14-007
   firebolt:
   - gof-ch05-005
   - gof-ch20-004
@@ -11827,6 +11952,7 @@ by_tag:
   - gof-ch28-005
   - gof-ch28-007
   - ootp-ch11-005
+  - ootp-ch14-002
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -12129,6 +12255,7 @@ by_tag:
   - ps-ch15-002
   - ps-ch17-005
   gryffindor-common-room:
+  - ootp-ch14-007
   - poa-ch13-006
   - ps-ch13-003
   gryffindor-dormitory:
@@ -12137,6 +12264,7 @@ by_tag:
   - cos-ch18-004
   - gof-ch30-001
   gryffindor-team:
+  - ootp-ch14-004
   - poa-ch13-001
   gryffindor-tower:
   - cos-ch05-006
@@ -12149,6 +12277,7 @@ by_tag:
   - gof-ch22-007
   - gof-ch23-001
   - ootp-ch13-002
+  - ootp-ch14-001
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -12205,6 +12334,8 @@ by_tag:
   - gof-ch36-006
   - ootp-ch10-006
   - ootp-ch11-002
+  - ootp-ch14-002
+  - ootp-ch14-007
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -12297,6 +12428,7 @@ by_tag:
   - cos-ch18-001
   - gof-ch05-001
   - ootp-ch10-002
+  - ootp-ch14-006
   - poa-ch01-004
   - poa-ch04-006
   - poa-ch05-006
@@ -12378,6 +12510,7 @@ by_tag:
   - gof-ch10-006
   - gof-ch13-002
   - ootp-ch10-004
+  - ootp-ch14-005
   - poa-ch16-003
   - ps-ch08-004
   - ps-ch14-001
@@ -12642,6 +12775,7 @@ by_tag:
   - gof-ch23-001
   - ootp-ch12-003
   - ootp-ch12-005
+  - ootp-ch14-005
   - poa-ch02-002
   - poa-ch07-007
   - poa-ch10-001
@@ -12671,6 +12805,7 @@ by_tag:
   - gof-ch35-005
   - gof-ch36-001
   - gof-ch37-006
+  - ootp-ch14-004
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -12731,6 +12866,7 @@ by_tag:
   - ootp-ch07-003
   - ootp-ch09-002
   - ootp-ch13-002
+  - ootp-ch14-001
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -12973,6 +13109,7 @@ by_tag:
   keeper:
   - cos-ch07-001
   - ootp-ch13-007
+  - ootp-ch14-004
   keeper-of-keys:
   - ps-ch04-001
   keeper-protection:
@@ -13343,6 +13480,7 @@ by_tag:
   - gof-ch28-001
   - ootp-ch09-002
   - ootp-ch13-002
+  - ootp-ch14-001
   magical-settlements:
   - gof-ch19-001
   magical-spaces:
@@ -13388,6 +13526,7 @@ by_tag:
   - cos-ch18-006
   - gof-ch09-003
   - ootp-ch13-002
+  - ootp-ch14-001
   marauders:
   - ootp-ch09-006
   - poa-ch18-005
@@ -13518,6 +13657,8 @@ by_tag:
   - ootp-ch11-006
   - ootp-ch12-007
   - ootp-ch13-006
+  - ootp-ch14-006
+  - ootp-ch14-007
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -13579,6 +13720,7 @@ by_tag:
   - ootp-ch08-002
   - ootp-ch09-002
   - ootp-ch11-002
+  - ootp-ch14-003
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -13894,6 +14036,7 @@ by_tag:
   - ootp-ch07-005
   - ootp-ch09-003
   - ootp-ch10-001
+  - ootp-ch14-003
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -13902,6 +14045,7 @@ by_tag:
   - ootp-ch12-004
   - ootp-ch12-005
   - ootp-ch13-003
+  - ootp-ch14-005
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -13935,6 +14079,7 @@ by_tag:
   - gof-ch15-001
   - gof-ch18-001
   - gof-ch29-001
+  - ootp-ch14-002
   - poa-ch09-004
   owls:
   - cos-ch04-003
@@ -14030,6 +14175,7 @@ by_tag:
   - gof-ch30-002
   percy-weasley:
   - cos-ch03-003
+  - ootp-ch14-006
   - poa-ch01-004
   - poa-ch04-006
   permanent-sticking-charm:
@@ -14092,6 +14238,7 @@ by_tag:
   - cos-ch16-003
   pitch:
   - cos-ch07-001
+  - ootp-ch14-004
   planetary-divination:
   - gof-ch29-005
   plant-defenses:
@@ -14238,6 +14385,7 @@ by_tag:
   - ootp-ch10-002
   - ootp-ch12-001
   - ootp-ch13-001
+  - ootp-ch14-006
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -14454,6 +14602,7 @@ by_tag:
   - gof-ch08-004
   - gof-ch30-005
   - ootp-ch13-007
+  - ootp-ch14-004
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -14696,6 +14845,7 @@ by_tag:
   - ootp-ch09-001
   - ootp-ch11-006
   - ootp-ch12-007
+  - ootp-ch14-006
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -14740,10 +14890,13 @@ by_tag:
   - cos-ch14-006
   school-owls:
   - gof-ch18-001
+  - ootp-ch14-002
   school-place:
   - cos-ch01-004
   school-policy:
   - gof-ch14-002
+  school-politics:
+  - ootp-ch14-003
   school-preparation:
   - ps-ch09-001
   school-property:
@@ -14754,6 +14907,8 @@ by_tag:
   school-protections:
   - gof-ch11-005
   - gof-ch28-003
+  school-recreation:
+  - ootp-ch14-004
   school-representatives:
   - gof-ch22-002
   school-rivalry:
@@ -14955,6 +15110,7 @@ by_tag:
   - ootp-ch07-005
   - ootp-ch10-001
   - ootp-ch10-005
+  - ootp-ch14-007
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -15405,6 +15561,7 @@ by_tag:
   student-transport:
   - ootp-ch10-007
   - ootp-ch11-001
+  - ootp-ch14-002
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -15422,6 +15579,8 @@ by_tag:
   - gof-ch29-004
   stunning-spells:
   - gof-ch19-005
+  sturgis-podmore:
+  - ootp-ch14-003
   substitute-teacher:
   - gof-ch24-001
   subterranean-chamber:
@@ -15543,6 +15702,7 @@ by_tag:
   thestrals:
   - ootp-ch10-007
   - ootp-ch11-001
+  - ootp-ch14-002
   third-floor:
   - ootp-ch13-005
   third-floor-corridor:
@@ -15646,6 +15806,7 @@ by_tag:
   - cos-ch06-004
   - gof-ch15-002
   - ootp-ch13-003
+  - ootp-ch14-005
   - poa-ch04-003
   - poa-ch06-004
   - poa-ch16-003
@@ -16076,6 +16237,7 @@ by_tag:
   - ootp-ch08-001
   - ootp-ch08-004
   - ootp-ch11-007
+  - ootp-ch14-003
   wizengamot-verdict:
   - ootp-ch08-007
   wolfsbane-potion:
@@ -16090,6 +16252,7 @@ by_tag:
   - gof-ch15-002
   - ootp-ch12-002
   - ootp-ch13-003
+  - ootp-ch14-005
   world-cup-1473:
   - ps-ch11-002
   wormtail:

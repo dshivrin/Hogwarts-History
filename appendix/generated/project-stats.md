@@ -8,37 +8,37 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 107
+- Total: 108
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Order of the Phoenix: 87
+- Harry Potter and the Order of the Phoenix: 94
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 309
-- later_editorial_note: 314
+- harry_era_confirmation: 313
+- later_editorial_note: 317
 - original_book_core_candidate: 7
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 54
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 50
-- curriculum_or_subject: 97
+- cross_reference_candidate: 53
+- curriculum_or_subject: 98
 - direct_observed_setting: 38
 - explicit_hogwarts_a_history: 6
 - explicit_in_universe_source: 50
 - historical_claim: 72
 - house_system: 13
-- institutional_custom: 124
-- magical_architecture: 48
+- institutional_custom: 125
+- magical_architecture: 49
 - portrait_or_ghost_lore: 9
-- school_rule_or_policy: 81
+- school_rule_or_policy: 82
 - security_or_protection: 98
 
 ## Explicit `Hogwarts: A History` References
@@ -47,12 +47,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 514
+- Total: 519
 
 ## Latest Processed Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, pages 1810-1837, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, pages 1838-1863, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, pages 1838-1863, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, pages 1864-1886, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`

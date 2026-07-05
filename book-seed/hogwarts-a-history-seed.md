@@ -2255,6 +2255,18 @@ Summary: The available evidence includes 1 source item, led by: The breakfast co
   - Corroborates: `gof-ch15-002`, `cos-ch14-002`. gof-ch15-002 records mounting fourth-year workload before O.W.L.s and cos-ch14-002 records third-year elective selection tied to careers; this entry adds explicit fifth-year career advice and N.E.W.T. selection logic.
   - Notes: Ron and the twins provide the explanation informally, though their statements are consistent with observed Hogwarts course structure.
 
+#### Section: Fifth-year weekend workload across subjects
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates fifth-year workload pressure through concrete weekend assignments in Herbology, Transfiguration, and Astronomy, plus peer correction of subject facts.
+
+- **Corroboration:** The chapter corroborates fifth-year workload pressure through concrete weekend assignments in Herbology, Transfiguration, and Astronomy, plus peer correction of subject facts.
+  - Quote: "Europa's covered in ice, not mice"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1847, `ootp-ch14-005`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch12-002`, `ootp-ch13-003`, `gof-ch15-002`. Prior entries establish O.W.L. pressure and practical fifth-year preparation; this entry adds weekend homework evidence across Herbology, Transfiguration, and Astronomy.
+  - Notes: The passage gives assignment topics and pressure, but not full lesson content or grading standards.
+
 ### Chapter: Flying Lessons
 
 #### Section: First-Year Broom Training
@@ -3749,7 +3761,7 @@ Summary: The available evidence includes 3 source items, led by: The chapter add
 
 #### Section: Clothing, freedom, and Hogwarts service spaces
 
-Summary: The available evidence includes 1 source item, led by: Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
+Summary: The available evidence includes 2 source items, led by: Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
 
 - **Corroboration:** Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
   - Quote: "You're setting them free when they might not want to be free."
@@ -3758,6 +3770,14 @@ Summary: The available evidence includes 1 source item, led by: Hermione's hidde
   - Reference type: cross_reference_candidate
   - Corroborates: `gof-ch09-003`, `cos-ch18-006`, `gof-ch12-004`. Corroborates house-elf clothing and Hogwarts labor entries, while adding a specific Hogwarts common-room setting and student activism tactic.
   - Notes: The text does not identify which elves took the hats or whether any elf was actually freed.
+
+- **Corroboration:** The cleaned common room and missing hats corroborate that Hogwarts house-elves service Gryffindor Tower and that Hermione's clothing campaign may have affected or been handled by them.
+  - Quote: "all Hermione's elf hats"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1838, `ootp-ch14-001`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch13-002`, `gof-ch12-004`. ootp-ch13-002 records Hermione hiding hats in Gryffindor Tower; this entry adds the next-morning removal after ordinary overnight cleaning.
+  - Notes: The passage does not identify which elf or elves removed the hats or confirm that any elf was freed.
 
 ### Chapter: Magical Residents of the Grounds
 
@@ -5052,6 +5072,20 @@ Summary: The available evidence includes 1 source item, led by: Gryffindor Keepe
   - Reference type: institutional_custom
   - Notes: This is a single House team's Harry-era practice under Angelina Johnson, not a school-wide written rule.
 
+### Chapter: House Teams and Training
+
+#### Section: Practice sessions, equipment, and team discipline
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor team practice shows organized House-team infrastructure, captain-led drills, stored match equipment, spectator interference, Keeper coaching, and escalation to the hospital wing after a mishandled joke product.
+
+- **Corroboration:** Gryffindor team practice shows organized House-team infrastructure, captain-led drills, stored match equipment, spectator interference, Keeper coaching, and escalation to the hospital wing after a mishandled joke product.
+  - Quote: "release the Snitch when I say so"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1848, `ootp-ch14-004`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch13-007`, `cos-ch07-001`. ootp-ch13-007 records Keeper selection and practice scheduling, while cos-ch07-001 records Quidditch positions and balls; this entry adds detailed practice operations and captain-led coaching.
+  - Notes: The session is unusually disrupted by spectators and the twins' product mistake, so it should not be treated as a normal practice outcome.
+
 ### Chapter: Quidditch Beyond Hogwarts
 
 #### Section: International Events and Ministry Sport Administration
@@ -6243,6 +6277,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter intr
 
 ### Chapter: Defense Against the Dark Arts Under Ministry Oversight
 
+#### Section: Combat suppression and fireplace intelligence
+
+Summary: The available evidence includes 1 source item, led by: Sirius's risky fireplace briefing links common-room fire communication with broader Ministry policy: Umbridge's anti-part-human record, suppression of practical Defense training, Fudge's private-army fear, and secrecy around Hagrid's absence.
+
+- **Corroboration:** Sirius's risky fireplace briefing links common-room fire communication with broader Ministry policy: Umbridge's anti-part-human record, suppression of practical Defense training, Fudge's private-army fear, and secrecy around Hagrid's absence.
+  - Quote: "Fudge doesn't want you trained in combat"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1859, `ootp-ch14-007`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch12-006`, `gof-ch36-005`, `gof-ch10-004`, `poa-ch22-003`. Prior entries record Umbridge's theory course, Fudge's governance threat, part-human policy, and Lupin's resignation; this entry adds Sirius's Ministry-insider explanation and common-room fire channel.
+  - Notes: Sirius reports Order/Ministry information secondhand, and his judgments about Umbridge and Sirius's own risk-taking should be treated as contextual rather than official.
+
 #### Section: Umbridge's theory-centered curriculum
 
 Summary: The available evidence includes 1 source item, led by: Umbridge replaces practical Defense Against the Dark Arts work with a theory-centered, Ministry-approved course using Wilbert Slinkhard's Defensive Magical Theory and course aims focused on principles, legal recognition, and context.
@@ -6481,6 +6527,28 @@ Summary: The available evidence includes 1 source item, led by: Umbridge states 
   - Reference type: school_rule_or_policy
   - Corroborates: `gof-ch37-004`, `gof-ch36-005`, `ootp-ch11-006`. gof-ch37-004 records Dumbledore's public truth-telling about Cedric and Voldemort, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's opening policy speech; this entry adds classroom denial, punishment, and McGonagall's warning.
   - Notes: The note Umbridge sends to McGonagall is summarized by dialogue rather than quoted directly, so the precise written allegation remains unavailable.
+
+#### Section: Ministry pressure on Dumbledore's allies
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives a public-news account of an Order member's Ministry conviction and shows Hogwarts students interpreting it as part of the wider pressure around Dumbledore's network.
+
+- **Context:** The chapter gives a public-news account of an Order member's Ministry conviction and shows Hogwarts students interpreting it as part of the wider pressure around Dumbledore's network.
+  - Quote: "attempting to force his way through a top-security door"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1846, `ootp-ch14-003`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The Daily Prophet report may be incomplete or misleading, and the trio's frame-up theory is speculative in this chapter.
+
+#### Section: Ministry pressure on prefect loyalty
+
+Summary: The available evidence includes 1 source item, led by: Percy's letter shows Ministry-aligned pressure reaching a Hogwarts prefect through family channels, tying student status, future prospects, Umbridge cooperation, and possible removal of Dumbledore.
+
+- **Context:** Percy's letter shows Ministry-aligned pressure reaching a Hogwarts prefect through family channels, tying student status, future prospects, Umbridge cooperation, and possible removal of Dumbledore.
+  - Quote: "Your loyalty, Ron, should be not to him"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1855, `ootp-ch14-006`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The evidence is Percy's partisan letter, so claims about staff cooperation and imminent changes should be attributed to his perspective unless corroborated later.
 
 #### Section: Public Truth-Telling Against Ministry Pressure
 
@@ -8233,6 +8301,20 @@ Summary: The available evidence includes 2 source items, led by: The chapter rev
   - Reference type: magical_architecture
   - Corroborates: `ootp-ch10-007`. ootp-ch10-007 already identifies the invisible winged creatures pulling the carriages at Hogsmeade station; this entry corroborates them at the castle steps and adds their visible fleet-scale solidity.
   - Notes: The chapter still does not name the creatures as Thestrals or explain the condition for seeing them.
+
+### Chapter: Towers, Outbuildings, and Grounds
+
+#### Section: Owlery mail infrastructure and Thestrals in the Forest
+
+Summary: The available evidence includes 1 source item, led by: The Owlery scene supplies castle-mail infrastructure detail and further grounds evidence that the carriage creatures also inhabit or range through the Forbidden Forest.
+
+- **Corroboration:** The Owlery scene supplies castle-mail infrastructure detail and further grounds evidence that the carriage creatures also inhabit or range through the Forbidden Forest.
+  - Quote: "just like the ones pulling the Hogwarts carriages"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, PDF p. 1840, `ootp-ch14-002`, `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch10-007`, `ootp-ch11-001`. Earlier Order of the Phoenix entries identify and corroborate the carriage creatures; this entry adds a Forest sighting from the Owlery and physical Owlery details.
+  - Notes: The chapter still does not name the creatures as Thestrals or explain why Harry can see them.
 
 ## Part: The Grounds and Lake
 

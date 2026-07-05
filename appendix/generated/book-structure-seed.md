@@ -72,6 +72,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Examinations and Academic Progression
   - Fifth-year O.W.L. practical preparation
   - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
+  - Fifth-year weekend workload across subjects
 - Exams and Assessment
   - Education Continuity During Crisis
   - Head Boy, Student Achievement, and Alumni Paths
@@ -341,6 +342,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's Formal Appointment at the Start-of-Term Feast
   - Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
 - Defense Against the Dark Arts Under Ministry Oversight
+  - Combat suppression and fireplace intelligence
   - Umbridge's theory-centered curriculum
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
@@ -366,6 +368,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
   - Ministry denial, classroom discipline, and staff constraints
+  - Ministry pressure on Dumbledore's allies
+  - Ministry pressure on prefect loyalty
   - Public Truth-Telling Against Ministry Pressure
   - Umbridge's Opening Speech and Ministry Interference
 - Hogwarts Staff and Associates Before Harry's Arrival
@@ -747,6 +751,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Training Supervision and Broom Expertise
 - House Teams and Player Selection
   - Tryouts, training expectations, and team equipment
+- House Teams and Training
+  - Practice sessions, equipment, and team discipline
 - Quidditch Beyond Hogwarts
   - International Events and Ministry Sport Administration
   - International Events and Security Context
@@ -934,6 +940,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Arrival at Hogwarts
   - Thestral-Drawn Carriages
+- Towers, Outbuildings, and Grounds
+  - Owlery mail infrastructure and Thestrals in the Forest
 
 ## The Four Houses
 

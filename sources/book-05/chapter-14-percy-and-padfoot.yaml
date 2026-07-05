@@ -1,0 +1,349 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  boundary_confidence: high
+  boundary_notes: >-
+    Extracted the bounded current source-unit range from processing-state.yaml,
+    PDF pages 1838-1863, without scanning from the start of the full PDF.
+  processed_date: '2026-07-05'
+  processor_notes: >-
+    Captured seven canon-evidence entries from Gryffindor Tower, the Owlery and
+    grounds, Ministry/Order press context, Quidditch practice, fifth-year
+    homework pressure, Percy Weasley's prefect letter, and Sirius Black's
+    fireplace briefing. No explicit Hogwarts: A History references appear in
+    this chapter.
+
+entries:
+- id: ootp-ch14-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1838
+  printed_page: null
+  extracted_text_lines: 16-23
+  text_anchor:
+    start_phrase: "The detritus of crumpled-up bits of parchment"
+    end_phrase: "how many elves had now been set free"
+    local_occurrence_note: Harry sees the Gryffindor common room cleaned overnight and Hermione's elf hats gone.
+  nearby_context: Harry writes to Sirius from a favorite armchair beside the common-room fire early Saturday morning after the room has been tidied.
+  match_terms:
+  - Gryffindor common room
+  - elf hats
+  - house-elves
+  - cleaning
+  - freedom
+  quote_excerpt_short: "all Hermione's elf hats"
+  source_note: The cleaned common room and missing hats corroborate that Hogwarts house-elves service Gryffindor Tower and that Hermione's clothing campaign may have affected or been handled by them.
+  reference_type: cross_reference_candidate
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - house-elves
+  - gryffindor-tower
+  - common-room
+  - clothing
+  - magical-servitude
+  - manumission
+  - castle-maintenance
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: House-Elves and Hidden Labor
+  candidate_section: Clothing, freedom, and Hogwarts service spaces
+  reason_for_placement: The scene continues the direct evidence that unseen elves maintain House spaces and encounter student-planted clothing.
+  relevance_to_hogwarts_a_history: A later editorial note could use this as corroborating evidence for hidden domestic labor in House common rooms and for the uncertain effects of clothing-based manumission attempts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch13-002
+    - gof-ch12-004
+    notes: ootp-ch13-002 records Hermione hiding hats in Gryffindor Tower; this entry adds the next-morning removal after ordinary overnight cleaning.
+  confidence: high
+  limitations: The passage does not identify which elf or elves removed the hats or confirm that any elf was freed.
+
+- id: ootp-ch14-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1840
+  printed_page: null
+  extracted_text_lines: 60-116
+  text_anchor:
+    start_phrase: "headed off for the Owlery"
+    end_phrase: "plunged once more into the trees"
+    local_occurrence_note: Harry posts a letter from the Owlery, sees Hagrid's empty hut, and spots a winged horse rising from the Forest.
+  nearby_context: The Owlery is a circular, glassless tower room full of school owls, rafters, straw, and prey remains; Harry then looks toward the Forest and Hagrid's hut.
+  match_terms:
+  - Owlery
+  - school owls
+  - Forbidden Forest
+  - Hagrid's hut
+  - winged horse
+  - Hogwarts carriages
+  quote_excerpt_short: "just like the ones pulling the Hogwarts carriages"
+  source_note: The Owlery scene supplies castle-mail infrastructure detail and further grounds evidence that the carriage creatures also inhabit or range through the Forbidden Forest.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - owlery
+  - school-owls
+  - thestrals
+  - forbidden-forest
+  - hagrid
+  - student-transport
+  - castle-architecture
+  candidate_part: The Castle, Grounds, and Approaches
+  candidate_chapter: Towers, Outbuildings, and Grounds
+  candidate_section: Owlery mail infrastructure and Thestrals in the Forest
+  reason_for_placement: The passage combines a functional tower description with a visible connection between the Forest and the carriage teams.
+  relevance_to_hogwarts_a_history: This can support a section on school communications, outbuildings, and the magical creatures used in transport around the castle grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch10-007
+    - ootp-ch11-001
+    notes: Earlier Order of the Phoenix entries identify and corroborate the carriage creatures; this entry adds a Forest sighting from the Owlery and physical Owlery details.
+  confidence: high
+  limitations: The chapter still does not name the creatures as Thestrals or explain why Harry can see them.
+
+- id: ootp-ch14-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1846
+  printed_page: null
+  extracted_text_lines: 266-318
+  text_anchor:
+    start_phrase: "TRESPASS AT MINISTRY"
+    end_phrase: "I wouldn't be at all surprised if that were true"
+    local_occurrence_note: A small Daily Prophet item reports Sturgis Podmore's conviction and the trio connect it to Order activity.
+  nearby_context: Hermione has just read the Prophet's report that Sirius may be hiding in London, which the trio connect to Lucius Malfoy's sighting at King's Cross.
+  match_terms:
+  - Sturgis Podmore
+  - Wizengamot
+  - Azkaban
+  - Ministry of Magic
+  - top-security door
+  - Order of the Phoenix
+  quote_excerpt_short: "attempting to force his way through a top-security door"
+  source_note: The chapter gives a public-news account of an Order member's Ministry conviction and shows Hogwarts students interpreting it as part of the wider pressure around Dumbledore's network.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - sturgis-podmore
+  - ministry-of-magic
+  - wizengamot
+  - azkaban
+  - order-of-the-phoenix
+  - daily-prophet
+  - school-politics
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Ministry pressure on Dumbledore's allies
+  reason_for_placement: The report helps contextualize why Ministry conflict and Order secrecy affect Hogwarts students during the school year.
+  relevance_to_hogwarts_a_history: A later edition could use this as external political context for the atmosphere surrounding Dumbledore, Harry, and Ministry oversight at Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries for Sturgis Podmore, the Wizengamot conviction, Azkaban sentence, and Ministry top-security door returned no likely existing match.
+  confidence: medium
+  limitations: The Daily Prophet report may be incomplete or misleading, and the trio's frame-up theory is speculative in this chapter.
+
+- id: ootp-ch14-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1848
+  printed_page: null
+  extracted_text_lines: 329-504
+  text_anchor:
+    start_phrase: "they approached the Quidditch pitch"
+    end_phrase: "there's no point continuing with no Beaters and a Chaser gone"
+    local_occurrence_note: Gryffindor's first practice with Ron as Keeper breaks down under Slytherin jeering and a training injury.
+  nearby_context: Harry and Ron practice alone before Angelina leads the team from the changing room, using the Captain's office, ball crate, Quaffle, Bludger, Snitch, and goalpost drills.
+  match_terms:
+  - Quidditch pitch
+  - Captain's office
+  - ball crate
+  - Keeper
+  - Snitch
+  - hospital wing
+  quote_excerpt_short: "release the Snitch when I say so"
+  source_note: Gryffindor team practice shows organized House-team infrastructure, captain-led drills, stored match equipment, spectator interference, Keeper coaching, and escalation to the hospital wing after a mishandled joke product.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - gryffindor-team
+  - keeper
+  - captain-office
+  - pitch
+  - school-recreation
+  - hospital-wing
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Teams and Training
+  candidate_section: Practice sessions, equipment, and team discipline
+  reason_for_placement: The scene provides granular evidence for how House Quidditch teams train outside formal matches.
+  relevance_to_hogwarts_a_history: This could support a school-sport section explaining team organization, equipment custody, captain authority, and the porous boundary between sport and House rivalry.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch13-007
+    - cos-ch07-001
+    notes: ootp-ch13-007 records Keeper selection and practice scheduling, while cos-ch07-001 records Quidditch positions and balls; this entry adds detailed practice operations and captain-led coaching.
+  confidence: high
+  limitations: The session is unusually disrupted by spectators and the twins' product mistake, so it should not be treated as a normal practice outcome.
+
+- id: ootp-ch14-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1847
+  printed_page: null
+  extracted_text_lines: 319-330; 525-556; 715-723
+  text_anchor:
+    start_phrase: "essay for Sprout on Self-Fertilizing Shrubs"
+    end_phrase: "Europa's covered in ice, not mice"
+    local_occurrence_note: Weekend homework covers Herbology, Transfiguration, Astronomy, and O.W.L. pressure.
+  nearby_context: Hermione warns Harry and Ron about O.W.L.s, then later corrects their Astronomy essays while they struggle with McGonagall and Sinistra assignments.
+  match_terms:
+  - Self-Fertilizing Shrubs
+  - Inanimatus Conjurus
+  - Professor Sinistra
+  - Jupiter's moons
+  - O.W.L.s
+  - homework
+  quote_excerpt_short: "Europa's covered in ice, not mice"
+  source_note: The chapter corroborates fifth-year workload pressure through concrete weekend assignments in Herbology, Transfiguration, and Astronomy, plus peer correction of subject facts.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - homework
+  - fifth-year
+  - ordinary-wizarding-levels
+  - herbology
+  - transfiguration
+  - astronomy
+  - workload
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: Fifth-year weekend workload across subjects
+  reason_for_placement: The chapter shows exam-year workload spilling into weekend common-room study and names specific assignment topics.
+  relevance_to_hogwarts_a_history: A curriculum chapter could use it to show how O.W.L.-year pressure is experienced across multiple core subjects, not only inside classrooms.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch12-002
+    - ootp-ch13-003
+    - gof-ch15-002
+    notes: Prior entries establish O.W.L. pressure and practical fifth-year preparation; this entry adds weekend homework evidence across Herbology, Transfiguration, and Astronomy.
+  confidence: high
+  limitations: The passage gives assignment topics and pressure, but not full lesson content or grading standards.
+
+- id: ootp-ch14-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1855
+  printed_page: null
+  extracted_text_lines: 569-656
+  text_anchor:
+    start_phrase: "I have only just heard"
+    end_phrase: "congratulations again on becoming prefect"
+    local_occurrence_note: Percy writes privately to Ron after hearing from the Minister, via Umbridge, that Ron is a prefect.
+  nearby_context: Percy's letter advises Ron to distance himself from Harry, report concerns to Umbridge, and align loyalty with the Ministry rather than Dumbledore.
+  match_terms:
+  - Percy Weasley
+  - prefect
+  - Minister of Magic
+  - Umbridge
+  - Dumbledore
+  - Head Boyship
+  quote_excerpt_short: "Your loyalty, Ron, should be not to him"
+  source_note: Percy's letter shows Ministry-aligned pressure reaching a Hogwarts prefect through family channels, tying student status, future prospects, Umbridge cooperation, and possible removal of Dumbledore.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - prefects
+  - percy-weasley
+  - dolores-umbridge
+  - ministry-intervention
+  - dumbledore
+  - head-boy
+  - school-governance
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Ministry pressure on prefect loyalty
+  reason_for_placement: The letter is unusually explicit evidence that Ministry politics were being routed into Hogwarts student governance and advancement incentives.
+  relevance_to_hogwarts_a_history: A later edition can use this as a primary example of how Umbridge-era Ministry influence attempted to reshape student loyalty, reporting, and ambition.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries for Percy, prefects, Umbridge, Dumbledore, and Ministry pressure returned no likely existing match for this specific intervention.
+  confidence: high
+  limitations: The evidence is Percy's partisan letter, so claims about staff cooperation and imminent changes should be attributed to his perspective unless corroborated later.
+
+- id: ootp-ch14-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fourteen - Percy and Padfoot
+  chapter_start_pdf_page: 1838
+  chapter_end_pdf_page: 1863
+  pdf_page: 1859
+  printed_page: null
+  extracted_text_lines: 726-870
+  text_anchor:
+    start_phrase: "I've just seen Sirius's head in the fire"
+    end_phrase: "flickering flame once more"
+    local_occurrence_note: Sirius uses the Gryffindor common-room fire to answer Harry and explain Ministry thinking.
+  nearby_context: The conversation covers Harry's scar, Umbridge's anti-werewolf and anti-merpeople politics, Defense lessons without practical magic, Fudge's fear of Dumbledore, Hagrid's absence, and Sirius's Hogsmeade risk.
+  match_terms:
+  - Sirius Black
+  - fireplace
+  - anti-werewolf legislation
+  - merpeople
+  - Defense Against the Dark Arts
+  - combat
+  quote_excerpt_short: "Fudge doesn't want you trained in combat"
+  source_note: >-
+    Sirius's risky fireplace briefing links common-room fire communication with
+    broader Ministry policy: Umbridge's anti-part-human record, suppression of
+    practical Defense training, Fudge's private-army fear, and secrecy around
+    Hagrid's absence.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - sirius-black
+  - gryffindor-common-room
+  - fire-communication
+  - dolores-umbridge
+  - defense-against-the-dark-arts
+  - ministry-intervention
+  - hagrid
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Under Ministry Oversight
+  candidate_section: Combat suppression and fireplace intelligence
+  reason_for_placement: The scene directly explains the political reason for Umbridge's no-practical-magic curriculum while also showing an insecure channel into a House common room.
+  relevance_to_hogwarts_a_history: A later edition could use this to connect curriculum change, creature prejudice, school security, and Order intelligence during the Ministry-intervention year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch12-006
+    - gof-ch36-005
+    - gof-ch10-004
+    - poa-ch22-003
+    notes: Prior entries record Umbridge's theory course, Fudge's governance threat, part-human policy, and Lupin's resignation; this entry adds Sirius's Ministry-insider explanation and common-room fire channel.
+  confidence: high
+  limitations: Sirius reports Order/Ministry information secondhand, and his judgments about Umbridge and Sirius's own risk-taking should be treated as contextual rather than official.

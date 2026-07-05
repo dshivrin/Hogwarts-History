@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Fourteen - Percy and Padfoot
-- Page range: 1838-1863
+- Chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+- Page range: 1864-1886
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-14-percy-and-padfoot.yaml`
+- Output YAML: `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
 
 ## Minimal Context
 
