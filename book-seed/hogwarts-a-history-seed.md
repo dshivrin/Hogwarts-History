@@ -183,6 +183,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Corroborates: `poa-ch05-005`. Prisoner of Azkaban Chapter Five already records the Hogsmeade arrival route through the winged-boar gates; this entry adds the storm arrival, oak doors, entrance hall, and House-table transition.
   - Notes: The passage does not explain who maintains the gates, carriages, entrance hall, or Great Hall enchantments.
 
+### Chapter: Classrooms, Offices, and Staff Spaces
+
+#### Section: Defense Against the Dark Arts office continuity
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms continuity of a third-floor Defense Against the Dark Arts office across several annual teachers, with each occupant altering the room to suit teaching style or surveillance materials.
+
+- **Supporting evidence:** The chapter confirms continuity of a third-floor Defense Against the Dark Arts office across several annual teachers, with each occupant altering the room to suit teaching style or surveillance materials.
+  - Quote: "He had known this office under three of its previous occupants."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1824, `ootp-ch13-005`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: direct_observed_setting
+  - Notes: The office is described through Harry's memory of four occupants, not through an official floor plan.
+
 ### Chapter: Grounds, Lake, and Village Approaches
 
 #### Section: Visiting-School Lodging and Hogsmeade Route
@@ -1912,6 +1925,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 ### Chapter: Care of Magical Creatures
 
+#### Section: Bowtruckles and wand-tree ecology
+
+Summary: The available evidence includes 1 source item, led by: The substitute Care of Magical Creatures lesson gives compact creature lore about bowtruckles, including wand-quality tree habitat, food, placation methods, sharp fingers, and a labeled-anatomy practical assignment.
+
+- **Supporting evidence:** The substitute Care of Magical Creatures lesson gives compact creature lore about bowtruckles, including wand-quality tree habitat, food, placation methods, sharp fingers, and a labeled-anatomy practical assignment.
+  - Quote: "They're tree-guardians, usually live in wand-trees."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1818, `ootp-ch13-004`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The lesson is from a substitute teacher and does not explain whether bowtruckles are standard fifth-year curriculum.
+
 #### Section: Classroom Creatures and Student Handling
 
 Summary: The available evidence includes 1 source item, led by: A fire-dwelling salamander from Care of Magical Creatures appears in the Gryffindor common room, giving curriculum-adjacent evidence for magical creature handling and student misuse outside class.
@@ -2206,6 +2230,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Notes: The prophecy itself is Harry-era event evidence and should be treated as later editorial context, not original pre-Harry Hogwarts history.
 
 ### Chapter: Examinations and Academic Progression
+
+#### Section: Fifth-year O.W.L. practical preparation
+
+Summary: The available evidence includes 1 source item, led by: Fifth-year Charms and Transfiguration lessons are explicitly structured around O.W.L. preparation, with Summoning Charms expected on the exam and Vanishing Spells treated as difficult O.W.L.-level work below N.E.W.T.-level Conjuring.
+
+- **Corroboration:** Fifth-year Charms and Transfiguration lessons are explicitly structured around O.W.L. preparation, with Summoning Charms expected on the exam and Vanishing Spells treated as difficult O.W.L.-level work below N.E.W.T.-level Conjuring.
+  - Quote: "Vanishing Spells. These are easier than Conjuring Spells"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1816, `ootp-ch13-003`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch12-002`, `gof-ch15-002`. Corroborates existing O.W.L. workload/progression entries, adding named Charms and Transfiguration spell thresholds.
+  - Notes: The evidence is Harry-era classroom practice, not a timeless curriculum regulation.
 
 #### Section: Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
 
@@ -2830,6 +2866,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: school_rule_or_policy
   - Notes: The detention tasks are specific to Harry and Ron's incident, and the voice is not identified in this chapter.
+
+### Chapter: Detentions, Punishments, and Staff Authority
+
+#### Section: Abusive punishments under Ministry interference
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's detention demonstrates a punitive staff practice beyond ordinary lines: a special quill writes in Harry's blood and cuts the same words into his hand, with repeat sessions used to deepen the punishment.
+
+- **Corroboration:** Umbridge's detention demonstrates a punitive staff practice beyond ordinary lines: a special quill writes in Harry's blood and cuts the same words into his hand, with repeat sessions used to deepen the punishment.
+  - Quote: "You're going to be using a rather special one of mine."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1825, `ootp-ch13-006`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch12-007`, `gof-ch13-006`, `cos-ch07-006`. Corroborates existing discipline/detention entries, while adding the distinct blood-quill method and Ministry-era abuse.
+  - Notes: This appears exceptional and abusive, not representative of normal Hogwarts discipline.
 
 ### Chapter: Governors, Ministry, and School Accountability
 
@@ -3575,6 +3625,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter iden
   - Corroborates: `ps-ch09-004`. Chapter Nine of Book 1 records the trophy room's cases and shields; this entry adds named award records, an old Head Boy list, and Riddle's specific pre-Harry honors.
   - Notes: The shield lacks details of the reason for the award in this chapter, and Ron's "top of every class" comment is speculative.
 
+### Chapter: Student Offices, Prefects, and Discipline
+
+#### Section: Prefect authority and informal enforcement limits
+
+Summary: The available evidence includes 1 source item, led by: Hermione's intervention shows prefect-level enforcement inside a House common room, with student product testing treated as misconduct and family notification used as leverage when detention or lines would not deter older students.
+
+- **Corroboration:** Hermione's intervention shows prefect-level enforcement inside a House common room, with student product testing treated as misconduct and family notification used as leverage when detention or lines would not deter older students.
+  - Quote: "I told you this morning, you can't test your rubbish on students!"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1813, `ootp-ch13-001`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch12-001`. Corroborates the previous chapter's common-room prefect enforcement entry, but adds first-year safety and informal family-notification pressure.
+  - Notes: The scene shows Hermione acting as prefect, but it does not state a formal written rule or official punishment outcome.
+
 ### Chapter: Wizarding Transport and Secrecy
 
 #### Section: Covert Broom Transport Under Surveillance
@@ -3680,6 +3744,20 @@ Summary: The available evidence includes 3 source items, led by: The chapter add
   - Reference type: historical_claim
   - Corroborates: `poa-ch17-002`. Book 3 Chapter Seventeen records physical evidence that ghosts did not damage the Shack; this entry identifies Lupin's transformations and Dumbledore's encouraged rumor as the source of the reputation.
   - Notes: Lupin's account is firsthand but the chapter does not provide village records, staff records, or independent Hogsmeade testimony about the rumor's spread.
+
+### Chapter: House-Elves and Hidden Labor
+
+#### Section: Clothing, freedom, and Hogwarts service spaces
+
+Summary: The available evidence includes 1 source item, led by: Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
+
+- **Corroboration:** Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
+  - Quote: "You're setting them free when they might not want to be free."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1815, `ootp-ch13-002`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch09-003`, `cos-ch18-006`, `gof-ch12-004`. Corroborates house-elf clothing and Hogwarts labor entries, while adding a specific Hogwarts common-room setting and student activism tactic.
+  - Notes: The text does not identify which elves took the hats or whether any elf was actually freed.
 
 ### Chapter: Magical Residents of the Grounds
 
@@ -4960,6 +5038,19 @@ Summary: The available evidence includes 2 source items, led by: The chapter sho
   - Reference type: security_or_protection
   - Corroborates: `poa-ch11-007`. Book 3 Chapter Eleven records the Firebolt confiscation for jinx inspection; this entry adds usual-curse checks, the suspected Hurling Hex, and the broom's return after inspection.
   - Notes: The inspection arises from an anonymous gift during a murder-threat crisis, so it should not be generalized to routine broom checks.
+
+### Chapter: House Teams and Player Selection
+
+#### Section: Tryouts, training expectations, and team equipment
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor Keeper selection involves open tryouts, captain judgment about performance and commitment, reuse of a former player's robes, and immediate scheduling of team practice after selection.
+
+- **Supporting evidence:** Gryffindor Keeper selection involves open tryouts, captain judgment about performance and commitment, reuse of a former player's robes, and immediate scheduling of team practice after selection.
+  - Quote: "Vicky's involved in all sorts of societies"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, PDF p. 1835, `ootp-ch13-007`, `sources/book-05/chapter-13-detention-with-dolores.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: This is a single House team's Harry-era practice under Angelina Johnson, not a school-wide written rule.
 
 ### Chapter: Quidditch Beyond Hogwarts
 

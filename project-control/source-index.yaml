@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-04'
+updated: '2026-07-05'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1273,3 +1273,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1781-1809.
+- source_unit_id: ootp-ch13
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 13
+  chapter_title: Chapter Thirteen - Detention with Dolores
+  page_start: 1810
+  page_end: 1837
+  output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  processed_at: '2026-07-05'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1810-1837.

@@ -8,19 +8,19 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 106
+- Total: 107
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Order of the Phoenix: 80
+- Harry Potter and the Order of the Phoenix: 87
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 302
+- harry_era_confirmation: 309
 - later_editorial_note: 314
 - original_book_core_candidate: 7
 - post_1984_excluded_from_original: 2
@@ -28,17 +28,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 49
-- curriculum_or_subject: 95
-- direct_observed_setting: 37
+- cross_reference_candidate: 50
+- curriculum_or_subject: 97
+- direct_observed_setting: 38
 - explicit_hogwarts_a_history: 6
 - explicit_in_universe_source: 50
 - historical_claim: 72
 - house_system: 13
-- institutional_custom: 122
+- institutional_custom: 124
 - magical_architecture: 48
 - portrait_or_ghost_lore: 9
-- school_rule_or_policy: 80
+- school_rule_or_policy: 81
 - security_or_protection: 98
 
 ## Explicit `Hogwarts: A History` References
@@ -47,12 +47,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 510
+- Total: 514
 
 ## Latest Processed Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat’s New Song, pages 1761-1780, `sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, pages 1810-1837, `sources/book-05/chapter-13-detention-with-dolores.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, pages 1781-1809, `sources/book-05/chapter-12-professor-umbridge.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, pages 1838-1863, `sources/book-05/chapter-14-percy-and-padfoot.yaml`

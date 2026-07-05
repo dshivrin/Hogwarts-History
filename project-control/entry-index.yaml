@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-04'
+updated: '2026-07-05'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -10078,6 +10078,116 @@ by_entry:
     - voldemort-denial
     source_unit: ootp-ch12
     output_yaml: sources/book-05/chapter-12-professor-umbridge.yaml
+  ootp-ch13-001:
+    title: 'Student Offices, Prefects, and Discipline: Prefect authority and informal
+      enforcement limits'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - common-room
+    - discipline
+    - first-years
+    - gryffindor
+    - prefects
+    - skiving-snackboxes
+    - student-misconduct
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch13-002:
+    title: 'House-Elves and Hidden Labor: Clothing, freedom, and Hogwarts service
+      spaces'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - clothing
+    - common-room
+    - gryffindor-tower
+    - house-elves
+    - magical-servitude
+    - manumission
+    - spew
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch13-003:
+    title: 'Examinations and Academic Progression: Fifth-year O.W.L. practical preparation'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - academic-progression
+    - charms
+    - newt-courses
+    - ordinary-wizarding-levels
+    - transfiguration
+    - vanishing-spells
+    - workload
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch13-004:
+    title: 'Care of Magical Creatures: Bowtruckles and wand-tree ecology'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - bowtruckles
+    - care-of-magical-creatures
+    - creature-curriculum
+    - practical-lessons
+    - professor-grubbly-plank
+    - wand-trees
+    - wood-lice
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch13-005:
+    title: 'Classrooms, Offices, and Staff Spaces: Defense Against the Dark Arts office
+      continuity'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: medium
+    tags:
+    - defense-against-the-dark-arts
+    - professor-lockhart
+    - professor-lupin
+    - professor-umbridge
+    - staff-rooms
+    - teacher-offices
+    - third-floor
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch13-006:
+    title: 'Detentions, Punishments, and Staff Authority: Abusive punishments under
+      Ministry interference'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - blood-quill
+    - corporal-punishment
+    - detention
+    - dolores-umbridge
+    - ministry-intervention
+    - school-discipline
+    - student-safety
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
+  ootp-ch13-007:
+    title: 'House Teams and Player Selection: Tryouts, training expectations, and
+      team equipment'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - gryffindor
+    - house-teams
+    - keeper
+    - practice-sessions
+    - quidditch
+    - student-societies
+    - team-tryouts
+    source_unit: ootp-ch13
+    output_yaml: sources/book-05/chapter-13-detention-with-dolores.yaml
 by_tag:
   academic-merit:
   - cos-ch04-004
@@ -10085,6 +10195,7 @@ by_tag:
   - poa-ch07-003
   academic-progression:
   - ootp-ch12-002
+  - ootp-ch13-003
   - poa-ch16-001
   access-control:
   - ootp-ch04-002
@@ -10395,6 +10506,8 @@ by_tag:
   - gof-ch31-006
   blood-protection:
   - ootp-ch02-006
+  blood-quill:
+  - ootp-ch13-006
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -10435,6 +10548,8 @@ by_tag:
   - cos-ch10-001
   boundaries:
   - gof-ch29-001
+  bowtruckles:
+  - ootp-ch13-004
   brazilian-school:
   - gof-ch07-003
   brick-entrance:
@@ -10500,6 +10615,7 @@ by_tag:
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch11-005
+  - ootp-ch13-004
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -10675,6 +10791,7 @@ by_tag:
   - gof-ch15-002
   - gof-ch20-004
   - gof-ch26-001
+  - ootp-ch13-003
   - poa-ch04-003
   - poa-ch15-003
   - poa-ch16-003
@@ -10731,6 +10848,7 @@ by_tag:
   - gof-ch26-001
   clothing:
   - gof-ch09-003
+  - ootp-ch13-002
   clue:
   - gof-ch20-007
   - gof-ch21-001
@@ -10760,6 +10878,8 @@ by_tag:
   - gof-ch20-004
   - gof-ch22-007
   - ootp-ch12-001
+  - ootp-ch13-001
+  - ootp-ch13-002
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -10798,6 +10918,8 @@ by_tag:
   - poa-ch19-004
   cornish-pixies:
   - cos-ch06-007
+  corporal-punishment:
+  - ootp-ch13-006
   correspondence:
   - gof-ch27-002
   corridor-discipline:
@@ -10855,6 +10977,7 @@ by_tag:
   creature-breeding:
   - gof-ch24-003
   creature-curriculum:
+  - ootp-ch13-004
   - poa-ch08-001
   - poa-ch09-005
   creature-feeding:
@@ -11025,6 +11148,7 @@ by_tag:
   - ootp-ch09-004
   - ootp-ch11-005
   - ootp-ch12-006
+  - ootp-ch13-005
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -11115,6 +11239,7 @@ by_tag:
   - gof-ch18-004
   - ootp-ch09-006
   - ootp-ch12-007
+  - ootp-ch13-006
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -11145,6 +11270,7 @@ by_tag:
   discipline:
   - cos-ch05-005
   - ootp-ch10-002
+  - ootp-ch13-001
   - ps-ch08-003
   - ps-ch09-005
   discipline-records:
@@ -11198,6 +11324,7 @@ by_tag:
   - ootp-ch11-006
   - ootp-ch12-006
   - ootp-ch12-007
+  - ootp-ch13-006
   doors:
   - ps-ch08-001
   dormitories:
@@ -11641,6 +11768,7 @@ by_tag:
   - gof-ch11-006
   - gof-ch12-003
   - ootp-ch10-006
+  - ootp-ch13-001
   - ps-ch06-006
   flame-freezing-charm:
   - poa-ch01-001
@@ -11984,6 +12112,8 @@ by_tag:
   - gof-ch18-002
   - ootp-ch09-005
   - ootp-ch12-001
+  - ootp-ch13-001
+  - ootp-ch13-007
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -12018,6 +12148,7 @@ by_tag:
   - gof-ch22-006
   - gof-ch22-007
   - gof-ch23-001
+  - ootp-ch13-002
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -12599,6 +12730,7 @@ by_tag:
   - ootp-ch06-005
   - ootp-ch07-003
   - ootp-ch09-002
+  - ootp-ch13-002
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -12663,6 +12795,7 @@ by_tag:
   - cos-ch07-002
   - gof-ch05-005
   - gof-ch06-004
+  - ootp-ch13-007
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
@@ -12839,6 +12972,7 @@ by_tag:
   - gof-ch37-003
   keeper:
   - cos-ch07-001
+  - ootp-ch13-007
   keeper-of-keys:
   - ps-ch04-001
   keeper-protection:
@@ -13208,6 +13342,7 @@ by_tag:
   - gof-ch21-007
   - gof-ch28-001
   - ootp-ch09-002
+  - ootp-ch13-002
   magical-settlements:
   - gof-ch19-001
   magical-spaces:
@@ -13252,6 +13387,7 @@ by_tag:
   manumission:
   - cos-ch18-006
   - gof-ch09-003
+  - ootp-ch13-002
   marauders:
   - ootp-ch09-006
   - poa-ch18-005
@@ -13381,6 +13517,7 @@ by_tag:
   - gof-ch36-004
   - ootp-ch11-006
   - ootp-ch12-007
+  - ootp-ch13-006
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -13640,6 +13777,7 @@ by_tag:
   newt-courses:
   - ootp-ch12-002
   - ootp-ch12-004
+  - ootp-ch13-003
   newts:
   - poa-ch16-001
   - poa-ch22-005
@@ -13763,6 +13901,7 @@ by_tag:
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch12-005
+  - ootp-ch13-003
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -14069,12 +14208,15 @@ by_tag:
   - gof-ch13-007
   - gof-ch26-003
   - gof-ch28-002
+  - ootp-ch13-004
   - poa-ch07-004
   - poa-ch07-007
   practical-magic:
   - ootp-ch12-006
   practice-schedule:
   - poa-ch08-002
+  practice-sessions:
+  - ootp-ch13-007
   pre-harry-history:
   - cos-ch15-006
   pre-hogwarts-childhood:
@@ -14095,6 +14237,7 @@ by_tag:
   - ootp-ch09-006
   - ootp-ch10-002
   - ootp-ch12-001
+  - ootp-ch13-001
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -14159,11 +14302,15 @@ by_tag:
   professor-grubbly-plank:
   - gof-ch24-001
   - gof-ch26-003
+  - ootp-ch13-004
   professor-kettleburn:
   - poa-ch05-007
+  professor-lockhart:
+  - ootp-ch13-005
   professor-lupin:
   - gof-ch14-001
   - ootp-ch08-003
+  - ootp-ch13-005
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -14235,6 +14382,8 @@ by_tag:
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
+  professor-umbridge:
+  - ootp-ch13-005
   professor-vector:
   - gof-ch13-004
   - gof-ch21-005
@@ -14304,6 +14453,7 @@ by_tag:
   - gof-ch06-004
   - gof-ch08-004
   - gof-ch30-005
+  - ootp-ch13-007
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -14528,6 +14678,7 @@ by_tag:
   school-discipline:
   - gof-ch05-004
   - gof-ch13-006
+  - ootp-ch13-006
   - ps-ch10-005
   - ps-ch11-003
   school-emergency:
@@ -14833,6 +14984,7 @@ by_tag:
   - cos-ch10-005
   skiving-snackboxes:
   - ootp-ch12-001
+  - ootp-ch13-001
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -14936,6 +15088,7 @@ by_tag:
   - gof-ch16-006
   - gof-ch19-002
   - gof-ch23-003
+  - ootp-ch13-002
   sphinx:
   - gof-ch31-006
   spider:
@@ -15011,6 +15164,8 @@ by_tag:
   - cos-ch11-006
   - gof-ch35-005
   - gof-ch36-001
+  staff-rooms:
+  - ootp-ch13-005
   staff-search:
   - poa-ch09-002
   staff-substitution:
@@ -15153,6 +15308,7 @@ by_tag:
   - cos-ch08-003
   - gof-ch06-003
   - ootp-ch12-001
+  - ootp-ch13-001
   student-movement:
   - cos-ch15-002
   - gof-ch19-001
@@ -15229,12 +15385,15 @@ by_tag:
   - gof-ch31-006
   - ootp-ch02-006
   - ootp-ch03-005
+  - ootp-ch13-006
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
   - poa-ch14-006
   - ps-ch10-003
   - ps-ch10-005
+  student-societies:
+  - ootp-ch13-007
   student-spectators:
   - gof-ch31-002
   student-store-cupboard:
@@ -15340,6 +15499,8 @@ by_tag:
   - cos-ch16-004
   teacher-help:
   - gof-ch17-006
+  teacher-offices:
+  - ootp-ch13-005
   teacher-permission:
   - cos-ch09-007
   - cos-ch10-001
@@ -15357,6 +15518,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  team-tryouts:
+  - ootp-ch13-007
   telephone-box:
   - ootp-ch07-002
   term-boundaries:
@@ -15380,6 +15543,8 @@ by_tag:
   thestrals:
   - ootp-ch10-007
   - ootp-ch11-001
+  third-floor:
+  - ootp-ch13-005
   third-floor-corridor:
   - ps-ch08-003
   - ps-ch09-007
@@ -15480,6 +15645,7 @@ by_tag:
   transfiguration:
   - cos-ch06-004
   - gof-ch15-002
+  - ootp-ch13-003
   - poa-ch04-003
   - poa-ch06-004
   - poa-ch16-003
@@ -15664,6 +15830,8 @@ by_tag:
   vampires:
   - gof-ch10-004
   - ps-ch05-004
+  vanishing-spells:
+  - ootp-ch13-003
   veela:
   - gof-ch08-006
   veela-hair:
@@ -15754,6 +15922,8 @@ by_tag:
   - ootp-ch08-007
   wand-sparks:
   - ps-ch15-005
+  wand-trees:
+  - ootp-ch13-004
   wand-use:
   - poa-ch20-003
   wand-weighing:
@@ -15912,11 +16082,14 @@ by_tag:
   - poa-ch18-002
   - poa-ch19-001
   - poa-ch20-002
+  wood-lice:
+  - ootp-ch13-004
   working-conditions:
   - gof-ch19-002
   workload:
   - gof-ch15-002
   - ootp-ch12-002
+  - ootp-ch13-003
   world-cup-1473:
   - ps-ch11-002
   wormtail:

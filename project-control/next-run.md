@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirteen - Detention with Dolores
-- Page range: 1810-1837
+- Chapter: Chapter Fourteen - Percy and Padfoot
+- Page range: 1838-1863
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-13-detention-with-dolores.yaml`
+- Output YAML: `sources/book-05/chapter-14-percy-and-padfoot.yaml`
 
 ## Minimal Context
 

@@ -1,0 +1,330 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirteen - Detention with Dolores
+  chapter_start_pdf_page: 1810
+  chapter_end_pdf_page: 1837
+  boundary_confidence: high
+  boundary_notes: Page range taken from project-control/processing-state.yaml; extraction was bounded to pages 1810-1837.
+  processed_date: '2026-07-05'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference found."
+
+entries:
+  - id: ootp-ch13-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1813
+    printed_page: null
+    extracted_text_lines: 94-153
+    text_anchor:
+      start_phrase: "Fred, George, and Lee Jordan were now sitting at the center of a knot of innocent-looking first years"
+      end_phrase: "but you're not giving them to first years"
+      local_occurrence_note: Gryffindor common-room scene where Hermione challenges the Weasley twins' testing on younger students.
+    nearby_context: Fred and George test Fainting Fancies on first-years while Hermione tries to intervene as a prefect.
+    match_terms:
+      - Gryffindor common room
+      - first-years
+      - Fainting Fancies
+      - prefect authority
+      - student experiments
+    quote_excerpt_short: "I told you this morning, you can't test your rubbish on students!"
+    source_note: Hermione's intervention shows prefect-level enforcement inside a House common room, with student product testing treated as misconduct and family notification used as leverage when detention or lines would not deter older students.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - common-room
+      - prefects
+      - student-misconduct
+      - first-years
+      - skiving-snackboxes
+      - discipline
+      - gryffindor
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Student Offices, Prefects, and Discipline
+    candidate_section: Prefect authority and informal enforcement limits
+    reason_for_placement: The scene extends existing prefect evidence from formal patrols and notices to practical common-room enforcement.
+    relevance_to_hogwarts_a_history: A history of school governance could use this as later evidence for prefect duties, student discipline, and how House common rooms are internally policed.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch12-001
+      notes: Corroborates the previous chapter's common-room prefect enforcement entry, but adds first-year safety and informal family-notification pressure.
+    confidence: high
+    limitations: The scene shows Hermione acting as prefect, but it does not state a formal written rule or official punishment outcome.
+
+  - id: ootp-ch13-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1815
+    printed_page: null
+    extracted_text_lines: 167-212
+    text_anchor:
+      start_phrase: "she pulled out two misshapen woolly objects"
+      end_phrase: "They didn't look anything like hats to me"
+      local_occurrence_note: Hermione hides knitted hats in Gryffindor Tower for house-elves to pick up.
+    nearby_context: Ron objects that hidden hats may trick house-elves into freedom; by morning Hermione says the hats have gone.
+    match_terms:
+      - house-elves
+      - clothing
+      - hats
+      - common room
+      - freedom
+    quote_excerpt_short: "You're setting them free when they might not want to be free."
+    source_note: Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - house-elves
+      - clothing
+      - magical-servitude
+      - common-room
+      - gryffindor-tower
+      - spew
+      - manumission
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: House-Elves and Hidden Labor
+    candidate_section: Clothing, freedom, and Hogwarts service spaces
+    reason_for_placement: The passage links Hogwarts domestic service to the established clothing mechanism for house-elf release.
+    relevance_to_hogwarts_a_history: It supplies later corrective evidence for any section on house-elves that notes Hogwarts labor and the social/legal ambiguity of freeing them.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch09-003
+        - cos-ch18-006
+        - gof-ch12-004
+      notes: Corroborates house-elf clothing and Hogwarts labor entries, while adding a specific Hogwarts common-room setting and student activism tactic.
+    confidence: high
+    limitations: The text does not identify which elves took the hats or whether any elf was actually freed.
+
+  - id: ootp-ch13-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1816
+    printed_page: null
+    extracted_text_lines: 214-246
+    text_anchor:
+      start_phrase: "Double Charms was succeeded by double Transfiguration"
+      end_phrase: "ready for a fresh attempt on their snails the following afternoon"
+      local_occurrence_note: Charms and Transfiguration teachers both frame fifth-year work around O.W.L. preparation.
+    nearby_context: Flitwick reviews Summoning Charms for O.W.L.s; McGonagall starts Vanishing Spells and contrasts them with N.E.W.T.-level Conjuring.
+    match_terms:
+      - O.W.L.s
+      - Charms
+      - Transfiguration
+      - Vanishing Spells
+      - N.E.W.T.
+    quote_excerpt_short: "Vanishing Spells. These are easier than Conjuring Spells"
+    source_note: Fifth-year Charms and Transfiguration lessons are explicitly structured around O.W.L. preparation, with Summoning Charms expected on the exam and Vanishing Spells treated as difficult O.W.L.-level work below N.E.W.T.-level Conjuring.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - ordinary-wizarding-levels
+      - charms
+      - transfiguration
+      - academic-progression
+      - vanishing-spells
+      - newt-courses
+      - workload
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Examinations and Academic Progression
+    candidate_section: Fifth-year O.W.L. practical preparation
+    reason_for_placement: The passage gives concrete spell examples for O.W.L. and N.E.W.T. progression.
+    relevance_to_hogwarts_a_history: A curriculum chapter could use it to illustrate how fifth-year teaching shifts toward examination content and future career preparation.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch12-002
+        - gof-ch15-002
+      notes: Corroborates existing O.W.L. workload/progression entries, adding named Charms and Transfiguration spell thresholds.
+    confidence: high
+    limitations: The evidence is Harry-era classroom practice, not a timeless curriculum regulation.
+
+  - id: ootp-ch13-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1818
+    printed_page: null
+    extracted_text_lines: 252-303
+    text_anchor:
+      start_phrase: "Professor Grubbly-Plank stood waiting for the class"
+      end_phrase: "with all body parts labeled by the end of the lesson"
+      local_occurrence_note: Care of Magical Creatures lesson on bowtruckles near Hagrid's cabin.
+    nearby_context: The class identifies bowtruckles, their wand-tree habitat, diet, placation with wood lice, danger to eyes, and sketch assignment.
+    match_terms:
+      - Care of Magical Creatures
+      - bowtruckles
+      - wand-trees
+      - wood lice
+      - Professor Grubbly-Plank
+    quote_excerpt_short: "They're tree-guardians, usually live in wand-trees."
+    source_note: The substitute Care of Magical Creatures lesson gives compact creature lore about bowtruckles, including wand-quality tree habitat, food, placation methods, sharp fingers, and a labeled-anatomy practical assignment.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - care-of-magical-creatures
+      - bowtruckles
+      - wand-trees
+      - professor-grubbly-plank
+      - creature-curriculum
+      - wood-lice
+      - practical-lessons
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures
+    candidate_section: Bowtruckles and wand-tree ecology
+    reason_for_placement: It is direct classroom instruction on a magical creature tied to wand-quality trees and student handling.
+    relevance_to_hogwarts_a_history: The entry could support a curriculum subsection on creature study and its links to magical materials such as wand wood.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Targeted duplicate query for bowtruckles and wand-trees returned no likely existing match.
+    confidence: high
+    limitations: The lesson is from a substitute teacher and does not explain whether bowtruckles are standard fifth-year curriculum.
+
+  - id: ootp-ch13-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1824
+    printed_page: null
+    extracted_text_lines: 480-503
+    text_anchor:
+      start_phrase: "He had known this office under three of its previous occupants"
+      end_phrase: "A piece of blank parchment lay on the table"
+      local_occurrence_note: Harry observes the Defense Against the Dark Arts office as redecorated by Umbridge.
+    nearby_context: The same third-floor office is recalled under Lockhart, Lupin, impostor Moody, and Umbridge with each occupant's materials or decor.
+    match_terms:
+      - Defense Against the Dark Arts
+      - third floor
+      - teacher office
+      - Lockhart
+      - Lupin
+      - Moody
+      - Umbridge
+    quote_excerpt_short: "He had known this office under three of its previous occupants."
+    source_note: The chapter confirms continuity of a third-floor Defense Against the Dark Arts office across several annual teachers, with each occupant altering the room to suit teaching style or surveillance materials.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - defense-against-the-dark-arts
+      - teacher-offices
+      - third-floor
+      - staff-rooms
+      - professor-umbridge
+      - professor-lupin
+      - professor-lockhart
+    candidate_part: The Castle and Its Grounds
+    candidate_chapter: Classrooms, Offices, and Staff Spaces
+    candidate_section: Defense Against the Dark Arts office continuity
+    reason_for_placement: It locates a recurring staff office and shows how Hogwarts spaces persist through annual staffing changes.
+    relevance_to_hogwarts_a_history: A castle-layout section could use this as evidence for staff office continuity and the material culture of teaching posts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Targeted duplicate query for the third-floor Defense office and prior occupants returned no likely existing match.
+    confidence: medium
+    limitations: The office is described through Harry's memory of four occupants, not through an official floor plan.
+
+  - id: ootp-ch13-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1825
+    printed_page: null
+    extracted_text_lines: 516-591
+    text_anchor:
+      start_phrase: "This is your punishment for spreading evil, nasty, attention-seeking stories"
+      end_phrase: "we'll just have to try again tomorrow evening"
+      local_occurrence_note: First Umbridge detention using a blood-writing quill.
+    nearby_context: Umbridge refuses to reschedule detention for Quidditch, orders lines with her special quill, and checks whether the message has marked Harry's hand.
+    match_terms:
+      - Umbridge
+      - detention
+      - blood quill
+      - lines
+      - punishment
+    quote_excerpt_short: "You're going to be using a rather special one of mine."
+    source_note: "Umbridge's detention demonstrates a punitive staff practice beyond ordinary lines: a special quill writes in Harry's blood and cuts the same words into his hand, with repeat sessions used to deepen the punishment."
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - detention
+      - dolores-umbridge
+      - blood-quill
+      - school-discipline
+      - corporal-punishment
+      - ministry-intervention
+      - student-safety
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Detentions, Punishments, and Staff Authority
+    candidate_section: Abusive punishments under Ministry interference
+    reason_for_placement: The passage materially expands detention evidence by showing an abusive, concealed punishment imposed by a Ministry-appointed teacher.
+    relevance_to_hogwarts_a_history: A later editorial note could contrast ordinary Hogwarts discipline with Umbridge's exceptional and abusive detention regime.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch12-007
+        - gof-ch13-006
+        - cos-ch07-006
+      notes: Corroborates existing discipline/detention entries, while adding the distinct blood-quill method and Ministry-era abuse.
+    confidence: high
+    limitations: This appears exceptional and abusive, not representative of normal Hogwarts discipline.
+
+  - id: ootp-ch13-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Thirteen - Detention with Dolores
+    chapter_start_pdf_page: 1810
+    chapter_end_pdf_page: 1837
+    pdf_page: 1835
+    printed_page: null
+    extracted_text_lines: 849-867
+    text_anchor:
+      start_phrase: "Come here, Ron, and see if Oliver's old robes fit you"
+      end_phrase: "help Ron as much as you can, okay"
+      local_occurrence_note: After Gryffindor Keeper tryouts, Angelina explains why Ron was selected.
+    nearby_context: The tryout is visible from Umbridge's office; several candidates try to Keep and Angelina weighs performance, commitment, and future training.
+    match_terms:
+      - Gryffindor Quidditch
+      - Keeper tryouts
+      - team robes
+      - practice session
+      - Charm Club
+    quote_excerpt_short: "Vicky's involved in all sorts of societies"
+    source_note: Gryffindor Keeper selection involves open tryouts, captain judgment about performance and commitment, reuse of a former player's robes, and immediate scheduling of team practice after selection.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - gryffindor
+      - keeper
+      - team-tryouts
+      - practice-sessions
+      - house-teams
+      - student-societies
+    candidate_part: Quidditch and School Recreation
+    candidate_chapter: House Teams and Player Selection
+    candidate_section: Tryouts, training expectations, and team equipment
+    reason_for_placement: The scene gives direct evidence for how a House team fills an open position and balances sport against other school commitments.
+    relevance_to_hogwarts_a_history: A section on school recreation could use it to describe House-team selection practices and captains' expectations.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Targeted duplicate query for Gryffindor Keeper tryouts and captain selection returned no likely existing match.
+    confidence: high
+    limitations: This is a single House team's Harry-era practice under Angelina Johnson, not a school-wide written rule.

@@ -112,3 +112,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch10`: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, pages 1741-1760, 7 entries, 0 explicit references.
 - `ootp-ch11`: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, pages 1761-1780, 7 entries, 0 explicit references.
 - `ootp-ch12`: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, pages 1781-1809, 7 entries, 0 explicit references.
+- `ootp-ch13`: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, pages 1810-1837, 7 entries, 0 explicit references.

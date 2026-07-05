@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-04'
+updated: '2026-07-05'
 tags:
   academic-merit:
     entries:
@@ -14,10 +14,12 @@ tags:
   academic-progression:
     entries:
     - ootp-ch12-002
+    - ootp-ch13-003
     - poa-ch16-001
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   access-control:
     entries:
     - ootp-ch04-002
@@ -682,6 +684,11 @@ tags:
     - ootp-ch02-006
     output_yaml:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+  blood-quill:
+    entries:
+    - ootp-ch13-006
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   blood-status:
     entries:
     - cos-ch04-004
@@ -778,6 +785,11 @@ tags:
     - gof-ch29-001
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+  bowtruckles:
+    entries:
+    - ootp-ch13-004
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   brazilian-school:
     entries:
     - gof-ch07-003
@@ -908,6 +920,7 @@ tags:
     - ootp-ch10-006
     - ootp-ch11-002
     - ootp-ch11-005
+    - ootp-ch13-004
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -939,6 +952,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -1274,6 +1288,7 @@ tags:
     - gof-ch15-002
     - gof-ch20-004
     - gof-ch26-001
+    - ootp-ch13-003
     - poa-ch04-003
     - poa-ch15-003
     - poa-ch16-003
@@ -1290,6 +1305,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   charms-classroom:
     entries:
     - ps-ch09-006
@@ -1407,8 +1423,10 @@ tags:
   clothing:
     entries:
     - gof-ch09-003
+    - ootp-ch13-002
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   clue:
     entries:
     - gof-ch20-007
@@ -1468,6 +1486,8 @@ tags:
     - gof-ch20-004
     - gof-ch22-007
     - ootp-ch12-001
+    - ootp-ch13-001
+    - ootp-ch13-002
     - poa-ch08-004
     - poa-ch12-006
     output_yaml:
@@ -1480,6 +1500,7 @@ tags:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   common-room-access:
     entries:
     - poa-ch11-006
@@ -1561,6 +1582,11 @@ tags:
     - cos-ch06-007
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  corporal-punishment:
+    entries:
+    - ootp-ch13-006
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   correspondence:
     entries:
     - gof-ch27-002
@@ -1690,11 +1716,13 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   creature-curriculum:
     entries:
+    - ootp-ch13-004
     - poa-ch08-001
     - poa-ch09-005
     output_yaml:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   creature-feeding:
     entries:
     - gof-ch22-004
@@ -2029,6 +2057,7 @@ tags:
     - ootp-ch09-004
     - ootp-ch11-005
     - ootp-ch12-006
+    - ootp-ch13-005
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2087,6 +2116,7 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -2225,6 +2255,7 @@ tags:
     - gof-ch18-004
     - ootp-ch09-006
     - ootp-ch12-007
+    - ootp-ch13-006
     - poa-ch09-005
     - poa-ch13-004
     - poa-ch14-002
@@ -2243,6 +2274,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   devil's-snare:
     entries:
     - ps-ch16-005
@@ -2291,6 +2323,7 @@ tags:
     entries:
     - cos-ch05-005
     - ootp-ch10-002
+    - ootp-ch13-001
     - ps-ch08-003
     - ps-ch09-005
     output_yaml:
@@ -2298,6 +2331,7 @@ tags:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   discipline-records:
     entries:
     - cos-ch08-002
@@ -2401,10 +2435,12 @@ tags:
     - ootp-ch11-006
     - ootp-ch12-006
     - ootp-ch12-007
+    - ootp-ch13-006
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   doors:
     entries:
     - ps-ch08-001
@@ -3321,12 +3357,14 @@ tags:
     - gof-ch11-006
     - gof-ch12-003
     - ootp-ch10-006
+    - ootp-ch13-001
     - ps-ch06-006
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   flame-freezing-charm:
     entries:
     - poa-ch01-001
@@ -4055,6 +4093,8 @@ tags:
     - gof-ch18-002
     - ootp-ch09-005
     - ootp-ch12-001
+    - ootp-ch13-001
+    - ootp-ch13-007
     - poa-ch12-004
     - poa-ch13-003
     - poa-ch15-005
@@ -4091,6 +4131,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   gryffindor-common-room:
     entries:
     - poa-ch13-006
@@ -4126,6 +4167,7 @@ tags:
     - gof-ch22-006
     - gof-ch22-007
     - gof-ch23-001
+    - ootp-ch13-002
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -4153,6 +4195,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   guard-duty:
     entries:
     - ootp-ch04-005
@@ -5324,6 +5367,7 @@ tags:
     - ootp-ch06-005
     - ootp-ch07-003
     - ootp-ch09-002
+    - ootp-ch13-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -5344,6 +5388,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -5475,6 +5520,7 @@ tags:
     - cos-ch07-002
     - gof-ch05-005
     - gof-ch06-004
+    - ootp-ch13-007
     - poa-ch01-007
     - poa-ch08-002
     - ps-ch09-003
@@ -5485,6 +5531,7 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   howler:
     entries:
     - ootp-ch02-006
@@ -5879,8 +5926,10 @@ tags:
   keeper:
     entries:
     - cos-ch07-001
+    - ootp-ch13-007
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   keeper-of-keys:
     entries:
     - ps-ch04-001
@@ -6675,6 +6724,7 @@ tags:
     - gof-ch21-007
     - gof-ch28-001
     - ootp-ch09-002
+    - ootp-ch13-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -6688,6 +6738,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   magical-settlements:
     entries:
     - gof-ch19-001
@@ -6784,9 +6835,11 @@ tags:
     entries:
     - cos-ch18-006
     - gof-ch09-003
+    - ootp-ch13-002
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   marauders:
     entries:
     - ootp-ch09-006
@@ -7072,10 +7125,12 @@ tags:
     - gof-ch36-004
     - ootp-ch11-006
     - ootp-ch12-007
+    - ootp-ch13-006
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -7632,8 +7687,10 @@ tags:
     entries:
     - ootp-ch12-002
     - ootp-ch12-004
+    - ootp-ch13-003
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   newts:
     entries:
     - poa-ch16-001
@@ -7902,9 +7959,11 @@ tags:
     - ootp-ch12-002
     - ootp-ch12-004
     - ootp-ch12-005
+    - ootp-ch13-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   original-order-phoenix:
     entries:
     - ootp-ch09-007
@@ -8570,6 +8629,7 @@ tags:
     - gof-ch13-007
     - gof-ch26-003
     - gof-ch28-002
+    - ootp-ch13-004
     - poa-ch07-004
     - poa-ch07-007
     output_yaml:
@@ -8578,6 +8638,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   practical-magic:
     entries:
     - ootp-ch12-006
@@ -8588,6 +8649,11 @@ tags:
     - poa-ch08-002
     output_yaml:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  practice-sessions:
+    entries:
+    - ootp-ch13-007
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   pre-harry-history:
     entries:
     - cos-ch15-006
@@ -8621,6 +8687,7 @@ tags:
     - ootp-ch09-006
     - ootp-ch10-002
     - ootp-ch12-001
+    - ootp-ch13-001
     - poa-ch04-006
     - poa-ch05-006
     - poa-ch09-002
@@ -8642,6 +8709,7 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   prefects-bathroom:
     entries:
     - gof-ch23-007
@@ -8761,18 +8829,26 @@ tags:
     entries:
     - gof-ch24-001
     - gof-ch26-003
+    - ootp-ch13-004
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   professor-kettleburn:
     entries:
     - poa-ch05-007
     output_yaml:
     - sources/book-03/chapter-05-the-dementor.yaml
+  professor-lockhart:
+    entries:
+    - ootp-ch13-005
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   professor-lupin:
     entries:
     - gof-ch14-001
     - ootp-ch08-003
+    - ootp-ch13-005
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -8792,6 +8868,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   professor-mcgonagall:
     entries:
     - cos-ch06-004
@@ -8909,6 +8986,11 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+  professor-umbridge:
+    entries:
+    - ootp-ch13-005
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   professor-vector:
     entries:
     - gof-ch13-004
@@ -9060,6 +9142,7 @@ tags:
     - gof-ch06-004
     - gof-ch08-004
     - gof-ch30-005
+    - ootp-ch13-007
     - poa-ch01-007
     - poa-ch02-004
     - poa-ch08-002
@@ -9092,6 +9175,7 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   quidditch-books:
     entries:
     - gof-ch02-002
@@ -9559,6 +9643,7 @@ tags:
     entries:
     - gof-ch05-004
     - gof-ch13-006
+    - ootp-ch13-006
     - ps-ch10-005
     - ps-ch11-003
     output_yaml:
@@ -9566,6 +9651,7 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   school-emergency:
     entries:
     - cos-ch10-006
@@ -10226,8 +10312,10 @@ tags:
   skiving-snackboxes:
     entries:
     - ootp-ch12-001
+    - ootp-ch13-001
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   slytherin:
     entries:
     - cos-ch07-002
@@ -10452,11 +10540,13 @@ tags:
     - gof-ch16-006
     - gof-ch19-002
     - gof-ch23-003
+    - ootp-ch13-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   sphinx:
     entries:
     - gof-ch31-006
@@ -10638,6 +10728,11 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+  staff-rooms:
+    entries:
+    - ootp-ch13-005
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   staff-search:
     entries:
     - poa-ch09-002
@@ -10961,10 +11056,12 @@ tags:
     - cos-ch08-003
     - gof-ch06-003
     - ootp-ch12-001
+    - ootp-ch13-001
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   student-movement:
     entries:
     - cos-ch15-002
@@ -11117,6 +11214,7 @@ tags:
     - gof-ch31-006
     - ootp-ch02-006
     - ootp-ch03-005
+    - ootp-ch13-006
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -11142,6 +11240,12 @@ tags:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
+  student-societies:
+    entries:
+    - ootp-ch13-007
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   student-spectators:
     entries:
     - gof-ch31-002
@@ -11387,6 +11491,11 @@ tags:
     - gof-ch17-006
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  teacher-offices:
+    entries:
+    - ootp-ch13-005
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   teacher-permission:
     entries:
     - cos-ch09-007
@@ -11427,6 +11536,11 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  team-tryouts:
+    entries:
+    - ootp-ch13-007
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   telephone-box:
     entries:
     - ootp-ch07-002
@@ -11483,6 +11597,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  third-floor:
+    entries:
+    - ootp-ch13-005
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   third-floor-corridor:
     entries:
     - ps-ch08-003
@@ -11707,6 +11826,7 @@ tags:
     entries:
     - cos-ch06-004
     - gof-ch15-002
+    - ootp-ch13-003
     - poa-ch04-003
     - poa-ch06-004
     - poa-ch16-003
@@ -11724,6 +11844,7 @@ tags:
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   transfiguration-book:
     entries:
     - cos-ch18-006
@@ -12085,6 +12206,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  vanishing-spells:
+    entries:
+    - ootp-ch13-003
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   veela:
     entries:
     - gof-ch08-006
@@ -12278,6 +12404,11 @@ tags:
     - ps-ch15-005
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+  wand-trees:
+    entries:
+    - ootp-ch13-004
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   wand-use:
     entries:
     - poa-ch20-003
@@ -12635,6 +12766,11 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  wood-lice:
+    entries:
+    - ootp-ch13-004
+    output_yaml:
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   working-conditions:
     entries:
     - gof-ch19-002
@@ -12644,9 +12780,11 @@ tags:
     entries:
     - gof-ch15-002
     - ootp-ch12-002
+    - ootp-ch13-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-13-detention-with-dolores.yaml
   world-cup-1473:
     entries:
     - ps-ch11-002

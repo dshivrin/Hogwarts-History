@@ -24,6 +24,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Student Names and Seven-Year Schooling
   - Wands as Required Equipment
 - Care of Magical Creatures
+  - Bowtruckles and wand-tree ecology
   - Classroom Creatures and Student Handling
   - Course Books and Dangerous Texts
   - Live Creature Handling and Safety
@@ -69,6 +70,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Divination and Third-Year Electives
   - Crystal-Gazing Exams and True Seer Evidence
 - Examinations and Academic Progression
+  - Fifth-year O.W.L. practical preparation
   - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
 - Exams and Assessment
   - Education Continuity During Crisis
@@ -268,6 +270,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Ghosts and Haunted Places
   - The Shrieking Shack Reputation
+- House-Elves and Hidden Labor
+  - Clothing, freedom, and Hogwarts service spaces
 - Magical Residents of the Grounds
   - Aragog's Colony in the Forbidden Forest
   - Centaurs in the Forbidden Forest
@@ -741,6 +745,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Practice Scheduling, Captains, and Equipment
   - Season Preparation, Captains, and the Quidditch Cup
   - Training Supervision and Broom Expertise
+- House Teams and Player Selection
+  - Tryouts, training expectations, and team equipment
 - Quidditch Beyond Hogwarts
   - International Events and Ministry Sport Administration
   - International Events and Security Context
@@ -764,6 +770,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dangerous-Creature Execution Procedure
 - Detention Logistics and Punishments
   - Staff-Assigned Tasks, Filch, and Trophy Room Labor
+- Detentions, Punishments, and Staff Authority
+  - Abusive punishments under Ministry interference
 - Governors, Ministry, and School Accountability
   - Dangerous-Creature Appeals and Execution Authority
   - Dangerous-Creature Hearings After Class Injuries
@@ -864,6 +872,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curses, Countercurses, and Faculty Reports
 - Student Offices, Awards, and Records
   - Trophy Room Records and Head Boy Lists
+- Student Offices, Prefects, and Discipline
+  - Prefect authority and informal enforcement limits
 - Wizarding Transport and Secrecy
   - Covert Broom Transport Under Surveillance
   - Floo Network Regulation and Muggle Fireplaces
@@ -890,6 +900,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Arrival at Hogwarts
   - Carriage Route, Gates, Entrance Hall, and Great Hall
+- Classrooms, Offices, and Staff Spaces
+  - Defense Against the Dark Arts office continuity
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
 - Grounds, Lake, and Village Approaches
