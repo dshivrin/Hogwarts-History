@@ -1,0 +1,278 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Sixteen - In the Hog's Head
+  chapter_start_pdf_page: 1887
+  chapter_end_pdf_page: 1905
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 1887-1905. A one-page forward anchor extraction confirmed PDF page 1906 begins Chapter Seventeen - Educational Decree Number Twenty-Four.
+  processed_date: '2026-07-06'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History references appear in this chapter."
+
+entries:
+  - id: ootp-ch16-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Sixteen - In the Hog's Head
+    chapter_start_pdf_page: 1887
+    chapter_end_pdf_page: 1905
+    pdf_page: 1891
+    printed_page: null
+    extracted_text_lines: 127-149
+    text_anchor:
+      start_phrase: breakfast they queued up in front of Filch
+      end_phrase: turned left onto the road into the village
+      local_occurrence_note: The students leave Hogwarts for the first October Hogsmeade weekend.
+    nearby_context: Filch checks students against a long permission list, sniffs Harry for contraband, and the trio walks from the castle steps down the drive, between the winged-boar gate pillars, and onto the village road.
+    match_terms:
+      - Hogsmeade
+      - Filch
+      - parental permission
+      - guardian permission
+      - winged boars
+    quote_excerpt_short: Filch "matched their names to the long list"
+    source_note: The chapter corroborates Hogsmeade weekends as permission-controlled student departures and adds a current-year exit procedure through Filch's list check and the Hogwarts gates.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogsmeade
+      - permission-forms
+      - filch
+      - student-movement
+      - castle-gates
+      - winged-boars
+      - school-rules
+    candidate_part: Student Life and School Customs
+    candidate_chapter: Hogsmeade Weekends and Student Privileges
+    candidate_section: Permission Lists and Castle Departure Checks
+    reason_for_placement: The evidence describes a repeated student privilege and the staff-controlled procedure for leaving the grounds.
+    relevance_to_hogwarts_a_history: A history of Hogwarts student life can use this as Harry-era confirmation that village visits depended on parental or guardian permission and school exit checks.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: poa-ch08-003
+      notes: poa-ch08-003 already records Head-of-House collection and Filch door checks for Hogsmeade permission forms; this entry corroborates the system in fifth year and adds the parent-or-guardian list wording plus the gate route.
+    confidence: high
+    limitations: The passage does not state whether Filch created the list, whether teachers supervised the walk, or how the procedure changed under heightened security.
+
+  - id: ootp-ch16-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Sixteen - In the Hog's Head
+    chapter_start_pdf_page: 1887
+    chapter_end_pdf_page: 1905
+    pdf_page: 1892
+    printed_page: null
+    extracted_text_lines: 153-195
+    text_anchor:
+      start_phrase: The Three Broomsticks?
+      end_phrase: caused the veil to protrude slightly
+      local_occurrence_note: Hermione leads the trio away from the main road to the Hog's Head.
+    nearby_context: The route passes Zonko's and the post office before turning to a side-street inn with a boar's-head sign, a dirty single-room bar, hooded or veiled patrons, and Harry's memory of Hagrid's first-year dragon-egg story.
+    match_terms:
+      - Hog's Head
+      - Three Broomsticks
+      - Zonko's
+      - Hogsmeade post office
+      - Hagrid
+      - dragon egg
+    quote_excerpt_short: "Yeh get a lot o' funny folk"
+    source_note: The chapter gives the fullest observed description of the Hog's Head as a less reputable Hogsmeade pub and links its anonymity-friendly clientele to the earlier dragon-egg encounter.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogs-head
+      - hogsmeade
+      - three-broomsticks
+      - hagrid
+      - dragon-egg
+      - shady-patrons
+      - magical-settlements
+    candidate_part: The Wider Grounds and Hogsmeade
+    candidate_chapter: Hogsmeade Village
+    candidate_section: The Hog's Head Inn
+    reason_for_placement: The scene maps the Hog's Head's location, atmosphere, clientele, and relationship to other village landmarks.
+    relevance_to_hogwarts_a_history: A Hogwarts-adjacent history can treat the Hog's Head as a student-accessible but disreputable village venue connected to important school-security events.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ps-ch16-003
+      notes: ps-ch16-003 records Hagrid's dragon-egg encounter in the Hog's Head as part of the Stone-protection breach; this entry corroborates that history while adding direct physical description and social context for the pub.
+    confidence: high
+    limitations: Harry's description is a visitor impression; the passage does not identify the barman or give formal ownership history.
+
+  - id: ootp-ch16-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Sixteen - In the Hog's Head
+    chapter_start_pdf_page: 1887
+    chapter_end_pdf_page: 1905
+    pdf_page: 1893
+    printed_page: null
+    extracted_text_lines: 198-215
+    text_anchor:
+      start_phrase: even if Umbridge does come in here
+      end_phrase: not exactly a homework group
+      local_occurrence_note: Hermione explains why Umbridge cannot immediately stop the meeting.
+    nearby_context: Hermione says she checked school rules, asked Flitwick whether students may enter the Hog's Head, and found study groups and homework groups allowed, while still wanting secrecy about the Defense purpose.
+    match_terms:
+      - school rules
+      - Flitwick
+      - Hog's Head
+      - study groups
+      - homework groups
+      - Umbridge
+    quote_excerpt_short: "study groups and homework groups... definitely allowed"
+    source_note: Hermione's rule research indicates that students may enter the Hog's Head during Hogsmeade visits and that ordinary study or homework groups are permitted under Hogwarts rules.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - school-rules
+      - hogs-head
+      - study-groups
+      - homework-groups
+      - flitwick
+      - umbridge
+      - student-organizing
+    candidate_part: Rules, Governance, and Discipline
+    candidate_chapter: Student Permissions and Informal Study
+    candidate_section: Legal Study Groups and Out-of-Bounds Limits
+    reason_for_placement: The passage provides explicit rule interpretation from a rule-conscious student and a named teacher about student venues and study groups.
+    relevance_to_hogwarts_a_history: A later edition could distinguish ordinary permitted study groups from the politically sensitive Defense group that soon triggers Ministry intervention.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate searches for Hog's Head, Flitwick, study groups, and rules found no prior entry with this specific rule interpretation.
+    confidence: medium
+    limitations: Hermione reports the rule check secondhand, and the passage does not quote the written school rules or Flitwick directly beyond her summary.
+
+  - id: ootp-ch16-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Sixteen - In the Hog's Head
+    chapter_start_pdf_page: 1887
+    chapter_end_pdf_page: 1905
+    pdf_page: 1896
+    printed_page: null
+    extracted_text_lines: 305-321
+    text_anchor:
+      start_phrase: people who wanted to study Defense Against the Dark Arts
+      end_phrase: Because Lord Voldemort's back
+      local_occurrence_note: Hermione frames the purpose of the meeting to the assembled students.
+    nearby_context: Hermione contrasts real Defense study with Umbridge's lessons, says the group should take matters into its own hands, and links practical spell training to Voldemort's return and the Defense O.W.L.
+    match_terms:
+      - Defense Against the Dark Arts
+      - Umbridge
+      - O.W.L.
+      - Voldemort
+      - student-led lessons
+    quote_excerpt_short: "not just theory but the real spells"
+    source_note: The Hog's Head meeting turns the earlier idea of Harry teaching Defense into a cross-House student initiative for practical spell training under Umbridge's theory-only curriculum.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - defense-against-the-dark-arts
+      - student-led-instruction
+      - umbridge
+      - owls
+      - practical-defense
+      - voldemort-return
+      - cross-house
+    candidate_part: Curriculum and Instruction
+    candidate_chapter: Defense Against the Dark Arts
+    candidate_section: Student-Led Practical Defense in the Umbridge Year
+    reason_for_placement: The passage records an informal curricular response to an official course that students see as inadequate.
+    relevance_to_hogwarts_a_history: A Harry-era appendix or later edition can use this as the founding meeting of the practical Defense group that forms under Ministry interference.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ootp-ch15-007
+      notes: ootp-ch15-007 records Hermione's first proposal that Harry teach practical Defense; this entry is the first organized meeting, adds cross-House participation, and states the O.W.L. and Voldemort-return rationale.
+    confidence: high
+    limitations: The group has not yet selected a meeting location or performed any lessons in this chapter.
+
+  - id: ootp-ch16-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Sixteen - In the Hog's Head
+    chapter_start_pdf_page: 1887
+    chapter_end_pdf_page: 1905
+    pdf_page: 1898
+    printed_page: null
+    extracted_text_lines: 380-426
+    text_anchor:
+      start_phrase: Is it true
+      end_phrase: get rid of those dementors this summer
+      local_occurrence_note: Students test whether Harry's reputation justifies learning Defense from him.
+    nearby_context: Susan Bones asks about the corporeal stag Patronus from Harry's hearing, Terry Boot mentions a headmaster-office portrait's basilisk story, Neville and Cho cite the Stone and Triwizard tasks, and Harry admits he had help with much of it.
+    match_terms:
+      - corporeal Patronus
+      - basilisk
+      - headmaster's office portraits
+      - Triwizard Tournament
+      - practical Defense
+    quote_excerpt_short: "You make a stag Patronus?"
+    source_note: The meeting records student circulation of Harry's defensive achievements, including Ministry-hearing testimony, portrait testimony, and tournament reputation, as the social basis for accepting him as an instructor.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - patronus
+      - basilisk
+      - headmaster-portraits
+      - triwizard-tournament
+      - defense-against-the-dark-arts
+      - student-reputation
+      - practical-magic
+    candidate_part: Students, Reputation, and Wartime Memory
+    candidate_chapter: Harry Potter as Student Witness
+    candidate_section: Peer Transmission of Defensive Feats
+    reason_for_placement: The passage shows how multiple earlier Hogwarts events become peer knowledge and are used to assess a student's authority to teach.
+    relevance_to_hogwarts_a_history: This could support a later editorial note on how extraordinary student actions entered Hogwarts rumor, portrait testimony, and informal instruction.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ootp-ch08-003
+      notes: ootp-ch08-003 records Amelia Bones treating Harry's corporeal Patronus as advanced magic; this entry adds student-side transmission through Susan Bones and combines it with other already known feats such as the basilisk and Triwizard tasks.
+    confidence: medium
+    limitations: Several claims are secondhand within the meeting, and the entry is mainly useful as evidence of reputation and cross-reference circulation rather than as primary evidence for the feats themselves.
+
+  - id: ootp-ch16-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Sixteen - In the Hog's Head
+    chapter_start_pdf_page: 1887
+    chapter_end_pdf_page: 1905
+    pdf_page: 1900
+    printed_page: null
+    extracted_text_lines: 446-545
+    text_anchor:
+      start_phrase: are we agreed we want to take lessons from Harry
+      end_phrase: of course I'll sign
+      local_occurrence_note: The group settles its first organizational decisions and signs Hermione's list.
+    nearby_context: The students agree to take lessons from Harry, discuss at-least-weekly meetings, weigh Quidditch conflicts, reject the library as a practical venue, consider an unused classroom, and sign a list agreeing not to tell Umbridge or anyone else.
+    match_terms:
+      - Defense lessons
+      - weekly meetings
+      - Quidditch practice
+      - library
+      - unused classroom
+      - signed list
+    quote_excerpt_short: "if you sign, you're agreeing not to tell Umbridge"
+    source_note: "The founding meeting establishes the practical Defense group's first logistics: Harry as instructor, roughly weekly meetings, a still-unresolved venue, and a secrecy agreement recorded by signatures."
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - defense-against-the-dark-arts
+      - student-organizing
+      - secrecy
+      - signatures
+      - quidditch-practice
+      - library
+      - unused-classrooms
+    candidate_part: Student Organizations and Informal Governance
+    candidate_chapter: Secret Study Groups
+    candidate_section: Membership Lists, Meeting Frequency, and Venue Search
+    reason_for_placement: The scene provides concrete organizational mechanics for a student group operating inside and around school rules.
+    relevance_to_hogwarts_a_history: A later account of Hogwarts student societies or resistance under Umbridge can use this to explain how an informal group became a defined membership body.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate searches for defense-group secrecy, signatures, meeting logistics, library venues, and Quidditch conflicts did not identify an existing entry with these organizational details.
+    confidence: high
+    limitations: The name, permanent meeting place, and magical protection of the list are not established until later chapters.

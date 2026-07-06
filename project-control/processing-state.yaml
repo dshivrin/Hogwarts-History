@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 15
-  chapter_title: Chapter Fifteen - The Hogwarts High Inquisitor
-  page_start: 1864
-  page_end: 1886
-  output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 16
-  chapter_title: "Chapter Sixteen - In the Hog\u2019s Head"
+  chapter_title: Chapter Sixteen - In the Hog's Head
   page_start: 1887
   page_end: 1905
   output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 1906
   page_end: 1928
   output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 18
+  chapter_title: Chapter Eighteen - Dumbledore's Army
+  page_start: 1929
+  page_end: 1951
+  output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

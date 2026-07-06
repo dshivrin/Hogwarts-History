@@ -7856,6 +7856,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `gof-ch14-001`, `gof-ch14-004`, `gof-ch14-005`. gof-ch14-001, gof-ch14-004, and gof-ch14-005 establish Moody's classroom framing of Dark curses and Avada Kedavra; this entry records the later survival context in which that instruction mattered.
   - Notes: The scene occurs off campus and reflects an exceptional emergency rather than ordinary classroom practice.
 
+## Part: Curriculum and Instruction
+
+### Chapter: Defense Against the Dark Arts
+
+#### Section: Student-Led Practical Defense in the Umbridge Year
+
+Summary: The available evidence includes 1 source item, led by: The Hog's Head meeting turns the earlier idea of Harry teaching Defense into a cross-House student initiative for practical spell training under Umbridge's theory-only curriculum.
+
+- **Corroboration:** The Hog's Head meeting turns the earlier idea of Harry teaching Defense into a cross-House student initiative for practical spell training under Umbridge's theory-only curriculum.
+  - Quote: "not just theory but the real spells"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, PDF p. 1896, `ootp-ch16-004`, `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch15-007`. ootp-ch15-007 records Hermione's first proposal that Harry teach practical Defense; this entry is the first organized meeting, adds cross-House participation, and states the O.W.L. and Voldemort-return rationale.
+  - Notes: The group has not yet selected a meeting location or performed any lessons in this chapter.
+
 ## Part: Curriculum, Study, and Practical Magic
 
 ### Chapter: Charms Instruction and Independent Practice
@@ -8277,6 +8293,21 @@ Summary: The available evidence includes 1 source item, led by: A wizarding maga
   - Reference type: school_rule_or_policy
   - Notes: The ban is stated in a Rita Skeeter article, so it should be corroborated before being treated as a complete written policy.
 
+## Part: Rules, Governance, and Discipline
+
+### Chapter: Student Permissions and Informal Study
+
+#### Section: Legal Study Groups and Out-of-Bounds Limits
+
+Summary: The available evidence includes 1 source item, led by: Hermione's rule research indicates that students may enter the Hog's Head during Hogsmeade visits and that ordinary study or homework groups are permitted under Hogwarts rules.
+
+- **Supporting evidence:** Hermione's rule research indicates that students may enter the Hog's Head during Hogsmeade visits and that ordinary study or homework groups are permitted under Hogwarts rules.
+  - Quote: "study groups and homework groups... definitely allowed"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, PDF p. 1893, `ootp-ch16-003`, `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Hermione reports the rule check secondhand, and the passage does not quote the written school rules or Flitwick directly beyond her summary.
+
 ## Part: School Governance and Rules
 
 ### Chapter: Common-Room Notices and Prefect Enforcement
@@ -8334,6 +8365,53 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's confess
   - Reference type: historical_claim
   - Corroborates: `ps-ch04-007`, `cos-ch07-005`. ps-ch04-007 and cos-ch07-005 already record Hagrid's expulsion, magic restriction, and Dumbledore's retention of him; this entry adds giant ancestry, orphaned school years, and the social reason Hagrid kept his background secret.
   - Notes: Ron's comments about giants reflect common prejudice and partial knowledge rather than an authoritative historical survey.
+
+## Part: Student Life and School Customs
+
+### Chapter: Hogsmeade Weekends and Student Privileges
+
+#### Section: Permission Lists and Castle Departure Checks
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates Hogsmeade weekends as permission-controlled student departures and adds a current-year exit procedure through Filch's list check and the Hogwarts gates.
+
+- **Corroboration:** The chapter corroborates Hogsmeade weekends as permission-controlled student departures and adds a current-year exit procedure through Filch's list check and the Hogwarts gates.
+  - Quote: "Filch "matched their names to the long list""
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, PDF p. 1891, `ootp-ch16-001`, `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch08-003`. poa-ch08-003 already records Head-of-House collection and Filch door checks for Hogsmeade permission forms; this entry corroborates the system in fifth year and adds the parent-or-guardian list wording plus the gate route.
+  - Notes: The passage does not state whether Filch created the list, whether teachers supervised the walk, or how the procedure changed under heightened security.
+
+## Part: Student Organizations and Informal Governance
+
+### Chapter: Secret Study Groups
+
+#### Section: Membership Lists, Meeting Frequency, and Venue Search
+
+Summary: The available evidence includes 1 source item, led by: The founding meeting establishes the practical Defense group's first logistics: Harry as instructor, roughly weekly meetings, a still-unresolved venue, and a secrecy agreement recorded by signatures.
+
+- **Supporting evidence:** The founding meeting establishes the practical Defense group's first logistics: Harry as instructor, roughly weekly meetings, a still-unresolved venue, and a secrecy agreement recorded by signatures.
+  - Quote: "if you sign, you're agreeing not to tell Umbridge"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, PDF p. 1900, `ootp-ch16-006`, `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The name, permanent meeting place, and magical protection of the list are not established until later chapters.
+
+## Part: Students, Reputation, and Wartime Memory
+
+### Chapter: Harry Potter as Student Witness
+
+#### Section: Peer Transmission of Defensive Feats
+
+Summary: The available evidence includes 1 source item, led by: The meeting records student circulation of Harry's defensive achievements, including Ministry-hearing testimony, portrait testimony, and tournament reputation, as the social basis for accepting him as an instructor.
+
+- **Corroboration:** The meeting records student circulation of Harry's defensive achievements, including Ministry-hearing testimony, portrait testimony, and tournament reputation, as the social basis for accepting him as an instructor.
+  - Quote: "You make a stag Patronus?"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, PDF p. 1898, `ootp-ch16-005`, `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch08-003`. ootp-ch08-003 records Amelia Bones treating Harry's corporeal Patronus as advanced magic; this entry adds student-side transmission through Susan Bones and combines it with other already known feats such as the basilisk and Triwizard tasks.
+  - Notes: Several claims are secondhand within the meeting, and the entry is mainly useful as evidence of reputation and cross-reference circulation rather than as primary evidence for the feats themselves.
 
 ## Part: The Castle and Its Protections
 
@@ -8431,6 +8509,22 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Reference type: institutional_custom
   - Corroborates: `gof-ch25-003`, `gof-ch20-007`. gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
+
+## Part: The Wider Grounds and Hogsmeade
+
+### Chapter: Hogsmeade Village
+
+#### Section: The Hog's Head Inn
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives the fullest observed description of the Hog's Head as a less reputable Hogsmeade pub and links its anonymity-friendly clientele to the earlier dragon-egg encounter.
+
+- **Corroboration:** The chapter gives the fullest observed description of the Hog's Head as a less reputable Hogsmeade pub and links its anonymity-friendly clientele to the earlier dragon-egg encounter.
+  - Quote: "Yeh get a lot o' funny folk"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, PDF p. 1892, `ootp-ch16-002`, `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ps-ch16-003`. ps-ch16-003 records Hagrid's dragon-egg encounter in the Hog's Head as part of the Stone-protection breach; this entry corroborates that history while adding direct physical description and social context for the pub.
+  - Notes: Harry's description is a visitor impression; the passage does not identify the barman or give formal ownership history.
 
 ## Part: Wars, Crises, and School Memory
 

@@ -1309,3 +1309,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1864-1886.
+- source_unit_id: ootp-ch16
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 16
+  chapter_title: Chapter Sixteen - In the Hog's Head
+  page_start: 1887
+  page_end: 1905
+  output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  processed_at: '2026-07-06'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 1887-1905.

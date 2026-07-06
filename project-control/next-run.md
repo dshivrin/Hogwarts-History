@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Sixteen - In the Hog’s Head
-- Page range: 1887-1905
+- Chapter: Chapter Seventeen - Educational Decree Number Twenty-Four
+- Page range: 1906-1928
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
+- Output YAML: `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
 
 ## Minimal Context
 

@@ -10409,6 +10409,99 @@ by_entry:
     - voldemort
     source_unit: ootp-ch15
     output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch16-001:
+    title: 'Hogsmeade Weekends and Student Privileges: Permission Lists and Castle
+      Departure Checks'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - castle-gates
+    - filch
+    - hogsmeade
+    - permission-forms
+    - school-rules
+    - student-movement
+    - winged-boars
+    source_unit: ootp-ch16
+    output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  ootp-ch16-002:
+    title: 'Hogsmeade Village: The Hog''s Head Inn'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - dragon-egg
+    - hagrid
+    - hogs-head
+    - hogsmeade
+    - magical-settlements
+    - shady-patrons
+    - three-broomsticks
+    source_unit: ootp-ch16
+    output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  ootp-ch16-003:
+    title: 'Student Permissions and Informal Study: Legal Study Groups and Out-of-Bounds
+      Limits'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - flitwick
+    - hogs-head
+    - homework-groups
+    - school-rules
+    - student-organizing
+    - study-groups
+    - umbridge
+    source_unit: ootp-ch16
+    output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  ootp-ch16-004:
+    title: 'Defense Against the Dark Arts: Student-Led Practical Defense in the Umbridge
+      Year'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - cross-house
+    - defense-against-the-dark-arts
+    - owls
+    - practical-defense
+    - student-led-instruction
+    - umbridge
+    - voldemort-return
+    source_unit: ootp-ch16
+    output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  ootp-ch16-005:
+    title: 'Harry Potter as Student Witness: Peer Transmission of Defensive Feats'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - basilisk
+    - defense-against-the-dark-arts
+    - headmaster-portraits
+    - patronus
+    - practical-magic
+    - student-reputation
+    - triwizard-tournament
+    source_unit: ootp-ch16
+    output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  ootp-ch16-006:
+    title: 'Secret Study Groups: Membership Lists, Meeting Frequency, and Venue Search'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - library
+    - quidditch-practice
+    - secrecy
+    - signatures
+    - student-organizing
+    - unused-classrooms
+    source_unit: ootp-ch16
+    output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -10664,6 +10757,7 @@ by_tag:
   - cos-ch16-003
   - cos-ch17-002
   - cos-ch17-006
+  - ootp-ch16-005
   bathilda-bagshot:
   - poa-ch01-001
   bathroom:
@@ -10883,6 +10977,8 @@ by_tag:
   castle-architecture:
   - gof-ch15-001
   - ootp-ch14-002
+  castle-gates:
+  - ootp-ch16-001
   castle-grounds:
   - poa-ch17-001
   - poa-ch20-001
@@ -11255,6 +11351,8 @@ by_tag:
   - cos-ch14-007
   crookshanks:
   - poa-ch19-005
+  cross-house:
+  - ootp-ch16-004
   cross-house-classes:
   - gof-ch13-001
   - gof-ch13-003
@@ -11391,6 +11489,9 @@ by_tag:
   - ootp-ch14-007
   - ootp-ch15-004
   - ootp-ch15-007
+  - ootp-ch16-004
+  - ootp-ch16-005
+  - ootp-ch16-006
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -11587,6 +11688,8 @@ by_tag:
   - cos-ch04-004
   dragon-breeds:
   - gof-ch20-006
+  dragon-egg:
+  - ootp-ch16-002
   dragon-enclosure:
   - gof-ch20-006
   dragon-hatching:
@@ -11958,6 +12061,7 @@ by_tag:
   - cos-ch08-002
   - gof-ch12-005
   - ootp-ch11-005
+  - ootp-ch16-001
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -12041,6 +12145,7 @@ by_tag:
   - gof-ch17-001
   - gof-ch35-004
   flitwick:
+  - ootp-ch16-003
   - ps-ch10-001
   - ps-ch12-003
   flitwick-office:
@@ -12476,6 +12581,7 @@ by_tag:
   - ootp-ch14-002
   - ootp-ch14-007
   - ootp-ch15-006
+  - ootp-ch16-002
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -12620,6 +12726,7 @@ by_tag:
   - cos-ch12-001
   - cos-ch13-006
   - gof-ch30-001
+  - ootp-ch16-005
   - poa-ch11-006
   headmasters:
   - cos-ch09-006
@@ -12737,12 +12844,16 @@ by_tag:
   history-of-magic-classroom:
   - poa-ch12-001
   hogs-head:
+  - ootp-ch16-002
+  - ootp-ch16-003
   - ps-ch16-003
   hogsmeade:
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
   - gof-ch27-006
+  - ootp-ch16-001
+  - ootp-ch16-002
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -12925,6 +13036,8 @@ by_tag:
   - poa-ch15-004
   - poa-ch18-001
   - ps-ch14-001
+  homework-groups:
+  - ootp-ch16-003
   honeydukes:
   - poa-ch10-004
   - poa-ch13-006
@@ -13332,6 +13445,7 @@ by_tag:
   - gof-ch20-001
   - gof-ch26-002
   - gof-ch29-004
+  - ootp-ch16-006
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -13629,6 +13743,7 @@ by_tag:
   - ootp-ch14-001
   magical-settlements:
   - gof-ch19-001
+  - ootp-ch16-002
   magical-spaces:
   - gof-ch07-002
   magical-surveillance:
@@ -14235,6 +14350,7 @@ by_tag:
   - cos-ch04-003
   - gof-ch05-002
   - gof-ch06-003
+  - ootp-ch16-004
   - poa-ch04-005
   - poa-ch16-001
   - poa-ch22-005
@@ -14294,6 +14410,7 @@ by_tag:
   - ootp-ch02-005
   - ootp-ch03-001
   - ootp-ch08-003
+  - ootp-ch16-005
   - poa-ch20-007
   patronus-charm:
   - poa-ch12-002
@@ -14338,6 +14455,7 @@ by_tag:
   - poa-ch14-006
   - poa-ch22-007
   permission-forms:
+  - ootp-ch16-001
   - poa-ch01-005
   - poa-ch08-003
   peter-pettigrew:
@@ -14494,6 +14612,7 @@ by_tag:
   - gof-ch34-004
   practical-defense:
   - ootp-ch15-007
+  - ootp-ch16-004
   practical-examination:
   - ootp-ch12-004
   practical-exams:
@@ -14513,6 +14632,7 @@ by_tag:
   - poa-ch07-007
   practical-magic:
   - ootp-ch12-006
+  - ootp-ch16-005
   practice-schedule:
   - poa-ch08-002
   practice-sessions:
@@ -14801,6 +14921,7 @@ by_tag:
   quidditch-practice:
   - cos-ch01-002
   - cos-ch07-002
+  - ootp-ch16-006
   - poa-ch15-004
   quidditch-rules:
   - cos-ch07-001
@@ -15075,6 +15196,8 @@ by_tag:
   - gof-ch12-005
   - gof-ch16-003
   - ootp-ch11-005
+  - ootp-ch16-001
+  - ootp-ch16-003
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
@@ -15160,6 +15283,7 @@ by_tag:
   secrecy:
   - gof-ch19-004
   - gof-ch21-007
+  - ootp-ch16-006
   - ps-ch13-006
   - ps-ch14-003
   - ps-ch15-003
@@ -15227,6 +15351,8 @@ by_tag:
   - ps-ch04-006
   severus-snape:
   - poa-ch18-007
+  shady-patrons:
+  - ootp-ch16-002
   shared-resources:
   - gof-ch18-001
   shrieking-shack:
@@ -15245,6 +15371,8 @@ by_tag:
   - ps-ch10-004
   sight:
   - poa-ch06-003
+  signatures:
+  - ootp-ch16-006
   signed-note:
   - ps-ch12-004
   sir-cadogan:
@@ -15615,6 +15743,8 @@ by_tag:
   - ootp-ch09-006
   - poa-ch01-004
   - poa-ch04-006
+  student-led-instruction:
+  - ootp-ch16-004
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -15634,6 +15764,7 @@ by_tag:
   - gof-ch19-001
   - gof-ch27-002
   - gof-ch27-006
+  - ootp-ch16-001
   - poa-ch05-006
   - poa-ch08-003
   - poa-ch10-005
@@ -15642,6 +15773,9 @@ by_tag:
   student-notes:
   - gof-ch29-002
   - ootp-ch12-003
+  student-organizing:
+  - ootp-ch16-003
+  - ootp-ch16-006
   student-pets:
   - gof-ch11-002
   - poa-ch04-005
@@ -15670,6 +15804,8 @@ by_tag:
   - ps-ch16-002
   student-registry:
   - ps-ch04-006
+  student-reputation:
+  - ootp-ch16-005
   student-research:
   - gof-ch20-001
   - gof-ch26-002
@@ -15740,6 +15876,8 @@ by_tag:
   - ootp-ch15-002
   students:
   - ootp-ch09-003
+  study-groups:
+  - ootp-ch16-003
   study-schedules:
   - ps-ch14-001
   stunning-spell:
@@ -15909,6 +16047,7 @@ by_tag:
   - ps-ch15-003
   three-broomsticks:
   - gof-ch19-001
+  - ootp-ch16-002
   three-headed-dog:
   - ps-ch09-007
   - ps-ch11-007
@@ -16065,6 +16204,7 @@ by_tag:
   - gof-ch35-003
   - gof-ch37-005
   - gof-ch37-007
+  - ootp-ch16-005
   triwizard-winnings:
   - gof-ch37-001
   triwizard-year:
@@ -16094,6 +16234,9 @@ by_tag:
   - gof-ch37-004
   two-champions:
   - gof-ch17-002
+  umbridge:
+  - ootp-ch16-003
+  - ootp-ch16-004
   underage-magic:
   - cos-ch01-005
   - cos-ch02-005
@@ -16156,6 +16299,8 @@ by_tag:
   - gof-ch07-004
   unused-classroom:
   - ps-ch12-006
+  unused-classrooms:
+  - ootp-ch16-006
   vacation:
   - poa-ch03-004
   valentines-day:
@@ -16228,6 +16373,7 @@ by_tag:
   - ps-ch02-005
   voldemort-return:
   - ootp-ch01-001
+  - ootp-ch16-004
   wages:
   - gof-ch16-006
   - gof-ch19-002
@@ -16329,6 +16475,8 @@ by_tag:
   winged-boar-gates:
   - gof-ch12-001
   - poa-ch05-005
+  winged-boars:
+  - ootp-ch16-001
   winged-horses:
   - gof-ch15-007
   - gof-ch16-005

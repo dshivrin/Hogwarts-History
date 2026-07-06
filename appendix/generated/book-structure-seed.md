@@ -261,6 +261,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dueling Club Carryover
   - Unforgivable Curse Instruction and Resistance
 
+## Curriculum and Instruction
+
+- Defense Against the Dark Arts
+  - Student-Led Practical Defense in the Umbridge Year
+
 ## Curriculum, Study, and Practical Magic
 
 - Charms Instruction and Independent Practice
@@ -898,6 +903,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Restricted Magic and Banned Items
   - Love-Potion Ban and Press-Fueled Accusations
 
+## Rules, Governance, and Discipline
+
+- Student Permissions and Informal Study
+  - Legal Study Groups and Out-of-Bounds Limits
+
 ## School Governance and Rules
 
 - Common-Room Notices and Prefect Enforcement
@@ -910,6 +920,21 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Staff Biographies and Institutional Memory
   - Hagrid, Giant Ancestry, and Dumbledore's Patronage
+
+## Student Life and School Customs
+
+- Hogsmeade Weekends and Student Privileges
+  - Permission Lists and Castle Departure Checks
+
+## Student Organizations and Informal Governance
+
+- Secret Study Groups
+  - Membership Lists, Meeting Frequency, and Venue Search
+
+## Students, Reputation, and Wartime Memory
+
+- Harry Potter as Student Witness
+  - Peer Transmission of Defensive Feats
 
 ## The Castle and Its Grounds
 
@@ -1004,6 +1029,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Practical Preparation from Published Sources
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
+
+## The Wider Grounds and Hogsmeade
+
+- Hogsmeade Village
+  - The Hog's Head Inn
 
 ## Wars, Crises, and School Memory
 
