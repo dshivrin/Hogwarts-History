@@ -1,6 +1,11 @@
 version: 1
-updated: '2026-07-05'
+updated: '2026-07-06'
 tags:
+  academic-assessment:
+    entries:
+    - ootp-ch15-002
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   academic-merit:
     entries:
     - cos-ch04-004
@@ -792,8 +797,10 @@ tags:
   bowtruckles:
     entries:
     - ootp-ch13-004
+    - ootp-ch15-006
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   brazilian-school:
     entries:
     - gof-ch07-003
@@ -930,6 +937,7 @@ tags:
     - ootp-ch11-002
     - ootp-ch11-005
     - ootp-ch13-004
+    - ootp-ch15-006
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -962,6 +970,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -991,6 +1000,11 @@ tags:
     - gof-ch16-005
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  cassandra-trelawney:
+    entries:
+    - ootp-ch15-003
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   castle:
     entries:
     - cos-ch01-001
@@ -1404,9 +1418,11 @@ tags:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
   classroom-discipline:
     entries:
+    - ootp-ch15-005
     - ps-ch08-007
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   classroom-disruption:
     entries:
     - cos-ch13-003
@@ -1652,6 +1668,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  counterjinxes:
+    entries:
+    - ootp-ch15-004
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   course-books:
     entries:
     - cos-ch04-001
@@ -2078,6 +2099,8 @@ tags:
     - ootp-ch12-006
     - ootp-ch13-005
     - ootp-ch14-007
+    - ootp-ch15-004
+    - ootp-ch15-007
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2138,6 +2161,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   defensive-magic:
     entries:
     - poa-ch19-003
@@ -2146,8 +2170,10 @@ tags:
   defensive-magical-theory:
     entries:
     - ootp-ch12-006
+    - ootp-ch15-004
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   deflating-draught:
     entries:
     - cos-ch11-002
@@ -2277,6 +2303,7 @@ tags:
     - ootp-ch09-006
     - ootp-ch12-007
     - ootp-ch13-006
+    - ootp-ch15-004
     - poa-ch09-005
     - poa-ch13-004
     - poa-ch14-002
@@ -2296,6 +2323,7 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   devil's-snare:
     entries:
     - ps-ch16-005
@@ -2398,6 +2426,7 @@ tags:
     - gof-ch21-005
     - gof-ch29-005
     - ootp-ch12-005
+    - ootp-ch15-003
     - poa-ch04-003
     - poa-ch06-001
     - poa-ch06-003
@@ -2419,6 +2448,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -2459,12 +2489,17 @@ tags:
     - ootp-ch13-006
     - ootp-ch14-006
     - ootp-ch14-007
+    - ootp-ch15-001
+    - ootp-ch15-003
+    - ootp-ch15-004
+    - ootp-ch15-007
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   doors:
     entries:
     - ps-ch08-001
@@ -2626,6 +2661,7 @@ tags:
     - ootp-ch11-006
     - ootp-ch11-007
     - ootp-ch14-006
+    - ootp-ch15-003
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2717,6 +2753,7 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2733,6 +2770,11 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  dumbledores-army:
+    entries:
+    - ootp-ch15-007
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -2818,6 +2860,11 @@ tags:
     - ootp-ch04-006
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  educational-decrees:
+    entries:
+    - ootp-ch15-001
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -3015,6 +3062,11 @@ tags:
     - poa-ch21-001
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  examination-grades:
+    entries:
+    - ootp-ch15-002
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   exams:
     entries:
     - cos-ch04-003
@@ -3212,10 +3264,13 @@ tags:
     - ootp-ch09-005
     - ootp-ch12-002
     - ootp-ch14-005
+    - ootp-ch15-002
+    - ootp-ch15-005
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   fifth-year-booklist:
     entries:
     - ootp-ch09-004
@@ -4313,6 +4368,7 @@ tags:
     - ootp-ch11-002
     - ootp-ch14-002
     - ootp-ch14-007
+    - ootp-ch15-006
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -4377,6 +4433,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -4443,6 +4500,7 @@ tags:
     - gof-ch33-004
     - gof-ch34-001
     - ootp-ch04-007
+    - ootp-ch15-007
     - ps-ch01-003
     - ps-ch01-004
     - ps-ch01-005
@@ -4470,6 +4528,7 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -4817,6 +4876,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  high-inquisitor:
+    entries:
+    - ootp-ch15-001
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   high-table:
     entries:
     - ps-ch12-003
@@ -5480,6 +5544,7 @@ tags:
     - cos-ch18-003
     - gof-ch18-004
     - ootp-ch12-007
+    - ootp-ch15-004
     - poa-ch07-001
     - poa-ch07-007
     - poa-ch09-005
@@ -5511,6 +5576,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   house-rivalry:
     entries:
     - poa-ch15-005
@@ -6310,6 +6376,7 @@ tags:
     - cos-ch18-006
     - gof-ch08-003
     - ootp-ch09-001
+    - ootp-ch15-001
     - poa-ch11-001
     - poa-ch15-001
     output_yaml:
@@ -6320,6 +6387,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   ludo-bagman:
     entries:
     - gof-ch07-001
@@ -6575,6 +6643,7 @@ tags:
     - gof-ch31-006
     - ootp-ch10-007
     - ootp-ch11-001
+    - ootp-ch15-006
     - ps-ch14-002
     - ps-ch15-007
     output_yaml:
@@ -6590,6 +6659,7 @@ tags:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -7131,8 +7201,10 @@ tags:
   ministry-approved-curriculum:
     entries:
     - ootp-ch12-006
+    - ootp-ch15-004
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   ministry-authority:
     entries:
     - poa-ch21-001
@@ -7188,12 +7260,14 @@ tags:
     - ootp-ch13-006
     - ootp-ch14-006
     - ootp-ch14-007
+    - ootp-ch15-001
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -8028,11 +8102,14 @@ tags:
     - ootp-ch12-005
     - ootp-ch13-003
     - ootp-ch14-005
+    - ootp-ch15-002
+    - ootp-ch15-006
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   original-order-phoenix:
     entries:
     - ootp-ch09-007
@@ -8643,6 +8720,7 @@ tags:
     - gof-ch22-005
     - gof-ch35-007
     - ootp-ch12-004
+    - ootp-ch15-002
     - poa-ch07-001
     - poa-ch08-005
     - poa-ch16-003
@@ -8666,6 +8744,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   potions-class:
     entries:
     - gof-ch27-003
@@ -8679,6 +8758,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
+  practical-defense:
+    entries:
+    - ootp-ch15-007
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   practical-examination:
     entries:
     - ootp-ch12-004
@@ -8907,10 +8991,12 @@ tags:
     - gof-ch24-001
     - gof-ch26-003
     - ootp-ch13-004
+    - ootp-ch15-006
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   professor-kettleburn:
     entries:
     - poa-ch05-007
@@ -8957,6 +9043,7 @@ tags:
     - gof-ch35-005
     - gof-ch36-001
     - gof-ch36-004
+    - ootp-ch15-005
     - poa-ch06-004
     - poa-ch12-005
     - poa-ch13-004
@@ -8991,6 +9078,7 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   professor-quirrell:
     entries:
     - gof-ch33-002
@@ -9051,6 +9139,7 @@ tags:
     - gof-ch21-005
     - gof-ch29-005
     - ootp-ch12-005
+    - ootp-ch15-003
     - poa-ch06-003
     - poa-ch06-004
     - poa-ch16-005
@@ -9063,6 +9152,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   professor-umbridge:
     entries:
     - ootp-ch13-005
@@ -9760,6 +9850,7 @@ tags:
     - ootp-ch11-006
     - ootp-ch12-007
     - ootp-ch14-006
+    - ootp-ch15-001
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -9768,6 +9859,7 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -10486,6 +10578,7 @@ tags:
     - gof-ch28-006
     - gof-ch30-004
     - ootp-ch04-005
+    - ootp-ch15-002
     - poa-ch07-001
     - poa-ch08-005
     - ps-ch08-006
@@ -10510,6 +10603,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -10782,6 +10876,11 @@ tags:
     - gof-ch35-006
     output_yaml:
     - sources/book-04/chapter-35-veritaserum.yaml
+  staff-inspections:
+    entries:
+    - ootp-ch15-001
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   staff-memory:
     entries:
     - poa-ch10-006
@@ -10836,8 +10935,10 @@ tags:
   staff-substitution:
     entries:
     - ootp-ch10-006
+    - ootp-ch15-006
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   staff-table:
     entries:
     - gof-ch12-006
@@ -10845,6 +10946,12 @@ tags:
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  staff-tenure:
+    entries:
+    - ootp-ch15-003
+    - ootp-ch15-005
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   staffing:
     entries:
     - cos-ch07-004
@@ -11310,6 +11417,7 @@ tags:
     - ootp-ch02-006
     - ootp-ch03-005
     - ootp-ch13-006
+    - ootp-ch15-006
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -11336,6 +11444,7 @@ tags:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   student-societies:
     entries:
     - ootp-ch13-007
@@ -11359,8 +11468,10 @@ tags:
   student-training:
     entries:
     - gof-ch34-001
+    - ootp-ch15-007
     output_yaml:
     - sources/book-04/chapter-34-priori-incantatem.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   student-transport:
     entries:
     - ootp-ch10-007
@@ -11387,6 +11498,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+  student-workload:
+    entries:
+    - ootp-ch15-002
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   students:
     entries:
     - ootp-ch09-003
@@ -11593,6 +11709,12 @@ tags:
     - gof-ch17-006
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  teacher-inspections:
+    entries:
+    - ootp-ch15-003
+    - ootp-ch15-005
+    output_yaml:
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   teacher-offices:
     entries:
     - ootp-ch13-005
@@ -11932,6 +12054,7 @@ tags:
     - gof-ch15-002
     - ootp-ch13-003
     - ootp-ch14-005
+    - ootp-ch15-005
     - poa-ch04-003
     - poa-ch06-004
     - poa-ch16-003
@@ -11951,6 +12074,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   transfiguration-book:
     entries:
     - cos-ch18-006
@@ -12315,8 +12439,10 @@ tags:
   vanishing-spells:
     entries:
     - ootp-ch13-003
+    - ootp-ch15-005
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   veela:
     entries:
     - gof-ch08-006
@@ -12401,6 +12527,7 @@ tags:
     - gof-ch37-005
     - ootp-ch05-005
     - ootp-ch06-004
+    - ootp-ch15-007
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -12423,6 +12550,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   voldemort-denial:
     entries:
     - ootp-ch12-007

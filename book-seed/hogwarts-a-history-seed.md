@@ -2016,6 +2016,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's tempora
   - Reference type: curriculum_or_subject
   - Notes: The lesson is observed during an unusual staff absence and may not represent the whole course.
 
+#### Section: Substitute inspection and O.W.L. creature syllabus
+
+Summary: The available evidence includes 1 source item, led by: The inspection confirms Grubbly-Plank as a temporary substitute, records Dumbledore's owl-based hiring request, lists fifth-year Care of Magical Creatures O.W.L. topics, and shows Umbridge collecting adverse evidence about Hagrid's teaching.
+
+- **Corroboration:** The inspection confirms Grubbly-Plank as a temporary substitute, records Dumbledore's owl-based hiring request, lists fifth-year Care of Magical Creatures O.W.L. topics, and shows Umbridge collecting adverse evidence about Hagrid's teaching.
+  - Quote: "creatures that most often come up in O.W.L."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1879, `ootp-ch15-006`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch10-006`, `ootp-ch11-002`, `gof-ch24-001`, `gof-ch24-002`. Existing entries record Grubbly-Plank substituting for Hagrid, Hagrid's public appointment controversy, and earlier substitute creature instruction; this entry adds the inspection, Dumbledore's owl request, O.W.L. creature list, and renewed hippogriff-injury questioning.
+  - Notes: Grubbly-Plank's planned syllabus is conditional on Hagrid not returning, so it should not be treated as the full official course for the year.
+
 #### Section: Unicorn Foals and Lifecycle Instruction
 
 Summary: The available evidence includes 1 source item, led by: Hagrid's returned Care of Magical Creatures class continues the unicorn curriculum and gives direct lifecycle details for unicorn foals, horns, coloration, and maturity.
@@ -2266,6 +2278,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: curriculum_or_subject
   - Corroborates: `ootp-ch12-002`, `ootp-ch13-003`, `gof-ch15-002`. Prior entries establish O.W.L. pressure and practical fifth-year preparation; this entry adds weekend homework evidence across Herbology, Transfiguration, and Astronomy.
   - Notes: The passage gives assignment topics and pressure, but not full lesson content or grading standards.
+
+#### Section: O.W.L. grading scale and baseline marking
+
+Summary: The available evidence includes 1 source item, led by: The chapter ties fifth-year classroom marking to O.W.L. standards and supplies a student-side explanation of the O.W.L. grade scale from Outstanding through failing grades.
+
+- **Corroboration:** The chapter ties fifth-year classroom marking to O.W.L. standards and supplies a student-side explanation of the O.W.L. grade scale from Outstanding through failing grades.
+  - Quote: "O for 'Outstanding'"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1867, `ootp-ch15-002`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch15-002`, `ootp-ch13-003`, `ootp-ch14-005`. Existing entries record O.W.L. workload and practical preparation; this entry adds the named grade ladder and Snape's use of O.W.L.-standard marking in Potions.
+  - Notes: The lower grade "T" is reported by George and may be partly teasing, though Harry treats the possibility as plausible.
 
 ### Chapter: Flying Lessons
 
@@ -2604,6 +2628,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Reference type: curriculum_or_subject
   - Corroborates: `poa-ch06-005`. Book 3 Chapter Six records McGonagall's Animagus demonstration and rarity context; this entry adds Hermione's homework lookup, the Ministry register fields, the seven-this-century count, and the unregistered Marauders exception.
   - Notes: The chapter does not identify the register's formal title or say whether Hogwarts reports student Animagus attempts to the Ministry.
+
+### Chapter: Transfiguration and Advanced Spellwork
+
+#### Section: Fifth-year Vanishing Spells under inspection
+
+Summary: The available evidence includes 1 source item, led by: McGonagall's inspection supplies both staff-tenure evidence and fifth-year Transfiguration curriculum detail, showing Vanishing Spell progression from snails to mice under observation by the High Inquisitor.
+
+- **Corroboration:** McGonagall's inspection supplies both staff-tenure evidence and fifth-year Transfiguration curriculum detail, showing Vanishing Spell progression from snails to mice under observation by the High Inquisitor.
+  - Quote: "Thirty-nine years this December"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1877, `ootp-ch15-005`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch13-003`, `ootp-ch11-006`. ootp-ch13-003 records the start of fifth-year Vanishing Spell work, and ootp-ch11-006 records the Ministry intervention agenda; this entry adds mouse Vanishing practice, McGonagall's thirty-nine-year tenure, and a live inspection exchange.
+  - Notes: The staff-tenure statement is precise for Harry's fifth year but does not identify McGonagall's first role or any interruptions in service.
 
 ### Chapter: Wands, Equipment, and Magical Materials
 
@@ -6289,6 +6327,30 @@ Summary: The available evidence includes 1 source item, led by: Sirius's risky f
   - Corroborates: `ootp-ch12-006`, `gof-ch36-005`, `gof-ch10-004`, `poa-ch22-003`. Prior entries record Umbridge's theory course, Fudge's governance threat, part-human policy, and Lupin's resignation; this entry adds Sirius's Ministry-insider explanation and common-room fire channel.
   - Notes: Sirius reports Order/Ministry information secondhand, and his judgments about Umbridge and Sirius's own risk-taking should be treated as contextual rather than official.
 
+#### Section: Student-led practical defense after curriculum failure
+
+Summary: The available evidence includes 1 source item, led by: The common-room discussion is the first clear proposal for student-led practical Defense instruction in response to Umbridge's curriculum, identifying Harry's battlefield experience as a substitute for official classroom teaching.
+
+- **Corroboration:** The common-room discussion is the first clear proposal for student-led practical Defense instruction in response to Umbridge's curriculum, identifying Harry's battlefield experience as a substitute for official classroom teaching.
+  - Quote: "learn Defense Against the Dark Arts ourselves"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1882, `ootp-ch15-007`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `cos-ch11-003`, `gof-ch34-001`, `ootp-ch12-006`. cos-ch11-003 records the earlier authorized Dueling Club, gof-ch34-001 records Harry's practical carryover from that instruction, and ootp-ch12-006 records Umbridge's theory-only curriculum; this entry adds the student-led proposal that responds to the Ministry course.
+  - Notes: The organization is still only proposed in this chapter; later chapters are needed for membership, meeting-place, and practice details.
+
+#### Section: Theory-only lessons, dissent, and discipline
+
+Summary: The available evidence includes 1 source item, led by: The Defense lesson corroborates Umbridge's Ministry-approved pedagogy by showing wands-away reading, rejection of student critique, point loss for argument, comparison with previous teachers, and renewed punitive detentions.
+
+- **Corroboration:** The Defense lesson corroborates Umbridge's Ministry-approved pedagogy by showing wands-away reading, rejection of student critique, point loss for argument, comparison with previous teachers, and renewed punitive detentions.
+  - Quote: "Ministry-approved method"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1873, `ootp-ch15-004`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch12-006`, `ootp-ch12-007`, `ootp-ch13-006`. ootp-ch12-006 records the first theory-centered lesson, ootp-ch12-007 records Ministry denial and discipline, and ootp-ch13-006 records the blood-quill detention; this entry adds Slinkhard counterjinxes, explicit student disagreement, and another detention escalation.
+  - Notes: The lesson is part of Umbridge's exceptional Ministry-era regime rather than a stable Defense Against the Dark Arts curriculum.
+
 #### Section: Umbridge's theory-centered curriculum
 
 Summary: The available evidence includes 1 source item, led by: Umbridge replaces practical Defense Against the Dark Arts work with a theory-centered, Ministry-approved course using Wilbert Slinkhard's Defensive Magical Theory and course aims focused on principles, legal recognition, and context.
@@ -6515,6 +6577,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
+
+#### Section: Educational Decrees and the High Inquisitor
+
+Summary: The available evidence includes 1 source item, led by: The Prophet report gives the formal public account of Ministry legislation that placed Umbridge on the teaching staff and created the High Inquisitor role with authority to inspect other Hogwarts teachers.
+
+- **Corroboration:** The Prophet report gives the formal public account of Ministry legislation that placed Umbridge on the teaching staff and created the High Inquisitor role with authority to inspect other Hogwarts teachers.
+  - Quote: "Educational Decree Twenty-three"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1864, `ootp-ch15-001`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch36-005`, `ootp-ch11-006`, `ootp-ch12-006`, `ootp-ch14-006`. gof-ch36-005 records Fudge's earlier governance threat, ootp-ch11-006 records Umbridge's coded policy speech, ootp-ch12-006 records the classroom curriculum effect, and ootp-ch14-006 records prefect-level pressure; this entry adds the named decrees and High Inquisitor inspection office.
+  - Notes: The account is filtered through the Daily Prophet and Percy Weasley, so hostile framing and Ministry spin should be separated from the formal decree facts.
 
 #### Section: Ministry denial, classroom discipline, and staff constraints
 
@@ -6769,6 +6843,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter intr
   - Classification: later_editorial_note | Confidence: high
   - Reference type: cross_reference_candidate
   - Notes: The chapter does not state who manufactures Omnioculars, whether they are allowed at Hogwarts matches, or how the tactical labels are generated.
+
+### Chapter: Staff, Subjects, and Ministry Inspection
+
+#### Section: Divination inspection and teacher credentials
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's Divination inspection shows the High Inquisitor's method in practice: prior notice, classroom observation, student-adjacent questioning, staff-tenure review, appointment review, and a demand for demonstrable subject expertise.
+
+- **Corroboration:** Umbridge's Divination inspection shows the High Inquisitor's method in practice: prior notice, classroom observation, student-adjacent questioning, staff-tenure review, appointment review, and a demand for demonstrable subject expertise.
+  - Quote: "Nearly sixteen years"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, PDF p. 1870, `ootp-ch15-003`, `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch12-005`, `ootp-ch11-006`. ootp-ch12-005 records the fifth-year dream-interpretation unit and course text, while ootp-ch11-006 records Umbridge's intervention agenda; this entry adds the formal inspection encounter and Trelawney's tenure/ancestry questions.
+  - Notes: The passage shows one hostile inspection rather than a neutral schoolwide evaluation standard.
 
 ### Chapter: Student Inventions and Magical Misconduct
 

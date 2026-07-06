@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Fifteen - The Hogwarts High Inquisitor
-- Page range: 1864-1886
+- Chapter: Chapter Sixteen - In the Hog’s Head
+- Page range: 1887-1905
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml`
+- Output YAML: `sources/book-05/chapter-16-in-the-hog-s-head.yaml`
 
 ## Minimal Context
 

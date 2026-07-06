@@ -32,6 +32,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Care of Magical Creatures and Grounds-Based Teaching
   - Experimental Breeding, Safety, and Oversight
   - Substitute Instruction and Unicorn Handling
+  - Substitute inspection and O.W.L. creature syllabus
   - Unicorn Foals and Lifecycle Instruction
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
@@ -73,6 +74,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Fifth-year O.W.L. practical preparation
   - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
   - Fifth-year weekend workload across subjects
+  - O.W.L. grading scale and baseline marking
 - Exams and Assessment
   - Education Continuity During Crisis
   - Head Boy, Student Achievement, and Alumni Paths
@@ -126,6 +128,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Time-Turner Authorization for Overlapping Lessons
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
+- Transfiguration and Advanced Spellwork
+  - Fifth-year Vanishing Spells under inspection
 - Wands, Equipment, and Magical Materials
   - Champion wand materials and condition tests
 
@@ -343,6 +347,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
 - Defense Against the Dark Arts Under Ministry Oversight
   - Combat suppression and fireplace intelligence
+  - Student-led practical defense after curriculum failure
+  - Theory-only lessons, dissent, and discipline
   - Umbridge's theory-centered curriculum
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
@@ -367,6 +373,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
+  - Educational Decrees and the High Inquisitor
   - Ministry denial, classroom discipline, and staff constraints
   - Ministry pressure on Dumbledore's allies
   - Ministry pressure on prefect loyalty
@@ -406,6 +413,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Daily Prophet Coverage of the World Cup Crisis
 - Quidditch Beyond Hogwarts
   - Spectator Devices and Tactical Literacy
+- Staff, Subjects, and Ministry Inspection
+  - Divination inspection and teacher credentials
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms

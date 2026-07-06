@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-05'
+updated: '2026-07-06'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -10297,7 +10297,121 @@ by_entry:
     - sirius-black
     source_unit: ootp-ch14
     output_yaml: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  ootp-ch15-001:
+    title: 'Headmasters and School Authority: Educational Decrees and the High Inquisitor'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - educational-decrees
+    - high-inquisitor
+    - lucius-malfoy
+    - ministry-intervention
+    - school-governance
+    - staff-inspections
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch15-002:
+    title: 'Examinations and Academic Progression: O.W.L. grading scale and baseline
+      marking'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - academic-assessment
+    - examination-grades
+    - fifth-year
+    - ordinary-wizarding-levels
+    - potions
+    - snape
+    - student-workload
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch15-003:
+    title: 'Staff, Subjects, and Ministry Inspection: Divination inspection and teacher
+      credentials'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - cassandra-trelawney
+    - divination
+    - dolores-umbridge
+    - dumbledore
+    - professor-trelawney
+    - staff-tenure
+    - teacher-inspections
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch15-004:
+    title: 'Defense Against the Dark Arts Under Ministry Oversight: Theory-only lessons,
+      dissent, and discipline'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - counterjinxes
+    - defense-against-the-dark-arts
+    - defensive-magical-theory
+    - detention
+    - dolores-umbridge
+    - house-points
+    - ministry-approved-curriculum
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch15-005:
+    title: 'Transfiguration and Advanced Spellwork: Fifth-year Vanishing Spells under
+      inspection'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - classroom-discipline
+    - fifth-year
+    - professor-mcgonagall
+    - staff-tenure
+    - teacher-inspections
+    - transfiguration
+    - vanishing-spells
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch15-006:
+    title: 'Care of Magical Creatures and Grounds-Based Teaching: Substitute inspection
+      and O.W.L. creature syllabus'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - bowtruckles
+    - care-of-magical-creatures
+    - hagrid
+    - magical-creatures
+    - ordinary-wizarding-levels
+    - professor-grubbly-plank
+    - staff-substitution
+    - student-safety
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  ootp-ch15-007:
+    title: 'Defense Against the Dark Arts Under Ministry Oversight: Student-led practical
+      defense after curriculum failure'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - dolores-umbridge
+    - dumbledores-army
+    - harry-potter
+    - practical-defense
+    - student-training
+    - voldemort
+    source_unit: ootp-ch15
+    output_yaml: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
 by_tag:
+  academic-assessment:
+  - ootp-ch15-002
   academic-merit:
   - cos-ch04-004
   academic-overload:
@@ -10661,6 +10775,7 @@ by_tag:
   - gof-ch29-001
   bowtruckles:
   - ootp-ch13-004
+  - ootp-ch15-006
   brazilian-school:
   - gof-ch07-003
   brick-entrance:
@@ -10729,6 +10844,7 @@ by_tag:
   - ootp-ch11-002
   - ootp-ch11-005
   - ootp-ch13-004
+  - ootp-ch15-006
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -10752,6 +10868,8 @@ by_tag:
   - poa-ch07-005
   carriage:
   - gof-ch16-005
+  cassandra-trelawney:
+  - ootp-ch15-003
   castle:
   - cos-ch01-001
   - cos-ch09-003
@@ -10949,6 +11067,7 @@ by_tag:
   classroom-assessment:
   - cos-ch06-006
   classroom-discipline:
+  - ootp-ch15-005
   - ps-ch08-007
   classroom-disruption:
   - cos-ch13-003
@@ -11058,6 +11177,8 @@ by_tag:
   countercurse:
   - ps-ch13-003
   - ps-ch17-001
+  counterjinxes:
+  - ootp-ch15-004
   course-books:
   - cos-ch04-001
   - cos-ch04-002
@@ -11268,6 +11389,8 @@ by_tag:
   - ootp-ch12-006
   - ootp-ch13-005
   - ootp-ch14-007
+  - ootp-ch15-004
+  - ootp-ch15-007
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -11293,6 +11416,7 @@ by_tag:
   - poa-ch19-003
   defensive-magical-theory:
   - ootp-ch12-006
+  - ootp-ch15-004
   deflating-draught:
   - cos-ch11-002
   deletrius:
@@ -11359,6 +11483,7 @@ by_tag:
   - ootp-ch09-006
   - ootp-ch12-007
   - ootp-ch13-006
+  - ootp-ch15-004
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -11415,6 +11540,7 @@ by_tag:
   - gof-ch21-005
   - gof-ch29-005
   - ootp-ch12-005
+  - ootp-ch15-003
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -11446,6 +11572,10 @@ by_tag:
   - ootp-ch13-006
   - ootp-ch14-006
   - ootp-ch14-007
+  - ootp-ch15-001
+  - ootp-ch15-003
+  - ootp-ch15-004
+  - ootp-ch15-007
   doors:
   - ps-ch08-001
   dormitories:
@@ -11548,6 +11678,7 @@ by_tag:
   - ootp-ch11-006
   - ootp-ch11-007
   - ootp-ch14-006
+  - ootp-ch15-003
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -11590,6 +11721,8 @@ by_tag:
   - gof-ch30-001
   - gof-ch30-002
   - ootp-ch11-004
+  dumbledores-army:
+  - ootp-ch15-007
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -11633,6 +11766,8 @@ by_tag:
   - poa-ch03-004
   eavesdropping:
   - ootp-ch04-006
+  educational-decrees:
+  - ootp-ch15-001
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -11716,6 +11851,8 @@ by_tag:
   - gof-ch09-002
   evidence:
   - poa-ch21-001
+  examination-grades:
+  - ootp-ch15-002
   exams:
   - cos-ch04-003
   - cos-ch04-004
@@ -11808,6 +11945,8 @@ by_tag:
   - ootp-ch09-005
   - ootp-ch12-002
   - ootp-ch14-005
+  - ootp-ch15-002
+  - ootp-ch15-005
   fifth-year-booklist:
   - ootp-ch09-004
   fifth-year-curriculum:
@@ -12336,6 +12475,7 @@ by_tag:
   - ootp-ch11-002
   - ootp-ch14-002
   - ootp-ch14-007
+  - ootp-ch15-006
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -12396,6 +12536,7 @@ by_tag:
   - gof-ch33-004
   - gof-ch34-001
   - ootp-ch04-007
+  - ootp-ch15-007
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -12568,6 +12709,8 @@ by_tag:
   hidden-voice:
   - cos-ch07-006
   - cos-ch08-006
+  high-inquisitor:
+  - ootp-ch15-001
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -12886,6 +13029,7 @@ by_tag:
   - cos-ch18-003
   - gof-ch18-004
   - ootp-ch12-007
+  - ootp-ch15-004
   - poa-ch07-001
   - poa-ch07-007
   - poa-ch09-005
@@ -13259,6 +13403,7 @@ by_tag:
   - cos-ch18-006
   - gof-ch08-003
   - ootp-ch09-001
+  - ootp-ch15-001
   - poa-ch11-001
   - poa-ch15-001
   ludo-bagman:
@@ -13388,6 +13533,7 @@ by_tag:
   - gof-ch31-006
   - ootp-ch10-007
   - ootp-ch11-001
+  - ootp-ch15-006
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -13633,6 +13779,7 @@ by_tag:
   - poa-ch03-005
   ministry-approved-curriculum:
   - ootp-ch12-006
+  - ootp-ch15-004
   ministry-authority:
   - poa-ch21-001
   ministry-authorization:
@@ -13659,6 +13806,7 @@ by_tag:
   - ootp-ch13-006
   - ootp-ch14-006
   - ootp-ch14-007
+  - ootp-ch15-001
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -14046,6 +14194,8 @@ by_tag:
   - ootp-ch12-005
   - ootp-ch13-003
   - ootp-ch14-005
+  - ootp-ch15-002
+  - ootp-ch15-006
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -14328,6 +14478,7 @@ by_tag:
   - gof-ch22-005
   - gof-ch35-007
   - ootp-ch12-004
+  - ootp-ch15-002
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -14341,6 +14492,8 @@ by_tag:
   potter-family:
   - gof-ch14-004
   - gof-ch34-004
+  practical-defense:
+  - ootp-ch15-007
   practical-examination:
   - ootp-ch12-004
   practical-exams:
@@ -14451,6 +14604,7 @@ by_tag:
   - gof-ch24-001
   - gof-ch26-003
   - ootp-ch13-004
+  - ootp-ch15-006
   professor-kettleburn:
   - poa-ch05-007
   professor-lockhart:
@@ -14478,6 +14632,7 @@ by_tag:
   - gof-ch35-005
   - gof-ch36-001
   - gof-ch36-004
+  - ootp-ch15-005
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -14527,6 +14682,7 @@ by_tag:
   - gof-ch21-005
   - gof-ch29-005
   - ootp-ch12-005
+  - ootp-ch15-003
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -14846,6 +15002,7 @@ by_tag:
   - ootp-ch11-006
   - ootp-ch12-007
   - ootp-ch14-006
+  - ootp-ch15-001
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -15178,6 +15335,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch30-004
   - ootp-ch04-005
+  - ootp-ch15-002
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -15303,6 +15461,8 @@ by_tag:
   - ps-ch01-005
   staff-impersonation:
   - gof-ch35-006
+  staff-inspections:
+  - ootp-ch15-001
   staff-memory:
   - poa-ch10-006
   staff-offices:
@@ -15326,9 +15486,13 @@ by_tag:
   - poa-ch09-002
   staff-substitution:
   - ootp-ch10-006
+  - ootp-ch15-006
   staff-table:
   - gof-ch12-006
   - ootp-ch11-002
+  staff-tenure:
+  - ootp-ch15-003
+  - ootp-ch15-005
   staffing:
   - cos-ch07-004
   - gof-ch36-005
@@ -15542,6 +15706,7 @@ by_tag:
   - ootp-ch02-006
   - ootp-ch03-005
   - ootp-ch13-006
+  - ootp-ch15-006
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -15558,6 +15723,7 @@ by_tag:
   - cos-ch11-005
   student-training:
   - gof-ch34-001
+  - ootp-ch15-007
   student-transport:
   - ootp-ch10-007
   - ootp-ch11-001
@@ -15570,6 +15736,8 @@ by_tag:
   student-trunks:
   - cos-ch03-005
   - gof-ch04-001
+  student-workload:
+  - ootp-ch15-002
   students:
   - ootp-ch09-003
   study-schedules:
@@ -15658,6 +15826,9 @@ by_tag:
   - cos-ch16-004
   teacher-help:
   - gof-ch17-006
+  teacher-inspections:
+  - ootp-ch15-003
+  - ootp-ch15-005
   teacher-offices:
   - ootp-ch13-005
   teacher-permission:
@@ -15807,6 +15978,7 @@ by_tag:
   - gof-ch15-002
   - ootp-ch13-003
   - ootp-ch14-005
+  - ootp-ch15-005
   - poa-ch04-003
   - poa-ch06-004
   - poa-ch16-003
@@ -15993,6 +16165,7 @@ by_tag:
   - ps-ch05-004
   vanishing-spells:
   - ootp-ch13-003
+  - ootp-ch15-005
   veela:
   - gof-ch08-006
   veela-hair:
@@ -16042,6 +16215,7 @@ by_tag:
   - gof-ch37-005
   - ootp-ch05-005
   - ootp-ch06-004
+  - ootp-ch15-007
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
