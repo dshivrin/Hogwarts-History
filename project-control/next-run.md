@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Seventeen - Educational Decree Number Twenty-Four
-- Page range: 1906-1928
+- Chapter: Chapter Eighteen - Dumbledore's Army
+- Page range: 1929-1951
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+- Output YAML: `sources/book-05/chapter-18-dumbledore-s-army.yaml`
 
 ## Minimal Context
 

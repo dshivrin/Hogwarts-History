@@ -440,6 +440,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter loca
   - Reference type: magical_architecture
   - Notes: The password shown is Harry-era and prejudicial; it should not be treated as a stable historical Slytherin password.
 
+#### Section: Founders' dormitory rule and staircase enforcement
+
+Summary: The available evidence includes 1 source item, led by: Hermione explicitly cites Hogwarts: A History for the founders' gendered dormitory rule, while the staircase enchantment physically enforces the ban on boys entering the girls' dormitories.
+
+- **Corroboration:** Hermione explicitly cites Hogwarts: A History for the founders' gendered dormitory rule, while the staircase enchantment physically enforces the ban on boys entering the girls' dormitories.
+  - Quote: "it says in Hogwarts: A History"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1909, `ootp-ch17-002`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_hogwarts_a_history
+  - Corroborates: `cos-ch05-006`. cos-ch05-006 records Gryffindor Tower password and dormitory access evidence; this entry adds an explicit Hogwarts: A History citation and a sex-based staircase enchantment.
+  - Notes: Hermione reports the book's explanation from memory, and the passage only shows the Gryffindor girls' dormitory staircase directly.
+
 #### Section: Password Access and Fireplace Communication
 
 Summary: The available evidence includes 1 source item, led by: The Gryffindor common-room fireplace can carry an outside magical conversation into Hogwarts, creating both access and Ministry-security implications.
@@ -451,6 +463,20 @@ Summary: The available evidence includes 1 source item, led by: The Gryffindor c
   - Reference type: magical_architecture
   - Corroborates: `gof-ch17-007`, `poa-ch08-004`. gof-ch17-007 and poa-ch08-004 cover Fat Lady/password access and portrait behavior; this entry adds the common-room fire as a covert communication route with Ministry implications.
   - Notes: The passage does not name the fireplace magic mechanism or specify whether the fire is normally monitored.
+
+### Chapter: Castle Navigation and Concealed Routes
+
+#### Section: Marauders-era meeting places and blocked passages
+
+Summary: The available evidence includes 1 source item, led by: Sirius's advice preserves Marauders-era evidence for student use of the Shrieking Shack and a roomy secret passage behind a fourth-floor mirror, while Harry reports that the passage has become blocked.
+
+- **Corroboration:** Sirius's advice preserves Marauders-era evidence for student use of the Shrieking Shack and a roomy secret passage behind a fourth-floor mirror, while Harry reports that the passage has become blocked.
+  - Quote: "There used to be a pretty roomy secret passageway"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1927, `ootp-ch17-007`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `poa-ch18-005`, `poa-ch19-001`. poa-ch18-005 records the Marauders' Animagus-era movements with Lupin, and poa-ch19-001 records the Willow-Shack passage on the map; this entry adds a separate fourth-floor mirror passage and notes that it was blocked by Harry's fifth year.
+  - Notes: Sirius speaks from memory, and the fourth-floor passage is not directly observed in this chapter.
 
 ### Chapter: Castle-Wide Magical Environment
 
@@ -6578,6 +6604,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
 
+#### Section: Educational Decree Number Twenty-four and student organizations
+
+Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-four disbands all student organizations, defines them as regular meetings of three or more students, requires High Inquisitor approval to reform, and threatens expulsion for unauthorized membership.
+
+- **Corroboration:** Educational Decree Number Twenty-four disbands all student organizations, defines them as regular meetings of three or more students, requires High Inquisitor approval to reform, and threatens expulsion for unauthorized membership.
+  - Quote: "All Student Organizations, Societies, Teams, Groups, and Clubs are henceforth disbanded."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1907, `ootp-ch17-001`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch15-001`. ootp-ch15-001 records the creation of the High Inquisitor office and inspection authority; this entry adds the later decree disbanding student organizations and setting an expulsion penalty.
+  - Notes: The decree is an exceptional Harry-era Ministry intervention and should not be generalized as ordinary Hogwarts club policy.
+
 #### Section: Educational Decrees and the High Inquisitor
 
 Summary: The available evidence includes 1 source item, led by: The Prophet report gives the formal public account of Ministry legislation that placed Umbridge on the teaching staff and created the High Inquisitor role with authority to inspect other Hogwarts teachers.
@@ -6804,6 +6842,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `cos-ch05-002`. Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
   - Notes: The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
 
+### Chapter: Protective Magic and Security
+
+#### Section: Watched communications under the High Inquisitor
+
+Summary: The available evidence includes 1 source item, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
+
+- **Corroboration:** McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
+  - Quote: "channels of communication in and out of Hogwarts may be being watched"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1915, `ootp-ch17-003`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch19-007`. gof-ch19-007 records the common-room fire as an outside communication route with Ministry-security implications; this entry adds explicit watched-channel warning, suspected owl interception, and Umbridge's direct monitoring attempt.
+  - Notes: The chapter does not prove who injured Hedwig; Umbridge's surveillance role becomes clearer from the fireplace incident and later context.
+
 ### Chapter: Public Records and Wizarding Press
 
 #### Section: The Quibbler as Unreliable Alternative Press
@@ -6844,6 +6896,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter intr
   - Reference type: cross_reference_candidate
   - Notes: The chapter does not state who manufactures Omnioculars, whether they are allowed at Hogwarts matches, or how the tactical labels are generated.
 
+### Chapter: Quidditch and School Recreation
+
+#### Section: High Inquisitor control of House teams
+
+Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-four subjects House Quidditch teams to High Inquisitor approval, allowing Slytherin to continue immediately while Gryffindor practice is withheld pending Umbridge's decision.
+
+- **Corroboration:** Educational Decree Number Twenty-four subjects House Quidditch teams to High Inquisitor approval, allowing Slytherin to continue immediately while Gryffindor practice is withheld pending Umbridge's decision.
+  - Quote: "We have to go and ask permission to re-form the Gryffindor team!"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1911, `ootp-ch17-004`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch07-002`. cos-ch07-002 records earlier House-team practice booking and staff permission; this entry adds High Inquisitor reapproval, differential Slytherin/Gryffindor treatment, and decree-based control.
+  - Notes: The evidence shows immediate implementation in one week, not the full season-long administrative outcome.
+
 ### Chapter: Staff, Subjects, and Ministry Inspection
 
 #### Section: Divination inspection and teacher credentials
@@ -6857,6 +6923,30 @@ Summary: The available evidence includes 1 source item, led by: Umbridge's Divin
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch12-005`, `ootp-ch11-006`. ootp-ch12-005 records the fifth-year dream-interpretation unit and course text, while ootp-ch11-006 records Umbridge's intervention agenda; this entry adds the formal inspection encounter and Trelawney's tenure/ancestry questions.
   - Notes: The passage shows one hostile inspection rather than a neutral schoolwide evaluation standard.
+
+#### Section: Inspection consequences and probation
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows a concrete inspection consequence when Trelawney is apparently placed on probation, and it continues the same Ministry-approved Defense curriculum through wandless reading from Defensive Magical Theory.
+
+- **Corroboration:** The chapter shows a concrete inspection consequence when Trelawney is apparently placed on probation, and it continues the same Ministry-approved Defense curriculum through wandless reading from Defensive Magical Theory.
+  - Quote: "sixteen years' devoted service"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1921, `ootp-ch17-006`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch15-003`, `ootp-ch15-004`, `ootp-ch12-006`. ootp-ch15-003 records Trelawney's Divination inspection, ootp-ch15-004 records a prior theory-only Defense lesson, and ootp-ch12-006 records the initial Ministry-approved course; this entry adds the apparent probation consequence and another named Defense chapter.
+  - Notes: Harry infers the probation from Trelawney's comments; the formal written inspection result is not shown.
+
+#### Section: Potions inspection and teacher background review
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's Potions inspection applies High Inquisitor review to subject content, teacher tenure, career history, and Dumbledore's staffing decisions, including Snape's repeated unsuccessful applications for Defense Against the Dark Arts.
+
+- **Corroboration:** Umbridge's Potions inspection applies High Inquisitor review to subject content, teacher tenure, career history, and Dumbledore's staffing decisions, including Snape's repeated unsuccessful applications for Defense Against the Dark Arts.
+  - Quote: "the Ministry wants a thorough understanding of teachers' backgrounds"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, PDF p. 1918, `ootp-ch17-005`, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch15-001`. ootp-ch15-001 records the general High Inquisitor inspection office; this entry adds the Potions-specific inspection, Strengthening Solution syllabus objection, and questions about Snape's Defense applications.
+  - Notes: The scene reflects Umbridge's hostile inspection style and may not represent ordinary Ministry or Hogwarts academic review.
 
 ### Chapter: Student Inventions and Magical Misconduct
 

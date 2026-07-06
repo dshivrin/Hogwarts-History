@@ -378,6 +378,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
+  - Educational Decree Number Twenty-four and student organizations
   - Educational Decrees and the High Inquisitor
   - Ministry denial, classroom discipline, and staff constraints
   - Ministry pressure on Dumbledore's allies
@@ -412,14 +413,20 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Public Opinion Inside Student Dormitories
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Protective Magic and Security
+  - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
 - Public Records and Wizarding Press Sources
   - Daily Prophet Coverage of the World Cup Crisis
 - Quidditch Beyond Hogwarts
   - Spectator Devices and Tactical Literacy
+- Quidditch and School Recreation
+  - High Inquisitor control of House teams
 - Staff, Subjects, and Ministry Inspection
   - Divination inspection and teacher credentials
+  - Inspection consequences and probation
+  - Potions inspection and teacher background review
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
@@ -520,6 +527,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Magical Architecture and Enchantments
 
+- Castle Navigation and Concealed Routes
+  - Marauders-era meeting places and blocked passages
 - Castle Navigation, Maps, and Concealed Routes
   - Tapestry Shortcuts and Trick Steps
   - The Honeydukes Passage
@@ -542,6 +551,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Passworded Gargoyle and Moving Staircase
   - The Pensieve and stored memories
 - House Common Rooms and Dormitories
+  - Founders' dormitory rule and staircase enforcement
   - Gryffindor Tower Access
   - Password Access and Fireplace Communication
   - Slytherin Dungeon Entrance and Common Room

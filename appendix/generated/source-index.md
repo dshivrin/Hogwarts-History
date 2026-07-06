@@ -116,3 +116,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch14`: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, pages 1838-1863, 7 entries, 0 explicit references.
 - `ootp-ch15`: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, pages 1864-1886, 7 entries, 0 explicit references.
 - `ootp-ch16`: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, pages 1887-1905, 6 entries, 0 explicit references.
+- `ootp-ch17`: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, pages 1906-1928, 7 entries, 1 explicit references.

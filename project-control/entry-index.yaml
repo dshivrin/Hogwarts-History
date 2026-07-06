@@ -10502,6 +10502,116 @@ by_entry:
     - unused-classrooms
     source_unit: ootp-ch16
     output_yaml: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  ootp-ch17-001:
+    title: 'Headmasters and School Authority: Educational Decree Number Twenty-four
+      and student organizations'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - clubs
+    - educational-decrees
+    - expulsion
+    - high-inquisitor
+    - school-governance
+    - student-organizations
+    - teams
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch17-002:
+    title: 'House Common Rooms and Dormitories: Founders'' dormitory rule and staircase
+      enforcement'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_hogwarts_a_history
+    confidence: high
+    tags:
+    - common-room
+    - dormitories
+    - founders
+    - gendered-rules
+    - gryffindor-tower
+    - hogwarts-a-history
+    - magical-architecture
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch17-003:
+    title: 'Protective Magic and Security: Watched communications under the High Inquisitor'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - common-room
+    - communication-security
+    - dolores-umbridge
+    - floo-network
+    - gryffindor-tower
+    - owl-post
+    - school-security
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch17-004:
+    title: 'Quidditch and School Recreation: High Inquisitor control of House teams'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - educational-decrees
+    - gryffindor
+    - high-inquisitor
+    - house-teams
+    - practice-permission
+    - quidditch
+    - slytherin
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch17-005:
+    title: 'Staff, Subjects, and Ministry Inspection: Potions inspection and teacher
+      background review'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - ministry-intervention
+    - potions
+    - severus-snape
+    - staff-tenure
+    - strengthening-solution
+    - teacher-inspections
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch17-006:
+    title: 'Staff, Subjects, and Ministry Inspection: Inspection consequences and
+      probation'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - defensive-magical-theory
+    - divination
+    - ministry-approved-curriculum
+    - probation
+    - professor-trelawney
+    - teacher-inspections
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch17-007:
+    title: 'Castle Navigation and Concealed Routes: Marauders-era meeting places and
+      blocked passages'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - animagi
+    - castle-navigation
+    - fourth-floor
+    - marauders
+    - mirror
+    - secret-passages
+    - shrieking-shack
+    source_unit: ootp-ch17
+    output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -10599,6 +10709,7 @@ by_tag:
   - poa-ch12-007
   - poa-ch16-001
   animagi:
+  - ootp-ch17-007
   - poa-ch06-004
   - poa-ch17-005
   - poa-ch18-001
@@ -11001,6 +11112,7 @@ by_tag:
   - gof-ch21-006
   - gof-ch25-001
   - gof-ch25-005
+  - ootp-ch17-007
   - poa-ch06-002
   - poa-ch10-004
   - ps-ch08-001
@@ -11180,6 +11292,8 @@ by_tag:
   - gof-ch09-003
   - ootp-ch13-002
   - ootp-ch14-001
+  clubs:
+  - ootp-ch17-001
   clue:
   - gof-ch20-007
   - gof-ch21-001
@@ -11212,6 +11326,8 @@ by_tag:
   - ootp-ch13-001
   - ootp-ch13-002
   - ootp-ch14-001
+  - ootp-ch17-002
+  - ootp-ch17-003
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -11220,6 +11336,8 @@ by_tag:
   - cos-ch15-002
   common-room-security:
   - poa-ch13-007
+  communication-security:
+  - ootp-ch17-003
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -11492,6 +11610,8 @@ by_tag:
   - ootp-ch16-004
   - ootp-ch16-005
   - ootp-ch16-006
+  - ootp-ch17-005
+  - ootp-ch17-006
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -11518,6 +11638,7 @@ by_tag:
   defensive-magical-theory:
   - ootp-ch12-006
   - ootp-ch15-004
+  - ootp-ch17-006
   deflating-draught:
   - cos-ch11-002
   deletrius:
@@ -11642,6 +11763,7 @@ by_tag:
   - gof-ch29-005
   - ootp-ch12-005
   - ootp-ch15-003
+  - ootp-ch17-006
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -11677,11 +11799,13 @@ by_tag:
   - ootp-ch15-003
   - ootp-ch15-004
   - ootp-ch15-007
+  - ootp-ch17-003
   doors:
   - ps-ch08-001
   dormitories:
   - cos-ch05-006
   - gof-ch12-004
+  - ootp-ch17-002
   - poa-ch04-005
   - ps-ch10-003
   draco-malfoy:
@@ -11871,6 +11995,8 @@ by_tag:
   - ootp-ch04-006
   educational-decrees:
   - ootp-ch15-001
+  - ootp-ch17-001
+  - ootp-ch17-004
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -11991,6 +12117,7 @@ by_tag:
   - ootp-ch01-003
   - ootp-ch02-002
   - ootp-ch08-007
+  - ootp-ch17-001
   - poa-ch02-003
   - poa-ch03-001
   - ps-ch04-007
@@ -12153,6 +12280,7 @@ by_tag:
   floo-network:
   - gof-ch04-004
   - ootp-ch03-003
+  - ootp-ch17-003
   floo-powder:
   - gof-ch04-004
   floo-regulation-panel:
@@ -12229,6 +12357,7 @@ by_tag:
   - cos-ch09-003
   - gof-ch12-002
   - ootp-ch11-003
+  - ootp-ch17-002
   founders-rift:
   - cos-ch09-004
   founding:
@@ -12246,6 +12375,8 @@ by_tag:
   - gof-ch31-005
   fourth-champion:
   - gof-ch17-001
+  fourth-floor:
+  - ootp-ch17-007
   fourth-school:
   - gof-ch17-005
   fourth-year:
@@ -12290,6 +12421,8 @@ by_tag:
   - ps-ch04-001
   gargoyle:
   - cos-ch13-006
+  gendered-rules:
+  - ootp-ch17-002
   genealogy:
   - ootp-ch06-003
   ghost-customs:
@@ -12484,6 +12617,7 @@ by_tag:
   - ootp-ch12-001
   - ootp-ch13-001
   - ootp-ch13-007
+  - ootp-ch17-004
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -12522,6 +12656,8 @@ by_tag:
   - gof-ch23-001
   - ootp-ch13-002
   - ootp-ch14-001
+  - ootp-ch17-002
+  - ootp-ch17-003
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -12818,6 +12954,8 @@ by_tag:
   - cos-ch08-006
   high-inquisitor:
   - ootp-ch15-001
+  - ootp-ch17-001
+  - ootp-ch17-004
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -12891,6 +13029,7 @@ by_tag:
   - gof-ch11-005
   - gof-ch15-003
   - gof-ch28-003
+  - ootp-ch17-002
   - poa-ch09-001
   hogwarts-alumni:
   - ootp-ch09-007
@@ -13189,6 +13328,7 @@ by_tag:
   - gof-ch05-005
   - gof-ch06-004
   - ootp-ch13-007
+  - ootp-ch17-004
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
@@ -13609,6 +13749,7 @@ by_tag:
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
+  - ootp-ch17-002
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -13790,6 +13931,7 @@ by_tag:
   - ootp-ch14-001
   marauders:
   - ootp-ch09-006
+  - ootp-ch17-007
   - poa-ch18-005
   marauders-map:
   - gof-ch04-002
@@ -13895,6 +14037,7 @@ by_tag:
   ministry-approved-curriculum:
   - ootp-ch12-006
   - ootp-ch15-004
+  - ootp-ch17-006
   ministry-authority:
   - poa-ch21-001
   ministry-authorization:
@@ -13922,6 +14065,7 @@ by_tag:
   - ootp-ch14-006
   - ootp-ch14-007
   - ootp-ch15-001
+  - ootp-ch17-005
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -14003,6 +14147,8 @@ by_tag:
   ministry-warning:
   - cos-ch03-001
   - poa-ch02-003
+  mirror:
+  - ootp-ch17-007
   mirror-of-erised:
   - ps-ch12-006
   - ps-ch17-002
@@ -14336,6 +14482,7 @@ by_tag:
   - gof-ch15-001
   - gof-ch18-001
   - gof-ch27-002
+  - ootp-ch17-003
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -14597,6 +14744,7 @@ by_tag:
   - gof-ch35-007
   - ootp-ch12-004
   - ootp-ch15-002
+  - ootp-ch17-005
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -14633,6 +14781,8 @@ by_tag:
   practical-magic:
   - ootp-ch12-006
   - ootp-ch16-005
+  practice-permission:
+  - ootp-ch17-004
   practice-schedule:
   - poa-ch08-002
   practice-sessions:
@@ -14698,6 +14848,8 @@ by_tag:
   - poa-ch02-002
   - poa-ch02-003
   - ps-ch03-003
+  probation:
+  - ootp-ch17-006
   procession:
   - gof-ch23-002
   professor-binns:
@@ -14803,6 +14955,7 @@ by_tag:
   - gof-ch29-005
   - ootp-ch12-005
   - ootp-ch15-003
+  - ootp-ch17-006
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -14879,6 +15032,7 @@ by_tag:
   - gof-ch30-005
   - ootp-ch13-007
   - ootp-ch14-004
+  - ootp-ch17-004
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -15124,6 +15278,7 @@ by_tag:
   - ootp-ch12-007
   - ootp-ch14-006
   - ootp-ch15-001
+  - ootp-ch17-001
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -15217,6 +15372,7 @@ by_tag:
   - gof-ch24-004
   - gof-ch25-007
   - gof-ch37-006
+  - ootp-ch17-003
   school-spectators:
   - gof-ch35-001
   school-status:
@@ -15297,6 +15453,7 @@ by_tag:
   secret-keeper:
   - ootp-ch06-007
   secret-passages:
+  - ootp-ch17-007
   - poa-ch05-002
   - poa-ch09-001
   - poa-ch10-003
@@ -15350,12 +15507,14 @@ by_tag:
   seven-year-education:
   - ps-ch04-006
   severus-snape:
+  - ootp-ch17-005
   - poa-ch18-007
   shady-patrons:
   - ootp-ch16-002
   shared-resources:
   - gof-ch18-001
   shrieking-shack:
+  - ootp-ch17-007
   - poa-ch05-002
   - poa-ch14-005
   - poa-ch17-002
@@ -15430,6 +15589,7 @@ by_tag:
   - cos-ch07-002
   - cos-ch18-004
   - gof-ch15-004
+  - ootp-ch17-004
   - poa-ch12-004
   - poa-ch15-005
   - ps-ch05-006
@@ -15621,6 +15781,7 @@ by_tag:
   staff-tenure:
   - ootp-ch15-003
   - ootp-ch15-005
+  - ootp-ch17-005
   staffing:
   - cos-ch07-004
   - gof-ch36-005
@@ -15681,6 +15842,8 @@ by_tag:
   - ps-ch05-001
   stopping-knot:
   - poa-ch21-005
+  strengthening-solution:
+  - ootp-ch17-005
   student-accommodation:
   - poa-ch18-003
   student-achievement:
@@ -15773,6 +15936,8 @@ by_tag:
   student-notes:
   - gof-ch29-002
   - ootp-ch12-003
+  student-organizations:
+  - ootp-ch17-001
   student-organizing:
   - ootp-ch16-003
   - ootp-ch16-006
@@ -15967,6 +16132,8 @@ by_tag:
   teacher-inspections:
   - ootp-ch15-003
   - ootp-ch15-005
+  - ootp-ch17-005
+  - ootp-ch17-006
   teacher-offices:
   - ootp-ch13-005
   teacher-permission:
@@ -15988,6 +16155,8 @@ by_tag:
   - ps-ch13-002
   team-tryouts:
   - ootp-ch13-007
+  teams:
+  - ootp-ch17-001
   telephone-box:
   - ootp-ch07-002
   term-boundaries:
