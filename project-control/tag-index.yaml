@@ -99,6 +99,7 @@ tags:
     entries:
     - cos-ch10-002
     - ootp-ch08-003
+    - ootp-ch19-002
     - poa-ch08-005
     - poa-ch12-002
     - poa-ch21-006
@@ -108,6 +109,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   advanced-potions:
     entries:
     - cos-ch12-004
@@ -741,8 +743,10 @@ tags:
   bludgers:
     entries:
     - cos-ch07-001
+    - ootp-ch19-005
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   boats:
     entries:
     - ps-ch06-007
@@ -853,6 +857,11 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+  broomstick-confiscation:
+    entries:
+    - ootp-ch19-006
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   broomstick-maintenance:
     entries:
     - poa-ch02-004
@@ -1894,9 +1903,11 @@ tags:
     entries:
     - ootp-ch16-004
     - ootp-ch18-007
+    - ootp-ch19-001
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   cross-house-classes:
     entries:
     - gof-ch13-001
@@ -2571,6 +2582,7 @@ tags:
     - ootp-ch17-003
     - ootp-ch18-001
     - ootp-ch18-002
+    - ootp-ch19-001
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
@@ -2580,6 +2592,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   doors:
     entries:
     - ps-ch08-001
@@ -2861,9 +2874,12 @@ tags:
     entries:
     - ootp-ch15-007
     - ootp-ch18-007
+    - ootp-ch19-001
+    - ootp-ch19-002
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -2955,10 +2971,12 @@ tags:
     - ootp-ch17-001
     - ootp-ch17-004
     - ootp-ch18-002
+    - ootp-ch19-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -3874,6 +3892,11 @@ tags:
     - poa-ch18-002
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  galleons:
+    entries:
+    - ootp-ch19-002
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   gambling:
     entries:
     - gof-ch37-007
@@ -4040,6 +4063,11 @@ tags:
     - gof-ch07-004
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  goblin-made-currency:
+    entries:
+    - ootp-ch19-002
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   goblin-rebellion:
     entries:
     - poa-ch05-002
@@ -4127,6 +4155,8 @@ tags:
     - gof-ch22-003
     - gof-ch23-002
     - gof-ch37-003
+    - ootp-ch19-001
+    - ootp-ch19-004
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -4165,6 +4195,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -4728,12 +4759,14 @@ tags:
     - gof-ch18-002
     - gof-ch36-002
     - ootp-ch09-006
+    - ootp-ch19-005
     - poa-ch08-003
     output_yaml:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   headless-hunt:
     entries:
     - cos-ch08-001
@@ -4843,6 +4876,7 @@ tags:
     - cos-ch14-003
     - cos-ch16-005
     - gof-ch13-006
+    - ootp-ch19-003
     - ps-ch08-006
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
@@ -4850,6 +4884,7 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   hedwig:
     entries:
     - cos-ch01-003
@@ -5018,10 +5053,12 @@ tags:
     - ootp-ch17-001
     - ootp-ch17-004
     - ootp-ch18-002
+    - ootp-ch19-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   high-table:
     entries:
     - ps-ch12-003
@@ -5521,6 +5558,7 @@ tags:
     - gof-ch36-001
     - gof-ch37-006
     - ootp-ch14-004
+    - ootp-ch19-003
     - poa-ch09-007
     - poa-ch15-005
     - poa-ch22-001
@@ -5543,6 +5581,7 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   host-school:
     entries:
     - gof-ch17-002
@@ -5592,9 +5631,11 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
   house-colors:
     entries:
+    - ootp-ch19-004
     - poa-ch15-006
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   house-common-rooms:
     entries:
     - cos-ch12-005
@@ -5806,6 +5847,7 @@ tags:
     - ootp-ch13-007
     - ootp-ch17-004
     - ootp-ch18-002
+    - ootp-ch19-003
     - poa-ch01-007
     - poa-ch08-002
     - ps-ch09-003
@@ -5819,6 +5861,7 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   howler:
     entries:
     - ootp-ch02-006
@@ -5880,6 +5923,11 @@ tags:
     - gof-ch29-004
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+  impediment-jinx:
+    entries:
+    - ootp-ch19-005
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   imperius-curse:
     entries:
     - gof-ch14-003
@@ -6321,6 +6369,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
   lee-jordan:
     entries:
+    - ootp-ch19-004
     - poa-ch13-002
     - poa-ch13-003
     - poa-ch15-006
@@ -6328,6 +6377,7 @@ tags:
     output_yaml:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   leg-locker-curse:
     entries:
     - ps-ch13-003
@@ -6494,6 +6544,7 @@ tags:
   locker-rooms:
     entries:
     - cos-ch10-003
+    - ootp-ch19-004
     - poa-ch08-002
     - poa-ch15-006
     - ps-ch13-005
@@ -6502,6 +6553,7 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   lockhart:
     entries:
     - cos-ch07-004
@@ -6644,6 +6696,8 @@ tags:
     entries:
     - cos-ch10-003
     - cos-ch10-004
+    - ootp-ch19-004
+    - ootp-ch19-005
     - poa-ch09-006
     - poa-ch11-007
     - poa-ch13-001
@@ -6660,6 +6714,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   madam-pince:
     entries:
     - cos-ch10-001
@@ -7209,9 +7264,11 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
   match-governance:
     entries:
+    - ootp-ch19-005
     - poa-ch09-006
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   match-sabotage:
     entries:
     - poa-ch13-004
@@ -7228,6 +7285,7 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
   matchday:
     entries:
+    - ootp-ch19-004
     - poa-ch13-003
     - poa-ch15-006
     - ps-ch11-004
@@ -7235,6 +7293,7 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   material-culture:
     entries:
     - ootp-ch05-002
@@ -8022,6 +8081,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+  newt-standard:
+    entries:
+    - ootp-ch19-002
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   newts:
     entries:
     - poa-ch16-001
@@ -8731,6 +8795,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+  pitch-booking:
+    entries:
+    - ootp-ch19-003
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   planetary-divination:
     entries:
     - gof-ch29-005
@@ -9267,6 +9336,7 @@ tags:
     - gof-ch36-004
     - ootp-ch15-005
     - ootp-ch18-002
+    - ootp-ch19-003
     - poa-ch06-004
     - poa-ch12-005
     - poa-ch13-004
@@ -9303,6 +9373,7 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   professor-quirrell:
     entries:
     - gof-ch33-002
@@ -9322,6 +9393,7 @@ tags:
     - gof-ch36-001
     - gof-ch36-006
     - ootp-ch12-004
+    - ootp-ch19-003
     - poa-ch09-005
     - poa-ch10-001
     - poa-ch14-006
@@ -9344,6 +9416,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   professor-sprout:
     entries:
     - gof-ch18-002
@@ -9407,6 +9480,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  protean-charm:
+    entries:
+    - ootp-ch19-002
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   protective-magic:
     entries:
     - gof-ch33-004
@@ -9473,6 +9551,11 @@ tags:
     - cos-ch08-002
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  punishments:
+    entries:
+    - ootp-ch19-006
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   pure-blood-families:
     entries:
     - ootp-ch06-006
@@ -9539,6 +9622,8 @@ tags:
     - ootp-ch14-004
     - ootp-ch17-004
     - ootp-ch18-002
+    - ootp-ch19-004
+    - ootp-ch19-005
     - poa-ch01-007
     - poa-ch02-004
     - poa-ch08-002
@@ -9575,6 +9660,12 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  quidditch-ban:
+    entries:
+    - ootp-ch19-006
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   quidditch-books:
     entries:
     - gof-ch02-002
@@ -9582,6 +9673,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
   quidditch-cup:
     entries:
+    - ootp-ch19-003
     - poa-ch08-002
     - poa-ch09-006
     - poa-ch12-004
@@ -9592,6 +9684,7 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   quidditch-field:
     entries:
     - gof-ch28-004
@@ -9644,6 +9737,11 @@ tags:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  quidditch-practices:
+    entries:
+    - ootp-ch19-001
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   quidditch-rules:
     entries:
     - cos-ch07-001
@@ -10088,6 +10186,7 @@ tags:
     - ootp-ch15-001
     - ootp-ch17-001
     - ootp-ch18-002
+    - ootp-ch19-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -10099,6 +10198,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -10452,6 +10552,7 @@ tags:
     - gof-ch19-004
     - gof-ch21-007
     - ootp-ch16-006
+    - ootp-ch19-001
     - ps-ch13-006
     - ps-ch14-003
     - ps-ch15-003
@@ -10462,6 +10563,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   secrecy-sensor:
     entries:
     - gof-ch20-003
@@ -11404,6 +11506,11 @@ tags:
     - ootp-ch05-003
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  student-communication:
+    entries:
+    - ootp-ch19-002
+    output_yaml:
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   student-conduct:
     entries:
     - gof-ch22-001
@@ -11448,6 +11555,8 @@ tags:
     - ootp-ch07-001
     - ootp-ch07-007
     - ootp-ch08-004
+    - ootp-ch19-005
+    - ootp-ch19-006
     - poa-ch19-002
     - poa-ch19-003
     - ps-ch13-003
@@ -11459,6 +11568,7 @@ tags:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -11591,8 +11701,10 @@ tags:
   student-organizations:
     entries:
     - ootp-ch17-001
+    - ootp-ch19-001
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   student-organizing:
     entries:
     - ootp-ch16-003

@@ -383,6 +383,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
+  - Educational Decree Number Twenty-five and disciplinary supremacy
   - Educational Decree Number Twenty-four and student organizations
   - Educational Decrees and the High Inquisitor
   - Ministry denial, classroom discipline, and staff constraints
@@ -432,9 +433,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Divination inspection and teacher credentials
   - Inspection consequences and probation
   - Potions inspection and teacher background review
+- Student Communication and Concealment
+  - Enchanted Galleons and the Protean Charm
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
+- Student Organizations and Secret Societies
+  - Dumbledore's Army meeting logistics
 - Student Welfare and Crisis Response
   - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Chamber of Secrets Crisis
@@ -762,6 +767,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Jinx Inspection and Tampered Brooms
 - House Quidditch Matches
   - Balls, Positions, Scoring, and Match Endings
+  - Match-day procedure and House support
   - Matchday Organization and Officiating
   - Matchday Procedure and House Support
   - Matchday Procedure and In-Play Tactics
@@ -772,6 +778,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Quidditch Teams
   - Brooms and Player Equipment
   - Brooms, Positions, and Wider Wizarding Sport
+  - Cup revival, practice access, and Head-of-House partisanship
   - First-Year Restrictions and Exceptions
   - House Rivalry and Player Protection
   - Hufflepuff Captain and Seeker
@@ -895,6 +902,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
   - Prohibited Punishments, Detentions, and Head-of-House Referral
+- Student Discipline and Staff Authority
+  - Quidditch misconduct and Head-of-House referral
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
   - Crisis Visitor Restrictions

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Nineteen - The Lion and the Serpent
-- Page range: 1952-1973
+- Chapter: Chapter Twenty - Hagrid's Tale
+- Page range: 1974-1993
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+- Output YAML: `sources/book-05/chapter-20-hagrid-s-tale.yaml`
 
 ## Minimal Context
 

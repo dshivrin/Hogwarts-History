@@ -1345,3 +1345,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1929-1951.
+- source_unit_id: ootp-ch19
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 19
+  chapter_title: Chapter Nineteen - The Lion and the Serpent
+  page_start: 1952
+  page_end: 1973
+  output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  processed_at: '2026-07-07'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 1952-1973.
