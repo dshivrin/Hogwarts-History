@@ -726,6 +726,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter lin
   - Corroborates: `cos-ch17-004`. Book 2 Chapter Seventeen records Riddle's claim that he is a Parselmouth and Slytherin heir; this entry later corroborates Voldemort's snake communication with Nagini.
   - Notes: Frank does not know the word Parseltongue, and the scene does not mention Slytherin or Hogwarts directly.
 
+#### Section: Borderline Sorting decisions
+
+Summary: The available evidence includes 1 source item, led by: Hermione's recollection confirms that the Sorting Hat can weigh more than one House seriously before making a final assignment.
+
+- **Corroboration:** Hermione's recollection confirms that the Sorting Hat can weigh more than one House seriously before making a final assignment.
+  - Quote: "it decided on Gryffindor in the end"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1953, `ootp-ch19-002`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `ps-ch06-005`, `gof-ch12-003`. ps-ch06-005 records pre-Sorting House expectations and gof-ch12-003 records annual Sorting procedure; this entry adds Hermione's later testimony about a specific near-Ravenclaw decision.
+  - Notes: Hermione reports her own Sorting from memory; the chapter does not show the original Hat deliberation directly.
+
 #### Section: House loyalty during the Triwizard Tournament
 
 Summary: The available evidence includes 1 source item, led by: The chapter shows House loyalty shaping student and staff responses to the Triwizard selection, with Cedric's champion status treated as rare Hufflepuff glory.
@@ -3598,20 +3610,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Corroborates: `cos-ch02-005`, `poa-ch02-003`. cos-ch02-005 records the official Ministry warning and poa-ch02-003 records Harry's earlier application of the rule; this entry adds Dudley's lay understanding of the same expulsion threat before an emergency.
   - Notes: Dudley's statement is not an official source and may simplify the relationship between Ministry law and Hogwarts discipline.
 
-### Chapter: Student Discipline and Staff Authority
-
-#### Section: Quidditch misconduct and Head-of-House referral
-
-Summary: The available evidence includes 1 source item, led by: Madam Hooch exercises match authority after play ends by addressing an illegal Bludger strike, stopping a student fight with the Impediment Jinx, and routing serious misconduct to the students' Head of House.
-
-- **Corroboration:** Madam Hooch exercises match authority after play ends by addressing an illegal Bludger strike, stopping a student fight with the Impediment Jinx, and routing serious misconduct to the students' Head of House.
-  - Quote: "straight to your Head of House's office"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1966, `ootp-ch19-005`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
-  - Classification: harry_era_confirmation | Confidence: high
-  - Reference type: school_rule_or_policy
-  - Corroborates: `poa-ch15-007`. poa-ch15-007 records dense Quidditch officiating and foul handling; this entry adds post-whistle misconduct, Hooch's use of Impedimenta to stop a fight, and referral to the Head of House.
-  - Notes: The exact formal penalty for Crabbe's late Bludger is reported indirectly later as lines, while the main scene follows the Gryffindor fight.
-
 ### Chapter: Student Health and the Hospital Wing
 
 #### Section: Crisis Recovery and Headmaster Discretion
@@ -3700,6 +3698,18 @@ Summary: The available evidence includes 1 source item, led by: The scene shows 
   - Reference type: school_rule_or_policy
   - Corroborates: `ps-ch12-002`. Chapter Twelve seeded fighting as a rule breach; this entry adds curse-based misconduct and peer advice to report it to McGonagall.
   - Notes: Neville chooses not to report the incident, so the passage does not show the actual penalty or formal reporting procedure.
+
+#### Section: House rivalry, jinx reports, and staff bias
+
+Summary: The available evidence includes 1 source item, led by: Pre-match House rivalry spills into corridor and library hexing, with a Head of House refusing reports from multiple eyewitnesses.
+
+- **Corroboration:** Pre-match House rivalry spills into corridor and library hexing, with a Head of House refusing reports from multiple eyewitnesses.
+  - Quote: "hit her from behind with a jinx"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1955, `ootp-ch19-004`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ps-ch13-003`, `poa-ch15-005`. ps-ch13-003 records student curse reporting near the library and poa-ch15-005 records Quidditch rivalry spilling into safety concerns; this entry adds a Harry-era report ignored by Snape despite many witnesses.
+  - Notes: The account is filtered through Gryffindor perspective and does not show Snape's private reasoning.
 
 ### Chapter: Student Offices, Awards, and Records
 
@@ -4943,18 +4953,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter cont
   - Corroborates: `poa-ch01-007`. Book 3 Chapter One already restates Harry's Hogwarts House-team status and broom equipment; this entry corroborates that role and updates the broom reference to the Firebolt while adding World Cup context.
   - Notes: The passage is retrospective and focused on Harry; it does not describe ordinary team selection, school match rules, or Firebolt regulation.
 
-#### Section: Cup revival, practice access, and Head-of-House partisanship
-
-Summary: The available evidence includes 1 source item, led by: The return of the House Quidditch Cup creates schoolwide interest and prompts visible Head-of-House partisanship, including homework relief, pitch-booking pressure, and disputed handling of pre-match corridor and library jinxes.
-
-- **Corroboration:** The return of the House Quidditch Cup creates schoolwide interest and prompts visible Head-of-House partisanship, including homework relief, pitch-booking pressure, and disputed handling of pre-match corridor and library jinxes.
-  - Quote: "the Quidditch Cup had not been held for so long"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1954, `ootp-ch19-003`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: institutional_custom
-  - Corroborates: `poa-ch12-004`, `cos-ch07-002`. poa-ch12-004 records Cup standings shaping practice frequency, and cos-ch07-002 records practice booking conflict; this entry adds the post-Triwizard Cup revival, Head-of-House homework relief, Snape's pitch booking, and alleged jinx discipline.
-  - Notes: The partisan staff behavior occurs in a highly charged Gryffindor-Slytherin match week and should not be generalized to all House matches.
-
 #### Section: House Rivalry and Player Protection
 
 Summary: The available evidence includes 1 source item, led by: The chapter records the social and safety consequences of a high-stakes House Quidditch final, including inter-House scuffles, injury, informal escorting, and player-equipment protection.
@@ -4990,6 +4988,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: institutional_custom
   - Corroborates: `cos-ch07-001`. Book 2 Chapter Seven already records Quidditch positions and scoring; this entry adds captain-led season planning, locker-room setting, Cup urgency, and three-evening practices.
   - Notes: Wood's comments are Gryffindor-specific and emotionally shaped by his final school year, so the practice schedule should not be generalized to every House team without corroboration.
+
+#### Section: Season resumption, practices, and House-head rivalry
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms the Quidditch Cup has resumed after a long gap, shows House heads' investment in the result, and records pitch-booking friction before Gryffindor versus Slytherin.
+
+- **Corroboration:** The chapter confirms the Quidditch Cup has resumed after a long gap, shows House heads' investment in the result, and records pitch-booking friction before Gryffindor versus Slytherin.
+  - Quote: "the first Quidditch match of the season"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1954, `ootp-ch19-003`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch12-004`, `ootp-ch17-004`, `ootp-ch18-002`. poa-ch12-004 records normal Cup-driven practices, while ootp-ch17-004 and ootp-ch18-002 record High Inquisitor control and Gryffindor reapproval; this entry adds the resumed first match and staff rivalry around it.
+  - Notes: The "so long" gap is relative to the canceled previous year's Cup and should not be generalized beyond this period.
 
 #### Section: Training Supervision and Broom Expertise
 
@@ -5029,18 +5039,6 @@ Summary: The available evidence includes 1 source item, led by: Harry gives Coli
   - Corroborates: `ps-ch11-005`. Chapter Eleven seeded Quidditch balls, positions, fouls, penalties, and scoring during an actual match; this entry corroborates the same rules through Harry's explanation to a new first-year observer.
   - Notes: Harry is explaining informally and does not cover full Quidditch rules, fouls, substitutions, or school scheduling.
 
-#### Section: Match-day procedure and House support
-
-Summary: The available evidence includes 1 source item, led by: Match day follows a recognizable school routine of House-colored breakfast support, team changing-room preparation, captain lineup review, spectator stands, student commentary, McGonagall supervision, and Madam Hooch's formal kickoff.
-
-- **Corroboration:** Match day follows a recognizable school routine of House-colored breakfast support, team changing-room preparation, captain lineup review, spectator stands, student commentary, McGonagall supervision, and Madam Hooch's formal kickoff.
-  - Quote: "Captains shake hands"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1957, `ootp-ch19-004`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
-  - Classification: harry_era_confirmation | Confidence: high
-  - Reference type: institutional_custom
-  - Corroborates: `poa-ch15-006`, `poa-ch13-003`. poa-ch15-006 and poa-ch13-003 already record match-day procedure, Hooch's start, and commentary; this entry adds the OotP-era House-color displays, Luna's enchanted supporter hat, Slytherin badges, and Angelina's lineup briefing.
-  - Notes: The Slytherin badges and anti-Ron song are match-specific intimidation, not a neutral recurring ceremony.
-
 #### Section: Matchday Procedure and House Support
 
 Summary: The available evidence includes 1 source item, led by: The chapter provides a detailed House Quidditch final procedure from Great Hall sendoff through pitch inspection, locker-room robes, House-colored crowd support, commentary, captain handshake, and Hooch's whistle start.
@@ -5076,6 +5074,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter offe
   - Reference type: institutional_custom
   - Corroborates: `poa-ch13-003`. Book 3 Chapter Thirteen records normal matchday procedure and tactics; this entry adds heavy foul enforcement, a stated Keeper-protection rule, repeated penalties, pitch invasion, and the Cup presentation.
   - Notes: The final is unusually violent and emotionally charged, so the number and intensity of penalties should not be generalized as ordinary match flow.
+
+#### Section: Officiating, commentary, and post-match discipline
+
+Summary: The available evidence includes 1 source item, led by: The match corroborates Hogwarts Quidditch procedure and officiating, then shows Hooch using an Impediment Jinx and Head-of-House referral after post-match violence.
+
+- **Corroboration:** The match corroborates Hogwarts Quidditch procedure and officiating, then shows Hooch using an Impediment Jinx and Head-of-House referral after post-match violence.
+  - Quote: "Captains shake hands"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1960, `ootp-ch19-006`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch13-003`, `poa-ch15-007`. poa-ch13-003 and poa-ch15-007 record normal matchday procedure and dense foul enforcement; this entry adds a post-whistle Bludger, Hooch's spell intervention, and referral to the Head of House.
+  - Notes: The chapter does not quote a formal rulebook; rule evidence comes from observed officiating and staff response.
 
 #### Section: Refereeing, Commentary, Fouls, and Scoring
 
@@ -6650,17 +6660,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
 
-#### Section: Educational Decree Number Twenty-five and disciplinary supremacy
+#### Section: Educational Decree Number Twenty-five and punishment authority
 
-Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-five gives the High Inquisitor supreme authority over student punishments, sanctions, and privileges, allowing Umbridge to override Head-of-House discipline with lifetime Quidditch bans and broom confiscation.
+Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-five gives the High Inquisitor authority to alter staff-imposed student punishments and remove privileges; Umbridge immediately uses it to ban Harry, George, and Fred from Quidditch and confiscate brooms.
 
-- **Corroboration:** Educational Decree Number Twenty-five gives the High Inquisitor supreme authority over student punishments, sanctions, and privileges, allowing Umbridge to override Head-of-House discipline with lifetime Quidditch bans and broom confiscation.
+- **Corroboration:** Educational Decree Number Twenty-five gives the High Inquisitor authority to alter staff-imposed student punishments and remove privileges; Umbridge immediately uses it to ban Harry, George, and Fred from Quidditch and confiscate brooms.
   - Quote: "supreme authority over all punishments, sanctions, and removal of privileges"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1970, `ootp-ch19-006`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1970, `ootp-ch19-007`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
   - Classification: later_editorial_note | Confidence: high
   - Reference type: school_rule_or_policy
-  - Corroborates: `ootp-ch15-001`, `ootp-ch17-004`, `ootp-ch18-002`. ootp-ch15-001 records creation of the High Inquisitor role, ootp-ch17-004 records decree-based control of Quidditch-team approval, and ootp-ch18-002 records Gryffindor's re-formation approval; this entry adds Decree Twenty-five's disciplinary supremacy, lifetime bans, and broom confiscation.
-  - Notes: The decree is an exceptional Ministry-era intervention and should not be mistaken for ordinary Hogwarts punishment policy.
+  - Corroborates: `ootp-ch15-001`, `ootp-ch17-001`, `ootp-ch17-004`, `ootp-ch18-002`. Earlier entries record the High Inquisitor office, student-organization decree, and team reapproval; this entry adds Decree Twenty-five's explicit authority over punishments, sanctions, privileges, and Quidditch bans.
+  - Notes: This is an emergency Ministry intervention during Umbridge's tenure and not ordinary Hogwarts disciplinary governance.
 
 #### Section: Educational Decree Number Twenty-four and student organizations
 
@@ -6910,6 +6920,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
 
 ### Chapter: Protective Magic and Security
 
+#### Section: Covert student communication under the High Inquisitor
+
+Summary: The available evidence includes 1 source item, led by: Hermione's fake Galleons provide a covert cross-House scheduling system for the illegal D.A.; the coins use a Protean Charm, identified by Terry Boot as N.E.W.T.-standard magic.
+
+- **Corroboration:** Hermione's fake Galleons provide a covert cross-House scheduling system for the illegal D.A.; the coins use a Protean Charm, identified by Terry Boot as N.E.W.T.-standard magic.
+  - Quote: "the numbers will change to reflect the time and date"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1952, `ootp-ch19-001`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch17-001`, `ootp-ch17-003`. ootp-ch17-001 records the decree disbanding student organizations and ootp-ch17-003 records watched communications; this entry adds the D.A.'s enchanted-coin workaround.
+  - Notes: The method is student-created and exceptional to the D.A.; it is not an official Hogwarts communication system.
+
 #### Section: Watched communications under the High Inquisitor
 
 Summary: The available evidence includes 2 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
@@ -7022,19 +7044,6 @@ Summary: The available evidence includes 1 source item, led by: Umbridge's Potio
   - Corroborates: `ootp-ch15-001`. ootp-ch15-001 records the general High Inquisitor inspection office; this entry adds the Potions-specific inspection, Strengthening Solution syllabus objection, and questions about Snape's Defense applications.
   - Notes: The scene reflects Umbridge's hostile inspection style and may not represent ordinary Ministry or Hogwarts academic review.
 
-### Chapter: Student Communication and Concealment
-
-#### Section: Enchanted Galleons and the Protean Charm
-
-Summary: The available evidence includes 1 source item, led by: Hermione adapts fake Galleons into a synchronized meeting-notice system using the Protean Charm, while also explaining that real Galleon edge numerals identify the goblin who cast the coin.
-
-- **Context:** Hermione adapts fake Galleons into a synchronized meeting-notice system using the Protean Charm, while also explaining that real Galleon edge numerals identify the goblin who cast the coin.
-  - Quote: "I've put a Protean Charm on them"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1953, `ootp-ch19-002`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: cross_reference_candidate
-  - Notes: The source shows one exceptional student's invention, not an official Hogwarts communication method or normal fifth-year curriculum.
-
 ### Chapter: Student Inventions and Magical Misconduct
 
 #### Section: Weasley Joke Products at Hogwarts
@@ -7068,20 +7077,6 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: cross_reference_candidate
   - Corroborates: `cos-ch02-005`. Book 2 Chapter Two gives the official underage-magic and secrecy-law warning; this entry adds a later Muggle-household incident involving a student-made Engorgement Charm product.
   - Notes: The chapter does not state when or where the charm was performed, nor whether any Ministry or Hogwarts discipline followed.
-
-### Chapter: Student Organizations and Secret Societies
-
-#### Section: Dumbledore's Army meeting logistics
-
-Summary: The available evidence includes 1 source item, led by: The D.A. operates as an unauthorized cross-House student organization whose meeting schedule must account for House Quidditch practices, weather-dependent changes, and the risk of suspicious inter-House communication.
-
-- **Corroboration:** The D.A. operates as an unauthorized cross-House student organization whose meeting schedule must account for House Quidditch practices, weather-dependent changes, and the risk of suspicious inter-House communication.
-  - Quote: "three separate Quidditch teams' practices"
-  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1952, `ootp-ch19-001`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
-  - Classification: later_editorial_note | Confidence: high
-  - Reference type: institutional_custom
-  - Corroborates: `ootp-ch18-007`. ootp-ch18-007 records the D.A.'s formal naming and first practical meeting; this entry adds its continuing schedule, Quidditch conflicts, and cross-House communication constraints.
-  - Notes: The evidence is specific to an unauthorized Harry-era group under Ministry surveillance, not ordinary student-club administration.
 
 ### Chapter: Student Welfare and Crisis Response
 
@@ -8621,6 +8616,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: institutional_custom
   - Corroborates: `poa-ch08-003`. poa-ch08-003 already records Head-of-House collection and Filch door checks for Hogsmeade permission forms; this entry corroborates the system in fifth year and adds the parent-or-guardian list wording plus the gate route.
   - Notes: The passage does not state whether Filch created the list, whether teachers supervised the walk, or how the procedure changed under heightened security.
+
+## Part: Student Life and Traditions
+
+### Chapter: House Rivalry and School Culture
+
+#### Section: Quidditch songs, badges, and supporter magic
+
+Summary: The available evidence includes 1 source item, led by: Students use badges, House colors, an enchanted supporter hat, and a coordinated song to turn a Quidditch match into a broader House-culture event.
+
+- **Corroboration:** Students use badges, House colors, an enchanted supporter hat, and a coordinated song to turn a Quidditch match into a broader House-culture event.
+  - Quote: "silver badges in the shape of what seemed to be crowns"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, PDF p. 1956, `ootp-ch19-005`, `sources/book-05/chapter-19-the-lion-and-the-serpent.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch15-005`, `poa-ch15-006`. poa-ch15-005 and poa-ch15-006 record intense House rivalry and matchday support; this entry adds badges, a coordinated anti-Keeper song, and Luna's enchanted lion hat.
+  - Notes: The Slytherin song is targeted harassment and should not be treated as a neutral school tradition.
 
 ## Part: Student Organizations and Informal Governance
 

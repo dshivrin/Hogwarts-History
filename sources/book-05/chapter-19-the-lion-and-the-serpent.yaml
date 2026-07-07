@@ -18,42 +18,45 @@ entries:
     chapter_end_pdf_page: 1973
     pdf_page: 1952
     printed_page: null
-    extracted_text_lines: 6-31
+    extracted_text_lines: 6-57
     text_anchor:
-      start_phrase: He and the D.A. were resisting her under her very nose
-      end_phrase: people from different Houses were seen crossing the Great Hall
-      local_occurrence_note: The opening summary explains how Harry continues the D.A. after the first Room of Requirement meeting.
-    nearby_context: D.A. meetings continue through Umbridge's classes and must be scheduled around three House Quidditch teams' changing practice times while avoiding visible cross-House consultation.
+      start_phrase: He was finding it almost impossible to fix a regular night
+      end_phrase: How come you're not in Ravenclaw?
+      local_occurrence_note: Harry reviews recent D.A. progress, then Hermione explains the fake Galleons at the end of the fourth meeting.
+    nearby_context: The D.A. avoids predictable meeting times because Quidditch practices shift and because cross-House communication would look suspicious under Umbridge.
     match_terms:
       - D.A.
+      - fake Galleons
+      - Protean Charm
+      - N.E.W.T. standard
       - Umbridge
-      - Quidditch practices
-      - different Houses
-      - Great Hall
+      - cross-House
       - meeting schedule
-    quote_excerpt_short: "three separate Quidditch teams' practices"
-    source_note: The D.A. operates as an unauthorized cross-House student organization whose meeting schedule must account for House Quidditch practices, weather-dependent changes, and the risk of suspicious inter-House communication.
-    reference_type: institutional_custom
+    quote_excerpt_short: "the numbers will change to reflect the time and date"
+    source_note: Hermione's fake Galleons provide a covert cross-House scheduling system for the illegal D.A.; the coins use a Protean Charm, identified by Terry Boot as N.E.W.T.-standard magic.
+    reference_type: security_or_protection
     era_classification: later_editorial_note
     topic_tags:
-      - dumbledores-army
+      - da-meetings
+      - communication-security
+      - protean-charm
+      - fake-galleons
       - student-organizations
-      - cross-house
-      - quidditch-practices
-      - great-hall
-      - secrecy
-      - dolores-umbridge
+      - cross-house-cooperation
+      - defense-against-the-dark-arts
     candidate_part: Later Editorial Notes
-    candidate_chapter: Student Organizations and Secret Societies
-    candidate_section: Dumbledore's Army meeting logistics
-    reason_for_placement: The passage shows how a banned student group functioned inside ordinary Hogwarts timetables and House-based social visibility.
-    relevance_to_hogwarts_a_history: A later edition can use this to explain the practical constraints on clandestine student organization during the High Inquisitor year.
+    candidate_chapter: Protective Magic and Security
+    candidate_section: Covert student communication under the High Inquisitor
+    reason_for_placement: The passage shows students adapting ordinary objects and advanced magic to communicate despite surveillance and restrictions on organized groups.
+    relevance_to_hogwarts_a_history: A later edition can use this as a concrete example of how school resistance operated within Hogwarts spaces during Ministry control.
     duplicate_check:
       possible_duplicate: true
-      duplicate_of: ootp-ch18-007
-      notes: ootp-ch18-007 records the D.A.'s formal naming and first practical meeting; this entry adds its continuing schedule, Quidditch conflicts, and cross-House communication constraints.
+      duplicate_of:
+        - ootp-ch17-001
+        - ootp-ch17-003
+      notes: ootp-ch17-001 records the decree disbanding student organizations and ootp-ch17-003 records watched communications; this entry adds the D.A.'s enchanted-coin workaround.
     confidence: high
-    limitations: The evidence is specific to an unauthorized Harry-era group under Ministry surveillance, not ordinary student-club administration.
+    limitations: The method is student-created and exceptional to the D.A.; it is not an official Hogwarts communication system.
 
   - id: ootp-ch19-002
     source_file: pdfs/harrypotter.pdf
@@ -63,42 +66,44 @@ entries:
     chapter_end_pdf_page: 1973
     pdf_page: 1953
     printed_page: null
-    extracted_text_lines: 30-61
+    extracted_text_lines: 50-61
     text_anchor:
-      start_phrase: She gave each of the members of the D.A. a fake Galleon
-      end_phrase: So does that mean we're using the Galleons?
-      local_occurrence_note: Hermione explains the enchanted coins at the end of the D.A.'s fourth meeting.
-    nearby_context: The coins mimic date changes from Harry's coin, grow hot when updated, and disguise the message mechanism as ordinary pocket money.
+      start_phrase: How come you're not in Ravenclaw?
+      end_phrase: it decided on Gryffindor in the end
+      local_occurrence_note: Terry Boot reacts to Hermione's Protean Charm and asks why she was not sorted into Ravenclaw.
+    nearby_context: Hermione says the Hat seriously considered Ravenclaw during her Sorting before deciding on Gryffindor.
     match_terms:
-      - fake Galleons
-      - serial number
-      - goblin
-      - Protean Charm
-      - N.E.W.T. standard
+      - Sorting Hat
       - Ravenclaw
-    quote_excerpt_short: "I've put a Protean Charm on them"
-    source_note: Hermione adapts fake Galleons into a synchronized meeting-notice system using the Protean Charm, while also explaining that real Galleon edge numerals identify the goblin who cast the coin.
-    reference_type: cross_reference_candidate
-    era_classification: later_editorial_note
+      - Gryffindor
+      - Hermione Granger
+      - Sorting
+      - brains
+    quote_excerpt_short: "it decided on Gryffindor in the end"
+    source_note: Hermione's recollection confirms that the Sorting Hat can weigh more than one House seriously before making a final assignment.
+    reference_type: house_system
+    era_classification: harry_era_confirmation
     topic_tags:
-      - protean-charm
-      - galleons
-      - student-communication
-      - dumbledores-army
-      - newt-standard
-      - goblin-made-currency
-      - advanced-magic
-    candidate_part: Later Editorial Notes
-    candidate_chapter: Student Communication and Concealment
-    candidate_section: Enchanted Galleons and the Protean Charm
-    reason_for_placement: The scene records an advanced charm used by a student to create covert school communication and incidentally documents wizarding coin serial marks.
-    relevance_to_hogwarts_a_history: This can seed a later editorial note on student ingenuity, advanced charms outside class, and covert communication under school surveillance.
+      - sorting-hat
+      - house-system
+      - ravenclaw
+      - gryffindor
+      - hermione-granger
+      - sorting-ceremony
+      - student-identity
+    candidate_part: The Four Houses
+    candidate_chapter: House Identity and Reputation
+    candidate_section: Borderline Sorting decisions
+    reason_for_placement: The passage gives a named student's retrospective evidence that House placement can involve close alternatives rather than a single obvious fit.
+    relevance_to_hogwarts_a_history: This helps explain the Sorting as judgment and choice among traits, not simply a mechanical reading of one dominant quality.
     duplicate_check:
-      possible_duplicate: false
-      duplicate_of: null
-      notes: Duplicate searches for Protean Charm, Galleons, N.E.W.T.-standard magic, and student communication found no prior indexed match.
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch06-005
+        - gof-ch12-003
+      notes: ps-ch06-005 records pre-Sorting House expectations and gof-ch12-003 records annual Sorting procedure; this entry adds Hermione's later testimony about a specific near-Ravenclaw decision.
     confidence: high
-    limitations: The source shows one exceptional student's invention, not an official Hogwarts communication method or normal fifth-year curriculum.
+    limitations: Hermione reports her own Sorting from memory; the chapter does not show the original Hat deliberation directly.
 
   - id: ootp-ch19-003
     source_file: pdfs/harrypotter.pdf
@@ -108,44 +113,46 @@ entries:
     chapter_end_pdf_page: 1973
     pdf_page: 1954
     printed_page: null
-    extracted_text_lines: 78-104
+    extracted_text_lines: 78-105
     text_anchor:
       start_phrase: As the first Quidditch match of the season
-      end_phrase: while she worked in the library
-      local_occurrence_note: The chapter frames Gryffindor versus Slytherin after the Cup's long interruption and before match day.
-    nearby_context: McGonagall withholds homework so Gryffindor players can practice, Snape heavily books the pitch for Slytherin, and an alleged Slytherin jinx sends Alicia to the hospital wing after a library incident.
+      end_phrase: hit her from behind with a jinx while she worked in the library
+      local_occurrence_note: The chapter moves from the first Gryffindor-Slytherin match buildup to Snape's treatment of Slytherin intimidation reports.
+    nearby_context: D.A. meetings pause for near-daily Gryffindor practices; McGonagall and Snape both show House partiality around match preparation and pitch access.
     match_terms:
       - Quidditch Cup
-      - Gryffindor versus Slytherin
+      - Gryffindor
+      - Slytherin
       - Heads of House
-      - homework
-      - pitch booking
-      - hospital wing
-    quote_excerpt_short: "the Quidditch Cup had not been held for so long"
-    source_note: The return of the House Quidditch Cup creates schoolwide interest and prompts visible Head-of-House partisanship, including homework relief, pitch-booking pressure, and disputed handling of pre-match corridor and library jinxes.
+      - Professor McGonagall
+      - Professor Snape
+      - Quidditch pitch
+    quote_excerpt_short: "the first Quidditch match of the season"
+    source_note: The chapter confirms the Quidditch Cup has resumed after a long gap, shows House heads' investment in the result, and records pitch-booking friction before Gryffindor versus Slytherin.
     reference_type: institutional_custom
     era_classification: later_editorial_note
     topic_tags:
+      - quidditch
       - quidditch-cup
       - house-teams
+      - gryffindor
+      - slytherin
       - heads-of-house
       - pitch-booking
-      - professor-mcgonagall
-      - professor-snape
-      - hospital-wing
     candidate_part: Quidditch and School Recreation
     candidate_chapter: House Quidditch Teams
-    candidate_section: Cup revival, practice access, and Head-of-House partisanship
-    reason_for_placement: The passage links House sport to staff behavior, academic workload, pitch access, and inter-House discipline before a major match.
-    relevance_to_hogwarts_a_history: A later edition can use this as evidence for how Hogwarts Quidditch affects academic routines, staff rivalries, and schoolwide House morale.
+    candidate_section: Season resumption, practices, and House-head rivalry
+    reason_for_placement: The passage documents how House sport affects staff behavior, practice scheduling, and student attention across Houses.
+    relevance_to_hogwarts_a_history: This supports a later editorial account of the disrupted 1995-1996 Quidditch season and its return under political constraints.
     duplicate_check:
       possible_duplicate: true
       duplicate_of:
         - poa-ch12-004
-        - cos-ch07-002
-      notes: poa-ch12-004 records Cup standings shaping practice frequency, and cos-ch07-002 records practice booking conflict; this entry adds the post-Triwizard Cup revival, Head-of-House homework relief, Snape's pitch booking, and alleged jinx discipline.
+        - ootp-ch17-004
+        - ootp-ch18-002
+      notes: poa-ch12-004 records normal Cup-driven practices, while ootp-ch17-004 and ootp-ch18-002 record High Inquisitor control and Gryffindor reapproval; this entry adds the resumed first match and staff rivalry around it.
     confidence: high
-    limitations: The partisan staff behavior occurs in a highly charged Gryffindor-Slytherin match week and should not be generalized to all House matches.
+    limitations: The "so long" gap is relative to the canceled previous year's Cup and should not be generalized beyond this period.
 
   - id: ootp-ch19-004
     source_file: pdfs/harrypotter.pdf
@@ -153,46 +160,47 @@ entries:
     chapter: Chapter Nineteen - The Lion and the Serpent
     chapter_start_pdf_page: 1952
     chapter_end_pdf_page: 1973
-    pdf_page: 1957
+    pdf_page: 1955
     printed_page: null
-    extracted_text_lines: 156-305
+    extracted_text_lines: 96-105
     text_anchor:
-      start_phrase: The Great Hall was filling up fast
-      end_phrase: green and silver in the Slytherin section of the stands
-      local_occurrence_note: The match-day sequence runs from breakfast through team preparation, pitch entry, Hooch's start, and Lee Jordan's commentary.
-    nearby_context: Students wear House colors and badges, Luna creates a roaring Gryffindor-supporting lion hat, Angelina checks conditions and announces the lineup, and Madam Hooch begins the match after the captains shake hands.
+      start_phrase: He was also turning a deaf ear
+      end_phrase: while she worked in the library
+      local_occurrence_note: Snape rejects reports that Slytherins are hexing Gryffindor players before the match.
+    nearby_context: Alicia Spinnet is treated in the hospital wing after a hair-thickening jinx, but Snape refuses the eyewitness account implicating Miles Bletchley.
     match_terms:
-      - Great Hall
-      - House colors
-      - changing rooms
-      - final lineup
-      - Madam Hooch
-      - Lee Jordan
-    quote_excerpt_short: "Captains shake hands"
-    source_note: Match day follows a recognizable school routine of House-colored breakfast support, team changing-room preparation, captain lineup review, spectator stands, student commentary, McGonagall supervision, and Madam Hooch's formal kickoff.
-    reference_type: institutional_custom
-    era_classification: harry_era_confirmation
+      - Slytherin
+      - hex
+      - Gryffindor players
+      - hospital wing
+      - Hair-Thickening Charm
+      - library
+      - eyewitnesses
+    quote_excerpt_short: "hit her from behind with a jinx"
+    source_note: Pre-match House rivalry spills into corridor and library hexing, with a Head of House refusing reports from multiple eyewitnesses.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
     topic_tags:
-      - quidditch
-      - matchday
-      - great-hall
-      - house-colors
-      - locker-rooms
-      - madam-hooch
-      - lee-jordan
-    candidate_part: Quidditch and School Recreation
-    candidate_chapter: House Quidditch Matches
-    candidate_section: Match-day procedure and House support
-    reason_for_placement: The passage supplies an observed sequence for ordinary Hogwarts House-match ceremony and administration.
-    relevance_to_hogwarts_a_history: This can corroborate a sports chapter's account of how House matches are prepared, announced, officiated, and watched by the school community.
+      - student-discipline
+      - house-rivalry
+      - slytherin
+      - gryffindor
+      - library
+      - hospital-wing
+      - house-bias
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Student Misconduct and Reporting
+    candidate_section: House rivalry, jinx reports, and staff bias
+    reason_for_placement: The passage shows student magical misconduct in ordinary school spaces and the limits of discipline when a staff member rejects hostile-House testimony.
+    relevance_to_hogwarts_a_history: This can support a later editorial note on how House rivalry and staff partiality affected student safety around Quidditch.
     duplicate_check:
       possible_duplicate: true
       duplicate_of:
-        - poa-ch15-006
-        - poa-ch13-003
-      notes: poa-ch15-006 and poa-ch13-003 already record match-day procedure, Hooch's start, and commentary; this entry adds the OotP-era House-color displays, Luna's enchanted supporter hat, Slytherin badges, and Angelina's lineup briefing.
-    confidence: high
-    limitations: The Slytherin badges and anti-Ron song are match-specific intimidation, not a neutral recurring ceremony.
+        - ps-ch13-003
+        - poa-ch15-005
+      notes: ps-ch13-003 records student curse reporting near the library and poa-ch15-005 records Quidditch rivalry spilling into safety concerns; this entry adds a Harry-era report ignored by Snape despite many witnesses.
+    confidence: medium
+    limitations: The account is filtered through Gryffindor perspective and does not show Snape's private reasoning.
 
   - id: ootp-ch19-005
     source_file: pdfs/harrypotter.pdf
@@ -200,44 +208,47 @@ entries:
     chapter: Chapter Nineteen - The Lion and the Serpent
     chapter_start_pdf_page: 1952
     chapter_end_pdf_page: 1973
-    pdf_page: 1966
+    pdf_page: 1956
     printed_page: null
-    extracted_text_lines: 463-542
+    extracted_text_lines: 155-204; 304-315
     text_anchor:
-      start_phrase: Madam Hooch's shrill whistle
-      end_phrase: straight to your Head of House's office
-      local_occurrence_note: After the Snitch is caught, Hooch responds to Crabbe's late Bludger and then to Harry and George attacking Malfoy.
-    nearby_context: The referee berates Crabbe for an illegal post-whistle Bludger, uses an Impediment Jinx to stop the fight, and sends the offending Gryffindors to McGonagall.
+      start_phrase: The Great Hall was filling up fast
+      end_phrase: Weasley is our King
+      local_occurrence_note: Match-day House display begins at breakfast and continues as an organized Slytherin chant in the stands.
+    nearby_context: Slytherins wear crown-shaped badges targeting Ron, while Luna supports Gryffindor with an enchanted roaring lion hat.
     match_terms:
-      - Madam Hooch
-      - Bludger
-      - Snitch
-      - whistle
-      - Impediment Jinx
-      - Head of House
-    quote_excerpt_short: "straight to your Head of House's office"
-    source_note: Madam Hooch exercises match authority after play ends by addressing an illegal Bludger strike, stopping a student fight with the Impediment Jinx, and routing serious misconduct to the students' Head of House.
-    reference_type: school_rule_or_policy
-    era_classification: harry_era_confirmation
+      - Great Hall
+      - Slytherin table
+      - badges
+      - Luna Lovegood
+      - lion hat
+      - Gryffindor
+      - Weasley is our King
+    quote_excerpt_short: "silver badges in the shape of what seemed to be crowns"
+    source_note: Students use badges, House colors, an enchanted supporter hat, and a coordinated song to turn a Quidditch match into a broader House-culture event.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
     topic_tags:
-      - quidditch
-      - madam-hooch
-      - match-governance
-      - student-discipline
-      - head-of-house
-      - impediment-jinx
-      - bludgers
-    candidate_part: Rules, Discipline, and Governance
-    candidate_chapter: Student Discipline and Staff Authority
-    candidate_section: Quidditch misconduct and Head-of-House referral
-    reason_for_placement: The incident shows the ordinary disciplinary path from referee intervention on the pitch to House-level punishment before Umbridge overrides it.
-    relevance_to_hogwarts_a_history: This helps distinguish Hogwarts' usual sports-discipline chain from the later High Inquisitor intervention in the same incident.
+      - house-rivalry
+      - student-culture
+      - matchday
+      - great-hall
+      - slytherin
+      - gryffindor
+      - luna-lovegood
+    candidate_part: Student Life and Traditions
+    candidate_chapter: House Rivalry and School Culture
+    candidate_section: Quidditch songs, badges, and supporter magic
+    reason_for_placement: The passage captures informal student customs around House sport beyond official rules or team structures.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence that House identity is performed through clothing, enchanted objects, chants, and public rivalry.
     duplicate_check:
       possible_duplicate: true
-      duplicate_of: poa-ch15-007
-      notes: poa-ch15-007 records dense Quidditch officiating and foul handling; this entry adds post-whistle misconduct, Hooch's use of Impedimenta to stop a fight, and referral to the Head of House.
+      duplicate_of:
+        - poa-ch15-005
+        - poa-ch15-006
+      notes: poa-ch15-005 and poa-ch15-006 record intense House rivalry and matchday support; this entry adds badges, a coordinated anti-Keeper song, and Luna's enchanted lion hat.
     confidence: high
-    limitations: The exact formal penalty for Crabbe's late Bludger is reported indirectly later as lines, while the main scene follows the Gryffindor fight.
+    limitations: The Slytherin song is targeted harassment and should not be treated as a neutral school tradition.
 
   - id: ootp-ch19-006
     source_file: pdfs/harrypotter.pdf
@@ -245,24 +256,72 @@ entries:
     chapter: Chapter Nineteen - The Lion and the Serpent
     chapter_start_pdf_page: 1952
     chapter_end_pdf_page: 1973
+    pdf_page: 1960
+    printed_page: null
+    extracted_text_lines: 246-289; 460-539
+    text_anchor:
+      start_phrase: Okay, I have only just found out the final lineup
+      end_phrase: straight to your Head of House's office
+      local_occurrence_note: Angelina briefs the team on Slytherin's lineup before the match; after the Snitch catch, Hooch responds to an illegal Bludger and then stops Harry and George's fight.
+    nearby_context: The match includes locker-room preparation, captain handshake, Madam Hooch's whistle, Lee Jordan's commentary under McGonagall supervision, and a post-whistle Bludger attack.
+    match_terms:
+      - locker room
+      - team lineup
+      - Madam Hooch
+      - Lee Jordan
+      - Professor McGonagall
+      - Bludger
+      - Impediment Jinx
+    quote_excerpt_short: "Captains shake hands"
+    source_note: The match corroborates Hogwarts Quidditch procedure and officiating, then shows Hooch using an Impediment Jinx and Head-of-House referral after post-match violence.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - matchday
+      - madam-hooch
+      - lee-jordan
+      - professor-mcgonagall
+      - quidditch-rules
+      - student-discipline
+    candidate_part: Quidditch and School Recreation
+    candidate_chapter: House Quidditch Matches
+    candidate_section: Officiating, commentary, and post-match discipline
+    reason_for_placement: The passage ties routine sporting procedure to referee enforcement and the disciplinary handoff after violence on the pitch.
+    relevance_to_hogwarts_a_history: This adds another observed match sequence for later Quidditch coverage, especially where sport rules meet school discipline.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch13-003
+        - poa-ch15-007
+      notes: poa-ch13-003 and poa-ch15-007 record normal matchday procedure and dense foul enforcement; this entry adds a post-whistle Bludger, Hooch's spell intervention, and referral to the Head of House.
+    confidence: high
+    limitations: The chapter does not quote a formal rulebook; rule evidence comes from observed officiating and staff response.
+
+  - id: ootp-ch19-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Nineteen - The Lion and the Serpent
+    chapter_start_pdf_page: 1952
+    chapter_end_pdf_page: 1973
     pdf_page: 1970
     printed_page: null
-    extracted_text_lines: 595-679
+    extracted_text_lines: 599-678
     text_anchor:
       start_phrase: Educational Decree Number Twenty-five
       end_phrase: He just got lines
-      local_occurrence_note: Umbridge interrupts McGonagall's disciplinary process and reads the Minister's new decree.
-    nearby_context: McGonagall initially assigns detention because Harry and George are in her House, but Umbridge claims new supreme authority over punishments, sanctions, and privileges, then bans Harry, George, and Fred from Quidditch and confiscates their broomsticks.
+      local_occurrence_note: Umbridge reads the new decree in McGonagall's office and then imposes lifelong Quidditch bans and broom confiscation.
+    nearby_context: McGonagall tries to impose detentions under House authority, but Umbridge asserts newly granted power over punishments, sanctions, and privileges.
     match_terms:
       - Educational Decree Number Twenty-five
       - High Inquisitor
       - punishments
       - sanctions
       - privileges
-      - Quidditch ban
+      - lifelong ban
       - broomsticks
     quote_excerpt_short: "supreme authority over all punishments, sanctions, and removal of privileges"
-    source_note: Educational Decree Number Twenty-five gives the High Inquisitor supreme authority over student punishments, sanctions, and privileges, allowing Umbridge to override Head-of-House discipline with lifetime Quidditch bans and broom confiscation.
+    source_note: Educational Decree Number Twenty-five gives the High Inquisitor authority to alter staff-imposed student punishments and remove privileges; Umbridge immediately uses it to ban Harry, George, and Fred from Quidditch and confiscate brooms.
     reference_type: school_rule_or_policy
     era_classification: later_editorial_note
     topic_tags:
@@ -272,18 +331,19 @@ entries:
       - student-discipline
       - punishments
       - quidditch-ban
-      - broomstick-confiscation
+      - broomsticks
     candidate_part: Later Editorial Notes
     candidate_chapter: Headmasters and School Authority
-    candidate_section: Educational Decree Number Twenty-five and disciplinary supremacy
-    reason_for_placement: The passage quotes the decree's scope and shows it superseding ordinary House discipline during a concrete student case.
-    relevance_to_hogwarts_a_history: A later edition should treat this as a key escalation in Ministry control over Hogwarts, extending High Inquisitor power from inspection and club approval to punishments and privileges.
+    candidate_section: Educational Decree Number Twenty-five and punishment authority
+    reason_for_placement: The passage is a direct text-and-application example of Ministry authority overriding ordinary House discipline.
+    relevance_to_hogwarts_a_history: A later edition should cite this as a key escalation from inspection and club control to direct High Inquisitor supremacy over student sanctions.
     duplicate_check:
       possible_duplicate: true
       duplicate_of:
         - ootp-ch15-001
+        - ootp-ch17-001
         - ootp-ch17-004
         - ootp-ch18-002
-      notes: ootp-ch15-001 records creation of the High Inquisitor role, ootp-ch17-004 records decree-based control of Quidditch-team approval, and ootp-ch18-002 records Gryffindor's re-formation approval; this entry adds Decree Twenty-five's disciplinary supremacy, lifetime bans, and broom confiscation.
+      notes: Earlier entries record the High Inquisitor office, student-organization decree, and team reapproval; this entry adds Decree Twenty-five's explicit authority over punishments, sanctions, privileges, and Quidditch bans.
     confidence: high
-    limitations: The decree is an exceptional Ministry-era intervention and should not be mistaken for ordinary Hogwarts punishment policy.
+    limitations: This is an emergency Ministry intervention during Umbridge's tenure and not ordinary Hogwarts disciplinary governance.

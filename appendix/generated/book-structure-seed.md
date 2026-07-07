@@ -383,7 +383,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
   - Dumbledore's Autonomy and Fudge's Governance Threat
-  - Educational Decree Number Twenty-five and disciplinary supremacy
+  - Educational Decree Number Twenty-five and punishment authority
   - Educational Decree Number Twenty-four and student organizations
   - Educational Decrees and the High Inquisitor
   - Ministry denial, classroom discipline, and staff constraints
@@ -420,6 +420,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
+  - Covert student communication under the High Inquisitor
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
@@ -433,13 +434,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Divination inspection and teacher credentials
   - Inspection consequences and probation
   - Potions inspection and teacher background review
-- Student Communication and Concealment
-  - Enchanted Galleons and the Protean Charm
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
-- Student Organizations and Secret Societies
-  - Dumbledore's Army meeting logistics
 - Student Welfare and Crisis Response
   - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Chamber of Secrets Crisis
@@ -767,23 +764,23 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Jinx Inspection and Tampered Brooms
 - House Quidditch Matches
   - Balls, Positions, Scoring, and Match Endings
-  - Match-day procedure and House support
   - Matchday Organization and Officiating
   - Matchday Procedure and House Support
   - Matchday Procedure and In-Play Tactics
   - Officiating, Fouls, and Cup Presentation
+  - Officiating, commentary, and post-match discipline
   - Refereeing, Commentary, Fouls, and Scoring
   - Refereeing, Penalties, and Match Endings
   - Training Supervision, Weather, and Match Results
 - House Quidditch Teams
   - Brooms and Player Equipment
   - Brooms, Positions, and Wider Wizarding Sport
-  - Cup revival, practice access, and Head-of-House partisanship
   - First-Year Restrictions and Exceptions
   - House Rivalry and Player Protection
   - Hufflepuff Captain and Seeker
   - Practice Scheduling, Captains, and Equipment
   - Season Preparation, Captains, and the Quidditch Cup
+  - Season resumption, practices, and House-head rivalry
   - Training Supervision and Broom Expertise
 - House Teams and Player Selection
   - Tryouts, training expectations, and team equipment
@@ -902,8 +899,6 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
   - Prohibited Punishments, Detentions, and Head-of-House Referral
-- Student Discipline and Staff Authority
-  - Quidditch misconduct and Head-of-House referral
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
   - Crisis Visitor Restrictions
@@ -914,6 +909,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Prefect Qualities and Alumni Examples
 - Student Misconduct and Reporting
   - Curses, Countercurses, and Faculty Reports
+  - House rivalry, jinx reports, and staff bias
 - Student Offices, Awards, and Records
   - Trophy Room Records and Head Boy Lists
 - Student Offices, Prefects, and Discipline
@@ -949,6 +945,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogsmeade Weekends and Student Privileges
   - Permission Lists and Castle Departure Checks
+
+## Student Life and Traditions
+
+- House Rivalry and School Culture
+  - Quidditch songs, badges, and supporter magic
 
 ## Student Organizations and Informal Governance
 
@@ -1004,6 +1005,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## The Four Houses
 
 - House Identity and Reputation
+  - Borderline Sorting decisions
   - House loyalty during the Triwizard Tournament
   - Pre-Arrival Explanations of Houses
   - Pre-Sorting Rumors and Family Expectations

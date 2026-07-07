@@ -10723,92 +10723,106 @@ by_entry:
     source_unit: ootp-ch18
     output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
   ootp-ch19-001:
-    title: 'Student Organizations and Secret Societies: Dumbledore''s Army meeting
-      logistics'
+    title: 'Protective Magic and Security: Covert student communication under the
+      High Inquisitor'
     classification: later_editorial_note
-    reference_type: institutional_custom
+    reference_type: security_or_protection
     confidence: high
     tags:
-    - cross-house
-    - dolores-umbridge
-    - dumbledores-army
-    - great-hall
-    - quidditch-practices
-    - secrecy
+    - communication-security
+    - cross-house-cooperation
+    - da-meetings
+    - defense-against-the-dark-arts
+    - fake-galleons
+    - protean-charm
     - student-organizations
     source_unit: ootp-ch19
     output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   ootp-ch19-002:
-    title: 'Student Communication and Concealment: Enchanted Galleons and the Protean
-      Charm'
-    classification: later_editorial_note
-    reference_type: cross_reference_candidate
+    title: 'House Identity and Reputation: Borderline Sorting decisions'
+    classification: harry_era_confirmation
+    reference_type: house_system
     confidence: high
     tags:
-    - advanced-magic
-    - dumbledores-army
-    - galleons
-    - goblin-made-currency
-    - newt-standard
-    - protean-charm
-    - student-communication
+    - gryffindor
+    - hermione-granger
+    - house-system
+    - ravenclaw
+    - sorting-ceremony
+    - sorting-hat
+    - student-identity
     source_unit: ootp-ch19
     output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   ootp-ch19-003:
-    title: 'House Quidditch Teams: Cup revival, practice access, and Head-of-House
-      partisanship'
+    title: 'House Quidditch Teams: Season resumption, practices, and House-head rivalry'
     classification: later_editorial_note
     reference_type: institutional_custom
     confidence: high
     tags:
+    - gryffindor
     - heads-of-house
-    - hospital-wing
     - house-teams
     - pitch-booking
-    - professor-mcgonagall
-    - professor-snape
+    - quidditch
     - quidditch-cup
+    - slytherin
     source_unit: ootp-ch19
     output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   ootp-ch19-004:
-    title: 'House Quidditch Matches: Match-day procedure and House support'
-    classification: harry_era_confirmation
+    title: 'Student Misconduct and Reporting: House rivalry, jinx reports, and staff
+      bias'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - gryffindor
+    - hospital-wing
+    - house-bias
+    - house-rivalry
+    - library
+    - slytherin
+    - student-discipline
+    source_unit: ootp-ch19
+    output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  ootp-ch19-005:
+    title: 'House Rivalry and School Culture: Quidditch songs, badges, and supporter
+      magic'
+    classification: later_editorial_note
     reference_type: institutional_custom
     confidence: high
     tags:
     - great-hall
-    - house-colors
-    - lee-jordan
-    - locker-rooms
-    - madam-hooch
+    - gryffindor
+    - house-rivalry
+    - luna-lovegood
     - matchday
-    - quidditch
-    source_unit: ootp-ch19
-    output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
-  ootp-ch19-005:
-    title: 'Student Discipline and Staff Authority: Quidditch misconduct and Head-of-House
-      referral'
-    classification: harry_era_confirmation
-    reference_type: school_rule_or_policy
-    confidence: high
-    tags:
-    - bludgers
-    - head-of-house
-    - impediment-jinx
-    - madam-hooch
-    - match-governance
-    - quidditch
-    - student-discipline
+    - slytherin
+    - student-culture
     source_unit: ootp-ch19
     output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
   ootp-ch19-006:
+    title: 'House Quidditch Matches: Officiating, commentary, and post-match discipline'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - lee-jordan
+    - madam-hooch
+    - matchday
+    - professor-mcgonagall
+    - quidditch
+    - quidditch-rules
+    - student-discipline
+    source_unit: ootp-ch19
+    output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  ootp-ch19-007:
     title: 'Headmasters and School Authority: Educational Decree Number Twenty-five
-      and disciplinary supremacy'
+      and punishment authority'
     classification: later_editorial_note
     reference_type: school_rule_or_policy
     confidence: high
     tags:
-    - broomstick-confiscation
+    - broomsticks
     - educational-decrees
     - high-inquisitor
     - punishments
@@ -10865,7 +10879,6 @@ by_tag:
   advanced-magic:
   - cos-ch10-002
   - ootp-ch08-003
-  - ootp-ch19-002
   - poa-ch08-005
   - poa-ch12-002
   - poa-ch21-006
@@ -11161,7 +11174,6 @@ by_tag:
   - cos-ch08-005
   bludgers:
   - cos-ch07-001
-  - ootp-ch19-005
   boats:
   - ps-ch06-007
   - ps-ch17-006
@@ -11209,8 +11221,6 @@ by_tag:
   - gof-ch04-002
   - poa-ch01-002
   - poa-ch09-007
-  broomstick-confiscation:
-  - ootp-ch19-006
   broomstick-maintenance:
   - poa-ch02-004
   broomstick-safety:
@@ -11220,6 +11230,7 @@ by_tag:
   - poa-ch13-002
   broomsticks:
   - cos-ch07-002
+  - ootp-ch19-007
   - poa-ch01-007
   - poa-ch11-007
   - ps-ch09-002
@@ -11558,6 +11569,7 @@ by_tag:
   communication-security:
   - ootp-ch17-003
   - ootp-ch18-001
+  - ootp-ch19-001
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -11692,12 +11704,13 @@ by_tag:
   cross-house:
   - ootp-ch16-004
   - ootp-ch18-007
-  - ootp-ch19-001
   cross-house-classes:
   - gof-ch13-001
   - gof-ch13-003
   - poa-ch06-005
   - poa-ch07-001
+  cross-house-cooperation:
+  - ootp-ch19-001
   cruciatus-curse:
   - gof-ch14-005
   - gof-ch30-006
@@ -11728,6 +11741,8 @@ by_tag:
   curses:
   - gof-ch14-001
   - ps-ch13-003
+  da-meetings:
+  - ootp-ch19-001
   daily-prophet:
   - cos-ch12-006
   - gof-ch10-003
@@ -11836,6 +11851,7 @@ by_tag:
   - ootp-ch17-005
   - ootp-ch17-006
   - ootp-ch18-006
+  - ootp-ch19-001
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -12028,7 +12044,6 @@ by_tag:
   - ootp-ch17-003
   - ootp-ch18-001
   - ootp-ch18-002
-  - ootp-ch19-001
   doors:
   - ps-ch08-001
   dormitories:
@@ -12180,8 +12195,6 @@ by_tag:
   dumbledores-army:
   - ootp-ch15-007
   - ootp-ch18-007
-  - ootp-ch19-001
-  - ootp-ch19-002
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -12230,7 +12243,7 @@ by_tag:
   - ootp-ch17-001
   - ootp-ch17-004
   - ootp-ch18-002
-  - ootp-ch19-006
+  - ootp-ch19-007
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -12362,6 +12375,8 @@ by_tag:
   - ootp-ch09-003
   fairness:
   - gof-ch20-002
+  fake-galleons:
+  - ootp-ch19-001
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
@@ -12642,8 +12657,6 @@ by_tag:
   - gof-ch21-002
   full-moon-safety:
   - poa-ch18-002
-  galleons:
-  - ootp-ch19-002
   gambling:
   - gof-ch37-007
   gamekeeper:
@@ -12721,8 +12734,6 @@ by_tag:
   - gof-ch35-002
   goblin-liaison:
   - gof-ch07-004
-  goblin-made-currency:
-  - ootp-ch19-002
   goblin-rebellion:
   - poa-ch05-002
   goblin-rebellions:
@@ -12773,8 +12784,7 @@ by_tag:
   - gof-ch22-003
   - gof-ch23-002
   - gof-ch37-003
-  - ootp-ch19-001
-  - ootp-ch19-004
+  - ootp-ch19-005
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -12862,6 +12872,10 @@ by_tag:
   - ootp-ch13-001
   - ootp-ch13-007
   - ootp-ch17-004
+  - ootp-ch19-002
+  - ootp-ch19-003
+  - ootp-ch19-004
+  - ootp-ch19-005
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -13071,7 +13085,6 @@ by_tag:
   - gof-ch18-002
   - gof-ch36-002
   - ootp-ch09-006
-  - ootp-ch19-005
   - poa-ch08-003
   headless-hunt:
   - cos-ch08-001
@@ -13163,6 +13176,7 @@ by_tag:
   - gof-ch08-003
   - gof-ch09-002
   - ootp-ch09-005
+  - ootp-ch19-002
   - poa-ch04-004
   hermione-research:
   - poa-ch14-003
@@ -13206,7 +13220,7 @@ by_tag:
   - ootp-ch17-001
   - ootp-ch17-004
   - ootp-ch18-002
-  - ootp-ch19-006
+  - ootp-ch19-007
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -13454,7 +13468,7 @@ by_tag:
   - gof-ch36-001
   - gof-ch37-006
   - ootp-ch14-004
-  - ootp-ch19-003
+  - ootp-ch19-004
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -13470,6 +13484,8 @@ by_tag:
   - ps-ch05-005
   house-banners:
   - gof-ch15-004
+  house-bias:
+  - ootp-ch19-004
   house-celebrations:
   - poa-ch13-006
   house-championship:
@@ -13480,7 +13496,6 @@ by_tag:
   - ps-ch11-001
   - ps-ch13-002
   house-colors:
-  - ootp-ch19-004
   - poa-ch15-006
   house-common-rooms:
   - cos-ch12-005
@@ -13554,6 +13569,8 @@ by_tag:
   - ps-ch16-004
   - ps-ch17-005
   house-rivalry:
+  - ootp-ch19-004
+  - ootp-ch19-005
   - poa-ch15-005
   house-robes:
   - cos-ch10-003
@@ -13570,6 +13587,7 @@ by_tag:
   - ootp-ch10-002
   - ootp-ch10-003
   - ootp-ch11-003
+  - ootp-ch19-002
   - ps-ch05-006
   - ps-ch06-005
   - ps-ch07-002
@@ -13618,8 +13636,6 @@ by_tag:
   - gof-ch14-002
   impediment-curse:
   - gof-ch29-004
-  impediment-jinx:
-  - ootp-ch19-005
   imperius-curse:
   - gof-ch14-003
   - gof-ch14-005
@@ -13814,7 +13830,7 @@ by_tag:
   leaving-feast:
   - gof-ch37-003
   lee-jordan:
-  - ootp-ch19-004
+  - ootp-ch19-006
   - poa-ch13-002
   - poa-ch13-003
   - poa-ch15-006
@@ -13849,6 +13865,7 @@ by_tag:
   - gof-ch26-002
   - gof-ch29-004
   - ootp-ch16-006
+  - ootp-ch19-004
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -13895,7 +13912,6 @@ by_tag:
   - ps-ch11-004
   locker-rooms:
   - cos-ch10-003
-  - ootp-ch19-004
   - poa-ch08-002
   - poa-ch15-006
   - ps-ch13-005
@@ -13944,6 +13960,7 @@ by_tag:
   - ootp-ch10-003
   - ootp-ch10-005
   - ootp-ch10-007
+  - ootp-ch19-005
   lupin:
   - poa-ch08-005
   lupins-office:
@@ -13969,8 +13986,7 @@ by_tag:
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
-  - ootp-ch19-004
-  - ootp-ch19-005
+  - ootp-ch19-006
   - poa-ch09-006
   - poa-ch11-007
   - poa-ch13-001
@@ -14228,7 +14244,6 @@ by_tag:
   - poa-ch13-002
   - ps-ch11-005
   match-governance:
-  - ootp-ch19-005
   - poa-ch09-006
   match-sabotage:
   - poa-ch13-004
@@ -14237,7 +14252,8 @@ by_tag:
   - ps-ch11-006
   - ps-ch17-001
   matchday:
-  - ootp-ch19-004
+  - ootp-ch19-005
+  - ootp-ch19-006
   - poa-ch13-003
   - poa-ch15-006
   - ps-ch11-004
@@ -14601,8 +14617,6 @@ by_tag:
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch13-003
-  newt-standard:
-  - ootp-ch19-002
   newts:
   - poa-ch16-001
   - poa-ch22-005
@@ -15185,7 +15199,7 @@ by_tag:
   - gof-ch36-004
   - ootp-ch15-005
   - ootp-ch18-002
-  - ootp-ch19-003
+  - ootp-ch19-006
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -15213,7 +15227,6 @@ by_tag:
   - gof-ch36-001
   - gof-ch36-006
   - ootp-ch12-004
-  - ootp-ch19-003
   - poa-ch09-005
   - poa-ch10-001
   - poa-ch14-006
@@ -15254,7 +15267,7 @@ by_tag:
   - gof-ch10-005
   - poa-ch16-005
   protean-charm:
-  - ootp-ch19-002
+  - ootp-ch19-001
   protective-magic:
   - gof-ch33-004
   - ootp-ch02-006
@@ -15285,7 +15298,7 @@ by_tag:
   punishment:
   - cos-ch08-002
   punishments:
-  - ootp-ch19-006
+  - ootp-ch19-007
   pure-blood-families:
   - ootp-ch06-006
   pure-blood-households:
@@ -15320,8 +15333,8 @@ by_tag:
   - ootp-ch14-004
   - ootp-ch17-004
   - ootp-ch18-002
-  - ootp-ch19-004
-  - ootp-ch19-005
+  - ootp-ch19-003
+  - ootp-ch19-006
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -15337,7 +15350,7 @@ by_tag:
   - ps-ch05-006
   - ps-ch09-003
   quidditch-ban:
-  - ootp-ch19-006
+  - ootp-ch19-007
   quidditch-books:
   - gof-ch02-002
   quidditch-cup:
@@ -15369,11 +15382,10 @@ by_tag:
   - cos-ch07-002
   - ootp-ch16-006
   - poa-ch15-004
-  quidditch-practices:
-  - ootp-ch19-001
   quidditch-rules:
   - cos-ch07-001
   - gof-ch08-005
+  - ootp-ch19-006
   - poa-ch15-007
   - ps-ch11-005
   quidditch-safety:
@@ -15419,6 +15431,7 @@ by_tag:
   ravenclaw:
   - gof-ch15-004
   - ootp-ch10-003
+  - ootp-ch19-002
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
@@ -15576,7 +15589,7 @@ by_tag:
   - ootp-ch15-001
   - ootp-ch17-001
   - ootp-ch18-002
-  - ootp-ch19-006
+  - ootp-ch19-007
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -15740,7 +15753,6 @@ by_tag:
   - gof-ch19-004
   - gof-ch21-007
   - ootp-ch16-006
-  - ootp-ch19-001
   - ps-ch13-006
   - ps-ch14-003
   - ps-ch15-003
@@ -15895,6 +15907,9 @@ by_tag:
   - cos-ch18-004
   - gof-ch15-004
   - ootp-ch17-004
+  - ootp-ch19-003
+  - ootp-ch19-004
+  - ootp-ch19-005
   - poa-ch12-004
   - poa-ch15-005
   - ps-ch05-006
@@ -15955,6 +15970,7 @@ by_tag:
   sorting-ceremony:
   - cos-ch05-004
   - gof-ch12-003
+  - ootp-ch19-002
   - ps-ch07-002
   sorting-expectations:
   - ps-ch06-005
@@ -15968,6 +15984,7 @@ by_tag:
   - gof-ch30-001
   - ootp-ch11-003
   - ootp-ch11-004
+  - ootp-ch19-002
   source-reliability:
   - gof-ch15-003
   special-awards:
@@ -16160,8 +16177,6 @@ by_tag:
   - poa-ch13-005
   student-boundaries:
   - ootp-ch05-003
-  student-communication:
-  - ootp-ch19-002
   student-conduct:
   - gof-ch22-001
   student-conflict:
@@ -16174,6 +16189,8 @@ by_tag:
   - gof-ch15-001
   - gof-ch18-001
   - ootp-ch01-001
+  student-culture:
+  - ootp-ch19-005
   student-customs:
   - gof-ch21-002
   student-death:
@@ -16185,8 +16202,9 @@ by_tag:
   - ootp-ch07-001
   - ootp-ch07-007
   - ootp-ch08-004
-  - ootp-ch19-005
+  - ootp-ch19-004
   - ootp-ch19-006
+  - ootp-ch19-007
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -16206,6 +16224,7 @@ by_tag:
   - ps-ch17-004
   student-identity:
   - ootp-ch10-003
+  - ootp-ch19-002
   student-injury:
   - poa-ch06-007
   - poa-ch07-002
