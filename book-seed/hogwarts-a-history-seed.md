@@ -3825,7 +3825,7 @@ Summary: The available evidence includes 3 source items, led by: The chapter add
 
 #### Section: Clothing, freedom, and Hogwarts service spaces
 
-Summary: The available evidence includes 2 source items, led by: Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
+Summary: The available evidence includes 3 source items, led by: Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
 
 - **Corroboration:** Hermione's hidden-hat campaign applies the clothing-release mechanism to Hogwarts house-elves and suggests Gryffindor Tower is serviced by elves who collect or remove items from the common room.
   - Quote: "You're setting them free when they might not want to be free."
@@ -3842,6 +3842,14 @@ Summary: The available evidence includes 2 source items, led by: Hermione's hidd
   - Reference type: cross_reference_candidate
   - Corroborates: `ootp-ch13-002`, `gof-ch12-004`. ootp-ch13-002 records Hermione hiding hats in Gryffindor Tower; this entry adds the next-morning removal after ordinary overnight cleaning.
   - Notes: The passage does not identify which elf or elves removed the hats or confirm that any elf was freed.
+
+- **Corroboration:** Dobby reports that Hogwarts house-elves find Hermione's hidden hats and socks insulting, refuse to clean Gryffindor Tower, and leave Dobby to service the space alone.
+  - Quote: "None of them will clean Gryffindor Tower anymore"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1940, `ootp-ch18-004`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch13-002`, `ootp-ch14-001`. ootp-ch13-002 records Hermione hiding hats and ootp-ch14-001 records the hats disappearing after cleaning; this entry adds Dobby's explanation that the other elves considered the clothing insulting and stopped cleaning Gryffindor Tower.
+  - Notes: The evidence comes from Dobby's report; it does not show the other elves directly or state a formal Hogwarts labor policy.
 
 ### Chapter: Magical Residents of the Grounds
 
@@ -6606,7 +6614,7 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 #### Section: Educational Decree Number Twenty-four and student organizations
 
-Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-four disbands all student organizations, defines them as regular meetings of three or more students, requires High Inquisitor approval to reform, and threatens expulsion for unauthorized membership.
+Summary: The available evidence includes 2 source items, led by: Educational Decree Number Twenty-four disbands all student organizations, defines them as regular meetings of three or more students, requires High Inquisitor approval to reform, and threatens expulsion for unauthorized membership.
 
 - **Corroboration:** Educational Decree Number Twenty-four disbands all student organizations, defines them as regular meetings of three or more students, requires High Inquisitor approval to reform, and threatens expulsion for unauthorized membership.
   - Quote: "All Student Organizations, Societies, Teams, Groups, and Clubs are henceforth disbanded."
@@ -6615,6 +6623,14 @@ Summary: The available evidence includes 1 source item, led by: Educational Decr
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch15-001`. ootp-ch15-001 records the creation of the High Inquisitor office and inspection authority; this entry adds the later decree disbanding student organizations and setting an expulsion penalty.
   - Notes: The decree is an exceptional Harry-era Ministry intervention and should not be generalized as ordinary Hogwarts club policy.
+
+- **Corroboration:** The Gryffindor team can resume only after staff appeal and Umbridge's reluctant approval, showing the High Inquisitor's decree being applied to ordinary House sport.
+  - Quote: "To re-form the Quidditch team!"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1931, `ootp-ch18-002`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch17-001`. ootp-ch17-001 records the decree disbanding all student organizations and requiring High Inquisitor approval; this entry shows a House Quidditch team securing that approval.
+  - Notes: The passage does not quote the approval document or state whether all House teams followed the same appeal route.
 
 #### Section: Educational Decrees and the High Inquisitor
 
@@ -6846,7 +6862,7 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
 
 #### Section: Watched communications under the High Inquisitor
 
-Summary: The available evidence includes 1 source item, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
+Summary: The available evidence includes 2 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
 
 - **Corroboration:** McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
   - Quote: "channels of communication in and out of Hogwarts may be being watched"
@@ -6855,6 +6871,14 @@ Summary: The available evidence includes 1 source item, led by: McGonagall's war
   - Reference type: security_or_protection
   - Corroborates: `gof-ch19-007`. gof-ch19-007 records the common-room fire as an outside communication route with Ministry-security implications; this entry adds explicit watched-channel warning, suspected owl interception, and Umbridge's direct monitoring attempt.
   - Notes: The chapter does not prove who injured Hedwig; Umbridge's surveillance role becomes clearer from the fireplace incident and later context.
+
+- **Corroboration:** Hermione's theory ties Filch's confiscation threat, Hedwig's injury, and the failed Sirius fire contact to a broader pattern of student mail and communication surveillance under Umbridge.
+  - Quote: "somebody just wanted an excuse to read your mail"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1929, `ootp-ch18-001`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch17-003`. ootp-ch17-003 records McGonagall's warning, Hedwig's injury, and Umbridge's fire monitoring; this entry adds Hermione's specific theory that Filch's Dungbomb accusation was a pretext for reading Harry's mail.
+  - Notes: Hermione is inferring Umbridge's method; the chapter does not directly show Umbridge reading the letter.
 
 ### Chapter: Public Records and Wizarding Press
 
@@ -7549,6 +7573,30 @@ Summary: The available evidence includes 1 source item, led by: Harry directly o
 
 ### Chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
 
+#### Section: The Room of Requirement
+
+Summary: The available evidence includes 1 source item, led by: Dobby names the Come and Go Room or Room of Requirement and explains that it appears only to someone with real need, adapting its contents to that need and remaining unknown to most.
+
+- **Corroboration:** Dobby names the Come and Go Room or Room of Requirement and explains that it appears only to someone with real need, adapting its contents to that need and remaining unknown to most.
+  - Quote: "always equipped for the seeker's needs"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1941, `ootp-ch18-005`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch23-004`. gof-ch23-004 records Dumbledore's earlier vanished chamber-pot room anecdote; this entry identifies the same phenomenon as the Room of Requirement and adds its rules and house-elf name.
+  - Notes: Dobby is the principal source for the room's rules, and his grammar compresses some details.
+
+#### Section: The Room of Requirement as a defensive classroom
+
+Summary: The available evidence includes 1 source item, led by: The D.A. entrance method locates the Room of Requirement opposite the Barnabas the Barmy tapestry, and the room provides defensive books, cushions, locks, and Dark Detectors for practice.
+
+- **Corroboration:** The D.A. entrance method locates the Room of Requirement opposite the Barnabas the Barmy tapestry, and the room provides defensive books, cushions, locks, and Dark Detectors for practice.
+  - Quote: "walk past this bit of wall three times"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1943, `ootp-ch18-006`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch23-004`. gof-ch23-004 records the earlier hidden-room anecdote; this entry adds the room's exact seventh-floor location, entry procedure, and defensive classroom configuration.
+  - Notes: The room's generated contents reflect the D.A.'s immediate need and should not be treated as permanent furnishings.
+
 #### Section: The Vanishing Chamber-Pot Room
 
 Summary: The available evidence includes 1 source item, led by: The dinner conversation frames magical schools as secretive institutions and confirms that even Dumbledore can encounter an unknown, vanishing room inside Hogwarts.
@@ -7948,7 +7996,32 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
 
 ## Part: Curriculum and Instruction
 
+### Chapter: Charms
+
+#### Section: Fifth-year practical spellwork and homework
+
+Summary: The available evidence includes 1 source item, led by: Fifth-year Charms includes practical Silencing Charm work on live classroom animals, with Flitwick correcting students and assigning extra practice when performance is weak.
+
+- **Supporting evidence:** Fifth-year Charms includes practical Silencing Charm work on live classroom animals, with Flitwick correcting students and assigning extra practice when performance is weak.
+  - Quote: "additional practice of the Silencing Charm for homework"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1930, `ootp-ch18-003`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The passage gives a single lesson snapshot, not the full fifth-year Charms syllabus.
+
 ### Chapter: Defense Against the Dark Arts
+
+#### Section: Dumbledore's Army and student-led practical Defense
+
+Summary: The available evidence includes 1 source item, led by: The first Room of Requirement meeting elects Harry leader, adopts the coded name D.A./Dumbledore's Army, and begins practical cross-House Defense instruction with Expelliarmus before students disperse to their House areas.
+
+- **Corroboration:** The first Room of Requirement meeting elects Harry leader, adopts the coded name D.A./Dumbledore's Army, and begins practical cross-House Defense instruction with Expelliarmus before students disperse to their House areas.
+  - Quote: "wrote DUMBLEDORE'S ARMY across the top"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, PDF p. 1946, `ootp-ch18-007`, `sources/book-05/chapter-18-dumbledore-s-army.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch15-007`, `ootp-ch16-004`, `cos-ch11-003`, `gof-ch34-001`. ootp-ch15-007 records the first proposal, ootp-ch16-004 records the Hog's Head organizing meeting, cos-ch11-003 records an earlier authorized Dueling Club, and gof-ch34-001 records Harry's prior Expelliarmus carryover; this entry adds the formal D.A. name, vote, first Room of Requirement practice, and return routes.
+  - Notes: The meeting is unauthorized and temporary, so it belongs in Harry-era or later editorial treatment rather than baseline Hogwarts curriculum.
 
 #### Section: Student-Led Practical Defense in the Umbridge Year
 

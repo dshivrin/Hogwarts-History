@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-06'
+updated: '2026-07-07'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -10612,6 +10612,116 @@ by_entry:
     - shrieking-shack
     source_unit: ootp-ch17
     output_yaml: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  ootp-ch18-001:
+    title: 'Protective Magic and Security: Watched communications under the High Inquisitor'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - communication-security
+    - dolores-umbridge
+    - filch
+    - hedwig
+    - owl-post
+    - school-surveillance
+    - student-rights
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  ootp-ch18-002:
+    title: 'Headmasters and School Authority: Educational Decree Number Twenty-four
+      and student organizations'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - educational-decrees
+    - high-inquisitor
+    - house-teams
+    - professor-mcgonagall
+    - quidditch
+    - school-governance
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  ootp-ch18-003:
+    title: 'Charms: Fifth-year practical spellwork and homework'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - charms
+    - classroom-practice
+    - fifth-year-curriculum
+    - homework
+    - professor-flitwick
+    - silencing-charm
+    - spellwork
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  ootp-ch18-004:
+    title: 'House-Elves and Hidden Labor: Clothing, freedom, and Hogwarts service
+      spaces'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - castle-maintenance
+    - clothing
+    - common-room
+    - gryffindor-tower
+    - house-elves
+    - magical-servitude
+    - manumission
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  ootp-ch18-005:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: The Room of
+      Requirement'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - come-and-go-room
+    - filch
+    - hidden-room
+    - hogwarts-secrets
+    - house-elves
+    - magical-architecture
+    - room-of-requirement
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  ootp-ch18-006:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: The Room of
+      Requirement as a defensive classroom'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - barnabas-the-barmy
+    - castle-navigation
+    - dark-detectors
+    - defense-against-the-dark-arts
+    - marauders-map
+    - room-of-requirement
+    - seventh-floor
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  ootp-ch18-007:
+    title: 'Defense Against the Dark Arts: Dumbledore''s Army and student-led practical
+      Defense'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - cross-house
+    - defense-association
+    - dumbledores-army
+    - expelliarmus
+    - house-common-rooms
+    - practical-defense
+    - student-led-instruction
+    source_unit: ootp-ch18
+    output_yaml: sources/book-05/chapter-18-dumbledore-s-army.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -10845,6 +10955,8 @@ by_tag:
   - ps-ch10-002
   barn-owl:
   - gof-ch18-001
+  barnabas-the-barmy:
+  - ootp-ch18-006
   bartemius-crouch:
   - gof-ch28-005
   barty-crouch:
@@ -11103,6 +11215,7 @@ by_tag:
   - gof-ch12-004
   - gof-ch26-004
   - ootp-ch14-001
+  - ootp-ch18-004
   castle-map:
   - gof-ch25-001
   - poa-ch10-003
@@ -11113,6 +11226,7 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-005
   - ootp-ch17-007
+  - ootp-ch18-006
   - poa-ch06-002
   - poa-ch10-004
   - ps-ch08-001
@@ -11233,6 +11347,7 @@ by_tag:
   - gof-ch20-004
   - gof-ch26-001
   - ootp-ch13-003
+  - ootp-ch18-003
   - poa-ch04-003
   - poa-ch15-003
   - poa-ch16-003
@@ -11284,6 +11399,7 @@ by_tag:
   - gof-ch29-002
   classroom-practice:
   - gof-ch26-001
+  - ootp-ch18-003
   - ps-ch10-001
   classroom-safety:
   - cos-ch06-007
@@ -11292,6 +11408,7 @@ by_tag:
   - gof-ch09-003
   - ootp-ch13-002
   - ootp-ch14-001
+  - ootp-ch18-004
   clubs:
   - ootp-ch17-001
   clue:
@@ -11309,6 +11426,8 @@ by_tag:
   - gof-ch09-005
   colin-creevey:
   - cos-ch10-006
+  come-and-go-room:
+  - ootp-ch18-005
   committee-for-disposal:
   - poa-ch14-003
   - poa-ch15-001
@@ -11328,6 +11447,7 @@ by_tag:
   - ootp-ch14-001
   - ootp-ch17-002
   - ootp-ch17-003
+  - ootp-ch18-004
   - poa-ch08-004
   - poa-ch12-006
   common-room-access:
@@ -11338,6 +11458,7 @@ by_tag:
   - poa-ch13-007
   communication-security:
   - ootp-ch17-003
+  - ootp-ch18-001
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -11471,6 +11592,7 @@ by_tag:
   - poa-ch19-005
   cross-house:
   - ootp-ch16-004
+  - ootp-ch18-007
   cross-house-classes:
   - gof-ch13-001
   - gof-ch13-003
@@ -11541,6 +11663,7 @@ by_tag:
   dark-detectors:
   - gof-ch20-003
   - gof-ch35-005
+  - ootp-ch18-006
   dark-lord:
   - gof-ch28-005
   dark-magic:
@@ -11612,6 +11735,7 @@ by_tag:
   - ootp-ch16-006
   - ootp-ch17-005
   - ootp-ch17-006
+  - ootp-ch18-006
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -11633,6 +11757,8 @@ by_tag:
   - ps-ch08-004
   - ps-ch12-004
   - ps-ch13-004
+  defense-association:
+  - ootp-ch18-007
   defensive-magic:
   - poa-ch19-003
   defensive-magical-theory:
@@ -11800,6 +11926,8 @@ by_tag:
   - ootp-ch15-004
   - ootp-ch15-007
   - ootp-ch17-003
+  - ootp-ch18-001
+  - ootp-ch18-002
   doors:
   - ps-ch08-001
   dormitories:
@@ -11950,6 +12078,7 @@ by_tag:
   - ootp-ch11-004
   dumbledores-army:
   - ootp-ch15-007
+  - ootp-ch18-007
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -11997,6 +12126,7 @@ by_tag:
   - ootp-ch15-001
   - ootp-ch17-001
   - ootp-ch17-004
+  - ootp-ch18-002
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -12102,6 +12232,7 @@ by_tag:
   - cos-ch11-003
   - gof-ch34-001
   - gof-ch34-003
+  - ootp-ch18-007
   - poa-ch19-003
   experimental-charms:
   - gof-ch07-004
@@ -12181,6 +12312,7 @@ by_tag:
   - ootp-ch09-004
   fifth-year-curriculum:
   - ootp-ch12-003
+  - ootp-ch18-003
   fighting:
   - ps-ch12-002
   filch:
@@ -12189,6 +12321,8 @@ by_tag:
   - gof-ch12-005
   - ootp-ch11-005
   - ootp-ch16-001
+  - ootp-ch18-001
+  - ootp-ch18-005
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -12658,6 +12792,7 @@ by_tag:
   - ootp-ch14-001
   - ootp-ch17-002
   - ootp-ch17-003
+  - ootp-ch18-004
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -12882,6 +13017,7 @@ by_tag:
   - ps-ch08-006
   hedwig:
   - cos-ch01-003
+  - ootp-ch18-001
   - poa-ch01-003
   heir-of-slytherin:
   - cos-ch08-006
@@ -12945,6 +13081,7 @@ by_tag:
   hidden-room:
   - cos-ch17-001
   - gof-ch23-004
+  - ootp-ch18-005
   hidden-staircase:
   - gof-ch28-006
   hidden-trapdoor:
@@ -12956,6 +13093,7 @@ by_tag:
   - ootp-ch15-001
   - ootp-ch17-001
   - ootp-ch17-004
+  - ootp-ch18-002
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -13114,6 +13252,7 @@ by_tag:
   - gof-ch10-007
   hogwarts-secrets:
   - gof-ch23-004
+  - ootp-ch18-005
   hogwarts-security:
   - gof-ch01-004
   - gof-ch02-006
@@ -13169,6 +13308,7 @@ by_tag:
   - ootp-ch12-003
   - ootp-ch12-005
   - ootp-ch14-005
+  - ootp-ch18-003
   - poa-ch02-002
   - poa-ch07-007
   - poa-ch10-001
@@ -13230,6 +13370,7 @@ by_tag:
   house-common-rooms:
   - cos-ch12-005
   - cos-ch14-003
+  - ootp-ch18-007
   house-competition:
   - poa-ch12-004
   house-cup:
@@ -13262,6 +13403,8 @@ by_tag:
   - ootp-ch09-002
   - ootp-ch13-002
   - ootp-ch14-001
+  - ootp-ch18-004
+  - ootp-ch18-005
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -13329,6 +13472,7 @@ by_tag:
   - gof-ch06-004
   - ootp-ch13-007
   - ootp-ch17-004
+  - ootp-ch18-002
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
@@ -13750,6 +13894,7 @@ by_tag:
   - ootp-ch07-003
   - ootp-ch08-001
   - ootp-ch17-002
+  - ootp-ch18-005
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -13882,6 +14027,7 @@ by_tag:
   - ootp-ch09-002
   - ootp-ch13-002
   - ootp-ch14-001
+  - ootp-ch18-004
   magical-settlements:
   - gof-ch19-001
   - ootp-ch16-002
@@ -13929,6 +14075,7 @@ by_tag:
   - gof-ch09-003
   - ootp-ch13-002
   - ootp-ch14-001
+  - ootp-ch18-004
   marauders:
   - ootp-ch09-006
   - ootp-ch17-007
@@ -13939,6 +14086,7 @@ by_tag:
   - gof-ch25-007
   - gof-ch29-001
   - gof-ch29-003
+  - ootp-ch18-006
   - poa-ch10-003
   - poa-ch13-006
   - poa-ch14-004
@@ -14483,6 +14631,7 @@ by_tag:
   - gof-ch18-001
   - gof-ch27-002
   - ootp-ch17-003
+  - ootp-ch18-001
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -14761,6 +14910,7 @@ by_tag:
   practical-defense:
   - ootp-ch15-007
   - ootp-ch16-004
+  - ootp-ch18-007
   practical-examination:
   - ootp-ch12-004
   practical-exams:
@@ -14867,6 +15017,7 @@ by_tag:
   professor-flitwick:
   - gof-ch22-005
   - gof-ch26-001
+  - ootp-ch18-003
   - poa-ch11-007
   - poa-ch12-005
   - poa-ch14-001
@@ -14905,6 +15056,7 @@ by_tag:
   - gof-ch36-001
   - gof-ch36-004
   - ootp-ch15-005
+  - ootp-ch18-002
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -15033,6 +15185,7 @@ by_tag:
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
+  - ootp-ch18-002
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -15206,6 +15359,8 @@ by_tag:
   - gof-ch30-005
   room-of-requirement:
   - gof-ch23-004
+  - ootp-ch18-005
+  - ootp-ch18-006
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -15279,6 +15434,7 @@ by_tag:
   - ootp-ch14-006
   - ootp-ch15-001
   - ootp-ch17-001
+  - ootp-ch18-002
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -15382,6 +15538,8 @@ by_tag:
   - gof-ch10-006
   - poa-ch04-003
   - ps-ch04-003
+  school-surveillance:
+  - ootp-ch18-001
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -15506,6 +15664,8 @@ by_tag:
   - ootp-ch06-002
   seven-year-education:
   - ps-ch04-006
+  seventh-floor:
+  - ootp-ch18-006
   severus-snape:
   - ootp-ch17-005
   - poa-ch18-007
@@ -15534,6 +15694,8 @@ by_tag:
   - ootp-ch16-006
   signed-note:
   - ps-ch12-004
+  silencing-charm:
+  - ootp-ch18-003
   sir-cadogan:
   - poa-ch06-002
   - poa-ch09-003
@@ -15685,6 +15847,7 @@ by_tag:
   - poa-ch01-002
   spellwork:
   - gof-ch26-001
+  - ootp-ch18-003
   spew:
   - gof-ch14-007
   - gof-ch16-006
@@ -15908,6 +16071,7 @@ by_tag:
   - poa-ch04-006
   student-led-instruction:
   - ootp-ch16-004
+  - ootp-ch18-007
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -15987,6 +16151,8 @@ by_tag:
   - ps-ch12-001
   student-resistance:
   - gof-ch34-002
+  student-rights:
+  - ootp-ch18-001
   student-rulebreaking:
   - gof-ch25-001
   student-safety:

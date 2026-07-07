@@ -154,6 +154,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-Elf Service, Secrecy, and Winky's Hogwarts Employment
   - Kitchen Layout Beneath the Great Hall
 - Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - The Room of Requirement
+  - The Room of Requirement as a defensive classroom
   - The Vanishing Chamber-Pot Room
 
 ## Castle Architecture and Everyday Magic
@@ -263,7 +265,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Curriculum and Instruction
 
+- Charms
+  - Fifth-year practical spellwork and homework
 - Defense Against the Dark Arts
+  - Dumbledore's Army and student-led practical Defense
   - Student-Led Practical Defense in the Umbridge Year
 
 ## Curriculum, Study, and Practical Magic
