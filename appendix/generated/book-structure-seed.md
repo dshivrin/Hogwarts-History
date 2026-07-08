@@ -269,6 +269,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Charms
   - Fifth-year practical spellwork and homework
 - Defense Against the Dark Arts
+  - D.A. spell progression and student improvement
   - Dumbledore's Army and student-led practical Defense
   - Student-Led Practical Defense in the Umbridge Year
 
@@ -387,6 +388,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Educational Decree Number Twenty-five and punishment authority
   - Educational Decree Number Twenty-four and student organizations
   - Educational Decrees and the High Inquisitor
+  - High Inquisitor inspections and Care of Magical Creatures
   - High Inquisitor scrutiny of Hagrid
   - Ministry denial, classroom discipline, and staff constraints
   - Ministry pressure on Dumbledore's allies
@@ -423,6 +425,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
   - Covert student communication under the High Inquisitor
+  - Dormitory crisis escalation to the headmaster
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
@@ -555,6 +558,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Nighttime Routes and Tower Access
 - Enchanted Objects and Hidden Rooms
   - The Mirror of Erised
+- Grounds, Transport, and the Forbidden Forest
+  - Thestrals, carriage teams, and death-sight visibility
 - Headmaster's Office and Protected Entrances
   - Dippet-Era Office and Entrance Continuity
   - Gargoyle password and moving staircase
@@ -574,6 +579,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Bathroom Entrance to the Chamber
   - The Bathroom Pipe Exit
   - The Central Chamber and Serpent Architecture
+- Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - Repeated D.A. use and house-elf decoration
 - Temporary Tournament Enchantments
   - Maze Silencing, Navigation, and Spell Obstacles
 - The Great Hall
@@ -953,6 +960,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogsmeade Weekends and Student Privileges
   - Permission Lists and Castle Departure Checks
+- Holidays, Feasts, and Seasonal Duties
+  - Christmas duties for prefects and staff
+- House Teams and Training
+  - Team replacement after High Inquisitor sanctions
 
 ## Student Life and Traditions
 

@@ -1,0 +1,353 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-One - The Eye of the Snake
+  chapter_start_pdf_page: 1994
+  chapter_end_pdf_page: 2017
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 1994-2017. Prior control anchors identify Chapter Twenty-Two as starting at PDF page 2018, so no scan from page 1 was needed.
+  processed_date: '2026-07-08'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History references appear in this chapter."
+
+entries:
+  - id: ootp-ch21-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 1998
+    printed_page: null
+    extracted_text_lines: 128-174
+    text_anchor:
+      start_phrase: Thestrals
+      end_phrase: ten points ter Gryffindor
+      local_occurrence_note: Hagrid reveals the invisible winged horses as thestrals, explains their visibility rule, and describes their Hogwarts role.
+    nearby_context: Only Harry, Neville, and one Slytherin boy appear able to see the creatures clearly while the rest of the class sees meat vanish from the carcass.
+    match_terms:
+      - thestrals
+      - Hogwarts herd
+      - school carriages
+      - death
+      - Hagrid
+      - Dumbledore
+      - Forbidden Forest
+    quote_excerpt_short: "Hogwarts has got a whole herd"
+    source_note: The lesson confirms that Hogwarts keeps a thestral herd in the Forbidden Forest, uses them mainly to pull school carriages, and that only people who have seen death can see them.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - thestrals
+      - forbidden-forest
+      - school-carriages
+      - death-witnesses
+      - hagrid
+      - dumbledore
+      - student-transport
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Grounds, Transport, and the Forbidden Forest
+    candidate_section: Thestrals, carriage teams, and death-sight visibility
+    reason_for_placement: The passage identifies the otherwise unseen carriage creatures, their home range, their school function, and the magical condition for perceiving them.
+    relevance_to_hogwarts_a_history: A later edition can connect ordinary arrival transport with the hidden magical population maintained in the school grounds.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch14-002
+        - ootp-ch20-007
+        - gof-ch11-006
+      notes: ootp-ch14-002 identifies the unseen carriage creatures near the forest, ootp-ch20-007 anticipates Hagrid's unnamed domestic herd, and gof-ch11-006 records the carriage route; this entry names the herd as thestrals and adds the death-sight rule.
+    confidence: high
+    limitations: The lesson does not give a full herd count beyond the founding stock and observed individuals.
+
+  - id: ootp-ch21-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 2000
+    printed_page: null
+    extracted_text_lines: 193-288
+    text_anchor:
+      start_phrase: Yeah, I was gonna tell yeh how come we got a herd
+      end_phrase: the results of your inspection
+      local_occurrence_note: Umbridge interrupts Hagrid's explanation of the thestral herd, invokes Ministry classification, and distorts student answers in her inspection notes.
+    nearby_context: Hagrid says the herd began with one male and five females and names Tenebrus as the first born in the forest before Umbridge records prejudicial notes.
+    match_terms:
+      - High Inquisitor
+      - staff inspection
+      - Hagrid
+      - thestrals
+      - Ministry classification
+      - dangerous creatures
+      - Tenebrus
+    quote_excerpt_short: "classified thestrals as dangerous"
+    source_note: Umbridge's inspection combines Ministry dangerous-creature classification with hostile scrutiny of Hagrid's speech, memory, and lesson control, while Hagrid gives founding details for the school herd.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - high-inquisitor
+      - staff-inspections
+      - hagrid
+      - thestrals
+      - ministry-classification
+      - magical-creatures
+      - prejudice
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Headmasters and School Authority
+    candidate_section: High Inquisitor inspections and Care of Magical Creatures
+    reason_for_placement: The passage shows Ministry inspection authority being applied to a live creature lesson and records the interaction between official creature classifications and staff evaluation.
+    relevance_to_hogwarts_a_history: A later edition can use this as a concrete example of Umbridge-era oversight shaping classroom treatment of both curriculum and teacher status.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch20-006
+        - ootp-ch15-006
+        - ootp-ch15-001
+      notes: ootp-ch20-006 records Umbridge warning Hagrid of inspection, ootp-ch15-006 records Grubbly-Plank's inspected creature syllabus, and ootp-ch15-001 records the High Inquisitor office; this entry adds the actual thestral inspection and Ministry dangerous classification.
+    confidence: high
+    limitations: Umbridge's written report is not shown, only the notes she mutters and the promised result in ten days.
+
+  - id: ootp-ch21-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 2003
+    printed_page: null
+    extracted_text_lines: 320-335
+    text_anchor:
+      start_phrase: Ron and Hermione's prefect duties
+      end_phrase: because there aren't enough hats
+      local_occurrence_note: December brings heavier fifth-year homework and increased prefect duties around castle decoration, younger students, and corridor patrols.
+    nearby_context: Peeves interferes with tinsel, first and second years are kept indoors during bitter cold, and Filch expects holiday duels.
+    match_terms:
+      - prefect duties
+      - Christmas
+      - castle decoration
+      - Peeves
+      - first years
+      - second years
+      - Argus Filch
+    quote_excerpt_short: "prefect duties also became more and more onerous"
+    source_note: Prefects supervise Christmas decorating, watch younger students kept inside by cold weather, and patrol corridors with Filch during the holiday season.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - prefects
+      - christmas
+      - castle-decorations
+      - peeves
+      - filch
+      - corridor-patrols
+      - student-supervision
+    candidate_part: Student Life and School Customs
+    candidate_chapter: Holidays, Feasts, and Seasonal Duties
+    candidate_section: Christmas duties for prefects and staff
+    reason_for_placement: The passage shows seasonal Hogwarts operations beyond feasts, including student leadership labor and caretaker patrol concerns.
+    relevance_to_hogwarts_a_history: This can seed a practical account of how holiday customs created extra work for prefects and enforcement staff.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch11-004
+        - gof-ch22-003
+        - ps-ch09-005
+        - cos-ch12-002
+      notes: poa-ch11-004 and gof-ch22-003 record Christmas decorations, ps-ch09-005 records prefect and Filch patrol enforcement, and cos-ch12-002 records holiday residence; this entry adds prefect-supervised decorating, indoor break supervision, and holiday corridor shifts.
+    confidence: high
+    limitations: The details are centered on Gryffindor prefects and may not describe every House's holiday duty assignment.
+
+  - id: ootp-ch21-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 2004
+    printed_page: null
+    extracted_text_lines: 338-379
+    text_anchor:
+      start_phrase: The only thing he really looked forward to were the D.A. meetings
+      end_phrase: It's often infested with nargles
+      local_occurrence_note: Harry arrives early for the last pre-holiday D.A. meeting and finds the Room of Requirement decorated by Dobby.
+    nearby_context: The D.A. will pause over the holidays because most members will be with family, and Umbridge's watch discourages contact with Sirius.
+    match_terms:
+      - Dumbledore's Army
+      - Room of Requirement
+      - Dobby
+      - house-elf
+      - Christmas decorations
+      - holidays
+      - Umbridge
+    quote_excerpt_short: "Dobby had taken it upon himself to decorate"
+    source_note: The Room of Requirement supports repeated D.A. use and temporary holiday decoration by Dobby, while the group's meetings pause over Christmas because members disperse to families.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - room-of-requirement
+      - dumbledores-army
+      - dobby
+      - house-elves
+      - christmas
+      - student-organizations
+      - school-surveillance
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+    candidate_section: Repeated D.A. use and house-elf decoration
+    reason_for_placement: The passage confirms the room's continued availability for an illicit student group and shows a house-elf altering its presentation before a meeting.
+    relevance_to_hogwarts_a_history: A later edition can use this as a minor but concrete example of how responsive spaces and house-elf labor intersected with student life.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch18-005
+        - ootp-ch18-006
+        - ootp-ch18-007
+      notes: ootp-ch18-005 names the Room of Requirement, ootp-ch18-006 records its defensive-classroom setup, and ootp-ch18-007 records the first formal D.A. meeting; this entry adds continued use, holiday pause, and Dobby's decorations.
+    confidence: high
+    limitations: The decorations are Dobby's voluntary intervention, not proof of the room generating holiday decor by itself.
+
+  - id: ootp-ch21-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 2005
+    printed_page: null
+    extracted_text_lines: 383-402
+    text_anchor:
+      start_phrase: we've replaced you
+      end_phrase: the rest of the idiots who turned up
+      local_occurrence_note: Angelina, Katie, and Alicia tell Harry that Ginny Weasley will replace him as Seeker and Andrew Kirke and Jack Sloper will replace the banned Beaters.
+    nearby_context: The conversation occurs before the D.A. meeting and follows Umbridge's lifelong Quidditch bans and broom confiscations.
+    match_terms:
+      - Gryffindor Quidditch
+      - Ginny Weasley
+      - Seeker
+      - Andrew Kirke
+      - Jack Sloper
+      - Beaters
+      - Quidditch ban
+    quote_excerpt_short: "We've got another Seeker"
+    source_note: Gryffindor responds to the High Inquisitor's Quidditch bans by replacing Harry with Ginny Weasley as Seeker and recruiting Andrew Kirke and Jack Sloper as Beaters.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - quidditch
+      - gryffindor-team
+      - ginny-weasley
+      - seeker
+      - beaters
+      - quidditch-ban
+      - high-inquisitor
+    candidate_part: Student Life and School Customs
+    candidate_chapter: House Teams and Training
+    candidate_section: Team replacement after High Inquisitor sanctions
+    reason_for_placement: The passage shows how a House team maintains competition after disciplinary removal of key players.
+    relevance_to_hogwarts_a_history: A later editorial note can trace how Umbridge-era sanctions affected team composition while ordinary House sport continued.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch19-007
+        - ootp-ch18-002
+        - ootp-ch14-004
+      notes: ootp-ch19-007 records the bans and broom confiscations, ootp-ch18-002 records High Inquisitor approval to reform the team, and ootp-ch14-004 records regular team practice; this entry adds the actual replacement players.
+    confidence: high
+    limitations: The passage gives no match outcome for the replacement lineup.
+
+  - id: ootp-ch21-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 2006
+    printed_page: null
+    extracted_text_lines: 406-444
+    text_anchor:
+      start_phrase: I thought this evening we should just go over
+      end_phrase: maybe even Patronuses
+      local_occurrence_note: Harry structures the final pre-holiday D.A. lesson as review, with paired Impediment Jinx work and another round of Stunning practice.
+    nearby_context: Neville improves markedly, the room is too confined for everyone to practise Stunning at once, and Harry plans bigger magic after the break.
+    match_terms:
+      - Dumbledore's Army
+      - Impediment Jinx
+      - Impedimenta
+      - Stunning
+      - Neville Longbottom
+      - Patronuses
+      - Defense Against the Dark Arts
+    quote_excerpt_short: "maybe even Patronuses"
+    source_note: The D.A. curriculum progresses from review of the Impediment Jinx to Stunning practice, shows measurable student improvement, and anticipates Patronus work after the holiday.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledores-army
+      - practical-defense
+      - impediment-jinx
+      - stunning-spell
+      - patronus
+      - neville-longbottom
+      - student-led-instruction
+    candidate_part: Curriculum and Instruction
+    candidate_chapter: Defense Against the Dark Arts
+    candidate_section: D.A. spell progression and student improvement
+    reason_for_placement: The scene gives a compact progression of the illicit practical Defense curriculum and its student outcomes before the winter break.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence that the D.A. became a sustained practical curriculum rather than a single protest meeting.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch18-007
+        - ootp-ch15-007
+        - ootp-ch16-004
+        - ootp-ch08-003
+      notes: ootp-ch18-007 records the first Expelliarmus lesson, ootp-ch15-007 and ootp-ch16-004 record the proposal and organizing meeting, and ootp-ch08-003 records Harry's Patronus instruction; this entry adds later D.A. review work, Stunning practice, and planned Patronuses.
+    confidence: high
+    limitations: The D.A. remains unauthorized, so this should not be treated as official DADA curriculum.
+
+  - id: ootp-ch21-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-One - The Eye of the Snake
+    chapter_start_pdf_page: 1994
+    chapter_end_pdf_page: 2017
+    pdf_page: 2016
+    printed_page: null
+    extracted_text_lines: 733-776
+    text_anchor:
+      start_phrase: It wasn't a dream
+      end_phrase: we're going to see the headmaster
+      local_occurrence_note: Harry insists that his snake vision of Arthur Weasley's attack is real, Neville fetches McGonagall, and McGonagall routes Harry to Dumbledore.
+    nearby_context: Harry wakes violently ill in the fifth-year boys' dormitory after perceiving the attack and identifies McGonagall as an Order member rather than merely a school medical authority.
+    match_terms:
+      - Arthur Weasley
+      - snake attack
+      - Gryffindor dormitory
+      - Neville Longbottom
+      - Professor McGonagall
+      - headmaster
+      - Order of the Phoenix
+    quote_excerpt_short: "we're going to see the headmaster"
+    source_note: A student crisis in Gryffindor Tower is escalated from dormitory peers to McGonagall and then directly to the headmaster because Harry's vision concerns an Order-connected attack.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - gryffindor-dormitory
+      - professor-mcgonagall
+      - headmaster
+      - order-of-the-phoenix
+      - arthur-weasley
+      - crisis-response
+      - student-safety
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Protective Magic and Security
+    candidate_section: Dormitory crisis escalation to the headmaster
+    reason_for_placement: The passage shows how ordinary House supervision can route an extraordinary security event to Dumbledore immediately.
+    relevance_to_hogwarts_a_history: A later editorial note can use this as a transition point between school life and wartime protection systems during the second Voldemort conflict.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate searches for vision, dream, scar, Arthur Weasley, McGonagall, and headmaster found general headmaster and crisis entries but no prior entry for this dormitory-to-headmaster escalation.
+    confidence: medium
+    limitations: The immediate verification and Dumbledore's response occur in the next chapter, so this entry records the escalation trigger rather than the full institutional response.

@@ -10940,6 +10940,115 @@ by_entry:
     - student-safety
     source_unit: ootp-ch20
     output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch21-001:
+    title: 'Grounds, Transport, and the Forbidden Forest: Thestrals, carriage teams,
+      and death-sight visibility'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - death-witnesses
+    - dumbledore
+    - forbidden-forest
+    - hagrid
+    - school-carriages
+    - student-transport
+    - thestrals
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch21-002:
+    title: 'Headmasters and School Authority: High Inquisitor inspections and Care
+      of Magical Creatures'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - hagrid
+    - high-inquisitor
+    - magical-creatures
+    - ministry-classification
+    - prejudice
+    - staff-inspections
+    - thestrals
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch21-003:
+    title: 'Holidays, Feasts, and Seasonal Duties: Christmas duties for prefects and
+      staff'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - castle-decorations
+    - christmas
+    - corridor-patrols
+    - filch
+    - peeves
+    - prefects
+    - student-supervision
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch21-004:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: Repeated D.A.
+      use and house-elf decoration'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - christmas
+    - dobby
+    - dumbledores-army
+    - house-elves
+    - room-of-requirement
+    - school-surveillance
+    - student-organizations
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch21-005:
+    title: 'House Teams and Training: Team replacement after High Inquisitor sanctions'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - beaters
+    - ginny-weasley
+    - gryffindor-team
+    - high-inquisitor
+    - quidditch
+    - quidditch-ban
+    - seeker
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch21-006:
+    title: 'Defense Against the Dark Arts: D.A. spell progression and student improvement'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - dumbledores-army
+    - impediment-jinx
+    - neville-longbottom
+    - patronus
+    - practical-defense
+    - student-led-instruction
+    - stunning-spell
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch21-007:
+    title: 'Protective Magic and Security: Dormitory crisis escalation to the headmaster'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - arthur-weasley
+    - crisis-response
+    - gryffindor-dormitory
+    - headmaster
+    - order-of-the-phoenix
+    - professor-mcgonagall
+    - student-safety
+    source_unit: ootp-ch21
+    output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11107,6 +11216,7 @@ by_tag:
   - ps-ch06-006
   arthur-weasley:
   - ootp-ch07-006
+  - ootp-ch21-007
   assessment:
   - cos-ch16-001
   astrology:
@@ -11209,6 +11319,8 @@ by_tag:
   - cos-ch17-007
   bathrooms:
   - gof-ch25-002
+  beaters:
+  - ootp-ch21-005
   beauxbatons:
   - gof-ch09-002
   - gof-ch11-004
@@ -11420,6 +11532,8 @@ by_tag:
   castle-architecture:
   - gof-ch15-001
   - ootp-ch14-002
+  castle-decorations:
+  - ootp-ch21-003
   castle-gates:
   - ootp-ch16-001
   castle-grounds:
@@ -11592,6 +11706,8 @@ by_tag:
   christmas:
   - gof-ch22-003
   - gof-ch23-001
+  - ootp-ch21-003
+  - ootp-ch21-004
   - poa-ch11-004
   - ps-ch12-003
   christmas-dinner:
@@ -11722,6 +11838,7 @@ by_tag:
   - poa-ch07-005
   corridor-patrols:
   - cos-ch16-004
+  - ootp-ch21-003
   corridors:
   - ps-ch10-004
   - ps-ch12-001
@@ -11795,6 +11912,8 @@ by_tag:
   - poa-ch20-005
   crisis-morale:
   - cos-ch13-003
+  crisis-response:
+  - ootp-ch21-007
   crisis-security:
   - ootp-ch01-004
   - poa-ch04-007
@@ -11923,6 +12042,8 @@ by_tag:
   - ootp-ch09-001
   - ootp-ch09-007
   - ootp-ch20-005
+  death-witnesses:
+  - ootp-ch21-001
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -12140,6 +12261,7 @@ by_tag:
   - gof-ch26-004
   - gof-ch28-001
   - gof-ch35-003
+  - ootp-ch21-004
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
@@ -12272,6 +12394,7 @@ by_tag:
   - ootp-ch20-003
   - ootp-ch20-004
   - ootp-ch20-005
+  - ootp-ch21-001
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -12317,6 +12440,8 @@ by_tag:
   dumbledores-army:
   - ootp-ch15-007
   - ootp-ch18-007
+  - ootp-ch21-004
+  - ootp-ch21-006
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -12566,6 +12691,7 @@ by_tag:
   - ootp-ch16-001
   - ootp-ch18-001
   - ootp-ch18-005
+  - ootp-ch21-003
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -12702,6 +12828,7 @@ by_tag:
   - gof-ch28-007
   - ootp-ch11-005
   - ootp-ch14-002
+  - ootp-ch21-001
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -12848,6 +12975,7 @@ by_tag:
   ginny-weasley:
   - cos-ch17-002
   - cos-ch18-002
+  - ootp-ch21-005
   girls-bathroom:
   - ps-ch10-004
   goblet-of-fire:
@@ -13030,11 +13158,13 @@ by_tag:
   - ps-ch13-003
   gryffindor-dormitory:
   - ootp-ch11-007
+  - ootp-ch21-007
   gryffindor-sword:
   - cos-ch18-004
   - gof-ch30-001
   gryffindor-team:
   - ootp-ch14-004
+  - ootp-ch21-005
   - poa-ch13-001
   gryffindor-tower:
   - cos-ch05-006
@@ -13118,6 +13248,8 @@ by_tag:
   - ootp-ch20-002
   - ootp-ch20-006
   - ootp-ch20-007
+  - ootp-ch21-001
+  - ootp-ch21-002
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -13234,6 +13366,7 @@ by_tag:
   - cos-ch02-003
   - cos-ch12-006
   - cos-ch14-006
+  - ootp-ch21-007
   - ps-ch04-002
   - ps-ch04-006
   - ps-ch06-003
@@ -13364,6 +13497,8 @@ by_tag:
   - ootp-ch18-002
   - ootp-ch19-007
   - ootp-ch20-006
+  - ootp-ch21-002
+  - ootp-ch21-005
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -13679,6 +13814,7 @@ by_tag:
   - ootp-ch14-001
   - ootp-ch18-004
   - ootp-ch18-005
+  - ootp-ch21-004
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -13780,6 +13916,8 @@ by_tag:
   - gof-ch14-002
   impediment-curse:
   - gof-ch29-004
+  impediment-jinx:
+  - ootp-ch21-006
   imperius-curse:
   - gof-ch14-003
   - gof-ch14-005
@@ -14225,6 +14363,7 @@ by_tag:
   - ootp-ch11-001
   - ootp-ch15-006
   - ootp-ch20-007
+  - ootp-ch21-002
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -14484,6 +14623,8 @@ by_tag:
   - poa-ch21-001
   ministry-authorization:
   - poa-ch21-002
+  ministry-classification:
+  - ootp-ch21-002
   ministry-contacts:
   - gof-ch36-006
   ministry-control:
@@ -14768,6 +14909,7 @@ by_tag:
   nesting-mothers:
   - gof-ch19-005
   neville-longbottom:
+  - ootp-ch21-006
   - poa-ch12-006
   - poa-ch13-007
   newt-courses:
@@ -14892,6 +15034,7 @@ by_tag:
   - ootp-ch09-003
   - ootp-ch10-001
   - ootp-ch14-003
+  - ootp-ch21-007
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -15006,6 +15149,7 @@ by_tag:
   - ootp-ch03-001
   - ootp-ch08-003
   - ootp-ch16-005
+  - ootp-ch21-006
   - poa-ch20-007
   patronus-charm:
   - poa-ch12-002
@@ -15023,6 +15167,7 @@ by_tag:
   - cos-ch11-006
   - gof-ch15-001
   - gof-ch22-003
+  - ootp-ch21-003
   - poa-ch07-005
   - poa-ch08-007
   - poa-ch10-003
@@ -15212,6 +15357,7 @@ by_tag:
   - ootp-ch15-007
   - ootp-ch16-004
   - ootp-ch18-007
+  - ootp-ch21-006
   practical-examination:
   - ootp-ch12-004
   practical-exams:
@@ -15260,6 +15406,7 @@ by_tag:
   - ootp-ch12-001
   - ootp-ch13-001
   - ootp-ch14-006
+  - ootp-ch21-003
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -15269,6 +15416,8 @@ by_tag:
   prefects-bathroom:
   - gof-ch23-007
   - gof-ch25-002
+  prejudice:
+  - ootp-ch21-002
   press-access:
   - gof-ch24-004
   prewett-family:
@@ -15359,6 +15508,7 @@ by_tag:
   - ootp-ch15-005
   - ootp-ch18-002
   - ootp-ch19-006
+  - ootp-ch21-007
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -15494,6 +15644,7 @@ by_tag:
   - ootp-ch18-002
   - ootp-ch19-003
   - ootp-ch19-006
+  - ootp-ch21-005
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -15510,6 +15661,7 @@ by_tag:
   - ps-ch09-003
   quidditch-ban:
   - ootp-ch19-007
+  - ootp-ch21-005
   quidditch-books:
   - gof-ch02-002
   quidditch-cup:
@@ -15674,6 +15826,7 @@ by_tag:
   - gof-ch23-004
   - ootp-ch18-005
   - ootp-ch18-006
+  - ootp-ch21-004
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -15709,6 +15862,8 @@ by_tag:
   - cos-ch13-002
   school-brooms:
   - ps-ch09-002
+  school-carriages:
+  - ootp-ch21-001
   school-closure:
   - cos-ch13-007
   - cos-ch14-004
@@ -15854,6 +16009,7 @@ by_tag:
   - ps-ch04-003
   school-surveillance:
   - ootp-ch18-001
+  - ootp-ch21-004
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -15964,6 +16120,7 @@ by_tag:
   - cos-ch07-001
   - gof-ch05-005
   - gof-ch06-004
+  - ootp-ch21-005
   - ps-ch09-003
   seeker-tactics:
   - poa-ch13-003
@@ -16238,6 +16395,7 @@ by_tag:
   - ootp-ch15-001
   - ootp-ch20-006
   - ootp-ch20-007
+  - ootp-ch21-002
   staff-memory:
   - poa-ch10-006
   staff-offices:
@@ -16402,6 +16560,7 @@ by_tag:
   student-led-instruction:
   - ootp-ch16-004
   - ootp-ch18-007
+  - ootp-ch21-006
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -16433,6 +16592,7 @@ by_tag:
   student-organizations:
   - ootp-ch17-001
   - ootp-ch19-001
+  - ootp-ch21-004
   student-organizing:
   - ootp-ch16-003
   - ootp-ch16-006
@@ -16507,6 +16667,7 @@ by_tag:
   - ootp-ch13-006
   - ootp-ch15-006
   - ootp-ch20-007
+  - ootp-ch21-007
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -16521,6 +16682,8 @@ by_tag:
   - cos-ch10-002
   student-study:
   - cos-ch11-005
+  student-supervision:
+  - ootp-ch21-003
   student-training:
   - gof-ch34-001
   - ootp-ch15-007
@@ -16528,6 +16691,7 @@ by_tag:
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch14-002
+  - ootp-ch21-001
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -16547,6 +16711,7 @@ by_tag:
   stunning-spell:
   - gof-ch09-004
   - gof-ch29-004
+  - ootp-ch21-006
   stunning-spells:
   - gof-ch19-005
   sturgis-podmore:
@@ -16681,6 +16846,8 @@ by_tag:
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch14-002
+  - ootp-ch21-001
+  - ootp-ch21-002
   third-floor:
   - ootp-ch13-005
   third-floor-corridor:

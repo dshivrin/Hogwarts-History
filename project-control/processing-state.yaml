@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 20
-  chapter_title: Chapter Twenty - Hagrid's Tale
-  page_start: 1974
-  page_end: 1993
-  output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 21
   chapter_title: Chapter Twenty-One - The Eye of the Snake
   page_start: 1994
   page_end: 2017
   output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2018
   page_end: 2042
   output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 23
+  chapter_title: Chapter Twenty-Three - Christmas on the Closed Ward
+  page_start: 2043
+  page_end: 2065
+  output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

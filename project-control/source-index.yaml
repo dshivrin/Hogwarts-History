@@ -1369,3 +1369,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 1974-1993.
+- source_unit_id: ootp-ch21
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 21
+  chapter_title: Chapter Twenty-One - The Eye of the Snake
+  page_start: 1994
+  page_end: 2017
+  output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  processed_at: '2026-07-08'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 1994-2017.

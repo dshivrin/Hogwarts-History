@@ -551,6 +551,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter plac
   - Corroborates: `ps-ch08-001`, `ps-ch09-004`, `ps-ch10-004`. Earlier entries seed castle navigation, armor, and interior rooms; this entry adds a specific magical object and Dumbledore's historical-context statement.
   - Notes: The source does not say how long the mirror has been at Hogwarts or whether it was present before the original-book cutoff; the pre-1984 classification rests on Dumbledore's "hundreds before you" phrasing.
 
+### Chapter: Grounds, Transport, and the Forbidden Forest
+
+#### Section: Thestrals, carriage teams, and death-sight visibility
+
+Summary: The available evidence includes 1 source item, led by: The lesson confirms that Hogwarts keeps a thestral herd in the Forbidden Forest, uses them mainly to pull school carriages, and that only people who have seen death can see them.
+
+- **Corroboration:** The lesson confirms that Hogwarts keeps a thestral herd in the Forbidden Forest, uses them mainly to pull school carriages, and that only people who have seen death can see them.
+  - Quote: "Hogwarts has got a whole herd"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 1998, `ootp-ch21-001`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch14-002`, `ootp-ch20-007`, `gof-ch11-006`. ootp-ch14-002 identifies the unseen carriage creatures near the forest, ootp-ch20-007 anticipates Hagrid's unnamed domestic herd, and gof-ch11-006 records the carriage route; this entry names the herd as thestrals and adds the death-sight rule.
+  - Notes: The lesson does not give a full herd count beyond the founding stock and observed individuals.
+
 ### Chapter: Headmaster's Office and Protected Entrances
 
 #### Section: Dippet-Era Office and Entrance Continuity
@@ -686,6 +700,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: magical_architecture
   - Corroborates: `cos-ch16-007`. Chapter Sixteen reaches the serpent-carved wall and route toward the Chamber; this entry continues that route into the central room and adds direct architectural description.
   - Notes: Harry's observation does not identify the statue by name until Riddle later addresses it as Slytherin.
+
+### Chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+
+#### Section: Repeated D.A. use and house-elf decoration
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement supports repeated D.A. use and temporary holiday decoration by Dobby, while the group's meetings pause over Christmas because members disperse to families.
+
+- **Corroboration:** The Room of Requirement supports repeated D.A. use and temporary holiday decoration by Dobby, while the group's meetings pause over Christmas because members disperse to families.
+  - Quote: "Dobby had taken it upon himself to decorate"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 2004, `ootp-ch21-004`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch18-005`, `ootp-ch18-006`, `ootp-ch18-007`. ootp-ch18-005 names the Room of Requirement, ootp-ch18-006 records its defensive-classroom setup, and ootp-ch18-007 records the first formal D.A. meeting; this entry adds continued use, holiday pause, and Dobby's decorations.
+  - Notes: The decorations are Dobby's voluntary intervention, not proof of the room generating holiday decor by itself.
 
 ### Chapter: Temporary Tournament Enchantments
 
@@ -6728,6 +6756,18 @@ Summary: The available evidence includes 1 source item, led by: The Prophet repo
   - Corroborates: `gof-ch36-005`, `ootp-ch11-006`, `ootp-ch12-006`, `ootp-ch14-006`. gof-ch36-005 records Fudge's earlier governance threat, ootp-ch11-006 records Umbridge's coded policy speech, ootp-ch12-006 records the classroom curriculum effect, and ootp-ch14-006 records prefect-level pressure; this entry adds the named decrees and High Inquisitor inspection office.
   - Notes: The account is filtered through the Daily Prophet and Percy Weasley, so hostile framing and Ministry spin should be separated from the formal decree facts.
 
+#### Section: High Inquisitor inspections and Care of Magical Creatures
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's inspection combines Ministry dangerous-creature classification with hostile scrutiny of Hagrid's speech, memory, and lesson control, while Hagrid gives founding details for the school herd.
+
+- **Corroboration:** Umbridge's inspection combines Ministry dangerous-creature classification with hostile scrutiny of Hagrid's speech, memory, and lesson control, while Hagrid gives founding details for the school herd.
+  - Quote: "classified thestrals as dangerous"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 2000, `ootp-ch21-002`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch20-006`, `ootp-ch15-006`, `ootp-ch15-001`. ootp-ch20-006 records Umbridge warning Hagrid of inspection, ootp-ch15-006 records Grubbly-Plank's inspected creature syllabus, and ootp-ch15-001 records the High Inquisitor office; this entry adds the actual thestral inspection and Ministry dangerous classification.
+  - Notes: Umbridge's written report is not shown, only the notes she mutters and the promised result in ten days.
+
 #### Section: High Inquisitor scrutiny of Hagrid
 
 Summary: The available evidence includes 1 source item, led by: Umbridge applies High Inquisitor authority directly to Hagrid, combining surveillance of his cabin, questioning about his unexplained absence, Ministerial reporting, and a future staff inspection threat.
@@ -6967,6 +7007,17 @@ Summary: The available evidence includes 1 source item, led by: Hermione's fake 
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch17-001`, `ootp-ch17-003`. ootp-ch17-001 records the decree disbanding student organizations and ootp-ch17-003 records watched communications; this entry adds the D.A.'s enchanted-coin workaround.
   - Notes: The method is student-created and exceptional to the D.A.; it is not an official Hogwarts communication system.
+
+#### Section: Dormitory crisis escalation to the headmaster
+
+Summary: The available evidence includes 1 source item, led by: A student crisis in Gryffindor Tower is escalated from dormitory peers to McGonagall and then directly to the headmaster because Harry's vision concerns an Order-connected attack.
+
+- **Context:** A student crisis in Gryffindor Tower is escalated from dormitory peers to McGonagall and then directly to the headmaster because Harry's vision concerns an Order-connected attack.
+  - Quote: "we're going to see the headmaster"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 2016, `ootp-ch21-007`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The immediate verification and Dumbledore's response occur in the next chapter, so this entry records the escalation trigger rather than the full institutional response.
 
 #### Section: Watched communications under the High Inquisitor
 
@@ -8143,6 +8194,18 @@ Summary: The available evidence includes 1 source item, led by: Fifth-year Charm
 
 ### Chapter: Defense Against the Dark Arts
 
+#### Section: D.A. spell progression and student improvement
+
+Summary: The available evidence includes 1 source item, led by: The D.A. curriculum progresses from review of the Impediment Jinx to Stunning practice, shows measurable student improvement, and anticipates Patronus work after the holiday.
+
+- **Corroboration:** The D.A. curriculum progresses from review of the Impediment Jinx to Stunning practice, shows measurable student improvement, and anticipates Patronus work after the holiday.
+  - Quote: "maybe even Patronuses"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 2006, `ootp-ch21-006`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch18-007`, `ootp-ch15-007`, `ootp-ch16-004`, `ootp-ch08-003`. ootp-ch18-007 records the first Expelliarmus lesson, ootp-ch15-007 and ootp-ch16-004 record the proposal and organizing meeting, and ootp-ch08-003 records Harry's Patronus instruction; this entry adds later D.A. review work, Stunning practice, and planned Patronuses.
+  - Notes: The D.A. remains unauthorized, so this should not be treated as official DADA curriculum.
+
 #### Section: Dumbledore's Army and student-led practical Defense
 
 Summary: The available evidence includes 1 source item, led by: The first Room of Requirement meeting elects Harry leader, adopts the coded name D.A./Dumbledore's Army, and begins practical cross-House Defense instruction with Expelliarmus before students disperse to their House areas.
@@ -8702,6 +8765,34 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: institutional_custom
   - Corroborates: `poa-ch08-003`. poa-ch08-003 already records Head-of-House collection and Filch door checks for Hogsmeade permission forms; this entry corroborates the system in fifth year and adds the parent-or-guardian list wording plus the gate route.
   - Notes: The passage does not state whether Filch created the list, whether teachers supervised the walk, or how the procedure changed under heightened security.
+
+### Chapter: Holidays, Feasts, and Seasonal Duties
+
+#### Section: Christmas duties for prefects and staff
+
+Summary: The available evidence includes 1 source item, led by: Prefects supervise Christmas decorating, watch younger students kept inside by cold weather, and patrol corridors with Filch during the holiday season.
+
+- **Corroboration:** Prefects supervise Christmas decorating, watch younger students kept inside by cold weather, and patrol corridors with Filch during the holiday season.
+  - Quote: "prefect duties also became more and more onerous"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 2003, `ootp-ch21-003`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch11-004`, `gof-ch22-003`, `ps-ch09-005`, `cos-ch12-002`. poa-ch11-004 and gof-ch22-003 record Christmas decorations, ps-ch09-005 records prefect and Filch patrol enforcement, and cos-ch12-002 records holiday residence; this entry adds prefect-supervised decorating, indoor break supervision, and holiday corridor shifts.
+  - Notes: The details are centered on Gryffindor prefects and may not describe every House's holiday duty assignment.
+
+### Chapter: House Teams and Training
+
+#### Section: Team replacement after High Inquisitor sanctions
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor responds to the High Inquisitor's Quidditch bans by replacing Harry with Ginny Weasley as Seeker and recruiting Andrew Kirke and Jack Sloper as Beaters.
+
+- **Corroboration:** Gryffindor responds to the High Inquisitor's Quidditch bans by replacing Harry with Ginny Weasley as Seeker and recruiting Andrew Kirke and Jack Sloper as Beaters.
+  - Quote: "We've got another Seeker"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, PDF p. 2005, `ootp-ch21-005`, `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch19-007`, `ootp-ch18-002`, `ootp-ch14-004`. ootp-ch19-007 records the bans and broom confiscations, ootp-ch18-002 records High Inquisitor approval to reform the team, and ootp-ch14-004 records regular team practice; this entry adds the actual replacement players.
+  - Notes: The passage gives no match outcome for the replacement lineup.
 
 ## Part: Student Life and Traditions
 
