@@ -31,6 +31,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Care of Magical Creatures and Grounds-Based Teaching
   - Experimental Breeding, Safety, and Oversight
+  - O.W.L. pressure and Hagrid's returning lesson plans
   - Substitute Instruction and Unicorn Handling
   - Substitute inspection and O.W.L. creature syllabus
   - Unicorn Foals and Lifecycle Instruction
@@ -386,6 +387,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Educational Decree Number Twenty-five and punishment authority
   - Educational Decree Number Twenty-four and student organizations
   - Educational Decrees and the High Inquisitor
+  - High Inquisitor scrutiny of Hagrid
   - Ministry denial, classroom discipline, and staff constraints
   - Ministry pressure on Dumbledore's allies
   - Ministry pressure on prefect loyalty
@@ -451,6 +453,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts-Connected Families
   - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
+  - Competing giant recruitment after Karkus's death
+  - Ministry surveillance and the giant mission route
   - Order Escorts for School Travel
   - Order Leadership, Membership, and Headquarters Meetings
   - Order Operations and Intelligence Work
@@ -537,6 +541,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Castle Navigation and Concealed Routes
   - Marauders-era meeting places and blocked passages
 - Castle Navigation, Maps, and Concealed Routes
+  - Map-and-cloak movement between tower and grounds
   - Tapestry Shortcuts and Trick Steps
   - The Honeydukes Passage
   - The Marauder's Map
@@ -639,6 +644,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Peoples, Beings, and Magical Society
 
+- Giants and Wizarding Relations
+  - Gurg diplomacy and Dumbledore's reputation
+  - Population collapse and forced isolation
 - Goblins and Wizarding Political Relations
   - Goblin Neutrality and Recruitment Pressures
 - House-Elves, Service, and Wizarding Households

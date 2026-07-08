@@ -1,0 +1,348 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty - Hagrid's Tale
+  chapter_start_pdf_page: 1974
+  chapter_end_pdf_page: 1993
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 1974-1993. A one-page forward anchor extraction confirmed PDF page 1994 begins Chapter Twenty-One - The Eye of the Snake.
+  processed_date: '2026-07-08'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History references appear in this chapter."
+
+entries:
+  - id: ootp-ch20-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1974
+    printed_page: null
+    extracted_text_lines: 1-23
+    text_anchor:
+      start_phrase: Harry sprinted up to the boys' dormitory
+      end_phrase: until at last they reached the wooden front door
+      local_occurrence_note: Harry, Ron, and Hermione use the Invisibility Cloak and Marauder's Map to leave Gryffindor Tower and cross the snowy grounds to Hagrid's cabin at night.
+    nearby_context: The group checks the map for Filch and Mrs. Norris, passes through the entrance hall, and reaches Hagrid's cabin unseen.
+    match_terms:
+      - Invisibility Cloak
+      - Marauder's Map
+      - Filch
+      - Mrs. Norris
+      - entrance hall
+      - Hogwarts grounds
+      - Hagrid's cabin
+    quote_excerpt_short: "pausing at intervals to check the map"
+    source_note: The scene corroborates the practical pairing of the Invisibility Cloak and Marauder's Map for unauthorized late-night movement through the castle and grounds.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - marauders-map
+      - invisibility-cloak
+      - castle-navigation
+      - hogwarts-grounds
+      - hagrids-hut
+      - student-rulebreaking
+      - castle-security
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+    candidate_section: Map-and-cloak movement between tower and grounds
+    reason_for_placement: The passage shows student-held navigation and concealment tools defeating ordinary night patrols from a House tower to an outbuilding.
+    relevance_to_hogwarts_a_history: A later edition can use this as further evidence for unofficial movement networks and the limits of ordinary castle enforcement.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch17-004
+        - gof-ch25-001
+      notes: poa-ch17-004 records map tracking under concealment and grounds coverage, while gof-ch25-001 records nighttime castle navigation; this entry adds a fifth-year route from Gryffindor Tower to Hagrid's cabin under Ministry-era pressure.
+    confidence: high
+    limitations: The tools are illicit personal artifacts, not official Hogwarts infrastructure.
+
+  - id: ootp-ch20-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1979
+    printed_page: null
+    extracted_text_lines: 152-194
+    text_anchor:
+      start_phrase: Madame Maxime went with you, then?
+      end_phrase: looking for a reason to run us in
+      local_occurrence_note: Hagrid explains that Dumbledore sent him and Madame Maxime to the giants, but Ministry surveillance forced them to travel slowly and misdirect a tail.
+    nearby_context: Hagrid says Dumbledore knew where the giants were; he and Maxime pretended to travel toward Beauxbatons before losing a Ministry follower near Dijon.
+    match_terms:
+      - Madame Maxime
+      - Dumbledore
+      - giants
+      - Ministry surveillance
+      - Beauxbatons
+      - magic restriction
+      - Dijon
+    quote_excerpt_short: "The Ministry's keepin' an eye on Dumbledore"
+    source_note: Hagrid's account connects the giant mission to Dumbledore's intelligence, Ministry surveillance of his allies, and Hagrid's continuing vulnerability because he is not supposed to use magic freely.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-surveillance
+      - dumbledore
+      - hagrid
+      - madame-maxime
+      - giants
+      - order-network
+      - magic-restriction
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts-Connected Organizations
+    candidate_section: Ministry surveillance and the giant mission route
+    reason_for_placement: The passage shows how external surveillance shaped Hogwarts-connected Order operations and constrained staff travel.
+    relevance_to_hogwarts_a_history: This helps explain why a Hogwarts staff member's absence was prolonged and politically sensitive during Umbridge's year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch36-006
+        - cos-ch07-005
+      notes: gof-ch36-006 records Dumbledore sending envoys to giants, and cos-ch07-005 records Hagrid's magic restriction; this entry adds the surveillance-driven route, Maxime partnership, and Ministry tail.
+    confidence: high
+    limitations: The exact location of the giants remains deliberately vague as "mountains."
+
+  - id: ootp-ch20-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1980
+    printed_page: null
+    extracted_text_lines: 215-230
+    text_anchor:
+      start_phrase: Found 'em
+      end_phrase: stick together fer their own protection
+      local_occurrence_note: Hagrid describes the giant settlement, numbers the remaining giants at about seventy or eighty, and repeats Dumbledore's view that wizard displacement helped cause their decline.
+    nearby_context: The giants are hidden in a mountain valley, with Hagrid estimating a few at twenty-five feet and contrasting the current remnant with many former tribes.
+    match_terms:
+      - giants
+      - seventy or eighty
+      - tribes
+      - wizards
+      - Dumbledore
+      - mountains
+      - population decline
+    quote_excerpt_short: "eighty left, an' there was loads once"
+    source_note: Hagrid supplies a rare population estimate for surviving giants and attributes their current clustered, violent conditions partly to wizard displacement.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - giants
+      - giant-population
+      - wizarding-history
+      - dumbledore
+      - wizarding-prejudice
+      - magical-beings
+      - exile
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Giants and Wizarding Relations
+    candidate_section: Population collapse and forced isolation
+    reason_for_placement: The passage gives concrete historical and demographic context for giant communities beyond rumor or school prejudice.
+    relevance_to_hogwarts_a_history: A later edition can use this as background for Hagrid, Hogwarts staff prejudice, and Dumbledore's wider policies toward non-wizard beings.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch23-006
+        - ootp-ch05-005
+      notes: gof-ch23-006 records Hagrid's half-giant background and common giant stigma, while ootp-ch05-005 records Voldemort's recruitment interest; this entry adds surviving numbers, former tribal scale, and Dumbledore's displacement analysis.
+    confidence: medium
+    limitations: The population estimate and historical explanation come through Hagrid's field account and Dumbledore's interpretation, not an independent census.
+
+  - id: ootp-ch20-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1981
+    printed_page: null
+    extracted_text_lines: 242-315
+    text_anchor:
+      start_phrase: Give the Gurg gifts
+      end_phrase: what Dumbledore had ter say
+      local_occurrence_note: Hagrid describes Dumbledore's protocol for approaching Karkus, including gifts, interpreters, and a slow promise-keeping diplomatic rhythm.
+    nearby_context: The envoys give Karkus Gubraithian fire and a goblin-made helmet, and Karkus has heard that Dumbledore argued against killing the last giants in Britain.
+    match_terms:
+      - Gurg
+      - Karkus
+      - Gubraithian fire
+      - goblin-made helmet
+      - interpreters
+      - Dumbledore
+      - giants in Britain
+    quote_excerpt_short: "Give the Gurg gifts, show some respect"
+    source_note: The account records giant leadership terminology, gift diplomacy, translation needs, and Dumbledore's remembered opposition to killing Britain's last giants.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - giants
+      - gurg
+      - karkus
+      - diplomacy
+      - gubraithian-fire
+      - goblin-made
+      - dumbledore
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Giants and Wizarding Relations
+    candidate_section: Gurg diplomacy and Dumbledore's reputation
+    reason_for_placement: The passage supplies cultural and procedural detail about how wizards attempted formal diplomacy with a giant leader.
+    relevance_to_hogwarts_a_history: A later edition can connect Dumbledore's Hogwarts authority to his broader reputation among magical beings and to wartime alliance-building.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch36-006
+        - ootp-ch05-005
+      notes: gof-ch36-006 records the decision to send giant envoys, and ootp-ch05-005 records the strategic importance of recruiting giants; this entry adds the field protocol, gifts, Karkus, language mediation, and Dumbledore's anti-killing reputation.
+    confidence: high
+    limitations: The account is Hagrid's retrospective summary and does not preserve the full translated exchange.
+
+  - id: ootp-ch20-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1984
+    printed_page: null
+    extracted_text_lines: 336-444
+    text_anchor:
+      start_phrase: There was a new Gurg, Golgomath
+      end_phrase: Could be they'll come
+      local_occurrence_note: Karkus is killed, Golgomath takes power, Death Eaters including Macnair court the new Gurg, and Hagrid and Maxime try to reach dissident wounded giants.
+    nearby_context: Maxime uses Conjunctivitus Curses to free Hagrid after Golgomath's followers seize him, but that use of magic makes direct diplomacy impossible.
+    match_terms:
+      - Golgomath
+      - Macnair
+      - Death Eaters
+      - giants
+      - Conjunctivitus Curses
+      - Dumbledore
+      - wounded giants
+    quote_excerpt_short: "Macnair an' the other one were sneakin' round"
+    source_note: The mission's failure shows Death Eater competition for giant allegiance, Macnair's role as envoy, and Dumbledore's limited success in reaching giants hostile to Golgomath.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - giants
+      - golgomath
+      - macnair
+      - death-eaters
+      - voldemort
+      - dumbledore
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts-Connected Organizations
+    candidate_section: Competing giant recruitment after Karkus's death
+    reason_for_placement: The passage turns earlier strategic concern about giant recruitment into a concrete field report with named actors and partial outcomes.
+    relevance_to_hogwarts_a_history: A later edition can use this to explain the wider war context behind Hagrid's absence and the political risk around Hogwarts staff.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch05-005
+        - gof-ch36-006
+      notes: ootp-ch05-005 records Voldemort's recruitment strategy and gof-ch36-006 records Dumbledore's giant-envoy order; this entry adds Karkus's death, Golgomath, Macnair's daily visits, and the failed dissident-giant outreach.
+    confidence: high
+    limitations: Hagrid cannot confirm the final allegiance of every giant and frames only a possibility that some may later remember Dumbledore's message.
+
+  - id: ootp-ch20-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1989
+    printed_page: null
+    extracted_text_lines: 485-600
+    text_anchor:
+      start_phrase: Professor Umbridge was standing in the doorway
+      end_phrase: weed out unsatisfactory teachers
+      local_occurrence_note: Umbridge enters Hagrid's cabin, searches for concealed visitors, interrogates him about his absence and injuries, and warns that she will inspect him as High Inquisitor.
+    nearby_context: She notes three sets of footprints, searches cupboards and the cauldron, says another teacher covered Hagrid's classes, and says she will inform the Minister of his late return.
+    match_terms:
+      - Dolores Umbridge
+      - Hogwarts High Inquisitor
+      - Hagrid
+      - teacher inspections
+      - Minister
+      - footprints
+      - staff absence
+    quote_excerpt_short: "weed out unsatisfactory teachers"
+    source_note: Umbridge applies High Inquisitor authority directly to Hagrid, combining surveillance of his cabin, questioning about his unexplained absence, Ministerial reporting, and a future staff inspection threat.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - high-inquisitor
+      - dolores-umbridge
+      - hagrid
+      - staff-inspections
+      - ministry-intervention
+      - teacher-authority
+      - staff-absence
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Headmasters and School Authority
+    candidate_section: High Inquisitor scrutiny of Hagrid
+    reason_for_placement: The passage shows the High Inquisitor role moving from formal decree and classroom observation to intrusive scrutiny of a returning staff member's private cabin.
+    relevance_to_hogwarts_a_history: A later edition should treat this as a concrete example of Ministry oversight reaching staff residence, subject teaching, and internal personnel discipline.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch15-001
+        - ootp-ch19-007
+      notes: ootp-ch15-001 records the High Inquisitor inspection office and ootp-ch19-007 records expanded punishment authority; this entry adds Hagrid-specific interrogation, cabin search behavior, Minister notification, and the threat of inspection after a long absence.
+    confidence: high
+    limitations: The scene shows Umbridge's practice of authority, not the full legal text governing staff residence searches.
+
+  - id: ootp-ch20-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty - Hagrid's Tale
+    chapter_start_pdf_page: 1974
+    chapter_end_pdf_page: 1993
+    pdf_page: 1992
+    printed_page: null
+    extracted_text_lines: 604-651
+    text_anchor:
+      start_phrase: what sort of thing are you planning to do with us in class
+      end_phrase: she's not taking Hagrid
+      local_occurrence_note: After Umbridge leaves, Hermione urges Hagrid to teach safe O.W.L.-relevant creatures, while Hagrid says he has been saving a special domestic herd for years.
+    nearby_context: Hermione names porlocks and knarls as safer examination topics, but Hagrid says his planned creatures are more impressive and the only domestic herd in Britain.
+    match_terms:
+      - Care of Magical Creatures
+      - O.W.L.
+      - porlocks
+      - knarls
+      - hedgehogs
+      - domestic herd
+      - Umbridge inspection
+    quote_excerpt_short: "the on'y domestic herd in Britain"
+    source_note: The exchange contrasts examination-focused Care of Magical Creatures topics with Hagrid's planned high-risk live-creature teaching under imminent Ministry inspection.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - care-of-magical-creatures
+      - hagrid
+      - ordinary-wizarding-levels
+      - magical-creatures
+      - staff-inspections
+      - student-safety
+      - domestic-herd
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures and Grounds-Based Teaching
+    candidate_section: O.W.L. pressure and Hagrid's returning lesson plans
+    reason_for_placement: The passage shows how fifth-year assessment pressure, safety expectations, and Ministry inspection all shape what a Hogwarts teacher is advised to teach.
+    relevance_to_hogwarts_a_history: A later edition can use this to compare official exam preparation with Hagrid's distinctive creature-centered pedagogy.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch15-006
+        - gof-ch13-003
+        - gof-ch24-003
+      notes: ootp-ch15-006 records Grubbly-Plank's O.W.L.-focused substitute syllabus, gof-ch13-003 records Hagrid's hazardous Skrewt lesson, and gof-ch24-003 records regulatory concern around creature breeding; this entry adds Hagrid's fifth-year return plan and the "domestic herd in Britain" claim under Umbridge's inspection threat.
+    confidence: high
+    limitations: The creature herd is not named in this chapter, so its identification depends on later evidence.

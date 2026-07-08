@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty - Hagrid's Tale
-- Page range: 1974-1993
+- Chapter: Chapter Twenty-One - The Eye of the Snake
+- Page range: 1994-2017
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+- Output YAML: `sources/book-05/chapter-21-the-eye-of-the-snake.yaml`
 
 ## Minimal Context
 

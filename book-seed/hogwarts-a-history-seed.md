@@ -327,6 +327,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter map
   - Corroborates: `poa-ch10-004`. Book 3 Chapter Ten identifies the one-eyed-witch route and Honeydukes endpoint; this entry corroborates its repeat use, map-based route checking, Fat Lady misdirection, and interaction with crisis security.
   - Notes: The route's origin, builders, and staff knowledge remain unstated.
 
+#### Section: Map-and-cloak movement between tower and grounds
+
+Summary: The available evidence includes 1 source item, led by: The scene corroborates the practical pairing of the Invisibility Cloak and Marauder's Map for unauthorized late-night movement through the castle and grounds.
+
+- **Corroboration:** The scene corroborates the practical pairing of the Invisibility Cloak and Marauder's Map for unauthorized late-night movement through the castle and grounds.
+  - Quote: "pausing at intervals to check the map"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1974, `ootp-ch20-001`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `poa-ch17-004`, `gof-ch25-001`. poa-ch17-004 records map tracking under concealment and grounds coverage, while gof-ch25-001 records nighttime castle navigation; this entry adds a fifth-year route from Gryffindor Tower to Hagrid's cabin under Ministry-era pressure.
+  - Notes: The tools are illicit personal artifacts, not official Hogwarts infrastructure.
+
 #### Section: Tapestry Shortcuts and Trick Steps
 
 Summary: The available evidence includes 1 source item, led by: The chapter adds a concrete hidden staircase route behind a tapestry and a recurring trick-step hazard that students must remember while navigating the castle.
@@ -2042,6 +2054,18 @@ Summary: The available evidence includes 1 source item, led by: The article supp
   - Reference type: school_rule_or_policy
   - Corroborates: `gof-ch13-003`, `gof-ch18-003`, `gof-ch21-004`. gof-ch13-003 introduces live Skrewt rearing, gof-ch18-003 adds handling precautions, and gof-ch21-004 adds hibernation failure and illegal-origin concern; this entry adds explicit Department oversight language and parent-facing regulatory controversy.
   - Notes: The regulatory framing comes from a hostile article, though Hagrid's quoted "having some fun" response supports that the Skrewt project was real.
+
+#### Section: O.W.L. pressure and Hagrid's returning lesson plans
+
+Summary: The available evidence includes 1 source item, led by: The exchange contrasts examination-focused Care of Magical Creatures topics with Hagrid's planned high-risk live-creature teaching under imminent Ministry inspection.
+
+- **Corroboration:** The exchange contrasts examination-focused Care of Magical Creatures topics with Hagrid's planned high-risk live-creature teaching under imminent Ministry inspection.
+  - Quote: "the on'y domestic herd in Britain"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1992, `ootp-ch20-007`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch15-006`, `gof-ch13-003`, `gof-ch24-003`. ootp-ch15-006 records Grubbly-Plank's O.W.L.-focused substitute syllabus, gof-ch13-003 records Hagrid's hazardous Skrewt lesson, and gof-ch24-003 records regulatory concern around creature breeding; this entry adds Hagrid's fifth-year return plan and the "domestic herd in Britain" claim under Umbridge's inspection threat.
+  - Notes: The creature herd is not named in this chapter, so its identification depends on later evidence.
 
 #### Section: Substitute Instruction and Unicorn Handling
 
@@ -6704,6 +6728,18 @@ Summary: The available evidence includes 1 source item, led by: The Prophet repo
   - Corroborates: `gof-ch36-005`, `ootp-ch11-006`, `ootp-ch12-006`, `ootp-ch14-006`. gof-ch36-005 records Fudge's earlier governance threat, ootp-ch11-006 records Umbridge's coded policy speech, ootp-ch12-006 records the classroom curriculum effect, and ootp-ch14-006 records prefect-level pressure; this entry adds the named decrees and High Inquisitor inspection office.
   - Notes: The account is filtered through the Daily Prophet and Percy Weasley, so hostile framing and Ministry spin should be separated from the formal decree facts.
 
+#### Section: High Inquisitor scrutiny of Hagrid
+
+Summary: The available evidence includes 1 source item, led by: Umbridge applies High Inquisitor authority directly to Hagrid, combining surveillance of his cabin, questioning about his unexplained absence, Ministerial reporting, and a future staff inspection threat.
+
+- **Corroboration:** Umbridge applies High Inquisitor authority directly to Hagrid, combining surveillance of his cabin, questioning about his unexplained absence, Ministerial reporting, and a future staff inspection threat.
+  - Quote: "weed out unsatisfactory teachers"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1989, `ootp-ch20-006`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch15-001`, `ootp-ch19-007`. ootp-ch15-001 records the High Inquisitor inspection office and ootp-ch19-007 records expanded punishment authority; this entry adds Hagrid-specific interrogation, cabin search behavior, Minister notification, and the threat of inspection after a long absence.
+  - Notes: The scene shows Umbridge's practice of authority, not the full legal text governing staff residence searches.
+
 #### Section: Ministry denial, classroom discipline, and staff constraints
 
 Summary: The available evidence includes 1 source item, led by: Umbridge states the Ministry's denial of Voldemort's return inside class, treats Harry's contradiction as punishable misconduct, and McGonagall confirms the wider danger of Ministry reporting and interference.
@@ -7171,6 +7207,30 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Notes: Sirius reports family attitudes and post-death information secondhand, and his hostility toward his family shapes the framing.
 
 ### Chapter: The Second War and Hogwarts-Connected Organizations
+
+#### Section: Competing giant recruitment after Karkus's death
+
+Summary: The available evidence includes 1 source item, led by: The mission's failure shows Death Eater competition for giant allegiance, Macnair's role as envoy, and Dumbledore's limited success in reaching giants hostile to Golgomath.
+
+- **Corroboration:** The mission's failure shows Death Eater competition for giant allegiance, Macnair's role as envoy, and Dumbledore's limited success in reaching giants hostile to Golgomath.
+  - Quote: "Macnair an' the other one were sneakin' round"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1984, `ootp-ch20-005`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch05-005`, `gof-ch36-006`. ootp-ch05-005 records Voldemort's recruitment strategy and gof-ch36-006 records Dumbledore's giant-envoy order; this entry adds Karkus's death, Golgomath, Macnair's daily visits, and the failed dissident-giant outreach.
+  - Notes: Hagrid cannot confirm the final allegiance of every giant and frames only a possibility that some may later remember Dumbledore's message.
+
+#### Section: Ministry surveillance and the giant mission route
+
+Summary: The available evidence includes 1 source item, led by: Hagrid's account connects the giant mission to Dumbledore's intelligence, Ministry surveillance of his allies, and Hagrid's continuing vulnerability because he is not supposed to use magic freely.
+
+- **Corroboration:** Hagrid's account connects the giant mission to Dumbledore's intelligence, Ministry surveillance of his allies, and Hagrid's continuing vulnerability because he is not supposed to use magic freely.
+  - Quote: "The Ministry's keepin' an eye on Dumbledore"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1979, `ootp-ch20-002`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch36-006`, `cos-ch07-005`. gof-ch36-006 records Dumbledore sending envoys to giants, and cos-ch07-005 records Hagrid's magic restriction; this entry adds the surveillance-driven route, Maxime partnership, and Ministry tail.
+  - Notes: The exact location of the giants remains deliberately vague as "mountains."
 
 #### Section: Order Escorts for School Travel
 
@@ -8406,6 +8466,32 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Notes: Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
 
 ## Part: Peoples, Beings, and Magical Society
+
+### Chapter: Giants and Wizarding Relations
+
+#### Section: Gurg diplomacy and Dumbledore's reputation
+
+Summary: The available evidence includes 1 source item, led by: The account records giant leadership terminology, gift diplomacy, translation needs, and Dumbledore's remembered opposition to killing Britain's last giants.
+
+- **Corroboration:** The account records giant leadership terminology, gift diplomacy, translation needs, and Dumbledore's remembered opposition to killing Britain's last giants.
+  - Quote: "Give the Gurg gifts, show some respect"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1981, `ootp-ch20-004`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch36-006`, `ootp-ch05-005`. gof-ch36-006 records the decision to send giant envoys, and ootp-ch05-005 records the strategic importance of recruiting giants; this entry adds the field protocol, gifts, Karkus, language mediation, and Dumbledore's anti-killing reputation.
+  - Notes: The account is Hagrid's retrospective summary and does not preserve the full translated exchange.
+
+#### Section: Population collapse and forced isolation
+
+Summary: The available evidence includes 1 source item, led by: Hagrid supplies a rare population estimate for surviving giants and attributes their current clustered, violent conditions partly to wizard displacement.
+
+- **Corroboration:** Hagrid supplies a rare population estimate for surviving giants and attributes their current clustered, violent conditions partly to wizard displacement.
+  - Quote: "eighty left, an' there was loads once"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, PDF p. 1980, `ootp-ch20-003`, `sources/book-05/chapter-20-hagrid-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch23-006`, `ootp-ch05-005`. gof-ch23-006 records Hagrid's half-giant background and common giant stigma, while ootp-ch05-005 records Voldemort's recruitment interest; this entry adds surviving numbers, former tribal scale, and Dumbledore's displacement analysis.
+  - Notes: The population estimate and historical explanation come through Hagrid's field account and Dumbledore's interpretation, not an independent census.
 
 ### Chapter: Goblins and Wizarding Political Relations
 

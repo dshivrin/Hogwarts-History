@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-07'
+updated: '2026-07-08'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -10831,6 +10831,115 @@ by_entry:
     - student-discipline
     source_unit: ootp-ch19
     output_yaml: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  ootp-ch20-001:
+    title: 'Castle Navigation, Maps, and Concealed Routes: Map-and-cloak movement
+      between tower and grounds'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-navigation
+    - castle-security
+    - hagrids-hut
+    - hogwarts-grounds
+    - invisibility-cloak
+    - marauders-map
+    - student-rulebreaking
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch20-002:
+    title: 'The Second War and Hogwarts-Connected Organizations: Ministry surveillance
+      and the giant mission route'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dumbledore
+    - giants
+    - hagrid
+    - madame-maxime
+    - magic-restriction
+    - ministry-surveillance
+    - order-network
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch20-003:
+    title: 'Giants and Wizarding Relations: Population collapse and forced isolation'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore
+    - exile
+    - giant-population
+    - giants
+    - magical-beings
+    - wizarding-history
+    - wizarding-prejudice
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch20-004:
+    title: 'Giants and Wizarding Relations: Gurg diplomacy and Dumbledore''s reputation'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - diplomacy
+    - dumbledore
+    - giants
+    - goblin-made
+    - gubraithian-fire
+    - gurg
+    - karkus
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch20-005:
+    title: 'The Second War and Hogwarts-Connected Organizations: Competing giant recruitment
+      after Karkus''s death'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - death-eaters
+    - dumbledore
+    - giants
+    - golgomath
+    - macnair
+    - second-war
+    - voldemort
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch20-006:
+    title: 'Headmasters and School Authority: High Inquisitor scrutiny of Hagrid'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - hagrid
+    - high-inquisitor
+    - ministry-intervention
+    - staff-absence
+    - staff-inspections
+    - teacher-authority
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  ootp-ch20-007:
+    title: 'Care of Magical Creatures and Grounds-Based Teaching: O.W.L. pressure
+      and Hagrid''s returning lesson plans'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - domestic-herd
+    - hagrid
+    - magical-creatures
+    - ordinary-wizarding-levels
+    - staff-inspections
+    - student-safety
+    source_unit: ootp-ch20
+    output_yaml: sources/book-05/chapter-20-hagrid-s-tale.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11272,6 +11381,7 @@ by_tag:
   - ootp-ch11-005
   - ootp-ch13-004
   - ootp-ch15-006
+  - ootp-ch20-007
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -11337,6 +11447,7 @@ by_tag:
   - gof-ch25-005
   - ootp-ch17-007
   - ootp-ch18-006
+  - ootp-ch20-001
   - poa-ch06-002
   - poa-ch10-004
   - ps-ch08-001
@@ -11354,6 +11465,7 @@ by_tag:
   - cos-ch07-006
   - cos-ch09-006
   - gof-ch36-004
+  - ootp-ch20-001
   - poa-ch11-002
   - poa-ch12-001
   - poa-ch14-001
@@ -11810,6 +11922,7 @@ by_tag:
   - ootp-ch06-004
   - ootp-ch09-001
   - ootp-ch09-007
+  - ootp-ch20-005
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -11962,6 +12075,8 @@ by_tag:
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
+  diplomacy:
+  - ootp-ch20-004
   disarming:
   - gof-ch29-004
   disarming-charm:
@@ -12044,6 +12159,9 @@ by_tag:
   - ootp-ch17-003
   - ootp-ch18-001
   - ootp-ch18-002
+  - ootp-ch20-006
+  domestic-herd:
+  - ootp-ch20-007
   doors:
   - ps-ch08-001
   dormitories:
@@ -12150,6 +12268,10 @@ by_tag:
   - ootp-ch11-007
   - ootp-ch14-006
   - ootp-ch15-003
+  - ootp-ch20-002
+  - ootp-ch20-003
+  - ootp-ch20-004
+  - ootp-ch20-005
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -12341,6 +12463,8 @@ by_tag:
   - poa-ch22-005
   - ps-ch14-001
   - ps-ch16-001
+  exile:
+  - ootp-ch20-003
   expanded-interiors:
   - gof-ch07-002
   expecto-patronum:
@@ -12695,6 +12819,8 @@ by_tag:
   - poa-ch08-006
   - poa-ch09-002
   - ps-ch08-002
+  giant-population:
+  - ootp-ch20-003
   giant-squid:
   - gof-ch24-005
   - ps-ch16-002
@@ -12706,6 +12832,10 @@ by_tag:
   - gof-ch23-006
   - gof-ch36-006
   - ootp-ch05-005
+  - ootp-ch20-002
+  - ootp-ch20-003
+  - ootp-ch20-004
+  - ootp-ch20-005
   gilderoy-lockhart:
   - cos-ch04-006
   - cos-ch06-006
@@ -12734,6 +12864,8 @@ by_tag:
   - gof-ch35-002
   goblin-liaison:
   - gof-ch07-004
+  goblin-made:
+  - ootp-ch20-004
   goblin-rebellion:
   - poa-ch05-002
   goblin-rebellions:
@@ -12766,6 +12898,8 @@ by_tag:
   - gof-ch25-003
   golden-mist:
   - gof-ch31-005
+  golgomath:
+  - ootp-ch20-005
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -12943,9 +13077,13 @@ by_tag:
   - poa-ch08-003
   guardianship:
   - ps-ch01-004
+  gubraithian-fire:
+  - ootp-ch20-004
   guest-lodging:
   - gof-ch16-005
   - gof-ch21-003
+  gurg:
+  - ootp-ch20-004
   hagrid:
   - cos-ch02-004
   - cos-ch07-005
@@ -12977,6 +13115,9 @@ by_tag:
   - ootp-ch14-007
   - ootp-ch15-006
   - ootp-ch16-002
+  - ootp-ch20-002
+  - ootp-ch20-006
+  - ootp-ch20-007
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -13016,6 +13157,7 @@ by_tag:
   hagrid-pumpkins:
   - cos-ch08-004
   hagrids-hut:
+  - ootp-ch20-001
   - poa-ch06-005
   - poa-ch17-004
   half-giant:
@@ -13221,6 +13363,7 @@ by_tag:
   - ootp-ch17-004
   - ootp-ch18-002
   - ootp-ch19-007
+  - ootp-ch20-006
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -13340,6 +13483,7 @@ by_tag:
   - gof-ch29-001
   - gof-ch31-001
   - gof-ch32-001
+  - ootp-ch20-001
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -13730,6 +13874,7 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-007
   - ootp-ch03-005
+  - ootp-ch20-001
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -13781,6 +13926,8 @@ by_tag:
   - gof-ch28-007
   - gof-ch30-004
   - gof-ch37-003
+  karkus:
+  - ootp-ch20-004
   keeper:
   - cos-ch07-001
   - ootp-ch13-007
@@ -13966,6 +14113,7 @@ by_tag:
   lupins-office:
   - poa-ch19-001
   macnair:
+  - ootp-ch20-005
   - poa-ch16-002
   mad-eye-moody:
   - gof-ch11-001
@@ -14012,11 +14160,13 @@ by_tag:
   madame-maxime:
   - gof-ch15-007
   - gof-ch29-007
+  - ootp-ch20-002
   magic-outside-school:
   - cos-ch01-005
   - gof-ch02-003
   magic-restriction:
   - cos-ch07-005
+  - ootp-ch20-002
   magical-architecture:
   - cos-ch11-007
   - cos-ch17-001
@@ -14043,6 +14193,8 @@ by_tag:
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
+  magical-beings:
+  - ootp-ch20-003
   magical-books:
   - cos-ch13-004
   - poa-ch01-006
@@ -14072,6 +14224,7 @@ by_tag:
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch15-006
+  - ootp-ch20-007
   - ps-ch14-002
   - ps-ch15-007
   magical-creatures-department:
@@ -14225,6 +14378,7 @@ by_tag:
   - gof-ch29-001
   - gof-ch29-003
   - ootp-ch18-006
+  - ootp-ch20-001
   - poa-ch10-003
   - poa-ch13-006
   - poa-ch14-004
@@ -14354,6 +14508,7 @@ by_tag:
   - ootp-ch14-007
   - ootp-ch15-001
   - ootp-ch17-005
+  - ootp-ch20-006
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -14432,6 +14587,8 @@ by_tag:
   - poa-ch20-004
   - poa-ch20-006
   - poa-ch22-002
+  ministry-surveillance:
+  - ootp-ch20-002
   ministry-warning:
   - cos-ch03-001
   - poa-ch02-003
@@ -14713,6 +14870,7 @@ by_tag:
   - ootp-ch03-005
   order-network:
   - gof-ch36-006
+  - ootp-ch20-002
   order-of-merlin:
   - ootp-ch05-007
   - ootp-ch06-001
@@ -14745,6 +14903,7 @@ by_tag:
   - ootp-ch14-005
   - ootp-ch15-002
   - ootp-ch15-006
+  - ootp-ch20-007
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -15741,6 +15900,7 @@ by_tag:
   - ootp-ch05-004
   - ootp-ch05-005
   - ootp-ch08-006
+  - ootp-ch20-005
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -16036,6 +16196,8 @@ by_tag:
   - gof-ch08-001
   staff:
   - ps-ch05-004
+  staff-absence:
+  - ootp-ch20-006
   staff-accommodation:
   - poa-ch18-002
   - poa-ch20-002
@@ -16074,6 +16236,8 @@ by_tag:
   - gof-ch35-006
   staff-inspections:
   - ootp-ch15-001
+  - ootp-ch20-006
+  - ootp-ch20-007
   staff-memory:
   - poa-ch10-006
   staff-offices:
@@ -16322,6 +16486,7 @@ by_tag:
   - ootp-ch18-001
   student-rulebreaking:
   - gof-ch25-001
+  - ootp-ch20-001
   student-safety:
   - cos-ch13-007
   - cos-ch14-003
@@ -16341,6 +16506,7 @@ by_tag:
   - ootp-ch03-005
   - ootp-ch13-006
   - ootp-ch15-006
+  - ootp-ch20-007
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -16453,6 +16619,7 @@ by_tag:
   - ootp-ch11-002
   - poa-ch05-003
   teacher-authority:
+  - ootp-ch20-006
   - poa-ch19-003
   - poa-ch22-004
   - ps-ch08-007
@@ -16863,6 +17030,7 @@ by_tag:
   - ootp-ch05-005
   - ootp-ch06-004
   - ootp-ch15-007
+  - ootp-ch20-005
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -17019,6 +17187,8 @@ by_tag:
   - cos-ch03-002
   wizarding-genealogy:
   - ootp-ch06-001
+  wizarding-history:
+  - ootp-ch20-003
   wizarding-households:
   - cos-ch02-001
   - gof-ch03-002
@@ -17034,6 +17204,7 @@ by_tag:
   wizarding-prejudice:
   - gof-ch23-006
   - gof-ch29-007
+  - ootp-ch20-003
   wizarding-press:
   - gof-ch18-005
   - gof-ch37-006

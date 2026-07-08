@@ -119,3 +119,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch17`: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, pages 1906-1928, 7 entries, 1 explicit references.
 - `ootp-ch18`: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, pages 1929-1951, 7 entries, 0 explicit references.
 - `ootp-ch19`: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, pages 1952-1973, 7 entries, 0 explicit references.
+- `ootp-ch20`: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, pages 1974-1993, 7 entries, 0 explicit references.
