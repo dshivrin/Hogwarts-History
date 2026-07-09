@@ -121,3 +121,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch19`: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, pages 1952-1973, 7 entries, 0 explicit references.
 - `ootp-ch20`: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, pages 1974-1993, 7 entries, 0 explicit references.
 - `ootp-ch21`: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, pages 1994-2017, 7 entries, 0 explicit references.
+- `ootp-ch22`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, pages 2018-2042, 7 entries, 0 explicit references.

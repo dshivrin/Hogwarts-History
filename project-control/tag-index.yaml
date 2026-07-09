@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-08'
+updated: '2026-07-09'
 tags:
   academic-assessment:
     entries:
@@ -368,6 +368,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  artifact-accidents:
+    entries:
+    - ootp-ch22-005
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   assessment:
     entries:
     - cos-ch16-001
@@ -714,6 +719,11 @@ tags:
     - ootp-ch13-006
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+  blood-replenishing-potion:
+    entries:
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   blood-status:
     entries:
     - cos-ch04-004
@@ -1632,6 +1642,11 @@ tags:
     - cos-ch12-005
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  concealed-entrance:
+    entries:
+    - ootp-ch22-004
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   concealed-route:
     entries:
     - poa-ch20-001
@@ -1848,6 +1863,12 @@ tags:
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  creature-induced-injuries:
+    entries:
+    - ootp-ch22-005
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   creature-law:
     entries:
     - poa-ch14-003
@@ -2015,6 +2036,11 @@ tags:
     - ootp-ch19-001
     output_yaml:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  dai-llewellyn-ward:
+    entries:
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   daily-prophet:
     entries:
     - cos-ch12-006
@@ -2466,6 +2492,12 @@ tags:
     - sources/book-03/chapter-03-the-knight-bus.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  dilys-derwent:
+    entries:
+    - ootp-ch22-002
+    - ootp-ch22-006
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   diplomacy:
     entries:
     - ootp-ch20-004
@@ -2922,6 +2954,7 @@ tags:
     - gof-ch30-001
     - gof-ch30-002
     - ootp-ch11-004
+    - ootp-ch22-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -2929,6 +2962,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   dumbledores-army:
     entries:
     - ootp-ch15-007
@@ -3064,6 +3098,11 @@ tags:
     - ps-ch17-003
     output_yaml:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  emergency-communications:
+    entries:
+    - ootp-ch22-003
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   emergency-departure:
     entries:
     - gof-ch10-002
@@ -3228,6 +3267,11 @@ tags:
     - gof-ch09-002
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  everard:
+    entries:
+    - ootp-ch22-002
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   evidence:
     entries:
     - poa-ch21-001
@@ -3400,6 +3444,7 @@ tags:
     - gof-ch19-007
     - gof-ch22-007
     - gof-ch31-001
+    - ootp-ch22-001
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -3416,14 +3461,17 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   fawkes:
     entries:
     - cos-ch17-005
     - cos-ch17-007
     - gof-ch36-003
+    - ootp-ch22-003
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   feast:
     entries:
     - cos-ch18-003
@@ -3680,10 +3728,12 @@ tags:
     - gof-ch04-004
     - ootp-ch03-003
     - ootp-ch17-003
+    - ootp-ch22-003
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -4513,6 +4563,7 @@ tags:
     - ootp-ch17-002
     - ootp-ch17-003
     - ootp-ch18-004
+    - ootp-ch22-001
     - poa-ch08-004
     - poa-ch08-007
     - poa-ch09-003
@@ -4544,6 +4595,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   guard-duty:
     entries:
     - ootp-ch04-005
@@ -4912,6 +4964,7 @@ tags:
     - cos-ch18-005
     - gof-ch24-007
     - ootp-ch02-003
+    - ootp-ch22-002
     - poa-ch09-004
     - poa-ch11-002
     - poa-ch21-001
@@ -4923,6 +4976,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   headmaster-contact:
     entries:
     - gof-ch02-005
@@ -4937,6 +4991,7 @@ tags:
     - gof-ch29-006
     - gof-ch30-001
     - gof-ch36-003
+    - ootp-ch22-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -4945,12 +5000,14 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   headmaster-portraits:
     entries:
     - cos-ch12-001
     - cos-ch13-006
     - gof-ch30-001
     - ootp-ch16-005
+    - ootp-ch22-002
     - poa-ch11-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -4958,6 +5015,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   headmasters:
     entries:
     - cos-ch09-006
@@ -4968,6 +5026,11 @@ tags:
     - cos-ch02-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
+  headmistress:
+    entries:
+    - ootp-ch22-006
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   headmistresses:
     entries:
     - cos-ch09-006
@@ -4997,6 +5060,17 @@ tags:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  healer:
+    entries:
+    - ootp-ch22-006
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  healers:
+    entries:
+    - ootp-ch22-005
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   hedwig:
     entries:
     - cos-ch01-003
@@ -5437,6 +5511,11 @@ tags:
     - ootp-ch06-005
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  hogwarts-heads:
+    entries:
+    - ootp-ch22-006
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   hogwarts-hidden:
     entries:
     - gof-ch11-005
@@ -5663,6 +5742,11 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  hospital-wards:
+    entries:
+    - ootp-ch22-005
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   hospital-wing:
     entries:
     - cos-ch10-005
@@ -6080,6 +6164,11 @@ tags:
     - ootp-ch04-006
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  imperturbable-charms:
+    entries:
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   improper-use-of-magic-office:
     entries:
     - gof-ch05-004
@@ -6138,6 +6227,11 @@ tags:
     - ps-ch07-002
     output_yaml:
     - sources/book-01/chapter-07-sorting-hat.yaml
+  institutional-history:
+    entries:
+    - ootp-ch22-006
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   institutional-secrecy:
     entries:
     - cos-ch13-005
@@ -6710,6 +6804,11 @@ tags:
     - ps-ch16-007
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  london:
+    entries:
+    - ootp-ch22-004
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   longbottoms:
     entries:
     - gof-ch30-006
@@ -6926,6 +7025,8 @@ tags:
     - ootp-ch08-001
     - ootp-ch17-002
     - ootp-ch18-005
+    - ootp-ch22-001
+    - ootp-ch22-004
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -6946,6 +7047,7 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -7093,6 +7195,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  magical-hospital:
+    entries:
+    - ootp-ch22-004
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   magical-injury:
     entries:
     - gof-ch02-001
@@ -7131,6 +7238,11 @@ tags:
     - ootp-ch07-004
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  magical-maladies:
+    entries:
+    - ootp-ch22-005
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   magical-medicine:
     entries:
     - gof-ch02-005
@@ -8099,6 +8211,7 @@ tags:
     - gof-ch11-005
     - gof-ch13-005
     - ootp-ch03-003
+    - ootp-ch22-004
     - poa-ch02-002
     - poa-ch03-002
     - ps-ch01-001
@@ -8125,6 +8238,7 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -8513,6 +8627,11 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  order-security:
+    entries:
+    - ootp-ch22-003
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   ordinary-wizarding-level:
     entries:
     - poa-ch12-002
@@ -8691,10 +8810,12 @@ tags:
     - cos-ch11-007
     - gof-ch28-006
     - gof-ch29-006
+    - ootp-ch22-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   passwords:
     entries:
     - cos-ch05-006
@@ -8930,8 +9051,11 @@ tags:
   phineas-nigellus:
     entries:
     - ootp-ch06-005
+    - ootp-ch22-002
+    - ootp-ch22-003
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   phoenix:
     entries:
     - cos-ch17-005
@@ -9061,6 +9185,7 @@ tags:
     - gof-ch34-005
     - gof-ch35-001
     - gof-ch36-003
+    - ootp-ch22-003
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
@@ -9068,6 +9193,7 @@ tags:
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   portkeys:
     entries:
     - gof-ch06-002
@@ -9106,8 +9232,11 @@ tags:
   portrait-network:
     entries:
     - gof-ch17-007
+    - ootp-ch22-002
+    - ootp-ch22-006
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   portraits:
     entries:
     - gof-ch17-007
@@ -9765,6 +9894,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  purge-and-dowse:
+    entries:
+    - ootp-ch22-004
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   purple-fire:
     entries:
     - ps-ch16-007
@@ -10877,6 +11011,11 @@ tags:
     - poa-ch01-004
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
+  serious-bites:
+    entries:
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   serpent-gate:
     entries:
     - cos-ch16-007
@@ -11284,6 +11423,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+  spell-damage:
+    entries:
+    - ootp-ch22-005
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   spell-evidence:
     entries:
     - gof-ch09-006
@@ -11366,8 +11510,12 @@ tags:
   st-mungos:
     entries:
     - ootp-ch07-003
+    - ootp-ch22-004
+    - ootp-ch22-005
+    - ootp-ch22-006
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -11677,10 +11825,12 @@ tags:
     - cos-ch11-007
     - gof-ch28-006
     - gof-ch29-006
+    - ootp-ch22-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   stone-protection:
     entries:
     - ps-ch05-001
@@ -12975,6 +13125,11 @@ tags:
     - ootp-ch16-004
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  umbridge-surveillance:
+    entries:
+    - ootp-ch22-003
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   underage-magic:
     entries:
     - cos-ch01-005
@@ -13431,6 +13586,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+  werewolf-bite:
+    entries:
+    - ootp-ch22-007
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   werewolves:
     entries:
     - cos-ch15-003
@@ -13617,6 +13777,11 @@ tags:
     - ootp-ch09-002
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  wizarding-institutions:
+    entries:
+    - ootp-ch22-002
+    output_yaml:
+    - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   wizarding-law:
     entries:
     - gof-ch14-003

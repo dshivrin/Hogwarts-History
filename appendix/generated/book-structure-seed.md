@@ -278,6 +278,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Charms Instruction and Independent Practice
   - Summoning Charms Beyond the Classroom
 
+## Founders, Headmasters, and Institutional Memory
+
+- Known Heads of Hogwarts
+  - Dilys Derwent, Healer and Headmistress
+
 ## Founders, Staff, and Institutional Memory
 
 - Older Staff, Residents, and Alumni Memory
@@ -287,6 +292,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Ghosts and Haunted Places
   - The Shrieking Shack Reputation
+- Headmaster Portraits and Institutional Memory
+  - Multi-institution portrait travel and service to the headmaster
 - House-Elves and Hidden Labor
   - Clothing, freedom, and Hogwarts service spaces
 - Magical Residents of the Grounds
@@ -426,6 +433,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Protective Magic and Security
   - Covert student communication under the High Inquisitor
   - Dormitory crisis escalation to the headmaster
+  - Emergency communication and transport under surveillance
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
@@ -562,6 +570,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Thestrals, carriage teams, and death-sight visibility
 - Headmaster's Office and Protected Entrances
   - Dippet-Era Office and Entrance Continuity
+  - Emergency nighttime access from Gryffindor Tower
   - Gargoyle password and moving staircase
   - Office Interior, Portraits, and Artifacts
   - Office artifacts and founder-linked objects
@@ -658,11 +667,16 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Goblin Neutrality and Recruitment Pressures
 - House-Elves, Service, and Wizarding Households
   - Kreacher, Family Loyalty, and Headquarters Secrecy
+- Magical Medicine and Creature Harm
+  - Serious bites, venom treatment, and ward privacy
 - Ministry Public Ideology and Non-Human Beings
   - The Fountain of Magical Brethren
 - Pure-Blood Families and Genealogical Memory
   - Interrelated Pure-Blood Families and Marriage Exclusions
   - The Black Family Tapestry and Disowned Relatives
+- Wizarding Institutions Beyond Hogwarts
+  - St. Mungo's departments, Healers, and public triage
+  - St. Mungo's location and concealed entrance
 
 ## Peoples, Creatures, and Non-Human Communities
 

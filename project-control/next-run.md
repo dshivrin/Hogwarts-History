@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
-- Page range: 2018-2042
+- Chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+- Page range: 2043-2065
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+- Output YAML: `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
 
 ## Minimal Context
 

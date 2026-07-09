@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-08'
+updated: '2026-07-09'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -11049,6 +11049,117 @@ by_entry:
     - student-safety
     source_unit: ootp-ch21
     output_yaml: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  ootp-ch22-001:
+    title: 'Headmaster''s Office and Protected Entrances: Emergency nighttime access
+      from Gryffindor Tower'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore-office
+    - fat-lady
+    - gryffindor-tower
+    - headmaster-office
+    - magical-architecture
+    - password
+    - stone-gargoyle
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch22-002:
+    title: 'Headmaster Portraits and Institutional Memory: Multi-institution portrait
+      travel and service to the headmaster'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - dilys-derwent
+    - everard
+    - headmaster-authority
+    - headmaster-portraits
+    - phineas-nigellus
+    - portrait-network
+    - wizarding-institutions
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch22-003:
+    title: 'Protective Magic and Security: Emergency communication and transport under
+      surveillance'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - emergency-communications
+    - fawkes
+    - floo-network
+    - order-security
+    - phineas-nigellus
+    - portkey
+    - umbridge-surveillance
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch22-004:
+    title: 'Wizarding Institutions Beyond Hogwarts: St. Mungo''s location and concealed
+      entrance'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - concealed-entrance
+    - london
+    - magical-architecture
+    - magical-hospital
+    - muggle-secrecy
+    - purge-and-dowse
+    - st-mungos
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch22-005:
+    title: 'Wizarding Institutions Beyond Hogwarts: St. Mungo''s departments, Healers,
+      and public triage'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - artifact-accidents
+    - creature-induced-injuries
+    - healers
+    - hospital-wards
+    - magical-maladies
+    - spell-damage
+    - st-mungos
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch22-006:
+    title: 'Known Heads of Hogwarts: Dilys Derwent, Healer and Headmistress'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dilys-derwent
+    - headmistress
+    - healer
+    - hogwarts-heads
+    - institutional-history
+    - portrait-network
+    - st-mungos
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch22-007:
+    title: 'Magical Medicine and Creature Harm: Serious bites, venom treatment, and
+      ward privacy'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - blood-replenishing-potion
+    - creature-induced-injuries
+    - dai-llewellyn-ward
+    - healers
+    - imperturbable-charms
+    - serious-bites
+    - werewolf-bite
+    source_unit: ootp-ch22
+    output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11217,6 +11328,8 @@ by_tag:
   arthur-weasley:
   - ootp-ch07-006
   - ootp-ch21-007
+  artifact-accidents:
+  - ootp-ch22-005
   assessment:
   - cos-ch16-001
   astrology:
@@ -11380,6 +11493,8 @@ by_tag:
   - ootp-ch02-006
   blood-quill:
   - ootp-ch13-006
+  blood-replenishing-potion:
+  - ootp-ch22-007
   blood-status:
   - cos-ch04-004
   - cos-ch07-003
@@ -11802,6 +11917,8 @@ by_tag:
   - gof-ch28-003
   concealed-doors:
   - cos-ch12-005
+  concealed-entrance:
+  - ootp-ch22-004
   concealed-route:
   - poa-ch20-001
   concealment:
@@ -11898,6 +12015,9 @@ by_tag:
   creature-handling:
   - gof-ch18-003
   - poa-ch06-006
+  creature-induced-injuries:
+  - ootp-ch22-005
+  - ootp-ch22-007
   creature-law:
   - poa-ch14-003
   creature-lifecycle:
@@ -11974,6 +12094,8 @@ by_tag:
   - ps-ch13-003
   da-meetings:
   - ootp-ch19-001
+  dai-llewellyn-ward:
+  - ootp-ch22-007
   daily-prophet:
   - cos-ch12-006
   - gof-ch10-003
@@ -12196,6 +12318,9 @@ by_tag:
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
+  dilys-derwent:
+  - ootp-ch22-002
+  - ootp-ch22-006
   diplomacy:
   - ootp-ch20-004
   disarming:
@@ -12437,6 +12562,7 @@ by_tag:
   - gof-ch30-001
   - gof-ch30-002
   - ootp-ch11-004
+  - ootp-ch22-001
   dumbledores-army:
   - ootp-ch15-007
   - ootp-ch18-007
@@ -12503,6 +12629,8 @@ by_tag:
   - ps-ch03-005
   elixir-of-life:
   - ps-ch17-003
+  emergency-communications:
+  - ootp-ch22-003
   emergency-departure:
   - gof-ch10-002
   emergency-exception:
@@ -12572,6 +12700,8 @@ by_tag:
   - poa-ch21-007
   europe:
   - gof-ch09-002
+  everard:
+  - ootp-ch22-002
   evidence:
   - poa-ch21-001
   examination-grades:
@@ -12652,6 +12782,7 @@ by_tag:
   - gof-ch19-007
   - gof-ch22-007
   - gof-ch31-001
+  - ootp-ch22-001
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -12662,6 +12793,7 @@ by_tag:
   - cos-ch17-005
   - cos-ch17-007
   - gof-ch36-003
+  - ootp-ch22-003
   feast:
   - cos-ch18-003
   feasts:
@@ -12784,6 +12916,7 @@ by_tag:
   - gof-ch04-004
   - ootp-ch03-003
   - ootp-ch17-003
+  - ootp-ch22-003
   floo-powder:
   - gof-ch04-004
   floo-regulation-panel:
@@ -13181,6 +13314,7 @@ by_tag:
   - ootp-ch17-002
   - ootp-ch17-003
   - ootp-ch18-004
+  - ootp-ch22-001
   - poa-ch08-004
   - poa-ch08-007
   - poa-ch09-003
@@ -13379,6 +13513,7 @@ by_tag:
   - cos-ch18-005
   - gof-ch24-007
   - ootp-ch02-003
+  - ootp-ch22-002
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
@@ -13392,16 +13527,20 @@ by_tag:
   - gof-ch29-006
   - gof-ch30-001
   - gof-ch36-003
+  - ootp-ch22-001
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
   - gof-ch30-001
   - ootp-ch16-005
+  - ootp-ch22-002
   - poa-ch11-006
   headmasters:
   - cos-ch09-006
   headmastership:
   - cos-ch02-003
+  headmistress:
+  - ootp-ch22-006
   headmistresses:
   - cos-ch09-006
   headquarters:
@@ -13415,6 +13554,11 @@ by_tag:
   - gof-ch13-006
   - ootp-ch19-003
   - ps-ch08-006
+  healer:
+  - ootp-ch22-006
+  healers:
+  - ootp-ch22-005
+  - ootp-ch22-007
   hedwig:
   - cos-ch01-003
   - ootp-ch18-001
@@ -13626,6 +13770,8 @@ by_tag:
   - poa-ch19-007
   hogwarts-headmasters:
   - ootp-ch06-005
+  hogwarts-heads:
+  - ootp-ch22-006
   hogwarts-hidden:
   - gof-ch11-005
   hogwarts-kitchens:
@@ -13732,6 +13878,8 @@ by_tag:
   - gof-ch12-001
   - ootp-ch10-007
   - ootp-ch11-001
+  hospital-wards:
+  - ootp-ch22-005
   hospital-wing:
   - cos-ch10-005
   - cos-ch11-006
@@ -13928,6 +14076,8 @@ by_tag:
   - ootp-ch03-001
   imperturbable-charm:
   - ootp-ch04-006
+  imperturbable-charms:
+  - ootp-ch22-007
   improper-use-of-magic-office:
   - gof-ch05-004
   in-universe-analysis:
@@ -13954,6 +14104,8 @@ by_tag:
   - ootp-ch12-005
   institutional-custom:
   - ps-ch07-002
+  institutional-history:
+  - ootp-ch22-006
   institutional-secrecy:
   - cos-ch13-005
   intelligence:
@@ -14208,6 +14360,8 @@ by_tag:
   - ootp-ch04-002
   logic-puzzle:
   - ps-ch16-007
+  london:
+  - ootp-ch22-004
   longbottoms:
   - gof-ch30-006
   - ootp-ch09-007
@@ -14321,6 +14475,8 @@ by_tag:
   - ootp-ch08-001
   - ootp-ch17-002
   - ootp-ch18-005
+  - ootp-ch22-001
+  - ootp-ch22-004
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -14387,6 +14543,8 @@ by_tag:
   magical-games-and-sports:
   - gof-ch12-007
   - gof-ch16-002
+  magical-hospital:
+  - ootp-ch22-004
   magical-injury:
   - gof-ch02-001
   magical-instruments:
@@ -14405,6 +14563,8 @@ by_tag:
   - gof-ch25-006
   magical-maintenance:
   - ootp-ch07-004
+  magical-maladies:
+  - ootp-ch22-005
   magical-medicine:
   - gof-ch02-005
   magical-memory-source:
@@ -14855,6 +15015,7 @@ by_tag:
   - gof-ch11-005
   - gof-ch13-005
   - ootp-ch03-003
+  - ootp-ch22-004
   - poa-ch02-002
   - poa-ch03-002
   - ps-ch01-001
@@ -15035,6 +15196,8 @@ by_tag:
   - ootp-ch10-001
   - ootp-ch14-003
   - ootp-ch21-007
+  order-security:
+  - ootp-ch22-003
   ordinary-wizarding-level:
   - poa-ch12-002
   ordinary-wizarding-levels:
@@ -15120,6 +15283,7 @@ by_tag:
   - cos-ch11-007
   - gof-ch28-006
   - gof-ch29-006
+  - ootp-ch22-001
   passwords:
   - cos-ch05-006
   - cos-ch12-005
@@ -15232,6 +15396,8 @@ by_tag:
   - ps-ch09-007
   phineas-nigellus:
   - ootp-ch06-005
+  - ootp-ch22-002
+  - ootp-ch22-003
   phoenix:
   - cos-ch17-005
   phoenix-feather:
@@ -15290,6 +15456,7 @@ by_tag:
   - gof-ch34-005
   - gof-ch35-001
   - gof-ch36-003
+  - ootp-ch22-003
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -15307,6 +15474,8 @@ by_tag:
   - poa-ch09-003
   portrait-network:
   - gof-ch17-007
+  - ootp-ch22-002
+  - ootp-ch22-006
   portraits:
   - gof-ch17-007
   - gof-ch22-007
@@ -15619,6 +15788,8 @@ by_tag:
   pure-blood-prejudice:
   - cos-ch07-003
   - gof-ch08-003
+  purge-and-dowse:
+  - ootp-ch22-004
   purple-fire:
   - ps-ch16-007
   put-outer:
@@ -16126,6 +16297,8 @@ by_tag:
   - poa-ch13-003
   senior-students:
   - poa-ch01-004
+  serious-bites:
+  - ootp-ch22-007
   serpent-gate:
   - cos-ch16-007
   serpent-imagery:
@@ -16313,6 +16486,8 @@ by_tag:
   spectators:
   - gof-ch26-005
   - ps-ch11-004
+  spell-damage:
+  - ootp-ch22-005
   spell-evidence:
   - gof-ch09-006
   spellbooks:
@@ -16349,6 +16524,9 @@ by_tag:
   - ootp-ch08-005
   st-mungos:
   - ootp-ch07-003
+  - ootp-ch22-004
+  - ootp-ch22-005
+  - ootp-ch22-006
   stadium:
   - gof-ch08-001
   staff:
@@ -16483,6 +16661,7 @@ by_tag:
   - cos-ch11-007
   - gof-ch28-006
   - gof-ch29-006
+  - ootp-ch22-001
   stone-protection:
   - ps-ch05-001
   stopping-knot:
@@ -17073,6 +17252,8 @@ by_tag:
   umbridge:
   - ootp-ch16-003
   - ootp-ch16-004
+  umbridge-surveillance:
+  - ootp-ch22-003
   underage-magic:
   - cos-ch01-005
   - cos-ch02-005
@@ -17279,6 +17460,8 @@ by_tag:
   werewolf:
   - poa-ch20-002
   - poa-ch22-003
+  werewolf-bite:
+  - ootp-ch22-007
   werewolves:
   - cos-ch15-003
   - poa-ch09-005
@@ -17361,6 +17544,8 @@ by_tag:
   - gof-ch03-002
   wizarding-ideology:
   - ootp-ch09-002
+  wizarding-institutions:
+  - ootp-ch22-002
   wizarding-law:
   - gof-ch14-003
   - gof-ch14-005

@@ -579,6 +579,18 @@ Summary: The available evidence includes 1 source item, led by: The memory confi
   - Corroborates: `cos-ch12-001`. Chapter Twelve records Dumbledore's office interior in 1992; this entry corroborates the same office fifty years earlier and adds Dippet-era continuity for portraits, staircase, and gargoyle.
   - Notes: The memory does not explain when the office architecture, portraits, staircase, or gargoyle were created, and Riddle's memory may not show every office feature.
 
+#### Section: Emergency nighttime access from Gryffindor Tower
+
+Summary: The available evidence includes 1 source item, led by: The emergency nighttime route reconfirms Gryffindor Tower egress and the headmaster-office entrance system, including the current password, moving stair, griffin knocker, portraits, silver instruments, and Fawkes.
+
+- **Corroboration:** The emergency nighttime route reconfirms Gryffindor Tower egress and the headmaster-office entrance system, including the current password, moving stair, griffin knocker, portraits, silver instruments, and Fawkes.
+  - Quote: "Fizzing Whizbee"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2018, `ootp-ch22-001`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `cos-ch11-007`, `gof-ch29-006`, `cos-ch12-001`. cos-ch11-007 and gof-ch29-006 already record the passworded gargoyle and moving stair, while cos-ch12-001 records office interior features; this entry adds the OotP password, nighttime route from Gryffindor Tower, and emergency context.
+  - Notes: The route is observed from Gryffindor Tower only and does not map every path to the headmaster's office.
+
 #### Section: Gargoyle password and moving staircase
 
 Summary: The available evidence includes 1 source item, led by: The passage supplies the current password to Dumbledore's office entrance and reconfirms the stone gargoyle, wall opening, moving spiral staircase, polished oak door, and brass knocker.
@@ -3897,6 +3909,20 @@ Summary: The available evidence includes 3 source items, led by: The chapter add
   - Corroborates: `poa-ch17-002`. Book 3 Chapter Seventeen records physical evidence that ghosts did not damage the Shack; this entry identifies Lupin's transformations and Dumbledore's encouraged rumor as the source of the reputation.
   - Notes: Lupin's account is firsthand but the chapter does not provide village records, staff records, or independent Hogsmeade testimony about the rumor's spread.
 
+### Chapter: Headmaster Portraits and Institutional Memory
+
+#### Section: Multi-institution portrait travel and service to the headmaster
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore explains that celebrated Hogwarts Heads with portraits in multiple important wizarding institutions can move between their own frames and report elsewhere; the portraits also describe service owed to the current Hogwarts headmaster.
+
+- **Corroboration:** Dumbledore explains that celebrated Hogwarts Heads with portraits in multiple important wizarding institutions can move between their own frames and report elsewhere; the portraits also describe service owed to the current Hogwarts headmaster.
+  - Quote: "free to move between their own portraits"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2020, `ootp-ch22-002`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `cos-ch12-001`, `gof-ch17-007`, `poa-ch11-006`. Earlier entries identify headmaster portraits and ordinary Hogwarts portrait movement; this entry adds named former Heads, travel between portraits in external institutions, and the duty to serve the current headmaster.
+  - Notes: The evidence describes portraits that have multiple frames; it does not prove every Hogwarts portrait can travel beyond the castle.
+
 ### Chapter: House-Elves and Hidden Labor
 
 #### Section: Clothing, freedom, and Hogwarts service spaces
@@ -7019,6 +7045,18 @@ Summary: The available evidence includes 1 source item, led by: A student crisis
   - Reference type: security_or_protection
   - Notes: The immediate verification and Dumbledore's response occur in the next chapter, so this entry records the escalation trigger rather than the full institutional response.
 
+#### Section: Emergency communication and transport under surveillance
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's crisis response uses multiple communication and security channels: Fawkes for warnings and messages, Phineas for Grimmauld Place contact, a family danger clock, and a conjured Portkey because the Floo Network is watched.
+
+- **Corroboration:** Dumbledore's crisis response uses multiple communication and security channels: Fawkes for warnings and messages, Phineas for Grimmauld Place contact, a family danger clock, and a conjured Portkey because the Floo Network is watched.
+  - Quote: "Floo powder is not safe"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2023, `ootp-ch22-003`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch17-003`, `ootp-ch03-003`, `gof-ch04-004`. ootp-ch17-003 records watched communications at Hogwarts, ootp-ch03-003 records earlier transport constraints under surveillance, and gof-ch04-004 records regulated Floo use; this entry adds Dumbledore's Portkey workaround, Fawkes warning, and Phineas relay.
+  - Notes: The passage does not state who is watching the Floo Network or whether the Portkey is officially authorized.
+
 #### Section: Watched communications under the High Inquisitor
 
 Summary: The available evidence includes 2 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
@@ -8246,6 +8284,21 @@ Summary: The available evidence includes 1 source item, led by: Hermione helps H
   - Corroborates: `gof-ch15-002`, `gof-ch06-003`. gof-ch15-002 records Summoning Charm lesson preparation in the fourth-year workload, and gof-ch06-003 records a non-school use of Accio; this entry adds intensive student practice and long-distance first-task application planning.
   - Notes: The account follows Harry's accelerated practice rather than the ordinary lesson itself, so it should not be treated as a standard syllabus description.
 
+## Part: Founders, Headmasters, and Institutional Memory
+
+### Chapter: Known Heads of Hogwarts
+
+#### Section: Dilys Derwent, Healer and Headmistress
+
+Summary: The available evidence includes 1 source item, led by: Dilys Derwent's labeled portrait gives a dated career sequence from St. Mungo's Healer to Hogwarts Headmistress, and the portrait's movement corroborates Dumbledore's earlier explanation of multi-institution portrait travel.
+
+- **Supporting evidence:** Dilys Derwent's labeled portrait gives a dated career sequence from St. Mungo's Healer to Hogwarts Headmistress, and the portrait's movement corroborates Dumbledore's earlier explanation of multi-institution portrait travel.
+  - Quote: "HEADMISTRESS OF HOGWARTS"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2036, `ootp-ch22-006`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The portrait label supplies offices and dates only; it does not describe her headmastership or medical achievements.
+
 ## Part: Founders, Staff, and Institutional Memory
 
 ### Chapter: Older Staff, Residents, and Alumni Memory
@@ -8584,6 +8637,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `ootp-ch04-003`. ootp-ch04-003 introduces Kreacher and Black-family house-elf evidence; this entry adds direct-order obedience, the reason he cannot be freed, and his knowledge of Order activity.
   - Notes: Sirius and Hermione interpret Kreacher differently, and the passage does not state the full magical law governing house-elf secrecy or manumission.
 
+### Chapter: Magical Medicine and Creature Harm
+
+#### Section: Serious bites, venom treatment, and ward privacy
+
+Summary: The available evidence includes 1 source item, led by: The creature-injury ward shows magical medical handling of serious bites, including named Healers, snake venom that keeps wounds open, hourly Blood-Replenishing Potion, werewolf-bite limits, and ward-door privacy assumptions.
+
+- **Context:** The creature-injury ward shows magical medical handling of serious bites, including named Healers, snake venom that keeps wounds open, hourly Blood-Replenishing Potion, werewolf-bite limits, and ward-door privacy assumptions.
+  - Quote: "Dai Llewellyn ward: Serious Bites"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2038, `ootp-ch22-007`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The scene is one hospital ward visit and should not be generalized into a complete account of all magical medicine.
+
 ### Chapter: Ministry Public Ideology and Non-Human Beings
 
 #### Section: The Fountain of Magical Brethren
@@ -8621,6 +8687,30 @@ Summary: The available evidence includes 1 source item, led by: The chapter iden
   - Reference type: historical_claim
   - Corroborates: `ootp-ch04-003`, `ootp-ch05-002`. Earlier entries establish Black-family domestic evidence and heraldic artifacts; this entry adds the specific centuries-old tapestry, its charm, motto, and burn-mark genealogy practice.
   - Notes: Harry estimates the tree's age from its appearance, while Kreacher supplies the seven-century claim in muttered speech.
+
+### Chapter: Wizarding Institutions Beyond Hogwarts
+
+#### Section: St. Mungo's departments, Healers, and public triage
+
+Summary: The available evidence includes 1 source item, led by: St. Mungo's public organization distinguishes Healers from Muggle doctors and sorts patients through a visible floor guide covering artifact accidents, creature injuries, magical bugs, poisoning, spell damage, and visitor services.
+
+- **Context:** St. Mungo's public organization distinguishes Healers from Muggle doctors and sorts patients through a visible floor guide covering artifact accidents, creature injuries, magical bugs, poisoning, spell damage, and visitor services.
+  - Quote: "Nah, they're Healers"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2035, `ootp-ch22-005`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The scene captures the public-facing department guide, not the full hospital administration or specialist training system.
+
+#### Section: St. Mungo's location and concealed entrance
+
+Summary: The available evidence includes 1 source item, led by: Moody explains that St. Mungo's was placed in Muggle London because Diagon Alley lacked space and an underground Ministry-style site was unhealthy; the entrance is concealed as a closed department store with a speaking-window protocol.
+
+- **Context:** Moody explains that St. Mungo's was placed in Muggle London because Diagon Alley lacked space and an underground Ministry-style site was unhealthy; the entrance is concealed as a closed department store with a speaking-window protocol.
+  - Quote: "Purge and Dowse Ltd."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, PDF p. 2033, `ootp-ch22-004`, `sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The explanation is Moody's practical account, not an official founding history of the hospital.
 
 ## Part: Peoples, Creatures, and Non-Human Communities
 
