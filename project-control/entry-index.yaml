@@ -11160,6 +11160,118 @@ by_entry:
     - werewolf-bite
     source_unit: ootp-ch22
     output_yaml: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  ootp-ch23-001:
+    title: 'Movement Limits and Anti-Apparition Protections: Explicit Hogwarts: A
+      History citation for anti-Apparition inside Hogwarts'
+    classification: original_book_core_candidate
+    reference_type: explicit_hogwarts_a_history
+    confidence: high
+    tags:
+    - apparition
+    - disapparition
+    - dormitories
+    - hogwarts
+    - hogwarts-a-history
+    - magical-transportation
+    - school-protection
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch23-002:
+    title: 'Headmaster Portraits and Institutional Memory: Portrait messages and supervision
+      beyond Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - dumbledore
+    - grimmauld-place
+    - headmaster-authority
+    - headmaster-portraits
+    - magical-communication
+    - phineas-nigellus
+    - portrait-network
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch23-003:
+    title: 'Holidays, Examinations, and Student Movement: Christmas study residence
+      and emergency hospital visits'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - dumbledore
+    - exams
+    - holidays
+    - school-governance
+    - st-mungos
+    - student-permissions
+    - umbridge
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch23-004:
+    title: 'Defense Against the Dark Arts: Private defensive books used for student-led
+      practice'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - counterjinxes
+    - course-books
+    - defense-against-the-dark-arts
+    - dumbledores-army
+    - hexes
+    - moving-illustrations
+    - practical-defense
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch23-005:
+    title: 'House-Elves, Service, and Wizarding Households: Clothing, family-house
+      bonds, and possible unauthorized departure'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - black-family
+    - clothing
+    - grimmauld-place
+    - house-elves
+    - kreacher
+    - manumission
+    - servant-bondage
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch23-006:
+    title: 'Wizarding Institutions Beyond Hogwarts: Spell-damage long-term care at
+      St. Mungo''s'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - closed-ward
+    - gilderoy-lockhart
+    - healers
+    - janus-thickey
+    - long-term-care
+    - spell-damage
+    - st-mungos
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch23-007:
+    title: 'First Wizarding War and Hogwarts Families: The Longbottom Aurors and Bellatrix
+      Lestrange'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - alice-longbottom
+    - aurors
+    - bellatrix-lestrange
+    - cruciatus-curse
+    - first-wizarding-war
+    - frank-longbottom
+    - order-of-the-phoenix
+    source_unit: ootp-ch23
+    output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11234,6 +11346,8 @@ by_tag:
   - ps-ch01-005
   alchemy:
   - ps-ch13-001
+  alice-longbottom:
+  - ootp-ch23-007
   all-wizard-village:
   - gof-ch19-001
   alohomora:
@@ -11301,6 +11415,7 @@ by_tag:
   - gof-ch15-006
   - gof-ch29-001
   - ootp-ch03-003
+  - ootp-ch23-001
   apparition-points:
   - gof-ch06-002
   appeals:
@@ -11357,6 +11472,7 @@ by_tag:
   aurors:
   - gof-ch11-001
   - gof-ch27-007
+  - ootp-ch23-007
   avada-kedavra:
   - gof-ch14-005
   - gof-ch34-003
@@ -11450,6 +11566,8 @@ by_tag:
   - gof-ch37-005
   bedtime-enforcement:
   - poa-ch13-006
+  bellatrix-lestrange:
+  - ootp-ch23-007
   bertha-jorkins:
   - gof-ch01-003
   - gof-ch05-003
@@ -11471,6 +11589,7 @@ by_tag:
   - ootp-ch06-004
   - ootp-ch06-005
   - ootp-ch06-006
+  - ootp-ch23-005
   black-flames:
   - ps-ch16-007
   black-lake:
@@ -11857,11 +11976,14 @@ by_tag:
   classroom-safety:
   - cos-ch06-007
   - gof-ch26-001
+  closed-ward:
+  - ootp-ch23-006
   clothing:
   - gof-ch09-003
   - ootp-ch13-002
   - ootp-ch14-001
   - ootp-ch18-004
+  - ootp-ch23-005
   clubs:
   - ootp-ch17-001
   clue:
@@ -11971,12 +12093,14 @@ by_tag:
   - ps-ch17-001
   counterjinxes:
   - ootp-ch15-004
+  - ootp-ch23-004
   course-books:
   - cos-ch04-001
   - cos-ch04-002
   - cos-ch04-006
   - cos-ch06-006
   - gof-ch10-006
+  - ootp-ch23-004
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch07-003
@@ -12066,6 +12190,7 @@ by_tag:
   - gof-ch14-005
   - gof-ch30-006
   - gof-ch34-002
+  - ootp-ch23-007
   crystal-gazing:
   - gof-ch21-005
   - poa-ch15-003
@@ -12208,6 +12333,7 @@ by_tag:
   - ootp-ch17-006
   - ootp-ch18-006
   - ootp-ch19-001
+  - ootp-ch23-004
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -12323,6 +12449,8 @@ by_tag:
   - ootp-ch22-006
   diplomacy:
   - ootp-ch20-004
+  disapparition:
+  - ootp-ch23-001
   disarming:
   - gof-ch29-004
   disarming-charm:
@@ -12415,6 +12543,7 @@ by_tag:
   - cos-ch05-006
   - gof-ch12-004
   - ootp-ch17-002
+  - ootp-ch23-001
   - poa-ch04-005
   - ps-ch10-003
   draco-malfoy:
@@ -12520,6 +12649,8 @@ by_tag:
   - ootp-ch20-004
   - ootp-ch20-005
   - ootp-ch21-001
+  - ootp-ch23-002
+  - ootp-ch23-003
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -12568,6 +12699,7 @@ by_tag:
   - ootp-ch18-007
   - ootp-ch21-004
   - ootp-ch21-006
+  - ootp-ch23-004
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -12711,6 +12843,7 @@ by_tag:
   - cos-ch04-004
   - cos-ch16-001
   - cos-ch18-007
+  - ootp-ch23-003
   - poa-ch15-003
   - poa-ch16-001
   - poa-ch16-003
@@ -12878,6 +13011,7 @@ by_tag:
   - gof-ch30-006
   - ootp-ch06-004
   - ootp-ch09-007
+  - ootp-ch23-007
   - poa-ch10-006
   - ps-ch04-005
   first-year-arrival:
@@ -13027,6 +13161,8 @@ by_tag:
   - gof-ch14-006
   frank-bryce:
   - gof-ch30-007
+  frank-longbottom:
+  - ootp-ch23-007
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
@@ -13100,6 +13236,7 @@ by_tag:
   - cos-ch04-006
   - cos-ch06-006
   - cos-ch06-007
+  - ootp-ch23-006
   gillyweed:
   - gof-ch26-004
   - gof-ch26-006
@@ -13223,6 +13360,8 @@ by_tag:
   - ootp-ch06-003
   - ootp-ch06-007
   - ootp-ch09-003
+  - ootp-ch23-002
+  - ootp-ch23-005
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -13514,6 +13653,7 @@ by_tag:
   - gof-ch24-007
   - ootp-ch02-003
   - ootp-ch22-002
+  - ootp-ch23-002
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
@@ -13534,6 +13674,7 @@ by_tag:
   - gof-ch30-001
   - ootp-ch16-005
   - ootp-ch22-002
+  - ootp-ch23-002
   - poa-ch11-006
   headmasters:
   - cos-ch09-006
@@ -13559,6 +13700,7 @@ by_tag:
   healers:
   - ootp-ch22-005
   - ootp-ch22-007
+  - ootp-ch23-006
   hedwig:
   - cos-ch01-003
   - ootp-ch18-001
@@ -13604,6 +13746,8 @@ by_tag:
   - cos-ch16-003
   - poa-ch09-001
   - ps-ch07-001
+  hexes:
+  - ootp-ch23-004
   hidden-agent:
   - gof-ch01-004
   - gof-ch33-001
@@ -13711,12 +13855,14 @@ by_tag:
   - gof-ch11-003
   - gof-ch12-007
   - gof-ch34-005
+  - ootp-ch23-001
   hogwarts-a-history:
   - cos-ch09-001
   - gof-ch11-005
   - gof-ch15-003
   - gof-ch28-003
   - ootp-ch17-002
+  - ootp-ch23-001
   - poa-ch09-001
   hogwarts-alumni:
   - ootp-ch09-007
@@ -13847,6 +13993,7 @@ by_tag:
   - cos-ch11-001
   holidays:
   - gof-ch23-001
+  - ootp-ch23-003
   holidays-at-hogwarts:
   - poa-ch11-004
   home-life-and-social-habits:
@@ -13963,6 +14110,7 @@ by_tag:
   - ootp-ch18-004
   - ootp-ch18-005
   - ootp-ch21-004
+  - ootp-ch23-005
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -14180,6 +14328,8 @@ by_tag:
   - poa-ch18-007
   - ps-ch01-003
   - ps-ch04-004
+  janus-thickey:
+  - ootp-ch23-006
   jinxed-post:
   - cos-ch07-004
   - poa-ch05-003
@@ -14244,6 +14394,7 @@ by_tag:
   kreacher:
   - ootp-ch04-003
   - ootp-ch06-002
+  - ootp-ch23-005
   kwikspell:
   - cos-ch08-002
   lake:
@@ -14362,6 +14513,8 @@ by_tag:
   - ps-ch16-007
   london:
   - ootp-ch22-004
+  long-term-care:
+  - ootp-ch23-006
   longbottoms:
   - gof-ch30-006
   - ootp-ch09-007
@@ -14496,6 +14649,8 @@ by_tag:
   - ps-ch12-005
   magical-careers:
   - ootp-ch03-004
+  magical-communication:
+  - ootp-ch23-002
   magical-community:
   - ps-ch02-006
   magical-concealment:
@@ -14643,6 +14798,7 @@ by_tag:
   - gof-ch15-006
   - gof-ch15-007
   - ootp-ch03-003
+  - ootp-ch23-001
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
@@ -14666,6 +14822,7 @@ by_tag:
   - ootp-ch13-002
   - ootp-ch14-001
   - ootp-ch18-004
+  - ootp-ch23-005
   marauders:
   - ootp-ch09-006
   - ootp-ch17-007
@@ -14935,6 +15092,8 @@ by_tag:
   - gof-ch27-006
   mourning-customs:
   - gof-ch37-003
+  moving-illustrations:
+  - ootp-ch23-004
   moving-pictures:
   - gof-ch02-002
   moving-staircase:
@@ -15196,6 +15355,7 @@ by_tag:
   - ootp-ch10-001
   - ootp-ch14-003
   - ootp-ch21-007
+  - ootp-ch23-007
   order-security:
   - ootp-ch22-003
   ordinary-wizarding-level:
@@ -15398,6 +15558,7 @@ by_tag:
   - ootp-ch06-005
   - ootp-ch22-002
   - ootp-ch22-003
+  - ootp-ch23-002
   phoenix:
   - cos-ch17-005
   phoenix-feather:
@@ -15476,6 +15637,7 @@ by_tag:
   - gof-ch17-007
   - ootp-ch22-002
   - ootp-ch22-006
+  - ootp-ch23-002
   portraits:
   - gof-ch17-007
   - gof-ch22-007
@@ -15527,6 +15689,7 @@ by_tag:
   - ootp-ch16-004
   - ootp-ch18-007
   - ootp-ch21-006
+  - ootp-ch23-004
   practical-examination:
   - ootp-ch12-004
   practical-exams:
@@ -16075,6 +16238,7 @@ by_tag:
   - ootp-ch17-001
   - ootp-ch18-002
   - ootp-ch19-007
+  - ootp-ch23-003
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -16133,6 +16297,7 @@ by_tag:
   school-protection:
   - gof-ch15-006
   - gof-ch29-001
+  - ootp-ch23-001
   school-protections:
   - gof-ch11-005
   - gof-ch28-003
@@ -16307,6 +16472,7 @@ by_tag:
   - cos-ch11-004
   servant-bondage:
   - ootp-ch06-002
+  - ootp-ch23-005
   seven-year-education:
   - ps-ch04-006
   seventh-floor:
@@ -16488,6 +16654,7 @@ by_tag:
   - ps-ch11-004
   spell-damage:
   - ootp-ch22-005
+  - ootp-ch23-006
   spell-evidence:
   - gof-ch09-006
   spellbooks:
@@ -16527,6 +16694,8 @@ by_tag:
   - ootp-ch22-004
   - ootp-ch22-005
   - ootp-ch22-006
+  - ootp-ch23-003
+  - ootp-ch23-006
   stadium:
   - gof-ch08-001
   staff:
@@ -16775,6 +16944,8 @@ by_tag:
   student-organizing:
   - ootp-ch16-003
   - ootp-ch16-006
+  student-permissions:
+  - ootp-ch23-003
   student-pets:
   - gof-ch11-002
   - poa-ch04-005
@@ -17252,6 +17423,7 @@ by_tag:
   umbridge:
   - ootp-ch16-003
   - ootp-ch16-004
+  - ootp-ch23-003
   umbridge-surveillance:
   - ootp-ch22-003
   underage-magic:

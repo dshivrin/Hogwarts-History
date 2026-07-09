@@ -155,6 +155,11 @@ tags:
     - ps-ch13-001
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  alice-longbottom:
+    entries:
+    - ootp-ch23-007
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   all-wizard-village:
     entries:
     - gof-ch19-001
@@ -302,12 +307,14 @@ tags:
     - gof-ch15-006
     - gof-ch29-001
     - ootp-ch03-003
+    - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -433,9 +440,11 @@ tags:
     entries:
     - gof-ch11-001
     - gof-ch27-007
+    - ootp-ch23-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   avada-kedavra:
     entries:
     - gof-ch14-005
@@ -634,6 +643,11 @@ tags:
     - poa-ch13-006
     output_yaml:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  bellatrix-lestrange:
+    entries:
+    - ootp-ch23-007
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   bertha-jorkins:
     entries:
     - gof-ch01-003
@@ -669,10 +683,12 @@ tags:
     - ootp-ch06-004
     - ootp-ch06-005
     - ootp-ch06-006
+    - ootp-ch23-005
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   black-flames:
     entries:
     - ps-ch16-007
@@ -1506,17 +1522,24 @@ tags:
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+  closed-ward:
+    entries:
+    - ootp-ch23-006
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   clothing:
     entries:
     - gof-ch09-003
     - ootp-ch13-002
     - ootp-ch14-001
     - ootp-ch18-004
+    - ootp-ch23-005
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   clubs:
     entries:
     - ootp-ch17-001
@@ -1761,8 +1784,10 @@ tags:
   counterjinxes:
     entries:
     - ootp-ch15-004
+    - ootp-ch23-004
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   course-books:
     entries:
     - cos-ch04-001
@@ -1770,6 +1795,7 @@ tags:
     - cos-ch04-006
     - cos-ch06-006
     - gof-ch10-006
+    - ootp-ch23-004
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch07-003
@@ -1784,6 +1810,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   course-load:
     entries:
     - poa-ch21-002
@@ -1970,10 +1997,12 @@ tags:
     - gof-ch14-005
     - gof-ch30-006
     - gof-ch34-002
+    - ootp-ch23-007
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   crystal-gazing:
     entries:
     - gof-ch21-005
@@ -2240,6 +2269,7 @@ tags:
     - ootp-ch17-006
     - ootp-ch18-006
     - ootp-ch19-001
+    - ootp-ch23-004
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2305,6 +2335,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   defense-association:
     entries:
     - ootp-ch18-007
@@ -2503,6 +2534,11 @@ tags:
     - ootp-ch20-004
     output_yaml:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  disapparition:
+    entries:
+    - ootp-ch23-001
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   disarming:
     entries:
     - gof-ch29-004
@@ -2687,6 +2723,7 @@ tags:
     - cos-ch05-006
     - gof-ch12-004
     - ootp-ch17-002
+    - ootp-ch23-001
     - poa-ch04-005
     - ps-ch10-003
     output_yaml:
@@ -2695,6 +2732,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   draco-malfoy:
     entries:
     - cos-ch04-004
@@ -2851,6 +2889,8 @@ tags:
     - ootp-ch20-004
     - ootp-ch20-005
     - ootp-ch21-001
+    - ootp-ch23-002
+    - ootp-ch23-003
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2945,6 +2985,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -2969,10 +3010,12 @@ tags:
     - ootp-ch18-007
     - ootp-ch21-004
     - ootp-ch21-006
+    - ootp-ch23-004
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -3288,6 +3331,7 @@ tags:
     - cos-ch04-004
     - cos-ch16-001
     - cos-ch18-007
+    - ootp-ch23-003
     - poa-ch15-003
     - poa-ch16-001
     - poa-ch16-003
@@ -3304,6 +3348,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   exile:
     entries:
     - ootp-ch20-003
@@ -3639,6 +3684,7 @@ tags:
     - gof-ch30-006
     - ootp-ch06-004
     - ootp-ch09-007
+    - ootp-ch23-007
     - poa-ch10-006
     - ps-ch04-005
     output_yaml:
@@ -3650,6 +3696,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   first-year-arrival:
     entries:
     - poa-ch05-005
@@ -3981,6 +4028,11 @@ tags:
     - gof-ch30-007
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
+  frank-longbottom:
+    entries:
+    - ootp-ch23-007
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   fred-and-george:
     entries:
     - gof-ch04-005
@@ -4142,9 +4194,11 @@ tags:
     - cos-ch04-006
     - cos-ch06-006
     - cos-ch06-007
+    - ootp-ch23-006
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   gillyweed:
     entries:
     - gof-ch26-004
@@ -4385,12 +4439,15 @@ tags:
     - ootp-ch06-003
     - ootp-ch06-007
     - ootp-ch09-003
+    - ootp-ch23-002
+    - ootp-ch23-005
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   grindelwald:
     entries:
     - ps-ch06-003
@@ -4965,6 +5022,7 @@ tags:
     - gof-ch24-007
     - ootp-ch02-003
     - ootp-ch22-002
+    - ootp-ch23-002
     - poa-ch09-004
     - poa-ch11-002
     - poa-ch21-001
@@ -4977,6 +5035,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   headmaster-contact:
     entries:
     - gof-ch02-005
@@ -5008,6 +5067,7 @@ tags:
     - gof-ch30-001
     - ootp-ch16-005
     - ootp-ch22-002
+    - ootp-ch23-002
     - poa-ch11-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -5016,6 +5076,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   headmasters:
     entries:
     - cos-ch09-006
@@ -5069,8 +5130,10 @@ tags:
     entries:
     - ootp-ch22-005
     - ootp-ch22-007
+    - ootp-ch23-006
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   hedwig:
     entries:
     - cos-ch01-003
@@ -5166,6 +5229,11 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+  hexes:
+    entries:
+    - ootp-ch23-004
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   hidden-agent:
     entries:
     - gof-ch01-004
@@ -5384,12 +5452,14 @@ tags:
     - gof-ch11-003
     - gof-ch12-007
     - gof-ch34-005
+    - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -5397,6 +5467,7 @@ tags:
     - gof-ch15-003
     - gof-ch28-003
     - ootp-ch17-002
+    - ootp-ch23-001
     - poa-ch09-001
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
@@ -5405,6 +5476,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   hogwarts-alumni:
     entries:
     - ootp-ch09-007
@@ -5673,8 +5745,10 @@ tags:
   holidays:
     entries:
     - gof-ch23-001
+    - ootp-ch23-003
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   holidays-at-hogwarts:
     entries:
     - poa-ch11-004
@@ -5897,6 +5971,7 @@ tags:
     - ootp-ch18-004
     - ootp-ch18-005
     - ootp-ch21-004
+    - ootp-ch23-005
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -5921,6 +5996,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -6402,6 +6478,11 @@ tags:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  janus-thickey:
+    entries:
+    - ootp-ch23-006
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   jinxed-post:
     entries:
     - cos-ch07-004
@@ -6547,9 +6628,11 @@ tags:
     entries:
     - ootp-ch04-003
     - ootp-ch06-002
+    - ootp-ch23-005
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   kwikspell:
     entries:
     - cos-ch08-002
@@ -6809,6 +6892,11 @@ tags:
     - ootp-ch22-004
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  long-term-care:
+    entries:
+    - ootp-ch23-006
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   longbottoms:
     entries:
     - gof-ch30-006
@@ -7088,6 +7176,11 @@ tags:
     - ootp-ch03-004
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
+  magical-communication:
+    entries:
+    - ootp-ch23-002
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   magical-community:
     entries:
     - ps-ch02-006
@@ -7410,12 +7503,14 @@ tags:
     - gof-ch15-006
     - gof-ch15-007
     - ootp-ch03-003
+    - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   magical-tree:
     entries:
     - cos-ch05-003
@@ -7464,12 +7559,14 @@ tags:
     - ootp-ch13-002
     - ootp-ch14-001
     - ootp-ch18-004
+    - ootp-ch23-005
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   marauders:
     entries:
     - ootp-ch09-006
@@ -8042,6 +8139,11 @@ tags:
     - gof-ch37-003
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  moving-illustrations:
+    entries:
+    - ootp-ch23-004
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   moving-pictures:
     entries:
     - gof-ch02-002
@@ -8617,6 +8719,7 @@ tags:
     - ootp-ch10-001
     - ootp-ch14-003
     - ootp-ch21-007
+    - ootp-ch23-007
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
@@ -8627,6 +8730,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -9053,9 +9157,11 @@ tags:
     - ootp-ch06-005
     - ootp-ch22-002
     - ootp-ch22-003
+    - ootp-ch23-002
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   phoenix:
     entries:
     - cos-ch17-005
@@ -9234,9 +9340,11 @@ tags:
     - gof-ch17-007
     - ootp-ch22-002
     - ootp-ch22-006
+    - ootp-ch23-002
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   portraits:
     entries:
     - gof-ch17-007
@@ -9340,11 +9448,13 @@ tags:
     - ootp-ch16-004
     - ootp-ch18-007
     - ootp-ch21-006
+    - ootp-ch23-004
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   practical-examination:
     entries:
     - ootp-ch12-004
@@ -10514,6 +10624,7 @@ tags:
     - ootp-ch17-001
     - ootp-ch18-002
     - ootp-ch19-007
+    - ootp-ch23-003
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -10526,6 +10637,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -10649,9 +10761,11 @@ tags:
     entries:
     - gof-ch15-006
     - gof-ch29-001
+    - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   school-protections:
     entries:
     - gof-ch11-005
@@ -11034,8 +11148,10 @@ tags:
   servant-bondage:
     entries:
     - ootp-ch06-002
+    - ootp-ch23-005
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   seven-year-education:
     entries:
     - ps-ch04-006
@@ -11426,8 +11542,10 @@ tags:
   spell-damage:
     entries:
     - ootp-ch22-005
+    - ootp-ch23-006
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   spell-evidence:
     entries:
     - gof-ch09-006
@@ -11513,9 +11631,12 @@ tags:
     - ootp-ch22-004
     - ootp-ch22-005
     - ootp-ch22-006
+    - ootp-ch23-003
+    - ootp-ch23-006
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -12083,6 +12204,11 @@ tags:
     - ootp-ch16-006
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  student-permissions:
+    entries:
+    - ootp-ch23-003
+    output_yaml:
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   student-pets:
     entries:
     - gof-ch11-002
@@ -13123,8 +13249,10 @@ tags:
     entries:
     - ootp-ch16-003
     - ootp-ch16-004
+    - ootp-ch23-003
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   umbridge-surveillance:
     entries:
     - ootp-ch22-003

@@ -68,3 +68,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Destination: Magical Architecture and Enchantments / House Common Rooms and Dormitories / Founders' dormitory rule and staircase enforcement
   - Source: PDF p. 1909, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
   - Classification: pre_1984_historical_candidate | Confidence: high
+
+## Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward
+
+- `ootp-ch23-001`
+  - Quote: "you can't Apparate or Disapparate inside Hogwarts"
+  - Evidence note: Hermione explicitly cites Hogwarts: A History as a source for the rule that Apparition and Disapparition are impossible inside Hogwarts.
+  - Destination: Protective Magic and Security / Movement Limits and Anti-Apparition Protections / Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
+  - Source: PDF p. 2051, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: original_book_core_candidate | Confidence: high

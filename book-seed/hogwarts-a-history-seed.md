@@ -2303,6 +2303,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `poa-ch07-004`. Book 3 Chapter Seven records Lupin's practical boggart lesson; this entry adds the end-of-year assessment sequence and multiple creature hazards.
   - Notes: Lupin's exam may reflect his own teaching style rather than a standard Defense Against the Dark Arts examination format.
 
+#### Section: Private defensive books used for student-led practice
+
+Summary: The available evidence includes 1 source item, led by: Sirius and Lupin supply Harry with a practical Defense Against the Dark Arts book set that he expects to use for Dumbledore's Army instruction.
+
+- **Corroboration:** Sirius and Lupin supply Harry with a practical Defense Against the Dark Arts book set that he expects to use for Dumbledore's Army instruction.
+  - Quote: "moving color illustrations of all the counterjinxes and hexes"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2052, `ootp-ch23-004`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch18-007`, `ootp-ch21-006`. ootp-ch18-007 records the D.A.'s formal first practice and ootp-ch21-006 records later spell progression; this entry adds a named private book set Harry planned to use as practical teaching material.
+  - Notes: The books are private gifts, not Hogwarts-issued course texts.
+
 ### Chapter: Divination and Elective Study
 
 #### Section: Dream interpretation and O.W.L. preparation
@@ -2500,6 +2512,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch08-005`, `cos-ch09-002`, `gof-ch29-002`. Prior entries establish Binns as History of Magic teacher and corroborate his routine instruction; this entry adds giant wars as a fifth-year topic and a named essay workload.
   - Notes: Student commentary is dismissive, so the entry should not overstate the quality of the subject beyond the observed teaching format and assignment.
+
+### Chapter: Holidays, Examinations, and Student Movement
+
+#### Section: Christmas study residence and emergency hospital visits
+
+Summary: The available evidence includes 1 source item, led by: The passage shows Christmas residence at Hogwarts as plausible for exam study, while emergency student departure to St. Mungo's requires headmaster permission and provokes Umbridge's oversight.
+
+- **Corroboration:** The passage shows Christmas residence at Hogwarts as plausible for exam study, while emergency student departure to St. Mungo's requires headmaster permission and provokes Umbridge's oversight.
+  - Quote: "everyone who's serious about the exams is staying at Hogwarts"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2049, `ootp-ch23-003`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch23-001`, `ootp-ch21-003`. gof-ch23-001 records Christmas break residence and homework at Hogwarts, and ootp-ch21-003 records Christmas-season supervision; this entry adds fifth-year exam-study rationale, official term-end timing, and Dumbledore-authorized hospital travel under Umbridge scrutiny.
+  - Notes: Hermione's explanation to her parents may be partly strategic and does not state a formal Hogwarts holiday-stay policy.
 
 ### Chapter: Homework and Independent Study
 
@@ -3923,6 +3949,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore expla
   - Corroborates: `cos-ch12-001`, `gof-ch17-007`, `poa-ch11-006`. Earlier entries identify headmaster portraits and ordinary Hogwarts portrait movement; this entry adds named former Heads, travel between portraits in external institutions, and the duty to serve the current headmaster.
   - Notes: The evidence describes portraits that have multiple frames; it does not prove every Hogwarts portrait can travel beyond the castle.
 
+#### Section: Portrait messages and supervision beyond Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Phineas Nigellus can use his portrait at Grimmauld Place to relay Dumbledore's orders and seemingly watch Harry on the headmaster's behalf.
+
+- **Corroboration:** Phineas Nigellus can use his portrait at Grimmauld Place to relay Dumbledore's orders and seemingly watch Harry on the headmaster's behalf.
+  - Quote: "I have a message for you from Albus Dumbledore"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2045, `ootp-ch23-002`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `ootp-ch22-002`. ootp-ch22-002 records Dumbledore's explanation of multi-institution portrait travel and service to the headmaster; this entry adds Phineas's practical use at Grimmauld Place to deliver an order and observe Harry.
+  - Notes: Harry infers the watch-over function; the message delivery itself is direct.
+
 ### Chapter: House-Elves and Hidden Labor
 
 #### Section: Clothing, freedom, and Hogwarts service spaces
@@ -4794,6 +4832,20 @@ Summary: The available evidence includes 1 source item, led by: Moody's search s
   - Reference type: security_or_protection
   - Corroborates: `gof-ch25-007`, `poa-ch17-004`, `gof-ch25-001`. Corroborates Moody's staff-level map use and the map's ability to track invisible people; adds the Summoning-from-office search and Ministry notification.
   - Notes: Harry and the others rely on Moody's report; the search itself is not directly observed on-page.
+
+### Chapter: Movement Limits and Anti-Apparition Protections
+
+#### Section: Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Hermione explicitly cites Hogwarts: A History as a source for the rule that Apparition and Disapparition are impossible inside Hogwarts.
+
+- **Corroboration:** Hermione explicitly cites Hogwarts: A History as a source for the rule that Apparition and Disapparition are impossible inside Hogwarts.
+  - Quote: "you can't Apparate or Disapparate inside Hogwarts"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2051, `ootp-ch23-001`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: original_book_core_candidate | Confidence: high
+  - Reference type: explicit_hogwarts_a_history
+  - Corroborates: `gof-ch15-006`, `gof-ch29-001`. gof-ch15-006 and gof-ch29-001 already corroborate the Hogwarts anti-Apparition rule; this entry adds the explicit Hogwarts: A History attribution and frames the rule as applying inside Hogwarts itself.
+  - Notes: The passage does not explain who cast the enchantment, when it began, or its exact boundary at the castle versus grounds.
 
 ### Chapter: Movement Limits and Boundary Magic
 
@@ -5760,6 +5812,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
   - Reference type: explicit_in_universe_source
   - Corroborates: `gof-ch07-001`. Book 4 Chapter Seven records campsite Memory Charms for ordinary anti-Muggle secrecy; this entry adds post-riot modification of the Roberts family's memories and broader Dark Mark/Death Eater history.
   - Notes: The explanation is secondhand adult testimony and a student-cited source title; it does not identify the caster or prove all masked rioters were Death Eaters.
+
+### Chapter: First Wizarding War and Hogwarts Families
+
+#### Section: The Longbottom Aurors and Bellatrix Lestrange
+
+Summary: The available evidence includes 1 source item, led by: Augusta Longbottom states that Frank and Alice Longbottom were respected Aurors tortured into insanity by Voldemort's followers; Harry identifies Bellatrix Lestrange as responsible.
+
+- **Supporting evidence:** Augusta Longbottom states that Frank and Alice Longbottom were respected Aurors tortured into insanity by Voldemort's followers; Harry identifies Bellatrix Lestrange as responsible.
+  - Quote: "were tortured into insanity"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2064, `ootp-ch23-007`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage gives wartime background and family context rather than a Hogwarts institutional rule or event.
 
 ### Chapter: Voldemort, Riddle, and Hogwarts Memory
 
@@ -8625,6 +8690,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
 
 ### Chapter: House-Elves, Service, and Wizarding Households
 
+#### Section: Clothing, family-house bonds, and possible unauthorized departure
+
+Summary: The available evidence includes 1 source item, led by: The scene gives further house-elf servitude evidence: clothing is treated as dangerous because it frees elves, Sirius says elves are tied to the family house, and Harry notes Dobby could still leave by punishing himself afterward.
+
+- **Corroboration:** The scene gives further house-elf servitude evidence: clothing is treated as dangerous because it frees elves, Sirius says elves are tied to the family house, and Harry notes Dobby could still leave by punishing himself afterward.
+  - Quote: "house-elves can't leave unless they're given clothes"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2054, `ootp-ch23-005`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch06-002`, `cos-ch02-001`, `gof-ch09-003`. ootp-ch06-002 records Kreacher's Black-family loyalty and Order-secrecy risk, cos-ch02-001 records Dobby's family bondage, and gof-ch09-003 records clothing dismissal; this entry adds the family-house phrasing, Kreacher's den, and Harry's Dobby-based challenge to Sirius's certainty.
+  - Notes: Sirius's explanation is challenged by Harry, so the exact house-elf movement rule remains partly uncertain.
+
 #### Section: Kreacher, Family Loyalty, and Headquarters Secrecy
 
 Summary: The available evidence includes 1 source item, led by: The chapter shows Kreacher's inherited loyalty to the Black family, his obligation to obey direct orders, and the security problem created by a bound house-elf who knows Order secrets.
@@ -8689,6 +8766,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter iden
   - Notes: Harry estimates the tree's age from its appearance, while Kreacher supplies the seven-century claim in muttered speech.
 
 ### Chapter: Wizarding Institutions Beyond Hogwarts
+
+#### Section: Spell-damage long-term care at St. Mungo's
+
+Summary: The available evidence includes 1 source item, led by: St. Mungo's Janus Thickey ward is a locked long-term resident ward for permanent spell damage, with remedial potions and charms sometimes producing improvement.
+
+- **Corroboration:** St. Mungo's Janus Thickey ward is a locked long-term resident ward for permanent spell damage, with remedial potions and charms sometimes producing improvement.
+  - Quote: "For permanent spell damage"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, PDF p. 2060, `ootp-ch23-006`, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch22-005`. ootp-ch22-005 records St. Mungo's general floor guide and spell-damage category; this entry adds the locked Janus Thickey ward, permanent spell-damage residents, and remedial treatment practices.
+  - Notes: The ward is observed during a Christmas visit and does not provide full admission criteria or treatment protocols.
 
 #### Section: St. Mungo's departments, Healers, and public triage
 

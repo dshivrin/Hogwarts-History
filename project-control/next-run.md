@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty-Three - Christmas on the Closed Ward
-- Page range: 2043-2065
+- Chapter: Chapter Twenty-Four - Occlumency
+- Page range: 2066-2091
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+- Output YAML: `sources/book-05/chapter-24-occlumency.yaml`
 
 ## Minimal Context
 

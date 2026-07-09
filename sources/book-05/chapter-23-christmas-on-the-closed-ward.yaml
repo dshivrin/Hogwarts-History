@@ -1,0 +1,338 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+  chapter_start_pdf_page: 2043
+  chapter_end_pdf_page: 2065
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 2043-2065, established from prior anchors. Chapter Twenty-Four is already bounded in processing-state.yaml at PDF page 2066, so no full-PDF scan was needed.
+  processed_date: '2026-07-09'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. One explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: ootp-ch23-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2051
+    printed_page: null
+    extracted_text_lines: 308-312
+    text_anchor:
+      start_phrase: One day
+      end_phrase: fly out of your dormitory
+      local_occurrence_note: Hermione corrects Harry's fear that Voldemort physically transported him from Hogwarts during the snake dream.
+    nearby_context: Ginny has just compared Harry's experience with her own possession, and Hermione points to the book as a reminder of Hogwarts transport limits.
+    match_terms:
+      - "Hogwarts: A History"
+      - Apparate
+      - Disapparate
+      - Hogwarts
+      - dormitory
+      - Voldemort
+    quote_excerpt_short: "you can't Apparate or Disapparate inside Hogwarts"
+    source_note: "Hermione explicitly cites Hogwarts: A History as a source for the rule that Apparition and Disapparition are impossible inside Hogwarts."
+    reference_type: explicit_hogwarts_a_history
+    era_classification: original_book_core_candidate
+    topic_tags:
+      - hogwarts-a-history
+      - apparition
+      - disapparition
+      - hogwarts
+      - magical-transportation
+      - school-protection
+      - dormitories
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Movement Limits and Anti-Apparition Protections
+    candidate_section: "Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts"
+    reason_for_placement: "The passage directly attributes a campus-wide movement restriction to Hogwarts: A History."
+    relevance_to_hogwarts_a_history: This is an explicit in-universe citation that can anchor a core security section on why even powerful wizards cannot Apparate within the school.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch15-006
+        - gof-ch29-001
+      notes: "gof-ch15-006 and gof-ch29-001 already corroborate the Hogwarts anti-Apparition rule; this entry adds the explicit Hogwarts: A History attribution and frames the rule as applying inside Hogwarts itself."
+    confidence: high
+    limitations: The passage does not explain who cast the enchantment, when it began, or its exact boundary at the castle versus grounds.
+
+  - id: ootp-ch23-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2045
+    printed_page: null
+    extracted_text_lines: 97-129; 201-203
+    text_anchor:
+      start_phrase: Phineas Nigellus had appeared upon the canvas
+      end_phrase: probably set Phineas Nigellus to watch over him
+      local_occurrence_note: Phineas appears in the Grimmauld Place bedroom portrait, delivers Dumbledore's instruction, and is later seen apparently monitoring Harry.
+    nearby_context: Harry is preparing to leave Grimmauld Place for Privet Drive until Phineas relays the headmaster's short command to stay.
+    match_terms:
+      - Phineas Nigellus
+      - portrait
+      - Dumbledore
+      - message
+      - Grimmauld Place
+      - headmaster
+    quote_excerpt_short: "I have a message for you from Albus Dumbledore"
+    source_note: Phineas Nigellus can use his portrait at Grimmauld Place to relay Dumbledore's orders and seemingly watch Harry on the headmaster's behalf.
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - phineas-nigellus
+      - headmaster-portraits
+      - portrait-network
+      - dumbledore
+      - grimmauld-place
+      - headmaster-authority
+      - magical-communication
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Headmaster Portraits and Institutional Memory
+    candidate_section: Portrait messages and supervision beyond Hogwarts
+    reason_for_placement: The scene shows a former Head's portrait acting as a communication and monitoring instrument for the current headmaster outside the school.
+    relevance_to_hogwarts_a_history: This can extend the portrait-network evidence from the headmaster's office to off-campus frames connected to former Hogwarts Heads.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch22-002
+      notes: ootp-ch22-002 records Dumbledore's explanation of multi-institution portrait travel and service to the headmaster; this entry adds Phineas's practical use at Grimmauld Place to deliver an order and observe Harry.
+    confidence: high
+    limitations: Harry infers the watch-over function; the message delivery itself is direct.
+
+  - id: ootp-ch23-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2049
+    printed_page: null
+    extracted_text_lines: 241-253
+    text_anchor:
+      start_phrase: everyone who's serious about the exams is staying at Hogwarts
+      end_phrase: he'd given you all permission to visit
+      local_occurrence_note: Hermione explains her Christmas travel timing and Dumbledore's permission for the Weasley children to visit St. Mungo's.
+    nearby_context: Hermione arrives by Knight Bus after official term-end while Umbridge is angry that students left under Dumbledore's authorization.
+    match_terms:
+      - exams
+      - staying at Hogwarts
+      - term ended officially
+      - Dumbledore
+      - Umbridge
+      - St. Mungo's
+    quote_excerpt_short: "everyone who's serious about the exams is staying at Hogwarts"
+    source_note: The passage shows Christmas residence at Hogwarts as plausible for exam study, while emergency student departure to St. Mungo's requires headmaster permission and provokes Umbridge's oversight.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - holidays
+      - exams
+      - student-permissions
+      - dumbledore
+      - umbridge
+      - st-mungos
+      - school-governance
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Holidays, Examinations, and Student Movement
+    candidate_section: Christmas study residence and emergency hospital visits
+    reason_for_placement: The scene ties holiday residence, official term timing, exam pressure, and staff-authorized student movement together.
+    relevance_to_hogwarts_a_history: This supports coverage of how the school handles holiday stays, exam-year expectations, and exceptional departures under administrative authority.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch23-001
+        - ootp-ch21-003
+      notes: gof-ch23-001 records Christmas break residence and homework at Hogwarts, and ootp-ch21-003 records Christmas-season supervision; this entry adds fifth-year exam-study rationale, official term-end timing, and Dumbledore-authorized hospital travel under Umbridge scrutiny.
+    confidence: medium
+    limitations: Hermione's explanation to her parents may be partly strategic and does not state a formal Hogwarts holiday-stay policy.
+
+  - id: ootp-ch23-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2052
+    printed_page: null
+    extracted_text_lines: 352-358
+    text_anchor:
+      start_phrase: Sirius and Lupin had given Harry
+      end_phrase: useful in his plans for the D.A.
+      local_occurrence_note: Harry opens Sirius and Lupin's Christmas present and assesses its use for Dumbledore's Army.
+    nearby_context: The gift is a set of practical defensive books with moving color illustrations of counterjinxes and hexes.
+    match_terms:
+      - Practical Defensive Magic
+      - Dark Arts
+      - counterjinxes
+      - hexes
+      - D.A.
+      - moving illustrations
+    quote_excerpt_short: "moving color illustrations of all the counterjinxes and hexes"
+    source_note: Sirius and Lupin supply Harry with a practical Defense Against the Dark Arts book set that he expects to use for Dumbledore's Army instruction.
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - defense-against-the-dark-arts
+      - dumbledores-army
+      - practical-defense
+      - course-books
+      - counterjinxes
+      - hexes
+      - moving-illustrations
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Defense Against the Dark Arts
+    candidate_section: Private defensive books used for student-led practice
+    reason_for_placement: The passage identifies an in-universe instructional source that supplements the unofficial D.A. curriculum during Umbridge's theory-only year.
+    relevance_to_hogwarts_a_history: A later edition can use this to document how students sourced practical defensive material when official instruction was restricted.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch18-007
+        - ootp-ch21-006
+      notes: ootp-ch18-007 records the D.A.'s formal first practice and ootp-ch21-006 records later spell progression; this entry adds a named private book set Harry planned to use as practical teaching material.
+    confidence: high
+    limitations: The books are private gifts, not Hogwarts-issued course texts.
+
+  - id: ootp-ch23-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2054
+    printed_page: null
+    extracted_text_lines: 405-460; 461-463
+    text_anchor:
+      start_phrase: It had better not be clothes
+      end_phrase: but he still managed it
+      local_occurrence_note: Hermione brings Kreacher a non-clothing gift, the group sees his cupboard nest, and Sirius and Harry discuss whether a house-elf can leave.
+    nearby_context: Kreacher's den contains rags, food scraps, saved Black-family objects, coins, and repaired photographs including Bellatrix Lestrange.
+    match_terms:
+      - Kreacher
+      - clothes
+      - house-elves
+      - family house
+      - Dobby
+      - Bellatrix Lestrange
+    quote_excerpt_short: "house-elves can't leave unless they're given clothes"
+    source_note: "The scene gives further house-elf servitude evidence: clothing is treated as dangerous because it frees elves, Sirius says elves are tied to the family house, and Harry notes Dobby could still leave by punishing himself afterward."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - kreacher
+      - house-elves
+      - manumission
+      - clothing
+      - black-family
+      - grimmauld-place
+      - servant-bondage
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: House-Elves, Service, and Wizarding Households
+    candidate_section: Clothing, family-house bonds, and possible unauthorized departure
+    reason_for_placement: The passage refines the rules and uncertainties around old-family house-elf servitude and movement.
+    relevance_to_hogwarts_a_history: This can be cross-referenced with Hogwarts house-elf labor to explain the broader legal and magical customs behind house-elf service.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch06-002
+        - cos-ch02-001
+        - gof-ch09-003
+      notes: ootp-ch06-002 records Kreacher's Black-family loyalty and Order-secrecy risk, cos-ch02-001 records Dobby's family bondage, and gof-ch09-003 records clothing dismissal; this entry adds the family-house phrasing, Kreacher's den, and Harry's Dobby-based challenge to Sirius's certainty.
+    confidence: high
+    limitations: Sirius's explanation is challenged by Harry, so the exact house-elf movement rule remains partly uncertain.
+
+  - id: ootp-ch23-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2060
+    printed_page: null
+    extracted_text_lines: 627-680; 701-713
+    text_anchor:
+      start_phrase: Gilderoy, you naughty boy
+      end_phrase: Mrs. Longbottom, are you leaving already
+      local_occurrence_note: A Healer escorts Lockhart back to the locked Janus Thickey ward and explains its long-term spell-damage residents.
+    nearby_context: Lockhart, Broderick Bode, Agnes, and the Longbottoms are all residents or visitors in a ward for permanent spell damage.
+    match_terms:
+      - Janus Thickey ward
+      - closed ward
+      - permanent spell damage
+      - remedial potions
+      - charms
+      - Gilderoy Lockhart
+      - Broderick Bode
+    quote_excerpt_short: "For permanent spell damage"
+    source_note: St. Mungo's Janus Thickey ward is a locked long-term resident ward for permanent spell damage, with remedial potions and charms sometimes producing improvement.
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - st-mungos
+      - spell-damage
+      - closed-ward
+      - janus-thickey
+      - healers
+      - long-term-care
+      - gilderoy-lockhart
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Wizarding Institutions Beyond Hogwarts
+    candidate_section: Spell-damage long-term care at St. Mungo's
+    reason_for_placement: The passage expands St. Mungo's institutional evidence from public triage to secure long-term care for magical injuries.
+    relevance_to_hogwarts_a_history: A later edition can cite this when cross-referencing the consequences of dangerous spellwork affecting former staff, students, and wizarding families connected to Hogwarts.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch22-005
+      notes: ootp-ch22-005 records St. Mungo's general floor guide and spell-damage category; this entry adds the locked Janus Thickey ward, permanent spell-damage residents, and remedial treatment practices.
+    confidence: high
+    limitations: The ward is observed during a Christmas visit and does not provide full admission criteria or treatment protocols.
+
+  - id: ootp-ch23-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Three - Christmas on the Closed Ward
+    chapter_start_pdf_page: 2043
+    chapter_end_pdf_page: 2065
+    pdf_page: 2064
+    printed_page: null
+    extracted_text_lines: 775-786; 813-817
+    text_anchor:
+      start_phrase: My son and his wife
+      end_phrase: that woman Kreacher's got a photo of in his den
+      local_occurrence_note: Augusta Longbottom identifies Frank and Alice as respected Aurors, and Harry names Bellatrix Lestrange's crime.
+    nearby_context: Neville's mother silently gives him a gum wrapper; Harry connects Bellatrix to both the St. Mungo's ward and Kreacher's photograph.
+    match_terms:
+      - Frank Longbottom
+      - Alice Longbottom
+      - Aurors
+      - Cruciatus Curse
+      - Bellatrix Lestrange
+      - Order of the Phoenix
+    quote_excerpt_short: "were tortured into insanity"
+    source_note: Augusta Longbottom states that Frank and Alice Longbottom were respected Aurors tortured into insanity by Voldemort's followers; Harry identifies Bellatrix Lestrange as responsible.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - frank-longbottom
+      - alice-longbottom
+      - aurors
+      - bellatrix-lestrange
+      - cruciatus-curse
+      - first-wizarding-war
+      - order-of-the-phoenix
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: First Wizarding War and Hogwarts Families
+    candidate_section: The Longbottom Aurors and Bellatrix Lestrange
+    reason_for_placement: The event is a pre-Harry-era wartime fact involving the family history of a Hogwarts student and members of the original Order.
+    relevance_to_hogwarts_a_history: A later edition can use this as background for Hogwarts families shaped by the First Wizarding War and for Neville Longbottom's later school context.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries found no existing entry for Frank and Alice Longbottom's torture by Bellatrix Lestrange or their St. Mungo's long-term condition.
+    confidence: high
+    limitations: The passage gives wartime background and family context rather than a Hogwarts institutional rule or event.

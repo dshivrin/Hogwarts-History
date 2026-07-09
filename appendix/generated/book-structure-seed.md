@@ -66,6 +66,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Patronus Instruction and Anti-Dementor Defense
   - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
+  - Private defensive books used for student-led practice
 - Divination and Elective Study
   - Dream interpretation and O.W.L. preparation
   - Planetary divination in the North Tower classroom
@@ -104,6 +105,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Professor Binns and Historical Instruction
   - Professor Binns and routine historical instruction
   - Professor Binns, giant wars, and lecture-based instruction
+- Holidays, Examinations, and Student Movement
+  - Christmas study residence and emergency hospital visits
 - Homework and Independent Study
   - Holiday Homework and Student Materials
   - Holiday Homework and Supply Shopping
@@ -294,6 +297,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Shrieking Shack Reputation
 - Headmaster Portraits and Institutional Memory
   - Multi-institution portrait travel and service to the headmaster
+  - Portrait messages and supervision beyond Hogwarts
 - House-Elves and Hidden Labor
   - Clothing, freedom, and Hogwarts service spaces
 - Magical Residents of the Grounds
@@ -627,6 +631,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Biographical Sources and Public Reputation
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
+- First Wizarding War and Hogwarts Families
+  - The Longbottom Aurors and Bellatrix Lestrange
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
 - The First Known Chamber Opening
@@ -666,6 +672,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Goblins and Wizarding Political Relations
   - Goblin Neutrality and Recruitment Pressures
 - House-Elves, Service, and Wizarding Households
+  - Clothing, family-house bonds, and possible unauthorized departure
   - Kreacher, Family Loyalty, and Headquarters Secrecy
 - Magical Medicine and Creature Harm
   - Serious bites, venom treatment, and ward privacy
@@ -675,6 +682,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Interrelated Pure-Blood Families and Marriage Exclusions
   - The Black Family Tapestry and Disowned Relatives
 - Wizarding Institutions Beyond Hogwarts
+  - Spell-damage long-term care at St. Mungo's
   - St. Mungo's departments, Healers, and public triage
   - St. Mungo's location and concealed entrance
 
@@ -754,6 +762,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch Match Risks
 - Magical Surveillance and Staff Security Tools
   - Moody's map search for Crouch
+- Movement Limits and Anti-Apparition Protections
+  - Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
 - Off-Campus Protection of Students
