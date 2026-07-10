@@ -204,6 +204,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Great Hall Decorations and Banquets
   - Great Hall Decorations and Ghost Entertainment
   - Great Hall Decorations and Ghostly Counter-Customs
+- Hogsmeade Weekends
+  - Posted dates and student arrangements
 - House Life and Student Celebrations
   - Common-Room Parties and Head-of-House Enforcement
 - One-Off Staff Events and School Morale
@@ -373,6 +375,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Student-led practical defense after curriculum failure
   - Theory-only lessons, dissent, and discipline
   - Umbridge's theory-centered curriculum
+- Defense, Mind Magic, and the Umbridge Year
+  - Private Occlumency lessons under official cover
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -697,8 +701,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Access Control, Visitors, and Information Security
   - Press Exclusion and Unexplained Information Leaks
+- Ancient Protections of the Castle and Grounds
+  - Mental safety and limits on hostile mind magic
 - Anti-Dementor Defenses
   - Corporeal Patronus Intervention
+- Boundaries, Gates, and School Travel
+  - Emergency transport to the school boundary
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
 - Concealment and Anti-Detection Magic
@@ -834,6 +842,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - School Quidditch Season
   - House Championship Context
   - Team Practices and Cup Standings
+- Student Enterprises and Magical Recreation
+  - Weasley joke inventions in common-room life
 
 ## Rules, Discipline, and Governance
 
@@ -1068,6 +1078,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## The Library, Books, and Scholarship
 
 - Library Collections and Restricted Books
+  - Evening study, supervision, and examination pressure
   - Physical Boundary and Enforced Restrictions
   - Research, Reference Works, and Teacher Permission
   - Restricted Section Permissions and Advanced Potions

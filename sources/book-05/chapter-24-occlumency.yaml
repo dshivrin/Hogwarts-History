@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Four range came from project-control/processing-state.yaml and project-control/next-run.md. Book 5 Chapter Twenty-Four starts on PDF page 2066; a bounded one-page forward extraction confirmed Chapter Twenty-Five starts on PDF page 2092, so only PDF pages 2066-2091 were extracted and searched for this unit.
+  processed_date: '2026-07-10'
+  processor_notes: "Processed only Book 5, Chapter Twenty-Four. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch24-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2069
+  printed_page: null
+  extracted_text_lines: 99-119
+  text_anchor:
+    start_phrase: Occlumency, Potter
+    end_phrase: you are taking Remedial Potions
+    local_occurrence_note: Snape explains Dumbledore's order for private Occlumency lessons and the cover story Harry must use.
+  nearby_context: Snape visits Grimmauld Place before term resumes, says Dumbledore wants Harry to study Occlumency, orders secrecy from Umbridge, and tells Harry to claim he is taking Remedial Potions in Snape's office.
+  match_terms:
+  - Occlumency
+  - private lessons
+  - Dumbledore
+  - Dolores Umbridge
+  - Remedial Potions
+  - Snape's office
+  quote_excerpt_short: "private lessons once a week"
+  source_note: Dumbledore can assign a student private magical instruction through a teacher, with secrecy from the High Inquisitor and a false remedial subject used as cover.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - occlumency
+  - private-lessons
+  - remedial-potions
+  - dumbledore
+  - umbridge
+  - staff-delegation
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense, Mind Magic, and the Umbridge Year
+  candidate_section: Private Occlumency lessons under official cover
+  reason_for_placement: The passage gives Harry-era evidence for extraordinary one-to-one instruction arranged by the headmaster during Ministry interference.
+  relevance_to_hogwarts_a_history: A later edition could use this as evidence for emergency instructional workarounds and staff discretion during the High Inquisitor period.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate query for Occlumency, Legilimency, mind magic, and private lessons found no prior matching seed.
+  confidence: high
+  limitations: This is an exceptional Harry-era security measure rather than evidence of ordinary curriculum.
+- id: ootp-ch24-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2076
+  printed_page: null
+  extracted_text_lines: 341-360
+  text_anchor:
+    start_phrase: They were rolling through a snowy Hogsmeade
+    end_phrase: reached the oak front doors
+    local_occurrence_note: The Knight Bus reaches Hogsmeade, stops outside the Hogwarts gates, and the students walk up to the castle.
+  nearby_context: Tonks and Lupin escort the students back from Grimmauld Place by Knight Bus, disembark outside the gates, and treat the Hogwarts grounds as the safer side of the boundary.
+  match_terms:
+  - Knight Bus
+  - Hogsmeade
+  - gates to Hogwarts
+  - grounds
+  - Tonks
+  - Lupin
+  quote_excerpt_short: "safe once you're in the grounds"
+  source_note: The Knight Bus can bring escorted students to the Hogwarts gates, while Order members describe entry into the grounds as a meaningful safety boundary.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - knight-bus
+  - hogwarts-gates
+  - hogwarts-grounds
+  - student-transport
+  - security-boundary
+  - hogsmeade-approach
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Boundaries, Gates, and School Travel
+  candidate_section: Emergency transport to the school boundary
+  reason_for_placement: The scene links an external magical transport service to the school gate and treats the grounds as a protected zone.
+  relevance_to_hogwarts_a_history: This can support a later editorial note on wartime student movement, gate-side handoffs, and how school boundaries shaped protective practice.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch03-002
+    - gof-ch15-006
+    notes: poa-ch03-002 introduces the Knight Bus as emergency magical transport, while gof-ch15-006 records a Hogwarts-grounds transport restriction; this entry adds an escorted wartime drop-off at the gates and a safety claim about entering the grounds.
+  confidence: high
+  limitations: Tonks's safety statement is situational and does not identify the exact protective enchantments active at the gate.
+- id: ootp-ch24-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2077
+  printed_page: null
+  extracted_text_lines: 386-394
+  text_anchor:
+    start_phrase: We'll be in the library
+    end_phrase: Yes, it's on Valentine's Day
+    local_occurrence_note: Cho asks Harry about a posted Hogsmeade trip after he returns to school.
+  nearby_context: In the entrance hall area after lunch, Cho mentions that another Hogsmeade trip is posted for the following month and Harry admits he has not checked the notice board since returning.
+  match_terms:
+  - Hogsmeade trip
+  - notice board
+  - Valentine's Day
+  - student visits
+  - Cho Chang
+  quote_excerpt_short: "another Hogsmeade trip next month"
+  source_note: School Hogsmeade visits continue to be communicated by posted notices, with a February trip scheduled for Valentine's Day during the Umbridge year.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade-trip
+  - notice-board
+  - valentines-day
+  - student-visits
+  - school-schedule
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Hogsmeade Weekends
+  candidate_section: Posted dates and student arrangements
+  reason_for_placement: The passage confirms the continuing practice of announcing Hogsmeade visits by notice board and gives a dated example.
+  relevance_to_hogwarts_a_history: This supports a school-life section on how upper-year village visits were scheduled and communicated.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ootp-ch12-001
+    notes: ootp-ch12-001 already records Hogsmeade notices on a common-room board; this entry adds a later Valentine's Day Hogsmeade trip notice and shows students using it for social planning.
+  confidence: high
+  limitations: The scene does not show the posted notice directly or state permission requirements for this trip.
+- id: ootp-ch24-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2078
+  printed_page: null
+  extracted_text_lines: 417-428
+  text_anchor:
+    start_phrase: intensified with every step Harry took toward Snape's office
+    end_phrase: Dumbledore's Pensieve
+    local_occurrence_note: Harry enters Snape's office for the first Occlumency lesson and sees Dumbledore's Pensieve on the desk.
+  nearby_context: Snape's office contains potion shelves, ingredient storage, and a rune-engraved stone basin that Harry recognizes as Dumbledore's Pensieve.
+  match_terms:
+  - Snape's office
+  - Pensieve
+  - Dumbledore
+  - stone basin
+  - runes
+  - potions
+  quote_excerpt_short: "Dumbledore's Pensieve"
+  source_note: Dumbledore's Pensieve can be temporarily present outside the headmaster's office, here in Snape's Potions office for an Occlumency lesson.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - pensieve
+  - memory-magic
+  - snape-office
+  - potions-office
+  - dumbledore
+  - magical-artifact
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: The Pensieve and stored memories
+  reason_for_placement: The passage adds relocation and use-context evidence for a major memory artifact already linked to Dumbledore.
+  relevance_to_hogwarts_a_history: Useful as a cross-reference showing that exceptional school artifacts could be used in staff offices when instruction or security required it.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch30-002
+    notes: gof-ch30-002 identifies and explains the Pensieve in Dumbledore's office; this entry adds the artifact's temporary use in Snape's office during Occlumency.
+  confidence: high
+  limitations: The evidence does not prove whether the Pensieve belongs personally to Dumbledore or institutionally to Hogwarts.
+- id: ootp-ch24-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2080
+  printed_page: null
+  extracted_text_lines: 446-482
+  text_anchor:
+    start_phrase: this branch of magic seals the mind
+    end_phrase: Eye contact is often essential to Legilimency
+    local_occurrence_note: Snape defines Occlumency and Legilimency, then explains why Hogwarts distance and protections matter.
+  nearby_context: Snape contrasts Legilimency with ordinary mind reading, says Occlumency can shut down feelings and memories that betray a lie, and states that Hogwarts walls and grounds have ancient spells for bodily and mental safety.
+  match_terms:
+  - Occlumency
+  - Legilimency
+  - mind
+  - ancient spells
+  - Hogwarts walls
+  - mental safety
+  quote_excerpt_short: "many ancient spells and charms"
+  source_note: Snape gives direct teacher testimony that Hogwarts walls and grounds are guarded by ancient spells and charms protecting both bodily and mental safety, and that distance, space, and eye contact affect Legilimency.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - occlumency
+  - legilimency
+  - ancient-spells
+  - hogwarts-grounds
+  - mental-safety
+  - protective-magic
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Ancient Protections of the Castle and Grounds
+  candidate_section: Mental safety and limits on hostile mind magic
+  reason_for_placement: The passage is unusually explicit staff testimony that Hogwarts protections extend beyond physical safety into mental safety.
+  relevance_to_hogwarts_a_history: This is strong evidence for a protective-magic section describing broad castle-and-grounds enchantments and their interaction with rare hostile magic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-006
+    notes: gof-ch15-006 records a specific anti-Apparition protection on the grounds; this entry adds broader teacher testimony about ancient Hogwarts spells and charms protecting bodily and mental safety.
+  confidence: high
+  limitations: Snape does not name the spells, date them, or define their exact boundaries or exceptions.
+- id: ootp-ch24-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2087
+  printed_page: null
+  extracted_text_lines: 719-725
+  text_anchor:
+    start_phrase: Harry found Ron and Hermione in the library
+    end_phrase: touching her precious books
+    local_occurrence_note: Harry finds Ron and Hermione in the library after the Occlumency lesson.
+  nearby_context: Ron, Hermione, and many fifth years work at lamp-lit library tables on Umbridge homework while Madam Pince patrols the aisles and supervises handling of books.
+  match_terms:
+  - library
+  - Umbridge homework
+  - fifth years
+  - lamp-lit tables
+  - Madam Pince
+  - books
+  quote_excerpt_short: "nearly all of them fifth years"
+  source_note: The Hogwarts library remains an evening study space under heavy fifth-year workload, with Madam Pince actively supervising students and book handling.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - library
+  - madam-pince
+  - fifth-years
+  - homework
+  - student-study
+  - umbridge
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Evening study, supervision, and examination pressure
+  reason_for_placement: The passage gives concrete evidence for how students use the library during examination pressure and how the librarian polices the space.
+  relevance_to_hogwarts_a_history: This supports a scholarship section on supervised study culture and the library's role during O.W.L.-year workload.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-005
+    notes: cos-ch11-005 already records library layout and Madam Pince's supervision; this entry adds evening fifth-year study under Umbridge homework pressure.
+  confidence: high
+  limitations: The passage is a single evening observation and does not describe formal library hours or borrowing rules.
+- id: ootp-ch24-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Four - Occlumency
+  chapter_start_pdf_page: 2066
+  chapter_end_pdf_page: 2091
+  pdf_page: 2089
+  printed_page: null
+  extracted_text_lines: 771-786
+  text_anchor:
+    start_phrase: Headless Hats
+    end_phrase: the charm wouldn't have a very long life
+    local_occurrence_note: Fred and George demonstrate Headless Hats in the Gryffindor common room.
+  nearby_context: The twins sell a new joke-shop product for two Galleons, and Hermione identifies the likely magic as an Invisibility Spell with its field extended beyond the charmed object.
+  match_terms:
+  - Headless Hats
+  - joke shop merchandise
+  - Invisibility Spell
+  - charmed object
+  - Gryffindor common room
+  - two Galleons
+  quote_excerpt_short: "extended the field of invisibility"
+  source_note: Fred and George's Headless Hats show student commercial experimentation with a charm that extends invisibility beyond the object's own boundaries.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - headless-hats
+  - invisibility-spell
+  - student-inventions
+  - joke-shop
+  - gryffindor-common-room
+  - weasley-products
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: Student Enterprises and Magical Recreation
+  candidate_section: Weasley joke inventions in common-room life
+  reason_for_placement: The scene gives school-based evidence for student-made magical products circulating and being tested or sold inside a House common room.
+  relevance_to_hogwarts_a_history: A later edition could use this as a Harry-era note on student enterprise, recreational magic, and advanced charm experimentation outside formal lessons.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries for Headless Hats, invisibility spells, joke-shop products, and Weasley products found no prior seed for this item.
+  confidence: medium
+  limitations: Hermione's charm explanation is an informed inference, and the product is a Harry-era joke-shop development rather than an older school custom.

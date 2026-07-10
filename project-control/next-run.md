@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty-Four - Occlumency
-- Page range: 2066-2091
+- Chapter: Chapter Twenty-Five - The Beetle at Bay
+- Page range: 2092-2117
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-24-occlumency.yaml`
+- Output YAML: `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
 
 ## Minimal Context
 

@@ -640,7 +640,7 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 #### Section: The Pensieve and stored memories
 
-Summary: The available evidence includes 1 source item, led by: Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
+Summary: The available evidence includes 2 source items, led by: Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
 
 - **Supporting evidence:** Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
   - Quote: "It is called a Pensieve"
@@ -648,6 +648,14 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore ident
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The passage explains Dumbledore's use of the Pensieve but not whether the artifact belongs to Hogwarts institutionally or personally to him.
+
+- **Corroboration:** Dumbledore's Pensieve can be temporarily present outside the headmaster's office, here in Snape's Potions office for an Occlumency lesson.
+  - Quote: "Dumbledore's Pensieve"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2078, `ootp-ch24-004`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `gof-ch30-002`. gof-ch30-002 identifies and explains the Pensieve in Dumbledore's office; this entry adds the artifact's temporary use in Snape's office during Occlumency.
+  - Notes: The evidence does not prove whether the Pensieve belongs personally to Dumbledore or institutionally to Hogwarts.
 
 ### Chapter: Protected Offices and Moving Entrances
 
@@ -1253,6 +1261,20 @@ Summary: The available evidence includes 2 source items, led by: The chapter con
   - Reference type: institutional_custom
   - Corroborates: `cos-ch01-003`. Book 2 Chapter One records blocked holiday owl contact; this entry shows successful holiday delivery, including an official Hogwarts-crest letter.
   - Notes: The scene does not explain how Hogwarts chooses delivery owls or how official letters locate students outside school.
+
+### Chapter: Hogsmeade Weekends
+
+#### Section: Posted dates and student arrangements
+
+Summary: The available evidence includes 1 source item, led by: School Hogsmeade visits continue to be communicated by posted notices, with a February trip scheduled for Valentine's Day during the Umbridge year.
+
+- **Corroboration:** School Hogsmeade visits continue to be communicated by posted notices, with a February trip scheduled for Valentine's Day during the Umbridge year.
+  - Quote: "another Hogsmeade trip next month"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2077, `ootp-ch24-003`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch12-001`. ootp-ch12-001 already records Hogsmeade notices on a common-room board; this entry adds a later Valentine's Day Hogsmeade trip notice and shows students using it for social planning.
+  - Notes: The scene does not show the posted notice directly or state permission requirements for this trip.
 
 ### Chapter: House Life and Student Celebrations
 
@@ -4350,6 +4372,20 @@ Summary: The available evidence includes 1 source item, led by: The conversation
   - Reference type: security_or_protection
   - Notes: The ban is reported by students recalling Hagrid's statement, not quoted directly from Dumbledore or a formal notice.
 
+### Chapter: Ancient Protections of the Castle and Grounds
+
+#### Section: Mental safety and limits on hostile mind magic
+
+Summary: The available evidence includes 1 source item, led by: Snape gives direct teacher testimony that Hogwarts walls and grounds are guarded by ancient spells and charms protecting both bodily and mental safety, and that distance, space, and eye contact affect Legilimency.
+
+- **Corroboration:** Snape gives direct teacher testimony that Hogwarts walls and grounds are guarded by ancient spells and charms protecting both bodily and mental safety, and that distance, space, and eye contact affect Legilimency.
+  - Quote: "many ancient spells and charms"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2080, `ootp-ch24-005`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch15-006`. gof-ch15-006 records a specific anti-Apparition protection on the grounds; this entry adds broader teacher testimony about ancient Hogwarts spells and charms protecting bodily and mental safety.
+  - Notes: Snape does not name the spells, date them, or define their exact boundaries or exceptions.
+
 ### Chapter: Anti-Dementor Defenses
 
 #### Section: Corporeal Patronus Intervention
@@ -4363,6 +4399,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter obse
   - Reference type: security_or_protection
   - Corroborates: `poa-ch12-002`. Book 3 Chapter Twelve indexes Patronus theory and Harry's indistinct practice; this entry adds an observed full-strength animal-shaped intervention against a mass of dementors.
   - Notes: The chapter does not yet identify the caster, animal form, or time-travel context behind the intervention.
+
+### Chapter: Boundaries, Gates, and School Travel
+
+#### Section: Emergency transport to the school boundary
+
+Summary: The available evidence includes 1 source item, led by: The Knight Bus can bring escorted students to the Hogwarts gates, while Order members describe entry into the grounds as a meaningful safety boundary.
+
+- **Corroboration:** The Knight Bus can bring escorted students to the Hogwarts gates, while Order members describe entry into the grounds as a meaningful safety boundary.
+  - Quote: "safe once you're in the grounds"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2076, `ootp-ch24-002`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `poa-ch03-002`, `gof-ch15-006`. poa-ch03-002 introduces the Knight Bus as emergency magical transport, while gof-ch15-006 records a Hogwarts-grounds transport restriction; this entry adds an escorted wartime drop-off at the gates and a safety claim about entering the grounds.
+  - Notes: Tonks's safety statement is situational and does not identify the exact protective enchantments active at the gate.
 
 ### Chapter: Concealment and Anti-Detection Magic
 
@@ -5387,6 +5437,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter desc
   - Corroborates: `ps-ch09-002`. Chapter Nine seeded flying lessons on the grounds; this entry focuses on the Quidditch pitch as a competitive venue.
   - Notes: The source does not date the construction of the stands or explain whether seating is permanently raised or magically adjusted for matches.
 
+### Chapter: Student Enterprises and Magical Recreation
+
+#### Section: Weasley joke inventions in common-room life
+
+Summary: The available evidence includes 1 source item, led by: Fred and George's Headless Hats show student commercial experimentation with a charm that extends invisibility beyond the object's own boundaries.
+
+- **Context:** Fred and George's Headless Hats show student commercial experimentation with a charm that extends invisibility beyond the object's own boundaries.
+  - Quote: "extended the field of invisibility"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2089, `ootp-ch24-007`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: Hermione's charm explanation is an informed inference, and the product is a Harry-era joke-shop development rather than an older school custom.
+
 ## Part: The Library, Books, and Scholarship
 
 ### Chapter: Student Use of Library Books
@@ -5489,6 +5552,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter cor
   - Reference type: school_rule_or_policy
   - Corroborates: `cos-ch09-007`. Chapter Nine already recorded the teacher-signed-note requirement and Moste Potente Potions as the expected Restricted Section source; this entry confirms the book's retrieval and Madam Pince's role.
   - Notes: The passage shows one successful borrowing through a signed note but does not define the full approval policy for all Restricted Section books.
+
+#### Section: Evening study, supervision, and examination pressure
+
+Summary: The available evidence includes 1 source item, led by: The Hogwarts library remains an evening study space under heavy fifth-year workload, with Madam Pince actively supervising students and book handling.
+
+- **Corroboration:** The Hogwarts library remains an evening study space under heavy fifth-year workload, with Madam Pince actively supervising students and book handling.
+  - Quote: "nearly all of them fifth years"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2087, `ootp-ch24-006`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `cos-ch11-005`. cos-ch11-005 already records library layout and Madam Pince's supervision; this entry adds evening fifth-year study under Umbridge homework pressure.
+  - Notes: The passage is a single evening observation and does not describe formal library hours or borrowing rules.
 
 #### Section: Physical Boundary and Enforced Restrictions
 
@@ -6587,6 +6662,19 @@ Summary: The available evidence includes 1 source item, led by: Umbridge replace
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch14-001`, `gof-ch36-005`, `ootp-ch11-006`. gof-ch14-001 records the previous practical curse curriculum, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's coded speech; this entry shows the policy enacted inside a classroom.
   - Notes: The chapter captures Umbridge's stated rationale and student objections but does not reproduce any Ministry decree or exam-board guidance.
+
+### Chapter: Defense, Mind Magic, and the Umbridge Year
+
+#### Section: Private Occlumency lessons under official cover
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore can assign a student private magical instruction through a teacher, with secrecy from the High Inquisitor and a false remedial subject used as cover.
+
+- **Context:** Dumbledore can assign a student private magical instruction through a teacher, with secrecy from the High Inquisitor and a false remedial subject used as cover.
+  - Quote: "private lessons once a week"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, PDF p. 2069, `ootp-ch24-001`, `sources/book-05/chapter-24-occlumency.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: This is an exceptional Harry-era security measure rather than evidence of ordinary curriculum.
 
 ### Chapter: Divination, Prophecy, and School Testimony
 

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-09'
+updated: '2026-07-10'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -11272,6 +11272,109 @@ by_entry:
     - order-of-the-phoenix
     source_unit: ootp-ch23
     output_yaml: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  ootp-ch24-001:
+    title: 'Defense, Mind Magic, and the Umbridge Year: Private Occlumency lessons
+      under official cover'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - dumbledore
+    - occlumency
+    - private-lessons
+    - remedial-potions
+    - staff-delegation
+    - umbridge
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch24-002:
+    title: 'Boundaries, Gates, and School Travel: Emergency transport to the school
+      boundary'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - hogsmeade-approach
+    - hogwarts-gates
+    - hogwarts-grounds
+    - knight-bus
+    - security-boundary
+    - student-transport
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch24-003:
+    title: 'Hogsmeade Weekends: Posted dates and student arrangements'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hogsmeade-trip
+    - notice-board
+    - school-schedule
+    - student-visits
+    - valentines-day
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch24-004:
+    title: 'Headmaster''s Office and Protected Entrances: The Pensieve and stored
+      memories'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore
+    - magical-artifact
+    - memory-magic
+    - pensieve
+    - potions-office
+    - snape-office
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch24-005:
+    title: 'Ancient Protections of the Castle and Grounds: Mental safety and limits
+      on hostile mind magic'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - ancient-spells
+    - hogwarts-grounds
+    - legilimency
+    - mental-safety
+    - occlumency
+    - protective-magic
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch24-006:
+    title: 'Library Collections and Restricted Books: Evening study, supervision,
+      and examination pressure'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - fifth-years
+    - homework
+    - library
+    - madam-pince
+    - student-study
+    - umbridge
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch24-007:
+    title: 'Student Enterprises and Magical Recreation: Weasley joke inventions in
+      common-room life'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - gryffindor-common-room
+    - headless-hats
+    - invisibility-spell
+    - joke-shop
+    - student-inventions
+    - weasley-products
+    source_unit: ootp-ch24
+    output_yaml: sources/book-05/chapter-24-occlumency.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11370,6 +11473,8 @@ by_tag:
   - poa-ch04-004
   - poa-ch12-007
   - poa-ch16-001
+  ancient-spells:
+  - ootp-ch24-005
   animagi:
   - ootp-ch17-007
   - poa-ch06-004
@@ -12651,6 +12756,8 @@ by_tag:
   - ootp-ch21-001
   - ootp-ch23-002
   - ootp-ch23-003
+  - ootp-ch24-001
+  - ootp-ch24-004
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -12946,6 +13053,8 @@ by_tag:
   fifth-year-curriculum:
   - ootp-ch12-003
   - ootp-ch18-003
+  fifth-years:
+  - ootp-ch24-006
   fighting:
   - ps-ch12-002
   filch:
@@ -13426,6 +13535,7 @@ by_tag:
   - ps-ch17-005
   gryffindor-common-room:
   - ootp-ch14-007
+  - ootp-ch24-007
   - poa-ch13-006
   - ps-ch13-003
   gryffindor-dormitory:
@@ -13633,6 +13743,8 @@ by_tag:
   - gof-ch36-002
   - ootp-ch09-006
   - poa-ch08-003
+  headless-hats:
+  - ootp-ch24-007
   headless-hunt:
   - cos-ch08-001
   headmaster:
@@ -13838,6 +13950,8 @@ by_tag:
   - poa-ch18-004
   - poa-ch18-006
   - poa-ch22-007
+  hogsmeade-approach:
+  - ootp-ch24-002
   hogsmeade-privileges:
   - poa-ch14-002
   hogsmeade-station:
@@ -13845,6 +13959,8 @@ by_tag:
   - ootp-ch10-006
   - ootp-ch10-007
   - poa-ch05-005
+  hogsmeade-trip:
+  - ootp-ch24-003
   hogsmeade-weekend:
   - gof-ch27-002
   - ootp-ch12-001
@@ -13894,6 +14010,8 @@ by_tag:
   - ps-ch17-006
   hogwarts-four:
   - cos-ch17-006
+  hogwarts-gates:
+  - ootp-ch24-002
   hogwarts-ghosts:
   - poa-ch14-005
   hogwarts-grounds:
@@ -13909,6 +14027,8 @@ by_tag:
   - gof-ch31-001
   - gof-ch32-001
   - ootp-ch20-001
+  - ootp-ch24-002
+  - ootp-ch24-005
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -14008,6 +14128,7 @@ by_tag:
   - ootp-ch12-005
   - ootp-ch14-005
   - ootp-ch18-003
+  - ootp-ch24-006
   - poa-ch02-002
   - poa-ch07-007
   - poa-ch10-001
@@ -14322,6 +14443,8 @@ by_tag:
   - poa-ch22-004
   invisibility-section:
   - cos-ch11-005
+  invisibility-spell:
+  - ootp-ch24-007
   james-potter:
   - poa-ch10-006
   - poa-ch18-005
@@ -14338,6 +14461,8 @@ by_tag:
   joke-products:
   - gof-ch05-002
   - gof-ch06-003
+  joke-shop:
+  - ootp-ch24-007
   joke-sweets:
   - gof-ch04-005
   judge-conduct:
@@ -14389,6 +14514,7 @@ by_tag:
   kingsley-shacklebolt:
   - ootp-ch07-005
   knight-bus:
+  - ootp-ch24-002
   - poa-ch03-002
   - poa-ch14-003
   kreacher:
@@ -14433,6 +14559,8 @@ by_tag:
   - gof-ch14-007
   legend:
   - cos-ch09-005
+  legilimency:
+  - ootp-ch24-005
   leprechaun-gold:
   - gof-ch28-002
   leprechauns:
@@ -14454,6 +14582,7 @@ by_tag:
   - gof-ch29-004
   - ootp-ch16-006
   - ootp-ch19-004
+  - ootp-ch24-006
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -14592,6 +14721,7 @@ by_tag:
   - cos-ch10-001
   - cos-ch11-005
   - gof-ch26-002
+  - ootp-ch24-006
   madam-pomfrey:
   - cos-ch10-005
   - cos-ch13-001
@@ -14635,6 +14765,7 @@ by_tag:
   magical-artifact:
   - cos-ch17-005
   - gof-ch30-002
+  - ootp-ch24-004
   - ps-ch12-006
   magical-artifacts:
   - ootp-ch06-001
@@ -14909,8 +15040,11 @@ by_tag:
   memory-magic:
   - cos-ch13-004
   - gof-ch30-002
+  - ootp-ch24-004
   memory-modification:
   - gof-ch13-005
+  mental-safety:
+  - ootp-ch24-005
   merchieftainess-murcus:
   - gof-ch26-007
   mermaid-portrait:
@@ -15274,10 +15408,14 @@ by_tag:
   - ps-ch14-004
   notice-board:
   - ootp-ch12-001
+  - ootp-ch24-003
   nymphadora-tonks:
   - ootp-ch09-006
   obliviator:
   - gof-ch07-004
+  occlumency:
+  - ootp-ch24-001
+  - ootp-ch24-005
   off-campus-security:
   - ootp-ch01-002
   - ootp-ch01-004
@@ -15504,6 +15642,7 @@ by_tag:
   - ps-ch13-005
   pensieve:
   - gof-ch30-002
+  - ootp-ch24-004
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -15681,6 +15820,8 @@ by_tag:
   potions-class:
   - gof-ch27-003
   - gof-ch27-005
+  potions-office:
+  - ootp-ch24-004
   potter-family:
   - gof-ch14-004
   - gof-ch34-004
@@ -15764,6 +15905,8 @@ by_tag:
   - gof-ch34-004
   private-instruction:
   - poa-ch20-005
+  private-lessons:
+  - ootp-ch24-001
   private-stores:
   - cos-ch11-002
   - gof-ch25-006
@@ -15916,6 +16059,7 @@ by_tag:
   - ootp-ch04-001
   - ootp-ch04-002
   - ootp-ch06-007
+  - ootp-ch24-005
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -16095,6 +16239,8 @@ by_tag:
   - gof-ch24-003
   regulus-black:
   - ootp-ch06-004
+  remedial-potions:
+  - ootp-ch24-001
   remus-lupin:
   - ootp-ch09-006
   - poa-ch10-002
@@ -16320,6 +16466,7 @@ by_tag:
   school-schedule:
   - gof-ch15-005
   - gof-ch20-005
+  - ootp-ch24-003
   school-searches:
   - cos-ch09-006
   school-secrecy:
@@ -16444,6 +16591,8 @@ by_tag:
   security:
   - gof-ch15-006
   - ootp-ch07-002
+  security-boundary:
+  - ootp-ch24-002
   security-failure:
   - poa-ch22-001
   security-threat:
@@ -16611,6 +16760,7 @@ by_tag:
   - ps-ch16-004
   snape-office:
   - gof-ch27-004
+  - ootp-ch24-004
   snape-private-stores:
   - cos-ch10-002
   sneakoscope:
@@ -16722,6 +16872,8 @@ by_tag:
   - gof-ch23-006
   staff-boundaries:
   - gof-ch19-004
+  staff-delegation:
+  - ootp-ch24-001
   staff-duties:
   - cos-ch16-004
   staff-escort:
@@ -16898,6 +17050,8 @@ by_tag:
   student-injury:
   - poa-ch06-007
   - poa-ch07-002
+  student-inventions:
+  - ootp-ch24-007
   student-leadership:
   - cos-ch04-005
   - gof-ch05-001
@@ -17032,6 +17186,7 @@ by_tag:
   - cos-ch10-002
   student-study:
   - cos-ch11-005
+  - ootp-ch24-006
   student-supervision:
   - ootp-ch21-003
   student-training:
@@ -17042,6 +17197,7 @@ by_tag:
   - ootp-ch11-001
   - ootp-ch14-002
   - ootp-ch21-001
+  - ootp-ch24-002
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -17050,6 +17206,8 @@ by_tag:
   student-trunks:
   - cos-ch03-005
   - gof-ch04-001
+  student-visits:
+  - ootp-ch24-003
   student-workload:
   - ootp-ch15-002
   students:
@@ -17424,6 +17582,8 @@ by_tag:
   - ootp-ch16-003
   - ootp-ch16-004
   - ootp-ch23-003
+  - ootp-ch24-001
+  - ootp-ch24-006
   umbridge-surveillance:
   - ootp-ch22-003
   underage-magic:
@@ -17494,6 +17654,7 @@ by_tag:
   - poa-ch03-004
   valentines-day:
   - cos-ch13-003
+  - ootp-ch24-003
   vampires:
   - gof-ch10-004
   - ps-ch05-004
@@ -17619,6 +17780,8 @@ by_tag:
   - gof-ch03-004
   - gof-ch05-001
   - ootp-ch06-006
+  weasley-products:
+  - ootp-ch24-007
   weasleys-wizard-wheezes:
   - gof-ch05-002
   - gof-ch06-003

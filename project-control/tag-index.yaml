@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-09'
+updated: '2026-07-10'
 tags:
   academic-assessment:
     entries:
@@ -212,6 +212,11 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  ancient-spells:
+    entries:
+    - ootp-ch24-005
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   animagi:
     entries:
     - ootp-ch17-007
@@ -2891,6 +2896,8 @@ tags:
     - ootp-ch21-001
     - ootp-ch23-002
     - ootp-ch23-003
+    - ootp-ch24-001
+    - ootp-ch24-004
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -2986,6 +2993,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3561,6 +3569,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+  fifth-years:
+    entries:
+    - ootp-ch24-006
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   fighting:
     entries:
     - ps-ch12-002
@@ -4575,12 +4588,14 @@ tags:
   gryffindor-common-room:
     entries:
     - ootp-ch14-007
+    - ootp-ch24-007
     - poa-ch13-006
     - ps-ch13-003
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   gryffindor-dormitory:
     entries:
     - ootp-ch11-007
@@ -4986,6 +5001,11 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  headless-hats:
+    entries:
+    - ootp-ch24-007
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   headless-hunt:
     entries:
     - cos-ch08-001
@@ -5422,6 +5442,11 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  hogsmeade-approach:
+    entries:
+    - ootp-ch24-002
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   hogsmeade-privileges:
     entries:
     - poa-ch14-002
@@ -5437,6 +5462,11 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  hogsmeade-trip:
+    entries:
+    - ootp-ch24-003
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   hogsmeade-weekend:
     entries:
     - gof-ch27-002
@@ -5537,6 +5567,11 @@ tags:
     - cos-ch17-006
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  hogwarts-gates:
+    entries:
+    - ootp-ch24-002
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   hogwarts-ghosts:
     entries:
     - poa-ch14-005
@@ -5556,6 +5591,8 @@ tags:
     - gof-ch31-001
     - gof-ch32-001
     - ootp-ch20-001
+    - ootp-ch24-002
+    - ootp-ch24-005
     - poa-ch10-002
     - poa-ch10-003
     - poa-ch17-004
@@ -5578,6 +5615,7 @@ tags:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   hogwarts-headmasters:
     entries:
     - ootp-ch06-005
@@ -5770,6 +5808,7 @@ tags:
     - ootp-ch12-005
     - ootp-ch14-005
     - ootp-ch18-003
+    - ootp-ch24-006
     - poa-ch02-002
     - poa-ch07-007
     - poa-ch10-001
@@ -5791,6 +5830,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   homework-groups:
     entries:
     - ootp-ch16-003
@@ -6466,6 +6506,11 @@ tags:
     - cos-ch11-005
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+  invisibility-spell:
+    entries:
+    - ootp-ch24-007
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   james-potter:
     entries:
     - poa-ch10-006
@@ -6502,6 +6547,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
+  joke-shop:
+    entries:
+    - ootp-ch24-007
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   joke-sweets:
     entries:
     - gof-ch04-005
@@ -6619,11 +6669,13 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   knight-bus:
     entries:
+    - ootp-ch24-002
     - poa-ch03-002
     - poa-ch14-003
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
     - sources/book-03/chapter-14-snapes-grudge.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   kreacher:
     entries:
     - ootp-ch04-003
@@ -6718,6 +6770,11 @@ tags:
     - cos-ch09-005
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  legilimency:
+    entries:
+    - ootp-ch24-005
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   leprechaun-gold:
     entries:
     - gof-ch28-002
@@ -6758,6 +6815,7 @@ tags:
     - gof-ch29-004
     - ootp-ch16-006
     - ootp-ch19-004
+    - ootp-ch24-006
     - poa-ch11-003
     - poa-ch15-004
     - ps-ch09-001
@@ -6784,6 +6842,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   library-book:
     entries:
     - cos-ch16-003
@@ -7048,10 +7107,12 @@ tags:
     - cos-ch10-001
     - cos-ch11-005
     - gof-ch26-002
+    - ootp-ch24-006
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   madam-pomfrey:
     entries:
     - cos-ch10-005
@@ -7140,11 +7201,13 @@ tags:
     entries:
     - cos-ch17-005
     - gof-ch30-002
+    - ootp-ch24-004
     - ps-ch12-006
     output_yaml:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   magical-artifacts:
     entries:
     - ootp-ch06-001
@@ -7746,14 +7809,21 @@ tags:
     entries:
     - cos-ch13-004
     - gof-ch30-002
+    - ootp-ch24-004
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   memory-modification:
     entries:
     - gof-ch13-005
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  mental-safety:
+    entries:
+    - ootp-ch24-005
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   merchieftainess-murcus:
     entries:
     - gof-ch26-007
@@ -8554,8 +8624,10 @@ tags:
   notice-board:
     entries:
     - ootp-ch12-001
+    - ootp-ch24-003
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   nymphadora-tonks:
     entries:
     - ootp-ch09-006
@@ -8566,6 +8638,12 @@ tags:
     - gof-ch07-004
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  occlumency:
+    entries:
+    - ootp-ch24-001
+    - ootp-ch24-005
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   off-campus-security:
     entries:
     - ootp-ch01-002
@@ -9048,8 +9126,10 @@ tags:
   pensieve:
     entries:
     - gof-ch30-002
+    - ootp-ch24-004
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   percy-weasley:
     entries:
     - cos-ch03-003
@@ -9435,6 +9515,11 @@ tags:
     - gof-ch27-005
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  potions-office:
+    entries:
+    - ootp-ch24-004
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   potter-family:
     entries:
     - gof-ch14-004
@@ -9617,6 +9702,11 @@ tags:
     - poa-ch20-005
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  private-lessons:
+    entries:
+    - ootp-ch24-001
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   private-stores:
     entries:
     - cos-ch11-002
@@ -9915,12 +10005,14 @@ tags:
     - ootp-ch04-001
     - ootp-ch04-002
     - ootp-ch06-007
+    - ootp-ch24-005
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   public-accountability:
     entries:
     - gof-ch24-002
@@ -10314,6 +10406,11 @@ tags:
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  remedial-potions:
+    entries:
+    - ootp-ch24-001
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   remus-lupin:
     entries:
     - ootp-ch09-006
@@ -10812,9 +10909,11 @@ tags:
     entries:
     - gof-ch15-005
     - gof-ch20-005
+    - ootp-ch24-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   school-searches:
     entries:
     - cos-ch09-006
@@ -11083,6 +11182,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  security-boundary:
+    entries:
+    - ootp-ch24-002
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   security-failure:
     entries:
     - poa-ch22-001
@@ -11444,8 +11548,10 @@ tags:
   snape-office:
     entries:
     - gof-ch27-004
+    - ootp-ch24-004
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   snape-private-stores:
     entries:
     - cos-ch10-002
@@ -11700,6 +11806,11 @@ tags:
     - gof-ch19-004
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  staff-delegation:
+    entries:
+    - ootp-ch24-001
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   staff-duties:
     entries:
     - cos-ch16-004
@@ -12104,6 +12215,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  student-inventions:
+    entries:
+    - ootp-ch24-007
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   student-leadership:
     entries:
     - cos-ch04-005
@@ -12397,8 +12513,10 @@ tags:
   student-study:
     entries:
     - cos-ch11-005
+    - ootp-ch24-006
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   student-supervision:
     entries:
     - ootp-ch21-003
@@ -12417,11 +12535,13 @@ tags:
     - ootp-ch11-001
     - ootp-ch14-002
     - ootp-ch21-001
+    - ootp-ch24-002
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   student-travel:
     entries:
     - gof-ch03-003
@@ -12439,6 +12559,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+  student-visits:
+    entries:
+    - ootp-ch24-003
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   student-workload:
     entries:
     - ootp-ch15-002
@@ -13250,9 +13375,12 @@ tags:
     - ootp-ch16-003
     - ootp-ch16-004
     - ootp-ch23-003
+    - ootp-ch24-001
+    - ootp-ch24-006
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   umbridge-surveillance:
     entries:
     - ootp-ch22-003
@@ -13410,8 +13538,10 @@ tags:
   valentines-day:
     entries:
     - cos-ch13-003
+    - ootp-ch24-003
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+    - sources/book-05/chapter-24-occlumency.yaml
   vampires:
     entries:
     - gof-ch10-004
@@ -13683,6 +13813,11 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  weasley-products:
+    entries:
+    - ootp-ch24-007
+    output_yaml:
+    - sources/book-05/chapter-24-occlumency.yaml
   weasleys-wizard-wheezes:
     entries:
     - gof-ch05-002
