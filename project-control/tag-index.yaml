@@ -471,6 +471,7 @@ tags:
     - ootp-ch08-001
     - ootp-ch08-006
     - ootp-ch14-003
+    - ootp-ch25-001
     - poa-ch05-004
     - poa-ch19-004
     - poa-ch19-007
@@ -489,6 +490,7 @@ tags:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   azkaban-guards:
     entries:
     - poa-ch04-007
@@ -651,8 +653,10 @@ tags:
   bellatrix-lestrange:
     entries:
     - ootp-ch23-007
+    - ootp-ch25-005
     output_yaml:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   bertha-jorkins:
     entries:
     - gof-ch01-003
@@ -858,6 +862,11 @@ tags:
     - poa-ch04-001
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  broderick-bode:
+    entries:
+    - ootp-ch25-002
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   broom-flight:
     entries:
     - ootp-ch03-003
@@ -988,6 +997,7 @@ tags:
     - ootp-ch13-004
     - ootp-ch15-006
     - ootp-ch20-007
+    - ootp-ch25-004
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -1022,6 +1032,7 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -2089,6 +2100,8 @@ tags:
     - ootp-ch05-007
     - ootp-ch11-007
     - ootp-ch14-003
+    - ootp-ch25-001
+    - ootp-ch25-007
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -2106,6 +2119,7 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -2208,6 +2222,7 @@ tags:
     - ootp-ch09-001
     - ootp-ch09-007
     - ootp-ch20-005
+    - ootp-ch25-001
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
@@ -2218,6 +2233,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   death-witnesses:
     entries:
     - ootp-ch21-001
@@ -2391,6 +2407,8 @@ tags:
     - ootp-ch02-005
     - ootp-ch08-003
     - ootp-ch08-006
+    - ootp-ch25-001
+    - ootp-ch25-006
     - poa-ch04-007
     - poa-ch05-004
     - poa-ch05-006
@@ -2426,6 +2444,7 @@ tags:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   dementors-kiss:
     entries:
     - ootp-ch02-005
@@ -2461,10 +2480,12 @@ tags:
     - gof-ch07-004
     - gof-ch30-004
     - ootp-ch07-007
+    - ootp-ch25-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   deputy-headmistress:
     entries:
     - ps-ch04-002
@@ -2473,8 +2494,10 @@ tags:
   dervish-and-banges:
     entries:
     - gof-ch27-002
+    - ootp-ch25-006
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   desire-based-magic:
     entries:
     - ps-ch17-003
@@ -2515,6 +2538,11 @@ tags:
     - ps-ch16-005
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  devil-snare:
+    entries:
+    - ootp-ch25-002
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   diagon-alley:
     entries:
     - cos-ch04-002
@@ -2630,6 +2658,7 @@ tags:
     - ootp-ch12-005
     - ootp-ch15-003
     - ootp-ch17-006
+    - ootp-ch25-004
     - poa-ch04-003
     - poa-ch06-001
     - poa-ch06-003
@@ -2653,6 +2682,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -3019,11 +3049,13 @@ tags:
     - ootp-ch21-004
     - ootp-ch21-006
     - ootp-ch23-004
+    - ootp-ch25-005
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -3116,11 +3148,13 @@ tags:
     - ootp-ch17-004
     - ootp-ch18-002
     - ootp-ch19-007
+    - ootp-ch25-003
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -3589,6 +3623,7 @@ tags:
     - ootp-ch18-001
     - ootp-ch18-005
     - ootp-ch21-003
+    - ootp-ch25-006
     - poa-ch07-005
     - poa-ch08-003
     - poa-ch08-007
@@ -3623,6 +3658,7 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   financial-scandal:
     entries:
     - gof-ch37-007
@@ -4358,6 +4394,7 @@ tags:
     - gof-ch23-002
     - gof-ch37-003
     - ootp-ch19-005
+    - ootp-ch25-001
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -4397,6 +4434,7 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -4761,6 +4799,7 @@ tags:
     - ootp-ch20-007
     - ootp-ch21-001
     - ootp-ch21-002
+    - ootp-ch25-004
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -4829,6 +4868,7 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -5151,9 +5191,11 @@ tags:
     - ootp-ch22-005
     - ootp-ch22-007
     - ootp-ch23-006
+    - ootp-ch25-002
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   hedwig:
     entries:
     - cos-ch01-003
@@ -5333,6 +5375,8 @@ tags:
     - ootp-ch20-006
     - ootp-ch21-002
     - ootp-ch21-005
+    - ootp-ch25-003
+    - ootp-ch25-004
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -5340,6 +5384,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   high-table:
     entries:
     - ps-ch12-003
@@ -5411,6 +5456,7 @@ tags:
     - gof-ch27-006
     - ootp-ch16-001
     - ootp-ch16-002
+    - ootp-ch25-006
     - poa-ch01-005
     - poa-ch02-001
     - poa-ch03-005
@@ -5442,6 +5488,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -5859,8 +5906,10 @@ tags:
   hospital-wards:
     entries:
     - ootp-ch22-005
+    - ootp-ch25-002
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   hospital-wing:
     entries:
     - cos-ch10-005
@@ -6066,6 +6115,11 @@ tags:
     - ootp-ch10-003
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  house-notice-boards:
+    entries:
+    - ootp-ch25-003
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   house-points:
     entries:
     - cos-ch05-005
@@ -6322,6 +6376,11 @@ tags:
     - poa-ch04-002
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  information-control:
+    entries:
+    - ootp-ch25-003
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   information-security:
     entries:
     - gof-ch01-003
@@ -6537,9 +6596,11 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
   jinxes:
     entries:
+    - ootp-ch25-005
     - poa-ch11-007
     output_yaml:
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   joke-products:
     entries:
     - gof-ch05-002
@@ -7134,6 +7195,11 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  madam-puddifoot:
+    entries:
+    - ootp-ch25-006
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   madame-maxime:
     entries:
     - gof-ch15-007
@@ -7893,6 +7959,11 @@ tags:
     - poa-ch21-002
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  ministry-censorship:
+    entries:
+    - ootp-ch25-007
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   ministry-classification:
     entries:
     - ootp-ch21-002
@@ -8031,6 +8102,7 @@ tags:
     - ootp-ch09-002
     - ootp-ch11-002
     - ootp-ch14-003
+    - ootp-ch25-001
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -8077,6 +8149,12 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ministry-posters:
+    entries:
+    - ootp-ch25-006
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   ministry-register:
     entries:
     - poa-ch18-001
@@ -8522,12 +8600,14 @@ tags:
   neville-longbottom:
     entries:
     - ootp-ch21-006
+    - ootp-ch25-005
     - poa-ch12-006
     - poa-ch13-007
     output_yaml:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   newt-courses:
     entries:
     - ootp-ch12-002
@@ -9534,12 +9614,14 @@ tags:
     - ootp-ch18-007
     - ootp-ch21-006
     - ootp-ch23-004
+    - ootp-ch25-005
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   practical-examination:
     entries:
     - ootp-ch12-004
@@ -9740,8 +9822,10 @@ tags:
   probation:
     entries:
     - ootp-ch17-006
+    - ootp-ch25-004
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   procession:
     entries:
     - gof-ch23-002
@@ -9950,6 +10034,7 @@ tags:
     - ootp-ch12-005
     - ootp-ch15-003
     - ootp-ch17-006
+    - ootp-ch25-004
     - poa-ch06-003
     - poa-ch06-004
     - poa-ch16-005
@@ -9964,6 +10049,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   professor-umbridge:
     entries:
     - ootp-ch13-005
@@ -10121,8 +10207,10 @@ tags:
   quibbler:
     entries:
     - ootp-ch10-005
+    - ootp-ch25-007
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   quick-quotes-quill:
     entries:
     - gof-ch18-005
@@ -10498,6 +10586,7 @@ tags:
     - gof-ch24-004
     - gof-ch27-003
     - gof-ch37-006
+    - ootp-ch25-007
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
@@ -10506,6 +10595,7 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -10722,6 +10812,7 @@ tags:
     - ootp-ch18-002
     - ootp-ch19-007
     - ootp-ch23-003
+    - ootp-ch25-003
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -10735,6 +10826,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -10842,8 +10934,10 @@ tags:
   school-politics:
     entries:
     - ootp-ch14-003
+    - ootp-ch25-001
     output_yaml:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   school-preparation:
     entries:
     - ps-ch09-001
@@ -11283,6 +11377,11 @@ tags:
     - gof-ch18-001
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  shield-charm:
+    entries:
+    - ootp-ch25-005
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   shrieking-shack:
     entries:
     - ootp-ch17-007
@@ -11739,10 +11838,12 @@ tags:
     - ootp-ch22-006
     - ootp-ch23-003
     - ootp-ch23-006
+    - ootp-ch25-002
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -11855,10 +11956,12 @@ tags:
     - ootp-ch20-006
     - ootp-ch20-007
     - ootp-ch21-002
+    - ootp-ch25-004
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   staff-memory:
     entries:
     - poa-ch10-006
@@ -11948,6 +12051,7 @@ tags:
     - cos-ch16-005
     - gof-ch26-004
     - gof-ch35-003
+    - ootp-ch25-003
     - poa-ch07-004
     - poa-ch07-006
     - ps-ch08-005
@@ -11957,6 +12061,7 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   stag-patronus:
     entries:
     - poa-ch21-006
@@ -12239,10 +12344,12 @@ tags:
     - ootp-ch16-004
     - ootp-ch18-007
     - ootp-ch21-006
+    - ootp-ch25-005
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   student-life:
     entries:
     - ootp-ch11-007
@@ -12283,6 +12390,7 @@ tags:
     - gof-ch27-002
     - gof-ch27-006
     - ootp-ch16-001
+    - ootp-ch25-006
     - poa-ch05-006
     - poa-ch08-003
     - poa-ch10-005
@@ -12298,6 +12406,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   student-notes:
     entries:
     - gof-ch29-002
@@ -12810,6 +12919,11 @@ tags:
     - poa-ch07-006
     output_yaml:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  teacher-speech:
+    entries:
+    - ootp-ch25-003
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   teacher-vacancy:
     entries:
     - gof-ch37-002
@@ -12987,9 +13101,11 @@ tags:
     entries:
     - gof-ch19-001
     - ootp-ch16-002
+    - ootp-ch25-007
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   three-headed-dog:
     entries:
     - ps-ch09-007
@@ -13510,6 +13626,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  unregistered-animagus:
+    entries:
+    - ootp-ch25-007
+    output_yaml:
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   unregistered-magic:
     entries:
     - poa-ch18-001
@@ -13518,8 +13639,10 @@ tags:
   unspeakables:
     entries:
     - gof-ch07-004
+    - ootp-ch25-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   unused-classroom:
     entries:
     - ps-ch12-006
@@ -14074,10 +14197,12 @@ tags:
     - gof-ch18-005
     - gof-ch37-006
     - ootp-ch10-005
+    - ootp-ch25-007
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   wizarding-schools:
     entries:
     - gof-ch07-003

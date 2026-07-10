@@ -1,0 +1,344 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Five range came from project-control/processing-state.yaml and project-control/next-run.md. Prior control anchors identify Chapter Twenty-Four as ending at PDF page 2091 and Chapter Twenty-Six as starting at PDF page 2118, so only PDF pages 2092-2117 were extracted and searched for this unit.
+  processed_date: '2026-07-10'
+  processor_notes: "Processed only Book 5, Chapter Twenty-Five. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch25-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2094
+  printed_page: null
+  extracted_text_lines: 63-106
+  text_anchor:
+    start_phrase: Fudge is blaming the breakout on Sirius
+    end_phrase: Dumbledore and McGonagall were talking so intently
+    local_occurrence_note: After the Daily Prophet reports the Azkaban breakout, Harry contrasts student obliviousness with grave staff-table reactions.
+  nearby_context: Hermione summarizes the political reason Fudge cannot admit the Dementor guards have joined Voldemort, while the Great Hall shows uneven awareness between students, staff, and Umbridge.
+  match_terms:
+  - Azkaban
+  - Daily Prophet
+  - Death Eaters
+  - Dementors
+  - Great Hall
+  - Dumbledore
+  - Umbridge
+  quote_excerpt_short: "the Azkaban guards have joined Lord Voldemort"
+  source_note: The Daily Prophet's Azkaban-breakout story enters Hogwarts through breakfast news, exposing the gap between Ministry public framing, staff alarm, student rumor, and Umbridge's hostile watchfulness.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - azkaban
+  - daily-prophet
+  - death-eaters
+  - dementors
+  - great-hall
+  - ministry-of-magic
+  - school-politics
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts Information Climate
+  candidate_section: The Azkaban breakout reaches the Great Hall
+  reason_for_placement: The scene shows external wartime news changing the social and political atmosphere inside Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that national crises reached school life through wizarding newspapers and visibly divided staff, students, and Ministry-aligned authority.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch09-007
+    - ootp-ch14-003
+    notes: gof-ch09-007 records Death Eater/Azkaban context from an in-universe source, and ootp-ch14-003 records a Daily Prophet account affecting Hogwarts politics; this entry adds the mass breakout's immediate Great Hall reception and staff response.
+  confidence: high
+  limitations: The Daily Prophet account is politically distorted, so only the reported breakout, named prisoners, and observed Hogwarts reactions should be treated as firm evidence.
+- id: ootp-ch25-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2095
+  printed_page: null
+  extracted_text_lines: 109-181
+  text_anchor:
+    start_phrase: TRAGIC DEMISE OF MINISTRY OF MAGIC WORKER
+    end_phrase: he worked in the Department of Mysteries
+    local_occurrence_note: Hermione reads the Daily Prophet report of Broderick Bode's death, which the trio connect to their St. Mungo's visit and the Department of Mysteries.
+  nearby_context: The hospital says Healer Miriam Strout was suspended after a Devil's Snare cutting was mistaken for a harmless plant; Harry and Ron identify Bode as an Unspeakable.
+  match_terms:
+  - St. Mungo's
+  - Broderick Bode
+  - Devil's Snare
+  - Miriam Strout
+  - Healers
+  - Department of Mysteries
+  - Unspeakable
+  quote_excerpt_short: "strangled by a potted-plant"
+  source_note: The Prophet report adds hospital safety and accountability evidence by describing Bode's death in a St. Mungo's ward, the suspension of a named Healer, and the danger of disguised Devil's Snare.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - st-mungos
+  - broderick-bode
+  - devil-snare
+  - healers
+  - hospital-wards
+  - department-of-mysteries
+  - unspeakables
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Institutions Beyond Hogwarts
+  candidate_section: St. Mungo's ward safety and Ministry casualties
+  reason_for_placement: The evidence extends St. Mungo's institutional detail and ties a hospital death to Ministry secrecy surrounding the Department of Mysteries.
+  relevance_to_hogwarts_a_history: This is indirect Hogwarts evidence, useful for a later appendix on student-observed wizarding institutions and the wider wartime context reaching the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch22-005
+    - ootp-ch23-006
+    notes: ootp-ch22-005 records St. Mungo's organization and Healers, while ootp-ch23-006 records long-term spell-damage ward care; this entry adds a named ward death, Healer suspension, ward-decoration rules, and Bode's Unspeakable identity.
+  confidence: high
+  limitations: The report is a public newspaper account and conceals the murder motive; the Department of Mysteries connection comes from Harry and Ron's recognition.
+- id: ootp-ch25-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2099
+  printed_page: null
+  extracted_text_lines: 231-270
+  text_anchor:
+    start_phrase: Teachers are hereby banned
+    end_phrase: life at Hogwarts under her personal control
+    local_occurrence_note: A High Inquisitor notice on House boards announces Educational Decree Number Twenty-six after teachers begin whispering in corridors.
+  nearby_context: Hermione reasons that teachers cannot talk freely in the staffroom with Umbridge present, and the new decree bans non-subject information to students.
+  match_terms:
+  - Educational Decree Number Twenty-six
+  - High Inquisitor
+  - teachers
+  - staffroom
+  - subject information
+  - House notice boards
+  - Umbridge
+  quote_excerpt_short: "not strictly related to the subjects"
+  source_note: Educational Decree Number Twenty-six forbids teachers from giving students information outside their paid subjects, escalating High Inquisitor control over staff speech and student access to wartime news.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - educational-decrees
+  - high-inquisitor
+  - teacher-speech
+  - information-control
+  - staffroom
+  - house-notice-boards
+  - school-governance
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Educational Decree Number Twenty-six and teacher speech
+  reason_for_placement: The passage gives the formal text and classroom-life implication of a Ministry-era rule constraining teacher communication.
+  relevance_to_hogwarts_a_history: A later edition should cite this as a key escalation from inspecting teachers to regulating what information could pass from staff to students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch15-001
+    - ootp-ch17-001
+    - ootp-ch19-007
+    notes: Earlier entries record the High Inquisitor office, Decree Twenty-four over organizations, and Decree Twenty-five over punishments; this entry adds Decree Twenty-six's ban on non-subject information from teachers to students.
+  confidence: high
+  limitations: This is exceptional Umbridge-era governance and should not be treated as ordinary Hogwarts staff policy.
+- id: ootp-ch25-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2100
+  printed_page: null
+  extracted_text_lines: 272-306
+  text_anchor:
+    start_phrase: Every single Divination and Care of Magical Creatures lesson
+    end_phrase: redoubling his efforts for the D.A.
+    local_occurrence_note: The narrative summarizes Umbridge's continual observation of Trelawney and Hagrid and the pressure around Hagrid's probation.
+  nearby_context: Umbridge interrupts Trelawney about named Divination methods and watches Hagrid's safer creature lessons, while Hagrid forbids after-dark visits to protect his job.
+  match_terms:
+  - Divination
+  - Care of Magical Creatures
+  - probation
+  - Professor Trelawney
+  - Hagrid
+  - crup
+  - staff inspections
+  quote_excerpt_short: "conducted in the presence of Umbridge"
+  source_note: Umbridge's inspection regime becomes continuous for Divination and Care of Magical Creatures, putting Trelawney and Hagrid under job-threatening scrutiny and affecting student access to Hagrid's hut.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - high-inquisitor
+  - staff-inspections
+  - divination
+  - care-of-magical-creatures
+  - hagrid
+  - professor-trelawney
+  - probation
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Probation and continuous inspection of vulnerable teachers
+  reason_for_placement: The passage shows the practical daily operation of High Inquisitor oversight beyond isolated inspection scenes.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how Ministry supervision affected subject teaching, staff morale, and informal student-staff relationships.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch20-006
+    - ootp-ch21-002
+    - ootp-ch15-001
+    notes: ootp-ch20-006 records Umbridge's Hagrid scrutiny and inspection threat, ootp-ch21-002 records a Care of Magical Creatures inspection, and ootp-ch15-001 records the High Inquisitor office; this entry adds Hagrid's probation plus ongoing observation of every Divination and creature lesson.
+  confidence: high
+  limitations: The chapter summarizes ongoing inspections rather than quoting formal probation paperwork or Umbridge's written reports.
+- id: ootp-ch25-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2101
+  printed_page: null
+  extracted_text_lines: 307-341
+  text_anchor:
+    start_phrase: all of them, even Zacharias Smith
+    end_phrase: only Hermione mastered the charm faster than Neville
+    local_occurrence_note: After the Azkaban breakout, the D.A. works harder and Harry teaches the Shield Charm.
+  nearby_context: Neville's response to Bellatrix Lestrange's escape is silent but intense practical work on every new jinx and countercurse.
+  match_terms:
+  - Dumbledore's Army
+  - Shield Charm
+  - jinxes
+  - countercurse
+  - Neville Longbottom
+  - Bellatrix Lestrange
+  - practical Defense
+  quote_excerpt_short: "a means of deflecting minor jinxes"
+  source_note: The D.A.'s practical curriculum advances to the Shield Charm after the Azkaban breakout, with Neville's unusually rapid improvement tied to the escape of his parents' attacker.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledores-army
+  - shield-charm
+  - practical-defense
+  - neville-longbottom
+  - bellatrix-lestrange
+  - jinxes
+  - student-led-instruction
+  candidate_part: Curriculum and Instruction
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: D.A. Shield Charm practice after the breakout
+  reason_for_placement: The passage records another step in the unauthorized practical Defense curriculum and a measurable student outcome.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that external war events directly shaped student-led Defense training and individual learning intensity.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch21-006
+    - ootp-ch18-007
+    notes: ootp-ch21-006 records earlier D.A. spell progression and planned Patronus work, while ootp-ch18-007 records the first formal D.A. lesson; this entry adds post-breakout Shield Charm practice and Neville's accelerated progress.
+  confidence: high
+  limitations: The D.A. remains unauthorized and cannot be treated as official Defense Against the Dark Arts instruction.
+- id: ootp-ch25-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2104
+  printed_page: null
+  extracted_text_lines: 377-506
+  text_anchor:
+    start_phrase: prospect of the second Hogsmeade visit of the year
+    end_phrase: Madam Puddifoot's
+    local_occurrence_note: Valentine's Day Hogsmeade begins with Filch sign-out, a walk past the Quidditch stadium, village posters, and the discovery of Madam Puddifoot's tea shop.
+  nearby_context: Students queue at the oak front doors, Filch signs them out, Ministry reward posters fill shop windows, and Harry notes the absence of Dementors after the Death Eater breakout.
+  match_terms:
+  - Hogsmeade
+  - Valentine's Day
+  - Filch
+  - sign-out
+  - Dervish and Banges
+  - Dementors
+  - Madam Puddifoot
+  quote_excerpt_short: "people being signed out by Filch"
+  source_note: The second Hogsmeade visit of the year confirms Filch's sign-out procedure, the student route through the grounds and gates, Ministry fugitive posters in the village, no Dementor patrols, and Madam Puddifoot's tea shop as a student-accessible venue.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - filch
+  - student-movement
+  - dementors
+  - ministry-posters
+  - madam-puddifoot
+  - dervish-and-banges
+  candidate_part: Student Life and School Customs
+  candidate_chapter: Hogsmeade Weekends and Student Privileges
+  candidate_section: Sign-out, village notices, and student venues
+  reason_for_placement: The passage combines school exit procedure, village geography, wartime public notices, and a previously unnamed Hogsmeade tea shop.
+  relevance_to_hogwarts_a_history: A history of student life can use this as a dense Harry-era example of how ordinary Hogsmeade privileges continued under heightened wartime anxiety.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch16-001
+    - poa-ch10-005
+    notes: ootp-ch16-001 records Filch's Hogsmeade permission-list checks, and poa-ch10-005 records Dementor-patrolled Hogsmeade during the Black crisis; this entry adds Valentine's Day sign-out, public fugitive posters, Dementor absence after the breakout, and Madam Puddifoot's.
+  confidence: high
+  limitations: The scene does not state whether Filch checked permission forms again or whether staff supervised the village during the visit.
+- id: ootp-ch25-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Five - The Beetle at Bay
+  chapter_start_pdf_page: 2092
+  chapter_end_pdf_page: 2117
+  pdf_page: 2114
+  printed_page: null
+  extracted_text_lines: 675-878
+  text_anchor:
+    start_phrase: Rita Skeeter, ex-journalist
+    end_phrase: Ready to tell the public the truth
+    local_occurrence_note: Hermione arranges for Rita Skeeter to interview Harry at the Three Broomsticks for publication in The Quibbler.
+  nearby_context: Rita admits the Prophet will not print a story favorable to Harry because Fudge is leaning on it, while Hermione uses Rita's unregistered Animagus status to force the interview.
+  match_terms:
+  - Rita Skeeter
+  - Daily Prophet
+  - The Quibbler
+  - Fudge
+  - unregistered Animagus
+  - Three Broomsticks
+  - Quick-Quotes Quill
+  quote_excerpt_short: "Fudge is leaning on the Prophet"
+  source_note: Hermione uses Rita Skeeter's unregistered Animagus vulnerability to bypass Ministry-influenced Daily Prophet coverage and place Harry's Voldemort-return account in The Quibbler.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - rita-skeeter
+  - daily-prophet
+  - quibbler
+  - ministry-censorship
+  - unregistered-animagus
+  - three-broomsticks
+  - wizarding-press
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts Information Climate
+  candidate_section: Alternative press and Harry's Quibbler interview
+  reason_for_placement: The passage documents how Hogwarts students and allies created an alternative public record when the dominant wizarding paper was politically constrained.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a Hogwarts-connected example of student information strategy, press politics, and the afterlife of Rita's Triwizard surveillance breach.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch37-006
+    - ootp-ch04-007
+    - ootp-ch05-007
+    notes: gof-ch37-006 reveals Rita's unregistered Animagus surveillance, while ootp-ch04-007 and ootp-ch05-007 record Ministry/Prophet pressure around Harry and Dumbledore; this entry adds Hermione's coercive use of that secret to place Harry's alternative account in The Quibbler.
+  confidence: high
+  limitations: The interview itself begins at the chapter end; this entry covers the arrangement and publication channel rather than the finished article.

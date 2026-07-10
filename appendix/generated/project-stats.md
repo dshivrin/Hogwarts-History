@@ -8,20 +8,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 118
+- Total: 119
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Order of the Phoenix: 163
+- Harry Potter and the Order of the Phoenix: 170
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 343
-- later_editorial_note: 351
+- harry_era_confirmation: 345
+- later_editorial_note: 356
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 58
@@ -29,16 +29,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Reference Type
 
 - cross_reference_candidate: 60
-- curriculum_or_subject: 108
+- curriculum_or_subject: 109
 - direct_observed_setting: 43
 - explicit_hogwarts_a_history: 8
-- explicit_in_universe_source: 51
+- explicit_in_universe_source: 54
 - historical_claim: 76
 - house_system: 14
-- institutional_custom: 133
+- institutional_custom: 134
 - magical_architecture: 57
 - portrait_or_ghost_lore: 11
-- school_rule_or_policy: 95
+- school_rule_or_policy: 97
 - security_or_protection: 106
 
 ## Explicit `Hogwarts: A History` References
@@ -47,12 +47,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 577
+- Total: 584
 
 ## Latest Processed Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, pages 2066-2091, `sources/book-05/chapter-24-occlumency.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, pages 2092-2117, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, pages 2092-2117, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, pages 2118-2144, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`

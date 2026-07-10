@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty-Five - The Beetle at Bay
-- Page range: 2092-2117
+- Chapter: Chapter Twenty-Six - Seen and Unforeseen
+- Page range: 2118-2144
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+- Output YAML: `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
 
 ## Minimal Context
 

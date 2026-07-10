@@ -274,6 +274,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Charms
   - Fifth-year practical spellwork and homework
 - Defense Against the Dark Arts
+  - D.A. Shield Charm practice after the breakout
   - D.A. spell progression and student improvement
   - Dumbledore's Army and student-led practical Defense
   - Student-Led Practical Defense in the Umbridge Year
@@ -402,12 +403,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dumbledore's Autonomy and Fudge's Governance Threat
   - Educational Decree Number Twenty-five and punishment authority
   - Educational Decree Number Twenty-four and student organizations
+  - Educational Decree Number Twenty-six and teacher speech
   - Educational Decrees and the High Inquisitor
   - High Inquisitor inspections and Care of Magical Creatures
   - High Inquisitor scrutiny of Hagrid
   - Ministry denial, classroom discipline, and staff constraints
   - Ministry pressure on Dumbledore's allies
   - Ministry pressure on prefect loyalty
+  - Probation and continuous inspection of vulnerable teachers
   - Public Truth-Telling Against Ministry Pressure
   - Umbridge's Opening Speech and Ministry Interference
 - Hogwarts Staff and Associates Before Harry's Arrival
@@ -469,6 +472,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors in Little Whinging
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
+- The Second War and Hogwarts Information Climate
+  - Alternative press and Harry's Quibbler interview
+  - The Azkaban breakout reaches the Great Hall
 - The Second War and Hogwarts-Connected Families
   - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
@@ -540,6 +546,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Rita Skeeter's Unregistered Animagus Surveillance
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wizarding Institutions Beyond Hogwarts
+  - St. Mungo's ward safety and Ministry casualties
 - Wizarding Press and Public Records
   - Daily Prophet Coverage of Moody Before His Hogwarts Term
 - Wizarding Schools Beyond Britain
@@ -994,6 +1002,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogsmeade Weekends and Student Privileges
   - Permission Lists and Castle Departure Checks
+  - Sign-out, village notices, and student venues
 - Holidays, Feasts, and Seasonal Duties
   - Christmas duties for prefects and staff
 - House Teams and Training

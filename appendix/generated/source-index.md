@@ -124,3 +124,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch22`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, pages 2018-2042, 7 entries, 0 explicit references.
 - `ootp-ch23`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, pages 2043-2065, 7 entries, 1 explicit references.
 - `ootp-ch24`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, pages 2066-2091, 7 entries, 0 explicit references.
+- `ootp-ch25`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, pages 2092-2117, 7 entries, 0 explicit references.

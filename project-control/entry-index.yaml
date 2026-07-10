@@ -11375,6 +11375,117 @@ by_entry:
     - weasley-products
     source_unit: ootp-ch24
     output_yaml: sources/book-05/chapter-24-occlumency.yaml
+  ootp-ch25-001:
+    title: 'The Second War and Hogwarts Information Climate: The Azkaban breakout
+      reaches the Great Hall'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - azkaban
+    - daily-prophet
+    - death-eaters
+    - dementors
+    - great-hall
+    - ministry-of-magic
+    - school-politics
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch25-002:
+    title: 'Wizarding Institutions Beyond Hogwarts: St. Mungo''s ward safety and Ministry
+      casualties'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - broderick-bode
+    - department-of-mysteries
+    - devil-snare
+    - healers
+    - hospital-wards
+    - st-mungos
+    - unspeakables
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch25-003:
+    title: 'Headmasters and School Authority: Educational Decree Number Twenty-six
+      and teacher speech'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - educational-decrees
+    - high-inquisitor
+    - house-notice-boards
+    - information-control
+    - school-governance
+    - staffroom
+    - teacher-speech
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch25-004:
+    title: 'Headmasters and School Authority: Probation and continuous inspection
+      of vulnerable teachers'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - divination
+    - hagrid
+    - high-inquisitor
+    - probation
+    - professor-trelawney
+    - staff-inspections
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch25-005:
+    title: 'Defense Against the Dark Arts: D.A. Shield Charm practice after the breakout'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - bellatrix-lestrange
+    - dumbledores-army
+    - jinxes
+    - neville-longbottom
+    - practical-defense
+    - shield-charm
+    - student-led-instruction
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch25-006:
+    title: 'Hogsmeade Weekends and Student Privileges: Sign-out, village notices,
+      and student venues'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dementors
+    - dervish-and-banges
+    - filch
+    - hogsmeade
+    - madam-puddifoot
+    - ministry-posters
+    - student-movement
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch25-007:
+    title: 'The Second War and Hogwarts Information Climate: Alternative press and
+      Harry''s Quibbler interview'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - daily-prophet
+    - ministry-censorship
+    - quibbler
+    - rita-skeeter
+    - three-broomsticks
+    - unregistered-animagus
+    - wizarding-press
+    source_unit: ootp-ch25
+    output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11594,6 +11705,7 @@ by_tag:
   - ootp-ch08-001
   - ootp-ch08-006
   - ootp-ch14-003
+  - ootp-ch25-001
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -11673,6 +11785,7 @@ by_tag:
   - poa-ch13-006
   bellatrix-lestrange:
   - ootp-ch23-007
+  - ootp-ch25-005
   bertha-jorkins:
   - gof-ch01-003
   - gof-ch05-003
@@ -11766,6 +11879,8 @@ by_tag:
   - gof-ch07-003
   brick-entrance:
   - poa-ch04-001
+  broderick-bode:
+  - ootp-ch25-002
   broom-flight:
   - ootp-ch03-003
   - ootp-ch03-005
@@ -11833,6 +11948,7 @@ by_tag:
   - ootp-ch13-004
   - ootp-ch15-006
   - ootp-ch20-007
+  - ootp-ch25-004
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -12339,6 +12455,8 @@ by_tag:
   - ootp-ch05-007
   - ootp-ch11-007
   - ootp-ch14-003
+  - ootp-ch25-001
+  - ootp-ch25-007
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -12394,6 +12512,7 @@ by_tag:
   - ootp-ch09-001
   - ootp-ch09-007
   - ootp-ch20-005
+  - ootp-ch25-001
   death-witnesses:
   - ootp-ch21-001
   deathday-party:
@@ -12486,6 +12605,8 @@ by_tag:
   - ootp-ch02-005
   - ootp-ch08-003
   - ootp-ch08-006
+  - ootp-ch25-001
+  - ootp-ch25-006
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -12520,10 +12641,12 @@ by_tag:
   - gof-ch07-004
   - gof-ch30-004
   - ootp-ch07-007
+  - ootp-ch25-002
   deputy-headmistress:
   - ps-ch04-002
   dervish-and-banges:
   - gof-ch27-002
+  - ootp-ch25-006
   desire-based-magic:
   - ps-ch17-003
   detention:
@@ -12543,6 +12666,8 @@ by_tag:
   - ps-ch15-004
   devil's-snare:
   - ps-ch16-005
+  devil-snare:
+  - ootp-ch25-002
   diagon-alley:
   - cos-ch04-002
   - gof-ch05-006
@@ -12600,6 +12725,7 @@ by_tag:
   - ootp-ch12-005
   - ootp-ch15-003
   - ootp-ch17-006
+  - ootp-ch25-004
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -12807,6 +12933,7 @@ by_tag:
   - ootp-ch21-004
   - ootp-ch21-006
   - ootp-ch23-004
+  - ootp-ch25-005
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -12856,6 +12983,7 @@ by_tag:
   - ootp-ch17-004
   - ootp-ch18-002
   - ootp-ch19-007
+  - ootp-ch25-003
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -13066,6 +13194,7 @@ by_tag:
   - ootp-ch18-001
   - ootp-ch18-005
   - ootp-ch21-003
+  - ootp-ch25-006
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -13426,6 +13555,7 @@ by_tag:
   - gof-ch23-002
   - gof-ch37-003
   - ootp-ch19-005
+  - ootp-ch25-001
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -13633,6 +13763,7 @@ by_tag:
   - ootp-ch20-007
   - ootp-ch21-001
   - ootp-ch21-002
+  - ootp-ch25-004
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -13813,6 +13944,7 @@ by_tag:
   - ootp-ch22-005
   - ootp-ch22-007
   - ootp-ch23-006
+  - ootp-ch25-002
   hedwig:
   - cos-ch01-003
   - ootp-ch18-001
@@ -13899,6 +14031,8 @@ by_tag:
   - ootp-ch20-006
   - ootp-ch21-002
   - ootp-ch21-005
+  - ootp-ch25-003
+  - ootp-ch25-004
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -13935,6 +14069,7 @@ by_tag:
   - gof-ch27-006
   - ootp-ch16-001
   - ootp-ch16-002
+  - ootp-ch25-006
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -14148,6 +14283,7 @@ by_tag:
   - ootp-ch11-001
   hospital-wards:
   - ootp-ch22-005
+  - ootp-ch25-002
   hospital-wing:
   - cos-ch10-005
   - cos-ch11-006
@@ -14244,6 +14380,8 @@ by_tag:
   - poa-ch13-003
   house-motto:
   - ootp-ch10-003
+  house-notice-boards:
+  - ootp-ch25-003
   house-points:
   - cos-ch05-005
   - cos-ch06-003
@@ -14364,6 +14502,8 @@ by_tag:
   - ps-ch06-003
   informal-source:
   - poa-ch04-002
+  information-control:
+  - ootp-ch25-003
   information-security:
   - gof-ch01-003
   - gof-ch07-005
@@ -14457,6 +14597,7 @@ by_tag:
   - cos-ch07-004
   - poa-ch05-003
   jinxes:
+  - ootp-ch25-005
   - poa-ch11-007
   joke-products:
   - gof-ch05-002
@@ -14732,6 +14873,8 @@ by_tag:
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
+  madam-puddifoot:
+  - ootp-ch25-006
   madame-maxime:
   - gof-ch15-007
   - gof-ch29-007
@@ -15074,6 +15217,8 @@ by_tag:
   - poa-ch21-001
   ministry-authorization:
   - poa-ch21-002
+  ministry-censorship:
+  - ootp-ch25-007
   ministry-classification:
   - ootp-ch21-002
   ministry-contacts:
@@ -15163,12 +15308,15 @@ by_tag:
   - ootp-ch09-002
   - ootp-ch11-002
   - ootp-ch14-003
+  - ootp-ch25-001
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
   - poa-ch12-003
   - poa-ch16-002
   - ps-ch14-002
+  ministry-posters:
+  - ootp-ch25-006
   ministry-register:
   - poa-ch18-001
   ministry-response:
@@ -15364,6 +15512,7 @@ by_tag:
   - gof-ch19-005
   neville-longbottom:
   - ootp-ch21-006
+  - ootp-ch25-005
   - poa-ch12-006
   - poa-ch13-007
   newt-courses:
@@ -15831,6 +15980,7 @@ by_tag:
   - ootp-ch18-007
   - ootp-ch21-006
   - ootp-ch23-004
+  - ootp-ch25-005
   practical-examination:
   - ootp-ch12-004
   practical-exams:
@@ -15925,6 +16075,7 @@ by_tag:
   - ps-ch03-003
   probation:
   - ootp-ch17-006
+  - ootp-ch25-004
   procession:
   - gof-ch23-002
   professor-binns:
@@ -16035,6 +16186,7 @@ by_tag:
   - ootp-ch12-005
   - ootp-ch15-003
   - ootp-ch17-006
+  - ootp-ch25-004
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -16106,6 +16258,7 @@ by_tag:
   - cos-ch07-001
   quibbler:
   - ootp-ch10-005
+  - ootp-ch25-007
   quick-quotes-quill:
   - gof-ch18-005
   quidditch:
@@ -16284,6 +16437,7 @@ by_tag:
   - gof-ch24-004
   - gof-ch27-003
   - gof-ch37-006
+  - ootp-ch25-007
   robe-fitting:
   - ps-ch05-005
   roberts-family:
@@ -16385,6 +16539,7 @@ by_tag:
   - ootp-ch18-002
   - ootp-ch19-007
   - ootp-ch23-003
+  - ootp-ch25-003
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -16436,6 +16591,7 @@ by_tag:
   - gof-ch14-002
   school-politics:
   - ootp-ch14-003
+  - ootp-ch25-001
   school-preparation:
   - ps-ch09-001
   school-property:
@@ -16633,6 +16789,8 @@ by_tag:
   - ootp-ch16-002
   shared-resources:
   - gof-ch18-001
+  shield-charm:
+  - ootp-ch25-005
   shrieking-shack:
   - ootp-ch17-007
   - poa-ch05-002
@@ -16846,6 +17004,7 @@ by_tag:
   - ootp-ch22-006
   - ootp-ch23-003
   - ootp-ch23-006
+  - ootp-ch25-002
   stadium:
   - gof-ch08-001
   staff:
@@ -16895,6 +17054,7 @@ by_tag:
   - ootp-ch20-006
   - ootp-ch20-007
   - ootp-ch21-002
+  - ootp-ch25-004
   staff-memory:
   - poa-ch10-006
   staff-offices:
@@ -16935,6 +17095,7 @@ by_tag:
   - cos-ch16-005
   - gof-ch26-004
   - gof-ch35-003
+  - ootp-ch25-003
   - poa-ch07-004
   - poa-ch07-006
   - ps-ch08-005
@@ -17063,6 +17224,7 @@ by_tag:
   - ootp-ch16-004
   - ootp-ch18-007
   - ootp-ch21-006
+  - ootp-ch25-005
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -17083,6 +17245,7 @@ by_tag:
   - gof-ch27-002
   - gof-ch27-006
   - ootp-ch16-001
+  - ootp-ch25-006
   - poa-ch05-006
   - poa-ch08-003
   - poa-ch10-005
@@ -17314,6 +17477,8 @@ by_tag:
   - cos-ch10-001
   teacher-spaces:
   - poa-ch07-006
+  teacher-speech:
+  - ootp-ch25-003
   teacher-vacancy:
   - gof-ch37-002
   teachers:
@@ -17392,6 +17557,7 @@ by_tag:
   three-broomsticks:
   - gof-ch19-001
   - ootp-ch16-002
+  - ootp-ch25-007
   three-headed-dog:
   - ps-ch09-007
   - ps-ch11-007
@@ -17642,10 +17808,13 @@ by_tag:
   unplottable:
   - gof-ch11-005
   - ootp-ch06-007
+  unregistered-animagus:
+  - ootp-ch25-007
   unregistered-magic:
   - poa-ch18-001
   unspeakables:
   - gof-ch07-004
+  - ootp-ch25-002
   unused-classroom:
   - ps-ch12-006
   unused-classrooms:
@@ -17896,6 +18065,7 @@ by_tag:
   - gof-ch18-005
   - gof-ch37-006
   - ootp-ch10-005
+  - ootp-ch25-007
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002

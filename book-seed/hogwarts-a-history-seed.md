@@ -6923,6 +6923,18 @@ Summary: The available evidence includes 2 source items, led by: Educational Dec
   - Corroborates: `ootp-ch17-001`. ootp-ch17-001 records the decree disbanding all student organizations and requiring High Inquisitor approval; this entry shows a House Quidditch team securing that approval.
   - Notes: The passage does not quote the approval document or state whether all House teams followed the same appeal route.
 
+#### Section: Educational Decree Number Twenty-six and teacher speech
+
+Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-six forbids teachers from giving students information outside their paid subjects, escalating High Inquisitor control over staff speech and student access to wartime news.
+
+- **Corroboration:** Educational Decree Number Twenty-six forbids teachers from giving students information outside their paid subjects, escalating High Inquisitor control over staff speech and student access to wartime news.
+  - Quote: "not strictly related to the subjects"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2099, `ootp-ch25-003`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch15-001`, `ootp-ch17-001`, `ootp-ch19-007`. Earlier entries record the High Inquisitor office, Decree Twenty-four over organizations, and Decree Twenty-five over punishments; this entry adds Decree Twenty-six's ban on non-subject information from teachers to students.
+  - Notes: This is exceptional Umbridge-era governance and should not be treated as ordinary Hogwarts staff policy.
+
 #### Section: Educational Decrees and the High Inquisitor
 
 Summary: The available evidence includes 1 source item, led by: The Prophet report gives the formal public account of Ministry legislation that placed Umbridge on the teaching staff and created the High Inquisitor role with authority to inspect other Hogwarts teachers.
@@ -6992,6 +7004,18 @@ Summary: The available evidence includes 1 source item, led by: Percy's letter s
   - Classification: later_editorial_note | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Percy's partisan letter, so claims about staff cooperation and imminent changes should be attributed to his perspective unless corroborated later.
+
+#### Section: Probation and continuous inspection of vulnerable teachers
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's inspection regime becomes continuous for Divination and Care of Magical Creatures, putting Trelawney and Hagrid under job-threatening scrutiny and affecting student access to Hagrid's hut.
+
+- **Corroboration:** Umbridge's inspection regime becomes continuous for Divination and Care of Magical Creatures, putting Trelawney and Hagrid under job-threatening scrutiny and affecting student access to Hagrid's hut.
+  - Quote: "conducted in the presence of Umbridge"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2100, `ootp-ch25-004`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch20-006`, `ootp-ch21-002`, `ootp-ch15-001`. ootp-ch20-006 records Umbridge's Hagrid scrutiny and inspection threat, ootp-ch21-002 records a Care of Magical Creatures inspection, and ootp-ch15-001 records the High Inquisitor office; this entry adds Hagrid's probation plus ongoing observation of every Divination and creature lesson.
+  - Notes: The chapter summarizes ongoing inspections rather than quoting formal probation paperwork or Umbridge's written reports.
 
 #### Section: Public Truth-Telling Against Ministry Pressure
 
@@ -7435,6 +7459,32 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: explicit_in_universe_source
   - Notes: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
 
+### Chapter: The Second War and Hogwarts Information Climate
+
+#### Section: Alternative press and Harry's Quibbler interview
+
+Summary: The available evidence includes 1 source item, led by: Hermione uses Rita Skeeter's unregistered Animagus vulnerability to bypass Ministry-influenced Daily Prophet coverage and place Harry's Voldemort-return account in The Quibbler.
+
+- **Corroboration:** Hermione uses Rita Skeeter's unregistered Animagus vulnerability to bypass Ministry-influenced Daily Prophet coverage and place Harry's Voldemort-return account in The Quibbler.
+  - Quote: "Fudge is leaning on the Prophet"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2114, `ootp-ch25-007`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `gof-ch37-006`, `ootp-ch04-007`, `ootp-ch05-007`. gof-ch37-006 reveals Rita's unregistered Animagus surveillance, while ootp-ch04-007 and ootp-ch05-007 record Ministry/Prophet pressure around Harry and Dumbledore; this entry adds Hermione's coercive use of that secret to place Harry's alternative account in The Quibbler.
+  - Notes: The interview itself begins at the chapter end; this entry covers the arrangement and publication channel rather than the finished article.
+
+#### Section: The Azkaban breakout reaches the Great Hall
+
+Summary: The available evidence includes 1 source item, led by: The Daily Prophet's Azkaban-breakout story enters Hogwarts through breakfast news, exposing the gap between Ministry public framing, staff alarm, student rumor, and Umbridge's hostile watchfulness.
+
+- **Corroboration:** The Daily Prophet's Azkaban-breakout story enters Hogwarts through breakfast news, exposing the gap between Ministry public framing, staff alarm, student rumor, and Umbridge's hostile watchfulness.
+  - Quote: "the Azkaban guards have joined Lord Voldemort"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2094, `ootp-ch25-001`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `gof-ch09-007`, `ootp-ch14-003`. gof-ch09-007 records Death Eater/Azkaban context from an in-universe source, and ootp-ch14-003 records a Daily Prophet account affecting Hogwarts politics; this entry adds the mass breakout's immediate Great Hall reception and staff response.
+  - Notes: The Daily Prophet account is politically distorted, so only the reported breakout, named prisoners, and observed Hogwarts reactions should be treated as firm evidence.
+
 ### Chapter: The Second War and Hogwarts-Connected Families
 
 #### Section: Pure-Blood Ideology and Black Family War Alignment
@@ -7712,6 +7762,20 @@ Summary: The available evidence includes 1 source item, led by: McGonagall says 
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: historical_claim
   - Notes: The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
+
+### Chapter: Wizarding Institutions Beyond Hogwarts
+
+#### Section: St. Mungo's ward safety and Ministry casualties
+
+Summary: The available evidence includes 1 source item, led by: The Prophet report adds hospital safety and accountability evidence by describing Bode's death in a St. Mungo's ward, the suspension of a named Healer, and the danger of disguised Devil's Snare.
+
+- **Corroboration:** The Prophet report adds hospital safety and accountability evidence by describing Bode's death in a St. Mungo's ward, the suspension of a named Healer, and the danger of disguised Devil's Snare.
+  - Quote: "strangled by a potted-plant"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2095, `ootp-ch25-002`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch22-005`, `ootp-ch23-006`. ootp-ch22-005 records St. Mungo's organization and Healers, while ootp-ch23-006 records long-term spell-damage ward care; this entry adds a named ward death, Healer suspension, ward-decoration rules, and Bode's Unspeakable identity.
+  - Notes: The report is a public newspaper account and conceals the murder motive; the Department of Mysteries connection comes from Harry and Ron's recognition.
 
 ### Chapter: Wizarding Press and Public Records
 
@@ -8385,6 +8449,18 @@ Summary: The available evidence includes 1 source item, led by: Fifth-year Charm
 
 ### Chapter: Defense Against the Dark Arts
 
+#### Section: D.A. Shield Charm practice after the breakout
+
+Summary: The available evidence includes 1 source item, led by: The D.A.'s practical curriculum advances to the Shield Charm after the Azkaban breakout, with Neville's unusually rapid improvement tied to the escape of his parents' attacker.
+
+- **Corroboration:** The D.A.'s practical curriculum advances to the Shield Charm after the Azkaban breakout, with Neville's unusually rapid improvement tied to the escape of his parents' attacker.
+  - Quote: "a means of deflecting minor jinxes"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2101, `ootp-ch25-005`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch21-006`, `ootp-ch18-007`. ootp-ch21-006 records earlier D.A. spell progression and planned Patronus work, while ootp-ch18-007 records the first formal D.A. lesson; this entry adds post-breakout Shield Charm practice and Neville's accelerated progress.
+  - Notes: The D.A. remains unauthorized and cannot be treated as official Defense Against the Dark Arts instruction.
+
 #### Section: D.A. spell progression and student improvement
 
 Summary: The available evidence includes 1 source item, led by: The D.A. curriculum progresses from review of the Impediment Jinx to Stunning practice, shows measurable student improvement, and anticipates Patronus work after the holiday.
@@ -9032,6 +9108,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: institutional_custom
   - Corroborates: `poa-ch08-003`. poa-ch08-003 already records Head-of-House collection and Filch door checks for Hogsmeade permission forms; this entry corroborates the system in fifth year and adds the parent-or-guardian list wording plus the gate route.
   - Notes: The passage does not state whether Filch created the list, whether teachers supervised the walk, or how the procedure changed under heightened security.
+
+#### Section: Sign-out, village notices, and student venues
+
+Summary: The available evidence includes 1 source item, led by: The second Hogsmeade visit of the year confirms Filch's sign-out procedure, the student route through the grounds and gates, Ministry fugitive posters in the village, no Dementor patrols, and Madam Puddifoot's tea shop as a student-accessible venue.
+
+- **Corroboration:** The second Hogsmeade visit of the year confirms Filch's sign-out procedure, the student route through the grounds and gates, Ministry fugitive posters in the village, no Dementor patrols, and Madam Puddifoot's tea shop as a student-accessible venue.
+  - Quote: "people being signed out by Filch"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, PDF p. 2104, `ootp-ch25-006`, `sources/book-05/chapter-25-the-beetle-at-bay.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch16-001`, `poa-ch10-005`. ootp-ch16-001 records Filch's Hogsmeade permission-list checks, and poa-ch10-005 records Dementor-patrolled Hogsmeade during the Black crisis; this entry adds Valentine's Day sign-out, public fugitive posters, Dementor absence after the breakout, and Madam Puddifoot's.
+  - Notes: The scene does not state whether Filch checked permission forms again or whether staff supervised the village during the visit.
 
 ### Chapter: Holidays, Feasts, and Seasonal Duties
 
