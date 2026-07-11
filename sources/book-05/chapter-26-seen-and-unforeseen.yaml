@@ -5,9 +5,9 @@ source_unit:
   chapter_start_pdf_page: 2118
   chapter_end_pdf_page: 2144
   boundary_confidence: high
-  boundary_notes: Chapter Twenty-Six range came from project-control/processing-state.yaml and project-control/next-run.md. A bounded one-page forward extraction confirmed Chapter Twenty-Seven starts on PDF page 2145, so only PDF pages 2118-2144 were extracted and searched for this unit.
+  boundary_notes: Chapter Twenty-Six range came from project-control/processing-state.yaml and project-control/next-run.md. Prior bounded anchors place Chapter Twenty-Seven at PDF page 2145, so only PDF pages 2118-2144 were extracted and searched for this unit.
   processed_date: '2026-07-11'
-  processor_notes: "Processed only Book 5, Chapter Twenty-Six. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg/query recipes. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+  processor_notes: "Processed only Book 5, Chapter Twenty-Six. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
 
 entries:
 - id: ootp-ch26-001
@@ -18,89 +18,45 @@ entries:
   chapter_end_pdf_page: 2144
   pdf_page: 2126
   printed_page: null
-  extracted_text_lines: 247-313
+  extracted_text_lines: 261-360
   text_anchor:
-    start_phrase: They entered the Great Hall for breakfast
-    end_phrase: I am forced to accept that you are telling the truth
-    local_occurrence_note: The March Quibbler arrives by owl post in the Great Hall with Harry's cover interview and immediate reader letters.
-  nearby_context: Luna explains that her father sent a free copy, many owls deliver reader responses, and letters show mixed but changing public opinion about Harry's account.
+    start_phrase: Harry Potter
+    end_phrase: the eyes of many students following her
+    local_occurrence_note: Great Hall owl post delivers the March Quibbler carrying Harry's interview, and Umbridge reacts publicly at the Gryffindor table.
+  nearby_context: Owls crowd the breakfast table with reader letters, Luna identifies the issue, and Umbridge deducts points and assigns detentions after seeing Harry's interview.
   match_terms:
   - The Quibbler
   - owl post
   - Great Hall
-  - Harry Potter interview
   - reader letters
-  - Daily Prophet
-  quote_excerpt_short: "HARRY POTTER SPEAKS OUT AT LAST"
-  source_note: The Quibbler functions as an alternative in-universe press channel reaching Hogwarts by owl post, producing immediate student attention and reader-response evidence about public belief.
+  - Umbridge
+  - Gryffindor
+  quote_excerpt_short: "March's edition of The Quibbler"
+  source_note: The Great Hall owl-post scene shows a banned-adjacent alternative-press article entering Hogwarts publicly, drawing student attention and immediate High Inquisitor scrutiny.
   reference_type: explicit_in_universe_source
   era_classification: later_editorial_note
   topic_tags:
   - quibbler
   - owl-post
   - great-hall
+  - ministry-censorship
+  - student-correspondence
+  - umbridge
   - wizarding-press
-  - public-opinion
-  - luna-lovegood
-  - daily-prophet
   candidate_part: Later Editorial Notes
   candidate_chapter: The Second War and Hogwarts Information Climate
-  candidate_section: The Quibbler interview reaches the Great Hall
-  reason_for_placement: The passage shows alternative wartime media entering school life and changing student and public discourse.
-  relevance_to_hogwarts_a_history: A later edition can use this to show how external wizarding publications and owl post shaped Hogwarts information networks during Ministry censorship.
+  candidate_section: Alternative press reaches Hogwarts by owl post
+  reason_for_placement: The scene connects wizarding press circulation, student mail, and Ministry-aligned school discipline during the Umbridge year.
+  relevance_to_hogwarts_a_history: A later edition could use this as a concrete example of how wartime public information entered and disrupted ordinary school routines.
   duplicate_check:
     possible_duplicate: true
     duplicate_of:
     - ootp-ch25-007
     - ootp-ch10-005
-    notes: ootp-ch25-007 records the arranged Quibbler interview, and ootp-ch10-005 introduces The Quibbler as alternative press; this entry adds publication, Great Hall delivery, and reader-response effects.
+    notes: ootp-ch25-007 records the interview arrangement, and ootp-ch10-005 identifies The Quibbler as an alternative periodical; this entry adds the published issue arriving at Hogwarts through morning owl post and provoking Umbridge's public response.
   confidence: high
-  limitations: Reader letters are anecdotal samples rather than a complete measure of wizarding public opinion.
+  limitations: The passage shows circulation inside Hogwarts but does not reproduce the full article or quantify how many letters reached Harry.
 - id: ootp-ch26-002
-  source_file: pdfs/harrypotter.pdf
-  book: Harry Potter and the Order of the Phoenix
-  chapter: Chapter Twenty-Six - Seen and Unforeseen
-  chapter_start_pdf_page: 2118
-  chapter_end_pdf_page: 2144
-  pdf_page: 2128
-  printed_page: null
-  extracted_text_lines: 317-359
-  text_anchor:
-    start_phrase: What is going on here?
-    end_phrase: the eyes of many students following her
-    local_occurrence_note: Umbridge confronts Harry about the interview in the Great Hall and imposes loss of Hogsmeade privileges, points, and detentions.
-  nearby_context: Harry openly identifies the interview as his account of the previous June, while Dumbledore appears to avoid visible intervention at the staff table.
-  match_terms:
-  - Umbridge
-  - Hogsmeade trips
-  - detentions
-  - house points
-  - Great Hall
-  - Quibbler
-  quote_excerpt_short: "no more Hogsmeade trips for you"
-  source_note: Umbridge uses direct disciplinary authority to punish a student for unauthorized public speech, combining privilege withdrawal, point loss, and additional detentions.
-  reference_type: school_rule_or_policy
-  era_classification: later_editorial_note
-  topic_tags:
-  - umbridge
-  - school-discipline
-  - hogsmeade-trip
-  - detention
-  - house-points
-  - student-speech
-  - high-inquisitor
-  candidate_part: Later Editorial Notes
-  candidate_chapter: Headmasters and School Authority
-  candidate_section: Discipline for unauthorized public speech
-  reason_for_placement: The scene documents how High Inquisitor discipline extended into student media activity and village-visit privileges.
-  relevance_to_hogwarts_a_history: A later edition can contrast ordinary school discipline with Ministry-era punishment for speech about Voldemort's return.
-  duplicate_check:
-    possible_duplicate: false
-    duplicate_of: null
-    notes: Targeted queries found general detention, Hogsmeade, and Quibbler entries, but no close match for this Quibbler-triggered loss of Hogsmeade privileges and new detentions.
-  confidence: high
-  limitations: The punishment is exceptional Umbridge-era discipline and should not be generalized as ordinary Hogwarts policy.
-- id: ootp-ch26-003
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Order of the Phoenix
   chapter: Chapter Twenty-Six - Seen and Unforeseen
@@ -108,21 +64,21 @@ entries:
   chapter_end_pdf_page: 2144
   pdf_page: 2129
   printed_page: null
-  extracted_text_lines: 360-396
+  extracted_text_lines: 360-383
   text_anchor:
-    start_phrase: By mid-morning enormous signs had been put up all over the school
-    end_phrase: I think you've finally got them convinced
-    local_occurrence_note: Educational Decree Number Twenty-seven bans possession of The Quibbler and threatens expulsion, causing the interview to circulate more widely.
-  nearby_context: The notices appear on House boards, corridors, and classrooms; Hermione recognizes that the ban will make students read the interview.
+    start_phrase: By mid-morning enormous signs
+    end_phrase: banning it
+    local_occurrence_note: Signs appear on House notice boards, corridors, and classroom walls forbidding student possession of The Quibbler.
+  nearby_context: Hermione interprets the ban as the best way to make every student read the interview.
   match_terms:
-  - Educational Decree Number Twenty-seven
-  - High Inquisitor
-  - Quibbler
-  - expulsion
+  - High Inquisitor of Hogwarts
+  - The Quibbler
+  - expelled
   - House notice boards
   - corridors
+  - classrooms
   quote_excerpt_short: "will be expelled"
-  source_note: Educational Decree Number Twenty-seven forbids student possession of The Quibbler, posting the expulsion threat across school spaces and unintentionally increasing readership.
+  source_note: The High Inquisitor bans possession of The Quibbler across the school and threatens expulsion, extending Ministry information control to school spaces and student property.
   reference_type: school_rule_or_policy
   era_classification: later_editorial_note
   topic_tags:
@@ -130,24 +86,23 @@ entries:
   - high-inquisitor
   - quibbler
   - expulsion
-  - notice-boards
   - information-control
-  - student-rumor
+  - notice-boards
+  - school-governance
   candidate_part: Later Editorial Notes
   candidate_chapter: Headmasters and School Authority
-  candidate_section: Educational Decree Number Twenty-seven and banned publications
-  reason_for_placement: The passage gives the formal text and visible placement of a Ministry-era rule censoring a specific publication.
-  relevance_to_hogwarts_a_history: A later edition should cite this as a peak example of Umbridge's written decrees controlling student reading and speech.
+  candidate_section: High Inquisitor possession bans and expulsion threats
+  reason_for_placement: The notice is a formal schoolwide rule posted in ordinary institutional spaces and backed by expulsion.
+  relevance_to_hogwarts_a_history: This provides a clear Umbridge-era example of emergency rulemaking reaching beyond conduct into possession of written material.
   duplicate_check:
     possible_duplicate: true
     duplicate_of:
-    - ootp-ch25-003
-    - ootp-ch19-007
     - ootp-ch17-001
-    notes: Earlier entries record Decrees Twenty-six, Twenty-five, and Twenty-four; this entry adds Decree Twenty-seven's publication ban and expulsion threat.
+    - ootp-ch25-003
+    notes: ootp-ch17-001 records expulsion threats under Decree Twenty-four, and ootp-ch25-003 records Decree Twenty-six's teacher-speech ban; this entry adds a schoolwide possession ban on a named magazine.
   confidence: high
-  limitations: The decree is a temporary High Inquisitor measure and not evidence of ordinary school publication rules.
-- id: ootp-ch26-004
+  limitations: The posted text names the High Inquisitor but not a numbered Educational Decree for this specific ban.
+- id: ootp-ch26-003
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Order of the Phoenix
   chapter: Chapter Twenty-Six - Seen and Unforeseen
@@ -155,112 +110,116 @@ entries:
   chapter_end_pdf_page: 2144
   pdf_page: 2130
   printed_page: null
-  extracted_text_lines: 399-420
+  extracted_text_lines: 399-419
   text_anchor:
-    start_phrase: Professor Umbridge was stalking the school
-    end_phrase: would live to a ripe old age
-    local_occurrence_note: Students hide or disguise Quibbler pages while teachers signal approval without mentioning the interview directly.
-  nearby_context: Umbridge searches pockets and books for copies; Decree Twenty-six prevents teachers from discussing the interview, but Sprout, Flitwick, and Trelawney respond indirectly.
+    start_phrase: Meanwhile Professor Umbridge was stalking the school
+    end_phrase: live to a ripe old age
+    local_occurrence_note: Umbridge searches students for copies while students disguise the article and teachers signal support without mentioning it.
+  nearby_context: Students use magical concealment to keep reading the interview, and teachers work around Educational Decree Number Twenty-six through points, gifts, and indirect remarks.
   match_terms:
+  - Umbridge
   - The Quibbler
+  - textbooks
+  - magically blank
   - Educational Decree Number Twenty-six
   - Professor Sprout
   - Professor Flitwick
   - Professor Trelawney
-  - textbook extracts
   quote_excerpt_short: "bewitched to resemble extracts from textbooks"
-  source_note: Students use magical concealment to evade searches for a banned publication, while teachers work around Decree Twenty-six with indirect gestures of support.
+  source_note: Students evade the Quibbler ban with concealment charms, while teachers forbidden by Decree Twenty-six still show indirect support through ordinary school mechanisms.
   reference_type: school_rule_or_policy
   era_classification: later_editorial_note
   topic_tags:
   - quibbler
   - educational-decrees
+  - student-resistance
+  - concealment-charms
   - teacher-speech
-  - magical-concealment
-  - staff-resistance
-  - umbridge
+  - house-points
   - information-control
   candidate_part: Later Editorial Notes
   candidate_chapter: The Second War and Hogwarts Information Climate
-  candidate_section: Student and staff workarounds under censorship
-  reason_for_placement: The passage shows practical resistance to school censorship from both students and sympathetic teachers.
-  relevance_to_hogwarts_a_history: A later edition can use this as evidence that Hogwarts information control depended not only on rules but also on enforcement, magical countermeasures, and staff culture.
+  candidate_section: Student and staff workarounds under information control
+  reason_for_placement: The passage shows how formal censorship changed both student reading practices and teacher communication.
+  relevance_to_hogwarts_a_history: A later account of the Umbridge year can use this as evidence that school culture adapted quickly to suppressive rules.
   duplicate_check:
     possible_duplicate: true
-    duplicate_of: ootp-ch25-003
-    notes: ootp-ch25-003 records Decree Twenty-six's ban on non-subject teacher speech; this entry adds how teachers and students circumvented it after the Quibbler ban.
+    duplicate_of:
+    - ootp-ch25-003
+    - ootp-ch25-007
+    notes: ootp-ch25-003 records Decree Twenty-six's formal teacher-speech limit, and ootp-ch25-007 records the interview's placement in The Quibbler; this entry adds the student concealment and staff workaround practices after publication.
   confidence: high
-  limitations: The text summarizes widespread behavior and gives only a few named teacher examples.
+  limitations: The charmwork is observed in summary only; the chapter does not identify the exact spells used.
+- id: ootp-ch26-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Six - Seen and Unforeseen
+  chapter_start_pdf_page: 2118
+  chapter_end_pdf_page: 2144
+  pdf_page: 2124
+  printed_page: null
+  extracted_text_lines: 163-180
+  text_anchor:
+    start_phrase: The very best thing you could say about the match
+    end_phrase: There is a difference
+    local_occurrence_note: The Gryffindor-Hufflepuff match after Umbridge's bans is summarized, including Ginny's Seeker role and the new Beaters' poor performance.
+  nearby_context: Gryffindor loses narrowly despite Ginny catching the Snitch, and Ginny frames Harry's ban as conditional on Umbridge remaining at school.
+  match_terms:
+  - Gryffindor
+  - Hufflepuff
+  - Ginny Weasley
+  - Seeker
+  - Kirke
+  - Sloper
+  - Quidditch ban
+  quote_excerpt_short: "banned as long as Umbridge is in the school"
+  source_note: The chapter follows the practical effects of High Inquisitor Quidditch bans into an actual House match, with replacement players, altered team performance, and a student understanding that the ban depends on Umbridge's authority.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch
+  - gryffindor-team
+  - hufflepuff
+  - ginny-weasley
+  - quidditch-ban
+  - high-inquisitor
+  - school-recreation
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Replacement players after High Inquisitor sanctions
+  reason_for_placement: The passage records how disciplinary governance affected House sport, team composition, and match results.
+  relevance_to_hogwarts_a_history: This is useful for a later edition's account of how ordinary recreational institutions continued while distorted by Ministry intervention.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch21-005
+    - ootp-ch19-007
+    notes: ootp-ch21-005 records the replacement team selection, and ootp-ch19-007 records the decree-backed Quidditch bans; this entry adds the subsequent match result and Ginny's interpretation of the ban's dependence on Umbridge.
+  confidence: high
+  limitations: The match is summarized after the fact rather than narrated play by play.
 - id: ootp-ch26-005
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Order of the Phoenix
   chapter: Chapter Twenty-Six - Seen and Unforeseen
   chapter_start_pdf_page: 2118
   chapter_end_pdf_page: 2144
-  pdf_page: 2123
+  pdf_page: 2137
   printed_page: null
-  extracted_text_lines: 101-190
-  text_anchor:
-    start_phrase: So, how was Quidditch practice?
-    end_phrase: favorites to win the Quidditch Cup
-    local_occurrence_note: Gryffindor practice struggles without banned players, then the team loses narrowly to Hufflepuff despite Ginny catching the Snitch.
-  nearby_context: Fred and George observe the weak practice, Hermione comments on inter-House tension, and Slytherin supporters sing "Weasley Is Our King" after the match.
-  match_terms:
-  - Gryffindor Quidditch
-  - Hufflepuff
-  - Ginny Weasley
-  - Ron Weasley
-  - Quidditch Cup
-  - Slytherin
-  quote_excerpt_short: "Gryffindor only lost by ten points"
-  source_note: The disrupted Gryffindor team plays Hufflepuff with replacement personnel, confirming Ginny's temporary Seeker role, Ron's ongoing Keeper crisis, and changing Cup standings.
-  reference_type: institutional_custom
-  era_classification: harry_era_confirmation
-  topic_tags:
-  - quidditch
-  - gryffindor
-  - hufflepuff
-  - ginny-weasley
-  - keeper
-  - quidditch-cup
-  - house-rivalry
-  candidate_part: Quidditch and School Recreation
-  candidate_chapter: House Quidditch Teams
-  candidate_section: Replacement players and Hufflepuff match results
-  reason_for_placement: The passage documents consequences of Umbridge's bans for team composition, match results, and House Cup rivalry.
-  relevance_to_hogwarts_a_history: This supports a later account of the unusually disrupted 1995-1996 Quidditch season and how House sport continued under political interference.
-  duplicate_check:
-    possible_duplicate: true
-    duplicate_of:
-    - ootp-ch13-007
-    - ootp-ch17-004
-    - ootp-ch19-003
-    notes: ootp-ch13-007 records Keeper selection, ootp-ch17-004 records High Inquisitor team control, and ootp-ch19-003 records season resumption; this entry adds the post-ban Hufflepuff match and Ginny's Seeker performance.
-  confidence: high
-  limitations: The scoring account is from Harry's perspective as a spectator and focuses on Gryffindor more than the full Hufflepuff team.
-- id: ootp-ch26-006
-  source_file: pdfs/harrypotter.pdf
-  book: Harry Potter and the Order of the Phoenix
-  chapter: Chapter Twenty-Six - Seen and Unforeseen
-  chapter_start_pdf_page: 2118
-  chapter_end_pdf_page: 2144
-  pdf_page: 2138
-  printed_page: null
-  extracted_text_lines: 637-724
+  extracted_text_lines: 638-724
   text_anchor:
     start_phrase: yet again, kneeling on the floor of Snape's office
     end_phrase: there is no doubt that it was effective
-    local_occurrence_note: During a private Occlumency lesson, Harry resists Legilimency with Protego and briefly sees Snape's memories.
-  nearby_context: Snape questions Harry about a Voldemort/Rookwood dream, references Harry's lack of progress after two months, and checks the Pensieve after the rebound.
+    local_occurrence_note: During a later Occlumency lesson, Harry repels Snape with a Shield Charm and briefly enters Snape's memories.
+  nearby_context: Snape questions Harry's dreams, confirms his intelligence role, attacks with Legilimency, repairs a broken jar, and checks the Pensieve holding some of his thoughts.
   match_terms:
   - Occlumency
   - Legilimency
-  - Protego
-  - Shield Charm
   - Snape's office
+  - Shield Charm
   - Pensieve
+  - memories
   quote_excerpt_short: "that was certainly an improvement"
-  source_note: A Shield Charm can interrupt a Legilimency exercise during private Occlumency training, briefly exposing the teacher's memories and showing the Pensieve in active protective use.
+  source_note: "The private Occlumency lessons become reciprocal and risky: a Shield Charm can disrupt Legilimency, expose the teacher's memories, and require use of the Pensieve during instruction."
   reference_type: curriculum_or_subject
   era_classification: later_editorial_note
   topic_tags:
@@ -271,20 +230,21 @@ entries:
   - snape-office
   - memory-magic
   - private-lessons
-  candidate_part: Later Editorial Notes
-  candidate_chapter: Defense, Mind Magic, and the Umbridge Year
-  candidate_section: Occlumency practice and Shield Charm rebound
-  reason_for_placement: The passage adds a concrete classroom-like exercise, failure mode, and countermeasure to earlier mind-magic testimony.
-  relevance_to_hogwarts_a_history: A later edition could use this as rare evidence for emergency private instruction in advanced mind magic inside Hogwarts.
+  candidate_part: Defense, Mind Magic, and the Umbridge Year
+  candidate_chapter: Private Occlumency Instruction
+  candidate_section: Shield Charm reversal and Pensieve safeguards
+  reason_for_placement: The evidence expands the school-based account of emergency mental-defense instruction with practical risks and safeguards.
+  relevance_to_hogwarts_a_history: A later edition could use this as a special wartime teaching case where ordinary staff office space becomes a controlled setting for advanced defensive mind magic.
   duplicate_check:
     possible_duplicate: true
     duplicate_of:
+    - ootp-ch24-001
     - ootp-ch24-005
     - gof-ch30-002
-    notes: ootp-ch24-005 records Snape's core Occlumency and Legilimency explanation, and gof-ch30-002 identifies the Pensieve; this entry adds a Protego rebound during instruction.
+    notes: ootp-ch24-001 records the private lesson arrangement, ootp-ch24-005 records Snape's explanation of Occlumency and Legilimency, and gof-ch30-002 identifies the Pensieve; this entry adds the Shield Charm reversal and Snape's use of stored thoughts during lessons.
   confidence: high
-  limitations: The lesson is secret, exceptional, and hostile; it should not be treated as a standard curriculum method.
-- id: ootp-ch26-007
+  limitations: The instruction is secret and exceptional, not part of the regular Hogwarts curriculum.
+- id: ootp-ch26-006
   source_file: pdfs/harrypotter.pdf
   book: Harry Potter and the Order of the Phoenix
   chapter: Chapter Twenty-Six - Seen and Unforeseen
@@ -292,43 +252,90 @@ entries:
   chapter_end_pdf_page: 2144
   pdf_page: 2143
   printed_page: null
-  extracted_text_lines: 792-903
+  extracted_text_lines: 792-861
   text_anchor:
     start_phrase: Professor Trelawney was standing in the middle of the entrance hall
-    end_phrase: I think you'll find him suitable
-    local_occurrence_note: Umbridge dismisses Trelawney in the entrance hall, but Dumbledore keeps her resident and introduces Firenze as the new Divination teacher.
-  nearby_context: Umbridge cites Decree Twenty-three and a Minister-countersigned dismissal order; Dumbledore distinguishes dismissal authority from castle-residence authority and uses Decree Twenty-two's appointment condition.
+    end_phrase: continue to live at Hogwarts
+    local_occurrence_note: Umbridge attempts to remove Trelawney after dismissal, and Dumbledore distinguishes dismissal authority from the authority to expel her from the castle.
+  nearby_context: Trelawney says she has been at Hogwarts sixteen years, McGonagall intervenes, and Dumbledore asserts the headmaster's control over castle residence.
   match_terms:
   - Professor Trelawney
-  - Professor Umbridge
-  - Dumbledore
+  - Order of Dismissal
   - Educational Decree Number Twenty-three
-  - Educational Decree Twenty-two
-  - Firenze
-  - Divination
-  quote_excerpt_short: "the power to do that still resides with the headmaster"
-  source_note: The High Inquisitor can dismiss a teacher under Decree Twenty-three, but the headmaster retains authority over castle residence and can appoint a replacement if he finds one first.
+  - High Inquisitor
+  - headmaster
+  - Hogwarts residence
+  quote_excerpt_short: "power to do that still resides with the headmaster"
+  source_note: Educational Decree Twenty-three lets the High Inquisitor dismiss teachers, but Dumbledore asserts that the headmaster retains authority over whether a dismissed teacher may remain in the castle.
   reference_type: school_rule_or_policy
   era_classification: later_editorial_note
   topic_tags:
   - professor-trelawney
-  - divination
+  - educational-decrees
   - high-inquisitor
-  - dumbledore
-  - teacher-dismissal
+  - staff-dismissal
   - headmaster-authority
-  - firenze
+  - castle-residence
+  - school-governance
   candidate_part: Later Editorial Notes
   candidate_chapter: Headmasters and School Authority
-  candidate_section: Dismissal, residence, and replacement appointments
-  reason_for_placement: The scene directly defines the boundary between Ministry dismissal power and headmaster control over residence and appointments.
-  relevance_to_hogwarts_a_history: A later edition can use this as a key governance case showing how old headmaster prerogatives survived even under the High Inquisitor regime.
+  candidate_section: Teacher dismissal versus castle residence
+  reason_for_placement: The confrontation draws a precise line between Ministry-backed dismissal powers and remaining headmaster authority within the castle.
+  relevance_to_hogwarts_a_history: This is central evidence for the Umbridge-year governance conflict and the residual institutional powers of the headmaster.
   duplicate_check:
     possible_duplicate: true
     duplicate_of:
-    - ootp-ch15-003
-    - ootp-ch17-006
     - ootp-ch25-004
-    notes: ootp-ch15-003 records Trelawney's inspection, ootp-ch17-006 records probation, and ootp-ch25-004 records continuing observation; this entry adds formal dismissal, residence authority, and Firenze's appointment.
+    - ootp-ch15-001
+    - ootp-ch20-006
+    notes: ootp-ch25-004 records Trelawney's probationary inspection pressure, ootp-ch15-001 records the High Inquisitor role, and ootp-ch20-006 records similar scrutiny of Hagrid; this entry adds the actual dismissal and Dumbledore's castle-residence counterauthority.
   confidence: high
-  limitations: This is an Umbridge-era legal clash; it does not fully explain ordinary staff housing rules outside the crisis.
+  limitations: The passage concerns one crisis under Ministry pressure and should not be generalized to normal staff termination practice without further evidence.
+- id: ootp-ch26-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Six - Seen and Unforeseen
+  chapter_start_pdf_page: 2118
+  chapter_end_pdf_page: 2144
+  pdf_page: 2144
+  printed_page: null
+  extracted_text_lines: 880-903
+  text_anchor:
+    start_phrase: And what
+    end_phrase: I think you'll find him suitable
+    local_occurrence_note: Dumbledore reveals that he has already found a replacement Divination teacher, Firenze, before Umbridge can appoint one.
+  nearby_context: Umbridge invokes Educational Decree Twenty-two, but Dumbledore quotes the condition that Ministry appointment applies only if the headmaster cannot find a suitable candidate.
+  match_terms:
+  - Educational Decree Twenty-two
+  - Divination teacher
+  - headmaster
+  - Ministry
+  - Firenze
+  - ground floor lodgings
+  - centaur
+  quote_excerpt_short: "if - and only if - the headmaster is unable"
+  source_note: Dumbledore uses the conditional wording of Educational Decree Twenty-two to appoint Firenze as Divination teacher before the Ministry can fill the post.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - educational-decrees
+  - teacher-appointments
+  - divination
+  - firenze
+  - centaurs
+  - headmaster-authority
+  - ministry-intervention
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Conditional Ministry appointment power and Firenze
+  reason_for_placement: The passage gives a practical application of a decree's limiting clause and records an unusual staff appointment.
+  relevance_to_hogwarts_a_history: A later edition can use this to show both the limits of Ministry intervention and Hogwarts' capacity to appoint a non-human Divination teacher under crisis conditions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch15-001
+    - gof-ch12-006
+    - gof-ch24-007
+    notes: ootp-ch15-001 records the Umbridge-era decrees and Ministry intervention, gof-ch12-006 records a formal staff appointment, and gof-ch24-007 records Dumbledore's discretion over staff continuity; this entry adds the Decree Twenty-two limiting clause and Firenze's appointment to Divination.
+  confidence: high
+  limitations: The chapter ends at Firenze's introduction, so his classroom practice and housing arrangement require the next chapter for confirmation.

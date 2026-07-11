@@ -1181,6 +1181,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+  castle-residence:
+    entries:
+    - ootp-ch26-006
+    output_yaml:
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   castle-search:
     entries:
     - poa-ch09-004
@@ -1280,11 +1285,13 @@ tags:
     entries:
     - cos-ch15-003
     - ootp-ch09-002
+    - ootp-ch26-007
     - ps-ch15-006
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   ceremonial-duty:
     entries:
     - gof-ch22-002
@@ -1699,6 +1706,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  concealment-charms:
+    entries:
+    - ootp-ch26-003
+    output_yaml:
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   confidentiality:
     entries:
     - poa-ch18-007
@@ -2102,7 +2114,6 @@ tags:
     - ootp-ch14-003
     - ootp-ch25-001
     - ootp-ch25-007
-    - ootp-ch26-001
     - poa-ch12-003
     - poa-ch19-004
     output_yaml:
@@ -2121,7 +2132,6 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   dangerous-creatures:
     entries:
     - poa-ch11-001
@@ -2515,7 +2525,6 @@ tags:
     - ootp-ch12-007
     - ootp-ch13-006
     - ootp-ch15-004
-    - ootp-ch26-002
     - poa-ch09-005
     - poa-ch13-004
     - poa-ch14-002
@@ -2536,7 +2545,6 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   devil's-snare:
     entries:
     - ps-ch16-005
@@ -2934,7 +2942,6 @@ tags:
     - ootp-ch23-003
     - ootp-ch24-001
     - ootp-ch24-004
-    - ootp-ch26-007
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -3031,7 +3038,6 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-24-occlumency.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3157,8 +3163,10 @@ tags:
     - ootp-ch18-002
     - ootp-ch19-007
     - ootp-ch25-003
+    - ootp-ch26-002
     - ootp-ch26-003
-    - ootp-ch26-004
+    - ootp-ch26-006
+    - ootp-ch26-007
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -3452,7 +3460,7 @@ tags:
     - ootp-ch02-002
     - ootp-ch08-007
     - ootp-ch17-001
-    - ootp-ch26-003
+    - ootp-ch26-002
     - poa-ch02-003
     - poa-ch03-001
     - ps-ch04-007
@@ -4278,7 +4286,7 @@ tags:
     - cos-ch17-002
     - cos-ch18-002
     - ootp-ch21-005
-    - ootp-ch26-005
+    - ootp-ch26-004
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -4603,7 +4611,6 @@ tags:
     - ootp-ch19-003
     - ootp-ch19-004
     - ootp-ch19-005
-    - ootp-ch26-005
     - poa-ch12-004
     - poa-ch13-003
     - poa-ch15-005
@@ -4643,7 +4650,6 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   gryffindor-common-room:
     entries:
     - ootp-ch14-007
@@ -4673,11 +4679,13 @@ tags:
     entries:
     - ootp-ch14-004
     - ootp-ch21-005
+    - ootp-ch26-004
     - poa-ch13-001
     output_yaml:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   gryffindor-tower:
     entries:
     - cos-ch05-006
@@ -5104,6 +5112,7 @@ tags:
     - ootp-ch02-003
     - ootp-ch22-002
     - ootp-ch23-002
+    - ootp-ch26-006
     - ootp-ch26-007
     - poa-ch09-004
     - poa-ch11-002
@@ -5401,8 +5410,8 @@ tags:
     - ootp-ch25-003
     - ootp-ch25-004
     - ootp-ch26-002
-    - ootp-ch26-003
-    - ootp-ch26-007
+    - ootp-ch26-004
+    - ootp-ch26-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -5539,10 +5548,8 @@ tags:
   hogsmeade-trip:
     entries:
     - ootp-ch24-003
-    - ootp-ch26-002
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   hogsmeade-weekend:
     entries:
     - gof-ch27-002
@@ -6158,7 +6165,7 @@ tags:
     - gof-ch18-004
     - ootp-ch12-007
     - ootp-ch15-004
-    - ootp-ch26-002
+    - ootp-ch26-003
     - poa-ch07-001
     - poa-ch07-007
     - poa-ch09-005
@@ -6196,12 +6203,10 @@ tags:
     entries:
     - ootp-ch19-004
     - ootp-ch19-005
-    - ootp-ch26-005
     - poa-ch15-005
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   house-robes:
     entries:
     - cos-ch10-003
@@ -6299,7 +6304,7 @@ tags:
     - gof-ch15-004
     - gof-ch18-002
     - gof-ch36-002
-    - ootp-ch26-005
+    - ootp-ch26-004
     - poa-ch09-006
     - ps-ch05-006
     - ps-ch13-002
@@ -6414,8 +6419,8 @@ tags:
   information-control:
     entries:
     - ootp-ch25-003
+    - ootp-ch26-002
     - ootp-ch26-003
-    - ootp-ch26-004
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
@@ -6725,12 +6730,10 @@ tags:
     - cos-ch07-001
     - ootp-ch13-007
     - ootp-ch14-004
-    - ootp-ch26-005
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   keeper-of-keys:
     entries:
     - ps-ch04-001
@@ -6874,7 +6877,7 @@ tags:
   legilimency:
     entries:
     - ootp-ch24-005
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
@@ -7133,11 +7136,9 @@ tags:
     - ootp-ch10-005
     - ootp-ch10-007
     - ootp-ch19-005
-    - ootp-ch26-001
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   lupin:
     entries:
     - poa-ch08-005
@@ -7361,11 +7362,9 @@ tags:
     - sources/book-01/chapter-02-vanishing-glass.yaml
   magical-concealment:
     entries:
-    - ootp-ch26-004
     - ps-ch05-003
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   magical-contract:
     entries:
     - gof-ch16-003
@@ -7922,7 +7921,7 @@ tags:
     - cos-ch13-004
     - gof-ch30-002
     - ootp-ch24-004
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
@@ -8010,8 +8009,10 @@ tags:
   ministry-censorship:
     entries:
     - ootp-ch25-007
+    - ootp-ch26-001
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   ministry-classification:
     entries:
     - ootp-ch21-002
@@ -8065,6 +8066,7 @@ tags:
     - ootp-ch15-001
     - ootp-ch17-005
     - ootp-ch20-006
+    - ootp-ch26-007
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
@@ -8074,6 +8076,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -8758,7 +8761,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
   notice-boards:
     entries:
-    - ootp-ch26-003
+    - ootp-ch26-002
     output_yaml:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   nymphadora-tonks:
@@ -8775,7 +8778,7 @@ tags:
     entries:
     - ootp-ch24-001
     - ootp-ch24-005
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
@@ -9264,7 +9267,7 @@ tags:
     entries:
     - gof-ch30-002
     - ootp-ch24-004
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-24-occlumency.yaml
@@ -9846,7 +9849,7 @@ tags:
   private-lessons:
     entries:
     - ootp-ch24-001
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
@@ -10096,7 +10099,7 @@ tags:
     - ootp-ch15-003
     - ootp-ch17-006
     - ootp-ch25-004
-    - ootp-ch26-007
+    - ootp-ch26-006
     - poa-ch06-003
     - poa-ch06-004
     - poa-ch16-005
@@ -10206,11 +10209,9 @@ tags:
     entries:
     - ootp-ch04-007
     - ootp-ch11-007
-    - ootp-ch26-001
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   punishment:
     entries:
     - cos-ch08-002
@@ -10274,8 +10275,8 @@ tags:
     - ootp-ch10-005
     - ootp-ch25-007
     - ootp-ch26-001
+    - ootp-ch26-002
     - ootp-ch26-003
-    - ootp-ch26-004
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
@@ -10301,7 +10302,7 @@ tags:
     - ootp-ch19-003
     - ootp-ch19-006
     - ootp-ch21-005
-    - ootp-ch26-005
+    - ootp-ch26-004
     - poa-ch01-007
     - poa-ch02-004
     - poa-ch08-002
@@ -10345,9 +10346,11 @@ tags:
     entries:
     - ootp-ch19-007
     - ootp-ch21-005
+    - ootp-ch26-004
     output_yaml:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   quidditch-books:
     entries:
     - gof-ch02-002
@@ -10356,7 +10359,6 @@ tags:
   quidditch-cup:
     entries:
     - ootp-ch19-003
-    - ootp-ch26-005
     - poa-ch08-002
     - poa-ch09-006
     - poa-ch12-004
@@ -10368,7 +10370,6 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   quidditch-field:
     entries:
     - gof-ch28-004
@@ -10843,7 +10844,6 @@ tags:
     - gof-ch05-004
     - gof-ch13-006
     - ootp-ch13-006
-    - ootp-ch26-002
     - ps-ch10-005
     - ps-ch11-003
     output_yaml:
@@ -10852,7 +10852,6 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   school-emergency:
     entries:
     - cos-ch10-006
@@ -10888,6 +10887,8 @@ tags:
     - ootp-ch19-007
     - ootp-ch23-003
     - ootp-ch25-003
+    - ootp-ch26-002
+    - ootp-ch26-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -10902,6 +10903,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -11042,8 +11044,10 @@ tags:
   school-recreation:
     entries:
     - ootp-ch14-004
+    - ootp-ch26-004
     output_yaml:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   school-representatives:
     entries:
     - gof-ch22-002
@@ -11455,7 +11459,7 @@ tags:
   shield-charm:
     entries:
     - ootp-ch25-005
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
@@ -11725,7 +11729,7 @@ tags:
     entries:
     - gof-ch27-004
     - ootp-ch24-004
-    - ootp-ch26-006
+    - ootp-ch26-005
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-24-occlumency.yaml
@@ -11991,6 +11995,11 @@ tags:
     - ootp-ch24-001
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  staff-dismissal:
+    entries:
+    - ootp-ch26-006
+    output_yaml:
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   staff-duties:
     entries:
     - cos-ch16-004
@@ -12073,11 +12082,6 @@ tags:
     - poa-ch22-003
     output_yaml:
     - sources/book-03/chapter-22-owl-post-again.yaml
-  staff-resistance:
-    entries:
-    - ootp-ch26-004
-    output_yaml:
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   staff-response:
     entries:
     - cos-ch11-006
@@ -12311,6 +12315,7 @@ tags:
     - gof-ch15-001
     - gof-ch18-001
     - ootp-ch01-001
+    - ootp-ch26-001
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -12318,6 +12323,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   student-culture:
     entries:
     - ootp-ch19-005
@@ -12623,8 +12629,10 @@ tags:
   student-resistance:
     entries:
     - gof-ch34-002
+    - ootp-ch26-003
     output_yaml:
     - sources/book-04/chapter-34-priori-incantatem.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   student-rights:
     entries:
     - ootp-ch18-001
@@ -12637,11 +12645,6 @@ tags:
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
-  student-rumor:
-    entries:
-    - ootp-ch26-003
-    output_yaml:
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   student-safety:
     entries:
     - cos-ch13-007
@@ -12703,11 +12706,6 @@ tags:
     - gof-ch31-002
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
-  student-speech:
-    entries:
-    - ootp-ch26-002
-    output_yaml:
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -12955,6 +12953,7 @@ tags:
     - gof-ch12-006
     - ootp-ch09-004
     - ootp-ch11-002
+    - ootp-ch26-007
     - poa-ch05-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
@@ -12962,6 +12961,7 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   teacher-authority:
     entries:
     - ootp-ch20-006
@@ -12973,11 +12973,6 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
-  teacher-dismissal:
-    entries:
-    - ootp-ch26-007
-    output_yaml:
-    - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   teacher-escorts:
     entries:
     - cos-ch14-004
@@ -13021,7 +13016,7 @@ tags:
   teacher-speech:
     entries:
     - ootp-ch25-003
-    - ootp-ch26-004
+    - ootp-ch26-003
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
@@ -13594,8 +13589,7 @@ tags:
     - ootp-ch23-003
     - ootp-ch24-001
     - ootp-ch24-006
-    - ootp-ch26-002
-    - ootp-ch26-004
+    - ootp-ch26-001
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml

@@ -20,8 +20,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 346
-- later_editorial_note: 362
+- harry_era_confirmation: 345
+- later_editorial_note: 363
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 58
@@ -47,7 +47,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 590
+- Total: 591
 
 ## Latest Processed Unit
 

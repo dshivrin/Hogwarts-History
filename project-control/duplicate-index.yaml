@@ -12433,41 +12433,24 @@ entries:
     account in The Quibbler.
   output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
 - entry_id: ootp-ch26-001
-  canonical_topic: the-second-war-and-hogwarts-information-climate-the-quibbler-interview-reaches-the-great-hall
+  canonical_topic: the-second-war-and-hogwarts-information-climate-alternative-press-reaches-hogwarts-by-owl-post
   tags:
-  - daily-prophet
   - great-hall
-  - luna-lovegood
+  - ministry-censorship
   - owl-post
-  - public-opinion
   - quibbler
+  - student-correspondence
+  - umbridge
   - wizarding-press
   book: Harry Potter and the Order of the Phoenix
   chapter_number: 26
   chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: The Quibbler functions as an alternative in-universe press channel
-    reaching Hogwarts by owl post, producing immediate student attention and reader-response
-    evidence about public belief.
+  source_note: The Great Hall owl-post scene shows a banned-adjacent alternative-press
+    article entering Hogwarts publicly, drawing student attention and immediate High
+    Inquisitor scrutiny.
   output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
 - entry_id: ootp-ch26-002
-  canonical_topic: headmasters-and-school-authority-discipline-for-unauthorized-public-speech
-  tags:
-  - detention
-  - high-inquisitor
-  - hogsmeade-trip
-  - house-points
-  - school-discipline
-  - student-speech
-  - umbridge
-  book: Harry Potter and the Order of the Phoenix
-  chapter_number: 26
-  chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: Umbridge uses direct disciplinary authority to punish a student for
-    unauthorized public speech, combining privilege withdrawal, point loss, and additional
-    detentions.
-  output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
-- entry_id: ootp-ch26-003
-  canonical_topic: headmasters-and-school-authority-educational-decree-number-twenty-seven-and-banned-publications
+  canonical_topic: headmasters-and-school-authority-high-inquisitor-possession-bans-and-expulsion-threats
   tags:
   - educational-decrees
   - expulsion
@@ -12475,49 +12458,50 @@ entries:
   - information-control
   - notice-boards
   - quibbler
-  - student-rumor
+  - school-governance
   book: Harry Potter and the Order of the Phoenix
   chapter_number: 26
   chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: Educational Decree Number Twenty-seven forbids student possession of
-    The Quibbler, posting the expulsion threat across school spaces and unintentionally
-    increasing readership.
+  source_note: The High Inquisitor bans possession of The Quibbler across the school
+    and threatens expulsion, extending Ministry information control to school spaces
+    and student property.
+  output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+- entry_id: ootp-ch26-003
+  canonical_topic: the-second-war-and-hogwarts-information-climate-student-and-staff-workarounds-under-information-control
+  tags:
+  - concealment-charms
+  - educational-decrees
+  - house-points
+  - information-control
+  - quibbler
+  - student-resistance
+  - teacher-speech
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 26
+  chapter_title: Chapter Twenty-Six - Seen and Unforeseen
+  source_note: Students evade the Quibbler ban with concealment charms, while teachers
+    forbidden by Decree Twenty-six still show indirect support through ordinary school
+    mechanisms.
   output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
 - entry_id: ootp-ch26-004
-  canonical_topic: the-second-war-and-hogwarts-information-climate-student-and-staff-workarounds-under-censorship
-  tags:
-  - educational-decrees
-  - information-control
-  - magical-concealment
-  - quibbler
-  - staff-resistance
-  - teacher-speech
-  - umbridge
-  book: Harry Potter and the Order of the Phoenix
-  chapter_number: 26
-  chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: Students use magical concealment to evade searches for a banned publication,
-    while teachers work around Decree Twenty-six with indirect gestures of support.
-  output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
-- entry_id: ootp-ch26-005
-  canonical_topic: house-quidditch-teams-replacement-players-and-hufflepuff-match-results
+  canonical_topic: house-quidditch-teams-replacement-players-after-high-inquisitor-sanctions
   tags:
   - ginny-weasley
-  - gryffindor
-  - house-rivalry
+  - gryffindor-team
+  - high-inquisitor
   - hufflepuff
-  - keeper
   - quidditch
-  - quidditch-cup
+  - quidditch-ban
+  - school-recreation
   book: Harry Potter and the Order of the Phoenix
   chapter_number: 26
   chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: The disrupted Gryffindor team plays Hufflepuff with replacement personnel,
-    confirming Ginny's temporary Seeker role, Ron's ongoing Keeper crisis, and changing
-    Cup standings.
+  source_note: The chapter follows the practical effects of High Inquisitor Quidditch
+    bans into an actual House match, with replacement players, altered team performance,
+    and a student understanding that the ban depends on Umbridge's authority.
   output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
-- entry_id: ootp-ch26-006
-  canonical_topic: defense-mind-magic-and-the-umbridge-year-occlumency-practice-and-shield-charm-rebound
+- entry_id: ootp-ch26-005
+  canonical_topic: private-occlumency-instruction-shield-charm-reversal-and-pensieve-safeguards
   tags:
   - legilimency
   - memory-magic
@@ -12529,24 +12513,40 @@ entries:
   book: Harry Potter and the Order of the Phoenix
   chapter_number: 26
   chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: A Shield Charm can interrupt a Legilimency exercise during private
-    Occlumency training, briefly exposing the teacher's memories and showing the Pensieve
-    in active protective use.
+  source_note: 'The private Occlumency lessons become reciprocal and risky: a Shield
+    Charm can disrupt Legilimency, expose the teacher''s memories, and require use
+    of the Pensieve during instruction.'
   output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
-- entry_id: ootp-ch26-007
-  canonical_topic: headmasters-and-school-authority-dismissal-residence-and-replacement-appointments
+- entry_id: ootp-ch26-006
+  canonical_topic: headmasters-and-school-authority-teacher-dismissal-versus-castle-residence
   tags:
-  - divination
-  - dumbledore
-  - firenze
+  - castle-residence
+  - educational-decrees
   - headmaster-authority
   - high-inquisitor
   - professor-trelawney
-  - teacher-dismissal
+  - school-governance
+  - staff-dismissal
   book: Harry Potter and the Order of the Phoenix
   chapter_number: 26
   chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  source_note: The High Inquisitor can dismiss a teacher under Decree Twenty-three,
-    but the headmaster retains authority over castle residence and can appoint a replacement
-    if he finds one first.
+  source_note: Educational Decree Twenty-three lets the High Inquisitor dismiss teachers,
+    but Dumbledore asserts that the headmaster retains authority over whether a dismissed
+    teacher may remain in the castle.
+  output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+- entry_id: ootp-ch26-007
+  canonical_topic: headmasters-and-school-authority-conditional-ministry-appointment-power-and-firenze
+  tags:
+  - centaurs
+  - divination
+  - educational-decrees
+  - firenze
+  - headmaster-authority
+  - ministry-intervention
+  - teacher-appointments
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 26
+  chapter_title: Chapter Twenty-Six - Seen and Unforeseen
+  source_note: Dumbledore uses the conditional wording of Educational Decree Twenty-two
+    to appoint Firenze as Divination teacher before the Ministry can fill the post.
   output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
