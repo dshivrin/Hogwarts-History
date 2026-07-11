@@ -3983,6 +3983,19 @@ Summary: The available evidence includes 1 source item, led by: Phineas Nigellus
   - Corroborates: `ootp-ch22-002`. ootp-ch22-002 records Dumbledore's explanation of multi-institution portrait travel and service to the headmaster; this entry adds Phineas's practical use at Grimmauld Place to deliver an order and observe Harry.
   - Notes: Harry infers the watch-over function; the message delivery itself is direct.
 
+### Chapter: Hogwarts House-Elves
+
+#### Section: House-elf warning under High Inquisitor pressure
+
+Summary: The available evidence includes 1 source item, led by: Dobby reveals that Hogwarts house-elves know about Umbridge's raid but have been warned not to tell, then obeys Harry's direct order to return to the kitchens and lie if asked.
+
+- **Context:** Dobby reveals that Hogwarts house-elves know about Umbridge's raid but have been warned not to tell, then obeys Harry's direct order to return to the kitchens and lie if asked.
+  - Quote: "Dobby has come to warn you"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2153, `ootp-ch27-005`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source does not identify who warned the house-elves not to tell or whether all Hogwarts elves shared Dobby's willingness to help.
+
 ### Chapter: House-Elves and Hidden Labor
 
 #### Section: Clothing, freedom, and Hogwarts service spaces
@@ -4025,6 +4038,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter esta
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: direct_observed_setting
   - Notes: The species name Acromantula is not stated in this chapter; classification should be cross-checked against later sources.
+
+#### Section: Centaur autonomy and Firenze's banishment
+
+Summary: The available evidence includes 1 source item, led by: Firenze identifies the Forbidden Forest as his former home, says his herd banished him for working for Dumbledore, and rejects student assumptions that centaurs are human servants.
+
+- **Corroboration:** Firenze identifies the Forbidden Forest as his former home, says his herd banished him for working for Dumbledore, and rejects student assumptions that centaurs are human servants.
+  - Quote: "My herd has banished me."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2147, `ootp-ch27-002`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ps-ch15-006`, `ootp-ch26-007`. ps-ch15-006 establishes centaurs as Forbidden Forest residents, and ootp-ch26-007 records Firenze's appointment; this entry adds herd banishment and centaur objections to human employment.
+  - Notes: Firenze speaks from his own situation; the passage does not provide a full centaur law code or formal agreement with Hogwarts.
 
 #### Section: Centaurs in the Forbidden Forest
 
@@ -4224,6 +4249,18 @@ Summary: The available evidence includes 2 source items, led by: Hermione explic
   - Reference type: security_or_protection
   - Corroborates: `poa-ch09-001`. Book 3 Chapter Nine records Hermione's explicit Hogwarts: A History citation for anti-Apparition and anti-intrusion protections; this entry adds Snape's crisis confirmation that the rule applies inside the castle.
   - Notes: The passage confirms the castle interior but does not define whether the same protection covers all grounds or authorized exceptions.
+
+#### Section: Phoenix escape and anti-Disapparition confirmation
+
+Summary: The available evidence includes 1 source item, led by: The headmaster's office crisis confirms active portrait witnesses, Dumbledore's use of Fawkes as an escape route, and a fresh statement that Disapparition is impossible inside Hogwarts.
+
+- **Corroboration:** The headmaster's office crisis confirms active portrait witnesses, Dumbledore's use of Fawkes as an escape route, and a fresh statement that Disapparition is impossible inside Hogwarts.
+  - Quote: "You can't inside this school"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2167, `ootp-ch27-007`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `poa-ch09-001`, `poa-ch22-001`, `ootp-ch22-002`. poa-ch09-001 and poa-ch22-001 record anti-Apparition protections, while ootp-ch22-002 records headmaster portrait operations; this entry adds Fawkes-mediated escape from the headmaster's office.
+  - Notes: The passage confirms a protection by character statement rather than by technical explanation, and it does not define how phoenix travel relates to Apparition.
 
 ### Chapter: The Chamber of Secrets Crisis
 
@@ -6549,6 +6586,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter defi
   - Corroborates: `cos-ch04-004`. Chapter Four seeded Lucius Malfoy's blood-status prejudice around Hermione's exam performance; this entry adds the explicit slur, student reaction, and Ron's explanation of Muggle-born, pure-blood, and half-blood terms.
   - Notes: Ron's explanation is informal; later sources should confirm terminology history and distinguish social prejudice from school policy.
 
+### Chapter: Classrooms, Towers, and Teaching Spaces
+
+#### Section: Classroom eleven and Firenze's adapted Divination room
+
+Summary: The available evidence includes 1 source item, led by: Firenze's Divination class is relocated from North Tower to ground-floor classroom eleven, which Dumbledore has magically arranged as a forest clearing suited to a centaur teacher.
+
+- **Context:** Firenze's Divination class is relocated from North Tower to ground-floor classroom eleven, which Dumbledore has magically arranged as a forest clearing suited to a centaur teacher.
+  - Quote: "We're in classroom eleven now"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2146, `ootp-ch27-001`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The scene does not explain whether the transformation is permanent, a charm by Dumbledore, or a feature of classroom eleven itself.
+
 ### Chapter: Crisis Evidence and Student Care
 
 #### Section: Immediate Survivor Account in the Headmaster's Office
@@ -6970,6 +7020,18 @@ Summary: The available evidence includes 1 source item, led by: The Prophet repo
   - Reference type: school_rule_or_policy
   - Corroborates: `gof-ch36-005`, `ootp-ch11-006`, `ootp-ch12-006`, `ootp-ch14-006`. gof-ch36-005 records Fudge's earlier governance threat, ootp-ch11-006 records Umbridge's coded policy speech, ootp-ch12-006 records the classroom curriculum effect, and ootp-ch14-006 records prefect-level pressure; this entry adds the named decrees and High Inquisitor inspection office.
   - Notes: The account is filtered through the Daily Prophet and Percy Weasley, so hostile framing and Ministry spin should be separated from the formal decree facts.
+
+#### Section: Enforcement of Decree Twenty-four against the D.A.
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's case against the D.A. combines a student informant, Floo-policing family connections, prior Hog's Head testimony, Decree Twenty-four timing, and a recovered membership list.
+
+- **Corroboration:** Umbridge's case against the D.A. combines a student informant, Floo-policing family connections, prior Hog's Head testimony, Decree Twenty-four timing, and a recovered membership list.
+  - Quote: "I have all their names here"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2158, `ootp-ch27-006`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch17-001`, `ootp-ch18-002`. ootp-ch17-001 records the decree disbanding student organizations, and ootp-ch18-002 records its House-team approval effects; this entry adds the D.A. enforcement case, informants, and evidence list.
+  - Notes: Umbridge's account is adversarial and partly undermined by Marietta's silence and Kingsley's memory modification.
 
 #### Section: High Inquisitor inspections and Care of Magical Creatures
 
@@ -7427,6 +7489,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: cross_reference_candidate
   - Corroborates: `cos-ch02-005`. Book 2 Chapter Two gives the official underage-magic and secrecy-law warning; this entry adds a later Muggle-household incident involving a student-made Engorgement Charm product.
   - Notes: The chapter does not state when or where the charm was performed, nor whether any Ministry or Hogwarts discipline followed.
+
+### Chapter: Student Resistance and Practical Defense
+
+#### Section: D.A. Patronus instruction in the Room of Requirement
+
+Summary: The available evidence includes 1 source item, led by: The D.A. advances to Patronus practice in the Room of Requirement, with Harry teaching defensive context and several students producing vapor or corporeal forms.
+
+- **Context:** The D.A. advances to Patronus practice in the Room of Requirement, with Harry teaching defensive context and several students producing vapor or corporeal forms.
+  - Quote: "started work on Patronuses"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2151, `ootp-ch27-004`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The scene records bright-room practice, and Harry explicitly warns that it differs from casting under dementor threat.
 
 ### Chapter: Student Welfare and Crisis Response
 
@@ -9283,6 +9358,22 @@ Summary: The available evidence includes 1 source item, led by: The meeting reco
   - Reference type: cross_reference_candidate
   - Corroborates: `ootp-ch08-003`. ootp-ch08-003 records Amelia Bones treating Harry's corporeal Patronus as advanced magic; this entry adds student-side transmission through Susan Bones and combines it with other already known feats such as the basilisk and Triwizard tasks.
   - Notes: Several claims are secondhand within the meeting, and the entry is mainly useful as evidence of reputation and cross-reference circulation rather than as primary evidence for the feats themselves.
+
+## Part: Teaching, Curriculum, and Examinations
+
+### Chapter: Divination and Predictive Magic
+
+#### Section: Firenze's centaur method and wartime sky omens
+
+Summary: The available evidence includes 1 source item, led by: Firenze reframes Divination around centaur sky-reading, long observation, Mars as a war omen, burning herbs and leaves, and explicit cautions about interpretive uncertainty.
+
+- **Corroboration:** Firenze reframes Divination around centaur sky-reading, long observation, Mars as a war omen, burning herbs and leaves, and explicit cautions about interpretive uncertainty.
+  - Quote: "Mars, bringer of battle"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, PDF p. 2148, `ootp-ch27-003`, `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ps-ch15-007`. ps-ch15-007 records earlier centaur planetary divination in the Forbidden Forest; this entry adds its formal classroom use as Divination curriculum.
+  - Notes: The method is presented through one substitute teacher's first lesson and may not represent ordinary Hogwarts Divination.
 
 ## Part: The Castle and Its Protections
 

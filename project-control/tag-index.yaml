@@ -30,6 +30,11 @@ tags:
     - ootp-ch04-002
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  accessibility:
+    entries:
+    - ootp-ch27-001
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   accidental-magic:
     entries:
     - ps-ch02-002
@@ -253,11 +258,13 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   anti-apparition:
     entries:
+    - ootp-ch27-007
     - poa-ch09-001
     - poa-ch22-001
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   anti-cheating-spell:
     entries:
     - ps-ch16-001
@@ -400,12 +407,14 @@ tags:
   astronomy:
     entries:
     - ootp-ch14-005
+    - ootp-ch27-003
     - poa-ch16-003
     - ps-ch08-004
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   astronomy-tower:
     entries:
     - poa-ch09-004
@@ -513,10 +522,12 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
   bane:
     entries:
+    - ootp-ch27-002
     - ps-ch15-006
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   banishing-charm:
     entries:
     - gof-ch26-001
@@ -1176,11 +1187,13 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
   castle-protections:
     entries:
+    - ootp-ch27-007
     - poa-ch09-001
     - poa-ch22-001
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   castle-residence:
     entries:
     - ootp-ch26-006
@@ -1281,17 +1294,24 @@ tags:
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+  centaur-magic:
+    entries:
+    - ootp-ch27-003
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   centaurs:
     entries:
     - cos-ch15-003
     - ootp-ch09-002
     - ootp-ch26-007
+    - ootp-ch27-002
     - ps-ch15-006
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   ceremonial-duty:
     entries:
     - gof-ch22-002
@@ -1522,6 +1542,11 @@ tags:
     - cos-ch13-003
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  classroom-eleven:
+    entries:
+    - ootp-ch27-001
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   classroom-instruction:
     entries:
     - cos-ch09-002
@@ -2052,6 +2077,7 @@ tags:
     - gof-ch15-002
     - gof-ch29-002
     - gof-ch36-005
+    - ootp-ch27-003
     - ps-ch05-004
     - ps-ch08-004
     - ps-ch08-005
@@ -2065,6 +2091,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   curriculum-sequence:
     entries:
     - poa-ch10-001
@@ -2303,6 +2330,7 @@ tags:
     - ootp-ch18-006
     - ootp-ch19-001
     - ootp-ch23-004
+    - ootp-ch27-004
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2369,6 +2397,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   defense-association:
     entries:
     - ootp-ch18-007
@@ -2672,6 +2701,8 @@ tags:
     - ootp-ch17-006
     - ootp-ch25-004
     - ootp-ch26-007
+    - ootp-ch27-001
+    - ootp-ch27-003
     - poa-ch04-003
     - poa-ch06-001
     - poa-ch06-003
@@ -2697,6 +2728,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -2713,6 +2745,7 @@ tags:
     - gof-ch28-001
     - gof-ch35-003
     - ootp-ch21-004
+    - ootp-ch27-005
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -2722,6 +2755,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   dobby-warning:
     entries:
     - cos-ch02-002
@@ -2942,6 +2976,9 @@ tags:
     - ootp-ch23-003
     - ootp-ch24-001
     - ootp-ch24-004
+    - ootp-ch27-001
+    - ootp-ch27-002
+    - ootp-ch27-007
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -3038,6 +3075,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-24-occlumency.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3064,12 +3102,16 @@ tags:
     - ootp-ch21-006
     - ootp-ch23-004
     - ootp-ch25-005
+    - ootp-ch27-004
+    - ootp-ch27-005
+    - ootp-ch27-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -3167,6 +3209,7 @@ tags:
     - ootp-ch26-003
     - ootp-ch26-006
     - ootp-ch26-007
+    - ootp-ch27-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -3174,6 +3217,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -3576,10 +3620,12 @@ tags:
     - cos-ch17-007
     - gof-ch36-003
     - ootp-ch22-003
+    - ootp-ch27-007
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   feast:
     entries:
     - cos-ch18-003
@@ -3709,10 +3755,14 @@ tags:
   firenze:
     entries:
     - ootp-ch26-007
+    - ootp-ch27-001
+    - ootp-ch27-002
+    - ootp-ch27-003
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   fireplace-communication:
     entries:
     - gof-ch19-007
@@ -3848,11 +3898,13 @@ tags:
     - ootp-ch03-003
     - ootp-ch17-003
     - ootp-ch22-003
+    - ootp-ch27-006
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -3942,6 +3994,7 @@ tags:
     - ootp-ch11-005
     - ootp-ch14-002
     - ootp-ch21-001
+    - ootp-ch27-002
     - poa-ch06-005
     - poa-ch19-007
     - ps-ch15-004
@@ -3959,6 +4012,7 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
@@ -4551,6 +4605,11 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  ground-floor:
+    entries:
+    - ootp-ch27-001
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   grounds:
     entries:
     - cos-ch05-002
@@ -5160,6 +5219,7 @@ tags:
     - ootp-ch16-005
     - ootp-ch22-002
     - ootp-ch23-002
+    - ootp-ch27-007
     - poa-ch11-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -5169,11 +5229,17 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   headmasters:
     entries:
     - cos-ch09-006
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  headmasters-office:
+    entries:
+    - ootp-ch27-007
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   headmastership:
     entries:
     - cos-ch02-003
@@ -5412,6 +5478,7 @@ tags:
     - ootp-ch26-002
     - ootp-ch26-004
     - ootp-ch26-006
+    - ootp-ch27-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -5421,6 +5488,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   high-table:
     entries:
     - ps-ch12-003
@@ -5723,6 +5791,7 @@ tags:
     - gof-ch23-003
     - gof-ch26-004
     - gof-ch28-001
+    - ootp-ch27-005
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
@@ -5730,6 +5799,7 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   hogwarts-letters:
     entries:
     - cos-ch01-004
@@ -6097,6 +6167,7 @@ tags:
     - ootp-ch18-005
     - ootp-ch21-004
     - ootp-ch23-005
+    - ootp-ch27-005
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -6122,6 +6193,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -7287,6 +7359,7 @@ tags:
     - ootp-ch18-005
     - ootp-ch22-001
     - ootp-ch22-004
+    - ootp-ch27-001
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -7308,6 +7381,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -7570,6 +7644,7 @@ tags:
     - cos-ch05-003
     - cos-ch15-003
     - cos-ch15-005
+    - ootp-ch27-002
     - ps-ch15-006
     - ps-ch16-002
     output_yaml:
@@ -7577,6 +7652,7 @@ tags:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-15-aragog.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   magical-safety:
     entries:
     - poa-ch21-003
@@ -7614,6 +7690,7 @@ tags:
     - ootp-ch13-002
     - ootp-ch14-001
     - ootp-ch18-004
+    - ootp-ch27-005
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -7630,6 +7707,7 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   magical-settlements:
     entries:
     - gof-ch19-001
@@ -7792,8 +7870,10 @@ tags:
   mars:
     entries:
     - gof-ch29-005
+    - ootp-ch27-003
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   match-commentary:
     entries:
     - poa-ch13-002
@@ -8067,6 +8147,7 @@ tags:
     - ootp-ch17-005
     - ootp-ch20-006
     - ootp-ch26-007
+    - ootp-ch27-007
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
@@ -8077,6 +8158,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -8738,6 +8820,11 @@ tags:
     - gof-ch09-005
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  non-human-relations:
+    entries:
+    - ootp-ch27-002
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   north-tower:
     entries:
     - gof-ch13-004
@@ -8769,6 +8856,11 @@ tags:
     - ootp-ch09-006
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  o-w-ls:
+    entries:
+    - ootp-ch27-004
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   obliviator:
     entries:
     - gof-ch07-004
@@ -9206,6 +9298,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
   patronus-charm:
     entries:
+    - ootp-ch27-004
     - poa-ch12-002
     - poa-ch13-004
     - poa-ch20-005
@@ -9215,6 +9308,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   patronus-failure:
     entries:
     - poa-ch20-006
@@ -10717,10 +10811,13 @@ tags:
     - ootp-ch18-005
     - ootp-ch18-006
     - ootp-ch21-004
+    - ootp-ch27-004
+    - ootp-ch27-006
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   rule-breaking:
     entries:
     - poa-ch18-005
@@ -10889,6 +10986,7 @@ tags:
     - ootp-ch25-003
     - ootp-ch26-002
     - ootp-ch26-006
+    - ootp-ch27-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -10904,6 +11002,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -11241,11 +11340,13 @@ tags:
     - ootp-ch05-005
     - ootp-ch08-006
     - ootp-ch20-005
+    - ootp-ch27-003
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -12403,6 +12504,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  student-informants:
+    entries:
+    - ootp-ch27-006
+    output_yaml:
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   student-injury:
     entries:
     - poa-ch06-007
@@ -12543,8 +12649,10 @@ tags:
   student-practice:
     entries:
     - gof-ch20-004
+    - ootp-ch27-004
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   student-preparation:
     entries:
     - ps-ch06-004
@@ -12667,6 +12775,7 @@ tags:
     - ootp-ch15-006
     - ootp-ch20-007
     - ootp-ch21-007
+    - ootp-ch27-005
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -12696,6 +12805,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   student-societies:
     entries:
     - ootp-ch13-007
@@ -13590,11 +13700,13 @@ tags:
     - ootp-ch24-001
     - ootp-ch24-006
     - ootp-ch26-001
+    - ootp-ch27-005
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   umbridge-surveillance:
     entries:
     - ootp-ch22-003

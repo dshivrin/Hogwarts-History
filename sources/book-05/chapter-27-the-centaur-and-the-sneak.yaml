@@ -1,0 +1,335 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+  chapter_start_pdf_page: 2145
+  chapter_end_pdf_page: 2168
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 2145-2168. The prior control anchor places Chapter Twenty-Eight - Snape's Worst Memory at PDF page 2169.
+  processed_date: '2026-07-11'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: ootp-ch27-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2146
+    printed_page: null
+    extracted_text_lines: 41-64; 76-81
+    text_anchor:
+      start_phrase: How d'you expect Firenze to climb that ladder
+      end_phrase: in imitation of my natural habitat
+      local_occurrence_note: Parvati leads the class away from North Tower to classroom eleven, where Dumbledore has arranged a forest-like teaching space for Firenze.
+    nearby_context: The room is a rarely used ground-floor classroom off the entrance hall; inside, moss, trees, boulders, green light, and a clearing replace the neglected storeroom feel.
+    match_terms:
+      - classroom eleven
+      - Divination
+      - Firenze
+      - ground-floor corridor
+      - North Tower
+      - natural habitat
+    quote_excerpt_short: "We're in classroom eleven now"
+    source_note: Firenze's Divination class is relocated from North Tower to ground-floor classroom eleven, which Dumbledore has magically arranged as a forest clearing suited to a centaur teacher.
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - classroom-eleven
+      - divination
+      - firenze
+      - magical-architecture
+      - ground-floor
+      - accessibility
+      - dumbledore
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Classrooms, Towers, and Teaching Spaces
+    candidate_section: Classroom eleven and Firenze's adapted Divination room
+    reason_for_placement: The passage gives a concrete room location and shows the castle being adapted for an unusual teacher and subject format.
+    relevance_to_hogwarts_a_history: A later edition could use this as a rare example of Hogwarts classroom flexibility, accessibility limits, and headmaster-arranged magical environment design.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no existing entry for classroom eleven or Firenze's adapted Divination classroom.
+    confidence: high
+    limitations: The scene does not explain whether the transformation is permanent, a charm by Dumbledore, or a feature of classroom eleven itself.
+
+  - id: ootp-ch27-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2147
+    printed_page: null
+    extracted_text_lines: 78-105
+    text_anchor:
+      start_phrase: I would have preferred to teach you in the Forbidden Forest
+      end_phrase: kicked Firenze in the chest
+      local_occurrence_note: Firenze explains to his first class why he cannot return to the Forbidden Forest after accepting Dumbledore's employment.
+    nearby_context: Students misunderstand centaurs as Hagrid-bred creatures; Firenze corrects the human framing and says his herd views his work for Dumbledore as betrayal.
+    match_terms:
+      - Forbidden Forest
+      - centaur herd
+      - banished
+      - Professor Dumbledore
+      - servants or playthings
+      - Bane
+    quote_excerpt_short: "My herd has banished me."
+    source_note: Firenze identifies the Forbidden Forest as his former home, says his herd banished him for working for Dumbledore, and rejects student assumptions that centaurs are human servants.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - centaurs
+      - forbidden-forest
+      - firenze
+      - bane
+      - magical-residents
+      - dumbledore
+      - non-human-relations
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Magical Residents of the Grounds
+    candidate_section: Centaur autonomy and Firenze's banishment
+    reason_for_placement: The evidence deepens the existing magical-residents thread by adding centaur internal politics and a direct consequence of Hogwarts employment.
+    relevance_to_hogwarts_a_history: This can support a later section on the long and uneasy relationship between Hogwarts, the Forbidden Forest centaurs, and human authority.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch15-006
+        - ootp-ch26-007
+      notes: ps-ch15-006 establishes centaurs as Forbidden Forest residents, and ootp-ch26-007 records Firenze's appointment; this entry adds herd banishment and centaur objections to human employment.
+    confidence: high
+    limitations: Firenze speaks from his own situation; the passage does not provide a full centaur law code or formal agreement with Hogwarts.
+
+  - id: ootp-ch27-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2148
+    printed_page: null
+    extracted_text_lines: 106-167
+    text_anchor:
+      start_phrase: Lie back upon the floor
+      end_phrase: this war we're about to have
+      local_occurrence_note: Firenze begins a centaur-style Divination lesson under conjured stars and discusses planetary signs, herbs, fumes, and uncertainty.
+    nearby_context: Firenze dismisses Trelawney-style human astrology as limited, contrasts it with centaur sky-reading, and warns that even centaurs sometimes misread signs.
+    match_terms:
+      - Astronomy
+      - Astrology
+      - Mars
+      - centaur wisdom
+      - sage
+      - mallowsweet
+      - Divination
+    quote_excerpt_short: "Mars, bringer of battle"
+    source_note: Firenze reframes Divination around centaur sky-reading, long observation, Mars as a war omen, burning herbs and leaves, and explicit cautions about interpretive uncertainty.
+    reference_type: curriculum_or_subject
+    era_classification: later_editorial_note
+    topic_tags:
+      - divination
+      - astronomy
+      - firenze
+      - centaur-magic
+      - mars
+      - curriculum
+      - second-war
+    candidate_part: Teaching, Curriculum, and Examinations
+    candidate_chapter: Divination and Predictive Magic
+    candidate_section: Firenze's centaur method and wartime sky omens
+    reason_for_placement: The lesson provides concrete curriculum content and contrasts centaur predictive practice with prior human classroom astrology.
+    relevance_to_hogwarts_a_history: A future history could cite this as an exceptional syllabus shift under a non-human teacher during the Ministry-intervention year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ps-ch15-007
+      notes: ps-ch15-007 records earlier centaur planetary divination in the Forbidden Forest; this entry adds its formal classroom use as Divination curriculum.
+    confidence: high
+    limitations: The method is presented through one substitute teacher's first lesson and may not represent ordinary Hogwarts Divination.
+
+  - id: ootp-ch27-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2151
+    printed_page: null
+    extracted_text_lines: 224-260
+    text_anchor:
+      start_phrase: If it had not been for the D.A. lessons
+      end_phrase: looking at it fondly
+      local_occurrence_note: The final D.A. lesson before Easter shows students practicing Patronuses in the Room of Requirement.
+    nearby_context: Harry measures the group's progress against expected O.W.L. performance, explains the difference between classroom practice and dementor pressure, and individual Patronus forms appear.
+    match_terms:
+      - D.A.
+      - Room of Requirement
+      - Patronus
+      - Defense Against the Dark Arts
+      - O.W.L.s
+      - Cho
+      - Hermione
+    quote_excerpt_short: "started work on Patronuses"
+    source_note: The D.A. advances to Patronus practice in the Room of Requirement, with Harry teaching defensive context and several students producing vapor or corporeal forms.
+    reference_type: curriculum_or_subject
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledores-army
+      - room-of-requirement
+      - patronus-charm
+      - defense-against-the-dark-arts
+      - student-practice
+      - o-w-ls
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Student Resistance and Practical Defense
+    candidate_section: D.A. Patronus instruction in the Room of Requirement
+    reason_for_placement: The passage shows an unauthorized student-led curriculum reaching advanced defensive magic under exam-year pressure.
+    relevance_to_hogwarts_a_history: This can seed later-edition coverage of the D.A. as a shadow practical Defense class and as evidence of student response to Ministry curriculum limits.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no existing entry focused on D.A. Patronus instruction.
+    confidence: high
+    limitations: The scene records bright-room practice, and Harry explicitly warns that it differs from casting under dementor threat.
+
+  - id: ootp-ch27-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2153
+    printed_page: null
+    extracted_text_lines: 261-317
+    text_anchor:
+      start_phrase: The door of the Room of Requirement opened
+      end_phrase: Thank you, Harry Potter
+      local_occurrence_note: Dobby enters the D.A. meeting invisibly or unnoticed, warns Harry of Umbridge, and is ordered back to the kitchens.
+    nearby_context: Dobby says the house-elves have been warned not to tell, tries to punish himself, confirms Umbridge is coming, and obeys Harry's order not to hurt himself.
+    match_terms:
+      - Dobby
+      - house-elves
+      - warned not to tell
+      - Umbridge
+      - kitchen
+      - Room of Requirement
+    quote_excerpt_short: "Dobby has come to warn you"
+    source_note: Dobby reveals that Hogwarts house-elves know about Umbridge's raid but have been warned not to tell, then obeys Harry's direct order to return to the kitchens and lie if asked.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - house-elves
+      - dobby
+      - hogwarts-kitchens
+      - dumbledores-army
+      - umbridge
+      - magical-servitude
+      - student-safety
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Hogwarts House-Elves
+    candidate_section: House-elf warning under High Inquisitor pressure
+    reason_for_placement: The passage shows Hogwarts house-elves as a hidden information channel constrained by obedience and self-punishment norms.
+    relevance_to_hogwarts_a_history: A later edition could use this as evidence that castle house-elves witnessed school crises and operated under conflicting loyalties to students and authority.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Specific duplicate lookup for Dobby's Room of Requirement warning found no existing match; broader house-elf entries cover background servitude only.
+    confidence: high
+    limitations: The source does not identify who warned the house-elves not to tell or whether all Hogwarts elves shared Dobby's willingness to help.
+
+  - id: ootp-ch27-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2158
+    printed_page: null
+    extracted_text_lines: 428-485; 508-528; 592-620
+    text_anchor:
+      start_phrase: Marietta's mother, Minister
+      end_phrase: the heading scribbled by Hermione months before
+      local_occurrence_note: Umbridge presents Marietta, prior Hog's Head testimony, and the Room of Requirement membership list as evidence against the D.A.
+    nearby_context: Fudge asks about school rules and Ministry decrees, Dumbledore argues the first Hog's Head meeting predated Decree Twenty-four, and Pansy Parkinson retrieves the D.A. list.
+    match_terms:
+      - Marietta Edgecombe
+      - Floo Network office
+      - Educational Decree Number Twenty-four
+      - Willy Widdershins
+      - Room of Requirement
+      - Dumbledore's Army
+    quote_excerpt_short: "I have all their names here"
+    source_note: Umbridge's case against the D.A. combines a student informant, Floo-policing family connections, prior Hog's Head testimony, Decree Twenty-four timing, and a recovered membership list.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledores-army
+      - educational-decrees
+      - high-inquisitor
+      - floo-network
+      - student-informants
+      - room-of-requirement
+      - school-governance
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Headmasters and School Authority
+    candidate_section: Enforcement of Decree Twenty-four against the D.A.
+    reason_for_placement: The passage shows how Ministry-era school rules were investigated and enforced through students, external witnesses, and confiscated evidence.
+    relevance_to_hogwarts_a_history: A later edition could use this as the central case study for the High Inquisitor's move from rulemaking to surveillance and prosecution of student association.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch17-001
+        - ootp-ch18-002
+      notes: ootp-ch17-001 records the decree disbanding student organizations, and ootp-ch18-002 records its House-team approval effects; this entry adds the D.A. enforcement case, informants, and evidence list.
+    confidence: high
+    limitations: Umbridge's account is adversarial and partly undermined by Marietta's silence and Kingsley's memory modification.
+
+  - id: ootp-ch27-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+    chapter_start_pdf_page: 2145
+    chapter_end_pdf_page: 2168
+    pdf_page: 2167
+    printed_page: null
+    extracted_text_lines: 721-799
+    text_anchor:
+      start_phrase: A streak of silver light flashed around the room
+      end_phrase: you cannot deny he's got style
+      local_occurrence_note: Dumbledore disables the Ministry party in his office, briefs McGonagall, and escapes with Fawkes before anyone can arrest him.
+    nearby_context: Old headmaster portraits watch the confrontation, Fawkes circles the wrecked office, Dumbledore uses phoenix travel, and Umbridge confirms he cannot have Disapparated inside Hogwarts.
+    match_terms:
+      - Fawkes
+      - Disapparated
+      - headmaster's office
+      - portraits
+      - Ministry
+      - Dumbledore
+      - Hogwarts
+    quote_excerpt_short: "You can't inside this school"
+    source_note: The headmaster's office crisis confirms active portrait witnesses, Dumbledore's use of Fawkes as an escape route, and a fresh statement that Disapparition is impossible inside Hogwarts.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - anti-apparition
+      - fawkes
+      - headmasters-office
+      - headmaster-portraits
+      - ministry-intervention
+      - dumbledore
+      - castle-protections
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Castle-Wide Protective Enchantments
+    candidate_section: Phoenix escape and anti-Disapparition confirmation
+    reason_for_placement: The passage ties the castle's anti-Apparition rule to an observed high-stakes escape using another magical mechanism.
+    relevance_to_hogwarts_a_history: This is useful later confirmation that anti-Apparition protections remained active during a Ministry crisis, while phoenix travel bypassed ordinary assumptions about escape routes.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch09-001
+        - poa-ch22-001
+        - ootp-ch22-002
+      notes: poa-ch09-001 and poa-ch22-001 record anti-Apparition protections, while ootp-ch22-002 records headmaster portrait operations; this entry adds Fawkes-mediated escape from the headmaster's office.
+    confidence: high
+    limitations: The passage confirms a protection by character statement rather than by technical explanation, and it does not define how phoenix travel relates to Apparition.

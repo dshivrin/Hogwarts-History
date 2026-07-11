@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 26
-  chapter_title: Chapter Twenty-Six - Seen and Unforeseen
-  page_start: 2118
-  page_end: 2144
-  output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 27
   chapter_title: Chapter Twenty-Seven - The Centaur and the Sneak
   page_start: 2145
   page_end: 2168
   output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2169
   page_end: 2194
   output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 29
+  chapter_title: Chapter Twenty-Nine - Career Advice
+  page_start: 2195
+  page_end: 2218
+  output_yaml: sources/book-05/chapter-29-career-advice.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

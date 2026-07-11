@@ -306,10 +306,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmaster Portraits and Institutional Memory
   - Multi-institution portrait travel and service to the headmaster
   - Portrait messages and supervision beyond Hogwarts
+- Hogwarts House-Elves
+  - House-elf warning under High Inquisitor pressure
 - House-Elves and Hidden Labor
   - Clothing, freedom, and Hogwarts service spaces
 - Magical Residents of the Grounds
   - Aragog's Colony in the Forbidden Forest
+  - Centaur autonomy and Firenze's banishment
   - Centaurs in the Forbidden Forest
   - Forbidden Forest Creature Lore
   - The Giant Squid in the Lake
@@ -367,6 +370,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Academic Merit and Pure-Blood Prejudice
   - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
+- Classrooms, Towers, and Teaching Spaces
+  - Classroom eleven and Firenze's adapted Divination room
 - Crisis Evidence and Student Care
   - Immediate Survivor Account in the Headmaster's Office
 - Dark Magic, Security, and Public Panic
@@ -411,6 +416,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Educational Decree Number Twenty-four and student organizations
   - Educational Decree Number Twenty-six and teacher speech
   - Educational Decrees and the High Inquisitor
+  - Enforcement of Decree Twenty-four against the D.A.
   - High Inquisitor inspections and Care of Magical Creatures
   - High Inquisitor possession bans and expulsion threats
   - High Inquisitor scrutiny of Hagrid
@@ -469,6 +475,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
+- Student Resistance and Practical Defense
+  - D.A. Patronus instruction in the Room of Requirement
 - Student Welfare and Crisis Response
   - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Chamber of Secrets Crisis
@@ -727,6 +735,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Emergency transport to the school boundary
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
+  - Phoenix escape and anti-Disapparition confirmation
 - Concealment and Anti-Detection Magic
   - Disillusionment Charm in Student Extraction
 - Crisis Security During Harry's Third Year
@@ -1033,6 +1042,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Harry Potter as Student Witness
   - Peer Transmission of Defensive Feats
+
+## Teaching, Curriculum, and Examinations
+
+- Divination and Predictive Magic
+  - Firenze's centaur method and wartime sky omens
 
 ## The Castle and Its Grounds
 

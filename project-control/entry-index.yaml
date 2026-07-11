@@ -11595,6 +11595,115 @@ by_entry:
     - teacher-appointments
     source_unit: ootp-ch26
     output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch27-001:
+    title: 'Classrooms, Towers, and Teaching Spaces: Classroom eleven and Firenze''s
+      adapted Divination room'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - accessibility
+    - classroom-eleven
+    - divination
+    - dumbledore
+    - firenze
+    - ground-floor
+    - magical-architecture
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch27-002:
+    title: 'Magical Residents of the Grounds: Centaur autonomy and Firenze''s banishment'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - bane
+    - centaurs
+    - dumbledore
+    - firenze
+    - forbidden-forest
+    - magical-residents
+    - non-human-relations
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch27-003:
+    title: 'Divination and Predictive Magic: Firenze''s centaur method and wartime
+      sky omens'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - astronomy
+    - centaur-magic
+    - curriculum
+    - divination
+    - firenze
+    - mars
+    - second-war
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch27-004:
+    title: 'Student Resistance and Practical Defense: D.A. Patronus instruction in
+      the Room of Requirement'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - dumbledores-army
+    - o-w-ls
+    - patronus-charm
+    - room-of-requirement
+    - student-practice
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch27-005:
+    title: 'Hogwarts House-Elves: House-elf warning under High Inquisitor pressure'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dobby
+    - dumbledores-army
+    - hogwarts-kitchens
+    - house-elves
+    - magical-servitude
+    - student-safety
+    - umbridge
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch27-006:
+    title: 'Headmasters and School Authority: Enforcement of Decree Twenty-four against
+      the D.A.'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dumbledores-army
+    - educational-decrees
+    - floo-network
+    - high-inquisitor
+    - room-of-requirement
+    - school-governance
+    - student-informants
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch27-007:
+    title: 'Castle-Wide Protective Enchantments: Phoenix escape and anti-Disapparition
+      confirmation'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - anti-apparition
+    - castle-protections
+    - dumbledore
+    - fawkes
+    - headmaster-portraits
+    - headmasters-office
+    - ministry-intervention
+    source_unit: ootp-ch27
+    output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -11608,6 +11717,8 @@ by_tag:
   - poa-ch16-001
   access-control:
   - ootp-ch04-002
+  accessibility:
+  - ootp-ch27-001
   accidental-magic:
   - ps-ch02-002
   - ps-ch02-004
@@ -11712,6 +11823,7 @@ by_tag:
   annual-customs:
   - gof-ch12-003
   anti-apparition:
+  - ootp-ch27-007
   - poa-ch09-001
   - poa-ch22-001
   anti-cheating-spell:
@@ -11777,6 +11889,7 @@ by_tag:
   - gof-ch21-005
   astronomy:
   - ootp-ch14-005
+  - ootp-ch27-003
   - poa-ch16-003
   - ps-ch08-004
   astronomy-tower:
@@ -11828,6 +11941,7 @@ by_tag:
   badges:
   - poa-ch04-006
   bane:
+  - ootp-ch27-002
   - ps-ch15-006
   - ps-ch15-007
   banishing-charm:
@@ -12133,6 +12247,7 @@ by_tag:
   - ps-ch09-006
   - ps-ch10-004
   castle-protections:
+  - ootp-ch27-007
   - poa-ch09-001
   - poa-ch22-001
   castle-residence:
@@ -12181,10 +12296,13 @@ by_tag:
   - ootp-ch12-007
   centaur-divination:
   - ps-ch15-007
+  centaur-magic:
+  - ootp-ch27-003
   centaurs:
   - cos-ch15-003
   - ootp-ch09-002
   - ootp-ch26-007
+  - ootp-ch27-002
   - ps-ch15-006
   ceremonial-duty:
   - gof-ch22-002
@@ -12299,6 +12417,8 @@ by_tag:
   - ps-ch08-007
   classroom-disruption:
   - cos-ch13-003
+  classroom-eleven:
+  - ootp-ch27-001
   classroom-instruction:
   - cos-ch09-002
   - gof-ch29-002
@@ -12538,6 +12658,7 @@ by_tag:
   - gof-ch15-002
   - gof-ch29-002
   - gof-ch36-005
+  - ootp-ch27-003
   - ps-ch05-004
   - ps-ch08-004
   - ps-ch08-005
@@ -12672,6 +12793,7 @@ by_tag:
   - ootp-ch18-006
   - ootp-ch19-001
   - ootp-ch23-004
+  - ootp-ch27-004
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -12841,6 +12963,8 @@ by_tag:
   - ootp-ch17-006
   - ootp-ch25-004
   - ootp-ch26-007
+  - ootp-ch27-001
+  - ootp-ch27-003
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -12861,6 +12985,7 @@ by_tag:
   - gof-ch28-001
   - gof-ch35-003
   - ootp-ch21-004
+  - ootp-ch27-005
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
@@ -12999,6 +13124,9 @@ by_tag:
   - ootp-ch23-003
   - ootp-ch24-001
   - ootp-ch24-004
+  - ootp-ch27-001
+  - ootp-ch27-002
+  - ootp-ch27-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -13049,6 +13177,9 @@ by_tag:
   - ootp-ch21-006
   - ootp-ch23-004
   - ootp-ch25-005
+  - ootp-ch27-004
+  - ootp-ch27-005
+  - ootp-ch27-006
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -13103,6 +13234,7 @@ by_tag:
   - ootp-ch26-003
   - ootp-ch26-006
   - ootp-ch26-007
+  - ootp-ch27-006
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -13282,6 +13414,7 @@ by_tag:
   - cos-ch17-007
   - gof-ch36-003
   - ootp-ch22-003
+  - ootp-ch27-007
   feast:
   - cos-ch18-003
   feasts:
@@ -13344,6 +13477,9 @@ by_tag:
   - poa-ch15-005
   firenze:
   - ootp-ch26-007
+  - ootp-ch27-001
+  - ootp-ch27-002
+  - ootp-ch27-003
   - ps-ch15-007
   fireplace-communication:
   - gof-ch19-007
@@ -13410,6 +13546,7 @@ by_tag:
   - ootp-ch03-003
   - ootp-ch17-003
   - ootp-ch22-003
+  - ootp-ch27-006
   floo-powder:
   - gof-ch04-004
   floo-regulation-panel:
@@ -13455,6 +13592,7 @@ by_tag:
   - ootp-ch11-005
   - ootp-ch14-002
   - ootp-ch21-001
+  - ootp-ch27-002
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -13735,6 +13873,8 @@ by_tag:
   - ootp-ch10-005
   - ps-ch05-001
   - ps-ch14-003
+  ground-floor:
+  - ootp-ch27-001
   grounds:
   - cos-ch05-002
   - cos-ch07-005
@@ -14044,9 +14184,12 @@ by_tag:
   - ootp-ch16-005
   - ootp-ch22-002
   - ootp-ch23-002
+  - ootp-ch27-007
   - poa-ch11-006
   headmasters:
   - cos-ch09-006
+  headmasters-office:
+  - ootp-ch27-007
   headmastership:
   - cos-ch02-003
   headmistress:
@@ -14162,6 +14305,7 @@ by_tag:
   - ootp-ch26-002
   - ootp-ch26-004
   - ootp-ch26-006
+  - ootp-ch27-006
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -14312,6 +14456,7 @@ by_tag:
   - gof-ch23-003
   - gof-ch26-004
   - gof-ch28-001
+  - ootp-ch27-005
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
@@ -14497,6 +14642,7 @@ by_tag:
   - ootp-ch18-005
   - ootp-ch21-004
   - ootp-ch23-005
+  - ootp-ch27-005
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -15037,6 +15183,7 @@ by_tag:
   - ootp-ch18-005
   - ootp-ch22-001
   - ootp-ch22-004
+  - ootp-ch27-001
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -15155,6 +15302,7 @@ by_tag:
   - cos-ch05-003
   - cos-ch15-003
   - cos-ch15-005
+  - ootp-ch27-002
   - ps-ch15-006
   - ps-ch16-002
   magical-safety:
@@ -15181,6 +15329,7 @@ by_tag:
   - ootp-ch13-002
   - ootp-ch14-001
   - ootp-ch18-004
+  - ootp-ch27-005
   magical-settlements:
   - gof-ch19-001
   - ootp-ch16-002
@@ -15258,6 +15407,7 @@ by_tag:
   - ps-ch14-006
   mars:
   - gof-ch29-005
+  - ootp-ch27-003
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
@@ -15383,6 +15533,7 @@ by_tag:
   - ootp-ch17-005
   - ootp-ch20-006
   - ootp-ch26-007
+  - ootp-ch27-007
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -15686,6 +15837,8 @@ by_tag:
   - cos-ch07-006
   non-human-creatures:
   - gof-ch09-005
+  non-human-relations:
+  - ootp-ch27-002
   north-tower:
   - gof-ch13-004
   - gof-ch29-005
@@ -15699,6 +15852,8 @@ by_tag:
   - ootp-ch26-002
   nymphadora-tonks:
   - ootp-ch09-006
+  o-w-ls:
+  - ootp-ch27-004
   obliviator:
   - gof-ch07-004
   occlumency:
@@ -15904,6 +16059,7 @@ by_tag:
   - ootp-ch21-006
   - poa-ch20-007
   patronus-charm:
+  - ootp-ch27-004
   - poa-ch12-002
   - poa-ch13-004
   - poa-ch20-005
@@ -16610,6 +16766,8 @@ by_tag:
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
+  - ootp-ch27-004
+  - ootp-ch27-006
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -16691,6 +16849,7 @@ by_tag:
   - ootp-ch25-003
   - ootp-ch26-002
   - ootp-ch26-006
+  - ootp-ch27-006
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -16848,6 +17007,7 @@ by_tag:
   - ootp-ch05-005
   - ootp-ch08-006
   - ootp-ch20-005
+  - ootp-ch27-003
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -17365,6 +17525,8 @@ by_tag:
   student-identity:
   - ootp-ch10-003
   - ootp-ch19-002
+  student-informants:
+  - ootp-ch27-006
   student-injury:
   - poa-ch06-007
   - poa-ch07-002
@@ -17429,6 +17591,7 @@ by_tag:
   - gof-ch04-002
   student-practice:
   - gof-ch20-004
+  - ootp-ch27-004
   student-preparation:
   - ps-ch06-004
   student-press:
@@ -17493,6 +17656,7 @@ by_tag:
   - ootp-ch15-006
   - ootp-ch20-007
   - ootp-ch21-007
+  - ootp-ch27-005
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -17911,6 +18075,7 @@ by_tag:
   - ootp-ch24-001
   - ootp-ch24-006
   - ootp-ch26-001
+  - ootp-ch27-005
   umbridge-surveillance:
   - ootp-ch22-003
   underage-magic:
