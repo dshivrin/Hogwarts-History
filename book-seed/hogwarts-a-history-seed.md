@@ -5157,6 +5157,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `poa-ch09-006`. Book 3 Chapter Nine records the Hufflepuff match, match governance, and Snitch result; this entry corroborates Cedric's team role and the lasting interpretation of that match.
   - Notes: The passage is a recap outside Hogwarts and does not describe full Hufflepuff team organization or season standings.
 
+#### Section: Replacement players and Hufflepuff match results
+
+Summary: The available evidence includes 1 source item, led by: The disrupted Gryffindor team plays Hufflepuff with replacement personnel, confirming Ginny's temporary Seeker role, Ron's ongoing Keeper crisis, and changing Cup standings.
+
+- **Corroboration:** The disrupted Gryffindor team plays Hufflepuff with replacement personnel, confirming Ginny's temporary Seeker role, Ron's ongoing Keeper crisis, and changing Cup standings.
+  - Quote: "Gryffindor only lost by ten points"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2123, `ootp-ch26-005`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch13-007`, `ootp-ch17-004`, `ootp-ch19-003`. ootp-ch13-007 records Keeper selection, ootp-ch17-004 records High Inquisitor team control, and ootp-ch19-003 records season resumption; this entry adds the post-ban Hufflepuff match and Ginny's Seeker performance.
+  - Notes: The scoring account is from Harry's perspective as a spectator and focuses on Gryffindor more than the full Hufflepuff team.
+
 #### Section: Season Preparation, Captains, and the Quidditch Cup
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates Hogwarts House Quidditch structure with a captain-led seasonal meeting, team positions, Cup stakes, locker-room setting, and regular practice schedule.
@@ -6665,6 +6677,18 @@ Summary: The available evidence includes 1 source item, led by: Umbridge replace
 
 ### Chapter: Defense, Mind Magic, and the Umbridge Year
 
+#### Section: Occlumency practice and Shield Charm rebound
+
+Summary: The available evidence includes 1 source item, led by: A Shield Charm can interrupt a Legilimency exercise during private Occlumency training, briefly exposing the teacher's memories and showing the Pensieve in active protective use.
+
+- **Corroboration:** A Shield Charm can interrupt a Legilimency exercise during private Occlumency training, briefly exposing the teacher's memories and showing the Pensieve in active protective use.
+  - Quote: "that was certainly an improvement"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2138, `ootp-ch26-006`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch24-005`, `gof-ch30-002`. ootp-ch24-005 records Snape's core Occlumency and Legilimency explanation, and gof-ch30-002 identifies the Pensieve; this entry adds a Protego rebound during instruction.
+  - Notes: The lesson is secret, exceptional, and hostile; it should not be treated as a standard curriculum method.
+
 #### Section: Private Occlumency lessons under official cover
 
 Summary: The available evidence includes 1 source item, led by: Dumbledore can assign a student private magical instruction through a teacher, with secrecy from the High Inquisitor and a false remedial subject used as cover.
@@ -6880,6 +6904,29 @@ Summary: The available evidence includes 1 source item, led by: The chapter trea
 
 ### Chapter: Headmasters and School Authority
 
+#### Section: Discipline for unauthorized public speech
+
+Summary: The available evidence includes 1 source item, led by: Umbridge uses direct disciplinary authority to punish a student for unauthorized public speech, combining privilege withdrawal, point loss, and additional detentions.
+
+- **Context:** Umbridge uses direct disciplinary authority to punish a student for unauthorized public speech, combining privilege withdrawal, point loss, and additional detentions.
+  - Quote: "no more Hogsmeade trips for you"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2128, `ootp-ch26-002`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The punishment is exceptional Umbridge-era discipline and should not be generalized as ordinary Hogwarts policy.
+
+#### Section: Dismissal, residence, and replacement appointments
+
+Summary: The available evidence includes 1 source item, led by: The High Inquisitor can dismiss a teacher under Decree Twenty-three, but the headmaster retains authority over castle residence and can appoint a replacement if he finds one first.
+
+- **Corroboration:** The High Inquisitor can dismiss a teacher under Decree Twenty-three, but the headmaster retains authority over castle residence and can appoint a replacement if he finds one first.
+  - Quote: "the power to do that still resides with the headmaster"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2143, `ootp-ch26-007`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch15-003`, `ootp-ch17-006`, `ootp-ch25-004`. ootp-ch15-003 records Trelawney's inspection, ootp-ch17-006 records probation, and ootp-ch25-004 records continuing observation; this entry adds formal dismissal, residence authority, and Firenze's appointment.
+  - Notes: This is an Umbridge-era legal clash; it does not fully explain ordinary staff housing rules outside the crisis.
+
 #### Section: Dumbledore's Autonomy and Fudge's Governance Threat
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives Fudge's explicit account of Dumbledore's broad practical autonomy over Hogwarts staffing and curriculum, followed by a threat of Ministry scrutiny.
@@ -6922,6 +6969,18 @@ Summary: The available evidence includes 2 source items, led by: Educational Dec
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch17-001`. ootp-ch17-001 records the decree disbanding all student organizations and requiring High Inquisitor approval; this entry shows a House Quidditch team securing that approval.
   - Notes: The passage does not quote the approval document or state whether all House teams followed the same appeal route.
+
+#### Section: Educational Decree Number Twenty-seven and banned publications
+
+Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-seven forbids student possession of The Quibbler, posting the expulsion threat across school spaces and unintentionally increasing readership.
+
+- **Corroboration:** Educational Decree Number Twenty-seven forbids student possession of The Quibbler, posting the expulsion threat across school spaces and unintentionally increasing readership.
+  - Quote: "will be expelled"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2129, `ootp-ch26-003`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch25-003`, `ootp-ch19-007`, `ootp-ch17-001`. Earlier entries record Decrees Twenty-six, Twenty-five, and Twenty-four; this entry adds Decree Twenty-seven's publication ban and expulsion threat.
+  - Notes: The decree is a temporary High Inquisitor measure and not evidence of ordinary school publication rules.
 
 #### Section: Educational Decree Number Twenty-six and teacher speech
 
@@ -7473,6 +7532,18 @@ Summary: The available evidence includes 1 source item, led by: Hermione uses Ri
   - Corroborates: `gof-ch37-006`, `ootp-ch04-007`, `ootp-ch05-007`. gof-ch37-006 reveals Rita's unregistered Animagus surveillance, while ootp-ch04-007 and ootp-ch05-007 record Ministry/Prophet pressure around Harry and Dumbledore; this entry adds Hermione's coercive use of that secret to place Harry's alternative account in The Quibbler.
   - Notes: The interview itself begins at the chapter end; this entry covers the arrangement and publication channel rather than the finished article.
 
+#### Section: Student and staff workarounds under censorship
+
+Summary: The available evidence includes 1 source item, led by: Students use magical concealment to evade searches for a banned publication, while teachers work around Decree Twenty-six with indirect gestures of support.
+
+- **Corroboration:** Students use magical concealment to evade searches for a banned publication, while teachers work around Decree Twenty-six with indirect gestures of support.
+  - Quote: "bewitched to resemble extracts from textbooks"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2130, `ootp-ch26-004`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch25-003`. ootp-ch25-003 records Decree Twenty-six's ban on non-subject teacher speech; this entry adds how teachers and students circumvented it after the Quibbler ban.
+  - Notes: The text summarizes widespread behavior and gives only a few named teacher examples.
+
 #### Section: The Azkaban breakout reaches the Great Hall
 
 Summary: The available evidence includes 1 source item, led by: The Daily Prophet's Azkaban-breakout story enters Hogwarts through breakfast news, exposing the gap between Ministry public framing, staff alarm, student rumor, and Umbridge's hostile watchfulness.
@@ -7484,6 +7555,18 @@ Summary: The available evidence includes 1 source item, led by: The Daily Prophe
   - Reference type: explicit_in_universe_source
   - Corroborates: `gof-ch09-007`, `ootp-ch14-003`. gof-ch09-007 records Death Eater/Azkaban context from an in-universe source, and ootp-ch14-003 records a Daily Prophet account affecting Hogwarts politics; this entry adds the mass breakout's immediate Great Hall reception and staff response.
   - Notes: The Daily Prophet account is politically distorted, so only the reported breakout, named prisoners, and observed Hogwarts reactions should be treated as firm evidence.
+
+#### Section: The Quibbler interview reaches the Great Hall
+
+Summary: The available evidence includes 1 source item, led by: The Quibbler functions as an alternative in-universe press channel reaching Hogwarts by owl post, producing immediate student attention and reader-response evidence about public belief.
+
+- **Corroboration:** The Quibbler functions as an alternative in-universe press channel reaching Hogwarts by owl post, producing immediate student attention and reader-response evidence about public belief.
+  - Quote: "HARRY POTTER SPEAKS OUT AT LAST"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, PDF p. 2126, `ootp-ch26-001`, `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch25-007`, `ootp-ch10-005`. ootp-ch25-007 records the arranged Quibbler interview, and ootp-ch10-005 introduces The Quibbler as alternative press; this entry adds publication, Great Hall delivery, and reader-response effects.
+  - Notes: Reader letters are anecdotal samples rather than a complete measure of wizarding public opinion.
 
 ### Chapter: The Second War and Hogwarts-Connected Families
 

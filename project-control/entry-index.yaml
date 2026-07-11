@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-10'
+updated: '2026-07-11'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -11486,6 +11486,116 @@ by_entry:
     - wizarding-press
     source_unit: ootp-ch25
     output_yaml: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  ootp-ch26-001:
+    title: 'The Second War and Hogwarts Information Climate: The Quibbler interview
+      reaches the Great Hall'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - daily-prophet
+    - great-hall
+    - luna-lovegood
+    - owl-post
+    - public-opinion
+    - quibbler
+    - wizarding-press
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch26-002:
+    title: 'Headmasters and School Authority: Discipline for unauthorized public speech'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - detention
+    - high-inquisitor
+    - hogsmeade-trip
+    - house-points
+    - school-discipline
+    - student-speech
+    - umbridge
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch26-003:
+    title: 'Headmasters and School Authority: Educational Decree Number Twenty-seven
+      and banned publications'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - educational-decrees
+    - expulsion
+    - high-inquisitor
+    - information-control
+    - notice-boards
+    - quibbler
+    - student-rumor
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch26-004:
+    title: 'The Second War and Hogwarts Information Climate: Student and staff workarounds
+      under censorship'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - educational-decrees
+    - information-control
+    - magical-concealment
+    - quibbler
+    - staff-resistance
+    - teacher-speech
+    - umbridge
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch26-005:
+    title: 'House Quidditch Teams: Replacement players and Hufflepuff match results'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - ginny-weasley
+    - gryffindor
+    - house-rivalry
+    - hufflepuff
+    - keeper
+    - quidditch
+    - quidditch-cup
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch26-006:
+    title: 'Defense, Mind Magic, and the Umbridge Year: Occlumency practice and Shield
+      Charm rebound'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - legilimency
+    - memory-magic
+    - occlumency
+    - pensieve
+    - private-lessons
+    - shield-charm
+    - snape-office
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  ootp-ch26-007:
+    title: 'Headmasters and School Authority: Dismissal, residence, and replacement
+      appointments'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - divination
+    - dumbledore
+    - firenze
+    - headmaster-authority
+    - high-inquisitor
+    - professor-trelawney
+    - teacher-dismissal
+    source_unit: ootp-ch26
+    output_yaml: sources/book-05/chapter-26-seen-and-unforeseen.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12457,6 +12567,7 @@ by_tag:
   - ootp-ch14-003
   - ootp-ch25-001
   - ootp-ch25-007
+  - ootp-ch26-001
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
@@ -12658,6 +12769,7 @@ by_tag:
   - ootp-ch12-007
   - ootp-ch13-006
   - ootp-ch15-004
+  - ootp-ch26-002
   - poa-ch09-005
   - poa-ch13-004
   - poa-ch14-002
@@ -12726,6 +12838,7 @@ by_tag:
   - ootp-ch15-003
   - ootp-ch17-006
   - ootp-ch25-004
+  - ootp-ch26-007
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -12884,6 +12997,7 @@ by_tag:
   - ootp-ch23-003
   - ootp-ch24-001
   - ootp-ch24-004
+  - ootp-ch26-007
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -12984,6 +13098,8 @@ by_tag:
   - ootp-ch18-002
   - ootp-ch19-007
   - ootp-ch25-003
+  - ootp-ch26-003
+  - ootp-ch26-004
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -13113,6 +13229,7 @@ by_tag:
   - ootp-ch02-002
   - ootp-ch08-007
   - ootp-ch17-001
+  - ootp-ch26-003
   - poa-ch02-003
   - poa-ch03-001
   - ps-ch04-007
@@ -13223,6 +13340,7 @@ by_tag:
   - poa-ch13-002
   - poa-ch15-005
   firenze:
+  - ootp-ch26-007
   - ps-ch15-007
   fireplace-communication:
   - gof-ch19-007
@@ -13484,6 +13602,7 @@ by_tag:
   - cos-ch17-002
   - cos-ch18-002
   - ootp-ch21-005
+  - ootp-ch26-005
   girls-bathroom:
   - ps-ch10-004
   goblet-of-fire:
@@ -13556,6 +13675,7 @@ by_tag:
   - gof-ch37-003
   - ootp-ch19-005
   - ootp-ch25-001
+  - ootp-ch26-001
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -13649,6 +13769,7 @@ by_tag:
   - ootp-ch19-003
   - ootp-ch19-004
   - ootp-ch19-005
+  - ootp-ch26-005
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -13897,6 +14018,7 @@ by_tag:
   - ootp-ch02-003
   - ootp-ch22-002
   - ootp-ch23-002
+  - ootp-ch26-007
   - poa-ch09-004
   - poa-ch11-002
   - poa-ch21-001
@@ -14033,6 +14155,9 @@ by_tag:
   - ootp-ch21-005
   - ootp-ch25-003
   - ootp-ch25-004
+  - ootp-ch26-002
+  - ootp-ch26-003
+  - ootp-ch26-007
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -14096,6 +14221,7 @@ by_tag:
   - poa-ch05-005
   hogsmeade-trip:
   - ootp-ch24-003
+  - ootp-ch26-002
   hogsmeade-weekend:
   - gof-ch27-002
   - ootp-ch12-001
@@ -14390,6 +14516,7 @@ by_tag:
   - gof-ch18-004
   - ootp-ch12-007
   - ootp-ch15-004
+  - ootp-ch26-002
   - poa-ch07-001
   - poa-ch07-007
   - poa-ch09-005
@@ -14406,6 +14533,7 @@ by_tag:
   house-rivalry:
   - ootp-ch19-004
   - ootp-ch19-005
+  - ootp-ch26-005
   - poa-ch15-005
   house-robes:
   - cos-ch10-003
@@ -14456,6 +14584,7 @@ by_tag:
   - gof-ch15-004
   - gof-ch18-002
   - gof-ch36-002
+  - ootp-ch26-005
   - poa-ch09-006
   - ps-ch05-006
   - ps-ch13-002
@@ -14504,6 +14633,8 @@ by_tag:
   - poa-ch04-002
   information-control:
   - ootp-ch25-003
+  - ootp-ch26-003
+  - ootp-ch26-004
   information-security:
   - gof-ch01-003
   - gof-ch07-005
@@ -14638,6 +14769,7 @@ by_tag:
   - cos-ch07-001
   - ootp-ch13-007
   - ootp-ch14-004
+  - ootp-ch26-005
   keeper-of-keys:
   - ps-ch04-001
   keeper-protection:
@@ -14702,6 +14834,7 @@ by_tag:
   - cos-ch09-005
   legilimency:
   - ootp-ch24-005
+  - ootp-ch26-006
   leprechaun-gold:
   - gof-ch28-002
   leprechauns:
@@ -14823,6 +14956,7 @@ by_tag:
   - ootp-ch10-005
   - ootp-ch10-007
   - ootp-ch19-005
+  - ootp-ch26-001
   lupin:
   - poa-ch08-005
   lupins-office:
@@ -14928,6 +15062,7 @@ by_tag:
   magical-community:
   - ps-ch02-006
   magical-concealment:
+  - ootp-ch26-004
   - ps-ch05-003
   magical-contract:
   - gof-ch16-003
@@ -15184,6 +15319,7 @@ by_tag:
   - cos-ch13-004
   - gof-ch30-002
   - ootp-ch24-004
+  - ootp-ch26-006
   memory-modification:
   - gof-ch13-005
   mental-safety:
@@ -15558,6 +15694,8 @@ by_tag:
   notice-board:
   - ootp-ch12-001
   - ootp-ch24-003
+  notice-boards:
+  - ootp-ch26-003
   nymphadora-tonks:
   - ootp-ch09-006
   obliviator:
@@ -15565,6 +15703,7 @@ by_tag:
   occlumency:
   - ootp-ch24-001
   - ootp-ch24-005
+  - ootp-ch26-006
   off-campus-security:
   - ootp-ch01-002
   - ootp-ch01-004
@@ -15684,6 +15823,7 @@ by_tag:
   - gof-ch27-002
   - ootp-ch17-003
   - ootp-ch18-001
+  - ootp-ch26-001
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -15792,6 +15932,7 @@ by_tag:
   pensieve:
   - gof-ch30-002
   - ootp-ch24-004
+  - ootp-ch26-006
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -16057,6 +16198,7 @@ by_tag:
   - poa-ch20-005
   private-lessons:
   - ootp-ch24-001
+  - ootp-ch26-006
   private-stores:
   - cos-ch11-002
   - gof-ch25-006
@@ -16187,6 +16329,7 @@ by_tag:
   - ootp-ch15-003
   - ootp-ch17-006
   - ootp-ch25-004
+  - ootp-ch26-007
   - poa-ch06-003
   - poa-ch06-004
   - poa-ch16-005
@@ -16232,6 +16375,7 @@ by_tag:
   public-opinion:
   - ootp-ch04-007
   - ootp-ch11-007
+  - ootp-ch26-001
   punishment:
   - cos-ch08-002
   punishments:
@@ -16259,6 +16403,9 @@ by_tag:
   quibbler:
   - ootp-ch10-005
   - ootp-ch25-007
+  - ootp-ch26-001
+  - ootp-ch26-003
+  - ootp-ch26-004
   quick-quotes-quill:
   - gof-ch18-005
   quidditch:
@@ -16276,6 +16423,7 @@ by_tag:
   - ootp-ch19-003
   - ootp-ch19-006
   - ootp-ch21-005
+  - ootp-ch26-005
   - poa-ch01-007
   - poa-ch02-004
   - poa-ch08-002
@@ -16297,6 +16445,7 @@ by_tag:
   - gof-ch02-002
   quidditch-cup:
   - ootp-ch19-003
+  - ootp-ch26-005
   - poa-ch08-002
   - poa-ch09-006
   - poa-ch12-004
@@ -16516,6 +16665,7 @@ by_tag:
   - gof-ch05-004
   - gof-ch13-006
   - ootp-ch13-006
+  - ootp-ch26-002
   - ps-ch10-005
   - ps-ch11-003
   school-emergency:
@@ -16791,6 +16941,7 @@ by_tag:
   - gof-ch18-001
   shield-charm:
   - ootp-ch25-005
+  - ootp-ch26-006
   shrieking-shack:
   - ootp-ch17-007
   - poa-ch05-002
@@ -16919,6 +17070,7 @@ by_tag:
   snape-office:
   - gof-ch27-004
   - ootp-ch24-004
+  - ootp-ch26-006
   snape-private-stores:
   - cos-ch10-002
   sneakoscope:
@@ -17068,6 +17220,8 @@ by_tag:
   - ps-ch14-003
   staff-resignation:
   - poa-ch22-003
+  staff-resistance:
+  - ootp-ch26-004
   staff-response:
   - cos-ch11-006
   - gof-ch35-005
@@ -17314,6 +17468,8 @@ by_tag:
   student-rulebreaking:
   - gof-ch25-001
   - ootp-ch20-001
+  student-rumor:
+  - ootp-ch26-003
   student-safety:
   - cos-ch13-007
   - cos-ch14-003
@@ -17345,6 +17501,8 @@ by_tag:
   - ootp-ch13-007
   student-spectators:
   - gof-ch31-002
+  student-speech:
+  - ootp-ch26-002
   student-store-cupboard:
   - cos-ch10-002
   student-study:
@@ -17459,6 +17617,8 @@ by_tag:
   - poa-ch19-003
   - poa-ch22-004
   - ps-ch08-007
+  teacher-dismissal:
+  - ootp-ch26-007
   teacher-escorts:
   - cos-ch14-004
   - cos-ch15-002
@@ -17479,6 +17639,7 @@ by_tag:
   - poa-ch07-006
   teacher-speech:
   - ootp-ch25-003
+  - ootp-ch26-004
   teacher-vacancy:
   - gof-ch37-002
   teachers:
@@ -17750,6 +17911,8 @@ by_tag:
   - ootp-ch23-003
   - ootp-ch24-001
   - ootp-ch24-006
+  - ootp-ch26-002
+  - ootp-ch26-004
   umbridge-surveillance:
   - ootp-ch22-003
   underage-magic:
@@ -18066,6 +18229,7 @@ by_tag:
   - gof-ch37-006
   - ootp-ch10-005
   - ootp-ch25-007
+  - ootp-ch26-001
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty-Six - Seen and Unforeseen
-- Page range: 2118-2144
+- Chapter: Chapter Twenty-Seven - The Centaur and the Sneak
+- Page range: 2145-2168
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-26-seen-and-unforeseen.yaml`
+- Output YAML: `sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml`
 
 ## Minimal Context
 

@@ -377,6 +377,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Theory-only lessons, dissent, and discipline
   - Umbridge's theory-centered curriculum
 - Defense, Mind Magic, and the Umbridge Year
+  - Occlumency practice and Shield Charm rebound
   - Private Occlumency lessons under official cover
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
@@ -400,9 +401,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Harry Potter and Voldemort's Return
   - Curse Scars and Voldemort Proximity
 - Headmasters and School Authority
+  - Discipline for unauthorized public speech
+  - Dismissal, residence, and replacement appointments
   - Dumbledore's Autonomy and Fudge's Governance Threat
   - Educational Decree Number Twenty-five and punishment authority
   - Educational Decree Number Twenty-four and student organizations
+  - Educational Decree Number Twenty-seven and banned publications
   - Educational Decree Number Twenty-six and teacher speech
   - Educational Decrees and the High Inquisitor
   - High Inquisitor inspections and Care of Magical Creatures
@@ -474,7 +478,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Post-Return Letter Secrecy and Press Silence
 - The Second War and Hogwarts Information Climate
   - Alternative press and Harry's Quibbler interview
+  - Student and staff workarounds under censorship
   - The Azkaban breakout reaches the Great Hall
+  - The Quibbler interview reaches the Great Hall
 - The Second War and Hogwarts-Connected Families
   - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
@@ -834,6 +840,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House Rivalry and Player Protection
   - Hufflepuff Captain and Seeker
   - Practice Scheduling, Captains, and Equipment
+  - Replacement players and Hufflepuff match results
   - Season Preparation, Captains, and the Quidditch Cup
   - Season resumption, practices, and House-head rivalry
   - Training Supervision and Broom Expertise
