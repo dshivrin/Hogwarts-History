@@ -11814,6 +11814,114 @@ by_entry:
     - werewolves
     source_unit: ootp-ch28
     output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch29-001:
+    title: 'Examinations and Academic Progression: Easter revision, library study,
+      and exam-year pressure'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - easter-holidays
+    - exams
+    - fifth-year
+    - library
+    - ordinary-wizarding-levels
+    - seventh-year
+    - study-schedules
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
+  ootp-ch29-002:
+    title: 'Protective Magic and Security: Watched communications under the High Inquisitor'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - communication-security
+    - dolores-umbridge
+    - high-inquisitor
+    - owl-post
+    - parcels
+    - school-surveillance
+    - student-rights
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
+  ootp-ch29-003:
+    title: 'Careers After Hogwarts: Fifth-year career advice and vocational pamphlets'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - career-advice
+    - fifth-year
+    - gringotts
+    - head-of-house
+    - magical-careers
+    - newt-courses
+    - st-mungos
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
+  ootp-ch29-004:
+    title: 'Careers After Hogwarts: Auror prerequisites and N.E.W.T. course thresholds'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - auror
+    - career-advice
+    - newt-courses
+    - ordinary-wizarding-levels
+    - potions
+    - professor-mcgonagall
+    - transfiguration
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
+  ootp-ch29-005:
+    title: 'Protective Magic and Security: Office fireplaces and surveillance workarounds'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - communication-security
+    - floo-network
+    - invisibility-cloak
+    - magical-objects
+    - office-security
+    - student-rulebreaking
+    - umbridge-office
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
+  ootp-ch29-006:
+    title: 'Marauders-Era Context and Hidden Identities: James, Snape, Lily, and retrospective
+      student testimony'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - james-potter
+    - lily-evans
+    - marauders
+    - remus-lupin
+    - school-history
+    - severus-snape
+    - sirius-black
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
+  ootp-ch29-007:
+    title: 'Discipline, Punishment, and Caretaking: Portable Swamp, whipping approval,
+      and student departure'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - corporal-punishment
+    - filch
+    - fred-george
+    - peeves
+    - portable-swamp
+    - school-discipline
+    - student-rebellion
+    source_unit: ootp-ch29
+    output_yaml: sources/book-05/chapter-29-career-advice.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12011,6 +12119,7 @@ by_tag:
   auror:
   - gof-ch19-006
   - ootp-ch03-004
+  - ootp-ch29-004
   auror-experience:
   - gof-ch13-007
   auror-headquarters:
@@ -12295,6 +12404,8 @@ by_tag:
   - poa-ch16-003
   career-advice:
   - ootp-ch12-002
+  - ootp-ch29-003
+  - ootp-ch29-004
   career-guidance:
   - cos-ch14-002
   careers:
@@ -12602,6 +12713,8 @@ by_tag:
   - ootp-ch18-001
   - ootp-ch19-001
   - ootp-ch28-004
+  - ootp-ch29-002
+  - ootp-ch29-005
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -12639,6 +12752,7 @@ by_tag:
   corporal-punishment:
   - ootp-ch13-006
   - ootp-ch28-003
+  - ootp-ch29-007
   correspondence:
   - gof-ch27-002
   corridor-discipline:
@@ -13125,6 +13239,7 @@ by_tag:
   - ootp-ch28-001
   - ootp-ch28-002
   - ootp-ch28-005
+  - ootp-ch29-002
   domestic-herd:
   - ootp-ch20-007
   doors:
@@ -13341,6 +13456,7 @@ by_tag:
   - ps-ch02-003
   - ps-ch03-002
   easter-holidays:
+  - ootp-ch29-001
   - poa-ch03-004
   eavesdropping:
   - ootp-ch04-006
@@ -13453,6 +13569,7 @@ by_tag:
   - cos-ch16-001
   - cos-ch18-007
   - ootp-ch23-003
+  - ootp-ch29-001
   - poa-ch15-003
   - poa-ch16-001
   - poa-ch16-003
@@ -13554,6 +13671,8 @@ by_tag:
   - ootp-ch14-005
   - ootp-ch15-002
   - ootp-ch15-005
+  - ootp-ch29-001
+  - ootp-ch29-003
   fifth-year-booklist:
   - ootp-ch09-004
   fifth-year-curriculum:
@@ -13575,6 +13694,7 @@ by_tag:
   - ootp-ch25-006
   - ootp-ch28-003
   - ootp-ch28-004
+  - ootp-ch29-007
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -13677,6 +13797,7 @@ by_tag:
   - ootp-ch22-003
   - ootp-ch27-006
   - ootp-ch28-004
+  - ootp-ch29-005
   floo-powder:
   - gof-ch04-004
   floo-regulation-panel:
@@ -13794,6 +13915,8 @@ by_tag:
   - gof-ch04-005
   - gof-ch05-004
   - ootp-ch04-006
+  fred-george:
+  - ootp-ch29-007
   free-will:
   - gof-ch14-003
   freedom:
@@ -14003,6 +14126,7 @@ by_tag:
   gringotts:
   - gof-ch05-001
   - ootp-ch10-005
+  - ootp-ch29-003
   - ps-ch05-001
   - ps-ch14-003
   ground-floor:
@@ -14269,6 +14393,7 @@ by_tag:
   - gof-ch18-002
   - gof-ch36-002
   - ootp-ch09-006
+  - ootp-ch29-003
   - poa-ch08-003
   headless-hats:
   - ootp-ch24-007
@@ -14439,6 +14564,7 @@ by_tag:
   - ootp-ch26-004
   - ootp-ch26-006
   - ootp-ch27-006
+  - ootp-ch29-002
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -14990,6 +15116,7 @@ by_tag:
   - gof-ch25-007
   - ootp-ch03-005
   - ootp-ch20-001
+  - ootp-ch29-005
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -15002,6 +15129,7 @@ by_tag:
   invisibility-spell:
   - ootp-ch24-007
   james-potter:
+  - ootp-ch29-006
   - poa-ch10-006
   - poa-ch18-005
   - poa-ch18-007
@@ -15141,6 +15269,7 @@ by_tag:
   - ootp-ch16-006
   - ootp-ch19-004
   - ootp-ch24-006
+  - ootp-ch29-001
   - poa-ch11-003
   - poa-ch15-004
   - ps-ch09-001
@@ -15170,6 +15299,7 @@ by_tag:
   lily-and-james:
   - ps-ch04-005
   lily-evans:
+  - ootp-ch29-006
   - ps-ch04-004
   lily-potter:
   - ootp-ch02-004
@@ -15342,6 +15472,7 @@ by_tag:
   - ps-ch12-005
   magical-careers:
   - ootp-ch03-004
+  - ootp-ch29-003
   magical-communication:
   - ootp-ch23-002
   magical-community:
@@ -15423,6 +15554,7 @@ by_tag:
   - gof-ch17-005
   magical-objects:
   - gof-ch04-002
+  - ootp-ch29-005
   magical-photographs:
   - cos-ch06-005
   magical-plants:
@@ -15521,6 +15653,7 @@ by_tag:
   marauders:
   - ootp-ch09-006
   - ootp-ch17-007
+  - ootp-ch29-006
   - poa-ch18-005
   marauders-era:
   - ootp-ch28-007
@@ -15949,6 +16082,8 @@ by_tag:
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch13-003
+  - ootp-ch29-003
+  - ootp-ch29-004
   newts:
   - poa-ch16-001
   - poa-ch22-005
@@ -16015,6 +16150,7 @@ by_tag:
   - gof-ch34-005
   office-security:
   - gof-ch25-006
+  - ootp-ch29-005
   ogg:
   - gof-ch31-001
   old-manors:
@@ -16095,6 +16231,8 @@ by_tag:
   - ootp-ch15-002
   - ootp-ch15-006
   - ootp-ch20-007
+  - ootp-ch29-001
+  - ootp-ch29-004
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -16126,6 +16264,7 @@ by_tag:
   - ootp-ch18-001
   - ootp-ch26-001
   - ootp-ch28-004
+  - ootp-ch29-002
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -16149,6 +16288,8 @@ by_tag:
   - poa-ch18-006
   palmistry:
   - poa-ch06-003
+  parcels:
+  - ootp-ch29-002
   parent-letters:
   - gof-ch24-007
   parent-or-guardian:
@@ -16223,6 +16364,7 @@ by_tag:
   - gof-ch22-003
   - ootp-ch21-003
   - ootp-ch28-003
+  - ootp-ch29-007
   - poa-ch07-005
   - poa-ch08-007
   - poa-ch10-003
@@ -16344,6 +16486,8 @@ by_tag:
   - cos-ch10-002
   - cos-ch12-004
   - gof-ch35-006
+  portable-swamp:
+  - ootp-ch29-007
   portkey:
   - gof-ch31-007
   - gof-ch32-001
@@ -16405,6 +16549,7 @@ by_tag:
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
+  - ootp-ch29-004
   - poa-ch07-001
   - poa-ch08-005
   - poa-ch16-003
@@ -16583,6 +16728,7 @@ by_tag:
   - ootp-ch18-002
   - ootp-ch19-006
   - ootp-ch21-007
+  - ootp-ch29-004
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -16851,6 +16997,7 @@ by_tag:
   - ootp-ch28-006
   remus-lupin:
   - ootp-ch09-006
+  - ootp-ch29-006
   - poa-ch10-002
   - poa-ch17-003
   - poa-ch18-002
@@ -16974,6 +17121,7 @@ by_tag:
   - gof-ch13-006
   - ootp-ch13-006
   - ootp-ch28-003
+  - ootp-ch29-007
   - ps-ch10-005
   - ps-ch11-003
   school-disruption:
@@ -17027,6 +17175,7 @@ by_tag:
   school-history:
   - cos-ch12-007
   - cos-ch18-001
+  - ootp-ch29-006
   school-letter:
   - poa-ch01-004
   school-letters:
@@ -17117,6 +17266,7 @@ by_tag:
   - ootp-ch18-001
   - ootp-ch21-004
   - ootp-ch28-004
+  - ootp-ch29-002
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -17253,8 +17403,11 @@ by_tag:
   - ps-ch04-006
   seventh-floor:
   - ootp-ch18-006
+  seventh-year:
+  - ootp-ch29-001
   severus-snape:
   - ootp-ch17-005
+  - ootp-ch29-006
   - poa-ch18-007
   shady-patrons:
   - ootp-ch16-002
@@ -17307,6 +17460,7 @@ by_tag:
   - ootp-ch10-001
   - ootp-ch10-005
   - ootp-ch14-007
+  - ootp-ch29-006
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -17480,6 +17634,7 @@ by_tag:
   - ootp-ch23-003
   - ootp-ch23-006
   - ootp-ch25-002
+  - ootp-ch29-003
   stadium:
   - gof-ch08-001
   staff:
@@ -17768,6 +17923,8 @@ by_tag:
   - poa-ch03-005
   student-reaction:
   - gof-ch13-007
+  student-rebellion:
+  - ootp-ch29-007
   student-recovery:
   - cos-ch13-001
   student-recreation:
@@ -17795,9 +17952,11 @@ by_tag:
   - ootp-ch26-003
   student-rights:
   - ootp-ch18-001
+  - ootp-ch29-002
   student-rulebreaking:
   - gof-ch25-001
   - ootp-ch20-001
+  - ootp-ch29-005
   student-safety:
   - cos-ch13-007
   - cos-ch14-003
@@ -17863,6 +18022,7 @@ by_tag:
   study-groups:
   - ootp-ch16-003
   study-schedules:
+  - ootp-ch29-001
   - ps-ch14-001
   stunning-spell:
   - gof-ch09-004
@@ -18115,6 +18275,7 @@ by_tag:
   - ootp-ch13-003
   - ootp-ch14-005
   - ootp-ch15-005
+  - ootp-ch29-004
   - poa-ch04-003
   - poa-ch06-004
   - poa-ch16-003
@@ -18239,6 +18400,8 @@ by_tag:
   - ootp-ch24-006
   - ootp-ch26-001
   - ootp-ch27-005
+  umbridge-office:
+  - ootp-ch29-005
   umbridge-surveillance:
   - ootp-ch22-003
   underage-magic:

@@ -2227,6 +2227,30 @@ Summary: The available evidence includes 1 source item, led by: Tonks supplies r
   - Reference type: curriculum_or_subject
   - Notes: Tonks gives informal career evidence rather than a full Auror curriculum or Hogwarts prerequisite list.
 
+#### Section: Auror prerequisites and N.E.W.T. course thresholds
+
+Summary: The available evidence includes 1 source item, led by: The Auror pathway requires high N.E.W.T. results, character and aptitude tests, strong practical Defense, and subject preparation in Defense, Transfiguration, Charms, and Potions, with teacher-specific N.E.W.T. entry thresholds.
+
+- **Corroboration:** The Auror pathway requires high N.E.W.T. results, character and aptitude tests, strong practical Defense, and subject preparation in Defense, Transfiguration, Charms, and Potions, with teacher-specific N.E.W.T. entry thresholds.
+  - Quote: "a minimum of five N.E.W.T.s"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2206, `ootp-ch29-004`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch03-004`, `ootp-ch15-002`. ootp-ch03-004 records Auror training subjects after Hogwarts, and ootp-ch15-002 records the O.W.L. grade ladder; this entry adds the school prerequisites, N.E.W.T. thresholds, and three-year Auror training path.
+  - Notes: The advice is specific to Harry's planned Auror path and reflects McGonagall's reading of current requirements rather than a full career handbook.
+
+#### Section: Fifth-year career advice and vocational pamphlets
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts implements fifth-year career advice through House-level appointment notices and vocational pamphlets that tie school subjects to institutions such as St. Mungo's, Gringotts, and Ministry departments.
+
+- **Corroboration:** Hogwarts implements fifth-year career advice through House-level appointment notices and vocational pamphlets that tie school subjects to institutions such as St. Mungo's, Gringotts, and Ministry departments.
+  - Quote: "All fifth years will be required"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2200, `ootp-ch29-003`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch12-002`. ootp-ch12-002 explains the importance of fifth-year career advice and N.E.W.T. selection; this entry adds the actual Head-of-House appointment system and named pamphlet subjects.
+  - Notes: The pamphlets are seen through student reading in Gryffindor Tower, so the chapter does not show whether other Houses received identical displays.
+
 ### Chapter: Charms
 
 #### Section: First-Year Spellwork
@@ -2378,6 +2402,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Notes: The prophecy itself is Harry-era event evidence and should be treated as later editorial context, not original pre-Harry Hogwarts history.
 
 ### Chapter: Examinations and Academic Progression
+
+#### Section: Easter revision, library study, and exam-year pressure
+
+Summary: The available evidence includes 1 source item, led by: The Easter break functions as exam-preparation time for fifth- and seventh-years, combining student-made study schedules, intensive library use, subject review, and continuing Quidditch practice.
+
+- **Corroboration:** The Easter break functions as exam-preparation time for fifth- and seventh-years, combining student-made study schedules, intensive library use, subject review, and continuing Quidditch practice.
+  - Quote: "there were only six weeks left until their exams"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2195, `ootp-ch29-001`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ps-ch14-001`, `ootp-ch12-002`. ps-ch14-001 records early-year exam revision and library work, while ootp-ch12-002 records fifth-year O.W.L. and N.E.W.T. pressure; this entry adds Easter-break exam scheduling for fifth- and seventh-years in the Umbridge year.
+  - Notes: The passage shows student practice and narrative routine rather than an official holiday revision policy.
 
 #### Section: Fifth-year O.W.L. practical preparation
 
@@ -6752,6 +6788,18 @@ Summary: The available evidence includes 1 source item, led by: Filch expects Ed
   - Corroborates: `ootp-ch13-006`, `cos-ch08-002`. ootp-ch13-006 records Umbridge's actual abusive blood-quill punishment, and cos-ch08-002 records Filch's punishment records and desired restraints; this entry adds the threatened formal Decree Twenty-nine authority and Peeves expulsion request.
   - Notes: Filch describes a decree that is expected but not yet shown in force, so the passage is evidence for intent and proposed authority rather than confirmed implementation.
 
+#### Section: Portable Swamp, whipping approval, and student departure
+
+Summary: The available evidence includes 1 source item, led by: The swamp diversion culminates in Umbridge and Filch attempting corporal punishment, Fred and George publicly leaving school, confiscated brooms breaking free, and Peeves accepting a student's parting command.
+
+- **Corroboration:** The swamp diversion culminates in Umbridge and Filch attempting corporal punishment, Fred and George publicly leaving school, confiscated brooms breaking free, and Peeves accepting a student's parting command.
+  - Quote: "I think we've outgrown full-time education"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2216, `ootp-ch29-007`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch28-003`, `ootp-ch13-006`. ootp-ch28-003 records Filch's expectation that Decree Twenty-nine would authorize whipping, and ootp-ch13-006 records Umbridge's abusive detention; this entry adds the retrieved whipping approval form and the public Fred-and-George exit.
+  - Notes: The text shows Filch retrieving and naming the approval form, but Fred and George leave before any corporal punishment is carried out.
+
 ### Chapter: Divination, Prophecy, and School Testimony
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
@@ -7394,9 +7442,21 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore's cri
   - Corroborates: `ootp-ch17-003`, `ootp-ch03-003`, `gof-ch04-004`. ootp-ch17-003 records watched communications at Hogwarts, ootp-ch03-003 records earlier transport constraints under surveillance, and gof-ch04-004 records regulated Floo use; this entry adds Dumbledore's Portkey workaround, Fawkes warning, and Phineas relay.
   - Notes: The passage does not state who is watching the Floo Network or whether the Portkey is officially authorized.
 
+#### Section: Office fireplaces and surveillance workarounds
+
+Summary: The available evidence includes 1 source item, led by: Under Umbridge's surveillance regime, the High Inquisitor's own office fireplace remains the one known unwatched Floo route; Harry reaches it by combining a diversion, Invisibility Cloak, and lock-opening magical knife.
+
+- **Corroboration:** Under Umbridge's surveillance regime, the High Inquisitor's own office fireplace remains the one known unwatched Floo route; Harry reaches it by combining a diversion, Invisibility Cloak, and lock-opening magical knife.
+  - Quote: "the only fire that was not being watched"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2202, `ootp-ch29-005`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch28-004`, `ootp-ch20-001`. ootp-ch28-004 records Umbridge's watched communication channels, and ootp-ch20-001 records cloak-assisted unauthorized movement; this entry adds the unwatched office fire and Sirius's lock-opening knife as a targeted workaround.
+  - Notes: The office-fire exception comes from Harry's recollection of Umbridge's statement, not from an independent Floo Network record.
+
 #### Section: Watched communications under the High Inquisitor
 
-Summary: The available evidence includes 3 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
+Summary: The available evidence includes 4 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
 
 - **Corroboration:** McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
   - Quote: "channels of communication in and out of Hogwarts may be being watched"
@@ -7421,6 +7481,14 @@ Summary: The available evidence includes 3 source items, led by: McGonagall's wa
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch17-003`, `ootp-ch18-001`. ootp-ch17-003 and ootp-ch18-001 record warnings and student inference about watched communications; this entry adds Umbridge's explicit list of mechanisms, including a Floo Network Regulator, opened owl post, and guarded secret passages.
   - Notes: The passage states Umbridge's claimed surveillance capacity, but it does not show every named mechanism operating at the moment.
+
+- **Corroboration:** Umbridge's control of Hogwarts communications extends to incoming parcels, which can be opened, inspected, rewrapped, and stamped as passed by the High Inquisitor.
+  - Quote: "INSPECTED AND PASSED BY THE HOGWARTS HIGH INQUISITOR"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2198, `ootp-ch29-002`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch18-001`, `ootp-ch28-004`. ootp-ch18-001 and ootp-ch28-004 establish watched mail, fireplaces, and routes; this entry adds a visibly opened and stamped incoming parcel as concrete evidence of the screening process.
+  - Notes: The scene shows one parcel and Ginny's explanation; it does not describe the full administrative procedure for parcel inspection.
 
 ### Chapter: Public Records and Wizarding Press
 
@@ -8826,6 +8894,20 @@ Summary: The available evidence includes 1 source item, led by: The Pensieve mem
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: curriculum_or_subject
   - Notes: The evidence is a single remembered scene from Snape's point of view, and the exact date is inferred from the Marauders' age rather than stated directly.
+
+### Chapter: Marauders-Era Context and Hidden Identities
+
+#### Section: James, Snape, Lily, and retrospective student testimony
+
+Summary: The available evidence includes 1 source item, led by: Adult Marauders-era testimony adds that James and Snape's rivalry was mutual, James was admired but arrogant, Lily began dating James in seventh year after he matured, and Lupin did not effectively restrain his friends.
+
+- **Corroboration:** Adult Marauders-era testimony adds that James and Snape's rivalry was mutual, James was admired but arrogant, Lily began dating James in seventh year after he matured, and Lupin did not effectively restrain his friends.
+  - Quote: "She started going out with him in seventh year"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, PDF p. 2213, `ootp-ch29-006`, `sources/book-05/chapter-29-career-advice.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch28-007`, `ootp-ch09-006`, `poa-ch18-005`. ootp-ch28-007 records the Pensieve O.W.L. scene, ootp-ch09-006 records Lupin's prefect appointment context, and poa-ch18-005 records Marauders-era Animagus history; this entry adds Sirius and Lupin's retrospective account of James, Snape, Lily, and Lupin's inaction.
+  - Notes: Sirius and Lupin are personally invested witnesses defending James, so their retrospective account should be weighed against Snape's memory rather than treated as neutral narration.
 
 ## Part: Hogwarts Curriculum and Instruction
 

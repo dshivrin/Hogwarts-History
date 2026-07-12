@@ -432,9 +432,11 @@ tags:
     entries:
     - gof-ch19-006
     - ootp-ch03-004
+    - ootp-ch29-004
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   auror-experience:
     entries:
     - gof-ch13-007
@@ -1047,8 +1049,11 @@ tags:
   career-advice:
     entries:
     - ootp-ch12-002
+    - ootp-ch29-003
+    - ootp-ch29-004
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   career-guidance:
     entries:
     - cos-ch14-002
@@ -1707,11 +1712,14 @@ tags:
     - ootp-ch18-001
     - ootp-ch19-001
     - ootp-ch28-004
+    - ootp-ch29-002
+    - ootp-ch29-005
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   computers:
     entries:
     - gof-ch28-003
@@ -1792,9 +1800,11 @@ tags:
     entries:
     - ootp-ch13-006
     - ootp-ch28-003
+    - ootp-ch29-007
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   correspondence:
     entries:
     - gof-ch27-002
@@ -2797,6 +2807,7 @@ tags:
     - ootp-ch28-001
     - ootp-ch28-002
     - ootp-ch28-005
+    - ootp-ch29-002
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
@@ -2808,6 +2819,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   domestic-herd:
     entries:
     - ootp-ch20-007
@@ -3209,9 +3221,11 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
   easter-holidays:
     entries:
+    - ootp-ch29-001
     - poa-ch03-004
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   eavesdropping:
     entries:
     - ootp-ch04-006
@@ -3460,6 +3474,7 @@ tags:
     - cos-ch16-001
     - cos-ch18-007
     - ootp-ch23-003
+    - ootp-ch29-001
     - poa-ch15-003
     - poa-ch16-001
     - poa-ch16-003
@@ -3477,6 +3492,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   exile:
     entries:
     - ootp-ch20-003
@@ -3681,11 +3697,14 @@ tags:
     - ootp-ch14-005
     - ootp-ch15-002
     - ootp-ch15-005
+    - ootp-ch29-001
+    - ootp-ch29-003
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   fifth-year-booklist:
     entries:
     - ootp-ch09-004
@@ -3721,6 +3740,7 @@ tags:
     - ootp-ch25-006
     - ootp-ch28-003
     - ootp-ch28-004
+    - ootp-ch29-007
     - poa-ch07-005
     - poa-ch08-003
     - poa-ch08-007
@@ -3757,6 +3777,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   financial-scandal:
     entries:
     - gof-ch37-007
@@ -3934,6 +3955,7 @@ tags:
     - ootp-ch22-003
     - ootp-ch27-006
     - ootp-ch28-004
+    - ootp-ch29-005
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
@@ -3941,6 +3963,7 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -4204,6 +4227,11 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  fred-george:
+    entries:
+    - ootp-ch29-007
+    output_yaml:
+    - sources/book-05/chapter-29-career-advice.yaml
   free-will:
     entries:
     - gof-ch14-003
@@ -4637,6 +4665,7 @@ tags:
     entries:
     - gof-ch05-001
     - ootp-ch10-005
+    - ootp-ch29-003
     - ps-ch05-001
     - ps-ch14-003
     output_yaml:
@@ -4644,6 +4673,7 @@ tags:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   ground-floor:
     entries:
     - ootp-ch27-001
@@ -5162,12 +5192,14 @@ tags:
     - gof-ch18-002
     - gof-ch36-002
     - ootp-ch09-006
+    - ootp-ch29-003
     - poa-ch08-003
     output_yaml:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   headless-hats:
     entries:
     - ootp-ch24-007
@@ -5520,6 +5552,7 @@ tags:
     - ootp-ch26-004
     - ootp-ch26-006
     - ootp-ch27-006
+    - ootp-ch29-002
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -5530,6 +5563,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   high-table:
     entries:
     - ps-ch12-003
@@ -6703,6 +6737,7 @@ tags:
     - gof-ch25-007
     - ootp-ch03-005
     - ootp-ch20-001
+    - ootp-ch29-005
     - poa-ch14-004
     - poa-ch16-006
     - poa-ch17-004
@@ -6724,6 +6759,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -6736,6 +6772,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
   james-potter:
     entries:
+    - ootp-ch29-006
     - poa-ch10-006
     - poa-ch18-005
     - poa-ch18-007
@@ -6746,6 +6783,7 @@ tags:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   janus-thickey:
     entries:
     - ootp-ch23-006
@@ -7043,6 +7081,7 @@ tags:
     - ootp-ch16-006
     - ootp-ch19-004
     - ootp-ch24-006
+    - ootp-ch29-001
     - poa-ch11-003
     - poa-ch15-004
     - ps-ch09-001
@@ -7070,6 +7109,7 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-24-occlumency.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   library-book:
     entries:
     - cos-ch16-003
@@ -7112,9 +7152,11 @@ tags:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
   lily-evans:
     entries:
+    - ootp-ch29-006
     - ps-ch04-004
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   lily-potter:
     entries:
     - ootp-ch02-004
@@ -7473,8 +7515,10 @@ tags:
   magical-careers:
     entries:
     - ootp-ch03-004
+    - ootp-ch29-003
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   magical-communication:
     entries:
     - ootp-ch23-002
@@ -7658,8 +7702,10 @@ tags:
   magical-objects:
     entries:
     - gof-ch04-002
+    - ootp-ch29-005
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   magical-photographs:
     entries:
     - cos-ch06-005
@@ -7874,11 +7920,13 @@ tags:
     entries:
     - ootp-ch09-006
     - ootp-ch17-007
+    - ootp-ch29-006
     - poa-ch18-005
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   marauders-era:
     entries:
     - ootp-ch28-007
@@ -8806,9 +8854,12 @@ tags:
     - ootp-ch12-002
     - ootp-ch12-004
     - ootp-ch13-003
+    - ootp-ch29-003
+    - ootp-ch29-004
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   newts:
     entries:
     - poa-ch16-001
@@ -8959,8 +9010,10 @@ tags:
   office-security:
     entries:
     - gof-ch25-006
+    - ootp-ch29-005
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   ogg:
     entries:
     - gof-ch31-001
@@ -9122,6 +9175,8 @@ tags:
     - ootp-ch15-002
     - ootp-ch15-006
     - ootp-ch20-007
+    - ootp-ch29-001
+    - ootp-ch29-004
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
@@ -9129,6 +9184,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   original-order-phoenix:
     entries:
     - ootp-ch09-007
@@ -9178,6 +9234,7 @@ tags:
     - ootp-ch18-001
     - ootp-ch26-001
     - ootp-ch28-004
+    - ootp-ch29-002
     - poa-ch01-003
     - poa-ch02-002
     - ps-ch04-003
@@ -9202,6 +9259,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   owlery:
     entries:
     - gof-ch15-001
@@ -9244,6 +9302,11 @@ tags:
     - poa-ch06-003
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+  parcels:
+    entries:
+    - ootp-ch29-002
+    output_yaml:
+    - sources/book-05/chapter-29-career-advice.yaml
   parent-letters:
     entries:
     - gof-ch24-007
@@ -9401,6 +9464,7 @@ tags:
     - gof-ch22-003
     - ootp-ch21-003
     - ootp-ch28-003
+    - ootp-ch29-007
     - poa-ch07-005
     - poa-ch08-007
     - poa-ch10-003
@@ -9420,6 +9484,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   penalties:
     entries:
     - poa-ch15-007
@@ -9672,6 +9737,11 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+  portable-swamp:
+    entries:
+    - ootp-ch29-007
+    output_yaml:
+    - sources/book-05/chapter-29-career-advice.yaml
   portkey:
     entries:
     - gof-ch31-007
@@ -9793,6 +9863,7 @@ tags:
     - ootp-ch12-004
     - ootp-ch15-002
     - ootp-ch17-005
+    - ootp-ch29-004
     - poa-ch07-001
     - poa-ch08-005
     - poa-ch16-003
@@ -9818,6 +9889,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   potions-class:
     entries:
     - gof-ch27-003
@@ -10167,6 +10239,7 @@ tags:
     - ootp-ch18-002
     - ootp-ch19-006
     - ootp-ch21-007
+    - ootp-ch29-004
     - poa-ch06-004
     - poa-ch12-005
     - poa-ch13-004
@@ -10205,6 +10278,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   professor-quirrell:
     entries:
     - gof-ch33-002
@@ -10747,6 +10821,7 @@ tags:
   remus-lupin:
     entries:
     - ootp-ch09-006
+    - ootp-ch29-006
     - poa-ch10-002
     - poa-ch17-003
     - poa-ch18-002
@@ -10761,6 +10836,7 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   rennervate:
     entries:
     - gof-ch28-007
@@ -11019,6 +11095,7 @@ tags:
     - gof-ch13-006
     - ootp-ch13-006
     - ootp-ch28-003
+    - ootp-ch29-007
     - ps-ch10-005
     - ps-ch11-003
     output_yaml:
@@ -11028,6 +11105,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   school-disruption:
     entries:
     - ootp-ch28-005
@@ -11128,9 +11206,11 @@ tags:
     entries:
     - cos-ch12-007
     - cos-ch18-001
+    - ootp-ch29-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   school-letter:
     entries:
     - poa-ch01-004
@@ -11330,10 +11410,12 @@ tags:
     - ootp-ch18-001
     - ootp-ch21-004
     - ootp-ch28-004
+    - ootp-ch29-002
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   school-traditions:
     entries:
     - cos-ch08-004
@@ -11634,13 +11716,20 @@ tags:
     - ootp-ch18-006
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+  seventh-year:
+    entries:
+    - ootp-ch29-001
+    output_yaml:
+    - sources/book-05/chapter-29-career-advice.yaml
   severus-snape:
     entries:
     - ootp-ch17-005
+    - ootp-ch29-006
     - poa-ch18-007
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   shady-patrons:
     entries:
     - ootp-ch16-002
@@ -11744,6 +11833,7 @@ tags:
     - ootp-ch10-001
     - ootp-ch10-005
     - ootp-ch14-007
+    - ootp-ch29-006
     - poa-ch04-007
     - poa-ch08-007
     - poa-ch10-006
@@ -11781,6 +11871,7 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -12121,11 +12212,13 @@ tags:
     - ootp-ch23-003
     - ootp-ch23-006
     - ootp-ch25-002
+    - ootp-ch29-003
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   stadium:
     entries:
     - gof-ch08-001
@@ -12786,6 +12879,11 @@ tags:
     - gof-ch13-007
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  student-rebellion:
+    entries:
+    - ootp-ch29-007
+    output_yaml:
+    - sources/book-05/chapter-29-career-advice.yaml
   student-recovery:
     entries:
     - cos-ch13-001
@@ -12846,15 +12944,19 @@ tags:
   student-rights:
     entries:
     - ootp-ch18-001
+    - ootp-ch29-002
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   student-rulebreaking:
     entries:
     - gof-ch25-001
     - ootp-ch20-001
+    - ootp-ch29-005
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   student-safety:
     entries:
     - cos-ch13-007
@@ -12994,9 +13096,11 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
   study-schedules:
     entries:
+    - ootp-ch29-001
     - ps-ch14-001
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   stunning-spell:
     entries:
     - gof-ch09-004
@@ -13567,6 +13671,7 @@ tags:
     - ootp-ch13-003
     - ootp-ch14-005
     - ootp-ch15-005
+    - ootp-ch29-004
     - poa-ch04-003
     - poa-ch06-004
     - poa-ch16-003
@@ -13587,6 +13692,7 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-05/chapter-29-career-advice.yaml
   transfiguration-book:
     entries:
     - cos-ch18-006
@@ -13809,6 +13915,11 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  umbridge-office:
+    entries:
+    - ootp-ch29-005
+    output_yaml:
+    - sources/book-05/chapter-29-career-advice.yaml
   umbridge-surveillance:
     entries:
     - ootp-ch22-003

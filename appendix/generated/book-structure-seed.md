@@ -42,6 +42,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Hibernation Experiment and Press Exposure
 - Careers After Hogwarts
   - Auror Training and Natural Disguise Talent
+  - Auror prerequisites and N.E.W.T. course thresholds
+  - Fifth-year career advice and vocational pamphlets
 - Charms
   - First-Year Spellwork
 - Course Materials and Annual Booklists
@@ -73,6 +75,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Divination and Third-Year Electives
   - Crystal-Gazing Exams and True Seer Evidence
 - Examinations and Academic Progression
+  - Easter revision, library study, and exam-year pressure
   - Fifth-year O.W.L. practical preparation
   - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
   - Fifth-year weekend workload across subjects
@@ -345,6 +348,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Curriculum, Exams, and Student Life Before 1984
   - Marauders-era O.W.L. exams and grounds culture
+- Marauders-Era Context and Hidden Identities
+  - James, Snape, Lily, and retrospective student testimony
 
 ## Hogwarts Curriculum and Instruction
 
@@ -400,6 +405,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Private Occlumency lessons under official cover
 - Discipline, Punishment, and Caretaking
   - Decree Twenty-nine and caretaker enforcement
+  - Portable Swamp, whipping approval, and student departure
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -475,6 +481,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Covert student communication under the High Inquisitor
   - Dormitory crisis escalation to the headmaster
   - Emergency communication and transport under surveillance
+  - Office fireplaces and surveillance workarounds
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
