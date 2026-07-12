@@ -1,0 +1,349 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  boundary_confidence: high
+  boundary_notes: Chapter Thirty range came from project-control/processing-state.yaml and project-control/next-run.md. The prior completed anchor places Chapter Twenty-Nine through PDF page 2218 and the next source unit starts at PDF page 2245, so only PDF pages 2219-2244 were extracted and searched for this unit.
+  processed_date: '2026-07-12'
+  processor_notes: "Processed only Book 5, Chapter Thirty. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch30-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2219
+  printed_page: null
+  extracted_text_lines: 6-25
+  text_anchor:
+    start_phrase: The story of Fred and George's flight to freedom
+    end_phrase: they seemed to prefer to watch Umbridge struggle
+    local_occurrence_note: The opening aftermath describes how the twins' departure enters student legend and how the fifth-floor swamp remains in use.
+  nearby_context: Students discuss copying the twins, Filch punts pupils across the roped-off swamp, and teachers who could remove it leave Umbridge to struggle.
+  match_terms:
+  - Fred and George
+  - Hogwarts legend
+  - portable swamp
+  - fifth floor
+  - east wing
+  - Filch
+  - McGonagall
+  quote_excerpt_short: "would soon become the stuff of Hogwarts legend"
+  source_note: Fred and George's departure immediately becomes school legend, while the portable swamp persists as a fifth-floor obstruction that staff tacitly allow Umbridge and Filch to manage.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - fred-george
+  - portable-swamp
+  - school-legend
+  - staff-resistance
+  - filch
+  - student-rebellion
+  - fifth-floor
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Discipline, Punishment, and Caretaking
+  candidate_section: Portable swamp aftermath and staff noncooperation
+  reason_for_placement: The scene shows how an act of student rebellion became institutional folklore and temporarily changed corridor access.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for Umbridge-year disorder, staff passive resistance, and the way student exploits became Hogwarts legend.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch29-007
+    notes: ootp-ch29-007 records the swamp's creation and the twins' public exit; this entry adds its immediate legendary retelling, corridor management, and staff refusal to solve Umbridge's problem.
+  confidence: high
+  limitations: The evidence is Harry's near-contemporary observation and inference about teachers' motives, not a formal staff statement.
+
+- id: ootp-ch30-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2220
+  printed_page: null
+  extracted_text_lines: 33-78
+  text_anchor:
+    start_phrase: Inspired by Fred and George's example
+    end_phrase: It unscrews the other way
+    local_occurrence_note: The narrative catalogs student pranks, Skiving Snackbox use, Peeves's campaign, and McGonagall's aside to Peeves.
+  nearby_context: A niffler attacks Umbridge's office, students use Bubble-Head Charms against dungbombs, the Inquisitorial Squad is hexed, and Peeves attacks school fixtures.
+  match_terms:
+  - Troublemakers-in-Chief
+  - niffler
+  - Bubble-Head Charms
+  - Inquisitorial Squad
+  - Skiving Snackboxes
+  - Peeves
+  - McGonagall
+  quote_excerpt_short: "newly vacant positions of Troublemakers-in-Chief"
+  source_note: Student resistance broadens into corridor sabotage, prank-product sickouts, attacks on Inquisitorial Squad members, and Peeves-led disruption while most staff decline to help Umbridge.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - student-resistance
+  - inquisitorial-squad
+  - peeves
+  - skiving-snackboxes
+  - niffler
+  - staff-resistance
+  - bubble-head-charm
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Student Resistance and Practical Defense
+  candidate_section: Widespread anti-Umbridge sabotage after the Weasley exit
+  reason_for_placement: The passage gives an unusually dense schoolwide snapshot of how students, prank products, and a poltergeist undermined the High Inquisitor's authority.
+  relevance_to_hogwarts_a_history: This supports later-edition coverage of the Umbridge year as a breakdown in normal discipline and a case study in informal student-staff resistance.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch26-003
+    - ootp-ch29-007
+    notes: ootp-ch26-003 records student and staff workarounds under information control, and ootp-ch29-007 records the initiating Weasley exit; this entry adds the schoolwide sabotage wave that followed.
+  confidence: high
+  limitations: The passage groups many incidents in narrative summary, so individual perpetrators and official responses are mostly unspecified.
+
+- id: ootp-ch30-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2225
+  printed_page: null
+  extracted_text_lines: 214-246; 813-849
+  text_anchor:
+    start_phrase: The final match of the Quidditch season
+    end_phrase: the last echoing strains of Weasley Is Our King died away
+    local_occurrence_note: Ron's Cup prospects are discussed before the match, and the ending reveals Gryffindor's victory procession into the entrance hall.
+  nearby_context: Slytherin's loss to Hufflepuff gives Gryffindor a Cup chance, Luna wears an eagle hat for Ravenclaw, and Gryffindors reclaim the Slytherin song in praise of Ron.
+  match_terms:
+  - Quidditch Cup
+  - Gryffindor
+  - Ravenclaw
+  - Hufflepuff
+  - Weasley Is Our King
+  - entrance hall
+  - House rivalry
+  quote_excerpt_short: "waving the silver Quidditch Cup"
+  source_note: The final Gryffindor-Ravenclaw match resolves the House Quidditch Cup season, with Gryffindor students carrying Ron into the castle while reclaiming the taunt-song as celebration.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-cup
+  - gryffindor
+  - ravenclaw
+  - house-rivalry
+  - school-songs
+  - ron-weasley
+  - entrance-hall
+  candidate_part: Student Life and House Culture
+  candidate_chapter: Quidditch, Cups, and House Rivalry
+  candidate_section: Gryffindor's 1996 Cup victory and song reversal
+  reason_for_placement: The evidence records Cup standings, matchday House symbols, and how student songs could be repurposed after a sporting result.
+  relevance_to_hogwarts_a_history: This can seed a student-life section on House Quidditch seasons, trophy culture, and the social life of chants and taunts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch12-004
+    - ootp-ch19-003
+    notes: poa-ch12-004 records Cup-driven practice and standings, while ootp-ch19-003 records the resumed Umbridge-year season; this entry adds the final match result and Gryffindor's celebratory song reversal.
+  confidence: high
+  limitations: Harry and Hermione miss the match itself, so the entry relies on pre-match standings and the observed post-match procession rather than play-by-play evidence.
+
+- id: ootp-ch30-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2228
+  printed_page: null
+  extracted_text_lines: 288-330; 359-385
+  text_anchor:
+    start_phrase: I jus' hope she doesn' notice us goin'
+    end_phrase: their absence struck him as rather ominous
+    local_occurrence_note: Hagrid removes Harry and Hermione during the Quidditch match, arms himself at the forest edge, and leads them beyond the thestral clearing.
+  nearby_context: Umbridge and the Inquisitorial Squad are occupied at the match, Hagrid checks the lawn is deserted, picks up a crossbow, and leaves the path deep in the forest.
+  match_terms:
+  - Quidditch match
+  - Umbridge
+  - Inquisitorial Squad
+  - Hagrid's cabin
+  - crossbow
+  - thestrals
+  - Forbidden Forest
+  quote_excerpt_short: "we weren' goin' in so far then"
+  source_note: Hagrid uses the Quidditch crowd as cover to lead students secretly from the stands past his cabin and deep into the Forbidden Forest, armed because centaur relations have worsened.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - forbidden-forest
+  - hagrid
+  - crossbow
+  - covert-movement
+  - thestrals
+  - umbridge
+  - student-safety
+  candidate_part: The Castle and Grounds
+  candidate_chapter: The Forbidden Forest
+  candidate_section: Deep forest routes, armed escort, and post-Firenze danger
+  reason_for_placement: The passage expands known Forest geography and safety practice by showing a trip beyond ordinary lesson sites under heightened creature-political risk.
+  relevance_to_hogwarts_a_history: A later edition could use this to distinguish the Forest edge and teaching clearings from deeper, more dangerous areas beyond ordinary student access.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch21-001
+    - cos-ch15-004
+    - ps-ch15-005
+    notes: ootp-ch21-001 records the thestral clearing and herd, while cos-ch15-004 and ps-ch15-005 record earlier path warnings and supervised forest routes; this entry adds a clandestine armed route past those known areas.
+  confidence: high
+  limitations: The exact physical route is narrated experientially, without a map or official Forest boundary description.
+
+- id: ootp-ch30-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2231
+  printed_page: null
+  extracted_text_lines: 401-428
+  text_anchor:
+    start_phrase: there's a good chance I'm goin' ter be gettin' the sack
+    end_phrase: An' Ron, if he's willin'
+    local_occurrence_note: Hagrid explains in the forest why he expects Umbridge to dismiss him soon and why he needs the students' help.
+  nearby_context: Hagrid says Umbridge blames him for the office niffler because it involves magical creatures, compares his likely dismissal to Trelawney's, and expects Grubbly-Plank to teach the class through exams.
+  match_terms:
+  - getting the sack
+  - niffler
+  - magical creatures
+  - Trelawney
+  - Grubbly-Plank
+  - exams
+  - Order
+  quote_excerpt_short: "there's a good chance I'm goin' ter be gettin' the sack"
+  source_note: Hagrid expects imminent dismissal under Umbridge's creature-focused suspicion, assumes Grubbly-Plank can cover exam teaching, and frames his remaining secret duty as the reason he has not left.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - hagrid
+  - high-inquisitor
+  - staff-dismissal
+  - grubbly-plank
+  - care-of-magical-creatures
+  - exams
+  - magical-creatures
+  candidate_part: Headmasters and School Authority
+  candidate_chapter: Ministry Intervention and Staff Vulnerability
+  candidate_section: Hagrid's expected dismissal and substitute continuity
+  reason_for_placement: The scene connects the High Inquisitor's disciplinary pressure to staff replacement, public dismissal spectacle, and exam-year continuity planning.
+  relevance_to_hogwarts_a_history: This helps a later edition explain how Umbridge's authority threatened vulnerable teachers and how Hogwarts classes could continue through substitute staff.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch25-004
+    - ootp-ch20-006
+    - ootp-ch21-002
+    notes: ootp-ch25-004 records Hagrid's probation and continuous inspection, while ootp-ch20-006 and ootp-ch21-002 record earlier scrutiny and inspection; this entry adds Hagrid's own expectation of imminent dismissal and Grubbly-Plank continuity.
+  confidence: high
+  limitations: The dismissal is anticipated by Hagrid here rather than formally announced in this chapter.
+
+- id: ootp-ch30-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2233
+  printed_page: null
+  extracted_text_lines: 442-568; 614-669
+  text_anchor:
+    start_phrase: The great mound of earth
+    end_phrase: now he'll know yeh when yeh come back
+    local_occurrence_note: Harry and Hermione realize the mound is Grawp, hear Hagrid explain his giant kinship, and see Grawp wake, strain his ropes, and grab toward Hermione.
+  nearby_context: Hagrid says Grawp is his half-brother, only sixteen feet tall for a giant, brought back secretly by night through wild country, tied to trees, and being taught English.
+  match_terms:
+  - Grawp
+  - giant
+  - half-brother
+  - English
+  - giantesses
+  - ropes
+  - Forbidden Forest
+  quote_excerpt_short: "he's my brother"
+  source_note: Hagrid has concealed his sixteen-foot giant half-brother Grawp in the Forbidden Forest, after secretly transporting him from giant country and trying to teach him English and manners.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - grawp
+  - giants
+  - hagrid
+  - half-brother
+  - forbidden-forest
+  - magical-residents
+  - language-learning
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: Grawp's concealed residence in the Forbidden Forest
+  reason_for_placement: The passage introduces a new hidden magical resident of the grounds and connects Hogwarts to giant kinship, language, and secrecy.
+  relevance_to_hogwarts_a_history: A later edition can use this as exceptional evidence of an unapproved giant presence inside the school's grounds during the Umbridge year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch23-006
+    - cos-ch15-006
+    notes: gof-ch23-006 records Hagrid's giant ancestry and stigma, while cos-ch15-006 records an earlier concealed creature linked to Hagrid; this entry adds Grawp himself as a hidden giant resident of the Forest.
+  confidence: high
+  limitations: Much of Grawp's background is reported by Hagrid, whose judgment about dangerous creatures is explicitly questioned by the surrounding scene.
+
+- id: ootp-ch30-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty - Grawp
+  chapter_start_pdf_page: 2219
+  chapter_end_pdf_page: 2244
+  pdf_page: 2240
+  printed_page: null
+  extracted_text_lines: 687-765
+  text_anchor:
+    start_phrase: I thought that we told you, Hagrid
+    end_phrase: They wouldn't hurt foals
+    local_occurrence_note: Magorian, Bane, and other centaurs confront Hagrid on the return route and warn him away from the Forest.
+  nearby_context: The centaurs invoke their own laws, call Firenze's teaching servitude and disgrace, spare the students as foals or innocents, and warn that their tolerance of Grawp is waning.
+  match_terms:
+  - Magorian
+  - Bane
+  - centaur laws
+  - Firenze
+  - foals
+  - our forest
+  - tolerance
+  quote_excerpt_short: "Our ways are not yours, nor are our laws."
+  source_note: The centaur herd asserts territorial authority and separate law inside the Forest, condemns Firenze's teaching as betrayal, spares schoolchildren as innocents, and warns Hagrid about Grawp.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - centaurs
+  - magorian
+  - bane
+  - forbidden-forest
+  - non-human-law
+  - firenze
+  - territorial-authority
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: Centaur territorial law after Firenze's banishment
+  reason_for_placement: The confrontation gives direct evidence for centaur self-governance, territorial claims, and their conditional tolerance of human and giant presence.
+  relevance_to_hogwarts_a_history: This can support a later chapter on the Forest as a contested borderland between Hogwarts authority and non-human residents' law.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch27-002
+    - ps-ch15-006
+    - ootp-ch26-007
+    notes: ootp-ch27-002 records Firenze's banishment, ps-ch15-006 establishes centaur residence, and ootp-ch26-007 records Firenze's appointment; this entry adds the later armed territorial confrontation and explicit centaur law claims.
+  confidence: high
+  limitations: The scene presents centaur claims during a hostile encounter and does not define the formal relationship between Hogwarts authority and centaur jurisdiction.

@@ -4087,6 +4087,18 @@ Summary: The available evidence includes 1 source item, led by: Firenze identifi
   - Corroborates: `ps-ch15-006`, `ootp-ch26-007`. ps-ch15-006 establishes centaurs as Forbidden Forest residents, and ootp-ch26-007 records Firenze's appointment; this entry adds herd banishment and centaur objections to human employment.
   - Notes: Firenze speaks from his own situation; the passage does not provide a full centaur law code or formal agreement with Hogwarts.
 
+#### Section: Centaur territorial law after Firenze's banishment
+
+Summary: The available evidence includes 1 source item, led by: The centaur herd asserts territorial authority and separate law inside the Forest, condemns Firenze's teaching as betrayal, spares schoolchildren as innocents, and warns Hagrid about Grawp.
+
+- **Corroboration:** The centaur herd asserts territorial authority and separate law inside the Forest, condemns Firenze's teaching as betrayal, spares schoolchildren as innocents, and warns Hagrid about Grawp.
+  - Quote: "Our ways are not yours, nor are our laws."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2240, `ootp-ch30-007`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch27-002`, `ps-ch15-006`, `ootp-ch26-007`. ootp-ch27-002 records Firenze's banishment, ps-ch15-006 establishes centaur residence, and ootp-ch26-007 records Firenze's appointment; this entry adds the later armed territorial confrontation and explicit centaur law claims.
+  - Notes: The scene presents centaur claims during a hostile encounter and does not define the formal relationship between Hogwarts authority and centaur jurisdiction.
+
 #### Section: Centaurs in the Forbidden Forest
 
 Summary: The available evidence includes 1 source item, led by: The chapter establishes centaurs as resident magical beings in the Forbidden Forest and shows Hagrid's working familiarity with Ronan and Bane.
@@ -4109,6 +4121,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter summ
   - Reference type: direct_observed_setting
   - Corroborates: `ps-ch15-006`. Chapter Fifteen of Book 1 establishes centaurs as forest residents; this entry corroborates centaurs and unicorns while adding werewolf rumor as student-level caution.
   - Notes: The werewolf point is phrased as Ron's uncertain question and should be treated as rumor until corroborated elsewhere.
+
+#### Section: Grawp's concealed residence in the Forbidden Forest
+
+Summary: The available evidence includes 1 source item, led by: Hagrid has concealed his sixteen-foot giant half-brother Grawp in the Forbidden Forest, after secretly transporting him from giant country and trying to teach him English and manners.
+
+- **Corroboration:** Hagrid has concealed his sixteen-foot giant half-brother Grawp in the Forbidden Forest, after secretly transporting him from giant country and trying to teach him English and manners.
+  - Quote: "he's my brother"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2233, `ootp-ch30-006`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch23-006`, `cos-ch15-006`. gof-ch23-006 records Hagrid's giant ancestry and stigma, while cos-ch15-006 records an earlier concealed creature linked to Hagrid; this entry adds Grawp himself as a hidden giant resident of the Forest.
+  - Notes: Much of Grawp's background is reported by Hagrid, whose judgment about dangerous creatures is explicitly questioned by the surrounding scene.
 
 #### Section: The Giant Squid in the Lake
 
@@ -6800,6 +6824,18 @@ Summary: The available evidence includes 1 source item, led by: The swamp divers
   - Corroborates: `ootp-ch28-003`, `ootp-ch13-006`. ootp-ch28-003 records Filch's expectation that Decree Twenty-nine would authorize whipping, and ootp-ch13-006 records Umbridge's abusive detention; this entry adds the retrieved whipping approval form and the public Fred-and-George exit.
   - Notes: The text shows Filch retrieving and naming the approval form, but Fred and George leave before any corporal punishment is carried out.
 
+#### Section: Portable swamp aftermath and staff noncooperation
+
+Summary: The available evidence includes 1 source item, led by: Fred and George's departure immediately becomes school legend, while the portable swamp persists as a fifth-floor obstruction that staff tacitly allow Umbridge and Filch to manage.
+
+- **Corroboration:** Fred and George's departure immediately becomes school legend, while the portable swamp persists as a fifth-floor obstruction that staff tacitly allow Umbridge and Filch to manage.
+  - Quote: "would soon become the stuff of Hogwarts legend"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2219, `ootp-ch30-001`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch29-007`. ootp-ch29-007 records the swamp's creation and the twins' public exit; this entry adds its immediate legendary retelling, corridor management, and staff refusal to solve Umbridge's problem.
+  - Notes: The evidence is Harry's near-contemporary observation and inference about teachers' motives, not a formal staff statement.
+
 ### Chapter: Divination, Prophecy, and School Testimony
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
@@ -7628,6 +7664,18 @@ Summary: The available evidence includes 1 source item, led by: The D.A. advance
   - Classification: later_editorial_note | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The scene records bright-room practice, and Harry explicitly warns that it differs from casting under dementor threat.
+
+#### Section: Widespread anti-Umbridge sabotage after the Weasley exit
+
+Summary: The available evidence includes 1 source item, led by: Student resistance broadens into corridor sabotage, prank-product sickouts, attacks on Inquisitorial Squad members, and Peeves-led disruption while most staff decline to help Umbridge.
+
+- **Corroboration:** Student resistance broadens into corridor sabotage, prank-product sickouts, attacks on Inquisitorial Squad members, and Peeves-led disruption while most staff decline to help Umbridge.
+  - Quote: "newly vacant positions of Troublemakers-in-Chief"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2220, `ootp-ch30-002`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch26-003`, `ootp-ch29-007`. ootp-ch26-003 records student and staff workarounds under information control, and ootp-ch29-007 records the initiating Weasley exit; this entry adds the schoolwide sabotage wave that followed.
+  - Notes: The passage groups many incidents in narrative summary, so individual perpetrators and official responses are mostly unspecified.
 
 ### Chapter: Student Welfare and Crisis Response
 
@@ -8880,6 +8928,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter maps
   - Corroborates: `gof-ch02-006`, `gof-ch19-001`, `gof-ch24-005`. gof-ch02-006 records the Sirius and Buckbeak escape context, gof-ch19-001 records Hogsmeade visit privilege, and gof-ch24-005 records ordinary castle-to-village movement; this entry adds the mountain-edge cave route.
   - Notes: The cave is not identified as an official site or a common student destination.
 
+## Part: Headmasters and School Authority
+
+### Chapter: Ministry Intervention and Staff Vulnerability
+
+#### Section: Hagrid's expected dismissal and substitute continuity
+
+Summary: The available evidence includes 1 source item, led by: Hagrid expects imminent dismissal under Umbridge's creature-focused suspicion, assumes Grubbly-Plank can cover exam teaching, and frames his remaining secret duty as the reason he has not left.
+
+- **Corroboration:** Hagrid expects imminent dismissal under Umbridge's creature-focused suspicion, assumes Grubbly-Plank can cover exam teaching, and frames his remaining secret duty as the reason he has not left.
+  - Quote: "there's a good chance I'm goin' ter be gettin' the sack"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2231, `ootp-ch30-005`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch25-004`, `ootp-ch20-006`, `ootp-ch21-002`. ootp-ch25-004 records Hagrid's probation and continuous inspection, while ootp-ch20-006 and ootp-ch21-002 record earlier scrutiny and inspection; this entry adds Hagrid's own expectation of imminent dismissal and Grubbly-Plank continuity.
+  - Notes: The dismissal is anticipated by Hagrid here rather than formally announced in this chapter.
+
 ## Part: Historical Foundations
 
 ### Chapter: Curriculum, Exams, and Student Life Before 1984
@@ -9427,6 +9491,22 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's confess
   - Corroborates: `ps-ch04-007`, `cos-ch07-005`. ps-ch04-007 and cos-ch07-005 already record Hagrid's expulsion, magic restriction, and Dumbledore's retention of him; this entry adds giant ancestry, orphaned school years, and the social reason Hagrid kept his background secret.
   - Notes: Ron's comments about giants reflect common prejudice and partial knowledge rather than an authoritative historical survey.
 
+## Part: Student Life and House Culture
+
+### Chapter: Quidditch, Cups, and House Rivalry
+
+#### Section: Gryffindor's 1996 Cup victory and song reversal
+
+Summary: The available evidence includes 1 source item, led by: The final Gryffindor-Ravenclaw match resolves the House Quidditch Cup season, with Gryffindor students carrying Ron into the castle while reclaiming the taunt-song as celebration.
+
+- **Corroboration:** The final Gryffindor-Ravenclaw match resolves the House Quidditch Cup season, with Gryffindor students carrying Ron into the castle while reclaiming the taunt-song as celebration.
+  - Quote: "waving the silver Quidditch Cup"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2225, `ootp-ch30-003`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch12-004`, `ootp-ch19-003`. poa-ch12-004 records Cup-driven practice and standings, while ootp-ch19-003 records the resumed Umbridge-year season; this entry adds the final match result and Gryffindor's celebratory song reversal.
+  - Notes: Harry and Hermione miss the match itself, so the entry relies on pre-match standings and the observed post-match procession rather than play-by-play evidence.
+
 ## Part: Student Life and School Customs
 
 ### Chapter: Hogsmeade Weekends and Student Privileges
@@ -9545,6 +9625,22 @@ Summary: The available evidence includes 1 source item, led by: Firenze reframes
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch15-007`. ps-ch15-007 records earlier centaur planetary divination in the Forbidden Forest; this entry adds its formal classroom use as Divination curriculum.
   - Notes: The method is presented through one substitute teacher's first lesson and may not represent ordinary Hogwarts Divination.
+
+## Part: The Castle and Grounds
+
+### Chapter: The Forbidden Forest
+
+#### Section: Deep forest routes, armed escort, and post-Firenze danger
+
+Summary: The available evidence includes 1 source item, led by: Hagrid uses the Quidditch crowd as cover to lead students secretly from the stands past his cabin and deep into the Forbidden Forest, armed because centaur relations have worsened.
+
+- **Corroboration:** Hagrid uses the Quidditch crowd as cover to lead students secretly from the stands past his cabin and deep into the Forbidden Forest, armed because centaur relations have worsened.
+  - Quote: "we weren' goin' in so far then"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, PDF p. 2228, `ootp-ch30-004`, `sources/book-05/chapter-30-grawp.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch21-001`, `cos-ch15-004`, `ps-ch15-005`. ootp-ch21-001 records the thestral clearing and herd, while cos-ch15-004 and ps-ch15-005 record earlier path warnings and supervised forest routes; this entry adds a clandestine armed route past those known areas.
+  - Notes: The exact physical route is narrated experientially, without a map or official Forest boundary description.
 
 ## Part: The Castle and Its Protections
 

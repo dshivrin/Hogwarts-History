@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty - Grawp
-- Page range: 2219-2244
+- Chapter: Chapter Thirty-One - O.W.L.s
+- Page range: 2245-2268
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-30-grawp.yaml`
+- Output YAML: `sources/book-05/chapter-31-o-w-l-s.yaml`
 
 ## Minimal Context
 

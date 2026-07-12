@@ -321,8 +321,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Magical Residents of the Grounds
   - Aragog's Colony in the Forbidden Forest
   - Centaur autonomy and Firenze's banishment
+  - Centaur territorial law after Firenze's banishment
   - Centaurs in the Forbidden Forest
   - Forbidden Forest Creature Lore
+  - Grawp's concealed residence in the Forbidden Forest
   - The Giant Squid in the Lake
 - Portraits as Residents and Gatekeepers
   - Temporary Portrait Guardians
@@ -343,6 +345,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogsmeade Routes and Outlying Terrain
   - Mountain Cave Beyond the Village Edge
+
+## Headmasters and School Authority
+
+- Ministry Intervention and Staff Vulnerability
+  - Hagrid's expected dismissal and substitute continuity
 
 ## Historical Foundations
 
@@ -406,6 +413,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Discipline, Punishment, and Caretaking
   - Decree Twenty-nine and caretaker enforcement
   - Portable Swamp, whipping approval, and student departure
+  - Portable swamp aftermath and staff noncooperation
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -500,6 +508,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Weasley Joke Sweets and Engorgement Charms
 - Student Resistance and Practical Defense
   - D.A. Patronus instruction in the Room of Requirement
+  - Widespread anti-Umbridge sabotage after the Weasley exit
 - Student Welfare and Crisis Response
   - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Chamber of Secrets Crisis
@@ -1041,6 +1050,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Biographies and Institutional Memory
   - Hagrid, Giant Ancestry, and Dumbledore's Patronage
 
+## Student Life and House Culture
+
+- Quidditch, Cups, and House Rivalry
+  - Gryffindor's 1996 Cup victory and song reversal
+
 ## Student Life and School Customs
 
 - Hogsmeade Weekends and Student Privileges
@@ -1070,6 +1084,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Divination and Predictive Magic
   - Firenze's centaur method and wartime sky omens
+
+## The Castle and Grounds
+
+- The Forbidden Forest
+  - Deep forest routes, armed escort, and post-Firenze danger
 
 ## The Castle and Its Grounds
 
