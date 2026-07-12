@@ -1,0 +1,331 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Eight range came from project-control/processing-state.yaml and project-control/next-run.md. Prior bounded anchors place Chapter Twenty-Nine at PDF page 2195, so only PDF pages 2169-2194 were extracted and searched for this unit.
+  processed_date: '2026-07-12'
+  processor_notes: "Processed only Book 5, Chapter Twenty-Eight. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch28-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2169
+  printed_page: null
+  extracted_text_lines: 1-40
+  text_anchor:
+    start_phrase: BY ORDER OF
+    end_phrase: has sealed itself against her
+    local_occurrence_note: Ministry notices appoint Umbridge head of Hogwarts, while student reports say the head's office refuses her entry.
+  nearby_context: The whole castle discusses Dumbledore's escape, Ernie reports the Fat Friar's account of the gargoyle blocking Umbridge, and Hermione frames the office as the real prize of the office of head.
+  match_terms:
+  - Educational Decree Number Twenty-eight
+  - Head of Hogwarts
+  - head's office
+  - gargoyle
+  - Fat Friar
+  - Dumbledore
+  quote_excerpt_short: "has sealed itself against her"
+  source_note: Educational Decree Number Twenty-eight names Umbridge Head of Hogwarts, but the head's office and gargoyle appear to reject her access after Dumbledore's escape.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - educational-decrees
+  - headmaster-office
+  - dolores-umbridge
+  - dumbledore
+  - magical-architecture
+  - school-governance
+  - stone-gargoyle
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Ministry-appointed headship and resistant office access
+  reason_for_placement: The passage links formal Ministry appointment to magical limits on occupying the headmaster's office.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that Hogwarts headship involved more than a Ministry notice, because the office itself could resist a disputed claimant.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch13-006
+    - cos-ch11-007
+    - ootp-ch22-001
+    notes: Prior entries establish the headmaster-office gargoyle, moving stair, and office continuity; this entry adds Umbridge's Ministry appointment and the office sealing itself against her.
+  confidence: high
+  limitations: The office's resistance is reported secondhand through Ernie's account of the Fat Friar rather than directly observed by Harry.
+- id: ootp-ch28-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2171
+  printed_page: null
+  extracted_text_lines: 60-99
+  text_anchor:
+    start_phrase: The Inquisitorial Squad, Granger
+    end_phrase: Noticed, have you
+    local_occurrence_note: Malfoy explains the squad's badge and point-docking powers before the House hourglasses visibly change.
+  nearby_context: Malfoy claims prefects cannot dock points from one another but that Umbridge's hand-picked squad can, then subtracts points from Gryffindor and Hufflepuff while Slytherin remains unchanged.
+  match_terms:
+  - Inquisitorial Squad
+  - prefects
+  - House points
+  - hourglasses
+  - Professor Umbridge
+  - Slytherin
+  quote_excerpt_short: "members of the Inquisitorial Squad do have the power"
+  source_note: Umbridge's hand-picked Inquisitorial Squad gives selected students authority to dock House points, visibly overriding normal prefect limits through the hourglass system.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - inquisitorial-squad
+  - house-points
+  - prefects
+  - student-discipline
+  - dolores-umbridge
+  - school-governance
+  - slytherin
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Houses, Points, and Student Authority
+  candidate_section: Inquisitorial Squad point powers
+  reason_for_placement: The passage shows an emergency political body changing the usual balance between prefect authority and House-point discipline.
+  relevance_to_hogwarts_a_history: This provides a compact example of how the Umbridge regime altered student leadership, discipline, and inter-House power.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results found general prefect and House-point entries, but no prior entry for the Inquisitorial Squad's special point-docking authority.
+  confidence: high
+  limitations: Malfoy explains the power in dialogue, and the chapter shows the hourglasses respond, but it does not quote the underlying decree or authorization text.
+- id: ootp-ch28-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2173
+  printed_page: null
+  extracted_text_lines: 143-166
+  text_anchor:
+    start_phrase: Things are changing around here, Potter
+    end_phrase: his knowledge of the school's secret passageways
+    local_occurrence_note: Filch escorts Harry to Umbridge and describes anticipated powers under Educational Decree Twenty-nine.
+  nearby_context: Filch says Dumbledore had been too soft, anticipates authority to whip students or string them up, says Umbridge has asked the Minister to expel Peeves, and is valued for knowledge of hidden routes.
+  match_terms:
+  - Educational Decree Twenty-nine
+  - Filch
+  - whip
+  - expulsion of Peeves
+  - secret passageways
+  - hiding places
+  quote_excerpt_short: "when Educational Decree Twenty-nine comes in"
+  source_note: Filch expects Educational Decree Twenty-nine to authorize old-style corporal punishments and notes a Ministry order sought to expel Peeves, while his hidden-route knowledge makes him useful to Umbridge.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - educational-decrees
+  - corporal-punishment
+  - filch
+  - peeves
+  - secret-passages
+  - school-discipline
+  - caretaker
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Discipline, Punishment, and Caretaking
+  candidate_section: Decree Twenty-nine and caretaker enforcement
+  reason_for_placement: The passage ties formal Ministry rulemaking to caretaker discipline, ghost-poltergeist governance, and practical knowledge of hidden castle routes.
+  relevance_to_hogwarts_a_history: A later edition could contrast old punitive ideals with ordinary Hogwarts discipline and note how Umbridge attempted to revive or legalize them.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch13-006
+    - cos-ch08-002
+    notes: ootp-ch13-006 records Umbridge's actual abusive blood-quill punishment, and cos-ch08-002 records Filch's punishment records and desired restraints; this entry adds the threatened formal Decree Twenty-nine authority and Peeves expulsion request.
+  confidence: medium
+  limitations: Filch describes a decree that is expected but not yet shown in force, so the passage is evidence for intent and proposed authority rather than confirmed implementation.
+- id: ootp-ch28-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2176
+  printed_page: null
+  extracted_text_lines: 242-249
+  text_anchor:
+    start_phrase: All channels of communication in and out of this school
+    end_phrase: all secret passages in and out of the castle
+    local_occurrence_note: Umbridge threatens Harry while listing monitored communication and movement channels.
+  nearby_context: Umbridge questions Harry about Dumbledore and Sirius Black, then names the Floo Network Regulator, the Inquisitorial Squad's mail opening, and Filch's secret-passage watch.
+  match_terms:
+  - channels of communication
+  - Floo Network Regulator
+  - owl post
+  - Inquisitorial Squad
+  - secret passages
+  - Hogwarts
+  quote_excerpt_short: "All channels of communication in and out of this school"
+  source_note: Umbridge explicitly confirms that school communications and routes are under surveillance, including monitored fireplaces, opened owl post, and Filch watching secret passages.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - communication-security
+  - floo-network
+  - owl-post
+  - inquisitorial-squad
+  - secret-passages
+  - school-surveillance
+  - filch
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Watched communications under the High Inquisitor
+  reason_for_placement: The passage gives Umbridge's direct confirmation of specific surveillance mechanisms affecting external contact and castle movement.
+  relevance_to_hogwarts_a_history: A later edition can use this as the clearest Umbridge-era statement of schoolwide surveillance over both communication and physical escape routes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch17-003
+    - ootp-ch18-001
+    notes: ootp-ch17-003 and ootp-ch18-001 record warnings and student inference about watched communications; this entry adds Umbridge's explicit list of mechanisms, including a Floo Network Regulator, opened owl post, and guarded secret passages.
+  confidence: high
+  limitations: The passage states Umbridge's claimed surveillance capacity, but it does not show every named mechanism operating at the moment.
+- id: ootp-ch28-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2178
+  printed_page: null
+  extracted_text_lines: 311-340
+  text_anchor:
+    start_phrase: The fireworks continued to burn
+    end_phrase: whether I had the authority
+    local_occurrence_note: After Fred and George's enchanted fireworks spread, teachers repeatedly summon Umbridge while avoiding removal themselves.
+  nearby_context: McGonagall asks that Umbridge be informed of a classroom firework, Umbridge spends the afternoon responding across the school, and Flitwick says he could have removed sparklers but was unsure whether he had authority.
+  match_terms:
+  - Weasleys' Wildfire Whiz-Bangs
+  - Professor McGonagall
+  - Professor Flitwick
+  - headmistress
+  - authority
+  - classrooms
+  quote_excerpt_short: "I wasn't sure whether I had the authority"
+  source_note: Staff use Umbridge's centralized authority against her by repeatedly summoning the headmistress to remove enchanted fireworks they imply they are not authorized to handle.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - faculty-resistance
+  - dolores-umbridge
+  - classroom-authority
+  - weasley-fireworks
+  - mcgonagall
+  - flitwick
+  - school-disruption
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Faculty workarounds under centralized authority
+  reason_for_placement: The incident shows how ordinary staff authority could be constrained, performed, or strategically withheld under Umbridge's headship.
+  relevance_to_hogwarts_a_history: This is a vivid later-editorial example of staff resistance and the practical limits of centralized control over classroom emergencies.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries for faculty resistance, classroom authority, and Wildfire Whiz-Bangs found no prior matching entry.
+  confidence: high
+  limitations: The fireworks are a prank and crisis response, so the passage illustrates institutional behavior rather than a formal written policy.
+- id: ootp-ch28-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2182
+  printed_page: null
+  extracted_text_lines: 455-539
+  text_anchor:
+    start_phrase: Snape was standing with his back to Harry
+    end_phrase: headfirst into the Pensieve
+    local_occurrence_note: Snape removes thoughts into Dumbledore's Pensieve before the interrupted Occlumency lesson, and Harry enters the stored memory.
+  nearby_context: The lesson remains covered as Remedial Potions, Malfoy interrupts with Montague's recovery, and Harry notices the Pensieve's silvery contents before using his wand and falling into Snape's memory.
+  match_terms:
+  - Snape's office
+  - Dumbledore's Pensieve
+  - Remedial Potions
+  - Occlumency
+  - thoughts
+  - Great Hall
+  quote_excerpt_short: "placing them carefully in Dumbledore's Pensieve"
+  source_note: Snape uses Dumbledore's Pensieve to store thoughts before Occlumency, and Harry confirms that a memory can be entered from the artifact in a teacher's office.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - pensieve
+  - memory-magic
+  - occlumency
+  - remedial-potions
+  - snape-office
+  - dumbledore
+  - great-hall
+  candidate_part: Core Castle and Grounds
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: The Pensieve and stored memories
+  reason_for_placement: The passage extends earlier Pensieve evidence from storage and analysis into unauthorized entry and embodied memory viewing.
+  relevance_to_hogwarts_a_history: This can help a future account explain how Pensieve memories preserve school history while raising privacy and access issues inside Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch24-004
+    - ootp-ch26-005
+    - gof-ch30-002
+    notes: Prior entries identify the Pensieve, its use in Snape's office, and its role in Occlumency safeguards; this entry adds Harry's unauthorized entry into Snape's stored memory and the artifact's relocation into a teacher-office privacy breach.
+  confidence: high
+  limitations: The chapter shows Dumbledore's Pensieve in Snape's office but does not settle whether the artifact is Dumbledore's personal property or a Hogwarts institutional object.
+- id: ootp-ch28-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Eight - Snape's Worst Memory
+  chapter_start_pdf_page: 2169
+  chapter_end_pdf_page: 2194
+  pdf_page: 2185
+  printed_page: null
+  extracted_text_lines: 546-831
+  text_anchor:
+    start_phrase: He was standing in the middle of the Great Hall
+    end_phrase: take off Snivelly's pants
+    local_occurrence_note: Snape's memory shows a Marauders-era Defense Against the Dark Arts O.W.L. and the immediate post-exam scene beside the lake.
+  nearby_context: Flitwick supervises and collects exam papers by Summoning Charm, the D.A.D.A. paper includes werewolf-identification questions, students gather by the lake afterward, and James and Sirius publicly hex Snape while Lily intervenes.
+  match_terms:
+  - Great Hall
+  - Defense Against the Dark Arts
+  - Ordinary Wizarding Level
+  - Professor Flitwick
+  - werewolf
+  - lake
+  - James Potter
+  quote_excerpt_short: "DEFENSE AGAINST THE DARK ARTS -- ORDINARY WIZARDING LEVEL"
+  source_note: The Pensieve memory preserves Marauders-era evidence for Great Hall O.W.L. exam layout, Defense Against the Dark Arts werewolf questions, Flitwick's invigilation, post-exam lake use, and student hexing culture.
+  reference_type: curriculum_or_subject
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - owl-exams
+  - defense-against-the-dark-arts
+  - great-hall
+  - flitwick
+  - werewolves
+  - marauders-era
+  - school-grounds
+  candidate_part: Historical Foundations
+  candidate_chapter: Curriculum, Exams, and Student Life Before 1984
+  candidate_section: Marauders-era O.W.L. exams and grounds culture
+  reason_for_placement: The memory gives unusually detailed pre-Harry school evidence for examination logistics, subject content, and informal student conduct after exams.
+  relevance_to_hogwarts_a_history: This can supply a historical comparison point for O.W.L. procedures and the social life of the grounds before Harry's generation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries for Marauders-era O.W.L. exams, werewolf questions, and grounds bullying found no prior matching entry.
+  confidence: medium
+  limitations: The evidence is a single remembered scene from Snape's point of view, and the exact date is inferred from the Marauders' age rather than stated directly.

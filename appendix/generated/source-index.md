@@ -127,3 +127,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch25`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, pages 2092-2117, 7 entries, 0 explicit references.
 - `ootp-ch26`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, pages 2118-2144, 7 entries, 0 explicit references.
 - `ootp-ch27`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, pages 2145-2168, 7 entries, 0 explicit references.
+- `ootp-ch28`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, pages 2169-2194, 7 entries, 0 explicit references.

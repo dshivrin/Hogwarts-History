@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Twenty-Eight - Snape’s Worst Memory
-- Page range: 2169-2194
+- Chapter: Chapter Twenty-Nine - Career Advice
+- Page range: 2195-2218
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+- Output YAML: `sources/book-05/chapter-29-career-advice.yaml`
 
 ## Minimal Context
 

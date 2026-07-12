@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-11'
+updated: '2026-07-12'
 tags:
   academic-assessment:
     entries:
@@ -1063,11 +1063,13 @@ tags:
     entries:
     - cos-ch08-002
     - gof-ch31-001
+    - ootp-ch28-003
     - poa-ch07-005
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   carriage:
     entries:
     - gof-ch16-005
@@ -1530,6 +1532,11 @@ tags:
     - cos-ch06-006
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  classroom-authority:
+    entries:
+    - ootp-ch28-005
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   classroom-discipline:
     entries:
     - ootp-ch15-005
@@ -1699,10 +1706,12 @@ tags:
     - ootp-ch17-003
     - ootp-ch18-001
     - ootp-ch19-001
+    - ootp-ch28-004
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   computers:
     entries:
     - gof-ch28-003
@@ -1782,8 +1791,10 @@ tags:
   corporal-punishment:
     entries:
     - ootp-ch13-006
+    - ootp-ch28-003
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   correspondence:
     entries:
     - gof-ch27-002
@@ -2331,6 +2342,7 @@ tags:
     - ootp-ch19-001
     - ootp-ch23-004
     - ootp-ch27-004
+    - ootp-ch28-007
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2398,6 +2410,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   defense-association:
     entries:
     - ootp-ch18-007
@@ -2781,6 +2794,9 @@ tags:
     - ootp-ch18-001
     - ootp-ch18-002
     - ootp-ch20-006
+    - ootp-ch28-001
+    - ootp-ch28-002
+    - ootp-ch28-005
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
@@ -2791,6 +2807,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   domestic-herd:
     entries:
     - ootp-ch20-007
@@ -2979,6 +2996,8 @@ tags:
     - ootp-ch27-001
     - ootp-ch27-002
     - ootp-ch27-007
+    - ootp-ch28-001
+    - ootp-ch28-006
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -3076,6 +3095,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3210,6 +3230,8 @@ tags:
     - ootp-ch26-006
     - ootp-ch26-007
     - ootp-ch27-006
+    - ootp-ch28-001
+    - ootp-ch28-003
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -3218,6 +3240,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -3531,6 +3554,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  faculty-resistance:
+    entries:
+    - ootp-ch28-005
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   fairness:
     entries:
     - gof-ch20-002
@@ -3691,6 +3719,8 @@ tags:
     - ootp-ch18-005
     - ootp-ch21-003
     - ootp-ch25-006
+    - ootp-ch28-003
+    - ootp-ch28-004
     - poa-ch07-005
     - poa-ch08-003
     - poa-ch08-007
@@ -3726,6 +3756,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   financial-scandal:
     entries:
     - gof-ch37-007
@@ -3881,12 +3912,15 @@ tags:
   flitwick:
     entries:
     - ootp-ch16-003
+    - ootp-ch28-005
+    - ootp-ch28-007
     - ps-ch10-001
     - ps-ch12-003
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   flitwick-office:
     entries:
     - poa-ch21-007
@@ -3899,12 +3933,14 @@ tags:
     - ootp-ch17-003
     - ootp-ch22-003
     - ootp-ch27-006
+    - ootp-ch28-004
     output_yaml:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -4475,6 +4511,8 @@ tags:
     - ootp-ch19-005
     - ootp-ch25-001
     - ootp-ch26-001
+    - ootp-ch28-006
+    - ootp-ch28-007
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -4516,6 +4554,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -5202,6 +5241,7 @@ tags:
     - gof-ch30-001
     - gof-ch36-003
     - ootp-ch22-001
+    - ootp-ch28-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -5211,6 +5251,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   headmaster-portraits:
     entries:
     - cos-ch12-001
@@ -6238,6 +6279,7 @@ tags:
     - ootp-ch12-007
     - ootp-ch15-004
     - ootp-ch26-003
+    - ootp-ch28-002
     - poa-ch07-001
     - poa-ch07-007
     - poa-ch09-005
@@ -6271,6 +6313,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   house-rivalry:
     entries:
     - ootp-ch19-004
@@ -6512,6 +6555,12 @@ tags:
     - ootp-ch12-005
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+  inquisitorial-squad:
+    entries:
+    - ootp-ch28-002
+    - ootp-ch28-004
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   institutional-custom:
     entries:
     - ps-ch07-002
@@ -7360,6 +7409,7 @@ tags:
     - ootp-ch22-001
     - ootp-ch22-004
     - ootp-ch27-001
+    - ootp-ch28-001
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -7382,6 +7432,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -7828,6 +7879,11 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  marauders-era:
+    entries:
+    - ootp-ch28-007
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   marauders-map:
     entries:
     - gof-ch04-002
@@ -7932,6 +7988,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
   mcgonagall:
     entries:
+    - ootp-ch28-005
     - poa-ch11-007
     - ps-ch09-003
     - ps-ch10-005
@@ -7952,6 +8009,7 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   medal-for-magical-merit:
     entries:
     - cos-ch13-002
@@ -8002,11 +8060,13 @@ tags:
     - gof-ch30-002
     - ootp-ch24-004
     - ootp-ch26-005
+    - ootp-ch28-006
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   memory-modification:
     entries:
     - gof-ch13-005
@@ -8871,9 +8931,11 @@ tags:
     - ootp-ch24-001
     - ootp-ch24-005
     - ootp-ch26-005
+    - ootp-ch28-006
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   off-campus-security:
     entries:
     - ootp-ch01-002
@@ -9091,6 +9153,11 @@ tags:
     - ootp-ch05-003
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  owl-exams:
+    entries:
+    - ootp-ch28-007
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   owl-post:
     entries:
     - cos-ch01-003
@@ -9110,6 +9177,7 @@ tags:
     - ootp-ch17-003
     - ootp-ch18-001
     - ootp-ch26-001
+    - ootp-ch28-004
     - poa-ch01-003
     - poa-ch02-002
     - ps-ch04-003
@@ -9133,6 +9201,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   owlery:
     entries:
     - gof-ch15-001
@@ -9331,6 +9400,7 @@ tags:
     - gof-ch15-001
     - gof-ch22-003
     - ootp-ch21-003
+    - ootp-ch28-003
     - poa-ch07-005
     - poa-ch08-007
     - poa-ch10-003
@@ -9349,6 +9419,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   penalties:
     entries:
     - poa-ch15-007
@@ -9362,10 +9433,12 @@ tags:
     - gof-ch30-002
     - ootp-ch24-004
     - ootp-ch26-005
+    - ootp-ch28-006
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   percy-weasley:
     entries:
     - cos-ch03-003
@@ -9871,6 +9944,7 @@ tags:
     - ootp-ch13-001
     - ootp-ch14-006
     - ootp-ch21-003
+    - ootp-ch28-002
     - poa-ch04-006
     - poa-ch05-006
     - poa-ch09-002
@@ -9895,6 +9969,7 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   prefects-bathroom:
     entries:
     - gof-ch23-007
@@ -10665,8 +10740,10 @@ tags:
   remedial-potions:
     entries:
     - ootp-ch24-001
+    - ootp-ch28-006
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   remus-lupin:
     entries:
     - ootp-ch09-006
@@ -10941,6 +11018,7 @@ tags:
     - gof-ch05-004
     - gof-ch13-006
     - ootp-ch13-006
+    - ootp-ch28-003
     - ps-ch10-005
     - ps-ch11-003
     output_yaml:
@@ -10949,6 +11027,12 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  school-disruption:
+    entries:
+    - ootp-ch28-005
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   school-emergency:
     entries:
     - cos-ch10-006
@@ -10987,6 +11071,8 @@ tags:
     - ootp-ch26-002
     - ootp-ch26-006
     - ootp-ch27-006
+    - ootp-ch28-001
+    - ootp-ch28-002
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
@@ -11003,6 +11089,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   school-governors:
     entries:
     - cos-ch12-006
@@ -11024,6 +11111,7 @@ tags:
     entries:
     - gof-ch31-002
     - gof-ch31-005
+    - ootp-ch28-007
     - poa-ch04-007
     - poa-ch05-006
     - poa-ch20-002
@@ -11035,6 +11123,7 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   school-history:
     entries:
     - cos-ch12-007
@@ -11240,9 +11329,11 @@ tags:
     entries:
     - ootp-ch18-001
     - ootp-ch21-004
+    - ootp-ch28-004
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   school-traditions:
     entries:
     - cos-ch08-004
@@ -11405,6 +11496,8 @@ tags:
   secret-passages:
     entries:
     - ootp-ch17-007
+    - ootp-ch28-003
+    - ootp-ch28-004
     - poa-ch05-002
     - poa-ch09-001
     - poa-ch10-003
@@ -11432,6 +11525,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   secret-passageways:
     entries:
     - cos-ch01-001
@@ -11728,6 +11822,7 @@ tags:
     - ootp-ch19-003
     - ootp-ch19-004
     - ootp-ch19-005
+    - ootp-ch28-002
     - poa-ch12-004
     - poa-ch15-005
     - ps-ch05-006
@@ -11754,6 +11849,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   slytherin-common-room:
     entries:
     - cos-ch12-005
@@ -11831,10 +11927,12 @@ tags:
     - gof-ch27-004
     - ootp-ch24-004
     - ootp-ch26-005
+    - ootp-ch28-006
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   snape-private-stores:
     entries:
     - cos-ch10-002
@@ -12352,11 +12450,13 @@ tags:
     - gof-ch28-006
     - gof-ch29-006
     - ootp-ch22-001
+    - ootp-ch28-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   stone-protection:
     entries:
     - ps-ch05-001
@@ -12451,6 +12551,7 @@ tags:
     - ootp-ch19-004
     - ootp-ch19-006
     - ootp-ch19-007
+    - ootp-ch28-002
     - poa-ch19-002
     - poa-ch19-003
     - ps-ch13-003
@@ -12463,6 +12564,7 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -14146,6 +14248,11 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  weasley-fireworks:
+    entries:
+    - ootp-ch28-005
+    output_yaml:
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   weasley-products:
     entries:
     - ootp-ch24-007
@@ -14190,6 +14297,7 @@ tags:
   werewolves:
     entries:
     - cos-ch15-003
+    - ootp-ch28-007
     - poa-ch09-005
     - poa-ch10-001
     - poa-ch17-003
@@ -14204,6 +14312,7 @@ tags:
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+    - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   west-tower:
     entries:
     - gof-ch15-001

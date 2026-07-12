@@ -269,6 +269,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dueling Club Carryover
   - Unforgivable Curse Instruction and Resistance
 
+## Core Castle and Grounds
+
+- Headmaster's Office and Protected Entrances
+  - The Pensieve and stored memories
+
 ## Curriculum and Instruction
 
 - Charms
@@ -336,6 +341,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hogsmeade Routes and Outlying Terrain
   - Mountain Cave Beyond the Village Edge
 
+## Historical Foundations
+
+- Curriculum, Exams, and Student Life Before 1984
+  - Marauders-era O.W.L. exams and grounds culture
+
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
@@ -388,6 +398,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Umbridge's theory-centered curriculum
 - Defense, Mind Magic, and the Umbridge Year
   - Private Occlumency lessons under official cover
+- Discipline, Punishment, and Caretaking
+  - Decree Twenty-nine and caretaker enforcement
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
 - Harry Potter Before Hogwarts
@@ -417,12 +429,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Educational Decree Number Twenty-six and teacher speech
   - Educational Decrees and the High Inquisitor
   - Enforcement of Decree Twenty-four against the D.A.
+  - Faculty workarounds under centralized authority
   - High Inquisitor inspections and Care of Magical Creatures
   - High Inquisitor possession bans and expulsion threats
   - High Inquisitor scrutiny of Hagrid
   - Ministry denial, classroom discipline, and staff constraints
   - Ministry pressure on Dumbledore's allies
   - Ministry pressure on prefect loyalty
+  - Ministry-appointed headship and resistant office access
   - Probation and continuous inspection of vulnerable teachers
   - Public Truth-Telling Against Ministry Pressure
   - Teacher dismissal versus castle residence
@@ -440,6 +454,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Student Activism and Kitchen Access
 - Houses, Heads, and Pastoral Responsibility
   - Head-of-House Family Support After Cedric Diggory's Death
+- Houses, Points, and Student Authority
+  - Inquisitorial Squad point powers
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
   - Ministry Guidelines for Non-Wizard Part-Humans

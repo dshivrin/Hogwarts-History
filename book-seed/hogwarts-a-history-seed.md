@@ -6738,6 +6738,20 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore can a
   - Reference type: curriculum_or_subject
   - Notes: This is an exceptional Harry-era security measure rather than evidence of ordinary curriculum.
 
+### Chapter: Discipline, Punishment, and Caretaking
+
+#### Section: Decree Twenty-nine and caretaker enforcement
+
+Summary: The available evidence includes 1 source item, led by: Filch expects Educational Decree Twenty-nine to authorize old-style corporal punishments and notes a Ministry order sought to expel Peeves, while his hidden-route knowledge makes him useful to Umbridge.
+
+- **Corroboration:** Filch expects Educational Decree Twenty-nine to authorize old-style corporal punishments and notes a Ministry order sought to expel Peeves, while his hidden-route knowledge makes him useful to Umbridge.
+  - Quote: "when Educational Decree Twenty-nine comes in"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2173, `ootp-ch28-003`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch13-006`, `cos-ch08-002`. ootp-ch13-006 records Umbridge's actual abusive blood-quill punishment, and cos-ch08-002 records Filch's punishment records and desired restraints; this entry adds the threatened formal Decree Twenty-nine authority and Peeves expulsion request.
+  - Notes: Filch describes a decree that is expected but not yet shown in force, so the passage is evidence for intent and proposed authority rather than confirmed implementation.
+
 ### Chapter: Divination, Prophecy, and School Testimony
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
@@ -7033,6 +7047,17 @@ Summary: The available evidence includes 1 source item, led by: Umbridge's case 
   - Corroborates: `ootp-ch17-001`, `ootp-ch18-002`. ootp-ch17-001 records the decree disbanding student organizations, and ootp-ch18-002 records its House-team approval effects; this entry adds the D.A. enforcement case, informants, and evidence list.
   - Notes: Umbridge's account is adversarial and partly undermined by Marietta's silence and Kingsley's memory modification.
 
+#### Section: Faculty workarounds under centralized authority
+
+Summary: The available evidence includes 1 source item, led by: Staff use Umbridge's centralized authority against her by repeatedly summoning the headmistress to remove enchanted fireworks they imply they are not authorized to handle.
+
+- **Context:** Staff use Umbridge's centralized authority against her by repeatedly summoning the headmistress to remove enchanted fireworks they imply they are not authorized to handle.
+  - Quote: "I wasn't sure whether I had the authority"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2178, `ootp-ch28-005`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The fireworks are a prank and crisis response, so the passage illustrates institutional behavior rather than a formal written policy.
+
 #### Section: High Inquisitor inspections and Care of Magical Creatures
 
 Summary: The available evidence includes 1 source item, led by: Umbridge's inspection combines Ministry dangerous-creature classification with hostile scrutiny of Hagrid's speech, memory, and lesson control, while Hagrid gives founding details for the school herd.
@@ -7102,6 +7127,18 @@ Summary: The available evidence includes 1 source item, led by: Percy's letter s
   - Classification: later_editorial_note | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The evidence is Percy's partisan letter, so claims about staff cooperation and imminent changes should be attributed to his perspective unless corroborated later.
+
+#### Section: Ministry-appointed headship and resistant office access
+
+Summary: The available evidence includes 1 source item, led by: Educational Decree Number Twenty-eight names Umbridge Head of Hogwarts, but the head's office and gargoyle appear to reject her access after Dumbledore's escape.
+
+- **Corroboration:** Educational Decree Number Twenty-eight names Umbridge Head of Hogwarts, but the head's office and gargoyle appear to reject her access after Dumbledore's escape.
+  - Quote: "has sealed itself against her"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2169, `ootp-ch28-001`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch13-006`, `cos-ch11-007`, `ootp-ch22-001`. Prior entries establish the headmaster-office gargoyle, moving stair, and office continuity; this entry adds Umbridge's Ministry appointment and the office sealing itself against her.
+  - Notes: The office's resistance is reported secondhand through Ernie's account of the Fat Friar rather than directly observed by Harry.
 
 #### Section: Probation and continuous inspection of vulnerable teachers
 
@@ -7190,6 +7227,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Classification: later_editorial_note | Confidence: high
   - Reference type: house_system
   - Notes: The scene reports Sprout's role indirectly through Dumbledore and does not show the conversation with the Diggorys.
+
+### Chapter: Houses, Points, and Student Authority
+
+#### Section: Inquisitorial Squad point powers
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's hand-picked Inquisitorial Squad gives selected students authority to dock House points, visibly overriding normal prefect limits through the hourglass system.
+
+- **Context:** Umbridge's hand-picked Inquisitorial Squad gives selected students authority to dock House points, visibly overriding normal prefect limits through the hourglass system.
+  - Quote: "members of the Inquisitorial Squad do have the power"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2171, `ootp-ch28-002`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: Malfoy explains the power in dialogue, and the chapter shows the hourglasses respond, but it does not quote the underlying decree or authorization text.
 
 ### Chapter: Law, Creatures, and Magical Citizenship
 
@@ -7346,7 +7396,7 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore's cri
 
 #### Section: Watched communications under the High Inquisitor
 
-Summary: The available evidence includes 2 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
+Summary: The available evidence includes 3 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
 
 - **Corroboration:** McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
   - Quote: "channels of communication in and out of Hogwarts may be being watched"
@@ -7363,6 +7413,14 @@ Summary: The available evidence includes 2 source items, led by: McGonagall's wa
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch17-003`. ootp-ch17-003 records McGonagall's warning, Hedwig's injury, and Umbridge's fire monitoring; this entry adds Hermione's specific theory that Filch's Dungbomb accusation was a pretext for reading Harry's mail.
   - Notes: Hermione is inferring Umbridge's method; the chapter does not directly show Umbridge reading the letter.
+
+- **Corroboration:** Umbridge explicitly confirms that school communications and routes are under surveillance, including monitored fireplaces, opened owl post, and Filch watching secret passages.
+  - Quote: "All channels of communication in and out of this school"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2176, `ootp-ch28-004`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch17-003`, `ootp-ch18-001`. ootp-ch17-003 and ootp-ch18-001 record warnings and student inference about watched communications; this entry adds Umbridge's explicit list of mechanisms, including a Floo Network Regulator, opened owl post, and guarded secret passages.
+  - Notes: The passage states Umbridge's claimed surveillance capacity, but it does not show every named mechanism operating at the moment.
 
 ### Chapter: Public Records and Wizarding Press
 
@@ -8579,6 +8637,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `gof-ch14-001`, `gof-ch14-004`, `gof-ch14-005`. gof-ch14-001, gof-ch14-004, and gof-ch14-005 establish Moody's classroom framing of Dark curses and Avada Kedavra; this entry records the later survival context in which that instruction mattered.
   - Notes: The scene occurs off campus and reflects an exceptional emergency rather than ordinary classroom practice.
 
+## Part: Core Castle and Grounds
+
+### Chapter: Headmaster's Office and Protected Entrances
+
+#### Section: The Pensieve and stored memories
+
+Summary: The available evidence includes 1 source item, led by: Snape uses Dumbledore's Pensieve to store thoughts before Occlumency, and Harry confirms that a memory can be entered from the artifact in a teacher's office.
+
+- **Corroboration:** Snape uses Dumbledore's Pensieve to store thoughts before Occlumency, and Harry confirms that a memory can be entered from the artifact in a teacher's office.
+  - Quote: "placing them carefully in Dumbledore's Pensieve"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2182, `ootp-ch28-006`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch24-004`, `ootp-ch26-005`, `gof-ch30-002`. Prior entries identify the Pensieve, its use in Snape's office, and its role in Occlumency safeguards; this entry adds Harry's unauthorized entry into Snape's stored memory and the artifact's relocation into a teacher-office privacy breach.
+  - Notes: The chapter shows Dumbledore's Pensieve in Snape's office but does not settle whether the artifact is Dumbledore's personal property or a Hogwarts institutional object.
+
 ## Part: Curriculum and Instruction
 
 ### Chapter: Charms
@@ -8737,6 +8811,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter maps
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch02-006`, `gof-ch19-001`, `gof-ch24-005`. gof-ch02-006 records the Sirius and Buckbeak escape context, gof-ch19-001 records Hogsmeade visit privilege, and gof-ch24-005 records ordinary castle-to-village movement; this entry adds the mountain-edge cave route.
   - Notes: The cave is not identified as an official site or a common student destination.
+
+## Part: Historical Foundations
+
+### Chapter: Curriculum, Exams, and Student Life Before 1984
+
+#### Section: Marauders-era O.W.L. exams and grounds culture
+
+Summary: The available evidence includes 1 source item, led by: The Pensieve memory preserves Marauders-era evidence for Great Hall O.W.L. exam layout, Defense Against the Dark Arts werewolf questions, Flitwick's invigilation, post-exam lake use, and student hexing culture.
+
+- **Supporting evidence:** The Pensieve memory preserves Marauders-era evidence for Great Hall O.W.L. exam layout, Defense Against the Dark Arts werewolf questions, Flitwick's invigilation, post-exam lake use, and student hexing culture.
+  - Quote: "DEFENSE AGAINST THE DARK ARTS -- ORDINARY WIZARDING LEVEL"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, PDF p. 2185, `ootp-ch28-007`, `sources/book-05/chapter-28-snape-s-worst-memory.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Notes: The evidence is a single remembered scene from Snape's point of view, and the exact date is inferred from the Marauders' age rather than stated directly.
 
 ## Part: Hogwarts Curriculum and Instruction
 

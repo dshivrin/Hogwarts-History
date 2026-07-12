@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-11'
+updated: '2026-07-12'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -11704,6 +11704,116 @@ by_entry:
     - ministry-intervention
     source_unit: ootp-ch27
     output_yaml: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  ootp-ch28-001:
+    title: 'Headmasters and School Authority: Ministry-appointed headship and resistant
+      office access'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - dumbledore
+    - educational-decrees
+    - headmaster-office
+    - magical-architecture
+    - school-governance
+    - stone-gargoyle
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch28-002:
+    title: 'Houses, Points, and Student Authority: Inquisitorial Squad point powers'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - house-points
+    - inquisitorial-squad
+    - prefects
+    - school-governance
+    - slytherin
+    - student-discipline
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch28-003:
+    title: 'Discipline, Punishment, and Caretaking: Decree Twenty-nine and caretaker
+      enforcement'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - caretaker
+    - corporal-punishment
+    - educational-decrees
+    - filch
+    - peeves
+    - school-discipline
+    - secret-passages
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch28-004:
+    title: 'Protective Magic and Security: Watched communications under the High Inquisitor'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - communication-security
+    - filch
+    - floo-network
+    - inquisitorial-squad
+    - owl-post
+    - school-surveillance
+    - secret-passages
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch28-005:
+    title: 'Headmasters and School Authority: Faculty workarounds under centralized
+      authority'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - classroom-authority
+    - dolores-umbridge
+    - faculty-resistance
+    - flitwick
+    - mcgonagall
+    - school-disruption
+    - weasley-fireworks
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch28-006:
+    title: 'Headmaster''s Office and Protected Entrances: The Pensieve and stored
+      memories'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore
+    - great-hall
+    - memory-magic
+    - occlumency
+    - pensieve
+    - remedial-potions
+    - snape-office
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  ootp-ch28-007:
+    title: 'Curriculum, Exams, and Student Life Before 1984: Marauders-era O.W.L.
+      exams and grounds culture'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - defense-against-the-dark-arts
+    - flitwick
+    - great-hall
+    - marauders-era
+    - owl-exams
+    - school-grounds
+    - werewolves
+    source_unit: ootp-ch28
+    output_yaml: sources/book-05/chapter-28-snape-s-worst-memory.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12192,6 +12302,7 @@ by_tag:
   caretaker:
   - cos-ch08-002
   - gof-ch31-001
+  - ootp-ch28-003
   - poa-ch07-005
   carriage:
   - gof-ch16-005
@@ -12412,6 +12523,8 @@ by_tag:
   - gof-ch29-005
   classroom-assessment:
   - cos-ch06-006
+  classroom-authority:
+  - ootp-ch28-005
   classroom-discipline:
   - ootp-ch15-005
   - ps-ch08-007
@@ -12488,6 +12601,7 @@ by_tag:
   - ootp-ch17-003
   - ootp-ch18-001
   - ootp-ch19-001
+  - ootp-ch28-004
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -12524,6 +12638,7 @@ by_tag:
   - cos-ch06-007
   corporal-punishment:
   - ootp-ch13-006
+  - ootp-ch28-003
   correspondence:
   - gof-ch27-002
   corridor-discipline:
@@ -12794,6 +12909,7 @@ by_tag:
   - ootp-ch19-001
   - ootp-ch23-004
   - ootp-ch27-004
+  - ootp-ch28-007
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -13006,6 +13122,9 @@ by_tag:
   - ootp-ch18-001
   - ootp-ch18-002
   - ootp-ch20-006
+  - ootp-ch28-001
+  - ootp-ch28-002
+  - ootp-ch28-005
   domestic-herd:
   - ootp-ch20-007
   doors:
@@ -13127,6 +13246,8 @@ by_tag:
   - ootp-ch27-001
   - ootp-ch27-002
   - ootp-ch27-007
+  - ootp-ch28-001
+  - ootp-ch28-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -13235,6 +13356,8 @@ by_tag:
   - ootp-ch26-006
   - ootp-ch26-007
   - ootp-ch27-006
+  - ootp-ch28-001
+  - ootp-ch28-003
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -13372,6 +13495,8 @@ by_tag:
   extendable-ears:
   - ootp-ch04-006
   - ootp-ch09-003
+  faculty-resistance:
+  - ootp-ch28-005
   fairness:
   - gof-ch20-002
   fake-galleons:
@@ -13448,6 +13573,8 @@ by_tag:
   - ootp-ch18-005
   - ootp-ch21-003
   - ootp-ch25-006
+  - ootp-ch28-003
+  - ootp-ch28-004
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -13537,6 +13664,8 @@ by_tag:
   - gof-ch35-004
   flitwick:
   - ootp-ch16-003
+  - ootp-ch28-005
+  - ootp-ch28-007
   - ps-ch10-001
   - ps-ch12-003
   flitwick-office:
@@ -13547,6 +13676,7 @@ by_tag:
   - ootp-ch17-003
   - ootp-ch22-003
   - ootp-ch27-006
+  - ootp-ch28-004
   floo-powder:
   - gof-ch04-004
   floo-regulation-panel:
@@ -13817,6 +13947,8 @@ by_tag:
   - ootp-ch19-005
   - ootp-ch25-001
   - ootp-ch26-001
+  - ootp-ch28-006
+  - ootp-ch28-007
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -14177,6 +14309,7 @@ by_tag:
   - gof-ch30-001
   - gof-ch36-003
   - ootp-ch22-001
+  - ootp-ch28-001
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
@@ -14666,6 +14799,7 @@ by_tag:
   - ootp-ch12-007
   - ootp-ch15-004
   - ootp-ch26-003
+  - ootp-ch28-002
   - poa-ch07-001
   - poa-ch07-007
   - poa-ch09-005
@@ -14790,6 +14924,9 @@ by_tag:
   - gof-ch33-003
   inigo-imago:
   - ootp-ch12-005
+  inquisitorial-squad:
+  - ootp-ch28-002
+  - ootp-ch28-004
   institutional-custom:
   - ps-ch07-002
   institutional-history:
@@ -15184,6 +15321,7 @@ by_tag:
   - ootp-ch22-001
   - ootp-ch22-004
   - ootp-ch27-001
+  - ootp-ch28-001
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -15384,6 +15522,8 @@ by_tag:
   - ootp-ch09-006
   - ootp-ch17-007
   - poa-ch18-005
+  marauders-era:
+  - ootp-ch28-007
   marauders-map:
   - gof-ch04-002
   - gof-ch25-001
@@ -15435,6 +15575,7 @@ by_tag:
   - gof-ch35-001
   - gof-ch35-004
   mcgonagall:
+  - ootp-ch28-005
   - poa-ch11-007
   - ps-ch09-003
   - ps-ch10-005
@@ -15469,6 +15610,7 @@ by_tag:
   - gof-ch30-002
   - ootp-ch24-004
   - ootp-ch26-005
+  - ootp-ch28-006
   memory-modification:
   - gof-ch13-005
   mental-safety:
@@ -15860,6 +16002,7 @@ by_tag:
   - ootp-ch24-001
   - ootp-ch24-005
   - ootp-ch26-005
+  - ootp-ch28-006
   off-campus-security:
   - ootp-ch01-002
   - ootp-ch01-004
@@ -15962,6 +16105,8 @@ by_tag:
   - poa-ch02-003
   overage-wizards:
   - ootp-ch05-003
+  owl-exams:
+  - ootp-ch28-007
   owl-post:
   - cos-ch01-003
   - cos-ch01-005
@@ -15980,6 +16125,7 @@ by_tag:
   - ootp-ch17-003
   - ootp-ch18-001
   - ootp-ch26-001
+  - ootp-ch28-004
   - poa-ch01-003
   - poa-ch02-002
   - ps-ch04-003
@@ -16076,6 +16222,7 @@ by_tag:
   - gof-ch15-001
   - gof-ch22-003
   - ootp-ch21-003
+  - ootp-ch28-003
   - poa-ch07-005
   - poa-ch08-007
   - poa-ch10-003
@@ -16090,6 +16237,7 @@ by_tag:
   - gof-ch30-002
   - ootp-ch24-004
   - ootp-ch26-005
+  - ootp-ch28-006
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -16328,6 +16476,7 @@ by_tag:
   - ootp-ch13-001
   - ootp-ch14-006
   - ootp-ch21-003
+  - ootp-ch28-002
   - poa-ch04-006
   - poa-ch05-006
   - poa-ch09-002
@@ -16699,6 +16848,7 @@ by_tag:
   - ootp-ch06-004
   remedial-potions:
   - ootp-ch24-001
+  - ootp-ch28-006
   remus-lupin:
   - ootp-ch09-006
   - poa-ch10-002
@@ -16823,8 +16973,11 @@ by_tag:
   - gof-ch05-004
   - gof-ch13-006
   - ootp-ch13-006
+  - ootp-ch28-003
   - ps-ch10-005
   - ps-ch11-003
+  school-disruption:
+  - ootp-ch28-005
   school-emergency:
   - cos-ch10-006
   school-entrance:
@@ -16850,6 +17003,8 @@ by_tag:
   - ootp-ch26-002
   - ootp-ch26-006
   - ootp-ch27-006
+  - ootp-ch28-001
+  - ootp-ch28-002
   school-governors:
   - cos-ch12-006
   - cos-ch14-005
@@ -16862,6 +17017,7 @@ by_tag:
   school-grounds:
   - gof-ch31-002
   - gof-ch31-005
+  - ootp-ch28-007
   - poa-ch04-007
   - poa-ch05-006
   - poa-ch20-002
@@ -16960,6 +17116,7 @@ by_tag:
   school-surveillance:
   - ootp-ch18-001
   - ootp-ch21-004
+  - ootp-ch28-004
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -17034,6 +17191,8 @@ by_tag:
   - ootp-ch06-007
   secret-passages:
   - ootp-ch17-007
+  - ootp-ch28-003
+  - ootp-ch28-004
   - poa-ch05-002
   - poa-ch09-001
   - poa-ch10-003
@@ -17186,6 +17345,7 @@ by_tag:
   - ootp-ch19-003
   - ootp-ch19-004
   - ootp-ch19-005
+  - ootp-ch28-002
   - poa-ch12-004
   - poa-ch15-005
   - ps-ch05-006
@@ -17233,6 +17393,7 @@ by_tag:
   - gof-ch27-004
   - ootp-ch24-004
   - ootp-ch26-005
+  - ootp-ch28-006
   snape-private-stores:
   - cos-ch10-002
   sneakoscope:
@@ -17460,6 +17621,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch29-006
   - ootp-ch22-001
+  - ootp-ch28-001
   stone-protection:
   - ps-ch05-001
   stopping-knot:
@@ -17505,6 +17667,7 @@ by_tag:
   - ootp-ch19-004
   - ootp-ch19-006
   - ootp-ch19-007
+  - ootp-ch28-002
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -18275,6 +18438,8 @@ by_tag:
   - gof-ch03-004
   - gof-ch05-001
   - ootp-ch06-006
+  weasley-fireworks:
+  - ootp-ch28-005
   weasley-products:
   - ootp-ch24-007
   weasleys-wizard-wheezes:
@@ -18294,6 +18459,7 @@ by_tag:
   - ootp-ch22-007
   werewolves:
   - cos-ch15-003
+  - ootp-ch28-007
   - poa-ch09-005
   - poa-ch10-001
   - poa-ch17-003
