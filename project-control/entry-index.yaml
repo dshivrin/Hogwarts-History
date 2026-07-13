@@ -12145,6 +12145,117 @@ by_entry:
     - wand-legislation
     source_unit: ootp-ch31
     output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch32-001:
+    title: 'Examinations and Academic Progression: O.W.L. crisis response and staff
+      injury aftermath'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hospital-wing
+    - ordinary-wizarding-levels
+    - professor-mcgonagall
+    - professor-tofty
+    - st-mungos
+    - staff-injury
+    - wizarding-examinations-authority
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch32-002:
+    title: 'Protective Magic and Security: Emergency communication when ordinary adult
+      authority is absent'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - emergency-communications
+    - floo-network
+    - order-of-the-phoenix
+    - school-crisis
+    - sirius-black
+    - student-resistance
+    - umbridge-office
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch32-003:
+    title: 'Protective Magic and Security: Office access workarounds and student corridor
+      control'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - corridor-control
+    - invisibility-cloak
+    - magical-objects
+    - niffler
+    - office-security
+    - student-resistance
+    - umbridge-office
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch32-004:
+    title: 'Protective Magic and Security: Office fireplace communication to Order
+      headquarters'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - communication-security
+    - floo-network
+    - floo-powder
+    - grimmauld-place
+    - kreacher
+    - order-headquarters
+    - umbridge-office
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch32-005:
+    title: 'Protective Magic and Security: Stealth Sensoring Spells and office intrusion
+      response'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - communication-security
+    - magical-surveillance
+    - niffler
+    - office-security
+    - stealth-sensoring-spells
+    - umbridge-office
+    - wand-confiscation
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch32-006:
+    title: 'Houses, Points, and Student Authority: Inquisitorial Squad physical enforcement'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - filch
+    - inquisitorial-squad
+    - physical-restraint
+    - school-surveillance
+    - slytherin
+    - student-discipline
+    - umbridge-regime
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch32-007:
+    title: 'Wizarding Law in the Classroom: Illegal interrogation threat under Ministry
+      school control'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - cruciatus-curse
+    - dementor-attack
+    - dolores-umbridge
+    - ministry-of-magic
+    - truth-potion
+    - unforgivable-curses
+    - veritaserum
+    source_unit: ootp-ch32
+    output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12952,6 +13063,8 @@ by_tag:
   - ootp-ch28-004
   - ootp-ch29-002
   - ootp-ch29-005
+  - ootp-ch32-004
+  - ootp-ch32-005
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -12992,6 +13105,8 @@ by_tag:
   - ootp-ch29-007
   correspondence:
   - gof-ch27-002
+  corridor-control:
+  - ootp-ch32-003
   corridor-discipline:
   - ps-ch12-002
   corridor-management:
@@ -13116,6 +13231,7 @@ by_tag:
   - gof-ch30-006
   - gof-ch34-002
   - ootp-ch23-007
+  - ootp-ch32-007
   crystal-gazing:
   - gof-ch21-005
   - poa-ch15-003
@@ -13299,6 +13415,8 @@ by_tag:
   - cos-ch11-002
   deletrius:
   - gof-ch09-006
+  dementor-attack:
+  - ootp-ch32-007
   dementor-imitation:
   - poa-ch13-004
   dementor-witness:
@@ -13482,6 +13600,7 @@ by_tag:
   - ootp-ch28-002
   - ootp-ch28-005
   - ootp-ch29-002
+  - ootp-ch32-007
   domestic-herd:
   - ootp-ch20-007
   doors:
@@ -13731,6 +13850,7 @@ by_tag:
   - ps-ch17-003
   emergency-communications:
   - ootp-ch22-003
+  - ootp-ch32-002
   emergency-departure:
   - gof-ch10-002
   emergency-exception:
@@ -13952,6 +14072,7 @@ by_tag:
   - ootp-ch28-004
   - ootp-ch29-007
   - ootp-ch30-001
+  - ootp-ch32-006
   - poa-ch07-005
   - poa-ch08-003
   - poa-ch08-007
@@ -14058,8 +14179,11 @@ by_tag:
   - ootp-ch27-006
   - ootp-ch28-004
   - ootp-ch29-005
+  - ootp-ch32-002
+  - ootp-ch32-004
   floo-powder:
   - gof-ch04-004
+  - ootp-ch32-004
   floo-regulation-panel:
   - gof-ch04-004
   florean-fortescue:
@@ -14388,6 +14512,7 @@ by_tag:
   - ootp-ch09-003
   - ootp-ch23-002
   - ootp-ch23-005
+  - ootp-ch32-004
   grindelwald:
   - ps-ch06-003
   grindylows:
@@ -15118,6 +15243,7 @@ by_tag:
   - gof-ch37-006
   - ootp-ch14-004
   - ootp-ch19-004
+  - ootp-ch32-001
   - poa-ch09-007
   - poa-ch15-005
   - poa-ch22-001
@@ -15342,6 +15468,7 @@ by_tag:
   - ootp-ch28-002
   - ootp-ch28-004
   - ootp-ch30-002
+  - ootp-ch32-006
   institutional-custom:
   - ps-ch07-002
   institutional-history:
@@ -15407,6 +15534,7 @@ by_tag:
   - ootp-ch03-005
   - ootp-ch20-001
   - ootp-ch29-005
+  - ootp-ch32-003
   - poa-ch14-004
   - poa-ch16-006
   - poa-ch17-004
@@ -15498,6 +15626,7 @@ by_tag:
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch23-005
+  - ootp-ch32-004
   kwikspell:
   - cos-ch08-002
   lake:
@@ -15852,6 +15981,7 @@ by_tag:
   magical-objects:
   - gof-ch04-002
   - ootp-ch29-005
+  - ootp-ch32-003
   magical-photographs:
   - cos-ch06-005
   magical-plants:
@@ -15908,6 +16038,7 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-007
   - gof-ch29-003
+  - ootp-ch32-005
   - poa-ch10-003
   - poa-ch17-004
   magical-table-service:
@@ -16173,6 +16304,7 @@ by_tag:
   - ootp-ch11-002
   - ootp-ch14-003
   - ootp-ch25-001
+  - ootp-ch32-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -16397,6 +16529,8 @@ by_tag:
   - ps-ch13-001
   niffler:
   - ootp-ch30-002
+  - ootp-ch32-003
+  - ootp-ch32-005
   nifflers:
   - gof-ch28-002
   night-guard:
@@ -16457,6 +16591,8 @@ by_tag:
   office-security:
   - gof-ch25-006
   - ootp-ch29-005
+  - ootp-ch32-003
+  - ootp-ch32-005
   ogg:
   - gof-ch31-001
   old-manors:
@@ -16497,6 +16633,8 @@ by_tag:
   - ootp-ch03-002
   - ootp-ch03-003
   - ootp-ch03-005
+  order-headquarters:
+  - ootp-ch32-004
   order-network:
   - gof-ch36-006
   - ootp-ch20-002
@@ -16523,6 +16661,7 @@ by_tag:
   - ootp-ch14-003
   - ootp-ch21-007
   - ootp-ch23-007
+  - ootp-ch32-002
   order-security:
   - ootp-ch22-003
   ordinary-wizarding-level:
@@ -16542,6 +16681,7 @@ by_tag:
   - ootp-ch31-001
   - ootp-ch31-002
   - ootp-ch31-003
+  - ootp-ch32-001
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -16756,6 +16896,8 @@ by_tag:
   - gof-ch34-003
   physical-evidence:
   - poa-ch17-002
+  physical-restraint:
+  - ootp-ch32-006
   pierre-bonaccord:
   - ootp-ch31-007
   pipe-route:
@@ -17050,6 +17192,7 @@ by_tag:
   - ootp-ch21-007
   - ootp-ch29-004
   - ootp-ch31-006
+  - ootp-ch32-001
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -17094,6 +17237,7 @@ by_tag:
   - ps-ch16-005
   professor-tofty:
   - ootp-ch31-004
+  - ootp-ch32-001
   professor-trelawney:
   - gof-ch10-005
   - gof-ch13-004
@@ -17442,6 +17586,8 @@ by_tag:
   - poa-ch01-003
   school-crest:
   - ps-ch03-001
+  school-crisis:
+  - ootp-ch32-002
   school-danger:
   - ootp-ch11-004
   school-discipline:
@@ -17599,6 +17745,7 @@ by_tag:
   - ootp-ch21-004
   - ootp-ch28-004
   - ootp-ch29-002
+  - ootp-ch32-006
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -17794,6 +17941,7 @@ by_tag:
   - ootp-ch10-005
   - ootp-ch14-007
   - ootp-ch29-006
+  - ootp-ch32-002
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -17834,6 +17982,7 @@ by_tag:
   - ootp-ch19-004
   - ootp-ch19-005
   - ootp-ch28-002
+  - ootp-ch32-006
   - poa-ch12-004
   - poa-ch15-005
   - ps-ch05-006
@@ -17969,6 +18118,7 @@ by_tag:
   - ootp-ch23-006
   - ootp-ch25-002
   - ootp-ch29-003
+  - ootp-ch32-001
   stadium:
   - gof-ch08-001
   staff:
@@ -18016,6 +18166,8 @@ by_tag:
   - ps-ch01-005
   staff-impersonation:
   - gof-ch35-006
+  staff-injury:
+  - ootp-ch32-001
   staff-inspections:
   - ootp-ch15-001
   - ootp-ch20-006
@@ -18108,6 +18260,8 @@ by_tag:
   - ootp-ch03-004
   stealth-entry:
   - poa-ch09-001
+  stealth-sensoring-spells:
+  - ootp-ch32-005
   stinksap:
   - ootp-ch10-004
   stone-gargoyle:
@@ -18162,6 +18316,7 @@ by_tag:
   - ootp-ch19-006
   - ootp-ch19-007
   - ootp-ch28-002
+  - ootp-ch32-006
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -18291,6 +18446,8 @@ by_tag:
   - gof-ch34-002
   - ootp-ch26-003
   - ootp-ch30-002
+  - ootp-ch32-002
+  - ootp-ch32-003
   student-rights:
   - ootp-ch18-001
   - ootp-ch29-002
@@ -18737,6 +18894,7 @@ by_tag:
   - poa-ch16-005
   truth-potion:
   - gof-ch35-007
+  - ootp-ch32-007
   truth-telling:
   - gof-ch37-004
   two-champions:
@@ -18752,6 +18910,12 @@ by_tag:
   - ootp-ch30-004
   umbridge-office:
   - ootp-ch29-005
+  - ootp-ch32-002
+  - ootp-ch32-003
+  - ootp-ch32-004
+  - ootp-ch32-005
+  umbridge-regime:
+  - ootp-ch32-006
   umbridge-surveillance:
   - ootp-ch22-003
   underage-magic:
@@ -18792,6 +18956,7 @@ by_tag:
   - gof-ch14-005
   - gof-ch27-007
   - gof-ch34-002
+  - ootp-ch32-007
   unicorn-blood:
   - ps-ch15-007
   unicorn-hair:
@@ -18841,6 +19006,7 @@ by_tag:
   - gof-ch27-004
   - gof-ch35-007
   - ootp-ch03-001
+  - ootp-ch32-007
   viktor-krum:
   - gof-ch16-007
   - gof-ch35-004
@@ -18905,6 +19071,8 @@ by_tag:
   - cos-ch01-002
   - cos-ch03-005
   - poa-ch01-002
+  wand-confiscation:
+  - ootp-ch32-005
   wand-cores:
   - gof-ch18-007
   - ps-ch05-007
@@ -19044,6 +19212,7 @@ by_tag:
   wizarding-examinations-authority:
   - ootp-ch31-002
   - ootp-ch31-003
+  - ootp-ch32-001
   wizarding-fame:
   - gof-ch02-004
   - ps-ch01-004

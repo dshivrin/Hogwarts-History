@@ -1,0 +1,346 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  boundary_confidence: high
+  boundary_notes: Chapter Thirty-Two range came from project-control/processing-state.yaml and project-control/next-run.md. The prior completed anchor places Chapter Thirty-One through PDF page 2268 and the next source unit starts at PDF page 2290, so only PDF pages 2269-2289 were extracted and searched for this unit.
+  processed_date: '2026-07-13'
+  processor_notes: "Processed only Book 5, Chapter Thirty-Two. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch32-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2269
+  printed_page: null
+  extracted_text_lines: 6-21; 34-49
+  text_anchor:
+    start_phrase: Pressure of examinations
+    end_phrase: I'd resign in protest
+    local_occurrence_note: The chapter opens after Harry's History of Magic O.W.L. collapse and then confirms McGonagall's transfer from the hospital wing to St. Mungo's.
+  nearby_context: Tofty treats Harry's collapse as exam pressure, suggests he may finish his paper in the Great Hall, and Madam Pomfrey later reports McGonagall was removed after four Stunning Spells.
+  match_terms:
+  - O.W.L.s
+  - examination pressure
+  - Professor Tofty
+  - Great Hall
+  - hospital wing
+  - McGonagall
+  - St. Mungo's
+  quote_excerpt_short: "Pressure of examinations!"
+  source_note: The aftermath of the History of Magic O.W.L. shows an examiner's practical response to student collapse and confirms McGonagall's removal from Hogwarts to St. Mungo's after multiple Stunning Spells.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - ordinary-wizarding-levels
+  - wizarding-examinations-authority
+  - professor-tofty
+  - hospital-wing
+  - st-mungos
+  - professor-mcgonagall
+  - staff-injury
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: O.W.L. crisis response and staff injury aftermath
+  reason_for_placement: The passage connects exam administration, school medical triage, and the institutional impact of Umbridge-era staff violence.
+  relevance_to_hogwarts_a_history: A later edition can use this to show how public examinations continued amid crisis and how the hospital wing coordinated with St. Mungo's when a senior professor was incapacitated.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch31-006
+    notes: ootp-ch31-006 records the observed Astronomy practical attack and McGonagall injury; this entry adds the next-day hospital-wing aftermath, St. Mungo's transfer, and Pomfrey's protest framing.
+  confidence: high
+  limitations: The McGonagall medical details are reported by Madam Pomfrey rather than observed directly after transfer.
+
+- id: ootp-ch32-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2274
+  printed_page: null
+  extracted_text_lines: 170-188; 220-237
+  text_anchor:
+    start_phrase: there isn't anyone left from the Order at Hogwarts
+    end_phrase: that's where we can use Ginny and Luna
+    local_occurrence_note: Hermione insists on confirming Sirius's location and proposes using Umbridge's fire with lookouts.
+  nearby_context: Harry lists Dumbledore, Hagrid, and McGonagall as unavailable, while Hermione argues for verification before any rescue attempt and turns the office fire into an emergency contact route.
+  match_terms:
+  - Order at Hogwarts
+  - Umbridge's fire
+  - Sirius
+  - headquarters
+  - lookouts
+  - Ginny
+  - Luna
+  quote_excerpt_short: "there isn't anyone left from the Order at Hogwarts"
+  source_note: With the usual adult channels absent, students treat Umbridge's office fire as the remaining practical way to check Order headquarters from inside Hogwarts.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - emergency-communications
+  - order-of-the-phoenix
+  - umbridge-office
+  - floo-network
+  - student-resistance
+  - sirius-black
+  - school-crisis
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Emergency communication when ordinary adult authority is absent
+  reason_for_placement: The passage shows how Umbridge's rule disrupted normal trust channels and forced students into risky emergency communication.
+  relevance_to_hogwarts_a_history: This supports a later security section on how school governance failures changed student decision-making and access to outside protection.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch22-003
+    - ootp-ch29-005
+    notes: ootp-ch22-003 records earlier emergency communication under watched Floo conditions, and ootp-ch29-005 records the first Umbridge-office workaround; this entry adds the explicit absence of Order adults at Hogwarts and a second emergency-use plan.
+  confidence: high
+  limitations: The assessment that no Order adult is available reflects Harry's urgent conclusion, though Snape's later appearance complicates it.
+
+- id: ootp-ch32-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2277
+  printed_page: null
+  extracted_text_lines: 263-282; 341-351
+  text_anchor:
+    start_phrase: warn people not to go down there
+    end_phrase: added extra security after the second niffler
+    local_occurrence_note: Ginny and Luna clear Umbridge's corridor while Harry and Hermione use the Cloak and Sirius's knife to enter the office.
+  nearby_context: The plan depends on a Garroting Gas lie, corridor lookouts, the Invisibility Cloak, the lock-opening knife, and Hermione's worry that prior niffler attacks might have led to new office security.
+  match_terms:
+  - Garroting Gas
+  - Invisibility Cloak
+  - Sirius's knife
+  - Umbridge's corridor
+  - office security
+  - second niffler
+  - lookouts
+  quote_excerpt_short: "someone's let off a load of Garroting Gas"
+  source_note: The students combine corridor misdirection, concealment, and a magical lock-opening knife to enter the High Inquisitor's office after earlier niffler attacks exposed a window weakness.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - umbridge-office
+  - corridor-control
+  - invisibility-cloak
+  - magical-objects
+  - student-resistance
+  - niffler
+  - office-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Office access workarounds and student corridor control
+  reason_for_placement: The passage gives concrete mechanics for unauthorized movement and office entry under surveillance.
+  relevance_to_hogwarts_a_history: A later edition can use this as a case study in how student resistance exploited castle movement patterns, weak access controls, and ordinary corridor traffic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch29-005
+    notes: ootp-ch29-005 records the first office entry using a diversion, Invisibility Cloak, and Sirius's knife; this entry repeats the method but adds a larger lookout plan, corridor evacuation, and concern over security added after niffler sabotage.
+  confidence: high
+  limitations: The Garroting Gas warning is a student fabrication, so it evidences tactical deception rather than an actual hazardous-gas incident.
+
+- id: ootp-ch32-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2279
+  printed_page: null
+  extracted_text_lines: 352-364; 375-403
+  text_anchor:
+    start_phrase: seized the pot of Floo powder
+    end_phrase: Master will not come back from the Department of Mysteries
+    local_occurrence_note: Harry uses Umbridge's fireplace to contact Grimmauld Place and reaches only Kreacher.
+  nearby_context: Harry's head travels through the emerald fire while his knees stay on the office floor, establishing a visual connection to the kitchen at number twelve, Grimmauld Place.
+  match_terms:
+  - Floo powder
+  - Number twelve, Grimmauld Place
+  - head in the fire
+  - Kreacher
+  - Department of Mysteries
+  - Umbridge's office
+  quote_excerpt_short: "Number twelve, Grimmauld Place!"
+  source_note: The office fireplace successfully connects Hogwarts to Grimmauld Place by Floo, allowing a head-only communication link while the user's body remains in the office.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - floo-network
+  - floo-powder
+  - grimmauld-place
+  - umbridge-office
+  - communication-security
+  - kreacher
+  - order-headquarters
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Office fireplace communication to Order headquarters
+  reason_for_placement: The scene confirms both the physical mechanics of fireplace communication and the continued connection between a Hogwarts staff office and a protected external house.
+  relevance_to_hogwarts_a_history: This can support later coverage of school communication channels, Floo access points, and the vulnerabilities created when a single office fire remains usable.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch29-005
+    - ootp-ch17-003
+    - ootp-ch28-004
+    notes: Prior entries establish watched fires and the office-fire workaround; this entry adds the second observed connection, the head-only Floo mechanics, and Kreacher's misleading confirmation.
+  confidence: high
+  limitations: The passage does not identify whether Umbridge's fire is officially exempt from surveillance or simply unmonitored at this moment.
+
+- id: ootp-ch32-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2281
+  printed_page: null
+  extracted_text_lines: 406-426
+  text_anchor:
+    start_phrase: dragged backward through the flames
+    end_phrase: With whom have you been communicating
+    local_occurrence_note: Umbridge catches Harry mid-Floo and explains the new detection spells around her doorway.
+  nearby_context: After two niffler intrusions, Umbridge has Stealth Sensoring Spells placed around the office doorway, then orders Harry's and Hermione's wands confiscated.
+  match_terms:
+  - Stealth Sensoring Spells
+  - doorway
+  - niffler
+  - office
+  - wand
+  - communicating
+  - fire
+  quote_excerpt_short: "Stealth Sensoring Spells placed all around my doorway"
+  source_note: Umbridge responds to prior office intrusions by adding Stealth Sensoring Spells to the doorway, enabling her to catch a concealed entry and immediately confiscate student wands.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - stealth-sensoring-spells
+  - umbridge-office
+  - office-security
+  - wand-confiscation
+  - niffler
+  - magical-surveillance
+  - communication-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Stealth Sensoring Spells and office intrusion response
+  reason_for_placement: The passage names a specific defensive spell deployed in response to repeated office breaches.
+  relevance_to_hogwarts_a_history: A later edition can use this as rare direct evidence for adaptive staff-office security during a Hogwarts crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch29-005
+    - ootp-ch30-002
+    notes: ootp-ch29-005 records the earlier successful office-fire breach, and ootp-ch30-002 records the niffler sabotage context; this entry adds Umbridge's named Stealth Sensoring Spells and wand-seizure response.
+  confidence: high
+  limitations: The spell's exact range and triggering conditions are not described beyond Umbridge's statement about the doorway.
+
+- id: ootp-ch32-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2282
+  printed_page: null
+  extracted_text_lines: 436-460
+  text_anchor:
+    start_phrase: several large Slytherins entered
+    end_phrase: members of the Inquisitorial Squad laughed
+    local_occurrence_note: Inquisitorial Squad members bring captured students into Umbridge's office after Filch reports the Peeves diversion.
+  nearby_context: Warrington, Crabbe, Millicent Bulstrode, Malfoy, and other Slytherins restrain or gag Ron, Ginny, Luna, Neville, Harry, and Hermione while Umbridge reconstructs the failed diversion.
+  match_terms:
+  - Slytherins
+  - Inquisitorial Squad
+  - gagged
+  - Warrington
+  - Crabbe
+  - Filch
+  - Transfiguration department
+  quote_excerpt_short: "All four of them had been gagged."
+  source_note: The Inquisitorial Squad operates as a physical enforcement arm for Umbridge, capturing, gagging, and restraining students while using Filch's information to defeat a diversion.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - inquisitorial-squad
+  - student-discipline
+  - physical-restraint
+  - filch
+  - slytherin
+  - umbridge-regime
+  - school-surveillance
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Houses, Points, and Student Authority
+  candidate_section: Inquisitorial Squad physical enforcement
+  reason_for_placement: The passage extends the squad's known point-docking authority into coercive search, capture, and detention behavior inside a staff office.
+  relevance_to_hogwarts_a_history: This supplies later-editorial evidence for how Umbridge transformed selected students into a quasi-disciplinary force beyond normal prefect duties.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch28-002
+    - ootp-ch28-004
+    notes: ootp-ch28-002 records special Inquisitorial Squad point powers, and ootp-ch28-004 records school surveillance by the squad and Filch; this entry adds physical restraint, gags, and office detention.
+  confidence: high
+  limitations: The chapter shows the squad acting under Umbridge's immediate regime but does not quote a rule authorizing physical force against students.
+
+- id: ootp-ch32-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Two - Out of the Fire
+  chapter_start_pdf_page: 2269
+  chapter_end_pdf_page: 2289
+  pdf_page: 2283
+  printed_page: null
+  extracted_text_lines: 489-523; 531-567; 571-581
+  text_anchor:
+    start_phrase: I would like another bottle of Veritaserum
+    end_phrase: ordered dementors after Potter last summer
+    local_occurrence_note: Umbridge asks Snape for Veritaserum, threatens Cruciatus, and admits ordering the Dementor attack.
+  nearby_context: Snape states three drops of Veritaserum are sufficient and that new stock takes a full moon cycle to mature; Hermione objects that the Cruciatus Curse is illegal.
+  match_terms:
+  - Veritaserum
+  - three drops
+  - full moon cycle
+  - probation
+  - Cruciatus Curse
+  - illegal
+  - dementors
+  quote_excerpt_short: "The Cruciatus Curse ought to loosen your tongue"
+  source_note: Umbridge attempts to escalate a school interrogation from Veritaserum to the illegal Cruciatus Curse and privately admits she ordered the previous summer's Dementor attack on Harry.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - veritaserum
+  - truth-potion
+  - cruciatus-curse
+  - unforgivable-curses
+  - dementor-attack
+  - ministry-of-magic
+  - dolores-umbridge
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Law in the Classroom
+  candidate_section: Illegal interrogation threat under Ministry school control
+  reason_for_placement: The passage ties Hogwarts discipline, Ministry security rhetoric, truth-potion control, and Unforgivable Curse law into one school-office crisis.
+  relevance_to_hogwarts_a_history: A later edition can use this as stark evidence of the legal and ethical collapse of Umbridge's Ministry regime inside Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch27-004
+    - gof-ch35-007
+    - gof-ch14-005
+    notes: gof-ch27-004 and gof-ch35-007 establish controlled Veritaserum use, while gof-ch14-005 establishes Unforgivable Curse penalties; this entry adds Umbridge's attempted illegal school interrogation and her admission about the Dementor attack.
+  confidence: high
+  limitations: The Dementor confession is made in a coercive private office scene, not in a formal hearing or written Ministry record.

@@ -131,3 +131,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch29`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, pages 2195-2218, 7 entries, 0 explicit references.
 - `ootp-ch30`: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, pages 2219-2244, 7 entries, 0 explicit references.
 - `ootp-ch31`: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, pages 2245-2268, 7 entries, 0 explicit references.
+- `ootp-ch32`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Two - Out of the Fire, pages 2269-2289, 7 entries, 0 explicit references.

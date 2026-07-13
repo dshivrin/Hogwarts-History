@@ -423,6 +423,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portable swamp aftermath and staff noncooperation
 - Divination, Prophecy, and School Testimony
   - Trelawney's True Prophecy and Later Corroboration
+- Examinations and Academic Progression
+  - O.W.L. crisis response and staff injury aftermath
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -476,6 +478,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Houses, Heads, and Pastoral Responsibility
   - Head-of-House Family Support After Cedric Diggory's Death
 - Houses, Points, and Student Authority
+  - Inquisitorial Squad physical enforcement
   - Inquisitorial Squad point powers
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
@@ -498,7 +501,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Covert student communication under the High Inquisitor
   - Dormitory crisis escalation to the headmaster
   - Emergency communication and transport under surveillance
+  - Emergency communication when ordinary adult authority is absent
+  - Office access workarounds and student corridor control
+  - Office fireplace communication to Order headquarters
   - Office fireplaces and surveillance workarounds
+  - Stealth Sensoring Spells and office intrusion response
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
@@ -607,6 +614,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy Strains After Voldemort's Fall
 - Wizarding Institutions Beyond Hogwarts
   - St. Mungo's ward safety and Ministry casualties
+- Wizarding Law in the Classroom
+  - Illegal interrogation threat under Ministry school control
 - Wizarding Press and Public Records
   - Daily Prophet Coverage of Moody Before His Hogwarts Term
 - Wizarding Schools Beyond Britain
