@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-12'
+updated: '2026-07-13'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1490,3 +1490,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2219-2244.
+- source_unit_id: ootp-ch31
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 31
+  chapter_title: Chapter Thirty-One - O.W.L.s
+  page_start: 2245
+  page_end: 2268
+  output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  processed_at: '2026-07-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2245-2268.

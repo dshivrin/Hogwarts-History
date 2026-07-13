@@ -31,6 +31,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Care of Magical Creatures and Grounds-Based Teaching
   - Experimental Breeding, Safety, and Oversight
+  - O.W.L. practical assessment at the forest edge
   - O.W.L. pressure and Hagrid's returning lesson plans
   - Substitute Instruction and Unicorn Handling
   - Substitute inspection and O.W.L. creature syllabus
@@ -79,7 +80,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Fifth-year O.W.L. practical preparation
   - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
   - Fifth-year weekend workload across subjects
+  - Final O.W.L. revision culture and exam-year pressure
+  - Great Hall examination layout and practical testing
   - O.W.L. grading scale and baseline marking
+  - O.W.L. timetable, anti-cheating rules, and result delivery
+  - Wizarding Examinations Authority examiners at Hogwarts
 - Exams and Assessment
   - Education Continuity During Crisis
   - Head Boy, Student Achievement, and Alumni Paths
@@ -108,6 +113,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Professor Binns and Historical Instruction
   - Professor Binns and routine historical instruction
   - Professor Binns, giant wars, and lecture-based instruction
+- History of Magic Curriculum
+  - O.W.L. historical topics and wizarding institutions
 - Holidays, Examinations, and Student Movement
   - Christmas study residence and emergency hospital visits
 - Homework and Independent Study
@@ -481,6 +488,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Ministry Intervention and Staff Vulnerability
+  - Hagrid's attempted removal during the Astronomy O.W.L.
 - Ministry Pressure and Public Records
   - Public Opinion Inside Student Dormitories
 - Post-1984 Incidents and Confirmations

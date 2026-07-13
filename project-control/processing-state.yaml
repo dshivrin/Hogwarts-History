@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 30
-  chapter_title: Chapter Thirty - Grawp
-  page_start: 2219
-  page_end: 2244
-  output_yaml: sources/book-05/chapter-30-grawp.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 31
   chapter_title: Chapter Thirty-One - O.W.L.s
   page_start: 2245
   page_end: 2268
   output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2269
   page_end: 2289
   output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 33
+  chapter_title: Chapter Thirty-Three - Fight and Flight
+  page_start: 2290
+  page_end: 2302
+  output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

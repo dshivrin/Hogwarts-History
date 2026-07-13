@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-12'
+updated: '2026-07-13'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -12034,6 +12034,117 @@ by_entry:
     - territorial-authority
     source_unit: ootp-ch30
     output_yaml: sources/book-05/chapter-30-grawp.yaml
+  ootp-ch31-001:
+    title: 'Examinations and Academic Progression: Final O.W.L. revision culture and
+      exam-year pressure'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - black-market-study-aids
+    - exam-preparation
+    - fifth-year
+    - ordinary-wizarding-levels
+    - review-lessons
+    - seventh-year
+    - student-workload
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch31-002:
+    title: 'Examinations and Academic Progression: Wizarding Examinations Authority
+      examiners at Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dumbledore
+    - entrance-hall
+    - external-examiners
+    - griselda-marchbanks
+    - newts
+    - ordinary-wizarding-levels
+    - wizarding-examinations-authority
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch31-003:
+    title: 'Examinations and Academic Progression: O.W.L. timetable, anti-cheating
+      rules, and result delivery'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - anti-cheating-charms
+    - exam-procedure
+    - ordinary-wizarding-levels
+    - owl-post-results
+    - practical-exams
+    - theory-exams
+    - wizarding-examinations-authority
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch31-004:
+    title: 'Examinations and Academic Progression: Great Hall examination layout and
+      practical testing'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - examination-hall
+    - great-hall
+    - individual-desks
+    - patronus
+    - practical-exams
+    - professor-tofty
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch31-005:
+    title: 'Care of Magical Creatures and Grounds-Based Teaching: O.W.L. practical
+      assessment at the forest edge'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - bowtruckles
+    - care-of-magical-creatures
+    - fire-crabs
+    - forbidden-forest-edge
+    - knarls
+    - practical-exam
+    - unicorns
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch31-006:
+    title: 'Ministry Intervention and Staff Vulnerability: Hagrid''s attempted removal
+      during the Astronomy O.W.L.'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - astronomy-exam
+    - astronomy-tower
+    - hagrid-dismissal
+    - high-inquisitor
+    - ministry-intervention
+    - professor-mcgonagall
+    - stunning-spells
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
+  ootp-ch31-007:
+    title: 'History of Magic Curriculum: O.W.L. historical topics and wizarding institutions'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - goblin-riots
+    - history-of-magic
+    - international-confederation
+    - liechtenstein
+    - pierre-bonaccord
+    - statute-of-secrecy
+    - wand-legislation
+    source_unit: ootp-ch31
+    output_yaml: sources/book-05/chapter-31-o-w-l-s.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12156,6 +12267,8 @@ by_tag:
   - ootp-ch27-007
   - poa-ch09-001
   - poa-ch22-001
+  anti-cheating-charms:
+  - ootp-ch31-003
   anti-cheating-spell:
   - ps-ch16-001
   anti-dark-arts:
@@ -12222,7 +12335,10 @@ by_tag:
   - ootp-ch27-003
   - poa-ch16-003
   - ps-ch08-004
+  astronomy-exam:
+  - ootp-ch31-006
   astronomy-tower:
+  - ootp-ch31-006
   - poa-ch09-004
   - ps-ch15-001
   atrium:
@@ -12374,6 +12490,8 @@ by_tag:
   - gof-ch26-005
   - gof-ch26-006
   - gof-ch26-007
+  black-market-study-aids:
+  - ootp-ch31-001
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
@@ -12430,6 +12548,7 @@ by_tag:
   bowtruckles:
   - ootp-ch13-004
   - ootp-ch15-006
+  - ootp-ch31-005
   brazilian-school:
   - gof-ch07-003
   brick-entrance:
@@ -12507,6 +12626,7 @@ by_tag:
   - ootp-ch20-007
   - ootp-ch25-004
   - ootp-ch30-005
+  - ootp-ch31-005
   - poa-ch01-006
   - poa-ch04-003
   - poa-ch05-007
@@ -13145,6 +13265,7 @@ by_tag:
   - ootp-ch23-004
   - ootp-ch27-004
   - ootp-ch28-007
+  - ootp-ch31-004
   - poa-ch05-003
   - poa-ch05-004
   - poa-ch05-007
@@ -13484,6 +13605,7 @@ by_tag:
   - ootp-ch27-007
   - ootp-ch28-001
   - ootp-ch28-006
+  - ootp-ch31-002
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -13664,6 +13786,7 @@ by_tag:
   - gof-ch16-003
   - gof-ch16-004
   - ootp-ch30-003
+  - ootp-ch31-002
   - poa-ch05-005
   - ps-ch14-006
   - ps-ch15-004
@@ -13683,8 +13806,14 @@ by_tag:
   - ootp-ch22-002
   evidence:
   - poa-ch21-001
+  exam-preparation:
+  - ootp-ch31-001
+  exam-procedure:
+  - ootp-ch31-003
   examination-grades:
   - ootp-ch15-002
+  examination-hall:
+  - ootp-ch31-004
   exams:
   - cos-ch04-003
   - cos-ch04-004
@@ -13735,6 +13864,8 @@ by_tag:
   extendable-ears:
   - ootp-ch04-006
   - ootp-ch09-003
+  external-examiners:
+  - ootp-ch31-002
   faculty-resistance:
   - ootp-ch28-005
   fairness:
@@ -13797,6 +13928,7 @@ by_tag:
   - ootp-ch15-005
   - ootp-ch29-001
   - ootp-ch29-003
+  - ootp-ch31-001
   fifth-year-booklist:
   - ootp-ch09-004
   fifth-year-curriculum:
@@ -13839,6 +13971,8 @@ by_tag:
   - gof-ch37-007
   fire-communication:
   - ootp-ch14-007
+  fire-crabs:
+  - ootp-ch31-005
   firebolt:
   - gof-ch05-005
   - gof-ch20-004
@@ -13982,6 +14116,7 @@ by_tag:
   - gof-ch13-003
   - gof-ch24-001
   - gof-ch26-003
+  - ootp-ch31-005
   forbidden-objects:
   - gof-ch12-005
   foreign-schools:
@@ -14150,6 +14285,8 @@ by_tag:
   - poa-ch05-002
   goblin-rebellions:
   - gof-ch22-005
+  goblin-riots:
+  - ootp-ch31-007
   goblin-wrought-silver:
   - ootp-ch05-002
   goblins:
@@ -14205,6 +14342,7 @@ by_tag:
   - ootp-ch26-001
   - ootp-ch28-006
   - ootp-ch28-007
+  - ootp-ch31-004
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -14262,6 +14400,8 @@ by_tag:
   - ootp-ch29-003
   - ps-ch05-001
   - ps-ch14-003
+  griselda-marchbanks:
+  - ootp-ch31-002
   ground-floor:
   - ootp-ch27-001
   grounds:
@@ -14452,6 +14592,8 @@ by_tag:
   - gof-ch16-005
   hagrid-cross-reference:
   - ps-ch03-005
+  hagrid-dismissal:
+  - ootp-ch31-006
   hagrid-expulsion:
   - cos-ch17-003
   hagrid-expulsion-corroboration:
@@ -14706,6 +14848,7 @@ by_tag:
   - ootp-ch27-006
   - ootp-ch29-002
   - ootp-ch30-005
+  - ootp-ch31-006
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -14724,6 +14867,7 @@ by_tag:
   - gof-ch22-005
   - gof-ch29-002
   - ootp-ch12-003
+  - ootp-ch31-007
   - poa-ch01-001
   - poa-ch04-002
   - poa-ch16-003
@@ -15179,6 +15323,8 @@ by_tag:
   - poa-ch01-001
   - poa-ch02-004
   - ps-ch06-003
+  individual-desks:
+  - ootp-ch31-004
   informal-source:
   - poa-ch04-002
   information-control:
@@ -15230,6 +15376,7 @@ by_tag:
   international-confederation:
   - ootp-ch05-007
   - ootp-ch11-007
+  - ootp-ch31-007
   international-magical-cooperation:
   - gof-ch05-003
   - gof-ch12-007
@@ -15341,6 +15488,8 @@ by_tag:
   - ps-ch06-001
   kingsley-shacklebolt:
   - ootp-ch07-005
+  knarls:
+  - ootp-ch31-005
   knight-bus:
   - ootp-ch24-002
   - poa-ch03-002
@@ -15436,6 +15585,8 @@ by_tag:
   - ps-ch11-003
   licensing:
   - gof-ch06-001
+  liechtenstein:
+  - ootp-ch31-007
   lightning-scar:
   - gof-ch02-001
   - gof-ch02-004
@@ -15958,6 +16109,7 @@ by_tag:
   - ootp-ch20-006
   - ootp-ch26-007
   - ootp-ch27-007
+  - ootp-ch31-006
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
@@ -16234,6 +16386,7 @@ by_tag:
   - ootp-ch29-003
   - ootp-ch29-004
   newts:
+  - ootp-ch31-002
   - poa-ch16-001
   - poa-ch22-005
   next-tournament:
@@ -16386,6 +16539,9 @@ by_tag:
   - ootp-ch20-007
   - ootp-ch29-001
   - ootp-ch29-004
+  - ootp-ch31-001
+  - ootp-ch31-002
+  - ootp-ch31-003
   original-order-phoenix:
   - ootp-ch09-007
   out-of-bounds:
@@ -16422,6 +16578,8 @@ by_tag:
   - poa-ch02-002
   - ps-ch04-003
   - ps-ch06-002
+  owl-post-results:
+  - ootp-ch31-003
   owlery:
   - gof-ch15-001
   - gof-ch18-001
@@ -16497,6 +16655,7 @@ by_tag:
   - ootp-ch08-003
   - ootp-ch16-005
   - ootp-ch21-006
+  - ootp-ch31-004
   - poa-ch20-007
   patronus-charm:
   - ootp-ch27-004
@@ -16597,6 +16756,8 @@ by_tag:
   - gof-ch34-003
   physical-evidence:
   - poa-ch17-002
+  pierre-bonaccord:
+  - ootp-ch31-007
   pipe-route:
   - cos-ch17-007
   pipes:
@@ -16727,9 +16888,13 @@ by_tag:
   - ootp-ch21-006
   - ootp-ch23-004
   - ootp-ch25-005
+  practical-exam:
+  - ootp-ch31-005
   practical-examination:
   - ootp-ch12-004
   practical-exams:
+  - ootp-ch31-003
+  - ootp-ch31-004
   - poa-ch16-004
   - ps-ch16-001
   practical-jokes:
@@ -16884,6 +17049,7 @@ by_tag:
   - ootp-ch19-006
   - ootp-ch21-007
   - ootp-ch29-004
+  - ootp-ch31-006
   - poa-ch06-004
   - poa-ch12-005
   - poa-ch13-004
@@ -16926,6 +17092,8 @@ by_tag:
   - gof-ch36-002
   - ootp-ch10-004
   - ps-ch16-005
+  professor-tofty:
+  - ootp-ch31-004
   professor-trelawney:
   - gof-ch10-005
   - gof-ch13-004
@@ -17177,6 +17345,8 @@ by_tag:
   - gof-ch26-002
   - ps-ch12-004
   - ps-ch12-005
+  review-lessons:
+  - ootp-ch31-001
   riddikulus:
   - poa-ch07-007
   riddle:
@@ -17567,6 +17737,7 @@ by_tag:
   - ootp-ch18-006
   seventh-year:
   - ootp-ch29-001
+  - ootp-ch31-001
   severus-snape:
   - ootp-ch17-005
   - ootp-ch29-006
@@ -17930,6 +18101,7 @@ by_tag:
   - ootp-ch02-002
   - ootp-ch02-004
   - ootp-ch08-002
+  - ootp-ch31-007
   statute-of-secrecy-context:
   - ps-ch14-002
   stealth:
@@ -18187,6 +18359,7 @@ by_tag:
   - ootp-ch24-003
   student-workload:
   - ootp-ch15-002
+  - ootp-ch31-001
   students:
   - ootp-ch09-003
   study-groups:
@@ -18200,6 +18373,7 @@ by_tag:
   - ootp-ch21-006
   stunning-spells:
   - gof-ch19-005
+  - ootp-ch31-006
   sturgis-podmore:
   - ootp-ch14-003
   substitute-teacher:
@@ -18334,6 +18508,8 @@ by_tag:
   - ootp-ch09-004
   theory-centered:
   - ootp-ch12-006
+  theory-exams:
+  - ootp-ch31-003
   thestrals:
   - ootp-ch10-007
   - ootp-ch11-001
@@ -18624,6 +18800,7 @@ by_tag:
   - cos-ch15-003
   - gof-ch24-001
   - gof-ch26-003
+  - ootp-ch31-005
   - ps-ch15-005
   uniform:
   - ps-ch05-002
@@ -18738,6 +18915,8 @@ by_tag:
   wand-law:
   - gof-ch09-005
   - gof-ch14-007
+  wand-legislation:
+  - ootp-ch31-007
   wand-magic:
   - gof-ch09-006
   wand-registration:
@@ -18862,6 +19041,9 @@ by_tag:
   - cos-ch01-004
   wizarding-celebrations:
   - ps-ch01-001
+  wizarding-examinations-authority:
+  - ootp-ch31-002
+  - ootp-ch31-003
   wizarding-fame:
   - gof-ch02-004
   - ps-ch01-004

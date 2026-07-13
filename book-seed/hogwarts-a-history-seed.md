@@ -2117,6 +2117,18 @@ Summary: The available evidence includes 1 source item, led by: The article supp
   - Corroborates: `gof-ch13-003`, `gof-ch18-003`, `gof-ch21-004`. gof-ch13-003 introduces live Skrewt rearing, gof-ch18-003 adds handling precautions, and gof-ch21-004 adds hibernation failure and illegal-origin concern; this entry adds explicit Department oversight language and parent-facing regulatory controversy.
   - Notes: The regulatory framing comes from a hostile article, though Hagrid's quoted "having some fun" response supports that the Skrewt project was real.
 
+#### Section: O.W.L. practical assessment at the forest edge
+
+Summary: The available evidence includes 1 source item, led by: The Care of Magical Creatures O.W.L. practical tests creature identification, safe handling, feeding and cleaning, and treatment knowledge on the lawn by the Forbidden Forest.
+
+- **Corroboration:** The Care of Magical Creatures O.W.L. practical tests creature identification, safe handling, feeding and cleaning, and treatment knowledge on the lawn by the Forbidden Forest.
+  - Quote: "correctly identify the knarl"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2258, `ootp-ch31-005`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch24-001`, `gof-ch22-005`. gof-ch24-001 records unicorn handling in ordinary Care of Magical Creatures teaching and gof-ch22-005 records curriculum snapshots; this entry adds the O.W.L. practical task list and assessment setting.
+  - Notes: The passage reports only Harry's observed exam station sequence and does not identify the examiner by name.
+
 #### Section: O.W.L. pressure and Hagrid's returning lesson plans
 
 Summary: The available evidence includes 1 source item, led by: The exchange contrasts examination-focused Care of Magical Creatures topics with Hagrid's planned high-risk live-creature teaching under imminent Ministry inspection.
@@ -2451,6 +2463,30 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Corroborates: `ootp-ch12-002`, `ootp-ch13-003`, `gof-ch15-002`. Prior entries establish O.W.L. pressure and practical fifth-year preparation; this entry adds weekend homework evidence across Herbology, Transfiguration, and Astronomy.
   - Notes: The passage gives assignment topics and pressure, but not full lesson content or grading standards.
 
+#### Section: Final O.W.L. revision culture and exam-year pressure
+
+Summary: The available evidence includes 1 source item, led by: Final O.W.L. preparation changes normal teaching into review sessions, intensifies peer anxiety, and produces illicit exam-aid trading among examination-year students.
+
+- **Corroboration:** Final O.W.L. preparation changes normal teaching into review sessions, intensifies peer anxiety, and produces illicit exam-aid trading among examination-year students.
+  - Quote: "Their O.W.L.s were upon them at last."
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2248, `ootp-ch31-001`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch29-001`, `ootp-ch12-002`. ootp-ch29-001 records Easter revision schedules and library study, while ootp-ch12-002 explains fifth-year O.W.L. importance; this entry adds final June review lessons and illicit study-aid trading.
+  - Notes: The student black-market examples are observed in one examination year and may reflect Umbridge-era stress rather than a formal school custom.
+
+#### Section: Great Hall examination layout and practical testing
+
+Summary: The available evidence includes 1 source item, led by: O.W.L. written papers transform the Great Hall into an individual-desk examination hall, while practicals are conducted by examiners testing named spells and, in Harry's case, awarding a bonus Patronus opportunity.
+
+- **Corroboration:** O.W.L. written papers transform the Great Hall into an individual-desk examination hall, while practicals are conducted by examiners testing named spells and, in Harry's case, awarding a bonus Patronus opportunity.
+  - Quote: "many tables for one"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2253, `ootp-ch31-004`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch16-001`, `poa-ch22-005`, `ootp-ch16-004`. poa-ch16-001 and poa-ch22-005 record exam credentials and timing, while ootp-ch16-004 records student-led practical Defense preparation; this entry adds the observed Great Hall exam layout and examiner-administered practical tests.
+  - Notes: The passage gives examples from Harry's observed subjects rather than a complete list of practical tasks for every O.W.L. subject.
+
 #### Section: O.W.L. grading scale and baseline marking
 
 Summary: The available evidence includes 1 source item, led by: The chapter ties fifth-year classroom marking to O.W.L. standards and supplies a student-side explanation of the O.W.L. grade scale from Outstanding through failing grades.
@@ -2462,6 +2498,29 @@ Summary: The available evidence includes 1 source item, led by: The chapter ties
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch15-002`, `ootp-ch13-003`, `ootp-ch14-005`. Existing entries record O.W.L. workload and practical preparation; this entry adds the named grade ladder and Snape's use of O.W.L.-standard marking in Potions.
   - Notes: The lower grade "T" is reported by George and may be partly teasing, though Harry treats the possibility as plausible.
+
+#### Section: O.W.L. timetable, anti-cheating rules, and result delivery
+
+Summary: The available evidence includes 1 source item, led by: McGonagall gives the official O.W.L. procedure, including two-week scheduling, morning theory papers, afternoon practicals, a night Astronomy practical, banned cheating aids, and July owl-post results.
+
+- **Corroboration:** McGonagall gives the official O.W.L. procedure, including two-week scheduling, morning theory papers, afternoon practicals, a night Astronomy practical, banned cheating aids, and July owl-post results.
+  - Quote: "the most stringent Anti-Cheating Charms"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2250, `ootp-ch31-003`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch12-002`, `ootp-ch15-002`, `poa-ch22-005`. ootp-ch12-002 explains why O.W.L.s matter, ootp-ch15-002 records the grade scale, and poa-ch22-005 records result timing at term end; this entry adds the official two-week procedure, anti-cheating controls, and July owl delivery.
+  - Notes: The rules are conveyed to Gryffindor by its Head of House, though they are explicitly attributed to the Wizarding Examinations Authority and schoolwide exam procedure.
+
+#### Section: Wizarding Examinations Authority examiners at Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: External O.W.L. examiners arrive at Hogwarts, with Griselda Marchbanks linked to the Wizarding Examinations Authority and to Dumbledore's earlier N.E.W.T. examinations.
+
+- **Supporting evidence:** External O.W.L. examiners arrive at Hogwarts, with Griselda Marchbanks linked to the Wizarding Examinations Authority and to Dumbledore's earlier N.E.W.T. examinations.
+  - Quote: "Examined him personally in Transfiguration and Charms"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2252, `ootp-ch31-002`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: Malfoy's earlier claim about his father knowing Marchbanks is student gossip and should not be treated as verified influence.
 
 ### Chapter: Flying Lessons
 
@@ -2570,6 +2629,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch08-005`, `cos-ch09-002`, `gof-ch29-002`. Prior entries establish Binns as History of Magic teacher and corroborate his routine instruction; this entry adds giant wars as a fifth-year topic and a named essay workload.
   - Notes: Student commentary is dismissive, so the entry should not overstate the quality of the subject beyond the observed teaching format and assignment.
+
+### Chapter: History of Magic Curriculum
+
+#### Section: O.W.L. historical topics and wizarding institutions
+
+Summary: The available evidence includes 1 source item, led by: The History of Magic O.W.L. confirms advanced Hogwarts historical curriculum topics: goblin riots and wand law, a 1749 Statute of Secrecy breach, and the formation politics of the International Confederation of Wizards.
+
+- **Corroboration:** The History of Magic O.W.L. confirms advanced Hogwarts historical curriculum topics: goblin riots and wand law, a 1749 Statute of Secrecy breach, and the formation politics of the International Confederation of Wizards.
+  - Quote: "Formation of the International Confederation of Wizards"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2266, `ootp-ch31-007`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch22-005`, `cos-ch02-005`, `ootp-ch05-007`. gof-ch22-005 records History of Magic coverage of goblin rebellions, cos-ch02-005 records the Statute of Secrecy in a Ministry notice, and ootp-ch05-007 records Dumbledore's International Confederation role; this entry adds the O.W.L. question set and specific historical topics.
+  - Notes: Some details are filtered through Harry's exam memory and incomplete answer, so the entry should distinguish official question topics from Harry's uncertain recall.
 
 ### Chapter: Holidays, Examinations, and Student Movement
 
@@ -7412,6 +7485,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter prov
   - Reference type: historical_claim
   - Corroborates: `poa-ch17-005`. Book 3 Chapter Seventeen identifies Scabbers as Pettigrew through Lupin and Black's testimony; this entry adds the forced transformation and direct visual confirmation.
   - Notes: The chapter shows the reversal but does not name the spell used or explain the magic by which two wands force the Animagus transformation.
+
+### Chapter: Ministry Intervention and Staff Vulnerability
+
+#### Section: Hagrid's attempted removal during the Astronomy O.W.L.
+
+Summary: The available evidence includes 1 source item, led by: A formal Astronomy O.W.L. practical is interrupted by an armed Ministry-backed staff seizure attempt, exposing students to Umbridge's nighttime removal tactics, Hagrid's resistance, and McGonagall's injury.
+
+- **Corroboration:** A formal Astronomy O.W.L. practical is interrupted by an armed Ministry-backed staff seizure attempt, exposing students to Umbridge's nighttime removal tactics, Hagrid's resistance, and McGonagall's injury.
+  - Quote: "This is an examination!"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, PDF p. 2259, `ootp-ch31-006`, `sources/book-05/chapter-31-o-w-l-s.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch30-005`, `ootp-ch26-006`, `ootp-ch30-004`. ootp-ch30-005 records Hagrid expecting dismissal, ootp-ch26-006 records Trelawney's dismissal and castle-residence dispute, and ootp-ch30-004 records covert Hagrid movement under Umbridge pressure; this entry adds the actual nighttime seizure attempt and McGonagall's injury.
+  - Notes: Student witnesses observe from the Astronomy Tower at a distance, though the spellfire, dialogue, and aftermath are directly visible or audible.
 
 ### Chapter: Ministry Pressure and Public Records
 

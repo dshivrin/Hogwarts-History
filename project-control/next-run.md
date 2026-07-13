@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty-One - O.W.L.s
-- Page range: 2245-2268
+- Chapter: Chapter Thirty-Two - Out of the Fire
+- Page range: 2269-2289
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-31-o-w-l-s.yaml`
+- Output YAML: `sources/book-05/chapter-32-out-of-the-fire.yaml`
 
 ## Minimal Context
 

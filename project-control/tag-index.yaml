@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-12'
+updated: '2026-07-13'
 tags:
   academic-assessment:
     entries:
@@ -265,6 +265,11 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  anti-cheating-charms:
+    entries:
+    - ootp-ch31-003
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   anti-cheating-spell:
     entries:
     - ps-ch16-001
@@ -415,13 +420,20 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  astronomy-exam:
+    entries:
+    - ootp-ch31-006
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   astronomy-tower:
     entries:
+    - ootp-ch31-006
     - poa-ch09-004
     - ps-ch15-001
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   atrium:
     entries:
     - ootp-ch07-002
@@ -734,6 +746,11 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+  black-market-study-aids:
+    entries:
+    - ootp-ch31-001
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
@@ -864,9 +881,11 @@ tags:
     entries:
     - ootp-ch13-004
     - ootp-ch15-006
+    - ootp-ch31-005
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   brazilian-school:
     entries:
     - gof-ch07-003
@@ -1019,6 +1038,7 @@ tags:
     - ootp-ch20-007
     - ootp-ch25-004
     - ootp-ch30-005
+    - ootp-ch31-005
     - poa-ch01-006
     - poa-ch04-003
     - poa-ch05-007
@@ -1055,6 +1075,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -2374,6 +2395,7 @@ tags:
     - ootp-ch23-004
     - ootp-ch27-004
     - ootp-ch28-007
+    - ootp-ch31-004
     - poa-ch05-003
     - poa-ch05-004
     - poa-ch05-007
@@ -2442,6 +2464,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   defense-association:
     entries:
     - ootp-ch18-007
@@ -3031,6 +3054,7 @@ tags:
     - ootp-ch27-007
     - ootp-ch28-001
     - ootp-ch28-006
+    - ootp-ch31-002
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -3129,6 +3153,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3434,6 +3459,7 @@ tags:
     - gof-ch16-003
     - gof-ch16-004
     - ootp-ch30-003
+    - ootp-ch31-002
     - poa-ch05-005
     - ps-ch14-006
     - ps-ch15-004
@@ -3445,6 +3471,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   entrances:
     entries:
     - poa-ch04-007
@@ -3485,11 +3512,26 @@ tags:
     - poa-ch21-001
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  exam-preparation:
+    entries:
+    - ootp-ch31-001
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
+  exam-procedure:
+    entries:
+    - ootp-ch31-003
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   examination-grades:
     entries:
     - ootp-ch15-002
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  examination-hall:
+    entries:
+    - ootp-ch31-004
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   exams:
     entries:
     - cos-ch04-003
@@ -3595,6 +3637,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  external-examiners:
+    entries:
+    - ootp-ch31-002
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   faculty-resistance:
     entries:
     - ootp-ch28-005
@@ -3726,12 +3773,14 @@ tags:
     - ootp-ch15-005
     - ootp-ch29-001
     - ootp-ch29-003
+    - ootp-ch31-001
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   fifth-year-booklist:
     entries:
     - ootp-ch09-004
@@ -3817,6 +3866,11 @@ tags:
     - ootp-ch14-007
     output_yaml:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+  fire-crabs:
+    entries:
+    - ootp-ch31-005
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   firebolt:
     entries:
     - gof-ch05-005
@@ -4112,10 +4166,12 @@ tags:
     - gof-ch13-003
     - gof-ch24-001
     - gof-ch26-003
+    - ootp-ch31-005
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   forbidden-objects:
     entries:
     - gof-ch12-005
@@ -4493,6 +4549,11 @@ tags:
     - gof-ch22-005
     output_yaml:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+  goblin-riots:
+    entries:
+    - ootp-ch31-007
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   goblin-wrought-silver:
     entries:
     - ootp-ch05-002
@@ -4585,6 +4646,7 @@ tags:
     - ootp-ch26-001
     - ootp-ch28-006
     - ootp-ch28-007
+    - ootp-ch31-004
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -4627,6 +4689,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -4718,6 +4781,11 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+  griselda-marchbanks:
+    entries:
+    - ootp-ch31-002
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   ground-floor:
     entries:
     - ootp-ch27-001
@@ -5088,6 +5156,11 @@ tags:
     - ps-ch03-005
     output_yaml:
     - sources/book-01/chapter-03-letters-from-no-one.yaml
+  hagrid-dismissal:
+    entries:
+    - ootp-ch31-006
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   hagrid-expulsion:
     entries:
     - cos-ch17-003
@@ -5611,6 +5684,7 @@ tags:
     - ootp-ch27-006
     - ootp-ch29-002
     - ootp-ch30-005
+    - ootp-ch31-006
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
@@ -5623,6 +5697,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   high-table:
     entries:
     - ps-ch12-003
@@ -5657,6 +5732,7 @@ tags:
     - gof-ch22-005
     - gof-ch29-002
     - ootp-ch12-003
+    - ootp-ch31-007
     - poa-ch01-001
     - poa-ch04-002
     - poa-ch16-003
@@ -5673,6 +5749,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   history-of-magic-classroom:
     entries:
     - poa-ch12-001
@@ -6621,6 +6698,11 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  individual-desks:
+    entries:
+    - ootp-ch31-004
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   informal-source:
     entries:
     - poa-ch04-002
@@ -6738,9 +6820,11 @@ tags:
     entries:
     - ootp-ch05-007
     - ootp-ch11-007
+    - ootp-ch31-007
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   international-magical-cooperation:
     entries:
     - gof-ch05-003
@@ -6993,6 +7077,11 @@ tags:
     - ootp-ch07-005
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  knarls:
+    entries:
+    - ootp-ch31-005
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   knight-bus:
     entries:
     - ootp-ch24-002
@@ -7204,6 +7293,11 @@ tags:
     - gof-ch06-001
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+  liechtenstein:
+    entries:
+    - ootp-ch31-007
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   lightning-scar:
     entries:
     - gof-ch02-001
@@ -8333,6 +8427,7 @@ tags:
     - ootp-ch20-006
     - ootp-ch26-007
     - ootp-ch27-007
+    - ootp-ch31-006
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
@@ -8344,6 +8439,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   ministry-investigation:
     entries:
     - gof-ch09-006
@@ -8939,11 +9035,13 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
   newts:
     entries:
+    - ootp-ch31-002
     - poa-ch16-001
     - poa-ch22-005
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   next-tournament:
     entries:
     - gof-ch17-004
@@ -9264,6 +9362,9 @@ tags:
     - ootp-ch20-007
     - ootp-ch29-001
     - ootp-ch29-004
+    - ootp-ch31-001
+    - ootp-ch31-002
+    - ootp-ch31-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
@@ -9272,6 +9373,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   original-order-phoenix:
     entries:
     - ootp-ch09-007
@@ -9347,6 +9449,11 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+  owl-post-results:
+    entries:
+    - ootp-ch31-003
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   owlery:
     entries:
     - gof-ch15-001
@@ -9506,6 +9613,7 @@ tags:
     - ootp-ch08-003
     - ootp-ch16-005
     - ootp-ch21-006
+    - ootp-ch31-004
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
@@ -9515,6 +9623,7 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   patronus-charm:
     entries:
     - ootp-ch27-004
@@ -9725,6 +9834,11 @@ tags:
     - poa-ch17-002
     output_yaml:
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
+  pierre-bonaccord:
+    entries:
+    - ootp-ch31-007
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   pipe-route:
     entries:
     - cos-ch17-007
@@ -10014,6 +10128,11 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  practical-exam:
+    entries:
+    - ootp-ch31-005
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   practical-examination:
     entries:
     - ootp-ch12-004
@@ -10021,11 +10140,14 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
   practical-exams:
     entries:
+    - ootp-ch31-003
+    - ootp-ch31-004
     - poa-ch16-004
     - ps-ch16-001
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   practical-jokes:
     entries:
     - gof-ch04-005
@@ -10331,6 +10453,7 @@ tags:
     - ootp-ch19-006
     - ootp-ch21-007
     - ootp-ch29-004
+    - ootp-ch31-006
     - poa-ch06-004
     - poa-ch12-005
     - poa-ch13-004
@@ -10370,6 +10493,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   professor-quirrell:
     entries:
     - gof-ch33-002
@@ -10422,6 +10546,11 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  professor-tofty:
+    entries:
+    - ootp-ch31-004
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   professor-trelawney:
     entries:
     - gof-ch10-005
@@ -10966,6 +11095,11 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+  review-lessons:
+    entries:
+    - ootp-ch31-001
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   riddikulus:
     entries:
     - poa-ch07-007
@@ -11826,8 +11960,10 @@ tags:
   seventh-year:
     entries:
     - ootp-ch29-001
+    - ootp-ch31-001
     output_yaml:
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   severus-snape:
     entries:
     - ootp-ch17-005
@@ -12629,11 +12765,13 @@ tags:
     - ootp-ch02-002
     - ootp-ch02-004
     - ootp-ch08-002
+    - ootp-ch31-007
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   statute-of-secrecy-context:
     entries:
     - ps-ch14-002
@@ -13205,8 +13343,10 @@ tags:
   student-workload:
     entries:
     - ootp-ch15-002
+    - ootp-ch31-001
     output_yaml:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   students:
     entries:
     - ootp-ch09-003
@@ -13236,8 +13376,10 @@ tags:
   stunning-spells:
     entries:
     - gof-ch19-005
+    - ootp-ch31-006
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   sturgis-podmore:
     entries:
     - ootp-ch14-003
@@ -13551,6 +13693,11 @@ tags:
     - ootp-ch12-006
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+  theory-exams:
+    entries:
+    - ootp-ch31-003
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   thestrals:
     entries:
     - ootp-ch10-007
@@ -14155,12 +14302,14 @@ tags:
     - cos-ch15-003
     - gof-ch24-001
     - gof-ch26-003
+    - ootp-ch31-005
     - ps-ch15-005
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   uniform:
     entries:
     - ps-ch05-002
@@ -14408,6 +14557,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+  wand-legislation:
+    entries:
+    - ootp-ch31-007
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   wand-magic:
     entries:
     - gof-ch09-006
@@ -14689,6 +14843,12 @@ tags:
     - ps-ch01-001
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
+  wizarding-examinations-authority:
+    entries:
+    - ootp-ch31-002
+    - ootp-ch31-003
+    output_yaml:
+    - sources/book-05/chapter-31-o-w-l-s.yaml
   wizarding-fame:
     entries:
     - gof-ch02-004
