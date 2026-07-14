@@ -332,6 +332,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Centaurs in the Forbidden Forest
   - Forbidden Forest Creature Lore
   - Grawp's concealed residence in the Forbidden Forest
+  - Grawp's open clash with the centaur herd
   - The Giant Squid in the Lake
 - Portraits as Residents and Gatekeepers
   - Temporary Portrait Guardians
@@ -355,6 +356,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Headmasters and School Authority
 
+- Ministry Intervention and Its Collapse
+  - Umbridge's authority ends at the centaur boundary
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's expected dismissal and substitute continuity
 
@@ -651,6 +654,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Enchanted Objects and Hidden Rooms
   - The Mirror of Erised
 - Grounds, Transport, and the Forbidden Forest
+  - Thestrals as emergency long-distance transport
   - Thestrals, carriage teams, and death-sight visibility
 - Headmaster's Office and Protected Entrances
   - Dippet-Era Office and Entrance Continuity
@@ -688,8 +692,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Magical Communities and Families
 
+- Beings, Beasts, and Wizarding Law
+  - Ministry creature classification and centaur resistance
 - Beings, Beasts, and Wizarding Prejudice
   - Ministry Symbolism and Non-Human Beings
+- Centaurs, Law, and Non-Human Autonomy
+  - Centaur rejection of human service and wizard law
 - Squibs, Muggle Neighbors, and Wizarding Records
   - Squib Witnesses and Ministry Registration Gaps
 
@@ -1105,8 +1113,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Castle and Grounds
 
+- Entrances, Boundaries, and the Forbidden Forest
+  - Crisis movement from castle interior to Forest edge
 - The Forbidden Forest
   - Deep forest routes, armed escort, and post-Firenze danger
+  - Deep-Forest hazards and student crisis tactics
 
 ## The Castle and Its Grounds
 

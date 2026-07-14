@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 32
-  chapter_title: Chapter Thirty-Two - Out of the Fire
-  page_start: 2269
-  page_end: 2289
-  output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 33
   chapter_title: Chapter Thirty-Three - Fight and Flight
   page_start: 2290
   page_end: 2302
   output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2303
   page_end: 2319
   output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 35
+  chapter_title: Chapter Thirty-Five - Beyond the Veil
+  page_start: 2320
+  page_end: 2344
+  output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-13'
+updated: '2026-07-14'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -12256,6 +12256,117 @@ by_entry:
     - veritaserum
     source_unit: ootp-ch32
     output_yaml: sources/book-05/chapter-32-out-of-the-fire.yaml
+  ootp-ch33-001:
+    title: 'Entrances, Boundaries, and the Forbidden Forest: Crisis movement from
+      castle interior to Forest edge'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - aragog
+    - castle-grounds
+    - entrance-hall
+    - forbidden-forest
+    - great-hall
+    - student-safety
+    - umbridge
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch33-002:
+    title: 'The Forbidden Forest: Deep-Forest hazards and student crisis tactics'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - aragog
+    - centaurs
+    - forbidden-forest
+    - forest-path
+    - magorian
+    - security-risk
+    - student-safety
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch33-003:
+    title: 'Beings, Beasts, and Wizarding Law: Ministry creature classification and
+      centaur resistance'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - centaurs
+    - department-regulation-control-magical-creatures
+    - forbidden-forest
+    - law-fifteen-b
+    - magical-beings
+    - ministry-creature-law
+    - wizarding-prejudice
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch33-004:
+    title: 'Ministry Intervention and Its Collapse: Umbridge''s authority ends at
+      the centaur boundary'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - bane
+    - centaurs
+    - forbidden-forest
+    - headmistress-authority
+    - magorian
+    - ronan
+    - umbridge
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch33-005:
+    title: 'Centaurs, Law, and Non-Human Autonomy: Centaur rejection of human service
+      and wizard law'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - centaurs
+    - firenze
+    - forbidden-forest
+    - magical-beings
+    - non-human-law
+    - ronan
+    - wizarding-prejudice
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch33-006:
+    title: 'Magical Residents of the Grounds: Grawp''s open clash with the centaur
+      herd'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - centaurs
+    - forbidden-forest
+    - giants
+    - grawp
+    - hagrid
+    - magical-residents
+    - magorian
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch33-007:
+    title: 'Grounds, Transport, and the Forbidden Forest: Thestrals as emergency long-distance
+      transport'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - death-witnesses
+    - emergency-transport
+    - forbidden-forest
+    - hagrid
+    - luna-lovegood
+    - student-transport
+    - thestrals
+    source_unit: ootp-ch33
+    output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12415,6 +12526,8 @@ by_tag:
   aragog:
   - cos-ch15-005
   - cos-ch15-006
+  - ootp-ch33-001
+  - ootp-ch33-002
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -12501,6 +12614,7 @@ by_tag:
   bane:
   - ootp-ch27-002
   - ootp-ch30-007
+  - ootp-ch33-004
   - ps-ch15-006
   - ps-ch15-007
   banishing-charm:
@@ -12784,6 +12898,7 @@ by_tag:
   castle-gates:
   - ootp-ch16-001
   castle-grounds:
+  - ootp-ch33-001
   - poa-ch17-001
   - poa-ch20-001
   - poa-ch21-005
@@ -12873,6 +12988,11 @@ by_tag:
   - ootp-ch26-007
   - ootp-ch27-002
   - ootp-ch30-007
+  - ootp-ch33-002
+  - ootp-ch33-003
+  - ootp-ch33-004
+  - ootp-ch33-005
+  - ootp-ch33-006
   - ps-ch15-006
   ceremonial-duty:
   - gof-ch22-002
@@ -13336,6 +13456,7 @@ by_tag:
   - ootp-ch25-001
   death-witnesses:
   - ootp-ch21-001
+  - ootp-ch33-007
   deathday-party:
   - cos-ch08-004
   decorations:
@@ -13468,6 +13589,8 @@ by_tag:
   - gof-ch30-004
   - ootp-ch07-007
   - ootp-ch25-002
+  department-regulation-control-magical-creatures:
+  - ootp-ch33-003
   deputy-headmistress:
   - ps-ch04-002
   dervish-and-banges:
@@ -13869,6 +13992,7 @@ by_tag:
   - gof-ch28-007
   - ps-ch10-003
   emergency-transport:
+  - ootp-ch33-007
   - poa-ch03-002
   empty-classrooms:
   - gof-ch29-004
@@ -13907,6 +14031,7 @@ by_tag:
   - gof-ch16-004
   - ootp-ch30-003
   - ootp-ch31-002
+  - ootp-ch33-001
   - poa-ch05-005
   - ps-ch14-006
   - ps-ch15-004
@@ -14108,6 +14233,7 @@ by_tag:
   - ootp-ch27-002
   - ootp-ch27-003
   - ootp-ch30-007
+  - ootp-ch33-005
   - ps-ch15-007
   fireplace-communication:
   - gof-ch19-007
@@ -14231,6 +14357,13 @@ by_tag:
   - ootp-ch30-004
   - ootp-ch30-006
   - ootp-ch30-007
+  - ootp-ch33-001
+  - ootp-ch33-002
+  - ootp-ch33-003
+  - ootp-ch33-004
+  - ootp-ch33-005
+  - ootp-ch33-006
+  - ootp-ch33-007
   - poa-ch06-005
   - poa-ch19-007
   - ps-ch15-004
@@ -14254,6 +14387,7 @@ by_tag:
   - cos-ch15-005
   forest-path:
   - cos-ch15-004
+  - ootp-ch33-002
   formal-occasions:
   - gof-ch10-007
   fouls:
@@ -14372,6 +14506,7 @@ by_tag:
   - ootp-ch20-004
   - ootp-ch20-005
   - ootp-ch30-006
+  - ootp-ch33-006
   gilderoy-lockhart:
   - cos-ch04-006
   - cos-ch06-006
@@ -14443,6 +14578,7 @@ by_tag:
   - ootp-ch20-005
   grawp:
   - ootp-ch30-006
+  - ootp-ch33-006
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -14467,6 +14603,7 @@ by_tag:
   - ootp-ch28-006
   - ootp-ch28-007
   - ootp-ch31-004
+  - ootp-ch33-001
   - poa-ch05-005
   - poa-ch08-006
   - poa-ch09-002
@@ -14687,6 +14824,8 @@ by_tag:
   - ootp-ch30-004
   - ootp-ch30-005
   - ootp-ch30-006
+  - ootp-ch33-006
+  - ootp-ch33-007
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -14859,6 +14998,8 @@ by_tag:
   - cos-ch02-003
   headmistress:
   - ootp-ch22-006
+  headmistress-authority:
+  - ootp-ch33-004
   headmistresses:
   - cos-ch09-006
   headquarters:
@@ -15644,6 +15785,8 @@ by_tag:
   - cos-ch02-001
   later-editorial-note:
   - gof-ch32-002
+  law-fifteen-b:
+  - ootp-ch33-003
   leaky-cauldron:
   - poa-ch03-003
   - poa-ch03-004
@@ -15795,6 +15938,7 @@ by_tag:
   - ootp-ch10-005
   - ootp-ch10-007
   - ootp-ch19-005
+  - ootp-ch33-007
   lupin:
   - poa-ch08-005
   lupins-office:
@@ -15890,6 +16034,8 @@ by_tag:
   - cos-ch05-001
   magical-beings:
   - ootp-ch20-003
+  - ootp-ch33-003
+  - ootp-ch33-005
   magical-books:
   - cos-ch13-004
   - poa-ch01-006
@@ -16001,6 +16147,7 @@ by_tag:
   - cos-ch15-005
   - ootp-ch27-002
   - ootp-ch30-006
+  - ootp-ch33-006
   - ps-ch15-006
   - ps-ch16-002
   magical-safety:
@@ -16064,6 +16211,9 @@ by_tag:
   - gof-ch37-005
   magorian:
   - ootp-ch30-007
+  - ootp-ch33-002
+  - ootp-ch33-004
+  - ootp-ch33-006
   malfoy-family:
   - ootp-ch06-006
   mandrake-juice:
@@ -16217,6 +16367,8 @@ by_tag:
   - gof-ch36-006
   ministry-control:
   - ootp-ch08-006
+  ministry-creature-law:
+  - ootp-ch33-003
   ministry-crowd-control:
   - gof-ch08-006
   ministry-departments:
@@ -16554,6 +16706,7 @@ by_tag:
   - gof-ch09-005
   non-human-law:
   - ootp-ch30-007
+  - ootp-ch33-005
   non-human-relations:
   - ootp-ch27-002
   north-tower:
@@ -17526,6 +17679,8 @@ by_tag:
   - ootp-ch09-005
   - ootp-ch30-003
   ronan:
+  - ootp-ch33-004
+  - ootp-ch33-005
   - ps-ch15-006
   rookwood:
   - gof-ch30-004
@@ -17851,6 +18006,8 @@ by_tag:
   - ootp-ch24-002
   security-failure:
   - poa-ch22-001
+  security-risk:
+  - ootp-ch33-002
   security-threat:
   - poa-ch10-005
   security-trolls:
@@ -18478,6 +18635,8 @@ by_tag:
   - ootp-ch21-007
   - ootp-ch27-005
   - ootp-ch30-004
+  - ootp-ch33-001
+  - ootp-ch33-002
   - poa-ch06-006
   - poa-ch10-002
   - poa-ch11-007
@@ -18504,6 +18663,7 @@ by_tag:
   - ootp-ch14-002
   - ootp-ch21-001
   - ootp-ch24-002
+  - ootp-ch33-007
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -18674,6 +18834,7 @@ by_tag:
   - ootp-ch21-001
   - ootp-ch21-002
   - ootp-ch30-004
+  - ootp-ch33-007
   third-floor:
   - ootp-ch13-005
   third-floor-corridor:
@@ -18908,6 +19069,8 @@ by_tag:
   - ootp-ch26-001
   - ootp-ch27-005
   - ootp-ch30-004
+  - ootp-ch33-001
+  - ootp-ch33-004
   umbridge-office:
   - ootp-ch29-005
   - ootp-ch32-002
@@ -19241,6 +19404,8 @@ by_tag:
   - gof-ch23-006
   - gof-ch29-007
   - ootp-ch20-003
+  - ootp-ch33-003
+  - ootp-ch33-005
   wizarding-press:
   - gof-ch18-005
   - gof-ch37-006

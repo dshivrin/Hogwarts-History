@@ -553,6 +553,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter plac
 
 ### Chapter: Grounds, Transport, and the Forbidden Forest
 
+#### Section: Thestrals as emergency long-distance transport
+
+Summary: The available evidence includes 1 source item, led by: The school thestrals become emergency long-distance transport: visible only to death-witnesses, attracted by blood like raw meat, and trusted to locate a rider's intended destination.
+
+- **Corroboration:** The school thestrals become emergency long-distance transport: visible only to death-witnesses, attracted by blood like raw meat, and trusted to locate a rider's intended destination.
+  - Quote: "finding places their riders are looking for"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2300, `ootp-ch33-007`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch21-001`, `ootp-ch10-007`, `ootp-ch14-002`. ootp-ch21-001 names the herd, its carriage use, and death-sight rule; ootp-ch10-007 and ootp-ch14-002 record earlier visibility and Forest-range evidence. This entry adds emergency flight use, blood attraction, and destination-finding claims.
+  - Notes: Luna reports the destination-finding ability from Hagrid, and the actual flight continues in the next source unit rather than this chapter.
+
 #### Section: Thestrals, carriage teams, and death-sight visibility
 
 Summary: The available evidence includes 1 source item, led by: The lesson confirms that Hogwarts keeps a thestral herd in the Forbidden Forest, uses them mainly to pull school carriages, and that only people who have seen death can see them.
@@ -4206,6 +4218,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid has conce
   - Reference type: historical_claim
   - Corroborates: `gof-ch23-006`, `cos-ch15-006`. gof-ch23-006 records Hagrid's giant ancestry and stigma, while cos-ch15-006 records an earlier concealed creature linked to Hagrid; this entry adds Grawp himself as a hidden giant resident of the Forest.
   - Notes: Much of Grawp's background is reported by Hagrid, whose judgment about dangerous creatures is explicitly questioned by the surrounding scene.
+
+#### Section: Grawp's open clash with the centaur herd
+
+Summary: The available evidence includes 1 source item, led by: Grawp's concealed presence escalates into open conflict with the centaurs, showing that Hagrid's hidden giant has crossed from private secret to territorial crisis.
+
+- **Corroboration:** Grawp's concealed presence escalates into open conflict with the centaurs, showing that Hagrid's hidden giant has crossed from private secret to territorial crisis.
+  - Quote: "You are not welcome among us!"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2296, `ootp-ch33-006`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch30-006`, `ootp-ch30-007`. ootp-ch30-006 introduces Grawp's hidden residence, and ootp-ch30-007 records centaur warning about him; this entry adds the direct centaur-Grawp clash and Grawp's effect on the crisis.
+  - Notes: The immediate fight is observed from Harry and Hermione's perspective while they are fleeing, so its outcome is not fully recorded here.
 
 #### Section: The Giant Squid in the Lake
 
@@ -9105,6 +9129,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter maps
 
 ## Part: Headmasters and School Authority
 
+### Chapter: Ministry Intervention and Its Collapse
+
+#### Section: Umbridge's authority ends at the centaur boundary
+
+Summary: The available evidence includes 1 source item, led by: The centaurs answer Umbridge's spell and insults by physically removing the acting headmistress and destroying her wand, while sparing Harry and Hermione only provisionally as young.
+
+- **Corroboration:** The centaurs answer Umbridge's spell and insults by physically removing the acting headmistress and destroying her wand, while sparing Harry and Hermione only provisionally as young.
+  - Quote: "Whose forest is it now, human?"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2294, `ootp-ch33-004`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch30-007`, `ootp-ch27-002`. ootp-ch30-007 records centaur territorial law and conditional mercy, while ootp-ch27-002 records centaur autonomy after Firenze's employment; this entry adds the actual removal of Umbridge and destruction of her wand.
+  - Notes: Umbridge's eventual fate and recovery are not described in this source unit.
+
 ### Chapter: Ministry Intervention and Staff Vulnerability
 
 #### Section: Hagrid's expected dismissal and substitute continuity
@@ -9268,6 +9306,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 ## Part: Magical Communities and Families
 
+### Chapter: Beings, Beasts, and Wizarding Law
+
+#### Section: Ministry creature classification and centaur resistance
+
+Summary: The available evidence includes 1 source item, led by: Umbridge cites Department creature law and a Ministry land-permission theory against the centaurs, who treat the legal classification and territorial claim as provocations.
+
+- **Context:** Umbridge cites Department creature law and a Ministry land-permission theory against the centaurs, who treat the legal classification and territorial claim as provocations.
+  - Quote: "Law Fifteen B states clearly"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2293, `ootp-ch33-003`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The law is quoted by Umbridge in a hostile exchange; the full statutory wording and legal force are not independently shown.
+
 ### Chapter: Beings, Beasts, and Wizarding Prejudice
 
 #### Section: Ministry Symbolism and Non-Human Beings
@@ -9281,6 +9332,20 @@ Summary: The available evidence includes 1 source item, led by: Harry's second l
   - Reference type: cross_reference_candidate
   - Corroborates: `ootp-ch07-003`. ootp-ch07-003 records the fountain's architecture and official display; this entry adds Harry's critical interpretation of its centaur, goblin, and house-elf symbolism.
   - Notes: The interpretation is Harry's observation rather than an official Ministry explanation of the fountain's design.
+
+### Chapter: Centaurs, Law, and Non-Human Autonomy
+
+#### Section: Centaur rejection of human service and wizard law
+
+Summary: The available evidence includes 1 source item, led by: The herd frames human intrusion as arrogance, rejects any role as human servants, condemns Firenze as a traitor, and denies wizard laws and superiority.
+
+- **Corroboration:** The herd frames human intrusion as arrogance, rejects any role as human servants, condemns Firenze as a traitor, and denies wizard laws and superiority.
+  - Quote: "We are a race apart"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2295, `ootp-ch33-005`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch30-007`, `ootp-ch27-002`, `ps-ch15-006`. ootp-ch30-007 records centaur separate law, ootp-ch27-002 records Firenze's banishment, and ps-ch15-006 establishes centaur residence; this entry adds the post-Umbridge argument over servitude, wizard invasions, and legal nonrecognition.
+  - Notes: The claims come during an armed crisis and may emphasize the most hostile position within the herd.
 
 ### Chapter: Squibs, Muggle Neighbors, and Wizarding Records
 
@@ -9803,6 +9868,20 @@ Summary: The available evidence includes 1 source item, led by: Firenze reframes
 
 ## Part: The Castle and Grounds
 
+### Chapter: Entrances, Boundaries, and the Forbidden Forest
+
+#### Section: Crisis movement from castle interior to Forest edge
+
+Summary: The available evidence includes 1 source item, led by: The scene traces a crisis route from Umbridge's office through the entrance hall and front doors into the grounds while ordinary school dining continues nearby.
+
+- **Corroboration:** The scene traces a crisis route from Umbridge's office through the entrance hall and front doors into the grounds while ordinary school dining continues nearby.
+  - Quote: "celebrating the end of exams"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2290, `ootp-ch33-001`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch30-004`, `cos-ch15-004`. ootp-ch30-004 records Hagrid's covert deep-Forest route, and cos-ch15-004 records an earlier path toward Aragog; this entry adds the forced route from Umbridge's office through the entrance hall and front doors.
+  - Notes: The chapter describes the route experientially and does not map exact distance from the castle doors to the clearing.
+
 ### Chapter: The Forbidden Forest
 
 #### Section: Deep forest routes, armed escort, and post-Firenze danger
@@ -9816,6 +9895,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid uses the 
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch21-001`, `cos-ch15-004`, `ps-ch15-005`. ootp-ch21-001 records the thestral clearing and herd, while cos-ch15-004 and ps-ch15-005 record earlier path warnings and supervised forest routes; this entry adds a clandestine armed route past those known areas.
   - Notes: The exact physical route is narrated experientially, without a map or official Forest boundary description.
+
+#### Section: Deep-Forest hazards and student crisis tactics
+
+Summary: The available evidence includes 1 source item, led by: Hermione exploits known Forest dangers by deliberately attracting centaur attention, resulting in an armed centaur encirclement deep inside the Forest.
+
+- **Corroboration:** Hermione exploits known Forest dangers by deliberately attracting centaur attention, resulting in an armed centaur encirclement deep inside the Forest.
+  - Quote: "I want us heard"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, PDF p. 2292, `ootp-ch33-002`, `sources/book-05/chapter-33-fight-and-flight.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch30-004`, `ootp-ch30-007`, `cos-ch15-004`. ootp-ch30-004 and cos-ch15-004 record earlier deep-Forest routes, while ootp-ch30-007 records centaur confrontation; this entry adds Hermione's deliberate use of centaur audibility as an emergency tactic.
+  - Notes: Hermione's plan is inferred from her actions and brief explanation rather than stated in advance.
 
 ## Part: The Castle and Its Protections
 

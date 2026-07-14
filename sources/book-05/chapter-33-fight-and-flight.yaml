@@ -1,0 +1,348 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  boundary_confidence: high
+  boundary_notes: Chapter Thirty-Three range came from project-control/processing-state.yaml and project-control/next-run.md. The prior completed anchor places Chapter Thirty-Two through PDF page 2289 and the next source unit starts at PDF page 2303, so only PDF pages 2290-2302 were extracted and searched for this unit.
+  processed_date: '2026-07-14'
+  processor_notes: "Processed only Book 5, Chapter Thirty-Three. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: ootp-ch33-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2290
+  printed_page: null
+  extracted_text_lines: 6-24; 33-57
+  text_anchor:
+    start_phrase: He walked half a pace behind her
+    end_phrase: what danger lay at the end of it
+    local_occurrence_note: Hermione leads Harry and Umbridge from the corridor outside Umbridge's office through the entrance hall and front doors toward the Forbidden Forest.
+  nearby_context: The Great Hall is full of students celebrating the end of exams while Harry and Hermione are being forced along at wandpoint.
+  match_terms:
+  - Umbridge's office
+  - entrance hall
+  - Great Hall
+  - oak front doors
+  - Hagrid's hut
+  - Forbidden Forest
+  - Aragog
+  quote_excerpt_short: "celebrating the end of exams"
+  source_note: The scene traces a crisis route from Umbridge's office through the entrance hall and front doors into the grounds while ordinary school dining continues nearby.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - umbridge
+  - entrance-hall
+  - great-hall
+  - forbidden-forest
+  - castle-grounds
+  - student-safety
+  - aragog
+  candidate_part: The Castle and Grounds
+  candidate_chapter: Entrances, Boundaries, and the Forbidden Forest
+  candidate_section: Crisis movement from castle interior to Forest edge
+  reason_for_placement: The passage gives a concrete castle-to-grounds route and shows how quickly a school authority crisis can cross from ordinary student space into a restricted landscape.
+  relevance_to_hogwarts_a_history: A later edition can use this as a transition point between ordinary castle operations and the dangerous political geography of the Forest during the Umbridge year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-004
+    - cos-ch15-004
+    notes: ootp-ch30-004 records Hagrid's covert deep-Forest route, and cos-ch15-004 records an earlier path toward Aragog; this entry adds the forced route from Umbridge's office through the entrance hall and front doors.
+  confidence: high
+  limitations: The chapter describes the route experientially and does not map exact distance from the castle doors to the clearing.
+
+- id: ootp-ch33-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2292
+  printed_page: null
+  extracted_text_lines: 60-89
+  text_anchor:
+    start_phrase: I want us heard
+    end_phrase: I asked you who are you, human
+    local_occurrence_note: Hermione deliberately makes noise in the deep Forest and the party is surrounded by about fifty armed centaurs.
+  nearby_context: Harry realizes Hermione is taking the path toward Aragog's lair rather than the earlier route to Grawp before the centaurs emerge in a clearing.
+  match_terms:
+  - Hermione
+  - heard
+  - deep forest
+  - clearing
+  - fifty centaurs
+  - bows
+  - Magorian
+  quote_excerpt_short: "I want us heard"
+  source_note: Hermione exploits known Forest dangers by deliberately attracting centaur attention, resulting in an armed centaur encirclement deep inside the Forest.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - forbidden-forest
+  - centaurs
+  - magorian
+  - forest-path
+  - student-safety
+  - security-risk
+  - aragog
+  candidate_part: The Castle and Grounds
+  candidate_chapter: The Forbidden Forest
+  candidate_section: Deep-Forest hazards and student crisis tactics
+  reason_for_placement: The evidence shows students using knowledge of dangerous Forest residents as an emergency tactic, while confirming the depth and risk of the route.
+  relevance_to_hogwarts_a_history: This can support later discussion of the Forest as both prohibited school ground and a politically active habitat beyond ordinary staff control.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-004
+    - ootp-ch30-007
+    - cos-ch15-004
+    notes: ootp-ch30-004 and cos-ch15-004 record earlier deep-Forest routes, while ootp-ch30-007 records centaur confrontation; this entry adds Hermione's deliberate use of centaur audibility as an emergency tactic.
+  confidence: high
+  limitations: Hermione's plan is inferred from her actions and brief explanation rather than stated in advance.
+
+- id: ootp-ch33-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2293
+  printed_page: null
+  extracted_text_lines: 91-125
+  text_anchor:
+    start_phrase: You are from the Ministry of Magic
+    end_phrase: permits you certain areas of land
+    local_occurrence_note: Umbridge invokes Ministry office, creature law, and land permission while Magorian, Bane, and other centaurs reject the framing as insulting.
+  nearby_context: Umbridge identifies herself as Senior Undersecretary, Headmistress, and High Inquisitor before citing the Department for the Regulation and Control of Magical Creatures.
+  match_terms:
+  - Ministry of Magic
+  - Department for the Regulation and Control of Magical Creatures
+  - Law Fifteen B
+  - near-human intelligence
+  - Magorian
+  - Bane
+  - land permission
+  quote_excerpt_short: "Law Fifteen B states clearly"
+  source_note: Umbridge cites Department creature law and a Ministry land-permission theory against the centaurs, who treat the legal classification and territorial claim as provocations.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-creature-law
+  - centaurs
+  - department-regulation-control-magical-creatures
+  - law-fifteen-b
+  - forbidden-forest
+  - magical-beings
+  - wizarding-prejudice
+  candidate_part: Magical Communities and Families
+  candidate_chapter: Beings, Beasts, and Wizarding Law
+  candidate_section: Ministry creature classification and centaur resistance
+  reason_for_placement: The passage names an in-universe legal framework and shows its failure when imposed on centaurs inside the Forbidden Forest.
+  relevance_to_hogwarts_a_history: A later edition can use this as a rare school-grounds example of Ministry creature law colliding with non-human self-understanding and territorial claims.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup surfaced centaur and Ministry-symbolism entries, but none records Law Fifteen B, the Department citation, or the Ministry land-permission claim in this confrontation.
+  confidence: high
+  limitations: The law is quoted by Umbridge in a hostile exchange; the full statutory wording and legal force are not independently shown.
+
+- id: ootp-ch33-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2294
+  printed_page: null
+  extracted_text_lines: 128-159
+  text_anchor:
+    start_phrase: Whose forest is it now, human
+    end_phrase: We do not attack foals
+    local_occurrence_note: Umbridge attacks Magorian with Incarcerous, the centaurs seize her, break her wand, and debate Harry and Hermione's status.
+  nearby_context: Umbridge's official titles and insults fail to protect her once the confrontation becomes physical.
+  match_terms:
+  - Bane
+  - Magorian
+  - Incarcerous
+  - Umbridge
+  - wand
+  - Ronan
+  - foals
+  quote_excerpt_short: "Whose forest is it now, human?"
+  source_note: The centaurs answer Umbridge's spell and insults by physically removing the acting headmistress and destroying her wand, while sparing Harry and Hermione only provisionally as young.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - centaurs
+  - umbridge
+  - magorian
+  - bane
+  - ronan
+  - forbidden-forest
+  - headmistress-authority
+  candidate_part: Headmasters and School Authority
+  candidate_chapter: Ministry Intervention and Its Collapse
+  candidate_section: Umbridge's authority ends at the centaur boundary
+  reason_for_placement: The scene gives direct evidence that Ministry and headmistress titles carry little practical authority inside centaur-controlled Forest space.
+  relevance_to_hogwarts_a_history: This can support a later editorial note on how the Forest exposed limits of school and Ministry jurisdiction during the High Inquisitor period.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-007
+    - ootp-ch27-002
+    notes: ootp-ch30-007 records centaur territorial law and conditional mercy, while ootp-ch27-002 records centaur autonomy after Firenze's employment; this entry adds the actual removal of Umbridge and destruction of her wand.
+  confidence: high
+  limitations: Umbridge's eventual fate and recovery are not described in this source unit.
+
+- id: ootp-ch33-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2295
+  printed_page: null
+  extracted_text_lines: 162-199
+  text_anchor:
+    start_phrase: They brought her here, Ronan
+    end_phrase: we do not acknowledge your superiority
+    local_occurrence_note: The centaurs nearly punish Harry and Hermione too, explicitly rejecting human requests, servitude, wizard laws, and Firenze's example.
+  nearby_context: Hermione's explanation that she hoped the centaurs would drive Umbridge off worsens the confrontation by sounding like a request for service.
+  match_terms:
+  - Ronan
+  - foals
+  - servants
+  - dirty work
+  - race apart
+  - Firenze
+  - wizard invasions
+  quote_excerpt_short: "We are a race apart"
+  source_note: The herd frames human intrusion as arrogance, rejects any role as human servants, condemns Firenze as a traitor, and denies wizard laws and superiority.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - centaurs
+  - ronan
+  - firenze
+  - non-human-law
+  - forbidden-forest
+  - magical-beings
+  - wizarding-prejudice
+  candidate_part: Magical Communities and Families
+  candidate_chapter: Centaurs, Law, and Non-Human Autonomy
+  candidate_section: Centaur rejection of human service and wizard law
+  reason_for_placement: The passage gives the clearest centaur statement in this unit of separate identity, anti-servitude norms, and rejection of wizard political superiority.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain why Hogwarts' relationship with Forest centaurs cannot be treated as ordinary school property management.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-007
+    - ootp-ch27-002
+    - ps-ch15-006
+    notes: ootp-ch30-007 records centaur separate law, ootp-ch27-002 records Firenze's banishment, and ps-ch15-006 establishes centaur residence; this entry adds the post-Umbridge argument over servitude, wizard invasions, and legal nonrecognition.
+  confidence: high
+  limitations: The claims come during an armed crisis and may emphasize the most hostile position within the herd.
+
+- id: ootp-ch33-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2296
+  printed_page: null
+  extracted_text_lines: 200-264
+  text_anchor:
+    start_phrase: there came a crashing noise on the edge of the clearing
+    end_phrase: he might kill them all
+    local_occurrence_note: Grawp appears in the centaur clearing, calls for Hagrid, recognizes Hermione, and triggers a fight after knocking down a centaur.
+  nearby_context: Magorian tells Grawp he is not welcome among the centaurs, and the herd responds to his movement with a mass arrow attack.
+  match_terms:
+  - Grawp
+  - giant
+  - Hagger
+  - Hermy
+  - Magorian
+  - arrows
+  - centaurs
+  quote_excerpt_short: "You are not welcome among us!"
+  source_note: Grawp's concealed presence escalates into open conflict with the centaurs, showing that Hagrid's hidden giant has crossed from private secret to territorial crisis.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - grawp
+  - giants
+  - centaurs
+  - magorian
+  - forbidden-forest
+  - hagrid
+  - magical-residents
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Magical Residents of the Grounds
+  candidate_section: Grawp's open clash with the centaur herd
+  reason_for_placement: The passage continues Grawp's earlier concealed-resident evidence by showing the practical danger his presence creates for another Forest people.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how one hidden resident destabilized existing Forest territorial relations during the Umbridge year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-006
+    - ootp-ch30-007
+    notes: ootp-ch30-006 introduces Grawp's hidden residence, and ootp-ch30-007 records centaur warning about him; this entry adds the direct centaur-Grawp clash and Grawp's effect on the crisis.
+  confidence: high
+  limitations: The immediate fight is observed from Harry and Hermione's perspective while they are fleeing, so its outcome is not fully recorded here.
+
+- id: ootp-ch33-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Three - Fight and Flight
+  chapter_start_pdf_page: 2290
+  chapter_end_pdf_page: 2302
+  pdf_page: 2300
+  printed_page: null
+  extracted_text_lines: 330-401
+  text_anchor:
+    start_phrase: There are other ways of flying than with broomsticks
+    end_phrase: pick one and get on
+    local_occurrence_note: Luna identifies thestrals as a flight option; the group infers blood has attracted enough of them for all six students.
+  nearby_context: Ron cannot see the thestrals, Harry confirms the death-sight visibility rule, and Ginny applies Hagrid's raw-meat lure lesson to explain their arrival.
+  match_terms:
+  - Luna
+  - thestrals
+  - broomsticks
+  - death-sight
+  - raw meat
+  - blood
+  - fly
+  quote_excerpt_short: "finding places their riders are looking for"
+  source_note: "The school thestrals become emergency long-distance transport: visible only to death-witnesses, attracted by blood like raw meat, and trusted to locate a rider's intended destination."
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - thestrals
+  - emergency-transport
+  - student-transport
+  - forbidden-forest
+  - death-witnesses
+  - hagrid
+  - luna-lovegood
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Grounds, Transport, and the Forbidden Forest
+  candidate_section: Thestrals as emergency long-distance transport
+  reason_for_placement: The scene extends the thestral-carriage evidence by showing students repurposing the herd for unscheduled flight beyond the school grounds.
+  relevance_to_hogwarts_a_history: A later edition can connect the ordinary carriage teams to the broader magical capabilities and risks of maintaining a thestral herd at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch21-001
+    - ootp-ch10-007
+    - ootp-ch14-002
+    notes: ootp-ch21-001 names the herd, its carriage use, and death-sight rule; ootp-ch10-007 and ootp-ch14-002 record earlier visibility and Forest-range evidence. This entry adds emergency flight use, blood attraction, and destination-finding claims.
+  confidence: high
+  limitations: Luna reports the destination-finding ability from Hagrid, and the actual flight continues in the next source unit rather than this chapter.

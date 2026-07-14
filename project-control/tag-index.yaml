@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-13'
+updated: '2026-07-14'
 tags:
   academic-assessment:
     entries:
@@ -348,8 +348,11 @@ tags:
     entries:
     - cos-ch15-005
     - cos-ch15-006
+    - ootp-ch33-001
+    - ootp-ch33-002
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   arithmancy:
     entries:
     - gof-ch13-001
@@ -538,12 +541,14 @@ tags:
     entries:
     - ootp-ch27-002
     - ootp-ch30-007
+    - ootp-ch33-004
     - ps-ch15-006
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   banishing-charm:
     entries:
     - gof-ch26-001
@@ -1156,6 +1161,7 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
   castle-grounds:
     entries:
+    - ootp-ch33-001
     - poa-ch17-001
     - poa-ch20-001
     - poa-ch21-005
@@ -1163,6 +1169,7 @@ tags:
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   castle-information:
     entries:
     - gof-ch04-002
@@ -1343,6 +1350,11 @@ tags:
     - ootp-ch26-007
     - ootp-ch27-002
     - ootp-ch30-007
+    - ootp-ch33-002
+    - ootp-ch33-003
+    - ootp-ch33-004
+    - ootp-ch33-005
+    - ootp-ch33-006
     - ps-ch15-006
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
@@ -1351,6 +1363,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   ceremonial-duty:
     entries:
     - gof-ch22-002
@@ -2349,8 +2362,10 @@ tags:
   death-witnesses:
     entries:
     - ootp-ch21-001
+    - ootp-ch33-007
     output_yaml:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   deathday-party:
     entries:
     - cos-ch08-004
@@ -2609,6 +2624,11 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  department-regulation-control-magical-creatures:
+    entries:
+    - ootp-ch33-003
+    output_yaml:
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   deputy-headmistress:
     entries:
     - ps-ch04-002
@@ -3396,9 +3416,11 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
   emergency-transport:
     entries:
+    - ootp-ch33-007
     - poa-ch03-002
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   empty-classrooms:
     entries:
     - gof-ch29-004
@@ -3479,6 +3501,7 @@ tags:
     - gof-ch16-004
     - ootp-ch30-003
     - ootp-ch31-002
+    - ootp-ch33-001
     - poa-ch05-005
     - ps-ch14-006
     - ps-ch15-004
@@ -3491,6 +3514,7 @@ tags:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   entrances:
     entries:
     - poa-ch04-007
@@ -3915,12 +3939,14 @@ tags:
     - ootp-ch27-002
     - ootp-ch27-003
     - ootp-ch30-007
+    - ootp-ch33-005
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   fireplace-communication:
     entries:
     - gof-ch19-007
@@ -4168,6 +4194,13 @@ tags:
     - ootp-ch30-004
     - ootp-ch30-006
     - ootp-ch30-007
+    - ootp-ch33-001
+    - ootp-ch33-002
+    - ootp-ch33-003
+    - ootp-ch33-004
+    - ootp-ch33-005
+    - ootp-ch33-006
+    - ootp-ch33-007
     - poa-ch06-005
     - poa-ch19-007
     - ps-ch15-004
@@ -4187,6 +4220,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
@@ -4228,8 +4262,10 @@ tags:
   forest-path:
     entries:
     - cos-ch15-004
+    - ootp-ch33-002
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   formal-occasions:
     entries:
     - gof-ch10-007
@@ -4494,12 +4530,14 @@ tags:
     - ootp-ch20-004
     - ootp-ch20-005
     - ootp-ch30-006
+    - ootp-ch33-006
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   gilderoy-lockhart:
     entries:
     - cos-ch04-006
@@ -4646,8 +4684,10 @@ tags:
   grawp:
     entries:
     - ootp-ch30-006
+    - ootp-ch33-006
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -4673,6 +4713,7 @@ tags:
     - ootp-ch28-006
     - ootp-ch28-007
     - ootp-ch31-004
+    - ootp-ch33-001
     - poa-ch05-005
     - poa-ch08-006
     - poa-ch09-002
@@ -4716,6 +4757,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -5104,6 +5146,8 @@ tags:
     - ootp-ch30-004
     - ootp-ch30-005
     - ootp-ch30-006
+    - ootp-ch33-006
+    - ootp-ch33-007
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -5174,6 +5218,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -5481,6 +5526,11 @@ tags:
     - ootp-ch22-006
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  headmistress-authority:
+    entries:
+    - ootp-ch33-004
+    output_yaml:
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   headmistresses:
     entries:
     - cos-ch09-006
@@ -7175,6 +7225,11 @@ tags:
     - gof-ch32-002
     output_yaml:
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+  law-fifteen-b:
+    entries:
+    - ootp-ch33-003
+    output_yaml:
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   leaky-cauldron:
     entries:
     - poa-ch03-003
@@ -7497,9 +7552,11 @@ tags:
     - ootp-ch10-005
     - ootp-ch10-007
     - ootp-ch19-005
+    - ootp-ch33-007
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   lupin:
     entries:
     - poa-ch08-005
@@ -7697,8 +7754,11 @@ tags:
   magical-beings:
     entries:
     - ootp-ch20-003
+    - ootp-ch33-003
+    - ootp-ch33-005
     output_yaml:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   magical-books:
     entries:
     - cos-ch13-004
@@ -7945,6 +8005,7 @@ tags:
     - cos-ch15-005
     - ootp-ch27-002
     - ootp-ch30-006
+    - ootp-ch33-006
     - ps-ch15-006
     - ps-ch16-002
     output_yaml:
@@ -7954,6 +8015,7 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   magical-safety:
     entries:
     - poa-ch21-003
@@ -8086,8 +8148,12 @@ tags:
   magorian:
     entries:
     - ootp-ch30-007
+    - ootp-ch33-002
+    - ootp-ch33-004
+    - ootp-ch33-006
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   malfoy-family:
     entries:
     - ootp-ch06-006
@@ -8427,6 +8493,11 @@ tags:
     - ootp-ch08-006
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
+  ministry-creature-law:
+    entries:
+    - ootp-ch33-003
+    output_yaml:
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   ministry-crowd-control:
     entries:
     - gof-ch08-006
@@ -9159,8 +9230,10 @@ tags:
   non-human-law:
     entries:
     - ootp-ch30-007
+    - ootp-ch33-005
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   non-human-relations:
     entries:
     - ootp-ch27-002
@@ -11246,9 +11319,12 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
   ronan:
     entries:
+    - ootp-ch33-004
+    - ootp-ch33-005
     - ps-ch15-006
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   rookwood:
     entries:
     - gof-ch30-004
@@ -11956,6 +12032,11 @@ tags:
     - poa-ch22-001
     output_yaml:
     - sources/book-03/chapter-22-owl-post-again.yaml
+  security-risk:
+    entries:
+    - ootp-ch33-002
+    output_yaml:
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   security-threat:
     entries:
     - poa-ch10-005
@@ -13334,6 +13415,8 @@ tags:
     - ootp-ch21-007
     - ootp-ch27-005
     - ootp-ch30-004
+    - ootp-ch33-001
+    - ootp-ch33-002
     - poa-ch06-006
     - poa-ch10-002
     - poa-ch11-007
@@ -13365,6 +13448,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   student-societies:
     entries:
     - ootp-ch13-007
@@ -13406,12 +13490,14 @@ tags:
     - ootp-ch14-002
     - ootp-ch21-001
     - ootp-ch24-002
+    - ootp-ch33-007
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-24-occlumency.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   student-travel:
     entries:
     - gof-ch03-003
@@ -13800,12 +13886,14 @@ tags:
     - ootp-ch21-001
     - ootp-ch21-002
     - ootp-ch30-004
+    - ootp-ch33-007
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   third-floor:
     entries:
     - ootp-ch13-005
@@ -14283,6 +14371,8 @@ tags:
     - ootp-ch26-001
     - ootp-ch27-005
     - ootp-ch30-004
+    - ootp-ch33-001
+    - ootp-ch33-004
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
@@ -14290,6 +14380,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   umbridge-office:
     entries:
     - ootp-ch29-005
@@ -15027,10 +15118,13 @@ tags:
     - gof-ch23-006
     - gof-ch29-007
     - ootp-ch20-003
+    - ootp-ch33-003
+    - ootp-ch33-005
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-05/chapter-33-fight-and-flight.yaml
   wizarding-press:
     entries:
     - gof-ch18-005

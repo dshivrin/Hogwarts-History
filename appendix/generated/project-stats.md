@@ -8,20 +8,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 126
+- Total: 127
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Order of the Phoenix: 219
+- Harry Potter and the Order of the Phoenix: 226
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 358
-- later_editorial_note: 389
+- harry_era_confirmation: 359
+- later_editorial_note: 395
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 61
@@ -30,16 +30,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - cross_reference_candidate: 60
 - curriculum_or_subject: 119
-- direct_observed_setting: 45
+- direct_observed_setting: 48
 - explicit_hogwarts_a_history: 8
-- explicit_in_universe_source: 55
-- historical_claim: 78
+- explicit_in_universe_source: 56
+- historical_claim: 79
 - house_system: 14
 - institutional_custom: 143
-- magical_architecture: 59
+- magical_architecture: 60
 - portrait_or_ghost_lore: 11
 - school_rule_or_policy: 111
-- security_or_protection: 115
+- security_or_protection: 116
 
 ## Explicit `Hogwarts: A History` References
 
@@ -47,12 +47,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 626
+- Total: 632
 
 ## Latest Processed Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, pages 2245-2268, `sources/book-05/chapter-31-o-w-l-s.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, pages 2290-2302, `sources/book-05/chapter-33-fight-and-flight.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Order of the Phoenix, Chapter Thirty-Two - Out of the Fire, pages 2269-2289, `sources/book-05/chapter-32-out-of-the-fire.yaml`
+- Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, pages 2303-2319, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`

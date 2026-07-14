@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty-Three - Fight and Flight
-- Page range: 2290-2302
+- Chapter: Chapter Thirty-Four - The Department of Mysteries
+- Page range: 2303-2319
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-33-fight-and-flight.yaml`
+- Output YAML: `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
 
 ## Minimal Context
 
