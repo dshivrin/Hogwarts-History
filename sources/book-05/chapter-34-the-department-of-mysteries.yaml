@@ -1,0 +1,332 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  boundary_confidence: high
+  boundary_notes: Bounded pypdf extraction starts with the Chapter Thirty-Four heading on PDF page 2303 and ends with Lucius Malfoy's demand for the prophecy on PDF page 2319, immediately before the next chapter's confrontation continues.
+  processed_date: '2026-07-14'
+  processor_notes: "Extracted only the bounded current range from prior anchors; no full-PDF scan was used. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+- id: ootp-ch34-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2304
+  printed_page: null
+  extracted_text_lines: 24-58
+  text_anchor:
+    start_phrase: She pulled them over to the other thestrals
+    end_phrase: no visible means of support
+    local_occurrence_note: Luna helps the students who cannot see thestrals mount them, then the herd carries all six riders away from Hogwarts.
+  nearby_context: Harry gives the destination as the Ministry visitor entrance in London, and the flight passes over the castle, Hogwarts grounds, Hogsmeade, villages, roads, and Muggle town lights.
+  match_terms:
+  - thestrals
+  - emergency transport
+  - Hogwarts grounds
+  - Hogsmeade
+  - Ministry of Magic
+  - London
+  quote_excerpt_short: "over the Hogwarts grounds"
+  source_note: The chapter confirms that Hogwarts thestrals can carry multiple student riders on an unscheduled long-distance flight from the school grounds to London, even when some riders cannot see their mounts.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - thestrals
+  - emergency-transport
+  - student-transport
+  - hogwarts-grounds
+  - hogsmeade
+  - ministry-of-magic
+  - luna-lovegood
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Grounds, Transport, and the Forbidden Forest
+  candidate_section: Thestrals beyond school-carriage service
+  reason_for_placement: The scene extends the thestral herd evidence from ordinary carriage duty into emergency cross-country travel originating at Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can distinguish the herd's regular school transport role from its broader magical flight capability and the risks of student improvisation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch33-007
+    - ootp-ch21-001
+    notes: ootp-ch33-007 records the decision to use thestrals as emergency transport, while ootp-ch21-001 names the Hogwarts herd and visibility rule. This entry confirms the actual long-distance flight from the grounds toward London.
+  confidence: high
+  limitations: The episode is an emergency student use, not an authorized school transport procedure.
+
+- id: ootp-ch34-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2307
+  printed_page: null
+  extracted_text_lines: 118-163
+  text_anchor:
+    start_phrase: Whoever's nearest the receiver
+    end_phrase: which was now deserted
+    local_occurrence_note: The students enter through the telephone box, receive visitor badges, hear the wand-registration rule, and find the Atrium security desk empty at night.
+  nearby_context: The automated voice issues normal visitor instructions even though the stated business is a rescue mission; Harry recognizes the same desk where his wand had previously been weighed.
+  match_terms:
+  - telephone box
+  - visitor badges
+  - rescue mission
+  - wand registration
+  - security desk
+  - Atrium
+  quote_excerpt_short: "required to submit to a search"
+  source_note: The Ministry visitor entrance remains automated after hours, issuing badges and search/wand-registration instructions, but the manual Atrium security post is deserted during the crisis.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - visitor-entrance
+  - telephone-box
+  - visitor-badges
+  - wand-registration
+  - atrium
+  - security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Oversight and Student Hearings
+  candidate_section: Visitor entry after hours and security gaps
+  reason_for_placement: The scene revisits the external Ministry process used by Hogwarts students and shows how automated procedure can outlast live security coverage.
+  relevance_to_hogwarts_a_history: A later edition can use this as a cautionary companion to Ministry oversight material, showing how students could interact with Ministry infrastructure outside school channels.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch07-002
+    notes: ootp-ch07-002 gives the daytime visitor-entry and wand-registration procedure. This entry repeats the procedure but adds after-hours automation, rescue-mission badging, and a deserted security desk.
+  confidence: high
+  limitations: The missing security staff may be specific to the Death Eater trap rather than standard after-hours practice.
+
+- id: ootp-ch34-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2309
+  printed_page: null
+  extracted_text_lines: 171-221
+  text_anchor:
+    start_phrase: Department of Mysteries
+    end_phrase: any of the dozen surrounding them
+    local_occurrence_note: The lift opens on level nine, the black door admits the students, and the circular room rotates its unmarked doors after the entrance closes.
+  nearby_context: Harry considers leaving lookouts but Ginny notes that the interior may put them miles away from one another, anticipating the Department's disorienting spatial design.
+  match_terms:
+  - Department of Mysteries
+  - level nine
+  - black door
+  - circular room
+  - rotating wall
+  - blue flames
+  - unmarked doors
+  quote_excerpt_short: "to stop us knowing which door we came in from"
+  source_note: The Department of Mysteries uses a black circular antechamber with unmarked handleless doors, blue-flame lighting, and a rotating wall that conceals the exit and disorients entrants.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - magical-architecture
+  - rotating-room
+  - doors
+  - blue-flames
+  - navigation
+  - security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Disorienting magical architecture beyond Hogwarts
+  reason_for_placement: The antechamber provides a strong external comparison point for moving and misleading magical architecture.
+  relevance_to_hogwarts_a_history: A later edition can compare the Department's controlled magical architecture with Hogwarts's changing staircases and concealed routes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found only broad Hogwarts moving-door evidence, not this Department of Mysteries antechamber or rotating-door mechanism.
+  confidence: high
+  limitations: The passage shows visitor experience but does not explain who built or maintains the room.
+
+- id: ootp-ch34-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2310
+  printed_page: null
+  extracted_text_lines: 240-278
+  text_anchor:
+    start_phrase: After the darkness of the first room
+    end_phrase: showing the door they had already tried
+    local_occurrence_note: The group finds a room with a tank of brains, then Hermione marks its door with Flagrate so the rotating antechamber cannot erase their route.
+  nearby_context: The room has desks and a deep-green tank; Luna first guesses at Ministry creature breeding before Hermione identifies the objects as brains.
+  match_terms:
+  - brain room
+  - glass tank
+  - Department of Mysteries
+  - Flagrate
+  - Hermione
+  - rotating room
+  quote_excerpt_short: "an enormous glass tank"
+  source_note: One Department chamber contains a large tank of brains, while Hermione's Flagrate mark shows a practical countermeasure for navigating the rotating-door hub.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - brain-room
+  - magical-research
+  - navigation
+  - flagrate
+  - hermione-granger
+  - doors
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Research rooms and navigation workarounds
+  reason_for_placement: The evidence combines external magical research infrastructure with a student spell workaround for a designed navigation obstacle.
+  relevance_to_hogwarts_a_history: A later edition can use the passage to contrast school spell learning with student field application in adult magical institutions.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned no prior brain-room, Department research, or Flagrate navigation match.
+  confidence: high
+  limitations: The text identifies the objects as brains but does not explain the Department's research purpose.
+
+- id: ootp-ch34-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2312
+  printed_page: null
+  extracted_text_lines: 282-363
+  text_anchor:
+    start_phrase: This room was larger than the last
+    end_phrase: whatever it was, it was dangerous
+    local_occurrence_note: The students enter the amphitheater-like chamber with the stone arch and veil; Harry and Luna hear voices and several students are entranced before Hermione pulls them away.
+  nearby_context: The arch stands on a raised dais in a sunken stone pit, with a tattered veil that moves despite still air and suggests unseen presence beyond it.
+  match_terms:
+  - veil
+  - archway
+  - stone pit
+  - amphitheater
+  - whispers
+  - Luna Lovegood
+  - death chamber
+  quote_excerpt_short: "faint whispering, murmuring noises"
+  source_note: The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - veil
+  - archway
+  - death-chamber
+  - luna-lovegood
+  - magical-architecture
+  - dangerous-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: The veiled arch and death-related magic
+  reason_for_placement: The chamber is external to Hogwarts but supplies major Ministry evidence about ancient magical structures and death-related perception.
+  relevance_to_hogwarts_a_history: A later edition can cross-reference student exposure to advanced magical mysteries beyond the castle, especially where perception varies by individual experience.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned no prior veiled-arch, death-chamber, or whispering-door match.
+  confidence: high
+  limitations: The chapter does not name the chamber or explain the veil's function; later events clarify more than this source unit alone.
+
+- id: ootp-ch34-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2314
+  printed_page: null
+  extracted_text_lines: 365-386
+  text_anchor:
+    start_phrase: Harry approached a door at random
+    end_phrase: now-useless handle of Sirius's knife
+    local_occurrence_note: A Department door cannot be forced, ignores Alohomora, and melts Sirius's universal unlocking knife.
+  nearby_context: The group has been marking tried doors; Ron assumes a locked door must be important, but Hermione argues it cannot match Harry's dream route because dream-Harry could pass through every door.
+  match_terms:
+  - locked door
+  - Alohomora
+  - Sirius's knife
+  - melted blade
+  - Department of Mysteries
+  - security
+  quote_excerpt_short: "the blade had melted"
+  source_note: At least one Department door is protected strongly enough to resist physical force, Alohomora, and Sirius Black's enchanted unlocking knife, destroying the blade in the attempt.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - locked-door
+  - alohomora
+  - sirius-black
+  - magical-security
+  - protective-enchantments
+  - doors
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: High-security Department doors
+  reason_for_placement: The failed entry attempt shows layered magical security beyond ordinary classroom unlocking charms or enchanted tools.
+  relevance_to_hogwarts_a_history: A later edition can compare Ministry-level protective doors with Hogwarts's own locked, concealed, or charmed passages.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup did not identify a prior match for this specific Department door protection or the melted unlocking knife.
+  confidence: high
+  limitations: The text does not reveal what the locked room contains or whether the protection is unique to that door.
+
+- id: ootp-ch34-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Four - The Department of Mysteries
+  chapter_start_pdf_page: 2303
+  chapter_end_pdf_page: 2319
+  pdf_page: 2316
+  printed_page: null
+  extracted_text_lines: 393-538
+  text_anchor:
+    start_phrase: This is it!
+    end_phrase: he lifted the glass ball down from its shelf
+    local_occurrence_note: Harry recognizes the glittering time room from his dream, passes the bell jar and enters the Hall of Prophecies, where the labelled orb naming him is stored on row ninety-seven.
+  nearby_context: The time room is filled with clocks and a crystal bell jar cycling an egg and hummingbird, and the prophecy room is cold, blue-lit, and arranged in numbered rows of labelled glass orbs.
+  match_terms:
+  - time room
+  - crystal bell jar
+  - hummingbird
+  - Hall of Prophecies
+  - row ninety-seven
+  - glass orb
+  - Harry Potter
+  quote_excerpt_short: "row ninety-seven"
+  source_note: The Department route moves from a clock-filled time room with a crystal bell jar into a blue-lit Hall of Prophecies where labelled glass orbs are stored by numbered row, including a sixteen-year-old prophecy naming Harry.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - time-room
+  - bell-jar
+  - hall-of-prophecies
+  - prophecy
+  - glass-orbs
+  - harry-potter
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Divination, Prophecy, and School Testimony
+  candidate_section: Physical prophecy records in the Department of Mysteries
+  reason_for_placement: The labelled prophecy orb links Hogwarts Divination testimony and Harry-era events to Ministry archival practice.
+  relevance_to_hogwarts_a_history: A later edition can connect Trelawney's school-based prophetic evidence with the Ministry's physical storage and classification of prophecy records.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found Trelawney true-prophecy context, but no prior entry for Department prophecy storage, row numbering, or the labelled glass orb in this chapter.
+  confidence: high
+  limitations: The label initials are not fully decoded in this chapter, and the full prophecy wording is not heard in this source unit.

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty-Four - The Department of Mysteries
-- Page range: 2303-2319
+- Chapter: Chapter Thirty-Five - Beyond the Veil
+- Page range: 2320-2344
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+- Output YAML: `sources/book-05/chapter-35-beyond-the-veil.yaml`
 
 ## Minimal Context
 

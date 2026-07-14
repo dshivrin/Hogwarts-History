@@ -6935,6 +6935,17 @@ Summary: The available evidence includes 1 source item, led by: Fred and George'
 
 ### Chapter: Divination, Prophecy, and School Testimony
 
+#### Section: Physical prophecy records in the Department of Mysteries
+
+Summary: The available evidence includes 1 source item, led by: The Department route moves from a clock-filled time room with a crystal bell jar into a blue-lit Hall of Prophecies where labelled glass orbs are stored by numbered row, including a sixteen-year-old prophecy naming Harry.
+
+- **Context:** The Department route moves from a clock-filled time room with a crystal bell jar into a blue-lit Hall of Prophecies where labelled glass orbs are stored by numbered row, including a sixteen-year-old prophecy naming Harry.
+  - Quote: "row ninety-seven"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2316, `ootp-ch34-007`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The label initials are not fully decoded in this chapter, and the full prophecy wording is not heard in this source unit.
+
 #### Section: Trelawney's True Prophecy and Later Corroboration
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates Trelawney's rare true-prophecy evidence and records Harry's interpretation that the servant in the prophecy was Wormtail.
@@ -6960,6 +6971,20 @@ Summary: The available evidence includes 1 source item, led by: The aftermath of
   - Reference type: institutional_custom
   - Corroborates: `ootp-ch31-006`. ootp-ch31-006 records the observed Astronomy practical attack and McGonagall injury; this entry adds the next-day hospital-wing aftermath, St. Mungo's transfer, and Pomfrey's protest framing.
   - Notes: The McGonagall medical details are reported by Madam Pomfrey rather than observed directly after transfer.
+
+### Chapter: Grounds, Transport, and the Forbidden Forest
+
+#### Section: Thestrals beyond school-carriage service
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that Hogwarts thestrals can carry multiple student riders on an unscheduled long-distance flight from the school grounds to London, even when some riders cannot see their mounts.
+
+- **Corroboration:** The chapter confirms that Hogwarts thestrals can carry multiple student riders on an unscheduled long-distance flight from the school grounds to London, even when some riders cannot see their mounts.
+  - Quote: "over the Hogwarts grounds"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2304, `ootp-ch34-001`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch33-007`, `ootp-ch21-001`. ootp-ch33-007 records the decision to use thestrals as emergency transport, while ootp-ch21-001 names the Hogwarts herd and visibility rule. This entry confirms the actual long-distance flight from the grounds toward London.
+  - Notes: The episode is an emergency student use, not an authorized school transport procedure.
 
 ### Chapter: Harry Potter Before Hogwarts
 
@@ -7536,6 +7561,52 @@ Summary: The available evidence includes 1 source item, led by: The chapter prov
   - Corroborates: `poa-ch17-005`. Book 3 Chapter Seventeen identifies Scabbers as Pettigrew through Lupin and Black's testimony; this entry adds the forced transformation and direct visual confirmation.
   - Notes: The chapter shows the reversal but does not name the spell used or explain the magic by which two wands force the Animagus transformation.
 
+### Chapter: Ministry Interfaces and Magical Research
+
+#### Section: Disorienting magical architecture beyond Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The Department of Mysteries uses a black circular antechamber with unmarked handleless doors, blue-flame lighting, and a rotating wall that conceals the exit and disorients entrants.
+
+- **Context:** The Department of Mysteries uses a black circular antechamber with unmarked handleless doors, blue-flame lighting, and a rotating wall that conceals the exit and disorients entrants.
+  - Quote: "to stop us knowing which door we came in from"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2309, `ootp-ch34-003`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The passage shows visitor experience but does not explain who built or maintains the room.
+
+#### Section: High-security Department doors
+
+Summary: The available evidence includes 1 source item, led by: At least one Department door is protected strongly enough to resist physical force, Alohomora, and Sirius Black's enchanted unlocking knife, destroying the blade in the attempt.
+
+- **Context:** At least one Department door is protected strongly enough to resist physical force, Alohomora, and Sirius Black's enchanted unlocking knife, destroying the blade in the attempt.
+  - Quote: "the blade had melted"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2314, `ootp-ch34-006`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The text does not reveal what the locked room contains or whether the protection is unique to that door.
+
+#### Section: Research rooms and navigation workarounds
+
+Summary: The available evidence includes 1 source item, led by: One Department chamber contains a large tank of brains, while Hermione's Flagrate mark shows a practical countermeasure for navigating the rotating-door hub.
+
+- **Context:** One Department chamber contains a large tank of brains, while Hermione's Flagrate mark shows a practical countermeasure for navigating the rotating-door hub.
+  - Quote: "an enormous glass tank"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2310, `ootp-ch34-004`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The text identifies the objects as brains but does not explain the Department's research purpose.
+
+#### Section: The veiled arch and death-related magic
+
+Summary: The available evidence includes 1 source item, led by: The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
+
+- **Context:** The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
+  - Quote: "faint whispering, murmuring noises"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2312, `ootp-ch34-005`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The chapter does not name the chamber or explain the veil's function; later events clarify more than this source unit alone.
+
 ### Chapter: Ministry Intervention and Staff Vulnerability
 
 #### Section: Hagrid's attempted removal during the Astronomy O.W.L.
@@ -7549,6 +7620,20 @@ Summary: The available evidence includes 1 source item, led by: A formal Astrono
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch30-005`, `ootp-ch26-006`, `ootp-ch30-004`. ootp-ch30-005 records Hagrid expecting dismissal, ootp-ch26-006 records Trelawney's dismissal and castle-residence dispute, and ootp-ch30-004 records covert Hagrid movement under Umbridge pressure; this entry adds the actual nighttime seizure attempt and McGonagall's injury.
   - Notes: Student witnesses observe from the Astronomy Tower at a distance, though the spellfire, dialogue, and aftermath are directly visible or audible.
+
+### Chapter: Ministry Oversight and Student Hearings
+
+#### Section: Visitor entry after hours and security gaps
+
+Summary: The available evidence includes 1 source item, led by: The Ministry visitor entrance remains automated after hours, issuing badges and search/wand-registration instructions, but the manual Atrium security post is deserted during the crisis.
+
+- **Corroboration:** The Ministry visitor entrance remains automated after hours, issuing badges and search/wand-registration instructions, but the manual Atrium security post is deserted during the crisis.
+  - Quote: "required to submit to a search"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, PDF p. 2307, `ootp-ch34-002`, `sources/book-05/chapter-34-the-department-of-mysteries.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch07-002`. ootp-ch07-002 gives the daytime visitor-entry and wand-registration procedure. This entry repeats the procedure but adds after-hours automation, rescue-mission badging, and a deserted security desk.
+  - Notes: The missing security staff may be specific to the Death Eater trap rather than standard after-hours practice.
 
 ### Chapter: Ministry Pressure and Public Records
 

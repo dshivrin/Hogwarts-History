@@ -425,9 +425,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portable Swamp, whipping approval, and student departure
   - Portable swamp aftermath and staff noncooperation
 - Divination, Prophecy, and School Testimony
+  - Physical prophecy records in the Department of Mysteries
   - Trelawney's True Prophecy and Later Corroboration
 - Examinations and Academic Progression
   - O.W.L. crisis response and staff injury aftermath
+- Grounds, Transport, and the Forbidden Forest
+  - Thestrals beyond school-carriage service
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -494,8 +497,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Ministry Interfaces and Magical Research
+  - Disorienting magical architecture beyond Hogwarts
+  - High-security Department doors
+  - Research rooms and navigation workarounds
+  - The veiled arch and death-related magic
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's attempted removal during the Astronomy O.W.L.
+- Ministry Oversight and Student Hearings
+  - Visitor entry after hours and security gaps
 - Ministry Pressure and Public Records
   - Public Opinion Inside Student Dormitories
 - Post-1984 Incidents and Confirmations

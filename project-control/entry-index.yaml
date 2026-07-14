@@ -12367,6 +12367,117 @@ by_entry:
     - thestrals
     source_unit: ootp-ch33
     output_yaml: sources/book-05/chapter-33-fight-and-flight.yaml
+  ootp-ch34-001:
+    title: 'Grounds, Transport, and the Forbidden Forest: Thestrals beyond school-carriage
+      service'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - emergency-transport
+    - hogsmeade
+    - hogwarts-grounds
+    - luna-lovegood
+    - ministry-of-magic
+    - student-transport
+    - thestrals
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch34-002:
+    title: 'Ministry Oversight and Student Hearings: Visitor entry after hours and
+      security gaps'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - atrium
+    - ministry-of-magic
+    - security
+    - telephone-box
+    - visitor-badges
+    - visitor-entrance
+    - wand-registration
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch34-003:
+    title: 'Ministry Interfaces and Magical Research: Disorienting magical architecture
+      beyond Hogwarts'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - blue-flames
+    - department-of-mysteries
+    - doors
+    - magical-architecture
+    - navigation
+    - rotating-room
+    - security
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch34-004:
+    title: 'Ministry Interfaces and Magical Research: Research rooms and navigation
+      workarounds'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - brain-room
+    - department-of-mysteries
+    - doors
+    - flagrate
+    - hermione-granger
+    - magical-research
+    - navigation
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch34-005:
+    title: 'Ministry Interfaces and Magical Research: The veiled arch and death-related
+      magic'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - archway
+    - dangerous-magic
+    - death-chamber
+    - department-of-mysteries
+    - luna-lovegood
+    - magical-architecture
+    - veil
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch34-006:
+    title: 'Ministry Interfaces and Magical Research: High-security Department doors'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - alohomora
+    - department-of-mysteries
+    - doors
+    - locked-door
+    - magical-security
+    - protective-enchantments
+    - sirius-black
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch34-007:
+    title: 'Divination, Prophecy, and School Testimony: Physical prophecy records
+      in the Department of Mysteries'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bell-jar
+    - department-of-mysteries
+    - glass-orbs
+    - hall-of-prophecies
+    - harry-potter
+    - prophecy
+    - time-room
+    source_unit: ootp-ch34
+    output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12448,6 +12559,7 @@ by_tag:
   all-wizard-village:
   - gof-ch19-001
   alohomora:
+  - ootp-ch34-006
   - poa-ch21-007
   alumni:
   - cos-ch04-003
@@ -12528,6 +12640,8 @@ by_tag:
   - cos-ch15-006
   - ootp-ch33-001
   - ootp-ch33-002
+  archway:
+  - ootp-ch34-005
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -12568,6 +12682,7 @@ by_tag:
   atrium:
   - ootp-ch07-002
   - ootp-ch07-003
+  - ootp-ch34-002
   auror:
   - gof-ch19-006
   - ootp-ch03-004
@@ -12679,6 +12794,8 @@ by_tag:
   - gof-ch37-005
   bedtime-enforcement:
   - poa-ch13-006
+  bell-jar:
+  - ootp-ch34-007
   bellatrix-lestrange:
   - ootp-ch23-007
   - ootp-ch25-005
@@ -12745,6 +12862,8 @@ by_tag:
   - cos-ch08-005
   bludgers:
   - cos-ch07-001
+  blue-flames:
+  - ootp-ch34-003
   boats:
   - ps-ch06-007
   - ps-ch17-006
@@ -12774,6 +12893,8 @@ by_tag:
   - ootp-ch13-004
   - ootp-ch15-006
   - ootp-ch31-005
+  brain-room:
+  - ootp-ch34-004
   brazilian-school:
   - gof-ch07-003
   brick-entrance:
@@ -13407,6 +13528,8 @@ by_tag:
   - poa-ch15-001
   - poa-ch16-002
   - poa-ch21-004
+  dangerous-magic:
+  - ootp-ch34-005
   dangerous-plants:
   - cos-ch06-002
   dark-arts:
@@ -13437,6 +13560,8 @@ by_tag:
   - gof-ch11-001
   davey-gudgeon:
   - poa-ch10-002
+  death-chamber:
+  - ootp-ch34-005
   death-eater:
   - gof-ch33-001
   - gof-ch35-002
@@ -13589,6 +13714,11 @@ by_tag:
   - gof-ch30-004
   - ootp-ch07-007
   - ootp-ch25-002
+  - ootp-ch34-003
+  - ootp-ch34-004
+  - ootp-ch34-005
+  - ootp-ch34-006
+  - ootp-ch34-007
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -13727,6 +13857,9 @@ by_tag:
   domestic-herd:
   - ootp-ch20-007
   doors:
+  - ootp-ch34-003
+  - ootp-ch34-004
+  - ootp-ch34-006
   - ps-ch08-001
   dormitories:
   - cos-ch05-006
@@ -13993,6 +14126,7 @@ by_tag:
   - ps-ch10-003
   emergency-transport:
   - ootp-ch33-007
+  - ootp-ch34-001
   - poa-ch03-002
   empty-classrooms:
   - gof-ch29-004
@@ -14283,6 +14417,8 @@ by_tag:
   - ootp-ch10-006
   - ootp-ch13-001
   - ps-ch06-006
+  flagrate:
+  - ootp-ch34-004
   flame-freezing-charm:
   - poa-ch01-001
   fleur-delacour:
@@ -14524,6 +14660,8 @@ by_tag:
   - ootp-ch26-004
   girls-bathroom:
   - ps-ch10-004
+  glass-orbs:
+  - ootp-ch34-007
   goblet-of-fire:
   - gof-ch07-007
   - gof-ch16-002
@@ -14874,6 +15012,8 @@ by_tag:
   - ootp-ch30-006
   half-giant:
   - gof-ch23-006
+  hall-of-prophecies:
+  - ootp-ch34-007
   halloween-feast:
   - cos-ch07-005
   - cos-ch08-004
@@ -14892,6 +15032,7 @@ by_tag:
   - gof-ch34-001
   - ootp-ch04-007
   - ootp-ch15-007
+  - ootp-ch34-007
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -15057,6 +15198,7 @@ by_tag:
   - gof-ch09-002
   - ootp-ch09-005
   - ootp-ch19-002
+  - ootp-ch34-004
   - poa-ch04-004
   hermione-research:
   - poa-ch14-003
@@ -15153,6 +15295,7 @@ by_tag:
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
+  - ootp-ch34-001
   - poa-ch01-005
   - poa-ch02-001
   - poa-ch03-005
@@ -15247,6 +15390,7 @@ by_tag:
   - ootp-ch20-001
   - ootp-ch24-002
   - ootp-ch24-005
+  - ootp-ch34-001
   - poa-ch10-002
   - poa-ch10-003
   - poa-ch17-004
@@ -15881,6 +16025,8 @@ by_tag:
   - ootp-ch02-001
   - ootp-ch08-005
   - ootp-ch08-006
+  locked-door:
+  - ootp-ch34-006
   locker-room:
   - ps-ch11-004
   locker-rooms:
@@ -15939,6 +16085,8 @@ by_tag:
   - ootp-ch10-007
   - ootp-ch19-005
   - ootp-ch33-007
+  - ootp-ch34-001
+  - ootp-ch34-005
   lupin:
   - poa-ch08-005
   lupins-office:
@@ -16021,6 +16169,8 @@ by_tag:
   - ootp-ch22-004
   - ootp-ch27-001
   - ootp-ch28-001
+  - ootp-ch34-003
+  - ootp-ch34-005
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -16141,6 +16291,8 @@ by_tag:
   magical-reputation:
   - cos-ch02-003
   - ootp-ch05-006
+  magical-research:
+  - ootp-ch34-004
   magical-residents:
   - cos-ch05-003
   - cos-ch15-003
@@ -16157,6 +16309,7 @@ by_tag:
   magical-secrecy:
   - gof-ch08-001
   magical-security:
+  - ootp-ch34-006
   - ps-ch09-007
   magical-servitude:
   - cos-ch02-001
@@ -16457,6 +16610,8 @@ by_tag:
   - ootp-ch14-003
   - ootp-ch25-001
   - ootp-ch32-007
+  - ootp-ch34-001
+  - ootp-ch34-002
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -16646,6 +16801,9 @@ by_tag:
   named-sources:
   - ps-ch06-004
   - ps-ch13-001
+  navigation:
+  - ootp-ch34-003
+  - ootp-ch34-004
   nearly-headless-nick:
   - cos-ch08-001
   - cos-ch08-005
@@ -17416,9 +17574,12 @@ by_tag:
   - poa-ch18-006
   prophecy:
   - gof-ch10-005
+  - ootp-ch34-007
   - poa-ch16-005
   protean-charm:
   - ootp-ch19-001
+  protective-enchantments:
+  - ootp-ch34-006
   protective-magic:
   - gof-ch33-004
   - ootp-ch02-006
@@ -17692,6 +17853,8 @@ by_tag:
   - ootp-ch21-004
   - ootp-ch27-004
   - ootp-ch27-006
+  rotating-room:
+  - ootp-ch34-003
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -18002,6 +18165,8 @@ by_tag:
   security:
   - gof-ch15-006
   - ootp-ch07-002
+  - ootp-ch34-002
+  - ootp-ch34-003
   security-boundary:
   - ootp-ch24-002
   security-failure:
@@ -18099,6 +18264,7 @@ by_tag:
   - ootp-ch14-007
   - ootp-ch29-006
   - ootp-ch32-002
+  - ootp-ch34-006
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -18664,6 +18830,7 @@ by_tag:
   - ootp-ch21-001
   - ootp-ch24-002
   - ootp-ch33-007
+  - ootp-ch34-001
   student-travel:
   - gof-ch03-003
   - gof-ch04-003
@@ -18805,6 +18972,7 @@ by_tag:
   - ootp-ch17-001
   telephone-box:
   - ootp-ch07-002
+  - ootp-ch34-002
   term-boundaries:
   - gof-ch03-003
   - gof-ch04-001
@@ -18835,6 +19003,7 @@ by_tag:
   - ootp-ch21-002
   - ootp-ch30-004
   - ootp-ch33-007
+  - ootp-ch34-001
   third-floor:
   - ootp-ch13-005
   third-floor-corridor:
@@ -18882,6 +19051,8 @@ by_tag:
   - gof-ch03-001
   time-out:
   - poa-ch09-006
+  time-room:
+  - ootp-ch34-007
   time-turner:
   - poa-ch21-002
   - poa-ch21-003
@@ -19165,6 +19336,8 @@ by_tag:
   - gof-ch08-006
   veela-hair:
   - gof-ch18-007
+  veil:
+  - ootp-ch34-005
   veritaserum:
   - gof-ch27-004
   - gof-ch35-007
@@ -19184,11 +19357,14 @@ by_tag:
   - gof-ch24-005
   visitor-access:
   - ps-ch17-004
+  visitor-badges:
+  - ootp-ch34-002
   visitor-control:
   - cos-ch10-005
   - cos-ch15-001
   visitor-entrance:
   - ootp-ch07-002
+  - ootp-ch34-002
   voldemort:
   - cos-ch02-003
   - cos-ch17-004
@@ -19252,6 +19428,7 @@ by_tag:
   - gof-ch09-006
   wand-registration:
   - ootp-ch07-002
+  - ootp-ch34-002
   wand-sanctions:
   - cos-ch07-005
   - ootp-ch02-002
