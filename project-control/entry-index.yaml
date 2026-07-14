@@ -12478,6 +12478,113 @@ by_entry:
     - time-room
     source_unit: ootp-ch34
     output_yaml: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  ootp-ch35-001:
+    title: 'Divination, Prophecy, and School Testimony: Ministry custody of prophecy
+      records'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - access-control
+    - department-of-mysteries
+    - hall-of-prophecies
+    - harry-potter
+    - lucius-malfoy
+    - prophecy
+    - voldemort
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch35-002:
+    title: 'Divination, Prophecy, and School Testimony: Physical prophecy records
+      in the Department of Mysteries'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - department-of-mysteries
+    - glass-orbs
+    - hall-of-prophecies
+    - magical-records
+    - prophecy
+    - seers
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch35-003:
+    title: 'Ministry Interfaces and Magical Research: Door charms and search movement
+      inside the Department'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - alohomora
+    - colloportus
+    - death-eaters
+    - department-of-mysteries
+    - doors
+    - magical-security
+    - pursuit
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch35-004:
+    title: 'Ministry Interfaces and Magical Research: Time Room hazards and temporal
+      artifacts'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - bell-jar
+    - dangerous-magic
+    - department-of-mysteries
+    - temporal-magic
+    - time-room
+    - time-turners
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch35-005:
+    title: 'Ministry Interfaces and Magical Research: Planetary research chamber'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - battle-damage
+    - department-of-mysteries
+    - luna-lovegood
+    - magical-research
+    - planet-room
+    - pluto
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch35-006:
+    title: 'Ministry Interfaces and Magical Research: Brain Room hazards'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - brain-room
+    - dangerous-magic
+    - department-of-mysteries
+    - diffindo
+    - magical-research
+    - ron-weasley
+    - thoughts
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch35-007:
+    title: 'Ministry Interfaces and Magical Research: The veiled arch and death-related
+      magic'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - archway
+    - dangerous-magic
+    - death-chamber
+    - department-of-mysteries
+    - remus-lupin
+    - sirius-black
+    - veil
+    source_unit: ootp-ch35
+    output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12491,6 +12598,7 @@ by_tag:
   - poa-ch16-001
   access-control:
   - ootp-ch04-002
+  - ootp-ch35-001
   accessibility:
   - ootp-ch27-001
   accidental-magic:
@@ -12560,6 +12668,7 @@ by_tag:
   - gof-ch19-001
   alohomora:
   - ootp-ch34-006
+  - ootp-ch35-003
   - poa-ch21-007
   alumni:
   - cos-ch04-003
@@ -12642,6 +12751,7 @@ by_tag:
   - ootp-ch33-002
   archway:
   - ootp-ch34-005
+  - ootp-ch35-007
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -12776,6 +12886,8 @@ by_tag:
   - cos-ch17-007
   bathrooms:
   - gof-ch25-002
+  battle-damage:
+  - ootp-ch35-005
   beaters:
   - ootp-ch21-005
   beauxbatons:
@@ -12796,6 +12908,7 @@ by_tag:
   - poa-ch13-006
   bell-jar:
   - ootp-ch34-007
+  - ootp-ch35-004
   bellatrix-lestrange:
   - ootp-ch23-007
   - ootp-ch25-005
@@ -12895,6 +13008,7 @@ by_tag:
   - ootp-ch31-005
   brain-room:
   - ootp-ch34-004
+  - ootp-ch35-006
   brazilian-school:
   - gof-ch07-003
   brick-entrance:
@@ -13267,6 +13381,8 @@ by_tag:
   - gof-ch09-005
   colin-creevey:
   - cos-ch10-006
+  colloportus:
+  - ootp-ch35-003
   come-and-go-room:
   - ootp-ch18-005
   committee-for-disposal:
@@ -13530,6 +13646,9 @@ by_tag:
   - poa-ch21-004
   dangerous-magic:
   - ootp-ch34-005
+  - ootp-ch35-004
+  - ootp-ch35-006
+  - ootp-ch35-007
   dangerous-plants:
   - cos-ch06-002
   dark-arts:
@@ -13562,6 +13681,7 @@ by_tag:
   - poa-ch10-002
   death-chamber:
   - ootp-ch34-005
+  - ootp-ch35-007
   death-eater:
   - gof-ch33-001
   - gof-ch35-002
@@ -13579,6 +13699,7 @@ by_tag:
   - ootp-ch09-007
   - ootp-ch20-005
   - ootp-ch25-001
+  - ootp-ch35-003
   death-witnesses:
   - ootp-ch21-001
   - ootp-ch33-007
@@ -13719,6 +13840,13 @@ by_tag:
   - ootp-ch34-005
   - ootp-ch34-006
   - ootp-ch34-007
+  - ootp-ch35-001
+  - ootp-ch35-002
+  - ootp-ch35-003
+  - ootp-ch35-004
+  - ootp-ch35-005
+  - ootp-ch35-006
+  - ootp-ch35-007
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -13753,6 +13881,8 @@ by_tag:
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
+  diffindo:
+  - ootp-ch35-006
   dilys-derwent:
   - ootp-ch22-002
   - ootp-ch22-006
@@ -13860,6 +13990,7 @@ by_tag:
   - ootp-ch34-003
   - ootp-ch34-004
   - ootp-ch34-006
+  - ootp-ch35-003
   - ps-ch08-001
   dormitories:
   - cos-ch05-006
@@ -14662,6 +14793,7 @@ by_tag:
   - ps-ch10-004
   glass-orbs:
   - ootp-ch34-007
+  - ootp-ch35-002
   goblet-of-fire:
   - gof-ch07-007
   - gof-ch16-002
@@ -15014,6 +15146,8 @@ by_tag:
   - gof-ch23-006
   hall-of-prophecies:
   - ootp-ch34-007
+  - ootp-ch35-001
+  - ootp-ch35-002
   halloween-feast:
   - cos-ch07-005
   - cos-ch08-004
@@ -15033,6 +15167,7 @@ by_tag:
   - ootp-ch04-007
   - ootp-ch15-007
   - ootp-ch34-007
+  - ootp-ch35-001
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -16061,6 +16196,7 @@ by_tag:
   - gof-ch08-003
   - ootp-ch09-001
   - ootp-ch15-001
+  - ootp-ch35-001
   - poa-ch11-001
   - poa-ch15-001
   ludo-bagman:
@@ -16087,6 +16223,7 @@ by_tag:
   - ootp-ch33-007
   - ootp-ch34-001
   - ootp-ch34-005
+  - ootp-ch35-005
   lupin:
   - poa-ch08-005
   lupins-office:
@@ -16284,6 +16421,8 @@ by_tag:
   - cos-ch06-003
   - gof-ch13-002
   - ootp-ch10-004
+  magical-records:
+  - ootp-ch35-002
   magical-remedies:
   - cos-ch14-001
   - cos-ch16-002
@@ -16293,6 +16432,8 @@ by_tag:
   - ootp-ch05-006
   magical-research:
   - ootp-ch34-004
+  - ootp-ch35-005
+  - ootp-ch35-006
   magical-residents:
   - cos-ch05-003
   - cos-ch15-003
@@ -16310,6 +16451,7 @@ by_tag:
   - gof-ch08-001
   magical-security:
   - ootp-ch34-006
+  - ootp-ch35-003
   - ps-ch09-007
   magical-servitude:
   - cos-ch02-001
@@ -17220,6 +17362,8 @@ by_tag:
   - ootp-ch14-004
   pitch-booking:
   - ootp-ch19-003
+  planet-room:
+  - ootp-ch35-005
   planetary-divination:
   - gof-ch29-005
   plant-defenses:
@@ -17239,6 +17383,8 @@ by_tag:
   plumbing:
   - cos-ch16-007
   - gof-ch25-004
+  pluto:
+  - ootp-ch35-005
   poisoning:
   - gof-ch19-003
   political-donations:
@@ -17575,6 +17721,8 @@ by_tag:
   prophecy:
   - gof-ch10-005
   - ootp-ch34-007
+  - ootp-ch35-001
+  - ootp-ch35-002
   - poa-ch16-005
   protean-charm:
   - ootp-ch19-001
@@ -17627,6 +17775,8 @@ by_tag:
   - ootp-ch22-004
   purple-fire:
   - ps-ch16-007
+  pursuit:
+  - ootp-ch35-003
   put-outer:
   - ootp-ch03-006
   - ootp-ch04-002
@@ -17781,6 +17931,7 @@ by_tag:
   remus-lupin:
   - ootp-ch09-006
   - ootp-ch29-006
+  - ootp-ch35-007
   - poa-ch10-002
   - poa-ch17-003
   - poa-ch18-002
@@ -17839,6 +17990,7 @@ by_tag:
   ron-weasley:
   - ootp-ch09-005
   - ootp-ch30-003
+  - ootp-ch35-006
   ronan:
   - ootp-ch33-004
   - ootp-ch33-005
@@ -18187,6 +18339,8 @@ by_tag:
   - ps-ch09-003
   seeker-tactics:
   - poa-ch13-003
+  seers:
+  - ootp-ch35-002
   senior-students:
   - poa-ch01-004
   serious-bites:
@@ -18265,6 +18419,7 @@ by_tag:
   - ootp-ch29-006
   - ootp-ch32-002
   - ootp-ch34-006
+  - ootp-ch35-007
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -18973,6 +19128,8 @@ by_tag:
   telephone-box:
   - ootp-ch07-002
   - ootp-ch34-002
+  temporal-magic:
+  - ootp-ch35-004
   term-boundaries:
   - gof-ch03-003
   - gof-ch04-001
@@ -19035,6 +19192,7 @@ by_tag:
   - poa-ch02-001
   thoughts:
   - gof-ch30-002
+  - ootp-ch35-006
   thousands-of-books:
   - ps-ch15-003
   three-broomsticks:
@@ -19053,10 +19211,13 @@ by_tag:
   - poa-ch09-006
   time-room:
   - ootp-ch34-007
+  - ootp-ch35-004
   time-turner:
   - poa-ch21-002
   - poa-ch21-003
   - poa-ch22-006
+  time-turners:
+  - ootp-ch35-004
   timetable:
   - poa-ch22-006
   timetabling:
@@ -19338,6 +19499,7 @@ by_tag:
   - gof-ch18-007
   veil:
   - ootp-ch34-005
+  - ootp-ch35-007
   veritaserum:
   - gof-ch27-004
   - gof-ch35-007
@@ -19389,6 +19551,7 @@ by_tag:
   - ootp-ch06-004
   - ootp-ch15-007
   - ootp-ch20-005
+  - ootp-ch35-001
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty-Five - Beyond the Veil
-- Page range: 2320-2344
+- Chapter: Chapter Thirty-Six - The Only One He Ever Feared
+- Page range: 2345-2357
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-35-beyond-the-veil.yaml`
+- Output YAML: `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
 
 ## Minimal Context
 

@@ -6935,9 +6935,21 @@ Summary: The available evidence includes 1 source item, led by: Fred and George'
 
 ### Chapter: Divination, Prophecy, and School Testimony
 
+#### Section: Ministry custody of prophecy records
+
+Summary: The available evidence includes 1 source item, led by: The Department's prophecy records appear to have an access restriction: only the subject of a prophecy can retrieve it, forcing Voldemort to manipulate Harry rather than collect the orb directly.
+
+- **Corroboration:** The Department's prophecy records appear to have an access restriction: only the subject of a prophecy can retrieve it, forcing Voldemort to manipulate Harry rather than collect the orb directly.
+  - Quote: "only people who are permitted to retrieve a prophecy"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2325, `ootp-ch35-001`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch34-007`. ootp-ch34-007 records the labelled Hall of Prophecies orb; this entry adds the retrieval-permission rule for subjects of a prophecy.
+  - Notes: Malfoy is the source for the rule, so the exact mechanism and exceptions remain unconfirmed by a neutral narrator.
+
 #### Section: Physical prophecy records in the Department of Mysteries
 
-Summary: The available evidence includes 1 source item, led by: The Department route moves from a clock-filled time room with a crystal bell jar into a blue-lit Hall of Prophecies where labelled glass orbs are stored by numbered row, including a sixteen-year-old prophecy naming Harry.
+Summary: The available evidence includes 2 source items, led by: The Department route moves from a clock-filled time room with a crystal bell jar into a blue-lit Hall of Prophecies where labelled glass orbs are stored by numbered row, including a sixteen-year-old prophecy naming Harry.
 
 - **Context:** The Department route moves from a clock-filled time room with a crystal bell jar into a blue-lit Hall of Prophecies where labelled glass orbs are stored by numbered row, including a sixteen-year-old prophecy naming Harry.
   - Quote: "row ninety-seven"
@@ -6945,6 +6957,14 @@ Summary: The available evidence includes 1 source item, led by: The Department r
   - Classification: later_editorial_note | Confidence: high
   - Reference type: historical_claim
   - Notes: The label initials are not fully decoded in this chapter, and the full prophecy wording is not heard in this source unit.
+
+- **Corroboration:** When Department prophecy orbs break, they release smoky or ghostlike figures that speak fragments of the recorded prophecies before dissolving.
+  - Quote: "pearly white as ghosts"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2323, `ootp-ch35-002`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch34-007`. ootp-ch34-007 establishes the physical prophecy archive; this entry adds the behavior of a broken prophecy orb and the audible/visual record inside.
+  - Notes: The chapter gives only overheard fragments, not the full contents or technical preservation method.
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
 
@@ -7563,6 +7583,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter prov
 
 ### Chapter: Ministry Interfaces and Magical Research
 
+#### Section: Brain Room hazards
+
+Summary: The available evidence includes 1 source item, led by: Department brain specimens are active and dangerous: a summoned brain releases ribbon-like thought tentacles that bind Ron and resist Harry's cutting spell.
+
+- **Corroboration:** Department brain specimens are active and dangerous: a summoned brain releases ribbon-like thought tentacles that bind Ron and resist Harry's cutting spell.
+  - Quote: "tentacles of thought"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2336, `ootp-ch35-006`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch34-004`. ootp-ch34-004 identifies the Brain Room and navigation workaround; this entry adds the active danger of summoned brains and thought tentacles.
+  - Notes: The chapter does not explain whether the brains are independent entities, preserved thoughts, or research specimens.
+
 #### Section: Disorienting magical architecture beyond Hogwarts
 
 Summary: The available evidence includes 1 source item, led by: The Department of Mysteries uses a black circular antechamber with unmarked handleless doors, blue-flame lighting, and a rotating wall that conceals the exit and disorients entrants.
@@ -7574,6 +7606,17 @@ Summary: The available evidence includes 1 source item, led by: The Department o
   - Reference type: magical_architecture
   - Notes: The passage shows visitor experience but does not explain who built or maintains the room.
 
+#### Section: Door charms and search movement inside the Department
+
+Summary: The available evidence includes 1 source item, led by: In the Department fight, ordinary door-sealing and unlocking charms work on some internal doors, while pursuers coordinate room-by-room searches through multiple entrances.
+
+- **Context:** In the Department fight, ordinary door-sealing and unlocking charms work on some internal doors, while pursuers coordinate room-by-room searches through multiple entrances.
+  - Quote: "the door sealed itself"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2327, `ootp-ch35-003`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The evidence applies to some Department doors during a chase, not to all Department security.
+
 #### Section: High-security Department doors
 
 Summary: The available evidence includes 1 source item, led by: At least one Department door is protected strongly enough to resist physical force, Alohomora, and Sirius Black's enchanted unlocking knife, destroying the blade in the attempt.
@@ -7584,6 +7627,17 @@ Summary: The available evidence includes 1 source item, led by: At least one Dep
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The text does not reveal what the locked room contains or whether the protection is unique to that door.
+
+#### Section: Planetary research chamber
+
+Summary: The available evidence includes 1 source item, led by: The Department includes a dark chamber filled with planets or planetary models where people can float, and its objects can be damaged in combat.
+
+- **Context:** The Department includes a dark chamber filled with planets or planetary models where people can float, and its objects can be damaged in combat.
+  - Quote: "a dark room full of planets"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2334, `ootp-ch35-005`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: magical_architecture
+  - Notes: The evidence is Luna's compressed report rather than a detailed direct scene, and the room's official name is not given.
 
 #### Section: Research rooms and navigation workarounds
 
@@ -7598,7 +7652,7 @@ Summary: The available evidence includes 1 source item, led by: One Department c
 
 #### Section: The veiled arch and death-related magic
 
-Summary: The available evidence includes 1 source item, led by: The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
+Summary: The available evidence includes 2 source items, led by: The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
 
 - **Context:** The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
   - Quote: "faint whispering, murmuring noises"
@@ -7606,6 +7660,26 @@ Summary: The available evidence includes 1 source item, led by: The Department c
   - Classification: later_editorial_note | Confidence: high
   - Reference type: magical_architecture
   - Notes: The chapter does not name the chamber or explain the veil's function; later events clarify more than this source unit alone.
+
+- **Corroboration:** The veiled arch is lethally consequential: Sirius falls through it, fails to reappear, and Lupin treats the passage beyond the veil as irreversible.
+  - Quote: "disappeared behind the veil"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2343, `ootp-ch35-007`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch34-005`. ootp-ch34-005 records the arch, veil, and voices; this entry adds Sirius's disappearance and Lupin's confirmation that he cannot be retrieved.
+  - Notes: The chapter shows the effect through Harry's perspective and Lupin's response, not through a formal explanation of the veil.
+
+#### Section: Time Room hazards and temporal artifacts
+
+Summary: The available evidence includes 1 source item, led by: The Time Room contains dangerous temporal artifacts: a cabinet repeatedly repairs and breaks, and the bell jar can cycle a person's body part between adult and infant states.
+
+- **Corroboration:** The Time Room contains dangerous temporal artifacts: a cabinet repeatedly repairs and breaks, and the bell jar can cycle a person's body part between adult and infant states.
+  - Quote: "It's time"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, PDF p. 2328, `ootp-ch35-004`, `sources/book-05/chapter-35-beyond-the-veil.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch34-007`. ootp-ch34-007 records the Time Room route and bell jar; this entry adds the hazardous effects of the bell jar and suspected Time-Turner cabinet.
+  - Notes: Harry only suspects the cabinet contained Time-Turners, and the Department's research purpose is not explained.
 
 ### Chapter: Ministry Intervention and Staff Vulnerability
 

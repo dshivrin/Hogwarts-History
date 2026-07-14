@@ -1538,3 +1538,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2303-2319.
+- source_unit_id: ootp-ch35
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 35
+  chapter_title: Chapter Thirty-Five - Beyond the Veil
+  page_start: 2320
+  page_end: 2344
+  output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  processed_at: '2026-07-14'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2320-2344.

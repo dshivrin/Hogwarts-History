@@ -425,6 +425,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portable Swamp, whipping approval, and student departure
   - Portable swamp aftermath and staff noncooperation
 - Divination, Prophecy, and School Testimony
+  - Ministry custody of prophecy records
   - Physical prophecy records in the Department of Mysteries
   - Trelawney's True Prophecy and Later Corroboration
 - Examinations and Academic Progression
@@ -498,10 +499,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
 - Ministry Interfaces and Magical Research
+  - Brain Room hazards
   - Disorienting magical architecture beyond Hogwarts
+  - Door charms and search movement inside the Department
   - High-security Department doors
+  - Planetary research chamber
   - Research rooms and navigation workarounds
   - The veiled arch and death-related magic
+  - Time Room hazards and temporal artifacts
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's attempted removal during the Astronomy O.W.L.
 - Ministry Oversight and Student Hearings

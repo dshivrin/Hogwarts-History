@@ -8,20 +8,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 128
+- Total: 129
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Order of the Phoenix: 233
+- Harry Potter and the Order of the Phoenix: 240
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
 - harry_era_confirmation: 359
-- later_editorial_note: 402
+- later_editorial_note: 409
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 61
@@ -33,13 +33,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 48
 - explicit_hogwarts_a_history: 8
 - explicit_in_universe_source: 56
-- historical_claim: 80
+- historical_claim: 81
 - house_system: 14
 - institutional_custom: 143
-- magical_architecture: 64
+- magical_architecture: 68
 - portrait_or_ghost_lore: 11
 - school_rule_or_policy: 111
-- security_or_protection: 118
+- security_or_protection: 120
 
 ## Explicit `Hogwarts: A History` References
 
@@ -47,7 +47,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 634
+- Total: 639
 
 ## Latest Processed Unit
 
