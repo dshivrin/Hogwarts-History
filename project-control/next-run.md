@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-05`
 - Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty-Seven - The Lost Prophecy
-- Page range: 2358-2381
+- Chapter: Chapter Thirty-Eight - The Second War Begins
+- Page range: 2382-2406
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+- Output YAML: `sources/book-05/chapter-38-the-second-war-begins.yaml`
 
 ## Minimal Context
 

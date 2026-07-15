@@ -1562,3 +1562,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2345-2357.
+- source_unit_id: ootp-ch37
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 37
+  chapter_title: Chapter Thirty-Seven - The Lost Prophecy
+  page_start: 2358
+  page_end: 2381
+  output_yaml: sources/book-05/chapter-37-the-lost-prophecy.yaml
+  processed_at: '2026-07-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2358-2381.

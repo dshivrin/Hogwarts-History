@@ -650,6 +650,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: magical_architecture
   - Notes: The passage does not explain how the office password is set, how often it changes, or when this entrance mechanism was created.
 
+#### Section: Rightful-headmaster access and portrait supervision
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's office is described as restored after Umbridge's occupation, barred to everyone except the rightful headmaster, able to confine Harry, and monitored by active former-head portraits.
+
+- **Corroboration:** Dumbledore's office is described as restored after Umbridge's occupation, barred to everyone except the rightful headmaster, able to confine Harry, and monitored by active former-head portraits.
+  - Quote: "barred to all but the rightful headmaster"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2359, `ootp-ch37-001`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `cos-ch12-001`. cos-ch12-001 records the office interior, portraits, and instruments; this entry adds the rightful-headmaster access rule, post-Umbridge restoration, and active portrait supervision.
+  - Notes: The passage does not explain whether the office itself, Dumbledore, or another enchantment keeps Harry confined.
+
 #### Section: The Pensieve and stored memories
 
 Summary: The available evidence includes 2 source items, led by: Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
@@ -5231,6 +5243,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
 
 ### Chapter: Student Protection and Exceptional Safeguards
 
+#### Section: Blood wards and yearly return to Privet Drive
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore says Lily's sacrifice left blood-based protection in Harry and Petunia, that Petunia sealed his charm by taking Harry in, and that returning to that home once a year keeps Voldemort from harming him there.
+
+- **Corroboration:** Dumbledore says Lily's sacrifice left blood-based protection in Harry and Petunia, that Petunia sealed his charm by taking Harry in, and that returning to that home once a year keeps Voldemort from harming him there.
+  - Quote: "Her blood became your refuge"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2373, `ootp-ch37-005`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch33-004`. gof-ch33-004 records Voldemort's view that Harry was protected by Dumbledore's arrangements and ancient household magic; this entry explains the blood charm, Petunia's role, and the once-a-year home requirement.
+  - Notes: The charm is described by Dumbledore but not given a formal spell name or complete boundary conditions.
+
 #### Section: Harry Potter's Layered Protection
 
 Summary: The available evidence includes 1 source item, led by: Voldemort frames Harry's protection as layered between Dumbledore's arrangements, ancient household magic, Ministry crowds, and Dumbledore's presence at Hogwarts.
@@ -6935,6 +6959,18 @@ Summary: The available evidence includes 1 source item, led by: Fred and George'
 
 ### Chapter: Divination, Prophecy, and School Testimony
 
+#### Section: Ministry custody and access hazards for prophecy records
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore confirms that Ministry-held prophecies are heavily protected and that anyone other than a named subject who tries to remove one risks madness.
+
+- **Corroboration:** Dumbledore confirms that Ministry-held prophecies are heavily protected and that anyone other than a named subject who tries to remove one risks madness.
+  - Quote: "Only the people to whom they refer"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2366, `ootp-ch37-003`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch35-001`, `ootp-ch34-007`. ootp-ch34-007 establishes the labelled Hall of Prophecies orb, and ootp-ch35-001 records the subject-only retrieval rule from Malfoy; this entry adds Dumbledore's confirmation that unauthorized retrieval causes madness.
+  - Notes: The exact symptoms, enforcement mechanism, and possible exceptions to the madness hazard are not described.
+
 #### Section: Ministry custody of prophecy records
 
 Summary: The available evidence includes 1 source item, led by: The Department's prophecy records appear to have an access restriction: only the subject of a prophecy can retrieve it, forcing Voldemort to manipulate Harry rather than collect the orb directly.
@@ -6966,6 +7002,18 @@ Summary: The available evidence includes 2 source items, led by: The Department 
   - Corroborates: `ootp-ch34-007`. ootp-ch34-007 establishes the physical prophecy archive; this entry adds the behavior of a broken prophecy orb and the audible/visual record inside.
   - Notes: The chapter gives only overheard fragments, not the full contents or technical preservation method.
 
+#### Section: Prophecy interpretation, relabeling, and Harry's marked status
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore explains that the prophecy initially could have meant either Harry or Neville, but Voldemort's attack marked Harry, caused the Hall record to be relabeled, and turned incomplete overheard information into the decisive cause of the conflict.
+
+- **Corroboration:** Dumbledore explains that the prophecy initially could have meant either Harry or Neville, but Voldemort's attack marked Harry, caused the Hall record to be relabeled, and turned incomplete overheard information into the decisive cause of the conflict.
+  - Quote: "The official record was relabeled"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2378, `ootp-ch37-007`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch34-007`, `ootp-ch35-001`. ootp-ch34-007 records the labelled prophecy orb, and ootp-ch35-001 records the retrieval rule; this entry adds the relabeling after Voldemort's attack, the Neville alternative, and the partial-eavesdropping cause.
+  - Notes: The keeper of the Hall of Prophecy is unnamed, and the text does not describe the administrative process for relabeling a prophecy record.
+
 #### Section: Trelawney's True Prophecy and Later Corroboration
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates Trelawney's rare true-prophecy evidence and records Harry's interpretation that the servant in the prophecy was Wormtail.
@@ -6977,6 +7025,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: cross_reference_candidate
   - Corroborates: `poa-ch16-005`. Book 3 Chapter Sixteen records Trelawney's true-prediction episode directly; this entry corroborates it through Harry's later summary and Wormtail interpretation.
   - Notes: The evidence is Harry's recollection and interpretation, not a fresh transcription of the original prophecy.
+
+#### Section: Trelawney's appointment interview and the first prophecy
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore heard the first prophecy while interviewing Sybill Trelawney for the Divination post at the Hog's Head and later retrieves the memory into the Pensieve to replay the prophecy exactly.
+
+- **Corroboration:** Dumbledore heard the first prophecy while interviewing Sybill Trelawney for the Divination post at the Hog's Head and later retrieves the memory into the Pensieve to replay the prophecy exactly.
+  - Quote: "a room above the bar at the Hog's Head Inn"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2377, `ootp-ch37-006`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `poa-ch16-005`, `gof-ch10-005`, `ootp-ch16-002`. poa-ch16-005 and gof-ch10-005 establish Trelawney's rare true-prophecy pattern, while ootp-ch16-002 describes the Hog's Head; this entry adds the original Divination interview, first prophecy setting, and Pensieve replay.
+  - Notes: The chapter gives Dumbledore's memory of the interview rather than an independent Ministry record of the hiring decision.
 
 ### Chapter: Examinations and Academic Progression
 
@@ -7454,6 +7514,19 @@ Summary: The available evidence includes 1 source item, led by: Hermione's house
   - Reference type: institutional_custom
   - Corroborates: `gof-ch12-004`, `gof-ch14-007`, `gof-ch16-006`. gof-ch12-004 covers the kitchen workforce, gof-ch14-007 covers S.P.E.W.'s legal framing, and gof-ch16-006 covers Hagrid's anti-reform view; this entry adds Hermione's shift toward direct kitchen access.
   - Notes: The scene does not yet reveal the kitchen entrance or include testimony from Hogwarts house-elves.
+
+### Chapter: House-Elves, Households, and Magical Secrecy
+
+#### Section: House-elf obedience, lies, and Secret-Keeper limits
+
+Summary: The available evidence includes 1 source item, led by: Kreacher can lie to Harry because Harry is not his master, cannot reveal the Order's protected location or forbidden plans because he is not Secret-Keeper and is bound by house-elf enchantments, yet can pass unblocked personal information to Narcissa.
+
+- **Context:** Kreacher can lie to Harry because Harry is not his master, cannot reveal the Order's protected location or forbidden plans because he is not Secret-Keeper and is bound by house-elf enchantments, yet can pass unblocked personal information to Narcissa.
+  - Quote: "He is not Secret-Keeper for the Order"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2368, `ootp-ch37-004`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The evidence comes through Dumbledore's interrogation of Kreacher and concerns Black-family service, not Hogwarts house-elves directly.
 
 ### Chapter: Houses, Heads, and Pastoral Responsibility
 
@@ -10309,6 +10382,18 @@ Summary: The available evidence includes 1 source item, led by: The memory and D
   - Notes: Dumbledore explicitly says he does not know whether Crouch's son was involved, so the entry should preserve that uncertainty.
 
 ### Chapter: Harry Potter and Voldemort's Return
+
+#### Section: Scar connection and failed Occlumency safeguards
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore identifies Harry's scar as a connection forged with Voldemort, says it allowed emotional and mental contact, and explains that Occlumency was meant to defend against manipulation, spying, and possession.
+
+- **Corroboration:** Dumbledore identifies Harry's scar as a connection forged with Voldemort, says it allowed emotional and mental contact, and explains that Occlumency was meant to defend against manipulation, spying, and possession.
+  - Quote: "force his way into your mind"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, PDF p. 2365, `ootp-ch37-002`, `sources/book-05/chapter-37-the-lost-prophecy.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch36-006`. ootp-ch36-006 records the direct possession attempt and emotional resistance; this entry adds Dumbledore's broader explanation of the scar connection, avoidance strategy, and Occlumency rationale.
+  - Notes: The account is Dumbledore's retrospective explanation and does not fully define the magical mechanism behind the scar link.
 
 #### Section: Scar-linked possession and emotional resistance
 

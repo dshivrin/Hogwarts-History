@@ -425,9 +425,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portable Swamp, whipping approval, and student departure
   - Portable swamp aftermath and staff noncooperation
 - Divination, Prophecy, and School Testimony
+  - Ministry custody and access hazards for prophecy records
   - Ministry custody of prophecy records
   - Physical prophecy records in the Department of Mysteries
+  - Prophecy interpretation, relabeling, and Harry's marked status
   - Trelawney's True Prophecy and Later Corroboration
+  - Trelawney's appointment interview and the first prophecy
 - Examinations and Academic Progression
   - O.W.L. crisis response and staff injury aftermath
 - Grounds, Transport, and the Forbidden Forest
@@ -482,6 +485,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Service Norms, Pay, and Regulation
 - House-Elves and Hogwarts Labor
   - Student Activism and Kitchen Access
+- House-Elves, Households, and Magical Secrecy
+  - House-elf obedience, lies, and Secret-Keeper limits
 - Houses, Heads, and Pastoral Responsibility
   - Head-of-House Family Support After Cedric Diggory's Death
 - Houses, Points, and Student Authority
@@ -684,6 +689,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Office Interior, Portraits, and Artifacts
   - Office artifacts and founder-linked objects
   - Passworded Gargoyle and Moving Staircase
+  - Rightful-headmaster access and portrait supervision
   - The Pensieve and stored memories
 - House Common Rooms and Dormitories
   - Founders' dormitory rule and staircase enforcement
@@ -894,6 +900,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Private Stores and Controlled Truth Potions
   - Snape's Office Sealing Spell and Private Cupboard
 - Student Protection and Exceptional Safeguards
+  - Blood wards and yearly return to Privet Drive
   - Harry Potter's Layered Protection
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
@@ -1253,6 +1260,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Karkaroff testimony and Snape's wartime role
   - Longbottom torture trial and Crouch family scandal
 - Harry Potter and Voldemort's Return
+  - Scar connection and failed Occlumency safeguards
   - Scar-linked possession and emotional resistance
 - Harry Potter and the End of the First Wizarding War
   - Killing Curse survival and Potter-family testimony

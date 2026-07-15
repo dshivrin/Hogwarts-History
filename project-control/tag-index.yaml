@@ -29,9 +29,11 @@ tags:
     entries:
     - ootp-ch04-002
     - ootp-ch35-001
+    - ootp-ch37-003
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   accessibility:
     entries:
     - ootp-ch27-001
@@ -211,9 +213,11 @@ tags:
     entries:
     - gof-ch20-001
     - gof-ch33-004
+    - ootp-ch37-005
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   ancient-runes:
     entries:
     - ootp-ch10-005
@@ -821,8 +825,10 @@ tags:
   blood-protection:
     entries:
     - ootp-ch02-006
+    - ootp-ch37-005
     output_yaml:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   blood-quill:
     entries:
     - ootp-ch13-006
@@ -1825,6 +1831,7 @@ tags:
     - ootp-ch29-005
     - ootp-ch32-004
     - ootp-ch32-005
+    - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
@@ -1832,6 +1839,7 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   computers:
     entries:
     - gof-ch28-003
@@ -2261,9 +2269,11 @@ tags:
     - gof-ch02-001
     - gof-ch02-005
     - ootp-ch36-006
+    - ootp-ch37-002
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   curses:
     entries:
     - gof-ch14-001
@@ -2724,6 +2734,7 @@ tags:
     - ootp-ch35-006
     - ootp-ch35-007
     - ootp-ch36-001
+    - ootp-ch37-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
@@ -2732,6 +2743,7 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   department-regulation-control-magical-creatures:
     entries:
     - ootp-ch33-003
@@ -2918,6 +2930,7 @@ tags:
     - ootp-ch26-007
     - ootp-ch27-001
     - ootp-ch27-003
+    - ootp-ch37-006
     - poa-ch04-003
     - poa-ch06-001
     - poa-ch06-003
@@ -2944,6 +2957,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -3219,6 +3233,9 @@ tags:
     - ootp-ch36-004
     - ootp-ch36-005
     - ootp-ch36-006
+    - ootp-ch37-002
+    - ootp-ch37-005
+    - ootp-ch37-006
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -3319,6 +3336,7 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3329,6 +3347,7 @@ tags:
     - gof-ch30-002
     - ootp-ch11-004
     - ootp-ch22-001
+    - ootp-ch37-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -3337,6 +3356,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   dumbledores-army:
     entries:
     - ootp-ch15-007
@@ -4216,6 +4236,11 @@ tags:
     - poa-ch21-007
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  floo:
+    entries:
+    - ootp-ch37-001
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   floo-network:
     entries:
     - gof-ch04-004
@@ -4962,6 +4987,7 @@ tags:
     - ootp-ch23-002
     - ootp-ch23-005
     - ootp-ch32-004
+    - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
@@ -4970,6 +4996,7 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   grindelwald:
     entries:
     - ps-ch06-003
@@ -5411,6 +5438,11 @@ tags:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-17-cat-rat-and-dog.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  half-blood:
+    entries:
+    - ootp-ch37-007
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   half-brother:
     entries:
     - ootp-ch30-006
@@ -5426,9 +5458,12 @@ tags:
     - ootp-ch34-007
     - ootp-ch35-001
     - ootp-ch35-002
+    - ootp-ch37-003
+    - ootp-ch37-007
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   halloween-feast:
     entries:
     - cos-ch07-005
@@ -5457,6 +5492,9 @@ tags:
     - ootp-ch34-007
     - ootp-ch35-001
     - ootp-ch36-006
+    - ootp-ch37-002
+    - ootp-ch37-005
+    - ootp-ch37-007
     - ps-ch01-003
     - ps-ch01-004
     - ps-ch01-005
@@ -5488,6 +5526,7 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -5639,6 +5678,7 @@ tags:
     - gof-ch36-003
     - ootp-ch22-001
     - ootp-ch28-001
+    - ootp-ch37-001
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -5649,6 +5689,7 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   headmaster-portraits:
     entries:
     - cos-ch12-001
@@ -5658,6 +5699,7 @@ tags:
     - ootp-ch22-002
     - ootp-ch23-002
     - ootp-ch27-007
+    - ootp-ch37-001
     - poa-ch11-006
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
@@ -5668,6 +5710,7 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   headmasters:
     entries:
     - cos-ch09-006
@@ -6001,10 +6044,12 @@ tags:
     entries:
     - ootp-ch16-002
     - ootp-ch16-003
+    - ootp-ch37-006
     - ps-ch16-003
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   hogsmeade:
     entries:
     - gof-ch12-005
@@ -6627,6 +6672,7 @@ tags:
     - ootp-ch21-004
     - ootp-ch23-005
     - ootp-ch27-005
+    - ootp-ch37-004
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-02/chapter-03-burrow.yaml
@@ -6653,6 +6699,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -7351,11 +7398,13 @@ tags:
     - ootp-ch06-002
     - ootp-ch23-005
     - ootp-ch32-004
+    - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   kwikspell:
     entries:
     - cos-ch08-002
@@ -7588,10 +7637,12 @@ tags:
   lily-potter:
     entries:
     - ootp-ch02-004
+    - ootp-ch37-005
     - ps-ch01-003
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   little-hangleton:
     entries:
     - gof-ch01-001
@@ -7859,6 +7910,11 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  madness:
+    entries:
+    - ootp-ch37-003
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   magic-outside-school:
     entries:
     - cos-ch01-005
@@ -8096,8 +8152,10 @@ tags:
   magical-instruments:
     entries:
     - cos-ch12-001
+    - ootp-ch37-001
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   magical-law:
     entries:
     - gof-ch10-004
@@ -8606,6 +8664,11 @@ tags:
     - gof-ch13-005
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  mental-magic:
+    entries:
+    - ootp-ch37-002
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   mental-safety:
     entries:
     - ootp-ch24-005
@@ -8844,6 +8907,7 @@ tags:
     - ootp-ch36-003
     - ootp-ch36-004
     - ootp-ch36-007
+    - ootp-ch37-003
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -8894,6 +8958,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   ministry-posters:
     entries:
     - ootp-ch25-006
@@ -9315,6 +9380,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  narcissa-malfoy:
+    entries:
+    - ootp-ch37-004
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   navigation:
     entries:
     - ootp-ch34-003
@@ -9353,6 +9423,7 @@ tags:
     entries:
     - ootp-ch21-006
     - ootp-ch25-005
+    - ootp-ch37-007
     - poa-ch12-006
     - poa-ch13-007
     output_yaml:
@@ -9360,6 +9431,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   newt-courses:
     entries:
     - ootp-ch12-002
@@ -9511,10 +9583,12 @@ tags:
     - ootp-ch24-005
     - ootp-ch26-005
     - ootp-ch28-006
+    - ootp-ch37-002
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   off-campus-security:
     entries:
     - ootp-ch01-002
@@ -9535,6 +9609,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
+  office-protections:
+    entries:
+    - ootp-ch37-001
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   office-security:
     entries:
     - gof-ch25-006
@@ -9545,6 +9624,11 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+  official-records:
+    entries:
+    - ootp-ch37-007
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   ogg:
     entries:
     - gof-ch31-001
@@ -9680,6 +9764,7 @@ tags:
     - ootp-ch21-007
     - ootp-ch23-007
     - ootp-ch32-002
+    - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
@@ -9692,6 +9777,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -10052,11 +10138,13 @@ tags:
     - ootp-ch24-004
     - ootp-ch26-005
     - ootp-ch28-006
+    - ootp-ch37-006
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   percy-weasley:
     entries:
     - cos-ch03-003
@@ -10129,8 +10217,10 @@ tags:
     entries:
     - ootp-ch02-004
     - ootp-ch02-006
+    - ootp-ch37-005
     output_yaml:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   philosopher-stone-protection:
     entries:
     - ps-ch11-007
@@ -10408,10 +10498,12 @@ tags:
     - cos-ch17-002
     - gof-ch33-002
     - ootp-ch36-006
+    - ootp-ch37-002
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   post-hogwarts-training:
     entries:
     - ootp-ch03-004
@@ -10701,6 +10793,7 @@ tags:
     - ootp-ch02-001
     - ootp-ch02-006
     - ootp-ch03-002
+    - ootp-ch37-005
     - poa-ch01-002
     - poa-ch02-002
     - poa-ch02-003
@@ -10713,6 +10806,7 @@ tags:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   probation:
     entries:
     - ootp-ch17-006
@@ -10986,12 +11080,16 @@ tags:
     - ootp-ch34-007
     - ootp-ch35-001
     - ootp-ch35-002
+    - ootp-ch37-003
+    - ootp-ch37-006
+    - ootp-ch37-007
     - poa-ch16-005
     output_yaml:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   protean-charm:
     entries:
     - ootp-ch19-001
@@ -11526,6 +11624,11 @@ tags:
     - gof-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+  rightful-headmaster:
+    entries:
+    - ootp-ch37-001
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   rise-and-fall-of-the-dark-arts:
     entries:
     - gof-ch09-007
@@ -11596,8 +11699,10 @@ tags:
     entries:
     - gof-ch30-004
     - gof-ch30-005
+    - ootp-ch37-003
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   room-of-requirement:
     entries:
     - gof-ch23-004
@@ -12241,8 +12346,10 @@ tags:
   secret-keeper:
     entries:
     - ootp-ch06-007
+    - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   secret-passages:
     entries:
     - ootp-ch17-007
@@ -13973,6 +14080,11 @@ tags:
     - cos-ch17-005
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  sybill-trelawney:
+    entries:
+    - ootp-ch37-006
+    output_yaml:
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   tallest-tower:
     entries:
     - ps-ch14-006
@@ -14664,12 +14776,14 @@ tags:
   true-seers:
     entries:
     - gof-ch10-005
+    - ootp-ch37-006
     - poa-ch06-004
     - poa-ch16-005
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   truth-potion:
     entries:
     - gof-ch35-007
@@ -15018,6 +15132,8 @@ tags:
     - ootp-ch36-004
     - ootp-ch36-005
     - ootp-ch36-006
+    - ootp-ch37-002
+    - ootp-ch37-007
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -15044,6 +15160,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-05/chapter-37-the-lost-prophecy.yaml
   voldemort-denial:
     entries:
     - ootp-ch12-007
