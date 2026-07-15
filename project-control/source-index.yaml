@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-14'
+updated: '2026-07-15'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1550,3 +1550,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2320-2344.
+- source_unit_id: ootp-ch36
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 36
+  chapter_title: Chapter Thirty-Six - The Only One He Ever Feared
+  page_start: 2345
+  page_end: 2357
+  output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  processed_at: '2026-07-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2345-2357.

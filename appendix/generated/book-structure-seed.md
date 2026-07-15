@@ -505,14 +505,19 @@ Source data: sources YAML + project-control indexes + structured source data.
   - High-security Department doors
   - Planetary research chamber
   - Research rooms and navigation workarounds
+  - Rotating-room navigation and exit behavior
   - The veiled arch and death-related magic
   - Time Room hazards and temporal artifacts
+- Ministry Intervention and Hogwarts Governance
+  - Public proof, containment jinx, and emergency return to school
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's attempted removal during the Astronomy O.W.L.
 - Ministry Oversight and Student Hearings
   - Visitor entry after hours and security gaps
 - Ministry Pressure and Public Records
   - Public Opinion Inside Student Dormitories
+- Ministry Public Ideology and Non-Human Beings
+  - Fountain animation and wartime destruction
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
@@ -523,6 +528,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Office access workarounds and student corridor control
   - Office fireplace communication to Order headquarters
   - Office fireplaces and surveillance workarounds
+  - Shield Charm rebound in live combat
   - Stealth Sensoring Spells and office intrusion response
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
@@ -1237,11 +1243,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Wars, Crises, and School Memory
 
+- Dark Arts Knowledge After the First War
+  - Cruciatus intent and Death Eater practice
+- Dumbledore, Voldemort, and Public Proof of Return
+  - Phoenix intervention during the Ministry duel
 - First Wizarding War Legal Aftermath
   - Bagman's Rookwood-linked acquittal
   - Council of Magical Law courtroom procedure
   - Karkaroff testimony and Snape's wartime role
   - Longbottom torture trial and Crouch family scandal
+- Harry Potter and Voldemort's Return
+  - Scar-linked possession and emotional resistance
 - Harry Potter and the End of the First Wizarding War
   - Killing Curse survival and Potter-family testimony
 - Ministry Investigations and Order Secrecy

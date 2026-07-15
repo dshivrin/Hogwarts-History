@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-14'
+updated: '2026-07-15'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -12585,6 +12585,117 @@ by_entry:
     - veil
     source_unit: ootp-ch35
     output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
+  ootp-ch36-001:
+    title: 'Ministry Interfaces and Magical Research: Rotating-room navigation and
+      exit behavior'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - atrium
+    - department-of-mysteries
+    - lifts
+    - magical-architecture
+    - ministry-of-magic
+    - navigation
+    - rotating-room
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  ootp-ch36-002:
+    title: 'Dark Arts Knowledge After the First War: Cruciatus intent and Death Eater
+      practice'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bellatrix-lestrange
+    - cruciatus-curse
+    - dark-arts
+    - second-war
+    - spell-intent
+    - unforgivable-curses
+    - wizarding-law
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  ootp-ch36-003:
+    title: 'Protective Magic and Security: Shield Charm rebound in live combat'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - bellatrix-lestrange
+    - defensive-magic
+    - dueling
+    - ministry-of-magic
+    - protego
+    - shield-charm
+    - stunning-spell
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  ootp-ch36-004:
+    title: 'Ministry Public Ideology and Non-Human Beings: Fountain animation and
+      wartime destruction'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - animated-statues
+    - atrium
+    - dumbledore
+    - fountain-magical-brethren
+    - ministry-of-magic
+    - protective-magic
+    - voldemort
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  ootp-ch36-005:
+    title: 'Dumbledore, Voldemort, and Public Proof of Return: Phoenix intervention
+      during the Ministry duel'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - advanced-magic
+    - dumbledore
+    - fawkes
+    - killing-curse
+    - phoenix
+    - second-war
+    - voldemort
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  ootp-ch36-006:
+    title: 'Harry Potter and Voldemort''s Return: Scar-linked possession and emotional
+      resistance'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - curse-scars
+    - dumbledore
+    - harry-potter
+    - possession
+    - second-war
+    - sirius-black
+    - voldemort
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  ootp-ch36-007:
+    title: 'Ministry Intervention and Hogwarts Governance: Public proof, containment
+      jinx, and emergency return to school'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - anti-disapparation
+    - aurors
+    - cornelius-fudge
+    - hagrid
+    - ministry-of-magic
+    - portkey
+    - umbridge
+    source_unit: ootp-ch36
+    output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12636,6 +12747,7 @@ by_tag:
   advanced-magic:
   - cos-ch10-002
   - ootp-ch08-003
+  - ootp-ch36-005
   - poa-ch08-005
   - poa-ch12-002
   - poa-ch21-006
@@ -12704,6 +12816,8 @@ by_tag:
   - poa-ch20-003
   animal-transformation:
   - cos-ch12-004
+  animated-statues:
+  - ootp-ch36-004
   annual-customs:
   - gof-ch12-003
   anti-apparition:
@@ -12720,6 +12834,8 @@ by_tag:
   - ootp-ch01-005
   - ootp-ch02-005
   - poa-ch20-007
+  anti-disapparation:
+  - ootp-ch36-007
   anti-muggle-pranks:
   - ootp-ch07-006
   anti-muggle-precautions:
@@ -12793,6 +12909,8 @@ by_tag:
   - ootp-ch07-002
   - ootp-ch07-003
   - ootp-ch34-002
+  - ootp-ch36-001
+  - ootp-ch36-004
   auror:
   - gof-ch19-006
   - ootp-ch03-004
@@ -12807,6 +12925,7 @@ by_tag:
   - gof-ch11-001
   - gof-ch27-007
   - ootp-ch23-007
+  - ootp-ch36-007
   avada-kedavra:
   - gof-ch14-005
   - gof-ch34-003
@@ -12912,6 +13031,8 @@ by_tag:
   bellatrix-lestrange:
   - ootp-ch23-007
   - ootp-ch25-005
+  - ootp-ch36-002
+  - ootp-ch36-003
   bertha-jorkins:
   - gof-ch01-003
   - gof-ch05-003
@@ -13452,6 +13573,7 @@ by_tag:
   - ootp-ch05-006
   - ootp-ch09-001
   - ootp-ch10-005
+  - ootp-ch36-007
   - poa-ch16-002
   - poa-ch19-004
   cornish-pixies:
@@ -13589,6 +13711,7 @@ by_tag:
   - gof-ch34-002
   - ootp-ch23-007
   - ootp-ch32-007
+  - ootp-ch36-002
   crystal-gazing:
   - gof-ch21-005
   - poa-ch15-003
@@ -13613,6 +13736,7 @@ by_tag:
   curse-scars:
   - gof-ch02-001
   - gof-ch02-005
+  - ootp-ch36-006
   curses:
   - gof-ch14-001
   - ps-ch13-003
@@ -13656,6 +13780,7 @@ by_tag:
   - gof-ch11-004
   - gof-ch13-007
   - gof-ch19-006
+  - ootp-ch36-002
   dark-creatures:
   - gof-ch14-001
   - ootp-ch05-005
@@ -13773,6 +13898,7 @@ by_tag:
   defense-association:
   - ootp-ch18-007
   defensive-magic:
+  - ootp-ch36-003
   - poa-ch19-003
   defensive-magical-theory:
   - ootp-ch12-006
@@ -13847,6 +13973,7 @@ by_tag:
   - ootp-ch35-005
   - ootp-ch35-006
   - ootp-ch35-007
+  - ootp-ch36-001
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -14034,6 +14161,8 @@ by_tag:
   - gof-ch22-001
   due-process:
   - ootp-ch08-004
+  dueling:
+  - ootp-ch36-003
   dueling-club:
   - cos-ch11-003
   - gof-ch34-001
@@ -14112,6 +14241,9 @@ by_tag:
   - ootp-ch28-001
   - ootp-ch28-006
   - ootp-ch31-002
+  - ootp-ch36-004
+  - ootp-ch36-005
+  - ootp-ch36-006
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -14421,6 +14553,7 @@ by_tag:
   - gof-ch36-003
   - ootp-ch22-003
   - ootp-ch27-007
+  - ootp-ch36-005
   feast:
   - cos-ch18-003
   feasts:
@@ -14674,6 +14807,7 @@ by_tag:
   fountain-magical-brethren:
   - ootp-ch07-003
   - ootp-ch09-002
+  - ootp-ch36-004
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
@@ -15096,6 +15230,7 @@ by_tag:
   - ootp-ch30-006
   - ootp-ch33-006
   - ootp-ch33-007
+  - ootp-ch36-007
   - poa-ch01-006
   - poa-ch05-007
   - poa-ch06-005
@@ -15168,6 +15303,7 @@ by_tag:
   - ootp-ch15-007
   - ootp-ch34-007
   - ootp-ch35-001
+  - ootp-ch36-006
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
@@ -16027,6 +16163,7 @@ by_tag:
   killing-curse:
   - gof-ch14-004
   - gof-ch32-002
+  - ootp-ch36-005
   kings-cross:
   - cos-ch04-001
   - cos-ch05-001
@@ -16138,6 +16275,8 @@ by_tag:
   - gof-ch06-001
   liechtenstein:
   - ootp-ch31-007
+  lifts:
+  - ootp-ch36-001
   lightning-scar:
   - gof-ch02-001
   - gof-ch02-004
@@ -16308,6 +16447,7 @@ by_tag:
   - ootp-ch28-001
   - ootp-ch34-003
   - ootp-ch34-005
+  - ootp-ch36-001
   - ps-ch07-001
   - ps-ch08-001
   magical-artifact:
@@ -16754,6 +16894,10 @@ by_tag:
   - ootp-ch32-007
   - ootp-ch34-001
   - ootp-ch34-002
+  - ootp-ch36-001
+  - ootp-ch36-003
+  - ootp-ch36-004
+  - ootp-ch36-007
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -16946,6 +17090,7 @@ by_tag:
   navigation:
   - ootp-ch34-003
   - ootp-ch34-004
+  - ootp-ch36-001
   nearly-headless-nick:
   - cos-ch08-001
   - cos-ch08-005
@@ -17343,6 +17488,7 @@ by_tag:
   - ootp-ch23-002
   phoenix:
   - cos-ch17-005
+  - ootp-ch36-005
   phoenix-feather:
   - gof-ch18-007
   phoenix-song:
@@ -17411,6 +17557,7 @@ by_tag:
   - gof-ch35-001
   - gof-ch36-003
   - ootp-ch22-003
+  - ootp-ch36-007
   portkeys:
   - gof-ch06-002
   - gof-ch07-006
@@ -17444,6 +17591,7 @@ by_tag:
   possession:
   - cos-ch17-002
   - gof-ch33-002
+  - ootp-ch36-006
   post-hogwarts-training:
   - ootp-ch03-004
   post-riot-cleanup:
@@ -17736,6 +17884,9 @@ by_tag:
   - ootp-ch04-002
   - ootp-ch06-007
   - ootp-ch24-005
+  - ootp-ch36-004
+  protego:
+  - ootp-ch36-003
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -18007,6 +18158,7 @@ by_tag:
   - ootp-ch27-006
   rotating-room:
   - ootp-ch34-003
+  - ootp-ch36-001
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -18264,6 +18416,9 @@ by_tag:
   - ootp-ch08-006
   - ootp-ch20-005
   - ootp-ch27-003
+  - ootp-ch36-002
+  - ootp-ch36-005
+  - ootp-ch36-006
   second-year:
   - cos-ch02-002
   second-year-booklist:
@@ -18372,6 +18527,7 @@ by_tag:
   shield-charm:
   - ootp-ch25-005
   - ootp-ch26-005
+  - ootp-ch36-003
   shrieking-shack:
   - ootp-ch17-007
   - poa-ch05-002
@@ -18420,6 +18576,7 @@ by_tag:
   - ootp-ch32-002
   - ootp-ch34-006
   - ootp-ch35-007
+  - ootp-ch36-006
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -18555,6 +18712,8 @@ by_tag:
   - ootp-ch23-006
   spell-evidence:
   - gof-ch09-006
+  spell-intent:
+  - ootp-ch36-002
   spellbooks:
   - cos-ch01-002
   - cos-ch03-005
@@ -19010,6 +19169,7 @@ by_tag:
   - gof-ch09-004
   - gof-ch29-004
   - ootp-ch21-006
+  - ootp-ch36-003
   stunning-spells:
   - gof-ch19-005
   - ootp-ch31-006
@@ -19403,6 +19563,7 @@ by_tag:
   - ootp-ch30-004
   - ootp-ch33-001
   - ootp-ch33-004
+  - ootp-ch36-007
   umbridge-office:
   - ootp-ch29-005
   - ootp-ch32-002
@@ -19452,6 +19613,7 @@ by_tag:
   - gof-ch27-007
   - gof-ch34-002
   - ootp-ch32-007
+  - ootp-ch36-002
   unicorn-blood:
   - ps-ch15-007
   unicorn-hair:
@@ -19552,6 +19714,9 @@ by_tag:
   - ootp-ch15-007
   - ootp-ch20-005
   - ootp-ch35-001
+  - ootp-ch36-004
+  - ootp-ch36-005
+  - ootp-ch36-006
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
@@ -19737,6 +19902,7 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch30-003
+  - ootp-ch36-002
   - poa-ch21-003
   wizarding-politics:
   - ootp-ch05-006

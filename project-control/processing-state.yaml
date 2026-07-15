@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 35
-  chapter_title: Chapter Thirty-Five - Beyond the Veil
-  page_start: 2320
-  page_end: 2344
-  output_yaml: sources/book-05/chapter-35-beyond-the-veil.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 36
   chapter_title: Chapter Thirty-Six - The Only One He Ever Feared
   page_start: 2345
   page_end: 2357
   output_yaml: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2358
   page_end: 2381
   output_yaml: sources/book-05/chapter-37-the-lost-prophecy.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 38
+  chapter_title: Chapter Thirty-Eight - The Second War Begins
+  page_start: 2382
+  page_end: 2406
+  output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

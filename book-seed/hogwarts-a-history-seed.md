@@ -7650,6 +7650,18 @@ Summary: The available evidence includes 1 source item, led by: One Department c
   - Reference type: magical_architecture
   - Notes: The text identifies the objects as brains but does not explain the Department's research purpose.
 
+#### Section: Rotating-room navigation and exit behavior
+
+Summary: The available evidence includes 1 source item, led by: The Department's rotating antechamber can expose the correct exit route in response to a direct request, leading from the research rooms back to the lift corridor and Atrium.
+
+- **Corroboration:** The Department's rotating antechamber can expose the correct exit route in response to a direct request, leading from the research rooms back to the lift corridor and Atrium.
+  - Quote: "The door right behind him flew open"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2347, `ootp-ch36-001`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch34-003`. ootp-ch34-003 establishes the rotating antechamber as disorienting architecture; this entry adds that the room can reveal the exit corridor on request during a crisis.
+  - Notes: The mechanism's rules are not explained, and the response may depend on Harry's circumstances rather than normal visitor access.
+
 #### Section: The veiled arch and death-related magic
 
 Summary: The available evidence includes 2 source items, led by: The Department contains an ancient-looking veiled arch in a sunken chamber that audibly and visually attracts Harry, Luna, Ginny, and Neville, while Hermione recognizes it as dangerous.
@@ -7680,6 +7692,20 @@ Summary: The available evidence includes 1 source item, led by: The Time Room co
   - Reference type: magical_architecture
   - Corroborates: `ootp-ch34-007`. ootp-ch34-007 records the Time Room route and bell jar; this entry adds the hazardous effects of the bell jar and suspected Time-Turner cabinet.
   - Notes: Harry only suspects the cabinet contained Time-Turners, and the Department's research purpose is not explained.
+
+### Chapter: Ministry Intervention and Hogwarts Governance
+
+#### Section: Public proof, containment jinx, and emergency return to school
+
+Summary: The available evidence includes 1 source item, led by: The Ministry finally witnesses Voldemort's return; Dumbledore has escaped Death Eaters contained in the Death Chamber, creates a disputed Portkey to send Harry back to Hogwarts, and compels Fudge to remove Umbridge and stop the search for Hagrid.
+
+- **Corroboration:** The Ministry finally witnesses Voldemort's return; Dumbledore has escaped Death Eaters contained in the Death Chamber, creates a disputed Portkey to send Harry back to Hogwarts, and compels Fudge to remove Umbridge and stop the search for Hagrid.
+  - Quote: "bound by an Anti-Disapparation Jinx"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2355, `ootp-ch36-007`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch35-007`, `ootp-ch22-003`, `ootp-ch30-005`. ootp-ch35-007 records the Death Chamber and veil, ootp-ch22-003 records Dumbledore's earlier Portkey workaround, and ootp-ch30-005 records Hagrid's expected dismissal; this entry adds post-duel Anti-Disapparation containment, Fudge's direct Portkey objection, and orders to remove Umbridge and restore Hagrid.
+  - Notes: The passage records Dumbledore's demanded orders before their implementation is shown at Hogwarts.
 
 ### Chapter: Ministry Intervention and Staff Vulnerability
 
@@ -7722,6 +7748,20 @@ Summary: The available evidence includes 1 source item, led by: The dormitory ar
   - Reference type: explicit_in_universe_source
   - Corroborates: `ootp-ch05-007`, `ootp-ch04-007`. ootp-ch05-007 and ootp-ch04-007 record Ministry and Prophet pressure against Dumbledore and Harry; this entry adds the impact inside Gryffindor dormitory life and a family-level rejection of the Prophet.
   - Notes: The evidence is a student argument and family report, not the underlying Prophet article or official notices.
+
+### Chapter: Ministry Public Ideology and Non-Human Beings
+
+#### Section: Fountain animation and wartime destruction
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore turns the Ministry's Fountain of Magical Brethren into active combat and communication assets: statues shield Harry, pin Bellatrix, engage Voldemort, and bring Fudge from the fireplaces.
+
+- **Corroboration:** Dumbledore turns the Ministry's Fountain of Magical Brethren into active combat and communication assets: statues shield Harry, pin Bellatrix, engage Voldemort, and bring Fudge from the fireplaces.
+  - Quote: "the other statues sprang to life too"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2351, `ootp-ch36-004`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch07-003`. ootp-ch07-003 records the Atrium and Fountain as public architecture; this entry adds Dumbledore's animation of the same statues, their combat uses, and their destruction.
+  - Notes: The magic is performed by Dumbledore in an emergency and may not reflect ordinary properties of the Fountain.
 
 ### Chapter: Post-1984 Incidents and Confirmations
 
@@ -7821,6 +7861,17 @@ Summary: The available evidence includes 1 source item, led by: Under Umbridge's
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch28-004`, `ootp-ch20-001`. ootp-ch28-004 records Umbridge's watched communication channels, and ootp-ch20-001 records cloak-assisted unauthorized movement; this entry adds the unwatched office fire and Sirius's lock-opening knife as a targeted workaround.
   - Notes: The office-fire exception comes from Harry's recollection of Umbridge's statement, not from an independent Floo Network record.
+
+#### Section: Shield Charm rebound in live combat
+
+Summary: The available evidence includes 1 source item, led by: In a live duel, Protego can rebound a Stunning Spell toward its caster rather than merely blocking it.
+
+- **Context:** In a live duel, Protego can rebound a Stunning Spell toward its caster rather than merely blocking it.
+  - Quote: "his own Stunning Spell, bounced back at him"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2349, `ootp-ch36-003`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage does not state whether rebound is an inherent Protego effect or Bellatrix's superior casting.
 
 #### Section: Stealth Sensoring Spells and office intrusion response
 
@@ -10182,6 +10233,33 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 ## Part: Wars, Crises, and School Memory
 
+### Chapter: Dark Arts Knowledge After the First War
+
+#### Section: Cruciatus intent and Death Eater practice
+
+Summary: The available evidence includes 1 source item, led by: Bellatrix gives practical Dark Arts testimony that the Cruciatus Curse requires the caster to mean it and enjoy causing pain; grief-driven anger produces only a limited effect.
+
+- **Context:** Bellatrix gives practical Dark Arts testimony that the Cruciatus Curse requires the caster to mean it and enjoy causing pain; grief-driven anger produces only a limited effect.
+  - Quote: "righteous anger won't hurt me for long"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2348, `ootp-ch36-002`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Bellatrix is a hostile practitioner rather than a neutral instructor, and the observation concerns one failed attempt by Harry.
+
+### Chapter: Dumbledore, Voldemort, and Public Proof of Return
+
+#### Section: Phoenix intervention during the Ministry duel
+
+Summary: The available evidence includes 1 source item, led by: Fawkes protects Dumbledore by swallowing a Killing Curse and immediately rebirths from flame, while Dumbledore counters Voldemort's snake and water-based attacks.
+
+- **Corroboration:** Fawkes protects Dumbledore by swallowing a Killing Curse and immediately rebirths from flame, while Dumbledore counters Voldemort's snake and water-based attacks.
+  - Quote: "swallowed the jet of green light whole"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2352, `ootp-ch36-005`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch17-005`, `gof-ch14-004`, `ootp-ch27-007`. Prior entries establish Fawkes as Dumbledore's phoenix, the Killing Curse as normally unblockable, and Fawkes as an escape route; this entry adds Fawkes absorbing a Killing Curse and rebirthing during the Ministry duel.
+  - Notes: The passage shows the event but does not explain whether any phoenix could survive this or whether Fawkes is exceptional.
+
 ### Chapter: First Wizarding War Legal Aftermath
 
 #### Section: Bagman's Rookwood-linked acquittal
@@ -10229,6 +10307,20 @@ Summary: The available evidence includes 1 source item, led by: The memory and D
   - Reference type: historical_claim
   - Corroborates: `gof-ch27-007`, `gof-ch14-005`, `gof-ch09-007`. Corroborates Crouch's harsh law-enforcement record, Unforgivable Curse sentencing, and postwar Death Eater history; adds the trial scene and Dumbledore's Longbottom explanation.
   - Notes: Dumbledore explicitly says he does not know whether Crouch's son was involved, so the entry should preserve that uncertainty.
+
+### Chapter: Harry Potter and Voldemort's Return
+
+#### Section: Scar-linked possession and emotional resistance
+
+Summary: The available evidence includes 1 source item, led by: Voldemort can invade Harry's body or mind through their scar connection, but Harry's emotional attachment to Sirius disrupts the possession.
+
+- **Corroboration:** Voldemort can invade Harry's body or mind through their scar connection, but Harry's emotional attachment to Sirius disrupts the possession.
+  - Quote: "it used Harry's mouth"
+  - Source: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, PDF p. 2353, `ootp-ch36-006`, `sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch33-002`, `gof-ch02-001`. gof-ch33-002 records Voldemort's prior possession of Quirrell, and gof-ch02-001 records Harry's scar link; this entry adds a direct possession attempt through Harry during the Ministry confrontation.
+  - Notes: Harry's subjective experience supplies most of the detail, and the exact magical mechanism is not named.
 
 ### Chapter: Harry Potter and the End of the First Wizarding War
 

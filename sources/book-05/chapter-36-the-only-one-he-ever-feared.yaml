@@ -1,0 +1,336 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  boundary_confidence: high
+  boundary_notes: Bounded pypdf extraction starts with the Chapter Thirty-Six heading on PDF page 2345 and ends with Harry taking Dumbledore's Portkey from the Ministry Atrium on PDF page 2357, immediately before the next chapter begins.
+  processed_date: '2026-07-15'
+  processor_notes: "Extracted only the bounded current range from processing-state anchors; no full-PDF scan was used. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+- id: ootp-ch36-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2347
+  printed_page: null
+  extracted_text_lines: 80-89
+  text_anchor:
+    start_phrase: Where's the exit?
+    end_phrase: he was rising
+    local_occurrence_note: Harry asks the rotating Department antechamber for the exit and is given a direct corridor to the lifts, then takes a lift marked Atrium.
+  nearby_context: Bellatrix has fled from the Death Chamber through the Brain Room, and Harry is pursuing her alone through the Department of Mysteries.
+  match_terms:
+  - Department of Mysteries
+  - rotating room
+  - exit
+  - lifts
+  - Atrium
+  - navigation
+  quote_excerpt_short: "The door right behind him flew open"
+  source_note: The Department's rotating antechamber can expose the correct exit route in response to a direct request, leading from the research rooms back to the lift corridor and Atrium.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - rotating-room
+  - magical-architecture
+  - navigation
+  - lifts
+  - atrium
+  - ministry-of-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Rotating-room navigation and exit behavior
+  reason_for_placement: The scene adds an observed escape behavior to the Department's earlier disorienting architecture.
+  relevance_to_hogwarts_a_history: A later edition can compare Ministry wayfinding enchantments with Hogwarts's own shifting staircases, doors, and concealed routes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch34-003
+    notes: ootp-ch34-003 establishes the rotating antechamber as disorienting architecture; this entry adds that the room can reveal the exit corridor on request during a crisis.
+  confidence: high
+  limitations: The mechanism's rules are not explained, and the response may depend on Harry's circumstances rather than normal visitor access.
+
+- id: ootp-ch36-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2348
+  printed_page: null
+  extracted_text_lines: 110-124
+  text_anchor:
+    start_phrase: Hatred rose in Harry
+    end_phrase: I'll give you a lesson
+    local_occurrence_note: Harry casts Crucio at Bellatrix, and she explains why the curse does not sustain its full effect.
+  nearby_context: Harry is dueling Bellatrix in the Ministry Atrium immediately after Sirius falls through the veil.
+  match_terms:
+  - Crucio
+  - Cruciatus Curse
+  - Unforgivable Curse
+  - Bellatrix Lestrange
+  - intent
+  - Dark Arts
+  quote_excerpt_short: "righteous anger won't hurt me for long"
+  source_note: Bellatrix gives practical Dark Arts testimony that the Cruciatus Curse requires the caster to mean it and enjoy causing pain; grief-driven anger produces only a limited effect.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - cruciatus-curse
+  - unforgivable-curses
+  - dark-arts
+  - bellatrix-lestrange
+  - spell-intent
+  - wizarding-law
+  - second-war
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: Dark Arts Knowledge After the First War
+  candidate_section: Cruciatus intent and Death Eater practice
+  reason_for_placement: The passage adds practical spell-mechanics evidence to classroom legal knowledge about Unforgivable Curses.
+  relevance_to_hogwarts_a_history: A later edition can distinguish what Hogwarts students were taught about illegal curses from what wartime combat revealed about their operation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned no prior entry for Cruciatus intent or the limited effect of righteous anger.
+  confidence: high
+  limitations: Bellatrix is a hostile practitioner rather than a neutral instructor, and the observation concerns one failed attempt by Harry.
+
+- id: ootp-ch36-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2349
+  printed_page: null
+  extracted_text_lines: 139-147
+  text_anchor:
+    start_phrase: Stupefy!
+    end_phrase: across the room
+    local_occurrence_note: Bellatrix uses Protego against Harry's Stunning Spell and sends the red jet back toward him.
+  nearby_context: The exchange happens while both combatants move around the damaged Fountain of Magical Brethren in the Atrium.
+  match_terms:
+  - Protego
+  - Stunning Spell
+  - Stupefy
+  - shield charm
+  - Bellatrix Lestrange
+  - duel
+  quote_excerpt_short: "his own Stunning Spell, bounced back at him"
+  source_note: In a live duel, Protego can rebound a Stunning Spell toward its caster rather than merely blocking it.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - protego
+  - shield-charm
+  - stunning-spell
+  - defensive-magic
+  - dueling
+  - bellatrix-lestrange
+  - ministry-of-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Shield Charm rebound in live combat
+  reason_for_placement: The scene provides concrete combat evidence for a defensive charm that Hogwarts students practice in the same book.
+  relevance_to_hogwarts_a_history: A later edition can connect D.A. defensive training to adult-level Ministry combat outcomes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned no prior match for Protego rebounding Stupefy in combat.
+  confidence: high
+  limitations: The passage does not state whether rebound is an inherent Protego effect or Bellatrix's superior casting.
+
+- id: ootp-ch36-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2351
+  printed_page: null
+  extracted_text_lines: 206-229; 321-329
+  text_anchor:
+    start_phrase: the headless golden statue
+    end_phrase: he grabbed a woman and Disapparated
+    local_occurrence_note: Dumbledore animates the Fountain statues to shield Harry, pin Bellatrix, fight Voldemort, and lead Fudge from the fireplaces.
+  nearby_context: Voldemort has appeared in the Atrium and cast a Killing Curse at Harry before Dumbledore enters the duel.
+  match_terms:
+  - Fountain of Magical Brethren
+  - animated statues
+  - Dumbledore
+  - Voldemort
+  - Atrium fireplaces
+  - Cornelius Fudge
+  quote_excerpt_short: "the other statues sprang to life too"
+  source_note: "Dumbledore turns the Ministry's Fountain of Magical Brethren into active combat and communication assets: statues shield Harry, pin Bellatrix, engage Voldemort, and bring Fudge from the fireplaces."
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - fountain-magical-brethren
+  - ministry-of-magic
+  - atrium
+  - animated-statues
+  - dumbledore
+  - voldemort
+  - protective-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Public Ideology and Non-Human Beings
+  candidate_section: Fountain animation and wartime destruction
+  reason_for_placement: The passage transforms an earlier static public monument into evidence for high-level magic and Ministry-witnessed wartime damage.
+  relevance_to_hogwarts_a_history: A later edition can contrast the Fountain's official symbolism with its practical role during Dumbledore and Voldemort's public confrontation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch07-003
+    notes: ootp-ch07-003 records the Atrium and Fountain as public architecture; this entry adds Dumbledore's animation of the same statues, their combat uses, and their destruction.
+  confidence: high
+  limitations: The magic is performed by Dumbledore in an emergency and may not reflect ordinary properties of the Fountain.
+
+- id: ootp-ch36-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2352
+  printed_page: null
+  extracted_text_lines: 252-281
+  text_anchor:
+    start_phrase: Another jet of green light
+    end_phrase: drenching the polished floor
+    local_occurrence_note: Fawkes intercepts a Killing Curse while Dumbledore counters Voldemort's serpent and water magic.
+  nearby_context: Dumbledore and Voldemort are dueling in the Atrium, with Voldemort using Killing Curses and Dumbledore using transfigured flame, vanished serpent, and animated water.
+  match_terms:
+  - Fawkes
+  - Killing Curse
+  - phoenix
+  - Dumbledore
+  - Voldemort
+  - duel
+  quote_excerpt_short: "swallowed the jet of green light whole"
+  source_note: Fawkes protects Dumbledore by swallowing a Killing Curse and immediately rebirths from flame, while Dumbledore counters Voldemort's snake and water-based attacks.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - fawkes
+  - phoenix
+  - killing-curse
+  - dumbledore
+  - voldemort
+  - advanced-magic
+  - second-war
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: Dumbledore, Voldemort, and Public Proof of Return
+  candidate_section: Phoenix intervention during the Ministry duel
+  reason_for_placement: The scene gives rare observed evidence of phoenix rebirth intersecting with one of the darkest known curses.
+  relevance_to_hogwarts_a_history: A later edition can connect Dumbledore's Hogwarts-associated phoenix to wartime protective magic and the public revelation of Voldemort's return.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch17-005
+    - gof-ch14-004
+    - ootp-ch27-007
+    notes: Prior entries establish Fawkes as Dumbledore's phoenix, the Killing Curse as normally unblockable, and Fawkes as an escape route; this entry adds Fawkes absorbing a Killing Curse and rebirthing during the Ministry duel.
+  confidence: high
+  limitations: The passage shows the event but does not explain whether any phoenix could survive this or whether Fawkes is exceptional.
+
+- id: ootp-ch36-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2353
+  printed_page: null
+  extracted_text_lines: 290-310
+  text_anchor:
+    start_phrase: Harry's scar burst open
+    end_phrase: the pain was gone
+    local_occurrence_note: Voldemort possesses or fuses with Harry's body and voice until Harry's grief and love for Sirius weaken the hold.
+  nearby_context: Dumbledore has ordered Harry to stay back after Voldemort disappears from the water cocoon in the Atrium.
+  match_terms:
+  - Voldemort
+  - possession
+  - Harry Potter
+  - scar
+  - Dumbledore
+  - Sirius Black
+  quote_excerpt_short: "it used Harry's mouth"
+  source_note: Voldemort can invade Harry's body or mind through their scar connection, but Harry's emotional attachment to Sirius disrupts the possession.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - voldemort
+  - possession
+  - harry-potter
+  - curse-scars
+  - sirius-black
+  - dumbledore
+  - second-war
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: Harry Potter and Voldemort's Return
+  candidate_section: Scar-linked possession and emotional resistance
+  reason_for_placement: The scene expands earlier scar-pain evidence into a direct wartime possession episode witnessed by Dumbledore.
+  relevance_to_hogwarts_a_history: A later edition can use this as context for Harry's unusual status at Hogwarts and the limits of Voldemort's connection to him.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch33-002
+    - gof-ch02-001
+    notes: gof-ch33-002 records Voldemort's prior possession of Quirrell, and gof-ch02-001 records Harry's scar link; this entry adds a direct possession attempt through Harry during the Ministry confrontation.
+  confidence: high
+  limitations: Harry's subjective experience supplies most of the detail, and the exact magical mechanism is not named.
+
+- id: ootp-ch36-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Six - The Only One He Ever Feared
+  chapter_start_pdf_page: 2345
+  chapter_end_pdf_page: 2357
+  pdf_page: 2355
+  printed_page: null
+  extracted_text_lines: 321-346; 351-396; 376-408
+  text_anchor:
+    start_phrase: The Atrium was full of people
+    end_phrase: he was flying forward
+    local_occurrence_note: Fudge and Aurors witness Voldemort's return, hear that Death Eaters are jinx-bound below, and object to Dumbledore's unauthorized Portkey before he sends Harry to Hogwarts.
+  nearby_context: The Ministry response follows the Atrium duel, with Bellatrix fleeing by Disapparition and Dumbledore taking command of the immediate school aftermath.
+  match_terms:
+  - Cornelius Fudge
+  - Aurors
+  - Death Chamber
+  - Anti-Disapparation Jinx
+  - Portkey authorization
+  - Dolores Umbridge
+  quote_excerpt_short: "bound by an Anti-Disapparation Jinx"
+  source_note: The Ministry finally witnesses Voldemort's return; Dumbledore has escaped Death Eaters contained in the Death Chamber, creates a disputed Portkey to send Harry back to Hogwarts, and compels Fudge to remove Umbridge and stop the search for Hagrid.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - cornelius-fudge
+  - aurors
+  - anti-disapparation
+  - portkey
+  - umbridge
+  - hagrid
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Intervention and Hogwarts Governance
+  candidate_section: Public proof, containment jinx, and emergency return to school
+  reason_for_placement: The aftermath ties Ministry acknowledgment of Voldemort's return to immediate consequences for Hogwarts administration and transport law.
+  relevance_to_hogwarts_a_history: A later edition can use this as the turning point ending the High Inquisitor's authority and restoring Dumbledore's practical control over school affairs.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch35-007
+    - ootp-ch22-003
+    - ootp-ch30-005
+    notes: ootp-ch35-007 records the Death Chamber and veil, ootp-ch22-003 records Dumbledore's earlier Portkey workaround, and ootp-ch30-005 records Hagrid's expected dismissal; this entry adds post-duel Anti-Disapparation containment, Fudge's direct Portkey objection, and orders to remove Umbridge and restore Hagrid.
+  confidence: high
+  limitations: The passage records Dumbledore's demanded orders before their implementation is shown at Hogwarts.

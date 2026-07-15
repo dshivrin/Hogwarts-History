@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-14'
+updated: '2026-07-15'
 tags:
   academic-assessment:
     entries:
@@ -106,6 +106,7 @@ tags:
     entries:
     - cos-ch10-002
     - ootp-ch08-003
+    - ootp-ch36-005
     - poa-ch08-005
     - poa-ch12-002
     - poa-ch21-006
@@ -115,6 +116,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   advanced-potions:
     entries:
     - cos-ch12-004
@@ -257,6 +259,11 @@ tags:
     - cos-ch12-004
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  animated-statues:
+    entries:
+    - ootp-ch36-004
+    output_yaml:
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   annual-customs:
     entries:
     - gof-ch12-003
@@ -295,6 +302,11 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+  anti-disapparation:
+    entries:
+    - ootp-ch36-007
+    output_yaml:
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   anti-muggle-pranks:
     entries:
     - ootp-ch07-006
@@ -455,9 +467,12 @@ tags:
     - ootp-ch07-002
     - ootp-ch07-003
     - ootp-ch34-002
+    - ootp-ch36-001
+    - ootp-ch36-004
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   auror:
     entries:
     - gof-ch19-006
@@ -487,10 +502,12 @@ tags:
     - gof-ch11-001
     - gof-ch27-007
     - ootp-ch23-007
+    - ootp-ch36-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   avada-kedavra:
     entries:
     - gof-ch14-005
@@ -713,9 +730,12 @@ tags:
     entries:
     - ootp-ch23-007
     - ootp-ch25-005
+    - ootp-ch36-002
+    - ootp-ch36-003
     output_yaml:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   bertha-jorkins:
     entries:
     - gof-ch01-003
@@ -1871,6 +1891,7 @@ tags:
     - ootp-ch05-006
     - ootp-ch09-001
     - ootp-ch10-005
+    - ootp-ch36-007
     - poa-ch16-002
     - poa-ch19-004
     output_yaml:
@@ -1883,6 +1904,7 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   cornish-pixies:
     entries:
     - cos-ch06-007
@@ -2180,12 +2202,14 @@ tags:
     - gof-ch34-002
     - ootp-ch23-007
     - ootp-ch32-007
+    - ootp-ch36-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   crystal-gazing:
     entries:
     - gof-ch21-005
@@ -2236,8 +2260,10 @@ tags:
     entries:
     - gof-ch02-001
     - gof-ch02-005
+    - ootp-ch36-006
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   curses:
     entries:
     - gof-ch14-001
@@ -2323,11 +2349,13 @@ tags:
     - gof-ch11-004
     - gof-ch13-007
     - gof-ch19-006
+    - ootp-ch36-002
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   dark-creatures:
     entries:
     - gof-ch14-001
@@ -2559,9 +2587,11 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
   defensive-magic:
     entries:
+    - ootp-ch36-003
     - poa-ch19-003
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   defensive-magical-theory:
     entries:
     - ootp-ch12-006
@@ -2693,6 +2723,7 @@ tags:
     - ootp-ch35-005
     - ootp-ch35-006
     - ootp-ch35-007
+    - ootp-ch36-001
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
@@ -2700,6 +2731,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   department-regulation-control-magical-creatures:
     entries:
     - ootp-ch33-003
@@ -3096,6 +3128,11 @@ tags:
     - ootp-ch08-004
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
+  dueling:
+    entries:
+    - ootp-ch36-003
+    output_yaml:
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   dueling-club:
     entries:
     - cos-ch11-003
@@ -3179,6 +3216,9 @@ tags:
     - ootp-ch28-001
     - ootp-ch28-006
     - ootp-ch31-002
+    - ootp-ch36-004
+    - ootp-ch36-005
+    - ootp-ch36-006
     - poa-ch04-007
     - poa-ch06-007
     - poa-ch08-007
@@ -3278,6 +3318,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -3869,11 +3910,13 @@ tags:
     - gof-ch36-003
     - ootp-ch22-003
     - ootp-ch27-007
+    - ootp-ch36-005
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   feast:
     entries:
     - cos-ch18-003
@@ -4402,9 +4445,11 @@ tags:
     entries:
     - ootp-ch07-003
     - ootp-ch09-002
+    - ootp-ch36-004
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   four-houses:
     entries:
     - cos-ch05-004
@@ -5249,6 +5294,7 @@ tags:
     - ootp-ch30-006
     - ootp-ch33-006
     - ootp-ch33-007
+    - ootp-ch36-007
     - poa-ch01-006
     - poa-ch05-007
     - poa-ch06-005
@@ -5320,6 +5366,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -5409,6 +5456,7 @@ tags:
     - ootp-ch15-007
     - ootp-ch34-007
     - ootp-ch35-001
+    - ootp-ch36-006
     - ps-ch01-003
     - ps-ch01-004
     - ps-ch01-005
@@ -5439,6 +5487,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -7257,9 +7306,11 @@ tags:
     entries:
     - gof-ch14-004
     - gof-ch32-002
+    - ootp-ch36-005
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   kings-cross:
     entries:
     - cos-ch04-001
@@ -7508,6 +7559,11 @@ tags:
     - ootp-ch31-007
     output_yaml:
     - sources/book-05/chapter-31-o-w-l-s.yaml
+  lifts:
+    entries:
+    - ootp-ch36-001
+    output_yaml:
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   lightning-scar:
     entries:
     - gof-ch02-001
@@ -7840,6 +7896,7 @@ tags:
     - ootp-ch28-001
     - ootp-ch34-003
     - ootp-ch34-005
+    - ootp-ch36-001
     - ps-ch07-001
     - ps-ch08-001
     output_yaml:
@@ -7864,6 +7921,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -8782,6 +8840,10 @@ tags:
     - ootp-ch32-007
     - ootp-ch34-001
     - ootp-ch34-002
+    - ootp-ch36-001
+    - ootp-ch36-003
+    - ootp-ch36-004
+    - ootp-ch36-007
     - poa-ch05-006
     - poa-ch07-002
     - poa-ch10-005
@@ -8831,6 +8893,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   ministry-posters:
     entries:
     - ootp-ch25-006
@@ -9256,8 +9319,10 @@ tags:
     entries:
     - ootp-ch34-003
     - ootp-ch34-004
+    - ootp-ch36-001
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   nearly-headless-nick:
     entries:
     - cos-ch08-001
@@ -10107,8 +10172,10 @@ tags:
   phoenix:
     entries:
     - cos-ch17-005
+    - ootp-ch36-005
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   phoenix-feather:
     entries:
     - gof-ch18-007
@@ -10261,6 +10328,7 @@ tags:
     - gof-ch35-001
     - gof-ch36-003
     - ootp-ch22-003
+    - ootp-ch36-007
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
@@ -10269,6 +10337,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   portkeys:
     entries:
     - gof-ch06-002
@@ -10338,9 +10407,11 @@ tags:
     entries:
     - cos-ch17-002
     - gof-ch33-002
+    - ootp-ch36-006
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   post-hogwarts-training:
     entries:
     - ootp-ch03-004
@@ -10940,6 +11011,7 @@ tags:
     - ootp-ch04-002
     - ootp-ch06-007
     - ootp-ch24-005
+    - ootp-ch36-004
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
@@ -10947,6 +11019,12 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-24-occlumency.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  protego:
+    entries:
+    - ootp-ch36-003
+    output_yaml:
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   public-accountability:
     entries:
     - gof-ch24-002
@@ -11536,8 +11614,10 @@ tags:
   rotating-room:
     entries:
     - ootp-ch34-003
+    - ootp-ch36-001
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   rule-breaking:
     entries:
     - poa-ch18-005
@@ -12098,12 +12178,16 @@ tags:
     - ootp-ch08-006
     - ootp-ch20-005
     - ootp-ch27-003
+    - ootp-ch36-002
+    - ootp-ch36-005
+    - ootp-ch36-006
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -12343,9 +12427,11 @@ tags:
     entries:
     - ootp-ch25-005
     - ootp-ch26-005
+    - ootp-ch36-003
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   shrieking-shack:
     entries:
     - ootp-ch17-007
@@ -12436,6 +12522,7 @@ tags:
     - ootp-ch32-002
     - ootp-ch34-006
     - ootp-ch35-007
+    - ootp-ch36-006
     - poa-ch04-007
     - poa-ch08-007
     - poa-ch10-006
@@ -12477,6 +12564,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -12738,6 +12826,11 @@ tags:
     - gof-ch09-006
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  spell-intent:
+    entries:
+    - ootp-ch36-002
+    output_yaml:
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   spellbooks:
     entries:
     - cos-ch01-002
@@ -13757,10 +13850,12 @@ tags:
     - gof-ch09-004
     - gof-ch29-004
     - ootp-ch21-006
+    - ootp-ch36-003
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   stunning-spells:
     entries:
     - gof-ch19-005
@@ -14604,6 +14699,7 @@ tags:
     - ootp-ch30-004
     - ootp-ch33-001
     - ootp-ch33-004
+    - ootp-ch36-007
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
@@ -14612,6 +14708,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   umbridge-office:
     entries:
     - ootp-ch29-005
@@ -14712,11 +14809,13 @@ tags:
     - gof-ch27-007
     - gof-ch34-002
     - ootp-ch32-007
+    - ootp-ch36-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   unicorn-blood:
     entries:
     - ps-ch15-007
@@ -14916,6 +15015,9 @@ tags:
     - ootp-ch15-007
     - ootp-ch20-005
     - ootp-ch35-001
+    - ootp-ch36-004
+    - ootp-ch36-005
+    - ootp-ch36-006
     - ps-ch01-002
     - ps-ch04-005
     - ps-ch05-006
@@ -14941,6 +15043,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   voldemort-denial:
     entries:
     - ootp-ch12-007
@@ -15352,11 +15455,13 @@ tags:
     - gof-ch14-003
     - gof-ch14-005
     - gof-ch30-003
+    - ootp-ch36-002
     - poa-ch21-003
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
   wizarding-politics:
     entries:
     - ootp-ch05-006

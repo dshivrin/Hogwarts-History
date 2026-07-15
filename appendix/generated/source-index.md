@@ -135,3 +135,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch33`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, pages 2290-2302, 7 entries, 0 explicit references.
 - `ootp-ch34`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, pages 2303-2319, 7 entries, 0 explicit references.
 - `ootp-ch35`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, pages 2320-2344, 7 entries, 0 explicit references.
+- `ootp-ch36`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, pages 2345-2357, 7 entries, 0 explicit references.
