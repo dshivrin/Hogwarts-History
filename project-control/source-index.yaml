@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-15'
+updated: '2026-07-16'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1574,3 +1574,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2358-2381.
+- source_unit_id: ootp-ch38
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter_number: 38
+  chapter_title: Chapter Thirty-Eight - The Second War Begins
+  page_start: 2382
+  page_end: 2406
+  output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  processed_at: '2026-07-16'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2382-2406.

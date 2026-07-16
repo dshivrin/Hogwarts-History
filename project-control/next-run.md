@@ -5,12 +5,12 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 ## Current Source Unit
 
 - Source file: `pdfs/harrypotter.pdf`
-- Book group: `book-05`
-- Book: `Harry Potter and the Order of the Phoenix`
-- Chapter: Chapter Thirty-Eight - The Second War Begins
-- Page range: 2382-2406
+- Book group: `book-06`
+- Book: `Harry Potter and the Half-Blood Prince`
+- Chapter: Chapter One - The Other Minister
+- Page range: 2415-2430
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-05/chapter-38-the-second-war-begins.yaml`
+- Output YAML: `sources/book-06/chapter-01-the-other-minister.yaml`
 
 ## Minimal Context
 

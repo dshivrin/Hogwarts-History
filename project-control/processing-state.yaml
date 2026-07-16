@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-05
   book: Harry Potter and the Order of the Phoenix
-  chapter_number: 37
-  chapter_title: Chapter Thirty-Seven - The Lost Prophecy
-  page_start: 2358
-  page_end: 2381
-  output_yaml: sources/book-05/chapter-37-the-lost-prophecy.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-05
-  book: Harry Potter and the Order of the Phoenix
   chapter_number: 38
   chapter_title: Chapter Thirty-Eight - The Second War Begins
   page_start: 2382
   page_end: 2406
   output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2415
   page_end: 2430
   output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 2
+  chapter_title: "Chapter Two - Spinner\u2019s End"
+  page_start: 2431
+  page_end: 2446
+  output_yaml: sources/book-06/chapter-02-spinner-s-end.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

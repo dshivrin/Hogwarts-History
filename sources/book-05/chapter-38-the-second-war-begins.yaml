@@ -1,0 +1,342 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  boundary_confidence: high
+  boundary_notes: Bounded pypdf extraction starts with the Chapter Thirty-Eight heading on PDF page 2382 and ends with the final King's Cross departure paragraph on PDF page 2406, immediately before the next book's title material begins.
+  processed_date: '2026-07-16'
+  processor_notes: "Extracted only the bounded current range from processing-state anchors; no full-PDF scan was used. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+- id: ootp-ch38-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2382
+  printed_page: null
+  extracted_text_lines: 5-37
+  text_anchor:
+    start_phrase: HE-WHO-MUST-NOT-BE-NAMED RETURNS
+    end_phrase: recruiting followers once more for a fresh attempt to seize power
+    local_occurrence_note: Hermione reads the Sunday Prophet's front-page report aloud in the hospital wing after the Ministry battle.
+  nearby_context: The article follows the Department of Mysteries confrontation and precedes the wounded students' discussion of press reversals and school recovery.
+  match_terms:
+  - Sunday Prophet
+  - Cornelius Fudge
+  - Voldemort
+  - dementors
+  - Ministry of Magic
+  - Dumbledore reinstated
+  - home defense guides
+  quote_excerpt_short: "guides to elementary home and personal defense"
+  source_note: The Ministry publicly confirms Voldemort's return, reports that Azkaban's dementors have revolted from Ministry service, promises home defense guidance, and the press notes Dumbledore's restoration to Hogwarts and wider offices.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - sunday-prophet
+  - ministry-of-magic
+  - voldemort-return
+  - dementors
+  - azkaban
+  - dumbledore
+  - wartime-defense
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts Information Climate
+  candidate_section: Ministry acknowledgement and Dumbledore's reinstatement
+  reason_for_placement: The article supplies the public institutional pivot from denial to wartime preparation and links it directly to Hogwarts governance through Dumbledore's reinstatement.
+  relevance_to_hogwarts_a_history: A later edition can use this as a dated public marker for the Second War's acknowledged beginning and for Dumbledore's restoration after the Umbridge year.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found general Voldemort and dementor references, but no prior entry for the Ministry's public reversal, dementor revolt, home-defense circulars, and Dumbledore's simultaneous reinstatements.
+  confidence: high
+  limitations: The article says details are hazy and does not reproduce the full Ministry defense guide or formal reinstatement orders.
+
+- id: ootp-ch38-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2385
+  printed_page: null
+  extracted_text_lines: 95-115; 367-377
+  text_anchor:
+    start_phrase: Well, Flitwick's got rid of Fred and George's swamp
+    end_phrase: because Peeves had borrowed her walking stick
+    local_occurrence_note: Students first report the swamp's partial preservation in the hospital wing; later the narrative recounts Umbridge's final exit from the school.
+  nearby_context: Dumbledore has returned, school trouble has settled, and Umbridge remains shocked in the hospital wing before leaving the castle just before term ends.
+  match_terms:
+  - Flitwick
+  - portable swamp
+  - Fred and George
+  - Umbridge
+  - Peeves
+  - Heads of Houses
+  - post-Umbridge
+  quote_excerpt_short: "a monument to Fred and George"
+  source_note: After Dumbledore's return, Flitwick removes most of the portable swamp but preserves a small roped-off patch as admired magic, while Umbridge is later chased from Hogwarts by Peeves with only halfhearted restraint from staff.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - portable-swamp
+  - flitwick
+  - fred-george
+  - school-legend
+  - staff-resistance
+  - peeves
+  - umbridge
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Discipline, Punishment, and Caretaking
+  candidate_section: Portable swamp memorial and Umbridge's departure
+  reason_for_placement: The passage shows an act of resistance being partially incorporated into the castle's remembered space and records the staff's informal reaction to Umbridge's removal.
+  relevance_to_hogwarts_a_history: A later edition can treat the swamp remnant and Peeves's escort as institutional memory of the Umbridge year and its collapse.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-001
+    - ootp-ch30-002
+    notes: ootp-ch30-001 records the swamp's persistence as staff noncooperation, and ootp-ch30-002 records wider anti-Umbridge sabotage; this entry adds Flitwick's deliberate memorial patch and Umbridge's final departure.
+  confidence: high
+  limitations: The swamp-as-monument explanation is Ron's interpretation, though Ginny reports Flitwick's stated admiration for the magic.
+
+- id: ootp-ch38-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2386
+  printed_page: null
+  extracted_text_lines: 137-146
+  text_anchor:
+    start_phrase: who's Divination teacher now
+    end_phrase: there are real prophecies
+    local_occurrence_note: Hermione asks whether Firenze is staying, and Ginny reports that he and Trelawney both appear to be teaching Divination.
+  nearby_context: The students are recovering in the hospital wing and discussing the post-Umbridge state of the school.
+  match_terms:
+  - Divination
+  - Firenze
+  - Trelawney
+  - centaurs
+  - prophecies
+  - teacher staffing
+  quote_excerpt_short: "both going to teach"
+  source_note: After Trelawney's return and Firenze's banishment from the centaur herd, Hogwarts appears to retain both as Divination teachers.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - divination
+  - firenze
+  - sybill-trelawney
+  - centaurs
+  - teacher-appointments
+  - prophecy
+  - curriculum
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Divination, Prophecy, and School Testimony
+  candidate_section: Dual Divination staffing after Firenze's appointment
+  reason_for_placement: The passage clarifies the longer-term outcome of Dumbledore's emergency Firenze appointment and Trelawney's protected castle residence.
+  relevance_to_hogwarts_a_history: This helps a later edition explain how an intervention meant to replace Trelawney instead left Hogwarts with two Divination instructors.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch26-007
+    - ootp-ch27-001
+    notes: ootp-ch26-007 records Dumbledore's appointment of Firenze, and ootp-ch27-001 records Firenze's adapted classroom; this entry adds the post-crisis indication that Firenze and Trelawney both continue teaching.
+  confidence: medium
+  limitations: Ginny phrases the staffing as "looks like," so the entry records a near-term student report rather than an official timetable.
+
+- id: ootp-ch38-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2389
+  printed_page: null
+  extracted_text_lines: 220-253
+  text_anchor:
+    start_phrase: Ah. I see there are no longer any points left
+    end_phrase: leaving a respectable amount below nevertheless
+    local_occurrence_note: Snape tries to deduct points, McGonagall awards points for the Ministry warning, and the hourglasses visibly adjust.
+  nearby_context: McGonagall has returned from St. Mungo's, interrupts Snape and Malfoy in the entrance hall, and publicly credits the students' role in alerting the world.
+  match_terms:
+  - house points
+  - hourglasses
+  - McGonagall
+  - Snape
+  - Gryffindor
+  - Ravenclaw
+  - Ministry battle
+  quote_excerpt_short: "fifty points apiece"
+  source_note: McGonagall awards fifty points each to Harry, the Weasleys, Longbottom, Granger, and Lovegood for alerting the world to Voldemort's return, causing rubies and sapphires to fall in the House hourglasses before Snape's deduction removes a few rubies.
+  reference_type: house_system
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-points
+  - hourglasses
+  - mcgonagall
+  - snape
+  - gryffindor
+  - ravenclaw
+  - voldemort-return
+  candidate_part: Student Life and House Culture
+  candidate_chapter: The House System
+  candidate_section: Wartime recognition through House points
+  reason_for_placement: The scene shows House points used not only for classroom or disciplinary matters but also to recognize public service during a national crisis.
+  relevance_to_hogwarts_a_history: This can expand a House-system chapter with an example of the point hourglasses responding to major historical events beyond ordinary school conduct.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch15-002
+    - cos-ch18-003
+    notes: ps-ch15-002 records hourglasses and major deductions, while cos-ch18-003 records large crisis-related awards; this entry adds cross-House recognition for the Department of Mysteries witnesses during the Second War.
+  confidence: high
+  limitations: The passage does not say whether the award affects the final House Cup result.
+
+- id: ootp-ch38-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2394
+  printed_page: null
+  extracted_text_lines: 389-407
+  text_anchor:
+    start_phrase: Sirius had given it to him
+    end_phrase: James and I used to use them when we were in separate detentions
+    local_occurrence_note: Harry unwraps Sirius's package and reads the explanatory note on the reverse side of the mirror.
+  nearby_context: Harry is alone in the Gryffindor dormitory while avoiding the end-of-term feast and hoping to contact Sirius after his death.
+  match_terms:
+  - two-way mirror
+  - Sirius Black
+  - James Potter
+  - detentions
+  - Gryffindor dormitory
+  - magical communication
+  quote_excerpt_short: "used to use them when we were in separate detentions"
+  source_note: Sirius's note identifies a pair of two-way mirrors that James and Sirius used while in separate Hogwarts detentions, preserving Marauders-era evidence for covert student communication under discipline.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - two-way-mirror
+  - sirius-black
+  - james-potter
+  - marauders
+  - detentions
+  - magical-communication
+  - student-discipline
+  candidate_part: Student Life and School Culture
+  candidate_chapter: Student Communication, Pranks, and Discipline
+  candidate_section: Two-way mirrors and detention-era communication
+  reason_for_placement: The object links a concrete magical communication device to Hogwarts discipline and student behavior in the generation before Harry.
+  relevance_to_hogwarts_a_history: This can seed a historical aside on illicit or semi-private student communication tools and Marauders-era disciplinary culture.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found Marauders and mirror-adjacent entries, but no prior entry for the two-way mirror pair or its use during separate detentions.
+  confidence: high
+  limitations: The evidence comes from Sirius's note and does not explain who made the mirrors, how common they were, or whether staff knew of them.
+
+- id: ootp-ch38-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2396
+  printed_page: null
+  extracted_text_lines: 441-529
+  text_anchor:
+    start_phrase: How could it be that the place was full of ghosts
+    end_phrase: learned wizards study the matter in the Department of Mysteries
+    local_occurrence_note: Harry searches the empty castle for a ghost and questions Nearly Headless Nick in a classroom about death and return.
+  nearby_context: The conversation follows Harry's failed attempt to use Sirius's mirror and precedes Luna's later comments about the veil.
+  match_terms:
+  - ghosts
+  - Nearly Headless Nick
+  - death
+  - wizards
+  - Department of Mysteries
+  - afterlife
+  - Hogwarts
+  quote_excerpt_short: "Wizards can leave an imprint"
+  source_note: Nearly Headless Nick says only wizards can return as ghosts, very few choose that path, ghosts are an imprint rather than true life, and deeper secrets of death are studied by learned wizards in the Department of Mysteries.
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  topic_tags:
+  - ghosts
+  - nearly-headless-nick
+  - death
+  - afterlife
+  - department-of-mysteries
+  - magical-theory
+  - hogwarts-residents
+  candidate_part: Ghosts, Portraits, and Magical Residents
+  candidate_chapter: Resident Ghosts and Poltergeists
+  candidate_section: Ghostly return, choice, and limits
+  reason_for_placement: The exchange gives the clearest resident-ghost explanation of who can become a ghost and why ghostly existence is not equivalent to full return from death.
+  relevance_to_hogwarts_a_history: A ghost chapter can use this as direct testimony from a Hogwarts resident ghost, with a cross-reference to Ministry research on death.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch08-001
+    - cos-ch08-005
+    notes: cos-ch08-001 and cos-ch08-005 record Nick's ghost identity, deathday, and ghost society; this entry adds his explanation of ghostly choice, limits, and the Department of Mysteries connection.
+  confidence: high
+  limitations: Nick explicitly says he cannot answer the deepest questions about death because he chose a ghostly imitation of life.
+
+- id: ootp-ch38-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Eight - The Second War Begins
+  chapter_start_pdf_page: 2382
+  chapter_end_pdf_page: 2406
+  pdf_page: 2400
+  printed_page: null
+  extracted_text_lines: 602-614
+  text_anchor:
+    start_phrase: The journey home on the Hogwarts Express next day
+    end_phrase: left them there to ooze
+    local_occurrence_note: Malfoy, Crabbe, and Goyle ambush Harry outside a train compartment full of D.A. members, who immediately intervene.
+  nearby_context: The students are returning home after the end of term, and the attack occurs away from teacher witnesses on the Hogwarts Express.
+  match_terms:
+  - Hogwarts Express
+  - Dumbledore's Army
+  - hexes
+  - jinxes
+  - practical Defense
+  - Malfoy
+  - student-led instruction
+  quote_excerpt_short: "a wide variety of the hexes and jinxes"
+  source_note: D.A. members use the practical hexes and jinxes Harry taught them to stop an attempted train ambush, showing student-led Defense training producing usable collective defensive skill outside the classroom.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledores-army
+  - practical-defense
+  - hexes
+  - jinxes
+  - hogwarts-express
+  - student-led-instruction
+  - school-travel
+  candidate_part: Defense, Mind Magic, and the Umbridge Year
+  candidate_chapter: Dumbledore's Army and Practical Defense
+  candidate_section: Applied D.A. skills on the Hogwarts Express
+  reason_for_placement: The passage demonstrates that the unofficial curriculum had measurable practical effect by the end of term.
+  relevance_to_hogwarts_a_history: A later edition can cite this as evidence that the D.A. changed student defensive capacity despite the official theory-only Defense regime.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch18-007
+    - ootp-ch21-006
+    - ootp-ch25-005
+    notes: ootp-ch18-007 records the D.A.'s founding, ootp-ch21-006 records spell progression, and ootp-ch25-005 records Shield Charm practice; this entry adds end-of-year applied use by multiple members on the train.
+  confidence: high
+  limitations: The passage names the defending students and describes the effects, but not the exact spells each student used.

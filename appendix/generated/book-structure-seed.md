@@ -301,6 +301,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Defense, Mind Magic, and the Umbridge Year
 
+- Dumbledore's Army and Practical Defense
+  - Applied D.A. skills on the Hogwarts Express
 - Private Occlumency Instruction
   - Shield Charm reversal and Pensieve safeguards
 
@@ -339,6 +341,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Portraits, Passwords, and Residential Access
   - Portrait Social Life and Access Control
 - Resident Ghosts and Poltergeists
+  - Ghostly return, choice, and limits
   - House Ghosts, Bathroom Hauntings, and Deathday Customs
   - Nearly Headless Nick and Ghost Society
   - Peeves the Poltergeist
@@ -424,7 +427,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Decree Twenty-nine and caretaker enforcement
   - Portable Swamp, whipping approval, and student departure
   - Portable swamp aftermath and staff noncooperation
+  - Portable swamp memorial and Umbridge's departure
 - Divination, Prophecy, and School Testimony
+  - Dual Divination staffing after Firenze's appointment
   - Ministry custody and access hazards for prophecy records
   - Ministry custody of prophecy records
   - Physical prophecy records in the Department of Mysteries
@@ -568,6 +573,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts Information Climate
   - Alternative press and Harry's Quibbler interview
   - Alternative press reaches Hogwarts by owl post
+  - Ministry acknowledgement and Dumbledore's reinstatement
   - Student and staff workarounds under information control
   - The Azkaban breakout reaches the Great Hall
 - The Second War and Hogwarts-Connected Families
@@ -1108,6 +1114,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Quidditch, Cups, and House Rivalry
   - Gryffindor's 1996 Cup victory and song reversal
+- The House System
+  - Wartime recognition through House points
+
+## Student Life and School Culture
+
+- Student Communication, Pranks, and Discipline
+  - Two-way mirrors and detention-era communication
 
 ## Student Life and School Customs
 

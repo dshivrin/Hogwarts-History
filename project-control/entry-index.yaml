@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-15'
+updated: '2026-07-16'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -12808,6 +12808,116 @@ by_entry:
     - voldemort
     source_unit: ootp-ch37
     output_yaml: sources/book-05/chapter-37-the-lost-prophecy.yaml
+  ootp-ch38-001:
+    title: 'The Second War and Hogwarts Information Climate: Ministry acknowledgement
+      and Dumbledore''s reinstatement'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - azkaban
+    - dementors
+    - dumbledore
+    - ministry-of-magic
+    - sunday-prophet
+    - voldemort-return
+    - wartime-defense
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  ootp-ch38-002:
+    title: 'Discipline, Punishment, and Caretaking: Portable swamp memorial and Umbridge''s
+      departure'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - flitwick
+    - fred-george
+    - peeves
+    - portable-swamp
+    - school-legend
+    - staff-resistance
+    - umbridge
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  ootp-ch38-003:
+    title: 'Divination, Prophecy, and School Testimony: Dual Divination staffing after
+      Firenze''s appointment'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - centaurs
+    - curriculum
+    - divination
+    - firenze
+    - prophecy
+    - sybill-trelawney
+    - teacher-appointments
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  ootp-ch38-004:
+    title: 'The House System: Wartime recognition through House points'
+    classification: later_editorial_note
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gryffindor
+    - hourglasses
+    - house-points
+    - mcgonagall
+    - ravenclaw
+    - snape
+    - voldemort-return
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  ootp-ch38-005:
+    title: 'Student Communication, Pranks, and Discipline: Two-way mirrors and detention-era
+      communication'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - detentions
+    - james-potter
+    - magical-communication
+    - marauders
+    - sirius-black
+    - student-discipline
+    - two-way-mirror
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  ootp-ch38-006:
+    title: 'Resident Ghosts and Poltergeists: Ghostly return, choice, and limits'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - afterlife
+    - death
+    - department-of-mysteries
+    - ghosts
+    - hogwarts-residents
+    - magical-theory
+    - nearly-headless-nick
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  ootp-ch38-007:
+    title: 'Dumbledore''s Army and Practical Defense: Applied D.A. skills on the Hogwarts
+      Express'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - dumbledores-army
+    - hexes
+    - hogwarts-express
+    - jinxes
+    - practical-defense
+    - school-travel
+    - student-led-instruction
+    source_unit: ootp-ch38
+    output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -12866,6 +12976,8 @@ by_tag:
   - poa-ch21-006
   advanced-potions:
   - cos-ch12-004
+  afterlife:
+  - ootp-ch38-006
   age-line:
   - gof-ch16-003
   - gof-ch16-004
@@ -13057,6 +13169,7 @@ by_tag:
   - ootp-ch08-006
   - ootp-ch14-003
   - ootp-ch25-001
+  - ootp-ch38-001
   - poa-ch05-004
   - poa-ch19-004
   - poa-ch19-007
@@ -13464,6 +13577,7 @@ by_tag:
   - ootp-ch33-004
   - ootp-ch33-005
   - ootp-ch33-006
+  - ootp-ch38-003
   - ps-ch15-006
   ceremonial-duty:
   - gof-ch22-002
@@ -13841,6 +13955,7 @@ by_tag:
   - gof-ch29-002
   - gof-ch36-005
   - ootp-ch27-003
+  - ootp-ch38-003
   - ps-ch05-004
   - ps-ch08-004
   - ps-ch08-005
@@ -13921,6 +14036,8 @@ by_tag:
   - gof-ch11-001
   davey-gudgeon:
   - poa-ch10-002
+  death:
+  - ootp-ch38-006
   death-chamber:
   - ootp-ch34-005
   - ootp-ch35-007
@@ -14043,6 +14160,7 @@ by_tag:
   - ootp-ch08-006
   - ootp-ch25-001
   - ootp-ch25-006
+  - ootp-ch38-001
   - poa-ch04-007
   - poa-ch05-004
   - poa-ch05-006
@@ -14092,6 +14210,7 @@ by_tag:
   - ootp-ch35-007
   - ootp-ch36-001
   - ootp-ch37-003
+  - ootp-ch38-006
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -14116,6 +14235,8 @@ by_tag:
   - ps-ch14-007
   - ps-ch15-002
   - ps-ch15-004
+  detentions:
+  - ootp-ch38-005
   devil's-snare:
   - ps-ch16-005
   devil-snare:
@@ -14184,6 +14305,7 @@ by_tag:
   - ootp-ch27-001
   - ootp-ch27-003
   - ootp-ch37-006
+  - ootp-ch38-003
   - poa-ch04-003
   - poa-ch06-001
   - poa-ch06-003
@@ -14366,6 +14488,7 @@ by_tag:
   - ootp-ch37-002
   - ootp-ch37-005
   - ootp-ch37-006
+  - ootp-ch38-001
   - poa-ch04-007
   - poa-ch06-007
   - poa-ch08-007
@@ -14420,6 +14543,7 @@ by_tag:
   - ootp-ch27-004
   - ootp-ch27-005
   - ootp-ch27-006
+  - ootp-ch38-007
   dungeon-classroom:
   - cos-ch11-002
   - gof-ch18-004
@@ -14755,6 +14879,7 @@ by_tag:
   - ootp-ch27-003
   - ootp-ch30-007
   - ootp-ch33-005
+  - ootp-ch38-003
   - ps-ch15-007
   fireplace-communication:
   - gof-ch19-007
@@ -14816,6 +14941,7 @@ by_tag:
   - ootp-ch16-003
   - ootp-ch28-005
   - ootp-ch28-007
+  - ootp-ch38-002
   - ps-ch10-001
   - ps-ch12-003
   flitwick-office:
@@ -14966,6 +15092,7 @@ by_tag:
   fred-george:
   - ootp-ch29-007
   - ootp-ch30-001
+  - ootp-ch38-002
   free-will:
   - gof-ch14-003
   freedom:
@@ -15011,6 +15138,7 @@ by_tag:
   - cos-ch08-005
   - gof-ch25-004
   - ootp-ch11-004
+  - ootp-ch38-006
   - poa-ch08-006
   - poa-ch09-002
   - ps-ch08-002
@@ -15235,6 +15363,7 @@ by_tag:
   - ootp-ch19-004
   - ootp-ch19-005
   - ootp-ch30-003
+  - ootp-ch38-004
   - poa-ch12-004
   - poa-ch13-003
   - poa-ch15-005
@@ -15615,6 +15744,7 @@ by_tag:
   - ps-ch07-001
   hexes:
   - ootp-ch23-004
+  - ootp-ch38-007
   hidden-agent:
   - gof-ch01-004
   - gof-ch33-001
@@ -15768,6 +15898,7 @@ by_tag:
   - gof-ch11-002
   - ootp-ch10-002
   - ootp-ch10-003
+  - ootp-ch38-007
   - poa-ch01-005
   - poa-ch05-001
   - poa-ch05-003
@@ -15834,6 +15965,8 @@ by_tag:
   - gof-ch02-004
   hogwarts-messages:
   - cos-ch01-003
+  hogwarts-residents:
+  - ootp-ch38-006
   hogwarts-return:
   - poa-ch19-004
   hogwarts-robes:
@@ -15946,6 +16079,7 @@ by_tag:
   - gof-ch26-007
   - gof-ch27-001
   hourglasses:
+  - ootp-ch38-004
   - ps-ch15-002
   house-assignment:
   - ps-ch05-005
@@ -16030,6 +16164,7 @@ by_tag:
   - ootp-ch15-004
   - ootp-ch26-003
   - ootp-ch28-002
+  - ootp-ch38-004
   - poa-ch07-001
   - poa-ch07-007
   - poa-ch09-005
@@ -16241,6 +16376,7 @@ by_tag:
   - ootp-ch24-007
   james-potter:
   - ootp-ch29-006
+  - ootp-ch38-005
   - poa-ch10-006
   - poa-ch18-005
   - poa-ch18-007
@@ -16253,6 +16389,7 @@ by_tag:
   - poa-ch05-003
   jinxes:
   - ootp-ch25-005
+  - ootp-ch38-007
   - poa-ch11-007
   joke-products:
   - gof-ch05-002
@@ -16614,6 +16751,7 @@ by_tag:
   - ootp-ch29-003
   magical-communication:
   - ootp-ch23-002
+  - ootp-ch38-005
   magical-community:
   - ps-ch02-006
   magical-concealment:
@@ -16767,6 +16905,8 @@ by_tag:
   - poa-ch17-004
   magical-table-service:
   - gof-ch23-003
+  magical-theory:
+  - ootp-ch38-006
   magical-transport:
   - gof-ch04-004
   - poa-ch03-002
@@ -16812,6 +16952,7 @@ by_tag:
   - ootp-ch09-006
   - ootp-ch17-007
   - ootp-ch29-006
+  - ootp-ch38-005
   - poa-ch18-005
   marauders-era:
   - ootp-ch28-007
@@ -16867,6 +17008,7 @@ by_tag:
   - gof-ch35-004
   mcgonagall:
   - ootp-ch28-005
+  - ootp-ch38-004
   - poa-ch11-007
   - ps-ch09-003
   - ps-ch10-005
@@ -17043,6 +17185,7 @@ by_tag:
   - ootp-ch36-004
   - ootp-ch36-007
   - ootp-ch37-003
+  - ootp-ch38-001
   - poa-ch05-006
   - poa-ch07-002
   - poa-ch10-005
@@ -17243,6 +17386,7 @@ by_tag:
   - cos-ch08-005
   - cos-ch11-006
   - ootp-ch11-004
+  - ootp-ch38-006
   - poa-ch08-006
   - poa-ch14-005
   - ps-ch08-002
@@ -17570,6 +17714,7 @@ by_tag:
   - ootp-ch28-003
   - ootp-ch29-007
   - ootp-ch30-002
+  - ootp-ch38-002
   - poa-ch07-005
   - poa-ch08-007
   - poa-ch10-003
@@ -17705,6 +17850,7 @@ by_tag:
   portable-swamp:
   - ootp-ch29-007
   - ootp-ch30-001
+  - ootp-ch38-002
   portkey:
   - gof-ch31-007
   - gof-ch32-001
@@ -17792,6 +17938,7 @@ by_tag:
   - ootp-ch21-006
   - ootp-ch23-004
   - ootp-ch25-005
+  - ootp-ch38-007
   practical-exam:
   - ootp-ch31-005
   practical-examination:
@@ -18032,6 +18179,7 @@ by_tag:
   - ootp-ch37-003
   - ootp-ch37-006
   - ootp-ch37-007
+  - ootp-ch38-003
   - poa-ch16-005
   protean-charm:
   - ootp-ch19-001
@@ -18219,6 +18367,7 @@ by_tag:
   - ootp-ch10-003
   - ootp-ch19-002
   - ootp-ch30-003
+  - ootp-ch38-004
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
@@ -18438,6 +18587,7 @@ by_tag:
   - ootp-ch29-006
   school-legend:
   - ootp-ch30-001
+  - ootp-ch38-002
   school-letter:
   - poa-ch01-004
   school-letters:
@@ -18545,6 +18695,7 @@ by_tag:
   - gof-ch11-002
   - gof-ch11-006
   - ootp-ch10-001
+  - ootp-ch38-007
   - poa-ch05-001
   - ps-ch06-001
   school-unity:
@@ -18742,6 +18893,7 @@ by_tag:
   - ootp-ch34-006
   - ootp-ch35-007
   - ootp-ch36-006
+  - ootp-ch38-005
   - poa-ch04-007
   - poa-ch08-007
   - poa-ch10-006
@@ -18817,6 +18969,7 @@ by_tag:
   - gof-ch30-004
   - ootp-ch04-005
   - ootp-ch15-002
+  - ootp-ch38-004
   - poa-ch07-001
   - poa-ch08-005
   - ps-ch08-006
@@ -18992,6 +19145,7 @@ by_tag:
   staff-resistance:
   - ootp-ch30-001
   - ootp-ch30-002
+  - ootp-ch38-002
   staff-response:
   - cos-ch11-006
   - gof-ch35-005
@@ -19119,6 +19273,7 @@ by_tag:
   - ootp-ch19-007
   - ootp-ch28-002
   - ootp-ch32-006
+  - ootp-ch38-005
   - poa-ch19-002
   - poa-ch19-003
   - ps-ch13-003
@@ -19158,6 +19313,7 @@ by_tag:
   - ootp-ch18-007
   - ootp-ch21-006
   - ootp-ch25-005
+  - ootp-ch38-007
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -19366,6 +19522,8 @@ by_tag:
   summoning-charm:
   - gof-ch06-003
   - gof-ch20-004
+  sunday-prophet:
+  - ootp-ch38-001
   supervised-training:
   - poa-ch09-006
   supply-district:
@@ -19387,6 +19545,7 @@ by_tag:
   - cos-ch17-005
   sybill-trelawney:
   - ootp-ch37-006
+  - ootp-ch38-003
   tallest-tower:
   - ps-ch14-006
   tampering:
@@ -19409,6 +19568,7 @@ by_tag:
   - ootp-ch09-004
   - ootp-ch11-002
   - ootp-ch26-007
+  - ootp-ch38-003
   - poa-ch05-003
   teacher-authority:
   - ootp-ch20-006
@@ -19720,6 +19880,8 @@ by_tag:
   - gof-ch37-004
   two-champions:
   - gof-ch17-002
+  two-way-mirror:
+  - ootp-ch38-005
   umbridge:
   - ootp-ch16-003
   - ootp-ch16-004
@@ -19732,6 +19894,7 @@ by_tag:
   - ootp-ch33-001
   - ootp-ch33-004
   - ootp-ch36-007
+  - ootp-ch38-002
   umbridge-office:
   - ootp-ch29-005
   - ootp-ch32-002
@@ -19900,6 +20063,8 @@ by_tag:
   voldemort-return:
   - ootp-ch01-001
   - ootp-ch16-004
+  - ootp-ch38-001
+  - ootp-ch38-004
   wages:
   - gof-ch16-006
   - gof-ch19-002
@@ -19952,6 +20117,8 @@ by_tag:
   - ps-ch05-007
   warlocks-convention-1709:
   - ps-ch14-002
+  wartime-defense:
+  - ootp-ch38-001
   wartime-security:
   - ootp-ch09-003
   weasley-family:

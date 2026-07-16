@@ -267,7 +267,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
   - number: 5
-    title: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+    title: Chapter Five - Weasleys’ Wizard Wheezes
     status: complete
     output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
   - number: 6
@@ -343,7 +343,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-23-the-yule-ball.yaml
   - number: 24
-    title: "Chapter Twenty-Four - Rita Skeeter\u2019s Scoop"
+    title: Chapter Twenty-Four - Rita Skeeter’s Scoop
     status: complete
     output_file: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   - number: 25
@@ -552,5 +552,13 @@ sources:
     output_file: sources/book-05/chapter-37-the-lost-prophecy.yaml
   - number: 38
     title: Chapter Thirty-Eight - The Second War Begins
-    status: pending
+    status: complete
     output_file: sources/book-05/chapter-38-the-second-war-begins.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapters:
+  - number: 1
+    title: Chapter One - The Other Minister
+    status: pending
+    output_file: sources/book-06/chapter-01-the-other-minister.yaml
