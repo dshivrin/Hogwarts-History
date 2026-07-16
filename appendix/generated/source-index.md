@@ -138,3 +138,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch36`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, pages 2345-2357, 7 entries, 0 explicit references.
 - `ootp-ch37`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, pages 2358-2381, 7 entries, 0 explicit references.
 - `ootp-ch38`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Eight - The Second War Begins, pages 2382-2406, 7 entries, 0 explicit references.
+- `hbp-ch01`: Harry Potter and the Half-Blood Prince, Chapter One - The Other Minister, pages 2415-2430, 7 entries, 0 explicit references.

@@ -267,7 +267,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
   - number: 5
-    title: Chapter Five - Weasleys’ Wizard Wheezes
+    title: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
     status: complete
     output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
   - number: 6
@@ -343,7 +343,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-23-the-yule-ball.yaml
   - number: 24
-    title: Chapter Twenty-Four - Rita Skeeter’s Scoop
+    title: "Chapter Twenty-Four - Rita Skeeter\u2019s Scoop"
     status: complete
     output_file: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   - number: 25
@@ -560,5 +560,9 @@ sources:
   chapters:
   - number: 1
     title: Chapter One - The Other Minister
-    status: pending
+    status: complete
     output_file: sources/book-06/chapter-01-the-other-minister.yaml
+  - number: 2
+    title: Chapter Two - Spinner's End
+    status: pending
+    output_file: sources/book-06/chapter-02-spinner-s-end.yaml

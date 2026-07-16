@@ -12918,6 +12918,114 @@ by_entry:
     - student-led-instruction
     source_unit: ootp-ch38
     output_yaml: sources/book-05/chapter-38-the-second-war-begins.yaml
+  hbp-ch01-001:
+    title: 'Ministry Relations With the Muggle Government: Prime Minister notification
+      and portrait contact'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - floo
+    - intergovernmental-protocol
+    - magical-portraits
+    - minister-of-magic
+    - muggle-government
+    - statute-of-secrecy
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  hbp-ch01-002:
+    title: 'Ministry Authority Beyond Hogwarts: Secrecy, broomstick rules, and creature
+      control'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broomsticks
+    - dragons
+    - magical-creatures
+    - magical-law
+    - ministry-of-magic
+    - statute-of-secrecy
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  hbp-ch01-003:
+    title: 'Ministry Relations With the Muggle Government: Mandatory briefings about
+      magical incidents'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - azkaban
+    - dangerous-creatures
+    - memory-modification
+    - muggle-liaison
+    - quidditch-world-cup
+    - triwizard-tournament
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  hbp-ch01-004:
+    title: 'The Second War and Muggle-Facing Secrecy: Public disasters, Auror response,
+      and memory repair'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - aurors
+    - death-eaters
+    - giants
+    - muggle-disasters
+    - obliviators
+    - office-of-misinformation
+    - second-war
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  hbp-ch01-005:
+    title: 'The Second War and Ministry Casualties: Amelia Bones''s murder and Muggle
+      ignorance'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - amelia-bones
+    - locked-room
+    - magical-law-enforcement
+    - muggle-police
+    - second-war
+    - voldemort
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  hbp-ch01-006:
+    title: 'The Second War and Muggle-Facing Secrecy: Dementor revolt, breeding, and
+      public despair'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - azkaban
+    - dementors
+    - magical-creatures
+    - mist
+    - muggle-effects
+    - second-war
+    - voldemort
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  hbp-ch01-007:
+    title: 'Ministry Relations With the Muggle Government: Scrimgeour succession and
+      Prime Minister protection'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - aurors
+    - cornelius-fudge
+    - imperius-curse
+    - kingsley-shacklebolt
+    - muggle-government
+    - rufus-scrimgeour
+    - st-mungos
+    source_unit: hbp-ch01
+    output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13013,6 +13121,7 @@ by_tag:
   alumni-memory:
   - gof-ch31-001
   amelia-bones:
+  - hbp-ch01-005
   - ootp-ch07-001
   - ootp-ch08-003
   ancient-creature:
@@ -13150,6 +13259,8 @@ by_tag:
   aurors:
   - gof-ch11-001
   - gof-ch27-007
+  - hbp-ch01-004
+  - hbp-ch01-007
   - ootp-ch23-007
   - ootp-ch36-007
   avada-kedavra:
@@ -13164,6 +13275,8 @@ by_tag:
   - gof-ch27-007
   - gof-ch30-003
   - gof-ch30-006
+  - hbp-ch01-003
+  - hbp-ch01-006
   - ootp-ch02-004
   - ootp-ch08-001
   - ootp-ch08-006
@@ -13388,6 +13501,7 @@ by_tag:
   - poa-ch13-002
   broomsticks:
   - cos-ch07-002
+  - hbp-ch01-002
   - ootp-ch19-007
   - poa-ch01-007
   - poa-ch11-007
@@ -13800,6 +13914,7 @@ by_tag:
   - gof-ch36-001
   - gof-ch36-004
   - gof-ch36-005
+  - hbp-ch01-007
   - ootp-ch05-006
   - ootp-ch09-001
   - ootp-ch10-005
@@ -13994,6 +14109,7 @@ by_tag:
   - poa-ch12-003
   - poa-ch19-004
   dangerous-creatures:
+  - hbp-ch01-003
   - poa-ch11-001
   - poa-ch11-003
   - poa-ch14-003
@@ -14051,6 +14167,7 @@ by_tag:
   - gof-ch19-006
   - gof-ch27-005
   - gof-ch30-004
+  - hbp-ch01-004
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -14153,6 +14270,7 @@ by_tag:
   - gof-ch14-004
   - gof-ch30-003
   - gof-ch36-004
+  - hbp-ch01-006
   - ootp-ch01-004
   - ootp-ch02-004
   - ootp-ch02-005
@@ -14389,6 +14507,7 @@ by_tag:
   - gof-ch19-004
   - gof-ch19-005
   - gof-ch20-001
+  - hbp-ch01-002
   - ps-ch14-002
   - ps-ch14-004
   draught-of-peace:
@@ -14947,6 +15066,7 @@ by_tag:
   flitwick-office:
   - poa-ch21-007
   floo:
+  - hbp-ch01-001
   - ootp-ch37-001
   floo-network:
   - gof-ch04-004
@@ -15154,6 +15274,7 @@ by_tag:
   giants:
   - gof-ch23-006
   - gof-ch36-006
+  - hbp-ch01-004
   - ootp-ch05-005
   - ootp-ch20-002
   - ootp-ch20-003
@@ -16256,6 +16377,7 @@ by_tag:
   - gof-ch34-002
   - gof-ch35-004
   - gof-ch35-006
+  - hbp-ch01-007
   impersonation:
   - ootp-ch03-001
   imperturbable-charm:
@@ -16315,6 +16437,8 @@ by_tag:
   - gof-ch37-005
   interdepartmental-memos:
   - ootp-ch07-004
+  intergovernmental-protocol:
+  - hbp-ch01-001
   interior-rooms:
   - ps-ch09-004
   interior-setting:
@@ -16446,6 +16570,7 @@ by_tag:
   - poa-ch05-001
   - ps-ch06-001
   kingsley-shacklebolt:
+  - hbp-ch01-007
   - ootp-ch07-005
   knarls:
   - ootp-ch31-005
@@ -16577,6 +16702,8 @@ by_tag:
   - ootp-ch08-006
   locked-door:
   - ootp-ch34-006
+  locked-room:
+  - hbp-ch01-005
   locker-room:
   - ps-ch11-004
   locker-rooms:
@@ -16771,6 +16898,8 @@ by_tag:
   - gof-ch26-006
   - gof-ch28-002
   - gof-ch31-006
+  - hbp-ch01-002
+  - hbp-ch01-006
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch15-006
@@ -16809,8 +16938,10 @@ by_tag:
   - ootp-ch37-001
   magical-law:
   - gof-ch10-004
+  - hbp-ch01-002
   magical-law-enforcement:
   - gof-ch27-007
+  - hbp-ch01-005
   - ootp-ch07-001
   - ootp-ch07-004
   - ootp-ch07-006
@@ -16841,6 +16972,8 @@ by_tag:
   - cos-ch06-003
   - gof-ch13-002
   - ootp-ch10-004
+  magical-portraits:
+  - hbp-ch01-001
   magical-records:
   - ootp-ch35-002
   magical-remedies:
@@ -17046,6 +17179,7 @@ by_tag:
   - ootp-ch28-006
   memory-modification:
   - gof-ch13-005
+  - hbp-ch01-003
   mental-magic:
   - ootp-ch37-002
   mental-safety:
@@ -17069,6 +17203,7 @@ by_tag:
   minister-of-magic:
   - cos-ch04-005
   - gof-ch27-007
+  - hbp-ch01-001
   - ootp-ch05-006
   - poa-ch03-005
   ministry-approved-curriculum:
@@ -17158,6 +17293,7 @@ by_tag:
   - gof-ch33-003
   - gof-ch36-005
   - gof-ch37-004
+  - hbp-ch01-002
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -17215,6 +17351,8 @@ by_tag:
   - ps-ch12-006
   - ps-ch17-002
   - ps-ch17-003
+  mist:
+  - hbp-ch01-006
   misuse-of-muggle-artifacts:
   - gof-ch13-005
   - ootp-ch07-006
@@ -17291,20 +17429,31 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch06-007
+  muggle-disasters:
+  - hbp-ch01-004
+  muggle-effects:
+  - hbp-ch01-006
   muggle-family:
   - ootp-ch01-003
   muggle-fireplaces:
   - gof-ch04-004
+  muggle-government:
+  - hbp-ch01-001
+  - hbp-ch01-007
   muggle-households:
   - ps-ch03-004
   muggle-hunting:
   - ootp-ch06-005
   muggle-knowledge:
   - ootp-ch02-004
+  muggle-liaison:
+  - hbp-ch01-003
   muggle-newspapers:
   - gof-ch30-007
   muggle-persecution:
   - cos-ch09-003
+  muggle-police:
+  - hbp-ch01-005
   muggle-post:
   - gof-ch03-002
   muggle-protection:
@@ -17463,6 +17612,8 @@ by_tag:
   - ootp-ch27-004
   obliviator:
   - gof-ch07-004
+  obliviators:
+  - hbp-ch01-004
   occlumency:
   - ootp-ch24-001
   - ootp-ch24-005
@@ -17479,6 +17630,8 @@ by_tag:
   off-campus-transport:
   - gof-ch32-001
   - gof-ch34-005
+  office-of-misinformation:
+  - hbp-ch01-004
   office-protections:
   - ootp-ch37-001
   office-security:
@@ -18352,6 +18505,7 @@ by_tag:
   - gof-ch10-002
   - gof-ch10-003
   - gof-ch33-004
+  - hbp-ch01-003
   quills:
   - gof-ch04-001
   quirrell:
@@ -18472,6 +18626,8 @@ by_tag:
   rotating-room:
   - ootp-ch34-003
   - ootp-ch36-001
+  rufus-scrimgeour:
+  - hbp-ch01-007
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -18724,6 +18880,9 @@ by_tag:
   - gof-ch26-005
   - gof-ch27-001
   second-war:
+  - hbp-ch01-004
+  - hbp-ch01-005
+  - hbp-ch01-006
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -19065,6 +19224,7 @@ by_tag:
   - ootp-ch02-001
   - ootp-ch08-005
   st-mungos:
+  - hbp-ch01-007
   - ootp-ch07-003
   - ootp-ch22-004
   - ootp-ch22-005
@@ -19206,6 +19366,8 @@ by_tag:
   statute-of-secrecy:
   - cos-ch02-005
   - gof-ch04-004
+  - hbp-ch01-001
+  - hbp-ch01-002
   - ootp-ch02-002
   - ootp-ch02-004
   - ootp-ch08-002
@@ -19848,6 +20010,7 @@ by_tag:
   - gof-ch35-003
   - gof-ch37-005
   - gof-ch37-007
+  - hbp-ch01-003
   - ootp-ch16-005
   triwizard-winnings:
   - gof-ch37-001
@@ -20040,6 +20203,8 @@ by_tag:
   - gof-ch34-004
   - gof-ch37-004
   - gof-ch37-005
+  - hbp-ch01-005
+  - hbp-ch01-006
   - ootp-ch05-005
   - ootp-ch06-004
   - ootp-ch15-007

@@ -528,6 +528,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Public Opinion Inside Student Dormitories
 - Ministry Public Ideology and Non-Human Beings
   - Fountain animation and wartime destruction
+- Ministry Relations With the Muggle Government
+  - Mandatory briefings about magical incidents
+  - Prime Minister notification and portrait contact
+  - Scrimgeour succession and Prime Minister protection
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
@@ -586,6 +590,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Order Operations and Intelligence Work
   - Order Recall and Voldemort's Recruitment Strategy
   - Original Order Roster and First War Casualties
+- The Second War and Ministry Casualties
+  - Amelia Bones's murder and Muggle ignorance
+- The Second War and Muggle-Facing Secrecy
+  - Dementor revolt, breeding, and public despair
+  - Public disasters, Auror response, and memory repair
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -1026,6 +1035,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Petunia Dursley's Retained Azkaban Knowledge
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
+- Ministry Authority Beyond Hogwarts
+  - Secrecy, broomstick rules, and creature control
 - Ministry Interfaces with Hogwarts
   - Specialist Offices and External Governance Context
 - Ministry Law and School-Age Wizards

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter One - The Other Minister
-- Page range: 2415-2430
+- Chapter: Chapter Two - Spinner’s End
+- Page range: 2431-2446
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-01-the-other-minister.yaml`
+- Output YAML: `sources/book-06/chapter-02-spinner-s-end.yaml`
 
 ## Minimal Context
 

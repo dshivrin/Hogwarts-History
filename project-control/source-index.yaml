@@ -1586,3 +1586,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2382-2406.
+- source_unit_id: hbp-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 1
+  chapter_title: Chapter One - The Other Minister
+  page_start: 2415
+  page_end: 2430
+  output_yaml: sources/book-06/chapter-01-the-other-minister.yaml
+  processed_at: '2026-07-16'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2415-2430.
