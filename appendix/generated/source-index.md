@@ -140,3 +140,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ootp-ch38`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Eight - The Second War Begins, pages 2382-2406, 7 entries, 0 explicit references.
 - `hbp-ch01`: Harry Potter and the Half-Blood Prince, Chapter One - The Other Minister, pages 2415-2430, 7 entries, 0 explicit references.
 - `hbp-ch02`: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, pages 2431-2446, 6 entries, 0 explicit references.
+- `hbp-ch03`: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, pages 2447-2461, 7 entries, 0 explicit references.

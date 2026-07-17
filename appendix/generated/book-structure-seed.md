@@ -584,6 +584,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Alternative press and Harry's Quibbler interview
   - Alternative press reaches Hogwarts by owl post
   - Ministry acknowledgement and Dumbledore's reinstatement
+  - Public prophecy rumors after the Department of Mysteries
   - Student and staff workarounds under information control
   - The Azkaban breakout reaches the Great Hall
 - The Second War and Hogwarts-Connected Families
@@ -813,6 +814,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House-Elves, Service, and Wizarding Households
   - Clothing, family-house bonds, and possible unauthorized departure
   - Kreacher, Family Loyalty, and Headquarters Secrecy
+  - Ownership transfer and reassignment to Hogwarts kitchens
 - Magical Medicine and Creature Harm
   - Serious bites, venom treatment, and ward privacy
 - Ministry Public Ideology and Non-Human Beings
@@ -883,6 +885,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headquarters, Safe Houses, and Secret-Keeping
   - Dumbledore's Put-Outer and Grimmauld Place Arrival
   - Grimmauld Place as Inherited Order Headquarters
+  - Inheritance risk and protection continuity at Grimmauld Place
   - Layered Entry Controls at Grimmauld Place
   - Number Twelve Revealed After Memorized Disclosure
   - Unplottable Headquarters and Dumbledore as Secret-Keeper
@@ -928,6 +931,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Protection and Exceptional Safeguards
   - Blood wards and yearly return to Privet Drive
   - Harry Potter's Layered Protection
+  - Privet Drive protection and wizarding age of majority
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory
@@ -943,6 +947,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff Patrols and Escort Duties
   - Staff Response to Student and Ghost Attacks
   - Subterranean Route and Serpent Gate
+- Wartime Household Precautions
+  - Ministry public guidance against Dark forces
+- Wartime School Protection
+  - Ministry security measures for Hogwarts in the Second War
 
 ## Quidditch and School Recreation
 
@@ -995,6 +1003,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Nighttime Wandering and Corridor Enforcement
   - Out-of-Bounds Corridors
 - Creatures, Liability, and External Committees
+  - Buckbeak custody and wartime concealment alias
   - Dangerous-Creature Execution Procedure
 - Detention Logistics and Punishments
   - Staff-Assigned Tasks, Filch, and Trophy Room Labor

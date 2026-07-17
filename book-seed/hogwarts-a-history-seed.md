@@ -3189,6 +3189,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter iden
 
 ### Chapter: Creatures, Liability, and External Committees
 
+#### Section: Buckbeak custody and wartime concealment alias
+
+Summary: The available evidence includes 1 source item, led by: Buckbeak passes to Harry with Sirius's estate, remains in Hagrid's care, and receives the temporary alias Witherwings to protect him from Ministry recognition after the earlier execution sentence.
+
+- **Corroboration:** Buckbeak passes to Harry with Sirius's estate, remains in Hagrid's care, and receives the temporary alias Witherwings to protect him from Ministry recognition after the earlier execution sentence.
+  - Quote: "rechristen him 'Witherwings'"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2459, `hbp-ch03-006`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `poa-ch15-001`, `poa-ch21-004`, `poa-ch06-006`. poa-ch15-001 and poa-ch21-004 cover the Committee verdict and execution procedure, while poa-ch06-006 covers Buckbeak as a class hippogriff; this entry adds later custody and the Witherwings concealment alias.
+  - Notes: The chapter states the alias decision but does not describe where Buckbeak/Witherwings is housed at this moment.
+
 #### Section: Dangerous-Creature Execution Procedure
 
 Summary: The available evidence includes 1 source item, led by: Fudge reads a formal notice stating Buckbeak's execution decision, date, method, and appointed executioner, then requires signatures as part of the procedure.
@@ -4920,6 +4932,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `ootp-ch04-001`, `ootp-ch04-004`. ootp-ch04-001 records the hidden building's reveal and ootp-ch04-004 defines the Order's headquarters meetings; this entry adds Sirius's ownership and the immediate handling of confidential meeting papers.
   - Notes: The visible plan is not identified, and the chapter does not reveal the meeting agenda.
 
+#### Section: Inheritance risk and protection continuity at Grimmauld Place
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore says Black family inheritance traditions or enchantments may force Grimmauld Place down the pure-blood Black line, and that the Order cannot assume its Unplottable protections still hold after ownership transfers.
+
+- **Corroboration:** Dumbledore says Black family inheritance traditions or enchantments may force Grimmauld Place down the pure-blood Black line, and that the Order cannot assume its Unplottable protections still hold after ownership transfers.
+  - Quote: "cannot be owned by anyone other than a pureblood"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2456, `hbp-ch03-004`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch06-007`, `ootp-ch05-001`. ootp-ch06-007 identifies Grimmauld Place as Unplottable and Secret-Keeper protected, while ootp-ch05-001 confirms the inherited headquarters; this entry adds the post-Sirius inheritance test and uncertainty about protection continuity.
+  - Notes: Dumbledore frames the pure-blood restriction as possible rather than confirmed, and the exact enchantment is not named.
+
 #### Section: Layered Entry Controls at Grimmauld Place
 
 Summary: The available evidence includes 1 source item, led by: The headquarters uses layered physical and magical access controls, with wand-operated entry, resealed locks, light management, and post-flight concealment cleanup.
@@ -5320,6 +5344,18 @@ Summary: The available evidence includes 1 source item, led by: Voldemort frames
   - Corroborates: `ps-ch04-005`, `gof-ch02-001`. ps-ch04-005 records Hogwarts as a Dumbledore-associated wartime safe place, and gof-ch02-001 records Voldemort proximity through Harry's scar; this entry adds Voldemort's abduction-planning view of Harry's layered protections.
   - Notes: The passage reflects Voldemort's strategic interpretation and does not define the exact protective enchantments around Hogwarts itself.
 
+#### Section: Privet Drive protection and wizarding age of majority
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore says wizards come of age at seventeen and that his fifteen-year-old protective magic around Harry lasts only while Privet Drive can still be called home, ending when Harry turns seventeen unless he returns once more.
+
+- **Corroboration:** Dumbledore says wizards come of age at seventeen and that his fifteen-year-old protective magic around Harry lasts only while Privet Drive can still be called home, ending when Harry turns seventeen unless he returns once more.
+  - Quote: "call this house 'home'"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2461, `hbp-ch03-007`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch37-005`, `ootp-ch02-006`. ootp-ch37-005 explains the blood protection and yearly return requirement, and ootp-ch02-006 shows the requirement enforced by Dumbledore's Howler; this entry adds the explicit age-seventeen cutoff and final-return condition.
+  - Notes: The passage does not name the protective charm or explain whether a brief return is sufficient beyond Dumbledore's stated request.
+
 ### Chapter: The Chamber of Secrets
 
 #### Section: Legend, Hidden Room, and Heir Language
@@ -5343,6 +5379,32 @@ Summary: The available evidence includes 1 source item, led by: Binns states tha
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: security_or_protection
   - Notes: Binns's denial is later complicated by the plot; this entry should preserve his pre-confirmation view rather than treat it as final fact.
+
+### Chapter: Wartime Household Precautions
+
+#### Section: Ministry public guidance against Dark forces
+
+Summary: The available evidence includes 1 source item, led by: A Ministry household-security leaflet recommends emergency measures against Death Eaters, including Shield and Disillusionment Charms, Side-Along Apparition for underage family members, identity questions, and reporting Imperius, Dark Mark, or Inferius signs.
+
+- **Context:** A Ministry household-security leaflet recommends emergency measures against Death Eaters, including Shield and Disillusionment Charms, Side-Along Apparition for underage family members, identity questions, and reporting Imperius, Dark Mark, or Inferius signs.
+  - Quote: "Shield and Disillusionment Charms"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2450, `hbp-ch03-003`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The leaflet is summarized through visible excerpts; page-two details and the full guidance text are not present in this chapter.
+
+### Chapter: Wartime School Protection
+
+#### Section: Ministry security measures for Hogwarts in the Second War
+
+Summary: The available evidence includes 1 source item, led by: Scrimgeour's Ministry publicly claims new wartime Hogwarts protections, including defensive spells, countercurses, and a small Auror task force assigned only to the school.
+
+- **Context:** Scrimgeour's Ministry publicly claims new wartime Hogwarts protections, including defensive spells, countercurses, and a small Auror task force assigned only to the school.
+  - Quote: "defensive spells and charms"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2449, `hbp-ch03-002`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The Ministry refuses operational detail, so the exact spells, countercurses, and Auror deployment are not enumerated.
 
 ## Part: Quidditch and School Recreation
 
@@ -8400,6 +8462,17 @@ Summary: The available evidence includes 1 source item, led by: The Ministry pub
   - Reference type: explicit_in_universe_source
   - Notes: The article says details are hazy and does not reproduce the full Ministry defense guide or formal reinstatement orders.
 
+#### Section: Public prophecy rumors after the Department of Mysteries
+
+Summary: The available evidence includes 1 source item, led by: A Daily Prophet report brings the secret Department of Mysteries conflict into public circulation, framing Harry as the possible subject of a prophecy and naming Death Eaters sentenced for trespass and attempted theft.
+
+- **Context:** A Daily Prophet report brings the secret Department of Mysteries conflict into public circulation, framing Harry as the possible subject of a prophecy and naming Death Eaters sentenced for trespass and attempted theft.
+  - Quote: "the fabled Hall of Prophecy"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2448, `hbp-ch03-001`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Notes: The article is speculative and does not disclose the prophecy text or confirm official Ministry details beyond the arrests and public rumors.
+
 #### Section: Student and staff workarounds under information control
 
 Summary: The available evidence includes 1 source item, led by: Students evade the Quibbler ban with concealment charms, while teachers forbidden by Decree Twenty-six still show indirect support through ordinary school mechanisms.
@@ -10025,6 +10098,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch04-003`. ootp-ch04-003 introduces Kreacher and Black-family house-elf evidence; this entry adds direct-order obedience, the reason he cannot be freed, and his knowledge of Order activity.
   - Notes: Sirius and Hermione interpret Kreacher differently, and the passage does not state the full magical law governing house-elf secrecy or manumission.
+
+#### Section: Ownership transfer and reassignment to Hogwarts kitchens
+
+Summary: The available evidence includes 1 source item, led by: Kreacher's forced obedience confirms Harry's ownership of him, and Dumbledore suggests sending him to Hogwarts kitchens so the other house-elves can supervise a politically dangerous servant.
+
+- **Corroboration:** Kreacher's forced obedience confirms Harry's ownership of him, and Dumbledore suggests sending him to Hogwarts kitchens so the other house-elves can supervise a politically dangerous servant.
+  - Quote: "work in the kitchens there"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, PDF p. 2458, `hbp-ch03-005`, `sources/book-06/chapter-03-will-and-won-t.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch06-002`, `gof-ch12-004`, `gof-ch21-006`. ootp-ch06-002 already covers Kreacher's obedience and Order secrecy problem, while gof-ch12-004 and gof-ch21-006 cover the existing Hogwarts kitchen workforce; this entry joins both by showing Kreacher's reassignment there after inheritance.
+  - Notes: The chapter does not show Kreacher arriving at Hogwarts or describe how the kitchen elves supervise him afterward.
 
 ### Chapter: Magical Medicine and Creature Harm
 

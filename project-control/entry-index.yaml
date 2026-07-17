@@ -13116,6 +13116,119 @@ by_entry:
     - wand-magic
     source_unit: hbp-ch02
     output_yaml: sources/book-06/chapter-02-spinner-s-end.yaml
+  hbp-ch03-001:
+    title: 'The Second War and Hogwarts Information Climate: Public prophecy rumors
+      after the Department of Mysteries'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - azkaban
+    - chosen-one
+    - daily-prophet
+    - death-eaters
+    - hall-of-prophecy
+    - ministry-secrecy
+    - second-war
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  hbp-ch03-002:
+    title: 'Wartime School Protection: Ministry security measures for Hogwarts in
+      the Second War'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - auror-task-force
+    - countercurses
+    - defensive-spells
+    - hogwarts-security
+    - ministry-of-magic
+    - rufus-scrimgeour
+    - student-safety
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  hbp-ch03-003:
+    title: 'Wartime Household Precautions: Ministry public guidance against Dark forces'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dark-forces
+    - disillusionment-charm
+    - imperius-curse
+    - inferi
+    - ministry-public-guidance
+    - polyjuice-potion
+    - shield-charm
+    - side-along-apparition
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  hbp-ch03-004:
+    title: 'Headquarters, Safe Houses, and Secret-Keeping: Inheritance risk and protection
+      continuity at Grimmauld Place'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - bellatrix-lestrange
+    - black-family
+    - grimmauld-place
+    - inheritance
+    - order-headquarters
+    - pureblood-enchantment
+    - unplottable
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  hbp-ch03-005:
+    title: 'House-Elves, Service, and Wizarding Households: Ownership transfer and
+      reassignment to Hogwarts kitchens'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - bellatrix-lestrange
+    - hogwarts-kitchens
+    - house-elf-ownership
+    - house-elves
+    - kreacher
+    - obedience
+    - operational-secrecy
+    - order-of-the-phoenix
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  hbp-ch03-006:
+    title: 'Creatures, Liability, and External Committees: Buckbeak custody and wartime
+      concealment alias'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - buckbeak
+    - creature-alias
+    - dangerous-creatures
+    - hagrid
+    - hippogriff
+    - ministry-law
+    - witherwings
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  hbp-ch03-007:
+    title: 'Student Protection and Exceptional Safeguards: Privet Drive protection
+      and wizarding age of majority'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - blood-protection
+    - coming-of-age
+    - dumbledore
+    - petunia-dursley
+    - privet-drive
+    - protective-magic
+    - seventeenth-birthday
+    source_unit: hbp-ch03
+    output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13345,6 +13458,8 @@ by_tag:
   - gof-ch13-007
   auror-headquarters:
   - ootp-ch07-005
+  auror-task-force:
+  - hbp-ch03-002
   auror-tools:
   - gof-ch20-003
   aurors:
@@ -13369,6 +13484,7 @@ by_tag:
   - gof-ch30-006
   - hbp-ch01-003
   - hbp-ch01-006
+  - hbp-ch03-001
   - ootp-ch02-004
   - ootp-ch08-001
   - ootp-ch08-006
@@ -13462,6 +13578,8 @@ by_tag:
   - ootp-ch35-004
   bellatrix-lestrange:
   - hbp-ch02-006
+  - hbp-ch03-004
+  - hbp-ch03-005
   - ootp-ch23-007
   - ootp-ch25-005
   - ootp-ch36-002
@@ -13478,6 +13596,7 @@ by_tag:
   bewitched-sleep:
   - gof-ch27-001
   black-family:
+  - hbp-ch03-004
   - ootp-ch04-003
   - ootp-ch05-001
   - ootp-ch05-002
@@ -13509,6 +13628,7 @@ by_tag:
   - gof-ch24-003
   - gof-ch31-006
   blood-protection:
+  - hbp-ch03-007
   - ootp-ch02-006
   - ootp-ch37-005
   blood-quill:
@@ -13608,6 +13728,7 @@ by_tag:
   buckbeak:
   - gof-ch02-006
   - gof-ch27-006
+  - hbp-ch03-006
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch14-003
@@ -13871,6 +13992,8 @@ by_tag:
   - ps-ch13-001
   chocolate-remedy:
   - poa-ch05-004
+  chosen-one:
+  - hbp-ch03-001
   christmas:
   - gof-ch22-003
   - gof-ch23-001
@@ -13943,6 +14066,8 @@ by_tag:
   - ootp-ch35-003
   come-and-go-room:
   - ootp-ch18-005
+  coming-of-age:
+  - hbp-ch03-007
   committee-for-disposal:
   - poa-ch14-003
   - poa-ch15-001
@@ -14046,6 +14171,8 @@ by_tag:
   countercurse:
   - ps-ch13-003
   - ps-ch17-001
+  countercurses:
+  - hbp-ch03-002
   counterjinxes:
   - ootp-ch15-004
   - ootp-ch23-004
@@ -14085,6 +14212,8 @@ by_tag:
   - gof-ch35-003
   covert-movement:
   - ootp-ch30-004
+  creature-alias:
+  - hbp-ch03-006
   creature-breeding:
   - gof-ch24-003
   creature-curriculum:
@@ -14194,6 +14323,7 @@ by_tag:
   - gof-ch21-004
   - gof-ch24-002
   - gof-ch37-006
+  - hbp-ch03-001
   - ootp-ch01-001
   - ootp-ch04-007
   - ootp-ch05-007
@@ -14205,6 +14335,7 @@ by_tag:
   - poa-ch19-004
   dangerous-creatures:
   - hbp-ch01-003
+  - hbp-ch03-006
   - poa-ch11-001
   - poa-ch11-003
   - poa-ch14-003
@@ -14232,6 +14363,8 @@ by_tag:
   - gof-ch20-003
   - gof-ch35-005
   - ootp-ch18-006
+  dark-forces:
+  - hbp-ch03-003
   dark-lord:
   - gof-ch28-005
   dark-magic:
@@ -14266,6 +14399,7 @@ by_tag:
   - hbp-ch01-004
   - hbp-ch02-001
   - hbp-ch02-002
+  - hbp-ch03-001
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -14354,6 +14488,8 @@ by_tag:
   - ootp-ch12-006
   - ootp-ch15-004
   - ootp-ch17-006
+  defensive-spells:
+  - hbp-ch03-002
   deflating-draught:
   - cos-ch11-002
   deletrius:
@@ -14497,6 +14633,7 @@ by_tag:
   disguise:
   - ootp-ch03-004
   disillusionment-charm:
+  - hbp-ch03-003
   - ootp-ch03-005
   - ootp-ch04-002
   disownment:
@@ -14670,6 +14807,7 @@ by_tag:
   - hbp-ch02-002
   - hbp-ch02-003
   - hbp-ch02-005
+  - hbp-ch03-007
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -15519,6 +15657,7 @@ by_tag:
   gregory-the-smarmy:
   - ps-ch09-006
   grimmauld-place:
+  - hbp-ch03-004
   - ootp-ch03-002
   - ootp-ch03-006
   - ootp-ch04-001
@@ -15695,6 +15834,7 @@ by_tag:
   - gof-ch28-007
   - gof-ch35-003
   - gof-ch36-006
+  - hbp-ch03-006
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch14-002
@@ -15769,6 +15909,8 @@ by_tag:
   - ootp-ch35-002
   - ootp-ch37-003
   - ootp-ch37-007
+  hall-of-prophecy:
+  - hbp-ch03-001
   halloween-feast:
   - cos-ch07-005
   - cos-ch08-004
@@ -16027,6 +16169,8 @@ by_tag:
   - poa-ch09-005
   - poa-ch10-001
   - poa-ch16-004
+  hippogriff:
+  - hbp-ch03-006
   hippogriff-books:
   - poa-ch15-004
   hippogriffs:
@@ -16178,6 +16322,7 @@ by_tag:
   - gof-ch23-003
   - gof-ch26-004
   - gof-ch28-001
+  - hbp-ch03-005
   - ootp-ch27-005
   hogwarts-letters:
   - cos-ch01-004
@@ -16213,6 +16358,7 @@ by_tag:
   - gof-ch33-005
   - gof-ch35-002
   - gof-ch35-006
+  - hbp-ch03-002
   - ps-ch04-005
   - ps-ch05-001
   hogwarts-staff:
@@ -16338,6 +16484,8 @@ by_tag:
   - cos-ch18-007
   - ps-ch15-002
   - ps-ch17-005
+  house-elf-ownership:
+  - hbp-ch03-005
   house-elves:
   - cos-ch02-001
   - cos-ch03-002
@@ -16357,6 +16505,7 @@ by_tag:
   - gof-ch26-004
   - gof-ch28-001
   - gof-ch35-003
+  - hbp-ch03-005
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch06-005
@@ -16487,6 +16636,7 @@ by_tag:
   - gof-ch35-004
   - gof-ch35-006
   - hbp-ch01-007
+  - hbp-ch03-003
   impersonation:
   - ootp-ch03-001
   imperturbable-charm:
@@ -16510,6 +16660,8 @@ by_tag:
   - ps-ch06-003
   individual-desks:
   - ootp-ch31-004
+  inferi:
+  - hbp-ch03-003
   informal-source:
   - poa-ch04-002
   information-control:
@@ -16521,6 +16673,8 @@ by_tag:
   - gof-ch07-005
   - gof-ch24-004
   - gof-ch33-003
+  inheritance:
+  - hbp-ch03-004
   inigo-imago:
   - ootp-ch12-005
   inquisitorial-squad:
@@ -16690,6 +16844,7 @@ by_tag:
   - poa-ch03-002
   - poa-ch14-003
   kreacher:
+  - hbp-ch03-005
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch23-005
@@ -17365,6 +17520,7 @@ by_tag:
   ministry-investigation:
   - gof-ch09-006
   ministry-law:
+  - hbp-ch03-006
   - poa-ch21-004
   ministry-logistics:
   - gof-ch07-006
@@ -17407,6 +17563,7 @@ by_tag:
   - gof-ch36-005
   - gof-ch37-004
   - hbp-ch01-002
+  - hbp-ch03-002
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -17443,10 +17600,14 @@ by_tag:
   - ps-ch14-002
   ministry-posters:
   - ootp-ch25-006
+  ministry-public-guidance:
+  - hbp-ch03-003
   ministry-register:
   - poa-ch18-001
   ministry-response:
   - gof-ch09-004
+  ministry-secrecy:
+  - hbp-ch03-001
   ministry-security:
   - gof-ch01-002
   - ootp-ch01-004
@@ -17724,6 +17885,8 @@ by_tag:
   - ootp-ch09-006
   o-w-ls:
   - ootp-ch27-004
+  obedience:
+  - hbp-ch03-005
   obliviator:
   - gof-ch07-004
   obliviators:
@@ -17780,6 +17943,7 @@ by_tag:
   one-eyed-witch-passage:
   - poa-ch16-006
   operational-secrecy:
+  - hbp-ch03-005
   - ootp-ch01-001
   - ootp-ch03-002
   - ootp-ch05-001
@@ -17796,6 +17960,7 @@ by_tag:
   - ootp-ch03-003
   - ootp-ch03-005
   order-headquarters:
+  - hbp-ch03-004
   - ootp-ch32-004
   order-network:
   - gof-ch36-006
@@ -17809,6 +17974,7 @@ by_tag:
   order-of-the-phoenix:
   - hbp-ch02-002
   - hbp-ch02-004
+  - hbp-ch03-005
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch04-004
@@ -18033,6 +18199,7 @@ by_tag:
   - cos-ch14-001
   - cos-ch16-002
   petunia-dursley:
+  - hbp-ch03-007
   - ootp-ch02-004
   - ootp-ch02-006
   - ootp-ch37-005
@@ -18116,6 +18283,7 @@ by_tag:
   - cos-ch10-002
   - cos-ch12-004
   - gof-ch35-006
+  - hbp-ch03-003
   portable-swamp:
   - ootp-ch29-007
   - ootp-ch30-001
@@ -18296,6 +18464,7 @@ by_tag:
   - gof-ch27-004
   privet-drive:
   - gof-ch03-004
+  - hbp-ch03-007
   - ootp-ch01-001
   - ootp-ch01-002
   - ootp-ch01-003
@@ -18457,6 +18626,7 @@ by_tag:
   protective-magic:
   - gof-ch33-004
   - hbp-ch02-004
+  - hbp-ch03-007
   - ootp-ch02-006
   - ootp-ch03-006
   - ootp-ch04-001
@@ -18503,6 +18673,8 @@ by_tag:
   pure-blood-prejudice:
   - cos-ch07-003
   - gof-ch08-003
+  pureblood-enchantment:
+  - hbp-ch03-004
   purge-and-dowse:
   - ootp-ch22-004
   purple-fire:
@@ -18747,6 +18919,7 @@ by_tag:
   - ootp-ch36-001
   rufus-scrimgeour:
   - hbp-ch01-007
+  - hbp-ch03-002
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -19003,6 +19176,7 @@ by_tag:
   - hbp-ch01-005
   - hbp-ch01-006
   - hbp-ch02-002
+  - hbp-ch03-001
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -19107,6 +19281,8 @@ by_tag:
   - ootp-ch23-005
   seven-year-education:
   - ps-ch04-006
+  seventeenth-birthday:
+  - hbp-ch03-007
   seventh-floor:
   - ootp-ch18-006
   seventh-year:
@@ -19121,6 +19297,7 @@ by_tag:
   shared-resources:
   - gof-ch18-001
   shield-charm:
+  - hbp-ch03-003
   - ootp-ch25-005
   - ootp-ch26-005
   - ootp-ch36-003
@@ -19137,6 +19314,8 @@ by_tag:
   - poa-ch17-001
   shrinking-solution:
   - poa-ch07-001
+  side-along-apparition:
+  - hbp-ch03-003
   side-corridor:
   - ps-ch10-004
   sight:
@@ -19718,6 +19897,7 @@ by_tag:
   - gof-ch28-002
   - gof-ch31-003
   - gof-ch31-006
+  - hbp-ch03-002
   - ootp-ch02-006
   - ootp-ch03-005
   - ootp-ch13-006
@@ -20257,6 +20437,7 @@ by_tag:
   - gof-ch12-004
   unplottable:
   - gof-ch11-005
+  - hbp-ch03-004
   - ootp-ch06-007
   unregistered-animagus:
   - ootp-ch25-007
@@ -20500,6 +20681,8 @@ by_tag:
   - gof-ch24-005
   witch-weekly:
   - gof-ch27-003
+  witherwings:
+  - hbp-ch03-006
   witness-account:
   - gof-ch36-003
   witnesses:

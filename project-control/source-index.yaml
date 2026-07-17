@@ -1610,3 +1610,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 2431-2446.
+- source_unit_id: hbp-ch03
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 3
+  chapter_title: Chapter Three - Will and Won't
+  page_start: 2447
+  page_end: 2461
+  output_yaml: sources/book-06/chapter-03-will-and-won-t.yaml
+  processed_at: '2026-07-17'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2447-2461.
