@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Four - Horace Slughorn
-- Page range: 2462-2481
+- Chapter: Chapter Five - An Excess of Phlegm
+- Page range: 2482-2502
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-04-horace-slughorn.yaml`
+- Output YAML: `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
 
 ## Minimal Context
 

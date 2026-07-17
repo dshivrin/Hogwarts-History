@@ -897,6 +897,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Corroborates: `cos-ch09-005`. Chapter Nine already records Binns's Chamber legend involving Salazar Slytherin and his heir; this entry adds Parseltongue and serpent-symbol lore around Slytherin House.
   - Notes: The explanation comes from students rather than an identified historical text or teacher, and the school-wide Dark-wizard association is rumor rather than institutional doctrine.
 
+### Chapter: Sorting, Families, and Exceptions
+
+#### Section: Family patterns and Sirius Black's exception
+
+Summary: The available evidence includes 1 source item, led by: Slughorn states that House affiliation often runs in families but not always, citing Sirius Black's Gryffindor sorting against the wider Black family's Slytherin pattern and Regulus's later Slytherin placement.
+
+- **Supporting evidence:** Slughorn states that House affiliation often runs in families but not always, citing Sirius Black's Gryffindor sorting against the wider Black family's Slytherin pattern and Regulus's later Slytherin placement.
+  - Quote: "it usually goes in families. Not always"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2473, `hbp-ch04-005`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: Slughorn's comments are anecdotal and colored by his collector-like view of talented students.
+
 ## Part: Ceremonies and School Traditions
 
 ### Chapter: The Hogwarts Express and School Travel
@@ -2885,6 +2898,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter docu
   - Classification: later_editorial_note | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The club appears to be an emergency Harry-era response rather than evidence of a permanent long-running Hogwarts institution.
+
+### Chapter: Teachers, Patronage, and Student Advancement
+
+#### Section: Slughorn's favorites and alumni network
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore describes Slughorn's informal Hogwarts patronage network, in which selected students were connected to one another and later repaid him through favors or influence.
+
+- **Supporting evidence:** Dumbledore describes Slughorn's informal Hogwarts patronage network, in which selected students were connected to one another and later repaid him through favors or influence.
+  - Quote: "handpick favorites at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2477, `hbp-ch04-006`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The evidence comes from Dumbledore's characterization and does not yet list the full membership or formal name used later.
 
 ### Chapter: Timetables, Electives, and Exceptional Study Arrangements
 
@@ -5180,6 +5206,18 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Corroborates: `gof-ch15-006`, `gof-ch29-001`. gof-ch15-006 and gof-ch29-001 already corroborate the Hogwarts anti-Apparition rule; this entry adds the explicit Hogwarts: A History attribution and frames the rule as applying inside Hogwarts itself.
   - Notes: The passage does not explain who cast the enchantment, when it began, or its exact boundary at the castle versus grounds.
 
+#### Section: Wizarding-dwelling courtesy and Hogwarts boundary confirmation
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore frames anti-Apparition as a common protection for wizarding dwellings, and Harry restates that Hogwarts blocks Apparition inside both buildings and grounds.
+
+- **Corroboration:** Dumbledore frames anti-Apparition as a common protection for wizarding dwellings, and Harry restates that Hogwarts blocks Apparition inside both buildings and grounds.
+  - Quote: "you can't Apparate anywhere inside the buildings or grounds"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2465, `hbp-ch04-001`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch23-001`, `gof-ch15-006`. ootp-ch23-001 is the explicit Hogwarts: A History citation for no Apparition inside Hogwarts, and gof-ch15-006 states the grounds restriction; this entry adds Dumbledore's broader wizarding-dwelling context.
+  - Notes: The scene does not identify the spellwork, origin, exceptions, or exact enforcement boundary.
+
 ### Chapter: Movement Limits and Boundary Magic
 
 #### Section: Anti-Disapparition protections and map boundaries
@@ -5381,6 +5419,18 @@ Summary: The available evidence includes 1 source item, led by: Binns states tha
   - Notes: Binns's denial is later complicated by the plot; this entry should preserve his pre-confirmation view rather than treat it as final fact.
 
 ### Chapter: Wartime Household Precautions
+
+#### Section: Identity checks and Inferi in Ministry public guidance
+
+Summary: The available evidence includes 1 source item, led by: The official Ministry leaflet prompts a practical anti-impersonation reminder from Dumbledore and a definition of Inferi as bewitched corpses associated with Voldemort's previous power.
+
+- **Corroboration:** The official Ministry leaflet prompts a practical anti-impersonation reminder from Dumbledore and a definition of Inferi as bewitched corpses associated with Voldemort's previous power.
+  - Quote: "Dead bodies that have been bewitched"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2466, `hbp-ch04-002`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch03-003`, `ootp-ch03-001`. hbp-ch03-003 records the same Ministry leaflet's household guidance, and ootp-ch03-001 records identity verification after impersonation; this entry adds Dumbledore's jam example and Inferi definition.
+  - Notes: The leaflet's full text is not present, and the evidence is filtered through Harry's questions and Dumbledore's explanation.
 
 #### Section: Ministry public guidance against Dark forces
 
@@ -7021,6 +7071,20 @@ Summary: The available evidence includes 1 source item, led by: Umbridge replace
   - Corroborates: `gof-ch14-001`, `gof-ch36-005`, `ootp-ch11-006`. gof-ch14-001 records the previous practical curse curriculum, gof-ch36-005 records Fudge's governance threat, and ootp-ch11-006 records Umbridge's coded speech; this entry shows the policy enacted inside a classroom.
   - Notes: The chapter captures Umbridge's stated rationale and student objections but does not reproduce any Ministry decree or exam-board guidance.
 
+### Chapter: Defense, Mind Magic, and the Second War
+
+#### Section: Headmaster-led private lessons after Occlumency failed
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore personally assigns Harry private lessons with the headmaster for the coming year and replaces the failed Snape-led Occlumency arrangement.
+
+- **Corroboration:** Dumbledore personally assigns Harry private lessons with the headmaster for the coming year and replaces the failed Snape-led Occlumency arrangement.
+  - Quote: "private lessons with me this year"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2480, `hbp-ch04-007`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch24-001`, `ootp-ch37-002`. ootp-ch24-001 records the Snape-led private Occlumency lessons, and ootp-ch37-002 explains their rationale and failure; this entry adds Dumbledore's replacement lessons for the next school year.
+  - Notes: Dumbledore does not yet disclose the lesson content, so placement under Defense and mind magic remains provisional.
+
 ### Chapter: Defense, Mind Magic, and the Umbridge Year
 
 #### Section: Private Occlumency lessons under official cover
@@ -7945,6 +8009,20 @@ Summary: The available evidence includes 1 source item, led by: The Ministry fin
   - Corroborates: `ootp-ch35-007`, `ootp-ch22-003`, `ootp-ch30-005`. ootp-ch35-007 records the Death Chamber and veil, ootp-ch22-003 records Dumbledore's earlier Portkey workaround, and ootp-ch30-005 records Hagrid's expected dismissal; this entry adds post-duel Anti-Disapparation containment, Fudge's direct Portkey objection, and orders to remove Umbridge and restore Hagrid.
   - Notes: The passage records Dumbledore's demanded orders before their implementation is shown at Hogwarts.
 
+### Chapter: Ministry Intervention and Its Collapse
+
+#### Section: Former staff rumors about Umbridge and the centaur herd
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore confirms that Umbridge's post-Hogwarts fate became rumor among former staff and describes the centaurs as Hogwarts's own herd.
+
+- **Corroboration:** Dumbledore confirms that Umbridge's post-Hogwarts fate became rumor among former staff and describes the centaurs as Hogwarts's own herd.
+  - Quote: "ran afoul of our centaur herd"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2472, `hbp-ch04-004`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch33-004`. ootp-ch33-004 records the direct removal of Umbridge and wand destruction; this entry adds the later rumor/recruitment context and Dumbledore's phrase "our centaur herd."
+  - Notes: The actual confrontation is not shown in this chapter, and Slughorn's source is unspecified rumor.
+
 ### Chapter: Ministry Intervention and Staff Vulnerability
 
 #### Section: Hagrid's attempted removal during the Astronomy O.W.L.
@@ -8606,6 +8684,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter pres
   - Reference type: historical_claim
   - Corroborates: `gof-ch30-006`, `poa-ch10-006`, `ootp-ch04-004`. gof-ch30-006 records the Longbottom torture aftermath, poa-ch10-006 records Potter-era alumni war memory, and ootp-ch04-004 defines the Order as a prior-war secret society; this entry adds Moody's named photo roster and Lupin's twenty-to-one comparison.
   - Notes: The roster is filtered through Moody's oral identifications and does not give exact dates, membership criteria, or complete casualty records.
+
+### Chapter: The Second War and Hogwarts-Connected Staff
+
+#### Section: Retired staff evasion before returning to Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Slughorn uses an Intruder Charm, Muggle houses, a Freezing Charm on burglar alarms, and avoidance of neighbors to stay hidden during wartime.
+
+- **Context:** Slughorn uses an Intruder Charm, Muggle houses, a Freezing Charm on burglar alarms, and avoidance of neighbors to stay hidden during wartime.
+  - Quote: "one simple Freezing Charm"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, PDF p. 2471, `hbp-ch04-003`, `sources/book-06/chapter-04-horace-slughorn.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The evidence is off-campus and about Slughorn's personal evasion rather than a Hogwarts institution or ordinary school practice.
 
 ### Chapter: The Second War and Ministry Casualties
 

@@ -141,3 +141,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch01`: Harry Potter and the Half-Blood Prince, Chapter One - The Other Minister, pages 2415-2430, 7 entries, 0 explicit references.
 - `hbp-ch02`: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, pages 2431-2446, 6 entries, 0 explicit references.
 - `hbp-ch03`: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, pages 2447-2461, 7 entries, 0 explicit references.
+- `hbp-ch04`: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, pages 2462-2481, 7 entries, 0 explicit references.

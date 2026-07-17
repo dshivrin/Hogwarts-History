@@ -1622,3 +1622,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2447-2461.
+- source_unit_id: hbp-ch04
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 4
+  chapter_title: Chapter Four - Horace Slughorn
+  page_start: 2462
+  page_end: 2481
+  output_yaml: sources/book-06/chapter-04-horace-slughorn.yaml
+  processed_at: '2026-07-17'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2462-2481.

@@ -139,6 +139,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
   - Defense Against the Dark Arts Practical Instruction
+- Teachers, Patronage, and Student Advancement
+  - Slughorn's favorites and alumni network
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
   - Time-Turner Authorization for Overlapping Lessons
@@ -423,6 +425,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Student-led practical defense after curriculum failure
   - Theory-only lessons, dissent, and discipline
   - Umbridge's theory-centered curriculum
+- Defense, Mind Magic, and the Second War
+  - Headmaster-led private lessons after Occlumency failed
 - Defense, Mind Magic, and the Umbridge Year
   - Private Occlumency lessons under official cover
 - Discipline, Punishment, and Caretaking
@@ -526,6 +530,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Time Room hazards and temporal artifacts
 - Ministry Intervention and Hogwarts Governance
   - Public proof, containment jinx, and emergency return to school
+- Ministry Intervention and Its Collapse
+  - Former staff rumors about Umbridge and the centaur herd
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's attempted removal during the Astronomy O.W.L.
 - Ministry Oversight and Student Hearings
@@ -598,6 +604,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Order Operations and Intelligence Work
   - Order Recall and Voldemort's Recruitment Strategy
   - Original Order Roster and First War Casualties
+- The Second War and Hogwarts-Connected Staff
+  - Retired staff evasion before returning to Hogwarts
 - The Second War and Ministry Casualties
   - Amelia Bones's murder and Muggle ignorance
 - The Second War and Muggle-Facing Secrecy
@@ -913,6 +921,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's map search for Crouch
 - Movement Limits and Anti-Apparition Protections
   - Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
+  - Wizarding-dwelling courtesy and Hogwarts boundary confirmation
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
 - Off-Campus Protection of Students
@@ -948,6 +957,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff Response to Student and Ghost Attacks
   - Subterranean Route and Serpent Gate
 - Wartime Household Precautions
+  - Identity checks and Inferi in Ministry public guidance
   - Ministry public guidance against Dark forces
 - Wartime School Protection
   - Ministry security measures for Hogwarts in the Second War
@@ -1245,6 +1255,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Point Records and Major Deductions
 - Slytherin House
   - Serpent Symbolism and Parseltongue Lore
+- Sorting, Families, and Exceptions
+  - Family patterns and Sirius Black's exception
 
 ## The Grounds and Lake
 
