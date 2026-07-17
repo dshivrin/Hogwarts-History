@@ -70,6 +70,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
   - Private defensive books used for student-led practice
+- Defense Against the Dark Arts Staffing
+  - Dumbledore's restrictions on Snape
 - Divination and Elective Study
   - Dream interpretation and O.W.L. preparation
   - Planetary divination in the North Tower classroom
@@ -438,6 +440,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trelawney's appointment interview and the first prophecy
 - Examinations and Academic Progression
   - O.W.L. crisis response and staff injury aftermath
+- Famous Students and Wartime Rumor
+  - Harry Potter's arrival and Death Eater interpretations
 - Grounds, Transport, and the Forbidden Forest
   - Thestrals beyond school-carriage service
 - Harry Potter Before Hogwarts
@@ -504,6 +508,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - National Mascots and Event Control
 - Magical Evidence and Investigation
   - Wand Spell Echoes and Prior Incantato
+- Magical Oaths and Wartime Obligations
+  - Unbreakable Vow procedure
 - Marauders-Era Context and Hidden Identities
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
@@ -584,6 +590,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
   - Competing giant recruitment after Karkus's death
+  - Hogwarts as an intelligence post
   - Ministry surveillance and the giant mission route
   - Order Escorts for School Travel
   - Order Leadership, Membership, and Headquarters Meetings
@@ -656,6 +663,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Rita Skeeter's Unregistered Animagus Surveillance
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wartime Movement and Secrecy Outside Hogwarts
+  - Apparition into Muggle spaces and Auror fear
 - Wizarding Institutions Beyond Hogwarts
   - St. Mungo's ward safety and Ministry casualties
 - Wizarding Law in the Classroom
@@ -890,6 +899,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Information Security and Eavesdropping
   - Extendable Ears and Imperturbable Charm
   - Student Exclusion from Order Intelligence
+- Information Security and Secret-Keeping
+  - Secret-Keeper limits on disclosure
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House
   - Troll Intrusion and Stone Diversion

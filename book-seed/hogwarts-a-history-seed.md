@@ -2397,6 +2397,20 @@ Summary: The available evidence includes 1 source item, led by: Sirius and Lupin
   - Corroborates: `ootp-ch18-007`, `ootp-ch21-006`. ootp-ch18-007 records the D.A.'s formal first practice and ootp-ch21-006 records later spell progression; this entry adds a named private book set Harry planned to use as practical teaching material.
   - Notes: The books are private gifts, not Hogwarts-issued course texts.
 
+### Chapter: Defense Against the Dark Arts Staffing
+
+#### Section: Dumbledore's restrictions on Snape
+
+Summary: The available evidence includes 1 source item, led by: Snape states that Dumbledore would not give him the Defense Against the Dark Arts position and limited his proximity to the Dark Arts despite retaining him on staff.
+
+- **Corroboration:** Snape states that Dumbledore would not give him the Defense Against the Dark Arts position and limited his proximity to the Dark Arts despite retaining him on staff.
+  - Quote: "never allowing me nearer the Dark Arts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, PDF p. 2438, `hbp-ch02-003`, `sources/book-06/chapter-02-spinner-s-end.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `cos-ch07-004`. cos-ch07-004 records the broader rumor that the Defense Against the Dark Arts job is hard to fill and possibly jinxed; this entry adds Snape's claim that Dumbledore personally kept him from the post because of Dark Arts relapse risk.
+  - Notes: The explanation comes from Snape's self-presentation and does not provide Dumbledore's own wording or the full appointment history.
+
 ### Chapter: Divination and Elective Study
 
 #### Section: Dream interpretation and O.W.L. preparation
@@ -5046,6 +5060,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `ootp-ch04-006`, `ootp-ch05-001`. ootp-ch04-006 records Extendable Ears and the Imperturbable Charm, while ootp-ch05-001 records confidential headquarters papers; this entry adds sustained child-exclusion practice after Harry's hearing.
   - Notes: The passage does not list the specific conversations withheld or the full security rules for minors at headquarters.
 
+### Chapter: Information Security and Secret-Keeping
+
+#### Section: Secret-Keeper limits on disclosure
+
+Summary: The available evidence includes 1 source item, led by: Snape says the Fidelius-style protection around Order headquarters prevents him from speaking the place's name because he is not the Secret-Keeper, though he can pass other operational information.
+
+- **Corroboration:** Snape says the Fidelius-style protection around Order headquarters prevents him from speaking the place's name because he is not the Secret-Keeper, though he can pass other operational information.
+  - Quote: "I am not the Secret-Keeper"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, PDF p. 2440, `hbp-ch02-004`, `sources/book-06/chapter-02-spinner-s-end.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch06-007`, `ootp-ch37-004`. ootp-ch06-007 identifies Grimmauld Place as protected by Dumbledore's Secret-Keeper role, and ootp-ch37-004 records Kreacher's Secret-Keeper limits; this entry adds Snape's inability to reveal the headquarters name despite supplying other intelligence.
+  - Notes: The passage does not name the Fidelius Charm directly or identify the headquarters address, relying on prior context for the protected place.
+
 ### Chapter: Internal Threats and Emergency Response
 
 #### Section: Prefect-Led Evacuation by House
@@ -7101,6 +7129,19 @@ Summary: The available evidence includes 1 source item, led by: The aftermath of
   - Corroborates: `ootp-ch31-006`. ootp-ch31-006 records the observed Astronomy practical attack and McGonagall injury; this entry adds the next-day hospital-wing aftermath, St. Mungo's transfer, and Pomfrey's protest framing.
   - Notes: The McGonagall medical details are reported by Madam Pomfrey rather than observed directly after transfer.
 
+### Chapter: Famous Students and Wartime Rumor
+
+#### Section: Harry Potter's arrival and Death Eater interpretations
+
+Summary: The available evidence includes 1 source item, led by: Snape recalls that when Harry first arrived at Hogwarts, rumors circulated among Voldemort's followers that Harry might be a powerful Dark wizard, and Snape later claims he tried to have Harry expelled rather than risk killing him near Dumbledore.
+
+- **Context:** Snape recalls that when Harry first arrived at Hogwarts, rumors circulated among Voldemort's followers that Harry might be a powerful Dark wizard, and Snape later claims he tried to have Harry expelled rather than risk killing him near Dumbledore.
+  - Quote: "when Potter first arrived at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, PDF p. 2441, `hbp-ch02-005`, `sources/book-06/chapter-02-spinner-s-end.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Snape's comments are hostile, self-justifying, and not a neutral measure of Harry's ability or Dumbledore's actual knowledge.
+
 ### Chapter: Grounds, Transport, and the Forbidden Forest
 
 #### Section: Thestrals beyond school-carriage service
@@ -7664,6 +7705,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: high
   - Reference type: cross_reference_candidate
   - Notes: The chapter shows the method in one case and does not define its limits, reliability, time window, or susceptibility to tampering.
+
+### Chapter: Magical Oaths and Wartime Obligations
+
+#### Section: Unbreakable Vow procedure
+
+Summary: The available evidence includes 1 source item, led by: The scene demonstrates the Unbreakable Vow procedure: the parties clasp right hands, a Bonder touches them with a wand, and each sworn promise produces binding tongues of flame.
+
+- **Context:** The scene demonstrates the Unbreakable Vow procedure: the parties clasp right hands, a Bonder touches them with a wand, and each sworn promise produces binding tongues of flame.
+  - Quote: "Perhaps your sister will consent to be our Bonder"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, PDF p. 2445, `hbp-ch02-006`, `sources/book-06/chapter-02-spinner-s-end.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage demonstrates the ritual but does not state the consequence of breaking the vow or provide legal history for the spell.
 
 ### Chapter: Marauders-Era Context and Hidden Identities
 
@@ -8397,6 +8451,18 @@ Summary: The available evidence includes 1 source item, led by: The mission's fa
   - Corroborates: `ootp-ch05-005`, `gof-ch36-006`. ootp-ch05-005 records Voldemort's recruitment strategy and gof-ch36-006 records Dumbledore's giant-envoy order; this entry adds Karkus's death, Golgomath, Macnair's daily visits, and the failed dissident-giant outreach.
   - Notes: Hagrid cannot confirm the final allegiance of every giant and frames only a possibility that some may later remember Dumbledore's message.
 
+#### Section: Hogwarts as an intelligence post
+
+Summary: The available evidence includes 1 source item, led by: Snape claims Voldemort originally placed him at Hogwarts to spy on Dumbledore and that remaining there after Voldemort's return let him pass information on Dumbledore and the Order.
+
+- **Corroboration:** Snape claims Voldemort originally placed him at Hogwarts to spy on Dumbledore and that remaining there after Voldemort's return let him pass information on Dumbledore and the Order.
+  - Quote: "remain at Hogwarts as a spy"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, PDF p. 2437, `hbp-ch02-002`, `sources/book-06/chapter-02-spinner-s-end.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch30-004`, `ootp-ch04-005`. gof-ch30-004 records Dumbledore's earlier claim that Snape became a spy before Voldemort's downfall, and ootp-ch04-005 records Order intelligence work; this entry adds Snape's own claimed rationale for staying at Hogwarts as Voldemort's source on Dumbledore and the Order.
+  - Notes: Snape is deliberately defending himself to Bellatrix, so the entry should preserve that this is his claimed explanation rather than neutral narration.
+
 #### Section: Ministry surveillance and the giant mission route
 
 Summary: The available evidence includes 1 source item, led by: Hagrid's account connects the giant mission to Dumbledore's intelligence, Ministry surveillance of his allies, and Hagrid's continuing vulnerability because he is not supposed to use magic freely.
@@ -8685,6 +8751,19 @@ Summary: The available evidence includes 1 source item, led by: McGonagall says 
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: historical_claim
   - Notes: The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
+
+### Chapter: Wartime Movement and Secrecy Outside Hogwarts
+
+#### Section: Apparition into Muggle spaces and Auror fear
+
+Summary: The available evidence includes 1 source item, led by: The opening demonstrates adult wizarding Apparition into a Muggle industrial neighborhood and shows Death Eater caution about possible Auror surveillance even before a private meeting.
+
+- **Context:** The opening demonstrates adult wizarding Apparition into a Muggle industrial neighborhood and shows Death Eater caution about possible Auror surveillance even before a private meeting.
+  - Quote: "appeared out of thin air"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, PDF p. 2431, `hbp-ch02-001`, `sources/book-06/chapter-02-spinner-s-end.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: direct_observed_setting
+  - Notes: The scene does not name the spell used on the fox, and the Apparition is outside Hogwarts, so school relevance is contextual rather than direct.
 
 ### Chapter: Wizarding Institutions Beyond Hogwarts
 

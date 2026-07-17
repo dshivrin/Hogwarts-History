@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Two - Spinner’s End
-- Page range: 2431-2446
+- Chapter: Chapter Three - Will and Won’t
+- Page range: 2447-2461
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-02-spinner-s-end.yaml`
+- Output YAML: `sources/book-06/chapter-03-will-and-won-t.yaml`
 
 ## Minimal Context
 

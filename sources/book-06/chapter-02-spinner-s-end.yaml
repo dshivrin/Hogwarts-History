@@ -1,0 +1,282 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  boundary_confidence: high
+  boundary_notes: Bounded pypdf extraction starts with the Chapter Two heading on PDF page 2431 and ends with the completed Unbreakable Vow on PDF page 2446, immediately before the next chapter anchor supplied in processing-state.yaml.
+  processed_date: '2026-07-17'
+  processor_notes: "Extracted only the bounded current range from processing-state anchors; no full-PDF scan was used. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+- id: hbp-ch02-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  pdf_page: 2431
+  printed_page: null
+  extracted_text_lines: 13-25; 39-48; 55-80
+  text_anchor:
+    start_phrase: with a very faint pop
+    end_phrase: dim light glimmered through the curtains
+    local_occurrence_note: Narcissa and Bellatrix Apparate beside the river, Bellatrix kills a fox after fearing it may be an Auror, and the sisters move through a Muggle street to Snape's house.
+  nearby_context: The chapter opens in an industrial Muggle neighborhood near a dirty river and disused mill before the sisters reach Spinner's End.
+  match_terms:
+  - Apparition
+  - Auror
+  - Muggle neighborhood
+  - Spinner's End
+  - Killing Curse
+  - concealment
+  quote_excerpt_short: "appeared out of thin air"
+  source_note: The opening demonstrates adult wizarding Apparition into a Muggle industrial neighborhood and shows Death Eater caution about possible Auror surveillance even before a private meeting.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - apparition
+  - aurors
+  - muggle-secrecy
+  - death-eaters
+  - spinner-end
+  - killing-curse
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wartime Movement and Secrecy Outside Hogwarts
+  candidate_section: Apparition into Muggle spaces and Auror fear
+  reason_for_placement: The passage gives concrete wartime context for how adult witches can enter Muggle areas covertly and why suspected observers are treated as security threats.
+  relevance_to_hogwarts_a_history: A later edition can use this as off-campus context for the transport and surveillance environment affecting Hogwarts families and staff during the Second War.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found general Apparition, Auror, and anti-Apparition entries, but no prior entry for Death Eater Apparition into a Muggle neighborhood or Bellatrix's Auror-fear reaction.
+  confidence: medium
+  limitations: The scene does not name the spell used on the fox, and the Apparition is outside Hogwarts, so school relevance is contextual rather than direct.
+
+- id: hbp-ch02-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  pdf_page: 2437
+  printed_page: null
+  extracted_text_lines: 202-209; 226-242; 260-266
+  text_anchor:
+    start_phrase: at Hogwarts School of Witchcraft and Wizardry
+    end_phrase: pass information on Dumbledore and the Order of the Phoenix
+    local_occurrence_note: Snape answers Bellatrix's accusations by explaining both the original spying assignment and his later value as a Hogwarts-placed informant.
+  nearby_context: Bellatrix challenges Snape's loyalty after Voldemort's fall, his failure to find Voldemort, and his absence from recent Death Eater actions.
+  match_terms:
+  - Hogwarts School of Witchcraft and Wizardry
+  - spy
+  - Dumbledore
+  - Death Eaters
+  - Order of the Phoenix
+  - Snape
+  quote_excerpt_short: "remain at Hogwarts as a spy"
+  source_note: Snape claims Voldemort originally placed him at Hogwarts to spy on Dumbledore and that remaining there after Voldemort's return let him pass information on Dumbledore and the Order.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - snape
+  - hogwarts
+  - dumbledore
+  - death-eaters
+  - order-of-the-phoenix
+  - intelligence
+  - second-war
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts-Connected Organizations
+  candidate_section: Hogwarts as an intelligence post
+  reason_for_placement: The passage reframes a Hogwarts staff appointment as a long-running intelligence position claimed by both sides of the war.
+  relevance_to_hogwarts_a_history: A later edition can cite this as central context for wartime staff trust, concealed allegiances, and the strategic value of Hogwarts access.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch30-004
+    - ootp-ch04-005
+    notes: gof-ch30-004 records Dumbledore's earlier claim that Snape became a spy before Voldemort's downfall, and ootp-ch04-005 records Order intelligence work; this entry adds Snape's own claimed rationale for staying at Hogwarts as Voldemort's source on Dumbledore and the Order.
+  confidence: high
+  limitations: Snape is deliberately defending himself to Bellatrix, so the entry should preserve that this is his claimed explanation rather than neutral narration.
+
+- id: hbp-ch02-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  pdf_page: 2438
+  printed_page: null
+  extracted_text_lines: 226-230; 345-349
+  text_anchor:
+    start_phrase: He wouldn't give me the Defense Against the Dark Arts job
+    end_phrase: never allowing me nearer the Dark Arts than he could help
+    local_occurrence_note: Snape says Dumbledore withheld the Defense Against the Dark Arts post because of fear it would tempt him back toward old allegiances.
+  nearby_context: Bellatrix mocks Snape's claimed sacrifice and later questions whether Dumbledore still trusts him.
+  match_terms:
+  - Defense Against the Dark Arts
+  - Dark Arts
+  - Dumbledore
+  - teacher appointments
+  - Snape
+  - staffing
+  quote_excerpt_short: "never allowing me nearer the Dark Arts"
+  source_note: Snape states that Dumbledore would not give him the Defense Against the Dark Arts position and limited his proximity to the Dark Arts despite retaining him on staff.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - dark-arts
+  - teacher-appointments
+  - staffing
+  - dumbledore
+  - snape
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Defense Against the Dark Arts Staffing
+  candidate_section: Dumbledore's restrictions on Snape
+  reason_for_placement: The passage gives staff-side evidence that the headmaster considered a teacher's history and subject risk when controlling access to the Defense Against the Dark Arts post.
+  relevance_to_hogwarts_a_history: This later editorial evidence can refine a section on the cursed or unstable Defense post by adding Dumbledore's caution toward Snape specifically.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-004
+    notes: cos-ch07-004 records the broader rumor that the Defense Against the Dark Arts job is hard to fill and possibly jinxed; this entry adds Snape's claim that Dumbledore personally kept him from the post because of Dark Arts relapse risk.
+  confidence: high
+  limitations: The explanation comes from Snape's self-presentation and does not provide Dumbledore's own wording or the full appointment history.
+
+- id: hbp-ch02-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  pdf_page: 2440
+  printed_page: null
+  extracted_text_lines: 301-309
+  text_anchor:
+    start_phrase: you still claim you cannot reveal the whereabouts
+    end_phrase: led, as perhaps you have guessed, to the recent capture
+    local_occurrence_note: Bellatrix asks about the Order headquarters, and Snape says he cannot speak its name because he is not the Secret-Keeper.
+  nearby_context: The exchange follows discussion of the Department of Mysteries battle and turns to what information Snape can pass to Voldemort.
+  match_terms:
+  - Secret-Keeper
+  - enchantment
+  - Order headquarters
+  - communication security
+  - Emmeline Vance
+  - Sirius Black
+  quote_excerpt_short: "I am not the Secret-Keeper"
+  source_note: Snape says the Fidelius-style protection around Order headquarters prevents him from speaking the place's name because he is not the Secret-Keeper, though he can pass other operational information.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - secret-keeper
+  - fidelius
+  - order-of-the-phoenix
+  - communication-security
+  - protective-magic
+  - snape
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Information Security and Secret-Keeping
+  candidate_section: Secret-Keeper limits on disclosure
+  reason_for_placement: The passage gives a concise operational statement of how Secret-Keeper magic blocks even a compromised insider from naming a protected headquarters.
+  relevance_to_hogwarts_a_history: A later edition can use this alongside school protections to explain magical secrecy systems that affected Hogwarts-linked wartime organizations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch06-007
+    - ootp-ch37-004
+    notes: ootp-ch06-007 identifies Grimmauld Place as protected by Dumbledore's Secret-Keeper role, and ootp-ch37-004 records Kreacher's Secret-Keeper limits; this entry adds Snape's inability to reveal the headquarters name despite supplying other intelligence.
+  confidence: high
+  limitations: The passage does not name the Fidelius Charm directly or identify the headquarters address, relying on prior context for the protected place.
+
+- id: hbp-ch02-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  pdf_page: 2441
+  printed_page: null
+  extracted_text_lines: 323-340
+  text_anchor:
+    start_phrase: when Potter first arrived at Hogwarts
+    end_phrase: with Dumbledore close at hand
+    local_occurrence_note: Snape explains why he did not kill Harry during his first five school years and describes early rumors about Harry after his arrival.
+  nearby_context: Bellatrix presses Snape on why Harry Potter has remained alive despite being at Hogwarts under Snape's supervision.
+  match_terms:
+  - Harry Potter
+  - Hogwarts
+  - castle
+  - expulsion
+  - Dumbledore
+  - dark wizard rumors
+  quote_excerpt_short: "when Potter first arrived at Hogwarts"
+  source_note: Snape recalls that when Harry first arrived at Hogwarts, rumors circulated among Voldemort's followers that Harry might be a powerful Dark wizard, and Snape later claims he tried to have Harry expelled rather than risk killing him near Dumbledore.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - harry-potter
+  - hogwarts
+  - castle
+  - expulsion
+  - dumbledore
+  - voldemort
+  - public-rumor
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Famous Students and Wartime Rumor
+  candidate_section: Harry Potter's arrival and Death Eater interpretations
+  reason_for_placement: The passage records a Death Eater-side interpretation of Harry's first-year arrival and shows Hogwarts as the institution that protected his student status under Dumbledore.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how Harry's status as a Hogwarts student intersected with wider political myths and staff-side decisions.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found entries for Harry's scar, school placement, and expulsion rules, but no prior entry for Death Eater rumors around Harry's arrival or Snape's claimed expulsion strategy.
+  confidence: medium
+  limitations: Snape's comments are hostile, self-justifying, and not a neutral measure of Harry's ability or Dumbledore's actual knowledge.
+
+- id: hbp-ch02-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Two - Spinner's End
+  chapter_start_pdf_page: 2431
+  chapter_end_pdf_page: 2446
+  pdf_page: 2445
+  printed_page: null
+  extracted_text_lines: 460-503
+  text_anchor:
+    start_phrase: Will you make the Unbreakable Vow
+    end_phrase: bound itself thickly around their clasped hands
+    local_occurrence_note: Narcissa asks Snape to swear, Bellatrix acts as Bonder with her wand, and three flame bonds mark the three promises.
+  nearby_context: Narcissa has begged Snape to protect Draco and complete Voldemort's task if Draco fails.
+  match_terms:
+  - Unbreakable Vow
+  - Bonder
+  - wand
+  - Draco Malfoy
+  - flame
+  - magical oath
+  quote_excerpt_short: "Perhaps your sister will consent to be our Bonder"
+  source_note: "The scene demonstrates the Unbreakable Vow procedure: the parties clasp right hands, a Bonder touches them with a wand, and each sworn promise produces binding tongues of flame."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - unbreakable-vow
+  - magical-oaths
+  - wand-magic
+  - draco-malfoy
+  - snape
+  - bellatrix-lestrange
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Magical Oaths and Wartime Obligations
+  candidate_section: Unbreakable Vow procedure
+  reason_for_placement: The passage gives one of the clearest observed procedures for a binding magical oath that directly affects a Hogwarts student's assigned mission.
+  relevance_to_hogwarts_a_history: A later edition can cite this as wartime context for Draco Malfoy's sixth-year actions and for magical obligations that operate outside ordinary school discipline.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found no prior entry for the Unbreakable Vow, Bonder role, or flame-binding oath procedure.
+  confidence: high
+  limitations: The passage demonstrates the ritual but does not state the consequence of breaking the vow or provide legal history for the spell.
