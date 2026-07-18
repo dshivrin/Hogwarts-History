@@ -2953,6 +2953,18 @@ Summary: The available evidence includes 1 source item, led by: The conversation
 
 ### Chapter: Teachers, Patronage, and Student Advancement
 
+#### Section: Alumni achievements and Slughorn's social memory
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's train lunch supplies named examples of Hogwarts-linked alumni and social contacts, including Damocles Belby, the Wolfsbane Potion, McLaggen's Ministry links, and Gwenog Jones of the Holyhead Harpies.
+
+- **Corroboration:** Slughorn's train lunch supplies named examples of Hogwarts-linked alumni and social contacts, including Damocles Belby, the Wolfsbane Potion, McLaggen's Ministry links, and Gwenog Jones of the Holyhead Harpies.
+  - Quote: "he invented the Wolfsbane Potion"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2535, `hbp-ch07-006`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `hbp-ch04-006`, `poa-ch18-002`. hbp-ch04-006 records the general Slughorn patronage network, and poa-ch18-002 records Wolfsbane Potion as a recent werewolf accommodation; this entry adds Damocles Belby as inventor plus Slughorn's alumni-contact framing.
+  - Notes: The passage does not explicitly state Damocles Belby attended Hogwarts, only that Slughorn taught him; the Hogwarts link is inferred from Slughorn's teaching career.
+
 #### Section: Former-student memories of Slughorn's network
 
 Summary: The available evidence includes 1 source item, led by: Molly Weasley confirms Slughorn taught her and Arthur, had a long Hogwarts tenure overlapping Dumbledore's era, and left many favored former students placed in Ministry life.
@@ -2975,6 +2987,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore descr
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: institutional_custom
   - Notes: The evidence comes from Dumbledore's characterization and does not yet list the full membership or formal name used later.
+
+#### Section: The Slug Club as an informal student network
+
+Summary: The available evidence includes 1 source item, led by: Slughorn begins rebuilding his informal Hogwarts patronage circle on the train, inviting selected students by violet-ribboned notes and sorting them by fame, family connections, or displayed talent.
+
+- **Corroboration:** Slughorn begins rebuilding his informal Hogwarts patronage circle on the train, inviting selected students by violet-ribboned notes and sorting them by fame, family connections, or displayed talent.
+  - Quote: "the "Slug Club" at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2533, `hbp-ch07-005`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch04-006`, `hbp-ch05-001`. hbp-ch04-006 records Dumbledore's explanation of Slughorn's favorites network, and hbp-ch05-001 records Molly's former-student memory; this entry adds the named "Slug Club," train-compartment lunch format, and selected invitee roster.
+  - Notes: Slughorn's choices are inferred partly through Harry's interpretation, though the invitation list and club name are direct evidence.
 
 ### Chapter: Timetables, Electives, and Exceptional Study Arrangements
 
@@ -3786,6 +3810,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter expa
   - Reference type: institutional_custom
   - Corroborates: `ps-ch06-002`. ps-ch06-002 already records prefect badges and reserved train compartments; this entry adds fifth-year House-pair appointments, Head Boy and Girl instructions, patrol duties, and punishment authority.
   - Notes: The passage reports student understanding of powers and duties, not a written prefect handbook or staff statement.
+
+#### Section: Prefect carriage duties and train patrols
+
+Summary: The available evidence includes 1 source item, led by: Prefects are expected to report first to the prefects' carriage and patrol Hogwarts Express corridors; Draco's failure to do so is treated as unusual because he previously enjoyed abusing prefect power.
+
+- **Corroboration:** Prefects are expected to report first to the prefects' carriage and patrol Hogwarts Express corridors; Draco's failure to do so is treated as unusual because he previously enjoyed abusing prefect power.
+  - Quote: "patrol the corridors for a bit"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2526, `hbp-ch07-002`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch10-002`, `ps-ch06-002`. ootp-ch10-002 records fifth-year prefect structure, Head Boy and Girl instructions, patrol duties, and punishment authority; ps-ch06-002 records prefect badges and reserved train compartments. This entry adds sixth-year confirmation and Draco's skipped duty after the Inquisitorial Squad.
+  - Notes: The rule is reported through student dialogue rather than a written prefect handbook.
 
 #### Section: Prefects on the Hogwarts Express
 
@@ -5520,6 +5556,17 @@ Summary: The available evidence includes 1 source item, led by: A Ministry house
   - Notes: The leaflet is summarized through visible excerpts; page-two details and the full guidance text are not present in this chapter.
 
 ### Chapter: Wartime School Protection
+
+#### Section: Guarded start-of-term travel during the Second War
+
+Summary: The available evidence includes 1 source item, led by: The start-of-term journey is under Second War security: Ministry cars carry Harry's party, Aurors escort them through King's Cross, and the normal platform barrier and Hogwarts Express route remain in use.
+
+- **Context:** The start-of-term journey is under Second War security: Ministry cars carry Harry's party, Aurors escort them through King's Cross, and the normal platform barrier and Hogwarts Express route remain in use.
+  - Quote: "there will be Aurors waiting at the station"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2525, `hbp-ch07-001`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The scene gives one protected party's route and does not state the full Ministry security plan for all students.
 
 #### Section: Ministry security measures for Hogwarts in the Second War
 
@@ -8690,6 +8737,18 @@ Summary: The available evidence includes 1 source item, led by: A Daily Prophet 
   - Reference type: explicit_in_universe_source
   - Notes: The article is speculative and does not disclose the prophecy text or confirm official Ministry details beyond the arrests and public rumors.
 
+#### Section: Public prophecy rumors entering student life
+
+Summary: The available evidence includes 1 source item, led by: Daily Prophet publicity about the Department of Mysteries and the Chosen One rumor visibly changes Harry's Hogwarts social standing before term begins, making him a target of student attention and Slughorn's curiosity.
+
+- **Corroboration:** Daily Prophet publicity about the Department of Mysteries and the Chosen One rumor visibly changes Harry's Hogwarts social standing before term begins, making him a target of student attention and Slughorn's curiosity.
+  - Quote: "Chosen One rumors in the Daily Prophet"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2529, `hbp-ch07-003`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch03-001`. hbp-ch03-001 records the Daily Prophet article that publicized the Hall of Prophecy and Chosen One rumor; this entry adds the rumor's practical effect on Hogwarts Express social life and Slughorn's questioning.
+  - Notes: The passage reflects public rumor and social reaction, not an official confirmation of the prophecy contents.
+
 #### Section: Student and staff workarounds under information control
 
 Summary: The available evidence includes 1 source item, led by: Students evade the Quibbler ban with concealment charms, while teachers forbidden by Decree Twenty-six still show indirect support through ordinary school mechanisms.
@@ -8901,6 +8960,19 @@ Summary: The available evidence includes 1 source item, led by: The school suppl
   - Reference type: security_or_protection
   - Corroborates: `ps-ch05-003`, `poa-ch04-001`. ps-ch05-003 and poa-ch04-001 establish Diagon Alley as the school-supply district and Leaky Cauldron route; this entry adds the Second War transformation, Ministry poster coverage, boarded shops, and group-shopping behavior.
   - Notes: The passage observes the street in one wartime visit and does not quantify how many supply shops remained open.
+
+### Chapter: The Second War and Student Life
+
+#### Section: Death Eater service versus Hogwarts qualifications
+
+Summary: The available evidence includes 1 source item, led by: Draco treats Hogwarts education and exam qualifications as dispensable under Voldemort's expected rule, implying that Death Eater service could supersede school completion; his later attack on Harry shows the same threat entering the school travel system.
+
+- **Context:** Draco treats Hogwarts education and exam qualifications as dispensable under Voldemort's expected rule, implying that Death Eater service could supersede school completion; his later attack on Harry shows the same threat entering the school travel system.
+  - Quote: "might not even be at Hogwarts next year"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2541, `hbp-ch07-007`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Malfoy is boasting to peers and concealing details; the evidence confirms his stated attitude, not the full mission or Voldemort's actual credential policy.
 
 ### Chapter: The Sirius Black Crisis
 
@@ -9834,6 +9906,18 @@ Summary: The available evidence includes 1 source item, led by: The D.A. curricu
   - Reference type: curriculum_or_subject
   - Corroborates: `ootp-ch18-007`, `ootp-ch15-007`, `ootp-ch16-004`, `ootp-ch08-003`. ootp-ch18-007 records the first Expelliarmus lesson, ootp-ch15-007 and ootp-ch16-004 record the proposal and organizing meeting, and ootp-ch08-003 records Harry's Patronus instruction; this entry adds later D.A. review work, Stunning practice, and planned Patronuses.
   - Notes: The D.A. remains unauthorized, so this should not be treated as official DADA curriculum.
+
+#### Section: Dumbledore's Army after Umbridge
+
+Summary: The available evidence includes 1 source item, led by: Students who trained in Dumbledore's Army still expect or hope for continued meetings after Umbridge's removal, showing the group's lingering educational and social value.
+
+- **Corroboration:** Students who trained in Dumbledore's Army still expect or hope for continued meetings after Umbridge's removal, showing the group's lingering educational and social value.
+  - Quote: "Are we still doing D.A. meetings this year?"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, PDF p. 2530, `hbp-ch07-004`, `sources/book-06/chapter-07-the-slug-club.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch18-007`. ootp-ch18-007 records the formal D.A. naming and first Room of Requirement practice; this entry adds returning members' expectation of possible continuation after Umbridge's departure.
+  - Notes: Harry's answer suggests no immediate continuation, so the evidence concerns expectation and memory rather than an active sixth-year program.
 
 #### Section: Dumbledore's Army and student-led practical Defense
 

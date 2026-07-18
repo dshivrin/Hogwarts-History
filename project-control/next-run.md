@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Seven - The Slug Club
-- Page range: 2523-2544
+- Chapter: Chapter Eight - Snape Victorious
+- Page range: 2545-2558
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-07-the-slug-club.yaml`
+- Output YAML: `sources/book-06/chapter-08-snape-victorious.yaml`
 
 ## Minimal Context
 

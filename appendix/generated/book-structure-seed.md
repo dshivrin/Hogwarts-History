@@ -144,8 +144,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staffing the Curriculum
   - Post-Umbridge vacancy and former Heads of House
 - Teachers, Patronage, and Student Advancement
+  - Alumni achievements and Slughorn's social memory
   - Former-student memories of Slughorn's network
   - Slughorn's favorites and alumni network
+  - The Slug Club as an informal student network
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
   - Time-Turner Authorization for Overlapping Lessons
@@ -302,6 +304,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Defense Against the Dark Arts
   - D.A. Shield Charm practice after the breakout
   - D.A. spell progression and student improvement
+  - Dumbledore's Army after Umbridge
   - Dumbledore's Army and student-led practical Defense
   - Student-Led Practical Defense in the Umbridge Year
 
@@ -603,6 +606,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Alternative press reaches Hogwarts by owl post
   - Ministry acknowledgement and Dumbledore's reinstatement
   - Public prophecy rumors after the Department of Mysteries
+  - Public prophecy rumors entering student life
   - Student and staff workarounds under information control
   - The Azkaban breakout reaches the Great Hall
 - The Second War and Hogwarts Security Breaches
@@ -627,6 +631,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Public disasters, Auror response, and memory repair
 - The Second War and School Supply Routes
   - Diagon Alley under wartime security pressure
+- The Second War and Student Life
+  - Death Eater service versus Hogwarts qualifications
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -977,6 +983,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry identity challenges at home
   - Ministry public guidance against Dark forces
 - Wartime School Protection
+  - Guarded start-of-term travel during the Second War
   - Ministry security measures for Hogwarts in the Second War
 - Wartime Student Movement and Escorts
   - Ministry transport and Hogwarts-chosen escort
@@ -1104,6 +1111,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Press Suppression, Ministry Spies, and Dumbledore's Offices
 - Prefects and Student Authority
   - Fifth-Year Prefects and Train Patrols
+  - Prefect carriage duties and train patrols
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority
   - Head Boy Appointment and Insignia

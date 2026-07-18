@@ -13562,6 +13562,115 @@ by_entry:
     - vanishing-cabinet
     source_unit: hbp-ch06
     output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch07-001:
+    title: 'Wartime School Protection: Guarded start-of-term travel during the Second
+      War'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - auror-escort
+    - hogwarts-express
+    - kings-cross
+    - ministry-cars
+    - platform-nine-and-three-quarters
+    - student-travel
+    - wartime-security
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch07-002:
+    title: 'Prefects and Student Authority: Prefect carriage duties and train patrols'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - corridor-patrols
+    - discipline
+    - hogwarts-express
+    - inquisitorial-squad
+    - prefect-carriage
+    - prefects
+    - student-governance
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch07-003:
+    title: 'The Second War and Hogwarts Information Climate: Public prophecy rumors
+      entering student life'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - chosen-one
+    - daily-prophet
+    - department-of-mysteries
+    - ministry-publicity
+    - prophecy
+    - second-war
+    - student-reputation
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch07-004:
+    title: 'Defense Against the Dark Arts: Dumbledore''s Army after Umbridge'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - dumbledores-army
+    - luna-lovegood
+    - neville-longbottom
+    - practical-defense
+    - student-led-instruction
+    - student-organization
+    - umbridge
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch07-005:
+    title: 'Teachers, Patronage, and Student Advancement: The Slug Club as an informal
+      student network'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hogwarts-express
+    - influential-students
+    - patronage
+    - school-networks
+    - slug-club
+    - slughorn
+    - student-selection
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch07-006:
+    title: 'Teachers, Patronage, and Student Advancement: Alumni achievements and
+      Slughorn''s social memory'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - alumni-network
+    - damocles-belby
+    - gwenog-jones
+    - holyhead-harpies
+    - order-of-merlin
+    - slughorn
+    - wolfsbane-potion
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch07-007:
+    title: 'The Second War and Student Life: Death Eater service versus Hogwarts qualifications'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - death-eaters
+    - draco-malfoy
+    - hogwarts-education
+    - hogwarts-express
+    - newts
+    - owls
+    - second-war
+    source_unit: hbp-ch07
+    output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13661,6 +13770,7 @@ by_tag:
   - gof-ch31-001
   alumni-network:
   - hbp-ch05-001
+  - hbp-ch07-006
   amelia-bones:
   - hbp-ch01-005
   - ootp-ch07-001
@@ -13797,6 +13907,8 @@ by_tag:
   - hbp-ch05-007
   - ootp-ch03-004
   - ootp-ch29-004
+  auror-escort:
+  - hbp-ch07-001
   auror-experience:
   - gof-ch13-007
   auror-headquarters:
@@ -14349,6 +14461,7 @@ by_tag:
   - poa-ch05-004
   chosen-one:
   - hbp-ch03-001
+  - hbp-ch07-003
   christmas:
   - gof-ch22-003
   - gof-ch23-001
@@ -14513,6 +14626,7 @@ by_tag:
   - poa-ch07-005
   corridor-patrols:
   - cos-ch16-004
+  - hbp-ch07-002
   - ootp-ch21-003
   corridors:
   - ps-ch10-004
@@ -14683,6 +14797,7 @@ by_tag:
   - gof-ch24-002
   - gof-ch37-006
   - hbp-ch03-001
+  - hbp-ch07-003
   - ootp-ch01-001
   - ootp-ch04-007
   - ootp-ch05-007
@@ -14692,6 +14807,8 @@ by_tag:
   - ootp-ch25-007
   - poa-ch12-003
   - poa-ch19-004
+  damocles-belby:
+  - hbp-ch07-006
   dangerous-creatures:
   - hbp-ch01-003
   - hbp-ch03-006
@@ -14766,6 +14883,7 @@ by_tag:
   - hbp-ch04-003
   - hbp-ch05-003
   - hbp-ch06-002
+  - hbp-ch07-007
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -14920,6 +15038,7 @@ by_tag:
   department-of-mysteries:
   - gof-ch07-004
   - gof-ch30-004
+  - hbp-ch07-003
   - ootp-ch07-007
   - ootp-ch25-002
   - ootp-ch34-003
@@ -14998,6 +15117,7 @@ by_tag:
   - ootp-ch08-002
   discipline:
   - cos-ch05-005
+  - hbp-ch07-002
   - ootp-ch10-002
   - ootp-ch13-001
   - ps-ch08-003
@@ -15101,6 +15221,7 @@ by_tag:
   - cos-ch04-004
   - hbp-ch02-006
   - hbp-ch06-007
+  - hbp-ch07-007
   dragon-breeds:
   - gof-ch20-006
   dragon-egg:
@@ -15274,6 +15395,7 @@ by_tag:
   - ootp-ch22-001
   - ootp-ch37-001
   dumbledores-army:
+  - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch18-007
   - ootp-ch21-004
@@ -16212,6 +16334,8 @@ by_tag:
   - gof-ch21-003
   gurg:
   - ootp-ch20-004
+  gwenog-jones:
+  - hbp-ch07-006
   hagrid:
   - cos-ch02-004
   - cos-ch07-005
@@ -16671,6 +16795,8 @@ by_tag:
   - gof-ch31-004
   hogwarts-danger:
   - cos-ch02-002
+  hogwarts-education:
+  - hbp-ch07-007
   hogwarts-ethos:
   - cos-ch14-007
   hogwarts-express:
@@ -16682,6 +16808,10 @@ by_tag:
   - cos-ch18-007
   - gof-ch03-003
   - gof-ch11-002
+  - hbp-ch07-001
+  - hbp-ch07-002
+  - hbp-ch07-005
+  - hbp-ch07-007
   - ootp-ch10-002
   - ootp-ch10-003
   - ootp-ch38-007
@@ -16810,6 +16940,8 @@ by_tag:
   - ootp-ch23-003
   holidays-at-hogwarts:
   - poa-ch11-004
+  holyhead-harpies:
+  - hbp-ch07-006
   home-life-and-social-habits:
   - poa-ch13-005
   homework:
@@ -17087,6 +17219,8 @@ by_tag:
   inferi:
   - hbp-ch03-003
   - hbp-ch04-002
+  influential-students:
+  - hbp-ch07-005
   informal-custom:
   - hbp-ch04-006
   informal-source:
@@ -17105,6 +17239,7 @@ by_tag:
   inigo-imago:
   - ootp-ch12-005
   inquisitorial-squad:
+  - hbp-ch07-002
   - ootp-ch28-002
   - ootp-ch28-004
   - ootp-ch30-002
@@ -17261,6 +17396,7 @@ by_tag:
   - cos-ch04-001
   - cos-ch05-001
   - gof-ch11-002
+  - hbp-ch07-001
   - ootp-ch10-001
   - poa-ch05-001
   - ps-ch06-001
@@ -17458,6 +17594,7 @@ by_tag:
   - poa-ch05-001
   - ps-ch06-006
   luna-lovegood:
+  - hbp-ch07-004
   - ootp-ch10-003
   - ootp-ch10-005
   - ootp-ch10-007
@@ -17921,6 +18058,8 @@ by_tag:
   - poa-ch21-001
   ministry-authorization:
   - poa-ch21-002
+  ministry-cars:
+  - hbp-ch07-001
   ministry-censorship:
   - ootp-ch25-007
   - ootp-ch26-001
@@ -18047,6 +18186,8 @@ by_tag:
   ministry-public-guidance:
   - hbp-ch03-003
   - hbp-ch04-002
+  ministry-publicity:
+  - hbp-ch07-003
   ministry-register:
   - poa-ch18-001
   ministry-response:
@@ -18267,6 +18408,7 @@ by_tag:
   nesting-mothers:
   - gof-ch19-005
   neville-longbottom:
+  - hbp-ch07-004
   - ootp-ch21-006
   - ootp-ch25-005
   - ootp-ch37-007
@@ -18282,6 +18424,7 @@ by_tag:
   newt-students:
   - hbp-ch05-006
   newts:
+  - hbp-ch07-007
   - ootp-ch31-002
   - poa-ch16-001
   - poa-ch22-005
@@ -18418,6 +18561,7 @@ by_tag:
   - gof-ch36-006
   - ootp-ch20-002
   order-of-merlin:
+  - hbp-ch07-006
   - ootp-ch05-007
   - ootp-ch06-001
   - poa-ch10-006
@@ -18516,6 +18660,7 @@ by_tag:
   - gof-ch05-002
   - gof-ch06-003
   - hbp-ch05-006
+  - hbp-ch07-007
   - ootp-ch16-004
   - poa-ch04-005
   - poa-ch16-001
@@ -18575,6 +18720,7 @@ by_tag:
   - cos-ch13-001
   patronage:
   - hbp-ch04-006
+  - hbp-ch07-005
   patronus:
   - ootp-ch01-005
   - ootp-ch02-002
@@ -18713,6 +18859,7 @@ by_tag:
   platform-nine-and-three-quarters:
   - cos-ch05-001
   - gof-ch11-002
+  - hbp-ch07-001
   - ootp-ch10-001
   - poa-ch01-005
   - poa-ch05-001
@@ -18827,6 +18974,7 @@ by_tag:
   - gof-ch14-004
   - gof-ch34-004
   practical-defense:
+  - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch16-004
   - ootp-ch18-007
@@ -18873,6 +19021,8 @@ by_tag:
   - poa-ch03-003
   predictions:
   - gof-ch14-006
+  prefect-carriage:
+  - hbp-ch07-002
   prefect-status:
   - hbp-ch06-001
   prefects:
@@ -18882,6 +19032,7 @@ by_tag:
   - cos-ch12-002
   - cos-ch13-002
   - cos-ch13-006
+  - hbp-ch07-002
   - ootp-ch09-005
   - ootp-ch09-006
   - ootp-ch10-002
@@ -19074,6 +19225,7 @@ by_tag:
   prophecy:
   - gof-ch10-005
   - hbp-ch05-005
+  - hbp-ch07-003
   - ootp-ch34-007
   - ootp-ch35-001
   - ootp-ch35-002
@@ -19534,6 +19686,7 @@ by_tag:
   school-networks:
   - hbp-ch04-006
   - hbp-ch05-001
+  - hbp-ch07-005
   school-origins:
   - gof-ch12-002
   - ootp-ch11-003
@@ -19672,6 +19825,8 @@ by_tag:
   - hbp-ch04-004
   - hbp-ch05-002
   - hbp-ch05-003
+  - hbp-ch07-003
+  - hbp-ch07-007
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -19891,10 +20046,13 @@ by_tag:
   - ootp-ch30-002
   slug-club:
   - hbp-ch04-006
+  - hbp-ch07-005
   slughorn:
   - hbp-ch04-004
   - hbp-ch04-006
   - hbp-ch05-001
+  - hbp-ch07-005
+  - hbp-ch07-006
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -20275,6 +20433,7 @@ by_tag:
   student-family-contact:
   - cos-ch06-005
   student-governance:
+  - hbp-ch07-002
   - ootp-ch10-002
   - ps-ch06-002
   student-health:
@@ -20300,6 +20459,7 @@ by_tag:
   - poa-ch01-004
   - poa-ch04-006
   student-led-instruction:
+  - hbp-ch07-004
   - ootp-ch16-004
   - ootp-ch18-007
   - ootp-ch21-006
@@ -20334,6 +20494,8 @@ by_tag:
   student-notes:
   - gof-ch29-002
   - ootp-ch12-003
+  student-organization:
+  - hbp-ch07-004
   student-organizations:
   - ootp-ch17-001
   - ootp-ch19-001
@@ -20378,6 +20540,7 @@ by_tag:
   student-registry:
   - ps-ch04-006
   student-reputation:
+  - hbp-ch07-003
   - ootp-ch16-005
   student-research:
   - gof-ch20-001
@@ -20438,6 +20601,8 @@ by_tag:
   - poa-ch14-006
   - ps-ch10-003
   - ps-ch10-005
+  student-selection:
+  - hbp-ch07-005
   student-societies:
   - ootp-ch13-007
   student-spectators:
@@ -20464,6 +20629,7 @@ by_tag:
   - gof-ch03-003
   - gof-ch04-003
   - gof-ch04-004
+  - hbp-ch07-001
   - poa-ch03-002
   student-trunks:
   - cos-ch03-005
@@ -20880,6 +21046,7 @@ by_tag:
   two-way-mirror:
   - ootp-ch38-005
   umbridge:
+  - hbp-ch07-004
   - ootp-ch16-003
   - ootp-ch16-004
   - ootp-ch23-003
@@ -21129,6 +21296,7 @@ by_tag:
   wartime-security:
   - hbp-ch04-003
   - hbp-ch06-002
+  - hbp-ch07-001
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
@@ -21297,6 +21465,7 @@ by_tag:
   wizengamot-verdict:
   - ootp-ch08-007
   wolfsbane-potion:
+  - hbp-ch07-006
   - poa-ch18-002
   - poa-ch19-001
   - poa-ch20-002
