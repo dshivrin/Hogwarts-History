@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Five - An Excess of Phlegm
-- Page range: 2482-2502
+- Chapter: Chapter Six - Draco’s Detour
+- Page range: 2503-2522
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+- Output YAML: `sources/book-06/chapter-06-draco-s-detour.yaml`
 
 ## Minimal Context
 

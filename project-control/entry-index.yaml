@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-17'
+updated: '2026-07-18'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -13341,6 +13341,115 @@ by_entry:
     - snape
     source_unit: hbp-ch04
     output_yaml: sources/book-06/chapter-04-horace-slughorn.yaml
+  hbp-ch05-001:
+    title: 'Teachers, Patronage, and Student Advancement: Former-student memories
+      of Slughorn''s network'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - alumni-network
+    - career-connections
+    - ex-students
+    - ministry-of-magic
+    - school-networks
+    - slughorn
+    - staff-history
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch05-002:
+    title: 'The Second War and Defensive Magic: Counterfeit protective objects and
+      Ministry enforcement'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - counterfeit-defense
+    - defensive-spells
+    - magical-law-enforcement
+    - metamorph-medals
+    - protective-objects
+    - second-war
+    - sneakoscopes
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch05-003:
+    title: 'Wartime Household Precautions: Ministry identity challenges at home'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - burrow
+    - death-eaters
+    - household-security
+    - identity-verification
+    - impersonation
+    - ministry-procedure
+    - second-war
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch05-004:
+    title: 'Staffing the Curriculum: Post-Umbridge vacancy and former Heads of House'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - dolores-umbridge
+    - head-of-slytherin
+    - heads-of-house
+    - horace-slughorn
+    - staffing
+    - teacher-appointments
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch05-005:
+    title: 'Exceptional Instruction During the Second War: Headmaster-led private
+      lessons and prophecy preparation'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - advanced-defense
+    - anti-jinxes
+    - countercurses
+    - dumbledore
+    - evasive-enchantments
+    - private-lessons
+    - prophecy
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch05-006:
+    title: 'Exams and Assessment: O.W.L. result letters and grade scale'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - academic-progression
+    - defense-against-the-dark-arts
+    - exam-results
+    - grade-scale
+    - newt-students
+    - ordinary-wizarding-levels
+    - owls
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch05-007:
+    title: 'Exams and Assessment: Failed O.W.L.s, Head-of-House advice, and career
+      thresholds'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - auror
+    - beauxbatons
+    - failed-exams
+    - head-of-house
+    - newt-courses
+    - ordinary-wizarding-levels
+    - potions
+    source_unit: hbp-ch05
+    output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13349,6 +13458,7 @@ by_tag:
   academic-overload:
   - poa-ch07-003
   academic-progression:
+  - hbp-ch05-006
   - ootp-ch12-002
   - ootp-ch13-003
   - poa-ch16-001
@@ -13390,6 +13500,8 @@ by_tag:
   - ps-ch04-004
   - ps-ch04-006
   - ps-ch05-002
+  advanced-defense:
+  - hbp-ch05-005
   advanced-magic:
   - cos-ch10-002
   - ootp-ch08-003
@@ -13435,6 +13547,8 @@ by_tag:
   - gof-ch05-001
   alumni-memory:
   - gof-ch31-001
+  alumni-network:
+  - hbp-ch05-001
   amelia-bones:
   - hbp-ch01-005
   - ootp-ch07-001
@@ -13487,6 +13601,8 @@ by_tag:
   - poa-ch20-007
   anti-disapparation:
   - ootp-ch36-007
+  anti-jinxes:
+  - hbp-ch05-005
   anti-muggle-pranks:
   - ootp-ch07-006
   anti-muggle-precautions:
@@ -13566,6 +13682,7 @@ by_tag:
   - ootp-ch36-004
   auror:
   - gof-ch19-006
+  - hbp-ch05-007
   - ootp-ch03-004
   - ootp-ch29-004
   auror-experience:
@@ -13685,6 +13802,7 @@ by_tag:
   - gof-ch24-001
   - gof-ch31-004
   - gof-ch37-005
+  - hbp-ch05-007
   bedtime-enforcement:
   - poa-ch13-006
   bell-jar:
@@ -13852,6 +13970,8 @@ by_tag:
   - poa-ch21-004
   buckbeak-appeal:
   - poa-ch15-004
+  burrow:
+  - hbp-ch05-003
   butterbeer:
   - gof-ch28-001
   captain-office:
@@ -13896,6 +14016,7 @@ by_tag:
   - ootp-ch29-004
   career-connections:
   - hbp-ch04-006
+  - hbp-ch05-001
   career-guidance:
   - cos-ch14-002
   careers:
@@ -14292,6 +14413,9 @@ by_tag:
   - ps-ch17-001
   countercurses:
   - hbp-ch03-002
+  - hbp-ch05-005
+  counterfeit-defense:
+  - hbp-ch05-002
   counterjinxes:
   - ootp-ch15-004
   - ootp-ch23-004
@@ -14522,6 +14646,7 @@ by_tag:
   - hbp-ch03-001
   - hbp-ch04-002
   - hbp-ch04-003
+  - hbp-ch05-003
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -14559,6 +14684,8 @@ by_tag:
   - gof-ch35-006
   - gof-ch37-002
   - hbp-ch02-003
+  - hbp-ch05-004
+  - hbp-ch05-006
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -14612,6 +14739,7 @@ by_tag:
   - ootp-ch17-006
   defensive-spells:
   - hbp-ch03-002
+  - hbp-ch05-002
   deflating-draught:
   - cos-ch11-002
   deletrius:
@@ -14808,6 +14936,7 @@ by_tag:
   - cos-ch03-002
   dolores-umbridge:
   - hbp-ch04-004
+  - hbp-ch05-004
   - ootp-ch08-006
   - ootp-ch11-002
   - ootp-ch11-006
@@ -14932,6 +15061,7 @@ by_tag:
   - hbp-ch02-005
   - hbp-ch03-007
   - hbp-ch04-007
+  - hbp-ch05-005
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -15175,16 +15305,21 @@ by_tag:
   - poa-ch21-007
   europe:
   - gof-ch09-002
+  evasive-enchantments:
+  - hbp-ch05-005
   everard:
   - ootp-ch22-002
   evidence:
   - poa-ch21-001
   ex-students:
   - hbp-ch04-006
+  - hbp-ch05-001
   exam-preparation:
   - ootp-ch31-001
   exam-procedure:
   - ootp-ch31-003
+  exam-results:
+  - hbp-ch05-006
   examination-grades:
   - ootp-ch15-002
   examination-hall:
@@ -15246,6 +15381,8 @@ by_tag:
   - ootp-ch31-002
   faculty-resistance:
   - ootp-ch28-005
+  failed-exams:
+  - hbp-ch05-007
   fairness:
   - gof-ch20-002
   fake-galleons:
@@ -15728,6 +15865,8 @@ by_tag:
   - gof-ch31-005
   golgomath:
   - ootp-ch20-005
+  grade-scale:
+  - hbp-ch05-006
   grawp:
   - ootp-ch30-006
   - ootp-ch33-006
@@ -16114,9 +16253,12 @@ by_tag:
   head-of-house:
   - gof-ch18-002
   - gof-ch36-002
+  - hbp-ch05-007
   - ootp-ch09-006
   - ootp-ch29-003
   - poa-ch08-003
+  head-of-slytherin:
+  - hbp-ch05-004
   headless-hats:
   - ootp-ch24-007
   headless-hunt:
@@ -16191,6 +16333,7 @@ by_tag:
   - cos-ch16-005
   - gof-ch13-006
   - hbp-ch04-005
+  - hbp-ch05-004
   - ootp-ch19-003
   - ps-ch08-006
   healer:
@@ -16556,6 +16699,8 @@ by_tag:
   - poa-ch10-004
   - poa-ch13-006
   - poa-ch14-004
+  horace-slughorn:
+  - hbp-ch05-004
   horseless-carriages:
   - gof-ch11-006
   - gof-ch12-001
@@ -16737,6 +16882,8 @@ by_tag:
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
+  household-security:
+  - hbp-ch05-003
   howler:
   - ootp-ch02-006
   howlers:
@@ -16758,6 +16905,7 @@ by_tag:
   - poa-ch12-005
   identity-verification:
   - hbp-ch04-002
+  - hbp-ch05-003
   - ootp-ch03-001
   illegal-creature:
   - ps-ch14-004
@@ -16777,6 +16925,7 @@ by_tag:
   - hbp-ch03-003
   impersonation:
   - hbp-ch04-002
+  - hbp-ch05-003
   - ootp-ch03-001
   imperturbable-charm:
   - ootp-ch04-006
@@ -17352,6 +17501,7 @@ by_tag:
   magical-law-enforcement:
   - gof-ch27-007
   - hbp-ch01-005
+  - hbp-ch05-002
   - ootp-ch07-001
   - ootp-ch07-004
   - ootp-ch07-006
@@ -17607,6 +17757,8 @@ by_tag:
   - gof-ch25-003
   - gof-ch26-007
   - gof-ch27-001
+  metamorph-medals:
+  - hbp-ch05-002
   metamorphmagus:
   - ootp-ch03-004
   millicent-bagnold:
@@ -17709,6 +17861,7 @@ by_tag:
   - gof-ch37-004
   - hbp-ch01-002
   - hbp-ch03-002
+  - hbp-ch05-001
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -17745,6 +17898,8 @@ by_tag:
   - ps-ch14-002
   ministry-posters:
   - ootp-ch25-006
+  ministry-procedure:
+  - hbp-ch05-003
   ministry-public-guidance:
   - hbp-ch03-003
   - hbp-ch04-002
@@ -17973,11 +18128,14 @@ by_tag:
   - poa-ch12-006
   - poa-ch13-007
   newt-courses:
+  - hbp-ch05-007
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch13-003
   - ootp-ch29-003
   - ootp-ch29-004
+  newt-students:
+  - hbp-ch05-006
   newts:
   - ootp-ch31-002
   - poa-ch16-001
@@ -18148,6 +18306,8 @@ by_tag:
   - poa-ch12-002
   ordinary-wizarding-levels:
   - gof-ch15-002
+  - hbp-ch05-006
+  - hbp-ch05-007
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch12-005
@@ -18210,6 +18370,7 @@ by_tag:
   - cos-ch04-003
   - gof-ch05-002
   - gof-ch06-003
+  - hbp-ch05-006
   - ootp-ch16-004
   - poa-ch04-005
   - poa-ch16-001
@@ -18500,6 +18661,7 @@ by_tag:
   - gof-ch18-004
   - gof-ch22-005
   - gof-ch35-007
+  - hbp-ch05-007
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -18608,6 +18770,7 @@ by_tag:
   - poa-ch20-005
   private-lessons:
   - hbp-ch04-007
+  - hbp-ch05-005
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
@@ -18763,6 +18926,7 @@ by_tag:
   - poa-ch18-006
   prophecy:
   - gof-ch10-005
+  - hbp-ch05-005
   - ootp-ch34-007
   - ootp-ch35-001
   - ootp-ch35-002
@@ -18786,6 +18950,8 @@ by_tag:
   - ootp-ch06-007
   - ootp-ch24-005
   - ootp-ch36-004
+  protective-objects:
+  - hbp-ch05-002
   protego:
   - ootp-ch36-003
   public-accountability:
@@ -19207,6 +19373,7 @@ by_tag:
   - poa-ch01-002
   school-networks:
   - hbp-ch04-006
+  - hbp-ch05-001
   school-origins:
   - gof-ch12-002
   - ootp-ch11-003
@@ -19336,6 +19503,8 @@ by_tag:
   - hbp-ch02-002
   - hbp-ch03-001
   - hbp-ch04-004
+  - hbp-ch05-002
+  - hbp-ch05-003
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -19549,6 +19718,7 @@ by_tag:
   slughorn:
   - hbp-ch04-004
   - hbp-ch04-006
+  - hbp-ch05-001
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -19619,6 +19789,8 @@ by_tag:
   sneakoscope:
   - gof-ch20-003
   - hbp-ch04-003
+  sneakoscopes:
+  - hbp-ch05-002
   snitch:
   - cos-ch07-001
   - ps-ch13-005
@@ -19751,6 +19923,7 @@ by_tag:
   - gof-ch24-007
   staff-history:
   - gof-ch27-005
+  - hbp-ch05-001
   - ps-ch01-002
   - ps-ch01-005
   staff-impersonation:
@@ -19804,6 +19977,7 @@ by_tag:
   - cos-ch07-004
   - gof-ch36-005
   - hbp-ch02-003
+  - hbp-ch05-004
   - ootp-ch11-005
   - poa-ch05-003
   staffroom:
@@ -20206,6 +20380,7 @@ by_tag:
   - cos-ch07-004
   - gof-ch12-006
   - hbp-ch02-003
+  - hbp-ch05-004
   - ootp-ch09-004
   - ootp-ch11-002
   - ootp-ch26-007

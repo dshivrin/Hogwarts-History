@@ -89,7 +89,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wizarding Examinations Authority examiners at Hogwarts
 - Exams and Assessment
   - Education Continuity During Crisis
+  - Failed O.W.L.s, Head-of-House advice, and career thresholds
   - Head Boy, Student Achievement, and Alumni Paths
+  - O.W.L. result letters and grade scale
   - O.W.L.s and Student Advancement
   - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
   - Third-Year Practical and Written Exams
@@ -139,7 +141,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
   - Defense Against the Dark Arts Practical Instruction
+- Staffing the Curriculum
+  - Post-Umbridge vacancy and former Heads of House
 - Teachers, Patronage, and Student Advancement
+  - Former-student memories of Slughorn's network
   - Slughorn's favorites and alumni network
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
@@ -444,6 +449,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trelawney's appointment interview and the first prophecy
 - Examinations and Academic Progression
   - O.W.L. crisis response and staff injury aftermath
+- Exceptional Instruction During the Second War
+  - Headmaster-led private lessons and prophecy preparation
 - Famous Students and Wartime Rumor
   - Harry Potter's arrival and Death Eater interpretations
 - Grounds, Transport, and the Forbidden Forest
@@ -581,6 +588,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Early Warnings Before Term
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
+- The Second War and Defensive Magic
+  - Counterfeit protective objects and Ministry enforcement
 - The Second War and External Threats
   - Dementor Deployment Beyond Azkaban and Hogwarts
   - Dementors in Little Whinging
@@ -958,6 +967,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Subterranean Route and Serpent Gate
 - Wartime Household Precautions
   - Identity checks and Inferi in Ministry public guidance
+  - Ministry identity challenges at home
   - Ministry public guidance against Dark forces
 - Wartime School Protection
   - Ministry security measures for Hogwarts in the Second War

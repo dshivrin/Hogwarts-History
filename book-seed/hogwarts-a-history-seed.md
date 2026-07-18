@@ -2024,6 +2024,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `ps-ch16-001`. Book 1 Chapter Sixteen records end-of-year exam formats; this entry adds that exams continue during a schoolwide Chamber crisis under Dumbledore's normality instruction.
   - Notes: The evidence is crisis-specific and does not prove how often Hogwarts continues exams during other emergencies.
 
+#### Section: Failed O.W.L.s, Head-of-House advice, and career thresholds
+
+Summary: The available evidence includes 1 source item, led by: Students who fail O.W.L.s are expected to discuss options with their Head of House; Fleur contrasts Beauxbatons' six-year exam timing, while Harry understands that his Potions grade blocks his planned Auror path.
+
+- **Corroboration:** Students who fail O.W.L.s are expected to discuss options with their Head of House; Fleur contrasts Beauxbatons' six-year exam timing, while Harry understands that his Potions grade blocks his planned Auror path.
+  - Quote: "discuss our options with our Head of House"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2499, `hbp-ch05-007`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch29-003`, `ootp-ch29-004`. ootp-ch29-003 records fifth-year Head-of-House career advice, and ootp-ch29-004 records Auror prerequisites and N.E.W.T. thresholds; this entry adds post-result failure counseling, Beauxbatons comparison, and Harry's specific Potions-grade consequence.
+  - Notes: Fleur's comparison is cut off by the arrival of the result owls, and Harry's Auror conclusion reflects his understanding before later course-placement changes.
+
 #### Section: Head Boy, Student Achievement, and Alumni Paths
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates Hogwarts alumni pathways by identifying Bill as a former Head Boy now working for Gringotts and Charlie as a dragon worker in Romania.
@@ -2035,6 +2047,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: institutional_custom
   - Corroborates: `cos-ch04-003`. Book 2 Chapter Four already links Bill, Charlie, O.W.L.s, Head Boy expectations, and alumni careers; this entry corroborates Bill's Head Boy status and adds his Gringotts role plus Charlie's dragon work.
   - Notes: The passage is a narrative recap and does not explain the Head Boy selection process or whether either career path is typical for Hogwarts alumni.
+
+#### Section: O.W.L. result letters and grade scale
+
+Summary: The available evidence includes 1 source item, led by: O.W.L. results arrive by owl as individual parchment envelopes, list pass grades O/E/A and fail grades P/D/T, record subject-level marks, and mark the students' transition toward N.E.W.T. study.
+
+- **Corroboration:** O.W.L. results arrive by owl as individual parchment envelopes, list pass grades O/E/A and fail grades P/D/T, record subject-level marks, and mark the students' transition toward N.E.W.T. study.
+  - Quote: "Pass Grades"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2500, `hbp-ch05-006`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `cos-ch04-003`, `poa-ch16-001`. cos-ch04-003 defines O.W.L.s as Ordinary Wizarding Levels, and poa-ch16-001 links O.W.L.s and N.E.W.T.s to academic progression; this entry adds the official result parchment, full grade ladder, delivery by owl, and Harry-era subject results.
+  - Notes: The passage shows Harry's, Ron's, and Hermione's results but not the wider marking process or examiner procedures.
 
 #### Section: O.W.L.s, N.E.W.T.s, and Overlapping Timetables
 
@@ -2899,7 +2923,33 @@ Summary: The available evidence includes 1 source item, led by: The chapter docu
   - Reference type: curriculum_or_subject
   - Notes: The club appears to be an emergency Harry-era response rather than evidence of a permanent long-running Hogwarts institution.
 
+### Chapter: Staffing the Curriculum
+
+#### Section: Post-Umbridge vacancy and former Heads of House
+
+Summary: The available evidence includes 1 source item, led by: The conversation confirms that Umbridge's departure leaves a Defense Against the Dark Arts vacancy and that Slughorn is a retired former Hogwarts teacher who once served as Head of Slytherin.
+
+- **Corroboration:** The conversation confirms that Umbridge's departure leaves a Defense Against the Dark Arts vacancy and that Slughorn is a retired former Hogwarts teacher who once served as Head of Slytherin.
+  - Quote: "used to be Head of Slytherin"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2490, `hbp-ch05-004`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `cos-ch07-004`, `hbp-ch04-005`. cos-ch07-004 records the hard-to-fill Defense post, and hbp-ch04-005 records Slughorn's Head of Slytherin testimony; this entry adds the specific post-Umbridge vacancy context.
+  - Notes: Ron infers the Defense vacancy, and the passage does not yet state Slughorn's new teaching subject.
+
 ### Chapter: Teachers, Patronage, and Student Advancement
+
+#### Section: Former-student memories of Slughorn's network
+
+Summary: The available evidence includes 1 source item, led by: Molly Weasley confirms Slughorn taught her and Arthur, had a long Hogwarts tenure overlapping Dumbledore's era, and left many favored former students placed in Ministry life.
+
+- **Corroboration:** Molly Weasley confirms Slughorn taught her and Arthur, had a long Hogwarts tenure overlapping Dumbledore's era, and left many favored former students placed in Ministry life.
+  - Quote: "He was at Hogwarts for ages"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2484, `hbp-ch05-001`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch04-006`. hbp-ch04-006 records Dumbledore's direct explanation of Slughorn's favorites network; this entry adds Molly's former-student perspective and Ministry aftermath.
+  - Notes: The account is informal family recollection and does not name the favored students or offices involved.
 
 #### Section: Slughorn's favorites and alumni network
 
@@ -5432,6 +5482,18 @@ Summary: The available evidence includes 1 source item, led by: The official Min
   - Corroborates: `hbp-ch03-003`, `ootp-ch03-001`. hbp-ch03-003 records the same Ministry leaflet's household guidance, and ootp-ch03-001 records identity verification after impersonation; this entry adds Dumbledore's jam example and Inferi definition.
   - Notes: The leaflet's full text is not present, and the evidence is filtered through Harry's questions and Dumbledore's explanation.
 
+#### Section: Ministry identity challenges at home
+
+Summary: The available evidence includes 1 source item, led by: Arthur treats reciprocal private-question challenges as Ministry procedure for household entry during impersonation risk, even while Molly questions the method's security.
+
+- **Corroboration:** Arthur treats reciprocal private-question challenges as Ministry procedure for household entry during impersonation risk, even while Molly questions the method's security.
+  - Quote: "it's Ministry procedure"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2486, `hbp-ch05-003`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch04-002`, `ootp-ch03-001`. hbp-ch04-002 records Dumbledore's Ministry-leaflet identity-check guidance, and ootp-ch03-001 records Patronus-form verification; this entry adds a household challenge exchange framed as Ministry procedure.
+  - Notes: The procedure is described through Arthur's practice, not quoted from an official Ministry document.
+
 #### Section: Ministry public guidance against Dark forces
 
 Summary: The available evidence includes 1 source item, led by: A Ministry household-security leaflet recommends emergency measures against Death Eaters, including Shield and Disillusionment Charms, Side-Along Apparition for underage family members, identity questions, and reporting Imperius, Dark Mark, or Inferius signs.
@@ -7255,6 +7317,20 @@ Summary: The available evidence includes 1 source item, led by: The aftermath of
   - Corroborates: `ootp-ch31-006`. ootp-ch31-006 records the observed Astronomy practical attack and McGonagall injury; this entry adds the next-day hospital-wing aftermath, St. Mungo's transfer, and Pomfrey's protest framing.
   - Notes: The McGonagall medical details are reported by Madam Pomfrey rather than observed directly after transfer.
 
+### Chapter: Exceptional Instruction During the Second War
+
+#### Section: Headmaster-led private lessons and prophecy preparation
+
+Summary: The available evidence includes 1 source item, led by: Harry's friends interpret Dumbledore's private lessons as tied to the prophecy and potentially involving advanced defensive magic, countercurses, anti-jinxes, and evasive enchantments.
+
+- **Corroboration:** Harry's friends interpret Dumbledore's private lessons as tied to the prophecy and potentially involving advanced defensive magic, countercurses, anti-jinxes, and evasive enchantments.
+  - Quote: "private lessons with Dumbledore"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2496, `hbp-ch05-005`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch04-007`, `ootp-ch37-006`. hbp-ch04-007 records Dumbledore assigning the private lessons, and ootp-ch37-006 records the prophecy's delivery context; this entry adds peer interpretation of the lessons as prophecy-linked defensive preparation.
+  - Notes: Hermione's guesses about lesson content are speculative at this point and should not be treated as confirmed curriculum.
+
 ### Chapter: Famous Students and Wartime Rumor
 
 #### Section: Harry Potter's arrival and Death Eater interpretations
@@ -8463,6 +8539,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reca
   - Reference type: historical_claim
   - Corroborates: `ps-ch01-003`. Book 1 Chapter One records the Godric's Hollow reports confirmed by Dumbledore; this entry adds later narration about the curse rebounding and Harry's fame at Hogwarts.
   - Notes: The passage is retrospective narration rather than an in-universe school source and should not replace the original Godric's Hollow seed.
+
+### Chapter: The Second War and Defensive Magic
+
+#### Section: Counterfeit protective objects and Ministry enforcement
+
+Summary: The available evidence includes 1 source item, led by: Scrimgeour's Ministry creates a dedicated office for counterfeit defensive magic, including fake protective potions, harmful jinx instructions, cursed Sneakoscopes, fraudulent Metamorph-Medals, and backfiring jinxes.
+
+- **Context:** Scrimgeour's Ministry creates a dedicated office for counterfeit defensive magic, including fake protective potions, harmful jinx instructions, cursed Sneakoscopes, fraudulent Metamorph-Medals, and backfiring jinxes.
+  - Quote: "Counterfeit Defensive Spells and Protective Objects"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, PDF p. 2485, `hbp-ch05-002`, `sources/book-06/chapter-05-an-excess-of-phlegm.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The evidence is Ministry and household context rather than a Hogwarts policy, and it does not give the office's statutory authority.
 
 ### Chapter: The Second War and External Threats
 
