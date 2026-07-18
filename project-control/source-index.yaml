@@ -1646,3 +1646,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2482-2502.
+- source_unit_id: hbp-ch06
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 6
+  chapter_title: Chapter Six - Draco's Detour
+  page_start: 2503
+  page_end: 2522
+  output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  processed_at: '2026-07-18'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2503-2522.

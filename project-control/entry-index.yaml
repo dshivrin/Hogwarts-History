@@ -13450,6 +13450,118 @@ by_entry:
     - potions
     source_unit: hbp-ch05
     output_yaml: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  hbp-ch06-001:
+    title: 'Student Offices, Prefects, and House Teams: Quidditch Captain status and
+      summer appointment letters'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - booklists
+    - prefect-status
+    - quidditch-captain
+    - school-letters
+    - school-return
+    - sixth-year
+    - student-leadership
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch06-002:
+    title: 'The Second War and School Supply Routes: Diagon Alley under wartime security
+      pressure'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - death-eaters
+    - diagon-alley
+    - fortescue
+    - ministry-posters
+    - protective-amulets
+    - school-supplies
+    - wartime-security
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch06-003:
+    title: 'Wartime Student Movement and Escorts: Ministry transport and Hogwarts-chosen
+      escort'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - aurors
+    - dumbledore
+    - hagrid
+    - leaky-cauldron
+    - ministry-security
+    - protective-escort
+    - school-shopping
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch06-004:
+    title: 'Student Enterprises and Magical Recreation: Hogwarts-tested joke products
+      become commercial goods'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - daydream-charms
+    - enchanted-quills
+    - hogwarts-testing
+    - joke-shop
+    - skiving-snackboxes
+    - student-inventions
+    - weasleys-wizard-wheezes
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch06-005:
+    title: 'The Second War and Defensive Magic: Commercial defensive devices and Shield
+      Charm gaps'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - decoy-detonators
+    - defense-against-the-dark-arts
+    - defensive-magic
+    - ministry-of-magic
+    - shield-charm
+    - shield-cloaks
+    - shield-gloves
+    - shield-hats
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch06-006:
+    title: 'Restricted Magic and Banned Items: Love-potion retail access before term'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - love-potions
+    - magical-creatures
+    - puffskeins
+    - pygmy-puffs
+    - restricted-magic
+    - student-products
+    - weasleys-wizard-wheezes
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
+  hbp-ch06-007:
+    title: 'The Second War and Hogwarts Security Breaches: Borgin and Burkes consultation
+      before the cabinet plot'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - borgin-and-burkes
+    - draco-malfoy
+    - extendable-ears
+    - fenrir-greyback
+    - knockturn-alley
+    - school-security-threat
+    - vanishing-cabinet
+    source_unit: hbp-ch06
+    output_yaml: sources/book-06/chapter-06-draco-s-detour.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13699,6 +13811,7 @@ by_tag:
   - hbp-ch01-004
   - hbp-ch01-007
   - hbp-ch02-001
+  - hbp-ch06-003
   - ootp-ch23-007
   - ootp-ch36-007
   avada-kedavra:
@@ -13898,11 +14011,14 @@ by_tag:
   book-circulation:
   - cos-ch09-001
   booklists:
+  - hbp-ch06-001
   - poa-ch01-005
   bookshelves:
   - cos-ch11-005
   boomslang-skin:
   - gof-ch27-004
+  borgin-and-burkes:
+  - hbp-ch06-007
   boris-the-bewildered:
   - gof-ch23-007
   - gof-ch25-002
@@ -14625,6 +14741,8 @@ by_tag:
   - gof-ch11-001
   davey-gudgeon:
   - poa-ch10-002
+  daydream-charms:
+  - hbp-ch06-004
   death:
   - ootp-ch38-006
   death-chamber:
@@ -14647,6 +14765,7 @@ by_tag:
   - hbp-ch04-002
   - hbp-ch04-003
   - hbp-ch05-003
+  - hbp-ch06-002
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -14664,6 +14783,8 @@ by_tag:
   - gof-ch22-003
   - poa-ch11-004
   - ps-ch17-005
+  decoy-detonators:
+  - hbp-ch06-005
   defense-against-the-dark-arts:
   - cos-ch04-006
   - cos-ch06-006
@@ -14686,6 +14807,7 @@ by_tag:
   - hbp-ch02-003
   - hbp-ch05-004
   - hbp-ch05-006
+  - hbp-ch06-005
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -14731,6 +14853,7 @@ by_tag:
   defense-association:
   - ootp-ch18-007
   defensive-magic:
+  - hbp-ch06-005
   - ootp-ch36-003
   - poa-ch19-003
   defensive-magical-theory:
@@ -14847,6 +14970,7 @@ by_tag:
   diagon-alley:
   - cos-ch04-002
   - gof-ch05-006
+  - hbp-ch06-002
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
@@ -14976,6 +15100,7 @@ by_tag:
   draco-malfoy:
   - cos-ch04-004
   - hbp-ch02-006
+  - hbp-ch06-007
   dragon-breeds:
   - gof-ch20-006
   dragon-egg:
@@ -15062,6 +15187,7 @@ by_tag:
   - hbp-ch03-007
   - hbp-ch04-007
   - hbp-ch05-005
+  - hbp-ch06-003
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -15263,6 +15389,8 @@ by_tag:
   - gof-ch31-005
   enchanted-objects:
   - ootp-ch07-006
+  enchanted-quills:
+  - hbp-ch06-004
   enchanted-snow:
   - cos-ch12-003
   enchanted-windows:
@@ -15375,6 +15503,7 @@ by_tag:
   - ps-ch04-007
   - ps-ch16-004
   extendable-ears:
+  - hbp-ch06-007
   - ootp-ch04-006
   - ootp-ch09-003
   external-examiners:
@@ -15431,6 +15560,8 @@ by_tag:
   - cos-ch18-003
   feasts:
   - ps-ch12-003
+  fenrir-greyback:
+  - hbp-ch06-007
   fidelius:
   - hbp-ch02-004
   field-booking:
@@ -15671,6 +15802,8 @@ by_tag:
   - ootp-ch33-002
   formal-occasions:
   - gof-ch10-007
+  fortescue:
+  - hbp-ch06-002
   fouls:
   - ps-ch11-002
   fouls-and-penalties:
@@ -16105,6 +16238,7 @@ by_tag:
   - gof-ch35-003
   - gof-ch36-006
   - hbp-ch03-006
+  - hbp-ch06-003
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch14-002
@@ -16644,6 +16778,8 @@ by_tag:
   - ps-ch04-001
   hogwarts-teacher:
   - gof-ch33-002
+  hogwarts-testing:
+  - hbp-ch06-004
   hogwarts-victory:
   - gof-ch31-007
   holiday-conduct:
@@ -17076,6 +17212,7 @@ by_tag:
   - gof-ch05-002
   - gof-ch06-003
   joke-shop:
+  - hbp-ch06-004
   - ootp-ch24-007
   joke-sweets:
   - gof-ch04-005
@@ -17136,6 +17273,8 @@ by_tag:
   - ootp-ch24-002
   - poa-ch03-002
   - poa-ch14-003
+  knockturn-alley:
+  - hbp-ch06-007
   kreacher:
   - hbp-ch03-005
   - ootp-ch04-003
@@ -17163,6 +17302,7 @@ by_tag:
   law-fifteen-b:
   - ootp-ch33-003
   leaky-cauldron:
+  - hbp-ch06-003
   - poa-ch03-003
   - poa-ch03-004
   - poa-ch04-001
@@ -17287,6 +17427,7 @@ by_tag:
   - ootp-ch09-007
   love-potions:
   - gof-ch27-003
+  - hbp-ch06-006
   loyalty:
   - cos-ch14-007
   lucius-malfoy:
@@ -17459,6 +17600,7 @@ by_tag:
   - gof-ch31-006
   - hbp-ch01-002
   - hbp-ch01-006
+  - hbp-ch06-006
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch15-006
@@ -17862,6 +18004,7 @@ by_tag:
   - hbp-ch01-002
   - hbp-ch03-002
   - hbp-ch05-001
+  - hbp-ch06-005
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -17897,6 +18040,7 @@ by_tag:
   - poa-ch16-002
   - ps-ch14-002
   ministry-posters:
+  - hbp-ch06-002
   - ootp-ch25-006
   ministry-procedure:
   - hbp-ch05-003
@@ -17911,6 +18055,7 @@ by_tag:
   - hbp-ch03-001
   ministry-security:
   - gof-ch01-002
+  - hbp-ch06-003
   - ootp-ch01-004
   - poa-ch20-004
   - poa-ch20-006
@@ -18728,6 +18873,8 @@ by_tag:
   - poa-ch03-003
   predictions:
   - gof-ch14-006
+  prefect-status:
+  - hbp-ch06-001
   prefects:
   - cos-ch03-003
   - cos-ch04-005
@@ -18937,8 +19084,12 @@ by_tag:
   - poa-ch16-005
   protean-charm:
   - ootp-ch19-001
+  protective-amulets:
+  - hbp-ch06-002
   protective-enchantments:
   - ootp-ch34-006
+  protective-escort:
+  - hbp-ch06-003
   protective-magic:
   - gof-ch33-004
   - hbp-ch02-004
@@ -18976,6 +19127,8 @@ by_tag:
   - ootp-ch11-007
   public-rumor:
   - hbp-ch02-005
+  puffskeins:
+  - hbp-ch06-006
   punishment:
   - cos-ch08-002
   punishments:
@@ -19002,6 +19155,8 @@ by_tag:
   put-outer:
   - ootp-ch03-006
   - ootp-ch04-002
+  pygmy-puffs:
+  - hbp-ch06-006
   quaffle:
   - cos-ch07-001
   quibbler:
@@ -19048,6 +19203,8 @@ by_tag:
   - ootp-ch26-004
   quidditch-books:
   - gof-ch02-002
+  quidditch-captain:
+  - hbp-ch06-001
   quidditch-cup:
   - ootp-ch19-003
   - ootp-ch30-003
@@ -19173,6 +19330,8 @@ by_tag:
   restricted-books:
   - cos-ch10-002
   - cos-ch12-004
+  restricted-magic:
+  - hbp-ch06-006
   restricted-section:
   - cos-ch09-007
   - cos-ch10-001
@@ -19359,6 +19518,7 @@ by_tag:
   - poa-ch01-004
   school-letters:
   - cos-ch04-001
+  - hbp-ch06-001
   - ootp-ch09-004
   - poa-ch01-005
   school-list:
@@ -19406,6 +19566,8 @@ by_tag:
   - ootp-ch26-004
   school-representatives:
   - gof-ch22-002
+  school-return:
+  - hbp-ch06-001
   school-rivalry:
   - gof-ch23-005
   school-rules:
@@ -19438,6 +19600,10 @@ by_tag:
   - gof-ch25-007
   - gof-ch37-006
   - ootp-ch17-003
+  school-security-threat:
+  - hbp-ch06-007
+  school-shopping:
+  - hbp-ch06-003
   school-songs:
   - ootp-ch30-003
   school-spectators:
@@ -19447,6 +19613,7 @@ by_tag:
   school-supplies:
   - cos-ch04-002
   - gof-ch10-006
+  - hbp-ch06-002
   - poa-ch04-003
   - ps-ch04-003
   school-surveillance:
@@ -19626,9 +19793,16 @@ by_tag:
   - gof-ch18-001
   shield-charm:
   - hbp-ch03-003
+  - hbp-ch06-005
   - ootp-ch25-005
   - ootp-ch26-005
   - ootp-ch36-003
+  shield-cloaks:
+  - hbp-ch06-005
+  shield-gloves:
+  - hbp-ch06-005
+  shield-hats:
+  - hbp-ch06-005
   shrieking-shack:
   - ootp-ch17-007
   - poa-ch05-002
@@ -19707,9 +19881,11 @@ by_tag:
   - poa-ch05-002
   sixth-year:
   - gof-ch14-002
+  - hbp-ch06-001
   skele-gro:
   - cos-ch10-005
   skiving-snackboxes:
+  - hbp-ch06-004
   - ootp-ch12-001
   - ootp-ch13-001
   - ootp-ch30-002
@@ -20113,10 +20289,12 @@ by_tag:
   - poa-ch06-007
   - poa-ch07-002
   student-inventions:
+  - hbp-ch06-004
   - ootp-ch24-007
   student-leadership:
   - cos-ch04-005
   - gof-ch05-001
+  - hbp-ch06-001
   - ootp-ch09-005
   - ootp-ch09-006
   - poa-ch01-004
@@ -20186,6 +20364,8 @@ by_tag:
   - gof-ch25-002
   - poa-ch02-001
   - poa-ch03-005
+  student-products:
+  - hbp-ch06-006
   student-reaction:
   - gof-ch13-007
   student-rebellion:
@@ -20803,6 +20983,8 @@ by_tag:
   vampires:
   - gof-ch10-004
   - ps-ch05-004
+  vanishing-cabinet:
+  - hbp-ch06-007
   vanishing-spells:
   - ootp-ch13-003
   - ootp-ch15-005
@@ -20946,6 +21128,7 @@ by_tag:
   - ootp-ch38-001
   wartime-security:
   - hbp-ch04-003
+  - hbp-ch06-002
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
@@ -20960,6 +21143,8 @@ by_tag:
   weasleys-wizard-wheezes:
   - gof-ch05-002
   - gof-ch06-003
+  - hbp-ch06-004
+  - hbp-ch06-006
   weather:
   - gof-ch27-002
   welcoming-feast:

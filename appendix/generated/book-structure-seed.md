@@ -229,6 +229,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Common-Room Parties and Head-of-House Enforcement
 - One-Off Staff Events and School Morale
   - Valentine's Day During the Chamber Crisis
+- Student Offices, Prefects, and House Teams
+  - Quidditch Captain status and summer appointment letters
 - The Hogwarts Express and School Travel
   - Arrival at Hogsmeade and First-Year Gathering
   - Emergency Magical Transport Outside School Routes
@@ -589,6 +591,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
 - The Second War and Defensive Magic
+  - Commercial defensive devices and Shield Charm gaps
   - Counterfeit protective objects and Ministry enforcement
 - The Second War and External Threats
   - Dementor Deployment Beyond Azkaban and Hogwarts
@@ -602,6 +605,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Public prophecy rumors after the Department of Mysteries
   - Student and staff workarounds under information control
   - The Azkaban breakout reaches the Great Hall
+- The Second War and Hogwarts Security Breaches
+  - Borgin and Burkes consultation before the cabinet plot
 - The Second War and Hogwarts-Connected Families
   - Pure-Blood Ideology and Black Family War Alignment
 - The Second War and Hogwarts-Connected Organizations
@@ -620,6 +625,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Muggle-Facing Secrecy
   - Dementor revolt, breeding, and public despair
   - Public disasters, Auror response, and memory repair
+- The Second War and School Supply Routes
+  - Diagon Alley under wartime security pressure
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -971,6 +978,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry public guidance against Dark forces
 - Wartime School Protection
   - Ministry security measures for Hogwarts in the Second War
+- Wartime Student Movement and Escorts
+  - Ministry transport and Hogwarts-chosen escort
 
 ## Quidditch and School Recreation
 
@@ -1011,6 +1020,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House Championship Context
   - Team Practices and Cup Standings
 - Student Enterprises and Magical Recreation
+  - Hogwarts-tested joke products become commercial goods
   - Weasley joke inventions in common-room life
 
 ## Rules, Discipline, and Governance
@@ -1142,6 +1152,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Restricted Magic and Banned Items
   - Love-Potion Ban and Press-Fueled Accusations
+  - Love-potion retail access before term
 
 ## Rules, Governance, and Discipline
 

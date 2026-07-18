@@ -1340,6 +1340,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: institutional_custom
   - Notes: The event is explicitly Lockhart's idea and may be unique to this year rather than a recurring Hogwarts custom.
 
+### Chapter: Student Offices, Prefects, and House Teams
+
+#### Section: Quidditch Captain status and summer appointment letters
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts continues sending summer letters and booklists, and Harry's appointment as Quidditch Captain gives him badge-marked authority comparable to prefect privileges.
+
+- **Corroboration:** Hogwarts continues sending summer letters and booklists, and Harry's appointment as Quidditch Captain gives him badge-marked authority comparable to prefect privileges.
+  - Quote: "equal status with prefects"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2504, `hbp-ch06-001`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch01-005`, `gof-ch06-004`. poa-ch01-005 records annual letters and booklist enclosures, while gof-ch06-004 records another House Quidditch captain; this entry adds Harry's captain appointment and explicit prefect-status comparison.
+  - Notes: The passage does not show the full letter text, appointing authority, or complete list of captain privileges.
+
 ### Chapter: The Sorting Ceremony
 
 #### Section: Annual House Assignment in the Great Hall
@@ -5518,6 +5532,19 @@ Summary: The available evidence includes 1 source item, led by: Scrimgeour's Min
   - Reference type: security_or_protection
   - Notes: The Ministry refuses operational detail, so the exact spells, countercurses, and Auror deployment are not enumerated.
 
+### Chapter: Wartime Student Movement and Escorts
+
+#### Section: Ministry transport and Hogwarts-chosen escort
+
+Summary: The available evidence includes 1 source item, led by: Harry receives Ministry-level transport protection for school shopping, but Dumbledore overrides the planned Auror escort with Hagrid, who frames the outing as Hogwarts business.
+
+- **Context:** Harry receives Ministry-level transport protection for school shopping, but Dumbledore overrides the planned Auror escort with Hagrid, who frames the outing as Hogwarts business.
+  - Quote: "top-grade security status"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2506, `hbp-ch06-003`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage does not state whether the security status is personal to Harry, tied to Hogwarts, or a formal Ministry category with written rules.
+
 ## Part: Quidditch and School Recreation
 
 ### Chapter: House Quidditch Teams
@@ -5895,6 +5922,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter desc
   - Notes: The source does not date the construction of the stands or explain whether seating is permanently raised or magically adjusted for matches.
 
 ### Chapter: Student Enterprises and Magical Recreation
+
+#### Section: Hogwarts-tested joke products become commercial goods
+
+Summary: The available evidence includes 1 source item, led by: The Weasley twins' shop turns Hogwarts-tested products into commercial goods, including classroom-avoidance sweets, enchanted quills, lesson-targeted Daydream Charms, and self-tested remedies.
+
+- **Corroboration:** The Weasley twins' shop turns Hogwarts-tested products into commercial goods, including classroom-avoidance sweets, enchanted quills, lesson-targeted Daydream Charms, and self-tested remedies.
+  - Quote: "perfected during their last"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2512, `hbp-ch06-004`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch24-007`. ootp-ch24-007 records Weasley joke inventions sold in the Gryffindor common room; this entry adds the full Diagon Alley storefront, products perfected during an unfinished Hogwarts year, and lesson-targeted commercial packaging.
+  - Notes: The evidence is a retail observation and not a formal school record of what products were allowed or confiscated at Hogwarts.
 
 #### Section: Weasley joke inventions in common-room life
 
@@ -8542,6 +8581,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter reca
 
 ### Chapter: The Second War and Defensive Magic
 
+#### Section: Commercial defensive devices and Shield Charm gaps
+
+Summary: The available evidence includes 1 source item, led by: The shop's serious defensive line exists because many adults, including Ministry workers, lack reliable Shield Charm ability; the Ministry buys hundreds of Shield Hats and the twins expand into cloaks, gloves, darkness powder, and decoys.
+
+- **Context:** The shop's serious defensive line exists because many adults, including Ministry workers, lack reliable Shield Charm ability; the Ministry buys hundreds of Shield Hats and the twins expand into cloaks, gloves, darkness powder, and decoys.
+  - Quote: "can't do a decent Shield Charm"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2514, `hbp-ch06-005`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The competence claim comes from George in a sales context and does not identify how many Ministry employees were tested.
+
 #### Section: Counterfeit protective objects and Ministry enforcement
 
 Summary: The available evidence includes 1 source item, led by: Scrimgeour's Ministry creates a dedicated office for counterfeit defensive magic, including fake protective potions, harmful jinx instructions, cursed Sneakoscopes, fraudulent Metamorph-Medals, and backfiring jinxes.
@@ -8663,6 +8713,19 @@ Summary: The available evidence includes 1 source item, led by: The Daily Prophe
   - Reference type: explicit_in_universe_source
   - Corroborates: `gof-ch09-007`, `ootp-ch14-003`. gof-ch09-007 records Death Eater/Azkaban context from an in-universe source, and ootp-ch14-003 records a Daily Prophet account affecting Hogwarts politics; this entry adds the mass breakout's immediate Great Hall reception and staff response.
   - Notes: The Daily Prophet account is politically distorted, so only the reported breakout, named prisoners, and observed Hogwarts reactions should be treated as firm evidence.
+
+### Chapter: The Second War and Hogwarts Security Breaches
+
+#### Section: Borgin and Burkes consultation before the cabinet plot
+
+Summary: The available evidence includes 1 source item, led by: Draco secretly consults Borgin about repairing an unseen object that must remain in place and reserving another object in Borgin and Burkes, using Greyback's name as coercive leverage.
+
+- **Context:** Draco secretly consults Borgin about repairing an unseen object that must remain in place and reserving another object in Borgin and Burkes, using Greyback's name as coercive leverage.
+  - Quote: "It's got to stay put"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2519, `hbp-ch06-007`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The chapter does not yet identify the object as a Vanishing Cabinet or confirm that it is located at Hogwarts; that connection depends on later corroboration.
 
 ### Chapter: The Second War and Hogwarts-Connected Families
 
@@ -8824,6 +8887,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter refr
   - Classification: later_editorial_note | Confidence: high
   - Reference type: historical_claim
   - Notes: The account is a Ministerial briefing and does not identify the giant or provide casualty and repair records beyond Fudge's summary.
+
+### Chapter: The Second War and School Supply Routes
+
+#### Section: Diagon Alley under wartime security pressure
+
+Summary: The available evidence includes 1 source item, led by: The school supply district shows Second War disruption through Ministry security posters, wanted photographs, boarded shops, fraudulent-looking protective amulet stalls, and shoppers moving only in groups.
+
+- **Corroboration:** The school supply district shows Second War disruption through Ministry security posters, wanted photographs, boarded shops, fraudulent-looking protective amulet stalls, and shoppers moving only in groups.
+  - Quote: "Diagon Alley had changed"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2507, `hbp-ch06-002`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ps-ch05-003`, `poa-ch04-001`. ps-ch05-003 and poa-ch04-001 establish Diagon Alley as the school-supply district and Leaky Cauldron route; this entry adds the Second War transformation, Ministry poster coverage, boarded shops, and group-shopping behavior.
+  - Notes: The passage observes the street in one wartime visit and does not quantify how many supply shops remained open.
 
 ### Chapter: The Sirius Black Crisis
 
@@ -10432,6 +10509,18 @@ Summary: The available evidence includes 1 source item, led by: A wizarding maga
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: school_rule_or_policy
   - Notes: The ban is stated in a Rita Skeeter article, so it should be corroborated before being treated as a complete written policy.
+
+#### Section: Love-potion retail access before term
+
+Summary: The available evidence includes 1 source item, led by: Weasleys' Wizard Wheezes openly sells love potions and student-attractive magical products, including Pygmy Puffs as miniature puffskeins, during the pre-Hogwarts shopping season.
+
+- **Corroboration:** Weasleys' Wizard Wheezes openly sells love potions and student-attractive magical products, including Pygmy Puffs as miniature puffskeins, during the pre-Hogwarts shopping season.
+  - Quote: "Best range of love potions"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, PDF p. 2516, `hbp-ch06-006`, `sources/book-06/chapter-06-draco-s-detour.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch27-003`. gof-ch27-003 records a stated Hogwarts ban on love potions; this entry adds later retail availability from a popular student-facing shop and adjacent Pygmy Puff sales.
+  - Notes: The chapter does not show these products entering Hogwarts or state whether the twins apply age checks or school-rule warnings.
 
 ## Part: Rules, Governance, and Discipline
 
