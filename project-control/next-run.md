@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Eight - Snape Victorious
-- Page range: 2545-2558
+- Chapter: Chapter Nine - The Half-Blood Prince
+- Page range: 2559-2577
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-08-snape-victorious.yaml`
+- Output YAML: `sources/book-06/chapter-09-the-half-blood-prince.yaml`
 
 ## Minimal Context
 

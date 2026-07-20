@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
-  chapter_number: 7
-  chapter_title: Chapter Seven - The Slug Club
-  page_start: 2523
-  page_end: 2544
-  output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
   chapter_number: 8
   chapter_title: Chapter Eight - Snape Victorious
   page_start: 2545
   page_end: 2558
   output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2559
   page_end: 2577
   output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 10
+  chapter_title: Chapter Ten - The House of Gaunt
+  page_start: 2578
+  page_end: 2596
+  output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

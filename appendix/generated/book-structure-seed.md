@@ -141,6 +141,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
   - Defense Against the Dark Arts Practical Instruction
+- Staff Appointments and Subject Posts
+  - Slughorn returns to Potions and Snape takes Defense Against the Dark Arts
 - Staffing the Curriculum
   - Post-Umbridge vacancy and former Heads of House
 - Teachers, Patronage, and Student Advancement
@@ -246,6 +248,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Annual House Assignment in the Great Hall
   - Annual Songs, Scroll, Stool, and House Tables
   - Arrival of First-Year Students
+  - Feast setting, House tables, staff table, and unity warnings
   - First-Year Lake Crossing
   - House Points and the House Cup
   - Pre-Arrival House Uncertainty
@@ -526,6 +529,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wand Spell Echoes and Prior Incantato
 - Magical Oaths and Wartime Obligations
   - Unbreakable Vow procedure
+- Magical Residents of the Grounds
+  - Grawp relocated from the Forest to a mountain cave
 - Marauders-Era Context and Hidden Identities
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
@@ -696,6 +701,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy Strains After Voldemort's Fall
 - Wartime Movement and Secrecy Outside Hogwarts
   - Apparition into Muggle spaces and Auror fear
+- Wartime Security Around Hogwarts
+  - Bewitched gates, chained boundaries, and anti-intruder walls
+  - Hogsmeade Auror station and Patronus notice to the castle
+  - Strengthened fortifications and schoolwide reporting rules
 - Wizarding Institutions Beyond Hogwarts
   - St. Mungo's ward safety and Ministry casualties
 - Wizarding Law in the Classroom
@@ -1124,6 +1133,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Confidentiality and Near-Miss Safety Incidents
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
+- Start-of-Term Notices
+  - Forbidden joke items and House Quidditch signups
 - Student Conduct Beyond School
   - Emergency Exception and Ministry Hearing Procedure
   - Emergency Exceptions and Limits on Ministry Discipline

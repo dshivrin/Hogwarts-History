@@ -1391,6 +1391,18 @@ Summary: The available evidence includes 1 source item, led by: McGonagall prese
   - Reference type: institutional_custom
   - Notes: The chapter confirms the ceremony in Harry-era practice but does not state its origin, age, or whether Hogwarts: A History covers it.
 
+#### Section: Feast setting, House tables, staff table, and unity warnings
+
+Summary: The available evidence includes 1 source item, led by: The chapter corroborates the Great Hall start-of-term feast structure, the annual Sorting's public aftermath, the Hat's unity warning, and ghosts' participation in Hall life.
+
+- **Corroboration:** The chapter corroborates the Great Hall start-of-term feast structure, the annual Sorting's public aftermath, the Hat's unity warning, and ghosts' participation in Hall life.
+  - Quote: "four long House tables"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2551, `hbp-ch08-003`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `cos-ch05-004`, `gof-ch12-003`. cos-ch05-004 and gof-ch12-003 already cover annual Sorting practice in the Great Hall; this entry adds the 1996 unity-message summary, ghost gossip at House tables, and Dumbledore's post-feast speech transition.
+  - Notes: Harry arrives after the Sorting itself, so the Hat's song is summarized by Hermione rather than quoted directly.
+
 #### Section: First-Year Lake Crossing
 
 Summary: The available evidence includes 1 source item, led by: The first-year approach uses a lake crossing by small boats, reveals the castle from across the water, and brings students through an underground harbor beneath the castle.
@@ -2937,6 +2949,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter docu
   - Reference type: curriculum_or_subject
   - Notes: The club appears to be an emergency Harry-era response rather than evidence of a permanent long-running Hogwarts institution.
 
+### Chapter: Staff Appointments and Subject Posts
+
+#### Section: Slughorn returns to Potions and Snape takes Defense Against the Dark Arts
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore formally appoints Slughorn to resume Potions and Snape to Defense Against the Dark Arts, triggering schoolwide recognition of Snape's long pursuit of the post and its rumored one-year pattern.
+
+- **Corroboration:** Dumbledore formally appoints Slughorn to resume Potions and Snape to Defense Against the Dark Arts, triggering schoolwide recognition of Snape's long pursuit of the post and its rumored one-year pattern.
+  - Quote: "Defense Against the Dark Arts teacher"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2554, `hbp-ch08-005`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch02-003`, `ootp-ch17-005`, `cos-ch07-004`. hbp-ch02-003 records Snape's claim that Dumbledore withheld the Defense post, ootp-ch17-005 records his repeated applications, and cos-ch07-004 records the rumored jinx; this entry adds the public appointment of Snape to Defense and Slughorn's return to Potions.
+  - Notes: The D.A.D.A. jinx is still student commentary here, not an official explanation from Dumbledore.
+
 ### Chapter: Staffing the Curriculum
 
 #### Section: Post-Umbridge vacancy and former Heads of House
@@ -3933,6 +3959,20 @@ Summary: The available evidence includes 2 source items, led by: The chapter nam
   - Reference type: security_or_protection
   - Corroborates: `poa-ch18-002`. Book 3 Chapter Eighteen explains Wolfsbane Potion as a recent safety measure for Lupin; this entry adds the observed consequence when he misses the potion during a full-moon incident on the grounds.
   - Notes: The scene is an exceptional crisis, not a formal account of Hogwarts accommodation policy or medical supervision.
+
+### Chapter: Start-of-Term Notices
+
+#### Section: Forbidden joke items and House Quidditch signups
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore announces a schoolwide ban on Weasleys' Wizard Wheezes products and directs Quidditch players and commentator candidates to register with Heads of House.
+
+- **Corroboration:** Dumbledore announces a schoolwide ban on Weasleys' Wizard Wheezes products and directs Quidditch players and commentator candidates to register with Heads of House.
+  - Quote: "blanket ban on any joke items"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2554, `hbp-ch08-004`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `gof-ch12-005`. gof-ch12-005 records earlier start-of-term notices on forbidden objects, restricted places, and Quidditch exceptions; this entry adds a targeted Weasleys' Wizard Wheezes ban and commentator recruitment through Heads of House.
+  - Notes: The passage gives no enforcement details for the joke-item ban or the selection criteria for commentators.
 
 ### Chapter: Student Conduct Beyond School
 
@@ -8007,6 +8047,20 @@ Summary: The available evidence includes 1 source item, led by: The scene demons
   - Reference type: security_or_protection
   - Notes: The passage demonstrates the ritual but does not state the consequence of breaking the vow or provide legal history for the spell.
 
+### Chapter: Magical Residents of the Grounds
+
+#### Section: Grawp relocated from the Forest to a mountain cave
+
+Summary: The available evidence includes 1 source item, led by: Hagrid says Dumbledore has moved Grawp from the Forest to a mountain cave, considers training him as an assistant, and still keeps Witherwings near his Care of Magical Creatures work.
+
+- **Corroboration:** Hagrid says Dumbledore has moved Grawp from the Forest to a mountain cave, considers training him as an assistant, and still keeps Witherwings near his Care of Magical Creatures work.
+  - Quote: "new home up in the mountains"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2557, `hbp-ch08-007`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch30-006`, `ootp-ch33-006`, `hbp-ch03-006`. ootp-ch30-006 introduces Grawp's concealed Forest residence, ootp-ch33-006 records his clash with centaurs, and hbp-ch03-006 records Witherwings in Hagrid's care; this entry adds Grawp's relocation to a mountain cave and Hagrid's assistant idea.
+  - Notes: Hagrid's assistant plan is aspirational, and the cave's exact location relative to Hogwarts grounds is not specified.
+
 ### Chapter: Marauders-Era Context and Hidden Identities
 
 #### Section: Animagi, Map Dots, and Pettigrew's Survival
@@ -9166,6 +9220,43 @@ Summary: The available evidence includes 1 source item, led by: The opening demo
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: direct_observed_setting
   - Notes: The scene does not name the spell used on the fox, and the Apparition is outside Hogwarts, so school relevance is contextual rather than direct.
+
+### Chapter: Wartime Security Around Hogwarts
+
+#### Section: Bewitched gates, chained boundaries, and anti-intruder walls
+
+Summary: The available evidence includes 1 source item, led by: The school gates are chained and personally bewitched by Dumbledore, while all walls carry anti-intruder jinxes after a major summer security tightening.
+
+- **Corroboration:** The school gates are chained and personally bewitched by Dumbledore, while all walls carry anti-intruder jinxes after a major summer security tightening.
+  - Quote: "Anti-intruder jinxes on all of them"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2548, `hbp-ch08-002`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `poa-ch09-001`, `ootp-ch23-001`, `hbp-ch04-001`. poa-ch09-001 and ootp-ch23-001 record castle-wide protections and anti-Apparition, while hbp-ch04-001 confirms Hogwarts boundary movement limits; this entry adds wartime gate chains, Dumbledore's gate enchantment, anti-intruder wall jinxes, and Alohomora failure.
+  - Notes: The passage does not specify the spells used on the gates or whether the anti-intruder jinxes were newly cast or strengthened.
+
+#### Section: Hogsmeade Auror station and Patronus notice to the castle
+
+Summary: The available evidence includes 1 source item, led by: Tonks confirms a wartime Auror station in Hogsmeade and uses a Patronus message to notify the castle that Harry has been recovered.
+
+- **Context:** Tonks confirms a wartime Auror station in Hogsmeade and uses a Patronus message to notify the castle that Harry has been recovered.
+  - Quote: "to give the school extra protection"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2547, `hbp-ch08-001`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage does not state who ordered the Auror deployment or whether the station covered all Hogsmeade routes.
+
+#### Section: Strengthened fortifications and schoolwide reporting rules
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore publicly states that Hogwarts' magical fortifications have been strengthened and instructs students and staff to follow restrictions, stay in bed after hours, and report suspicious activity.
+
+- **Corroboration:** Dumbledore publicly states that Hogwarts' magical fortifications have been strengthened and instructs students and staff to follow restrictions, stay in bed after hours, and report suspicious activity.
+  - Quote: "magical fortifications have been strengthened"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, PDF p. 2556, `hbp-ch08-006`, `sources/book-06/chapter-08-snape-victorious.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch08-002`. hbp-ch08-002 records concrete boundary protections at the gates and walls; this entry records Dumbledore's broader official address about strengthened fortifications, after-hours restrictions, and reporting suspicious activity.
+  - Notes: The speech does not enumerate the new protections or distinguish permanent enchantments from temporary wartime measures.
 
 ### Chapter: Wizarding Institutions Beyond Hogwarts
 

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-18'
+updated: '2026-07-21'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1670,3 +1670,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2523-2544.
+- source_unit_id: hbp-ch08
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 8
+  chapter_title: Chapter Eight - Snape Victorious
+  page_start: 2545
+  page_end: 2558
+  output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  processed_at: '2026-07-21'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2545-2558.

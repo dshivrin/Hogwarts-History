@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-18'
+updated: '2026-07-21'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -13671,6 +13671,117 @@ by_entry:
     - second-war
     source_unit: hbp-ch07
     output_yaml: sources/book-06/chapter-07-the-slug-club.yaml
+  hbp-ch08-001:
+    title: 'Wartime Security Around Hogwarts: Hogsmeade Auror station and Patronus
+      notice to the castle'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - aurors
+    - castle-communications
+    - hogsmeade
+    - patronus-messaging
+    - school-protection
+    - student-arrival
+    - wartime-security
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch08-002:
+    title: 'Wartime Security Around Hogwarts: Bewitched gates, chained boundaries,
+      and anti-intruder walls'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - alohomora
+    - anti-intruder-jinxes
+    - castle-protections
+    - dumbledore
+    - school-protection
+    - wartime-security
+    - winged-boar-gates
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch08-003:
+    title: 'The Sorting Ceremony: Feast setting, House tables, staff table, and unity
+      warnings'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - ghosts
+    - great-hall
+    - house-tables
+    - sorting-ceremony
+    - sorting-hat
+    - staff-table
+    - start-of-term-feast
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch08-004:
+    title: 'Start-of-Term Notices: Forbidden joke items and House Quidditch signups'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - commentators
+    - filch
+    - forbidden-objects
+    - heads-of-house
+    - quidditch
+    - school-rules
+    - weasleys-wizard-wheezes
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch08-005:
+    title: 'Staff Appointments and Subject Posts: Slughorn returns to Potions and
+      Snape takes Defense Against the Dark Arts'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defense-against-the-dark-arts
+    - jinxed-post
+    - potions
+    - slughorn
+    - snape
+    - staff-appointments
+    - teacher-appointments
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch08-006:
+    title: 'Wartime Security Around Hogwarts: Strengthened fortifications and schoolwide
+      reporting rules'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - after-hours-rule
+    - magical-fortifications
+    - school-protection
+    - staff-reporting
+    - student-safety
+    - voldemort-return
+    - wartime-security
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch08-007:
+    title: 'Magical Residents of the Grounds: Grawp relocated from the Forest to a
+      mountain cave'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - giants
+    - grawp
+    - hagrid
+    - magical-residents
+    - mountains
+    - witherwings
+    source_unit: hbp-ch08
+    output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13732,6 +13843,8 @@ by_tag:
   - poa-ch21-006
   advanced-potions:
   - cos-ch12-004
+  after-hours-rule:
+  - hbp-ch08-006
   afterlife:
   - ootp-ch38-006
   age-line:
@@ -13760,6 +13873,7 @@ by_tag:
   all-wizard-village:
   - gof-ch19-001
   alohomora:
+  - hbp-ch08-002
   - ootp-ch34-006
   - ootp-ch35-003
   - poa-ch21-007
@@ -13823,6 +13937,8 @@ by_tag:
   - poa-ch20-007
   anti-disapparation:
   - ootp-ch36-007
+  anti-intruder-jinxes:
+  - hbp-ch08-002
   anti-jinxes:
   - hbp-ch05-005
   anti-muggle-pranks:
@@ -13924,6 +14040,7 @@ by_tag:
   - hbp-ch01-007
   - hbp-ch02-001
   - hbp-ch06-003
+  - hbp-ch08-001
   - ootp-ch23-007
   - ootp-ch36-007
   avada-kedavra:
@@ -14218,6 +14335,7 @@ by_tag:
   - gof-ch24-003
   - gof-ch26-003
   - gof-ch28-002
+  - hbp-ch08-007
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch11-005
@@ -14272,6 +14390,8 @@ by_tag:
   castle-architecture:
   - gof-ch15-001
   - ootp-ch14-002
+  castle-communications:
+  - hbp-ch08-001
   castle-decorations:
   - ootp-ch21-003
   castle-gates:
@@ -14310,6 +14430,7 @@ by_tag:
   - ps-ch09-006
   - ps-ch10-004
   castle-protections:
+  - hbp-ch08-002
   - ootp-ch27-007
   - poa-ch09-001
   - poa-ch22-001
@@ -14536,6 +14657,8 @@ by_tag:
   - ootp-ch18-005
   coming-of-age:
   - hbp-ch03-007
+  commentators:
+  - hbp-ch08-004
   committee-for-disposal:
   - poa-ch14-003
   - poa-ch15-001
@@ -14926,6 +15049,7 @@ by_tag:
   - hbp-ch05-004
   - hbp-ch05-006
   - hbp-ch06-005
+  - hbp-ch08-005
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -15309,6 +15433,7 @@ by_tag:
   - hbp-ch04-007
   - hbp-ch05-005
   - hbp-ch06-003
+  - hbp-ch08-002
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -15713,6 +15838,7 @@ by_tag:
   - cos-ch07-006
   - cos-ch08-002
   - gof-ch12-005
+  - hbp-ch08-004
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -15910,6 +16036,7 @@ by_tag:
   - ootp-ch31-005
   forbidden-objects:
   - gof-ch12-005
+  - hbp-ch08-004
   foreign-schools:
   - gof-ch07-003
   foreign-wizards:
@@ -16023,6 +16150,7 @@ by_tag:
   - cos-ch08-001
   - cos-ch08-005
   - gof-ch25-004
+  - hbp-ch08-003
   - ootp-ch11-004
   - ootp-ch38-006
   - poa-ch08-006
@@ -16041,6 +16169,7 @@ by_tag:
   - gof-ch23-006
   - gof-ch36-006
   - hbp-ch01-004
+  - hbp-ch08-007
   - ootp-ch05-005
   - ootp-ch20-002
   - ootp-ch20-003
@@ -16123,6 +16252,7 @@ by_tag:
   grade-scale:
   - hbp-ch05-006
   grawp:
+  - hbp-ch08-007
   - ootp-ch30-006
   - ootp-ch33-006
   great-hall:
@@ -16143,6 +16273,7 @@ by_tag:
   - gof-ch22-003
   - gof-ch23-002
   - gof-ch37-003
+  - hbp-ch08-003
   - ootp-ch19-005
   - ootp-ch25-001
   - ootp-ch26-001
@@ -16363,6 +16494,7 @@ by_tag:
   - gof-ch36-006
   - hbp-ch03-006
   - hbp-ch06-003
+  - hbp-ch08-007
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch14-002
@@ -16592,6 +16724,7 @@ by_tag:
   - gof-ch13-006
   - hbp-ch04-005
   - hbp-ch05-004
+  - hbp-ch08-004
   - ootp-ch19-003
   - ps-ch08-006
   healer:
@@ -16737,6 +16870,7 @@ by_tag:
   - gof-ch19-001
   - gof-ch24-005
   - gof-ch27-006
+  - hbp-ch08-001
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -17137,6 +17271,7 @@ by_tag:
   - gof-ch16-001
   - gof-ch21-006
   - gof-ch23-002
+  - hbp-ch08-003
   - poa-ch11-005
   house-teams:
   - cos-ch07-001
@@ -17338,6 +17473,7 @@ by_tag:
   - ootp-ch23-006
   jinxed-post:
   - cos-ch07-004
+  - hbp-ch08-005
   - poa-ch05-003
   jinxes:
   - ootp-ch25-005
@@ -17764,6 +17900,8 @@ by_tag:
   magical-eye:
   - gof-ch19-003
   - gof-ch25-007
+  magical-fortifications:
+  - hbp-ch08-006
   magical-games-and-sports:
   - gof-ch12-007
   - gof-ch16-002
@@ -17832,6 +17970,7 @@ by_tag:
   - cos-ch05-003
   - cos-ch15-003
   - cos-ch15-005
+  - hbp-ch08-007
   - ootp-ch27-002
   - ootp-ch30-006
   - ootp-ch33-006
@@ -18248,6 +18387,8 @@ by_tag:
   - cos-ch12-004
   mountain:
   - gof-ch27-006
+  mountains:
+  - hbp-ch08-007
   mourning-customs:
   - gof-ch37-003
   moving-illustrations:
@@ -18741,6 +18882,8 @@ by_tag:
   - poa-ch20-006
   patronus-lessons:
   - poa-ch12-001
+  patronus-messaging:
+  - hbp-ch08-001
   pattern-analysis:
   - gof-ch30-002
   peeves:
@@ -18954,6 +19097,7 @@ by_tag:
   - gof-ch22-005
   - gof-ch35-007
   - hbp-ch05-007
+  - hbp-ch08-005
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -19327,6 +19471,7 @@ by_tag:
   - gof-ch06-004
   - gof-ch08-004
   - gof-ch30-005
+  - hbp-ch08-004
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -19710,6 +19855,9 @@ by_tag:
   - gof-ch15-006
   - gof-ch29-001
   - hbp-ch04-001
+  - hbp-ch08-001
+  - hbp-ch08-002
+  - hbp-ch08-006
   - ootp-ch23-001
   school-protections:
   - gof-ch11-005
@@ -19727,6 +19875,7 @@ by_tag:
   - gof-ch11-003
   - gof-ch12-005
   - gof-ch16-003
+  - hbp-ch08-004
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch16-003
@@ -20053,6 +20202,7 @@ by_tag:
   - hbp-ch05-001
   - hbp-ch07-005
   - hbp-ch07-006
+  - hbp-ch08-005
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -20101,6 +20251,7 @@ by_tag:
   - hbp-ch02-004
   - hbp-ch02-006
   - hbp-ch04-007
+  - hbp-ch08-005
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -20136,6 +20287,7 @@ by_tag:
   sorting-ceremony:
   - cos-ch05-004
   - gof-ch12-003
+  - hbp-ch08-003
   - ootp-ch19-002
   - ps-ch07-002
   sorting-expectations:
@@ -20148,6 +20300,7 @@ by_tag:
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
+  - hbp-ch08-003
   - ootp-ch11-003
   - ootp-ch11-004
   - ootp-ch19-002
@@ -20230,6 +20383,7 @@ by_tag:
   - gof-ch12-006
   staff-appointments:
   - gof-ch24-002
+  - hbp-ch08-005
   - poa-ch05-007
   - poa-ch17-003
   staff-authority:
@@ -20281,6 +20435,8 @@ by_tag:
   - cos-ch07-002
   staff-protections:
   - ps-ch14-003
+  staff-reporting:
+  - hbp-ch08-006
   staff-resignation:
   - poa-ch22-003
   staff-resistance:
@@ -20302,6 +20458,7 @@ by_tag:
   - ootp-ch15-006
   staff-table:
   - gof-ch12-006
+  - hbp-ch08-003
   - ootp-ch11-002
   staff-tenure:
   - ootp-ch15-003
@@ -20348,6 +20505,8 @@ by_tag:
   - ootp-ch11-005
   start-of-term-banquet:
   - ps-ch07-002
+  start-of-term-feast:
+  - hbp-ch08-003
   statute-of-secrecy:
   - cos-ch02-005
   - gof-ch04-004
@@ -20385,6 +20544,8 @@ by_tag:
   - cos-ch04-003
   student-activism:
   - gof-ch19-002
+  student-arrival:
+  - hbp-ch08-001
   student-books:
   - poa-ch13-005
   student-boundaries:
@@ -20585,6 +20746,7 @@ by_tag:
   - gof-ch31-003
   - gof-ch31-006
   - hbp-ch03-002
+  - hbp-ch08-006
   - ootp-ch02-006
   - ootp-ch03-005
   - ootp-ch13-006
@@ -20727,6 +20889,7 @@ by_tag:
   - gof-ch12-006
   - hbp-ch02-003
   - hbp-ch05-004
+  - hbp-ch08-005
   - ootp-ch09-004
   - ootp-ch11-002
   - ootp-ch26-007
@@ -21234,6 +21397,7 @@ by_tag:
   - ps-ch01-003
   - ps-ch02-005
   voldemort-return:
+  - hbp-ch08-006
   - ootp-ch01-001
   - ootp-ch16-004
   - ootp-ch38-001
@@ -21297,6 +21461,9 @@ by_tag:
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
+  - hbp-ch08-001
+  - hbp-ch08-002
+  - hbp-ch08-006
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
@@ -21313,6 +21480,7 @@ by_tag:
   - gof-ch06-003
   - hbp-ch06-004
   - hbp-ch06-006
+  - hbp-ch08-004
   weather:
   - gof-ch27-002
   welcoming-feast:
@@ -21358,6 +21526,7 @@ by_tag:
   - ps-ch10-001
   winged-boar-gates:
   - gof-ch12-001
+  - hbp-ch08-002
   - poa-ch05-005
   winged-boars:
   - ootp-ch16-001
@@ -21383,6 +21552,7 @@ by_tag:
   - gof-ch27-003
   witherwings:
   - hbp-ch03-006
+  - hbp-ch08-007
   witness-account:
   - gof-ch36-003
   witnesses:
