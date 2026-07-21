@@ -1,0 +1,340 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Ten - The House of Gaunt
+  chapter_start_pdf_page: 2578
+  chapter_end_pdf_page: 2596
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the control-file page range. PDF page 2578 begins with "CHAPTER TEN THE HOUSE OF GAUNT"; PDF page 2596 ends with Harry leaving Dumbledore's office after the Gaunt ring question.
+  processed_date: '2026-07-21'
+  processor_notes: Extracted only PDF pages 2578-2596 with scripts/extract_pages.py using pypdf; no full-PDF scan was performed.
+
+entries:
+  - id: hbp-ch10-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2578
+    printed_page: null
+    extracted_text_lines: 6-24
+    text_anchor:
+      start_phrase: the rest of the week's Potions lessons
+      end_phrase: spells that the Prince had made up himself
+      local_occurrence_note: Opening recap shows Harry continuing to use the Prince's deviations from Libatius Borage and discovering non-Potions spell notes.
+    nearby_context: Hermione contrasts the printed "official" instructions with the Prince's marginal directions, while Harry examines the old Advanced Potion-Making copy.
+    match_terms:
+      - Advanced Potion-Making
+      - Half-Blood Prince
+      - Libatius Borage
+      - official instructions
+      - marginalia
+      - invented spells
+    quote_excerpt_short: "barely a page on which the Prince had not made additional notes"
+    source_note: Harry continues using the annotated Advanced Potion-Making copy across multiple Potions lessons, and the book also contains apparent spell inventions outside ordinary potion work.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - advanced-potion-making
+      - half-blood-prince
+      - libatius-borage
+      - marginalia
+      - potions
+      - school-textbooks
+      - student-spellcraft
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Textbooks, Marginalia, and Informal Knowledge
+    candidate_section: Continued use of the Half-Blood Prince's annotated Potions book
+    reason_for_placement: The passage extends the classroom evidence for unofficial student annotations competing with printed curriculum instructions.
+    relevance_to_hogwarts_a_history: A later editorial note could use this as continuing evidence for inherited textbooks, marginal magical knowledge, and the risks of student-made spells entering classroom use.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-007
+      notes: hbp-ch09-007 records the first discovery and classroom impact of the annotated textbook; this entry adds sustained use over several lessons and non-Potions spell marginalia.
+    confidence: high
+    limitations: The passage still does not identify the owner or show whether the invented spells were ever sanctioned by Hogwarts staff.
+
+  - id: hbp-ch10-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2579
+    printed_page: null
+    extracted_text_lines: 61-66
+    text_anchor:
+      start_phrase: the spot in the seventh-floor corridor
+      end_phrase: led to Dumbledore's office
+      local_occurrence_note: Harry uses the current password to pass the seventh-floor gargoyle and ride the moving spiral staircase to the office door.
+    nearby_context: Harry has left Gryffindor Tower for his scheduled Saturday private lesson after avoiding Trelawney in the corridor.
+    match_terms:
+      - seventh-floor corridor
+      - Acid Pops
+      - gargoyle
+      - moving spiral staircase
+      - brass knocker
+      - Dumbledore's office
+    quote_excerpt_short: "the gargoyle leapt aside"
+    source_note: Dumbledore's office remains protected by a passworded seventh-floor gargoyle that reveals a moving spiral staircase and brass-knocker door.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore-office
+      - headmaster-office
+      - magical-architecture
+      - moving-staircase
+      - password
+      - stone-gargoyle
+      - seventh-floor
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Headmaster's Office and Protected Entrances
+    candidate_section: Passworded gargoyle and moving stair access
+    reason_for_placement: The passage provides direct architectural evidence for the office entrance route and its password mechanism.
+    relevance_to_hogwarts_a_history: This can corroborate a castle-architecture section on protected administrative spaces and concealed moving stair access.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-004
+        - cos-ch11-007
+      notes: hbp-ch09-004 records Dumbledore providing the password for this lesson, and cos-ch11-007 records the original gargoyle-and-staircase mechanism; this entry confirms the actual use of the Chapter 9 password.
+    confidence: high
+    limitations: The scene does not explain who controls password changes or whether all headmasters use the same entrance charm.
+
+  - id: hbp-ch10-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2580
+    printed_page: null
+    extracted_text_lines: 81-94
+    text_anchor:
+      start_phrase: The circular office looked just as it always did
+      end_phrase: certain information
+      local_occurrence_note: Harry observes the office fixtures before Dumbledore explains that the private sessions will deliver Voldemort-related information.
+    nearby_context: Dumbledore has postponed Harry's Snape detention so that the first private lesson can proceed on Saturday night.
+    match_terms:
+      - circular office
+      - silver instruments
+      - headmaster portraits
+      - Fawkes
+      - private lessons
+      - Voldemort
+    quote_excerpt_short: "portraits of previous headmasters and headmistresses dozed in their frames"
+    source_note: The headmaster's office contains silver instruments, prior-headmaster portraits, and Fawkes, and Dumbledore frames the private lessons as information about Voldemort rather than dueling practice.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore-office
+      - fawkes
+      - headmaster-office
+      - headmaster-portraits
+      - private-lessons
+      - silver-instruments
+      - voldemort
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Headmaster's Office and Protected Entrances
+    candidate_section: Office fixtures during private wartime instruction
+    reason_for_placement: The passage combines recurring office fixtures with Dumbledore's unusual headmaster-led instruction during the Second War.
+    relevance_to_hogwarts_a_history: This can support a later editorial note on the office as both administrative space and protected instructional setting.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch05-005
+        - hbp-ch09-004
+      notes: hbp-ch05-005 anticipates the private lessons, and hbp-ch09-004 records the written appointment; this entry adds the first lesson's setting and stated informational purpose.
+    confidence: high
+    limitations: The lesson structure is exceptional to Harry and the Second War, not evidence of ordinary curriculum.
+
+  - id: hbp-ch10-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2581
+    printed_page: null
+    extracted_text_lines: 101-130
+    text_anchor:
+      start_phrase: the firm foundation of fact
+      end_phrase: Bob Ogden's memory lane
+      local_occurrence_note: Dumbledore distinguishes fact, memory, and guesswork before placing Bob Ogden's bottled recollection into the Pensieve.
+    nearby_context: Harry asks whether the lesson has to do with the prophecy, and Dumbledore says it has a great deal to do with Harry's survival.
+    match_terms:
+      - Pensieve
+      - memory
+      - Bob Ogden
+      - prophecy
+      - Dumbledore
+      - permission
+    quote_excerpt_short: "you enter the Pensieve with me"
+    source_note: Dumbledore uses the Pensieve as a supervised teaching tool, entering a collected memory with Harry's permission and warning that later conclusions mix memory evidence with guesswork.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - bob-ogden
+      - dumbledore
+      - memory-magic
+      - pensieve
+      - private-lessons
+      - prophecy
+      - teaching-methods
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: Memory, Testimony, and Historical Method
+    candidate_section: Pensieve memories as supervised historical evidence
+    reason_for_placement: The passage explicitly distinguishes direct memory evidence from interpretation, making it useful for source-method notes in a historical seed.
+    relevance_to_hogwarts_a_history: A later editorial note could use this as evidence for how Dumbledore assembled and taught from memory testimony about pre-Hogwarts Voldemort history.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch24-004
+        - ootp-ch28-006
+      notes: ootp-ch24-004 and ootp-ch28-006 establish Dumbledore's Pensieve and memory-entry mechanics; this entry adds permitted, supervised use of an externally collected witness memory as instruction.
+    confidence: high
+    limitations: Pensieve ownership and provenance are Dumbledore-specific here; the passage does not establish broader school access to Pensieve instruction.
+
+  - id: hbp-ch10-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2582
+    printed_page: null
+    extracted_text_lines: 133-137; 294-299; 326-328; 355-370; 412-432
+    text_anchor:
+      start_phrase: employed by the Department of Magical Law Enforcement
+      end_phrase: causing harm and distress
+      local_occurrence_note: Dumbledore identifies Ogden's Ministry role; the memory shows Ogden investigating Morfin, issuing a hearing summons, and naming the charges.
+    nearby_context: The visit proceeds from Dumbledore's explanation of Ogden's official duties to Ogden's confrontation with the Gaunts inside their cottage.
+    match_terms:
+      - Department of Magical Law Enforcement
+      - Bob Ogden
+      - Wizarding law
+      - summons
+      - hearing
+      - magic in front of a Muggle
+      - harm and distress
+    quote_excerpt_short: "a serious breach of Wizarding law"
+    source_note: Bob Ogden, a Department of Magical Law Enforcement employee and Head of the Magical Law Enforcement Squad, investigates Morfin Gaunt for attacking a Muggle and serves a summons for a Ministry hearing.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - bob-ogden
+      - department-of-magical-law-enforcement
+      - magical-law-enforcement
+      - ministry-hearing
+      - muggle-harm
+      - secrecy-law
+      - wizarding-law
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Wizarding Law and Magical Secrecy
+    candidate_section: Ministry enforcement against Muggle-directed magic
+    reason_for_placement: The passage gives direct legal language, official role titles, and a concrete pre-Harry enforcement action.
+    relevance_to_hogwarts_a_history: This can support background notes on the legal framework Hogwarts students later study or encounter, especially secrecy and Muggle-protection rules.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for Magical Law Enforcement, Muggle-directed magic, and Wizarding law found no prior seed for Ogden's Gaunt visit or these specific charges.
+    confidence: high
+    limitations: The incident occurs outside Hogwarts and belongs as legal background unless a later structure explicitly covers Ministry law taught or referenced at school.
+
+  - id: hbp-ch10-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2589
+    printed_page: null
+    extracted_text_lines: 379-397; 412-419; 458-485
+    text_anchor:
+      start_phrase: Centuries it's been in our family
+      end_phrase: pure-blooded descendant of Salazar Slytherin
+      local_occurrence_note: Marvolo displays the Peverell ring and Slytherin locket, claims last living descent from Slytherin, and continues using Parseltongue with Morfin.
+    nearby_context: Ogden is trying to keep the conversation on Morfin's legal summons, but Marvolo answers with bloodline, heirloom, and founder-descendant claims.
+    match_terms:
+      - Salazar Slytherin
+      - last living descendants
+      - Parseltongue
+      - Peverell coat of arms
+      - locket
+      - ring
+      - pure-blood
+    quote_excerpt_short: "Salazar Slytherin's! We're his last living descendants"
+    source_note: The Gaunts claim direct descent from Salazar Slytherin, speak Parseltongue as a family language, and preserve heirlooms identified as Slytherin's locket and a Peverell-marked ring.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - gaunt-family
+      - parseltongue
+      - peverell-ring
+      - salazar-slytherin
+      - slytherin-descendants
+      - slytherin-locket
+      - wizarding-heirlooms
+    candidate_part: The Four Houses
+    candidate_chapter: Salazar Slytherin and His Legacy
+    candidate_section: Gaunt family descent and heirlooms
+    reason_for_placement: The passage supplies founder-lineage evidence and tangible artifacts tied to Salazar Slytherin outside Hogwarts.
+    relevance_to_hogwarts_a_history: This can support a founder-legacy section, while clearly separating Gaunt family testimony from institutional Hogwarts records.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch11-004
+        - cos-ch17-004
+      notes: cos-ch11-004 links Parseltongue with Slytherin lore, and cos-ch17-004 records Riddle's Slytherin descent claim; this entry adds the Gaunt family source, heirlooms, and last-descendant assertion.
+    confidence: medium
+    limitations: Marvolo is hostile and prideful, so the descent and heirloom claims should be corroborated by later evidence before being treated as neutral history.
+
+  - id: hbp-ch10-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Ten - The House of Gaunt
+    chapter_start_pdf_page: 2578
+    chapter_end_pdf_page: 2596
+    pdf_page: 2593
+    printed_page: null
+    extracted_text_lines: 517-539; 545-570; 580-608
+    text_anchor:
+      start_phrase: convicted by the Wizengamot
+      end_phrase: never troubled to discover what became of his son
+      local_occurrence_note: After leaving the memory, Dumbledore summarizes the Gaunts' convictions, family decline, and his conclusions about Merope, Tom Riddle senior, and Voldemort's parentage.
+    nearby_context: Harry and Dumbledore have returned to the headmaster's office and discuss what happened after Ogden escaped the cottage.
+    match_terms:
+      - Wizengamot
+      - Azkaban
+      - Gaunts
+      - Tom Riddle senior
+      - Merope Gaunt
+      - love potion
+      - Voldemort
+    quote_excerpt_short: "Morfin, his father, attempted to fight"
+    source_note: Dumbledore reports that Morfin and Marvolo Gaunt were convicted by the Wizengamot, identifies the Gaunts as Voldemort's maternal line, and offers a cautious love-potion explanation for Merope's marriage to Tom Riddle senior.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - azkaban
+      - gaunt-family
+      - love-potion
+      - merope-gaunt
+      - tom-riddle-senior
+      - voldemort-family-history
+      - wizengamot
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Tom Riddle Before Hogwarts
+    candidate_section: Gaunt convictions and Voldemort's maternal line
+    reason_for_placement: The passage links Ministry legal outcomes, Gaunt family history, and Voldemort's pre-Hogwarts origins.
+    relevance_to_hogwarts_a_history: A later editorial note on Voldemort's Hogwarts-era significance could use this as background, while the original book body would likely exclude the post-1940s interpretation.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch08-001
+        - gof-ch14-005
+      notes: ootp-ch08-001 records Wizengamot procedure, and gof-ch14-005 records Azkaban sentencing principles for severe magic; this entry adds the specific Gaunt convictions, sentences, and family-history consequences.
+    confidence: medium
+    limitations: Dumbledore explicitly labels parts of the Merope/Riddle explanation as guesswork, so the legal outcome is stronger evidence than the inferred love-potion motive.

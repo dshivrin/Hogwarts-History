@@ -662,6 +662,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: magical_architecture
   - Notes: The passage does not explain how the office password is set, how often it changes, or when this entrance mechanism was created.
 
+#### Section: Passworded gargoyle and moving stair access
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's office remains protected by a passworded seventh-floor gargoyle that reveals a moving spiral staircase and brass-knocker door.
+
+- **Corroboration:** Dumbledore's office remains protected by a passworded seventh-floor gargoyle that reveals a moving spiral staircase and brass-knocker door.
+  - Quote: "the gargoyle leapt aside"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2579, `hbp-ch10-002`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `hbp-ch09-004`, `cos-ch11-007`. hbp-ch09-004 records Dumbledore providing the password for this lesson, and cos-ch11-007 records the original gargoyle-and-staircase mechanism; this entry confirms the actual use of the Chapter 9 password.
+  - Notes: The scene does not explain who controls password changes or whether all headmasters use the same entrance charm.
+
 #### Section: Rightful-headmaster access and portrait supervision
 
 Summary: The available evidence includes 1 source item, led by: Dumbledore's office is described as restored after Umbridge's occupation, barred to everyone except the rightful headmaster, able to confine Harry, and monitored by active former-head portraits.
@@ -894,6 +906,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: house_system
   - Corroborates: `ps-ch07-002`, `ps-ch08-007`, `ps-ch14-007`. Earlier entries seeded the House points system and smaller deductions; this entry adds giant hourglasses and a 150-point Gryffindor loss tied to the House Cup.
   - Notes: The point scale is exceptional and tied to Harry-era events; the passage does not explain the origin, mechanics, or location of the hourglasses.
+
+### Chapter: Salazar Slytherin and His Legacy
+
+#### Section: Gaunt family descent and heirlooms
+
+Summary: The available evidence includes 1 source item, led by: The Gaunts claim direct descent from Salazar Slytherin, speak Parseltongue as a family language, and preserve heirlooms identified as Slytherin's locket and a Peverell-marked ring.
+
+- **Corroboration:** The Gaunts claim direct descent from Salazar Slytherin, speak Parseltongue as a family language, and preserve heirlooms identified as Slytherin's locket and a Peverell-marked ring.
+  - Quote: "Salazar Slytherin's! We're his last living descendants"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2589, `hbp-ch10-006`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch11-004`, `cos-ch17-004`. cos-ch11-004 links Parseltongue with Slytherin lore, and cos-ch17-004 records Riddle's Slytherin descent claim; this entry adds the Gaunt family source, heirlooms, and last-descendant assertion.
+  - Notes: Marvolo is hostile and prideful, so the descent and heirloom claims should be corroborated by later evidence before being treated as neutral history.
 
 ### Chapter: Slytherin House
 
@@ -3075,6 +3101,18 @@ Summary: The available evidence includes 1 source item, led by: Slughorn begins 
 
 ### Chapter: Textbooks, Marginalia, and Informal Knowledge
 
+#### Section: Continued use of the Half-Blood Prince's annotated Potions book
+
+Summary: The available evidence includes 1 source item, led by: Harry continues using the annotated Advanced Potion-Making copy across multiple Potions lessons, and the book also contains apparent spell inventions outside ordinary potion work.
+
+- **Corroboration:** Harry continues using the annotated Advanced Potion-Making copy across multiple Potions lessons, and the book also contains apparent spell inventions outside ordinary potion work.
+  - Quote: "barely a page on which the Prince had not made additional notes"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2578, `hbp-ch10-001`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch09-007`. hbp-ch09-007 records the first discovery and classroom impact of the annotated textbook; this entry adds sustained use over several lessons and non-Potions spell marginalia.
+  - Notes: The passage still does not identify the owner or show whether the invented spells were ever sanctioned by Hogwarts staff.
+
 #### Section: The Half-Blood Prince's annotated Potions book
 
 Summary: The available evidence includes 1 source item, led by: A battered school copy of Advanced Potion-Making contains effective handwritten corrections and spells attributed by ownership note to the Half-Blood Prince.
@@ -4263,6 +4301,19 @@ Summary: The available evidence includes 1 source item, led by: Hermione's inter
   - Corroborates: `ootp-ch12-001`. Corroborates the previous chapter's common-room prefect enforcement entry, but adds first-year safety and informal family-notification pressure.
   - Notes: The scene shows Hermione acting as prefect, but it does not state a formal written rule or official punishment outcome.
 
+### Chapter: Wizarding Law and Magical Secrecy
+
+#### Section: Ministry enforcement against Muggle-directed magic
+
+Summary: The available evidence includes 1 source item, led by: Bob Ogden, a Department of Magical Law Enforcement employee and Head of the Magical Law Enforcement Squad, investigates Morfin Gaunt for attacking a Muggle and serves a summons for a Ministry hearing.
+
+- **Supporting evidence:** Bob Ogden, a Department of Magical Law Enforcement employee and Head of the Magical Law Enforcement Squad, investigates Morfin Gaunt for attacking a Muggle and serves a summons for a Ministry hearing.
+  - Quote: "a serious breach of Wizarding law"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2582, `hbp-ch10-005`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The incident occurs outside Hogwarts and belongs as legal background unless a later structure explicitly covers Ministry law taught or referenced at school.
+
 ### Chapter: Wizarding Transport and Secrecy
 
 #### Section: Covert Broom Transport Under Surveillance
@@ -4406,6 +4457,20 @@ Summary: The available evidence includes 1 source item, led by: Phineas Nigellus
   - Reference type: portrait_or_ghost_lore
   - Corroborates: `ootp-ch22-002`. ootp-ch22-002 records Dumbledore's explanation of multi-institution portrait travel and service to the headmaster; this entry adds Phineas's practical use at Grimmauld Place to deliver an order and observe Harry.
   - Notes: Harry infers the watch-over function; the message delivery itself is direct.
+
+### Chapter: Headmaster's Office and Protected Entrances
+
+#### Section: Office fixtures during private wartime instruction
+
+Summary: The available evidence includes 1 source item, led by: The headmaster's office contains silver instruments, prior-headmaster portraits, and Fawkes, and Dumbledore frames the private lessons as information about Voldemort rather than dueling practice.
+
+- **Corroboration:** The headmaster's office contains silver instruments, prior-headmaster portraits, and Fawkes, and Dumbledore frames the private lessons as information about Voldemort rather than dueling practice.
+  - Quote: "portraits of previous headmasters and headmistresses dozed in their frames"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2580, `hbp-ch10-003`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `hbp-ch05-005`, `hbp-ch09-004`. hbp-ch05-005 anticipates the private lessons, and hbp-ch09-004 records the written appointment; this entry adds the first lesson's setting and stated informational purpose.
+  - Notes: The lesson structure is exceptional to Harry and the Second War, not evidence of ordinary curriculum.
 
 ### Chapter: Hogwarts House-Elves
 
@@ -6345,6 +6410,20 @@ Summary: The available evidence includes 1 source item, led by: Riddle's diary i
   - Corroborates: `cos-ch13-004`. Chapter Thirteen introduced the diary as a memory-bearing historical source; this entry confirms its possessive function and its role in the current Chamber attacks.
   - Notes: Riddle is self-interested and hostile; the current attack mechanism is corroborated by Ginny's condition and later admissions, but his framing remains selective.
 
+### Chapter: Memory, Testimony, and Historical Method
+
+#### Section: Pensieve memories as supervised historical evidence
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore uses the Pensieve as a supervised teaching tool, entering a collected memory with Harry's permission and warning that later conclusions mix memory evidence with guesswork.
+
+- **Corroboration:** Dumbledore uses the Pensieve as a supervised teaching tool, entering a collected memory with Harry's permission and warning that later conclusions mix memory evidence with guesswork.
+  - Quote: "you enter the Pensieve with me"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2581, `hbp-ch10-004`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch24-004`, `ootp-ch28-006`. ootp-ch24-004 and ootp-ch28-006 establish Dumbledore's Pensieve and memory-entry mechanics; this entry adds permitted, supervised use of an externally collected witness memory as instruction.
+  - Notes: Pensieve ownership and provenance are Dumbledore-specific here; the passage does not establish broader school access to Pensieve instruction.
+
 ### Chapter: Named Sources About Hogwarts
 
 #### Section: Prefect Career Studies
@@ -6557,6 +6636,20 @@ Summary: The available evidence includes 1 source item, led by: Augusta Longbott
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The passage gives wartime background and family context rather than a Hogwarts institutional rule or event.
+
+### Chapter: Tom Riddle Before Hogwarts
+
+#### Section: Gaunt convictions and Voldemort's maternal line
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore reports that Morfin and Marvolo Gaunt were convicted by the Wizengamot, identifies the Gaunts as Voldemort's maternal line, and offers a cautious love-potion explanation for Merope's marriage to Tom Riddle senior.
+
+- **Corroboration:** Dumbledore reports that Morfin and Marvolo Gaunt were convicted by the Wizengamot, identifies the Gaunts as Voldemort's maternal line, and offers a cautious love-potion explanation for Merope's marriage to Tom Riddle senior.
+  - Quote: "Morfin, his father, attempted to fight"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, PDF p. 2593, `hbp-ch10-007`, `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch08-001`, `gof-ch14-005`. ootp-ch08-001 records Wizengamot procedure, and gof-ch14-005 records Azkaban sentencing principles for severe magic; this entry adds the specific Gaunt convictions, sentences, and family-history consequences.
+  - Notes: Dumbledore explicitly labels parts of the Merope/Riddle explanation as guesswork, so the legal outcome is stronger evidence than the inferred love-potion motive.
 
 ### Chapter: Voldemort, Riddle, and Hogwarts Memory
 

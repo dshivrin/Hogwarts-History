@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Ten - The House of Gaunt
-- Page range: 2578-2596
+- Chapter: Chapter Eleven - Hermione’s Helping Hand
+- Page range: 2597-2612
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-10-the-house-of-gaunt.yaml`
+- Output YAML: `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
 
 ## Minimal Context
 

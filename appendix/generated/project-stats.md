@@ -8,36 +8,36 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 141
+- Total: 142
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Half-Blood Prince: 62
+- Harry Potter and the Half-Blood Prince: 69
 - Harry Potter and the Order of the Phoenix: 261
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 375
+- harry_era_confirmation: 379
 - later_editorial_note: 470
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
-- pre_1984_historical_candidate: 67
+- pre_1984_historical_candidate: 70
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 66
+- cross_reference_candidate: 67
 - curriculum_or_subject: 131
-- direct_observed_setting: 50
+- direct_observed_setting: 51
 - explicit_hogwarts_a_history: 8
-- explicit_in_universe_source: 62
-- historical_claim: 96
+- explicit_in_universe_source: 63
+- historical_claim: 99
 - house_system: 16
 - institutional_custom: 155
-- magical_architecture: 71
+- magical_architecture: 72
 - portrait_or_ghost_lore: 12
 - school_rule_or_policy: 114
 - security_or_protection: 141
@@ -48,7 +48,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 694
+- Total: 700
 
 ## Latest Processed Unit
 

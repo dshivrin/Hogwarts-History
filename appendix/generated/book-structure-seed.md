@@ -154,6 +154,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slughorn's favorites and alumni network
   - The Slug Club as an informal student network
 - Textbooks, Marginalia, and Informal Knowledge
+  - Continued use of the Half-Blood Prince's annotated Potions book
   - The Half-Blood Prince's annotated Potions book
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
@@ -345,6 +346,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmaster Portraits and Institutional Memory
   - Multi-institution portrait travel and service to the headmaster
   - Portrait messages and supervision beyond Hogwarts
+- Headmaster's Office and Protected Entrances
+  - Office fixtures during private wartime instruction
 - Hogwarts House-Elves
   - House-elf warning under High Inquisitor pressure
 - House-Elves and Hidden Labor
@@ -759,6 +762,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Office Interior, Portraits, and Artifacts
   - Office artifacts and founder-linked objects
   - Passworded Gargoyle and Moving Staircase
+  - Passworded gargoyle and moving stair access
   - Rightful-headmaster access and portrait supervision
   - The Pensieve and stored memories
 - House Common Rooms and Dormitories
@@ -826,6 +830,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Riddle's Account, Expulsion, and Cover Story
   - Riddle's Confession and Hagrid's Expulsion
   - Tom Riddle's Hogwarts Record
+- Tom Riddle Before Hogwarts
+  - Gaunt convictions and Voldemort's maternal line
 - Voldemort, Riddle, and Hogwarts Memory
   - Riddle Family Background and Muggle Records
 
@@ -1171,6 +1177,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trophy Room Records and Head Boy Lists
 - Student Offices, Prefects, and Discipline
   - Prefect authority and informal enforcement limits
+- Wizarding Law and Magical Secrecy
+  - Ministry enforcement against Muggle-directed magic
 - Wizarding Transport and Secrecy
   - Covert Broom Transport Under Surveillance
   - Floo Network Regulation and Muggle Fireplaces
@@ -1306,6 +1314,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Points and the House Cup
   - Classroom Deductions
   - Point Records and Major Deductions
+- Salazar Slytherin and His Legacy
+  - Gaunt family descent and heirlooms
 - Slytherin House
   - Serpent Symbolism and Parseltongue Lore
 - Sorting, Families, and Exceptions
@@ -1330,6 +1340,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Riddle Diary as Memory Evidence
 - Magical Sources and Unreliable Records
   - The Riddle Diary as Memory and Weapon
+- Memory, Testimony, and Historical Method
+  - Pensieve memories as supervised historical evidence
 - Named In-Universe Sources
   - Bathilda Bagshot's A History of Magic
   - Informal Historical Expertise

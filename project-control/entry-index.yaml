@@ -13891,6 +13891,117 @@ by_entry:
     - specialis-revelio
     source_unit: hbp-ch09
     output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch10-001:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: Continued use of the Half-Blood
+      Prince''s annotated Potions book'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - half-blood-prince
+    - libatius-borage
+    - marginalia
+    - potions
+    - school-textbooks
+    - student-spellcraft
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch10-002:
+    title: 'Headmaster''s Office and Protected Entrances: Passworded gargoyle and
+      moving stair access'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore-office
+    - headmaster-office
+    - magical-architecture
+    - moving-staircase
+    - password
+    - seventh-floor
+    - stone-gargoyle
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch10-003:
+    title: 'Headmaster''s Office and Protected Entrances: Office fixtures during private
+      wartime instruction'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - dumbledore-office
+    - fawkes
+    - headmaster-office
+    - headmaster-portraits
+    - private-lessons
+    - silver-instruments
+    - voldemort
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch10-004:
+    title: 'Memory, Testimony, and Historical Method: Pensieve memories as supervised
+      historical evidence'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - bob-ogden
+    - dumbledore
+    - memory-magic
+    - pensieve
+    - private-lessons
+    - prophecy
+    - teaching-methods
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch10-005:
+    title: 'Wizarding Law and Magical Secrecy: Ministry enforcement against Muggle-directed
+      magic'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bob-ogden
+    - department-of-magical-law-enforcement
+    - magical-law-enforcement
+    - ministry-hearing
+    - muggle-harm
+    - secrecy-law
+    - wizarding-law
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch10-006:
+    title: 'Salazar Slytherin and His Legacy: Gaunt family descent and heirlooms'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - gaunt-family
+    - parseltongue
+    - peverell-ring
+    - salazar-slytherin
+    - slytherin-descendants
+    - slytherin-locket
+    - wizarding-heirlooms
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch10-007:
+    title: 'Tom Riddle Before Hogwarts: Gaunt convictions and Voldemort''s maternal
+      line'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - azkaban
+    - gaunt-family
+    - love-potion
+    - merope-gaunt
+    - tom-riddle-senior
+    - voldemort-family-history
+    - wizengamot
+    source_unit: hbp-ch10
+    output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13954,6 +14065,7 @@ by_tag:
   advanced-potion-making:
   - hbp-ch09-005
   - hbp-ch09-007
+  - hbp-ch10-001
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -14174,6 +14286,7 @@ by_tag:
   - hbp-ch01-003
   - hbp-ch01-006
   - hbp-ch03-001
+  - hbp-ch10-007
   - ootp-ch02-004
   - ootp-ch08-001
   - ootp-ch08-006
@@ -14348,6 +14461,9 @@ by_tag:
   boats:
   - ps-ch06-007
   - ps-ch17-006
+  bob-ogden:
+  - hbp-ch10-004
+  - hbp-ch10-005
   boggart:
   - gof-ch31-005
   - poa-ch07-006
@@ -15285,6 +15401,8 @@ by_tag:
   - gof-ch14-007
   department-of-magical-games-and-sports:
   - gof-ch03-001
+  department-of-magical-law-enforcement:
+  - hbp-ch10-005
   department-of-magical-transportation:
   - gof-ch06-001
   department-of-mysteries:
@@ -15564,6 +15682,7 @@ by_tag:
   - hbp-ch05-005
   - hbp-ch06-003
   - hbp-ch08-002
+  - hbp-ch10-004
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -15647,6 +15766,8 @@ by_tag:
   - gof-ch30-001
   - gof-ch30-002
   - hbp-ch09-004
+  - hbp-ch10-002
+  - hbp-ch10-003
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
@@ -15935,6 +16056,7 @@ by_tag:
   - cos-ch17-005
   - cos-ch17-007
   - gof-ch36-003
+  - hbp-ch10-003
   - ootp-ch22-003
   - ootp-ch27-007
   - ootp-ch36-005
@@ -16270,6 +16392,9 @@ by_tag:
   - ps-ch04-001
   gargoyle:
   - cos-ch13-006
+  gaunt-family:
+  - hbp-ch10-006
+  - hbp-ch10-007
   gendered-rules:
   - ootp-ch17-002
   genealogy:
@@ -16699,6 +16824,7 @@ by_tag:
   - ootp-ch37-007
   half-blood-prince:
   - hbp-ch09-007
+  - hbp-ch10-001
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -16831,6 +16957,8 @@ by_tag:
   - gof-ch30-001
   - gof-ch36-003
   - hbp-ch09-004
+  - hbp-ch10-002
+  - hbp-ch10-003
   - ootp-ch22-001
   - ootp-ch28-001
   - ootp-ch37-001
@@ -16838,6 +16966,7 @@ by_tag:
   - cos-ch12-001
   - cos-ch13-006
   - gof-ch30-001
+  - hbp-ch10-003
   - ootp-ch16-005
   - ootp-ch22-002
   - ootp-ch23-002
@@ -17757,6 +17886,8 @@ by_tag:
   - ootp-ch08-001
   levitation:
   - ps-ch10-001
+  libatius-borage:
+  - hbp-ch10-001
   library:
   - cos-ch09-001
   - cos-ch11-005
@@ -17844,6 +17975,8 @@ by_tag:
   longbottoms:
   - gof-ch30-006
   - ootp-ch09-007
+  love-potion:
+  - hbp-ch10-007
   love-potions:
   - gof-ch27-003
   - hbp-ch06-006
@@ -17962,6 +18095,7 @@ by_tag:
   - gof-ch29-006
   - gof-ch31-005
   - hbp-ch09-004
+  - hbp-ch10-002
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
@@ -18067,6 +18201,7 @@ by_tag:
   - gof-ch27-007
   - hbp-ch01-005
   - hbp-ch05-002
+  - hbp-ch10-005
   - ootp-ch07-001
   - ootp-ch07-004
   - ootp-ch07-006
@@ -18241,6 +18376,7 @@ by_tag:
   - ps-ch14-006
   marginalia:
   - hbp-ch09-007
+  - hbp-ch10-001
   mars:
   - gof-ch29-005
   - ootp-ch27-003
@@ -18305,6 +18441,7 @@ by_tag:
   memory-magic:
   - cos-ch13-004
   - gof-ch30-002
+  - hbp-ch10-004
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -18321,6 +18458,8 @@ by_tag:
   - gof-ch25-002
   mermish:
   - gof-ch26-007
+  merope-gaunt:
+  - hbp-ch10-007
   merpeople:
   - gof-ch25-003
   - gof-ch26-007
@@ -18369,6 +18508,8 @@ by_tag:
   ministry-guidelines:
   - gof-ch10-004
   - gof-ch27-004
+  ministry-hearing:
+  - hbp-ch10-005
   ministry-influence:
   - ootp-ch09-001
   ministry-intervention:
@@ -18548,6 +18689,7 @@ by_tag:
   moving-staircase:
   - cos-ch11-007
   - cos-ch13-006
+  - hbp-ch10-002
   mrs-figg:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -18592,6 +18734,8 @@ by_tag:
   muggle-government:
   - hbp-ch01-001
   - hbp-ch01-007
+  muggle-harm:
+  - hbp-ch10-005
   muggle-households:
   - ps-ch03-004
   muggle-houses:
@@ -18984,6 +19128,7 @@ by_tag:
   - cos-ch17-006
   - cos-ch18-004
   - gof-ch01-005
+  - hbp-ch10-006
   parseltongue-foreshadowing:
   - ps-ch02-004
   part-humans:
@@ -18993,6 +19138,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch29-006
   - hbp-ch09-004
+  - hbp-ch10-002
   - ootp-ch22-001
   passwords:
   - cos-ch05-006
@@ -19065,6 +19211,7 @@ by_tag:
   - ps-ch13-005
   pensieve:
   - gof-ch30-002
+  - hbp-ch10-004
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -19106,6 +19253,8 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch02-006
   - ootp-ch37-005
+  peverell-ring:
+  - hbp-ch10-006
   philosopher-stone-protection:
   - ps-ch11-007
   philosopher-stone-protections:
@@ -19260,6 +19409,7 @@ by_tag:
   - hbp-ch09-005
   - hbp-ch09-006
   - hbp-ch09-007
+  - hbp-ch10-001
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -19376,6 +19526,8 @@ by_tag:
   - hbp-ch04-007
   - hbp-ch05-005
   - hbp-ch09-004
+  - hbp-ch10-003
+  - hbp-ch10-004
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
@@ -19533,6 +19685,7 @@ by_tag:
   - gof-ch10-005
   - hbp-ch05-005
   - hbp-ch07-003
+  - hbp-ch10-004
   - ootp-ch34-007
   - ootp-ch35-001
   - ootp-ch35-002
@@ -19879,6 +20032,7 @@ by_tag:
   - cos-ch11-004
   - cos-ch17-004
   - cos-ch17-006
+  - hbp-ch10-006
   - ootp-ch11-003
   salem-witches-institute:
   - gof-ch07-003
@@ -20091,6 +20245,7 @@ by_tag:
   - ootp-ch32-006
   school-textbooks:
   - hbp-ch09-007
+  - hbp-ch10-001
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -20168,6 +20323,8 @@ by_tag:
   - ps-ch13-006
   - ps-ch14-003
   - ps-ch15-003
+  secrecy-law:
+  - hbp-ch10-005
   secrecy-sensor:
   - gof-ch20-003
   secret-entrance:
@@ -20250,6 +20407,7 @@ by_tag:
   seventeenth-birthday:
   - hbp-ch03-007
   seventh-floor:
+  - hbp-ch10-002
   - ootp-ch18-006
   seventh-year:
   - ootp-ch29-001
@@ -20300,6 +20458,8 @@ by_tag:
   - ps-ch12-004
   silencing-charm:
   - ootp-ch18-003
+  silver-instruments:
+  - hbp-ch10-003
   sir-cadogan:
   - poa-ch06-002
   - poa-ch09-003
@@ -20394,11 +20554,15 @@ by_tag:
   - ps-ch17-005
   slytherin-common-room:
   - cos-ch12-005
+  slytherin-descendants:
+  - hbp-ch10-006
   slytherin-heir:
   - cos-ch17-004
   - gof-ch01-005
   slytherin-house:
   - cos-ch11-004
+  slytherin-locket:
+  - hbp-ch10-006
   slytherin-statue:
   - cos-ch17-001
   snake-communication:
@@ -20702,6 +20866,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch29-006
   - hbp-ch09-004
+  - hbp-ch10-002
   - ootp-ch22-001
   - ootp-ch28-001
   stone-protection:
@@ -20941,6 +21106,8 @@ by_tag:
   - ootp-ch13-007
   student-spectators:
   - gof-ch31-002
+  student-spellcraft:
+  - hbp-ch10-001
   student-store-cupboard:
   - cos-ch10-002
   student-study:
@@ -21097,6 +21264,8 @@ by_tag:
   - gof-ch37-002
   teachers:
   - cos-ch12-002
+  teaching-methods:
+  - hbp-ch10-004
   team-captains:
   - cos-ch07-002
   - gof-ch06-004
@@ -21215,6 +21384,8 @@ by_tag:
   - gof-ch01-001
   tom-riddle-diary:
   - cos-ch13-004
+  tom-riddle-senior:
+  - hbp-ch10-007
   ton-tongue-toffee:
   - gof-ch06-003
   tonks-family:
@@ -21551,6 +21722,7 @@ by_tag:
   - hbp-ch01-006
   - hbp-ch02-005
   - hbp-ch04-002
+  - hbp-ch10-003
   - ootp-ch05-005
   - ootp-ch06-004
   - ootp-ch15-007
@@ -21571,6 +21743,8 @@ by_tag:
   - ps-ch01-001
   - ps-ch01-003
   - ps-ch02-005
+  voldemort-family-history:
+  - hbp-ch10-007
   voldemort-return:
   - hbp-ch08-006
   - ootp-ch01-001
@@ -21754,6 +21928,8 @@ by_tag:
   - cos-ch03-002
   wizarding-genealogy:
   - ootp-ch06-001
+  wizarding-heirlooms:
+  - hbp-ch10-006
   wizarding-history:
   - ootp-ch20-003
   wizarding-households:
@@ -21767,6 +21943,7 @@ by_tag:
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch30-003
+  - hbp-ch10-005
   - ootp-ch36-002
   - poa-ch21-003
   wizarding-politics:
@@ -21800,6 +21977,7 @@ by_tag:
   wizarding-world:
   - cos-ch01-003
   wizengamot:
+  - hbp-ch10-007
   - ootp-ch05-007
   - ootp-ch07-004
   - ootp-ch07-007
