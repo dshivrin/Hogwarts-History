@@ -70,6 +70,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
   - Private defensive books used for student-led practice
+  - Sixth-year nonverbal magic and advanced threat framing
 - Defense Against the Dark Arts Staffing
   - Dumbledore's restrictions on Snape
 - Divination and Elective Study
@@ -92,6 +93,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Failed O.W.L.s, Head-of-House advice, and career thresholds
   - Head Boy, Student Achievement, and Alumni Paths
   - O.W.L. result letters and grade scale
+  - O.W.L. thresholds and N.E.W.T. course placement
   - O.W.L.s and Student Advancement
   - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
   - Third-Year Practical and Written Exams
@@ -136,6 +138,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Potions Instruction and Materials
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
+  - N.E.W.T. class supplies and advanced potion demonstrations
   - Private Stores, Dungeon Lessons, and Antidotes
 - Potions, Practical Testing, and Discipline
   - Antidote brewing and detention penalties
@@ -150,6 +153,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Former-student memories of Slughorn's network
   - Slughorn's favorites and alumni network
   - The Slug Club as an informal student network
+- Textbooks, Marginalia, and Informal Knowledge
+  - The Half-Blood Prince's annotated Potions book
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
   - Time-Turner Authorization for Overlapping Lessons
@@ -750,6 +755,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dippet-Era Office and Entrance Continuity
   - Emergency nighttime access from Gryffindor Tower
   - Gargoyle password and moving staircase
+  - Gargoyle password use for scheduled private lessons
   - Office Interior, Portraits, and Artifacts
   - Office artifacts and founder-linked objects
   - Passworded Gargoyle and Moving Staircase
@@ -1055,6 +1061,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff-Assigned Tasks, Filch, and Trophy Room Labor
 - Detentions, Punishments, and Staff Authority
   - Abusive punishments under Ministry interference
+- Exams, Sport, and Magical Fairness
+  - Banned performance-enhancing potions
 - Governors, Ministry, and School Accountability
   - Dangerous-Creature Appeals and Execution Authority
   - Dangerous-Creature Hearings After Class Injuries
@@ -1197,6 +1205,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gryffindor's 1996 Cup victory and song reversal
 - The House System
   - Wartime recognition through House points
+
+## Student Life and Houses
+
+- House Quidditch Teams
+  - Captain authority, applicant lists, and trials
 
 ## Student Life and School Culture
 

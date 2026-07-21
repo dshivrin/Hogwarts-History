@@ -146,3 +146,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch06`: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, pages 2503-2522, 7 entries, 0 explicit references.
 - `hbp-ch07`: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, pages 2523-2544, 7 entries, 0 explicit references.
 - `hbp-ch08`: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, pages 2545-2558, 7 entries, 0 explicit references.
+- `hbp-ch09`: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, pages 2559-2577, 7 entries, 0 explicit references.

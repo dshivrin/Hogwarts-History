@@ -13782,6 +13782,115 @@ by_entry:
     - witherwings
     source_unit: hbp-ch08
     output_yaml: sources/book-06/chapter-08-snape-victorious.yaml
+  hbp-ch09-001:
+    title: 'Exams and Assessment: O.W.L. thresholds and N.E.W.T. course placement'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - academic-progression
+    - auror
+    - class-schedules
+    - head-of-house
+    - newt-courses
+    - ordinary-wizarding-levels
+    - potions
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch09-002:
+    title: 'House Quidditch Teams: Captain authority, applicant lists, and trials'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - captaincy
+    - extracurriculars
+    - gryffindor
+    - house-teams
+    - quidditch
+    - team-captains
+    - team-tryouts
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch09-003:
+    title: 'Defense Against the Dark Arts: Sixth-year nonverbal magic and advanced
+      threat framing'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - dark-arts
+    - defense-against-the-dark-arts
+    - inferi
+    - newt-courses
+    - nonverbal-spells
+    - shield-charm
+    - standard-book-of-spells
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch09-004:
+    title: 'Headmaster''s Office and Protected Entrances: Gargoyle password use for
+      scheduled private lessons'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore-office
+    - headmaster
+    - headmaster-office
+    - magical-architecture
+    - password
+    - private-lessons
+    - stone-gargoyle
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch09-005:
+    title: 'Potions Instruction and Materials: N.E.W.T. class supplies and advanced
+      potion demonstrations'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - amortentia
+    - classroom-supplies
+    - newt-courses
+    - polyjuice-potion
+    - potions
+    - veritaserum
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch09-006:
+    title: 'Exams, Sport, and Magical Fairness: Banned performance-enhancing potions'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - banned-substances
+    - competition-rules
+    - examinations
+    - felix-felicis
+    - liquid-luck
+    - potions
+    - quidditch
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  hbp-ch09-007:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: The Half-Blood Prince''s
+      annotated Potions book'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - draught-of-living-death
+    - half-blood-prince
+    - marginalia
+    - potions
+    - school-textbooks
+    - specialis-revelio
+    source_unit: hbp-ch09
+    output_yaml: sources/book-06/chapter-09-the-half-blood-prince.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -13791,6 +13900,7 @@ by_tag:
   - poa-ch07-003
   academic-progression:
   - hbp-ch05-006
+  - hbp-ch09-001
   - ootp-ch12-002
   - ootp-ch13-003
   - poa-ch16-001
@@ -13841,6 +13951,9 @@ by_tag:
   - poa-ch08-005
   - poa-ch12-002
   - poa-ch21-006
+  advanced-potion-making:
+  - hbp-ch09-005
+  - hbp-ch09-007
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -13889,6 +14002,8 @@ by_tag:
   - hbp-ch01-005
   - ootp-ch07-001
   - ootp-ch08-003
+  amortentia:
+  - hbp-ch09-005
   ancient-creature:
   - cos-ch15-007
   ancient-magic:
@@ -14021,6 +14136,7 @@ by_tag:
   auror:
   - gof-ch19-006
   - hbp-ch05-007
+  - hbp-ch09-001
   - ootp-ch03-004
   - ootp-ch29-004
   auror-escort:
@@ -14086,6 +14202,8 @@ by_tag:
   - gof-ch26-001
   banned-at-hogwarts:
   - gof-ch27-003
+  banned-substances:
+  - hbp-ch09-006
   banquet:
   - ps-ch10-002
   barn-owl:
@@ -14321,6 +14439,8 @@ by_tag:
   - gof-ch28-001
   captain-office:
   - ootp-ch14-004
+  captaincy:
+  - hbp-ch09-002
   captains:
   - poa-ch15-006
   care-of-magical-creatures:
@@ -14598,6 +14718,8 @@ by_tag:
   - cos-ch12-002
   - poa-ch03-004
   - ps-ch12-001
+  class-schedules:
+  - hbp-ch09-001
   classes:
   - ps-ch15-001
   classified-information:
@@ -14626,6 +14748,8 @@ by_tag:
   classroom-safety:
   - cos-ch06-007
   - gof-ch26-001
+  classroom-supplies:
+  - hbp-ch09-005
   closed-ward:
   - ootp-ch23-006
   clothing:
@@ -14698,6 +14822,8 @@ by_tag:
   - ootp-ch32-004
   - ootp-ch32-005
   - ootp-ch37-004
+  competition-rules:
+  - hbp-ch09-006
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -14954,6 +15080,7 @@ by_tag:
   - gof-ch13-007
   - gof-ch19-006
   - hbp-ch02-003
+  - hbp-ch09-003
   - ootp-ch36-002
   dark-creatures:
   - gof-ch14-001
@@ -15050,6 +15177,7 @@ by_tag:
   - hbp-ch05-006
   - hbp-ch06-005
   - hbp-ch08-005
+  - hbp-ch09-003
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -15369,6 +15497,8 @@ by_tag:
   - hbp-ch01-002
   - ps-ch14-002
   - ps-ch14-004
+  draught-of-living-death:
+  - hbp-ch09-007
   draught-of-peace:
   - ootp-ch12-004
   dream-interpretation:
@@ -15516,6 +15646,7 @@ by_tag:
   - gof-ch29-006
   - gof-ch30-001
   - gof-ch30-002
+  - hbp-ch09-004
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
@@ -15699,6 +15830,8 @@ by_tag:
   - ootp-ch15-002
   examination-hall:
   - ootp-ch31-004
+  examinations:
+  - hbp-ch09-006
   exams:
   - cos-ch04-003
   - cos-ch04-004
@@ -15755,6 +15888,8 @@ by_tag:
   - ootp-ch09-003
   external-examiners:
   - ootp-ch31-002
+  extracurriculars:
+  - hbp-ch09-002
   faculty-resistance:
   - ootp-ch28-005
   failed-exams:
@@ -15807,6 +15942,8 @@ by_tag:
   - cos-ch18-003
   feasts:
   - ps-ch12-003
+  felix-felicis:
+  - hbp-ch09-006
   fenrir-greyback:
   - hbp-ch06-007
   fidelius:
@@ -16375,6 +16512,7 @@ by_tag:
   - gof-ch15-004
   - gof-ch18-002
   - hbp-ch04-005
+  - hbp-ch09-002
   - ootp-ch09-005
   - ootp-ch12-001
   - ootp-ch13-001
@@ -16559,6 +16697,8 @@ by_tag:
   - poa-ch17-004
   half-blood:
   - ootp-ch37-007
+  half-blood-prince:
+  - hbp-ch09-007
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -16644,6 +16784,7 @@ by_tag:
   - gof-ch18-002
   - gof-ch36-002
   - hbp-ch05-007
+  - hbp-ch09-001
   - ootp-ch09-006
   - ootp-ch29-003
   - poa-ch08-003
@@ -16657,6 +16798,7 @@ by_tag:
   - cos-ch02-003
   - cos-ch12-006
   - cos-ch14-006
+  - hbp-ch09-004
   - ootp-ch21-007
   - ps-ch04-002
   - ps-ch04-006
@@ -16688,6 +16830,7 @@ by_tag:
   - gof-ch29-006
   - gof-ch30-001
   - gof-ch36-003
+  - hbp-ch09-004
   - ootp-ch22-001
   - ootp-ch28-001
   - ootp-ch37-001
@@ -17278,6 +17421,7 @@ by_tag:
   - cos-ch07-002
   - gof-ch05-005
   - gof-ch06-004
+  - hbp-ch09-002
   - ootp-ch13-007
   - ootp-ch17-004
   - ootp-ch18-002
@@ -17354,6 +17498,7 @@ by_tag:
   inferi:
   - hbp-ch03-003
   - hbp-ch04-002
+  - hbp-ch09-003
   influential-students:
   - hbp-ch07-005
   informal-custom:
@@ -17662,6 +17807,8 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch37-005
   - ps-ch01-003
+  liquid-luck:
+  - hbp-ch09-006
   little-hangleton:
   - gof-ch01-001
   little-whinging:
@@ -17814,6 +17961,7 @@ by_tag:
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch31-005
+  - hbp-ch09-004
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
@@ -18091,6 +18239,8 @@ by_tag:
   marble-staircase:
   - gof-ch22-003
   - ps-ch14-006
+  marginalia:
+  - hbp-ch09-007
   mars:
   - gof-ch29-005
   - ootp-ch27-003
@@ -18557,6 +18707,9 @@ by_tag:
   - poa-ch13-007
   newt-courses:
   - hbp-ch05-007
+  - hbp-ch09-001
+  - hbp-ch09-003
+  - hbp-ch09-005
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch13-003
@@ -18605,6 +18758,8 @@ by_tag:
   - ootp-ch33-005
   non-human-relations:
   - ootp-ch27-002
+  nonverbal-spells:
+  - hbp-ch09-003
   north-tower:
   - gof-ch13-004
   - gof-ch29-005
@@ -18738,6 +18893,7 @@ by_tag:
   - gof-ch15-002
   - hbp-ch05-006
   - hbp-ch05-007
+  - hbp-ch09-001
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch12-005
@@ -18836,6 +18992,7 @@ by_tag:
   - cos-ch11-007
   - gof-ch28-006
   - gof-ch29-006
+  - hbp-ch09-004
   - ootp-ch22-001
   passwords:
   - cos-ch05-006
@@ -19031,6 +19188,7 @@ by_tag:
   - cos-ch12-004
   - gof-ch35-006
   - hbp-ch03-003
+  - hbp-ch09-005
   portable-swamp:
   - ootp-ch29-007
   - ootp-ch30-001
@@ -19098,6 +19256,10 @@ by_tag:
   - gof-ch35-007
   - hbp-ch05-007
   - hbp-ch08-005
+  - hbp-ch09-001
+  - hbp-ch09-005
+  - hbp-ch09-006
+  - hbp-ch09-007
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -19213,6 +19375,7 @@ by_tag:
   private-lessons:
   - hbp-ch04-007
   - hbp-ch05-005
+  - hbp-ch09-004
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
@@ -19472,6 +19635,8 @@ by_tag:
   - gof-ch08-004
   - gof-ch30-005
   - hbp-ch08-004
+  - hbp-ch09-002
+  - hbp-ch09-006
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -19924,6 +20089,8 @@ by_tag:
   - ootp-ch28-004
   - ootp-ch29-002
   - ootp-ch32-006
+  school-textbooks:
+  - hbp-ch09-007
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -20098,6 +20265,7 @@ by_tag:
   shield-charm:
   - hbp-ch03-003
   - hbp-ch06-005
+  - hbp-ch09-003
   - ootp-ch25-005
   - ootp-ch26-005
   - ootp-ch36-003
@@ -20308,6 +20476,8 @@ by_tag:
   - gof-ch15-003
   special-awards:
   - cos-ch18-003
+  specialis-revelio:
+  - hbp-ch09-007
   spectator-magic:
   - gof-ch08-004
   spectator-stands:
@@ -20493,6 +20663,7 @@ by_tag:
   - gof-ch03-002
   standard-book-of-spells:
   - gof-ch10-006
+  - hbp-ch09-003
   stands:
   - ps-ch11-004
   - ps-ch13-005
@@ -20530,6 +20701,7 @@ by_tag:
   - cos-ch11-007
   - gof-ch28-006
   - gof-ch29-006
+  - hbp-ch09-004
   - ootp-ch22-001
   - ootp-ch28-001
   stone-protection:
@@ -20928,12 +21100,14 @@ by_tag:
   team-captains:
   - cos-ch07-002
   - gof-ch06-004
+  - hbp-ch09-002
   - poa-ch08-002
   team-practice:
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
   team-tryouts:
+  - hbp-ch09-002
   - ootp-ch13-007
   teams:
   - ootp-ch17-001
@@ -21328,6 +21502,7 @@ by_tag:
   veritaserum:
   - gof-ch27-004
   - gof-ch35-007
+  - hbp-ch09-005
   - ootp-ch03-001
   - ootp-ch32-007
   viktor-krum:

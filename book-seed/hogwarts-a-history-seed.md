@@ -615,6 +615,18 @@ Summary: The available evidence includes 1 source item, led by: The passage supp
   - Corroborates: `cos-ch11-007`, `gof-ch28-006`, `cos-ch13-006`. Corroborates prior headmaster-office entrance evidence; adds Cockroach Cluster as the current password and repeats the moving staircase route.
   - Notes: The password is time-specific and should not be treated as permanent.
 
+#### Section: Gargoyle password use for scheduled private lessons
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore schedules Harry's Saturday private lesson by written note and supplies the current password for the gargoyle guarding his study.
+
+- **Corroboration:** Dumbledore schedules Harry's Saturday private lesson by written note and supplies the current password for the gargoyle guarding his study.
+  - Quote: "It's the password to get past the gargoyle"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2568, `hbp-ch09-004`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `cos-ch11-007`, `hbp-ch05-005`. cos-ch11-007 records the passworded gargoyle and moving staircase, while hbp-ch05-005 records peer interpretation of Dumbledore's private lessons; this entry adds a dated lesson appointment and active password transmission.
+  - Notes: The passage gives only one password instance and does not explain password rotation or who else may authorize entry.
+
 #### Section: Office Interior, Portraits, and Artifacts
 
 Summary: The available evidence includes 1 source item, led by: The chapter adds interior details for Dumbledore's office, including headmaster and headmistress portraits, magical instruments, and the Sorting Hat kept behind the desk.
@@ -2086,6 +2098,18 @@ Summary: The available evidence includes 1 source item, led by: O.W.L. results a
   - Corroborates: `cos-ch04-003`, `poa-ch16-001`. cos-ch04-003 defines O.W.L.s as Ordinary Wizarding Levels, and poa-ch16-001 links O.W.L.s and N.E.W.T.s to academic progression; this entry adds the official result parchment, full grade ladder, delivery by owl, and Harry-era subject results.
   - Notes: The passage shows Harry's, Ron's, and Hermione's results but not the wider marking process or examiner procedures.
 
+#### Section: O.W.L. thresholds and N.E.W.T. course placement
+
+Summary: The available evidence includes 1 source item, led by: McGonagall checks each student's O.W.L. results against subject requirements before issuing sixth-year N.E.W.T. schedules, including different Potions thresholds under Snape and Slughorn.
+
+- **Corroboration:** McGonagall checks each student's O.W.L. results against subject requirements before issuing sixth-year N.E.W.T. schedules, including different Potions thresholds under Snape and Slughorn.
+  - Quote: "necessary O.W.L. grades to continue"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2561, `hbp-ch09-001`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch05-007`. hbp-ch05-007 records post-O.W.L. Head-of-House advice and career thresholds; this entry adds the actual first-day N.E.W.T. schedule assignment process and Slughorn's lower Potions admission threshold.
+  - Notes: The passage shows Gryffindor advising examples and does not establish whether every department sets thresholds independently every year.
+
 #### Section: O.W.L.s, N.E.W.T.s, and Overlapping Timetables
 
 Summary: The available evidence includes 1 source item, led by: The chapter ties end-of-year exam pressure to Hogwarts assessment credentials and again shows Hermione managing officially scheduled overlapping third-year exams.
@@ -2459,6 +2483,17 @@ Summary: The available evidence includes 1 source item, led by: Sirius and Lupin
   - Reference type: explicit_in_universe_source
   - Corroborates: `ootp-ch18-007`, `ootp-ch21-006`. ootp-ch18-007 records the D.A.'s formal first practice and ootp-ch21-006 records later spell progression; this entry adds a named private book set Harry planned to use as practical teaching material.
   - Notes: The books are private gifts, not Hogwarts-issued course texts.
+
+#### Section: Sixth-year nonverbal magic and advanced threat framing
+
+Summary: The available evidence includes 1 source item, led by: Snape frames N.E.W.T. Defense as advanced, adaptive work against the Dark Arts, uses classroom images of major threats, and begins practical nonverbal spell practice.
+
+- **Supporting evidence:** Snape frames N.E.W.T. Defense as advanced, adaptive work against the Dark Arts, uses classroom images of major threats, and begins practical nonverbal spell practice.
+  - Quote: "complete novices in the use of nonverbal spells"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2564, `hbp-ch09-003`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Snape's tone and threat examples may reflect his personal teaching style as much as the standard syllabus.
 
 ### Chapter: Defense Against the Dark Arts Staffing
 
@@ -2910,6 +2945,18 @@ Summary: The available evidence includes 1 source item, led by: The restricted b
   - Reference type: curriculum_or_subject
   - Notes: The recipe is used illicitly by students; the passage does not establish whether Polyjuice Potion is formally taught at Hogwarts.
 
+#### Section: N.E.W.T. class supplies and advanced potion demonstrations
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's N.E.W.T. Potions class has a small cross-House roster, loan supplies for newly eligible students, and demonstrations of Veritaserum, Polyjuice Potion, Amortentia, and Felix Felicis.
+
+- **Corroboration:** Slughorn's N.E.W.T. Potions class has a small cross-House roster, loan supplies for newly eligible students, and demonstrations of Veritaserum, Polyjuice Potion, Amortentia, and Felix Felicis.
+  - Quote: "a small stock of old books"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2569, `hbp-ch09-005`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `cos-ch10-002`, `hbp-ch08-005`. cos-ch10-002 records advanced potion recipes and student-store distinctions, and hbp-ch08-005 records Slughorn's Potions appointment; this entry adds N.E.W.T. roster size, loaned books and scales, and Slughorn's advanced demonstration set.
+  - Notes: The demonstration potions are described as examples students should know by the end of N.E.W.T.s, not necessarily recipes brewed by this class that day.
+
 #### Section: Private Stores, Dungeon Lessons, and Antidotes
 
 Summary: The available evidence includes 1 source item, led by: The chapter confirms that some advanced potion ingredients are kept in a teacher's private stores, while ordinary Potions instruction occurs in large dungeons with antidotes available for classroom mishaps.
@@ -3025,6 +3072,20 @@ Summary: The available evidence includes 1 source item, led by: Slughorn begins 
   - Reference type: institutional_custom
   - Corroborates: `hbp-ch04-006`, `hbp-ch05-001`. hbp-ch04-006 records Dumbledore's explanation of Slughorn's favorites network, and hbp-ch05-001 records Molly's former-student memory; this entry adds the named "Slug Club," train-compartment lunch format, and selected invitee roster.
   - Notes: Slughorn's choices are inferred partly through Harry's interpretation, though the invitation list and club name are direct evidence.
+
+### Chapter: Textbooks, Marginalia, and Informal Knowledge
+
+#### Section: The Half-Blood Prince's annotated Potions book
+
+Summary: The available evidence includes 1 source item, led by: A battered school copy of Advanced Potion-Making contains effective handwritten corrections and spells attributed by ownership note to the Half-Blood Prince.
+
+- **Corroboration:** A battered school copy of Advanced Potion-Making contains effective handwritten corrections and spells attributed by ownership note to the Half-Blood Prince.
+  - Quote: "This Book is the Property of the Half-Blood Prince"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2574, `hbp-ch09-007`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `cos-ch09-007`, `cos-ch10-002`. cos-ch09-007 and cos-ch10-002 record advanced Potions books and complex recipes; this entry adds a loaned N.E.W.T. textbook with owner marginalia that changes classroom outcomes.
+  - Notes: The owner's identity is not yet resolved in this chapter, and Hermione's spell check only suggests the book is not obviously enchanted.
 
 ### Chapter: Timetables, Electives, and Exceptional Study Arrangements
 
@@ -3379,6 +3440,19 @@ Summary: The available evidence includes 1 source item, led by: Umbridge's deten
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch12-007`, `gof-ch13-006`, `cos-ch07-006`. Corroborates existing discipline/detention entries, while adding the distinct blood-quill method and Ministry-era abuse.
   - Notes: This appears exceptional and abusive, not representative of normal Hogwarts discipline.
+
+### Chapter: Exams, Sport, and Magical Fairness
+
+#### Section: Banned performance-enhancing potions
+
+Summary: The available evidence includes 1 source item, led by: Felix Felicis is presented as difficult and dangerous to brew, toxic in excess, useful for a limited span of luck, and banned in organized competitions such as sport, exams, and elections.
+
+- **Supporting evidence:** Felix Felicis is presented as difficult and dangerous to brew, toxic in excess, useful for a limited span of luck, and banned in organized competitions such as sport, exams, and elections.
+  - Quote: "a banned substance in organized competitions"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2572, `hbp-ch09-006`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: Slughorn states the ban generally; the passage does not identify the regulatory authority or formal penalty for misuse.
 
 ### Chapter: Governors, Ministry, and School Accountability
 
@@ -10799,6 +10873,22 @@ Summary: The available evidence includes 1 source item, led by: McGonagall award
   - Reference type: house_system
   - Corroborates: `ps-ch15-002`, `cos-ch18-003`. ps-ch15-002 records hourglasses and major deductions, while cos-ch18-003 records large crisis-related awards; this entry adds cross-House recognition for the Department of Mysteries witnesses during the Second War.
   - Notes: The passage does not say whether the award affects the final House Cup result.
+
+## Part: Student Life and Houses
+
+### Chapter: House Quidditch Teams
+
+#### Section: Captain authority, applicant lists, and trials
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor Quidditch captaincy includes receiving a list of applicants, scheduling trials, and managing pressure not to preserve old players or friends without selection.
+
+- **Corroboration:** Gryffindor Quidditch captaincy includes receiving a list of applicants, scheduling trials, and managing pressure not to preserve old players or friends without selection.
+  - Quote: "you can fix up trials"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, PDF p. 2563, `hbp-ch09-002`, `sources/book-06/chapter-09-the-half-blood-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch13-007`. ootp-ch13-007 records Gryffindor Keeper tryouts and captain judgment; this entry adds a new captain receiving applicant names and explicit peer caution against favoritism.
+  - Notes: The passage concerns Gryffindor and does not state whether all House captains receive candidate lists through the same channel.
 
 ## Part: Student Life and School Culture
 
