@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-21'
+updated: '2026-07-22'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -14002,6 +14002,113 @@ by_entry:
     - wizengamot
     source_unit: hbp-ch10
     output_yaml: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  hbp-ch11-001:
+    title: 'Curriculum and Examinations: Advanced N.E.W.T. Study'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - academic-progression
+    - charms
+    - herbology
+    - newt-courses
+    - nonverbal-spells
+    - sixth-year
+    - transfiguration
+    - workload
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch11-002:
+    title: 'The Second War at School: Parental Fear and Protective Measures'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - aurors
+    - dumbledore
+    - hannah-abbott
+    - school-protection
+    - second-war
+    - student-withdrawal
+    - wartime-security
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch11-003:
+    title: 'Quidditch and House Competition: Team Selection and Captain Authority'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - captaincy
+    - cormac-mclaggen
+    - gryffindor
+    - quidditch
+    - school-brooms
+    - student-leadership
+    - team-trials
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch11-004:
+    title: 'Elective Subjects and Staff: Care of Magical Creatures After O.W.L.s'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - course-selection
+    - hagrid
+    - professor-grubbly-plank
+    - sixth-year
+    - staff-substitution
+    - timetables
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch11-005:
+    title: 'Dangerous Creatures Near Hogwarts: Aragog''s Colony'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - acromantula
+    - aragog
+    - colony
+    - creature-risk
+    - forbidden-forest
+    - hagrid
+    - magical-creatures
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch11-006:
+    title: 'Slughorn''s Informal Network: Private Suppers and Social Selection'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - apothecaries
+    - blaise-zabini
+    - cormac-mclaggen
+    - melinda-bobbin
+    - school-networks
+    - slug-club
+    - slughorn
+    - student-selection
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch11-007:
+    title: 'Security and Restricted Objects: Arrival and Mail Screening'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dark-objects
+    - entrance-hall
+    - filch
+    - owl-post
+    - school-protection
+    - secrecy-sensors
+    - wartime-security
+    source_unit: hbp-ch11
+    output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -14012,6 +14119,7 @@ by_tag:
   academic-progression:
   - hbp-ch05-006
   - hbp-ch09-001
+  - hbp-ch11-001
   - ootp-ch12-002
   - ootp-ch13-003
   - poa-ch16-001
@@ -14033,6 +14141,8 @@ by_tag:
   - gof-ch20-004
   accountability:
   - ootp-ch11-006
+  acromantula:
+  - hbp-ch11-005
   acromantula-colony:
   - cos-ch15-005
   address-tracking:
@@ -14180,6 +14290,8 @@ by_tag:
   - gof-ch22-005
   apollyon-pringle:
   - gof-ch31-001
+  apothecaries:
+  - hbp-ch11-006
   apparition:
   - gof-ch06-001
   - gof-ch09-004
@@ -14197,6 +14309,7 @@ by_tag:
   aragog:
   - cos-ch15-005
   - cos-ch15-006
+  - hbp-ch11-005
   - ootp-ch33-001
   - ootp-ch33-002
   archway:
@@ -14269,6 +14382,7 @@ by_tag:
   - hbp-ch02-001
   - hbp-ch06-003
   - hbp-ch08-001
+  - hbp-ch11-002
   - ootp-ch23-007
   - ootp-ch36-007
   avada-kedavra:
@@ -14426,6 +14540,8 @@ by_tag:
   - gof-ch26-007
   black-market-study-aids:
   - ootp-ch31-001
+  blaise-zabini:
+  - hbp-ch11-006
   blast-ended-skrewts:
   - gof-ch13-003
   - gof-ch18-003
@@ -14557,6 +14673,7 @@ by_tag:
   - ootp-ch14-004
   captaincy:
   - hbp-ch09-002
+  - hbp-ch11-003
   captains:
   - poa-ch15-006
   care-of-magical-creatures:
@@ -14572,6 +14689,7 @@ by_tag:
   - gof-ch26-003
   - gof-ch28-002
   - hbp-ch08-007
+  - hbp-ch11-004
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch11-005
@@ -14795,6 +14913,7 @@ by_tag:
   - gof-ch15-002
   - gof-ch20-004
   - gof-ch26-001
+  - hbp-ch11-001
   - ootp-ch13-003
   - ootp-ch18-003
   - poa-ch04-003
@@ -14893,6 +15012,8 @@ by_tag:
   - cos-ch10-006
   colloportus:
   - ootp-ch35-003
+  colony:
+  - hbp-ch11-005
   come-and-go-room:
   - ootp-ch18-005
   coming-of-age:
@@ -14961,6 +15082,9 @@ by_tag:
   - poa-ch14-007
   confundus-charm:
   - gof-ch17-005
+  cormac-mclaggen:
+  - hbp-ch11-003
+  - hbp-ch11-006
   cornelius-fudge:
   - cos-ch14-005
   - gof-ch11-003
@@ -15034,6 +15158,7 @@ by_tag:
   - poa-ch06-001
   course-selection:
   - cos-ch14-002
+  - hbp-ch11-004
   - ootp-ch12-002
   court-scribe:
   - ootp-ch08-002
@@ -15072,6 +15197,8 @@ by_tag:
   - gof-ch26-003
   creature-regulation:
   - gof-ch10-004
+  creature-risk:
+  - hbp-ch11-005
   crisis-governance:
   - cos-ch14-005
   - poa-ch21-001
@@ -15220,6 +15347,8 @@ by_tag:
   - gof-ch09-007
   - gof-ch10-003
   - gof-ch27-005
+  dark-objects:
+  - hbp-ch11-007
   dark-wizards:
   - gof-ch11-001
   davey-gudgeon:
@@ -15683,6 +15812,7 @@ by_tag:
   - hbp-ch06-003
   - hbp-ch08-002
   - hbp-ch10-004
+  - hbp-ch11-002
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -15914,6 +16044,7 @@ by_tag:
   - gof-ch15-005
   - gof-ch16-003
   - gof-ch16-004
+  - hbp-ch11-007
   - ootp-ch30-003
   - ootp-ch31-002
   - ootp-ch33-001
@@ -16098,6 +16229,7 @@ by_tag:
   - cos-ch08-002
   - gof-ch12-005
   - hbp-ch08-004
+  - hbp-ch11-007
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -16269,6 +16401,7 @@ by_tag:
   - gof-ch28-005
   - gof-ch28-007
   - hbp-ch04-004
+  - hbp-ch11-005
   - ootp-ch11-005
   - ootp-ch14-002
   - ootp-ch21-001
@@ -16638,6 +16771,7 @@ by_tag:
   - gof-ch18-002
   - hbp-ch04-005
   - hbp-ch09-002
+  - hbp-ch11-003
   - ootp-ch09-005
   - ootp-ch12-001
   - ootp-ch13-001
@@ -16758,6 +16892,8 @@ by_tag:
   - hbp-ch03-006
   - hbp-ch06-003
   - hbp-ch08-007
+  - hbp-ch11-004
+  - hbp-ch11-005
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch14-002
@@ -16842,6 +16978,8 @@ by_tag:
   - cos-ch08-004
   - poa-ch08-006
   - ps-ch10-002
+  hannah-abbott:
+  - hbp-ch11-002
   harry-potter:
   - cos-ch01-004
   - gof-ch01-004
@@ -17020,6 +17158,7 @@ by_tag:
   - cos-ch16-002
   - gof-ch10-006
   - gof-ch13-002
+  - hbp-ch11-001
   - ootp-ch10-004
   - ootp-ch14-005
   - poa-ch16-003
@@ -18156,6 +18295,7 @@ by_tag:
   - hbp-ch01-002
   - hbp-ch01-006
   - hbp-ch06-006
+  - hbp-ch11-005
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch15-006
@@ -18426,6 +18566,8 @@ by_tag:
   medieval-witch-burning:
   - poa-ch01-001
   - poa-ch04-002
+  melinda-bobbin:
+  - hbp-ch11-006
   membership:
   - ootp-ch04-004
   - ootp-ch05-003
@@ -18854,6 +18996,7 @@ by_tag:
   - hbp-ch09-001
   - hbp-ch09-003
   - hbp-ch09-005
+  - hbp-ch11-001
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch13-003
@@ -18904,6 +19047,7 @@ by_tag:
   - ootp-ch27-002
   nonverbal-spells:
   - hbp-ch09-003
+  - hbp-ch11-001
   north-tower:
   - gof-ch13-004
   - gof-ch29-005
@@ -19079,6 +19223,7 @@ by_tag:
   - gof-ch15-001
   - gof-ch18-001
   - gof-ch27-002
+  - hbp-ch11-007
   - ootp-ch17-003
   - ootp-ch18-001
   - ootp-ch26-001
@@ -19577,6 +19722,7 @@ by_tag:
   professor-grubbly-plank:
   - gof-ch24-001
   - gof-ch26-003
+  - hbp-ch11-004
   - ootp-ch13-004
   - ootp-ch15-006
   professor-kettleburn:
@@ -19790,6 +19936,7 @@ by_tag:
   - hbp-ch08-004
   - hbp-ch09-002
   - hbp-ch09-006
+  - hbp-ch11-003
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -20048,6 +20195,7 @@ by_tag:
   school-awards:
   - cos-ch13-002
   school-brooms:
+  - hbp-ch11-003
   - ps-ch09-002
   school-carriages:
   - ootp-ch21-001
@@ -20151,6 +20299,7 @@ by_tag:
   - hbp-ch04-006
   - hbp-ch05-001
   - hbp-ch07-005
+  - hbp-ch11-006
   school-origins:
   - gof-ch12-002
   - ootp-ch11-003
@@ -20177,6 +20326,8 @@ by_tag:
   - hbp-ch08-001
   - hbp-ch08-002
   - hbp-ch08-006
+  - hbp-ch11-002
+  - hbp-ch11-007
   - ootp-ch23-001
   school-protections:
   - gof-ch11-005
@@ -20298,6 +20449,7 @@ by_tag:
   - hbp-ch05-003
   - hbp-ch07-003
   - hbp-ch07-007
+  - hbp-ch11-002
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -20327,6 +20479,8 @@ by_tag:
   - hbp-ch10-005
   secrecy-sensor:
   - gof-ch20-003
+  secrecy-sensors:
+  - hbp-ch11-007
   secret-entrance:
   - gof-ch21-002
   secret-headquarters:
@@ -20514,6 +20668,8 @@ by_tag:
   sixth-year:
   - gof-ch14-002
   - hbp-ch06-001
+  - hbp-ch11-001
+  - hbp-ch11-004
   skele-gro:
   - cos-ch10-005
   skiving-snackboxes:
@@ -20524,6 +20680,7 @@ by_tag:
   slug-club:
   - hbp-ch04-006
   - hbp-ch07-005
+  - hbp-ch11-006
   slughorn:
   - hbp-ch04-004
   - hbp-ch04-006
@@ -20531,6 +20688,7 @@ by_tag:
   - hbp-ch07-005
   - hbp-ch07-006
   - hbp-ch08-005
+  - hbp-ch11-006
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -20788,6 +20946,7 @@ by_tag:
   staff-search:
   - poa-ch09-002
   staff-substitution:
+  - hbp-ch11-004
   - ootp-ch10-006
   - ootp-ch15-006
   staff-table:
@@ -20952,6 +21111,7 @@ by_tag:
   - cos-ch04-005
   - gof-ch05-001
   - hbp-ch06-001
+  - hbp-ch11-003
   - ootp-ch09-005
   - ootp-ch09-006
   - poa-ch01-004
@@ -21102,6 +21262,7 @@ by_tag:
   - ps-ch10-005
   student-selection:
   - hbp-ch07-005
+  - hbp-ch11-006
   student-societies:
   - ootp-ch13-007
   student-spectators:
@@ -21137,6 +21298,8 @@ by_tag:
   - gof-ch04-001
   student-visits:
   - ootp-ch24-003
+  student-withdrawal:
+  - hbp-ch11-002
   student-workload:
   - ootp-ch15-002
   - ootp-ch31-001
@@ -21275,6 +21438,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  team-trials:
+  - hbp-ch11-003
   team-tryouts:
   - hbp-ch09-002
   - ootp-ch13-007
@@ -21375,6 +21540,8 @@ by_tag:
   - ootp-ch35-004
   timetable:
   - poa-ch22-006
+  timetables:
+  - hbp-ch11-004
   timetabling:
   - poa-ch21-002
   tom-riddle:
@@ -21428,6 +21595,7 @@ by_tag:
   transfiguration:
   - cos-ch06-004
   - gof-ch15-002
+  - hbp-ch11-001
   - ootp-ch13-003
   - ootp-ch14-005
   - ootp-ch15-005
@@ -21813,6 +21981,8 @@ by_tag:
   - hbp-ch08-001
   - hbp-ch08-002
   - hbp-ch08-006
+  - hbp-ch11-002
+  - hbp-ch11-007
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
@@ -21998,6 +22168,7 @@ by_tag:
   - gof-ch19-002
   workload:
   - gof-ch15-002
+  - hbp-ch11-001
   - ootp-ch12-002
   - ootp-ch13-003
   - ootp-ch14-005

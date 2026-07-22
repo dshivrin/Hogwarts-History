@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-21'
+updated: '2026-07-22'
 tags:
   academic-assessment:
     entries:
@@ -20,6 +20,7 @@ tags:
     entries:
     - hbp-ch05-006
     - hbp-ch09-001
+    - hbp-ch11-001
     - ootp-ch12-002
     - ootp-ch13-003
     - poa-ch16-001
@@ -29,6 +30,7 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   access-control:
     entries:
     - ootp-ch04-002
@@ -71,6 +73,11 @@ tags:
     - ootp-ch11-006
     output_yaml:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  acromantula:
+    entries:
+    - hbp-ch11-005
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   acromantula-colony:
     entries:
     - cos-ch15-005
@@ -394,6 +401,11 @@ tags:
     - gof-ch31-001
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  apothecaries:
+    entries:
+    - hbp-ch11-006
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   apparition:
     entries:
     - gof-ch06-001
@@ -429,11 +441,13 @@ tags:
     entries:
     - cos-ch15-005
     - cos-ch15-006
+    - hbp-ch11-005
     - ootp-ch33-001
     - ootp-ch33-002
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   archway:
     entries:
     - ootp-ch34-005
@@ -583,6 +597,7 @@ tags:
     - hbp-ch02-001
     - hbp-ch06-003
     - hbp-ch08-001
+    - hbp-ch11-002
     - ootp-ch23-007
     - ootp-ch36-007
     output_yaml:
@@ -594,6 +609,7 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   avada-kedavra:
     entries:
     - gof-ch14-005
@@ -914,6 +930,11 @@ tags:
     - ootp-ch31-001
     output_yaml:
     - sources/book-05/chapter-31-o-w-l-s.yaml
+  blaise-zabini:
+    entries:
+    - hbp-ch11-006
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   blast-ended-skrewts:
     entries:
     - gof-ch13-003
@@ -1216,8 +1237,10 @@ tags:
   captaincy:
     entries:
     - hbp-ch09-002
+    - hbp-ch11-003
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   captains:
     entries:
     - poa-ch15-006
@@ -1237,6 +1260,7 @@ tags:
     - gof-ch26-003
     - gof-ch28-002
     - hbp-ch08-007
+    - hbp-ch11-004
     - ootp-ch10-006
     - ootp-ch11-002
     - ootp-ch11-005
@@ -1284,6 +1308,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -1699,6 +1724,7 @@ tags:
     - gof-ch15-002
     - gof-ch20-004
     - gof-ch26-001
+    - hbp-ch11-001
     - ootp-ch13-003
     - ootp-ch18-003
     - poa-ch04-003
@@ -1719,6 +1745,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   charms-classroom:
     entries:
     - ps-ch09-006
@@ -1931,6 +1958,11 @@ tags:
     - ootp-ch35-003
     output_yaml:
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  colony:
+    entries:
+    - hbp-ch11-005
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   come-and-go-room:
     entries:
     - ootp-ch18-005
@@ -2082,6 +2114,12 @@ tags:
     - gof-ch17-005
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  cormac-mclaggen:
+    entries:
+    - hbp-ch11-003
+    - hbp-ch11-006
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   cornelius-fudge:
     entries:
     - cos-ch14-005
@@ -2239,10 +2277,12 @@ tags:
   course-selection:
     entries:
     - cos-ch14-002
+    - hbp-ch11-004
     - ootp-ch12-002
     output_yaml:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   court-scribe:
     entries:
     - ootp-ch08-002
@@ -2332,6 +2372,11 @@ tags:
     - gof-ch10-004
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  creature-risk:
+    entries:
+    - hbp-ch11-005
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   crisis-governance:
     entries:
     - cos-ch14-005
@@ -2648,6 +2693,11 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  dark-objects:
+    entries:
+    - hbp-ch11-007
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   dark-wizards:
     entries:
     - gof-ch11-001
@@ -3540,6 +3590,7 @@ tags:
     - hbp-ch06-003
     - hbp-ch08-002
     - hbp-ch10-004
+    - hbp-ch11-002
     - ootp-ch02-003
     - ootp-ch02-006
     - ootp-ch03-006
@@ -3690,6 +3741,7 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -4016,6 +4068,7 @@ tags:
     - gof-ch15-005
     - gof-ch16-003
     - gof-ch16-004
+    - hbp-ch11-007
     - ootp-ch30-003
     - ootp-ch31-002
     - ootp-ch33-001
@@ -4032,6 +4085,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   entrances:
     entries:
     - poa-ch04-007
@@ -4429,6 +4483,7 @@ tags:
     - cos-ch08-002
     - gof-ch12-005
     - hbp-ch08-004
+    - hbp-ch11-007
     - ootp-ch11-005
     - ootp-ch16-001
     - ootp-ch18-001
@@ -4480,6 +4535,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   financial-scandal:
     entries:
     - gof-ch37-007
@@ -4783,6 +4839,7 @@ tags:
     - gof-ch28-005
     - gof-ch28-007
     - hbp-ch04-004
+    - hbp-ch11-005
     - ootp-ch11-005
     - ootp-ch14-002
     - ootp-ch21-001
@@ -4818,6 +4875,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
@@ -5560,6 +5618,7 @@ tags:
     - gof-ch18-002
     - hbp-ch04-005
     - hbp-ch09-002
+    - hbp-ch11-003
     - ootp-ch09-005
     - ootp-ch12-001
     - ootp-ch13-001
@@ -5614,6 +5673,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   gryffindor-common-room:
     entries:
     - ootp-ch14-007
@@ -5789,6 +5849,8 @@ tags:
     - hbp-ch03-006
     - hbp-ch06-003
     - hbp-ch08-007
+    - hbp-ch11-004
+    - hbp-ch11-005
     - ootp-ch10-006
     - ootp-ch11-002
     - ootp-ch14-002
@@ -5882,6 +5944,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -5975,6 +6038,11 @@ tags:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  hannah-abbott:
+    entries:
+    - hbp-ch11-002
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   harry-potter:
     entries:
     - cos-ch01-004
@@ -6334,6 +6402,7 @@ tags:
     - cos-ch16-002
     - gof-ch10-006
     - gof-ch13-002
+    - hbp-ch11-001
     - ootp-ch10-004
     - ootp-ch14-005
     - poa-ch16-003
@@ -6353,6 +6422,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   hermione:
     entries:
     - ps-ch06-004
@@ -8773,6 +8843,7 @@ tags:
     - hbp-ch01-002
     - hbp-ch01-006
     - hbp-ch06-006
+    - hbp-ch11-005
     - ootp-ch10-007
     - ootp-ch11-001
     - ootp-ch15-006
@@ -8800,6 +8871,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -9374,6 +9446,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  melinda-bobbin:
+    entries:
+    - hbp-ch11-006
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   membership:
     entries:
     - ootp-ch04-004
@@ -10311,6 +10388,7 @@ tags:
     - hbp-ch09-001
     - hbp-ch09-003
     - hbp-ch09-005
+    - hbp-ch11-001
     - ootp-ch12-002
     - ootp-ch12-004
     - ootp-ch13-003
@@ -10322,6 +10400,7 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   newt-students:
     entries:
     - hbp-ch05-006
@@ -10425,8 +10504,10 @@ tags:
   nonverbal-spells:
     entries:
     - hbp-ch09-003
+    - hbp-ch11-001
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   north-tower:
     entries:
     - gof-ch13-004
@@ -10784,6 +10865,7 @@ tags:
     - gof-ch15-001
     - gof-ch18-001
     - gof-ch27-002
+    - hbp-ch11-007
     - ootp-ch17-003
     - ootp-ch18-001
     - ootp-ch26-001
@@ -10814,6 +10896,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   owl-post-results:
     entries:
     - ootp-ch31-003
@@ -11868,6 +11951,7 @@ tags:
     entries:
     - gof-ch24-001
     - gof-ch26-003
+    - hbp-ch11-004
     - ootp-ch13-004
     - ootp-ch15-006
     output_yaml:
@@ -11875,6 +11959,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   professor-kettleburn:
     entries:
     - poa-ch05-007
@@ -12311,6 +12396,7 @@ tags:
     - hbp-ch08-004
     - hbp-ch09-002
     - hbp-ch09-006
+    - hbp-ch11-003
     - ootp-ch13-007
     - ootp-ch14-004
     - ootp-ch17-004
@@ -12360,6 +12446,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   quidditch-ban:
     entries:
     - ootp-ch19-007
@@ -12879,9 +12966,11 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   school-brooms:
     entries:
+    - hbp-ch11-003
     - ps-ch09-002
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   school-carriages:
     entries:
     - ootp-ch21-001
@@ -13098,10 +13187,12 @@ tags:
     - hbp-ch04-006
     - hbp-ch05-001
     - hbp-ch07-005
+    - hbp-ch11-006
     output_yaml:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   school-origins:
     entries:
     - gof-ch12-002
@@ -13156,6 +13247,8 @@ tags:
     - hbp-ch08-001
     - hbp-ch08-002
     - hbp-ch08-006
+    - hbp-ch11-002
+    - hbp-ch11-007
     - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
@@ -13163,6 +13256,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   school-protections:
     entries:
     - gof-ch11-005
@@ -13418,6 +13512,7 @@ tags:
     - hbp-ch05-003
     - hbp-ch07-003
     - hbp-ch07-007
+    - hbp-ch11-002
     - ootp-ch04-004
     - ootp-ch04-007
     - ootp-ch05-004
@@ -13441,6 +13536,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -13484,6 +13580,11 @@ tags:
     - gof-ch20-003
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+  secrecy-sensors:
+    entries:
+    - hbp-ch11-007
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   secret-entrance:
     entries:
     - gof-ch21-002
@@ -13888,9 +13989,12 @@ tags:
     entries:
     - gof-ch14-002
     - hbp-ch06-001
+    - hbp-ch11-001
+    - hbp-ch11-004
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   skele-gro:
     entries:
     - cos-ch10-005
@@ -13911,9 +14015,11 @@ tags:
     entries:
     - hbp-ch04-006
     - hbp-ch07-005
+    - hbp-ch11-006
     output_yaml:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   slughorn:
     entries:
     - hbp-ch04-004
@@ -13922,11 +14028,13 @@ tags:
     - hbp-ch07-005
     - hbp-ch07-006
     - hbp-ch08-005
+    - hbp-ch11-006
     output_yaml:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   slytherin:
     entries:
     - cos-ch07-002
@@ -14502,11 +14610,13 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
   staff-substitution:
     entries:
+    - hbp-ch11-004
     - ootp-ch10-006
     - ootp-ch15-006
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   staff-table:
     entries:
     - gof-ch12-006
@@ -14868,6 +14978,7 @@ tags:
     - cos-ch04-005
     - gof-ch05-001
     - hbp-ch06-001
+    - hbp-ch11-003
     - ootp-ch09-005
     - ootp-ch09-006
     - poa-ch01-004
@@ -14879,6 +14990,7 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   student-led-instruction:
     entries:
     - hbp-ch07-004
@@ -15194,8 +15306,10 @@ tags:
   student-selection:
     entries:
     - hbp-ch07-005
+    - hbp-ch11-006
     output_yaml:
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   student-societies:
     entries:
     - ootp-ch13-007
@@ -15276,6 +15390,11 @@ tags:
     - ootp-ch24-003
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  student-withdrawal:
+    entries:
+    - hbp-ch11-002
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   student-workload:
     entries:
     - ootp-ch15-002
@@ -15594,6 +15713,11 @@ tags:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  team-trials:
+    entries:
+    - hbp-ch11-003
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   team-tryouts:
     entries:
     - hbp-ch09-002
@@ -15824,6 +15948,11 @@ tags:
     - poa-ch22-006
     output_yaml:
     - sources/book-03/chapter-22-owl-post-again.yaml
+  timetables:
+    entries:
+    - hbp-ch11-004
+    output_yaml:
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   timetabling:
     entries:
     - poa-ch21-002
@@ -15942,6 +16071,7 @@ tags:
     entries:
     - cos-ch06-004
     - gof-ch15-002
+    - hbp-ch11-001
     - ootp-ch13-003
     - ootp-ch14-005
     - ootp-ch15-005
@@ -15967,6 +16097,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   transfiguration-book:
     entries:
     - cos-ch18-006
@@ -16739,6 +16870,8 @@ tags:
     - hbp-ch08-001
     - hbp-ch08-002
     - hbp-ch08-006
+    - hbp-ch11-002
+    - hbp-ch11-007
     - ootp-ch09-003
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
@@ -16746,6 +16879,7 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   weasley-family:
     entries:
     - cos-ch04-003
@@ -17158,6 +17292,7 @@ tags:
   workload:
     entries:
     - gof-ch15-002
+    - hbp-ch11-001
     - ootp-ch12-002
     - ootp-ch13-003
     - ootp-ch14-005
@@ -17166,6 +17301,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
   world-cup-1473:
     entries:
     - ps-ch11-002

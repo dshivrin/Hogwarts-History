@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Eleven - Hermione’s Helping Hand
-- Page range: 2597-2612
+- Chapter: Chapter Twelve - Silver and Opals
+- Page range: 2613-2630
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+- Output YAML: `sources/book-06/chapter-12-silver-and-opals.yaml`
 
 ## Minimal Context
 

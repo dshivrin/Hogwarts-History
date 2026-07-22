@@ -1,0 +1,433 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Eleven - Hermione's Helping Hand
+  chapter_start_pdf_page: 2597
+  chapter_end_pdf_page: 2612
+  boundary_confidence: high
+  boundary_notes: >
+    Boundaries taken from project-control/processing-state.yaml and extracted as
+    inclusive PDF pages 2597-2612 using scripts/extract_pages.py.
+  processed_date: '2026-07-22'
+  processor_notes: >
+    Processed one bounded source unit only. No explicit Hogwarts: A History
+    citation was found in the extracted chapter text.
+
+entries:
+  - id: hbp-ch11-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2597
+    printed_page: null
+    extracted_text_lines: 6-23
+    text_anchor:
+      start_phrase: "the sixth years' free periods were not"
+      end_phrase: "the Venomous Tentacula seized them unexpectedly"
+      local_occurrence_note: Chapter opening survey of sixth-year work before the Hagrid and Quidditch scenes.
+    nearby_context: >
+      Harry, Ron, and Hermione are adjusting to sixth-year study after selecting
+      N.E.W.T.-level courses.
+    match_terms:
+      - sixth-year workload
+      - nonverbal spells
+      - Defense Against the Dark Arts
+      - Charms
+      - Transfiguration
+      - Herbology
+      - Venomous Tentacula
+    quote_excerpt_short: "Nonverbal spells were now expected"
+    source_note: >
+      Sixth-year classes are presented as sharply more demanding: free periods
+      are filled by homework, nonverbal spellwork is expected across Defense,
+      Charms, and Transfiguration, and Herbology uses more dangerous plants.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - academic-progression
+      - sixth-year
+      - newt-courses
+      - workload
+      - nonverbal-spells
+      - charms
+      - transfiguration
+      - herbology
+    candidate_part: Schooling at Hogwarts
+    candidate_chapter: Curriculum and Examinations
+    candidate_section: Advanced N.E.W.T. Study
+    reason_for_placement: >
+      The passage gives concrete evidence for how sixth-year study differs from
+      earlier coursework after O.W.L. sorting.
+    relevance_to_hogwarts_a_history: >
+      Supports a history section on advanced curriculum expectations, including
+      nonverbal magic as a cross-subject N.E.W.T.-level demand.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-003
+      notes: >
+        Related to hbp-ch09-003 on Snape's sixth-year nonverbal Defense lesson,
+        but this entry broadens the evidence across Charms, Transfiguration,
+        Herbology, free periods, and overall workload.
+    confidence: high
+    limitations: >
+      The evidence is Harry-era observation rather than a formal syllabus or
+      staff-issued curriculum document.
+
+  - id: hbp-ch11-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2601
+    printed_page: null
+    extracted_text_lines: 141-161
+    text_anchor:
+      start_phrase: "People are terrified"
+      end_phrase: "They had not seen Hannah since"
+      local_occurrence_note: Great Hall breakfast discussion after Hermione reads the Daily Prophet.
+    nearby_context: >
+      The students have just discussed Stan Shunpike's arrest and new dementor
+      attacks in the Daily Prophet.
+    match_terms:
+      - wartime Hogwarts
+      - parental withdrawal
+      - Aurors
+      - protective spells
+      - Dumbledore absence
+      - Hannah Abbott
+    quote_excerpt_short: "We've got Aurors, and all those extra protective spells"
+    source_note: >
+      Wartime fear reaches Hogwarts directly: some parents consider removing
+      children, Eloise Midgen has already been withdrawn, students cite Aurors
+      and extra protections as safety measures, and Hannah Abbott leaves class
+      after news of her mother's death.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - second-war
+      - wartime-security
+      - aurors
+      - school-protection
+      - student-withdrawal
+      - dumbledore
+      - hannah-abbott
+    candidate_part: Hogwarts in Times of Crisis
+    candidate_chapter: The Second War at School
+    candidate_section: Parental Fear and Protective Measures
+    reason_for_placement: >
+      The scene links school security, family decisions, and war casualties as
+      part of daily Hogwarts life.
+    relevance_to_hogwarts_a_history: >
+      Useful for an account of how Voldemort's return affected attendance,
+      confidence in Hogwarts safety, and the perceived role of Dumbledore and
+      Aurors.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: >
+        Duplicate lookup found broad security and Dumbledore references, but no
+        prior entry combining parental withdrawal, Hogwarts protective staffing,
+        and Hannah Abbott's wartime bereavement.
+    confidence: high
+    limitations: >
+      The passage reports student interpretation of school safety alongside one
+      observed withdrawal and one reported family concern.
+
+  - id: hbp-ch11-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2602
+    printed_page: null
+    extracted_text_lines: 176-201
+    text_anchor:
+      start_phrase: "the trials took most of the morning"
+      end_phrase: "crashed into one of the goalposts"
+      local_occurrence_note: Opening phase of Harry's first Gryffindor Quidditch tryouts as Captain.
+    nearby_context: >
+      The trials occur after breakfast on the Quidditch pitch, with many
+      applicants and spectators from Gryffindor.
+    match_terms:
+      - Gryffindor Quidditch
+      - team trials
+      - Captain
+      - school brooms
+      - Keeper tryouts
+      - Cormac McLaggen
+    quote_excerpt_short: "asking all applicants for the team to divide into groups"
+    source_note: >
+      Gryffindor Quidditch team selection is run by the student Captain through
+      open trials, basic flying screening, role-specific evaluation, and use of
+      school brooms by younger or less-prepared applicants.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - gryffindor
+      - team-trials
+      - student-leadership
+      - captaincy
+      - school-brooms
+      - cormac-mclaggen
+    candidate_part: Student Life and Houses
+    candidate_chapter: Quidditch and House Competition
+    candidate_section: Team Selection and Captain Authority
+    reason_for_placement: >
+      The scene documents how a House team is practically selected and how much
+      discretion the student Captain exercises.
+    relevance_to_hogwarts_a_history: >
+      Adds operational detail for House Quidditch customs beyond match play,
+      including selection, equipment disparities, and student governance.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: >
+        Duplicate lookup for Quidditch captain trials found no close existing
+        match.
+    confidence: high
+    limitations: >
+      Evidence is specific to Gryffindor in Harry's captaincy year and may not
+      reflect every House's selection process.
+
+  - id: hbp-ch11-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2607
+    printed_page: null
+    extracted_text_lines: 348-356
+    text_anchor:
+      start_phrase: "we really wanted to carry on with Care of Magical Creatures"
+      end_phrase: "none of us could fit it into our schedules"
+      local_occurrence_note: Hagrid's cabin conversation after the trio reconciles with him.
+    nearby_context: >
+      Hagrid has avoided Harry, Ron, and Hermione because none of them continued
+      his subject after O.W.L. year.
+    match_terms:
+      - Care of Magical Creatures
+      - sixth-year schedules
+      - Hagrid
+      - Grubbly-Plank
+      - course selection
+    quote_excerpt_short: "none of us could fit it into our schedules"
+    source_note: >
+      Continuing Care of Magical Creatures after fifth year is optional and
+      constrained by sixth-year timetables; Hagrid interprets students dropping
+      the subject personally, while Grubbly-Plank is remembered as a substitute.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - care-of-magical-creatures
+      - hagrid
+      - professor-grubbly-plank
+      - course-selection
+      - sixth-year
+      - timetables
+      - staff-substitution
+    candidate_part: Schooling at Hogwarts
+    candidate_chapter: Elective Subjects and Staff
+    candidate_section: Care of Magical Creatures After O.W.L.s
+    reason_for_placement: >
+      The passage clarifies that sixth-year timetable choices can end student
+      participation in an elective even when the teacher remains in post.
+    relevance_to_hogwarts_a_history: >
+      Supports a history of elective continuation, class enrollment pressures,
+      and substitute teaching in Care of Magical Creatures.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: >
+        Duplicate lookup for Hagrid, Care of Magical Creatures, schedules, and
+        Grubbly-Plank found no close existing match.
+    confidence: high
+    limitations: >
+      The chapter does not list the formal N.E.W.T. entry requirements for Care
+      of Magical Creatures.
+
+  - id: hbp-ch11-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2608
+    printed_page: null
+    extracted_text_lines: 368-393
+    text_anchor:
+      start_phrase: "I got 'em ter feed ter Aragog"
+      end_phrase: "safe fer anyone but me ter go near the colony"
+      local_occurrence_note: Hagrid explains the giant grubs and Aragog's illness.
+    nearby_context: >
+      The trio are inside Hagrid's cabin and notice a barrel of giant grubs
+      intended as food for Aragog.
+    match_terms:
+      - Aragog
+      - Acromantula colony
+      - Forbidden Forest
+      - Hagrid
+      - giant grubs
+      - creature danger
+    quote_excerpt_short: "safe fer anyone but me ter go near the colony"
+    source_note: >
+      Hagrid maintains a relationship with Aragog's Forbidden Forest colony, but
+      Aragog's illness makes the Acromantulas restive enough that Hagrid judges
+      the colony unsafe for anyone else to approach.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - aragog
+      - acromantula
+      - forbidden-forest
+      - hagrid
+      - magical-creatures
+      - creature-risk
+      - colony
+    candidate_part: The Grounds and Forbidden Forest
+    candidate_chapter: Dangerous Creatures Near Hogwarts
+    candidate_section: Aragog's Colony
+    reason_for_placement: >
+      The evidence locates a dangerous magical-creature community in the
+      Forbidden Forest and records Hagrid's unusual access to it.
+    relevance_to_hogwarts_a_history: >
+      Helps document the long-running presence of Acromantulas near Hogwarts and
+      the staff-risk implications of Hagrid's creature ties.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: >
+        Duplicate lookup for Aragog, Acromantula, the Forbidden Forest, and the
+        colony found no close existing match.
+    confidence: high
+    limitations: >
+      The passage reports the colony's current condition through Hagrid and Ron,
+      not through a fresh visit to the spiders in this chapter.
+
+  - id: hbp-ch11-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2610
+    printed_page: null
+    extracted_text_lines: 446-455
+    text_anchor:
+      start_phrase: "What do you say to a spot of supper tonight"
+      end_phrase: "Slughorn did not so much as look at him"
+      local_occurrence_note: Slughorn intercepts Harry, Hermione, and Ron before dinner.
+    nearby_context: >
+      The invitation follows the Quidditch trials and happens at the Great Hall
+      entrance.
+    match_terms:
+      - Slug Club
+      - Slughorn supper
+      - rising stars
+      - Melinda Bobbin
+      - Zabini
+      - McLaggen
+      - apothecaries
+    quote_excerpt_short: "just a few rising stars"
+    source_note: >
+      Slughorn continues cultivating a selective student circle through private
+      suppers in his rooms, naming attendees by family, talent, or social value
+      and pointedly excluding Ron.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - slug-club
+      - slughorn
+      - school-networks
+      - student-selection
+      - cormac-mclaggen
+      - blaise-zabini
+      - melinda-bobbin
+      - apothecaries
+    candidate_part: Staff, Students, and Patronage
+    candidate_chapter: Slughorn's Informal Network
+    candidate_section: Private Suppers and Social Selection
+    reason_for_placement: >
+      The passage shows the Slug Club functioning inside Hogwarts as a selective
+      social institution, not merely as train-conversation setup.
+    relevance_to_hogwarts_a_history: >
+      Extends the evidence for informal patronage and school networking among
+      favored or well-connected students.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch04-006
+        - hbp-ch07-005
+      notes: >
+        This continues the same Slughorn patronage pattern recorded in hbp-ch04-006
+        and hbp-ch07-005, adding private in-castle suppers and a new named invitee
+        tied to apothecaries.
+    confidence: high
+    limitations: >
+      The event is an invitation scene; the supper itself is not observed in this
+      chapter.
+
+  - id: hbp-ch11-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eleven - Hermione's Helping Hand
+    chapter_start_pdf_page: 2597
+    chapter_end_pdf_page: 2612
+    pdf_page: 2611
+    printed_page: null
+    extracted_text_lines: 493-508
+    text_anchor:
+      start_phrase: "We were all searched when we arrived"
+      end_phrase: "jabbing those Secrecy Sensors everywhere he could reach"
+      local_occurrence_note: Gryffindor common-room discussion of how Draco could have brought an object into school.
+    nearby_context: >
+      Hermione uses the school's arrival and mail checks to challenge Harry's
+      theory about Draco bringing a dangerous object to Hogwarts.
+    match_terms:
+      - Secrecy Sensors
+      - Filch
+      - arrival search
+      - Dark objects
+      - checked owls
+      - school security
+    quote_excerpt_short: "Filch ran over all of us with Secrecy Sensors"
+    source_note: >
+      Wartime Hogwarts security includes Filch screening arriving students with
+      Secrecy Sensors, confiscating a shrunken head from Crabbe, and checking
+      school owls for dangerous or Dark objects.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - wartime-security
+      - secrecy-sensors
+      - filch
+      - dark-objects
+      - owl-post
+      - entrance-hall
+      - school-protection
+    candidate_part: Hogwarts in Times of Crisis
+    candidate_chapter: Security and Restricted Objects
+    candidate_section: Arrival and Mail Screening
+    reason_for_placement: >
+      The evidence gives practical details about how the school attempted to stop
+      dangerous objects from entering after the summer security tightening.
+    relevance_to_hogwarts_a_history: >
+      Complements broader fortification evidence with observed screening
+      procedures at the entrance hall and through owl post.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch08-002
+      notes: >
+        Related to hbp-ch08-002's wartime perimeter protections, but this entry
+        covers internal screening of arriving students and checked owl post.
+    confidence: high
+    limitations: >
+      Harry missed the arrival search, so this part is reported by Hermione and
+      later supported by her account of Filch's owl checks.

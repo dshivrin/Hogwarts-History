@@ -330,6 +330,12 @@ No entries currently flagged.
 - `hbp-ch10-004` (Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt): Dumbledore uses the Pensieve as a supervised teaching tool, entering a collected memory with Harry's permission and warning that later conclusions mix memory evidence with guesswork.
 - `hbp-ch10-006` (Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt): The Gaunts claim direct descent from Salazar Slytherin, speak Parseltongue as a family language, and preserve heirlooms identified as Slytherin's locket and a Peverell-marked ring.
 - `hbp-ch10-007` (Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt): Dumbledore reports that Morfin and Marvolo Gaunt were convicted by the Wizengamot, identifies the Gaunts as Voldemort's maternal line, and offers a cautious love-potion explanation for Merope's marriage to Tom Riddle senior.
+- `hbp-ch11-001` (Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand): Sixth-year classes are presented as sharply more demanding: free periods are filled by homework, nonverbal spellwork is expected across Defense, Charms, and Transfiguration, and Herbology uses more dangerous plants.
+
+- `hbp-ch11-006` (Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand): Slughorn continues cultivating a selective student circle through private suppers in his rooms, naming attendees by family, talent, or social value and pointedly excluding Ron.
+
+- `hbp-ch11-007` (Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand): Wartime Hogwarts security includes Filch screening arriving students with Secrecy Sensors, confiscating a shrunken head from Crabbe, and checking school owls for dangerous or Dark objects.
+
 - `ootp-ch01-003` (Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented): The chapter corroborates the underage-magic rule by showing a Muggle relative using the threat of Hogwarts expulsion to constrain Harry outside school.
 - `ootp-ch01-004` (Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented): The chapter records Dementors operating in a Muggle suburb rather than at Hogwarts, Azkaban, or Ministry-controlled school security perimeters.
 - `ootp-ch01-005` (Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented): The chapter shows Harry using a corporeal Patronus outside school in an emergency to repel two Dementors, including one attacking a Muggle.
@@ -1565,6 +1571,10 @@ No entries currently flagged.
 - `hbp-ch10-001` (Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt): Harry continues using the annotated Advanced Potion-Making copy across multiple Potions lessons, and the book also contains apparent spell inventions outside ordinary potion work.
 - `hbp-ch10-002` (Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt): Dumbledore's office remains protected by a passworded seventh-floor gargoyle that reveals a moving spiral staircase and brass-knocker door.
 - `hbp-ch10-004` (Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt): Dumbledore uses the Pensieve as a supervised teaching tool, entering a collected memory with Harry's permission and warning that later conclusions mix memory evidence with guesswork.
+- `hbp-ch11-003` (Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand): Gryffindor Quidditch team selection is run by the student Captain through open trials, basic flying screening, role-specific evaluation, and use of school brooms by younger or less-prepared applicants.
+
+- `hbp-ch11-004` (Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand): Continuing Care of Magical Creatures after fifth year is optional and constrained by sixth-year timetables; Hagrid interprets students dropping the subject personally, while Grubbly-Plank is remembered as a substitute.
+
 - `ootp-ch01-001` (Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented): The chapter records a post-Triwizard communication blackout in which Harry relies on the wizarding press and censored letters while his allies avoid writing sensitive details.
 - `ootp-ch01-003` (Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented): The chapter corroborates the underage-magic rule by showing a Muggle relative using the threat of Hogwarts expulsion to constrain Harry outside school.
 - `ootp-ch01-004` (Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented): The chapter records Dementors operating in a Muggle suburb rather than at Hogwarts, Azkaban, or Ministry-controlled school security perimeters.

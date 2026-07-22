@@ -412,6 +412,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Hogwarts in Times of Crisis
+
+- Security and Restricted Objects
+  - Arrival and Mail Screening
+- The Second War at School
+  - Parental Fear and Protective Measures
+
 ## Houses and Student Life
 
 - Ravenclaw House
@@ -1202,10 +1209,22 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Forbidden Objects, Restricted Places, and Yearly Exceptions
   - Rules, Restricted Places, and Staff Announcements
 
+## Schooling at Hogwarts
+
+- Curriculum and Examinations
+  - Advanced N.E.W.T. Study
+- Elective Subjects and Staff
+  - Care of Magical Creatures After O.W.L.s
+
 ## Staff, Founders, and Notable Residents
 
 - Staff Biographies and Institutional Memory
   - Hagrid, Giant Ancestry, and Dumbledore's Patronage
+
+## Staff, Students, and Patronage
+
+- Slughorn's Informal Network
+  - Private Suppers and Social Selection
 
 ## Student Life and House Culture
 
@@ -1218,6 +1237,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - House Quidditch Teams
   - Captain authority, applicant lists, and trials
+- Quidditch and House Competition
+  - Team Selection and Captain Authority
 
 ## Student Life and School Culture
 
@@ -1320,6 +1341,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Serpent Symbolism and Parseltongue Lore
 - Sorting, Families, and Exceptions
   - Family patterns and Sirius Black's exception
+
+## The Grounds and Forbidden Forest
+
+- Dangerous Creatures Near Hogwarts
+  - Aragog's Colony
 
 ## The Grounds and Lake
 

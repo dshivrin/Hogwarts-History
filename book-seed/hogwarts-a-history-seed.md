@@ -10440,6 +10440,35 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
   - Notes: It summarizes wizarding law through a teacher's classroom speech.
 
+## Part: Hogwarts in Times of Crisis
+
+### Chapter: Security and Restricted Objects
+
+#### Section: Arrival and Mail Screening
+
+Summary: The available evidence includes 1 source item, led by: Wartime Hogwarts security includes Filch screening arriving students with Secrecy Sensors, confiscating a shrunken head from Crabbe, and checking school owls for dangerous or Dark objects.
+
+- **Corroboration:** Wartime Hogwarts security includes Filch screening arriving students with Secrecy Sensors, confiscating a shrunken head from Crabbe, and checking school owls for dangerous or Dark objects.
+  - Quote: "Filch ran over all of us with Secrecy Sensors"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2611, `hbp-ch11-007`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch08-002`. Related to hbp-ch08-002's wartime perimeter protections, but this entry covers internal screening of arriving students and checked owl post.
+  - Notes: Harry missed the arrival search, so this part is reported by Hermione and later supported by her account of Filch's owl checks.
+
+### Chapter: The Second War at School
+
+#### Section: Parental Fear and Protective Measures
+
+Summary: The available evidence includes 1 source item, led by: Wartime fear reaches Hogwarts directly: some parents consider removing children, Eloise Midgen has already been withdrawn, students cite Aurors and extra protections as safety measures, and Hannah Abbott leaves class after news of her mother's death.
+
+- **Supporting evidence:** Wartime fear reaches Hogwarts directly: some parents consider removing children, Eloise Midgen has already been withdrawn, students cite Aurors and extra protections as safety measures, and Hannah Abbott leaves class after news of her mother's death.
+  - Quote: "We've got Aurors, and all those extra protective spells"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2601, `hbp-ch11-002`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage reports student interpretation of school safety alongside one observed withdrawal and one reported family concern.
+
 ## Part: Houses and Student Life
 
 ### Chapter: Ravenclaw House
@@ -10921,6 +10950,35 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Corroborates: `gof-ch12-005`, `cos-ch07-004`. gof-ch12-005 records similar start-of-term rule notices, and cos-ch07-004 records Defense Against the Dark Arts staffing difficulty. This entry adds the 462nd Filch reminder, corridor-magic ban, and Umbridge/Grubbly-Plank appointments for this year.
   - Notes: The full Filch list is not reproduced, and Dumbledore does not say how long Grubbly-Plank will teach.
 
+## Part: Schooling at Hogwarts
+
+### Chapter: Curriculum and Examinations
+
+#### Section: Advanced N.E.W.T. Study
+
+Summary: The available evidence includes 1 source item, led by: Sixth-year classes are presented as sharply more demanding: free periods are filled by homework, nonverbal spellwork is expected across Defense, Charms, and Transfiguration, and Herbology uses more dangerous plants.
+
+- **Corroboration:** Sixth-year classes are presented as sharply more demanding: free periods are filled by homework, nonverbal spellwork is expected across Defense, Charms, and Transfiguration, and Herbology uses more dangerous plants.
+  - Quote: "Nonverbal spells were now expected"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2597, `hbp-ch11-001`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch09-003`. Related to hbp-ch09-003 on Snape's sixth-year nonverbal Defense lesson, but this entry broadens the evidence across Charms, Transfiguration, Herbology, free periods, and overall workload.
+  - Notes: The evidence is Harry-era observation rather than a formal syllabus or staff-issued curriculum document.
+
+### Chapter: Elective Subjects and Staff
+
+#### Section: Care of Magical Creatures After O.W.L.s
+
+Summary: The available evidence includes 1 source item, led by: Continuing Care of Magical Creatures after fifth year is optional and constrained by sixth-year timetables; Hagrid interprets students dropping the subject personally, while Grubbly-Plank is remembered as a substitute.
+
+- **Supporting evidence:** Continuing Care of Magical Creatures after fifth year is optional and constrained by sixth-year timetables; Hagrid interprets students dropping the subject personally, while Grubbly-Plank is remembered as a substitute.
+  - Quote: "none of us could fit it into our schedules"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2607, `hbp-ch11-004`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The chapter does not list the formal N.E.W.T. entry requirements for Care of Magical Creatures.
+
 ## Part: Staff, Founders, and Notable Residents
 
 ### Chapter: Staff Biographies and Institutional Memory
@@ -10936,6 +10994,22 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's confess
   - Reference type: historical_claim
   - Corroborates: `ps-ch04-007`, `cos-ch07-005`. ps-ch04-007 and cos-ch07-005 already record Hagrid's expulsion, magic restriction, and Dumbledore's retention of him; this entry adds giant ancestry, orphaned school years, and the social reason Hagrid kept his background secret.
   - Notes: Ron's comments about giants reflect common prejudice and partial knowledge rather than an authoritative historical survey.
+
+## Part: Staff, Students, and Patronage
+
+### Chapter: Slughorn's Informal Network
+
+#### Section: Private Suppers and Social Selection
+
+Summary: The available evidence includes 1 source item, led by: Slughorn continues cultivating a selective student circle through private suppers in his rooms, naming attendees by family, talent, or social value and pointedly excluding Ron.
+
+- **Corroboration:** Slughorn continues cultivating a selective student circle through private suppers in his rooms, naming attendees by family, talent, or social value and pointedly excluding Ron.
+  - Quote: "just a few rising stars"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2610, `hbp-ch11-006`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch04-006`, `hbp-ch07-005`. This continues the same Slughorn patronage pattern recorded in hbp-ch04-006 and hbp-ch07-005, adding private in-castle suppers and a new named invitee tied to apothecaries.
+  - Notes: The event is an invitation scene; the supper itself is not observed in this chapter.
 
 ## Part: Student Life and House Culture
 
@@ -10982,6 +11056,19 @@ Summary: The available evidence includes 1 source item, led by: Gryffindor Quidd
   - Reference type: institutional_custom
   - Corroborates: `ootp-ch13-007`. ootp-ch13-007 records Gryffindor Keeper tryouts and captain judgment; this entry adds a new captain receiving applicant names and explicit peer caution against favoritism.
   - Notes: The passage concerns Gryffindor and does not state whether all House captains receive candidate lists through the same channel.
+
+### Chapter: Quidditch and House Competition
+
+#### Section: Team Selection and Captain Authority
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor Quidditch team selection is run by the student Captain through open trials, basic flying screening, role-specific evaluation, and use of school brooms by younger or less-prepared applicants.
+
+- **Supporting evidence:** Gryffindor Quidditch team selection is run by the student Captain through open trials, basic flying screening, role-specific evaluation, and use of school brooms by younger or less-prepared applicants.
+  - Quote: "asking all applicants for the team to divide into groups"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2602, `hbp-ch11-003`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: Evidence is specific to Gryffindor in Harry's captaincy year and may not reflect every House's selection process.
 
 ## Part: Student Life and School Culture
 
@@ -11227,6 +11314,21 @@ Summary: The available evidence includes 1 source item, led by: The Owlery scene
   - Reference type: magical_architecture
   - Corroborates: `ootp-ch10-007`, `ootp-ch11-001`. Earlier Order of the Phoenix entries identify and corroborate the carriage creatures; this entry adds a Forest sighting from the Owlery and physical Owlery details.
   - Notes: The chapter still does not name the creatures as Thestrals or explain why Harry can see them.
+
+## Part: The Grounds and Forbidden Forest
+
+### Chapter: Dangerous Creatures Near Hogwarts
+
+#### Section: Aragog's Colony
+
+Summary: The available evidence includes 1 source item, led by: Hagrid maintains a relationship with Aragog's Forbidden Forest colony, but Aragog's illness makes the Acromantulas restive enough that Hagrid judges the colony unsafe for anyone else to approach.
+
+- **Supporting evidence:** Hagrid maintains a relationship with Aragog's Forbidden Forest colony, but Aragog's illness makes the Acromantulas restive enough that Hagrid judges the colony unsafe for anyone else to approach.
+  - Quote: "safe fer anyone but me ter go near the colony"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, PDF p. 2608, `hbp-ch11-005`, `sources/book-06/chapter-11-hermione-s-helping-hand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The passage reports the colony's current condition through Hagrid and Ron, not through a fresh visit to the spiders in this chapter.
 
 ## Part: The Grounds and Lake
 
