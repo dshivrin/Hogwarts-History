@@ -14109,6 +14109,122 @@ by_entry:
     - wartime-security
     source_unit: hbp-ch11
     output_yaml: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  hbp-ch12-001:
+    title: 'Exceptional Instruction During the Second War: Headmaster absences and
+      delegated crisis response'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - deputy-headmistress
+    - dumbledore
+    - headmaster-absence
+    - private-lessons
+    - prophecy
+    - school-security
+    - second-war
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch12-002:
+    title: 'Security and Restricted Objects: Hogsmeade trip screening under wartime
+      precautions'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - filch
+    - front-doors
+    - hogsmeade
+    - hogsmeade-permission
+    - restricted-objects
+    - secrecy-sensors
+    - wartime-security
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch12-003:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: Marginal spellcraft and
+      unapproved incantations'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - half-blood-prince
+    - levicorpus
+    - liberacorpus
+    - marginalia
+    - muffliato
+    - nonverbal-spells
+    - student-spellcraft
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch12-004:
+    title: 'Slughorn''s Informal Network: Persistent invitations and student avoidance'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - private-suppers
+    - quidditch
+    - school-networks
+    - slug-club
+    - slughorn
+    - student-selection
+    - violet-ribbon-invitations
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch12-005:
+    title: 'Pure-Blood Families and Material Culture: Black family artifacts after
+      Sirius Black''s death'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - family-crests
+    - grimmauld-place
+    - inheritance
+    - material-culture
+    - mundungus-fletcher
+    - order-headquarters
+    - silver-goblets
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch12-006:
+    title: 'Security and Restricted Objects: Cursed-object attack on the Hogsmeade
+      return route'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - borgin-and-burkes
+    - cursed-necklace
+    - cursed-objects
+    - hogsmeade
+    - hospital-wing
+    - imperius-curse
+    - katie-bell
+    - student-safety
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch12-007:
+    title: 'Security and Restricted Objects: Staff investigation after a failed cursed-object
+      attack'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - cursed-objects
+    - evidence-standards
+    - gryffindor-common-room
+    - hospital-wing
+    - mcgonagall
+    - passwords
+    - snape
+    - transfiguration-detention
+    - wartime-security
+    source_unit: hbp-ch12
+    output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -14176,6 +14292,7 @@ by_tag:
   - hbp-ch09-005
   - hbp-ch09-007
   - hbp-ch10-001
+  - hbp-ch12-003
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -14517,6 +14634,7 @@ by_tag:
   black-family:
   - hbp-ch03-004
   - hbp-ch04-005
+  - hbp-ch12-005
   - ootp-ch04-003
   - ootp-ch05-001
   - ootp-ch05-002
@@ -14598,6 +14716,7 @@ by_tag:
   - gof-ch27-004
   borgin-and-burkes:
   - hbp-ch06-007
+  - hbp-ch12-006
   boris-the-bewildered:
   - gof-ch23-007
   - gof-ch25-002
@@ -15273,6 +15392,11 @@ by_tag:
   - gof-ch02-005
   - ootp-ch36-006
   - ootp-ch37-002
+  cursed-necklace:
+  - hbp-ch12-006
+  cursed-objects:
+  - hbp-ch12-006
+  - hbp-ch12-007
   curses:
   - gof-ch14-001
   - ps-ch13-003
@@ -15558,6 +15682,7 @@ by_tag:
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
+  - hbp-ch12-001
   - ps-ch04-002
   dervish-and-banges:
   - gof-ch27-002
@@ -15813,6 +15938,7 @@ by_tag:
   - hbp-ch08-002
   - hbp-ch10-004
   - hbp-ch11-002
+  - hbp-ch12-001
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -16069,6 +16195,8 @@ by_tag:
   - ootp-ch22-002
   evidence:
   - poa-ch21-001
+  evidence-standards:
+  - hbp-ch12-007
   ex-students:
   - hbp-ch04-006
   - hbp-ch05-001
@@ -16157,6 +16285,7 @@ by_tag:
   - gof-ch36-002
   - gof-ch37-001
   family-crests:
+  - hbp-ch12-005
   - ootp-ch05-002
   - ootp-ch06-001
   family-history:
@@ -16230,6 +16359,7 @@ by_tag:
   - gof-ch12-005
   - hbp-ch08-004
   - hbp-ch11-007
+  - hbp-ch12-002
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -16504,6 +16634,8 @@ by_tag:
   freezing-charm:
   - cos-ch06-007
   - hbp-ch04-003
+  front-doors:
+  - hbp-ch12-002
   fruit-painting:
   - gof-ch21-002
   full-moon-safety:
@@ -16708,6 +16840,7 @@ by_tag:
   - ps-ch09-006
   grimmauld-place:
   - hbp-ch03-004
+  - hbp-ch12-005
   - ootp-ch03-002
   - ootp-ch03-006
   - ootp-ch04-001
@@ -16798,6 +16931,7 @@ by_tag:
   - ps-ch15-002
   - ps-ch17-005
   gryffindor-common-room:
+  - hbp-ch12-007
   - ootp-ch14-007
   - ootp-ch24-007
   - poa-ch13-006
@@ -16961,6 +17095,7 @@ by_tag:
   half-blood-prince:
   - hbp-ch09-007
   - hbp-ch10-001
+  - hbp-ch12-003
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -17068,6 +17203,8 @@ by_tag:
   - ps-ch04-006
   - ps-ch06-003
   - ps-ch17-004
+  headmaster-absence:
+  - hbp-ch12-001
   headmaster-approval:
   - poa-ch07-006
   headmaster-authority:
@@ -17282,6 +17419,8 @@ by_tag:
   - gof-ch24-005
   - gof-ch27-006
   - hbp-ch08-001
+  - hbp-ch12-002
+  - hbp-ch12-006
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -17303,6 +17442,8 @@ by_tag:
   - poa-ch22-007
   hogsmeade-approach:
   - ootp-ch24-002
+  hogsmeade-permission:
+  - hbp-ch12-002
   hogsmeade-privileges:
   - poa-ch14-002
   hogsmeade-station:
@@ -17536,6 +17677,8 @@ by_tag:
   - gof-ch35-005
   - gof-ch36-001
   - gof-ch37-006
+  - hbp-ch12-006
+  - hbp-ch12-007
   - ootp-ch14-004
   - ootp-ch19-004
   - ootp-ch32-001
@@ -17738,6 +17881,7 @@ by_tag:
   - gof-ch35-006
   - hbp-ch01-007
   - hbp-ch03-003
+  - hbp-ch12-006
   impersonation:
   - hbp-ch04-002
   - hbp-ch05-003
@@ -17784,6 +17928,7 @@ by_tag:
   - gof-ch33-003
   inheritance:
   - hbp-ch03-004
+  - hbp-ch12-005
   inigo-imago:
   - ootp-ch12-005
   inquisitorial-squad:
@@ -17928,6 +18073,8 @@ by_tag:
   - gof-ch37-003
   karkus:
   - ootp-ch20-004
+  katie-bell:
+  - hbp-ch12-006
   keeper:
   - cos-ch07-001
   - ootp-ch13-007
@@ -18023,10 +18170,14 @@ by_tag:
   - ootp-ch06-006
   lestranges:
   - ootp-ch08-001
+  levicorpus:
+  - hbp-ch12-003
   levitation:
   - ps-ch10-001
   libatius-borage:
   - hbp-ch10-001
+  liberacorpus:
+  - hbp-ch12-003
   library:
   - cos-ch09-001
   - cos-ch11-005
@@ -18517,6 +18668,7 @@ by_tag:
   marginalia:
   - hbp-ch09-007
   - hbp-ch10-001
+  - hbp-ch12-003
   mars:
   - gof-ch29-005
   - ootp-ch27-003
@@ -18538,6 +18690,7 @@ by_tag:
   - poa-ch15-006
   - ps-ch11-004
   material-culture:
+  - hbp-ch12-005
   - ootp-ch05-002
   - ootp-ch06-001
   maze:
@@ -18547,6 +18700,7 @@ by_tag:
   - gof-ch35-001
   - gof-ch35-004
   mcgonagall:
+  - hbp-ch12-007
   - ootp-ch28-005
   - ootp-ch38-004
   - poa-ch11-007
@@ -18843,6 +18997,8 @@ by_tag:
   - ps-ch09-005
   mrs-weasley:
   - ootp-ch09-003
+  muffliato:
+  - hbp-ch12-003
   muggle-artifacts:
   - cos-ch03-004
   muggle-baiting:
@@ -18949,6 +19105,7 @@ by_tag:
   muggle-witnesses:
   - ps-ch02-004
   mundungus-fletcher:
+  - hbp-ch12-005
   - ootp-ch01-002
   - ootp-ch02-001
   music:
@@ -19048,6 +19205,7 @@ by_tag:
   nonverbal-spells:
   - hbp-ch09-003
   - hbp-ch11-001
+  - hbp-ch12-003
   north-tower:
   - gof-ch13-004
   - gof-ch29-005
@@ -19140,6 +19298,7 @@ by_tag:
   - ootp-ch03-005
   order-headquarters:
   - hbp-ch03-004
+  - hbp-ch12-005
   - ootp-ch32-004
   order-network:
   - gof-ch36-006
@@ -19293,6 +19452,7 @@ by_tag:
   - gof-ch22-007
   - gof-ch23-007
   - gof-ch25-002
+  - hbp-ch12-007
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -19673,12 +19833,15 @@ by_tag:
   - hbp-ch09-004
   - hbp-ch10-003
   - hbp-ch10-004
+  - hbp-ch12-001
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
   - cos-ch11-002
   - gof-ch25-006
   - gof-ch27-004
+  private-suppers:
+  - hbp-ch12-004
   privet-drive:
   - gof-ch03-004
   - hbp-ch03-007
@@ -19832,6 +19995,7 @@ by_tag:
   - hbp-ch05-005
   - hbp-ch07-003
   - hbp-ch10-004
+  - hbp-ch12-001
   - ootp-ch34-007
   - ootp-ch35-001
   - ootp-ch35-002
@@ -19937,6 +20101,7 @@ by_tag:
   - hbp-ch09-002
   - hbp-ch09-006
   - hbp-ch11-003
+  - hbp-ch12-004
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -20094,6 +20259,8 @@ by_tag:
   - cos-ch12-004
   restricted-magic:
   - hbp-ch06-006
+  restricted-objects:
+  - hbp-ch12-002
   restricted-section:
   - cos-ch09-007
   - cos-ch10-001
@@ -20300,6 +20467,7 @@ by_tag:
   - hbp-ch05-001
   - hbp-ch07-005
   - hbp-ch11-006
+  - hbp-ch12-004
   school-origins:
   - gof-ch12-002
   - ootp-ch11-003
@@ -20371,6 +20539,7 @@ by_tag:
   - gof-ch24-004
   - gof-ch25-007
   - gof-ch37-006
+  - hbp-ch12-001
   - ootp-ch17-003
   school-security-threat:
   - hbp-ch06-007
@@ -20450,6 +20619,7 @@ by_tag:
   - hbp-ch07-003
   - hbp-ch07-007
   - hbp-ch11-002
+  - hbp-ch12-001
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -20481,6 +20651,7 @@ by_tag:
   - gof-ch20-003
   secrecy-sensors:
   - hbp-ch11-007
+  - hbp-ch12-002
   secret-entrance:
   - gof-ch21-002
   secret-headquarters:
@@ -20612,6 +20783,8 @@ by_tag:
   - ps-ch12-004
   silencing-charm:
   - ootp-ch18-003
+  silver-goblets:
+  - hbp-ch12-005
   silver-instruments:
   - hbp-ch10-003
   sir-cadogan:
@@ -20681,6 +20854,7 @@ by_tag:
   - hbp-ch04-006
   - hbp-ch07-005
   - hbp-ch11-006
+  - hbp-ch12-004
   slughorn:
   - hbp-ch04-004
   - hbp-ch04-006
@@ -20689,6 +20863,7 @@ by_tag:
   - hbp-ch07-006
   - hbp-ch08-005
   - hbp-ch11-006
+  - hbp-ch12-004
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -20742,6 +20917,7 @@ by_tag:
   - hbp-ch02-006
   - hbp-ch04-007
   - hbp-ch08-005
+  - hbp-ch12-007
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -21244,6 +21420,7 @@ by_tag:
   - gof-ch31-006
   - hbp-ch03-002
   - hbp-ch08-006
+  - hbp-ch12-006
   - ootp-ch02-006
   - ootp-ch03-005
   - ootp-ch13-006
@@ -21263,12 +21440,14 @@ by_tag:
   student-selection:
   - hbp-ch07-005
   - hbp-ch11-006
+  - hbp-ch12-004
   student-societies:
   - ootp-ch13-007
   student-spectators:
   - gof-ch31-002
   student-spellcraft:
   - hbp-ch10-001
+  - hbp-ch12-003
   student-store-cupboard:
   - cos-ch10-002
   student-study:
@@ -21609,6 +21788,8 @@ by_tag:
   - ps-ch16-001
   transfiguration-book:
   - cos-ch18-006
+  transfiguration-detention:
+  - hbp-ch12-007
   transfiguration-punishment:
   - gof-ch13-006
   transfigured-chessmen:
@@ -21847,6 +22028,8 @@ by_tag:
   viktor-krum:
   - gof-ch16-007
   - gof-ch35-004
+  violet-ribbon-invitations:
+  - hbp-ch12-004
   visiting-schools:
   - gof-ch15-005
   - gof-ch15-006
@@ -21983,6 +22166,8 @@ by_tag:
   - hbp-ch08-006
   - hbp-ch11-002
   - hbp-ch11-007
+  - hbp-ch12-002
+  - hbp-ch12-007
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003

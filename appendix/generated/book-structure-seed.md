@@ -155,6 +155,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Slug Club as an informal student network
 - Textbooks, Marginalia, and Informal Knowledge
   - Continued use of the Half-Blood Prince's annotated Potions book
+  - Marginal spellcraft and unapproved incantations
   - The Half-Blood Prince's annotated Potions book
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
@@ -416,6 +417,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Security and Restricted Objects
   - Arrival and Mail Screening
+  - Cursed-object attack on the Hogsmeade return route
+  - Hogsmeade trip screening under wartime precautions
+  - Staff investigation after a failed cursed-object attack
 - The Second War at School
   - Parental Fear and Protective Measures
 
@@ -473,6 +477,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Examinations and Academic Progression
   - O.W.L. crisis response and staff injury aftermath
 - Exceptional Instruction During the Second War
+  - Headmaster absences and delegated crisis response
   - Headmaster-led private lessons and prophecy preparation
 - Famous Students and Wartime Rumor
   - Harry Potter's arrival and Death Eater interpretations
@@ -880,6 +885,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Pure-Blood Families and Genealogical Memory
   - Interrelated Pure-Blood Families and Marriage Exclusions
   - The Black Family Tapestry and Disowned Relatives
+- Pure-Blood Families and Material Culture
+  - Black family artifacts after Sirius Black's death
 - Wizarding Institutions Beyond Hogwarts
   - Spell-damage long-term care at St. Mungo's
   - St. Mungo's departments, Healers, and public triage
@@ -1224,6 +1231,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Staff, Students, and Patronage
 
 - Slughorn's Informal Network
+  - Persistent invitations and student avoidance
   - Private Suppers and Social Selection
 
 ## Student Life and House Culture

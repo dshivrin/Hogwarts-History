@@ -149,3 +149,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch09`: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, pages 2559-2577, 7 entries, 0 explicit references.
 - `hbp-ch10`: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, pages 2578-2596, 7 entries, 0 explicit references.
 - `hbp-ch11`: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, pages 2597-2612, 7 entries, 0 explicit references.
+- `hbp-ch12`: Harry Potter and the Half-Blood Prince, Chapter Twelve - Silver and Opals, pages 2613-2630, 7 entries, 0 explicit references.

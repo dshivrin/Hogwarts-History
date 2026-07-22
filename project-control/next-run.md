@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twelve - Silver and Opals
-- Page range: 2613-2630
+- Chapter: Chapter Thirteen - The Secret Riddle
+- Page range: 2631-2648
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-12-silver-and-opals.yaml`
+- Output YAML: `sources/book-06/chapter-13-the-secret-riddle.yaml`
 
 ## Minimal Context
 

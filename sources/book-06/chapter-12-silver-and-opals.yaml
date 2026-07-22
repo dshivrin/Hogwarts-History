@@ -1,0 +1,351 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twelve - Silver and Opals
+  chapter_start_pdf_page: 2613
+  chapter_end_pdf_page: 2630
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current processing-state range, pages 2613-2630. Prior anchors placed Chapter Eleven complete at PDF page 2612 and Chapter Thirteen pending at PDF page 2631, so no full-PDF scan was needed.
+  processed_date: '2026-07-22'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History reference was found. Seven strongest Hogwarts institutional, security, curriculum, and school-life entries were retained."
+
+entries:
+  - id: hbp-ch12-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2613
+    printed_page: null
+    extracted_text_lines: 6-17; 159-165; 462-470
+    text_anchor:
+      start_phrase: where was Dumbledore
+      end_phrase: anything you have to say about this horrible business can be said to me
+      local_occurrence_note: Harry notices Dumbledore's absences, receives the next private-lesson appointment, and later learns the headmaster is away until Monday.
+    nearby_context: The private lesson is set against a first-term Hogsmeade trip and the attempted delivery of a cursed necklace toward Hogwarts.
+    match_terms:
+      - Dumbledore
+      - headmaster
+      - private lessons
+      - prophecy
+      - away until Monday
+      - Hogsmeade
+    quote_excerpt_short: "the headmaster is away until Monday"
+    source_note: Dumbledore's private lessons continue by written appointment while he is frequently absent from meals and sometimes away from the school for days, leaving McGonagall to handle an urgent security incident.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledore
+      - private-lessons
+      - prophecy
+      - headmaster-absence
+      - deputy-headmistress
+      - school-security
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Exceptional Instruction During the Second War
+    candidate_section: Headmaster absences and delegated crisis response
+    reason_for_placement: The passage shows exceptional headmaster-led instruction continuing alongside wartime absences and delegated school authority.
+    relevance_to_hogwarts_a_history: A later edition could use this to explain how Dumbledore's wartime activities affected everyday headmaster presence and urgent school governance.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch05-005
+        - hbp-ch09-004
+      notes: hbp-ch05-005 records student interpretation of the private lessons, and hbp-ch09-004 records a prior written lesson appointment; this entry adds Dumbledore's repeated absences and McGonagall handling a crisis while he is away.
+    confidence: high
+    limitations: Harry infers that Dumbledore is leaving for days, and the chapter does not explain where the headmaster goes.
+
+  - id: hbp-ch12-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2618
+    printed_page: null
+    extracted_text_lines: 170-178; 548-552
+    text_anchor:
+      start_phrase: Filch was standing at the oak front doors as usual
+      end_phrase: Filch searching everyone who goes in and out
+      local_occurrence_note: Filch checks Hogsmeade permissions and uses a Secrecy Sensor at the front doors; later Harry factors the searches into the failed-attack route.
+    nearby_context: The first Hogsmeade trip of the term goes ahead despite tightened school security and bad weather.
+    match_terms:
+      - Hogsmeade
+      - permission
+      - Filch
+      - Secrecy Sensor
+      - oak front doors
+      - Dark stuff
+      - school security
+    quote_excerpt_short: "triple-checking everybody with his Secrecy Sensor"
+    source_note: Wartime Hogsmeade visits still occur, but Filch verifies permission lists at the oak front doors and triple-checks students with a Secrecy Sensor as they leave and return.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogsmeade
+      - hogsmeade-permission
+      - filch
+      - secrecy-sensors
+      - wartime-security
+      - front-doors
+      - restricted-objects
+    candidate_part: Hogwarts in Times of Crisis
+    candidate_chapter: Security and Restricted Objects
+    candidate_section: Hogsmeade trip screening under wartime precautions
+    reason_for_placement: The scene adds Hogsmeade-specific screening to the school's broader wartime anti-object security procedures.
+    relevance_to_hogwarts_a_history: This supports coverage of how ordinary student privileges were preserved but modified during the 1996 security climate.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch11-007
+      notes: hbp-ch11-007 records arrival searches and owl-post screening with Secrecy Sensors; this entry adds Hogsmeade permission checking and front-door screening for students going in and out.
+    confidence: high
+    limitations: The passage shows one Hogsmeade day and does not state the full written policy or whether every trip used the same level of screening.
+
+  - id: hbp-ch12-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2614
+    printed_page: null
+    extracted_text_lines: 27-67; 70-83; 104-143
+    text_anchor:
+      start_phrase: Prince's copy of Advanced Potion-Making hardly qualified as a textbook
+      end_phrase: boasting about being half-blood
+      local_occurrence_note: Harry reviews Prince marginalia, tries Levicorpus nonverbally, uses Liberacorpus, and Hermione challenges unknown handwritten spell use.
+    nearby_context: Harry has been using the loaned annotated Potions book for both Potions shortcuts and extracurricular hexes in classes and corridors.
+    match_terms:
+      - Advanced Potion-Making
+      - Half-Blood Prince
+      - Muffliato
+      - Levicorpus
+      - Liberacorpus
+      - nonverbal
+      - handwritten incantation
+    quote_excerpt_short: "Levicorpus (nvbl)"
+    source_note: The Half-Blood Prince's textbook marginalia includes self-invented jinxes and hexes, the privacy spell Muffliato, the nonverbal Levicorpus, and the counter-jinx Liberacorpus, raising student concerns about unapproved handwritten incantations.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - half-blood-prince
+      - advanced-potion-making
+      - marginalia
+      - muffliato
+      - levicorpus
+      - liberacorpus
+      - nonverbal-spells
+      - student-spellcraft
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Textbooks, Marginalia, and Informal Knowledge
+    candidate_section: Marginal spellcraft and unapproved incantations
+    reason_for_placement: The passage expands the annotated book from Potions advice into a portable body of student spellcraft that affects classroom privacy, discipline, and peer safety.
+    relevance_to_hogwarts_a_history: A later editorial note could use this as evidence for informal magical knowledge circulating through old school materials and being tested outside staff oversight.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-007
+        - hbp-ch10-001
+        - hbp-ch09-003
+      notes: hbp-ch09-007 records the first discovery of the annotated textbook, hbp-ch10-001 records continued use and non-Potions marginalia, and hbp-ch09-003 records sixth-year nonverbal spell instruction; this entry adds named marginal spells, counter-jinx evidence, and Hermione's Ministry-approval concern.
+    confidence: high
+    limitations: Harry infers that the Prince invented the spells, and Hermione's Ministry-approval comment is an objection rather than a quoted regulation.
+
+  - id: hbp-ch12-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2618
+    printed_page: null
+    extracted_text_lines: 190-221
+    text_anchor:
+      start_phrase: Harry, that's three of my little suppers you've missed now
+      end_phrase: They've got deluxe sugar quills
+      local_occurrence_note: Slughorn corners Harry in Honeydukes, notes missed suppers, and presses for a Monday invitation around Harry's Quidditch and Dumbledore commitments.
+    nearby_context: Hermione confirms she attends the suppers, while Harry has deliberately used Quidditch practices to avoid leaving Ron out.
+    match_terms:
+      - Slughorn
+      - little suppers
+      - violet ribbon
+      - Quidditch practice
+      - Hermione
+      - McLaggen
+      - Zabini
+    quote_excerpt_short: "three of my little suppers"
+    source_note: Slughorn persists in cultivating his informal supper circle through repeated violet-ribbon invitations, while Harry evades the network by scheduling Quidditch practices and citing Dumbledore's lesson.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - slug-club
+      - slughorn
+      - private-suppers
+      - violet-ribbon-invitations
+      - student-selection
+      - school-networks
+      - quidditch
+    candidate_part: Staff, Students, and Patronage
+    candidate_chapter: Slughorn's Informal Network
+    candidate_section: Persistent invitations and student avoidance
+    reason_for_placement: The scene shows the Slug Club as an ongoing social obligation that students can attend, avoid, or negotiate against other school commitments.
+    relevance_to_hogwarts_a_history: This adds practical texture to informal patronage at Hogwarts, including how favored students were pursued outside class.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch07-005
+        - hbp-ch11-006
+      notes: hbp-ch07-005 records the Slug Club's train-compartment recruitment, and hbp-ch11-006 records private in-castle supper selection; this entry adds repeated missed invitations, violet-ribbon delivery, and student avoidance tactics.
+    confidence: high
+    limitations: The supper itself is not observed here, and Harry's avoidance reflects his personal priorities rather than a general student response.
+
+  - id: hbp-ch12-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2620
+    printed_page: null
+    extracted_text_lines: 235-305
+    text_anchor:
+      start_phrase: Mundungus
+      end_phrase: he's the only one who scares Mundungus
+      local_occurrence_note: Harry catches Mundungus selling a Black-family silver goblet outside the Three Broomsticks and remembers he owns Grimmauld Place.
+    nearby_context: Mundungus has been near the Hog's Head barman and flees by Apparition after Harry confronts him.
+    match_terms:
+      - Mundungus Fletcher
+      - Sirius's house
+      - Black family crest
+      - silver goblet
+      - Grimmauld Place
+      - Order headquarters
+      - Disapparated
+    quote_excerpt_short: "That had the Black family crest on it"
+    source_note: Mundungus is caught selling objects taken from Sirius's house, including a silver goblet with the Black family crest, confirming that Harry's inherited Grimmauld Place property is vulnerable to theft after Sirius's death.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - grimmauld-place
+      - black-family
+      - family-crests
+      - silver-goblets
+      - mundungus-fletcher
+      - order-headquarters
+      - inheritance
+      - material-culture
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Pure-Blood Families and Material Culture
+    candidate_section: Black family artifacts after Sirius Black's death
+    reason_for_placement: The incident links inherited pure-blood household artifacts, Order headquarters security, and wartime property control after an owner's death.
+    relevance_to_hogwarts_a_history: A later edition could use this as a postscript to Black-family material culture and to the vulnerabilities of Order-linked safe houses used by Hogwarts students and staff.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch05-002
+        - hbp-ch03-004
+      notes: ootp-ch05-002 records the Black family crest and fifteenth-century goblin-wrought silver at Grimmauld Place, while hbp-ch03-004 records Harry's inheritance and security uncertainty; this entry adds theft and resale of the inherited artifacts after Sirius's death.
+    confidence: high
+    limitations: Harry identifies the object by sight during a brief confrontation, and the chapter does not establish how many objects Mundungus removed.
+
+  - id: hbp-ch12-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2623
+    printed_page: null
+    extracted_text_lines: 328-415
+    text_anchor:
+      start_phrase: the voices of Katie Bell and her friend
+      end_phrase: We'll need to show this to Madam Pomfrey
+      local_occurrence_note: Katie touches the package, is cursed on the lane to Hogwarts, and Harry identifies the opal necklace from Borgin and Burkes.
+    nearby_context: The attack occurs as students return from Hogsmeade through sleet, before the package reaches the castle.
+    match_terms:
+      - Katie Bell
+      - cursed necklace
+      - Borgin and Burkes
+      - Three Broomsticks
+      - Imperiused
+      - Madam Pomfrey
+      - Hagrid
+    quote_excerpt_short: "The label said it was cursed"
+    source_note: A cursed opal necklace obtained during a Hogsmeade visit nearly enters Hogwarts through Katie Bell, who may have been Imperiused into delivering an unmarked package to someone at the school.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - katie-bell
+      - cursed-necklace
+      - borgin-and-burkes
+      - hogsmeade
+      - imperius-curse
+      - cursed-objects
+      - hospital-wing
+      - student-safety
+    candidate_part: Hogwarts in Times of Crisis
+    candidate_chapter: Security and Restricted Objects
+    candidate_section: Cursed-object attack on the Hogsmeade return route
+    reason_for_placement: The scene is direct evidence that dangerous objects could target Hogwarts through student movement between the village and castle despite new security measures.
+    relevance_to_hogwarts_a_history: This is strong later-editorial evidence for Second War threats against students and the school's perimeter between Hogsmeade and Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no prior entry for Katie Bell, the cursed opal necklace, or a Borgin and Burkes object nearly entering Hogwarts via the Hogsmeade return route.
+    confidence: high
+    limitations: The chapter does not confirm who gave Katie the package or whether Imperius was actually used.
+
+  - id: hbp-ch12-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twelve - Silver and Opals
+    chapter_start_pdf_page: 2613
+    chapter_end_pdf_page: 2630
+    pdf_page: 2626
+    printed_page: null
+    extracted_text_lines: 432-457; 462-532; 538-552; 563-567
+    text_anchor:
+      start_phrase: Hagrid says you four saw what happened to Katie Bell
+      end_phrase: Clearly, the news of Katie's fate had not yet spread
+      local_occurrence_note: McGonagall takes witness statements, sends the necklace to Snape without touch, rejects Harry's unsupported accusation, and checks on Katie.
+    nearby_context: The response moves from entrance hall to McGonagall's office, hospital wing, and Gryffindor common room after the failed attack.
+    match_terms:
+      - McGonagall
+      - Professor Snape
+      - Secrecy Sensor
+      - hospital wing
+      - evidence
+      - stringent security measures
+      - Transfiguration detention
+      - Dilligrout
+    quote_excerpt_short: "we have put stringent security measures in place"
+    source_note: McGonagall manages the school response by shielding witnesses from Filch, ordering Snape to inspect the cursed necklace without touching it, taking statements, requiring proof before blaming Malfoy, and checking Katie in the hospital wing.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - mcgonagall
+      - snape
+      - cursed-objects
+      - evidence-standards
+      - hospital-wing
+      - wartime-security
+      - transfiguration-detention
+      - gryffindor-common-room
+      - passwords
+    candidate_part: Hogwarts in Times of Crisis
+    candidate_chapter: Security and Restricted Objects
+    candidate_section: Staff investigation after a failed cursed-object attack
+    reason_for_placement: "The passage documents staff procedure after a suspected attack: object containment, specialist consultation, witness questioning, proof standards, and medical follow-up."
+    relevance_to_hogwarts_a_history: A later edition can use this as a concrete school-governance example during the Second War, showing how staff balanced security, discipline records, and student accusations.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch11-007
+        - cos-ch15-001
+        - gof-ch17-007
+      notes: hbp-ch11-007 records wartime screening for Dark objects, cos-ch15-001 records crisis hospital-wing restrictions, and gof-ch17-007 records Fat Lady/password access; this entry adds post-attack object handling, witness questioning, Malfoy's Transfiguration detention alibi, and the current Gryffindor password.
+    confidence: high
+    limitations: The investigation remains preliminary in this chapter, and the real sender, target, and curse mechanics are not yet confirmed.
