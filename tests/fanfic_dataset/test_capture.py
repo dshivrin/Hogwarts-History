@@ -755,11 +755,15 @@ def test_resume_refuses_raw_artifact_not_recorded_in_authoritative_state(
 
 
 def test_dry_run_resume_never_repairs_or_captures_existing_state(
-    source, options, chapter_urls, multi_html, access_denied_html
+    source, options, chapter_urls, multi_html
 ) -> None:
     fake = _gateway(source, chapter_urls, multi_html)
-    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
-    with pytest.raises(CaptureStopped, match="chapter 2"):
+    fake.responses[chapter_urls[1]] = [
+        TimeoutError("synthetic timeout"),
+        TimeoutError("synthetic timeout"),
+        TimeoutError("synthetic timeout"),
+    ]
+    with pytest.raises(CaptureStopped, match="network-timeout"):
         _run(source, options, fake, FakeSleep())
     paths = capture_paths(
         options.output_root, source.source_id, options.capture_id
@@ -935,8 +939,8 @@ def test_resume_repairs_derived_metadata_from_authoritative_state(
     assert set(repaired["charset_decisions"]) == {"1", "2", "3"}
 
 
-def test_resume_reacquires_diagnostic_only_chapter_one_state(
-    source, options, chapter_urls, multi_html
+def test_resume_rejects_non_retryable_diagnostic_only_chapter_one_state(
+    monkeypatch, source, options, chapter_urls, multi_html
 ) -> None:
     fake = _gateway(source, chapter_urls, multi_html)
     fake.responses[chapter_urls[0]] = FakeResponse(
@@ -948,7 +952,93 @@ def test_resume_reacquires_diagnostic_only_chapter_one_state(
         options.output_root, source.source_id, options.capture_id
     )
     assert (paths.root / "diagnostics" / "chapter-001.json").exists()
-    fake.responses[chapter_urls[0]] = FakeResponse(200, multi_html)
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="non-retryable"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+
+@pytest.mark.parametrize("failure_chapter", [1, 2])
+@pytest.mark.parametrize(
+    ("status", "visible_text", "signature"),
+    [
+        (403, None, "http-403-access-denied"),
+        (429, None, "http-429-rate-limited"),
+        (500, None, "http-500"),
+        (200, "Please complete the CAPTCHA", "captcha"),
+        (200, "Checking your browser", "challenge"),
+        (200, "Cloudflare access check", "cloudflare"),
+        (200, "Access denied", "access-denied"),
+    ],
+)
+def test_resume_rejects_recorded_non_retryable_stop_before_gateway_creation(
+    monkeypatch,
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    failure_chapter,
+    status,
+    visible_text,
+    signature,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses[chapter_urls[failure_chapter - 1]] = FakeResponse(
+        status,
+        multi_html,
+        visible_text=visible_text,
+    )
+    with pytest.raises(CaptureStopped, match=signature):
+        _run(source, options, fake, FakeSleep())
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="non-retryable"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+
+@pytest.mark.parametrize("failure_chapter", [1, 2])
+def test_resume_preserves_retryable_network_interruption_recovery(
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    failure_chapter,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    failed_url = chapter_urls[failure_chapter - 1]
+    fake.responses[failed_url] = [
+        TimeoutError("synthetic timeout"),
+        ConnectionResetError("synthetic reset"),
+        TimeoutError("synthetic timeout"),
+    ]
+    with pytest.raises(CaptureStopped, match="network-timeout"):
+        _run(source, options, fake, FakeSleep())
+
+    fake.responses[failed_url] = FakeResponse(200, multi_html)
     fake.calls.clear()
 
     result = _run(
@@ -958,16 +1048,23 @@ def test_resume_reacquires_diagnostic_only_chapter_one_state(
         FakeSleep(),
     )
 
-    assert len(result.pages) == 3
-    assert fake.calls[1:] == chapter_urls
+    assert [page.chapter.chapter_index for page in result.pages] == [1, 2, 3]
+    assert fake.calls == [
+        "https://www.fanfiction.net/robots.txt",
+        *chapter_urls[failure_chapter - 1 :],
+    ]
 
 
 def test_partial_resume_refuses_changed_robots_without_overwriting_snapshot(
-    source, options, chapter_urls, multi_html, access_denied_html
+    source, options, chapter_urls, multi_html
 ) -> None:
     fake = _gateway(source, chapter_urls, multi_html)
-    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
-    with pytest.raises(CaptureStopped, match="chapter 2"):
+    fake.responses[chapter_urls[1]] = [
+        TimeoutError("synthetic timeout"),
+        TimeoutError("synthetic timeout"),
+        TimeoutError("synthetic timeout"),
+    ]
+    with pytest.raises(CaptureStopped, match="network-timeout"):
         _run(source, options, fake, FakeSleep())
     policy_root = (
         options.output_root
@@ -1004,11 +1101,15 @@ def test_partial_resume_refuses_changed_robots_without_overwriting_snapshot(
 
 
 def test_resume_compares_policy_to_state_when_snapshots_are_missing(
-    source, options, chapter_urls, multi_html, access_denied_html
+    source, options, chapter_urls, multi_html
 ) -> None:
     fake = _gateway(source, chapter_urls, multi_html)
-    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
-    with pytest.raises(CaptureStopped, match="chapter 2"):
+    fake.responses[chapter_urls[1]] = [
+        TimeoutError("synthetic timeout"),
+        TimeoutError("synthetic timeout"),
+        TimeoutError("synthetic timeout"),
+    ]
+    with pytest.raises(CaptureStopped, match="network-timeout"):
         _run(source, options, fake, FakeSleep())
     policy_root = (
         options.output_root
@@ -1198,6 +1299,30 @@ def test_playwright_close_attempts_every_owned_layer_after_failure() -> None:
         asyncio.run(gateway.close())
 
     assert events == ["context", "browser", "playwright"]
+
+
+def test_playwright_gateway_forces_png_for_temporary_screenshot_path(
+    tmp_path,
+) -> None:
+    calls = []
+
+    class FakePage:
+        async def screenshot(self, **kwargs):
+            calls.append(kwargs)
+
+    gateway = browser_module._PlaywrightGateway(headed=False)
+    gateway._page = FakePage()
+    temporary = tmp_path / "chapter-001.png.tmp"
+
+    asyncio.run(gateway.screenshot(temporary))
+
+    assert calls == [
+        {
+            "path": str(temporary),
+            "full_page": True,
+            "type": "png",
+        }
+    ]
 
 
 def test_owned_gateway_close_error_does_not_replace_capture_stop(

@@ -35,6 +35,9 @@ from .policy import PolicyDecision, evaluate_policy
 Sleep = Callable[[float], Awaitable[None]]
 _RETRY_BACKOFF_SECONDS = (2.0, 4.0)
 _STORY_TIMEOUT_SECONDS = 30.0
+_RETRYABLE_RESUME_SIGNATURES = frozenset(
+    {"network-timeout", "connection-reset"}
+)
 
 
 class CaptureOptions(StrictModel):
@@ -193,7 +196,9 @@ class _PlaywrightGateway:
     async def screenshot(self, path: Path) -> None:
         await self._start()
         assert self._page is not None
-        await self._page.screenshot(path=str(path), full_page=True)
+        await self._page.screenshot(
+            path=str(path), full_page=True, type="png"
+        )
 
     async def close(self) -> None:
         first_error: BaseException | None = None
@@ -655,6 +660,14 @@ def _load_existing_capture(
     metadata_path = paths.root / "metadata.json"
     if not state_path.exists() and not metadata_path.exists():
         if {entry.name for entry in paths.root.iterdir()} <= {"diagnostics"}:
+            diagnostic_path = (
+                paths.root / "diagnostics" / "chapter-001.json"
+            )
+            if diagnostic_path.exists():
+                _reject_non_retryable_resume(
+                    _read_json(diagnostic_path),
+                    evidence_source="chapter 1 diagnostic",
+                )
             return None
         raise CaptureStopped("existing capture has no resumable state")
     if not state_path.exists():
@@ -714,6 +727,11 @@ def _load_existing_capture(
     status = str(state["status"])
     if status not in {"running", "stopped", "complete"}:
         raise CaptureStopped(f"invalid capture status: {status}")
+    if status == "stopped":
+        _reject_non_retryable_resume(
+            state,
+            evidence_source="authoritative stopped state",
+        )
     if status == "complete" and page_indexes != sorted(discovered):
         raise CaptureStopped("complete capture has an incomplete inventory")
     if status == "complete":
@@ -736,6 +754,28 @@ def _load_existing_capture(
     if metadata != repaired_metadata and not options.dry_run:
         _atomic_write_json(metadata_path, repaired_metadata)
     return discovery, pages, status
+
+
+def _reject_non_retryable_resume(
+    evidence: dict, *, evidence_source: str
+) -> None:
+    status = evidence.get("status")
+    signature = str(evidence.get("failure_signature", "")).casefold()
+    non_retryable_status = (
+        isinstance(status, int)
+        and not isinstance(status, bool)
+        and not 200 <= status < 300
+    )
+    non_retryable_signature = (
+        bool(signature)
+        and signature not in _RETRYABLE_RESUME_SIGNATURES
+    )
+    if non_retryable_status or non_retryable_signature:
+        recorded = signature or f"http-{status}"
+        raise CaptureStopped(
+            "resume rejected after recorded non-retryable "
+            f"{evidence_source}: {recorded}"
+        )
 
 
 async def _fetch_robots(
