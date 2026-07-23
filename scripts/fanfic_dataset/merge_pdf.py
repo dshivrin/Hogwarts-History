@@ -76,7 +76,12 @@ def merge_work_pdf(
                     ),
                 }
             )
-            complete.save(merged_pdf, garbage=4, deflate=True)
+            complete.save(
+                merged_pdf,
+                garbage=4,
+                deflate=True,
+                no_new_id=True,
+            )
 
         _validate_complete_pdf(
             merged_pdf,

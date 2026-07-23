@@ -33,6 +33,13 @@ def _write_chapter(path: Path, title: str, prose: str) -> None:
     )
 
 
+def _write_fixed_chapter_pdf(path: Path, title: str) -> None:
+    with fitz.open() as document:
+        page = document.new_page()
+        page.insert_text((72, 72), title, fontname="tiro")
+        document.save(path)
+
+
 def _synthetic_discovery() -> WorkDiscovery:
     return WorkDiscovery(
         source_id="HAH-FAN-999",
@@ -146,3 +153,35 @@ def test_render_chapter_pdf_is_byte_stable_across_render_times(
     assert hashlib.sha256(first_pdf.read_bytes()).digest() == hashlib.sha256(
         second_pdf.read_bytes()
     ).digest()
+
+
+def test_merge_work_pdf_is_byte_stable_for_identical_inputs(
+    tmp_path: Path,
+) -> None:
+    discovery = _synthetic_discovery()
+    chapter_pdfs = [
+        tmp_path / "chapter-001.pdf",
+        tmp_path / "chapter-002.pdf",
+    ]
+    for path, title in zip(
+        chapter_pdfs,
+        ("Synthetic Chapter One", "Synthetic Chapter Two"),
+        strict=True,
+    ):
+        _write_fixed_chapter_pdf(path, title)
+
+    first_directory = tmp_path / "first"
+    second_directory = tmp_path / "second"
+    first_directory.mkdir()
+    second_directory.mkdir()
+    filename = canonical_complete_pdf_name(discovery)
+    first_pdf = first_directory / filename
+    second_pdf = second_directory / filename
+
+    merge_work_pdf(discovery, chapter_pdfs, first_pdf)
+    merge_work_pdf(discovery, chapter_pdfs, second_pdf)
+
+    first_digest = hashlib.sha256(first_pdf.read_bytes()).digest()
+    second_digest = hashlib.sha256(second_pdf.read_bytes()).digest()
+
+    assert first_digest == second_digest
