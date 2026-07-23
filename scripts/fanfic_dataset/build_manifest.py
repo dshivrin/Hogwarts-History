@@ -31,24 +31,38 @@ def sha256_file(path: Path) -> str:
 def build_manifest(capture_dir: Path) -> list[ManifestRecord]:
     """Validate capture artifacts and write the dataset's sorted manifest."""
     capture_dir, dataset_root = _canonical_capture(capture_dir)
-    captures = _included_captures(dataset_root)
-    if capture_dir not in captures:
-        raise ValueError("requested canonical capture is not included")
-    records: list[ManifestRecord] = []
-    for candidate in captures:
-        records.extend(_records_for_capture(candidate, dataset_root))
-    records.sort(key=lambda record: (record.source_id, record.capture_id, record.chapter_index))
-    manifest_path = dataset_root / "manifest.jsonl"
-    contents = "".join(
-        json.dumps(
-            record.model_dump(mode="json"),
-            sort_keys=True,
-            separators=(",", ":"),
-        )
-        + "\n"
-        for record in records
+    dataset_descriptor = _open_existing_directory(
+        dataset_root,
+        "manifest dataset root is unsafe",
     )
-    manifest_path.write_text(contents, encoding="utf-8")
+    try:
+        captures = _included_captures(dataset_root)
+        if capture_dir not in captures:
+            raise ValueError("requested canonical capture is not included")
+        records: list[ManifestRecord] = []
+        for candidate in captures:
+            records.extend(_records_for_capture(candidate, dataset_root))
+        if not records:
+            raise ValueError("manifest requires at least one capture record")
+        records.sort(
+            key=lambda record: (
+                record.source_id,
+                record.capture_id,
+                record.chapter_index,
+            )
+        )
+        payload = "".join(
+            json.dumps(
+                record.model_dump(mode="json"),
+                sort_keys=True,
+                separators=(",", ":"),
+            )
+            + "\n"
+            for record in records
+        ).encode("utf-8")
+        _atomic_replace_bytes(dataset_descriptor, "manifest.jsonl", payload)
+    finally:
+        os.close(dataset_descriptor)
     return records
 
 
@@ -61,32 +75,54 @@ def promote_latest(work_validation: WorkValidation, *, dataset_root: Path | None
     if CAPTURE_ID.fullmatch(work_validation.capture_id) is None:
         raise ValueError("latest promotion requires a canonical capture_id")
     root = _canonical_latest_root(dataset_root or _default_dataset_root())
-    work_root = _prepare_latest_parent(root, work_validation.source_id)
-    latest_path = work_root / "latest.json"
-    payload = (
-        json.dumps(
-            {
-                "capture_id": work_validation.capture_id,
-                "source_id": work_validation.source_id,
-            },
-            sort_keys=True,
-            separators=(",", ":"),
+    root_descriptor = _open_or_create_directory_tree(root)
+    works_descriptor: int | None = None
+    work_descriptor: int | None = None
+    try:
+        works_descriptor = _open_or_create_child_directory(
+            root_descriptor,
+            "works",
+            preserve_existing_file_error=True,
         )
-        + "\n"
-    ).encode("utf-8")
-    _atomic_replace_bytes(
-        work_root,
-        "latest.json",
-        payload,
-    )
+        work_descriptor = _open_or_create_child_directory(
+            works_descriptor,
+            work_validation.source_id,
+            preserve_existing_file_error=True,
+        )
+        payload = (
+            json.dumps(
+                {
+                    "capture_id": work_validation.capture_id,
+                    "source_id": work_validation.source_id,
+                },
+                sort_keys=True,
+                separators=(",", ":"),
+            )
+            + "\n"
+        ).encode("utf-8")
+        _atomic_replace_bytes(
+            work_descriptor,
+            "latest.json",
+            payload,
+        )
+    finally:
+        if work_descriptor is not None:
+            os.close(work_descriptor)
+        if works_descriptor is not None:
+            os.close(works_descriptor)
+        os.close(root_descriptor)
+    work_root = root / "works" / work_validation.source_id
+    latest_path = work_root / "latest.json"
     return latest_path
 
 
 def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[ManifestRecord]:
     metadata_path = capture_dir / "metadata.json"
-    if not metadata_path.is_file():
-        raise ValueError(f"capture metadata is missing: {metadata_path}")
-    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    metadata = _read_canonical_json_file(
+        metadata_path,
+        capture_dir,
+        dataset_root,
+    )
     source = SourceRecord.model_validate(metadata["source"])
     discovery = WorkDiscovery.model_validate(metadata["discovery"])
     pages = [CapturedPage.model_validate(page) for page in metadata["pages"]]
@@ -94,6 +130,16 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
         raise ValueError("capture metadata does not match capture directory")
     if source.source_id != capture_dir.parents[1].name or discovery.source_id != source.source_id:
         raise ValueError("capture metadata source does not match capture directory")
+    if (
+        not pages
+        or not discovery.chapters
+        or len(pages) != source.expected_available_chapter_count
+        or len(discovery.chapters) != source.expected_available_chapter_count
+    ):
+        raise ValueError(
+            "capture page and discovery chapter count must be nonzero and "
+            "match the expected chapter count"
+        )
     _require_consecutive(pages, discovery)
     for page, chapter in zip(pages, discovery.chapters, strict=True):
         if page.source_id != source.source_id or page.chapter != chapter:
@@ -234,71 +280,125 @@ def _canonical_latest_root(dataset_root: Path) -> Path:
     return lexical
 
 
-def _prepare_latest_parent(dataset_root: Path, source_id: str) -> Path:
+def _open_existing_directory(path: Path, error_message: str) -> int:
+    flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
+    flags |= getattr(os, "O_NOFOLLOW", 0)
     try:
-        dataset_root.mkdir(parents=True, exist_ok=True)
-        root_status = dataset_root.lstat()
+        descriptor = os.open(path, flags)
     except OSError as error:
-        raise ValueError("dataset root is not a usable directory") from error
-    if (
-        stat.S_ISLNK(root_status.st_mode)
-        or not stat.S_ISDIR(root_status.st_mode)
-        or dataset_root.resolve(strict=True) != dataset_root
-    ):
-        raise ValueError("dataset root is not a directory")
-    current = dataset_root
-    for component in ("works", source_id):
-        candidate = current / component
-        if candidate.is_symlink():
-            raise ValueError(f"latest destination contains a symlink: {candidate}")
-        candidate.mkdir(exist_ok=True)
-        if candidate.is_symlink() or not candidate.is_dir():
-            raise ValueError(f"latest destination contains a symlink: {candidate}")
-        try:
-            candidate.resolve(strict=True).relative_to(dataset_root)
-        except ValueError as error:
-            raise ValueError("latest destination is outside the dataset root") from error
-        current = candidate
+        raise ValueError(error_message) from error
+    if not stat.S_ISDIR(os.fstat(descriptor).st_mode):
+        os.close(descriptor)
+        raise ValueError(error_message)
+    return descriptor
+
+
+def _open_or_create_directory_tree(path: Path) -> int:
+    current = _open_existing_directory(Path(path.anchor), "dataset root is unsafe")
+    try:
+        for component in path.parts[1:]:
+            child = _open_or_create_child_directory(
+                current,
+                component,
+                preserve_existing_file_error=False,
+            )
+            os.close(current)
+            current = child
+    except BaseException:
+        os.close(current)
+        raise
     return current
 
 
-def _atomic_replace_bytes(parent: Path, name: str, payload: bytes) -> None:
-    directory_flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
-    directory_flags |= getattr(os, "O_NOFOLLOW", 0)
+def _open_or_create_child_directory(
+    parent_descriptor: int,
+    name: str,
+    *,
+    preserve_existing_file_error: bool,
+) -> int:
+    flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
+    flags |= getattr(os, "O_NOFOLLOW", 0)
     try:
-        directory = os.open(parent, directory_flags)
+        return os.open(name, flags, dir_fd=parent_descriptor)
+    except FileNotFoundError:
+        try:
+            os.mkdir(name, dir_fd=parent_descriptor)
+        except FileExistsError:
+            pass
+        except OSError as error:
+            raise ValueError("latest destination directory is unsafe") from error
+        try:
+            return os.open(name, flags, dir_fd=parent_descriptor)
+        except OSError as error:
+            raise ValueError(
+                "latest destination contains a symlink or non-directory"
+            ) from error
     except OSError as error:
-        raise ValueError("latest destination parent is unsafe") from error
+        if preserve_existing_file_error:
+            try:
+                child_status = os.stat(
+                    name,
+                    dir_fd=parent_descriptor,
+                    follow_symlinks=False,
+                )
+            except OSError:
+                pass
+            else:
+                if (
+                    not stat.S_ISDIR(child_status.st_mode)
+                    and not stat.S_ISLNK(child_status.st_mode)
+                ):
+                    raise FileExistsError(
+                        f"latest destination component already exists: {name}"
+                    ) from error
+        raise ValueError(
+            "latest destination contains a symlink or non-directory"
+        ) from error
+
+
+def _atomic_replace_bytes(
+    directory_descriptor: int,
+    name: str,
+    payload: bytes,
+) -> None:
     temporary = f".{name}.{secrets.token_hex(12)}"
     created = False
     try:
         flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL
         flags |= getattr(os, "O_NOFOLLOW", 0)
-        descriptor = os.open(temporary, flags, 0o600, dir_fd=directory)
+        descriptor = os.open(
+            temporary,
+            flags,
+            0o600,
+            dir_fd=directory_descriptor,
+        )
         created = True
         with os.fdopen(descriptor, "wb") as handle:
             handle.write(payload)
         try:
-            existing = os.stat(name, dir_fd=directory, follow_symlinks=False)
+            existing = os.stat(
+                name,
+                dir_fd=directory_descriptor,
+                follow_symlinks=False,
+            )
         except FileNotFoundError:
             pass
         else:
             if stat.S_ISLNK(existing.st_mode):
-                raise ValueError("latest destination is a symlink")
+                raise ValueError("destination is a symlink")
         os.replace(
             temporary,
             name,
-            src_dir_fd=directory,
-            dst_dir_fd=directory,
+            src_dir_fd=directory_descriptor,
+            dst_dir_fd=directory_descriptor,
         )
         created = False
     finally:
         if created:
             try:
-                os.unlink(temporary, dir_fd=directory)
+                os.unlink(temporary, dir_fd=directory_descriptor)
             except FileNotFoundError:
                 pass
-        os.close(directory)
 
 
 def _metadata_artifact(path: Path, dataset_root: Path) -> Path:
@@ -318,7 +418,42 @@ def _relative_dataset_path(path: Path, dataset_root: Path) -> Path:
         raise ValueError("artifact path is outside the dataset root") from error
 
 
-def _require_file(path: Path, capture_dir: Path, dataset_root: Path) -> None:
+def _read_canonical_json_file(
+    path: Path,
+    capture_dir: Path,
+    dataset_root: Path,
+) -> object:
+    expected_status = _require_file(path, capture_dir, dataset_root)
+    flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(path, flags)
+    except OSError as error:
+        raise ValueError(
+            f"required artifact is not a canonical regular file: {path}"
+        ) from error
+    try:
+        opened_status = os.fstat(descriptor)
+        if (
+            not stat.S_ISREG(opened_status.st_mode)
+            or opened_status.st_dev != expected_status.st_dev
+            or opened_status.st_ino != expected_status.st_ino
+        ):
+            raise ValueError(
+                f"required artifact is not a canonical regular file: {path}"
+            )
+        with os.fdopen(descriptor, "r", encoding="utf-8") as handle:
+            descriptor = -1
+            return json.load(handle)
+    finally:
+        if descriptor >= 0:
+            os.close(descriptor)
+
+
+def _require_file(
+    path: Path,
+    capture_dir: Path,
+    dataset_root: Path,
+) -> os.stat_result:
     try:
         file_status = path.lstat()
         resolved = path.resolve(strict=True)
@@ -334,6 +469,7 @@ def _require_file(path: Path, capture_dir: Path, dataset_root: Path) -> None:
         raise ValueError(
             f"required artifact is not a canonical regular file: {path}"
         )
+    return file_status
 
 
 def _require_consecutive(pages: list[CapturedPage], discovery: WorkDiscovery) -> None:

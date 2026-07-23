@@ -1,10 +1,12 @@
 import hashlib
 import json
+import os
 import re
 from pathlib import Path
 
 import pytest
 
+import scripts.fanfic_dataset.build_manifest as manifest_module
 from scripts.fanfic_dataset.build_manifest import build_manifest, promote_latest
 from scripts.fanfic_dataset.merge_pdf import canonical_complete_pdf_name
 from scripts.fanfic_dataset.models import CheckResult, WorkDiscovery, WorkValidation
@@ -76,6 +78,15 @@ def test_build_manifest_is_global_sorted_hashed_and_byte_deterministic(
 
     records = [json.loads(line) for line in first_payload.splitlines()]
     assert len(records) == len(expected_order)
+    assert first_payload == b"".join(
+        json.dumps(
+            record,
+            sort_keys=True,
+            separators=(",", ":"),
+        ).encode("utf-8")
+        + b"\n"
+        for record in records
+    )
     for line, record in zip(first_payload.splitlines(), records, strict=True):
         assert line == json.dumps(
             record,
@@ -109,6 +120,59 @@ def test_build_manifest_is_global_sorted_hashed_and_byte_deterministic(
         assert record["fan_created"] is True
         assert record["canon_status"] == "non-canon fanfiction"
     assert not list((dataset_root / "works").glob("*/latest.json"))
+
+
+def test_build_manifest_rejects_symlink_destination_without_external_write(
+    tmp_path: Path,
+) -> None:
+    dataset_root, capture_dir = _synthetic_capture(tmp_path)
+    external_manifest = tmp_path / "external-manifest.jsonl"
+    sentinel = b"preserve-external-manifest-bytes\n"
+    external_manifest.write_bytes(sentinel)
+    manifest_path = dataset_root / "manifest.jsonl"
+    manifest_path.symlink_to(external_manifest)
+
+    with pytest.raises(ValueError, match="symlink"):
+        build_manifest(capture_dir)
+
+    assert external_manifest.read_bytes() == sentinel
+    assert manifest_path.is_symlink()
+    assert not list(dataset_root.glob(".manifest.jsonl.*"))
+
+
+def test_build_manifest_preserves_destination_when_atomic_replace_fails(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    dataset_root, capture_dir = _synthetic_capture(tmp_path)
+    manifest_path = dataset_root / "manifest.jsonl"
+    sentinel = b"preserve-complete-existing-manifest\n"
+    manifest_path.write_bytes(sentinel)
+    original_replace = os.replace
+
+    def fail_manifest_replace(
+        source: str,
+        destination: str,
+        *,
+        src_dir_fd: int | None = None,
+        dst_dir_fd: int | None = None,
+    ) -> None:
+        if destination == "manifest.jsonl":
+            raise OSError("synthetic manifest replacement failure")
+        original_replace(
+            source,
+            destination,
+            src_dir_fd=src_dir_fd,
+            dst_dir_fd=dst_dir_fd,
+        )
+
+    monkeypatch.setattr(manifest_module.os, "replace", fail_manifest_replace)
+
+    with pytest.raises(OSError, match="synthetic manifest replacement failure"):
+        build_manifest(capture_dir)
+
+    assert manifest_path.read_bytes() == sentinel
+    assert not list(dataset_root.glob(".manifest.jsonl.*"))
 
 
 @pytest.mark.parametrize(
@@ -251,6 +315,45 @@ def test_build_manifest_rejects_symlinked_derived_artifacts(
         build_manifest(capture_dir)
 
 
+def test_build_manifest_rejects_empty_capture_without_erasing_manifest(
+    tmp_path: Path,
+) -> None:
+    dataset_root, capture_dir = _synthetic_capture(tmp_path)
+    manifest_path = dataset_root / "manifest.jsonl"
+    sentinel = b"preserve-existing-manifest\n"
+    manifest_path.write_bytes(sentinel)
+    metadata_path = capture_dir / "metadata.json"
+    metadata = json.loads(metadata_path.read_text("utf-8"))
+    metadata["discovery"]["chapters"] = []
+    metadata["pages"] = []
+    metadata_path.write_text(json.dumps(metadata), "utf-8")
+
+    with pytest.raises(ValueError, match="chapter count"):
+        build_manifest(capture_dir)
+
+    assert manifest_path.read_bytes() == sentinel
+    assert not list(dataset_root.glob(".manifest.jsonl.*"))
+
+
+def test_build_manifest_rejects_symlinked_metadata_without_external_read(
+    tmp_path: Path,
+) -> None:
+    dataset_root, capture_dir = _synthetic_capture(tmp_path)
+    metadata_path = capture_dir / "metadata.json"
+    external_metadata = tmp_path / "external-metadata.json"
+    sentinel = metadata_path.read_bytes()
+    external_metadata.write_bytes(sentinel)
+    metadata_path.unlink()
+    metadata_path.symlink_to(external_metadata)
+
+    with pytest.raises(ValueError, match="canonical regular file"):
+        build_manifest(capture_dir)
+
+    assert external_metadata.read_bytes() == sentinel
+    assert metadata_path.is_symlink()
+    assert not (dataset_root / "manifest.jsonl").exists()
+
+
 def test_promote_latest_rejects_non_passing_validation(tmp_path: Path) -> None:
     validation = _validation(status="fail")
 
@@ -351,6 +454,47 @@ def test_promote_latest_atomically_writes_deterministic_pointer(
     assert first_bytes == expected
     assert latest_path.read_bytes() == expected
     assert not list(latest_path.parent.glob(".latest.json.*"))
+
+
+def test_promote_latest_uses_stable_work_descriptor_during_ancestor_swap(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    dataset_root = tmp_path / "data/fanfic-hogwarts-history"
+    works_root = dataset_root / "works"
+    external_works = tmp_path / "external-works"
+    external_work = external_works / "HAH-FAN-001"
+    external_work.mkdir(parents=True)
+    external_latest = external_work / "latest.json"
+    sentinel = b"preserve-external-latest-bytes\n"
+    external_latest.write_bytes(sentinel)
+    detached_works = dataset_root / "detached-works"
+    expected = (
+        b'{"capture_id":"20260723T120000Z","source_id":"HAH-FAN-001"}\n'
+    )
+    original_atomic_replace = manifest_module._atomic_replace_bytes
+
+    def swap_works_then_replace(
+        parent_or_descriptor: Path | int,
+        name: str,
+        payload: bytes,
+    ) -> None:
+        works_root.rename(detached_works)
+        works_root.symlink_to(external_works, target_is_directory=True)
+        original_atomic_replace(parent_or_descriptor, name, payload)
+
+    monkeypatch.setattr(
+        manifest_module,
+        "_atomic_replace_bytes",
+        swap_works_then_replace,
+    )
+
+    promote_latest(_validation(), dataset_root=dataset_root)
+
+    assert external_latest.read_bytes() == sentinel
+    assert (
+        detached_works / "HAH-FAN-001/latest.json"
+    ).read_bytes() == expected
 
 
 def _validation(
