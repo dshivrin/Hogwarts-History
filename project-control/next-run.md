@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Fourteen - Felix Felicis
-- Page range: 2649-2668
+- Chapter: Chapter Fifteen - The Unbreakable Vow
+- Page range: 2669-2687
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-14-felix-felicis.yaml`
+- Output YAML: `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
 
 ## Minimal Context
 

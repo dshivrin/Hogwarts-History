@@ -115,6 +115,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Mandrake Maturity and Restorative Use
   - Mandrake Restorative Use
   - Rare Student-Brought Plants and Stinksap
+  - Sixth-year Snargaluff practical work
 - History of Magic
   - Professor Binns and Historical Instruction
   - Professor Binns and routine historical instruction
@@ -1094,6 +1095,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Abusive punishments under Ministry interference
 - Exams, Sport, and Magical Fairness
   - Banned performance-enhancing potions
+  - Suspected Felix Felicis use in House Quidditch
 - Governors, Ministry, and School Accountability
   - Dangerous-Creature Appeals and Execution Authority
   - Dangerous-Creature Hearings After Class Injuries
@@ -1197,6 +1199,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Leadership and Prefects
   - Fifth-Year Prefect Selection
   - Prefect Qualities and Alumni Examples
+- Student Misconduct and Informal Spell Use
+  - Unsupervised conjuration and jinxes in classrooms
 - Student Misconduct and Reporting
   - Curses, Countercurses, and Faculty Reports
   - House rivalry, jinx reports, and staff bias
@@ -1249,6 +1253,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Staff, Students, and Patronage
 
 - Slughorn's Informal Network
+  - Parties, alumni guests, and invitee privileges
   - Persistent invitations and student avoidance
   - Private Suppers and Social Selection
 
@@ -1264,6 +1269,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Quidditch Teams
   - Captain authority, applicant lists, and trials
 - Quidditch and House Competition
+  - Captain replacement authority after injury
+  - Match administration, commentary, and staff oversight
+  - Practice safety and Captain discipline
   - Team Selection and Captain Authority
 
 ## Student Life and School Culture

@@ -14327,6 +14327,114 @@ by_entry:
     - voldemort-history
     source_unit: hbp-ch13
     output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch14-001:
+    title: 'Herbology and Magical Plant Safety: Sixth-year Snargaluff practical work'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - greenhouses
+    - herbology
+    - magical-plants
+    - professor-sprout
+    - safety-equipment
+    - sixth-year
+    - snargaluff
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
+  hbp-ch14-002:
+    title: 'Slughorn''s Informal Network: Parties, alumni guests, and invitee privileges'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - alumni-network
+    - gwenog-jones
+    - holyhead-harpies
+    - school-networks
+    - slug-club
+    - slughorn
+    - student-selection
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
+  hbp-ch14-003:
+    title: 'Quidditch and House Competition: Captain replacement authority after injury'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - captaincy
+    - chasers
+    - gryffindor
+    - house-teams
+    - katie-bell
+    - quidditch
+    - team-selection
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
+  hbp-ch14-004:
+    title: 'Quidditch and House Competition: Practice safety and Captain discipline'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - captaincy
+    - episkey
+    - keeper
+    - player-discipline
+    - quidditch
+    - student-leadership
+    - team-practice
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
+  hbp-ch14-005:
+    title: 'Quidditch and House Competition: Match administration, commentary, and
+      staff oversight'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - commentators
+    - house-teams
+    - madam-hooch
+    - magical-megaphone
+    - match-procedure
+    - professor-mcgonagall
+    - quidditch
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
+  hbp-ch14-006:
+    title: 'Exams, Sport, and Magical Fairness: Suspected Felix Felicis use in House
+      Quidditch'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - banned-substances
+    - competition-rules
+    - felix-felicis
+    - liquid-luck
+    - potions
+    - quidditch
+    - student-misconduct
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
+  hbp-ch14-007:
+    title: 'Student Misconduct and Informal Spell Use: Unsupervised conjuration and
+      jinxes in classrooms'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - charms
+    - conjuration
+    - gryffindor
+    - oppugno
+    - spellwork
+    - student-misconduct
+    - unlocked-classrooms
+    source_unit: hbp-ch14
+    output_yaml: sources/book-06/chapter-14-felix-felicis.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -14439,6 +14547,7 @@ by_tag:
   alumni-network:
   - hbp-ch05-001
   - hbp-ch07-006
+  - hbp-ch14-002
   amelia-bones:
   - hbp-ch01-005
   - ootp-ch07-001
@@ -14650,6 +14759,7 @@ by_tag:
   - gof-ch27-003
   banned-substances:
   - hbp-ch09-006
+  - hbp-ch14-006
   banquet:
   - ps-ch10-002
   barn-owl:
@@ -14898,6 +15008,8 @@ by_tag:
   captaincy:
   - hbp-ch09-002
   - hbp-ch11-003
+  - hbp-ch14-003
+  - hbp-ch14-004
   captains:
   - poa-ch15-006
   caractacus-burke:
@@ -15140,6 +15252,7 @@ by_tag:
   - gof-ch20-004
   - gof-ch26-001
   - hbp-ch11-001
+  - hbp-ch14-007
   - ootp-ch13-003
   - ootp-ch18-003
   - poa-ch04-003
@@ -15152,6 +15265,8 @@ by_tag:
   - ps-ch09-006
   charter-of-rights:
   - ootp-ch08-004
+  chasers:
+  - hbp-ch14-003
   cheating:
   - gof-ch20-002
   - gof-ch24-006
@@ -15246,6 +15361,7 @@ by_tag:
   - hbp-ch03-007
   commentators:
   - hbp-ch08-004
+  - hbp-ch14-005
   committee-for-disposal:
   - poa-ch14-003
   - poa-ch15-001
@@ -15287,6 +15403,7 @@ by_tag:
   - ootp-ch37-004
   competition-rules:
   - hbp-ch09-006
+  - hbp-ch14-006
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -15308,6 +15425,8 @@ by_tag:
   - poa-ch14-007
   confundus-charm:
   - gof-ch17-005
+  conjuration:
+  - hbp-ch14-007
   cormac-mclaggen:
   - hbp-ch11-003
   - hbp-ch11-006
@@ -16292,6 +16411,8 @@ by_tag:
   - ps-ch15-004
   entrances:
   - poa-ch04-007
+  episkey:
+  - hbp-ch14-004
   equipment-storage:
   - cos-ch10-004
   errol:
@@ -16439,6 +16560,7 @@ by_tag:
   - ps-ch12-003
   felix-felicis:
   - hbp-ch09-006
+  - hbp-ch14-006
   fenrir-greyback:
   - hbp-ch06-007
   fidelius:
@@ -16950,6 +17072,7 @@ by_tag:
   greenhouses:
   - cos-ch05-002
   - cos-ch06-002
+  - hbp-ch14-001
   - ootp-ch10-004
   gregorovitch:
   - gof-ch18-007
@@ -17022,6 +17145,8 @@ by_tag:
   - hbp-ch04-005
   - hbp-ch09-002
   - hbp-ch11-003
+  - hbp-ch14-003
+  - hbp-ch14-007
   - ootp-ch09-005
   - ootp-ch12-001
   - ootp-ch13-001
@@ -17115,6 +17240,7 @@ by_tag:
   - ootp-ch20-004
   gwenog-jones:
   - hbp-ch07-006
+  - hbp-ch14-002
   hagrid:
   - cos-ch02-004
   - cos-ch07-005
@@ -17413,6 +17539,7 @@ by_tag:
   - gof-ch10-006
   - gof-ch13-002
   - hbp-ch11-001
+  - hbp-ch14-001
   - ootp-ch10-004
   - ootp-ch14-005
   - poa-ch16-003
@@ -17755,6 +17882,7 @@ by_tag:
   - poa-ch11-004
   holyhead-harpies:
   - hbp-ch07-006
+  - hbp-ch14-002
   home-life-and-social-habits:
   - poa-ch13-005
   homework:
@@ -17960,6 +18088,8 @@ by_tag:
   - gof-ch05-005
   - gof-ch06-004
   - hbp-ch09-002
+  - hbp-ch14-003
+  - hbp-ch14-005
   - ootp-ch13-007
   - ootp-ch17-004
   - ootp-ch18-002
@@ -18202,8 +18332,10 @@ by_tag:
   - ootp-ch20-004
   katie-bell:
   - hbp-ch12-006
+  - hbp-ch14-003
   keeper:
   - cos-ch07-001
+  - hbp-ch14-004
   - ootp-ch13-007
   - ootp-ch14-004
   keeper-of-keys:
@@ -18358,6 +18490,7 @@ by_tag:
   - ps-ch01-003
   liquid-luck:
   - hbp-ch09-006
+  - hbp-ch14-006
   little-hangleton:
   - gof-ch01-001
   little-whinging:
@@ -18463,6 +18596,7 @@ by_tag:
   madam-hooch:
   - cos-ch10-003
   - cos-ch10-004
+  - hbp-ch14-005
   - ootp-ch19-006
   - poa-ch09-006
   - poa-ch11-007
@@ -18640,6 +18774,8 @@ by_tag:
   - ootp-ch22-005
   magical-medicine:
   - gof-ch02-005
+  magical-megaphone:
+  - hbp-ch14-005
   magical-memory-source:
   - cos-ch17-002
   magical-menagerie:
@@ -18657,6 +18793,7 @@ by_tag:
   magical-plants:
   - cos-ch06-003
   - gof-ch13-002
+  - hbp-ch14-001
   - ootp-ch10-004
   magical-portraits:
   - hbp-ch01-001
@@ -18810,6 +18947,8 @@ by_tag:
   - ps-ch11-005
   match-governance:
   - poa-ch09-006
+  match-procedure:
+  - hbp-ch14-005
   match-sabotage:
   - poa-ch13-004
   match-security:
@@ -19429,6 +19568,8 @@ by_tag:
   - ootp-ch09-003
   operational-security:
   - ootp-ch10-001
+  oppugno:
+  - hbp-ch14-007
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -19766,6 +19907,8 @@ by_tag:
   - poa-ch05-001
   - ps-ch06-001
   - ps-ch17-006
+  player-discipline:
+  - hbp-ch14-004
   player-safety:
   - poa-ch15-005
   plumbing:
@@ -19862,6 +20005,7 @@ by_tag:
   - hbp-ch09-006
   - hbp-ch09-007
   - hbp-ch10-001
+  - hbp-ch14-006
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -20063,6 +20207,7 @@ by_tag:
   - gof-ch35-005
   - gof-ch36-001
   - gof-ch36-004
+  - hbp-ch14-005
   - ootp-ch15-005
   - ootp-ch18-002
   - ootp-ch19-006
@@ -20110,6 +20255,7 @@ by_tag:
   professor-sprout:
   - gof-ch18-002
   - gof-ch36-002
+  - hbp-ch14-001
   - ootp-ch10-004
   - ps-ch16-005
   professor-tofty:
@@ -20250,6 +20396,10 @@ by_tag:
   - hbp-ch09-006
   - hbp-ch11-003
   - hbp-ch12-004
+  - hbp-ch14-003
+  - hbp-ch14-004
+  - hbp-ch14-005
+  - hbp-ch14-006
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -20486,6 +20636,7 @@ by_tag:
   safety-equipment:
   - cos-ch06-003
   - gof-ch13-002
+  - hbp-ch14-001
   salamanders:
   - cos-ch08-003
   salazar-slytherin:
@@ -20617,6 +20768,7 @@ by_tag:
   - hbp-ch07-005
   - hbp-ch11-006
   - hbp-ch12-004
+  - hbp-ch14-002
   school-origins:
   - gof-ch12-002
   - ootp-ch11-003
@@ -20997,6 +21149,7 @@ by_tag:
   - hbp-ch06-001
   - hbp-ch11-001
   - hbp-ch11-004
+  - hbp-ch14-001
   skele-gro:
   - cos-ch10-005
   skiving-snackboxes:
@@ -21009,6 +21162,7 @@ by_tag:
   - hbp-ch07-005
   - hbp-ch11-006
   - hbp-ch12-004
+  - hbp-ch14-002
   slughorn:
   - hbp-ch04-004
   - hbp-ch04-006
@@ -21018,6 +21172,7 @@ by_tag:
   - hbp-ch08-005
   - hbp-ch11-006
   - hbp-ch12-004
+  - hbp-ch14-002
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -21092,6 +21247,8 @@ by_tag:
   - ootp-ch28-006
   snape-private-stores:
   - cos-ch10-002
+  snargaluff:
+  - hbp-ch14-001
   sneakoscope:
   - gof-ch20-003
   - hbp-ch04-003
@@ -21154,6 +21311,7 @@ by_tag:
   - poa-ch01-002
   spellwork:
   - gof-ch26-001
+  - hbp-ch14-007
   - ootp-ch18-003
   spew:
   - gof-ch14-007
@@ -21446,6 +21604,7 @@ by_tag:
   - gof-ch05-001
   - hbp-ch06-001
   - hbp-ch11-003
+  - hbp-ch14-004
   - ootp-ch09-005
   - ootp-ch09-006
   - poa-ch01-004
@@ -21469,6 +21628,8 @@ by_tag:
   student-misconduct:
   - cos-ch08-003
   - gof-ch06-003
+  - hbp-ch14-006
+  - hbp-ch14-007
   - ootp-ch12-001
   - ootp-ch13-001
   student-movement:
@@ -21599,6 +21760,7 @@ by_tag:
   - hbp-ch07-005
   - hbp-ch11-006
   - hbp-ch12-004
+  - hbp-ch14-002
   student-societies:
   - ootp-ch13-007
   student-spectators:
@@ -21772,9 +21934,12 @@ by_tag:
   - hbp-ch09-002
   - poa-ch08-002
   team-practice:
+  - hbp-ch14-004
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  team-selection:
+  - hbp-ch14-003
   team-trials:
   - hbp-ch11-003
   team-tryouts:
@@ -22146,6 +22311,8 @@ by_tag:
   uniform:
   - ps-ch05-002
   - ps-ch05-005
+  unlocked-classrooms:
+  - hbp-ch14-007
   unpaid-labor:
   - gof-ch08-002
   - gof-ch12-004

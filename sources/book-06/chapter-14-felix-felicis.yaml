@@ -1,0 +1,345 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Fourteen - Felix Felicis
+  chapter_start_pdf_page: 2649
+  chapter_end_pdf_page: 2668
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current processing-state range, pages 2649-2668. Prior anchors placed Chapter Thirteen complete at PDF page 2648 and Chapter Fifteen pending at PDF page 2669, so no full-PDF scan was needed.
+  processed_date: '2026-07-23'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History reference was found. Seven strongest Hogwarts curriculum, patronage, sport, rule, and school-life entries were retained."
+
+entries:
+  - id: hbp-ch14-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2649
+    printed_page: null
+    extracted_text_lines: 6-20; 37-71; 112-123
+    text_anchor:
+      start_phrase: Harry had Herbology first thing the following morning
+      end_phrase: It says we're supposed to puncture them with something sharp
+      local_occurrence_note: The chapter opens in the greenhouses, where Sprout supervises sixth-year Snargaluff work with protective equipment and textbook consultation.
+    nearby_context: Harry, Ron, and Hermione discuss Dumbledore's Voldemort lessons while working around the same Snargaluff stump as Neville.
+    match_terms:
+      - Herbology
+      - Snargaluff
+      - greenhouses
+      - protective gloves
+      - gum shield
+      - Flesh-Eating Trees of the World
+      - Professor Sprout
+    quote_excerpt_short: "Snargaluff stumps that formed this term's project"
+    source_note: Sixth-year Herbology includes practical work on Snargaluff stumps, requiring protective gloves, goggles, gum shields, secateurs, and textbook guidance for extracting pods safely.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - herbology
+      - sixth-year
+      - snargaluff
+      - greenhouses
+      - magical-plants
+      - safety-equipment
+      - professor-sprout
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Herbology and Magical Plant Safety
+    candidate_section: Sixth-year Snargaluff practical work
+    reason_for_placement: The scene gives concrete advanced Herbology classroom practice, including plant hazards, safety equipment, and the use of a specialist plant text.
+    relevance_to_hogwarts_a_history: This can support a curriculum section on practical Herbology after O.W.L.s and the safety culture around dangerous magical plants.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch11-001
+        - gof-ch13-002
+      notes: hbp-ch11-001 records advanced Herbology with dangerous plants as part of sixth-year workload, and gof-ch13-002 records plant-safety equipment in Bubotuber work; this entry adds the named Snargaluff project and pod-extraction procedure.
+    confidence: high
+    limitations: The passage shows one class project and does not state how long the Snargaluff unit lasts or whether it is standard every year.
+
+  - id: hbp-ch14-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2650
+    printed_page: null
+    extracted_text_lines: 22-35; 72-96; 141-146; 619-624
+    text_anchor:
+      start_phrase: So how was Slughorn's latest party
+      end_phrase: Romilda Vane, who was hinting heavily
+      local_occurrence_note: Hermione reports the latest Slug Club party and later discusses the planned Christmas party, including guest permissions.
+    nearby_context: The conversation runs through Herbology and later resurfaces after the Gryffindor match celebration when Romilda Vane angles for an invitation.
+    match_terms:
+      - Slug Club
+      - Slughorn
+      - Christmas party
+      - famous ex-pupils
+      - Gwenog Jones
+      - Holyhead Harpies
+      - guests
+    quote_excerpt_short: "Just for the Slug Club, yes"
+    source_note: Slughorn's informal network has recurring parties for favored students, includes famous former pupils such as Gwenog Jones, and allows invitees to bring guests to the Christmas party.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - slug-club
+      - slughorn
+      - school-networks
+      - alumni-network
+      - gwenog-jones
+      - holyhead-harpies
+      - student-selection
+    candidate_part: Staff, Students, and Patronage
+    candidate_chapter: Slughorn's Informal Network
+    candidate_section: Parties, alumni guests, and invitee privileges
+    reason_for_placement: The chapter shows the Slug Club as an ongoing social institution with alumni display, social pressure, and student-managed guest invitations.
+    relevance_to_hogwarts_a_history: Useful for a section on teacher patronage and the social channels through which favored students met alumni and external contacts.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch07-005
+        - hbp-ch07-006
+        - hbp-ch11-006
+        - hbp-ch12-004
+      notes: Prior entries record Slug Club recruitment, named alumni examples, private suppers, and repeated invitations; this entry adds recurring party practice, Gwenog Jones as an in-person guest, Christmas-party planning, and guest privileges.
+    confidence: high
+    limitations: Hermione summarizes the party rather than the narration showing it directly, and the full guest rules are not stated.
+
+  - id: hbp-ch14-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2653
+    printed_page: null
+    extracted_text_lines: 148-169; 174-186
+    text_anchor:
+      start_phrase: Katie Bell was still in St. Mungo's Hospital
+      end_phrase: The only problem was Ron
+      local_occurrence_note: Harry replaces Katie before the Slytherin match by selecting Dean after prior tryout performance.
+    nearby_context: Katie's cursed-necklace injury leaves Gryffindor one Chaser short, forcing Harry to act as Captain before the opening match.
+    match_terms:
+      - Gryffindor Quidditch
+      - Katie Bell
+      - St. Mungo's
+      - Chaser
+      - Dean Thomas
+      - tryouts
+      - team selection
+    quote_excerpt_short: "he had to do what was best for the team"
+    source_note: A House Quidditch Captain can replace an injured player without a second full-House tryout, using prior trial results and team needs to choose a substitute.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - gryffindor
+      - house-teams
+      - captaincy
+      - team-selection
+      - chasers
+      - katie-bell
+    candidate_part: Student Life and Houses
+    candidate_chapter: Quidditch and House Competition
+    candidate_section: Captain replacement authority after injury
+    reason_for_placement: The passage adds a mid-season roster-management example to earlier tryout evidence, showing student Captain discretion under injury pressure.
+    relevance_to_hogwarts_a_history: This supports coverage of House-team governance beyond initial trials, including replacement choices and House reaction to perceived favoritism.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-002
+        - hbp-ch11-003
+      notes: hbp-ch09-002 and hbp-ch11-003 record applicant lists, trials, and captain-run selection; this entry adds replacement authority after a player's hospitalization and reliance on earlier trial outcomes.
+    confidence: high
+    limitations: The decision is specific to Gryffindor and does not cite a formal rule for substitutions.
+
+  - id: hbp-ch14-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2654
+    printed_page: null
+    extracted_text_lines: 184-218; 344-371
+    text_anchor:
+      start_phrase: Harry had no reason to regret his choice once he saw Dean fly
+      end_phrase: if we lose, and we will, I'm taking myself off the team
+      local_occurrence_note: Two practices show Captain-led training, player injury, informal healing, and threat of removal for destructive conduct.
+    nearby_context: Ron's Keeper nerves disrupt practice, injure Demelza, and later force Harry to confront him before the Slytherin match.
+    match_terms:
+      - Quidditch practice
+      - Keeper
+      - Demelza Robins
+      - Episkey
+      - Beaters
+      - team discipline
+      - Captain
+    quote_excerpt_short: "I'm going to kick you off the team"
+    source_note: "Gryffindor practices are Captain-managed and physically risky: players train by position, injuries can be treated with student spellwork, and the Captain may threaten removal for behavior that damages the team."
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - team-practice
+      - captaincy
+      - keeper
+      - episkey
+      - student-leadership
+      - player-discipline
+    candidate_part: Student Life and Houses
+    candidate_chapter: Quidditch and House Competition
+    candidate_section: Practice safety and Captain discipline
+    reason_for_placement: "The entry records everyday House-team operations: practice quality, intra-team discipline, role-specific pressure, and informal injury response."
+    relevance_to_hogwarts_a_history: A House Quidditch section could use this to show that student sport at Hogwarts blends school pride, real injury risk, and peer-led governance.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found earlier captain trials and match-rule entries, but no close prior seed for practice injury response, Episkey use, and Captain threat of removal for conduct.
+    confidence: high
+    limitations: Harry's use of Episkey is informal student action, not a stated medical policy for school sport.
+
+  - id: hbp-ch14-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2662
+    printed_page: null
+    extracted_text_lines: 440-478; 481-505; 517-557
+    text_anchor:
+      start_phrase: Conditions look ideal
+      end_phrase: Forgot to brake, Professor, sorry
+      local_occurrence_note: The Gryffindor-Slytherin match includes substitutions, House spectators, Madam Hooch's start procedure, student commentary, and McGonagall's post-crash reprimand.
+    nearby_context: Gryffindor plays Slytherin after injuries and illness alter the opposing team roster, while Zacharias Smith replaces Lee Jordan-style commentary.
+    match_terms:
+      - Quidditch match
+      - Madam Hooch
+      - referee
+      - captains shake hands
+      - commentator
+      - magical megaphone
+      - House colors
+    quote_excerpt_short: "Captains shake hands"
+    source_note: A Hogwarts House match uses formal start procedure by Madam Hooch, Captain handshakes, House-color spectator blocks, student commentary by magical megaphone, and staff discipline around dangerous post-match conduct.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - house-teams
+      - match-procedure
+      - madam-hooch
+      - commentators
+      - magical-megaphone
+      - professor-mcgonagall
+    candidate_part: Student Life and Houses
+    candidate_chapter: Quidditch and House Competition
+    candidate_section: Match administration, commentary, and staff oversight
+    reason_for_placement: The match provides observed procedural detail for school sport, including officiating, crowd organization, commentary infrastructure, substitutions, and discipline.
+    relevance_to_hogwarts_a_history: This can support a comprehensive account of how Hogwarts Quidditch matches are staged and supervised as inter-House events.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch07-001
+        - hbp-ch08-004
+        - ootp-ch19-003
+      notes: cos-ch07-001 records Quidditch positions and scoring, hbp-ch08-004 records commentator signups, and ootp-ch19-003 records House-match season context; this entry adds the Hooch start procedure, magical-megaphone commentary, substitutions, and post-match staff discipline.
+    confidence: high
+    limitations: The passage shows one match and does not give the full rulebook or formal foul adjudication process.
+
+  - id: hbp-ch14-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2660
+    printed_page: null
+    extracted_text_lines: 389-432; 568-589
+    text_anchor:
+      start_phrase: If only there was something he could do
+      end_phrase: I honestly haven't been given lucky potion
+      local_occurrence_note: Harry fakes dosing Ron's drink before the match and later proves the Felix Felicis bottle stayed sealed.
+    nearby_context: Ron believes Felix Felicis has improved his luck, while Hermione treats suspected use before a Quidditch match as expellable and illegal.
+    match_terms:
+      - Felix Felicis
+      - lucky potion
+      - pumpkin juice
+      - Quidditch
+      - illegal
+      - expelled
+      - sealed bottle
+    quote_excerpt_short: "You heard Slughorn, it's illegal"
+    source_note: Suspected Felix Felicis use before a school Quidditch match is treated by Hermione as an expellable illegal advantage, but the sealed bottle reveals Harry only exploited Ron's belief in lucky potion.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - felix-felicis
+      - liquid-luck
+      - quidditch
+      - banned-substances
+      - competition-rules
+      - student-misconduct
+      - potions
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Exams, Sport, and Magical Fairness
+    candidate_section: Suspected Felix Felicis use in House Quidditch
+    reason_for_placement: The scene applies the earlier stated Felix Felicis ban to an actual school sport context and shows the social seriousness of suspected magical performance enhancement.
+    relevance_to_hogwarts_a_history: This adds a concrete Harry-era case study for magical fairness rules in school competitions and how students understood the penalty risk.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-006
+      notes: hbp-ch09-006 records Slughorn's general ban on Felix Felicis in organized competitions, examinations, and elections; this entry adds a practical Quidditch-match accusation, expulsion fear, and the fact that no potion was actually used.
+    confidence: high
+    limitations: The expulsion claim is Hermione's interpretation of the rule, and no staff member adjudicates the incident because no potion was consumed.
+
+  - id: hbp-ch14-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Fourteen - Felix Felicis
+    chapter_start_pdf_page: 2649
+    chapter_end_pdf_page: 2668
+    pdf_page: 2667
+    printed_page: null
+    extracted_text_lines: 619-648; 650-681
+    text_anchor:
+      start_phrase: He found her in the first unlocked classroom he tried
+      end_phrase: he heard a sob before it slammed
+      local_occurrence_note: Hermione conjures birds in an unlocked classroom after the common-room party and sends them at Ron with Oppugno.
+    nearby_context: The spell follows the Gryffindor common-room celebration and occurs outside formal class, without any staff present.
+    match_terms:
+      - unlocked classroom
+      - conjured birds
+      - Oppugno
+      - spellwork
+      - student-misconduct
+      - Gryffindor party
+      - common room
+    quote_excerpt_short: "Oppugno!"
+    source_note: "Advanced student spellwork can spill into unsupervised spaces: Hermione conjures a flock of birds in an unlocked classroom and weaponizes them with Oppugno during a personal conflict."
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - charms
+      - conjuration
+      - oppugno
+      - unlocked-classrooms
+      - student-misconduct
+      - gryffindor
+      - spellwork
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Student Misconduct and Informal Spell Use
+    candidate_section: Unsupervised conjuration and jinxes in classrooms
+    reason_for_placement: The scene links advanced practical spell ability, unsupervised classroom access, and harmful peer-directed magic outside lessons.
+    relevance_to_hogwarts_a_history: A later editorial note could use this as evidence for the porous boundary between classroom learning and corridor or common-room misconduct.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found broad Charms and student-misconduct entries, but no close prior seed for Oppugno, conjured birds, or an unlocked classroom used for unsupervised spellwork.
+    confidence: medium
+    limitations: The entry is a disciplinary and spell-use cross-reference rather than evidence for an official rule or curriculum unit.

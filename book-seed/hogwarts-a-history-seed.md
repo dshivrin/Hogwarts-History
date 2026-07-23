@@ -2759,6 +2759,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter adds
   - Corroborates: `gof-ch13-002`, `cos-ch06-003`. Existing Herbology entries cover practical plant safety with Bubotubers and Mandrakes. This entry adds Mimbulus mimbletonia, Stinksap, rarity, and Neville's extracurricular plant interest.
   - Notes: The plant is student-owned on the train; the passage does not confirm that Hogwarts later keeps or teaches with this specimen.
 
+#### Section: Sixth-year Snargaluff practical work
+
+Summary: The available evidence includes 1 source item, led by: Sixth-year Herbology includes practical work on Snargaluff stumps, requiring protective gloves, goggles, gum shields, secateurs, and textbook guidance for extracting pods safely.
+
+- **Corroboration:** Sixth-year Herbology includes practical work on Snargaluff stumps, requiring protective gloves, goggles, gum shields, secateurs, and textbook guidance for extracting pods safely.
+  - Quote: "Snargaluff stumps that formed this term's project"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2649, `hbp-ch14-001`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch11-001`, `gof-ch13-002`. hbp-ch11-001 records advanced Herbology with dangerous plants as part of sixth-year workload, and gof-ch13-002 records plant-safety equipment in Bubotuber work; this entry adds the named Snargaluff project and pod-extraction procedure.
+  - Notes: The passage shows one class project and does not state how long the Snargaluff unit lasts or whether it is standard every year.
+
 ### Chapter: History of Magic
 
 #### Section: Professor Binns and Historical Instruction
@@ -3515,6 +3527,18 @@ Summary: The available evidence includes 1 source item, led by: Felix Felicis is
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: Slughorn states the ban generally; the passage does not identify the regulatory authority or formal penalty for misuse.
+
+#### Section: Suspected Felix Felicis use in House Quidditch
+
+Summary: The available evidence includes 1 source item, led by: Suspected Felix Felicis use before a school Quidditch match is treated by Hermione as an expellable illegal advantage, but the sealed bottle reveals Harry only exploited Ron's belief in lucky potion.
+
+- **Corroboration:** Suspected Felix Felicis use before a school Quidditch match is treated by Hermione as an expellable illegal advantage, but the sealed bottle reveals Harry only exploited Ron's belief in lucky potion.
+  - Quote: "You heard Slughorn, it's illegal"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2660, `hbp-ch14-006`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `hbp-ch09-006`. hbp-ch09-006 records Slughorn's general ban on Felix Felicis in organized competitions, examinations, and elections; this entry adds a practical Quidditch-match accusation, expulsion fear, and the fact that no potion was actually used.
+  - Notes: The expulsion claim is Hermione's interpretation of the rule, and no staff member adjudicates the incident because no potion was consumed.
 
 ### Chapter: Governors, Ministry, and School Accountability
 
@@ -4283,6 +4307,19 @@ Summary: The available evidence includes 1 source item, led by: Alumni testimony
   - Reference type: institutional_custom
   - Corroborates: `cos-ch04-005`. cos-ch04-005 establishes prefects as a named career-relevant institution; this entry adds alumni examples, Head-of-House judgment, detention reputation, and Lupin's appointment rationale.
   - Notes: The evidence is conversational and retrospective, not an official prefect-selection rulebook.
+
+### Chapter: Student Misconduct and Informal Spell Use
+
+#### Section: Unsupervised conjuration and jinxes in classrooms
+
+Summary: The available evidence includes 1 source item, led by: Advanced student spellwork can spill into unsupervised spaces: Hermione conjures a flock of birds in an unlocked classroom and weaponizes them with Oppugno during a personal conflict.
+
+- **Supporting evidence:** Advanced student spellwork can spill into unsupervised spaces: Hermione conjures a flock of birds in an unlocked classroom and weaponizes them with Oppugno during a personal conflict.
+  - Quote: "Oppugno!"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2667, `hbp-ch14-007`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The entry is a disciplinary and spell-use cross-reference rather than evidence for an official rule or curriculum unit.
 
 ### Chapter: Student Misconduct and Reporting
 
@@ -11168,6 +11205,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's confess
 
 ### Chapter: Slughorn's Informal Network
 
+#### Section: Parties, alumni guests, and invitee privileges
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's informal network has recurring parties for favored students, includes famous former pupils such as Gwenog Jones, and allows invitees to bring guests to the Christmas party.
+
+- **Corroboration:** Slughorn's informal network has recurring parties for favored students, includes famous former pupils such as Gwenog Jones, and allows invitees to bring guests to the Christmas party.
+  - Quote: "Just for the Slug Club, yes"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2650, `hbp-ch14-002`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch07-005`, `hbp-ch07-006`, `hbp-ch11-006`, `hbp-ch12-004`. Prior entries record Slug Club recruitment, named alumni examples, private suppers, and repeated invitations; this entry adds recurring party practice, Gwenog Jones as an in-person guest, Christmas-party planning, and guest privileges.
+  - Notes: Hermione summarizes the party rather than the narration showing it directly, and the full guest rules are not stated.
+
 #### Section: Persistent invitations and student avoidance
 
 Summary: The available evidence includes 1 source item, led by: Slughorn persists in cultivating his informal supper circle through repeated violet-ribbon invitations, while Harry evades the network by scheduling Quidditch practices and citing Dumbledore's lesson.
@@ -11239,6 +11288,41 @@ Summary: The available evidence includes 1 source item, led by: Gryffindor Quidd
   - Notes: The passage concerns Gryffindor and does not state whether all House captains receive candidate lists through the same channel.
 
 ### Chapter: Quidditch and House Competition
+
+#### Section: Captain replacement authority after injury
+
+Summary: The available evidence includes 1 source item, led by: A House Quidditch Captain can replace an injured player without a second full-House tryout, using prior trial results and team needs to choose a substitute.
+
+- **Corroboration:** A House Quidditch Captain can replace an injured player without a second full-House tryout, using prior trial results and team needs to choose a substitute.
+  - Quote: "he had to do what was best for the team"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2653, `hbp-ch14-003`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch09-002`, `hbp-ch11-003`. hbp-ch09-002 and hbp-ch11-003 record applicant lists, trials, and captain-run selection; this entry adds replacement authority after a player's hospitalization and reliance on earlier trial outcomes.
+  - Notes: The decision is specific to Gryffindor and does not cite a formal rule for substitutions.
+
+#### Section: Match administration, commentary, and staff oversight
+
+Summary: The available evidence includes 1 source item, led by: A Hogwarts House match uses formal start procedure by Madam Hooch, Captain handshakes, House-color spectator blocks, student commentary by magical megaphone, and staff discipline around dangerous post-match conduct.
+
+- **Corroboration:** A Hogwarts House match uses formal start procedure by Madam Hooch, Captain handshakes, House-color spectator blocks, student commentary by magical megaphone, and staff discipline around dangerous post-match conduct.
+  - Quote: "Captains shake hands"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2662, `hbp-ch14-005`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `cos-ch07-001`, `hbp-ch08-004`, `ootp-ch19-003`. cos-ch07-001 records Quidditch positions and scoring, hbp-ch08-004 records commentator signups, and ootp-ch19-003 records House-match season context; this entry adds the Hooch start procedure, magical-megaphone commentary, substitutions, and post-match staff discipline.
+  - Notes: The passage shows one match and does not give the full rulebook or formal foul adjudication process.
+
+#### Section: Practice safety and Captain discipline
+
+Summary: The available evidence includes 1 source item, led by: Gryffindor practices are Captain-managed and physically risky: players train by position, injuries can be treated with student spellwork, and the Captain may threaten removal for behavior that damages the team.
+
+- **Supporting evidence:** Gryffindor practices are Captain-managed and physically risky: players train by position, injuries can be treated with student spellwork, and the Captain may threaten removal for behavior that damages the team.
+  - Quote: "I'm going to kick you off the team"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, PDF p. 2654, `hbp-ch14-004`, `sources/book-06/chapter-14-felix-felicis.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: Harry's use of Episkey is informal student action, not a stated medical policy for school sport.
 
 #### Section: Team Selection and Captain Authority
 
