@@ -55,7 +55,7 @@ class FakeGateway:
         self.in_flight = 0
         self.max_in_flight = 0
         self.attempts: defaultdict[str, int] = defaultdict(int)
-        self.screenshots: list[Path] = []
+        self.screenshots: list[bytes] = []
         self.required_before_story: tuple[Path, ...] = ()
 
     async def fetch(
@@ -100,11 +100,11 @@ class FakeGateway:
         finally:
             self.in_flight -= 1
 
-    async def screenshot(self, path: Path) -> None:
-        self.events.append(f"screenshot:{path.name}")
-        self.screenshots.append(path)
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(b"synthetic screenshot")
+    async def screenshot(self) -> bytes:
+        payload = b"synthetic screenshot"
+        self.events.append("screenshot")
+        self.screenshots.append(payload)
+        return payload
 
 
 @pytest.fixture
@@ -970,6 +970,87 @@ def test_resume_rejects_non_retryable_diagnostic_only_chapter_one_state(
         )
 
 
+def test_resume_rejects_running_state_with_non_retryable_next_diagnostic_before_gateway(
+    monkeypatch,
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    access_denied_html,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
+    with pytest.raises(CaptureStopped, match="chapter 2"):
+        _run(source, options, fake, FakeSleep())
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    state_path = paths.root / "run-state.json"
+    state = json.loads(state_path.read_text("utf-8"))
+    state["status"] = "running"
+    state.pop("stopped_chapter")
+    state.pop("failure_signature")
+    state_path.write_text(json.dumps(state), encoding="utf-8")
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="non-retryable"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+
+def test_stop_state_is_committed_with_evidence_before_diagnostic_work(
+    monkeypatch,
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    access_denied_html,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+
+    async def crash_during_diagnostic(**kwargs):
+        del kwargs
+        raise RuntimeError("synthetic diagnostic crash")
+
+    monkeypatch.setattr(
+        browser_module, "_write_diagnostic", crash_during_diagnostic
+    )
+
+    with pytest.raises(RuntimeError, match="synthetic diagnostic crash"):
+        _run(source, options, fake, FakeSleep())
+
+    state = json.loads(
+        (paths.root / "run-state.json").read_text("utf-8")
+    )
+    assert state["status"] == "stopped"
+    assert state["stopped_chapter"] == 2
+    assert state["failure_signature"] == "http-403-access-denied"
+    assert state["stop_evidence"] == {
+        "url": chapter_urls[1],
+        "status": 403,
+        "selector_results": {
+            "#storytext": False,
+            "div.storytext": False,
+        },
+        "failure_signature": "http-403-access-denied",
+    }
+
+
 @pytest.mark.parametrize("failure_chapter", [1, 2])
 @pytest.mark.parametrize(
     ("status", "visible_text", "signature"),
@@ -1301,28 +1382,59 @@ def test_playwright_close_attempts_every_owned_layer_after_failure() -> None:
     assert events == ["context", "browser", "playwright"]
 
 
-def test_playwright_gateway_forces_png_for_temporary_screenshot_path(
-    tmp_path,
-) -> None:
+def test_playwright_gateway_returns_png_bytes_without_receiving_a_path() -> None:
     calls = []
 
     class FakePage:
         async def screenshot(self, **kwargs):
             calls.append(kwargs)
+            return b"synthetic png"
 
     gateway = browser_module._PlaywrightGateway(headed=False)
     gateway._page = FakePage()
-    temporary = tmp_path / "chapter-001.png.tmp"
 
-    asyncio.run(gateway.screenshot(temporary))
+    payload = asyncio.run(gateway.screenshot())
 
     assert calls == [
         {
-            "path": str(temporary),
             "full_page": True,
             "type": "png",
         }
     ]
+    assert payload == b"synthetic png"
+
+
+def test_atomic_screenshot_rejects_temp_symlink_swap_without_overwriting_target(
+    tmp_path,
+) -> None:
+    screenshot_path = (
+        tmp_path
+        / "raw-data"
+        / "HAH-FAN-001"
+        / "captures"
+        / "20260723T120000Z"
+        / "diagnostics"
+        / "chapter-002.png"
+    )
+    temporary = screenshot_path.with_suffix(".png.tmp")
+    external_target = tmp_path / "external.png"
+    external_target.write_bytes(b"preserve external bytes")
+
+    class SwappingGateway:
+        async def screenshot(self) -> bytes:
+            temporary.parent.mkdir(parents=True)
+            temporary.symlink_to(external_target)
+            return b"replacement png"
+
+    with pytest.raises(CaptureStopped, match="temporary|symlink"):
+        asyncio.run(
+            browser_module._atomic_screenshot(
+                SwappingGateway(), screenshot_path
+            )
+        )
+
+    assert temporary.is_symlink()
+    assert external_target.read_bytes() == b"preserve external bytes"
 
 
 def test_owned_gateway_close_error_does_not_replace_capture_stop(

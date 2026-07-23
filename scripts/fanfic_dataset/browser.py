@@ -76,8 +76,8 @@ class BrowserGateway(Protocol):
     ) -> BrowserResponse:
         """Return the raw main-document response and rendered-page checks."""
 
-    async def screenshot(self, path: Path) -> None:
-        """Capture the current rendered page to an ignored diagnostic path."""
+    async def screenshot(self) -> bytes:
+        """Return the current rendered page as PNG diagnostic bytes."""
 
 
 class CaptureStopped(RuntimeError):
@@ -193,12 +193,10 @@ class _PlaywrightGateway:
             selector_results=selector_results,
         )
 
-    async def screenshot(self, path: Path) -> None:
+    async def screenshot(self) -> bytes:
         await self._start()
         assert self._page is not None
-        await self._page.screenshot(
-            path=str(path), full_page=True, type="png"
-        )
+        return await self._page.screenshot(full_page=True, type="png")
 
     async def close(self) -> None:
         first_error: BaseException | None = None
@@ -727,9 +725,24 @@ def _load_existing_capture(
     status = str(state["status"])
     if status not in {"running", "stopped", "complete"}:
         raise CaptureStopped(f"invalid capture status: {status}")
+    ordered_indexes = sorted(discovered)
+    if len(page_indexes) < len(ordered_indexes):
+        first_incomplete = ordered_indexes[len(page_indexes)]
+        diagnostic_path = (
+            paths.root
+            / "diagnostics"
+            / f"chapter-{first_incomplete:03d}.json"
+        )
+        if diagnostic_path.exists():
+            _reject_non_retryable_resume(
+                _read_json(diagnostic_path),
+                evidence_source=(
+                    f"chapter {first_incomplete} diagnostic"
+                ),
+            )
     if status == "stopped":
         _reject_non_retryable_resume(
-            state,
+            state.get("stop_evidence", state),
             evidence_source="authoritative stopped state",
         )
     if status == "complete" and page_indexes != sorted(discovered):
@@ -895,6 +908,21 @@ async def _stop_at_chapter(
     failure_signature: str,
     detail: str | None = None,
 ) -> None:
+    stop_evidence = {
+        "url": url,
+        "status": status,
+        "selector_results": selector_results,
+        "failure_signature": failure_signature,
+    }
+    if detail is not None:
+        stop_evidence["detail"] = detail
+    state_path = paths.root / "run-state.json"
+    state = _read_json(state_path)
+    state["status"] = "stopped"
+    state["stopped_chapter"] = chapter_index
+    state["failure_signature"] = failure_signature
+    state["stop_evidence"] = stop_evidence
+    _atomic_write_json(state_path, state)
     await _write_diagnostic(
         gateway=gateway,
         paths=paths,
@@ -905,12 +933,6 @@ async def _stop_at_chapter(
         failure_signature=failure_signature,
         detail=detail,
     )
-    state_path = paths.root / "run-state.json"
-    state = _read_json(state_path)
-    state["status"] = "stopped"
-    state["stopped_chapter"] = chapter_index
-    state["failure_signature"] = failure_signature
-    _atomic_write_json(state_path, state)
     raise CaptureStopped(
         f"capture stopped at chapter {chapter_index}: {failure_signature}"
     )
@@ -1245,26 +1267,8 @@ def _atomic_create_bytes(path: Path, payload: bytes) -> None:
 async def _atomic_screenshot(
     gateway: BrowserGateway, path: Path
 ) -> None:
-    _prepare_destination_parent(path)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    created_temporary = False
-    try:
-        descriptor = _open_exclusive_temporary(temporary)
-        created_temporary = True
-        os.close(descriptor)
-        await gateway.screenshot(temporary)
-        _validate_destination(temporary)
-        if not temporary.is_file():
-            raise CaptureStopped(
-                f"screenshot temporary is not a regular file: {temporary}"
-            )
-        _validate_destination(path)
-        os.replace(temporary, path)
-    finally:
-        if created_temporary and (
-            temporary.exists() or temporary.is_symlink()
-        ):
-            temporary.unlink()
+    payload = await gateway.screenshot()
+    _atomic_write_bytes(path, payload)
 
 
 def _prepare_destination_parent(path: Path) -> None:
