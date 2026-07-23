@@ -248,8 +248,10 @@ def _chapters_from_options(
 
 
 def _chapter_title(option_text: str, chapter_index: int) -> str | None:
+    if option_text.strip() == str(chapter_index):
+        return None
     title = re.sub(
-        rf"^\s*{chapter_index}\s*(?:[.:\-–—)]\s*)?",
+        rf"^\s*{chapter_index}(?:(?:\s*[.:\-–—)]\s*)|\s+)",
         "",
         option_text,
         count=1,

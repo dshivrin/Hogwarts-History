@@ -46,6 +46,17 @@ def test_parser_discovers_chapters_in_numeric_order(multi_html, source):
     ]
 
 
+def test_parser_preserves_unprefixed_numeric_title(multi_html, source) -> None:
+    html = multi_html.replace("1. Contents", "100 Years")
+    work = parse_fanfiction_net(html, str(source.work_url), source)
+
+    assert [chapter.chapter_title for chapter in work.chapters] == [
+        "100 Years",
+        "Founders",
+        "Castle",
+    ]
+
+
 def test_parser_rejects_missing_story_container(single_html, source):
     html = single_html.replace('id="storytext"', 'id="missing"')
     with pytest.raises(ExtractionError, match="story container"):
