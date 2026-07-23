@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+import shutil
 
 import fitz
 import pytest
@@ -34,6 +35,17 @@ HASH_FIELDS = {
     "text_path": "text_sha256",
     "chapter_pdf_path": "chapter_pdf_sha256",
     "complete_pdf_path": "complete_pdf_sha256",
+}
+MANIFEST_DEPENDENT_CHECK_IDS = {
+    "story_text",
+    "access_denial",
+    "site_chrome",
+    "markdown_pdf_boundaries",
+    "pdf_markdown_ratio",
+    "pdf_semantic_html_ratio",
+    "pdf_bookmarks",
+    "artifact_hashes",
+    "annotation_hashes",
 }
 PROSE = {
     1: (
@@ -313,8 +325,215 @@ def test_missing_manifest_does_not_hide_later_validation_checks(
     result = validate_work(capture_dir, manual_review_path=manual_review)
 
     assert {check.check_id for check in result.checks} == CHECK_IDS
-    assert not _check(result, "artifact_hashes").passed
+    _assert_dependency_failures(
+        result,
+        MANIFEST_DEPENDENT_CHECK_IDS,
+        "manifest",
+    )
     assert result.status == "fail"
+
+
+def test_manifest_loader_rejects_records_that_are_not_full_manifest_records(
+    tmp_path: Path,
+) -> None:
+    dataset_root, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    records = _manifest_records(dataset_root)
+    del records[0]["tool_version"]
+    _write_manifest(dataset_root, records)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_dependency_failures(
+        result,
+        MANIFEST_DEPENDENT_CHECK_IDS,
+        "manifest",
+    )
+    _assert_failed(result, "chapter_count")
+    _assert_failed(result, "chapter_sequence")
+    _assert_failed(result, "chapter_titles")
+
+
+@pytest.mark.parametrize(
+    ("field", "value", "check_id"),
+    [
+        ("source_id", "HAH-FAN-099", "chapter_sequence"),
+        ("capture_id", "20260723T130000Z", "chapter_sequence"),
+        (
+            "chapter_url",
+            "https://www.fanfiction.net/s/700/9/invented-history",
+            "chapter_sequence",
+        ),
+        ("chapter_title", "Tampered Invented Title", "chapter_titles"),
+        ("title_missing", True, "chapter_titles"),
+        ("expected_available_chapter_count", 9, "chapter_count"),
+        ("author", "Different Synthetic Author", "chapter_sequence"),
+        ("retrieved_at_utc", "2026-07-23T13:00:00Z", "chapter_sequence"),
+    ],
+)
+def test_manifest_must_exactly_agree_with_capture_metadata(
+    tmp_path: Path,
+    field: str,
+    value: object,
+    check_id: str,
+) -> None:
+    dataset_root, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    records = _manifest_records(dataset_root)
+    records[0][field] = value
+    _write_manifest(dataset_root, records)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_failed(result, check_id)
+
+
+def test_manifest_order_and_indexes_are_not_repaired_by_the_loader(
+    tmp_path: Path,
+) -> None:
+    dataset_root, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    records = list(reversed(_manifest_records(dataset_root)))
+    _write_manifest(dataset_root, records)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_failed(result, "chapter_sequence")
+
+
+@pytest.mark.parametrize("second_index", [1, 3])
+def test_manifest_duplicate_or_gapped_indexes_fail_sequence_validation(
+    tmp_path: Path,
+    second_index: int,
+) -> None:
+    dataset_root, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    records = _manifest_records(dataset_root)
+    records[1]["chapter_index"] = second_index
+    _write_manifest(dataset_root, records)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_failed(result, "chapter_sequence")
+
+
+@pytest.mark.parametrize(
+    "problem",
+    [
+        "cross-chapter",
+        "cross-capture",
+        "traversal",
+        "noncanonical-complete",
+    ],
+)
+def test_manifest_artifact_paths_must_bind_to_current_canonical_capture_paths(
+    tmp_path: Path,
+    problem: str,
+) -> None:
+    dataset_root, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    records = _manifest_records(dataset_root)
+    if problem == "cross-chapter":
+        for path_field, hash_field in HASH_FIELDS.items():
+            if path_field != "complete_pdf_path":
+                records[0][path_field] = records[1][path_field]
+                records[0][hash_field] = records[1][hash_field]
+    elif problem == "cross-capture":
+        alternate_capture = capture_dir.with_name("20260723T130000Z")
+        shutil.copytree(capture_dir, alternate_capture)
+        for path_field, hash_field in HASH_FIELDS.items():
+            if path_field != "complete_pdf_path":
+                path = alternate_capture / {
+                    "raw_html_path": "raw/chapter-001.html",
+                    "clean_html_path": "clean/chapter-001.html",
+                    "text_path": "text/chapter-001.md",
+                    "chapter_pdf_path": "pdf/chapter-001.pdf",
+                }[path_field]
+                records[0][path_field] = str(
+                    DATASET_DIRECTORY / path.relative_to(dataset_root)
+                )
+                records[0][hash_field] = _sha256(path)
+    elif problem == "traversal":
+        records[0]["raw_html_path"] = str(
+            DATASET_DIRECTORY
+            / "works"
+            / "HAH-FAN-001"
+            / "captures"
+            / "20260723T130000Z"
+            / ".."
+            / "20260723T120000Z"
+            / "raw"
+            / "chapter-001.html"
+        )
+    else:
+        canonical = _complete_pdf_path(capture_dir)
+        alternate = canonical.with_name("invented-complete.pdf")
+        shutil.copyfile(canonical, alternate)
+        records[0]["complete_pdf_path"] = str(
+            DATASET_DIRECTORY / alternate.relative_to(dataset_root)
+        )
+        records[0]["complete_pdf_sha256"] = _sha256(alternate)
+    _write_manifest(dataset_root, records)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_dependency_failures(
+        result,
+        MANIFEST_DEPENDENT_CHECK_IDS,
+        "canonical",
+    )
+
+
+@pytest.mark.parametrize("symlink_kind", ["parent", "leaf"])
+def test_manifest_artifact_binding_rejects_symlink_components_and_leaves(
+    tmp_path: Path,
+    symlink_kind: str,
+) -> None:
+    _, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    if symlink_kind == "parent":
+        raw = capture_dir / "raw"
+        real_raw = capture_dir / "raw-real"
+        raw.rename(real_raw)
+        raw.symlink_to(real_raw, target_is_directory=True)
+    else:
+        text = capture_dir / "text/chapter-001.md"
+        real_text = capture_dir / "text/chapter-001-real.md"
+        text.rename(real_text)
+        text.symlink_to(real_text)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_dependency_failures(
+        result,
+        MANIFEST_DEPENDENT_CHECK_IDS,
+        "symlink",
+    )
+
+
+@pytest.mark.parametrize("problem", ["missing", "malformed"])
+def test_missing_or_malformed_metadata_fails_every_dependent_check(
+    tmp_path: Path,
+    problem: str,
+) -> None:
+    _, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    metadata_path = capture_dir / "metadata.json"
+    if problem == "missing":
+        metadata_path.unlink()
+    else:
+        _write_json(metadata_path, {"capture_id": "not-a-capture"})
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_dependency_failures(result, CHECK_IDS, "metadata")
+    assert result.status == "fail"
+
+
+def test_source_discovery_provenance_disagreement_is_not_vacuously_valid(
+    tmp_path: Path,
+) -> None:
+    _, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    metadata = _read_json(capture_dir / "metadata.json")
+    metadata["discovery"]["author"] = "Contradictory Synthetic Author"
+    _write_json(capture_dir / "metadata.json", metadata)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_failed(result, "chapter_sequence")
 
 
 def test_signed_valid_capture_passes_and_persists_deterministically(
@@ -372,6 +591,17 @@ def _assert_failed(result: WorkValidation, check_id: str) -> None:
 
 def _check(result: WorkValidation, check_id: str) -> CheckResult:
     return next(check for check in result.checks if check.check_id == check_id)
+
+
+def _assert_dependency_failures(
+    result: WorkValidation,
+    check_ids: set[str],
+    dependency: str,
+) -> None:
+    for check_id in check_ids:
+        check = _check(result, check_id)
+        assert not check.passed, check_id
+        assert dependency in check.detail.casefold(), (check_id, check.detail)
 
 
 def _synthetic_capture(tmp_path: Path) -> tuple[Path, Path, Path]:
@@ -526,10 +756,31 @@ def _write_manifest_from_capture(
             "complete_pdf_path": complete,
         }
         record = {
+            "dataset_version": "1.0",
             "source_id": metadata["source"]["source_id"],
             "capture_id": metadata["capture_id"],
+            "work_title": metadata["discovery"]["work_title"],
+            "author": metadata["discovery"]["author"],
+            "platform": metadata["source"]["platform"],
+            "work_url": metadata["source"]["work_url"],
             "chapter_index": index,
+            "chapter_title": page["chapter"]["chapter_title"],
+            "title_missing": page["chapter"]["title_missing"],
             "chapter_url": page["chapter"]["chapter_url"],
+            "retrieved_at_utc": page["retrieved_at_utc"],
+            "published_date_displayed": metadata["discovery"][
+                "published_date_displayed"
+            ],
+            "updated_date_displayed": metadata["discovery"][
+                "updated_date_displayed"
+            ],
+            "expected_available_chapter_count": metadata["source"][
+                "expected_available_chapter_count"
+            ],
+            "fan_created": True,
+            "canon_status": "non-canon fanfiction",
+            "dataset_role": "style-and-coverage-reference",
+            "tool_version": "1.0.0",
         }
         for path_field, hash_field in HASH_FIELDS.items():
             path = paths[path_field]
