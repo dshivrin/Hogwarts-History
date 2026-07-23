@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 import hashlib
 import json
+import os
 from pathlib import Path
 import random
 import re
@@ -192,7 +193,6 @@ class _PlaywrightGateway:
     async def screenshot(self, path: Path) -> None:
         await self._start()
         assert self._page is not None
-        path.parent.mkdir(parents=True, exist_ok=True)
         await self._page.screenshot(path=str(path), full_page=True)
 
     async def close(self) -> None:
@@ -225,6 +225,7 @@ async def capture_work(
     paths = capture_paths(
         options.output_root, source.source_id, options.capture_id
     )
+    _validate_destination(paths.root / "metadata.json")
     preexisting_root = paths.root.exists()
     resumed = _load_existing_capture(source, options, paths)
     if (
@@ -467,10 +468,16 @@ async def capture_work(
                 paths=None,
             )
 
-        paths.root.mkdir(
-            parents=True,
-            exist_ok=options.resume and preexisting_root,
-        )
+        try:
+            paths.root.mkdir(
+                parents=True,
+                exist_ok=options.resume and preexisting_root,
+            )
+        except OSError as error:
+            raise CaptureStopped(
+                f"could not create confined capture root: {paths.root}"
+            ) from error
+        _validate_destination(paths.root / "metadata.json")
         metadata = _new_metadata(source, options, discovery, policy)
         _atomic_write_json(
             paths.root / "run-state.json",
@@ -687,6 +694,7 @@ def _load_existing_capture(
         expected_path = paths.chapter(
             "raw", page.chapter.chapter_index, ".html"
         )
+        _validate_destination(expected_path)
         if page.raw_html_path != expected_path:
             raise CaptureStopped("capture page has an unexpected raw path")
         if not expected_path.exists():
@@ -694,6 +702,7 @@ def _load_existing_capture(
                 f"completed chapter {page.chapter.chapter_index} is missing"
             )
     recorded_raw_paths = {page.raw_html_path for page in pages}
+    _validate_destination(paths.root / "raw" / ".confinement-check")
     existing_raw_paths = set((paths.root / "raw").glob("chapter-*.html"))
     unrecorded_raw_paths = existing_raw_paths - recorded_raw_paths
     if unrecorded_raw_paths:
@@ -882,7 +891,7 @@ async def _write_diagnostic(
     screenshot_path = diagnostic_root / f"chapter-{chapter_index:03d}.png"
     screenshot_error = None
     try:
-        await gateway.screenshot(screenshot_path)
+        await _atomic_screenshot(gateway, screenshot_path)
     except Exception as error:  # diagnostics must survive screenshot failures
         screenshot_error = f"{type(error).__name__}: {error}"
     diagnostic = {
@@ -955,6 +964,8 @@ def _persist_or_validate_policy_snapshot(
     )
     robots_path = policy_root / "robots.txt"
     decision_path = policy_root / "policy-decision.json"
+    _validate_destination(robots_path)
+    _validate_destination(decision_path)
     if robots_path.exists() or decision_path.exists():
         if (
             not robots_path.exists()
@@ -991,6 +1002,8 @@ def _validate_persisted_policy_snapshot(
     )
     robots_path = policy_root / "robots.txt"
     decision_path = policy_root / "policy-decision.json"
+    _validate_destination(robots_path)
+    _validate_destination(decision_path)
     if not robots_path.exists() or not decision_path.exists():
         raise CaptureStopped("persisted policy snapshot is incomplete")
     robots_body = robots_path.read_bytes()
@@ -1129,6 +1142,7 @@ def _robots_url(source: SourceRecord) -> str:
 
 
 def _read_json(path: Path) -> dict:
+    _validate_destination(path)
     return json.loads(path.read_text("utf-8"))
 
 
@@ -1144,33 +1158,161 @@ def _atomic_write_json(path: Path, value: object) -> None:
 
 
 def _atomic_write_bytes(path: Path, payload: bytes) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
+    _prepare_destination_parent(path)
     temporary = path.with_suffix(path.suffix + ".tmp")
+    created_temporary = False
     try:
-        temporary.write_bytes(payload)
-        temporary.replace(path)
+        descriptor = _open_exclusive_temporary(temporary)
+        created_temporary = True
+        with os.fdopen(descriptor, "wb") as stream:
+            stream.write(payload)
+        _validate_destination(path)
+        os.replace(temporary, path)
     finally:
-        if temporary.exists():
+        if created_temporary and (
+            temporary.exists() or temporary.is_symlink()
+        ):
             temporary.unlink()
 
 
 def _atomic_create_bytes(path: Path, payload: bytes) -> None:
-    if path.exists():
+    _validate_destination(path)
+    if path.exists() or path.is_symlink():
         raise CaptureStopped(
             f"refusing to overwrite existing raw artifact: {path}"
         )
-    path.parent.mkdir(parents=True, exist_ok=True)
+    _prepare_destination_parent(path)
     temporary = path.with_suffix(path.suffix + ".tmp")
+    created_temporary = False
     try:
-        temporary.write_bytes(payload)
-        if path.exists():
+        descriptor = _open_exclusive_temporary(temporary)
+        created_temporary = True
+        with os.fdopen(descriptor, "wb") as stream:
+            stream.write(payload)
+        _validate_destination(path)
+        if path.exists() or path.is_symlink():
             raise CaptureStopped(
                 f"refusing to overwrite existing raw artifact: {path}"
             )
-        temporary.replace(path)
+        os.replace(temporary, path)
     finally:
-        if temporary.exists():
+        if created_temporary and (
+            temporary.exists() or temporary.is_symlink()
+        ):
             temporary.unlink()
+
+
+async def _atomic_screenshot(
+    gateway: BrowserGateway, path: Path
+) -> None:
+    _prepare_destination_parent(path)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    created_temporary = False
+    try:
+        descriptor = _open_exclusive_temporary(temporary)
+        created_temporary = True
+        os.close(descriptor)
+        await gateway.screenshot(temporary)
+        _validate_destination(temporary)
+        if not temporary.is_file():
+            raise CaptureStopped(
+                f"screenshot temporary is not a regular file: {temporary}"
+            )
+        _validate_destination(path)
+        os.replace(temporary, path)
+    finally:
+        if created_temporary and (
+            temporary.exists() or temporary.is_symlink()
+        ):
+            temporary.unlink()
+
+
+def _prepare_destination_parent(path: Path) -> None:
+    _validate_destination(path)
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+    except OSError as error:
+        raise CaptureStopped(
+            f"could not create confined destination parent: {path.parent}"
+        ) from error
+    _validate_destination(path)
+
+
+def _open_exclusive_temporary(temporary: Path) -> int:
+    _validate_destination(temporary)
+    flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL
+    flags |= getattr(os, "O_NOFOLLOW", 0)
+    try:
+        return os.open(temporary, flags, 0o600)
+    except FileExistsError as error:
+        raise CaptureStopped(
+            f"refusing pre-existing temporary capture file: {temporary}"
+        ) from error
+    except OSError as error:
+        raise CaptureStopped(
+            f"could not create confined temporary capture file: {temporary}"
+        ) from error
+
+
+def _validate_destination(path: Path) -> None:
+    absolute_path = Path(os.path.abspath(path))
+    root, anchor = _write_boundary(absolute_path)
+    try:
+        absolute_path.relative_to(root)
+        root.relative_to(anchor)
+    except ValueError as error:
+        raise CaptureStopped(
+            f"capture destination escapes its lexical root: {path}"
+        ) from error
+
+    current = anchor
+    components = absolute_path.parent.relative_to(anchor).parts
+    for component in ("", *components):
+        if component:
+            current /= component
+        if current.is_symlink():
+            raise CaptureStopped(
+                f"capture destination ancestry contains a symlink: {current}"
+            )
+    if absolute_path.is_symlink():
+        raise CaptureStopped(
+            f"capture destination is a symlink: {absolute_path}"
+        )
+
+    resolved_root = root.resolve(strict=False)
+    resolved_parent = absolute_path.parent.resolve(strict=False)
+    try:
+        resolved_parent.relative_to(resolved_root)
+    except ValueError as error:
+        raise CaptureStopped(
+            f"resolved capture destination escapes capture root: {path}"
+        ) from error
+
+
+def _write_boundary(path: Path) -> tuple[Path, Path]:
+    parts = path.parts
+    for index in range(len(parts) - 2, -1, -1):
+        if (
+            parts[index] == "captures"
+            and index + 1 < len(parts)
+            and re.fullmatch(r"\d{8}T\d{6}Z", parts[index + 1])
+        ):
+            root = Path(*parts[: index + 2])
+            if len(root.parents) < 4:
+                break
+            return root, root.parents[3]
+        if (
+            parts[index] == "policy-snapshots"
+            and index + 1 < len(parts)
+            and re.fullmatch(r"\d{8}T\d{6}Z", parts[index + 1])
+        ):
+            root = Path(*parts[: index + 2])
+            if len(root.parents) < 3:
+                break
+            return root, root.parents[2]
+    raise CaptureStopped(
+        f"capture write has no recognized confinement root: {path}"
+    )
 
 
 async def _close_gateway(gateway: BrowserGateway) -> None:

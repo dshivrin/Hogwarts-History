@@ -587,6 +587,114 @@ def test_run_state_is_atomic_and_updated_after_each_chapter(
     assert not list(options.output_root.rglob("*.tmp"))
 
 
+def test_capture_rejects_symlinked_capture_root_before_network_or_writes(
+    tmp_path, source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    external_root = tmp_path / "external-capture"
+    external_root.mkdir()
+    paths.root.parent.mkdir(parents=True)
+    paths.root.symlink_to(external_root, target_is_directory=True)
+
+    with pytest.raises(CaptureStopped, match="symlink"):
+        _run(
+            source,
+            options.model_copy(update={"resume": True}),
+            fake,
+            FakeSleep(),
+        )
+
+    assert fake.calls == []
+    assert list(external_root.iterdir()) == []
+
+
+def test_capture_rejects_symlinked_raw_parent_without_external_write(
+    monkeypatch, tmp_path, source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    external_raw = tmp_path / "external-raw"
+    external_raw.mkdir()
+    original = browser_module._atomic_write_json
+
+    def install_raw_symlink(path, value):
+        original(path, value)
+        raw_root = paths.root / "raw"
+        if path == paths.root / "metadata.json" and not raw_root.exists():
+            raw_root.symlink_to(external_raw, target_is_directory=True)
+
+    monkeypatch.setattr(
+        browser_module, "_atomic_write_json", install_raw_symlink
+    )
+
+    with pytest.raises(CaptureStopped, match="symlink"):
+        _run(source, options, fake, FakeSleep())
+
+    assert list(external_raw.iterdir()) == []
+
+
+def test_capture_rejects_html_temp_symlink_without_overwriting_target(
+    monkeypatch, tmp_path, source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    external_target = tmp_path / "older-capture.html"
+    external_target.write_bytes(b"preserve older capture")
+    original = browser_module._atomic_write_json
+    installed = False
+
+    def install_html_temp_symlink(path, value):
+        nonlocal installed
+        original(path, value)
+        raw_root = paths.root / "raw"
+        temporary = raw_root / "chapter-001.html.tmp"
+        if path == paths.root / "metadata.json" and not installed:
+            raw_root.mkdir()
+            temporary.symlink_to(external_target)
+            installed = True
+
+    monkeypatch.setattr(
+        browser_module, "_atomic_write_json", install_html_temp_symlink
+    )
+
+    with pytest.raises(CaptureStopped, match="temporary|symlink"):
+        _run(source, options, fake, FakeSleep())
+
+    assert external_target.read_bytes() == b"preserve older capture"
+    assert (paths.root / "raw" / "chapter-001.html.tmp").is_symlink()
+
+
+def test_capture_rejects_json_temp_symlink_without_overwriting_target(
+    tmp_path, source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    policy_root = (
+        options.output_root
+        / "reports"
+        / "policy-snapshots"
+        / options.capture_id
+    )
+    policy_root.mkdir(parents=True)
+    external_target = tmp_path / "older-policy.json"
+    external_target.write_bytes(b'{"preserve": true}\n')
+    temporary = policy_root / "policy-decision.json.tmp"
+    temporary.symlink_to(external_target)
+
+    with pytest.raises(CaptureStopped, match="temporary|symlink"):
+        _run(source, options, fake, FakeSleep())
+
+    assert external_target.read_bytes() == b'{"preserve": true}\n'
+    assert temporary.is_symlink()
+    assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
+
+
 def test_authoritative_state_is_initialized_before_derived_metadata(
     monkeypatch, source, options, chapter_urls, multi_html
 ) -> None:
