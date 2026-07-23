@@ -33,6 +33,13 @@ _TEXT_BOUNDARY_TAGS = frozenset({
     "ol", "p", "pre", "search", "section", "table", "tbody", "td", "tfoot", "th",
     "thead", "tr", "ul",
 })
+_DIRECT_BLOCK_TAGS = (_TEXT_BOUNDARY_TAGS - {"br"}) | {
+    "caption",
+    "colgroup",
+    "legend",
+    "menu",
+    "summary",
+}
 _TEXT_SPACE = re.compile(r"\s+")
 _HASH = re.compile(r"^[0-9a-f]{64}$")
 
@@ -123,40 +130,49 @@ def _story_container(soup: BeautifulSoup) -> Tag:
 
 def _story_blocks(container: Tag) -> list[StoryBlock]:
     blocks: list[StoryBlock] = []
-    text_parts: list[str] = []
+    phrasing_parts: list[NavigableString | Tag] = []
     for child in container.children:
         if isinstance(child, Comment):
             continue
         if isinstance(child, NavigableString):
-            text_parts.append(str(child))
+            phrasing_parts.append(child)
             continue
         if not isinstance(child, Tag) or child.name in _DROP_TAGS:
             continue
-        if text_parts:
-            blocks.extend(_text_block("".join(text_parts)))
-            text_parts.clear()
         if _is_remote_image(child):
             continue
+        if child.name not in _DIRECT_BLOCK_TAGS:
+            phrasing_parts.append(child)
+            continue
+        if phrasing_parts:
+            blocks.extend(_phrasing_block(phrasing_parts))
+            phrasing_parts.clear()
         copied = deepcopy(child)
         _sanitize_story_node(copied)
         text = _normalized_visible_text(copied)
         blocks.append(StoryBlock(_sha(text), text, str(copied)))
-    if text_parts:
-        blocks.extend(_text_block("".join(text_parts)))
+    if phrasing_parts:
+        blocks.extend(_phrasing_block(phrasing_parts))
     return blocks
 
 
-def _text_block(raw_text: str) -> list[StoryBlock]:
-    text = _normalized_visible_text(raw_text)
-    if not text:
+def _phrasing_block(parts: list[NavigableString | Tag]) -> list[StoryBlock]:
+    if not any(isinstance(part, Tag) for part in parts) and not _normalized_visible_text(
+        "".join(str(part) for part in parts)
+    ):
         return []
     fragment = BeautifulSoup("", "html.parser")
     paragraph = fragment.new_tag("p")
-    paragraph.append(fragment.new_string(raw_text))
+    for part in parts:
+        paragraph.append(deepcopy(part))
+    _sanitize_story_node(paragraph)
+    text = _normalized_visible_text(paragraph)
     return [StoryBlock(_sha(text), text, str(paragraph))]
 
 
 def _sanitize_story_node(node: Tag) -> None:
+    for comment in node.find_all(string=lambda value: isinstance(value, Comment)):
+        comment.extract()
     for descendant in reversed(node.find_all(True)):
         if descendant.name in _DROP_TAGS or _is_remote_image(descendant):
             descendant.decompose()

@@ -158,6 +158,77 @@ def test_clean_html_ignores_direct_story_comments(
     assert "invisible comment" not in result.html
 
 
+def test_markdown_groups_direct_inline_content_in_one_paragraph(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        _VALID_PROFILE_HTML
+        + (
+            "<div id='storytext'>Hello <em>world</em>!"
+            "<strong> Still together.</strong><p>Separate block.</p></div>"
+        ),
+        captured_page,
+    )
+
+    assert [block.text for block in result.blocks] == [
+        "Hello world! Still together.",
+        "Separate block.",
+    ]
+    assert result.blocks[0].html == (
+        "<p>Hello <em>world</em>!<strong> Still together.</strong></p>"
+    )
+    assert html_to_markdown(result.html) == """<!-- BEGIN CHAPTER TEXT -->
+
+Hello *world*! **Still together.**
+
+Separate block.
+
+<!-- END CHAPTER TEXT -->
+"""
+
+
+def test_markdown_groups_direct_br_with_surrounding_inline_content(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        _VALID_PROFILE_HTML
+        + "<div id='storytext'>First line.<br>Second <em>line</em>.</div>",
+        captured_page,
+    )
+
+    assert [block.text for block in result.blocks] == ["First line. Second line."]
+    assert result.blocks[0].html == (
+        "<p>First line.<br/>Second <em>line</em>.</p>"
+    )
+    assert html_to_markdown(result.html) == """<!-- BEGIN CHAPTER TEXT -->
+
+First line.
+Second *line*.
+
+<!-- END CHAPTER TEXT -->
+"""
+
+
+def test_clean_html_removes_nested_comments_without_separating_visible_text(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        _VALID_PROFILE_HTML
+        + (
+            "<div id='storytext'><p>Before "
+            "<em>visible<!-- nested comment -->text</em> after.</p></div>"
+        ),
+        captured_page,
+    )
+
+    assert [block.text for block in result.blocks] == ["Before visibletext after."]
+    assert result.blocks[0].html == (
+        "<p>Before <em>visibletext</em> after.</p>"
+    )
+    assert "nested comment" not in result.html
+    assert "*visibletext*" in html_to_markdown(result.html)
+
+
 @pytest.mark.parametrize(
     ("profile_html", "message"),
     [
