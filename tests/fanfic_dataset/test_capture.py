@@ -366,6 +366,61 @@ def test_robots_transport_stops_write_chapter_one_diagnostic(
     assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
 
 
+def test_resume_rejects_robots_denial_after_crash_before_screenshot_enrichment(
+    monkeypatch, source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses["https://www.fanfiction.net/robots.txt"] = FakeResponse(
+        403, b"synthetic robots denial"
+    )
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    diagnostic_path = (
+        paths.root / "diagnostics" / "chapter-001.json"
+    )
+
+    class SyntheticInterruption(BaseException):
+        pass
+
+    original_atomic_screenshot = browser_module._atomic_screenshot
+
+    async def interrupt_before_screenshot_enrichment(gateway, path):
+        await original_atomic_screenshot(gateway, path)
+        raise SyntheticInterruption
+
+    monkeypatch.setattr(
+        browser_module,
+        "_atomic_screenshot",
+        interrupt_before_screenshot_enrichment,
+    )
+
+    with pytest.raises(SyntheticInterruption):
+        _run(source, options, fake)
+
+    diagnostic = json.loads(diagnostic_path.read_text("utf-8"))
+    assert diagnostic["status"] == 403
+    assert diagnostic["failure_signature"] == "robots-http-403"
+    assert diagnostic["screenshot_status"] == "pending"
+    assert Path(diagnostic["screenshot_path"]).exists()
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="non-retryable"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+
 def test_dry_run_robots_failure_preserves_no_write_contract(
     source, options, chapter_urls, multi_html
 ) -> None:
@@ -414,9 +469,38 @@ def test_access_denial_writes_diagnostic_and_stops(
     diagnostic = json.loads(diagnostic_path.read_text("utf-8"))
     assert diagnostic["status"] == 403
     assert diagnostic["failure_signature"] == "http-403-access-denied"
+    assert diagnostic["screenshot_status"] == "success"
     assert Path(diagnostic["screenshot_path"]).exists()
     assert not paths.chapter("raw", 3, ".html").exists()
     assert fake.calls.count(chapter_urls[1]) == 1
+
+
+def test_screenshot_failure_enriches_authoritative_diagnostic(
+    source, options, chapter_urls, multi_html, access_denied_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
+
+    async def fail_screenshot():
+        raise RuntimeError("synthetic screenshot failure")
+
+    fake.screenshot = fail_screenshot
+
+    with pytest.raises(CaptureStopped, match="chapter 2"):
+        _run(source, options, fake, FakeSleep())
+
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    diagnostic = json.loads(
+        (
+            paths.root / "diagnostics" / "chapter-002.json"
+        ).read_text("utf-8")
+    )
+    assert diagnostic["screenshot_status"] == "error"
+    assert diagnostic["screenshot_error"] == (
+        "RuntimeError: synthetic screenshot failure"
+    )
 
 
 def test_capture_preserves_raw_response_bytes_and_records_charset(

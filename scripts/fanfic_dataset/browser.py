@@ -950,27 +950,32 @@ async def _write_diagnostic(
     detail: str | None = None,
 ) -> None:
     diagnostic_root = paths.root / "diagnostics"
+    diagnostic_path = (
+        diagnostic_root / f"chapter-{chapter_index:03d}.json"
+    )
     screenshot_path = diagnostic_root / f"chapter-{chapter_index:03d}.png"
-    screenshot_error = None
-    try:
-        await _atomic_screenshot(gateway, screenshot_path)
-    except Exception as error:  # diagnostics must survive screenshot failures
-        screenshot_error = f"{type(error).__name__}: {error}"
     diagnostic = {
         "url": url,
         "status": status,
         "selector_results": selector_results,
         "failure_signature": failure_signature,
         "screenshot_path": str(screenshot_path),
+        "screenshot_status": "pending",
     }
     if detail is not None:
         diagnostic["detail"] = detail
-    if screenshot_error is not None:
-        diagnostic["screenshot_error"] = screenshot_error
-    _atomic_write_json(
-        diagnostic_root / f"chapter-{chapter_index:03d}.json",
-        diagnostic,
-    )
+    _atomic_write_json(diagnostic_path, diagnostic)
+
+    try:
+        await _atomic_screenshot(gateway, screenshot_path)
+    except Exception as error:  # diagnostics must survive screenshot failures
+        diagnostic["screenshot_status"] = "error"
+        diagnostic["screenshot_error"] = (
+            f"{type(error).__name__}: {error}"
+        )
+    else:
+        diagnostic["screenshot_status"] = "success"
+    _atomic_write_json(diagnostic_path, diagnostic)
 
 
 def _new_metadata(
