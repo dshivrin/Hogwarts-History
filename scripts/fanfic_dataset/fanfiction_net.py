@@ -69,10 +69,22 @@ def parse_fanfiction_net(
         )
 
     options = _first_matches(soup, CHAPTER_SELECTORS)
-    chapters = (
-        _chapters_from_options(options, canonical_url, source_work_id)
-        if options
-        else [
+    if options:
+        chapters = _chapters_from_options(options, canonical_url, source_work_id)
+    else:
+        displayed_chapter_count = _label_value(profile_text, "Chapters")
+        if displayed_chapter_count is not None:
+            digits = displayed_chapter_count.replace(",", "").replace(" ", "")
+            if not digits.isdigit() or int(digits) < 1:
+                raise ExtractionError(
+                    f"invalid visible chapter count: {displayed_chapter_count!r}"
+                )
+            if int(digits) > 1:
+                raise ExtractionError(
+                    "missing chapter selector for multiple chapters: "
+                    f"{displayed_chapter_count}"
+                )
+        chapters = [
             ChapterRef(
                 chapter_index=1,
                 chapter_title=None,
@@ -80,7 +92,6 @@ def parse_fanfiction_net(
                 chapter_url=canonical_url,
             )
         ]
-    )
 
     return WorkDiscovery(
         source_id=source.source_id,

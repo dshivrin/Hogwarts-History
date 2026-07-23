@@ -132,6 +132,22 @@ def test_parser_builds_single_chapter_from_canonical_url(single_html, source) ->
     assert str(work.chapters[0].chapter_url) == str(source.work_url)
 
 
+def test_parser_rejects_selectorless_multi_chapter_page(
+    multi_html, source
+) -> None:
+    selector = """\
+    <select id="chap_select" name="chapter">
+      <option value="3">3. Castle</option>
+      <option value="1" selected>1. Contents</option>
+      <option value="2">2. Founders</option>
+    </select>
+"""
+    html = multi_html.replace(selector, "")
+
+    with pytest.raises(ExtractionError, match="multiple chapters"):
+        parse_fanfiction_net(html, str(source.work_url), source)
+
+
 @pytest.mark.parametrize(
     "link",
     [
