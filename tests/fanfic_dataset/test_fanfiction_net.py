@@ -57,6 +57,24 @@ def test_parser_preserves_unprefixed_numeric_title(multi_html, source) -> None:
     ]
 
 
+@pytest.mark.parametrize("source_title", ["1 January", "1-2 Punch"])
+def test_parser_preserves_ambiguous_numeric_leading_title(
+    multi_html, source, source_title: str
+) -> None:
+    html = multi_html.replace("1. Contents", source_title)
+    work = parse_fanfiction_net(html, str(source.work_url), source)
+
+    assert work.chapters[0].chapter_title == source_title
+
+
+def test_parser_strips_unambiguous_platform_chapter_prefix(
+    multi_html, source
+) -> None:
+    work = parse_fanfiction_net(multi_html, str(source.work_url), source)
+
+    assert work.chapters[0].chapter_title == "Contents"
+
+
 def test_parser_rejects_missing_story_container(single_html, source):
     html = single_html.replace('id="storytext"', 'id="missing"')
     with pytest.raises(ExtractionError, match="story container"):
@@ -145,6 +163,18 @@ def test_parser_rejects_selectorless_multi_chapter_page(
     html = multi_html.replace(selector, "")
 
     with pytest.raises(ExtractionError, match="multiple chapters"):
+        parse_fanfiction_net(html, str(source.work_url), source)
+
+
+def test_parser_rejects_selector_inventory_shorter_than_visible_count(
+    multi_html, source
+) -> None:
+    html = multi_html.replace(
+        '      <option value="3">3. Castle</option>\n',
+        "",
+    )
+
+    with pytest.raises(ExtractionError, match="visible chapter count"):
         parse_fanfiction_net(html, str(source.work_url), source)
 
 

@@ -68,22 +68,24 @@ def parse_fanfiction_net(
             f"{source_work_id}"
         )
 
+    displayed_chapter_count = _visible_chapter_count(profile_text)
     options = _first_matches(soup, CHAPTER_SELECTORS)
     if options:
         chapters = _chapters_from_options(options, canonical_url, source_work_id)
+        if (
+            displayed_chapter_count is not None
+            and displayed_chapter_count != len(chapters)
+        ):
+            raise ExtractionError(
+                "visible chapter count does not match selector inventory: "
+                f"{displayed_chapter_count} != {len(chapters)}"
+            )
     else:
-        displayed_chapter_count = _label_value(profile_text, "Chapters")
-        if displayed_chapter_count is not None:
-            digits = displayed_chapter_count.replace(",", "").replace(" ", "")
-            if not digits.isdigit() or int(digits) < 1:
-                raise ExtractionError(
-                    f"invalid visible chapter count: {displayed_chapter_count!r}"
-                )
-            if int(digits) > 1:
-                raise ExtractionError(
-                    "missing chapter selector for multiple chapters: "
-                    f"{displayed_chapter_count}"
-                )
+        if displayed_chapter_count is not None and displayed_chapter_count > 1:
+            raise ExtractionError(
+                "missing chapter selector for multiple chapters: "
+                f"{displayed_chapter_count}"
+            )
         chapters = [
             ChapterRef(
                 chapter_index=1,
@@ -230,6 +232,16 @@ def _word_count(text: str) -> int | None:
     return int(digits) if digits.isdigit() else None
 
 
+def _visible_chapter_count(text: str) -> int | None:
+    displayed = _label_value(text, "Chapters")
+    if displayed is None:
+        return None
+    digits = displayed.replace(",", "").replace(" ", "")
+    if not digits.isdigit() or int(digits) < 1:
+        raise ExtractionError(f"invalid visible chapter count: {displayed!r}")
+    return int(digits)
+
+
 def _chapters_from_options(
     options: list[Tag], canonical_url: str, work_id: str
 ) -> list[ChapterRef]:
@@ -262,7 +274,7 @@ def _chapter_title(option_text: str, chapter_index: int) -> str | None:
     if option_text.strip() == str(chapter_index):
         return None
     title = re.sub(
-        rf"^\s*{chapter_index}(?:(?:\s*[.:\-–—)]\s*)|\s+)",
+        rf"^\s*{chapter_index}\.\s*",
         "",
         option_text,
         count=1,
