@@ -850,6 +850,52 @@ def test_resume_rejects_same_id_source_registry_changes(
     assert fake.calls == []
 
 
+@pytest.mark.parametrize(
+    "corrupt_url",
+    [
+        "https://evil.example/s/1/2/invented-work",
+        "https://www.fanfiction.net/s/999/2/invented-work",
+        "https://www.fanfiction.net/s/1/3/invented-work",
+    ],
+)
+def test_resume_rejects_corrupt_discovery_before_gateway_creation(
+    monkeypatch,
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    access_denied_html,
+    corrupt_url,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
+    with pytest.raises(CaptureStopped, match="chapter 2"):
+        _run(source, options, fake, FakeSleep())
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    state_path = paths.root / "run-state.json"
+    state = json.loads(state_path.read_text("utf-8"))
+    state["discovery"]["chapters"][1]["chapter_url"] = corrupt_url
+    state_path.write_text(json.dumps(state), encoding="utf-8")
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="discovery"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+
 def test_existing_capture_requires_explicit_resume(
     source, options, chapter_urls, multi_html
 ) -> None:

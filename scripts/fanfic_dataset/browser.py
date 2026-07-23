@@ -20,7 +20,13 @@ from pydantic import Field
 
 from .discover import adapter_for
 from .fanfiction_net import ExtractionError, STORY_SELECTORS
-from .models import CapturedPage, SourceRecord, StrictModel, WorkDiscovery
+from .models import (
+    CapturedPage,
+    ChapterRef,
+    SourceRecord,
+    StrictModel,
+    WorkDiscovery,
+)
 from .paths import CapturePaths, capture_paths
 from .policy import PolicyDecision, evaluate_policy
 
@@ -438,10 +444,9 @@ async def capture_work(
             raise CaptureStopped(
                 f"chapter 1 discovery failed: {error}"
             ) from error
-        if (
-            len(discovery.chapters)
-            != source.expected_available_chapter_count
-        ):
+        try:
+            _validate_discovery_inventory(source, discovery)
+        except CaptureStopped as error:
             if not options.dry_run:
                 await _write_diagnostic(
                     gateway=active_gateway,
@@ -451,16 +456,9 @@ async def capture_work(
                     status=first_response.status,
                     selector_results=first_response.selector_results,
                     failure_signature="chapter-inventory-mismatch",
-                    detail=(
-                        f"{len(discovery.chapters)} != "
-                        f"{source.expected_available_chapter_count}"
-                    ),
+                    detail=str(error),
                 )
-            raise CaptureStopped(
-                "discovered chapter inventory does not match expected count: "
-                f"{len(discovery.chapters)} != "
-                f"{source.expected_available_chapter_count}"
-            )
+            raise
         if options.dry_run:
             return CaptureResult(
                 discovery=discovery,
@@ -540,6 +538,7 @@ async def _capture_remaining(
     _atomic_write_json(metadata_path, metadata)
 
     for position, chapter in enumerate(remaining):
+        _validate_chapter_boundary(source, chapter)
         chapter_url = str(chapter.chapter_url)
         try:
             if chapter.chapter_index == 1 and first_response is not None:
@@ -660,8 +659,7 @@ def _load_existing_capture(
     if stored_source != source:
         raise CaptureStopped("source record changed since capture began")
     discovery = WorkDiscovery.model_validate(state["discovery"])
-    if discovery.source_id != source.source_id:
-        raise CaptureStopped("discovery belongs to another source")
+    _validate_discovery_inventory(source, discovery)
     policy = PolicyDecision.model_validate(state["policy"])
     pages = [
         CapturedPage.model_validate(page)
@@ -1032,6 +1030,64 @@ def _validate_source_boundary(source: SourceRecord) -> None:
             "unsupported source URL; expected "
             "https://www.fanfiction.net[:443]/s/<numeric-id>/..."
         )
+
+
+def _validate_discovery_inventory(
+    source: SourceRecord, discovery: WorkDiscovery
+) -> None:
+    source_work_id = _source_work_id(source)
+    if (
+        discovery.source_id != source.source_id
+        or not discovery.work_id.isdigit()
+        or discovery.work_id != source_work_id
+    ):
+        raise CaptureStopped("discovery belongs to another source or work")
+    expected_indexes = list(
+        range(1, source.expected_available_chapter_count + 1)
+    )
+    indexes = [chapter.chapter_index for chapter in discovery.chapters]
+    if (
+        len(indexes) != len(expected_indexes)
+        or sorted(indexes) != expected_indexes
+    ):
+        raise CaptureStopped(
+            "discovery chapter inventory must have the expected count and "
+            "unique consecutive indexes"
+        )
+    for chapter in discovery.chapters:
+        _validate_chapter_boundary(source, chapter)
+
+
+def _validate_chapter_boundary(
+    source: SourceRecord, chapter: ChapterRef
+) -> None:
+    parsed = urlsplit(str(chapter.chapter_url))
+    try:
+        allowed_port = parsed.port in (None, 443)
+    except ValueError:
+        allowed_port = False
+    expected_path = re.compile(
+        rf"/s/{re.escape(_source_work_id(source))}/"
+        rf"{chapter.chapter_index}(?:/.*)?"
+    )
+    if (
+        parsed.scheme != "https"
+        or parsed.hostname != "www.fanfiction.net"
+        or not allowed_port
+        or parsed.username is not None
+        or parsed.password is not None
+        or expected_path.fullmatch(parsed.path) is None
+    ):
+        raise CaptureStopped(
+            f"discovery chapter {chapter.chapter_index} has an unsupported URL"
+        )
+
+
+def _source_work_id(source: SourceRecord) -> str:
+    match = re.match(r"^/s/(\d+)(?:/|$)", urlsplit(str(source.work_url)).path)
+    if match is None:
+        raise CaptureStopped("source URL has no numeric work ID")
+    return match.group(1)
 
 
 def _robots_url(source: SourceRecord) -> str:
