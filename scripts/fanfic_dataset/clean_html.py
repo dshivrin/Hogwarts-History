@@ -11,7 +11,17 @@ import re
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-from .fanfiction_net import ExtractionError, STORY_SELECTORS
+from .fanfiction_net import (
+    PROFILE_SELECTORS,
+    STORY_SELECTORS,
+    ExtractionError,
+    _author,
+    _first_match,
+    _label_value,
+    _language,
+    _summary,
+    _work_title,
+)
 from .models import CapturedPage
 
 
@@ -116,11 +126,12 @@ def _story_blocks(container: Tag) -> list[StoryBlock]:
         if text_parts:
             blocks.extend(_text_block("".join(text_parts)))
             text_parts.clear()
+        if _is_remote_image(child):
+            continue
         copied = deepcopy(child)
         _sanitize_story_node(copied)
         text = _normalized_visible_text(copied)
-        if text:
-            blocks.append(StoryBlock(_sha(text), text, str(copied)))
+        blocks.append(StoryBlock(_sha(text), text, str(copied)))
     if text_parts:
         blocks.extend(_text_block("".join(text_parts)))
     return blocks
@@ -130,19 +141,39 @@ def _text_block(raw_text: str) -> list[StoryBlock]:
     text = _normalized_visible_text(raw_text)
     if not text:
         return []
-    escaped = BeautifulSoup("", "html.parser").new_string(text)
-    return [StoryBlock(_sha(text), text, f"<p>{escaped}</p>")]
+    fragment = BeautifulSoup("", "html.parser")
+    paragraph = fragment.new_tag("p")
+    paragraph.append(fragment.new_string(raw_text))
+    return [StoryBlock(_sha(text), text, str(paragraph))]
 
 
 def _sanitize_story_node(node: Tag) -> None:
-    for descendant in list(node.find_all(True)):
-        if descendant.name in _DROP_TAGS or descendant.name == "img":
+    for descendant in reversed(node.find_all(True)):
+        if descendant.name in _DROP_TAGS or _is_remote_image(descendant):
             descendant.decompose()
-            continue
+    for descendant in [node, *node.find_all(True)]:
         allowed = {"href", "title"} if descendant.name == "a" else set()
+        if descendant.name == "img":
+            allowed = {"src", "alt", "title"}
         for attribute in list(descendant.attrs):
             if attribute not in allowed:
                 del descendant.attrs[attribute]
+
+
+def _is_remote_image(node: Tag) -> bool:
+    if node.name != "img":
+        return False
+    source_attributes = (
+        node.get("src", ""),
+        node.get("srcset", ""),
+        node.get("data-src", ""),
+        node.get("data-original", ""),
+        node.get("data-lazy-src", ""),
+    )
+    return any(
+        re.search(r"(?:https?:)?//", str(source), re.IGNORECASE)
+        for source in source_attributes
+    )
 
 
 def _normalized_visible_text(node: Tag | str) -> str:
@@ -223,28 +254,19 @@ def _append_text_tag(soup: BeautifulSoup, parent: Tag, name: str, value: str) ->
 
 
 def _profile_metadata(soup: BeautifulSoup) -> dict[str, str]:
-    profile = soup.select_one("#profile_top, div#profile_top")
+    profile = _first_match(soup, PROFILE_SELECTORS)
     if profile is None:
         return {key: "" for key in ("work_title", "author", "summary", "rating", "language", "published", "updated")}
-    title = profile.find(["h1", "h2"])
-    author = profile.find("a", href=re.compile(r"/u/"))
-    summary = profile.select_one("[data-role='summary']")
-    profile_text = _normalized_visible_text(profile)
+    profile_text = " ".join(profile.stripped_strings)
     return {
-        "work_title": _normalized_visible_text(title) if title else "",
-        "author": _normalized_visible_text(author) if author else "",
-        "summary": _normalized_visible_text(summary) if summary else "",
-        "rating": _label_value(profile_text, "Rated"),
-        "language": _label_value(profile_text, "Language"),
-        "published": _label_value(profile_text, "Published"),
-        "updated": _label_value(profile_text, "Updated"),
+        "work_title": _work_title(profile),
+        "author": _author(profile),
+        "summary": _summary(profile),
+        "rating": _label_value(profile_text, "Rated") or "",
+        "language": _language(profile_text) or "",
+        "published": _label_value(profile_text, "Published") or "",
+        "updated": _label_value(profile_text, "Updated") or "",
     }
-
-
-def _label_value(text: str, label: str) -> str:
-    labels = "Rated|Language|Chapters|Words|Published|Updated|id"
-    found = re.search(rf"\b{re.escape(label)}\s*:\s*(.*?)(?=\s*(?:·|\|)\s*(?:{labels})\s*:|$)", text, re.IGNORECASE)
-    return found.group(1).strip() if found else ""
 
 
 def _hash_list(record: dict[str, object], name: str) -> list[str]:

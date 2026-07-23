@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import pytest
+from bs4 import BeautifulSoup
 
 from scripts.fanfic_dataset.clean_html import (
     AnnotationError,
@@ -136,3 +137,161 @@ def test_markdown_normalizes_line_endings_nbsp_and_blank_runs() -> None:
     assert "One two" in text
     assert "\r" not in text
     assert "\n\n\n" not in text
+
+
+def test_clean_html_preserves_allowed_empty_and_image_blocks_and_original_text(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        (
+            "<div id='storytext'>"
+            "Alpha  &lt;literal&gt;"
+            "<hr data-tracking='discard'>"
+            "<div class='empty'></div>"
+            "<p id='also-empty'></p>"
+            "<figure style='discard'><img src='/images/invented.png' "
+            "alt='Invented diagram' onload='discard'></figure>"
+            "<img src='https://tracker.invalid/pixel.png'>"
+            "<img srcset='https://tracker.invalid/pixel-2x.png 2x'>"
+            "<script src='https://tracker.invalid/story.js'></script>"
+            "</div>"
+        ),
+        captured_page,
+    )
+
+    assert len(result.blocks) == 5
+    assert [block.text for block in result.blocks] == [
+        "Alpha <literal>",
+        "",
+        "",
+        "",
+        "",
+    ]
+    assert [block.sha256 for block in result.blocks[1:]] == [
+        hashlib.sha256(b"").hexdigest()
+    ] * 4
+    story = BeautifulSoup(result.html, "html.parser").select_one(
+        "main[data-role='story']"
+    )
+    assert story is not None
+    rendered = story.select(":scope > section")
+    assert rendered[0].decode_contents() == "<p>Alpha  &lt;literal&gt;</p>"
+    assert [section.find().name for section in rendered[1:]] == [
+        "hr",
+        "div",
+        "p",
+        "figure",
+    ]
+    assert rendered[4].img is not None
+    assert rendered[4].img["src"] == "/images/invented.png"
+    assert "tracker.invalid" not in result.html
+
+
+def test_clean_html_sanitizes_root_and_nested_subtrees_safely(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        """<div id="storytext"><p id="root-track" class="styled"
+        style="color:red" onclick="discard()">Before
+        <span data-track="discard" onmouseover="discard()">middle
+        <form><div><label>control<input value="secret"></label></div></form>
+        after <img src="https://tracker.invalid/pixel.png">
+        <img src="/images/kept.png" alt="Kept" onload="discard()"></span></p></div>""",
+        captured_page,
+    )
+
+    story_html = result.blocks[0].html
+    assert "Before" in story_html
+    assert "middle" in story_html
+    assert "after" in story_html
+    assert "control" not in story_html
+    assert "<form" not in story_html
+    assert "<input" not in story_html
+    assert "tracker.invalid" not in story_html
+    assert 'src="/images/kept.png"' in story_html
+    assert 'alt="Kept"' in story_html
+    for unsafe in ("root-track", "styled", "style=", "onclick=", "data-track", "onmouseover=", "onload="):
+        assert unsafe not in story_html
+
+
+def test_markdown_annotation_ranges_are_disjoint_and_keep_source_order(
+    captured_page: CapturedPage,
+) -> None:
+    raw = (
+        "<div id='storytext'><p>Chapter before.</p><p>Invented note.</p>"
+        "<p>Invented missing notice.</p><p>Chapter after.</p></div>"
+    )
+    captured_page.raw_html_path.write_text(raw, encoding="utf-8")
+    annotations = ChapterAnnotations(
+        author_note_block_sha256=[
+            hashlib.sha256(b"Invented note.").hexdigest()
+        ],
+        missing_chapter_notice_block_sha256=[
+            hashlib.sha256(b"Invented missing notice.").hexdigest()
+        ],
+    )
+
+    text = html_to_markdown(build_clean_html(captured_page, annotations))
+
+    assert text == """<!-- BEGIN CHAPTER TEXT -->
+
+Chapter before.
+
+<!-- END CHAPTER TEXT -->
+
+<!-- BEGIN AUTHOR NOTE -->
+
+Invented note.
+
+<!-- END AUTHOR NOTE -->
+
+<!-- BEGIN MISSING CHAPTER NOTICE -->
+
+Invented missing notice.
+
+<!-- END MISSING CHAPTER NOTICE -->
+
+<!-- BEGIN CHAPTER TEXT -->
+
+Chapter after.
+
+<!-- END CHAPTER TEXT -->
+"""
+
+
+def test_chapter_one_metadata_uses_visible_fanfiction_net_variants(
+    captured_page: CapturedPage,
+) -> None:
+    raw = """<div id="profile_top">
+    <b>Invented Fallback Work</b>
+    <a href="/u/7/synthetic-author">Synthetic Author</a>
+    <div class="xcontrast_txt">An invented fallback summary.</div>
+    <span>Rated: Fiction M - Spanish - Words: 1,234 -
+    Published: Apr 4, 2020 - Updated: May 5, 2020 - id: 1</span>
+    </div><div id="storytext"><p>Invented chapter.</p></div>"""
+
+    result = extract_chapter(raw, captured_page)
+
+    assert "Invented Fallback Work" in result.html
+    assert "Summary: An invented fallback summary." in result.html
+    assert "Rating: Fiction M" in result.html
+    assert "Language: Spanish" in result.html
+    assert "Published: Apr 4, 2020" in result.html
+    assert "Updated: May 5, 2020" in result.html
+    assert "Rating: Fiction M - Spanish" not in result.html
+
+    adjacent_metadata = """<div id="profile_top">
+    <h1>Invented Adjacent Metadata</h1>
+    <a href="/u/7/synthetic-author">Synthetic Author</a>
+    <p data-role="summary">Another invented summary.</p>
+    <span>Rated: Fiction K+</span><span>Language: French</span>
+    <span>Published: Jun 6, 2020</span><span>Updated: Jul 7, 2020</span>
+    </div><div id="storytext"><p>Invented chapter.</p></div>"""
+
+    adjacent_result = extract_chapter(adjacent_metadata, captured_page)
+
+    assert "Rating: Fiction K+" in adjacent_result.html
+    assert "Language: French" in adjacent_result.html
+    assert "Published: Jun 6, 2020" in adjacent_result.html
+    assert "Updated: Jul 7, 2020" in adjacent_result.html
+    assert "Rating: Fiction K+Language" not in adjacent_result.html

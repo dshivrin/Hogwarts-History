@@ -18,18 +18,46 @@ def html_to_markdown(clean_html: str) -> str:
     if story is None:
         raise ValueError("clean HTML has no semantic story section")
     chunks: list[str] = []
+    chapter_blocks: list[str] = []
+    chapter_block_seen = False
+
+    def close_chapter_text() -> None:
+        nonlocal chapter_block_seen
+        if not chapter_block_seen:
+            return
+        chunks.append(
+            "\n\n".join(
+                (
+                    "<!-- BEGIN CHAPTER TEXT -->",
+                    "\n\n".join(chapter_blocks),
+                    "<!-- END CHAPTER TEXT -->",
+                )
+            )
+        )
+        chapter_blocks.clear()
+        chapter_block_seen = False
+
     for block in story.select(":scope > section[data-block-kind]"):
         converted = _normalize(markdownify(block.decode_contents(), heading_style="ATX"))
-        if not converted:
-            continue
         kind = str(block.get("data-block-kind"))
+        if kind == "chapter-text":
+            chapter_block_seen = True
+            if converted:
+                chapter_blocks.append(converted)
+            continue
+        close_chapter_text()
         if kind == "author-note":
-            chunks.extend(("<!-- BEGIN AUTHOR NOTE -->", converted, "<!-- END AUTHOR NOTE -->"))
+            markers = ("<!-- BEGIN AUTHOR NOTE -->", "<!-- END AUTHOR NOTE -->")
         elif kind == "missing-chapter-notice":
-            chunks.extend(("<!-- BEGIN MISSING CHAPTER NOTICE -->", converted, "<!-- END MISSING CHAPTER NOTICE -->"))
+            markers = (
+                "<!-- BEGIN MISSING CHAPTER NOTICE -->",
+                "<!-- END MISSING CHAPTER NOTICE -->",
+            )
         else:
-            chunks.append(converted)
-    text = "\n\n".join(("<!-- BEGIN CHAPTER TEXT -->", "\n\n".join(chunks), "<!-- END CHAPTER TEXT -->"))
+            raise ValueError(f"unknown semantic story block kind: {kind}")
+        chunks.append("\n\n".join((markers[0], converted, markers[1])))
+    close_chapter_text()
+    text = "\n\n".join(chunks)
     return _normalize(text).rstrip("\n") + "\n"
 
 
