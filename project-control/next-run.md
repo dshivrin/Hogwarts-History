@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Thirteen - The Secret Riddle
-- Page range: 2631-2648
+- Chapter: Chapter Fourteen - Felix Felicis
+- Page range: 2649-2668
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-13-the-secret-riddle.yaml`
+- Output YAML: `sources/book-06/chapter-14-felix-felicis.yaml`
 
 ## Minimal Context
 

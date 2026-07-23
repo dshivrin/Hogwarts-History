@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-22'
+updated: '2026-07-23'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -14225,6 +14225,108 @@ by_entry:
     - wartime-security
     source_unit: hbp-ch12
     output_yaml: sources/book-06/chapter-12-silver-and-opals.yaml
+  hbp-ch13-001:
+    title: 'Dumbledore''s Private Instruction During the Second War: Pensieve lessons
+      in the headmaster''s office'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - dumbledore-office
+    - historical-instruction
+    - pensieve
+    - private-lessons
+    - voldemort-history
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch13-002:
+    title: 'Memory Evidence and Historical Reconstruction: Caractacus Burke''s locket
+      testimony'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - borgin-and-burkes
+    - caractacus-burke
+    - historical-method
+    - merope-gaunt
+    - pensieve-memory
+    - slytherin-locket
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch13-003:
+    title: 'Identifying Magical Children: Orphaned and Muggle-raised students'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - birth-registration
+    - dumbledore
+    - hogwarts-admissions
+    - muggle-guardians
+    - orphanage
+    - tom-riddle
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch13-004:
+    title: 'Explaining Hogwarts to New Students: First contact with Muggle-raised
+      children'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - first-contact
+    - hogwarts-orientation
+    - magical-demonstration
+    - muggle-raised-students
+    - statute-of-secrecy
+    - tom-riddle
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch13-005:
+    title: 'Student Conduct and External Law: Expulsion and Ministry consequences'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - magical-law
+    - ministry-punishment
+    - school-discipline
+    - self-control
+    - student-expulsion
+    - theft
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch13-006:
+    title: 'Material Support for New Students: Financial aid, supplies, and travel'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - diagon-alley
+    - financial-assistance
+    - hogwarts-fund
+    - leaky-cauldron
+    - school-supplies
+    - secondhand-books
+    - train-ticket
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  hbp-ch13-007:
+    title: 'Salazar Slytherin and His Legacy: Parseltongue before Hogwarts'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dark-arts
+    - early-magic
+    - magical-control
+    - parselmouth
+    - parseltongue
+    - tom-riddle
+    - voldemort-history
+    source_unit: hbp-ch13
+    output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -14631,6 +14733,8 @@ by_tag:
   - gof-ch34-004
   bewitched-sleep:
   - gof-ch27-001
+  birth-registration:
+  - hbp-ch13-003
   black-family:
   - hbp-ch03-004
   - hbp-ch04-005
@@ -14717,6 +14821,7 @@ by_tag:
   borgin-and-burkes:
   - hbp-ch06-007
   - hbp-ch12-006
+  - hbp-ch13-002
   boris-the-bewildered:
   - gof-ch23-007
   - gof-ch25-002
@@ -14795,6 +14900,8 @@ by_tag:
   - hbp-ch11-003
   captains:
   - poa-ch15-006
+  caractacus-burke:
+  - hbp-ch13-002
   care-of-magical-creatures:
   - cos-ch08-003
   - cos-ch14-002
@@ -15448,6 +15555,7 @@ by_tag:
   - gof-ch19-006
   - hbp-ch02-003
   - hbp-ch09-003
+  - hbp-ch13-007
   - ootp-ch36-002
   dark-creatures:
   - gof-ch14-001
@@ -15714,6 +15822,7 @@ by_tag:
   - cos-ch04-002
   - gof-ch05-006
   - hbp-ch06-002
+  - hbp-ch13-006
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
@@ -15939,6 +16048,7 @@ by_tag:
   - hbp-ch10-004
   - hbp-ch11-002
   - hbp-ch12-001
+  - hbp-ch13-003
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -16024,6 +16134,7 @@ by_tag:
   - hbp-ch09-004
   - hbp-ch10-002
   - hbp-ch10-003
+  - hbp-ch13-001
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
@@ -16078,6 +16189,8 @@ by_tag:
   - ps-ch02-002
   - ps-ch02-003
   - ps-ch03-002
+  early-magic:
+  - hbp-ch13-007
   easter-holidays:
   - ootp-ch29-001
   - poa-ch03-004
@@ -16386,6 +16499,8 @@ by_tag:
   - ps-ch14-007
   - ps-ch15-001
   - ps-ch15-004
+  financial-assistance:
+  - hbp-ch13-006
   financial-scandal:
   - gof-ch37-007
   fire-communication:
@@ -16413,6 +16528,8 @@ by_tag:
   - gof-ch19-007
   first-chamber-opening:
   - cos-ch17-003
+  first-contact:
+  - hbp-ch13-004
   first-floor-bathroom:
   - cos-ch08-005
   first-opening:
@@ -17394,6 +17511,10 @@ by_tag:
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch11-003
+  historical-instruction:
+  - hbp-ch13-001
+  historical-method:
+  - hbp-ch13-002
   history-of-magic:
   - cos-ch09-002
   - gof-ch15-002
@@ -17474,6 +17595,8 @@ by_tag:
   - ootp-ch17-002
   - ootp-ch23-001
   - poa-ch09-001
+  hogwarts-admissions:
+  - hbp-ch13-003
   hogwarts-alumni:
   - ootp-ch09-007
   - poa-ch10-006
@@ -17511,6 +17634,8 @@ by_tag:
   - ps-ch17-006
   hogwarts-four:
   - cos-ch17-006
+  hogwarts-fund:
+  - hbp-ch13-006
   hogwarts-gates:
   - ootp-ch24-002
   hogwarts-ghosts:
@@ -17569,6 +17694,8 @@ by_tag:
   - gof-ch02-004
   hogwarts-messages:
   - cos-ch01-003
+  hogwarts-orientation:
+  - hbp-ch13-004
   hogwarts-residents:
   - ootp-ch38-006
   hogwarts-return:
@@ -18135,6 +18262,7 @@ by_tag:
   - ootp-ch33-003
   leaky-cauldron:
   - hbp-ch06-003
+  - hbp-ch13-006
   - poa-ch03-003
   - poa-ch03-004
   - poa-ch04-001
@@ -18432,6 +18560,8 @@ by_tag:
   - gof-ch16-003
   - gof-ch17-003
   - gof-ch17-004
+  magical-control:
+  - hbp-ch13-007
   magical-creature-law:
   - poa-ch11-003
   magical-creatures:
@@ -18461,6 +18591,8 @@ by_tag:
   - gof-ch23-002
   magical-delivery:
   - ps-ch03-004
+  magical-demonstration:
+  - hbp-ch13-004
   magical-devices:
   - gof-ch08-004
   magical-education:
@@ -18488,6 +18620,7 @@ by_tag:
   magical-law:
   - gof-ch10-004
   - hbp-ch01-002
+  - hbp-ch13-005
   magical-law-enforcement:
   - gof-ch27-007
   - hbp-ch01-005
@@ -18756,6 +18889,7 @@ by_tag:
   - gof-ch26-007
   merope-gaunt:
   - hbp-ch10-007
+  - hbp-ch13-002
   merpeople:
   - gof-ch25-003
   - gof-ch26-007
@@ -18914,6 +19048,8 @@ by_tag:
   - hbp-ch04-002
   ministry-publicity:
   - hbp-ch07-003
+  ministry-punishment:
+  - hbp-ch13-005
   ministry-register:
   - poa-ch18-001
   ministry-response:
@@ -19032,6 +19168,8 @@ by_tag:
   muggle-government:
   - hbp-ch01-001
   - hbp-ch01-007
+  muggle-guardians:
+  - hbp-ch13-003
   muggle-harm:
   - hbp-ch10-005
   muggle-households:
@@ -19054,6 +19192,8 @@ by_tag:
   - gof-ch03-002
   muggle-protection:
   - ootp-ch07-006
+  muggle-raised-students:
+  - hbp-ch13-004
   muggle-records:
   - gof-ch01-001
   muggle-repelling:
@@ -19357,6 +19497,8 @@ by_tag:
   - ootp-ch32-001
   original-order-phoenix:
   - ootp-ch09-007
+  orphanage:
+  - hbp-ch13-003
   out-of-bounds:
   - poa-ch19-002
   - ps-ch15-001
@@ -19425,6 +19567,7 @@ by_tag:
   - poa-ch22-003
   parselmouth:
   - cos-ch11-004
+  - hbp-ch13-007
   parseltongue:
   - cos-ch11-004
   - cos-ch16-006
@@ -19433,6 +19576,7 @@ by_tag:
   - cos-ch18-004
   - gof-ch01-005
   - hbp-ch10-006
+  - hbp-ch13-007
   parseltongue-foreshadowing:
   - ps-ch02-004
   part-humans:
@@ -19517,10 +19661,13 @@ by_tag:
   pensieve:
   - gof-ch30-002
   - hbp-ch10-004
+  - hbp-ch13-001
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
   - ootp-ch37-006
+  pensieve-memory:
+  - hbp-ch13-002
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -19834,6 +19981,7 @@ by_tag:
   - hbp-ch10-003
   - hbp-ch10-004
   - hbp-ch12-001
+  - hbp-ch13-001
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
@@ -20385,6 +20533,7 @@ by_tag:
   school-discipline:
   - gof-ch05-004
   - gof-ch13-006
+  - hbp-ch13-005
   - ootp-ch13-006
   - ootp-ch28-003
   - ootp-ch29-007
@@ -20555,6 +20704,7 @@ by_tag:
   - cos-ch04-002
   - gof-ch10-006
   - hbp-ch06-002
+  - hbp-ch13-006
   - poa-ch04-003
   - ps-ch04-003
   school-surveillance:
@@ -20638,6 +20788,8 @@ by_tag:
   - cos-ch04-006
   - cos-ch06-004
   - cos-ch06-006
+  secondhand-books:
+  - hbp-ch13-006
   secrecy:
   - gof-ch19-004
   - gof-ch21-007
@@ -20714,6 +20866,8 @@ by_tag:
   - poa-ch13-003
   seers:
   - ootp-ch35-002
+  self-control:
+  - hbp-ch13-005
   senior-students:
   - poa-ch01-004
   serious-bites:
@@ -20896,6 +21050,7 @@ by_tag:
   - cos-ch11-004
   slytherin-locket:
   - hbp-ch10-006
+  - hbp-ch13-002
   slytherin-statue:
   - cos-ch17-001
   snake-communication:
@@ -21182,6 +21337,7 @@ by_tag:
   - gof-ch04-004
   - hbp-ch01-001
   - hbp-ch01-002
+  - hbp-ch13-004
   - ootp-ch02-002
   - ootp-ch02-004
   - ootp-ch08-002
@@ -21263,6 +21419,8 @@ by_tag:
   - gof-ch05-002
   student-equipment:
   - poa-ch01-007
+  student-expulsion:
+  - hbp-ch13-005
   student-family-contact:
   - cos-ch06-005
   student-governance:
@@ -21647,6 +21805,8 @@ by_tag:
   - gof-ch36-004
   textbooks:
   - ootp-ch09-004
+  theft:
+  - hbp-ch13-005
   theory-centered:
   - ootp-ch12-006
   theory-exams:
@@ -21728,6 +21888,9 @@ by_tag:
   - cos-ch13-005
   - cos-ch18-001
   - gof-ch01-001
+  - hbp-ch13-003
+  - hbp-ch13-004
+  - hbp-ch13-007
   tom-riddle-diary:
   - cos-ch13-004
   tom-riddle-senior:
@@ -21771,6 +21934,8 @@ by_tag:
   - gof-ch20-005
   tower-dormitory:
   - cos-ch01-001
+  train-ticket:
+  - hbp-ch13-006
   transfiguration:
   - cos-ch06-004
   - gof-ch15-002
@@ -22096,6 +22261,9 @@ by_tag:
   - ps-ch02-005
   voldemort-family-history:
   - hbp-ch10-007
+  voldemort-history:
+  - hbp-ch13-001
+  - hbp-ch13-007
   voldemort-return:
   - hbp-ch08-006
   - ootp-ch01-001

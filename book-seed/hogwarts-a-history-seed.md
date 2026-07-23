@@ -921,6 +921,18 @@ Summary: The available evidence includes 1 source item, led by: The Gaunts claim
   - Corroborates: `cos-ch11-004`, `cos-ch17-004`. cos-ch11-004 links Parseltongue with Slytherin lore, and cos-ch17-004 records Riddle's Slytherin descent claim; this entry adds the Gaunt family source, heirlooms, and last-descendant assertion.
   - Notes: Marvolo is hostile and prideful, so the descent and heirloom claims should be corroborated by later evidence before being treated as neutral history.
 
+#### Section: Parseltongue before Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Riddle already speaks to snakes and uses unusually controlled childhood magic to frighten, punish, and control others before entering Hogwarts.
+
+- **Corroboration:** Riddle already speaks to snakes and uses unusually controlled childhood magic to frighten, punish, and control others before entering Hogwarts.
+  - Quote: "It is unusual"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2645, `hbp-ch13-007`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch11-004`, `cos-ch17-004`, `hbp-ch10-006`. cos-ch11-004 links Parseltongue to Slytherin lore, cos-ch17-004 links Riddle to Slytherin-heir claims, and hbp-ch10-006 records the Gaunts' Parseltongue family line; this entry adds Riddle's pre-Hogwarts use and Dumbledore's caution that the ability alone was not his chief concern.
+  - Notes: Dumbledore's later interpretation is retrospective and should be separated from the direct memory evidence.
+
 ### Chapter: Slytherin House
 
 #### Section: Serpent Symbolism and Parseltongue Lore
@@ -4183,6 +4195,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: school_rule_or_policy
   - Corroborates: `cos-ch02-005`, `poa-ch02-003`. cos-ch02-005 records the official Ministry warning and poa-ch02-003 records Harry's earlier application of the rule; this entry adds Dudley's lay understanding of the same expulsion threat before an emergency.
   - Notes: Dudley's statement is not an official source and may simplify the relationship between Ministry law and Hogwarts discipline.
+
+### Chapter: Student Conduct and External Law
+
+#### Section: Expulsion and Ministry consequences
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts expectations include returning stolen property, controlling magic, and accepting that serious lawbreaking may move beyond school discipline to Ministry punishment.
+
+- **Supporting evidence:** Hogwarts expectations include returning stolen property, controlling magic, and accepting that serious lawbreaking may move beyond school discipline to Ministry punishment.
+  - Quote: "Hogwarts can expel students"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2644, `hbp-ch13-005`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The policy is delivered by Dumbledore during an exceptional admissions interview and does not list formal disciplinary procedures.
 
 ### Chapter: Student Health and the Hospital Wing
 
@@ -7608,6 +7633,20 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore heard
   - Corroborates: `poa-ch16-005`, `gof-ch10-005`, `ootp-ch16-002`. poa-ch16-005 and gof-ch10-005 establish Trelawney's rare true-prophecy pattern, while ootp-ch16-002 describes the Hog's Head; this entry adds the original Divination interview, first prophecy setting, and Pensieve replay.
   - Notes: The chapter gives Dumbledore's memory of the interview rather than an independent Ministry record of the hiring decision.
 
+### Chapter: Dumbledore's Private Instruction During the Second War
+
+#### Section: Pensieve lessons in the headmaster's office
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's office functions as the setting for recurring private historical instruction, with the Pensieve and bottled memories used as the lesson medium.
+
+- **Corroboration:** Dumbledore's office functions as the setting for recurring private historical instruction, with the Pensieve and bottled memories used as the lesson medium.
+  - Quote: "The Pensieve was sitting on the desk again"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2631, `hbp-ch13-001`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch10-004`. hbp-ch10-004 already records supervised Pensieve instruction in Dumbledore's office; this entry confirms the recurring lesson structure and the next use of fresh bottled memories.
+  - Notes: The private lesson is exceptional and should not be generalized into ordinary curriculum practice.
+
 ### Chapter: Examinations and Academic Progression
 
 #### Section: O.W.L. crisis response and staff injury aftermath
@@ -9591,6 +9630,48 @@ Summary: The available evidence includes 1 source item, led by: Hermione identif
   - Reference type: explicit_hogwarts_a_history
   - Notes: Hermione does not quote the book's Chamber material here; the entry supports expected coverage rather than exact wording.
 
+## Part: Admissions and First-Year Preparation
+
+### Chapter: Explaining Hogwarts to New Students
+
+#### Section: First contact with Muggle-raised children
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore frames Hogwarts to a Muggle-raised child as a school for magical ability and gives a controlled demonstration despite the Muggle setting.
+
+- **Supporting evidence:** Dumbledore frames Hogwarts to a Muggle-raised child as a school for magical ability and gives a controlled demonstration despite the Muggle setting.
+  - Quote: "It is a school of magic"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2641, `hbp-ch13-004`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Riddle is not identified as Muggle-born, and Dumbledore's approach may reflect his judgment rather than a universal admissions protocol.
+
+### Chapter: Identifying Magical Children
+
+#### Section: Orphaned and Muggle-raised students
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts admissions infrastructure identifies Tom Riddle for entry from birth despite his Muggle orphanage upbringing, and Dumbledore handles the guardian-facing arrangements personally.
+
+- **Supporting evidence:** Hogwarts admissions infrastructure identifies Tom Riddle for entry from birth despite his Muggle orphanage upbringing, and Dumbledore handles the guardian-facing arrangements personally.
+  - Quote: "his name has been down for our school since birth"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2636, `hbp-ch13-003`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The passage does not explain the magical mechanism by which names are recorded for Hogwarts.
+
+### Chapter: Material Support for New Students
+
+#### Section: Financial aid, supplies, and travel
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts maintains a fund for students needing books and robes, and Dumbledore provides school-supply, Diagon Alley, and King's Cross travel instructions to an unsupported entrant.
+
+- **Corroboration:** Hogwarts maintains a fund for students needing books and robes, and Dumbledore provides school-supply, Diagon Alley, and King's Cross travel instructions to an unsupported entrant.
+  - Quote: "There is a fund at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2644, `hbp-ch13-006`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ps-ch05-003`, `hbp-ch06-002`. ps-ch05-003 establishes Diagon Alley as the ordinary Hogwarts supply district, and hbp-ch06-002 covers wartime supply-route disruption; this entry adds the Hogwarts financial-assistance fund and unsupervised route instructions for an orphaned student.
+  - Notes: The passage does not say how the fund is administered, how common support is, or whether it is need-tested.
+
 ## Part: Castle Architecture and Daily Operations
 
 ### Chapter: Bathrooms, Prefect Privileges, and Protected Facilities
@@ -11051,6 +11132,21 @@ Summary: The available evidence includes 1 source item, led by: Continuing Care 
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The chapter does not list the formal N.E.W.T. entry requirements for Care of Magical Creatures.
+
+## Part: Sources and Methods
+
+### Chapter: Memory Evidence and Historical Reconstruction
+
+#### Section: Caractacus Burke's locket testimony
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore treats a shopkeeper's memory as historical evidence for Merope's poverty and sale of Slytherin's locket, while explicitly flagging later interpretation as a guess.
+
+- **Supporting evidence:** Dumbledore treats a shopkeeper's memory as historical evidence for Merope's poverty and sale of Slytherin's locket, while explicitly flagging later interpretation as a guess.
+  - Quote: "Because of the evidence of one Caractacus Burke"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, PDF p. 2633, `hbp-ch13-002`, `sources/book-06/chapter-13-the-secret-riddle.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Burke is an exploitative shopkeeper and the memory captures his account, not neutral documentary proof of every claim.
 
 ## Part: Staff, Founders, and Notable Residents
 

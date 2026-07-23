@@ -150,3 +150,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch10`: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, pages 2578-2596, 7 entries, 0 explicit references.
 - `hbp-ch11`: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, pages 2597-2612, 7 entries, 0 explicit references.
 - `hbp-ch12`: Harry Potter and the Half-Blood Prince, Chapter Twelve - Silver and Opals, pages 2613-2630, 7 entries, 0 explicit references.
+- `hbp-ch13`: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, pages 2631-2648, 7 entries, 0 explicit references.

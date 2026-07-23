@@ -167,6 +167,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wands, Equipment, and Magical Materials
   - Champion wand materials and condition tests
 
+## Admissions and First-Year Preparation
+
+- Explaining Hogwarts to New Students
+  - First contact with Muggle-raised children
+- Identifying Magical Children
+  - Orphaned and Muggle-raised students
+- Material Support for New Students
+  - Financial aid, supplies, and travel
+
 ## Appendix: Explicit References to Hogwarts: A History
 
 - Chamber of Secrets References
@@ -474,6 +483,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Prophecy interpretation, relabeling, and Harry's marked status
   - Trelawney's True Prophecy and Later Corroboration
   - Trelawney's appointment interview and the first prophecy
+- Dumbledore's Private Instruction During the Second War
+  - Pensieve lessons in the headmaster's office
 - Examinations and Academic Progression
   - O.W.L. crisis response and staff injury aftermath
 - Exceptional Instruction During the Second War
@@ -1171,6 +1182,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Underage Magic Hearings and Ministry Procedure
   - Underage Magic and Hogwarts Expulsion Risk
   - Underage Magic and Muggle Household Leverage
+- Student Conduct and External Law
+  - Expulsion and Ministry consequences
 - Student Discipline and Expulsion
   - Expulsion, Wand Sanctions, and Staff Retention
   - Family Notification and Escalation
@@ -1222,6 +1235,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced N.E.W.T. Study
 - Elective Subjects and Staff
   - Care of Magical Creatures After O.W.L.s
+
+## Sources and Methods
+
+- Memory Evidence and Historical Reconstruction
+  - Caractacus Burke's locket testimony
 
 ## Staff, Founders, and Notable Residents
 
@@ -1345,6 +1363,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Point Records and Major Deductions
 - Salazar Slytherin and His Legacy
   - Gaunt family descent and heirlooms
+  - Parseltongue before Hogwarts
 - Slytherin House
   - Serpent Symbolism and Parseltongue Lore
 - Sorting, Families, and Exceptions

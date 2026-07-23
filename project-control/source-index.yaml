@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-22'
+updated: '2026-07-23'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1730,3 +1730,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2613-2630.
+- source_unit_id: hbp-ch13
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 13
+  chapter_title: Chapter Thirteen - The Secret Riddle
+  page_start: 2631
+  page_end: 2648
+  output_yaml: sources/book-06/chapter-13-the-secret-riddle.yaml
+  processed_at: '2026-07-23'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2631-2648.
