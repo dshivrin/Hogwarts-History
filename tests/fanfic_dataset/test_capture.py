@@ -265,6 +265,119 @@ def test_robots_disallowance_blocks_story_navigation(
     assert json.loads(
         (policy_root / "policy-decision.json").read_text("utf-8")
     )["allowed"] is False
+    diagnostic = json.loads(
+        (
+            capture_paths(
+                options.output_root, source.source_id, options.capture_id
+            ).root
+            / "diagnostics"
+            / "chapter-001.json"
+        ).read_text("utf-8")
+    )
+    assert diagnostic["status"] == 200
+    assert diagnostic["failure_signature"] == "robots-disallowed"
+
+
+@pytest.mark.parametrize(
+    ("robots_body", "visible_text", "signature"),
+    [
+        (
+            b"<html><title>CAPTCHA</title></html>",
+            "User-agent: *\nAllow: /",
+            "captcha",
+        ),
+        (
+            ROBOTS,
+            "Checking your browser before accessing Cloudflare",
+            "cloudflare",
+        ),
+        (
+            b"<html><h1>Access denied</h1></html>",
+            "User-agent: *\nAllow: /",
+            "access-denied",
+        ),
+    ],
+)
+def test_robots_200_safeguard_pages_stop_before_story_navigation(
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    robots_body,
+    visible_text,
+    signature,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html, robots=robots_body)
+    fake.responses["https://www.fanfiction.net/robots.txt"].visible_text = (
+        visible_text
+    )
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+
+    with pytest.raises(CaptureStopped, match=signature):
+        _run(source, options, fake)
+
+    assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
+    diagnostic = json.loads(
+        (paths.root / "diagnostics" / "chapter-001.json").read_text("utf-8")
+    )
+    assert diagnostic["status"] == 200
+    assert diagnostic["failure_signature"] == signature
+
+
+@pytest.mark.parametrize(
+    ("robots_response", "signature"),
+    [
+        (FakeResponse(503, b"synthetic unavailable"), "robots-http-503"),
+        (
+            FakeResponse(
+                200,
+                ROBOTS,
+                final_url="https://www.fanfiction.net/challenge",
+            ),
+            "robots-unexpected-final-url",
+        ),
+    ],
+)
+def test_robots_transport_stops_write_chapter_one_diagnostic(
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    robots_response,
+    signature,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses["https://www.fanfiction.net/robots.txt"] = robots_response
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+
+    with pytest.raises(CaptureStopped):
+        _run(source, options, fake)
+
+    diagnostic = json.loads(
+        (paths.root / "diagnostics" / "chapter-001.json").read_text("utf-8")
+    )
+    assert diagnostic["url"] == "https://www.fanfiction.net/robots.txt"
+    assert diagnostic["status"] == robots_response.status
+    assert diagnostic["failure_signature"] == signature
+    assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
+
+
+def test_dry_run_robots_failure_preserves_no_write_contract(
+    source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses["https://www.fanfiction.net/robots.txt"] = FakeResponse(
+        503, b"synthetic unavailable"
+    )
+
+    with pytest.raises(CaptureStopped):
+        _run(source, options.model_copy(update={"dry_run": True}), fake)
+
+    assert not options.output_root.exists()
 
 
 def test_dry_run_does_not_create_capture_directory(
@@ -496,6 +609,83 @@ def test_authoritative_state_is_initialized_before_derived_metadata(
     assert writes[:2] == ["run-state.json", "metadata.json"]
 
 
+def test_resume_refuses_raw_artifact_not_recorded_in_authoritative_state(
+    monkeypatch, source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    original = browser_module._atomic_write_json
+
+    def crash_before_first_completion(path, value):
+        if (
+            path == paths.root / "run-state.json"
+            and value.get("completed_chapters") == [1]
+        ):
+            raise RuntimeError("synthetic crash before state completion")
+        original(path, value)
+
+    monkeypatch.setattr(
+        browser_module, "_atomic_write_json", crash_before_first_completion
+    )
+    with pytest.raises(RuntimeError, match="synthetic crash"):
+        _run(source, options, fake, FakeSleep())
+    monkeypatch.setattr(browser_module, "_atomic_write_json", original)
+    assert paths.chapter("raw", 1, ".html").exists()
+    fake.calls.clear()
+
+    with pytest.raises(CaptureStopped, match="unrecorded raw artifact"):
+        _run(
+            source,
+            options.model_copy(update={"resume": True}),
+            fake,
+            FakeSleep(),
+        )
+
+    assert fake.calls == []
+
+
+def test_dry_run_resume_never_repairs_or_captures_existing_state(
+    source, options, chapter_urls, multi_html, access_denied_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    fake.responses[chapter_urls[1]] = FakeResponse(403, access_denied_html)
+    with pytest.raises(CaptureStopped, match="chapter 2"):
+        _run(source, options, fake, FakeSleep())
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    metadata_path = paths.root / "metadata.json"
+    metadata_path.write_bytes(b'{"synthetic": "do not repair"}\n')
+    before = {
+        path.relative_to(options.output_root): path.read_bytes()
+        for path in options.output_root.rglob("*")
+        if path.is_file()
+    }
+    fake.responses[chapter_urls[1]] = FakeResponse(200, multi_html)
+    fake.calls.clear()
+
+    result = _run(
+        source,
+        options.model_copy(update={"resume": True, "dry_run": True}),
+        fake,
+        FakeSleep(),
+    )
+
+    after = {
+        path.relative_to(options.output_root): path.read_bytes()
+        for path in options.output_root.rglob("*")
+        if path.is_file()
+    }
+    assert result.discovery.chapters
+    assert result.pages == []
+    assert result.paths is None
+    assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
+    assert after == before
+    assert not paths.chapter("raw", 2, ".html").exists()
+
+
 def test_resume_never_refetches_completed_chapter(
     source, options, chapter_urls, multi_html
 ) -> None:
@@ -597,6 +787,14 @@ def test_partial_resume_refuses_changed_robots_without_overwriting_snapshot(
     assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
     assert (policy_root / "robots.txt").read_bytes() == ROBOTS
     assert (policy_root / "policy-decision.json").read_bytes() == original_decision
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    diagnostic = json.loads(
+        (paths.root / "diagnostics" / "chapter-001.json").read_text("utf-8")
+    )
+    assert diagnostic["status"] == 200
+    assert diagnostic["failure_signature"] == "policy-changed"
 
 
 def test_resume_compares_policy_to_state_when_snapshots_are_missing(
@@ -663,6 +861,64 @@ def test_existing_capture_requires_explicit_resume(
         _run(source, options, fake)
 
     assert fake.calls == []
+
+
+@pytest.mark.parametrize(
+    "work_url",
+    [
+        "https://fanfiction.net/s/1/1/invented-work",
+        "https://www.fanfiction.net.evil.example/s/1/1/invented-work",
+        "https://www.fanfiction.net:444/s/1/1/invented-work",
+        "https://www.fanfiction.net/u/1/synthetic-author",
+        "https://www.fanfiction.net/s/not-numeric/1/invented-work",
+    ],
+)
+def test_unsupported_source_boundary_is_rejected_before_gateway_call(
+    source, options, chapter_urls, multi_html, work_url
+) -> None:
+    invalid_source = SourceRecord.model_validate(
+        {**source.model_dump(mode="json"), "work_url": work_url}
+    )
+    fake = _gateway(source, chapter_urls, multi_html)
+
+    with pytest.raises(CaptureStopped, match="unsupported source URL"):
+        _run(invalid_source, options, fake)
+
+    assert fake.calls == []
+    assert not options.output_root.exists()
+
+
+def test_non_resume_policy_snapshot_collision_is_immutable(
+    source, options, chapter_urls, multi_html
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    policy_root = (
+        options.output_root
+        / "reports"
+        / "policy-snapshots"
+        / options.capture_id
+    )
+    policy_root.mkdir(parents=True)
+    robots_path = policy_root / "robots.txt"
+    decision_path = policy_root / "policy-decision.json"
+    robots_path.write_bytes(b"preexisting synthetic evidence")
+    decision_path.write_bytes(b'{"preexisting": true}\n')
+
+    with pytest.raises(CaptureStopped, match="snapshot collision"):
+        _run(source, options, fake, FakeSleep())
+
+    assert fake.calls == ["https://www.fanfiction.net/robots.txt"]
+    assert robots_path.read_bytes() == b"preexisting synthetic evidence"
+    assert decision_path.read_bytes() == b'{"preexisting": true}\n'
+    assert not any(call in chapter_urls for call in fake.calls)
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    diagnostic = json.loads(
+        (paths.root / "diagnostics" / "chapter-001.json").read_text("utf-8")
+    )
+    assert diagnostic["status"] == 200
+    assert diagnostic["failure_signature"] == "policy-snapshot-collision"
 
 
 def test_playwright_close_attempts_every_owned_layer_after_failure() -> None:

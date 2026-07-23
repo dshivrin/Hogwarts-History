@@ -215,12 +215,17 @@ async def capture_work(
     gateway: BrowserGateway | None = None,
     sleep: Sleep = asyncio.sleep,
 ) -> CaptureResult:
+    _validate_source_boundary(source)
     paths = capture_paths(
         options.output_root, source.source_id, options.capture_id
     )
     preexisting_root = paths.root.exists()
     resumed = _load_existing_capture(source, options, paths)
-    if resumed is not None and resumed[2] == "complete":
+    if (
+        resumed is not None
+        and resumed[2] == "complete"
+        and not options.dry_run
+    ):
         discovery, pages, _ = resumed
         metadata = _read_json(paths.root / "metadata.json")
         return CaptureResult(
@@ -236,10 +241,51 @@ async def capture_work(
     )
     primary_error: BaseException | None = None
     try:
-        robots_response = await _fetch_robots(active_gateway, source)
+        robots_url = _robots_url(source)
+        try:
+            robots_response = await _fetch_robots(active_gateway, robots_url)
+        except _RetryExhausted as error:
+            if not options.dry_run:
+                await _write_diagnostic(
+                    gateway=active_gateway,
+                    paths=paths,
+                    chapter_index=1,
+                    url=robots_url,
+                    status=None,
+                    selector_results={},
+                    failure_signature=error.signature,
+                    detail=error.detail,
+                )
+            raise CaptureStopped(
+                f"robots fetch failed: {error.detail}"
+            ) from error
         robots_text, _ = _decode_response(
             robots_response.body, robots_response.charset
         )
+        robots_failure = _robots_failure(
+            robots_response,
+            expected_url=robots_url,
+            decoded_body=robots_text,
+        )
+        if robots_failure is not None:
+            if not options.dry_run:
+                await _write_diagnostic(
+                    gateway=active_gateway,
+                    paths=paths,
+                    chapter_index=1,
+                    url=robots_url,
+                    status=robots_response.status,
+                    selector_results=robots_response.selector_results,
+                    failure_signature=robots_failure,
+                    detail=(
+                        f"final URL: {robots_response.final_url}"
+                        if robots_failure == "robots-unexpected-final-url"
+                        else None
+                    ),
+                )
+            raise CaptureStopped(
+                f"robots access check failed: {robots_failure}"
+            )
         policy = evaluate_policy(
             str(source.work_url),
             robots_text,
@@ -256,19 +302,68 @@ async def capture_work(
                 _read_json(paths.root / "run-state.json")["policy"]
             )
             if policy != stored_policy:
+                if not options.dry_run:
+                    await _write_diagnostic(
+                        gateway=active_gateway,
+                        paths=paths,
+                        chapter_index=1,
+                        url=robots_url,
+                        status=robots_response.status,
+                        selector_results=robots_response.selector_results,
+                        failure_signature="policy-changed",
+                        detail=(
+                            "current robots response and decision do not "
+                            "match authoritative capture state"
+                        ),
+                    )
                 raise CaptureStopped(
                     "capture policy changed during resume; "
                     "use a new capture_id"
                 )
         if not options.dry_run:
-            _persist_or_validate_policy_snapshot(
-                options, robots_response.body, policy
-            )
+            try:
+                _persist_or_validate_policy_snapshot(
+                    options, robots_response.body, policy
+                )
+            except CaptureStopped as error:
+                await _write_diagnostic(
+                    gateway=active_gateway,
+                    paths=paths,
+                    chapter_index=1,
+                    url=robots_url,
+                    status=robots_response.status,
+                    selector_results=robots_response.selector_results,
+                    failure_signature=(
+                        "policy-changed"
+                        if options.resume
+                        else "policy-snapshot-collision"
+                    ),
+                    detail=str(error),
+                )
+                raise
         if not policy.allowed:
+            if not options.dry_run:
+                await _write_diagnostic(
+                    gateway=active_gateway,
+                    paths=paths,
+                    chapter_index=1,
+                    url=robots_url,
+                    status=robots_response.status,
+                    selector_results=robots_response.selector_results,
+                    failure_signature="robots-disallowed",
+                    detail=policy.reason,
+                )
             raise CaptureStopped(f"robots policy blocked capture: {policy.reason}")
 
         if resumed is not None:
             discovery, pages, _ = resumed
+            if options.dry_run:
+                return CaptureResult(
+                    discovery=discovery,
+                    policy=policy,
+                    pages=[],
+                    paths=None,
+                )
             return await _capture_remaining(
                 source=source,
                 options=options,
@@ -490,7 +585,7 @@ async def _capture_remaining(
         raw_path = paths.chapter(
             "raw", chapter.chapter_index, ".html"
         )
-        _atomic_write_bytes(raw_path, response.body)
+        _atomic_create_bytes(raw_path, response.body)
         captured = CapturedPage(
             source_id=source.source_id,
             chapter=chapter,
@@ -596,6 +691,15 @@ def _load_existing_capture(
             raise CaptureStopped(
                 f"completed chapter {page.chapter.chapter_index} is missing"
             )
+    recorded_raw_paths = {page.raw_html_path for page in pages}
+    existing_raw_paths = set((paths.root / "raw").glob("chapter-*.html"))
+    unrecorded_raw_paths = existing_raw_paths - recorded_raw_paths
+    if unrecorded_raw_paths:
+        names = ", ".join(sorted(path.name for path in unrecorded_raw_paths))
+        raise CaptureStopped(
+            f"capture has unrecorded raw artifact(s): {names}; "
+            "use a new capture_id"
+        )
     status = str(state["status"])
     if status not in {"running", "stopped", "complete"}:
         raise CaptureStopped(f"invalid capture status: {status}")
@@ -616,31 +720,31 @@ def _load_existing_capture(
         metadata = _read_json(metadata_path)
     except (FileNotFoundError, json.JSONDecodeError):
         metadata = None
-    if metadata != repaired_metadata:
+    if metadata != repaired_metadata and not options.dry_run:
         _atomic_write_json(metadata_path, repaired_metadata)
     return discovery, pages, status
 
 
 async def _fetch_robots(
-    gateway: BrowserGateway, source: SourceRecord
+    gateway: BrowserGateway, robots_url: str
 ) -> BrowserResponse:
-    parsed = urlsplit(str(source.work_url))
-    robots_url = urlunsplit(
-        (parsed.scheme, parsed.netloc, "/robots.txt", "", "")
-    )
     try:
-        response = await gateway.fetch(robots_url)
+        return await gateway.fetch(robots_url)
     except (TimeoutError, ConnectionResetError, PlaywrightError) as error:
-        raise CaptureStopped(f"robots fetch failed: {error}") from error
+        raise _RetryExhausted("robots-fetch-failed", str(error)) from error
+
+
+def _robots_failure(
+    response: BrowserResponse,
+    *,
+    expected_url: str,
+    decoded_body: str,
+) -> str | None:
     if response.status != 200:
-        raise CaptureStopped(
-            f"robots fetch failed with HTTP {response.status}"
-        )
-    if _normalized_url(response.final_url) != _normalized_url(robots_url):
-        raise CaptureStopped(
-            f"robots fetch redirected unexpectedly to {response.final_url}"
-        )
-    return response
+        return f"robots-http-{response.status}"
+    if _normalized_url(response.final_url) != _normalized_url(expected_url):
+        return "robots-unexpected-final-url"
+    return _safeguard_failure(decoded_body, response.visible_text)
 
 
 async def _fetch_with_retries(
@@ -688,7 +792,20 @@ def _chapter_failure(
     if _normalized_url(response.final_url) != _normalized_url(expected_url):
         return "unexpected-final-url"
 
-    inspected_text = f"{decoded_body}\n{response.visible_text}".casefold()
+    safeguard_failure = _safeguard_failure(
+        decoded_body, response.visible_text
+    )
+    if safeguard_failure is not None:
+        return safeguard_failure
+    if not any(response.selector_results.values()):
+        return "missing-story-content"
+    return None
+
+
+def _safeguard_failure(
+    decoded_body: str, visible_text: str
+) -> str | None:
+    inspected_text = f"{decoded_body}\n{visible_text}".casefold()
     if "captcha" in inspected_text:
         return "captcha"
     if "cloudflare" in inspected_text:
@@ -711,8 +828,6 @@ def _chapter_failure(
         )
     ):
         return "access-denied"
-    if not any(response.selector_results.values()):
-        return "missing-story-content"
     return None
 
 
@@ -836,13 +951,19 @@ def _persist_or_validate_policy_snapshot(
     )
     robots_path = policy_root / "robots.txt"
     decision_path = policy_root / "policy-decision.json"
-    if options.resume and (robots_path.exists() or decision_path.exists()):
+    if robots_path.exists() or decision_path.exists():
         if (
             not robots_path.exists()
             or not decision_path.exists()
             or robots_path.read_bytes() != robots_body
-            or _read_json(decision_path) != policy.model_dump(mode="json")
+            or decision_path.read_bytes()
+            != _json_bytes(policy.model_dump(mode="json"))
         ):
+            if not options.resume:
+                raise CaptureStopped(
+                    "policy snapshot collision for capture_id; "
+                    "use a new capture_id"
+                )
             raise CaptureStopped(
                 "capture policy changed during resume; use a new capture_id"
             )
@@ -896,16 +1017,43 @@ def _normalized_url(url: str) -> str:
     )
 
 
+def _validate_source_boundary(source: SourceRecord) -> None:
+    parsed = urlsplit(str(source.work_url))
+    if (
+        source.platform != "fanfiction.net"
+        or parsed.scheme != "https"
+        or parsed.hostname != "www.fanfiction.net"
+        or parsed.port not in (None, 443)
+        or parsed.username is not None
+        or parsed.password is not None
+        or re.fullmatch(r"/s/\d+(?:/.*)?", parsed.path) is None
+    ):
+        raise CaptureStopped(
+            "unsupported source URL; expected "
+            "https://www.fanfiction.net[:443]/s/<numeric-id>/..."
+        )
+
+
+def _robots_url(source: SourceRecord) -> str:
+    parsed = urlsplit(str(source.work_url))
+    return urlunsplit(
+        (parsed.scheme, parsed.netloc, "/robots.txt", "", "")
+    )
+
+
 def _read_json(path: Path) -> dict:
     return json.loads(path.read_text("utf-8"))
 
 
-def _atomic_write_json(path: Path, value: object) -> None:
-    payload = (
+def _json_bytes(value: object) -> bytes:
+    return (
         json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False)
         + "\n"
     ).encode("utf-8")
-    _atomic_write_bytes(path, payload)
+
+
+def _atomic_write_json(path: Path, value: object) -> None:
+    _atomic_write_bytes(path, _json_bytes(value))
 
 
 def _atomic_write_bytes(path: Path, payload: bytes) -> None:
@@ -913,6 +1061,25 @@ def _atomic_write_bytes(path: Path, payload: bytes) -> None:
     temporary = path.with_suffix(path.suffix + ".tmp")
     try:
         temporary.write_bytes(payload)
+        temporary.replace(path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
+
+
+def _atomic_create_bytes(path: Path, payload: bytes) -> None:
+    if path.exists():
+        raise CaptureStopped(
+            f"refusing to overwrite existing raw artifact: {path}"
+        )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    try:
+        temporary.write_bytes(payload)
+        if path.exists():
+            raise CaptureStopped(
+                f"refusing to overwrite existing raw artifact: {path}"
+            )
         temporary.replace(path)
     finally:
         if temporary.exists():
