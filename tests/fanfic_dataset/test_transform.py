@@ -110,6 +110,26 @@ def test_clean_html_preserves_source_order_and_drops_nested_controls(
     assert "button" not in result.html
 
 
+def test_clean_html_hash_text_separates_nested_blocks_without_spacing_inline_punctuation(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        (
+            "<div id='storytext'><div><p>Alpha.</p><p>Beta.</p>"
+            "<p>With <em>emphasis</em>.</p></div></div>"
+        ),
+        captured_page,
+    )
+
+    assert result.blocks[0].text == "Alpha. Beta. With emphasis."
+    assert result.blocks[0].sha256 == hashlib.sha256(
+        b"Alpha. Beta. With emphasis."
+    ).hexdigest()
+    assert result.blocks[0].html == (
+        "<div><p>Alpha.</p><p>Beta.</p><p>With <em>emphasis</em>.</p></div>"
+    )
+
+
 def test_only_first_chapter_includes_work_metadata(
     captured_page: CapturedPage,
 ) -> None:

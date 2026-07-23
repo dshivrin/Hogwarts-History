@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 import re
 
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 from .fanfiction_net import (
     PROFILE_SELECTORS,
@@ -26,6 +26,13 @@ from .models import CapturedPage
 
 
 _DROP_TAGS = frozenset({"script", "style", "button", "input", "select", "textarea", "option", "form"})
+_TEXT_BOUNDARY_TAGS = frozenset({
+    "address", "article", "aside", "blockquote", "br", "dd", "details", "dialog",
+    "div", "dl", "dt", "fieldset", "figcaption", "figure", "footer", "h1", "h2",
+    "h3", "h4", "h5", "h6", "header", "hgroup", "hr", "li", "main", "nav",
+    "ol", "p", "pre", "search", "section", "table", "tbody", "td", "tfoot", "th",
+    "thead", "tr", "ul",
+})
 _TEXT_SPACE = re.compile(r"\s+")
 _HASH = re.compile(r"^[0-9a-f]{64}$")
 
@@ -178,12 +185,27 @@ def _is_remote_image(node: Tag) -> bool:
 
 def _normalized_visible_text(node: Tag | str) -> str:
     if isinstance(node, Tag):
-        # Joining text nodes without a synthetic separator preserves punctuation
-        # adjacent to inline markup (for example, ``<strong>word</strong>.``).
-        text = node.get_text("", strip=False)
+        text = "".join(_visible_text_parts(node))
     else:
         text = node
     return _TEXT_SPACE.sub(" ", text.replace("\xa0", " ")).strip()
+
+
+def _visible_text_parts(node: Tag):
+    for child in node.children:
+        if isinstance(child, Comment):
+            continue
+        if isinstance(child, NavigableString):
+            yield str(child)
+            continue
+        if not isinstance(child, Tag):
+            continue
+        is_boundary = child.name in _TEXT_BOUNDARY_TAGS
+        if is_boundary:
+            yield " "
+        yield from _visible_text_parts(child)
+        if is_boundary:
+            yield " "
 
 
 def _sha(text: str) -> str:
