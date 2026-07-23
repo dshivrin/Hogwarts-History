@@ -1,0 +1,193 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "author": {
+      "title": "Author",
+      "type": "string"
+    },
+    "canon_status": {
+      "default": "non-canon fanfiction",
+      "title": "Canon Status",
+      "type": "string"
+    },
+    "capture_id": {
+      "title": "Capture Id",
+      "type": "string"
+    },
+    "chapter_index": {
+      "minimum": 1,
+      "title": "Chapter Index",
+      "type": "integer"
+    },
+    "chapter_pdf_path": {
+      "format": "path",
+      "title": "Chapter Pdf Path",
+      "type": "string"
+    },
+    "chapter_pdf_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Chapter Pdf Sha256",
+      "type": "string"
+    },
+    "chapter_title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Chapter Title"
+    },
+    "chapter_url": {
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Chapter Url",
+      "type": "string"
+    },
+    "clean_html_path": {
+      "format": "path",
+      "title": "Clean Html Path",
+      "type": "string"
+    },
+    "clean_html_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Clean Html Sha256",
+      "type": "string"
+    },
+    "complete_pdf_path": {
+      "format": "path",
+      "title": "Complete Pdf Path",
+      "type": "string"
+    },
+    "complete_pdf_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Complete Pdf Sha256",
+      "type": "string"
+    },
+    "dataset_role": {
+      "default": "style-and-coverage-reference",
+      "title": "Dataset Role",
+      "type": "string"
+    },
+    "dataset_version": {
+      "default": "1.0",
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "expected_available_chapter_count": {
+      "title": "Expected Available Chapter Count",
+      "type": "integer"
+    },
+    "fan_created": {
+      "default": true,
+      "title": "Fan Created",
+      "type": "boolean"
+    },
+    "platform": {
+      "title": "Platform",
+      "type": "string"
+    },
+    "published_date_displayed": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Published Date Displayed"
+    },
+    "raw_html_path": {
+      "format": "path",
+      "title": "Raw Html Path",
+      "type": "string"
+    },
+    "raw_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Raw Sha256",
+      "type": "string"
+    },
+    "retrieved_at_utc": {
+      "format": "date-time",
+      "title": "Retrieved At Utc",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "text_path": {
+      "format": "path",
+      "title": "Text Path",
+      "type": "string"
+    },
+    "text_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Text Sha256",
+      "type": "string"
+    },
+    "title_missing": {
+      "default": false,
+      "title": "Title Missing",
+      "type": "boolean"
+    },
+    "tool_version": {
+      "title": "Tool Version",
+      "type": "string"
+    },
+    "updated_date_displayed": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Updated Date Displayed"
+    },
+    "work_title": {
+      "title": "Work Title",
+      "type": "string"
+    },
+    "work_url": {
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Work Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "capture_id",
+    "source_id",
+    "work_title",
+    "author",
+    "platform",
+    "work_url",
+    "chapter_index",
+    "chapter_title",
+    "chapter_url",
+    "retrieved_at_utc",
+    "published_date_displayed",
+    "updated_date_displayed",
+    "expected_available_chapter_count",
+    "raw_html_path",
+    "clean_html_path",
+    "text_path",
+    "chapter_pdf_path",
+    "complete_pdf_path",
+    "raw_sha256",
+    "clean_html_sha256",
+    "text_sha256",
+    "chapter_pdf_sha256",
+    "complete_pdf_sha256",
+    "tool_version"
+  ],
+  "title": "ManifestRecord",
+  "type": "object"
+}

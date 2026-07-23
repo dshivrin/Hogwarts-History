@@ -1,0 +1,81 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "author": {
+      "title": "Author",
+      "type": "string"
+    },
+    "expected_available_chapter_count": {
+      "minimum": 1,
+      "title": "Expected Available Chapter Count",
+      "type": "integer"
+    },
+    "known_limitations": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Known Limitations",
+      "type": "array"
+    },
+    "platform": {
+      "const": "fanfiction.net",
+      "title": "Platform",
+      "type": "string"
+    },
+    "priority": {
+      "default": "medium",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Priority",
+      "type": "string"
+    },
+    "promised_but_unavailable_chapters": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Promised But Unavailable Chapters",
+      "type": "array"
+    },
+    "source_id": {
+      "pattern": "^HAH-FAN-\\d{3}$",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "core",
+        "excluded",
+        "candidate-needs-editorial-review"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "work_title": {
+      "title": "Work Title",
+      "type": "string"
+    },
+    "work_url": {
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Work Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "work_title",
+    "author",
+    "platform",
+    "work_url",
+    "expected_available_chapter_count",
+    "status"
+  ],
+  "title": "SourceRecord",
+  "type": "object"
+}
