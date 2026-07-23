@@ -60,7 +60,7 @@ def promote_latest(work_validation: WorkValidation, *, dataset_root: Path | None
         raise ValueError("latest promotion requires a canonical source_id")
     if CAPTURE_ID.fullmatch(work_validation.capture_id) is None:
         raise ValueError("latest promotion requires a canonical capture_id")
-    root = (dataset_root or _default_dataset_root()).resolve()
+    root = _canonical_latest_root(dataset_root or _default_dataset_root())
     work_root = _prepare_latest_parent(root, work_validation.source_id)
     latest_path = work_root / "latest.json"
     payload = (
@@ -99,7 +99,7 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
         if page.source_id != source.source_id or page.chapter != chapter:
             raise ValueError("captured page does not match source discovery")
     complete_pdf = capture_dir / "pdf" / canonical_complete_pdf_name(discovery)
-    _require_file(complete_pdf)
+    _require_file(complete_pdf, capture_dir, dataset_root)
     result: list[ManifestRecord] = []
     for page in pages:
         index = page.chapter.chapter_index
@@ -116,7 +116,7 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
         text = capture_dir / "text" / f"chapter-{index:03d}.md"
         chapter_pdf = capture_dir / "pdf" / f"chapter-{index:03d}.pdf"
         for path in (raw, clean, text, chapter_pdf):
-            _require_file(path)
+            _require_file(path, capture_dir, dataset_root)
         result.append(
             ManifestRecord(
                 capture_id=capture_dir.name,
@@ -206,9 +206,45 @@ def _default_dataset_root() -> Path:
     return Path(__file__).resolve().parents[2] / DATASET_DIRECTORY
 
 
+def _canonical_latest_root(dataset_root: Path) -> Path:
+    lexical = (
+        dataset_root
+        if dataset_root.is_absolute()
+        else Path.cwd() / dataset_root
+    )
+    if ".." in lexical.parts or lexical.parent == lexical:
+        raise ValueError("dataset root path must be canonical")
+    if lexical.is_symlink():
+        raise ValueError("dataset root must not be a symlink")
+    try:
+        resolved = lexical.resolve(strict=False)
+    except OSError as error:
+        raise ValueError("dataset root path is invalid") from error
+    if lexical != resolved:
+        raise ValueError("dataset root path must be canonical")
+    try:
+        root_status = lexical.lstat()
+    except FileNotFoundError:
+        pass
+    except OSError as error:
+        raise ValueError("dataset root path is invalid") from error
+    else:
+        if not stat.S_ISDIR(root_status.st_mode):
+            raise ValueError("dataset root is not a directory")
+    return lexical
+
+
 def _prepare_latest_parent(dataset_root: Path, source_id: str) -> Path:
-    dataset_root.mkdir(parents=True, exist_ok=True)
-    if not dataset_root.is_dir():
+    try:
+        dataset_root.mkdir(parents=True, exist_ok=True)
+        root_status = dataset_root.lstat()
+    except OSError as error:
+        raise ValueError("dataset root is not a usable directory") from error
+    if (
+        stat.S_ISLNK(root_status.st_mode)
+        or not stat.S_ISDIR(root_status.st_mode)
+        or dataset_root.resolve(strict=True) != dataset_root
+    ):
         raise ValueError("dataset root is not a directory")
     current = dataset_root
     for component in ("works", source_id):
@@ -277,14 +313,27 @@ def _metadata_artifact(path: Path, dataset_root: Path) -> Path:
 
 def _relative_dataset_path(path: Path, dataset_root: Path) -> Path:
     try:
-        return Path(DATASET_DIRECTORY) / path.resolve().relative_to(dataset_root)
+        return Path(DATASET_DIRECTORY) / path.relative_to(dataset_root)
     except ValueError as error:
         raise ValueError("artifact path is outside the dataset root") from error
 
 
-def _require_file(path: Path) -> None:
-    if not path.is_file():
-        raise ValueError(f"required artifact is missing: {path}")
+def _require_file(path: Path, capture_dir: Path, dataset_root: Path) -> None:
+    try:
+        file_status = path.lstat()
+        resolved = path.resolve(strict=True)
+    except (FileNotFoundError, OSError) as error:
+        raise ValueError(f"required artifact is missing: {path}") from error
+    if (
+        stat.S_ISLNK(file_status.st_mode)
+        or not stat.S_ISREG(file_status.st_mode)
+        or resolved != path
+        or not path.is_relative_to(capture_dir)
+        or not path.is_relative_to(dataset_root)
+    ):
+        raise ValueError(
+            f"required artifact is not a canonical regular file: {path}"
+        )
 
 
 def _require_consecutive(pages: list[CapturedPage], discovery: WorkDiscovery) -> None:

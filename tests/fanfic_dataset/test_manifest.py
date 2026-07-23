@@ -212,6 +212,45 @@ def test_build_manifest_binds_each_page_and_raw_artifact_to_current_capture(
         build_manifest(capture_dir)
 
 
+@pytest.mark.parametrize(
+    ("artifact", "redirect"),
+    [
+        ("clean/chapter-001.html", "other-capture"),
+        ("text/chapter-001.md", "other-capture"),
+        ("pdf/chapter-001.pdf", "other-capture"),
+        ("complete-pdf", "chapter-pdf"),
+        ("complete-pdf", "other-capture"),
+    ],
+)
+def test_build_manifest_rejects_symlinked_derived_artifacts(
+    tmp_path: Path,
+    artifact: str,
+    redirect: str,
+) -> None:
+    _, capture_dir = _synthetic_capture(tmp_path)
+    _, other_capture = _synthetic_capture(
+        tmp_path,
+        capture_id="20260723T130000Z",
+    )
+    if artifact == "complete-pdf":
+        metadata = json.loads((capture_dir / "metadata.json").read_text("utf-8"))
+        discovery = WorkDiscovery.model_validate(metadata["discovery"])
+        artifact_path = capture_dir / "pdf" / canonical_complete_pdf_name(discovery)
+        target = (
+            capture_dir / "pdf/chapter-001.pdf"
+            if redirect == "chapter-pdf"
+            else other_capture / "pdf" / artifact_path.name
+        )
+    else:
+        artifact_path = capture_dir / artifact
+        target = other_capture / artifact
+    artifact_path.unlink()
+    artifact_path.symlink_to(target)
+
+    with pytest.raises(ValueError, match="canonical regular file"):
+        build_manifest(capture_dir)
+
+
 def test_promote_latest_rejects_non_passing_validation(tmp_path: Path) -> None:
     validation = _validation(status="fail")
 
@@ -261,6 +300,35 @@ def test_promote_latest_rejects_symlinked_write_destinations(
     assert external_latest.read_bytes() == b"preserve-external-bytes"
     if symlink_kind == "latest":
         assert (work_root / "latest.json").is_symlink()
+
+
+@pytest.mark.parametrize("root_kind", ["symlink", "file", "dotdot-alias"])
+def test_promote_latest_rejects_unsafe_dataset_roots_without_external_write(
+    tmp_path: Path,
+    root_kind: str,
+) -> None:
+    external = tmp_path / "external"
+    external.mkdir()
+    sentinel = external / "preserve.txt"
+    sentinel.write_bytes(b"preserve-external-bytes")
+    if root_kind == "symlink":
+        dataset_root = tmp_path / "linked-dataset"
+        dataset_root.symlink_to(external, target_is_directory=True)
+    elif root_kind == "file":
+        dataset_root = tmp_path / "dataset-file"
+        dataset_root.write_bytes(b"preserve-dataset-file")
+    else:
+        dataset_root = tmp_path / "missing" / ".." / "aliased-dataset"
+
+    with pytest.raises(ValueError, match="dataset root"):
+        promote_latest(_validation(), dataset_root=dataset_root)
+
+    assert sentinel.read_bytes() == b"preserve-external-bytes"
+    assert not (external / "works").exists()
+    if root_kind == "file":
+        assert dataset_root.read_bytes() == b"preserve-dataset-file"
+    if root_kind == "dotdot-alias":
+        assert not (tmp_path / "aliased-dataset/works").exists()
 
 
 def test_promote_latest_atomically_writes_deterministic_pointer(
