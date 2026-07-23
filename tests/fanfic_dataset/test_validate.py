@@ -479,6 +479,38 @@ def test_manifest_artifact_paths_must_bind_to_current_canonical_capture_paths(
     )
 
 
+@pytest.mark.parametrize(
+    ("field", "component", "lexical_alias"),
+    [
+        ("raw_html_path", "raw", "/raw/./"),
+        ("clean_html_path", "clean", "//clean/"),
+        ("text_path", "text", "/text/./"),
+        ("chapter_pdf_path", "pdf", "//pdf/"),
+        ("complete_pdf_path", "pdf", "/pdf/./"),
+    ],
+)
+def test_manifest_artifact_paths_must_use_exact_posix_json_spelling(
+    tmp_path: Path,
+    field: str,
+    component: str,
+    lexical_alias: str,
+) -> None:
+    dataset_root, capture_dir, manual_review = _synthetic_capture(tmp_path)
+    records = _manifest_records(dataset_root)
+    canonical = str(records[0][field])
+    records[0][field] = canonical.replace(f"/{component}/", lexical_alias)
+    assert records[0][field] != canonical
+    _write_manifest(dataset_root, records)
+
+    result = validate_work(capture_dir, manual_review_path=manual_review)
+
+    _assert_dependency_failures(
+        result,
+        MANIFEST_DEPENDENT_CHECK_IDS,
+        "canonical",
+    )
+
+
 @pytest.mark.parametrize("symlink_kind", ["parent", "leaf"])
 def test_manifest_artifact_binding_rejects_symlink_components_and_leaves(
     tmp_path: Path,

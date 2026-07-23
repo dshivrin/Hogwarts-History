@@ -111,6 +111,12 @@ class _CaptureMetadata:
 
 
 @dataclass(frozen=True)
+class _ManifestData:
+    records: list[ManifestRecord]
+    raw_artifact_paths: list[dict[str, str]]
+
+
+@dataclass(frozen=True)
 class _ValidationContext:
     capture_dir: Path
     dataset_root: Path
@@ -144,15 +150,16 @@ def validate_work(
         lambda: _load_capture_metadata(capture_dir / "metadata.json"),
         empty=None,
     )
-    all_records, manifest_error = _load_or_error(
+    all_manifest_data, manifest_error = _load_or_error(
         lambda: _load_manifest_records(dataset_root / "manifest.jsonl"),
-        empty=[],
+        empty=_ManifestData(records=[], raw_artifact_paths=[]),
     )
-    records = _select_manifest_records(
-        all_records,
+    manifest_data = _select_manifest_records(
+        all_manifest_data,
         source_id=source_id,
         capture_id=capture_id,
     )
+    records = manifest_data.records
     if manifest_error is None and not records:
         manifest_error = "manifest dependency invalid: no records for current capture"
     if metadata_error is not None:
@@ -174,6 +181,7 @@ def validate_work(
                 capture_id=capture_id,
                 metadata=metadata,
                 records=records,
+                raw_artifact_paths=manifest_data.raw_artifact_paths,
             ),
             empty=[],
         )
@@ -935,22 +943,32 @@ def _load_or_error(
 
 def _load_manifest_records(
     path: Path,
-) -> list[ManifestRecord]:
+) -> _ManifestData:
     records: list[ManifestRecord] = []
+    raw_artifact_paths: list[dict[str, str]] = []
     for line in path.read_text("utf-8").splitlines():
         if not line.strip():
             continue
         value = json.loads(line)
+        if not isinstance(value, dict):
+            raise ValueError("manifest rows must be JSON objects")
+        raw_paths: dict[str, str] = {}
+        for field in HASH_FIELDS:
+            raw_path = value.get(field)
+            if not isinstance(raw_path, str):
+                raise ValueError(f"manifest {field} must be a JSON string")
+            raw_paths[field] = raw_path
         records.append(ManifestRecord.model_validate(value))
-    return records
+        raw_artifact_paths.append(raw_paths)
+    return _ManifestData(records=records, raw_artifact_paths=raw_artifact_paths)
 
 
 def _select_manifest_records(
-    records: list[ManifestRecord],
+    manifest_data: _ManifestData,
     *,
     source_id: str,
     capture_id: str,
-) -> list[ManifestRecord]:
+) -> _ManifestData:
     capture_prefix = (
         DATASET_DIRECTORY
         / "works"
@@ -968,7 +986,19 @@ def _select_manifest_records(
                 return True
         return False
 
-    return [record for record in records if belongs_to_capture(record)]
+    selected = [
+        (record, raw_paths)
+        for record, raw_paths in zip(
+            manifest_data.records,
+            manifest_data.raw_artifact_paths,
+            strict=True,
+        )
+        if belongs_to_capture(record)
+    ]
+    return _ManifestData(
+        records=[record for record, _ in selected],
+        raw_artifact_paths=[raw_paths for _, raw_paths in selected],
+    )
 
 
 def _bind_artifact_paths(
@@ -979,6 +1009,7 @@ def _bind_artifact_paths(
     capture_id: str,
     metadata: _CaptureMetadata | None,
     records: list[ManifestRecord],
+    raw_artifact_paths: list[dict[str, str]],
 ) -> list[dict[str, Path]]:
     if metadata is None:
         raise ValueError("metadata dependency is unavailable")
@@ -991,7 +1022,7 @@ def _bind_artifact_paths(
     )
     complete_name = canonical_complete_pdf_name(metadata.discovery)
     bindings: list[dict[str, Path]] = []
-    for record in records:
+    for record, record_raw_paths in zip(records, raw_artifact_paths, strict=True):
         index = record.chapter_index
         expected = {
             "raw_html_path": (
@@ -1010,13 +1041,13 @@ def _bind_artifact_paths(
         }
         bound: dict[str, Path] = {}
         for field, expected_relative in expected.items():
-            manifest_relative = getattr(record, field)
-            if manifest_relative != expected_relative:
+            manifest_relative = record_raw_paths[field]
+            if manifest_relative != expected_relative.as_posix():
                 raise ValueError(
                     f"manifest {field} is not the canonical current-capture "
                     f"path for chapter {index}"
                 )
-            candidate = dataset_root.parents[1] / manifest_relative
+            candidate = dataset_root.parents[1] / expected_relative
             expected_absolute = capture_dir / expected_relative.relative_to(
                 capture_relative
             )
