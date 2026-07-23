@@ -10,7 +10,7 @@ CAPTURE_ID = re.compile(r"^\d{8}T\d{6}Z$")
 CHAPTER_SUFFIXES = {
     "raw": ".html",
     "clean": ".html",
-    "text": ".txt",
+    "text": ".md",
     "pdf": ".pdf",
 }
 

@@ -16,7 +16,9 @@ class SourceRecord(StrictModel):
     work_title: str
     author: str
     platform: Literal["fanfiction.net"]
-    work_url: HttpUrl = Field(json_schema_extra={"pattern": r"^https://"})
+    work_url: HttpUrl = Field(
+        json_schema_extra={"pattern": r"^[Hh][Tt][Tt][Pp][Ss]://"}
+    )
     expected_available_chapter_count: int = Field(ge=1)
     status: Literal["core", "excluded", "candidate-needs-editorial-review"]
     priority: Literal["high", "medium", "low"] = "medium"

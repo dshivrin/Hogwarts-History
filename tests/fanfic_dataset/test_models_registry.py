@@ -81,6 +81,46 @@ def test_source_schema_rejects_non_https_url() -> None:
     assert list(Draft202012Validator(schema).iter_errors(invalid))
 
 
+@pytest.mark.parametrize(
+    ("work_url", "accepted"),
+    [
+        ("HTTPS://www.fanfiction.net/s/1/1/example", True),
+        ("hTtPs://www.fanfiction.net/s/1/1/example", True),
+        ("http://www.fanfiction.net/s/1/1/example", False),
+    ],
+)
+def test_source_model_and_schema_agree_on_url_scheme(
+    work_url: str, accepted: bool
+) -> None:
+    payload = {
+        "source_id": "HAH-FAN-001",
+        "work_title": "Example",
+        "author": "Example",
+        "platform": "fanfiction.net",
+        "work_url": work_url,
+        "expected_available_chapter_count": 1,
+        "status": "core",
+    }
+    schema_errors = list(
+        Draft202012Validator(schema_documents()["source-record.schema.json"]).iter_errors(
+            payload
+        )
+    )
+
+    if accepted:
+        assert SourceRecord(**payload).work_url.scheme == "https"
+        assert not schema_errors
+    else:
+        with pytest.raises(ValidationError):
+            SourceRecord(**payload)
+        assert schema_errors
+
+
+def test_capture_paths_use_markdown_for_normalized_text(tmp_path: Path) -> None:
+    paths = capture_paths(tmp_path, "HAH-FAN-001", "20260722T120000Z")
+    assert paths.chapter("text", 1, ".md") == paths.root / "text/chapter-001.md"
+
+
 def test_checked_in_schemas_match_models() -> None:
     root = Path(__file__).resolve().parents[2]
     for name, document in schema_documents().items():
