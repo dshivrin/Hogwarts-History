@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -78,6 +79,92 @@ def test_markdown_preserves_emphasis_and_required_markers(
     assert "*emphasized*" in text
     assert "<!-- BEGIN CHAPTER TEXT -->" in text
     assert text.endswith("<!-- END CHAPTER TEXT -->\n")
+
+
+def test_build_clean_html_preserves_recorded_windows_1252_text(
+    tmp_path: Path, captured_page: CapturedPage
+) -> None:
+    capture_root = tmp_path / "capture"
+    raw_path = capture_root / "raw" / "chapter-001.html"
+    raw_path.parent.mkdir(parents=True)
+    raw_path.write_bytes(
+        (
+            "<!doctype html><html><head><meta charset='utf-8'></head><body>"
+            + _VALID_PROFILE_HTML
+            + "<div id='storytext'><p>Curly “quotation” — café.</p></div>"
+            "</body></html>"
+        ).encode("windows-1252")
+    )
+    charset_decisions = {
+        "1": {
+            "declared": "windows-1252",
+            "used": "windows-1252",
+            "fallback": False,
+        }
+    }
+    (capture_root / "run-state.json").write_text(
+        json.dumps({"charset_decisions": charset_decisions}), encoding="utf-8"
+    )
+    (capture_root / "metadata.json").write_text(
+        json.dumps({"charset_decisions": charset_decisions}), encoding="utf-8"
+    )
+    page = captured_page.model_copy(update={"raw_html_path": raw_path})
+
+    clean_html = build_clean_html(page, ChapterAnnotations())
+
+    assert "Curly “quotation” — café." in clean_html
+    assert "\ufffd" not in clean_html
+
+
+def test_build_clean_html_detects_html_declared_windows_1252_without_capture_state(
+    captured_page: CapturedPage,
+) -> None:
+    captured_page.raw_html_path.write_bytes(
+        (
+            "<!doctype html><html><head><meta charset='windows-1252'></head><body>"
+            + _VALID_PROFILE_HTML
+            + "<div id='storytext'><p>Curly “quotation” — café.</p></div>"
+            "</body></html>"
+        ).encode("windows-1252")
+    )
+
+    clean_html = build_clean_html(captured_page, ChapterAnnotations())
+
+    assert "Curly “quotation” — café." in clean_html
+    assert "\ufffd" not in clean_html
+
+
+def test_build_clean_html_rejects_lossy_recorded_charset_decoding(
+    tmp_path: Path, captured_page: CapturedPage
+) -> None:
+    capture_root = tmp_path / "capture"
+    raw_path = capture_root / "raw" / "chapter-001.html"
+    raw_path.parent.mkdir(parents=True)
+    raw_path.write_bytes(
+        b"<div id='profile_top'><h1>Work</h1><a href='/u/7'>Author</a></div>"
+        b"<div id='storytext'><p>Invalid UTF-8: \x80</p></div>"
+    )
+    (capture_root / "run-state.json").write_text(
+        json.dumps(
+            {
+                "charset_decisions": {
+                    "1": {
+                        "declared": None,
+                        "used": "utf-8",
+                        "fallback": True,
+                    }
+                }
+            }
+        ),
+        encoding="utf-8",
+    )
+    page = captured_page.model_copy(update={"raw_html_path": raw_path})
+
+    with pytest.raises(
+        ExtractionError,
+        match="cannot losslessly decode raw HTML with recorded charset 'utf-8'",
+    ):
+        build_clean_html(page, ChapterAnnotations())
 
 
 def test_author_note_annotation_wraps_only_matching_block(

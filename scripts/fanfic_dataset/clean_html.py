@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 import re
 
-from bs4 import BeautifulSoup, Comment, NavigableString, Tag
+from bs4 import BeautifulSoup, Comment, NavigableString, Tag, UnicodeDammit
 
 from .fanfiction_net import (
     PROFILE_SELECTORS,
@@ -66,7 +66,7 @@ class ExtractedChapter:
 
 def extract_chapter(raw_html: str | bytes, page: CapturedPage) -> ExtractedChapter:
     """Extract all direct story-container blocks and render unannotated semantic HTML."""
-    soup = BeautifulSoup(_decode_html(raw_html), "html.parser")
+    soup = BeautifulSoup(_decode_html(raw_html, page), "html.parser")
     blocks = _story_blocks(_story_container(soup))
     return ExtractedChapter(
         html=_render_semantic_html(soup, page, blocks, ChapterAnnotations()),
@@ -77,7 +77,7 @@ def extract_chapter(raw_html: str | bytes, page: CapturedPage) -> ExtractedChapt
 def build_clean_html(page: CapturedPage, annotations: ChapterAnnotations) -> str:
     """Build annotated semantic HTML from a persisted raw main-document response."""
     raw_html = page.raw_html_path.read_bytes()
-    soup = BeautifulSoup(_decode_html(raw_html), "html.parser")
+    soup = BeautifulSoup(_decode_html(raw_html, page), "html.parser")
     blocks = _story_blocks(_story_container(soup))
     _validate_annotations(blocks, annotations)
     return _render_semantic_html(soup, page, blocks, annotations)
@@ -109,8 +109,57 @@ def load_chapter_annotations(path: Path, chapter_index: int) -> ChapterAnnotatio
     )
 
 
-def _decode_html(raw_html: str | bytes) -> str:
-    return raw_html if isinstance(raw_html, str) else raw_html.decode("utf-8", errors="replace")
+def _decode_html(raw_html: str | bytes, page: CapturedPage) -> str:
+    if isinstance(raw_html, str):
+        return raw_html
+    recorded_charset = _recorded_charset(page)
+    if recorded_charset:
+        try:
+            return raw_html.decode(recorded_charset)
+        except (LookupError, UnicodeDecodeError) as error:
+            raise ExtractionError(
+                "cannot losslessly decode raw HTML with recorded charset "
+                f"{recorded_charset!r}"
+            ) from error
+    detected = UnicodeDammit(raw_html, is_html=True)
+    if (
+        detected.unicode_markup is None
+        or detected.contains_replacement_characters
+    ):
+        raise ExtractionError(
+            "cannot losslessly decode raw HTML from its byte encoding declarations"
+        )
+    return detected.unicode_markup
+
+
+def _recorded_charset(page: CapturedPage) -> str | None:
+    raw_parent = page.raw_html_path.parent
+    capture_root = raw_parent.parent if raw_parent.name == "raw" else raw_parent
+    state_path = capture_root / "run-state.json"
+    metadata_path = capture_root / "metadata.json"
+    decision_path = state_path if state_path.exists() else metadata_path
+    if not decision_path.exists():
+        return None
+    try:
+        state = json.loads(decision_path.read_text("utf-8"))
+        decisions = state.get("charset_decisions", {})
+        decision = decisions.get(str(page.chapter.chapter_index))
+    except (AttributeError, json.JSONDecodeError, UnicodeDecodeError) as error:
+        raise ExtractionError(
+            f"invalid capture charset state in {decision_path.name}"
+        ) from error
+    if decision is None:
+        return None
+    if not isinstance(decision, dict):
+        raise ExtractionError(
+            f"invalid chapter charset decision in {decision_path.name}"
+        )
+    used = decision.get("used")
+    if not isinstance(used, str) or not used:
+        raise ExtractionError(
+            f"invalid chapter charset decision in {decision_path.name}"
+        )
+    return used
 
 
 def _story_container(soup: BeautifulSoup) -> Tag:
