@@ -6,6 +6,7 @@
       "type": "string"
     },
     "canon_status": {
+      "const": "non-canon fanfiction",
       "default": "non-canon fanfiction",
       "title": "Canon Status",
       "type": "string"
@@ -82,6 +83,7 @@
       "type": "integer"
     },
     "fan_created": {
+      "const": true,
       "default": true,
       "title": "Fan Created",
       "type": "boolean"

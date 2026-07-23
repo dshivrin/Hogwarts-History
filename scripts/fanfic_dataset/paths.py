@@ -7,6 +7,12 @@ import re
 
 SAFE_ID = re.compile(r"^[A-Z0-9-]+$")
 CAPTURE_ID = re.compile(r"^\d{8}T\d{6}Z$")
+CHAPTER_SUFFIXES = {
+    "raw": ".html",
+    "clean": ".html",
+    "text": ".txt",
+    "pdf": ".pdf",
+}
 
 
 @dataclass(frozen=True)
@@ -14,10 +20,12 @@ class CapturePaths:
     root: Path
 
     def chapter(self, kind: str, index: int, suffix: str) -> Path:
-        if kind not in {"raw", "clean", "text", "pdf"}:
+        if kind not in CHAPTER_SUFFIXES:
             raise ValueError(f"unsupported artifact kind: {kind}")
         if index < 1:
             raise ValueError("chapter index must be positive")
+        if suffix != CHAPTER_SUFFIXES[kind]:
+            raise ValueError(f"unsupported suffix for {kind}: {suffix}")
         return self.root / kind / f"chapter-{index:03d}{suffix}"
 
 
