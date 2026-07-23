@@ -498,4 +498,5 @@ offline smoke check passed
 - Regressions cover empty semantic stories and each named accepted block-like tag
   as nested siblings, while demonstrating inline punctuation remains adjacent.
 - The separately logged Minor non-object annotations behavior remains unchanged.
-- No known concerns. Commit SHA and subject are appended below after commit.
+- No known concerns.
+- `7363778 fix: preserve empty fanfic chapter markers`
