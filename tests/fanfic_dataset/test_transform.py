@@ -327,6 +327,33 @@ def test_markdown_normalizes_line_endings_nbsp_and_blank_runs() -> None:
     assert "\n\n\n" not in text
 
 
+def test_markdown_emits_empty_chapter_range_when_story_has_no_blocks() -> None:
+    clean_html = "<main data-role='story'></main>"
+
+    assert html_to_markdown(clean_html) == """<!-- BEGIN CHAPTER TEXT -->
+
+<!-- END CHAPTER TEXT -->
+"""
+
+
+@pytest.mark.parametrize("tag", ("summary", "legend", "menu", "caption"))
+def test_block_like_nested_siblings_are_separated_in_visible_text(
+    captured_page: CapturedPage, tag: str
+) -> None:
+    result = extract_chapter(
+        _VALID_PROFILE_HTML
+        + (
+            "<div id='storytext'><p>"
+            f"<{tag}>Alpha.</{tag}><{tag}>Beta.</{tag}>"
+            "<em>Gamma.</em><strong>Delta.</strong>"
+            "</p></div>"
+        ),
+        captured_page,
+    )
+
+    assert result.blocks[0].text == "Alpha. Beta. Gamma.Delta."
+
+
 def test_clean_html_preserves_allowed_empty_and_image_blocks_and_original_text(
     captured_page: CapturedPage,
 ) -> None:

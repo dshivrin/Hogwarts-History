@@ -26,20 +26,15 @@ from .models import CapturedPage
 
 
 _DROP_TAGS = frozenset({"script", "style", "button", "input", "select", "textarea", "option", "form"})
-_TEXT_BOUNDARY_TAGS = frozenset({
+_VISIBLE_BLOCK_TAGS = frozenset({
     "address", "article", "aside", "blockquote", "br", "dd", "details", "dialog",
     "div", "dl", "dt", "fieldset", "figcaption", "figure", "footer", "h1", "h2",
     "h3", "h4", "h5", "h6", "header", "hgroup", "hr", "li", "main", "nav",
     "ol", "p", "pre", "search", "section", "table", "tbody", "td", "tfoot", "th",
-    "thead", "tr", "ul",
+    "thead", "tr", "ul", "caption", "colgroup", "legend", "menu", "summary",
 })
-_DIRECT_BLOCK_TAGS = (_TEXT_BOUNDARY_TAGS - {"br"}) | {
-    "caption",
-    "colgroup",
-    "legend",
-    "menu",
-    "summary",
-}
+_TEXT_BOUNDARY_TAGS = _VISIBLE_BLOCK_TAGS
+_DIRECT_BLOCK_TAGS = _VISIBLE_BLOCK_TAGS - {"br"}
 _TEXT_SPACE = re.compile(r"\s+")
 _HASH = re.compile(r"^[0-9a-f]{64}$")
 

@@ -57,6 +57,12 @@ def html_to_markdown(clean_html: str) -> str:
             raise ValueError(f"unknown semantic story block kind: {kind}")
         chunks.append("\n\n".join((markers[0], converted, markers[1])))
     close_chapter_text()
+    if not chunks:
+        chunks.append(
+            "\n\n".join(
+                ("<!-- BEGIN CHAPTER TEXT -->", "<!-- END CHAPTER TEXT -->")
+            )
+        )
     text = "\n\n".join(chunks)
     return _normalize(text).rstrip("\n") + "\n"
 
