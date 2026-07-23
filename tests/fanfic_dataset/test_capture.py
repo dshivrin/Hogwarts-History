@@ -703,6 +703,104 @@ def test_resume_never_refetches_completed_chapter(
     assert second.pages == first.pages
 
 
+@pytest.mark.parametrize(
+    "snapshot_change",
+    [
+        "missing-robots",
+        "missing-decision",
+        "modified-robots",
+        "noncanonical-decision",
+    ],
+)
+def test_complete_resume_rejects_missing_or_modified_policy_snapshot_before_gateway(
+    monkeypatch,
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+    snapshot_change,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    _run(source, options, fake, FakeSleep())
+    policy_root = (
+        options.output_root
+        / "reports"
+        / "policy-snapshots"
+        / options.capture_id
+    )
+    robots_path = policy_root / "robots.txt"
+    decision_path = policy_root / "policy-decision.json"
+    if snapshot_change == "missing-robots":
+        robots_path.unlink()
+    elif snapshot_change == "missing-decision":
+        decision_path.unlink()
+    elif snapshot_change == "modified-robots":
+        robots_path.write_bytes(ROBOTS + b"# modified\n")
+    else:
+        decision = json.loads(decision_path.read_text("utf-8"))
+        decision_path.write_text(json.dumps(decision), encoding="utf-8")
+    fake.calls.clear()
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="persisted policy snapshot"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+    assert fake.calls == []
+
+
+def test_resume_rejects_non_prefix_completed_inventory_before_gateway_creation(
+    monkeypatch,
+    source,
+    options,
+    chapter_urls,
+    multi_html,
+) -> None:
+    fake = _gateway(source, chapter_urls, multi_html)
+    _run(source, options, fake, FakeSleep())
+    paths = capture_paths(
+        options.output_root, source.source_id, options.capture_id
+    )
+    state_path = paths.root / "run-state.json"
+    state = json.loads(state_path.read_text("utf-8"))
+    state["status"] = "running"
+    state["completed_chapters"] = [1, 3]
+    state["pages"] = [state["pages"][0], state["pages"][2]]
+    state["charset_decisions"].pop("2")
+    state_path.write_text(json.dumps(state), encoding="utf-8")
+    paths.chapter("raw", 2, ".html").unlink()
+    fake.calls.clear()
+
+    def unexpected_gateway_creation(*, headed):
+        del headed
+        raise AssertionError("gateway was created")
+
+    monkeypatch.setattr(
+        browser_module, "_PlaywrightGateway", unexpected_gateway_creation
+    )
+
+    with pytest.raises(CaptureStopped, match="exact discovery prefix"):
+        asyncio.run(
+            capture_work(
+                source,
+                options.model_copy(update={"resume": True}),
+            )
+        )
+
+    assert fake.calls == []
+
+
 def test_resume_repairs_derived_metadata_from_authoritative_state(
     source, options, chapter_urls, multi_html
 ) -> None:

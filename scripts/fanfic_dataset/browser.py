@@ -679,6 +679,10 @@ def _load_existing_capture(
         for index, page in zip(page_indexes, pages)
     ):
         raise CaptureStopped("capture pages do not match discovery")
+    if page_indexes != sorted(discovered)[: len(page_indexes)]:
+        raise CaptureStopped(
+            "completed chapters must be an exact discovery prefix"
+        )
     for page in pages:
         expected_path = paths.chapter(
             "raw", page.chapter.chapter_index, ".html"
@@ -703,6 +707,8 @@ def _load_existing_capture(
         raise CaptureStopped(f"invalid capture status: {status}")
     if status == "complete" and page_indexes != sorted(discovered):
         raise CaptureStopped("complete capture has an incomplete inventory")
+    if status == "complete":
+        _validate_persisted_policy_snapshot(options, policy)
 
     charset_decisions = state.get("charset_decisions", {})
     if set(charset_decisions) != {str(index) for index in completed}:
@@ -971,6 +977,31 @@ def _persist_or_validate_policy_snapshot(
         decision_path,
         policy.model_dump(mode="json"),
     )
+
+
+def _validate_persisted_policy_snapshot(
+    options: CaptureOptions,
+    policy: PolicyDecision,
+) -> None:
+    policy_root = (
+        options.output_root
+        / "reports"
+        / "policy-snapshots"
+        / options.capture_id
+    )
+    robots_path = policy_root / "robots.txt"
+    decision_path = policy_root / "policy-decision.json"
+    if not robots_path.exists() or not decision_path.exists():
+        raise CaptureStopped("persisted policy snapshot is incomplete")
+    robots_body = robots_path.read_bytes()
+    if hashlib.sha256(robots_body).hexdigest() != policy.robots_sha256:
+        raise CaptureStopped("persisted policy snapshot robots hash changed")
+    if decision_path.read_bytes() != _json_bytes(
+        policy.model_dump(mode="json")
+    ):
+        raise CaptureStopped(
+            "persisted policy snapshot decision bytes changed"
+        )
 
 
 def _decode_response(
