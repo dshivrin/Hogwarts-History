@@ -125,6 +125,8 @@ def _story_blocks(container: Tag) -> list[StoryBlock]:
     blocks: list[StoryBlock] = []
     text_parts: list[str] = []
     for child in container.children:
+        if isinstance(child, Comment):
+            continue
         if isinstance(child, NavigableString):
             text_parts.append(str(child))
             continue
@@ -278,11 +280,17 @@ def _append_text_tag(soup: BeautifulSoup, parent: Tag, name: str, value: str) ->
 def _profile_metadata(soup: BeautifulSoup) -> dict[str, str]:
     profile = _first_match(soup, PROFILE_SELECTORS)
     if profile is None:
-        return {key: "" for key in ("work_title", "author", "summary", "rating", "language", "published", "updated")}
+        raise ExtractionError("missing profile container")
+    work_title = _work_title(profile)
+    if not work_title:
+        raise ExtractionError("parsed work title is empty")
+    author = _author(profile)
+    if not author:
+        raise ExtractionError("parsed author is empty")
     profile_text = " ".join(profile.stripped_strings)
     return {
-        "work_title": _work_title(profile),
-        "author": _author(profile),
+        "work_title": work_title,
+        "author": author,
         "summary": _summary(profile),
         "rating": _label_value(profile_text, "Rated") or "",
         "language": _language(profile_text) or "",

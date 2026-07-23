@@ -14,7 +14,14 @@ from scripts.fanfic_dataset.clean_html import (
     extract_chapter,
 )
 from scripts.fanfic_dataset.html_to_markdown import html_to_markdown
+from scripts.fanfic_dataset.fanfiction_net import ExtractionError
 from scripts.fanfic_dataset.models import CapturedPage, ChapterRef
+
+
+_VALID_PROFILE_HTML = (
+    "<div id='profile_top'><h1>Invented Work</h1>"
+    "<a href='/u/7'>Synthetic Author</a></div>"
+)
 
 
 @pytest.fixture
@@ -100,7 +107,8 @@ def test_clean_html_preserves_source_order_and_drops_nested_controls(
     captured_page: CapturedPage,
 ) -> None:
     result = extract_chapter(
-        """<div id='storytext'><p>First <strong>block</strong>.</p>
+        _VALID_PROFILE_HTML
+        + """<div id='storytext'><p>First <strong>block</strong>.</p>
         <p>Second <button>ignored control</button> block.</p></div>""",
         captured_page,
     )
@@ -114,7 +122,8 @@ def test_clean_html_hash_text_separates_nested_blocks_without_spacing_inline_pun
     captured_page: CapturedPage,
 ) -> None:
     result = extract_chapter(
-        (
+        _VALID_PROFILE_HTML
+        + (
             "<div id='storytext'><div><p>Alpha.</p><p>Beta.</p>"
             "<p>With <em>emphasis</em>.</p></div></div>"
         ),
@@ -128,6 +137,53 @@ def test_clean_html_hash_text_separates_nested_blocks_without_spacing_inline_pun
     assert result.blocks[0].html == (
         "<div><p>Alpha.</p><p>Beta.</p><p>With <em>emphasis</em>.</p></div>"
     )
+
+
+def test_clean_html_ignores_direct_story_comments(
+    captured_page: CapturedPage,
+) -> None:
+    result = extract_chapter(
+        (
+            "<div id='profile_top'><h1>Invented Work</h1>"
+            "<a href='/u/7'>Synthetic Author</a></div>"
+            "<div id='storytext'>Alpha<!-- invisible comment -->Beta"
+            "<p>Gamma.</p></div>"
+        ),
+        captured_page,
+    )
+
+    assert [block.text for block in result.blocks] == ["AlphaBeta", "Gamma."]
+    assert result.blocks[0].sha256 == hashlib.sha256(b"AlphaBeta").hexdigest()
+    assert result.blocks[0].html == "<p>AlphaBeta</p>"
+    assert "invisible comment" not in result.html
+
+
+@pytest.mark.parametrize(
+    ("profile_html", "message"),
+    [
+        ("", "missing profile container"),
+        (
+            "<div id='profile_top'><h1>   </h1>"
+            "<a href='/u/7'>Synthetic Author</a></div>",
+            "parsed work title is empty",
+        ),
+        (
+            "<div id='profile_top'><h1>Invented Work</h1>"
+            "<a href='/u/7'>   </a></div>",
+            "parsed author is empty",
+        ),
+    ],
+)
+def test_clean_html_rejects_missing_required_provenance(
+    captured_page: CapturedPage,
+    profile_html: str,
+    message: str,
+) -> None:
+    with pytest.raises(ExtractionError, match=message):
+        extract_chapter(
+            f"{profile_html}<div id='storytext'><p>Invented chapter.</p></div>",
+            captured_page,
+        )
 
 
 def test_only_first_chapter_includes_work_metadata(
@@ -163,7 +219,8 @@ def test_clean_html_preserves_allowed_empty_and_image_blocks_and_original_text(
     captured_page: CapturedPage,
 ) -> None:
     result = extract_chapter(
-        (
+        _VALID_PROFILE_HTML
+        + (
             "<div id='storytext'>"
             "Alpha  &lt;literal&gt;"
             "<hr data-tracking='discard'>"
@@ -211,7 +268,8 @@ def test_clean_html_sanitizes_root_and_nested_subtrees_safely(
     captured_page: CapturedPage,
 ) -> None:
     result = extract_chapter(
-        """<div id="storytext"><p id="root-track" class="styled"
+        _VALID_PROFILE_HTML
+        + """<div id="storytext"><p id="root-track" class="styled"
         style="color:red" onclick="discard()">Before
         <span data-track="discard" onmouseover="discard()">middle
         <form><div><label>control<input value="secret"></label></div></form>
@@ -238,7 +296,8 @@ def test_markdown_annotation_ranges_are_disjoint_and_keep_source_order(
     captured_page: CapturedPage,
 ) -> None:
     raw = (
-        "<div id='storytext'><p>Chapter before.</p><p>Invented note.</p>"
+        _VALID_PROFILE_HTML
+        + "<div id='storytext'><p>Chapter before.</p><p>Invented note.</p>"
         "<p>Invented missing notice.</p><p>Chapter after.</p></div>"
     )
     captured_page.raw_html_path.write_text(raw, encoding="utf-8")
