@@ -4,7 +4,11 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from pathlib import Path
+import re
+import secrets
+import stat
 
 from .merge_pdf import canonical_complete_pdf_name
 from .models import CapturedPage, ManifestRecord, SourceRecord, WorkDiscovery, WorkValidation
@@ -12,6 +16,8 @@ from .models import CapturedPage, ManifestRecord, SourceRecord, WorkDiscovery, W
 
 DATASET_DIRECTORY = Path("data/fanfic-hogwarts-history")
 TOOL_VERSION = "1.0.0"
+SOURCE_ID = re.compile(r"^HAH-FAN-\d{3}$")
+CAPTURE_ID = re.compile(r"^\d{8}T\d{6}Z$")
 
 
 def sha256_file(path: Path) -> str:
@@ -24,12 +30,13 @@ def sha256_file(path: Path) -> str:
 
 def build_manifest(capture_dir: Path) -> list[ManifestRecord]:
     """Validate capture artifacts and write the dataset's sorted manifest."""
-    capture_dir = capture_dir.resolve(strict=True)
-    dataset_root = _dataset_root(capture_dir)
+    capture_dir, dataset_root = _canonical_capture(capture_dir)
+    captures = _included_captures(dataset_root)
+    if capture_dir not in captures:
+        raise ValueError("requested canonical capture is not included")
     records: list[ManifestRecord] = []
-    for candidate in sorted((dataset_root / "works").glob("*/captures/*")):
-        if candidate.is_dir():
-            records.extend(_records_for_capture(candidate, dataset_root))
+    for candidate in captures:
+        records.extend(_records_for_capture(candidate, dataset_root))
     records.sort(key=lambda record: (record.source_id, record.capture_id, record.chapter_index))
     manifest_path = dataset_root / "manifest.jsonl"
     contents = "".join(
@@ -49,10 +56,14 @@ def promote_latest(work_validation: WorkValidation, *, dataset_root: Path | None
     """Advance a work's latest pointer after a passing validation only."""
     if work_validation.status != "pass":
         raise ValueError("latest may only be promoted after validation status pass")
+    if SOURCE_ID.fullmatch(work_validation.source_id) is None:
+        raise ValueError("latest promotion requires a canonical source_id")
+    if CAPTURE_ID.fullmatch(work_validation.capture_id) is None:
+        raise ValueError("latest promotion requires a canonical capture_id")
     root = (dataset_root or _default_dataset_root()).resolve()
-    latest_path = root / "works" / work_validation.source_id / "latest.json"
-    latest_path.parent.mkdir(parents=True, exist_ok=True)
-    latest_path.write_text(
+    work_root = _prepare_latest_parent(root, work_validation.source_id)
+    latest_path = work_root / "latest.json"
+    payload = (
         json.dumps(
             {
                 "capture_id": work_validation.capture_id,
@@ -61,8 +72,12 @@ def promote_latest(work_validation: WorkValidation, *, dataset_root: Path | None
             sort_keys=True,
             separators=(",", ":"),
         )
-        + "\n",
-        encoding="utf-8",
+        + "\n"
+    ).encode("utf-8")
+    _atomic_replace_bytes(
+        work_root,
+        "latest.json",
+        payload,
     )
     return latest_path
 
@@ -80,12 +95,23 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
     if source.source_id != capture_dir.parents[1].name or discovery.source_id != source.source_id:
         raise ValueError("capture metadata source does not match capture directory")
     _require_consecutive(pages, discovery)
+    for page, chapter in zip(pages, discovery.chapters, strict=True):
+        if page.source_id != source.source_id or page.chapter != chapter:
+            raise ValueError("captured page does not match source discovery")
     complete_pdf = capture_dir / "pdf" / canonical_complete_pdf_name(discovery)
     _require_file(complete_pdf)
     result: list[ManifestRecord] = []
     for page in pages:
         index = page.chapter.chapter_index
+        expected_raw = capture_dir / "raw" / f"chapter-{index:03d}.html"
+        expected_metadata_raw = (
+            DATASET_DIRECTORY / expected_raw.relative_to(dataset_root)
+        )
+        if page.raw_html_path != expected_metadata_raw:
+            raise ValueError("captured page raw path is not canonical")
         raw = _metadata_artifact(page.raw_html_path, dataset_root)
+        if raw != expected_raw:
+            raise ValueError("captured page raw artifact is not in its capture")
         clean = capture_dir / "clean" / f"chapter-{index:03d}.html"
         text = capture_dir / "text" / f"chapter-{index:03d}.md"
         chapter_pdf = capture_dir / "pdf" / f"chapter-{index:03d}.pdf"
@@ -123,15 +149,120 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
     return result
 
 
-def _dataset_root(capture_dir: Path) -> Path:
-    for parent in (capture_dir, *capture_dir.parents):
-        if parent.name == "fanfic-hogwarts-history" and parent.parent.name == "data":
-            return parent
-    raise ValueError("capture directory must be inside data/fanfic-hogwarts-history")
+def _canonical_capture(capture_dir: Path) -> tuple[Path, Path]:
+    lexical = (
+        capture_dir
+        if capture_dir.is_absolute()
+        else Path.cwd() / capture_dir
+    )
+    if ".." in lexical.parts:
+        raise ValueError("argument must be an exact canonical capture path")
+    try:
+        resolved = lexical.resolve(strict=True)
+    except (FileNotFoundError, OSError) as error:
+        raise ValueError("argument must be an existing canonical capture") from error
+    if lexical != resolved or not resolved.is_dir():
+        raise ValueError("argument must be an exact canonical capture path")
+    if (
+        resolved.parent.name != "captures"
+        or resolved.parents[2].name != "works"
+        or resolved.parents[3].name != DATASET_DIRECTORY.name
+        or resolved.parents[3].parent.name != DATASET_DIRECTORY.parent.name
+        or SOURCE_ID.fullmatch(resolved.parents[1].name) is None
+        or CAPTURE_ID.fullmatch(resolved.name) is None
+    ):
+        raise ValueError(
+            "argument must be a canonical capture path at "
+            "works/<source>/captures/<capture>"
+        )
+    return resolved, resolved.parents[3]
+
+
+def _included_captures(dataset_root: Path) -> list[Path]:
+    captures: list[Path] = []
+    works_root = dataset_root / "works"
+    for work_root in works_root.iterdir():
+        if (
+            work_root.is_symlink()
+            or not work_root.is_dir()
+            or SOURCE_ID.fullmatch(work_root.name) is None
+        ):
+            continue
+        captures_root = work_root / "captures"
+        if captures_root.is_symlink() or not captures_root.is_dir():
+            continue
+        for candidate in captures_root.iterdir():
+            if (
+                candidate.is_symlink()
+                or not candidate.is_dir()
+                or CAPTURE_ID.fullmatch(candidate.name) is None
+            ):
+                continue
+            captures.append(candidate.resolve(strict=True))
+    return sorted(captures)
 
 
 def _default_dataset_root() -> Path:
     return Path(__file__).resolve().parents[2] / DATASET_DIRECTORY
+
+
+def _prepare_latest_parent(dataset_root: Path, source_id: str) -> Path:
+    dataset_root.mkdir(parents=True, exist_ok=True)
+    if not dataset_root.is_dir():
+        raise ValueError("dataset root is not a directory")
+    current = dataset_root
+    for component in ("works", source_id):
+        candidate = current / component
+        if candidate.is_symlink():
+            raise ValueError(f"latest destination contains a symlink: {candidate}")
+        candidate.mkdir(exist_ok=True)
+        if candidate.is_symlink() or not candidate.is_dir():
+            raise ValueError(f"latest destination contains a symlink: {candidate}")
+        try:
+            candidate.resolve(strict=True).relative_to(dataset_root)
+        except ValueError as error:
+            raise ValueError("latest destination is outside the dataset root") from error
+        current = candidate
+    return current
+
+
+def _atomic_replace_bytes(parent: Path, name: str, payload: bytes) -> None:
+    directory_flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
+    directory_flags |= getattr(os, "O_NOFOLLOW", 0)
+    try:
+        directory = os.open(parent, directory_flags)
+    except OSError as error:
+        raise ValueError("latest destination parent is unsafe") from error
+    temporary = f".{name}.{secrets.token_hex(12)}"
+    created = False
+    try:
+        flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL
+        flags |= getattr(os, "O_NOFOLLOW", 0)
+        descriptor = os.open(temporary, flags, 0o600, dir_fd=directory)
+        created = True
+        with os.fdopen(descriptor, "wb") as handle:
+            handle.write(payload)
+        try:
+            existing = os.stat(name, dir_fd=directory, follow_symlinks=False)
+        except FileNotFoundError:
+            pass
+        else:
+            if stat.S_ISLNK(existing.st_mode):
+                raise ValueError("latest destination is a symlink")
+        os.replace(
+            temporary,
+            name,
+            src_dir_fd=directory,
+            dst_dir_fd=directory,
+        )
+        created = False
+    finally:
+        if created:
+            try:
+                os.unlink(temporary, dir_fd=directory)
+            except FileNotFoundError:
+                pass
+        os.close(directory)
 
 
 def _metadata_artifact(path: Path, dataset_root: Path) -> Path:
