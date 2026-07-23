@@ -145,7 +145,11 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
         if page.source_id != source.source_id or page.chapter != chapter:
             raise ValueError("captured page does not match source discovery")
     complete_pdf = capture_dir / "pdf" / canonical_complete_pdf_name(discovery)
-    _require_file(complete_pdf, capture_dir, dataset_root)
+    complete_pdf_sha256 = _sha256_canonical_file(
+        complete_pdf,
+        capture_dir,
+        dataset_root,
+    )
     result: list[ManifestRecord] = []
     for page in pages:
         index = page.chapter.chapter_index
@@ -161,8 +165,18 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
         clean = capture_dir / "clean" / f"chapter-{index:03d}.html"
         text = capture_dir / "text" / f"chapter-{index:03d}.md"
         chapter_pdf = capture_dir / "pdf" / f"chapter-{index:03d}.pdf"
-        for path in (raw, clean, text, chapter_pdf):
-            _require_file(path, capture_dir, dataset_root)
+        raw_sha256 = _sha256_canonical_file(raw, capture_dir, dataset_root)
+        clean_html_sha256 = _sha256_canonical_file(
+            clean,
+            capture_dir,
+            dataset_root,
+        )
+        text_sha256 = _sha256_canonical_file(text, capture_dir, dataset_root)
+        chapter_pdf_sha256 = _sha256_canonical_file(
+            chapter_pdf,
+            capture_dir,
+            dataset_root,
+        )
         result.append(
             ManifestRecord(
                 capture_id=capture_dir.name,
@@ -184,11 +198,11 @@ def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[Manifest
                 text_path=_relative_dataset_path(text, dataset_root),
                 chapter_pdf_path=_relative_dataset_path(chapter_pdf, dataset_root),
                 complete_pdf_path=_relative_dataset_path(complete_pdf, dataset_root),
-                raw_sha256=sha256_file(raw),
-                clean_html_sha256=sha256_file(clean),
-                text_sha256=sha256_file(text),
-                chapter_pdf_sha256=sha256_file(chapter_pdf),
-                complete_pdf_sha256=sha256_file(complete_pdf),
+                raw_sha256=raw_sha256,
+                clean_html_sha256=clean_html_sha256,
+                text_sha256=text_sha256,
+                chapter_pdf_sha256=chapter_pdf_sha256,
+                complete_pdf_sha256=complete_pdf_sha256,
                 tool_version=TOOL_VERSION,
             )
         )
@@ -444,6 +458,57 @@ def _read_canonical_json_file(
         with os.fdopen(descriptor, "r", encoding="utf-8") as handle:
             descriptor = -1
             return json.load(handle)
+    finally:
+        if descriptor >= 0:
+            os.close(descriptor)
+
+
+def _sha256_canonical_file(
+    path: Path,
+    capture_dir: Path,
+    dataset_root: Path,
+) -> str:
+    expected_status = _require_file(path, capture_dir, dataset_root)
+    flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(path, flags)
+    except OSError as error:
+        raise ValueError(
+            f"required artifact is not a canonical regular file: {path}"
+        ) from error
+    try:
+        opened_status = os.fstat(descriptor)
+        if (
+            not stat.S_ISREG(opened_status.st_mode)
+            or opened_status.st_dev != expected_status.st_dev
+            or opened_status.st_ino != expected_status.st_ino
+        ):
+            raise ValueError(
+                f"required artifact is not a canonical regular file: {path}"
+            )
+        digest = hashlib.sha256()
+        with os.fdopen(descriptor, "rb") as handle:
+            descriptor = -1
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(chunk)
+            final_status = os.fstat(handle.fileno())
+            try:
+                current_status = path.lstat()
+            except OSError as error:
+                raise ValueError(
+                    f"required artifact is not a canonical regular file: {path}"
+                ) from error
+            if (
+                not stat.S_ISREG(current_status.st_mode)
+                or final_status.st_dev != opened_status.st_dev
+                or final_status.st_ino != opened_status.st_ino
+                or current_status.st_dev != opened_status.st_dev
+                or current_status.st_ino != opened_status.st_ino
+            ):
+                raise ValueError(
+                    f"required artifact is not a canonical regular file: {path}"
+                )
+        return digest.hexdigest()
     finally:
         if descriptor >= 0:
             os.close(descriptor)

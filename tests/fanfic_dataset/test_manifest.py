@@ -315,6 +315,74 @@ def test_build_manifest_rejects_symlinked_derived_artifacts(
         build_manifest(capture_dir)
 
 
+@pytest.mark.parametrize(
+    "artifact",
+    [
+        "raw/chapter-001.html",
+        "clean/chapter-001.html",
+        "text/chapter-001.md",
+        "pdf/chapter-001.pdf",
+        "complete-pdf",
+    ],
+)
+def test_build_manifest_rejects_artifact_swapped_after_validation(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    artifact: str,
+) -> None:
+    dataset_root, capture_dir = _synthetic_capture(tmp_path, chapter_count=1)
+    manifest_path = dataset_root / "manifest.jsonl"
+    manifest_sentinel = b"preserve-existing-manifest\n"
+    manifest_path.write_bytes(manifest_sentinel)
+    external_artifact = tmp_path / "external-artifact"
+    external_sentinel = b"external-artifact-must-not-be-hashed"
+    external_artifact.write_bytes(external_sentinel)
+    if artifact == "complete-pdf":
+        metadata = json.loads(
+            (capture_dir / "metadata.json").read_text("utf-8")
+        )
+        discovery = WorkDiscovery.model_validate(metadata["discovery"])
+        artifact_path = (
+            capture_dir / "pdf" / canonical_complete_pdf_name(discovery)
+        )
+    else:
+        artifact_path = capture_dir / artifact
+    original_require_file = manifest_module._require_file
+    swapped = False
+
+    def swap_artifact_after_validation(
+        path: Path,
+        current_capture: Path,
+        current_dataset_root: Path,
+    ) -> os.stat_result:
+        nonlocal swapped
+        validated_status = original_require_file(
+            path,
+            current_capture,
+            current_dataset_root,
+        )
+        if path == artifact_path and not swapped:
+            path.unlink()
+            path.symlink_to(external_artifact)
+            swapped = True
+        return validated_status
+
+    monkeypatch.setattr(
+        manifest_module,
+        "_require_file",
+        swap_artifact_after_validation,
+    )
+
+    with pytest.raises(ValueError, match="canonical regular file"):
+        build_manifest(capture_dir)
+
+    assert swapped
+    assert artifact_path.is_symlink()
+    assert external_artifact.read_bytes() == external_sentinel
+    assert manifest_path.read_bytes() == manifest_sentinel
+    assert not list(dataset_root.glob(".manifest.jsonl.*"))
+
+
 def test_build_manifest_rejects_empty_capture_without_erasing_manifest(
     tmp_path: Path,
 ) -> None:
