@@ -270,8 +270,7 @@ def _render_semantic_html(
             ("Language", metadata["language"]), ("Published", metadata["published"]),
             ("Updated", metadata["updated"]),
         ):
-            if value:
-                _append_text_tag(output, provenance, "p", f"{label}: {value}")
+            _append_text_tag(output, provenance, "p", f"{label}: {value}")
     body.append(provenance)
     story = output.new_tag("main", attrs={"data-role": "story"})
     author_hashes = set(annotations.author_note_block_sha256)

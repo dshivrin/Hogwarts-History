@@ -275,6 +275,47 @@ def test_only_first_chapter_includes_work_metadata(
     assert "Canonical source URL:" in clean_html
 
 
+def test_chapter_one_emits_all_optional_metadata_labels_when_values_are_missing(
+    captured_page: CapturedPage,
+) -> None:
+    raw = (
+        _VALID_PROFILE_HTML
+        + "<div id='storytext'><p>Invented chapter.</p></div>"
+    )
+
+    chapter_one = extract_chapter(raw, captured_page)
+    provenance = BeautifulSoup(chapter_one.html, "html.parser").select_one(
+        "header[data-role='provenance']"
+    )
+
+    assert provenance is not None
+    assert [tag.get_text() for tag in provenance.select("p")] == [
+        "Author: Synthetic Author",
+        "Canonical source URL: https://www.fanfiction.net/s/1/1/invented-work",
+        "Summary: ",
+        "Rating: ",
+        "Language: ",
+        "Published: ",
+        "Updated: ",
+    ]
+
+    chapter_two = extract_chapter(
+        raw,
+        captured_page.model_copy(
+            update={
+                "chapter": captured_page.chapter.model_copy(
+                    update={"chapter_index": 2, "chapter_title": "Later"}
+                )
+            }
+        ),
+    )
+
+    assert all(
+        f"{label}:" not in chapter_two.html
+        for label in ("Summary", "Rating", "Language", "Published", "Updated")
+    )
+
+
 def test_markdown_normalizes_line_endings_nbsp_and_blank_runs() -> None:
     clean_html = """<main data-role='story'><section data-block-kind='chapter-text'>
     <p>One&nbsp;two</p>\r\n\r\n\r\n<p>Three</p></section></main>"""
