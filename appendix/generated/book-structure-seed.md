@@ -43,6 +43,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Hibernation Experiment and Press Exposure
 - Careers After Hogwarts
   - Auror Training and Natural Disguise Talent
+  - Auror preparation in sixth-year subject choices
   - Auror prerequisites and N.E.W.T. course thresholds
   - Fifth-year career advice and vocational pamphlets
 - Charms
@@ -161,6 +162,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
   - Time-Turner Authorization for Overlapping Lessons
+- Transfiguration
+  - Human Transfiguration exercises after O.W.L.s
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
 - Transfiguration and Advanced Spellwork
@@ -224,6 +227,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Arrival at Hogwarts
   - First-Year Gathering Under Staff Substitution
 - Christmas at Hogwarts
+  - Annual decorations and corridor routes
   - Castle Decorations and the Twelve Trees
   - Great Hall Decorations and Dinner
   - Holiday Residence During School Emergencies
@@ -428,8 +432,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Security and Restricted Objects
   - Arrival and Mail Screening
   - Cursed-object attack on the Hogsmeade return route
+  - Disguised contraband and Secrecy Sensor limits
   - Hogsmeade trip screening under wartime precautions
   - Staff investigation after a failed cursed-object attack
+- Security, Discipline, and Wartime Infiltration
+  - Gatecrashing, Head-of-House authority, and covert risk
 - The Second War at School
   - Parental Fear and Protective Measures
 
@@ -484,6 +491,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Prophecy interpretation, relabeling, and Harry's marked status
   - Trelawney's True Prophecy and Later Corroboration
   - Trelawney's appointment interview and the first prophecy
+  - Trelawney's confirmation of shared Divination classes
 - Dumbledore's Private Instruction During the Second War
   - Pensieve lessons in the headmaster's office
 - Examinations and Academic Progression
@@ -1253,6 +1261,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Staff, Students, and Patronage
 
 - Slughorn's Informal Network
+  - Christmas party hospitality and outside guests
   - Parties, alumni guests, and invitee privileges
   - Persistent invitations and student avoidance
   - Private Suppers and Social Selection

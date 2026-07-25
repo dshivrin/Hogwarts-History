@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Fifteen - The Unbreakable Vow
-- Page range: 2669-2687
+- Chapter: Chapter Sixteen - A Very Frosty Christmas
+- Page range: 2688-2708
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+- Output YAML: `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
 
 ## Minimal Context
 

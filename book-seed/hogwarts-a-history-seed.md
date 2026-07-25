@@ -1172,6 +1172,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Corroborates: `ps-ch12-002`. Book 1 Chapter Twelve records twelve Christmas trees and Great Hall decoration; this entry corroborates the usual twelve-tree pattern and adds corridor holly, mistletoe, and lights in suits of armor.
   - Notes: The chapter still does not date the origin of the decorations or identify who enchants the armor lights.
 
+#### Section: Annual decorations and corridor routes
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts Christmas decoration is again described as a recurring custom, with Hagrid delivering twelve Great Hall trees, holly and tinsel on stair banisters, candles in armor, mistletoe in corridors, and secret passages used as alternate routes.
+
+- **Corroboration:** Hogwarts Christmas decoration is again described as a recurring custom, with Hagrid delivering twelve Great Hall trees, holly and tinsel on stair banisters, candles in armor, mistletoe in corridors, and secret passages used as alternate routes.
+  - Quote: "the usual twelve Christmas trees for the Great Hall"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2669, `hbp-ch15-001`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `poa-ch11-004`, `gof-ch22-003`. poa-ch11-004 and gof-ch22-003 already record Christmas decorations and the twelve Great Hall trees; this entry adds Hagrid's delivery role, banister decorations, mistletoe corridor blockages, and secret-passage detours.
+  - Notes: The passage does not explain when the Christmas decoration tradition began or who enchants the candles.
+
 #### Section: Great Hall Decorations and Dinner
 
 Summary: The available evidence includes 2 source items, led by: The chapter gives another observed Christmas dinner at Hogwarts, adding enchanted warm dry snow, carols led by Dumbledore, and seasonal Great Hall decorations.
@@ -2388,6 +2400,18 @@ Summary: The available evidence includes 1 source item, led by: Tonks supplies r
   - Reference type: curriculum_or_subject
   - Notes: Tonks gives informal career evidence rather than a full Auror curriculum or Hogwarts prerequisite list.
 
+#### Section: Auror preparation in sixth-year subject choices
+
+Summary: The available evidence includes 1 source item, led by: Harry's sixth-year course load is framed as Auror preparation, with Defense Against the Dark Arts, Charms, Transfiguration, Herbology, and Potions contextually present as advanced subjects tied to the career path.
+
+- **Corroboration:** Harry's sixth-year course load is framed as Auror preparation, with Defense Against the Dark Arts, Charms, Transfiguration, Herbology, and Potions contextually present as advanced subjects tied to the career path.
+  - Quote: "All the subjects required, in short, for an Auror"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2683, `hbp-ch15-006`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch29-004`, `hbp-ch05-007`, `hbp-ch09-001`. ootp-ch29-004 records the formal Auror prerequisites, hbp-ch05-007 records post-O.W.L. consequences for that path, and hbp-ch09-001 records schedule placement; this entry adds a later staff-side confirmation that Harry's active sixth-year subjects collectively read as Auror preparation.
+  - Notes: Slughorn asks for only a partial subject list before Snape summarizes the career fit; the passage assumes prior Potions context from the party conversation.
+
 #### Section: Auror prerequisites and N.E.W.T. course thresholds
 
 Summary: The available evidence includes 1 source item, led by: The Auror pathway requires high N.E.W.T. results, character and aptitude tests, strong practical Defense, and subject preparation in Defense, Transfiguration, Charms, and Potions, with teacher-specific N.E.W.T. entry thresholds.
@@ -3186,6 +3210,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione explain
   - Reference type: curriculum_or_subject
   - Corroborates: `poa-ch06-001`. Book 3 Chapter Six records Hermione's impossible-looking third-year elective timetable; this entry identifies the Time-Turner and approval process behind it.
   - Notes: The source does not give the Ministry department, written conditions, or whether similar devices were ever granted to other students.
+
+### Chapter: Transfiguration
+
+#### Section: Human Transfiguration exercises after O.W.L.s
+
+Summary: The available evidence includes 1 source item, led by: Sixth-year Transfiguration has advanced into human Transfiguration, with students working in front of mirrors to alter their own eyebrows and producing visible partial failures.
+
+- **Corroboration:** Sixth-year Transfiguration has advanced into human Transfiguration, with students working in front of mirrors to alter their own eyebrows and producing visible partial failures.
+  - Quote: "changing the color of their own eyebrows"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2674, `hbp-ch15-003`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch11-001`. hbp-ch11-001 records the general difficulty of sixth-year N.E.W.T. classes and Transfiguration workload; this entry adds the specific human Transfiguration exercise and mirror-based classroom practice.
+  - Notes: The scene does not give the incantation, textbook, grading standard, or full lesson sequence.
 
 ### Chapter: Transfiguration and Advanced Magical Transformations
 
@@ -7670,6 +7708,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore heard
   - Corroborates: `poa-ch16-005`, `gof-ch10-005`, `ootp-ch16-002`. poa-ch16-005 and gof-ch10-005 establish Trelawney's rare true-prophecy pattern, while ootp-ch16-002 describes the Hog's Head; this entry adds the original Divination interview, first prophecy setting, and Pensieve replay.
   - Notes: The chapter gives Dumbledore's memory of the interview rather than an independent Ministry record of the hiring decision.
 
+#### Section: Trelawney's confirmation of shared Divination classes
+
+Summary: The available evidence includes 1 source item, led by: Trelawney directly confirms that after her return to Hogwarts she and Firenze both teach Divination classes, corroborating dual staffing of the subject.
+
+- **Corroboration:** Trelawney directly confirms that after her return to Hogwarts she and Firenze both teach Divination classes, corroborating dual staffing of the subject.
+  - Quote: "we share classes"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2681, `hbp-ch15-005`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ootp-ch38-003`, `ootp-ch26-007`, `ootp-ch27-001`. ootp-ch38-003 already reports that Firenze and Trelawney both appear to teach Divination, while ootp-ch26-007 and ootp-ch27-001 cover Firenze's appointment and classroom; this entry adds Trelawney's direct statement that they share classes.
+  - Notes: Trelawney's tone is hostile and informal, and the passage does not show the timetable or number of sections each teacher handles.
+
 ### Chapter: Dumbledore's Private Instruction During the Second War
 
 #### Section: Pensieve lessons in the headmaster's office
@@ -10609,6 +10659,18 @@ Summary: The available evidence includes 1 source item, led by: A cursed opal ne
   - Reference type: security_or_protection
   - Notes: The chapter does not confirm who gave Katie the package or whether Imperius was actually used.
 
+#### Section: Disguised contraband and Secrecy Sensor limits
+
+Summary: The available evidence includes 1 source item, led by: Banned Weasleys' Wizard Wheezes products can still enter Hogwarts when sent by owl disguised as ordinary goods; Hermione distinguishes Secrecy Sensors, which detect jinxes, curses, concealment charms, Dark Magic, and Dark objects, from Filch's weaker ability to identify mislabeled potions.
+
+- **Corroboration:** Banned Weasleys' Wizard Wheezes products can still enter Hogwarts when sent by owl disguised as ordinary goods; Hermione distinguishes Secrecy Sensors, which detect jinxes, curses, concealment charms, Dark Magic, and Dark objects, from Filch's weaker ability to identify mislabeled potions.
+  - Quote: "disguised as perfumes and cough potions"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2671, `hbp-ch15-002`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch11-007`, `hbp-ch12-002`. hbp-ch11-007 records arrival and owl-post screening, and hbp-ch12-002 records Hogsmeade Secrecy Sensor checks; this entry adds disguised commercial love potions and explains why non-Dark mislabeled potions can evade sensor-based detection.
+  - Notes: Hermione explains the mechanism in conversation; the passage does not show Filch inspecting a disguised potion directly.
+
 #### Section: Hogsmeade trip screening under wartime precautions
 
 Summary: The available evidence includes 1 source item, led by: Wartime Hogsmeade visits still occur, but Filch verifies permission lists at the oak front doors and triple-checks students with a Secrecy Sensor as they leave and return.
@@ -10632,6 +10694,20 @@ Summary: The available evidence includes 1 source item, led by: McGonagall manag
   - Reference type: security_or_protection
   - Corroborates: `hbp-ch11-007`, `cos-ch15-001`, `gof-ch17-007`. hbp-ch11-007 records wartime screening for Dark objects, cos-ch15-001 records crisis hospital-wing restrictions, and gof-ch17-007 records Fat Lady/password access; this entry adds post-attack object handling, witness questioning, Malfoy's Transfiguration detention alibi, and the current Gryffindor password.
   - Notes: The investigation remains preliminary in this chapter, and the real sender, target, and curse mechanics are not yet confirmed.
+
+### Chapter: Security, Discipline, and Wartime Infiltration
+
+#### Section: Gatecrashing, Head-of-House authority, and covert risk
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts nighttime movement rules and party access are enforced by Filch, but punishment can be softened by a hosting professor; Snape asserts Head-of-House authority over Draco and connects misconduct, office summons, possible expulsion, detention, and Defense Against the Dark Arts O.W.L. work to a hidden wartime mission.
+
+- **Corroboration:** Hogwarts nighttime movement rules and party access are enforced by Filch, but punishment can be softened by a hosting professor; Snape asserts Head-of-House authority over Draco and connects misconduct, office summons, possible expulsion, detention, and Defense Against the Dark Arts O.W.L. work to a hidden wartime mission.
+  - Quote: "I'm his Head of House"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2684, `hbp-ch15-007`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ps-ch09-005`, `cos-ch05-005`, `hbp-ch02-006`. ps-ch09-005 records nighttime wandering as rule-breaking, cos-ch05-005 records Head-of-House disciplinary responsibility, and hbp-ch02-006 records the Unbreakable Vow context; this entry adds party gatecrashing, Slughorn's leniency, Snape's direct Head-of-House intervention, and the wartime stakes around Draco's covert plan.
+  - Notes: Much of the deeper wartime context is overheard through a door, and Draco's full plan remains concealed in this chapter.
 
 ### Chapter: The Second War at School
 
@@ -11204,6 +11280,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid's confess
 ## Part: Staff, Students, and Patronage
 
 ### Chapter: Slughorn's Informal Network
+
+#### Section: Christmas party hospitality and outside guests
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's Christmas party turns his office into an expanded, tentlike social space with food-bearing house-elves, music, nonstudent guests, an old student author, and a vampire, making the Slug Club network visible inside Hogwarts.
+
+- **Corroboration:** Slughorn's Christmas party turns his office into an expanded, tentlike social space with food-bearing house-elves, music, nonstudent guests, an old student author, and a vampire, making the Slug Club network visible inside Hogwarts.
+  - Quote: "so many people I'd like you to meet"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, PDF p. 2678, `hbp-ch15-004`, `sources/book-06/chapter-15-the-unbreakable-vow.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch04-006`, `hbp-ch07-005`, `hbp-ch11-006`, `hbp-ch14-002`. Earlier HBP entries record Slughorn's patronage model, train recruitment, private suppers, and party invitations; this entry adds the observed Christmas-party setting, house-elf catering, office enlargement or trickery, and named outside guests.
+  - Notes: The passage does not state whether all invited adults are alumni or what formal permission governs external guests at staff parties.
 
 #### Section: Parties, alumni guests, and invitee privileges
 
