@@ -157,7 +157,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Slug Club as an informal student network
 - Textbooks, Marginalia, and Informal Knowledge
   - Continued use of the Half-Blood Prince's annotated Potions book
+  - Dating the Half-Blood Prince's annotated book
   - Marginal spellcraft and unapproved incantations
+  - Student jinx fashions before 1984
   - The Half-Blood Prince's annotated Potions book
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
@@ -568,6 +570,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Magical Evidence and Investigation
   - Wand Spell Echoes and Prior Incantato
 - Magical Oaths and Wartime Obligations
+  - Consequences of the Unbreakable Vow
   - Unbreakable Vow procedure
 - Magical Residents of the Grounds
   - Grawp relocated from the Forest to a mountain cave
@@ -646,6 +649,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementors in Little Whinging
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
+- The Second War and Hogwarts Governance
+  - Ministry pressure, Harry's public role, and Dumbledore's independence
 - The Second War and Hogwarts Information Climate
   - Alternative press and Harry's Quibbler interview
   - Alternative press reaches Hogwarts by owl post
@@ -669,6 +674,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Original Order Roster and First War Casualties
 - The Second War and Hogwarts-Connected Staff
   - Retired staff evasion before returning to Hogwarts
+- The Second War and Magical Beings
+  - Werewolf recruitment and Order intelligence
 - The Second War and Ministry Casualties
   - Amelia Bones's murder and Muggle ignorance
 - The Second War and Muggle-Facing Secrecy
@@ -678,6 +685,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Diagon Alley under wartime security pressure
 - The Second War and Student Life
   - Death Eater service versus Hogwarts qualifications
+- The Second War and Student Protection
+  - Off-campus protection under Dumbledore's direction
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -1182,6 +1191,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Confidentiality and Near-Miss Safety Incidents
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
+  - Wolfsbane Potion and werewolf accommodation
 - Start-of-Term Notices
   - Forbidden joke items and House Quidditch signups
 - Student Conduct Beyond School

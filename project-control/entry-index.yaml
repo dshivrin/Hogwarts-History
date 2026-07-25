@@ -14544,6 +14544,114 @@ by_entry:
     - wartime-security
     source_unit: hbp-ch15
     output_yaml: sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  hbp-ch16-001:
+    title: 'Magical Oaths and Wartime Obligations: Consequences of the Unbreakable
+      Vow'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - arthur-weasley
+    - fred-and-george
+    - magical-contracts
+    - magical-oaths
+    - unbreakable-vow
+    - wizarding-households
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  hbp-ch16-002:
+    title: 'The Second War and Student Protection: Off-campus protection under Dumbledore''s
+      direction'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - burrow-security
+    - draco-malfoy
+    - dumbledore-protection
+    - harry-potter
+    - restricted-movement
+    - snape
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  hbp-ch16-003:
+    title: 'Staff Appointments and School Safety: Wolfsbane Potion and werewolf accommodation'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - draco-malfoy
+    - dumbledore-judgment
+    - professor-snape
+    - remus-lupin
+    - staff-accommodation
+    - werewolf-professor
+    - wolfsbane-potion
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  hbp-ch16-004:
+    title: 'The Second War and Magical Beings: Werewolf recruitment and Order intelligence'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - child-safety
+    - dumbledore
+    - fenrir-greyback
+    - order-of-the-phoenix
+    - second-war
+    - voldemort
+    - werewolf-spy
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  hbp-ch16-005:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: Student jinx fashions before
+      1984'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - half-blood-prince
+    - james-potter
+    - levicorpus
+    - marauders-era
+    - remus-lupin
+    - school-jinxes
+    - student-spellcraft
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  hbp-ch16-006:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: Dating the Half-Blood Prince''s
+      annotated book'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - half-blood-prince
+    - marauders-era
+    - old-textbook
+    - potions
+    - publication-date
+    - school-textbooks
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  hbp-ch16-007:
+    title: 'The Second War and Hogwarts Governance: Ministry pressure, Harry''s public
+      role, and Dumbledore''s independence'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - auror-office
+    - chosen-one
+    - dumbledore
+    - hogwarts-headmaster
+    - ministry-interference
+    - ministry-publicity
+    - scrimgeour
+    source_unit: hbp-ch16
+    output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -14612,6 +14720,7 @@ by_tag:
   - hbp-ch09-007
   - hbp-ch10-001
   - hbp-ch12-003
+  - hbp-ch16-006
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -14770,6 +14879,7 @@ by_tag:
   - ootp-ch10-006
   - ps-ch06-006
   arthur-weasley:
+  - hbp-ch16-001
   - ootp-ch07-006
   - ootp-ch21-007
   artifact-accidents:
@@ -14809,6 +14919,8 @@ by_tag:
   - gof-ch13-007
   auror-headquarters:
   - ootp-ch07-005
+  auror-office:
+  - hbp-ch16-007
   auror-task-force:
   - hbp-ch03-002
   auror-tools:
@@ -15112,6 +15224,8 @@ by_tag:
   - poa-ch15-004
   burrow:
   - hbp-ch05-003
+  burrow-security:
+  - hbp-ch16-002
   butterbeer:
   - gof-ch28-001
   captain-office:
@@ -15387,6 +15501,8 @@ by_tag:
   - gof-ch24-006
   cheering-charms:
   - poa-ch15-003
+  child-safety:
+  - hbp-ch16-004
   chocolate-frog-card:
   - ps-ch13-001
   chocolate-remedy:
@@ -15394,6 +15510,7 @@ by_tag:
   chosen-one:
   - hbp-ch03-001
   - hbp-ch07-003
+  - hbp-ch16-007
   christmas:
   - gof-ch22-003
   - gof-ch23-001
@@ -16198,6 +16315,8 @@ by_tag:
   - hbp-ch06-007
   - hbp-ch07-007
   - hbp-ch15-007
+  - hbp-ch16-002
+  - hbp-ch16-003
   dragon-breeds:
   - gof-ch20-006
   dragon-egg:
@@ -16292,6 +16411,8 @@ by_tag:
   - hbp-ch11-002
   - hbp-ch12-001
   - hbp-ch13-003
+  - hbp-ch16-004
+  - hbp-ch16-007
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -16367,6 +16488,8 @@ by_tag:
   - ps-ch15-003
   - ps-ch17-001
   - ps-ch17-003
+  dumbledore-judgment:
+  - hbp-ch16-003
   dumbledore-office:
   - cos-ch11-007
   - cos-ch12-001
@@ -16381,6 +16504,8 @@ by_tag:
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
+  dumbledore-protection:
+  - hbp-ch16-002
   dumbledores-army:
   - hbp-ch07-004
   - ootp-ch15-007
@@ -16689,6 +16814,7 @@ by_tag:
   - hbp-ch14-006
   fenrir-greyback:
   - hbp-ch06-007
+  - hbp-ch16-004
   fidelius:
   - hbp-ch02-004
   field-booking:
@@ -16990,6 +17116,7 @@ by_tag:
   fred-and-george:
   - gof-ch04-005
   - gof-ch05-004
+  - hbp-ch16-001
   - ootp-ch04-006
   fred-george:
   - ootp-ch29-007
@@ -17470,6 +17597,8 @@ by_tag:
   - hbp-ch09-007
   - hbp-ch10-001
   - hbp-ch12-003
+  - hbp-ch16-005
+  - hbp-ch16-006
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -17502,6 +17631,7 @@ by_tag:
   - gof-ch34-001
   - hbp-ch02-005
   - hbp-ch04-007
+  - hbp-ch16-002
   - ootp-ch04-007
   - ootp-ch15-007
   - ootp-ch34-007
@@ -17922,6 +18052,8 @@ by_tag:
   - poa-ch17-004
   - poa-ch18-006
   - poa-ch19-007
+  hogwarts-headmaster:
+  - hbp-ch16-007
   hogwarts-headmasters:
   - ootp-ch06-005
   hogwarts-heads:
@@ -18413,6 +18545,7 @@ by_tag:
   invisibility-spell:
   - ootp-ch24-007
   james-potter:
+  - hbp-ch16-005
   - ootp-ch29-006
   - ootp-ch38-005
   - poa-ch10-006
@@ -18568,6 +18701,7 @@ by_tag:
   - ootp-ch08-001
   levicorpus:
   - hbp-ch12-003
+  - hbp-ch16-005
   levitation:
   - ps-ch10-001
   libatius-borage:
@@ -18831,6 +18965,8 @@ by_tag:
   - gof-ch16-003
   - gof-ch17-003
   - gof-ch17-004
+  magical-contracts:
+  - hbp-ch16-001
   magical-control:
   - hbp-ch13-007
   magical-creature-law:
@@ -18921,6 +19057,7 @@ by_tag:
   - hbp-ch15-003
   magical-oaths:
   - hbp-ch02-006
+  - hbp-ch16-001
   magical-object:
   - gof-ch17-005
   magical-objects:
@@ -19052,6 +19189,8 @@ by_tag:
   - ootp-ch38-005
   - poa-ch18-005
   marauders-era:
+  - hbp-ch16-005
+  - hbp-ch16-006
   - ootp-ch28-007
   marauders-map:
   - gof-ch04-002
@@ -19220,6 +19359,8 @@ by_tag:
   - hbp-ch10-005
   ministry-influence:
   - ootp-ch09-001
+  ministry-interference:
+  - hbp-ch16-007
   ministry-intervention:
   - gof-ch36-004
   - ootp-ch11-006
@@ -19326,6 +19467,7 @@ by_tag:
   - hbp-ch04-002
   ministry-publicity:
   - hbp-ch07-003
+  - hbp-ch16-007
   ministry-punishment:
   - hbp-ch13-005
   ministry-register:
@@ -19682,6 +19824,8 @@ by_tag:
   - cos-ch03-002
   old-punishments:
   - ps-ch15-004
+  old-textbook:
+  - hbp-ch16-006
   older-student:
   - gof-ch17-003
   olive-hornby:
@@ -19737,6 +19881,7 @@ by_tag:
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
+  - hbp-ch16-004
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch04-004
@@ -20150,6 +20295,7 @@ by_tag:
   - hbp-ch10-001
   - hbp-ch14-006
   - hbp-ch15-006
+  - hbp-ch16-006
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -20387,6 +20533,7 @@ by_tag:
   - gof-ch35-007
   - gof-ch36-001
   - gof-ch36-006
+  - hbp-ch16-003
   - ootp-ch12-004
   - poa-ch09-005
   - poa-ch10-001
@@ -20489,6 +20636,8 @@ by_tag:
   - ootp-ch11-007
   public-rumor:
   - hbp-ch02-005
+  publication-date:
+  - hbp-ch16-006
   puffskeins:
   - hbp-ch06-006
   punishment:
@@ -20682,6 +20831,8 @@ by_tag:
   - ootp-ch24-001
   - ootp-ch28-006
   remus-lupin:
+  - hbp-ch16-003
+  - hbp-ch16-005
   - ootp-ch09-006
   - ootp-ch29-006
   - ootp-ch35-007
@@ -20703,6 +20854,8 @@ by_tag:
   - cos-ch12-004
   restricted-magic:
   - hbp-ch06-006
+  restricted-movement:
+  - hbp-ch16-002
   restricted-objects:
   - hbp-ch12-002
   - hbp-ch15-002
@@ -20889,6 +21042,8 @@ by_tag:
   - cos-ch12-007
   - cos-ch18-001
   - ootp-ch29-006
+  school-jinxes:
+  - hbp-ch16-005
   school-legend:
   - ootp-ch30-001
   - ootp-ch38-002
@@ -21017,6 +21172,7 @@ by_tag:
   school-textbooks:
   - hbp-ch09-007
   - hbp-ch10-001
+  - hbp-ch16-006
   school-traditions:
   - cos-ch08-004
   - cos-ch11-001
@@ -21041,6 +21197,8 @@ by_tag:
   - gof-ch20-007
   - gof-ch26-005
   - ps-ch11-005
+  scrimgeour:
+  - hbp-ch16-007
   sealed-entrances:
   - poa-ch14-005
   seasonal-decorations:
@@ -21071,6 +21229,7 @@ by_tag:
   - hbp-ch07-007
   - hbp-ch11-002
   - hbp-ch12-001
+  - hbp-ch16-004
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -21384,6 +21543,7 @@ by_tag:
   - hbp-ch04-007
   - hbp-ch08-005
   - hbp-ch12-007
+  - hbp-ch16-002
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -21511,6 +21671,7 @@ by_tag:
   staff-absence:
   - ootp-ch20-006
   staff-accommodation:
+  - hbp-ch16-003
   - poa-ch18-002
   - poa-ch20-002
   staff-and-students:
@@ -21924,6 +22085,7 @@ by_tag:
   student-spellcraft:
   - hbp-ch10-001
   - hbp-ch12-003
+  - hbp-ch16-005
   student-store-cupboard:
   - cos-ch10-002
   student-study:
@@ -22421,6 +22583,7 @@ by_tag:
   - ootp-ch22-003
   unbreakable-vow:
   - hbp-ch02-006
+  - hbp-ch16-001
   underage-magic:
   - cos-ch01-005
   - cos-ch02-005
@@ -22569,6 +22732,7 @@ by_tag:
   - hbp-ch02-005
   - hbp-ch04-002
   - hbp-ch10-003
+  - hbp-ch16-004
   - ootp-ch05-005
   - ootp-ch06-004
   - ootp-ch15-007
@@ -22697,6 +22861,10 @@ by_tag:
   - poa-ch22-003
   werewolf-bite:
   - ootp-ch22-007
+  werewolf-professor:
+  - hbp-ch16-003
+  werewolf-spy:
+  - hbp-ch16-004
   werewolves:
   - cos-ch15-003
   - ootp-ch28-007
@@ -22790,6 +22958,7 @@ by_tag:
   wizarding-households:
   - cos-ch02-001
   - gof-ch03-002
+  - hbp-ch16-001
   wizarding-ideology:
   - ootp-ch09-002
   wizarding-institutions:
@@ -22844,6 +23013,7 @@ by_tag:
   - ootp-ch08-007
   wolfsbane-potion:
   - hbp-ch07-006
+  - hbp-ch16-003
   - poa-ch18-002
   - poa-ch19-001
   - poa-ch20-002

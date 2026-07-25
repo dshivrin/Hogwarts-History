@@ -3161,6 +3161,18 @@ Summary: The available evidence includes 1 source item, led by: Harry continues 
   - Corroborates: `hbp-ch09-007`. hbp-ch09-007 records the first discovery and classroom impact of the annotated textbook; this entry adds sustained use over several lessons and non-Potions spell marginalia.
   - Notes: The passage still does not identify the owner or show whether the invented spells were ever sanctioned by Hogwarts staff.
 
+#### Section: Dating the Half-Blood Prince's annotated book
+
+Summary: The available evidence includes 1 source item, led by: Harry checks the publication date of his Advanced Potion-Making copy and determines that the textbook predates the Marauders' Hogwarts years by decades.
+
+- **Corroboration:** Harry checks the publication date of his Advanced Potion-Making copy and determines that the textbook predates the Marauders' Hogwarts years by decades.
+  - Quote: "It was nearly fifty years old"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2698, `hbp-ch16-006`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch09-007`, `hbp-ch10-001`, `hbp-ch12-003`. hbp-ch09-007 records the initial discovery of the annotated book, hbp-ch10-001 records continued use, and hbp-ch12-003 records named marginal spells; this entry adds the publication-date clue that places the book nearly fifty years before Harry's sixth year.
+  - Notes: The publication date dates the printed book, not necessarily the exact year when the Prince wrote the annotations.
+
 #### Section: Marginal spellcraft and unapproved incantations
 
 Summary: The available evidence includes 1 source item, led by: The Half-Blood Prince's textbook marginalia includes self-invented jinxes and hexes, the privacy spell Muffliato, the nonverbal Levicorpus, and the counter-jinx Liberacorpus, raising student concerns about unapproved handwritten incantations.
@@ -3172,6 +3184,18 @@ Summary: The available evidence includes 1 source item, led by: The Half-Blood P
   - Reference type: explicit_in_universe_source
   - Corroborates: `hbp-ch09-007`, `hbp-ch10-001`, `hbp-ch09-003`. hbp-ch09-007 records the first discovery of the annotated textbook, hbp-ch10-001 records continued use and non-Potions marginalia, and hbp-ch09-003 records sixth-year nonverbal spell instruction; this entry adds named marginal spells, counter-jinx evidence, and Hermione's Ministry-approval concern.
   - Notes: Harry infers that the Prince invented the spells, and Hermione's Ministry-approval comment is an objection rather than a quoted regulation.
+
+#### Section: Student jinx fashions before 1984
+
+Summary: The available evidence includes 1 source item, led by: Lupin confirms that Levicorpus was widely fashionable during his fifth year at Hogwarts and frames jinxes as student spells that come and go in popularity.
+
+- **Corroboration:** Lupin confirms that Levicorpus was widely fashionable during his fifth year at Hogwarts and frames jinxes as student spells that come and go in popularity.
+  - Quote: "a great vogue during my time at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2697, `hbp-ch16-005`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch12-003`, `ootp-ch28-007`. hbp-ch12-003 records Levicorpus as a Prince marginal spell, and ootp-ch28-007 records Marauders-era hexing culture; this entry adds Lupin's direct dating of Levicorpus as a months-long fifth-year Hogwarts fashion.
+  - Notes: Lupin cannot confirm whether the Prince invented Levicorpus or whether the spell was ever formally taught.
 
 #### Section: The Half-Blood Prince's annotated Potions book
 
@@ -4157,6 +4181,18 @@ Summary: The available evidence includes 2 source items, led by: The chapter nam
   - Reference type: security_or_protection
   - Corroborates: `poa-ch18-002`. Book 3 Chapter Eighteen explains Wolfsbane Potion as a recent safety measure for Lupin; this entry adds the observed consequence when he misses the potion during a full-moon incident on the grounds.
   - Notes: The scene is an exceptional crisis, not a formal account of Hogwarts accommodation policy or medical supervision.
+
+#### Section: Wolfsbane Potion and werewolf accommodation
+
+Summary: The available evidence includes 1 source item, led by: Lupin retrospectively confirms that Snape brewed Wolfsbane perfectly every month during Lupin's Hogwarts teaching year, while also acknowledging that Snape later revealed Lupin's werewolf status.
+
+- **Corroboration:** Lupin retrospectively confirms that Snape brewed Wolfsbane perfectly every month during Lupin's Hogwarts teaching year, while also acknowledging that Snape later revealed Lupin's werewolf status.
+  - Quote: "Severus made the Wolfsbane Potion for me every month"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2694, `hbp-ch16-003`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `poa-ch18-002`, `poa-ch20-002`. poa-ch18-002 explains Wolfsbane Potion as Lupin's Harry-era safety measure, and poa-ch20-002 shows the failure mode when he misses it; this entry adds Lupin's later confirmation that Snape brewed it perfectly every month and that Snape's disclosure still ended Lupin's post.
+  - Notes: Lupin is speaking informally at Christmas and does not describe a written Hogwarts policy for werewolf staff appointments.
 
 ### Chapter: Start-of-Term Notices
 
@@ -8353,6 +8389,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 ### Chapter: Magical Oaths and Wartime Obligations
 
+#### Section: Consequences of the Unbreakable Vow
+
+Summary: The available evidence includes 1 source item, led by: Ron supplies household-level magical knowledge that an Unbreakable Vow is lethal if broken and serious enough that Arthur reacted furiously when Fred and George nearly induced Ron to make one as a child.
+
+- **Corroboration:** Ron supplies household-level magical knowledge that an Unbreakable Vow is lethal if broken and serious enough that Arthur reacted furiously when Fred and George nearly induced Ron to make one as a child.
+  - Quote: "you can't break an Unbreakable Vow"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2688, `hbp-ch16-001`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch02-006`. hbp-ch02-006 records the Unbreakable Vow procedure and Bonder role; this entry adds Ron's explicit statement that breaking the Vow causes death and a childhood misuse example.
+  - Notes: Ron is explaining from family knowledge rather than citing legal text or formal instruction.
+
 #### Section: Unbreakable Vow procedure
 
 Summary: The available evidence includes 1 source item, led by: The scene demonstrates the Unbreakable Vow procedure: the parties clasp right hands, a Bonder touches them with a wand, and each sworn promise produces binding tongues of flame.
@@ -9060,6 +9108,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: explicit_in_universe_source
   - Notes: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
 
+### Chapter: The Second War and Hogwarts Governance
+
+#### Section: Ministry pressure, Harry's public role, and Dumbledore's independence
+
+Summary: The available evidence includes 1 source item, led by: Scrimgeour says Dumbledore blocked Ministry access to Harry, tries to use Harry's Chosen One reputation for public morale, offers Auror access, and asks about Dumbledore's absences from Hogwarts.
+
+- **Corroboration:** Scrimgeour says Dumbledore blocked Ministry access to Harry, tries to use Harry's Chosen One reputation for public morale, offers Auror access, and asks about Dumbledore's absences from Hogwarts.
+  - Quote: "Dumbledore has been very protective of you"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2703, `hbp-ch16-007`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch03-001`, `hbp-ch07-003`. hbp-ch03-001 records public Chosen One rumors, and hbp-ch07-003 records their effect on student and teacher attention; this entry adds Scrimgeour's direct attempt to turn that reputation into Ministry propaganda and a probe into Dumbledore's Hogwarts absences.
+  - Notes: The exchange occurs off campus at the Burrow and presents Ministry motives through a private political approach rather than a formal decree.
+
 ### Chapter: The Second War and Hogwarts Information Climate
 
 #### Section: Alternative press and Harry's Quibbler interview
@@ -9280,6 +9342,20 @@ Summary: The available evidence includes 1 source item, led by: Slughorn uses an
   - Reference type: security_or_protection
   - Notes: The evidence is off-campus and about Slughorn's personal evasion rather than a Hogwarts institution or ordinary school practice.
 
+### Chapter: The Second War and Magical Beings
+
+#### Section: Werewolf recruitment and Order intelligence
+
+Summary: The available evidence includes 1 source item, led by: Lupin reports that Dumbledore assigned him to live among werewolves as an Order spy and identifies Fenrir Greyback as Voldemort's child-targeting werewolf recruiter.
+
+- **Corroboration:** Lupin reports that Dumbledore assigned him to live among werewolves as an Order spy and identifies Fenrir Greyback as Voldemort's child-targeting werewolf recruiter.
+  - Quote: "Dumbledore wanted a spy and here I was"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2696, `hbp-ch16-004`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch02-002`. hbp-ch02-002 records Snape's claimed Hogwarts intelligence role for Voldemort and the Order; this entry adds Dumbledore's separate use of Lupin as a werewolf-community spy and identifies Greyback's child-focused recruitment threat.
+  - Notes: The evidence comes from Lupin's personal report and does not document the full Order mission or Greyback's later actions at Hogwarts.
+
 ### Chapter: The Second War and Ministry Casualties
 
 #### Section: Amelia Bones's murder and Muggle ignorance
@@ -9344,6 +9420,19 @@ Summary: The available evidence includes 1 source item, led by: Draco treats Hog
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: historical_claim
   - Notes: Malfoy is boasting to peers and concealing details; the evidence confirms his stated attitude, not the full mission or Voldemort's actual credential policy.
+
+### Chapter: The Second War and Student Protection
+
+#### Section: Off-campus protection under Dumbledore's direction
+
+Summary: The available evidence includes 1 source item, led by: Harry treats Dumbledore's off-campus instruction as binding during his Burrow stay and identifies Dumbledore as the primary authority for acting on the Snape-Malfoy information.
+
+- **Context:** Harry treats Dumbledore's off-campus instruction as binding during his Burrow stay and identifies Dumbledore as the primary authority for acting on the Snape-Malfoy information.
+  - Quote: "I promised Dumbledore I wouldn't wander off"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, PDF p. 2691, `hbp-ch16-002`, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The passage does not state the precise protective arrangement or whether it was coordinated with the Ministry, the Order, or the Weasley household.
 
 ### Chapter: The Sirius Black Crisis
 
