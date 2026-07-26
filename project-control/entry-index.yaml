@@ -14869,6 +14869,118 @@ by_entry:
     - wartime-security
     source_unit: hbp-ch18
     output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch19-001:
+    title: 'Student Health and the Hospital Wing: Visitor limits, remedies, and discharge
+      authority'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - hospital-wing
+    - madam-pomfrey
+    - medical-discharge
+    - poisoning
+    - quidditch-injury
+    - student-health
+    - visitor-control
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch19-002:
+    title: 'Crisis Authority and School Closure: Wartime attacks and board-of-governors
+      closure pressure'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - board-of-governors
+    - chamber-of-secrets
+    - parent-withdrawals
+    - school-closure
+    - school-safety
+    - student-attacks
+    - wartime-security
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch19-003:
+    title: 'Staff Authority and Internal Investigations: Head-of-House inquiries after
+      the cursed necklace attack'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - dumbledore
+    - heads-of-house
+    - katie-bell
+    - slytherin
+    - snape
+    - staff-investigation
+    - wartime-security
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch19-004:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Wall-disguised shortcut toward
+      Potions'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - castle-navigation
+    - filch
+    - gryffindor-tower
+    - hidden-door
+    - portrait-hole
+    - potions
+    - secret-passageways
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch19-005:
+    title: 'Quidditch and House Competition: Replacement Keeper, commentary, and match
+      supervision'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - commentators
+    - house-teams
+    - madam-hooch
+    - professor-mcgonagall
+    - quidditch
+    - replacement-keeper
+    - team-captain
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch19-006:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Marauder''s Map limits and watched
+      passageways'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - magical-surveillance
+    - malfoy
+    - marauders-map
+    - room-of-requirement
+    - secret-passageways
+    - student-investigation
+    - wartime-security
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch19-007:
+    title: 'House-Elves, Service, and Wizarding Households: Summoning, free service,
+      and covert school surveillance'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - covert-surveillance
+    - dobby
+    - house-elves
+    - kreacher
+    - magical-servitude
+    - malfoy
+    - obedience
+    source_unit: hbp-ch19
+    output_yaml: sources/book-06/chapter-19-elf-tails.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15357,6 +15469,8 @@ by_tag:
   - cos-ch07-001
   blue-flames:
   - ootp-ch34-003
+  board-of-governors:
+  - hbp-ch19-002
   boats:
   - ps-ch06-007
   - ps-ch17-006
@@ -15568,6 +15682,7 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-005
   - hbp-ch18-004
+  - hbp-ch19-004
   - ootp-ch17-007
   - ootp-ch18-006
   - ootp-ch20-001
@@ -15683,6 +15798,7 @@ by_tag:
   - cos-ch17-006
   - cos-ch17-007
   - hbp-ch17-005
+  - hbp-ch19-002
   champion-points:
   - gof-ch31-004
   - gof-ch31-007
@@ -15830,6 +15946,7 @@ by_tag:
   commentators:
   - hbp-ch08-004
   - hbp-ch14-005
+  - hbp-ch19-005
   committee-for-disposal:
   - poa-ch14-003
   - poa-ch15-001
@@ -15990,6 +16107,8 @@ by_tag:
   - gof-ch35-003
   covert-movement:
   - ootp-ch30-004
+  covert-surveillance:
+  - hbp-ch19-007
   creature-alias:
   - hbp-ch03-006
   creature-breeding:
@@ -16504,6 +16623,7 @@ by_tag:
   - gof-ch26-004
   - gof-ch28-001
   - gof-ch35-003
+  - hbp-ch19-007
   - ootp-ch21-004
   - ootp-ch27-005
   dobby-warning:
@@ -16654,6 +16774,7 @@ by_tag:
   - hbp-ch16-007
   - hbp-ch17-004
   - hbp-ch18-007
+  - hbp-ch19-003
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17095,6 +17216,7 @@ by_tag:
   - hbp-ch12-002
   - hbp-ch15-002
   - hbp-ch15-007
+  - hbp-ch19-004
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -17706,6 +17828,7 @@ by_tag:
   - gof-ch22-006
   - gof-ch22-007
   - gof-ch23-001
+  - hbp-ch19-004
   - ootp-ch13-002
   - ootp-ch14-001
   - ootp-ch17-002
@@ -18030,6 +18153,7 @@ by_tag:
   - hbp-ch05-004
   - hbp-ch08-004
   - hbp-ch18-003
+  - hbp-ch19-003
   - ootp-ch19-003
   - ps-ch08-006
   healer:
@@ -18099,6 +18223,8 @@ by_tag:
   - gof-ch35-002
   hidden-chamber:
   - cos-ch09-005
+  hidden-door:
+  - hbp-ch19-004
   hidden-entrance:
   - cos-ch16-006
   hidden-identities:
@@ -18457,6 +18583,7 @@ by_tag:
   - gof-ch37-006
   - hbp-ch12-006
   - hbp-ch12-007
+  - hbp-ch19-001
   - ootp-ch14-004
   - ootp-ch19-004
   - ootp-ch32-001
@@ -18522,6 +18649,7 @@ by_tag:
   - gof-ch35-003
   - hbp-ch03-005
   - hbp-ch15-004
+  - hbp-ch19-007
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch06-005
@@ -18614,6 +18742,7 @@ by_tag:
   - hbp-ch09-002
   - hbp-ch14-003
   - hbp-ch14-005
+  - hbp-ch19-005
   - ootp-ch13-007
   - ootp-ch17-004
   - ootp-ch18-002
@@ -18861,6 +18990,7 @@ by_tag:
   - hbp-ch12-006
   - hbp-ch14-003
   - hbp-ch18-005
+  - hbp-ch19-003
   keeper:
   - cos-ch07-001
   - hbp-ch14-004
@@ -18896,6 +19026,7 @@ by_tag:
   - hbp-ch06-007
   kreacher:
   - hbp-ch03-005
+  - hbp-ch19-007
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch23-005
@@ -19130,6 +19261,7 @@ by_tag:
   - cos-ch10-003
   - cos-ch10-004
   - hbp-ch14-005
+  - hbp-ch19-005
   - ootp-ch19-006
   - poa-ch09-006
   - poa-ch11-007
@@ -19151,6 +19283,7 @@ by_tag:
   - cos-ch18-002
   - gof-ch13-002
   - gof-ch16-004
+  - hbp-ch19-001
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
@@ -19381,6 +19514,7 @@ by_tag:
   - gof-ch19-002
   - gof-ch21-007
   - gof-ch28-001
+  - hbp-ch19-007
   - ootp-ch09-002
   - ootp-ch13-002
   - ootp-ch14-001
@@ -19397,6 +19531,7 @@ by_tag:
   - gof-ch25-007
   - gof-ch29-003
   - hbp-ch18-004
+  - hbp-ch19-006
   - ootp-ch32-005
   - poa-ch10-003
   - poa-ch17-004
@@ -19435,6 +19570,8 @@ by_tag:
   - ootp-ch33-006
   malfoy:
   - hbp-ch18-004
+  - hbp-ch19-006
+  - hbp-ch19-007
   malfoy-family:
   - ootp-ch06-006
   mandrake-juice:
@@ -19469,6 +19606,7 @@ by_tag:
   - gof-ch29-001
   - gof-ch29-003
   - hbp-ch18-004
+  - hbp-ch19-006
   - ootp-ch18-006
   - ootp-ch20-001
   - poa-ch10-003
@@ -19538,6 +19676,8 @@ by_tag:
   - hbp-ch17-001
   medal-for-magical-merit:
   - cos-ch13-002
+  medical-discharge:
+  - hbp-ch19-001
   medicinal-potion:
   - poa-ch08-005
   medieval-witch-burning:
@@ -20067,6 +20207,7 @@ by_tag:
   - ootp-ch27-004
   obedience:
   - hbp-ch03-005
+  - hbp-ch19-007
   obliviator:
   - gof-ch07-004
   obliviators:
@@ -20273,6 +20414,8 @@ by_tag:
   - gof-ch24-007
   parent-or-guardian:
   - poa-ch03-005
+  parent-withdrawals:
+  - hbp-ch19-002
   parental-enforcement:
   - hbp-ch17-007
   parental-pressure:
@@ -20493,6 +20636,7 @@ by_tag:
   - hbp-ch18-007
   poisoning:
   - gof-ch19-003
+  - hbp-ch19-001
   political-donations:
   - ootp-ch09-001
   political-pressure:
@@ -20533,6 +20677,7 @@ by_tag:
   portrait-hole:
   - cos-ch05-006
   - gof-ch22-007
+  - hbp-ch19-004
   - poa-ch08-004
   portrait-mobility:
   - poa-ch09-003
@@ -20584,6 +20729,7 @@ by_tag:
   - hbp-ch15-006
   - hbp-ch16-006
   - hbp-ch18-001
+  - hbp-ch19-004
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -20792,6 +20938,7 @@ by_tag:
   - gof-ch36-004
   - hbp-ch14-005
   - hbp-ch15-003
+  - hbp-ch19-005
   - ootp-ch15-005
   - ootp-ch18-002
   - ootp-ch19-006
@@ -20987,6 +21134,7 @@ by_tag:
   - hbp-ch14-004
   - hbp-ch14-005
   - hbp-ch14-006
+  - hbp-ch19-005
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -21036,6 +21184,7 @@ by_tag:
   - ps-ch11-002
   quidditch-injury:
   - cos-ch10-005
+  - hbp-ch19-001
   quidditch-mascots:
   - gof-ch08-006
   quidditch-match:
@@ -21137,6 +21286,8 @@ by_tag:
   - poa-ch20-002
   rennervate:
   - gof-ch28-007
+  replacement-keeper:
+  - hbp-ch19-005
   rescue-signal:
   - gof-ch31-003
   resignation:
@@ -21211,6 +21362,7 @@ by_tag:
   room-of-requirement:
   - gof-ch23-004
   - hbp-ch18-004
+  - hbp-ch19-006
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -21268,6 +21420,7 @@ by_tag:
   - cos-ch13-007
   - cos-ch14-004
   - cos-ch16-005
+  - hbp-ch19-002
   school-closure-threat:
   - cos-ch13-005
   school-continuity:
@@ -21432,6 +21585,8 @@ by_tag:
   - ps-ch12-002
   school-rumor:
   - hbp-ch04-004
+  school-safety:
+  - hbp-ch19-002
   school-schedule:
   - gof-ch15-005
   - gof-ch20-005
@@ -21603,6 +21758,8 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-005
   - hbp-ch15-001
+  - hbp-ch19-004
+  - hbp-ch19-006
   - ps-ch08-003
   - ps-ch09-006
   secret-society:
@@ -21806,6 +21963,7 @@ by_tag:
   - cos-ch18-004
   - gof-ch15-004
   - hbp-ch04-005
+  - hbp-ch19-003
   - ootp-ch17-004
   - ootp-ch19-003
   - ootp-ch19-004
@@ -21860,6 +22018,7 @@ by_tag:
   - hbp-ch08-005
   - hbp-ch12-007
   - hbp-ch16-002
+  - hbp-ch19-003
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -22040,6 +22199,8 @@ by_tag:
   - ootp-ch20-007
   - ootp-ch21-002
   - ootp-ch25-004
+  staff-investigation:
+  - hbp-ch19-003
   staff-memory:
   - poa-ch10-006
   staff-offices:
@@ -22169,6 +22330,8 @@ by_tag:
   - gof-ch19-002
   student-arrival:
   - hbp-ch08-001
+  student-attacks:
+  - hbp-ch19-002
   student-books:
   - poa-ch13-005
   student-boundaries:
@@ -22225,6 +22388,7 @@ by_tag:
   - ps-ch06-002
   student-health:
   - cos-ch10-005
+  - hbp-ch19-001
   - ps-ch17-004
   student-identity:
   - ootp-ch10-003
@@ -22237,6 +22401,8 @@ by_tag:
   student-inventions:
   - hbp-ch06-004
   - ootp-ch24-007
+  student-investigation:
+  - hbp-ch19-006
   student-leadership:
   - cos-ch04-005
   - gof-ch05-001
@@ -22577,6 +22743,8 @@ by_tag:
   - cos-ch12-002
   teaching-methods:
   - hbp-ch10-004
+  team-captain:
+  - hbp-ch19-005
   team-captains:
   - cos-ch07-002
   - gof-ch06-004
@@ -23037,6 +23205,7 @@ by_tag:
   visitor-control:
   - cos-ch10-005
   - cos-ch15-001
+  - hbp-ch19-001
   visitor-entrance:
   - ootp-ch07-002
   - ootp-ch34-002
@@ -23168,6 +23337,9 @@ by_tag:
   - hbp-ch18-004
   - hbp-ch18-005
   - hbp-ch18-007
+  - hbp-ch19-002
+  - hbp-ch19-003
+  - hbp-ch19-006
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003

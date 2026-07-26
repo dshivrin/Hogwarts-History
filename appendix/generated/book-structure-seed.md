@@ -920,6 +920,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Clothing, family-house bonds, and possible unauthorized departure
   - Kreacher, Family Loyalty, and Headquarters Secrecy
   - Ownership transfer and reassignment to Hogwarts kitchens
+  - Summoning, free service, and covert school surveillance
 - Magical Medicine and Creature Harm
   - Serious bites, venom treatment, and ward privacy
 - Ministry Public Ideology and Non-Human Beings
@@ -1119,6 +1120,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Creatures, Liability, and External Committees
   - Buckbeak custody and wartime concealment alias
   - Dangerous-Creature Execution Procedure
+- Crisis Authority and School Closure
+  - Wartime attacks and board-of-governors closure pressure
 - Detention Logistics and Punishments
   - Staff-Assigned Tasks, Filch, and Trophy Room Labor
 - Detentions, Punishments, and Staff Authority
@@ -1209,6 +1212,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
   - Wolfsbane Potion and werewolf accommodation
+- Staff Authority and Internal Investigations
+  - Head-of-House inquiries after the cursed necklace attack
 - Start-of-Term Notices
   - Forbidden joke items and House Quidditch signups
 - Student Conduct Beyond School
@@ -1232,6 +1237,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crisis Visitor Restrictions
   - Treatment, Overnight Care, and Visitor Control
   - Visitor Access and Headmaster Exception
+  - Visitor limits, remedies, and discharge authority
 - Student Leadership and Prefects
   - Fifth-Year Prefect Selection
   - Prefect Qualities and Alumni Examples
@@ -1311,6 +1317,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Captain replacement authority after injury
   - Match administration, commentary, and staff oversight
   - Practice safety and Captain discipline
+  - Replacement Keeper, commentary, and match supervision
   - Team Selection and Captain Authority
 
 ## Student Life and School Culture
@@ -1383,7 +1390,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## The Castle and Its Protections
 
 - Maps, Hidden Rooms, and Concealed Routes
+  - Marauder's Map limits and watched passageways
   - Marauder's Map surveillance and unexplained blind spots
+  - Wall-disguised shortcut toward Potions
 - Movement Limits and Anti-Apparition Protections
   - Apparition blocked inside the grounds
 - Wartime Access and Student Transport

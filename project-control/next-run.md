@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Nineteen - Elf Tails
-- Page range: 2750-2769
+- Chapter: Chapter Twenty - Lord Voldemort’s Request
+- Page range: 2770-2790
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-19-elf-tails.yaml`
+- Output YAML: `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
 
 ## Minimal Context
 

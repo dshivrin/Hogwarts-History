@@ -1,0 +1,345 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Nineteen - Elf Tails
+  chapter_start_pdf_page: 2750
+  chapter_end_pdf_page: 2769
+  boundary_confidence: high
+  boundary_notes: Chapter Nineteen range came from project-control/processing-state.yaml and project-control/next-run.md. Book 6 Chapter Nineteen starts on PDF page 2750 and Chapter Twenty starts on PDF page 2770, so only PDF pages 2750-2769 were extracted and searched.
+  processed_date: '2026-07-26'
+  processor_notes: "Processed only Book 6, Chapter Nineteen. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: hbp-ch19-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2750
+    printed_page: null
+    extracted_text_lines: 7-12; 28-33; 91-97; 456-465
+    text_anchor:
+      start_phrase: It was evening; the hospital wing was quiet
+      end_phrase: You will stay here until I discharge you, Potter
+      local_occurrence_note: Ron's recovery after poisoning and Harry's cracked-skull recovery both show Madam Pomfrey controlling access, treatment, rest, and discharge.
+    nearby_context: Ron is the only occupied bed, visitors wait outside until eight o'clock, Pomfrey enforces a six-visitor limit, and later she keeps Harry overnight after mending his skull.
+    match_terms:
+      - hospital wing
+      - Madam Pomfrey
+      - visitor limit
+      - essence of rue
+      - overnight
+      - discharge
+    quote_excerpt_short: You will stay here until I discharge you
+    source_note: The hospital wing continues to operate as a controlled medical space where Madam Pomfrey sets visitor limits, supervises recovery after poisoning, administers ongoing remedies, and can require overnight observation after a Quidditch injury.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hospital-wing
+      - madam-pomfrey
+      - student-health
+      - visitor-control
+      - medical-discharge
+      - quidditch-injury
+      - poisoning
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Student Health and the Hospital Wing
+    candidate_section: Visitor limits, remedies, and discharge authority
+    reason_for_placement: The chapter provides repeated operational examples of infirmary authority across poisoning and sports-injury cases.
+    relevance_to_hogwarts_a_history: A school history could use this to describe student medical care, controlled ward access, and the matron's authority over patient rest and discharge.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch10-005
+        - ps-ch17-004
+        - cos-ch15-001
+      notes: cos-ch10-005 and ps-ch17-004 already record hospital-wing treatment and visitor control, while cos-ch15-001 records crisis visitor restrictions. This entry adds a six-visitor limit, post-poisoning essence of rue, and Pomfrey's explicit discharge authority after a skull injury.
+    confidence: high
+    limitations: The evidence comes from acute cases and does not define ordinary visiting hours or standard remedy lists.
+
+  - id: hbp-ch19-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2754
+    printed_page: null
+    extracted_text_lines: 134-149; 151-157
+    text_anchor:
+      start_phrase: All this new security
+      end_phrase: attempted murder, tha's diff'rent
+      local_occurrence_note: Hagrid privately worries that repeated attacks could trigger parental withdrawals and board-of-governors discussion about closing Hogwarts.
+    nearby_context: Hagrid compares Katie Bell's cursed-necklace attack and Ron's poisoning to the Chamber of Secrets crisis while noting Dumbledore's anxiety and anger.
+    match_terms:
+      - new security
+      - kids are still getting hurt
+      - Chamber of Secrets
+      - parents
+      - board of governors
+      - shutting
+    quote_excerpt_short: the board o' governors'll be talkin' about shuttin' us up
+    source_note: "Under wartime attack pressure, Hogwarts safety is framed as a governance issue: parents may remove children and the board of governors could consider closing the school if attempted murders continue."
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - school-safety
+      - board-of-governors
+      - school-closure
+      - chamber-of-secrets
+      - wartime-security
+      - parent-withdrawals
+      - student-attacks
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Crisis Authority and School Closure
+    candidate_section: Wartime attacks and board-of-governors closure pressure
+    reason_for_placement: The passage connects safety failures, parental confidence, Dumbledore's leadership, and governor-level closure risk.
+    relevance_to_hogwarts_a_history: This can support later editorial treatment of how Hogwarts responds when ordinary school dangers escalate into attempted murder and institutional survival questions.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch14-004
+        - cos-ch13-007
+      notes: cos-ch14-004 records formal Chamber-crisis lockdown and possible closure, and cos-ch13-007 records earlier Ministry discussion of closing Hogwarts. This entry adds Second War parent-withdrawal pressure and board-of-governors closure concern after Katie Bell and Ron Weasley are attacked.
+    confidence: medium
+    limitations: Hagrid is speculating from inside knowledge and worry; the governors do not formally act in this passage.
+
+  - id: hbp-ch19-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2755
+    printed_page: null
+    extracted_text_lines: 160-185; 221-229
+    text_anchor:
+      start_phrase: Dumbledore's angry with Snape
+      end_phrase: all the Heads o' Houses were asked ter look inter that necklace business
+      local_occurrence_note: Hagrid reports an overheard argument in which Dumbledore presses Snape and refers to Slytherin investigations after the necklace attack.
+    nearby_context: Harry interprets the row as possible evidence that Dumbledore wants Snape to investigate Malfoy more seriously while keeping Harry focused on lessons and Slughorn's memory.
+    match_terms:
+      - Dumbledore
+      - Snape
+      - investigations
+      - Slytherin
+      - Heads of Houses
+      - necklace business
+    quote_excerpt_short: all the Heads o' Houses were asked ter look inter that necklace business
+    source_note: The staff response to Katie Bell's cursed necklace includes Head-of-House investigation assignments, with Dumbledore privately pressing Snape about Slytherin and an unspecified duty Snape agreed to perform.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - heads-of-house
+      - slytherin
+      - snape
+      - dumbledore
+      - staff-investigation
+      - katie-bell
+      - wartime-security
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Staff Authority and Internal Investigations
+    candidate_section: Head-of-House inquiries after the cursed necklace attack
+    reason_for_placement: The passage gives evidence that school leadership can assign investigative duties through House structures during a security crisis.
+    relevance_to_hogwarts_a_history: A later edition can use this as institutional evidence for wartime staff coordination, House-level responsibility, and the complicated role of Snape's Slytherin access.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch02-002
+        - hbp-ch02-003
+        - hbp-ch04-007
+      notes: hbp-ch02-002 and hbp-ch02-003 cover Snape's claimed Hogwarts intelligence role and Dumbledore's restrictions on him, while hbp-ch04-007 records Dumbledore replacing Snape-led lessons. This entry adds a live school investigation after the necklace attack and Dumbledore's pressure on Snape to act within Slytherin.
+    confidence: medium
+    limitations: The row is reported secondhand by Hagrid and partly interpreted by Harry; Snape's agreed duty remains unnamed here.
+
+  - id: hbp-ch19-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2756
+    printed_page: null
+    extracted_text_lines: 195-215; 291-315
+    text_anchor:
+      start_phrase: Out of bed so late, this'll mean detention
+      end_phrase: dashed sideways through a door pretending to be solid wall
+      local_occurrence_note: A late-night corridor encounter shows teacher escort authority, Filch's detention impulse, Peeves near Gryffindor Tower, portrait access, and a hidden shortcut toward Potions.
+    nearby_context: Hagrid overrides Filch by identifying himself as a teacher, the Fat Lady admits Harry and Hermione to Gryffindor Tower, and Harry later escapes Lavender through a wall-disguised door to a Potions shortcut.
+    match_terms:
+      - Filch
+      - detention
+      - teacher
+      - Peeves
+      - Fat Lady
+      - hidden shortcut
+    quote_excerpt_short: dashed sideways through a door pretending to be solid wall
+    source_note: Castle navigation in this chapter combines ordinary corridor enforcement and portrait access with a concealed door-shortcut toward Potions, showing how student route knowledge can bypass social encounters and ordinary paths.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - castle-navigation
+      - hidden-door
+      - secret-passageways
+      - potions
+      - filch
+      - portrait-hole
+      - gryffindor-tower
+    candidate_part: The Castle and Its Protections
+    candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+    candidate_section: Wall-disguised shortcut toward Potions
+    reason_for_placement: The passage adds a compact example of hidden architectural routes inside daily student life, while also preserving corridor enforcement context.
+    relevance_to_hogwarts_a_history: This can feed a castle-navigation section on disguised doors, informal student wayfinding, and the coexistence of surveillance, portraits, and hidden routes.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch09-006
+        - gof-ch25-005
+      notes: ps-ch09-006 records tapestry and statue passageways, and gof-ch25-005 records a tapestry-hidden staircase shortcut. This entry adds a door that pretends to be solid wall and a shortcut specifically used to reach Potions.
+    confidence: medium
+    limitations: The passage does not identify the door's exact location or whether it is a formal passageway, enchantment, or architectural illusion.
+
+  - id: hbp-ch19-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2757
+    printed_page: null
+    extracted_text_lines: 236-249; 316-337; 361-385; 391-405; 432-443; 456-484
+    text_anchor:
+      start_phrase: Well, then, I'll be playing Keeper
+      end_phrase: Final score was three hundred and twenty to sixty
+      local_occurrence_note: Ron's injury moves McLaggen into the Keeper role, the team proceeds against Hufflepuff, and Luna commentates under McGonagall's supervision.
+    nearby_context: McLaggen claims the reserve Keeper place, Harry remains Captain, Madam Hooch starts the match, McGonagall corrects Luna's commentary, and McLaggen's misuse of a Beater's bat injures Harry.
+    match_terms:
+      - Quidditch
+      - Keeper
+      - Captain
+      - Madam Hooch
+      - Luna Lovegood
+      - McGonagall
+    quote_excerpt_short: He shook hands with the Hufflepuff Captain
+    source_note: "The Hufflepuff match confirms practical Quidditch administration: injured-player replacement by the next available Keeper, captain authority over practice and strategy, Madam Hooch's whistle start, and student commentary supervised by McGonagall."
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - house-teams
+      - replacement-keeper
+      - team-captain
+      - madam-hooch
+      - commentators
+      - professor-mcgonagall
+    candidate_part: Student Life and Houses
+    candidate_chapter: Quidditch and House Competition
+    candidate_section: Replacement Keeper, commentary, and match supervision
+    reason_for_placement: The evidence shows how a House team handles illness, captain authority, match procedure, commentary, and staff oversight in one match sequence.
+    relevance_to_hogwarts_a_history: This supports a fuller school-sport account that includes reserve selection, commentary appointment, match supervision, and consequences of unsafe play.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch14-005
+        - hbp-ch08-004
+        - cos-ch07-001
+      notes: hbp-ch14-005 already records match administration and commentary, hbp-ch08-004 records commentator signups, and cos-ch07-001 records Quidditch roles and scoring. This entry adds McLaggen's reserve Keeper succession, Luna's supervised commentary, and an on-pitch injury caused by player overreach.
+    confidence: high
+    limitations: The reserve-player rule is inferred from Harry accepting the second-best trial performer rather than from a written regulation.
+
+  - id: hbp-ch19-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2758
+    printed_page: null
+    extracted_text_lines: 265-270; 338-358; 497-516; 522-526
+    text_anchor:
+      start_phrase: Still checking the Marauder's Map
+      end_phrase: I thought they were being watched now anyway
+      local_occurrence_note: Harry continues map surveillance of Malfoy, notices map disappearances, and later reasons that secret passageways should be watched under current security.
+    nearby_context: Harry sees Malfoy stay in the castle during a match when most students are outside, loses the chance to follow him, and considers setting D.A. watchers before settling on elves.
+    match_terms:
+      - Marauder's Map
+      - Malfoy
+      - vanished from the map
+      - secret passageways
+      - watched
+      - D.A.
+    quote_excerpt_short: those inexplicable times when Malfoy simply vanished from the map
+    source_note: "Harry's surveillance confirms both the Marauder's Map's practical value and its limits: Malfoy can vanish from Harry's map searches, and wartime monitoring of secret passageways does not explain the disappearances."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - marauders-map
+      - magical-surveillance
+      - malfoy
+      - secret-passageways
+      - wartime-security
+      - room-of-requirement
+      - student-investigation
+    candidate_part: The Castle and Its Protections
+    candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+    candidate_section: Marauder's Map limits and watched passageways
+    reason_for_placement: The passage extends the castle-surveillance thread by adding Harry's explicit reasoning that watched passageways cannot account for Malfoy's disappearances.
+    relevance_to_hogwarts_a_history: This is useful evidence for editorial discussion of map limits, hidden spaces, and the difference between visible routes and truly concealed locations.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch18-004
+        - gof-ch25-001
+        - poa-ch14-004
+      notes: hbp-ch18-004 already records Malfoy's unexplained absence from the map, gof-ch25-001 records map surveillance, and poa-ch14-004 records a Hogsmeade passage. This entry adds the later inference that secret passageways are being watched and still do not explain Malfoy's disappearances.
+    confidence: medium
+    limitations: The Room of Requirement connection remains inferential here; the chapter does not reveal where Malfoy goes.
+
+  - id: hbp-ch19-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nineteen - Elf Tails
+    chapter_start_pdf_page: 2750
+    chapter_end_pdf_page: 2769
+    pdf_page: 2766
+    printed_page: null
+    extracted_text_lines: 541-558; 561-589; 596-627; 630-643
+    text_anchor:
+      start_phrase: Kreacher?
+      end_phrase: Just stick to Malfoy like a couple of wart plasters
+      local_occurrence_note: Harry summons Kreacher from the hospital wing, Dobby appears too, and Harry orders both elves to tail Malfoy while restricting Kreacher's contact with him.
+    nearby_context: Muffliato prevents Madam Pomfrey from hearing the commotion, Dobby volunteers because he is free, Kreacher must obey Harry as master, and Harry closes loopholes against warning Malfoy.
+    match_terms:
+      - Kreacher
+      - Dobby
+      - house-elves
+      - free house-elf
+      - Master
+      - tail Draco Malfoy
+    quote_excerpt_short: Dobby is a free house-elf
+    source_note: House-elf magic and social rules allow Harry to summon Kreacher into Hogwarts, compel obedience as master, accept voluntary service from free Dobby, and deploy both elves as covert watchers with explicit anti-warning orders.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - house-elves
+      - kreacher
+      - dobby
+      - obedience
+      - magical-servitude
+      - covert-surveillance
+      - malfoy
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: House-Elves, Service, and Wizarding Households
+    candidate_section: Summoning, free service, and covert school surveillance
+    reason_for_placement: The passage connects private house-elf ownership, free elf agency, command loopholes, and covert activity inside Hogwarts.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence for the unusual reach of house-elf movement and service obligations within the school, especially under wartime surveillance needs.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch03-005
+        - cos-ch02-001
+        - gof-ch21-007
+      notes: hbp-ch03-005 covers Kreacher's ownership transfer and Hogwarts-kitchen reassignment, cos-ch02-001 covers house-elf bondage, and gof-ch21-007 covers Dobby's free employment terms. This entry adds direct hospital-wing summoning, Dobby's voluntary obedience, and ordered covert surveillance of Malfoy with loophole-prevention instructions.
+    confidence: high
+    limitations: The evidence is exceptional and Harry-directed; it does not describe normal duties of Hogwarts kitchen elves.

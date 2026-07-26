@@ -156,3 +156,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch16`: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, pages 2688-2708, 7 entries, 0 explicit references.
 - `hbp-ch17`: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, pages 2709-2728, 7 entries, 0 explicit references.
 - `hbp-ch18`: Harry Potter and the Half-Blood Prince, Chapter Eighteen - Birthday Surprises, pages 2729-2749, 7 entries, 0 explicit references.
+- `hbp-ch19`: Harry Potter and the Half-Blood Prince, Chapter Nineteen - Elf Tails, pages 2750-2769, 7 entries, 0 explicit references.
