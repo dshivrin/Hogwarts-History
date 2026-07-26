@@ -773,6 +773,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch World Cup Stadium Protections
   - World Cup Riot and Muggle Victim Rescue
 
+## Lessons, Exams, and Magical Knowledge
+
+- Potions Curriculum and Practical Safety
+  - N.E.W.T.-level antidote theory and bezoar use
+- Restricted Books and Forbidden Knowledge
+  - Horcrux references withheld from student research
+
 ## Magical Architecture and Enchantments
 
 - Castle Navigation and Concealed Routes
@@ -1166,6 +1173,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
   - Ministry Apparition instruction for eligible students
+  - Ministry Apparition lessons inside a temporary Great Hall exception
 - Ministry Authority Beyond Hogwarts
   - Secrecy, broomstick rules, and creature control
 - Ministry Interfaces with Hogwarts
@@ -1192,6 +1200,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Restricted Areas
   - Astronomy Tower Access
   - Third-Floor Corridor Enforcement
+- Restricted Objects and Student Misuse
+  - Love-potion sweets and staff antidote response
 - Staff Appointment, Disclosure, and Safety
   - Werewolf Disclosure and Resignation
 - Staff Appointments and School Safety
@@ -1234,6 +1244,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trophy Room Records and Head Boy Lists
 - Student Offices, Prefects, and Discipline
   - Prefect authority and informal enforcement limits
+- Wartime Student Movement Restrictions
+  - Hogsmeade cancellations after attacks and disappearances
 - Wizarding Law and Magical Secrecy
   - Ministry enforcement against Muggle-directed magic
 - Wizarding Transport and Secrecy
@@ -1370,10 +1382,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Castle and Its Protections
 
+- Maps, Hidden Rooms, and Concealed Routes
+  - Marauder's Map surveillance and unexplained blind spots
 - Movement Limits and Anti-Apparition Protections
   - Apparition blocked inside the grounds
 - Wartime Access and Student Transport
   - Ministry-arranged Floo returns to staff offices
+- Wartime Threats Inside Hogwarts
+  - Poisoned gifts and emergency antidotes
 
 ## The Castle and Its Working Spaces
 

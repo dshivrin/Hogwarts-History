@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Eighteen - Birthday Surprises
-- Page range: 2729-2749
+- Chapter: Chapter Nineteen - Elf Tails
+- Page range: 2750-2769
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-18-birthday-surprises.yaml`
+- Output YAML: `sources/book-06/chapter-19-elf-tails.yaml`
 
 ## Minimal Context
 

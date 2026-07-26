@@ -14758,6 +14758,117 @@ by_entry:
     - underage-magic
     source_unit: hbp-ch17
     output_yaml: sources/book-06/chapter-17-a-sluggish-memory.yaml
+  hbp-ch18-001:
+    title: 'Potions Curriculum and Practical Safety: N.E.W.T.-level antidote theory
+      and bezoar use'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - antidotes
+    - bezoars
+    - classroom-stores
+    - golpalotts-third-law
+    - newt-courses
+    - potions
+    - scarpins-revelaspell
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch18-002:
+    title: 'Restricted Books and Forbidden Knowledge: Horcrux references withheld
+      from student research'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dark-magic
+    - dumbledore-lessons
+    - horcruxes
+    - library-research
+    - magick-moste-evile
+    - restricted-section
+    - slughorn-memory
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch18-003:
+    title: 'Magical Transportation and Student Restrictions: Ministry Apparition lessons
+      inside a temporary Great Hall exception'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - anti-apparition
+    - apparition
+    - great-hall
+    - heads-of-house
+    - magical-transportation
+    - ministry-of-magic
+    - splinching
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch18-004:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Marauder''s Map surveillance
+      and unexplained blind spots'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - castle-navigation
+    - magical-surveillance
+    - malfoy
+    - marauders-map
+    - room-of-requirement
+    - student-rulebreaking
+    - wartime-security
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch18-005:
+    title: 'Wartime Student Movement Restrictions: Hogsmeade cancellations after attacks
+      and disappearances'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - common-room-notices
+    - daily-prophet
+    - hogsmeade
+    - katie-bell
+    - second-war
+    - student-safety
+    - wartime-security
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch18-006:
+    title: 'Restricted Objects and Student Misuse: Love-potion sweets and staff antidote
+      response'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - antidotes
+    - chocolate-cauldrons
+    - love-potions
+    - restricted-objects
+    - romilda-vane
+    - slughorn-office
+    - weasleys-wizard-wheezes
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  hbp-ch18-007:
+    title: 'Wartime Threats Inside Hogwarts: Poisoned gifts and emergency antidotes'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - assassination-attempt
+    - bezoars
+    - dumbledore
+    - emergency-response
+    - poisoned-mead
+    - slughorn-office
+    - wartime-security
+    source_unit: hbp-ch18
+    output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -14913,6 +15024,7 @@ by_tag:
   anti-apparition:
   - hbp-ch04-001
   - hbp-ch17-002
+  - hbp-ch18-003
   - ootp-ch27-007
   - poa-ch09-001
   - poa-ch22-001
@@ -14942,6 +15054,8 @@ by_tag:
   antidotes:
   - gof-ch18-004
   - gof-ch22-005
+  - hbp-ch18-001
+  - hbp-ch18-006
   apollyon-pringle:
   - gof-ch31-001
   apothecaries:
@@ -14954,6 +15068,7 @@ by_tag:
   - hbp-ch02-001
   - hbp-ch04-001
   - hbp-ch17-002
+  - hbp-ch18-003
   - ootp-ch03-003
   - ootp-ch23-001
   apparition-points:
@@ -14992,6 +15107,8 @@ by_tag:
   - ootp-ch21-007
   artifact-accidents:
   - ootp-ch22-005
+  assassination-attempt:
+  - hbp-ch18-007
   assessment:
   - cos-ch16-001
   astrology:
@@ -15174,6 +15291,9 @@ by_tag:
   - gof-ch34-004
   bewitched-sleep:
   - gof-ch27-001
+  bezoars:
+  - hbp-ch18-001
+  - hbp-ch18-007
   birth-registration:
   - hbp-ch13-003
   black-family:
@@ -15447,6 +15567,7 @@ by_tag:
   - gof-ch21-006
   - gof-ch25-001
   - gof-ch25-005
+  - hbp-ch18-004
   - ootp-ch17-007
   - ootp-ch18-006
   - ootp-ch20-001
@@ -15612,6 +15733,8 @@ by_tag:
   - poa-ch15-003
   child-safety:
   - hbp-ch16-004
+  chocolate-cauldrons:
+  - hbp-ch18-006
   chocolate-frog-card:
   - ps-ch13-001
   chocolate-remedy:
@@ -15667,6 +15790,8 @@ by_tag:
   classroom-safety:
   - cos-ch06-007
   - gof-ch26-001
+  classroom-stores:
+  - hbp-ch18-001
   classroom-supplies:
   - hbp-ch09-005
   closed-ward:
@@ -15731,6 +15856,8 @@ by_tag:
   - poa-ch11-006
   common-room-confinement:
   - cos-ch15-002
+  common-room-notices:
+  - hbp-ch18-005
   common-room-security:
   - poa-ch13-007
   communication-security:
@@ -15984,6 +16111,7 @@ by_tag:
   - gof-ch37-006
   - hbp-ch03-001
   - hbp-ch07-003
+  - hbp-ch18-005
   - ootp-ch01-001
   - ootp-ch04-007
   - ootp-ch05-007
@@ -16034,6 +16162,7 @@ by_tag:
   - gof-ch28-005
   dark-magic:
   - cos-ch09-006
+  - hbp-ch18-002
   - ps-ch11-006
   - ps-ch12-004
   dark-mark:
@@ -16524,6 +16653,7 @@ by_tag:
   - hbp-ch16-004
   - hbp-ch16-007
   - hbp-ch17-004
+  - hbp-ch18-007
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -16601,6 +16731,8 @@ by_tag:
   - ps-ch17-003
   dumbledore-judgment:
   - hbp-ch16-003
+  dumbledore-lessons:
+  - hbp-ch18-002
   dumbledore-office:
   - cos-ch11-007
   - cos-ch12-001
@@ -16721,6 +16853,7 @@ by_tag:
   - cos-ch12-002
   - cos-ch14-003
   - gof-ch28-007
+  - hbp-ch18-007
   - ps-ch10-003
   emergency-transport:
   - ootp-ch33-007
@@ -17385,6 +17518,8 @@ by_tag:
   - gof-ch31-005
   golgomath:
   - ootp-ch20-005
+  golpalotts-third-law:
+  - hbp-ch18-001
   grade-scale:
   - hbp-ch05-006
   grawp:
@@ -17411,6 +17546,7 @@ by_tag:
   - gof-ch37-003
   - hbp-ch08-003
   - hbp-ch15-001
+  - hbp-ch18-003
   - ootp-ch19-005
   - ootp-ch25-001
   - ootp-ch26-001
@@ -17893,6 +18029,7 @@ by_tag:
   - hbp-ch04-005
   - hbp-ch05-004
   - hbp-ch08-004
+  - hbp-ch18-003
   - ootp-ch19-003
   - ps-ch08-006
   healer:
@@ -18049,6 +18186,7 @@ by_tag:
   - hbp-ch08-001
   - hbp-ch12-002
   - hbp-ch12-006
+  - hbp-ch18-005
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -18293,6 +18431,8 @@ by_tag:
   - poa-ch14-004
   horace-slughorn:
   - hbp-ch05-004
+  horcruxes:
+  - hbp-ch18-002
   horseless-carriages:
   - gof-ch11-006
   - gof-ch12-001
@@ -18720,6 +18860,7 @@ by_tag:
   katie-bell:
   - hbp-ch12-006
   - hbp-ch14-003
+  - hbp-ch18-005
   keeper:
   - cos-ch07-001
   - hbp-ch14-004
@@ -18852,6 +18993,8 @@ by_tag:
   - ps-ch14-004
   library-conduct:
   - cos-ch11-005
+  library-research:
+  - hbp-ch18-002
   library-rules:
   - cos-ch09-007
   - cos-ch10-001
@@ -18920,6 +19063,7 @@ by_tag:
   - gof-ch27-003
   - hbp-ch06-006
   - hbp-ch15-002
+  - hbp-ch18-006
   loyalty:
   - cos-ch14-007
   lucius-malfoy:
@@ -19252,6 +19396,7 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-007
   - gof-ch29-003
+  - hbp-ch18-004
   - ootp-ch32-005
   - poa-ch10-003
   - poa-ch17-004
@@ -19271,6 +19416,7 @@ by_tag:
   - gof-ch15-007
   - hbp-ch04-001
   - hbp-ch17-002
+  - hbp-ch18-003
   - ootp-ch03-003
   - ootp-ch23-001
   magical-tree:
@@ -19280,11 +19426,15 @@ by_tag:
   - gof-ch35-006
   magical-understanding:
   - gof-ch37-005
+  magick-moste-evile:
+  - hbp-ch18-002
   magorian:
   - ootp-ch30-007
   - ootp-ch33-002
   - ootp-ch33-004
   - ootp-ch33-006
+  malfoy:
+  - hbp-ch18-004
   malfoy-family:
   - ootp-ch06-006
   mandrake-juice:
@@ -19318,6 +19468,7 @@ by_tag:
   - gof-ch25-007
   - gof-ch29-001
   - gof-ch29-003
+  - hbp-ch18-004
   - ootp-ch18-006
   - ootp-ch20-001
   - poa-ch10-003
@@ -19549,6 +19700,7 @@ by_tag:
   - hbp-ch17-001
   - hbp-ch17-002
   - hbp-ch17-007
+  - hbp-ch18-003
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -19843,6 +19995,7 @@ by_tag:
   - hbp-ch09-005
   - hbp-ch11-001
   - hbp-ch15-006
+  - hbp-ch18-001
   - ootp-ch12-002
   - ootp-ch12-004
   - ootp-ch13-003
@@ -20336,6 +20489,8 @@ by_tag:
   - gof-ch25-004
   pluto:
   - ootp-ch35-005
+  poisoned-mead:
+  - hbp-ch18-007
   poisoning:
   - gof-ch19-003
   political-donations:
@@ -20428,6 +20583,7 @@ by_tag:
   - hbp-ch14-006
   - hbp-ch15-006
   - hbp-ch16-006
+  - hbp-ch18-001
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -20995,10 +21151,12 @@ by_tag:
   restricted-objects:
   - hbp-ch12-002
   - hbp-ch15-002
+  - hbp-ch18-006
   restricted-section:
   - cos-ch09-007
   - cos-ch10-001
   - gof-ch26-002
+  - hbp-ch18-002
   - ps-ch12-004
   - ps-ch12-005
   review-lessons:
@@ -21036,6 +21194,8 @@ by_tag:
   - ps-ch06-006
   rogue-bludger:
   - cos-ch10-004
+  romilda-vane:
+  - hbp-ch18-006
   ron-weasley:
   - ootp-ch09-005
   - ootp-ch30-003
@@ -21050,6 +21210,7 @@ by_tag:
   - ootp-ch37-003
   room-of-requirement:
   - gof-ch23-004
+  - hbp-ch18-004
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -21088,6 +21249,8 @@ by_tag:
   scabbers:
   - poa-ch19-004
   - poa-ch19-006
+  scarpins-revelaspell:
+  - hbp-ch18-001
   school-absence-cover:
   - gof-ch02-003
   school-autonomy:
@@ -21372,6 +21535,7 @@ by_tag:
   - hbp-ch11-002
   - hbp-ch12-001
   - hbp-ch16-004
+  - hbp-ch18-005
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -21632,6 +21796,11 @@ by_tag:
   - hbp-ch12-004
   - hbp-ch14-002
   - hbp-ch15-004
+  slughorn-memory:
+  - hbp-ch18-002
+  slughorn-office:
+  - hbp-ch18-006
+  - hbp-ch18-007
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
@@ -21794,6 +21963,7 @@ by_tag:
   - ps-ch14-006
   splinching:
   - gof-ch06-001
+  - hbp-ch18-003
   sports-commentary:
   - gof-ch08-004
   squib-context:
@@ -22190,6 +22360,7 @@ by_tag:
   - ootp-ch29-002
   student-rulebreaking:
   - gof-ch25-001
+  - hbp-ch18-004
   - ootp-ch20-001
   - ootp-ch29-005
   student-safety:
@@ -22210,6 +22381,7 @@ by_tag:
   - hbp-ch03-002
   - hbp-ch08-006
   - hbp-ch12-006
+  - hbp-ch18-005
   - ootp-ch02-006
   - ootp-ch03-005
   - ootp-ch13-006
@@ -22993,6 +23165,9 @@ by_tag:
   - hbp-ch12-007
   - hbp-ch15-007
   - hbp-ch17-001
+  - hbp-ch18-004
+  - hbp-ch18-005
+  - hbp-ch18-007
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
@@ -23011,6 +23186,7 @@ by_tag:
   - hbp-ch06-006
   - hbp-ch08-004
   - hbp-ch15-002
+  - hbp-ch18-006
   weather:
   - gof-ch27-002
   welcoming-feast:

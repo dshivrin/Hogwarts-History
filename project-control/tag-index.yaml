@@ -335,6 +335,7 @@ tags:
     entries:
     - hbp-ch04-001
     - hbp-ch17-002
+    - hbp-ch18-003
     - ootp-ch27-007
     - poa-ch09-001
     - poa-ch22-001
@@ -344,6 +345,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   anti-cheating-charms:
     entries:
     - ootp-ch31-003
@@ -403,9 +405,12 @@ tags:
     entries:
     - gof-ch18-004
     - gof-ch22-005
+    - hbp-ch18-001
+    - hbp-ch18-006
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   apollyon-pringle:
     entries:
     - gof-ch31-001
@@ -425,6 +430,7 @@ tags:
     - hbp-ch02-001
     - hbp-ch04-001
     - hbp-ch17-002
+    - hbp-ch18-003
     - ootp-ch03-003
     - ootp-ch23-001
     output_yaml:
@@ -437,6 +443,7 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -516,6 +523,11 @@ tags:
     - ootp-ch22-005
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  assassination-attempt:
+    entries:
+    - hbp-ch18-007
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   assessment:
     entries:
     - cos-ch16-001
@@ -906,6 +918,12 @@ tags:
     - gof-ch27-001
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  bezoars:
+    entries:
+    - hbp-ch18-001
+    - hbp-ch18-007
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   birth-registration:
     entries:
     - hbp-ch13-003
@@ -1501,6 +1519,7 @@ tags:
     - gof-ch21-006
     - gof-ch25-001
     - gof-ch25-005
+    - hbp-ch18-004
     - ootp-ch17-007
     - ootp-ch18-006
     - ootp-ch20-001
@@ -1523,6 +1542,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   castle-protections:
     entries:
     - hbp-ch08-002
@@ -1838,6 +1858,11 @@ tags:
     - hbp-ch16-004
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  chocolate-cauldrons:
+    entries:
+    - hbp-ch18-006
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   chocolate-frog-card:
     entries:
     - ps-ch13-001
@@ -1965,6 +1990,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+  classroom-stores:
+    entries:
+    - hbp-ch18-001
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   classroom-supplies:
     entries:
     - hbp-ch09-005
@@ -2111,6 +2141,11 @@ tags:
     - cos-ch15-002
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+  common-room-notices:
+    entries:
+    - hbp-ch18-005
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   common-room-security:
     entries:
     - poa-ch13-007
@@ -2662,6 +2697,7 @@ tags:
     - gof-ch37-006
     - hbp-ch03-001
     - hbp-ch07-003
+    - hbp-ch18-005
     - ootp-ch01-001
     - ootp-ch04-007
     - ootp-ch05-007
@@ -2689,6 +2725,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   damocles-belby:
     entries:
     - hbp-ch07-006
@@ -2776,12 +2813,14 @@ tags:
   dark-magic:
     entries:
     - cos-ch09-006
+    - hbp-ch18-002
     - ps-ch11-006
     - ps-ch12-004
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   dark-mark:
     entries:
     - gof-ch09-004
@@ -3717,6 +3756,7 @@ tags:
     - hbp-ch16-004
     - hbp-ch16-007
     - hbp-ch17-004
+    - hbp-ch18-007
     - ootp-ch02-003
     - ootp-ch02-006
     - ootp-ch03-006
@@ -3872,11 +3912,17 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   dumbledore-judgment:
     entries:
     - hbp-ch16-003
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  dumbledore-lessons:
+    entries:
+    - hbp-ch18-002
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   dumbledore-office:
     entries:
     - cos-ch11-007
@@ -4119,12 +4165,14 @@ tags:
     - cos-ch12-002
     - cos-ch14-003
     - gof-ch28-007
+    - hbp-ch18-007
     - ps-ch10-003
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   emergency-transport:
     entries:
     - ootp-ch33-007
@@ -5568,6 +5616,11 @@ tags:
     - ootp-ch20-005
     output_yaml:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  golpalotts-third-law:
+    entries:
+    - hbp-ch18-001
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   grade-scale:
     entries:
     - hbp-ch05-006
@@ -5603,6 +5656,7 @@ tags:
     - gof-ch37-003
     - hbp-ch08-003
     - hbp-ch15-001
+    - hbp-ch18-003
     - ootp-ch19-005
     - ootp-ch25-001
     - ootp-ch26-001
@@ -5656,6 +5710,7 @@ tags:
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -6582,6 +6637,7 @@ tags:
     - hbp-ch04-005
     - hbp-ch05-004
     - hbp-ch08-004
+    - hbp-ch18-003
     - ootp-ch19-003
     - ps-ch08-006
     output_yaml:
@@ -6594,6 +6650,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   healer:
     entries:
     - ootp-ch22-006
@@ -6915,6 +6972,7 @@ tags:
     - hbp-ch08-001
     - hbp-ch12-002
     - hbp-ch12-006
+    - hbp-ch18-005
     - ootp-ch16-001
     - ootp-ch16-002
     - ootp-ch25-006
@@ -6954,6 +7012,7 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -7431,6 +7490,11 @@ tags:
     - hbp-ch05-004
     output_yaml:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  horcruxes:
+    entries:
+    - hbp-ch18-002
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   horseless-carriages:
     entries:
     - gof-ch11-006
@@ -8364,9 +8428,11 @@ tags:
     entries:
     - hbp-ch12-006
     - hbp-ch14-003
+    - hbp-ch18-005
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   keeper:
     entries:
     - cos-ch07-001
@@ -8662,6 +8728,11 @@ tags:
     - cos-ch11-005
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+  library-research:
+    entries:
+    - hbp-ch18-002
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   library-rules:
     entries:
     - cos-ch09-007
@@ -8811,10 +8882,12 @@ tags:
     - gof-ch27-003
     - hbp-ch06-006
     - hbp-ch15-002
+    - hbp-ch18-006
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   loyalty:
     entries:
     - cos-ch14-007
@@ -9525,6 +9598,7 @@ tags:
     - gof-ch25-001
     - gof-ch25-007
     - gof-ch29-003
+    - hbp-ch18-004
     - ootp-ch32-005
     - poa-ch10-003
     - poa-ch17-004
@@ -9535,6 +9609,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   magical-table-service:
     entries:
     - gof-ch23-003
@@ -9562,6 +9637,7 @@ tags:
     - gof-ch15-007
     - hbp-ch04-001
     - hbp-ch17-002
+    - hbp-ch18-003
     - ootp-ch03-003
     - ootp-ch23-001
     output_yaml:
@@ -9573,6 +9649,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   magical-tree:
     entries:
     - cos-ch05-003
@@ -9590,6 +9667,11 @@ tags:
     - gof-ch37-005
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  magick-moste-evile:
+    entries:
+    - hbp-ch18-002
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   magorian:
     entries:
     - ootp-ch30-007
@@ -9599,6 +9681,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
+  malfoy:
+    entries:
+    - hbp-ch18-004
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   malfoy-family:
     entries:
     - ootp-ch06-006
@@ -9666,6 +9753,7 @@ tags:
     - gof-ch25-007
     - gof-ch29-001
     - gof-ch29-003
+    - hbp-ch18-004
     - ootp-ch18-006
     - ootp-ch20-001
     - poa-ch10-003
@@ -9691,6 +9779,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   marble-staircase:
     entries:
     - gof-ch22-003
@@ -10138,6 +10227,7 @@ tags:
     - hbp-ch17-001
     - hbp-ch17-002
     - hbp-ch17-007
+    - hbp-ch18-003
     - ootp-ch02-002
     - ootp-ch02-003
     - ootp-ch04-007
@@ -10223,6 +10313,7 @@ tags:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   ministry-posters:
     entries:
     - hbp-ch06-002
@@ -10813,6 +10904,7 @@ tags:
     - hbp-ch09-005
     - hbp-ch11-001
     - hbp-ch15-006
+    - hbp-ch18-001
     - ootp-ch12-002
     - ootp-ch12-004
     - ootp-ch13-003
@@ -10826,6 +10918,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   newt-students:
     entries:
     - hbp-ch05-006
@@ -11889,6 +11982,11 @@ tags:
     - ootp-ch35-005
     output_yaml:
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  poisoned-mead:
+    entries:
+    - hbp-ch18-007
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   poisoning:
     entries:
     - gof-ch19-003
@@ -12071,6 +12169,7 @@ tags:
     - hbp-ch14-006
     - hbp-ch15-006
     - hbp-ch16-006
+    - hbp-ch18-001
     - ootp-ch12-004
     - ootp-ch15-002
     - ootp-ch17-005
@@ -12108,6 +12207,7 @@ tags:
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   potions-class:
     entries:
     - gof-ch27-003
@@ -13283,14 +13383,17 @@ tags:
     entries:
     - hbp-ch12-002
     - hbp-ch15-002
+    - hbp-ch18-006
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   restricted-section:
     entries:
     - cos-ch09-007
     - cos-ch10-001
     - gof-ch26-002
+    - hbp-ch18-002
     - ps-ch12-004
     - ps-ch12-005
     output_yaml:
@@ -13298,6 +13401,7 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   review-lessons:
     entries:
     - ootp-ch31-001
@@ -13379,6 +13483,11 @@ tags:
     - cos-ch10-004
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  romilda-vane:
+    entries:
+    - hbp-ch18-006
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   ron-weasley:
     entries:
     - ootp-ch09-005
@@ -13407,6 +13516,7 @@ tags:
   room-of-requirement:
     entries:
     - gof-ch23-004
+    - hbp-ch18-004
     - ootp-ch18-005
     - ootp-ch18-006
     - ootp-ch21-004
@@ -13417,6 +13527,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   rotating-room:
     entries:
     - ootp-ch34-003
@@ -13490,6 +13601,11 @@ tags:
     - poa-ch19-006
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  scarpins-revelaspell:
+    entries:
+    - hbp-ch18-001
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   school-absence-cover:
     entries:
     - gof-ch02-003
@@ -14101,6 +14217,7 @@ tags:
     - hbp-ch11-002
     - hbp-ch12-001
     - hbp-ch16-004
+    - hbp-ch18-005
     - ootp-ch04-004
     - ootp-ch04-007
     - ootp-ch05-004
@@ -14127,6 +14244,7 @@ tags:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -14672,6 +14790,17 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  slughorn-memory:
+    entries:
+    - hbp-ch18-002
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
+  slughorn-office:
+    entries:
+    - hbp-ch18-006
+    - hbp-ch18-007
+    output_yaml:
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   slytherin:
     entries:
     - cos-ch07-002
@@ -15025,8 +15154,10 @@ tags:
   splinching:
     entries:
     - gof-ch06-001
+    - hbp-ch18-003
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   sports-commentary:
     entries:
     - gof-ch08-004
@@ -15920,12 +16051,14 @@ tags:
   student-rulebreaking:
     entries:
     - gof-ch25-001
+    - hbp-ch18-004
     - ootp-ch20-001
     - ootp-ch29-005
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   student-safety:
     entries:
     - cos-ch13-007
@@ -15945,6 +16078,7 @@ tags:
     - hbp-ch03-002
     - hbp-ch08-006
     - hbp-ch12-006
+    - hbp-ch18-005
     - ootp-ch02-006
     - ootp-ch03-005
     - ootp-ch13-006
@@ -15990,6 +16124,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   student-selection:
     entries:
     - hbp-ch07-005
@@ -17646,6 +17781,9 @@ tags:
     - hbp-ch12-007
     - hbp-ch15-007
     - hbp-ch17-001
+    - hbp-ch18-004
+    - hbp-ch18-005
+    - hbp-ch18-007
     - ootp-ch09-003
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
@@ -17657,6 +17795,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   weasley-family:
     entries:
     - cos-ch04-003
@@ -17687,12 +17826,14 @@ tags:
     - hbp-ch06-006
     - hbp-ch08-004
     - hbp-ch15-002
+    - hbp-ch18-006
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-18-birthday-surprises.yaml
   weather:
     entries:
     - gof-ch27-002
