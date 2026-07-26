@@ -154,3 +154,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch14`: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, pages 2649-2668, 7 entries, 0 explicit references.
 - `hbp-ch15`: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, pages 2669-2687, 7 entries, 0 explicit references.
 - `hbp-ch16`: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, pages 2688-2708, 7 entries, 0 explicit references.
+- `hbp-ch17`: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, pages 2709-2728, 7 entries, 0 explicit references.

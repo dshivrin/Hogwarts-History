@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Seventeen - A Sluggish Memory
-- Page range: 2709-2728
+- Chapter: Chapter Eighteen - Birthday Surprises
+- Page range: 2729-2749
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+- Output YAML: `sources/book-06/chapter-18-birthday-surprises.yaml`
 
 ## Minimal Context
 

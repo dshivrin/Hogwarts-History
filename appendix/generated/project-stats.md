@@ -8,39 +8,39 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 148
+- Total: 149
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Goblet of Fire: 235
-- Harry Potter and the Half-Blood Prince: 111
+- Harry Potter and the Half-Blood Prince: 118
 - Harry Potter and the Order of the Phoenix: 261
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 403
+- harry_era_confirmation: 406
 - later_editorial_note: 481
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
-- pre_1984_historical_candidate: 77
+- pre_1984_historical_candidate: 81
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 68
-- curriculum_or_subject: 138
+- cross_reference_candidate: 69
+- curriculum_or_subject: 139
 - direct_observed_setting: 52
 - explicit_hogwarts_a_history: 8
 - explicit_in_universe_source: 66
-- historical_claim: 105
+- historical_claim: 108
 - house_system: 16
 - institutional_custom: 168
 - magical_architecture: 72
 - portrait_or_ghost_lore: 12
-- school_rule_or_policy: 118
-- security_or_protection: 148
+- school_rule_or_policy: 119
+- security_or_protection: 149
 
 ## Explicit `Hogwarts: A History` References
 
@@ -48,12 +48,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 730
+- Total: 736
 
 ## Latest Processed Unit
 
-- Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, pages 2688-2708, `sources/book-06/chapter-16-a-very-frosty-christmas.yaml`
+- Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, pages 2709-2728, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, pages 2709-2728, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+- Harry Potter and the Half-Blood Prince, Chapter Eighteen - Birthday Surprises, pages 2729-2749, `sources/book-06/chapter-18-birthday-surprises.yaml`

@@ -1,0 +1,338 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Seventeen - A Sluggish Memory
+  chapter_start_pdf_page: 2709
+  chapter_end_pdf_page: 2728
+  boundary_confidence: high
+  boundary_notes: Chapter Seventeen range came from project-control/processing-state.yaml and project-control/next-run.md. Book 6 Chapter Seventeen starts on PDF page 2709 and Chapter Eighteen starts on PDF page 2729, so only PDF pages 2709-2728 were extracted and searched.
+  processed_date: '2026-07-26'
+  processor_notes: "Processed only Book 6, Chapter Seventeen. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: hbp-ch17-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2709
+    printed_page: null
+    extracted_text_lines: 7-9; 26-32
+    text_anchor:
+      start_phrase: The Ministry had arranged this one-off connection
+      end_phrase: finally stopping squarely in the fireplace in Professor McGonagall's office
+      local_occurrence_note: The chapter opens with the post-Christmas return from the Burrow to Hogwarts by a temporary Floo connection.
+    nearby_context: Harry, Ron, and Ginny leave the Weasleys' kitchen fire and arrive directly in Professor McGonagall's office before walking to Gryffindor Tower.
+    match_terms:
+      - Floo Network
+      - Ministry
+      - Hogwarts
+      - McGonagall's office
+      - student transport
+      - wartime safety
+    quote_excerpt_short: one-off connection to the Floo Network
+    source_note: The Ministry can arrange a temporary Floo connection to return students quickly and safely to Hogwarts, with arrivals routed through McGonagall's office.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - floo-network
+      - ministry-of-magic
+      - student-transport
+      - wartime-security
+      - mcgonagall-office
+      - hogwarts-return
+    candidate_part: The Castle and Its Protections
+    candidate_chapter: Wartime Access and Student Transport
+    candidate_section: Ministry-arranged Floo returns to staff offices
+    reason_for_placement: The passage documents an exceptional wartime travel arrangement that bypasses ordinary school-return routes while preserving staff-supervised arrival.
+    relevance_to_hogwarts_a_history: A later editorial note can use this as evidence that Hogwarts access points and school travel were modified under wartime Ministry safety measures.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate search found general Floo, Ministry, and Hogwarts security entries, but no prior entry on a one-off Ministry Floo connection returning students through a staff office.
+    confidence: high
+    limitations: The arrangement is explicitly one-off and holiday-specific; it should not be generalized to normal term travel.
+
+  - id: hbp-ch17-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2713
+    printed_page: null
+    extracted_text_lines: 132-139; 161-169
+    text_anchor:
+      start_phrase: APPARITION LESSONS
+      end_phrase: a great deal of store was set by being able to vanish
+      local_occurrence_note: A common-room notice announces Ministry-led Apparition lessons and later dialogue confirms testing timing and castle restrictions.
+    nearby_context: Sixth years crowd around the notice board to sign up; Ron discusses taking the test when he turns seventeen, and Harry notes that Apparition remains unavailable inside the castle.
+    match_terms:
+      - Apparition Lessons
+      - Ministry of Magic
+      - Apparition instructor
+      - seventeen
+      - twelve-week course
+      - castle
+    quote_excerpt_short: twelve-week course of Apparition Lessons
+    source_note: Eligible students may take a twelve-week Apparition course from a Ministry instructor if they are seventeen by 31 August, at a cost of 12 Galleons, while castle Apparition remains restricted.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - apparition
+      - ministry-of-magic
+      - student-licensing
+      - sixth-years
+      - magical-transportation
+      - anti-apparition
+      - school-fees
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Magical Transportation and Student Restrictions
+    candidate_section: Ministry Apparition instruction for eligible students
+    reason_for_placement: The notice supplies concrete instructional, eligibility, duration, and fee details for a Ministry-administered student transport course.
+    relevance_to_hogwarts_a_history: This can anchor a section on how Hogwarts students approach adult magical-transport licensing while still subject to castle movement protections.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch06-001
+        - gof-ch15-006
+        - hbp-ch04-001
+      notes: gof-ch06-001 covers Apparition licensing and risks; gof-ch15-006 and hbp-ch04-001 cover Hogwarts anti-Apparition protections. This entry adds the Hogwarts-based twelve-week Ministry lesson notice, eligibility cutoff, and fee.
+    confidence: high
+    limitations: The evidence is from a sixth-year notice and student discussion; the actual lessons and examination procedure occur outside this passage.
+
+  - id: hbp-ch17-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2715
+    printed_page: null
+    extracted_text_lines: 192-196; 295-297
+    text_anchor:
+      start_phrase: The lamps in Dumbledore's office were lit
+      end_phrase: the most important I have collected
+      local_occurrence_note: Harry arrives for another private lesson in Dumbledore's office, where the Pensieve is ready for two difficult memories.
+    nearby_context: Portraits of previous headmasters sleep in their frames as Dumbledore redirects Harry from current suspicions to historical memory evidence.
+    match_terms:
+      - Dumbledore's office
+      - Pensieve
+      - previous headmasters
+      - memories
+      - private lesson
+      - Tom Riddle
+    quote_excerpt_short: the Pensieve was ready upon the desk once more
+    source_note: Dumbledore's private lessons continue to use the headmaster's office and Pensieve as a structured setting for examining difficult historical memories.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore-office
+      - pensieve
+      - memory-magic
+      - private-lessons
+      - historical-method
+      - headmaster-portraits
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: Memory, Testimony, and Historical Method
+    candidate_section: Pensieve lessons in the headmaster's office
+    reason_for_placement: The scene extends the evidence for memory-based instruction by showing the office setting, portraits, and an explicitly curated pair of hard-won memories.
+    relevance_to_hogwarts_a_history: A later editor can cite this as corroboration for Dumbledore's use of collected memories as historical evidence in exceptional instruction.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch10-004
+        - ootp-ch24-004
+        - ootp-ch28-006
+      notes: hbp-ch10-004 already records Pensieve memories as supervised instruction, while ootp-ch24-004 and ootp-ch28-006 establish memory-entry mechanics. This entry adds the continued private-lesson sequence and two difficult collected memories.
+    confidence: high
+    limitations: This remains exceptional headmaster-led instruction, not evidence that Pensieve study was available to ordinary students.
+
+  - id: hbp-ch17-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2718
+    printed_page: null
+    extracted_text_lines: 301-322; 339-347
+    text_anchor:
+      start_phrase: the start of the school year arrived
+      end_phrase: never to try and charm me
+      local_occurrence_note: Dumbledore summarizes Tom Riddle's arrival, Sorting, hidden Parseltongue, staff impression, and Dumbledore's private watchfulness.
+    nearby_context: Dumbledore frames this as continuation from the prior lesson about Riddle before entering memories of his family history.
+    match_terms:
+      - Tom Riddle
+      - Slytherin House
+      - Sorting Hat
+      - Parseltongue
+      - staff
+      - Dumbledore
+    quote_excerpt_short: placed in Slytherin House almost the moment
+    source_note: Dumbledore states that Riddle was sorted rapidly into Slytherin, hid any Parseltongue displays from staff, impressed most teachers, and remained under Dumbledore's private scrutiny.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - tom-riddle
+      - sorting-hat
+      - slytherin-house
+      - parseltongue
+      - staff-perception
+      - dumbledore
+    candidate_part: Notable Students and Staff
+    candidate_chapter: Tom Riddle at Hogwarts
+    candidate_section: Sorting, concealment, and staff impressions
+    reason_for_placement: The passage supplies a compact account of Riddle's first Hogwarts persona and how his hidden abilities affected staff awareness.
+    relevance_to_hogwarts_a_history: This would support a later historical profile of Voldemort as a Hogwarts student, especially the contrast between public school record and concealed identity.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch17-004
+        - cos-ch11-004
+      notes: cos-ch17-004 links Riddle's Slytherin descent and Parseltongue to heir claims, while cos-ch11-004 explains Parseltongue's Slytherin associations. This entry adds Dumbledore's retrospective account of Riddle's actual Sorting, teacher-facing conduct, and concealed displays.
+    confidence: medium
+    limitations: The account is Dumbledore's retrospective synthesis rather than a direct memory of the Sorting ceremony.
+
+  - id: hbp-ch17-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2719
+    printed_page: null
+    extracted_text_lines: 348-362
+    text_anchor:
+      start_phrase: he gathered about him a group of dedicated friends
+      end_phrase: Hagrid was wrongly accused of that crime
+      local_occurrence_note: Dumbledore describes Riddle's school group, later Death Eater links, unresolved incidents, and the Chamber opening.
+    nearby_context: The account follows Dumbledore's admission that he watched Riddle closely because Riddle was guarded with him.
+    match_terms:
+      - Death Eaters
+      - castle
+      - Chamber of Secrets
+      - Hagrid
+      - Tom Riddle
+      - school incidents
+    quote_excerpt_short: forerunners of the Death Eaters
+    source_note: Riddle's Hogwarts circle is described as the forerunner of the Death Eaters, associated with unresolved school incidents and the Chamber opening that killed a girl and falsely implicated Hagrid.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - tom-riddle
+      - death-eaters
+      - chamber-of-secrets
+      - hagrid-expulsion
+      - school-incidents
+      - pre-harry-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: The First Known Chamber Opening
+    candidate_section: Riddle's circle and unresolved school incidents
+    reason_for_placement: The passage links the first Chamber opening to a wider pattern of Hogwarts-era intimidation and early Death Eater formation.
+    relevance_to_hogwarts_a_history: This helps a school history move beyond a single Chamber incident to the wider institutional problem of Riddle's undetected student faction.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch13-005
+        - cos-ch17-003
+        - cos-ch15-006
+      notes: cos-ch13-005, cos-ch17-003, and cos-ch15-006 cover the first Chamber opening, Riddle's frame-up, and Hagrid/Aragog evidence. This entry adds Dumbledore's retrospective link between Riddle's school group, unresolved incidents, and the first Death Eaters.
+    confidence: medium
+    limitations: Dumbledore says the group was never satisfactorily linked to most incidents, so the wider pattern should remain qualified.
+
+  - id: hbp-ch17-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2720
+    printed_page: null
+    extracted_text_lines: 365-386
+    text_anchor:
+      start_phrase: I have not been able to find many memories
+      end_phrase: discovered the existence of Slytherin's surviving line
+      local_occurrence_note: Dumbledore explains his research method and Riddle's failed search for his father in Hogwarts records.
+    nearby_context: Dumbledore describes tracing reluctant witnesses, old records, Muggle and wizard testimony, and Riddle's research into family lineage.
+    match_terms:
+      - old records
+      - trophy room
+      - prefects
+      - Wizarding history
+      - Slytherin's surviving line
+      - Tom Riddle senior
+    quote_excerpt_short: lists of prefects in the old school records
+    source_note: Riddle searched Hogwarts trophy-room shields, prefect lists, old school records, and Wizarding history books for his father, then used family-history books to trace Slytherin's surviving line.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - school-records
+      - trophy-room
+      - prefect-lists
+      - wizarding-history
+      - slytherin-line
+      - tom-riddle
+      - family-history
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: Records, Archives, and Historical Research
+    candidate_section: School records and family-history research
+    reason_for_placement: The passage identifies specific Hogwarts record types and library-like sources used for lineage research.
+    relevance_to_hogwarts_a_history: "This can support future coverage of the school's archival memory: trophies, prefect records, and books as evidence for student and family histories."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch13-002
+        - ps-ch09-004
+      notes: cos-ch13-002 records Riddle's awards and Head Boy/prefect record in the trophy room, and ps-ch09-004 establishes the room's contents. This entry adds Riddle's own research path through trophy shields, prefect lists, old school records, and Wizarding-history books.
+    confidence: medium
+    limitations: Dumbledore reports what witnesses told him and what he inferred; the passage does not show the records directly.
+
+  - id: hbp-ch17-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Seventeen - A Sluggish Memory
+    chapter_start_pdf_page: 2709
+    chapter_end_pdf_page: 2728
+    pdf_page: 2724
+    printed_page: null
+    extracted_text_lines: 534-548
+    text_anchor:
+      start_phrase: they can detect magic, but not the perpetrator
+      end_phrase: enforce their offspring's obedience while within their walls
+      local_occurrence_note: Harry asks why underage magic did not reveal Riddle's crime, and Dumbledore explains the Ministry's detection limit.
+    nearby_context: Dumbledore has just explained Morfin's false confession, the implanted memory, and the failed attempt to secure Morfin's release.
+    match_terms:
+      - underage magic
+      - Ministry
+      - perpetrator
+      - Hover Charm
+      - adult witch or wizard's house
+      - parents
+    quote_excerpt_short: detect magic, but not the perpetrator
+    source_note: The Ministry can detect underage magic but cannot identify the caster inside an adult magical household, relying instead on wizarding parents to enforce compliance.
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - underage-magic
+      - ministry-of-magic
+      - trace
+      - magical-law
+      - parental-enforcement
+      - student-conduct
+      - morfin-gaunt
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Student Conduct Beyond School
+    candidate_section: Detection limits in adult magical households
+    reason_for_placement: The passage clarifies a critical enforcement gap in the rules governing school-age magic outside Hogwarts.
+    relevance_to_hogwarts_a_history: This can refine a rules section by distinguishing detection of magic from attribution of responsibility, especially for students or underage witches and wizards in magical homes.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch02-005
+        - ootp-ch02-002
+        - ootp-ch07-001
+      notes: cos-ch02-005, ootp-ch02-002, and ootp-ch07-001 cover underage-magic warnings, sanctions, and emergency-law procedure. This entry adds Dumbledore's explicit explanation that the Ministry detects magic but not the caster in adult magical households.
+    confidence: high
+    limitations: The explanation is framed through Voldemort's pre-Hogwarts crime and Morfin's case, so Hogwarts-specific application should be limited to rules context.

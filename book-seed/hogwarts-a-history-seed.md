@@ -3916,6 +3916,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: cross_reference_candidate
   - Notes: The evidence comes from a family breakfast before a World Cup trip and does not state Hogwarts curriculum rules for Apparition instruction.
 
+#### Section: Ministry Apparition instruction for eligible students
+
+Summary: The available evidence includes 1 source item, led by: Eligible students may take a twelve-week Apparition course from a Ministry instructor if they are seventeen by 31 August, at a cost of 12 Galleons, while castle Apparition remains restricted.
+
+- **Corroboration:** Eligible students may take a twelve-week Apparition course from a Ministry instructor if they are seventeen by 31 August, at a cost of 12 Galleons, while castle Apparition remains restricted.
+  - Quote: "twelve-week course of Apparition Lessons"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2713, `hbp-ch17-002`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `gof-ch06-001`, `gof-ch15-006`, `hbp-ch04-001`. gof-ch06-001 covers Apparition licensing and risks; gof-ch15-006 and hbp-ch04-001 cover Hogwarts anti-Apparition protections. This entry adds the Hogwarts-based twelve-week Ministry lesson notice, eligibility cutoff, and fee.
+  - Notes: The evidence is from a sixth-year notice and student discussion; the actual lessons and examination procedure occur outside this passage.
+
 ### Chapter: Ministry Authority Beyond Hogwarts
 
 #### Section: Secrecy, broomstick rules, and creature control
@@ -4209,6 +4221,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore annou
   - Notes: The passage gives no enforcement details for the joke-item ban or the selection criteria for commentators.
 
 ### Chapter: Student Conduct Beyond School
+
+#### Section: Detection limits in adult magical households
+
+Summary: The available evidence includes 1 source item, led by: The Ministry can detect underage magic but cannot identify the caster inside an adult magical household, relying instead on wizarding parents to enforce compliance.
+
+- **Corroboration:** The Ministry can detect underage magic but cannot identify the caster inside an adult magical household, relying instead on wizarding parents to enforce compliance.
+  - Quote: "detect magic, but not the perpetrator"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2724, `hbp-ch17-007`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch02-005`, `ootp-ch02-002`, `ootp-ch07-001`. cos-ch02-005, ootp-ch02-002, and ootp-ch07-001 cover underage-magic warnings, sanctions, and emergency-law procedure. This entry adds Dumbledore's explicit explanation that the Ministry detects magic but not the caster in adult magical households.
+  - Notes: The explanation is framed through Voldemort's pre-Hogwarts crime and Morfin's case, so Hogwarts-specific application should be limited to rules context.
 
 #### Section: Emergency Exception and Ministry Hearing Procedure
 
@@ -6560,6 +6584,18 @@ Summary: The available evidence includes 1 source item, led by: Riddle's diary i
 
 ### Chapter: Memory, Testimony, and Historical Method
 
+#### Section: Pensieve lessons in the headmaster's office
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's private lessons continue to use the headmaster's office and Pensieve as a structured setting for examining difficult historical memories.
+
+- **Corroboration:** Dumbledore's private lessons continue to use the headmaster's office and Pensieve as a structured setting for examining difficult historical memories.
+  - Quote: "the Pensieve was ready upon the desk once more"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2715, `hbp-ch17-003`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `hbp-ch10-004`, `ootp-ch24-004`, `ootp-ch28-006`. hbp-ch10-004 already records Pensieve memories as supervised instruction, while ootp-ch24-004 and ootp-ch28-006 establish memory-entry mechanics. This entry adds the continued private-lesson sequence and two difficult collected memories.
+  - Notes: This remains exceptional headmaster-led instruction, not evidence that Pensieve study was available to ordinary students.
+
 #### Section: Pensieve memories as supervised historical evidence
 
 Summary: The available evidence includes 1 source item, led by: Dumbledore uses the Pensieve as a supervised teaching tool, entering a collected memory with Harry's permission and warning that later conclusions mix memory evidence with guesswork.
@@ -6622,6 +6658,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter comb
   - Reference type: explicit_in_universe_source
   - Corroborates: `poa-ch14-003`. Book 3 Chapter Fourteen records Hermione's defense research for Buckbeak; this entry adds the named hippogriff volumes, Ron's library work, Easter workload context, and simultaneous Quidditch Cup preparation.
   - Notes: The passage does not prove whether the hippogriff books are Hogwarts library holdings or personal/class texts, though the library routine strongly suggests school research access.
+
+### Chapter: Records, Archives, and Historical Research
+
+#### Section: School records and family-history research
+
+Summary: The available evidence includes 1 source item, led by: Riddle searched Hogwarts trophy-room shields, prefect lists, old school records, and Wizarding history books for his father, then used family-history books to trace Slytherin's surviving line.
+
+- **Corroboration:** Riddle searched Hogwarts trophy-room shields, prefect lists, old school records, and Wizarding history books for his father, then used family-history books to trace Slytherin's surviving line.
+  - Quote: "lists of prefects in the old school records"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2720, `hbp-ch17-006`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch13-002`, `ps-ch09-004`. cos-ch13-002 records Riddle's awards and Head Boy/prefect record in the trophy room, and ps-ch09-004 establishes the room's contents. This entry adds Riddle's own research path through trophy shields, prefect lists, old school records, and Wizarding-history books.
+  - Notes: Dumbledore reports what witnesses told him and what he inferred; the passage does not show the records directly.
 
 ### Chapter: Student Use of Books Before Arrival
 
@@ -6687,6 +6737,18 @@ Summary: The available evidence includes 1 source item, led by: Riddle corrects 
   - Reference type: historical_claim
   - Corroborates: `cos-ch13-005`. Chapter Thirteen records Riddle's earlier memory framing Hagrid as culprit; this entry corrects that source by making Riddle's frame-up explicit and adding Dumbledore's suspicion.
   - Notes: The details still come from Riddle's confession; Hagrid's own testimony and official records remain needed for a neutral account.
+
+#### Section: Riddle's circle and unresolved school incidents
+
+Summary: The available evidence includes 1 source item, led by: Riddle's Hogwarts circle is described as the forerunner of the Death Eaters, associated with unresolved school incidents and the Chamber opening that killed a girl and falsely implicated Hagrid.
+
+- **Corroboration:** Riddle's Hogwarts circle is described as the forerunner of the Death Eaters, associated with unresolved school incidents and the Chamber opening that killed a girl and falsely implicated Hagrid.
+  - Quote: "forerunners of the Death Eaters"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2719, `hbp-ch17-005`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch13-005`, `cos-ch17-003`, `cos-ch15-006`. cos-ch13-005, cos-ch17-003, and cos-ch15-006 cover the first Chamber opening, Riddle's frame-up, and Hagrid/Aragog evidence. This entry adds Dumbledore's retrospective link between Riddle's school group, unresolved incidents, and the first Death Eaters.
+  - Notes: Dumbledore says the group was never satisfactorily linked to most incidents, so the wider pattern should remain qualified.
 
 #### Section: Tom Riddle's Hogwarts Record
 
@@ -10944,6 +11006,22 @@ Summary: The available evidence includes 1 source item, led by: Myrtle's account
   - Corroborates: `cos-ch08-005`, `cos-ch15-007`, `cos-ch16-006`, `cos-ch16-007`. Earlier entries identify Myrtle's bathroom haunting, death evidence, Chamber bathroom entrance, and plumbing-linked tunnels; this entry adds her pipe-to-lake movement and Dippet/Olive Hornby body-discovery testimony.
   - Notes: Myrtle is emotional and digressive, so the entry should be used for corroborated ghost and infrastructure details rather than precise legal chronology.
 
+## Part: Notable Students and Staff
+
+### Chapter: Tom Riddle at Hogwarts
+
+#### Section: Sorting, concealment, and staff impressions
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore states that Riddle was sorted rapidly into Slytherin, hid any Parseltongue displays from staff, impressed most teachers, and remained under Dumbledore's private scrutiny.
+
+- **Corroboration:** Dumbledore states that Riddle was sorted rapidly into Slytherin, hid any Parseltongue displays from staff, impressed most teachers, and remained under Dumbledore's private scrutiny.
+  - Quote: "placed in Slytherin House almost the moment"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2718, `hbp-ch17-004`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch17-004`, `cos-ch11-004`. cos-ch17-004 links Riddle's Slytherin descent and Parseltongue to heir claims, while cos-ch11-004 explains Parseltongue's Slytherin associations. This entry adds Dumbledore's retrospective account of Riddle's actual Sorting, teacher-facing conduct, and concealed displays.
+  - Notes: The account is Dumbledore's retrospective synthesis rather than a direct memory of the Sorting ceremony.
+
 ## Part: Original Book Core
 
 ### Chapter: Arrival at Hogwarts
@@ -11703,6 +11781,19 @@ Summary: The available evidence includes 1 source item, led by: Hermione states 
   - Reference type: security_or_protection
   - Corroborates: `gof-ch06-001`. gof-ch06-001 covers general Apparition licensing and risks; this entry adds the Hogwarts-specific restriction on Apparition inside the grounds.
   - Notes: The rule is stated by Hermione in dialogue and does not explain the enchantment's origin, exact boundary, or exceptions.
+
+### Chapter: Wartime Access and Student Transport
+
+#### Section: Ministry-arranged Floo returns to staff offices
+
+Summary: The available evidence includes 1 source item, led by: The Ministry can arrange a temporary Floo connection to return students quickly and safely to Hogwarts, with arrivals routed through McGonagall's office.
+
+- **Supporting evidence:** The Ministry can arrange a temporary Floo connection to return students quickly and safely to Hogwarts, with arrivals routed through McGonagall's office.
+  - Quote: "one-off connection to the Floo Network"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, PDF p. 2709, `hbp-ch17-001`, `sources/book-06/chapter-17-a-sluggish-memory.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The arrangement is explicitly one-off and holiday-specific; it should not be generalized to normal term travel.
 
 ## Part: The Castle and Its Working Spaces
 

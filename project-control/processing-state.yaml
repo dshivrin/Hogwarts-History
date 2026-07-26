@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
-  chapter_number: 16
-  chapter_title: Chapter Sixteen - A Very Frosty Christmas
-  page_start: 2688
-  page_end: 2708
-  output_yaml: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
   chapter_number: 17
   chapter_title: Chapter Seventeen - A Sluggish Memory
   page_start: 2709
   page_end: 2728
   output_yaml: sources/book-06/chapter-17-a-sluggish-memory.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2729
   page_end: 2749
   output_yaml: sources/book-06/chapter-18-birthday-surprises.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 19
+  chapter_title: Chapter Nineteen - Elf Tails
+  page_start: 2750
+  page_end: 2769
+  output_yaml: sources/book-06/chapter-19-elf-tails.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

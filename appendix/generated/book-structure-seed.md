@@ -870,11 +870,17 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hagrid, Aragog, and the False Culprit
   - Riddle's Account, Expulsion, and Cover Story
   - Riddle's Confession and Hagrid's Expulsion
+  - Riddle's circle and unresolved school incidents
   - Tom Riddle's Hogwarts Record
 - Tom Riddle Before Hogwarts
   - Gaunt convictions and Voldemort's maternal line
 - Voldemort, Riddle, and Hogwarts Memory
   - Riddle Family Background and Muggle Records
+
+## Notable Students and Staff
+
+- Tom Riddle at Hogwarts
+  - Sorting, concealment, and staff impressions
 
 ## Original Book Core
 
@@ -1159,6 +1165,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Petunia Dursley's Retained Azkaban Knowledge
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
+  - Ministry Apparition instruction for eligible students
 - Ministry Authority Beyond Hogwarts
   - Secrecy, broomstick rules, and creature control
 - Ministry Interfaces with Hogwarts
@@ -1195,6 +1202,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Start-of-Term Notices
   - Forbidden joke items and House Quidditch signups
 - Student Conduct Beyond School
+  - Detection limits in adult magical households
   - Emergency Exception and Ministry Hearing Procedure
   - Emergency Exceptions and Limits on Ministry Discipline
   - Hearing Venue Changed to Old Courtroom Ten
@@ -1364,6 +1372,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Movement Limits and Anti-Apparition Protections
   - Apparition blocked inside the grounds
+- Wartime Access and Student Transport
+  - Ministry-arranged Floo returns to staff offices
 
 ## The Castle and Its Working Spaces
 
@@ -1421,6 +1431,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Magical Sources and Unreliable Records
   - The Riddle Diary as Memory and Weapon
 - Memory, Testimony, and Historical Method
+  - Pensieve lessons in the headmaster's office
   - Pensieve memories as supervised historical evidence
 - Named In-Universe Sources
   - Bathilda Bagshot's A History of Magic
@@ -1434,6 +1445,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Practical Books and Specialist Periodicals
   - Broomstick Publications
   - Creature-Law and Hippogriff Sources
+- Records, Archives, and Historical Research
+  - School records and family-history research
 - Student Use of Books Before Arrival
   - Course Books and Background Reading
 - Student Use of Library Books
