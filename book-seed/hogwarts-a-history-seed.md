@@ -2560,6 +2560,17 @@ Summary: The available evidence includes 1 source item, led by: Sirius and Lupin
   - Corroborates: `ootp-ch18-007`, `ootp-ch21-006`. ootp-ch18-007 records the D.A.'s formal first practice and ootp-ch21-006 records later spell progression; this entry adds a named private book set Harry planned to use as practical teaching material.
   - Notes: The books are private gifts, not Hogwarts-issued course texts.
 
+#### Section: Sixth-year dark creatures and Unforgivable Curses curriculum
+
+Summary: The available evidence includes 1 source item, led by: Sixth-year Defense Against the Dark Arts under Snape covers dementors, resistance to the Imperius Curse, Inferi, ghosts, and the Cruciatus Curse in a dark-magic-centered sequence.
+
+- **Supporting evidence:** Sixth-year Defense Against the Dark Arts under Snape covers dementors, resistance to the Imperius Curse, Inferi, ghosts, and the Cruciatus Curse in a dark-magic-centered sequence.
+  - Quote: "reanimated by a Dark wizard's spells"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2801, `hbp-ch21-006`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The classroom exchange is shaped by Snape's hostility to Harry and Ron; it still supplies reliable subject matter but not a neutral pedagogy description.
+
 #### Section: Sixth-year nonverbal magic and advanced threat framing
 
 Summary: The available evidence includes 1 source item, led by: Snape frames N.E.W.T. Defense as advanced, adaptive work against the Dark Arts, uses classroom images of major threats, and begins practical nonverbal spell practice.
@@ -3210,6 +3221,18 @@ Summary: The available evidence includes 1 source item, led by: The Half-Blood P
   - Reference type: explicit_in_universe_source
   - Corroborates: `hbp-ch09-007`, `hbp-ch10-001`, `hbp-ch09-003`. hbp-ch09-007 records the first discovery of the annotated textbook, hbp-ch10-001 records continued use and non-Potions marginalia, and hbp-ch09-003 records sixth-year nonverbal spell instruction; this entry adds named marginal spells, counter-jinx evidence, and Hermione's Ministry-approval concern.
   - Notes: Harry infers that the Prince invented the spells, and Hermione's Ministry-approval comment is an objection rather than a quoted regulation.
+
+#### Section: Sectumsempra and dangerous marginal spellcraft
+
+Summary: The available evidence includes 1 source item, led by: The Half-Blood Prince's annotated Potions book contains the marginal spell Sectumsempra, labelled for enemies, which Harry notes for later use without knowing its effect.
+
+- **Corroboration:** The Half-Blood Prince's annotated Potions book contains the marginal spell Sectumsempra, labelled for enemies, which Harry notes for later use without knowing its effect.
+  - Quote: "For Enemies"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2791, `hbp-ch21-002`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch09-007`, `hbp-ch12-003`, `hbp-ch16-005`. hbp-ch09-007 records the annotated textbook's discovery, hbp-ch12-003 records named marginal spells and concerns about unapproved incantations, and hbp-ch16-005 records a Marauders-era school jinx fashion. This entry adds Sectumsempra by name and its hostile marginal label.
+  - Notes: The passage does not yet reveal what Sectumsempra does or whether it was invented at Hogwarts.
 
 #### Section: Student jinx fashions before 1984
 
@@ -3955,6 +3978,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: The evidence comes from a family breakfast before a World Cup trip and does not state Hogwarts curriculum rules for Apparition instruction.
+
+#### Section: Apparition testing and Hogsmeade practice sessions
+
+Summary: The available evidence includes 1 source item, led by: Sixth-year students old enough by the April test date may sign up for heavily supervised Apparition practice in Hogsmeade before taking the formal test.
+
+- **Corroboration:** Sixth-year students old enough by the April test date may sign up for heavily supervised Apparition practice in Hogsmeade before taking the formal test.
+  - Quote: "additional practice sessions"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2792, `hbp-ch21-001`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch17-002`, `gof-ch06-001`, `gof-ch15-006`. hbp-ch17-002 records the original lesson notice, eligibility, fee, and anti-Apparition context; gof-ch06-001 covers general licensing and risks; gof-ch15-006 records the Hogwarts grounds restriction. This entry adds the April test date, optional extra Hogsmeade practice, and Twycross's practical assessment.
+  - Notes: The chapter gives student-observed logistics and a reported practice result, not the full Ministry examination rubric.
 
 #### Section: Ministry Apparition instruction for eligible students
 
@@ -10954,6 +10989,18 @@ Summary: The available evidence includes 1 source item, led by: Banned Weasleys'
   - Corroborates: `hbp-ch11-007`, `hbp-ch12-002`. hbp-ch11-007 records arrival and owl-post screening, and hbp-ch12-002 records Hogsmeade Secrecy Sensor checks; this entry adds disguised commercial love potions and explains why non-Dark mislabeled potions can evade sensor-based detection.
   - Notes: Hermione explains the mechanism in conversation; the passage does not show Filch inspecting a disguised potion directly.
 
+#### Section: Hogsmeade screening and external guard coverage
+
+Summary: The available evidence includes 1 source item, led by: Wartime security includes Filch screening student departures with a Secrecy Sensor and Tonks serving as an external school guard who can enter the castle seeking Dumbledore.
+
+- **Corroboration:** Wartime security includes Filch screening student departures with a Secrecy Sensor and Tonks serving as an external school guard who can enter the castle seeking Dumbledore.
+  - Quote: "supposed to be guarding the school"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2805, `hbp-ch21-007`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch12-002`, `hbp-ch11-007`, `ootp-ch16-001`. hbp-ch12-002 records Hogsmeade Secrecy Sensor checks, hbp-ch11-007 records wartime arrival and owl-post screening, and ootp-ch16-001 records earlier Filch Hogsmeade departure checks. This entry adds the Chapter 21 practice-trip context and Tonks's role as a school guard during Dumbledore's absence.
+  - Notes: Tonks's exact assignment is stated by Hermione, not formally described by staff or the Ministry.
+
 #### Section: Hogsmeade trip screening under wartime precautions
 
 Summary: The available evidence includes 1 source item, led by: Wartime Hogsmeade visits still occur, but Filch verifies permission lists at the oak front doors and triple-checks students with a Secrecy Sensor as they leave and return.
@@ -10965,6 +11012,18 @@ Summary: The available evidence includes 1 source item, led by: Wartime Hogsmead
   - Reference type: security_or_protection
   - Corroborates: `hbp-ch11-007`. hbp-ch11-007 records arrival searches and owl-post screening with Secrecy Sensors; this entry adds Hogsmeade permission checking and front-door screening for students going in and out.
   - Notes: The passage shows one Hogsmeade day and does not state the full written policy or whether every trip used the same level of screening.
+
+#### Section: Polyjuice disguise misuse in school corridors
+
+Summary: The available evidence includes 1 source item, led by: Malfoy's Room of Requirement operation appears to use stolen classroom Polyjuice Potion so Crabbe and Goyle can disguise themselves as other students while guarding the corridor.
+
+- **Corroboration:** Malfoy's Room of Requirement operation appears to use stolen classroom Polyjuice Potion so Crabbe and Goyle can disguise themselves as other students while guarding the corridor.
+  - Quote: "Crabbe and Goyle as usual"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2797, `hbp-ch21-005`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch09-005`, `hbp-ch18-004`, `hbp-ch19-007`. hbp-ch09-005 records Slughorn's Polyjuice demonstration, hbp-ch18-004 records unexplained map blind spots, and hbp-ch19-007 records the elf surveillance assignment. This entry adds Harry's theft-and-disguise inference plus a later direct encounter with Goyle disguised as a younger student.
+  - Notes: Harry's inference is strongly corroborated by later observation of Goyle, but the chapter does not show the theft itself or a confession by Malfoy.
 
 #### Section: Staff investigation after a failed cursed-object attack
 
@@ -11296,6 +11355,18 @@ Summary: The available evidence includes 1 source item, led by: The scene gives 
   - Reference type: cross_reference_candidate
   - Corroborates: `ootp-ch06-002`, `cos-ch02-001`, `gof-ch09-003`. ootp-ch06-002 records Kreacher's Black-family loyalty and Order-secrecy risk, cos-ch02-001 records Dobby's family bondage, and gof-ch09-003 records clothing dismissal; this entry adds the family-house phrasing, Kreacher's den, and Harry's Dobby-based challenge to Sirius's certainty.
   - Notes: Sirius's explanation is challenged by Harry, so the exact house-elf movement rule remains partly uncertain.
+
+#### Section: Covert school surveillance and hidden-room limits
+
+Summary: The available evidence includes 1 source item, led by: House-elf surveillance can track a student's ordinary movements inside Hogwarts for days, but even Dobby cannot enter the Room of Requirement without knowing its current required form.
+
+- **Corroboration:** House-elf surveillance can track a student's ordinary movements inside Hogwarts for days, but even Dobby cannot enter the Room of Requirement without knowing its current required form.
+  - Quote: "making regular visits to the seventh floor"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2794, `hbp-ch21-003`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch19-007`, `hbp-ch18-004`. hbp-ch19-007 records Harry assigning Dobby and Kreacher to tail Malfoy, and hbp-ch18-004 records Malfoy's map disappearances. This entry adds the elves' completed report, continuous tracking claim, seventh-floor destination, and inability to enter the hidden room.
+  - Notes: The report comes through Dobby and Kreacher, whose loyalties and speech patterns differ; it does not reveal what Malfoy is doing inside.
 
 #### Section: Kreacher, Family Loyalty, and Headquarters Secrecy
 
@@ -12017,6 +12088,18 @@ Summary: The available evidence includes 1 source item, led by: The Marauder's M
   - Reference type: magical_architecture
   - Corroborates: `poa-ch10-003`, `gof-ch25-001`, `gof-ch29-001`. poa-ch10-003 introduces the map, gof-ch25-001 corroborates castle surveillance, and gof-ch29-001 adds a map boundary. This entry adds Malfoy's unexplained disappearances from map searches during a high-security school year.
   - Notes: The passage does not yet identify the Room of Requirement as the cause of Malfoy's disappearance; that tag is inferential for later duplicate lookup.
+
+#### Section: Room of Requirement access rules and map blind spots
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement may withhold access unless a seeker knows the needed configuration; it also appears absent from the Marauder's Map when functioning as Malfoy's hidden workspace.
+
+- **Corroboration:** The Room of Requirement may withhold access unless a seeker knows the needed configuration; it also appears absent from the Marauder's Map when functioning as Malfoy's hidden workspace.
+  - Quote: "if you need it to be Unplottable"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, PDF p. 2796, `hbp-ch21-004`, `sources/book-06/chapter-21-the-unknowable-room.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `hbp-ch18-004`, `hbp-ch19-006`, `gof-ch25-001`. hbp-ch18-004 and hbp-ch19-006 record Malfoy's unexplained disappearance from the map, while gof-ch25-001 records ordinary map surveillance. This entry identifies the Room of Requirement as the likely blind spot and adds Hermione's access-rule explanation plus Harry's failed requests.
+  - Notes: Hermione's Unplottable explanation is reasoned dialogue rather than a formal statement from the room's creators or staff.
 
 #### Section: Wall-disguised shortcut toward Potions
 

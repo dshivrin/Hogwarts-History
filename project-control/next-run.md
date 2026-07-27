@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-One - The Unknowable Room
-- Page range: 2791-2808
+- Chapter: Chapter Twenty-Two - After the Burial
+- Page range: 2809-2828
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-21-the-unknowable-room.yaml`
+- Output YAML: `sources/book-06/chapter-22-after-the-burial.yaml`
 
 ## Minimal Context
 

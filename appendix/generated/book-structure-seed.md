@@ -71,6 +71,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
   - Private defensive books used for student-led practice
+  - Sixth-year dark creatures and Unforgivable Curses curriculum
   - Sixth-year nonverbal magic and advanced threat framing
 - Defense Against the Dark Arts Staffing
   - Dumbledore's restrictions on Snape
@@ -160,6 +161,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Continued use of the Half-Blood Prince's annotated Potions book
   - Dating the Half-Blood Prince's annotated book
   - Marginal spellcraft and unapproved incantations
+  - Sectumsempra and dangerous marginal spellcraft
   - Student jinx fashions before 1984
   - The Half-Blood Prince's annotated Potions book
 - Timetables, Electives, and Exceptional Study Arrangements
@@ -436,7 +438,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Arrival and Mail Screening
   - Cursed-object attack on the Hogsmeade return route
   - Disguised contraband and Secrecy Sensor limits
+  - Hogsmeade screening and external guard coverage
   - Hogsmeade trip screening under wartime precautions
+  - Polyjuice disguise misuse in school corridors
   - Staff investigation after a failed cursed-object attack
 - Security, Discipline, and Wartime Infiltration
   - Gatecrashing, Head-of-House authority, and covert risk
@@ -922,6 +926,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Goblin Neutrality and Recruitment Pressures
 - House-Elves, Service, and Wizarding Households
   - Clothing, family-house bonds, and possible unauthorized departure
+  - Covert school surveillance and hidden-room limits
   - Kreacher, Family Loyalty, and Headquarters Secrecy
   - Ownership transfer and reassignment to Hogwarts kitchens
   - Summoning, free service, and covert school surveillance
@@ -1179,6 +1184,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Petunia Dursley's Retained Azkaban Knowledge
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
+  - Apparition testing and Hogsmeade practice sessions
   - Ministry Apparition instruction for eligible students
   - Ministry Apparition lessons inside a temporary Great Hall exception
 - Ministry Authority Beyond Hogwarts
@@ -1403,6 +1409,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Maps, Hidden Rooms, and Concealed Routes
   - Marauder's Map limits and watched passageways
   - Marauder's Map surveillance and unexplained blind spots
+  - Room of Requirement access rules and map blind spots
   - Wall-disguised shortcut toward Potions
 - Movement Limits and Anti-Apparition Protections
   - Apparition blocked inside the grounds

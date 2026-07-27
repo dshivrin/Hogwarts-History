@@ -142,11 +142,13 @@ tags:
     - hbp-ch10-001
     - hbp-ch12-003
     - hbp-ch16-006
+    - hbp-ch21-002
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   advanced-potions:
     entries:
     - cos-ch12-004
@@ -433,6 +435,7 @@ tags:
     - hbp-ch04-001
     - hbp-ch17-002
     - hbp-ch18-003
+    - hbp-ch21-001
     - ootp-ch03-003
     - ootp-ch23-001
     output_yaml:
@@ -446,6 +449,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -1532,6 +1536,7 @@ tags:
     - gof-ch25-005
     - hbp-ch18-004
     - hbp-ch19-004
+    - hbp-ch21-004
     - ootp-ch17-007
     - ootp-ch18-006
     - ootp-ch20-001
@@ -1556,6 +1561,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   castle-protections:
     entries:
     - hbp-ch08-002
@@ -2469,8 +2475,15 @@ tags:
   covert-surveillance:
     entries:
     - hbp-ch19-007
+    - hbp-ch21-003
     output_yaml:
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
+  crabbe:
+    entries:
+    - hbp-ch21-005
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   creature-alias:
     entries:
     - hbp-ch03-006
@@ -2619,6 +2632,7 @@ tags:
     - gof-ch14-005
     - gof-ch30-006
     - gof-ch34-002
+    - hbp-ch21-006
     - ootp-ch23-007
     - ootp-ch32-007
     - ootp-ch36-002
@@ -2629,6 +2643,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   crystal-gazing:
     entries:
     - gof-ch21-005
@@ -2651,6 +2666,7 @@ tags:
     - gof-ch29-002
     - gof-ch36-005
     - hbp-ch15-005
+    - hbp-ch21-006
     - ootp-ch27-003
     - ootp-ch38-003
     - ps-ch05-004
@@ -2669,6 +2685,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   curriculum-sequence:
     entries:
     - poa-ch10-001
@@ -2707,6 +2724,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+  d-a:
+    entries:
+    - hbp-ch21-004
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   da-meetings:
     entries:
     - ootp-ch19-001
@@ -2782,6 +2804,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
   dangerous-magic:
     entries:
+    - hbp-ch21-002
     - ootp-ch34-005
     - ootp-ch35-004
     - ootp-ch35-006
@@ -2789,6 +2812,7 @@ tags:
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   dangerous-plants:
     entries:
     - cos-ch06-002
@@ -3009,6 +3033,7 @@ tags:
     - hbp-ch15-006
     - hbp-ch20-003
     - hbp-ch20-007
+    - hbp-ch21-006
     - ootp-ch01-005
     - ootp-ch02-005
     - ootp-ch08-003
@@ -3106,6 +3131,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   defense-association:
     entries:
     - ootp-ch18-007
@@ -3168,6 +3194,7 @@ tags:
     - gof-ch30-003
     - gof-ch36-004
     - hbp-ch01-006
+    - hbp-ch21-006
     - ootp-ch01-004
     - ootp-ch02-004
     - ootp-ch02-005
@@ -3214,6 +3241,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   dementors-kiss:
     entries:
     - ootp-ch02-005
@@ -3535,6 +3563,7 @@ tags:
     - gof-ch28-001
     - gof-ch35-003
     - hbp-ch19-007
+    - hbp-ch21-003
     - ootp-ch21-004
     - ootp-ch27-005
     output_yaml:
@@ -3548,6 +3577,7 @@ tags:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   dobby-warning:
     entries:
     - cos-ch02-002
@@ -3798,6 +3828,7 @@ tags:
     - hbp-ch17-004
     - hbp-ch18-007
     - hbp-ch19-003
+    - hbp-ch21-007
     - ootp-ch02-003
     - ootp-ch02-006
     - ootp-ch03-006
@@ -3955,6 +3986,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   dumbledore-headmastership:
     entries:
     - hbp-ch20-007
@@ -4757,6 +4789,7 @@ tags:
     - hbp-ch15-002
     - hbp-ch15-007
     - hbp-ch19-004
+    - hbp-ch21-007
     - ootp-ch11-005
     - ootp-ch16-001
     - ootp-ch18-001
@@ -4812,6 +4845,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   financial-assistance:
     entries:
     - hbp-ch13-006
@@ -5470,6 +5504,7 @@ tags:
     - cos-ch08-005
     - gof-ch25-004
     - hbp-ch08-003
+    - hbp-ch21-006
     - ootp-ch11-004
     - ootp-ch38-006
     - poa-ch08-006
@@ -5485,6 +5520,7 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   giant-population:
     entries:
     - ootp-ch20-003
@@ -5684,6 +5720,11 @@ tags:
     - hbp-ch18-001
     output_yaml:
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  goyle:
+    entries:
+    - hbp-ch21-005
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   grade-scale:
     entries:
     - hbp-ch05-006
@@ -6336,11 +6377,13 @@ tags:
     - hbp-ch12-003
     - hbp-ch16-005
     - hbp-ch16-006
+    - hbp-ch21-002
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   half-brother:
     entries:
     - ootp-ch30-006
@@ -7057,6 +7100,8 @@ tags:
     - hbp-ch12-002
     - hbp-ch12-006
     - hbp-ch18-005
+    - hbp-ch21-001
+    - hbp-ch21-007
     - ootp-ch16-001
     - ootp-ch16-002
     - ootp-ch25-006
@@ -7097,6 +7142,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -7769,6 +7815,7 @@ tags:
     - hbp-ch15-004
     - hbp-ch19-007
     - hbp-ch20-006
+    - hbp-ch21-003
     - ootp-ch04-003
     - ootp-ch06-002
     - ootp-ch06-005
@@ -7813,6 +7860,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -8090,6 +8138,7 @@ tags:
     - hbp-ch01-007
     - hbp-ch03-003
     - hbp-ch12-006
+    - hbp-ch21-006
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
@@ -8097,6 +8146,7 @@ tags:
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   impersonation:
     entries:
     - hbp-ch04-002
@@ -8158,10 +8208,12 @@ tags:
     - hbp-ch03-003
     - hbp-ch04-002
     - hbp-ch09-003
+    - hbp-ch21-006
     output_yaml:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   influential-students:
     entries:
     - hbp-ch07-005
@@ -8627,6 +8679,7 @@ tags:
     entries:
     - hbp-ch03-005
     - hbp-ch19-007
+    - hbp-ch21-003
     - ootp-ch04-003
     - ootp-ch06-002
     - ootp-ch23-005
@@ -8640,6 +8693,7 @@ tags:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   kwikspell:
     entries:
     - cos-ch08-002
@@ -9240,6 +9294,7 @@ tags:
     - gof-ch31-005
     - hbp-ch09-004
     - hbp-ch10-002
+    - hbp-ch21-004
     - ootp-ch04-003
     - ootp-ch07-003
     - ootp-ch08-001
@@ -9279,6 +9334,7 @@ tags:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -9816,9 +9872,13 @@ tags:
     - hbp-ch18-004
     - hbp-ch19-006
     - hbp-ch19-007
+    - hbp-ch21-003
+    - hbp-ch21-004
+    - hbp-ch21-005
     output_yaml:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   malfoy-family:
     entries:
     - ootp-ch06-006
@@ -9888,6 +9948,7 @@ tags:
     - gof-ch29-003
     - hbp-ch18-004
     - hbp-ch19-006
+    - hbp-ch21-004
     - ootp-ch18-006
     - ootp-ch20-001
     - poa-ch10-003
@@ -9915,6 +9976,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   marble-staircase:
     entries:
     - gof-ch22-003
@@ -9927,10 +9989,12 @@ tags:
     - hbp-ch09-007
     - hbp-ch10-001
     - hbp-ch12-003
+    - hbp-ch21-002
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   mars:
     entries:
     - gof-ch29-005
@@ -10373,6 +10437,7 @@ tags:
     - hbp-ch17-007
     - hbp-ch18-003
     - hbp-ch20-006
+    - hbp-ch21-001
     - ootp-ch02-002
     - ootp-ch02-003
     - ootp-ch04-007
@@ -10460,6 +10525,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   ministry-posters:
     entries:
     - hbp-ch06-002
@@ -12176,6 +12242,7 @@ tags:
     - gof-ch35-006
     - hbp-ch03-003
     - hbp-ch09-005
+    - hbp-ch21-005
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
@@ -12183,6 +12250,7 @@ tags:
     - sources/book-04/chapter-35-veritaserum.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   portable-swamp:
     entries:
     - ootp-ch29-007
@@ -12330,6 +12398,8 @@ tags:
     - hbp-ch16-006
     - hbp-ch18-001
     - hbp-ch19-004
+    - hbp-ch21-002
+    - hbp-ch21-005
     - ootp-ch12-004
     - ootp-ch15-002
     - ootp-ch17-005
@@ -12369,6 +12439,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   potions-class:
     entries:
     - gof-ch27-003
@@ -13701,6 +13772,9 @@ tags:
     - gof-ch23-004
     - hbp-ch18-004
     - hbp-ch19-006
+    - hbp-ch21-003
+    - hbp-ch21-004
+    - hbp-ch21-005
     - ootp-ch18-005
     - ootp-ch18-006
     - ootp-ch21-004
@@ -13713,6 +13787,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   rotating-room:
     entries:
     - ootp-ch34-003
@@ -13992,6 +14067,11 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  school-guard:
+    entries:
+    - hbp-ch21-007
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   school-history:
     entries:
     - cos-ch12-007
@@ -14499,10 +14579,12 @@ tags:
     - hbp-ch11-007
     - hbp-ch12-002
     - hbp-ch15-002
+    - hbp-ch21-007
     output_yaml:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   secret-entrance:
     entries:
     - gof-ch21-002
@@ -14579,6 +14661,11 @@ tags:
     - ootp-ch04-004
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  sectumsempra:
+    entries:
+    - hbp-ch21-002
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   security:
     entries:
     - gof-ch15-006
@@ -14691,10 +14778,12 @@ tags:
   seventh-floor:
     entries:
     - hbp-ch10-002
+    - hbp-ch21-003
     - ootp-ch18-006
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   seventh-year:
     entries:
     - ootp-ch29-001
@@ -14940,8 +15029,10 @@ tags:
   sixth-years:
     entries:
     - hbp-ch17-002
+    - hbp-ch21-001
     output_yaml:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   skele-gro:
     entries:
     - cos-ch10-005
@@ -16046,8 +16137,10 @@ tags:
   student-licensing:
     entries:
     - hbp-ch17-002
+    - hbp-ch21-001
     output_yaml:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   student-life:
     entries:
     - ootp-ch11-007
@@ -16380,10 +16473,12 @@ tags:
     - hbp-ch10-001
     - hbp-ch12-003
     - hbp-ch16-005
+    - hbp-ch21-002
     output_yaml:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -16568,6 +16663,11 @@ tags:
     - ootp-ch38-001
     output_yaml:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+  supervised-practice:
+    entries:
+    - hbp-ch21-001
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   supervised-training:
     entries:
     - poa-ch09-006
@@ -17092,6 +17192,11 @@ tags:
     - gof-ch06-003
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+  tonks:
+    entries:
+    - hbp-ch21-007
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   tonks-family:
     entries:
     - ootp-ch06-006
@@ -17445,6 +17550,11 @@ tags:
     - ootp-ch38-005
     output_yaml:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+  twycross:
+    entries:
+    - hbp-ch21-001
+    output_yaml:
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   umbridge:
     entries:
     - hbp-ch07-004
@@ -17632,11 +17742,13 @@ tags:
     entries:
     - gof-ch11-005
     - hbp-ch03-004
+    - hbp-ch21-004
     - ootp-ch06-007
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   unregistered-animagus:
     entries:
     - ootp-ch25-007
@@ -18039,6 +18151,8 @@ tags:
     - hbp-ch19-002
     - hbp-ch19-003
     - hbp-ch19-006
+    - hbp-ch21-005
+    - hbp-ch21-007
     - ootp-ch09-003
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
@@ -18052,6 +18166,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-21-the-unknowable-room.yaml
   weasley-family:
     entries:
     - cos-ch04-003

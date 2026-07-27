@@ -15092,6 +15092,117 @@ by_entry:
     - voldemort
     source_unit: hbp-ch20
     output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch21-001:
+    title: 'Magical Transportation and Student Restrictions: Apparition testing and
+      Hogsmeade practice sessions'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - apparition
+    - hogsmeade
+    - ministry-of-magic
+    - sixth-years
+    - student-licensing
+    - supervised-practice
+    - twycross
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch21-002:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: Sectumsempra and dangerous
+      marginal spellcraft'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - dangerous-magic
+    - half-blood-prince
+    - marginalia
+    - potions
+    - sectumsempra
+    - student-spellcraft
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch21-003:
+    title: 'House-Elves, Service, and Wizarding Households: Covert school surveillance
+      and hidden-room limits'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - covert-surveillance
+    - dobby
+    - house-elves
+    - kreacher
+    - malfoy
+    - room-of-requirement
+    - seventh-floor
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch21-004:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Room of Requirement access rules
+      and map blind spots'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-navigation
+    - d-a
+    - magical-architecture
+    - malfoy
+    - marauders-map
+    - room-of-requirement
+    - unplottable
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch21-005:
+    title: 'Security and Restricted Objects: Polyjuice disguise misuse in school corridors'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - crabbe
+    - goyle
+    - malfoy
+    - polyjuice-potion
+    - potions
+    - room-of-requirement
+    - wartime-security
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch21-006:
+    title: 'Defense Against the Dark Arts: Sixth-year dark creatures and Unforgivable
+      Curses curriculum'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - cruciatus-curse
+    - curriculum
+    - defense-against-the-dark-arts
+    - dementors
+    - ghosts
+    - imperius-curse
+    - inferi
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch21-007:
+    title: 'Security and Restricted Objects: Hogsmeade screening and external guard
+      coverage'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dumbledore
+    - filch
+    - hogsmeade
+    - school-guard
+    - secrecy-sensors
+    - tonks
+    - wartime-security
+    source_unit: hbp-ch21
+    output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15161,6 +15272,7 @@ by_tag:
   - hbp-ch10-001
   - hbp-ch12-003
   - hbp-ch16-006
+  - hbp-ch21-002
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -15293,6 +15405,7 @@ by_tag:
   - hbp-ch04-001
   - hbp-ch17-002
   - hbp-ch18-003
+  - hbp-ch21-001
   - ootp-ch03-003
   - ootp-ch23-001
   apparition-points:
@@ -15797,6 +15910,7 @@ by_tag:
   - gof-ch25-005
   - hbp-ch18-004
   - hbp-ch19-004
+  - hbp-ch21-004
   - ootp-ch17-007
   - ootp-ch18-006
   - ootp-ch20-001
@@ -16227,6 +16341,9 @@ by_tag:
   - ootp-ch30-004
   covert-surveillance:
   - hbp-ch19-007
+  - hbp-ch21-003
+  crabbe:
+  - hbp-ch21-005
   creature-alias:
   - hbp-ch03-006
   creature-breeding:
@@ -16295,6 +16412,7 @@ by_tag:
   - gof-ch14-005
   - gof-ch30-006
   - gof-ch34-002
+  - hbp-ch21-006
   - ootp-ch23-007
   - ootp-ch32-007
   - ootp-ch36-002
@@ -16311,6 +16429,7 @@ by_tag:
   - gof-ch29-002
   - gof-ch36-005
   - hbp-ch15-005
+  - hbp-ch21-006
   - ootp-ch27-003
   - ootp-ch38-003
   - ps-ch05-004
@@ -16334,6 +16453,8 @@ by_tag:
   curses:
   - gof-ch14-001
   - ps-ch13-003
+  d-a:
+  - hbp-ch21-004
   da-meetings:
   - ootp-ch19-001
   dai-llewellyn-ward:
@@ -16370,6 +16491,7 @@ by_tag:
   - poa-ch16-002
   - poa-ch21-004
   dangerous-magic:
+  - hbp-ch21-002
   - ootp-ch34-005
   - ootp-ch35-004
   - ootp-ch35-006
@@ -16491,6 +16613,7 @@ by_tag:
   - hbp-ch15-006
   - hbp-ch20-003
   - hbp-ch20-007
+  - hbp-ch21-006
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -16562,6 +16685,7 @@ by_tag:
   - gof-ch30-003
   - gof-ch36-004
   - hbp-ch01-006
+  - hbp-ch21-006
   - ootp-ch01-004
   - ootp-ch02-004
   - ootp-ch02-005
@@ -16746,6 +16870,7 @@ by_tag:
   - gof-ch28-001
   - gof-ch35-003
   - hbp-ch19-007
+  - hbp-ch21-003
   - ootp-ch21-004
   - ootp-ch27-005
   dobby-warning:
@@ -16897,6 +17022,7 @@ by_tag:
   - hbp-ch17-004
   - hbp-ch18-007
   - hbp-ch19-003
+  - hbp-ch21-007
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17342,6 +17468,7 @@ by_tag:
   - hbp-ch15-002
   - hbp-ch15-007
   - hbp-ch19-004
+  - hbp-ch21-007
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -17672,6 +17799,7 @@ by_tag:
   - cos-ch08-005
   - gof-ch25-004
   - hbp-ch08-003
+  - hbp-ch21-006
   - ootp-ch11-004
   - ootp-ch38-006
   - poa-ch08-006
@@ -17772,6 +17900,8 @@ by_tag:
   - ootp-ch20-005
   golpalotts-third-law:
   - hbp-ch18-001
+  goyle:
+  - hbp-ch21-005
   grade-scale:
   - hbp-ch05-006
   grawp:
@@ -18103,6 +18233,7 @@ by_tag:
   - hbp-ch12-003
   - hbp-ch16-005
   - hbp-ch16-006
+  - hbp-ch21-002
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -18449,6 +18580,8 @@ by_tag:
   - hbp-ch12-002
   - hbp-ch12-006
   - hbp-ch18-005
+  - hbp-ch21-001
+  - hbp-ch21-007
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -18793,6 +18926,7 @@ by_tag:
   - hbp-ch15-004
   - hbp-ch19-007
   - hbp-ch20-006
+  - hbp-ch21-003
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch06-005
@@ -18939,6 +19073,7 @@ by_tag:
   - hbp-ch01-007
   - hbp-ch03-003
   - hbp-ch12-006
+  - hbp-ch21-006
   impersonation:
   - hbp-ch04-002
   - hbp-ch05-003
@@ -18968,6 +19103,7 @@ by_tag:
   - hbp-ch03-003
   - hbp-ch04-002
   - hbp-ch09-003
+  - hbp-ch21-006
   influential-students:
   - hbp-ch07-005
   informal-custom:
@@ -19173,6 +19309,7 @@ by_tag:
   kreacher:
   - hbp-ch03-005
   - hbp-ch19-007
+  - hbp-ch21-003
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch23-005
@@ -19462,6 +19599,7 @@ by_tag:
   - gof-ch31-005
   - hbp-ch09-004
   - hbp-ch10-002
+  - hbp-ch21-004
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
@@ -19720,6 +19858,9 @@ by_tag:
   - hbp-ch18-004
   - hbp-ch19-006
   - hbp-ch19-007
+  - hbp-ch21-003
+  - hbp-ch21-004
+  - hbp-ch21-005
   malfoy-family:
   - ootp-ch06-006
   mandrake-juice:
@@ -19755,6 +19896,7 @@ by_tag:
   - gof-ch29-003
   - hbp-ch18-004
   - hbp-ch19-006
+  - hbp-ch21-004
   - ootp-ch18-006
   - ootp-ch20-001
   - poa-ch10-003
@@ -19774,6 +19916,7 @@ by_tag:
   - hbp-ch09-007
   - hbp-ch10-001
   - hbp-ch12-003
+  - hbp-ch21-002
   mars:
   - gof-ch29-005
   - ootp-ch27-003
@@ -19992,6 +20135,7 @@ by_tag:
   - hbp-ch17-007
   - hbp-ch18-003
   - hbp-ch20-006
+  - hbp-ch21-001
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -20804,6 +20948,7 @@ by_tag:
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
+  - hbp-ch21-005
   portable-swamp:
   - ootp-ch29-007
   - ootp-ch30-001
@@ -20882,6 +21027,8 @@ by_tag:
   - hbp-ch16-006
   - hbp-ch18-001
   - hbp-ch19-004
+  - hbp-ch21-002
+  - hbp-ch21-005
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -21520,6 +21667,9 @@ by_tag:
   - gof-ch23-004
   - hbp-ch18-004
   - hbp-ch19-006
+  - hbp-ch21-003
+  - hbp-ch21-004
+  - hbp-ch21-005
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -21653,6 +21803,8 @@ by_tag:
   - poa-ch20-003
   - poa-ch20-004
   - poa-ch20-007
+  school-guard:
+  - hbp-ch21-007
   school-history:
   - cos-ch12-007
   - cos-ch18-001
@@ -21887,6 +22039,7 @@ by_tag:
   - hbp-ch11-007
   - hbp-ch12-002
   - hbp-ch15-002
+  - hbp-ch21-007
   secret-entrance:
   - gof-ch21-002
   secret-headquarters:
@@ -21925,6 +22078,8 @@ by_tag:
   - ps-ch09-006
   secret-society:
   - ootp-ch04-004
+  sectumsempra:
+  - hbp-ch21-002
   security:
   - gof-ch15-006
   - ootp-ch07-002
@@ -21973,6 +22128,7 @@ by_tag:
   - hbp-ch03-007
   seventh-floor:
   - hbp-ch10-002
+  - hbp-ch21-003
   - ootp-ch18-006
   seventh-year:
   - ootp-ch29-001
@@ -22089,6 +22245,7 @@ by_tag:
   - hbp-ch15-003
   sixth-years:
   - hbp-ch17-002
+  - hbp-ch21-001
   skele-gro:
   - cos-ch10-005
   skiving-snackboxes:
@@ -22585,6 +22742,7 @@ by_tag:
   - ootp-ch38-007
   student-licensing:
   - hbp-ch17-002
+  - hbp-ch21-001
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -22740,6 +22898,7 @@ by_tag:
   - hbp-ch10-001
   - hbp-ch12-003
   - hbp-ch16-005
+  - hbp-ch21-002
   student-store-cupboard:
   - cos-ch10-002
   student-study:
@@ -22821,6 +22980,8 @@ by_tag:
   - gof-ch20-004
   sunday-prophet:
   - ootp-ch38-001
+  supervised-practice:
+  - hbp-ch21-001
   supervised-training:
   - poa-ch09-006
   supply-district:
@@ -23051,6 +23212,8 @@ by_tag:
   - hbp-ch10-007
   ton-tongue-toffee:
   - gof-ch06-003
+  tonks:
+  - hbp-ch21-007
   tonks-family:
   - ootp-ch06-006
   tournament-aftermath:
@@ -23226,6 +23389,8 @@ by_tag:
   - gof-ch17-002
   two-way-mirror:
   - ootp-ch38-005
+  twycross:
+  - hbp-ch21-001
   umbridge:
   - hbp-ch07-004
   - ootp-ch16-003
@@ -23315,6 +23480,7 @@ by_tag:
   unplottable:
   - gof-ch11-005
   - hbp-ch03-004
+  - hbp-ch21-004
   - ootp-ch06-007
   unregistered-animagus:
   - ootp-ch25-007
@@ -23511,6 +23677,8 @@ by_tag:
   - hbp-ch19-002
   - hbp-ch19-003
   - hbp-ch19-006
+  - hbp-ch21-005
+  - hbp-ch21-007
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
