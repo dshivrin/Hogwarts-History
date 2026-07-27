@@ -881,6 +881,20 @@ Summary: The available evidence includes 1 source item, led by: The train conver
   - Corroborates: `ps-ch05-006`. Chapter Five seeded Hagrid's informal explanation of the four Houses and Slytherin reputation; this entry adds student rumors, family House continuity, and Dumbledore's reported Gryffindor association.
   - Notes: The claims are student conversation and rumor rather than official school explanation.
 
+### Chapter: Founders' Relics and Legacies
+
+#### Section: Hufflepuff's cup and Slytherin's locket
+
+Summary: The available evidence includes 1 source item, led by: Hepzibah identifies a small golden cup as Helga Hufflepuff's family heirloom and displays Slytherin's locket, while Dumbledore later links the cup's appeal to its founder provenance and Hogwarts history.
+
+- **Corroboration:** Hepzibah identifies a small golden cup as Helga Hufflepuff's family heirloom and displays Slytherin's locket, while Dumbledore later links the cup's appeal to its founder provenance and Hogwarts history.
+  - Quote: "Helga Hufflepuff's, as you very well know"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2781, `hbp-ch20-005`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch10-006`, `hbp-ch13-002`. hbp-ch10-006 and hbp-ch13-002 already track Slytherin's locket through the Gaunts and Burke. This entry adds Hepzibah's possession of the locket and introduces Hufflepuff's cup as another founder relic tied explicitly to Hogwarts history.
+  - Notes: Hepzibah is proud and possessive, so the cup's powers and family descent claim need separate corroboration; the passage does not describe the cup's magic in detail.
+
 ### Chapter: House Points and the House Cup
 
 #### Section: Classroom Deductions
@@ -2570,6 +2584,18 @@ Summary: The available evidence includes 1 source item, led by: Snape states tha
   - Reference type: curriculum_or_subject
   - Corroborates: `cos-ch07-004`. cos-ch07-004 records the broader rumor that the Defense Against the Dark Arts job is hard to fill and possibly jinxed; this entry adds Snape's claim that Dumbledore personally kept him from the post because of Dark Arts relapse risk.
   - Notes: The explanation comes from Snape's self-presentation and does not provide Dumbledore's own wording or the full appointment history.
+
+#### Section: Voldemort's refusal and the one-year pattern
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's memory records Voldemort's second request for a Hogwarts teaching post, his Death Eater entourage nearby, and Dumbledore's later claim that the Defense Against the Dark Arts post has had one-year turnover since the refusal.
+
+- **Corroboration:** Dumbledore's memory records Voldemort's second request for a Hogwarts teaching post, his Death Eater entourage nearby, and Dumbledore's later claim that the Defense Against the Dark Arts post has had one-year turnover since the refusal.
+  - Quote: "longer than a year since I refused the post"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2790, `hbp-ch20-007`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-004`, `hbp-ch08-005`, `hbp-ch02-003`. Earlier entries record the rumored Defense jinx, Snape's restricted access to the subject, and Snape's eventual appointment. This entry adds Dumbledore's direct account that the one-year pattern began after he refused Voldemort's request.
+  - Notes: Dumbledore says the aftermath proved Voldemort wanted the Defense post, but the mechanics of the curse or jinx are not described.
 
 ### Chapter: Divination and Elective Study
 
@@ -6941,6 +6967,20 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore repor
   - Corroborates: `ootp-ch08-001`, `gof-ch14-005`. ootp-ch08-001 records Wizengamot procedure, and gof-ch14-005 records Azkaban sentencing principles for severe magic; this entry adds the specific Gaunt convictions, sentences, and family-history consequences.
   - Notes: Dumbledore explicitly labels parts of the Merope/Riddle explanation as guesswork, so the legal outcome is stronger evidence than the inferred love-potion motive.
 
+### Chapter: Tom Riddle's Hogwarts Career
+
+#### Section: Honors, career advice, and first teaching request
+
+Summary: The available evidence includes 1 source item, led by: Riddle left Hogwarts with top grades, prefect and Head Boy honors, an award for special services, teacher career guidance, and a rejected first request to teach Defense Against the Dark Arts under Headmaster Dippet.
+
+- **Corroboration:** Riddle left Hogwarts with top grades, prefect and Head Boy honors, an award for special services, teacher career guidance, and a rejected first request to teach Defense Against the Dark Arts under Headmaster Dippet.
+  - Quote: "winner of the Award for Special Services to the School"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2776, `hbp-ch20-003`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch13-002`, `cos-ch18-001`, `hbp-ch17-004`. Earlier entries identify Riddle's Head Boy and award records and Dumbledore's memory of him as a student. This entry adds top grades, staff career support, the first Dippet-era teaching request, and Galatea Merrythought's long Defense tenure.
+  - Notes: Dumbledore summarizes events many years later, and Riddle's private motives for the first application remain partly interpretive.
+
 ### Chapter: Voldemort, Riddle, and Hogwarts Memory
 
 #### Section: Riddle Family Background and Muggle Records
@@ -7861,6 +7901,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore expla
   - Reference type: historical_claim
   - Corroborates: `ootp-ch34-007`, `ootp-ch35-001`. ootp-ch34-007 records the labelled prophecy orb, and ootp-ch35-001 records the retrieval rule; this entry adds the relabeling after Voldemort's attack, the Neville alternative, and the partial-eavesdropping cause.
   - Notes: The keeper of the Hall of Prophecy is unnamed, and the text does not describe the administrative process for relabeling a prophecy record.
+
+#### Section: Protective reasons for dual Divination staffing
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore frames the dual Divination arrangement as a protective staffing necessity: Firenze cannot return to the forest and Trelawney is safer inside the castle because of her prophecy.
+
+- **Corroboration:** Dumbledore frames the dual Divination arrangement as a protective staffing necessity: Firenze cannot return to the forest and Trelawney is safer inside the castle because of her prophecy.
+  - Quote: "danger she would be in outside the castle"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2773, `hbp-ch20-002`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch15-005`, `ootp-ch38-003`, `ootp-ch26-007`. Prior entries establish Firenze's appointment and shared Divination classes with Trelawney. This entry adds Dumbledore's private explanation that both teachers remain because removing either would create a safety or exile problem.
+  - Notes: The evidence gives Dumbledore's private reasoning, not a public timetable or formal appointment record.
 
 #### Section: Trelawney's True Prophecy and Later Corroboration
 
@@ -11550,6 +11602,29 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore treat
   - Reference type: historical_claim
   - Notes: Burke is an exploitative shopkeeper and the memory captures his account, not neutral documentary proof of every claim.
 
+#### Section: Hokey's conviction and evidentiary limits
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore concludes that Voldemort modified Hokey's memory, notes Ministry bias in accepting a house-elf confession, and limits the recovered memory's proof to Voldemort's knowledge of the cup and locket.
+
+- **Supporting evidence:** Dumbledore concludes that Voldemort modified Hokey's memory, notes Ministry bias in accepting a house-elf confession, and limits the recovered memory's proof to Voldemort's knowledge of the cup and locket.
+  - Quote: "nobody at the Ministry bothered to inquire further"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2783, `hbp-ch20-006`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The murder conclusion remains Dumbledore's inference; the recovered memory proves knowledge of the relics, not the act itself.
+
+#### Section: Slughorn's missing memory as a source gap
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore continues the private Pensieve lessons and explicitly treats Slughorn's altered Horcrux memory as the crucial missing source for the historical reconstruction.
+
+- **Corroboration:** Dumbledore continues the private Pensieve lessons and explicitly treats Slughorn's altered Horcrux memory as the crucial missing source for the historical reconstruction.
+  - Quote: "two more tiny crystal bottles full of swirling memory"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2773, `hbp-ch20-001`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `hbp-ch17-003`, `hbp-ch10-004`, `hbp-ch13-001`. Earlier HBP entries already record Pensieve private lessons and memory evidence. This entry adds the explicit source gap created by Slughorn's withheld Horcrux memory and Dumbledore's requirement that the lessons cannot proceed without it.
+  - Notes: The scene concerns exceptional headmaster-led instruction for Harry, not ordinary school curriculum or general Pensieve access.
+
 ## Part: Staff, Founders, and Notable Residents
 
 ### Chapter: Staff Biographies and Institutional Memory
@@ -11899,6 +11974,21 @@ Summary: The available evidence includes 1 source item, led by: Hermione exploit
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch30-004`, `ootp-ch30-007`, `cos-ch15-004`. ootp-ch30-004 and cos-ch15-004 record earlier deep-Forest routes, while ootp-ch30-007 records centaur confrontation; this entry adds Hermione's deliberate use of centaur audibility as an emergency tactic.
   - Notes: Hermione's plan is inferred from her actions and brief explanation rather than stated in advance.
+
+## Part: The Castle and Its Magic
+
+### Chapter: Hogwarts as a Magical Stronghold
+
+#### Section: Ancient magic, hidden stores, and institutional pull
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore describes Hogwarts as Voldemort's only home, a stronghold of ancient magic with secrets still to uncover, and a potential recruiting ground through teacher influence.
+
+- **Supporting evidence:** Dumbledore describes Hogwarts as Voldemort's only home, a stronghold of ancient magic with secrets still to uncover, and a potential recruiting ground through teacher influence.
+  - Quote: "the castle is a stronghold of ancient magic"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, PDF p. 2777, `hbp-ch20-004`, `sources/book-06/chapter-20-lord-voldemort-s-request.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Dumbledore presents Voldemort's motives as reasoned interpretation rather than direct confession from Riddle.
 
 ## Part: The Castle and Its Protections
 

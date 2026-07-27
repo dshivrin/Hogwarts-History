@@ -74,6 +74,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Sixth-year nonverbal magic and advanced threat framing
 - Defense Against the Dark Arts Staffing
   - Dumbledore's restrictions on Snape
+  - Voldemort's refusal and the one-year pattern
 - Divination and Elective Study
   - Dream interpretation and O.W.L. preparation
   - Planetary divination in the North Tower classroom
@@ -491,6 +492,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry custody of prophecy records
   - Physical prophecy records in the Department of Mysteries
   - Prophecy interpretation, relabeling, and Harry's marked status
+  - Protective reasons for dual Divination staffing
   - Trelawney's True Prophecy and Later Corroboration
   - Trelawney's appointment interview and the first prophecy
   - Trelawney's confirmation of shared Divination classes
@@ -881,6 +883,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Tom Riddle's Hogwarts Record
 - Tom Riddle Before Hogwarts
   - Gaunt convictions and Voldemort's maternal line
+- Tom Riddle's Hogwarts Career
+  - Honors, career advice, and first teaching request
 - Voldemort, Riddle, and Hogwarts Memory
   - Riddle Family Background and Muggle Records
 
@@ -1288,6 +1292,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Memory Evidence and Historical Reconstruction
   - Caractacus Burke's locket testimony
+  - Hokey's conviction and evidentiary limits
+  - Slughorn's missing memory as a source gap
 
 ## Staff, Founders, and Notable Residents
 
@@ -1387,6 +1393,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Towers, Corridors, and Service Rooms
   - The Owlery and school owls
 
+## The Castle and Its Magic
+
+- Hogwarts as a Magical Stronghold
+  - Ancient magic, hidden stores, and institutional pull
+
 ## The Castle and Its Protections
 
 - Maps, Hidden Rooms, and Concealed Routes
@@ -1414,6 +1425,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Four Houses
 
+- Founders' Relics and Legacies
+  - Hufflepuff's cup and Slytherin's locket
 - House Identity and Reputation
   - Borderline Sorting decisions
   - House loyalty during the Triwizard Tournament

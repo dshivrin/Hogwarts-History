@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-26'
+updated: '2026-07-27'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -14981,6 +14981,117 @@ by_entry:
     - obedience
     source_unit: hbp-ch19
     output_yaml: sources/book-06/chapter-19-elf-tails.yaml
+  hbp-ch20-001:
+    title: 'Memory Evidence and Historical Reconstruction: Slughorn''s missing memory
+      as a source gap'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - dumbledore-office
+    - historical-method
+    - horcruxes
+    - memory-magic
+    - pensieve
+    - private-lessons
+    - slughorn-memory
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch20-002:
+    title: 'Divination, Prophecy, and School Testimony: Protective reasons for dual
+      Divination staffing'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - castle-safety
+    - centaurs
+    - divination
+    - firenze
+    - prophecy
+    - sybill-trelawney
+    - teacher-appointments
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch20-003:
+    title: 'Tom Riddle''s Hogwarts Career: Honors, career advice, and first teaching
+      request'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - career-guidance
+    - defense-against-the-dark-arts
+    - galatea-merrythought
+    - head-boy
+    - professor-dippet
+    - school-awards
+    - tom-riddle
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch20-004:
+    title: 'Hogwarts as a Magical Stronghold: Ancient magic, hidden stores, and institutional
+      pull'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - ancient-magic
+    - castle-secrets
+    - hogwarts
+    - recruiting-ground
+    - school-attachment
+    - teacher-influence
+    - voldemort-history
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch20-005:
+    title: 'Founders'' Relics and Legacies: Hufflepuff''s cup and Slytherin''s locket'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relics
+    - helga-hufflepuff
+    - hogwarts-history
+    - hufflepuff-cup
+    - salazar-slytherin
+    - slytherin-locket
+    - wizarding-heirlooms
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch20-006:
+    title: 'Memory Evidence and Historical Reconstruction: Hokey''s conviction and
+      evidentiary limits'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - borgin-and-burkes
+    - historical-method
+    - hokey
+    - house-elves
+    - legal-process
+    - memory-modification
+    - ministry-of-magic
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hbp-ch20-007:
+    title: 'Defense Against the Dark Arts Staffing: Voldemort''s refusal and the one-year
+      pattern'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - death-eaters
+    - defense-against-the-dark-arts
+    - dumbledore-headmastership
+    - hogs-head
+    - jinxed-post
+    - teacher-appointments
+    - voldemort
+    source_unit: hbp-ch20
+    output_yaml: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15107,6 +15218,7 @@ by_tag:
   ancient-magic:
   - gof-ch20-001
   - gof-ch33-004
+  - hbp-ch20-004
   - ootp-ch37-005
   ancient-runes:
   - ootp-ch10-005
@@ -15497,6 +15609,7 @@ by_tag:
   - hbp-ch06-007
   - hbp-ch12-006
   - hbp-ch13-002
+  - hbp-ch20-006
   boris-the-bewildered:
   - gof-ch23-007
   - gof-ch25-002
@@ -15624,6 +15737,7 @@ by_tag:
   - hbp-ch05-001
   career-guidance:
   - cos-ch14-002
+  - hbp-ch20-003
   careers:
   - cos-ch04-005
   caretaker:
@@ -15699,10 +15813,13 @@ by_tag:
   - poa-ch22-001
   castle-residence:
   - ootp-ch26-006
+  castle-safety:
+  - hbp-ch20-002
   castle-search:
   - poa-ch09-004
   castle-secrets:
   - cos-ch09-005
+  - hbp-ch20-004
   castle-security:
   - cos-ch07-006
   - cos-ch09-006
@@ -15749,6 +15866,7 @@ by_tag:
   - cos-ch15-003
   - hbp-ch04-004
   - hbp-ch15-005
+  - hbp-ch20-002
   - ootp-ch09-002
   - ootp-ch26-007
   - ootp-ch27-002
@@ -16324,6 +16442,7 @@ by_tag:
   - hbp-ch06-002
   - hbp-ch07-007
   - hbp-ch17-005
+  - hbp-ch20-007
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -16370,6 +16489,8 @@ by_tag:
   - hbp-ch08-005
   - hbp-ch09-003
   - hbp-ch15-006
+  - hbp-ch20-003
+  - hbp-ch20-007
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -16595,6 +16716,7 @@ by_tag:
   - gof-ch21-005
   - gof-ch29-005
   - hbp-ch15-005
+  - hbp-ch20-002
   - ootp-ch12-005
   - ootp-ch15-003
   - ootp-ch17-006
@@ -16850,6 +16972,8 @@ by_tag:
   - ps-ch15-003
   - ps-ch17-001
   - ps-ch17-003
+  dumbledore-headmastership:
+  - hbp-ch20-007
   dumbledore-judgment:
   - hbp-ch16-003
   dumbledore-lessons:
@@ -16866,6 +16990,7 @@ by_tag:
   - hbp-ch10-003
   - hbp-ch13-001
   - hbp-ch17-003
+  - hbp-ch20-001
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
@@ -17261,6 +17386,7 @@ by_tag:
   - poa-ch15-005
   firenze:
   - hbp-ch15-005
+  - hbp-ch20-002
   - ootp-ch26-007
   - ootp-ch27-001
   - ootp-ch27-002
@@ -17442,6 +17568,8 @@ by_tag:
   - ps-ch11-002
   fouls-and-penalties:
   - gof-ch08-005
+  founder-relics:
+  - hbp-ch20-005
   founders:
   - cos-ch09-003
   - gof-ch12-002
@@ -17504,6 +17632,8 @@ by_tag:
   - gof-ch21-002
   full-moon-safety:
   - poa-ch18-002
+  galatea-merrythought:
+  - hbp-ch20-003
   gambling:
   - gof-ch37-007
   gamekeeper:
@@ -18045,6 +18175,7 @@ by_tag:
   - cos-ch13-002
   - cos-ch18-001
   - gof-ch05-001
+  - hbp-ch20-003
   - ootp-ch10-002
   - ootp-ch14-006
   - poa-ch01-004
@@ -18170,6 +18301,8 @@ by_tag:
   heir-of-slytherin:
   - cos-ch08-006
   - cos-ch09-005
+  helga-hufflepuff:
+  - hbp-ch20-005
   herbology:
   - cos-ch06-002
   - cos-ch06-003
@@ -18285,6 +18418,8 @@ by_tag:
   historical-method:
   - hbp-ch13-002
   - hbp-ch17-003
+  - hbp-ch20-001
+  - hbp-ch20-006
   history-of-magic:
   - cos-ch09-002
   - gof-ch15-002
@@ -18300,6 +18435,7 @@ by_tag:
   history-of-magic-classroom:
   - poa-ch12-001
   hogs-head:
+  - hbp-ch20-007
   - ootp-ch16-002
   - ootp-ch16-003
   - ootp-ch37-006
@@ -18357,6 +18493,7 @@ by_tag:
   - gof-ch34-005
   - hbp-ch02-002
   - hbp-ch02-005
+  - hbp-ch20-004
   - ootp-ch23-001
   hogwarts-a-history:
   - cos-ch09-001
@@ -18441,6 +18578,8 @@ by_tag:
   - ootp-ch22-006
   hogwarts-hidden:
   - gof-ch11-005
+  hogwarts-history:
+  - hbp-ch20-005
   hogwarts-kitchens:
   - gof-ch12-004
   - gof-ch19-002
@@ -18499,6 +18638,8 @@ by_tag:
   - hbp-ch06-004
   hogwarts-victory:
   - gof-ch31-007
+  hokey:
+  - hbp-ch20-006
   holiday-conduct:
   - cos-ch01-005
   - cos-ch02-005
@@ -18559,6 +18700,7 @@ by_tag:
   - hbp-ch05-004
   horcruxes:
   - hbp-ch18-002
+  - hbp-ch20-001
   horseless-carriages:
   - gof-ch11-006
   - gof-ch12-001
@@ -18650,6 +18792,7 @@ by_tag:
   - hbp-ch03-005
   - hbp-ch15-004
   - hbp-ch19-007
+  - hbp-ch20-006
   - ootp-ch04-003
   - ootp-ch06-002
   - ootp-ch06-005
@@ -18767,6 +18910,8 @@ by_tag:
   - poa-ch09-006
   - ps-ch05-006
   - ps-ch13-002
+  hufflepuff-cup:
+  - hbp-ch20-005
   human-transfiguration:
   - hbp-ch15-003
   hungarian-horntail:
@@ -18945,6 +19090,7 @@ by_tag:
   jinxed-post:
   - cos-ch07-004
   - hbp-ch08-005
+  - hbp-ch20-007
   - poa-ch05-003
   jinxes:
   - ootp-ch25-005
@@ -19072,6 +19218,8 @@ by_tag:
   - ootp-ch05-003
   legal-precedents:
   - poa-ch11-003
+  legal-process:
+  - hbp-ch20-006
   legal-status:
   - gof-ch14-007
   legend:
@@ -19702,12 +19850,14 @@ by_tag:
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch17-003
+  - hbp-ch20-001
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
   memory-modification:
   - gof-ch13-005
   - hbp-ch01-003
+  - hbp-ch20-006
   mental-magic:
   - ootp-ch37-002
   mental-safety:
@@ -19841,6 +19991,7 @@ by_tag:
   - hbp-ch17-002
   - hbp-ch17-007
   - hbp-ch18-003
+  - hbp-ch20-006
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -20519,6 +20670,7 @@ by_tag:
   - hbp-ch10-004
   - hbp-ch13-001
   - hbp-ch17-003
+  - hbp-ch20-001
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -20855,6 +21007,7 @@ by_tag:
   - hbp-ch12-001
   - hbp-ch13-001
   - hbp-ch17-003
+  - hbp-ch20-001
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
@@ -20894,6 +21047,7 @@ by_tag:
   - cos-ch13-006
   - cos-ch13-007
   - gof-ch25-004
+  - hbp-ch20-003
   professor-flitwick:
   - gof-ch22-005
   - gof-ch26-001
@@ -21022,6 +21176,7 @@ by_tag:
   - hbp-ch07-003
   - hbp-ch10-004
   - hbp-ch12-001
+  - hbp-ch20-002
   - ootp-ch34-007
   - ootp-ch35-001
   - ootp-ch35-002
@@ -21252,6 +21407,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
+  recruiting-ground:
+  - hbp-ch20-004
   recruitment:
   - ootp-ch04-005
   red-caps:
@@ -21395,6 +21552,7 @@ by_tag:
   - cos-ch17-004
   - cos-ch17-006
   - hbp-ch10-006
+  - hbp-ch20-005
   - ootp-ch11-003
   salem-witches-institute:
   - gof-ch07-003
@@ -21405,12 +21563,15 @@ by_tag:
   - hbp-ch18-001
   school-absence-cover:
   - gof-ch02-003
+  school-attachment:
+  - hbp-ch20-004
   school-autonomy:
   - gof-ch36-005
   - gof-ch37-004
   - ootp-ch08-007
   school-awards:
   - cos-ch13-002
+  - hbp-ch20-003
   school-brooms:
   - hbp-ch11-003
   - ps-ch09-002
@@ -21955,6 +22116,7 @@ by_tag:
   - hbp-ch15-004
   slughorn-memory:
   - hbp-ch18-002
+  - hbp-ch20-001
   slughorn-office:
   - hbp-ch18-006
   - hbp-ch18-007
@@ -21995,6 +22157,7 @@ by_tag:
   slytherin-locket:
   - hbp-ch10-006
   - hbp-ch13-002
+  - hbp-ch20-005
   slytherin-statue:
   - cos-ch17-001
   snake-communication:
@@ -22679,6 +22842,7 @@ by_tag:
   - cos-ch17-005
   sybill-trelawney:
   - hbp-ch15-005
+  - hbp-ch20-002
   - ootp-ch37-006
   - ootp-ch38-003
   tallest-tower:
@@ -22704,6 +22868,8 @@ by_tag:
   - hbp-ch05-004
   - hbp-ch08-005
   - hbp-ch15-005
+  - hbp-ch20-002
+  - hbp-ch20-007
   - ootp-ch09-004
   - ootp-ch11-002
   - ootp-ch26-007
@@ -22720,6 +22886,8 @@ by_tag:
   - cos-ch16-004
   teacher-help:
   - gof-ch17-006
+  teacher-influence:
+  - hbp-ch20-004
   teacher-inspections:
   - ootp-ch15-003
   - ootp-ch15-005
@@ -22876,6 +23044,7 @@ by_tag:
   - hbp-ch17-004
   - hbp-ch17-005
   - hbp-ch17-006
+  - hbp-ch20-003
   tom-riddle-diary:
   - cos-ch13-004
   tom-riddle-senior:
@@ -23235,6 +23404,7 @@ by_tag:
   - hbp-ch04-002
   - hbp-ch10-003
   - hbp-ch16-004
+  - hbp-ch20-007
   - ootp-ch05-005
   - ootp-ch06-004
   - ootp-ch15-007
@@ -23260,6 +23430,7 @@ by_tag:
   voldemort-history:
   - hbp-ch13-001
   - hbp-ch13-007
+  - hbp-ch20-004
   voldemort-return:
   - hbp-ch08-006
   - ootp-ch01-001
@@ -23463,6 +23634,7 @@ by_tag:
   - ootp-ch06-001
   wizarding-heirlooms:
   - hbp-ch10-006
+  - hbp-ch20-005
   wizarding-history:
   - hbp-ch17-006
   - ootp-ch20-003
