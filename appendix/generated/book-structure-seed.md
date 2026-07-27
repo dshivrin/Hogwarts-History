@@ -119,6 +119,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Mandrake Restorative Use
   - Rare Student-Brought Plants and Stinksap
   - Sixth-year Snargaluff practical work
+- Herbology and Potions Supply Links
+  - Greenhouse materials for Potions lessons
 - History of Magic
   - Professor Binns and Historical Instruction
   - Professor Binns and routine historical instruction
@@ -143,6 +145,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
   - N.E.W.T. class supplies and advanced potion demonstrations
+  - Open-ended advanced brewing exercises
   - Private Stores, Dungeon Lessons, and Antidotes
 - Potions, Practical Testing, and Discipline
   - Antidote brewing and detention penalties
@@ -1065,6 +1068,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff Patrols and Escort Duties
   - Staff Response to Student and Ghost Attacks
   - Subterranean Route and Serpent Gate
+- Wartime Castle Security
+  - After-hours movement and door-security lapses
 - Wartime Household Precautions
   - Identity checks and Inferi in Ministry public guidance
   - Ministry identity challenges at home
@@ -1185,6 +1190,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
   - Apparition testing and Hogsmeade practice sessions
+  - Formal Apparition testing at Hogwarts
   - Ministry Apparition instruction for eligible students
   - Ministry Apparition lessons inside a temporary Great Hall exception
 - Ministry Authority Beyond Hogwarts
@@ -1453,8 +1459,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Grounds and Forbidden Forest
 
+- Creature Materials and Informal Knowledge
+  - Valuable byproducts from forest creatures
 - Dangerous Creatures Near Hogwarts
   - Aragog's Colony
+  - Aragog's death and colony control
 
 ## The Grounds and Lake
 
@@ -1478,6 +1487,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Memory, Testimony, and Historical Method
   - Pensieve lessons in the headmaster's office
   - Pensieve memories as supervised historical evidence
+  - Recovering Slughorn's suppressed memory
 - Named In-Universe Sources
   - Bathilda Bagshot's A History of Magic
   - Informal Historical Expertise

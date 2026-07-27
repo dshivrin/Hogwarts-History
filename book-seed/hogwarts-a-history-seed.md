@@ -2832,6 +2832,19 @@ Summary: The available evidence includes 1 source item, led by: Sixth-year Herbo
   - Corroborates: `hbp-ch11-001`, `gof-ch13-002`. hbp-ch11-001 records advanced Herbology with dangerous plants as part of sixth-year workload, and gof-ch13-002 records plant-safety equipment in Bubotuber work; this entry adds the named Snargaluff project and pod-extraction procedure.
   - Notes: The passage shows one class project and does not state how long the Snargaluff unit lasts or whether it is standard every year.
 
+### Chapter: Herbology and Potions Supply Links
+
+#### Section: Greenhouse materials for Potions lessons
+
+Summary: The available evidence includes 1 source item, led by: Sprout provides Slughorn with twilight-picked leafy plants from the grounds, enough for his third-year Potions students and extra failed attempts.
+
+- **Supporting evidence:** Sprout provides Slughorn with twilight-picked leafy plants from the grounds, enough for his third-year Potions students and extra failed attempts.
+  - Quote: "picked at twilight"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2818, `hbp-ch22-004`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The plant is not named, so the entry cannot identify the specific ingredient or potion lesson.
+
 ### Chapter: History of Magic
 
 #### Section: Professor Binns and Historical Instruction
@@ -3067,6 +3080,18 @@ Summary: The available evidence includes 1 source item, led by: Slughorn's N.E.W
   - Reference type: curriculum_or_subject
   - Corroborates: `cos-ch10-002`, `hbp-ch08-005`. cos-ch10-002 records advanced potion recipes and student-store distinctions, and hbp-ch08-005 records Slughorn's Potions appointment; this entry adds N.E.W.T. roster size, loaned books and scales, and Slughorn's advanced demonstration set.
   - Notes: The demonstration potions are described as examples students should know by the end of N.E.W.T.s, not necessarily recipes brewed by this class that day.
+
+#### Section: Open-ended advanced brewing exercises
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's small Potions class becomes an open-ended practical exercise, producing an Elixir to Induce Euphoria from Prince-corrected notes and a Hiccuping Solution from Malfoy.
+
+- **Corroboration:** Slughorn's small Potions class becomes an open-ended practical exercise, producing an Elixir to Induce Euphoria from Prince-corrected notes and a Hiccuping Solution from Malfoy.
+  - Quote: "brew me up something amusing"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2813, `hbp-ch22-002`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch09-005`, `hbp-ch09-007`, `hbp-ch21-002`. hbp-ch09-005 records Slughorn's N.E.W.T. Potions demonstrations and class setup, hbp-ch09-007 records the corrected Advanced Potion-Making copy, and hbp-ch21-002 records later marginal spell use. This entry adds an open-ended brewing prompt and the Euphoria recipe's peppermint correction.
+  - Notes: The passage identifies two student brews but does not give the official recipe text or grading standard.
 
 #### Section: Private Stores, Dungeon Lessons, and Antidotes
 
@@ -3990,6 +4015,18 @@ Summary: The available evidence includes 1 source item, led by: Sixth-year stude
   - Reference type: curriculum_or_subject
   - Corroborates: `hbp-ch17-002`, `gof-ch06-001`, `gof-ch15-006`. hbp-ch17-002 records the original lesson notice, eligibility, fee, and anti-Apparition context; gof-ch06-001 covers general licensing and risks; gof-ch15-006 records the Hogwarts grounds restriction. This entry adds the April test date, optional extra Hogsmeade practice, and Twycross's practical assessment.
   - Notes: The chapter gives student-observed logistics and a reported practice result, not the full Ministry examination rubric.
+
+#### Section: Formal Apparition testing at Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows Hogwarts students taking the Ministry Apparition Test during the school day, with eligibility tied to age and results enforced by an external examiner.
+
+- **Corroboration:** The chapter shows Hogwarts students taking the Ministry Apparition Test during the school day, with eligibility tied to age and results enforced by an external examiner.
+  - Quote: "people taking their Apparition Test"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2810, `hbp-ch22-001`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch21-001`, `hbp-ch18-003`, `hbp-ch17-002`. hbp-ch17-002 records the course notice and eligibility rules, hbp-ch18-003 records the supervised Great Hall lesson, and hbp-ch21-001 records Hogsmeade practice and the April test date. This entry adds same-day test attendance and observed pass/fail outcomes.
+  - Notes: The test itself happens off-page, so the chapter gives results and logistics rather than the full examination procedure.
 
 #### Section: Ministry Apparition instruction for eligible students
 
@@ -6010,6 +6047,19 @@ Summary: The available evidence includes 1 source item, led by: Binns states tha
   - Reference type: security_or_protection
   - Notes: Binns's denial is later complicated by the plot; this entry should preserve his pre-confirmation view rather than treat it as final fact.
 
+### Chapter: Wartime Castle Security
+
+#### Section: After-hours movement and door-security lapses
+
+Summary: The available evidence includes 1 source item, led by: The chapter shows wartime after-hours restrictions and a practical security lapse when Harry exits under the Invisibility Cloak through an unlocked front door.
+
+- **Supporting evidence:** The chapter shows wartime after-hours restrictions and a practical security lapse when Harry exits under the Invisibility Cloak through an unlocked front door.
+  - Quote: "security's a million times tighter"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2810, `hbp-ch22-003`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: Felix Felicis affects Harry's route and the scene does not prove whether the lapse was ordinary negligence or luck-influenced coincidence.
+
 ### Chapter: Wartime Household Precautions
 
 #### Section: Identity checks and Inferi in Ministry public guidance
@@ -6748,6 +6798,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore uses 
   - Reference type: cross_reference_candidate
   - Corroborates: `ootp-ch24-004`, `ootp-ch28-006`. ootp-ch24-004 and ootp-ch28-006 establish Dumbledore's Pensieve and memory-entry mechanics; this entry adds permitted, supervised use of an externally collected witness memory as instruction.
   - Notes: Pensieve ownership and provenance are Dumbledore-specific here; the passage does not establish broader school access to Pensieve instruction.
+
+#### Section: Recovering Slughorn's suppressed memory
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's concealed memory is recoverable as a bottled magical source after he withdraws it with his wand and gives it to Harry.
+
+- **Corroboration:** Slughorn's concealed memory is recoverable as a bottled magical source after he withdraws it with his wand and gives it to Harry.
+  - Quote: "Dumbledore needs information"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2826, `hbp-ch22-007`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch10-004`, `ootp-ch37-006`, `ootp-ch24-004`. hbp-ch10-004 records Dumbledore's supervised use of collected memories as historical evidence, ootp-ch37-006 records a retrieved prophecy memory, and ootp-ch24-004 establishes Pensieve memory handling. This entry adds Slughorn's coerced source recovery and bottled transfer before the Horcrux lesson.
+  - Notes: The memory's content is not viewed until the next chapter, so this entry covers acquisition and provenance rather than the testimony itself.
 
 ### Chapter: Named Sources About Hogwarts
 
@@ -12208,6 +12270,19 @@ Summary: The available evidence includes 1 source item, led by: The Owlery scene
 
 ## Part: The Grounds and Forbidden Forest
 
+### Chapter: Creature Materials and Informal Knowledge
+
+#### Section: Valuable byproducts from forest creatures
+
+Summary: The available evidence includes 1 source item, led by: The chapter links Hogwarts grounds creatures to valuable magical materials, including Acromantula venom, unicorn hair, bowtruckle husbandry, and illegal dragon-egg trade talk.
+
+- **Supporting evidence:** The chapter links Hogwarts grounds creatures to valuable magical materials, including Acromantula venom, unicorn hair, bowtruckle husbandry, and illegal dragon-egg trade talk.
+  - Quote: "might get a hundred Galleons a pint"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2819, `hbp-ch22-006`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: Some details are conversational and opportunistic rather than formal curriculum or policy.
+
 ### Chapter: Dangerous Creatures Near Hogwarts
 
 #### Section: Aragog's Colony
@@ -12220,6 +12295,18 @@ Summary: The available evidence includes 1 source item, led by: Hagrid maintains
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: direct_observed_setting
   - Notes: The passage reports the colony's current condition through Hagrid and Ron, not through a fresh visit to the spiders in this chapter.
+
+#### Section: Aragog's death and colony control
+
+Summary: The available evidence includes 1 source item, led by: Aragog's death confirms a dangerous Acromantula colony in the Forbidden Forest and removes the protection that had allowed Hagrid to enter their area.
+
+- **Corroboration:** Aragog's death confirms a dangerous Acromantula colony in the Forbidden Forest and removes the protection that had allowed Hagrid to enter their area.
+  - Quote: "acromantulas in the forest"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, PDF p. 2819, `hbp-ch22-005`, `sources/book-06/chapter-22-after-the-burial.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `hbp-ch11-005`, `cos-ch15-005`, `cos-ch15-006`. cos-ch15-005 establishes Aragog's forest colony, cos-ch15-006 gives Aragog's origin and Hagrid's earlier care, and hbp-ch11-005 records the colony becoming unsafe during Aragog's illness. This entry adds Aragog's death, Hagrid's lost protection, and the burial logistics near the cabin.
+  - Notes: Hagrid reports the spiders' changed behavior secondhand after retrieving Aragog's body.
 
 ## Part: The Grounds and Lake
 

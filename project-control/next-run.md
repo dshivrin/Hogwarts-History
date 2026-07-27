@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-Two - After the Burial
-- Page range: 2809-2828
+- Chapter: Chapter Twenty-Three - Horcruxes
+- Page range: 2829-2846
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-22-after-the-burial.yaml`
+- Output YAML: `sources/book-06/chapter-23-horcruxes.yaml`
 
 ## Minimal Context
 

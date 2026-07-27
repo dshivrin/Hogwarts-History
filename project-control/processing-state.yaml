@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
-  chapter_number: 21
-  chapter_title: Chapter Twenty-One - The Unknowable Room
-  page_start: 2791
-  page_end: 2808
-  output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
   chapter_number: 22
   chapter_title: Chapter Twenty-Two - After the Burial
   page_start: 2809
   page_end: 2828
   output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2829
   page_end: 2846
   output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 24
+  chapter_title: Chapter Twenty-Four - Sectumsempra
+  page_start: 2847
+  page_end: 2865
+  output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

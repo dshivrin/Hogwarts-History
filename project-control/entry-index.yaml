@@ -15203,6 +15203,114 @@ by_entry:
     - wartime-security
     source_unit: hbp-ch21
     output_yaml: sources/book-06/chapter-21-the-unknowable-room.yaml
+  hbp-ch22-001:
+    title: 'Magical Transportation and Student Restrictions: Formal Apparition testing
+      at Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - apparition
+    - examinations
+    - magical-transportation
+    - ministry-of-magic
+    - sixth-years
+    - splinching
+    - student-licensing
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch22-002:
+    title: 'Potions Instruction and Materials: Open-ended advanced brewing exercises'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - classroom-practice
+    - curriculum
+    - elixir-to-induce-euphoria
+    - half-blood-prince
+    - potions
+    - sixth-years
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch22-003:
+    title: 'Wartime Castle Security: After-hours movement and door-security lapses'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - castle-doors
+    - detention
+    - filch
+    - invisibility-cloak
+    - nighttime
+    - student-misconduct
+    - wartime-security
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch22-004:
+    title: 'Herbology and Potions Supply Links: Greenhouse materials for Potions lessons'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - greenhouses
+    - herbology
+    - magical-plants
+    - potions
+    - professor-slughorn
+    - professor-sprout
+    - third-years
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch22-005:
+    title: 'Dangerous Creatures Near Hogwarts: Aragog''s death and colony control'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - acromantula
+    - aragog
+    - creature-risk
+    - forbidden-forest
+    - forest-colony
+    - hagrid
+    - magical-creatures
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch22-006:
+    title: 'Creature Materials and Informal Knowledge: Valuable byproducts from forest
+      creatures'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - acromantula-venom
+    - bowtruckles
+    - dragon-eggs
+    - hagrid
+    - magical-creatures
+    - magical-materials
+    - unicorn-hair
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch22-007:
+    title: 'Memory, Testimony, and Historical Method: Recovering Slughorn''s suppressed
+      memory'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dumbledore
+    - memory-magic
+    - pensieve
+    - private-lessons
+    - slughorn
+    - testimony
+    - voldemort-history
+    source_unit: hbp-ch22
+    output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15237,8 +15345,11 @@ by_tag:
   - ootp-ch11-006
   acromantula:
   - hbp-ch11-005
+  - hbp-ch22-005
   acromantula-colony:
   - cos-ch15-005
+  acromantula-venom:
+  - hbp-ch22-006
   address-tracking:
   - ps-ch03-003
   administrative-spaces:
@@ -15273,6 +15384,7 @@ by_tag:
   - hbp-ch12-003
   - hbp-ch16-006
   - hbp-ch21-002
+  - hbp-ch22-002
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -15406,6 +15518,7 @@ by_tag:
   - hbp-ch17-002
   - hbp-ch18-003
   - hbp-ch21-001
+  - hbp-ch22-001
   - ootp-ch03-003
   - ootp-ch23-001
   apparition-points:
@@ -15417,6 +15530,7 @@ by_tag:
   - cos-ch15-005
   - cos-ch15-006
   - hbp-ch11-005
+  - hbp-ch22-005
   - ootp-ch33-001
   - ootp-ch33-002
   archway:
@@ -15731,6 +15845,7 @@ by_tag:
   boundaries:
   - gof-ch29-001
   bowtruckles:
+  - hbp-ch22-006
   - ootp-ch13-004
   - ootp-ch15-006
   - ootp-ch31-005
@@ -15882,6 +15997,8 @@ by_tag:
   - hbp-ch15-001
   castle-decorations:
   - ootp-ch21-003
+  castle-doors:
+  - hbp-ch22-003
   castle-gates:
   - ootp-ch16-001
   castle-grounds:
@@ -16133,6 +16250,7 @@ by_tag:
   classroom-practice:
   - gof-ch26-001
   - hbp-ch15-003
+  - hbp-ch22-002
   - ootp-ch18-003
   - ps-ch10-001
   classroom-safety:
@@ -16368,6 +16486,7 @@ by_tag:
   - gof-ch10-004
   creature-risk:
   - hbp-ch11-005
+  - hbp-ch22-005
   crisis-governance:
   - cos-ch14-005
   - poa-ch21-001
@@ -16430,6 +16549,7 @@ by_tag:
   - gof-ch36-005
   - hbp-ch15-005
   - hbp-ch21-006
+  - hbp-ch22-002
   - ootp-ch27-003
   - ootp-ch38-003
   - ps-ch05-004
@@ -16763,6 +16883,7 @@ by_tag:
   - gof-ch13-006
   - gof-ch18-004
   - hbp-ch15-007
+  - hbp-ch22-003
   - ootp-ch09-006
   - ootp-ch12-007
   - ootp-ch13-006
@@ -16927,6 +17048,8 @@ by_tag:
   - gof-ch20-006
   dragon-egg:
   - ootp-ch16-002
+  dragon-eggs:
+  - hbp-ch22-006
   dragon-enclosure:
   - gof-ch20-006
   dragon-hatching:
@@ -17023,6 +17146,7 @@ by_tag:
   - hbp-ch18-007
   - hbp-ch19-003
   - hbp-ch21-007
+  - hbp-ch22-007
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17206,6 +17330,8 @@ by_tag:
   - ps-ch03-005
   elixir-of-life:
   - ps-ch17-003
+  elixir-to-induce-euphoria:
+  - hbp-ch22-002
   emergency-communications:
   - ootp-ch22-003
   - ootp-ch32-002
@@ -17312,6 +17438,7 @@ by_tag:
   - ootp-ch31-004
   examinations:
   - hbp-ch09-006
+  - hbp-ch22-001
   exams:
   - cos-ch04-003
   - cos-ch04-004
@@ -17469,6 +17596,7 @@ by_tag:
   - hbp-ch15-007
   - hbp-ch19-004
   - hbp-ch21-007
+  - hbp-ch22-003
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -17648,6 +17776,7 @@ by_tag:
   - gof-ch28-007
   - hbp-ch04-004
   - hbp-ch11-005
+  - hbp-ch22-005
   - ootp-ch11-005
   - ootp-ch14-002
   - ootp-ch21-001
@@ -17679,6 +17808,8 @@ by_tag:
   - gof-ch07-003
   foreign-wizards:
   - ootp-ch04-005
+  forest-colony:
+  - hbp-ch22-005
   forest-edge:
   - ps-ch14-005
   - ps-ch15-005
@@ -17962,6 +18093,7 @@ by_tag:
   - cos-ch05-002
   - cos-ch06-002
   - hbp-ch14-001
+  - hbp-ch22-004
   - ootp-ch10-004
   gregorovitch:
   - gof-ch18-007
@@ -18162,6 +18294,8 @@ by_tag:
   - hbp-ch11-004
   - hbp-ch11-005
   - hbp-ch15-001
+  - hbp-ch22-005
+  - hbp-ch22-006
   - ootp-ch10-006
   - ootp-ch11-002
   - ootp-ch14-002
@@ -18234,6 +18368,7 @@ by_tag:
   - hbp-ch16-005
   - hbp-ch16-006
   - hbp-ch21-002
+  - hbp-ch22-002
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -18444,6 +18579,7 @@ by_tag:
   - hbp-ch11-001
   - hbp-ch14-001
   - hbp-ch15-006
+  - hbp-ch22-004
   - ootp-ch10-004
   - ootp-ch14-005
   - poa-ch16-003
@@ -19197,6 +19333,7 @@ by_tag:
   - gof-ch24-004
   - gof-ch25-001
   - gof-ch25-007
+  - hbp-ch22-003
   - ootp-ch03-005
   - ootp-ch20-001
   - ootp-ch29-005
@@ -19665,6 +19802,8 @@ by_tag:
   - hbp-ch01-006
   - hbp-ch06-006
   - hbp-ch11-005
+  - hbp-ch22-005
+  - hbp-ch22-006
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch15-006
@@ -19727,6 +19866,8 @@ by_tag:
   - ootp-ch07-004
   magical-maladies:
   - ootp-ch22-005
+  magical-materials:
+  - hbp-ch22-006
   magical-medicine:
   - gof-ch02-005
   magical-megaphone:
@@ -19752,6 +19893,7 @@ by_tag:
   - cos-ch06-003
   - gof-ch13-002
   - hbp-ch14-001
+  - hbp-ch22-004
   - ootp-ch10-004
   magical-portraits:
   - hbp-ch01-001
@@ -19838,6 +19980,7 @@ by_tag:
   - hbp-ch04-001
   - hbp-ch17-002
   - hbp-ch18-003
+  - hbp-ch22-001
   - ootp-ch03-003
   - ootp-ch23-001
   magical-tree:
@@ -19994,6 +20137,7 @@ by_tag:
   - hbp-ch10-004
   - hbp-ch17-003
   - hbp-ch20-001
+  - hbp-ch22-007
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -20136,6 +20280,7 @@ by_tag:
   - hbp-ch18-003
   - hbp-ch20-006
   - hbp-ch21-001
+  - hbp-ch22-001
   - ootp-ch02-002
   - ootp-ch02-003
   - ootp-ch04-007
@@ -20459,6 +20604,8 @@ by_tag:
   - cos-ch16-004
   night-patrol:
   - ps-ch12-005
+  nighttime:
+  - hbp-ch22-003
   nighttime-prowling:
   - hbp-ch15-007
   nighttime-route:
@@ -20815,6 +20962,7 @@ by_tag:
   - hbp-ch13-001
   - hbp-ch17-003
   - hbp-ch20-001
+  - hbp-ch22-007
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -21029,6 +21177,8 @@ by_tag:
   - hbp-ch19-004
   - hbp-ch21-002
   - hbp-ch21-005
+  - hbp-ch22-002
+  - hbp-ch22-004
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -21155,6 +21305,7 @@ by_tag:
   - hbp-ch13-001
   - hbp-ch17-003
   - hbp-ch20-001
+  - hbp-ch22-007
   - ootp-ch24-001
   - ootp-ch26-005
   private-stores:
@@ -21268,6 +21419,8 @@ by_tag:
   - ps-ch16-007
   - ps-ch17-001
   - ps-ch17-002
+  professor-slughorn:
+  - hbp-ch22-004
   professor-snape:
   - gof-ch35-005
   - gof-ch35-007
@@ -21289,6 +21442,7 @@ by_tag:
   - gof-ch18-002
   - gof-ch36-002
   - hbp-ch14-001
+  - hbp-ch22-004
   - ootp-ch10-004
   - ps-ch16-005
   professor-tofty:
@@ -22246,6 +22400,8 @@ by_tag:
   sixth-years:
   - hbp-ch17-002
   - hbp-ch21-001
+  - hbp-ch22-001
+  - hbp-ch22-002
   skele-gro:
   - cos-ch10-005
   skiving-snackboxes:
@@ -22271,6 +22427,7 @@ by_tag:
   - hbp-ch12-004
   - hbp-ch14-002
   - hbp-ch15-004
+  - hbp-ch22-007
   slughorn-memory:
   - hbp-ch18-002
   - hbp-ch20-001
@@ -22443,6 +22600,7 @@ by_tag:
   splinching:
   - gof-ch06-001
   - hbp-ch18-003
+  - hbp-ch22-001
   sports-commentary:
   - gof-ch08-004
   squib-context:
@@ -22743,6 +22901,7 @@ by_tag:
   student-licensing:
   - hbp-ch17-002
   - hbp-ch21-001
+  - hbp-ch22-001
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -22757,6 +22916,7 @@ by_tag:
   - gof-ch06-003
   - hbp-ch14-006
   - hbp-ch14-007
+  - hbp-ch22-003
   - ootp-ch12-001
   - ootp-ch13-001
   student-movement:
@@ -23114,6 +23274,7 @@ by_tag:
   - ootp-ch30-007
   testimony:
   - gof-ch36-004
+  - hbp-ch22-007
   textbooks:
   - ootp-ch09-004
   theft:
@@ -23159,6 +23320,7 @@ by_tag:
   - poa-ch12-007
   third-years:
   - gof-ch19-001
+  - hbp-ch22-004
   - poa-ch02-001
   thoughts:
   - gof-ch30-002
@@ -23463,6 +23625,7 @@ by_tag:
   - ps-ch15-007
   unicorn-hair:
   - gof-ch18-007
+  - hbp-ch22-006
   unicorns:
   - cos-ch15-003
   - gof-ch24-001
@@ -23597,6 +23760,7 @@ by_tag:
   - hbp-ch13-001
   - hbp-ch13-007
   - hbp-ch20-004
+  - hbp-ch22-007
   voldemort-return:
   - hbp-ch08-006
   - ootp-ch01-001
@@ -23679,6 +23843,7 @@ by_tag:
   - hbp-ch19-006
   - hbp-ch21-005
   - hbp-ch21-007
+  - hbp-ch22-003
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003
