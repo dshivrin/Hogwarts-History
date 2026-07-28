@@ -218,6 +218,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Portraits, Passwords, and House Entrances
   - Portrait communication and Gryffindor access
 
+## Castle Life and Hidden Architecture
+
+- House Common Rooms and Dormitories
+  - Passworded Portrait Access and Wartime Tightening
+
 ## Castle Life and Seasonal Customs
 
 - Christmas at Hogwarts
@@ -329,6 +334,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmaster's Office and Protected Entrances
   - The Pensieve and stored memories
 
+## Crises, Secrets, and Institutional Memory
+
+- The Chamber of Secrets
+  - Riddle's Diary as Weapon and Historical Proof
+
 ## Curriculum and Instruction
 
 - Charms
@@ -356,6 +366,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Known Heads of Hogwarts
   - Dilys Derwent, Healer and Headmistress
+
+## Founders, Relics, and the House System
+
+- Founder Objects and Later Magical History
+  - Voldemort's Founder-Relic Horcrux Pattern
 
 ## Founders, Staff, and Institutional Memory
 
@@ -781,6 +796,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portkeys and Mass Event Travel
   - Quidditch World Cup Stadium Protections
   - World Cup Riot and Muggle Victim Rescue
+
+## Learning, Books, and Forbidden Knowledge
+
+- Restricted and Banned Magical Subjects
+  - Horcruxes Beyond Hogwarts Library Detail
+  - Horcruxes as a Banned Hogwarts Topic
 
 ## Lessons, Exams, and Magical Knowledge
 
@@ -1307,6 +1328,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hokey's conviction and evidentiary limits
   - Slughorn's missing memory as a source gap
 
+## Sources, Records, and Magical Historiography
+
+- Memory Testimony and Historical Method
+  - Pensieve Evidence in the Headmaster's Office
+
 ## Staff, Founders, and Notable Residents
 
 - Staff Biographies and Institutional Memory
@@ -1319,6 +1345,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Parties, alumni guests, and invitee privileges
   - Persistent invitations and student avoidance
   - Private Suppers and Social Selection
+
+## Staff, Students, and School Society
+
+- Informal Power Networks
+  - Slughorn's Office and Riddle's School Circle
 
 ## Student Life and House Culture
 

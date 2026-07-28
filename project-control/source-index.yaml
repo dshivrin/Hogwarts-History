@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-27'
+updated: '2026-07-28'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -1850,3 +1850,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2809-2828.
+- source_unit_id: hbp-ch23
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 23
+  chapter_title: Chapter Twenty-Three - Horcruxes
+  page_start: 2829
+  page_end: 2846
+  output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  processed_at: '2026-07-28'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2829-2846.

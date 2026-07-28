@@ -1,0 +1,299 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  boundary_confidence: high
+  boundary_notes: Bounded by processing-state anchors for Chapter Twenty-Three; extracted only PDF pages 2829-2846.
+  processed_date: '2026-07-28'
+  processor_notes: 'Created from bounded pypdf extraction. No explicit Hogwarts: A History title citation appears in this chapter.'
+entries:
+- id: hbp-ch23-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2829
+  printed_page:
+  extracted_text_lines: 1-33
+  text_anchor:
+    start_phrase: The front door had remained unlocked for him
+    end_phrase: he is the one who has tightened security
+    local_occurrence_note: Opening corridor scene after Harry returns to the castle under the Invisibility Cloak.
+  nearby_context: Harry finds the Fat Lady enforcing a claimed midnight password change after a late return to Gryffindor Tower.
+  match_terms:
+  - Fat Lady
+  - Gryffindor Tower
+  - password change
+  - castle security
+  - headmaster
+  quote_excerpt_short: "the password changed at midnight"
+  source_note: The Fat Lady links a midnight password change to Dumbledore's tightened security, while the still-unlocked front door shows wartime castle protection remained uneven.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - castle-security
+  - fat-lady
+  - gryffindor-tower
+  - passwords
+  - dumbledore
+  candidate_part: Castle Life and Hidden Architecture
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: Passworded Portrait Access and Wartime Tightening
+  reason_for_placement: Adds a later wartime example of portrait-enforced residential passwords changing under headmaster security policy.
+  relevance_to_hogwarts_a_history: Useful for a school-history account of how ordinary House access customs adapted during the Second War.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Related password and portrait entries exist, including poa-ch08-004, gof-ch22-007, and ootp-ch22-001, but this evidence is specific to midnight wartime tightening.
+  confidence: high
+  limitations: The Fat Lady admits she lied about the current password remaining changed, so only the cited security rationale and custom of password changes are firm.
+- id: hbp-ch23-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2830
+  printed_page:
+  extracted_text_lines: 34-65
+  text_anchor:
+    start_phrase: he was saying toffee eclairs to Dumbledore's gargoyle
+    end_phrase: Harry bowed obediently over the Pensieve
+    local_occurrence_note: Harry reaches Dumbledore's office immediately after learning Dumbledore has returned.
+  nearby_context: Dumbledore takes Slughorn's bottled memory from Harry, places the Pensieve on his desk, and uses it at once.
+  match_terms:
+  - Dumbledore's office
+  - stone gargoyle
+  - Pensieve
+  - Slughorn memory
+  - historical evidence
+  quote_excerpt_short: "where he kept the Pensieve"
+  source_note: The headmaster's office again functions as a protected historical workspace where a passworded gargoyle controls access and bottled memory evidence is examined in the Pensieve.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore-office
+  - pensieve
+  - memory-magic
+  - historical-method
+  - slughorn-memory
+  candidate_part: Sources, Records, and Magical Historiography
+  candidate_chapter: Memory Testimony and Historical Method
+  candidate_section: Pensieve Evidence in the Headmaster's Office
+  reason_for_placement: Shows the mature form of Dumbledore's evidence-gathering lessons, using a recovered primary memory as the decisive source.
+  relevance_to_hogwarts_a_history: Supports an in-universe history's treatment of Pensieve memories as a recoverable and interpretable source type.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Related to hbp-ch10-004, hbp-ch20-001, and hbp-ch22-007; this entry covers the successful use of the recovered memory rather than the earlier source gap or recovery act.
+  confidence: high
+  limitations: The scene demonstrates Dumbledore's method, not a general school policy for Pensieve use.
+- id: hbp-ch23-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2831
+  printed_page:
+  extracted_text_lines: 73-107
+  text_anchor:
+    start_phrase: Professor Merrythought is retiring
+    end_phrase: Same goes for you, Avery
+    local_occurrence_note: Slughorn's unaltered memory before Riddle privately asks about Horcruxes.
+  nearby_context: Riddle sits among older boys in Slughorn's office and is treated as their leader.
+  match_terms:
+  - Tom Riddle
+  - Slughorn
+  - Lestrange
+  - Avery
+  - Professor Merrythought
+  - prefect
+  quote_excerpt_short: "more knowledgeable than half the staff"
+  source_note: Slughorn's memory shows Riddle as a school-age networker with staff information, older followers including Lestrange and Avery, prefect status, and access to Slughorn's office gatherings.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - tom-riddle
+  - slughorn
+  - proto-death-eaters
+  - prefects
+  - staff-appointments
+  candidate_part: Staff, Students, and School Society
+  candidate_chapter: Informal Power Networks
+  candidate_section: Slughorn's Office and Riddle's School Circle
+  reason_for_placement: Gives historical evidence for elite informal student circles and staff-student patronage before Voldemort's rise.
+  relevance_to_hogwarts_a_history: Helps contextualize how Hogwarts social networks could shape later wizarding politics.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Duplicate lookup for Slughorn, Riddle, prefect, Lestrange, and Avery returned no matches.
+  confidence: high
+  limitations: The evidence is filtered through a memory scene and does not name all boys present.
+- id: hbp-ch23-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2833
+  printed_page:
+  extracted_text_lines: 115-129
+  text_anchor:
+    start_phrase: what you know about Horcruxes
+    end_phrase: that is very Dark stuff, very Dark indeed
+    local_occurrence_note: Riddle begins the private part of his conversation with Slughorn.
+  nearby_context: Slughorn first treats the question as possible Defense Against the Dark Arts schoolwork, then admits Hogwarts books are unlikely to give details.
+  match_terms:
+  - Horcruxes
+  - Hogwarts books
+  - Dark Arts
+  - Defense Against the Dark Arts
+  - restricted knowledge
+  quote_excerpt_short: "hard-pushed to find a book at Hogwarts"
+  source_note: Slughorn says Hogwarts books are unlikely to provide detailed Horcrux information, identifying the subject as exceptionally Dark and outside ordinary school resources.
+  reference_type: curriculum_or_subject
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - horcruxes
+  - dark-arts
+  - hogwarts-library
+  - restricted-knowledge
+  - defense-against-the-dark-arts
+  candidate_part: Learning, Books, and Forbidden Knowledge
+  candidate_chapter: Restricted and Banned Magical Subjects
+  candidate_section: Horcruxes Beyond Hogwarts Library Detail
+  reason_for_placement: Establishes the school boundary around one of the darkest known magical subjects.
+  relevance_to_hogwarts_a_history: Supplies a canonical limit on what Hogwarts texts were expected to contain about Horcruxes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Duplicate lookup for Horcrux, banned, Hogwarts, and books returned no matches.
+  confidence: high
+  limitations: Slughorn says detailed books are hard to find, not that every reference is absent from the school.
+- id: hbp-ch23-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2834
+  printed_page:
+  extracted_text_lines: 151-177
+  text_anchor:
+    start_phrase: By an act of evil
+    end_phrase: It's a banned subject at Hogwarts
+    local_occurrence_note: Slughorn reluctantly answers Riddle's follow-up about making multiple Horcruxes.
+  nearby_context: Riddle presses for the mechanism of soul-splitting and the possibility of dividing a soul into seven pieces.
+  match_terms:
+  - Horcrux creation
+  - murder
+  - seven
+  - banned subject
+  - Dumbledore
+  quote_excerpt_short: "It's a banned subject at Hogwarts"
+  source_note: Slughorn explains that murder splits the soul, that Riddle is interested in a seven-part soul, and that Horcruxes are a banned subject at Hogwarts.
+  reference_type: school_rule_or_policy
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - horcruxes
+  - banned-subject
+  - soul-magic
+  - seven
+  - dumbledore
+  candidate_part: Learning, Books, and Forbidden Knowledge
+  candidate_chapter: Restricted and Banned Magical Subjects
+  candidate_section: Horcruxes as a Banned Hogwarts Topic
+  reason_for_placement: Converts the earlier library boundary into an explicit school ban and connects it to Dumbledore's stance.
+  relevance_to_hogwarts_a_history: Important for documenting the school's official or semi-official suppression of Horcrux knowledge.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Duplicate lookup for Horcrux, soul, murder, seven, and immortality returned no matches.
+  confidence: high
+  limitations: The passage does not specify when the ban began or whether it was a formal written rule.
+- id: hbp-ch23-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2836
+  printed_page:
+  extracted_text_lines: 229-253
+  text_anchor:
+    start_phrase: The diary, Riddle's diary
+    end_phrase: some future Hogwarts student
+    local_occurrence_note: Dumbledore interprets the destroyed diary after the Pensieve memory.
+  nearby_context: Dumbledore explains why the diary was more than a memory and why its intended use alarmed him.
+  match_terms:
+  - Riddle diary
+  - Chamber of Secrets
+  - Horcrux
+  - Hogwarts student
+  - Slytherin's monster
+  quote_excerpt_short: "intended as a weapon as much as a safeguard"
+  source_note: Dumbledore identifies Riddle's diary as a Horcrux designed to reopen the Chamber through a future Hogwarts student, making it both soul safeguard and school-targeted weapon.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - riddle-diary
+  - chamber-of-secrets
+  - horcruxes
+  - hogwarts-students
+  - slytherins-monster
+  candidate_part: Crises, Secrets, and Institutional Memory
+  candidate_chapter: The Chamber of Secrets
+  candidate_section: Riddle's Diary as Weapon and Historical Proof
+  reason_for_placement: Reframes the diary incident as both school-history evidence and a deliberate attack vector through a student.
+  relevance_to_hogwarts_a_history: Crucial for a historical account of the Chamber reopenings and the object that enabled the second attack.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Duplicate lookups for diary, Chamber, Horcrux, Hogwarts student, Riddle, and Lucius returned no matches.
+  confidence: high
+  limitations: Dumbledore did not personally see the diary's Riddle manifestation and relies partly on Harry's earlier report.
+- id: hbp-ch23-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Three - Horcruxes
+  chapter_start_pdf_page: 2829
+  chapter_end_pdf_page: 2846
+  pdf_page: 2840
+  printed_page:
+  extracted_text_lines: 369-386
+  text_anchor:
+    start_phrase: The locket!
+    end_phrase: without the chance to search the school
+    local_occurrence_note: Dumbledore and Harry infer candidate Horcrux objects from founder relics.
+  nearby_context: Dumbledore points to Gryffindor's sword in his office and explains Voldemort's likely founder-object ambitions.
+  match_terms:
+  - Hufflepuff's cup
+  - Slytherin's locket
+  - Gryffindor's sword
+  - Ravenclaw
+  - founder relics
+  quote_excerpt_short: "Four objects from the four founders"
+  source_note: Dumbledore links Hufflepuff's cup, Slytherin's locket, possible Ravenclaw or Gryffindor relics, and the safe sword in his office to Voldemort's founder-object ambitions.
+  reference_type: historical_claim
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - founder-relics
+  - hufflepuffs-cup
+  - slytherins-locket
+  - gryffindors-sword
+  - ravenclaw
+  candidate_part: Founders, Relics, and the House System
+  candidate_chapter: Founder Objects and Later Magical History
+  candidate_section: Voldemort's Founder-Relic Horcrux Pattern
+  reason_for_placement: Connects the four founders' surviving objects to later dark history and to the protected relic displayed at Hogwarts.
+  relevance_to_hogwarts_a_history: Offers a major cross-era link between founders' relics, school material culture, and Voldemort's attempt to claim Hogwarts history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Related founder and sword entries include cos-ch09-003, gof-ch12-002, ootp-ch11-003, and cos-ch17-005, but this evidence concerns the Horcrux-selection pattern and Gryffindor sword's continued safety.
+  confidence: high
+  limitations: Dumbledore labels parts of the founder-relic list as reasoned inference rather than confirmed fact.

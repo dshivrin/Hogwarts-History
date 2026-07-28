@@ -10310,6 +10310,21 @@ Summary: The available evidence includes 1 source item, led by: The scene confir
   - Corroborates: `poa-ch08-004`, `poa-ch08-007`. poa-ch08-004 covers Fat Lady password access, and poa-ch08-007 covers portrait mobility during a security breach. This entry adds routine gossip transfer across seven staircases after the champion selection.
   - Notes: The scene does not explain the full range or rules of portrait travel between frames.
 
+## Part: Castle Life and Hidden Architecture
+
+### Chapter: House Common Rooms and Dormitories
+
+#### Section: Passworded Portrait Access and Wartime Tightening
+
+Summary: The available evidence includes 1 source item, led by: The Fat Lady links a midnight password change to Dumbledore's tightened security, while the still-unlocked front door shows wartime castle protection remained uneven.
+
+- **Supporting evidence:** The Fat Lady links a midnight password change to Dumbledore's tightened security, while the still-unlocked front door shows wartime castle protection remained uneven.
+  - Quote: "the password changed at midnight"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2829, `hbp-ch23-001`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The Fat Lady admits she lied about the current password remaining changed, so only the cited security rationale and custom of password changes are firm.
+
 ## Part: Castle Life and Seasonal Customs
 
 ### Chapter: Christmas at Hogwarts
@@ -10696,6 +10711,21 @@ Summary: The available evidence includes 1 source item, led by: Snape uses Dumbl
   - Corroborates: `ootp-ch24-004`, `ootp-ch26-005`, `gof-ch30-002`. Prior entries identify the Pensieve, its use in Snape's office, and its role in Occlumency safeguards; this entry adds Harry's unauthorized entry into Snape's stored memory and the artifact's relocation into a teacher-office privacy breach.
   - Notes: The chapter shows Dumbledore's Pensieve in Snape's office but does not settle whether the artifact is Dumbledore's personal property or a Hogwarts institutional object.
 
+## Part: Crises, Secrets, and Institutional Memory
+
+### Chapter: The Chamber of Secrets
+
+#### Section: Riddle's Diary as Weapon and Historical Proof
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore identifies Riddle's diary as a Horcrux designed to reopen the Chamber through a future Hogwarts student, making it both soul safeguard and school-targeted weapon.
+
+- **Supporting evidence:** Dumbledore identifies Riddle's diary as a Horcrux designed to reopen the Chamber through a future Hogwarts student, making it both soul safeguard and school-targeted weapon.
+  - Quote: "intended as a weapon as much as a safeguard"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2836, `hbp-ch23-006`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Dumbledore did not personally see the diary's Riddle manifestation and relies partly on Harry's earlier report.
+
 ## Part: Curriculum and Instruction
 
 ### Chapter: Charms
@@ -10833,6 +10863,21 @@ Summary: The available evidence includes 1 source item, led by: Dilys Derwent's 
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The portrait label supplies offices and dates only; it does not describe her headmastership or medical achievements.
+
+## Part: Founders, Relics, and the House System
+
+### Chapter: Founder Objects and Later Magical History
+
+#### Section: Voldemort's Founder-Relic Horcrux Pattern
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore links Hufflepuff's cup, Slytherin's locket, possible Ravenclaw or Gryffindor relics, and the safe sword in his office to Voldemort's founder-object ambitions.
+
+- **Supporting evidence:** Dumbledore links Hufflepuff's cup, Slytherin's locket, possible Ravenclaw or Gryffindor relics, and the safe sword in his office to Voldemort's founder-object ambitions.
+  - Quote: "Four objects from the four founders"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2840, `hbp-ch23-007`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Dumbledore labels parts of the founder-relic list as reasoned inference rather than confirmed fact.
 
 ## Part: Founders, Staff, and Institutional Memory
 
@@ -11156,6 +11201,32 @@ Summary: The available evidence includes 1 source item, led by: The decorated Gr
   - Reference type: house_system
   - Corroborates: `gof-ch12-003`. gof-ch12-003 records House tables and Sorting procedure; this entry corroborates the House system and adds explicit heraldic colors, animals, and the combined Hogwarts coat of arms.
   - Notes: The decorations are for a special Triwizard occasion, though the symbols appear official rather than temporary inventions.
+
+## Part: Learning, Books, and Forbidden Knowledge
+
+### Chapter: Restricted and Banned Magical Subjects
+
+#### Section: Horcruxes Beyond Hogwarts Library Detail
+
+Summary: The available evidence includes 1 source item, led by: Slughorn says Hogwarts books are unlikely to provide detailed Horcrux information, identifying the subject as exceptionally Dark and outside ordinary school resources.
+
+- **Supporting evidence:** Slughorn says Hogwarts books are unlikely to provide detailed Horcrux information, identifying the subject as exceptionally Dark and outside ordinary school resources.
+  - Quote: "hard-pushed to find a book at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2833, `hbp-ch23-004`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Slughorn says detailed books are hard to find, not that every reference is absent from the school.
+
+#### Section: Horcruxes as a Banned Hogwarts Topic
+
+Summary: The available evidence includes 1 source item, led by: Slughorn explains that murder splits the soul, that Riddle is interested in a seven-part soul, and that Horcruxes are a banned subject at Hogwarts.
+
+- **Supporting evidence:** Slughorn explains that murder splits the soul, that Riddle is interested in a seven-part soul, and that Horcruxes are a banned subject at Hogwarts.
+  - Quote: "It's a banned subject at Hogwarts"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2834, `hbp-ch23-005`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The passage does not specify when the ban began or whether it was a formal written rule.
 
 ## Part: Lessons, Exams, and Magical Knowledge
 
@@ -11758,6 +11829,21 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore conti
   - Corroborates: `hbp-ch17-003`, `hbp-ch10-004`, `hbp-ch13-001`. Earlier HBP entries already record Pensieve private lessons and memory evidence. This entry adds the explicit source gap created by Slughorn's withheld Horcrux memory and Dumbledore's requirement that the lessons cannot proceed without it.
   - Notes: The scene concerns exceptional headmaster-led instruction for Harry, not ordinary school curriculum or general Pensieve access.
 
+## Part: Sources, Records, and Magical Historiography
+
+### Chapter: Memory Testimony and Historical Method
+
+#### Section: Pensieve Evidence in the Headmaster's Office
+
+Summary: The available evidence includes 1 source item, led by: The headmaster's office again functions as a protected historical workspace where a passworded gargoyle controls access and bottled memory evidence is examined in the Pensieve.
+
+- **Supporting evidence:** The headmaster's office again functions as a protected historical workspace where a passworded gargoyle controls access and bottled memory evidence is examined in the Pensieve.
+  - Quote: "where he kept the Pensieve"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2830, `hbp-ch23-002`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The scene demonstrates Dumbledore's method, not a general school policy for Pensieve use.
+
 ## Part: Staff, Founders, and Notable Residents
 
 ### Chapter: Staff Biographies and Institutional Memory
@@ -11825,6 +11911,21 @@ Summary: The available evidence includes 1 source item, led by: Slughorn continu
   - Reference type: institutional_custom
   - Corroborates: `hbp-ch04-006`, `hbp-ch07-005`. This continues the same Slughorn patronage pattern recorded in hbp-ch04-006 and hbp-ch07-005, adding private in-castle suppers and a new named invitee tied to apothecaries.
   - Notes: The event is an invitation scene; the supper itself is not observed in this chapter.
+
+## Part: Staff, Students, and School Society
+
+### Chapter: Informal Power Networks
+
+#### Section: Slughorn's Office and Riddle's School Circle
+
+Summary: The available evidence includes 1 source item, led by: Slughorn's memory shows Riddle as a school-age networker with staff information, older followers including Lestrange and Avery, prefect status, and access to Slughorn's office gatherings.
+
+- **Supporting evidence:** Slughorn's memory shows Riddle as a school-age networker with staff information, older followers including Lestrange and Avery, prefect status, and access to Slughorn's office gatherings.
+  - Quote: "more knowledgeable than half the staff"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, PDF p. 2831, `hbp-ch23-003`, `sources/book-06/chapter-23-horcruxes.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The evidence is filtered through a memory scene and does not name all boys present.
 
 ## Part: Student Life and House Culture
 

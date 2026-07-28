@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-27'
+updated: '2026-07-28'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -15311,6 +15311,102 @@ by_entry:
     - voldemort-history
     source_unit: hbp-ch22
     output_yaml: sources/book-06/chapter-22-after-the-burial.yaml
+  hbp-ch23-001:
+    title: 'House Common Rooms and Dormitories: Passworded Portrait Access and Wartime
+      Tightening'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - castle-security
+    - dumbledore
+    - fat-lady
+    - gryffindor-tower
+    - passwords
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch23-002:
+    title: 'Memory Testimony and Historical Method: Pensieve Evidence in the Headmaster''s
+      Office'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dumbledore-office
+    - historical-method
+    - memory-magic
+    - pensieve
+    - slughorn-memory
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch23-003:
+    title: 'Informal Power Networks: Slughorn''s Office and Riddle''s School Circle'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - prefects
+    - proto-death-eaters
+    - slughorn
+    - staff-appointments
+    - tom-riddle
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch23-004:
+    title: 'Restricted and Banned Magical Subjects: Horcruxes Beyond Hogwarts Library
+      Detail'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - dark-arts
+    - defense-against-the-dark-arts
+    - hogwarts-library
+    - horcruxes
+    - restricted-knowledge
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch23-005:
+    title: 'Restricted and Banned Magical Subjects: Horcruxes as a Banned Hogwarts
+      Topic'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - banned-subject
+    - dumbledore
+    - horcruxes
+    - seven
+    - soul-magic
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch23-006:
+    title: 'The Chamber of Secrets: Riddle''s Diary as Weapon and Historical Proof'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - chamber-of-secrets
+    - hogwarts-students
+    - horcruxes
+    - riddle-diary
+    - slytherins-monster
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch23-007:
+    title: 'Founder Objects and Later Magical History: Voldemort''s Founder-Relic
+      Horcrux Pattern'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relics
+    - gryffindors-sword
+    - hufflepuffs-cup
+    - ravenclaw
+    - slytherins-locket
+    source_unit: hbp-ch23
+    output_yaml: sources/book-06/chapter-23-horcruxes.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15656,6 +15752,8 @@ by_tag:
   - gof-ch26-001
   banned-at-hogwarts:
   - gof-ch27-003
+  banned-subject:
+  - hbp-ch23-005
   banned-substances:
   - hbp-ch09-006
   - hbp-ch14-006
@@ -16055,6 +16153,7 @@ by_tag:
   - cos-ch07-006
   - cos-ch09-006
   - gof-ch36-004
+  - hbp-ch23-001
   - ootp-ch20-001
   - poa-ch11-002
   - poa-ch12-001
@@ -16148,6 +16247,7 @@ by_tag:
   - cos-ch17-007
   - hbp-ch17-005
   - hbp-ch19-002
+  - hbp-ch23-006
   champion-points:
   - gof-ch31-004
   - gof-ch31-007
@@ -16626,6 +16726,7 @@ by_tag:
   - hbp-ch02-003
   - hbp-ch09-003
   - hbp-ch13-007
+  - hbp-ch23-004
   - ootp-ch36-002
   dark-creatures:
   - gof-ch14-001
@@ -16734,6 +16835,7 @@ by_tag:
   - hbp-ch20-003
   - hbp-ch20-007
   - hbp-ch21-006
+  - hbp-ch23-004
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -17147,6 +17249,8 @@ by_tag:
   - hbp-ch19-003
   - hbp-ch21-007
   - hbp-ch22-007
+  - hbp-ch23-001
+  - hbp-ch23-005
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17241,6 +17345,7 @@ by_tag:
   - hbp-ch13-001
   - hbp-ch17-003
   - hbp-ch20-001
+  - hbp-ch23-002
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
@@ -17535,6 +17640,7 @@ by_tag:
   - gof-ch19-007
   - gof-ch22-007
   - gof-ch31-001
+  - hbp-ch23-001
   - ootp-ch22-001
   - poa-ch08-004
   - poa-ch08-007
@@ -17828,6 +17934,7 @@ by_tag:
   - gof-ch08-005
   founder-relics:
   - hbp-ch20-005
+  - hbp-ch23-007
   founders:
   - cos-ch09-003
   - gof-ch12-002
@@ -18221,6 +18328,7 @@ by_tag:
   - gof-ch22-007
   - gof-ch23-001
   - hbp-ch19-004
+  - hbp-ch23-001
   - ootp-ch13-002
   - ootp-ch14-001
   - ootp-ch17-002
@@ -18237,6 +18345,8 @@ by_tag:
   - poa-ch15-002
   - poa-ch16-006
   - poa-ch19-005
+  gryffindors-sword:
+  - hbp-ch23-007
   guard-duty:
   - ootp-ch04-005
   guarded-chamber:
@@ -18687,6 +18797,7 @@ by_tag:
   - hbp-ch17-003
   - hbp-ch20-001
   - hbp-ch20-006
+  - hbp-ch23-002
   history-of-magic:
   - cos-ch09-002
   - gof-ch15-002
@@ -18870,6 +18981,8 @@ by_tag:
   - ps-ch03-005
   - ps-ch04-002
   - ps-ch04-004
+  hogwarts-library:
+  - hbp-ch23-004
   hogwarts-memory:
   - cos-ch01-001
   - gof-ch02-004
@@ -18901,6 +19014,8 @@ by_tag:
   - ps-ch05-001
   hogwarts-staff:
   - ps-ch04-001
+  hogwarts-students:
+  - hbp-ch23-006
   hogwarts-teacher:
   - gof-ch33-002
   hogwarts-testing:
@@ -18970,6 +19085,9 @@ by_tag:
   horcruxes:
   - hbp-ch18-002
   - hbp-ch20-001
+  - hbp-ch23-004
+  - hbp-ch23-005
+  - hbp-ch23-006
   horseless-carriages:
   - gof-ch11-006
   - gof-ch12-001
@@ -19182,6 +19300,8 @@ by_tag:
   - ps-ch13-002
   hufflepuff-cup:
   - hbp-ch20-005
+  hufflepuffs-cup:
+  - hbp-ch23-007
   human-transfiguration:
   - hbp-ch15-003
   hungarian-horntail:
@@ -20138,6 +20258,7 @@ by_tag:
   - hbp-ch17-003
   - hbp-ch20-001
   - hbp-ch22-007
+  - hbp-ch23-002
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -20895,6 +21016,7 @@ by_tag:
   - gof-ch23-007
   - gof-ch25-002
   - hbp-ch12-007
+  - hbp-ch23-001
   - poa-ch08-004
   - poa-ch09-003
   - poa-ch11-006
@@ -20963,6 +21085,7 @@ by_tag:
   - hbp-ch17-003
   - hbp-ch20-001
   - hbp-ch22-007
+  - hbp-ch23-002
   - ootp-ch24-004
   - ootp-ch26-005
   - ootp-ch28-006
@@ -21262,6 +21385,7 @@ by_tag:
   - cos-ch13-002
   - cos-ch13-006
   - hbp-ch07-002
+  - hbp-ch23-003
   - ootp-ch09-005
   - ootp-ch09-006
   - ootp-ch10-002
@@ -21509,6 +21633,8 @@ by_tag:
   - hbp-ch05-002
   protego:
   - ootp-ch36-003
+  proto-death-eaters:
+  - hbp-ch23-003
   public-accountability:
   - gof-ch24-002
   public-address:
@@ -21701,6 +21827,7 @@ by_tag:
   - poa-ch04-005
   ravenclaw:
   - gof-ch15-004
+  - hbp-ch23-007
   - ootp-ch10-003
   - ootp-ch19-002
   - ootp-ch30-003
@@ -21753,6 +21880,8 @@ by_tag:
   restricted-books:
   - cos-ch10-002
   - cos-ch12-004
+  restricted-knowledge:
+  - hbp-ch23-004
   restricted-magic:
   - hbp-ch06-006
   restricted-movement:
@@ -21777,6 +21906,7 @@ by_tag:
   riddle-diary:
   - cos-ch17-002
   - cos-ch18-006
+  - hbp-ch23-006
   riddle-family:
   - gof-ch01-001
   rightful-headmaster:
@@ -22276,6 +22406,8 @@ by_tag:
   servant-bondage:
   - ootp-ch06-002
   - ootp-ch23-005
+  seven:
+  - hbp-ch23-005
   seven-year-education:
   - ps-ch04-006
   seventeenth-birthday:
@@ -22428,9 +22560,11 @@ by_tag:
   - hbp-ch14-002
   - hbp-ch15-004
   - hbp-ch22-007
+  - hbp-ch23-003
   slughorn-memory:
   - hbp-ch18-002
   - hbp-ch20-001
+  - hbp-ch23-002
   slughorn-office:
   - hbp-ch18-006
   - hbp-ch18-007
@@ -22474,6 +22608,10 @@ by_tag:
   - hbp-ch20-005
   slytherin-statue:
   - cos-ch17-001
+  slytherins-locket:
+  - hbp-ch23-007
+  slytherins-monster:
+  - hbp-ch23-006
   snake-communication:
   - ps-ch02-004
   snake-language:
@@ -22551,6 +22689,8 @@ by_tag:
   - ootp-ch11-003
   - ootp-ch11-004
   - ootp-ch19-002
+  soul-magic:
+  - hbp-ch23-005
   source-reliability:
   - gof-ch15-003
   special-awards:
@@ -22637,6 +22777,7 @@ by_tag:
   staff-appointments:
   - gof-ch24-002
   - hbp-ch08-005
+  - hbp-ch23-003
   - poa-ch05-007
   - poa-ch17-003
   staff-authority:
@@ -23368,6 +23509,7 @@ by_tag:
   - hbp-ch17-005
   - hbp-ch17-006
   - hbp-ch20-003
+  - hbp-ch23-003
   tom-riddle-diary:
   - cos-ch13-004
   tom-riddle-senior:

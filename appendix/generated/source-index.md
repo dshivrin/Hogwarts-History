@@ -160,3 +160,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch20`: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, pages 2770-2790, 7 entries, 0 explicit references.
 - `hbp-ch21`: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, pages 2791-2808, 7 entries, 0 explicit references.
 - `hbp-ch22`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, pages 2809-2828, 7 entries, 0 explicit references.
+- `hbp-ch23`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, pages 2829-2846, 7 entries, 0 explicit references.

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-Three - Horcruxes
-- Page range: 2829-2846
+- Chapter: Chapter Twenty-Four - Sectumsempra
+- Page range: 2847-2865
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-23-horcruxes.yaml`
+- Output YAML: `sources/book-06/chapter-24-sectumsempra.yaml`
 
 ## Minimal Context
 
