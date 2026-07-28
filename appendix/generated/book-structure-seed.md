@@ -79,8 +79,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Divination and Elective Study
   - Dream interpretation and O.W.L. preparation
   - Planetary divination in the North Tower classroom
+- Divination and Prophetic Testimony
+  - Trelawney's appointment interview and Snape's interruption
 - Divination and Third-Year Electives
   - Crystal-Gazing Exams and True Seer Evidence
+- Examinations and Academic Pressure
+  - Fifth-year O.W.L. revision routines
 - Examinations and Academic Progression
   - Easter revision, library study, and exam-year pressure
   - Fifth-year O.W.L. practical preparation
@@ -224,6 +228,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - House Common Rooms and Dormitories
   - Passworded Portrait Access and Wartime Tightening
+- Secret Rooms and Responsive Spaces
+  - Occupied Room of Requirement and forced ejection
 
 ## Castle Life and Seasonal Customs
 
@@ -465,8 +471,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff investigation after a failed cursed-object attack
 - Security, Discipline, and Wartime Infiltration
   - Gatecrashing, Head-of-House authority, and covert risk
+- The First Prophecy and the Second War
+  - Snape's partial overhearing and return
 - The Second War at School
   - Parental Fear and Protective Measures
+- Wartime Security and Student Resistance
+  - Headmaster absences and unofficial D.A. watch
 
 ## Houses and Student Life
 
@@ -894,6 +904,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Ghosts, Portraits, and Castle Memory
   - Moaning Myrtle, Plumbing, and the Lake
+
+## Magical Transportation and Boundaries
+
+- Hogsmeade, Apparition, and School Boundaries
+  - Headmaster travel cover and side-along Apparition
 
 ## Notable Events Before 1984
 
@@ -1340,6 +1355,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Memory Testimony and Historical Method
   - Pensieve Evidence in the Headmaster's Office
+- School Records and Student Archives
+  - Newspaper clippings and old award records
 
 ## Staff, Founders, and Notable Residents
 

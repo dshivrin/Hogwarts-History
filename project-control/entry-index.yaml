@@ -15512,6 +15512,110 @@ by_entry:
     - team-replacements
     source_unit: hbp-ch24
     output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch25-001:
+    title: 'Examinations and Academic Pressure: Fifth-year O.W.L. revision routines'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - fifth-year
+    - gryffindor-common-room
+    - herbology-homework
+    - library
+    - owl-exams
+    - student-study
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch25-002:
+    title: 'School Records and Student Archives: Newspaper clippings and old award
+      records'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - eileen-prince
+    - gobstones-team
+    - hogwarts-records
+    - interschool-competitions
+    - old-prophets
+    - potions-awards
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch25-003:
+    title: 'Secret Rooms and Responsive Spaces: Occupied Room of Requirement and forced
+      ejection'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - hidden-room
+    - magical-architecture
+    - malfoy
+    - room-of-requirement
+    - seventh-floor
+    - trelawney
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch25-004:
+    title: 'Divination and Prophetic Testimony: Trelawney''s appointment interview
+      and Snape''s interruption'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - divination
+    - hogs-head
+    - prophecy
+    - snape
+    - sybill-trelawney
+    - teacher-appointments
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch25-005:
+    title: 'The First Prophecy and the Second War: Snape''s partial overhearing and
+      return'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dumbledore
+    - occlumency
+    - potter-family
+    - prophecy
+    - snape
+    - voldemort
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch25-006:
+    title: 'Wartime Security and Student Resistance: Headmaster absences and unofficial
+      D.A. watch'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - contact-galleons
+    - d-a
+    - dumbledore-absences
+    - marauders-map
+    - school-protection
+    - wartime-security
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch25-007:
+    title: 'Hogsmeade, Apparition, and School Boundaries: Headmaster travel cover
+      and side-along Apparition'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - assisted-apparition
+    - dumbledore
+    - headmaster-public-cover
+    - hogsmeade
+    - student-licensing
+    source_unit: hbp-ch25
+    output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15721,6 +15825,7 @@ by_tag:
   - hbp-ch18-003
   - hbp-ch21-001
   - hbp-ch22-001
+  - hbp-ch25-007
   - ootp-ch03-003
   - ootp-ch23-001
   apparition-points:
@@ -15764,6 +15869,8 @@ by_tag:
   - hbp-ch18-007
   assessment:
   - cos-ch16-001
+  assisted-apparition:
+  - hbp-ch25-007
   astrology:
   - gof-ch13-004
   - gof-ch21-005
@@ -16577,6 +16684,8 @@ by_tag:
   - gof-ch17-005
   conjuration:
   - hbp-ch14-007
+  contact-galleons:
+  - hbp-ch25-006
   cormac-mclaggen:
   - hbp-ch11-003
   - hbp-ch11-006
@@ -16790,6 +16899,7 @@ by_tag:
   - ps-ch13-003
   d-a:
   - hbp-ch21-004
+  - hbp-ch25-006
   da-meetings:
   - ootp-ch19-001
   dai-llewellyn-ward:
@@ -17183,6 +17293,7 @@ by_tag:
   - gof-ch29-005
   - hbp-ch15-005
   - hbp-ch20-002
+  - hbp-ch25-004
   - ootp-ch12-005
   - ootp-ch15-003
   - ootp-ch17-006
@@ -17370,6 +17481,8 @@ by_tag:
   - hbp-ch22-007
   - hbp-ch23-001
   - hbp-ch23-005
+  - hbp-ch25-005
+  - hbp-ch25-007
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17445,6 +17558,8 @@ by_tag:
   - ps-ch15-003
   - ps-ch17-001
   - ps-ch17-003
+  dumbledore-absences:
+  - hbp-ch25-006
   dumbledore-headmastership:
   - hbp-ch20-007
   dumbledore-judgment:
@@ -17542,6 +17657,8 @@ by_tag:
   - ootp-ch27-006
   - ootp-ch28-001
   - ootp-ch28-003
+  eileen-prince:
+  - hbp-ch25-002
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -17795,6 +17912,7 @@ by_tag:
   - gof-ch23-007
   - ootp-ch30-001
   fifth-year:
+  - hbp-ch25-001
   - ootp-ch09-005
   - ootp-ch12-002
   - ootp-ch14-005
@@ -18237,6 +18355,8 @@ by_tag:
   - ootp-ch05-004
   - ootp-ch07-003
   - ootp-ch09-002
+  gobstones-team:
+  - hbp-ch25-002
   godric-gryffindor:
   - cos-ch18-004
   - gof-ch12-002
@@ -18427,6 +18547,7 @@ by_tag:
   - ps-ch17-005
   gryffindor-common-room:
   - hbp-ch12-007
+  - hbp-ch25-001
   - ootp-ch14-007
   - ootp-ch24-007
   - poa-ch13-006
@@ -18761,6 +18882,8 @@ by_tag:
   - ootp-ch27-007
   - ootp-ch37-001
   - poa-ch11-006
+  headmaster-public-cover:
+  - hbp-ch25-007
   headmasters:
   - cos-ch09-006
   headmasters-office:
@@ -18823,6 +18946,8 @@ by_tag:
   - ps-ch14-001
   - ps-ch14-005
   - ps-ch16-005
+  herbology-homework:
+  - hbp-ch25-001
   hermione:
   - ps-ch06-004
   hermione-course-load:
@@ -18878,6 +19003,7 @@ by_tag:
   hidden-room:
   - cos-ch17-001
   - gof-ch23-004
+  - hbp-ch25-003
   - ootp-ch18-005
   hidden-staircase:
   - gof-ch28-006
@@ -18942,6 +19068,7 @@ by_tag:
   - poa-ch12-001
   hogs-head:
   - hbp-ch20-007
+  - hbp-ch25-004
   - ootp-ch16-002
   - ootp-ch16-003
   - ootp-ch37-006
@@ -18957,6 +19084,7 @@ by_tag:
   - hbp-ch18-005
   - hbp-ch21-001
   - hbp-ch21-007
+  - hbp-ch25-007
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -19118,6 +19246,8 @@ by_tag:
   - cos-ch01-003
   hogwarts-orientation:
   - hbp-ch13-004
+  hogwarts-records:
+  - hbp-ch25-002
   hogwarts-residents:
   - ootp-ch38-006
   hogwarts-return:
@@ -19569,6 +19699,8 @@ by_tag:
   - gof-ch07-003
   international-wizards:
   - gof-ch01-002
+  interschool-competitions:
+  - hbp-ch25-002
   intruder-charm:
   - hbp-ch04-003
   intruders:
@@ -19779,6 +19911,7 @@ by_tag:
   - gof-ch20-001
   - gof-ch26-002
   - gof-ch29-004
+  - hbp-ch25-001
   - ootp-ch16-006
   - ootp-ch19-004
   - ootp-ch24-006
@@ -19990,6 +20123,7 @@ by_tag:
   - hbp-ch10-002
   - hbp-ch21-004
   - hbp-ch24-005
+  - hbp-ch25-003
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
@@ -20259,6 +20393,7 @@ by_tag:
   - hbp-ch21-003
   - hbp-ch21-004
   - hbp-ch21-005
+  - hbp-ch25-003
   malfoy-family:
   - ootp-ch06-006
   mandrake-juice:
@@ -20295,6 +20430,7 @@ by_tag:
   - hbp-ch18-004
   - hbp-ch19-006
   - hbp-ch21-004
+  - hbp-ch25-006
   - ootp-ch18-006
   - ootp-ch20-001
   - poa-ch10-003
@@ -20914,6 +21050,7 @@ by_tag:
   - hbp-ch01-004
   occlumency:
   - hbp-ch04-007
+  - hbp-ch25-005
   - ootp-ch24-001
   - ootp-ch24-005
   - ootp-ch26-005
@@ -20944,6 +21081,8 @@ by_tag:
   - gof-ch31-001
   old-manors:
   - cos-ch03-002
+  old-prophets:
+  - hbp-ch25-002
   old-punishments:
   - ps-ch15-004
   old-textbook:
@@ -21058,6 +21197,7 @@ by_tag:
   overage-wizards:
   - ootp-ch05-003
   owl-exams:
+  - hbp-ch25-001
   - ootp-ch28-007
   owl-post:
   - cos-ch01-003
@@ -21452,6 +21592,8 @@ by_tag:
   - ps-ch15-007
   - ps-ch16-001
   - ps-ch16-007
+  potions-awards:
+  - hbp-ch25-002
   potions-class:
   - gof-ch27-003
   - gof-ch27-005
@@ -21460,6 +21602,7 @@ by_tag:
   potter-family:
   - gof-ch14-004
   - gof-ch34-004
+  - hbp-ch25-005
   practical-defense:
   - hbp-ch07-004
   - ootp-ch15-007
@@ -21741,6 +21884,8 @@ by_tag:
   - hbp-ch10-004
   - hbp-ch12-001
   - hbp-ch20-002
+  - hbp-ch25-004
+  - hbp-ch25-005
   - ootp-ch34-007
   - ootp-ch35-001
   - ootp-ch35-002
@@ -22099,6 +22244,7 @@ by_tag:
   - hbp-ch21-004
   - hbp-ch21-005
   - hbp-ch24-005
+  - hbp-ch25-003
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -22298,6 +22444,7 @@ by_tag:
   - hbp-ch08-006
   - hbp-ch11-002
   - hbp-ch11-007
+  - hbp-ch25-006
   - ootp-ch23-001
   school-protections:
   - gof-ch11-005
@@ -22561,6 +22708,7 @@ by_tag:
   seventh-floor:
   - hbp-ch10-002
   - hbp-ch21-003
+  - hbp-ch25-003
   - ootp-ch18-006
   seventh-year:
   - ootp-ch29-001
@@ -22781,6 +22929,8 @@ by_tag:
   - hbp-ch16-002
   - hbp-ch19-003
   - hbp-ch24-006
+  - hbp-ch25-004
+  - hbp-ch25-005
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -23191,6 +23341,7 @@ by_tag:
   - hbp-ch17-002
   - hbp-ch21-001
   - hbp-ch22-001
+  - hbp-ch25-007
   student-life:
   - ootp-ch11-007
   student-lockdown:
@@ -23353,6 +23504,7 @@ by_tag:
   - cos-ch10-002
   student-study:
   - cos-ch11-005
+  - hbp-ch25-001
   - ootp-ch24-006
   student-supervision:
   - ootp-ch21-003
@@ -23454,6 +23606,7 @@ by_tag:
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
+  - hbp-ch25-004
   - ootp-ch37-006
   - ootp-ch38-003
   tallest-tower:
@@ -23481,6 +23634,7 @@ by_tag:
   - hbp-ch15-005
   - hbp-ch20-002
   - hbp-ch20-007
+  - hbp-ch25-004
   - ootp-ch09-004
   - ootp-ch11-002
   - ootp-ch26-007
@@ -23741,6 +23895,8 @@ by_tag:
   - ps-ch16-005
   trauma-aftermath:
   - gof-ch37-002
+  trelawney:
+  - hbp-ch25-003
   trick-step:
   - gof-ch25-005
   trick-sweets:
@@ -24029,6 +24185,7 @@ by_tag:
   - hbp-ch10-003
   - hbp-ch16-004
   - hbp-ch20-007
+  - hbp-ch25-005
   - ootp-ch05-005
   - ootp-ch06-004
   - ootp-ch15-007
@@ -24140,6 +24297,7 @@ by_tag:
   - hbp-ch21-007
   - hbp-ch22-003
   - hbp-ch24-001
+  - hbp-ch25-006
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003

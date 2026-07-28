@@ -1,0 +1,323 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  boundary_confidence: high
+  boundary_notes: Bounded by processing-state anchors for Chapter Twenty-Five; extracted only PDF pages 2866-2883.
+  processed_date: '2026-07-28'
+  processor_notes: 'Created from bounded pypdf extraction. No explicit Hogwarts: A History title citation appears in this chapter.'
+entries:
+- id: hbp-ch25-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2867
+  printed_page:
+  extracted_text_lines: 37-49
+  text_anchor:
+    start_phrase: But Ron's tolerance was not to be tested
+    end_phrase: she ought to be working hard for her examinations
+    local_occurrence_note: Early June Gryffindor common-room scene before Hermione raises the Half-Blood Prince research.
+  nearby_context: Ginny has withdrawn to the library while Harry is expected to be doing Herbology homework in the common room.
+  match_terms:
+  - Ginny Weasley
+  - O.W.L.s
+  - library
+  - common room
+  - Herbology homework
+  - examinations
+  quote_excerpt_short: "Ginny's O.W.L.s were approaching"
+  source_note: O.W.L. preparation can restrict fifth-year social life into June, with students studying late in the library while other year groups continue ordinary homework in House common rooms.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - owl-exams
+  - fifth-year
+  - library
+  - student-study
+  - gryffindor-common-room
+  - herbology-homework
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Pressure
+  candidate_section: Fifth-year O.W.L. revision routines
+  reason_for_placement: Adds a late-year student-life example of O.W.L. revision pressure and the library/common-room study pattern.
+  relevance_to_hogwarts_a_history: Useful for describing how formal exams shaped ordinary Hogwarts routines beyond classroom scenes.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Compact duplicate search surfaced general library and common-room entries, but none focused on late June O.W.L. revision pressure for fifth-years.
+  confidence: high
+  limitations: The evidence is observed through Ginny's schedule and does not describe official exam timetables.
+- id: hbp-ch25-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2868
+  printed_page:
+  extracted_text_lines: 70-125
+  text_anchor:
+    start_phrase: Right! said Hermione, red patches blazing
+    end_phrase: is records of old Potions awards
+    local_occurrence_note: Hermione presents an old Prophet clipping and plans further library research into Eileen Prince.
+  nearby_context: The trio debate whether Eileen Prince could be the Half-Blood Prince after Hermione finds a decades-old school-sports news item.
+  match_terms:
+  - Eileen Prince
+  - Hogwarts Gobstones Team
+  - interschool competitions
+  - old Prophets
+  - Potions awards
+  - library
+  quote_excerpt_short: "records of old Potions awards"
+  source_note: Hogwarts library holdings include old Daily Prophet material that preserves student-club and interschool-competition records, and Hermione expects old Potions award records to be searchable.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - eileen-prince
+  - hogwarts-records
+  - old-prophets
+  - potions-awards
+  - gobstones-team
+  - interschool-competitions
+  candidate_part: Sources, Records, and Magical Historiography
+  candidate_chapter: School Records and Student Archives
+  candidate_section: Newspaper clippings and old award records
+  reason_for_placement: Provides direct evidence that historical Hogwarts student activity can be reconstructed from library-held press clippings and award records.
+  relevance_to_hogwarts_a_history: Supports an in-universe history's source base for student societies, competitions, and academic honors.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Duplicate query for Eileen Prince, old Prophets, Gobstones, Hogwarts records, and Potions awards returned no existing matches.
+  confidence: high
+  limitations: The clipping's date is not given here, and Potions award records are named as Hermione's intended next source rather than shown directly.
+- id: hbp-ch25-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2871
+  printed_page:
+  extracted_text_lines: 183-241
+  text_anchor:
+    start_phrase: There on the right was the tapestry of dancing trolls
+    end_phrase: that someone threw you out of the room
+    local_occurrence_note: Harry finds Trelawney outside the seventh-floor Room of Requirement entrance after she is ejected.
+  nearby_context: Trelawney had tried to use the room to hide bottles and heard a gleeful male voice before being expelled in darkness.
+  match_terms:
+  - Room of Requirement
+  - tapestry of dancing trolls
+  - seventh floor
+  - Trelawney
+  - Malfoy
+  - hidden room
+  quote_excerpt_short: "there was somebody already in there"
+  source_note: The Room of Requirement can be entered by a teacher for concealed storage, can contain another active user, and can apparently darken and expel an intruder from the current configuration.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - room-of-requirement
+  - magical-architecture
+  - hidden-room
+  - trelawney
+  - malfoy
+  - seventh-floor
+  candidate_part: Castle Life and Hidden Architecture
+  candidate_chapter: Secret Rooms and Responsive Spaces
+  candidate_section: Occupied Room of Requirement and forced ejection
+  reason_for_placement: Extends the Room of Requirement dossier with observed multi-user conflict, teacher use, and defensive expulsion behavior.
+  relevance_to_hogwarts_a_history: Helps a Hogwarts history explain the room as an active, responsive space rather than a static hidden chamber.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch18-005
+    - hbp-ch21-004
+    - hbp-ch24-005
+    notes: ootp-ch18-005 establishes the Room of Requirement's adaptive access; hbp-ch21-004 covers access rules and map blind spots; hbp-ch24-005 covers the hidden-storage configuration. This entry adds Trelawney's teacher use, an already-occupied configuration, and the reported darkening/ejection.
+  confidence: medium
+  limitations: Trelawney is the only witness to the expulsion details, and Harry's identification of Malfoy is an inference.
+- id: hbp-ch25-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2874
+  printed_page:
+  extracted_text_lines: 263-307
+  text_anchor:
+    start_phrase: I miss having you in my classes
+    end_phrase: young man who was prepared to listen at keyholes
+    local_occurrence_note: Trelawney walks with Harry toward Dumbledore and recounts her original interview for the Divination post.
+  nearby_context: Trelawney compares herself with Firenze and then recalls the Hog's Head interview in which she made the first prophecy.
+  match_terms:
+  - Sybill Trelawney
+  - Divination
+  - Firenze
+  - Hog's Head
+  - Dumbledore
+  - Snape
+  quote_excerpt_short: "my first interview with Dumbledore"
+  source_note: Trelawney's own account places her Divination hiring interview at the Hog's Head, frames Dumbledore as initially doubtful about Divination, and identifies Snape as an eavesdropper also seeking a job.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - sybill-trelawney
+  - divination
+  - teacher-appointments
+  - hogs-head
+  - snape
+  - prophecy
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Divination and Prophetic Testimony
+  candidate_section: Trelawney's appointment interview and Snape's interruption
+  reason_for_placement: Adds first-person testimony about the circumstances of Trelawney's hiring and the prophecy-interview interruption.
+  relevance_to_hogwarts_a_history: Important for a school history's account of Divination staffing, Dumbledore's hiring decisions, and later wartime consequences.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch37-006
+    - hbp-ch20-002
+    notes: ootp-ch37-006 already records Dumbledore's Pensieve account of the prophecy interview, and hbp-ch20-002 records protective dual Divination staffing. This entry adds Trelawney's own corridor testimony, Dumbledore's initial skepticism, and Snape's concurrent job-seeking/eavesdropping.
+  confidence: high
+  limitations: Trelawney embellishes her own standing, so details about Dumbledore's admiration should be treated cautiously.
+- id: hbp-ch25-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2878
+  printed_page:
+  extracted_text_lines: 377-427
+  text_anchor:
+    start_phrase: Snape! he said, very loudly
+    end_phrase: I trust Severus Snape completely
+    local_occurrence_note: Harry confronts Dumbledore in the headmaster's office after learning Snape overheard the prophecy.
+  nearby_context: Dumbledore confirms Snape heard the first half of Trelawney's prophecy while still in Voldemort's service and later returned in remorse.
+  match_terms:
+  - Snape
+  - Voldemort
+  - prophecy
+  - Dumbledore
+  - Occlumens
+  - remorse
+  quote_excerpt_short: "the first half of Professor Trelawney's prophecy"
+  source_note: Dumbledore confirms that Snape overheard only the first half of Trelawney's prophecy, passed it to Voldemort while in his service, and later returned in remorse after Voldemort targeted the Potters.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - snape
+  - voldemort
+  - prophecy
+  - dumbledore
+  - occlumency
+  - potter-family
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: The First Prophecy and the Second War
+  candidate_section: Snape's partial overhearing and return
+  reason_for_placement: Connects a school hiring interview to the later security and political consequences of Snape's disclosure.
+  relevance_to_hogwarts_a_history: Supports a later-edition account of how Hogwarts staff history intersected with the prophecy that shaped the Second War.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch37-006
+    notes: ootp-ch37-006 records Dumbledore's memory of the first prophecy; this entry records Dumbledore's later confirmation of Snape's partial overhearing, disclosure to Voldemort, and subsequent remorse.
+  confidence: high
+  limitations: Dumbledore withholds the full basis for his trust in Snape, so the evidence does not settle Snape's complete allegiance history.
+- id: hbp-ch25-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2879
+  printed_page:
+  extracted_text_lines: 430-511
+  text_anchor:
+    start_phrase: You're leaving the school tonight
+    end_phrase: you lot to be on the watch
+    local_occurrence_note: Harry warns Dumbledore about Malfoy, then privately organizes Ron and Hermione to watch the castle.
+  nearby_context: Dumbledore insists he has never left Hogwarts unprotected during his absences and Harry supplements the protection with D.A. communication and map surveillance.
+  match_terms:
+  - Dumbledore
+  - school protection
+  - absences
+  - Marauder's Map
+  - D.A.
+  - contact Galleons
+  quote_excerpt_short: "additional protection in place"
+  source_note: During Dumbledore's nighttime absence, the headmaster claims additional school protection is again in place, while Harry adds an unofficial watch using the Marauder's Map, D.A. contacts, and enchanted Galleons.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-protection
+  - dumbledore-absences
+  - wartime-security
+  - marauders-map
+  - d-a
+  - contact-galleons
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Wartime Security and Student Resistance
+  candidate_section: Headmaster absences and unofficial D.A. watch
+  reason_for_placement: Shows both formal headmaster protection claims and the student resistance network's emergency surveillance role during a critical absence.
+  relevance_to_hogwarts_a_history: Useful for a later-editorial wartime chapter comparing official school security with student-organized protective action.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch08-006
+    - hbp-ch18-004
+    - hbp-ch19-006
+    notes: hbp-ch08-006 covers strengthened fortifications and reporting rules; hbp-ch18-004 and hbp-ch19-006 cover Marauder's Map surveillance and blind spots. This entry adds Dumbledore's statement about protections during his absences and the explicit D.A./contact-Galleon watch plan.
+  confidence: high
+  limitations: The additional protections are not specified, and Harry's plan depends on his inference that Malfoy is the celebrant in the Room of Requirement.
+- id: hbp-ch25-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Five - The Seer Overheard
+  chapter_start_pdf_page: 2866
+  chapter_end_pdf_page: 2883
+  pdf_page: 2882
+  printed_page:
+  extracted_text_lines: 527-574
+  text_anchor:
+    start_phrase: Dumbledore was waiting beside the oaken front doors
+    end_phrase: breathing in lungfuls of fresh, salty air
+    local_occurrence_note: Dumbledore leaves Hogwarts with Harry under the Invisibility Cloak and Apparates from near the Hog's Head.
+  nearby_context: Dumbledore uses ordinary-seeming visits to Hogsmeade pubs as cover for leaving the school and guides unlicensed Harry by side-along Apparition.
+  match_terms:
+  - Dumbledore
+  - Hogsmeade
+  - Hog's Head
+  - Three Broomsticks
+  - Apparition
+  - Invisibility Cloak
+  quote_excerpt_short: "disguising one's true destination"
+  source_note: Dumbledore can leave the castle through the front doors, use visible Hogsmeade pub visits as cover, and side-along Apparate Harry from outside the school boundary despite Harry lacking a license.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore
+  - hogsmeade
+  - apparition
+  - assisted-apparition
+  - student-licensing
+  - headmaster-public-cover
+  candidate_part: Magical Transportation and Boundaries
+  candidate_chapter: Hogsmeade, Apparition, and School Boundaries
+  candidate_section: Headmaster travel cover and side-along Apparition
+  reason_for_placement: Adds operational detail about how a headmaster uses Hogsmeade and the school boundary for concealed travel during wartime.
+  relevance_to_hogwarts_a_history: Supports a boundary-and-transportation account of how Hogwarts departures, Hogsmeade cover, and Apparition restrictions interact.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch21-001
+    - hbp-ch21-007
+    notes: hbp-ch21-001 covers Hogsmeade Apparition practice and licensing; hbp-ch21-007 covers Hogsmeade security screening and external guard coverage. This entry adds Dumbledore's public-cover travel pattern and side-along Apparition with an unlicensed student.
+  confidence: high
+  limitations: The exact magical boundary crossed before Apparition is inferred from leaving the gates and Hogsmeade lane rather than formally explained.

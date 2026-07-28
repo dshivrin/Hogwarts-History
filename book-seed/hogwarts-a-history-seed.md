@@ -2634,6 +2634,20 @@ Summary: The available evidence includes 1 source item, led by: The Divination c
   - Corroborates: `gof-ch13-004`, `gof-ch21-005`, `poa-ch06-002`. Corroborates North Tower Divination and fourth-year astrology work; adds Mars-Neptune planetary-divination and the glass-dome solar-system model.
   - Notes: The lesson is described only up to Harry falling asleep.
 
+### Chapter: Divination and Prophetic Testimony
+
+#### Section: Trelawney's appointment interview and Snape's interruption
+
+Summary: The available evidence includes 1 source item, led by: Trelawney's own account places her Divination hiring interview at the Hog's Head, frames Dumbledore as initially doubtful about Divination, and identifies Snape as an eavesdropper also seeking a job.
+
+- **Corroboration:** Trelawney's own account places her Divination hiring interview at the Hog's Head, frames Dumbledore as initially doubtful about Divination, and identifies Snape as an eavesdropper also seeking a job.
+  - Quote: "my first interview with Dumbledore"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2874, `hbp-ch25-004`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch37-006`, `hbp-ch20-002`. ootp-ch37-006 already records Dumbledore's Pensieve account of the prophecy interview, and hbp-ch20-002 records protective dual Divination staffing. This entry adds Trelawney's own corridor testimony, Dumbledore's initial skepticism, and Snape's concurrent job-seeking/eavesdropping.
+  - Notes: Trelawney embellishes her own standing, so details about Dumbledore's admiration should be treated cautiously.
+
 ### Chapter: Divination and Third-Year Electives
 
 #### Section: Crystal-Gazing Exams and True Seer Evidence
@@ -2647,6 +2661,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: curriculum_or_subject
   - Corroborates: `poa-ch06-003`. Book 3 Chapter Six introduces Trelawney's Divination syllabus and McGonagall's distinction between Divination and true Seers; this entry adds the exam format and a concrete true-prediction event.
   - Notes: The prophecy itself is Harry-era event evidence and should be treated as later editorial context, not original pre-Harry Hogwarts history.
+
+### Chapter: Examinations and Academic Pressure
+
+#### Section: Fifth-year O.W.L. revision routines
+
+Summary: The available evidence includes 1 source item, led by: O.W.L. preparation can restrict fifth-year social life into June, with students studying late in the library while other year groups continue ordinary homework in House common rooms.
+
+- **Supporting evidence:** O.W.L. preparation can restrict fifth-year social life into June, with students studying late in the library while other year groups continue ordinary homework in House common rooms.
+  - Quote: "Ginny's O.W.L.s were approaching"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2867, `hbp-ch25-001`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The evidence is observed through Ginny's schedule and does not describe official exam timetables.
 
 ### Chapter: Examinations and Academic Progression
 
@@ -10350,6 +10377,20 @@ Summary: The available evidence includes 1 source item, led by: The Fat Lady lin
   - Reference type: security_or_protection
   - Notes: The Fat Lady admits she lied about the current password remaining changed, so only the cited security rationale and custom of password changes are firm.
 
+### Chapter: Secret Rooms and Responsive Spaces
+
+#### Section: Occupied Room of Requirement and forced ejection
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement can be entered by a teacher for concealed storage, can contain another active user, and can apparently darken and expel an intruder from the current configuration.
+
+- **Corroboration:** The Room of Requirement can be entered by a teacher for concealed storage, can contain another active user, and can apparently darken and expel an intruder from the current configuration.
+  - Quote: "there was somebody already in there"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2871, `hbp-ch25-003`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch18-005`, `hbp-ch21-004`, `hbp-ch24-005`. ootp-ch18-005 establishes the Room of Requirement's adaptive access; hbp-ch21-004 covers access rules and map blind spots; hbp-ch24-005 covers the hidden-storage configuration. This entry adds Trelawney's teacher use, an already-occupied configuration, and the reported darkening/ejection.
+  - Notes: Trelawney is the only witness to the expulsion details, and Harry's identification of Malfoy is an inference.
+
 ## Part: Castle Life and Seasonal Customs
 
 ### Chapter: Christmas at Hogwarts
@@ -11195,6 +11236,20 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts nightti
   - Corroborates: `ps-ch09-005`, `cos-ch05-005`, `hbp-ch02-006`. ps-ch09-005 records nighttime wandering as rule-breaking, cos-ch05-005 records Head-of-House disciplinary responsibility, and hbp-ch02-006 records the Unbreakable Vow context; this entry adds party gatecrashing, Slughorn's leniency, Snape's direct Head-of-House intervention, and the wartime stakes around Draco's covert plan.
   - Notes: Much of the deeper wartime context is overheard through a door, and Draco's full plan remains concealed in this chapter.
 
+### Chapter: The First Prophecy and the Second War
+
+#### Section: Snape's partial overhearing and return
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore confirms that Snape overheard only the first half of Trelawney's prophecy, passed it to Voldemort while in his service, and later returned in remorse after Voldemort targeted the Potters.
+
+- **Corroboration:** Dumbledore confirms that Snape overheard only the first half of Trelawney's prophecy, passed it to Voldemort while in his service, and later returned in remorse after Voldemort targeted the Potters.
+  - Quote: "the first half of Professor Trelawney's prophecy"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2878, `hbp-ch25-005`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch37-006`. ootp-ch37-006 records Dumbledore's memory of the first prophecy; this entry records Dumbledore's later confirmation of Snape's partial overhearing, disclosure to Voldemort, and subsequent remorse.
+  - Notes: Dumbledore withholds the full basis for his trust in Snape, so the evidence does not settle Snape's complete allegiance history.
+
 ### Chapter: The Second War at School
 
 #### Section: Parental Fear and Protective Measures
@@ -11207,6 +11262,20 @@ Summary: The available evidence includes 1 source item, led by: Wartime fear rea
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: The passage reports student interpretation of school safety alongside one observed withdrawal and one reported family concern.
+
+### Chapter: Wartime Security and Student Resistance
+
+#### Section: Headmaster absences and unofficial D.A. watch
+
+Summary: The available evidence includes 1 source item, led by: During Dumbledore's nighttime absence, the headmaster claims additional school protection is again in place, while Harry adds an unofficial watch using the Marauder's Map, D.A. contacts, and enchanted Galleons.
+
+- **Corroboration:** During Dumbledore's nighttime absence, the headmaster claims additional school protection is again in place, while Harry adds an unofficial watch using the Marauder's Map, D.A. contacts, and enchanted Galleons.
+  - Quote: "additional protection in place"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2879, `hbp-ch25-006`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch08-006`, `hbp-ch18-004`, `hbp-ch19-006`. hbp-ch08-006 covers strengthened fortifications and reporting rules; hbp-ch18-004 and hbp-ch19-006 cover Marauder's Map surveillance and blind spots. This entry adds Dumbledore's statement about protections during his absences and the explicit D.A./contact-Galleon watch plan.
+  - Notes: The additional protections are not specified, and Harry's plan depends on his inference that Malfoy is the celebrant in the Room of Requirement.
 
 ## Part: Houses and Student Life
 
@@ -11410,6 +11479,22 @@ Summary: The available evidence includes 1 source item, led by: Myrtle's account
   - Reference type: portrait_or_ghost_lore
   - Corroborates: `cos-ch08-005`, `cos-ch15-007`, `cos-ch16-006`, `cos-ch16-007`. Earlier entries identify Myrtle's bathroom haunting, death evidence, Chamber bathroom entrance, and plumbing-linked tunnels; this entry adds her pipe-to-lake movement and Dippet/Olive Hornby body-discovery testimony.
   - Notes: Myrtle is emotional and digressive, so the entry should be used for corroborated ghost and infrastructure details rather than precise legal chronology.
+
+## Part: Magical Transportation and Boundaries
+
+### Chapter: Hogsmeade, Apparition, and School Boundaries
+
+#### Section: Headmaster travel cover and side-along Apparition
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore can leave the castle through the front doors, use visible Hogsmeade pub visits as cover, and side-along Apparate Harry from outside the school boundary despite Harry lacking a license.
+
+- **Corroboration:** Dumbledore can leave the castle through the front doors, use visible Hogsmeade pub visits as cover, and side-along Apparate Harry from outside the school boundary despite Harry lacking a license.
+  - Quote: "disguising one's true destination"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2882, `hbp-ch25-007`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch21-001`, `hbp-ch21-007`. hbp-ch21-001 covers Hogsmeade Apparition practice and licensing; hbp-ch21-007 covers Hogsmeade security screening and external guard coverage. This entry adds Dumbledore's public-cover travel pattern and side-along Apparition with an unlicensed student.
+  - Notes: The exact magical boundary crossed before Apparition is inferred from leaving the gates and Hogsmeade lane rather than formally explained.
 
 ## Part: Notable Students and Staff
 
@@ -11907,6 +11992,19 @@ Summary: The available evidence includes 1 source item, led by: The headmaster's
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The scene demonstrates Dumbledore's method, not a general school policy for Pensieve use.
+
+### Chapter: School Records and Student Archives
+
+#### Section: Newspaper clippings and old award records
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts library holdings include old Daily Prophet material that preserves student-club and interschool-competition records, and Hermione expects old Potions award records to be searchable.
+
+- **Supporting evidence:** Hogwarts library holdings include old Daily Prophet material that preserves student-club and interschool-competition records, and Hermione expects old Potions award records to be searchable.
+  - Quote: "records of old Potions awards"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, PDF p. 2868, `hbp-ch25-002`, `sources/book-06/chapter-25-the-seer-overheard.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The clipping's date is not given here, and Potions award records are named as Hermione's intended next source rather than shown directly.
 
 ## Part: Staff, Founders, and Notable Residents
 

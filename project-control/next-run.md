@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-Five - The Seer Overheard
-- Page range: 2866-2883
+- Chapter: Chapter Twenty-Six - The Cave
+- Page range: 2884-2904
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-25-the-seer-overheard.yaml`
+- Output YAML: `sources/book-06/chapter-26-the-cave.yaml`
 
 ## Minimal Context
 
