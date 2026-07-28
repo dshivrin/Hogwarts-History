@@ -151,6 +151,7 @@ tags:
     - hbp-ch16-006
     - hbp-ch21-002
     - hbp-ch22-002
+    - hbp-ch24-002
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
@@ -158,6 +159,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   advanced-potions:
     entries:
     - cos-ch12-004
@@ -754,6 +756,11 @@ tags:
     - gof-ch27-003
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  banned-books:
+    entries:
+    - hbp-ch24-005
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   banned-subject:
     entries:
     - hbp-ch23-005
@@ -850,8 +857,10 @@ tags:
   bathrooms:
     entries:
     - gof-ch25-002
+    - hbp-ch24-003
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   battle-damage:
     entries:
     - ootp-ch35-005
@@ -1189,6 +1198,11 @@ tags:
     - gof-ch07-003
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  brewing-time:
+    entries:
+    - hbp-ch24-002
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   brick-entrance:
     entries:
     - poa-ch04-001
@@ -1587,6 +1601,11 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+  castle-plumbing:
+    entries:
+    - hbp-ch24-003
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   castle-protections:
     entries:
     - hbp-ch08-002
@@ -2396,11 +2415,13 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
   countercurse:
     entries:
+    - hbp-ch24-004
     - ps-ch13-003
     - ps-ch17-001
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   countercurses:
     entries:
     - hbp-ch03-002
@@ -2744,8 +2765,10 @@ tags:
   cursed-necklace:
     entries:
     - hbp-ch12-006
+    - hbp-ch24-001
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   cursed-objects:
     entries:
     - hbp-ch12-006
@@ -2906,6 +2929,7 @@ tags:
     entries:
     - cos-ch09-006
     - hbp-ch18-002
+    - hbp-ch24-004
     - ps-ch11-006
     - ps-ch12-004
     output_yaml:
@@ -2913,6 +2937,7 @@ tags:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   dark-mark:
     entries:
     - gof-ch09-004
@@ -3381,6 +3406,7 @@ tags:
     - gof-ch18-004
     - hbp-ch15-007
     - hbp-ch22-003
+    - hbp-ch24-006
     - ootp-ch09-006
     - ootp-ch12-007
     - ootp-ch13-006
@@ -3407,6 +3433,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   detentions:
     entries:
     - ootp-ch38-005
@@ -3504,8 +3531,10 @@ tags:
   discipline-records:
     entries:
     - cos-ch08-002
+    - hbp-ch24-006
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   disguise:
     entries:
     - ootp-ch03-004
@@ -3536,9 +3565,11 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
   dittany:
     entries:
+    - hbp-ch24-004
     - ps-ch14-001
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   divination:
     entries:
     - gof-ch10-005
@@ -4596,6 +4627,7 @@ tags:
     - cos-ch12-007
     - cos-ch15-006
     - hbp-ch02-005
+    - hbp-ch24-006
     - ootp-ch01-003
     - ootp-ch02-002
     - ootp-ch08-007
@@ -4621,6 +4653,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   extendable-ears:
     entries:
     - hbp-ch06-007
@@ -4774,9 +4807,11 @@ tags:
     entries:
     - hbp-ch09-006
     - hbp-ch14-006
+    - hbp-ch24-002
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   fenrir-greyback:
     entries:
     - hbp-ch06-007
@@ -4853,6 +4888,7 @@ tags:
     - hbp-ch19-004
     - hbp-ch21-007
     - hbp-ch22-003
+    - hbp-ch24-006
     - ootp-ch11-005
     - ootp-ch16-001
     - ootp-ch18-001
@@ -4910,6 +4946,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   financial-assistance:
     entries:
     - hbp-ch13-006
@@ -5578,6 +5615,7 @@ tags:
     - gof-ch25-004
     - hbp-ch08-003
     - hbp-ch21-006
+    - hbp-ch24-003
     - ootp-ch11-004
     - ootp-ch38-006
     - poa-ch08-006
@@ -5594,6 +5632,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   giant-population:
     entries:
     - ootp-ch20-003
@@ -5662,6 +5701,7 @@ tags:
     entries:
     - cos-ch17-002
     - cos-ch18-002
+    - hbp-ch24-007
     - ootp-ch21-005
     - ootp-ch26-004
     output_yaml:
@@ -5669,6 +5709,7 @@ tags:
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   girls-bathroom:
     entries:
     - ps-ch10-004
@@ -6059,6 +6100,7 @@ tags:
     - hbp-ch11-003
     - hbp-ch14-003
     - hbp-ch14-007
+    - hbp-ch24-007
     - ootp-ch09-005
     - ootp-ch12-001
     - ootp-ch13-001
@@ -6115,6 +6157,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   gryffindor-common-room:
     entries:
     - hbp-ch12-007
@@ -6464,6 +6507,7 @@ tags:
     - hbp-ch16-006
     - hbp-ch21-002
     - hbp-ch22-002
+    - hbp-ch24-004
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
@@ -6471,6 +6515,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   half-brother:
     entries:
     - ootp-ch30-006
@@ -7027,6 +7072,11 @@ tags:
     - cos-ch17-007
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  hidden-objects:
+    entries:
+    - hbp-ch24-005
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   hidden-passageway:
     entries:
     - ps-ch09-006
@@ -7780,6 +7830,7 @@ tags:
     - hbp-ch12-006
     - hbp-ch12-007
     - hbp-ch19-001
+    - hbp-ch24-004
     - ootp-ch14-004
     - ootp-ch19-004
     - ootp-ch32-001
@@ -7809,6 +7860,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   host-school:
     entries:
     - gof-ch17-002
@@ -7879,9 +7931,11 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
   house-competition:
     entries:
+    - hbp-ch24-007
     - poa-ch12-004
     output_yaml:
     - sources/book-03/chapter-12-the-patronus.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   house-cup:
     entries:
     - cos-ch18-007
@@ -8249,6 +8303,7 @@ tags:
     - hbp-ch03-003
     - hbp-ch12-006
     - hbp-ch21-006
+    - hbp-ch24-001
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
@@ -8257,6 +8312,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   impersonation:
     entries:
     - hbp-ch04-002
@@ -8707,11 +8763,13 @@ tags:
     - hbp-ch14-003
     - hbp-ch18-005
     - hbp-ch19-003
+    - hbp-ch24-001
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   keeper:
     entries:
     - cos-ch07-001
@@ -9407,6 +9465,7 @@ tags:
     - hbp-ch09-004
     - hbp-ch10-002
     - hbp-ch21-004
+    - hbp-ch24-005
     - ootp-ch04-003
     - ootp-ch07-003
     - ootp-ch08-001
@@ -9447,6 +9506,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -9687,6 +9747,11 @@ tags:
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  magical-limits:
+    entries:
+    - hbp-ch24-002
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   magical-locking:
     entries:
     - gof-ch25-006
@@ -10192,6 +10257,7 @@ tags:
   mcgonagall:
     entries:
     - hbp-ch12-007
+    - hbp-ch24-006
     - ootp-ch28-005
     - ootp-ch38-004
     - poa-ch11-007
@@ -10217,6 +10283,7 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   mcgonagall-office:
     entries:
     - hbp-ch17-001
@@ -10760,12 +10827,14 @@ tags:
     - cos-ch16-006
     - gof-ch25-004
     - gof-ch26-006
+    - hbp-ch24-003
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   moaning-myrtle-bathroom:
     entries:
     - cos-ch12-004
@@ -12384,6 +12453,7 @@ tags:
     - hbp-ch03-003
     - hbp-ch09-005
     - hbp-ch21-005
+    - hbp-ch24-001
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
@@ -12392,6 +12462,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   portable-swamp:
     entries:
     - ootp-ch29-007
@@ -12543,6 +12614,7 @@ tags:
     - hbp-ch21-005
     - hbp-ch22-002
     - hbp-ch22-004
+    - hbp-ch24-002
     - ootp-ch12-004
     - ootp-ch15-002
     - ootp-ch17-005
@@ -12584,6 +12656,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   potions-class:
     entries:
     - gof-ch27-003
@@ -13424,6 +13497,7 @@ tags:
     - hbp-ch14-005
     - hbp-ch14-006
     - hbp-ch19-005
+    - hbp-ch24-007
     - ootp-ch13-007
     - ootp-ch14-004
     - ootp-ch17-004
@@ -13477,6 +13551,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   quidditch-ban:
     entries:
     - ootp-ch19-007
@@ -13498,6 +13573,7 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
   quidditch-cup:
     entries:
+    - hbp-ch24-007
     - ootp-ch19-003
     - ootp-ch30-003
     - poa-ch08-002
@@ -13512,6 +13588,7 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   quidditch-field:
     entries:
     - gof-ch28-004
@@ -13668,6 +13745,7 @@ tags:
     entries:
     - gof-ch15-004
     - hbp-ch23-007
+    - hbp-ch24-007
     - ootp-ch10-003
     - ootp-ch19-002
     - ootp-ch30-003
@@ -13685,6 +13763,12 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
+  ravenclaw-diadem:
+    entries:
+    - hbp-ch24-005
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   recruiting-ground:
     entries:
     - hbp-ch20-004
@@ -13944,6 +14028,7 @@ tags:
     - hbp-ch21-003
     - hbp-ch21-004
     - hbp-ch21-005
+    - hbp-ch24-005
     - ootp-ch18-005
     - ootp-ch18-006
     - ootp-ch21-004
@@ -13957,6 +14042,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   rotating-room:
     entries:
     - ootp-ch34-003
@@ -14833,8 +14919,10 @@ tags:
   sectumsempra:
     entries:
     - hbp-ch21-002
+    - hbp-ch24-004
     output_yaml:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   security:
     entries:
     - gof-ch15-006
@@ -15409,6 +15497,7 @@ tags:
     - hbp-ch12-007
     - hbp-ch16-002
     - hbp-ch19-003
+    - hbp-ch24-006
     - ootp-ch04-005
     - ootp-ch15-002
     - ootp-ch38-004
@@ -15444,6 +15533,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -16201,6 +16291,7 @@ tags:
   student-discipline:
     entries:
     - cos-ch18-002
+    - hbp-ch24-006
     - ootp-ch01-003
     - ootp-ch02-003
     - ootp-ch07-001
@@ -16227,6 +16318,7 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -16475,8 +16567,10 @@ tags:
   student-privacy:
     entries:
     - gof-ch37-002
+    - hbp-ch24-003
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   student-privileges:
     entries:
     - gof-ch19-001
@@ -17108,6 +17202,11 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+  team-replacements:
+    entries:
+    - hbp-ch24-007
+    output_yaml:
+    - sources/book-06/chapter-24-sectumsempra.yaml
   team-selection:
     entries:
     - hbp-ch14-003
@@ -17302,12 +17401,14 @@ tags:
   three-broomsticks:
     entries:
     - gof-ch19-001
+    - hbp-ch24-001
     - ootp-ch16-002
     - ootp-ch25-007
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   three-headed-dog:
     entries:
     - ps-ch09-007
@@ -18012,8 +18113,10 @@ tags:
   vanishing-cabinet:
     entries:
     - hbp-ch06-007
+    - hbp-ch24-005
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   vanishing-spells:
     entries:
     - ootp-ch13-003
@@ -18370,6 +18473,7 @@ tags:
     - hbp-ch21-005
     - hbp-ch21-007
     - hbp-ch22-003
+    - hbp-ch24-001
     - ootp-ch09-003
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
@@ -18385,6 +18489,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-24-sectumsempra.yaml
   weasley-family:
     entries:
     - cos-ch04-003

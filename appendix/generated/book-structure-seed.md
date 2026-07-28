@@ -147,6 +147,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - N.E.W.T. class supplies and advanced potion demonstrations
   - Open-ended advanced brewing exercises
   - Private Stores, Dungeon Lessons, and Antidotes
+- Potions, Ingredients, and Brewing
+  - Felix Felicis constraints and recipe difficulty
 - Potions, Practical Testing, and Discipline
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
@@ -454,6 +456,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Security and Restricted Objects
   - Arrival and Mail Screening
+  - Cursed-object attack follow-up and disguise risk
   - Cursed-object attack on the Hogsmeade return route
   - Disguised contraband and Secrecy Sensor limits
   - Hogsmeade screening and external guard coverage
@@ -802,6 +805,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Restricted and Banned Magical Subjects
   - Horcruxes Beyond Hogwarts Library Detail
   - Horcruxes as a Banned Hogwarts Topic
+- Restricted and Dangerous Spellcraft
+  - Sectumsempra, countercurse, and student injury
 
 ## Lessons, Exams, and Magical Knowledge
 
@@ -943,6 +948,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Peoples, Beings, and Magical Society
 
+- Ghosts, Portraits, and Castle Memory
+  - Moaning Myrtle as witness and bathroom informant
 - Giants and Wizarding Relations
   - Gurg diplomacy and Dumbledore's reputation
   - Population collapse and forced isolation
@@ -1265,6 +1272,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Conduct and External Law
   - Expulsion and Ministry consequences
 - Student Discipline and Expulsion
+  - Detention, expulsion risk, and historical punishment files
   - Expulsion, Wand Sanctions, and Staff Retention
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
@@ -1382,6 +1390,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Holidays, Feasts, and Seasonal Duties
   - Christmas duties for prefects and staff
 - House Teams and Training
+  - Championship standings, replacements, and Cup celebration
   - Team replacement after High Inquisitor sanctions
 
 ## Student Life and Traditions
@@ -1446,6 +1455,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Maps, Hidden Rooms, and Concealed Routes
   - Marauder's Map limits and watched passageways
   - Marauder's Map surveillance and unexplained blind spots
+  - Room of Hidden Things and accumulated contraband
   - Room of Requirement access rules and map blind spots
   - Wall-disguised shortcut toward Potions
 - Movement Limits and Anti-Apparition Protections

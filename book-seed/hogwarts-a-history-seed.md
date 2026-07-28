@@ -3105,6 +3105,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `cos-ch10-002`. Chapter Ten already recorded the distinction between student-store-cupboard ingredients and Snape's private stores; this entry corroborates the private-store evidence and adds the dungeon lesson and Deflating Draught response.
   - Notes: The private-store access here is illicit, so it should not be treated as a normal student procedure.
 
+### Chapter: Potions, Ingredients, and Brewing
+
+#### Section: Felix Felicis constraints and recipe difficulty
+
+Summary: The available evidence includes 1 source item, led by: Felix Felicis is described as limited by circumstance rather than able to bypass powerful enchantments, and its textbook recipe is seriously complicated with a six-month brewing time.
+
+- **Supporting evidence:** Felix Felicis is described as limited by circumstance rather than able to bypass powerful enchantments, and its textbook recipe is seriously complicated with a six-month brewing time.
+  - Quote: "it takes six months"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2851, `hbp-ch24-002`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The full ingredient list is not preserved in the extracted passage.
+
 ### Chapter: Potions, Practical Testing, and Discipline
 
 #### Section: Antidote brewing and detention penalties
@@ -3387,6 +3400,18 @@ Summary: The available evidence includes 2 source items, led by: The passage cor
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: Hagrid avoids explaining the reason for expulsion in this chapter.
+
+#### Section: Detention, expulsion risk, and historical punishment files
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts discipline includes staff-backed repeated Saturday detention, possible expulsion for dangerous spell use, and old records of student crimes and punishments that can be copied by hand without magic.
+
+- **Corroboration:** Hogwarts discipline includes staff-backed repeated Saturday detention, possible expulsion for dangerous spell use, and old records of student crimes and punishments that can be copied by hand without magic.
+  - Quote: "records of other Hogwarts wrongdoers"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2860, `hbp-ch24-006`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch08-002`, `cos-ch05-005`. cos-ch08-002 records Filch's punishment filing cabinets, while cos-ch05-005 records expulsion warnings and staff punishment authority. This entry adds Snape and McGonagall's response to dangerous spell use, repeated Saturday detention, no-magic copying labor, numbered boxes, and Marauders-era cards.
+  - Notes: Snape's detention method may reflect personal malice and access to Filch's files rather than a standard schoolwide penalty.
 
 #### Section: Family Notification and Escalation
 
@@ -11073,6 +11098,18 @@ Summary: The available evidence includes 1 source item, led by: Wartime Hogwarts
   - Corroborates: `hbp-ch08-002`. Related to hbp-ch08-002's wartime perimeter protections, but this entry covers internal screening of arriving students and checked owl post.
   - Notes: Harry missed the arrival search, so this part is reported by Hermione and later supported by her account of Filch's owl checks.
 
+#### Section: Cursed-object attack follow-up and disguise risk
+
+Summary: The available evidence includes 1 source item, led by: Katie's recovery narrows the cursed-necklace attack to the Three Broomsticks ladies' bathroom and leaves Imperius or Polyjuice-disguised delivery as plausible school-security explanations.
+
+- **Corroboration:** Katie's recovery narrows the cursed-necklace attack to the Three Broomsticks ladies' bathroom and leaves Imperius or Polyjuice-disguised delivery as plausible school-security explanations.
+  - Quote: "my memory's a blank"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2850, `hbp-ch24-001`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch12-006`, `hbp-ch21-005`. hbp-ch12-006 records the original necklace attack on the Hogsmeade return route, while hbp-ch21-005 records stolen Polyjuice used in Malfoy's hidden-room operation. This entry adds Katie's recovery testimony, the bathroom location, and the explicit link between stolen classroom Polyjuice and the possible attacker.
+  - Notes: Katie cannot identify the attacker, and the Polyjuice explanation remains Harry's inference rather than confirmed testimony.
+
 #### Section: Cursed-object attack on the Hogsmeade return route
 
 Summary: The available evidence includes 1 source item, led by: A cursed opal necklace obtained during a Hogsmeade visit nearly enters Hogwarts through Katie Bell, who may have been Imperiused into delivering an unmarked package to someone at the school.
@@ -11227,6 +11264,20 @@ Summary: The available evidence includes 1 source item, led by: Slughorn explain
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The passage does not specify when the ban began or whether it was a formal written rule.
+
+### Chapter: Restricted and Dangerous Spellcraft
+
+#### Section: Sectumsempra, countercurse, and student injury
+
+Summary: The available evidence includes 1 source item, led by: Sectumsempra is demonstrated as severe cutting magic requiring Snape's specialized countercurse, immediate hospital-wing care, and dittany to limit scarring.
+
+- **Corroboration:** Sectumsempra is demonstrated as severe cutting magic requiring Snape's specialized countercurse, immediate hospital-wing care, and dittany to limit scarring.
+  - Quote: "Who taught you that spell?"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2855, `hbp-ch24-004`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch21-002`. hbp-ch21-002 records the Prince book's Sectumsempra marginal note before its effect is known. This entry adds the spell's observed injury, Snape's countercurse, hospital-wing treatment, and Dark Magic framing.
+  - Notes: The countercurse incantation is not transcribed, and the spell's origin is still not disclosed in this chapter.
 
 ## Part: Lessons, Exams, and Magical Knowledge
 
@@ -11434,6 +11485,19 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Notes: Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
 
 ## Part: Peoples, Beings, and Magical Society
+
+### Chapter: Ghosts, Portraits, and Castle Memory
+
+#### Section: Moaning Myrtle as witness and bathroom informant
+
+Summary: The available evidence includes 1 source item, led by: Moaning Myrtle functions as a resident bathroom ghost who can privately interact with distressed students and later broadcast news by appearing in bathrooms across the castle.
+
+- **Supporting evidence:** Moaning Myrtle functions as a resident bathroom ghost who can privately interact with distressed students and later broadcast news by appearing in bathrooms across the castle.
+  - Quote: "I can help you"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2854, `hbp-ch24-003`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: portrait_or_ghost_lore
+  - Notes: Myrtle's motives and reliability are informal and personal rather than institutional.
 
 ### Chapter: Giants and Wizarding Relations
 
@@ -12092,6 +12156,18 @@ Summary: The available evidence includes 1 source item, led by: Prefects supervi
 
 ### Chapter: House Teams and Training
 
+#### Section: Championship standings, replacements, and Cup celebration
+
+Summary: The available evidence includes 1 source item, led by: House Quidditch standings are calculated by scoring margins, temporary player replacements follow Harry's detention, and Gryffindor beats Ravenclaw 450-140 to win the silver Cup.
+
+- **Corroboration:** House Quidditch standings are calculated by scoring margins, temporary player replacements follow Harry's detention, and Gryffindor beats Ravenclaw 450-140 to win the silver Cup.
+  - Quote: "the match would decide the Championship"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2864, `hbp-ch24-007`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ootp-ch21-005`, `poa-ch12-004`. ootp-ch21-005 records Ginny replacing Harry as Seeker after a Quidditch ban, and poa-ch12-004 records standings shaping practice. This entry adds a detention-driven replacement, Dean's Chaser return, the exact Cup-winning score, and common-room celebration.
+  - Notes: The match itself is not observed directly, so tactical details and officiating are unavailable.
+
 #### Section: Team replacement after High Inquisitor sanctions
 
 Summary: The available evidence includes 1 source item, led by: Gryffindor responds to the High Inquisitor's Quidditch bans by replacing Harry with Ginny Weasley as Seeker and recruiting Andrew Kirke and Jack Sloper as Beaters.
@@ -12251,6 +12327,17 @@ Summary: The available evidence includes 1 source item, led by: The Marauder's M
   - Reference type: magical_architecture
   - Corroborates: `poa-ch10-003`, `gof-ch25-001`, `gof-ch29-001`. poa-ch10-003 introduces the map, gof-ch25-001 corroborates castle surveillance, and gof-ch29-001 adds a map boundary. This entry adds Malfoy's unexplained disappearances from map searches during a high-security school year.
   - Notes: The passage does not yet identify the Room of Requirement as the cause of Malfoy's disappearance; that tag is inferential for later duplicate lookup.
+
+#### Section: Room of Hidden Things and accumulated contraband
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement can become a vast hidden-storage room containing generations of contraband, damaged furniture, banned or stolen books, dangerous objects, the broken Vanishing Cabinet, and a tarnished tiara used as a marker.
+
+- **Supporting evidence:** The Room of Requirement can become a vast hidden-storage room containing generations of contraband, damaged furniture, banned or stolen books, dangerous objects, the broken Vanishing Cabinet, and a tarnished tiara used as a marker.
+  - Quote: "objects hidden by generations"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, PDF p. 2858, `hbp-ch24-005`, `sources/book-06/chapter-24-sectumsempra.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: Harry identifies some objects by inference, and the tiara's later importance is not explained within this chapter.
 
 #### Section: Room of Requirement access rules and map blind spots
 

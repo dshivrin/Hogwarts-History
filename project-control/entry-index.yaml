@@ -15407,6 +15407,111 @@ by_entry:
     - slytherins-locket
     source_unit: hbp-ch23
     output_yaml: sources/book-06/chapter-23-horcruxes.yaml
+  hbp-ch24-001:
+    title: 'Security and Restricted Objects: Cursed-object attack follow-up and disguise
+      risk'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - cursed-necklace
+    - imperius-curse
+    - katie-bell
+    - polyjuice-potion
+    - three-broomsticks
+    - wartime-security
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch24-002:
+    title: 'Potions, Ingredients, and Brewing: Felix Felicis constraints and recipe
+      difficulty'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - advanced-potion-making
+    - brewing-time
+    - felix-felicis
+    - magical-limits
+    - potions
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch24-003:
+    title: 'Ghosts, Portraits, and Castle Memory: Moaning Myrtle as witness and bathroom
+      informant'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: medium
+    tags:
+    - bathrooms
+    - castle-plumbing
+    - ghosts
+    - moaning-myrtle
+    - student-privacy
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch24-004:
+    title: 'Restricted and Dangerous Spellcraft: Sectumsempra, countercurse, and student
+      injury'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - countercurse
+    - dark-magic
+    - dittany
+    - half-blood-prince
+    - hospital-wing
+    - sectumsempra
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch24-005:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Room of Hidden Things and accumulated
+      contraband'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - banned-books
+    - hidden-objects
+    - magical-architecture
+    - ravenclaw-diadem
+    - room-of-requirement
+    - vanishing-cabinet
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch24-006:
+    title: 'Student Discipline and Expulsion: Detention, expulsion risk, and historical
+      punishment files'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - detention
+    - discipline-records
+    - expulsion
+    - filch
+    - mcgonagall
+    - snape
+    - student-discipline
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  hbp-ch24-007:
+    title: 'House Teams and Training: Championship standings, replacements, and Cup
+      celebration'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - ginny-weasley
+    - gryffindor
+    - house-competition
+    - quidditch
+    - quidditch-cup
+    - ravenclaw
+    - team-replacements
+    source_unit: hbp-ch24
+    output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15481,6 +15586,7 @@ by_tag:
   - hbp-ch16-006
   - hbp-ch21-002
   - hbp-ch22-002
+  - hbp-ch24-002
   advanced-potions:
   - cos-ch12-004
   after-hours-rule:
@@ -15752,6 +15858,8 @@ by_tag:
   - gof-ch26-001
   banned-at-hogwarts:
   - gof-ch27-003
+  banned-books:
+  - hbp-ch24-005
   banned-subject:
   - hbp-ch23-005
   banned-substances:
@@ -15797,6 +15905,7 @@ by_tag:
   - cos-ch17-007
   bathrooms:
   - gof-ch25-002
+  - hbp-ch24-003
   battle-damage:
   - ootp-ch35-005
   beaters:
@@ -15952,6 +16061,8 @@ by_tag:
   - ootp-ch35-006
   brazilian-school:
   - gof-ch07-003
+  brewing-time:
+  - hbp-ch24-002
   brick-entrance:
   - poa-ch04-001
   broderick-bode:
@@ -16135,6 +16246,8 @@ by_tag:
   - ps-ch08-002
   - ps-ch09-006
   - ps-ch10-004
+  castle-plumbing:
+  - hbp-ch24-003
   castle-protections:
   - hbp-ch08-002
   - ootp-ch27-007
@@ -16510,6 +16623,7 @@ by_tag:
   counter-surveillance:
   - ootp-ch04-006
   countercurse:
+  - hbp-ch24-004
   - ps-ch13-003
   - ps-ch17-001
   countercurses:
@@ -16667,6 +16781,7 @@ by_tag:
   - ootp-ch37-002
   cursed-necklace:
   - hbp-ch12-006
+  - hbp-ch24-001
   cursed-objects:
   - hbp-ch12-006
   - hbp-ch12-007
@@ -16743,6 +16858,7 @@ by_tag:
   dark-magic:
   - cos-ch09-006
   - hbp-ch18-002
+  - hbp-ch24-004
   - ps-ch11-006
   - ps-ch12-004
   dark-mark:
@@ -16986,6 +17102,7 @@ by_tag:
   - gof-ch18-004
   - hbp-ch15-007
   - hbp-ch22-003
+  - hbp-ch24-006
   - ootp-ch09-006
   - ootp-ch12-007
   - ootp-ch13-006
@@ -17041,6 +17158,7 @@ by_tag:
   - ps-ch09-005
   discipline-records:
   - cos-ch08-002
+  - hbp-ch24-006
   disguise:
   - ootp-ch03-004
   disillusionment-charm:
@@ -17054,6 +17172,7 @@ by_tag:
   - poa-ch14-004
   - poa-ch16-006
   dittany:
+  - hbp-ch24-004
   - ps-ch14-001
   divination:
   - gof-ch10-005
@@ -17585,6 +17704,7 @@ by_tag:
   - cos-ch12-007
   - cos-ch15-006
   - hbp-ch02-005
+  - hbp-ch24-006
   - ootp-ch01-003
   - ootp-ch02-002
   - ootp-ch08-007
@@ -17663,6 +17783,7 @@ by_tag:
   felix-felicis:
   - hbp-ch09-006
   - hbp-ch14-006
+  - hbp-ch24-002
   fenrir-greyback:
   - hbp-ch06-007
   - hbp-ch16-004
@@ -17703,6 +17824,7 @@ by_tag:
   - hbp-ch19-004
   - hbp-ch21-007
   - hbp-ch22-003
+  - hbp-ch24-006
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -18038,6 +18160,7 @@ by_tag:
   - gof-ch25-004
   - hbp-ch08-003
   - hbp-ch21-006
+  - hbp-ch24-003
   - ootp-ch11-004
   - ootp-ch38-006
   - poa-ch08-006
@@ -18077,6 +18200,7 @@ by_tag:
   ginny-weasley:
   - cos-ch17-002
   - cos-ch18-002
+  - hbp-ch24-007
   - ootp-ch21-005
   - ootp-ch26-004
   girls-bathroom:
@@ -18275,6 +18399,7 @@ by_tag:
   - hbp-ch11-003
   - hbp-ch14-003
   - hbp-ch14-007
+  - hbp-ch24-007
   - ootp-ch09-005
   - ootp-ch12-001
   - ootp-ch13-001
@@ -18479,6 +18604,7 @@ by_tag:
   - hbp-ch16-006
   - hbp-ch21-002
   - hbp-ch22-002
+  - hbp-ch24-004
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -18745,6 +18871,8 @@ by_tag:
   - ps-ch03-002
   hidden-mechanism:
   - cos-ch17-007
+  hidden-objects:
+  - hbp-ch24-005
   hidden-passageway:
   - ps-ch09-006
   hidden-room:
@@ -19113,6 +19241,7 @@ by_tag:
   - hbp-ch12-006
   - hbp-ch12-007
   - hbp-ch19-001
+  - hbp-ch24-004
   - ootp-ch14-004
   - ootp-ch19-004
   - ootp-ch32-001
@@ -19150,6 +19279,7 @@ by_tag:
   - cos-ch14-003
   - ootp-ch18-007
   house-competition:
+  - hbp-ch24-007
   - poa-ch12-004
   house-cup:
   - cos-ch18-007
@@ -19330,6 +19460,7 @@ by_tag:
   - hbp-ch03-003
   - hbp-ch12-006
   - hbp-ch21-006
+  - hbp-ch24-001
   impersonation:
   - hbp-ch04-002
   - hbp-ch05-003
@@ -19530,6 +19661,7 @@ by_tag:
   - hbp-ch14-003
   - hbp-ch18-005
   - hbp-ch19-003
+  - hbp-ch24-001
   keeper:
   - cos-ch07-001
   - hbp-ch14-004
@@ -19857,6 +19989,7 @@ by_tag:
   - hbp-ch09-004
   - hbp-ch10-002
   - hbp-ch21-004
+  - hbp-ch24-005
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
@@ -19980,6 +20113,8 @@ by_tag:
   - ootp-ch08-002
   - ootp-ch08-004
   - ootp-ch08-005
+  magical-limits:
+  - hbp-ch24-002
   magical-locking:
   - gof-ch25-006
   magical-maintenance:
@@ -20214,6 +20349,7 @@ by_tag:
   - gof-ch35-004
   mcgonagall:
   - hbp-ch12-007
+  - hbp-ch24-006
   - ootp-ch28-005
   - ootp-ch38-004
   - poa-ch11-007
@@ -20484,6 +20620,7 @@ by_tag:
   - cos-ch16-006
   - gof-ch25-004
   - gof-ch26-006
+  - hbp-ch24-003
   moaning-myrtle-bathroom:
   - cos-ch12-004
   monster-book-of-monsters:
@@ -21220,6 +21357,7 @@ by_tag:
   - hbp-ch03-003
   - hbp-ch09-005
   - hbp-ch21-005
+  - hbp-ch24-001
   portable-swamp:
   - ootp-ch29-007
   - ootp-ch30-001
@@ -21302,6 +21440,7 @@ by_tag:
   - hbp-ch21-005
   - hbp-ch22-002
   - hbp-ch22-004
+  - hbp-ch24-002
   - ootp-ch12-004
   - ootp-ch15-002
   - ootp-ch17-005
@@ -21717,6 +21856,7 @@ by_tag:
   - hbp-ch14-005
   - hbp-ch14-006
   - hbp-ch19-005
+  - hbp-ch24-007
   - ootp-ch13-007
   - ootp-ch14-004
   - ootp-ch17-004
@@ -21748,6 +21888,7 @@ by_tag:
   quidditch-captain:
   - hbp-ch06-001
   quidditch-cup:
+  - hbp-ch24-007
   - ootp-ch19-003
   - ootp-ch30-003
   - poa-ch08-002
@@ -21828,6 +21969,7 @@ by_tag:
   ravenclaw:
   - gof-ch15-004
   - hbp-ch23-007
+  - hbp-ch24-007
   - ootp-ch10-003
   - ootp-ch19-002
   - ootp-ch30-003
@@ -21835,6 +21977,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
+  ravenclaw-diadem:
+  - hbp-ch24-005
   recruiting-ground:
   - hbp-ch20-004
   recruitment:
@@ -21954,6 +22098,7 @@ by_tag:
   - hbp-ch21-003
   - hbp-ch21-004
   - hbp-ch21-005
+  - hbp-ch24-005
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -22364,6 +22509,7 @@ by_tag:
   - ootp-ch04-004
   sectumsempra:
   - hbp-ch21-002
+  - hbp-ch24-004
   security:
   - gof-ch15-006
   - ootp-ch07-002
@@ -22634,6 +22780,7 @@ by_tag:
   - hbp-ch12-007
   - hbp-ch16-002
   - hbp-ch19-003
+  - hbp-ch24-006
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -22977,6 +23124,7 @@ by_tag:
   - gof-ch37-001
   student-discipline:
   - cos-ch18-002
+  - hbp-ch24-006
   - ootp-ch01-003
   - ootp-ch02-003
   - ootp-ch07-001
@@ -23102,6 +23250,7 @@ by_tag:
   - gof-ch27-003
   student-privacy:
   - gof-ch37-002
+  - hbp-ch24-003
   student-privileges:
   - gof-ch19-001
   - gof-ch25-002
@@ -23385,6 +23534,8 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  team-replacements:
+  - hbp-ch24-007
   team-selection:
   - hbp-ch14-003
   team-trials:
@@ -23470,6 +23621,7 @@ by_tag:
   - ps-ch15-003
   three-broomsticks:
   - gof-ch19-001
+  - hbp-ch24-001
   - ootp-ch16-002
   - ootp-ch25-007
   three-headed-dog:
@@ -23808,6 +23960,7 @@ by_tag:
   - ps-ch05-004
   vanishing-cabinet:
   - hbp-ch06-007
+  - hbp-ch24-005
   vanishing-spells:
   - ootp-ch13-003
   - ootp-ch15-005
@@ -23986,6 +24139,7 @@ by_tag:
   - hbp-ch21-005
   - hbp-ch21-007
   - hbp-ch22-003
+  - hbp-ch24-001
   - ootp-ch09-003
   weasley-family:
   - cos-ch04-003

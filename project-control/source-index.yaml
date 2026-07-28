@@ -1862,3 +1862,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2829-2846.
+- source_unit_id: hbp-ch24
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 24
+  chapter_title: Chapter Twenty-Four - Sectumsempra
+  page_start: 2847
+  page_end: 2865
+  output_yaml: sources/book-06/chapter-24-sectumsempra.yaml
+  processed_at: '2026-07-28'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 2847-2865.
