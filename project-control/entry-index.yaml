@@ -15821,6 +15821,110 @@ by_entry:
     - snape
     source_unit: hbp-ch27
     output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch28-001:
+    title: 'Death Eater Infiltration and the Tower Battle: Corridor defense below
+      the Astronomy Tower'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - castle-damage
+    - corridor-battle
+    - death-eaters
+    - order-of-the-phoenix
+    - professor-mcgonagall
+    - school-security
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch28-002:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Blocked hidden-room retreat
+      after the cabinet breach'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - death-eater-infiltration
+    - escape-route
+    - front-doors
+    - room-of-requirement
+    - school-security
+    - vanishing-cabinet
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch28-003:
+    title: 'Corridors, Stairs, and Moving Hazards: Concealed staircases and portrait
+      movement'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-shortcut
+    - concealed-staircase
+    - magical-architecture
+    - portraits
+    - tapestry
+    - vanishing-step
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch28-004:
+    title: 'Death Eater Infiltration and the Tower Battle: Entrance hall breach and
+      House-hourglass damage'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - castle-damage
+    - entrance-hall
+    - gryffindor
+    - house-hourglasses
+    - oak-front-doors
+    - student-safety
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch28-005:
+    title: 'Movement Limits and Boundary Magic: Disapparition beyond the school gates'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - disapparate
+    - gates
+    - hogwarts-grounds
+    - school-boundaries
+    - school-protection
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch28-006:
+    title: 'Grounds, Staff Dwellings, and Creature Care: Gamekeeper''s cabin during
+      the tower battle'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - aguamenti
+    - bowtruckles
+    - fang
+    - gamekeeper
+    - hagrid-cabin
+    - hogwarts-grounds
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch28-007:
+    title: 'Textbooks, Marginalia, and Informal Knowledge: Snape as the Half-Blood
+      Prince'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - half-blood-prince
+    - invented-spells
+    - levicorpus
+    - sectumsempra
+    - snape
+    - student-spellcraft
+    source_unit: hbp-ch28
+    output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15914,6 +16018,7 @@ by_tag:
   - gof-ch16-004
   aguamenti:
   - hbp-ch26-007
+  - hbp-ch28-006
   alastor-moody:
   - gof-ch35-006
   - gof-ch36-001
@@ -16034,6 +16139,7 @@ by_tag:
   - hbp-ch22-001
   - hbp-ch25-007
   - hbp-ch27-001
+  - hbp-ch28-005
   - ootp-ch03-003
   - ootp-ch23-001
   apparition-points:
@@ -16378,6 +16484,7 @@ by_tag:
   - gof-ch29-001
   bowtruckles:
   - hbp-ch22-006
+  - hbp-ch28-006
   - ootp-ch13-004
   - ootp-ch15-006
   - ootp-ch31-005
@@ -16533,6 +16640,9 @@ by_tag:
   - hbp-ch08-001
   castle-corridors:
   - hbp-ch15-001
+  castle-damage:
+  - hbp-ch28-001
+  - hbp-ch28-004
   castle-decorations:
   - ootp-ch21-003
   castle-doors:
@@ -16603,6 +16713,8 @@ by_tag:
   - poa-ch22-004
   castle-setting:
   - ps-ch09-004
+  castle-shortcut:
+  - hbp-ch28-003
   castle-windows:
   - poa-ch21-007
   cats:
@@ -16898,6 +17010,8 @@ by_tag:
   - ootp-ch22-004
   concealed-route:
   - poa-ch20-001
+  concealed-staircase:
+  - hbp-ch28-003
   concealment:
   - hbp-ch04-003
   - ootp-ch03-004
@@ -16940,6 +17054,8 @@ by_tag:
   - ootp-ch29-007
   correspondence:
   - gof-ch27-002
+  corridor-battle:
+  - hbp-ch28-001
   corridor-control:
   - ootp-ch32-003
   corridor-discipline:
@@ -17230,6 +17346,7 @@ by_tag:
   - gof-ch35-002
   death-eater-infiltration:
   - hbp-ch27-005
+  - hbp-ch28-002
   death-eaters:
   - gof-ch09-001
   - gof-ch09-004
@@ -17250,6 +17367,7 @@ by_tag:
   - hbp-ch20-007
   - hbp-ch27-002
   - hbp-ch27-007
+  - hbp-ch28-001
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -17482,6 +17600,8 @@ by_tag:
   - ootp-ch22-006
   diplomacy:
   - ootp-ch20-004
+  disapparate:
+  - hbp-ch28-005
   disapparition:
   - ootp-ch23-001
   disarming:
@@ -17990,6 +18110,7 @@ by_tag:
   - gof-ch16-003
   - gof-ch16-004
   - hbp-ch11-007
+  - hbp-ch28-004
   - ootp-ch30-003
   - ootp-ch31-002
   - ootp-ch33-001
@@ -18007,6 +18128,7 @@ by_tag:
   escape:
   - poa-ch20-003
   escape-route:
+  - hbp-ch28-002
   - poa-ch21-007
   europe:
   - gof-ch09-002
@@ -18123,6 +18245,7 @@ by_tag:
   famous-wizard-card:
   - ps-ch06-003
   fang:
+  - hbp-ch28-006
   - ps-ch15-005
   fat-friar:
   - cos-ch08-005
@@ -18489,6 +18612,7 @@ by_tag:
   - hbp-ch04-003
   front-doors:
   - hbp-ch12-002
+  - hbp-ch28-002
   fruit-painting:
   - gof-ch21-002
   full-moon-safety:
@@ -18500,6 +18624,7 @@ by_tag:
   gamekeeper:
   - cos-ch17-003
   - gof-ch24-002
+  - hbp-ch28-006
   - poa-ch01-006
   - poa-ch05-007
   - ps-ch04-007
@@ -18512,6 +18637,8 @@ by_tag:
   - ps-ch04-001
   gargoyle:
   - cos-ch13-006
+  gates:
+  - hbp-ch28-005
   gaunt-family:
   - hbp-ch10-006
   - hbp-ch10-007
@@ -18776,6 +18903,7 @@ by_tag:
   - hbp-ch14-003
   - hbp-ch14-007
   - hbp-ch24-007
+  - hbp-ch28-004
   - ootp-ch09-005
   - ootp-ch12-001
   - ootp-ch13-001
@@ -18954,6 +19082,7 @@ by_tag:
   - ps-ch16-003
   hagrid-cabin:
   - gof-ch16-005
+  - hbp-ch28-006
   hagrid-cross-reference:
   - ps-ch03-005
   hagrid-dismissal:
@@ -18982,6 +19111,7 @@ by_tag:
   - hbp-ch21-002
   - hbp-ch22-002
   - hbp-ch24-004
+  - hbp-ch28-007
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -19455,6 +19585,8 @@ by_tag:
   - gof-ch31-001
   - gof-ch32-001
   - hbp-ch04-001
+  - hbp-ch28-005
+  - hbp-ch28-006
   - ootp-ch20-001
   - ootp-ch24-002
   - ootp-ch24-005
@@ -19717,6 +19849,8 @@ by_tag:
   - ootp-ch23-005
   - ootp-ch27-005
   - ootp-ch37-004
+  house-hourglasses:
+  - hbp-ch28-004
   house-identity:
   - cos-ch18-004
   house-lore:
@@ -19970,6 +20104,8 @@ by_tag:
   - hbp-ch04-003
   intruders:
   - gof-ch25-006
+  invented-spells:
+  - hbp-ch28-007
   investigation:
   - ootp-ch07-005
   invisibility:
@@ -20165,6 +20301,7 @@ by_tag:
   levicorpus:
   - hbp-ch12-003
   - hbp-ch16-005
+  - hbp-ch28-007
   levitation:
   - ps-ch10-001
   libatius-borage:
@@ -20392,6 +20529,7 @@ by_tag:
   - hbp-ch21-004
   - hbp-ch24-005
   - hbp-ch25-003
+  - hbp-ch28-003
   - ootp-ch04-003
   - ootp-ch07-003
   - ootp-ch08-001
@@ -21325,6 +21463,8 @@ by_tag:
   - ootp-ch09-006
   o-w-ls:
   - ootp-ch27-004
+  oak-front-doors:
+  - hbp-ch28-004
   obedience:
   - hbp-ch03-005
   - hbp-ch19-007
@@ -21427,6 +21567,7 @@ by_tag:
   - hbp-ch02-004
   - hbp-ch03-005
   - hbp-ch16-004
+  - hbp-ch28-001
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch04-004
@@ -21822,6 +21963,7 @@ by_tag:
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
+  - hbp-ch28-003
   - ootp-ch04-003
   - poa-ch06-002
   - poa-ch08-004
@@ -22085,6 +22227,7 @@ by_tag:
   - hbp-ch14-005
   - hbp-ch15-003
   - hbp-ch19-005
+  - hbp-ch28-001
   - ootp-ch15-005
   - ootp-ch18-002
   - ootp-ch19-006
@@ -22539,6 +22682,7 @@ by_tag:
   - hbp-ch24-005
   - hbp-ch25-003
   - hbp-ch27-005
+  - hbp-ch28-002
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -22593,6 +22737,8 @@ by_tag:
   school-awards:
   - cos-ch13-002
   - hbp-ch20-003
+  school-boundaries:
+  - hbp-ch28-005
   school-brooms:
   - hbp-ch11-003
   - ps-ch09-002
@@ -22741,6 +22887,7 @@ by_tag:
   - hbp-ch11-002
   - hbp-ch11-007
   - hbp-ch25-006
+  - hbp-ch28-005
   - ootp-ch23-001
   school-protections:
   - gof-ch11-005
@@ -22791,6 +22938,8 @@ by_tag:
   - gof-ch37-006
   - hbp-ch12-001
   - hbp-ch27-005
+  - hbp-ch28-001
+  - hbp-ch28-002
   - ootp-ch17-003
   school-security-threat:
   - hbp-ch06-007
@@ -22955,6 +23104,7 @@ by_tag:
   sectumsempra:
   - hbp-ch21-002
   - hbp-ch24-004
+  - hbp-ch28-007
   security:
   - gof-ch15-006
   - hbp-ch26-003
@@ -23232,6 +23382,7 @@ by_tag:
   - hbp-ch25-005
   - hbp-ch27-001
   - hbp-ch27-007
+  - hbp-ch28-007
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -23773,6 +23924,7 @@ by_tag:
   - hbp-ch08-006
   - hbp-ch12-006
   - hbp-ch18-005
+  - hbp-ch28-004
   - ootp-ch02-006
   - ootp-ch03-005
   - ootp-ch13-006
@@ -23803,6 +23955,7 @@ by_tag:
   - hbp-ch12-003
   - hbp-ch16-005
   - hbp-ch21-002
+  - hbp-ch28-007
   student-store-cupboard:
   - cos-ch10-002
   student-study:
@@ -23918,6 +24071,7 @@ by_tag:
   - cos-ch10-004
   tapestry:
   - gof-ch25-005
+  - hbp-ch28-003
   - ootp-ch06-003
   - ps-ch09-006
   task-order:
@@ -24426,9 +24580,12 @@ by_tag:
   - hbp-ch06-007
   - hbp-ch24-005
   - hbp-ch27-005
+  - hbp-ch28-002
   vanishing-spells:
   - ootp-ch13-003
   - ootp-ch15-005
+  vanishing-step:
+  - hbp-ch28-003
   veela:
   - gof-ch08-006
   veela-hair:

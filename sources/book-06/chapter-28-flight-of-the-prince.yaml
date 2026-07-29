@@ -1,0 +1,322 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  boundary_confidence: high
+  boundary_notes: Bounded by processing-state anchors for Chapter Twenty-Eight; extracted only PDF pages 2920-2930.
+  processed_date: '2026-07-29'
+  processor_notes: "Created from bounded pypdf extraction. No explicit Hogwarts: A History title citation appears in this chapter."
+entries:
+- id: hbp-ch28-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2921
+  printed_page: null
+  extracted_text_lines: 27-63
+  text_anchor:
+    start_phrase: the dimly lit corridor was full of dust
+    end_phrase: shattering the nearest window
+    local_occurrence_note: Harry reaches the corridor below the Astronomy Tower and runs through an active battle involving students, staff, Order members, and Death Eaters.
+  nearby_context: Snape and Malfoy have just left the tower top, Fenrir Greyback attacks Harry, and the corridor is damaged by falling ceiling, curses, shattered stone, and broken glass.
+  match_terms:
+  - corridor battle
+  - Death Eaters
+  - Professor McGonagall
+  - Lupin
+  - Ron
+  - Ginny
+  - Tonks
+  quote_excerpt_short: "Professor McGonagall, and Lupin, each of whom was battling"
+  source_note: The flight from the Astronomy Tower passes through a castle corridor battle in which Hogwarts students, staff, and Order allies resist Death Eaters amid major structural damage.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - corridor-battle
+  - death-eaters
+  - school-security
+  - order-of-the-phoenix
+  - professor-mcgonagall
+  - castle-damage
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Corridor defense below the Astronomy Tower
+  reason_for_placement: Shows the school breach spreading from the tower into ordinary castle circulation spaces and being met by mixed student, staff, and allied defense.
+  relevance_to_hogwarts_a_history: Useful for a later-editorial account of how the 1997 breach affected the castle interior and mobilized defenders inside Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found broad Death Eater and castle entries, but no prior seed for the corridor battle below the tower and its observed structural damage.
+  confidence: high
+  limitations: The passage is seen during Harry's pursuit and does not identify every combatant or injury.
+- id: hbp-ch28-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2922
+  printed_page: null
+  extracted_text_lines: 86-99
+  text_anchor:
+    start_phrase: Was it possible that he had already entered the cabinet
+    end_phrase: perhaps the Room of Requirement was indeed blocked
+    local_occurrence_note: Harry considers whether Snape has escaped through the Vanishing Cabinet, then follows bloody footprints toward the front doors.
+  nearby_context: The pursuit shifts from upper corridors toward the stairs after Harry infers that Order defenders may have blocked the Room of Requirement route.
+  match_terms:
+  - Vanishing Cabinet
+  - Room of Requirement
+  - Death Eater retreat
+  - front doors
+  - bloody footprint
+  - school-security
+  quote_excerpt_short: "perhaps the Room of Requirement was indeed blocked"
+  source_note: During the Death Eater retreat, Harry treats the repaired Vanishing Cabinet as the expected escape route but reads the footprints toward the front doors as evidence that the route may have been secured.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - room-of-requirement
+  - vanishing-cabinet
+  - death-eater-infiltration
+  - escape-route
+  - school-security
+  - front-doors
+  candidate_part: The Castle and Its Protections
+  candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+  candidate_section: Blocked hidden-room retreat after the cabinet breach
+  reason_for_placement: Adds the immediate defensive aftermath of the cabinet breach, showing that the hidden route could be recognized and potentially blocked during the battle.
+  relevance_to_hogwarts_a_history: Helps connect the cabinet infiltration route to crisis response and the forced retreat through visible castle exits.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch27-005
+    - hbp-ch24-005
+    notes: hbp-ch27-005 records the paired Vanishing Cabinet passage into Hogwarts, and hbp-ch24-005 records the cabinet in the Room's hidden-storage configuration; this entry adds the retreat-stage inference that defenders may have blocked that route.
+  confidence: medium
+  limitations: Harry infers the route was blocked from footprints and direction of flight; the blocking action itself is not directly observed.
+- id: hbp-ch28-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2923
+  printed_page: null
+  extracted_text_lines: 101-112
+  text_anchor:
+    start_phrase: He pelted toward a shortcut
+    end_phrase: where a number of bewildered and pajama-clad Hufflepuffs stood
+    local_occurrence_note: Harry uses a concealed staircase shortcut, remembering its vanishing step, and bursts through a tapestry into a student corridor.
+  nearby_context: Moments earlier, missed jinxes hit portrait witches on the landing, who flee into neighboring paintings.
+  match_terms:
+  - shortcut
+  - vanishing step
+  - concealed staircase
+  - tapestry
+  - portraits
+  - Hufflepuffs
+  quote_excerpt_short: "Remembering to leap the vanishing step"
+  source_note: The castle route includes a concealed staircase with a vanishing step hidden behind a tapestry, while nearby portraits can flee into neighboring paintings when struck.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - concealed-staircase
+  - vanishing-step
+  - castle-shortcut
+  - tapestry
+  - portraits
+  - magical-architecture
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Corridors, Stairs, and Moving Hazards
+  candidate_section: Concealed staircases and portrait movement
+  reason_for_placement: Supplies compact evidence for hidden circulation routes, dangerous moving stair features, and portrait mobility within the castle.
+  relevance_to_hogwarts_a_history: Useful for a castle-history section on practical navigation, concealed architecture, and magical resident behavior.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup for concealed staircase, vanishing step, portrait, and castle shortcut returned no matches.
+  confidence: high
+  limitations: The passage does not say when the staircase or vanishing step was created, or whether the hazard is intentional.
+- id: hbp-ch28-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2923
+  printed_page: null
+  extracted_text_lines: 108-121
+  text_anchor:
+    start_phrase: The oak front doors had been blasted open
+    end_phrase: heading for the gates beyond which they could Disapparate
+    local_occurrence_note: Harry reaches the entrance hall after the Death Eaters pass through it and sees damage to the doors, students, and the Gryffindor hourglass.
+  nearby_context: Hufflepuffs have awakened after hearing about the Dark Mark, and several terrified students stand against the entrance-hall walls.
+  match_terms:
+  - oak front doors
+  - entrance hall
+  - Gryffindor hourglass
+  - House points
+  - terrified students
+  - castle gates
+  quote_excerpt_short: "The giant Gryffindor hourglass had been hit by a curse"
+  source_note: The retreat leaves the entrance hall breached, with oak doors blasted open, frightened students exposed, and the Gryffindor House hourglass damaged so that rubies fall onto the flagstones.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - entrance-hall
+  - oak-front-doors
+  - house-hourglasses
+  - gryffindor
+  - castle-damage
+  - student-safety
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Entrance hall breach and House-hourglass damage
+  reason_for_placement: Captures how a wartime breach reached a central ceremonial and navigational space while students were present.
+  relevance_to_hogwarts_a_history: Provides later-editorial evidence for the physical and symbolic damage caused by the Death Eater escape through the school.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found prior entrance-hall arrival and House material, but no same-fact seed for the front doors being blasted open or the Gryffindor hourglass being damaged during the tower battle.
+  confidence: high
+  limitations: The passage shows damage after the fact and does not name the spell or attacker responsible.
+- id: hbp-ch28-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2923
+  printed_page: null
+  extracted_text_lines: 118-146; 231-240
+  text_anchor:
+    start_phrase: heading for the gates beyond which they could Disapparate
+    end_phrase: just beyond the school's boundaries
+    local_occurrence_note: Harry pursues Snape and Malfoy across the grounds toward the school gates, where Snape finally Disapparates beyond the boundary.
+  nearby_context: Hagrid tries to stop the retreat near his cabin while Death Eaters aim curses at him and continue running for the gates.
+  match_terms:
+  - gates
+  - Disapparate
+  - school boundaries
+  - Hogwarts grounds
+  - anti-Apparition
+  - escape
+  quote_excerpt_short: "just beyond the school's boundaries"
+  source_note: The fleeing Death Eaters must reach the gates and pass beyond the school boundaries before they can Disapparate, confirming the practical edge of Hogwarts's anti-Apparition protections.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - apparition
+  - disapparate
+  - school-boundaries
+  - hogwarts-grounds
+  - gates
+  - school-protection
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Movement Limits and Boundary Magic
+  candidate_section: Disapparition beyond the school gates
+  reason_for_placement: Gives observed wartime use of the boundary rule, turning prior statements about anti-Apparition protections into a chase to the edge of school grounds.
+  relevance_to_hogwarts_a_history: Useful for explaining both the extent and tactical importance of Hogwarts's anti-Apparition boundary.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch15-006
+    - gof-ch29-001
+    - hbp-ch04-001
+    notes: Prior entries state or contextualize the anti-Apparition rule for Hogwarts buildings and grounds; this entry adds direct operational evidence that fugitives can Disapparate only once beyond the gates and school boundary.
+  confidence: high
+  limitations: The passage does not define the boundary spell or whether the gates are the formal legal boundary or simply the nearest passable edge.
+- id: hbp-ch28-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2924
+  printed_page: null
+  extracted_text_lines: 141-166; 241-273
+  text_anchor:
+    start_phrase: Hagrid's house was on fire
+    end_phrase: bindin' up a couple o' bowtruckle legs
+    local_occurrence_note: Hagrid fights Death Eaters on the grounds, rescues Fang from his burning cabin, and later helps extinguish the fire with Aguamenti.
+  nearby_context: The attack occurs between the castle and the gates while Snape and Malfoy flee the school boundary.
+  match_terms:
+  - Hagrid's cabin
+  - gamekeeper
+  - grounds
+  - Fang
+  - Aguamenti
+  - bowtruckles
+  quote_excerpt_short: "the charm's 'Aguamenti'"
+  source_note: The gamekeeper's cabin is close enough to the escape route for Hagrid to intervene; Death Eaters set it on fire, and Hagrid and Harry extinguish it with Aguamenti after rescuing Fang.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - hagrid-cabin
+  - hogwarts-grounds
+  - gamekeeper
+  - aguamenti
+  - fang
+  - bowtruckles
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Grounds, Staff Dwellings, and Creature Care
+  candidate_section: Gamekeeper's cabin during the tower battle
+  reason_for_placement: Connects the grounds residence, gamekeeper response, creature care, and emergency spell use during a school attack.
+  relevance_to_hogwarts_a_history: Supports a later editorial note on the vulnerability and role of grounds staff and staff dwellings in Hogwarts security crises.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found Hagrid's grounds role, cabin-adjacent lodging, and Aguamenti elsewhere, but no same-fact entry for the cabin being attacked during the tower battle.
+  confidence: high
+  limitations: The passage does not describe repairs, long-term damage, or whether the bowtruckles survived.
+- id: hbp-ch28-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Eight - Flight of the Prince
+  chapter_start_pdf_page: 2920
+  chapter_end_pdf_page: 2930
+  pdf_page: 2926
+  printed_page: null
+  extracted_text_lines: 199-220
+  text_anchor:
+    start_phrase: You dare use my own spells against me
+    end_phrase: and out of sight
+    local_occurrence_note: After Harry tries Sectumsempra and begins Levicorpus, Snape reveals himself as the Half-Blood Prince and deflects Harry's spells.
+  nearby_context: Snape has already blocked attempted Unforgivable and binding curses, and he prevents Harry from retrieving his wand before fleeing.
+  match_terms:
+  - Half-Blood Prince
+  - Snape
+  - Sectumsempra
+  - Levicorpus
+  - invented spells
+  - student spellcraft
+  quote_excerpt_short: "It was I who invented them"
+  source_note: Snape identifies himself as the Half-Blood Prince and claims authorship of the spells Harry learned from the annotated Potions textbook, including the dangerous spellcraft used in the pursuit.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - half-blood-prince
+  - snape
+  - sectumsempra
+  - levicorpus
+  - invented-spells
+  - student-spellcraft
+  candidate_part: Learning, Books, and Forbidden Knowledge
+  candidate_chapter: Textbooks, Marginalia, and Informal Knowledge
+  candidate_section: Snape as the Half-Blood Prince
+  reason_for_placement: Resolves the provenance of the unofficial spellcraft circulating through an old Hogwarts textbook and links it to a former student and professor.
+  relevance_to_hogwarts_a_history: Useful for a later account of how student-created spellcraft entered school materials and persisted across generations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch12-003
+    - hbp-ch16-005
+    - hbp-ch21-002
+    - hbp-ch24-004
+    notes: Earlier entries record Prince marginalia, Levicorpus as a school fashion, Sectumsempra's marginal note, and its injuries; this entry adds Snape's explicit identity as the Prince and claim that he invented the spells.
+  confidence: high
+  limitations: The passage does not list every spell Snape invented or explain when each was written into the textbook.

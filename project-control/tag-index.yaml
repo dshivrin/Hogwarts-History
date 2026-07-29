@@ -199,8 +199,10 @@ tags:
   aguamenti:
     entries:
     - hbp-ch26-007
+    - hbp-ch28-006
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   alastor-moody:
     entries:
     - gof-ch35-006
@@ -455,6 +457,7 @@ tags:
     - hbp-ch22-001
     - hbp-ch25-007
     - hbp-ch27-001
+    - hbp-ch28-005
     - ootp-ch03-003
     - ootp-ch23-001
     output_yaml:
@@ -472,6 +475,7 @@ tags:
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -1211,6 +1215,7 @@ tags:
   bowtruckles:
     entries:
     - hbp-ch22-006
+    - hbp-ch28-006
     - ootp-ch13-004
     - ootp-ch15-006
     - ootp-ch31-005
@@ -1219,6 +1224,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   brain-room:
     entries:
     - ootp-ch34-004
@@ -1553,6 +1559,12 @@ tags:
     - hbp-ch15-001
     output_yaml:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  castle-damage:
+    entries:
+    - hbp-ch28-001
+    - hbp-ch28-004
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   castle-decorations:
     entries:
     - ootp-ch21-003
@@ -1708,6 +1720,11 @@ tags:
     - ps-ch09-004
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  castle-shortcut:
+    entries:
+    - hbp-ch28-003
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   castle-windows:
     entries:
     - poa-ch21-007
@@ -2336,6 +2353,11 @@ tags:
     - poa-ch20-001
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  concealed-staircase:
+    entries:
+    - hbp-ch28-003
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   concealment:
     entries:
     - hbp-ch04-003
@@ -2428,6 +2450,11 @@ tags:
     - gof-ch27-002
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  corridor-battle:
+    entries:
+    - hbp-ch28-001
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   corridor-control:
     entries:
     - ootp-ch32-003
@@ -3065,8 +3092,10 @@ tags:
   death-eater-infiltration:
     entries:
     - hbp-ch27-005
+    - hbp-ch28-002
     output_yaml:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   death-eaters:
     entries:
     - gof-ch09-001
@@ -3088,6 +3117,7 @@ tags:
     - hbp-ch20-007
     - hbp-ch27-002
     - hbp-ch27-007
+    - hbp-ch28-001
     - ootp-ch04-005
     - ootp-ch05-005
     - ootp-ch06-004
@@ -3118,6 +3148,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   death-witnesses:
     entries:
     - ootp-ch21-001
@@ -3562,6 +3593,11 @@ tags:
     - ootp-ch20-004
     output_yaml:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  disapparate:
+    entries:
+    - hbp-ch28-005
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   disapparition:
     entries:
     - ootp-ch23-001
@@ -4564,6 +4600,7 @@ tags:
     - gof-ch16-003
     - gof-ch16-004
     - hbp-ch11-007
+    - hbp-ch28-004
     - ootp-ch30-003
     - ootp-ch31-002
     - ootp-ch33-001
@@ -4581,6 +4618,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   entrances:
     entries:
     - poa-ch04-007
@@ -4608,9 +4646,11 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
   escape-route:
     entries:
+    - hbp-ch28-002
     - poa-ch21-007
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   europe:
     entries:
     - gof-ch09-002
@@ -4871,9 +4911,11 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
   fang:
     entries:
+    - hbp-ch28-006
     - ps-ch15-005
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   fat-friar:
     entries:
     - cos-ch08-005
@@ -5650,8 +5692,10 @@ tags:
   front-doors:
     entries:
     - hbp-ch12-002
+    - hbp-ch28-002
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   fruit-painting:
     entries:
     - gof-ch21-002
@@ -5676,6 +5720,7 @@ tags:
     entries:
     - cos-ch17-003
     - gof-ch24-002
+    - hbp-ch28-006
     - poa-ch01-006
     - poa-ch05-007
     - ps-ch04-007
@@ -5687,6 +5732,7 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   gamekeepers-hut:
     entries:
     - ps-ch14-004
@@ -5707,6 +5753,11 @@ tags:
     - cos-ch13-006
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  gates:
+    entries:
+    - hbp-ch28-005
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   gaunt-family:
     entries:
     - hbp-ch10-006
@@ -6240,6 +6291,7 @@ tags:
     - hbp-ch14-003
     - hbp-ch14-007
     - hbp-ch24-007
+    - hbp-ch28-004
     - ootp-ch09-005
     - ootp-ch12-001
     - ootp-ch13-001
@@ -6297,6 +6349,7 @@ tags:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   gryffindor-common-room:
     entries:
     - hbp-ch12-007
@@ -6591,8 +6644,10 @@ tags:
   hagrid-cabin:
     entries:
     - gof-ch16-005
+    - hbp-ch28-006
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   hagrid-cross-reference:
     entries:
     - ps-ch03-005
@@ -6649,6 +6704,7 @@ tags:
     - hbp-ch21-002
     - hbp-ch22-002
     - hbp-ch24-004
+    - hbp-ch28-007
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
@@ -6657,6 +6713,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   half-brother:
     entries:
     - ootp-ch30-006
@@ -7626,6 +7683,8 @@ tags:
     - gof-ch31-001
     - gof-ch32-001
     - hbp-ch04-001
+    - hbp-ch28-005
+    - hbp-ch28-006
     - ootp-ch20-001
     - ootp-ch24-002
     - ootp-ch24-005
@@ -7655,6 +7714,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   hogwarts-headmaster:
     entries:
     - hbp-ch16-007
@@ -8195,6 +8255,11 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+  house-hourglasses:
+    entries:
+    - hbp-ch28-004
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   house-identity:
     entries:
     - cos-ch18-004
@@ -8757,6 +8822,11 @@ tags:
     - gof-ch25-006
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  invented-spells:
+    entries:
+    - hbp-ch28-007
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   investigation:
     entries:
     - ootp-ch07-005
@@ -9192,9 +9262,11 @@ tags:
     entries:
     - hbp-ch12-003
     - hbp-ch16-005
+    - hbp-ch28-007
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   levitation:
     entries:
     - ps-ch10-001
@@ -9659,6 +9731,7 @@ tags:
     - hbp-ch21-004
     - hbp-ch24-005
     - hbp-ch25-003
+    - hbp-ch28-003
     - ootp-ch04-003
     - ootp-ch07-003
     - ootp-ch08-001
@@ -9701,6 +9774,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -11721,6 +11795,11 @@ tags:
     - ootp-ch27-004
     output_yaml:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  oak-front-doors:
+    entries:
+    - hbp-ch28-004
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   obedience:
     entries:
     - hbp-ch03-005
@@ -11944,6 +12023,7 @@ tags:
     - hbp-ch02-004
     - hbp-ch03-005
     - hbp-ch16-004
+    - hbp-ch28-001
     - ootp-ch03-006
     - ootp-ch04-001
     - ootp-ch04-004
@@ -11978,6 +12058,7 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -12792,6 +12873,7 @@ tags:
     - gof-ch17-007
     - gof-ch22-007
     - gof-ch31-001
+    - hbp-ch28-003
     - ootp-ch04-003
     - poa-ch06-002
     - poa-ch08-004
@@ -12807,6 +12889,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   possession:
     entries:
     - cos-ch17-002
@@ -13333,6 +13416,7 @@ tags:
     - hbp-ch14-005
     - hbp-ch15-003
     - hbp-ch19-005
+    - hbp-ch28-001
     - ootp-ch15-005
     - ootp-ch18-002
     - ootp-ch19-006
@@ -13384,6 +13468,7 @@ tags:
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   professor-quirrell:
     entries:
     - gof-ch33-002
@@ -14307,6 +14392,7 @@ tags:
     - hbp-ch24-005
     - hbp-ch25-003
     - hbp-ch27-005
+    - hbp-ch28-002
     - ootp-ch18-005
     - ootp-ch18-006
     - ootp-ch21-004
@@ -14323,6 +14409,7 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   rosmerta:
     entries:
     - hbp-ch27-006
@@ -14434,6 +14521,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  school-boundaries:
+    entries:
+    - hbp-ch28-005
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   school-brooms:
     entries:
     - hbp-ch11-003
@@ -14750,6 +14842,7 @@ tags:
     - hbp-ch11-002
     - hbp-ch11-007
     - hbp-ch25-006
+    - hbp-ch28-005
     - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
@@ -14759,6 +14852,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   school-protections:
     entries:
     - gof-ch11-005
@@ -14859,6 +14953,8 @@ tags:
     - gof-ch37-006
     - hbp-ch12-001
     - hbp-ch27-005
+    - hbp-ch28-001
+    - hbp-ch28-002
     - ootp-ch17-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
@@ -14869,6 +14965,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   school-security-threat:
     entries:
     - hbp-ch06-007
@@ -15211,9 +15308,11 @@ tags:
     entries:
     - hbp-ch21-002
     - hbp-ch24-004
+    - hbp-ch28-007
     output_yaml:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   security:
     entries:
     - gof-ch15-006
@@ -15797,6 +15896,7 @@ tags:
     - hbp-ch25-005
     - hbp-ch27-001
     - hbp-ch27-007
+    - hbp-ch28-007
     - ootp-ch04-005
     - ootp-ch15-002
     - ootp-ch38-004
@@ -15835,6 +15935,7 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -17009,6 +17110,7 @@ tags:
     - hbp-ch08-006
     - hbp-ch12-006
     - hbp-ch18-005
+    - hbp-ch28-004
     - ootp-ch02-006
     - ootp-ch03-005
     - ootp-ch13-006
@@ -17055,6 +17157,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   student-selection:
     entries:
     - hbp-ch07-005
@@ -17082,11 +17185,13 @@ tags:
     - hbp-ch12-003
     - hbp-ch16-005
     - hbp-ch21-002
+    - hbp-ch28-007
     output_yaml:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   student-store-cupboard:
     entries:
     - cos-ch10-002
@@ -17351,12 +17456,14 @@ tags:
   tapestry:
     entries:
     - gof-ch25-005
+    - hbp-ch28-003
     - ootp-ch06-003
     - ps-ch09-006
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   task-order:
     entries:
     - gof-ch20-006
@@ -18444,10 +18551,12 @@ tags:
     - hbp-ch06-007
     - hbp-ch24-005
     - hbp-ch27-005
+    - hbp-ch28-002
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   vanishing-spells:
     entries:
     - ootp-ch13-003
@@ -18455,6 +18564,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  vanishing-step:
+    entries:
+    - hbp-ch28-003
+    output_yaml:
+    - sources/book-06/chapter-28-flight-of-the-prince.yaml
   veela:
     entries:
     - gof-ch08-006

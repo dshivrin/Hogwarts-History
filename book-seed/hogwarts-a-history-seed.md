@@ -196,6 +196,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: direct_observed_setting
   - Notes: The office is described through Harry's memory of four occupants, not through an official floor plan.
 
+### Chapter: Corridors, Stairs, and Moving Hazards
+
+#### Section: Concealed staircases and portrait movement
+
+Summary: The available evidence includes 1 source item, led by: The castle route includes a concealed staircase with a vanishing step hidden behind a tapestry, while nearby portraits can flee into neighboring paintings when struck.
+
+- **Supporting evidence:** The castle route includes a concealed staircase with a vanishing step hidden behind a tapestry, while nearby portraits can flee into neighboring paintings when struck.
+  - Quote: "Remembering to leap the vanishing step"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2923, `hbp-ch28-003`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The passage does not say when the staircase or vanishing step was created, or whether the hazard is intentional.
+
 ### Chapter: Grounds, Lake, and Village Approaches
 
 #### Section: Visiting-School Lodging and Hogsmeade Route
@@ -209,6 +222,19 @@ Summary: The available evidence includes 1 source item, led by: The scene confir
   - Reference type: direct_observed_setting
   - Corroborates: `gof-ch15-007`, `gof-ch21-003`, `gof-ch19-001`. gof-ch15-007 records the ship's arrival, gof-ch21-003 records continuing winter lodging, and gof-ch19-001 records Hogsmeade visit logistics; this entry adds a January route past the moored ship, Krum's lake use, and giant-squid awareness.
   - Notes: The scene observes the ship from the route to Hogsmeade but does not describe its interior or formal mooring arrangements.
+
+### Chapter: Grounds, Staff Dwellings, and Creature Care
+
+#### Section: Gamekeeper's cabin during the tower battle
+
+Summary: The available evidence includes 1 source item, led by: The gamekeeper's cabin is close enough to the escape route for Hagrid to intervene; Death Eaters set it on fire, and Hagrid and Harry extinguish it with Aguamenti after rescuing Fang.
+
+- **Context:** The gamekeeper's cabin is close enough to the escape route for Hagrid to intervene; Death Eaters set it on fire, and Hagrid and Harry extinguish it with Aguamenti after rescuing Fang.
+  - Quote: "the charm's 'Aguamenti'"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2924, `hbp-ch28-006`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The passage does not describe repairs, long-term damage, or whether the bowtruckles survived.
 
 ### Chapter: Interior Rooms
 
@@ -5913,6 +5939,18 @@ Summary: The available evidence includes 1 source item, led by: The scene restat
   - Corroborates: `gof-ch15-006`, `poa-ch10-003`, `poa-ch17-004`. Corroborates the anti-Apparition rule and prior Marauder's Map evidence; adds a concise statement that the map shows only to the boundaries.
   - Notes: The map-boundary detail is inferred by Ron and should be paired with other map evidence.
 
+#### Section: Disapparition beyond the school gates
+
+Summary: The available evidence includes 1 source item, led by: The fleeing Death Eaters must reach the gates and pass beyond the school boundaries before they can Disapparate, confirming the practical edge of Hogwarts's anti-Apparition protections.
+
+- **Corroboration:** The fleeing Death Eaters must reach the gates and pass beyond the school boundaries before they can Disapparate, confirming the practical edge of Hogwarts's anti-Apparition protections.
+  - Quote: "just beyond the school's boundaries"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2923, `hbp-ch28-005`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch15-006`, `gof-ch29-001`, `hbp-ch04-001`. Prior entries state or contextualize the anti-Apparition rule for Hogwarts buildings and grounds; this entry adds direct operational evidence that fugitives can Disapparate only once beyond the gates and school boundary.
+  - Notes: The passage does not define the boundary spell or whether the gates are the formal legal boundary or simply the nearest passable edge.
+
 ### Chapter: Off-Campus Protection of Students
 
 #### Section: Advance Guard Retrieval From Privet Drive
@@ -11127,6 +11165,17 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
 
 ### Chapter: Death Eater Infiltration and the Tower Battle
 
+#### Section: Corridor defense below the Astronomy Tower
+
+Summary: The available evidence includes 1 source item, led by: The flight from the Astronomy Tower passes through a castle corridor battle in which Hogwarts students, staff, and Order allies resist Death Eaters amid major structural damage.
+
+- **Context:** The flight from the Astronomy Tower passes through a castle corridor battle in which Hogwarts students, staff, and Order allies resist Death Eaters amid major structural damage.
+  - Quote: "Professor McGonagall, and Lupin, each of whom was battling"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2921, `hbp-ch28-001`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage is seen during Harry's pursuit and does not identify every combatant or injury.
+
 #### Section: Dark Mark over Hogwarts
 
 Summary: The available evidence includes 1 source item, led by: The Dark Mark is seen above Hogwarts and identified as the Death Eater sign left after entering a building and murdering there.
@@ -11149,6 +11198,17 @@ Summary: The available evidence includes 1 source item, led by: During the tower
   - Classification: later_editorial_note | Confidence: high
   - Reference type: historical_claim
   - Notes: This chapter shows the act and immediate circumstances, but not Snape and Dumbledore's prior arrangement or the aftermath.
+
+#### Section: Entrance hall breach and House-hourglass damage
+
+Summary: The available evidence includes 1 source item, led by: The retreat leaves the entrance hall breached, with oak doors blasted open, frightened students exposed, and the Gryffindor House hourglass damaged so that rubies fall onto the flagstones.
+
+- **Context:** The retreat leaves the entrance hall breached, with oak doors blasted open, frightened students exposed, and the Gryffindor House hourglass damaged so that rubies fall onto the flagstones.
+  - Quote: "The giant Gryffindor hourglass had been hit by a curse"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2923, `hbp-ch28-004`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The passage shows damage after the fact and does not name the spell or attacker responsible.
 
 #### Section: Headmaster sacrifice and concealed witness
 
@@ -11409,6 +11469,20 @@ Summary: The available evidence includes 1 source item, led by: Sectumsempra is 
   - Reference type: curriculum_or_subject
   - Corroborates: `hbp-ch21-002`. hbp-ch21-002 records the Prince book's Sectumsempra marginal note before its effect is known. This entry adds the spell's observed injury, Snape's countercurse, hospital-wing treatment, and Dark Magic framing.
   - Notes: The countercurse incantation is not transcribed, and the spell's origin is still not disclosed in this chapter.
+
+### Chapter: Textbooks, Marginalia, and Informal Knowledge
+
+#### Section: Snape as the Half-Blood Prince
+
+Summary: The available evidence includes 1 source item, led by: Snape identifies himself as the Half-Blood Prince and claims authorship of the spells Harry learned from the annotated Potions textbook, including the dangerous spellcraft used in the pursuit.
+
+- **Corroboration:** Snape identifies himself as the Half-Blood Prince and claims authorship of the spells Harry learned from the annotated Potions textbook, including the dangerous spellcraft used in the pursuit.
+  - Quote: "It was I who invented them"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2926, `hbp-ch28-007`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch12-003`, `hbp-ch16-005`, `hbp-ch21-002`, `hbp-ch24-004`. Earlier entries record Prince marginalia, Levicorpus as a school fashion, Sectumsempra's marginal note, and its injuries; this entry adds Snape's explicit identity as the Prince and claim that he invented the spells.
+  - Notes: The passage does not list every spell Snape invented or explain when each was written into the textbook.
 
 ## Part: Lessons, Exams, and Magical Knowledge
 
@@ -12575,6 +12649,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore's sch
   - Notes: The spell language and exact enchantment design are not identified.
 
 ### Chapter: Maps, Hidden Rooms, and Concealed Routes
+
+#### Section: Blocked hidden-room retreat after the cabinet breach
+
+Summary: The available evidence includes 1 source item, led by: During the Death Eater retreat, Harry treats the repaired Vanishing Cabinet as the expected escape route but reads the footprints toward the front doors as evidence that the route may have been secured.
+
+- **Corroboration:** During the Death Eater retreat, Harry treats the repaired Vanishing Cabinet as the expected escape route but reads the footprints toward the front doors as evidence that the route may have been secured.
+  - Quote: "perhaps the Room of Requirement was indeed blocked"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, PDF p. 2922, `hbp-ch28-002`, `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch27-005`, `hbp-ch24-005`. hbp-ch27-005 records the paired Vanishing Cabinet passage into Hogwarts, and hbp-ch24-005 records the cabinet in the Room's hidden-storage configuration; this entry adds the retreat-stage inference that defenders may have blocked that route.
+  - Notes: Harry infers the route was blocked from footprints and direction of flight; the blocking action itself is not directly observed.
 
 #### Section: Marauder's Map limits and watched passageways
 

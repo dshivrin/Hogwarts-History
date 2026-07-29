@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-Eight - Flight of the Prince
-- Page range: 2920-2930
+- Chapter: Chapter Twenty-Nine - The Phoenix Lament
+- Page range: 2931-2948
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-28-flight-of-the-prince.yaml`
+- Output YAML: `sources/book-06/chapter-29-the-phoenix-lament.yaml`
 
 ## Minimal Context
 

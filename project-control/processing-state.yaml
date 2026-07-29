@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
-  chapter_number: 27
-  chapter_title: Chapter Twenty-Seven - The Lightning-Struck Tower
-  page_start: 2905
-  page_end: 2919
-  output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
   chapter_number: 28
   chapter_title: Chapter Twenty-Eight - Flight of the Prince
   page_start: 2920
   page_end: 2930
   output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2931
   page_end: 2948
   output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 30
+  chapter_title: Chapter Thirty - The White Tomb
+  page_start: 2949
+  page_end: 2964
+  output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

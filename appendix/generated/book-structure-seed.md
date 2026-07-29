@@ -461,8 +461,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Hogwarts in Times of Crisis
 
 - Death Eater Infiltration and the Tower Battle
+  - Corridor defense below the Astronomy Tower
   - Dark Mark over Hogwarts
   - Death of Albus Dumbledore
+  - Entrance hall breach and House-hourglass damage
   - Headmaster sacrifice and concealed witness
 - Security and Restricted Objects
   - Arrival and Mail Screening
@@ -824,6 +826,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Horcruxes as a Banned Hogwarts Topic
 - Restricted and Dangerous Spellcraft
   - Sectumsempra, countercurse, and student injury
+- Textbooks, Marginalia, and Informal Knowledge
+  - Snape as the Half-Blood Prince
 
 ## Lessons, Exams, and Magical Knowledge
 
@@ -1112,6 +1116,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wizarding-dwelling courtesy and Hogwarts boundary confirmation
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
+  - Disapparition beyond the school gates
 - Off-Campus Protection of Students
   - Advance Guard Retrieval From Privet Drive
   - Dumbledore's Howler and the Privet Drive Residence Requirement
@@ -1477,10 +1482,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Carriage Route, Gates, Entrance Hall, and Great Hall
 - Classrooms, Offices, and Staff Spaces
   - Defense Against the Dark Arts office continuity
+- Corridors, Stairs, and Moving Hazards
+  - Concealed staircases and portrait movement
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
 - Grounds, Lake, and Village Approaches
   - Visiting-School Lodging and Hogsmeade Route
+- Grounds, Staff Dwellings, and Creature Care
+  - Gamekeeper's cabin during the tower battle
 - Interior Rooms
   - Trophy Room
 - The Grounds and Edge of the Forest
@@ -1505,6 +1514,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Boundaries, Towers, and Defensive Enchantments
   - Emergency flight through the castle boundary
 - Maps, Hidden Rooms, and Concealed Routes
+  - Blocked hidden-room retreat after the cabinet breach
   - Marauder's Map limits and watched passageways
   - Marauder's Map surveillance and unexplained blind spots
   - Room of Hidden Things and accumulated contraband
