@@ -460,8 +460,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Hogwarts in Times of Crisis
 
+- Death Eater Infiltration and the Tower Battle
+  - Dark Mark over Hogwarts
+  - Death of Albus Dumbledore
+  - Headmaster sacrifice and concealed witness
 - Security and Restricted Objects
   - Arrival and Mail Screening
+  - Coerced Hogsmeade accomplice and communication loophole
   - Cursed-object attack follow-up and disguise risk
   - Cursed-object attack on the Hogsmeade return route
   - Disguised contraband and Secrecy Sensor limits
@@ -475,6 +480,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Snape's partial overhearing and return
 - The Second War at School
   - Parental Fear and Protective Measures
+- Wartime Security and Medical Response
+  - Hogsmeade return and headmaster emergency care
 - Wartime Security and Student Resistance
   - Headmaster absences and unofficial D.A. watch
 
@@ -1495,11 +1502,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Castle and Its Protections
 
+- Boundaries, Towers, and Defensive Enchantments
+  - Emergency flight through the castle boundary
 - Maps, Hidden Rooms, and Concealed Routes
   - Marauder's Map limits and watched passageways
   - Marauder's Map surveillance and unexplained blind spots
   - Room of Hidden Things and accumulated contraband
   - Room of Requirement access rules and map blind spots
+  - Vanishing Cabinet passage into Hogwarts
   - Wall-disguised shortcut toward Potions
 - Movement Limits and Anti-Apparition Protections
   - Apparition blocked inside the grounds

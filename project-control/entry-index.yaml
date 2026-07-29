@@ -15716,6 +15716,111 @@ by_entry:
     - water-trap
     source_unit: hbp-ch26
     output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch27-001:
+    title: 'Wartime Security and Medical Response: Hogsmeade return and headmaster
+      emergency care'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - emergency-response
+    - hogsmeade
+    - hospital-wing
+    - madam-pomfrey
+    - snape
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch27-002:
+    title: 'Death Eater Infiltration and the Tower Battle: Dark Mark over Hogwarts'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - astronomy-tower
+    - dark-mark
+    - death-eaters
+    - hogwarts
+    - murder-sign
+    - wartime-security
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch27-003:
+    title: 'Boundaries, Towers, and Defensive Enchantments: Emergency flight through
+      the castle boundary'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - astronomy-tower
+    - brooms
+    - castle-boundary
+    - dumbledore
+    - ministry-alert
+    - protective-enchantments
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch27-004:
+    title: 'Death Eater Infiltration and the Tower Battle: Headmaster sacrifice and
+      concealed witness'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - astronomy-tower
+    - disarming
+    - draco-malfoy
+    - dumbledore
+    - invisibility-cloak
+    - nonverbal-magic
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch27-005:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Vanishing Cabinet passage into
+      Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - borgin-and-burkes
+    - death-eater-infiltration
+    - montague
+    - room-of-requirement
+    - school-security
+    - vanishing-cabinet
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch27-006:
+    title: 'Security and Restricted Objects: Coerced Hogsmeade accomplice and communication
+      loophole'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - cursed-necklace
+    - d-a
+    - enchanted-coins
+    - filch
+    - imperius-curse
+    - poisoned-mead
+    - rosmerta
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  hbp-ch27-007:
+    title: 'Death Eater Infiltration and the Tower Battle: Death of Albus Dumbledore'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - astronomy-tower
+    - avada-kedavra
+    - death-eaters
+    - dumbledore-death
+    - fenrir-greyback
+    - second-war
+    - snape
+    source_unit: hbp-ch27
+    output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15928,6 +16033,7 @@ by_tag:
   - hbp-ch21-001
   - hbp-ch22-001
   - hbp-ch25-007
+  - hbp-ch27-001
   - ootp-ch03-003
   - ootp-ch23-001
   apparition-points:
@@ -15984,6 +16090,10 @@ by_tag:
   astronomy-exam:
   - ootp-ch31-006
   astronomy-tower:
+  - hbp-ch27-002
+  - hbp-ch27-003
+  - hbp-ch27-004
+  - hbp-ch27-007
   - ootp-ch31-006
   - poa-ch09-004
   - ps-ch15-001
@@ -16026,6 +16136,7 @@ by_tag:
   avada-kedavra:
   - gof-ch14-005
   - gof-ch34-003
+  - hbp-ch27-007
   azkaban:
   - cos-ch12-007
   - cos-ch14-005
@@ -16257,6 +16368,7 @@ by_tag:
   - hbp-ch12-006
   - hbp-ch13-002
   - hbp-ch20-006
+  - hbp-ch27-005
   boris-the-bewildered:
   - gof-ch23-007
   - gof-ch25-002
@@ -16289,6 +16401,8 @@ by_tag:
   broomcare:
   - poa-ch01-007
   - poa-ch02-004
+  brooms:
+  - hbp-ch27-003
   broomstick:
   - cos-ch03-005
   - gof-ch02-002
@@ -16413,6 +16527,8 @@ by_tag:
   castle-architecture:
   - gof-ch15-001
   - ootp-ch14-002
+  castle-boundary:
+  - hbp-ch27-003
   castle-communications:
   - hbp-ch08-001
   castle-corridors:
@@ -17004,6 +17120,7 @@ by_tag:
   cursed-necklace:
   - hbp-ch12-006
   - hbp-ch24-001
+  - hbp-ch27-006
   cursed-objects:
   - hbp-ch12-006
   - hbp-ch12-007
@@ -17013,6 +17130,7 @@ by_tag:
   d-a:
   - hbp-ch21-004
   - hbp-ch25-006
+  - hbp-ch27-006
   da-meetings:
   - ootp-ch19-001
   dai-llewellyn-ward:
@@ -17092,6 +17210,7 @@ by_tag:
   - gof-ch09-007
   - gof-ch10-003
   - gof-ch27-005
+  - hbp-ch27-002
   dark-objects:
   - hbp-ch11-007
   - hbp-ch15-002
@@ -17109,6 +17228,8 @@ by_tag:
   death-eater:
   - gof-ch33-001
   - gof-ch35-002
+  death-eater-infiltration:
+  - hbp-ch27-005
   death-eaters:
   - gof-ch09-001
   - gof-ch09-004
@@ -17127,6 +17248,8 @@ by_tag:
   - hbp-ch07-007
   - hbp-ch17-005
   - hbp-ch20-007
+  - hbp-ch27-002
+  - hbp-ch27-007
   - ootp-ch04-005
   - ootp-ch05-005
   - ootp-ch06-004
@@ -17363,6 +17486,7 @@ by_tag:
   - ootp-ch23-001
   disarming:
   - gof-ch29-004
+  - hbp-ch27-004
   disarming-charm:
   - cos-ch11-003
   - gof-ch34-001
@@ -17491,6 +17615,7 @@ by_tag:
   - hbp-ch15-007
   - hbp-ch16-002
   - hbp-ch16-003
+  - hbp-ch27-004
   dragon-breeds:
   - gof-ch20-006
   dragon-egg:
@@ -17600,6 +17725,8 @@ by_tag:
   - hbp-ch25-007
   - hbp-ch26-002
   - hbp-ch26-004
+  - hbp-ch27-003
+  - hbp-ch27-004
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17677,6 +17804,8 @@ by_tag:
   - ps-ch17-003
   dumbledore-absences:
   - hbp-ch25-006
+  dumbledore-death:
+  - hbp-ch27-007
   dumbledore-headmastership:
   - hbp-ch20-007
   dumbledore-investigation:
@@ -17812,6 +17941,7 @@ by_tag:
   - cos-ch14-003
   - gof-ch28-007
   - hbp-ch18-007
+  - hbp-ch27-001
   - ps-ch10-003
   emergency-transport:
   - ootp-ch33-007
@@ -17827,6 +17957,8 @@ by_tag:
   - cos-ch06-001
   - poa-ch08-006
   - ps-ch07-001
+  enchanted-coins:
+  - hbp-ch27-006
   enchanted-maze:
   - gof-ch31-005
   enchanted-objects:
@@ -18026,6 +18158,7 @@ by_tag:
   fenrir-greyback:
   - hbp-ch06-007
   - hbp-ch16-004
+  - hbp-ch27-007
   fidelius:
   - hbp-ch02-004
   field-booking:
@@ -18065,6 +18198,7 @@ by_tag:
   - hbp-ch21-007
   - hbp-ch22-003
   - hbp-ch24-006
+  - hbp-ch27-006
   - ootp-ch11-005
   - ootp-ch16-001
   - ootp-ch18-001
@@ -19207,6 +19341,7 @@ by_tag:
   - hbp-ch21-001
   - hbp-ch21-007
   - hbp-ch25-007
+  - hbp-ch27-001
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -19252,6 +19387,7 @@ by_tag:
   - hbp-ch02-002
   - hbp-ch02-005
   - hbp-ch20-004
+  - hbp-ch27-002
   - ootp-ch23-001
   hogwarts-a-history:
   - cos-ch09-001
@@ -19498,6 +19634,7 @@ by_tag:
   - hbp-ch12-007
   - hbp-ch19-001
   - hbp-ch24-004
+  - hbp-ch27-001
   - ootp-ch14-004
   - ootp-ch19-004
   - ootp-ch32-001
@@ -19717,6 +19854,7 @@ by_tag:
   - hbp-ch12-006
   - hbp-ch21-006
   - hbp-ch24-001
+  - hbp-ch27-006
   impersonation:
   - hbp-ch04-002
   - hbp-ch05-003
@@ -19844,6 +19982,7 @@ by_tag:
   - gof-ch25-001
   - gof-ch25-007
   - hbp-ch22-003
+  - hbp-ch27-004
   - ootp-ch03-005
   - ootp-ch20-001
   - ootp-ch29-005
@@ -20219,6 +20358,7 @@ by_tag:
   - gof-ch13-002
   - gof-ch16-004
   - hbp-ch19-001
+  - hbp-ch27-001
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
@@ -20705,6 +20845,8 @@ by_tag:
   - hbp-ch01-001
   - ootp-ch05-006
   - poa-ch03-005
+  ministry-alert:
+  - hbp-ch27-003
   ministry-approved-curriculum:
   - ootp-ch12-006
   - ootp-ch15-004
@@ -20902,6 +21044,8 @@ by_tag:
   - cos-ch16-003
   monster-release:
   - cos-ch17-006
+  montague:
+  - hbp-ch27-005
   moonstone:
   - ootp-ch12-004
   moony:
@@ -21058,6 +21202,8 @@ by_tag:
   - hbp-ch12-005
   - ootp-ch01-002
   - ootp-ch02-001
+  murder-sign:
+  - hbp-ch27-002
   music:
   - ps-ch16-003
   nagini:
@@ -21158,6 +21304,8 @@ by_tag:
   - ootp-ch33-005
   non-human-relations:
   - ootp-ch27-002
+  nonverbal-magic:
+  - hbp-ch27-004
   nonverbal-spells:
   - hbp-ch09-003
   - hbp-ch11-001
@@ -21615,6 +21763,7 @@ by_tag:
   - ootp-ch35-005
   poisoned-mead:
   - hbp-ch18-007
+  - hbp-ch27-006
   poisoning:
   - gof-ch19-003
   - hbp-ch19-001
@@ -22038,6 +22187,7 @@ by_tag:
   protective-amulets:
   - hbp-ch06-002
   protective-enchantments:
+  - hbp-ch27-003
   - ootp-ch34-006
   protective-escort:
   - hbp-ch06-003
@@ -22388,11 +22538,14 @@ by_tag:
   - hbp-ch21-005
   - hbp-ch24-005
   - hbp-ch25-003
+  - hbp-ch27-005
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
   - ootp-ch27-004
   - ootp-ch27-006
+  rosmerta:
+  - hbp-ch27-006
   rotating-room:
   - ootp-ch34-003
   - ootp-ch36-001
@@ -22637,6 +22790,7 @@ by_tag:
   - gof-ch25-007
   - gof-ch37-006
   - hbp-ch12-001
+  - hbp-ch27-005
   - ootp-ch17-003
   school-security-threat:
   - hbp-ch06-007
@@ -22723,6 +22877,7 @@ by_tag:
   - hbp-ch12-001
   - hbp-ch16-004
   - hbp-ch18-005
+  - hbp-ch27-007
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -23075,6 +23230,8 @@ by_tag:
   - hbp-ch24-006
   - hbp-ch25-004
   - hbp-ch25-005
+  - hbp-ch27-001
+  - hbp-ch27-007
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -24268,6 +24425,7 @@ by_tag:
   vanishing-cabinet:
   - hbp-ch06-007
   - hbp-ch24-005
+  - hbp-ch27-005
   vanishing-spells:
   - ootp-ch13-003
   - ootp-ch15-005
@@ -24455,6 +24613,7 @@ by_tag:
   - hbp-ch22-003
   - hbp-ch24-001
   - hbp-ch25-006
+  - hbp-ch27-002
   - ootp-ch09-003
   water-trap:
   - hbp-ch26-007

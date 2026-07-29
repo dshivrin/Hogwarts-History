@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
-- Page range: 2905-2919
+- Chapter: Chapter Twenty-Eight - Flight of the Prince
+- Page range: 2920-2930
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+- Output YAML: `sources/book-06/chapter-28-flight-of-the-prince.yaml`
 
 ## Minimal Context
 

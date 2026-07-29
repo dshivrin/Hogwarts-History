@@ -11125,6 +11125,42 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
 
 ## Part: Hogwarts in Times of Crisis
 
+### Chapter: Death Eater Infiltration and the Tower Battle
+
+#### Section: Dark Mark over Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The Dark Mark is seen above Hogwarts and identified as the Death Eater sign left after entering a building and murdering there.
+
+- **Corroboration:** The Dark Mark is seen above Hogwarts and identified as the Death Eater sign left after entering a building and murdering there.
+  - Quote: "wherever they had murdered"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2907, `hbp-ch27-002`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch09-004`, `gof-ch09-007`. gof-ch09-004 records Morsmordre and the Mark's appearance, while gof-ch09-007 records Dark Mark terror history; this entry adds its use over Hogwarts as an active lure and murder signal.
+  - Notes: At this point Harry and Dumbledore do not yet know whether the displayed Mark corresponds to a confirmed death.
+
+#### Section: Death of Albus Dumbledore
+
+Summary: The available evidence includes 1 source item, led by: During the tower breach, Death Eaters and Fenrir Greyback reach the ramparts, Snape kills Dumbledore with Avada Kedavra, and Dumbledore falls from the Astronomy Tower.
+
+- **Context:** During the tower breach, Death Eaters and Fenrir Greyback reach the ramparts, Snape kills Dumbledore with Avada Kedavra, and Dumbledore falls from the Astronomy Tower.
+  - Quote: "Avada Kedavra!"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2918, `hbp-ch27-007`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This chapter shows the act and immediate circumstances, but not Snape and Dumbledore's prior arrangement or the aftermath.
+
+#### Section: Headmaster sacrifice and concealed witness
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore uses nonverbal magic to immobilize Harry under the Cloak, sacrificing his chance to defend himself when Draco Malfoy disarms him on the tower.
+
+- **Supporting evidence:** Dumbledore uses nonverbal magic to immobilize Harry under the Cloak, sacrificing his chance to defend himself when Draco Malfoy disarms him on the tower.
+  - Quote: "Dumbledore had wordlessly immobilized Harry"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2909, `hbp-ch27-004`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The spell used to immobilize Harry is not named in the passage.
+
 ### Chapter: Security and Restricted Objects
 
 #### Section: Arrival and Mail Screening
@@ -11138,6 +11174,18 @@ Summary: The available evidence includes 1 source item, led by: Wartime Hogwarts
   - Reference type: security_or_protection
   - Corroborates: `hbp-ch08-002`. Related to hbp-ch08-002's wartime perimeter protections, but this entry covers internal screening of arriving students and checked owl post.
   - Notes: Harry missed the arrival search, so this part is reported by Hermione and later supported by her account of Filch's owl checks.
+
+#### Section: Coerced Hogsmeade accomplice and communication loophole
+
+Summary: The available evidence includes 1 source item, led by: Draco used the Imperiused Rosmerta as a Hogsmeade accomplice, communicating by enchanted coins and exploiting Filch's limited screening of Rosmerta-linked objects.
+
+- **Corroboration:** Draco used the Imperiused Rosmerta as a Hogsmeade accomplice, communicating by enchanted coins and exploiting Filch's limited screening of Rosmerta-linked objects.
+  - Quote: "I had one and she had the other"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2913, `hbp-ch27-006`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch12-006`, `hbp-ch15-002`, `hbp-ch25-006`. hbp-ch12-006 records the cursed-necklace incident, hbp-ch15-002 records Filch and Secrecy Sensor limits, and hbp-ch25-006 records D.A. contact-Galleon watch planning; this entry adds Rosmerta's Imperius role, paired coin communication, and the trap timing.
+  - Notes: The account is reconstructed through Dumbledore's questioning and Draco's admissions, not Rosmerta's own testimony.
 
 #### Section: Cursed-object attack follow-up and disguise risk
 
@@ -11262,6 +11310,20 @@ Summary: The available evidence includes 1 source item, led by: Wartime fear rea
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: The passage reports student interpretation of school safety alongside one observed withdrawal and one reported family concern.
+
+### Chapter: Wartime Security and Medical Response
+
+#### Section: Hogsmeade return and headmaster emergency care
+
+Summary: The available evidence includes 1 source item, led by: After emergency Apparition back to Hogsmeade, Harry treats the hospital wing as the normal urgent-care destination, but Dumbledore specifically asks for Snape instead of Madam Pomfrey.
+
+- **Corroboration:** After emergency Apparition back to Hogsmeade, Harry treats the hospital wing as the normal urgent-care destination, but Dumbledore specifically asks for Snape instead of Madam Pomfrey.
+  - Quote: "It is Professor Snape whom I need"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2906, `hbp-ch27-001`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch25-007`. hbp-ch25-007 records the outbound Hogsmeade cover route and side-along Apparition; this entry adds the emergency return, Rosmerta's witness role, and Dumbledore's request for Snape over Pomfrey.
+  - Notes: Dumbledore does not explain in this passage why Snape is medically or magically necessary.
 
 ### Chapter: Wartime Security and Student Resistance
 
@@ -12499,6 +12561,19 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore descr
 
 ## Part: The Castle and Its Protections
 
+### Chapter: Boundaries, Towers, and Defensive Enchantments
+
+#### Section: Emergency flight through the castle boundary
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's school protections include boundary enchantments that he can actively undo to allow broom entry at speed, and the Dark Mark directs him to the Astronomy Tower ramparts.
+
+- **Supporting evidence:** Dumbledore's school protections include boundary enchantments that he can actively undo to allow broom entry at speed, and the Dark Mark directs him to the Astronomy Tower ramparts.
+  - Quote: "undoing the enchantments he himself had set"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2908, `hbp-ch27-003`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The spell language and exact enchantment design are not identified.
+
 ### Chapter: Maps, Hidden Rooms, and Concealed Routes
 
 #### Section: Marauder's Map limits and watched passageways
@@ -12547,6 +12622,18 @@ Summary: The available evidence includes 1 source item, led by: The Room of Requ
   - Reference type: magical_architecture
   - Corroborates: `hbp-ch18-004`, `hbp-ch19-006`, `gof-ch25-001`. hbp-ch18-004 and hbp-ch19-006 record Malfoy's unexplained disappearance from the map, while gof-ch25-001 records ordinary map surveillance. This entry identifies the Room of Requirement as the likely blind spot and adds Hermione's access-rule explanation plus Harry's failed requests.
   - Notes: Hermione's Unplottable explanation is reasoned dialogue rather than a formal statement from the room's creators or staff.
+
+#### Section: Vanishing Cabinet passage into Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The repaired Vanishing Cabinet in Hogwarts forms a passage to Borgin and Burkes, allowing Death Eaters to bypass school defenses and enter through the Room of Requirement.
+
+- **Corroboration:** The repaired Vanishing Cabinet in Hogwarts forms a passage to Borgin and Burkes, allowing Death Eaters to bypass school defenses and enter through the Room of Requirement.
+  - Quote: "a kind of passage between them"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, PDF p. 2911, `hbp-ch27-005`, `sources/book-06/chapter-27-the-lightning-struck-tower.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `hbp-ch06-007`, `hbp-ch21-004`, `hbp-ch24-005`. hbp-ch06-007 records Draco's Borgin and Burkes repair consultation, hbp-ch21-004 records Room of Requirement concealment, and hbp-ch24-005 records the broken cabinet in the Room of Hidden Things; this entry adds the completed paired-cabinet passage and Death Eater entry.
+  - Notes: Draco supplies the explanation under pressure; the passage does not show the repair work or cabinet transit directly.
 
 #### Section: Wall-disguised shortcut toward Potions
 

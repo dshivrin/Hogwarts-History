@@ -454,6 +454,7 @@ tags:
     - hbp-ch21-001
     - hbp-ch22-001
     - hbp-ch25-007
+    - hbp-ch27-001
     - ootp-ch03-003
     - ootp-ch23-001
     output_yaml:
@@ -470,6 +471,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -591,6 +593,10 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
   astronomy-tower:
     entries:
+    - hbp-ch27-002
+    - hbp-ch27-003
+    - hbp-ch27-004
+    - hbp-ch27-007
     - ootp-ch31-006
     - poa-ch09-004
     - ps-ch15-001
@@ -598,6 +604,7 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   atrium:
     entries:
     - ootp-ch07-002
@@ -680,9 +687,11 @@ tags:
     entries:
     - gof-ch14-005
     - gof-ch34-003
+    - hbp-ch27-007
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   azkaban:
     entries:
     - cos-ch12-007
@@ -1175,11 +1184,13 @@ tags:
     - hbp-ch12-006
     - hbp-ch13-002
     - hbp-ch20-006
+    - hbp-ch27-005
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   boris-the-bewildered:
     entries:
     - gof-ch23-007
@@ -1255,6 +1266,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  brooms:
+    entries:
+    - hbp-ch27-003
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   broomstick:
     entries:
     - cos-ch03-005
@@ -1522,6 +1538,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+  castle-boundary:
+    entries:
+    - hbp-ch27-003
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   castle-communications:
     entries:
     - hbp-ch08-001
@@ -2805,9 +2826,11 @@ tags:
     entries:
     - hbp-ch12-006
     - hbp-ch24-001
+    - hbp-ch27-006
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   cursed-objects:
     entries:
     - hbp-ch12-006
@@ -2825,9 +2848,11 @@ tags:
     entries:
     - hbp-ch21-004
     - hbp-ch25-006
+    - hbp-ch27-006
     output_yaml:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   da-meetings:
     entries:
     - ootp-ch19-001
@@ -2990,10 +3015,12 @@ tags:
     - gof-ch09-007
     - gof-ch10-003
     - gof-ch27-005
+    - hbp-ch27-002
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   dark-objects:
     entries:
     - hbp-ch11-007
@@ -3035,6 +3062,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+  death-eater-infiltration:
+    entries:
+    - hbp-ch27-005
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   death-eaters:
     entries:
     - gof-ch09-001
@@ -3054,6 +3086,8 @@ tags:
     - hbp-ch07-007
     - hbp-ch17-005
     - hbp-ch20-007
+    - hbp-ch27-002
+    - hbp-ch27-007
     - ootp-ch04-005
     - ootp-ch05-005
     - ootp-ch06-004
@@ -3083,6 +3117,7 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   death-witnesses:
     entries:
     - ootp-ch21-001
@@ -3535,8 +3570,10 @@ tags:
   disarming:
     entries:
     - gof-ch29-004
+    - hbp-ch27-004
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   disarming-charm:
     entries:
     - cos-ch11-003
@@ -3784,6 +3821,7 @@ tags:
     - hbp-ch15-007
     - hbp-ch16-002
     - hbp-ch16-003
+    - hbp-ch27-004
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
@@ -3791,6 +3829,7 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   dragon-breeds:
     entries:
     - gof-ch20-006
@@ -3960,6 +3999,8 @@ tags:
     - hbp-ch25-007
     - hbp-ch26-002
     - hbp-ch26-004
+    - hbp-ch27-003
+    - hbp-ch27-004
     - ootp-ch02-003
     - ootp-ch02-006
     - ootp-ch03-006
@@ -4122,11 +4163,17 @@ tags:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-26-the-cave.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   dumbledore-absences:
     entries:
     - hbp-ch25-006
     output_yaml:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+  dumbledore-death:
+    entries:
+    - hbp-ch27-007
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   dumbledore-headmastership:
     entries:
     - hbp-ch20-007
@@ -4404,6 +4451,7 @@ tags:
     - cos-ch14-003
     - gof-ch28-007
     - hbp-ch18-007
+    - hbp-ch27-001
     - ps-ch10-003
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
@@ -4411,6 +4459,7 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   emergency-transport:
     entries:
     - ootp-ch33-007
@@ -4442,6 +4491,11 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  enchanted-coins:
+    entries:
+    - hbp-ch27-006
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   enchanted-maze:
     entries:
     - gof-ch31-005
@@ -4890,9 +4944,11 @@ tags:
     entries:
     - hbp-ch06-007
     - hbp-ch16-004
+    - hbp-ch27-007
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   fidelius:
     entries:
     - hbp-ch02-004
@@ -4965,6 +5021,7 @@ tags:
     - hbp-ch21-007
     - hbp-ch22-003
     - hbp-ch24-006
+    - hbp-ch27-006
     - ootp-ch11-005
     - ootp-ch16-001
     - ootp-ch18-001
@@ -5023,6 +5080,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   financial-assistance:
     entries:
     - hbp-ch13-006
@@ -7341,6 +7399,7 @@ tags:
     - hbp-ch21-001
     - hbp-ch21-007
     - hbp-ch25-007
+    - hbp-ch27-001
     - ootp-ch16-001
     - ootp-ch16-002
     - ootp-ch25-006
@@ -7383,6 +7442,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -7431,6 +7491,7 @@ tags:
     - hbp-ch02-002
     - hbp-ch02-005
     - hbp-ch20-004
+    - hbp-ch27-002
     - ootp-ch23-001
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
@@ -7441,6 +7502,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -7942,6 +8004,7 @@ tags:
     - hbp-ch12-007
     - hbp-ch19-001
     - hbp-ch24-004
+    - hbp-ch27-001
     - ootp-ch14-004
     - ootp-ch19-004
     - ootp-ch32-001
@@ -7972,6 +8035,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   host-school:
     entries:
     - gof-ch17-002
@@ -8415,6 +8479,7 @@ tags:
     - hbp-ch12-006
     - hbp-ch21-006
     - hbp-ch24-001
+    - hbp-ch27-006
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
@@ -8424,6 +8489,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   impersonation:
     entries:
     - hbp-ch04-002
@@ -8711,6 +8777,7 @@ tags:
     - gof-ch25-001
     - gof-ch25-007
     - hbp-ch22-003
+    - hbp-ch27-004
     - ootp-ch03-005
     - ootp-ch20-001
     - ootp-ch29-005
@@ -8739,6 +8806,7 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -9525,6 +9593,7 @@ tags:
     - gof-ch13-002
     - gof-ch16-004
     - hbp-ch19-001
+    - hbp-ch27-001
     - poa-ch06-007
     - poa-ch18-007
     - ps-ch17-004
@@ -9539,6 +9608,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   madam-puddifoot:
     entries:
     - ootp-ch25-006
@@ -10595,6 +10665,11 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+  ministry-alert:
+    entries:
+    - hbp-ch27-003
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   ministry-approved-curriculum:
     entries:
     - ootp-ch12-006
@@ -11003,6 +11078,11 @@ tags:
     - cos-ch17-006
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  montague:
+    entries:
+    - hbp-ch27-005
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   moonstone:
     entries:
     - ootp-ch12-004
@@ -11363,6 +11443,11 @@ tags:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+  murder-sign:
+    entries:
+    - hbp-ch27-002
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   music:
     entries:
     - ps-ch16-003
@@ -11586,6 +11671,11 @@ tags:
     - ootp-ch27-002
     output_yaml:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  nonverbal-magic:
+    entries:
+    - hbp-ch27-004
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   nonverbal-spells:
     entries:
     - hbp-ch09-003
@@ -12573,8 +12663,10 @@ tags:
   poisoned-mead:
     entries:
     - hbp-ch18-007
+    - hbp-ch27-006
     output_yaml:
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   poisoning:
     entries:
     - gof-ch19-003
@@ -13454,9 +13546,11 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
   protective-enchantments:
     entries:
+    - hbp-ch27-003
     - ootp-ch34-006
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   protective-escort:
     entries:
     - hbp-ch06-003
@@ -14212,6 +14306,7 @@ tags:
     - hbp-ch21-005
     - hbp-ch24-005
     - hbp-ch25-003
+    - hbp-ch27-005
     - ootp-ch18-005
     - ootp-ch18-006
     - ootp-ch21-004
@@ -14227,6 +14322,12 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  rosmerta:
+    entries:
+    - hbp-ch27-006
+    output_yaml:
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   rotating-room:
     entries:
     - ootp-ch34-003
@@ -14757,6 +14858,7 @@ tags:
     - gof-ch25-007
     - gof-ch37-006
     - hbp-ch12-001
+    - hbp-ch27-005
     - ootp-ch17-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
@@ -14766,6 +14868,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   school-security-threat:
     entries:
     - hbp-ch06-007
@@ -14940,6 +15043,7 @@ tags:
     - hbp-ch12-001
     - hbp-ch16-004
     - hbp-ch18-005
+    - hbp-ch27-007
     - ootp-ch04-004
     - ootp-ch04-007
     - ootp-ch05-004
@@ -14967,6 +15071,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -15690,6 +15795,8 @@ tags:
     - hbp-ch24-006
     - hbp-ch25-004
     - hbp-ch25-005
+    - hbp-ch27-001
+    - hbp-ch27-007
     - ootp-ch04-005
     - ootp-ch15-002
     - ootp-ch38-004
@@ -15727,6 +15834,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -18335,9 +18443,11 @@ tags:
     entries:
     - hbp-ch06-007
     - hbp-ch24-005
+    - hbp-ch27-005
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   vanishing-spells:
     entries:
     - ootp-ch13-003
@@ -18707,6 +18817,7 @@ tags:
     - hbp-ch22-003
     - hbp-ch24-001
     - hbp-ch25-006
+    - hbp-ch27-002
     - ootp-ch09-003
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
@@ -18724,6 +18835,7 @@ tags:
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   water-trap:
     entries:
     - hbp-ch26-007
