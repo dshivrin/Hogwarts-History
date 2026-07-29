@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-28'
+updated: '2026-07-29'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -15616,6 +15616,106 @@ by_entry:
     - student-licensing
     source_unit: hbp-ch25
     output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
+  hbp-ch26-001:
+    title: 'Tom Riddle Before Hogwarts: Orphanage Evidence and Early Magical Cruelty'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cave
+    - childhood-history
+    - dumbledore-investigation
+    - orphanage
+    - tom-riddle
+    - underage-magic
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch26-002:
+    title: 'Reading Magical Buildings and Hidden Places: Residual Magic and Expert
+      Detection'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - cave
+    - concealed-entrance
+    - dumbledore
+    - magical-expertise
+    - magical-traces
+    - voldemort-defenses
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch26-003:
+    title: 'Dark Protections and Entry Conditions: Blood Payment and Weakening Defenses'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - blood-magic
+    - cave
+    - concealed-entrance
+    - dark-magic
+    - security
+    - voldemort-defenses
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch26-004:
+    title: 'Hidden Access Systems: Enchanted Transport and Residual Signatures'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore
+    - enchanted-boat
+    - horcrux
+    - lake
+    - magical-traces
+    - voldemort-defenses
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch26-005:
+    title: 'Age, Qualification, and Magical Recognition: Underage Wizards in Adult
+      Enchantments'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - enchanted-boat
+    - magical-power
+    - qualification
+    - student-age
+    - underage-magic
+    - voldemort-defenses
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch26-006:
+    title: 'Layered Dark Protections: Potion Barriers and Forced Procedures'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - basin
+    - horcrux
+    - magical-barrier
+    - potion
+    - transfiguration-limits
+    - voldemort-defenses
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
+  hbp-ch26-007:
+    title: 'Inferi and Dark Creature Defense: Fire, Cold, and Animated Corpses'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - aguamenti
+    - dark-creatures
+    - horcrux
+    - inferi
+    - protective-fire
+    - water-trap
+    source_unit: hbp-ch26
+    output_yaml: sources/book-06/chapter-26-the-cave.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -15707,6 +15807,8 @@ by_tag:
   - gof-ch17-001
   aging-potion:
   - gof-ch16-004
+  aguamenti:
+  - hbp-ch26-007
   alastor-moody:
   - gof-ch35-006
   - gof-ch36-001
@@ -16002,6 +16104,8 @@ by_tag:
   - cos-ch17-002
   - cos-ch17-006
   - ootp-ch16-005
+  basin:
+  - hbp-ch26-006
   bathilda-bagshot:
   - poa-ch01-001
   bathroom:
@@ -16097,6 +16201,8 @@ by_tag:
   - gof-ch22-004
   - gof-ch24-003
   - gof-ch31-006
+  blood-magic:
+  - hbp-ch26-003
   blood-protection:
   - hbp-ch03-007
   - ootp-ch02-006
@@ -16392,6 +16498,9 @@ by_tag:
   - gof-ch05-003
   cave:
   - gof-ch27-006
+  - hbp-ch26-001
+  - hbp-ch26-002
+  - hbp-ch26-003
   cedric-diggory:
   - gof-ch06-004
   - gof-ch16-007
@@ -16518,6 +16627,8 @@ by_tag:
   - poa-ch15-003
   child-safety:
   - hbp-ch16-004
+  childhood-history:
+  - hbp-ch26-001
   chocolate-cauldrons:
   - hbp-ch18-006
   chocolate-frog-card:
@@ -16666,6 +16777,8 @@ by_tag:
   concealed-doors:
   - cos-ch12-005
   concealed-entrance:
+  - hbp-ch26-002
+  - hbp-ch26-003
   - ootp-ch22-004
   concealed-route:
   - poa-ch20-001
@@ -16955,6 +17068,7 @@ by_tag:
   - ootp-ch36-002
   dark-creatures:
   - gof-ch14-001
+  - hbp-ch26-007
   - ootp-ch05-005
   dark-detectors:
   - gof-ch20-003
@@ -16969,6 +17083,7 @@ by_tag:
   - cos-ch09-006
   - hbp-ch18-002
   - hbp-ch24-004
+  - hbp-ch26-003
   - ps-ch11-006
   - ps-ch12-004
   dark-mark:
@@ -17483,6 +17598,8 @@ by_tag:
   - hbp-ch23-005
   - hbp-ch25-005
   - hbp-ch25-007
+  - hbp-ch26-002
+  - hbp-ch26-004
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17562,6 +17679,8 @@ by_tag:
   - hbp-ch25-006
   dumbledore-headmastership:
   - hbp-ch20-007
+  dumbledore-investigation:
+  - hbp-ch26-001
   dumbledore-judgment:
   - hbp-ch16-003
   dumbledore-lessons:
@@ -17700,6 +17819,9 @@ by_tag:
   - poa-ch03-002
   empty-classrooms:
   - gof-ch29-004
+  enchanted-boat:
+  - hbp-ch26-004
+  - hbp-ch26-005
   enchanted-ceiling:
   - cos-ch05-004
   - cos-ch06-001
@@ -19340,6 +19462,10 @@ by_tag:
   - poa-ch14-004
   horace-slughorn:
   - hbp-ch05-004
+  horcrux:
+  - hbp-ch26-004
+  - hbp-ch26-006
+  - hbp-ch26-007
   horcruxes:
   - hbp-ch18-002
   - hbp-ch20-001
@@ -19621,6 +19747,7 @@ by_tag:
   - hbp-ch04-002
   - hbp-ch09-003
   - hbp-ch21-006
+  - hbp-ch26-007
   influential-students:
   - hbp-ch07-005
   informal-custom:
@@ -19842,6 +19969,7 @@ by_tag:
   - cos-ch05-002
   - cos-ch16-007
   - gof-ch11-006
+  - hbp-ch26-004
   - poa-ch05-005
   - ps-ch06-007
   - ps-ch12-001
@@ -20147,6 +20275,7 @@ by_tag:
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
+  - hbp-ch26-006
   magical-beings:
   - ootp-ch20-003
   - ootp-ch33-003
@@ -20216,6 +20345,8 @@ by_tag:
   - poa-ch03-003
   magical-evidence:
   - gof-ch34-004
+  magical-expertise:
+  - hbp-ch26-002
   magical-eye:
   - gof-ch19-003
   - gof-ch25-007
@@ -20286,6 +20417,8 @@ by_tag:
   - ootp-ch10-004
   magical-portraits:
   - hbp-ch01-001
+  magical-power:
+  - hbp-ch26-005
   magical-records:
   - ootp-ch35-002
   magical-remedies:
@@ -20356,6 +20489,9 @@ by_tag:
   - gof-ch23-003
   magical-theory:
   - ootp-ch38-006
+  magical-traces:
+  - hbp-ch26-002
+  - hbp-ch26-004
   magical-transport:
   - gof-ch04-004
   - poa-ch03-002
@@ -21188,6 +21324,7 @@ by_tag:
   - ootp-ch09-007
   orphanage:
   - hbp-ch13-003
+  - hbp-ch26-001
   out-of-bounds:
   - poa-ch19-002
   - ps-ch15-001
@@ -21551,6 +21688,8 @@ by_tag:
   - ootp-ch03-004
   post-riot-cleanup:
   - gof-ch10-001
+  potion:
+  - hbp-ch26-006
   potion-ingredients:
   - cos-ch11-002
   - gof-ch25-006
@@ -21902,6 +22041,8 @@ by_tag:
   - ootp-ch34-006
   protective-escort:
   - hbp-ch06-003
+  protective-fire:
+  - hbp-ch26-007
   protective-magic:
   - gof-ch33-004
   - hbp-ch02-004
@@ -21975,6 +22116,8 @@ by_tag:
   - hbp-ch06-006
   quaffle:
   - cos-ch07-001
+  qualification:
+  - hbp-ch26-005
   quibbler:
   - ootp-ch10-005
   - ootp-ch25-007
@@ -22659,6 +22802,7 @@ by_tag:
   - hbp-ch24-004
   security:
   - gof-ch15-006
+  - hbp-ch26-003
   - ootp-ch07-002
   - ootp-ch34-002
   - ootp-ch34-003
@@ -23244,6 +23388,8 @@ by_tag:
   - cos-ch04-003
   student-activism:
   - gof-ch19-002
+  student-age:
+  - hbp-ch26-005
   student-arrival:
   - hbp-ch08-001
   student-attacks:
@@ -23816,6 +23962,7 @@ by_tag:
   - hbp-ch17-006
   - hbp-ch20-003
   - hbp-ch23-003
+  - hbp-ch26-001
   tom-riddle-diary:
   - cos-ch13-004
   tom-riddle-senior:
@@ -23886,6 +24033,8 @@ by_tag:
   - cos-ch18-006
   transfiguration-detention:
   - hbp-ch12-007
+  transfiguration-limits:
+  - hbp-ch26-006
   transfiguration-punishment:
   - gof-ch13-006
   transfigured-chessmen:
@@ -24039,6 +24188,8 @@ by_tag:
   - gof-ch04-005
   - gof-ch06-001
   - hbp-ch17-007
+  - hbp-ch26-001
+  - hbp-ch26-005
   - ootp-ch01-003
   - ootp-ch02-002
   - ootp-ch07-001
@@ -24199,6 +24350,12 @@ by_tag:
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
+  voldemort-defenses:
+  - hbp-ch26-002
+  - hbp-ch26-003
+  - hbp-ch26-004
+  - hbp-ch26-005
+  - hbp-ch26-006
   voldemort-denial:
   - ootp-ch12-007
   voldemort-fall:
@@ -24299,6 +24456,8 @@ by_tag:
   - hbp-ch24-001
   - hbp-ch25-006
   - ootp-ch09-003
+  water-trap:
+  - hbp-ch26-007
   weasley-family:
   - cos-ch04-003
   - gof-ch03-003

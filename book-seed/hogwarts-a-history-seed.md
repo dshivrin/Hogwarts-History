@@ -11569,6 +11569,105 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Corroborates: `gof-ch12-007`, `gof-ch12-004`, `gof-ch14-007`. gof-ch12-007 covers the Triwizard revival and participating schools; gof-ch12-004 and gof-ch14-007 cover Hogwarts house-elf labor and S.P.E.W.; this entry adds an explicit Hogwarts: A History citation and reliability critique.
   - Notes: Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
 
+## Part: Part II - Founders, Heirs, and Hidden Histories
+
+### Chapter: Tom Riddle Before Hogwarts
+
+#### Section: Orphanage Evidence and Early Magical Cruelty
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore reconstructs a pre-Hogwarts or early-youth episode in which Riddle reached an otherwise inaccessible coastal rock and terrorized two orphanage children, showing how later Hogwarts evidence connects to Riddle's hidden childhood geography.
+
+- **Supporting evidence:** Dumbledore reconstructs a pre-Hogwarts or early-youth episode in which Riddle reached an otherwise inaccessible coastal rock and terrorized two orphanage children, showing how later Hogwarts evidence connects to Riddle's hidden childhood geography.
+  - Quote: "only ever Tom Riddle and his youthful victims"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2884, `hbp-ch26-001`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The evidence is Dumbledore's reconstruction, not a direct memory scene from the orphanage outing.
+
+## Part: Part III - Students, Status, and Magical Capacity
+
+### Chapter: Age, Qualification, and Magical Recognition
+
+#### Section: Underage Wizards in Adult Enchantments
+
+Summary: The available evidence includes 1 source item, led by: The boat's enchantment appears calibrated to the magical power of adult qualified wizards, allowing Dumbledore to exploit Voldemort's underestimation of a sixteen-year-old student.
+
+- **Supporting evidence:** The boat's enchantment appears calibrated to the magical power of adult qualified wizards, allowing Dumbledore to exploit Voldemort's underestimation of a sixteen-year-old student.
+  - Quote: "the amount of magical power that crossed his lake"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2892, `hbp-ch26-005`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: Dumbledore presents the mechanism as an inference, not as a tested technical specification.
+
+## Part: Part IV - Architecture, Concealment, and Protective Magic
+
+### Chapter: Dark Protections and Entry Conditions
+
+#### Section: Blood Payment and Weakening Defenses
+
+Summary: The available evidence includes 1 source item, led by: The cave entrance is protected by a blood-payment condition that forces entry-seekers to weaken themselves before passing through a concealed archway.
+
+- **Supporting evidence:** The cave entrance is protected by a blood-payment condition that forces entry-seekers to weaken themselves before passing through a concealed archway.
+  - Quote: "Blood, if I am not much mistaken"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2887, `hbp-ch26-003`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The origin date of the enchantment is inferred from Voldemort's Horcrux concealment history rather than directly stated.
+
+### Chapter: Hidden Access Systems
+
+#### Section: Enchanted Transport and Residual Signatures
+
+Summary: The available evidence includes 1 source item, led by: The hidden boat and chain show Voldemort's access mechanism: only someone capable of finding its magical trace can cross the lake without immediately provoking the guardians.
+
+- **Supporting evidence:** The hidden boat and chain show Voldemort's access mechanism: only someone capable of finding its magical trace can cross the lake without immediately provoking the guardians.
+  - Quote: "Magic always leaves traces"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2891, `hbp-ch26-004`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The boat is outside Hogwarts and functions as comparative magical architecture rather than direct castle evidence.
+
+### Chapter: Layered Dark Protections
+
+#### Section: Potion Barriers and Forced Procedures
+
+Summary: The available evidence includes 1 source item, led by: The basin defense combines an invisible barrier, resistance to several forms of magical removal or alteration, and a compulsion-like solution that incapacitates the intruder while requiring continued drinking.
+
+- **Supporting evidence:** The basin defense combines an invisible barrier, resistance to several forms of magical removal or alteration, and a compulsion-like solution that incapacitates the intruder while requiring continued drinking.
+  - Quote: "this potion is supposed to be drunk"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2895, `hbp-ch26-006`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The entry summarizes the technical barrier and intended effect; Dumbledore's later potion-induced visions are not independently explained here.
+
+### Chapter: Reading Magical Buildings and Hidden Places
+
+#### Section: Residual Magic and Expert Detection
+
+Summary: The available evidence includes 1 source item, led by: The scene gives a rare direct example of expert magical detection: Dumbledore reads residual enchantment and locates hidden Dark magic through close examination rather than noisy spellwork.
+
+- **Supporting evidence:** The scene gives a rare direct example of expert magical detection: Dumbledore reads residual enchantment and locates hidden Dark magic through close examination rather than noisy spellwork.
+  - Quote: "It has known magic"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2886, `hbp-ch26-002`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The passage demonstrates the method but does not name a formal spell or school-taught discipline.
+
+## Part: Part V - Magical Creatures, Beings, and Dark Forces
+
+### Chapter: Inferi and Dark Creature Defense
+
+#### Section: Fire, Cold, and Animated Corpses
+
+Summary: The available evidence includes 1 source item, led by: The final defense forces the intruder to seek lake water, activating Inferi guardians that resist ordinary disabling or cutting spells but recoil from sustained protective fire.
+
+- **Supporting evidence:** The final defense forces the intruder to seek lake water, activating Inferi guardians that resist ordinary disabling or cutting spells but recoil from sustained protective fire.
+  - Quote: "an army of the dead rising"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, PDF p. 2901, `hbp-ch26-007`, `sources/book-06/chapter-26-the-cave.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The account is combat observation under extreme conditions, not a controlled lesson or formal taxonomy.
+
 ## Part: Peoples, Beings, and Magical Society
 
 ### Chapter: Ghosts, Portraits, and Castle Memory

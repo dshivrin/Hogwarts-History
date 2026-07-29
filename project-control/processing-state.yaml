@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
-  chapter_number: 25
-  chapter_title: Chapter Twenty-Five - The Seer Overheard
-  page_start: 2866
-  page_end: 2883
-  output_yaml: sources/book-06/chapter-25-the-seer-overheard.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
   chapter_number: 26
   chapter_title: Chapter Twenty-Six - The Cave
   page_start: 2884
   page_end: 2904
   output_yaml: sources/book-06/chapter-26-the-cave.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2905
   page_end: 2919
   output_yaml: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapter_number: 28
+  chapter_title: Chapter Twenty-Eight - Flight of the Prince
+  page_start: 2920
+  page_end: 2930
+  output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

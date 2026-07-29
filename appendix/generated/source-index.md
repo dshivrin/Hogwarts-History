@@ -163,3 +163,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch23`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, pages 2829-2846, 7 entries, 0 explicit references.
 - `hbp-ch24`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, pages 2847-2865, 7 entries, 0 explicit references.
 - `hbp-ch25`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, pages 2866-2883, 7 entries, 0 explicit references.
+- `hbp-ch26`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, pages 2884-2904, 7 entries, 0 explicit references.

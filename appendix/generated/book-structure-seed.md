@@ -961,6 +961,32 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
 
+## Part II - Founders, Heirs, and Hidden Histories
+
+- Tom Riddle Before Hogwarts
+  - Orphanage Evidence and Early Magical Cruelty
+
+## Part III - Students, Status, and Magical Capacity
+
+- Age, Qualification, and Magical Recognition
+  - Underage Wizards in Adult Enchantments
+
+## Part IV - Architecture, Concealment, and Protective Magic
+
+- Dark Protections and Entry Conditions
+  - Blood Payment and Weakening Defenses
+- Hidden Access Systems
+  - Enchanted Transport and Residual Signatures
+- Layered Dark Protections
+  - Potion Barriers and Forced Procedures
+- Reading Magical Buildings and Hidden Places
+  - Residual Magic and Expert Detection
+
+## Part V - Magical Creatures, Beings, and Dark Forces
+
+- Inferi and Dark Creature Defense
+  - Fire, Cold, and Animated Corpses
+
 ## Peoples, Beings, and Magical Society
 
 - Ghosts, Portraits, and Castle Memory
