@@ -9503,6 +9503,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
 
 ### Chapter: The Second War and Hogwarts Governance
 
+#### Section: Ministry pressure after Dumbledore's funeral
+
+Summary: The available evidence includes 1 source item, led by: The Ministry reconstructs Harry's presence at Dumbledore's final mission from tower evidence, seeks information about Dumbledore, offers Auror protection, and again pressures Harry to become a public morale symbol.
+
+- **Corroboration:** The Ministry reconstructs Harry's presence at Dumbledore's final mission from tower evidence, seeks information about Dumbledore, offers Auror protection, and again pressures Harry to become a public morale symbol.
+  - Quote: "The Ministry can add two and two"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2961, `hbp-ch30-006`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch16-007`. hbp-ch16-007 records Scrimgeour's earlier attempt to recruit Harry as a morale symbol and ask about Dumbledore's Hogwarts absences; this entry adds the post-funeral approach, tower-evidence inference, and renewed offer of Auror protection.
+  - Notes: Scrimgeour's source for the tower report is unnamed, and Harry refuses to confirm operational details.
+
 #### Section: Ministry pressure, Harry's public role, and Dumbledore's independence
 
 Summary: The available evidence includes 1 source item, led by: Scrimgeour says Dumbledore blocked Ministry access to Harry, tries to use Harry's Chosen One reputation for public morale, offers Auror access, and asks about Dumbledore's absences from Hogwarts.
@@ -10969,6 +10981,18 @@ Summary: The available evidence includes 1 source item, led by: The private Occl
 
 ### Chapter: Headmasters, Headmistresses, and Their Office
 
+#### Section: Dumbledore's lakeside tomb
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's burial culminates in a magical lakeside memorial: white flames and smoke give way to a white marble tomb that encloses both the body and table.
+
+- **Corroboration:** Dumbledore's burial culminates in a magical lakeside memorial: white flames and smoke give way to a white marble tomb that encloses both the body and table.
+  - Quote: "a white marble tomb, encasing Dumbledore's body"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2958, `hbp-ch30-005`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `hbp-ch29-007`. hbp-ch29-007 records the intended Hogwarts burial and student tribute; this entry records the completed magical tomb and its lakeside placement.
+  - Notes: The passage does not identify who cast or controlled the memorial magic.
+
 #### Section: Succession and the headmaster portrait tradition
 
 Summary: The available evidence includes 1 source item, led by: After Dumbledore's death, McGonagall inherits the headmaster's office as headmistress, and Dumbledore immediately appears among the portraits of dead Hogwarts heads.
@@ -11188,6 +11212,20 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
 
 ## Part: Hogwarts in Times of Crisis
 
+### Chapter: Crisis Authority and School Closure
+
+#### Section: Student uncertainty after the funeral
+
+Summary: The available evidence includes 1 source item, led by: The trio treat Hogwarts's future as uncertain after Dumbledore's funeral: Ron argues the school may be as safe as anywhere, but Harry says he will not return even if it reopens and redirects his life toward the Horcrux hunt.
+
+- **Corroboration:** The trio treat Hogwarts's future as uncertain after Dumbledore's funeral: Ron argues the school may be as safe as anywhere, but Harry says he will not return even if it reopens and redirects his life toward the Horcrux hunt.
+  - Quote: "How can Hogwarts close?"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2963, `hbp-ch30-007`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `hbp-ch29-006`, `hbp-ch19-002`, `cos-ch16-005`. hbp-ch29-006 records formal reopening deliberation, hbp-ch19-002 records earlier wartime closure pressure, and cos-ch16-005 records a prior crisis closure precedent; this entry adds the post-funeral student perspective and Harry's explicit nonreturn decision.
+  - Notes: The actual reopening decision and Deathly Hallows-era attendance outcomes are outside this chapter.
+
 ### Chapter: Death Eater Infiltration and the Tower Battle
 
 #### Section: Corridor defense below the Astronomy Tower
@@ -11280,6 +11318,30 @@ Summary: The available evidence includes 1 source item, led by: Staff can arrang
   - Classification: later_editorial_note | Confidence: high
   - Reference type: institutional_custom
   - Notes: The funeral has not yet occurred in this chapter, and Ministry approval remains a condition in McGonagall's wording.
+
+#### Section: Schoolwide lakeside funeral staging
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's funeral is staged as a schoolwide lakeside ceremony: the Express is timed after it, students move under Heads of Houses, staff-table symbolism marks the loss, and ghosts and outside wizarding figures attend.
+
+- **Corroboration:** Dumbledore's funeral is staged as a schoolwide lakeside ceremony: the Express is timed after it, students move under Heads of Houses, staff-table symbolism marks the loss, and ghosts and outside wizarding figures attend.
+  - Quote: "Please follow your Heads of Houses out into the grounds"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2954, `hbp-ch30-003`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `hbp-ch29-007`. hbp-ch29-007 records the decision to keep students for tribute and potential Hogwarts burial; this entry adds the actual timing, procession, venue, attendees, and staff-table observances.
+  - Notes: The officiant is not named, and the passage does not state whether this ceremony follows an established Hogwarts rule or an exceptional plan.
+
+#### Section: Suspended lessons and funeral arrival logistics
+
+Summary: The available evidence includes 1 source item, led by: After Dumbledore's murder, ordinary schooling stops at once: lessons and exams are suspended, some parents remove students, Hogsmeade fills with funeral visitors, and Ministry officials stay inside the castle.
+
+- **Corroboration:** After Dumbledore's murder, ordinary schooling stops at once: lessons and exams are suspended, some parents remove students, Hogsmeade fills with funeral visitors, and Ministry officials stay inside the castle.
+  - Quote: "All lessons were suspended, all examinations postponed"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2949, `hbp-ch30-001`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `hbp-ch29-006`, `hbp-ch29-007`, `hbp-ch19-002`. hbp-ch29-006 records the reopening debate, hbp-ch29-007 records proposed student transport and funeral tribute, and hbp-ch19-002 records earlier parent-withdrawal pressure; this entry adds the actual post-death suspension of lessons and examinations plus visitor accommodation.
+  - Notes: The passage does not state who formally ordered the suspension or whether all postponed examinations were later canceled.
 
 ### Chapter: Security and Restricted Objects
 
@@ -11674,6 +11736,20 @@ Summary: The available evidence includes 1 source item, led by: Fawkes's phoenix
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: portrait_or_ghost_lore
   - Notes: Harry interprets Fawkes's departure without direct explanation from the phoenix or a staff source.
+
+### Chapter: The Lake, Forest, and Non-Human Neighbors
+
+#### Section: Non-human attendance at Dumbledore's funeral
+
+Summary: The available evidence includes 1 source item, led by: Magical residents and non-human communities around Hogwarts join Dumbledore's funeral: merpeople sing in the lake, Grawp mourns beside Hagrid, and centaurs observe from the Forest before offering arrows as tribute.
+
+- **Corroboration:** Magical residents and non-human communities around Hogwarts join Dumbledore's funeral: merpeople sing in the lake, Grawp mourns beside Hagrid, and centaurs observe from the Forest before offering arrows as tribute.
+  - Quote: "a chorus of merpeople singing"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2956, `hbp-ch30-004`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `gof-ch26-007`, `gof-ch27-001`, `hbp-ch04-004`. gof-ch26-007 and gof-ch27-001 record merpeople cooperation and Dumbledore's contact with the lake community, while hbp-ch04-004 records Hogwarts's centaur herd context; this entry adds their funeral participation and tribute.
+  - Notes: The merpeople song is not translated, and the centaurs' motives are interpreted through Harry's observation of their tribute.
 
 ## Part: Magical Residents and Hidden Histories
 
@@ -12315,6 +12391,18 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts library
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The clipping's date is not given here, and Potions award records are named as Hermione's intended next source rather than shown directly.
+
+#### Section: Old Prophet notices and staff biography research
+
+Summary: The available evidence includes 1 source item, led by: Hermione's library work continues after lessons stop, using old Daily Prophet notices to identify Eileen Prince as Snape's mother and explain the Half-Blood Prince name.
+
+- **Corroboration:** Hermione's library work continues after lessons stop, using old Daily Prophet notices to identify Eileen Prince as Snape's mother and explain the Half-Blood Prince name.
+  - Quote: "she was Snape's mother"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, PDF p. 2951, `hbp-ch30-002`, `sources/book-06/chapter-30-the-white-tomb.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch25-002`, `hbp-ch28-007`. hbp-ch25-002 records Hermione's earlier old-Prophet and award-record search for Eileen Prince, and hbp-ch28-007 records Snape's explicit Half-Blood Prince identity; this entry supplies the family-record link that explains the name.
+  - Notes: Hermione summarizes the Prophet notices rather than quoting full archival text, and the notices are family records rather than formal Hogwarts files.
 
 ## Part: Staff, Founders, and Notable Residents
 

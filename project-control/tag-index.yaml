@@ -675,6 +675,7 @@ tags:
     - hbp-ch06-003
     - hbp-ch08-001
     - hbp-ch11-002
+    - hbp-ch30-006
     - ootp-ch23-007
     - ootp-ch36-007
     output_yaml:
@@ -687,6 +688,7 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   avada-kedavra:
     entries:
     - gof-ch14-005
@@ -1035,12 +1037,15 @@ tags:
     - gof-ch26-005
     - gof-ch26-006
     - gof-ch26-007
+    - hbp-ch30-004
+    - hbp-ch30-005
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   black-market-study-aids:
     entries:
     - ootp-ch31-001
@@ -1370,8 +1375,10 @@ tags:
   burial:
     entries:
     - hbp-ch29-007
+    - hbp-ch30-005
     output_yaml:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   burrow:
     entries:
     - hbp-ch05-003
@@ -1592,6 +1599,11 @@ tags:
     - ootp-ch16-001
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  castle-ghosts:
+    entries:
+    - hbp-ch30-003
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   castle-grounds:
     entries:
     - ootp-ch33-001
@@ -1813,6 +1825,7 @@ tags:
     - hbp-ch04-004
     - hbp-ch15-005
     - hbp-ch20-002
+    - hbp-ch30-004
     - ootp-ch09-002
     - ootp-ch26-007
     - ootp-ch27-002
@@ -1836,6 +1849,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   ceremonial-duty:
     entries:
     - gof-ch22-002
@@ -2039,10 +2053,12 @@ tags:
     - hbp-ch03-001
     - hbp-ch07-003
     - hbp-ch16-007
+    - hbp-ch30-006
     output_yaml:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   christmas:
     entries:
     - gof-ch22-003
@@ -2703,6 +2719,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  crisis-logistics:
+    entries:
+    - hbp-ch30-001
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   crisis-magic:
     entries:
     - ootp-ch01-005
@@ -4070,6 +4091,7 @@ tags:
     - hbp-ch27-004
     - hbp-ch29-002
     - hbp-ch29-005
+    - hbp-ch30-006
     - ootp-ch02-003
     - ootp-ch02-006
     - ootp-ch03-006
@@ -4234,6 +4256,7 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   dumbledore-absences:
     entries:
     - hbp-ch25-006
@@ -4247,8 +4270,12 @@ tags:
   dumbledore-funeral:
     entries:
     - hbp-ch29-007
+    - hbp-ch30-001
+    - hbp-ch30-003
+    - hbp-ch30-004
     output_yaml:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   dumbledore-headmastership:
     entries:
     - hbp-ch20-007
@@ -4307,6 +4334,11 @@ tags:
     - hbp-ch16-002
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  dumbledore-tomb:
+    entries:
+    - hbp-ch30-005
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   dumbledores-army:
     entries:
     - hbp-ch07-004
@@ -4450,8 +4482,10 @@ tags:
   eileen-prince:
     entries:
     - hbp-ch25-002
+    - hbp-ch30-002
     output_yaml:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -4762,6 +4796,7 @@ tags:
     - cos-ch04-004
     - cos-ch16-001
     - cos-ch18-007
+    - hbp-ch30-001
     - ootp-ch23-003
     - ootp-ch29-001
     - ootp-ch30-005
@@ -4784,6 +4819,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   exceptional-instruction:
     entries:
     - hbp-ch04-007
@@ -5492,6 +5528,7 @@ tags:
     - hbp-ch04-004
     - hbp-ch11-005
     - hbp-ch22-005
+    - hbp-ch30-004
     - ootp-ch11-005
     - ootp-ch14-002
     - ootp-ch21-001
@@ -5529,6 +5566,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
@@ -6085,12 +6123,14 @@ tags:
   grawp:
     entries:
     - hbp-ch08-007
+    - hbp-ch30-004
     - ootp-ch30-006
     - ootp-ch33-006
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   great-hall:
     entries:
     - cos-ch01-001
@@ -6113,6 +6153,7 @@ tags:
     - hbp-ch08-003
     - hbp-ch15-001
     - hbp-ch18-003
+    - hbp-ch30-003
     - ootp-ch19-005
     - ootp-ch25-001
     - ootp-ch26-001
@@ -6167,6 +6208,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -6758,6 +6800,7 @@ tags:
     - hbp-ch22-002
     - hbp-ch24-004
     - hbp-ch28-007
+    - hbp-ch30-002
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
@@ -6767,6 +6810,7 @@ tags:
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   half-brother:
     entries:
     - ootp-ch30-006
@@ -6973,6 +7017,7 @@ tags:
     - cos-ch12-006
     - cos-ch14-006
     - hbp-ch09-004
+    - hbp-ch30-005
     - ootp-ch21-007
     - ps-ch04-002
     - ps-ch04-006
@@ -6987,6 +7032,7 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   headmaster-absence:
     entries:
     - hbp-ch12-001
@@ -7144,6 +7190,7 @@ tags:
     - hbp-ch18-003
     - hbp-ch19-003
     - hbp-ch29-006
+    - hbp-ch30-003
     - ootp-ch19-003
     - ps-ch08-006
     output_yaml:
@@ -7159,6 +7206,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   healer:
     entries:
     - ootp-ch22-006
@@ -7518,6 +7566,7 @@ tags:
     - hbp-ch21-007
     - hbp-ch25-007
     - hbp-ch27-001
+    - hbp-ch30-001
     - ootp-ch16-001
     - ootp-ch16-002
     - ootp-ch25-006
@@ -7561,6 +7610,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -7685,6 +7735,7 @@ tags:
     - hbp-ch07-005
     - hbp-ch07-007
     - hbp-ch29-007
+    - hbp-ch30-003
     - ootp-ch10-002
     - ootp-ch10-003
     - ootp-ch38-007
@@ -7712,6 +7763,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   hogwarts-four:
     entries:
     - cos-ch17-006
@@ -8081,6 +8133,11 @@ tags:
     - hbp-ch26-007
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  horcrux-mission:
+    entries:
+    - hbp-ch30-007
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   horcruxes:
     entries:
     - hbp-ch18-002
@@ -9215,6 +9272,11 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-06/chapter-26-the-cave.yaml
+  lakeside:
+    entries:
+    - hbp-ch30-003
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   language-learning:
     entries:
     - ootp-ch30-006
@@ -9360,6 +9422,7 @@ tags:
     - gof-ch26-002
     - gof-ch29-004
     - hbp-ch25-001
+    - hbp-ch30-002
     - ootp-ch16-006
     - ootp-ch19-004
     - ootp-ch24-006
@@ -9393,6 +9456,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   library-book:
     entries:
     - cos-ch16-003
@@ -10689,6 +10753,16 @@ tags:
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  memorial-customs:
+    entries:
+    - hbp-ch30-003
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
+  memorial-magic:
+    entries:
+    - hbp-ch30-005
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   memory:
     entries:
     - ps-ch02-005
@@ -10764,8 +10838,10 @@ tags:
   mermish:
     entries:
     - gof-ch26-007
+    - hbp-ch30-004
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   merope-gaunt:
     entries:
     - hbp-ch10-007
@@ -10778,10 +10854,12 @@ tags:
     - gof-ch25-003
     - gof-ch26-007
     - gof-ch27-001
+    - hbp-ch30-004
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   metamorph-medals:
     entries:
     - hbp-ch05-002
@@ -10881,6 +10959,11 @@ tags:
     - gof-ch08-006
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  ministry-delegation:
+    entries:
+    - hbp-ch30-001
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   ministry-departments:
     entries:
     - ootp-ch07-004
@@ -10911,8 +10994,10 @@ tags:
   ministry-interference:
     entries:
     - hbp-ch16-007
+    - hbp-ch30-006
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   ministry-intervention:
     entries:
     - gof-ch36-004
@@ -11979,8 +12064,10 @@ tags:
   old-prophets:
     entries:
     - hbp-ch25-002
+    - hbp-ch30-002
     output_yaml:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   old-punishments:
     entries:
     - ps-ch15-004
@@ -12347,9 +12434,11 @@ tags:
     entries:
     - hbp-ch19-002
     - hbp-ch29-006
+    - hbp-ch30-001
     output_yaml:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   parental-enforcement:
     entries:
     - hbp-ch17-007
@@ -12720,11 +12809,13 @@ tags:
     entries:
     - cos-ch17-005
     - hbp-ch29-002
+    - hbp-ch30-005
     - ootp-ch36-005
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   phoenix-feather:
     entries:
     - gof-ch18-007
@@ -12995,6 +13086,11 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  post-dumbledore:
+    entries:
+    - hbp-ch30-007
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   post-hogwarts-training:
     entries:
     - ootp-ch03-004
@@ -14304,6 +14400,11 @@ tags:
     - gof-ch28-007
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  reopening:
+    entries:
+    - hbp-ch30-007
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   replacement-keeper:
     entries:
     - hbp-ch19-005
@@ -14644,12 +14745,15 @@ tags:
     - hbp-ch19-002
     - hbp-ch29-006
     - hbp-ch29-007
+    - hbp-ch30-001
+    - hbp-ch30-007
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   school-closure-threat:
     entries:
     - cos-ch13-005
@@ -14871,6 +14975,11 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  school-monuments:
+    entries:
+    - hbp-ch30-005
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   school-networks:
     entries:
     - hbp-ch04-006
@@ -15189,8 +15298,10 @@ tags:
   scrimgeour:
     entries:
     - hbp-ch16-007
+    - hbp-ch30-006
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   sealed-entrances:
     entries:
     - poa-ch14-005
@@ -15246,6 +15357,7 @@ tags:
     - hbp-ch16-004
     - hbp-ch18-005
     - hbp-ch27-007
+    - hbp-ch30-007
     - ootp-ch04-004
     - ootp-ch04-007
     - ootp-ch05-004
@@ -15274,6 +15386,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -16005,6 +16118,7 @@ tags:
     - hbp-ch27-007
     - hbp-ch28-007
     - hbp-ch29-004
+    - hbp-ch30-002
     - ootp-ch04-005
     - ootp-ch15-002
     - ootp-ch38-004
@@ -16045,6 +16159,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -16361,8 +16476,10 @@ tags:
   staff-biography:
     entries:
     - gof-ch23-006
+    - hbp-ch30-002
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   staff-boundaries:
     entries:
     - gof-ch19-004
@@ -17145,6 +17262,7 @@ tags:
     entries:
     - gof-ch20-001
     - gof-ch26-002
+    - hbp-ch30-002
     - poa-ch11-003
     - ps-ch09-001
     - ps-ch11-002
@@ -17160,6 +17278,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   student-residence:
     entries:
     - cos-ch11-001
@@ -17382,8 +17501,10 @@ tags:
   student-withdrawal:
     entries:
     - hbp-ch11-002
+    - hbp-ch30-007
     output_yaml:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   student-workload:
     entries:
     - ootp-ch15-002
@@ -17784,9 +17905,11 @@ tags:
     entries:
     - gof-ch03-003
     - gof-ch04-001
+    - hbp-ch30-007
     output_yaml:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   term-dates:
     entries:
     - ps-ch04-002
@@ -18130,6 +18253,11 @@ tags:
     - gof-ch20-005
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
+  tower-battle:
+    entries:
+    - hbp-ch30-006
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   tower-dormitory:
     entries:
     - cos-ch01-001
@@ -19031,6 +19159,11 @@ tags:
     - ootp-ch38-001
     output_yaml:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+  wartime-publicity:
+    entries:
+    - hbp-ch30-006
+    output_yaml:
+    - sources/book-06/chapter-30-the-white-tomb.yaml
   wartime-security:
     entries:
     - hbp-ch04-003

@@ -676,5 +676,13 @@ sources:
     output_file: sources/book-06/chapter-29-the-phoenix-lament.yaml
   - number: 30
     title: Chapter Thirty - The White Tomb
-    status: pending
+    status: complete
     output_file: sources/book-06/chapter-30-the-white-tomb.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapters:
+  - number: 1
+    title: Chapter One - The Dark Lord Ascending
+    status: pending
+    output_file: sources/book-07/chapter-01-the-dark-lord-ascending.yaml

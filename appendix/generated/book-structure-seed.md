@@ -373,6 +373,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Founders, Headmasters, and Institutional Memory
 
 - Headmasters, Headmistresses, and Their Office
+  - Dumbledore's lakeside tomb
   - Succession and the headmaster portrait tradition
 - Known Heads of Hogwarts
   - Dilys Derwent, Healer and Headmistress
@@ -462,6 +463,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Hogwarts in Times of Crisis
 
+- Crisis Authority and School Closure
+  - Student uncertainty after the funeral
 - Death Eater Infiltration and the Tower Battle
   - Corridor defense below the Astronomy Tower
   - Dark Mark over Hogwarts
@@ -472,6 +475,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff-response failure and the cursed stair barrier
 - Death, Mourning, and Memorial Practice
   - Dumbledore's burial request and student tribute
+  - Schoolwide lakeside funeral staging
+  - Suspended lessons and funeral arrival logistics
 - Security and Restricted Objects
   - Arrival and Mail Screening
   - Coerced Hogsmeade accomplice and communication loophole
@@ -702,6 +707,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
 - The Second War and Hogwarts Governance
+  - Ministry pressure after Dumbledore's funeral
   - Ministry pressure, Harry's public role, and Dumbledore's independence
 - The Second War and Hogwarts Information Climate
   - Alternative press and Harry's Quibbler interview
@@ -921,6 +927,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Phoenixes and Headmaster Associations
   - Fawkes's lament and departure
+- The Lake, Forest, and Non-Human Neighbors
+  - Non-human attendance at Dumbledore's funeral
 
 ## Magical Residents and Hidden Histories
 
@@ -1407,6 +1415,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pensieve Evidence in the Headmaster's Office
 - School Records and Student Archives
   - Newspaper clippings and old award records
+  - Old Prophet notices and staff biography research
 
 ## Staff, Founders, and Notable Residents
 

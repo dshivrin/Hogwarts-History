@@ -5,12 +5,12 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 ## Current Source Unit
 
 - Source file: `pdfs/harrypotter.pdf`
-- Book group: `book-06`
-- Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Thirty - The White Tomb
-- Page range: 2949-2964
+- Book group: `book-07`
+- Book: `Harry Potter and the Deathly Hallows`
+- Chapter: Chapter One - The Dark Lord Ascending
+- Page range: 2976-2985
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-30-the-white-tomb.yaml`
+- Output YAML: `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
 
 ## Minimal Context
 

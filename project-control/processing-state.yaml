@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-06
   book: Harry Potter and the Half-Blood Prince
-  chapter_number: 29
-  chapter_title: Chapter Twenty-Nine - The Phoenix Lament
-  page_start: 2931
-  page_end: 2948
-  output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
   chapter_number: 30
   chapter_title: Chapter Thirty - The White Tomb
   page_start: 2949
   page_end: 2964
   output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2976
   page_end: 2985
   output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 2
+  chapter_title: Chapter Two - In Memoriam
+  page_start: 2986
+  page_end: 2997
+  output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

@@ -16036,6 +16036,116 @@ by_entry:
     - student-tribute
     source_unit: hbp-ch29
     output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch30-001:
+    title: 'Death, Mourning, and Memorial Practice: Suspended lessons and funeral
+      arrival logistics'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - crisis-logistics
+    - dumbledore-funeral
+    - exams
+    - hogsmeade
+    - ministry-delegation
+    - parent-withdrawals
+    - school-closure
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  hbp-ch30-002:
+    title: 'School Records and Student Archives: Old Prophet notices and staff biography
+      research'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - eileen-prince
+    - half-blood-prince
+    - library
+    - old-prophets
+    - snape
+    - staff-biography
+    - student-research
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  hbp-ch30-003:
+    title: 'Death, Mourning, and Memorial Practice: Schoolwide lakeside funeral staging'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - castle-ghosts
+    - dumbledore-funeral
+    - great-hall
+    - heads-of-house
+    - hogwarts-express
+    - lakeside
+    - memorial-customs
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  hbp-ch30-004:
+    title: 'The Lake, Forest, and Non-Human Neighbors: Non-human attendance at Dumbledore''s
+      funeral'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - black-lake
+    - centaurs
+    - dumbledore-funeral
+    - forbidden-forest
+    - grawp
+    - mermish
+    - merpeople
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  hbp-ch30-005:
+    title: 'Headmasters, Headmistresses, and Their Office: Dumbledore''s lakeside
+      tomb'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - black-lake
+    - burial
+    - dumbledore-tomb
+    - headmaster
+    - memorial-magic
+    - phoenix
+    - school-monuments
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  hbp-ch30-006:
+    title: 'The Second War and Hogwarts Governance: Ministry pressure after Dumbledore''s
+      funeral'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - aurors
+    - chosen-one
+    - dumbledore
+    - ministry-interference
+    - scrimgeour
+    - tower-battle
+    - wartime-publicity
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  hbp-ch30-007:
+    title: 'Crisis Authority and School Closure: Student uncertainty after the funeral'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - horcrux-mission
+    - post-dumbledore
+    - reopening
+    - school-closure
+    - second-war
+    - student-withdrawal
+    - term-boundaries
+    source_unit: hbp-ch30
+    output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -16348,6 +16458,7 @@ by_tag:
   - hbp-ch06-003
   - hbp-ch08-001
   - hbp-ch11-002
+  - hbp-ch30-006
   - ootp-ch23-007
   - ootp-ch36-007
   avada-kedavra:
@@ -16520,6 +16631,8 @@ by_tag:
   - gof-ch26-005
   - gof-ch26-006
   - gof-ch26-007
+  - hbp-ch30-004
+  - hbp-ch30-005
   black-market-study-aids:
   - ootp-ch31-001
   blaise-zabini:
@@ -16663,6 +16776,7 @@ by_tag:
   - poa-ch15-004
   burial:
   - hbp-ch29-007
+  - hbp-ch30-005
   burrow:
   - hbp-ch05-003
   burrow-security:
@@ -16765,6 +16879,8 @@ by_tag:
   - hbp-ch22-003
   castle-gates:
   - ootp-ch16-001
+  castle-ghosts:
+  - hbp-ch30-003
   castle-grounds:
   - ootp-ch33-001
   - poa-ch17-001
@@ -16870,6 +16986,7 @@ by_tag:
   - hbp-ch04-004
   - hbp-ch15-005
   - hbp-ch20-002
+  - hbp-ch30-004
   - ootp-ch09-002
   - ootp-ch26-007
   - ootp-ch27-002
@@ -16984,6 +17101,7 @@ by_tag:
   - hbp-ch03-001
   - hbp-ch07-003
   - hbp-ch16-007
+  - hbp-ch30-006
   christmas:
   - gof-ch22-003
   - gof-ch23-001
@@ -17275,6 +17393,8 @@ by_tag:
   crisis-governance:
   - cos-ch14-005
   - poa-ch21-001
+  crisis-logistics:
+  - hbp-ch30-001
   crisis-magic:
   - ootp-ch01-005
   - poa-ch20-005
@@ -17973,6 +18093,7 @@ by_tag:
   - hbp-ch27-004
   - hbp-ch29-002
   - hbp-ch29-005
+  - hbp-ch30-006
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -18054,6 +18175,9 @@ by_tag:
   - hbp-ch27-007
   dumbledore-funeral:
   - hbp-ch29-007
+  - hbp-ch30-001
+  - hbp-ch30-003
+  - hbp-ch30-004
   dumbledore-headmastership:
   - hbp-ch20-007
   dumbledore-investigation:
@@ -18081,6 +18205,8 @@ by_tag:
   - ootp-ch37-001
   dumbledore-protection:
   - hbp-ch16-002
+  dumbledore-tomb:
+  - hbp-ch30-005
   dumbledores-army:
   - hbp-ch07-004
   - ootp-ch15-007
@@ -18156,6 +18282,7 @@ by_tag:
   - ootp-ch28-003
   eileen-prince:
   - hbp-ch25-002
+  - hbp-ch30-002
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -18290,6 +18417,7 @@ by_tag:
   - cos-ch04-004
   - cos-ch16-001
   - cos-ch18-007
+  - hbp-ch30-001
   - ootp-ch23-003
   - ootp-ch29-001
   - ootp-ch30-005
@@ -18635,6 +18763,7 @@ by_tag:
   - hbp-ch04-004
   - hbp-ch11-005
   - hbp-ch22-005
+  - hbp-ch30-004
   - ootp-ch11-005
   - ootp-ch14-002
   - ootp-ch21-001
@@ -18904,6 +19033,7 @@ by_tag:
   - hbp-ch05-006
   grawp:
   - hbp-ch08-007
+  - hbp-ch30-004
   - ootp-ch30-006
   - ootp-ch33-006
   great-hall:
@@ -18927,6 +19057,7 @@ by_tag:
   - hbp-ch08-003
   - hbp-ch15-001
   - hbp-ch18-003
+  - hbp-ch30-003
   - ootp-ch19-005
   - ootp-ch25-001
   - ootp-ch26-001
@@ -19247,6 +19378,7 @@ by_tag:
   - hbp-ch22-002
   - hbp-ch24-004
   - hbp-ch28-007
+  - hbp-ch30-002
   half-brother:
   - ootp-ch30-006
   half-giant:
@@ -19352,6 +19484,7 @@ by_tag:
   - cos-ch12-006
   - cos-ch14-006
   - hbp-ch09-004
+  - hbp-ch30-005
   - ootp-ch21-007
   - ps-ch04-002
   - ps-ch04-006
@@ -19435,6 +19568,7 @@ by_tag:
   - hbp-ch18-003
   - hbp-ch19-003
   - hbp-ch29-006
+  - hbp-ch30-003
   - ootp-ch19-003
   - ps-ch08-006
   healer:
@@ -19611,6 +19745,7 @@ by_tag:
   - hbp-ch21-007
   - hbp-ch25-007
   - hbp-ch27-001
+  - hbp-ch30-001
   - ootp-ch16-001
   - ootp-ch16-002
   - ootp-ch25-006
@@ -19693,6 +19828,7 @@ by_tag:
   - hbp-ch07-005
   - hbp-ch07-007
   - hbp-ch29-007
+  - hbp-ch30-003
   - ootp-ch10-002
   - ootp-ch10-003
   - ootp-ch38-007
@@ -19875,6 +20011,8 @@ by_tag:
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
+  horcrux-mission:
+  - hbp-ch30-007
   horcruxes:
   - hbp-ch18-002
   - hbp-ch20-001
@@ -20393,6 +20531,8 @@ by_tag:
   - ps-ch12-001
   - ps-ch16-002
   - ps-ch17-006
+  lakeside:
+  - hbp-ch30-003
   language-learning:
   - ootp-ch30-006
   later-context:
@@ -20459,6 +20599,7 @@ by_tag:
   - gof-ch26-002
   - gof-ch29-004
   - hbp-ch25-001
+  - hbp-ch30-002
   - ootp-ch16-006
   - ootp-ch19-004
   - ootp-ch24-006
@@ -21075,6 +21216,10 @@ by_tag:
   membership:
   - ootp-ch04-004
   - ootp-ch05-003
+  memorial-customs:
+  - hbp-ch30-003
+  memorial-magic:
+  - hbp-ch30-005
   memory:
   - ps-ch02-005
   memory-charms:
@@ -21109,6 +21254,7 @@ by_tag:
   - gof-ch25-002
   mermish:
   - gof-ch26-007
+  - hbp-ch30-004
   merope-gaunt:
   - hbp-ch10-007
   - hbp-ch13-002
@@ -21116,6 +21262,7 @@ by_tag:
   - gof-ch25-003
   - gof-ch26-007
   - gof-ch27-001
+  - hbp-ch30-004
   metamorph-medals:
   - hbp-ch05-002
   metamorphmagus:
@@ -21157,6 +21304,8 @@ by_tag:
   - ootp-ch33-003
   ministry-crowd-control:
   - gof-ch08-006
+  ministry-delegation:
+  - hbp-ch30-001
   ministry-departments:
   - ootp-ch07-004
   ministry-discretion:
@@ -21170,6 +21319,7 @@ by_tag:
   - ootp-ch09-001
   ministry-interference:
   - hbp-ch16-007
+  - hbp-ch30-006
   ministry-intervention:
   - gof-ch36-004
   - ootp-ch11-006
@@ -21659,6 +21809,7 @@ by_tag:
   - cos-ch03-002
   old-prophets:
   - hbp-ch25-002
+  - hbp-ch30-002
   old-punishments:
   - ps-ch15-004
   old-textbook:
@@ -21835,6 +21986,7 @@ by_tag:
   parent-withdrawals:
   - hbp-ch19-002
   - hbp-ch29-006
+  - hbp-ch30-001
   parental-enforcement:
   - hbp-ch17-007
   parental-pressure:
@@ -22010,6 +22162,7 @@ by_tag:
   phoenix:
   - cos-ch17-005
   - hbp-ch29-002
+  - hbp-ch30-005
   - ootp-ch36-005
   phoenix-feather:
   - gof-ch18-007
@@ -22130,6 +22283,8 @@ by_tag:
   - gof-ch33-002
   - ootp-ch36-006
   - ootp-ch37-002
+  post-dumbledore:
+  - hbp-ch30-007
   post-hogwarts-training:
   - ootp-ch03-004
   post-riot-cleanup:
@@ -22752,6 +22907,8 @@ by_tag:
   - poa-ch20-002
   rennervate:
   - gof-ch28-007
+  reopening:
+  - hbp-ch30-007
   replacement-keeper:
   - hbp-ch19-005
   rescue-signal:
@@ -22908,6 +23065,8 @@ by_tag:
   - hbp-ch19-002
   - hbp-ch29-006
   - hbp-ch29-007
+  - hbp-ch30-001
+  - hbp-ch30-007
   school-closure-threat:
   - cos-ch13-005
   school-continuity:
@@ -23010,6 +23169,8 @@ by_tag:
   - gof-ch04-001
   - gof-ch05-006
   - poa-ch01-002
+  school-monuments:
+  - hbp-ch30-005
   school-networks:
   - hbp-ch04-006
   - hbp-ch05-001
@@ -23155,6 +23316,7 @@ by_tag:
   - ps-ch11-005
   scrimgeour:
   - hbp-ch16-007
+  - hbp-ch30-006
   sealed-entrances:
   - poa-ch14-005
   seasonal-decorations:
@@ -23188,6 +23350,7 @@ by_tag:
   - hbp-ch16-004
   - hbp-ch18-005
   - hbp-ch27-007
+  - hbp-ch30-007
   - ootp-ch04-004
   - ootp-ch04-007
   - ootp-ch05-004
@@ -23546,6 +23709,7 @@ by_tag:
   - hbp-ch27-007
   - hbp-ch28-007
   - hbp-ch29-004
+  - hbp-ch30-002
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -23698,6 +23862,7 @@ by_tag:
   - cos-ch11-003
   staff-biography:
   - gof-ch23-006
+  - hbp-ch30-002
   staff-boundaries:
   - gof-ch19-004
   staff-delegation:
@@ -24044,6 +24209,7 @@ by_tag:
   student-research:
   - gof-ch20-001
   - gof-ch26-002
+  - hbp-ch30-002
   - poa-ch11-003
   - ps-ch09-001
   - ps-ch11-002
@@ -24156,6 +24322,7 @@ by_tag:
   - ootp-ch24-003
   student-withdrawal:
   - hbp-ch11-002
+  - hbp-ch30-007
   student-workload:
   - ootp-ch15-002
   - ootp-ch31-001
@@ -24331,6 +24498,7 @@ by_tag:
   term-boundaries:
   - gof-ch03-003
   - gof-ch04-001
+  - hbp-ch30-007
   term-dates:
   - ps-ch04-002
   term-end-classes:
@@ -24484,6 +24652,8 @@ by_tag:
   - gof-ch35-004
   tournament-spectators:
   - gof-ch20-005
+  tower-battle:
+  - hbp-ch30-006
   tower-dormitory:
   - cos-ch01-001
   tower-stairs:
@@ -24916,6 +25086,8 @@ by_tag:
   - ps-ch14-002
   wartime-defense:
   - ootp-ch38-001
+  wartime-publicity:
+  - hbp-ch30-006
   wartime-security:
   - hbp-ch04-003
   - hbp-ch06-002
