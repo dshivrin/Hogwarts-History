@@ -3704,6 +3704,18 @@ Summary: The available evidence includes 1 source item, led by: Fudge reads a fo
 
 ### Chapter: Crisis Authority and School Closure
 
+#### Section: Reopening deliberation after Dumbledore's murder
+
+Summary: The available evidence includes 1 source item, led by: Following Dumbledore's murder, McGonagall treats Hogwarts's possible closure as a Head-of-House and governor-level decision, explicitly comparing the crisis to the Chamber of Secrets.
+
+- **Corroboration:** Following Dumbledore's murder, McGonagall treats Hogwarts's possible closure as a Head-of-House and governor-level decision, explicitly comparing the crisis to the Chamber of Secrets.
+  - Quote: "a terrible stain upon Hogwarts's history"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2944, `hbp-ch29-006`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `hbp-ch19-002`, `cos-ch16-005`, `cos-ch14-006`. hbp-ch19-002 records wartime parent-withdrawal and governor closure pressure, cos-ch16-005 records emergency school closure in the Chamber crisis, and cos-ch14-006 records governor authority; this entry adds the post-Dumbledore murder reopening debate and Head-of-House consultation.
+  - Notes: The final governor decision is deferred, and the Minister's delegation has not yet entered the room.
+
 #### Section: Wartime attacks and board-of-governors closure pressure
 
 Summary: The available evidence includes 1 source item, led by: Under wartime attack pressure, Hogwarts safety is framed as a governance issue: parents may remove children and the board of governors could consider closing the school if attempted murders continue.
@@ -10955,6 +10967,19 @@ Summary: The available evidence includes 1 source item, led by: The private Occl
 
 ## Part: Founders, Headmasters, and Institutional Memory
 
+### Chapter: Headmasters, Headmistresses, and Their Office
+
+#### Section: Succession and the headmaster portrait tradition
+
+Summary: The available evidence includes 1 source item, led by: After Dumbledore's death, McGonagall inherits the headmaster's office as headmistress, and Dumbledore immediately appears among the portraits of dead Hogwarts heads.
+
+- **Context:** After Dumbledore's death, McGonagall inherits the headmaster's office as headmistress, and Dumbledore immediately appears among the portraits of dead Hogwarts heads.
+  - Quote: "a new portrait had joined the ranks"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2943, `hbp-ch29-005`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The passage implies succession through deputy-headmistress status but does not quote an appointment document or governor decision.
+
 ### Chapter: Known Heads of Hogwarts
 
 #### Section: Dilys Derwent, Healer and Headmistress
@@ -11220,6 +11245,41 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore uses 
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: The spell used to immobilize Harry is not named in the passage.
+
+#### Section: Hospital-wing triage after the tower battle
+
+Summary: The available evidence includes 1 source item, led by: After the tower battle, the hospital wing becomes the triage center for students, staff, and Order allies; Bill's non-transformed werewolf attack leaves cursed wounds that Madam Pomfrey cannot fully cure.
+
+- **Context:** After the tower battle, the hospital wing becomes the triage center for students, staff, and Order allies; Bill's non-transformed werewolf attack leaves cursed wounds that Madam Pomfrey cannot fully cure.
+  - Quote: "there is no cure for werewolf bites"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2932, `hbp-ch29-001`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The long-term effects on Bill are uncertain in this chapter, and the medical assessment is provisional.
+
+#### Section: Staff-response failure and the cursed stair barrier
+
+Summary: The available evidence includes 1 source item, led by: The debrief shows emergency staff communication through Flitwick, Snape's disabling of a colleague in his office, and a cursed stair barrier that Snape could pass while defenders were repelled.
+
+- **Context:** The debrief shows emergency staff communication through Flitwick, Snape's disabling of a colleague in his office, and a cursed stair barrier that Snape could pass while defenders were repelled.
+  - Quote: "run straight through the cursed barrier"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2937, `hbp-ch29-004`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The exact barrier spell and Snape's method for passing it are inferred and not formally identified.
+
+### Chapter: Death, Mourning, and Memorial Practice
+
+#### Section: Dumbledore's burial request and student tribute
+
+Summary: The available evidence includes 1 source item, led by: Staff can arrange early Hogwarts Express transport during crisis, but agree students should stay to pay tribute if Dumbledore is buried at Hogwarts according to his wish.
+
+- **Context:** Staff can arrange early Hogwarts Express transport during crisis, but agree students should stay to pay tribute if Dumbledore is buried at Hogwarts according to his wish.
+  - Quote: "Hogwarts should be Dumbledore's final resting place"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2946, `hbp-ch29-007`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The funeral has not yet occurred in this chapter, and Ministry approval remains a condition in McGonagall's wording.
 
 ### Chapter: Security and Restricted Objects
 
@@ -11599,6 +11659,21 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
+
+## Part: Magical Residents and Creatures
+
+### Chapter: Phoenixes and Headmaster Associations
+
+#### Section: Fawkes's lament and departure
+
+Summary: The available evidence includes 1 source item, led by: Fawkes's phoenix lament travels across the Hogwarts grounds and into the castle, magically expressing communal grief before the phoenix leaves the school after Dumbledore.
+
+- **Supporting evidence:** Fawkes's phoenix lament travels across the Hogwarts grounds and into the castle, magically expressing communal grief before the phoenix leaves the school after Dumbledore.
+  - Quote: "echoed across the grounds and through the castle windows"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2934, `hbp-ch29-002`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: Harry interprets Fawkes's departure without direct explanation from the phoenix or a staff source.
 
 ## Part: Magical Residents and Hidden Histories
 
@@ -12661,6 +12736,18 @@ Summary: The available evidence includes 1 source item, led by: During the Death
   - Reference type: security_or_protection
   - Corroborates: `hbp-ch27-005`, `hbp-ch24-005`. hbp-ch27-005 records the paired Vanishing Cabinet passage into Hogwarts, and hbp-ch24-005 records the cabinet in the Room's hidden-storage configuration; this entry adds the retreat-stage inference that defenders may have blocked that route.
   - Notes: Harry infers the route was blocked from footprints and direction of flight; the blocking action itself is not directly observed.
+
+#### Section: Defensive coverage and cabinet-breach failure
+
+Summary: The available evidence includes 1 source item, led by: The post-battle debrief states that defenders covered secret passages, guarded corridors, relied on entrance enchantments, and still missed the Vanishing Cabinet breach through the Room of Requirement.
+
+- **Corroboration:** The post-battle debrief states that defenders covered secret passages, guarded corridors, relied on entrance enchantments, and still missed the Vanishing Cabinet breach through the Room of Requirement.
+  - Quote: "Every secret passageway out of the school was covered"
+  - Source: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, PDF p. 2936, `hbp-ch29-003`, `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch27-005`, `hbp-ch21-004`, `hbp-ch24-005`. hbp-ch27-005 records the completed cabinet passage, hbp-ch21-004 records Room of Requirement access and map-blind-spot limits, and hbp-ch24-005 records the cabinet in the hidden-storage room; this entry adds the defenders' after-action account of covered passages and failed protections.
+  - Notes: The debrief combines eyewitness accounts and post-event inference rather than a complete technical audit of the castle's enchantments.
 
 #### Section: Marauder's Map limits and watched passageways
 

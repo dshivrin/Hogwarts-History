@@ -1,0 +1,325 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  boundary_confidence: high
+  boundary_notes: Bounded by processing-state anchors for Chapter Twenty-Nine; extracted only PDF pages 2931-2948.
+  processed_date: '2026-07-30'
+  processor_notes: "Created from bounded pypdf extraction. No explicit Hogwarts: A History title citation appears in this chapter."
+entries:
+- id: hbp-ch29-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2932
+  printed_page: null
+  extracted_text_lines: 36-50; 56-75
+  text_anchor:
+    start_phrase: Greyback attacked him
+    end_phrase: some wolfish characteristics from now on
+    local_occurrence_note: Ginny summarizes the battle injuries before Harry enters the hospital wing, where Madam Pomfrey and Lupin discuss Bill's wounds.
+  nearby_context: Neville and Flitwick are also injured, a Death Eater is dead, and Ginny says Harry's Felix Felicis likely kept the defenders alive.
+  match_terms:
+  - hospital wing
+  - Madam Pomfrey
+  - Bill Weasley
+  - Greyback
+  - cursed wounds
+  - Felix Felicis
+  quote_excerpt_short: "there is no cure for werewolf bites"
+  source_note: After the tower battle, the hospital wing becomes the triage center for students, staff, and Order allies; Bill's non-transformed werewolf attack leaves cursed wounds that Madam Pomfrey cannot fully cure.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - hospital-wing
+  - madam-pomfrey
+  - bill-weasley
+  - greyback
+  - werewolf-bites
+  - cursed-wounds
+  - felix-felicis
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Hospital-wing triage after the tower battle
+  reason_for_placement: Shows the immediate medical aftermath of a school breach, including injury triage, potion-assisted survival, and limits of school healing against cursed creature wounds.
+  relevance_to_hogwarts_a_history: Useful for a later-editorial crisis chapter on how Hogwarts medical care, staff, and allies responded after the Death Eater incursion.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found broad hospital-wing entries, but no existing seed for Bill's Greyback wounds or the tower-battle triage scene.
+  confidence: high
+  limitations: The long-term effects on Bill are uncertain in this chapter, and the medical assessment is provisional.
+- id: hbp-ch29-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2934
+  printed_page: null
+  extracted_text_lines: 103-115; 278-282; 579-582
+  text_anchor:
+    start_phrase: Somewhere out in the darkness
+    end_phrase: had left Hogwarts for good
+    local_occurrence_note: Fawkes sings a lament through the castle and grounds after Dumbledore's death, then leaves Hogwarts at the end of the chapter.
+  nearby_context: The song interrupts the hospital-wing debrief, eases the gathered mourners' pain, and later falls silent while Harry lies in Gryffindor Tower.
+  match_terms:
+  - Fawkes
+  - phoenix song
+  - lament
+  - grounds
+  - castle windows
+  - left Hogwarts
+  quote_excerpt_short: "echoed across the grounds and through the castle windows"
+  source_note: Fawkes's phoenix lament travels across the Hogwarts grounds and into the castle, magically expressing communal grief before the phoenix leaves the school after Dumbledore.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - fawkes
+  - phoenix
+  - phoenix-song
+  - dumbledore
+  - mourning
+  - hogwarts-grounds
+  - castle
+  candidate_part: Magical Residents and Creatures
+  candidate_chapter: Phoenixes and Headmaster Associations
+  candidate_section: Fawkes's lament and departure
+  reason_for_placement: Adds direct evidence for phoenix song affecting listeners across Hogwarts and for Fawkes's bond to Dumbledore's tenure at the school.
+  relevance_to_hogwarts_a_history: Supports a later section on magical creatures connected to Hogwarts leadership and the castle's response to institutional loss.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found prior Fawkes evidence, but no same-fact entry for the phoenix lament spreading through Hogwarts after Dumbledore's death.
+  confidence: high
+  limitations: Harry interprets Fawkes's departure without direct explanation from the phoenix or a staff source.
+- id: hbp-ch29-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2936
+  printed_page: null
+  extracted_text_lines: 166-190; 201-213
+  text_anchor:
+    start_phrase: Every secret passageway out of the school was covered
+    end_phrase: must have arranged that before they left the Room of Requirement
+    local_occurrence_note: McGonagall, Harry, Ginny, Ron, and Lupin reconstruct how the Death Eaters bypassed patrols and protections.
+  nearby_context: Staff and Order allies patrolled after Dumbledore left, the Marauder's Map did not show Malfoy, and Peruvian Instant Darkness Powder let Malfoy guide attackers from the Room.
+  match_terms:
+  - secret passageway
+  - powerful enchantments
+  - Room of Requirement
+  - Vanishing Cabinets
+  - Marauder's Map
+  - Darkness Powder
+  quote_excerpt_short: "Every secret passageway out of the school was covered"
+  source_note: The post-battle debrief states that defenders covered secret passages, guarded corridors, relied on entrance enchantments, and still missed the Vanishing Cabinet breach through the Room of Requirement.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-security
+  - secret-passageways
+  - protective-enchantments
+  - room-of-requirement
+  - vanishing-cabinet
+  - marauders-map
+  - darkness-powder
+  candidate_part: The Castle and Its Protections
+  candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+  candidate_section: Defensive coverage and cabinet-breach failure
+  reason_for_placement: Connects ordinary wartime security measures to the specific hidden-room and cabinet failure that defeated them.
+  relevance_to_hogwarts_a_history: Central later-editorial evidence for why Hogwarts protections failed during the 1997 infiltration despite active patrols and enchanted entrances.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch27-005
+    - hbp-ch21-004
+    - hbp-ch24-005
+    notes: hbp-ch27-005 records the completed cabinet passage, hbp-ch21-004 records Room of Requirement access and map-blind-spot limits, and hbp-ch24-005 records the cabinet in the hidden-storage room; this entry adds the defenders' after-action account of covered passages and failed protections.
+  confidence: high
+  limitations: The debrief combines eyewitness accounts and post-event inference rather than a complete technical audit of the castle's enchantments.
+- id: hbp-ch29-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2937
+  printed_page: null
+  extracted_text_lines: 216-236; 243-258; 261-277
+  text_anchor:
+    start_phrase: Outside Snape's office
+    end_phrase: He'd done what he'd meant to do
+    local_occurrence_note: Hermione, Tonks, Lupin, McGonagall, and Harry reconstruct Snape's movement from his office through the battle and cursed stair barrier.
+  nearby_context: Flitwick ran to fetch Snape from the dungeons, Snape apparently stunned him, sent Hermione and Luna away, passed through a barrier other defenders could not cross, and escaped under mistaken assumptions.
+  match_terms:
+  - Snape's office
+  - Flitwick
+  - Stupefied
+  - cursed barrier
+  - Defense Against the Dark Arts
+  - Death Eaters
+  quote_excerpt_short: "run straight through the cursed barrier"
+  source_note: The debrief shows emergency staff communication through Flitwick, Snape's disabling of a colleague in his office, and a cursed stair barrier that Snape could pass while defenders were repelled.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - snape
+  - flitwick
+  - staff-response
+  - dungeons
+  - cursed-barrier
+  - tower-stairs
+  - defense-against-the-dark-arts
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Staff-response failure and the cursed stair barrier
+  reason_for_placement: Captures how staff coordination broke down when a trusted professor became the attacker and when Dark magic obstructed the defenders' route to the tower.
+  relevance_to_hogwarts_a_history: Useful for later editorial analysis of institutional trust, emergency messaging, and defensive chokepoints inside the castle.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found related Heads-of-House and Snape investigation entries, but no existing seed for Flitwick being disabled in Snape's office or the cursed stair barrier during the tower battle.
+  confidence: high
+  limitations: The exact barrier spell and Snape's method for passing it are inferred and not formally identified.
+- id: hbp-ch29-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2943
+  printed_page: null
+  extracted_text_lines: 403-419
+  text_anchor:
+    start_phrase: not heading for Professor McGonagall's office
+    end_phrase: looking peaceful and untroubled
+    local_occurrence_note: McGonagall leads Harry to the headmaster's office after Dumbledore's death, and Harry sees the office and new portrait.
+  nearby_context: McGonagall has become headmistress, the moving spiral staircase admits them, Dumbledore's instruments remain, Fawkes's perch is empty, and the Sorting Hat and Gryffindor's sword are still present.
+  match_terms:
+  - headmistress
+  - headmaster's office
+  - moving spiral staircase
+  - dead headmasters
+  - portrait
+  - Gryffindor's sword
+  quote_excerpt_short: "a new portrait had joined the ranks"
+  source_note: After Dumbledore's death, McGonagall inherits the headmaster's office as headmistress, and Dumbledore immediately appears among the portraits of dead Hogwarts heads.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - headmaster-office
+  - headmistress
+  - mcgonagall
+  - dumbledore
+  - headmaster-portraits
+  - moving-staircase
+  - fawkes
+  candidate_part: Founders, Headmasters, and Institutional Memory
+  candidate_chapter: Headmasters, Headmistresses, and Their Office
+  candidate_section: Succession and the headmaster portrait tradition
+  reason_for_placement: Provides concrete evidence for office succession, the portrait tradition for deceased heads, and the continuity of office artifacts after a headmaster's death.
+  relevance_to_hogwarts_a_history: Strong seed material for a chapter on Hogwarts leadership, institutional memory, and magical portrait records of former heads.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found Dilys Derwent's former-head portrait, but no existing seed for Dumbledore's newly appeared portrait or McGonagall's immediate succession to the office.
+  confidence: high
+  limitations: The passage implies succession through deputy-headmistress status but does not quote an appointment document or governor decision.
+- id: hbp-ch29-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2944
+  printed_page: null
+  extracted_text_lines: 440-459; 460-480; 481-499
+  text_anchor:
+    start_phrase: I want to talk about what happens to Hogwarts
+    end_phrase: who will make the final decision
+    local_occurrence_note: McGonagall convenes Heads of Houses and Hagrid in the office before the Minister arrives to discuss whether Hogwarts should reopen.
+  nearby_context: Slughorn represents Slytherin, Sprout argues for staying open for even one pupil, Slughorn worries parents will keep children home, and Flitwick says the governors must be consulted.
+  match_terms:
+  - Hogwarts
+  - school reopen
+  - Heads of Houses
+  - governors
+  - Chamber of Secrets
+  - Hogwarts's history
+  quote_excerpt_short: "a terrible stain upon Hogwarts's history"
+  source_note: Following Dumbledore's murder, McGonagall treats Hogwarts's possible closure as a Head-of-House and governor-level decision, explicitly comparing the crisis to the Chamber of Secrets.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-closure
+  - school-governors
+  - heads-of-house
+  - mcgonagall
+  - chamber-of-secrets
+  - parent-withdrawals
+  - institutional-history
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Crisis Authority and School Closure
+  candidate_section: Reopening deliberation after Dumbledore's murder
+  reason_for_placement: Records formal governance reasoning after a headmaster's death, including House leadership consultation and governor authority over the final decision.
+  relevance_to_hogwarts_a_history: Strong later-editorial evidence for how Hogwarts leadership frames institutional shame, public confidence, and school continuity after catastrophe.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch19-002
+    - cos-ch16-005
+    - cos-ch14-006
+    notes: hbp-ch19-002 records wartime parent-withdrawal and governor closure pressure, cos-ch16-005 records emergency school closure in the Chamber crisis, and cos-ch14-006 records governor authority; this entry adds the post-Dumbledore murder reopening debate and Head-of-House consultation.
+  confidence: high
+  limitations: The final governor decision is deferred, and the Minister's delegation has not yet entered the room.
+- id: hbp-ch29-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Nine - The Phoenix Lament
+  chapter_start_pdf_page: 2931
+  chapter_end_pdf_page: 2948
+  pdf_page: 2946
+  printed_page: null
+  extracted_text_lines: 500-524
+  text_anchor:
+    start_phrase: as to getting students home
+    end_phrase: a strangled sob of assent
+    local_occurrence_note: Staff discuss transport home, then Harry argues students should remain until Dumbledore's funeral.
+  nearby_context: McGonagall says the Hogwarts Express could be arranged for the next day if needed, then says Dumbledore wished to be laid to rest at Hogwarts if the Ministry finds it appropriate.
+  match_terms:
+  - Hogwarts Express
+  - students home
+  - Dumbledore's funeral
+  - laid to rest
+  - final resting place
+  - tribute
+  quote_excerpt_short: "Hogwarts should be Dumbledore's final resting place"
+  source_note: Staff can arrange early Hogwarts Express transport during crisis, but agree students should stay to pay tribute if Dumbledore is buried at Hogwarts according to his wish.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore-funeral
+  - hogwarts-express
+  - student-transport
+  - school-closure
+  - burial
+  - student-tribute
+  - ministry-approval
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death, Mourning, and Memorial Practice
+  candidate_section: Dumbledore's burial request and student tribute
+  reason_for_placement: Adds a rare explicit discussion of burial at Hogwarts, emergency student transport, and the expectation that students may collectively pay tribute.
+  relevance_to_hogwarts_a_history: Important later-editorial seed for memorial customs, headmaster commemoration, and crisis logistics around keeping or sending students home.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found no existing funeral or Hogwarts burial entry; related school-closure entries do not cover Dumbledore's final resting place or student tribute.
+  confidence: high
+  limitations: The funeral has not yet occurred in this chapter, and Ministry approval remains a condition in McGonagall's wording.

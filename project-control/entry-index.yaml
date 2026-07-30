@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-29'
+updated: '2026-07-30'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -15925,6 +15925,117 @@ by_entry:
     - student-spellcraft
     source_unit: hbp-ch28
     output_yaml: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  hbp-ch29-001:
+    title: 'Death Eater Infiltration and the Tower Battle: Hospital-wing triage after
+      the tower battle'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - bill-weasley
+    - cursed-wounds
+    - felix-felicis
+    - greyback
+    - hospital-wing
+    - madam-pomfrey
+    - werewolf-bites
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch29-002:
+    title: 'Phoenixes and Headmaster Associations: Fawkes''s lament and departure'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - castle
+    - dumbledore
+    - fawkes
+    - hogwarts-grounds
+    - mourning
+    - phoenix
+    - phoenix-song
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch29-003:
+    title: 'Maps, Hidden Rooms, and Concealed Routes: Defensive coverage and cabinet-breach
+      failure'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - darkness-powder
+    - marauders-map
+    - protective-enchantments
+    - room-of-requirement
+    - school-security
+    - secret-passageways
+    - vanishing-cabinet
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch29-004:
+    title: 'Death Eater Infiltration and the Tower Battle: Staff-response failure
+      and the cursed stair barrier'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - cursed-barrier
+    - defense-against-the-dark-arts
+    - dungeons
+    - flitwick
+    - snape
+    - staff-response
+    - tower-stairs
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch29-005:
+    title: 'Headmasters, Headmistresses, and Their Office: Succession and the headmaster
+      portrait tradition'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledore
+    - fawkes
+    - headmaster-office
+    - headmaster-portraits
+    - headmistress
+    - mcgonagall
+    - moving-staircase
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch29-006:
+    title: 'Crisis Authority and School Closure: Reopening deliberation after Dumbledore''s
+      murder'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - chamber-of-secrets
+    - heads-of-house
+    - institutional-history
+    - mcgonagall
+    - parent-withdrawals
+    - school-closure
+    - school-governors
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  hbp-ch29-007:
+    title: 'Death, Mourning, and Memorial Practice: Dumbledore''s burial request and
+      student tribute'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - burial
+    - dumbledore-funeral
+    - hogwarts-express
+    - ministry-approval
+    - school-closure
+    - student-transport
+    - student-tribute
+    source_unit: hbp-ch29
+    output_yaml: sources/book-06/chapter-29-the-phoenix-lament.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -16380,6 +16491,8 @@ by_tag:
   bezoars:
   - hbp-ch18-001
   - hbp-ch18-007
+  bill-weasley:
+  - hbp-ch29-001
   birth-registration:
   - hbp-ch13-003
   black-family:
@@ -16548,6 +16661,8 @@ by_tag:
   - poa-ch21-004
   buckbeak-appeal:
   - poa-ch15-004
+  burial:
+  - hbp-ch29-007
   burrow:
   - hbp-ch05-003
   burrow-security:
@@ -16625,6 +16740,7 @@ by_tag:
   - cos-ch09-003
   - gof-ch21-003
   - hbp-ch02-005
+  - hbp-ch29-002
   - ps-ch06-007
   castle-approach:
   - cos-ch05-002
@@ -16805,6 +16921,7 @@ by_tag:
   - hbp-ch17-005
   - hbp-ch19-002
   - hbp-ch23-006
+  - hbp-ch29-006
   champion-points:
   - gof-ch31-004
   - gof-ch31-007
@@ -17233,6 +17350,8 @@ by_tag:
   - gof-ch02-005
   - ootp-ch36-006
   - ootp-ch37-002
+  cursed-barrier:
+  - hbp-ch29-004
   cursed-necklace:
   - hbp-ch12-006
   - hbp-ch24-001
@@ -17240,6 +17359,8 @@ by_tag:
   cursed-objects:
   - hbp-ch12-006
   - hbp-ch12-007
+  cursed-wounds:
+  - hbp-ch29-001
   curses:
   - gof-ch14-001
   - ps-ch13-003
@@ -17332,6 +17453,8 @@ by_tag:
   - hbp-ch15-002
   dark-wizards:
   - gof-ch11-001
+  darkness-powder:
+  - hbp-ch29-003
   davey-gudgeon:
   - poa-ch10-002
   daydream-charms:
@@ -17418,6 +17541,7 @@ by_tag:
   - hbp-ch20-007
   - hbp-ch21-006
   - hbp-ch23-004
+  - hbp-ch29-004
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-003
@@ -17847,6 +17971,8 @@ by_tag:
   - hbp-ch26-004
   - hbp-ch27-003
   - hbp-ch27-004
+  - hbp-ch29-002
+  - hbp-ch29-005
   - ootp-ch02-003
   - ootp-ch02-006
   - ootp-ch03-006
@@ -17926,6 +18052,8 @@ by_tag:
   - hbp-ch25-006
   dumbledore-death:
   - hbp-ch27-007
+  dumbledore-funeral:
+  - hbp-ch29-007
   dumbledore-headmastership:
   - hbp-ch20-007
   dumbledore-investigation:
@@ -17973,6 +18101,7 @@ by_tag:
   - cos-ch08-004
   - cos-ch12-005
   - cos-ch16-007
+  - hbp-ch29-004
   - poa-ch09-004
   - ps-ch08-006
   - ps-ch10-003
@@ -18267,6 +18396,8 @@ by_tag:
   - cos-ch17-007
   - gof-ch36-003
   - hbp-ch10-003
+  - hbp-ch29-002
+  - hbp-ch29-005
   - ootp-ch22-003
   - ootp-ch27-007
   - ootp-ch36-005
@@ -18278,6 +18409,7 @@ by_tag:
   - hbp-ch09-006
   - hbp-ch14-006
   - hbp-ch24-002
+  - hbp-ch29-001
   fenrir-greyback:
   - hbp-ch06-007
   - hbp-ch16-004
@@ -18434,6 +18566,7 @@ by_tag:
   - gof-ch17-001
   - gof-ch35-004
   flitwick:
+  - hbp-ch29-004
   - ootp-ch16-003
   - ootp-ch28-005
   - ootp-ch28-007
@@ -18833,6 +18966,8 @@ by_tag:
   - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
+  greyback:
+  - hbp-ch29-001
   grimmauld-place:
   - hbp-ch03-004
   - hbp-ch12-005
@@ -19253,6 +19388,7 @@ by_tag:
   - hbp-ch09-004
   - hbp-ch10-002
   - hbp-ch10-003
+  - hbp-ch29-005
   - ootp-ch22-001
   - ootp-ch28-001
   - ootp-ch37-001
@@ -19262,6 +19398,7 @@ by_tag:
   - gof-ch30-001
   - hbp-ch10-003
   - hbp-ch17-003
+  - hbp-ch29-005
   - ootp-ch16-005
   - ootp-ch22-002
   - ootp-ch23-002
@@ -19277,6 +19414,7 @@ by_tag:
   headmastership:
   - cos-ch02-003
   headmistress:
+  - hbp-ch29-005
   - ootp-ch22-006
   headmistress-authority:
   - ootp-ch33-004
@@ -19296,6 +19434,7 @@ by_tag:
   - hbp-ch08-004
   - hbp-ch18-003
   - hbp-ch19-003
+  - hbp-ch29-006
   - ootp-ch19-003
   - ps-ch08-006
   healer:
@@ -19553,6 +19692,7 @@ by_tag:
   - hbp-ch07-002
   - hbp-ch07-005
   - hbp-ch07-007
+  - hbp-ch29-007
   - ootp-ch10-002
   - ootp-ch10-003
   - ootp-ch38-007
@@ -19587,6 +19727,7 @@ by_tag:
   - hbp-ch04-001
   - hbp-ch28-005
   - hbp-ch28-006
+  - hbp-ch29-002
   - ootp-ch20-001
   - ootp-ch24-002
   - ootp-ch24-005
@@ -19767,6 +19908,7 @@ by_tag:
   - hbp-ch19-001
   - hbp-ch24-004
   - hbp-ch27-001
+  - hbp-ch29-001
   - ootp-ch14-004
   - ootp-ch19-004
   - ootp-ch32-001
@@ -20049,6 +20191,7 @@ by_tag:
   institutional-custom:
   - ps-ch07-002
   institutional-history:
+  - hbp-ch29-006
   - ootp-ch22-006
   institutional-secrecy:
   - cos-ch13-005
@@ -20496,6 +20639,7 @@ by_tag:
   - gof-ch16-004
   - hbp-ch19-001
   - hbp-ch27-001
+  - hbp-ch29-001
   - poa-ch06-007
   - poa-ch18-007
   - ps-ch17-004
@@ -20845,6 +20989,7 @@ by_tag:
   - hbp-ch19-006
   - hbp-ch21-004
   - hbp-ch25-006
+  - hbp-ch29-003
   - ootp-ch18-006
   - ootp-ch20-001
   - poa-ch10-003
@@ -20900,6 +21045,8 @@ by_tag:
   mcgonagall:
   - hbp-ch12-007
   - hbp-ch24-006
+  - hbp-ch29-005
+  - hbp-ch29-006
   - ootp-ch28-005
   - ootp-ch38-004
   - poa-ch11-007
@@ -20985,6 +21132,8 @@ by_tag:
   - poa-ch03-005
   ministry-alert:
   - hbp-ch27-003
+  ministry-approval:
+  - hbp-ch29-007
   ministry-approved-curriculum:
   - ootp-ch12-006
   - ootp-ch15-004
@@ -21204,6 +21353,8 @@ by_tag:
   - gof-ch27-006
   mountains:
   - hbp-ch08-007
+  mourning:
+  - hbp-ch29-002
   mourning-customs:
   - gof-ch37-003
   moving-illustrations:
@@ -21214,6 +21365,7 @@ by_tag:
   - cos-ch11-007
   - cos-ch13-006
   - hbp-ch10-002
+  - hbp-ch29-005
   mrs-figg:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -21682,6 +21834,7 @@ by_tag:
   - poa-ch03-005
   parent-withdrawals:
   - hbp-ch19-002
+  - hbp-ch29-006
   parental-enforcement:
   - hbp-ch17-007
   parental-pressure:
@@ -21856,11 +22009,13 @@ by_tag:
   - ootp-ch23-002
   phoenix:
   - cos-ch17-005
+  - hbp-ch29-002
   - ootp-ch36-005
   phoenix-feather:
   - gof-ch18-007
   phoenix-song:
   - gof-ch34-003
+  - hbp-ch29-002
   physical-evidence:
   - poa-ch17-002
   physical-restraint:
@@ -22331,6 +22486,7 @@ by_tag:
   - hbp-ch06-002
   protective-enchantments:
   - hbp-ch27-003
+  - hbp-ch29-003
   - ootp-ch34-006
   protective-escort:
   - hbp-ch06-003
@@ -22683,6 +22839,7 @@ by_tag:
   - hbp-ch25-003
   - hbp-ch27-005
   - hbp-ch28-002
+  - hbp-ch29-003
   - ootp-ch18-005
   - ootp-ch18-006
   - ootp-ch21-004
@@ -22749,6 +22906,8 @@ by_tag:
   - cos-ch14-004
   - cos-ch16-005
   - hbp-ch19-002
+  - hbp-ch29-006
+  - hbp-ch29-007
   school-closure-threat:
   - cos-ch13-005
   school-continuity:
@@ -22807,6 +22966,7 @@ by_tag:
   - cos-ch14-006
   - cos-ch14-007
   - cos-ch18-005
+  - hbp-ch29-006
   - poa-ch06-007
   - poa-ch07-002
   - poa-ch11-001
@@ -22940,6 +23100,7 @@ by_tag:
   - hbp-ch27-005
   - hbp-ch28-001
   - hbp-ch28-002
+  - hbp-ch29-003
   - ootp-ch17-003
   school-security-threat:
   - hbp-ch06-007
@@ -23097,6 +23258,7 @@ by_tag:
   - hbp-ch15-001
   - hbp-ch19-004
   - hbp-ch19-006
+  - hbp-ch29-003
   - ps-ch08-003
   - ps-ch09-006
   secret-society:
@@ -23383,6 +23545,7 @@ by_tag:
   - hbp-ch27-001
   - hbp-ch27-007
   - hbp-ch28-007
+  - hbp-ch29-004
   - ootp-ch04-005
   - ootp-ch15-002
   - ootp-ch38-004
@@ -23594,6 +23757,7 @@ by_tag:
   - cos-ch11-006
   - gof-ch35-005
   - gof-ch36-001
+  - hbp-ch29-004
   staff-rooms:
   - ootp-ch13-005
   staff-safety:
@@ -23969,6 +24133,7 @@ by_tag:
   - ootp-ch15-007
   student-transport:
   - hbp-ch17-001
+  - hbp-ch29-007
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch14-002
@@ -23982,6 +24147,8 @@ by_tag:
   - gof-ch04-004
   - hbp-ch07-001
   - poa-ch03-002
+  student-tribute:
+  - hbp-ch29-007
   student-trunks:
   - cos-ch03-005
   - gof-ch04-001
@@ -24319,6 +24486,8 @@ by_tag:
   - gof-ch20-005
   tower-dormitory:
   - cos-ch01-001
+  tower-stairs:
+  - hbp-ch29-004
   trace:
   - hbp-ch17-007
   train-ticket:
@@ -24581,6 +24750,7 @@ by_tag:
   - hbp-ch24-005
   - hbp-ch27-005
   - hbp-ch28-002
+  - hbp-ch29-003
   vanishing-spells:
   - ootp-ch13-003
   - ootp-ch15-005
@@ -24804,6 +24974,8 @@ by_tag:
   - poa-ch22-003
   werewolf-bite:
   - ootp-ch22-007
+  werewolf-bites:
+  - hbp-ch29-001
   werewolf-professor:
   - hbp-ch16-003
   werewolf-spy:

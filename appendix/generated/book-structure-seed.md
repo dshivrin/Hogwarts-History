@@ -372,6 +372,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Founders, Headmasters, and Institutional Memory
 
+- Headmasters, Headmistresses, and Their Office
+  - Succession and the headmaster portrait tradition
 - Known Heads of Hogwarts
   - Dilys Derwent, Healer and Headmistress
 
@@ -466,6 +468,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Death of Albus Dumbledore
   - Entrance hall breach and House-hourglass damage
   - Headmaster sacrifice and concealed witness
+  - Hospital-wing triage after the tower battle
+  - Staff-response failure and the cursed stair barrier
+- Death, Mourning, and Memorial Practice
+  - Dumbledore's burial request and student tribute
 - Security and Restricted Objects
   - Arrival and Mail Screening
   - Coerced Hogsmeade accomplice and communication loophole
@@ -911,6 +917,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Dangerous Creatures in Study and Tournament Use
   - Dragon Lore in Hogwarts Library Sources
 
+## Magical Residents and Creatures
+
+- Phoenixes and Headmaster Associations
+  - Fawkes's lament and departure
+
 ## Magical Residents and Hidden Histories
 
 - Ghosts, Portraits, and Castle Memory
@@ -1216,6 +1227,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Buckbeak custody and wartime concealment alias
   - Dangerous-Creature Execution Procedure
 - Crisis Authority and School Closure
+  - Reopening deliberation after Dumbledore's murder
   - Wartime attacks and board-of-governors closure pressure
 - Detention Logistics and Punishments
   - Staff-Assigned Tasks, Filch, and Trophy Room Labor
@@ -1515,6 +1527,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Emergency flight through the castle boundary
 - Maps, Hidden Rooms, and Concealed Routes
   - Blocked hidden-room retreat after the cabinet breach
+  - Defensive coverage and cabinet-breach failure
   - Marauder's Map limits and watched passageways
   - Marauder's Map surveillance and unexplained blind spots
   - Room of Hidden Things and accumulated contraband

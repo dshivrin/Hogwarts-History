@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-06`
 - Book: `Harry Potter and the Half-Blood Prince`
-- Chapter: Chapter Twenty-Nine - The Phoenix Lament
-- Page range: 2931-2948
+- Chapter: Chapter Thirty - The White Tomb
+- Page range: 2949-2964
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-06/chapter-29-the-phoenix-lament.yaml`
+- Output YAML: `sources/book-06/chapter-30-the-white-tomb.yaml`
 
 ## Minimal Context
 
