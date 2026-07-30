@@ -168,3 +168,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch28`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, pages 2920-2930, 7 entries, 0 explicit references.
 - `hbp-ch29`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, pages 2931-2948, 7 entries, 0 explicit references.
 - `hbp-ch30`: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, pages 2949-2964, 7 entries, 0 explicit references.
+- `dh-ch01`: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, pages 2976-2985, 6 entries, 0 explicit references.

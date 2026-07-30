@@ -5,15 +5,6 @@ project:
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
-  book_group: book-06
-  book: Harry Potter and the Half-Blood Prince
-  chapter_number: 30
-  chapter_title: Chapter Thirty - The White Tomb
-  page_start: 2949
-  page_end: 2964
-  output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
   chapter_number: 1
@@ -21,8 +12,7 @@ current_source_unit:
   page_start: 2976
   page_end: 2985
   output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 2986
   page_end: 2997
   output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 3
+  chapter_title: Chapter Three - The Dursleys Departing
+  page_start: 2998
+  page_end: 3009
+  output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

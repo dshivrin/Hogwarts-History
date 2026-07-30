@@ -1946,3 +1946,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 2949-2964.
+- source_unit_id: dh-ch01
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 1
+  chapter_title: Chapter One - The Dark Lord Ascending
+  page_start: 2976
+  page_end: 2985
+  output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  processed_at: '2026-07-30'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 2976-2985.

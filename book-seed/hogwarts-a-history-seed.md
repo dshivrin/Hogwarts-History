@@ -745,6 +745,19 @@ Summary: The available evidence includes 1 source item, led by: The scene corrob
   - Corroborates: `cos-ch11-007`, `cos-ch12-001`, `cos-ch13-006`. cos-ch11-007 records the passworded gargoyle and moving staircase, cos-ch12-001 adds office interior details, and cos-ch13-006 shows Dippet-era continuity; this entry adds changed-password failure and Snape's staff-side access.
   - Notes: The scene does not enter the office or describe its interior, and it does not state who sets or changes the password.
 
+### Chapter: Pure-Blood Families and School Influence
+
+#### Section: Elite Household Architecture and Portrait Culture
+
+Summary: The available evidence includes 1 source item, led by: Malfoy Manor uses enchanted entry gates, unattended doors, and watching portraits, preserving evidence for elite wizarding household architecture adjacent to Hogwarts-connected pure-blood families.
+
+- **Supporting evidence:** Malfoy Manor uses enchanted entry gates, unattended doors, and watching portraits, preserving evidence for elite wizarding household architecture adjacent to Hogwarts-connected pure-blood families.
+  - Quote: "passed straight through, as though the dark metal were smoke"
+  - Source: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, PDF p. 2977, `dh-ch01-001`, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: magical_architecture
+  - Notes: The scene is off campus and does not state whether the manor portraits share Hogwarts portrait-network behavior.
+
 ### Chapter: Secret Passageways and Hidden Routes
 
 #### Section: Tapestries, Statues, and Student Wayfinding
@@ -3048,6 +3061,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter pres
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: Much of the passage concerns wider magical-creature lore and Harry-era events; placement in a Hogwarts history structure is interpretive.
+
+### Chapter: Muggle Studies and the Non-Magical World
+
+#### Section: Charity Burbage and Wartime Curriculum Politics
+
+Summary: The available evidence includes 1 source item, led by: Charity Burbage is identified as the recent Hogwarts Muggle Studies professor; Voldemort condemns both her class framing of Muggles and her Daily Prophet defense of Muggle-borns.
+
+- **Context:** Charity Burbage is identified as the recent Hogwarts Muggle Studies professor; Voldemort condemns both her class framing of Muggles and her Daily Prophet defense of Muggle-borns.
+  - Quote: "until recently, taught at Hogwarts School of Witchcraft and Wizardry"
+  - Source: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, PDF p. 2985, `dh-ch01-006`, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Voldemort is a hostile speaker, so the wording of Burbage's teaching and article is filtered through his accusation.
 
 ### Chapter: Potions
 
@@ -6148,6 +6174,41 @@ Summary: The available evidence includes 1 source item, led by: Binns states tha
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: security_or_protection
   - Notes: Binns's denial is later complicated by the plot; this entry should preserve his pre-confirmation view rather than treat it as final fact.
+
+### Chapter: The War Beyond the Gates
+
+#### Section: Ministry Collapse and Protective Magic
+
+Summary: The available evidence includes 1 source item, led by: The safe house is described as protected by both Order and Ministry enchantments, but its security depends on whether a fallen Ministry can help reveal and undo them.
+
+- **Context:** The safe house is described as protected by both Order and Ministry enchantments, but its security depends on whether a fallen Ministry can help reveal and undo them.
+  - Quote: "given every protection that the Order and Ministry together could provide"
+  - Source: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, PDF p. 2979, `dh-ch01-003`, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The protected location is unnamed in this chapter and is not a Hogwarts site.
+
+#### Section: Order Intelligence and Student Protection
+
+Summary: The available evidence includes 1 source item, led by: The Death Eater council treats Harry's protective removal as a planned Order operation and contrasts Snape's source with Dawlish's false Auror leak.
+
+- **Context:** The Death Eater council treats Harry's protective removal as a planned Order operation and contrasts Snape's source with Dawlish's false Auror leak.
+  - Quote: "intends to move Harry Potter from his current place of safety"
+  - Source: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, PDF p. 2978, `dh-ch01-002`, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: The source is a hostile council report; it gives operational claims rather than direct observation of the Order's plan.
+
+#### Section: Regulated Transport Under Enemy Control
+
+Summary: The available evidence includes 1 source item, led by: Death Eater agents inside the Department of Magical Transport can monitor Apparition and Floo use, making Ministry-regulated transport unsafe for the Order.
+
+- **Context:** Death Eater agents inside the Department of Magical Transport can monitor Apparition and Floo use, making Ministry-regulated transport unsafe for the Order.
+  - Quote: "If Potter Apparates or uses the Floo Network, we shall know immediately"
+  - Source: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, PDF p. 2980, `dh-ch01-004`, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The chapter does not specify the technical detection method used by the Department of Magical Transport.
 
 ### Chapter: Wartime Castle Security
 
@@ -11956,6 +12017,19 @@ Summary: The available evidence includes 1 source item, led by: The final defens
   - Notes: The account is combat observation under extreme conditions, not a controlled lesson or formal taxonomy.
 
 ## Part: Peoples, Beings, and Magical Society
+
+### Chapter: Blood Status and School Society
+
+#### Section: Pure-Blood Ideology in Wartime
+
+Summary: The available evidence includes 1 source item, led by: Voldemort frames old family trees, Muggle-born connections, and werewolf marriage as contamination to be pruned from both family and society.
+
+- **Context:** Voldemort frames old family trees, Muggle-born connections, and werewolf marriage as contamination to be pruned from both family and society.
+  - Quote: "until only those of the true blood remain"
+  - Source: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, PDF p. 2984, `dh-ch01-005`, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The claim reflects Death Eater ideology, not an objective policy document.
 
 ### Chapter: Ghosts, Portraits, and Castle Memory
 

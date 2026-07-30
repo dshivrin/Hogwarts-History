@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter One - The Dark Lord Ascending
-- Page range: 2976-2985
+- Chapter: Chapter Two - In Memoriam
+- Page range: 2986-2997
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+- Output YAML: `sources/book-07/chapter-02-in-memoriam.yaml`
 
 ## Minimal Context
 

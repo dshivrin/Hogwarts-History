@@ -140,6 +140,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - School Lists and Pre-Term Supply Shopping
 - Magical Creatures in School Knowledge
   - Unicorn Materials and Centaur Divination
+- Muggle Studies and the Non-Magical World
+  - Charity Burbage and Wartime Curriculum Politics
 - Potions
   - Advanced Potion-Brewing and Staff Expertise
   - Cross-House Lessons
@@ -888,6 +890,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slytherin Dungeon Entrance and Common Room
 - Protected Offices and Moving Entrances
   - Headmaster's Gargoyle Entrance and Password Changes
+- Pure-Blood Families and School Influence
+  - Elite Household Architecture and Portrait Culture
 - Secret Passageways and Hidden Routes
   - Tapestries, Statues, and Student Wayfinding
   - The Bathroom Entrance to the Chamber
@@ -1019,6 +1023,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Peoples, Beings, and Magical Society
 
+- Blood Status and School Society
+  - Pure-Blood Ideology in Wartime
 - Ghosts, Portraits, and Castle Memory
   - Moaning Myrtle as witness and bathroom informant
 - Giants and Wizarding Relations
@@ -1168,6 +1174,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff Patrols and Escort Duties
   - Staff Response to Student and Ghost Attacks
   - Subterranean Route and Serpent Gate
+- The War Beyond the Gates
+  - Ministry Collapse and Protective Magic
+  - Order Intelligence and Student Protection
+  - Regulated Transport Under Enemy Control
 - Wartime Castle Security
   - After-hours movement and door-security lapses
 - Wartime Household Precautions

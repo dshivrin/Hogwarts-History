@@ -16146,6 +16146,93 @@ by_entry:
     - term-boundaries
     source_unit: hbp-ch30
     output_yaml: sources/book-06/chapter-30-the-white-tomb.yaml
+  dh-ch01-001:
+    title: 'Pure-Blood Families and School Influence: Elite Household Architecture
+      and Portrait Culture'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - lucius-malfoy
+    - magical-architecture
+    - malfoy-manor
+    - portraits
+    - pure-blood-households
+    - warded-gates
+    source_unit: dh-ch01
+    output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  dh-ch01-002:
+    title: 'The War Beyond the Gates: Order Intelligence and Student Protection'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - auror-office
+    - dawlish
+    - harry-potter
+    - intelligence
+    - order-of-the-phoenix
+    - second-war
+    source_unit: dh-ch01
+    output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  dh-ch01-003:
+    title: 'The War Beyond the Gates: Ministry Collapse and Protective Magic'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - imperius
+    - ministry-infiltration
+    - order-of-the-phoenix
+    - pius-thicknesse
+    - protective-enchantments
+    - second-war
+    source_unit: dh-ch01
+    output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  dh-ch01-004:
+    title: 'The War Beyond the Gates: Regulated Transport Under Enemy Control'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - department-of-magical-transport
+    - floo-network
+    - ministry-regulation
+    - second-war
+    - wartime-travel
+    source_unit: dh-ch01
+    output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  dh-ch01-005:
+    title: 'Blood Status and School Society: Pure-Blood Ideology in Wartime'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - blood-status
+    - family-trees
+    - muggle-borns
+    - pure-blood-ideology
+    - second-war
+    - werewolves
+    source_unit: dh-ch01
+    output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  dh-ch01-006:
+    title: 'Muggle Studies and the Non-Magical World: Charity Burbage and Wartime
+      Curriculum Politics'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - charity-burbage
+    - curriculum-politics
+    - daily-prophet
+    - hogwarts-staff
+    - muggle-borns
+    - muggle-studies
+    - second-war
+    source_unit: dh-ch01
+    output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
 by_tag:
   academic-assessment:
   - ootp-ch15-002
@@ -16348,6 +16435,7 @@ by_tag:
   apothecaries:
   - hbp-ch11-006
   apparition:
+  - dh-ch01-004
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -16444,6 +16532,7 @@ by_tag:
   auror-headquarters:
   - ootp-ch07-005
   auror-office:
+  - dh-ch01-002
   - hbp-ch16-007
   auror-task-force:
   - hbp-ch03-002
@@ -16658,6 +16747,7 @@ by_tag:
   - cos-ch04-004
   - cos-ch07-003
   - cos-ch09-004
+  - dh-ch01-005
   - gof-ch08-003
   blood-status-threat:
   - cos-ch08-006
@@ -17058,6 +17148,8 @@ by_tag:
   - gof-ch23-002
   champions-tent:
   - gof-ch20-005
+  charity-burbage:
+  - dh-ch01-006
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -17461,6 +17553,8 @@ by_tag:
   - ps-ch08-004
   - ps-ch08-005
   - ps-ch13-004
+  curriculum-politics:
+  - dh-ch01-006
   curriculum-sequence:
   - poa-ch10-001
   curse-checks:
@@ -17494,6 +17588,7 @@ by_tag:
   - ootp-ch22-007
   daily-prophet:
   - cos-ch12-006
+  - dh-ch01-006
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -17577,6 +17672,8 @@ by_tag:
   - hbp-ch29-003
   davey-gudgeon:
   - poa-ch10-002
+  dawlish:
+  - dh-ch01-002
   daydream-charms:
   - hbp-ch06-004
   death:
@@ -17772,6 +17869,8 @@ by_tag:
   - gof-ch03-001
   department-of-magical-law-enforcement:
   - hbp-ch10-005
+  department-of-magical-transport:
+  - dh-ch01-004
   department-of-magical-transportation:
   - gof-ch06-001
   department-of-mysteries:
@@ -18499,6 +18598,8 @@ by_tag:
   - cos-ch05-005
   - cos-ch06-001
   - gof-ch05-004
+  family-trees:
+  - dh-ch01-005
   famous-wizard-card:
   - ps-ch06-003
   fang:
@@ -18707,6 +18808,7 @@ by_tag:
   - hbp-ch01-001
   - ootp-ch37-001
   floo-network:
+  - dh-ch01-004
   - gof-ch04-004
   - hbp-ch17-001
   - ootp-ch03-003
@@ -19400,6 +19502,7 @@ by_tag:
   - hbp-ch11-002
   harry-potter:
   - cos-ch01-004
+  - dh-ch01-002
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -19938,6 +20041,7 @@ by_tag:
   - ps-ch04-005
   - ps-ch05-001
   hogwarts-staff:
+  - dh-ch01-006
   - ps-ch04-001
   hogwarts-students:
   - hbp-ch23-006
@@ -20257,6 +20361,8 @@ by_tag:
   - gof-ch29-004
   impediment-jinx:
   - ootp-ch21-006
+  imperius:
+  - dh-ch01-003
   imperius-curse:
   - gof-ch14-003
   - gof-ch14-005
@@ -20334,6 +20440,7 @@ by_tag:
   institutional-secrecy:
   - cos-ch13-005
   intelligence:
+  - dh-ch01-002
   - hbp-ch02-002
   - ootp-ch04-005
   inter-house-conflict:
@@ -20697,6 +20804,7 @@ by_tag:
   - cos-ch14-006
   - cos-ch18-005
   - cos-ch18-006
+  - dh-ch01-001
   - gof-ch08-003
   - ootp-ch09-001
   - ootp-ch15-001
@@ -20801,6 +20909,7 @@ by_tag:
   magical-architecture:
   - cos-ch11-007
   - cos-ch17-001
+  - dh-ch01-001
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -21095,6 +21204,8 @@ by_tag:
   - hbp-ch25-003
   malfoy-family:
   - ootp-ch06-006
+  malfoy-manor:
+  - dh-ch01-001
   mandrake-juice:
   - cos-ch18-002
   mandrakes:
@@ -21315,6 +21426,8 @@ by_tag:
   - gof-ch27-004
   ministry-hearing:
   - hbp-ch10-005
+  ministry-infiltration:
+  - dh-ch01-003
   ministry-influence:
   - ootp-ch09-001
   ministry-interference:
@@ -21438,6 +21551,8 @@ by_tag:
   - hbp-ch13-005
   ministry-register:
   - poa-ch18-001
+  ministry-regulation:
+  - dh-ch01-004
   ministry-response:
   - gof-ch09-004
   ministry-secrecy:
@@ -21544,6 +21659,8 @@ by_tag:
   - gof-ch08-003
   - ps-ch05-005
   muggle-borns:
+  - dh-ch01-005
+  - dh-ch01-006
   - ootp-ch06-004
   muggle-camouflage:
   - gof-ch07-002
@@ -21622,6 +21739,7 @@ by_tag:
   - ps-ch17-006
   muggle-studies:
   - cos-ch14-002
+  - dh-ch01-006
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -21866,6 +21984,8 @@ by_tag:
   order-of-suspension:
   - cos-ch14-006
   order-of-the-phoenix:
+  - dh-ch01-002
+  - dh-ch01-003
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -22184,6 +22304,8 @@ by_tag:
   - ootp-ch14-004
   pitch-booking:
   - ootp-ch19-003
+  pius-thicknesse:
+  - dh-ch01-003
   planet-room:
   - ootp-ch35-005
   planetary-divination:
@@ -22268,6 +22390,7 @@ by_tag:
   - ootp-ch22-006
   - ootp-ch23-002
   portraits:
+  - dh-ch01-001
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -22640,6 +22763,7 @@ by_tag:
   protective-amulets:
   - hbp-ch06-002
   protective-enchantments:
+  - dh-ch01-003
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -22697,10 +22821,12 @@ by_tag:
   pure-blood-families:
   - ootp-ch06-006
   pure-blood-households:
+  - dh-ch01-001
   - ootp-ch04-003
   - ootp-ch05-002
   - ootp-ch06-003
   pure-blood-ideology:
+  - dh-ch01-005
   - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
@@ -23335,6 +23461,11 @@ by_tag:
   - gof-ch26-005
   - gof-ch27-001
   second-war:
+  - dh-ch01-002
+  - dh-ch01-003
+  - dh-ch01-004
+  - dh-ch01-005
+  - dh-ch01-006
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -25082,6 +25213,8 @@ by_tag:
   - poa-ch07-004
   - poa-ch07-005
   - ps-ch05-007
+  warded-gates:
+  - dh-ch01-001
   warlocks-convention-1709:
   - ps-ch14-002
   wartime-defense:
@@ -25114,6 +25247,8 @@ by_tag:
   - hbp-ch25-006
   - hbp-ch27-002
   - ootp-ch09-003
+  wartime-travel:
+  - dh-ch01-004
   water-trap:
   - hbp-ch26-007
   weasley-family:
@@ -25154,6 +25289,7 @@ by_tag:
   - hbp-ch16-004
   werewolves:
   - cos-ch15-003
+  - dh-ch01-005
   - ootp-ch28-007
   - poa-ch09-005
   - poa-ch10-001

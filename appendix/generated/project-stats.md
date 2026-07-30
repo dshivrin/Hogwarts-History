@@ -8,11 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 162
+- Total: 163
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
+- Harry Potter and the Deathly Hallows: 6
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -21,8 +22,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 460
-- later_editorial_note: 505
+- harry_era_confirmation: 461
+- later_editorial_note: 510
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 94
@@ -30,17 +31,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Reference Type
 
 - cross_reference_candidate: 72
-- curriculum_or_subject: 151
+- curriculum_or_subject: 152
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 8
 - explicit_in_universe_source: 72
-- historical_claim: 121
+- historical_claim: 122
 - house_system: 16
 - institutional_custom: 177
-- magical_architecture: 85
+- magical_architecture: 86
 - portrait_or_ghost_lore: 14
 - school_rule_or_policy: 125
-- security_or_protection: 172
+- security_or_protection: 175
 
 ## Explicit `Hogwarts: A History` References
 
@@ -52,8 +53,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, pages 2949-2964, `sources/book-06/chapter-30-the-white-tomb.yaml`
+- Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, pages 2976-2985, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, pages 2976-2985, `sources/book-07/chapter-01-the-dark-lord-ascending.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, pages 2986-2997, `sources/book-07/chapter-02-in-memoriam.yaml`
