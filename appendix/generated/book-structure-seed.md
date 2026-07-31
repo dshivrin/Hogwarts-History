@@ -23,6 +23,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Pets, Owls, and Student Belongings
   - Student Names and Seven-Year Schooling
   - Wands as Required Equipment
+- After Hogwarts
+  - Traditional Graduate Travel
 - Care of Magical Creatures
   - Bowtruckles and wand-tree ecology
   - Classroom Creatures and Student Handling
@@ -684,6 +686,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Spectator Devices and Tactical Literacy
 - Quidditch and School Recreation
   - High Inquisitor control of House teams
+- Sources on Dumbledore After His Death
+  - Obituary, Biography, and Public Dispute
 - Staff, Subjects, and Ministry Inspection
   - Divination inspection and teacher credentials
   - Inspection consequences and probation
@@ -952,6 +956,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Biographical Sources and Public Reputation
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
+  - The 1945 Duel and Later Reputation
+- Dumbledore's Student Years
+  - Aberforth at Hogwarts
+  - Arrival Under Family Notoriety
 - First Wizarding War and Hogwarts Families
   - The Longbottom Aurors and Bellatrix Lestrange
 - The Fall of Voldemort
@@ -1638,6 +1646,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Creature-Law and Hippogriff Sources
 - Records, Archives, and Historical Research
   - School records and family-history research
+- Student Scholarship and Learned Networks
+  - Dumbledore's Early Academic Reputation
 - Student Use of Books Before Arrival
   - Course Books and Background Reading
 - Student Use of Library Books

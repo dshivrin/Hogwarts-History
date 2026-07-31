@@ -1,6 +1,11 @@
 version: 1
-updated: '2026-07-30'
+updated: '2026-07-31'
 tags:
+  aberforth-dumbledore:
+    entries:
+    - dh-ch02-003
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   academic-assessment:
     entries:
     - ootp-ch15-002
@@ -212,6 +217,11 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
   albus-dumbledore:
     entries:
+    - dh-ch02-001
+    - dh-ch02-002
+    - dh-ch02-003
+    - dh-ch02-005
+    - dh-ch02-006
     - ps-ch01-001
     - ps-ch01-002
     - ps-ch01-003
@@ -219,6 +229,7 @@ tags:
     - ps-ch01-005
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   alchemy:
     entries:
     - ps-ch13-001
@@ -873,9 +884,11 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
   bathilda-bagshot:
     entries:
+    - dh-ch02-002
     - poa-ch01-001
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   bathroom:
     entries:
     - cos-ch15-007
@@ -2034,6 +2047,11 @@ tags:
     - poa-ch15-003
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+  chief-warlock:
+    entries:
+    - dh-ch02-005
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   child-safety:
     entries:
     - hbp-ch16-004
@@ -2955,6 +2973,7 @@ tags:
     entries:
     - cos-ch12-006
     - dh-ch01-006
+    - dh-ch02-006
     - gof-ch10-003
     - gof-ch13-005
     - gof-ch18-005
@@ -2993,6 +3012,7 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   damocles-belby:
     entries:
     - hbp-ch07-006
@@ -3946,6 +3966,11 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  dragon-blood:
+    entries:
+    - dh-ch02-005
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   dragon-breeds:
     entries:
     - gof-ch20-006
@@ -4038,9 +4063,11 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
   dueling:
     entries:
+    - dh-ch02-003
     - ootp-ch36-003
     output_yaml:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   dueling-club:
     entries:
     - cos-ch11-003
@@ -4295,6 +4322,11 @@ tags:
     - hbp-ch27-007
     output_yaml:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  dumbledore-family:
+    entries:
+    - dh-ch02-004
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   dumbledore-funeral:
     entries:
     - hbp-ch29-007
@@ -4547,6 +4579,12 @@ tags:
     - hbp-ch22-002
     output_yaml:
     - sources/book-06/chapter-22-after-the-burial.yaml
+  elphias-doge:
+    entries:
+    - dh-ch02-001
+    - dh-ch02-006
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   emergency-communications:
     entries:
     - ootp-ch22-003
@@ -5627,9 +5665,11 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
   foreign-wizards:
     entries:
+    - dh-ch02-004
     - ootp-ch04-005
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   forest-colony:
     entries:
     - hbp-ch22-005
@@ -6327,9 +6367,11 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
   grindelwald:
     entries:
+    - dh-ch02-005
     - ps-ch06-003
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   grindylows:
     entries:
     - gof-ch26-006
@@ -7871,9 +7913,11 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
   hogwarts-headmaster:
     entries:
+    - dh-ch02-005
     - hbp-ch16-007
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   hogwarts-headmasters:
     entries:
     - ootp-ch06-005
@@ -8011,6 +8055,12 @@ tags:
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  hogwarts-student:
+    entries:
+    - dh-ch02-001
+    - dh-ch02-003
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   hogwarts-students:
     entries:
     - hbp-ch23-006
@@ -8756,6 +8806,7 @@ tags:
     entries:
     - cos-ch04-005
     - cos-ch13-004
+    - dh-ch02-001
     - gof-ch02-005
     - gof-ch09-002
     - gof-ch09-007
@@ -8774,6 +8825,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   individual-desks:
     entries:
     - ootp-ch31-004
@@ -9362,6 +9414,11 @@ tags:
     - gof-ch37-003
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  leaving-hogwarts:
+    entries:
+    - dh-ch02-004
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   lee-jordan:
     entries:
     - ootp-ch19-006
@@ -10160,6 +10217,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  magical-history:
+    entries:
+    - dh-ch02-005
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   magical-hospital:
     entries:
     - ootp-ch22-004
@@ -11656,6 +11718,11 @@ tags:
     - gof-ch08-001
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  muggle-rights:
+    entries:
+    - dh-ch02-001
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   muggle-school:
     entries:
     - ps-ch02-002
@@ -11901,6 +11968,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
   nicolas-flamel:
     entries:
+    - dh-ch02-002
     - ps-ch06-003
     - ps-ch11-007
     - ps-ch13-001
@@ -11908,6 +11976,7 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   niffler:
     entries:
     - ootp-ch30-002
@@ -12757,6 +12826,11 @@ tags:
     - hbp-ch13-002
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
+  percival-dumbledore:
+    entries:
+    - dh-ch02-001
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   percy-weasley:
     entries:
     - cos-ch03-003
@@ -13176,6 +13250,11 @@ tags:
     - ootp-ch03-004
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
+  post-hogwarts-travel:
+    entries:
+    - dh-ch02-004
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   post-riot-cleanup:
     entries:
     - gof-ch10-001
@@ -14592,6 +14671,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
   rita-skeeter:
     entries:
+    - dh-ch02-006
     - gof-ch10-003
     - gof-ch13-005
     - gof-ch18-005
@@ -14609,6 +14689,7 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-07/chapter-02-in-memoriam.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -14780,6 +14861,11 @@ tags:
     - hbp-ch18-001
     output_yaml:
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  scholarly-publications:
+    entries:
+    - dh-ch02-002
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   school-absence-cover:
     entries:
     - gof-ch02-003
@@ -15124,6 +15210,11 @@ tags:
     - ps-ch09-001
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  school-prizes:
+    entries:
+    - dh-ch02-002
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   school-property:
     entries:
     - cos-ch05-003
@@ -15841,6 +15932,11 @@ tags:
     - poa-ch07-001
     output_yaml:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  sibling-history:
+    entries:
+    - dh-ch02-003
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   side-along-apparition:
     entries:
     - hbp-ch03-003
@@ -16352,6 +16448,11 @@ tags:
     - hbp-ch23-005
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
+  source-criticism:
+    entries:
+    - dh-ch02-006
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   source-reliability:
     entries:
     - gof-ch15-003
@@ -19555,11 +19656,21 @@ tags:
     - cos-ch01-004
     output_yaml:
     - sources/book-02/chapter-01-worst-birthday.yaml
+  wizarding-biography:
+    entries:
+    - dh-ch02-006
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   wizarding-celebrations:
     entries:
     - ps-ch01-001
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
+  wizarding-customs:
+    entries:
+    - dh-ch02-004
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   wizarding-dwellings:
     entries:
     - hbp-ch04-001
@@ -19669,6 +19780,11 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  wizarding-scholarship:
+    entries:
+    - dh-ch02-002
+    output_yaml:
+    - sources/book-07/chapter-02-in-memoriam.yaml
   wizarding-schools:
     entries:
     - gof-ch07-003

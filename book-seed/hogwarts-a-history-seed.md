@@ -2249,6 +2249,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Corroborates: `ps-ch14-001`. Chapter Fourteen seeded exam preparation and study material; this entry adds actual exam formats, anti-cheating quills, and subject-specific practical tasks.
   - Notes: This is observed in Harry's first year and does not state when these exam practices or anti-cheating quill enchantments began.
 
+### Chapter: After Hogwarts
+
+#### Section: Traditional Graduate Travel
+
+Summary: The available evidence includes 1 source item, led by: Doge describes a post-Hogwarts tradition of touring the world to observe foreign wizards, then records how Dumbledore's family obligations prevented him from going.
+
+- **Supporting evidence:** Doge describes a post-Hogwarts tradition of touring the world to observe foreign wizards, then records how Dumbledore's family obligations prevented him from going.
+  - Quote: "the then-traditional tour of the world"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, PDF p. 2990, `dh-ch02-004`, `sources/book-07/chapter-02-in-memoriam.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Doge's phrase does not establish how widespread the custom was, whether it applied only to privileged students, or when it ceased.
+
 ### Chapter: Care of Magical Creatures
 
 #### Section: Bowtruckles and wand-tree ecology
@@ -7039,6 +7052,19 @@ Summary: The available evidence includes 1 source item, led by: Riddle searched 
   - Corroborates: `cos-ch13-002`, `ps-ch09-004`. cos-ch13-002 records Riddle's awards and Head Boy/prefect record in the trophy room, and ps-ch09-004 establishes the room's contents. This entry adds Riddle's own research path through trophy shields, prefect lists, old school records, and Wizarding-history books.
   - Notes: Dumbledore reports what witnesses told him and what he inferred; the passage does not show the records directly.
 
+### Chapter: Student Scholarship and Learned Networks
+
+#### Section: Dumbledore's Early Academic Reputation
+
+Summary: The available evidence includes 1 source item, led by: Doge presents Dumbledore as an exceptional Hogwarts student whose school prizes, correspondence, and early publications connected Hogwarts scholarship to wider magical learned circles.
+
+- **Supporting evidence:** Doge presents Dumbledore as an exceptional Hogwarts student whose school prizes, correspondence, and early publications connected Hogwarts scholarship to wider magical learned circles.
+  - Quote: "won every prize of note that the school offered"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, PDF p. 2989, `dh-ch02-002`, `sources/book-07/chapter-02-in-memoriam.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The chapter does not name the specific Hogwarts prizes or give dates for the learned publications.
+
 ### Chapter: Student Use of Books Before Arrival
 
 #### Section: Course Books and Background Reading
@@ -7186,6 +7212,18 @@ Summary: The available evidence includes 1 source item, led by: McGonagall ident
   - Reference type: historical_claim
   - Notes: The chapter does not identify Dumbledore's Hogwarts office or connect this reputation to school governance.
 
+#### Section: The 1945 Duel and Later Reputation
+
+Summary: The available evidence includes 1 source item, led by: Doge frames Dumbledore's 1945 defeat of Grindelwald as a major historical turning point and closes by calling him the best loved of Hogwarts headmasters.
+
+- **Supporting evidence:** Doge frames Dumbledore's 1945 defeat of Grindelwald as a major historical turning point and closes by calling him the best loved of Hogwarts headmasters.
+  - Quote: "turning point in magical history"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, PDF p. 2991, `dh-ch02-005`, `sources/book-07/chapter-02-in-memoriam.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Possible corroboration: Possible existing duplicate ps-ch06-003 also records the Chocolate Frog card's Dumbledore biography, including the 1945 Grindelwald defeat and dragon's blood; this entry adds Doge's obituary framing, witness tradition, Chief Warlock context, and headmaster esteem.
+  - Notes: The passage summarizes public memory and Doge's admiration; it does not provide tactical details of the duel or institutional records from Hogwarts.
+
 ### Chapter: Dark Marks and Wartime Terror
 
 #### Section: Death Eaters, Public Terror, and Postwar Denials
@@ -7199,6 +7237,30 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
   - Reference type: explicit_in_universe_source
   - Corroborates: `gof-ch07-001`. Book 4 Chapter Seven records campsite Memory Charms for ordinary anti-Muggle secrecy; this entry adds post-riot modification of the Roberts family's memories and broader Dark Mark/Death Eater history.
   - Notes: The explanation is secondhand adult testimony and a student-cited source title; it does not identify the caster or prove all masked rioters were Death Eaters.
+
+### Chapter: Dumbledore's Student Years
+
+#### Section: Aberforth at Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Aberforth Dumbledore is identified as a Hogwarts student three years behind Albus, with a contrasting non-bookish, duel-prone temperament.
+
+- **Supporting evidence:** Aberforth Dumbledore is identified as a Hogwarts student three years behind Albus, with a contrasting non-bookish, duel-prone temperament.
+  - Quote: "preferred to settle arguments by dueling"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, PDF p. 2989, `dh-ch02-003`, `sources/book-07/chapter-02-in-memoriam.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The passage gives no house, dates, subjects, disciplinary record, or independent source beyond Doge's recollection.
+
+#### Section: Arrival Under Family Notoriety
+
+Summary: The available evidence includes 1 source item, led by: Elphias Doge's obituary gives a first-person in-universe account of Dumbledore entering Hogwarts under family scandal while rejecting anti-Muggle assumptions.
+
+- **Supporting evidence:** Elphias Doge's obituary gives a first-person in-universe account of Dumbledore entering Hogwarts under family scandal while rejecting anti-Muggle assumptions.
+  - Quote: "arrived at Hogwarts under the burden of unwanted notoriety"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, PDF p. 2988, `dh-ch02-001`, `sources/book-07/chapter-02-in-memoriam.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The evidence comes from a memorial article written after Dumbledore's death and reflects Doge's memory and interpretation.
 
 ### Chapter: First Wizarding War and Hogwarts Families
 
@@ -9361,6 +9423,19 @@ Summary: The available evidence includes 1 source item, led by: Educational Decr
   - Reference type: school_rule_or_policy
   - Corroborates: `cos-ch07-002`. cos-ch07-002 records earlier House-team practice booking and staff permission; this entry adds High Inquisitor reapproval, differential Slytherin/Gryffindor treatment, and decree-based control.
   - Notes: The evidence shows immediate implementation in one week, not the full season-long administrative outcome.
+
+### Chapter: Sources on Dumbledore After His Death
+
+#### Section: Obituary, Biography, and Public Dispute
+
+Summary: The available evidence includes 1 source item, led by: The Daily Prophet presents Skeeter's biography as a contested in-universe source on Dumbledore, explicitly setting Doge's obituary against revisionist claims about his youth and public career.
+
+- **Context:** The Daily Prophet presents Skeeter's biography as a contested in-universe source on Dumbledore, explicitly setting Doge's obituary against revisionist claims about his youth and public career.
+  - Quote: "The Life and Lies of Albus Dumbledore"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, PDF p. 2993, `dh-ch02-006`, `sources/book-07/chapter-02-in-memoriam.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Notes: Skeeter's claims are promotional, contested, and filtered through a Daily Prophet interview; they should not be treated as settled facts without later corroboration.
 
 ### Chapter: Staff, Subjects, and Ministry Inspection
 

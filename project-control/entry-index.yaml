@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-30'
+updated: '2026-07-31'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -16233,7 +16233,93 @@ by_entry:
     - second-war
     source_unit: dh-ch01
     output_yaml: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  dh-ch02-001:
+    title: 'Dumbledore''s Student Years: Arrival Under Family Notoriety'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - elphias-doge
+    - hogwarts-student
+    - in-universe-source
+    - muggle-rights
+    - percival-dumbledore
+    source_unit: dh-ch02
+    output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  dh-ch02-002:
+    title: 'Student Scholarship and Learned Networks: Dumbledore''s Early Academic
+      Reputation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - bathilda-bagshot
+    - nicolas-flamel
+    - scholarly-publications
+    - school-prizes
+    - wizarding-scholarship
+    source_unit: dh-ch02
+    output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  dh-ch02-003:
+    title: 'Dumbledore''s Student Years: Aberforth at Hogwarts'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - aberforth-dumbledore
+    - albus-dumbledore
+    - dueling
+    - hogwarts-student
+    - sibling-history
+    source_unit: dh-ch02
+    output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  dh-ch02-004:
+    title: 'After Hogwarts: Traditional Graduate Travel'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - dumbledore-family
+    - foreign-wizards
+    - leaving-hogwarts
+    - post-hogwarts-travel
+    - wizarding-customs
+    source_unit: dh-ch02
+    output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  dh-ch02-005:
+    title: 'Dumbledore and the First Wizarding War: The 1945 Duel and Later Reputation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - chief-warlock
+    - dragon-blood
+    - grindelwald
+    - hogwarts-headmaster
+    - magical-history
+    source_unit: dh-ch02
+    output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  dh-ch02-006:
+    title: 'Sources on Dumbledore After His Death: Obituary, Biography, and Public
+      Dispute'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - albus-dumbledore
+    - daily-prophet
+    - elphias-doge
+    - rita-skeeter
+    - source-criticism
+    - wizarding-biography
+    source_unit: dh-ch02
+    output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
 by_tag:
+  aberforth-dumbledore:
+  - dh-ch02-003
   academic-assessment:
   - ootp-ch15-002
   academic-merit:
@@ -16331,6 +16417,11 @@ by_tag:
   - gof-ch35-006
   - gof-ch36-001
   albus-dumbledore:
+  - dh-ch02-001
+  - dh-ch02-002
+  - dh-ch02-003
+  - dh-ch02-005
+  - dh-ch02-006
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
@@ -16635,6 +16726,7 @@ by_tag:
   basin:
   - hbp-ch26-006
   bathilda-bagshot:
+  - dh-ch02-002
   - poa-ch01-001
   bathroom:
   - cos-ch15-007
@@ -17179,6 +17271,8 @@ by_tag:
   - gof-ch24-006
   cheering-charms:
   - poa-ch15-003
+  chief-warlock:
+  - dh-ch02-005
   child-safety:
   - hbp-ch16-004
   childhood-history:
@@ -17589,6 +17683,7 @@ by_tag:
   daily-prophet:
   - cos-ch12-006
   - dh-ch01-006
+  - dh-ch02-006
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -18079,6 +18174,8 @@ by_tag:
   - hbp-ch16-002
   - hbp-ch16-003
   - hbp-ch27-004
+  dragon-blood:
+  - dh-ch02-005
   dragon-breeds:
   - gof-ch20-006
   dragon-egg:
@@ -18118,6 +18215,7 @@ by_tag:
   due-process:
   - ootp-ch08-004
   dueling:
+  - dh-ch02-003
   - ootp-ch36-003
   dueling-club:
   - cos-ch11-003
@@ -18272,6 +18370,8 @@ by_tag:
   - hbp-ch25-006
   dumbledore-death:
   - hbp-ch27-007
+  dumbledore-family:
+  - dh-ch02-004
   dumbledore-funeral:
   - hbp-ch29-007
   - hbp-ch30-001
@@ -18396,6 +18496,9 @@ by_tag:
   - ps-ch17-003
   elixir-to-induce-euphoria:
   - hbp-ch22-002
+  elphias-doge:
+  - dh-ch02-001
+  - dh-ch02-006
   emergency-communications:
   - ootp-ch22-003
   - ootp-ch32-002
@@ -18896,6 +18999,7 @@ by_tag:
   foreign-schools:
   - gof-ch07-003
   foreign-wizards:
+  - dh-ch02-004
   - ootp-ch04-005
   forest-colony:
   - hbp-ch22-005
@@ -19221,6 +19325,7 @@ by_tag:
   - ootp-ch32-004
   - ootp-ch37-004
   grindelwald:
+  - dh-ch02-005
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -19977,6 +20082,7 @@ by_tag:
   - poa-ch18-006
   - poa-ch19-007
   hogwarts-headmaster:
+  - dh-ch02-005
   - hbp-ch16-007
   hogwarts-headmasters:
   - ootp-ch06-005
@@ -20043,6 +20149,9 @@ by_tag:
   hogwarts-staff:
   - dh-ch01-006
   - ps-ch04-001
+  hogwarts-student:
+  - dh-ch02-001
+  - dh-ch02-003
   hogwarts-students:
   - hbp-ch23-006
   hogwarts-teacher:
@@ -20390,6 +20499,7 @@ by_tag:
   in-universe-source:
   - cos-ch04-005
   - cos-ch13-004
+  - dh-ch02-001
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -20657,6 +20767,8 @@ by_tag:
   - ps-ch05-003
   leaving-feast:
   - gof-ch37-003
+  leaving-hogwarts:
+  - dh-ch02-004
   lee-jordan:
   - ootp-ch19-006
   - poa-ch13-002
@@ -21027,6 +21139,8 @@ by_tag:
   magical-games-and-sports:
   - gof-ch12-007
   - gof-ch16-002
+  magical-history:
+  - dh-ch02-005
   magical-hospital:
   - ootp-ch22-004
   magical-injury:
@@ -21711,6 +21825,8 @@ by_tag:
   - gof-ch11-005
   muggle-repelling-charms:
   - gof-ch08-001
+  muggle-rights:
+  - dh-ch02-001
   muggle-school:
   - ps-ch02-002
   muggle-secrecy:
@@ -21825,6 +21941,7 @@ by_tag:
   next-tournament:
   - gof-ch17-004
   nicolas-flamel:
+  - dh-ch02-002
   - ps-ch06-003
   - ps-ch11-007
   - ps-ch13-001
@@ -22220,6 +22337,8 @@ by_tag:
   - ootp-ch37-006
   pensieve-memory:
   - hbp-ch13-002
+  percival-dumbledore:
+  - dh-ch02-001
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -22410,6 +22529,8 @@ by_tag:
   - hbp-ch30-007
   post-hogwarts-training:
   - ootp-ch03-004
+  post-hogwarts-travel:
+  - dh-ch02-004
   post-riot-cleanup:
   - gof-ch10-001
   potion:
@@ -23078,6 +23199,7 @@ by_tag:
   rise-and-fall-of-the-dark-arts:
   - gof-ch09-007
   rita-skeeter:
+  - dh-ch02-006
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -23166,6 +23288,8 @@ by_tag:
   - poa-ch19-006
   scarpins-revelaspell:
   - hbp-ch18-001
+  scholarly-publications:
+  - dh-ch02-002
   school-absence-cover:
   - gof-ch02-003
   school-attachment:
@@ -23322,6 +23446,8 @@ by_tag:
   - ootp-ch25-001
   school-preparation:
   - ps-ch09-001
+  school-prizes:
+  - dh-ch02-002
   school-property:
   - cos-ch05-003
   school-protection:
@@ -23654,6 +23780,8 @@ by_tag:
   - poa-ch17-001
   shrinking-solution:
   - poa-ch07-001
+  sibling-history:
+  - dh-ch02-003
   side-along-apparition:
   - hbp-ch03-003
   side-corridor:
@@ -23898,6 +24026,8 @@ by_tag:
   - ootp-ch19-002
   soul-magic:
   - hbp-ch23-005
+  source-criticism:
+  - dh-ch02-006
   source-reliability:
   - gof-ch15-003
   special-awards:
@@ -25358,8 +25488,12 @@ by_tag:
   - poa-ch02-003
   wizard-school:
   - cos-ch01-004
+  wizarding-biography:
+  - dh-ch02-006
   wizarding-celebrations:
   - ps-ch01-001
+  wizarding-customs:
+  - dh-ch02-004
   wizarding-dwellings:
   - hbp-ch04-001
   wizarding-examinations-authority:
@@ -25409,6 +25543,8 @@ by_tag:
   - ootp-ch10-005
   - ootp-ch25-007
   - ootp-ch26-001
+  wizarding-scholarship:
+  - dh-ch02-002
   wizarding-schools:
   - gof-ch07-003
   - gof-ch09-002
