@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Three - The Dursleys Departing
-- Page range: 2998-3009
+- Chapter: Chapter Four - The Seven Potters
+- Page range: 3010-3026
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-03-the-dursleys-departing.yaml`
+- Output YAML: `sources/book-07/chapter-04-the-seven-potters.yaml`
 
 ## Minimal Context
 

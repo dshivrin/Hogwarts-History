@@ -170,3 +170,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `hbp-ch30`: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, pages 2949-2964, 7 entries, 0 explicit references.
 - `dh-ch01`: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, pages 2976-2985, 6 entries, 0 explicit references.
 - `dh-ch02`: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, pages 2986-2997, 6 entries, 0 explicit references.
+- `dh-ch03`: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, pages 2998-3009, 4 entries, 0 explicit references.

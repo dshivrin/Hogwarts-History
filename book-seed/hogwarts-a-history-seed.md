@@ -6140,6 +6140,17 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore says 
   - Corroborates: `gof-ch33-004`. gof-ch33-004 records Voldemort's view that Harry was protected by Dumbledore's arrangements and ancient household magic; this entry explains the blood charm, Petunia's role, and the once-a-year home requirement.
   - Notes: The charm is described by Dumbledore but not given a formal spell name or complete boundary conditions.
 
+#### Section: Evacuation Timing and Underage-Magic Constraints
+
+Summary: The available evidence includes 1 source item, led by: Dedalus plans to avoid magic in Harry's underage household, drive the Dursleys away first, then Disapparate them to a safe location timed with Harry's own departure and the charm's failure.
+
+- **Context:** Dedalus plans to avoid magic in Harry's underage household, drive the Dursleys away first, then Disapparate them to a safe location timed with Harry's own departure and the charm's failure.
+  - Quote: "driving, say, ten miles or so"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, PDF p. 3004, `dh-ch03-004`, `sources/book-07/chapter-03-the-dursleys-departing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The scene does not explain why Mad-Eye's original Side-Along-Apparition plan cannot proceed.
+
 #### Section: Harry Potter's Layered Protection
 
 Summary: The available evidence includes 1 source item, led by: Voldemort frames Harry's protection as layered between Dumbledore's arrangements, ancient household magic, Ministry crowds, and Dumbledore's presence at Hogwarts.
@@ -6151,6 +6162,18 @@ Summary: The available evidence includes 1 source item, led by: Voldemort frames
   - Reference type: security_or_protection
   - Corroborates: `ps-ch04-005`, `gof-ch02-001`. ps-ch04-005 records Hogwarts as a Dumbledore-associated wartime safe place, and gof-ch02-001 records Voldemort proximity through Harry's scar; this entry adds Voldemort's abduction-planning view of Harry's layered protections.
   - Notes: The passage reflects Voldemort's strategic interpretation and does not define the exact protective enchantments around Hogwarts itself.
+
+#### Section: Privet Drive Protection Breaks at Seventeen
+
+Summary: The available evidence includes 1 source item, led by: Harry states that the protective charm tied to his underage status will break when he turns seventeen, exposing both Harry and the Dursleys to Voldemort's targeting.
+
+- **Corroboration:** Harry states that the protective charm tied to his underage status will break when he turns seventeen, exposing both Harry and the Dursleys to Voldemort's targeting.
+  - Quote: "the protective charm that keeps me safe will break"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, PDF p. 3000, `dh-ch03-001`, `sources/book-07/chapter-03-the-dursleys-departing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch03-007`, `ootp-ch37-005`, `ootp-ch02-006`. Existing entries hbp-ch03-007, ootp-ch37-005, and ootp-ch02-006 already cover the Privet Drive blood protection and age-seventeen limit; this entry adds the final evacuation risk to the Dursleys and Order threat assessment.
+  - Notes: Harry paraphrases earlier explanations rather than naming the charm or giving its full mechanics in this scene.
 
 #### Section: Privet Drive protection and wizarding age of majority
 
@@ -10141,6 +10164,30 @@ Summary: The available evidence includes 1 source item, led by: The chapter reve
   - Reference type: security_or_protection
   - Corroborates: `gof-ch18-005`. gof-ch18-005 flags Rita Skeeter's distorted tournament coverage and press access; this entry adds the concealed Animagus method and the later containment that stopped her reporting.
   - Notes: Hermione's account is retrospective, and the passage does not show staff discovering the breach at the time.
+
+### Chapter: The War Beyond the Gates
+
+#### Section: Ministry Reliability and Civilian Protection
+
+Summary: The available evidence includes 1 source item, led by: The Order treats the Ministry as unreliable for Dursley protection because of suspected infiltration, while Kingsley is already assigned to protect the Muggle Prime Minister.
+
+- **Context:** The Order treats the Ministry as unreliable for Dursley protection because of suspected infiltration, while Kingsley is already assigned to protect the Muggle Prime Minister.
+  - Quote: "We think the Ministry has been infiltrated"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, PDF p. 3001, `dh-ch03-002`, `sources/book-07/chapter-03-the-dursleys-departing.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The evidence reflects the Order's assessment as relayed by Harry, not an official Ministry record.
+
+#### Section: Muggle-Visible Violence and Dark Creatures
+
+Summary: The available evidence includes 1 source item, led by: Harry describes wartime Muggle-visible disasters as Voldemort-driven attacks and identifies dementor-created fogs, Death Eaters, and possible Inferi as threats to exposed Muggles.
+
+- **Context:** Harry describes wartime Muggle-visible disasters as Voldemort-driven attacks and identifies dementor-created fogs, Death Eaters, and possible Inferi as threats to exposed Muggles.
+  - Quote: "These accidents aren't accidents"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, PDF p. 3002, `dh-ch03-003`, `sources/book-07/chapter-03-the-dursleys-departing.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Harry's summary is persuasive scene dialogue and does not independently verify each reported disaster.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 

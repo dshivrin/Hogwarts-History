@@ -810,6 +810,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
   - Rita Skeeter's Unregistered Animagus Surveillance
+- The War Beyond the Gates
+  - Ministry Reliability and Civilian Protection
+  - Muggle-Visible Violence and Dark Creatures
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wartime Movement and Secrecy Outside Hogwarts
@@ -1165,7 +1168,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Snape's Office Sealing Spell and Private Cupboard
 - Student Protection and Exceptional Safeguards
   - Blood wards and yearly return to Privet Drive
+  - Evacuation Timing and Underage-Magic Constraints
   - Harry Potter's Layered Protection
+  - Privet Drive Protection Breaks at Seventeen
   - Privet Drive protection and wizarding age of majority
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language

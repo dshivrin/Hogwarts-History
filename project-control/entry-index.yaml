@@ -16317,6 +16317,68 @@ by_entry:
     - wizarding-biography
     source_unit: dh-ch02
     output_yaml: sources/book-07/chapter-02-in-memoriam.yaml
+  dh-ch03-001:
+    title: 'Student Protection and Exceptional Safeguards: Privet Drive Protection
+      Breaks at Seventeen'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - blood-protection
+    - dursley-family
+    - order-of-the-phoenix
+    - privet-drive
+    - protective-magic
+    - seventeenth-birthday
+    - voldemort
+    source_unit: dh-ch03
+    output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
+  dh-ch03-002:
+    title: 'The War Beyond the Gates: Ministry Reliability and Civilian Protection'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dedalus-diggle
+    - hestia-jones
+    - kingsley-shacklebolt
+    - ministry-infiltration
+    - muggle-prime-minister
+    - order-of-the-phoenix
+    - second-war
+    source_unit: dh-ch03
+    output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
+  dh-ch03-003:
+    title: 'The War Beyond the Gates: Muggle-Visible Violence and Dark Creatures'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - death-eaters
+    - dementors
+    - inferi
+    - muggle-casualties
+    - public-danger
+    - second-war
+    - voldemort
+    source_unit: dh-ch03
+    output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
+  dh-ch03-004:
+    title: 'Student Protection and Exceptional Safeguards: Evacuation Timing and Underage-Magic
+      Constraints'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - disapparition
+    - operational-security
+    - order-of-the-phoenix
+    - protective-magic
+    - safe-house
+    - side-along-apparition
+    - underage-magic
+    source_unit: dh-ch03
+    output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
 by_tag:
   aberforth-dumbledore:
   - dh-ch02-003
@@ -16828,6 +16890,7 @@ by_tag:
   blood-magic:
   - hbp-ch26-003
   blood-protection:
+  - dh-ch03-001
   - hbp-ch03-007
   - ootp-ch02-006
   - ootp-ch37-005
@@ -17783,6 +17846,7 @@ by_tag:
   - hbp-ch27-005
   - hbp-ch28-002
   death-eaters:
+  - dh-ch03-003
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -17823,6 +17887,8 @@ by_tag:
   - ps-ch17-005
   decoy-detonators:
   - hbp-ch06-005
+  dedalus-diggle:
+  - dh-ch03-002
   defense-against-the-dark-arts:
   - cos-ch04-006
   - cos-ch06-006
@@ -17920,6 +17986,7 @@ by_tag:
   dementor-witness:
   - ootp-ch08-005
   dementors:
+  - dh-ch03-003
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -18041,6 +18108,7 @@ by_tag:
   disapparate:
   - hbp-ch28-005
   disapparition:
+  - dh-ch03-004
   - ootp-ch23-001
   disarming:
   - gof-ch29-004
@@ -18449,6 +18517,8 @@ by_tag:
   - gof-ch28-005
   - gof-ch31-004
   - gof-ch37-005
+  dursley-family:
+  - dh-ch03-001
   dursleys:
   - cos-ch01-003
   - cos-ch01-005
@@ -19841,6 +19911,8 @@ by_tag:
   - cos-ch16-003
   - poa-ch09-001
   - ps-ch07-001
+  hestia-jones:
+  - dh-ch03-002
   hexes:
   - ootp-ch23-004
   - ootp-ch38-007
@@ -20511,6 +20583,7 @@ by_tag:
   individual-desks:
   - ootp-ch31-004
   inferi:
+  - dh-ch03-003
   - hbp-ch03-003
   - hbp-ch04-002
   - hbp-ch09-003
@@ -20717,6 +20790,7 @@ by_tag:
   - poa-ch05-001
   - ps-ch06-001
   kingsley-shacklebolt:
+  - dh-ch03-002
   - hbp-ch01-007
   - ootp-ch07-005
   knarls:
@@ -21542,6 +21616,7 @@ by_tag:
   - hbp-ch10-005
   ministry-infiltration:
   - dh-ch01-003
+  - dh-ch03-002
   ministry-influence:
   - ootp-ch09-001
   ministry-interference:
@@ -21778,6 +21853,8 @@ by_tag:
   - ootp-ch06-004
   muggle-camouflage:
   - gof-ch07-002
+  muggle-casualties:
+  - dh-ch03-003
   muggle-concealment:
   - ootp-ch03-006
   - ootp-ch04-001
@@ -21815,6 +21892,8 @@ by_tag:
   - hbp-ch01-005
   muggle-post:
   - gof-ch03-002
+  muggle-prime-minister:
+  - dh-ch03-002
   muggle-protection:
   - ootp-ch07-006
   muggle-raised-students:
@@ -22076,6 +22155,7 @@ by_tag:
   - ootp-ch07-005
   - ootp-ch09-003
   operational-security:
+  - dh-ch03-004
   - ootp-ch10-001
   oppugno:
   - hbp-ch14-007
@@ -22103,6 +22183,9 @@ by_tag:
   order-of-the-phoenix:
   - dh-ch01-002
   - dh-ch01-003
+  - dh-ch03-001
+  - dh-ch03-002
+  - dh-ch03-004
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -22705,6 +22788,7 @@ by_tag:
   private-suppers:
   - hbp-ch12-004
   privet-drive:
+  - dh-ch03-001
   - gof-ch03-004
   - hbp-ch03-007
   - ootp-ch01-001
@@ -22893,6 +22977,8 @@ by_tag:
   protective-fire:
   - hbp-ch26-007
   protective-magic:
+  - dh-ch03-001
+  - dh-ch03-004
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -22917,6 +23003,8 @@ by_tag:
   - gof-ch24-007
   public-cover-story:
   - poa-ch18-004
+  public-danger:
+  - dh-ch03-003
   public-event-security:
   - gof-ch08-001
   - gof-ch09-001
@@ -23264,6 +23352,8 @@ by_tag:
   - poa-ch14-006
   - ps-ch12-005
   - ps-ch15-001
+  safe-house:
+  - dh-ch03-004
   safety-accommodation:
   - poa-ch22-003
   safety-equipment:
@@ -23592,6 +23682,8 @@ by_tag:
   - dh-ch01-004
   - dh-ch01-005
   - dh-ch01-006
+  - dh-ch03-002
+  - dh-ch03-003
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -23735,6 +23827,7 @@ by_tag:
   seven-year-education:
   - ps-ch04-006
   seventeenth-birthday:
+  - dh-ch03-001
   - hbp-ch03-007
   seventh-floor:
   - hbp-ch10-002
@@ -23783,6 +23876,7 @@ by_tag:
   sibling-history:
   - dh-ch02-003
   side-along-apparition:
+  - dh-ch03-004
   - hbp-ch03-003
   side-corridor:
   - ps-ch10-004
@@ -25095,6 +25189,7 @@ by_tag:
   - cos-ch02-005
   - cos-ch03-001
   - cos-ch05-005
+  - dh-ch03-004
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
@@ -25229,6 +25324,8 @@ by_tag:
   - cos-ch02-003
   - cos-ch17-004
   - cos-ch18-001
+  - dh-ch03-001
+  - dh-ch03-003
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004

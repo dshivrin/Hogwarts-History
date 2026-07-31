@@ -1970,3 +1970,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 2986-2997.
+- source_unit_id: dh-ch03
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 3
+  chapter_title: Chapter Three - The Dursleys Departing
+  page_start: 2998
+  page_end: 3009
+  output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
+  processed_at: '2026-07-31'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Used indexed page range; extracted only pages 2998-3009.
