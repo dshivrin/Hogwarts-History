@@ -811,8 +811,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Press access and distorted champion coverage
   - Rita Skeeter's Unregistered Animagus Surveillance
 - The War Beyond the Gates
+  - Ambush Over Muggle Britain
   - Ministry Reliability and Civilian Protection
   - Muggle-Visible Violence and Dark Creatures
+  - Polyjuice Decoys and Escort Risk
+  - Voldemort's Pursuit and Wand Anomaly
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wartime Movement and Secrecy Outside Hogwarts
@@ -945,6 +948,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Ghosts, Portraits, and Castle Memory
   - Moaning Myrtle, Plumbing, and the Lake
+
+## Magical Transportation
+
+- Brooms, Beasts, Portkeys, and Improvised Vehicles
+  - Seven-Potters Transport Assignments
 
 ## Magical Transportation and Boundaries
 
@@ -1168,10 +1176,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Snape's Office Sealing Spell and Private Cupboard
 - Student Protection and Exceptional Safeguards
   - Blood wards and yearly return to Privet Drive
+  - Early Break of Privet Drive Protection
   - Evacuation Timing and Underage-Magic Constraints
   - Harry Potter's Layered Protection
   - Privet Drive Protection Breaks at Seventeen
   - Privet Drive protection and wizarding age of majority
+  - Trace Limits and Blocked Magical Transport
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory

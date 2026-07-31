@@ -16379,6 +16379,103 @@ by_entry:
     - underage-magic
     source_unit: dh-ch03
     output_yaml: sources/book-07/chapter-03-the-dursleys-departing.yaml
+  dh-ch04-001:
+    title: 'Student Protection and Exceptional Safeguards: Trace Limits and Blocked
+      Magical Transport'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - floo-network
+    - magical-transport
+    - pius-thicknesse
+    - portkey
+    - privet-drive
+    - trace
+    - underage-magic
+    source_unit: dh-ch04
+    output_yaml: sources/book-07/chapter-04-the-seven-potters.yaml
+  dh-ch04-002:
+    title: 'Student Protection and Exceptional Safeguards: Early Break of Privet Drive
+      Protection'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - blood-protection
+    - burrow
+    - order-of-the-phoenix
+    - portkey
+    - privet-drive
+    - protective-enchantments
+    - safe-house
+    - second-war
+    source_unit: dh-ch04
+    output_yaml: sources/book-07/chapter-04-the-seven-potters.yaml
+  dh-ch04-003:
+    title: 'The War Beyond the Gates: Polyjuice Decoys and Escort Risk'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - death-eaters
+    - decoys
+    - harry-potter
+    - operational-security
+    - order-of-the-phoenix
+    - polyjuice-potion
+    - second-war
+    source_unit: dh-ch04
+    output_yaml: sources/book-07/chapter-04-the-seven-potters.yaml
+  dh-ch04-004:
+    title: 'Brooms, Beasts, Portkeys, and Improvised Vehicles: Seven-Potters Transport
+      Assignments'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - arthur-weasley
+    - broomsticks
+    - decoys
+    - flying-motorbike
+    - magical-transport
+    - order-of-the-phoenix
+    - sirius-black
+    - thestrals
+    source_unit: dh-ch04
+    output_yaml: sources/book-07/chapter-04-the-seven-potters.yaml
+  dh-ch04-005:
+    title: 'The War Beyond the Gates: Ambush Over Muggle Britain'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - death-eaters
+    - expelliarmus
+    - flying-motorbike
+    - magical-combat
+    - muggle-visibility
+    - order-of-the-phoenix
+    - public-danger
+    - second-war
+    source_unit: dh-ch04
+    output_yaml: sources/book-07/chapter-04-the-seven-potters.yaml
+  dh-ch04-006:
+    title: 'The War Beyond the Gates: Voldemort''s Pursuit and Wand Anomaly'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - flying-motorbike
+    - harry-potter
+    - magical-combat
+    - second-war
+    - unsupported-flight
+    - voldemort
+    - wand-magic
+    source_unit: dh-ch04
+    output_yaml: sources/book-07/chapter-04-the-seven-potters.yaml
 by_tag:
   aberforth-dumbledore:
   - dh-ch02-003
@@ -16589,6 +16686,7 @@ by_tag:
   - hbp-ch11-006
   apparition:
   - dh-ch01-004
+  - dh-ch04-001
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -16636,6 +16734,7 @@ by_tag:
   - ootp-ch10-006
   - ps-ch06-006
   arthur-weasley:
+  - dh-ch04-004
   - hbp-ch16-001
   - ootp-ch07-006
   - ootp-ch21-007
@@ -16891,6 +16990,7 @@ by_tag:
   - hbp-ch26-003
   blood-protection:
   - dh-ch03-001
+  - dh-ch04-002
   - hbp-ch03-007
   - ootp-ch02-006
   - ootp-ch37-005
@@ -16996,6 +17096,7 @@ by_tag:
   - poa-ch13-002
   broomsticks:
   - cos-ch07-002
+  - dh-ch04-004
   - hbp-ch01-002
   - ootp-ch19-007
   - poa-ch01-007
@@ -17023,6 +17124,7 @@ by_tag:
   - hbp-ch29-007
   - hbp-ch30-005
   burrow:
+  - dh-ch04-002
   - hbp-ch05-003
   burrow-security:
   - hbp-ch16-002
@@ -17847,6 +17949,8 @@ by_tag:
   - hbp-ch28-002
   death-eaters:
   - dh-ch03-003
+  - dh-ch04-003
+  - dh-ch04-005
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -17887,6 +17991,9 @@ by_tag:
   - ps-ch17-005
   decoy-detonators:
   - hbp-ch06-005
+  decoys:
+  - dh-ch04-003
+  - dh-ch04-004
   dedalus-diggle:
   - dh-ch03-002
   defense-against-the-dark-arts:
@@ -18710,6 +18817,7 @@ by_tag:
   - poa-ch12-002
   expelliarmus:
   - cos-ch11-003
+  - dh-ch04-005
   - gof-ch34-001
   - gof-ch34-003
   - ootp-ch18-007
@@ -18982,6 +19090,7 @@ by_tag:
   - ootp-ch37-001
   floo-network:
   - dh-ch01-004
+  - dh-ch04-001
   - gof-ch04-004
   - hbp-ch17-001
   - ootp-ch03-003
@@ -19015,6 +19124,10 @@ by_tag:
   - gof-ch04-003
   flying-lessons:
   - ps-ch09-002
+  flying-motorbike:
+  - dh-ch04-004
+  - dh-ch04-005
+  - dh-ch04-006
   flying-motorcycle:
   - ps-ch02-003
   foe-glass:
@@ -19678,6 +19791,8 @@ by_tag:
   harry-potter:
   - cos-ch01-004
   - dh-ch01-002
+  - dh-ch04-003
+  - dh-ch04-006
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -21146,6 +21261,9 @@ by_tag:
   magical-careers:
   - ootp-ch03-004
   - ootp-ch29-003
+  magical-combat:
+  - dh-ch04-005
+  - dh-ch04-006
   magical-communication:
   - ootp-ch23-002
   - ootp-ch38-005
@@ -21353,6 +21471,8 @@ by_tag:
   - hbp-ch26-002
   - hbp-ch26-004
   magical-transport:
+  - dh-ch04-001
+  - dh-ch04-004
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -21945,6 +22065,8 @@ by_tag:
   - ootp-ch01-004
   muggle-technology:
   - gof-ch28-003
+  muggle-visibility:
+  - dh-ch04-005
   muggle-witness:
   - ootp-ch01-005
   - ootp-ch02-005
@@ -22156,6 +22278,7 @@ by_tag:
   - ootp-ch09-003
   operational-security:
   - dh-ch03-004
+  - dh-ch04-003
   - ootp-ch10-001
   oppugno:
   - hbp-ch14-007
@@ -22186,6 +22309,10 @@ by_tag:
   - dh-ch03-001
   - dh-ch03-002
   - dh-ch03-004
+  - dh-ch04-002
+  - dh-ch04-003
+  - dh-ch04-004
+  - dh-ch04-005
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -22508,6 +22635,7 @@ by_tag:
   - ootp-ch19-003
   pius-thicknesse:
   - dh-ch01-003
+  - dh-ch04-001
   planet-room:
   - ootp-ch35-005
   planetary-divination:
@@ -22552,6 +22680,7 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch12-004
+  - dh-ch04-003
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
@@ -22562,6 +22691,8 @@ by_tag:
   - ootp-ch30-001
   - ootp-ch38-002
   portkey:
+  - dh-ch04-001
+  - dh-ch04-002
   - gof-ch31-007
   - gof-ch32-001
   - gof-ch33-005
@@ -22789,6 +22920,8 @@ by_tag:
   - hbp-ch12-004
   privet-drive:
   - dh-ch03-001
+  - dh-ch04-001
+  - dh-ch04-002
   - gof-ch03-004
   - hbp-ch03-007
   - ootp-ch01-001
@@ -22969,6 +23102,7 @@ by_tag:
   - hbp-ch06-002
   protective-enchantments:
   - dh-ch01-003
+  - dh-ch04-002
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -23005,6 +23139,7 @@ by_tag:
   - poa-ch18-004
   public-danger:
   - dh-ch03-003
+  - dh-ch04-005
   public-event-security:
   - gof-ch08-001
   - gof-ch09-001
@@ -23354,6 +23489,7 @@ by_tag:
   - ps-ch15-001
   safe-house:
   - dh-ch03-004
+  - dh-ch04-002
   safety-accommodation:
   - poa-ch22-003
   safety-equipment:
@@ -23684,6 +23820,10 @@ by_tag:
   - dh-ch01-006
   - dh-ch03-002
   - dh-ch03-003
+  - dh-ch04-002
+  - dh-ch04-003
+  - dh-ch04-005
+  - dh-ch04-006
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -23902,6 +24042,7 @@ by_tag:
   sir-patrick-delaney-podmore:
   - cos-ch08-001
   sirius-black:
+  - dh-ch04-004
   - gof-ch02-006
   - gof-ch18-001
   - gof-ch19-007
@@ -24877,6 +25018,7 @@ by_tag:
   theory-exams:
   - ootp-ch31-003
   thestrals:
+  - dh-ch04-004
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch14-002
@@ -25014,6 +25156,7 @@ by_tag:
   tower-stairs:
   - hbp-ch29-004
   trace:
+  - dh-ch04-001
   - hbp-ch17-007
   train-ticket:
   - hbp-ch13-006
@@ -25190,6 +25333,7 @@ by_tag:
   - cos-ch03-001
   - cos-ch05-005
   - dh-ch03-004
+  - dh-ch04-001
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
@@ -25259,6 +25403,8 @@ by_tag:
   unspeakables:
   - gof-ch07-004
   - ootp-ch25-002
+  unsupported-flight:
+  - dh-ch04-006
   unused-classroom:
   - ps-ch12-006
   unused-classrooms:
@@ -25326,6 +25472,7 @@ by_tag:
   - cos-ch18-001
   - dh-ch03-001
   - dh-ch03-003
+  - dh-ch04-006
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -25412,6 +25559,7 @@ by_tag:
   wand-legislation:
   - ootp-ch31-007
   wand-magic:
+  - dh-ch04-006
   - gof-ch09-006
   - hbp-ch02-006
   wand-registration:

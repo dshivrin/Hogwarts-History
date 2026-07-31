@@ -457,6 +457,7 @@ tags:
   apparition:
     entries:
     - dh-ch01-004
+    - dh-ch04-001
     - gof-ch06-001
     - gof-ch09-004
     - gof-ch15-006
@@ -489,6 +490,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -558,6 +560,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
   arthur-weasley:
     entries:
+    - dh-ch04-004
     - hbp-ch16-001
     - ootp-ch07-006
     - ootp-ch21-007
@@ -565,6 +568,7 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   artifact-accidents:
     entries:
     - ootp-ch22-005
@@ -1096,6 +1100,7 @@ tags:
   blood-protection:
     entries:
     - dh-ch03-001
+    - dh-ch04-002
     - hbp-ch03-007
     - ootp-ch02-006
     - ootp-ch37-005
@@ -1104,6 +1109,7 @@ tags:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   blood-quill:
     entries:
     - ootp-ch13-006
@@ -1341,6 +1347,7 @@ tags:
   broomsticks:
     entries:
     - cos-ch07-002
+    - dh-ch04-004
     - hbp-ch01-002
     - ootp-ch19-007
     - poa-ch01-007
@@ -1357,6 +1364,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   bubble-head-charm:
     entries:
     - ootp-ch30-002
@@ -1402,9 +1410,11 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
   burrow:
     entries:
+    - dh-ch04-002
     - hbp-ch05-003
     output_yaml:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   burrow-security:
     entries:
     - hbp-ch16-002
@@ -3194,6 +3204,8 @@ tags:
   death-eaters:
     entries:
     - dh-ch03-003
+    - dh-ch04-003
+    - dh-ch04-005
     - gof-ch09-001
     - gof-ch09-004
     - gof-ch09-007
@@ -3246,6 +3258,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   death-witnesses:
     entries:
     - ootp-ch21-001
@@ -3274,6 +3287,12 @@ tags:
     - hbp-ch06-005
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
+  decoys:
+    entries:
+    - dh-ch04-003
+    - dh-ch04-004
+    output_yaml:
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   dedalus-diggle:
     entries:
     - dh-ch03-002
@@ -4927,6 +4946,7 @@ tags:
   expelliarmus:
     entries:
     - cos-ch11-003
+    - dh-ch04-005
     - gof-ch34-001
     - gof-ch34-003
     - ootp-ch18-007
@@ -4936,6 +4956,7 @@ tags:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   experimental-charms:
     entries:
     - gof-ch07-004
@@ -5507,6 +5528,7 @@ tags:
   floo-network:
     entries:
     - dh-ch01-004
+    - dh-ch04-001
     - gof-ch04-004
     - hbp-ch17-001
     - ootp-ch03-003
@@ -5528,6 +5550,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -5581,6 +5604,13 @@ tags:
     - ps-ch09-002
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  flying-motorbike:
+    entries:
+    - dh-ch04-004
+    - dh-ch04-005
+    - dh-ch04-006
+    output_yaml:
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   flying-motorcycle:
     entries:
     - ps-ch02-003
@@ -6952,6 +6982,8 @@ tags:
     entries:
     - cos-ch01-004
     - dh-ch01-002
+    - dh-ch04-003
+    - dh-ch04-006
     - gof-ch01-004
     - gof-ch02-001
     - gof-ch02-004
@@ -7008,6 +7040,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -10093,6 +10126,12 @@ tags:
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-29-career-advice.yaml
+  magical-combat:
+    entries:
+    - dh-ch04-005
+    - dh-ch04-006
+    output_yaml:
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   magical-communication:
     entries:
     - ootp-ch23-002
@@ -10555,11 +10594,14 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
   magical-transport:
     entries:
+    - dh-ch04-001
+    - dh-ch04-004
     - gof-ch04-004
     - poa-ch03-002
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   magical-transportation:
     entries:
     - gof-ch06-001
@@ -11843,6 +11885,11 @@ tags:
     - gof-ch28-003
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  muggle-visibility:
+    entries:
+    - dh-ch04-005
+    output_yaml:
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   muggle-witness:
     entries:
     - ootp-ch01-005
@@ -12319,10 +12366,12 @@ tags:
   operational-security:
     entries:
     - dh-ch03-004
+    - dh-ch04-003
     - ootp-ch10-001
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   oppugno:
     entries:
     - hbp-ch14-007
@@ -12379,6 +12428,10 @@ tags:
     - dh-ch03-001
     - dh-ch03-002
     - dh-ch03-004
+    - dh-ch04-002
+    - dh-ch04-003
+    - dh-ch04-004
+    - dh-ch04-005
     - hbp-ch02-002
     - hbp-ch02-004
     - hbp-ch03-005
@@ -12421,6 +12474,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -13060,8 +13114,10 @@ tags:
   pius-thicknesse:
     entries:
     - dh-ch01-003
+    - dh-ch04-001
     output_yaml:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   planet-room:
     entries:
     - ootp-ch35-005
@@ -13161,6 +13217,7 @@ tags:
     - cos-ch09-007
     - cos-ch10-002
     - cos-ch12-004
+    - dh-ch04-003
     - gof-ch35-006
     - hbp-ch03-003
     - hbp-ch09-005
@@ -13175,6 +13232,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   portable-swamp:
     entries:
     - ootp-ch29-007
@@ -13186,6 +13244,8 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
   portkey:
     entries:
+    - dh-ch04-001
+    - dh-ch04-002
     - gof-ch31-007
     - gof-ch32-001
     - gof-ch33-005
@@ -13203,6 +13263,7 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   portkeys:
     entries:
     - gof-ch06-002
@@ -13670,6 +13731,8 @@ tags:
   privet-drive:
     entries:
     - dh-ch03-001
+    - dh-ch04-001
+    - dh-ch04-002
     - gof-ch03-004
     - hbp-ch03-007
     - ootp-ch01-001
@@ -13694,6 +13757,7 @@ tags:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   probation:
     entries:
     - ootp-ch17-006
@@ -14028,6 +14092,7 @@ tags:
   protective-enchantments:
     entries:
     - dh-ch01-003
+    - dh-ch04-002
     - hbp-ch27-003
     - hbp-ch29-003
     - ootp-ch34-006
@@ -14036,6 +14101,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   protective-escort:
     entries:
     - hbp-ch06-003
@@ -14109,8 +14175,10 @@ tags:
   public-danger:
     entries:
     - dh-ch03-003
+    - dh-ch04-005
     output_yaml:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   public-event-security:
     entries:
     - gof-ch08-001
@@ -14867,8 +14935,10 @@ tags:
   safe-house:
     entries:
     - dh-ch03-004
+    - dh-ch04-002
     output_yaml:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   safety-accommodation:
     entries:
     - poa-ch22-003
@@ -15586,6 +15656,10 @@ tags:
     - dh-ch01-006
     - dh-ch03-002
     - dh-ch03-003
+    - dh-ch04-002
+    - dh-ch04-003
+    - dh-ch04-005
+    - dh-ch04-006
     - hbp-ch01-004
     - hbp-ch01-005
     - hbp-ch01-006
@@ -15633,6 +15707,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -16066,6 +16141,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
   sirius-black:
     entries:
+    - dh-ch04-004
     - gof-ch02-006
     - gof-ch18-001
     - gof-ch19-007
@@ -16128,6 +16204,7 @@ tags:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -18226,6 +18303,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
   thestrals:
     entries:
+    - dh-ch04-004
     - ootp-ch10-007
     - ootp-ch11-001
     - ootp-ch14-002
@@ -18242,6 +18320,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   third-floor:
     entries:
     - ootp-ch13-005
@@ -18530,9 +18609,11 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
   trace:
     entries:
+    - dh-ch04-001
     - hbp-ch17-007
     output_yaml:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   train-ticket:
     entries:
     - hbp-ch13-006
@@ -18872,6 +18953,7 @@ tags:
     - cos-ch03-001
     - cos-ch05-005
     - dh-ch03-004
+    - dh-ch04-001
     - gof-ch02-003
     - gof-ch04-005
     - gof-ch06-001
@@ -18905,6 +18987,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   underage-students:
     entries:
     - gof-ch16-004
@@ -19030,6 +19113,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  unsupported-flight:
+    entries:
+    - dh-ch04-006
+    output_yaml:
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   unused-classroom:
     entries:
     - ps-ch12-006
@@ -19177,6 +19265,7 @@ tags:
     - cos-ch18-001
     - dh-ch03-001
     - dh-ch03-003
+    - dh-ch04-006
     - gof-ch01-001
     - gof-ch01-003
     - gof-ch01-004
@@ -19246,6 +19335,7 @@ tags:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   voldemort-defenses:
     entries:
     - hbp-ch26-002
@@ -19351,11 +19441,13 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
   wand-magic:
     entries:
+    - dh-ch04-006
     - gof-ch09-006
     - hbp-ch02-006
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
+    - sources/book-07/chapter-04-the-seven-potters.yaml
   wand-registration:
     entries:
     - ootp-ch07-002

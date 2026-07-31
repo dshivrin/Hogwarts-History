@@ -171,3 +171,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch01`: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, pages 2976-2985, 6 entries, 0 explicit references.
 - `dh-ch02`: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, pages 2986-2997, 6 entries, 0 explicit references.
 - `dh-ch03`: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, pages 2998-3009, 4 entries, 0 explicit references.
+- `dh-ch04`: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, pages 3010-3026, 6 entries, 0 explicit references.

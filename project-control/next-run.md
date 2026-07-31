@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Four - The Seven Potters
-- Page range: 3010-3026
+- Chapter: Chapter Five - Fallen Warrior
+- Page range: 3027-3046
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-04-the-seven-potters.yaml`
+- Output YAML: `sources/book-07/chapter-05-fallen-warrior.yaml`
 
 ## Minimal Context
 

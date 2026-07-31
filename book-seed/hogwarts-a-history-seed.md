@@ -6140,6 +6140,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore says 
   - Corroborates: `gof-ch33-004`. gof-ch33-004 records Voldemort's view that Harry was protected by Dumbledore's arrangements and ancient household magic; this entry explains the blood charm, Petunia's role, and the once-a-year home requirement.
   - Notes: The charm is described by Dumbledore but not given a formal spell name or complete boundary conditions.
 
+#### Section: Early Break of Privet Drive Protection
+
+Summary: The available evidence includes 1 source item, led by: Moody states that Lily's protection ends when Harry comes of age or stops calling Privet Drive home; the Order therefore uses false scheduling, twelve protected connected houses, and a Portkey from Tonks's parents' house to the Burrow.
+
+- **Corroboration:** Moody states that Lily's protection ends when Harry comes of age or stops calling Privet Drive home; the Order therefore uses false scheduling, twelve protected connected houses, and a Portkey from Tonks's parents' house to the Burrow.
+  - Quote: "the charm will break the moment you get outside its range"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, PDF p. 3014, `dh-ch04-002`, `sources/book-07/chapter-04-the-seven-potters.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch03-001`, `hbp-ch03-007`. dh-ch03-001 and hbp-ch03-007 already cover the age-seventeen and Privet Drive residence limits; this entry adds the deliberate early break, decoy safe houses, and Portkey staging.
+  - Notes: The exact protective enchantments on each decoy house are not named.
+
 #### Section: Evacuation Timing and Underage-Magic Constraints
 
 Summary: The available evidence includes 1 source item, led by: Dedalus plans to avoid magic in Harry's underage household, drive the Dursleys away first, then Disapparate them to a safe location timed with Harry's own departure and the charm's failure.
@@ -6186,6 +6198,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore says 
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch37-005`, `ootp-ch02-006`. ootp-ch37-005 explains the blood protection and yearly return requirement, and ootp-ch02-006 shows the requirement enforced by Dumbledore's Howler; this entry adds the explicit age-seventeen cutoff and final-return condition.
   - Notes: The passage does not name the protective charm or explain whether a brief return is sufficient beyond Dumbledore's stated request.
+
+#### Section: Trace Limits and Blocked Magical Transport
+
+Summary: The available evidence includes 1 source item, led by: Moody says Pius Thicknesse has criminalized connecting Privet Drive to the Floo Network, placing a Portkey there, or Apparating in or out, while Harry's Trace would reveal any spell cast to remove him.
+
+- **Corroboration:** Moody says Pius Thicknesse has criminalized connecting Privet Drive to the Floo Network, placing a Portkey there, or Apparating in or out, while Harry's Trace would reveal any spell cast to remove him.
+  - Quote: "The charm that detects magical activity around under-seventeens"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, PDF p. 3013, `dh-ch04-001`, `sources/book-07/chapter-04-the-seven-potters.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch03-004`, `hbp-ch17-007`. dh-ch03-004 already records the evacuation's underage-magic constraint and hbp-ch17-007 records Trace limits; this entry adds Thicknesse's specific bans on Floo, Portkey, and Apparition at Privet Drive.
+  - Notes: The passage reports Moody's operational briefing, not the full text of Thicknesse's legal order.
 
 ### Chapter: The Chamber of Secrets
 
@@ -10167,6 +10191,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter reve
 
 ### Chapter: The War Beyond the Gates
 
+#### Section: Ambush Over Muggle Britain
+
+Summary: The available evidence includes 1 source item, led by: The ambush shows Death Eaters waiting in force over a Muggle area, Order transport under lethal attack, Arthur's modified motorbike deploying emergency defenses, and Harry's signature Disarming Charm revealing the real target.
+
+- **Context:** The ambush shows Death Eaters waiting in force over a Muggle area, Order transport under lethal attack, Arthur's modified motorbike deploying emergency defenses, and Harry's signature Disarming Charm revealing the real target.
+  - Quote: "Harry thought wildly of fireworks, and the Muggles below"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, PDF p. 3020, `dh-ch04-005`, `sources/book-07/chapter-04-the-seven-potters.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Harry's viewpoint cannot identify every combatant or confirm what Muggle witnesses saw.
+
 #### Section: Ministry Reliability and Civilian Protection
 
 Summary: The available evidence includes 1 source item, led by: The Order treats the Ministry as unreliable for Dursley protection because of suspected infiltration, while Kingsley is already assigned to protect the Muggle Prime Minister.
@@ -10188,6 +10223,28 @@ Summary: The available evidence includes 1 source item, led by: Harry describes 
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: historical_claim
   - Notes: Harry's summary is persuasive scene dialogue and does not independently verify each reported disaster.
+
+#### Section: Polyjuice Decoys and Escort Risk
+
+Summary: The available evidence includes 1 source item, led by: The Order creates six Polyjuice decoys of Harry, each paired with a protector, because Death Eaters are expected to try to capture Harry while killing escorts.
+
+- **Context:** The Order creates six Polyjuice decoys of Harry, each paired with a protector, because Death Eaters are expected to try to capture Harry while killing escorts.
+  - Quote: "There will be seven Harry Potters moving through the skies"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, PDF p. 3014, `dh-ch04-003`, `sources/book-07/chapter-04-the-seven-potters.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage does not identify who brewed the Polyjuice Potion or where the potion was prepared.
+
+#### Section: Voldemort's Pursuit and Wand Anomaly
+
+Summary: The available evidence includes 1 source item, led by: The chase records Voldemort's unsupported flight, a rare independent reaction from Harry's wand producing golden fire, Voldemort's demand for another wand, and the crash landing at the protected destination.
+
+- **Context:** The chase records Voldemort's unsupported flight, a rare independent reaction from Harry's wand producing golden fire, Voldemort's demand for another wand, and the crash landing at the protected destination.
+  - Quote: "his wand acted of its own accord"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, PDF p. 3025, `dh-ch04-006`, `sources/book-07/chapter-04-the-seven-potters.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The chapter presents the wand event from Harry's immediate perception and leaves its mechanism unexplained here.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -11949,6 +12006,21 @@ Summary: The available evidence includes 1 source item, led by: Myrtle's account
   - Reference type: portrait_or_ghost_lore
   - Corroborates: `cos-ch08-005`, `cos-ch15-007`, `cos-ch16-006`, `cos-ch16-007`. Earlier entries identify Myrtle's bathroom haunting, death evidence, Chamber bathroom entrance, and plumbing-linked tunnels; this entry adds her pipe-to-lake movement and Dippet/Olive Hornby body-discovery testimony.
   - Notes: Myrtle is emotional and digressive, so the entry should be used for corroborated ghost and infrastructure details rather than precise legal chronology.
+
+## Part: Magical Transportation
+
+### Chapter: Brooms, Beasts, Portkeys, and Improvised Vehicles
+
+#### Section: Seven-Potters Transport Assignments
+
+Summary: The available evidence includes 1 source item, led by: The Order assigns paired decoy routes using brooms, thestrals, and Sirius Black's flying motorbike, with simultaneous departure preserving the diversion and Arthur Weasley's emergency modifications on the bike.
+
+- **Context:** The Order assigns paired decoy routes using brooms, thestrals, and Sirius Black's flying motorbike, with simultaneous departure preserving the diversion and Arthur Weasley's emergency modifications on the bike.
+  - Quote: "brooms an' thestrals can't take me weight"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, PDF p. 3019, `dh-ch04-004`, `sources/book-07/chapter-04-the-seven-potters.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The route destinations for every pair are not listed in this chapter.
 
 ## Part: Magical Transportation and Boundaries
 
