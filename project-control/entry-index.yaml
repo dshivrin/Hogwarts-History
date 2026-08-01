@@ -16699,6 +16699,114 @@ by_entry:
     - soul-magic
     source_unit: dh-ch06
     output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch07-001:
+    title: 'The War Beyond the Gates: Coming of age and the end of the Trace'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - burrow
+    - coming-of-age
+    - molly-weasley
+    - seventeenth-birthday
+    - trace
+    - underage-magic
+    - wizarding-custom
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch07-002:
+    title: 'Ministry Authority and School Affairs: Estate seizure and suspected Dark
+      artifacts'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dark-artifacts
+    - dumbledore-will
+    - estate-law
+    - justifiable-confiscation
+    - magical-law
+    - ministry-of-magic
+    - scrimgeour
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch07-003:
+    title: 'Archives, Offices, and Private Collections: Dumbledore''s library and
+      instruments left to Hogwarts'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore
+    - estate-law
+    - headmaster
+    - hogwarts-archives
+    - institutional-memory
+    - magical-instruments
+    - private-library
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch07-004:
+    title: 'Headmasters'' Magical Instruments: Dumbledore''s Deluminator'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deluminator
+    - dumbledore
+    - invention
+    - light-magic
+    - magical-artifact
+    - personal-bequest
+    - ron-weasley
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch07-005:
+    title: 'Quidditch and Enchanted Equipment: Snitch flesh memory and contested captures'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dumbledore
+    - flesh-memory
+    - golden-snitch
+    - harry-potter
+    - hidden-message
+    - magical-artifact
+    - quidditch
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch07-006:
+    title: 'Founder Relics and House Memory: The Sword of Gryffindor and worthy Gryffindors'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relic
+    - godric-gryffindor
+    - gryffindor
+    - historical-artifact
+    - ministry-of-magic
+    - sorting-hat
+    - sword-of-gryffindor
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch07-007:
+    title: 'Magical Sources and Cultural Memory: Beedle the Bard and wizarding childhood
+      tradition'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - children-stories
+    - dumbledore
+    - hermione-granger
+    - in-universe-source
+    - runes
+    - tales-of-beedle-the-bard
+    - wizarding-folklore
+    source_unit: dh-ch07
+    output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
 by_tag:
   aberforth-dumbledore:
   - dh-ch02-003
@@ -17359,6 +17467,7 @@ by_tag:
   - dh-ch05-002
   - dh-ch06-001
   - dh-ch06-002
+  - dh-ch07-001
   - hbp-ch05-003
   burrow-security:
   - hbp-ch16-002
@@ -17677,6 +17786,8 @@ by_tag:
   - hbp-ch16-004
   childhood-history:
   - hbp-ch26-001
+  children-stories:
+  - dh-ch07-007
   chocolate-cauldrons:
   - hbp-ch18-006
   chocolate-frog-card:
@@ -17773,6 +17884,7 @@ by_tag:
   - ootp-ch18-005
   coming-of-age:
   - dh-ch06-001
+  - dh-ch07-001
   - hbp-ch03-007
   commentators:
   - hbp-ch08-004
@@ -18123,6 +18235,8 @@ by_tag:
   - ootp-ch35-007
   dangerous-plants:
   - cos-ch06-002
+  dark-artifacts:
+  - dh-ch07-002
   dark-arts:
   - cos-ch18-001
   - dh-ch06-006
@@ -18328,6 +18442,8 @@ by_tag:
   - cos-ch11-002
   deletrius:
   - gof-ch09-006
+  deluminator:
+  - dh-ch07-004
   dementor-attack:
   - ootp-ch32-007
   dementor-imitation:
@@ -18652,6 +18768,10 @@ by_tag:
   - cos-ch18-001
   - cos-ch18-005
   - dh-ch06-001
+  - dh-ch07-003
+  - dh-ch07-004
+  - dh-ch07-005
+  - dh-ch07-007
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -18825,6 +18945,8 @@ by_tag:
   - hbp-ch16-002
   dumbledore-tomb:
   - hbp-ch30-005
+  dumbledore-will:
+  - dh-ch07-002
   dumbledores-army:
   - dh-ch05-004
   - hbp-ch07-004
@@ -19010,6 +19132,9 @@ by_tag:
   escape-route:
   - hbp-ch28-002
   - poa-ch21-007
+  estate-law:
+  - dh-ch07-002
+  - dh-ch07-003
   europe:
   - gof-ch09-002
   evasive-enchantments:
@@ -19319,6 +19444,8 @@ by_tag:
   - ootp-ch34-004
   flame-freezing-charm:
   - poa-ch01-001
+  flesh-memory:
+  - dh-ch07-005
   fleur-delacour:
   - gof-ch16-007
   - gof-ch17-001
@@ -19450,6 +19577,8 @@ by_tag:
   - ps-ch11-002
   fouls-and-penalties:
   - gof-ch08-005
+  founder-relic:
+  - dh-ch07-006
   founder-relics:
   - hbp-ch20-005
   - hbp-ch23-007
@@ -19643,6 +19772,7 @@ by_tag:
   - hbp-ch25-002
   godric-gryffindor:
   - cos-ch18-004
+  - dh-ch07-006
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
@@ -19662,6 +19792,8 @@ by_tag:
   - gof-ch25-003
   golden-mist:
   - gof-ch31-005
+  golden-snitch:
+  - dh-ch07-005
   golgomath:
   - ootp-ch20-005
   golpalotts-third-law:
@@ -19800,6 +19932,7 @@ by_tag:
   - cos-ch07-002
   - cos-ch15-002
   - cos-ch18-003
+  - dh-ch07-006
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -20049,6 +20182,7 @@ by_tag:
   - dh-ch04-006
   - dh-ch05-004
   - dh-ch05-007
+  - dh-ch07-005
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -20132,6 +20266,7 @@ by_tag:
   - cos-ch02-003
   - cos-ch12-006
   - cos-ch14-006
+  - dh-ch07-003
   - hbp-ch09-004
   - hbp-ch30-005
   - ootp-ch21-007
@@ -20269,6 +20404,7 @@ by_tag:
   hermione-granger:
   - cos-ch04-004
   - cos-ch07-003
+  - dh-ch07-007
   - gof-ch08-003
   - gof-ch09-002
   - hbp-ch04-001
@@ -20308,6 +20444,8 @@ by_tag:
   - ps-ch03-002
   hidden-mechanism:
   - cos-ch17-007
+  hidden-message:
+  - dh-ch07-005
   hidden-objects:
   - hbp-ch24-005
   hidden-passageway:
@@ -20356,6 +20494,8 @@ by_tag:
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch11-003
+  historical-artifact:
+  - dh-ch07-006
   historical-instruction:
   - hbp-ch13-001
   historical-method:
@@ -20460,6 +20600,8 @@ by_tag:
   hogwarts-alumni:
   - ootp-ch09-007
   - poa-ch10-006
+  hogwarts-archives:
+  - dh-ch07-003
   hogwarts-champions:
   - gof-ch31-004
   hogwarts-danger:
@@ -20957,6 +21099,7 @@ by_tag:
   - cos-ch04-005
   - cos-ch13-004
   - dh-ch02-001
+  - dh-ch07-007
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -21005,6 +21148,8 @@ by_tag:
   institutional-history:
   - hbp-ch29-006
   - ootp-ch22-006
+  institutional-memory:
+  - dh-ch07-003
   institutional-secrecy:
   - cos-ch13-005
   intelligence:
@@ -21062,6 +21207,8 @@ by_tag:
   - gof-ch25-006
   invented-spells:
   - hbp-ch28-007
+  invention:
+  - dh-ch07-004
   investigation:
   - ootp-ch07-005
   invisibility:
@@ -21133,6 +21280,8 @@ by_tag:
   judicial-procedure:
   - ootp-ch07-007
   - ootp-ch08-001
+  justifiable-confiscation:
+  - dh-ch07-002
   justin-finch-fletchley:
   - cos-ch11-006
   kappas:
@@ -21309,6 +21458,8 @@ by_tag:
   - ootp-ch31-007
   lifts:
   - ootp-ch36-001
+  light-magic:
+  - dh-ch07-004
   lightning-scar:
   - gof-ch02-001
   - gof-ch02-004
@@ -21513,6 +21664,8 @@ by_tag:
   - ps-ch08-001
   magical-artifact:
   - cos-ch17-005
+  - dh-ch07-004
+  - dh-ch07-005
   - gof-ch30-002
   - ootp-ch24-004
   - ps-ch12-006
@@ -21615,8 +21768,10 @@ by_tag:
   - gof-ch02-001
   magical-instruments:
   - cos-ch12-001
+  - dh-ch07-003
   - ootp-ch37-001
   magical-law:
+  - dh-ch07-002
   - gof-ch10-004
   - hbp-ch01-002
   - hbp-ch13-005
@@ -22052,6 +22207,8 @@ by_tag:
   - cos-ch03-004
   - cos-ch13-007
   - cos-ch14-005
+  - dh-ch07-002
+  - dh-ch07-006
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -22180,6 +22337,8 @@ by_tag:
   - hbp-ch24-003
   moaning-myrtle-bathroom:
   - cos-ch12-004
+  molly-weasley:
+  - dh-ch07-001
   monster-book-of-monsters:
   - poa-ch01-006
   - poa-ch06-005
@@ -22860,6 +23019,8 @@ by_tag:
   - ootp-ch16-001
   - poa-ch01-005
   - poa-ch08-003
+  personal-bequest:
+  - dh-ch07-004
   peter-pettigrew:
   - poa-ch10-006
   - poa-ch17-005
@@ -23209,6 +23370,8 @@ by_tag:
   - hbp-ch22-007
   - ootp-ch24-001
   - ootp-ch26-005
+  private-library:
+  - dh-ch07-003
   private-stores:
   - cos-ch11-002
   - gof-ch25-006
@@ -23504,6 +23667,7 @@ by_tag:
   - cos-ch01-001
   - cos-ch07-001
   - cos-ch14-003
+  - dh-ch07-005
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -23749,6 +23913,7 @@ by_tag:
   romilda-vane:
   - hbp-ch18-006
   ron-weasley:
+  - dh-ch07-004
   - ootp-ch09-005
   - ootp-ch30-003
   - ootp-ch35-006
@@ -23791,6 +23956,8 @@ by_tag:
   - poa-ch14-006
   - ps-ch12-005
   - ps-ch15-001
+  runes:
+  - dh-ch07-007
   safe-house:
   - dh-ch03-004
   - dh-ch04-002
@@ -24105,6 +24272,7 @@ by_tag:
   - gof-ch26-005
   - ps-ch11-005
   scrimgeour:
+  - dh-ch07-002
   - hbp-ch16-007
   - hbp-ch30-006
   sealed-entrances:
@@ -24289,6 +24457,7 @@ by_tag:
   - ps-ch04-006
   seventeenth-birthday:
   - dh-ch03-001
+  - dh-ch07-001
   - hbp-ch03-007
   seventh-floor:
   - hbp-ch10-002
@@ -24573,6 +24742,7 @@ by_tag:
   - cos-ch12-001
   - cos-ch17-005
   - cos-ch18-004
+  - dh-ch07-006
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -25219,12 +25389,16 @@ by_tag:
   - poa-ch19-002
   sword:
   - cos-ch17-005
+  sword-of-gryffindor:
+  - dh-ch07-006
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
   - hbp-ch25-004
   - ootp-ch37-006
   - ootp-ch38-003
+  tales-of-beedle-the-bard:
+  - dh-ch07-007
   tallest-tower:
   - ps-ch14-006
   tampering:
@@ -25492,6 +25666,7 @@ by_tag:
   trace:
   - dh-ch04-001
   - dh-ch06-001
+  - dh-ch07-001
   - hbp-ch17-007
   train-ticket:
   - hbp-ch13-006
@@ -25673,6 +25848,7 @@ by_tag:
   - dh-ch04-001
   - dh-ch06-001
   - dh-ch06-003
+  - dh-ch07-001
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
@@ -26082,6 +26258,8 @@ by_tag:
   - dh-ch02-006
   wizarding-celebrations:
   - ps-ch01-001
+  wizarding-custom:
+  - dh-ch07-001
   wizarding-customs:
   - dh-ch02-004
   wizarding-dwellings:
@@ -26096,6 +26274,8 @@ by_tag:
   - ps-ch02-006
   wizarding-families:
   - cos-ch03-002
+  wizarding-folklore:
+  - dh-ch07-007
   wizarding-genealogy:
   - ootp-ch06-001
   wizarding-heirlooms:

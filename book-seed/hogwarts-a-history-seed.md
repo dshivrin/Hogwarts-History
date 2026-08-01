@@ -920,6 +920,20 @@ Summary: The available evidence includes 1 source item, led by: The train conver
   - Corroborates: `ps-ch05-006`. Chapter Five seeded Hagrid's informal explanation of the four Houses and Slytherin reputation; this entry adds student rumors, family House continuity, and Dumbledore's reported Gryffindor association.
   - Notes: The claims are student conversation and rumor rather than official school explanation.
 
+### Chapter: Founder Relics and House Memory
+
+#### Section: The Sword of Gryffindor and worthy Gryffindors
+
+Summary: The available evidence includes 1 source item, led by: Scrimgeour says the Sword of Godric Gryffindor is an important historical artifact, not Dumbledore's property, and that reliable sources say it may present itself to any worthy Gryffindor.
+
+- **Corroboration:** Scrimgeour says the Sword of Godric Gryffindor is an important historical artifact, not Dumbledore's property, and that reliable sources say it may present itself to any worthy Gryffindor.
+  - Quote: "may present itself to any worthy Gryffindor"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3083, `dh-ch07-006`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch17-005`. cos-ch17-005 records the Sorting Hat producing an unnamed sword for Harry; this entry names the sword, gives Ministry historical-artifact framing, and cites its ability to present itself to worthy Gryffindors.
+  - Notes: Scrimgeour does not identify the reliable historical sources, and the Ministry's ownership claim may be self-interested.
+
 ### Chapter: Founders' Relics and Legacies
 
 #### Section: Hufflepuff's cup and Slytherin's locket
@@ -7005,6 +7019,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: explicit_in_universe_source
   - Notes: The book is recreational and not assigned Hogwarts reading; the passage does not state whether the moving images are typical of all wizarding books.
 
+### Chapter: Archives, Offices, and Private Collections
+
+#### Section: Dumbledore's library and instruments left to Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Scrimgeour says Dumbledore made few personal bequests and left most possessions, including his private library, magical instruments, and other effects, to Hogwarts.
+
+- **Context:** Scrimgeour says Dumbledore made few personal bequests and left most possessions, including his private library, magical instruments, and other effects, to Hogwarts.
+  - Quote: "were left to Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3079, `dh-ch07-003`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The statement comes from Scrimgeour and does not specify where in Hogwarts the library, instruments, or effects were stored afterward.
+
 ### Chapter: Magical Books, Records, and Unreliable Sources
 
 #### Section: The Riddle Diary as Memory Evidence
@@ -7017,6 +7044,19 @@ Summary: The available evidence includes 1 source item, led by: The diary presen
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: explicit_in_universe_source
   - Notes: Riddle controls what the diary shows and says; later evidence must test the memory's completeness and reliability.
+
+### Chapter: Magical Sources and Cultural Memory
+
+#### Section: Beedle the Bard and wizarding childhood tradition
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore leaves Hermione a runic copy of The Tales of Beedle the Bard, and Ron treats Beedle as the traditional source of old wizarding children's stories.
+
+- **Supporting evidence:** Dumbledore leaves Hermione a runic copy of The Tales of Beedle the Bard, and Ron treats Beedle as the traditional source of old wizarding children's stories.
+  - Quote: "all these old stories came from Beedle"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3081, `dh-ch07-007`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: Ron speaks from childhood familiarity rather than bibliographic authority, and Hermione has not translated the runic text in this chapter.
 
 ### Chapter: Magical Sources and Unreliable Records
 
@@ -9063,6 +9103,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter prov
   - Corroborates: `poa-ch17-005`. Book 3 Chapter Seventeen identifies Scabbers as Pettigrew through Lupin and Black's testimony; this entry adds the forced transformation and direct visual confirmation.
   - Notes: The chapter shows the reversal but does not name the spell used or explain the magic by which two wands force the Animagus transformation.
 
+### Chapter: Ministry Authority and School Affairs
+
+#### Section: Estate seizure and suspected Dark artifacts
+
+Summary: The available evidence includes 1 source item, led by: The Ministry relies on the Decree for Justifiable Confiscation to inspect Dumbledore's will contents for thirty-one days, supposedly requiring evidence that bequeathed objects are illegal or dangerous.
+
+- **Context:** The Ministry relies on the Decree for Justifiable Confiscation to inspect Dumbledore's will contents for thirty-one days, supposedly requiring evidence that bequeathed objects are illegal or dangerous.
+  - Quote: "the thirty-one days are up"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3079, `dh-ch07-002`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: Hermione and Scrimgeour summarize the law in confrontation; the full decree text and enforcement history are not provided.
+
 ### Chapter: Ministry Interfaces and Magical Research
 
 #### Section: Brain Room hazards
@@ -10238,6 +10291,18 @@ Summary: The available evidence includes 1 source item, led by: The ambush shows
   - Reference type: historical_claim
   - Notes: Harry's viewpoint cannot identify every combatant or confirm what Muggle witnesses saw.
 
+#### Section: Coming of age and the end of the Trace
+
+Summary: The available evidence includes 1 source item, led by: Harry's seventeenth birthday immediately ends the practical Trace constraint on his own spellcasting, and Mrs. Weasley identifies a watch as the traditional gift when a wizard comes of age.
+
+- **Corroboration:** Harry's seventeenth birthday immediately ends the practical Trace constraint on his own spellcasting, and Mrs. Weasley identifies a watch as the traditional gift when a wizard comes of age.
+  - Quote: "Reveling in the removal of his Trace"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3069, `dh-ch07-001`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `dh-ch06-001`, `hbp-ch03-007`. dh-ch06-001 records the Trace as a delay on the Horcrux hunt, and hbp-ch03-007 records the wizarding age of majority; this entry adds the immediate post-birthday spellcasting and watch custom.
+  - Notes: The passage does not define the Trace's legal mechanism or say whether the watch custom is universal across all wizarding families.
+
 #### Section: Expelliarmus as Harry's wartime signature
 
 Summary: The available evidence includes 1 source item, led by: Lupin identifies Harry's repeated use of Expelliarmus under lethal threat as a recognizable combat pattern, while Harry defends not stunning an Imperiused man hundreds of feet in the air.
@@ -11406,6 +11471,21 @@ Summary: The available evidence includes 1 source item, led by: Alumni recollect
   - Corroborates: `cos-ch05-003`, `gof-ch17-007`, `gof-ch22-007`. Prior entries cover the Whomping Willow and Fat Lady portrait access; this entry adds alumni chronology, Apollyon Pringle, and gamekeeper Ogg.
   - Notes: The dating is relative to Molly Weasley's and Bill Weasley's school years, and the passage does not give exact appointment or planting dates.
 
+## Part: Games, Competitions, and Student Life
+
+### Chapter: Quidditch and Enchanted Equipment
+
+#### Section: Snitch flesh memory and contested captures
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore leaves Harry the Snitch from his first Hogwarts Quidditch match; Scrimgeour explains Snitch flesh memory, and Harry later reveals a temporary Dumbledore inscription.
+
+- **Context:** Dumbledore leaves Harry the Snitch from his first Hogwarts Quidditch match; Scrimgeour explains Snitch flesh memory, and Harry later reveals a temporary Dumbledore inscription.
+  - Quote: "Because Snitches have flesh memories"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3082, `dh-ch07-005`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The passage does not name a governing Quidditch rulebook or say whether all Snitches use identical memory enchantments.
+
 ## Part: Governance, Headmasters, and Public Authority
 
 ### Chapter: Headmasters and School Authority
@@ -12032,6 +12112,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: magical_architecture
   - Notes: The passage does not name the spell or object enchantment used to expand the tents.
+
+## Part: Magical Artefacts and Instruments
+
+### Chapter: Headmasters' Magical Instruments
+
+#### Section: Dumbledore's Deluminator
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's Deluminator is bequeathed to Ron, described as valuable, possibly unique, and of Dumbledore's own design, then shown removing and restoring lamplight.
+
+- **Context:** Dumbledore's Deluminator is bequeathed to Ron, described as valuable, possibly unique, and of Dumbledore's own design, then shown removing and restoring lamplight.
+  - Quote: "the power to suck all light"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, PDF p. 3080, `dh-ch07-004`, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The immediate demonstration shows only light removal and restoration, not the deeper later function of the object.
 
 ## Part: Magical Communities and Families
 

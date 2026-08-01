@@ -392,6 +392,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Older Staff, Residents, and Alumni Memory
   - Weasley Family Recollections of Pringle, Ogg, and the Fat Lady
 
+## Games, Competitions, and Student Life
+
+- Quidditch and Enchanted Equipment
+  - Snitch flesh memory and contested captures
+
 ## Ghosts, Portraits, and Magical Residents
 
 - Ghosts and Haunted Places
@@ -639,6 +644,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Ministry Authority and School Affairs
+  - Estate seizure and suspected Dark artifacts
 - Ministry Interfaces and Magical Research
   - Brain Room hazards
   - Disorienting magical architecture beyond Hogwarts
@@ -812,6 +819,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Rita Skeeter's Unregistered Animagus Surveillance
 - The War Beyond the Gates
   - Ambush Over Muggle Britain
+  - Coming of age and the end of the Trace
   - Expelliarmus as Harry's wartime signature
   - Family protection cover plans for nonreturning students
   - Hidden prisoner breakouts and Dark Magic wounds
@@ -929,6 +937,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Enchanted Space Beyond the Castle
   - Expanded Tents and Public Camouflage
+
+## Magical Artefacts and Instruments
+
+- Headmasters' Magical Instruments
+  - Dumbledore's Deluminator
 
 ## Magical Communities and Families
 
@@ -1615,6 +1628,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Four Houses
 
+- Founder Relics and House Memory
+  - The Sword of Gryffindor and worthy Gryffindors
 - Founders' Relics and Legacies
   - Hufflepuff's cup and Slytherin's locket
 - House Identity and Reputation
@@ -1650,6 +1665,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Library, Books, and Scholarship
 
+- Archives, Offices, and Private Collections
+  - Dumbledore's library and instruments left to Hogwarts
 - Library Collections and Restricted Books
   - Evening study, supervision, and examination pressure
   - Physical Boundary and Enforced Restrictions
@@ -1659,6 +1676,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Tournament Research and Restricted-Section Permission
 - Magical Books, Records, and Unreliable Sources
   - The Riddle Diary as Memory Evidence
+- Magical Sources and Cultural Memory
+  - Beedle the Bard and wizarding childhood tradition
 - Magical Sources and Unreliable Records
   - The Riddle Diary as Memory and Weapon
 - Memory, Testimony, and Historical Method

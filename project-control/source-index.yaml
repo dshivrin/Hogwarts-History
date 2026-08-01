@@ -2018,3 +2018,15 @@ processed_units:
   explicit_reference_count: 1
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3047-3067.
+- source_unit_id: dh-ch07
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 7
+  chapter_title: Chapter Seven - The Will of Albus Dumbledore
+  page_start: 3068
+  page_end: 3089
+  output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  processed_at: '2026-08-01'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3068-3089.
