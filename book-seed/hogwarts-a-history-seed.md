@@ -6199,6 +6199,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore says 
   - Corroborates: `ootp-ch37-005`, `ootp-ch02-006`. ootp-ch37-005 explains the blood protection and yearly return requirement, and ootp-ch02-006 shows the requirement enforced by Dumbledore's Howler; this entry adds the explicit age-seventeen cutoff and final-return condition.
   - Notes: The passage does not name the protective charm or explain whether a brief return is sufficient beyond Dumbledore's stated request.
 
+#### Section: Safe-house barrier around Tonks household
+
+Summary: The available evidence includes 1 source item, led by: Ted Tonks states that the safe-house protective charms should keep attackers at least a hundred yards away, and Harry connects Voldemort's disappearance to crossing that barrier.
+
+- **Corroboration:** Ted Tonks states that the safe-house protective charms should keep attackers at least a hundred yards away, and Harry connects Voldemort's disappearance to crossing that barrier.
+  - Quote: "within a hundred yards of the place"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3028, `dh-ch05-001`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch04-002`, `dh-ch03-004`. dh-ch04-002 records the planned network of protected connected houses, and dh-ch03-004 records safe-location evacuation timing; this entry adds the Tonks house barrier's hundred-yard operating range and Voldemort's forced disappearance at it.
+  - Notes: The charm names and casting details are not given, and the range is reported by Ted Tonks rather than formally measured.
+
 #### Section: Trace Limits and Blocked Magical Transport
 
 Summary: The available evidence includes 1 source item, led by: Moody says Pius Thicknesse has criminalized connecting Privet Drive to the Floo Network, placing a Portkey there, or Apparating in or out, while Harry's Trace would reveal any spell cast to remove him.
@@ -6319,6 +6331,18 @@ Summary: The available evidence includes 1 source item, led by: A Ministry house
   - Classification: later_editorial_note | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The leaflet is summarized through visible excerpts; page-two details and the full guidance text are not present in this chapter.
+
+#### Section: Post-ambush identity challenges
+
+Summary: The available evidence includes 1 source item, led by: After the ambush, Order members verify identities with private questions, and Lupin notes that Polyjuice Potion is designed only for human use, making Hagrid a different kind of risk case.
+
+- **Corroboration:** After the ambush, Order members verify identities with private questions, and Lupin notes that Polyjuice Potion is designed only for human use, making Hagrid a different kind of risk case.
+  - Quote: "You might have been an impostor"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3032, `dh-ch05-003`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch05-003`, `dh-ch04-003`. hbp-ch05-003 records Ministry-style household challenge questions, and dh-ch04-003 records the Seven Potters Polyjuice decoys; this entry adds immediate post-ambush challenges and the human-use limitation for Polyjuice.
+  - Notes: The procedure is improvised by Order members and not presented as a universal Ministry rule in this scene.
 
 ### Chapter: Wartime School Protection
 
@@ -10202,6 +10226,30 @@ Summary: The available evidence includes 1 source item, led by: The ambush shows
   - Reference type: historical_claim
   - Notes: Harry's viewpoint cannot identify every combatant or confirm what Muggle witnesses saw.
 
+#### Section: Expelliarmus as Harry's wartime signature
+
+Summary: The available evidence includes 1 source item, led by: Lupin identifies Harry's repeated use of Expelliarmus under lethal threat as a recognizable combat pattern, while Harry defends not stunning an Imperiused man hundreds of feet in the air.
+
+- **Corroboration:** Lupin identifies Harry's repeated use of Expelliarmus under lethal threat as a recognizable combat pattern, while Harry defends not stunning an Imperiused man hundreds of feet in the air.
+  - Quote: "the Death Eaters seem to think it is your signature move"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3033, `dh-ch05-004`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch04-005`. dh-ch04-005 records the ambush and Harry's Disarming Charm revealing the real target; this entry adds Lupin's explicit interpretation that Death Eaters treat Expelliarmus as Harry's signature move.
+  - Notes: Lupin's assessment is strong but inferential; the Death Eaters themselves do not state the recognition rule.
+
+#### Section: Hidden prisoner breakouts and Dark Magic wounds
+
+Summary: The available evidence includes 1 source item, led by: Kingsley infers a hushed-up Azkaban breakout from Stan and Travers, while George's cursed-off ear confirms Sectumsempra's permanent injury risk and Dark Magic healing limits.
+
+- **Corroboration:** Kingsley infers a hushed-up Azkaban breakout from Stan and Travers, while George's cursed-off ear confirms Sectumsempra's permanent injury risk and Dark Magic healing limits.
+  - Quote: "when it's been removed by Dark Magic"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3035, `dh-ch05-005`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch24-004`, `hbp-ch28-007`, `ootp-ch25-001`. hbp-ch24-004 records Sectumsempra's cutting effect and treatment, hbp-ch28-007 records Snape's authorship, and ootp-ch25-001 records an earlier public Azkaban breakout report; this entry adds permanent ear loss, Dark Magic non-regrowth, and a suspected censored breakout.
+  - Notes: The mass-breakout claim is Kingsley's inference from combat sightings, not a Ministry publication.
+
 #### Section: Ministry Reliability and Civilian Protection
 
 Summary: The available evidence includes 1 source item, led by: The Order treats the Ministry as unreliable for Dursley protection because of suspected infiltration, while Kingsley is already assigned to protect the Muggle Prime Minister.
@@ -10212,6 +10260,17 @@ Summary: The available evidence includes 1 source item, led by: The Order treats
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The evidence reflects the Order's assessment as relayed by Harry, not an official Ministry record.
+
+#### Section: Moody's death and Seven Potters debrief
+
+Summary: The available evidence includes 1 source item, led by: Bill reports that Voldemort killed Moody after Mundungus Disapparated, and the Order debrief concludes that the enemy knew the date but not the full seven-Harry decoy plan.
+
+- **Context:** Bill reports that Voldemort killed Moody after Mundungus Disapparated, and the Order debrief concludes that the enemy knew the date but not the full seven-Harry decoy plan.
+  - Quote: "Mad-Eye's dead"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3040, `dh-ch05-006`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The body-recovery outcome is not shown within this chapter.
 
 #### Section: Muggle-Visible Violence and Dark Creatures
 
@@ -10245,6 +10304,18 @@ Summary: The available evidence includes 1 source item, led by: The chase record
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: The chapter presents the wand event from Harry's immediate perception and leaves its mechanism unexplained here.
+
+#### Section: Wand anomaly and Ollivander interrogation
+
+Summary: The available evidence includes 1 source item, led by: Harry reports that his wand independently produced unknown golden fire, and a scar vision shows Voldemort torturing Ollivander because Lucius Malfoy's wand failed against Harry's wand connection.
+
+- **Corroboration:** Harry reports that his wand independently produced unknown golden fire, and a scar vision shows Voldemort torturing Ollivander because Lucius Malfoy's wand failed against Harry's wand connection.
+  - Quote: "My wand acted of its own accord"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3044, `dh-ch05-007`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch04-006`. dh-ch04-006 records the in-flight wand anomaly and Voldemort's demand for Selwyn's wand; this entry adds Harry's later report, the Lucius-wand failure, Ollivander's explanation, and Hermione's warning about the scar connection.
+  - Notes: The scene still leaves the exact wand mechanism unresolved and includes information perceived through Harry's scar connection.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -12021,6 +12092,18 @@ Summary: The available evidence includes 1 source item, led by: The Order assign
   - Classification: later_editorial_note | Confidence: high
   - Reference type: cross_reference_candidate
   - Notes: The route destinations for every pair are not listed in this chapter.
+
+#### Section: Staggered Portkey relay to the Burrow
+
+Summary: The available evidence includes 1 source item, led by: The evacuation relay uses timed ordinary-object Portkeys from protected houses to the Burrow, with staggered return objects and expected arrival order for each pair.
+
+- **Corroboration:** The evacuation relay uses timed ordinary-object Portkeys from protected houses to the Burrow, with staggered return objects and expected arrival order for each pair.
+  - Quote: "It's supposed to leave in three minutes"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, PDF p. 3030, `dh-ch05-002`, `sources/book-07/chapter-05-fallen-warrior.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch04-002`, `dh-ch04-001`. dh-ch04-002 records that Tonks's parents' house would have a Portkey to the Burrow, and dh-ch04-001 records Portkey restrictions at Privet Drive; this entry adds the actual hairbrush Portkey, return objects, and staggered arrival schedule.
+  - Notes: The chapter does not list every connected safe house or the exact Portkey authorization method.
 
 ## Part: Magical Transportation and Boundaries
 

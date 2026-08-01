@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Five - Fallen Warrior
-- Page range: 3027-3046
+- Chapter: Chapter Six - The Ghoul in Pajamas
+- Page range: 3047-3067
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-05-fallen-warrior.yaml`
+- Output YAML: `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
 
 ## Minimal Context
 

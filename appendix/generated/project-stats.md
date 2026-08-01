@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 166
+- Total: 167
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 22
+- Harry Potter and the Deathly Hallows: 29
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,25 +23,25 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 461
-- later_editorial_note: 521
+- later_editorial_note: 528
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 99
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 74
+- cross_reference_candidate: 75
 - curriculum_or_subject: 152
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 8
 - explicit_in_universe_source: 74
-- historical_claim: 127
+- historical_claim: 130
 - house_system: 16
 - institutional_custom: 178
 - magical_architecture: 86
 - portrait_or_ghost_lore: 14
 - school_rule_or_policy: 125
-- security_or_protection: 181
+- security_or_protection: 184
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 793
+- Total: 799
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, pages 3010-3026, `sources/book-07/chapter-04-the-seven-potters.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, pages 3027-3046, `sources/book-07/chapter-05-fallen-warrior.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, pages 3027-3046, `sources/book-07/chapter-05-fallen-warrior.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, pages 3047-3067, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`

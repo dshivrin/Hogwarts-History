@@ -812,10 +812,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Rita Skeeter's Unregistered Animagus Surveillance
 - The War Beyond the Gates
   - Ambush Over Muggle Britain
+  - Expelliarmus as Harry's wartime signature
+  - Hidden prisoner breakouts and Dark Magic wounds
   - Ministry Reliability and Civilian Protection
+  - Moody's death and Seven Potters debrief
   - Muggle-Visible Violence and Dark Creatures
   - Polyjuice Decoys and Escort Risk
   - Voldemort's Pursuit and Wand Anomaly
+  - Wand anomaly and Ollivander interrogation
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wartime Movement and Secrecy Outside Hogwarts
@@ -953,6 +957,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Brooms, Beasts, Portkeys, and Improvised Vehicles
   - Seven-Potters Transport Assignments
+  - Staggered Portkey relay to the Burrow
 
 ## Magical Transportation and Boundaries
 
@@ -1181,6 +1186,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry Potter's Layered Protection
   - Privet Drive Protection Breaks at Seventeen
   - Privet Drive protection and wizarding age of majority
+  - Safe-house barrier around Tonks household
   - Trace Limits and Blocked Magical Transport
 - The Chamber of Secrets
   - Legend, Hidden Room, and Heir Language
@@ -1207,6 +1213,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Identity checks and Inferi in Ministry public guidance
   - Ministry identity challenges at home
   - Ministry public guidance against Dark forces
+  - Post-ambush identity challenges
 - Wartime School Protection
   - Guarded start-of-term travel during the Second War
   - Ministry security measures for Hogwarts in the Second War
