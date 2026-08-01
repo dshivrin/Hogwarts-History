@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Six - The Ghoul in Pajamas
-- Page range: 3047-3067
+- Chapter: Chapter Seven - The Will of Albus Dumbledore
+- Page range: 3068-3089
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+- Output YAML: `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
 
 ## Minimal Context
 

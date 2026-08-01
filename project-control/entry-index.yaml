@@ -16583,6 +16583,122 @@ by_entry:
     - wand-lore
     source_unit: dh-ch05
     output_yaml: sources/book-07/chapter-05-fallen-warrior.yaml
+  dh-ch06-001:
+    title: 'The War Beyond the Gates: The Trace and the trio''s nonreturn to Hogwarts'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - burrow
+    - coming-of-age
+    - dumbledore
+    - horcrux-hunt
+    - school-leaving
+    - trace
+    - underage-magic
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch06-002:
+    title: 'Information Security and Secret-Keeping: Fidelius dilution after a Secret-Keeper''s
+      death'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - burrow
+    - fidelius
+    - grimmauld-place
+    - headquarters
+    - order-of-the-phoenix
+    - protective-magic
+    - secret-keeper
+    - snape
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch06-003:
+    title: 'The War Beyond the Gates: Suppressed public records and missing Hogwarts
+      staff'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - azkaban
+    - charity-burbage
+    - daily-prophet
+    - hogwarts-staff
+    - ministry-censorship
+    - muggle-studies
+    - second-war
+    - underage-magic
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch06-004:
+    title: 'Hogwarts: A History as an In-Universe Source: Hermione''s field copy during
+      the Horcrux hunt'
+    classification: later_editorial_note
+    reference_type: explicit_hogwarts_a_history
+    confidence: high
+    tags:
+    - book-circulation
+    - explicit-reference
+    - hermione-source
+    - hogwarts-a-history
+    - horcrux-hunt
+    - school-leaving
+    - student-research
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch06-005:
+    title: 'The War Beyond the Gates: Family protection cover plans for nonreturning
+      students'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - ghoul
+    - horcrux-hunt
+    - memory-modification
+    - muggle-borns
+    - muggle-protection
+    - school-absence-cover
+    - spattergroit
+    - weasley-family
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch06-006:
+    title: 'Restricted and Banned Magical Subjects: Removed Horcrux books in Dumbledore''s
+      office'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - banned-subject
+    - dark-arts
+    - dumbledore-office
+    - hogwarts-library
+    - horcruxes
+    - restricted-knowledge
+    - secrets-of-the-darkest-art
+    - summoning-charm
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  dh-ch06-007:
+    title: 'Restricted and Banned Magical Subjects: Horcrux destruction and soul repair
+      mechanics'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - basilisk-venom
+    - dark-arts
+    - horcruxes
+    - magical-repair
+    - phoenix-tears
+    - remorse
+    - riddle-diary
+    - soul-magic
+    source_unit: dh-ch06
+    output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
 by_tag:
   aberforth-dumbledore:
   - dh-ch02-003
@@ -16917,6 +17033,7 @@ by_tag:
   - cos-ch12-007
   - cos-ch14-005
   - dh-ch05-005
+  - dh-ch06-003
   - gof-ch02-006
   - gof-ch09-007
   - gof-ch14-005
@@ -16958,6 +17075,7 @@ by_tag:
   banned-books:
   - hbp-ch24-005
   banned-subject:
+  - dh-ch06-006
   - hbp-ch23-005
   banned-substances:
   - hbp-ch09-006
@@ -16992,6 +17110,8 @@ by_tag:
   - cos-ch17-002
   - cos-ch17-006
   - ootp-ch16-005
+  basilisk-venom:
+  - dh-ch06-007
   basin:
   - hbp-ch26-006
   bathilda-bagshot:
@@ -17141,6 +17261,7 @@ by_tag:
   - poa-ch16-004
   book-circulation:
   - cos-ch09-001
+  - dh-ch06-004
   booklists:
   - hbp-ch06-001
   - poa-ch01-005
@@ -17236,6 +17357,8 @@ by_tag:
   burrow:
   - dh-ch04-002
   - dh-ch05-002
+  - dh-ch06-001
+  - dh-ch06-002
   - hbp-ch05-003
   burrow-security:
   - hbp-ch16-002
@@ -17518,6 +17641,7 @@ by_tag:
   - gof-ch20-005
   charity-burbage:
   - dh-ch01-006
+  - dh-ch06-003
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -17648,6 +17772,7 @@ by_tag:
   come-and-go-room:
   - ootp-ch18-005
   coming-of-age:
+  - dh-ch06-001
   - hbp-ch03-007
   commentators:
   - hbp-ch08-004
@@ -17960,6 +18085,7 @@ by_tag:
   - cos-ch12-006
   - dh-ch01-006
   - dh-ch02-006
+  - dh-ch06-003
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -17999,6 +18125,8 @@ by_tag:
   - cos-ch06-002
   dark-arts:
   - cos-ch18-001
+  - dh-ch06-006
+  - dh-ch06-007
   - gof-ch11-004
   - gof-ch13-007
   - gof-ch19-006
@@ -18523,6 +18651,7 @@ by_tag:
   - cos-ch17-005
   - cos-ch18-001
   - cos-ch18-005
+  - dh-ch06-001
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -18677,6 +18806,7 @@ by_tag:
   dumbledore-office:
   - cos-ch11-007
   - cos-ch12-001
+  - dh-ch06-006
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -18942,6 +19072,7 @@ by_tag:
   - gof-ch07-004
   explicit-reference:
   - cos-ch09-001
+  - dh-ch06-004
   - ps-ch07-001
   expulsion:
   - cos-ch02-005
@@ -19041,6 +19172,7 @@ by_tag:
   - hbp-ch16-004
   - hbp-ch27-007
   fidelius:
+  - dh-ch06-002
   - hbp-ch02-004
   field-booking:
   - cos-ch07-002
@@ -19434,6 +19566,8 @@ by_tag:
   - poa-ch08-006
   - poa-ch09-002
   - ps-ch08-002
+  ghoul:
+  - dh-ch06-005
   giant-population:
   - ootp-ch20-003
   giant-squid:
@@ -19605,6 +19739,7 @@ by_tag:
   greyback:
   - hbp-ch29-001
   grimmauld-place:
+  - dh-ch06-002
   - hbp-ch03-004
   - hbp-ch12-005
   - ootp-ch03-002
@@ -20068,6 +20203,7 @@ by_tag:
   headmistresses:
   - cos-ch09-006
   headquarters:
+  - dh-ch06-002
   - ootp-ch03-002
   - ootp-ch04-004
   - ootp-ch05-001
@@ -20145,6 +20281,7 @@ by_tag:
   hermione-source:
   - cos-ch09-001
   - cos-ch16-003
+  - dh-ch06-004
   - poa-ch09-001
   - ps-ch07-001
   hestia-jones:
@@ -20311,6 +20448,7 @@ by_tag:
   - ootp-ch23-001
   hogwarts-a-history:
   - cos-ch09-001
+  - dh-ch06-004
   - gof-ch11-005
   - gof-ch15-003
   - gof-ch28-003
@@ -20422,6 +20560,7 @@ by_tag:
   - ps-ch04-002
   - ps-ch04-004
   hogwarts-library:
+  - dh-ch06-006
   - hbp-ch23-004
   hogwarts-memory:
   - cos-ch01-001
@@ -20456,6 +20595,7 @@ by_tag:
   - ps-ch05-001
   hogwarts-staff:
   - dh-ch01-006
+  - dh-ch06-003
   - ps-ch04-001
   hogwarts-student:
   - dh-ch02-001
@@ -20532,9 +20672,15 @@ by_tag:
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
+  horcrux-hunt:
+  - dh-ch06-001
+  - dh-ch06-004
+  - dh-ch06-005
   horcrux-mission:
   - hbp-ch30-007
   horcruxes:
+  - dh-ch06-006
+  - dh-ch06-007
   - hbp-ch18-002
   - hbp-ch20-001
   - hbp-ch23-004
@@ -21533,6 +21679,8 @@ by_tag:
   - cos-ch14-001
   - cos-ch16-002
   - gof-ch13-002
+  magical-repair:
+  - dh-ch06-007
   magical-reputation:
   - cos-ch02-003
   - ootp-ch05-006
@@ -21791,6 +21939,7 @@ by_tag:
   - ootp-ch26-005
   - ootp-ch28-006
   memory-modification:
+  - dh-ch06-005
   - gof-ch13-005
   - hbp-ch01-003
   - hbp-ch20-006
@@ -21843,6 +21992,7 @@ by_tag:
   - hbp-ch07-001
   ministry-censorship:
   - dh-ch05-005
+  - dh-ch06-003
   - ootp-ch25-007
   - ootp-ch26-001
   ministry-classification:
@@ -22102,6 +22252,7 @@ by_tag:
   muggle-borns:
   - dh-ch01-005
   - dh-ch01-006
+  - dh-ch06-005
   - ootp-ch06-004
   muggle-camouflage:
   - gof-ch07-002
@@ -22147,6 +22298,7 @@ by_tag:
   muggle-prime-minister:
   - dh-ch03-002
   muggle-protection:
+  - dh-ch06-005
   - ootp-ch07-006
   muggle-raised-students:
   - hbp-ch13-004
@@ -22187,6 +22339,7 @@ by_tag:
   muggle-studies:
   - cos-ch14-002
   - dh-ch01-006
+  - dh-ch06-003
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -22452,6 +22605,7 @@ by_tag:
   - dh-ch05-002
   - dh-ch05-003
   - dh-ch05-006
+  - dh-ch06-002
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -22757,6 +22911,8 @@ by_tag:
   phoenix-song:
   - gof-ch34-003
   - hbp-ch29-002
+  phoenix-tears:
+  - dh-ch06-007
   physical-evidence:
   - poa-ch17-002
   physical-restraint:
@@ -23256,6 +23412,7 @@ by_tag:
   protective-magic:
   - dh-ch03-001
   - dh-ch03-004
+  - dh-ch06-002
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -23505,6 +23662,8 @@ by_tag:
   remedial-potions:
   - ootp-ch24-001
   - ootp-ch28-006
+  remorse:
+  - dh-ch06-007
   remus-lupin:
   - hbp-ch16-003
   - hbp-ch16-005
@@ -23532,6 +23691,7 @@ by_tag:
   - cos-ch10-002
   - cos-ch12-004
   restricted-knowledge:
+  - dh-ch06-006
   - hbp-ch23-004
   restricted-magic:
   - hbp-ch06-006
@@ -23557,6 +23717,7 @@ by_tag:
   riddle-diary:
   - cos-ch17-002
   - cos-ch18-006
+  - dh-ch06-007
   - hbp-ch23-006
   riddle-family:
   - gof-ch01-001
@@ -23664,6 +23825,7 @@ by_tag:
   scholarly-publications:
   - dh-ch02-002
   school-absence-cover:
+  - dh-ch06-005
   - gof-ch02-003
   school-attachment:
   - hbp-ch20-004
@@ -23772,6 +23934,9 @@ by_tag:
   - hbp-ch17-005
   school-jinxes:
   - hbp-ch16-005
+  school-leaving:
+  - dh-ch06-001
+  - dh-ch06-004
   school-legend:
   - ootp-ch30-001
   - ootp-ch38-002
@@ -23975,6 +24140,7 @@ by_tag:
   - dh-ch05-002
   - dh-ch05-003
   - dh-ch05-006
+  - dh-ch06-003
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -24033,6 +24199,7 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   secret-keeper:
+  - dh-ch06-002
   - hbp-ch02-004
   - ootp-ch06-007
   - ootp-ch37-004
@@ -24066,6 +24233,8 @@ by_tag:
   - ps-ch09-006
   secret-society:
   - ootp-ch04-004
+  secrets-of-the-darkest-art:
+  - dh-ch06-006
   sectumsempra:
   - dh-ch05-005
   - hbp-ch21-002
@@ -24334,6 +24503,7 @@ by_tag:
   - cos-ch16-006
   snape:
   - cos-ch11-002
+  - dh-ch06-002
   - gof-ch18-004
   - gof-ch25-006
   - gof-ch27-005
@@ -24412,11 +24582,14 @@ by_tag:
   - ootp-ch11-004
   - ootp-ch19-002
   soul-magic:
+  - dh-ch06-007
   - hbp-ch23-005
   source-criticism:
   - dh-ch02-006
   source-reliability:
   - gof-ch15-003
+  spattergroit:
+  - dh-ch06-005
   special-awards:
   - cos-ch18-003
   specialis-revelio:
@@ -24858,6 +25031,7 @@ by_tag:
   - hbp-ch07-003
   - ootp-ch16-005
   student-research:
+  - dh-ch06-004
   - gof-ch20-001
   - gof-ch26-002
   - hbp-ch30-002
@@ -25019,6 +25193,7 @@ by_tag:
   summer-residence:
   - cos-ch13-007
   summoning-charm:
+  - dh-ch06-006
   - gof-ch06-003
   - gof-ch20-004
   sunday-prophet:
@@ -25316,6 +25491,7 @@ by_tag:
   - hbp-ch29-004
   trace:
   - dh-ch04-001
+  - dh-ch06-001
   - hbp-ch17-007
   train-ticket:
   - hbp-ch13-006
@@ -25495,6 +25671,8 @@ by_tag:
   - cos-ch05-005
   - dh-ch03-004
   - dh-ch04-001
+  - dh-ch06-001
+  - dh-ch06-003
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
@@ -25794,6 +25972,7 @@ by_tag:
   - hbp-ch26-007
   weasley-family:
   - cos-ch04-003
+  - dh-ch06-005
   - gof-ch03-003
   - gof-ch03-004
   - gof-ch05-001

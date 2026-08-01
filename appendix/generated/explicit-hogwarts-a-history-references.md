@@ -77,3 +77,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Destination: Protective Magic and Security / Movement Limits and Anti-Apparition Protections / Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
   - Source: PDF p. 2051, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
   - Classification: original_book_core_candidate | Confidence: high
+
+## Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas
+
+- `dh-ch06-004`
+  - Quote: "I will take Hogwarts: A History."
+  - Evidence note: Hermione chooses to bring Hogwarts: A History on the Horcrux hunt, saying that even if they are not returning to Hogwarts she would not feel right without it.
+  - Destination: Sources and Historiography / Hogwarts: A History as an In-Universe Source / Hermione's field copy during the Horcrux hunt
+  - Source: PDF p. 3055, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high

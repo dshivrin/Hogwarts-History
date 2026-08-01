@@ -813,11 +813,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The War Beyond the Gates
   - Ambush Over Muggle Britain
   - Expelliarmus as Harry's wartime signature
+  - Family protection cover plans for nonreturning students
   - Hidden prisoner breakouts and Dark Magic wounds
   - Ministry Reliability and Civilian Protection
   - Moody's death and Seven Potters debrief
   - Muggle-Visible Violence and Dark Creatures
   - Polyjuice Decoys and Escort Risk
+  - Suppressed public records and missing Hogwarts staff
+  - The Trace and the trio's nonreturn to Hogwarts
   - Voldemort's Pursuit and Wand Anomaly
   - Wand anomaly and Ollivander interrogation
 - The Wizarding War and Hogwarts Memory
@@ -850,8 +853,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Learning, Books, and Forbidden Knowledge
 
 - Restricted and Banned Magical Subjects
+  - Horcrux destruction and soul repair mechanics
   - Horcruxes Beyond Hogwarts Library Detail
   - Horcruxes as a Banned Hogwarts Topic
+  - Removed Horcrux books in Dumbledore's office
 - Restricted and Dangerous Spellcraft
   - Sectumsempra, countercurse, and student injury
 - Textbooks, Marginalia, and Informal Knowledge
@@ -1152,6 +1157,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Extendable Ears and Imperturbable Charm
   - Student Exclusion from Order Intelligence
 - Information Security and Secret-Keeping
+  - Fidelius dilution after a Secret-Keeper's death
   - Secret-Keeper limits on disclosure
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House
@@ -1441,6 +1447,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced N.E.W.T. Study
 - Elective Subjects and Staff
   - Care of Magical Creatures After O.W.L.s
+
+## Sources and Historiography
+
+- Hogwarts: A History as an In-Universe Source
+  - Hermione's field copy during the Horcrux hunt
 
 ## Sources and Methods
 

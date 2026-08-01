@@ -5870,6 +5870,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
 
 ### Chapter: Information Security and Secret-Keeping
 
+#### Section: Fidelius dilution after a Secret-Keeper's death
+
+Summary: The available evidence includes 1 source item, led by: After Dumbledore's death, everyone to whom he revealed Grimmauld Place becomes a Secret-Keeper, weakening the Fidelius protection enough that the Burrow replaces it as Order headquarters; Moody also left curses meant to keep Snape out and bind his tongue.
+
+- **Corroboration:** After Dumbledore's death, everyone to whom he revealed Grimmauld Place becomes a Secret-Keeper, weakening the Fidelius protection enough that the Burrow replaces it as Order headquarters; Moody also left curses meant to keep Snape out and bind his tongue.
+  - Quote: "that greatly dilutes the power of the Fidelius Charm"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3050, `dh-ch06-002`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `hbp-ch02-004`, `ootp-ch06-007`. ootp-ch06-007 names Dumbledore as Secret-Keeper for Grimmauld Place, and hbp-ch02-004 records Snape's earlier inability to reveal it; this entry adds the post-Dumbledore multiplication of Secret-Keepers and resulting headquarters abandonment.
+  - Notes: Mr. Weasley gives the operational explanation, but the exact legal or charm-theory rule for successor Secret-Keepers is not formalized.
+
 #### Section: Secret-Keeper limits on disclosure
 
 Summary: The available evidence includes 1 source item, led by: Snape says the Fidelius-style protection around Order headquarters prevents him from speaking the place's name because he is not the Secret-Keeper, though he can pass other operational information.
@@ -10238,6 +10250,17 @@ Summary: The available evidence includes 1 source item, led by: Lupin identifies
   - Corroborates: `dh-ch04-005`. dh-ch04-005 records the ambush and Harry's Disarming Charm revealing the real target; this entry adds Lupin's explicit interpretation that Death Eaters treat Expelliarmus as Harry's signature move.
   - Notes: Lupin's assessment is strong but inferential; the Death Eaters themselves do not state the recognition rule.
 
+#### Section: Family protection cover plans for nonreturning students
+
+Summary: The available evidence includes 1 source item, led by: Hermione has modified her parents' memories and sent them to Australia, while Ron's family will use a transformed ghoul with spattergroit as a cover story for his failure to return to Hogwarts.
+
+- **Context:** Hermione has modified her parents' memories and sent them to Australia, while Ron's family will use a transformed ghoul with spattergroit as a cover story for his failure to return to Hogwarts.
+  - Quote: "which is why I can't go back to school"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3056, `dh-ch06-005`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: Molly's full consent is absent, and the chapter does not show whether the cover story succeeds.
+
 #### Section: Hidden prisoner breakouts and Dark Magic wounds
 
 Summary: The available evidence includes 1 source item, led by: Kingsley infers a hushed-up Azkaban breakout from Stan and Travers, while George's cursed-off ear confirms Sectumsempra's permanent injury risk and Dark Magic healing limits.
@@ -10293,6 +10316,30 @@ Summary: The available evidence includes 1 source item, led by: The Order create
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The passage does not identify who brewed the Polyjuice Potion or where the potion was prepared.
+
+#### Section: Suppressed public records and missing Hogwarts staff
+
+Summary: The available evidence includes 1 source item, led by: Bill says the Daily Prophet has not reported Moody's death, Arthur thinks the Ministry is avoiding Harry's underage-magic hearing to suppress Voldemort's attack, and he doubts the public story that Hogwarts's Muggle Studies professor resigned.
+
+- **Corroboration:** Bill says the Daily Prophet has not reported Moody's death, Arthur thinks the Ministry is avoiding Harry's underage-magic hearing to suppress Voldemort's attack, and he doubts the public story that Hogwarts's Muggle Studies professor resigned.
+  - Quote: "It's keeping a lot quiet these days."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3051, `dh-ch06-003`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch01-006`, `dh-ch05-005`. dh-ch01-006 records Charity Burbage's captivity and murder, and dh-ch05-005 records a suspected censored Azkaban breakout; this entry adds Order-side recognition that Burbage's resignation story and several official silences are suspect.
+  - Notes: Arthur's statement about Burbage is a rumor-based inference; the chapter itself does not yet confirm her fate to the household.
+
+#### Section: The Trace and the trio's nonreturn to Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Ron says Harry cannot begin the Horcrux hunt until the Trace breaks at seventeen, while Molly confirms that Harry, Ron, and Hermione intend to abandon their Hogwarts education for Dumbledore's mission.
+
+- **Corroboration:** Ron says Harry cannot begin the Horcrux hunt until the Trace breaks at seventeen, while Molly confirms that Harry, Ron, and Hermione intend to abandon their Hogwarts education for Dumbledore's mission.
+  - Quote: "You've still got the Trace on you."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3047, `dh-ch06-001`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `dh-ch04-001`, `hbp-ch17-007`. dh-ch04-001 and hbp-ch17-007 already record Trace limits; this entry adds the Trace as a practical delay on the Horcrux hunt and the explicit decision to leave Hogwarts.
+  - Notes: The scene does not describe the formal withdrawal process or how Hogwarts records the trio's absence.
 
 #### Section: Voldemort's Pursuit and Wand Anomaly
 
@@ -11867,6 +11914,18 @@ Summary: The available evidence includes 1 source item, led by: The decorated Gr
 
 ### Chapter: Restricted and Banned Magical Subjects
 
+#### Section: Horcrux destruction and soul repair mechanics
+
+Summary: The available evidence includes 1 source item, led by: Hermione reports that Horcrux creation destabilizes the maker's remaining soul, remorse can reunite it at dangerous cost, and a Horcrux is destroyed only when its enchanted container is damaged beyond magical repair, as with basilisk venom.
+
+- **Corroboration:** Hermione reports that Horcrux creation destabilizes the maker's remaining soul, remorse can reunite it at dangerous cost, and a Horcrux is destroyed only when its enchanted container is damaged beyond magical repair, as with basilisk venom.
+  - Quote: "You've got to put it beyond magical repair."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3062, `dh-ch06-007`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `hbp-ch23-005`, `hbp-ch23-006`. hbp-ch23-005 records the basic soul-splitting and banned-subject evidence, and hbp-ch23-006 records the diary as a Horcrux weapon; this entry adds the repair threshold, remorse mechanism, basilisk venom and phoenix-tear details, and container-dependence rule.
+  - Notes: The information is Hermione's summary from Dark Arts books, not a full quoted recipe or complete list of destructive substances.
+
 #### Section: Horcruxes Beyond Hogwarts Library Detail
 
 Summary: The available evidence includes 1 source item, led by: Slughorn says Hogwarts books are unlikely to provide detailed Horcrux information, identifying the subject as exceptionally Dark and outside ordinary school resources.
@@ -11888,6 +11947,18 @@ Summary: The available evidence includes 1 source item, led by: Slughorn explain
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The passage does not specify when the ban began or whether it was a formal written rule.
+
+#### Section: Removed Horcrux books in Dumbledore's office
+
+Summary: The available evidence includes 1 source item, led by: Hermione says Dumbledore removed all Horcrux books from the Hogwarts library but kept them, and that she summoned them from his study after his funeral; Secrets of the Darkest Art gives explicit Horcrux instructions and may have been Voldemort's source.
+
+- **Corroboration:** Hermione says Dumbledore removed all Horcrux books from the Hogwarts library but kept them, and that she summoned them from his study after his funeral; Secrets of the Darkest Art gives explicit Horcrux instructions and may have been Voldemort's source.
+  - Quote: "Dumbledore removed them all, but he didn't destroy them."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3060, `dh-ch06-006`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch18-002`, `hbp-ch23-004`, `hbp-ch23-005`. hbp-ch18-002 and hbp-ch23-004 establish that ordinary Hogwarts research lacks Horcrux detail, and hbp-ch23-005 records the subject ban; this entry adds Dumbledore's later removal-and-retention practice, Hermione's Accio retrieval, and the named title Secrets of the Darkest Art.
+  - Notes: Hermione infers that Voldemort could have used the book; the chapter does not prove when he read it or when Dumbledore removed it.
 
 ### Chapter: Restricted and Dangerous Spellcraft
 
@@ -12676,6 +12747,21 @@ Summary: The available evidence includes 1 source item, led by: Continuing Care 
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The chapter does not list the formal N.E.W.T. entry requirements for Care of Magical Creatures.
+
+## Part: Sources and Historiography
+
+### Chapter: Hogwarts: A History as an In-Universe Source
+
+#### Section: Hermione's field copy during the Horcrux hunt
+
+Summary: The available evidence includes 1 source item, led by: Hermione chooses to bring Hogwarts: A History on the Horcrux hunt, saying that even if they are not returning to Hogwarts she would not feel right without it.
+
+- **Direct evidence:** Hermione chooses to bring Hogwarts: A History on the Horcrux hunt, saying that even if they are not returning to Hogwarts she would not feel right without it.
+  - Quote: "I will take Hogwarts: A History."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, PDF p. 3055, `dh-ch06-004`, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_hogwarts_a_history
+  - Notes: The scene does not quote any content from the book.
 
 ## Part: Sources and Methods
 

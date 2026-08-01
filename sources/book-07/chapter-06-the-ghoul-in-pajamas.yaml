@@ -1,0 +1,342 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Six - The Ghoul in Pajamas
+  chapter_start_pdf_page: 3047
+  chapter_end_pdf_page: 3067
+  boundary_confidence: high
+  boundary_notes: Chapter Six page range was taken from project-control/processing-state.yaml after Book 7 Chapter Five. Only PDF pages 3047-3067 were extracted and searched.
+  processed_date: '2026-08-01'
+  processor_notes: "Processed only Book 7, Chapter Six. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-06-pages. Two explicit Hogwarts: A History mentions were found in one book-selection scene. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch06-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3047
+    printed_page: null
+    extracted_text_lines: "6-20; 25-47"
+    text_anchor:
+      start_phrase: "You can't do anything about the"
+      end_phrase: "Well, yeah. We are."
+      local_occurrence_note: "Ron connects the Trace to waiting at the Burrow, and Molly later confirms the trio's plan to leave Hogwarts."
+    nearby_context: "Harry is waiting at the Burrow after the Seven Potters flight and wants to begin Dumbledore's Horcrux mission immediately."
+    match_terms:
+      - Trace
+      - seventeen
+      - dropping out of Hogwarts
+      - Dumbledore
+      - Horcruxes
+      - Burrow
+    quote_excerpt_short: "You've still got the Trace on you."
+    source_note: "Ron says Harry cannot begin the Horcrux hunt until the Trace breaks at seventeen, while Molly confirms that Harry, Ron, and Hermione intend to abandon their Hogwarts education for Dumbledore's mission."
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - trace
+      - underage-magic
+      - coming-of-age
+      - school-leaving
+      - horcrux-hunt
+      - dumbledore
+      - burrow
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "The Trace and the trio's nonreturn to Hogwarts"
+    reason_for_placement: "The scene links the legal end of underage magical monitoring to the trio's decision not to resume schooling."
+    relevance_to_hogwarts_a_history: "A later edition can explain why three prominent students did not return for the final Hogwarts year and how the Trace constrained their departure."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch04-001
+        - hbp-ch17-007
+      notes: "dh-ch04-001 and hbp-ch17-007 already record Trace limits; this entry adds the Trace as a practical delay on the Horcrux hunt and the explicit decision to leave Hogwarts."
+    confidence: high
+    limitations: "The scene does not describe the formal withdrawal process or how Hogwarts records the trio's absence."
+
+  - id: dh-ch06-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3050
+    printed_page: null
+    extracted_text_lines: "115-131"
+    text_anchor:
+      start_phrase: "the Burrow had replaced number twelve"
+      end_phrase: "its protection has become so shaky"
+      local_occurrence_note: "Mr. Weasley explains why the Order no longer relies on Grimmauld Place after Dumbledore's death."
+    nearby_context: "Order members have begun eating at the Burrow because it has become the substitute headquarters."
+    match_terms:
+      - Burrow
+      - Grimmauld Place
+      - headquarters
+      - Secret-Keeper
+      - Fidelius Charm
+      - Snape
+    quote_excerpt_short: "that greatly dilutes the power of the Fidelius Charm"
+    source_note: "After Dumbledore's death, everyone to whom he revealed Grimmauld Place becomes a Secret-Keeper, weakening the Fidelius protection enough that the Burrow replaces it as Order headquarters; Moody also left curses meant to keep Snape out and bind his tongue."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - fidelius
+      - secret-keeper
+      - grimmauld-place
+      - order-of-the-phoenix
+      - burrow
+      - headquarters
+      - snape
+      - protective-magic
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Information Security and Secret-Keeping"
+    candidate_section: "Fidelius dilution after a Secret-Keeper's death"
+    reason_for_placement: "The passage gives a rare operational consequence of a Secret-Keeper's death and shows headquarters relocation under wartime risk."
+    relevance_to_hogwarts_a_history: "A later edition can connect Dumbledore's off-campus security work with broader magical secrecy systems used by Hogwarts-linked wartime organizations."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch02-004
+        - ootp-ch06-007
+      notes: "ootp-ch06-007 names Dumbledore as Secret-Keeper for Grimmauld Place, and hbp-ch02-004 records Snape's earlier inability to reveal it; this entry adds the post-Dumbledore multiplication of Secret-Keepers and resulting headquarters abandonment."
+    confidence: high
+    limitations: "Mr. Weasley gives the operational explanation, but the exact legal or charm-theory rule for successor Secret-Keepers is not formalized."
+
+  - id: dh-ch06-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3051
+    printed_page: null
+    extracted_text_lines: "137-166"
+    text_anchor:
+      start_phrase: "No news about Mad-Eye?"
+      end_phrase: "She hasn't been seen for weeks now."
+      local_occurrence_note: "Dinner-table discussion links Moody's missing body, Harry's absent hearing, Azkaban, and Charity Burbage."
+    nearby_context: "Order members compare what the Prophet and Ministry are not publicly admitting after the Seven Potters ambush."
+    match_terms:
+      - Daily Prophet
+      - underage magic
+      - Voldemort attacked me
+      - Azkaban
+      - Muggle Studies professor
+      - resigned
+    quote_excerpt_short: "It's keeping a lot quiet these days."
+    source_note: "Bill says the Daily Prophet has not reported Moody's death, Arthur thinks the Ministry is avoiding Harry's underage-magic hearing to suppress Voldemort's attack, and he doubts the public story that Hogwarts's Muggle Studies professor resigned."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - daily-prophet
+      - ministry-censorship
+      - underage-magic
+      - azkaban
+      - charity-burbage
+      - muggle-studies
+      - hogwarts-staff
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Suppressed public records and missing Hogwarts staff"
+    reason_for_placement: "The scene combines public-information failure with a Hogwarts staffing disappearance during the war."
+    relevance_to_hogwarts_a_history: "A revised edition can use this to frame the unreliability of wartime public sources and the concealed purge of Muggle Studies staff."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch01-006
+        - dh-ch05-005
+      notes: "dh-ch01-006 records Charity Burbage's captivity and murder, and dh-ch05-005 records a suspected censored Azkaban breakout; this entry adds Order-side recognition that Burbage's resignation story and several official silences are suspect."
+    confidence: high
+    limitations: "Arthur's statement about Burbage is a rumor-based inference; the chapter itself does not yet confirm her fate to the household."
+
+  - id: dh-ch06-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3055
+    printed_page: null
+    extracted_text_lines: "282-309"
+    text_anchor:
+      start_phrase: "Just trying to decide which ones to take"
+      end_phrase: "I wouldn't feel right if I didn't have it with"
+      local_occurrence_note: "Hermione sorts books for the Horcrux hunt and decides to pack Hogwarts: A History."
+    nearby_context: "The trio are planning to leave school, and Hermione is choosing portable research sources for the mission."
+    match_terms:
+      - Hogwarts: A History
+      - Hermione
+      - Horcruxes
+      - books
+      - mobile library
+      - not going back
+    quote_excerpt_short: "I will take Hogwarts: A History."
+    source_note: "Hermione chooses to bring Hogwarts: A History on the Horcrux hunt, saying that even if they are not returning to Hogwarts she would not feel right without it."
+    reference_type: explicit_hogwarts_a_history
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts-a-history
+      - explicit-reference
+      - hermione-source
+      - book-circulation
+      - student-research
+      - horcrux-hunt
+      - school-leaving
+    candidate_part: Sources and Historiography
+    candidate_chapter: "Hogwarts: A History as an In-Universe Source"
+    candidate_section: "Hermione's field copy during the Horcrux hunt"
+    reason_for_placement: "This explicit reference shows the book treated as essential background reading even outside school."
+    relevance_to_hogwarts_a_history: "The passage is direct canon evidence for the book's continued personal value, portability, and authority to Hermione after formal school attendance ends."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Prior explicit Hogwarts: A History references cite the book for specific facts; this scene is distinct because Hermione chooses to carry it as a general reference during wartime travel."
+    confidence: high
+    limitations: "The scene does not quote any content from the book."
+
+  - id: dh-ch06-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3056
+    printed_page: null
+    extracted_text_lines: "321-333; 378-400"
+    text_anchor:
+      start_phrase: "I've been packing for days"
+      end_phrase: "which is why I can't go back to school"
+      local_occurrence_note: "Hermione explains her parents' memory modification, and Ron explains the ghoul-as-spattergroit cover story."
+    nearby_context: "Harry challenges whether Ron and Hermione have understood the consequences of accompanying him."
+    match_terms:
+      - memory modification
+      - Wendell and Monica Wilkins
+      - Australia
+      - ghoul
+      - spattergroit
+      - cannot go back to school
+    quote_excerpt_short: "which is why I can't go back to school"
+    source_note: "Hermione has modified her parents' memories and sent them to Australia, while Ron's family will use a transformed ghoul with spattergroit as a cover story for his failure to return to Hogwarts."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - memory-modification
+      - muggle-protection
+      - school-absence-cover
+      - ghoul
+      - spattergroit
+      - muggle-borns
+      - weasley-family
+      - horcrux-hunt
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Family protection cover plans for nonreturning students"
+    reason_for_placement: "The passage records how student absence from Hogwarts became a security issue for families during the final war."
+    relevance_to_hogwarts_a_history: "A later edition can document the nonreturn of key students as part of a wider pattern of family concealment, Muggle-born flight, and wartime cover stories."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup found only a broad earlier Muggle cover-story entry; no queried entry records Hermione's parental memory charm or Ron's ghoul-spattergroit school-absence plan."
+    confidence: high
+    limitations: "Molly's full consent is absent, and the chapter does not show whether the cover story succeeds."
+
+  - id: dh-ch06-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3060
+    printed_page: null
+    extracted_text_lines: "459-489; 495-510"
+    text_anchor:
+      start_phrase: "I didn't think there were any books on Horcruxes in the library"
+      end_phrase: "that could easily have been where he got the information"
+      local_occurrence_note: "Hermione explains how she summoned the removed Horcrux books and identifies Secrets of the Darkest Art."
+    nearby_context: "The trio are planning how to trace and destroy the real locket after reading R.A.B.'s note."
+    match_terms:
+      - Horcrux books
+      - library
+      - Dumbledore's study
+      - Summoning Charm
+      - Secrets of the Darkest Art
+      - Voldemort
+    quote_excerpt_short: "Dumbledore removed them all, but he didn't destroy them."
+    source_note: "Hermione says Dumbledore removed all Horcrux books from the Hogwarts library but kept them, and that she summoned them from his study after his funeral; Secrets of the Darkest Art gives explicit Horcrux instructions and may have been Voldemort's source."
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - horcruxes
+      - hogwarts-library
+      - restricted-knowledge
+      - dumbledore-office
+      - summoning-charm
+      - secrets-of-the-darkest-art
+      - dark-arts
+      - banned-subject
+    candidate_part: Learning, Books, and Forbidden Knowledge
+    candidate_chapter: "Restricted and Banned Magical Subjects"
+    candidate_section: "Removed Horcrux books in Dumbledore's office"
+    reason_for_placement: "The passage clarifies that Horcrux books were removed from student access rather than destroyed, and identifies a specific dangerous title."
+    relevance_to_hogwarts_a_history: "This is important evidence for how Hogwarts controlled forbidden library knowledge and how Dumbledore's private office preserved removed materials."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch18-002
+        - hbp-ch23-004
+        - hbp-ch23-005
+      notes: "hbp-ch18-002 and hbp-ch23-004 establish that ordinary Hogwarts research lacks Horcrux detail, and hbp-ch23-005 records the subject ban; this entry adds Dumbledore's later removal-and-retention practice, Hermione's Accio retrieval, and the named title Secrets of the Darkest Art."
+    confidence: high
+    limitations: "Hermione infers that Voldemort could have used the book; the chapter does not prove when he read it or when Dumbledore removed it."
+
+  - id: dh-ch06-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Six - The Ghoul in Pajamas
+    chapter_start_pdf_page: 3047
+    chapter_end_pdf_page: 3067
+    pdf_page: 3062
+    printed_page: null
+    extracted_text_lines: "511-546; 549-560"
+    text_anchor:
+      start_phrase: "the more horrible they seem"
+      end_phrase: "the bit of soul trapped in it"
+      local_occurrence_note: "Hermione summarizes Horcrux instability, remorse, destruction requirements, and container dependence."
+    nearby_context: "The trio use the retrieved Dark Arts books to understand how they could destroy Voldemort's remaining Horcruxes."
+    match_terms:
+      - soul
+      - remorse
+      - basilisk venom
+      - phoenix tears
+      - magical repair
+      - container
+    quote_excerpt_short: "You've got to put it beyond magical repair."
+    source_note: "Hermione reports that Horcrux creation destabilizes the maker's remaining soul, remorse can reunite it at dangerous cost, and a Horcrux is destroyed only when its enchanted container is damaged beyond magical repair, as with basilisk venom."
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - horcruxes
+      - soul-magic
+      - remorse
+      - basilisk-venom
+      - phoenix-tears
+      - magical-repair
+      - riddle-diary
+      - dark-arts
+    candidate_part: Learning, Books, and Forbidden Knowledge
+    candidate_chapter: "Restricted and Banned Magical Subjects"
+    candidate_section: "Horcrux destruction and soul repair mechanics"
+    reason_for_placement: "The scene converts the forbidden-book material into practical rules for the trio's mission and clarifies what ordinary damage cannot do."
+    relevance_to_hogwarts_a_history: "A later edition can use this as source-based magical theory for the Chamber diary's destruction and the later Horcrux campaign."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch23-005
+        - hbp-ch23-006
+      notes: "hbp-ch23-005 records the basic soul-splitting and banned-subject evidence, and hbp-ch23-006 records the diary as a Horcrux weapon; this entry adds the repair threshold, remorse mechanism, basilisk venom and phoenix-tear details, and container-dependence rule."
+    confidence: high
+    limitations: "The information is Hermione's summary from Dark Arts books, not a full quoted recipe or complete list of destructive substances."

@@ -173,3 +173,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch03`: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, pages 2998-3009, 4 entries, 0 explicit references.
 - `dh-ch04`: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, pages 3010-3026, 6 entries, 0 explicit references.
 - `dh-ch05`: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, pages 3027-3046, 7 entries, 0 explicit references.
+- `dh-ch06`: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, pages 3047-3067, 7 entries, 1 explicit references.

@@ -2006,3 +2006,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3027-3046.
+- source_unit_id: dh-ch06
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 6
+  chapter_title: Chapter Six - The Ghoul in Pajamas
+  page_start: 3047
+  page_end: 3067
+  output_yaml: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  processed_at: '2026-08-01'
+  explicit_reference_count: 1
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3047-3067.

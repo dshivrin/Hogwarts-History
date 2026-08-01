@@ -722,6 +722,7 @@ tags:
     - cos-ch12-007
     - cos-ch14-005
     - dh-ch05-005
+    - dh-ch06-003
     - gof-ch02-006
     - gof-ch09-007
     - gof-ch14-005
@@ -762,6 +763,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   azkaban-guards:
     entries:
     - poa-ch04-007
@@ -811,9 +813,11 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
   banned-subject:
     entries:
+    - dh-ch06-006
     - hbp-ch23-005
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   banned-substances:
     entries:
     - hbp-ch09-006
@@ -883,6 +887,11 @@ tags:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  basilisk-venom:
+    entries:
+    - dh-ch06-007
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   basin:
     entries:
     - hbp-ch26-006
@@ -1202,8 +1211,10 @@ tags:
   book-circulation:
     entries:
     - cos-ch09-001
+    - dh-ch06-004
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   booklists:
     entries:
     - hbp-ch06-001
@@ -1419,11 +1430,14 @@ tags:
     entries:
     - dh-ch04-002
     - dh-ch05-002
+    - dh-ch06-001
+    - dh-ch06-002
     - hbp-ch05-003
     output_yaml:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   burrow-security:
     entries:
     - hbp-ch16-002
@@ -2001,8 +2015,10 @@ tags:
   charity-burbage:
     entries:
     - dh-ch01-006
+    - dh-ch06-003
     output_yaml:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   charlie-weasley:
     entries:
     - poa-ch15-004
@@ -2305,9 +2321,11 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
   coming-of-age:
     entries:
+    - dh-ch06-001
     - hbp-ch03-007
     output_yaml:
     - sources/book-06/chapter-03-will-and-won-t.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   commentators:
     entries:
     - hbp-ch08-004
@@ -2995,6 +3013,7 @@ tags:
     - cos-ch12-006
     - dh-ch01-006
     - dh-ch02-006
+    - dh-ch06-003
     - gof-ch10-003
     - gof-ch13-005
     - gof-ch18-005
@@ -3034,6 +3053,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   damocles-belby:
     entries:
     - hbp-ch07-006
@@ -3076,6 +3096,8 @@ tags:
   dark-arts:
     entries:
     - cos-ch18-001
+    - dh-ch06-006
+    - dh-ch06-007
     - gof-ch11-004
     - gof-ch13-007
     - gof-ch19-006
@@ -3094,6 +3116,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   dark-creatures:
     entries:
     - gof-ch14-001
@@ -4136,6 +4159,7 @@ tags:
     - cos-ch17-005
     - cos-ch18-001
     - cos-ch18-005
+    - dh-ch06-001
     - gof-ch02-005
     - gof-ch11-001
     - gof-ch12-006
@@ -4358,6 +4382,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   dumbledore-absences:
     entries:
     - hbp-ch25-006
@@ -4406,6 +4431,7 @@ tags:
     entries:
     - cos-ch11-007
     - cos-ch12-001
+    - dh-ch06-006
     - gof-ch28-006
     - gof-ch29-006
     - gof-ch30-001
@@ -4435,6 +4461,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   dumbledore-protection:
     entries:
     - hbp-ch16-002
@@ -4983,10 +5010,12 @@ tags:
   explicit-reference:
     entries:
     - cos-ch09-001
+    - dh-ch06-004
     - ps-ch07-001
     output_yaml:
     - sources/book-01/chapter-07-sorting-hat.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   expulsion:
     entries:
     - cos-ch02-005
@@ -5203,9 +5232,11 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
   fidelius:
     entries:
+    - dh-ch06-002
     - hbp-ch02-004
     output_yaml:
     - sources/book-06/chapter-02-spinner-s-end.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   field-booking:
     entries:
     - cos-ch07-002
@@ -6045,6 +6076,11 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+  ghoul:
+    entries:
+    - dh-ch06-005
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   giant-population:
     entries:
     - ootp-ch20-003
@@ -6402,6 +6438,7 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
   grimmauld-place:
     entries:
+    - dh-ch06-002
     - hbp-ch03-004
     - hbp-ch12-005
     - ootp-ch03-002
@@ -6431,6 +6468,7 @@ tags:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   grindelwald:
     entries:
     - dh-ch02-005
@@ -7329,6 +7367,7 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
   headquarters:
     entries:
+    - dh-ch06-002
     - ootp-ch03-002
     - ootp-ch04-004
     - ootp-ch05-001
@@ -7336,6 +7375,7 @@ tags:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   heads-of-house:
     entries:
     - cos-ch05-005
@@ -7490,6 +7530,7 @@ tags:
     entries:
     - cos-ch09-001
     - cos-ch16-003
+    - dh-ch06-004
     - poa-ch09-001
     - ps-ch07-001
     output_yaml:
@@ -7497,6 +7538,7 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   hestia-jones:
     entries:
     - dh-ch03-002
@@ -7837,6 +7879,7 @@ tags:
   hogwarts-a-history:
     entries:
     - cos-ch09-001
+    - dh-ch06-004
     - gof-ch11-005
     - gof-ch15-003
     - gof-ch28-003
@@ -7851,6 +7894,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   hogwarts-admissions:
     entries:
     - hbp-ch13-003
@@ -8062,9 +8106,11 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
   hogwarts-library:
     entries:
+    - dh-ch06-006
     - hbp-ch23-004
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   hogwarts-memory:
     entries:
     - cos-ch01-001
@@ -8135,10 +8181,12 @@ tags:
   hogwarts-staff:
     entries:
     - dh-ch01-006
+    - dh-ch06-003
     - ps-ch04-001
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   hogwarts-student:
     entries:
     - dh-ch02-001
@@ -8306,6 +8354,13 @@ tags:
     - hbp-ch26-007
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  horcrux-hunt:
+    entries:
+    - dh-ch06-001
+    - dh-ch06-004
+    - dh-ch06-005
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   horcrux-mission:
     entries:
     - hbp-ch30-007
@@ -8313,6 +8368,8 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
   horcruxes:
     entries:
+    - dh-ch06-006
+    - dh-ch06-007
     - hbp-ch18-002
     - hbp-ch20-001
     - hbp-ch23-004
@@ -8322,6 +8379,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   horseless-carriages:
     entries:
     - gof-ch11-006
@@ -10494,6 +10552,11 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  magical-repair:
+    entries:
+    - dh-ch06-007
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   magical-reputation:
     entries:
     - cos-ch02-003
@@ -11042,6 +11105,7 @@ tags:
     - sources/book-06/chapter-23-horcruxes.yaml
   memory-modification:
     entries:
+    - dh-ch06-005
     - gof-ch13-005
     - hbp-ch01-003
     - hbp-ch20-006
@@ -11049,6 +11113,7 @@ tags:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   mental-magic:
     entries:
     - ootp-ch37-002
@@ -11164,12 +11229,14 @@ tags:
   ministry-censorship:
     entries:
     - dh-ch05-005
+    - dh-ch06-003
     - ootp-ch25-007
     - ootp-ch26-001
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   ministry-classification:
     entries:
     - ootp-ch21-002
@@ -11715,10 +11782,12 @@ tags:
     entries:
     - dh-ch01-005
     - dh-ch01-006
+    - dh-ch06-005
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   muggle-camouflage:
     entries:
     - gof-ch07-002
@@ -11826,9 +11895,11 @@ tags:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
   muggle-protection:
     entries:
+    - dh-ch06-005
     - ootp-ch07-006
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   muggle-raised-students:
     entries:
     - hbp-ch13-004
@@ -11910,6 +11981,7 @@ tags:
     entries:
     - cos-ch14-002
     - dh-ch01-006
+    - dh-ch06-003
     - poa-ch04-004
     - poa-ch06-001
     - poa-ch12-007
@@ -11925,6 +11997,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   muggle-suburb:
     entries:
     - ootp-ch01-004
@@ -12492,6 +12565,7 @@ tags:
     - dh-ch05-002
     - dh-ch05-003
     - dh-ch05-006
+    - dh-ch06-002
     - hbp-ch02-002
     - hbp-ch02-004
     - hbp-ch03-005
@@ -12536,6 +12610,7 @@ tags:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -13135,6 +13210,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+  phoenix-tears:
+    entries:
+    - dh-ch06-007
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   physical-evidence:
     entries:
     - poa-ch17-002
@@ -14186,6 +14266,7 @@ tags:
     entries:
     - dh-ch03-001
     - dh-ch03-004
+    - dh-ch06-002
     - gof-ch33-004
     - hbp-ch02-004
     - hbp-ch03-007
@@ -14207,6 +14288,7 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   protective-objects:
     entries:
     - hbp-ch05-002
@@ -14729,6 +14811,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  remorse:
+    entries:
+    - dh-ch06-007
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   remus-lupin:
     entries:
     - hbp-ch16-003
@@ -14787,9 +14874,11 @@ tags:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
   restricted-knowledge:
     entries:
+    - dh-ch06-006
     - hbp-ch23-004
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   restricted-magic:
     entries:
     - hbp-ch06-006
@@ -14842,11 +14931,13 @@ tags:
     entries:
     - cos-ch17-002
     - cos-ch18-006
+    - dh-ch06-007
     - hbp-ch23-006
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   riddle-family:
     entries:
     - gof-ch01-001
@@ -15076,9 +15167,11 @@ tags:
     - sources/book-07/chapter-02-in-memoriam.yaml
   school-absence-cover:
     entries:
+    - dh-ch06-005
     - gof-ch02-003
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   school-attachment:
     entries:
     - hbp-ch20-004
@@ -15310,6 +15403,12 @@ tags:
     - hbp-ch16-005
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  school-leaving:
+    entries:
+    - dh-ch06-001
+    - dh-ch06-004
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   school-legend:
     entries:
     - ootp-ch30-001
@@ -15742,6 +15841,7 @@ tags:
     - dh-ch05-002
     - dh-ch05-003
     - dh-ch05-006
+    - dh-ch06-003
     - hbp-ch01-004
     - hbp-ch01-005
     - hbp-ch01-006
@@ -15791,6 +15891,7 @@ tags:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -15864,6 +15965,7 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
   secret-keeper:
     entries:
+    - dh-ch06-002
     - hbp-ch02-004
     - ootp-ch06-007
     - ootp-ch37-004
@@ -15871,6 +15973,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   secret-passages:
     entries:
     - ootp-ch17-007
@@ -15928,6 +16031,11 @@ tags:
     - ootp-ch04-004
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  secrets-of-the-darkest-art:
+    entries:
+    - dh-ch06-006
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   sectumsempra:
     entries:
     - dh-ch05-005
@@ -16514,6 +16622,7 @@ tags:
   snape:
     entries:
     - cos-ch11-002
+    - dh-ch06-002
     - gof-ch18-004
     - gof-ch25-006
     - gof-ch27-005
@@ -16577,6 +16686,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -16674,9 +16784,11 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
   soul-magic:
     entries:
+    - dh-ch06-007
     - hbp-ch23-005
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   source-criticism:
     entries:
     - dh-ch02-006
@@ -16687,6 +16799,11 @@ tags:
     - gof-ch15-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+  spattergroit:
+    entries:
+    - dh-ch06-005
+    output_yaml:
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   special-awards:
     entries:
     - cos-ch18-003
@@ -17688,6 +17805,7 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
   student-research:
     entries:
+    - dh-ch06-004
     - gof-ch20-001
     - gof-ch26-002
     - hbp-ch30-002
@@ -17707,6 +17825,7 @@ tags:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   student-residence:
     entries:
     - cos-ch11-001
@@ -18035,11 +18154,13 @@ tags:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
   summoning-charm:
     entries:
+    - dh-ch06-006
     - gof-ch06-003
     - gof-ch20-004
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   sunday-prophet:
     entries:
     - ootp-ch38-001
@@ -18711,10 +18832,12 @@ tags:
   trace:
     entries:
     - dh-ch04-001
+    - dh-ch06-001
     - hbp-ch17-007
     output_yaml:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   train-ticket:
     entries:
     - hbp-ch13-006
@@ -19060,6 +19183,8 @@ tags:
     - cos-ch05-005
     - dh-ch03-004
     - dh-ch04-001
+    - dh-ch06-001
+    - dh-ch06-003
     - gof-ch02-003
     - gof-ch04-005
     - gof-ch06-001
@@ -19094,6 +19219,7 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   underage-students:
     entries:
     - gof-ch16-004
@@ -19698,6 +19824,7 @@ tags:
   weasley-family:
     entries:
     - cos-ch04-003
+    - dh-ch06-005
     - gof-ch03-003
     - gof-ch03-004
     - gof-ch05-001
@@ -19707,6 +19834,7 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   weasley-fireworks:
     entries:
     - ootp-ch28-005
