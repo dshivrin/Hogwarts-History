@@ -11699,6 +11699,36 @@ Summary: The available evidence includes 1 source item, led by: Adult Marauders-
   - Corroborates: `ootp-ch28-007`, `ootp-ch09-006`, `poa-ch18-005`. ootp-ch28-007 records the Pensieve O.W.L. scene, ootp-ch09-006 records Lupin's prefect appointment context, and poa-ch18-005 records Marauders-era Animagus history; this entry adds Sirius and Lupin's retrospective account of James, Snape, Lily, and Lupin's inaction.
   - Notes: Sirius and Lupin are personally invested witnesses defending James, so their retrospective account should be weighed against Snape's memory rather than treated as neutral narration.
 
+## Part: Hogwarts Buildings and Enchantments
+
+### Chapter: Boundaries, Wards, and Exceptional Magic
+
+#### Section: House-elf exceptions to anti-Apparition protections
+
+Summary: The available evidence includes 1 source item, led by: Kreacher's escape from Voldemort's cave confirms that house-elf magic can bypass wizard anti-Apparition assumptions, with Ron citing Hogwarts as the familiar example.
+
+- **Corroboration:** Kreacher's escape from Voldemort's cave confirms that house-elf magic can bypass wizard anti-Apparition assumptions, with Ron citing Hogwarts as the familiar example.
+  - Quote: "Apparate and Disapparate in and out of Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3138, `dh-ch10-006`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `ootp-ch23-001`, `hbp-ch19-007`. Likely duplicate/corroboration of ootp-ch23-001's explicit Hogwarts: A History anti-Apparition citation and hbp-ch19-007's house-elf summoning evidence; this entry adds the cave escape analogy.
+  - Notes: The Hogwarts comparison is Ron's explanation, though later events in the same passage support it.
+
+### Chapter: Headmaster's Office and Portrait Network
+
+#### Section: Former headmasters as mobile portrait witnesses
+
+Summary: The available evidence includes 1 source item, led by: Phineas Nigellus Black's portrait can be absent from Grimmauld Place because the former headmaster is present in the Hogwarts headmaster's study, corroborating portrait movement between linked frames.
+
+- **Corroboration:** Phineas Nigellus Black's portrait can be absent from Grimmauld Place because the former headmaster is present in the Hogwarts headmaster's study, corroborating portrait movement between linked frames.
+  - Quote: "spending the night in the headmaster's study at Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3124, `dh-ch10-001`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `ootp-ch23-002`. Likely duplicate or corroboration of ootp-ch23-002, which records Phineas using his Grimmauld Place portrait to relay Dumbledore's orders; this entry adds the reverse observation that he may be at Hogwarts instead.
+  - Notes: The text infers Phineas's location from the empty frame rather than showing him moving.
+
 ## Part: Hogwarts Curriculum and Instruction
 
 ### Chapter: Academic Progression and Examinations
@@ -13073,6 +13103,36 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore conti
   - Corroborates: `hbp-ch17-003`, `hbp-ch10-004`, `hbp-ch13-001`. Earlier HBP entries already record Pensieve private lessons and memory evidence. This entry adds the explicit source gap created by Slughorn's withheld Horcrux memory and Dumbledore's requirement that the lessons cannot proceed without it.
   - Notes: The scene concerns exceptional headmaster-led instruction for Harry, not ordinary school curriculum or general Pensieve access.
 
+## Part: Sources, Historiography, and Editions
+
+### Chapter: Genealogies, Family Archives, and Pure-Blood Records
+
+#### Section: Black family artifacts and published genealogies
+
+Summary: The available evidence includes 1 source item, led by: The lost locket trail reconnects earlier Grimmauld Place cleaning to Kreacher's preserved Black-family hoard, where only Nature's Nobility: A Wizarding Genealogy remains.
+
+- **Corroboration:** The lost locket trail reconnects earlier Grimmauld Place cleaning to Kreacher's preserved Black-family hoard, where only Nature's Nobility: A Wizarding Genealogy remains.
+  - Quote: "Nature's Nobility: A Wizarding Genealogy"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3134, `dh-ch10-005`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch06-001`. Likely duplicate or continuation of ootp-ch06-001, which already records Nature's Nobility and Black-family artifacts; this entry adds the later locket-search context and remaining cupboard source.
+  - Notes: The title is named, but the chapter does not quote or summarize the genealogy's contents.
+
+### Chapter: Named Wizarding Historians and School Texts
+
+#### Section: Bathilda Bagshot as textbook author and living informant
+
+Summary: The available evidence includes 1 source item, led by: A torn copy of Bathilda Bagshot's A History of Magic is present among Sirius's school-era books, while Lily's letter treats Bathilda as a local source of Dumbledore stories.
+
+- **Corroboration:** A torn copy of Bathilda Bagshot's A History of Magic is present among Sirius's school-era books, while Lily's letter treats Bathilda as a local source of Dumbledore stories.
+  - Quote: "old edition of A History of Magic"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3126, `dh-ch10-003`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `poa-ch01-001`, `dh-ch02-003`, `dh-ch08-006`. Likely corroborates prior Bathilda/A History of Magic and Bathilda-as-source entries; this chapter adds the book as Sirius-room material evidence and Lily's private testimony.
+  - Notes: The torn page does not quote the book's contents, and Lily's letter breaks off before the Dumbledore story.
+
 ## Part: Sources, Records, and Magical Historiography
 
 ### Chapter: Memory Testimony and Historical Method
@@ -13227,6 +13287,32 @@ Summary: The available evidence includes 1 source item, led by: McGonagall award
   - Notes: The passage does not say whether the award affects the final House Cup result.
 
 ## Part: Student Life and Houses
+
+### Chapter: House Identity, Family Expectation, and Rebellion
+
+#### Section: Black family House identity and Sirius's exception
+
+Summary: The available evidence includes 1 source item, led by: Sirius Black's preserved bedroom material culture displays Gryffindor banners, Muggle images, and a Hogwarts student photograph as deliberate rejection of his Slytherin pure-blood family identity.
+
+- **Corroboration:** Sirius Black's preserved bedroom material culture displays Gryffindor banners, Muggle images, and a Hogwarts student photograph as deliberate rejection of his Slytherin pure-blood family identity.
+  - Quote: "several large Gryffindor banners"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3125, `dh-ch10-002`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `hbp-ch04-005`. Likely corroborates hbp-ch04-005, where Slughorn says Sirius was the Gryffindor exception in a Slytherin Black-family pattern; this entry adds material evidence from Sirius's room.
+  - Notes: The evidence is filtered through Harry's interpretation of Sirius's teenage decorations.
+
+#### Section: Regulus Black and Slytherin family conformity
+
+Summary: The available evidence includes 1 source item, led by: Regulus Black's bedroom preserves concentrated Slytherin and pure-blood symbols alongside a Hogwarts Slytherin Quidditch team photograph identifying him as Seeker.
+
+- **Corroboration:** Regulus Black's bedroom preserves concentrated Slytherin and pure-blood symbols alongside a Hogwarts Slytherin Quidditch team photograph identifying him as Seeker.
+  - Quote: "The Slytherin colors of emerald and silver were everywhere"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3132, `dh-ch10-004`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `hbp-ch04-005`, `ootp-ch06-004`. Likely corroborates hbp-ch04-005 on Regulus as the Slytherin Black-family counterpart to Sirius, and ootp-ch06-004 on Regulus's Death Eater alignment; this adds preserved room evidence.
+  - Notes: The Quidditch photograph confirms position visually through Harry's interpretation, not through a roster.
 
 ### Chapter: House Quidditch Teams
 
@@ -13777,6 +13863,22 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Reference type: institutional_custom
   - Corroborates: `gof-ch25-003`, `gof-ch20-007`. gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
+
+## Part: The Second War and Hidden Histories
+
+### Chapter: Regulus Black and the Secret Locket
+
+#### Section: First-war resistance hidden inside a pure-blood household
+
+Summary: The available evidence includes 1 source item, led by: Kreacher's testimony reveals that Regulus Black knowingly replaced Voldemort's locket Horcrux, sacrificed himself in the cave, and ordered Kreacher to destroy the original.
+
+- **Corroboration:** Kreacher's testimony reveals that Regulus Black knowingly replaced Voldemort's locket Horcrux, sacrificed himself in the cave, and ordered Kreacher to destroy the original.
+  - Quote: "Kreacher swapped the lockets"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, PDF p. 3140, `dh-ch10-007`, `sources/book-07/chapter-10-kreacher-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch26-004`, `hbp-ch26-006`, `hbp-ch26-007`. Likely corroborates the HBP cave entries on the boat, basin potion, and Inferi defenses; this entry adds Regulus and Kreacher's historical explanation of how the locket was removed.
+  - Notes: The account is retrospective testimony from Kreacher, not an independently witnessed scene.
 
 ## Part: The Wider Grounds and Hogsmeade
 

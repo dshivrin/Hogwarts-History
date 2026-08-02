@@ -454,6 +454,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Marauders-Era Context and Hidden Identities
   - James, Snape, Lily, and retrospective student testimony
 
+## Hogwarts Buildings and Enchantments
+
+- Boundaries, Wards, and Exceptional Magic
+  - House-elf exceptions to anti-Apparition protections
+- Headmaster's Office and Portrait Network
+  - Former headmasters as mobile portrait witnesses
+
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
@@ -1498,6 +1505,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hokey's conviction and evidentiary limits
   - Slughorn's missing memory as a source gap
 
+## Sources, Historiography, and Editions
+
+- Genealogies, Family Archives, and Pure-Blood Records
+  - Black family artifacts and published genealogies
+- Named Wizarding Historians and School Texts
+  - Bathilda Bagshot as textbook author and living informant
+
 ## Sources, Records, and Magical Historiography
 
 - Memory Testimony and Historical Method
@@ -1533,6 +1547,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Student Life and Houses
 
+- House Identity, Family Expectation, and Rebellion
+  - Black family House identity and Sirius's exception
+  - Regulus Black and Slytherin family conformity
 - House Quidditch Teams
   - Captain authority, applicant lists, and trials
 - Quidditch and House Competition
@@ -1734,6 +1751,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Practical Preparation from Published Sources
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
+
+## The Second War and Hidden Histories
+
+- Regulus Black and the Secret Locket
+  - First-war resistance hidden inside a pure-blood household
 
 ## The Wider Grounds and Hogsmeade
 

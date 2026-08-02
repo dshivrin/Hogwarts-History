@@ -467,6 +467,7 @@ tags:
     entries:
     - dh-ch01-004
     - dh-ch04-001
+    - dh-ch10-006
     - gof-ch06-001
     - gof-ch09-004
     - gof-ch15-006
@@ -500,6 +501,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   apparition-points:
     entries:
     - gof-ch06-002
@@ -917,11 +919,13 @@ tags:
     entries:
     - dh-ch02-002
     - dh-ch08-006
+    - dh-ch10-003
     - poa-ch01-001
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   bathroom:
     entries:
     - cos-ch15-007
@@ -1061,6 +1065,9 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   black-family:
     entries:
+    - dh-ch10-002
+    - dh-ch10-004
+    - dh-ch10-005
     - hbp-ch03-004
     - hbp-ch04-005
     - hbp-ch12-005
@@ -1082,6 +1089,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   black-flames:
     entries:
     - ps-ch16-007
@@ -1866,6 +1874,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-26-the-cave.yaml
+  cave-defenses:
+    entries:
+    - dh-ch10-006
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   cedric-diggory:
     entries:
     - gof-ch06-004
@@ -3832,10 +3845,12 @@ tags:
   disapparition:
     entries:
     - dh-ch03-004
+    - dh-ch10-006
     - ootp-ch23-001
     output_yaml:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   disarming:
     entries:
     - gof-ch29-004
@@ -4233,6 +4248,7 @@ tags:
     - dh-ch07-004
     - dh-ch07-005
     - dh-ch07-007
+    - dh-ch10-003
     - gof-ch02-005
     - gof-ch11-001
     - gof-ch12-006
@@ -4457,6 +4473,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   dumbledore-absences:
     entries:
     - hbp-ch25-006
@@ -5195,6 +5212,11 @@ tags:
     - gof-ch05-004
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  family-artifacts:
+    entries:
+    - dh-ch10-005
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   family-care:
     entries:
     - gof-ch36-002
@@ -5204,6 +5226,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
   family-crests:
     entries:
+    - dh-ch10-004
     - hbp-ch12-005
     - ootp-ch05-002
     - ootp-ch06-001
@@ -5211,6 +5234,7 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   family-history:
     entries:
     - hbp-ch17-006
@@ -5561,6 +5585,7 @@ tags:
     - sources/book-04/chapter-20-the-first-task.yaml
   first-wizarding-war:
     entries:
+    - dh-ch10-007
     - gof-ch09-007
     - gof-ch14-003
     - gof-ch14-004
@@ -5583,6 +5608,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   first-year-arrival:
     entries:
     - poa-ch05-005
@@ -6362,6 +6388,7 @@ tags:
   godrics-hollow:
     entries:
     - dh-ch08-006
+    - dh-ch10-003
     - gof-ch02-004
     - ps-ch01-003
     - ps-ch01-005
@@ -6372,6 +6399,7 @@ tags:
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   golden-egg:
     entries:
     - gof-ch20-006
@@ -6565,6 +6593,8 @@ tags:
     - dh-ch06-002
     - dh-ch09-003
     - dh-ch09-006
+    - dh-ch10-001
+    - dh-ch10-005
     - hbp-ch03-004
     - hbp-ch12-005
     - ootp-ch03-002
@@ -6596,6 +6626,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   grindelwald:
     entries:
     - dh-ch02-005
@@ -6687,6 +6718,7 @@ tags:
     - cos-ch15-002
     - cos-ch18-003
     - dh-ch07-006
+    - dh-ch10-002
     - gof-ch05-005
     - gof-ch06-004
     - gof-ch15-004
@@ -6757,6 +6789,7 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   gryffindor-common-room:
     entries:
     - hbp-ch12-007
@@ -7411,6 +7444,7 @@ tags:
     - cos-ch11-007
     - cos-ch12-001
     - cos-ch13-006
+    - dh-ch10-001
     - gof-ch28-006
     - gof-ch29-006
     - gof-ch30-001
@@ -7436,6 +7470,7 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   headmaster-portraits:
     entries:
     - cos-ch12-001
@@ -7863,6 +7898,7 @@ tags:
   history-of-magic:
     entries:
     - cos-ch09-002
+    - dh-ch10-003
     - gof-ch15-002
     - gof-ch22-005
     - gof-ch29-002
@@ -7885,6 +7921,7 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   history-of-magic-classroom:
     entries:
     - poa-ch12-001
@@ -8002,6 +8039,8 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
   hogwarts:
     entries:
+    - dh-ch10-001
+    - dh-ch10-006
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -8023,6 +8062,7 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -8511,11 +8551,13 @@ tags:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
   horcrux:
     entries:
+    - dh-ch10-007
     - hbp-ch26-004
     - hbp-ch26-006
     - hbp-ch26-007
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   horcrux-hunt:
     entries:
     - dh-ch06-001
@@ -8699,6 +8741,11 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+  house-elf-magic:
+    entries:
+    - dh-ch10-006
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   house-elf-ownership:
     entries:
     - hbp-ch03-005
@@ -8782,8 +8829,11 @@ tags:
   house-identity:
     entries:
     - cos-ch18-004
+    - dh-ch10-002
+    - dh-ch10-004
     output_yaml:
     - sources/book-02/chapter-18-dobbys-reward.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   house-lore:
     entries:
     - cos-ch17-004
@@ -9120,6 +9170,7 @@ tags:
     - cos-ch13-004
     - dh-ch02-001
     - dh-ch07-007
+    - dh-ch10-003
     - gof-ch02-005
     - gof-ch09-002
     - gof-ch09-007
@@ -9140,6 +9191,7 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   individual-desks:
     entries:
     - ootp-ch31-004
@@ -9148,6 +9200,7 @@ tags:
   inferi:
     entries:
     - dh-ch03-003
+    - dh-ch10-007
     - hbp-ch03-003
     - hbp-ch04-002
     - hbp-ch09-003
@@ -9160,6 +9213,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   influential-students:
     entries:
     - hbp-ch07-005
@@ -9235,8 +9289,10 @@ tags:
   institutional-memory:
     entries:
     - dh-ch07-003
+    - dh-ch10-001
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   institutional-secrecy:
     entries:
     - cos-ch13-005
@@ -9681,6 +9737,8 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
   kreacher:
     entries:
+    - dh-ch10-005
+    - dh-ch10-007
     - hbp-ch03-005
     - hbp-ch19-007
     - hbp-ch21-003
@@ -9698,6 +9756,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   kwikspell:
     entries:
     - cos-ch08-002
@@ -10618,6 +10677,11 @@ tags:
     - dh-ch05-005
     output_yaml:
     - sources/book-07/chapter-05-fallen-warrior.yaml
+  magical-historian:
+    entries:
+    - dh-ch10-003
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   magical-historians:
     entries:
     - dh-ch08-006
@@ -10755,8 +10819,10 @@ tags:
   magical-photographs:
     entries:
     - cos-ch06-005
+    - dh-ch10-002
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   magical-plants:
     entries:
     - cos-ch06-003
@@ -10948,6 +11014,7 @@ tags:
     - dh-ch04-001
     - dh-ch04-004
     - dh-ch05-002
+    - dh-ch10-006
     - gof-ch04-004
     - poa-ch03-002
     output_yaml:
@@ -10955,6 +11022,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   magical-transportation:
     entries:
     - gof-ch06-001
@@ -12064,6 +12132,11 @@ tags:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  muggle-culture:
+    entries:
+    - dh-ch10-002
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   muggle-disasters:
     entries:
     - hbp-ch01-004
@@ -12355,6 +12428,11 @@ tags:
     - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  natures-nobility:
+    entries:
+    - dh-ch10-005
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   navigation:
     entries:
     - ootp-ch34-003
@@ -13485,6 +13563,11 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  phineas-nigellus-black:
+    entries:
+    - dh-ch10-001
+    output_yaml:
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   phoenix:
     entries:
     - cos-ch17-005
@@ -13762,6 +13845,7 @@ tags:
   portraits:
     entries:
     - dh-ch01-001
+    - dh-ch10-001
     - gof-ch17-007
     - gof-ch22-007
     - gof-ch31-001
@@ -13783,6 +13867,7 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   possession:
     entries:
     - cos-ch17-002
@@ -14714,10 +14799,12 @@ tags:
   pure-blood-ideology:
     entries:
     - dh-ch01-005
+    - dh-ch10-004
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   pure-blood-prejudice:
     entries:
     - cos-ch07-003
@@ -14789,6 +14876,7 @@ tags:
     - cos-ch07-001
     - cos-ch14-003
     - dh-ch07-005
+    - dh-ch10-004
     - gof-ch05-005
     - gof-ch06-004
     - gof-ch08-004
@@ -14859,6 +14947,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   quidditch-ban:
     entries:
     - ootp-ch19-007
@@ -15118,11 +15207,14 @@ tags:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   regulus-black:
     entries:
+    - dh-ch10-004
+    - dh-ch10-007
     - hbp-ch04-005
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   remedial-potions:
     entries:
     - ootp-ch24-001
@@ -16676,6 +16768,8 @@ tags:
   sirius-black:
     entries:
     - dh-ch04-004
+    - dh-ch10-002
+    - dh-ch10-003
     - gof-ch02-006
     - gof-ch18-001
     - gof-ch19-007
@@ -16739,6 +16833,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   sirius-black-crisis:
     entries:
     - poa-ch14-001
@@ -16853,6 +16948,8 @@ tags:
     entries:
     - cos-ch07-002
     - cos-ch18-004
+    - dh-ch10-002
+    - dh-ch10-004
     - gof-ch15-004
     - hbp-ch04-005
     - hbp-ch19-003
@@ -16892,6 +16989,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   slytherin-common-room:
     entries:
     - cos-ch12-005
@@ -16923,6 +17021,8 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
   slytherin-locket:
     entries:
+    - dh-ch10-005
+    - dh-ch10-007
     - hbp-ch10-006
     - hbp-ch13-002
     - hbp-ch20-005
@@ -16930,6 +17030,7 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   slytherin-statue:
     entries:
     - cos-ch17-001
@@ -19981,6 +20082,8 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
   voldemort-defenses:
     entries:
+    - dh-ch10-006
+    - dh-ch10-007
     - hbp-ch26-002
     - hbp-ch26-003
     - hbp-ch26-004
@@ -19988,6 +20091,7 @@ tags:
     - hbp-ch26-006
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   voldemort-denial:
     entries:
     - ootp-ch12-007
@@ -20545,9 +20649,11 @@ tags:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
   wizarding-genealogy:
     entries:
+    - dh-ch10-005
     - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+    - sources/book-07/chapter-10-kreacher-s-tale.yaml
   wizarding-heirlooms:
     entries:
     - hbp-ch10-006

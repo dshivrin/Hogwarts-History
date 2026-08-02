@@ -17029,6 +17029,117 @@ by_entry:
     - wartime-communications
     source_unit: dh-ch09
     output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch10-001:
+    title: 'Headmaster''s Office and Portrait Network: Former headmasters as mobile
+      portrait witnesses'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - grimmauld-place
+    - headmaster-office
+    - hogwarts
+    - institutional-memory
+    - phineas-nigellus-black
+    - portraits
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch10-002:
+    title: 'House Identity, Family Expectation, and Rebellion: Black family House
+      identity and Sirius''s exception'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - black-family
+    - gryffindor
+    - house-identity
+    - magical-photographs
+    - muggle-culture
+    - sirius-black
+    - slytherin
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch10-003:
+    title: 'Named Wizarding Historians and School Texts: Bathilda Bagshot as textbook
+      author and living informant'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - bathilda-bagshot
+    - dumbledore
+    - godrics-hollow
+    - history-of-magic
+    - in-universe-source
+    - magical-historian
+    - sirius-black
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch10-004:
+    title: 'House Identity, Family Expectation, and Rebellion: Regulus Black and Slytherin
+      family conformity'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - black-family
+    - family-crests
+    - house-identity
+    - pure-blood-ideology
+    - quidditch
+    - regulus-black
+    - slytherin
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch10-005:
+    title: 'Genealogies, Family Archives, and Pure-Blood Records: Black family artifacts
+      and published genealogies'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - black-family
+    - family-artifacts
+    - grimmauld-place
+    - kreacher
+    - natures-nobility
+    - slytherin-locket
+    - wizarding-genealogy
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch10-006:
+    title: 'Boundaries, Wards, and Exceptional Magic: House-elf exceptions to anti-Apparition
+      protections'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - apparition
+    - cave-defenses
+    - disapparition
+    - hogwarts
+    - house-elf-magic
+    - magical-transport
+    - voldemort-defenses
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch10-007:
+    title: 'Regulus Black and the Secret Locket: First-war resistance hidden inside
+      a pure-blood household'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - first-wizarding-war
+    - horcrux
+    - inferi
+    - kreacher
+    - regulus-black
+    - slytherin-locket
+    - voldemort-defenses
+    source_unit: dh-ch10
+    output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -17245,6 +17356,7 @@ by_tag:
   apparition:
   - dh-ch01-004
   - dh-ch04-001
+  - dh-ch10-006
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -17455,6 +17567,7 @@ by_tag:
   bathilda-bagshot:
   - dh-ch02-002
   - dh-ch08-006
+  - dh-ch10-003
   - poa-ch01-001
   bathroom:
   - cos-ch15-007
@@ -17520,6 +17633,9 @@ by_tag:
   birth-registration:
   - hbp-ch13-003
   black-family:
+  - dh-ch10-002
+  - dh-ch10-004
+  - dh-ch10-005
   - hbp-ch03-004
   - hbp-ch04-005
   - hbp-ch12-005
@@ -17887,6 +18003,8 @@ by_tag:
   - hbp-ch26-001
   - hbp-ch26-002
   - hbp-ch26-003
+  cave-defenses:
+  - dh-ch10-006
   cedric-diggory:
   - gof-ch06-004
   - gof-ch16-007
@@ -18819,6 +18937,7 @@ by_tag:
   - hbp-ch28-005
   disapparition:
   - dh-ch03-004
+  - dh-ch10-006
   - ootp-ch23-001
   disarming:
   - gof-ch29-004
@@ -19019,6 +19138,7 @@ by_tag:
   - dh-ch07-004
   - dh-ch07-005
   - dh-ch07-007
+  - dh-ch10-003
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -19488,10 +19608,13 @@ by_tag:
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
+  family-artifacts:
+  - dh-ch10-005
   family-care:
   - gof-ch36-002
   - gof-ch37-001
   family-crests:
+  - dh-ch10-004
   - hbp-ch12-005
   - ootp-ch05-002
   - ootp-ch06-001
@@ -19662,6 +19785,7 @@ by_tag:
   - gof-ch20-005
   - gof-ch20-006
   first-wizarding-war:
+  - dh-ch10-007
   - gof-ch09-007
   - gof-ch14-003
   - gof-ch14-004
@@ -20032,6 +20156,7 @@ by_tag:
   - gof-ch30-001
   godrics-hollow:
   - dh-ch08-006
+  - dh-ch10-003
   - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
@@ -20131,6 +20256,8 @@ by_tag:
   - dh-ch06-002
   - dh-ch09-003
   - dh-ch09-006
+  - dh-ch10-001
+  - dh-ch10-005
   - hbp-ch03-004
   - hbp-ch12-005
   - ootp-ch03-002
@@ -20193,6 +20320,7 @@ by_tag:
   - cos-ch15-002
   - cos-ch18-003
   - dh-ch07-006
+  - dh-ch10-002
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -20558,6 +20686,7 @@ by_tag:
   - cos-ch11-007
   - cos-ch12-001
   - cos-ch13-006
+  - dh-ch10-001
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -20766,6 +20895,7 @@ by_tag:
   - hbp-ch23-002
   history-of-magic:
   - cos-ch09-002
+  - dh-ch10-003
   - gof-ch15-002
   - gof-ch22-005
   - gof-ch29-002
@@ -20835,6 +20965,8 @@ by_tag:
   - gof-ch27-002
   - ootp-ch12-001
   hogwarts:
+  - dh-ch10-001
+  - dh-ch10-006
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -21075,6 +21207,7 @@ by_tag:
   horace-slughorn:
   - hbp-ch05-004
   horcrux:
+  - dh-ch10-007
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
@@ -21164,6 +21297,8 @@ by_tag:
   - cos-ch18-007
   - ps-ch15-002
   - ps-ch17-005
+  house-elf-magic:
+  - dh-ch10-006
   house-elf-ownership:
   - hbp-ch03-005
   house-elves:
@@ -21207,6 +21342,8 @@ by_tag:
   - hbp-ch28-004
   house-identity:
   - cos-ch18-004
+  - dh-ch10-002
+  - dh-ch10-004
   house-lore:
   - cos-ch17-004
   house-match:
@@ -21365,6 +21502,7 @@ by_tag:
   - cos-ch13-004
   - dh-ch02-001
   - dh-ch07-007
+  - dh-ch10-003
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -21377,6 +21515,7 @@ by_tag:
   - ootp-ch31-004
   inferi:
   - dh-ch03-003
+  - dh-ch10-007
   - hbp-ch03-003
   - hbp-ch04-002
   - hbp-ch09-003
@@ -21416,6 +21555,7 @@ by_tag:
   - ootp-ch22-006
   institutional-memory:
   - dh-ch07-003
+  - dh-ch10-001
   institutional-secrecy:
   - cos-ch13-005
   intelligence:
@@ -21610,6 +21750,8 @@ by_tag:
   knockturn-alley:
   - hbp-ch06-007
   kreacher:
+  - dh-ch10-005
+  - dh-ch10-007
   - hbp-ch03-005
   - hbp-ch19-007
   - hbp-ch21-003
@@ -22043,6 +22185,8 @@ by_tag:
   - gof-ch16-002
   magical-healing:
   - dh-ch05-005
+  magical-historian:
+  - dh-ch10-003
   magical-historians:
   - dh-ch08-006
   magical-history:
@@ -22104,6 +22248,7 @@ by_tag:
   - ootp-ch32-003
   magical-photographs:
   - cos-ch06-005
+  - dh-ch10-002
   magical-plants:
   - cos-ch06-003
   - gof-ch13-002
@@ -22193,6 +22338,7 @@ by_tag:
   - dh-ch04-001
   - dh-ch04-004
   - dh-ch05-002
+  - dh-ch10-006
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -22710,6 +22856,8 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch06-007
+  muggle-culture:
+  - dh-ch10-002
   muggle-disasters:
   - hbp-ch01-004
   muggle-effects:
@@ -22836,6 +22984,8 @@ by_tag:
   - ps-ch13-001
   narcissa-malfoy:
   - ootp-ch37-004
+  natures-nobility:
+  - dh-ch10-005
   navigation:
   - ootp-ch34-003
   - ootp-ch34-004
@@ -23369,6 +23519,8 @@ by_tag:
   - ootp-ch22-002
   - ootp-ch22-003
   - ootp-ch23-002
+  phineas-nigellus-black:
+  - dh-ch10-001
   phoenix:
   - cos-ch17-005
   - hbp-ch29-002
@@ -23491,6 +23643,7 @@ by_tag:
   - ootp-ch23-002
   portraits:
   - dh-ch01-001
+  - dh-ch10-001
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -23945,6 +24098,7 @@ by_tag:
   - ootp-ch06-003
   pure-blood-ideology:
   - dh-ch01-005
+  - dh-ch10-004
   - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
@@ -23979,6 +24133,7 @@ by_tag:
   - cos-ch07-001
   - cos-ch14-003
   - dh-ch07-005
+  - dh-ch10-004
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -24134,6 +24289,8 @@ by_tag:
   regulation:
   - gof-ch24-003
   regulus-black:
+  - dh-ch10-004
+  - dh-ch10-007
   - hbp-ch04-005
   - ootp-ch06-004
   remedial-potions:
@@ -24852,6 +25009,8 @@ by_tag:
   - cos-ch08-001
   sirius-black:
   - dh-ch04-004
+  - dh-ch10-002
+  - dh-ch10-003
   - gof-ch02-006
   - gof-ch18-001
   - gof-ch19-007
@@ -24942,6 +25101,8 @@ by_tag:
   slytherin:
   - cos-ch07-002
   - cos-ch18-004
+  - dh-ch10-002
+  - dh-ch10-004
   - gof-ch15-004
   - hbp-ch04-005
   - hbp-ch19-003
@@ -24974,6 +25135,8 @@ by_tag:
   slytherin-line:
   - hbp-ch17-006
   slytherin-locket:
+  - dh-ch10-005
+  - dh-ch10-007
   - hbp-ch10-006
   - hbp-ch13-002
   - hbp-ch20-005
@@ -26371,6 +26534,8 @@ by_tag:
   - ps-ch04-005
   - ps-ch05-006
   voldemort-defenses:
+  - dh-ch10-006
+  - dh-ch10-007
   - hbp-ch26-002
   - hbp-ch26-003
   - hbp-ch26-004
@@ -26628,6 +26793,7 @@ by_tag:
   wizarding-folklore:
   - dh-ch07-007
   wizarding-genealogy:
+  - dh-ch10-005
   - ootp-ch06-001
   wizarding-heirlooms:
   - hbp-ch10-006
