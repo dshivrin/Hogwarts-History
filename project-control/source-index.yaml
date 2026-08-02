@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-01'
+updated: '2026-08-02'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2030,3 +2030,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3068-3089.
+- source_unit_id: dh-ch08
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 8
+  chapter_title: Chapter Eight - The Wedding
+  page_start: 3090
+  page_end: 3109
+  output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  processed_at: '2026-08-02'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3090-3109.

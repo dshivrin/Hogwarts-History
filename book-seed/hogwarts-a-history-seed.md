@@ -7312,6 +7312,18 @@ Summary: The available evidence includes 1 source item, led by: The Chocolate Fr
   - Corroborates: `ps-ch13-001`. Chapter Thirteen uses the same Dumbledore Famous Wizard card to identify Nicolas Flamel; this entry records the card's first reading and full Dumbledore biographical value.
   - Notes: The card is a popular collectible rather than a Hogwarts-authored source, and "currently" reflects Harry's era.
 
+#### Section: Grindelwald's Symbol and Durmstrang Memory
+
+Summary: The available evidence includes 1 source item, led by: Krum supplies hostile witness evidence that the triangular sign was associated with Grindelwald at Durmstrang and copied by students seeking shock value.
+
+- **Supporting evidence:** Krum supplies hostile witness evidence that the triangular sign was associated with Grindelwald at Durmstrang and copied by students seeking shock value.
+  - Quote: "That is Grindelvald's sign."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3099, `dh-ch08-002`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Possible corroboration: Possible existing duplicates dh-ch02-005 and gof-ch11-004 cover Dumbledore's defeat of Grindelwald and Durmstrang's Dark Arts reputation; this entry adds Krum's family-witness testimony about the sign carved at Durmstrang and copied by students.
+  - Notes: Krum is certain, but the symbol's wider meaning is not resolved in this chapter and Xenophilius's understanding is unknown here.
+
 #### Section: Hogwarts as a Wartime Safe Place
 
 Summary: The available evidence includes 1 source item, led by: Hagrid frames Hogwarts as a rare safe place during Voldemort's rise and connects Dumbledore's feared reputation to Voldemort's reluctance to attack the school at that time.
@@ -7397,6 +7409,19 @@ Summary: The available evidence includes 1 source item, led by: Augusta Longbott
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The passage gives wartime background and family context rather than a Hogwarts institutional rule or event.
+
+### Chapter: Godric's Hollow and the Dumbledore Family
+
+#### Section: Bathilda Bagshot as Neighbor and Historical Source
+
+Summary: The available evidence includes 1 source item, led by: The passage identifies Bathilda Bagshot as both textbook author and Dumbledore-family neighbor, making her a plausible archival source for Dumbledore and Godric's Hollow history.
+
+- **Supporting evidence:** The passage identifies Bathilda Bagshot as both textbook author and Dumbledore-family neighbor, making her a plausible archival source for Dumbledore and Godric's Hollow history.
+  - Quote: "A most gifted magical historian"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3108, `dh-ch08-006`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: Muriel's claims about what Bathilda told Skeeter are speculative; Doge also questions reliability if Bathilda's memory is failing.
 
 ### Chapter: Tom Riddle Before Hogwarts
 
@@ -9560,6 +9585,19 @@ Summary: The available evidence includes 1 source item, led by: Educational Decr
   - Corroborates: `cos-ch07-002`. cos-ch07-002 records earlier House-team practice booking and staff permission; this entry adds High Inquisitor reapproval, differential Slytherin/Gryffindor treatment, and decree-based control.
   - Notes: The evidence shows immediate implementation in one week, not the full season-long administrative outcome.
 
+### Chapter: Sources for Dumbledore's Life
+
+#### Section: Obituary, Biography, and Public Memory
+
+Summary: The available evidence includes 1 source item, led by: The scene contrasts Doge's admiring obituary with Skeeter's hostile biography and records both as competing public sources about Dumbledore's past.
+
+- **Context:** The scene contrasts Doge's admiring obituary with Skeeter's hostile biography and records both as competing public sources about Dumbledore's past.
+  - Quote: "she's written a biography of Dumbledore"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3103, `dh-ch08-004`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The chapter reports rival claims and reactions; it does not adjudicate Skeeter's allegations.
+
 ### Chapter: Sources on Dumbledore After His Death
 
 #### Section: Obituary, Biography, and Public Dispute
@@ -9774,6 +9812,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Notes: The passage reflects Harry's perspective and does not identify who ordered Ron and Hermione to keep letters vague.
 
 ### Chapter: The Second War and Hogwarts Governance
+
+#### Section: Ministry Fall and Emergency Patronus Warnings
+
+Summary: The available evidence includes 1 source item, led by: Kingsley uses a speaking corporeal Patronus to announce the Ministry's fall, Scrimgeour's death, and the imminent arrival of hostile forces.
+
+- **Context:** Kingsley uses a speaking corporeal Patronus to announce the Ministry's fall, Scrimgeour's death, and the imminent arrival of hostile forces.
+  - Quote: "The Ministry has fallen."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3109, `dh-ch08-007`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The warning gives only the immediate report; this chapter does not yet describe the takeover's administrative consequences for Hogwarts.
 
 #### Section: Ministry pressure after Dumbledore's funeral
 
@@ -10441,6 +10490,20 @@ Summary: The available evidence includes 1 source item, led by: McGonagall says 
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: historical_claim
   - Notes: The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
+
+### Chapter: Wands, Equipment, and Magical Materials
+
+#### Section: Gregorovitch, Ollivander, and International Wandmaking
+
+Summary: The available evidence includes 1 source item, led by: Krum confirms Gregorovitch as a celebrated retired wandmaker and frames a non-British reputation for wand quality alongside British reliance on Ollivander.
+
+- **Context:** Krum confirms Gregorovitch as a celebrated retired wandmaker and frames a non-British reputation for wand quality alongside British reliance on Ollivander.
+  - Quote: "He retired several years ago."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3101, `dh-ch08-003`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Possible corroboration: Possible existing duplicates gof-ch18-007 and dh-ch05-007 cover Krum's Gregorovitch wand and the later wand anomaly; this entry adds Gregorovitch's retirement, Krum's comparative maker judgment, and Harry's explicit link between the anomaly and Voldemort's search.
+  - Notes: Krum's claim that Gregorovitch wands are best is personal opinion; Harry's inference about Voldemort's motive is not independently confirmed in this passage.
 
 ### Chapter: Wartime Movement and Secrecy Outside Hogwarts
 
@@ -12171,6 +12234,19 @@ Summary: The available evidence includes 1 source item, led by: The herd frames 
   - Corroborates: `ootp-ch30-007`, `ootp-ch27-002`, `ps-ch15-006`. ootp-ch30-007 records centaur separate law, ootp-ch27-002 records Firenze's banishment, and ps-ch15-006 establishes centaur residence; this entry adds the post-Umbridge argument over servitude, wizard invasions, and legal nonrecognition.
   - Notes: The claims come during an armed crisis and may emphasize the most hostile position within the herd.
 
+### Chapter: Squibs and Family Status
+
+#### Section: Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
+
+Summary: The available evidence includes 1 source item, led by: Muriel's contested account provides evidence of old social practices around Squibs and of Ariana Dumbledore's unexplained absence from Hogwarts, while Doge challenges the Squib claim.
+
+- **Supporting evidence:** Muriel's contested account provides evidence of old social practices around Squibs and of Ariana Dumbledore's unexplained absence from Hogwarts, while Doge challenges the Squib claim.
+  - Quote: "why she never attended Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3106, `dh-ch08-005`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Muriel's claims are hearsay and explicitly disputed by Doge; the entry should preserve the uncertainty rather than present Ariana as a confirmed Squib.
+
 ### Chapter: Squibs, Muggle Neighbors, and Wizarding Records
 
 #### Section: Squib Witnesses and Ministry Registration Gaps
@@ -12183,6 +12259,19 @@ Summary: The available evidence includes 1 source item, led by: The hearing conf
   - Classification: later_editorial_note | Confidence: high
   - Reference type: cross_reference_candidate
   - Notes: The evidence is limited to hearing testimony and does not provide the full Ministry registry rules for Squibs or details of the Little Whinging monitoring system.
+
+### Chapter: Wizarding Family Customs
+
+#### Section: Marriage Ceremonies and Enchanted Receptions
+
+Summary: The available evidence includes 1 source item, led by: The chapter gives a direct observed example of a wizarding wedding ceremony and reception, including wand-performed bonding magic and rapid magical reconfiguration of the marquee.
+
+- **Supporting evidence:** The chapter gives a direct observed example of a wizarding wedding ceremony and reception, including wand-performed bonding magic and rapid magical reconfiguration of the marquee.
+  - Quote: "I declare you bonded for life."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, PDF p. 3096, `dh-ch08-001`, `sources/book-07/chapter-08-the-wedding.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The evidence is one Weasley-Delacour wedding and should not be treated as a complete legal account of wizarding marriage.
 
 ## Part: Magical Creatures and the School Library
 

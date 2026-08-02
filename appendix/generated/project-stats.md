@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 169
+- Total: 170
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 43
+- Harry Potter and the Deathly Hallows: 50
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -22,22 +22,22 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 463
-- later_editorial_note: 538
+- harry_era_confirmation: 464
+- later_editorial_note: 541
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
-- pre_1984_historical_candidate: 101
+- pre_1984_historical_candidate: 104
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 75
+- cross_reference_candidate: 76
 - curriculum_or_subject: 153
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
-- explicit_in_universe_source: 77
-- historical_claim: 134
+- explicit_in_universe_source: 79
+- historical_claim: 137
 - house_system: 16
-- institutional_custom: 180
+- institutional_custom: 181
 - magical_architecture: 86
 - portrait_or_ghost_lore: 14
 - school_rule_or_policy: 126
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 806
+- Total: 808
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, pages 3068-3089, `sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, pages 3090-3109, `sources/book-07/chapter-08-the-wedding.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, pages 3090-3109, `sources/book-07/chapter-08-the-wedding.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, pages 3110-3122, `sources/book-07/chapter-09-a-place-to-hide.yaml`

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Eight - The Wedding
-- Page range: 3090-3109
+- Chapter: Chapter Nine - A Place to Hide
+- Page range: 3110-3122
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-08-the-wedding.yaml`
+- Output YAML: `sources/book-07/chapter-09-a-place-to-hide.yaml`
 
 ## Minimal Context
 

@@ -693,6 +693,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Spectator Devices and Tactical Literacy
 - Quidditch and School Recreation
   - High Inquisitor control of House teams
+- Sources for Dumbledore's Life
+  - Obituary, Biography, and Public Memory
 - Sources on Dumbledore After His Death
   - Obituary, Biography, and Public Dispute
 - Staff, Subjects, and Ministry Inspection
@@ -720,6 +722,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts Communication
   - Post-Return Letter Secrecy and Press Silence
 - The Second War and Hogwarts Governance
+  - Ministry Fall and Emergency Patronus Warnings
   - Ministry pressure after Dumbledore's funeral
   - Ministry pressure, Harry's public role, and Dumbledore's independence
 - The Second War and Hogwarts Information Climate
@@ -833,6 +836,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wand anomaly and Ollivander interrogation
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wands, Equipment, and Magical Materials
+  - Gregorovitch, Ollivander, and International Wandmaking
 - Wartime Movement and Secrecy Outside Hogwarts
   - Apparition into Muggle spaces and Auror fear
 - Wartime Security Around Hogwarts
@@ -951,8 +956,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Symbolism and Non-Human Beings
 - Centaurs, Law, and Non-Human Autonomy
   - Centaur rejection of human service and wizard law
+- Squibs and Family Status
+  - Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
 - Squibs, Muggle Neighbors, and Wizarding Records
   - Squib Witnesses and Ministry Registration Gaps
+- Wizarding Family Customs
+  - Marriage Ceremonies and Enchanted Receptions
 
 ## Magical Creatures and the School Library
 
@@ -988,6 +997,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Death Eaters, Public Terror, and Postwar Denials
 - Dumbledore and the First Wizarding War
   - Biographical Sources and Public Reputation
+  - Grindelwald's Symbol and Durmstrang Memory
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
   - The 1945 Duel and Later Reputation
@@ -996,6 +1006,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Arrival Under Family Notoriety
 - First Wizarding War and Hogwarts Families
   - The Longbottom Aurors and Bellatrix Lestrange
+- Godric's Hollow and the Dumbledore Family
+  - Bathilda Bagshot as Neighbor and Historical Source
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
 - The First Known Chamber Opening

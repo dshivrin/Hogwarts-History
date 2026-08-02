@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-01'
+updated: '2026-08-02'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -16807,7 +16807,119 @@ by_entry:
     - wizarding-folklore
     source_unit: dh-ch07
     output_yaml: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  dh-ch08-001:
+    title: 'Wizarding Family Customs: Marriage Ceremonies and Enchanted Receptions'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - institutional-custom
+    - magical-architecture
+    - magical-celebrations
+    - reception-customs
+    - veela
+    - wand-magic
+    - wizarding-weddings
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch08-002:
+    title: 'Dumbledore and the First Wizarding War: Grindelwald''s Symbol and Durmstrang
+      Memory'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - albus-dumbledore
+    - dark-arts
+    - durmstrang
+    - grindelwald
+    - international-magical-history
+    - symbols
+    - viktor-krum
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch08-003:
+    title: 'Wands, Equipment, and Magical Materials: Gregorovitch, Ollivander, and
+      International Wandmaking'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - gregorovitch
+    - international-magical-culture
+    - magical-crafts
+    - ollivander
+    - viktor-krum
+    - wand-lore
+    - wandmakers
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch08-004:
+    title: 'Sources for Dumbledore''s Life: Obituary, Biography, and Public Memory'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - biography
+    - daily-prophet
+    - elphias-doge
+    - flourish-and-blotts
+    - rita-skeeter
+    - source-history
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch08-005:
+    title: 'Squibs and Family Status: Historical Stigma, Muggle Schooling, and Hogwarts
+      Nonattendance'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - ariana-dumbledore
+    - family-secrecy
+    - hogwarts-attendance
+    - kendra-dumbledore
+    - muggle-schools
+    - squibs
+    - st-mungos
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch08-006:
+    title: 'Godric''s Hollow and the Dumbledore Family: Bathilda Bagshot as Neighbor
+      and Historical Source'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - a-history-of-magic
+    - albus-dumbledore
+    - bathilda-bagshot
+    - godrics-hollow
+    - magical-historians
+    - percival-dumbledore
+    - source-history
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch08-007:
+    title: 'The Second War and Hogwarts Governance: Ministry Fall and Emergency Patronus
+      Warnings'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - death-eaters
+    - kingsley-shacklebolt
+    - ministry-of-magic
+    - patronus
+    - scrimgeour
+    - second-war
+    - wartime-communications
+    source_unit: dh-ch08
+    output_yaml: sources/book-07/chapter-08-the-wedding.yaml
 by_tag:
+  a-history-of-magic:
+  - dh-ch08-006
   aberforth-dumbledore:
   - dh-ch02-003
   academic-assessment:
@@ -16912,6 +17024,9 @@ by_tag:
   - dh-ch02-003
   - dh-ch02-005
   - dh-ch02-006
+  - dh-ch08-002
+  - dh-ch08-004
+  - dh-ch08-006
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
@@ -17048,6 +17163,8 @@ by_tag:
   archway:
   - ootp-ch34-005
   - ootp-ch35-007
+  ariana-dumbledore:
+  - dh-ch08-005
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -17224,6 +17341,7 @@ by_tag:
   - hbp-ch26-006
   bathilda-bagshot:
   - dh-ch02-002
+  - dh-ch08-006
   - poa-ch01-001
   bathroom:
   - cos-ch15-007
@@ -17282,6 +17400,8 @@ by_tag:
   - hbp-ch18-007
   bill-weasley:
   - hbp-ch29-001
+  biography:
+  - dh-ch08-004
   birth-registration:
   - hbp-ch13-003
   black-family:
@@ -18198,6 +18318,7 @@ by_tag:
   - dh-ch01-006
   - dh-ch02-006
   - dh-ch06-003
+  - dh-ch08-004
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -18241,6 +18362,7 @@ by_tag:
   - cos-ch18-001
   - dh-ch06-006
   - dh-ch06-007
+  - dh-ch08-002
   - gof-ch11-004
   - gof-ch13-007
   - gof-ch19-006
@@ -18307,6 +18429,7 @@ by_tag:
   - dh-ch04-005
   - dh-ch05-004
   - dh-ch05-006
+  - dh-ch08-007
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -18975,6 +19098,7 @@ by_tag:
   - ps-ch10-004
   - ps-ch12-001
   durmstrang:
+  - dh-ch08-002
   - gof-ch11-004
   - gof-ch12-007
   - gof-ch15-005
@@ -19043,6 +19167,7 @@ by_tag:
   elphias-doge:
   - dh-ch02-001
   - dh-ch02-006
+  - dh-ch08-004
   emergency-communications:
   - ootp-ch22-003
   - ootp-ch32-002
@@ -19251,6 +19376,8 @@ by_tag:
   - cos-ch05-005
   - cos-ch06-001
   - gof-ch05-004
+  family-secrecy:
+  - dh-ch08-005
   family-trees:
   - dh-ch01-005
   famous-wizard-card:
@@ -19485,6 +19612,7 @@ by_tag:
   - poa-ch04-002
   flourish-and-blotts:
   - cos-ch04-006
+  - dh-ch08-004
   fluffy:
   - ps-ch11-007
   - ps-ch13-006
@@ -19776,6 +19904,7 @@ by_tag:
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
+  - dh-ch08-006
   - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
@@ -19865,6 +19994,7 @@ by_tag:
   - hbp-ch22-004
   - ootp-ch10-004
   gregorovitch:
+  - dh-ch08-003
   - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
@@ -19892,6 +20022,7 @@ by_tag:
   - ootp-ch37-004
   grindelwald:
   - dh-ch02-005
+  - dh-ch08-002
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -20602,6 +20733,8 @@ by_tag:
   - poa-ch10-006
   hogwarts-archives:
   - dh-ch07-003
+  hogwarts-attendance:
+  - dh-ch08-005
   hogwarts-champions:
   - gof-ch31-004
   hogwarts-danger:
@@ -21144,6 +21277,7 @@ by_tag:
   - ootp-ch30-002
   - ootp-ch32-006
   institutional-custom:
+  - dh-ch08-001
   - ps-ch07-002
   institutional-history:
   - hbp-ch29-006
@@ -21191,6 +21325,10 @@ by_tag:
   - gof-ch16-002
   - gof-ch23-005
   - gof-ch37-005
+  international-magical-culture:
+  - dh-ch08-003
+  international-magical-history:
+  - dh-ch08-002
   international-quidditch:
   - gof-ch08-005
   international-transport:
@@ -21310,6 +21448,8 @@ by_tag:
   - ps-ch04-001
   keeper-protection:
   - poa-ch15-007
+  kendra-dumbledore:
+  - dh-ch08-005
   killing-curse:
   - gof-ch14-004
   - gof-ch32-002
@@ -21325,6 +21465,7 @@ by_tag:
   - ps-ch06-001
   kingsley-shacklebolt:
   - dh-ch03-002
+  - dh-ch08-007
   - hbp-ch01-007
   - ootp-ch07-005
   knarls:
@@ -21634,6 +21775,7 @@ by_tag:
   - cos-ch11-007
   - cos-ch17-001
   - dh-ch01-001
+  - dh-ch08-001
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -21686,6 +21828,8 @@ by_tag:
   magical-careers:
   - ootp-ch03-004
   - ootp-ch29-003
+  magical-celebrations:
+  - dh-ch08-001
   magical-combat:
   - dh-ch04-005
   - dh-ch04-006
@@ -21706,6 +21850,8 @@ by_tag:
   - hbp-ch16-001
   magical-control:
   - hbp-ch13-007
+  magical-crafts:
+  - dh-ch08-003
   magical-creature-law:
   - poa-ch11-003
   magical-creatures:
@@ -21760,6 +21906,8 @@ by_tag:
   - gof-ch16-002
   magical-healing:
   - dh-ch05-005
+  magical-historians:
+  - dh-ch08-006
   magical-history:
   - dh-ch02-005
   magical-hospital:
@@ -22209,6 +22357,7 @@ by_tag:
   - cos-ch14-005
   - dh-ch07-002
   - dh-ch07-006
+  - dh-ch08-007
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -22471,6 +22620,8 @@ by_tag:
   - dh-ch02-001
   muggle-school:
   - ps-ch02-002
+  muggle-schools:
+  - dh-ch08-005
   muggle-secrecy:
   - cos-ch03-001
   - cos-ch03-004
@@ -22703,6 +22854,7 @@ by_tag:
   - ps-ch09-003
   ollivander:
   - dh-ch05-007
+  - dh-ch08-003
   - gof-ch18-006
   - gof-ch18-007
   ollivanders:
@@ -22942,6 +23094,7 @@ by_tag:
   - hbp-ch04-006
   - hbp-ch07-005
   patronus:
+  - dh-ch08-007
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -23001,6 +23154,7 @@ by_tag:
   - hbp-ch13-002
   percival-dumbledore:
   - dh-ch02-001
+  - dh-ch08-006
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -23805,6 +23959,8 @@ by_tag:
   - ps-ch06-005
   ravenclaw-diadem:
   - hbp-ch24-005
+  reception-customs:
+  - dh-ch08-001
   recruiting-ground:
   - hbp-ch20-004
   recruitment:
@@ -23891,6 +24047,7 @@ by_tag:
   - gof-ch09-007
   rita-skeeter:
   - dh-ch02-006
+  - dh-ch08-004
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -24273,6 +24430,7 @@ by_tag:
   - ps-ch11-005
   scrimgeour:
   - dh-ch07-002
+  - dh-ch08-007
   - hbp-ch16-007
   - hbp-ch30-006
   sealed-entrances:
@@ -24309,6 +24467,7 @@ by_tag:
   - dh-ch05-003
   - dh-ch05-006
   - dh-ch06-003
+  - dh-ch08-007
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -24756,6 +24915,9 @@ by_tag:
   - hbp-ch23-005
   source-criticism:
   - dh-ch02-006
+  source-history:
+  - dh-ch08-004
+  - dh-ch08-006
   source-reliability:
   - gof-ch15-003
   spattergroit:
@@ -24813,9 +24975,11 @@ by_tag:
   squib-context:
   - cos-ch08-002
   squibs:
+  - dh-ch08-005
   - ootp-ch02-001
   - ootp-ch08-005
   st-mungos:
+  - dh-ch08-005
   - hbp-ch01-007
   - ootp-ch07-003
   - ootp-ch22-004
@@ -25397,6 +25561,8 @@ by_tag:
   - hbp-ch25-004
   - ootp-ch37-006
   - ootp-ch38-003
+  symbols:
+  - dh-ch08-002
   tales-of-beedle-the-bard:
   - dh-ch07-007
   tallest-tower:
@@ -25944,6 +26110,7 @@ by_tag:
   vanishing-step:
   - hbp-ch28-003
   veela:
+  - dh-ch08-001
   - gof-ch08-006
   veela-hair:
   - gof-ch18-007
@@ -25957,6 +26124,8 @@ by_tag:
   - ootp-ch03-001
   - ootp-ch32-007
   viktor-krum:
+  - dh-ch08-002
+  - dh-ch08-003
   - gof-ch16-007
   - gof-ch35-004
   violet-ribbon-invitations:
@@ -26078,8 +26247,10 @@ by_tag:
   - ootp-ch31-007
   wand-lore:
   - dh-ch05-007
+  - dh-ch08-003
   wand-magic:
   - dh-ch04-006
+  - dh-ch08-001
   - gof-ch09-006
   - hbp-ch02-006
   wand-registration:
@@ -26100,6 +26271,8 @@ by_tag:
   - gof-ch18-006
   wandlore:
   - gof-ch34-003
+  wandmakers:
+  - dh-ch08-003
   wands:
   - cos-ch04-002
   - cos-ch06-004
@@ -26112,6 +26285,8 @@ by_tag:
   - dh-ch01-001
   warlocks-convention-1709:
   - ps-ch14-002
+  wartime-communications:
+  - dh-ch08-007
   wartime-defense:
   - ootp-ch38-001
   wartime-publicity:
@@ -26329,6 +26504,8 @@ by_tag:
   - gof-ch01-002
   wizarding-war:
   - ps-ch01-002
+  wizarding-weddings:
+  - dh-ch08-001
   wizarding-world:
   - cos-ch01-003
   wizengamot:
