@@ -16917,6 +16917,118 @@ by_entry:
     - wartime-communications
     source_unit: dh-ch08
     output_yaml: sources/book-07/chapter-08-the-wedding.yaml
+  dh-ch09-001:
+    title: 'The War Beyond the Gates: Burrow protections broken after the Ministry
+      falls'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - burrow
+    - death-eaters
+    - order-of-the-phoenix
+    - protective-enchantments
+    - protego
+    - second-war
+    - wedding-attack
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch09-002:
+    title: 'Concealment, Storage, and Field Equipment: Hermione''s extended beaded
+      bag'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - beaded-bag
+    - emergency-preparedness
+    - horcrux-hunt
+    - invisibility-cloak
+    - magical-objects
+    - student-research
+    - undetectable-extension-charm
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch09-003:
+    title: 'The War Beyond the Gates: Muggle refuges and Death Eater reach'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - death-eaters
+    - dolohov
+    - grimmauld-place
+    - leaky-cauldron
+    - muggle-visibility
+    - muggle-world
+    - operational-security
+    - thorfinn-rowle
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch09-004:
+    title: 'Concealment After Magical Exposure: Memory Charms and scene restoration'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - death-eaters
+    - magical-cleanup
+    - memory-charm
+    - muggle-secrecy
+    - muggle-witness
+    - obliviate
+    - operational-security
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch09-005:
+    title: 'Student Protection and Exceptional Safeguards: Trace law after Harry comes
+      of age'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - coming-of-age
+    - death-eaters
+    - operational-security
+    - trace
+    - tracking
+    - underage-magic
+    - wizarding-law
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch09-006:
+    title: 'Information Security and Secret-Keeping: Grimmauld Place defenses after
+      Dumbledore''s death'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - fidelius
+    - grimmauld-place
+    - homenum-revelio
+    - mad-eye-moody
+    - portrait-lore
+    - secret-keeper
+    - snape
+    - tongue-tying-curse
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
+  dh-ch09-007:
+    title: 'The War Beyond the Gates: Watched Patronus communications after the wedding
+      attack'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - arthur-weasley
+    - communication-security
+    - order-of-the-phoenix
+    - patronus
+    - second-war
+    - surveillance
+    - wartime-communications
+    source_unit: dh-ch09
+    output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -17183,6 +17295,7 @@ by_tag:
   - ps-ch06-006
   arthur-weasley:
   - dh-ch04-004
+  - dh-ch09-007
   - hbp-ch16-001
   - ootp-ch07-006
   - ootp-ch21-007
@@ -17354,6 +17467,8 @@ by_tag:
   - hbp-ch24-003
   battle-damage:
   - ootp-ch35-005
+  beaded-bag:
+  - dh-ch09-002
   beaters:
   - ootp-ch21-005
   beauxbatons:
@@ -17588,6 +17703,7 @@ by_tag:
   - dh-ch06-001
   - dh-ch06-002
   - dh-ch07-001
+  - dh-ch09-001
   - hbp-ch05-003
   burrow-security:
   - hbp-ch16-002
@@ -18005,6 +18121,7 @@ by_tag:
   coming-of-age:
   - dh-ch06-001
   - dh-ch07-001
+  - dh-ch09-005
   - hbp-ch03-007
   commentators:
   - hbp-ch08-004
@@ -18041,6 +18158,7 @@ by_tag:
   common-room-security:
   - poa-ch13-007
   communication-security:
+  - dh-ch09-007
   - hbp-ch02-004
   - ootp-ch17-003
   - ootp-ch18-001
@@ -18430,6 +18548,10 @@ by_tag:
   - dh-ch05-004
   - dh-ch05-006
   - dh-ch08-007
+  - dh-ch09-001
+  - dh-ch09-003
+  - dh-ch09-004
+  - dh-ch09-005
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -18782,6 +18904,8 @@ by_tag:
   dobby-warning:
   - cos-ch02-002
   - cos-ch03-002
+  dolohov:
+  - dh-ch09-003
   dolores-umbridge:
   - hbp-ch04-004
   - hbp-ch05-004
@@ -19181,6 +19305,8 @@ by_tag:
   - poa-ch09-002
   emergency-magic:
   - ootp-ch07-001
+  emergency-preparedness:
+  - dh-ch09-002
   emergency-protocol:
   - cos-ch16-005
   emergency-response:
@@ -19425,6 +19551,7 @@ by_tag:
   - hbp-ch27-007
   fidelius:
   - dh-ch06-002
+  - dh-ch09-006
   - hbp-ch02-004
   field-booking:
   - cos-ch07-002
@@ -20002,6 +20129,8 @@ by_tag:
   - hbp-ch29-001
   grimmauld-place:
   - dh-ch06-002
+  - dh-ch09-003
+  - dh-ch09-006
   - hbp-ch03-004
   - hbp-ch12-005
   - ootp-ch03-002
@@ -20918,6 +21047,8 @@ by_tag:
   - hbp-ch14-002
   home-life-and-social-habits:
   - poa-ch13-005
+  homenum-revelio:
+  - dh-ch09-006
   homework:
   - cos-ch08-003
   - cos-ch13-001
@@ -20951,6 +21082,7 @@ by_tag:
   - dh-ch06-001
   - dh-ch06-004
   - dh-ch06-005
+  - dh-ch09-002
   horcrux-mission:
   - hbp-ch30-007
   horcruxes:
@@ -21353,6 +21485,7 @@ by_tag:
   - gof-ch29-003
   - ootp-ch11-001
   invisibility-cloak:
+  - dh-ch09-002
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -21508,6 +21641,7 @@ by_tag:
   law-fifteen-b:
   - ootp-ch33-003
   leaky-cauldron:
+  - dh-ch09-003
   - hbp-ch06-003
   - hbp-ch13-006
   - poa-ch03-003
@@ -21710,6 +21844,7 @@ by_tag:
   - poa-ch16-002
   mad-eye-moody:
   - dh-ch05-006
+  - dh-ch09-006
   - gof-ch11-001
   - gof-ch12-006
   - gof-ch13-005
@@ -21830,6 +21965,8 @@ by_tag:
   - ootp-ch29-003
   magical-celebrations:
   - dh-ch08-001
+  magical-cleanup:
+  - dh-ch09-004
   magical-combat:
   - dh-ch04-005
   - dh-ch04-006
@@ -21961,6 +22098,7 @@ by_tag:
   magical-object:
   - gof-ch17-005
   magical-objects:
+  - dh-ch09-002
   - gof-ch04-002
   - ootp-ch29-005
   - ootp-ch32-003
@@ -22223,6 +22361,8 @@ by_tag:
   - hbp-ch30-005
   memory:
   - ps-ch02-005
+  memory-charm:
+  - dh-ch09-004
   memory-charms:
   - cos-ch03-004
   - gof-ch01-003
@@ -22626,6 +22766,7 @@ by_tag:
   - cos-ch03-001
   - cos-ch03-004
   - cos-ch05-001
+  - dh-ch09-004
   - gof-ch01-002
   - gof-ch02-003
   - gof-ch03-002
@@ -22662,12 +22803,16 @@ by_tag:
   - gof-ch28-003
   muggle-visibility:
   - dh-ch04-005
+  - dh-ch09-003
   muggle-witness:
+  - dh-ch09-004
   - ootp-ch01-005
   - ootp-ch02-005
   - ootp-ch08-007
   muggle-witnesses:
   - ps-ch02-004
+  muggle-world:
+  - dh-ch09-003
   mundungus-fletcher:
   - dh-ch05-006
   - hbp-ch12-005
@@ -22802,6 +22947,8 @@ by_tag:
   obedience:
   - hbp-ch03-005
   - hbp-ch19-007
+  obliviate:
+  - dh-ch09-004
   obliviator:
   - gof-ch07-004
   obliviators:
@@ -22878,6 +23025,9 @@ by_tag:
   - dh-ch03-004
   - dh-ch04-003
   - dh-ch05-006
+  - dh-ch09-003
+  - dh-ch09-004
+  - dh-ch09-005
   - ootp-ch10-001
   oppugno:
   - hbp-ch14-007
@@ -22917,6 +23067,8 @@ by_tag:
   - dh-ch05-003
   - dh-ch05-006
   - dh-ch06-002
+  - dh-ch09-001
+  - dh-ch09-007
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -23095,6 +23247,7 @@ by_tag:
   - hbp-ch07-005
   patronus:
   - dh-ch08-007
+  - dh-ch09-007
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -23327,6 +23480,8 @@ by_tag:
   - gof-ch22-007
   - hbp-ch19-004
   - poa-ch08-004
+  portrait-lore:
+  - dh-ch09-006
   portrait-mobility:
   - poa-ch09-003
   portrait-network:
@@ -23719,6 +23874,7 @@ by_tag:
   protective-enchantments:
   - dh-ch01-003
   - dh-ch04-002
+  - dh-ch09-001
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -23743,6 +23899,7 @@ by_tag:
   protective-objects:
   - hbp-ch05-002
   protego:
+  - dh-ch09-001
   - ootp-ch36-003
   proto-death-eaters:
   - hbp-ch23-003
@@ -24468,6 +24625,8 @@ by_tag:
   - dh-ch05-006
   - dh-ch06-003
   - dh-ch08-007
+  - dh-ch09-001
+  - dh-ch09-007
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -24527,6 +24686,7 @@ by_tag:
   - ootp-ch04-001
   secret-keeper:
   - dh-ch06-002
+  - dh-ch09-006
   - hbp-ch02-004
   - ootp-ch06-007
   - ootp-ch37-004
@@ -24832,6 +24992,7 @@ by_tag:
   snape:
   - cos-ch11-002
   - dh-ch06-002
+  - dh-ch09-006
   - gof-ch18-004
   - gof-ch25-006
   - gof-ch27-005
@@ -25366,6 +25527,7 @@ by_tag:
   - ootp-ch16-005
   student-research:
   - dh-ch06-004
+  - dh-ch09-002
   - gof-ch20-001
   - gof-ch26-002
   - hbp-ch30-002
@@ -25545,6 +25707,7 @@ by_tag:
   suppressed-contact:
   - poa-ch02-002
   surveillance:
+  - dh-ch09-007
   - gof-ch37-006
   survivor-care:
   - gof-ch36-003
@@ -25729,6 +25892,8 @@ by_tag:
   - gof-ch19-001
   - hbp-ch22-004
   - poa-ch02-001
+  thorfinn-rowle:
+  - dh-ch09-003
   thoughts:
   - gof-ch30-002
   - ootp-ch35-006
@@ -25786,6 +25951,8 @@ by_tag:
   - hbp-ch10-007
   ton-tongue-toffee:
   - gof-ch06-003
+  tongue-tying-curse:
+  - dh-ch09-006
   tonks:
   - hbp-ch21-007
   tonks-family:
@@ -25833,7 +26000,10 @@ by_tag:
   - dh-ch04-001
   - dh-ch06-001
   - dh-ch07-001
+  - dh-ch09-005
   - hbp-ch17-007
+  tracking:
+  - dh-ch09-005
   train-ticket:
   - hbp-ch13-006
   transfiguration:
@@ -26015,6 +26185,7 @@ by_tag:
   - dh-ch06-001
   - dh-ch06-003
   - dh-ch07-001
+  - dh-ch09-005
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
@@ -26040,6 +26211,8 @@ by_tag:
   - gof-ch26-002
   underwater-terrain:
   - gof-ch26-006
+  undetectable-extension-charm:
+  - dh-ch09-002
   unexplained-deaths:
   - gof-ch01-001
   unfogging-the-future:
@@ -26287,6 +26460,7 @@ by_tag:
   - ps-ch14-002
   wartime-communications:
   - dh-ch08-007
+  - dh-ch09-007
   wartime-defense:
   - ootp-ch38-001
   wartime-publicity:
@@ -26342,6 +26516,8 @@ by_tag:
   - hbp-ch18-006
   weather:
   - gof-ch27-002
+  wedding-attack:
+  - dh-ch09-001
   welcoming-feast:
   - gof-ch15-005
   - gof-ch16-001
@@ -26468,6 +26644,7 @@ by_tag:
   wizarding-institutions:
   - ootp-ch22-002
   wizarding-law:
+  - dh-ch09-005
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch30-003

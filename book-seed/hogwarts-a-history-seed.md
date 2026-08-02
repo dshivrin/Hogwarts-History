@@ -5896,6 +5896,18 @@ Summary: The available evidence includes 1 source item, led by: After Dumbledore
   - Corroborates: `hbp-ch02-004`, `ootp-ch06-007`. ootp-ch06-007 names Dumbledore as Secret-Keeper for Grimmauld Place, and hbp-ch02-004 records Snape's earlier inability to reveal it; this entry adds the post-Dumbledore multiplication of Secret-Keepers and resulting headquarters abandonment.
   - Notes: Mr. Weasley gives the operational explanation, but the exact legal or charm-theory rule for successor Secret-Keepers is not formalized.
 
+#### Section: Grimmauld Place defenses after Dumbledore's death
+
+Summary: The available evidence includes 1 source item, led by: Grimmauld Place is visible because Dumbledore had told them the secret; wand entry, gas lamps, Mrs. Black's portrait, Moody's Tongue-Tying Curse and Dumbledore-like dust figure, and Homenum revelio show layered headquarters protections.
+
+- **Corroboration:** Grimmauld Place is visible because Dumbledore had told them the secret; wand entry, gas lamps, Mrs. Black's portrait, Moody's Tongue-Tying Curse and Dumbledore-like dust figure, and Homenum revelio show layered headquarters protections.
+  - Quote: "Tongue-Tying Curse Mad-Eye set up for Snape"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3118, `dh-ch09-006`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch06-002`, `ootp-ch06-007`. dh-ch06-002 explains Fidelius dilution and Moody's intended anti-Snape curses, while ootp-ch06-007 records Dumbledore as Secret-Keeper; this entry adds the trio's later access and the observed activation of the Tongue-Tying Curse, dust figure, and human-presence check.
+  - Notes: The chapter does not state whether Snape has already entered, nor whether the defenses would stop him.
+
 #### Section: Secret-Keeper limits on disclosure
 
 Summary: The available evidence includes 1 source item, led by: Snape says the Fidelius-style protection around Order headquarters prevents him from speaking the place's name because he is not the Secret-Keeper, though he can pass other operational information.
@@ -9683,6 +9695,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `cos-ch02-005`. Book 2 Chapter Two gives the official underage-magic and secrecy-law warning; this entry adds a later Muggle-household incident involving a student-made Engorgement Charm product.
   - Notes: The chapter does not state when or where the charm was performed, nor whether any Ministry or Hogwarts discipline followed.
 
+### Chapter: Student Protection and Exceptional Safeguards
+
+#### Section: Trace law after Harry comes of age
+
+Summary: The available evidence includes 1 source item, led by: Ron states that Wizarding law breaks the Trace at seventeen and bars placing it on an adult, while Hermione raises the wartime fear that Death Eaters might have found a way around that rule.
+
+- **Corroboration:** Ron states that Wizarding law breaks the Trace at seventeen and bars placing it on an adult, while Hermione raises the wartime fear that Death Eaters might have found a way around that rule.
+  - Quote: "The Trace breaks at seventeen"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3117, `dh-ch09-005`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `dh-ch06-001`, `dh-ch07-001`. dh-ch06-001 and dh-ch07-001 already record the Trace breaking at seventeen; this entry adds Ron's explicit Wizarding-law formulation and Hermione's fear that hostile control might bypass it.
+  - Notes: The speculation about Death Eater alteration is not confirmed in this chapter.
+
 ### Chapter: Student Resistance and Practical Defense
 
 #### Section: D.A. Patronus instruction in the Room of Requirement
@@ -10340,6 +10366,18 @@ Summary: The available evidence includes 1 source item, led by: The ambush shows
   - Reference type: historical_claim
   - Notes: Harry's viewpoint cannot identify every combatant or confirm what Muggle witnesses saw.
 
+#### Section: Burrow protections broken after the Ministry falls
+
+Summary: The available evidence includes 1 source item, led by: The Ministry takeover is followed immediately by the collapse of the Burrow's wedding protections, Death Eaters appearing among guests, and Order members casting Protego while the trio escapes.
+
+- **Corroboration:** The Ministry takeover is followed immediately by the collapse of the Burrow's wedding protections, Death Eaters appearing among guests, and Order members casting Protego while the trio escapes.
+  - Quote: "the protective enchantments around the Burrow had broken"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3110, `dh-ch09-001`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch08-007`, `dh-ch04-002`. dh-ch08-007 records Kingsley's warning that the Ministry has fallen and Death Eaters are coming, while dh-ch04-002 records protected safe-house planning around the Burrow; this entry adds the immediate failure of the Burrow's wedding protections and defensive response.
+  - Notes: The chapter does not identify which specific enchantments break or who breaks them.
+
 #### Section: Coming of age and the end of the Trace
 
 Summary: The available evidence includes 1 source item, led by: Harry's seventeenth birthday immediately ends the practical Trace constraint on his own spellcasting, and Mrs. Weasley identifies a watch as the traditional gift when a wizard comes of age.
@@ -10409,6 +10447,17 @@ Summary: The available evidence includes 1 source item, led by: Bill reports tha
   - Reference type: historical_claim
   - Notes: The body-recovery outcome is not shown within this chapter.
 
+#### Section: Muggle refuges and Death Eater reach
+
+Summary: The available evidence includes 1 source item, led by: Hermione treats Muggle London as an unexpected refuge, yet Death Eaters still locate the trio in a cafe, causing wand combat and a Muggle witness casualty.
+
+- **Context:** Hermione treats Muggle London as an unexpected refuge, yet Death Eaters still locate the trio in a cafe, causing wand combat and a Muggle witness casualty.
+  - Quote: "safer out in the Muggle world"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3113, `dh-ch09-003`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: This chapter does not yet explain how the Death Eaters found the trio.
+
 #### Section: Muggle-Visible Violence and Dark Creatures
 
 Summary: The available evidence includes 1 source item, led by: Harry describes wartime Muggle-visible disasters as Voldemort-driven attacks and identifies dementor-created fogs, Death Eaters, and possible Inferi as threats to exposed Muggles.
@@ -10477,6 +10526,17 @@ Summary: The available evidence includes 1 source item, led by: Harry reports th
   - Reference type: cross_reference_candidate
   - Corroborates: `dh-ch04-006`. dh-ch04-006 records the in-flight wand anomaly and Voldemort's demand for Selwyn's wand; this entry adds Harry's later report, the Lucius-wand failure, Ollivander's explanation, and Hermione's warning about the scar connection.
   - Notes: The scene still leaves the exact wand mechanism unresolved and includes information perceived through Harry's scar connection.
+
+#### Section: Watched Patronus communications after the wedding attack
+
+Summary: The available evidence includes 1 source item, led by: Arthur's speaking Patronus confirms the family's survival but warns the trio not to answer because the senders are being watched.
+
+- **Context:** Arthur's speaking Patronus confirms the family's survival but warns the trio not to answer because the senders are being watched.
+  - Quote: "Family safe, do not reply"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3121, `dh-ch09-007`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The message is terse and does not identify who is watching the Weasleys or how the Patronus route avoids interception.
 
 ### Chapter: The Wizarding War and Hogwarts Memory
 
@@ -12178,6 +12238,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
 
 ## Part: Magical Artefacts and Instruments
 
+### Chapter: Concealment, Storage, and Field Equipment
+
+#### Section: Hermione's extended beaded bag
+
+Summary: The available evidence includes 1 source item, led by: Hermione's beaded bag holds emergency clothing, the Invisibility Cloak, Harry's rucksack, and books by means of an Undetectable Extension Charm prepared before the attack.
+
+- **Context:** Hermione's beaded bag holds emergency clothing, the Invisibility Cloak, Harry's rucksack, and books by means of an Undetectable Extension Charm prepared before the attack.
+  - Quote: "Undetectable Extension Charm"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3111, `dh-ch09-002`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: Hermione says the charm is tricky but does not give its formal legal status, casting method, or storage limits.
+
 ### Chapter: Headmasters' Magical Instruments
 
 #### Section: Dumbledore's Deluminator
@@ -12287,6 +12360,21 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
+
+## Part: Magical Law and Secrecy
+
+### Chapter: Concealment After Magical Exposure
+
+#### Section: Memory Charms and scene restoration
+
+Summary: The available evidence includes 1 source item, led by: The trio use Memory Charms, restore the damaged cafe, and reverse binding/stunning effects to hide both their presence and visible magical violence from Muggle and Death Eater witnesses.
+
+- **Context:** The trio use Memory Charms, restore the damaged cafe, and reverse binding/stunning effects to hide both their presence and visible magical violence from Muggle and Death Eater witnesses.
+  - Quote: "We just need to wipe their memories"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, PDF p. 3116, `dh-ch09-004`, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The chapter shows Hermione knowing the theory, but it does not identify where she learned it or whether the Memory Charms are fully successful long term.
 
 ## Part: Magical Residents and Creatures
 

@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 170
+- Total: 171
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 50
+- Harry Potter and the Deathly Hallows: 57
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,14 +23,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 464
-- later_editorial_note: 541
+- later_editorial_note: 548
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 104
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 76
+- cross_reference_candidate: 77
 - curriculum_or_subject: 153
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
@@ -40,8 +40,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - institutional_custom: 181
 - magical_architecture: 86
 - portrait_or_ghost_lore: 14
-- school_rule_or_policy: 126
-- security_or_protection: 186
+- school_rule_or_policy: 127
+- security_or_protection: 191
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 808
+- Total: 811
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, pages 3090-3109, `sources/book-07/chapter-08-the-wedding.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, pages 3110-3122, `sources/book-07/chapter-09-a-place-to-hide.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, pages 3110-3122, `sources/book-07/chapter-09-a-place-to-hide.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher’s Tale, pages 3123-3143, `sources/book-07/chapter-10-kreacher-s-tale.yaml`

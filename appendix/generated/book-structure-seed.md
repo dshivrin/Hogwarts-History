@@ -704,6 +704,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
+- Student Protection and Exceptional Safeguards
+  - Trace law after Harry comes of age
 - Student Resistance and Practical Defense
   - D.A. Patronus instruction in the Room of Requirement
   - Widespread anti-Umbridge sabotage after the Weasley exit
@@ -822,18 +824,21 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Rita Skeeter's Unregistered Animagus Surveillance
 - The War Beyond the Gates
   - Ambush Over Muggle Britain
+  - Burrow protections broken after the Ministry falls
   - Coming of age and the end of the Trace
   - Expelliarmus as Harry's wartime signature
   - Family protection cover plans for nonreturning students
   - Hidden prisoner breakouts and Dark Magic wounds
   - Ministry Reliability and Civilian Protection
   - Moody's death and Seven Potters debrief
+  - Muggle refuges and Death Eater reach
   - Muggle-Visible Violence and Dark Creatures
   - Polyjuice Decoys and Escort Risk
   - Suppressed public records and missing Hogwarts staff
   - The Trace and the trio's nonreturn to Hogwarts
   - Voldemort's Pursuit and Wand Anomaly
   - Wand anomaly and Ollivander interrogation
+  - Watched Patronus communications after the wedding attack
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wands, Equipment, and Magical Materials
@@ -945,6 +950,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Magical Artefacts and Instruments
 
+- Concealment, Storage, and Field Equipment
+  - Hermione's extended beaded bag
 - Headmasters' Magical Instruments
   - Dumbledore's Deluminator
 
@@ -967,6 +974,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Dangerous Creatures in Study and Tournament Use
   - Dragon Lore in Hogwarts Library Sources
+
+## Magical Law and Secrecy
+
+- Concealment After Magical Exposure
+  - Memory Charms and scene restoration
 
 ## Magical Residents and Creatures
 
@@ -1183,6 +1195,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Student Exclusion from Order Intelligence
 - Information Security and Secret-Keeping
   - Fidelius dilution after a Secret-Keeper's death
+  - Grimmauld Place defenses after Dumbledore's death
   - Secret-Keeper limits on disclosure
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House

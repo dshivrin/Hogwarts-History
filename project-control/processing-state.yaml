@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 8
-  chapter_title: Chapter Eight - The Wedding
-  page_start: 3090
-  page_end: 3109
-  output_yaml: sources/book-07/chapter-08-the-wedding.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 9
   chapter_title: Chapter Nine - A Place to Hide
   page_start: 3110
   page_end: 3122
   output_yaml: sources/book-07/chapter-09-a-place-to-hide.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3123
   page_end: 3143
   output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 11
+  chapter_title: Chapter Eleven - The Bribe
+  page_start: 3144
+  page_end: 3162
+  output_yaml: sources/book-07/chapter-11-the-bribe.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

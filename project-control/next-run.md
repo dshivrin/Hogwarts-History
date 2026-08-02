@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Nine - A Place to Hide
-- Page range: 3110-3122
+- Chapter: Chapter Ten - Kreacher’s Tale
+- Page range: 3123-3143
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-09-a-place-to-hide.yaml`
+- Output YAML: `sources/book-07/chapter-10-kreacher-s-tale.yaml`
 
 ## Minimal Context
 

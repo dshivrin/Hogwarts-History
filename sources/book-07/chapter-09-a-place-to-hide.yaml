@@ -1,0 +1,334 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Nine - A Place to Hide
+  chapter_start_pdf_page: 3110
+  chapter_end_pdf_page: 3122
+  boundary_confidence: high
+  boundary_notes: "Chapter Nine page range was taken from project-control/processing-state.yaml after completed Chapter Eight. Only PDF pages 3110-3122 were extracted and searched."
+  processed_date: '2026-08-02'
+  processor_notes: "Processed only Book 7, Chapter Nine. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-09-pages. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch09-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3110
+    printed_page: null
+    extracted_text_lines: "6-24; 28-31"
+    text_anchor:
+      start_phrase: "Everything seemed fuzzy, slow."
+      end_phrase: "away, perhaps, from Voldemort himself"
+      local_occurrence_note: "Kingsley's warning is followed by panic, the breaking of the Burrow's protections, defensive Protego spells, and the trio's emergency Disapparition."
+    nearby_context: "The attack begins immediately after the silver-cat Patronus warning at Bill and Fleur's wedding."
+    match_terms:
+      - Burrow
+      - protective enchantments
+      - Death Eaters
+      - Protego
+      - Disapparating
+      - wedding attack
+    quote_excerpt_short: "the protective enchantments around the Burrow had broken"
+    source_note: "The Ministry takeover is followed immediately by the collapse of the Burrow's wedding protections, Death Eaters appearing among guests, and Order members casting Protego while the trio escapes."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - burrow
+      - protective-enchantments
+      - death-eaters
+      - protego
+      - order-of-the-phoenix
+      - second-war
+      - wedding-attack
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Burrow protections broken after the Ministry falls"
+    reason_for_placement: "The scene gives operational evidence that a previously safe Weasley family gathering becomes exposed as soon as the Ministry falls."
+    relevance_to_hogwarts_a_history: "A later edition can connect off-campus protection of Hogwarts students and families to the wider administrative collapse before the occupied school year."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-007
+        - dh-ch04-002
+      notes: "dh-ch08-007 records Kingsley's warning that the Ministry has fallen and Death Eaters are coming, while dh-ch04-002 records protected safe-house planning around the Burrow; this entry adds the immediate failure of the Burrow's wedding protections and defensive response."
+    confidence: high
+    limitations: "The chapter does not identify which specific enchantments break or who breaks them."
+
+  - id: dh-ch09-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3111
+    printed_page: null
+    extracted_text_lines: "43-57; 60-69"
+    text_anchor:
+      start_phrase: "Why didn't I make sure I had the Invisibility Cloak"
+      end_phrase: "I just had a feeling"
+      local_occurrence_note: "Hermione reveals that the Cloak, clothes, Harry's rucksack, and many books are inside her small beaded handbag."
+    nearby_context: "The trio have fled into Muggle London wearing wedding clothes and need immediate concealment and supplies."
+    match_terms:
+      - Invisibility Cloak
+      - beaded handbag
+      - Undetectable Extension Charm
+      - books
+      - essentials
+      - quick getaway
+    quote_excerpt_short: "Undetectable Extension Charm"
+    source_note: "Hermione's beaded bag holds emergency clothing, the Invisibility Cloak, Harry's rucksack, and books by means of an Undetectable Extension Charm prepared before the attack."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - undetectable-extension-charm
+      - beaded-bag
+      - invisibility-cloak
+      - student-research
+      - magical-objects
+      - emergency-preparedness
+      - horcrux-hunt
+    candidate_part: Magical Artefacts and Instruments
+    candidate_chapter: "Concealment, Storage, and Field Equipment"
+    candidate_section: "Hermione's extended beaded bag"
+    reason_for_placement: "The passage documents a portable magical storage practice used to preserve books, clothing, and concealment tools during wartime flight."
+    relevance_to_hogwarts_a_history: "A later edition can use this as evidence for how Hogwarts-trained students adapted school research habits and rare household magic to survival outside the school."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries found prior Invisibility Cloak entries but no existing entry for Hermione's Undetectable Extension Charm, beaded bag, or packed mobile research kit."
+    confidence: high
+    limitations: "Hermione says the charm is tricky but does not give its formal legal status, casting method, or storage limits."
+
+  - id: dh-ch09-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3113
+    printed_page: null
+    extracted_text_lines: "92-118; 124-155"
+    text_anchor:
+      start_phrase: "I'm sure we're safer out in the Muggle world"
+      end_phrase: "the waitress, who collapsed in front of the door"
+      local_occurrence_note: "Hermione explains the Muggle-world refuge logic before Dolohov and Rowle attack the trio in a Muggle cafe."
+    nearby_context: "The trio reject the Leaky Cauldron, Grimmauld Place, and Hermione's parents' house as compromised or risky hiding places."
+    match_terms:
+      - Muggle world
+      - Leaky Cauldron
+      - Grimmauld Place
+      - Death Eaters
+      - Dolohov
+      - Rowle
+    quote_excerpt_short: "safer out in the Muggle world"
+    source_note: "Hermione treats Muggle London as an unexpected refuge, yet Death Eaters still locate the trio in a cafe, causing wand combat and a Muggle witness casualty."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - muggle-world
+      - muggle-visibility
+      - death-eaters
+      - dolohov
+      - thorfinn-rowle
+      - leaky-cauldron
+      - grimmauld-place
+      - operational-security
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Muggle refuges and Death Eater reach"
+    reason_for_placement: "The passage tests wartime assumptions about hiding in nonmagical spaces after official wizarding sites become unsafe."
+    relevance_to_hogwarts_a_history: "A later edition can frame how Hogwarts-associated fugitives weighed Muggle concealment against magical tracking and public secrecy risks."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries surfaced broad Muggle-visible danger and Death Eater combat entries, but none records the Tottenham Court Road refuge choice or the cafe interception."
+    confidence: high
+    limitations: "This chapter does not yet explain how the Death Eaters found the trio."
+
+  - id: dh-ch09-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3116
+    printed_page: null
+    extracted_text_lines: "195-208; 217-223; 250-254"
+    text_anchor:
+      start_phrase: "We just need to wipe their memories"
+      end_phrase: "vanished into the compressing darkness once more"
+      local_occurrence_note: "After stunning the attackers, the trio choose Memory Charms and physical cleanup before leaving."
+    nearby_context: "Harry rejects killing the Death Eaters because bodies would reveal the trio's presence, while Hermione handles Obliviate on the attackers and waitress."
+    match_terms:
+      - wipe their memories
+      - Memory Charm
+      - Obliviate
+      - waitress
+      - cafe restored
+      - reverse spells
+    quote_excerpt_short: "We just need to wipe their memories"
+    source_note: "The trio use Memory Charms, restore the damaged cafe, and reverse binding/stunning effects to hide both their presence and visible magical violence from Muggle and Death Eater witnesses."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - memory-charm
+      - obliviate
+      - muggle-secrecy
+      - muggle-witness
+      - operational-security
+      - death-eaters
+      - magical-cleanup
+    candidate_part: Magical Law and Secrecy
+    candidate_chapter: "Concealment After Magical Exposure"
+    candidate_section: "Memory Charms and scene restoration"
+    reason_for_placement: "The episode shows practical secrecy cleanup by fugitives without Ministry support."
+    relevance_to_hogwarts_a_history: "A later edition can contrast school-taught magical theory with emergency use of Memory Charms and repair magic by former students under wartime conditions."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries found Muggle-witness Patronus entries but no prior entry for Obliviate-based cleanup after an off-campus Death Eater fight."
+    confidence: high
+    limitations: "The chapter shows Hermione knowing the theory, but it does not identify where she learned it or whether the Memory Charms are fully successful long term."
+
+  - id: dh-ch09-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3117
+    printed_page: null
+    extracted_text_lines: "219-235; 226-231; 246-248"
+    text_anchor:
+      start_phrase: "How did they know where we were?"
+      end_phrase: "whole crowds of them on us wherever else we go"
+      local_occurrence_note: "Hermione wonders whether Harry still has a Trace, and Ron states the legal age limit."
+    nearby_context: "The unexplained cafe interception forces the trio to consider whether magic near Harry is revealing their position."
+    match_terms:
+      - Trace
+      - seventeen
+      - Wizarding law
+      - adult
+      - Death Eaters
+      - tracking
+    quote_excerpt_short: "The Trace breaks at seventeen"
+    source_note: "Ron states that Wizarding law breaks the Trace at seventeen and bars placing it on an adult, while Hermione raises the wartime fear that Death Eaters might have found a way around that rule."
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - trace
+      - wizarding-law
+      - coming-of-age
+      - underage-magic
+      - death-eaters
+      - tracking
+      - operational-security
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "Student Protection and Exceptional Safeguards"
+    candidate_section: "Trace law after Harry comes of age"
+    reason_for_placement: "The scene restates the legal age boundary for underage-magic monitoring while introducing uncertainty under Death Eater-controlled conditions."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as a student-level understanding of the Trace's legal limit during Harry's transition out of Hogwarts-age monitoring."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch06-001
+        - dh-ch07-001
+      notes: "dh-ch06-001 and dh-ch07-001 already record the Trace breaking at seventeen; this entry adds Ron's explicit Wizarding-law formulation and Hermione's fear that hostile control might bypass it."
+    confidence: high
+    limitations: "The speculation about Death Eater alteration is not confirmed in this chapter."
+
+  - id: dh-ch09-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3118
+    printed_page: null
+    extracted_text_lines: "257-287; 290-321; 325-332"
+    text_anchor:
+      start_phrase: "Number twelve was visible to them"
+      end_phrase: "there's nobody here except us"
+      local_occurrence_note: "The trio enter Grimmauld Place, trigger Moody's anti-Snape protections, silence Mrs. Black's portrait, and use Homenum revelio."
+    nearby_context: "Harry chooses Grimmauld Place as the best available refuge despite Snape's knowledge of the headquarters."
+    match_terms:
+      - Grimmauld Place
+      - Secret-Keeper
+      - Dumbledore
+      - Tongue-Tying Curse
+      - Snape
+      - Homenum revelio
+    quote_excerpt_short: "Tongue-Tying Curse Mad-Eye set up for Snape"
+    source_note: "Grimmauld Place is visible because Dumbledore had told them the secret; wand entry, gas lamps, Mrs. Black's portrait, Moody's Tongue-Tying Curse and Dumbledore-like dust figure, and Homenum revelio show layered headquarters protections."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - grimmauld-place
+      - fidelius
+      - secret-keeper
+      - mad-eye-moody
+      - tongue-tying-curse
+      - snape
+      - homenum-revelio
+      - portrait-lore
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Information Security and Secret-Keeping"
+    candidate_section: "Grimmauld Place defenses after Dumbledore's death"
+    reason_for_placement: "The scene demonstrates how the former Order headquarters still functions as a protected site after its Secret-Keeper's death and Snape's defection."
+    relevance_to_hogwarts_a_history: "A later edition can connect Dumbledore's Secret-Keeper role, Moody's defensive craft, and the Black family household to wartime protection of Hogwarts-linked fugitives."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch06-002
+        - ootp-ch06-007
+      notes: "dh-ch06-002 explains Fidelius dilution and Moody's intended anti-Snape curses, while ootp-ch06-007 records Dumbledore as Secret-Keeper; this entry adds the trio's later access and the observed activation of the Tongue-Tying Curse, dust figure, and human-presence check."
+    confidence: high
+    limitations: "The chapter does not state whether Snape has already entered, nor whether the defenses would stop him."
+
+  - id: dh-ch09-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nine - A Place to Hide
+    chapter_start_pdf_page: 3110
+    chapter_end_pdf_page: 3122
+    pdf_page: 3121
+    printed_page: null
+    extracted_text_lines: "373-379"
+    text_anchor:
+      start_phrase: "Then Hermione shrieked"
+      end_phrase: "The Patronus dissolved into nothingness"
+      local_occurrence_note: "Arthur Weasley's weasel Patronus reaches Grimmauld Place with a brief family safety warning."
+    nearby_context: "The trio are hiding at Grimmauld Place after the cafe attack and are worried about the wedding guests and Weasley family."
+    match_terms:
+      - silver Patronus
+      - weasel
+      - Arthur Weasley
+      - Family safe
+      - do not reply
+      - watched
+    quote_excerpt_short: "Family safe, do not reply"
+    source_note: "Arthur's speaking Patronus confirms the family's survival but warns the trio not to answer because the senders are being watched."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - patronus
+      - wartime-communications
+      - arthur-weasley
+      - order-of-the-phoenix
+      - communication-security
+      - surveillance
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Watched Patronus communications after the wedding attack"
+    reason_for_placement: "The message records both the Order's continued use of Patronus communication and the new surveillance constraints after the Ministry takeover."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as evidence for wartime communication methods used by families and Order members connected to Hogwarts students."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "dh-ch08-007 is a related speaking-Patronus emergency warning, but no queried entry records Arthur's family-safety message or the instruction not to reply because the family is watched."
+    confidence: high
+    limitations: "The message is terse and does not identify who is watching the Weasleys or how the Patronus route avoids interception."

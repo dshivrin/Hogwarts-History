@@ -176,3 +176,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch06`: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, pages 3047-3067, 7 entries, 1 explicit references.
 - `dh-ch07`: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, pages 3068-3089, 7 entries, 0 explicit references.
 - `dh-ch08`: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, pages 3090-3109, 7 entries, 0 explicit references.
+- `dh-ch09`: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, pages 3110-3122, 7 entries, 0 explicit references.
