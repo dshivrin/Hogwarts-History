@@ -3658,6 +3658,19 @@ Summary: The available evidence includes 1 source item, led by: Snape explicitly
   - Corroborates: `ps-ch08-007`, `ps-ch09-005`, `ps-ch10-005`. Earlier entries seed House-point discipline and nighttime rule-breaking; this entry adds a direct fighting rule.
   - Notes: The passage does not state the formal written rule text or ordinary range of penalties for fighting.
 
+### Chapter: Admissions, Attendance, and Wartime Control
+
+#### Section: Compulsory attendance and Blood Status screening
+
+Summary: The available evidence includes 1 source item, led by: Voldemort's regime makes Hogwarts attendance compulsory for young British witches and wizards while requiring official Blood Status proof before students are allowed to attend.
+
+- **Context:** Voldemort's regime makes Hogwarts attendance compulsory for young British witches and wizards while requiring official Blood Status proof before students are allowed to attend.
+  - Quote: "Attendance is now compulsory"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3151, `dh-ch11-004`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The passage reports an announced policy before Harry observes its enforcement at Hogwarts.
+
 ### Chapter: Age, School Status, and Adult Authority
 
 #### Section: Order Membership and Overage School Leavers
@@ -4442,6 +4455,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: historical_claim
   - Corroborates: `poa-ch17-003`. Book 3 Chapter Seventeen records staff knowledge and Dumbledore's hiring trust; this entry adds Snape's student-era discovery, Madam Pomfrey's escort role, James's rescue, and Dumbledore's order not to disclose Lupin's condition.
   - Notes: The chapter does not state whether Sirius was disciplined, whether the incident entered school records, or the legal basis for Dumbledore's silence order.
+
+#### Section: Dumbledore's protection and werewolf staff stigma
+
+Summary: The available evidence includes 1 source item, led by: Lupin distinguishes the relative protection he experienced at Hogwarts and in the Order from wider wizarding prejudice against werewolves and their families.
+
+- **Corroboration:** Lupin distinguishes the relative protection he experienced at Hogwarts and in the Order from wider wizarding prejudice against werewolves and their families.
+  - Quote: "under Dumbledore's protection at Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3154, `dh-ch11-005`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `poa-ch20-002`. Likely corroborates the Lupin accommodation evidence from poa-ch20-002; this entry adds Lupin's later testimony about Dumbledore's protection and social stigma.
+  - Notes: The scene is emotional self-report from Lupin and does not quote formal hiring or anti-werewolf policy.
 
 #### Section: Werewolf Employment and Staff Knowledge
 
@@ -6297,6 +6322,18 @@ Summary: The available evidence includes 1 source item, led by: The safe house i
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: security_or_protection
   - Notes: The protected location is unnamed in this chapter and is not a Hogwarts site.
+
+#### Section: Ministry-backed breach of Order protections
+
+Summary: The available evidence includes 1 source item, led by: After the Ministry falls, Death Eaters use state power to raid the Burrow and Order-connected homes, overcoming protective spells that had previously kept attackers outside.
+
+- **Corroboration:** After the Ministry falls, Death Eaters use state power to raid the Burrow and Order-connected homes, overcoming protective spells that had previously kept attackers outside.
+  - Quote: "penetrate every defensive spell we'd cast"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3149, `dh-ch11-001`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch05-001`, `dh-ch04-002`. Likely continuation of prior safe-house protection entries; those record the protected-house network and Tonks barrier, while this entry adds Ministry-backed penetration after the coup.
+  - Notes: Lupin reports the raids retrospectively; the chapter does not show the spells being broken on the page.
 
 #### Section: Order Intelligence and Student Protection
 
@@ -9622,6 +9659,18 @@ Summary: The available evidence includes 1 source item, led by: The Daily Prophe
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: explicit_in_universe_source
   - Notes: Skeeter's claims are promotional, contested, and filtered through a Daily Prophet interview; they should not be treated as settled facts without later corroboration.
+
+#### Section: Serialized biography, Bathilda testimony, and Ariana's schooling
+
+Summary: The available evidence includes 1 source item, led by: A Daily Prophet extract from Rita Skeeter's Dumbledore biography uses Bathilda Bagshot's local testimony to advance a contested claim about Ariana's hidden childhood and nonattendance at school.
+
+- **Corroboration:** A Daily Prophet extract from Rita Skeeter's Dumbledore biography uses Bathilda Bagshot's local testimony to advance a contested claim about Ariana's hidden childhood and nonattendance at school.
+  - Quote: "My sister is too frail for school"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3158, `dh-ch11-006`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch02-006`, `dh-ch08-005`, `dh-ch08-006`. Likely continuation of the prior Skeeter biography, Ariana nonattendance, and Bathilda-source entries; this chapter adds the serialized extract text and the previewed Hogwarts installment.
+  - Notes: Skeeter's account is explicitly suspect and should not be treated as a reliable finding about Ariana without later corroboration.
 
 ### Chapter: Staff, Subjects, and Ministry Inspection
 
@@ -13107,6 +13156,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore conti
 
 ### Chapter: Genealogies, Family Archives, and Pure-Blood Records
 
+#### Section: Black family artifacts after Grimmauld Place theft
+
+Summary: The available evidence includes 1 source item, led by: Mundungus's testimony traces Slytherin's locket from Grimmauld Place theft to a Ministry official who used trading-license enforcement as leverage to seize it.
+
+- **Corroboration:** Mundungus's testimony traces Slytherin's locket from Grimmauld Place theft to a Ministry official who used trading-license enforcement as leverage to seize it.
+  - Quote: "license for trading in magical artifacts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3161, `dh-ch11-007`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch10-005`, `hbp-ch12-005`. Likely continuation of dh-ch10-005's locket-search evidence and hbp-ch12-005's Mundungus theft evidence; this entry adds Umbridge and the trading-license seizure.
+  - Notes: Mundungus identifies Umbridge by description rather than name in this scene.
+
 #### Section: Black family artifacts and published genealogies
 
 Summary: The available evidence includes 1 source item, led by: The lost locket trail reconnects earlier Grimmauld Place cleaning to Kreacher's preserved Black-family hoard, where only Nature's Nobility: A Wizarding Genealogy remains.
@@ -13287,6 +13348,19 @@ Summary: The available evidence includes 1 source item, led by: McGonagall award
   - Notes: The passage does not say whether the award affects the final House Cup result.
 
 ## Part: Student Life and Houses
+
+### Chapter: Blood Status and Hogwarts Society
+
+#### Section: Wartime registration and criminalization of Muggle-born magic
+
+Summary: The available evidence includes 1 source item, led by: The new Ministry creates a Muggle-born Register and Registration Commission, alleging that Muggle-born witches and wizards stole magic unless they can prove close wizarding ancestry.
+
+- **Context:** The new Ministry creates a Muggle-born Register and Registration Commission, alleging that Muggle-born witches and wizards stole magic unless they can prove close wizarding ancestry.
+  - Quote: "Muggle-borns are being rounded up as we speak"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3151, `dh-ch11-003`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The quoted Ministry claim is propaganda, not reliable magical biology.
 
 ### Chapter: House Identity, Family Expectation, and Rebellion
 
@@ -13865,6 +13939,20 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
 
 ## Part: The Second War and Hidden Histories
+
+### Chapter: Ministry Capture and Public Propaganda
+
+#### Section: Thicknesse's puppet ministry and Harry as suspect
+
+Summary: The available evidence includes 1 source item, led by: The chapter documents Voldemort's concealed Ministry takeover: Scrimgeour's murder is officially disguised, Thicknesse handles routine governance under Imperius, and the Prophet turns Harry into a public suspect.
+
+- **Corroboration:** The chapter documents Voldemort's concealed Ministry takeover: Scrimgeour's murder is officially disguised, Thicknesse handles routine governance under Imperius, and the Prophet turns Harry into a public suspect.
+  - Quote: "the coup has been smooth and virtually silent"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, PDF p. 3150, `dh-ch11-002`, `sources/book-07/chapter-11-the-bribe.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch01-003`. Likely corroborates dh-ch01-003, which records Thicknesse's Imperius control before the coup; this entry adds the post-coup public version, propaganda, and Harry's wanted status.
+  - Notes: Lupin summarizes the political situation from reports rather than from inside the Ministry.
 
 ### Chapter: Regulus Black and the Secret Locket
 

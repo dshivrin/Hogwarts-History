@@ -178,3 +178,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch08`: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, pages 3090-3109, 7 entries, 0 explicit references.
 - `dh-ch09`: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, pages 3110-3122, 7 entries, 0 explicit references.
 - `dh-ch10`: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, pages 3123-3143, 7 entries, 0 explicit references.
+- `dh-ch11`: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, pages 3144-3162, 7 entries, 0 explicit references.

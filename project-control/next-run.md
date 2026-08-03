@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Eleven - The Bribe
-- Page range: 3144-3162
+- Chapter: Chapter Twelve - Magic Is Might
+- Page range: 3163-3182
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-11-the-bribe.yaml`
+- Output YAML: `sources/book-07/chapter-12-magic-is-might.yaml`
 
 ## Minimal Context
 

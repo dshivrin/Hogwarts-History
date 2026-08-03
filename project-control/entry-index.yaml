@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-02'
+updated: '2026-08-03'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -17140,6 +17140,117 @@ by_entry:
     - voldemort-defenses
     source_unit: dh-ch10
     output_yaml: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  dh-ch11-001:
+    title: 'The War Beyond the Gates: Ministry-backed breach of Order protections'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - burrow
+    - death-eaters
+    - ministry-power
+    - order-of-the-phoenix
+    - protective-charms
+    - safe-house
+    - second-war
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch11-002:
+    title: 'Ministry Capture and Public Propaganda: Thicknesse''s puppet ministry
+      and Harry as suspect'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - daily-prophet
+    - harry-potter
+    - imperius-curse
+    - ministry-coup
+    - pius-thicknesse
+    - propaganda
+    - second-war
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch11-003:
+    title: 'Blood Status and Hogwarts Society: Wartime registration and criminalization
+      of Muggle-born magic'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - blood-status
+    - department-of-mysteries
+    - ministry-policy
+    - muggle-born-register
+    - muggle-born-students
+    - pure-blood-ideology
+    - second-war
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch11-004:
+    title: 'Admissions, Attendance, and Wartime Control: Compulsory attendance and
+      Blood Status screening'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - blood-status
+    - compulsory-attendance
+    - foreign-schools
+    - hogwarts-attendance
+    - home-education
+    - ministry-policy
+    - muggle-born-students
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch11-005:
+    title: 'Staff Appointments and School Safety: Dumbledore''s protection and werewolf
+      staff stigma'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - dumbledore
+    - hogwarts-staff
+    - magical-creatures
+    - order-of-the-phoenix
+    - prejudice
+    - remus-lupin
+    - werewolf-stigma
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch11-006:
+    title: 'Sources on Dumbledore After His Death: Serialized biography, Bathilda
+      testimony, and Ariana''s schooling'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - ariana-dumbledore
+    - bathilda-bagshot
+    - dumbledore-biography
+    - hogwarts-attendance
+    - rita-skeeter
+    - source-criticism
+    - squibs
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch11-007:
+    title: 'Genealogies, Family Archives, and Pure-Blood Records: Black family artifacts
+      after Grimmauld Place theft'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - black-family
+    - diagon-alley
+    - magical-artifacts
+    - ministry-enforcement
+    - mundungus-fletcher
+    - slytherin-locket
+    - umbridge
+    source_unit: dh-ch11
+    output_yaml: sources/book-07/chapter-11-the-bribe.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -17389,6 +17500,7 @@ by_tag:
   - ootp-ch35-007
   ariana-dumbledore:
   - dh-ch08-005
+  - dh-ch11-006
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -17568,6 +17680,7 @@ by_tag:
   - dh-ch02-002
   - dh-ch08-006
   - dh-ch10-003
+  - dh-ch11-006
   - poa-ch01-001
   bathroom:
   - cos-ch15-007
@@ -17636,6 +17749,7 @@ by_tag:
   - dh-ch10-002
   - dh-ch10-004
   - dh-ch10-005
+  - dh-ch11-007
   - hbp-ch03-004
   - hbp-ch04-005
   - hbp-ch12-005
@@ -17690,6 +17804,8 @@ by_tag:
   - cos-ch07-003
   - cos-ch09-004
   - dh-ch01-005
+  - dh-ch11-003
+  - dh-ch11-004
   - gof-ch08-003
   blood-status-threat:
   - cos-ch08-006
@@ -17820,6 +17936,7 @@ by_tag:
   - dh-ch06-002
   - dh-ch07-001
   - dh-ch09-001
+  - dh-ch11-001
   - hbp-ch05-003
   burrow-security:
   - hbp-ch16-002
@@ -18290,6 +18407,8 @@ by_tag:
   competition-rules:
   - hbp-ch09-006
   - hbp-ch14-006
+  compulsory-attendance:
+  - dh-ch11-004
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -18555,6 +18674,7 @@ by_tag:
   - dh-ch02-006
   - dh-ch06-003
   - dh-ch08-004
+  - dh-ch11-002
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -18670,6 +18790,7 @@ by_tag:
   - dh-ch09-003
   - dh-ch09-004
   - dh-ch09-005
+  - dh-ch11-001
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -18864,6 +18985,7 @@ by_tag:
   department-of-magical-transportation:
   - gof-ch06-001
   department-of-mysteries:
+  - dh-ch11-003
   - gof-ch07-004
   - gof-ch30-004
   - hbp-ch07-003
@@ -18920,6 +19042,7 @@ by_tag:
   - ootp-ch25-002
   diagon-alley:
   - cos-ch04-002
+  - dh-ch11-007
   - gof-ch05-006
   - hbp-ch06-002
   - hbp-ch13-006
@@ -19139,6 +19262,7 @@ by_tag:
   - dh-ch07-005
   - dh-ch07-007
   - dh-ch10-003
+  - dh-ch11-005
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -19273,6 +19397,8 @@ by_tag:
   - ps-ch17-003
   dumbledore-absences:
   - hbp-ch25-006
+  dumbledore-biography:
+  - dh-ch11-006
   dumbledore-death:
   - hbp-ch27-007
   dumbledore-family:
@@ -19934,6 +20060,7 @@ by_tag:
   - gof-ch12-005
   - hbp-ch08-004
   foreign-schools:
+  - dh-ch11-004
   - gof-ch07-003
   foreign-wizards:
   - dh-ch02-004
@@ -20571,6 +20698,7 @@ by_tag:
   - dh-ch05-004
   - dh-ch05-007
   - dh-ch07-005
+  - dh-ch11-002
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -20996,6 +21124,8 @@ by_tag:
   - dh-ch07-003
   hogwarts-attendance:
   - dh-ch08-005
+  - dh-ch11-004
+  - dh-ch11-006
   hogwarts-champions:
   - gof-ch31-004
   hogwarts-danger:
@@ -21132,6 +21262,7 @@ by_tag:
   hogwarts-staff:
   - dh-ch01-006
   - dh-ch06-003
+  - dh-ch11-005
   - ps-ch04-001
   hogwarts-student:
   - dh-ch02-001
@@ -21177,6 +21308,8 @@ by_tag:
   holyhead-harpies:
   - hbp-ch07-006
   - hbp-ch14-002
+  home-education:
+  - dh-ch11-004
   home-life-and-social-habits:
   - poa-ch13-005
   homenum-revelio:
@@ -21473,6 +21606,7 @@ by_tag:
   - dh-ch01-003
   imperius-curse:
   - dh-ch05-004
+  - dh-ch11-002
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch34-002
@@ -22089,6 +22223,7 @@ by_tag:
   - ootp-ch24-004
   - ps-ch12-006
   magical-artifacts:
+  - dh-ch11-007
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -22135,6 +22270,7 @@ by_tag:
   - poa-ch11-003
   magical-creatures:
   - cos-ch08-003
+  - dh-ch11-005
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -22590,6 +22726,8 @@ by_tag:
   - gof-ch36-006
   ministry-control:
   - ootp-ch08-006
+  ministry-coup:
+  - dh-ch11-002
   ministry-creature-law:
   - ootp-ch33-003
   ministry-crowd-control:
@@ -22600,6 +22738,8 @@ by_tag:
   - ootp-ch07-004
   ministry-discretion:
   - poa-ch03-001
+  ministry-enforcement:
+  - dh-ch11-007
   ministry-guidelines:
   - gof-ch10-004
   - gof-ch27-004
@@ -22719,9 +22859,14 @@ by_tag:
   - poa-ch12-003
   - poa-ch16-002
   - ps-ch14-002
+  ministry-policy:
+  - dh-ch11-003
+  - dh-ch11-004
   ministry-posters:
   - hbp-ch06-002
   - ootp-ch25-006
+  ministry-power:
+  - dh-ch11-001
   ministry-procedure:
   - hbp-ch05-003
   ministry-public-guidance:
@@ -22834,6 +22979,8 @@ by_tag:
   muggle-baiting:
   - cos-ch03-004
   - gof-ch09-001
+  muggle-born-register:
+  - dh-ch11-003
   muggle-born-student:
   - cos-ch12-007
   muggle-born-students:
@@ -22841,6 +22988,8 @@ by_tag:
   - cos-ch06-005
   - cos-ch07-003
   - cos-ch09-004
+  - dh-ch11-003
+  - dh-ch11-004
   - gof-ch08-003
   - ps-ch05-005
   muggle-borns:
@@ -22963,6 +23112,7 @@ by_tag:
   - dh-ch09-003
   mundungus-fletcher:
   - dh-ch05-006
+  - dh-ch11-007
   - hbp-ch12-005
   - ootp-ch01-002
   - ootp-ch02-001
@@ -23219,6 +23369,8 @@ by_tag:
   - dh-ch06-002
   - dh-ch09-001
   - dh-ch09-007
+  - dh-ch11-001
+  - dh-ch11-005
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -23551,6 +23703,7 @@ by_tag:
   pius-thicknesse:
   - dh-ch01-003
   - dh-ch04-001
+  - dh-ch11-002
   planet-room:
   - ootp-ch35-005
   planetary-divination:
@@ -23804,6 +23957,7 @@ by_tag:
   - gof-ch23-007
   - gof-ch25-002
   prejudice:
+  - dh-ch11-005
   - ootp-ch21-002
   press-access:
   - gof-ch24-004
@@ -24001,6 +24155,8 @@ by_tag:
   prongs:
   - poa-ch14-007
   - poa-ch18-006
+  propaganda:
+  - dh-ch11-002
   prophecy:
   - gof-ch10-005
   - hbp-ch05-005
@@ -24024,6 +24180,7 @@ by_tag:
   - hbp-ch06-002
   protective-charms:
   - dh-ch05-001
+  - dh-ch11-001
   protective-enchantments:
   - dh-ch01-003
   - dh-ch04-002
@@ -24099,6 +24256,7 @@ by_tag:
   pure-blood-ideology:
   - dh-ch01-005
   - dh-ch10-004
+  - dh-ch11-003
   - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
@@ -24299,6 +24457,7 @@ by_tag:
   remorse:
   - dh-ch06-007
   remus-lupin:
+  - dh-ch11-005
   - hbp-ch16-003
   - hbp-ch16-005
   - ootp-ch09-006
@@ -24362,6 +24521,7 @@ by_tag:
   rita-skeeter:
   - dh-ch02-006
   - dh-ch08-004
+  - dh-ch11-006
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -24434,6 +24594,7 @@ by_tag:
   - dh-ch04-002
   - dh-ch05-001
   - dh-ch05-002
+  - dh-ch11-001
   safety-accommodation:
   - poa-ch22-003
   safety-equipment:
@@ -24784,6 +24945,9 @@ by_tag:
   - dh-ch08-007
   - dh-ch09-001
   - dh-ch09-007
+  - dh-ch11-001
+  - dh-ch11-002
+  - dh-ch11-003
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -25137,6 +25301,7 @@ by_tag:
   slytherin-locket:
   - dh-ch10-005
   - dh-ch10-007
+  - dh-ch11-007
   - hbp-ch10-006
   - hbp-ch13-002
   - hbp-ch20-005
@@ -25239,6 +25404,7 @@ by_tag:
   - hbp-ch23-005
   source-criticism:
   - dh-ch02-006
+  - dh-ch11-006
   source-history:
   - dh-ch08-004
   - dh-ch08-006
@@ -25300,6 +25466,7 @@ by_tag:
   - cos-ch08-002
   squibs:
   - dh-ch08-005
+  - dh-ch11-006
   - ootp-ch02-001
   - ootp-ch08-005
   st-mungos:
@@ -26312,6 +26479,7 @@ by_tag:
   twycross:
   - hbp-ch21-001
   umbridge:
+  - dh-ch11-007
   - hbp-ch07-004
   - ootp-ch16-003
   - ootp-ch16-004
@@ -26699,6 +26867,8 @@ by_tag:
   - hbp-ch16-003
   werewolf-spy:
   - hbp-ch16-004
+  werewolf-stigma:
+  - dh-ch11-005
   werewolves:
   - cos-ch15-003
   - dh-ch01-005

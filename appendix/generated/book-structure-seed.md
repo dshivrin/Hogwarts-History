@@ -704,6 +704,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Obituary, Biography, and Public Memory
 - Sources on Dumbledore After His Death
   - Obituary, Biography, and Public Dispute
+  - Serialized biography, Bathilda testimony, and Ariana's schooling
 - Staff, Subjects, and Ministry Inspection
   - Divination inspection and teacher credentials
   - Inspection consequences and probation
@@ -1256,6 +1257,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Subterranean Route and Serpent Gate
 - The War Beyond the Gates
   - Ministry Collapse and Protective Magic
+  - Ministry-backed breach of Order protections
   - Order Intelligence and Student Protection
   - Regulated Transport Under Enemy Control
 - Wartime Castle Security
@@ -1315,6 +1317,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Rules, Discipline, and Governance
 
+- Admissions, Attendance, and Wartime Control
+  - Compulsory attendance and Blood Status screening
 - Age, School Status, and Adult Authority
   - Order Membership and Overage School Leavers
 - Caretakers, Corridor Patrols, and Restricted Areas
@@ -1417,6 +1421,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Werewolf Disclosure and Resignation
 - Staff Appointments and School Safety
   - Confidentiality and Near-Miss Safety Incidents
+  - Dumbledore's protection and werewolf staff stigma
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
   - Wolfsbane Potion and werewolf accommodation
@@ -1508,6 +1513,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Sources, Historiography, and Editions
 
 - Genealogies, Family Archives, and Pure-Blood Records
+  - Black family artifacts after Grimmauld Place theft
   - Black family artifacts and published genealogies
 - Named Wizarding Historians and School Texts
   - Bathilda Bagshot as textbook author and living informant
@@ -1547,6 +1553,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Student Life and Houses
 
+- Blood Status and Hogwarts Society
+  - Wartime registration and criminalization of Muggle-born magic
 - House Identity, Family Expectation, and Rebellion
   - Black family House identity and Sirius's exception
   - Regulus Black and Slytherin family conformity
@@ -1754,6 +1762,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Second War and Hidden Histories
 
+- Ministry Capture and Public Propaganda
+  - Thicknesse's puppet ministry and Harry as suspect
 - Regulus Black and the Secret Locket
   - First-war resistance hidden inside a pure-blood household
 
