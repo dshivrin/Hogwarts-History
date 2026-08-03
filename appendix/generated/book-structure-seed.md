@@ -460,6 +460,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-elf exceptions to anti-Apparition protections
 - Headmaster's Office and Portrait Network
   - Former headmasters as mobile portrait witnesses
+  - Portrait surveillance and office artifacts under Snape
 
 ## Hogwarts Curriculum and Instruction
 
@@ -679,6 +680,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Mandatory briefings about magical incidents
   - Prime Minister notification and portrait contact
   - Scrimgeour succession and Prime Minister protection
+- Ministry Structure and Hogwarts Oversight
+  - Department levels relevant to school-age magic
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
@@ -850,6 +853,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wands, Equipment, and Magical Materials
+  - Gregorovitch search and the wand anomaly
   - Gregorovitch, Ollivander, and International Wandmaking
 - Wartime Movement and Secrecy Outside Hogwarts
   - Apparition into Muggle spaces and Auror fear
@@ -1116,6 +1120,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Serious bites, venom treatment, and ward privacy
 - Ministry Public Ideology and Non-Human Beings
   - The Fountain of Magical Brethren
+- Ministry Public Ideology and Non-Magical People
+  - Magic Is Might monument and Muggle subjugation
 - Pure-Blood Families and Genealogical Memory
   - Interrelated Pure-Blood Families and Marriage Exclusions
   - The Black Family Tapestry and Disowned Relatives
@@ -1257,6 +1263,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Subterranean Route and Serpent Gate
 - The War Beyond the Gates
   - Ministry Collapse and Protective Magic
+  - Ministry access controls and employee entry tokens
   - Ministry-backed breach of Order protections
   - Order Intelligence and Student Protection
   - Regulated Transport Under Enemy Control
@@ -1422,6 +1429,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Appointments and School Safety
   - Confidentiality and Near-Miss Safety Incidents
   - Dumbledore's protection and werewolf staff stigma
+  - Snape's headmastership and Carrow appointments
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
   - Wolfsbane Potion and werewolf accommodation
@@ -1554,6 +1562,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Student Life and Houses
 
 - Blood Status and Hogwarts Society
+  - Registration enforcement and Blood Status coercion
   - Wartime registration and criminalization of Muggle-born magic
 - House Identity, Family Expectation, and Rebellion
   - Black family House identity and Sirius's exception

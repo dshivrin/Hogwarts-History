@@ -4468,6 +4468,17 @@ Summary: The available evidence includes 1 source item, led by: Lupin distinguis
   - Corroborates: `poa-ch20-002`. Likely corroborates the Lupin accommodation evidence from poa-ch20-002; this entry adds Lupin's later testimony about Dumbledore's protection and social stigma.
   - Notes: The scene is emotional self-report from Lupin and does not quote formal hiring or anti-werewolf policy.
 
+#### Section: Snape's headmastership and Carrow appointments
+
+Summary: The available evidence includes 1 source item, led by: The new Ministry-backed school order installs Snape as Hogwarts headmaster and gives the Carrows Muggle Studies and Defense Against the Dark Arts, while Harry infers loyal teachers may remain to protect students.
+
+- **Context:** The new Ministry-backed school order installs Snape as Hogwarts headmaster and gives the Carrows Muggle Studies and Defense Against the Dark Arts, while Harry infers loyal teachers may remain to protect students.
+  - Quote: "Severus Snape confirmed as Hogwarts headmaster"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3165, `dh-ch12-001`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The staffing announcement is filtered through the Daily Prophet, and Harry's comment about other teachers staying is an inference.
+
 #### Section: Werewolf Employment and Staff Knowledge
 
 Summary: The available evidence includes 1 source item, led by: The chapter confirms that Lupin's werewolf status is known to Hogwarts staff and that Dumbledore knowingly hired him despite resistance from some teachers.
@@ -6322,6 +6333,17 @@ Summary: The available evidence includes 1 source item, led by: The safe house i
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: security_or_protection
   - Notes: The protected location is unnamed in this chapter and is not a Hogwarts site.
+
+#### Section: Ministry access controls and employee entry tokens
+
+Summary: The available evidence includes 1 source item, led by: The captured Ministry blocks ordinary Apparition, restricts home Floo connections to senior officials, and relies on employee tokens plus enchanted toilet-cubicle transport for worker entry.
+
+- **Context:** The captured Ministry blocks ordinary Apparition, restricts home Floo connections to senior officials, and relies on employee tokens plus enchanted toilet-cubicle transport for worker entry.
+  - Quote: "We know they've stopped Apparition in and out"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3169, `dh-ch12-003`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The evidence comes from the trio's reconnaissance and one successful infiltration, not a formal Ministry security manual.
 
 #### Section: Ministry-backed breach of Order protections
 
@@ -9422,6 +9444,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter date
   - Corroborates: `ootp-ch07-005`. ootp-ch07-005 records Kingsley as an Auror with a covert Order role inside the Sirius investigation; this entry adds his later protective placement in the Muggle Prime Minister's office under Scrimgeour.
   - Notes: The passage does not state when Kingsley was assigned or whether the Prime Minister's staff appointment involved memory modification or Muggle paperwork.
 
+### Chapter: Ministry Structure and Hogwarts Oversight
+
+#### Section: Department levels relevant to school-age magic
+
+Summary: The available evidence includes 1 source item, led by: The Ministry lift announcements map relevant offices: Level Four handles creature regulation and Goblin Liaison, Level Two contains Magical Law Enforcement, Improper Use, Aurors, and Wizengamot administration, and Level One houses the Minister.
+
+- **Context:** The Ministry lift announcements map relevant offices: Level Four handles creature regulation and Goblin Liaison, Level Two contains Magical Law Enforcement, Improper Use, Aurors, and Wizengamot administration, and Level One houses the Minister.
+  - Quote: "Level two, Department of Magical Law Enforcement"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3181, `dh-ch12-007`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The lift announcements list offices but do not explain jurisdictional history or all departments on each level.
+
 ### Chapter: Post-1984 Incidents and Confirmations
 
 #### Section: Enchanted Vehicles on Hogwarts Grounds
@@ -10602,6 +10637,18 @@ Summary: The available evidence includes 1 source item, led by: McGonagall says 
 
 ### Chapter: Wands, Equipment, and Magical Materials
 
+#### Section: Gregorovitch search and the wand anomaly
+
+Summary: The available evidence includes 1 source item, led by: Harry's scar vision confirms Voldemort is seeking Gregorovitch, and Harry links that search to Ollivander's inability to explain the wand behavior during the Seven Potters chase.
+
+- **Corroboration:** Harry's scar vision confirms Voldemort is seeking Gregorovitch, and Harry links that search to Ollivander's inability to explain the wand behavior during the Seven Potters chase.
+  - Quote: "He's a foreign wandmaker"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3172, `dh-ch12-005`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch08-003`, `dh-ch05-007`. Likely continuation of dh-ch08-003 on Gregorovitch and dh-ch05-007 on the wand anomaly; this entry adds Voldemort's confirmed search for Gregorovitch and Harry's explicit theory linking both threads.
+  - Notes: The search is perceived through Harry's scar connection, and Harry's explanation for Voldemort's motive remains partly inferential.
+
 #### Section: Gregorovitch, Ollivander, and International Wandmaking
 
 Summary: The available evidence includes 1 source item, led by: Krum confirms Gregorovitch as a celebrated retired wandmaker and frames a non-British reputation for wand quality alongside British reliance on Ollivander.
@@ -11778,6 +11825,18 @@ Summary: The available evidence includes 1 source item, led by: Phineas Nigellus
   - Corroborates: `ootp-ch23-002`. Likely duplicate or corroboration of ootp-ch23-002, which records Phineas using his Grimmauld Place portrait to relay Dumbledore's orders; this entry adds the reverse observation that he may be at Hogwarts instead.
   - Notes: The text infers Phineas's location from the empty frame rather than showing him moving.
 
+#### Section: Portrait surveillance and office artifacts under Snape
+
+Summary: The available evidence includes 1 source item, led by: Hermione neutralizes a portrait-surveillance risk by sealing Phineas Nigellus in her bag, while Harry's narration inventories key headmaster-office artifacts under Snape's control.
+
+- **Corroboration:** Hermione neutralizes a portrait-surveillance risk by sealing Phineas Nigellus in her bag, while Harry's narration inventories key headmaster-office artifacts under Snape's control.
+  - Quote: "all Phineas Nigellus will be able to see"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3167, `dh-ch12-002`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch10-001`, `dh-ch07-003`, `dh-ch07-006`. Likely overlaps dh-ch10-001 on Phineas's linked frames and dh-ch07-003/dh-ch07-006 on Dumbledore's effects and the Sword; this entry adds Hermione's containment tactic after Snape controls the office.
+  - Notes: Harry assumes which artifacts remain in the office and does not observe Snape using the portrait.
+
 ## Part: Hogwarts Curriculum and Instruction
 
 ### Chapter: Academic Progression and Examinations
@@ -12871,6 +12930,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: magical_architecture
   - Notes: Harry observes the display without historical explanation of when the Atrium or fountain was built.
 
+### Chapter: Ministry Public Ideology and Non-Magical People
+
+#### Section: Magic Is Might monument and Muggle subjugation
+
+Summary: The available evidence includes 1 source item, led by: The captured Ministry replaces the golden Atrium fountain with a black-stone Magic Is Might monument depicting Muggles crushed beneath enthroned witches and wizards.
+
+- **Corroboration:** The captured Ministry replaces the golden Atrium fountain with a black-stone Magic Is Might monument depicting Muggles crushed beneath enthroned witches and wizards.
+  - Quote: "Engraved in foot-high letters"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3179, `dh-ch12-006`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `ootp-ch07-003`, `ootp-ch36-004`. Likely overlaps the prior Atrium/Fountain entries; this entry adds the replacement monument and its explicit Muggle-subjugation propaganda.
+  - Notes: The passage does not say when the replacement monument was installed or who designed it.
+
 ### Chapter: Pure-Blood Families and Genealogical Memory
 
 #### Section: Interrelated Pure-Blood Families and Marriage Exclusions
@@ -13350,6 +13423,18 @@ Summary: The available evidence includes 1 source item, led by: McGonagall award
 ## Part: Student Life and Houses
 
 ### Chapter: Blood Status and Hogwarts Society
+
+#### Section: Registration enforcement and Blood Status coercion
+
+Summary: The available evidence includes 1 source item, led by: The Muggle-born Registration regime is in active operation: missed interrogations are listed publicly, and Yaxley uses a worker's wife's Blood Status case as workplace coercion.
+
+- **Corroboration:** The Muggle-born Registration regime is in active operation: missed interrogations are listed publicly, and Yaxley uses a worker's wife's Blood Status case as workplace coercion.
+  - Quote: "your wife's Blood Status will be in even graver doubt"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, PDF p. 3181, `dh-ch12-004`, `sources/book-07/chapter-12-magic-is-might.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch11-003`. Likely continuation of dh-ch11-003, which records the Register and Commission announcement; this entry adds public missed-interrogation lists and coercive enforcement inside the Ministry.
+  - Notes: The chapter shows enforcement around adult Ministry workers and Hermione, not a Hogwarts student interrogation on the page.
 
 #### Section: Wartime registration and criminalization of Muggle-born magic
 

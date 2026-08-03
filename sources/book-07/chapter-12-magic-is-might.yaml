@@ -1,0 +1,334 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twelve - Magic Is Might
+  chapter_start_pdf_page: 3163
+  chapter_end_pdf_page: 3182
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3163-3182; bounded extraction begins at the Chapter Twelve heading and ends with Harry and Hermione encountering Umbridge on Level One."
+  processed_date: '2026-08-03'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch12-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3165
+    printed_page: null
+    extracted_text_lines: "70-102"
+    text_anchor:
+      start_phrase: "SEVERUS SNAPE CONFIRMED AS HOGWARTS HEADMASTER"
+      end_phrase: "stay to try and protect the students"
+      local_occurrence_note: "Harry brings a stolen Daily Prophet into Grimmauld Place and Hermione reads the school-staffing announcement aloud."
+    nearby_context: "The Prophet reports Snape's appointment as headmaster and the Carrows' appointments to Muggle Studies and Defense Against the Dark Arts after Dumbledore's death."
+    match_terms:
+      - Severus Snape
+      - Hogwarts headmaster
+      - Alecto Carrow
+      - Amycus Carrow
+      - staffing changes
+      - protect the students
+    quote_excerpt_short: "Severus Snape confirmed as Hogwarts headmaster"
+    source_note: "The new Ministry-backed school order installs Snape as Hogwarts headmaster and gives the Carrows Muggle Studies and Defense Against the Dark Arts, while Harry infers loyal teachers may remain to protect students."
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - severus-snape
+      - hogwarts-headmaster
+      - carrows
+      - muggle-studies
+      - defense-against-the-dark-arts
+      - wartime-hogwarts
+      - staff-appointments
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Staff Appointments and School Safety
+    candidate_section: Snape's headmastership and Carrow appointments
+    reason_for_placement: "The passage is direct evidence for the formal staff changes that begin Hogwarts's 1997-1998 regime."
+    relevance_to_hogwarts_a_history: "A later edition would need this announcement to explain how the school's leadership and curriculum control changed under Voldemort's Ministry."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup returned prior Snape and headmaster context, but no entry for Snape's appointment as headmaster with the Carrows' specific teaching posts."
+    confidence: high
+    limitations: "The staffing announcement is filtered through the Daily Prophet, and Harry's comment about other teachers staying is an inference."
+
+  - id: dh-ch12-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3167
+    printed_page: null
+    extracted_text_lines: "128-147"
+    text_anchor:
+      start_phrase: "I remembered this"
+      end_phrase: "the inside of my handbag"
+      local_occurrence_note: "Hermione removes the Phineas Nigellus portrait from Grimmauld Place after Snape's headmaster appointment."
+    nearby_context: "Harry connects Phineas's linked portrait to the Hogwarts headmaster's office, where Snape may now have access to Dumbledore's instruments, Pensieve, Sorting Hat, and the Sword of Gryffindor."
+    match_terms:
+      - Phineas Nigellus Black
+      - headmaster's office
+      - magical instruments
+      - Pensieve
+      - Sorting Hat
+      - Sword of Gryffindor
+    quote_excerpt_short: "all Phineas Nigellus will be able to see"
+    source_note: "Hermione neutralizes a portrait-surveillance risk by sealing Phineas Nigellus in her bag, while Harry's narration inventories key headmaster-office artifacts under Snape's control."
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - phineas-nigellus-black
+      - headmaster-office
+      - portraits
+      - magical-instruments
+      - pensieve
+      - sorting-hat
+      - sword-of-gryffindor
+    candidate_part: Hogwarts Buildings and Enchantments
+    candidate_chapter: Headmaster's Office and Portrait Network
+    candidate_section: Portrait surveillance and office artifacts under Snape
+    reason_for_placement: "The scene links portrait mobility, information security, and the headmaster's office as an institutional archive."
+    relevance_to_hogwarts_a_history: "A future edition can use the passage to connect former-headmaster portraits with wartime intelligence risk and to list objects associated with the headmaster's office."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch10-001
+        - dh-ch07-003
+        - dh-ch07-006
+      notes: "Likely overlaps dh-ch10-001 on Phineas's linked frames and dh-ch07-003/dh-ch07-006 on Dumbledore's effects and the Sword; this entry adds Hermione's containment tactic after Snape controls the office."
+    confidence: high
+    limitations: "Harry assumes which artifacts remain in the office and does not observe Snape using the portrait."
+
+  - id: dh-ch12-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3169
+    printed_page: null
+    extracted_text_lines: "203-232; 508-544"
+    text_anchor:
+      start_phrase: "We know they've stopped Apparition in and out of the Ministry"
+      end_phrase: "emerging out of a fireplace into the Ministry of Magic"
+      local_occurrence_note: "Harry summarizes their reconnaissance, then the infiltrators use stolen M.O.M. tokens to enter through public-toilet cubicles."
+    nearby_context: "The trio has spent four weeks observing Ministry workers, learning about restricted Floo access, Umbridge's office location, and the employee token entry system."
+    match_terms:
+      - Apparition
+      - Floo Network
+      - Ministry entrance
+      - tokens
+      - M.O.M.
+      - fireplace
+    quote_excerpt_short: "We know they've stopped Apparition in and out"
+    source_note: "The captured Ministry blocks ordinary Apparition, restricts home Floo connections to senior officials, and relies on employee tokens plus enchanted toilet-cubicle transport for worker entry."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-of-magic
+      - apparition
+      - floo-network
+      - employee-tokens
+      - magical-transport
+      - wartime-security
+      - infiltration
+    candidate_part: Protective Magic and Security
+    candidate_chapter: The War Beyond the Gates
+    candidate_section: Ministry access controls and employee entry tokens
+    reason_for_placement: "The passage records how wartime state security and transport access were altered under the new regime."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with Ministry-regulated transport and the compromised institutions governing Hogwarts-age witches and wizards."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related entries dh-ch01-004 and dh-ch04-001 cover transport surveillance and Privet Drive transport bans; this entry adds the Ministry's internal lockdown, senior Floo restriction, and employee token entry system."
+    confidence: high
+    limitations: "The evidence comes from the trio's reconnaissance and one successful infiltration, not a formal Ministry security manual."
+
+  - id: dh-ch12-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3181
+    printed_page: null
+    extracted_text_lines: "240-245; 599-618"
+    text_anchor:
+      start_phrase: "You're on the list of Muggle-borns"
+      end_phrase: "in even graver doubt than it is now"
+      local_occurrence_note: "Ron warns Hermione from a Prophet list, then Yaxley threatens Reg Cattermole over Mary Cattermole's Blood Status interrogation."
+    nearby_context: "The infiltration begins under the immediate risk that Hermione has missed her required Muggle-born interrogation and that another worker's wife is being questioned below."
+    match_terms:
+      - Muggle-borns
+      - interrogation
+      - Blood Status
+      - Mudblood
+      - Yaxley
+      - Mary Cattermole
+    quote_excerpt_short: "your wife's Blood Status will be in even graver doubt"
+    source_note: "The Muggle-born Registration regime is in active operation: missed interrogations are listed publicly, and Yaxley uses a worker's wife's Blood Status case as workplace coercion."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - muggle-born-register
+      - blood-status
+      - interrogation
+      - yaxley
+      - mary-cattermole
+      - ministry-policy
+      - pure-blood-ideology
+    candidate_part: Student Life and Houses
+    candidate_chapter: Blood Status and Hogwarts Society
+    candidate_section: Registration enforcement and Blood Status coercion
+    reason_for_placement: "This chapter shows the Registration Commission's policy moving from announcement to everyday enforcement."
+    relevance_to_hogwarts_a_history: "A later edition can use this as evidence for the danger facing Muggle-born Hogwarts students and families during the 1997-1998 school year."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch11-003
+      notes: "Likely continuation of dh-ch11-003, which records the Register and Commission announcement; this entry adds public missed-interrogation lists and coercive enforcement inside the Ministry."
+    confidence: high
+    limitations: "The chapter shows enforcement around adult Ministry workers and Hermione, not a Hogwarts student interrogation on the page."
+
+  - id: dh-ch12-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3172
+    printed_page: null
+    extracted_text_lines: "303-345"
+    text_anchor:
+      start_phrase: "Fine. I've just seen Voldemort murdering a woman"
+      end_phrase: "Ollivander didn't know"
+      local_occurrence_note: "After a scar vision of Voldemort seeking Gregorovitch, Harry argues with Hermione about using the connection."
+    nearby_context: "Harry identifies Gregorovitch as a foreign wandmaker known for Krum's wand and connects the search to the unexplained wand anomaly during his escape."
+    match_terms:
+      - Gregorovitch
+      - wandmaker
+      - Ollivander
+      - Viktor Krum
+      - wand anomaly
+      - scar connection
+    quote_excerpt_short: "He's a foreign wandmaker"
+    source_note: "Harry's scar vision confirms Voldemort is seeking Gregorovitch, and Harry links that search to Ollivander's inability to explain the wand behavior during the Seven Potters chase."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - gregorovitch
+      - ollivander
+      - wand-lore
+      - voldemort
+      - scar-connection
+      - viktor-krum
+      - magical-crafts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wands, Equipment, and Magical Materials
+    candidate_section: Gregorovitch search and the wand anomaly
+    reason_for_placement: "The passage ties international wandmaking context to Harry-era wandlore evidence that began around Hogwarts-linked student equipment."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with wand-weighing, Krum's wand provenance, and the unresolved magical behavior of Harry's wand."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-003
+        - dh-ch05-007
+      notes: "Likely continuation of dh-ch08-003 on Gregorovitch and dh-ch05-007 on the wand anomaly; this entry adds Voldemort's confirmed search for Gregorovitch and Harry's explicit theory linking both threads."
+    confidence: medium
+    limitations: "The search is perceived through Harry's scar connection, and Harry's explanation for Voldemort's motive remains partly inferential."
+
+  - id: dh-ch12-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3179
+    printed_page: null
+    extracted_text_lines: "541-574"
+    text_anchor:
+      start_phrase: "The great Atrium seemed darker"
+      end_phrase: "In their rightful place"
+      local_occurrence_note: "Harry enters the Ministry Atrium and sees the black-stone replacement for the former golden fountain."
+    nearby_context: "The worker fireplaces now deliver employees beneath a monument showing robed wizards seated on carved Muggle bodies and engraved Magic Is Might."
+    match_terms:
+      - Ministry Atrium
+      - black stone statue
+      - Magic Is Might
+      - Muggles
+      - Fountain of Magical Brethren
+      - propaganda
+    quote_excerpt_short: "Engraved in foot-high letters"
+    source_note: "The captured Ministry replaces the golden Atrium fountain with a black-stone Magic Is Might monument depicting Muggles crushed beneath enthroned witches and wizards."
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-of-magic
+      - atrium
+      - magic-is-might
+      - propaganda
+      - muggles
+      - pure-blood-ideology
+      - magical-architecture
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Ministry Public Ideology and Non-Magical People
+    candidate_section: Magic Is Might monument and Muggle subjugation
+    reason_for_placement: "The public architecture makes the regime's ideology visible in the Ministry's central workplace."
+    relevance_to_hogwarts_a_history: "A later edition can contrast the monument with earlier Ministry public symbolism and with Hogwarts-era blood-status ideology."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch07-003
+        - ootp-ch36-004
+      notes: "Likely overlaps the prior Atrium/Fountain entries; this entry adds the replacement monument and its explicit Muggle-subjugation propaganda."
+    confidence: high
+    limitations: "The passage does not say when the replacement monument was installed or who designed it."
+
+  - id: dh-ch12-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twelve - Magic Is Might
+    chapter_start_pdf_page: 3163
+    chapter_end_pdf_page: 3182
+    pdf_page: 3181
+    printed_page: null
+    extracted_text_lines: "637-654; 660-664"
+    text_anchor:
+      start_phrase: "Level four, Department for the Regulation"
+      end_phrase: "Level one, Minister of Magic and Support Staff"
+      local_occurrence_note: "The lift announces two Ministry levels before Harry and Hermione reach Umbridge on Level One."
+    nearby_context: "The infiltrators travel through the Ministry lifts while Ron leaves for Level Two and Hermione worries about following him."
+    match_terms:
+      - Department for the Regulation and Control of Magical Creatures
+      - Goblin Liaison Office
+      - Improper Use of Magic Office
+      - Auror Headquarters
+      - Wizengamot Administration Services
+      - Minister of Magic
+    quote_excerpt_short: "Level two, Department of Magical Law Enforcement"
+    source_note: "The Ministry lift announcements map relevant offices: Level Four handles creature regulation and Goblin Liaison, Level Two contains Magical Law Enforcement, Improper Use, Aurors, and Wizengamot administration, and Level One houses the Minister."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-of-magic
+      - department-of-magical-law-enforcement
+      - auror-headquarters
+      - improper-use-of-magic-office
+      - wizengamot
+      - magical-creatures
+      - goblin-liaison
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Ministry Structure and Hogwarts Oversight
+    candidate_section: Department levels relevant to school-age magic
+    reason_for_placement: "The office map connects underage-magic enforcement, Aurors, creature regulation, and wizarding courts to the Ministry structure."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a compact cross-reference for government offices that regulate students, magical creatures, law enforcement, and school-adjacent legal proceedings."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup returned creature and Ministry context but no direct prior entry mapping these Department levels and offices together."
+    confidence: high
+    limitations: "The lift announcements list offices but do not explain jurisdictional history or all departments on each level."

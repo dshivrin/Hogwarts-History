@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 11
-  chapter_title: Chapter Eleven - The Bribe
-  page_start: 3144
-  page_end: 3162
-  output_yaml: sources/book-07/chapter-11-the-bribe.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 12
   chapter_title: Chapter Twelve - Magic Is Might
   page_start: 3163
   page_end: 3182
   output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3183
   page_end: 3201
   output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 14
+  chapter_title: Chapter Fourteen - The Thief
+  page_start: 3202
+  page_end: 3215
+  output_yaml: sources/book-07/chapter-14-the-thief.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

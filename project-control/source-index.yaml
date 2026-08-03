@@ -2078,3 +2078,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3144-3162.
+- source_unit_id: dh-ch12
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 12
+  chapter_title: Chapter Twelve - Magic Is Might
+  page_start: 3163
+  page_end: 3182
+  output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  processed_at: '2026-08-03'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3163-3182.

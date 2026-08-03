@@ -17251,6 +17251,118 @@ by_entry:
     - umbridge
     source_unit: dh-ch11
     output_yaml: sources/book-07/chapter-11-the-bribe.yaml
+  dh-ch12-001:
+    title: 'Staff Appointments and School Safety: Snape''s headmastership and Carrow
+      appointments'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - carrows
+    - defense-against-the-dark-arts
+    - hogwarts-headmaster
+    - muggle-studies
+    - severus-snape
+    - staff-appointments
+    - wartime-hogwarts
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch12-002:
+    title: 'Headmaster''s Office and Portrait Network: Portrait surveillance and office
+      artifacts under Snape'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - headmaster-office
+    - magical-instruments
+    - pensieve
+    - phineas-nigellus-black
+    - portraits
+    - sorting-hat
+    - sword-of-gryffindor
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch12-003:
+    title: 'The War Beyond the Gates: Ministry access controls and employee entry
+      tokens'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - employee-tokens
+    - floo-network
+    - infiltration
+    - magical-transport
+    - ministry-of-magic
+    - wartime-security
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch12-004:
+    title: 'Blood Status and Hogwarts Society: Registration enforcement and Blood
+      Status coercion'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - blood-status
+    - interrogation
+    - mary-cattermole
+    - ministry-policy
+    - muggle-born-register
+    - pure-blood-ideology
+    - yaxley
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch12-005:
+    title: 'Wands, Equipment, and Magical Materials: Gregorovitch search and the wand
+      anomaly'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - gregorovitch
+    - magical-crafts
+    - ollivander
+    - scar-connection
+    - viktor-krum
+    - voldemort
+    - wand-lore
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch12-006:
+    title: 'Ministry Public Ideology and Non-Magical People: Magic Is Might monument
+      and Muggle subjugation'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - atrium
+    - magic-is-might
+    - magical-architecture
+    - ministry-of-magic
+    - muggles
+    - propaganda
+    - pure-blood-ideology
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch12-007:
+    title: 'Ministry Structure and Hogwarts Oversight: Department levels relevant
+      to school-age magic'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - auror-headquarters
+    - department-of-magical-law-enforcement
+    - goblin-liaison
+    - improper-use-of-magic-office
+    - magical-creatures
+    - ministry-of-magic
+    - wizengamot
+    source_unit: dh-ch12
+    output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -17468,6 +17580,7 @@ by_tag:
   - dh-ch01-004
   - dh-ch04-001
   - dh-ch10-006
+  - dh-ch12-003
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -17550,6 +17663,7 @@ by_tag:
   - poa-ch09-004
   - ps-ch15-001
   atrium:
+  - dh-ch12-006
   - ootp-ch07-002
   - ootp-ch07-003
   - ootp-ch34-002
@@ -17567,6 +17681,7 @@ by_tag:
   auror-experience:
   - gof-ch13-007
   auror-headquarters:
+  - dh-ch12-007
   - ootp-ch07-005
   auror-office:
   - dh-ch01-002
@@ -17806,6 +17921,7 @@ by_tag:
   - dh-ch01-005
   - dh-ch11-003
   - dh-ch11-004
+  - dh-ch12-004
   - gof-ch08-003
   blood-status-threat:
   - cos-ch08-006
@@ -18006,6 +18122,8 @@ by_tag:
   - poa-ch07-005
   carriage:
   - gof-ch16-005
+  carrows:
+  - dh-ch12-001
   cassandra-trelawney:
   - ootp-ch15-003
   castle:
@@ -18843,6 +18961,7 @@ by_tag:
   - cos-ch07-004
   - cos-ch11-003
   - cos-ch18-007
+  - dh-ch12-001
   - gof-ch11-001
   - gof-ch12-006
   - gof-ch13-007
@@ -18979,6 +19098,7 @@ by_tag:
   department-of-magical-games-and-sports:
   - gof-ch03-001
   department-of-magical-law-enforcement:
+  - dh-ch12-007
   - hbp-ch10-005
   department-of-magical-transport:
   - dh-ch01-004
@@ -19566,6 +19686,8 @@ by_tag:
   - ootp-ch33-007
   - ootp-ch34-001
   - poa-ch03-002
+  employee-tokens:
+  - dh-ch12-003
   empty-classrooms:
   - gof-ch29-004
   enchanted-boat:
@@ -19970,6 +20092,7 @@ by_tag:
   floo-network:
   - dh-ch01-004
   - dh-ch04-001
+  - dh-ch12-003
   - gof-ch04-004
   - hbp-ch17-001
   - ootp-ch03-003
@@ -20258,6 +20381,7 @@ by_tag:
   - gof-ch33-005
   - gof-ch35-002
   goblin-liaison:
+  - dh-ch12-007
   - gof-ch07-004
   goblin-made:
   - ootp-ch20-004
@@ -20374,6 +20498,7 @@ by_tag:
   - ootp-ch10-004
   gregorovitch:
   - dh-ch08-003
+  - dh-ch12-005
   - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
@@ -20815,6 +20940,7 @@ by_tag:
   - cos-ch12-001
   - cos-ch13-006
   - dh-ch10-001
+  - dh-ch12-002
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -21195,6 +21321,7 @@ by_tag:
   - poa-ch19-007
   hogwarts-headmaster:
   - dh-ch02-005
+  - dh-ch12-001
   - hbp-ch16-007
   hogwarts-headmasters:
   - ootp-ch06-005
@@ -21628,6 +21755,7 @@ by_tag:
   imperturbable-charms:
   - ootp-ch22-007
   improper-use-of-magic-office:
+  - dh-ch12-007
   - gof-ch05-004
   in-universe-analysis:
   - gof-ch08-004
@@ -21655,6 +21783,8 @@ by_tag:
   - hbp-ch09-003
   - hbp-ch21-006
   - hbp-ch26-007
+  infiltration:
+  - dh-ch12-003
   influential-students:
   - hbp-ch07-005
   informal-custom:
@@ -21743,6 +21873,8 @@ by_tag:
   - gof-ch07-003
   international-wizards:
   - gof-ch01-002
+  interrogation:
+  - dh-ch12-004
   interschool-competitions:
   - hbp-ch25-002
   intruder-charm:
@@ -22176,6 +22308,8 @@ by_tag:
   - ootp-ch20-002
   madness:
   - ootp-ch37-003
+  magic-is-might:
+  - dh-ch12-006
   magic-outside-school:
   - cos-ch01-005
   - gof-ch02-003
@@ -22187,6 +22321,7 @@ by_tag:
   - cos-ch17-001
   - dh-ch01-001
   - dh-ch08-001
+  - dh-ch12-006
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -22266,11 +22401,13 @@ by_tag:
   - hbp-ch13-007
   magical-crafts:
   - dh-ch08-003
+  - dh-ch12-005
   magical-creature-law:
   - poa-ch11-003
   magical-creatures:
   - cos-ch08-003
   - dh-ch11-005
+  - dh-ch12-007
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -22334,6 +22471,7 @@ by_tag:
   magical-instruments:
   - cos-ch12-001
   - dh-ch07-003
+  - dh-ch12-002
   - ootp-ch37-001
   magical-law:
   - dh-ch07-002
@@ -22475,6 +22613,7 @@ by_tag:
   - dh-ch04-004
   - dh-ch05-002
   - dh-ch10-006
+  - dh-ch12-003
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -22575,6 +22714,8 @@ by_tag:
   mars:
   - gof-ch29-005
   - ootp-ch27-003
+  mary-cattermole:
+  - dh-ch12-004
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
@@ -22784,6 +22925,9 @@ by_tag:
   - dh-ch07-002
   - dh-ch07-006
   - dh-ch08-007
+  - dh-ch12-003
+  - dh-ch12-006
+  - dh-ch12-007
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -22862,6 +23006,7 @@ by_tag:
   ministry-policy:
   - dh-ch11-003
   - dh-ch11-004
+  - dh-ch12-004
   ministry-posters:
   - hbp-ch06-002
   - ootp-ch25-006
@@ -22981,6 +23126,7 @@ by_tag:
   - gof-ch09-001
   muggle-born-register:
   - dh-ch11-003
+  - dh-ch12-004
   muggle-born-student:
   - cos-ch12-007
   muggle-born-students:
@@ -23088,6 +23234,7 @@ by_tag:
   - cos-ch14-002
   - dh-ch01-006
   - dh-ch06-003
+  - dh-ch12-001
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -23110,6 +23257,8 @@ by_tag:
   - ps-ch02-004
   muggle-world:
   - dh-ch09-003
+  muggles:
+  - dh-ch12-006
   mundungus-fletcher:
   - dh-ch05-006
   - dh-ch11-007
@@ -23302,6 +23451,7 @@ by_tag:
   ollivander:
   - dh-ch05-007
   - dh-ch08-003
+  - dh-ch12-005
   - gof-ch18-006
   - gof-ch18-007
   ollivanders:
@@ -23594,6 +23744,7 @@ by_tag:
   - ps-ch13-002
   - ps-ch13-005
   pensieve:
+  - dh-ch12-002
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch13-001
@@ -23673,6 +23824,7 @@ by_tag:
   - ootp-ch23-002
   phineas-nigellus-black:
   - dh-ch10-001
+  - dh-ch12-002
   phoenix:
   - cos-ch17-005
   - hbp-ch29-002
@@ -23797,6 +23949,7 @@ by_tag:
   portraits:
   - dh-ch01-001
   - dh-ch10-001
+  - dh-ch12-002
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -24157,6 +24310,7 @@ by_tag:
   - poa-ch18-006
   propaganda:
   - dh-ch11-002
+  - dh-ch12-006
   prophecy:
   - gof-ch10-005
   - hbp-ch05-005
@@ -24257,6 +24411,8 @@ by_tag:
   - dh-ch01-005
   - dh-ch10-004
   - dh-ch11-003
+  - dh-ch12-004
+  - dh-ch12-006
   - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
@@ -24619,6 +24775,7 @@ by_tag:
   - poa-ch19-006
   scar-connection:
   - dh-ch05-007
+  - dh-ch12-005
   scarpins-revelaspell:
   - hbp-ch18-001
   scholarly-publications:
@@ -25108,6 +25265,7 @@ by_tag:
   - ootp-ch29-001
   - ootp-ch31-001
   severus-snape:
+  - dh-ch12-001
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -25391,6 +25549,7 @@ by_tag:
   - cos-ch17-005
   - cos-ch18-004
   - dh-ch07-006
+  - dh-ch12-002
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -25497,6 +25656,7 @@ by_tag:
   - cos-ch04-006
   - gof-ch12-006
   staff-appointments:
+  - dh-ch12-001
   - gof-ch24-002
   - hbp-ch08-005
   - hbp-ch23-003
@@ -26048,6 +26208,7 @@ by_tag:
   - cos-ch17-005
   sword-of-gryffindor:
   - dh-ch07-006
+  - dh-ch12-002
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -26630,6 +26791,7 @@ by_tag:
   viktor-krum:
   - dh-ch08-002
   - dh-ch08-003
+  - dh-ch12-005
   - gof-ch16-007
   - gof-ch35-004
   violet-ribbon-invitations:
@@ -26664,6 +26826,7 @@ by_tag:
   - dh-ch05-001
   - dh-ch05-006
   - dh-ch05-007
+  - dh-ch12-005
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -26754,6 +26917,7 @@ by_tag:
   wand-lore:
   - dh-ch05-007
   - dh-ch08-003
+  - dh-ch12-005
   wand-magic:
   - dh-ch04-006
   - dh-ch08-001
@@ -26796,9 +26960,12 @@ by_tag:
   - dh-ch09-007
   wartime-defense:
   - ootp-ch38-001
+  wartime-hogwarts:
+  - dh-ch12-001
   wartime-publicity:
   - hbp-ch30-006
   wartime-security:
+  - dh-ch12-003
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -27022,6 +27189,7 @@ by_tag:
   wizarding-world:
   - cos-ch01-003
   wizengamot:
+  - dh-ch12-007
   - hbp-ch10-007
   - ootp-ch05-007
   - ootp-ch07-004
@@ -27057,6 +27225,8 @@ by_tag:
   - poa-ch18-006
   written-papers:
   - ps-ch16-001
+  yaxley:
+  - dh-ch12-004
   yule-ball:
   - gof-ch22-001
   - gof-ch22-002
