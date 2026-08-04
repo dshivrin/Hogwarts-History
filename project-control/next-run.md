@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Fifteen - The Goblin’s Revenge
-- Page range: 3216-3239
+- Chapter: Chapter Sixteen - Godric’s Hollow
+- Page range: 3240-3255
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+- Output YAML: `sources/book-07/chapter-16-godric-s-hollow.yaml`
 
 ## Minimal Context
 

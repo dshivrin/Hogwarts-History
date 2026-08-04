@@ -182,3 +182,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch12`: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, pages 3163-3182, 7 entries, 0 explicit references.
 - `dh-ch13`: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, pages 3183-3201, 7 entries, 0 explicit references.
 - `dh-ch14`: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, pages 3202-3215, 7 entries, 0 explicit references.
+- `dh-ch15`: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, pages 3216-3239, 7 entries, 0 explicit references.

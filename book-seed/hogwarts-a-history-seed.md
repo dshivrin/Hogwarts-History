@@ -948,6 +948,18 @@ Summary: The available evidence includes 1 source item, led by: Hepzibah identif
   - Corroborates: `hbp-ch10-006`, `hbp-ch13-002`. hbp-ch10-006 and hbp-ch13-002 already track Slytherin's locket through the Gaunts and Burke. This entry adds Hepzibah's possession of the locket and introduces Hufflepuff's cup as another founder relic tied explicitly to Hogwarts history.
   - Notes: Hepzibah is proud and possessive, so the cup's powers and family descent claim need separate corroboration; the passage does not describe the cup's magic in detail.
 
+#### Section: Sword authenticity, goblin silver, and Horcrux destruction
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms the Gringotts sword is a fake, that the original Sword of Gryffindor is goblin-made silver, and that Dumbledore used it on the ring before hiding the genuine Horcrux-destroying blade.
+
+- **Corroboration:** The chapter confirms the Gringotts sword is a fake, that the original Sword of Gryffindor is goblin-made silver, and that Dumbledore used it on the ring before hiding the genuine Horcrux-destroying blade.
+  - Quote: "the original was forged centuries ago by goblins"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3228, `dh-ch15-006`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch07-006`, `dh-ch12-002`. Likely overlaps dh-ch07-006 on the Sword as a historical Gryffindor artifact and dh-ch12-002 on the office case under Snape; this entry adds the fake Gringotts copy, goblin-made properties, Dumbledore's ring use, and basilisk venom logic.
+  - Notes: Some details are reported secondhand through Dirk, Griphook, and Phineas; the chapter does not show where Dumbledore hid the real sword.
+
 ### Chapter: House Points and the House Cup
 
 #### Section: Classroom Deductions
@@ -3441,6 +3453,19 @@ Summary: The available evidence includes 1 source item, led by: Sixth-year Trans
   - Reference type: curriculum_or_subject
   - Corroborates: `hbp-ch11-001`. hbp-ch11-001 records the general difficulty of sixth-year N.E.W.T. classes and Transfiguration workload; this entry adds the specific human Transfiguration exercise and mirror-based classroom practice.
   - Notes: The scene does not give the incantation, textbook, grading standard, or full lesson sequence.
+
+### Chapter: Transfiguration Theory and Magical Limits
+
+#### Section: Gamp's Law and food as a Principal Exception
+
+Summary: The available evidence includes 1 source item, led by: Hermione states that food cannot be produced from nothing under Gamp's Law, though existing food can be Summoned, transformed, or multiplied.
+
+- **Supporting evidence:** Hermione states that food cannot be produced from nothing under Gamp's Law, though existing food can be Summoned, transformed, or multiplied.
+  - Quote: "Food is the first of the five Principal Exceptions"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3223, `dh-ch15-003`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Hermione starts the formal name but is interrupted, so the passage does not list the other four exceptions.
 
 ### Chapter: Transfiguration and Advanced Magical Transformations
 
@@ -6050,6 +6075,18 @@ Summary: The available evidence includes 1 source item, led by: A mobile wartime
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: Hermione cannot guarantee that the protections will keep Voldemort out, so their strength is uncertain.
+
+#### Section: Repeated campsite protection and trace removal
+
+Summary: The available evidence includes 1 source item, led by: The fugitives treat portable protections as a repeated campsite routine: remove prior enchantments, erase physical traces, recast defensive charms, and rely on concealment against Muggles and ordinary witches or wizards.
+
+- **Corroboration:** The fugitives treat portable protections as a repeated campsite routine: remove prior enchantments, erase physical traces, recast defensive charms, and rely on concealment against Muggles and ordinary witches or wizards.
+  - Quote: "Muffliato, Muggle-Repelling and Disillusionment Charms"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3216, `dh-ch15-001`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch14-003`. Likely duplicate or direct continuation of dh-ch14-003, which first records the mobile campsite ward cluster; this entry adds repeated relocation, trace removal, and a later confidence statement about concealment limits.
+  - Notes: The charms are described as sufficient against Muggles and ordinary witches or wizards, but untested against Death Eater Dark Magic.
 
 ### Chapter: Movement Limits and Anti-Apparition Protections
 
@@ -11876,6 +11913,18 @@ Summary: The available evidence includes 1 source item, led by: Phineas Nigellus
   - Corroborates: `ootp-ch23-002`. Likely duplicate or corroboration of ootp-ch23-002, which records Phineas using his Grimmauld Place portrait to relay Dumbledore's orders; this entry adds the reverse observation that he may be at Hogwarts instead.
   - Notes: The text infers Phineas's location from the empty frame rather than showing him moving.
 
+#### Section: Portrait communication limits and linked frames
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts portraits can commune with one another, but a portrait subject can travel outside the castle only through another painting of themselves, making Phineas a linked witness rather than a transporter of Dumbledore.
+
+- **Corroboration:** Hogwarts portraits can commune with one another, but a portrait subject can travel outside the castle only through another painting of themselves, making Phineas a linked witness rather than a transporter of Dumbledore.
+  - Quote: "they cannot travel outside the castle except"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3233, `dh-ch15-007`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch10-001`, `dh-ch12-002`. Likely overlaps dh-ch10-001 and dh-ch12-002 on Phineas's linked frames and surveillance risk; this entry adds the explicit rule that Hogwarts portraits may commune but cannot leave the castle unless another self-portrait exists elsewhere.
+  - Notes: The rules are stated by Phineas while blindfolded and irritated, but no contrary evidence appears in the scene.
+
 #### Section: Portrait surveillance and office artifacts under Snape
 
 Summary: The available evidence includes 1 source item, led by: Hermione neutralizes a portrait-surveillance risk by sealing Phineas Nigellus in her bag, while Harry's narration inventories key headmaster-office artifacts under Snape's control.
@@ -12593,6 +12642,21 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
+
+## Part: Magical Institutions Beyond the Castle
+
+### Chapter: Gringotts, Goblins, and Wizarding Power
+
+#### Section: Wartime control of Gringotts
+
+Summary: The available evidence includes 1 source item, led by: The Second War reaches goblin institutions: goblins deny allegiance to Voldemort, resent wizarding demands, and Griphook reports that Gringotts is no longer under sole goblin control.
+
+- **Context:** The Second War reaches goblin institutions: goblins deny allegiance to Voldemort, resent wizarding demands, and Griphook reports that Gringotts is no longer under sole goblin control.
+  - Quote: "Gringotts is no longer under the sole control of my race"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3227, `dh-ch15-005`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage does not specify the exact administrative arrangement replacing goblin control at Gringotts.
 
 ## Part: Magical Law and Secrecy
 
@@ -13571,6 +13635,18 @@ Summary: The available evidence includes 1 source item, led by: The Muggle-born 
   - Corroborates: `dh-ch11-003`. Likely continuation of dh-ch11-003, which records the Register and Commission announcement; this entry adds public missed-interrogation lists and coercive enforcement inside the Ministry.
   - Notes: The chapter shows enforcement around adult Ministry workers and Hermione, not a Hogwarts student interrogation on the page.
 
+#### Section: Registration fugitives and uncertain ancestry
+
+Summary: The available evidence includes 1 source item, led by: The Muggle-born Registration regime produces fugitives: Ted refuses to register, Dean cannot prove wizarding ancestry, Dirk escapes on the way to Azkaban, and goblins flee demands for subordination.
+
+- **Corroboration:** The Muggle-born Registration regime produces fugitives: Ted refuses to register, Dean cannot prove wizarding ancestry, Dirk escapes on the way to Azkaban, and goblins flee demands for subordination.
+  - Quote: "Refused to register as a Muggle-born on principle"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3226, `dh-ch15-004`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch11-003`, `dh-ch12-004`, `dh-ch13-005`. Likely continuation of prior Muggle-born Register and interrogation entries; this entry adds on-the-run consequences, Dean Thomas's missing proof problem, and Dirk Cresswell's escape from Azkaban transfer.
+  - Notes: The evidence comes from an overheard fugitive conversation, not from official case records for Ted, Dean, or Dirk.
+
 #### Section: Wartime propaganda against Muggle-borns
 
 Summary: The available evidence includes 1 source item, led by: The captured Ministry mass-produces anonymous pamphlets that frame Muggle-born people as a danger to a peaceful pure-blood society.
@@ -13896,6 +13972,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore descr
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: Dumbledore presents Voldemort's motives as reasoned interpretation rather than direct confession from Riddle.
+
+#### Section: Horcrux search logic and hidden castle secrets
+
+Summary: The available evidence includes 1 source item, led by: The Horcrux search explicitly frames Hogwarts as Voldemort's first real home and a plausible hiding place because Dumbledore admitted he did not know all the castle's secrets.
+
+- **Corroboration:** The Horcrux search explicitly frames Hogwarts as Voldemort's first real home and a plausible hiding place because Dumbledore admitted he did not know all the castle's secrets.
+  - Quote: "Dumbledore said ... he never assumed he knew all of Hogwarts's secrets"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, PDF p. 3220, `dh-ch15-002`, `sources/book-07/chapter-15-the-goblin-s-revenge.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch20-004`, `hbp-ch20-005`. Likely overlaps hbp-ch20-004 on Hogwarts as Voldemort's only home and hidden stronghold, and hbp-ch20-005 on founder relics; this entry adds the trio's operational Horcrux-location reasoning during the hunt.
+  - Notes: Harry's Hogwarts hypothesis is argued rather than proven in this chapter, and Hermione temporarily defeats it by noting Voldemort did not get the teaching post.
 
 ## Part: The Castle and Its Protections
 

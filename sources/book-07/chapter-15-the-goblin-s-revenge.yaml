@@ -1,0 +1,338 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Fifteen - The Goblin's Revenge
+  chapter_start_pdf_page: 3216
+  chapter_end_pdf_page: 3239
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3216-3239; bounded extraction begins at the Chapter Fifteen heading and ends with Ron leaving the tent."
+  processed_date: '2026-08-04'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch15-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3216
+    printed_page: null
+    extracted_text_lines: "14-22; 283-294"
+    text_anchor:
+      start_phrase: "Hermione therefore removed the enchantments"
+      end_phrase: "tested by Dark Magic for the first time"
+      local_occurrence_note: "The trio repeatedly dismantles and recasts camp protections while moving between temporary camps."
+    nearby_context: "Harry and Ron erase signs of their campsite before moving, and later Hermione confirms the riverbank tent is protected by Muffliato, Muggle-Repelling, and Disillusionment Charms."
+    match_terms:
+      - defensive enchantments
+      - Muffliato
+      - Muggle-Repelling Charms
+      - Disillusionment Charms
+      - Sneakoscope
+      - Dark Magic
+    quote_excerpt_short: "Muffliato, Muggle-Repelling and Disillusionment Charms"
+    source_note: "The fugitives treat portable protections as a repeated campsite routine: remove prior enchantments, erase physical traces, recast defensive charms, and rely on concealment against Muggles and ordinary witches or wizards."
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - protective-enchantments
+      - campsite
+      - muggle-repelling
+      - disillusionment
+      - muffliato
+      - sneakoscope
+      - horcrux-hunt
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Mobile Wards and Field Concealment
+    candidate_section: Repeated campsite protection and trace removal
+    reason_for_placement: "The chapter confirms that portable warding is not a single improvised event but a repeated wartime survival practice."
+    relevance_to_hogwarts_a_history: "A later edition can contrast permanent school concealments with field protections used by Hogwarts-trained fugitives."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-003
+      notes: "Likely duplicate or direct continuation of dh-ch14-003, which first records the mobile campsite ward cluster; this entry adds repeated relocation, trace removal, and a later confidence statement about concealment limits."
+    confidence: high
+    limitations: "The charms are described as sufficient against Muggles and ordinary witches or wizards, but untested against Death Eater Dark Magic."
+
+  - id: dh-ch15-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3220
+    printed_page: null
+    extracted_text_lines: "119-154; 160-174; 232-234"
+    text_anchor:
+      start_phrase: "Dumbledore had told Harry that he believed Voldemort had hidden"
+      end_phrase: "he stopped suggesting it"
+      local_occurrence_note: "The trio debates possible Horcrux sites during the aimless weeks after the Ministry escape."
+    nearby_context: "Harry argues that Hogwarts mattered uniquely to Voldemort because it was his first real home, but Hermione notes he never regained access through a teaching post."
+    match_terms:
+      - Voldemort
+      - Hogwarts
+      - Horcruxes
+      - founder's object
+      - first real home
+      - Hogwarts's secrets
+    quote_excerpt_short: "Dumbledore said ... he never assumed he knew all of Hogwarts's secrets"
+    source_note: "The Horcrux search explicitly frames Hogwarts as Voldemort's first real home and a plausible hiding place because Dumbledore admitted he did not know all the castle's secrets."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts
+      - horcruxes
+      - voldemort-history
+      - castle-secrets
+      - founder-relics
+      - tom-riddle
+      - dumbledore
+    candidate_part: The Castle and Its Magic
+    candidate_chapter: Hogwarts as a Magical Stronghold
+    candidate_section: Horcrux search logic and hidden castle secrets
+    reason_for_placement: "The debate ties earlier memories of Riddle's attachment to Hogwarts directly to the castle's possible hidden spaces and founder artifacts."
+    relevance_to_hogwarts_a_history: "A later edition can use the passage as wartime evidence that even expert insiders treated Hogwarts as historically deep and not fully mapped."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch20-004
+        - hbp-ch20-005
+      notes: "Likely overlaps hbp-ch20-004 on Hogwarts as Voldemort's only home and hidden stronghold, and hbp-ch20-005 on founder relics; this entry adds the trio's operational Horcrux-location reasoning during the hunt."
+    confidence: high
+    limitations: "Harry's Hogwarts hypothesis is argued rather than proven in this chapter, and Hermione temporarily defeats it by noting Voldemort did not get the teaching post."
+
+  - id: dh-ch15-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3223
+    printed_page: null
+    extracted_text_lines: "241-255"
+    text_anchor:
+      start_phrase: "Your mother can't produce food out of thin air"
+      end_phrase: "increase the quantity if you've already got some"
+      local_occurrence_note: "Hermione corrects Ron during a food argument in the tent."
+    nearby_context: "The trio's hunger makes the practical limits of conjuration and food magic urgent rather than theoretical."
+    match_terms:
+      - Gamp's Law
+      - Principal Exceptions
+      - Elemental Transfiguration
+      - food
+      - Summon
+      - increase the quantity
+    quote_excerpt_short: "Food is the first of the five Principal Exceptions"
+    source_note: "Hermione states that food cannot be produced from nothing under Gamp's Law, though existing food can be Summoned, transformed, or multiplied."
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - gamps-law
+      - food-magic
+      - elemental-transfiguration
+      - transfiguration
+      - summoning
+      - magical-theory
+      - horcrux-hunt
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Transfiguration Theory and Magical Limits
+    candidate_section: Gamp's Law and food as a Principal Exception
+    reason_for_placement: "The passage names a formal magical law and shows how classroom theory constrains survival magic outside school."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a compact example of Hogwarts-taught magical theory explaining everyday limits."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup found general Transfiguration and Summoning entries, but no prior source entry for Gamp's Law or food as a Principal Exception."
+    confidence: high
+    limitations: "Hermione starts the formal name but is interrupted, so the passage does not list the other four exceptions."
+
+  - id: dh-ch15-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3226
+    printed_page: null
+    extracted_text_lines: "324-363; 370-371"
+    text_anchor:
+      start_phrase: "So, you three have been on the run how long?"
+      end_phrase: "I recognize no Wizarding master"
+      local_occurrence_note: "The trio overhears Ted Tonks, Dean Thomas, Dirk Cresswell, Griphook, and Gornuk on the riverbank."
+    nearby_context: "The fugitives explain that they are avoiding Muggle-born registration, escape from custody, or goblin subordination under the new regime."
+    match_terms:
+      - Ted Tonks
+      - Dean Thomas
+      - Dirk Cresswell
+      - Muggle-born
+      - Griphook
+      - Gornuk
+      - Gringotts
+    quote_excerpt_short: "Refused to register as a Muggle-born on principle"
+    source_note: "The Muggle-born Registration regime produces fugitives: Ted refuses to register, Dean cannot prove wizarding ancestry, Dirk escapes on the way to Azkaban, and goblins flee demands for subordination."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - muggle-born-register
+      - fugitives
+      - dean-thomas
+      - ted-tonks
+      - dirk-cresswell
+      - goblins
+      - gringotts
+    candidate_part: Student Life and Houses
+    candidate_chapter: Blood Status and Hogwarts Society
+    candidate_section: Registration fugitives and uncertain ancestry
+    reason_for_placement: "The overheard conversation shows how Blood Status policy affects a Hogwarts student, a Hogwarts parent, and a former Ministry employee outside formal hearings."
+    relevance_to_hogwarts_a_history: "A later edition can use the passage to explain why Muggle-born and uncertain-status Hogwarts families went into hiding during the 1997-1998 school year."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch11-003
+        - dh-ch12-004
+        - dh-ch13-005
+      notes: "Likely continuation of prior Muggle-born Register and interrogation entries; this entry adds on-the-run consequences, Dean Thomas's missing proof problem, and Dirk Cresswell's escape from Azkaban transfer."
+    confidence: high
+    limitations: "The evidence comes from an overheard fugitive conversation, not from official case records for Ted, Dean, or Dirk."
+
+  - id: dh-ch15-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3227
+    printed_page: null
+    extracted_text_lines: "356-371; 379-383"
+    text_anchor:
+      start_phrase: "the goblins were for You-Know-Who"
+      end_phrase: "the sword would not have helped him break out"
+      local_occurrence_note: "Ted asks why the goblins are hiding and Griphook hints at his revenge before leaving Gringotts."
+    nearby_context: "Gornuk says goblins take no side in a wizards' war, while Griphook says Gringotts is no longer under sole goblin control."
+    match_terms:
+      - goblins
+      - You-Know-Who
+      - Gringotts
+      - Wizarding master
+      - high-security vaults
+      - Griphook
+    quote_excerpt_short: "Gringotts is no longer under the sole control of my race"
+    source_note: "The Second War reaches goblin institutions: goblins deny allegiance to Voldemort, resent wizarding demands, and Griphook reports that Gringotts is no longer under sole goblin control."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - goblins
+      - gringotts
+      - second-war
+      - wizard-goblin-relations
+      - high-security-vaults
+      - griphook
+      - magical-institutions
+    candidate_part: Magical Institutions Beyond the Castle
+    candidate_chapter: Gringotts, Goblins, and Wizarding Power
+    candidate_section: Wartime control of Gringotts
+    reason_for_placement: "The chapter directly records goblin political position and institutional displacement during Voldemort's regime."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference goblin-made school relics and wizard-goblin relations with the wartime takeover of Gringotts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup found Gringotts career and security mentions, but no prior entry for wartime loss of sole goblin control or goblin neutrality."
+    confidence: high
+    limitations: "The passage does not specify the exact administrative arrangement replacing goblin control at Gringotts."
+
+  - id: dh-ch15-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3228
+    printed_page: null
+    extracted_text_lines: "389-423; 431-437; 604-629"
+    text_anchor:
+      start_phrase: "kids who tried to steal Gryffindor's sword"
+      end_phrase: "that sword's impregnated with basilisk venom"
+      local_occurrence_note: "Dirk and Griphook describe the sword theft attempt, and Phineas later confirms Dumbledore used the sword on the ring."
+    nearby_context: "Ginny, Neville, and Luna tried to take the sword from Snape's office, Snape moved a fake to Gringotts, and Hermione realizes the genuine sword can destroy Horcruxes."
+    match_terms:
+      - Gryffindor's sword
+      - Snape's office
+      - Gringotts
+      - fake
+      - goblin-made
+      - basilisk venom
+      - Dumbledore's ring
+    quote_excerpt_short: "the original was forged centuries ago by goblins"
+    source_note: "The chapter confirms the Gringotts sword is a fake, that the original Sword of Gryffindor is goblin-made silver, and that Dumbledore used it on the ring before hiding the genuine Horcrux-destroying blade."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - sword-of-gryffindor
+      - goblin-made
+      - gringotts
+      - horcruxes
+      - basilisk-venom
+      - headmaster-office
+      - founder-relics
+    candidate_part: The Four Houses
+    candidate_chapter: Founders' Relics and Legacies
+    candidate_section: Sword authenticity, goblin silver, and Horcrux destruction
+    reason_for_placement: "The evidence links a founder relic's provenance, magical material properties, wartime custody, and later Horcrux function."
+    relevance_to_hogwarts_a_history: "A later edition should use this as central evidence for the Sword of Gryffindor's authenticity, goblin craftsmanship, and role in the Second War."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch07-006
+        - dh-ch12-002
+      notes: "Likely overlaps dh-ch07-006 on the Sword as a historical Gryffindor artifact and dh-ch12-002 on the office case under Snape; this entry adds the fake Gringotts copy, goblin-made properties, Dumbledore's ring use, and basilisk venom logic."
+    confidence: high
+    limitations: "Some details are reported secondhand through Dirk, Griphook, and Phineas; the chapter does not show where Dumbledore hid the real sword."
+
+  - id: dh-ch15-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fifteen - The Goblin's Revenge
+    chapter_start_pdf_page: 3216
+    chapter_end_pdf_page: 3239
+    pdf_page: 3233
+    printed_page: null
+    extracted_text_lines: "581-594; 598-605"
+    text_anchor:
+      start_phrase: "the portraits of Hogwarts may commune with each other"
+      end_phrase: "used it to break open a ring"
+      local_occurrence_note: "Phineas Nigellus explains portrait limits after Harry asks him to bring Dumbledore's portrait into the Grimmauld Place frame."
+    nearby_context: "Hermione has blindfolded Phineas to prevent him from learning their location, while the trio questions him as a witness to the headmaster's office."
+    match_terms:
+      - portraits of Hogwarts
+      - Dumbledore's portrait
+      - Phineas Nigellus
+      - commune
+      - travel outside the castle
+      - painting of themselves
+    quote_excerpt_short: "they cannot travel outside the castle except"
+    source_note: "Hogwarts portraits can commune with one another, but a portrait subject can travel outside the castle only through another painting of themselves, making Phineas a linked witness rather than a transporter of Dumbledore."
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - portraits
+      - phineas-nigellus-black
+      - headmaster-office
+      - dumbledore-portrait
+      - hogwarts
+      - magical-communication
+      - institutional-memory
+    candidate_part: Hogwarts Buildings and Enchantments
+    candidate_chapter: Headmaster's Office and Portrait Network
+    candidate_section: Portrait communication limits and linked frames
+    reason_for_placement: "The passage gives explicit rules for what Hogwarts portraits can communicate and where they can travel."
+    relevance_to_hogwarts_a_history: "A later edition can use this to distinguish portrait conversation within Hogwarts from travel through duplicate frames outside the castle."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch10-001
+        - dh-ch12-002
+      notes: "Likely overlaps dh-ch10-001 and dh-ch12-002 on Phineas's linked frames and surveillance risk; this entry adds the explicit rule that Hogwarts portraits may commune but cannot leave the castle unless another self-portrait exists elsewhere."
+    confidence: high
+    limitations: "The rules are stated by Phineas while blindfolded and irritated, but no contrary evidence appears in the scene."

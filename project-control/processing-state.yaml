@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 14
-  chapter_title: Chapter Fourteen - The Thief
-  page_start: 3202
-  page_end: 3215
-  output_yaml: sources/book-07/chapter-14-the-thief.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 15
   chapter_title: "Chapter Fifteen - The Goblin\u2019s Revenge"
   page_start: 3216
   page_end: 3239
   output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3240
   page_end: 3255
   output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 17
+  chapter_title: "Chapter Seventeen - Bathilda\u2019s Secret"
+  page_start: 3256
+  page_end: 3273
+  output_yaml: sources/book-07/chapter-17-bathilda-s-secret.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

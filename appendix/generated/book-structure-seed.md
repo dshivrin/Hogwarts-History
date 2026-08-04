@@ -182,6 +182,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Time-Turner Authorization for Overlapping Lessons
 - Transfiguration
   - Human Transfiguration exercises after O.W.L.s
+- Transfiguration Theory and Magical Limits
+  - Gamp's Law and food as a Principal Exception
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
 - Transfiguration and Advanced Spellwork
@@ -460,6 +462,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-elf exceptions to anti-Apparition protections
 - Headmaster's Office and Portrait Network
   - Former headmasters as mobile portrait witnesses
+  - Portrait communication limits and linked frames
   - Portrait surveillance and office artifacts under Snape
 
 ## Hogwarts Curriculum and Instruction
@@ -1000,6 +1003,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Dangerous Creatures in Study and Tournament Use
   - Dragon Lore in Hogwarts Library Sources
 
+## Magical Institutions Beyond the Castle
+
+- Gringotts, Goblins, and Wizarding Power
+  - Wartime control of Gringotts
+
 ## Magical Law and Secrecy
 
 - Concealment After Magical Exposure
@@ -1240,6 +1248,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's map search for Crouch
 - Mobile Wards and Field Concealment
   - Campsite protections during the Horcrux hunt
+  - Repeated campsite protection and trace removal
 - Movement Limits and Anti-Apparition Protections
   - Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
   - Wizarding-dwelling courtesy and Hogwarts boundary confirmation
@@ -1588,6 +1597,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Commission procedure and Muggle-born interrogations
   - Genealogical proof and criminalized ancestry claims
   - Registration enforcement and Blood Status coercion
+  - Registration fugitives and uncertain ancestry
   - Wartime propaganda against Muggle-borns
   - Wartime registration and criminalization of Muggle-born magic
 - House Identity, Family Expectation, and Rebellion
@@ -1678,6 +1688,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogwarts as a Magical Stronghold
   - Ancient magic, hidden stores, and institutional pull
+  - Horcrux search logic and hidden castle secrets
 
 ## The Castle and Its Protections
 
@@ -1717,6 +1728,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Sword of Gryffindor and worthy Gryffindors
 - Founders' Relics and Legacies
   - Hufflepuff's cup and Slytherin's locket
+  - Sword authenticity, goblin silver, and Horcrux destruction
 - House Identity and Reputation
   - Borderline Sorting decisions
   - House loyalty during the Triwizard Tournament

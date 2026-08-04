@@ -17581,6 +17581,117 @@ by_entry:
     - wand-lore
     source_unit: dh-ch14
     output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch15-001:
+    title: 'Mobile Wards and Field Concealment: Repeated campsite protection and trace
+      removal'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - campsite
+    - disillusionment
+    - horcrux-hunt
+    - muffliato
+    - muggle-repelling
+    - protective-enchantments
+    - sneakoscope
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch15-002:
+    title: 'Hogwarts as a Magical Stronghold: Horcrux search logic and hidden castle
+      secrets'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - castle-secrets
+    - dumbledore
+    - founder-relics
+    - hogwarts
+    - horcruxes
+    - tom-riddle
+    - voldemort-history
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch15-003:
+    title: 'Transfiguration Theory and Magical Limits: Gamp''s Law and food as a Principal
+      Exception'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - elemental-transfiguration
+    - food-magic
+    - gamps-law
+    - horcrux-hunt
+    - magical-theory
+    - summoning
+    - transfiguration
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch15-004:
+    title: 'Blood Status and Hogwarts Society: Registration fugitives and uncertain
+      ancestry'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dean-thomas
+    - dirk-cresswell
+    - fugitives
+    - goblins
+    - gringotts
+    - muggle-born-register
+    - ted-tonks
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch15-005:
+    title: 'Gringotts, Goblins, and Wizarding Power: Wartime control of Gringotts'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - goblins
+    - gringotts
+    - griphook
+    - high-security-vaults
+    - magical-institutions
+    - second-war
+    - wizard-goblin-relations
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch15-006:
+    title: 'Founders'' Relics and Legacies: Sword authenticity, goblin silver, and
+      Horcrux destruction'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - basilisk-venom
+    - founder-relics
+    - goblin-made
+    - gringotts
+    - headmaster-office
+    - horcruxes
+    - sword-of-gryffindor
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch15-007:
+    title: 'Headmaster''s Office and Portrait Network: Portrait communication limits
+      and linked frames'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - dumbledore-portrait
+    - headmaster-office
+    - hogwarts
+    - institutional-memory
+    - magical-communication
+    - phineas-nigellus-black
+    - portraits
+    source_unit: dh-ch15
+    output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18014,6 +18125,7 @@ by_tag:
   - ootp-ch16-005
   basilisk-venom:
   - dh-ch06-007
+  - dh-ch15-006
   basin:
   - hbp-ch26-006
   bathilda-bagshot:
@@ -18290,6 +18402,7 @@ by_tag:
   - gof-ch28-001
   campsite:
   - dh-ch14-003
+  - dh-ch15-001
   captain-office:
   - ootp-ch14-004
   captaincy:
@@ -18441,6 +18554,7 @@ by_tag:
   - poa-ch09-004
   castle-secrets:
   - cos-ch09-005
+  - dh-ch15-002
   - hbp-ch20-004
   castle-security:
   - cos-ch07-006
@@ -19120,6 +19234,8 @@ by_tag:
   - dh-ch01-002
   daydream-charms:
   - hbp-ch06-004
+  dean-thomas:
+  - dh-ch15-004
   death:
   - ootp-ch38-006
   death-chamber:
@@ -19413,6 +19529,7 @@ by_tag:
   - ootp-ch20-004
   dirk-cresswell:
   - dh-ch13-005
+  - dh-ch15-004
   disapparate:
   - hbp-ch28-005
   disapparition:
@@ -19445,6 +19562,8 @@ by_tag:
   - hbp-ch24-006
   disguise:
   - ootp-ch03-004
+  disillusionment:
+  - dh-ch15-001
   disillusionment-charm:
   - hbp-ch03-003
   - ootp-ch03-005
@@ -19621,6 +19740,7 @@ by_tag:
   - dh-ch07-007
   - dh-ch10-003
   - dh-ch11-005
+  - dh-ch15-002
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -19792,6 +19912,8 @@ by_tag:
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
+  dumbledore-portrait:
+  - dh-ch15-007
   dumbledore-protection:
   - hbp-ch16-002
   dumbledore-tomb:
@@ -19888,6 +20010,8 @@ by_tag:
   - poa-ch22-006
   electricity:
   - gof-ch28-003
+  elemental-transfiguration:
+  - dh-ch15-003
   eleventh-birthday:
   - ps-ch03-005
   elixir-of-life:
@@ -20382,6 +20506,8 @@ by_tag:
   foe-glass:
   - gof-ch20-003
   - gof-ch35-005
+  food-magic:
+  - dh-ch15-003
   food-service:
   - gof-ch21-006
   - gof-ch23-003
@@ -20455,6 +20581,8 @@ by_tag:
   founder-relic:
   - dh-ch07-006
   founder-relics:
+  - dh-ch15-002
+  - dh-ch15-006
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -20518,6 +20646,8 @@ by_tag:
   - hbp-ch28-002
   fruit-painting:
   - gof-ch21-002
+  fugitives:
+  - dh-ch15-004
   full-moon-safety:
   - poa-ch18-002
   galatea-merrythought:
@@ -20538,6 +20668,8 @@ by_tag:
   - ps-ch14-005
   gamekeeping-cross-reference:
   - ps-ch04-001
+  gamps-law:
+  - dh-ch15-003
   gargoyle:
   - cos-ch13-006
   gates:
@@ -20630,6 +20762,7 @@ by_tag:
   - dh-ch12-007
   - gof-ch07-004
   goblin-made:
+  - dh-ch15-006
   - ootp-ch20-004
   goblin-rebellion:
   - poa-ch05-002
@@ -20640,6 +20773,8 @@ by_tag:
   goblin-wrought-silver:
   - ootp-ch05-002
   goblins:
+  - dh-ch15-004
+  - dh-ch15-005
   - gof-ch37-007
   - ootp-ch05-004
   - ootp-ch07-003
@@ -20785,11 +20920,16 @@ by_tag:
   - poa-ch08-001
   - poa-ch16-004
   gringotts:
+  - dh-ch15-004
+  - dh-ch15-005
+  - dh-ch15-006
   - gof-ch05-001
   - ootp-ch10-005
   - ootp-ch29-003
   - ps-ch05-001
   - ps-ch14-003
+  griphook:
+  - dh-ch15-005
   griselda-marchbanks:
   - ootp-ch31-002
   ground-floor:
@@ -21189,6 +21329,8 @@ by_tag:
   - cos-ch13-006
   - dh-ch10-001
   - dh-ch12-002
+  - dh-ch15-006
+  - dh-ch15-007
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -21373,6 +21515,8 @@ by_tag:
   - ootp-ch29-002
   - ootp-ch30-005
   - ootp-ch31-006
+  high-security-vaults:
+  - dh-ch15-005
   high-table:
   - ps-ch12-003
   hinkypunks:
@@ -21471,6 +21615,8 @@ by_tag:
   hogwarts:
   - dh-ch10-001
   - dh-ch10-006
+  - dh-ch15-002
+  - dh-ch15-007
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -21733,11 +21879,15 @@ by_tag:
   - dh-ch14-001
   - dh-ch14-003
   - dh-ch14-004
+  - dh-ch15-001
+  - dh-ch15-003
   horcrux-mission:
   - hbp-ch30-007
   horcruxes:
   - dh-ch06-006
   - dh-ch06-007
+  - dh-ch15-002
+  - dh-ch15-006
   - hbp-ch18-002
   - hbp-ch20-001
   - hbp-ch23-004
@@ -22077,6 +22227,7 @@ by_tag:
   institutional-memory:
   - dh-ch07-003
   - dh-ch10-001
+  - dh-ch15-007
   institutional-secrecy:
   - cos-ch13-005
   intelligence:
@@ -22649,6 +22800,7 @@ by_tag:
   - dh-ch05-004
   - dh-ch05-007
   magical-communication:
+  - dh-ch15-007
   - ootp-ch23-002
   - ootp-ch38-005
   magical-community:
@@ -22733,6 +22885,8 @@ by_tag:
   - ootp-ch22-004
   magical-injury:
   - gof-ch02-001
+  magical-institutions:
+  - dh-ch15-005
   magical-instruments:
   - cos-ch12-001
   - dh-ch07-003
@@ -22871,6 +23025,7 @@ by_tag:
   magical-table-service:
   - gof-ch23-003
   magical-theory:
+  - dh-ch15-003
   - ootp-ch38-006
   magical-traces:
   - hbp-ch26-002
@@ -23400,6 +23555,7 @@ by_tag:
   - ootp-ch09-003
   muffliato:
   - dh-ch14-003
+  - dh-ch15-001
   - hbp-ch12-003
   muggle-artifacts:
   - cos-ch03-004
@@ -23410,6 +23566,7 @@ by_tag:
   - dh-ch11-003
   - dh-ch12-004
   - dh-ch13-001
+  - dh-ch15-004
   muggle-born-registration-commission:
   - dh-ch13-001
   - dh-ch13-006
@@ -23485,6 +23642,7 @@ by_tag:
   - gof-ch01-001
   muggle-repelling:
   - dh-ch14-003
+  - dh-ch15-001
   - gof-ch11-005
   muggle-repelling-charms:
   - gof-ch08-001
@@ -24118,6 +24276,7 @@ by_tag:
   phineas-nigellus-black:
   - dh-ch10-001
   - dh-ch12-002
+  - dh-ch15-007
   phoenix:
   - cos-ch17-005
   - hbp-ch29-002
@@ -24244,6 +24403,7 @@ by_tag:
   - dh-ch01-001
   - dh-ch10-001
   - dh-ch12-002
+  - dh-ch15-007
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -24634,6 +24794,7 @@ by_tag:
   - dh-ch04-002
   - dh-ch09-001
   - dh-ch14-003
+  - dh-ch15-001
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -25416,6 +25577,7 @@ by_tag:
   - dh-ch13-007
   - dh-ch14-005
   - dh-ch14-006
+  - dh-ch15-005
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -25837,6 +25999,7 @@ by_tag:
   - hbp-ch14-001
   sneakoscope:
   - dh-ch14-003
+  - dh-ch15-001
   - gof-ch20-003
   - hbp-ch04-003
   sneakoscopes:
@@ -26495,6 +26658,8 @@ by_tag:
   - gof-ch02-002
   summer-residence:
   - cos-ch13-007
+  summoning:
+  - dh-ch15-003
   summoning-charm:
   - dh-ch06-006
   - gof-ch06-003
@@ -26528,6 +26693,7 @@ by_tag:
   sword-of-gryffindor:
   - dh-ch07-006
   - dh-ch12-002
+  - dh-ch15-006
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -26633,6 +26799,7 @@ by_tag:
   - ootp-ch17-001
   ted-tonks:
   - dh-ch05-001
+  - dh-ch15-004
   telephone-box:
   - ootp-ch07-002
   - ootp-ch34-002
@@ -26749,6 +26916,7 @@ by_tag:
   - cos-ch13-002
   - cos-ch13-005
   - cos-ch18-001
+  - dh-ch15-002
   - gof-ch01-001
   - hbp-ch13-003
   - hbp-ch13-004
@@ -26822,6 +26990,7 @@ by_tag:
   - hbp-ch13-006
   transfiguration:
   - cos-ch06-004
+  - dh-ch15-003
   - gof-ch15-002
   - hbp-ch11-001
   - hbp-ch15-003
@@ -27209,6 +27378,7 @@ by_tag:
   voldemort-family-history:
   - hbp-ch10-007
   voldemort-history:
+  - dh-ch15-002
   - hbp-ch13-001
   - hbp-ch13-007
   - hbp-ch20-004
@@ -27437,6 +27607,7 @@ by_tag:
   witnesses:
   - ootp-ch08-004
   wizard-goblin-relations:
+  - dh-ch15-005
   - ootp-ch05-004
   wizard-law:
   - poa-ch02-003
