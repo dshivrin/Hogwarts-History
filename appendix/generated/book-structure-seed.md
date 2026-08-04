@@ -960,6 +960,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Enchanted Space Beyond the Castle
   - Expanded Tents and Public Camouflage
 
+## Magical Artefacts and Everyday Objects
+
+- Wands, Ownership, and Identity
+  - Wand seizure and denied magical status
+
 ## Magical Artefacts and Instruments
 
 - Concealment, Storage, and Field Equipment
@@ -1233,6 +1238,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Expertise and Magical Surveillance
   - Moody's Dark Detectors in the Classroom Office
   - Moody's Eye and Anti-Concealment Detection
+  - Moody's eye after his death
   - Moody, the Map, and Tournament Surveillance
 - Staff Offices, Stores, and Restricted Access
   - Private Stores and Controlled Truth Potions
@@ -1562,7 +1568,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Student Life and Houses
 
 - Blood Status and Hogwarts Society
+  - Commission procedure and Muggle-born interrogations
+  - Genealogical proof and criminalized ancestry claims
   - Registration enforcement and Blood Status coercion
+  - Wartime propaganda against Muggle-borns
   - Wartime registration and criminalization of Muggle-born magic
 - House Identity, Family Expectation, and Rebellion
   - Black family House identity and Sirius's exception
@@ -1801,6 +1810,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Auror Headquarters and the Sirius Black File
 - Ministry Wartime Powers and Postwar Memory
   - Barty Crouch's Law-Enforcement Record
+- Second Wizarding War Legal Repression
+  - Commission courtroom and dementor coercion
 - The First Wizarding War in Later Hogwarts Teaching
   - Former Death Eater Associations During the Triwizard Year
   - Imperius Curse culpability and postwar denials
+- The Second War and Hogwarts Families
+  - Ministry surveillance of Order-linked families

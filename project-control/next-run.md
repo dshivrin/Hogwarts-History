@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Thirteen - The Muggle-born Registration Commission
-- Page range: 3183-3201
+- Chapter: Chapter Fourteen - The Thief
+- Page range: 3202-3215
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+- Output YAML: `sources/book-07/chapter-14-the-thief.yaml`
 
 ## Minimal Context
 

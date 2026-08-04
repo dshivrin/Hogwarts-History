@@ -6162,6 +6162,18 @@ Summary: The available evidence includes 1 source item, led by: Moody's classroo
   - Corroborates: `poa-ch17-004`, `poa-ch14-004`. poa-ch17-004 records the Marauder's Map tracking Invisibility Cloak users and poa-ch14-004 records cloak-assisted evasion; this entry adds Moody's personal magical-eye detection.
   - Notes: The eye is Moody's personal artifact, not a general Hogwarts security enchantment.
 
+#### Section: Moody's eye after his death
+
+Summary: The available evidence includes 1 source item, led by: Umbridge has repurposed Alastor Moody's magical eye as a peephole and telescopic surveillance device in her Ministry office door.
+
+- **Corroboration:** Umbridge has repurposed Alastor Moody's magical eye as a peephole and telescopic surveillance device in her Ministry office door.
+  - Quote: "enabled Umbridge to spy on the workers"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3186, `dh-ch13-003`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch19-003`, `gof-ch25-007`. Likely related to prior Moody-eye surveillance entries; this entry adds the eye's post-Moody physical reuse by Umbridge in the Ministry.
+  - Notes: The passage shows the eye's mounted use but not exactly how Umbridge acquired it.
+
 #### Section: Moody, the Map, and Tournament Surveillance
 
 Summary: The available evidence includes 1 source item, led by: Moody's magical eye again defeats cloak concealment, and his borrowing of the Marauder's Map turns a student navigation artifact into a staff-level surveillance tool during the tournament crisis.
@@ -12374,6 +12386,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: magical_architecture
   - Notes: The passage does not name the spell or object enchantment used to expand the tents.
 
+## Part: Magical Artefacts and Everyday Objects
+
+### Chapter: Wands, Ownership, and Identity
+
+#### Section: Wand seizure and denied magical status
+
+Summary: The available evidence includes 1 source item, led by: The Commission seizes wands from accused Muggle-borns and uses questionnaire evidence and Muggle parentage to deny their status as witches or wizards.
+
+- **Context:** The Commission seizes wands from accused Muggle-borns and uses questionnaire evidence and Muggle parentage to deny their status as witches or wizards.
+  - Quote: "Wands only choose witches or wizards."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3194, `dh-ch13-007`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Umbridge's statement is ideological prosecution, not a reliable rule of wandlore.
+
 ## Part: Magical Artefacts and Instruments
 
 ### Chapter: Concealment, Storage, and Field Equipment
@@ -13424,6 +13451,30 @@ Summary: The available evidence includes 1 source item, led by: McGonagall award
 
 ### Chapter: Blood Status and Hogwarts Society
 
+#### Section: Commission procedure and Muggle-born interrogations
+
+Summary: The available evidence includes 1 source item, led by: The Commission operates as a scheduled bureaucratic process with record-keeping, courtrooms, guards, and a daily list of people to be interrogated.
+
+- **Corroboration:** The Commission operates as a scheduled bureaucratic process with record-keeping, courtrooms, guards, and a daily list of people to be interrogated.
+  - Quote: "record-keeping we shall be able to start straightaway"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3183, `dh-ch13-001`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch11-003`, `dh-ch12-004`. Likely continuation of dh-ch11-003 and dh-ch12-004: those entries record the policy announcement and enforcement pressure; this entry adds the Commission's courtroom workflow and daily hearing list.
+  - Notes: The evidence shows adult hearings and one Ministry employee's wife, not an on-page Hogwarts student hearing.
+
+#### Section: Genealogical proof and criminalized ancestry claims
+
+Summary: The available evidence includes 1 source item, led by: Blood-status enforcement includes informants and family-tree investigations, with alleged false ancestry records exposing people such as Dirk Cresswell to Azkaban.
+
+- **Corroboration:** Blood-status enforcement includes informants and family-tree investigations, with alleged false ancestry records exposing people such as Dirk Cresswell to Azkaban.
+  - Quote: "the wizard who faked his family tree"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3191, `dh-ch13-005`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch11-003`, `dh-ch11-004`, `dh-ch12-004`. Likely related to entries on the Register, compulsory attendance screening, and active enforcement; this entry adds informant-driven family-tree fraud allegations and Azkaban risk.
+  - Notes: The scene gives Arthur's accusation rather than Cresswell's direct testimony.
+
 #### Section: Registration enforcement and Blood Status coercion
 
 Summary: The available evidence includes 1 source item, led by: The Muggle-born Registration regime is in active operation: missed interrogations are listed publicly, and Yaxley uses a worker's wife's Blood Status case as workplace coercion.
@@ -13435,6 +13486,18 @@ Summary: The available evidence includes 1 source item, led by: The Muggle-born 
   - Reference type: historical_claim
   - Corroborates: `dh-ch11-003`. Likely continuation of dh-ch11-003, which records the Register and Commission announcement; this entry adds public missed-interrogation lists and coercive enforcement inside the Ministry.
   - Notes: The chapter shows enforcement around adult Ministry workers and Hermione, not a Hogwarts student interrogation on the page.
+
+#### Section: Wartime propaganda against Muggle-borns
+
+Summary: The available evidence includes 1 source item, led by: The captured Ministry mass-produces anonymous pamphlets that frame Muggle-born people as a danger to a peaceful pure-blood society.
+
+- **Corroboration:** The captured Ministry mass-produces anonymous pamphlets that frame Muggle-born people as a danger to a peaceful pure-blood society.
+  - Quote: "MUDBLOODS and the Dangers They Pose"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3185, `dh-ch13-002`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch11-002`, `dh-ch12-006`. Likely related to dh-ch11-002 and dh-ch12-006, which cover captured-Ministry propaganda and the Magic Is Might monument; this entry adds printed anti-Muggle-born pamphlet production.
+  - Notes: The pamphlet is propaganda and should not be treated as reliable evidence about Muggle-born magic.
 
 #### Section: Wartime registration and criminalization of Muggle-born magic
 
@@ -14214,6 +14277,20 @@ Summary: The available evidence includes 1 source item, led by: Sirius gives a c
   - Corroborates: `gof-ch14-005`, `gof-ch09-007`, `gof-ch07-007`. gof-ch14-005 records legal penalties for Unforgivable Curses, gof-ch09-007 records Dark Mark and Death Eater postwar context, and gof-ch07-007 records Crouch's Ministry role in the tournament; this entry adds Crouch's wartime powers, family scandal, and career demotion.
   - Notes: Sirius is a knowledgeable but personally affected witness, so the account should be corroborated with official records where possible.
 
+### Chapter: Second Wizarding War Legal Repression
+
+#### Section: Commission courtroom and dementor coercion
+
+Summary: The available evidence includes 1 source item, led by: The Commission hearing uses dementors, a chained chair, and prosecutor-side Patronus protection so despair falls on accused Muggle-borns rather than officials.
+
+- **Corroboration:** The Commission hearing uses dementors, a chained chair, and prosecutor-side Patronus protection so despair falls on accused Muggle-borns rather than officials.
+  - Quote: "That was for the accused to feel"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3192, `dh-ch13-006`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch30-003`, `ootp-ch02-005`, `ootp-ch08-003`. Likely related to earlier courtroom and Patronus-defense entries; this entry adds wartime Commission use, Muggle-born defendants, and prosecutor Patronus shielding.
+  - Notes: The passage describes a Ministry courtroom, not a school disciplinary setting.
+
 ### Chapter: The First Wizarding War in Later Hogwarts Teaching
 
 #### Section: Former Death Eater Associations During the Triwizard Year
@@ -14239,3 +14316,16 @@ Summary: The available evidence includes 1 source item, led by: Moody connects I
   - Reference type: historical_claim
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Death Eater postwar denials and Azkaban avoidance; this entry gives the related Imperius-specific legal problem.
   - Notes: Harry infers the Voldemort-era connection; Moody does not explicitly name Voldemort in the quoted explanation.
+
+### Chapter: The Second War and Hogwarts Families
+
+#### Section: Ministry surveillance of Order-linked families
+
+Summary: The available evidence includes 1 source item, led by: The Ministry keeps blood-status and security files on Arthur Weasley, tying family details and Hogwarts-attending children to surveillance of Harry's possible contacts.
+
+- **Context:** The Ministry keeps blood-status and security files on Arthur Weasley, tying family details and Hogwarts-attending children to surveillance of Harry's possible contacts.
+  - Quote: "TRACKED. All movements are being monitored."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, PDF p. 3187, `dh-ch13-004`, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The file is a Ministry surveillance record and may contain biased threat framing.

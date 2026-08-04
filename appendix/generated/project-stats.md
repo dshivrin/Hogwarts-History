@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 174
+- Total: 175
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 78
+- Harry Potter and the Deathly Hallows: 85
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,7 +23,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 468
-- later_editorial_note: 561
+- later_editorial_note: 568
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 2
 - pre_1984_historical_candidate: 108
@@ -34,14 +34,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - curriculum_or_subject: 153
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
-- explicit_in_universe_source: 82
-- historical_claim: 143
+- explicit_in_universe_source: 83
+- historical_claim: 147
 - house_system: 18
 - institutional_custom: 181
 - magical_architecture: 87
 - portrait_or_ghost_lore: 16
 - school_rule_or_policy: 129
-- security_or_protection: 193
+- security_or_protection: 195
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 827
+- Total: 832
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, pages 3163-3182, `sources/book-07/chapter-12-magic-is-might.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, pages 3183-3201, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, pages 3183-3201, `sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, pages 3202-3215, `sources/book-07/chapter-14-the-thief.yaml`

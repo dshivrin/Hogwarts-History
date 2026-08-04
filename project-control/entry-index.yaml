@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-03'
+updated: '2026-08-04'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -17363,6 +17363,115 @@ by_entry:
     - wizengamot
     source_unit: dh-ch12
     output_yaml: sources/book-07/chapter-12-magic-is-might.yaml
+  dh-ch13-001:
+    title: 'Blood Status and Hogwarts Society: Commission procedure and Muggle-born
+      interrogations'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - interrogation
+    - mary-cattermole
+    - ministry-policy
+    - muggle-born-register
+    - muggle-born-registration-commission
+    - record-keeping
+    - second-war
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch13-002:
+    title: 'Blood Status and Hogwarts Society: Wartime propaganda against Muggle-borns'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - blood-status
+    - ministry-of-magic
+    - ministry-propaganda
+    - muggle-borns
+    - pamphlets
+    - pure-blood-ideology
+    - second-war
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch13-003:
+    title: 'Staff Expertise and Magical Surveillance: Moody''s eye after his death'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - mad-eye-moody
+    - magical-artifacts
+    - magical-eye
+    - ministry-of-magic
+    - second-war
+    - surveillance
+    - umbridge
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch13-004:
+    title: 'The Second War and Hogwarts Families: Ministry surveillance of Order-linked
+      families'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - arthur-weasley
+    - blood-status
+    - hogwarts-students
+    - ministry-files
+    - order-of-the-phoenix
+    - surveillance
+    - undesirable-no-1
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch13-005:
+    title: 'Blood Status and Hogwarts Society: Genealogical proof and criminalized
+      ancestry claims'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - ancestry-proof
+    - azkaban
+    - blood-status
+    - dirk-cresswell
+    - family-trees
+    - ministry-policy
+    - second-war
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch13-006:
+    title: 'Second Wizarding War Legal Repression: Commission courtroom and dementor
+      coercion'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - courtroom
+    - dementors
+    - mary-cattermole
+    - muggle-born-registration-commission
+    - patronus
+    - second-war
+    - wizarding-law
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch13-007:
+    title: 'Wands, Ownership, and Identity: Wand seizure and denied magical status'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - ancestry-proof
+    - blood-status
+    - ministry-policy
+    - muggle-borns
+    - questionnaire
+    - second-war
+    - wand-ownership
+    source_unit: dh-ch13
+    output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -17505,6 +17614,9 @@ by_tag:
   - ootp-ch08-003
   amortentia:
   - hbp-ch09-005
+  ancestry-proof:
+  - dh-ch13-005
+  - dh-ch13-007
   ancient-creature:
   - cos-ch15-007
   ancient-magic:
@@ -17633,6 +17745,7 @@ by_tag:
   arthur-weasley:
   - dh-ch04-004
   - dh-ch09-007
+  - dh-ch13-004
   - hbp-ch16-001
   - ootp-ch07-006
   - ootp-ch21-007
@@ -17711,6 +17824,7 @@ by_tag:
   - cos-ch14-005
   - dh-ch05-005
   - dh-ch06-003
+  - dh-ch13-005
   - gof-ch02-006
   - gof-ch09-007
   - gof-ch14-005
@@ -17922,6 +18036,10 @@ by_tag:
   - dh-ch11-003
   - dh-ch11-004
   - dh-ch12-004
+  - dh-ch13-002
+  - dh-ch13-004
+  - dh-ch13-005
+  - dh-ch13-007
   - gof-ch08-003
   blood-status-threat:
   - cos-ch08-006
@@ -18640,6 +18758,7 @@ by_tag:
   court-scribe:
   - ootp-ch08-002
   courtroom:
+  - dh-ch13-006
   - gof-ch30-003
   courtroom-ten:
   - ootp-ch07-007
@@ -19055,6 +19174,7 @@ by_tag:
   - ootp-ch08-005
   dementors:
   - dh-ch03-003
+  - dh-ch13-006
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -19176,6 +19296,8 @@ by_tag:
   - ootp-ch22-006
   diplomacy:
   - ootp-ch20-004
+  dirk-cresswell:
+  - dh-ch13-005
   disapparate:
   - hbp-ch28-005
   disapparition:
@@ -19877,6 +19999,7 @@ by_tag:
   - dh-ch08-005
   family-trees:
   - dh-ch01-005
+  - dh-ch13-005
   famous-wizard-card:
   - ps-ch06-003
   fang:
@@ -21395,6 +21518,7 @@ by_tag:
   - dh-ch02-001
   - dh-ch02-003
   hogwarts-students:
+  - dh-ch13-004
   - hbp-ch23-006
   hogwarts-teacher:
   - gof-ch33-002
@@ -21875,6 +21999,7 @@ by_tag:
   - gof-ch01-002
   interrogation:
   - dh-ch12-004
+  - dh-ch13-001
   interschool-competitions:
   - hbp-ch25-002
   intruder-charm:
@@ -22253,6 +22378,7 @@ by_tag:
   mad-eye-moody:
   - dh-ch05-006
   - dh-ch09-006
+  - dh-ch13-003
   - gof-ch11-001
   - gof-ch12-006
   - gof-ch13-005
@@ -22359,6 +22485,7 @@ by_tag:
   - ps-ch12-006
   magical-artifacts:
   - dh-ch11-007
+  - dh-ch13-003
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -22449,6 +22576,7 @@ by_tag:
   magical-expertise:
   - hbp-ch26-002
   magical-eye:
+  - dh-ch13-003
   - gof-ch19-003
   - gof-ch25-007
   magical-fortifications:
@@ -22716,6 +22844,8 @@ by_tag:
   - ootp-ch27-003
   mary-cattermole:
   - dh-ch12-004
+  - dh-ch13-001
+  - dh-ch13-006
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
@@ -22881,6 +23011,8 @@ by_tag:
   - poa-ch03-001
   ministry-enforcement:
   - dh-ch11-007
+  ministry-files:
+  - dh-ch13-004
   ministry-guidelines:
   - gof-ch10-004
   - gof-ch27-004
@@ -22928,6 +23060,8 @@ by_tag:
   - dh-ch12-003
   - dh-ch12-006
   - dh-ch12-007
+  - dh-ch13-002
+  - dh-ch13-003
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -23007,6 +23141,9 @@ by_tag:
   - dh-ch11-003
   - dh-ch11-004
   - dh-ch12-004
+  - dh-ch13-001
+  - dh-ch13-005
+  - dh-ch13-007
   ministry-posters:
   - hbp-ch06-002
   - ootp-ch25-006
@@ -23014,6 +23151,8 @@ by_tag:
   - dh-ch11-001
   ministry-procedure:
   - hbp-ch05-003
+  ministry-propaganda:
+  - dh-ch13-002
   ministry-public-guidance:
   - hbp-ch03-003
   - hbp-ch04-002
@@ -23127,6 +23266,10 @@ by_tag:
   muggle-born-register:
   - dh-ch11-003
   - dh-ch12-004
+  - dh-ch13-001
+  muggle-born-registration-commission:
+  - dh-ch13-001
+  - dh-ch13-006
   muggle-born-student:
   - cos-ch12-007
   muggle-born-students:
@@ -23142,6 +23285,8 @@ by_tag:
   - dh-ch01-005
   - dh-ch01-006
   - dh-ch06-005
+  - dh-ch13-002
+  - dh-ch13-007
   - ootp-ch06-004
   muggle-camouflage:
   - gof-ch07-002
@@ -23521,6 +23666,7 @@ by_tag:
   - dh-ch09-007
   - dh-ch11-001
   - dh-ch11-005
+  - dh-ch13-004
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -23632,6 +23778,8 @@ by_tag:
   - poa-ch18-006
   palmistry:
   - poa-ch06-003
+  pamphlets:
+  - dh-ch13-002
   parcels:
   - ootp-ch29-002
   parent-letters:
@@ -23700,6 +23848,7 @@ by_tag:
   patronus:
   - dh-ch08-007
   - dh-ch09-007
+  - dh-ch13-006
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -24413,6 +24562,7 @@ by_tag:
   - dh-ch11-003
   - dh-ch12-004
   - dh-ch12-006
+  - dh-ch13-002
   - ootp-ch06-004
   pure-blood-prejudice:
   - cos-ch07-003
@@ -24434,6 +24584,8 @@ by_tag:
   - cos-ch07-001
   qualification:
   - hbp-ch26-005
+  questionnaire:
+  - dh-ch13-007
   quibbler:
   - ootp-ch10-005
   - ootp-ch25-007
@@ -24587,6 +24739,8 @@ by_tag:
   - hbp-ch24-005
   reception-customs:
   - dh-ch08-001
+  record-keeping:
+  - dh-ch13-001
   recruiting-ground:
   - hbp-ch20-004
   recruitment:
@@ -25105,6 +25259,12 @@ by_tag:
   - dh-ch11-001
   - dh-ch11-002
   - dh-ch11-003
+  - dh-ch13-001
+  - dh-ch13-002
+  - dh-ch13-003
+  - dh-ch13-005
+  - dh-ch13-006
+  - dh-ch13-007
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -26198,6 +26358,8 @@ by_tag:
   - poa-ch02-002
   surveillance:
   - dh-ch09-007
+  - dh-ch13-003
+  - dh-ch13-004
   - gof-ch37-006
   survivor-care:
   - gof-ch36-003
@@ -26641,6 +26803,7 @@ by_tag:
   - hbp-ch21-001
   umbridge:
   - dh-ch11-007
+  - dh-ch13-003
   - hbp-ch07-004
   - ootp-ch16-003
   - ootp-ch16-004
@@ -26703,6 +26866,8 @@ by_tag:
   - gof-ch26-002
   underwater-terrain:
   - gof-ch26-006
+  undesirable-no-1:
+  - dh-ch13-004
   undetectable-extension-charm:
   - dh-ch09-002
   unexplained-deaths:
@@ -26923,6 +27088,8 @@ by_tag:
   - dh-ch08-001
   - gof-ch09-006
   - hbp-ch02-006
+  wand-ownership:
+  - dh-ch13-007
   wand-registration:
   - ootp-ch07-002
   - ootp-ch34-002
@@ -27148,6 +27315,7 @@ by_tag:
   - ootp-ch22-002
   wizarding-law:
   - dh-ch09-005
+  - dh-ch13-006
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch30-003

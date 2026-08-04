@@ -1,0 +1,331 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirteen - The Muggle-born Registration Commission
+  chapter_start_pdf_page: 3183
+  chapter_end_pdf_page: 3201
+  boundary_confidence: high
+  boundary_notes: "Bounded from processing-state.yaml and extracted directly from inclusive PDF pages 3183-3201; no full-PDF scan was used."
+  processed_date: '2026-08-04'
+  processor_notes: "Created during the hogwarts-history automation run for the next pending source unit. No explicit Hogwarts: A History references were found."
+
+entries:
+  - id: dh-ch13-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3183
+    printed_page: null
+    extracted_text_lines: "10-18"
+    text_anchor:
+      start_phrase: "Good, you'll do perfectly well"
+      end_phrase: "you'll find everything you need in the courtroom"
+      local_occurrence_note: "Umbridge assigns Hermione, disguised as Mafalda, to record-keeping as the Commission proceeds with the day's interrogations."
+    nearby_context: "Umbridge consults a clipboard, notes ten people scheduled that day, and remarks that one case is the wife of a Ministry employee."
+    match_terms:
+      - Muggle-born Registration Commission
+      - record-keeping
+      - courtroom
+      - interrogation
+      - Mary Cattermole
+    quote_excerpt_short: "record-keeping we shall be able to start straightaway"
+    source_note: "The Commission operates as a scheduled bureaucratic process with record-keeping, courtrooms, guards, and a daily list of people to be interrogated."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - muggle-born-registration-commission
+      - muggle-born-register
+      - interrogation
+      - record-keeping
+      - ministry-policy
+      - mary-cattermole
+      - second-war
+    candidate_part: Student Life and Houses
+    candidate_chapter: Blood Status and Hogwarts Society
+    candidate_section: Commission procedure and Muggle-born interrogations
+    reason_for_placement: "The scene shows how anti-Muggle-born policy became an everyday administrative and legal process."
+    relevance_to_hogwarts_a_history: "A later edition can use this as direct evidence for the regime threatening Muggle-born Hogwarts students and their families in 1997-1998."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch11-003
+        - dh-ch12-004
+      notes: "Likely continuation of dh-ch11-003 and dh-ch12-004: those entries record the policy announcement and enforcement pressure; this entry adds the Commission's courtroom workflow and daily hearing list."
+    confidence: high
+    limitations: "The evidence shows adult hearings and one Ministry employee's wife, not an on-page Hogwarts student hearing."
+
+  - id: dh-ch13-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3185
+    printed_page: null
+    extracted_text_lines: "72-99"
+    text_anchor:
+      start_phrase: "a dozen witches and wizards sat in rows"
+      end_phrase: "Will the old hag be interrogating Mudbloods all day"
+      local_occurrence_note: "Harry watches Ministry workers magically assemble anti-Muggle-born pamphlets near Umbridge's office."
+    nearby_context: "The pamphlet cover is pink and gold, with an image of a rose being strangled by a fanged weed."
+    match_terms:
+      - Mudbloods
+      - pamphlets
+      - Pure-Blood Society
+      - propaganda
+      - Ministry workers
+    quote_excerpt_short: "MUDBLOODS and the Dangers They Pose"
+    source_note: "The captured Ministry mass-produces anonymous pamphlets that frame Muggle-born people as a danger to a peaceful pure-blood society."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-propaganda
+      - pure-blood-ideology
+      - muggle-borns
+      - pamphlets
+      - blood-status
+      - ministry-of-magic
+      - second-war
+    candidate_part: Student Life and Houses
+    candidate_chapter: Blood Status and Hogwarts Society
+    candidate_section: Wartime propaganda against Muggle-borns
+    reason_for_placement: "The pamphlet gives a concrete in-universe source for the regime's public justification of anti-Muggle-born persecution."
+    relevance_to_hogwarts_a_history: "This supports later editorial treatment of how blood-status ideology moved from school prejudice into state propaganda affecting Hogwarts families."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch11-002
+        - dh-ch12-006
+      notes: "Likely related to dh-ch11-002 and dh-ch12-006, which cover captured-Ministry propaganda and the Magic Is Might monument; this entry adds printed anti-Muggle-born pamphlet production."
+    confidence: high
+    limitations: "The pamphlet is propaganda and should not be treated as reliable evidence about Muggle-born magic."
+
+  - id: dh-ch13-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3186
+    printed_page: null
+    extracted_text_lines: "102-155"
+    text_anchor:
+      start_phrase: "has she got magic ears as well as an eye"
+      end_phrase: "pulled the magical eyeball out of it"
+      local_occurrence_note: "Harry identifies Moody's magical eye mounted in Umbridge's office door and removes its telescopic attachment."
+    nearby_context: "The same door identifies Umbridge as Senior Undersecretary and Head of the Muggle-born Registration Commission."
+    match_terms:
+      - Moody's eye
+      - telescopic attachment
+      - spy
+      - Umbridge
+      - Muggle-born Registration Commission
+    quote_excerpt_short: "enabled Umbridge to spy on the workers"
+    source_note: "Umbridge has repurposed Alastor Moody's magical eye as a peephole and telescopic surveillance device in her Ministry office door."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - mad-eye-moody
+      - magical-eye
+      - surveillance
+      - umbridge
+      - ministry-of-magic
+      - magical-artifacts
+      - second-war
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Staff Expertise and Magical Surveillance
+    candidate_section: Moody's eye after his death
+    reason_for_placement: "The scene extends the magical-eye evidence from defensive expertise into artifact seizure and abusive state surveillance."
+    relevance_to_hogwarts_a_history: "A later edition can connect Moody's former school-defense expertise and magical eye to the wartime Ministry's reuse of captured Order artifacts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch19-003
+        - gof-ch25-007
+      notes: "Likely related to prior Moody-eye surveillance entries; this entry adds the eye's post-Moody physical reuse by Umbridge in the Ministry."
+    confidence: high
+    limitations: "The passage shows the eye's mounted use but not exactly how Umbridge acquired it."
+
+  - id: dh-ch13-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3187
+    printed_page: null
+    extracted_text_lines: "164-193"
+    text_anchor:
+      start_phrase: "There was a filing cabinet behind the desk"
+      end_phrase: "To be punished"
+      local_occurrence_note: "Harry finds Arthur Weasley's file in Umbridge's office filing cabinet."
+    nearby_context: "Arthur is marked pureblood but pro-Muggle, an Order member, father of two youngest children at Hogwarts, and tracked because Undesirable No. 1 may contact him."
+    match_terms:
+      - Arthur Weasley
+      - Blood Status
+      - Order of the Phoenix
+      - TRACKED
+      - Undesirable No. 1
+    quote_excerpt_short: "TRACKED. All movements are being monitored."
+    source_note: "The Ministry keeps blood-status and security files on Arthur Weasley, tying family details and Hogwarts-attending children to surveillance of Harry's possible contacts."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - arthur-weasley
+      - surveillance
+      - blood-status
+      - order-of-the-phoenix
+      - ministry-files
+      - undesirable-no-1
+      - hogwarts-students
+    candidate_part: Wars, Crises, and School Memory
+    candidate_chapter: The Second War and Hogwarts Families
+    candidate_section: Ministry surveillance of Order-linked families
+    reason_for_placement: "The file shows how wartime state surveillance connected adult politics, family membership, and children still associated with Hogwarts."
+    relevance_to_hogwarts_a_history: "This is useful for documenting the pressure on Order-linked Hogwarts families during Snape's headmaster year."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries found general surveillance and Umbridge references, but no prior entry for Arthur's Ministry file or its link to his children at Hogwarts."
+    confidence: high
+    limitations: "The file is a Ministry surveillance record and may contain biased threat framing."
+
+  - id: dh-ch13-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3191
+    printed_page: null
+    extracted_text_lines: "277-293"
+    text_anchor:
+      start_phrase: "I hear you laid information about Dirk Cresswell"
+      end_phrase: "They're watching your every move"
+      local_occurrence_note: "Arthur confronts Harry disguised as Runcorn in the lift and names Dirk Cresswell's faked family tree case."
+    nearby_context: "Arthur says Cresswell may have to survive Azkaban, and Harry warns Arthur that the Ministry is tracking him."
+    match_terms:
+      - Dirk Cresswell
+      - family tree
+      - Runcorn
+      - Azkaban
+      - blood status
+    quote_excerpt_short: "the wizard who faked his family tree"
+    source_note: "Blood-status enforcement includes informants and family-tree investigations, with alleged false ancestry records exposing people such as Dirk Cresswell to Azkaban."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - blood-status
+      - family-trees
+      - dirk-cresswell
+      - ancestry-proof
+      - azkaban
+      - ministry-policy
+      - second-war
+    candidate_part: Student Life and Houses
+    candidate_chapter: Blood Status and Hogwarts Society
+    candidate_section: Genealogical proof and criminalized ancestry claims
+    reason_for_placement: "Family-tree policing is a direct extension of the regime's blood-status system and helps explain the evidence demanded of Muggle-born and suspect families."
+    relevance_to_hogwarts_a_history: "A later edition can use this to contextualize the official Blood Status proof required before Hogwarts attendance under Voldemort's regime."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch11-003
+        - dh-ch11-004
+        - dh-ch12-004
+      notes: "Likely related to entries on the Register, compulsory attendance screening, and active enforcement; this entry adds informant-driven family-tree fraud allegations and Azkaban risk."
+    confidence: high
+    limitations: "The scene gives Arthur's accusation rather than Cresswell's direct testimony."
+
+  - id: dh-ch13-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3192
+    printed_page: null
+    extracted_text_lines: "322-384; 397-404"
+    text_anchor:
+      start_phrase: "The dark passage outside the courtrooms was packed"
+      end_phrase: "That was for the accused to feel"
+      local_occurrence_note: "Harry passes dementors and enters the Commission courtroom where Umbridge's Patronus shields the prosecutors."
+    nearby_context: "Muggle-borns wait on benches with families or alone, a man is threatened with the Dementor's Kiss, and Mrs. Cattermole is chained to the central chair."
+    match_terms:
+      - dementors
+      - courtrooms
+      - Dementor's Kiss
+      - Patronus
+      - chained chair
+    quote_excerpt_short: "That was for the accused to feel"
+    source_note: "The Commission hearing uses dementors, a chained chair, and prosecutor-side Patronus protection so despair falls on accused Muggle-borns rather than officials."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - dementors
+      - courtroom
+      - patronus
+      - muggle-born-registration-commission
+      - mary-cattermole
+      - wizarding-law
+      - second-war
+    candidate_part: Wars, Crises, and School Memory
+    candidate_chapter: Second Wizarding War Legal Repression
+    candidate_section: Commission courtroom and dementor coercion
+    reason_for_placement: "The scene gives concrete architecture and magical enforcement details for the regime's legal persecution."
+    relevance_to_hogwarts_a_history: "This later evidence clarifies the state-backed danger faced by Muggle-born Hogwarts families and students during the 1997-1998 school year."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch30-003
+        - ootp-ch02-005
+        - ootp-ch08-003
+      notes: "Likely related to earlier courtroom and Patronus-defense entries; this entry adds wartime Commission use, Muggle-born defendants, and prosecutor Patronus shielding."
+    confidence: high
+    limitations: "The passage describes a Ministry courtroom, not a school disciplinary setting."
+
+  - id: dh-ch13-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirteen - The Muggle-born Registration Commission
+    chapter_start_pdf_page: 3183
+    chapter_end_pdf_page: 3201
+    pdf_page: 3194
+    printed_page: null
+    extracted_text_lines: "418-452"
+    text_anchor:
+      start_phrase: "A wand was taken from you"
+      end_phrase: "Parents' professions: greengrocers"
+      local_occurrence_note: "Umbridge questions Mary Cattermole about her wand and questionnaire answers during the hearing."
+    nearby_context: "Mary says she bought the wand at eleven and that it chose her; Umbridge rejects the claim and ties the case to her Muggle parents' professions."
+    match_terms:
+      - wand
+      - chose me
+      - questionnaire
+      - witch or wizard
+      - parents' professions
+    quote_excerpt_short: "Wands only choose witches or wizards."
+    source_note: "The Commission seizes wands from accused Muggle-borns and uses questionnaire evidence and Muggle parentage to deny their status as witches or wizards."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - wand-ownership
+      - muggle-borns
+      - blood-status
+      - questionnaire
+      - ancestry-proof
+      - ministry-policy
+      - second-war
+    candidate_part: Magical Artefacts and Everyday Objects
+    candidate_chapter: Wands, Ownership, and Identity
+    candidate_section: Wand seizure and denied magical status
+    reason_for_placement: "The hearing shows state ideology attacking the ordinary Hogwarts premise that a wand chooses a young witch or wizard."
+    relevance_to_hogwarts_a_history: "This evidence helps a later edition contrast normal first-year wand acquisition with the wartime state's denial of Muggle-born magical identity."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries found general wand-material entries but no prior entry for Commission wand seizure or the denial that a Muggle-born's wand chose them."
+    confidence: high
+    limitations: "Umbridge's statement is ideological prosecution, not a reliable rule of wandlore."

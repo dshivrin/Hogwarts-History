@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-03'
+updated: '2026-08-04'
 tags:
   a-history-of-magic:
     entries:
@@ -302,6 +302,12 @@ tags:
     - hbp-ch09-005
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+  ancestry-proof:
+    entries:
+    - dh-ch13-005
+    - dh-ch13-007
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   ancient-creature:
     entries:
     - cos-ch15-007
@@ -582,6 +588,7 @@ tags:
     entries:
     - dh-ch04-004
     - dh-ch09-007
+    - dh-ch13-004
     - hbp-ch16-001
     - ootp-ch07-006
     - ootp-ch21-007
@@ -591,6 +598,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   artifact-accidents:
     entries:
     - ootp-ch22-005
@@ -749,6 +757,7 @@ tags:
     - cos-ch14-005
     - dh-ch05-005
     - dh-ch06-003
+    - dh-ch13-005
     - gof-ch02-006
     - gof-ch09-007
     - gof-ch14-005
@@ -790,6 +799,7 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   azkaban-guards:
     entries:
     - poa-ch04-007
@@ -1188,6 +1198,10 @@ tags:
     - dh-ch11-003
     - dh-ch11-004
     - dh-ch12-004
+    - dh-ch13-002
+    - dh-ch13-004
+    - dh-ch13-005
+    - dh-ch13-007
     - gof-ch08-003
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
@@ -1197,6 +1211,7 @@ tags:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   blood-status-threat:
     entries:
     - cos-ch08-006
@@ -2764,9 +2779,11 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
   courtroom:
     entries:
+    - dh-ch13-006
     - gof-ch30-003
     output_yaml:
     - sources/book-04/chapter-30-the-pensieve.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   courtroom-ten:
     entries:
     - ootp-ch07-007
@@ -3637,6 +3654,7 @@ tags:
   dementors:
     entries:
     - dh-ch03-003
+    - dh-ch13-006
     - gof-ch02-006
     - gof-ch14-004
     - gof-ch30-003
@@ -3691,6 +3709,7 @@ tags:
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   dementors-kiss:
     entries:
     - ootp-ch02-005
@@ -3878,6 +3897,11 @@ tags:
     - ootp-ch20-004
     output_yaml:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  dirk-cresswell:
+    entries:
+    - dh-ch13-005
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   disapparate:
     entries:
     - hbp-ch28-005
@@ -5312,8 +5336,10 @@ tags:
   family-trees:
     entries:
     - dh-ch01-005
+    - dh-ch13-005
     output_yaml:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   famous-wizard-card:
     entries:
     - ps-ch06-003
@@ -8464,9 +8490,11 @@ tags:
     - sources/book-07/chapter-02-in-memoriam.yaml
   hogwarts-students:
     entries:
+    - dh-ch13-004
     - hbp-ch23-006
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   hogwarts-teacher:
     entries:
     - gof-ch33-002
@@ -9509,8 +9537,10 @@ tags:
   interrogation:
     entries:
     - dh-ch12-004
+    - dh-ch13-001
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   interschool-competitions:
     entries:
     - hbp-ch25-002
@@ -10344,6 +10374,7 @@ tags:
     entries:
     - dh-ch05-006
     - dh-ch09-006
+    - dh-ch13-003
     - gof-ch11-001
     - gof-ch12-006
     - gof-ch13-005
@@ -10374,6 +10405,7 @@ tags:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   madam-hooch:
     entries:
     - cos-ch10-003
@@ -10560,10 +10592,12 @@ tags:
   magical-artifacts:
     entries:
     - dh-ch11-007
+    - dh-ch13-003
     - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   magical-barrier:
     entries:
     - cos-ch05-001
@@ -10761,11 +10795,13 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
   magical-eye:
     entries:
+    - dh-ch13-003
     - gof-ch19-003
     - gof-ch25-007
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   magical-fortifications:
     entries:
     - hbp-ch08-006
@@ -11338,8 +11374,11 @@ tags:
   mary-cattermole:
     entries:
     - dh-ch12-004
+    - dh-ch13-001
+    - dh-ch13-006
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   match-commentary:
     entries:
     - poa-ch13-002
@@ -11717,6 +11756,11 @@ tags:
     - dh-ch11-007
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
+  ministry-files:
+    entries:
+    - dh-ch13-004
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   ministry-guidelines:
     entries:
     - gof-ch10-004
@@ -11810,6 +11854,8 @@ tags:
     - dh-ch12-003
     - dh-ch12-006
     - dh-ch12-007
+    - dh-ch13-002
+    - dh-ch13-003
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -11943,14 +11989,19 @@ tags:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   ministry-policy:
     entries:
     - dh-ch11-003
     - dh-ch11-004
     - dh-ch12-004
+    - dh-ch13-001
+    - dh-ch13-005
+    - dh-ch13-007
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   ministry-posters:
     entries:
     - hbp-ch06-002
@@ -11968,6 +12019,11 @@ tags:
     - hbp-ch05-003
     output_yaml:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  ministry-propaganda:
+    entries:
+    - dh-ch13-002
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   ministry-public-guidance:
     entries:
     - hbp-ch03-003
@@ -12229,9 +12285,17 @@ tags:
     entries:
     - dh-ch11-003
     - dh-ch12-004
+    - dh-ch13-001
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  muggle-born-registration-commission:
+    entries:
+    - dh-ch13-001
+    - dh-ch13-006
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   muggle-born-student:
     entries:
     - cos-ch12-007
@@ -12260,11 +12324,14 @@ tags:
     - dh-ch01-005
     - dh-ch01-006
     - dh-ch06-005
+    - dh-ch13-002
+    - dh-ch13-007
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   muggle-camouflage:
     entries:
     - gof-ch07-002
@@ -13095,6 +13162,7 @@ tags:
     - dh-ch09-007
     - dh-ch11-001
     - dh-ch11-005
+    - dh-ch13-004
     - hbp-ch02-002
     - hbp-ch02-004
     - hbp-ch03-005
@@ -13142,6 +13210,7 @@ tags:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -13323,6 +13392,11 @@ tags:
     - poa-ch06-003
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+  pamphlets:
+    entries:
+    - dh-ch13-002
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   parcels:
     entries:
     - ootp-ch29-002
@@ -13472,6 +13546,7 @@ tags:
     entries:
     - dh-ch08-007
     - dh-ch09-007
+    - dh-ch13-006
     - ootp-ch01-005
     - ootp-ch02-002
     - ootp-ch02-005
@@ -13492,6 +13567,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   patronus-charm:
     entries:
     - ootp-ch27-004
@@ -14988,6 +15064,7 @@ tags:
     - dh-ch11-003
     - dh-ch12-004
     - dh-ch12-006
+    - dh-ch13-002
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
@@ -14995,6 +15072,7 @@ tags:
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   pure-blood-prejudice:
     entries:
     - cos-ch07-003
@@ -15044,6 +15122,11 @@ tags:
     - hbp-ch26-005
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  questionnaire:
+    entries:
+    - dh-ch13-007
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   quibbler:
     entries:
     - ootp-ch10-005
@@ -15360,6 +15443,11 @@ tags:
     - dh-ch08-001
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
+  record-keeping:
+    entries:
+    - dh-ch13-001
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   recruiting-ground:
     entries:
     - hbp-ch20-004
@@ -16470,6 +16558,12 @@ tags:
     - dh-ch11-001
     - dh-ch11-002
     - dh-ch11-003
+    - dh-ch13-001
+    - dh-ch13-002
+    - dh-ch13-003
+    - dh-ch13-005
+    - dh-ch13-006
+    - dh-ch13-007
     - hbp-ch01-004
     - hbp-ch01-005
     - hbp-ch01-006
@@ -16523,6 +16617,7 @@ tags:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -18871,10 +18966,13 @@ tags:
   surveillance:
     entries:
     - dh-ch09-007
+    - dh-ch13-003
+    - dh-ch13-004
     - gof-ch37-006
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   survivor-care:
     entries:
     - gof-ch36-003
@@ -19835,6 +19933,7 @@ tags:
   umbridge:
     entries:
     - dh-ch11-007
+    - dh-ch13-003
     - hbp-ch07-004
     - ootp-ch16-003
     - ootp-ch16-004
@@ -19860,6 +19959,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   umbridge-office:
     entries:
     - ootp-ch29-005
@@ -19961,6 +20061,11 @@ tags:
     - gof-ch26-006
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+  undesirable-no-1:
+    entries:
+    - dh-ch13-004
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   undetectable-extension-charm:
     entries:
     - dh-ch09-002
@@ -20428,6 +20533,11 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
+  wand-ownership:
+    entries:
+    - dh-ch13-007
+    output_yaml:
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   wand-registration:
     entries:
     - ootp-ch07-002
@@ -20926,6 +21036,7 @@ tags:
   wizarding-law:
     entries:
     - dh-ch09-005
+    - dh-ch13-006
     - gof-ch14-003
     - gof-ch14-005
     - gof-ch30-003
@@ -20939,6 +21050,7 @@ tags:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   wizarding-politics:
     entries:
     - ootp-ch05-006
