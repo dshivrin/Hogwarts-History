@@ -854,6 +854,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy Strains After Voldemort's Fall
 - Wands, Equipment, and Magical Materials
   - Gregorovitch search and the wand anomaly
+  - Gregorovitch's stolen object and Voldemort's search
   - Gregorovitch, Ollivander, and International Wandmaking
 - Wartime Movement and Secrecy Outside Hogwarts
   - Apparition into Muggle spaces and Auror fear
@@ -898,6 +899,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - N.E.W.T.-level antidote theory and bezoar use
 - Restricted Books and Forbidden Knowledge
   - Horcrux references withheld from student research
+
+## Magical Architecture and Domestic Space
+
+- Expanded Interiors and Temporary Lodgings
+  - Wizarding tents as portable flats
 
 ## Magical Architecture and Enchantments
 
@@ -962,6 +968,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Magical Artefacts and Everyday Objects
 
+- Founder Relics and Later Dark Uses
+  - Slytherin's locket as an active Horcrux
 - Wands, Ownership, and Identity
   - Wand seizure and denied magical status
 
@@ -1019,6 +1027,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogsmeade, Apparition, and School Boundaries
   - Headmaster travel cover and side-along Apparition
+
+## Magical Transportation and Student Restrictions
+
+- Apparition Training, Licensing, and Risks
+  - Emergency treatment after Splinching
 
 ## Notable Events Before 1984
 
@@ -1212,6 +1225,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Information Security and Eavesdropping
   - Extendable Ears and Imperturbable Charm
   - Student Exclusion from Order Intelligence
+- Information Security and Secret Keeping
+  - Fidelius breach through involuntary Side-Along entry
 - Information Security and Secret-Keeping
   - Fidelius dilution after a Secret-Keeper's death
   - Grimmauld Place defenses after Dumbledore's death
@@ -1223,6 +1238,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch Match Risks
 - Magical Surveillance and Staff Security Tools
   - Moody's map search for Crouch
+- Mobile Wards and Field Concealment
+  - Campsite protections during the Horcrux hunt
 - Movement Limits and Anti-Apparition Protections
   - Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
   - Wizarding-dwelling courtesy and Hogwarts boundary confirmation
@@ -1817,3 +1834,5 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Imperius Curse culpability and postwar denials
 - The Second War and Hogwarts Families
   - Ministry surveillance of Order-linked families
+- Wartime Security and Communication
+  - Dangerous names and speech-based tracking

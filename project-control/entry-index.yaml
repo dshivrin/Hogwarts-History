@@ -17472,6 +17472,115 @@ by_entry:
     - wand-ownership
     source_unit: dh-ch13
     output_yaml: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  dh-ch14-001:
+    title: 'Apparition Training, Licensing, and Risks: Emergency treatment after Splinching'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - apparition
+    - dittany
+    - healing
+    - horcrux-hunt
+    - magical-transport
+    - polyjuice-potion
+    - splinching
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch14-002:
+    title: 'Information Security and Secret Keeping: Fidelius breach through involuntary
+      Side-Along entry'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - fidelius
+    - grimmauld-place
+    - kreacher
+    - safe-house
+    - secret-keeper
+    - yaxley
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch14-003:
+    title: 'Mobile Wards and Field Concealment: Campsite protections during the Horcrux
+      hunt'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - campsite
+    - horcrux-hunt
+    - muffliato
+    - muggle-repelling
+    - protective-enchantments
+    - sneakoscope
+    - wards
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch14-004:
+    title: 'Expanded Interiors and Temporary Lodgings: Wizarding tents as portable
+      flats'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - beaded-bag
+    - erecto
+    - expanded-tent
+    - horcrux-hunt
+    - magical-lodging
+    - ministry-of-magic
+    - world-cup
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch14-005:
+    title: 'Wartime Security and Communication: Dangerous names and speech-based tracking'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - jinx
+    - second-war
+    - speech-magic
+    - taboo
+    - voldemort-name
+    - wartime-security
+    - you-know-who
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch14-006:
+    title: 'Founder Relics and Later Dark Uses: Slytherin''s locket as an active Horcrux'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dark-magic
+    - horcrux
+    - horcrux-destruction
+    - magical-artifacts
+    - regulus-black
+    - second-war
+    - slytherin-locket
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
+  dh-ch14-007:
+    title: 'Wands, Equipment, and Magical Materials: Gregorovitch''s stolen object
+      and Voldemort''s search'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - elder-wand
+    - gregorovitch
+    - memory
+    - scar-connection
+    - thief
+    - voldemort
+    - wand-lore
+    source_unit: dh-ch14
+    output_yaml: sources/book-07/chapter-14-the-thief.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -17693,6 +17802,8 @@ by_tag:
   - dh-ch04-001
   - dh-ch10-006
   - dh-ch12-003
+  - dh-ch14-001
+  - dh-ch14-002
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -17924,6 +18035,7 @@ by_tag:
   - ootp-ch35-005
   beaded-bag:
   - dh-ch09-002
+  - dh-ch14-004
   beaters:
   - ootp-ch21-005
   beauxbatons:
@@ -18176,6 +18288,8 @@ by_tag:
   - hbp-ch16-002
   butterbeer:
   - gof-ch28-001
+  campsite:
+  - dh-ch14-003
   captain-office:
   - ootp-ch14-004
   captaincy:
@@ -18980,6 +19094,7 @@ by_tag:
   dark-magic:
   - cos-ch09-006
   - dh-ch05-005
+  - dh-ch14-006
   - hbp-ch18-002
   - hbp-ch24-004
   - hbp-ch26-003
@@ -19341,6 +19456,7 @@ by_tag:
   - poa-ch14-004
   - poa-ch16-006
   dittany:
+  - dh-ch14-001
   - hbp-ch24-004
   - ps-ch14-001
   divination:
@@ -19762,6 +19878,8 @@ by_tag:
   eileen-prince:
   - hbp-ch25-002
   - hbp-ch30-002
+  elder-wand:
+  - dh-ch14-007
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -19866,6 +19984,8 @@ by_tag:
   - hbp-ch14-004
   equipment-storage:
   - cos-ch10-004
+  erecto:
+  - dh-ch14-004
   errol:
   - poa-ch01-003
   escape:
@@ -19924,6 +20044,8 @@ by_tag:
   - ootp-ch20-003
   expanded-interiors:
   - gof-ch07-002
+  expanded-tent:
+  - dh-ch14-004
   expecto-patronum:
   - poa-ch12-002
   expelliarmus:
@@ -20046,6 +20168,7 @@ by_tag:
   fidelius:
   - dh-ch06-002
   - dh-ch09-006
+  - dh-ch14-002
   - hbp-ch02-004
   field-booking:
   - cos-ch07-002
@@ -20622,6 +20745,7 @@ by_tag:
   gregorovitch:
   - dh-ch08-003
   - dh-ch12-005
+  - dh-ch14-007
   - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
@@ -20633,6 +20757,7 @@ by_tag:
   - dh-ch09-006
   - dh-ch10-001
   - dh-ch10-005
+  - dh-ch14-002
   - hbp-ch03-004
   - hbp-ch12-005
   - ootp-ch03-002
@@ -21129,6 +21254,8 @@ by_tag:
   - ootp-ch22-007
   - ootp-ch23-006
   - ootp-ch25-002
+  healing:
+  - dh-ch14-001
   hedwig:
   - cos-ch01-003
   - ootp-ch18-001
@@ -21592,14 +21719,20 @@ by_tag:
   - hbp-ch05-004
   horcrux:
   - dh-ch10-007
+  - dh-ch14-006
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
+  horcrux-destruction:
+  - dh-ch14-006
   horcrux-hunt:
   - dh-ch06-001
   - dh-ch06-004
   - dh-ch06-005
   - dh-ch09-002
+  - dh-ch14-001
+  - dh-ch14-003
+  - dh-ch14-004
   horcrux-mission:
   - hbp-ch30-007
   horcruxes:
@@ -22050,6 +22183,8 @@ by_tag:
   - ps-ch04-004
   janus-thickey:
   - ootp-ch23-006
+  jinx:
+  - dh-ch14-005
   jinxed-post:
   - cos-ch07-004
   - hbp-ch08-005
@@ -22143,6 +22278,7 @@ by_tag:
   kreacher:
   - dh-ch10-005
   - dh-ch10-007
+  - dh-ch14-002
   - hbp-ch03-005
   - hbp-ch19-007
   - hbp-ch21-003
@@ -22486,6 +22622,7 @@ by_tag:
   magical-artifacts:
   - dh-ch11-007
   - dh-ch13-003
+  - dh-ch14-006
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -22622,6 +22759,8 @@ by_tag:
   - hbp-ch24-002
   magical-locking:
   - gof-ch25-006
+  magical-lodging:
+  - dh-ch14-004
   magical-maintenance:
   - ootp-ch07-004
   magical-maladies:
@@ -22742,6 +22881,7 @@ by_tag:
   - dh-ch05-002
   - dh-ch10-006
   - dh-ch12-003
+  - dh-ch14-001
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -22913,6 +23053,7 @@ by_tag:
   memorial-magic:
   - hbp-ch30-005
   memory:
+  - dh-ch14-007
   - ps-ch02-005
   memory-charm:
   - dh-ch09-004
@@ -23062,6 +23203,7 @@ by_tag:
   - dh-ch12-007
   - dh-ch13-002
   - dh-ch13-003
+  - dh-ch14-004
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -23257,6 +23399,7 @@ by_tag:
   mrs-weasley:
   - ootp-ch09-003
   muffliato:
+  - dh-ch14-003
   - hbp-ch12-003
   muggle-artifacts:
   - cos-ch03-004
@@ -23341,6 +23484,7 @@ by_tag:
   muggle-records:
   - gof-ch01-001
   muggle-repelling:
+  - dh-ch14-003
   - gof-ch11-005
   muggle-repelling-charms:
   - gof-ch08-001
@@ -24051,6 +24195,7 @@ by_tag:
   - cos-ch12-004
   - dh-ch04-003
   - dh-ch05-003
+  - dh-ch14-001
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
@@ -24488,6 +24633,7 @@ by_tag:
   - dh-ch01-003
   - dh-ch04-002
   - dh-ch09-001
+  - dh-ch14-003
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -24759,6 +24905,7 @@ by_tag:
   regulus-black:
   - dh-ch10-004
   - dh-ch10-007
+  - dh-ch14-006
   - hbp-ch04-005
   - ootp-ch06-004
   remedial-potions:
@@ -24905,6 +25052,7 @@ by_tag:
   - dh-ch05-001
   - dh-ch05-002
   - dh-ch11-001
+  - dh-ch14-002
   safety-accommodation:
   - poa-ch22-003
   safety-equipment:
@@ -24930,6 +25078,7 @@ by_tag:
   scar-connection:
   - dh-ch05-007
   - dh-ch12-005
+  - dh-ch14-007
   scarpins-revelaspell:
   - hbp-ch18-001
   scholarly-publications:
@@ -25265,6 +25414,8 @@ by_tag:
   - dh-ch13-005
   - dh-ch13-006
   - dh-ch13-007
+  - dh-ch14-005
+  - dh-ch14-006
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -25325,6 +25476,7 @@ by_tag:
   secret-keeper:
   - dh-ch06-002
   - dh-ch09-006
+  - dh-ch14-002
   - hbp-ch02-004
   - ootp-ch06-007
   - ootp-ch37-004
@@ -25620,6 +25772,7 @@ by_tag:
   - dh-ch10-005
   - dh-ch10-007
   - dh-ch11-007
+  - dh-ch14-006
   - hbp-ch10-006
   - hbp-ch13-002
   - hbp-ch20-005
@@ -25683,6 +25836,7 @@ by_tag:
   snargaluff:
   - hbp-ch14-001
   sneakoscope:
+  - dh-ch14-003
   - gof-ch20-003
   - hbp-ch04-003
   sneakoscopes:
@@ -25742,6 +25896,8 @@ by_tag:
   spectators:
   - gof-ch26-005
   - ps-ch11-004
+  speech-magic:
+  - dh-ch14-005
   spell-damage:
   - ootp-ch22-005
   - ootp-ch23-006
@@ -25776,6 +25932,7 @@ by_tag:
   - gof-ch29-006
   - ps-ch14-006
   splinching:
+  - dh-ch14-001
   - gof-ch06-001
   - hbp-ch18-003
   - hbp-ch22-001
@@ -26379,6 +26536,8 @@ by_tag:
   - ootp-ch38-003
   symbols:
   - dh-ch08-002
+  taboo:
+  - dh-ch14-005
   tales-of-beedle-the-bard:
   - dh-ch07-007
   tallest-tower:
@@ -26515,6 +26674,8 @@ by_tag:
   - ootp-ch30-004
   - ootp-ch33-007
   - ootp-ch34-001
+  thief:
+  - dh-ch14-007
   third-floor:
   - ootp-ch13-005
   third-floor-corridor:
@@ -26992,6 +27153,7 @@ by_tag:
   - dh-ch05-006
   - dh-ch05-007
   - dh-ch12-005
+  - dh-ch14-007
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -27051,6 +27213,8 @@ by_tag:
   - hbp-ch13-007
   - hbp-ch20-004
   - hbp-ch22-007
+  voldemort-name:
+  - dh-ch14-005
   voldemort-return:
   - hbp-ch08-006
   - ootp-ch01-001
@@ -27083,6 +27247,7 @@ by_tag:
   - dh-ch05-007
   - dh-ch08-003
   - dh-ch12-005
+  - dh-ch14-007
   wand-magic:
   - dh-ch04-006
   - dh-ch08-001
@@ -27120,6 +27285,8 @@ by_tag:
   - ps-ch05-007
   warded-gates:
   - dh-ch01-001
+  wards:
+  - dh-ch14-003
   warlocks-convention-1709:
   - ps-ch14-002
   wartime-communications:
@@ -27133,6 +27300,7 @@ by_tag:
   - hbp-ch30-006
   wartime-security:
   - dh-ch12-003
+  - dh-ch14-005
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -27384,6 +27552,8 @@ by_tag:
   - ootp-ch12-002
   - ootp-ch13-003
   - ootp-ch14-005
+  world-cup:
+  - dh-ch14-004
   world-cup-1473:
   - ps-ch11-002
   wormtail:
@@ -27395,6 +27565,9 @@ by_tag:
   - ps-ch16-001
   yaxley:
   - dh-ch12-004
+  - dh-ch14-002
+  you-know-who:
+  - dh-ch14-005
   yule-ball:
   - gof-ch22-001
   - gof-ch22-002

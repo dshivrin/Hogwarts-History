@@ -5918,6 +5918,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `ootp-ch04-006`, `ootp-ch05-001`. ootp-ch04-006 records Extendable Ears and the Imperturbable Charm, while ootp-ch05-001 records confidential headquarters papers; this entry adds sustained child-exclusion practice after Harry's hearing.
   - Notes: The passage does not list the specific conversations withheld or the full security rules for minors at headquarters.
 
+### Chapter: Information Security and Secret Keeping
+
+#### Section: Fidelius breach through involuntary Side-Along entry
+
+Summary: The available evidence includes 1 source item, led by: The diluted Fidelius arrangement around Grimmauld Place can be compromised when a Secret-Keeper involuntarily carries an enemy inside the protected boundary during Apparition.
+
+- **Corroboration:** The diluted Fidelius arrangement around Grimmauld Place can be compromised when a Secret-Keeper involuntarily carries an enemy inside the protected boundary during Apparition.
+  - Quote: "I've given him the secret"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3204, `dh-ch14-002`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch06-002`, `dh-ch09-006`, `ootp-ch06-007`, `ootp-ch37-004`. Likely continuation of prior Grimmauld/Fidelius and Secret-Keeper entries; this entry adds the actual Yaxley breach and the concern that Kreacher could expose information under pursuit.
+  - Notes: Hermione infers the legal-magical consequence immediately after the escape; the chapter does not show Yaxley inside the house.
+
 ### Chapter: Information Security and Secret-Keeping
 
 #### Section: Fidelius dilution after a Secret-Keeper's death
@@ -6023,6 +6037,19 @@ Summary: The available evidence includes 1 source item, led by: Moody's search s
   - Reference type: security_or_protection
   - Corroborates: `gof-ch25-007`, `poa-ch17-004`, `gof-ch25-001`. Corroborates Moody's staff-level map use and the map's ability to track invisible people; adds the Summoning-from-office search and Ministry notification.
   - Notes: Harry and the others rely on Moody's report; the search itself is not directly observed on-page.
+
+### Chapter: Mobile Wards and Field Concealment
+
+#### Section: Campsite protections during the Horcrux hunt
+
+Summary: The available evidence includes 1 source item, led by: A mobile wartime camp can be protected with layered charms for concealment, warning, sound masking, Muggle repelling, and lookout support from a Sneakoscope.
+
+- **Supporting evidence:** A mobile wartime camp can be protected with layered charms for concealment, warning, sound masking, Muggle repelling, and lookout support from a Sneakoscope.
+  - Quote: "Salvio Hexia . . . Protego Totalum"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3206, `dh-ch14-003`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: Hermione cannot guarantee that the protections will keep Voldemort out, so their strength is uncertain.
 
 ### Chapter: Movement Limits and Anti-Apparition Protections
 
@@ -10661,6 +10688,18 @@ Summary: The available evidence includes 1 source item, led by: Harry's scar vis
   - Corroborates: `dh-ch08-003`, `dh-ch05-007`. Likely continuation of dh-ch08-003 on Gregorovitch and dh-ch05-007 on the wand anomaly; this entry adds Voldemort's confirmed search for Gregorovitch and Harry's explicit theory linking both threads.
   - Notes: The search is perceived through Harry's scar connection, and Harry's explanation for Voldemort's motive remains partly inferential.
 
+#### Section: Gregorovitch's stolen object and Voldemort's search
+
+Summary: The available evidence includes 1 source item, led by: Voldemort's pursuit shifts from merely finding Gregorovitch to recovering an object stolen years earlier by a golden-haired thief preserved in the wandmaker's memory.
+
+- **Corroboration:** Voldemort's pursuit shifts from merely finding Gregorovitch to recovering an object stolen years earlier by a golden-haired thief preserved in the wandmaker's memory.
+  - Quote: "It was, many years ago, stolen from me!"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3211, `dh-ch14-007`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch08-003`, `dh-ch12-005`. Likely continuation of prior Gregorovitch entries: dh-ch08-003 establishes his wandmaker reputation, and dh-ch12-005 records Voldemort's search; this entry adds the stolen object memory and Gregorovitch's death.
+  - Notes: This chapter does not identify the thief by name or the stolen object as the Elder Wand; those labels are later-context indexing terms.
+
 #### Section: Gregorovitch, Ollivander, and International Wandmaking
 
 Summary: The available evidence includes 1 source item, led by: Krum confirms Gregorovitch as a celebrated retired wandmaker and frames a non-British reputation for wand quality alongside British reliance on Ollivander.
@@ -12371,6 +12410,21 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts library
   - Corroborates: `hbp-ch17-003`, `hbp-ch10-004`, `ps-ch12-004`. hbp-ch17-003 and hbp-ch10-004 cover Dumbledore's Pensieve-based historical method, while ps-ch12-004 covers Restricted Section research. This entry adds the Horcrux-specific research failure and Magick Moste Evile's explicit refusal.
   - Notes: Hermione reports the library search secondhand; the passage does not define Horcruxes.
 
+## Part: Magical Architecture and Domestic Space
+
+### Chapter: Expanded Interiors and Temporary Lodgings
+
+#### Section: Wizarding tents as portable flats
+
+Summary: The available evidence includes 1 source item, led by: Wizarding tents can combine ordinary canvas setup with enlarged domestic interiors, and a borrowed Ministry employee's tent becomes portable lodging for the fugitives.
+
+- **Supporting evidence:** Wizarding tents can combine ordinary canvas setup with enlarged domestic interiors, and a borrowed Ministry employee's tent becomes portable lodging for the fugitives.
+  - Quote: "a small flat, complete with bathroom"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3206, `dh-ch14-004`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The passage does not specify the spell that creates the enlarged interior or whether Perkins's tent is typical.
+
 ## Part: Magical Architecture and Spaces
 
 ### Chapter: Enchanted Space Beyond the Castle
@@ -12387,6 +12441,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Notes: The passage does not name the spell or object enchantment used to expand the tents.
 
 ## Part: Magical Artefacts and Everyday Objects
+
+### Chapter: Founder Relics and Later Dark Uses
+
+#### Section: Slytherin's locket as an active Horcrux
+
+Summary: The available evidence includes 1 source item, led by: Slytherin's locket remains apparently undamaged, resists ordinary opening and a prior unlocking charm, and feels active when carried against the body.
+
+- **Corroboration:** Slytherin's locket remains apparently undamaged, resists ordinary opening and a prior unlocking charm, and feels active when carried against the body.
+  - Quote: "something beating inside the locket"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3208, `dh-ch14-006`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch10-007`. Likely continuation of dh-ch10-007, which records Regulus and Kreacher's locket exchange; this entry adds the recovered object's condition, resistance to opening, and active physical effect.
+  - Notes: The chapter confirms the locket's behavior but not the eventual means of destruction.
 
 ### Chapter: Wands, Ownership, and Identity
 
@@ -12628,6 +12696,22 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore can l
   - Reference type: security_or_protection
   - Corroborates: `hbp-ch21-001`, `hbp-ch21-007`. hbp-ch21-001 covers Hogsmeade Apparition practice and licensing; hbp-ch21-007 covers Hogsmeade security screening and external guard coverage. This entry adds Dumbledore's public-cover travel pattern and side-along Apparition with an unlicensed student.
   - Notes: The exact magical boundary crossed before Apparition is inferred from leaving the gates and Hogsmeade lane rather than formally explained.
+
+## Part: Magical Transportation and Student Restrictions
+
+### Chapter: Apparition Training, Licensing, and Risks
+
+#### Section: Emergency treatment after Splinching
+
+Summary: The available evidence includes 1 source item, led by: Severe Splinching can remove flesh during a hurried escape, and Essence of Dittany can close the wound enough for field survival while full healing remains risky.
+
+- **Corroboration:** Severe Splinching can remove flesh during a hurried escape, and Essence of Dittany can close the wound enough for field survival while full healing remains risky.
+  - Quote: "Essence of Dittany"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3203, `dh-ch14-001`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch06-001`, `hbp-ch18-003`, `hbp-ch22-001`. Likely related to prior entries on Apparition licensing, lessons, testing, and Splinching risk; this entry adds severe field injury and Dittany treatment after an escape.
+  - Notes: The passage shows emergency care by Hermione, not formal Healer procedure or a complete cure.
 
 ## Part: Notable Students and Staff
 
@@ -14329,3 +14413,16 @@ Summary: The available evidence includes 1 source item, led by: The Ministry kee
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The file is a Ministry surveillance record and may contain biased threat framing.
+
+### Chapter: Wartime Security and Communication
+
+#### Section: Dangerous names and speech-based tracking
+
+Summary: The available evidence includes 1 source item, led by: Ron treats speaking Voldemort's name as magically unsafe before the trio knows the formal mechanism, foreshadowing wartime speech-based tracking.
+
+- **Context:** Ron treats speaking Voldemort's name as magically unsafe before the trio knows the formal mechanism, foreshadowing wartime speech-based tracking.
+  - Quote: "it feels like a - a jinx"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, PDF p. 3206, `dh-ch14-005`, `sources/book-07/chapter-14-the-thief.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The chapter does not yet explain the Taboo; the interpretation as speech tracking depends on later confirmation.
