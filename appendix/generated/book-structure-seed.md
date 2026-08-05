@@ -709,6 +709,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Sources for Dumbledore's Life
   - Obituary, Biography, and Public Memory
 - Sources on Dumbledore After His Death
+  - Bathilda's photographs and Rita Skeeter's source handling
   - Obituary, Biography, and Public Dispute
   - Serialized biography, Bathilda testimony, and Ariana's schooling
 - Staff, Subjects, and Ministry Inspection
@@ -847,6 +848,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's death and Seven Potters debrief
   - Muggle refuges and Death Eater reach
   - Muggle-Visible Violence and Dark Creatures
+  - Nagini, Parseltongue, and corpse-concealment magic
   - Polyjuice Decoys and Escort Risk
   - Suppressed public records and missing Hogwarts staff
   - The Trace and the trio's nonreturn to Hogwarts
@@ -856,6 +858,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
 - Wands, Equipment, and Magical Materials
+  - Broken wands and limits of ordinary repair
   - Gregorovitch search and the wand anomaly
   - Gregorovitch's stolen object and Voldemort's search
   - Gregorovitch, Ollivander, and International Wandmaking
@@ -993,6 +996,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Centaur rejection of human service and wizard law
 - Godric's Hollow and Wizarding Memory
   - Churchyard graves, old families, and Hallows evidence
+  - Potter cottage monument and magical visitor messages
   - Potter memorial hidden in a Muggle village square
 - Squibs and Family Status
   - Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
@@ -1015,6 +1019,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Concealment After Magical Exposure
   - Memory Charms and scene restoration
+
+## Magical Objects and Protective Magic
+
+- Concealment, Detection, and Anti-Detection Magic
+  - Limits of cloak concealment under Dark wartime surveillance
 
 ## Magical Residents and Creatures
 
@@ -1063,6 +1072,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bathilda Bagshot as Neighbor and Historical Source
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
+  - Voldemort's memory of the Potter cottage attack
 - The First Known Chamber Opening
   - Death, Secrecy, and Expulsion
   - Hagrid, Aragog, and the False Culprit

@@ -6,9 +6,11 @@ tags:
     - dh-ch08-006
     - dh-ch16-003
     - dh-ch16-004
+    - dh-ch17-001
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   aberforth-dumbledore:
     entries:
     - dh-ch02-003
@@ -546,6 +548,11 @@ tags:
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+  archival-evidence:
+    entries:
+    - dh-ch17-004
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   archway:
     entries:
     - ootp-ch34-005
@@ -954,6 +961,10 @@ tags:
     - dh-ch11-006
     - dh-ch16-003
     - dh-ch16-004
+    - dh-ch17-001
+    - dh-ch17-003
+    - dh-ch17-004
+    - dh-ch17-005
     - poa-ch01-001
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
@@ -962,6 +973,7 @@ tags:
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   bathroom:
     entries:
     - cos-ch15-007
@@ -985,9 +997,11 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
   battle-damage:
     entries:
+    - dh-ch17-007
     - ootp-ch35-005
     output_yaml:
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   beaded-bag:
     entries:
     - dh-ch09-002
@@ -2592,6 +2606,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
   concealment:
     entries:
+    - dh-ch17-003
     - hbp-ch04-003
     - ootp-ch03-004
     - ootp-ch03-005
@@ -2600,6 +2615,7 @@ tags:
     - sources/book-05/chapter-03-the-advance-guard.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   concealment-charms:
     entries:
     - ootp-ch26-003
@@ -3299,6 +3315,7 @@ tags:
     - cos-ch09-006
     - dh-ch05-005
     - dh-ch14-006
+    - dh-ch17-005
     - hbp-ch18-002
     - hbp-ch24-004
     - hbp-ch26-003
@@ -3313,6 +3330,7 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   dark-mark:
     entries:
     - gof-ch09-004
@@ -4610,8 +4628,10 @@ tags:
   dumbledore-biography:
     entries:
     - dh-ch11-006
+    - dh-ch17-004
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   dumbledore-death:
     entries:
     - hbp-ch27-007
@@ -5160,6 +5180,11 @@ tags:
     - ootp-ch22-002
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  everlasting-ink:
+    entries:
+    - dh-ch17-002
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   evidence:
     entries:
     - poa-ch21-001
@@ -5528,6 +5553,8 @@ tags:
     - dh-ch09-006
     - dh-ch14-002
     - dh-ch16-005
+    - dh-ch17-002
+    - dh-ch17-006
     - hbp-ch02-004
     output_yaml:
     - sources/book-06/chapter-02-spinner-s-end.yaml
@@ -5535,6 +5562,7 @@ tags:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   field-booking:
     entries:
     - cos-ch07-002
@@ -5764,6 +5792,7 @@ tags:
   first-wizarding-war:
     entries:
     - dh-ch10-007
+    - dh-ch17-006
     - gof-ch09-007
     - gof-ch14-003
     - gof-ch14-004
@@ -5787,6 +5816,7 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   first-year-arrival:
     entries:
     - poa-ch05-005
@@ -6396,6 +6426,7 @@ tags:
     - cos-ch01-001
     - cos-ch08-001
     - cos-ch08-005
+    - dh-ch17-001
     - gof-ch25-004
     - hbp-ch08-003
     - hbp-ch21-006
@@ -6417,6 +6448,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   ghoul:
     entries:
     - dh-ch06-005
@@ -6604,6 +6636,11 @@ tags:
     - dh-ch16-004
     - dh-ch16-006
     - dh-ch16-007
+    - dh-ch17-001
+    - dh-ch17-002
+    - dh-ch17-003
+    - dh-ch17-005
+    - dh-ch17-006
     - gof-ch02-004
     - ps-ch01-003
     - ps-ch01-005
@@ -6616,6 +6653,7 @@ tags:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   golden-egg:
     entries:
     - gof-ch20-006
@@ -6668,8 +6706,10 @@ tags:
   graveyard:
     entries:
     - dh-ch16-007
+    - dh-ch17-001
     output_yaml:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   grawp:
     entries:
     - hbp-ch08-007
@@ -6799,12 +6839,14 @@ tags:
     - dh-ch08-003
     - dh-ch12-005
     - dh-ch14-007
+    - dh-ch17-007
     - gof-ch18-007
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   gregory-the-smarmy:
     entries:
     - ps-ch09-006
@@ -6860,11 +6902,13 @@ tags:
     entries:
     - dh-ch02-005
     - dh-ch08-002
+    - dh-ch17-004
     - ps-ch06-003
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   grindylows:
     entries:
     - gof-ch26-006
@@ -7513,6 +7557,11 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+  harry-wand:
+    entries:
+    - dh-ch17-007
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -8827,6 +8876,7 @@ tags:
     entries:
     - dh-ch10-007
     - dh-ch14-006
+    - dh-ch17-005
     - hbp-ch26-004
     - hbp-ch26-006
     - hbp-ch26-007
@@ -8834,6 +8884,7 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   horcrux-destruction:
     entries:
     - dh-ch14-006
@@ -9473,6 +9524,7 @@ tags:
     - dh-ch02-001
     - dh-ch07-007
     - dh-ch10-003
+    - dh-ch17-001
     - gof-ch02-005
     - gof-ch09-002
     - gof-ch09-007
@@ -9494,6 +9546,7 @@ tags:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   individual-desks:
     entries:
     - ootp-ch31-004
@@ -9777,6 +9830,7 @@ tags:
     entries:
     - dh-ch09-002
     - dh-ch16-005
+    - dh-ch17-003
     - gof-ch04-002
     - gof-ch19-003
     - gof-ch24-004
@@ -9815,6 +9869,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -10002,6 +10057,7 @@ tags:
     - sources/book-07/chapter-08-the-wedding.yaml
   killing-curse:
     entries:
+    - dh-ch17-006
     - gof-ch14-004
     - gof-ch32-002
     - hbp-ch02-001
@@ -10011,6 +10067,7 @@ tags:
     - sources/book-04/chapter-32-flesh-blood-and-bone.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   kings-cross:
     entries:
     - cos-ch04-001
@@ -10369,6 +10426,7 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
   lily-potter:
     entries:
+    - dh-ch17-006
     - ootp-ch02-004
     - ootp-ch37-005
     - ps-ch01-003
@@ -10376,6 +10434,7 @@ tags:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   liquid-luck:
     entries:
     - hbp-ch09-006
@@ -10991,6 +11050,11 @@ tags:
     - poa-ch03-003
     output_yaml:
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  magical-equipment:
+    entries:
+    - dh-ch17-007
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   magical-evidence:
     entries:
     - gof-ch34-004
@@ -11143,8 +11207,10 @@ tags:
   magical-memorial:
     entries:
     - dh-ch16-006
+    - dh-ch17-002
     output_yaml:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   magical-memory-source:
     entries:
     - cos-ch17-002
@@ -11291,6 +11357,11 @@ tags:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  magical-sensing:
+    entries:
+    - dh-ch17-003
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   magical-servitude:
     entries:
     - cos-ch02-001
@@ -12582,6 +12653,7 @@ tags:
   muggle-concealment:
     entries:
     - dh-ch16-006
+    - dh-ch17-002
     - ootp-ch03-006
     - ootp-ch04-001
     - ootp-ch06-007
@@ -12590,6 +12662,7 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   muggle-culture:
     entries:
     - dh-ch10-002
@@ -12867,9 +12940,12 @@ tags:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
   nagini:
     entries:
+    - dh-ch17-003
+    - dh-ch17-005
     - gof-ch01-005
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   named-book:
     entries:
     - ps-ch11-002
@@ -13275,6 +13351,7 @@ tags:
     - dh-ch05-007
     - dh-ch08-003
     - dh-ch12-005
+    - dh-ch17-007
     - gof-ch18-006
     - gof-ch18-007
     output_yaml:
@@ -13282,6 +13359,7 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   ollivanders:
     entries:
     - ps-ch05-007
@@ -13688,6 +13766,7 @@ tags:
     - cos-ch17-004
     - cos-ch17-006
     - cos-ch18-004
+    - dh-ch17-005
     - gof-ch01-005
     - hbp-ch10-006
     - hbp-ch13-007
@@ -13701,6 +13780,7 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   parseltongue-foreshadowing:
     entries:
     - ps-ch02-004
@@ -14089,6 +14169,11 @@ tags:
     - dh-ch06-007
     output_yaml:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  photographs:
+    entries:
+    - dh-ch17-004
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   physical-evidence:
     entries:
     - poa-ch17-002
@@ -14503,10 +14588,16 @@ tags:
     - ootp-ch24-004
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  potter-cottage:
+    entries:
+    - dh-ch17-002
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   potter-family:
     entries:
     - dh-ch16-006
     - dh-ch16-007
+    - dh-ch17-006
     - gof-ch14-004
     - gof-ch34-004
     - hbp-ch25-005
@@ -14515,6 +14606,7 @@ tags:
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   practical-defense:
     entries:
     - hbp-ch07-004
@@ -15271,10 +15363,12 @@ tags:
   public-memory:
     entries:
     - dh-ch16-006
+    - dh-ch17-002
     - ps-ch02-006
     output_yaml:
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   public-opinion:
     entries:
     - ootp-ch04-007
@@ -15809,6 +15903,11 @@ tags:
     - hbp-ch30-007
     output_yaml:
     - sources/book-06/chapter-30-the-white-tomb.yaml
+  reparo:
+    entries:
+    - dh-ch17-007
+    output_yaml:
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   replacement-keeper:
     entries:
     - hbp-ch19-005
@@ -15917,6 +16016,7 @@ tags:
     - dh-ch02-006
     - dh-ch08-004
     - dh-ch11-006
+    - dh-ch17-004
     - gof-ch10-003
     - gof-ch13-005
     - gof-ch18-005
@@ -15937,6 +16037,7 @@ tags:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -17831,9 +17932,11 @@ tags:
     entries:
     - dh-ch02-006
     - dh-ch11-006
+    - dh-ch17-004
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   source-history:
     entries:
     - dh-ch08-004
@@ -20668,6 +20771,7 @@ tags:
     - dh-ch05-007
     - dh-ch12-005
     - dh-ch14-007
+    - dh-ch17-005
     - gof-ch01-001
     - gof-ch01-003
     - gof-ch01-004
@@ -20741,6 +20845,7 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   voldemort-defenses:
     entries:
     - dh-ch10-006
@@ -20761,6 +20866,7 @@ tags:
   voldemort-fall:
     entries:
     - dh-ch16-006
+    - dh-ch17-006
     - gof-ch02-004
     - ps-ch01-001
     - ps-ch01-003
@@ -20770,6 +20876,7 @@ tags:
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   voldemort-family-history:
     entries:
     - hbp-ch10-007
@@ -20862,11 +20969,13 @@ tags:
     - dh-ch08-003
     - dh-ch12-005
     - dh-ch14-007
+    - dh-ch17-007
     output_yaml:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   wand-magic:
     entries:
     - dh-ch04-006
@@ -20992,6 +21101,7 @@ tags:
     - dh-ch12-003
     - dh-ch14-005
     - dh-ch16-005
+    - dh-ch17-003
     - hbp-ch04-003
     - hbp-ch06-002
     - hbp-ch07-001
@@ -21037,6 +21147,7 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-17-bathilda-s-secret.yaml
   wartime-travel:
     entries:
     - dh-ch01-004

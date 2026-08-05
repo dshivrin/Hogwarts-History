@@ -7484,6 +7484,18 @@ Summary: The available evidence includes 2 source items, led by: McGonagall summ
   - Corroborates: `ps-ch01-003`. Possible duplicate or corroborating entry for the Godric's Hollow event; this one adds Harry's own memory of green light and pain.
   - Notes: Harry misattributes the memory to the supposed crash and the passage does not identify Voldemort, Lily's protection, or the curse.
 
+#### Section: Voldemort's memory of the Potter cottage attack
+
+Summary: The available evidence includes 1 source item, led by: Voldemort's memory gives direct scene evidence for the Potter cottage attack: the Fidelius protection had failed, James and Lily were wandless, and Lily repeatedly chose to stand between Voldemort and Harry.
+
+- **Corroboration:** Voldemort's memory gives direct scene evidence for the Potter cottage attack: the Fidelius protection had failed, James and Lily were wandless, and Lily repeatedly chose to stand between Voldemort and Harry.
+  - Quote: "the Fidelius Charm broken, though they did not know it yet"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3267, `dh-ch17-006`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ps-ch01-003`, `gof-ch14-004`. Likely continuation of ps-ch01-003 and gof-ch14-004 on the Godric's Hollow attack and Killing Curse survival; this entry adds Voldemort's memory-level details about the broken Fidelius, wandless Potters, and Lily's choice.
+  - Notes: The evidence is mediated through Harry's scar connection and Voldemort's perspective rather than an independent archival source.
+
 ### Chapter: Dumbledore and the First Wizarding War
 
 #### Section: Biographical Sources and Public Reputation
@@ -9799,6 +9811,18 @@ Summary: The available evidence includes 1 source item, led by: The scene contra
 
 ### Chapter: Sources on Dumbledore After His Death
 
+#### Section: Bathilda's photographs and Rita Skeeter's source handling
+
+Summary: The available evidence includes 1 source item, led by: Bathilda's house preserves photographic evidence linking young Grindelwald to Dumbledore, and Harry infers that Rita Skeeter removed several images for her Dumbledore biography.
+
+- **Corroboration:** Bathilda's house preserves photographic evidence linking young Grindelwald to Dumbledore, and Harry infers that Rita Skeeter removed several images for her Dumbledore biography.
+  - Quote: "that must be where all the missing photographs were"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3261, `dh-ch17-004`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch11-006`, `dh-ch02-006`. Continuation of the Skeeter-Bathilda source-history thread in dh-ch11-006 and dh-ch02-006; this entry adds the physical missing photographs and Grindelwald image.
+  - Notes: Harry infers Rita's removal of the missing photographs; Bathilda does not confirm it, and Skeeter's methods remain suspect.
+
 #### Section: Obituary, Biography, and Public Dispute
 
 Summary: The available evidence includes 1 source item, led by: The Daily Prophet presents Skeeter's biography as a contested in-universe source on Dumbledore, explicitly setting Doge's obituary against revisionist claims about his youth and public career.
@@ -10668,6 +10692,18 @@ Summary: The available evidence includes 1 source item, led by: Harry describes 
   - Reference type: historical_claim
   - Notes: Harry's summary is persuasive scene dialogue and does not independently verify each reported disaster.
 
+#### Section: Nagini, Parseltongue, and corpse-concealment magic
+
+Summary: The available evidence includes 1 source item, led by: Voldemort uses Nagini concealed inside Bathilda Bagshot's corpse as a Godric's Hollow trap; the false Bathilda speaks Parseltongue, alerts Voldemort, and tries to hold Harry alive.
+
+- **Corroboration:** Voldemort uses Nagini concealed inside Bathilda Bagshot's corpse as a Godric's Hollow trap; the false Bathilda speaks Parseltongue, alerts Voldemort, and tries to hold Harry alive.
+  - Quote: "it was Parseltongue, all Parseltongue"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3264, `dh-ch17-005`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch01-005`. Likely continuation of gof-ch01-005 on Voldemort's Parseltongue communication with Nagini; this entry adds Nagini's corpse concealment, the live trap, and Harry's later realization.
+  - Notes: The exact magic that animates or conceals Nagini inside Bathilda is not named, and some details are reconstructed by Harry after the escape.
+
 #### Section: Polyjuice Decoys and Escort Risk
 
 Summary: The available evidence includes 1 source item, led by: The Order creates six Polyjuice decoys of Harry, each paired with a protector, because Death Eaters are expected to try to capture Harry while killing escorts.
@@ -10751,6 +10787,18 @@ Summary: The available evidence includes 1 source item, led by: McGonagall says 
   - Notes: The passage concerns the wider magical world rather than Hogwarts directly, so it should remain contextual unless later sources connect it to school policy or history.
 
 ### Chapter: Wands, Equipment, and Magical Materials
+
+#### Section: Broken wands and limits of ordinary repair
+
+Summary: The available evidence includes 1 source item, led by: Harry's holly-and-phoenix wand is damaged beyond ordinary Reparo after the Nagini escape, forcing reliance on another wand while Ollivander is captive and Gregorovitch is dead.
+
+- **Corroboration:** Harry's holly-and-phoenix wand is damaged beyond ordinary Reparo after the Nagini escape, forcing reliance on another wand while Ollivander is captive and Gregorovitch is dead.
+  - Quote: "The wand sparked feebly, then went out"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3272, `dh-ch17-007`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch05-007`, `dh-ch12-005`. Continuation of the Harry-wand anomaly and wandmaker-search thread in dh-ch05-007 and dh-ch12-005; this entry adds the wand's physical breakage and failed ordinary repair.
+  - Notes: The passage shows Reparo failing in this case but does not define the full theory or all conditions for wand repair.
 
 #### Section: Gregorovitch search and the wand anomaly
 
@@ -12642,6 +12690,18 @@ Summary: The available evidence includes 1 source item, led by: The Godric's Hol
   - Corroborates: `dh-ch08-006`, `dh-ch11-006`, `ps-ch01-003`, `gof-ch02-004`. Likely overlaps prior Godric's Hollow, Dumbledore-family, and Potter-attack entries; this chapter adds direct graveyard evidence, Potter and Dumbledore grave proximity, Ignotus's marked grave, and repeated wizarding-family surnames.
   - Notes: Ignotus's surname is not legible in this chapter, and Hermione has not yet identified the triangular mark as the Deathly Hallows symbol.
 
+#### Section: Potter cottage monument and magical visitor messages
+
+Summary: The available evidence includes 1 source item, led by: The Potter cottage remains physically ruined after the Fidelius Charm ended, with a Muggle-invisible sign preserving it as a monument and carrying layers of magical visitor messages.
+
+- **Corroboration:** The Potter cottage remains physically ruined after the Fidelius Charm ended, with a Muggle-invisible sign preserving it as a monument and carrying layers of magical visitor messages.
+  - Quote: "left in its ruined state as a monument"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3257, `dh-ch17-002`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch16-006`. Related to dh-ch16-006's concealed Potter memorial statue; this entry adds the separate cottage ruin, sign, Fidelius aftermath, and magical graffiti.
+  - Notes: The chapter does not name who placed the sign, who maintains the concealment, or whether the ruin's unrepaired state is magical necessity or deliberate memorial practice.
+
 #### Section: Potter memorial hidden in a Muggle village square
 
 Summary: The available evidence includes 1 source item, led by: Godric's Hollow contains a concealed magical memorial: what appears as a war memorial becomes a Potter-family statue for Harry and Hermione, then reverts as they leave.
@@ -12736,6 +12796,22 @@ Summary: The available evidence includes 1 source item, led by: The trio use Mem
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The chapter shows Hermione knowing the theory, but it does not identify where she learned it or whether the Memory Charms are fully successful long term.
+
+## Part: Magical Objects and Protective Magic
+
+### Chapter: Concealment, Detection, and Anti-Detection Magic
+
+#### Section: Limits of cloak concealment under Dark wartime surveillance
+
+Summary: The available evidence includes 1 source item, led by: The apparent Bathilda violates Harry's expectations for the Invisibility Cloak and the cottage's Muggle concealment, foreshadowing a nonstandard Dark trap rather than ordinary village magic.
+
+- **Corroboration:** The apparent Bathilda violates Harry's expectations for the Invisibility Cloak and the cottage's Muggle concealment, foreshadowing a nonstandard Dark trap rather than ordinary village magic.
+  - Quote: "she ought not to be able to see Hermione and him"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3259, `dh-ch17-003`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch16-005`. Likely continuation of dh-ch16-005 on layered Godric's Hollow disguises; this entry adds the apparent failure or bypass of those concealments during the Bathilda trap.
+  - Notes: Harry only infers that the figure senses them; later evidence explains the trap but not the exact detection mechanism.
 
 ## Part: Magical Residents and Creatures
 
@@ -13496,7 +13572,7 @@ Summary: The available evidence includes 1 source item, led by: The lost locket 
 
 #### Section: A History of Magic on Godric's Hollow
 
-Summary: The available evidence includes 1 source item, led by: Bathilda Bagshot's A History of Magic identifies post-Statute half-magical communities and singles out Godric's Hollow as Gryffindor's birthplace, Bowman Wright's Snitch-forging site, and a graveyard of ancient magical families.
+Summary: The available evidence includes 2 source items, led by: Bathilda Bagshot's A History of Magic identifies post-Statute half-magical communities and singles out Godric's Hollow as Gryffindor's birthplace, Bowman Wright's Snitch-forging site, and a graveyard of ancient magical families.
 
 - **Corroboration:** Bathilda Bagshot's A History of Magic identifies post-Statute half-magical communities and singles out Godric's Hollow as Gryffindor's birthplace, Bowman Wright's Snitch-forging site, and a graveyard of ancient magical families.
   - Quote: "Most celebrated of these half-magical dwelling places"
@@ -13505,6 +13581,14 @@ Summary: The available evidence includes 1 source item, led by: Bathilda Bagshot
   - Reference type: explicit_in_universe_source
   - Corroborates: `poa-ch01-001`, `dh-ch08-006`, `dh-ch10-003`. Likely overlaps prior entries identifying Bathilda Bagshot and A History of Magic as sources; this chapter adds a quoted Godric's Hollow passage with Statute, Gryffindor, Bowman Wright, Snitch, graveyard, and haunting details.
   - Notes: Hermione notes that Bagshot's textbook stops before the end of the nineteenth century, so it omits Harry's parents and the modern Potter history.
+
+- **Corroboration:** Harry recalls that Bathilda Bagshot's A History of Magic described the Godric's Hollow graveyard as haunted, adding a ghost-lore detail to the prior textbook excerpt.
+  - Quote: "the graveyard was supposed to be haunted"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, PDF p. 3256, `dh-ch17-001`, `sources/book-07/chapter-17-bathilda-s-secret.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch16-003`. Continuation of dh-ch16-003, which records the A History of Magic Godric's Hollow excerpt; this entry isolates the haunted-graveyard detail invoked in the next chapter.
+  - Notes: The passage is Harry's memory of the textbook rather than a fresh quotation, and it does not identify any specific ghost.
 
 #### Section: Bathilda Bagshot as textbook author and living informant
 

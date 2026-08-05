@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 16
-  chapter_title: "Chapter Sixteen - Godric\u2019s Hollow"
-  page_start: 3240
-  page_end: 3255
-  output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 17
   chapter_title: "Chapter Seventeen - Bathilda\u2019s Secret"
   page_start: 3256
   page_end: 3273
   output_yaml: sources/book-07/chapter-17-bathilda-s-secret.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3274
   page_end: 3284
   output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 19
+  chapter_title: Chapter Nineteen - The Silver Doe
+  page_start: 3285
+  page_end: 3305
+  output_yaml: sources/book-07/chapter-19-the-silver-doe.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

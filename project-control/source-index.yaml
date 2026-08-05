@@ -2138,3 +2138,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3240-3255.
+- source_unit_id: dh-ch17
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 17
+  chapter_title: Chapter Seventeen - Bathilda's Secret
+  page_start: 3256
+  page_end: 3273
+  output_yaml: sources/book-07/chapter-17-bathilda-s-secret.yaml
+  processed_at: '2026-08-05'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3256-3273.
