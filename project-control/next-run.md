@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
-- Page range: 3274-3284
+- Chapter: Chapter Nineteen - The Silver Doe
+- Page range: 3285-3305
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+- Output YAML: `sources/book-07/chapter-19-the-silver-doe.yaml`
 
 ## Minimal Context
 

@@ -17914,6 +17914,118 @@ by_entry:
     - wand-lore
     source_unit: dh-ch17
     output_yaml: sources/book-07/chapter-17-bathilda-s-secret.yaml
+  dh-ch18-001:
+    title: 'Wands, Equipment, and Magical Materials: Broken wands and the loss of
+      twin-core protection'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - battle-damage
+    - harry-wand
+    - magical-equipment
+    - twin-cores
+    - voldemort
+    - wand-anomaly
+    - wand-lore
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  dh-ch18-002:
+    title: 'Sources on Dumbledore After His Death: Rita Skeeter''s Bathilda Bagshot
+      source note'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - bathilda-bagshot
+    - dumbledore-biography
+    - grindelwald
+    - in-universe-source
+    - photographs
+    - rita-skeeter
+    - source-criticism
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  dh-ch18-003:
+    title: 'Student Scholarship and Learned Networks: Dumbledore''s post-Hogwarts
+      honors and planned Grand Tour'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - albus-dumbledore
+    - alchemy
+    - head-boy
+    - post-hogwarts-travel
+    - prefects
+    - school-prizes
+    - wizengamot
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  dh-ch18-004:
+    title: 'Named Wizarding Historians and School Texts: Bathilda Bagshot as Dumbledore-family
+      source'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - ariana-dumbledore
+    - bathilda-bagshot
+    - dumbledore-family
+    - magical-historians
+    - source-criticism
+    - transfiguration-today
+    - veritaserum
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  dh-ch18-005:
+    title: 'Dumbledore and the First Wizarding War: Grindelwald''s Durmstrang expulsion
+      and Godric''s Hollow arrival'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - albus-dumbledore
+    - bathilda-bagshot
+    - dark-arts
+    - durmstrang
+    - expulsion
+    - godrics-hollow
+    - grindelwald
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  dh-ch18-006:
+    title: 'Dumbledore and the First Wizarding War: Young Dumbledore''s anti-Statute
+      political letter'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: medium
+    tags:
+    - albus-dumbledore
+    - greater-good
+    - grindelwald
+    - in-universe-source
+    - muggle-rights
+    - statute-of-secrecy
+    - wizarding-politics
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  dh-ch18-007:
+    title: 'Dumbledore and the First Wizarding War: Nurmengard, the Greater Good slogan,
+      and later repudiation'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - albus-dumbledore
+    - dark-arts
+    - greater-good
+    - grindelwald
+    - magical-history
+    - muggle-born-rights
+    - nurmengard
+    source_unit: dh-ch18
+    output_yaml: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18028,12 +18140,17 @@ by_tag:
   - dh-ch08-004
   - dh-ch08-006
   - dh-ch16-004
+  - dh-ch18-003
+  - dh-ch18-005
+  - dh-ch18-006
+  - dh-ch18-007
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
   alchemy:
+  - dh-ch18-003
   - ps-ch13-001
   alice-longbottom:
   - ootp-ch23-007
@@ -18178,6 +18295,7 @@ by_tag:
   ariana-dumbledore:
   - dh-ch08-005
   - dh-ch11-006
+  - dh-ch18-004
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -18369,6 +18487,9 @@ by_tag:
   - dh-ch17-003
   - dh-ch17-004
   - dh-ch17-005
+  - dh-ch18-002
+  - dh-ch18-004
+  - dh-ch18-005
   - poa-ch01-001
   bathroom:
   - cos-ch15-007
@@ -18381,6 +18502,7 @@ by_tag:
   - hbp-ch24-003
   battle-damage:
   - dh-ch17-007
+  - dh-ch18-001
   - ootp-ch35-005
   beaded-bag:
   - dh-ch09-002
@@ -19425,6 +19547,8 @@ by_tag:
   - dh-ch06-006
   - dh-ch06-007
   - dh-ch08-002
+  - dh-ch18-005
+  - dh-ch18-007
   - gof-ch11-004
   - gof-ch13-007
   - gof-ch19-006
@@ -20124,11 +20248,13 @@ by_tag:
   dumbledore-biography:
   - dh-ch11-006
   - dh-ch17-004
+  - dh-ch18-002
   dumbledore-death:
   - hbp-ch27-007
   dumbledore-family:
   - dh-ch02-004
   - dh-ch16-007
+  - dh-ch18-004
   dumbledore-funeral:
   - hbp-ch29-007
   - hbp-ch30-001
@@ -20198,6 +20324,7 @@ by_tag:
   - ps-ch12-001
   durmstrang:
   - dh-ch08-002
+  - dh-ch18-005
   - gof-ch11-004
   - gof-ch12-007
   - gof-ch15-005
@@ -20443,6 +20570,7 @@ by_tag:
   - cos-ch07-005
   - cos-ch12-007
   - cos-ch15-006
+  - dh-ch18-005
   - hbp-ch02-005
   - hbp-ch24-006
   - ootp-ch01-003
@@ -21058,6 +21186,7 @@ by_tag:
   - dh-ch17-003
   - dh-ch17-005
   - dh-ch17-006
+  - dh-ch18-005
   - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
@@ -21140,6 +21269,9 @@ by_tag:
   great-lake:
   - poa-ch20-004
   - poa-ch20-007
+  greater-good:
+  - dh-ch18-006
+  - dh-ch18-007
   greenhouse-three:
   - cos-ch06-002
   - cos-ch14-001
@@ -21189,6 +21321,10 @@ by_tag:
   - dh-ch02-005
   - dh-ch08-002
   - dh-ch17-004
+  - dh-ch18-002
+  - dh-ch18-005
+  - dh-ch18-006
+  - dh-ch18-007
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -21523,6 +21659,7 @@ by_tag:
   - ps-ch03-005
   harry-wand:
   - dh-ch17-007
+  - dh-ch18-001
   hassan-mostafa:
   - gof-ch08-005
   haunted-places:
@@ -21539,6 +21676,7 @@ by_tag:
   - cos-ch04-003
   - cos-ch13-002
   - cos-ch18-001
+  - dh-ch18-003
   - gof-ch05-001
   - hbp-ch20-003
   - ootp-ch10-002
@@ -22455,6 +22593,8 @@ by_tag:
   - dh-ch07-007
   - dh-ch10-003
   - dh-ch17-001
+  - dh-ch18-002
+  - dh-ch18-006
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -23149,6 +23289,7 @@ by_tag:
   - poa-ch03-003
   magical-equipment:
   - dh-ch17-007
+  - dh-ch18-001
   magical-evidence:
   - gof-ch34-004
   magical-expertise:
@@ -23168,8 +23309,10 @@ by_tag:
   - dh-ch10-003
   magical-historians:
   - dh-ch08-006
+  - dh-ch18-004
   magical-history:
   - dh-ch02-005
+  - dh-ch18-007
   magical-hospital:
   - ootp-ch22-004
   magical-injury:
@@ -23864,6 +24007,8 @@ by_tag:
   muggle-born-registration-commission:
   - dh-ch13-001
   - dh-ch13-006
+  muggle-born-rights:
+  - dh-ch18-007
   muggle-born-student:
   - cos-ch12-007
   muggle-born-students:
@@ -23944,6 +24089,7 @@ by_tag:
   - gof-ch08-001
   muggle-rights:
   - dh-ch02-001
+  - dh-ch18-006
   muggle-school:
   - ps-ch02-002
   muggle-schools:
@@ -24132,6 +24278,8 @@ by_tag:
   - ootp-ch24-003
   notice-boards:
   - ootp-ch26-002
+  nurmengard:
+  - dh-ch18-007
   nymphadora-tonks:
   - ootp-ch09-006
   o-w-ls:
@@ -24592,6 +24740,7 @@ by_tag:
   - dh-ch06-007
   photographs:
   - dh-ch17-004
+  - dh-ch18-002
   physical-evidence:
   - poa-ch17-002
   physical-restraint:
@@ -24730,6 +24879,7 @@ by_tag:
   - ootp-ch03-004
   post-hogwarts-travel:
   - dh-ch02-004
+  - dh-ch18-003
   post-riot-cleanup:
   - gof-ch10-001
   potion:
@@ -24854,6 +25004,7 @@ by_tag:
   - cos-ch12-002
   - cos-ch13-002
   - cos-ch13-006
+  - dh-ch18-003
   - hbp-ch07-002
   - hbp-ch23-003
   - ootp-ch09-005
@@ -25456,6 +25607,7 @@ by_tag:
   - dh-ch08-004
   - dh-ch11-006
   - dh-ch17-004
+  - dh-ch18-002
   - gof-ch10-003
   - gof-ch13-005
   - gof-ch18-005
@@ -25723,6 +25875,7 @@ by_tag:
   - ps-ch09-001
   school-prizes:
   - dh-ch02-002
+  - dh-ch18-003
   school-property:
   - cos-ch05-003
   school-protection:
@@ -26360,6 +26513,8 @@ by_tag:
   - dh-ch02-006
   - dh-ch11-006
   - dh-ch17-004
+  - dh-ch18-002
+  - dh-ch18-004
   source-history:
   - dh-ch08-004
   - dh-ch08-006
@@ -26599,6 +26754,7 @@ by_tag:
   statute-of-secrecy:
   - cos-ch02-005
   - dh-ch16-003
+  - dh-ch18-006
   - gof-ch04-004
   - hbp-ch01-001
   - hbp-ch01-002
@@ -27339,6 +27495,8 @@ by_tag:
   - hbp-ch26-006
   transfiguration-punishment:
   - gof-ch13-006
+  transfiguration-today:
+  - dh-ch18-004
   transfigured-chessmen:
   - ps-ch16-006
   trapdoor:
@@ -27450,6 +27608,8 @@ by_tag:
   - ootp-ch32-007
   truth-telling:
   - gof-ch37-004
+  twin-cores:
+  - dh-ch18-001
   two-champions:
   - gof-ch17-002
   two-way-mirror:
@@ -27603,6 +27763,7 @@ by_tag:
   - ootp-ch34-005
   - ootp-ch35-007
   veritaserum:
+  - dh-ch18-004
   - gof-ch27-004
   - gof-ch35-007
   - hbp-ch09-005
@@ -27649,6 +27810,7 @@ by_tag:
   - dh-ch12-005
   - dh-ch14-007
   - dh-ch17-005
+  - dh-ch18-001
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -27727,6 +27889,8 @@ by_tag:
   - cos-ch01-002
   - cos-ch03-005
   - poa-ch01-002
+  wand-anomaly:
+  - dh-ch18-001
   wand-confiscation:
   - ootp-ch32-005
   wand-cores:
@@ -27747,6 +27911,7 @@ by_tag:
   - dh-ch12-005
   - dh-ch14-007
   - dh-ch17-007
+  - dh-ch18-001
   wand-magic:
   - dh-ch04-006
   - dh-ch08-001
@@ -27996,6 +28161,7 @@ by_tag:
   - ootp-ch36-002
   - poa-ch21-003
   wizarding-politics:
+  - dh-ch18-006
   - ootp-ch05-006
   wizarding-prejudice:
   - gof-ch23-006
@@ -28031,6 +28197,7 @@ by_tag:
   - cos-ch01-003
   wizengamot:
   - dh-ch12-007
+  - dh-ch18-003
   - hbp-ch10-007
   - ootp-ch05-007
   - ootp-ch07-004

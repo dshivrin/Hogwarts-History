@@ -1,0 +1,343 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+  chapter_start_pdf_page: 3274
+  chapter_end_pdf_page: 3284
+  boundary_confidence: high
+  boundary_notes: "Extracted directly from the bounded current source-unit range in processing-state.yaml; no full-PDF scan was used."
+  processed_date: '2026-08-05'
+  processor_notes: "Captured seven strongest Hogwarts-history-relevant evidence entries from the bounded chapter extraction. No explicit Hogwarts: A History references occur in this chapter."
+
+entries:
+  - id: dh-ch18-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3274
+    printed_page: null
+    extracted_text_lines: "11-23; 27-41"
+    text_anchor:
+      start_phrase: "by the calamity of losing his wand"
+      end_phrase: "and now, Harry had no wand"
+      local_occurrence_note: "Harry keeps watch after the Bathilda escape and reflects on the destroyed holly-and-phoenix wand."
+    nearby_context: "The previous chapter ended with the failed Reparo; this chapter opens by treating the loss as a major weakening after the twin-core protection had saved him."
+    match_terms:
+      - broken wand
+      - twin cores
+      - golden flames
+      - holly and phoenix
+      - Hagrid's pouch
+      - Godric's Hollow
+    quote_excerpt_short: "He had lost the protection of the twin cores"
+    source_note: "Harry explicitly interprets the broken holly-and-phoenix wand as the loss of the twin-core protection that had previously acted against Voldemort."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - wand-lore
+      - harry-wand
+      - twin-cores
+      - wand-anomaly
+      - voldemort
+      - magical-equipment
+      - battle-damage
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wands, Equipment, and Magical Materials
+    candidate_section: Broken wands and the loss of twin-core protection
+    reason_for_placement: "The passage explains why one student's damaged wand became strategically important during the war beyond Hogwarts."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with student wand ownership, wand-weighing, Ollivander's lore, and Harry's final-year dependence on borrowed wands."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch17-007
+        - dh-ch05-007
+        - dh-ch12-005
+      notes: "Continuation of dh-ch17-007's broken-wand evidence and the earlier wand-anomaly thread in dh-ch05-007 and dh-ch12-005; this entry adds Harry's explicit interpretation that losing the wand means losing twin-core protection."
+    confidence: high
+    limitations: "Harry's conclusion is emotionally charged, and the passage does not explain the full mechanics of twin-core wand behavior."
+
+  - id: dh-ch18-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3276
+    printed_page: null
+    extracted_text_lines: "61-84"
+    text_anchor:
+      start_phrase: "Dear Batty, Thanks for your help"
+      end_phrase: "with his friend Gellert Grindelwald"
+      local_occurrence_note: "Hermione produces Rita Skeeter's biography from Bathilda's sitting room and reads the inserted note."
+    nearby_context: "The note says Bathilda helped with the book but may not remember it; Harry then finds the photograph linking young Dumbledore and Grindelwald."
+    match_terms:
+      - Rita Skeeter
+      - Bathilda Bagshot
+      - Dumbledore biography
+      - source handling
+      - photographs
+      - Grindelwald
+    quote_excerpt_short: "You said everything, even if you don't remember it"
+    source_note: "Skeeter's presentation copy confirms Bathilda Bagshot as a source for The Life and Lies of Albus Dumbledore and raises reliability concerns about consent, memory, and source handling."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - rita-skeeter
+      - bathilda-bagshot
+      - dumbledore-biography
+      - source-criticism
+      - photographs
+      - grindelwald
+      - in-universe-source
+    candidate_part: Sources, Historiography, and Editions
+    candidate_chapter: Sources on Dumbledore After His Death
+    candidate_section: Rita Skeeter's Bathilda Bagshot source note
+    reason_for_placement: "The scene documents provenance for a hostile in-universe biography that reshapes later knowledge of Dumbledore's youth."
+    relevance_to_hogwarts_a_history: "Useful for a historiography section distinguishing reliable school records from posthumous, hostile, and ethically suspect biographical sources."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch17-004
+        - dh-ch11-006
+        - dh-ch02-006
+      notes: "Continuation of the Skeeter-Bathilda source-history thread in dh-ch17-004, dh-ch11-006, and dh-ch02-006; this entry adds the physical presentation copy and Skeeter's note implying Bathilda gave testimony she may not remember."
+    confidence: high
+    limitations: "The note is written by Skeeter and cannot independently prove what Bathilda consented to or whether Veritaserum was actually used."
+
+  - id: dh-ch18-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3277
+    printed_page: null
+    extracted_text_lines: "96-110"
+    text_anchor:
+      start_phrase: "Now approaching his eighteenth birthday"
+      end_phrase: "as an act of noble self-sacrifice"
+      local_occurrence_note: "Harry and Hermione begin Skeeter's chapter The Greater Good."
+    nearby_context: "The extract contrasts Dumbledore's post-Hogwarts honors and planned Grand Tour with Doge's account of Kendra's death."
+    match_terms:
+      - Head Boy
+      - Prefect
+      - Barnabus Finkley Prize
+      - Wizengamot
+      - Alchemical Conference
+      - Grand Tour
+    quote_excerpt_short: "Dumbledore left Hogwarts in a blaze of glory"
+    source_note: "Skeeter lists Dumbledore's public school-leaver honors, including Prefect, Head Boy, spell-casting, Wizengamot youth representation, and international alchemical recognition."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - head-boy
+      - prefects
+      - school-prizes
+      - wizengamot
+      - alchemy
+      - post-hogwarts-travel
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: Student Scholarship and Learned Networks
+    candidate_section: Dumbledore's post-Hogwarts honors and planned Grand Tour
+    reason_for_placement: "The passage expands the record of Dumbledore's student excellence into named honors and immediate post-school plans."
+    relevance_to_hogwarts_a_history: "Supports a future note on elite academic achievement, student leadership offices, and how Hogwarts leavers could enter broader magical scholarly and political networks."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch02-002
+        - dh-ch02-004
+        - ps-ch06-003
+      notes: "Possible duplicate of dh-ch02-002 and dh-ch02-004 on Dumbledore's student achievements and planned Grand Tour, with ps-ch06-003 as a public biographical source; this entry adds Skeeter's named award list and hostile framing."
+    confidence: medium
+    limitations: "The achievement list comes from Skeeter's biography, a hostile source; Doge's earlier obituary corroborates the broad pattern but not every named honor here."
+
+  - id: dh-ch18-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3278
+    printed_page: null
+    extracted_text_lines: "125-153"
+    text_anchor:
+      start_phrase: "Bathilda Bagshot, the celebrated magical historian"
+      end_phrase: "even his devotion to his own family"
+      local_occurrence_note: "Skeeter explains Bathilda's earlier contact with Albus and her later use as a source."
+    nearby_context: "Bathilda is linked to Dumbledore's Transfiguration Today paper, the Dumbledore family, Kendra's death story, Ariana's condition, and Skeeter's claimed reporting methods."
+    match_terms:
+      - Bathilda Bagshot
+      - magical historian
+      - Transfiguration Today
+      - Kendra Dumbledore
+      - Ariana Dumbledore
+      - Veritaserum
+    quote_excerpt_short: "the celebrated magical historian"
+    source_note: "The biography identifies Bathilda Bagshot as a magical historian whose interest in Albus's student paper made her a Dumbledore-family acquaintance and later a contested source on Kendra and Ariana."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - bathilda-bagshot
+      - magical-historians
+      - transfiguration-today
+      - dumbledore-family
+      - source-criticism
+      - veritaserum
+      - ariana-dumbledore
+    candidate_part: Sources, Historiography, and Editions
+    candidate_chapter: Named Wizarding Historians and School Texts
+    candidate_section: Bathilda Bagshot as Dumbledore-family source
+    reason_for_placement: "The passage links a known historian to scholarly publication, local oral history, and contested biographical evidence."
+    relevance_to_hogwarts_a_history: "A future history can use this to discuss Bathilda as both textbook author and problematic source for Dumbledore-family background."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch10-003
+        - dh-ch08-006
+        - dh-ch11-006
+      notes: "Possible duplicate of prior Bathilda-as-source entries dh-ch10-003, dh-ch08-006, and dh-ch11-006; this entry adds the Transfiguration Today contact, Kendra's relationship with Bathilda, and Skeeter's explicit Veritaserum-source claim."
+    confidence: medium
+    limitations: "The passage is embedded in Skeeter's hostile biography, and its strongest source-method claim may reflect unethical or exaggerated reporting."
+
+  - id: dh-ch18-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3278
+    printed_page: null
+    extracted_text_lines: "154-170; 171-180"
+    text_anchor:
+      start_phrase: "Bathilda Bagshot agreed to accept into her home"
+      end_phrase: "Dumbledore sent Gellert Grindelwald in the dead of night"
+      local_occurrence_note: "Skeeter reconstructs Grindelwald's arrival in Godric's Hollow and friendship with Dumbledore."
+    nearby_context: "The extract identifies Grindelwald's Durmstrang expulsion, his visit to Bathilda, and the start of the Dumbledore-Grindelwald correspondence."
+    match_terms:
+      - Gellert Grindelwald
+      - Durmstrang
+      - Dark Arts
+      - expulsion
+      - Godric's Hollow
+      - Bathilda Bagshot
+    quote_excerpt_short: "even Durmstrang felt it could no longer turn a blind eye"
+    source_note: "Skeeter claims Grindelwald was expelled from Durmstrang for dangerous experiments, then came to Bathilda Bagshot in Godric's Hollow and formed a close friendship with Dumbledore."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - grindelwald
+      - durmstrang
+      - dark-arts
+      - expulsion
+      - godrics-hollow
+      - bathilda-bagshot
+      - albus-dumbledore
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Dumbledore and the First Wizarding War
+    candidate_section: Grindelwald's Durmstrang expulsion and Godric's Hollow arrival
+    reason_for_placement: "The passage supplies pre-1945 context for Grindelwald's school background and his first direct connection to Dumbledore."
+    relevance_to_hogwarts_a_history: "Useful for a later edition explaining why Grindelwald's conflict mattered to Hogwarts history through Dumbledore's personal past and comparative school culture."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-002
+        - gof-ch11-004
+        - dh-ch02-005
+      notes: "Possible duplicate of dh-ch08-002 on Grindelwald-Durmstrang memory, gof-ch11-004 on Durmstrang's Dark Arts reputation, and dh-ch02-005 on Dumbledore's later defeat of Grindelwald; this entry adds the expulsion, Bathilda kinship, Godric's Hollow arrival, and friendship with Dumbledore."
+    confidence: medium
+    limitations: "The source is Skeeter's biography and should be corroborated against later Aberforth or Dumbledore testimony where available."
+
+  - id: dh-ch18-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3279
+    printed_page: null
+    extracted_text_lines: "186-208; 209-217"
+    text_anchor:
+      start_phrase: "here are the thoughts of their seventeen-year-old hero"
+      end_phrase: "mourning his mother and caring for his sister"
+      local_occurrence_note: "Skeeter quotes a letter attributed to seventeen-year-old Dumbledore."
+    nearby_context: "The letter responds to Grindelwald's argument for wizard dominance and introduces the Greater Good language before Skeeter interprets it as anti-Statute plotting."
+    match_terms:
+      - Wizard dominance
+      - For the Greater Good
+      - Statute of Secrecy
+      - Muggle rule
+      - Dumbledore letter
+      - Grindelwald
+    quote_excerpt_short: "We seize control FOR THE GREATER GOOD"
+    source_note: "A letter attributed to young Dumbledore endorses wizard dominance over Muggles under the phrase For the Greater Good, which Skeeter frames as a plan to overthrow the Statute of Secrecy."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - grindelwald
+      - greater-good
+      - statute-of-secrecy
+      - muggle-rights
+      - wizarding-politics
+      - in-universe-source
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Dumbledore and the First Wizarding War
+    candidate_section: Young Dumbledore's anti-Statute political letter
+    reason_for_placement: "The passage is direct in-universe documentary evidence for a pre-Hogwarts-headmaster ideological episode later relevant to Dumbledore's public legacy."
+    relevance_to_hogwarts_a_history: "A later edition can include this as a contested archival note when tracing how Dumbledore's youthful politics contrast with his later Hogwarts leadership and Muggle-born advocacy."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries for Statute of Secrecy, Muggle rule, Greater Good, and Dumbledore found broad Dumbledore entries but no prior entry recording the letter's anti-Statute argument."
+    confidence: medium
+    limitations: "Skeeter supplies and frames the letter; the original context, completeness, and later repudiation are not available within this chapter."
+
+  - id: dh-ch18-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    chapter_start_pdf_page: 3274
+    chapter_end_pdf_page: 3284
+    pdf_page: 3282
+    printed_page: null
+    extracted_text_lines: "283-292; 315-320"
+    text_anchor:
+      start_phrase: "For the Greater Good became Grindelwald's slogan"
+      end_phrase: "who died trying to bring him down"
+      local_occurrence_note: "Hermione evaluates the letter's later influence after Harry finishes the Skeeter chapter."
+    nearby_context: "Hermione says the slogan was carved over Nurmengard, identifies the prison, and then contrasts young Dumbledore's letter with his later anti-Dark-Arts record."
+    match_terms:
+      - For the Greater Good
+      - Nurmengard
+      - Grindelwald
+      - prison
+      - Dumbledore
+      - Muggle-born rights
+    quote_excerpt_short: "became Grindelwald's slogan"
+    source_note: "Hermione connects Dumbledore's youthful phrase to Grindelwald's later slogan, Nurmengard prison, and Dumbledore's eventual role in defeating Grindelwald and defending Muggle-born rights."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - grindelwald
+      - greater-good
+      - nurmengard
+      - albus-dumbledore
+      - muggle-born-rights
+      - dark-arts
+      - magical-history
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Dumbledore and the First Wizarding War
+    candidate_section: Nurmengard, the Greater Good slogan, and later repudiation
+    reason_for_placement: "The passage connects a documentary phrase to Grindelwald's regime and to the later historical judgment of Dumbledore's opposition."
+    relevance_to_hogwarts_a_history: "A later edition can use this as editorial synthesis when explaining Dumbledore's legacy to Hogwarts readers after the public biography changed the evidence base."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch02-005
+        - dh-ch08-002
+      notes: "Possible duplicate of dh-ch02-005 on Dumbledore's defeat of Grindelwald and dh-ch08-002 on Grindelwald's remembered symbols; this entry adds Nurmengard, the slogan's placement, and Hermione's later-life contrast."
+    confidence: medium
+    limitations: "Hermione reports common claims rather than citing a document, and the chapter does not show Nurmengard directly."

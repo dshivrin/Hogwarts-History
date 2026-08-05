@@ -571,6 +571,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trelawney's True Prophecy and Later Corroboration
   - Trelawney's appointment interview and the first prophecy
   - Trelawney's confirmation of shared Divination classes
+- Dumbledore and the First Wizarding War
+  - Nurmengard, the Greater Good slogan, and later repudiation
 - Dumbledore's Private Instruction During the Second War
   - Pensieve lessons in the headmaster's office
 - Examinations and Academic Progression
@@ -859,6 +861,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy Strains After Voldemort's Fall
 - Wands, Equipment, and Magical Materials
   - Broken wands and limits of ordinary repair
+  - Broken wands and the loss of twin-core protection
   - Gregorovitch search and the wand anomaly
   - Gregorovitch's stolen object and Voldemort's search
   - Gregorovitch, Ollivander, and International Wandmaking
@@ -1059,10 +1062,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Death Eaters, Public Terror, and Postwar Denials
 - Dumbledore and the First Wizarding War
   - Biographical Sources and Public Reputation
+  - Grindelwald's Durmstrang expulsion and Godric's Hollow arrival
   - Grindelwald's Symbol and Durmstrang Memory
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
   - The 1945 Duel and Later Reputation
+  - Young Dumbledore's anti-Statute political letter
 - Dumbledore's Student Years
   - Aberforth at Hogwarts
   - Arrival Under Family Notoriety
@@ -1575,9 +1580,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Black family artifacts and published genealogies
 - Named Wizarding Historians and School Texts
   - A History of Magic on Godric's Hollow
+  - Bathilda Bagshot as Dumbledore-family source
   - Bathilda Bagshot as textbook author and living informant
 - Sources for Dumbledore's Life
   - Bathilda Bagshot as living local source and possible relic custodian
+- Sources on Dumbledore After His Death
+  - Rita Skeeter's Bathilda Bagshot source note
 
 ## Sources, Records, and Magical Historiography
 
@@ -1818,6 +1826,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - School records and family-history research
 - Student Scholarship and Learned Networks
   - Dumbledore's Early Academic Reputation
+  - Dumbledore's post-Hogwarts honors and planned Grand Tour
 - Student Use of Books Before Arrival
   - Course Books and Background Reading
 - Student Use of Library Books

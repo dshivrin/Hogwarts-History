@@ -7374,6 +7374,18 @@ Summary: The available evidence includes 1 source item, led by: Doge presents Du
   - Reference type: historical_claim
   - Notes: The chapter does not name the specific Hogwarts prizes or give dates for the learned publications.
 
+#### Section: Dumbledore's post-Hogwarts honors and planned Grand Tour
+
+Summary: The available evidence includes 1 source item, led by: Skeeter lists Dumbledore's public school-leaver honors, including Prefect, Head Boy, spell-casting, Wizengamot youth representation, and international alchemical recognition.
+
+- **Corroboration:** Skeeter lists Dumbledore's public school-leaver honors, including Prefect, Head Boy, spell-casting, Wizengamot youth representation, and international alchemical recognition.
+  - Quote: "Dumbledore left Hogwarts in a blaze of glory"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3277, `dh-ch18-003`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch02-002`, `dh-ch02-004`, `ps-ch06-003`. Possible duplicate of dh-ch02-002 and dh-ch02-004 on Dumbledore's student achievements and planned Grand Tour, with ps-ch06-003 as a public biographical source; this entry adds Skeeter's named award list and hostile framing.
+  - Notes: The achievement list comes from Skeeter's biography, a hostile source; Doge's earlier obituary corroborates the broad pattern but not every named honor here.
+
 ### Chapter: Student Use of Books Before Arrival
 
 #### Section: Course Books and Background Reading
@@ -7510,6 +7522,18 @@ Summary: The available evidence includes 1 source item, led by: The Chocolate Fr
   - Corroborates: `ps-ch13-001`. Chapter Thirteen uses the same Dumbledore Famous Wizard card to identify Nicolas Flamel; this entry records the card's first reading and full Dumbledore biographical value.
   - Notes: The card is a popular collectible rather than a Hogwarts-authored source, and "currently" reflects Harry's era.
 
+#### Section: Grindelwald's Durmstrang expulsion and Godric's Hollow arrival
+
+Summary: The available evidence includes 1 source item, led by: Skeeter claims Grindelwald was expelled from Durmstrang for dangerous experiments, then came to Bathilda Bagshot in Godric's Hollow and formed a close friendship with Dumbledore.
+
+- **Corroboration:** Skeeter claims Grindelwald was expelled from Durmstrang for dangerous experiments, then came to Bathilda Bagshot in Godric's Hollow and formed a close friendship with Dumbledore.
+  - Quote: "even Durmstrang felt it could no longer turn a blind eye"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3278, `dh-ch18-005`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch08-002`, `gof-ch11-004`, `dh-ch02-005`. Possible duplicate of dh-ch08-002 on Grindelwald-Durmstrang memory, gof-ch11-004 on Durmstrang's Dark Arts reputation, and dh-ch02-005 on Dumbledore's later defeat of Grindelwald; this entry adds the expulsion, Bathilda kinship, Godric's Hollow arrival, and friendship with Dumbledore.
+  - Notes: The source is Skeeter's biography and should be corroborated against later Aberforth or Dumbledore testimony where available.
+
 #### Section: Grindelwald's Symbol and Durmstrang Memory
 
 Summary: The available evidence includes 1 source item, led by: Krum supplies hostile witness evidence that the triangular sign was associated with Grindelwald at Durmstrang and copied by students seeking shock value.
@@ -7556,6 +7580,17 @@ Summary: The available evidence includes 1 source item, led by: Doge frames Dumb
   - Reference type: historical_claim
   - Possible corroboration: Possible existing duplicate ps-ch06-003 also records the Chocolate Frog card's Dumbledore biography, including the 1945 Grindelwald defeat and dragon's blood; this entry adds Doge's obituary framing, witness tradition, Chief Warlock context, and headmaster esteem.
   - Notes: The passage summarizes public memory and Doge's admiration; it does not provide tactical details of the duel or institutional records from Hogwarts.
+
+#### Section: Young Dumbledore's anti-Statute political letter
+
+Summary: The available evidence includes 1 source item, led by: A letter attributed to young Dumbledore endorses wizard dominance over Muggles under the phrase For the Greater Good, which Skeeter frames as a plan to overthrow the Statute of Secrecy.
+
+- **Supporting evidence:** A letter attributed to young Dumbledore endorses wizard dominance over Muggles under the phrase For the Greater Good, which Skeeter frames as a plan to overthrow the Statute of Secrecy.
+  - Quote: "We seize control FOR THE GREATER GOOD"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3279, `dh-ch18-006`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Notes: Skeeter supplies and frames the letter; the original context, completeness, and later repudiation are not available within this chapter.
 
 ### Chapter: Dark Marks and Wartime Terror
 
@@ -8617,6 +8652,20 @@ Summary: The available evidence includes 1 source item, led by: Trelawney direct
   - Reference type: curriculum_or_subject
   - Corroborates: `ootp-ch38-003`, `ootp-ch26-007`, `ootp-ch27-001`. ootp-ch38-003 already reports that Firenze and Trelawney both appear to teach Divination, while ootp-ch26-007 and ootp-ch27-001 cover Firenze's appointment and classroom; this entry adds Trelawney's direct statement that they share classes.
   - Notes: Trelawney's tone is hostile and informal, and the passage does not show the timetable or number of sections each teacher handles.
+
+### Chapter: Dumbledore and the First Wizarding War
+
+#### Section: Nurmengard, the Greater Good slogan, and later repudiation
+
+Summary: The available evidence includes 1 source item, led by: Hermione connects Dumbledore's youthful phrase to Grindelwald's later slogan, Nurmengard prison, and Dumbledore's eventual role in defeating Grindelwald and defending Muggle-born rights.
+
+- **Corroboration:** Hermione connects Dumbledore's youthful phrase to Grindelwald's later slogan, Nurmengard prison, and Dumbledore's eventual role in defeating Grindelwald and defending Muggle-born rights.
+  - Quote: "became Grindelwald's slogan"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3282, `dh-ch18-007`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch02-005`, `dh-ch08-002`. Possible duplicate of dh-ch02-005 on Dumbledore's defeat of Grindelwald and dh-ch08-002 on Grindelwald's remembered symbols; this entry adds Nurmengard, the slogan's placement, and Hermione's later-life contrast.
+  - Notes: Hermione reports common claims rather than citing a document, and the chapter does not show Nurmengard directly.
 
 ### Chapter: Dumbledore's Private Instruction During the Second War
 
@@ -10799,6 +10848,18 @@ Summary: The available evidence includes 1 source item, led by: Harry's holly-an
   - Reference type: cross_reference_candidate
   - Corroborates: `dh-ch05-007`, `dh-ch12-005`. Continuation of the Harry-wand anomaly and wandmaker-search thread in dh-ch05-007 and dh-ch12-005; this entry adds the wand's physical breakage and failed ordinary repair.
   - Notes: The passage shows Reparo failing in this case but does not define the full theory or all conditions for wand repair.
+
+#### Section: Broken wands and the loss of twin-core protection
+
+Summary: The available evidence includes 1 source item, led by: Harry explicitly interprets the broken holly-and-phoenix wand as the loss of the twin-core protection that had previously acted against Voldemort.
+
+- **Corroboration:** Harry explicitly interprets the broken holly-and-phoenix wand as the loss of the twin-core protection that had previously acted against Voldemort.
+  - Quote: "He had lost the protection of the twin cores"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3274, `dh-ch18-001`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch17-007`, `dh-ch05-007`, `dh-ch12-005`. Continuation of dh-ch17-007's broken-wand evidence and the earlier wand-anomaly thread in dh-ch05-007 and dh-ch12-005; this entry adds Harry's explicit interpretation that losing the wand means losing twin-core protection.
+  - Notes: Harry's conclusion is emotionally charged, and the passage does not explain the full mechanics of twin-core wand behavior.
 
 #### Section: Gregorovitch search and the wand anomaly
 
@@ -13590,6 +13651,18 @@ Summary: The available evidence includes 2 source items, led by: Bathilda Bagsho
   - Corroborates: `dh-ch16-003`. Continuation of dh-ch16-003, which records the A History of Magic Godric's Hollow excerpt; this entry isolates the haunted-graveyard detail invoked in the next chapter.
   - Notes: The passage is Harry's memory of the textbook rather than a fresh quotation, and it does not identify any specific ghost.
 
+#### Section: Bathilda Bagshot as Dumbledore-family source
+
+Summary: The available evidence includes 1 source item, led by: The biography identifies Bathilda Bagshot as a magical historian whose interest in Albus's student paper made her a Dumbledore-family acquaintance and later a contested source on Kendra and Ariana.
+
+- **Corroboration:** The biography identifies Bathilda Bagshot as a magical historian whose interest in Albus's student paper made her a Dumbledore-family acquaintance and later a contested source on Kendra and Ariana.
+  - Quote: "the celebrated magical historian"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3278, `dh-ch18-004`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch10-003`, `dh-ch08-006`, `dh-ch11-006`. Possible duplicate of prior Bathilda-as-source entries dh-ch10-003, dh-ch08-006, and dh-ch11-006; this entry adds the Transfiguration Today contact, Kendra's relationship with Bathilda, and Skeeter's explicit Veritaserum-source claim.
+  - Notes: The passage is embedded in Skeeter's hostile biography, and its strongest source-method claim may reflect unethical or exaggerated reporting.
+
 #### Section: Bathilda Bagshot as textbook author and living informant
 
 Summary: The available evidence includes 1 source item, led by: A torn copy of Bathilda Bagshot's A History of Magic is present among Sirius's school-era books, while Lily's letter treats Bathilda as a local source of Dumbledore stories.
@@ -13615,6 +13688,20 @@ Summary: The available evidence includes 1 source item, led by: Bathilda Bagshot
   - Reference type: cross_reference_candidate
   - Corroborates: `dh-ch08-006`, `dh-ch10-003`, `dh-ch15-006`. Likely overlaps prior Bathilda-as-source and Sword of Gryffindor entries; this chapter adds the operational theory that Dumbledore might have hidden the sword with Bathilda.
   - Notes: The sword connection is Hermione's speculation and is not confirmed by the events of this chapter.
+
+### Chapter: Sources on Dumbledore After His Death
+
+#### Section: Rita Skeeter's Bathilda Bagshot source note
+
+Summary: The available evidence includes 1 source item, led by: Skeeter's presentation copy confirms Bathilda Bagshot as a source for The Life and Lies of Albus Dumbledore and raises reliability concerns about consent, memory, and source handling.
+
+- **Corroboration:** Skeeter's presentation copy confirms Bathilda Bagshot as a source for The Life and Lies of Albus Dumbledore and raises reliability concerns about consent, memory, and source handling.
+  - Quote: "You said everything, even if you don't remember it"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, PDF p. 3276, `dh-ch18-002`, `sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch17-004`, `dh-ch11-006`, `dh-ch02-006`. Continuation of the Skeeter-Bathilda source-history thread in dh-ch17-004, dh-ch11-006, and dh-ch02-006; this entry adds the physical presentation copy and Skeeter's note implying Bathilda gave testimony she may not remember.
+  - Notes: The note is written by Skeeter and cannot independently prove what Bathilda consented to or whether Veritaserum was actually used.
 
 ## Part: Sources, Records, and Magical Historiography
 
