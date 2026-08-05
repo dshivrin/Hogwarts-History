@@ -991,6 +991,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry Symbolism and Non-Human Beings
 - Centaurs, Law, and Non-Human Autonomy
   - Centaur rejection of human service and wizard law
+- Godric's Hollow and Wizarding Memory
+  - Churchyard graves, old families, and Hallows evidence
+  - Potter memorial hidden in a Muggle village square
 - Squibs and Family Status
   - Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
 - Squibs, Muggle Neighbors, and Wizarding Records
@@ -1190,6 +1193,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dementor Powers and the Kiss
   - Lake and Grounds Encirclement
   - Removal After Student Endangerment
+- Disguise, Concealment, and Covert Movement
+  - Layered disguises for Godric's Hollow
 - Dumbledore and External Security Arrangements
   - Azkaban Guards at the Grounds Entrances
   - Dementor Breach at the Quidditch Stadium
@@ -1248,6 +1253,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Moody's map search for Crouch
 - Mobile Wards and Field Concealment
   - Campsite protections during the Horcrux hunt
+  - Protected campsite relocation and lost access
   - Repeated campsite protection and trace removal
 - Movement Limits and Anti-Apparition Protections
   - Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
@@ -1456,6 +1462,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Third-Floor Corridor Enforcement
 - Restricted Objects and Student Misuse
   - Love-potion sweets and staff antidote response
+- Snape's Hogwarts Regime
+  - Portrait reports of student resistance and restored decrees
 - Staff Appointment, Disclosure, and Safety
   - Werewolf Disclosure and Resignation
 - Staff Appointments and School Safety
@@ -1556,7 +1564,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Black family artifacts after Grimmauld Place theft
   - Black family artifacts and published genealogies
 - Named Wizarding Historians and School Texts
+  - A History of Magic on Godric's Hollow
   - Bathilda Bagshot as textbook author and living informant
+- Sources for Dumbledore's Life
+  - Bathilda Bagshot as living local source and possible relic custodian
 
 ## Sources, Records, and Magical Historiography
 

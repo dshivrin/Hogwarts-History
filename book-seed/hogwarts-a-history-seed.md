@@ -4453,6 +4453,20 @@ Summary: The available evidence includes 1 source item, led by: Spiked sweets ca
   - Corroborates: `hbp-ch15-002`, `hbp-ch06-006`, `gof-ch27-003`. hbp-ch15-002 covers disguised contraband, hbp-ch06-006 covers love-potion retail access, and gof-ch27-003 covers a stated Hogwarts love-potion ban. This entry adds a successful poisoning-by-sweets incident, potion aging, and Slughorn's antidote response.
   - Notes: Harry avoids Madam Pomfrey to avoid questions, so this should not be treated as standard school medical procedure.
 
+### Chapter: Snape's Hogwarts Regime
+
+#### Section: Portrait reports of student resistance and restored decrees
+
+Summary: The available evidence includes 1 source item, led by: Phineas Nigellus acts as a blindfolded, linked portrait informant from Hogwarts, reporting Snape's Slytherin headmastership, student mutiny, Ginny's Hogsmeade ban, and the restored anti-gathering decree.
+
+- **Corroboration:** Phineas Nigellus acts as a blindfolded, linked portrait informant from Hogwarts, reporting Snape's Slytherin headmastership, student mutiny, Ginny's Hogsmeade ban, and the restored anti-gathering decree.
+  - Quote: "a constant, low level of mutiny"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3242, `dh-ch16-002`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch10-001`, `dh-ch12-001`, `dh-ch12-002`, `dh-ch15-007`. Likely overlaps prior Phineas portrait-network and Snape-regime entries; this chapter adds blindfolded periodic reporting, student mutiny, Ginny's Hogsmeade ban, and Umbridge's old anti-gathering decree.
+  - Notes: The Hogwarts details are relayed through Phineas, who is biased toward Snape and leaves when questioned too directly.
+
 ### Chapter: Staff Appointment, Disclosure, and Safety
 
 #### Section: Werewolf Disclosure and Resignation
@@ -5633,6 +5647,19 @@ Summary: The available evidence includes 1 source item, led by: After the lakesh
   - Corroborates: `poa-ch20-004`. Book 3 Chapter Twenty records the lakeshore dementor encirclement; this entry adds Fudge's official decision to remove dementors after the near-Kiss.
   - Notes: Fudge's response is crisis-specific and does not state the formal removal order or who had originally authorized all movement near the lake.
 
+### Chapter: Disguise, Concealment, and Covert Movement
+
+#### Section: Layered disguises for Godric's Hollow
+
+Summary: The available evidence includes 1 source item, led by: A high-risk visit can combine Side-Along Apparition practice under the Invisibility Cloak, possible Disillusionment, Polyjuice made with Muggle hair, concealed storage, and physical trace management.
+
+- **Context:** A high-risk visit can combine Side-Along Apparition practice under the Invisibility Cloak, possible Disillusionment, Polyjuice made with Muggle hair, concealed storage, and physical trace management.
+  - Quote: "the thicker our disguises the better"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3248, `dh-ch16-005`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The Disillusionment option is discussed but not clearly used, and the passage leaves the post-mortem Fidelius question unresolved.
+
 ### Chapter: Dumbledore and External Security Arrangements
 
 #### Section: Azkaban Guards at the Grounds Entrances
@@ -6075,6 +6102,18 @@ Summary: The available evidence includes 1 source item, led by: A mobile wartime
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: Hermione cannot guarantee that the protections will keep Voldemort out, so their strength is uncertain.
+
+#### Section: Protected campsite relocation and lost access
+
+Summary: The available evidence includes 1 source item, led by: The Horcrux-hunt camp protections also function as a location-severing measure: once the fugitives leave a protected site, Ron cannot find the new camp without being included.
+
+- **Corroboration:** The Horcrux-hunt camp protections also function as a location-severing measure: once the fugitives leave a protected site, Ron cannot find the new camp without being included.
+  - Quote: "impossible, once they vacated this spot"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3240, `dh-ch16-001`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch14-003`, `dh-ch15-001`. Likely continuation of the mobile campsite protection entries; this chapter adds the consequence that a departed ally cannot relocate the group after they vacate a protected site.
+  - Notes: The exact charm or combination of charms that prevents Ron from finding them is not named in this passage.
 
 #### Section: Repeated campsite protection and trace removal
 
@@ -12589,6 +12628,31 @@ Summary: The available evidence includes 1 source item, led by: The herd frames 
   - Corroborates: `ootp-ch30-007`, `ootp-ch27-002`, `ps-ch15-006`. ootp-ch30-007 records centaur separate law, ootp-ch27-002 records Firenze's banishment, and ps-ch15-006 establishes centaur residence; this entry adds the post-Umbridge argument over servitude, wizard invasions, and legal nonrecognition.
   - Notes: The claims come during an armed crisis and may emphasize the most hostile position within the herd.
 
+### Chapter: Godric's Hollow and Wizarding Memory
+
+#### Section: Churchyard graves, old families, and Hallows evidence
+
+Summary: The available evidence includes 1 source item, led by: The Godric's Hollow graveyard corroborates old wizarding settlement: Kendra and Ariana Dumbledore are buried near James and Lily Potter, an ancient Ignotus grave bears the triangular mark, and recognizable Hogwarts surnames recur across generations.
+
+- **Corroboration:** The Godric's Hollow graveyard corroborates old wizarding settlement: Kendra and Ariana Dumbledore are buried near James and Lily Potter, an ancient Ignotus grave bears the triangular mark, and recognizable Hogwarts surnames recur across generations.
+  - Quote: "several generations of the same Wizarding family"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3252, `dh-ch16-007`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch08-006`, `dh-ch11-006`, `ps-ch01-003`, `gof-ch02-004`. Likely overlaps prior Godric's Hollow, Dumbledore-family, and Potter-attack entries; this chapter adds direct graveyard evidence, Potter and Dumbledore grave proximity, Ignotus's marked grave, and repeated wizarding-family surnames.
+  - Notes: Ignotus's surname is not legible in this chapter, and Hermione has not yet identified the triangular mark as the Deathly Hallows symbol.
+
+#### Section: Potter memorial hidden in a Muggle village square
+
+Summary: The available evidence includes 1 source item, led by: Godric's Hollow contains a concealed magical memorial: what appears as a war memorial becomes a Potter-family statue for Harry and Hermione, then reverts as they leave.
+
+- **Context:** Godric's Hollow contains a concealed magical memorial: what appears as a war memorial becomes a Potter-family statue for Harry and Hermione, then reverts as they leave.
+  - Quote: "it had transformed"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3250, `dh-ch16-006`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The chapter does not explain who created the memorial or what determines whether a visitor sees the magical version.
+
 ### Chapter: Squibs and Family Status
 
 #### Section: Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
@@ -13430,6 +13494,18 @@ Summary: The available evidence includes 1 source item, led by: The lost locket 
 
 ### Chapter: Named Wizarding Historians and School Texts
 
+#### Section: A History of Magic on Godric's Hollow
+
+Summary: The available evidence includes 1 source item, led by: Bathilda Bagshot's A History of Magic identifies post-Statute half-magical communities and singles out Godric's Hollow as Gryffindor's birthplace, Bowman Wright's Snitch-forging site, and a graveyard of ancient magical families.
+
+- **Corroboration:** Bathilda Bagshot's A History of Magic identifies post-Statute half-magical communities and singles out Godric's Hollow as Gryffindor's birthplace, Bowman Wright's Snitch-forging site, and a graveyard of ancient magical families.
+  - Quote: "Most celebrated of these half-magical dwelling places"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3246, `dh-ch16-003`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `poa-ch01-001`, `dh-ch08-006`, `dh-ch10-003`. Likely overlaps prior entries identifying Bathilda Bagshot and A History of Magic as sources; this chapter adds a quoted Godric's Hollow passage with Statute, Gryffindor, Bowman Wright, Snitch, graveyard, and haunting details.
+  - Notes: Hermione notes that Bagshot's textbook stops before the end of the nineteenth century, so it omits Harry's parents and the modern Potter history.
+
 #### Section: Bathilda Bagshot as textbook author and living informant
 
 Summary: The available evidence includes 1 source item, led by: A torn copy of Bathilda Bagshot's A History of Magic is present among Sirius's school-era books, while Lily's letter treats Bathilda as a local source of Dumbledore stories.
@@ -13441,6 +13517,20 @@ Summary: The available evidence includes 1 source item, led by: A torn copy of B
   - Reference type: explicit_in_universe_source
   - Corroborates: `poa-ch01-001`, `dh-ch02-003`, `dh-ch08-006`. Likely corroborates prior Bathilda/A History of Magic and Bathilda-as-source entries; this chapter adds the book as Sirius-room material evidence and Lily's private testimony.
   - Notes: The torn page does not quote the book's contents, and Lily's letter breaks off before the Dumbledore story.
+
+### Chapter: Sources for Dumbledore's Life
+
+#### Section: Bathilda Bagshot as living local source and possible relic custodian
+
+Summary: The available evidence includes 1 source item, led by: Bathilda Bagshot is treated as both a living Godric's Hollow informant and a possible custodian for Dumbledore's plan around the Sword of Gryffindor.
+
+- **Corroboration:** Bathilda Bagshot is treated as both a living Godric's Hollow informant and a possible custodian for Dumbledore's plan around the Sword of Gryffindor.
+  - Quote: "what if Bathilda's got the sword?"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, PDF p. 3247, `dh-ch16-004`, `sources/book-07/chapter-16-godric-s-hollow.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch08-006`, `dh-ch10-003`, `dh-ch15-006`. Likely overlaps prior Bathilda-as-source and Sword of Gryffindor entries; this chapter adds the operational theory that Dumbledore might have hidden the sword with Bathilda.
+  - Notes: The sword connection is Hermione's speculation and is not confirmed by the events of this chapter.
 
 ## Part: Sources, Records, and Magical Historiography
 

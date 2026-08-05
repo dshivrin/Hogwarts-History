@@ -183,3 +183,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch13`: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, pages 3183-3201, 7 entries, 0 explicit references.
 - `dh-ch14`: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, pages 3202-3215, 7 entries, 0 explicit references.
 - `dh-ch15`: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, pages 3216-3239, 7 entries, 0 explicit references.
+- `dh-ch16`: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, pages 3240-3255, 7 entries, 0 explicit references.

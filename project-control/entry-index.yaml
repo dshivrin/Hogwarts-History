@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-04'
+updated: '2026-08-05'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -17692,9 +17692,123 @@ by_entry:
     - portraits
     source_unit: dh-ch15
     output_yaml: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  dh-ch16-001:
+    title: 'Mobile Wards and Field Concealment: Protected campsite relocation and
+      lost access'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - campsite
+    - field-security
+    - horcrux-hunt
+    - protective-enchantments
+    - ron-weasley
+    - wards
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  dh-ch16-002:
+    title: 'Snape''s Hogwarts Regime: Portrait reports of student resistance and restored
+      decrees'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - dumbledores-army
+    - hogwarts
+    - phineas-nigellus-black
+    - portraits
+    - severus-snape
+    - student-discipline
+    - wartime-hogwarts
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  dh-ch16-003:
+    title: 'Named Wizarding Historians and School Texts: A History of Magic on Godric''s
+      Hollow'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - a-history-of-magic
+    - bathilda-bagshot
+    - bowman-wright
+    - godric-gryffindor
+    - godrics-hollow
+    - golden-snitch
+    - statute-of-secrecy
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  dh-ch16-004:
+    title: 'Sources for Dumbledore''s Life: Bathilda Bagshot as living local source
+      and possible relic custodian'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - a-history-of-magic
+    - albus-dumbledore
+    - bathilda-bagshot
+    - founder-relics
+    - godrics-hollow
+    - source-history
+    - sword-of-gryffindor
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  dh-ch16-005:
+    title: 'Disguise, Concealment, and Covert Movement: Layered disguises for Godric''s
+      Hollow'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - apparition
+    - disguise
+    - disillusionment
+    - fidelius
+    - invisibility-cloak
+    - polyjuice-potion
+    - wartime-security
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  dh-ch16-006:
+    title: 'Godric''s Hollow and Wizarding Memory: Potter memorial hidden in a Muggle
+      village square'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - godrics-hollow
+    - magical-memorial
+    - muggle-concealment
+    - potter-family
+    - public-memory
+    - statue
+    - voldemort-fall
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
+  dh-ch16-007:
+    title: 'Godric''s Hollow and Wizarding Memory: Churchyard graves, old families,
+      and Hallows evidence'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deathly-hallows-symbol
+    - dumbledore-family
+    - godrics-hollow
+    - graveyard
+    - ignotus-peverell
+    - potter-family
+    - wizarding-families
+    source_unit: dh-ch16
+    output_yaml: sources/book-07/chapter-16-godric-s-hollow.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
+  - dh-ch16-003
+  - dh-ch16-004
   aberforth-dumbledore:
   - dh-ch02-003
   academic-assessment:
@@ -17802,6 +17916,7 @@ by_tag:
   - dh-ch08-002
   - dh-ch08-004
   - dh-ch08-006
+  - dh-ch16-004
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
@@ -17915,6 +18030,8 @@ by_tag:
   - dh-ch12-003
   - dh-ch14-001
   - dh-ch14-002
+  - dh-ch16-001
+  - dh-ch16-005
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -18133,6 +18250,8 @@ by_tag:
   - dh-ch08-006
   - dh-ch10-003
   - dh-ch11-006
+  - dh-ch16-003
+  - dh-ch16-004
   - poa-ch01-001
   bathroom:
   - cos-ch15-007
@@ -18317,6 +18436,8 @@ by_tag:
   - gof-ch29-001
   boundary-magic:
   - dh-ch05-001
+  bowman-wright:
+  - dh-ch16-003
   bowtruckles:
   - hbp-ch22-006
   - hbp-ch28-006
@@ -18403,6 +18524,7 @@ by_tag:
   campsite:
   - dh-ch14-003
   - dh-ch15-001
+  - dh-ch16-001
   captain-office:
   - ootp-ch14-004
   captaincy:
@@ -19292,6 +19414,8 @@ by_tag:
   - ootp-ch33-007
   deathday-party:
   - cos-ch08-004
+  deathly-hallows-symbol:
+  - dh-ch16-007
   decorations:
   - gof-ch22-003
   - hbp-ch15-001
@@ -19561,9 +19685,11 @@ by_tag:
   - cos-ch08-002
   - hbp-ch24-006
   disguise:
+  - dh-ch16-005
   - ootp-ch03-004
   disillusionment:
   - dh-ch15-001
+  - dh-ch16-005
   disillusionment-charm:
   - hbp-ch03-003
   - ootp-ch03-005
@@ -19881,6 +20007,7 @@ by_tag:
   - hbp-ch27-007
   dumbledore-family:
   - dh-ch02-004
+  - dh-ch16-007
   dumbledore-funeral:
   - hbp-ch29-007
   - hbp-ch30-001
@@ -19922,6 +20049,7 @@ by_tag:
   - dh-ch07-002
   dumbledores-army:
   - dh-ch05-004
+  - dh-ch16-002
   - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch18-007
@@ -20293,9 +20421,12 @@ by_tag:
   - dh-ch06-002
   - dh-ch09-006
   - dh-ch14-002
+  - dh-ch16-005
   - hbp-ch02-004
   field-booking:
   - cos-ch07-002
+  field-security:
+  - dh-ch16-001
   fifth-floor:
   - gof-ch23-007
   - ootp-ch30-001
@@ -20583,6 +20714,7 @@ by_tag:
   founder-relics:
   - dh-ch15-002
   - dh-ch15-006
+  - dh-ch16-004
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -20784,11 +20916,16 @@ by_tag:
   godric-gryffindor:
   - cos-ch18-004
   - dh-ch07-006
+  - dh-ch16-003
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
   - dh-ch08-006
   - dh-ch10-003
+  - dh-ch16-003
+  - dh-ch16-004
+  - dh-ch16-006
+  - dh-ch16-007
   - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
@@ -20807,6 +20944,7 @@ by_tag:
   - gof-ch31-005
   golden-snitch:
   - dh-ch07-005
+  - dh-ch16-003
   golgomath:
   - ootp-ch20-005
   golpalotts-third-law:
@@ -20815,6 +20953,8 @@ by_tag:
   - hbp-ch21-005
   grade-scale:
   - hbp-ch05-006
+  graveyard:
+  - dh-ch16-007
   grawp:
   - hbp-ch08-007
   - hbp-ch30-004
@@ -21617,6 +21757,7 @@ by_tag:
   - dh-ch10-006
   - dh-ch15-002
   - dh-ch15-007
+  - dh-ch16-002
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -21881,6 +22022,7 @@ by_tag:
   - dh-ch14-004
   - dh-ch15-001
   - dh-ch15-003
+  - dh-ch16-001
   horcrux-mission:
   - hbp-ch30-007
   horcruxes:
@@ -22128,6 +22270,8 @@ by_tag:
   - hbp-ch04-002
   - hbp-ch05-003
   - ootp-ch03-001
+  ignotus-peverell:
+  - dh-ch16-007
   illegal-creature:
   - ps-ch14-004
   illegal-curses:
@@ -22301,6 +22445,7 @@ by_tag:
   - ootp-ch11-001
   invisibility-cloak:
   - dh-ch09-002
+  - dh-ch16-005
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -22925,6 +23070,8 @@ by_tag:
   - gof-ch02-005
   magical-megaphone:
   - hbp-ch14-005
+  magical-memorial:
+  - dh-ch16-006
   magical-memory-source:
   - cos-ch17-002
   magical-menagerie:
@@ -23593,6 +23740,7 @@ by_tag:
   muggle-casualties:
   - dh-ch03-003
   muggle-concealment:
+  - dh-ch16-006
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch06-007
@@ -24277,6 +24425,7 @@ by_tag:
   - dh-ch10-001
   - dh-ch12-002
   - dh-ch15-007
+  - dh-ch16-002
   phoenix:
   - cos-ch17-005
   - hbp-ch29-002
@@ -24355,6 +24504,7 @@ by_tag:
   - dh-ch04-003
   - dh-ch05-003
   - dh-ch14-001
+  - dh-ch16-005
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
@@ -24404,6 +24554,7 @@ by_tag:
   - dh-ch10-001
   - dh-ch12-002
   - dh-ch15-007
+  - dh-ch16-002
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -24478,6 +24629,8 @@ by_tag:
   potions-office:
   - ootp-ch24-004
   potter-family:
+  - dh-ch16-006
+  - dh-ch16-007
   - gof-ch14-004
   - gof-ch34-004
   - hbp-ch25-005
@@ -24795,6 +24948,7 @@ by_tag:
   - dh-ch09-001
   - dh-ch14-003
   - dh-ch15-001
+  - dh-ch16-001
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -24842,6 +24996,7 @@ by_tag:
   public-events:
   - gof-ch08-006
   public-memory:
+  - dh-ch16-006
   - ps-ch02-006
   public-opinion:
   - ootp-ch04-007
@@ -25163,6 +25318,7 @@ by_tag:
   - hbp-ch18-006
   ron-weasley:
   - dh-ch07-004
+  - dh-ch16-001
   - ootp-ch09-005
   - ootp-ch30-003
   - ootp-ch35-006
@@ -25740,6 +25896,7 @@ by_tag:
   - ootp-ch31-001
   severus-snape:
   - dh-ch12-001
+  - dh-ch16-002
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -26044,6 +26201,7 @@ by_tag:
   source-history:
   - dh-ch08-004
   - dh-ch08-006
+  - dh-ch16-004
   source-reliability:
   - gof-ch15-003
   spattergroit:
@@ -26274,8 +26432,11 @@ by_tag:
   - ps-ch07-002
   start-of-term-feast:
   - hbp-ch08-003
+  statue:
+  - dh-ch16-006
   statute-of-secrecy:
   - cos-ch02-005
+  - dh-ch16-003
   - gof-ch04-004
   - hbp-ch01-001
   - hbp-ch01-002
@@ -26346,6 +26507,7 @@ by_tag:
   - gof-ch37-001
   student-discipline:
   - cos-ch18-002
+  - dh-ch16-002
   - hbp-ch24-006
   - ootp-ch01-003
   - ootp-ch02-003
@@ -26694,6 +26856,7 @@ by_tag:
   - dh-ch07-006
   - dh-ch12-002
   - dh-ch15-006
+  - dh-ch16-004
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -27371,6 +27534,7 @@ by_tag:
   voldemort-denial:
   - ootp-ch12-007
   voldemort-fall:
+  - dh-ch16-006
   - gof-ch02-004
   - ps-ch01-001
   - ps-ch01-003
@@ -27457,6 +27621,7 @@ by_tag:
   - dh-ch01-001
   wards:
   - dh-ch14-003
+  - dh-ch16-001
   warlocks-convention-1709:
   - ps-ch14-002
   wartime-communications:
@@ -27466,11 +27631,13 @@ by_tag:
   - ootp-ch38-001
   wartime-hogwarts:
   - dh-ch12-001
+  - dh-ch16-002
   wartime-publicity:
   - hbp-ch30-006
   wartime-security:
   - dh-ch12-003
   - dh-ch14-005
+  - dh-ch16-005
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -27633,6 +27800,7 @@ by_tag:
   - ps-ch02-006
   wizarding-families:
   - cos-ch03-002
+  - dh-ch16-007
   wizarding-folklore:
   - dh-ch07-007
   wizarding-genealogy:

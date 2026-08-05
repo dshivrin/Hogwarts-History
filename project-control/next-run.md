@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Sixteen - Godric’s Hollow
-- Page range: 3240-3255
+- Chapter: Chapter Seventeen - Bathilda’s Secret
+- Page range: 3256-3273
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-16-godric-s-hollow.yaml`
+- Output YAML: `sources/book-07/chapter-17-bathilda-s-secret.yaml`
 
 ## Minimal Context
 
