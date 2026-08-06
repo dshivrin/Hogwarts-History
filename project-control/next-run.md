@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-One - The Tale of the Three Brothers
-- Page range: 3321-3336
+- Chapter: Chapter Twenty-Two - The Deathly Hallows
+- Page range: 3337-3355
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+- Output YAML: `sources/book-07/chapter-22-the-deathly-hallows.yaml`
 
 ## Minimal Context
 

@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 182
+- Total: 183
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 134
+- Harry Potter and the Deathly Hallows: 141
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,10 +23,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 483
-- later_editorial_note: 592
+- later_editorial_note: 593
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 4
-- pre_1984_historical_candidate: 116
+- pre_1984_historical_candidate: 122
 
 ## Entries by Reference Type
 
@@ -34,11 +34,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - curriculum_or_subject: 154
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
-- explicit_in_universe_source: 93
-- historical_claim: 158
+- explicit_in_universe_source: 95
+- historical_claim: 162
 - house_system: 20
 - institutional_custom: 181
-- magical_architecture: 91
+- magical_architecture: 92
 - portrait_or_ghost_lore: 18
 - school_rule_or_policy: 130
 - security_or_protection: 204
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 868
+- Total: 874
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, pages 3306-3320, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, pages 3321-3336, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, pages 3321-3336, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, pages 3337-3355, `sources/book-07/chapter-22-the-deathly-hallows.yaml`

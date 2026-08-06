@@ -749,6 +749,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second War and Hogwarts Information Climate
   - Alternative press and Harry's Quibbler interview
   - Alternative press reaches Hogwarts by owl post
+  - Hostage pressure and reversal of The Quibbler
   - Ministry acknowledgement and Dumbledore's reinstatement
   - Password-protected resistance broadcasts
   - Public prophecy rumors after the Department of Mysteries
@@ -1005,6 +1006,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Churchyard graves, old families, and Hallows evidence
   - Potter cottage monument and magical visitor messages
   - Potter memorial hidden in a Muggle village square
+- Old Wizarding Families and Founder-Era Memory
+  - Peverell family and Hallows provenance
 - Squibs and Family Status
   - Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
 - Squibs, Muggle Neighbors, and Wizarding Records
@@ -1029,7 +1032,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Magical Objects and Artifacts
 
+- Cloaks, Concealment, and Anti-Detection
+  - True Invisibility Cloaks versus lesser concealment cloaks
+- The Deathly Hallows
+  - Three artifacts and the master-of-Death claim
 - Wand Ownership and Compatibility
+  - Elder Wand provenance and alternate names
   - Replacement wands and weakened spellwork
 
 ## Magical Objects and Protective Magic
@@ -1081,6 +1089,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Aberforth at Hogwarts
   - Arrival Under Family Notoriety
 - Dumbledore, Grindelwald, and the Deathly Hallows
+  - Hallows symbol, believers, and the Quest
   - Symbol evidence before Xenophilius's explanation
 - First Wizarding War and Hogwarts Families
   - The Longbottom Aurors and Bellatrix Lestrange
@@ -1623,6 +1632,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bathilda Bagshot as living local source and possible relic custodian
 - Sources on Dumbledore After His Death
   - Rita Skeeter's Bathilda Bagshot source note
+- Wizarding Folklore and Historical Memory
+  - Beedle's tale as a Hallows source
 
 ## Sources, Records, and Magical Historiography
 

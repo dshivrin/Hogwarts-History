@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 20
-  chapter_title: Chapter Twenty - Xenophilius Lovegood
-  page_start: 3306
-  page_end: 3320
-  output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 21
   chapter_title: Chapter Twenty-One - The Tale of the Three Brothers
   page_start: 3321
   page_end: 3336
   output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3337
   page_end: 3355
   output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 23
+  chapter_title: Chapter Twenty-Three - Malfoy Manor
+  page_start: 3356
+  page_end: 3382
+  output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

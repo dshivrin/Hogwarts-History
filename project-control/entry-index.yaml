@@ -18241,6 +18241,117 @@ by_entry:
     - wizarding-inventions
     source_unit: dh-ch20
     output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch21-001:
+    title: 'Dumbledore, Grindelwald, and the Deathly Hallows: Hallows symbol, believers,
+      and the Quest'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deathly-hallows
+    - esoteric-lore
+    - grindelwald
+    - hallows-quest
+    - symbols
+    - wizarding-belief
+    - xenophilius-lovegood
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch21-002:
+    title: 'Wizarding Folklore and Historical Memory: Beedle''s tale as a Hallows
+      source'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - beedle-the-bard
+    - deathly-hallows
+    - in-universe-source
+    - runes
+    - tales-of-beedle-the-bard
+    - three-brothers
+    - wizarding-folklore
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch21-003:
+    title: 'The Deathly Hallows: Three artifacts and the master-of-Death claim'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deathly-hallows
+    - elder-wand
+    - invisibility-cloak
+    - magical-artifacts
+    - master-of-death
+    - resurrection-stone
+    - symbols
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch21-004:
+    title: 'Cloaks, Concealment, and Anti-Detection: True Invisibility Cloaks versus
+      lesser concealment cloaks'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - bedazzling-hex
+    - concealment
+    - deathly-hallows
+    - demiguise
+    - disillusionment-charm
+    - invisibility-cloak
+    - magical-artifacts
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch21-005:
+    title: 'Wand Ownership and Compatibility: Elder Wand provenance and alternate
+      names'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - artifact-provenance
+    - deathstick
+    - elder-wand
+    - magical-history
+    - professor-binns
+    - wand-of-destiny
+    - wandlore
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch21-006:
+    title: 'Old Wizarding Families and Founder-Era Memory: Peverell family and Hallows
+      provenance'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - antioch-peverell
+    - artifact-provenance
+    - cadmus-peverell
+    - deathly-hallows
+    - godrics-hollow
+    - ignotus-peverell
+    - peverell-family
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch21-007:
+    title: 'The Second War and Hogwarts Information Climate: Hostage pressure and
+      reversal of The Quibbler'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - hostage
+    - luna-lovegood
+    - ministry-of-magic
+    - quibbler
+    - second-war
+    - undesirable-number-one
+    - wizarding-press
+    source_unit: dh-ch21
+    output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18463,6 +18574,8 @@ by_tag:
   - gof-ch22-005
   - hbp-ch18-001
   - hbp-ch18-006
+  antioch-peverell:
+  - dh-ch21-006
   apollyon-pringle:
   - gof-ch31-001
   apothecaries:
@@ -18538,6 +18651,9 @@ by_tag:
   - ootp-ch21-007
   artifact-accidents:
   - ootp-ch22-005
+  artifact-provenance:
+  - dh-ch21-005
+  - dh-ch21-006
   assassination-attempt:
   - hbp-ch18-007
   assessment:
@@ -18741,10 +18857,13 @@ by_tag:
   - gof-ch31-004
   - gof-ch37-005
   - hbp-ch05-007
+  bedazzling-hex:
+  - dh-ch21-004
   bedtime-enforcement:
   - poa-ch13-006
   beedle-the-bard:
   - dh-ch20-004
+  - dh-ch21-002
   bell-jar:
   - ootp-ch34-007
   - ootp-ch35-004
@@ -18988,6 +19107,8 @@ by_tag:
   - hbp-ch16-002
   butterbeer:
   - gof-ch28-001
+  cadmus-peverell:
+  - dh-ch21-006
   campsite:
   - dh-ch14-003
   - dh-ch15-001
@@ -19477,6 +19598,7 @@ by_tag:
   - hbp-ch28-003
   concealment:
   - dh-ch17-003
+  - dh-ch21-004
   - hbp-ch04-003
   - ootp-ch03-004
   - ootp-ch03-005
@@ -19894,8 +20016,15 @@ by_tag:
   - cos-ch08-004
   deathly-hallows:
   - dh-ch20-004
+  - dh-ch21-001
+  - dh-ch21-002
+  - dh-ch21-003
+  - dh-ch21-004
+  - dh-ch21-006
   deathly-hallows-symbol:
   - dh-ch16-007
+  deathstick:
+  - dh-ch21-005
   decorations:
   - gof-ch22-003
   - hbp-ch15-001
@@ -20046,6 +20175,8 @@ by_tag:
   - poa-ch12-003
   - poa-ch19-002
   - poa-ch20-006
+  demiguise:
+  - dh-ch21-004
   department-for-regulation-and-control-of-magical-creatures:
   - gof-ch08-002
   - gof-ch09-005
@@ -20173,6 +20304,7 @@ by_tag:
   - dh-ch15-001
   - dh-ch16-005
   disillusionment-charm:
+  - dh-ch21-004
   - hbp-ch03-003
   - ootp-ch03-005
   - ootp-ch04-002
@@ -20617,6 +20749,8 @@ by_tag:
   - hbp-ch30-002
   elder-wand:
   - dh-ch14-007
+  - dh-ch21-003
+  - dh-ch21-005
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -20735,6 +20869,8 @@ by_tag:
   escape-route:
   - hbp-ch28-002
   - poa-ch21-007
+  esoteric-lore:
+  - dh-ch21-001
   estate-law:
   - dh-ch07-002
   - dh-ch07-003
@@ -21439,6 +21575,7 @@ by_tag:
   - dh-ch17-006
   - dh-ch18-005
   - dh-ch20-004
+  - dh-ch21-006
   - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
@@ -21578,6 +21715,7 @@ by_tag:
   - dh-ch18-006
   - dh-ch18-007
   - dh-ch20-004
+  - dh-ch21-001
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -21865,6 +22003,8 @@ by_tag:
   - cos-ch08-004
   - poa-ch08-006
   - ps-ch10-002
+  hallows-quest:
+  - dh-ch21-001
   hannah-abbott:
   - hbp-ch11-002
   harry-potter:
@@ -22608,6 +22748,8 @@ by_tag:
   - ps-ch17-004
   host-school:
   - gof-ch17-002
+  hostage:
+  - dh-ch21-007
   hostages:
   - gof-ch26-007
   - gof-ch27-001
@@ -22811,6 +22953,7 @@ by_tag:
   - ootp-ch03-001
   ignotus-peverell:
   - dh-ch16-007
+  - dh-ch21-006
   illegal-creature:
   - ps-ch14-004
   illegal-curses:
@@ -22859,6 +23002,7 @@ by_tag:
   - dh-ch18-002
   - dh-ch18-006
   - dh-ch20-006
+  - dh-ch21-002
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -22990,6 +23134,8 @@ by_tag:
   - dh-ch09-002
   - dh-ch16-005
   - dh-ch17-003
+  - dh-ch21-003
+  - dh-ch21-004
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -23337,6 +23483,7 @@ by_tag:
   - poa-ch05-001
   - ps-ch06-006
   luna-lovegood:
+  - dh-ch21-007
   - hbp-ch07-004
   - ootp-ch10-003
   - ootp-ch10-005
@@ -23466,6 +23613,8 @@ by_tag:
   - dh-ch11-007
   - dh-ch13-003
   - dh-ch14-006
+  - dh-ch21-003
+  - dh-ch21-004
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -23580,6 +23729,7 @@ by_tag:
   - dh-ch02-005
   - dh-ch18-007
   - dh-ch19-001
+  - dh-ch21-005
   magical-hospital:
   - ootp-ch22-004
   magical-injury:
@@ -23845,6 +23995,8 @@ by_tag:
   - dh-ch12-004
   - dh-ch13-001
   - dh-ch13-006
+  master-of-death:
+  - dh-ch21-003
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
@@ -24064,6 +24216,7 @@ by_tag:
   - dh-ch13-003
   - dh-ch14-004
   - dh-ch19-007
+  - dh-ch21-007
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -24977,6 +25130,8 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch02-006
   - ootp-ch37-005
+  peverell-family:
+  - dh-ch21-006
   peverell-ring:
   - hbp-ch10-006
   philosopher-stone-protection:
@@ -25367,6 +25522,7 @@ by_tag:
   professor-binns:
   - cos-ch09-002
   - cos-ch09-003
+  - dh-ch21-005
   - gof-ch22-005
   - gof-ch29-002
   - ootp-ch12-003
@@ -25642,6 +25798,7 @@ by_tag:
   - dh-ch13-007
   quibbler:
   - dh-ch20-005
+  - dh-ch21-007
   - ootp-ch10-005
   - ootp-ch25-007
   - ootp-ch26-001
@@ -25875,6 +26032,8 @@ by_tag:
   - hbp-ch18-002
   - ps-ch12-004
   - ps-ch12-005
+  resurrection-stone:
+  - dh-ch21-003
   review-lessons:
   - ootp-ch31-001
   riddikulus:
@@ -25970,6 +26129,7 @@ by_tag:
   - ps-ch15-001
   runes:
   - dh-ch07-007
+  - dh-ch21-002
   safe-house:
   - dh-ch03-004
   - dh-ch04-002
@@ -26348,6 +26508,7 @@ by_tag:
   - dh-ch19-007
   - dh-ch20-003
   - dh-ch20-005
+  - dh-ch21-007
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -27497,11 +27658,14 @@ by_tag:
   symbols:
   - dh-ch08-002
   - dh-ch20-004
+  - dh-ch21-001
+  - dh-ch21-003
   taboo:
   - dh-ch14-005
   - dh-ch20-001
   tales-of-beedle-the-bard:
   - dh-ch07-007
+  - dh-ch21-002
   tallest-tower:
   - ps-ch14-006
   tampering:
@@ -27681,6 +27845,8 @@ by_tag:
   - hbp-ch24-001
   - ootp-ch16-002
   - ootp-ch25-007
+  three-brothers:
+  - dh-ch21-002
   three-headed-dog:
   - ps-ch09-007
   - ps-ch11-007
@@ -28001,6 +28167,8 @@ by_tag:
   - gof-ch26-006
   undesirable-no-1:
   - dh-ch13-004
+  undesirable-number-one:
+  - dh-ch21-007
   undetectable-extension-charm:
   - dh-ch09-002
   unexplained-deaths:
@@ -28238,6 +28406,8 @@ by_tag:
   - dh-ch08-001
   - gof-ch09-006
   - hbp-ch02-006
+  wand-of-destiny:
+  - dh-ch21-005
   wand-ownership:
   - dh-ch13-007
   wand-registration:
@@ -28258,6 +28428,7 @@ by_tag:
   - gof-ch18-006
   wandlore:
   - dh-ch20-002
+  - dh-ch21-005
   - gof-ch34-003
   wandmakers:
   - dh-ch08-003
@@ -28439,6 +28610,8 @@ by_tag:
   - poa-ch02-003
   wizard-school:
   - cos-ch01-004
+  wizarding-belief:
+  - dh-ch21-001
   wizarding-biography:
   - dh-ch02-006
   wizarding-celebrations:
@@ -28462,6 +28635,7 @@ by_tag:
   - dh-ch16-007
   wizarding-folklore:
   - dh-ch07-007
+  - dh-ch21-002
   wizarding-genealogy:
   - dh-ch10-005
   - ootp-ch06-001
@@ -28503,6 +28677,7 @@ by_tag:
   - ootp-ch33-005
   wizarding-press:
   - dh-ch20-005
+  - dh-ch21-007
   - gof-ch18-005
   - gof-ch37-006
   - ootp-ch10-005
@@ -28570,6 +28745,7 @@ by_tag:
   - ps-ch16-001
   xenophilius-lovegood:
   - dh-ch20-005
+  - dh-ch21-001
   yaxley:
   - dh-ch12-004
   - dh-ch14-002

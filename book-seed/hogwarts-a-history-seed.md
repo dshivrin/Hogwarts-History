@@ -7658,6 +7658,18 @@ Summary: The available evidence includes 1 source item, led by: Elphias Doge's o
 
 ### Chapter: Dumbledore, Grindelwald, and the Deathly Hallows
 
+#### Section: Hallows symbol, believers, and the Quest
+
+Summary: The available evidence includes 1 source item, led by: Xenophilius identifies the triangular mark as a sign used by Deathly Hallows believers to recognize one another and seek help with the Hallows Quest.
+
+- **Corroboration:** Xenophilius identifies the triangular mark as a sign used by Deathly Hallows believers to recognize one another and seek help with the Hallows Quest.
+  - Quote: "Very, very few wizards believe"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3321, `dh-ch21-001`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch20-004`, `dh-ch08-002`. dh-ch20-004 gathers the symbol evidence before explanation, and dh-ch08-002 records Krum's Grindelwald interpretation; this entry supplies Xenophilius's Hallows-Quest interpretation.
+  - Notes: Xenophilius is an eccentric and motivated source, so the entry should preserve attribution rather than present the Quest as broadly accepted.
+
 #### Section: Symbol evidence before Xenophilius's explanation
 
 Summary: The available evidence includes 1 source item, led by: The triangular mark is traced across Beedle's book, Dumbledore's signed letter to Grindelwald, an old Godric's Hollow grave, and Xenophilius Lovegood's pendant.
@@ -10211,6 +10223,18 @@ Summary: The available evidence includes 1 source item, led by: The Great Hall o
   - Reference type: explicit_in_universe_source
   - Corroborates: `ootp-ch25-007`, `ootp-ch10-005`. ootp-ch25-007 records the interview arrangement, and ootp-ch10-005 identifies The Quibbler as an alternative periodical; this entry adds the published issue arriving at Hogwarts through morning owl post and provoking Umbridge's public response.
   - Notes: The passage shows circulation inside Hogwarts but does not reproduce the full article or quantify how many letters reached Harry.
+
+#### Section: Hostage pressure and reversal of The Quibbler
+
+Summary: The available evidence includes 1 source item, led by: The captured Ministry uses Luna's abduction to pressure Xenophilius, whose Quibbler press pivots from pro-Harry advocacy to a reward-bearing Undesirable Number One cover.
+
+- **Corroboration:** The captured Ministry uses Luna's abduction to pressure Xenophilius, whose Quibbler press pivots from pro-Harry advocacy to a reward-bearing Undesirable Number One cover.
+  - Quote: "They took my Luna"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3333, `dh-ch21-007`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch20-005`, `ootp-ch25-007`, `ootp-ch26-001`. dh-ch20-005 records The Quibbler's pro-Harry advocacy, while OotP entries record earlier anti-Ministry circulation; this entry adds Luna's hostage pressure and the paper's coerced reversal.
+  - Notes: The chapter does not state where Luna is being held or whether Xenophilius personally authored the new cover copy.
 
 #### Section: Ministry acknowledgement and Dumbledore's reinstatement
 
@@ -12837,6 +12861,20 @@ Summary: The available evidence includes 1 source item, led by: Godric's Hollow 
   - Reference type: magical_architecture
   - Notes: The chapter does not explain who created the memorial or what determines whether a visitor sees the magical version.
 
+### Chapter: Old Wizarding Families and Founder-Era Memory
+
+#### Section: Peverell family and Hallows provenance
+
+Summary: The available evidence includes 1 source item, led by: Xenophilius claims the three brothers were Antioch, Cadmus, and Ignotus Peverell, and treats the Hallows mark on Ignotus's Godric's Hollow grave as proof.
+
+- **Corroboration:** Xenophilius claims the three brothers were Antioch, Cadmus, and Ignotus Peverell, and treats the Hallows mark on Ignotus's Godric's Hollow grave as proof.
+  - Quote: "the original owners of the Hallows"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3328, `dh-ch21-006`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch16-007`, `dh-ch20-004`. dh-ch16-007 records Ignotus's marked grave without the surname being legible in that chapter, and dh-ch20-004 traces the symbol evidence; this entry supplies the Peverell identification and original-owner claim.
+  - Notes: The proof is Xenophilius's interpretation of a grave mark and family tradition, not a formal genealogical record.
+
 ### Chapter: Squibs and Family Status
 
 #### Section: Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
@@ -12923,7 +12961,46 @@ Summary: The available evidence includes 1 source item, led by: The trio use Mem
 
 ## Part: Magical Objects and Artifacts
 
+### Chapter: Cloaks, Concealment, and Anti-Detection
+
+#### Section: True Invisibility Cloaks versus lesser concealment cloaks
+
+Summary: The available evidence includes 1 source item, led by: A true Cloak of Invisibility is distinguished from Disillusionment, Bedazzling, and Demiguise-hair cloaks by permanent, spell-resistant concealment; Harry's inherited Cloak fits that description.
+
+- **Supporting evidence:** A true Cloak of Invisibility is distinguished from Disillusionment, Bedazzling, and Demiguise-hair cloaks by permanent, spell-resistant concealment; Harry's inherited Cloak fits that description.
+  - Quote: "giving constant and impenetrable concealment"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3326, `dh-ch21-004`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The technical taxonomy comes from Xenophilius; Ron's later comparison supports but does not fully test every claimed property.
+
+### Chapter: The Deathly Hallows
+
+#### Section: Three artifacts and the master-of-Death claim
+
+Summary: The available evidence includes 1 source item, led by: Xenophilius defines the Hallows as the Elder Wand, Resurrection Stone, and Cloak of Invisibility, represented by the symbol's line, circle, and triangle.
+
+- **Corroboration:** Xenophilius defines the Hallows as the Elder Wand, Resurrection Stone, and Cloak of Invisibility, represented by the symbol's line, circle, and triangle.
+  - Quote: "Together, the Deathly Hallows"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3325, `dh-ch21-003`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch20-004`. dh-ch20-004 records the unexplained symbol trail; this entry gives the named artifact triad and the claimed meaning of the combined sign.
+  - Notes: The master-of-Death claim is Xenophilius's believer interpretation, not yet independently proven in this scene.
+
 ### Chapter: Wand Ownership and Compatibility
+
+#### Section: Elder Wand provenance and alternate names
+
+Summary: The available evidence includes 1 source item, led by: Xenophilius describes Elder Wand mastery as capture from a previous owner and names a violent chain involving Emeric, Egbert, Godelot, Hereward, Barnabas, Loxias, Arcus, and Livius; Hermione confirms Professor Binns mentioned old stories of extra-powerful wands.
+
+- **Corroboration:** Xenophilius describes Elder Wand mastery as capture from a previous owner and names a violent chain involving Emeric, Egbert, Godelot, Hereward, Barnabas, Loxias, Arcus, and Livius; Hermione confirms Professor Binns mentioned old stories of extra-powerful wands.
+  - Quote: "The bloody trail of the Elder Wand"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3327, `dh-ch21-005`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch14-007`. dh-ch14-007 records Voldemort pursuing a stolen object from Gregorovitch; this entry identifies the Elder Wand tradition and gives the older named ownership chain.
+  - Notes: Xenophilius admits the trail goes cold with Arcus and Livius, and Hermione doubts the broader Death-made wand interpretation.
 
 #### Section: Replacement wands and weakened spellwork
 
@@ -13885,6 +13962,20 @@ Summary: The available evidence includes 1 source item, led by: Skeeter's presen
   - Reference type: explicit_in_universe_source
   - Corroborates: `dh-ch17-004`, `dh-ch11-006`, `dh-ch02-006`. Continuation of the Skeeter-Bathilda source-history thread in dh-ch17-004, dh-ch11-006, and dh-ch02-006; this entry adds the physical presentation copy and Skeeter's note implying Bathilda gave testimony she may not remember.
   - Notes: The note is written by Skeeter and cannot independently prove what Bathilda consented to or whether Veritaserum was actually used.
+
+### Chapter: Wizarding Folklore and Historical Memory
+
+#### Section: Beedle's tale as a Hallows source
+
+Summary: The available evidence includes 1 source item, led by: The Hallows discussion treats The Tales of Beedle the Bard as an in-universe source text whose original copy bears the symbol above The Tale of the Three Brothers.
+
+- **Corroboration:** The Hallows discussion treats The Tales of Beedle the Bard as an in-universe source text whose original copy bears the symbol above The Tale of the Three Brothers.
+  - Quote: "the whole thing starts with 'The Tale of the Three Brothers'"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, PDF p. 3322, `dh-ch21-002`, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch07-007`, `dh-ch20-004`. dh-ch07-007 establishes Beedle as wizarding childhood tradition, and dh-ch20-004 notes the symbol in Beedle; this entry records the actual tale being read as the Hallows source text.
+  - Notes: The tale itself is framed as folklore, so historical use requires careful separation between text, interpretation, and later corroboration.
 
 ## Part: Sources, Records, and Magical Historiography
 

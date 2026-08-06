@@ -188,3 +188,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch18`: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, pages 3274-3284, 7 entries, 0 explicit references.
 - `dh-ch19`: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, pages 3285-3305, 7 entries, 0 explicit references.
 - `dh-ch20`: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, pages 3306-3320, 7 entries, 0 explicit references.
+- `dh-ch21`: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, pages 3321-3336, 7 entries, 0 explicit references.

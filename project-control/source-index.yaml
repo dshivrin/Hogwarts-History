@@ -2186,3 +2186,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3306-3320.
+- source_unit_id: dh-ch21
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 21
+  chapter_title: Chapter Twenty-One - The Tale of the Three Brothers
+  page_start: 3321
+  page_end: 3336
+  output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  processed_at: '2026-08-06'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3321-3336.
