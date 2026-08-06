@@ -13051,6 +13051,22 @@ Summary: The available evidence includes 1 source item, led by: Hermione explici
   - Corroborates: `gof-ch12-007`, `gof-ch12-004`, `gof-ch14-007`. gof-ch12-007 covers the Triwizard revival and participating schools; gof-ch12-004 and gof-ch14-007 cover Hogwarts house-elf labor and S.P.E.W.; this entry adds an explicit Hogwarts: A History citation and reliability critique.
   - Notes: Hermione paraphrases the source and evaluates it polemically; the passage does not provide a verbatim excerpt from the book beyond its title.
 
+## Part: Part I - Sources And Authorities
+
+### Chapter: Named Histories And School-Age Reference Books
+
+#### Section: A History of Magic as a portable reference tradition
+
+Summary: The available evidence includes 1 source item, led by: Hermione continues to carry and consult named magical-history material during the Horcrux hunt, even outside Hogwarts and under wartime field conditions.
+
+- **Corroboration:** Hermione continues to carry and consult named magical-history material during the Horcrux hunt, even outside Hogwarts and under wartime field conditions.
+  - Quote: "A History of Magic by the light of her wand"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3285, `dh-ch19-001`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ps-ch06-004`. ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
+  - Notes: The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.
+
 ## Part: Part II - Founders, Heirs, and Hidden Histories
 
 ### Chapter: Tom Riddle Before Hogwarts
@@ -13066,6 +13082,22 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore recon
   - Reference type: historical_claim
   - Notes: The evidence is Dumbledore's reconstruction, not a direct memory scene from the orphanage outing.
 
+## Part: Part II - Founders, Houses, And Relics
+
+### Chapter: Gryffindor House And Its Founder Relic
+
+#### Section: Worthiness conditions and Gryffindor qualities
+
+Summary: The available evidence includes 1 source item, led by: The sword cannot simply be Summoned from the pool; Harry links its retrieval to true Gryffindor worthiness and the House qualities of daring, nerve, and chivalry.
+
+- **Corroboration:** The sword cannot simply be Summoned from the pool; Harry links its retrieval to true Gryffindor worthiness and the House qualities of daring, nerve, and chivalry.
+  - Quote: "The sword of Gryffindor was lying at the bottom"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3289, `dh-ch19-004`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `dh-ch07-006`, `cos-ch17-005`, `cos-ch18-004`. Prior entries establish the sword as a historical artifact and its Sorting Hat appearance to a true Gryffindor; this entry adds the Forest of Dean retrieval test and failed Summoning detail.
+  - Notes: Harry's reasoning supplies the worthiness interpretation; the scene confirms behavior but not a formal rule text.
+
 ## Part: Part III - Students, Status, and Magical Capacity
 
 ### Chapter: Age, Qualification, and Magical Recognition
@@ -13080,6 +13112,49 @@ Summary: The available evidence includes 1 source item, led by: The boat's encha
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: security_or_protection
   - Notes: Dumbledore presents the mechanism as an inference, not as a tested technical specification.
+
+## Part: Part III - The War Beyond The Gates
+
+### Chapter: Muggle-Born Persecution And Wartime Student Risk
+
+#### Section: Snatchers and rewards for school-age fugitives
+
+Summary: The available evidence includes 1 source item, led by: Snatcher gangs operate under Ministry rewards for captured Muggle-borns and blood traitors, and they identify apparent school-age youths as possible Muggle-born fugitives.
+
+- **Context:** Snatcher gangs operate under Ministry rewards for captured Muggle-borns and blood traitors, and they identify apparent school-age youths as possible Muggle-born fugitives.
+  - Quote: "gangs trying to earn gold by rounding up Muggle-borns"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3301, `dh-ch19-007`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: Ron is reporting his recent experience; the passage does not name a written Ministry decree.
+
+### Chapter: Patronus Messages, Guardians, And Covert Aid
+
+#### Section: A corporeal Patronus as a guide rather than only a message
+
+Summary: The available evidence includes 1 source item, led by: A silent corporeal silver doe functions as a guide, leading Harry to the pool where the Sword of Gryffindor has been hidden.
+
+- **Corroboration:** A silent corporeal silver doe functions as a guide, leading Harry to the pool where the Sword of Gryffindor has been hidden.
+  - Quote: "the doe made no noise as she passed through the trees"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3288, `dh-ch19-003`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch08-007`, `dh-ch09-007`. Earlier Deathly Hallows entries record speaking Patronus warnings; this entry is related but distinct because the Patronus silently guides Harry to a hidden founder relic.
+  - Notes: The caster is not identified in this chapter, so the entry should not attribute the doe to Snape here.
+
+### Chapter: Wartime Concealment And Mobile Safe Sites
+
+#### Section: Repeated field wards during flight
+
+Summary: The available evidence includes 1 source item, led by: The mobile campsite wards have protected the fugitives for weeks, confirming repeated field security can remain effective across many relocations.
+
+- **Corroboration:** The mobile campsite wards have protected the fugitives for weeks, confirming repeated field security can remain effective across many relocations.
+  - Quote: "protective enchantments had worked for weeks"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3287, `dh-ch19-002`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch14-003`, `dh-ch15-001`, `dh-ch16-001`. Prior entries cover the campsite charm routine, repeated recasting, and Ron's inability to locate new camps; this passage adds explicit duration and reliability evidence for the wards.
+  - Notes: The exact enchantments are not named in this chapter; details depend on earlier campsite passages.
 
 ## Part: Part IV - Architecture, Concealment, and Protective Magic
 
@@ -13134,6 +13209,36 @@ Summary: The available evidence includes 1 source item, led by: The scene gives 
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: magical_architecture
   - Notes: The passage demonstrates the method but does not name a formal spell or school-taught discipline.
+
+## Part: Part IV - Dark Artifacts And Their Defeat
+
+### Chapter: Founder Relics And Horcrux Vulnerabilities
+
+#### Section: Parseltongue access and Horcrux resistance
+
+Summary: The available evidence includes 1 source item, led by: Slytherin's locket Horcrux requires Parseltongue to open, and Harry links the expected resistance to the diary Horcrux's attempt to kill him.
+
+- **Corroboration:** Slytherin's locket Horcrux requires Parseltongue to open, and Harry links the expected resistance to the diary Horcrux's attempt to kill him.
+  - Quote: "I am going to ask it to open, using Parseltongue"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3294, `dh-ch19-005`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch14-006`, `dh-ch10-007`, `cos-ch17-002`. Earlier entries identify the active locket Horcrux, Regulus's failed destruction order, and the diary as a memory weapon; this entry adds the Parseltongue opening step before destruction.
+  - Notes: The entry belongs more to later editorial/contextual material than to a pre-1984 original Hogwarts history core.
+
+### Chapter: The Destruction Of Slytherin's Locket
+
+#### Section: Gryffindor's sword as a Horcrux-destroying weapon
+
+Summary: The available evidence includes 1 source item, led by: The Sword of Gryffindor destroys Slytherin's locket Horcrux after it manifests psychological attacks and Riddle-like eyes.
+
+- **Corroboration:** The Sword of Gryffindor destroys Slytherin's locket Horcrux after it manifests psychological attacks and Riddle-like eyes.
+  - Quote: "Ron had pierced the glass in both windows"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, PDF p. 3297, `dh-ch19-006`, `sources/book-07/chapter-19-the-silver-doe.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch14-006`, `dh-ch15-006`, `dh-ch07-006`. Prior entries establish the active locket and the sword's venom/authenticity logic; this entry records the actual destruction event.
+  - Notes: The destruction occurs in the Second War and should be excluded from an original pre-1984 edition except as later editorial material.
 
 ## Part: Part V - Magical Creatures, Beings, and Dark Forces
 

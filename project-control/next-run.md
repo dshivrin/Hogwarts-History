@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Nineteen - The Silver Doe
-- Page range: 3285-3305
+- Chapter: Chapter Twenty - Xenophilius Lovegood
+- Page range: 3306-3320
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-19-the-silver-doe.yaml`
+- Output YAML: `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
 
 ## Minimal Context
 

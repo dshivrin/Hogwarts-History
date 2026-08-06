@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-05'
+updated: '2026-08-06'
 tags:
   a-history-of-magic:
     entries:
@@ -7,10 +7,12 @@ tags:
     - dh-ch16-003
     - dh-ch16-004
     - dh-ch17-001
+    - dh-ch19-001
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   aberforth-dumbledore:
     entries:
     - dh-ch02-003
@@ -1264,6 +1266,11 @@ tags:
     - cos-ch08-006
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+  blood-traitors:
+    entries:
+    - dh-ch19-007
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   bloodline:
     entries:
     - cos-ch17-004
@@ -1579,10 +1586,12 @@ tags:
     - dh-ch14-003
     - dh-ch15-001
     - dh-ch16-001
+    - dh-ch19-002
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   captain-office:
     entries:
     - ootp-ch14-004
@@ -2866,6 +2875,11 @@ tags:
     - cos-ch13-004
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  covert-aid:
+    entries:
+    - dh-ch19-003
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   covert-assistance:
     entries:
     - gof-ch35-003
@@ -3334,6 +3348,8 @@ tags:
     - dh-ch05-005
     - dh-ch14-006
     - dh-ch17-005
+    - dh-ch19-005
+    - dh-ch19-006
     - hbp-ch18-002
     - hbp-ch24-004
     - hbp-ch26-003
@@ -3349,6 +3365,7 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   dark-mark:
     entries:
     - gof-ch09-004
@@ -5594,11 +5611,18 @@ tags:
     - cos-ch07-002
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  field-reading:
+    entries:
+    - dh-ch19-001
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   field-security:
     entries:
     - dh-ch16-001
+    - dh-ch19-002
     output_yaml:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   fifth-floor:
     entries:
     - gof-ch23-007
@@ -6161,6 +6185,11 @@ tags:
     - cos-ch15-005
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+  forest-of-dean:
+    entries:
+    - dh-ch19-003
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   forest-path:
     entries:
     - cos-ch15-004
@@ -6191,8 +6220,10 @@ tags:
   founder-relic:
     entries:
     - dh-ch07-006
+    - dh-ch19-004
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   founder-relics:
     entries:
     - dh-ch15-002
@@ -6646,6 +6677,7 @@ tags:
     - cos-ch18-004
     - dh-ch07-006
     - dh-ch16-003
+    - dh-ch19-004
     - gof-ch12-002
     - gof-ch30-001
     output_yaml:
@@ -6654,6 +6686,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   godrics-hollow:
     entries:
     - dh-ch08-006
@@ -8017,6 +8050,7 @@ tags:
     - cos-ch04-004
     - cos-ch07-003
     - dh-ch07-007
+    - dh-ch19-001
     - gof-ch08-003
     - gof-ch09-002
     - hbp-ch04-001
@@ -8035,6 +8069,7 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   hermione-research:
     entries:
     - poa-ch14-003
@@ -8920,6 +8955,7 @@ tags:
     - dh-ch10-007
     - dh-ch14-006
     - dh-ch17-005
+    - dh-ch19-005
     - hbp-ch26-004
     - hbp-ch26-006
     - hbp-ch26-007
@@ -8928,11 +8964,14 @@ tags:
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   horcrux-destruction:
     entries:
     - dh-ch14-006
+    - dh-ch19-006
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   horcrux-hunt:
     entries:
     - dh-ch06-001
@@ -8945,12 +8984,15 @@ tags:
     - dh-ch15-001
     - dh-ch15-003
     - dh-ch16-001
+    - dh-ch19-001
+    - dh-ch19-002
     output_yaml:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   horcrux-mission:
     entries:
     - hbp-ch30-007
@@ -9297,6 +9339,11 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+  house-qualities:
+    entries:
+    - dh-ch19-004
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   house-rivalry:
     entries:
     - ootp-ch19-004
@@ -10889,6 +10936,7 @@ tags:
     - cos-ch17-005
     - dh-ch07-004
     - dh-ch07-005
+    - dh-ch19-004
     - gof-ch30-002
     - ootp-ch24-004
     - ps-ch12-006
@@ -10898,6 +10946,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   magical-artifacts:
     entries:
     - dh-ch11-007
@@ -11155,9 +11204,11 @@ tags:
     entries:
     - dh-ch02-005
     - dh-ch18-007
+    - dh-ch19-001
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   magical-hospital:
     entries:
     - ootp-ch22-004
@@ -12209,6 +12260,7 @@ tags:
     - dh-ch13-002
     - dh-ch13-003
     - dh-ch14-004
+    - dh-ch19-007
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -12344,6 +12396,7 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   ministry-policy:
     entries:
     - dh-ch11-003
@@ -12488,6 +12541,11 @@ tags:
     - cos-ch12-004
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  mobile-wards:
+    entries:
+    - dh-ch19-002
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   molly-weasley:
     entries:
     - dh-ch07-001
@@ -12691,12 +12749,14 @@ tags:
     - dh-ch06-005
     - dh-ch13-002
     - dh-ch13-007
+    - dh-ch19-007
     - ootp-ch06-004
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   muggle-camouflage:
     entries:
     - gof-ch07-002
@@ -13024,11 +13084,13 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
   named-sources:
     entries:
+    - dh-ch19-001
     - ps-ch06-004
     - ps-ch13-001
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   narcissa-malfoy:
     entries:
     - ootp-ch37-004
@@ -13831,6 +13893,7 @@ tags:
     - cos-ch17-006
     - cos-ch18-004
     - dh-ch17-005
+    - dh-ch19-005
     - gof-ch01-005
     - hbp-ch10-006
     - hbp-ch13-007
@@ -13845,6 +13908,7 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   parseltongue-foreshadowing:
     entries:
     - ps-ch02-004
@@ -13934,6 +13998,7 @@ tags:
     - dh-ch08-007
     - dh-ch09-007
     - dh-ch13-006
+    - dh-ch19-003
     - ootp-ch01-005
     - ootp-ch02-002
     - ootp-ch02-005
@@ -13955,6 +14020,7 @@ tags:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   patronus-charm:
     entries:
     - ootp-ch27-004
@@ -15321,6 +15387,7 @@ tags:
     - dh-ch14-003
     - dh-ch15-001
     - dh-ch16-001
+    - dh-ch19-002
     - hbp-ch27-003
     - hbp-ch29-003
     - ootp-ch34-006
@@ -15334,6 +15401,7 @@ tags:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   protective-escort:
     entries:
     - hbp-ch06-003
@@ -15349,6 +15417,7 @@ tags:
     - dh-ch03-001
     - dh-ch03-004
     - dh-ch06-002
+    - dh-ch19-003
     - gof-ch33-004
     - hbp-ch02-004
     - hbp-ch03-007
@@ -15371,6 +15440,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   protective-objects:
     entries:
     - hbp-ch05-002
@@ -16060,12 +16130,14 @@ tags:
     - cos-ch17-002
     - cos-ch18-006
     - dh-ch06-007
+    - dh-ch19-005
     - hbp-ch23-006
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   riddle-family:
     entries:
     - gof-ch01-001
@@ -16144,6 +16216,7 @@ tags:
     entries:
     - dh-ch07-004
     - dh-ch16-001
+    - dh-ch19-006
     - ootp-ch09-005
     - ootp-ch30-003
     - ootp-ch35-006
@@ -16153,6 +16226,7 @@ tags:
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   ronan:
     entries:
     - ootp-ch33-004
@@ -16325,6 +16399,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  school-age-youth:
+    entries:
+    - dh-ch19-007
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   school-attachment:
     entries:
     - hbp-ch20-004
@@ -17016,6 +17095,8 @@ tags:
     - dh-ch14-005
     - dh-ch14-006
     - dh-ch15-005
+    - dh-ch19-006
+    - dh-ch19-007
     - hbp-ch01-004
     - hbp-ch01-005
     - hbp-ch01-006
@@ -17072,6 +17153,7 @@ tags:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   second-year:
     entries:
     - cos-ch02-002
@@ -17492,6 +17574,11 @@ tags:
     - ootp-ch18-003
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+  silver-doe:
+    entries:
+    - dh-ch19-003
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   silver-goblets:
     entries:
     - hbp-ch12-005
@@ -17782,6 +17869,8 @@ tags:
     - dh-ch10-007
     - dh-ch11-007
     - dh-ch14-006
+    - dh-ch19-005
+    - dh-ch19-006
     - hbp-ch10-006
     - hbp-ch13-002
     - hbp-ch20-005
@@ -17792,6 +17881,7 @@ tags:
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   slytherin-statue:
     entries:
     - cos-ch17-001
@@ -17913,6 +18003,11 @@ tags:
     - hbp-ch14-001
     output_yaml:
     - sources/book-06/chapter-14-felix-felicis.yaml
+  snatchers:
+    entries:
+    - dh-ch19-007
+    output_yaml:
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   sneakoscope:
     entries:
     - dh-ch14-003
@@ -19416,12 +19511,14 @@ tags:
   summoning-charm:
     entries:
     - dh-ch06-006
+    - dh-ch19-004
     - gof-ch06-003
     - gof-ch20-004
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   sunday-prophet:
     entries:
     - ootp-ch38-001
@@ -19490,11 +19587,16 @@ tags:
     - dh-ch12-002
     - dh-ch15-006
     - dh-ch16-004
+    - dh-ch19-003
+    - dh-ch19-004
+    - dh-ch19-005
+    - dh-ch19-006
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   sybill-trelawney:
     entries:
     - hbp-ch15-005
@@ -21202,6 +21304,7 @@ tags:
     - dh-ch14-005
     - dh-ch16-005
     - dh-ch17-003
+    - dh-ch19-002
     - hbp-ch04-003
     - hbp-ch06-002
     - hbp-ch07-001
@@ -21248,6 +21351,7 @@ tags:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-07/chapter-19-the-silver-doe.yaml
   wartime-travel:
     entries:
     - dh-ch01-004

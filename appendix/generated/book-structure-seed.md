@@ -1117,15 +1117,34 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
 
+## Part I - Sources And Authorities
+
+- Named Histories And School-Age Reference Books
+  - A History of Magic as a portable reference tradition
+
 ## Part II - Founders, Heirs, and Hidden Histories
 
 - Tom Riddle Before Hogwarts
   - Orphanage Evidence and Early Magical Cruelty
 
+## Part II - Founders, Houses, And Relics
+
+- Gryffindor House And Its Founder Relic
+  - Worthiness conditions and Gryffindor qualities
+
 ## Part III - Students, Status, and Magical Capacity
 
 - Age, Qualification, and Magical Recognition
   - Underage Wizards in Adult Enchantments
+
+## Part III - The War Beyond The Gates
+
+- Muggle-Born Persecution And Wartime Student Risk
+  - Snatchers and rewards for school-age fugitives
+- Patronus Messages, Guardians, And Covert Aid
+  - A corporeal Patronus as a guide rather than only a message
+- Wartime Concealment And Mobile Safe Sites
+  - Repeated field wards during flight
 
 ## Part IV - Architecture, Concealment, and Protective Magic
 
@@ -1137,6 +1156,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Potion Barriers and Forced Procedures
 - Reading Magical Buildings and Hidden Places
   - Residual Magic and Expert Detection
+
+## Part IV - Dark Artifacts And Their Defeat
+
+- Founder Relics And Horcrux Vulnerabilities
+  - Parseltongue access and Horcrux resistance
+- The Destruction Of Slytherin's Locket
+  - Gryffindor's sword as a Horcrux-destroying weapon
 
 ## Part V - Magical Creatures, Beings, and Dark Forces
 

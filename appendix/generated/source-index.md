@@ -186,3 +186,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch16`: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, pages 3240-3255, 7 entries, 0 explicit references.
 - `dh-ch17`: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, pages 3256-3273, 7 entries, 0 explicit references.
 - `dh-ch18`: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, pages 3274-3284, 7 entries, 0 explicit references.
+- `dh-ch19`: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, pages 3285-3305, 7 entries, 0 explicit references.
