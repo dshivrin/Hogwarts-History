@@ -986,6 +986,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Corroborates: `ps-ch07-002`, `ps-ch08-007`, `ps-ch14-007`. Earlier entries seeded the House points system and smaller deductions; this entry adds giant hourglasses and a 150-point Gryffindor loss tied to the House Cup.
   - Notes: The point scale is exceptional and tied to Harry-era events; the passage does not explain the origin, mechanics, or location of the hourglasses.
 
+### Chapter: Ravenclaw House
+
+#### Section: Rowena Ravenclaw, wit, and house identity
+
+Summary: The available evidence includes 1 source item, led by: Xenophilius models an invention on Rowena Ravenclaw's head and quotes the Ravenclaw motto, connecting Ravenclaw identity with wit and intellectual receptivity.
+
+- **Supporting evidence:** Xenophilius models an invention on Rowena Ravenclaw's head and quotes the Ravenclaw motto, connecting Ravenclaw identity with wit and intellectual receptivity.
+  - Quote: "Wit beyond measure is man's greatest treasure"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3319, `dh-ch20-007`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: house_system
+  - Notes: The source is Xenophilius's eccentric device, so the invention details should be separated from the simpler Ravenclaw motto evidence.
+
 ### Chapter: Salazar Slytherin and His Legacy
 
 #### Section: Gaunt family descent and heirlooms
@@ -2355,6 +2368,19 @@ Summary: The available evidence includes 1 source item, led by: The Care of Magi
   - Reference type: curriculum_or_subject
   - Corroborates: `poa-ch06-006`. Prisoner of Azkaban Chapter Six already records Hagrid's supervised hippogriff handling lesson; this entry adds the later Skrewt-rearing project, uncertain feeding methods, burns, stings, and student doubts about usefulness.
   - Notes: The source does not explain the Skrewts' origin, Ministry classification, or whether the lesson plan was approved.
+
+### Chapter: Care of Magical Creatures and Creature Scholarship
+
+#### Section: Fantastic Beasts as practical reference source
+
+Summary: The available evidence includes 1 source item, led by: Hermione uses Fantastic Beasts and Where to Find Them to identify the horn as an Erumpent horn, a dangerous Class B Tradeable Material that can explode at a touch.
+
+- **Supporting evidence:** Hermione uses Fantastic Beasts and Where to Find Them to identify the horn as an Erumpent horn, a dangerous Class B Tradeable Material that can explode at a touch.
+  - Quote: "it's a Class B Tradeable Material"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3317, `dh-ch20-006`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: Xenophilius disputes the identification, but Hermione's textbook-based signs and the later danger context support her reading.
 
 ### Chapter: Care of Magical Creatures and Grounds-Based Teaching
 
@@ -7630,6 +7656,20 @@ Summary: The available evidence includes 1 source item, led by: Elphias Doge's o
   - Reference type: explicit_in_universe_source
   - Notes: The evidence comes from a memorial article written after Dumbledore's death and reflects Doge's memory and interpretation.
 
+### Chapter: Dumbledore, Grindelwald, and the Deathly Hallows
+
+#### Section: Symbol evidence before Xenophilius's explanation
+
+Summary: The available evidence includes 1 source item, led by: The triangular mark is traced across Beedle's book, Dumbledore's signed letter to Grindelwald, an old Godric's Hollow grave, and Xenophilius Lovegood's pendant.
+
+- **Corroboration:** The triangular mark is traced across Beedle's book, Dumbledore's signed letter to Grindelwald, an old Godric's Hollow grave, and Xenophilius Lovegood's pendant.
+  - Quote: "links Dumbledore, Grindelwald, and Godric's Hollow"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3311, `dh-ch20-004`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch08-002`. dh-ch08-002 records Krum's claim that the symbol was Grindelwald's sign at Durmstrang; this entry adds the Beedle, Dumbledore-letter, and Godric's Hollow evidence that complicates that interpretation.
+  - Notes: The chapter has not yet supplied Xenophilius's explanation, so the symbol's full meaning remains pending.
+
 ### Chapter: First Wizarding War and Hogwarts Families
 
 #### Section: The Longbottom Aurors and Bellatrix Lestrange
@@ -10183,6 +10223,17 @@ Summary: The available evidence includes 1 source item, led by: The Ministry pub
   - Reference type: explicit_in_universe_source
   - Notes: The article says details are hazy and does not reproduce the full Ministry defense guide or formal reinstatement orders.
 
+#### Section: Password-protected resistance broadcasts
+
+Summary: The available evidence includes 1 source item, led by: A wartime wireless news program avoids Ministry control by changing broadcast locations, using passwords, and countering official or pro-Voldemort news.
+
+- **Context:** A wartime wireless news program avoids Ministry control by changing broadcast locations, using passwords, and countering official or pro-Voldemort news.
+  - Quote: "you need a password to tune in"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3310, `dh-ch20-003`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The program is not yet named in this chapter, and the passage gives no broadcast transcript.
+
 #### Section: Public prophecy rumors after the Department of Mysteries
 
 Summary: The available evidence includes 1 source item, led by: A Daily Prophet report brings the secret Department of Mysteries conflict into public circulation, framing Harry as the possible subject of a prophecy and naming Death Eaters sentenced for trespass and attempted theft.
@@ -10229,6 +10280,18 @@ Summary: The available evidence includes 1 source item, led by: The Daily Prophe
   - Reference type: explicit_in_universe_source
   - Corroborates: `gof-ch09-007`, `ootp-ch14-003`. gof-ch09-007 records Death Eater/Azkaban context from an in-universe source, and ootp-ch14-003 records a Daily Prophet account affecting Hogwarts politics; this entry adds the mass breakout's immediate Great Hall reception and staff response.
   - Notes: The Daily Prophet account is politically distorted, so only the reported breakout, named prisoners, and observed Hogwarts reactions should be treated as firm evidence.
+
+#### Section: The Quibbler as pro-Harry resistance press
+
+Summary: The available evidence includes 1 source item, led by: The Quibbler has publicly urged support for Harry, and Xenophilius operates a private magical printing press from his family home.
+
+- **Corroboration:** The Quibbler has publicly urged support for Harry, and Xenophilius operates a private magical printing press from his family home.
+  - Quote: "The Quibbler's been for you all along"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3312, `dh-ch20-005`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ootp-ch10-005`, `ootp-ch25-007`, `ootp-ch26-001`. ootp-ch10-005 identifies The Quibbler as Luna's family periodical, ootp-ch25-007 records its use against Ministry censorship, and ootp-ch26-001 records circulation at Hogwarts; this entry adds its home press and explicit pro-Harry wartime advocacy.
+  - Notes: Xenophilius's current fear and later motives complicate how consistently this advocacy should be described.
 
 ### Chapter: The Second War and Hogwarts Security Breaches
 
@@ -12858,6 +12921,21 @@ Summary: The available evidence includes 1 source item, led by: The trio use Mem
   - Reference type: security_or_protection
   - Notes: The chapter shows Hermione knowing the theory, but it does not identify where she learned it or whether the Memory Charms are fully successful long term.
 
+## Part: Magical Objects and Artifacts
+
+### Chapter: Wand Ownership and Compatibility
+
+#### Section: Replacement wands and weakened spellwork
+
+Summary: The available evidence includes 1 source item, led by: Borrowed or replacement wands can perform ordinary spells less effectively for a wizard, with Harry's blackthorn wand producing weak enlargement, failed reduction, and clumsy levitation.
+
+- **Supporting evidence:** Borrowed or replacement wands can perform ordinary spells less effectively for a wizard, with Harry's blackthorn wand producing weak enlargement, failed reduction, and clumsy levitation.
+  - Quote: "less powerful than it had done before"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3309, `dh-ch20-002`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: Harry has little practice with this wand, so the passage does not isolate wand allegiance, wood, damage, and confidence as separate causes.
+
 ## Part: Magical Objects and Protective Magic
 
 ### Chapter: Concealment, Detection, and Anti-Detection Magic
@@ -14880,3 +14958,15 @@ Summary: The available evidence includes 1 source item, led by: Ron treats speak
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: The chapter does not yet explain the Taboo; the interpretation as speech tracking depends on later confirmation.
+
+#### Section: Taboo on Voldemort's name and speech-based tracking
+
+Summary: The available evidence includes 1 source item, led by: The chapter confirms that Voldemort's name has been placed under a Taboo that breaks protective enchantments, creates a magical disturbance, and makes speakers trackable.
+
+- **Corroboration:** The chapter confirms that Voldemort's name has been placed under a Taboo that breaks protective enchantments, creates a magical disturbance, and makes speakers trackable.
+  - Quote: "the name's been jinxed"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, PDF p. 3307, `dh-ch20-001`, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch14-005`. dh-ch14-005 foreshadows the Taboo through Ron's fear that the name feels jinxed; this entry supplies the formal mechanism, including broken protections and trackability.
+  - Notes: The explanation is secondhand from Ron's wider-war reports rather than Ministry or Death Eater technical documentation.

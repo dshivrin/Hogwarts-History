@@ -31,6 +31,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Course Books and Dangerous Texts
   - Live Creature Handling and Safety
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
+- Care of Magical Creatures and Creature Scholarship
+  - Fantastic Beasts as practical reference source
 - Care of Magical Creatures and Grounds-Based Teaching
   - Experimental Breeding, Safety, and Oversight
   - O.W.L. practical assessment at the forest edge
@@ -748,10 +750,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Alternative press and Harry's Quibbler interview
   - Alternative press reaches Hogwarts by owl post
   - Ministry acknowledgement and Dumbledore's reinstatement
+  - Password-protected resistance broadcasts
   - Public prophecy rumors after the Department of Mysteries
   - Public prophecy rumors entering student life
   - Student and staff workarounds under information control
   - The Azkaban breakout reaches the Great Hall
+  - The Quibbler as pro-Harry resistance press
 - The Second War and Hogwarts Security Breaches
   - Borgin and Burkes consultation before the cabinet plot
 - The Second War and Hogwarts-Connected Families
@@ -1023,6 +1027,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Concealment After Magical Exposure
   - Memory Charms and scene restoration
 
+## Magical Objects and Artifacts
+
+- Wand Ownership and Compatibility
+  - Replacement wands and weakened spellwork
+
 ## Magical Objects and Protective Magic
 
 - Concealment, Detection, and Anti-Detection Magic
@@ -1071,6 +1080,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Dumbledore's Student Years
   - Aberforth at Hogwarts
   - Arrival Under Family Notoriety
+- Dumbledore, Grindelwald, and the Deathly Hallows
+  - Symbol evidence before Xenophilius's explanation
 - First Wizarding War and Hogwarts Families
   - The Longbottom Aurors and Bellatrix Lestrange
 - Godric's Hollow and the Dumbledore Family
@@ -1793,6 +1804,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Points and the House Cup
   - Classroom Deductions
   - Point Records and Major Deductions
+- Ravenclaw House
+  - Rowena Ravenclaw, wit, and house identity
 - Salazar Slytherin and His Legacy
   - Gaunt family descent and heirlooms
   - Parseltongue before Hogwarts
@@ -1904,3 +1917,4 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry surveillance of Order-linked families
 - Wartime Security and Communication
   - Dangerous names and speech-based tracking
+  - Taboo on Voldemort's name and speech-based tracking

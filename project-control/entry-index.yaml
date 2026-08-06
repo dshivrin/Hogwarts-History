@@ -18131,6 +18131,116 @@ by_entry:
     - snatchers
     source_unit: dh-ch19
     output_yaml: sources/book-07/chapter-19-the-silver-doe.yaml
+  dh-ch20-001:
+    title: 'Wartime Security and Communication: Taboo on Voldemort''s name and speech-based
+      tracking'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - order-of-the-phoenix
+    - protective-enchantments
+    - speech-magic
+    - taboo
+    - tracking
+    - voldemort-name
+    - wartime-security
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch20-002:
+    title: 'Wand Ownership and Compatibility: Replacement wands and weakened spellwork'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - blackthorn
+    - borrowed-wands
+    - engorgement-charm
+    - reduction-charm
+    - spellwork
+    - wand-compatibility
+    - wandlore
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch20-003:
+    title: 'The Second War and Hogwarts Information Climate: Password-protected resistance
+      broadcasts'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - ministry-propaganda
+    - operational-security
+    - passwords
+    - resistance-media
+    - second-war
+    - wireless
+    - wizarding-news
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch20-004:
+    title: 'Dumbledore, Grindelwald, and the Deathly Hallows: Symbol evidence before
+      Xenophilius''s explanation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - archival-evidence
+    - beedle-the-bard
+    - deathly-hallows
+    - dumbledore-biography
+    - godrics-hollow
+    - grindelwald
+    - symbols
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch20-005:
+    title: 'The Second War and Hogwarts Information Climate: The Quibbler as pro-Harry
+      resistance press'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - harry-potter
+    - printing-press
+    - quibbler
+    - resistance-media
+    - second-war
+    - wizarding-press
+    - xenophilius-lovegood
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch20-006:
+    title: 'Care of Magical Creatures and Creature Scholarship: Fantastic Beasts as
+      practical reference source'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dangerous-objects
+    - erumpent
+    - fantastic-beasts
+    - hermione-granger
+    - in-universe-source
+    - magical-creatures
+    - tradeable-material
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  dh-ch20-007:
+    title: 'Ravenclaw House: Rowena Ravenclaw, wit, and house identity'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: medium
+    tags:
+    - billywig
+    - dirigible-plum
+    - house-motto
+    - ravenclaw
+    - rowena-ravenclaw
+    - wit
+    - wizarding-inventions
+    source_unit: dh-ch20
+    output_yaml: sources/book-07/chapter-20-xenophilius-lovegood.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18395,6 +18505,7 @@ by_tag:
   - ootp-ch33-002
   archival-evidence:
   - dh-ch17-004
+  - dh-ch20-004
   archway:
   - ootp-ch34-005
   - ootp-ch35-007
@@ -18632,6 +18743,8 @@ by_tag:
   - hbp-ch05-007
   bedtime-enforcement:
   - poa-ch13-006
+  beedle-the-bard:
+  - dh-ch20-004
   bell-jar:
   - ootp-ch34-007
   - ootp-ch35-004
@@ -18659,6 +18772,8 @@ by_tag:
   - hbp-ch18-007
   bill-weasley:
   - hbp-ch29-001
+  billywig:
+  - dh-ch20-007
   biography:
   - dh-ch08-004
   birth-registration:
@@ -18696,6 +18811,8 @@ by_tag:
   - hbp-ch30-005
   black-market-study-aids:
   - ootp-ch31-001
+  blackthorn:
+  - dh-ch20-002
   blaise-zabini:
   - hbp-ch11-006
   blast-ended-skrewts:
@@ -18778,6 +18895,8 @@ by_tag:
   boris-the-bewildered:
   - gof-ch23-007
   - gof-ch25-002
+  borrowed-wands:
+  - dh-ch20-002
   borrowing-procedure:
   - cos-ch10-001
   boundaries:
@@ -19649,6 +19768,8 @@ by_tag:
   - ootp-ch35-004
   - ootp-ch35-006
   - ootp-ch35-007
+  dangerous-objects:
+  - dh-ch20-006
   dangerous-plants:
   - cos-ch06-002
   dark-artifacts:
@@ -19771,6 +19892,8 @@ by_tag:
   - ootp-ch33-007
   deathday-party:
   - cos-ch08-004
+  deathly-hallows:
+  - dh-ch20-004
   deathly-hallows-symbol:
   - dh-ch16-007
   decorations:
@@ -20008,6 +20131,8 @@ by_tag:
   - ootp-ch22-006
   diplomacy:
   - ootp-ch20-004
+  dirigible-plum:
+  - dh-ch20-007
   dirk-cresswell:
   - dh-ch13-005
   - dh-ch15-004
@@ -20362,6 +20487,7 @@ by_tag:
   - dh-ch11-006
   - dh-ch17-004
   - dh-ch18-002
+  - dh-ch20-004
   dumbledore-death:
   - hbp-ch27-007
   dumbledore-family:
@@ -20577,6 +20703,7 @@ by_tag:
   - gof-ch17-006
   engorgement-charm:
   - cos-ch07-005
+  - dh-ch20-002
   - gof-ch04-005
   entrance-hall:
   - gof-ch12-001
@@ -20601,6 +20728,8 @@ by_tag:
   - dh-ch14-004
   errol:
   - poa-ch01-003
+  erumpent:
+  - dh-ch20-006
   escape:
   - poa-ch20-003
   escape-route:
@@ -20743,6 +20872,8 @@ by_tag:
   fang:
   - hbp-ch28-006
   - ps-ch15-005
+  fantastic-beasts:
+  - dh-ch20-006
   fat-friar:
   - cos-ch08-005
   fat-lady:
@@ -21307,6 +21438,7 @@ by_tag:
   - dh-ch17-005
   - dh-ch17-006
   - dh-ch18-005
+  - dh-ch20-004
   - gof-ch02-004
   - ps-ch01-003
   - ps-ch01-005
@@ -21445,6 +21577,7 @@ by_tag:
   - dh-ch18-005
   - dh-ch18-006
   - dh-ch18-007
+  - dh-ch20-004
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -21743,6 +21876,7 @@ by_tag:
   - dh-ch05-007
   - dh-ch07-005
   - dh-ch11-002
+  - dh-ch20-005
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -21976,6 +22110,7 @@ by_tag:
   - cos-ch07-003
   - dh-ch07-007
   - dh-ch19-001
+  - dh-ch20-006
   - gof-ch08-003
   - gof-ch09-002
   - hbp-ch04-001
@@ -22563,6 +22698,7 @@ by_tag:
   house-matches:
   - poa-ch13-003
   house-motto:
+  - dh-ch20-007
   - ootp-ch10-003
   house-notice-boards:
   - ootp-ch25-003
@@ -22722,6 +22858,7 @@ by_tag:
   - dh-ch17-001
   - dh-ch18-002
   - dh-ch18-006
+  - dh-ch20-006
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -23379,6 +23516,7 @@ by_tag:
   - cos-ch08-003
   - dh-ch11-005
   - dh-ch12-007
+  - dh-ch20-006
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -24017,6 +24155,7 @@ by_tag:
   - hbp-ch05-003
   ministry-propaganda:
   - dh-ch13-002
+  - dh-ch20-003
   ministry-public-guidance:
   - hbp-ch03-003
   - hbp-ch04-002
@@ -24506,6 +24645,7 @@ by_tag:
   - dh-ch09-003
   - dh-ch09-004
   - dh-ch09-005
+  - dh-ch20-003
   - ootp-ch10-001
   oppugno:
   - hbp-ch14-007
@@ -24550,6 +24690,7 @@ by_tag:
   - dh-ch11-001
   - dh-ch11-005
   - dh-ch13-004
+  - dh-ch20-001
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -24706,6 +24847,7 @@ by_tag:
   passwords:
   - cos-ch05-006
   - cos-ch12-005
+  - dh-ch20-003
   - gof-ch17-007
   - gof-ch19-007
   - gof-ch22-007
@@ -25167,6 +25309,8 @@ by_tag:
   - gof-ch24-004
   prewett-family:
   - ootp-ch09-007
+  printing-press:
+  - dh-ch20-005
   prior-incantato:
   - gof-ch09-006
   prior-opening:
@@ -25394,6 +25538,7 @@ by_tag:
   - dh-ch15-001
   - dh-ch16-001
   - dh-ch19-002
+  - dh-ch20-001
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -25496,6 +25641,7 @@ by_tag:
   questionnaire:
   - dh-ch13-007
   quibbler:
+  - dh-ch20-005
   - ootp-ch10-005
   - ootp-ch25-007
   - ootp-ch26-001
@@ -25634,6 +25780,7 @@ by_tag:
   rats:
   - poa-ch04-005
   ravenclaw:
+  - dh-ch20-007
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -25659,6 +25806,8 @@ by_tag:
   - poa-ch16-004
   red-sparks:
   - gof-ch31-003
+  reduction-charm:
+  - dh-ch20-002
   refereeing:
   - ps-ch11-005
   - ps-ch13-002
@@ -25702,6 +25851,9 @@ by_tag:
   - gof-ch31-003
   resignation:
   - gof-ch24-007
+  resistance-media:
+  - dh-ch20-003
+  - dh-ch20-005
   restricted-books:
   - cos-ch10-002
   - cos-ch12-004
@@ -25805,6 +25957,8 @@ by_tag:
   rotating-room:
   - ootp-ch34-003
   - ootp-ch36-001
+  rowena-ravenclaw:
+  - dh-ch20-007
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002
@@ -26192,6 +26346,8 @@ by_tag:
   - dh-ch15-005
   - dh-ch19-006
   - dh-ch19-007
+  - dh-ch20-003
+  - dh-ch20-005
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -26686,6 +26842,7 @@ by_tag:
   - ps-ch11-004
   speech-magic:
   - dh-ch14-005
+  - dh-ch20-001
   spell-damage:
   - ootp-ch22-005
   - ootp-ch23-006
@@ -26701,6 +26858,7 @@ by_tag:
   - gof-ch20-001
   - poa-ch01-002
   spellwork:
+  - dh-ch20-002
   - gof-ch26-001
   - hbp-ch14-007
   - ootp-ch18-003
@@ -27338,8 +27496,10 @@ by_tag:
   - ootp-ch38-003
   symbols:
   - dh-ch08-002
+  - dh-ch20-004
   taboo:
   - dh-ch14-005
+  - dh-ch20-001
   tales-of-beedle-the-bard:
   - dh-ch07-007
   tallest-tower:
@@ -27622,6 +27782,9 @@ by_tag:
   - hbp-ch17-007
   tracking:
   - dh-ch09-005
+  - dh-ch20-001
+  tradeable-material:
+  - dh-ch20-006
   train-ticket:
   - hbp-ch13-006
   transfiguration:
@@ -28030,6 +28193,7 @@ by_tag:
   - hbp-ch22-007
   voldemort-name:
   - dh-ch14-005
+  - dh-ch20-001
   voldemort-return:
   - hbp-ch08-006
   - ootp-ch01-001
@@ -28046,6 +28210,8 @@ by_tag:
   - poa-ch01-002
   wand-anomaly:
   - dh-ch18-001
+  wand-compatibility:
+  - dh-ch20-002
   wand-confiscation:
   - ootp-ch32-005
   wand-cores:
@@ -28091,6 +28257,7 @@ by_tag:
   wand-weighing:
   - gof-ch18-006
   wandlore:
+  - dh-ch20-002
   - gof-ch34-003
   wandmakers:
   - dh-ch08-003
@@ -28125,6 +28292,7 @@ by_tag:
   - dh-ch16-005
   - dh-ch17-003
   - dh-ch19-002
+  - dh-ch20-001
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -28251,6 +28419,10 @@ by_tag:
   - ps-ch12-001
   winter-grounds:
   - gof-ch24-005
+  wireless:
+  - dh-ch20-003
+  wit:
+  - dh-ch20-007
   witch-weekly:
   - gof-ch27-003
   witherwings:
@@ -28307,6 +28479,8 @@ by_tag:
   - ootp-ch09-002
   wizarding-institutions:
   - ootp-ch22-002
+  wizarding-inventions:
+  - dh-ch20-007
   wizarding-law:
   - dh-ch09-005
   - dh-ch13-006
@@ -28316,6 +28490,8 @@ by_tag:
   - hbp-ch10-005
   - ootp-ch36-002
   - poa-ch21-003
+  wizarding-news:
+  - dh-ch20-003
   wizarding-politics:
   - dh-ch18-006
   - ootp-ch05-006
@@ -28326,6 +28502,7 @@ by_tag:
   - ootp-ch33-003
   - ootp-ch33-005
   wizarding-press:
+  - dh-ch20-005
   - gof-ch18-005
   - gof-ch37-006
   - ootp-ch10-005
@@ -28391,6 +28568,8 @@ by_tag:
   - poa-ch18-006
   written-papers:
   - ps-ch16-001
+  xenophilius-lovegood:
+  - dh-ch20-005
   yaxley:
   - dh-ch12-004
   - dh-ch14-002

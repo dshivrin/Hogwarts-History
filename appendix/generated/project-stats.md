@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 181
+- Total: 182
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 127
+- Harry Potter and the Deathly Hallows: 134
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -22,26 +22,26 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 480
-- later_editorial_note: 589
+- harry_era_confirmation: 483
+- later_editorial_note: 592
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 4
-- pre_1984_historical_candidate: 115
+- pre_1984_historical_candidate: 116
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 88
+- cross_reference_candidate: 89
 - curriculum_or_subject: 154
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
-- explicit_in_universe_source: 90
-- historical_claim: 157
-- house_system: 19
+- explicit_in_universe_source: 93
+- historical_claim: 158
+- house_system: 20
 - institutional_custom: 181
 - magical_architecture: 91
 - portrait_or_ghost_lore: 18
 - school_rule_or_policy: 130
-- security_or_protection: 203
+- security_or_protection: 204
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 865
+- Total: 868
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, pages 3285-3305, `sources/book-07/chapter-19-the-silver-doe.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, pages 3306-3320, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, pages 3306-3320, `sources/book-07/chapter-20-xenophilius-lovegood.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, pages 3321-3336, `sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml`
