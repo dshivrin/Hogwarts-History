@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 23
-  chapter_title: Chapter Twenty-Three - Malfoy Manor
-  page_start: 3356
-  page_end: 3382
-  output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 24
   chapter_title: Chapter Twenty-Four - The Wandmaker
   page_start: 3383
   page_end: 3404
   output_yaml: sources/book-07/chapter-24-the-wandmaker.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3405
   page_end: 3419
   output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 26
+  chapter_title: Chapter Twenty-Six - Gringotts
+  page_start: 3420
+  page_end: 3440
+  output_yaml: sources/book-07/chapter-26-gringotts.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

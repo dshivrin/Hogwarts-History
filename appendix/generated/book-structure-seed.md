@@ -576,6 +576,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trelawney's appointment interview and the first prophecy
   - Trelawney's confirmation of shared Divination classes
 - Dumbledore and the First Wizarding War
+  - Elder Wand ownership, Hogwarts tomb, and Voldemort's theft
   - Grindelwald's imprisonment, refusal, and Elder Wand trail
   - Nurmengard, the Greater Good slogan, and later repudiation
 - Dumbledore's Private Instruction During the Second War
@@ -1031,6 +1032,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Dangerous Creatures in Study and Tournament Use
   - Dragon Lore in Hogwarts Library Sources
 
+## Magical Institutions Beyond Hogwarts
+
+- Gringotts, Goblins, and Wizarding Power
+  - Goblin custodianship, secrecy, and founder relic claims
+  - Lestrange vault security and Horcrux target selection
+
 ## Magical Institutions Beyond the Castle
 
 - Gringotts, Goblins, and Wizarding Power
@@ -1049,9 +1056,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Potter Cloak provenance and Dumbledore's examination
   - Snitch bequest and suspected Stone concealment
   - Three artifacts and the master-of-Death claim
+  - Wandmaker evidence for the Elder Wand outside Hallows tradition
 - Wand Ownership and Compatibility
   - Elder Wand provenance and alternate names
   - Replacement wands and weakened spellwork
+- Wands, Equipment, and Magical Materials
+  - Wand repair limits, identification, and allegiance
 
 ## Magical Objects and Protective Magic
 
@@ -1174,6 +1184,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part III - The War Beyond The Gates
 
+- Information Security and Secret Keeping
+  - Wartime family relocation and Shell Cottage Fidelius protections
 - Muggle-Born Persecution And Wartime Student Risk
   - Snatcher triage by school age, House claims, and Taboo exposure
   - Snatchers and rewards for school-age fugitives
@@ -1231,6 +1243,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Fountain of Magical Brethren
 - Ministry Public Ideology and Non-Magical People
   - Magic Is Might monument and Muggle subjugation
+- Non-Human Autonomy and Wizarding Law
+  - Goblin wand rights and wizard control of wandlore
 - Pure-Blood Families and Genealogical Memory
   - Interrelated Pure-Blood Families and Marriage Exclusions
   - The Black Family Tapestry and Disowned Relatives

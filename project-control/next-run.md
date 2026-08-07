@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-Four - The Wandmaker
-- Page range: 3383-3404
+- Chapter: Chapter Twenty-Five - Shell Cottage
+- Page range: 3405-3419
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-24-the-wandmaker.yaml`
+- Output YAML: `sources/book-07/chapter-25-shell-cottage.yaml`
 
 ## Minimal Context
 

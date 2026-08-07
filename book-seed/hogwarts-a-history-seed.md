@@ -8758,6 +8758,18 @@ Summary: The available evidence includes 1 source item, led by: Trelawney direct
 
 ### Chapter: Dumbledore and the First Wizarding War
 
+#### Section: Elder Wand ownership, Hogwarts tomb, and Voldemort's theft
+
+Summary: The available evidence includes 1 source item, led by: Harry concludes Dumbledore won the Elder Wand from Grindelwald and left it buried at Hogwarts; Voldemort then violates Dumbledore's lakeside tomb and removes the wand.
+
+- **Corroboration:** Harry concludes Dumbledore won the Elder Wand from Grindelwald and left it buried at Hogwarts; Voldemort then violates Dumbledore's lakeside tomb and removes the wand.
+  - Quote: "At Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3403, `dh-ch24-007`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch23-007`, `dh-ch21-005`. dh-ch23-007 records Voldemort killing Grindelwald during the search, and dh-ch21-005 records earlier Elder Wand provenance claims; this entry adds Harry's Dumbledore ownership inference and Voldemort's removal of the wand from the Hogwarts tomb.
+  - Notes: Part of the tomb scene is perceived through Harry's scar connection, and the chapter does not yet test whether the wand's allegiance truly passes to Voldemort.
+
 #### Section: Grindelwald's imprisonment, refusal, and Elder Wand trail
 
 Summary: The available evidence includes 1 source item, led by: Voldemort reaches the imprisoned Grindelwald during the Elder Wand search; Grindelwald denies having it, welcomes death, and is killed after refusing to help.
@@ -13046,6 +13058,34 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
   - Reference type: explicit_in_universe_source
   - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
 
+## Part: Magical Institutions Beyond Hogwarts
+
+### Chapter: Gringotts, Goblins, and Wizarding Power
+
+#### Section: Goblin custodianship, secrecy, and founder relic claims
+
+Summary: The available evidence includes 1 source item, led by: Griphook describes a goblin code of secrecy and guardianship over Gringotts treasures, especially objects wrought by goblins, while resenting Harry's control of the real Sword of Gryffindor.
+
+- **Corroboration:** Griphook describes a goblin code of secrecy and guardianship over Gringotts treasures, especially objects wrought by goblins, while resenting Harry's control of the real Sword of Gryffindor.
+  - Quote: "guardians of fabulous treasures"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3394, `dh-ch24-004`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `dh-ch15-006`. dh-ch15-006 records the sword's goblin-made nature, fake replacement, and Horcrux-destruction role; this entry adds Griphook's explicit Gringotts code and goblin custodianship rationale.
+  - Notes: The code is summarized by one goblin interlocutor under negotiation pressure, so its full institutional scope remains unstated.
+
+#### Section: Lestrange vault security and Horcrux target selection
+
+Summary: The available evidence includes 1 source item, led by: The Lestrange vault is framed as a high-security Gringotts target, with Griphook insisting that a valuable protected vault is effectively impossible to breach.
+
+- **Corroboration:** The Lestrange vault is framed as a high-security Gringotts target, with Griphook insisting that a valuable protected vault is effectively impossible to breach.
+  - Quote: "Break into a Gringotts vault?"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3392, `dh-ch24-002`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch15-005`, `dh-ch15-006`. dh-ch15-005 records wartime Gringotts control and dh-ch15-006 records the sword/fake-sword context; this entry adds the Lestrange vault as a suspected Horcrux hiding place and emphasizes its high-security breach problem.
+  - Notes: Harry's Horcrux conclusion is an inference from Bellatrix's panic and Voldemort's psychology, not yet confirmed by viewing the vault contents in this chapter.
+
 ## Part: Magical Institutions Beyond the Castle
 
 ### Chapter: Gringotts, Goblins, and Wizarding Power
@@ -13129,6 +13169,18 @@ Summary: The available evidence includes 1 source item, led by: Xenophilius defi
   - Corroborates: `dh-ch20-004`. dh-ch20-004 records the unexplained symbol trail; this entry gives the named artifact triad and the claimed meaning of the combined sign.
   - Notes: The master-of-Death claim is Xenophilius's believer interpretation, not yet independently proven in this scene.
 
+#### Section: Wandmaker evidence for the Elder Wand outside Hallows tradition
+
+Summary: The available evidence includes 1 source item, led by: Ollivander treats the Elder Wand as a historically traceable object with alternate names, written accounts, and wandmaker study, while separating that knowledge from the Deathly Hallows tradition.
+
+- **Corroboration:** Ollivander treats the Elder Wand as a historically traceable object with alternate names, written accounts, and wandmaker study, while separating that knowledge from the Deathly Hallows tradition.
+  - Quote: "perfectly possible to trace the wand's course"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3400, `dh-ch24-006`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch21-005`, `dh-ch22-005`. dh-ch21-005 records Xenophilius's provenance chain and alternate names, and dh-ch22-005 records Harry's inference about Voldemort's partial knowledge; this entry adds Ollivander's expert written-account tradition and ignorance of the Hallows.
+  - Notes: Ollivander acknowledges gaps in the wand's historical record and speaks under the trauma of recent torture.
+
 ### Chapter: Wand Ownership and Compatibility
 
 #### Section: Elder Wand provenance and alternate names
@@ -13153,6 +13205,20 @@ Summary: The available evidence includes 1 source item, led by: Borrowed or repl
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: Harry has little practice with this wand, so the passage does not isolate wand allegiance, wood, damage, and confidence as separate causes.
+
+### Chapter: Wands, Equipment, and Magical Materials
+
+#### Section: Wand repair limits, identification, and allegiance
+
+Summary: The available evidence includes 1 source item, led by: Ollivander confirms that Harry's original wand is beyond ordinary repair, identifies captured wands by material and owner, and explains affinity and allegiance as core principles of wandlore.
+
+- **Corroboration:** Ollivander confirms that Harry's original wand is beyond ordinary repair, identifies captured wands by material and owner, and explains affinity and allegiance as core principles of wandlore.
+  - Quote: "The wand chooses the wizard"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3397, `dh-ch24-005`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch17-007`, `dh-ch20-002`. dh-ch17-007 records the wand's breakage and failed Reparo, while dh-ch20-002 records weak replacement-wand performance; this entry adds Ollivander's expert confirmation of repair limits and allegiance mechanics.
+  - Notes: Ollivander qualifies allegiance as general wand behavior rather than an absolute rule for every wand.
 
 ## Part: Magical Objects and Protective Magic
 
@@ -13410,6 +13476,19 @@ Summary: The available evidence includes 1 source item, led by: The boat's encha
   - Notes: Dumbledore presents the mechanism as an inference, not as a tested technical specification.
 
 ## Part: Part III - The War Beyond The Gates
+
+### Chapter: Information Security and Secret Keeping
+
+#### Section: Wartime family relocation and Shell Cottage Fidelius protections
+
+Summary: The available evidence includes 1 source item, led by: Bill confirms that the exposed Weasley family relocates from the Burrow to Muriel's under a Fidelius Charm while Shell Cottage is separately protected with Bill as Secret-Keeper.
+
+- **Context:** Bill confirms that the exposed Weasley family relocates from the Burrow to Muriel's under a Fidelius Charm while Shell Cottage is separately protected with Bill as Secret-Keeper.
+  - Quote: "If she'd been at Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3387, `dh-ch24-001`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage does not specify who serves as Muriel's Secret-Keeper beyond Arthur for that location, nor the precise terms of each charm.
 
 ### Chapter: Muggle-Born Persecution And Wartime Student Risk
 
@@ -13758,6 +13837,20 @@ Summary: The available evidence includes 1 source item, led by: The captured Min
   - Reference type: magical_architecture
   - Corroborates: `ootp-ch07-003`, `ootp-ch36-004`. Likely overlaps the prior Atrium/Fountain entries; this entry adds the replacement monument and its explicit Muggle-subjugation propaganda.
   - Notes: The passage does not say when the replacement monument was installed or who designed it.
+
+### Chapter: Non-Human Autonomy and Wizarding Law
+
+#### Section: Goblin wand rights and wizard control of wandlore
+
+Summary: The available evidence includes 1 source item, led by: Griphook presents wand-carrying as a long-contested privilege withheld from goblins, tying wandlore secrecy to broader wizard dominance over magical beings.
+
+- **Corroboration:** Griphook presents wand-carrying as a long-contested privilege withheld from goblins, tying wandlore secrecy to broader wizard dominance over magical beings.
+  - Quote: "the right to carry a wand"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, PDF p. 3392, `dh-ch24-003`, `sources/book-07/chapter-24-the-wandmaker.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch15-005`. dh-ch15-005 records wartime Gringotts control and goblin resentment; this entry adds the specific long-running dispute over goblins' right to carry wands and access wandlore.
+  - Notes: The historical depth of the wand-rights dispute is asserted by Griphook rather than documented by an independent legal text in this chapter.
 
 ### Chapter: Pure-Blood Families and Genealogical Memory
 
