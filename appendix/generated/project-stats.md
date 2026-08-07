@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 184
+- Total: 185
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 148
+- Harry Potter and the Deathly Hallows: 155
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,25 +23,25 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 483
-- later_editorial_note: 599
+- later_editorial_note: 605
 - original_book_core_candidate: 8
-- post_1984_excluded_from_original: 4
+- post_1984_excluded_from_original: 5
 - pre_1984_historical_candidate: 123
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 94
+- cross_reference_candidate: 96
 - curriculum_or_subject: 154
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 97
-- historical_claim: 162
+- historical_claim: 164
 - house_system: 20
 - institutional_custom: 181
-- magical_architecture: 92
+- magical_architecture: 93
 - portrait_or_ghost_lore: 18
-- school_rule_or_policy: 130
-- security_or_protection: 204
+- school_rule_or_policy: 131
+- security_or_protection: 205
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 881
+- Total: 887
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, pages 3337-3355, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, pages 3356-3382, `sources/book-07/chapter-23-malfoy-manor.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, pages 3356-3382, `sources/book-07/chapter-23-malfoy-manor.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, pages 3383-3404, `sources/book-07/chapter-24-the-wandmaker.yaml`

@@ -2210,3 +2210,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3337-3355.
+- source_unit_id: dh-ch23
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 23
+  chapter_title: Chapter Twenty-Three - Malfoy Manor
+  page_start: 3356
+  page_end: 3382
+  output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  processed_at: '2026-08-07'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3356-3382.

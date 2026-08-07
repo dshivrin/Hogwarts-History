@@ -758,6 +758,18 @@ Summary: The available evidence includes 1 source item, led by: Malfoy Manor use
   - Reference type: magical_architecture
   - Notes: The scene is off campus and does not state whether the manor portraits share Hogwarts portrait-network behavior.
 
+#### Section: Malfoy Manor security and portrait culture under wartime occupation
+
+Summary: The available evidence includes 1 source item, led by: Malfoy Manor confirms its sentient gate access control, portrait-lined interior, and status as Voldemort's temporary base for receiving captured Harry.
+
+- **Corroboration:** Malfoy Manor confirms its sentient gate access control, portrait-lined interior, and status as Voldemort's temporary base for receiving captured Harry.
+  - Quote: "State your purpose!"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3364, `dh-ch23-002`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch01-001`. dh-ch01-001 records the manor gates and portraits during the Death Eater meeting; this entry adds the gate challenge under capture conditions, prisoner processing, and Voldemort-base context.
+  - Notes: The manor is not a Hogwarts site, and the passage does not define the gate enchantment's full rules.
+
 ### Chapter: Secret Passageways and Hidden Routes
 
 #### Section: Tapestries, Statues, and Student Wayfinding
@@ -959,6 +971,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: historical_claim
   - Corroborates: `dh-ch07-006`, `dh-ch12-002`. Likely overlaps dh-ch07-006 on the Sword as a historical Gryffindor artifact and dh-ch12-002 on the office case under Snape; this entry adds the fake Gringotts copy, goblin-made properties, Dumbledore's ring use, and basilisk venom logic.
   - Notes: Some details are reported secondhand through Dirk, Griphook, and Phineas; the chapter does not show where Dumbledore hid the real sword.
+
+#### Section: Sword custody, Gringotts vault panic, and false authentication
+
+Summary: The available evidence includes 1 source item, led by: Bellatrix's panic proves that a Sword of Gryffindor copy was stored in her Gringotts vault and that the real sword's whereabouts created high-stakes Death Eater vulnerability.
+
+- **Corroboration:** Bellatrix's panic proves that a Sword of Gryffindor copy was stored in her Gringotts vault and that the real sword's whereabouts created high-stakes Death Eater vulnerability.
+  - Quote: "Snape sent it to my vault in Gringotts!"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3369, `dh-ch23-003`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch15-006`. dh-ch15-006 establishes the fake Gringotts sword and the real sword's goblin-made properties; this entry adds Bellatrix's direct vault testimony, panic, torture, and Griphook's false authentication scene.
+  - Notes: Bellatrix does not explain when Snape placed the copy in her vault or what Voldemort told her about the sword.
 
 ### Chapter: House Points and the House Cup
 
@@ -8413,6 +8437,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `gof-ch34-005`, `gof-ch35-007`. gof-ch34-005 records Harry's Portkey return and gof-ch35-007 records Crouch's Veritaserum confession; this entry adds Harry's immediate survivor debrief as a separate corroborating evidence channel.
   - Notes: The account is summarized through Harry's retelling rather than fully transcribed, and it occurs before ordinary rest or formal public reporting.
 
+### Chapter: Dark Artifacts, Oaths, and Wartime Punishments
+
+#### Section: Wormtail's silver hand and the cost of mercy
+
+Summary: The available evidence includes 1 source item, led by: Pettigrew's Voldemort-made silver hand enforces loyalty by killing him after a brief merciful hesitation toward Harry, who invokes the life debt from his Hogwarts-era capture.
+
+- **Context:** Pettigrew's Voldemort-made silver hand enforces loyalty by killing him after a brief merciful hesitation toward Harry, who invokes the life debt from his Hogwarts-era capture.
+  - Quote: "The silver fingers slackened"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3377, `dh-ch23-006`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The link to Harry's earlier mercy is explicit in dialogue but the mechanics of the silver hand are inferred from the observed action.
+
 ### Chapter: Dark Magic, Security, and Public Panic
 
 #### Section: Dark Mark Summoning and Emergency Response
@@ -8720,6 +8757,18 @@ Summary: The available evidence includes 1 source item, led by: Trelawney direct
   - Notes: Trelawney's tone is hostile and informal, and the passage does not show the timetable or number of sections each teacher handles.
 
 ### Chapter: Dumbledore and the First Wizarding War
+
+#### Section: Grindelwald's imprisonment, refusal, and Elder Wand trail
+
+Summary: The available evidence includes 1 source item, led by: Voldemort reaches the imprisoned Grindelwald during the Elder Wand search; Grindelwald denies having it, welcomes death, and is killed after refusing to help.
+
+- **Corroboration:** Voldemort reaches the imprisoned Grindelwald during the Elder Wand search; Grindelwald denies having it, welcomes death, and is killed after refusing to help.
+  - Quote: "That wand will never, ever be yours"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3376, `dh-ch23-007`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch14-007`, `dh-ch18-007`, `dh-ch22-005`. dh-ch14-007 records the stolen-object trail, dh-ch18-007 records Nurmengard and Grindelwald context, and dh-ch22-005 records Voldemort's Elder Wand pursuit; this entry adds Voldemort's direct prison visit and Grindelwald's death refusal.
+  - Notes: The scene is perceived through Harry's scar connection, and this chapter does not name the old prisoner in the extracted text itself.
 
 #### Section: Nurmengard, the Greater Good slogan, and later repudiation
 
@@ -13364,6 +13413,18 @@ Summary: The available evidence includes 1 source item, led by: The boat's encha
 
 ### Chapter: Muggle-Born Persecution And Wartime Student Risk
 
+#### Section: Snatcher triage by school age, House claims, and Taboo exposure
+
+Summary: The available evidence includes 1 source item, led by: Snatchers use apparent Hogwarts age, blood status, House knowledge, wanted lists, and the Voldemort-name Taboo to sort captives for Ministry or Death Eater rewards.
+
+- **Corroboration:** Snatchers use apparent Hogwarts age, blood status, House knowledge, wanted lists, and the Voldemort-name Taboo to sort captives for Ministry or Death Eater rewards.
+  - Quote: "they could still be Hogwarts age"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3358, `dh-ch23-001`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `dh-ch19-007`, `dh-ch22-007`. dh-ch19-007 covers Snatcher rewards for school-age fugitives, and dh-ch22-007 covers the immediate Taboo breach; this entry adds on-scene identity triage, House testing, and the captive haul classification.
+  - Notes: The enforcement process is observed through Snatcher dialogue rather than a written Ministry policy.
+
 #### Section: Snatchers and rewards for school-age fugitives
 
 Summary: The available evidence includes 1 source item, led by: Snatcher gangs operate under Ministry rewards for captured Muggle-borns and blood traitors, and they identify apparent school-age youths as possible Muggle-born fugitives.
@@ -13388,6 +13449,20 @@ Summary: The available evidence includes 1 source item, led by: A silent corpore
   - Reference type: security_or_protection
   - Corroborates: `dh-ch08-007`, `dh-ch09-007`. Earlier Deathly Hallows entries record speaking Patronus warnings; this entry is related but distinct because the Patronus silently guides Harry to a hidden founder relic.
   - Notes: The caster is not identified in this chapter, so the entry should not attribute the doe to Snape here.
+
+### Chapter: The Second War and Hogwarts-Connected Captives
+
+#### Section: Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
+
+Summary: The available evidence includes 1 source item, led by: Malfoy Manor's cellar confines Hogwarts-age and Hogwarts-linked prisoners, including Luna, Dean, Ollivander, and Griphook, until outside help is summoned through the mirror shard.
+
+- **Corroboration:** Malfoy Manor's cellar confines Hogwarts-age and Hogwarts-linked prisoners, including Luna, Dean, Ollivander, and Griphook, until outside help is summoned through the mirror shard.
+  - Quote: "The cellar is completely escape-proof"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3372, `dh-ch23-004`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch05-007`, `dh-ch21-007`. dh-ch05-007 records Ollivander being tortured by Voldemort, and dh-ch21-007 records Luna's abduction pressure on The Quibbler; this entry adds their shared cellar imprisonment with Dean and Griphook.
+  - Notes: The exact enchantments making the cellar escape-proof are not specified, and Luna's statement reflects prisoner experience.
 
 ### Chapter: Wartime Concealment And Mobile Safe Sites
 
@@ -13595,6 +13670,18 @@ Summary: The available evidence includes 1 source item, led by: House-elf survei
   - Reference type: institutional_custom
   - Corroborates: `hbp-ch19-007`, `hbp-ch18-004`. hbp-ch19-007 records Harry assigning Dobby and Kreacher to tail Malfoy, and hbp-ch18-004 records Malfoy's map disappearances. This entry adds the elves' completed report, continuous tracking claim, seventh-floor destination, and inability to enter the hidden room.
   - Notes: The report comes through Dobby and Kreacher, whose loyalties and speech patterns differ; it does not reveal what Malfoy is doing inside.
+
+#### Section: Free elf agency and exceptional transport magic
+
+Summary: The available evidence includes 1 source item, led by: Dobby's free house-elf magic bypasses the escape-proof cellar, transports humans, removes a witch's wand, and carries fugitives to Shell Cottage at the cost of his life.
+
+- **Corroboration:** Dobby's free house-elf magic bypasses the escape-proof cellar, transports humans, removes a witch's wand, and carries fugitives to Shell Cottage at the cost of his life.
+  - Quote: "Dobby is a free elf"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, PDF p. 3374, `dh-ch23-005`, `sources/book-07/chapter-23-malfoy-manor.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch10-006`, `hbp-ch19-007`, `cos-ch18-006`. dh-ch10-006 covers house-elf exceptions to anti-Apparition, hbp-ch19-007 covers Dobby's free service and school surveillance, and cos-ch18-006 covers manumission; this entry adds Dobby's free rescue from Malfoy Manor and fatal Shell Cottage arrival.
+  - Notes: The event is off campus and extraordinary, so it should not be treated as normal Hogwarts kitchen-elf procedure.
 
 #### Section: Kreacher, Family Loyalty, and Headquarters Secrecy
 

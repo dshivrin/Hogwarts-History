@@ -18461,6 +18461,118 @@ by_entry:
     - wartime-security
     source_unit: dh-ch22
     output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch23-001:
+    title: 'Muggle-Born Persecution And Wartime Student Risk: Snatcher triage by school
+      age, House claims, and Taboo exposure'
+    classification: post_1984_excluded_from_original
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - blood-status
+    - hogwarts-age
+    - house-system
+    - school-age-youth
+    - second-war
+    - snatchers
+    - taboo
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  dh-ch23-002:
+    title: 'Pure-Blood Families and School Influence: Malfoy Manor security and portrait
+      culture under wartime occupation'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - magical-architecture
+    - malfoy-manor
+    - portraits
+    - pure-blood-households
+    - second-war
+    - voldemort-base
+    - warded-gates
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  dh-ch23-003:
+    title: 'Founders'' Relics and Legacies: Sword custody, Gringotts vault panic,
+      and false authentication'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bellatrix-lestrange
+    - death-eaters
+    - fake-sword
+    - founder-relics
+    - gringotts
+    - griphook
+    - sword-of-gryffindor
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  dh-ch23-004:
+    title: 'The Second War and Hogwarts-Connected Captives: Malfoy Manor cellar, student
+      prisoners, and wandmaker imprisonment'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - cellar
+    - dean-thomas
+    - griphook
+    - luna-lovegood
+    - malfoy-manor
+    - ollivander
+    - security
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  dh-ch23-005:
+    title: 'House-Elves, Service, and Wizarding Households: Free elf agency and exceptional
+      transport magic'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - apparition
+    - dobby
+    - free-elf
+    - house-elf-magic
+    - house-elves
+    - magical-transport
+    - shell-cottage
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  dh-ch23-006:
+    title: 'Dark Artifacts, Oaths, and Wartime Punishments: Wormtail''s silver hand
+      and the cost of mercy'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - dark-artifacts
+    - life-debt
+    - magical-combat
+    - pettigrew
+    - silver-hand
+    - voldemort
+    - wormtail
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
+  dh-ch23-007:
+    title: 'Dumbledore and the First Wizarding War: Grindelwald''s imprisonment, refusal,
+      and Elder Wand trail'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore
+    - elder-wand
+    - grindelwald
+    - magical-history
+    - nurmengard
+    - voldemort
+    - wandlore
+    source_unit: dh-ch23
+    output_yaml: sources/book-07/chapter-23-malfoy-manor.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18698,6 +18810,7 @@ by_tag:
   - dh-ch14-002
   - dh-ch16-001
   - dh-ch16-005
+  - dh-ch23-005
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -18980,6 +19093,7 @@ by_tag:
   - ootp-ch34-007
   - ootp-ch35-004
   bellatrix-lestrange:
+  - dh-ch23-003
   - hbp-ch02-006
   - hbp-ch03-004
   - hbp-ch03-005
@@ -19077,6 +19191,7 @@ by_tag:
   - dh-ch13-004
   - dh-ch13-005
   - dh-ch13-007
+  - dh-ch23-001
   - gof-ch08-003
   blood-status-threat:
   - cos-ch08-006
@@ -19425,6 +19540,8 @@ by_tag:
   - gof-ch37-003
   - gof-ch37-004
   - ootp-ch12-007
+  cellar:
+  - dh-ch23-004
   centaur-divination:
   - ps-ch15-007
   centaur-magic:
@@ -20008,6 +20125,7 @@ by_tag:
   - cos-ch06-002
   dark-artifacts:
   - dh-ch07-002
+  - dh-ch23-006
   dark-arts:
   - cos-ch18-001
   - dh-ch06-006
@@ -20070,6 +20188,7 @@ by_tag:
   - hbp-ch06-004
   dean-thomas:
   - dh-ch15-004
+  - dh-ch23-004
   death:
   - ootp-ch38-006
   death-chamber:
@@ -20093,6 +20212,7 @@ by_tag:
   - dh-ch09-004
   - dh-ch09-005
   - dh-ch11-001
+  - dh-ch23-003
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -20468,6 +20588,7 @@ by_tag:
   - cos-ch02-001
   - cos-ch02-004
   - cos-ch18-006
+  - dh-ch23-005
   - gof-ch08-002
   - gof-ch21-007
   - gof-ch26-004
@@ -20599,6 +20720,7 @@ by_tag:
   - dh-ch11-005
   - dh-ch15-002
   - dh-ch22-003
+  - dh-ch23-007
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -20874,6 +20996,7 @@ by_tag:
   - dh-ch21-003
   - dh-ch21-005
   - dh-ch22-005
+  - dh-ch23-007
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -21101,6 +21224,8 @@ by_tag:
   - gof-ch20-002
   fake-galleons:
   - ootp-ch19-001
+  fake-sword:
+  - dh-ch23-003
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
@@ -21478,6 +21603,7 @@ by_tag:
   - dh-ch15-002
   - dh-ch15-006
   - dh-ch16-004
+  - dh-ch23-003
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -21529,6 +21655,8 @@ by_tag:
   - ootp-ch29-007
   - ootp-ch30-001
   - ootp-ch38-002
+  free-elf:
+  - dh-ch23-005
   free-will:
   - gof-ch14-003
   freedom:
@@ -21843,6 +21971,7 @@ by_tag:
   - dh-ch18-007
   - dh-ch20-004
   - dh-ch21-001
+  - dh-ch23-007
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -21852,6 +21981,7 @@ by_tag:
   - dh-ch15-004
   - dh-ch15-005
   - dh-ch15-006
+  - dh-ch23-003
   - gof-ch05-001
   - ootp-ch10-005
   - ootp-ch29-003
@@ -21859,6 +21989,8 @@ by_tag:
   - ps-ch14-003
   griphook:
   - dh-ch15-005
+  - dh-ch23-003
+  - dh-ch23-004
   griselda-marchbanks:
   - ootp-ch31-002
   ground-floor:
@@ -22581,6 +22713,8 @@ by_tag:
   - poa-ch09-001
   hogwarts-admissions:
   - hbp-ch13-003
+  hogwarts-age:
+  - dh-ch23-001
   hogwarts-alumni:
   - ootp-ch09-007
   - poa-ch10-006
@@ -22919,12 +23053,14 @@ by_tag:
   - ps-ch17-005
   house-elf-magic:
   - dh-ch10-006
+  - dh-ch23-005
   house-elf-ownership:
   - hbp-ch03-005
   house-elves:
   - cos-ch02-001
   - cos-ch03-002
   - cos-ch18-006
+  - dh-ch23-005
   - gof-ch08-002
   - gof-ch09-003
   - gof-ch12-004
@@ -23016,6 +23152,7 @@ by_tag:
   - poa-ch19-005
   house-system:
   - cos-ch09-004
+  - dh-ch23-001
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -23522,6 +23659,8 @@ by_tag:
   - gof-ch06-001
   liechtenstein:
   - ootp-ch31-007
+  life-debt:
+  - dh-ch23-006
   lifts:
   - ootp-ch36-001
   light-magic:
@@ -23619,6 +23758,7 @@ by_tag:
   - ps-ch06-006
   luna-lovegood:
   - dh-ch21-007
+  - dh-ch23-004
   - hbp-ch07-004
   - ootp-ch10-003
   - ootp-ch10-005
@@ -23708,6 +23848,7 @@ by_tag:
   - dh-ch01-001
   - dh-ch08-001
   - dh-ch12-006
+  - dh-ch23-002
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -23776,6 +23917,7 @@ by_tag:
   - dh-ch04-006
   - dh-ch05-004
   - dh-ch05-007
+  - dh-ch23-006
   magical-communication:
   - dh-ch15-007
   - ootp-ch23-002
@@ -23867,6 +24009,7 @@ by_tag:
   - dh-ch19-001
   - dh-ch21-005
   - dh-ch22-005
+  - dh-ch23-007
   magical-hospital:
   - ootp-ch22-004
   magical-injury:
@@ -24030,6 +24173,7 @@ by_tag:
   - dh-ch10-006
   - dh-ch12-003
   - dh-ch14-001
+  - dh-ch23-005
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -24071,6 +24215,8 @@ by_tag:
   - ootp-ch06-006
   malfoy-manor:
   - dh-ch01-001
+  - dh-ch23-002
+  - dh-ch23-004
   mandrake-juice:
   - cos-ch18-002
   mandrakes:
@@ -24850,6 +24996,7 @@ by_tag:
   - ootp-ch26-002
   nurmengard:
   - dh-ch18-007
+  - dh-ch23-007
   nymphadora-tonks:
   - ootp-ch09-006
   o-w-ls:
@@ -24916,6 +25063,7 @@ by_tag:
   - dh-ch08-003
   - dh-ch12-005
   - dh-ch17-007
+  - dh-ch23-004
   - gof-ch18-006
   - gof-ch18-007
   ollivanders:
@@ -25271,6 +25419,8 @@ by_tag:
   - cos-ch11-006
   - cos-ch14-001
   - cos-ch16-002
+  pettigrew:
+  - dh-ch23-006
   petunia-dursley:
   - hbp-ch03-007
   - ootp-ch02-004
@@ -25438,6 +25588,7 @@ by_tag:
   - dh-ch12-002
   - dh-ch15-007
   - dh-ch16-002
+  - dh-ch23-002
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -25916,6 +26067,7 @@ by_tag:
   - ootp-ch06-006
   pure-blood-households:
   - dh-ch01-001
+  - dh-ch23-002
   - ootp-ch04-003
   - ootp-ch05-002
   - ootp-ch06-003
@@ -26328,6 +26480,7 @@ by_tag:
   - gof-ch02-003
   school-age-youth:
   - dh-ch19-007
+  - dh-ch23-001
   school-attachment:
   - hbp-ch20-004
   school-autonomy:
@@ -26665,6 +26818,8 @@ by_tag:
   - dh-ch20-003
   - dh-ch20-005
   - dh-ch21-007
+  - dh-ch23-001
+  - dh-ch23-002
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -26767,6 +26922,7 @@ by_tag:
   - hbp-ch24-004
   - hbp-ch28-007
   security:
+  - dh-ch23-004
   - gof-ch15-006
   - hbp-ch26-003
   - ootp-ch07-002
@@ -26837,6 +26993,8 @@ by_tag:
   - hbp-ch15-005
   shared-resources:
   - gof-ch18-001
+  shell-cottage:
+  - dh-ch23-005
   shield-charm:
   - hbp-ch03-003
   - hbp-ch06-005
@@ -26882,6 +27040,8 @@ by_tag:
   - dh-ch19-003
   silver-goblets:
   - hbp-ch12-005
+  silver-hand:
+  - dh-ch23-006
   silver-instruments:
   - hbp-ch10-003
   sir-cadogan:
@@ -27092,6 +27252,7 @@ by_tag:
   snatchers:
   - dh-ch19-007
   - dh-ch22-007
+  - dh-ch23-001
   sneakoscope:
   - dh-ch14-003
   - dh-ch15-001
@@ -27807,6 +27968,7 @@ by_tag:
   - dh-ch19-004
   - dh-ch19-005
   - dh-ch19-006
+  - dh-ch23-003
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -27822,6 +27984,7 @@ by_tag:
   - dh-ch14-005
   - dh-ch20-001
   - dh-ch22-007
+  - dh-ch23-001
   tales-of-beedle-the-bard:
   - dh-ch07-007
   - dh-ch21-002
@@ -28457,6 +28620,8 @@ by_tag:
   - dh-ch17-005
   - dh-ch18-001
   - dh-ch22-005
+  - dh-ch23-006
+  - dh-ch23-007
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -28494,6 +28659,8 @@ by_tag:
   - ps-ch01-002
   - ps-ch04-005
   - ps-ch05-006
+  voldemort-base:
+  - dh-ch23-002
   voldemort-defenses:
   - dh-ch10-006
   - dh-ch10-007
@@ -28590,6 +28757,7 @@ by_tag:
   - dh-ch20-002
   - dh-ch21-005
   - dh-ch22-005
+  - dh-ch23-007
   - gof-ch34-003
   wandmakers:
   - dh-ch08-003
@@ -28603,6 +28771,7 @@ by_tag:
   - ps-ch05-007
   warded-gates:
   - dh-ch01-001
+  - dh-ch23-002
   wards:
   - dh-ch14-003
   - dh-ch16-001
@@ -28901,6 +29070,7 @@ by_tag:
   world-cup-1473:
   - ps-ch11-002
   wormtail:
+  - dh-ch23-006
   - gof-ch02-006
   - gof-ch10-005
   - poa-ch14-007

@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-Three - Malfoy Manor
-- Page range: 3356-3382
+- Chapter: Chapter Twenty-Four - The Wandmaker
+- Page range: 3383-3404
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-23-malfoy-manor.yaml`
+- Output YAML: `sources/book-07/chapter-24-the-wandmaker.yaml`
 
 ## Minimal Context
 

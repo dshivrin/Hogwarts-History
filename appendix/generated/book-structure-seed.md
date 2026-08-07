@@ -542,6 +542,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Classroom eleven and Firenze's adapted Divination room
 - Crisis Evidence and Student Care
   - Immediate Survivor Account in the Headmaster's Office
+- Dark Artifacts, Oaths, and Wartime Punishments
+  - Wormtail's silver hand and the cost of mercy
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
 - Defense Against the Dark Arts Staffing and Ministry Links
@@ -574,6 +576,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trelawney's appointment interview and the first prophecy
   - Trelawney's confirmation of shared Divination classes
 - Dumbledore and the First Wizarding War
+  - Grindelwald's imprisonment, refusal, and Elder Wand trail
   - Nurmengard, the Greater Good slogan, and later repudiation
 - Dumbledore's Private Instruction During the Second War
   - Pensieve lessons in the headmaster's office
@@ -968,6 +971,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Headmaster's Gargoyle Entrance and Password Changes
 - Pure-Blood Families and School Influence
   - Elite Household Architecture and Portrait Culture
+  - Malfoy Manor security and portrait culture under wartime occupation
 - Secret Passageways and Hidden Routes
   - Tapestries, Statues, and Student Wayfinding
   - The Bathroom Entrance to the Chamber
@@ -1171,9 +1175,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Part III - The War Beyond The Gates
 
 - Muggle-Born Persecution And Wartime Student Risk
+  - Snatcher triage by school age, House claims, and Taboo exposure
   - Snatchers and rewards for school-age fugitives
 - Patronus Messages, Guardians, And Covert Aid
   - A corporeal Patronus as a guide rather than only a message
+- The Second War and Hogwarts-Connected Captives
+  - Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
 - Wartime Concealment And Mobile Safe Sites
   - Repeated field wards during flight
 
@@ -1214,6 +1221,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House-Elves, Service, and Wizarding Households
   - Clothing, family-house bonds, and possible unauthorized departure
   - Covert school surveillance and hidden-room limits
+  - Free elf agency and exceptional transport magic
   - Kreacher, Family Loyalty, and Headquarters Secrecy
   - Ownership transfer and reassignment to Hogwarts kitchens
   - Summoning, free service, and covert school surveillance
@@ -1817,6 +1825,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Founders' Relics and Legacies
   - Hufflepuff's cup and Slytherin's locket
   - Sword authenticity, goblin silver, and Horcrux destruction
+  - Sword custody, Gringotts vault panic, and false authentication
 - House Identity and Reputation
   - Borderline Sorting decisions
   - House loyalty during the Triwizard Tournament

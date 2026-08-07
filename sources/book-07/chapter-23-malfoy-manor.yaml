@@ -1,0 +1,336 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  boundary_confidence: high
+  boundary_notes: Used page range from processing-state.yaml after Chapter Twenty-Two completion; extracted only pages 3356-3382 and did not scan the full PDF.
+  processed_date: '2026-08-07'
+  processor_notes: Off-campus capture, imprisonment, and escape chapter. Hogwarts-relevant evidence is mostly later Second War context around Snatcher enforcement, pure-blood household security, founder-relic custody, house-elf magic, and Grindelwald/Elder Wand history.
+entries:
+- id: dh-ch23-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3358
+  printed_page: null
+  extracted_text_lines: 70-83; 98-105; 113-125
+  text_anchor:
+    start_phrase: they could still be 'ogwarts age
+    end_phrase: there ain't a lot of Mudblood Slytherins
+    local_occurrence_note: Scabior and Greyback classify the captives by blood status, school age, Taboo use, House claim, and bounty value after the camp capture.
+  nearby_context: The Snatchers have seized the trio after the Taboo triggered, bind them with Dean and Griphook, and test Harry's false Slytherin identity with House-common-room knowledge.
+  match_terms:
+  - Snatchers
+  - Hogwarts age
+  - Taboo
+  - truants
+  - Slytherin
+  - Mudblood
+  - gold
+  quote_excerpt_short: they could still be Hogwarts age
+  source_note: Snatchers use apparent Hogwarts age, blood status, House knowledge, wanted lists, and the Voldemort-name Taboo to sort captives for Ministry or Death Eater rewards.
+  reference_type: school_rule_or_policy
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - snatchers
+  - taboo
+  - hogwarts-age
+  - school-age-youth
+  - blood-status
+  - house-system
+  - second-war
+  candidate_part: Part III - The War Beyond The Gates
+  candidate_chapter: Muggle-Born Persecution And Wartime Student Risk
+  candidate_section: Snatcher triage by school age, House claims, and Taboo exposure
+  reason_for_placement: The passage directly links wartime capture practices to Hogwarts-age fugitives, blood-status enforcement, and House-identity assumptions outside the school.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain why absence from Hogwarts and even claims about House membership became dangerous during the Snape-Carrow year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch19-007
+    - dh-ch22-007
+    notes: dh-ch19-007 covers Snatcher rewards for school-age fugitives, and dh-ch22-007 covers the immediate Taboo breach; this entry adds on-scene identity triage, House testing, and the captive haul classification.
+  confidence: high
+  limitations: The enforcement process is observed through Snatcher dialogue rather than a written Ministry policy.
+- id: dh-ch23-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3364
+  printed_page: null
+  extracted_text_lines: 266-283; 316-324
+  text_anchor:
+    start_phrase: wrought-iron gates at the foot
+    end_phrase: more portraits against the dark purple walls
+    local_occurrence_note: The captives arrive at Malfoy Manor, pass the speaking gates, cross the portrait-lined hall, and enter the drawing room.
+  nearby_context: Greyback reports Harry's capture at the enchanted gate, which opens; the captives are then brought through a pure-blood household with portraits and formal rooms.
+  match_terms:
+  - Malfoy Manor
+  - wrought-iron gates
+  - portraits
+  - albino peacock
+  - drawing room
+  - pure-blood household
+  quote_excerpt_short: State your purpose!
+  source_note: Malfoy Manor confirms its sentient gate access control, portrait-lined interior, and status as Voldemort's temporary base for receiving captured Harry.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - malfoy-manor
+  - magical-architecture
+  - warded-gates
+  - portraits
+  - pure-blood-households
+  - voldemort-base
+  - second-war
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Pure-Blood Families and School Influence
+  candidate_section: Malfoy Manor security and portrait culture under wartime occupation
+  reason_for_placement: The Malfoys are a Hogwarts-governing and student family; their manor shows elite household protections and cultural markers that shaped the school's surrounding power network.
+  relevance_to_hogwarts_a_history: Useful as a later-editorial comparison point for magical access control, portrait culture, and the domestic base of a family repeatedly involved in Hogwarts affairs.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch01-001
+    notes: dh-ch01-001 records the manor gates and portraits during the Death Eater meeting; this entry adds the gate challenge under capture conditions, prisoner processing, and Voldemort-base context.
+  confidence: high
+  limitations: The manor is not a Hogwarts site, and the passage does not define the gate enchantment's full rules.
+- id: dh-ch23-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3369
+  printed_page: null
+  extracted_text_lines: 435-462; 603-613; 728-746
+  text_anchor:
+    start_phrase: Do not touch it, we shall all perish
+    end_phrase: touched her forefinger to the Dark Mark
+    local_occurrence_note: Bellatrix stops Lucius from summoning Voldemort when she sees the Sword of Gryffindor, interrogates its provenance, and later calls him after Griphook lies.
+  nearby_context: Bellatrix is terrified because Snape sent a sword to her Gringotts vault, Hermione claims the captured sword is a copy, and Griphook falsely confirms it as fake.
+  match_terms:
+  - Sword of Gryffindor
+  - Gringotts vault
+  - Bellatrix Lestrange
+  - fake sword
+  - Griphook
+  - Dark Mark
+  quote_excerpt_short: Snape sent it to my vault in Gringotts!
+  source_note: Bellatrix's panic proves that a Sword of Gryffindor copy was stored in her Gringotts vault and that the real sword's whereabouts created high-stakes Death Eater vulnerability.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - sword-of-gryffindor
+  - gringotts
+  - bellatrix-lestrange
+  - fake-sword
+  - griphook
+  - founder-relics
+  - death-eaters
+  candidate_part: The Four Houses
+  candidate_chapter: Founders' Relics and Legacies
+  candidate_section: Sword custody, Gringotts vault panic, and false authentication
+  reason_for_placement: The passage directly extends the custody history of Godric Gryffindor's sword and shows why its authenticity mattered to Voldemort's inner circle.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that a founder relic's true location became a wartime secret with consequences beyond Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch15-006
+    notes: dh-ch15-006 establishes the fake Gringotts sword and the real sword's goblin-made properties; this entry adds Bellatrix's direct vault testimony, panic, torture, and Griphook's false authentication scene.
+  confidence: high
+  limitations: Bellatrix does not explain when Snape placed the copy in her vault or what Voldemort told her about the sword.
+- id: dh-ch23-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3372
+  printed_page: null
+  extracted_text_lines: 520-557; 570-578; 590-598
+  text_anchor:
+    start_phrase: Luna, can you help us get these ropes off?
+    end_phrase: Malfoy Manor, help us!
+    local_occurrence_note: Inside the cellar, Luna frees the tied prisoners, Ollivander is found barely mobile, the cellar is described as escape-proof, and Harry calls for help through the mirror shard.
+  nearby_context: The captives include Harry, Ron, Dean, Luna, Ollivander, and Griphook while Hermione is tortured overhead about the sword and Gringotts vault.
+  match_terms:
+  - Luna Lovegood
+  - Ollivander
+  - Dean Thomas
+  - Griphook
+  - escape-proof cellar
+  - mirror shard
+  - Malfoy Manor
+  quote_excerpt_short: The cellar is completely escape-proof
+  source_note: Malfoy Manor's cellar confines Hogwarts-age and Hogwarts-linked prisoners, including Luna, Dean, Ollivander, and Griphook, until outside help is summoned through the mirror shard.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - malfoy-manor
+  - cellar
+  - luna-lovegood
+  - ollivander
+  - dean-thomas
+  - griphook
+  - security
+  candidate_part: Part III - The War Beyond The Gates
+  candidate_chapter: The Second War and Hogwarts-Connected Captives
+  candidate_section: Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
+  reason_for_placement: The passage gathers several Hogwarts-connected prisoners in a Death Eater household and shows the limits of ordinary escape attempts.
+  relevance_to_hogwarts_a_history: A later edition can use this as context for Luna's abduction, student resistance costs, and Ollivander's captivity in the final-war wandlore thread.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch05-007
+    - dh-ch21-007
+    notes: dh-ch05-007 records Ollivander being tortured by Voldemort, and dh-ch21-007 records Luna's abduction pressure on The Quibbler; this entry adds their shared cellar imprisonment with Dean and Griphook.
+  confidence: medium
+  limitations: The exact enchantments making the cellar escape-proof are not specified, and Luna's statement reflects prisoner experience.
+- id: dh-ch23-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3374
+  printed_page: null
+  extracted_text_lines: 623-671; 799-839; 852-880
+  text_anchor:
+    start_phrase: revealing Dobby the house-elf
+    end_phrase: the elf became quite still
+    local_occurrence_note: Dobby Apparates into the cellar, evacuates prisoners to Shell Cottage, returns, disarms Narcissa, declares himself free, and is fatally struck during the final escape.
+  nearby_context: Dobby rescues Luna, Dean, and Ollivander first, returns for Harry and the others, drops the chandelier, takes Narcissa's wand, and helps Harry, Griphook, and the sword escape.
+  match_terms:
+  - Dobby
+  - house-elf
+  - Disapparate
+  - humans
+  - free elf
+  - Narcissa's wand
+  - Shell Cottage
+  quote_excerpt_short: Dobby is a free elf
+  source_note: Dobby's free house-elf magic bypasses the escape-proof cellar, transports humans, removes a witch's wand, and carries fugitives to Shell Cottage at the cost of his life.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - dobby
+  - house-elves
+  - house-elf-magic
+  - apparition
+  - free-elf
+  - shell-cottage
+  - magical-transport
+  candidate_part: Peoples, Beings, and Magical Society
+  candidate_chapter: House-Elves, Service, and Wizarding Households
+  candidate_section: Free elf agency and exceptional transport magic
+  reason_for_placement: The scene directly demonstrates house-elf travel and agency under extreme conditions, extending earlier Hogwarts and Malfoy-household house-elf evidence.
+  relevance_to_hogwarts_a_history: A later edition can use this to qualify school anti-Apparition rules and house-elf service discussions with evidence for free elf autonomy and transport exceptions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch10-006
+    - hbp-ch19-007
+    - cos-ch18-006
+    notes: dh-ch10-006 covers house-elf exceptions to anti-Apparition, hbp-ch19-007 covers Dobby's free service and school surveillance, and cos-ch18-006 covers manumission; this entry adds Dobby's free rescue from Malfoy Manor and fatal Shell Cottage arrival.
+  confidence: high
+  limitations: The event is off campus and extraordinary, so it should not be treated as normal Hogwarts kitchen-elf procedure.
+- id: dh-ch23-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3377
+  printed_page: null
+  extracted_text_lines: 684-727
+  text_anchor:
+    start_phrase: Stand back, came Wormtail's voice
+    end_phrase: he gave a last twitch, and was still
+    local_occurrence_note: Wormtail enters the cellar, briefly hesitates when Harry invokes the life debt, and Voldemort's silver hand strangles him after Ron takes his wand.
+  nearby_context: Harry and Ron ambush Wormtail while trying to escape the cellar; the silver hand reacts to Pettigrew's moment of mercy and kills its disarmed owner.
+  match_terms:
+  - Wormtail
+  - Pettigrew
+  - silver hand
+  - life debt
+  - Voldemort
+  - wandless
+  - Relashio
+  quote_excerpt_short: The silver fingers slackened
+  source_note: Pettigrew's Voldemort-made silver hand enforces loyalty by killing him after a brief merciful hesitation toward Harry, who invokes the life debt from his Hogwarts-era capture.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - pettigrew
+  - wormtail
+  - silver-hand
+  - life-debt
+  - voldemort
+  - dark-artifacts
+  - magical-combat
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Dark Artifacts, Oaths, and Wartime Punishments
+  candidate_section: Wormtail's silver hand and the cost of mercy
+  reason_for_placement: The event resolves a Hogwarts-connected betrayal thread and shows how Voldemort's magic punishes disloyalty even without a formal school setting.
+  relevance_to_hogwarts_a_history: A later edition can cross-reference Pettigrew's Shrieking Shack exposure, Harry's decision to spare him, and the final-war consequences of that mercy.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found broad Wormtail and Voldemort entries but no prior entry recording the silver hand turning on Pettigrew after his moment of mercy.
+  confidence: medium
+  limitations: The link to Harry's earlier mercy is explicit in dialogue but the mechanics of the silver hand are inferred from the observed action.
+- id: dh-ch23-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Three - Malfoy Manor
+  chapter_start_pdf_page: 3356
+  chapter_end_pdf_page: 3382
+  pdf_page: 3376
+  printed_page: null
+  extracted_text_lines: 288-295; 661-665; 747-756
+  text_anchor:
+    start_phrase: So, you have come
+    end_phrase: That wand will never, ever be yours
+    local_occurrence_note: Harry's scar visions show Voldemort confronting the imprisoned Grindelwald, who denies possessing the sought wand and is killed after refusing him.
+  nearby_context: The vision alternates with the Malfoy Manor crisis; Voldemort is in a fortresslike tower-prison while Bellatrix summons him over Harry's capture.
+  match_terms:
+  - Grindelwald
+  - Nurmengard
+  - Voldemort
+  - Elder Wand
+  - wand
+  - prison
+  - Dumbledore
+  quote_excerpt_short: That wand will never, ever be yours
+  source_note: Voldemort reaches the imprisoned Grindelwald during the Elder Wand search; Grindelwald denies having it, welcomes death, and is killed after refusing to help.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - grindelwald
+  - nurmengard
+  - elder-wand
+  - voldemort
+  - wandlore
+  - dumbledore
+  - magical-history
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Dumbledore and the First Wizarding War
+  candidate_section: Grindelwald's imprisonment, refusal, and Elder Wand trail
+  reason_for_placement: The passage supplies direct later evidence for Grindelwald's post-defeat imprisonment and his final role in the Elder Wand chain tied to Dumbledore's legacy.
+  relevance_to_hogwarts_a_history: A later edition can use this to connect Dumbledore's defeat of Grindelwald, Nurmengard, and the final ownership trail of the Elder Wand.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch14-007
+    - dh-ch18-007
+    - dh-ch22-005
+    notes: dh-ch14-007 records the stolen-object trail, dh-ch18-007 records Nurmengard and Grindelwald context, and dh-ch22-005 records Voldemort's Elder Wand pursuit; this entry adds Voldemort's direct prison visit and Grindelwald's death refusal.
+  confidence: medium
+  limitations: The scene is perceived through Harry's scar connection, and this chapter does not name the old prisoner in the extracted text itself.
