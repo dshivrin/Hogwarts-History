@@ -1,0 +1,338 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Two - The Deathly Hallows
+  chapter_start_pdf_page: 3337
+  chapter_end_pdf_page: 3355
+  boundary_confidence: high
+  boundary_notes: "Processing-state supplied an inclusive page range. Extraction used only PDF pages 3337-3355."
+  processed_date: "2026-08-07"
+  processor_notes: "Routine bounded extraction; no explicit Hogwarts: A History references found."
+
+entries:
+  - id: dh-ch22-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3342
+    printed_page: null
+    extracted_text_lines: "171-184"
+    text_anchor:
+      start_phrase: "Where d'you reckon the ring is now?"
+      end_phrase: "would he be safe?"
+      local_occurrence_note: "Harry reframes the Hallows as an alternative strategic answer to the Horcrux mission."
+    nearby_context: "The trio have connected the Peverell name, the Gaunt ring, and the Hallows story while Hermione resists the theory."
+    match_terms:
+      - Deathly Hallows
+      - Horcruxes
+      - master of Death
+      - prophecy
+      - Dumbledore
+      - Resurrection Stone
+    quote_excerpt_short: "Hallows versus Horcruxes?"
+    source_note: "Harry interprets the three Hallows as a possible counterweight to Voldemort's Horcruxes and links mastery of death to his prophetic confrontation."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - deathly-hallows
+      - horcruxes
+      - master-of-death
+      - prophecy
+      - harry-potter
+      - dumbledore-plan
+      - magical-artifacts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Deathly Hallows and the Horcrux War
+    candidate_section: Harry's Hallows-versus-Horcruxes interpretation
+    reason_for_placement: "The passage records a wartime interpretation that connects older Hallows lore to Harry's mission against Voldemort."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a cautionary note on how Dumbledore's bequest and ancient artifact lore temporarily competed with the Horcrux search."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-003
+      notes: "dh-ch21-003 defines the Hallows triad and master-of-Death claim; this entry records Harry applying that claim to the Horcrux mission."
+    confidence: medium
+    limitations: "This is Harry's inference during heightened stress, not a neutral historical conclusion."
+
+  - id: dh-ch22-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3340
+    printed_page: null
+    extracted_text_lines: "103-129"
+    text_anchor:
+      start_phrase: "So that Peverell bloke"
+      end_phrase: "he nearly shoved it up his nose"
+      local_occurrence_note: "Hermione reports her genealogy lookup, and Harry recalls Marvolo Gaunt's Peverell descent claim."
+    nearby_context: "The trio are testing whether the Hallows story can be linked to known family records and Voldemort's ring Horcrux."
+    match_terms:
+      - Peverell
+      - Nature's Nobility
+      - Wizarding Genealogy
+      - Marvolo Gaunt
+      - Horcrux ring
+      - pure-blood families
+    quote_excerpt_short: "the Peverells were one of the earliest families"
+    source_note: "Hermione finds the Peverells in Nature's Nobility as an extinct male-line pure-blood family, while Harry recalls Gaunt claiming Peverell descent through the ring."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - peverell-family
+      - gaunt-family
+      - nature-s-nobility
+      - wizarding-genealogy
+      - pure-blood-families
+      - resurrection-stone
+      - horcruxes
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Old Wizarding Families and Artifact Inheritance
+    candidate_section: Peverell descent through vanished male lines
+    reason_for_placement: "The passage ties old wizarding genealogy to artifact transmission across surnames and to Voldemort's family history."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a source trail for the Peverells, the Gaunts, and the limits of pure-blood genealogical records."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-006
+      notes: "dh-ch21-006 records Xenophilius's Peverell-origin claim; this entry adds Hermione's genealogy lookup and Harry's Gaunt-ring connection."
+    confidence: high
+    limitations: "The Peverell-Hallows connection remains partly inferential at this point, and Nature's Nobility is summarized rather than quoted directly."
+
+  - id: dh-ch22-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3342
+    printed_page: null
+    extracted_text_lines: "186-202"
+    text_anchor:
+      start_phrase: "he had pulled out his Invisibility Cloak"
+      end_phrase: "It all makes sense!"
+      local_occurrence_note: "Harry handles the Cloak, compares it to Xenophilius's description, and infers Dumbledore borrowed it to examine it."
+    nearby_context: "Harry is trying to prove that the Hallows are not merely a fairy-tale system but actual inherited artifacts."
+    match_terms:
+      - Invisibility Cloak
+      - Ignotus Peverell
+      - Dumbledore
+      - Disillusionment Charm
+      - third Hallow
+      - Potter inheritance
+    quote_excerpt_short: "Dumbledore had my Cloak"
+    source_note: "Harry identifies his inherited Cloak as fitting the true-Hallow description, recalls that Dumbledore borrowed it, and infers descent from Ignotus Peverell."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - invisibility-cloak
+      - ignotus-peverell
+      - deathly-hallows
+      - dumbledore
+      - potter-family
+      - disillusionment-charm
+      - artifact-provenance
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Potter Cloak provenance and Dumbledore's examination
+    reason_for_placement: "The passage links a known school-era object to older Peverell lore and Dumbledore's pre-1981 interest."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference the Cloak as a rare artifact passing through a Hogwarts family line and examined by a Hogwarts headmaster."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-004
+        - dh-ch21-006
+      notes: "dh-ch21-004 records the true-Cloak properties, and dh-ch21-006 records the Peverell provenance claim; this entry connects those claims to Harry's inherited Cloak."
+    confidence: medium
+    limitations: "Harry's conclusion is later-significant but here still rests on inference from Lily's letter, the grave, and Xenophilius's description."
+
+  - id: dh-ch22-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3343
+    printed_page: null
+    extracted_text_lines: "214-224; 294-296; 313-317"
+    text_anchor:
+      start_phrase: "Something fell to the floor"
+      end_phrase: "the golden ball would not open"
+      local_occurrence_note: "Harry repeatedly tries to connect Dumbledore's Snitch bequest with the Gaunt ring and Resurrection Stone."
+    nearby_context: "Harry has just argued that his Cloak is the third Hallow and now tries to locate the second."
+    match_terms:
+      - Snitch
+      - Resurrection Stone
+      - ring
+      - I open at the close
+      - Dumbledore bequest
+      - Hallows
+    quote_excerpt_short: "it's in the Snitch"
+    source_note: "Harry suspects Dumbledore hid the broken Gaunt ring, and therefore the Resurrection Stone, inside the Snitch whose inscription still resists opening."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - resurrection-stone
+      - golden-snitch
+      - dumbledore-bequest
+      - gaunt-ring
+      - deathly-hallows
+      - artifact-provenance
+      - magical-seals
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Snitch bequest and suspected Stone concealment
+    reason_for_placement: "The passage records the first explicit attempt to explain the Snitch bequest as Hallows-related artifact concealment."
+    relevance_to_hogwarts_a_history: "A later edition can treat this as a wartime clue about Dumbledore's handling of founder-adjacent and Peverell-linked artifacts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-003
+      notes: "dh-ch21-003 defines the Resurrection Stone as one Hallow; this entry records Harry's new inference that Dumbledore may have concealed it in the Snitch."
+    confidence: low
+    limitations: "The Snitch does not open in this chapter, so the Stone placement remains a character inference here."
+
+  - id: dh-ch22-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3343
+    printed_page: null
+    extracted_text_lines: "228-256; 264-269"
+    text_anchor:
+      start_phrase: "That's what he's after"
+      end_phrase: "just thinks it's a powerful wand"
+      local_occurrence_note: "Harry concludes that Voldemort seeks the Elder Wand while not understanding the full Hallows system."
+    nearby_context: "Harry's Hallows synthesis has just shifted from personal artifact inheritance to Voldemort's overseas wand search."
+    match_terms:
+      - Elder Wand
+      - Voldemort
+      - Beedle the Bard
+      - Wizarding secret
+      - Horcrux
+      - bloody trail
+    quote_excerpt_short: "after the Elder Wand"
+    source_note: "Harry reasons that Voldemort is chasing the Elder Wand as an old powerful wand, not as one of three Hallows, because he turned another Hallow into a Horcrux."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - elder-wand
+      - voldemort
+      - deathly-hallows
+      - horcruxes
+      - beedle-the-bard
+      - wandlore
+      - magical-history
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and the Elder Wand Trail
+    candidate_section: Voldemort's partial knowledge of the Hallows
+    reason_for_placement: "The passage connects the older Elder Wand tradition to Voldemort's active wartime search and his ignorance of wider folklore."
+    relevance_to_hogwarts_a_history: "A later edition can use this as context for why a non-Hogwarts artifact quest affected the final year of the war around Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-007
+        - dh-ch21-005
+      notes: "dh-ch14-007 tracks Voldemort's Gregorovitch lead, and dh-ch21-005 gives Elder Wand provenance; this entry identifies the object as Voldemort's target and frames his partial understanding."
+    confidence: medium
+    limitations: "The identification is Harry's deduction before direct confirmation from Voldemort's viewpoint."
+
+  - id: dh-ch22-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3348
+    printed_page: null
+    extracted_text_lines: "402-449; 452-503"
+    text_anchor:
+      start_phrase: "These frequent forays into Wizarding territory"
+      end_phrase: "Every human life is worth the same"
+      local_occurrence_note: "Ron names Potterwatch, finds the Albus password, and the broadcast counters official news with coded contributors."
+    nearby_context: "The trio have spent weeks moving camps and searching possible Horcrux sites when Ron finally tunes the hidden wireless program."
+    match_terms:
+      - Potterwatch
+      - password
+      - Albus
+      - River
+      - Royal
+      - Wizarding Wireless Network News
+      - Daily Prophet
+    quote_excerpt_short: "Password was 'Albus'"
+    source_note: "Potterwatch is named as a password-protected resistance broadcast using code names, mobile secure locations, casualty reports, and counter-propaganda against the Ministry-aligned news."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - potterwatch
+      - wireless
+      - resistance-media
+      - passwords
+      - ministry-propaganda
+      - order-of-the-phoenix
+      - muggle-protection
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Information Climate
+    candidate_section: Potterwatch as passworded counter-news
+    reason_for_placement: "The passage provides a named primary wartime information source and shows its operational security and editorial agenda."
+    relevance_to_hogwarts_a_history: "A later edition can cite Potterwatch for how Hogwarts-connected resistance figures challenged official narratives during the Snape-Carrow year."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch20-003
+      notes: "dh-ch20-003 records the unnamed resistance wireless program; this entry names Potterwatch and adds the broadcast transcript, passwords, codenames, and casualty content."
+    confidence: high
+    limitations: "The source is partisan resistance media, though several contributors are identifiable Order members."
+
+  - id: dh-ch22-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Two - The Deathly Hallows
+    chapter_start_pdf_page: 3337
+    chapter_end_pdf_page: 3355
+    pdf_page: 3352
+    printed_page: null
+    extracted_text_lines: "529-557; 613-631"
+    text_anchor:
+      start_phrase: "our usual update on those friends of Harry Potter"
+      end_phrase: "half a dozen wands pointing at you"
+      local_occurrence_note: "The broadcast reports Hogwarts resistance consequences, and Harry's spoken name-trigger breach immediately exposes the camp."
+    nearby_context: "Potterwatch has just encouraged listeners and reported censored deaths before moving to supporters of Harry."
+    match_terms:
+      - Hagrid
+      - Hogwarts School
+      - Support Harry Potter
+      - Potterwatch
+      - Taboo
+      - Snatchers
+      - Sneakoscope
+    quote_excerpt_short: "has narrowly escaped arrest"
+    source_note: "Potterwatch reports Hagrid's rumored Support Harry Potter party and escape from Hogwarts arrest; moments later, saying Voldemort's name triggers the Taboo and brings armed attackers."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts
+      - hagrid
+      - potterwatch
+      - student-resistance
+      - taboo
+      - snatchers
+      - wartime-security
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Hogwarts Under the Carrows
+    candidate_section: Public support, arrests, and Taboo exposure
+    reason_for_placement: "The passage combines rare off-campus evidence of Hogwarts-ground resistance with a direct demonstration of speech-based wartime tracking."
+    relevance_to_hogwarts_a_history: "A later edition can use this to connect Hogwarts resistance culture, fugitive information channels, and the risks imposed by Voldemort's Taboo."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch20-001
+        - dh-ch19-007
+      notes: "dh-ch20-001 defines the Taboo mechanism, and dh-ch19-007 covers Snatcher rewards; this entry adds the immediate Taboo-triggered breach after a Hogwarts resistance report."
+    confidence: medium
+    limitations: "The Hagrid report is framed as rumor on Potterwatch, while the Taboo breach is directly observed at the camp."

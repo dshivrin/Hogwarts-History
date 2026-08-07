@@ -7708,6 +7708,20 @@ Summary: The available evidence includes 1 source item, led by: The passage iden
   - Reference type: explicit_in_universe_source
   - Notes: Muriel's claims about what Bathilda told Skeeter are speculative; Doge also questions reliability if Bathilda's memory is failing.
 
+### Chapter: Old Wizarding Families and Artifact Inheritance
+
+#### Section: Peverell descent through vanished male lines
+
+Summary: The available evidence includes 1 source item, led by: Hermione finds the Peverells in Nature's Nobility as an extinct male-line pure-blood family, while Harry recalls Gaunt claiming Peverell descent through the ring.
+
+- **Corroboration:** Hermione finds the Peverells in Nature's Nobility as an extinct male-line pure-blood family, while Harry recalls Gaunt claiming Peverell descent through the ring.
+  - Quote: "the Peverells were one of the earliest families"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3340, `dh-ch22-002`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch21-006`. dh-ch21-006 records Xenophilius's Peverell-origin claim; this entry adds Hermione's genealogy lookup and Harry's Gaunt-ring connection.
+  - Notes: The Peverell-Hallows connection remains partly inferential at this point, and Nature's Nobility is summarized rather than quoted directly.
+
 ### Chapter: Tom Riddle Before Hogwarts
 
 #### Section: Gaunt convictions and Voldemort's maternal line
@@ -9235,6 +9249,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: historical_claim
   - Notes: Hagrid's Hogwarts office is not stated in this chapter, so the institutional connection depends on later sources.
 
+### Chapter: Hogwarts Under the Carrows
+
+#### Section: Public support, arrests, and Taboo exposure
+
+Summary: The available evidence includes 1 source item, led by: Potterwatch reports Hagrid's rumored Support Harry Potter party and escape from Hogwarts arrest; moments later, saying Voldemort's name triggers the Taboo and brings armed attackers.
+
+- **Corroboration:** Potterwatch reports Hagrid's rumored Support Harry Potter party and escape from Hogwarts arrest; moments later, saying Voldemort's name triggers the Taboo and brings armed attackers.
+  - Quote: "has narrowly escaped arrest"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3352, `dh-ch22-007`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch20-001`, `dh-ch19-007`. dh-ch20-001 defines the Taboo mechanism, and dh-ch19-007 covers Snatcher rewards; this entry adds the immediate Taboo-triggered breach after a Hogwarts resistance report.
+  - Notes: The Hagrid report is framed as rumor on Potterwatch, while the Taboo breach is directly observed at the camp.
+
 ### Chapter: House-Elves and Hogwarts Labor
 
 #### Section: Student Activism and Kitchen Access
@@ -10084,6 +10112,20 @@ Summary: The available evidence includes 1 source item, led by: Dobby claims he 
   - Reference type: security_or_protection
   - Notes: Dobby withholds the source, agent, and exact nature of the plot in this chapter.
 
+### Chapter: The Deathly Hallows and the Horcrux War
+
+#### Section: Harry's Hallows-versus-Horcruxes interpretation
+
+Summary: The available evidence includes 1 source item, led by: Harry interprets the three Hallows as a possible counterweight to Voldemort's Horcruxes and links mastery of death to his prophetic confrontation.
+
+- **Corroboration:** Harry interprets the three Hallows as a possible counterweight to Voldemort's Horcruxes and links mastery of death to his prophetic confrontation.
+  - Quote: "Hallows versus Horcruxes?"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3342, `dh-ch22-001`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch21-003`. dh-ch21-003 defines the Hallows triad and master-of-Death claim; this entry records Harry applying that claim to the Horcrux mission.
+  - Notes: This is Harry's inference during heightened stress, not a neutral historical conclusion.
+
 ### Chapter: The Fall of Voldemort
 
 #### Section: Harry Potter's Fame at Hogwarts
@@ -10257,6 +10299,18 @@ Summary: The available evidence includes 1 source item, led by: A wartime wirele
   - Classification: later_editorial_note | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The program is not yet named in this chapter, and the passage gives no broadcast transcript.
+
+#### Section: Potterwatch as passworded counter-news
+
+Summary: The available evidence includes 1 source item, led by: Potterwatch is named as a password-protected resistance broadcast using code names, mobile secure locations, casualty reports, and counter-propaganda against the Ministry-aligned news.
+
+- **Corroboration:** Potterwatch is named as a password-protected resistance broadcast using code names, mobile secure locations, casualty reports, and counter-propaganda against the Ministry-aligned news.
+  - Quote: "Password was 'Albus'"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3348, `dh-ch22-006`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch20-003`. dh-ch20-003 records the unnamed resistance wireless program; this entry names Potterwatch and adds the broadcast transcript, passwords, codenames, and casualty content.
+  - Notes: The source is partisan resistance media, though several contributors are identifiable Order members.
 
 #### Section: Public prophecy rumors after the Department of Mysteries
 
@@ -10544,6 +10598,20 @@ Summary: The available evidence includes 1 source item, led by: Harry treats Dum
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: security_or_protection
   - Notes: The passage does not state the precise protective arrangement or whether it was coordinated with the Ministry, the Order, or the Weasley household.
+
+### Chapter: The Second War and the Elder Wand Trail
+
+#### Section: Voldemort's partial knowledge of the Hallows
+
+Summary: The available evidence includes 1 source item, led by: Harry reasons that Voldemort is chasing the Elder Wand as an old powerful wand, not as one of three Hallows, because he turned another Hallow into a Horcrux.
+
+- **Corroboration:** Harry reasons that Voldemort is chasing the Elder Wand as an old powerful wand, not as one of three Hallows, because he turned another Hallow into a Horcrux.
+  - Quote: "after the Elder Wand"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3343, `dh-ch22-005`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch14-007`, `dh-ch21-005`. dh-ch14-007 tracks Voldemort's Gregorovitch lead, and dh-ch21-005 gives Elder Wand provenance; this entry identifies the object as Voldemort's target and frames his partial understanding.
+  - Notes: The identification is Harry's deduction before direct confirmation from Voldemort's viewpoint.
 
 ### Chapter: The Sirius Black Crisis
 
@@ -12975,6 +13043,30 @@ Summary: The available evidence includes 1 source item, led by: A true Cloak of 
   - Notes: The technical taxonomy comes from Xenophilius; Ron's later comparison supports but does not fully test every claimed property.
 
 ### Chapter: The Deathly Hallows
+
+#### Section: Potter Cloak provenance and Dumbledore's examination
+
+Summary: The available evidence includes 1 source item, led by: Harry identifies his inherited Cloak as fitting the true-Hallow description, recalls that Dumbledore borrowed it, and infers descent from Ignotus Peverell.
+
+- **Corroboration:** Harry identifies his inherited Cloak as fitting the true-Hallow description, recalls that Dumbledore borrowed it, and infers descent from Ignotus Peverell.
+  - Quote: "Dumbledore had my Cloak"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3342, `dh-ch22-003`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch21-004`, `dh-ch21-006`. dh-ch21-004 records the true-Cloak properties, and dh-ch21-006 records the Peverell provenance claim; this entry connects those claims to Harry's inherited Cloak.
+  - Notes: Harry's conclusion is later-significant but here still rests on inference from Lily's letter, the grave, and Xenophilius's description.
+
+#### Section: Snitch bequest and suspected Stone concealment
+
+Summary: The available evidence includes 1 source item, led by: Harry suspects Dumbledore hid the broken Gaunt ring, and therefore the Resurrection Stone, inside the Snitch whose inscription still resists opening.
+
+- **Corroboration:** Harry suspects Dumbledore hid the broken Gaunt ring, and therefore the Resurrection Stone, inside the Snitch whose inscription still resists opening.
+  - Quote: "it's in the Snitch"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, PDF p. 3343, `dh-ch22-004`, `sources/book-07/chapter-22-the-deathly-hallows.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch21-003`. dh-ch21-003 defines the Resurrection Stone as one Hallow; this entry records Harry's new inference that Dumbledore may have concealed it in the Snitch.
+  - Notes: The Snitch does not open in this chapter, so the Stone placement remains a character inference here.
 
 #### Section: Three artifacts and the master-of-Death claim
 

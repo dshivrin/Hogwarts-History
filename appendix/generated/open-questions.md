@@ -443,3 +443,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Which later source explains Dumbledore's "Remember my last" Howler to Petunia and how should that explanation be cross-referenced with Harry's Privet Drive protection? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `privet-drive`, `howler`, `blood-protection`, `petunia-dursley`; related: `ootp-ch02-006`)
 - Which later passage names and explains the concealment protecting number twelve, Grimmauld Place, and how should Dumbledore's note be cross-referenced with the headquarters arrival? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `grimmauld-place`, `order-of-the-phoenix`, `secret-headquarters`, `dumbledore`; related: `ootp-ch03-006`, `ootp-ch04-001`)
 - Which later passage identifies who ordered the Dementors into Little Whinging, and how should that explanation be cross-referenced with the Ministry control arguments at Harry's hearing? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `dementors`, `little-whinging`, `ministry-control`, `dolores-umbridge`; related: `ootp-ch08-006`, `ootp-ch01-004`)
+
+## Generated From Low-Confidence Entries
+
+- `dh-ch22-004` (Chapter Twenty-Two - The Deathly Hallows): The Snitch does not open in this chapter, so the Stone placement remains a character inference here.

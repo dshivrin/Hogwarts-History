@@ -627,6 +627,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Umbridge's Opening Speech and Ministry Interference
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
+- Hogwarts Under the Carrows
+  - Public support, arrests, and Taboo exposure
 - House-Elves and Hogwarts
   - Clothing, Dismissal, and Servitude Norms
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
@@ -732,6 +734,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
+- The Deathly Hallows and the Horcrux War
+  - Harry's Hallows-versus-Horcruxes interpretation
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
 - The Second War and Defensive Magic
@@ -752,6 +756,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hostage pressure and reversal of The Quibbler
   - Ministry acknowledgement and Dumbledore's reinstatement
   - Password-protected resistance broadcasts
+  - Potterwatch as passworded counter-news
   - Public prophecy rumors after the Department of Mysteries
   - Public prophecy rumors entering student life
   - Student and staff workarounds under information control
@@ -785,6 +790,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Death Eater service versus Hogwarts qualifications
 - The Second War and Student Protection
   - Off-campus protection under Dumbledore's direction
+- The Second War and the Elder Wand Trail
+  - Voldemort's partial knowledge of the Hallows
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
 - The Triwizard Tournament Revival
@@ -1035,6 +1042,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Cloaks, Concealment, and Anti-Detection
   - True Invisibility Cloaks versus lesser concealment cloaks
 - The Deathly Hallows
+  - Potter Cloak provenance and Dumbledore's examination
+  - Snitch bequest and suspected Stone concealment
   - Three artifacts and the master-of-Death claim
 - Wand Ownership and Compatibility
   - Elder Wand provenance and alternate names
@@ -1095,6 +1104,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Longbottom Aurors and Bellatrix Lestrange
 - Godric's Hollow and the Dumbledore Family
   - Bathilda Bagshot as Neighbor and Historical Source
+- Old Wizarding Families and Artifact Inheritance
+  - Peverell descent through vanished male lines
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
   - Voldemort's memory of the Potter cottage attack

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-06'
+updated: '2026-08-07'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -18352,6 +18352,115 @@ by_entry:
     - wizarding-press
     source_unit: dh-ch21
     output_yaml: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  dh-ch22-001:
+    title: 'The Deathly Hallows and the Horcrux War: Harry''s Hallows-versus-Horcruxes
+      interpretation'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - deathly-hallows
+    - dumbledore-plan
+    - harry-potter
+    - horcruxes
+    - magical-artifacts
+    - master-of-death
+    - prophecy
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch22-002:
+    title: 'Old Wizarding Families and Artifact Inheritance: Peverell descent through
+      vanished male lines'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - gaunt-family
+    - horcruxes
+    - nature-s-nobility
+    - peverell-family
+    - pure-blood-families
+    - resurrection-stone
+    - wizarding-genealogy
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch22-003:
+    title: 'The Deathly Hallows: Potter Cloak provenance and Dumbledore''s examination'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - artifact-provenance
+    - deathly-hallows
+    - disillusionment-charm
+    - dumbledore
+    - ignotus-peverell
+    - invisibility-cloak
+    - potter-family
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch22-004:
+    title: 'The Deathly Hallows: Snitch bequest and suspected Stone concealment'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: low
+    tags:
+    - artifact-provenance
+    - deathly-hallows
+    - dumbledore-bequest
+    - gaunt-ring
+    - golden-snitch
+    - magical-seals
+    - resurrection-stone
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch22-005:
+    title: 'The Second War and the Elder Wand Trail: Voldemort''s partial knowledge
+      of the Hallows'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - beedle-the-bard
+    - deathly-hallows
+    - elder-wand
+    - horcruxes
+    - magical-history
+    - voldemort
+    - wandlore
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch22-006:
+    title: 'The Second War and Hogwarts Information Climate: Potterwatch as passworded
+      counter-news'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - ministry-propaganda
+    - muggle-protection
+    - order-of-the-phoenix
+    - passwords
+    - potterwatch
+    - resistance-media
+    - wireless
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  dh-ch22-007:
+    title: 'Hogwarts Under the Carrows: Public support, arrests, and Taboo exposure'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - hagrid
+    - hogwarts
+    - potterwatch
+    - snatchers
+    - student-resistance
+    - taboo
+    - wartime-security
+    source_unit: dh-ch22
+    output_yaml: sources/book-07/chapter-22-the-deathly-hallows.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18654,6 +18763,8 @@ by_tag:
   artifact-provenance:
   - dh-ch21-005
   - dh-ch21-006
+  - dh-ch22-003
+  - dh-ch22-004
   assassination-attempt:
   - hbp-ch18-007
   assessment:
@@ -18864,6 +18975,7 @@ by_tag:
   beedle-the-bard:
   - dh-ch20-004
   - dh-ch21-002
+  - dh-ch22-005
   bell-jar:
   - ootp-ch34-007
   - ootp-ch35-004
@@ -20021,6 +20133,10 @@ by_tag:
   - dh-ch21-003
   - dh-ch21-004
   - dh-ch21-006
+  - dh-ch22-001
+  - dh-ch22-003
+  - dh-ch22-004
+  - dh-ch22-005
   deathly-hallows-symbol:
   - dh-ch16-007
   deathstick:
@@ -20305,6 +20421,7 @@ by_tag:
   - dh-ch16-005
   disillusionment-charm:
   - dh-ch21-004
+  - dh-ch22-003
   - hbp-ch03-003
   - ootp-ch03-005
   - ootp-ch04-002
@@ -20481,6 +20598,7 @@ by_tag:
   - dh-ch10-003
   - dh-ch11-005
   - dh-ch15-002
+  - dh-ch22-003
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -20615,6 +20733,8 @@ by_tag:
   - ps-ch17-003
   dumbledore-absences:
   - hbp-ch25-006
+  dumbledore-bequest:
+  - dh-ch22-004
   dumbledore-biography:
   - dh-ch11-006
   - dh-ch17-004
@@ -20657,6 +20777,8 @@ by_tag:
   - ootp-ch11-004
   - ootp-ch22-001
   - ootp-ch37-001
+  dumbledore-plan:
+  - dh-ch22-001
   dumbledore-portrait:
   - dh-ch15-007
   dumbledore-protection:
@@ -20751,6 +20873,7 @@ by_tag:
   - dh-ch14-007
   - dh-ch21-003
   - dh-ch21-005
+  - dh-ch22-005
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -21447,8 +21570,11 @@ by_tag:
   gates:
   - hbp-ch28-005
   gaunt-family:
+  - dh-ch22-002
   - hbp-ch10-006
   - hbp-ch10-007
+  gaunt-ring:
+  - dh-ch22-004
   gendered-rules:
   - ootp-ch17-002
   genealogy:
@@ -21595,6 +21721,7 @@ by_tag:
   golden-snitch:
   - dh-ch07-005
   - dh-ch16-003
+  - dh-ch22-004
   golgomath:
   - ootp-ch20-005
   golpalotts-third-law:
@@ -21882,6 +22009,7 @@ by_tag:
   - cos-ch15-005
   - cos-ch15-006
   - dh-ch05-003
+  - dh-ch22-007
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -22017,6 +22145,7 @@ by_tag:
   - dh-ch07-005
   - dh-ch11-002
   - dh-ch20-005
+  - dh-ch22-001
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -22429,6 +22558,7 @@ by_tag:
   - dh-ch15-002
   - dh-ch15-007
   - dh-ch16-002
+  - dh-ch22-007
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -22706,6 +22836,9 @@ by_tag:
   - dh-ch06-007
   - dh-ch15-002
   - dh-ch15-006
+  - dh-ch22-001
+  - dh-ch22-002
+  - dh-ch22-005
   - hbp-ch18-002
   - hbp-ch20-001
   - hbp-ch23-004
@@ -22954,6 +23087,7 @@ by_tag:
   ignotus-peverell:
   - dh-ch16-007
   - dh-ch21-006
+  - dh-ch22-003
   illegal-creature:
   - ps-ch14-004
   illegal-curses:
@@ -23136,6 +23270,7 @@ by_tag:
   - dh-ch17-003
   - dh-ch21-003
   - dh-ch21-004
+  - dh-ch22-003
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -23615,6 +23750,7 @@ by_tag:
   - dh-ch14-006
   - dh-ch21-003
   - dh-ch21-004
+  - dh-ch22-001
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -23730,6 +23866,7 @@ by_tag:
   - dh-ch18-007
   - dh-ch19-001
   - dh-ch21-005
+  - dh-ch22-005
   magical-hospital:
   - ootp-ch22-004
   magical-injury:
@@ -23835,6 +23972,8 @@ by_tag:
   - poa-ch21-003
   magical-saturation:
   - gof-ch28-003
+  magical-seals:
+  - dh-ch22-004
   magical-secrecy:
   - gof-ch08-001
   magical-security:
@@ -23997,6 +24136,7 @@ by_tag:
   - dh-ch13-006
   master-of-death:
   - dh-ch21-003
+  - dh-ch22-001
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
@@ -24309,6 +24449,7 @@ by_tag:
   ministry-propaganda:
   - dh-ch13-002
   - dh-ch20-003
+  - dh-ch22-006
   ministry-public-guidance:
   - hbp-ch03-003
   - hbp-ch04-002
@@ -24501,6 +24642,7 @@ by_tag:
   - dh-ch03-002
   muggle-protection:
   - dh-ch06-005
+  - dh-ch22-006
   - ootp-ch07-006
   muggle-raised-students:
   - hbp-ch13-004
@@ -24600,6 +24742,8 @@ by_tag:
   - ps-ch13-001
   narcissa-malfoy:
   - ootp-ch37-004
+  nature-s-nobility:
+  - dh-ch22-002
   natures-nobility:
   - dh-ch10-005
   navigation:
@@ -24844,6 +24988,7 @@ by_tag:
   - dh-ch11-005
   - dh-ch13-004
   - dh-ch20-001
+  - dh-ch22-006
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -25001,6 +25146,7 @@ by_tag:
   - cos-ch05-006
   - cos-ch12-005
   - dh-ch20-003
+  - dh-ch22-006
   - gof-ch17-007
   - gof-ch19-007
   - gof-ch22-007
@@ -25132,6 +25278,7 @@ by_tag:
   - ootp-ch37-005
   peverell-family:
   - dh-ch21-006
+  - dh-ch22-002
   peverell-ring:
   - hbp-ch10-006
   philosopher-stone-protection:
@@ -25371,9 +25518,13 @@ by_tag:
   - dh-ch16-006
   - dh-ch16-007
   - dh-ch17-006
+  - dh-ch22-003
   - gof-ch14-004
   - gof-ch34-004
   - hbp-ch25-005
+  potterwatch:
+  - dh-ch22-006
+  - dh-ch22-007
   practical-defense:
   - hbp-ch07-004
   - ootp-ch15-007
@@ -25663,6 +25814,7 @@ by_tag:
   - dh-ch11-002
   - dh-ch12-006
   prophecy:
+  - dh-ch22-001
   - gof-ch10-005
   - hbp-ch05-005
   - hbp-ch07-003
@@ -25760,6 +25912,7 @@ by_tag:
   punishments:
   - ootp-ch19-007
   pure-blood-families:
+  - dh-ch22-002
   - ootp-ch06-006
   pure-blood-households:
   - dh-ch01-001
@@ -26011,6 +26164,7 @@ by_tag:
   resistance-media:
   - dh-ch20-003
   - dh-ch20-005
+  - dh-ch22-006
   restricted-books:
   - cos-ch10-002
   - cos-ch12-004
@@ -26034,6 +26188,8 @@ by_tag:
   - ps-ch12-005
   resurrection-stone:
   - dh-ch21-003
+  - dh-ch22-002
+  - dh-ch22-004
   review-lessons:
   - ootp-ch31-001
   riddikulus:
@@ -26935,6 +27091,7 @@ by_tag:
   - hbp-ch14-001
   snatchers:
   - dh-ch19-007
+  - dh-ch22-007
   sneakoscope:
   - dh-ch14-003
   - dh-ch15-001
@@ -27462,6 +27619,7 @@ by_tag:
   - poa-ch03-004
   - ps-ch12-001
   student-resistance:
+  - dh-ch22-007
   - gof-ch34-002
   - ootp-ch26-003
   - ootp-ch30-002
@@ -27663,6 +27821,7 @@ by_tag:
   taboo:
   - dh-ch14-005
   - dh-ch20-001
+  - dh-ch22-007
   tales-of-beedle-the-bard:
   - dh-ch07-007
   - dh-ch21-002
@@ -28297,6 +28456,7 @@ by_tag:
   - dh-ch14-007
   - dh-ch17-005
   - dh-ch18-001
+  - dh-ch22-005
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -28429,6 +28589,7 @@ by_tag:
   wandlore:
   - dh-ch20-002
   - dh-ch21-005
+  - dh-ch22-005
   - gof-ch34-003
   wandmakers:
   - dh-ch08-003
@@ -28464,6 +28625,7 @@ by_tag:
   - dh-ch17-003
   - dh-ch19-002
   - dh-ch20-001
+  - dh-ch22-007
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -28592,6 +28754,7 @@ by_tag:
   - gof-ch24-005
   wireless:
   - dh-ch20-003
+  - dh-ch22-006
   wit:
   - dh-ch20-007
   witch-weekly:
@@ -28638,6 +28801,7 @@ by_tag:
   - dh-ch21-002
   wizarding-genealogy:
   - dh-ch10-005
+  - dh-ch22-002
   - ootp-ch06-001
   wizarding-heirlooms:
   - hbp-ch10-006
