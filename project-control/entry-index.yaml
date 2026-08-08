@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-07'
+updated: '2026-08-08'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -18685,6 +18685,117 @@ by_entry:
     - voldemort
     source_unit: dh-ch24
     output_yaml: sources/book-07/chapter-24-the-wandmaker.yaml
+  dh-ch25-001:
+    title: 'Information Security and Secret Keeping: Fidelius-protected refuge access
+      and emergency verification'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - bill-weasley
+    - fidelius
+    - remus-lupin
+    - safe-house
+    - secret-keeper
+    - shell-cottage
+    - wartime-security
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch25-002:
+    title: 'Founder Relics and Contested Provenance: Goblin counter-claim to the Sword
+      of Gryffindor'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relics
+    - goblin-made
+    - goblinwork
+    - godric-gryffindor
+    - griphook
+    - ragnuk-the-first
+    - sword-of-gryffindor
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch25-003:
+    title: 'Historical Memory and Non-Human Peoples: Wizarding historiography and
+      omitted harms'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - goblins
+    - hermione-granger
+    - historiography
+    - magical-races
+    - sword-of-gryffindor
+    - wizarding-history
+    - wizarding-prejudice
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch25-004:
+    title: 'Gringotts, Goblins, and Wizarding Power: Deep vault hierarchy and old-family
+      treasure protection'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - break-in-planning
+    - fake-sword
+    - gringotts
+    - lestrange-vault
+    - old-wizarding-families
+    - polyjuice-potion
+    - vault-security
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch25-005:
+    title: 'Non-Human Autonomy and Wizarding Law: Goblin maker-right and promise obligations'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - bill-weasley
+    - goblin-made
+    - goblin-ownership
+    - gringotts
+    - history-of-magic
+    - maker-right
+    - wizard-goblin-relations
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch25-006:
+    title: 'Ravenclaw Relics and Lost Knowledge: Popular reconstruction attempts for
+      the lost diadem'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - founder-relics
+    - lost-artifacts
+    - luna-lovegood
+    - ravenclaw
+    - ravenclaw-diadem
+    - rowena-ravenclaw
+    - xenophilius-lovegood
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch25-007:
+    title: 'The Second War and Hogwarts Students: Hogwarts Express abduction and hostage
+      pressure'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - abduction
+    - death-eaters
+    - hogwarts-express
+    - hostage
+    - luna-lovegood
+    - second-war
+    - student-travel
+    source_unit: dh-ch25
+    output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -18692,6 +18803,8 @@ by_tag:
   - dh-ch16-004
   - dh-ch17-001
   - dh-ch19-001
+  abduction:
+  - dh-ch25-007
   aberforth-dumbledore:
   - dh-ch02-003
   academic-assessment:
@@ -19229,6 +19342,8 @@ by_tag:
   - hbp-ch18-001
   - hbp-ch18-007
   bill-weasley:
+  - dh-ch25-001
+  - dh-ch25-005
   - hbp-ch29-001
   billywig:
   - dh-ch20-007
@@ -19375,6 +19490,8 @@ by_tag:
   - ootp-ch35-006
   brazilian-school:
   - gof-ch07-003
+  break-in-planning:
+  - dh-ch25-004
   brewing-time:
   - hbp-ch24-002
   brick-entrance:
@@ -20327,6 +20444,7 @@ by_tag:
   - dh-ch09-005
   - dh-ch11-001
   - dh-ch23-003
+  - dh-ch25-007
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -21346,6 +21464,7 @@ by_tag:
   - ootp-ch19-001
   fake-sword:
   - dh-ch23-003
+  - dh-ch25-004
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
@@ -21424,6 +21543,7 @@ by_tag:
   - dh-ch17-002
   - dh-ch17-006
   - dh-ch24-001
+  - dh-ch25-001
   - hbp-ch02-004
   field-booking:
   - cos-ch07-002
@@ -21725,6 +21845,8 @@ by_tag:
   - dh-ch15-006
   - dh-ch16-004
   - dh-ch23-003
+  - dh-ch25-002
+  - dh-ch25-006
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -21915,7 +22037,11 @@ by_tag:
   goblin-made:
   - dh-ch15-006
   - dh-ch24-004
+  - dh-ch25-002
+  - dh-ch25-005
   - ootp-ch20-004
+  goblin-ownership:
+  - dh-ch25-005
   goblin-rebellion:
   - poa-ch05-002
   goblin-rebellions:
@@ -21929,10 +22055,13 @@ by_tag:
   - dh-ch15-005
   - dh-ch24-002
   - dh-ch24-003
+  - dh-ch25-003
   - gof-ch37-007
   - ootp-ch05-004
   - ootp-ch07-003
   - ootp-ch09-002
+  goblinwork:
+  - dh-ch25-002
   gobstones-team:
   - hbp-ch25-002
   godric-gryffindor:
@@ -21940,6 +22069,7 @@ by_tag:
   - dh-ch07-006
   - dh-ch16-003
   - dh-ch19-004
+  - dh-ch25-002
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
@@ -22115,6 +22245,8 @@ by_tag:
   - dh-ch24-002
   - dh-ch24-003
   - dh-ch24-004
+  - dh-ch25-004
+  - dh-ch25-005
   - gof-ch05-001
   - ootp-ch10-005
   - ootp-ch29-003
@@ -22124,6 +22256,7 @@ by_tag:
   - dh-ch15-005
   - dh-ch23-003
   - dh-ch23-004
+  - dh-ch25-002
   griselda-marchbanks:
   - ootp-ch31-002
   ground-floor:
@@ -22646,6 +22779,7 @@ by_tag:
   - dh-ch07-007
   - dh-ch19-001
   - dh-ch20-006
+  - dh-ch25-003
   - gof-ch08-003
   - gof-ch09-002
   - hbp-ch04-001
@@ -22747,9 +22881,12 @@ by_tag:
   - hbp-ch20-001
   - hbp-ch20-006
   - hbp-ch23-002
+  historiography:
+  - dh-ch25-003
   history-of-magic:
   - cos-ch09-002
   - dh-ch10-003
+  - dh-ch25-005
   - gof-ch15-002
   - gof-ch22-005
   - gof-ch29-002
@@ -22875,6 +23012,7 @@ by_tag:
   - cos-ch12-002
   - cos-ch16-005
   - cos-ch18-007
+  - dh-ch25-007
   - gof-ch03-003
   - gof-ch11-002
   - hbp-ch07-001
@@ -23154,6 +23292,7 @@ by_tag:
   - gof-ch17-002
   hostage:
   - dh-ch21-007
+  - dh-ch25-007
   hostages:
   - gof-ch26-007
   - gof-ch27-001
@@ -23750,6 +23889,7 @@ by_tag:
   lestrange-vault:
   - dh-ch24-002
   - dh-ch24-004
+  - dh-ch25-004
   lestranges:
   - ootp-ch08-001
   levicorpus:
@@ -23859,6 +23999,8 @@ by_tag:
   longbottoms:
   - gof-ch30-006
   - ootp-ch09-007
+  lost-artifacts:
+  - dh-ch25-006
   love-potion:
   - hbp-ch10-007
   love-potions:
@@ -23900,6 +24042,8 @@ by_tag:
   luna-lovegood:
   - dh-ch21-007
   - dh-ch23-004
+  - dh-ch25-006
+  - dh-ch25-007
   - hbp-ch07-004
   - ootp-ch10-003
   - ootp-ch10-005
@@ -24231,6 +24375,8 @@ by_tag:
   - hbp-ch01-001
   magical-power:
   - hbp-ch26-005
+  magical-races:
+  - dh-ch25-003
   magical-records:
   - ootp-ch35-002
   magical-remedies:
@@ -24348,6 +24494,8 @@ by_tag:
   - ootp-ch33-002
   - ootp-ch33-004
   - ootp-ch33-006
+  maker-right:
+  - dh-ch25-005
   malfoy:
   - hbp-ch18-004
   - hbp-ch19-006
@@ -25197,6 +25345,8 @@ by_tag:
   - ps-ch15-004
   old-textbook:
   - hbp-ch16-006
+  old-wizarding-families:
+  - dh-ch25-004
   older-student:
   - gof-ch17-003
   olive-hornby:
@@ -25685,6 +25835,7 @@ by_tag:
   - dh-ch05-003
   - dh-ch14-001
   - dh-ch16-005
+  - dh-ch25-004
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
@@ -26386,10 +26537,13 @@ by_tag:
   - gof-ch28-003
   ragnok:
   - ootp-ch05-004
+  ragnuk-the-first:
+  - dh-ch25-002
   rats:
   - poa-ch04-005
   ravenclaw:
   - dh-ch20-007
+  - dh-ch25-006
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -26401,6 +26555,7 @@ by_tag:
   - poa-ch13-003
   - ps-ch06-005
   ravenclaw-diadem:
+  - dh-ch25-006
   - hbp-ch24-005
   reception-customs:
   - dh-ch08-001
@@ -26436,6 +26591,7 @@ by_tag:
   - dh-ch06-007
   remus-lupin:
   - dh-ch11-005
+  - dh-ch25-001
   - hbp-ch16-003
   - hbp-ch16-005
   - ootp-ch09-006
@@ -26573,6 +26729,7 @@ by_tag:
   - ootp-ch36-001
   rowena-ravenclaw:
   - dh-ch20-007
+  - dh-ch25-006
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002
@@ -26592,6 +26749,7 @@ by_tag:
   - dh-ch05-002
   - dh-ch11-001
   - dh-ch14-002
+  - dh-ch25-001
   safety-accommodation:
   - poa-ch22-003
   safety-equipment:
@@ -26968,6 +27126,7 @@ by_tag:
   - dh-ch23-001
   - dh-ch23-002
   - dh-ch24-002
+  - dh-ch25-007
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -27031,6 +27190,7 @@ by_tag:
   - dh-ch09-006
   - dh-ch14-002
   - dh-ch24-001
+  - dh-ch25-001
   - hbp-ch02-004
   - ootp-ch06-007
   - ootp-ch37-004
@@ -27146,6 +27306,7 @@ by_tag:
   shell-cottage:
   - dh-ch23-005
   - dh-ch24-001
+  - dh-ch25-001
   shield-charm:
   - hbp-ch03-003
   - hbp-ch06-005
@@ -28018,6 +28179,7 @@ by_tag:
   - ootp-ch33-007
   - ootp-ch34-001
   student-travel:
+  - dh-ch25-007
   - gof-ch03-003
   - gof-ch04-003
   - gof-ch04-004
@@ -28121,6 +28283,8 @@ by_tag:
   - dh-ch19-006
   - dh-ch23-003
   - dh-ch24-004
+  - dh-ch25-002
+  - dh-ch25-003
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -28716,6 +28880,7 @@ by_tag:
   - hbp-ch28-003
   vault-security:
   - dh-ch24-002
+  - dh-ch25-004
   veela:
   - dh-ch08-001
   - gof-ch08-006
@@ -28960,6 +29125,7 @@ by_tag:
   - dh-ch20-001
   - dh-ch22-007
   - dh-ch24-001
+  - dh-ch25-001
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -29102,6 +29268,7 @@ by_tag:
   - ootp-ch08-004
   wizard-goblin-relations:
   - dh-ch15-005
+  - dh-ch25-005
   - ootp-ch05-004
   wizard-law:
   - poa-ch02-003
@@ -29141,6 +29308,7 @@ by_tag:
   - hbp-ch10-006
   - hbp-ch20-005
   wizarding-history:
+  - dh-ch25-003
   - hbp-ch17-006
   - ootp-ch20-003
   wizarding-households:
@@ -29169,6 +29337,7 @@ by_tag:
   - ootp-ch05-006
   wizarding-prejudice:
   - dh-ch24-003
+  - dh-ch25-003
   - gof-ch23-006
   - gof-ch29-007
   - ootp-ch20-003
@@ -29246,6 +29415,7 @@ by_tag:
   xenophilius-lovegood:
   - dh-ch20-005
   - dh-ch21-001
+  - dh-ch25-006
   yaxley:
   - dh-ch12-004
   - dh-ch14-002

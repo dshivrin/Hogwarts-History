@@ -1,0 +1,339 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  boundary_confidence: high
+  boundary_notes: Extracted by bounded pypdf range from processing-state.yaml; chapter heading begins on PDF page 3405 and the next chapter is expected to begin on PDF page 3420.
+  processed_date: '2026-08-08'
+  processor_notes: "Bounded extraction only; no full-PDF scan. No explicit Hogwarts: A History title reference found."
+entries:
+- id: dh-ch25-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3415
+  printed_page: null
+  extracted_text_lines: 343-354
+  text_anchor:
+    start_phrase: There was a bang on the front door
+    end_phrase: bade me come in an emergency
+    local_occurrence_note: Lupin identifies himself at Shell Cottage by name, werewolf status, marriage to Tonks, and the fact that Bill as Secret-Keeper gave him the address for emergency access.
+  nearby_context: The scene interrupts dinner at the crowded safe house after Ollivander has been moved to Muriel's and Griphook hides under the table.
+  match_terms:
+  - Shell Cottage
+  - Secret-Keeper
+  - Bill Weasley
+  - Remus Lupin
+  - emergency access
+  - Fidelius
+  - wartime safe house
+  quote_excerpt_short: you, the Secret-Keeper of Shell Cottage
+  source_note: Shell Cottage operates as a Fidelius-protected wartime refuge where invited emergency arrivals authenticate themselves by reciting the secret-sharing chain and identity details.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - shell-cottage
+  - fidelius
+  - secret-keeper
+  - bill-weasley
+  - remus-lupin
+  - safe-house
+  - wartime-security
+  candidate_part: Part III - The War Beyond The Gates
+  candidate_chapter: Information Security and Secret Keeping
+  candidate_section: Fidelius-protected refuge access and emergency verification
+  reason_for_placement: The passage gives observed procedure for access to a protected safe house tied to Hogwarts families and Order operations.
+  relevance_to_hogwarts_a_history: A later edition can connect school-linked wartime displacement with the practical use of Fidelius safe houses outside Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch24-001
+    notes: dh-ch24-001 records Shell Cottage and Muriel's as Fidelius refuges; this entry adds observed emergency arrival, identity challenge, and Bill's Secret-Keeper role in practice.
+  confidence: high
+  limitations: The passage shows one successful invited arrival and does not describe the full defensive enchantment suite around the cottage.
+- id: dh-ch25-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3408
+  printed_page: null
+  extracted_text_lines: 98-115
+  text_anchor:
+    start_phrase: Then, said the goblin softly
+    end_phrase: the price of my hire, take it or leave it
+    local_occurrence_note: Griphook refuses gold, rejects taking Lestrange treasures, and demands the Sword of Gryffindor as payment while claiming it was Ragnuk the First's lost goblin treasure.
+  nearby_context: Harry, Ron, and Hermione negotiate with Griphook after he agrees to betray Gringotts by helping them enter the Lestrange vault.
+  match_terms:
+  - Sword of Gryffindor
+  - Godric Gryffindor
+  - Ragnuk the First
+  - goblinwork
+  - lost treasure
+  - Griphook
+  - wizarding arrogance
+  quote_excerpt_short: That sword was Ragnuk the First's
+  source_note: Griphook gives a goblin counter-history of the Sword of Gryffindor, claiming it belonged to Ragnuk the First before Godric Gryffindor took it.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - sword-of-gryffindor
+  - godric-gryffindor
+  - ragnuk-the-first
+  - goblin-made
+  - goblinwork
+  - founder-relics
+  - griphook
+  candidate_part: Founders, Relics, and House Memory
+  candidate_chapter: Founder Relics and Contested Provenance
+  candidate_section: Goblin counter-claim to the Sword of Gryffindor
+  reason_for_placement: The passage complicates school founder relic tradition with a non-wizard claim about original ownership and craft.
+  relevance_to_hogwarts_a_history: A later edition can contrast Hogwarts House symbolism around the sword with goblin historical claims about maker-right and seizure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch15-006
+    - dh-ch24-004
+    notes: dh-ch15-006 records the sword as goblin-made and Horcrux-relevant; dh-ch24-004 records Griphook's custodianship claim. This entry adds the named Ragnuk the First provenance claim and Griphook's demanded price.
+  confidence: high
+  limitations: The claim is Griphook's contested oral account, and Hermione immediately notes she knows no wizarding account saying Gryffindor stole the sword.
+- id: dh-ch25-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3409
+  printed_page: null
+  extracted_text_lines: 123-136
+  text_anchor:
+    start_phrase: Was the sword stolen by Gryffindor
+    end_phrase: more likely to help us, is it
+    local_occurrence_note: Hermione admits wizarding history often ignores harm done to other magical races while also saying she knows no account that Gryffindor stole the sword.
+  nearby_context: The trio debates whether to accept Griphook's demand and how wizard-goblin violence should shape their negotiation.
+  match_terms:
+  - wizarding history
+  - magical races
+  - goblins
+  - treated brutally
+  - Gryffindor
+  - sword
+  - goblin stories
+  quote_excerpt_short: Wizarding history often skates over
+  source_note: Hermione identifies a bias in wizard-authored history toward minimizing harms done to other magical races, while leaving the sword's specific provenance unresolved.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - wizarding-history
+  - goblins
+  - magical-races
+  - historiography
+  - wizarding-prejudice
+  - sword-of-gryffindor
+  - hermione-granger
+  candidate_part: Peoples, Beings, and Magical Society
+  candidate_chapter: Historical Memory and Non-Human Peoples
+  candidate_section: Wizarding historiography and omitted harms
+  reason_for_placement: The passage is a rare explicit critique of wizarding historical writing from within the narrative.
+  relevance_to_hogwarts_a_history: A later edition can use it to flag where Hogwarts-taught historical narratives may need non-wizard corroboration.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch05-004
+    - dh-ch24-003
+    notes: ootp-ch05-004 records Order concerns about old goblin grievances and wizard restrictions; dh-ch24-003 records goblin wand-rights resentment. This entry adds Hermione's historiographical warning about wizarding accounts.
+  confidence: high
+  limitations: The passage does not cite a specific history text or identify which events were omitted or softened.
+- id: dh-ch25-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3411
+  printed_page: null
+  extracted_text_lines: 215-230
+  text_anchor:
+    start_phrase: I have visited the Lestranges' vault only once
+    end_phrase: Griphook's hand-drawn map of the deepest passageways
+    local_occurrence_note: Griphook describes placing the false sword in the Lestrange vault and begins mapping the deepest Gringotts passageways while the trio plan around limited Polyjuice.
+  nearby_context: The planning follows Harry's carefully worded promise to hand over the Sword of Gryffindor after Griphook helps them.
+  match_terms:
+  - Lestrange vault
+  - false sword
+  - oldest Wizarding families
+  - deepest level
+  - best protected
+  - Polyjuice Potion
+  - hand-drawn map
+  quote_excerpt_short: largest and best protected
+  source_note: Griphook confirms the Lestrange vault is among Gringotts's oldest and deepest family chambers, with the largest and best-protected vaults reserved for old wizarding families.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gringotts
+  - lestrange-vault
+  - vault-security
+  - old-wizarding-families
+  - fake-sword
+  - polyjuice-potion
+  - break-in-planning
+  candidate_part: Magical Institutions Beyond Hogwarts
+  candidate_chapter: Gringotts, Goblins, and Wizarding Power
+  candidate_section: Deep vault hierarchy and old-family treasure protection
+  reason_for_placement: The passage gives operational detail about Gringotts layout, old-family vault status, and the physical planning needed to breach it.
+  relevance_to_hogwarts_a_history: A later edition can compare ancient family treasure infrastructure with Hogwarts founder relic custody and wartime artifact concealment.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch24-002
+    - dh-ch24-004
+    notes: dh-ch24-002 frames the Lestrange vault as high-security and dh-ch24-004 records Gringotts secrecy; this entry adds the old-family/deepest-level hierarchy and map-based break-in planning.
+  confidence: high
+  limitations: The passage does not enumerate the specific protections; those remain for the subsequent Gringotts source unit.
+- id: dh-ch25-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3418
+  printed_page: null
+  extracted_text_lines: 424-461
+  text_anchor:
+    start_phrase: If you have struck any kind of bargain
+    end_phrase: renege on a promise to a goblin
+    local_occurrence_note: Bill warns Harry that goblin ideas of ownership, payment, and repayment differ from human ones and explains maker-right over goblin-made objects.
+  nearby_context: Bill privately questions Harry after noticing Griphook withdraw from Teddy Lupin's celebration and suspecting a hidden bargain.
+  match_terms:
+  - goblin notions of ownership
+  - History of Magic
+  - Gringotts
+  - maker
+  - purchaser
+  - goblin-made objects
+  - promise to a goblin
+  quote_excerpt_short: the rightful and true master
+  source_note: Bill states that History of Magic covers centuries of fraught wizard-goblin dealings, then explains the goblin view that the maker, not the purchaser, remains an object's true master.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - goblin-ownership
+  - maker-right
+  - goblin-made
+  - history-of-magic
+  - gringotts
+  - wizard-goblin-relations
+  - bill-weasley
+  candidate_part: Peoples, Beings, and Magical Society
+  candidate_chapter: Non-Human Autonomy and Wizarding Law
+  candidate_section: Goblin maker-right and promise obligations
+  reason_for_placement: The passage gives the clearest rule-like explanation of goblin-made object ownership and ties it to formal historical knowledge.
+  relevance_to_hogwarts_a_history: A later edition can use Bill's account to contextualize founder relic disputes and what History of Magic students are assumed to know about goblin relations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch24-004
+    - ootp-ch05-004
+    - dh-ch15-006
+    notes: dh-ch24-004 records Griphook's custodianship rationale, ootp-ch05-004 records older political grievances, and dh-ch15-006 records the sword's goblin-made nature. This entry adds Bill's maker-right formulation, rental framing, and warning about promises.
+  confidence: high
+  limitations: Bill speaks as a Gringotts employee with goblin acquaintances, not as a goblin legal authority or a quoted textbook.
+- id: dh-ch25-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3415
+  printed_page: null
+  extracted_text_lines: 337-342
+  text_anchor:
+    start_phrase: Daddy's made a tiara
+    end_phrase: made a difference
+    local_occurrence_note: Luna says Xenophilius is trying to recreate the lost diadem of Ravenclaw and thinks he has identified most of its main elements.
+  nearby_context: The remark follows discussion of Xenophilius's impossible creature claims and occurs shortly before Lupin arrives at Shell Cottage.
+  match_terms:
+  - lost diadem of Ravenclaw
+  - Xenophilius Lovegood
+  - tiara
+  - Ravenclaw
+  - founder relic
+  - main elements
+  - billywig wings
+  quote_excerpt_short: the lost diadem of Ravenclaw
+  source_note: Luna reports that Xenophilius Lovegood is attempting to reconstruct the lost diadem of Ravenclaw, treating the founder relic as a real object with recoverable design elements.
+  reference_type: cross_reference_candidate
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - ravenclaw-diadem
+  - rowena-ravenclaw
+  - founder-relics
+  - luna-lovegood
+  - xenophilius-lovegood
+  - lost-artifacts
+  - ravenclaw
+  candidate_part: Founders, Relics, and House Memory
+  candidate_chapter: Ravenclaw Relics and Lost Knowledge
+  candidate_section: Popular reconstruction attempts for the lost diadem
+  reason_for_placement: The passage adds a living folk-antiquarian attempt to reconstruct a Hogwarts founder relic before its true location is known.
+  relevance_to_hogwarts_a_history: A later edition can connect Ravenclaw House memory, unreliable antiquarian speculation, and the later identification of the hidden diadem.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch24-005
+    notes: hbp-ch24-005 records a tarnished tiara hidden in the Room of Requirement and indexed as the Ravenclaw diadem; this entry adds the explicit lost-diadem tradition and Xenophilius's attempted reconstruction.
+  confidence: medium
+  limitations: Luna's description includes likely unreliable details from Xenophilius, and the passage does not authenticate his reconstruction.
+- id: dh-ch25-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Five - Shell Cottage
+  chapter_start_pdf_page: 3405
+  chapter_end_pdf_page: 3419
+  pdf_page: 3413
+  printed_page: null
+  extracted_text_lines: 276-291
+  text_anchor:
+    start_phrase: Luna and Dean entered
+    end_phrase: It came from an Erumpent
+    local_occurrence_note: Luna casually says Death Eaters took her from the Hogwarts Express, preventing her from returning home for Christmas.
+  nearby_context: Luna and Dean bring driftwood into the safe house while the fugitives avoid Fleur's questions about their plans.
+  match_terms:
+  - Luna Lovegood
+  - Dean Thomas
+  - Death Eaters
+  - Hogwarts Express
+  - Christmas
+  - abduction
+  - wartime student travel
+  quote_excerpt_short: took me from the Hogwarts Express
+  source_note: Luna confirms that Death Eaters abducted her from the Hogwarts Express before Christmas, showing that wartime student travel itself became a site of coercion.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - luna-lovegood
+  - hogwarts-express
+  - abduction
+  - death-eaters
+  - student-travel
+  - hostage
+  - second-war
+  candidate_part: Part III - The War Beyond The Gates
+  candidate_chapter: The Second War and Hogwarts Students
+  candidate_section: Hogwarts Express abduction and hostage pressure
+  reason_for_placement: The passage provides the travel-route detail missing from broader accounts of Luna's abduction and captivity.
+  relevance_to_hogwarts_a_history: A later edition can note that even established Hogwarts travel routes became vulnerable during Death Eater control.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch21-007
+    - dh-ch23-004
+    notes: dh-ch21-007 records Luna's abduction as leverage against Xenophilius and dh-ch23-004 records her captivity at Malfoy Manor; this entry adds that the abduction occurred on the Hogwarts Express before Christmas.
+  confidence: high
+  limitations: The statement is brief and does not describe who seized Luna, where on the route it happened, or whether school staff were present.

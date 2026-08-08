@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-Five - Shell Cottage
-- Page range: 3405-3419
+- Chapter: Chapter Twenty-Six - Gringotts
+- Page range: 3420-3440
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-25-shell-cottage.yaml`
+- Output YAML: `sources/book-07/chapter-26-gringotts.yaml`
 
 ## Minimal Context
 

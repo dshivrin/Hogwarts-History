@@ -386,6 +386,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Known Heads of Hogwarts
   - Dilys Derwent, Healer and Headmistress
 
+## Founders, Relics, and House Memory
+
+- Founder Relics and Contested Provenance
+  - Goblin counter-claim to the Sword of Gryffindor
+- Ravenclaw Relics and Lost Knowledge
+  - Popular reconstruction attempts for the lost diadem
+
 ## Founders, Relics, and the House System
 
 - Founder Objects and Later Magical History
@@ -1035,6 +1042,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Magical Institutions Beyond Hogwarts
 
 - Gringotts, Goblins, and Wizarding Power
+  - Deep vault hierarchy and old-family treasure protection
   - Goblin custodianship, secrecy, and founder relic claims
   - Lestrange vault security and Horcrux target selection
 
@@ -1185,12 +1193,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Part III - The War Beyond The Gates
 
 - Information Security and Secret Keeping
+  - Fidelius-protected refuge access and emergency verification
   - Wartime family relocation and Shell Cottage Fidelius protections
 - Muggle-Born Persecution And Wartime Student Risk
   - Snatcher triage by school age, House claims, and Taboo exposure
   - Snatchers and rewards for school-age fugitives
 - Patronus Messages, Guardians, And Covert Aid
   - A corporeal Patronus as a guide rather than only a message
+- The Second War and Hogwarts Students
+  - Hogwarts Express abduction and hostage pressure
 - The Second War and Hogwarts-Connected Captives
   - Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
 - Wartime Concealment And Mobile Safe Sites
@@ -1230,6 +1241,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Population collapse and forced isolation
 - Goblins and Wizarding Political Relations
   - Goblin Neutrality and Recruitment Pressures
+- Historical Memory and Non-Human Peoples
+  - Wizarding historiography and omitted harms
 - House-Elves, Service, and Wizarding Households
   - Clothing, family-house bonds, and possible unauthorized departure
   - Covert school surveillance and hidden-room limits
@@ -1244,6 +1257,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Ministry Public Ideology and Non-Magical People
   - Magic Is Might monument and Muggle subjugation
 - Non-Human Autonomy and Wizarding Law
+  - Goblin maker-right and promise obligations
   - Goblin wand rights and wizard control of wandlore
 - Pure-Blood Families and Genealogical Memory
   - Interrelated Pure-Blood Families and Marriage Exclusions

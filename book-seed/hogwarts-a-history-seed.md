@@ -12111,6 +12111,36 @@ Summary: The available evidence includes 1 source item, led by: Dilys Derwent's 
   - Reference type: historical_claim
   - Notes: The portrait label supplies offices and dates only; it does not describe her headmastership or medical achievements.
 
+## Part: Founders, Relics, and House Memory
+
+### Chapter: Founder Relics and Contested Provenance
+
+#### Section: Goblin counter-claim to the Sword of Gryffindor
+
+Summary: The available evidence includes 1 source item, led by: Griphook gives a goblin counter-history of the Sword of Gryffindor, claiming it belonged to Ragnuk the First before Godric Gryffindor took it.
+
+- **Corroboration:** Griphook gives a goblin counter-history of the Sword of Gryffindor, claiming it belonged to Ragnuk the First before Godric Gryffindor took it.
+  - Quote: "That sword was Ragnuk the First's"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3408, `dh-ch25-002`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch15-006`, `dh-ch24-004`. dh-ch15-006 records the sword as goblin-made and Horcrux-relevant; dh-ch24-004 records Griphook's custodianship claim. This entry adds the named Ragnuk the First provenance claim and Griphook's demanded price.
+  - Notes: The claim is Griphook's contested oral account, and Hermione immediately notes she knows no wizarding account saying Gryffindor stole the sword.
+
+### Chapter: Ravenclaw Relics and Lost Knowledge
+
+#### Section: Popular reconstruction attempts for the lost diadem
+
+Summary: The available evidence includes 1 source item, led by: Luna reports that Xenophilius Lovegood is attempting to reconstruct the lost diadem of Ravenclaw, treating the founder relic as a real object with recoverable design elements.
+
+- **Corroboration:** Luna reports that Xenophilius Lovegood is attempting to reconstruct the lost diadem of Ravenclaw, treating the founder relic as a real object with recoverable design elements.
+  - Quote: "the lost diadem of Ravenclaw"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3415, `dh-ch25-006`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Corroborates: `hbp-ch24-005`. hbp-ch24-005 records a tarnished tiara hidden in the Room of Requirement and indexed as the Ravenclaw diadem; this entry adds the explicit lost-diadem tradition and Xenophilius's attempted reconstruction.
+  - Notes: Luna's description includes likely unreliable details from Xenophilius, and the passage does not authenticate his reconstruction.
+
 ## Part: Founders, Relics, and the House System
 
 ### Chapter: Founder Objects and Later Magical History
@@ -13062,6 +13092,18 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
 
 ### Chapter: Gringotts, Goblins, and Wizarding Power
 
+#### Section: Deep vault hierarchy and old-family treasure protection
+
+Summary: The available evidence includes 1 source item, led by: Griphook confirms the Lestrange vault is among Gringotts's oldest and deepest family chambers, with the largest and best-protected vaults reserved for old wizarding families.
+
+- **Corroboration:** Griphook confirms the Lestrange vault is among Gringotts's oldest and deepest family chambers, with the largest and best-protected vaults reserved for old wizarding families.
+  - Quote: "largest and best protected"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3411, `dh-ch25-004`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch24-002`, `dh-ch24-004`. dh-ch24-002 frames the Lestrange vault as high-security and dh-ch24-004 records Gringotts secrecy; this entry adds the old-family/deepest-level hierarchy and map-based break-in planning.
+  - Notes: The passage does not enumerate the specific protections; those remain for the subsequent Gringotts source unit.
+
 #### Section: Goblin custodianship, secrecy, and founder relic claims
 
 Summary: The available evidence includes 1 source item, led by: Griphook describes a goblin code of secrecy and guardianship over Gringotts treasures, especially objects wrought by goblins, while resenting Harry's control of the real Sword of Gryffindor.
@@ -13479,6 +13521,18 @@ Summary: The available evidence includes 1 source item, led by: The boat's encha
 
 ### Chapter: Information Security and Secret Keeping
 
+#### Section: Fidelius-protected refuge access and emergency verification
+
+Summary: The available evidence includes 1 source item, led by: Shell Cottage operates as a Fidelius-protected wartime refuge where invited emergency arrivals authenticate themselves by reciting the secret-sharing chain and identity details.
+
+- **Corroboration:** Shell Cottage operates as a Fidelius-protected wartime refuge where invited emergency arrivals authenticate themselves by reciting the secret-sharing chain and identity details.
+  - Quote: "you, the Secret-Keeper of Shell Cottage"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3415, `dh-ch25-001`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch24-001`. dh-ch24-001 records Shell Cottage and Muriel's as Fidelius refuges; this entry adds observed emergency arrival, identity challenge, and Bill's Secret-Keeper role in practice.
+  - Notes: The passage shows one successful invited arrival and does not describe the full defensive enchantment suite around the cottage.
+
 #### Section: Wartime family relocation and Shell Cottage Fidelius protections
 
 Summary: The available evidence includes 1 source item, led by: Bill confirms that the exposed Weasley family relocates from the Burrow to Muriel's under a Fidelius Charm while Shell Cottage is separately protected with Bill as Secret-Keeper.
@@ -13528,6 +13582,20 @@ Summary: The available evidence includes 1 source item, led by: A silent corpore
   - Reference type: security_or_protection
   - Corroborates: `dh-ch08-007`, `dh-ch09-007`. Earlier Deathly Hallows entries record speaking Patronus warnings; this entry is related but distinct because the Patronus silently guides Harry to a hidden founder relic.
   - Notes: The caster is not identified in this chapter, so the entry should not attribute the doe to Snape here.
+
+### Chapter: The Second War and Hogwarts Students
+
+#### Section: Hogwarts Express abduction and hostage pressure
+
+Summary: The available evidence includes 1 source item, led by: Luna confirms that Death Eaters abducted her from the Hogwarts Express before Christmas, showing that wartime student travel itself became a site of coercion.
+
+- **Corroboration:** Luna confirms that Death Eaters abducted her from the Hogwarts Express before Christmas, showing that wartime student travel itself became a site of coercion.
+  - Quote: "took me from the Hogwarts Express"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3413, `dh-ch25-007`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch21-007`, `dh-ch23-004`. dh-ch21-007 records Luna's abduction as leverage against Xenophilius and dh-ch23-004 records her captivity at Malfoy Manor; this entry adds that the abduction occurred on the Hogwarts Express before Christmas.
+  - Notes: The statement is brief and does not describe who seized Luna, where on the route it happened, or whether school staff were present.
 
 ### Chapter: The Second War and Hogwarts-Connected Captives
 
@@ -13724,6 +13792,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Corroborates: `gof-ch37-007`. gof-ch37-007 records Bagman's goblin debts and tournament motive; this entry adds Ragnok, goblin political neutrality, old grievances over denied freedoms, and Second War recruitment risk.
   - Notes: The discussion is speculative Order analysis, not a goblin statement of policy.
 
+### Chapter: Historical Memory and Non-Human Peoples
+
+#### Section: Wizarding historiography and omitted harms
+
+Summary: The available evidence includes 1 source item, led by: Hermione identifies a bias in wizard-authored history toward minimizing harms done to other magical races, while leaving the sword's specific provenance unresolved.
+
+- **Corroboration:** Hermione identifies a bias in wizard-authored history toward minimizing harms done to other magical races, while leaving the sword's specific provenance unresolved.
+  - Quote: "Wizarding history often skates over"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3409, `dh-ch25-003`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch05-004`, `dh-ch24-003`. ootp-ch05-004 records Order concerns about old goblin grievances and wizard restrictions; dh-ch24-003 records goblin wand-rights resentment. This entry adds Hermione's historiographical warning about wizarding accounts.
+  - Notes: The passage does not cite a specific history text or identify which events were omitted or softened.
+
 ### Chapter: House-Elves, Service, and Wizarding Households
 
 #### Section: Clothing, family-house bonds, and possible unauthorized departure
@@ -13839,6 +13921,18 @@ Summary: The available evidence includes 1 source item, led by: The captured Min
   - Notes: The passage does not say when the replacement monument was installed or who designed it.
 
 ### Chapter: Non-Human Autonomy and Wizarding Law
+
+#### Section: Goblin maker-right and promise obligations
+
+Summary: The available evidence includes 1 source item, led by: Bill states that History of Magic covers centuries of fraught wizard-goblin dealings, then explains the goblin view that the maker, not the purchaser, remains an object's true master.
+
+- **Corroboration:** Bill states that History of Magic covers centuries of fraught wizard-goblin dealings, then explains the goblin view that the maker, not the purchaser, remains an object's true master.
+  - Quote: "the rightful and true master"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, PDF p. 3418, `dh-ch25-005`, `sources/book-07/chapter-25-shell-cottage.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch24-004`, `ootp-ch05-004`, `dh-ch15-006`. dh-ch24-004 records Griphook's custodianship rationale, ootp-ch05-004 records older political grievances, and dh-ch15-006 records the sword's goblin-made nature. This entry adds Bill's maker-right formulation, rental framing, and warning about promises.
+  - Notes: Bill speaks as a Gringotts employee with goblin acquaintances, not as a goblin legal authority or a quoted textbook.
 
 #### Section: Goblin wand rights and wizard control of wandlore
 
