@@ -1386,6 +1386,11 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+  bogrod:
+    entries:
+    - dh-ch26-002
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   book-circulation:
     entries:
     - cos-ch09-001
@@ -2398,6 +2403,11 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  clankers:
+    entries:
+    - dh-ch26-004
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   class-schedules:
     entries:
     - hbp-ch09-001
@@ -2710,6 +2720,8 @@ tags:
     entries:
     - dh-ch17-003
     - dh-ch21-004
+    - dh-ch26-001
+    - dh-ch26-003
     - hbp-ch04-003
     - ootp-ch03-004
     - ootp-ch03-005
@@ -2720,6 +2732,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   concealment-charms:
     entries:
     - ootp-ch26-003
@@ -3672,6 +3685,11 @@ tags:
     - dh-ch03-002
     output_yaml:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
+  deep-vaults:
+    entries:
+    - dh-ch26-004
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   defense-against-the-dark-arts:
     entries:
     - cos-ch04-006
@@ -4086,6 +4104,7 @@ tags:
     entries:
     - cos-ch04-002
     - dh-ch11-007
+    - dh-ch26-001
     - gof-ch05-006
     - hbp-ch06-002
     - hbp-ch13-006
@@ -4101,6 +4120,7 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   diffindo:
     entries:
     - ootp-ch35-006
@@ -4430,6 +4450,11 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+  dragon:
+    entries:
+    - dh-ch26-004
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   dragon-blood:
     entries:
     - dh-ch02-005
@@ -5265,6 +5290,11 @@ tags:
     - ootp-ch07-004
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  enchantment:
+    entries:
+    - dh-ch26-003
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   enchantments:
     entries:
     - ps-ch13-006
@@ -5621,9 +5651,11 @@ tags:
     entries:
     - dh-ch23-003
     - dh-ch25-004
+    - dh-ch26-005
     output_yaml:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   fake-wands:
     entries:
     - gof-ch05-002
@@ -6104,6 +6136,11 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+  flagrante-curse:
+    entries:
+    - dh-ch26-005
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   flagrate:
     entries:
     - ootp-ch34-004
@@ -6424,6 +6461,8 @@ tags:
     - dh-ch23-003
     - dh-ch25-002
     - dh-ch25-006
+    - dh-ch26-006
+    - dh-ch26-007
     - hbp-ch20-005
     - hbp-ch23-007
     output_yaml:
@@ -6433,6 +6472,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   founders:
     entries:
     - cos-ch09-003
@@ -6659,6 +6699,11 @@ tags:
     - dh-ch22-004
     output_yaml:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+  gemino-curse:
+    entries:
+    - dh-ch26-005
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   gendered-rules:
     entries:
     - ootp-ch17-002
@@ -6830,6 +6875,11 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+  goblin-authority:
+    entries:
+    - dh-ch26-004
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   goblin-code:
     entries:
     - dh-ch24-004
@@ -6848,17 +6898,21 @@ tags:
     - dh-ch24-004
     - dh-ch25-002
     - dh-ch25-005
+    - dh-ch26-007
     - ootp-ch20-004
     output_yaml:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   goblin-ownership:
     entries:
     - dh-ch25-005
+    - dh-ch26-007
     output_yaml:
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   goblin-rebellion:
     entries:
     - poa-ch05-002
@@ -7256,6 +7310,12 @@ tags:
     - dh-ch24-004
     - dh-ch25-004
     - dh-ch25-005
+    - dh-ch26-001
+    - dh-ch26-002
+    - dh-ch26-003
+    - dh-ch26-004
+    - dh-ch26-005
+    - dh-ch26-007
     - gof-ch05-001
     - ootp-ch10-005
     - ootp-ch29-003
@@ -7271,16 +7331,19 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   griphook:
     entries:
     - dh-ch15-005
     - dh-ch23-003
     - dh-ch23-004
     - dh-ch25-002
+    - dh-ch26-007
     output_yaml:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   griselda-marchbanks:
     entries:
     - ootp-ch31-002
@@ -8265,9 +8328,16 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
   helga-hufflepuff:
     entries:
+    - dh-ch26-006
     - hbp-ch20-005
     output_yaml:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
+  hepzibah-smith:
+    entries:
+    - dh-ch26-006
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   herbology:
     entries:
     - cos-ch06-002
@@ -8424,6 +8494,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-01/chapter-03-letters-from-no-one.yaml
+  hidden-magical-objects:
+    entries:
+    - dh-ch26-001
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   hidden-mechanism:
     entries:
     - cos-ch17-007
@@ -9313,6 +9388,7 @@ tags:
     - dh-ch22-002
     - dh-ch22-005
     - dh-ch24-002
+    - dh-ch26-006
     - hbp-ch18-002
     - hbp-ch20-001
     - hbp-ch23-004
@@ -9326,6 +9402,7 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   horseless-carriages:
     entries:
     - gof-ch11-006
@@ -9811,9 +9888,11 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
   hufflepuff-cup:
     entries:
+    - dh-ch26-006
     - hbp-ch20-005
     output_yaml:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   hufflepuffs-cup:
     entries:
     - hbp-ch23-007
@@ -9834,6 +9913,11 @@ tags:
     - poa-ch12-005
     output_yaml:
     - sources/book-03/chapter-12-the-patronus.yaml
+  identification:
+    entries:
+    - dh-ch26-002
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   identity-verification:
     entries:
     - dh-ch05-003
@@ -9883,6 +9967,7 @@ tags:
     entries:
     - dh-ch05-004
     - dh-ch11-002
+    - dh-ch26-003
     - gof-ch14-003
     - gof-ch14-005
     - gof-ch34-002
@@ -9906,6 +9991,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   impersonation:
     entries:
     - dh-ch05-003
@@ -10723,9 +10809,14 @@ tags:
     - dh-ch24-002
     - dh-ch24-004
     - dh-ch25-004
+    - dh-ch26-002
+    - dh-ch26-004
+    - dh-ch26-005
+    - dh-ch26-006
     output_yaml:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   lestranges:
     entries:
     - ootp-ch08-001
@@ -13893,8 +13984,10 @@ tags:
   old-wizarding-families:
     entries:
     - dh-ch25-004
+    - dh-ch26-002
     output_yaml:
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   older-student:
     entries:
     - gof-ch17-003
@@ -14921,6 +15014,7 @@ tags:
     - dh-ch14-001
     - dh-ch16-005
     - dh-ch25-004
+    - dh-ch26-003
     - gof-ch35-006
     - hbp-ch03-003
     - hbp-ch09-005
@@ -14940,6 +15034,7 @@ tags:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   portable-swamp:
     entries:
     - ootp-ch29-007
@@ -15523,6 +15618,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  probity-probes:
+    entries:
+    - dh-ch26-001
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   procession:
     entries:
     - gof-ch23-002
@@ -20184,6 +20284,8 @@ tags:
     - dh-ch24-004
     - dh-ch25-002
     - dh-ch25-003
+    - dh-ch26-005
+    - dh-ch26-007
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
@@ -20193,6 +20295,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   sybill-trelawney:
     entries:
     - hbp-ch15-005
@@ -20548,6 +20651,11 @@ tags:
     - dh-ch14-007
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
+  thiefs-downfall:
+    entries:
+    - dh-ch26-003
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   third-floor:
     entries:
     - ootp-ch13-005
@@ -20717,6 +20825,7 @@ tags:
     - cos-ch13-005
     - cos-ch18-001
     - dh-ch15-002
+    - dh-ch26-006
     - gof-ch01-001
     - hbp-ch13-003
     - hbp-ch13-004
@@ -20737,6 +20846,7 @@ tags:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   tom-riddle-diary:
     entries:
     - cos-ch13-004
@@ -21486,9 +21596,14 @@ tags:
     entries:
     - dh-ch24-002
     - dh-ch25-004
+    - dh-ch26-002
+    - dh-ch26-003
+    - dh-ch26-004
+    - dh-ch26-005
     output_yaml:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   veela:
     entries:
     - dh-ch08-001
@@ -21897,6 +22012,11 @@ tags:
     - poa-ch20-003
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  wand-verification:
+    entries:
+    - dh-ch26-002
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   wand-weighing:
     entries:
     - gof-ch18-006
@@ -21994,6 +22114,7 @@ tags:
     - dh-ch22-007
     - dh-ch24-001
     - dh-ch25-001
+    - dh-ch26-001
     - hbp-ch04-003
     - hbp-ch06-002
     - hbp-ch07-001
@@ -22045,6 +22166,7 @@ tags:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   wartime-travel:
     entries:
     - dh-ch01-004
@@ -22304,15 +22426,22 @@ tags:
     - ootp-ch08-004
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
+  wizard-control:
+    entries:
+    - dh-ch26-001
+    output_yaml:
+    - sources/book-07/chapter-26-gringotts.yaml
   wizard-goblin-relations:
     entries:
     - dh-ch15-005
     - dh-ch25-005
+    - dh-ch26-007
     - ootp-ch05-004
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-26-gringotts.yaml
   wizard-law:
     entries:
     - poa-ch02-003

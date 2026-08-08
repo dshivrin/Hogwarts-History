@@ -193,3 +193,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch23`: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, pages 3356-3382, 7 entries, 0 explicit references.
 - `dh-ch24`: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, pages 3383-3404, 7 entries, 0 explicit references.
 - `dh-ch25`: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, pages 3405-3419, 7 entries, 0 explicit references.
+- `dh-ch26`: Harry Potter and the Deathly Hallows, Chapter Twenty-Six - Gringotts, pages 3420-3440, 7 entries, 0 explicit references.

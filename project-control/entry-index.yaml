@@ -18796,6 +18796,117 @@ by_entry:
     - student-travel
     source_unit: dh-ch25
     output_yaml: sources/book-07/chapter-25-shell-cottage.yaml
+  dh-ch26-001:
+    title: 'Gringotts, Goblins, and Wizarding Power: Wartime entrance screening and
+      Probity Probes'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - concealment
+    - diagon-alley
+    - gringotts
+    - hidden-magical-objects
+    - probity-probes
+    - wartime-security
+    - wizard-control
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch26-002:
+    title: 'Gringotts, Goblins, and Wizarding Power: Vault identification and special
+      wartime orders'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - bogrod
+    - gringotts
+    - identification
+    - lestrange-vault
+    - old-wizarding-families
+    - vault-security
+    - wand-verification
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch26-003:
+    title: 'Gringotts, Goblins, and Wizarding Power: The Thief''s Downfall and anti-enchantment
+      defenses'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - concealment
+    - enchantment
+    - gringotts
+    - imperius-curse
+    - polyjuice-potion
+    - thiefs-downfall
+    - vault-security
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch26-004:
+    title: 'Gringotts, Goblins, and Wizarding Power: Dragon guardians, Clankers, and
+      goblin-authorized vault entry'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - clankers
+    - deep-vaults
+    - dragon
+    - goblin-authority
+    - gringotts
+    - lestrange-vault
+    - vault-security
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch26-005:
+    title: 'Gringotts, Goblins, and Wizarding Power: Cursed treasure and the false
+      Sword of Gryffindor'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - fake-sword
+    - flagrante-curse
+    - gemino-curse
+    - gringotts
+    - lestrange-vault
+    - sword-of-gryffindor
+    - vault-security
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch26-006:
+    title: 'Founders'' Relics and Legacies: Hufflepuff''s cup in the Lestrange vault'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relics
+    - helga-hufflepuff
+    - hepzibah-smith
+    - horcruxes
+    - hufflepuff-cup
+    - lestrange-vault
+    - tom-riddle
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch26-007:
+    title: 'Founders'' Relics and Legacies: Griphook''s reclamation of the Sword of
+      Gryffindor'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relics
+    - goblin-made
+    - goblin-ownership
+    - gringotts
+    - griphook
+    - sword-of-gryffindor
+    - wizard-goblin-relations
+    source_unit: dh-ch26
+    output_yaml: sources/book-07/chapter-26-gringotts.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19450,6 +19561,8 @@ by_tag:
   - poa-ch07-007
   - poa-ch12-001
   - poa-ch16-004
+  bogrod:
+  - dh-ch26-002
   book-circulation:
   - cos-ch09-001
   - dh-ch06-004
@@ -19921,6 +20034,8 @@ by_tag:
   - cos-ch12-002
   - poa-ch03-004
   - ps-ch12-001
+  clankers:
+  - dh-ch26-004
   class-schedules:
   - hbp-ch09-001
   classes:
@@ -20059,6 +20174,8 @@ by_tag:
   concealment:
   - dh-ch17-003
   - dh-ch21-004
+  - dh-ch26-001
+  - dh-ch26-003
   - hbp-ch04-003
   - ootp-ch03-004
   - ootp-ch03-005
@@ -20506,6 +20623,8 @@ by_tag:
   - dh-ch04-004
   dedalus-diggle:
   - dh-ch03-002
+  deep-vaults:
+  - dh-ch26-004
   defense-against-the-dark-arts:
   - cos-ch04-006
   - cos-ch06-006
@@ -20718,6 +20837,7 @@ by_tag:
   diagon-alley:
   - cos-ch04-002
   - dh-ch11-007
+  - dh-ch26-001
   - gof-ch05-006
   - hbp-ch06-002
   - hbp-ch13-006
@@ -20885,6 +21005,8 @@ by_tag:
   - hbp-ch16-002
   - hbp-ch16-003
   - hbp-ch27-004
+  dragon:
+  - dh-ch26-004
   dragon-blood:
   - dh-ch02-005
   dragon-breeds:
@@ -21307,6 +21429,8 @@ by_tag:
   - cos-ch12-003
   enchanted-windows:
   - ootp-ch07-004
+  enchantment:
+  - dh-ch26-003
   enchantments:
   - ps-ch13-006
   - ps-ch14-003
@@ -21465,6 +21589,7 @@ by_tag:
   fake-sword:
   - dh-ch23-003
   - dh-ch25-004
+  - dh-ch26-005
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
@@ -21693,6 +21818,8 @@ by_tag:
   - ootp-ch10-006
   - ootp-ch13-001
   - ps-ch06-006
+  flagrante-curse:
+  - dh-ch26-005
   flagrate:
   - ootp-ch34-004
   flame-freezing-charm:
@@ -21847,6 +21974,8 @@ by_tag:
   - dh-ch23-003
   - dh-ch25-002
   - dh-ch25-006
+  - dh-ch26-006
+  - dh-ch26-007
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -21946,6 +22075,8 @@ by_tag:
   - hbp-ch10-007
   gaunt-ring:
   - dh-ch22-004
+  gemino-curse:
+  - dh-ch26-005
   gendered-rules:
   - ootp-ch17-002
   genealogy:
@@ -22029,6 +22160,8 @@ by_tag:
   - gof-ch17-005
   - gof-ch33-005
   - gof-ch35-002
+  goblin-authority:
+  - dh-ch26-004
   goblin-code:
   - dh-ch24-004
   goblin-liaison:
@@ -22039,9 +22172,11 @@ by_tag:
   - dh-ch24-004
   - dh-ch25-002
   - dh-ch25-005
+  - dh-ch26-007
   - ootp-ch20-004
   goblin-ownership:
   - dh-ch25-005
+  - dh-ch26-007
   goblin-rebellion:
   - poa-ch05-002
   goblin-rebellions:
@@ -22247,6 +22382,12 @@ by_tag:
   - dh-ch24-004
   - dh-ch25-004
   - dh-ch25-005
+  - dh-ch26-001
+  - dh-ch26-002
+  - dh-ch26-003
+  - dh-ch26-004
+  - dh-ch26-005
+  - dh-ch26-007
   - gof-ch05-001
   - ootp-ch10-005
   - ootp-ch29-003
@@ -22257,6 +22398,7 @@ by_tag:
   - dh-ch23-003
   - dh-ch23-004
   - dh-ch25-002
+  - dh-ch26-007
   griselda-marchbanks:
   - ootp-ch31-002
   ground-floor:
@@ -22743,7 +22885,10 @@ by_tag:
   - cos-ch08-006
   - cos-ch09-005
   helga-hufflepuff:
+  - dh-ch26-006
   - hbp-ch20-005
+  hepzibah-smith:
+  - dh-ch26-006
   herbology:
   - cos-ch06-002
   - cos-ch06-003
@@ -22817,6 +22962,8 @@ by_tag:
   - ps-ch02-001
   - ps-ch02-003
   - ps-ch03-002
+  hidden-magical-objects:
+  - dh-ch26-001
   hidden-mechanism:
   - cos-ch17-007
   hidden-message:
@@ -23248,6 +23395,7 @@ by_tag:
   - dh-ch22-002
   - dh-ch22-005
   - dh-ch24-002
+  - dh-ch26-006
   - hbp-ch18-002
   - hbp-ch20-001
   - hbp-ch23-004
@@ -23484,6 +23632,7 @@ by_tag:
   - ps-ch05-006
   - ps-ch13-002
   hufflepuff-cup:
+  - dh-ch26-006
   - hbp-ch20-005
   hufflepuffs-cup:
   - hbp-ch23-007
@@ -23493,6 +23642,8 @@ by_tag:
   - gof-ch19-005
   hurling-hex:
   - poa-ch12-005
+  identification:
+  - dh-ch26-002
   identity-verification:
   - dh-ch05-003
   - hbp-ch04-002
@@ -23515,6 +23666,7 @@ by_tag:
   imperius-curse:
   - dh-ch05-004
   - dh-ch11-002
+  - dh-ch26-003
   - gof-ch14-003
   - gof-ch14-005
   - gof-ch34-002
@@ -23890,6 +24042,10 @@ by_tag:
   - dh-ch24-002
   - dh-ch24-004
   - dh-ch25-004
+  - dh-ch26-002
+  - dh-ch26-004
+  - dh-ch26-005
+  - dh-ch26-006
   lestranges:
   - ootp-ch08-001
   levicorpus:
@@ -25347,6 +25503,7 @@ by_tag:
   - hbp-ch16-006
   old-wizarding-families:
   - dh-ch25-004
+  - dh-ch26-002
   older-student:
   - gof-ch17-003
   olive-hornby:
@@ -25836,6 +25993,7 @@ by_tag:
   - dh-ch14-001
   - dh-ch16-005
   - dh-ch25-004
+  - dh-ch26-003
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
@@ -26117,6 +26275,8 @@ by_tag:
   probation:
   - ootp-ch17-006
   - ootp-ch25-004
+  probity-probes:
+  - dh-ch26-001
   procession:
   - gof-ch23-002
   professor-binns:
@@ -28285,6 +28445,8 @@ by_tag:
   - dh-ch24-004
   - dh-ch25-002
   - dh-ch25-003
+  - dh-ch26-005
+  - dh-ch26-007
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -28441,6 +28603,8 @@ by_tag:
   - ootp-ch34-001
   thief:
   - dh-ch14-007
+  thiefs-downfall:
+  - dh-ch26-003
   third-floor:
   - ootp-ch13-005
   third-floor-corridor:
@@ -28517,6 +28681,7 @@ by_tag:
   - cos-ch13-005
   - cos-ch18-001
   - dh-ch15-002
+  - dh-ch26-006
   - gof-ch01-001
   - hbp-ch13-003
   - hbp-ch13-004
@@ -28881,6 +29046,10 @@ by_tag:
   vault-security:
   - dh-ch24-002
   - dh-ch25-004
+  - dh-ch26-002
+  - dh-ch26-003
+  - dh-ch26-004
+  - dh-ch26-005
   veela:
   - dh-ch08-001
   - gof-ch08-006
@@ -29077,6 +29246,8 @@ by_tag:
   - ootp-ch13-004
   wand-use:
   - poa-ch20-003
+  wand-verification:
+  - dh-ch26-002
   wand-weighing:
   - gof-ch18-006
   wandlore:
@@ -29126,6 +29297,7 @@ by_tag:
   - dh-ch22-007
   - dh-ch24-001
   - dh-ch25-001
+  - dh-ch26-001
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -29266,9 +29438,12 @@ by_tag:
   - gof-ch36-003
   witnesses:
   - ootp-ch08-004
+  wizard-control:
+  - dh-ch26-001
   wizard-goblin-relations:
   - dh-ch15-005
   - dh-ch25-005
+  - dh-ch26-007
   - ootp-ch05-004
   wizard-law:
   - poa-ch02-003

@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 187
+- Total: 188
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 169
+- Harry Potter and the Deathly Hallows: 176
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,10 +23,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 483
-- later_editorial_note: 615
+- later_editorial_note: 621
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 5
-- pre_1984_historical_candidate: 127
+- pre_1984_historical_candidate: 128
 
 ## Entries by Reference Type
 
@@ -35,13 +35,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 56
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 100
-- historical_claim: 168
+- historical_claim: 170
 - house_system: 20
 - institutional_custom: 182
 - magical_architecture: 93
 - portrait_or_ghost_lore: 18
 - school_rule_or_policy: 131
-- security_or_protection: 210
+- security_or_protection: 215
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 900
+- Total: 905
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, pages 3383-3404, `sources/book-07/chapter-24-the-wandmaker.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, pages 3405-3419, `sources/book-07/chapter-25-shell-cottage.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, pages 3405-3419, `sources/book-07/chapter-25-shell-cottage.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Twenty-Six - Gringotts, pages 3420-3440, `sources/book-07/chapter-26-gringotts.yaml`

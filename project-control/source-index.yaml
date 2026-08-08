@@ -2246,3 +2246,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3405-3419.
+- source_unit_id: dh-ch26
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 26
+  chapter_title: Chapter Twenty-Six - Gringotts
+  page_start: 3420
+  page_end: 3440
+  output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  processed_at: '2026-08-08'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3420-3440.

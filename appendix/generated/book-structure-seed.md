@@ -1042,9 +1042,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Magical Institutions Beyond Hogwarts
 
 - Gringotts, Goblins, and Wizarding Power
+  - Cursed treasure and the false Sword of Gryffindor
   - Deep vault hierarchy and old-family treasure protection
+  - Dragon guardians, Clankers, and goblin-authorized vault entry
   - Goblin custodianship, secrecy, and founder relic claims
   - Lestrange vault security and Horcrux target selection
+  - The Thief's Downfall and anti-enchantment defenses
+  - Vault identification and special wartime orders
+  - Wartime entrance screening and Probity Probes
 
 ## Magical Institutions Beyond the Castle
 
@@ -1851,7 +1856,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Founder Relics and House Memory
   - The Sword of Gryffindor and worthy Gryffindors
 - Founders' Relics and Legacies
+  - Griphook's reclamation of the Sword of Gryffindor
   - Hufflepuff's cup and Slytherin's locket
+  - Hufflepuff's cup in the Lestrange vault
   - Sword authenticity, goblin silver, and Horcrux destruction
   - Sword custody, Gringotts vault panic, and false authentication
 - House Identity and Reputation
