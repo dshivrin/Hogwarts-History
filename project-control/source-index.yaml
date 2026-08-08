@@ -2258,3 +2258,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3420-3440.
+- source_unit_id: dh-ch27
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 27
+  chapter_title: Chapter Twenty-Seven - The Final Hiding Place
+  page_start: 3441
+  page_end: 3448
+  output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  processed_at: '2026-08-08'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 3441-3448.

@@ -12065,6 +12065,33 @@ Summary: The available evidence includes 1 source item, led by: Hermione helps H
   - Corroborates: `gof-ch15-002`, `gof-ch06-003`. gof-ch15-002 records Summoning Charm lesson preparation in the fourth-year workload, and gof-ch06-003 records a non-school use of Accio; this entry adds intensive student practice and long-distance first-task application planning.
   - Notes: The account follows Harry's accelerated practice rather than the ordinary lesson itself, so it should not be treated as a standard syllabus description.
 
+## Part: Dark Magic and Wartime Threats
+
+### Chapter: Horcruxes and Concealed Soul Magic
+
+#### Section: Voldemort's failure to sense Horcrux destruction
+
+Summary: The available evidence includes 1 source item, led by: Voldemort's reaction establishes that he did not sense the diary's destruction and fears other Horcrux losses only after learning of the stolen cup.
+
+- **Context:** Voldemort's reaction establishes that he did not sense the diary's destruction and fears other Horcrux losses only after learning of the stolen cup.
+  - Quote: "his anchors to immortality"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, PDF p. 3445, `dh-ch27-003`, `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is inferred from Voldemort's thoughts and may reflect his fragmented condition rather than a universally stated law of Horcrux magic.
+
+#### Section: Voldemort's late-war audit of hiding places
+
+Summary: The available evidence includes 1 source item, led by: Voldemort's private audit identifies the known surviving Horcrux hiding places as the cave lake, the Gaunt shack, Hogwarts, and Nagini, and frames each as needing renewed protection.
+
+- **Corroboration:** Voldemort's private audit identifies the known surviving Horcrux hiding places as the cave lake, the Gaunt shack, Hogwarts, and Nagini, and frames each as needing renewed protection.
+  - Quote: "the lake, the shack, and Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, PDF p. 3446, `dh-ch27-004`, `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch15-002`, `dh-ch26-006`. dh-ch15-002 records Hogwarts as a plausible Horcrux hiding place and dh-ch26-006 records the stolen cup; this entry adds Voldemort's own post-cup audit of all remaining hiding places.
+  - Notes: The scene gives Voldemort's mental sequence, not a neutral inventory with dates of placement.
+
 ## Part: Defense, Mind Magic, and the Umbridge Year
 
 ### Chapter: Dumbledore's Army and Practical Defense
@@ -13116,6 +13143,18 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
 
 ### Chapter: Gringotts, Goblins, and Wizarding Power
 
+#### Section: Break-in reporting and the stolen cup
+
+Summary: The available evidence includes 1 source item, led by: The Gringotts breach reaches Voldemort through a terrified goblin report naming Potter and two accomplices as impostors who took the small golden cup from the Lestrange vault.
+
+- **Corroboration:** The Gringotts breach reaches Voldemort through a terrified goblin report naming Potter and two accomplices as impostors who took the small golden cup from the Lestrange vault.
+  - Quote: "A small golden cup"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, PDF p. 3444, `dh-ch27-002`, `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch26-006`, `dh-ch24-002`. dh-ch26-006 confirms the cup in the Lestrange vault, and dh-ch24-002 records the vault as a suspected Horcrux target; this entry adds the post-breach report to Voldemort and his immediate response.
+  - Notes: The report is filtered through Harry's scar connection into Voldemort's viewpoint, and it does not name which goblin reports the breach.
+
 #### Section: Cursed treasure and the false Sword of Gryffindor
 
 Summary: The available evidence includes 1 source item, led by: The Lestrange vault contains the fake Sword of Gryffindor and is protected by Gemino and Flagrante Curses that make touched treasure burn and multiply.
@@ -13664,6 +13703,20 @@ Summary: The available evidence includes 1 source item, led by: A silent corpore
   - Reference type: security_or_protection
   - Corroborates: `dh-ch08-007`, `dh-ch09-007`. Earlier Deathly Hallows entries record speaking Patronus warnings; this entry is related but distinct because the Patronus silently guides Harry to a hidden founder relic.
   - Notes: The caster is not identified in this chapter, so the entry should not attribute the doe to Snape here.
+
+### Chapter: Protective Magic and Security
+
+#### Section: Emergency field recovery after the Gringotts dragon escape
+
+Summary: The available evidence includes 1 source item, led by: After escaping Gringotts on the blind dragon, the trio dismount by jumping into a lake, immediately reestablish field protections, and use Essence of Dittany and carried supplies for emergency recovery.
+
+- **Corroboration:** After escaping Gringotts on the blind dragon, the trio dismount by jumping into a lake, immediately reestablish field protections, and use Essence of Dittany and carried supplies for emergency recovery.
+  - Quote: "started casting the usual protective spells"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, PDF p. 3443, `dh-ch27-001`, `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch26-004`, `dh-ch14-001`, `dh-ch15-001`. dh-ch26-004 records the dragon as a Gringotts vault guardian, dh-ch14-001 records dittany field treatment, and dh-ch15-001 records mobile protective enchantments; this entry combines those threads in the escape aftermath.
+  - Notes: The specific protective spells Harry casts are not named in this chapter.
 
 ### Chapter: The Second War and Hogwarts Students
 
@@ -14943,6 +14996,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione exploit
 
 ## Part: The Castle and Its Magic
 
+### Chapter: Boundaries, Wards, and Exceptional Magic
+
+#### Section: Hogsmeade detection and Snape-era castle access
+
+Summary: The available evidence includes 1 source item, led by: Voldemort treats Hogsmeade and Hogwarts as protected against unnoticed entry under Snape's headmastership, while Harry plans to approach through Hogsmeade and assess the school's defenses directly.
+
+- **Corroboration:** Voldemort treats Hogsmeade and Hogwarts as protected against unnoticed entry under Snape's headmastership, while Harry plans to approach through Hogsmeade and assess the school's defenses directly.
+  - Quote: "protection around the school's like"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, PDF p. 3446, `dh-ch27-006`, `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch16-002`, `hbp-ch27-001`. dh-ch16-002 records Snape-era Hogwarts control and Hogsmeade bans, while hbp-ch27-001 records emergency Hogsmeade-to-Hogwarts access; this entry adds Voldemort's detection assumption and Harry's plan to inspect current protections.
+  - Notes: The actual Hogsmeade and Hogwarts defenses are not observed until the next source unit.
+
 ### Chapter: Hogwarts as a Magical Stronghold
 
 #### Section: Ancient magic, hidden stores, and institutional pull
@@ -14967,6 +15034,18 @@ Summary: The available evidence includes 1 source item, led by: The Horcrux sear
   - Reference type: historical_claim
   - Corroborates: `hbp-ch20-004`, `hbp-ch20-005`. Likely overlaps hbp-ch20-004 on Hogwarts as Voldemort's only home and hidden stronghold, and hbp-ch20-005 on founder relics; this entry adds the trio's operational Horcrux-location reasoning during the hunt.
   - Notes: Harry's Hogwarts hypothesis is argued rather than proven in this chapter, and Hermione temporarily defeats it by noting Voldemort did not get the teaching post.
+
+#### Section: Voldemort's claimed knowledge of the castle's deepest secrets
+
+Summary: The available evidence includes 1 source item, led by: Voldemort confirms that one Horcrux is hidden somewhere in Hogwarts and bases its safety on his belief that he alone mastered the castle's deepest secrets.
+
+- **Corroboration:** Voldemort confirms that one Horcrux is hidden somewhere in Hogwarts and bases its safety on his belief that he alone mastered the castle's deepest secrets.
+  - Quote: "deepest secrets of that place"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, PDF p. 3446, `dh-ch27-005`, `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch15-002`, `hbp-ch20-004`. dh-ch15-002 records Harry's operational hypothesis that Hogwarts is a likely hiding place because of Voldemort's attachment and castle secrets; hbp-ch20-004 records Dumbledore's earlier Hogwarts-as-home analysis. This entry confirms the claim from Voldemort's own perspective.
+  - Notes: The exact room and object are not identified in this chapter.
 
 ## Part: The Castle and Its Protections
 

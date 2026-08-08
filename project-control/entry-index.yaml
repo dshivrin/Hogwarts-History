@@ -18907,6 +18907,102 @@ by_entry:
     - wizard-goblin-relations
     source_unit: dh-ch26
     output_yaml: sources/book-07/chapter-26-gringotts.yaml
+  dh-ch27-001:
+    title: 'Protective Magic and Security: Emergency field recovery after the Gringotts
+      dragon escape'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - dittany
+    - dragon
+    - field-healing
+    - gringotts
+    - horcrux-hunt
+    - magical-creatures
+    - protective-enchantments
+    source_unit: dh-ch27
+    output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  dh-ch27-002:
+    title: 'Gringotts, Goblins, and Wizarding Power: Break-in reporting and the stolen
+      cup'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - goblins
+    - gringotts
+    - horcruxes
+    - hufflepuff-cup
+    - lestrange-vault
+    - second-war
+    - voldemort
+    source_unit: dh-ch27
+    output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  dh-ch27-003:
+    title: 'Horcruxes and Concealed Soul Magic: Voldemort''s failure to sense Horcrux
+      destruction'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - diary-horcrux
+    - horcruxes
+    - hufflepuff-cup
+    - immortality
+    - magical-theory
+    - soul-magic
+    - voldemort
+    source_unit: dh-ch27
+    output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  dh-ch27-004:
+    title: 'Horcruxes and Concealed Soul Magic: Voldemort''s late-war audit of hiding
+      places'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cave-lake
+    - gaunt-shack
+    - hiding-places
+    - hogwarts
+    - horcruxes
+    - nagini
+    - voldemort
+    source_unit: dh-ch27
+    output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  dh-ch27-005:
+    title: 'Hogwarts as a Magical Stronghold: Voldemort''s claimed knowledge of the
+      castle''s deepest secrets'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-secrets
+    - hidden-rooms
+    - hogwarts
+    - horcruxes
+    - magical-architecture
+    - ravenclaw-diadem
+    - voldemort-history
+    source_unit: dh-ch27
+    output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  dh-ch27-006:
+    title: 'Boundaries, Wards, and Exceptional Magic: Hogsmeade detection and Snape-era
+      castle access'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - castle-entry
+    - detection
+    - hogsmeade
+    - hogwarts
+    - invisibility-cloak
+    - severus-snape
+    - wartime-security
+    source_unit: dh-ch27
+    output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19781,6 +19877,8 @@ by_tag:
   - ootp-ch21-003
   castle-doors:
   - hbp-ch22-003
+  castle-entry:
+  - dh-ch27-006
   castle-gates:
   - ootp-ch16-001
   castle-ghosts:
@@ -19837,6 +19935,7 @@ by_tag:
   castle-secrets:
   - cos-ch09-005
   - dh-ch15-002
+  - dh-ch27-005
   - hbp-ch20-004
   castle-security:
   - cos-ch07-006
@@ -19868,6 +19967,8 @@ by_tag:
   - hbp-ch26-003
   cave-defenses:
   - dh-ch10-006
+  cave-lake:
+  - dh-ch27-004
   cedric-diggory:
   - gof-ch06-004
   - gof-ch16-007
@@ -20810,6 +20911,8 @@ by_tag:
   - ootp-ch25-006
   desire-based-magic:
   - ps-ch17-003
+  detection:
+  - dh-ch27-006
   detention:
   - cos-ch05-005
   - cos-ch07-006
@@ -20844,6 +20947,8 @@ by_tag:
   - poa-ch03-003
   - poa-ch04-001
   - ps-ch05-003
+  diary-horcrux:
+  - dh-ch27-003
   diffindo:
   - ootp-ch35-006
   dilys-derwent:
@@ -20906,6 +21011,7 @@ by_tag:
   - poa-ch16-006
   dittany:
   - dh-ch14-001
+  - dh-ch27-001
   - hbp-ch24-004
   - ps-ch14-001
   divination:
@@ -21007,6 +21113,7 @@ by_tag:
   - hbp-ch27-004
   dragon:
   - dh-ch26-004
+  - dh-ch27-001
   dragon-blood:
   - dh-ch02-005
   dragon-breeds:
@@ -21672,6 +21779,8 @@ by_tag:
   - hbp-ch02-004
   field-booking:
   - cos-ch07-002
+  field-healing:
+  - dh-ch27-001
   field-reading:
   - dh-ch19-001
   field-security:
@@ -22075,6 +22184,8 @@ by_tag:
   - hbp-ch10-007
   gaunt-ring:
   - dh-ch22-004
+  gaunt-shack:
+  - dh-ch27-004
   gemino-curse:
   - dh-ch26-005
   gendered-rules:
@@ -22191,6 +22302,7 @@ by_tag:
   - dh-ch24-002
   - dh-ch24-003
   - dh-ch25-003
+  - dh-ch27-002
   - gof-ch37-007
   - ootp-ch05-004
   - ootp-ch07-003
@@ -22388,6 +22500,8 @@ by_tag:
   - dh-ch26-004
   - dh-ch26-005
   - dh-ch26-007
+  - dh-ch27-001
+  - dh-ch27-002
   - gof-ch05-001
   - ootp-ch10-005
   - ootp-ch29-003
@@ -22977,6 +23091,8 @@ by_tag:
   - gof-ch23-004
   - hbp-ch25-003
   - ootp-ch18-005
+  hidden-rooms:
+  - dh-ch27-005
   hidden-staircase:
   - gof-ch28-006
   hidden-trapdoor:
@@ -22984,6 +23100,8 @@ by_tag:
   hidden-voice:
   - cos-ch07-006
   - cos-ch08-006
+  hiding-places:
+  - dh-ch27-004
   high-inquisitor:
   - ootp-ch15-001
   - ootp-ch17-001
@@ -23054,6 +23172,7 @@ by_tag:
   - ootp-ch37-006
   - ps-ch16-003
   hogsmeade:
+  - dh-ch27-006
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
@@ -23111,6 +23230,9 @@ by_tag:
   - dh-ch22-007
   - dh-ch24-001
   - dh-ch24-007
+  - dh-ch27-004
+  - dh-ch27-005
+  - dh-ch27-006
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -23384,6 +23506,7 @@ by_tag:
   - dh-ch16-001
   - dh-ch19-001
   - dh-ch19-002
+  - dh-ch27-001
   horcrux-mission:
   - hbp-ch30-007
   horcruxes:
@@ -23396,6 +23519,10 @@ by_tag:
   - dh-ch22-005
   - dh-ch24-002
   - dh-ch26-006
+  - dh-ch27-002
+  - dh-ch27-003
+  - dh-ch27-004
+  - dh-ch27-005
   - hbp-ch18-002
   - hbp-ch20-001
   - hbp-ch23-004
@@ -23633,6 +23760,8 @@ by_tag:
   - ps-ch13-002
   hufflepuff-cup:
   - dh-ch26-006
+  - dh-ch27-002
+  - dh-ch27-003
   - hbp-ch20-005
   hufflepuffs-cup:
   - hbp-ch23-007
@@ -23657,6 +23786,8 @@ by_tag:
   - ps-ch14-004
   illegal-curses:
   - gof-ch14-002
+  immortality:
+  - dh-ch27-003
   impediment-curse:
   - gof-ch29-004
   impediment-jinx:
@@ -23837,6 +23968,7 @@ by_tag:
   - dh-ch21-003
   - dh-ch21-004
   - dh-ch22-003
+  - dh-ch27-006
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -24046,6 +24178,7 @@ by_tag:
   - dh-ch26-004
   - dh-ch26-005
   - dh-ch26-006
+  - dh-ch27-002
   lestranges:
   - ootp-ch08-001
   levicorpus:
@@ -24290,6 +24423,7 @@ by_tag:
   - dh-ch08-001
   - dh-ch12-006
   - dh-ch23-002
+  - dh-ch27-005
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -24387,6 +24521,7 @@ by_tag:
   - dh-ch11-005
   - dh-ch12-007
   - dh-ch20-006
+  - dh-ch27-001
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -24609,6 +24744,7 @@ by_tag:
   - gof-ch23-003
   magical-theory:
   - dh-ch15-003
+  - dh-ch27-003
   - ootp-ch38-006
   magical-traces:
   - hbp-ch26-002
@@ -25323,6 +25459,7 @@ by_tag:
   nagini:
   - dh-ch17-003
   - dh-ch17-005
+  - dh-ch27-004
   - gof-ch01-005
   named-book:
   - ps-ch11-002
@@ -26456,6 +26593,7 @@ by_tag:
   - dh-ch16-001
   - dh-ch19-002
   - dh-ch20-001
+  - dh-ch27-001
   - hbp-ch27-003
   - hbp-ch29-003
   - ootp-ch34-006
@@ -26716,6 +26854,7 @@ by_tag:
   - ps-ch06-005
   ravenclaw-diadem:
   - dh-ch25-006
+  - dh-ch27-005
   - hbp-ch24-005
   reception-customs:
   - dh-ch08-001
@@ -27287,6 +27426,7 @@ by_tag:
   - dh-ch23-002
   - dh-ch24-002
   - dh-ch25-007
+  - dh-ch27-002
   - hbp-ch01-004
   - hbp-ch01-005
   - hbp-ch01-006
@@ -27454,6 +27594,7 @@ by_tag:
   severus-snape:
   - dh-ch12-001
   - dh-ch16-002
+  - dh-ch27-006
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -27765,6 +27906,7 @@ by_tag:
   - ootp-ch19-002
   soul-magic:
   - dh-ch06-007
+  - dh-ch27-003
   - hbp-ch23-005
   source-criticism:
   - dh-ch02-006
@@ -29111,6 +29253,9 @@ by_tag:
   - dh-ch23-006
   - dh-ch23-007
   - dh-ch24-007
+  - dh-ch27-002
+  - dh-ch27-003
+  - dh-ch27-004
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -29171,6 +29316,7 @@ by_tag:
   - hbp-ch10-007
   voldemort-history:
   - dh-ch15-002
+  - dh-ch27-005
   - hbp-ch13-001
   - hbp-ch13-007
   - hbp-ch20-004
@@ -29298,6 +29444,7 @@ by_tag:
   - dh-ch24-001
   - dh-ch25-001
   - dh-ch26-001
+  - dh-ch27-006
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001

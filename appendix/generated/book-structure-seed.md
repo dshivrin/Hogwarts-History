@@ -371,6 +371,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Charms Instruction and Independent Practice
   - Summoning Charms Beyond the Classroom
 
+## Dark Magic and Wartime Threats
+
+- Horcruxes and Concealed Soul Magic
+  - Voldemort's failure to sense Horcrux destruction
+  - Voldemort's late-war audit of hiding places
+
 ## Defense, Mind Magic, and the Umbridge Year
 
 - Dumbledore's Army and Practical Defense
@@ -1042,6 +1048,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Magical Institutions Beyond Hogwarts
 
 - Gringotts, Goblins, and Wizarding Power
+  - Break-in reporting and the stolen cup
   - Cursed treasure and the false Sword of Gryffindor
   - Deep vault hierarchy and old-family treasure protection
   - Dragon guardians, Clankers, and goblin-authorized vault entry
@@ -1205,6 +1212,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Snatchers and rewards for school-age fugitives
 - Patronus Messages, Guardians, And Covert Aid
   - A corporeal Patronus as a guide rather than only a message
+- Protective Magic and Security
+  - Emergency field recovery after the Gringotts dragon escape
 - The Second War and Hogwarts Students
   - Hogwarts Express abduction and hostage pressure
 - The Second War and Hogwarts-Connected Captives
@@ -1815,9 +1824,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## The Castle and Its Magic
 
+- Boundaries, Wards, and Exceptional Magic
+  - Hogsmeade detection and Snape-era castle access
 - Hogwarts as a Magical Stronghold
   - Ancient magic, hidden stores, and institutional pull
   - Horcrux search logic and hidden castle secrets
+  - Voldemort's claimed knowledge of the castle's deepest secrets
 
 ## The Castle and Its Protections
 

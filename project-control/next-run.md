@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-Seven - The Final Hiding Place
-- Page range: 3441-3448
+- Chapter: Chapter Twenty-Eight - The Missing Mirror
+- Page range: 3449-3462
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-27-the-final-hiding-place.yaml`
+- Output YAML: `sources/book-07/chapter-28-the-missing-mirror.yaml`
 
 ## Minimal Context
 
