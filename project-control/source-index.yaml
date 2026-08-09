@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-08'
+updated: '2026-08-09'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2270,3 +2270,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 3441-3448.
+- source_unit_id: dh-ch28
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 28
+  chapter_title: Chapter Twenty-Eight - The Missing Mirror
+  page_start: 3449
+  page_end: 3462
+  output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  processed_at: '2026-08-09'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3449-3462.

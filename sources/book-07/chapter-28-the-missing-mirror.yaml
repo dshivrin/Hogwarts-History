@@ -1,0 +1,347 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Eight - The Missing Mirror
+  chapter_start_pdf_page: 3449
+  chapter_end_pdf_page: 3462
+  boundary_confidence: high
+  boundary_notes: "Processing-state supplied an inclusive page range. Bounded pypdf extraction begins with the Chapter Twenty-Eight heading on PDF page 3449 and ends before the next expected source unit on PDF page 3463."
+  processed_date: "2026-08-09"
+  processor_notes: "Routine bounded extraction; no explicit Hogwarts: A History references found."
+
+entries:
+  - id: dh-ch28-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3449
+    printed_page: null
+    extracted_text_lines: "6-18; 41-60; 109-118"
+    text_anchor:
+      start_phrase: "Harry's feet touched road"
+      end_phrase: "the Death Eaters had cast their charms well"
+      local_occurrence_note: "The trio lands in Hogsmeade, immediately triggers an alarm, and discovers that Death Eaters have prepared anti-escape charms and curfew enforcement."
+    nearby_context: "The arrival follows the Gringotts escape and Harry's decision to enter Hogwarts through Hogsmeade before Voldemort moves the hidden Horcrux."
+    match_terms:
+      - Hogsmeade
+      - Caterwauling Charm
+      - Death Eaters
+      - Disapparate
+      - dementors
+      - curfew
+      - Three Broomsticks
+    quote_excerpt_short: "They set up that spell to tell them we'd come"
+    source_note: "Hogsmeade has become a prepared wartime trap: entry sets off an alarm, Death Eaters search the village, anti-Disapparition charms prevent escape, and curfew violations can summon armed scrutiny."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogsmeade
+      - caterwauling-charm
+      - death-eaters
+      - anti-disapparition
+      - curfew
+      - dementors
+      - wartime-security
+    candidate_part: Part III - The War Beyond The Gates
+    candidate_chapter: Hogsmeade Under Occupation
+    candidate_section: Caterwauling alarms and anti-escape charms
+    reason_for_placement: "The scene documents how Hogwarts-adjacent village access changed from ordinary student travel into hostile perimeter security during the final year of the war."
+    relevance_to_hogwarts_a_history: "A later edition can contrast earlier Hogsmeade permissions and crisis patrols with the 1998 occupation defenses surrounding routes to Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch10-005
+        - hbp-ch27-001
+        - dh-ch27-006
+      notes: "poa-ch10-005 records earlier Hogsmeade dementor patrols, hbp-ch27-001 records Hogsmeade as an emergency Hogwarts access point, and dh-ch27-006 anticipates protected Hogsmeade access; this entry adds the Caterwauling alarm, anti-Disapparition trap, and curfew enforcement."
+    confidence: high
+    limitations: "The chapter shows the effects of the charms but does not name the anti-Disapparition spell or who cast it."
+
+  - id: dh-ch28-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3451
+    printed_page: null
+    extracted_text_lines: "73-91; 98-131"
+    text_anchor:
+      start_phrase: "The silver stag burst from his wand"
+      end_phrase: "It's a goat, idiot"
+      local_occurrence_note: "Aberforth pulls the trio into the Hog's Head and deflects Death Eater suspicion by producing his own goat Patronus."
+    nearby_context: "Dementors force Harry to cast a stag Patronus that reveals his presence; Aberforth turns the incident into a disputed curfew matter."
+    match_terms:
+      - Hog's Head
+      - Aberforth
+      - Patronus
+      - goat
+      - Death Eaters
+      - curfew
+      - potions and poisons
+    quote_excerpt_short: "You send dementors down my street"
+    source_note: "Aberforth Dumbledore uses the Hog's Head's local reputation, his goat Patronus, and Death Eater dependence on the pub's discretion to hide Potter's presence."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - aberforth-dumbledore
+      - hogs-head
+      - patronus
+      - death-eaters
+      - curfew
+      - hogsmeade
+      - wartime-resistance
+    candidate_part: Part III - The War Beyond The Gates
+    candidate_chapter: Hogsmeade Under Occupation
+    candidate_section: The Hog's Head as a covert shelter
+    reason_for_placement: "The passage shows how an unofficial Hogsmeade venue can function as a shelter and intelligence-adjacent space under occupation."
+    relevance_to_hogwarts_a_history: "A later edition can use this as evidence for Hogwarts-adjacent resistance infrastructure beyond the castle gates."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch19-003
+        - dh-ch22-007
+      notes: "dh-ch19-003 records a different unexplained Patronus guide and dh-ch22-007 records wartime exposure after Hogwarts resistance news; this entry adds Aberforth's goat Patronus cover story and the Hog's Head's occupied-village role."
+    confidence: high
+    limitations: "Aberforth's accusation about Death Eater sideline trade is strategic dialogue during a confrontation, not independently verified."
+
+  - id: dh-ch28-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3453
+    printed_page: null
+    extracted_text_lines: "138-165"
+    text_anchor:
+      start_phrase: "Harry's attention was caught by something on the mantelpiece"
+      end_phrase: "Been trying to keep an eye out for you"
+      local_occurrence_note: "Harry identifies Aberforth as the blue eye in Sirius's mirror and learns that Aberforth bought the twin mirror from Mundungus."
+    nearby_context: "The mirror revelation explains how Dobby was sent to Malfoy Manor and why Aberforth was able to watch for Harry after the mirror shard survived."
+    match_terms:
+      - Sirius's mirror
+      - Aberforth
+      - Mundungus
+      - Albus
+      - Dobby
+      - magical communication
+      - mantelpiece
+    quote_excerpt_short: "Albus told me what it was"
+    source_note: "The two-way mirror survives as a covert communication artifact when Aberforth buys one half from Mundungus and monitors Harry closely enough to send Dobby."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - sirius-mirror
+      - aberforth-dumbledore
+      - mundungus-fletcher
+      - albus-dumbledore
+      - dobby
+      - magical-communication
+      - covert-aid
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: Communication Artifacts and Wartime Rescue
+    candidate_section: Sirius Black's mirror in Aberforth's keeping
+    reason_for_placement: "The passage resolves the source of an off-campus rescue channel and connects Black-family artifacts, Mundungus's salvage, and Dumbledore-family intervention."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference the mirror as a non-school artifact that directly enabled the final return to Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch23-005
+      notes: "dh-ch23-005 records Dobby's Malfoy Manor rescue; this entry explains Aberforth's mirror-based monitoring and how Dobby was sent."
+    confidence: high
+    limitations: "The chapter does not give a technical rule for how the mirror selects or alerts its paired user."
+
+  - id: dh-ch28-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3457
+    printed_page: null
+    extracted_text_lines: "276-299"
+    text_anchor:
+      start_phrase: "When my sister was six years old"
+      end_phrase: "tried to keep her calm and happy"
+      local_occurrence_note: "Aberforth gives firsthand testimony about Ariana's childhood attack, Percival's retaliation, and the family's concealment of her unstable magic."
+    nearby_context: "Hermione's question about Ariana leads Aberforth to challenge public Dumbledore-family narratives and explain why the family moved house."
+    match_terms:
+      - Ariana Dumbledore
+      - Muggle boys
+      - Percival Dumbledore
+      - Azkaban
+      - St. Mungo's
+      - International Statute of Secrecy
+      - hidden magic
+    quote_excerpt_short: "a serious threat to the International Statute of Secrecy"
+    source_note: "Aberforth says Ariana was traumatized after Muggle boys saw her uncontrolled childhood magic, that Percival hid the motive for his revenge, and that the family concealed Ariana to avoid St. Mungo's and Statute-of-Secrecy consequences."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ariana-dumbledore
+      - aberforth-dumbledore
+      - percival-dumbledore
+      - statute-of-secrecy
+      - st-mungos
+      - dumbledore-family
+      - magical-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: The Dumbledore Family Before Hogwarts Headmastership
+    candidate_section: Ariana's attack and family concealment
+    reason_for_placement: "The testimony gives a private family history that explains Percival's imprisonment, Ariana's seclusion, and Albus Dumbledore's early domestic responsibilities."
+    relevance_to_hogwarts_a_history: "A future edition can use this as later-surfaced evidence for Dumbledore's pre-headmaster biography and the secrecy pressures faced by magical families."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch16-004
+      notes: "dh-ch16-004 treats Bathilda Bagshot as a living Dumbledore source; this entry adds Aberforth's firsthand account of Ariana's attack, Percival's silence, and the family's concealment choices."
+    confidence: medium
+    limitations: "The account is emotionally charged firsthand testimony from Aberforth and should be balanced against other Dumbledore-family sources."
+
+  - id: dh-ch28-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3459
+    printed_page: null
+    extracted_text_lines: "320-342; 348-376; 384-400"
+    text_anchor:
+      start_phrase: "So that put paid to Albus's trip round the world"
+      end_phrase: "you wouldn't say he was free"
+      local_occurrence_note: "Aberforth describes Albus, Grindelwald, Hallows plans, the duel that killed Ariana, and Harry later connects Dumbledore's cave-potion torment to that guilt."
+    nearby_context: "The testimony follows Aberforth's account of Ariana's seclusion and Kendra's accidental death."
+    match_terms:
+      - Albus Dumbledore
+      - Grindelwald
+      - Hallows
+      - greater good
+      - Ariana
+      - Cruciatus Curse
+      - duel
+    quote_excerpt_short: "hatching all their plans for a new Wizarding order"
+    source_note: "Aberforth links Albus and Grindelwald's youthful Greater Good program and Hallows interest to Ariana's neglect, a three-way duel, Grindelwald's flight, and Dumbledore's lifelong guilt."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - aberforth-dumbledore
+      - ariana-dumbledore
+      - grindelwald
+      - deathly-hallows
+      - greater-good
+      - magical-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Dumbledore, Grindelwald, and the Greater Good
+    candidate_section: Ariana's death and the break with Grindelwald
+    reason_for_placement: "The passage gives a late, family-side account of the origins and collapse of Dumbledore's youthful alliance with Grindelwald."
+    relevance_to_hogwarts_a_history: "A later edition can place Dumbledore's headmaster-era choices against his pre-Hogwarts public life, family trauma, and early entanglement with Hallows ideology."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch23-007
+        - dh-ch24-007
+      notes: "dh-ch23-007 and dh-ch24-007 track Grindelwald and the Elder Wand from Voldemort's search; this entry adds Aberforth's firsthand account of the Dumbledore-Grindelwald rupture and Ariana's death."
+    confidence: medium
+    limitations: "Aberforth cannot identify which duelist killed Ariana, and the account is shaped by grief and resentment."
+
+  - id: dh-ch28-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3462
+    printed_page: null
+    extracted_text_lines: "446-451"
+    text_anchor:
+      start_phrase: "There's only one way in now"
+      end_phrase: "with Snape in charge and the Carrows as his deputies"
+      local_occurrence_note: "Aberforth summarizes Hogwarts's occupied-state defenses immediately before opening the portrait tunnel route."
+    nearby_context: "Harry asks for help entering Hogwarts, and Aberforth warns that the old routes and school boundaries are heavily guarded."
+    match_terms:
+      - secret passageways
+      - dementors
+      - boundary walls
+      - patrols
+      - Snape
+      - Carrows
+      - Hogwarts
+    quote_excerpt_short: "all the old secret passageways covered at both ends"
+    source_note: "By the final battle's eve, Hogwarts has covered secret passage exits, dementors at the boundary walls, regular interior patrols, Snape as headmaster, and the Carrows as deputies."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts
+      - secret-passageways
+      - dementors
+      - boundary-walls
+      - patrols
+      - severus-snape
+      - carrows
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Snape's Hogwarts Regime
+    candidate_section: Occupation defenses around the castle
+    reason_for_placement: "The passage gives a compact tactical summary of castle access, boundary control, and governing personnel immediately before the Battle of Hogwarts."
+    relevance_to_hogwarts_a_history: "A later edition can use this to document the maximum-security state of Hogwarts under Voldemort-backed administration."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch12-001
+        - dh-ch16-002
+        - dh-ch27-005
+      notes: "dh-ch12-001 records Snape and the Carrows' appointments, dh-ch16-002 records earlier portrait reports from the regime, and dh-ch27-005 records Voldemort's confidence in hidden castle secrets; this entry adds the occupied castle's concrete access defenses."
+    confidence: high
+    limitations: "Aberforth cites unnamed sources for the patrol details, and the chapter does not yet show the interior conditions firsthand."
+
+  - id: dh-ch28-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty-Eight - The Missing Mirror
+    chapter_start_pdf_page: 3449
+    chapter_end_pdf_page: 3462
+    pdf_page: 3462
+    printed_page: null
+    extracted_text_lines: "437-463"
+    text_anchor:
+      start_phrase: "approached the portrait of Ariana"
+      end_phrase: "clambered the real Neville Longbottom"
+      local_occurrence_note: "Aberforth sends Ariana's portrait down a painted tunnel; she returns with Neville, and the frame opens onto a real passage."
+    nearby_context: "The portrait route is introduced as the only remaining way into Hogwarts after older secret passages and boundaries are covered."
+    match_terms:
+      - Ariana portrait
+      - tunnel
+      - Neville Longbottom
+      - Hogwarts
+      - portrait door
+      - secret entrance
+      - Room of Requirement
+    quote_excerpt_short: "the entrance to a real tunnel was revealed"
+    source_note: "Ariana Dumbledore's portrait contains or accesses a painted tunnel that corresponds to a real passage, allowing Neville Longbottom to travel from Hogwarts to the Hog's Head."
+    reference_type: portrait_or_ghost_lore
+    era_classification: later_editorial_note
+    topic_tags:
+      - ariana-dumbledore
+      - portraits
+      - hogs-head
+      - secret-passage
+      - neville-longbottom
+      - hogwarts
+      - magical-architecture
+    candidate_part: Hogwarts Buildings and Enchantments
+    candidate_chapter: Hidden Rooms, Passages, and Portrait Routes
+    candidate_section: Ariana's portrait tunnel to the Hog's Head
+    reason_for_placement: "The scene reveals a late-war portrait-mediated passage that bypasses the known covered secret routes into Hogwarts."
+    relevance_to_hogwarts_a_history: "A later edition can treat the tunnel as a rare case where portrait magic and castle architecture combine to create an emergency route into the school."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch15-007
+        - dh-ch27-005
+      notes: "dh-ch15-007 records limits on ordinary Hogwarts portrait movement and dh-ch27-005 records hidden castle secrets; this entry adds a specific portrait-linked physical tunnel from the Hog's Head to Hogwarts."
+    confidence: high
+    limitations: "The chapter does not yet name the Hogwarts endpoint or explain who created the passage."

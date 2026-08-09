@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-Eight - The Missing Mirror
-- Page range: 3449-3462
+- Chapter: Chapter Twenty-Nine - The Lost Diadem
+- Page range: 3463-3477
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-28-the-missing-mirror.yaml`
+- Output YAML: `sources/book-07/chapter-29-the-lost-diadem.yaml`
 
 ## Minimal Context
 

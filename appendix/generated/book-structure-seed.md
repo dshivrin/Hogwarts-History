@@ -479,6 +479,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Former headmasters as mobile portrait witnesses
   - Portrait communication limits and linked frames
   - Portrait surveillance and office artifacts under Snape
+- Hidden Rooms, Passages, and Portrait Routes
+  - Ariana's portrait tunnel to the Hog's Head
 
 ## Hogwarts Curriculum and Instruction
 
@@ -1072,6 +1074,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Cloaks, Concealment, and Anti-Detection
   - True Invisibility Cloaks versus lesser concealment cloaks
+- Communication Artifacts and Wartime Rescue
+  - Sirius Black's mirror in Aberforth's keeping
 - The Deathly Hallows
   - Potter Cloak provenance and Dumbledore's examination
   - Snitch bequest and suspected Stone concealment
@@ -1134,12 +1138,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Dumbledore, Grindelwald, and the Deathly Hallows
   - Hallows symbol, believers, and the Quest
   - Symbol evidence before Xenophilius's explanation
+- Dumbledore, Grindelwald, and the Greater Good
+  - Ariana's death and the break with Grindelwald
 - First Wizarding War and Hogwarts Families
   - The Longbottom Aurors and Bellatrix Lestrange
 - Godric's Hollow and the Dumbledore Family
   - Bathilda Bagshot as Neighbor and Historical Source
 - Old Wizarding Families and Artifact Inheritance
   - Peverell descent through vanished male lines
+- The Dumbledore Family Before Hogwarts Headmastership
+  - Ariana's attack and family concealment
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
   - Voldemort's memory of the Potter cottage attack
@@ -1204,6 +1212,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part III - The War Beyond The Gates
 
+- Hogsmeade Under Occupation
+  - Caterwauling alarms and anti-escape charms
+  - The Hog's Head as a covert shelter
 - Information Security and Secret Keeping
   - Fidelius-protected refuge access and emergency verification
   - Wartime family relocation and Shell Cottage Fidelius protections
@@ -1585,6 +1596,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Restricted Objects and Student Misuse
   - Love-potion sweets and staff antidote response
 - Snape's Hogwarts Regime
+  - Occupation defenses around the castle
   - Portrait reports of student resistance and restored decrees
 - Staff Appointment, Disclosure, and Safety
   - Werewolf Disclosure and Resignation

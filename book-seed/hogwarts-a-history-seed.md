@@ -4529,6 +4529,18 @@ Summary: The available evidence includes 1 source item, led by: Spiked sweets ca
 
 ### Chapter: Snape's Hogwarts Regime
 
+#### Section: Occupation defenses around the castle
+
+Summary: The available evidence includes 1 source item, led by: By the final battle's eve, Hogwarts has covered secret passage exits, dementors at the boundary walls, regular interior patrols, Snape as headmaster, and the Carrows as deputies.
+
+- **Corroboration:** By the final battle's eve, Hogwarts has covered secret passage exits, dementors at the boundary walls, regular interior patrols, Snape as headmaster, and the Carrows as deputies.
+  - Quote: "all the old secret passageways covered at both ends"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3462, `dh-ch28-006`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch12-001`, `dh-ch16-002`, `dh-ch27-005`. dh-ch12-001 records Snape and the Carrows' appointments, dh-ch16-002 records earlier portrait reports from the regime, and dh-ch27-005 records Voldemort's confidence in hidden castle secrets; this entry adds the occupied castle's concrete access defenses.
+  - Notes: Aberforth cites unnamed sources for the patrol details, and the chapter does not yet show the interior conditions firsthand.
+
 #### Section: Portrait reports of student resistance and restored decrees
 
 Summary: The available evidence includes 1 source item, led by: Phineas Nigellus acts as a blindfolded, linked portrait informant from Hogwarts, reporting Snape's Slytherin headmastership, student mutiny, Ginny's Hogsmeade ban, and the restored anti-gathering decree.
@@ -7730,6 +7742,20 @@ Summary: The available evidence includes 1 source item, led by: The triangular m
   - Corroborates: `dh-ch08-002`. dh-ch08-002 records Krum's claim that the symbol was Grindelwald's sign at Durmstrang; this entry adds the Beedle, Dumbledore-letter, and Godric's Hollow evidence that complicates that interpretation.
   - Notes: The chapter has not yet supplied Xenophilius's explanation, so the symbol's full meaning remains pending.
 
+### Chapter: Dumbledore, Grindelwald, and the Greater Good
+
+#### Section: Ariana's death and the break with Grindelwald
+
+Summary: The available evidence includes 1 source item, led by: Aberforth links Albus and Grindelwald's youthful Greater Good program and Hallows interest to Ariana's neglect, a three-way duel, Grindelwald's flight, and Dumbledore's lifelong guilt.
+
+- **Corroboration:** Aberforth links Albus and Grindelwald's youthful Greater Good program and Hallows interest to Ariana's neglect, a three-way duel, Grindelwald's flight, and Dumbledore's lifelong guilt.
+  - Quote: "hatching all their plans for a new Wizarding order"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3459, `dh-ch28-005`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch23-007`, `dh-ch24-007`. dh-ch23-007 and dh-ch24-007 track Grindelwald and the Elder Wand from Voldemort's search; this entry adds Aberforth's firsthand account of the Dumbledore-Grindelwald rupture and Ariana's death.
+  - Notes: Aberforth cannot identify which duelist killed Ariana, and the account is shaped by grief and resentment.
+
 ### Chapter: First Wizarding War and Hogwarts Families
 
 #### Section: The Longbottom Aurors and Bellatrix Lestrange
@@ -7769,6 +7795,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione finds t
   - Reference type: explicit_in_universe_source
   - Corroborates: `dh-ch21-006`. dh-ch21-006 records Xenophilius's Peverell-origin claim; this entry adds Hermione's genealogy lookup and Harry's Gaunt-ring connection.
   - Notes: The Peverell-Hallows connection remains partly inferential at this point, and Nature's Nobility is summarized rather than quoted directly.
+
+### Chapter: The Dumbledore Family Before Hogwarts Headmastership
+
+#### Section: Ariana's attack and family concealment
+
+Summary: The available evidence includes 1 source item, led by: Aberforth says Ariana was traumatized after Muggle boys saw her uncontrolled childhood magic, that Percival hid the motive for his revenge, and that the family concealed Ariana to avoid St. Mungo's and Statute-of-Secrecy consequences.
+
+- **Corroboration:** Aberforth says Ariana was traumatized after Muggle boys saw her uncontrolled childhood magic, that Percival hid the motive for his revenge, and that the family concealed Ariana to avoid St. Mungo's and Statute-of-Secrecy consequences.
+  - Quote: "a serious threat to the International Statute of Secrecy"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3457, `dh-ch28-004`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch16-004`. dh-ch16-004 treats Bathilda Bagshot as a living Dumbledore source; this entry adds Aberforth's firsthand account of Ariana's attack, Percival's silence, and the family's concealment choices.
+  - Notes: The account is emotionally charged firsthand testimony from Aberforth and should be balanced against other Dumbledore-family sources.
 
 ### Chapter: Tom Riddle Before Hogwarts
 
@@ -12382,6 +12422,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione neutral
   - Corroborates: `dh-ch10-001`, `dh-ch07-003`, `dh-ch07-006`. Likely overlaps dh-ch10-001 on Phineas's linked frames and dh-ch07-003/dh-ch07-006 on Dumbledore's effects and the Sword; this entry adds Hermione's containment tactic after Snape controls the office.
   - Notes: Harry assumes which artifacts remain in the office and does not observe Snape using the portrait.
 
+### Chapter: Hidden Rooms, Passages, and Portrait Routes
+
+#### Section: Ariana's portrait tunnel to the Hog's Head
+
+Summary: The available evidence includes 1 source item, led by: Ariana Dumbledore's portrait contains or accesses a painted tunnel that corresponds to a real passage, allowing Neville Longbottom to travel from Hogwarts to the Hog's Head.
+
+- **Corroboration:** Ariana Dumbledore's portrait contains or accesses a painted tunnel that corresponds to a real passage, allowing Neville Longbottom to travel from Hogwarts to the Hog's Head.
+  - Quote: "the entrance to a real tunnel was revealed"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3462, `dh-ch28-007`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch15-007`, `dh-ch27-005`. dh-ch15-007 records limits on ordinary Hogwarts portrait movement and dh-ch27-005 records hidden castle secrets; this entry adds a specific portrait-linked physical tunnel from the Hog's Head to Hogwarts.
+  - Notes: The chapter does not yet name the Hogwarts endpoint or explain who created the passage.
+
 ## Part: Hogwarts Curriculum and Instruction
 
 ### Chapter: Academic Progression and Examinations
@@ -13294,6 +13348,20 @@ Summary: The available evidence includes 1 source item, led by: A true Cloak of 
   - Reference type: magical_architecture
   - Notes: The technical taxonomy comes from Xenophilius; Ron's later comparison supports but does not fully test every claimed property.
 
+### Chapter: Communication Artifacts and Wartime Rescue
+
+#### Section: Sirius Black's mirror in Aberforth's keeping
+
+Summary: The available evidence includes 1 source item, led by: The two-way mirror survives as a covert communication artifact when Aberforth buys one half from Mundungus and monitors Harry closely enough to send Dobby.
+
+- **Corroboration:** The two-way mirror survives as a covert communication artifact when Aberforth buys one half from Mundungus and monitors Harry closely enough to send Dobby.
+  - Quote: "Albus told me what it was"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3453, `dh-ch28-003`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch23-005`. dh-ch23-005 records Dobby's Malfoy Manor rescue; this entry explains Aberforth's mirror-based monitoring and how Dobby was sent.
+  - Notes: The chapter does not give a technical rule for how the mirror selects or alerts its paired user.
+
 ### Chapter: The Deathly Hallows
 
 #### Section: Potter Cloak provenance and Dumbledore's examination
@@ -13639,6 +13707,32 @@ Summary: The available evidence includes 1 source item, led by: The boat's encha
   - Notes: Dumbledore presents the mechanism as an inference, not as a tested technical specification.
 
 ## Part: Part III - The War Beyond The Gates
+
+### Chapter: Hogsmeade Under Occupation
+
+#### Section: Caterwauling alarms and anti-escape charms
+
+Summary: The available evidence includes 1 source item, led by: Hogsmeade has become a prepared wartime trap: entry sets off an alarm, Death Eaters search the village, anti-Disapparition charms prevent escape, and curfew violations can summon armed scrutiny.
+
+- **Corroboration:** Hogsmeade has become a prepared wartime trap: entry sets off an alarm, Death Eaters search the village, anti-Disapparition charms prevent escape, and curfew violations can summon armed scrutiny.
+  - Quote: "They set up that spell to tell them we'd come"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3449, `dh-ch28-001`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `poa-ch10-005`, `hbp-ch27-001`, `dh-ch27-006`. poa-ch10-005 records earlier Hogsmeade dementor patrols, hbp-ch27-001 records Hogsmeade as an emergency Hogwarts access point, and dh-ch27-006 anticipates protected Hogsmeade access; this entry adds the Caterwauling alarm, anti-Disapparition trap, and curfew enforcement.
+  - Notes: The chapter shows the effects of the charms but does not name the anti-Disapparition spell or who cast it.
+
+#### Section: The Hog's Head as a covert shelter
+
+Summary: The available evidence includes 1 source item, led by: Aberforth Dumbledore uses the Hog's Head's local reputation, his goat Patronus, and Death Eater dependence on the pub's discretion to hide Potter's presence.
+
+- **Corroboration:** Aberforth Dumbledore uses the Hog's Head's local reputation, his goat Patronus, and Death Eater dependence on the pub's discretion to hide Potter's presence.
+  - Quote: "You send dementors down my street"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, PDF p. 3451, `dh-ch28-002`, `sources/book-07/chapter-28-the-missing-mirror.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch19-003`, `dh-ch22-007`. dh-ch19-003 records a different unexplained Patronus guide and dh-ch22-007 records wartime exposure after Hogwarts resistance news; this entry adds Aberforth's goat Patronus cover story and the Hog's Head's occupied-village role.
+  - Notes: Aberforth's accusation about Death Eater sideline trade is strategic dialogue during a confrontation, not independently verified.
 
 ### Chapter: Information Security and Secret Keeping
 

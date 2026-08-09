@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-08'
+updated: '2026-08-09'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -19003,6 +19003,115 @@ by_entry:
     - wartime-security
     source_unit: dh-ch27
     output_yaml: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  dh-ch28-001:
+    title: 'Hogsmeade Under Occupation: Caterwauling alarms and anti-escape charms'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - anti-disapparition
+    - caterwauling-charm
+    - curfew
+    - death-eaters
+    - dementors
+    - hogsmeade
+    - wartime-security
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch28-002:
+    title: 'Hogsmeade Under Occupation: The Hog''s Head as a covert shelter'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - aberforth-dumbledore
+    - curfew
+    - death-eaters
+    - hogs-head
+    - hogsmeade
+    - patronus
+    - wartime-resistance
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch28-003:
+    title: 'Communication Artifacts and Wartime Rescue: Sirius Black''s mirror in
+      Aberforth''s keeping'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - aberforth-dumbledore
+    - albus-dumbledore
+    - covert-aid
+    - dobby
+    - magical-communication
+    - mundungus-fletcher
+    - sirius-mirror
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch28-004:
+    title: 'The Dumbledore Family Before Hogwarts Headmastership: Ariana''s attack
+      and family concealment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - aberforth-dumbledore
+    - ariana-dumbledore
+    - dumbledore-family
+    - magical-history
+    - percival-dumbledore
+    - st-mungos
+    - statute-of-secrecy
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch28-005:
+    title: 'Dumbledore, Grindelwald, and the Greater Good: Ariana''s death and the
+      break with Grindelwald'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - aberforth-dumbledore
+    - albus-dumbledore
+    - ariana-dumbledore
+    - deathly-hallows
+    - greater-good
+    - grindelwald
+    - magical-history
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch28-006:
+    title: 'Snape''s Hogwarts Regime: Occupation defenses around the castle'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - boundary-walls
+    - carrows
+    - dementors
+    - hogwarts
+    - patrols
+    - secret-passageways
+    - severus-snape
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch28-007:
+    title: 'Hidden Rooms, Passages, and Portrait Routes: Ariana''s portrait tunnel
+      to the Hog''s Head'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - ariana-dumbledore
+    - hogs-head
+    - hogwarts
+    - magical-architecture
+    - neville-longbottom
+    - portraits
+    - secret-passage
+    source_unit: dh-ch28
+    output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19014,6 +19123,10 @@ by_tag:
   - dh-ch25-007
   aberforth-dumbledore:
   - dh-ch02-003
+  - dh-ch28-002
+  - dh-ch28-003
+  - dh-ch28-004
+  - dh-ch28-005
   academic-assessment:
   - ootp-ch15-002
   academic-merit:
@@ -19124,6 +19237,8 @@ by_tag:
   - dh-ch18-005
   - dh-ch18-006
   - dh-ch18-007
+  - dh-ch28-003
+  - dh-ch28-005
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
@@ -19211,6 +19326,8 @@ by_tag:
   - poa-ch20-007
   anti-disapparation:
   - ootp-ch36-007
+  anti-disapparition:
+  - dh-ch28-001
   anti-intruder-jinxes:
   - hbp-ch08-002
   anti-jinxes:
@@ -19280,6 +19397,9 @@ by_tag:
   - dh-ch08-005
   - dh-ch11-006
   - dh-ch18-004
+  - dh-ch28-004
+  - dh-ch28-005
+  - dh-ch28-007
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -19686,6 +19806,8 @@ by_tag:
   - gof-ch29-001
   boundary-magic:
   - dh-ch05-001
+  boundary-walls:
+  - dh-ch28-006
   bowman-wright:
   - dh-ch16-003
   bowtruckles:
@@ -19847,6 +19969,7 @@ by_tag:
   - gof-ch16-005
   carrows:
   - dh-ch12-001
+  - dh-ch28-006
   cassandra-trelawney:
   - ootp-ch15-003
   castle:
@@ -19953,6 +20076,8 @@ by_tag:
   - hbp-ch28-003
   castle-windows:
   - poa-ch21-007
+  caterwauling-charm:
+  - dh-ch28-001
   cats:
   - poa-ch04-005
   cauldron:
@@ -20388,6 +20513,7 @@ by_tag:
   - cos-ch13-004
   covert-aid:
   - dh-ch19-003
+  - dh-ch28-003
   covert-assistance:
   - gof-ch35-003
   covert-movement:
@@ -20477,6 +20603,8 @@ by_tag:
   - poa-ch15-003
   - poa-ch16-005
   curfew:
+  - dh-ch28-001
+  - dh-ch28-002
   - ps-ch09-005
   curriculum:
   - gof-ch12-006
@@ -20663,6 +20791,8 @@ by_tag:
   - dh-ch11-001
   - dh-ch23-003
   - dh-ch25-007
+  - dh-ch28-001
+  - dh-ch28-002
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -20707,6 +20837,7 @@ by_tag:
   - dh-ch22-003
   - dh-ch22-004
   - dh-ch22-005
+  - dh-ch28-005
   deathly-hallows-symbol:
   - dh-ch16-007
   deathstick:
@@ -20828,6 +20959,8 @@ by_tag:
   dementors:
   - dh-ch03-003
   - dh-ch13-006
+  - dh-ch28-001
+  - dh-ch28-006
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -21048,6 +21181,7 @@ by_tag:
   - cos-ch02-004
   - cos-ch18-006
   - dh-ch23-005
+  - dh-ch28-003
   - gof-ch08-002
   - gof-ch21-007
   - gof-ch26-004
@@ -21332,6 +21466,7 @@ by_tag:
   - dh-ch02-004
   - dh-ch16-007
   - dh-ch18-004
+  - dh-ch28-004
   dumbledore-funeral:
   - hbp-ch29-007
   - hbp-ch30-001
@@ -22420,6 +22555,7 @@ by_tag:
   greater-good:
   - dh-ch18-006
   - dh-ch18-007
+  - dh-ch28-005
   greenhouse-three:
   - cos-ch06-002
   - cos-ch14-001
@@ -22479,6 +22615,7 @@ by_tag:
   - dh-ch21-001
   - dh-ch23-007
   - dh-ch24-007
+  - dh-ch28-005
   - ps-ch06-003
   grindylows:
   - gof-ch26-006
@@ -23165,6 +23302,8 @@ by_tag:
   history-of-magic-classroom:
   - poa-ch12-001
   hogs-head:
+  - dh-ch28-002
+  - dh-ch28-007
   - hbp-ch20-007
   - hbp-ch25-004
   - ootp-ch16-002
@@ -23173,6 +23312,8 @@ by_tag:
   - ps-ch16-003
   hogsmeade:
   - dh-ch27-006
+  - dh-ch28-001
+  - dh-ch28-002
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
@@ -23233,6 +23374,8 @@ by_tag:
   - dh-ch27-004
   - dh-ch27-005
   - dh-ch27-006
+  - dh-ch28-006
+  - dh-ch28-007
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -24424,6 +24567,7 @@ by_tag:
   - dh-ch12-006
   - dh-ch23-002
   - dh-ch27-005
+  - dh-ch28-007
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -24497,6 +24641,7 @@ by_tag:
   - dh-ch23-006
   magical-communication:
   - dh-ch15-007
+  - dh-ch28-003
   - ootp-ch23-002
   - ootp-ch38-005
   magical-community:
@@ -24589,6 +24734,8 @@ by_tag:
   - dh-ch22-005
   - dh-ch23-007
   - dh-ch24-006
+  - dh-ch28-004
+  - dh-ch28-005
   magical-hospital:
   - ootp-ch22-004
   magical-injury:
@@ -25449,6 +25596,7 @@ by_tag:
   mundungus-fletcher:
   - dh-ch05-006
   - dh-ch11-007
+  - dh-ch28-003
   - hbp-ch12-005
   - ootp-ch01-002
   - ootp-ch02-001
@@ -25496,6 +25644,7 @@ by_tag:
   nesting-mothers:
   - gof-ch19-005
   neville-longbottom:
+  - dh-ch28-007
   - hbp-ch07-004
   - ootp-ch21-006
   - ootp-ch25-005
@@ -25907,6 +26056,8 @@ by_tag:
   - ps-ch15-005
   patient-privacy:
   - cos-ch13-001
+  patrols:
+  - dh-ch28-006
   patronage:
   - hbp-ch04-006
   - hbp-ch07-005
@@ -25915,6 +26066,7 @@ by_tag:
   - dh-ch09-007
   - dh-ch13-006
   - dh-ch19-003
+  - dh-ch28-002
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -25976,6 +26128,7 @@ by_tag:
   percival-dumbledore:
   - dh-ch02-001
   - dh-ch08-006
+  - dh-ch28-004
   percy-weasley:
   - cos-ch03-003
   - ootp-ch14-006
@@ -26182,6 +26335,7 @@ by_tag:
   - dh-ch15-007
   - dh-ch16-002
   - dh-ch23-002
+  - dh-ch28-007
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -27494,6 +27648,8 @@ by_tag:
   - hbp-ch02-004
   - ootp-ch06-007
   - ootp-ch37-004
+  secret-passage:
+  - dh-ch28-007
   secret-passages:
   - ootp-ch17-007
   - ootp-ch28-003
@@ -27514,6 +27670,7 @@ by_tag:
   - poa-ch22-004
   secret-passageways:
   - cos-ch01-001
+  - dh-ch28-006
   - gof-ch25-001
   - gof-ch25-005
   - hbp-ch15-001
@@ -27595,6 +27752,7 @@ by_tag:
   - dh-ch12-001
   - dh-ch16-002
   - dh-ch27-006
+  - dh-ch28-006
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -27709,6 +27867,8 @@ by_tag:
   - poa-ch14-006
   - poa-ch15-002
   - poa-ch16-006
+  sirius-mirror:
+  - dh-ch28-003
   sites-of-historical-sorcery:
   - poa-ch05-002
   sixth-year:
@@ -27986,6 +28146,7 @@ by_tag:
   - ootp-ch08-005
   st-mungos:
   - dh-ch08-005
+  - dh-ch28-004
   - hbp-ch01-007
   - ootp-ch07-003
   - ootp-ch22-004
@@ -28156,6 +28317,7 @@ by_tag:
   - cos-ch02-005
   - dh-ch16-003
   - dh-ch18-006
+  - dh-ch28-004
   - gof-ch04-004
   - hbp-ch01-001
   - hbp-ch01-002
@@ -29433,6 +29595,8 @@ by_tag:
   - dh-ch16-002
   wartime-publicity:
   - hbp-ch30-006
+  wartime-resistance:
+  - dh-ch28-002
   wartime-security:
   - dh-ch12-003
   - dh-ch14-005
@@ -29445,6 +29609,7 @@ by_tag:
   - dh-ch25-001
   - dh-ch26-001
   - dh-ch27-006
+  - dh-ch28-001
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
