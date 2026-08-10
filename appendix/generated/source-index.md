@@ -196,3 +196,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch26`: Harry Potter and the Deathly Hallows, Chapter Twenty-Six - Gringotts, pages 3420-3440, 7 entries, 0 explicit references.
 - `dh-ch27`: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, pages 3441-3448, 6 entries, 0 explicit references.
 - `dh-ch28`: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, pages 3449-3462, 7 entries, 0 explicit references.
+- `dh-ch29`: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, pages 3463-3477, 7 entries, 0 explicit references.

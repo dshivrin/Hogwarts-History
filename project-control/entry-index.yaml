@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-09'
+updated: '2026-08-10'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -19112,6 +19112,116 @@ by_entry:
     - secret-passage
     source_unit: dh-ch28
     output_yaml: sources/book-07/chapter-28-the-missing-mirror.yaml
+  dh-ch29-001:
+    title: 'Hidden Rooms, Passages, and Portrait Routes: Known secret passages sealed
+      under occupation'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - ariana-dumbledore
+    - castle-security
+    - dementors
+    - hogs-head
+    - marauders-map
+    - secret-passage
+    - wartime-hogwarts
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch29-002:
+    title: 'Staff Appointments and School Safety: Carrow discipline and compulsory
+      propaganda classes'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - carrows
+    - compulsory-curriculum
+    - dark-arts
+    - muggle-studies
+    - school-discipline
+    - unforgivable-curses
+    - wartime-hogwarts
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch29-003:
+    title: 'Protective Magic and Security: D.A. fake Galleons under the Carrows'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - carrows
+    - communication-security
+    - dumbledores-army
+    - fake-galleons
+    - severus-snape
+    - student-resistance
+    - wartime-hogwarts
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch29-004:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: The Room of
+      Requirement as a wartime refuge'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - dumbledores-army
+    - gamp-law
+    - hogs-head
+    - magical-architecture
+    - protective-magic
+    - room-of-requirement
+    - wartime-hogwarts
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch29-005:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: Variable exits
+      and resealing walls'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-navigation
+    - fifth-floor
+    - marauders-map
+    - moving-routes
+    - protective-magic
+    - room-of-requirement
+    - school-patrols
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch29-006:
+    title: 'Ravenclaw Relics and Lost Knowledge: The lost diadem tradition and its
+      reputed power'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - founder-relics
+    - magical-artifacts
+    - professor-flitwick
+    - ravenclaw
+    - ravenclaw-diadem
+    - rowena-ravenclaw
+    - wisdom
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch29-007:
+    title: 'Ravenclaw House: Tower entrance, common room, and Rowena statue'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - castle-architecture
+    - eagle-knocker
+    - house-entrance
+    - house-motto
+    - ravenclaw
+    - ravenclaw-common-room
+    - rowena-ravenclaw
+    source_unit: dh-ch29
+    output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19400,6 +19510,7 @@ by_tag:
   - dh-ch28-004
   - dh-ch28-005
   - dh-ch28-007
+  - dh-ch29-001
   arithmancy:
   - gof-ch13-001
   - gof-ch13-004
@@ -19970,6 +20081,8 @@ by_tag:
   carrows:
   - dh-ch12-001
   - dh-ch28-006
+  - dh-ch29-002
+  - dh-ch29-003
   cassandra-trelawney:
   - ootp-ch15-003
   castle:
@@ -19985,6 +20098,7 @@ by_tag:
   - ootp-ch10-007
   - ootp-ch11-001
   castle-architecture:
+  - dh-ch29-007
   - gof-ch15-001
   - ootp-ch14-002
   castle-boundary:
@@ -20027,6 +20141,7 @@ by_tag:
   castle-navigation:
   - cos-ch05-006
   - cos-ch12-005
+  - dh-ch29-005
   - gof-ch21-006
   - gof-ch25-001
   - gof-ch25-005
@@ -20063,6 +20178,7 @@ by_tag:
   castle-security:
   - cos-ch07-006
   - cos-ch09-006
+  - dh-ch29-001
   - gof-ch36-004
   - hbp-ch23-001
   - ootp-ch20-001
@@ -20370,6 +20486,7 @@ by_tag:
   - poa-ch13-007
   communication-security:
   - dh-ch09-007
+  - dh-ch29-003
   - hbp-ch02-004
   - ootp-ch17-003
   - ootp-ch18-001
@@ -20385,6 +20502,8 @@ by_tag:
   - hbp-ch14-006
   compulsory-attendance:
   - dh-ch11-004
+  compulsory-curriculum:
+  - dh-ch29-002
   computers:
   - gof-ch28-003
   concealed-doors:
@@ -20710,6 +20829,7 @@ by_tag:
   - dh-ch08-002
   - dh-ch18-005
   - dh-ch18-007
+  - dh-ch29-002
   - gof-ch11-004
   - gof-ch13-007
   - gof-ch19-006
@@ -20961,6 +21081,7 @@ by_tag:
   - dh-ch13-006
   - dh-ch28-001
   - dh-ch28-006
+  - dh-ch29-001
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -21512,6 +21633,8 @@ by_tag:
   dumbledores-army:
   - dh-ch05-004
   - dh-ch16-002
+  - dh-ch29-003
+  - dh-ch29-004
   - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch18-007
@@ -21567,6 +21690,8 @@ by_tag:
   - ps-ch02-002
   - ps-ch02-003
   - ps-ch03-002
+  eagle-knocker:
+  - dh-ch29-007
   early-magic:
   - hbp-ch13-007
   easter-holidays:
@@ -21827,6 +21952,7 @@ by_tag:
   fairness:
   - gof-ch20-002
   fake-galleons:
+  - dh-ch29-003
   - ootp-ch19-001
   fake-sword:
   - dh-ch23-003
@@ -21922,6 +22048,7 @@ by_tag:
   - dh-ch16-001
   - dh-ch19-002
   fifth-floor:
+  - dh-ch29-005
   - gof-ch23-007
   - ootp-ch30-001
   fifth-year:
@@ -22220,6 +22347,7 @@ by_tag:
   - dh-ch25-006
   - dh-ch26-006
   - dh-ch26-007
+  - dh-ch29-006
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -22307,6 +22435,8 @@ by_tag:
   - ps-ch14-005
   gamekeeping-cross-reference:
   - ps-ch04-001
+  gamp-law:
+  - dh-ch29-004
   gamps-law:
   - dh-ch15-003
   gargoyle:
@@ -23304,6 +23434,8 @@ by_tag:
   hogs-head:
   - dh-ch28-002
   - dh-ch28-007
+  - dh-ch29-001
+  - dh-ch29-004
   - hbp-ch20-007
   - hbp-ch25-004
   - ootp-ch16-002
@@ -23789,6 +23921,8 @@ by_tag:
   - ootp-ch23-005
   - ootp-ch27-005
   - ootp-ch37-004
+  house-entrance:
+  - dh-ch29-007
   house-hourglasses:
   - hbp-ch28-004
   house-identity:
@@ -23805,6 +23939,7 @@ by_tag:
   - poa-ch13-003
   house-motto:
   - dh-ch20-007
+  - dh-ch29-007
   - ootp-ch10-003
   house-notice-boards:
   - ootp-ch25-003
@@ -24568,6 +24703,7 @@ by_tag:
   - dh-ch23-002
   - dh-ch27-005
   - dh-ch28-007
+  - dh-ch29-004
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -24612,6 +24748,7 @@ by_tag:
   - dh-ch21-004
   - dh-ch22-001
   - dh-ch24-004
+  - dh-ch29-006
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -24975,6 +25112,8 @@ by_tag:
   - hbp-ch16-006
   - ootp-ch28-007
   marauders-map:
+  - dh-ch29-001
+  - dh-ch29-005
   - gof-ch04-002
   - gof-ch25-001
   - gof-ch25-007
@@ -25417,6 +25556,8 @@ by_tag:
   - ootp-ch23-004
   moving-pictures:
   - gof-ch02-002
+  moving-routes:
+  - dh-ch29-005
   moving-staircase:
   - cos-ch11-007
   - cos-ch13-006
@@ -25569,6 +25710,7 @@ by_tag:
   - dh-ch01-006
   - dh-ch06-003
   - dh-ch12-001
+  - dh-ch29-002
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -26585,6 +26727,7 @@ by_tag:
   - gof-ch25-004
   - hbp-ch20-003
   professor-flitwick:
+  - dh-ch29-006
   - gof-ch22-005
   - gof-ch26-001
   - ootp-ch18-003
@@ -26760,6 +26903,8 @@ by_tag:
   - dh-ch03-004
   - dh-ch06-002
   - dh-ch19-003
+  - dh-ch29-004
+  - dh-ch29-005
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -26996,6 +27141,8 @@ by_tag:
   ravenclaw:
   - dh-ch20-007
   - dh-ch25-006
+  - dh-ch29-006
+  - dh-ch29-007
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -27006,9 +27153,12 @@ by_tag:
   - poa-ch12-004
   - poa-ch13-003
   - ps-ch06-005
+  ravenclaw-common-room:
+  - dh-ch29-007
   ravenclaw-diadem:
   - dh-ch25-006
   - dh-ch27-005
+  - dh-ch29-006
   - hbp-ch24-005
   reception-customs:
   - dh-ch08-001
@@ -27159,6 +27309,8 @@ by_tag:
   - gof-ch30-005
   - ootp-ch37-003
   room-of-requirement:
+  - dh-ch29-004
+  - dh-ch29-005
   - gof-ch23-004
   - hbp-ch18-004
   - hbp-ch19-006
@@ -27183,6 +27335,8 @@ by_tag:
   rowena-ravenclaw:
   - dh-ch20-007
   - dh-ch25-006
+  - dh-ch29-006
+  - dh-ch29-007
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002
@@ -27277,6 +27431,7 @@ by_tag:
   school-danger:
   - ootp-ch11-004
   school-discipline:
+  - dh-ch29-002
   - gof-ch05-004
   - gof-ch13-006
   - hbp-ch13-005
@@ -27387,6 +27542,8 @@ by_tag:
   school-owls:
   - gof-ch18-001
   - ootp-ch14-002
+  school-patrols:
+  - dh-ch29-005
   school-place:
   - cos-ch01-004
   school-policy:
@@ -27650,6 +27807,7 @@ by_tag:
   - ootp-ch37-004
   secret-passage:
   - dh-ch28-007
+  - dh-ch29-001
   secret-passages:
   - ootp-ch17-007
   - ootp-ch28-003
@@ -27753,6 +27911,7 @@ by_tag:
   - dh-ch16-002
   - dh-ch27-006
   - dh-ch28-006
+  - dh-ch29-003
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -28557,6 +28716,7 @@ by_tag:
   - ps-ch12-001
   student-resistance:
   - dh-ch22-007
+  - dh-ch29-003
   - gof-ch34-002
   - ootp-ch26-003
   - ootp-ch30-002
@@ -29286,6 +29446,7 @@ by_tag:
   - poa-ch15-003
   - poa-ch16-005
   unforgivable-curses:
+  - dh-ch29-002
   - gof-ch14-005
   - gof-ch27-007
   - gof-ch34-002
@@ -29593,6 +29754,10 @@ by_tag:
   wartime-hogwarts:
   - dh-ch12-001
   - dh-ch16-002
+  - dh-ch29-001
+  - dh-ch29-002
+  - dh-ch29-003
+  - dh-ch29-004
   wartime-publicity:
   - hbp-ch30-006
   wartime-resistance:
@@ -29739,6 +29904,8 @@ by_tag:
   wireless:
   - dh-ch20-003
   - dh-ch22-006
+  wisdom:
+  - dh-ch29-006
   wit:
   - dh-ch20-007
   witch-weekly:

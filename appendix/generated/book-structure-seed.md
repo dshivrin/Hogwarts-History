@@ -398,6 +398,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Goblin counter-claim to the Sword of Gryffindor
 - Ravenclaw Relics and Lost Knowledge
   - Popular reconstruction attempts for the lost diadem
+  - The lost diadem tradition and its reputed power
 
 ## Founders, Relics, and the House System
 
@@ -481,6 +482,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portrait surveillance and office artifacts under Snape
 - Hidden Rooms, Passages, and Portrait Routes
   - Ariana's portrait tunnel to the Hog's Head
+  - Known secret passages sealed under occupation
 
 ## Hogwarts Curriculum and Instruction
 
@@ -714,6 +716,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
   - Covert student communication under the High Inquisitor
+  - D.A. fake Galleons under the Carrows
   - Dormitory crisis escalation to the headmaster
   - Emergency communication and transport under surveillance
   - Emergency communication when ordinary adult authority is absent
@@ -1601,6 +1604,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Staff Appointment, Disclosure, and Safety
   - Werewolf Disclosure and Resignation
 - Staff Appointments and School Safety
+  - Carrow discipline and compulsory propaganda classes
   - Confidentiality and Near-Miss Safety Incidents
   - Dumbledore's protection and werewolf staff stigma
   - Snape's headmastership and Carrow appointments
@@ -1822,6 +1826,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gamekeeper's cabin during the tower battle
 - Interior Rooms
   - Trophy Room
+- Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - The Room of Requirement as a wartime refuge
+  - Variable exits and resealing walls
 - The Grounds and Edge of the Forest
   - Forbidden Forest Paths and Supervised Searches
   - Forbidden Forest Paths and Warnings
@@ -1896,6 +1903,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Point Records and Major Deductions
 - Ravenclaw House
   - Rowena Ravenclaw, wit, and house identity
+  - Tower entrance, common room, and Rowena statue
 - Salazar Slytherin and His Legacy
   - Gaunt family descent and heirlooms
   - Parseltongue before Hogwarts

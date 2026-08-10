@@ -250,6 +250,31 @@ Summary: The available evidence includes 1 source item, led by: The trophy room 
   - Corroborates: `ps-ch08-001`. Related to the Chapter Eight castle navigation entry through armor and interior corridors, but this is the first seed specifically for the trophy room.
   - Notes: The passage does not explain the age, purpose, or specific contents of any trophy beyond general room description.
 
+### Chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+
+#### Section: The Room of Requirement as a wartime refuge
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement expands for D.A. refugees, excludes Carrow supporters when asked precisely, supplies facilities, but cannot make food and instead opens a Hog's Head passage.
+
+- **Corroboration:** The Room of Requirement expands for D.A. refugees, excludes Carrow supporters when asked precisely, supplies facilities, but cannot make food and instead opens a Hog's Head passage.
+  - Quote: "it'll do it for you"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3468, `dh-ch29-004`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `hbp-ch21-004`, `hbp-ch24-005`, `dh-ch28-007`. hbp-ch21-004 covers access rules and map blind spots, hbp-ch24-005 covers the storage configuration, and dh-ch28-007 introduces the Hog's Head tunnel; this entry adds the room's resistance-shelter configuration and food limitation.
+  - Notes: The explanation comes from students using the room during an exceptional crisis, not from staff or historical documentation.
+
+#### Section: Variable exits and resealing walls
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement creates an exit whose outside endpoint changes daily, then reseals behind users, complicating both patrol discovery and users' own navigation.
+
+- **Supporting evidence:** The Room of Requirement creates an exit whose outside endpoint changes daily, then reseals behind users, complicating both patrol discovery and users' own navigation.
+  - Quote: "somewhere different every day"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3475, `dh-ch29-005`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The chapter gives the rule from Neville's recent experience and does not state whether the behavior is permanent or crisis-specific.
+
 ### Chapter: Towers, Corridors, and Service Rooms
 
 #### Section: The Owlery and school owls
@@ -1046,6 +1071,18 @@ Summary: The available evidence includes 1 source item, led by: Xenophilius mode
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: house_system
   - Notes: The source is Xenophilius's eccentric device, so the invention details should be separated from the simpler Ravenclaw motto evidence.
+
+#### Section: Tower entrance, common room, and Rowena statue
+
+Summary: The available evidence includes 1 source item, led by: Ravenclaw Tower is entered by answering an eagle-knocker question; the airy common room displays blue-and-bronze decor, mountain views, a Rowena statue, and the House motto.
+
+- **Corroboration:** Ravenclaw Tower is entered by answering an eagle-knocker question; the airy common room displays blue-and-bronze decor, mountain views, a Rowena statue, and the House motto.
+  - Quote: "you've got to answer a question"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3476, `dh-ch29-007`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `ootp-ch10-003`, `dh-ch20-007`. ootp-ch10-003 and dh-ch20-007 record Ravenclaw motto evidence; this entry adds the common-room riddle entrance, room description, statue, and in-school motto display.
+  - Notes: Harry sees the common room at night under emergency conditions; some details, such as the dormitory placement, are inferred from visible doors.
 
 ### Chapter: Salazar Slytherin and His Legacy
 
@@ -4568,6 +4605,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Notes: The source describes Lupin's expectation of parent objections rather than quoting a formal dismissal policy or actual parent letters.
 
 ### Chapter: Staff Appointments and School Safety
+
+#### Section: Carrow discipline and compulsory propaganda classes
+
+Summary: The available evidence includes 1 source item, led by: Neville says the Carrows control discipline, require detention victims as Cruciatus targets in Dark Arts, and make Muggle Studies compulsory anti-Muggle propaganda.
+
+- **Corroboration:** Neville says the Carrows control discipline, require detention victims as Cruciatus targets in Dark Arts, and make Muggle Studies compulsory anti-Muggle propaganda.
+  - Quote: "it's just the Dark Arts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3465, `dh-ch29-002`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `dh-ch12-001`. dh-ch12-001 records the public staffing announcement; this entry adds first-hand evidence for the Carrows' disciplinary authority, Cruciatus detentions, and compulsory Muggle Studies ideology.
+  - Notes: The evidence reflects the occupied school year and belongs to later editorial notes, not to the likely original in-universe book body.
 
 #### Section: Confidentiality and Near-Miss Safety Incidents
 
@@ -9866,6 +9915,18 @@ Summary: The available evidence includes 1 source item, led by: Hermione's fake 
   - Corroborates: `ootp-ch17-001`, `ootp-ch17-003`. ootp-ch17-001 records the decree disbanding student organizations and ootp-ch17-003 records watched communications; this entry adds the D.A.'s enchanted-coin workaround.
   - Notes: The method is student-created and exceptional to the D.A.; it is not an official Hogwarts communication system.
 
+#### Section: D.A. fake Galleons under the Carrows
+
+Summary: The available evidence includes 1 source item, led by: The D.A.'s fake Galleons remain an effective covert communication system under the Carrows, supporting resistance messages, graffiti coordination, and later call-ups.
+
+- **Corroboration:** The D.A.'s fake Galleons remain an effective covert communication system under the Carrows, supporting resistance messages, graffiti coordination, and later call-ups.
+  - Quote: "used to send one another messages"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3466, `dh-ch29-003`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch19-001`, `dh-ch16-002`. ootp-ch19-001 explains the original enchanted-coin system and dh-ch16-002 records wartime student mutiny; this entry adds the coins' continued use against the Carrows and their role in calling members back.
+  - Notes: The chapter summarizes several resistance actions through Neville's account rather than showing every action directly.
+
 #### Section: Dormitory crisis escalation to the headmaster
 
 Summary: The available evidence includes 1 source item, led by: A student crisis in Gryffindor Tower is escalated from dormitory peers to McGonagall and then directly to the headmaster because Harry's vision concerns an Order-connected attack.
@@ -12232,6 +12293,18 @@ Summary: The available evidence includes 1 source item, led by: Luna reports tha
   - Corroborates: `hbp-ch24-005`. hbp-ch24-005 records a tarnished tiara hidden in the Room of Requirement and indexed as the Ravenclaw diadem; this entry adds the explicit lost-diadem tradition and Xenophilius's attempted reconstruction.
   - Notes: Luna's description includes likely unreliable details from Xenophilius, and the passage does not authenticate his reconstruction.
 
+#### Section: The lost diadem tradition and its reputed power
+
+Summary: The available evidence includes 1 source item, led by: Ravenclaw students report that the lost diadem vanished with Rowena Ravenclaw centuries earlier; Terry says it was reputed to enhance the wearer's wisdom.
+
+- **Corroboration:** Ravenclaw students report that the lost diadem vanished with Rowena Ravenclaw centuries earlier; Terry says it was reputed to enhance the wearer's wisdom.
+  - Quote: "vanished with Ravenclaw herself"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3474, `dh-ch29-006`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch25-006`, `hbp-ch23-007`, `dh-ch20-007`. dh-ch25-006 records Xenophilius's attempted reconstruction, hbp-ch23-007 records the founder-relic Horcrux pattern, and dh-ch20-007 records Ravenclaw motto evidence; this entry adds Flitwick-attributed loss tradition and wisdom-enhancement lore.
+  - Notes: The claim is reported through students citing Professor Flitwick and school tradition; no primary historical document is quoted.
+
 ## Part: Founders, Relics, and the House System
 
 ### Chapter: Founder Objects and Later Magical History
@@ -12435,6 +12508,18 @@ Summary: The available evidence includes 1 source item, led by: Ariana Dumbledor
   - Reference type: portrait_or_ghost_lore
   - Corroborates: `dh-ch15-007`, `dh-ch27-005`. dh-ch15-007 records limits on ordinary Hogwarts portrait movement and dh-ch27-005 records hidden castle secrets; this entry adds a specific portrait-linked physical tunnel from the Hog's Head to Hogwarts.
   - Notes: The chapter does not yet name the Hogwarts endpoint or explain who created the passage.
+
+#### Section: Known secret passages sealed under occupation
+
+Summary: The available evidence includes 1 source item, led by: The route behind Ariana's portrait looks long-established, but Neville says the seven known passages into Hogwarts were sealed and guarded with curses, Death Eaters, and dementors.
+
+- **Corroboration:** The route behind Ariana's portrait looks long-established, but Neville says the seven known passages into Hogwarts were sealed and guarded with curses, Death Eaters, and dementors.
+  - Quote: "only seven passages in and out of school"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, PDF p. 3464, `dh-ch29-001`, `sources/book-07/chapter-29-the-lost-diadem.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch28-007`. dh-ch28-007 introduces Ariana's portrait tunnel from the Hog's Head; this entry adds its apparent age and Neville's statement that the seven older school passages had been sealed and guarded.
+  - Notes: Neville reports the passage closures from lived wartime experience; the chapter does not identify who originally built the Ariana route.
 
 ## Part: Hogwarts Curriculum and Instruction
 

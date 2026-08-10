@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-09'
+updated: '2026-08-10'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2282,3 +2282,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3449-3462.
+- source_unit_id: dh-ch29
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 29
+  chapter_title: Chapter Twenty-Nine - The Lost Diadem
+  page_start: 3463
+  page_end: 3477
+  output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  processed_at: '2026-08-10'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3463-3477.

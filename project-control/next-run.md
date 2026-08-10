@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Twenty-Nine - The Lost Diadem
-- Page range: 3463-3477
+- Chapter: Chapter Thirty - The Sacking of Severus Snape
+- Page range: 3478-3494
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-29-the-lost-diadem.yaml`
+- Output YAML: `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
 
 ## Minimal Context
 
