@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-10'
+updated: '2026-08-11'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -19222,6 +19222,117 @@ by_entry:
     - rowena-ravenclaw
     source_unit: dh-ch29
     output_yaml: sources/book-07/chapter-29-the-lost-diadem.yaml
+  dh-ch30-001:
+    title: 'House Common Rooms and Entrances: Ravenclaw Tower''s question-guarded
+      door'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - castle-architecture
+    - eagle-knocker
+    - house-entrance
+    - professor-mcgonagall
+    - ravenclaw
+    - ravenclaw-tower
+    - vanished-objects
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch30-002:
+    title: 'Wartime Rule Under Snape and the Carrows: Coercive discipline and scapegoating
+      students'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - carrows
+    - cruciatus-curse
+    - dark-mark
+    - death-eaters
+    - ravenclaw-students
+    - student-discipline
+    - wartime-hogwarts
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch30-003:
+    title: 'Ravenclaw Relics and Lost Knowledge: Living-memory testimony for the lost
+      diadem'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relics
+    - living-memory
+    - lost-artifacts
+    - professor-flitwick
+    - ravenclaw-diadem
+    - rowena-ravenclaw
+    - wisdom
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch30-004:
+    title: 'Wartime Evacuation and Castle Boundaries: Evacuating through Hogsmeade
+      when regulated transport is unsafe'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - anti-apparition
+    - floo-network
+    - heads-of-house
+    - hogs-head
+    - hogwarts-evacuation
+    - secret-passageways
+    - wartime-security
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch30-005:
+    title: 'Wartime Headmastership and Staff Resistance: The sacking of Severus Snape'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hogwarts-headmaster
+    - professor-flitwick
+    - professor-mcgonagall
+    - professor-sprout
+    - severus-snape
+    - staff-resistance
+    - unsupported-flight
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch30-006:
+    title: 'Castle Defenses and Siege Magic: Staff-activated boundary and statuary
+      defenses'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - animated-statues
+    - battle-of-hogwarts
+    - castle-defenses
+    - herbology-defenses
+    - piertotum-locomotor
+    - protego-horribilis
+    - suits-of-armor
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch30-007:
+    title: 'Dumbledore''s Army and the Defense of the School: Mobilization through
+      the Room of Requirement'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - aberforth-dumbledore
+    - dumbledores-army
+    - great-hall
+    - hogwarts-evacuation
+    - order-of-the-phoenix
+    - room-of-requirement
+    - underage-students
+    source_unit: dh-ch30
+    output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19237,6 +19348,7 @@ by_tag:
   - dh-ch28-003
   - dh-ch28-004
   - dh-ch28-005
+  - dh-ch30-007
   academic-assessment:
   - ootp-ch15-002
   academic-merit:
@@ -19414,10 +19526,12 @@ by_tag:
   animal-transformation:
   - cos-ch12-004
   animated-statues:
+  - dh-ch30-006
   - ootp-ch36-004
   annual-customs:
   - gof-ch12-003
   anti-apparition:
+  - dh-ch30-004
   - hbp-ch04-001
   - hbp-ch17-002
   - hbp-ch18-003
@@ -19724,6 +19838,8 @@ by_tag:
   - dh-ch17-007
   - dh-ch18-001
   - ootp-ch35-005
+  battle-of-hogwarts:
+  - dh-ch30-006
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
@@ -20083,6 +20199,7 @@ by_tag:
   - dh-ch28-006
   - dh-ch29-002
   - dh-ch29-003
+  - dh-ch30-002
   cassandra-trelawney:
   - ootp-ch15-003
   castle:
@@ -20099,6 +20216,7 @@ by_tag:
   - ootp-ch11-001
   castle-architecture:
   - dh-ch29-007
+  - dh-ch30-001
   - gof-ch15-001
   - ootp-ch14-002
   castle-boundary:
@@ -20112,6 +20230,8 @@ by_tag:
   - hbp-ch28-004
   castle-decorations:
   - ootp-ch21-003
+  castle-defenses:
+  - dh-ch30-006
   castle-doors:
   - hbp-ch22-003
   castle-entry:
@@ -20710,6 +20830,7 @@ by_tag:
   crossbow:
   - ootp-ch30-004
   cruciatus-curse:
+  - dh-ch30-002
   - gof-ch14-005
   - gof-ch30-006
   - gof-ch34-002
@@ -20864,6 +20985,7 @@ by_tag:
   - ps-ch11-006
   - ps-ch12-004
   dark-mark:
+  - dh-ch30-002
   - gof-ch09-004
   - gof-ch09-006
   - gof-ch09-007
@@ -20913,6 +21035,7 @@ by_tag:
   - dh-ch25-007
   - dh-ch28-001
   - dh-ch28-002
+  - dh-ch30-002
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -21635,6 +21758,7 @@ by_tag:
   - dh-ch16-002
   - dh-ch29-003
   - dh-ch29-004
+  - dh-ch30-007
   - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch18-007
@@ -21692,6 +21816,7 @@ by_tag:
   - ps-ch03-002
   eagle-knocker:
   - dh-ch29-007
+  - dh-ch30-001
   early-magic:
   - hbp-ch13-007
   easter-holidays:
@@ -22218,6 +22343,7 @@ by_tag:
   - dh-ch01-004
   - dh-ch04-001
   - dh-ch12-003
+  - dh-ch30-004
   - gof-ch04-004
   - hbp-ch17-001
   - ootp-ch03-003
@@ -22348,6 +22474,7 @@ by_tag:
   - dh-ch26-006
   - dh-ch26-007
   - dh-ch29-006
+  - dh-ch30-003
   - hbp-ch20-005
   - hbp-ch23-007
   founders:
@@ -22643,6 +22770,7 @@ by_tag:
   - cos-ch11-003
   - cos-ch12-003
   - cos-ch13-003
+  - dh-ch30-007
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -23239,6 +23367,7 @@ by_tag:
   - cos-ch05-005
   - cos-ch14-003
   - cos-ch16-005
+  - dh-ch30-004
   - gof-ch13-006
   - hbp-ch04-005
   - hbp-ch05-004
@@ -23288,6 +23417,8 @@ by_tag:
   - ps-ch14-001
   - ps-ch14-005
   - ps-ch16-005
+  herbology-defenses:
+  - dh-ch30-006
   herbology-homework:
   - hbp-ch25-001
   hermione:
@@ -23436,6 +23567,7 @@ by_tag:
   - dh-ch28-007
   - dh-ch29-001
   - dh-ch29-004
+  - dh-ch30-004
   - hbp-ch20-007
   - hbp-ch25-004
   - ootp-ch16-002
@@ -23549,6 +23681,9 @@ by_tag:
   - hbp-ch07-007
   hogwarts-ethos:
   - cos-ch14-007
+  hogwarts-evacuation:
+  - dh-ch30-004
+  - dh-ch30-007
   hogwarts-express:
   - cos-ch04-001
   - cos-ch05-001
@@ -23612,6 +23747,7 @@ by_tag:
   hogwarts-headmaster:
   - dh-ch02-005
   - dh-ch12-001
+  - dh-ch30-005
   - hbp-ch16-007
   hogwarts-headmasters:
   - ootp-ch06-005
@@ -23923,6 +24059,7 @@ by_tag:
   - ootp-ch37-004
   house-entrance:
   - dh-ch29-007
+  - dh-ch30-001
   house-hourglasses:
   - hbp-ch28-004
   house-identity:
@@ -24540,6 +24677,8 @@ by_tag:
   - ootp-ch02-001
   - ootp-ch08-005
   - ootp-ch08-006
+  living-memory:
+  - dh-ch30-003
   locked-door:
   - ootp-ch34-006
   locked-room:
@@ -24568,6 +24707,7 @@ by_tag:
   - ootp-ch09-007
   lost-artifacts:
   - dh-ch25-006
+  - dh-ch30-003
   love-potion:
   - hbp-ch10-007
   love-potions:
@@ -26019,6 +26159,7 @@ by_tag:
   - dh-ch13-004
   - dh-ch20-001
   - dh-ch22-006
+  - dh-ch30-007
   - hbp-ch02-002
   - hbp-ch02-004
   - hbp-ch03-005
@@ -26363,6 +26504,8 @@ by_tag:
   - ootp-ch32-006
   pierre-bonaccord:
   - ootp-ch31-007
+  piertotum-locomotor:
+  - dh-ch30-006
   pipe-route:
   - cos-ch17-007
   pipes:
@@ -26728,6 +26871,8 @@ by_tag:
   - hbp-ch20-003
   professor-flitwick:
   - dh-ch29-006
+  - dh-ch30-003
+  - dh-ch30-005
   - gof-ch22-005
   - gof-ch26-001
   - ootp-ch18-003
@@ -26762,6 +26907,8 @@ by_tag:
   professor-mcgonagall:
   - cos-ch06-004
   - cos-ch11-001
+  - dh-ch30-001
+  - dh-ch30-005
   - gof-ch13-006
   - gof-ch17-003
   - gof-ch22-002
@@ -26821,6 +26968,7 @@ by_tag:
   - ps-ch17-001
   - ps-ch17-002
   professor-sprout:
+  - dh-ch30-005
   - gof-ch18-002
   - gof-ch36-002
   - hbp-ch14-001
@@ -26920,6 +27068,8 @@ by_tag:
   protego:
   - dh-ch09-001
   - ootp-ch36-003
+  protego-horribilis:
+  - dh-ch30-006
   proto-death-eaters:
   - hbp-ch23-003
   public-accountability:
@@ -27143,6 +27293,7 @@ by_tag:
   - dh-ch25-006
   - dh-ch29-006
   - dh-ch29-007
+  - dh-ch30-001
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -27159,7 +27310,12 @@ by_tag:
   - dh-ch25-006
   - dh-ch27-005
   - dh-ch29-006
+  - dh-ch30-003
   - hbp-ch24-005
+  ravenclaw-students:
+  - dh-ch30-002
+  ravenclaw-tower:
+  - dh-ch30-001
   reception-customs:
   - dh-ch08-001
   record-keeping:
@@ -27311,6 +27467,7 @@ by_tag:
   room-of-requirement:
   - dh-ch29-004
   - dh-ch29-005
+  - dh-ch30-007
   - gof-ch23-004
   - hbp-ch18-004
   - hbp-ch19-006
@@ -27337,6 +27494,7 @@ by_tag:
   - dh-ch25-006
   - dh-ch29-006
   - dh-ch29-007
+  - dh-ch30-003
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002
@@ -27829,6 +27987,7 @@ by_tag:
   secret-passageways:
   - cos-ch01-001
   - dh-ch28-006
+  - dh-ch30-004
   - gof-ch25-001
   - gof-ch25-005
   - hbp-ch15-001
@@ -27912,6 +28071,7 @@ by_tag:
   - dh-ch27-006
   - dh-ch28-006
   - dh-ch29-003
+  - dh-ch30-005
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -28397,6 +28557,7 @@ by_tag:
   staff-resignation:
   - poa-ch22-003
   staff-resistance:
+  - dh-ch30-005
   - ootp-ch30-001
   - ootp-ch30-002
   - ootp-ch38-002
@@ -28548,6 +28709,7 @@ by_tag:
   student-discipline:
   - cos-ch18-002
   - dh-ch16-002
+  - dh-ch30-002
   - hbp-ch24-006
   - ootp-ch01-003
   - ootp-ch02-003
@@ -28846,6 +29008,7 @@ by_tag:
   suit-of-armor:
   - ps-ch12-006
   suits-of-armor:
+  - dh-ch30-006
   - gof-ch22-003
   - hbp-ch15-001
   - poa-ch11-004
@@ -29423,6 +29586,7 @@ by_tag:
   - poa-ch02-003
   - poa-ch03-001
   underage-students:
+  - dh-ch30-007
   - gof-ch16-004
   underground-harbor:
   - ps-ch06-007
@@ -29485,6 +29649,7 @@ by_tag:
   - ootp-ch25-002
   unsupported-flight:
   - dh-ch04-006
+  - dh-ch30-005
   unused-classroom:
   - ps-ch12-006
   unused-classrooms:
@@ -29497,6 +29662,8 @@ by_tag:
   vampires:
   - gof-ch10-004
   - ps-ch05-004
+  vanished-objects:
+  - dh-ch30-001
   vanishing-cabinet:
   - hbp-ch06-007
   - hbp-ch24-005
@@ -29758,6 +29925,7 @@ by_tag:
   - dh-ch29-002
   - dh-ch29-003
   - dh-ch29-004
+  - dh-ch30-002
   wartime-publicity:
   - hbp-ch30-006
   wartime-resistance:
@@ -29775,6 +29943,7 @@ by_tag:
   - dh-ch26-001
   - dh-ch27-006
   - dh-ch28-001
+  - dh-ch30-004
   - hbp-ch04-003
   - hbp-ch06-002
   - hbp-ch07-001
@@ -29906,6 +30075,7 @@ by_tag:
   - dh-ch22-006
   wisdom:
   - dh-ch29-006
+  - dh-ch30-003
   wit:
   - dh-ch20-007
   witch-weekly:

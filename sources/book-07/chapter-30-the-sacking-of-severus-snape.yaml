@@ -1,0 +1,339 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty - The Sacking of Severus Snape
+  chapter_start_pdf_page: 3478
+  chapter_end_pdf_page: 3494
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3478-3494; bounded extraction begins at the Chapter Thirty heading and ends with Voldemort looking through the Hogwarts gates."
+  processed_date: '2026-08-11'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch30-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3480
+    printed_page: null
+    extracted_text_lines: "39-77"
+    text_anchor:
+      start_phrase: "Where do Vanished objects go?"
+      end_phrase: "the door swung open"
+      local_occurrence_note: "Amycus cannot force the Ravenclaw common-room door, while McGonagall answers the eagle-knocker riddle and is admitted."
+    nearby_context: "Alecto lies Stunned inside Ravenclaw Tower after summoning Voldemort, and Amycus tries to get through the House entrance."
+    match_terms:
+      - Ravenclaw Tower
+      - eagle knocker
+      - Vanished objects
+      - nonbeing
+      - Professor McGonagall
+      - House entrance
+    quote_excerpt_short: "Into nonbeing, which is to say, everything"
+    source_note: "The Ravenclaw entrance again requires answering an intellectual question; brute force and authority do not open it, while a correct answer from McGonagall admits her."
+    reference_type: house_system
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - ravenclaw
+      - ravenclaw-tower
+      - eagle-knocker
+      - house-entrance
+      - vanished-objects
+      - professor-mcgonagall
+      - castle-architecture
+    candidate_part: The Castle and Its Grounds
+    candidate_chapter: House Common Rooms and Entrances
+    candidate_section: Ravenclaw Tower's question-guarded door
+    reason_for_placement: "The scene demonstrates the operating rule of the Ravenclaw entrance under hostile pressure and provides a second sample riddle-answer exchange."
+    relevance_to_hogwarts_a_history: "A House-architecture section can use this as confirmation that Ravenclaw access is governed by wit rather than passwords or office authority."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch29-007
+      notes: "dh-ch29-007 records Ravenclaw Tower's question-guarded entrance and common-room features; this entry adds McGonagall's answer and shows the door resisting Carrow coercion."
+    confidence: high
+    limitations: "The evidence comes from a crisis-night scene and does not establish whether all Ravenclaw questions have equally abstract answers."
+
+  - id: dh-ch30-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3480
+    printed_page: null
+    extracted_text_lines: "82-114"
+    text_anchor:
+      start_phrase: "I'll Cruciate the lot of 'em"
+      end_phrase: "I shall not permit it"
+      local_occurrence_note: "Amycus threatens Ravenclaw students with torture, confirms Alecto's Dark Mark false alarm, and proposes blaming students for the failed capture."
+    nearby_context: "After Alecto is Stunned in Ravenclaw Tower, Amycus fears Voldemort's response and looks for students to punish."
+    match_terms:
+      - Amycus Carrow
+      - Alecto Carrow
+      - Dark Mark
+      - false alarm
+      - Cruciate
+      - students
+      - punishment
+    quote_excerpt_short: "He can punish them"
+    source_note: "Carrow-era discipline includes direct threats of Cruciatus use against students and willingness to frame children for Death Eater failures."
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - carrows
+      - wartime-hogwarts
+      - student-discipline
+      - cruciatus-curse
+      - dark-mark
+      - ravenclaw-students
+      - death-eaters
+    candidate_part: Governance, Discipline, and School Safety
+    candidate_chapter: Wartime Rule Under Snape and the Carrows
+    candidate_section: Coercive discipline and scapegoating students
+    reason_for_placement: "The scene gives direct operational evidence for how Carrow authority converted school discipline into terror and political self-protection."
+    relevance_to_hogwarts_a_history: "A later editorial chapter can contrast ordinary discipline with the occupation year, when students became expendable shields against Death Eater accountability."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch12-001
+      notes: "dh-ch12-001 records the Ministry-backed installation of Snape and the Carrows; this entry adds an observed example of Carrow discipline and Dark Mark communication inside Hogwarts."
+    confidence: high
+    limitations: "The passage records Amycus's threatened response in one emergency rather than a full written school policy."
+
+  - id: dh-ch30-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3482
+    printed_page: null
+    extracted_text_lines: "160-171; 355-367"
+    text_anchor:
+      start_phrase: "do you know where the diadem of Ravenclaw is"
+      end_phrase: "Long since lost, boy"
+      local_occurrence_note: "Harry separately asks McGonagall and Flitwick about Ravenclaw's diadem; both treat it as centuries-lost, and Flitwick says nobody has seen it in living memory."
+    nearby_context: "Harry is searching the castle for the hidden Horcrux while teachers prepare defenses against Voldemort."
+    match_terms:
+      - diadem of Ravenclaw
+      - Professor Flitwick
+      - living memory
+      - long since lost
+      - wisdom
+      - Horcrux
+    quote_excerpt_short: "Nobody has seen it in living memory"
+    source_note: "McGonagall and Flitwick confirm the diadem's status as a centuries-lost Ravenclaw relic, with Flitwick adding that it has not been seen in living memory."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ravenclaw-diadem
+      - rowena-ravenclaw
+      - founder-relics
+      - professor-flitwick
+      - lost-artifacts
+      - living-memory
+      - wisdom
+    candidate_part: Founders, Relics, and House Memory
+    candidate_chapter: Ravenclaw Relics and Lost Knowledge
+    candidate_section: Living-memory testimony for the lost diadem
+    reason_for_placement: "The exchange supplies direct staff testimony on the relic's absence from modern Hogwarts knowledge."
+    relevance_to_hogwarts_a_history: "This can refine a founder-relic section by separating student tradition from senior staff confirmation that the object has not been seen in living memory."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch29-006
+      notes: "dh-ch29-006 records Ravenclaw student and Flitwick-attributed tradition about the diadem's loss and reputed wisdom; this entry adds direct Flitwick and McGonagall confirmation during the siege."
+    confidence: high
+    limitations: "The staff testimony addresses modern memory and reputation, not a documented chain of custody from Rowena Ravenclaw."
+
+  - id: dh-ch30-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3484
+    printed_page: null
+    extracted_text_lines: "190-226"
+    text_anchor:
+      start_phrase: "we've got to get the students out"
+      end_phrase: "alert the other Heads of House"
+      local_occurrence_note: "Harry and McGonagall plan student evacuation during the coming siege, accounting for observed Floo, anti-Apparition limits, and the Hog's Head passage."
+    nearby_context: "McGonagall accepts that Harry is acting on Dumbledore's orders and shifts into school-defense planning."
+    match_terms:
+      - evacuation
+      - Floo Network
+      - Apparition
+      - Hogwarts grounds
+      - Hog's Head
+      - Heads of House
+      - students
+    quote_excerpt_short: "Disapparating out of the Hog's Head"
+    source_note: "Emergency evacuation planning treats the Floo Network as watched, Apparition inside the grounds as impossible, and the Hog's Head passage as a practical route for hundreds of students."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts-evacuation
+      - hogs-head
+      - secret-passageways
+      - floo-network
+      - anti-apparition
+      - wartime-security
+      - heads-of-house
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime Evacuation and Castle Boundaries
+    candidate_section: Evacuating through Hogsmeade when regulated transport is unsafe
+    reason_for_placement: "The passage combines Hogwarts's internal transport limits with an improvised external evacuation route and chain-of-command response."
+    relevance_to_hogwarts_a_history: "A later edition can use this as rare evidence for whole-school evacuation logic under siege conditions."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch23-001
+        - dh-ch01-004
+        - dh-ch29-001
+      notes: "ootp-ch23-001 records the explicit Hogwarts: A History anti-Apparition rule, dh-ch01-004 records wartime monitoring of Floo/Apparition, and dh-ch29-001 records the Hog's Head portrait route; this entry combines them into an evacuation plan."
+    confidence: high
+    limitations: "The plan is formed under emergency pressure and is not a standing evacuation protocol."
+
+  - id: dh-ch30-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3486
+    printed_page: null
+    extracted_text_lines: "240-325"
+    text_anchor:
+      start_phrase: "From behind a suit of armor stepped Severus Snape"
+      end_phrase: "Our headmaster is taking a short break"
+      local_occurrence_note: "McGonagall, then Flitwick and Sprout, confront Snape; he flees through a window and flies toward the perimeter wall."
+    nearby_context: "After the Carrows are bound, McGonagall goes to alert the Heads of House and encounters Snape in the corridor."
+    match_terms:
+      - Severus Snape
+      - Professor McGonagall
+      - Professor Flitwick
+      - Professor Sprout
+      - headmaster
+      - Shield Charm
+      - unsupported flight
+    quote_excerpt_short: "Our headmaster is taking a short break"
+    source_note: "Snape's headmastership effectively ends when McGonagall, Flitwick, and Sprout duel him inside Hogwarts and he escapes by flying from a classroom window."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - severus-snape
+      - hogwarts-headmaster
+      - professor-mcgonagall
+      - professor-flitwick
+      - professor-sprout
+      - staff-resistance
+      - unsupported-flight
+    candidate_part: Headmasters, Staff, and School Governance
+    candidate_chapter: Wartime Headmastership and Staff Resistance
+    candidate_section: The sacking of Severus Snape
+    reason_for_placement: "The chapter title event records an extraordinary transfer of practical school control from the Death Eater headmaster to resisting Heads of House."
+    relevance_to_hogwarts_a_history: "A later editorial history of Hogwarts governance would need this as the observed endpoint of Snape's public headmastership."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch12-001
+        - hbp-ch29-004
+      notes: "dh-ch12-001 records Snape's appointment as headmaster, and hbp-ch29-004 records his previous staff-battle escape; this entry records his direct removal from Hogwarts command."
+    confidence: high
+    limitations: "The scene shows Snape fleeing, but the legal or Ministry status of the headmastership is not formally revoked on-page."
+
+  - id: dh-ch30-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3488
+    printed_page: null
+    extracted_text_lines: "330-354; 378-419"
+    text_anchor:
+      start_phrase: "put in place every protection"
+      end_phrase: "brandished swords and spiked balls"
+      local_occurrence_note: "The teachers begin layered defenses: Sprout gathers combat plants, Flitwick casts complex protections, and McGonagall animates statues and armor with Piertotum Locomotor."
+    nearby_context: "Voldemort approaches the castle after discovering that his Horcruxes are being attacked."
+    match_terms:
+      - Protego Horribilis
+      - Piertotum Locomotor
+      - Tentacula
+      - Devil's Snare
+      - Snargaluff pods
+      - statues
+      - suits of armor
+    quote_excerpt_short: "Man the boundaries, protect us"
+    source_note: "Hogwarts can be defended by coordinated staff magic, including boundary protections, hostile magical plants, and animated statues and armor ordered to protect the school."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - castle-defenses
+      - protego-horribilis
+      - piertotum-locomotor
+      - animated-statues
+      - suits-of-armor
+      - herbology-defenses
+      - battle-of-hogwarts
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Castle Defenses and Siege Magic
+    candidate_section: Staff-activated boundary and statuary defenses
+    reason_for_placement: "The passage provides the clearest operational evidence for Hogwarts's built-in and staff-activated defensive resources."
+    relevance_to_hogwarts_a_history: "A castle-protection chapter can use this to catalogue defensive enchantments and the role of school staff in activating them."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup returned general castle, Protego, and security entries but no same-fact entry for coordinated Protego Horribilis, Herbology defenses, and Piertotum Locomotor activation of Hogwarts statues."
+    confidence: high
+    limitations: "The chapter names only some incantations and plants; it does not fully enumerate all protections placed around the castle."
+
+  - id: dh-ch30-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty - The Sacking of Severus Snape
+    chapter_start_pdf_page: 3478
+    chapter_end_pdf_page: 3494
+    pdf_page: 3490
+    printed_page: null
+    extracted_text_lines: "420-453; 459-472; 512-517"
+    text_anchor:
+      start_phrase: "the Room of Requirement"
+      end_phrase: "Hogwarts was going to make a fight of it"
+      local_occurrence_note: "The Room of Requirement fills with D.A., Order, and former Quidditch allies after messages spread; younger students are to evacuate while adult fighters organize."
+    nearby_context: "Harry and Luna return from the castle defenses to the D.A. refuge and find reinforcements arriving through the Hog's Head tunnel."
+    match_terms:
+      - Room of Requirement
+      - Dumbledore's Army
+      - Order of the Phoenix
+      - Great Hall
+      - underage
+      - Aberforth
+      - prefects
+    quote_excerpt_short: "We sent messages to the rest of Dumbledore's Army"
+    source_note: "The D.A. communication network brings Order members and former students to Hogwarts through the Room of Requirement, while the defense distinguishes underage evacuees from overage volunteers."
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledores-army
+      - order-of-the-phoenix
+      - room-of-requirement
+      - hogwarts-evacuation
+      - underage-students
+      - great-hall
+      - aberforth-dumbledore
+    candidate_part: Student Life, Resistance, and Wartime Hogwarts
+    candidate_chapter: Dumbledore's Army and the Defense of the School
+    candidate_section: Mobilization through the Room of Requirement
+    reason_for_placement: "The scene shows how an informal student organization becomes an emergency communications and reinforcement network for the castle defense."
+    relevance_to_hogwarts_a_history: "A later editorial section can use this to document the D.A.'s role in turning a student refuge into the staging point for the Battle of Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup found no same-fact entry for the D.A. message cascade to the Order and former students; underage-student exclusions are only broadly related to earlier Order secrecy entries."
+    confidence: high
+    limitations: "The chapter summarizes the message cascade after it has happened and does not identify every communication channel used."

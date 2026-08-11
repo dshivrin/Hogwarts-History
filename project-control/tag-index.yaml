@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-10'
+updated: '2026-08-11'
 tags:
   a-history-of-magic:
     entries:
@@ -25,9 +25,11 @@ tags:
     - dh-ch28-003
     - dh-ch28-004
     - dh-ch28-005
+    - dh-ch30-007
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   academic-assessment:
     entries:
     - ootp-ch15-002
@@ -400,9 +402,11 @@ tags:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
   animated-statues:
     entries:
+    - dh-ch30-006
     - ootp-ch36-004
     output_yaml:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   annual-customs:
     entries:
     - gof-ch12-003
@@ -410,6 +414,7 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
   anti-apparition:
     entries:
+    - dh-ch30-004
     - hbp-ch04-001
     - hbp-ch17-002
     - hbp-ch18-003
@@ -423,6 +428,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   anti-cheating-charms:
     entries:
     - ootp-ch31-003
@@ -1061,6 +1067,11 @@ tags:
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  battle-of-hogwarts:
+    entries:
+    - dh-ch30-006
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   beaded-bag:
     entries:
     - dh-ch09-002
@@ -1831,10 +1842,12 @@ tags:
     - dh-ch28-006
     - dh-ch29-002
     - dh-ch29-003
+    - dh-ch30-002
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   cassandra-trelawney:
     entries:
     - ootp-ch15-003
@@ -1869,12 +1882,14 @@ tags:
   castle-architecture:
     entries:
     - dh-ch29-007
+    - dh-ch30-001
     - gof-ch15-001
     - ootp-ch14-002
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   castle-boundary:
     entries:
     - hbp-ch27-003
@@ -1901,6 +1916,11 @@ tags:
     - ootp-ch21-003
     output_yaml:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  castle-defenses:
+    entries:
+    - dh-ch30-006
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   castle-doors:
     entries:
     - hbp-ch22-003
@@ -3208,6 +3228,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
   cruciatus-curse:
     entries:
+    - dh-ch30-002
     - gof-ch14-005
     - gof-ch30-006
     - gof-ch34-002
@@ -3223,6 +3244,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   crystal-gazing:
     entries:
     - gof-ch21-005
@@ -3534,6 +3556,7 @@ tags:
     - sources/book-07/chapter-19-the-silver-doe.yaml
   dark-mark:
     entries:
+    - dh-ch30-002
     - gof-ch09-004
     - gof-ch09-006
     - gof-ch09-007
@@ -3545,6 +3568,7 @@ tags:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   dark-objects:
     entries:
     - hbp-ch11-007
@@ -3627,6 +3651,7 @@ tags:
     - dh-ch25-007
     - dh-ch28-001
     - dh-ch28-002
+    - dh-ch30-002
     - gof-ch09-001
     - gof-ch09-004
     - gof-ch09-007
@@ -3687,6 +3712,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   death-witnesses:
     entries:
     - ootp-ch21-001
@@ -5046,6 +5072,7 @@ tags:
     - dh-ch16-002
     - dh-ch29-003
     - dh-ch29-004
+    - dh-ch30-007
     - hbp-ch07-004
     - ootp-ch15-007
     - ootp-ch18-007
@@ -5069,6 +5096,7 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   dungeon-classroom:
     entries:
     - cos-ch11-002
@@ -5158,8 +5186,10 @@ tags:
   eagle-knocker:
     entries:
     - dh-ch29-007
+    - dh-ch30-001
     output_yaml:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   early-magic:
     entries:
     - hbp-ch13-007
@@ -6309,6 +6339,7 @@ tags:
     - dh-ch01-004
     - dh-ch04-001
     - dh-ch12-003
+    - dh-ch30-004
     - gof-ch04-004
     - hbp-ch17-001
     - ootp-ch03-003
@@ -6332,6 +6363,7 @@ tags:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -6575,6 +6607,7 @@ tags:
     - dh-ch26-006
     - dh-ch26-007
     - dh-ch29-006
+    - dh-ch30-003
     - hbp-ch20-005
     - hbp-ch23-007
     output_yaml:
@@ -6586,6 +6619,7 @@ tags:
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-26-gringotts.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   founders:
     entries:
     - cos-ch09-003
@@ -7214,6 +7248,7 @@ tags:
     - cos-ch11-003
     - cos-ch12-003
     - cos-ch13-003
+    - dh-ch30-007
     - gof-ch12-001
     - gof-ch12-003
     - gof-ch13-001
@@ -7283,6 +7318,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -8398,6 +8434,7 @@ tags:
     - cos-ch05-005
     - cos-ch14-003
     - cos-ch16-005
+    - dh-ch30-004
     - gof-ch13-006
     - hbp-ch04-005
     - hbp-ch05-004
@@ -8422,6 +8459,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   healer:
     entries:
     - ootp-ch22-006
@@ -8505,6 +8543,11 @@ tags:
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+  herbology-defenses:
+    entries:
+    - dh-ch30-006
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   herbology-homework:
     entries:
     - hbp-ch25-001
@@ -8825,6 +8868,7 @@ tags:
     - dh-ch28-007
     - dh-ch29-001
     - dh-ch29-004
+    - dh-ch30-004
     - hbp-ch20-007
     - hbp-ch25-004
     - ootp-ch16-002
@@ -8839,6 +8883,7 @@ tags:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   hogsmeade:
     entries:
     - dh-ch27-006
@@ -9052,6 +9097,12 @@ tags:
     - cos-ch14-007
     output_yaml:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
+  hogwarts-evacuation:
+    entries:
+    - dh-ch30-004
+    - dh-ch30-007
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   hogwarts-express:
     entries:
     - cos-ch04-001
@@ -9170,11 +9221,13 @@ tags:
     entries:
     - dh-ch02-005
     - dh-ch12-001
+    - dh-ch30-005
     - hbp-ch16-007
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   hogwarts-headmasters:
     entries:
     - ootp-ch06-005
@@ -9821,8 +9874,10 @@ tags:
   house-entrance:
     entries:
     - dh-ch29-007
+    - dh-ch30-001
     output_yaml:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   house-hourglasses:
     entries:
     - hbp-ch28-004
@@ -11183,6 +11238,11 @@ tags:
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-08-the-hearing.yaml
+  living-memory:
+    entries:
+    - dh-ch30-003
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   locked-door:
     entries:
     - ootp-ch34-006
@@ -11247,8 +11307,10 @@ tags:
   lost-artifacts:
     entries:
     - dh-ch25-006
+    - dh-ch30-003
     output_yaml:
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   love-potion:
     entries:
     - hbp-ch10-007
@@ -14369,6 +14431,7 @@ tags:
     - dh-ch13-004
     - dh-ch20-001
     - dh-ch22-006
+    - dh-ch30-007
     - hbp-ch02-002
     - hbp-ch02-004
     - hbp-ch03-005
@@ -14419,6 +14482,7 @@ tags:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -15107,6 +15171,11 @@ tags:
     - ootp-ch31-007
     output_yaml:
     - sources/book-05/chapter-31-o-w-l-s.yaml
+  piertotum-locomotor:
+    entries:
+    - dh-ch30-006
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   pipe-route:
     entries:
     - cos-ch17-007
@@ -15888,6 +15957,8 @@ tags:
   professor-flitwick:
     entries:
     - dh-ch29-006
+    - dh-ch30-003
+    - dh-ch30-005
     - gof-ch22-005
     - gof-ch26-001
     - ootp-ch18-003
@@ -15906,6 +15977,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   professor-grubbly-plank:
     entries:
     - gof-ch24-001
@@ -15958,6 +16030,8 @@ tags:
     entries:
     - cos-ch06-004
     - cos-ch11-001
+    - dh-ch30-001
+    - dh-ch30-005
     - gof-ch13-006
     - gof-ch17-003
     - gof-ch22-002
@@ -16021,6 +16095,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   professor-quirrell:
     entries:
     - gof-ch33-002
@@ -16071,6 +16146,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
   professor-sprout:
     entries:
+    - dh-ch30-005
     - gof-ch18-002
     - gof-ch36-002
     - hbp-ch14-001
@@ -16084,6 +16160,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   professor-tofty:
     entries:
     - ootp-ch31-004
@@ -16278,6 +16355,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+  protego-horribilis:
+    entries:
+    - dh-ch30-006
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   proto-death-eaters:
     entries:
     - hbp-ch23-003
@@ -16754,6 +16836,7 @@ tags:
     - dh-ch25-006
     - dh-ch29-006
     - dh-ch29-007
+    - dh-ch30-001
     - gof-ch15-004
     - hbp-ch23-007
     - hbp-ch24-007
@@ -16778,6 +16861,7 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   ravenclaw-common-room:
     entries:
     - dh-ch29-007
@@ -16788,12 +16872,24 @@ tags:
     - dh-ch25-006
     - dh-ch27-005
     - dh-ch29-006
+    - dh-ch30-003
     - hbp-ch24-005
     output_yaml:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  ravenclaw-students:
+    entries:
+    - dh-ch30-002
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  ravenclaw-tower:
+    entries:
+    - dh-ch30-001
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   reception-customs:
     entries:
     - dh-ch08-001
@@ -17126,6 +17222,7 @@ tags:
     entries:
     - dh-ch29-004
     - dh-ch29-005
+    - dh-ch30-007
     - gof-ch23-004
     - hbp-ch18-004
     - hbp-ch19-006
@@ -17156,6 +17253,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   rosmerta:
     entries:
     - hbp-ch27-006
@@ -17174,10 +17272,12 @@ tags:
     - dh-ch25-006
     - dh-ch29-006
     - dh-ch29-007
+    - dh-ch30-003
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   rufus-scrimgeour:
     entries:
     - hbp-ch01-007
@@ -18209,6 +18309,7 @@ tags:
     entries:
     - cos-ch01-001
     - dh-ch28-006
+    - dh-ch30-004
     - gof-ch25-001
     - gof-ch25-005
     - hbp-ch15-001
@@ -18226,6 +18327,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   secret-society:
     entries:
     - ootp-ch04-004
@@ -18394,6 +18496,7 @@ tags:
     - dh-ch27-006
     - dh-ch28-006
     - dh-ch29-003
+    - dh-ch30-005
     - ootp-ch17-005
     - ootp-ch29-006
     - poa-ch18-007
@@ -18406,6 +18509,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   shady-patrons:
     entries:
     - ootp-ch16-002
@@ -19453,12 +19557,14 @@ tags:
     - sources/book-03/chapter-22-owl-post-again.yaml
   staff-resistance:
     entries:
+    - dh-ch30-005
     - ootp-ch30-001
     - ootp-ch30-002
     - ootp-ch38-002
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   staff-response:
     entries:
     - cos-ch11-006
@@ -19794,6 +19900,7 @@ tags:
     entries:
     - cos-ch18-002
     - dh-ch16-002
+    - dh-ch30-002
     - hbp-ch24-006
     - ootp-ch01-003
     - ootp-ch02-003
@@ -19823,6 +19930,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   student-dormitories:
     entries:
     - poa-ch19-006
@@ -20448,6 +20556,7 @@ tags:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
   suits-of-armor:
     entries:
+    - dh-ch30-006
     - gof-ch22-003
     - hbp-ch15-001
     - poa-ch11-004
@@ -20457,6 +20566,7 @@ tags:
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   summer-holidays:
     entries:
     - gof-ch03-001
@@ -21687,9 +21797,11 @@ tags:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
   underage-students:
     entries:
+    - dh-ch30-007
     - gof-ch16-004
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   underground-harbor:
     entries:
     - ps-ch06-007
@@ -21830,8 +21942,10 @@ tags:
   unsupported-flight:
     entries:
     - dh-ch04-006
+    - dh-ch30-005
     output_yaml:
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   unused-classroom:
     entries:
     - ps-ch12-006
@@ -21861,6 +21975,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  vanished-objects:
+    entries:
+    - dh-ch30-001
+    output_yaml:
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   vanishing-cabinet:
     entries:
     - hbp-ch06-007
@@ -22399,10 +22518,12 @@ tags:
     - dh-ch29-002
     - dh-ch29-003
     - dh-ch29-004
+    - dh-ch30-002
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   wartime-publicity:
     entries:
     - hbp-ch30-006
@@ -22427,6 +22548,7 @@ tags:
     - dh-ch26-001
     - dh-ch27-006
     - dh-ch28-001
+    - dh-ch30-004
     - hbp-ch04-003
     - hbp-ch06-002
     - hbp-ch07-001
@@ -22481,6 +22603,7 @@ tags:
     - sources/book-07/chapter-26-gringotts.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   wartime-travel:
     entries:
     - dh-ch01-004
@@ -22716,8 +22839,10 @@ tags:
   wisdom:
     entries:
     - dh-ch29-006
+    - dh-ch30-003
     output_yaml:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
   wit:
     entries:
     - dh-ch20-007

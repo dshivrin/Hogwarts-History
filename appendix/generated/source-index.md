@@ -197,3 +197,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch27`: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, pages 3441-3448, 6 entries, 0 explicit references.
 - `dh-ch28`: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, pages 3449-3462, 7 entries, 0 explicit references.
 - `dh-ch29`: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, pages 3463-3477, 7 entries, 0 explicit references.
+- `dh-ch30`: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, pages 3478-3494, 7 entries, 0 explicit references.

@@ -397,6 +397,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Founder Relics and Contested Provenance
   - Goblin counter-claim to the Sword of Gryffindor
 - Ravenclaw Relics and Lost Knowledge
+  - Living-memory testimony for the lost diadem
   - Popular reconstruction attempts for the lost diadem
   - The lost diadem tradition and its reputed power
 
@@ -448,6 +449,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Peeves the Poltergeist
   - Wayfinding and Disruption
 
+## Governance, Discipline, and School Safety
+
+- Wartime Rule Under Snape and the Carrows
+  - Coercive discipline and scapegoating students
+
 ## Governance, Headmasters, and Public Authority
 
 - Headmasters and School Authority
@@ -464,6 +470,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Umbridge's authority ends at the centaur boundary
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's expected dismissal and substitute continuity
+
+## Headmasters, Staff, and School Governance
+
+- Wartime Headmastership and Staff Resistance
+  - The sacking of Severus Snape
 
 ## Historical Foundations
 
@@ -1314,6 +1325,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Corporeal Patronus Intervention
 - Boundaries, Gates, and School Travel
   - Emergency transport to the school boundary
+- Castle Defenses and Siege Magic
+  - Staff-activated boundary and statuary defenses
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
   - Phoenix escape and anti-Disapparition confirmation
@@ -1443,6 +1456,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Regulated Transport Under Enemy Control
 - Wartime Castle Security
   - After-hours movement and door-security lapses
+- Wartime Evacuation and Castle Boundaries
+  - Evacuating through Hogsmeade when regulated transport is unsafe
 - Wartime Household Precautions
   - Identity checks and Inferi in Ministry public guidance
   - Ministry identity challenges at home
@@ -1787,6 +1802,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Rivalry and School Culture
   - Quidditch songs, badges, and supporter magic
 
+## Student Life, Resistance, and Wartime Hogwarts
+
+- Dumbledore's Army and the Defense of the School
+  - Mobilization through the Room of Requirement
+
 ## Student Organizations and Informal Governance
 
 - Secret Study Groups
@@ -1824,6 +1844,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Visiting-School Lodging and Hogsmeade Route
 - Grounds, Staff Dwellings, and Creature Care
   - Gamekeeper's cabin during the tower battle
+- House Common Rooms and Entrances
+  - Ravenclaw Tower's question-guarded door
 - Interior Rooms
   - Trophy Room
 - Secret Rooms, Moving Routes, and Responsive Castle Spaces

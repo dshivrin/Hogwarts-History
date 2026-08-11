@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Thirty - The Sacking of Severus Snape
-- Page range: 3478-3494
+- Chapter: Chapter Thirty-One - The Battle of Hogwarts
+- Page range: 3495-3520
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+- Output YAML: `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
 
 ## Minimal Context
 

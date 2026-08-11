@@ -236,6 +236,20 @@ Summary: The available evidence includes 1 source item, led by: The gamekeeper's
   - Reference type: direct_observed_setting
   - Notes: The passage does not describe repairs, long-term damage, or whether the bowtruckles survived.
 
+### Chapter: House Common Rooms and Entrances
+
+#### Section: Ravenclaw Tower's question-guarded door
+
+Summary: The available evidence includes 1 source item, led by: The Ravenclaw entrance again requires answering an intellectual question; brute force and authority do not open it, while a correct answer from McGonagall admits her.
+
+- **Corroboration:** The Ravenclaw entrance again requires answering an intellectual question; brute force and authority do not open it, while a correct answer from McGonagall admits her.
+  - Quote: "Into nonbeing, which is to say, everything"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3480, `dh-ch30-001`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `dh-ch29-007`. dh-ch29-007 records Ravenclaw Tower's question-guarded entrance and common-room features; this entry adds McGonagall's answer and shows the door resisting Carrow coercion.
+  - Notes: The evidence comes from a crisis-night scene and does not establish whether all Ravenclaw questions have equally abstract answers.
+
 ### Chapter: Interior Rooms
 
 #### Section: Trophy Room
@@ -5679,6 +5693,19 @@ Summary: The available evidence includes 1 source item, led by: The Knight Bus c
   - Corroborates: `poa-ch03-002`, `gof-ch15-006`. poa-ch03-002 introduces the Knight Bus as emergency magical transport, while gof-ch15-006 records a Hogwarts-grounds transport restriction; this entry adds an escorted wartime drop-off at the gates and a safety claim about entering the grounds.
   - Notes: Tonks's safety statement is situational and does not identify the exact protective enchantments active at the gate.
 
+### Chapter: Castle Defenses and Siege Magic
+
+#### Section: Staff-activated boundary and statuary defenses
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts can be defended by coordinated staff magic, including boundary protections, hostile magical plants, and animated statues and armor ordered to protect the school.
+
+- **Context:** Hogwarts can be defended by coordinated staff magic, including boundary protections, hostile magical plants, and animated statues and armor ordered to protect the school.
+  - Quote: "Man the boundaries, protect us"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3488, `dh-ch30-006`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The chapter names only some incantations and plants; it does not fully enumerate all protections placed around the castle.
+
 ### Chapter: Concealment and Anti-Detection Magic
 
 #### Section: Disillusionment Charm in Student Extraction
@@ -6641,6 +6668,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: security_or_protection
   - Notes: Felix Felicis affects Harry's route and the scene does not prove whether the lapse was ordinary negligence or luck-influenced coincidence.
+
+### Chapter: Wartime Evacuation and Castle Boundaries
+
+#### Section: Evacuating through Hogsmeade when regulated transport is unsafe
+
+Summary: The available evidence includes 1 source item, led by: Emergency evacuation planning treats the Floo Network as watched, Apparition inside the grounds as impossible, and the Hog's Head passage as a practical route for hundreds of students.
+
+- **Corroboration:** Emergency evacuation planning treats the Floo Network as watched, Apparition inside the grounds as impossible, and the Hog's Head passage as a practical route for hundreds of students.
+  - Quote: "Disapparating out of the Hog's Head"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3484, `dh-ch30-004`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch23-001`, `dh-ch01-004`, `dh-ch29-001`. ootp-ch23-001 records the explicit Hogwarts: A History anti-Apparition rule, dh-ch01-004 records wartime monitoring of Floo/Apparition, and dh-ch29-001 records the Hog's Head portrait route; this entry combines them into an evacuation plan.
+  - Notes: The plan is formed under emergency pressure and is not a standing evacuation protocol.
 
 ### Chapter: Wartime Household Precautions
 
@@ -12281,6 +12322,18 @@ Summary: The available evidence includes 1 source item, led by: Griphook gives a
 
 ### Chapter: Ravenclaw Relics and Lost Knowledge
 
+#### Section: Living-memory testimony for the lost diadem
+
+Summary: The available evidence includes 1 source item, led by: McGonagall and Flitwick confirm the diadem's status as a centuries-lost Ravenclaw relic, with Flitwick adding that it has not been seen in living memory.
+
+- **Corroboration:** McGonagall and Flitwick confirm the diadem's status as a centuries-lost Ravenclaw relic, with Flitwick adding that it has not been seen in living memory.
+  - Quote: "Nobody has seen it in living memory"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3482, `dh-ch30-003`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch29-006`. dh-ch29-006 records Ravenclaw student and Flitwick-attributed tradition about the diadem's loss and reputed wisdom; this entry adds direct Flitwick and McGonagall confirmation during the siege.
+  - Notes: The staff testimony addresses modern memory and reputation, not a documented chain of custody from Rowena Ravenclaw.
+
 #### Section: Popular reconstruction attempts for the lost diadem
 
 Summary: The available evidence includes 1 source item, led by: Luna reports that Xenophilius Lovegood is attempting to reconstruct the lost diadem of Ravenclaw, treating the founder relic as a real object with recoverable design elements.
@@ -12351,6 +12404,22 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore leave
   - Reference type: institutional_custom
   - Notes: The passage does not name a governing Quidditch rulebook or say whether all Snitches use identical memory enchantments.
 
+## Part: Governance, Discipline, and School Safety
+
+### Chapter: Wartime Rule Under Snape and the Carrows
+
+#### Section: Coercive discipline and scapegoating students
+
+Summary: The available evidence includes 1 source item, led by: Carrow-era discipline includes direct threats of Cruciatus use against students and willingness to frame children for Death Eater failures.
+
+- **Corroboration:** Carrow-era discipline includes direct threats of Cruciatus use against students and willingness to frame children for Death Eater failures.
+  - Quote: "He can punish them"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3480, `dh-ch30-002`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `dh-ch12-001`. dh-ch12-001 records the Ministry-backed installation of Snape and the Carrows; this entry adds an observed example of Carrow discipline and Dark Mark communication inside Hogwarts.
+  - Notes: The passage records Amycus's threatened response in one emergency rather than a full written school policy.
+
 ## Part: Governance, Headmasters, and Public Authority
 
 ### Chapter: Headmasters and School Authority
@@ -12411,6 +12480,22 @@ Summary: The available evidence includes 1 source item, led by: Hagrid expects i
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch25-004`, `ootp-ch20-006`, `ootp-ch21-002`. ootp-ch25-004 records Hagrid's probation and continuous inspection, while ootp-ch20-006 and ootp-ch21-002 record earlier scrutiny and inspection; this entry adds Hagrid's own expectation of imminent dismissal and Grubbly-Plank continuity.
   - Notes: The dismissal is anticipated by Hagrid here rather than formally announced in this chapter.
+
+## Part: Headmasters, Staff, and School Governance
+
+### Chapter: Wartime Headmastership and Staff Resistance
+
+#### Section: The sacking of Severus Snape
+
+Summary: The available evidence includes 1 source item, led by: Snape's headmastership effectively ends when McGonagall, Flitwick, and Sprout duel him inside Hogwarts and he escapes by flying from a classroom window.
+
+- **Corroboration:** Snape's headmastership effectively ends when McGonagall, Flitwick, and Sprout duel him inside Hogwarts and he escapes by flying from a classroom window.
+  - Quote: "Our headmaster is taking a short break"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3486, `dh-ch30-005`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch12-001`, `hbp-ch29-004`. dh-ch12-001 records Snape's appointment as headmaster, and hbp-ch29-004 records his previous staff-battle escape; this entry records his direct removal from Hogwarts command.
+  - Notes: The scene shows Snape fleeing, but the legal or Ministry status of the headmastership is not formally revoked on-page.
 
 ## Part: Historical Foundations
 
@@ -15083,6 +15168,21 @@ Summary: The available evidence includes 1 source item, led by: Students use bad
   - Reference type: institutional_custom
   - Corroborates: `poa-ch15-005`, `poa-ch15-006`. poa-ch15-005 and poa-ch15-006 record intense House rivalry and matchday support; this entry adds badges, a coordinated anti-Keeper song, and Luna's enchanted lion hat.
   - Notes: The Slytherin song is targeted harassment and should not be treated as a neutral school tradition.
+
+## Part: Student Life, Resistance, and Wartime Hogwarts
+
+### Chapter: Dumbledore's Army and the Defense of the School
+
+#### Section: Mobilization through the Room of Requirement
+
+Summary: The available evidence includes 1 source item, led by: The D.A. communication network brings Order members and former students to Hogwarts through the Room of Requirement, while the defense distinguishes underage evacuees from overage volunteers.
+
+- **Context:** The D.A. communication network brings Order members and former students to Hogwarts through the Room of Requirement, while the defense distinguishes underage evacuees from overage volunteers.
+  - Quote: "We sent messages to the rest of Dumbledore's Army"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, PDF p. 3490, `dh-ch30-007`, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The chapter summarizes the message cascade after it has happened and does not identify every communication channel used.
 
 ## Part: Student Organizations and Informal Governance
 
