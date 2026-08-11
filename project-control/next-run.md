@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Thirty-One - The Battle of Hogwarts
-- Page range: 3495-3520
+- Chapter: Chapter Thirty-Two - The Elder Wand
+- Page range: 3521-3537
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+- Output YAML: `sources/book-07/chapter-32-the-elder-wand.yaml`
 
 ## Minimal Context
 

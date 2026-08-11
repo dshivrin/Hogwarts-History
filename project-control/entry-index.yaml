@@ -19333,6 +19333,117 @@ by_entry:
     - underage-students
     source_unit: dh-ch30
     output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  dh-ch31-001:
+    title: 'Wartime Evacuation and Castle Defense: Great Hall evacuation and battle
+      deployment'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - castle-defenses
+    - great-hall
+    - hogwarts-evacuation
+    - passageways
+    - student-fighters
+    - underage-students
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch31-002:
+    title: 'Ravenclaw Relics and Lost Knowledge: Helena Ravenclaw and the hidden loss
+      of the diadem'
+    classification: pre_1984_historical_candidate
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - bloody-baron
+    - founders
+    - ghost-lore
+    - gray-lady
+    - helena-ravenclaw
+    - ravenclaw-diadem
+    - rowena-ravenclaw
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch31-003:
+    title: 'Ravenclaw Relics and Lost Knowledge: Riddle''s recovery and return of
+      the diadem'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - albania
+    - castle-secrets
+    - hogwarts-teaching-job
+    - horcrux
+    - ravenclaw-diadem
+    - tom-riddle
+    - voldemort
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch31-004:
+    title: 'Castle Defenses and Siege Magic: Battle use of plants, portraits, and
+      concealed passages'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - castle-defenses
+    - herbology-defenses
+    - mandrakes
+    - portraits
+    - secret-passageway
+    - sir-cadogan
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch31-005:
+    title: 'The Chamber of Secrets Crisis: Later use of the Chamber and basilisk remains'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - basilisk-fangs
+    - chamber-of-secrets
+    - hermione-granger
+    - horcrux-destruction
+    - hufflepuff-cup
+    - parseltongue
+    - ron-weasley
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch31-006:
+    title: 'Secret Rooms, Moving Routes, and Responsive Castle Spaces: Room of Hidden
+      Things access and object resistance'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - hidden-objects
+    - hogs-head
+    - magical-architecture
+    - ravenclaw-diadem
+    - room-of-hidden-things
+    - room-of-requirement
+    - vanishing-cabinet
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch31-007:
+    title: 'Ravenclaw Relics and Lost Knowledge: Destruction of Ravenclaw''s diadem
+      Horcrux'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - carrows
+    - cursed-fire
+    - fiendfyre
+    - horcrux-destruction
+    - ravenclaw-diadem
+    - room-of-requirement
+    - wit
+    source_unit: dh-ch31
+    output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19445,6 +19556,8 @@ by_tag:
   alastor-moody:
   - gof-ch35-006
   - gof-ch36-001
+  albania:
+  - dh-ch31-003
   albus-dumbledore:
   - dh-ch02-001
   - dh-ch02-002
@@ -19805,6 +19918,8 @@ by_tag:
   - cos-ch17-002
   - cos-ch17-006
   - ootp-ch16-005
+  basilisk-fangs:
+  - dh-ch31-005
   basilisk-venom:
   - dh-ch06-007
   - dh-ch15-006
@@ -19840,6 +19955,8 @@ by_tag:
   - ootp-ch35-005
   battle-of-hogwarts:
   - dh-ch30-006
+  - dh-ch31-001
+  - dh-ch31-004
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
@@ -19985,6 +20102,7 @@ by_tag:
   - cos-ch11-004
   bloody-baron:
   - cos-ch08-005
+  - dh-ch31-002
   bludgers:
   - cos-ch07-001
   blue-flames:
@@ -20200,6 +20318,7 @@ by_tag:
   - dh-ch29-002
   - dh-ch29-003
   - dh-ch30-002
+  - dh-ch31-007
   cassandra-trelawney:
   - ootp-ch15-003
   castle:
@@ -20232,6 +20351,8 @@ by_tag:
   - ootp-ch21-003
   castle-defenses:
   - dh-ch30-006
+  - dh-ch31-001
+  - dh-ch31-004
   castle-doors:
   - hbp-ch22-003
   castle-entry:
@@ -20294,6 +20415,7 @@ by_tag:
   - cos-ch09-005
   - dh-ch15-002
   - dh-ch27-005
+  - dh-ch31-003
   - hbp-ch20-004
   castle-security:
   - cos-ch07-006
@@ -20406,6 +20528,7 @@ by_tag:
   - cos-ch17-001
   - cos-ch17-006
   - cos-ch17-007
+  - dh-ch31-005
   - hbp-ch17-005
   - hbp-ch19-002
   - hbp-ch23-006
@@ -20874,6 +20997,8 @@ by_tag:
   - ootp-ch37-002
   cursed-barrier:
   - hbp-ch29-004
+  cursed-fire:
+  - dh-ch31-007
   cursed-necklace:
   - hbp-ch12-006
   - hbp-ch24-001
@@ -22172,6 +22297,8 @@ by_tag:
   field-security:
   - dh-ch16-001
   - dh-ch19-002
+  fiendfyre:
+  - dh-ch31-007
   fifth-floor:
   - dh-ch29-005
   - gof-ch23-007
@@ -22479,6 +22606,7 @@ by_tag:
   - hbp-ch23-007
   founders:
   - cos-ch09-003
+  - dh-ch31-002
   - gof-ch12-002
   - ootp-ch11-003
   - ootp-ch17-002
@@ -22587,6 +22715,8 @@ by_tag:
   ghost-customs:
   - cos-ch08-004
   - cos-ch08-005
+  ghost-lore:
+  - dh-ch31-002
   ghost-society:
   - cos-ch08-001
   ghost-teacher:
@@ -22762,6 +22892,8 @@ by_tag:
   - hbp-ch30-004
   - ootp-ch30-006
   - ootp-ch33-006
+  gray-lady:
+  - dh-ch31-002
   great-hall:
   - cos-ch01-001
   - cos-ch05-004
@@ -22771,6 +22903,7 @@ by_tag:
   - cos-ch12-003
   - cos-ch13-003
   - dh-ch30-007
+  - dh-ch31-001
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -23394,6 +23527,8 @@ by_tag:
   heir-of-slytherin:
   - cos-ch08-006
   - cos-ch09-005
+  helena-ravenclaw:
+  - dh-ch31-002
   helga-hufflepuff:
   - dh-ch26-006
   - hbp-ch20-005
@@ -23419,6 +23554,7 @@ by_tag:
   - ps-ch16-005
   herbology-defenses:
   - dh-ch30-006
+  - dh-ch31-004
   herbology-homework:
   - hbp-ch25-001
   hermione:
@@ -23437,6 +23573,7 @@ by_tag:
   - dh-ch19-001
   - dh-ch20-006
   - dh-ch25-003
+  - dh-ch31-005
   - gof-ch08-003
   - gof-ch09-002
   - hbp-ch04-001
@@ -23481,6 +23618,7 @@ by_tag:
   hidden-message:
   - dh-ch07-005
   hidden-objects:
+  - dh-ch31-006
   - hbp-ch24-005
   hidden-passageway:
   - ps-ch09-006
@@ -23568,6 +23706,7 @@ by_tag:
   - dh-ch29-001
   - dh-ch29-004
   - dh-ch30-004
+  - dh-ch31-006
   - hbp-ch20-007
   - hbp-ch25-004
   - ootp-ch16-002
@@ -23684,6 +23823,7 @@ by_tag:
   hogwarts-evacuation:
   - dh-ch30-004
   - dh-ch30-007
+  - dh-ch31-001
   hogwarts-express:
   - cos-ch04-001
   - cos-ch05-001
@@ -23825,6 +23965,8 @@ by_tag:
   - hbp-ch23-006
   hogwarts-teacher:
   - gof-ch33-002
+  hogwarts-teaching-job:
+  - dh-ch31-003
   hogwarts-testing:
   - hbp-ch06-004
   hogwarts-victory:
@@ -23898,12 +24040,15 @@ by_tag:
   - dh-ch14-006
   - dh-ch17-005
   - dh-ch19-005
+  - dh-ch31-003
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
   horcrux-destruction:
   - dh-ch14-006
   - dh-ch19-006
+  - dh-ch31-005
+  - dh-ch31-007
   horcrux-hunt:
   - dh-ch06-001
   - dh-ch06-004
@@ -24177,6 +24322,7 @@ by_tag:
   - dh-ch26-006
   - dh-ch27-002
   - dh-ch27-003
+  - dh-ch31-005
   - hbp-ch20-005
   hufflepuffs-cup:
   - hbp-ch23-007
@@ -24844,6 +24990,7 @@ by_tag:
   - dh-ch27-005
   - dh-ch28-007
   - dh-ch29-004
+  - dh-ch31-006
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -25232,6 +25379,7 @@ by_tag:
   - cos-ch06-003
   - cos-ch14-001
   - cos-ch16-002
+  - dh-ch31-004
   manticores:
   - poa-ch11-003
   manumission:
@@ -26298,6 +26446,7 @@ by_tag:
   - cos-ch18-004
   - dh-ch17-005
   - dh-ch19-005
+  - dh-ch31-005
   - gof-ch01-005
   - hbp-ch10-006
   - hbp-ch13-007
@@ -26306,6 +26455,8 @@ by_tag:
   - ps-ch02-004
   part-humans:
   - gof-ch10-004
+  passageways:
+  - dh-ch31-001
   password:
   - cos-ch11-007
   - gof-ch28-006
@@ -26621,6 +26772,7 @@ by_tag:
   - dh-ch16-002
   - dh-ch23-002
   - dh-ch28-007
+  - dh-ch31-004
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -27311,6 +27463,10 @@ by_tag:
   - dh-ch27-005
   - dh-ch29-006
   - dh-ch30-003
+  - dh-ch31-002
+  - dh-ch31-003
+  - dh-ch31-006
+  - dh-ch31-007
   - hbp-ch24-005
   ravenclaw-students:
   - dh-ch30-002
@@ -27453,6 +27609,7 @@ by_tag:
   - dh-ch07-004
   - dh-ch16-001
   - dh-ch19-006
+  - dh-ch31-005
   - ootp-ch09-005
   - ootp-ch30-003
   - ootp-ch35-006
@@ -27464,10 +27621,14 @@ by_tag:
   - gof-ch30-004
   - gof-ch30-005
   - ootp-ch37-003
+  room-of-hidden-things:
+  - dh-ch31-006
   room-of-requirement:
   - dh-ch29-004
   - dh-ch29-005
   - dh-ch30-007
+  - dh-ch31-006
+  - dh-ch31-007
   - gof-ch23-004
   - hbp-ch18-004
   - hbp-ch19-006
@@ -27495,6 +27656,7 @@ by_tag:
   - dh-ch29-006
   - dh-ch29-007
   - dh-ch30-003
+  - dh-ch31-002
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002
@@ -27984,6 +28146,8 @@ by_tag:
   - poa-ch20-001
   - poa-ch21-005
   - poa-ch22-004
+  secret-passageway:
+  - dh-ch31-004
   secret-passageways:
   - cos-ch01-001
   - dh-ch28-006
@@ -28135,6 +28299,7 @@ by_tag:
   silver-instruments:
   - hbp-ch10-003
   sir-cadogan:
+  - dh-ch31-004
   - poa-ch06-002
   - poa-ch09-003
   - poa-ch11-006
@@ -28735,6 +28900,8 @@ by_tag:
   - hbp-ch13-005
   student-family-contact:
   - cos-ch06-005
+  student-fighters:
+  - dh-ch31-001
   student-governance:
   - hbp-ch07-002
   - ootp-ch10-002
@@ -29309,6 +29476,7 @@ by_tag:
   - cos-ch18-001
   - dh-ch15-002
   - dh-ch26-006
+  - dh-ch31-003
   - gof-ch01-001
   - hbp-ch13-003
   - hbp-ch13-004
@@ -29587,6 +29755,7 @@ by_tag:
   - poa-ch03-001
   underage-students:
   - dh-ch30-007
+  - dh-ch31-001
   - gof-ch16-004
   underground-harbor:
   - ps-ch06-007
@@ -29665,6 +29834,7 @@ by_tag:
   vanished-objects:
   - dh-ch30-001
   vanishing-cabinet:
+  - dh-ch31-006
   - hbp-ch06-007
   - hbp-ch24-005
   - hbp-ch27-005
@@ -29746,6 +29916,7 @@ by_tag:
   - dh-ch27-002
   - dh-ch27-003
   - dh-ch27-004
+  - dh-ch31-003
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -30078,6 +30249,7 @@ by_tag:
   - dh-ch30-003
   wit:
   - dh-ch20-007
+  - dh-ch31-007
   witch-weekly:
   - gof-ch27-003
   witherwings:

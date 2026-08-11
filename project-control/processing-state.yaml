@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 30
-  chapter_title: Chapter Thirty - The Sacking of Severus Snape
-  page_start: 3478
-  page_end: 3494
-  output_yaml: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 31
   chapter_title: Chapter Thirty-One - The Battle of Hogwarts
   page_start: 3495
   page_end: 3520
   output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3521
   page_end: 3537
   output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 33
+  chapter_title: "Chapter Thirty-Three - The Prince\u2019s Tale"
+  page_start: 3538
+  page_end: 3565
+  output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

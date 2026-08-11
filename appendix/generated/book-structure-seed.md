@@ -397,8 +397,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Founder Relics and Contested Provenance
   - Goblin counter-claim to the Sword of Gryffindor
 - Ravenclaw Relics and Lost Knowledge
+  - Destruction of Ravenclaw's diadem Horcrux
+  - Helena Ravenclaw and the hidden loss of the diadem
   - Living-memory testimony for the lost diadem
   - Popular reconstruction attempts for the lost diadem
+  - Riddle's recovery and return of the diadem
   - The lost diadem tradition and its reputed power
 
 ## Founders, Relics, and the House System
@@ -1326,6 +1329,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Boundaries, Gates, and School Travel
   - Emergency transport to the school boundary
 - Castle Defenses and Siege Magic
+  - Battle use of plants, portraits, and concealed passages
   - Staff-activated boundary and statuary defenses
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
@@ -1442,6 +1446,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Emergency Suspension of School Activities
   - First Visible Attack and Wall Message
   - Founder-Built Monster Release Mechanism
+  - Later use of the Chamber and basilisk remains
   - Lockdown Movement Rules
   - Lockdown Rules and Closure Threat
   - Reopened Chamber and Staff Recognition
@@ -1458,6 +1463,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - After-hours movement and door-security lapses
 - Wartime Evacuation and Castle Boundaries
   - Evacuating through Hogsmeade when regulated transport is unsafe
+- Wartime Evacuation and Castle Defense
+  - Great Hall evacuation and battle deployment
 - Wartime Household Precautions
   - Identity checks and Inferi in Ministry public guidance
   - Ministry identity challenges at home
@@ -1849,6 +1856,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Interior Rooms
   - Trophy Room
 - Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - Room of Hidden Things access and object resistance
   - The Room of Requirement as a wartime refuge
   - Variable exits and resealing walls
 - The Grounds and Edge of the Forest

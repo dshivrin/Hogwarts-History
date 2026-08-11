@@ -266,6 +266,18 @@ Summary: The available evidence includes 1 source item, led by: The trophy room 
 
 ### Chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
 
+#### Section: Room of Hidden Things access and object resistance
+
+Summary: The available evidence includes 1 source item, led by: The Room of Requirement cannot change while users remain in the Hog's Head passage, then becomes the Room of Hidden Things, a vast hidden-object city that resists direct summoning and can conceal the diadem.
+
+- **Corroboration:** The Room of Requirement cannot change while users remain in the Hog's Head passage, then becomes the Room of Hidden Things, a vast hidden-object city that resists direct summoning and can conceal the diadem.
+  - Quote: "the place where everything is hidden"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3509, `dh-ch31-006`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `hbp-ch24-005`, `dh-ch29-004`, `dh-ch29-005`. hbp-ch24-005 records the storage configuration and tiara marker, while dh-ch29-004 and dh-ch29-005 record the refuge configuration and variable exits; this entry adds transformation blocked by remaining passage users, the precise 'place where everything is hidden' request, Accio failure, and battle-risk burial of the diadem.
+  - Notes: The chapter does not state whether the post-Fiendfyre room can still answer the same request later.
+
 #### Section: The Room of Requirement as a wartime refuge
 
 Summary: The available evidence includes 1 source item, led by: The Room of Requirement expands for D.A. refugees, excludes Carrow supporters when asked precisely, supplies facilities, but cannot make food and instead opens a Hog's Head passage.
@@ -5578,6 +5590,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Corroborates: `cos-ch16-006`. Chapter Sixteen identifies the snake-marked bathroom entrance and Parseltongue trigger; this entry adds the inner statue trigger and basilisk release mechanism.
   - Notes: The chapter does not state whether Salazar Slytherin personally built every observed mechanism or whether later heirs altered it.
 
+#### Section: Later use of the Chamber and basilisk remains
+
+Summary: The available evidence includes 1 source item, led by: The Chamber remains accessible through Parseltongue imitation, its dead basilisk still yields Horcrux-destroying fangs, and Hermione uses one to destroy Hufflepuff's cup.
+
+- **Corroboration:** The Chamber remains accessible through Parseltongue imitation, its dead basilisk still yields Horcrux-destroying fangs, and Hermione uses one to destroy Hufflepuff's cup.
+  - Quote: "great curved fangs, torn"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3507, `dh-ch31-005`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `cos-ch16-006`, `cos-ch17-006`, `dh-ch19-006`. cos-ch16-006 and cos-ch17-006 record the Chamber's Parseltongue entrance and basilisk mechanism, and dh-ch19-006 records sword-based Horcrux destruction; this entry adds Ron's copied Parseltongue access, extraction of basilisk fangs, and Hermione's destruction of Hufflepuff's cup.
+  - Notes: The Chamber trip occurs off-page and is summarized by Ron and Hermione immediately afterward.
+
 #### Section: Lockdown Movement Rules
 
 Summary: The available evidence includes 1 source item, led by: The chapter continues the Chamber-crisis lockdown by showing teacher-supervised movement and evening common-room confinement.
@@ -5694,6 +5718,18 @@ Summary: The available evidence includes 1 source item, led by: The Knight Bus c
   - Notes: Tonks's safety statement is situational and does not identify the exact protective enchantments active at the gate.
 
 ### Chapter: Castle Defenses and Siege Magic
+
+#### Section: Battle use of plants, portraits, and concealed passages
+
+Summary: The available evidence includes 1 source item, led by: During the battle, Hogwarts defenses and communications use both inhabitants and architecture: a giant breaches the boundary, Mandrakes are prepared as weapons, portraits relay news, and students guard a statue-concealed passage.
+
+- **Corroboration:** During the battle, Hogwarts defenses and communications use both inhabitants and architecture: a giant breaches the boundary, Mandrakes are prepared as weapons, portraits relay news, and students guard a statue-concealed passage.
+  - Quote: "screaming news from other parts of the castle"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3505, `dh-ch31-004`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch30-006`, `poa-ch06-002`, `dh-ch15-007`. dh-ch30-006 records formal staff defensive enchantments, poa-ch06-002 records Sir Cadogan moving through frames to guide students, and dh-ch15-007 records portrait communication limits; this entry adds battle use of Mandrakes, portrait news relay, Grawp's boundary breach, and guarded statue passage.
+  - Notes: The chapter shows improvised battle behavior, not a complete inventory of every defensive object or route in the castle.
 
 #### Section: Staff-activated boundary and statuary defenses
 
@@ -6682,6 +6718,20 @@ Summary: The available evidence includes 1 source item, led by: Emergency evacua
   - Reference type: security_or_protection
   - Corroborates: `ootp-ch23-001`, `dh-ch01-004`, `dh-ch29-001`. ootp-ch23-001 records the explicit Hogwarts: A History anti-Apparition rule, dh-ch01-004 records wartime monitoring of Floo/Apparition, and dh-ch29-001 records the Hog's Head portrait route; this entry combines them into an evacuation plan.
   - Notes: The plan is formed under emergency pressure and is not a standing evacuation protocol.
+
+### Chapter: Wartime Evacuation and Castle Defense
+
+#### Section: Great Hall evacuation and battle deployment
+
+Summary: The available evidence includes 1 source item, led by: The defense of Hogwarts distinguishes underage evacuees from overage volunteers, while teachers and Order members assign fighters to high towers, grounds, and passageway entrances.
+
+- **Corroboration:** The defense of Hogwarts distinguishes underage evacuees from overage volunteers, while teachers and Order members assign fighters to high towers, grounds, and passageway entrances.
+  - Quote: "If you are of age, you may stay"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3495, `dh-ch31-001`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch30-006`, `dh-ch30-007`. dh-ch30-006 records staff-activated boundary and statuary defenses, and dh-ch30-007 records D.A./Order mobilization and underage evacuation; this entry adds the Great Hall order of evacuation and the explicit tower, grounds, and passageway defense plan.
+  - Notes: This is an emergency practice under siege, not evidence of a standing peacetime evacuation policy.
 
 ### Chapter: Wartime Household Precautions
 
@@ -12322,6 +12372,30 @@ Summary: The available evidence includes 1 source item, led by: Griphook gives a
 
 ### Chapter: Ravenclaw Relics and Lost Knowledge
 
+#### Section: Destruction of Ravenclaw's diadem Horcrux
+
+Summary: The available evidence includes 1 source item, led by: Uncontrolled Fiendfyre consumes the Room of Hidden Things, kills Crabbe, and fatally damages Ravenclaw's diadem Horcrux, whose motto remains legible before it breaks apart.
+
+- **Corroboration:** Uncontrolled Fiendfyre consumes the Room of Hidden Things, kills Crabbe, and fatally damages Ravenclaw's diadem Horcrux, whose motto remains legible before it breaks apart.
+  - Quote: "one of the substances that destroy Horcruxes"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3515, `dh-ch31-007`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch14-006`, `dh-ch19-006`, `dh-ch29-006`. dh-ch14-006 and dh-ch19-006 record earlier Horcrux behavior and destruction, and dh-ch29-006 records the diadem tradition; this entry adds Fiendfyre as a Horcrux-destroying substance and the observed destruction of Ravenclaw's diadem.
+  - Notes: Hermione identifies the magic as Fiendfyre after the event; the spell's full theory, counterspell, and origin are not explained.
+
+#### Section: Helena Ravenclaw and the hidden loss of the diadem
+
+Summary: The available evidence includes 1 source item, led by: The Gray Lady is identified as Helena Ravenclaw, Rowena's daughter, and gives founder-era testimony that she stole the diadem, concealed Rowena's loss from the founders, and was killed by the Bloody Baron.
+
+- **Corroboration:** The Gray Lady is identified as Helena Ravenclaw, Rowena's daughter, and gives founder-era testimony that she stole the diadem, concealed Rowena's loss from the founders, and was killed by the Bloody Baron.
+  - Quote: "When I lived, I was Helena Ravenclaw"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3500, `dh-ch31-002`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch29-006`, `dh-ch30-003`, `cos-ch08-005`. dh-ch29-006 and dh-ch30-003 record modern tradition that the diadem was lost, and cos-ch08-005 records the Bloody Baron among Hogwarts ghosts; this entry adds Helena Ravenclaw's first-person account of the theft, Rowena's concealment, and the Baron's crime.
+  - Notes: The account comes from Helena's memory and does not include documentary corroboration from Rowena Ravenclaw or another founder.
+
 #### Section: Living-memory testimony for the lost diadem
 
 Summary: The available evidence includes 1 source item, led by: McGonagall and Flitwick confirm the diadem's status as a centuries-lost Ravenclaw relic, with Flitwick adding that it has not been seen in living memory.
@@ -12345,6 +12419,18 @@ Summary: The available evidence includes 1 source item, led by: Luna reports tha
   - Reference type: cross_reference_candidate
   - Corroborates: `hbp-ch24-005`. hbp-ch24-005 records a tarnished tiara hidden in the Room of Requirement and indexed as the Ravenclaw diadem; this entry adds the explicit lost-diadem tradition and Xenophilius's attempted reconstruction.
   - Notes: Luna's description includes likely unreliable details from Xenophilius, and the passage does not authenticate his reconstruction.
+
+#### Section: Riddle's recovery and return of the diadem
+
+Summary: The available evidence includes 1 source item, led by: Helena's confession and Harry's inference connect the diadem's Albanian hiding place to Tom Riddle's recovery of the relic and its secret return to Hogwarts as a Horcrux.
+
+- **Corroboration:** Helena's confession and Harry's inference connect the diadem's Albanian hiding place to Tom Riddle's recovery of the relic and its secret return to Hogwarts as a Horcrux.
+  - Quote: "He hid the diadem in the castle"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, PDF p. 3503, `dh-ch31-003`, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch15-002`, `hbp-ch23-007`, `dh-ch30-003`. dh-ch15-002 frames Hogwarts as a plausible Horcrux hiding place, hbp-ch23-007 records Voldemort's founder-relic pattern, and dh-ch30-003 confirms the diadem's lost status; this entry identifies the Albanian hiding place, Helena's disclosure to Riddle, and the inferred teaching-job return to Hogwarts.
+  - Notes: The recovery and exact hiding moment are Harry's reasoned inference from Helena's testimony and earlier memories rather than an observed Riddle scene.
 
 #### Section: The lost diadem tradition and its reputed power
 
