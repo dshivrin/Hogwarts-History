@@ -19444,6 +19444,112 @@ by_entry:
     - wit
     source_unit: dh-ch31
     output_yaml: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  dh-ch32-001:
+    title: 'Magical Residents in Wartime: Acromantulas breaching the castle walls'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - acromantulas
+    - battle-of-hogwarts
+    - castle-damage
+    - death-eaters
+    - forbidden-forest
+    - upper-corridors
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch32-002:
+    title: 'Castle Defenses and Siege Magic: Improvised defensive use of castle features
+      and school materials'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - castle-defenses
+    - divination
+    - herbology-defenses
+    - peeves
+    - portraits
+    - transfiguration
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch32-003:
+    title: 'Magical Residents in Wartime: Grawp and giants at the castle entrance'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - acromantulas
+    - battle-of-hogwarts
+    - entrance-hall
+    - giants
+    - grawp
+    - grounds
+    - hagrid
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch32-004:
+    title: 'Defensive Magic in School Crises: Patronus defense against Dementors on
+      the grounds'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - defensive-magic
+    - dementors
+    - dumbledores-army
+    - grounds
+    - patronus
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch32-005:
+    title: 'Concealed Routes Beyond the Castle: Whomping Willow tunnel to the Shrieking
+      Shack during the battle'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-grounds
+    - magical-architecture
+    - secret-passages
+    - shrieking-shack
+    - stopping-knot
+    - whomping-willow
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch32-006:
+    title: 'Horcrux Defenses and Dark Protections: Nagini''s floating protective sphere'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - enchanted-cage
+    - horcrux
+    - nagini
+    - parseltongue
+    - protective-magic
+    - shrieking-shack
+    - voldemort
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch32-007:
+    title: 'Elder Wand Ownership and Allegiance: Voldemort''s mistaken mastery theory
+      and Snape''s death'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dumbledore-tomb
+    - elder-wand
+    - memories
+    - nagini
+    - severus-snape
+    - voldemort
+    - wandlore
+    source_unit: dh-ch32
+    output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19498,6 +19604,9 @@ by_tag:
   - cos-ch15-005
   acromantula-venom:
   - hbp-ch22-006
+  acromantulas:
+  - dh-ch32-001
+  - dh-ch32-003
   address-tracking:
   - ps-ch03-003
   administrative-spaces:
@@ -19957,6 +20066,10 @@ by_tag:
   - dh-ch30-006
   - dh-ch31-001
   - dh-ch31-004
+  - dh-ch32-001
+  - dh-ch32-002
+  - dh-ch32-003
+  - dh-ch32-004
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
@@ -20345,6 +20458,7 @@ by_tag:
   castle-corridors:
   - hbp-ch15-001
   castle-damage:
+  - dh-ch32-001
   - hbp-ch28-001
   - hbp-ch28-004
   castle-decorations:
@@ -20353,6 +20467,7 @@ by_tag:
   - dh-ch30-006
   - dh-ch31-001
   - dh-ch31-004
+  - dh-ch32-002
   castle-doors:
   - hbp-ch22-003
   castle-entry:
@@ -20362,6 +20477,7 @@ by_tag:
   castle-ghosts:
   - hbp-ch30-003
   castle-grounds:
+  - dh-ch32-005
   - ootp-ch33-001
   - poa-ch17-001
   - poa-ch20-001
@@ -21161,6 +21277,7 @@ by_tag:
   - dh-ch28-001
   - dh-ch28-002
   - dh-ch30-002
+  - dh-ch32-001
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -21302,6 +21419,7 @@ by_tag:
   defense-association:
   - ootp-ch18-007
   defensive-magic:
+  - dh-ch32-004
   - hbp-ch06-005
   - ootp-ch36-003
   - poa-ch19-003
@@ -21330,6 +21448,7 @@ by_tag:
   - dh-ch28-001
   - dh-ch28-006
   - dh-ch29-001
+  - dh-ch32-004
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -21517,6 +21636,7 @@ by_tag:
   - hbp-ch24-004
   - ps-ch14-001
   divination:
+  - dh-ch32-002
   - gof-ch10-005
   - gof-ch13-001
   - gof-ch13-004
@@ -21875,6 +21995,7 @@ by_tag:
   - hbp-ch16-002
   dumbledore-tomb:
   - dh-ch24-007
+  - dh-ch32-007
   - hbp-ch30-005
   dumbledore-will:
   - dh-ch07-002
@@ -21884,6 +22005,7 @@ by_tag:
   - dh-ch29-003
   - dh-ch29-004
   - dh-ch30-007
+  - dh-ch32-004
   - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch18-007
@@ -21974,6 +22096,7 @@ by_tag:
   - dh-ch23-007
   - dh-ch24-006
   - dh-ch24-007
+  - dh-ch32-007
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -22029,6 +22152,8 @@ by_tag:
   enchanted-boat:
   - hbp-ch26-004
   - hbp-ch26-005
+  enchanted-cage:
+  - dh-ch32-006
   enchanted-ceiling:
   - cos-ch05-004
   - cos-ch06-001
@@ -22065,6 +22190,7 @@ by_tag:
   - dh-ch20-002
   - gof-ch04-005
   entrance-hall:
+  - dh-ch32-003
   - gof-ch12-001
   - gof-ch15-005
   - gof-ch16-003
@@ -22527,6 +22653,7 @@ by_tag:
   - cos-ch15-004
   - cos-ch15-005
   - cos-ch15-006
+  - dh-ch32-001
   - gof-ch04-003
   - gof-ch12-005
   - gof-ch28-005
@@ -22748,6 +22875,7 @@ by_tag:
   giantess:
   - gof-ch23-006
   giants:
+  - dh-ch32-003
   - gof-ch23-006
   - gof-ch36-006
   - hbp-ch01-004
@@ -22888,6 +23016,7 @@ by_tag:
   - dh-ch16-007
   - dh-ch17-001
   grawp:
+  - dh-ch32-003
   - hbp-ch08-007
   - hbp-ch30-004
   - ootp-ch30-006
@@ -23049,6 +23178,8 @@ by_tag:
   - cos-ch05-002
   - cos-ch07-005
   - cos-ch15-004
+  - dh-ch32-003
+  - dh-ch32-004
   - ps-ch04-001
   - ps-ch09-002
   - ps-ch11-001
@@ -23192,6 +23323,7 @@ by_tag:
   - cos-ch15-006
   - dh-ch05-003
   - dh-ch22-007
+  - dh-ch32-003
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -23555,6 +23687,7 @@ by_tag:
   herbology-defenses:
   - dh-ch30-006
   - dh-ch31-004
+  - dh-ch32-002
   herbology-homework:
   - hbp-ch25-001
   hermione:
@@ -24041,6 +24174,7 @@ by_tag:
   - dh-ch17-005
   - dh-ch19-005
   - dh-ch31-003
+  - dh-ch32-006
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
@@ -24991,6 +25125,7 @@ by_tag:
   - dh-ch28-007
   - dh-ch29-004
   - dh-ch31-006
+  - dh-ch32-005
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -25508,6 +25643,8 @@ by_tag:
   - hbp-ch30-003
   memorial-magic:
   - hbp-ch30-005
+  memories:
+  - dh-ch32-007
   memory:
   - dh-ch14-007
   - ps-ch02-005
@@ -26038,6 +26175,8 @@ by_tag:
   - dh-ch17-003
   - dh-ch17-005
   - dh-ch27-004
+  - dh-ch32-006
+  - dh-ch32-007
   - gof-ch01-005
   named-book:
   - ps-ch11-002
@@ -26447,6 +26586,7 @@ by_tag:
   - dh-ch17-005
   - dh-ch19-005
   - dh-ch31-005
+  - dh-ch32-006
   - gof-ch01-005
   - hbp-ch10-006
   - hbp-ch13-007
@@ -26501,6 +26641,7 @@ by_tag:
   - dh-ch13-006
   - dh-ch19-003
   - dh-ch28-002
+  - dh-ch32-004
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -26527,6 +26668,7 @@ by_tag:
   peeves:
   - cos-ch08-005
   - cos-ch11-006
+  - dh-ch32-002
   - gof-ch15-001
   - gof-ch22-003
   - ootp-ch21-003
@@ -26773,6 +26915,7 @@ by_tag:
   - dh-ch23-002
   - dh-ch28-007
   - dh-ch31-004
+  - dh-ch32-002
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -27205,6 +27348,7 @@ by_tag:
   - dh-ch19-003
   - dh-ch29-004
   - dh-ch29-005
+  - dh-ch32-006
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -28129,6 +28273,7 @@ by_tag:
   - dh-ch28-007
   - dh-ch29-001
   secret-passages:
+  - dh-ch32-005
   - ootp-ch17-007
   - ootp-ch28-003
   - ootp-ch28-004
@@ -28236,6 +28381,7 @@ by_tag:
   - dh-ch28-006
   - dh-ch29-003
   - dh-ch30-005
+  - dh-ch32-007
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -28263,6 +28409,8 @@ by_tag:
   shield-hats:
   - hbp-ch06-005
   shrieking-shack:
+  - dh-ch32-005
+  - dh-ch32-006
   - ootp-ch17-007
   - poa-ch05-002
   - poa-ch14-005
@@ -28832,6 +28980,7 @@ by_tag:
   stone-protection:
   - ps-ch05-001
   stopping-knot:
+  - dh-ch32-005
   - poa-ch21-005
   strengthening-solution:
   - ootp-ch17-005
@@ -29554,6 +29703,7 @@ by_tag:
   transfiguration:
   - cos-ch06-004
   - dh-ch15-003
+  - dh-ch32-002
   - gof-ch15-002
   - hbp-ch11-001
   - hbp-ch15-003
@@ -29823,6 +29973,8 @@ by_tag:
   - ps-ch12-006
   unused-classrooms:
   - ootp-ch16-006
+  upper-corridors:
+  - dh-ch32-001
   vacation:
   - poa-ch03-004
   valentines-day:
@@ -29917,6 +30069,8 @@ by_tag:
   - dh-ch27-003
   - dh-ch27-004
   - dh-ch31-003
+  - dh-ch32-006
+  - dh-ch32-007
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -30065,6 +30219,7 @@ by_tag:
   - dh-ch24-003
   - dh-ch24-005
   - dh-ch24-006
+  - dh-ch32-007
   - gof-ch34-003
   wandmakers:
   - dh-ch08-003
@@ -30203,6 +30358,7 @@ by_tag:
   - poa-ch13-002
   whomping-willow:
   - cos-ch05-003
+  - dh-ch32-005
   - gof-ch31-001
   - poa-ch09-007
   - poa-ch10-002

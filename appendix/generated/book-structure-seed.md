@@ -479,6 +479,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wartime Headmastership and Staff Resistance
   - The sacking of Severus Snape
 
+## Hidden Rooms, Passages, and Portrait Routes
+
+- Concealed Routes Beyond the Castle
+  - Whomping Willow tunnel to the Shrieking Shack during the battle
+
 ## Historical Foundations
 
 - Curriculum, Exams, and Student Life Before 1984
@@ -1330,6 +1335,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Emergency transport to the school boundary
 - Castle Defenses and Siege Magic
   - Battle use of plants, portraits, and concealed passages
+  - Improvised defensive use of castle features and school materials
   - Staff-activated boundary and statuary defenses
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
@@ -1342,6 +1348,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Animagus Evasion of Dementor and Grounds Security
   - Dementor Powers and Ministry Authorization
   - Dementors at the Castle Boundary
+- Defensive Magic in School Crises
+  - Patronus defense against Dementors on the grounds
 - Dementor Deployment Around Hogwarts
   - Dementor Powers and the Kiss
   - Lake and Grounds Encirclement
@@ -1378,6 +1386,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Layered Entry Controls at Grimmauld Place
   - Number Twelve Revealed After Memorized Disclosure
   - Unplottable Headquarters and Dumbledore as Secret-Keeper
+- Horcrux Defenses and Dark Protections
+  - Nagini's floating protective sphere
 - House Common-Room Security
   - Password Lists and Portrait-Hole Breaches
 - House Entrances and Castle Security
@@ -1942,6 +1952,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Sorting, Families, and Exceptions
   - Family patterns and Sirius Black's exception
 
+## The Grounds and Edge of the Forest
+
+- Magical Residents in Wartime
+  - Acromantulas breaching the castle walls
+  - Grawp and giants at the castle entrance
+
 ## The Grounds and Forbidden Forest
 
 - Creature Materials and Informal Knowledge
@@ -2015,6 +2031,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogsmeade Village
   - The Hog's Head Inn
+
+## Wands, Equipment, and Magical Materials
+
+- Elder Wand Ownership and Allegiance
+  - Voldemort's mistaken mastery theory and Snape's death
 
 ## Wars, Crises, and School Memory
 

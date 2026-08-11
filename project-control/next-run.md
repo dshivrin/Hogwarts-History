@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Thirty-Two - The Elder Wand
-- Page range: 3521-3537
+- Chapter: Chapter Thirty-Three - The Prince’s Tale
+- Page range: 3538-3565
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-32-the-elder-wand.yaml`
+- Output YAML: `sources/book-07/chapter-33-the-prince-s-tale.yaml`
 
 ## Minimal Context
 

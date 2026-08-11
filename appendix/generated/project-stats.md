@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 193
+- Total: 194
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 210
+- Harry Potter and the Deathly Hallows: 217
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -22,8 +22,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 487
-- later_editorial_note: 646
+- harry_era_confirmation: 488
+- later_editorial_note: 652
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 5
 - pre_1984_historical_candidate: 133
@@ -32,16 +32,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - cross_reference_candidate: 98
 - curriculum_or_subject: 154
-- direct_observed_setting: 56
+- direct_observed_setting: 58
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 101
-- historical_claim: 179
+- historical_claim: 180
 - house_system: 22
 - institutional_custom: 183
-- magical_architecture: 99
+- magical_architecture: 100
 - portrait_or_ghost_lore: 20
 - school_rule_or_policy: 133
-- security_or_protection: 225
+- security_or_protection: 228
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 935
+- Total: 942
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, pages 3478-3494, `sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, pages 3521-3537, `sources/book-07/chapter-32-the-elder-wand.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, pages 3495-3520, `sources/book-07/chapter-31-the-battle-of-hogwarts.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince’s Tale, pages 3538-3565, `sources/book-07/chapter-33-the-prince-s-tale.yaml`

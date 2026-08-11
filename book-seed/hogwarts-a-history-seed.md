@@ -5731,6 +5731,18 @@ Summary: The available evidence includes 1 source item, led by: During the battl
   - Corroborates: `dh-ch30-006`, `poa-ch06-002`, `dh-ch15-007`. dh-ch30-006 records formal staff defensive enchantments, poa-ch06-002 records Sir Cadogan moving through frames to guide students, and dh-ch15-007 records portrait communication limits; this entry adds battle use of Mandrakes, portrait news relay, Grawp's boundary breach, and guarded statue passage.
   - Notes: The chapter shows improvised battle behavior, not a complete inventory of every defensive object or route in the castle.
 
+#### Section: Improvised defensive use of castle features and school materials
+
+Summary: The available evidence includes 1 source item, led by: The castle's defenders turn Hogwarts features and school materials into battle assets: stairs, tapestries, desks, portraits, poltergeist attacks, magical plants, and Divination equipment all enter the fight.
+
+- **Corroboration:** The castle's defenders turn Hogwarts features and school materials into battle assets: stairs, tapestries, desks, portraits, poltergeist attacks, magical plants, and Divination equipment all enter the fight.
+  - Quote: "The portraits on either side of the fighters were crammed with figures"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3526, `dh-ch32-002`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch31-004`, `poa-ch08-007`. dh-ch31-004 already records battle use of plants, portraits, and passages; poa-ch08-007 covers Peeves and portrait crisis behavior. This entry adds the corridor-level combined use of stairs, tapestries, desks, Snargaluff pods, Tentacula, and crystal balls.
+  - Notes: The passage shows improvised wartime use rather than a formally documented defense curriculum or standing emergency protocol.
+
 #### Section: Staff-activated boundary and statuary defenses
 
 Summary: The available evidence includes 1 source item, led by: Hogwarts can be defended by coordinated staff magic, including boundary protections, hostile magical plants, and animated statues and armor ordered to protect the school.
@@ -5806,6 +5818,20 @@ Summary: The available evidence includes 1 source item, led by: Hagrid frames Du
   - Reference type: security_or_protection
   - Corroborates: `poa-ch09-004`. Book 3 Chapter Nine records Dumbledore explicitly refusing to let dementors cross the castle threshold; this entry independently corroborates that ongoing burden from Hagrid's viewpoint.
   - Notes: Hagrid speaks informally and does not describe the magical or legal mechanism used to keep dementors outside.
+
+### Chapter: Defensive Magic in School Crises
+
+#### Section: Patronus defense against Dementors on the grounds
+
+Summary: The available evidence includes 1 source item, led by: The battle includes a mass Dementor advance across the grounds, repelled by corporeal Patronuses cast by D.A.-trained students and allies.
+
+- **Corroboration:** The battle includes a mass Dementor advance across the grounds, repelled by corporeal Patronuses cast by D.A.-trained students and allies.
+  - Quote: "A hundred dementors were advancing"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3530, `dh-ch32-004`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch02-005`, `ootp-ch08-003`, `dh-ch13-006`. ootp-ch02-005 and ootp-ch08-003 establish Patronus defense against Dementors and Harry's Hogwarts training; dh-ch13-006 shows Dementors used coercively in wartime. This entry adds a mass battlefield use by students and allies on Hogwarts grounds.
+  - Notes: The passage evokes D.A. practice through Luna's comparison but does not explicitly list all participants' training histories.
 
 ### Chapter: Dementor Deployment Around Hogwarts
 
@@ -6063,6 +6089,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter expl
   - Reference type: security_or_protection
   - Corroborates: `gof-ch11-005`, `ootp-ch04-001`, `ootp-ch04-002`, `ootp-ch05-001`. gof-ch11-005 explains Unplottability as a general concealment method, while earlier OotP entries show Grimmauld Place appearing, entry controls, and headquarters ownership; this entry names Grimmauld Place as Unplottable and Dumbledore as Secret-Keeper.
   - Notes: The passage does not name the Fidelius Charm or distinguish which protections Sirius's father placed from which Dumbledore added.
+
+### Chapter: Horcrux Defenses and Dark Protections
+
+#### Section: Nagini's floating protective sphere
+
+Summary: The available evidence includes 1 source item, led by: Voldemort protects Nagini in a floating enchanted sphere or cage, strong enough that Harry cannot think of any safe spell to penetrate it.
+
+- **Corroboration:** Voldemort protects Nagini in a floating enchanted sphere or cage, strong enough that Harry cannot think of any safe spell to penetrate it.
+  - Quote: "safe in her enchanted, starry sphere"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3533, `dh-ch32-006`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch17-005`, `dh-ch27-004`. dh-ch17-005 records Nagini as a concealed Dark trap, and dh-ch27-004 records Voldemort's late audit naming Nagini as a Horcrux needing protection. This entry adds the specific floating sphere protection used during the battle.
+  - Notes: The chapter describes the protection visually but does not name the spell or explain its limits.
 
 ### Chapter: House Common-Room Security
 
@@ -12583,6 +12623,22 @@ Summary: The available evidence includes 1 source item, led by: Snape's headmast
   - Corroborates: `dh-ch12-001`, `hbp-ch29-004`. dh-ch12-001 records Snape's appointment as headmaster, and hbp-ch29-004 records his previous staff-battle escape; this entry records his direct removal from Hogwarts command.
   - Notes: The scene shows Snape fleeing, but the legal or Ministry status of the headmastership is not formally revoked on-page.
 
+## Part: Hidden Rooms, Passages, and Portrait Routes
+
+### Chapter: Concealed Routes Beyond the Castle
+
+#### Section: Whomping Willow tunnel to the Shrieking Shack during the battle
+
+Summary: The available evidence includes 1 source item, led by: The Whomping Willow still guards the hidden passage to the Shrieking Shack; pressing the knot still paralyzes the tree, and the low tunnel remains passable from the Hogwarts grounds.
+
+- **Corroboration:** The Whomping Willow still guards the hidden passage to the Shrieking Shack; pressing the knot still paralyzes the tree, and the low tunnel remains passable from the Hogwarts grounds.
+  - Quote: "the Willow that protected the secret at its roots"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3531, `dh-ch32-005`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `poa-ch17-001`, `poa-ch18-003`, `poa-ch20-001`, `poa-ch21-005`. The PoA entries establish the Whomping Willow tunnel, its Lupin-era purpose, return route, and stopping knot. This entry confirms its continued operation during the Battle of Hogwarts.
+  - Notes: The chapter does not add new origin history for the passage beyond confirming its wartime use.
+
 ## Part: Historical Foundations
 
 ### Chapter: Curriculum, Exams, and Student Life Before 1984
@@ -15617,6 +15673,34 @@ Summary: The available evidence includes 1 source item, led by: The Owlery scene
   - Corroborates: `ootp-ch10-007`, `ootp-ch11-001`. Earlier Order of the Phoenix entries identify and corroborate the carriage creatures; this entry adds a Forest sighting from the Owlery and physical Owlery details.
   - Notes: The chapter still does not name the creatures as Thestrals or explain why Harry can see them.
 
+## Part: The Grounds and Edge of the Forest
+
+### Chapter: Magical Residents in Wartime
+
+#### Section: Acromantulas breaching the castle walls
+
+Summary: The available evidence includes 1 source item, led by: The battle reaches breached upper corridors: acromantulas from the Forbidden Forest climb the school walls while Death Eater curses enter through broken masonry.
+
+- **Corroboration:** The battle reaches breached upper corridors: acromantulas from the Forbidden Forest climb the school walls while Death Eater curses enter through broken masonry.
+  - Quote: "More giant spiders were climbing the side of the building"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3522, `dh-ch32-001`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `cos-ch15-005`. cos-ch15-005 establishes Aragog's Forbidden Forest colony; this entry records that colony's descendants entering the final battle and physically breaching the castle.
+  - Notes: The passage identifies the spiders as Aragog's descendants but does not describe command structure or whether Death Eaters controlled them.
+
+#### Section: Grawp and giants at the castle entrance
+
+Summary: The available evidence includes 1 source item, led by: The entrance hall and front steps become a collision point for acromantulas, Hagrid, Grawp, and hostile giants, confirming that the battle includes Hogwarts's non-human neighbors and grounds residents.
+
+- **Corroboration:** The entrance hall and front steps become a collision point for acromantulas, Hagrid, Grawp, and hostile giants, confirming that the battle includes Hogwarts's non-human neighbors and grounds residents.
+  - Quote: "Grawp came lurching around the corner of the castle"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3529, `dh-ch32-003`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `ootp-ch30-006`, `hbp-ch08-007`. ootp-ch30-006 establishes Grawp's concealed Forest residence, and hbp-ch08-007 records his later relocation; this entry records Grawp's direct participation near the castle during the final battle.
+  - Notes: The passage does not state Grawp's intent beyond his reaction to Hagrid, nor does it identify the hostile giant by name.
+
 ## Part: The Grounds and Forbidden Forest
 
 ### Chapter: Creature Materials and Informal Knowledge
@@ -15730,6 +15814,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: direct_observed_setting
   - Corroborates: `ps-ch16-003`. ps-ch16-003 records Hagrid's dragon-egg encounter in the Hog's Head as part of the Stone-protection breach; this entry corroborates that history while adding direct physical description and social context for the pub.
   - Notes: Harry's description is a visitor impression; the passage does not identify the barman or give formal ownership history.
+
+## Part: Wands, Equipment, and Magical Materials
+
+### Chapter: Elder Wand Ownership and Allegiance
+
+#### Section: Voldemort's mistaken mastery theory and Snape's death
+
+Summary: The available evidence includes 1 source item, led by: Voldemort links the Elder Wand to Dumbledore's grave, names its alternate titles, states his theory of wand mastery through killing the last owner, and kills Snape on that mistaken premise.
+
+- **Corroboration:** Voldemort links the Elder Wand to Dumbledore's grave, names its alternate titles, states his theory of wand mastery through killing the last owner, and kills Snape on that mistaken premise.
+  - Quote: "The Elder Wand cannot serve me properly"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, PDF p. 3536, `dh-ch32-007`, `sources/book-07/chapter-32-the-elder-wand.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-005`, `dh-ch24-006`, `dh-ch24-007`. dh-ch21-005 and dh-ch24-006 establish Elder Wand names and tradition, while dh-ch24-007 records the theft from Dumbledore's tomb. This entry adds Voldemort's explicit mastery theory and his killing of Snape.
+  - Notes: Voldemort's explanation is authoritative evidence of his belief, but the chapter later shows his theory is incomplete and mistaken.
 
 ## Part: Wars, Crises, and School Memory
 

@@ -199,3 +199,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch29`: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, pages 3463-3477, 7 entries, 0 explicit references.
 - `dh-ch30`: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, pages 3478-3494, 7 entries, 0 explicit references.
 - `dh-ch31`: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, pages 3495-3520, 7 entries, 0 explicit references.
+- `dh-ch32`: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, pages 3521-3537, 7 entries, 0 explicit references.
