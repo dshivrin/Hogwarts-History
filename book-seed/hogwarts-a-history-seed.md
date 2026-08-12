@@ -7848,6 +7848,18 @@ Summary: The available evidence includes 1 source item, led by: Krum supplies ho
   - Possible corroboration: Possible existing duplicates dh-ch02-005 and gof-ch11-004 cover Dumbledore's defeat of Grindelwald and Durmstrang's Dark Arts reputation; this entry adds Krum's family-witness testimony about the sign carved at Durmstrang and copied by students.
   - Notes: Krum is certain, but the symbol's wider meaning is not resolved in this chapter and Xenophilius's understanding is unknown here.
 
+#### Section: Hallows ideology, Ariana's death, and Grindelwald's flight
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore admits that Grindelwald's ideology caught him, that the Hallows sat at the center of their plans, and that Ariana died after Aberforth challenged their neglect.
+
+- **Corroboration:** Dumbledore admits that Grindelwald's ideology caught him, that the Hallows sat at the center of their plans, and that Ariana died after Aberforth challenged their neglect.
+  - Quote: "at the heart of our schemes"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3587, `dh-ch35-005`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch18-005`, `dh-ch18-006`, `dh-ch18-007`. dh-ch18-005 through dh-ch18-007 record Skeeter and Hermione evidence for Grindelwald's arrival, the Greater Good letter, and Nurmengard context. This entry adds Dumbledore's first-person admission of motive, Hallows aims, and culpability around Ariana's death.
+  - Notes: Dumbledore still does not identify who cast the curse that killed Ariana.
+
 #### Section: Hogwarts as a Wartime Safe Place
 
 Summary: The available evidence includes 1 source item, led by: Hagrid frames Hogwarts as a rare safe place during Voldemort's rise and connects Dumbledore's feared reputation to Voldemort's reluctance to attack the school at that time.
@@ -9074,6 +9086,20 @@ Summary: The available evidence includes 1 source item, led by: Hermione connect
   - Corroborates: `dh-ch02-005`, `dh-ch08-002`. Possible duplicate of dh-ch02-005 on Dumbledore's defeat of Grindelwald and dh-ch08-002 on Grindelwald's remembered symbols; this entry adds Nurmengard, the slogan's placement, and Hermione's later-life contrast.
   - Notes: Hermione reports common claims rather than citing a document, and the chapter does not show Nurmengard directly.
 
+### Chapter: Dumbledore's Final Plan and the Deathly Hallows
+
+#### Section: Stone failure, Hermione's delay, and Snape's intended wand succession
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore says he mishandled the Stone because the Gaunt ring was cursed, designed Hermione's Beedle clue to slow Harry, expected Voldemort to seek only the Elder Wand, and intended Snape to inherit that wand's mastery.
+
+- **Corroboration:** Dumbledore says he mishandled the Stone because the Gaunt ring was cursed, designed Hermione's Beedle clue to slow Harry, expected Voldemort to seek only the Elder Wand, and intended Snape to inherit that wand's mastery.
+  - Quote: "I counted on Miss Granger"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3591, `dh-ch35-007`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-003`, `dh-ch22-004`, `dh-ch24-006`, `dh-ch32-007`. dh-ch21-003 defines the Hallows, dh-ch22-004 records Harry's Snitch/Stone inference, dh-ch24-006 records Ollivander's Elder Wand testimony, and dh-ch32-007 records Voldemort's mistaken Snape theory. This entry adds Dumbledore's account of Hermione's delaying role and his intended Snape succession plan.
+  - Notes: Chapter Thirty-Six is still needed for the final Elder Wand allegiance resolution.
+
 ### Chapter: Dumbledore's Private Instruction During the Second War
 
 #### Section: Pensieve lessons in the headmaster's office
@@ -9368,6 +9394,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter trea
   - Reference type: cross_reference_candidate
   - Corroborates: `ps-ch02-005`. Book 1 Chapter Two records Harry's sensory memory of green light and forehead pain from Godric's Hollow; this entry adds a later scar-pain recurrence and Harry's explicit association with Voldemort at Hogwarts.
   - Notes: Harry is reasoning from memory and prior experience; the chapter does not yet explain the mechanism connecting the scar pain, dream, and Voldemort.
+
+### Chapter: Harry Potter, Horcruxes, and Protective Magic
+
+#### Section: Accidental Horcrux and blood-tether protection
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore explains that Harry was the accidental Horcrux and that Voldemort's use of Harry's blood kept Lily Potter's sacrificial protection active in both of them.
+
+- **Corroboration:** Dumbledore explains that Harry was the accidental Horcrux and that Voldemort's use of Harry's blood kept Lily Potter's sacrificial protection active in both of them.
+  - Quote: "He tethered you to life"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3581, `dh-ch35-001`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch37-005`, `dh-ch03-001`. ootp-ch37-005 records Dumbledore's earlier explanation of Lily's blood wards, and dh-ch03-001 records the Privet Drive protection ending at seventeen. This entry adds the accidental-Horcrux explanation and Voldemort's blood-borne tether.
+  - Notes: The explanation comes in a metaphysical encounter rather than an ordinary classroom or legal source, though Dumbledore presents it as his long-held inference.
 
 ### Chapter: Headmasters and School Authority
 
@@ -12678,6 +12718,20 @@ Summary: The available evidence includes 1 source item, led by: Carrow-era disci
 
 ## Part: Governance, Headmasters, and Public Authority
 
+### Chapter: Dumbledore's Career and Refused Power
+
+#### Section: Hogwarts teaching as refuge from political temptation
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore presents Hogwarts teaching as a safer alternative to political power after his youthful failure, while acknowledging his delayed confrontation with Grindelwald and eventual winning of the wand.
+
+- **Corroboration:** Dumbledore presents Hogwarts teaching as a safer alternative to political power after his youthful failure, while acknowledging his delayed confrontation with Grindelwald and eventual winning of the wand.
+  - Quote: "I was safer at Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3589, `dh-ch35-006`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch05-006`, `dh-ch24-007`, `dh-ch23-007`. ootp-ch05-006 records Dumbledore's possible Ministerial career, dh-ch24-007 records Harry's Elder Wand ownership inference, and dh-ch23-007 records Grindelwald's later refusal to Voldemort. This entry adds Dumbledore's own explanation of choosing Hogwarts and delaying the duel.
+  - Notes: The exact dates of Ministry offers and the 1945 duel are not supplied in this chapter.
+
 ### Chapter: Headmasters and School Authority
 
 #### Section: Phineas Nigellus and Black Family Public History
@@ -13818,6 +13872,30 @@ Summary: The available evidence includes 1 source item, led by: The two-way mirr
 
 ### Chapter: The Deathly Hallows
 
+#### Section: Dumbledore's testimony on Hallows temptation
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore confirms the Hallows as real but dangerous, contrasts Hallows with Horcruxes as a different attempt to conquer death, and admits Grindelwald sought them too.
+
+- **Corroboration:** Dumbledore confirms the Hallows as real but dangerous, contrasts Hallows with Horcruxes as a different attempt to conquer death, and admits Grindelwald sought them too.
+  - Quote: "Real, and dangerous"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3585, `dh-ch35-003`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-003`, `dh-ch22-001`. dh-ch21-003 defines the Hallows triad and master-of-Death claim, while dh-ch22-001 records Harry's Hallows-versus-Horcruxes interpretation. This entry adds Dumbledore's direct confirmation and confession.
+  - Notes: The passage confirms the broad reality and danger of the Hallows but does not restate the full artifact taxonomy in this scene.
+
+#### Section: Peverell creators, Cloak lineage, and Hogwarts misuse
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore says the Peverell brothers were likely gifted wizards who created the Hallows, traces the Cloak to Harry through Godric's Hollow, and says James's use of it explained undetected school wrongdoing.
+
+- **Corroboration:** Dumbledore says the Peverell brothers were likely gifted wizards who created the Hallows, traces the Cloak to Harry through Godric's Hollow, and says James's use of it explained undetected school wrongdoing.
+  - Quote: "father to son, mother to daughter"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3586, `dh-ch35-004`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-006`, `dh-ch22-003`, `dh-ch34-004`. dh-ch21-006 records the Peverell-origin claim, dh-ch22-003 records Harry's inference about the Potter Cloak, and dh-ch34-004 confirms the Snitch/Stone bequest. This entry adds Dumbledore's direct Peverell-creator view and James's Hogwarts misuse evidence.
+  - Notes: Dumbledore frames the Death-on-the-road detail as legend and the Peverell creation theory as his judgment, not a surviving primary document.
+
 #### Section: Potter Cloak provenance and Dumbledore's examination
 
 Summary: The available evidence includes 1 source item, led by: Harry identifies his inherited Cloak as fitting the true-Hallow description, recalls that Dumbledore borrowed it, and infers descent from Ignotus Peverell.
@@ -13916,6 +13994,18 @@ Summary: The available evidence includes 1 source item, led by: Borrowed or repl
   - Notes: Harry has little practice with this wand, so the passage does not isolate wand allegiance, wood, damage, and confidence as separate causes.
 
 ### Chapter: Wands, Equipment, and Magical Materials
+
+#### Section: Twin-core aftermath and Voldemort-specific wand anomaly
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore proposes that Voldemort doubled his bond with Harry through soul fragment and blood, causing Harry's twin-core wand to absorb and later return Voldemort's own magic against him.
+
+- **Corroboration:** Dumbledore proposes that Voldemort doubled his bond with Harry through soul fragment and blood, causing Harry's twin-core wand to absorb and later return Voldemort's own magic against him.
+  - Quote: "realms of magic hitherto unknown"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, PDF p. 3582, `dh-ch35-002`, `sources/book-07/chapter-35-king-s-cross.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch34-003`, `dh-ch18-001`, `dh-ch24-005`. gof-ch34-003 records the original Priori Incantatem evidence, dh-ch18-001 records Harry's fear after the wand breaks, and dh-ch24-005 records Ollivander's repair and allegiance testimony. This entry adds Dumbledore's theory connecting the blood/soul bond to the seven Potters wand anomaly.
+  - Notes: Dumbledore explicitly calls this a guess and says no wandmaker could have predicted the effect.
 
 #### Section: Wand repair limits, identification, and allegiance
 

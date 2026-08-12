@@ -26,10 +26,12 @@ tags:
     - dh-ch28-004
     - dh-ch28-005
     - dh-ch30-007
+    - dh-ch35-005
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   academic-assessment:
     entries:
     - ootp-ch15-002
@@ -74,6 +76,11 @@ tags:
     - ootp-ch27-001
     output_yaml:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  accidental-horcrux:
+    entries:
+    - dh-ch35-001
+    output_yaml:
+    - sources/book-07/chapter-35-king-s-cross.yaml
   accidental-magic:
     entries:
     - ps-ch02-002
@@ -272,6 +279,8 @@ tags:
     - dh-ch18-007
     - dh-ch28-003
     - dh-ch28-005
+    - dh-ch35-005
+    - dh-ch35-006
     - ps-ch01-001
     - ps-ch01-002
     - ps-ch01-003
@@ -284,6 +293,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   alchemy:
     entries:
     - dh-ch18-003
@@ -629,12 +639,14 @@ tags:
     - dh-ch28-005
     - dh-ch28-007
     - dh-ch29-001
+    - dh-ch35-005
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   arithmancy:
     entries:
     - gof-ch13-001
@@ -1342,6 +1354,7 @@ tags:
     entries:
     - dh-ch03-001
     - dh-ch04-002
+    - dh-ch35-001
     - hbp-ch03-007
     - ootp-ch02-006
     - ootp-ch37-005
@@ -1351,6 +1364,7 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   blood-quill:
     entries:
     - ootp-ch13-006
@@ -3822,12 +3836,16 @@ tags:
     - dh-ch28-005
     - dh-ch34-004
     - dh-ch34-005
+    - dh-ch35-003
+    - dh-ch35-005
+    - dh-ch35-007
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   deathly-hallows-symbol:
     entries:
     - dh-ch16-007
@@ -4805,6 +4823,8 @@ tags:
     - dh-ch24-007
     - dh-ch33-004
     - dh-ch33-006
+    - dh-ch35-003
+    - dh-ch35-004
     - gof-ch02-005
     - gof-ch11-001
     - gof-ch12-006
@@ -5036,6 +5056,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   dumbledore-absences:
     entries:
     - hbp-ch25-006
@@ -5143,9 +5164,11 @@ tags:
     entries:
     - dh-ch22-001
     - dh-ch34-002
+    - dh-ch35-007
     output_yaml:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   dumbledore-portrait:
     entries:
     - dh-ch15-007
@@ -5358,6 +5381,8 @@ tags:
     - dh-ch24-007
     - dh-ch32-007
     - dh-ch34-004
+    - dh-ch35-006
+    - dh-ch35-007
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
@@ -5366,6 +5391,7 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -6986,8 +7012,10 @@ tags:
   gaunt-ring:
     entries:
     - dh-ch22-004
+    - dh-ch35-007
     output_yaml:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   gaunt-shack:
     entries:
     - dh-ch27-004
@@ -7302,6 +7330,7 @@ tags:
     - dh-ch18-005
     - dh-ch20-004
     - dh-ch21-006
+    - dh-ch35-004
     - gof-ch02-004
     - ps-ch01-003
     - ps-ch01-005
@@ -7318,6 +7347,7 @@ tags:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   golden-egg:
     entries:
     - gof-ch20-006
@@ -7500,9 +7530,11 @@ tags:
     - dh-ch18-006
     - dh-ch18-007
     - dh-ch28-005
+    - dh-ch35-005
     output_yaml:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   greenhouse-three:
     entries:
     - cos-ch06-002
@@ -7606,6 +7638,9 @@ tags:
     - dh-ch23-007
     - dh-ch24-007
     - dh-ch28-005
+    - dh-ch35-003
+    - dh-ch35-005
+    - dh-ch35-006
     - ps-ch06-003
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
@@ -7618,6 +7653,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   grindylows:
     entries:
     - gof-ch26-006
@@ -8261,6 +8297,7 @@ tags:
     - dh-ch20-005
     - dh-ch22-001
     - dh-ch34-003
+    - dh-ch35-001
     - gof-ch01-004
     - gof-ch02-001
     - gof-ch02-004
@@ -8324,15 +8361,18 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   harry-wand:
     entries:
     - dh-ch17-007
     - dh-ch18-001
     - dh-ch24-005
+    - dh-ch35-002
     output_yaml:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   hassan-mostafa:
     entries:
     - gof-ch08-005
@@ -8776,6 +8816,7 @@ tags:
     - dh-ch20-006
     - dh-ch25-003
     - dh-ch31-005
+    - dh-ch35-007
     - gof-ch08-003
     - gof-ch09-002
     - hbp-ch04-001
@@ -8798,6 +8839,7 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   hermione-research:
     entries:
     - poa-ch14-003
@@ -9602,9 +9644,11 @@ tags:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   hogwarts-teacher:
     entries:
+    - dh-ch35-006
     - gof-ch33-002
     output_yaml:
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   hogwarts-teaching-job:
     entries:
     - dh-ch31-003
@@ -9841,6 +9885,7 @@ tags:
     - dh-ch27-003
     - dh-ch27-004
     - dh-ch27-005
+    - dh-ch35-003
     - hbp-ch18-002
     - hbp-ch20-001
     - hbp-ch23-004
@@ -9856,6 +9901,7 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-26-gringotts.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   horseless-carriages:
     entries:
     - gof-ch11-006
@@ -10403,10 +10449,12 @@ tags:
     - dh-ch16-007
     - dh-ch21-006
     - dh-ch22-003
+    - dh-ch35-004
     output_yaml:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   illegal-creature:
     entries:
     - ps-ch14-004
@@ -10825,6 +10873,7 @@ tags:
     - dh-ch22-003
     - dh-ch27-006
     - dh-ch34-004
+    - dh-ch35-004
     - gof-ch04-002
     - gof-ch19-003
     - gof-ch24-004
@@ -10868,6 +10917,7 @@ tags:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -11188,6 +11238,11 @@ tags:
     - ootp-ch33-003
     output_yaml:
     - sources/book-05/chapter-33-fight-and-flight.yaml
+  leadership:
+    entries:
+    - dh-ch35-006
+    output_yaml:
+    - sources/book-07/chapter-35-king-s-cross.yaml
   leaky-cauldron:
     entries:
     - dh-ch09-003
@@ -11447,6 +11502,7 @@ tags:
   lily-potter:
     entries:
     - dh-ch17-006
+    - dh-ch35-001
     - ootp-ch02-004
     - ootp-ch37-005
     - ps-ch01-003
@@ -11455,6 +11511,7 @@ tags:
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   liquid-luck:
     entries:
     - hbp-ch09-006
@@ -11464,9 +11521,11 @@ tags:
     - sources/book-06/chapter-14-felix-felicis.yaml
   little-hangleton:
     entries:
+    - dh-ch35-002
     - gof-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   little-whinging:
     entries:
     - ootp-ch01-002
@@ -11918,6 +11977,7 @@ tags:
     - dh-ch24-004
     - dh-ch29-006
     - dh-ch34-005
+    - dh-ch35-003
     - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
@@ -11929,6 +11989,7 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   magical-barrier:
     entries:
     - cos-ch05-001
@@ -12192,6 +12253,8 @@ tags:
     - dh-ch24-006
     - dh-ch28-004
     - dh-ch28-005
+    - dh-ch35-003
+    - dh-ch35-005
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
@@ -12201,6 +12264,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   magical-hospital:
     entries:
     - ootp-ch22-004
@@ -12809,9 +12873,11 @@ tags:
     entries:
     - dh-ch21-003
     - dh-ch22-001
+    - dh-ch35-003
     output_yaml:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   match-commentary:
     entries:
     - poa-ch13-002
@@ -13098,6 +13164,7 @@ tags:
   minister-of-magic:
     entries:
     - cos-ch04-005
+    - dh-ch35-006
     - gof-ch27-007
     - hbp-ch01-001
     - ootp-ch05-006
@@ -13108,6 +13175,7 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   ministry-alert:
     entries:
     - hbp-ch27-003
@@ -15377,9 +15445,11 @@ tags:
     entries:
     - dh-ch21-006
     - dh-ch22-002
+    - dh-ch35-004
     output_yaml:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   peverell-ring:
     entries:
     - hbp-ch10-006
@@ -15919,6 +15989,7 @@ tags:
     - dh-ch16-007
     - dh-ch17-006
     - dh-ch22-003
+    - dh-ch35-004
     - gof-ch14-004
     - gof-ch34-004
     - hbp-ch25-005
@@ -15929,6 +16000,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   potterwatch:
     entries:
     - dh-ch22-006
@@ -16149,10 +16221,12 @@ tags:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
   priori-incantatem:
     entries:
+    - dh-ch35-002
     - gof-ch34-003
     - gof-ch34-004
     output_yaml:
     - sources/book-04/chapter-34-priori-incantatem.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   private-instruction:
     entries:
     - poa-ch20-005
@@ -16644,6 +16718,7 @@ tags:
     - dh-ch29-005
     - dh-ch32-006
     - dh-ch34-007
+    - dh-ch35-001
     - gof-ch33-004
     - hbp-ch02-004
     - hbp-ch03-007
@@ -16670,6 +16745,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   protective-objects:
     entries:
     - hbp-ch05-002
@@ -17421,10 +17497,12 @@ tags:
     - dh-ch22-004
     - dh-ch34-004
     - dh-ch34-005
+    - dh-ch35-007
     output_yaml:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   review-lessons:
     entries:
     - ootp-ch31-001
@@ -17658,6 +17736,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  sacrificial-protection:
+    entries:
+    - dh-ch35-001
+    output_yaml:
+    - sources/book-07/chapter-35-king-s-cross.yaml
   safe-house:
     entries:
     - dh-ch03-004
@@ -18043,6 +18126,11 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  school-misconduct:
+    entries:
+    - dh-ch35-004
+    output_yaml:
+    - sources/book-07/chapter-35-king-s-cross.yaml
   school-monuments:
     entries:
     - hbp-ch30-005
@@ -18869,6 +18957,7 @@ tags:
     - dh-ch32-007
     - dh-ch33-006
     - dh-ch34-003
+    - dh-ch35-007
     - ootp-ch17-005
     - ootp-ch29-006
     - poa-ch18-007
@@ -18885,6 +18974,7 @@ tags:
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   shady-patrons:
     entries:
     - ootp-ch16-002
@@ -22088,8 +22178,10 @@ tags:
   twin-cores:
     entries:
     - dh-ch18-001
+    - dh-ch35-002
     output_yaml:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   two-champions:
     entries:
     - gof-ch17-002
@@ -22569,6 +22661,8 @@ tags:
     - dh-ch33-001
     - dh-ch34-003
     - dh-ch34-007
+    - dh-ch35-001
+    - dh-ch35-002
     - gof-ch01-001
     - gof-ch01-003
     - gof-ch01-004
@@ -22652,6 +22746,7 @@ tags:
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   voldemort-base:
     entries:
     - dh-ch23-002
@@ -22752,8 +22847,10 @@ tags:
   wand-anomaly:
     entries:
     - dh-ch18-001
+    - dh-ch35-002
     output_yaml:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   wand-compatibility:
     entries:
     - dh-ch20-002
@@ -22890,6 +22987,7 @@ tags:
     - dh-ch24-005
     - dh-ch24-006
     - dh-ch32-007
+    - dh-ch35-002
     - gof-ch34-003
     output_yaml:
     - sources/book-04/chapter-34-priori-incantatem.yaml
@@ -22899,6 +22997,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   wandmakers:
     entries:
     - dh-ch08-003
@@ -23482,10 +23581,12 @@ tags:
   wizarding-politics:
     entries:
     - dh-ch18-006
+    - dh-ch35-006
     - ootp-ch05-006
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-07/chapter-35-king-s-cross.yaml
   wizarding-prejudice:
     entries:
     - dh-ch24-003

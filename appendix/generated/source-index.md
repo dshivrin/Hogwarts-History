@@ -202,3 +202,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch32`: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, pages 3521-3537, 7 entries, 0 explicit references.
 - `dh-ch33`: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, pages 3538-3565, 7 entries, 0 explicit references.
 - `dh-ch34`: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, pages 3566-3577, 7 entries, 0 explicit references.
+- `dh-ch35`: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, pages 3578-3593, 7 entries, 0 explicit references.

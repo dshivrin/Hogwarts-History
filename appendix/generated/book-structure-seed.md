@@ -466,6 +466,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Governance, Headmasters, and Public Authority
 
+- Dumbledore's Career and Refused Power
+  - Hogwarts teaching as refuge from political temptation
 - Headmasters and School Authority
   - Phineas Nigellus and Black Family Public History
 
@@ -623,6 +625,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Elder Wand ownership, Hogwarts tomb, and Voldemort's theft
   - Grindelwald's imprisonment, refusal, and Elder Wand trail
   - Nurmengard, the Greater Good slogan, and later repudiation
+- Dumbledore's Final Plan and the Deathly Hallows
+  - Stone failure, Hermione's delay, and Snape's intended wand succession
 - Dumbledore's Private Instruction During the Second War
   - Pensieve lessons in the headmaster's office
 - Examinations and Academic Progression
@@ -656,6 +660,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Suppressed Holiday Contact
 - Harry Potter and Voldemort's Return
   - Curse Scars and Voldemort Proximity
+- Harry Potter, Horcruxes, and Protective Magic
+  - Accidental Horcrux and blood-tether protection
 - Headmasters and School Authority
   - Conditional Ministry appointment power and Firenze
   - Dumbledore's Autonomy and Fudge's Governance Threat
@@ -1117,6 +1123,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Communication Artifacts and Wartime Rescue
   - Sirius Black's mirror in Aberforth's keeping
 - The Deathly Hallows
+  - Dumbledore's testimony on Hallows temptation
+  - Peverell creators, Cloak lineage, and Hogwarts misuse
   - Potter Cloak provenance and Dumbledore's examination
   - Snitch bequest and suspected Stone concealment
   - Snitch bequest opened at the close
@@ -1127,6 +1135,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Elder Wand provenance and alternate names
   - Replacement wands and weakened spellwork
 - Wands, Equipment, and Magical Materials
+  - Twin-core aftermath and Voldemort-specific wand anomaly
   - Wand repair limits, identification, and allegiance
 
 ## Magical Objects and Protective Magic
@@ -1170,6 +1179,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Biographical Sources and Public Reputation
   - Grindelwald's Durmstrang expulsion and Godric's Hollow arrival
   - Grindelwald's Symbol and Durmstrang Memory
+  - Hallows ideology, Ariana's death, and Grindelwald's flight
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
   - The 1945 Duel and Later Reputation

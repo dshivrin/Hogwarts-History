@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Thirty-Five - King’s Cross
-- Page range: 3578-3593
+- Chapter: Chapter Thirty-Six - The Flaw in the Plan
+- Page range: 3594-3615
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-35-king-s-cross.yaml`
+- Output YAML: `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
 
 ## Minimal Context
 
