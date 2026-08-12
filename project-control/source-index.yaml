@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-11'
+updated: '2026-08-12'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2330,3 +2330,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3521-3537.
+- source_unit_id: dh-ch33
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 33
+  chapter_title: Chapter Thirty-Three - The Prince's Tale
+  page_start: 3538
+  page_end: 3565
+  output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  processed_at: '2026-08-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3538-3565.

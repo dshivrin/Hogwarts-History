@@ -1844,6 +1844,18 @@ Summary: The available evidence includes 1 source item, led by: Petunia's hostil
   - Reference type: historical_claim
   - Notes: Petunia is hostile and imprecise; the passage does not quote Lily's letter or name Hogwarts directly in Petunia's line.
 
+#### Section: Exceptional correspondence with non-magical relatives
+
+Summary: The available evidence includes 1 source item, led by: Petunia's rejected appeal shows that a Muggle child could write to Hogwarts's headmaster and receive a personal reply, while the platform scene confirms Lily's first departure by Hogwarts Express.
+
+- **Corroboration:** Petunia's rejected appeal shows that a Muggle child could write to Hogwarts's headmaster and receive a personal reply, while the platform scene confirms Lily's first departure by Hogwarts Express.
+  - Quote: "I saw his reply. It was very kind."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3547, `dh-ch33-004`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ps-ch04-004`, `ps-ch06-001`. ps-ch04-004 records Petunia's later recollection that Lily received a Hogwarts-style letter, and ps-ch06-001 records Harry-era train departure. This entry adds Petunia's own attempted application to Dumbledore and the personal reply.
+  - Notes: The memory does not quote Dumbledore's reply or explain how Petunia's letter reached Hogwarts.
+
 #### Section: Follow-Up and School-Supply Preparation
 
 Summary: The available evidence includes 1 source item, led by: Hagrid reports the successful delivery of Harry's letter to Dumbledore by owl and frames the next step as buying school supplies.
@@ -1866,6 +1878,18 @@ Summary: The available evidence includes 1 source item, led by: Colin's account 
   - Reference type: institutional_custom
   - Corroborates: `ps-ch04-002`. Chapter Four records Harry's Hogwarts acceptance letter; this entry corroborates the letter as the moment a Muggle-raised student learns their abilities are magic, using Colin rather than Harry.
   - Notes: Colin's account is brief and informal; it does not quote the letter or explain how Hogwarts contacted his family.
+
+#### Section: Muggle-born explanation and pre-school magic rules
+
+Summary: The available evidence includes 1 source item, led by: Before Hogwarts, Snape knows that children are treated leniently before wands and training, that Hogwarts letters normally arrive by owl, and that Muggle-born families receive school explanation.
+
+- **Corroboration:** Before Hogwarts, Snape knows that children are treated leniently before wands and training, that Hogwarts letters normally arrive by owl, and that Muggle-born families receive school explanation.
+  - Quote: "someone from the school will have to come and explain"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3544, `dh-ch33-003`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ps-ch04-002`, `ps-ch04-003`, `cos-ch01-005`, `ootp-ch08-002`. ps-ch04-002/003 record Harry's acceptance letter and Hagrid follow-up, while cos-ch01-005 and ootp-ch08-002 cover later underage-magic restrictions. This entry adds Snape's pre-1984 explanation that Muggle-born parents receive a school visit and that pre-wand childhood magic is treated differently.
+  - Notes: Snape is a child repeating what he understands, so formal policy should be corroborated against adult or documentary sources.
 
 #### Section: Persistent Delivery to Muggle Households
 
@@ -9105,6 +9129,20 @@ Summary: The available evidence includes 1 source item, led by: Snape recalls th
   - Reference type: historical_claim
   - Notes: Snape's comments are hostile, self-justifying, and not a neutral measure of Harry's ability or Dumbledore's actual knowledge.
 
+### Chapter: Founder Relics, Horcruxes, and Dumbledore's Final Plan
+
+#### Section: Nagini signal and covert sword delivery
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore sets Nagini's protected status as the signal for telling Harry he carries part of Voldemort's soul, and his portrait later directs the covert Sword of Gryffindor delivery under conditions of need and valor.
+
+- **Corroboration:** Dumbledore sets Nagini's protected status as the signal for telling Harry he carries part of Voldemort's soul, and his portrait later directs the covert Sword of Gryffindor delivery under conditions of need and valor.
+  - Quote: "it must be taken under conditions of need and valor"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3564, `dh-ch33-007`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch19-003`, `dh-ch19-004`, `dh-ch32-006`, `dh-ch27-004`. dh-ch19-003/004 record the doe and Harry's retrieval reasoning, dh-ch32-006 records Nagini's protective sphere, and dh-ch27-004 records Nagini in Voldemort's Horcrux audit. This entry adds Dumbledore's explicit timing instruction, the Harry soul-fragment explanation, and the portrait's covert sword-delivery order.
+  - Notes: The entry compresses several linked memories because their evidentiary value lies in the shared Dumbledore-Snape plan; separate artifact mechanics remain documented in earlier entries.
+
 ### Chapter: Grounds, Transport, and the Forbidden Forest
 
 #### Section: Thestrals beyond school-carriage service
@@ -10242,6 +10280,20 @@ Summary: The available evidence includes 1 source item, led by: Educational Decr
   - Corroborates: `cos-ch07-002`. cos-ch07-002 records earlier House-team practice booking and staff permission; this entry adds High Inquisitor reapproval, differential Slytherin/Gryffindor treatment, and decree-based control.
   - Notes: The evidence shows immediate implementation in one week, not the full season-long administrative outcome.
 
+### Chapter: Snape's Headmastership and the Occupied School
+
+#### Section: Dumbledore's student-protection charge and planned death
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's cursed-ring injury leads to an explicit plan: Snape must protect Hogwarts students under a possible Voldemort-controlled school, monitor Draco, and eventually kill Dumbledore to spare Draco and preserve the larger strategy.
+
+- **Corroboration:** Dumbledore's cursed-ring injury leads to an explicit plan: Snape must protect Hogwarts students under a possible Voldemort-controlled school, monitor Draco, and eventually kill Dumbledore to spare Draco and preserve the larger strategy.
+  - Quote: "do all in your power to protect the students of Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3558, `dh-ch33-006`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch02-002`, `hbp-ch25-005`, `dh-ch12-001`. hbp-ch02-002 records Snape's Hogwarts spy role, hbp-ch25-005 records Dumbledore's public trust in Snape after the prophecy, and dh-ch12-001 records Snape's later appointment. This entry adds Dumbledore's private instruction to protect students and the planned killing arrangement.
+  - Notes: The evidence is from Snape's memory sequence and concerns private plans rather than public school policy.
+
 ### Chapter: Sources for Dumbledore's Life
 
 #### Section: Obituary, Biography, and Public Memory
@@ -10415,6 +10467,19 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore addre
   - Classification: later_editorial_note | Confidence: high
   - Reference type: institutional_custom
   - Notes: The passage reports Dumbledore's breakfast address indirectly through Ron and Hermione rather than quoting it.
+
+### Chapter: The Battle of Hogwarts and Its Aftermath
+
+#### Section: Cease-fire, triage, and mourning in the Great Hall
+
+Summary: The available evidence includes 1 source item, led by: During the battle pause, Voldemort can project his voice across Hogwarts and Hogsmeade, while the Great Hall functions as a crisis center for survivors, medical treatment, and the honored dead.
+
+- **Context:** During the battle pause, Voldemort can project his voice across Hogwarts and Hogsmeade, while the Great Hall functions as a crisis center for survivors, medical treatment, and the honored dead.
+  - Quote: "You have one hour. Dispose of your dead with dignity."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3538, `dh-ch33-001`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The broadcast mechanism is observed but not named, and the casualty view is limited to Harry's immediate perception.
 
 ### Chapter: The Chamber of Secrets Crisis
 
@@ -12394,6 +12459,22 @@ Summary: The available evidence includes 1 source item, led by: Dilys Derwent's 
   - Reference type: historical_claim
   - Notes: The portrait label supplies offices and dates only; it does not describe her headmastership or medical achievements.
 
+## Part: Founders, Houses, and Relics
+
+### Chapter: House Identity and Reputation
+
+#### Section: Family expectations and first-generation Sorting memories
+
+Summary: The available evidence includes 1 source item, led by: The memories give pre-1984 evidence for family House expectations and exceptions, the Sorting Hat's assignments of Lily and Snape, and Lucius Malfoy's prefect status.
+
+- **Corroboration:** The memories give pre-1984 evidence for family House expectations and exceptions, the Sorting Hat's assignments of Lily and Snape, and Lucius Malfoy's prefect status.
+  - Quote: "My whole family have been in Slytherin"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3549, `dh-ch33-005`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `ps-ch06-005`, `hbp-ch04-005`. ps-ch06-005 already covers pre-Sorting rumors and family expectations for Harry's year, and hbp-ch04-005 covers Sirius as a Black-family exception. This entry adds the Marauder-era train conversation, Lily/Snape Sortings, and Lucius as a Slytherin prefect.
+  - Notes: This is memory testimony rather than a formal Sorting record, and it samples one cohort rather than general school demographics.
+
 ## Part: Founders, Relics, and House Memory
 
 ### Chapter: Founder Relics and Contested Provenance
@@ -12685,6 +12766,18 @@ Summary: The available evidence includes 1 source item, led by: Kreacher's escap
   - Notes: The Hogwarts comparison is Ron's explanation, though later events in the same passage support it.
 
 ### Chapter: Headmaster's Office and Portrait Network
+
+#### Section: Former headmasters as mobile castle witnesses
+
+Summary: The available evidence includes 1 source item, led by: Former headmaster portraits can leave their office frames to observe events through other castle paintings, and Dumbledore's Pensieve remains in the headmaster's office for memory review.
+
+- **Corroboration:** Former headmaster portraits can leave their office frames to observe events through other castle paintings, and Dumbledore's Pensieve remains in the headmaster's office for memory review.
+  - Quote: "The portraits that hung all around the walls were empty."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, PDF p. 3541, `dh-ch33-002`, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch12-002`, `dh-ch10-001`, `ootp-ch28-006`. dh-ch12-002 and dh-ch10-001 cover Phineas's linked portrait and office artifacts; ootp-ch28-006 covers Pensieve memory entry. This entry adds the collective absence of all headmaster portraits during the battle and confirms the Pensieve remains accessible in the office.
+  - Notes: The chapter does not name every portrait or explain whether all former heads can reach every castle painting.
 
 #### Section: Former headmasters as mobile portrait witnesses
 

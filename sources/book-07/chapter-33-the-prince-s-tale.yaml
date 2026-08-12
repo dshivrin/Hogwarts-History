@@ -1,0 +1,349 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty-Three - The Prince's Tale
+  chapter_start_pdf_page: 3538
+  chapter_end_pdf_page: 3565
+  boundary_confidence: high
+  boundary_notes: Processing-state supplied the inclusive page range; bounded extraction begins with the Chapter Thirty-Three heading on PDF page 3538 and ends before Chapter Thirty-Four on PDF page 3566.
+  processed_date: '2026-08-12'
+  processor_notes: "Extracted only PDF pages 3538-3565 with pypdf via scripts/extract_pages.py; no full-PDF scan was performed. No explicit Hogwarts: A History title citation appears in this source unit."
+
+entries:
+  - id: dh-ch33-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3538
+    printed_page: null
+    extracted_text_lines: "10-29; 48-71"
+    text_anchor:
+      start_phrase: "Voldemort's voice reverberated from the walls and floor"
+      end_phrase: "beneath the dark, enchanted ceiling"
+      local_occurrence_note: "After Snape's death, Voldemort broadcasts a one-hour cease-fire demand to the castle and surrounding area; Harry then sees the Great Hall converted for mourning and treatment."
+    nearby_context: "The trio returns through the Shrieking Shack tunnel into a damaged entrance hall, then finds survivors, injured combatants, and the dead gathered in the Great Hall."
+    match_terms:
+      - Voldemort
+      - Battle of Hogwarts
+      - one hour
+      - Forbidden Forest
+      - Great Hall
+      - Madam Pomfrey
+      - casualties
+    quote_excerpt_short: "You have one hour. Dispose of your dead with dignity."
+    source_note: "During the battle pause, Voldemort can project his voice across Hogwarts and Hogsmeade, while the Great Hall functions as a crisis center for survivors, medical treatment, and the honored dead."
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - voldemort
+      - great-hall
+      - wartime-hogwarts
+      - medical-care
+      - casualties
+      - hallowed-ground
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Battle of Hogwarts and Its Aftermath
+    candidate_section: Cease-fire, triage, and mourning in the Great Hall
+    reason_for_placement: "The passage gives concrete evidence for the castle-wide pause in fighting and the Great Hall's emergency use during the final battle."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a key final-battle scene connecting Hogwarts architecture, wartime communication, and communal mourning."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted lookup returned general Great Hall, battle, and portrait entries, but no prior entry for Voldemort's castle-wide cease-fire broadcast or the Great Hall's post-assault triage role."
+    confidence: high
+    limitations: "The broadcast mechanism is observed but not named, and the casualty view is limited to Harry's immediate perception."
+
+  - id: dh-ch33-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3541
+    printed_page: null
+    extracted_text_lines: "88-103"
+    text_anchor:
+      start_phrase: "The portraits that hung all around the walls were empty"
+      end_phrase: "Harry dived"
+      local_occurrence_note: "Harry enters the headmaster's office after the battle pause and uses Snape's memories in Dumbledore's Pensieve."
+    nearby_context: "The stone gargoyle accepts 'Dumbledore' as the password, and the office is empty because the former headmasters and headmistresses have moved through the castle's paintings to watch events."
+    match_terms:
+      - headmaster's office
+      - portraits
+      - Dumbledore's frame
+      - Pensieve
+      - Snape's memories
+      - stone gargoyle
+    quote_excerpt_short: "The portraits that hung all around the walls were empty."
+    source_note: "Former headmaster portraits can leave their office frames to observe events through other castle paintings, and Dumbledore's Pensieve remains in the headmaster's office for memory review."
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - headmaster-office
+      - portraits
+      - dumbledore-portrait
+      - pensieve
+      - memory-magic
+      - magical-instruments
+      - portrait-network
+    candidate_part: Hogwarts Buildings and Enchantments
+    candidate_chapter: Headmaster's Office and Portrait Network
+    candidate_section: Former headmasters as mobile castle witnesses
+    reason_for_placement: "The scene extends portrait-network evidence by showing all office portraits absent from their frames during an emergency and links that movement to castle-wide observation."
+    relevance_to_hogwarts_a_history: "This would help explain the office as a living institutional archive, combining portraits, passwords, and memory-preserving artifacts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch12-002
+        - dh-ch10-001
+        - ootp-ch28-006
+      notes: "dh-ch12-002 and dh-ch10-001 cover Phineas's linked portrait and office artifacts; ootp-ch28-006 covers Pensieve memory entry. This entry adds the collective absence of all headmaster portraits during the battle and confirms the Pensieve remains accessible in the office."
+    confidence: high
+    limitations: "The chapter does not name every portrait or explain whether all former heads can reach every castle painting."
+
+  - id: dh-ch33-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3544
+    printed_page: null
+    extracted_text_lines: "204-229; 254-259"
+    text_anchor:
+      start_phrase: "the Ministry can punish you if you do magic outside school"
+      end_phrase: "They guard the wizard prison, Azkaban."
+      local_occurrence_note: "Child Snape explains underage magic, Hogwarts letters, and Muggle-born admissions to Lily before either has started school."
+    nearby_context: "Lily worries that Hogwarts might not be real and asks whether being Muggle-born makes a difference; Snape says a school representative normally explains matters to Muggle-born parents."
+    match_terms:
+      - underage magic
+      - Hogwarts letter
+      - Muggle-born
+      - school representative
+      - owl post
+      - Ministry
+      - Azkaban
+    quote_excerpt_short: "someone from the school will have to come and explain"
+    source_note: "Before Hogwarts, Snape knows that children are treated leniently before wands and training, that Hogwarts letters normally arrive by owl, and that Muggle-born families receive school explanation."
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - underage-magic
+      - hogwarts-letters
+      - admissions
+      - muggle-born
+      - school-representative
+      - ministry-of-magic
+      - azkaban
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Admissions and First-Year Preparation
+    candidate_section: Muggle-born explanation and pre-school magic rules
+    reason_for_placement: "The memory supplies pre-Harry-era admissions and conduct lore from children awaiting their first Hogwarts letters."
+    relevance_to_hogwarts_a_history: "This can support a history's account of how the school identifies and introduces Muggle-born children while distinguishing accidental childhood magic from trained underage spellwork."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch04-002
+        - ps-ch04-003
+        - cos-ch01-005
+        - ootp-ch08-002
+      notes: "ps-ch04-002/003 record Harry's acceptance letter and Hagrid follow-up, while cos-ch01-005 and ootp-ch08-002 cover later underage-magic restrictions. This entry adds Snape's pre-1984 explanation that Muggle-born parents receive a school visit and that pre-wand childhood magic is treated differently."
+    confidence: medium
+    limitations: "Snape is a child repeating what he understands, so formal policy should be corroborated against adult or documentary sources."
+
+  - id: dh-ch33-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3547
+    printed_page: null
+    extracted_text_lines: "294-330; 346-355"
+    text_anchor:
+      start_phrase: "Maybe once I'm there, I'll be able to go to Professor Dumbledore"
+      end_phrase: "This is it! We're off to Hogwarts!"
+      local_occurrence_note: "On Platform Nine and Three-Quarters, Lily and Petunia argue about Petunia's rejected letter to Dumbledore before Lily and Snape board the Hogwarts Express."
+    nearby_context: "Petunia had contacted the headmaster asking to attend Hogwarts, received a kind reply, and is hurt that Lily and Snape read the correspondence."
+    match_terms:
+      - Petunia Evans
+      - Professor Dumbledore
+      - Hogwarts correspondence
+      - Platform Nine and Three-Quarters
+      - Hogwarts Express
+      - Muggle contact
+    quote_excerpt_short: "I saw his reply. It was very kind."
+    source_note: "Petunia's rejected appeal shows that a Muggle child could write to Hogwarts's headmaster and receive a personal reply, while the platform scene confirms Lily's first departure by Hogwarts Express."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - petunia-evans
+      - dumbledore
+      - hogwarts-correspondence
+      - admissions
+      - muggle-contact
+      - platform-nine-and-three-quarters
+      - hogwarts-express
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Admissions and First-Year Preparation
+    candidate_section: Exceptional correspondence with non-magical relatives
+    reason_for_placement: "The evidence adds a rare pre-Harry example of non-magical family contact with Hogwarts administration."
+    relevance_to_hogwarts_a_history: "A later editorial note could use this to show that Hogwarts admissions created family-facing correspondence beyond standard acceptance letters."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch04-004
+        - ps-ch06-001
+      notes: "ps-ch04-004 records Petunia's later recollection that Lily received a Hogwarts-style letter, and ps-ch06-001 records Harry-era train departure. This entry adds Petunia's own attempted application to Dumbledore and the personal reply."
+    confidence: medium
+    limitations: "The memory does not quote Dumbledore's reply or explain how Petunia's letter reached Hogwarts."
+
+  - id: dh-ch33-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3549
+    printed_page: null
+    extracted_text_lines: "357-414"
+    text_anchor:
+      start_phrase: "You'd better be in Slytherin"
+      end_phrase: "patted Snape on the back as he sat down beside him"
+      local_occurrence_note: "First-year train and Sorting memories show Lily, Snape, James, Sirius, Lupin, and Pettigrew entering Hogwarts."
+    nearby_context: "Sirius states that his family has always been in Slytherin, James voices a Gryffindor preference like his father, Lily is sorted Gryffindor, and Snape is sorted Slytherin near Lucius Malfoy, then a prefect."
+    match_terms:
+      - Slytherin
+      - Gryffindor
+      - Sorting Hat
+      - Sirius Black
+      - James Potter
+      - Lily Evans
+      - Lucius Malfoy
+    quote_excerpt_short: "My whole family have been in Slytherin"
+    source_note: "The memories give pre-1984 evidence for family House expectations and exceptions, the Sorting Hat's assignments of Lily and Snape, and Lucius Malfoy's prefect status."
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - sorting-hat
+      - house-system
+      - gryffindor
+      - slytherin
+      - sirius-black
+      - lily-evans
+      - lucius-malfoy
+    candidate_part: Founders, Houses, and Relics
+    candidate_chapter: House Identity and Reputation
+    candidate_section: Family expectations and first-generation Sorting memories
+    reason_for_placement: "The passage shows how incoming students discuss House identity before Sorting and preserves the actual House split among a historically important cohort."
+    relevance_to_hogwarts_a_history: "This can support later notes on House reputation, family tradition, and how Sorting shaped the generation central to the First and Second Wizarding Wars."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch06-005
+        - hbp-ch04-005
+      notes: "ps-ch06-005 already covers pre-Sorting rumors and family expectations for Harry's year, and hbp-ch04-005 covers Sirius as a Black-family exception. This entry adds the Marauder-era train conversation, Lily/Snape Sortings, and Lucius as a Slytherin prefect."
+    confidence: high
+    limitations: "This is memory testimony rather than a formal Sorting record, and it samples one cohort rather than general school demographics."
+
+  - id: dh-ch33-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3558
+    printed_page: null
+    extracted_text_lines: "630-731"
+    text_anchor:
+      start_phrase: "Marvolo Gaunt's ring lay on the desk"
+      end_phrase: "Thank you, Severus"
+      local_occurrence_note: "In Dumbledore's office after the cursed-ring injury, Dumbledore discusses Draco's mission, student protection, and Snape's future killing of him."
+    nearby_context: "Snape contains the ring curse in Dumbledore's hand, estimates Dumbledore has perhaps a year, and hears that Voldemort expects Draco to fail before Snape becomes the likely successor."
+    match_terms:
+      - Marvolo Gaunt's ring
+      - Sword of Gryffindor
+      - Draco Malfoy
+      - protect the students
+      - Snape
+      - Dumbledore
+      - soul
+    quote_excerpt_short: "do all in your power to protect the students of Hogwarts"
+    source_note: "Dumbledore's cursed-ring injury leads to an explicit plan: Snape must protect Hogwarts students under a possible Voldemort-controlled school, monitor Draco, and eventually kill Dumbledore to spare Draco and preserve the larger strategy."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledore
+      - severus-snape
+      - cursed-ring
+      - draco-malfoy
+      - student-protection
+      - hogwarts-headmaster
+      - wartime-hogwarts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Snape's Headmastership and the Occupied School
+    candidate_section: Dumbledore's student-protection charge and planned death
+    reason_for_placement: "The memory supplies private strategic context for the school's later occupation and Snape's otherwise opaque role."
+    relevance_to_hogwarts_a_history: "A later edition can use this as crucial evidence that Snape's headmastership included a Dumbledore-directed protective mandate despite public Death Eater control."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch02-002
+        - hbp-ch25-005
+        - dh-ch12-001
+      notes: "hbp-ch02-002 records Snape's Hogwarts spy role, hbp-ch25-005 records Dumbledore's public trust in Snape after the prophecy, and dh-ch12-001 records Snape's later appointment. This entry adds Dumbledore's private instruction to protect students and the planned killing arrangement."
+    confidence: high
+    limitations: "The evidence is from Snape's memory sequence and concerns private plans rather than public school policy."
+
+  - id: dh-ch33-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Three - The Prince's Tale
+    chapter_start_pdf_page: 3538
+    chapter_end_pdf_page: 3565
+    pdf_page: 3564
+    printed_page: null
+    extracted_text_lines: "787-864; 848-864; 881-901"
+    text_anchor:
+      start_phrase: "There will come a time when Lord Voldemort will seem to fear for the life of his snake"
+      end_phrase: "I have a plan"
+      local_occurrence_note: "Dumbledore tells Snape when to reveal Harry's soul-fragment truth, then the portrait later directs the Seven Potters decoy plan and the Sword of Gryffindor delivery."
+    nearby_context: "The memory sequence links Nagini's magical protection, Harry's connection to Voldemort, Snape's doe Patronus, Mundungus's Confunded decoy idea, Phineas's Forest of Dean report, and the sword's hidden cavity behind Dumbledore's portrait."
+    match_terms:
+      - Nagini
+      - soul fragment
+      - Parseltongue
+      - Dumbledore's portrait
+      - Sword of Gryffindor
+      - Forest of Dean
+      - conditions of need and valor
+    quote_excerpt_short: "it must be taken under conditions of need and valor"
+    source_note: "Dumbledore sets Nagini's protected status as the signal for telling Harry he carries part of Voldemort's soul, and his portrait later directs the covert Sword of Gryffindor delivery under conditions of need and valor."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - nagini
+      - horcrux
+      - soul-fragment
+      - parseltongue
+      - dumbledore-portrait
+      - sword-of-gryffindor
+      - forest-of-dean
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Founder Relics, Horcruxes, and Dumbledore's Final Plan
+    candidate_section: Nagini signal and covert sword delivery
+    reason_for_placement: "The passage connects the final Horcrux logic to a portrait-directed Hogwarts artifact handoff."
+    relevance_to_hogwarts_a_history: "A later edition can use this as central explanatory evidence for why the sword reappeared in the Forest of Dean and how Dumbledore's office network continued acting after his death."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch19-003
+        - dh-ch19-004
+        - dh-ch32-006
+        - dh-ch27-004
+      notes: "dh-ch19-003/004 record the doe and Harry's retrieval reasoning, dh-ch32-006 records Nagini's protective sphere, and dh-ch27-004 records Nagini in Voldemort's Horcrux audit. This entry adds Dumbledore's explicit timing instruction, the Harry soul-fragment explanation, and the portrait's covert sword-delivery order."
+    confidence: high
+    limitations: "The entry compresses several linked memories because their evidentiary value lies in the shared Dumbledore-Snape plan; separate artifact mechanics remain documented in earlier entries."

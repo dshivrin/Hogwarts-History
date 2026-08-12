@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/harrypotter.pdf`
 - Book group: `book-07`
 - Book: `Harry Potter and the Deathly Hallows`
-- Chapter: Chapter Thirty-Three - The Prince’s Tale
-- Page range: 3538-3565
+- Chapter: Chapter Thirty-Four - The Forest Again
+- Page range: 3566-3577
 - Extracted text: `.tmp/current-chapter.txt`
-- Output YAML: `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+- Output YAML: `sources/book-07/chapter-34-the-forest-again.yaml`
 
 ## Minimal Context
 

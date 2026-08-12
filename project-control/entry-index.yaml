@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-11'
+updated: '2026-08-12'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -19550,6 +19550,118 @@ by_entry:
     - wandlore
     source_unit: dh-ch32
     output_yaml: sources/book-07/chapter-32-the-elder-wand.yaml
+  dh-ch33-001:
+    title: 'The Battle of Hogwarts and Its Aftermath: Cease-fire, triage, and mourning
+      in the Great Hall'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - casualties
+    - great-hall
+    - hallowed-ground
+    - medical-care
+    - voldemort
+    - wartime-hogwarts
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch33-002:
+    title: 'Headmaster''s Office and Portrait Network: Former headmasters as mobile
+      castle witnesses'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - dumbledore-portrait
+    - headmaster-office
+    - magical-instruments
+    - memory-magic
+    - pensieve
+    - portrait-network
+    - portraits
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch33-003:
+    title: 'Admissions and First-Year Preparation: Muggle-born explanation and pre-school
+      magic rules'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - admissions
+    - azkaban
+    - hogwarts-letters
+    - ministry-of-magic
+    - muggle-born
+    - school-representative
+    - underage-magic
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch33-004:
+    title: 'Admissions and First-Year Preparation: Exceptional correspondence with
+      non-magical relatives'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - admissions
+    - dumbledore
+    - hogwarts-correspondence
+    - hogwarts-express
+    - muggle-contact
+    - petunia-evans
+    - platform-nine-and-three-quarters
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch33-005:
+    title: 'House Identity and Reputation: Family expectations and first-generation
+      Sorting memories'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gryffindor
+    - house-system
+    - lily-evans
+    - lucius-malfoy
+    - sirius-black
+    - slytherin
+    - sorting-hat
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch33-006:
+    title: 'Snape''s Headmastership and the Occupied School: Dumbledore''s student-protection
+      charge and planned death'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cursed-ring
+    - draco-malfoy
+    - dumbledore
+    - hogwarts-headmaster
+    - severus-snape
+    - student-protection
+    - wartime-hogwarts
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch33-007:
+    title: 'Founder Relics, Horcruxes, and Dumbledore''s Final Plan: Nagini signal
+      and covert sword delivery'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dumbledore-portrait
+    - forest-of-dean
+    - horcrux
+    - nagini
+    - parseltongue
+    - soul-fragment
+    - sword-of-gryffindor
+    source_unit: dh-ch33
+    output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19615,6 +19727,8 @@ by_tag:
   - cos-ch01-004
   - cos-ch06-005
   - cos-ch09-004
+  - dh-ch33-003
+  - dh-ch33-004
   - ps-ch03-001
   - ps-ch03-002
   - ps-ch03-003
@@ -19951,6 +20065,7 @@ by_tag:
   - dh-ch05-005
   - dh-ch06-003
   - dh-ch13-005
+  - dh-ch33-003
   - gof-ch02-006
   - gof-ch09-007
   - gof-ch14-005
@@ -20070,6 +20185,7 @@ by_tag:
   - dh-ch32-002
   - dh-ch32-003
   - dh-ch32-004
+  - dh-ch33-001
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
@@ -20550,6 +20666,8 @@ by_tag:
   - hbp-ch28-003
   castle-windows:
   - poa-ch21-007
+  casualties:
+  - dh-ch33-001
   caterwauling-charm:
   - dh-ch28-001
   cats:
@@ -21122,6 +21240,8 @@ by_tag:
   cursed-objects:
   - hbp-ch12-006
   - hbp-ch12-007
+  cursed-ring:
+  - dh-ch33-006
   cursed-wounds:
   - hbp-ch29-001
   curses:
@@ -21727,6 +21847,7 @@ by_tag:
   draco-malfoy:
   - cos-ch04-004
   - dh-ch24-005
+  - dh-ch33-006
   - hbp-ch02-006
   - hbp-ch06-007
   - hbp-ch07-007
@@ -21808,6 +21929,8 @@ by_tag:
   - dh-ch22-003
   - dh-ch23-007
   - dh-ch24-007
+  - dh-ch33-004
+  - dh-ch33-006
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -21991,6 +22114,8 @@ by_tag:
   - dh-ch22-001
   dumbledore-portrait:
   - dh-ch15-007
+  - dh-ch33-002
+  - dh-ch33-007
   dumbledore-protection:
   - hbp-ch16-002
   dumbledore-tomb:
@@ -22704,6 +22829,7 @@ by_tag:
   - cos-ch15-005
   forest-of-dean:
   - dh-ch19-003
+  - dh-ch33-007
   forest-path:
   - cos-ch15-004
   - ootp-ch33-002
@@ -23033,6 +23159,7 @@ by_tag:
   - cos-ch13-003
   - dh-ch30-007
   - dh-ch31-001
+  - dh-ch33-001
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -23203,6 +23330,7 @@ by_tag:
   - cos-ch18-003
   - dh-ch07-006
   - dh-ch10-002
+  - dh-ch33-005
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -23440,6 +23568,8 @@ by_tag:
   - ootp-ch37-007
   hall-of-prophecy:
   - hbp-ch03-001
+  hallowed-ground:
+  - dh-ch33-001
   halloween-feast:
   - cos-ch07-005
   - cos-ch08-004
@@ -23584,6 +23714,7 @@ by_tag:
   - dh-ch12-002
   - dh-ch15-006
   - dh-ch15-007
+  - dh-ch33-002
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -23947,6 +24078,8 @@ by_tag:
   - dh-ch11-006
   hogwarts-champions:
   - gof-ch31-004
+  hogwarts-correspondence:
+  - dh-ch33-004
   hogwarts-danger:
   - cos-ch02-002
   hogwarts-education:
@@ -23965,6 +24098,7 @@ by_tag:
   - cos-ch16-005
   - cos-ch18-007
   - dh-ch25-007
+  - dh-ch33-004
   - gof-ch03-003
   - gof-ch11-002
   - hbp-ch07-001
@@ -24021,6 +24155,7 @@ by_tag:
   - dh-ch02-005
   - dh-ch12-001
   - dh-ch30-005
+  - dh-ch33-006
   - hbp-ch16-007
   hogwarts-headmasters:
   - ootp-ch06-005
@@ -24043,6 +24178,7 @@ by_tag:
   hogwarts-letters:
   - cos-ch01-004
   - cos-ch06-005
+  - dh-ch33-003
   - poa-ch01-003
   - ps-ch03-001
   - ps-ch03-002
@@ -24175,6 +24311,7 @@ by_tag:
   - dh-ch19-005
   - dh-ch31-003
   - dh-ch32-006
+  - dh-ch33-007
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
@@ -24399,6 +24536,7 @@ by_tag:
   house-system:
   - cos-ch09-004
   - dh-ch23-001
+  - dh-ch33-005
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -24938,6 +25076,7 @@ by_tag:
   lily-and-james:
   - ps-ch04-005
   lily-evans:
+  - dh-ch33-005
   - ootp-ch29-006
   - ps-ch04-004
   lily-potter:
@@ -25004,6 +25143,7 @@ by_tag:
   - cos-ch18-006
   - dh-ch01-001
   - dh-ch05-007
+  - dh-ch33-005
   - gof-ch08-003
   - ootp-ch09-001
   - ootp-ch15-001
@@ -25306,6 +25446,7 @@ by_tag:
   - cos-ch12-001
   - dh-ch07-003
   - dh-ch12-002
+  - dh-ch33-002
   - ootp-ch37-001
   magical-law:
   - dh-ch07-002
@@ -25627,6 +25768,8 @@ by_tag:
   - hbp-ch17-001
   medal-for-magical-merit:
   - cos-ch13-002
+  medical-care:
+  - dh-ch33-001
   medical-discharge:
   - hbp-ch19-001
   medicinal-potion:
@@ -25659,6 +25802,7 @@ by_tag:
   - gof-ch33-003
   memory-magic:
   - cos-ch13-004
+  - dh-ch33-002
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch17-003
@@ -25799,6 +25943,7 @@ by_tag:
   - dh-ch14-004
   - dh-ch19-007
   - dh-ch21-007
+  - dh-ch33-003
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -26008,6 +26153,8 @@ by_tag:
   muggle-baiting:
   - cos-ch03-004
   - gof-ch09-001
+  muggle-born:
+  - dh-ch33-003
   muggle-born-register:
   - dh-ch11-003
   - dh-ch12-004
@@ -26047,6 +26194,8 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch06-007
+  muggle-contact:
+  - dh-ch33-004
   muggle-culture:
   - dh-ch10-002
   muggle-disasters:
@@ -26177,6 +26326,7 @@ by_tag:
   - dh-ch27-004
   - dh-ch32-006
   - dh-ch32-007
+  - dh-ch33-007
   - gof-ch01-005
   named-book:
   - ps-ch11-002
@@ -26587,6 +26737,7 @@ by_tag:
   - dh-ch19-005
   - dh-ch31-005
   - dh-ch32-006
+  - dh-ch33-007
   - gof-ch01-005
   - hbp-ch10-006
   - hbp-ch13-007
@@ -26688,6 +26839,7 @@ by_tag:
   - ps-ch13-005
   pensieve:
   - dh-ch12-002
+  - dh-ch33-002
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch13-001
@@ -26746,6 +26898,8 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch02-006
   - ootp-ch37-005
+  petunia-evans:
+  - dh-ch33-004
   peverell-family:
   - dh-ch21-006
   - dh-ch22-002
@@ -26822,6 +26976,7 @@ by_tag:
   - cos-ch18-007
   platform-nine-and-three-quarters:
   - cos-ch05-001
+  - dh-ch33-004
   - gof-ch11-002
   - hbp-ch07-001
   - ootp-ch10-001
@@ -26902,6 +27057,7 @@ by_tag:
   portrait-mobility:
   - poa-ch09-003
   portrait-network:
+  - dh-ch33-002
   - gof-ch17-007
   - ootp-ch22-002
   - ootp-ch22-006
@@ -26916,6 +27072,7 @@ by_tag:
   - dh-ch28-007
   - dh-ch31-004
   - dh-ch32-002
+  - dh-ch33-002
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -28042,6 +28199,8 @@ by_tag:
   school-recreation:
   - ootp-ch14-004
   - ootp-ch26-004
+  school-representative:
+  - dh-ch33-003
   school-representatives:
   - gof-ch22-002
   school-return:
@@ -28382,6 +28541,7 @@ by_tag:
   - dh-ch29-003
   - dh-ch30-005
   - dh-ch32-007
+  - dh-ch33-006
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -28460,6 +28620,7 @@ by_tag:
   - dh-ch04-004
   - dh-ch10-002
   - dh-ch10-003
+  - dh-ch33-005
   - gof-ch02-006
   - gof-ch18-001
   - gof-ch19-007
@@ -28554,6 +28715,7 @@ by_tag:
   - cos-ch18-004
   - dh-ch10-002
   - dh-ch10-004
+  - dh-ch33-005
   - gof-ch15-004
   - hbp-ch04-005
   - hbp-ch19-003
@@ -28688,6 +28850,7 @@ by_tag:
   - cos-ch18-004
   - dh-ch07-006
   - dh-ch12-002
+  - dh-ch33-005
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -28696,6 +28859,8 @@ by_tag:
   - ootp-ch11-003
   - ootp-ch11-004
   - ootp-ch19-002
+  soul-fragment:
+  - dh-ch33-007
   soul-magic:
   - dh-ch06-007
   - dh-ch27-003
@@ -29161,6 +29326,8 @@ by_tag:
   - poa-ch03-005
   student-products:
   - hbp-ch06-006
+  student-protection:
+  - dh-ch33-006
   student-reaction:
   - gof-ch13-007
   student-rebellion:
@@ -29390,6 +29557,7 @@ by_tag:
   - dh-ch25-003
   - dh-ch26-005
   - dh-ch26-007
+  - dh-ch33-007
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -29888,6 +30056,7 @@ by_tag:
   - dh-ch06-003
   - dh-ch07-001
   - dh-ch09-005
+  - dh-ch33-003
   - gof-ch02-003
   - gof-ch04-005
   - gof-ch06-001
@@ -30071,6 +30240,7 @@ by_tag:
   - dh-ch31-003
   - dh-ch32-006
   - dh-ch32-007
+  - dh-ch33-001
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -30252,6 +30422,8 @@ by_tag:
   - dh-ch29-003
   - dh-ch29-004
   - dh-ch30-002
+  - dh-ch33-001
+  - dh-ch33-006
   wartime-publicity:
   - hbp-ch30-006
   wartime-resistance:

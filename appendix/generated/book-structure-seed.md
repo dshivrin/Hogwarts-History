@@ -15,10 +15,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Annual School Letters and Booklists
   - Diagon Alley and Supply Access
   - Earlier Generations and Hogwarts Letters
+  - Exceptional correspondence with non-magical relatives
   - First-Year Supply List
   - Follow-Up and School-Supply Preparation
   - Locating Prospective Students
   - Muggle-Born Discovery and Family Communication
+  - Muggle-born explanation and pre-school magic rules
   - Persistent Delivery to Muggle Households
   - Pets, Owls, and Student Belongings
   - Student Names and Seven-Year Schooling
@@ -392,6 +394,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Known Heads of Hogwarts
   - Dilys Derwent, Healer and Headmistress
 
+## Founders, Houses, and Relics
+
+- House Identity and Reputation
+  - Family expectations and first-generation Sorting memories
+
 ## Founders, Relics, and House Memory
 
 - Founder Relics and Contested Provenance
@@ -496,6 +503,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Boundaries, Wards, and Exceptional Magic
   - House-elf exceptions to anti-Apparition protections
 - Headmaster's Office and Portrait Network
+  - Former headmasters as mobile castle witnesses
   - Former headmasters as mobile portrait witnesses
   - Portrait communication limits and linked frames
   - Portrait surveillance and office artifacts under Snape
@@ -624,6 +632,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Headmaster-led private lessons and prophecy preparation
 - Famous Students and Wartime Rumor
   - Harry Potter's arrival and Death Eater interpretations
+- Founder Relics, Horcruxes, and Dumbledore's Final Plan
+  - Nagini signal and covert sword delivery
 - Grounds, Transport, and the Forbidden Forest
   - Thestrals beyond school-carriage service
 - Harry Potter Before Hogwarts
@@ -753,6 +763,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Spectator Devices and Tactical Literacy
 - Quidditch and School Recreation
   - High Inquisitor control of House teams
+- Snape's Headmastership and the Occupied School
+  - Dumbledore's student-protection charge and planned death
 - Sources for Dumbledore's Life
   - Obituary, Biography, and Public Memory
 - Sources on Dumbledore After His Death
@@ -773,6 +785,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Widespread anti-Umbridge sabotage after the Weasley exit
 - Student Welfare and Crisis Response
   - Privacy Instructions and Class Disruption After the Maze Crisis
+- The Battle of Hogwarts and Its Aftermath
+  - Cease-fire, triage, and mourning in the Great Hall
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
 - The Deathly Hallows and the Horcrux War
