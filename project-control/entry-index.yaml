@@ -19662,6 +19662,116 @@ by_entry:
     - sword-of-gryffindor
     source_unit: dh-ch33
     output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  dh-ch34-001:
+    title: 'The Battle of Hogwarts and Its Aftermath: Great Hall mourning and underage
+      casualties'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - castle-interior
+    - casualties
+    - colin-creevey
+    - great-hall
+    - underage-students
+    - wartime-hogwarts
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
+  dh-ch34-002:
+    title: 'Founder Relics, Horcruxes, and Dumbledore''s Final Plan: Neville as contingency
+      bearer of the Nagini mission'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - dumbledore-plan
+    - horcrux
+    - nagini
+    - neville-longbottom
+    - resistance-continuity
+    - student-fighters
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
+  dh-ch34-003:
+    title: 'Hogwarts as Home and Historical Memory: Abandoned boys and the school
+      as formative home'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - hagrid-hut
+    - harry-potter
+    - hogwarts
+    - school-identity
+    - severus-snape
+    - student-memory
+    - voldemort
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
+  dh-ch34-004:
+    title: 'The Deathly Hallows: Snitch bequest opened at the close'
+    classification: later_editorial_note
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - deathly-hallows
+    - dumbledore-bequest
+    - elder-wand
+    - golden-snitch
+    - invisibility-cloak
+    - magical-seals
+    - resurrection-stone
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
+  dh-ch34-005:
+    title: 'The Deathly Hallows: Stone companions and Dementor resistance'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - deathly-hallows
+    - dementors
+    - forbidden-forest
+    - ghosts
+    - magical-artifacts
+    - patronus
+    - resurrection-stone
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
+  dh-ch34-006:
+    title: 'Magical Residents in Wartime: Aragog''s clearing as Voldemort''s battle
+      camp'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - acromantulas
+    - aragog
+    - battle-of-hogwarts
+    - death-eaters
+    - forbidden-forest
+    - giants
+    - hagrid
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
+  dh-ch34-007:
+    title: 'Horcrux Defenses and Dark Protections: Nagini''s protected cage at the
+      Forest surrender'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - death-eaters
+    - enchanted-cage
+    - forbidden-forest
+    - horcrux
+    - nagini
+    - protective-magic
+    - voldemort
+    source_unit: dh-ch34
+    output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -19719,6 +19829,7 @@ by_tag:
   acromantulas:
   - dh-ch32-001
   - dh-ch32-003
+  - dh-ch34-006
   address-tracking:
   - ps-ch03-003
   administrative-spaces:
@@ -19943,6 +20054,7 @@ by_tag:
   aragog:
   - cos-ch15-005
   - cos-ch15-006
+  - dh-ch34-006
   - hbp-ch11-005
   - hbp-ch22-005
   - ootp-ch33-001
@@ -20186,6 +20298,9 @@ by_tag:
   - dh-ch32-003
   - dh-ch32-004
   - dh-ch33-001
+  - dh-ch34-001
+  - dh-ch34-002
+  - dh-ch34-006
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
@@ -20602,6 +20717,7 @@ by_tag:
   - gof-ch04-002
   - poa-ch14-007
   castle-interior:
+  - dh-ch34-001
   - ps-ch12-006
   castle-maintenance:
   - gof-ch12-004
@@ -20668,6 +20784,7 @@ by_tag:
   - poa-ch21-007
   casualties:
   - dh-ch33-001
+  - dh-ch34-001
   caterwauling-charm:
   - dh-ch28-001
   cats:
@@ -20916,6 +21033,7 @@ by_tag:
   - gof-ch09-005
   colin-creevey:
   - cos-ch10-006
+  - dh-ch34-001
   colloportus:
   - ootp-ch35-003
   colony:
@@ -21398,6 +21516,8 @@ by_tag:
   - dh-ch28-002
   - dh-ch30-002
   - dh-ch32-001
+  - dh-ch34-006
+  - dh-ch34-007
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -21443,6 +21563,8 @@ by_tag:
   - dh-ch22-004
   - dh-ch22-005
   - dh-ch28-005
+  - dh-ch34-004
+  - dh-ch34-005
   deathly-hallows-symbol:
   - dh-ch16-007
   deathstick:
@@ -21569,6 +21691,7 @@ by_tag:
   - dh-ch28-006
   - dh-ch29-001
   - dh-ch32-004
+  - dh-ch34-005
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -22067,6 +22190,7 @@ by_tag:
   - hbp-ch25-006
   dumbledore-bequest:
   - dh-ch22-004
+  - dh-ch34-004
   dumbledore-biography:
   - dh-ch11-006
   - dh-ch17-004
@@ -22112,6 +22236,7 @@ by_tag:
   - ootp-ch37-001
   dumbledore-plan:
   - dh-ch22-001
+  - dh-ch34-002
   dumbledore-portrait:
   - dh-ch15-007
   - dh-ch33-002
@@ -22222,6 +22347,7 @@ by_tag:
   - dh-ch24-006
   - dh-ch24-007
   - dh-ch32-007
+  - dh-ch34-004
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -22279,6 +22405,7 @@ by_tag:
   - hbp-ch26-005
   enchanted-cage:
   - dh-ch32-006
+  - dh-ch34-007
   enchanted-ceiling:
   - cos-ch05-004
   - cos-ch06-001
@@ -22779,6 +22906,9 @@ by_tag:
   - cos-ch15-005
   - cos-ch15-006
   - dh-ch32-001
+  - dh-ch34-005
+  - dh-ch34-006
+  - dh-ch34-007
   - gof-ch04-003
   - gof-ch12-005
   - gof-ch28-005
@@ -22980,6 +23110,7 @@ by_tag:
   - cos-ch08-001
   - cos-ch08-005
   - dh-ch17-001
+  - dh-ch34-005
   - gof-ch25-004
   - hbp-ch08-003
   - hbp-ch21-006
@@ -23002,6 +23133,7 @@ by_tag:
   - gof-ch23-006
   giants:
   - dh-ch32-003
+  - dh-ch34-006
   - gof-ch23-006
   - gof-ch36-006
   - hbp-ch01-004
@@ -23130,6 +23262,7 @@ by_tag:
   - dh-ch07-005
   - dh-ch16-003
   - dh-ch22-004
+  - dh-ch34-004
   golgomath:
   - ootp-ch20-005
   golpalotts-third-law:
@@ -23160,6 +23293,7 @@ by_tag:
   - dh-ch30-007
   - dh-ch31-001
   - dh-ch33-001
+  - dh-ch34-001
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -23452,6 +23586,7 @@ by_tag:
   - dh-ch05-003
   - dh-ch22-007
   - dh-ch32-003
+  - dh-ch34-006
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -23533,6 +23668,8 @@ by_tag:
   - hbp-ch17-005
   hagrid-expulsion-corroboration:
   - ps-ch05-007
+  hagrid-hut:
+  - dh-ch34-003
   hagrid-innocence:
   - cos-ch15-007
   hagrid-pumpkins:
@@ -23590,6 +23727,7 @@ by_tag:
   - dh-ch11-002
   - dh-ch20-005
   - dh-ch22-001
+  - dh-ch34-003
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -24043,6 +24181,7 @@ by_tag:
   - dh-ch27-006
   - dh-ch28-006
   - dh-ch28-007
+  - dh-ch34-003
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -24312,6 +24451,8 @@ by_tag:
   - dh-ch31-003
   - dh-ch32-006
   - dh-ch33-007
+  - dh-ch34-002
+  - dh-ch34-007
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
@@ -24802,6 +24943,7 @@ by_tag:
   - dh-ch21-004
   - dh-ch22-003
   - dh-ch27-006
+  - dh-ch34-004
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -25311,6 +25453,7 @@ by_tag:
   - dh-ch22-001
   - dh-ch24-004
   - dh-ch29-006
+  - dh-ch34-005
   - ootp-ch06-001
   magical-barrier:
   - cos-ch05-001
@@ -25546,6 +25689,7 @@ by_tag:
   - gof-ch28-003
   magical-seals:
   - dh-ch22-004
+  - dh-ch34-004
   magical-secrecy:
   - gof-ch08-001
   magical-security:
@@ -26327,6 +26471,8 @@ by_tag:
   - dh-ch32-006
   - dh-ch32-007
   - dh-ch33-007
+  - dh-ch34-002
+  - dh-ch34-007
   - gof-ch01-005
   named-book:
   - ps-ch11-002
@@ -26364,6 +26510,7 @@ by_tag:
   - gof-ch19-005
   neville-longbottom:
   - dh-ch28-007
+  - dh-ch34-002
   - hbp-ch07-004
   - ootp-ch21-006
   - ootp-ch25-005
@@ -26793,6 +26940,7 @@ by_tag:
   - dh-ch19-003
   - dh-ch28-002
   - dh-ch32-004
+  - dh-ch34-005
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -27506,6 +27654,7 @@ by_tag:
   - dh-ch29-004
   - dh-ch29-005
   - dh-ch32-006
+  - dh-ch34-007
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -27832,6 +27981,8 @@ by_tag:
   - gof-ch31-003
   resignation:
   - gof-ch24-007
+  resistance-continuity:
+  - dh-ch34-002
   resistance-media:
   - dh-ch20-003
   - dh-ch20-005
@@ -27861,6 +28012,8 @@ by_tag:
   - dh-ch21-003
   - dh-ch22-002
   - dh-ch22-004
+  - dh-ch34-004
+  - dh-ch34-005
   review-lessons:
   - ootp-ch31-001
   riddikulus:
@@ -28118,6 +28271,8 @@ by_tag:
   - cos-ch12-007
   - cos-ch18-001
   - ootp-ch29-006
+  school-identity:
+  - dh-ch34-003
   school-incidents:
   - hbp-ch17-005
   school-jinxes:
@@ -28542,6 +28697,7 @@ by_tag:
   - dh-ch30-005
   - dh-ch32-007
   - dh-ch33-006
+  - dh-ch34-003
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -29216,6 +29372,7 @@ by_tag:
   - cos-ch06-005
   student-fighters:
   - dh-ch31-001
+  - dh-ch34-002
   student-governance:
   - hbp-ch07-002
   - ootp-ch10-002
@@ -29268,6 +29425,8 @@ by_tag:
   - poa-ch04-001
   student-lore:
   - cos-ch15-003
+  student-memory:
+  - dh-ch34-003
   student-misconduct:
   - cos-ch08-003
   - gof-ch06-003
@@ -30075,6 +30234,7 @@ by_tag:
   underage-students:
   - dh-ch30-007
   - dh-ch31-001
+  - dh-ch34-001
   - gof-ch16-004
   underground-harbor:
   - ps-ch06-007
@@ -30241,6 +30401,8 @@ by_tag:
   - dh-ch32-006
   - dh-ch32-007
   - dh-ch33-001
+  - dh-ch34-003
+  - dh-ch34-007
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -30424,6 +30586,7 @@ by_tag:
   - dh-ch30-002
   - dh-ch33-001
   - dh-ch33-006
+  - dh-ch34-001
   wartime-publicity:
   - hbp-ch30-006
   wartime-resistance:

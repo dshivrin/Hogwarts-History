@@ -7,22 +7,12 @@ last_completed_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
-  chapter_number: 33
-  chapter_title: "Chapter Thirty-Three - The Prince\u2019s Tale"
-  page_start: 3538
-  page_end: 3565
-  output_yaml: sources/book-07/chapter-33-the-prince-s-tale.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-07
-  book: Harry Potter and the Deathly Hallows
   chapter_number: 34
   chapter_title: Chapter Thirty-Four - The Forest Again
   page_start: 3566
   page_end: 3577
   output_yaml: sources/book-07/chapter-34-the-forest-again.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
+current_source_unit:
   source_file: pdfs/harrypotter.pdf
   book_group: book-07
   book: Harry Potter and the Deathly Hallows
@@ -31,6 +21,16 @@ next_source_unit:
   page_start: 3578
   page_end: 3593
   output_yaml: sources/book-07/chapter-35-king-s-cross.yaml
+  extracted_text_path: .tmp/current-chapter.txt
+next_source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 36
+  chapter_title: Chapter Thirty-Six - The Flaw in the Plan
+  page_start: 3594
+  page_end: 3615
+  output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml

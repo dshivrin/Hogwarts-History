@@ -6128,6 +6128,18 @@ Summary: The available evidence includes 1 source item, led by: Voldemort protec
   - Corroborates: `dh-ch17-005`, `dh-ch27-004`. dh-ch17-005 records Nagini as a concealed Dark trap, and dh-ch27-004 records Voldemort's late audit naming Nagini as a Horcrux needing protection. This entry adds the specific floating sphere protection used during the battle.
   - Notes: The chapter describes the protection visually but does not name the spell or explain its limits.
 
+#### Section: Nagini's protected cage at the Forest surrender
+
+Summary: The available evidence includes 1 source item, led by: Nagini remains in a floating charmed cage beside Voldemort in the Forest clearing, and Harry considers both the cage and surrounding Death Eaters enough to prevent a direct attack.
+
+- **Corroboration:** Nagini remains in a floating charmed cage beside Voldemort in the Forest clearing, and Harry considers both the cage and surrounding Death Eaters enough to prevent a direct attack.
+  - Quote: "Nagini floated in her glittering, charmed cage"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3575, `dh-ch34-007`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch32-006`, `dh-ch33-007`, `dh-ch27-004`. dh-ch32-006 records Nagini's sphere at the Shrieking Shack, dh-ch33-007 records Dumbledore's protected-Nagini signal, and dh-ch27-004 records Voldemort's audit of Nagini as a Horcrux. This entry adds the same protection relocated to the Forest surrender clearing.
+  - Notes: The cage is described visually but the spell, caster, duration, and physical limits are not named.
+
 ### Chapter: House Common-Room Security
 
 #### Section: Password Lists and Portrait-Hole Breaches
@@ -9143,6 +9155,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore sets 
   - Corroborates: `dh-ch19-003`, `dh-ch19-004`, `dh-ch32-006`, `dh-ch27-004`. dh-ch19-003/004 record the doe and Harry's retrieval reasoning, dh-ch32-006 records Nagini's protective sphere, and dh-ch27-004 records Nagini in Voldemort's Horcrux audit. This entry adds Dumbledore's explicit timing instruction, the Harry soul-fragment explanation, and the portrait's covert sword-delivery order.
   - Notes: The entry compresses several linked memories because their evidentiary value lies in the shared Dumbledore-Snape plan; separate artifact mechanics remain documented in earlier entries.
 
+#### Section: Neville as contingency bearer of the Nagini mission
+
+Summary: The available evidence includes 1 source item, led by: Harry makes Neville a contingency bearer of the final Horcrux instruction, preserving a small chain of informed fighters who know Nagini must be killed.
+
+- **Corroboration:** Harry makes Neville a contingency bearer of the final Horcrux instruction, preserving a small chain of informed fighters who know Nagini must be killed.
+  - Quote: "There would still be three in the secret."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3569, `dh-ch34-002`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch33-007`, `dh-ch32-006`, `dh-ch27-004`. dh-ch33-007 records Dumbledore's Nagini signal, dh-ch32-006 records Nagini's protection, and dh-ch27-004 records Voldemort's Horcrux audit. This entry adds Harry's explicit transfer of the Nagini instruction to Neville.
+  - Notes: Harry does not tell Neville that Nagini is a Horcrux, only that the snake must be killed.
+
 ### Chapter: Grounds, Transport, and the Forbidden Forest
 
 #### Section: Thestrals beyond school-carriage service
@@ -9605,6 +9629,19 @@ Summary: The available evidence includes 1 source item, led by: Potterwatch repo
   - Reference type: cross_reference_candidate
   - Corroborates: `dh-ch20-001`, `dh-ch19-007`. dh-ch20-001 defines the Taboo mechanism, and dh-ch19-007 covers Snatcher rewards; this entry adds the immediate Taboo-triggered breach after a Hogwarts resistance report.
   - Notes: The Hagrid report is framed as rumor on Potterwatch, while the Taboo breach is directly observed at the camp.
+
+### Chapter: Hogwarts as Home and Historical Memory
+
+#### Section: Abandoned boys and the school as formative home
+
+Summary: The available evidence includes 1 source item, led by: Harry's final walk frames Hogwarts as the formative home for himself, Voldemort, and Snape, while Hagrid's hut evokes ordinary school memories beside the grounds.
+
+- **Context:** Harry's final walk frames Hogwarts as the formative home for himself, Voldemort, and Snape, while Hagrid's hut evokes ordinary school memories beside the grounds.
+  - Quote: "Hogwarts was the first and best home"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3571, `dh-ch34-003`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: This is Harry's subjective reflection during crisis, not an institutional statement or policy record.
 
 ### Chapter: House-Elves and Hogwarts Labor
 
@@ -10480,6 +10517,18 @@ Summary: The available evidence includes 1 source item, led by: During the battl
   - Classification: later_editorial_note | Confidence: high
   - Reference type: direct_observed_setting
   - Notes: The broadcast mechanism is observed but not named, and the casualty view is limited to Harry's immediate perception.
+
+#### Section: Great Hall mourning and underage casualties
+
+Summary: The available evidence includes 1 source item, led by: During the cease-fire, the castle interior is deserted while the Great Hall remains the gathering place for mourners and casualties, including underage Colin Creevey after his illicit return to the battle.
+
+- **Corroboration:** During the cease-fire, the castle interior is deserted while the Great Hall remains the gathering place for mourners and casualties, including underage Colin Creevey after his illicit return to the battle.
+  - Quote: "the dead and the mourners were crammed"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3568, `dh-ch34-001`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `dh-ch33-001`, `dh-ch31-001`, `dh-ch30-007`. dh-ch33-001 already records Great Hall triage and mourning, while dh-ch31-001 and dh-ch30-007 record evacuation and underage-student rules. This entry adds the deserted-castle contrast and Colin Creevey's underage return and death.
+  - Notes: Harry infers that Colin sneaked back; the chapter does not show Colin's route or who, if anyone, permitted his return.
 
 ### Chapter: The Chamber of Secrets Crisis
 
@@ -13793,6 +13842,30 @@ Summary: The available evidence includes 1 source item, led by: Harry suspects D
   - Corroborates: `dh-ch21-003`. dh-ch21-003 defines the Resurrection Stone as one Hallow; this entry records Harry's new inference that Dumbledore may have concealed it in the Snitch.
   - Notes: The Snitch does not open in this chapter, so the Stone placement remains a character inference here.
 
+#### Section: Snitch bequest opened at the close
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's Snitch bequest opens only when Harry declares that he is about to die, revealing the cracked Resurrection Stone with the Hallows symbol still discernible.
+
+- **Corroboration:** Dumbledore's Snitch bequest opens only when Harry declares that he is about to die, revealing the cracked Resurrection Stone with the Hallows symbol still discernible.
+  - Quote: "The metal shell broke open."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3571, `dh-ch34-004`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `dh-ch22-004`, `dh-ch21-003`, `dh-ch22-003`. dh-ch22-004 records Harry's earlier suspicion that the Stone is in the Snitch, dh-ch21-003 defines the Hallows, and dh-ch22-003 links Harry's Cloak to Hallow lore. This entry confirms the Snitch opening condition and the Stone's presence.
+  - Notes: The spellwork or enchantment that recognizes the opening phrase is not named.
+
+#### Section: Stone companions and Dementor resistance
+
+Summary: The available evidence includes 1 source item, led by: The Resurrection Stone produces dead companions who are more substantial than ghosts, invisible to others, and able to steady Harry through Dementors like Patronuses.
+
+- **Corroboration:** The Resurrection Stone produces dead companions who are more substantial than ghosts, invisible to others, and able to steady Harry through Dementors like Patronuses.
+  - Quote: "neither ghost nor truly flesh"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3573, `dh-ch34-005`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `dh-ch21-003`, `dh-ch32-004`, `ootp-ch02-005`. dh-ch21-003 defines the Stone as a Hallow, dh-ch32-004 records mass Patronus defense against Dementors, and ootp-ch02-005 explains Patronuses as anti-Dementor defense. This entry adds the Stone companions' observed ghostlike form and Patronus-like support.
+  - Notes: The protective effect is described through Harry's experience rather than tested as a formal charm.
+
 #### Section: Three artifacts and the master-of-Death claim
 
 Summary: The available evidence includes 1 source item, led by: Xenophilius defines the Hallows as the Elder Wand, Resurrection Stone, and Cloak of Invisibility, represented by the symbol's line, circle, and triangle.
@@ -15781,6 +15854,18 @@ Summary: The available evidence includes 1 source item, led by: The battle reach
   - Reference type: direct_observed_setting
   - Corroborates: `cos-ch15-005`. cos-ch15-005 establishes Aragog's Forbidden Forest colony; this entry records that colony's descendants entering the final battle and physically breaching the castle.
   - Notes: The passage identifies the spiders as Aragog's descendants but does not describe command structure or whether Death Eaters controlled them.
+
+#### Section: Aragog's clearing as Voldemort's battle camp
+
+Summary: The available evidence includes 1 source item, led by: Voldemort's force occupies Aragog's former Forest clearing, with acromantula descendants driven out to fight, giants stationed nearby, and Hagrid held prisoner.
+
+- **Corroboration:** Voldemort's force occupies Aragog's former Forest clearing, with acromantula descendants driven out to fight, giants stationed nearby, and Hagrid held prisoner.
+  - Quote: "the remnants of his vast web were there still"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, PDF p. 3575, `dh-ch34-006`, `sources/book-07/chapter-34-the-forest-again.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `cos-ch15-005`, `dh-ch32-001`, `dh-ch32-003`. cos-ch15-005 establishes Aragog's forest hollow, while dh-ch32-001 and dh-ch32-003 record acromantulas and giants entering the battle near the castle. This entry adds Voldemort's occupation of Aragog's old clearing and Hagrid's imprisonment there.
+  - Notes: The chapter does not explain exactly how Death Eaters drove out or commanded the acromantulas.
 
 #### Section: Grawp and giants at the castle entrance
 

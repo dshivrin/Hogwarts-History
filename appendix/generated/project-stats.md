@@ -8,12 +8,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 195
+- Total: 196
 
 ## Entries by Book
 
 - Harry Potter and the Chamber of Secrets: 115
-- Harry Potter and the Deathly Hallows: 224
+- Harry Potter and the Deathly Hallows: 231
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
 - Harry Potter and the Order of the Phoenix: 261
@@ -23,25 +23,25 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 489
-- later_editorial_note: 655
+- later_editorial_note: 662
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 5
 - pre_1984_historical_candidate: 136
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 98
+- cross_reference_candidate: 99
 - curriculum_or_subject: 154
-- direct_observed_setting: 59
+- direct_observed_setting: 61
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 101
-- historical_claim: 183
+- historical_claim: 184
 - house_system: 23
 - institutional_custom: 183
-- magical_architecture: 100
-- portrait_or_ghost_lore: 21
+- magical_architecture: 101
+- portrait_or_ghost_lore: 22
 - school_rule_or_policy: 134
-- security_or_protection: 228
+- security_or_protection: 229
 
 ## Explicit `Hogwarts: A History` References
 
@@ -49,12 +49,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 948
+- Total: 954
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince’s Tale, pages 3538-3565, `sources/book-07/chapter-33-the-prince-s-tale.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, pages 3566-3577, `sources/book-07/chapter-34-the-forest-again.yaml`
 
 ## Next Pending Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, pages 3566-3577, `sources/book-07/chapter-34-the-forest-again.yaml`
+- Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King’s Cross, pages 3578-3593, `sources/book-07/chapter-35-king-s-cross.yaml`

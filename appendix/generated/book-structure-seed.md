@@ -634,6 +634,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry Potter's arrival and Death Eater interpretations
 - Founder Relics, Horcruxes, and Dumbledore's Final Plan
   - Nagini signal and covert sword delivery
+  - Neville as contingency bearer of the Nagini mission
 - Grounds, Transport, and the Forbidden Forest
   - Thestrals beyond school-carriage service
 - Harry Potter Before Hogwarts
@@ -679,6 +680,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hagrid's Trusted Mission
 - Hogwarts Under the Carrows
   - Public support, arrests, and Taboo exposure
+- Hogwarts as Home and Historical Memory
+  - Abandoned boys and the school as formative home
 - House-Elves and Hogwarts
   - Clothing, Dismissal, and Servitude Norms
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
@@ -787,6 +790,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Privacy Instructions and Class Disruption After the Maze Crisis
 - The Battle of Hogwarts and Its Aftermath
   - Cease-fire, triage, and mourning in the Great Hall
+  - Great Hall mourning and underage casualties
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
 - The Deathly Hallows and the Horcrux War
@@ -1115,6 +1119,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Deathly Hallows
   - Potter Cloak provenance and Dumbledore's examination
   - Snitch bequest and suspected Stone concealment
+  - Snitch bequest opened at the close
+  - Stone companions and Dementor resistance
   - Three artifacts and the master-of-Death claim
   - Wandmaker evidence for the Elder Wand outside Hallows tradition
 - Wand Ownership and Compatibility
@@ -1402,6 +1408,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Unplottable Headquarters and Dumbledore as Secret-Keeper
 - Horcrux Defenses and Dark Protections
   - Nagini's floating protective sphere
+  - Nagini's protected cage at the Forest surrender
 - House Common-Room Security
   - Password Lists and Portrait-Hole Breaches
 - House Entrances and Castle Security
@@ -1970,6 +1977,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Magical Residents in Wartime
   - Acromantulas breaching the castle walls
+  - Aragog's clearing as Voldemort's battle camp
   - Grawp and giants at the castle entrance
 
 ## The Grounds and Forbidden Forest
