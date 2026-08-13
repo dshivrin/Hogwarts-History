@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-12'
+updated: '2026-08-13'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -19882,6 +19882,117 @@ by_entry:
     - severus-snape
     source_unit: dh-ch35
     output_yaml: sources/book-07/chapter-35-king-s-cross.yaml
+  dh-ch36-001:
+    title: 'The Battle of Hogwarts and Its Aftermath: Harry''s sacrificial protection
+      over the defenders'
+    classification: later_editorial_note
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - defenders
+    - great-hall
+    - harry-potter
+    - protective-magic
+    - sacrificial-protection
+    - voldemort
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  dh-ch36-002:
+    title: 'Sorting, House Identity, and Founder Memory: Wartime attempt to abolish
+      Sorting and Houses'
+    classification: later_editorial_note
+    reference_type: house_system
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - house-system
+    - neville-longbottom
+    - salazar-slytherin
+    - slytherin
+    - sorting
+    - sorting-hat
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  dh-ch36-003:
+    title: 'Founder Relics, Horcruxes, and Dumbledore''s Final Plan: Neville, the
+      Sorting Hat, and Nagini''s destruction'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - founder-relic
+    - horcrux
+    - nagini
+    - neville-longbottom
+    - sorting-hat
+    - sword-of-gryffindor
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  dh-ch36-004:
+    title: 'The Battle of Hogwarts and Its Aftermath: Reinforcements and magical residents
+      in the final counterattack'
+    classification: later_editorial_note
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - centaurs
+    - grawp
+    - hogsmeade
+    - house-elves
+    - kreacher
+    - thestrals
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  dh-ch36-005:
+    title: 'The Battle of Hogwarts and Its Aftermath: Great Hall reunions and suspension
+      of House seating'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - centaurs
+    - ghosts
+    - great-hall
+    - house-elves
+    - house-tables
+    - post-battle
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  dh-ch36-006:
+    title: 'Headmasters, Headmistresses, and Institutional Memory: Former-head portraits
+      after the Battle of Hogwarts'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - battle-of-hogwarts
+    - dumbledore-portrait
+    - headmaster-office
+    - headmaster-portraits
+    - institutional-memory
+    - phineas-nigellus-black
+    - slytherin-house
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  dh-ch36-007:
+    title: 'The Deathly Hallows: Harry''s disposition of the Hallows and wand repair'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deathly-hallows
+    - dumbledore-portrait
+    - elder-wand
+    - harry-wand
+    - invisibility-cloak
+    - wand-allegiance
+    - wand-repair
+    source_unit: dh-ch36
+    output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
 by_tag:
   a-history-of-magic:
   - dh-ch08-006
@@ -20417,6 +20528,12 @@ by_tag:
   - dh-ch34-001
   - dh-ch34-002
   - dh-ch34-006
+  - dh-ch36-001
+  - dh-ch36-002
+  - dh-ch36-003
+  - dh-ch36-004
+  - dh-ch36-005
+  - dh-ch36-006
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
@@ -20944,6 +21061,8 @@ by_tag:
   - ootp-ch27-003
   centaurs:
   - cos-ch15-003
+  - dh-ch36-004
+  - dh-ch36-005
   - hbp-ch04-004
   - hbp-ch15-005
   - hbp-ch20-002
@@ -21685,6 +21804,7 @@ by_tag:
   - dh-ch35-003
   - dh-ch35-005
   - dh-ch35-007
+  - dh-ch36-007
   deathly-hallows-symbol:
   - dh-ch16-007
   deathstick:
@@ -21704,6 +21824,8 @@ by_tag:
   - dh-ch03-002
   deep-vaults:
   - dh-ch26-004
+  defenders:
+  - dh-ch36-001
   defense-against-the-dark-arts:
   - cos-ch04-006
   - cos-ch06-006
@@ -22364,6 +22486,8 @@ by_tag:
   - dh-ch15-007
   - dh-ch33-002
   - dh-ch33-007
+  - dh-ch36-006
+  - dh-ch36-007
   dumbledore-protection:
   - hbp-ch16-002
   dumbledore-tomb:
@@ -22473,6 +22597,7 @@ by_tag:
   - dh-ch34-004
   - dh-ch35-006
   - dh-ch35-007
+  - dh-ch36-007
   electives:
   - cos-ch14-002
   - poa-ch04-004
@@ -23099,6 +23224,7 @@ by_tag:
   founder-relic:
   - dh-ch07-006
   - dh-ch19-004
+  - dh-ch36-003
   founder-relics:
   - dh-ch15-002
   - dh-ch15-006
@@ -23237,6 +23363,7 @@ by_tag:
   - cos-ch08-005
   - dh-ch17-001
   - dh-ch34-005
+  - dh-ch36-005
   - gof-ch25-004
   - hbp-ch08-003
   - hbp-ch21-006
@@ -23403,6 +23530,7 @@ by_tag:
   - dh-ch17-001
   grawp:
   - dh-ch32-003
+  - dh-ch36-004
   - hbp-ch08-007
   - hbp-ch30-004
   - ootp-ch30-006
@@ -23421,6 +23549,8 @@ by_tag:
   - dh-ch31-001
   - dh-ch33-001
   - dh-ch34-001
+  - dh-ch36-001
+  - dh-ch36-005
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -23860,6 +23990,7 @@ by_tag:
   - dh-ch22-001
   - dh-ch34-003
   - dh-ch35-001
+  - dh-ch36-001
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -23899,6 +24030,7 @@ by_tag:
   - dh-ch18-001
   - dh-ch24-005
   - dh-ch35-002
+  - dh-ch36-007
   hassan-mostafa:
   - gof-ch08-005
   haunted-places:
@@ -23986,6 +24118,7 @@ by_tag:
   - dh-ch15-006
   - dh-ch15-007
   - dh-ch33-002
+  - dh-ch36-006
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -24000,6 +24133,7 @@ by_tag:
   headmaster-portraits:
   - cos-ch12-001
   - cos-ch13-006
+  - dh-ch36-006
   - gof-ch30-001
   - hbp-ch10-003
   - hbp-ch17-003
@@ -24253,6 +24387,7 @@ by_tag:
   - dh-ch27-006
   - dh-ch28-001
   - dh-ch28-002
+  - dh-ch36-004
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
@@ -24588,6 +24723,7 @@ by_tag:
   - dh-ch33-007
   - dh-ch34-002
   - dh-ch34-007
+  - dh-ch36-003
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
@@ -24717,6 +24853,8 @@ by_tag:
   - cos-ch18-006
   - dh-ch23-005
   - dh-ch24-003
+  - dh-ch36-004
+  - dh-ch36-005
   - gof-ch08-002
   - gof-ch09-003
   - gof-ch12-004
@@ -24814,6 +24952,7 @@ by_tag:
   - cos-ch09-004
   - dh-ch23-001
   - dh-ch33-005
+  - dh-ch36-002
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -24828,6 +24967,7 @@ by_tag:
   - ps-ch07-002
   house-tables:
   - cos-ch06-001
+  - dh-ch36-005
   - gof-ch12-001
   - gof-ch16-001
   - gof-ch21-006
@@ -25001,6 +25141,7 @@ by_tag:
   - dh-ch07-003
   - dh-ch10-001
   - dh-ch15-007
+  - dh-ch36-006
   institutional-secrecy:
   - cos-ch13-005
   intelligence:
@@ -25082,6 +25223,7 @@ by_tag:
   - dh-ch27-006
   - dh-ch34-004
   - dh-ch35-004
+  - dh-ch36-007
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -25212,6 +25354,7 @@ by_tag:
   - dh-ch10-005
   - dh-ch10-007
   - dh-ch14-002
+  - dh-ch36-004
   - hbp-ch03-005
   - hbp-ch19-007
   - hbp-ch21-003
@@ -26620,6 +26763,7 @@ by_tag:
   - dh-ch33-007
   - dh-ch34-002
   - dh-ch34-007
+  - dh-ch36-003
   - gof-ch01-005
   named-book:
   - ps-ch11-002
@@ -26658,6 +26802,8 @@ by_tag:
   neville-longbottom:
   - dh-ch28-007
   - dh-ch34-002
+  - dh-ch36-002
+  - dh-ch36-003
   - hbp-ch07-004
   - ootp-ch21-006
   - ootp-ch25-005
@@ -27226,6 +27372,7 @@ by_tag:
   - dh-ch12-002
   - dh-ch15-007
   - dh-ch16-002
+  - dh-ch36-006
   phoenix:
   - cos-ch17-005
   - hbp-ch29-002
@@ -27384,6 +27531,8 @@ by_tag:
   - gof-ch33-002
   - ootp-ch36-006
   - ootp-ch37-002
+  post-battle:
+  - dh-ch36-005
   post-dumbledore:
   - hbp-ch30-007
   post-hogwarts-training:
@@ -27806,6 +27955,7 @@ by_tag:
   - dh-ch32-006
   - dh-ch34-007
   - dh-ch35-001
+  - dh-ch36-001
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -28277,6 +28427,7 @@ by_tag:
   - dh-ch21-002
   sacrificial-protection:
   - dh-ch35-001
+  - dh-ch36-001
   safe-house:
   - dh-ch03-004
   - dh-ch04-002
@@ -28299,6 +28450,7 @@ by_tag:
   - cos-ch11-004
   - cos-ch17-004
   - cos-ch17-006
+  - dh-ch36-002
   - hbp-ch10-006
   - hbp-ch20-005
   - ootp-ch11-003
@@ -29029,6 +29181,7 @@ by_tag:
   - dh-ch10-002
   - dh-ch10-004
   - dh-ch33-005
+  - dh-ch36-002
   - gof-ch15-004
   - hbp-ch04-005
   - hbp-ch19-003
@@ -29057,6 +29210,7 @@ by_tag:
   - gof-ch01-005
   slytherin-house:
   - cos-ch11-004
+  - dh-ch36-006
   - hbp-ch17-004
   slytherin-line:
   - hbp-ch17-006
@@ -29148,6 +29302,8 @@ by_tag:
   sorcerers-stone:
   - gof-ch33-002
   - ps-ch15-007
+  sorting:
+  - dh-ch36-002
   sorting-ceremony:
   - cos-ch05-004
   - gof-ch12-003
@@ -29164,6 +29320,8 @@ by_tag:
   - dh-ch07-006
   - dh-ch12-002
   - dh-ch33-005
+  - dh-ch36-002
+  - dh-ch36-003
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -29874,6 +30032,7 @@ by_tag:
   - dh-ch26-005
   - dh-ch26-007
   - dh-ch33-007
+  - dh-ch36-003
   sybill-trelawney:
   - hbp-ch15-005
   - hbp-ch20-002
@@ -30020,6 +30179,7 @@ by_tag:
   - ootp-ch31-003
   thestrals:
   - dh-ch04-004
+  - dh-ch36-004
   - ootp-ch10-007
   - ootp-ch11-001
   - ootp-ch14-002
@@ -30563,6 +30723,7 @@ by_tag:
   - dh-ch34-007
   - dh-ch35-001
   - dh-ch35-002
+  - dh-ch36-001
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -30647,6 +30808,7 @@ by_tag:
   - poa-ch01-002
   wand-allegiance:
   - dh-ch24-005
+  - dh-ch36-007
   wand-anomaly:
   - dh-ch18-001
   - dh-ch35-002
@@ -30687,6 +30849,8 @@ by_tag:
   wand-registration:
   - ootp-ch07-002
   - ootp-ch34-002
+  wand-repair:
+  - dh-ch36-007
   wand-rights:
   - dh-ch24-003
   wand-sanctions:

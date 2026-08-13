@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-12'
+updated: '2026-08-13'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2366,3 +2366,15 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3578-3593.
+- source_unit_id: dh-ch36
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter_number: 36
+  chapter_title: Chapter Thirty-Six - The Flaw in the Plan
+  page_start: 3594
+  page_end: 3615
+  output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  processed_at: '2026-08-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 3594-3615.

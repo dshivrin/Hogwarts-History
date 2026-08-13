@@ -1163,6 +1163,20 @@ Summary: The available evidence includes 1 source item, led by: Slughorn states 
   - Reference type: house_system
   - Notes: Slughorn's comments are anecdotal and colored by his collector-like view of talented students.
 
+### Chapter: Sorting, House Identity, and Founder Memory
+
+#### Section: Wartime attempt to abolish Sorting and Houses
+
+Summary: The available evidence includes 1 source item, led by: Voldemort attempts to abolish the Sorting and the four-House system, declaring that Slytherin's emblem, shield, and colors will replace them for everyone.
+
+- **Corroboration:** Voldemort attempts to abolish the Sorting and the four-House system, declaring that Slytherin's emblem, shield, and colors will replace them for everyone.
+  - Quote: "There will be no more Sorting at Hogwarts School"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3600, `dh-ch36-002`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `cos-ch05-004`, `hbp-ch08-003`, `dh-ch33-005`. cos-ch05-004 and hbp-ch08-003 establish ordinary Sorting and House-feast structure, while dh-ch33-005 records pre-1984 House expectations. This entry adds Voldemort's explicit wartime attempt to abolish the system.
+  - Notes: The declaration is made by an enemy combatant during a failed occupation and never becomes a durable school policy.
+
 ## Part: Ceremonies and School Traditions
 
 ### Chapter: The Hogwarts Express and School Travel
@@ -5224,6 +5238,20 @@ Summary: The available evidence includes 1 source item, led by: The headmaster's
   - Reference type: direct_observed_setting
   - Corroborates: `hbp-ch05-005`, `hbp-ch09-004`. hbp-ch05-005 anticipates the private lessons, and hbp-ch09-004 records the written appointment; this entry adds the first lesson's setting and stated informational purpose.
   - Notes: The lesson structure is exceptional to Harry and the Second War, not evidence of ordinary curriculum.
+
+### Chapter: Headmasters, Headmistresses, and Institutional Memory
+
+#### Section: Former-head portraits after the Battle of Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The damaged headmaster's office remains accessible by gargoyle and moving staircase, and the portraits of former heads react collectively to the battle's end, including Phineas Nigellus preserving Slytherin's role.
+
+- **Corroboration:** The damaged headmaster's office remains accessible by gargoyle and moving staircase, and the portraits of former heads react collectively to the battle's end, including Phineas Nigellus preserving Slytherin's role.
+  - Quote: "the headmasters and headmistresses of Hogwarts"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3613, `dh-ch36-006`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `hbp-ch29-005`, `cos-ch12-001`, `dh-ch15-007`. hbp-ch29-005 records Dumbledore's portrait joining the office tradition, cos-ch12-001 records the office portrait setting, and dh-ch15-007 records linked portrait communication limits. This entry adds the post-battle collective ovation and Phineas's Slytherin claim.
+  - Notes: The scene shows portrait behavior after the battle but does not explain the deeper mechanics of portrait memory or authority.
 
 ### Chapter: Hogwarts House-Elves
 
@@ -10570,6 +10598,42 @@ Summary: The available evidence includes 1 source item, led by: During the cease
   - Corroborates: `dh-ch33-001`, `dh-ch31-001`, `dh-ch30-007`. dh-ch33-001 already records Great Hall triage and mourning, while dh-ch31-001 and dh-ch30-007 record evacuation and underage-student rules. This entry adds the deserted-castle contrast and Colin Creevey's underage return and death.
   - Notes: Harry infers that Colin sneaked back; the chapter does not show Colin's route or who, if anyone, permitted his return.
 
+#### Section: Great Hall reunions and suspension of House seating
+
+Summary: The available evidence includes 1 source item, led by: McGonagall restores the House tables after the battle, but the Great Hall fills with a mixed postwar community of teachers, pupils, ghosts, parents, centaurs, house-elves, Firenze, and Grawp.
+
+- **Corroboration:** McGonagall restores the House tables after the battle, but the Great Hall fills with a mixed postwar community of teachers, pupils, ghosts, parents, centaurs, house-elves, Firenze, and Grawp.
+  - Quote: "nobody was sitting according to House anymore"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3611, `dh-ch36-005`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `dh-ch33-001`, `dh-ch34-001`, `gof-ch21-006`. dh-ch33-001 and dh-ch34-001 record Great Hall triage and mourning before the final duel, while gof-ch21-006 records ordinary House-table alignment with the kitchens. This entry adds the post-victory restoration of tables without House-based seating.
+  - Notes: The scene captures the immediate aftermath and does not establish a lasting change to House seating customs.
+
+#### Section: Harry's sacrificial protection over the defenders
+
+Summary: The available evidence includes 1 source item, led by: Harry states that his intended self-sacrifice has replicated Lily Potter's protective magic for the people fighting at Hogwarts, weakening Voldemort's ability to bind, torture, or harm them.
+
+- **Corroboration:** Harry states that his intended self-sacrifice has replicated Lily Potter's protective magic for the people fighting at Hogwarts, weakening Voldemort's ability to bind, torture, or harm them.
+  - Quote: "They're protected from you."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3606, `dh-ch36-001`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `dh-ch35-001`, `dh-ch03-001`, `ootp-ch37-005`. dh-ch35-001 records Dumbledore's explanation of Harry's survival and Lily's blood protection; dh-ch03-001 and ootp-ch37-005 record earlier blood-ward evidence. This entry adds Harry's explicit claim that his own intended sacrifice protects the Hogwarts defenders.
+  - Notes: The protection is explained by Harry in the duel rather than tested in a controlled magical setting, though he cites observed failures in Voldemort's spells.
+
+#### Section: Reinforcements and magical residents in the final counterattack
+
+Summary: The available evidence includes 1 source item, led by: The final counterattack draws in Hogwarts defenders, families, Hogsmeade residents, centaurs, Grawp, thestrals, Buckbeak, and Hogwarts house-elves from the kitchens, with Kreacher leading the elves into combat.
+
+- **Corroboration:** The final counterattack draws in Hogwarts defenders, families, Hogsmeade residents, centaurs, Grawp, thestrals, Buckbeak, and Hogwarts house-elves from the kitchens, with Kreacher leading the elves into combat.
+  - Quote: "The house-elves of Hogwarts swarmed into the entrance hall"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3602, `dh-ch36-004`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: direct_observed_setting
+  - Corroborates: `dh-ch32-003`, `gof-ch21-006`, `hbp-ch03-005`. dh-ch32-003 records Grawp and giants near the castle, gof-ch21-006 records the kitchens and their house-elves, and hbp-ch03-005 records Kreacher's reassignment to Hogwarts kitchens. This entry adds their collective participation in the final counterattack.
+  - Notes: The passage names many groups at once and does not enumerate every individual who entered the final battle.
+
 ### Chapter: The Chamber of Secrets Crisis
 
 #### Section: Early Warnings Before Term
@@ -13870,6 +13934,20 @@ Summary: The available evidence includes 1 source item, led by: The two-way mirr
   - Corroborates: `dh-ch23-005`. dh-ch23-005 records Dobby's Malfoy Manor rescue; this entry explains Aberforth's mirror-based monitoring and how Dobby was sent.
   - Notes: The chapter does not give a technical rule for how the mirror selects or alerts its paired user.
 
+### Chapter: Founder Relics, Horcruxes, and Dumbledore's Final Plan
+
+#### Section: Neville, the Sorting Hat, and Nagini's destruction
+
+Summary: The available evidence includes 1 source item, led by: Neville draws the Sword of Gryffindor from the Sorting Hat under battle conditions and uses it to kill Nagini, completing the destruction of Voldemort's last external Horcrux.
+
+- **Corroboration:** Neville draws the Sword of Gryffindor from the Sorting Hat under battle conditions and uses it to kill Nagini, completing the destruction of Voldemort's last external Horcrux.
+  - Quote: "he drew from its depths something silver"
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3601, `dh-ch36-003`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch34-002`, `cos-ch17-005`, `dh-ch07-006`. dh-ch34-002 records Harry's transfer of the Nagini mission to Neville; cos-ch17-005 and dh-ch07-006 record the sword's earlier appearance from the Hat and the worthy-Gryffindor tradition. This entry adds Neville's execution of that mission.
+  - Notes: The passage shows the sword's appearance and result, but does not directly restate the magical rule by which the Hat produces it.
+
 ### Chapter: The Deathly Hallows
 
 #### Section: Dumbledore's testimony on Hallows temptation
@@ -13883,6 +13961,18 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore confi
   - Reference type: historical_claim
   - Corroborates: `dh-ch21-003`, `dh-ch22-001`. dh-ch21-003 defines the Hallows triad and master-of-Death claim, while dh-ch22-001 records Harry's Hallows-versus-Horcruxes interpretation. This entry adds Dumbledore's direct confirmation and confession.
   - Notes: The passage confirms the broad reality and danger of the Hallows but does not restate the full artifact taxonomy in this scene.
+
+#### Section: Harry's disposition of the Hallows and wand repair
+
+Summary: The available evidence includes 1 source item, led by: Harry keeps the inherited Cloak, uses the Elder Wand to repair his holly-and-phoenix wand, and plans to return the Elder Wand so its power can die with an undefeated natural death.
+
+- **Corroboration:** Harry keeps the inherited Cloak, uses the Elder Wand to repair his holly-and-phoenix wand, and plans to return the Elder Wand so its power can die with an undefeated natural death.
+  - Quote: "I'm putting the Elder Wand back where it came from."
+  - Source: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, PDF p. 3614, `dh-ch36-007`, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch24-005`, `dh-ch24-007`, `dh-ch32-007`. dh-ch24-005 records Ollivander's ordinary repair-limit and allegiance testimony, dh-ch24-007 records the theft from Dumbledore's tomb, and dh-ch32-007 records Voldemort's mistaken mastery theory. This entry adds the successful repair and Harry's plan to return the wand.
+  - Notes: The chapter states Harry's intention to return the Elder Wand, but the source unit itself does not narrate the return to Dumbledore's tomb.
 
 #### Section: Peverell creators, Cloak lineage, and Hogwarts misuse
 

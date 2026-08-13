@@ -435,6 +435,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Portrait messages and supervision beyond Hogwarts
 - Headmaster's Office and Protected Entrances
   - Office fixtures during private wartime instruction
+- Headmasters, Headmistresses, and Institutional Memory
+  - Former-head portraits after the Battle of Hogwarts
 - Hogwarts House-Elves
   - House-elf warning under High Inquisitor pressure
 - House-Elves and Hidden Labor
@@ -797,6 +799,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Battle of Hogwarts and Its Aftermath
   - Cease-fire, triage, and mourning in the Great Hall
   - Great Hall mourning and underage casualties
+  - Great Hall reunions and suspension of House seating
+  - Harry's sacrificial protection over the defenders
+  - Reinforcements and magical residents in the final counterattack
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
 - The Deathly Hallows and the Horcrux War
@@ -1122,8 +1127,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - True Invisibility Cloaks versus lesser concealment cloaks
 - Communication Artifacts and Wartime Rescue
   - Sirius Black's mirror in Aberforth's keeping
+- Founder Relics, Horcruxes, and Dumbledore's Final Plan
+  - Neville, the Sorting Hat, and Nagini's destruction
 - The Deathly Hallows
   - Dumbledore's testimony on Hallows temptation
+  - Harry's disposition of the Hallows and wand repair
   - Peverell creators, Cloak lineage, and Hogwarts misuse
   - Potter Cloak provenance and Dumbledore's examination
   - Snitch bequest and suspected Stone concealment
@@ -1982,6 +1990,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Serpent Symbolism and Parseltongue Lore
 - Sorting, Families, and Exceptions
   - Family patterns and Sirius Black's exception
+- Sorting, House Identity, and Founder Memory
+  - Wartime attempt to abolish Sorting and Houses
 
 ## The Grounds and Edge of the Forest
 

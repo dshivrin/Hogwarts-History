@@ -203,3 +203,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch33`: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, pages 3538-3565, 7 entries, 0 explicit references.
 - `dh-ch34`: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, pages 3566-3577, 7 entries, 0 explicit references.
 - `dh-ch35`: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, pages 3578-3593, 7 entries, 0 explicit references.
+- `dh-ch36`: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, pages 3594-3615, 7 entries, 0 explicit references.
