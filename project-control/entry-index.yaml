@@ -21897,6 +21897,163 @@ by_entry:
     - privacy
     source_unit: A17
     output_yaml: sources/external/official-rowling/a17-pensieve.yaml
+  ext-a18-001:
+    title: 'Education and Curriculum: First-year compulsory subjects'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - core-subjects
+    - curriculum
+    - first-year-subjects
+    - flying
+    - hogwarts
+    source_unit: A18
+    output_yaml: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+  ext-a18-002:
+    title: 'Education and Curriculum: Third-year subject selection'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - arithmancy
+    - course-selection
+    - curriculum
+    - electives
+    - muggle-studies
+    - third-year-subjects
+    source_unit: A18
+    output_yaml: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+  ext-a18-003:
+    title: 'Education and Curriculum: Advanced and demand-led subjects'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - advanced-subjects
+    - alchemy
+    - curriculum
+    - seventh-year
+    - sixth-year
+    source_unit: A18
+    output_yaml: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+  ext-a18-004:
+    title: 'Authorial development notes: Subject-list variants'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: high
+    tags:
+    - authorial-note
+    - curriculum
+    - development-notes
+    - early-notes
+    - hogwarts
+    source_unit: A18
+    output_yaml: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+  ext-a19-001:
+    title: 'The School and Its Connections: The Hogwarts Express and Hogsmeade Station'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hogsmeade
+    - hogwarts-express
+    - institutional-history
+    - magical-transport
+    - school-travel
+    source_unit: A19
+    output_yaml: sources/external/official-rowling/a19-king-s-cross-station.yaml
+  ext-a19-002:
+    title: 'The School and Its Connections: The Concealed King''s Cross Platform'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - concealed-platform
+    - hogwarts-express
+    - kings-cross
+    - muggle-secrecy
+    - platform-nine-and-three-quarters
+    source_unit: A19
+    output_yaml: sources/external/official-rowling/a19-king-s-cross-station.yaml
+  ext-a19-003:
+    title: 'The School and Its Connections: Secrecy at Term-Time Travel'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - ministry-of-magic
+    - muggle-memory-modification
+    - muggle-secrecy
+    - security-protection
+    - term-travel
+    source_unit: A19
+    output_yaml: sources/external/official-rowling/a19-king-s-cross-station.yaml
+  ext-a20-001:
+    title: 'Hogwarts Customs and Ceremonies: Sorting and House Assignment'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hatstall
+    - hogwarts
+    - institutional-history
+    - sorting
+    - sorting-hat
+    source_unit: A20
+    output_yaml: sources/external/official-rowling/a20-hatstall.yaml
+  ext-a20-002:
+    title: 'The Four Houses: Sorting Decisions and House Identity'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gryffindor
+    - hermione-granger
+    - ravenclaw
+    - sorting
+    - sorting-hat
+    source_unit: A20
+    output_yaml: sources/external/official-rowling/a20-hatstall.yaml
+  ext-a20-003:
+    title: 'The Four Houses: Sorting Decisions and House Identity'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gryffindor
+    - hufflepuff
+    - neville-longbottom
+    - sorting
+    - sorting-hat
+    source_unit: A20
+    output_yaml: sources/external/official-rowling/a20-hatstall.yaml
+  ext-a20-004:
+    title: "Notable Alumni and Staff: Minerva McGonagall\u2019s School Years"
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gryffindor
+    - hatstall
+    - minerva-mcgonagall
+    - ravenclaw
+    - sorting
+    source_unit: A20
+    output_yaml: sources/external/official-rowling/a20-hatstall.yaml
+  ext-a20-005:
+    title: "Notable Alumni and Staff: Peter Pettigrew\u2019s School Years"
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gryffindor
+    - hatstall
+    - peter-pettigrew
+    - slytherin
+    - sorting
+    source_unit: A20
+    output_yaml: sources/external/official-rowling/a20-hatstall.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -22020,6 +22177,8 @@ by_tag:
   - hbp-ch24-002
   advanced-potions:
   - cos-ch12-004
+  advanced-subjects:
+  - ext-a18-003
   after-hours-rule:
   - hbp-ch08-006
   afterlife:
@@ -22077,6 +22236,7 @@ by_tag:
   - qtta-fm-004
   alchemy:
   - dh-ch18-003
+  - ext-a18-003
   - ps-ch13-001
   alice-longbottom:
   - ootp-ch23-007
@@ -22257,6 +22417,7 @@ by_tag:
   - dh-ch29-001
   - dh-ch35-005
   arithmancy:
+  - ext-a18-002
   - gof-ch13-001
   - gof-ch13-004
   - gof-ch21-005
@@ -22357,6 +22518,8 @@ by_tag:
   - hbp-ch30-006
   - ootp-ch23-007
   - ootp-ch36-007
+  authorial-note:
+  - ext-a18-004
   authorial-notes:
   - ext-a15-001
   - ext-a15-002
@@ -23416,6 +23579,8 @@ by_tag:
   - hbp-ch26-002
   - hbp-ch26-003
   - ootp-ch22-004
+  concealed-platform:
+  - ext-a19-002
   concealed-route:
   - poa-ch20-001
   concealed-staircase:
@@ -23448,6 +23613,8 @@ by_tag:
   - hbp-ch25-006
   continuity-planning:
   - ext-a15-002
+  core-subjects:
+  - ext-a18-001
   cormac-mclaggen:
   - hbp-ch11-003
   - hbp-ch11-006
@@ -23529,6 +23696,7 @@ by_tag:
   - poa-ch06-001
   course-selection:
   - cos-ch14-002
+  - ext-a18-002
   - hbp-ch11-004
   - ootp-ch12-002
   court-scribe:
@@ -23645,6 +23813,10 @@ by_tag:
   - dh-ch28-002
   - ps-ch09-005
   curriculum:
+  - ext-a18-001
+  - ext-a18-002
+  - ext-a18-003
+  - ext-a18-004
   - gof-ch12-006
   - gof-ch14-001
   - gof-ch15-002
@@ -24142,6 +24314,8 @@ by_tag:
   - ps-ch15-004
   detentions:
   - ootp-ch38-005
+  development-notes:
+  - ext-a18-004
   devil's-snare:
   - ps-ch16-005
   devil-snare:
@@ -24672,6 +24846,8 @@ by_tag:
   - dh-ch30-001
   early-magic:
   - hbp-ch13-007
+  early-notes:
+  - ext-a18-004
   easter-holidays:
   - ootp-ch29-001
   - poa-ch03-004
@@ -24715,6 +24891,7 @@ by_tag:
   - dh-ch36-007
   electives:
   - cos-ch14-002
+  - ext-a18-002
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -25215,6 +25392,8 @@ by_tag:
   - ps-ch09-003
   first-year-spellwork:
   - ps-ch10-001
+  first-year-subjects:
+  - ext-a18-001
   first-years:
   - gof-ch11-006
   - gof-ch12-003
@@ -25279,6 +25458,7 @@ by_tag:
   - ps-ch16-003
   - ps-ch16-005
   flying:
+  - ext-a18-001
   - ps-ch09-001
   flying-broomsticks:
   - qtta-ch01-001
@@ -25954,6 +26134,10 @@ by_tag:
   - ext-a08-002
   - ext-a08-004
   - ext-a10-002
+  - ext-a20-002
+  - ext-a20-003
+  - ext-a20-004
+  - ext-a20-005
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -26265,6 +26449,9 @@ by_tag:
   - gof-ch08-005
   hatstall:
   - ext-a12-001
+  - ext-a20-001
+  - ext-a20-004
+  - ext-a20-005
   haunted:
   - ext-a06-001
   haunted-places:
@@ -26496,6 +26683,7 @@ by_tag:
   - dh-ch25-003
   - dh-ch31-005
   - dh-ch35-007
+  - ext-a20-002
   - gof-ch08-003
   - gof-ch09-002
   - hbp-ch04-001
@@ -26650,6 +26838,7 @@ by_tag:
   - ext-a10-001
   - ext-a12-005
   - ext-a12-006
+  - ext-a19-001
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
@@ -26732,6 +26921,9 @@ by_tag:
   - ext-a17-001
   - ext-a17-002
   - ext-a17-003
+  - ext-a18-001
+  - ext-a18-004
+  - ext-a20-001
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -26792,6 +26984,8 @@ by_tag:
   - dh-ch33-004
   - ext-a04-004
   - ext-a04-005
+  - ext-a19-001
+  - ext-a19-002
   - gof-ch03-003
   - gof-ch11-002
   - hbp-ch07-001
@@ -27322,6 +27516,7 @@ by_tag:
   - ext-a07-003
   - ext-a07-004
   - ext-a07-005
+  - ext-a20-003
   - gof-ch06-004
   - gof-ch15-004
   - gof-ch18-002
@@ -27464,6 +27659,8 @@ by_tag:
   - ps-ch07-002
   institutional-history:
   - ext-a14-002
+  - ext-a19-001
+  - ext-a20-001
   - hbp-ch29-006
   - ootp-ch22-006
   institutional-memory:
@@ -27682,6 +27879,7 @@ by_tag:
   kings-cross:
   - cos-ch04-001
   - cos-ch05-001
+  - ext-a19-002
   - gof-ch11-002
   - hbp-ch07-001
   - ootp-ch10-001
@@ -28438,6 +28636,7 @@ by_tag:
   - ext-a04-002
   - ext-a04-003
   - ext-a09-007
+  - ext-a19-001
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -28701,6 +28900,7 @@ by_tag:
   - ext-a12-004
   - ext-a12-005
   - ext-a12-006
+  - ext-a20-004
   minister-of-magic:
   - cos-ch04-005
   - dh-ch35-006
@@ -28804,6 +29004,7 @@ by_tag:
   - dh-ch33-003
   - ext-a04-004
   - ext-a04-005
+  - ext-a19-003
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -29091,6 +29292,8 @@ by_tag:
   - ootp-ch02-004
   muggle-liaison:
   - hbp-ch01-003
+  muggle-memory-modification:
+  - ext-a19-003
   muggle-newspapers:
   - gof-ch30-007
   muggle-persecution:
@@ -29133,6 +29336,8 @@ by_tag:
   - dh-ch09-004
   - ext-a04-002
   - ext-a04-004
+  - ext-a19-002
+  - ext-a19-003
   - gof-ch01-002
   - gof-ch02-003
   - gof-ch03-002
@@ -29159,6 +29364,7 @@ by_tag:
   - dh-ch06-003
   - dh-ch12-001
   - dh-ch29-002
+  - ext-a18-002
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -29252,6 +29458,7 @@ by_tag:
   - dh-ch36-002
   - dh-ch36-003
   - ext-a03-005
+  - ext-a20-003
   - hbp-ch07-004
   - ootp-ch21-006
   - ootp-ch25-005
@@ -29812,6 +30019,7 @@ by_tag:
   personal-bequest:
   - dh-ch07-004
   peter-pettigrew:
+  - ext-a20-005
   - poa-ch10-006
   - poa-ch17-005
   - poa-ch18-005
@@ -29917,6 +30125,7 @@ by_tag:
   platform-nine-and-three-quarters:
   - cos-ch05-001
   - dh-ch33-004
+  - ext-a19-002
   - gof-ch11-002
   - hbp-ch07-001
   - ootp-ch10-001
@@ -30803,6 +31012,8 @@ by_tag:
   - dh-ch29-006
   - dh-ch29-007
   - dh-ch30-001
+  - ext-a20-002
+  - ext-a20-004
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -31406,6 +31617,7 @@ by_tag:
   - ext-a04-003
   - ext-a04-004
   - ext-a04-005
+  - ext-a19-001
   - gof-ch11-002
   - gof-ch11-006
   - ootp-ch10-001
@@ -31626,6 +31838,8 @@ by_tag:
   - poa-ch22-001
   security-or-protection:
   - ext-a14-004
+  security-protection:
+  - ext-a19-003
   security-risk:
   - ootp-ch33-002
   security-threat:
@@ -31679,6 +31893,7 @@ by_tag:
   - hbp-ch25-003
   - ootp-ch18-006
   seventh-year:
+  - ext-a18-003
   - ootp-ch29-001
   - ootp-ch31-001
   severus-snape:
@@ -31824,6 +32039,7 @@ by_tag:
   sites-of-historical-sorcery:
   - poa-ch05-002
   sixth-year:
+  - ext-a18-003
   - gof-ch14-002
   - hbp-ch06-001
   - hbp-ch11-001
@@ -31877,6 +32093,7 @@ by_tag:
   - dh-ch33-005
   - dh-ch36-002
   - ext-a06-002
+  - ext-a20-005
   - gof-ch15-004
   - hbp-ch04-005
   - hbp-ch19-003
@@ -32002,6 +32219,11 @@ by_tag:
   sorting:
   - dh-ch36-002
   - ext-a12-001
+  - ext-a20-001
+  - ext-a20-002
+  - ext-a20-003
+  - ext-a20-004
+  - ext-a20-005
   sorting-ceremony:
   - cos-ch05-004
   - gof-ch12-003
@@ -32027,6 +32249,9 @@ by_tag:
   - ext-a02-001
   - ext-a02-002
   - ext-a02-003
+  - ext-a20-001
+  - ext-a20-002
+  - ext-a20-003
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -32951,6 +33176,8 @@ by_tag:
   - gof-ch10-007
   term-start:
   - ootp-ch09-004
+  term-travel:
+  - ext-a19-003
   territorial-authority:
   - ootp-ch30-007
   testimony:
@@ -33003,6 +33230,7 @@ by_tag:
   - poa-ch13-005
   third-year-subjects:
   - cos-ch14-002
+  - ext-a18-002
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch07-003

@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A18
-  title: Hogwarts School Subjects
+  id: A21
+  title: Toads
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
-  output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
-  staging_file: work/external-staging/a18.yaml
-  manifest_id: external-A18
+  input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
+  output_file: sources/external/official-rowling/a21-toads.yaml
+  staging_file: work/external-staging/a21.yaml
+  manifest_id: external-A21
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 46
+    pending: 43
     in_progress: 0
-    done: 17
+    done: 20
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A18
-    title: Hogwarts School Subjects
+    id: A21
+    title: Toads
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
-    output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
-    staging_file: work/external-staging/a18.yaml
-    manifest_id: external-A18
+    input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
+    output_file: sources/external/official-rowling/a21-toads.yaml
+    staging_file: work/external-staging/a21.yaml
+    manifest_id: external-A21
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A17
-    title: Pensieve
+    id: A20
+    title: Hatstall
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
-    output_file: sources/external/official-rowling/a17-pensieve.yaml
-    staging_file: work/external-staging/a17.yaml
-    manifest_id: external-A17
+    input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    output_file: sources/external/official-rowling/a20-hatstall.yaml
+    staging_file: work/external-staging/a20.yaml
+    manifest_id: external-A20
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A17
-  title: Pensieve
+  id: A20
+  title: Hatstall
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
-  output_file: sources/external/official-rowling/a17-pensieve.yaml
-  staging_file: work/external-staging/a17.yaml
-  manifest_id: external-A17
+  input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+  output_file: sources/external/official-rowling/a20-hatstall.yaml
+  staging_file: work/external-staging/a20.yaml
+  manifest_id: external-A20
   claimed_by: null
   claimed_at: null

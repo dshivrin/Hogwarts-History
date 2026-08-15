@@ -1337,16 +1337,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
     manifest_id: external-A18
     output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:13:34Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:07:50Z'
+      agent: source-agent-a18
+    - event: completed
+      at: '2026-08-15T15:13:34Z'
     staging_file: work/external-staging/a18.yaml
   - id: A19
     title: King’s Cross Station
@@ -1356,16 +1361,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
     manifest_id: external-A19
     output_file: sources/external/official-rowling/a19-king-s-cross-station.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:15:36Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:07:52Z'
+      agent: source-agent-a19
+    - event: completed
+      at: '2026-08-15T15:15:36Z'
     staging_file: work/external-staging/a19.yaml
   - id: A20
     title: Hatstall
@@ -1375,16 +1385,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
     manifest_id: external-A20
     output_file: sources/external/official-rowling/a20-hatstall.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:17:30Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:07:53Z'
+      agent: source-agent-a20
+    - event: completed
+      at: '2026-08-15T15:17:30Z'
     staging_file: work/external-staging/a20.yaml
   - id: A21
     title: Toads

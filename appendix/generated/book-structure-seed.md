@@ -205,6 +205,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Material Support for New Students
   - Financial aid, supplies, and travel
 
+## Appendix: Editorial and Source Notes
+
+- Authorial development notes
+  - Subject-list variants
+
 ## Appendix: Explicit References to Hogwarts: A History
 
 - Chamber of Secrets References
@@ -1358,6 +1363,18 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Named Histories And School-Age Reference Books
   - A History of Magic as a portable reference tradition
 
+## Part I: Foundations and Traditions
+
+- Hogwarts Customs and Ceremonies
+  - Sorting and House Assignment
+
+## Part I: Hogwarts and Its Setting
+
+- The School and Its Connections
+  - Secrecy at Term-Time Travel
+  - The Concealed King's Cross Platform
+  - The Hogwarts Express and Hogsmeade Station
+
 ## Part I: The Castle and Its Grounds
 
 - The Grounds and the Great Lake
@@ -1403,6 +1420,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Statute of Secrecy and School Access
   - The Uncertain Acquisition of the Hogwarts Express
 
+## Part II: Institutional History
+
+- Notable Alumni and Staff
+  - Minerva McGonagall’s School Years
+  - Peter Pettigrew’s School Years
+
 ## Part II: The Castle and Its Living Systems
 
 - Portraits, Ghosts, and the School's Memory
@@ -1413,6 +1436,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part II: The School
 
+- Education and Curriculum
+  - Advanced and demand-led subjects
+  - First-year compulsory subjects
+  - Third-year subject selection
 - Houses and Student Leadership
   - Gryffindor prefects
 - Staff and Teaching
@@ -1466,6 +1493,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - History of Magic and Historical Instruction
   - Professor Binns as a ghost teacher
+
+## Part III: Student Life
+
+- The Four Houses
+  - Sorting Decisions and House Identity
 
 ## Part IV - Architecture, Concealment, and Protective Magic
 

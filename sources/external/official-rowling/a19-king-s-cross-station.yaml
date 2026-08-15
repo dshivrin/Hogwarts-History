@@ -1,0 +1,203 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A19
+  source_file: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
+  title: King’s Cross Station
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station
+  capture_completeness: complete
+  content_sha256: ccf84ce776d61c3ba740a210d95f09475411b8abe7c84e5805689d7fddc08fb4
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a19-001
+    source_file: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
+    source_id: A19
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station
+    source_section: King’s Cross Station
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: When Ottaline Gambol commandeered a Muggle train
+      end_phrase: a necessary adjunct to the train.
+      local_occurrence_note: Opening paragraph, first and final clauses.
+    nearby_context: The article explains why a Hogsmeade station accompanied the Hogwarts students' train.
+    match_terms:
+      - Ottaline Gambol
+      - Hogsmeade station
+      - Hogwarts train
+    quote_excerpt_short: Ottaline Gambol commandeered a Muggle train to serve as the new mode of transport for Hogwarts students
+    source_note: Ottaline Gambol established the Hogwarts students' train service and had a small station built in Hogsmeade as its necessary companion.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts-express
+      - hogsmeade
+      - institutional-history
+      - magical-transport
+      - school-travel
+    candidate_part: 'Part I: Hogwarts and Its Setting'
+    candidate_chapter: The School and Its Connections
+    candidate_section: The Hogwarts Express and Hogsmeade Station
+    reason_for_placement: Establishes the historical transport link between Hogwarts, Hogsmeade, and the student train.
+    relevance_to_hogwarts_a_history: Supports a pre-Harry-era account of how the school's principal rail connection acquired its Hogsmeade terminus.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed travel entries corroborate later use of the train or Hogsmeade but not this origin account.
+      audit:
+        query_tags:
+          - hogsmeade
+          - hogwarts-express
+        candidates:
+          - id: poa-ch01-005
+            disposition: corroborating
+          - id: cos-ch04-001
+            disposition: corroborating
+          - id: cos-ch05-001
+            disposition: distinct
+          - id: cos-ch05-002
+            disposition: corroborating
+          - id: cos-ch12-002
+            disposition: corroborating
+          - id: cos-ch16-005
+            disposition: distinct
+          - id: cos-ch18-007
+            disposition: distinct
+          - id: dh-ch25-007
+            disposition: distinct
+          - id: dh-ch27-006
+            disposition: distinct
+          - id: dh-ch28-001
+            disposition: distinct
+    confidence: high
+    limitations: An official retrospective identifies the transport origin but supplies no date for Gambol's decision or the Hogsmeade station's construction.
+
+  - id: ext-a19-002
+    source_file: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
+    source_id: A19
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station
+    source_section: King’s Cross Station
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It was Evangeline Orpington, Minister from 1849-1855,
+      end_phrase: accessible only to witches and wizards.
+      local_occurrence_note: Third paragraph, opening historical sentence.
+    nearby_context: The Ministry rejected a separate visible wizarding station in London because of Muggle secrecy concerns.
+    match_terms:
+      - Evangeline Orpington
+      - King's Cross
+      - concealed platform
+    quote_excerpt_short: adding a concealed platform at the newly (Muggle) built King’s Cross station, which would be accessible only to witches and wizards.
+    source_note: Minister Evangeline Orpington, in office from 1849 to 1855, solved the London-station secrecy problem by adding a concealed King's Cross platform for magical users.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - concealed-platform
+      - hogwarts-express
+      - kings-cross
+      - muggle-secrecy
+      - platform-nine-and-three-quarters
+    candidate_part: 'Part I: Hogwarts and Its Setting'
+    candidate_chapter: The School and Its Connections
+    candidate_section: The Concealed King's Cross Platform
+    reason_for_placement: Dates the Ministry decision that created the concealed London access point for Hogwarts travel.
+    relevance_to_hogwarts_a_history: Provides a named nineteenth-century minister and a secrecy rationale for the platform later used by Hogwarts students.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed book entries confirm the hidden route's later operation; none gives this nineteenth-century construction decision.
+      audit:
+        query_tags:
+          - concealed-platform
+          - kings-cross
+        candidates:
+          - id: cos-ch04-001
+            disposition: corroborating
+          - id: cos-ch05-001
+            disposition: corroborating
+          - id: gof-ch11-002
+            disposition: corroborating
+          - id: hbp-ch07-001
+            disposition: corroborating
+          - id: ootp-ch10-001
+            disposition: corroborating
+          - id: poa-ch05-001
+            disposition: corroborating
+          - id: ps-ch06-001
+            disposition: corroborating
+    confidence: high
+    limitations: The source gives Orpington's ministerial dates but no exact date, platform number, or technical description of the concealment.
+
+  - id: ext-a19-003
+    source_file: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
+    source_id: A19
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station
+    source_section: King’s Cross Station
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: There are usually a number of plain-clothed Ministry of Magic employees
+      end_phrase: at the start and end of each Hogwarts term.
+      local_occurrence_note: Third paragraph, final sentence.
+    nearby_context: The article describes noisy barrier crossings and hazardous magical luggage as recurring risks at the Muggle station.
+    match_terms:
+      - Ministry of Magic
+      - Muggle memories
+      - Hogwarts term
+    quote_excerpt_short: plain-clothed Ministry of Magic employees on hand to deal with any inconvenient Muggle memories that may need altering
+    source_note: Plain-clothed Ministry employees regularly attend term-time departures and arrivals to alter Muggle memories when magical activity at King's Cross becomes conspicuous.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - ministry-of-magic
+      - muggle-memory-modification
+      - muggle-secrecy
+      - security-protection
+      - term-travel
+    candidate_part: 'Part I: Hogwarts and Its Setting'
+    candidate_chapter: The School and Its Connections
+    candidate_section: Secrecy at Term-Time Travel
+    reason_for_placement: Documents the Ministry's practical secrecy response at the point of regular student travel.
+    relevance_to_hogwarts_a_history: Gives institutional context for how the concealed platform is maintained during the recurring school-term travel cycle.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: One indexed entry independently supports Memory Charms after Muggle exposure; the remaining Ministry entries concern different laws, crises, or institutions.
+      audit:
+        query_tags:
+          - ministry-of-magic
+          - muggle-memory-modification
+        candidates:
+          - id: cos-ch02-005
+            disposition: corroborating
+          - id: cos-ch03-004
+            disposition: corroborating
+          - id: cos-ch13-007
+            disposition: distinct
+          - id: cos-ch14-005
+            disposition: distinct
+          - id: dh-ch07-002
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+          - id: dh-ch08-007
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: dh-ch12-007
+            disposition: distinct
+    confidence: high
+    limitations: The source says this usually occurs but does not identify the responsible Ministry office, methods, or a specific observed incident.

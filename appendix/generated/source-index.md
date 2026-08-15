@@ -240,3 +240,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A15`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty, 3 entries, 0 explicit references.
 - `A16`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/peeves, 6 entries, 0 explicit references.
 - `A17`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, 4 entries, 0 explicit references.
+- `A18`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, 4 entries, 0 explicit references.
+- `A19`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station, 3 entries, 0 explicit references.
+- `A20`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, 5 entries, 0 explicit references.

@@ -12435,6 +12435,21 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts maintai
   - Corroborates: `ps-ch05-003`, `hbp-ch06-002`. ps-ch05-003 establishes Diagon Alley as the ordinary Hogwarts supply district, and hbp-ch06-002 covers wartime supply-route disruption; this entry adds the Hogwarts financial-assistance fund and unsupervised route instructions for an orphaned student.
   - Notes: The passage does not say how the fund is administered, how common support is, or whether it is need-tested.
 
+## Part: Appendix: Editorial and Source Notes
+
+### Chapter: Authorial development notes
+
+#### Section: Subject-list variants
+
+Summary: The available evidence includes 1 source item, led by: Rowling’s early development notes used alternate names and requirements, including Herbalism, compulsory first-year Divination and Alchemy, Beasts, and Transfiguration/Metamorphosis.
+
+- **Context:** Rowling’s early development notes used alternate names and requirements, including Herbalism, compulsory first-year Divination and Alchemy, Beasts, and Transfiguration/Metamorphosis.
+  - Quote: "A slightly different list of school subjects appears in my earliest notes."
+  - Source: A18, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, `sources/external/official-rowling/a18-hogwarts-school-subjects.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: This is a retrospective authorial note about development, not evidence of an in-universe curriculum.
+
 ## Part: Castle Architecture and Daily Operations
 
 ### Chapter: Bathrooms, Prefect Privileges, and Protected Facilities
@@ -15437,6 +15452,58 @@ Summary: The available evidence includes 1 source item, led by: Hermione continu
   - Corroborates: `ps-ch06-004`. ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
   - Notes: The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.
 
+## Part: Part I: Foundations and Traditions
+
+### Chapter: Hogwarts Customs and Ceremonies
+
+#### Section: Sorting and House Assignment
+
+Summary: The available evidence includes 1 source item, led by: A Hatstall is an archaic Hogwarts term for a new student's Sorting that exceeds five minutes; such cases are said to occur perhaps once every fifty years.
+
+- **Supporting evidence:** A Hatstall is an archaic Hogwarts term for a new student's Sorting that exceeds five minutes; such cases are said to occur perhaps once every fifty years.
+  - Quote: "whose Sorting takes longer than five minutes"
+  - Source: A20, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, `sources/external/official-rowling/a20-hatstall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: A 2015 Rowling retrospective supplies the terminology and an approximate frequency, without a dated institutional record or examples beyond those discussed here.
+
+## Part: Part I: Hogwarts and Its Setting
+
+### Chapter: The School and Its Connections
+
+#### Section: Secrecy at Term-Time Travel
+
+Summary: The available evidence includes 1 source item, led by: Plain-clothed Ministry employees regularly attend term-time departures and arrivals to alter Muggle memories when magical activity at King's Cross becomes conspicuous.
+
+- **Supporting evidence:** Plain-clothed Ministry employees regularly attend term-time departures and arrivals to alter Muggle memories when magical activity at King's Cross becomes conspicuous.
+  - Quote: "plain-clothed Ministry of Magic employees on hand to deal with any inconvenient Muggle memories that may need altering"
+  - Source: A19, https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station, `sources/external/official-rowling/a19-king-s-cross-station.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The source says this usually occurs but does not identify the responsible Ministry office, methods, or a specific observed incident.
+
+#### Section: The Concealed King's Cross Platform
+
+Summary: The available evidence includes 1 source item, led by: Minister Evangeline Orpington, in office from 1849 to 1855, solved the London-station secrecy problem by adding a concealed King's Cross platform for magical users.
+
+- **Supporting evidence:** Minister Evangeline Orpington, in office from 1849 to 1855, solved the London-station secrecy problem by adding a concealed King's Cross platform for magical users.
+  - Quote: "adding a concealed platform at the newly (Muggle) built King’s Cross station, which would be accessible only to witches and wizards."
+  - Source: A19, https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station, `sources/external/official-rowling/a19-king-s-cross-station.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source gives Orpington's ministerial dates but no exact date, platform number, or technical description of the concealment.
+
+#### Section: The Hogwarts Express and Hogsmeade Station
+
+Summary: The available evidence includes 1 source item, led by: Ottaline Gambol established the Hogwarts students' train service and had a small station built in Hogsmeade as its necessary companion.
+
+- **Supporting evidence:** Ottaline Gambol established the Hogwarts students' train service and had a small station built in Hogsmeade as its necessary companion.
+  - Quote: "Ottaline Gambol commandeered a Muggle train to serve as the new mode of transport for Hogwarts students"
+  - Source: A19, https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station, `sources/external/official-rowling/a19-king-s-cross-station.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: An official retrospective identifies the transport origin but supplies no date for Gambol's decision or the Hogsmeade station's construction.
+
 ## Part: Part I: The Castle and Its Grounds
 
 ### Chapter: The Grounds and the Great Lake
@@ -15666,6 +15733,33 @@ Summary: The available evidence includes 1 source item, led by: The account says
   - Reference type: historical_claim
   - Notes: The source expressly says the train's origin has never been conclusively proven and calls the suspected operation alleged crimes.
 
+## Part: Part II: Institutional History
+
+### Chapter: Notable Alumni and Staff
+
+#### Section: Minerva McGonagall’s School Years
+
+Summary: The available evidence includes 1 source item, led by: Minerva McGonagall was a true Hatstall: the Hat deliberated for five and a half minutes between Ravenclaw and Gryffindor before placing her in Gryffindor.
+
+- **Corroboration:** Minerva McGonagall was a true Hatstall: the Hat deliberated for five and a half minutes between Ravenclaw and Gryffindor before placing her in Gryffindor.
+  - Quote: "The former caused the hat to agonise for five and a half minutes"
+  - Source: A20, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, `sources/external/official-rowling/a20-hatstall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `ext-a12-001`. ext-a12-001 states the same McGonagall Hatstall and the Ravenclaw-versus-Gryffindor deliberation; remaining candidates concern other McGonagall or Sorting facts.
+  - Notes: The article is retrospective and does not date McGonagall's ceremony; the account duplicates independently extracted official Rowling evidence about her Hatstall.
+
+#### Section: Peter Pettigrew’s School Years
+
+Summary: The available evidence includes 1 source item, led by: Peter Pettigrew was a true Hatstall who was placed in Gryffindor after a prolonged deliberation between Gryffindor and Slytherin.
+
+- **Supporting evidence:** Peter Pettigrew was a true Hatstall who was placed in Gryffindor after a prolonged deliberation between Gryffindor and Slytherin.
+  - Quote: "placed in Gryffindor after a long deliberation between that house and Slytherin"
+  - Source: A20, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, `sources/external/official-rowling/a20-hatstall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: The retrospective gives no exact duration or date for Pettigrew's Sorting and does not independently document the reasons for the two-House deliberation.
+
 ## Part: Part II: The Castle and Its Living Systems
 
 ### Chapter: Portraits, Ghosts, and the School's Memory
@@ -15715,6 +15809,41 @@ Summary: The available evidence includes 1 source item, led by: Some former head
   - Notes: The passage indicates possible observation but does not state what any specific portrait heard or later disclosed.
 
 ## Part: Part II: The School
+
+### Chapter: Education and Curriculum
+
+#### Section: Advanced and demand-led subjects
+
+Summary: The available evidence includes 1 source item, led by: Highly specialised subjects, including Alchemy, may be offered during the final two school years only when demand is sufficient.
+
+- **Supporting evidence:** Highly specialised subjects, including Alchemy, may be offered during the final two school years only when demand is sufficient.
+  - Quote: "such as Alchemy are sometimes offered in the final two years"
+  - Source: A18, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, `sources/external/official-rowling/a18-hogwarts-school-subjects.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The source gives no examples of an Alchemy class actually running, demand threshold, or teacher.
+
+#### Section: First-year compulsory subjects
+
+Summary: The available evidence includes 1 source item, led by: The compulsory first-year curriculum consists of Transfiguration, Charms, Potions, History of Magic, Defence Against the Dark Arts, Astronomy, and Herbology; flying is additionally compulsory.
+
+- **Supporting evidence:** The compulsory first-year curriculum consists of Transfiguration, Charms, Potions, History of Magic, Defence Against the Dark Arts, Astronomy, and Herbology; flying is additionally compulsory.
+  - Quote: "All first-years at Hogwarts must take seven subjects"
+  - Source: A18, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, `sources/external/official-rowling/a18-hogwarts-school-subjects.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: This retrospective official summary supplies no in-universe date or timetable detail for the curriculum rule.
+
+#### Section: Third-year subject selection
+
+Summary: The available evidence includes 1 source item, led by: At the end of second year, pupils must select at least two additional subjects from Arithmancy, Muggle Studies, Divination, Study of Ancient Runes, and Care of Magical Creatures.
+
+- **Supporting evidence:** At the end of second year, pupils must select at least two additional subjects from Arithmancy, Muggle Studies, Divination, Study of Ancient Runes, and Care of Magical Creatures.
+  - Quote: "students are required to choose a minimum of two more subjects"
+  - Source: A18, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, `sources/external/official-rowling/a18-hogwarts-school-subjects.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The article states the rule but does not give a specific calendar year, class timetable, or individual pupil's selection.
 
 ### Chapter: Houses and Student Leadership
 
@@ -16033,6 +16162,28 @@ Summary: The available evidence includes 1 source item, led by: Professor Binns,
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch08-005`. The Philosopher's Stone entry states the same Binns origin and continued teaching; later classroom entries corroborate the subject's routine operation.
   - Notes: This overview does not date Binns's death, appointment, or the beginning of his ghostly teaching.
+
+## Part: Part III: Student Life
+
+### Chapter: The Four Houses
+
+#### Section: Sorting Decisions and House Identity
+
+Summary: The available evidence includes 2 source items, led by: Hermione Granger nearly became a Hatstall when the Sorting Hat deliberated for nearly four minutes between Ravenclaw and Gryffindor.
+
+- **Supporting evidence:** Hermione Granger nearly became a Hatstall when the Sorting Hat deliberated for nearly four minutes between Ravenclaw and Gryffindor.
+  - Quote: "The Sorting Hat spent nearly four minutes trying to decide whether it should place Hermione in Ravenclaw or Gryffindor."
+  - Source: A20, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, `sources/external/official-rowling/a20-hatstall.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Notes: The retrospective gives an approximate duration and Houses considered but no contemporary ceremony transcript or precise date.
+
+- **Supporting evidence:** Neville Longbottom nearly became a Hatstall: the Hat was determined to place him in Gryffindor while Neville requested Hufflepuff, and the Hat prevailed.
+  - Quote: "Neville, intimidated by that house’s reputation for bravery, requested a place in Hufflepuff."
+  - Source: A20, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, `sources/external/official-rowling/a20-hatstall.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Notes: The source gives no precise duration, ceremony date, or independently contemporaneous account of Neville's request.
 
 ## Part: Part IV - Architecture, Concealment, and Protective Magic
 

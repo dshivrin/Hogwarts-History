@@ -1,0 +1,298 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A20
+  source_file: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+  title: Hatstall
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+  capture_completeness: complete
+  content_sha256: d697f2626b2d7a115ae2366dd75a40b88f67e9a9879f697207f72fba88802b9d
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted into atomic Hatstall claims.
+
+entries:
+  - id: ext-a20-001
+    source_file: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    source_id: A20
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+    source_section: Hatstall
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: An archaic Hogwarts term for any new student
+      end_phrase: perhaps once every fifty years
+      local_occurrence_note: Opening paragraph defining the archaic term and its rarity.
+    nearby_context: The article first defines a Hatstall, then places the five-minute threshold in the context of the Hat's normally quicker decisions.
+    match_terms:
+      - hatstall
+      - sorting-hat
+      - sorting-duration
+      - hogwarts-tradition
+    quote_excerpt_short: whose Sorting takes longer than five minutes
+    source_note: A Hatstall is an archaic Hogwarts term for a new student's Sorting that exceeds five minutes; such cases are said to occur perhaps once every fifty years.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hatstall
+      - hogwarts
+      - institutional-history
+      - sorting
+      - sorting-hat
+    candidate_part: "Part I: Foundations and Traditions"
+    candidate_chapter: Hogwarts Customs and Ceremonies
+    candidate_section: Sorting and House Assignment
+    reason_for_placement: Defines an unusually prolonged form of the school's central House-assignment ceremony and gives its reported rarity.
+    relevance_to_hogwarts_a_history: Useful as retrospective institutional terminology; the source does not date the origin of the term or establish a full historical count.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed Sorting-Hat candidates describe the ceremony or artifact, not the Hatstall definition or five-minute threshold.
+      audit:
+        query_tags:
+          - hatstall
+          - sorting-hat
+        candidates:
+          - id: cos-ch05-004
+            disposition: distinct
+          - id: cos-ch12-001
+            disposition: distinct
+          - id: cos-ch17-005
+            disposition: distinct
+          - id: cos-ch18-004
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+          - id: dh-ch12-002
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: dh-ch36-003
+            disposition: distinct
+          - id: ext-a02-001
+            disposition: distinct
+    confidence: high
+    limitations: A 2015 Rowling retrospective supplies the terminology and an approximate frequency, without a dated institutional record or examples beyond those discussed here.
+
+  - id: ext-a20-002
+    source_file: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    source_id: A20
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+    source_section: Hatstall
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Of Harry Potter’s contemporaries, Hermione Granger
+      end_phrase: place Hermione in Ravenclaw or Gryffindor
+      local_occurrence_note: First sentence of the paragraph on Potter's contemporaries.
+    nearby_context: Hermione is presented as a near-Hatstall rather than a true Hatstall, with the Hat considering Ravenclaw and Gryffindor for nearly four minutes.
+    match_terms:
+      - hermione-granger
+      - ravenclaw
+      - gryffindor
+      - sorting-duration
+    quote_excerpt_short: The Sorting Hat spent nearly four minutes trying to decide whether it should place Hermione in Ravenclaw or Gryffindor.
+    source_note: Hermione Granger nearly became a Hatstall when the Sorting Hat deliberated for nearly four minutes between Ravenclaw and Gryffindor.
+    reference_type: house_system
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - gryffindor
+      - hermione-granger
+      - ravenclaw
+      - sorting
+      - sorting-hat
+    candidate_part: "Part III: Student Life"
+    candidate_chapter: The Four Houses
+    candidate_section: Sorting Decisions and House Identity
+    reason_for_placement: Records a Potter-era near-Hatstall that illustrates the Hat's consideration of more than one House.
+    relevance_to_hogwarts_a_history: A later Rowling account that confirms Potter-era Sorting practice, rather than evidence for the pre-1984 historical core.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned entries concern the wartime House system, McGonagall's different Hatstall, or Hermione's pre-arrival reading rather than Hermione's Sorting deliberation.
+      audit:
+        query_tags:
+          - hermione
+          - sorting
+        candidates:
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a12-001
+            disposition: distinct
+          - id: ps-ch06-004
+            disposition: distinct
+    confidence: high
+    limitations: The retrospective gives an approximate duration and Houses considered but no contemporary ceremony transcript or precise date.
+
+  - id: ext-a20-003
+    source_file: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    source_id: A20
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+    source_section: Hatstall
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In Neville’s case, the Hat was determined
+      end_phrase: resulted in triumph for the Hat
+      local_occurrence_note: Second through fourth sentences of the paragraph on Potter's contemporaries.
+    nearby_context: The Hat sought Gryffindor for Neville, who asked for Hufflepuff because he found Gryffindor's reputation for bravery intimidating.
+    match_terms:
+      - neville-longbottom
+      - gryffindor
+      - hufflepuff
+      - sorting
+    quote_excerpt_short: Neville, intimidated by that house’s reputation for bravery, requested a place in Hufflepuff.
+    source_note: "Neville Longbottom nearly became a Hatstall: the Hat was determined to place him in Gryffindor while Neville requested Hufflepuff, and the Hat prevailed."
+    reference_type: house_system
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - gryffindor
+      - hufflepuff
+      - neville-longbottom
+      - sorting
+      - sorting-hat
+    candidate_part: "Part III: Student Life"
+    candidate_chapter: The Four Houses
+    candidate_section: Sorting Decisions and House Identity
+    reason_for_placement: Shows a Potter-era Sorting dispute involving a pupil's House preference and the Hat's decision.
+    relevance_to_hogwarts_a_history: Confirms a Harry-era case and is best used as later context rather than evidence for an original pre-1984 edition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned Neville entry concerns wartime House abolition, and the McGonagall entry concerns another pupil's Hatstall.
+      audit:
+        query_tags:
+          - neville
+          - sorting
+        candidates:
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a12-001
+            disposition: distinct
+    confidence: high
+    limitations: The source gives no precise duration, ceremony date, or independently contemporaneous account of Neville's request.
+
+  - id: ext-a20-004
+    source_file: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    source_id: A20
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+    source_section: Hatstall
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The only true Hatstalls known personally to Harry Potter
+      end_phrase: whether Minerva ought to go to Ravenclaw or Gryffindor
+      local_occurrence_note: Opening and first clause of the final paragraph, describing McGonagall's true Hatstall.
+    nearby_context: The article distinguishes McGonagall and Pettigrew as the only true Hatstalls personally known to Harry, then gives McGonagall's five-and-a-half-minute choice between Ravenclaw and Gryffindor.
+    match_terms:
+      - minerva-mcgonagall
+      - hatstall
+      - ravenclaw
+      - gryffindor
+    quote_excerpt_short: The former caused the hat to agonise for five and a half minutes
+    source_note: "Minerva McGonagall was a true Hatstall: the Hat deliberated for five and a half minutes between Ravenclaw and Gryffindor before placing her in Gryffindor."
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - gryffindor
+      - hatstall
+      - minerva-mcgonagall
+      - ravenclaw
+      - sorting
+    candidate_part: "Part II: Institutional History"
+    candidate_chapter: Notable Alumni and Staff
+    candidate_section: Minerva McGonagall’s School Years
+    reason_for_placement: Documents a pre-1984 staff member's unusually prolonged and contested House assignment.
+    relevance_to_hogwarts_a_history: Directly useful pre-1984 biographical and House-history evidence, although an existing external entry already preserves the same core fact.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ext-a12-001
+      notes: ext-a12-001 states the same McGonagall Hatstall and the Ravenclaw-versus-Gryffindor deliberation; remaining candidates concern other McGonagall or Sorting facts.
+      audit:
+        query_tags:
+          - mcgonagall
+          - sorting
+        candidates:
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a12-001
+            disposition: duplicate
+          - id: hbp-ch12-007
+            disposition: distinct
+          - id: hbp-ch24-006
+            disposition: distinct
+          - id: hbp-ch29-005
+            disposition: distinct
+          - id: hbp-ch29-006
+            disposition: distinct
+          - id: ootp-ch28-005
+            disposition: distinct
+          - id: ootp-ch38-004
+            disposition: distinct
+          - id: poa-ch11-007
+            disposition: distinct
+          - id: ps-ch09-003
+            disposition: distinct
+    confidence: high
+    limitations: The article is retrospective and does not date McGonagall's ceremony; the account duplicates independently extracted official Rowling evidence about her Hatstall.
+
+  - id: ext-a20-005
+    source_file: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    source_id: A20
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hatstall
+    source_section: Hatstall
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: the latter was placed in Gryffindor after a long deliberation
+      end_phrase: between that house and Slytherin
+      local_occurrence_note: Second clause of the final paragraph, describing Pettigrew's House choice.
+    nearby_context: After identifying Pettigrew as a true Hatstall, the article says the Hat deliberated between Gryffindor and Slytherin before assigning him to Gryffindor.
+    match_terms:
+      - peter-pettigrew
+      - gryffindor
+      - slytherin
+      - hatstall
+    quote_excerpt_short: placed in Gryffindor after a long deliberation between that house and Slytherin
+    source_note: Peter Pettigrew was a true Hatstall who was placed in Gryffindor after a prolonged deliberation between Gryffindor and Slytherin.
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - gryffindor
+      - hatstall
+      - peter-pettigrew
+      - slytherin
+      - sorting
+    candidate_part: "Part II: Institutional History"
+    candidate_chapter: Notable Alumni and Staff
+    candidate_section: Peter Pettigrew’s School Years
+    reason_for_placement: Adds a pre-1984 alumnus's long deliberation between Houses to the school's House-assignment history.
+    relevance_to_hogwarts_a_history: Useful as retrospective biographical evidence of a former student's contested Sorting; it should not be conflated with the later account of his death.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned Pettigrew death, wartime House-system, and McGonagall Hatstall entries do not state Pettigrew's Sorting deliberation.
+      audit:
+        query_tags:
+          - pettigrew
+          - sorting
+        candidates:
+          - id: dh-ch23-006
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a12-001
+            disposition: distinct
+    confidence: high
+    limitations: The retrospective gives no exact duration or date for Pettigrew's Sorting and does not independently document the reasons for the two-House deliberation.

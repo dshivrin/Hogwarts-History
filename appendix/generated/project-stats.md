@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 234
+- Total: 237
 
 ## Entries by Book or External Source
 
@@ -29,6 +29,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A15 — The Original Forty: 3
 - A16 — Peeves: 6
 - A17 — Pensieve: 4
+- A18 — Hogwarts School Subjects: 4
+- A19 — King’s Cross Station: 3
+- A20 — Hatstall: 5
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -41,28 +44,28 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 504
-- later_editorial_note: 686
+- harry_era_confirmation: 510
+- later_editorial_note: 687
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 15
-- pre_1984_historical_candidate: 245
+- pre_1984_historical_candidate: 250
 - unknown_or_uncertain: 3
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 102
-- curriculum_or_subject: 160
+- curriculum_or_subject: 163
 - direct_observed_setting: 67
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 259
-- house_system: 29
-- institutional_custom: 201
+- historical_claim: 261
+- house_system: 33
+- institutional_custom: 202
 - magical_architecture: 108
 - portrait_or_ghost_lore: 33
 - school_rule_or_policy: 145
-- security_or_protection: 237
-- weak_context_only: 2
+- security_or_protection: 238
+- weak_context_only: 3
 
 ## Explicit `Hogwarts: A History` References
 
@@ -70,12 +73,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1018
+- Total: 1019
 
 ## Latest Processed Unit
 
-- `A17` — Pensieve, input `resources/external/official-rowling/harrypotter-com/a17-pensieve.md`, output `sources/external/official-rowling/a17-pensieve.yaml`
+- `A20` — Hatstall, input `resources/external/official-rowling/harrypotter-com/a20-hatstall.md`, output `sources/external/official-rowling/a20-hatstall.yaml`
 
 ## Next Pending Unit
 
-- `A18` — Hogwarts School Subjects, input `resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md`, output `sources/external/official-rowling/a18-hogwarts-school-subjects.yaml`
+- `A21` — Toads, input `resources/external/official-rowling/harrypotter-com/a21-toads.md`, output `sources/external/official-rowling/a21-toads.yaml`
