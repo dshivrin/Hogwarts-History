@@ -474,6 +474,10 @@ class QueueTransitionTests(unittest.TestCase):
         self.queue = queue_module()
         self.controller = self.queue.QueueController(self.root)
         self.controller.initialize()
+        (control / "duplicate-index.yaml").write_text(
+            "entries: []\n", encoding="utf-8"
+        )
+        (control / "tag-index.yaml").write_text("tags: {}\n", encoding="utf-8")
 
     def write_staged_output(self, unit: dict) -> Path:
         manifest = load_yaml(self.root / "resources/manifests/external-sources.yaml")
@@ -530,7 +534,7 @@ class QueueTransitionTests(unittest.TestCase):
                         "possible_duplicate": False,
                         "duplicate_of": None,
                         "notes": "Indexed lookup found no match.",
-                        "audit": {"query_tags": ["hogwarts"], "candidate_ids": []},
+                        "audit": {"query_tags": ["hogwarts"], "candidates": []},
                     },
                     "confidence": "high",
                     "limitations": "Test carrier only.",
@@ -539,6 +543,49 @@ class QueueTransitionTests(unittest.TestCase):
         }
         draft.write_text(yaml.safe_dump(payload, sort_keys=False), encoding="utf-8")
         return draft
+
+    def write_duplicate_query_fixture(self, rows: list[dict]) -> None:
+        control = self.root / "project-control"
+        (control / "duplicate-index.yaml").write_text(
+            yaml.safe_dump({"entries": rows}, sort_keys=False),
+            encoding="utf-8",
+        )
+        tags: dict[str, dict[str, list[str]]] = {}
+        for row in rows:
+            for tag in row.get("tags") or []:
+                tags.setdefault(str(tag), {"entries": []})["entries"].append(
+                    str(row["entry_id"])
+                )
+        (control / "tag-index.yaml").write_text(
+            yaml.safe_dump({"tags": tags}, sort_keys=False),
+            encoding="utf-8",
+        )
+
+    def verify_duplicate(self, duplicate: dict, rows: list[dict]) -> None:
+        self.write_duplicate_query_fixture(rows)
+        payload = {
+            "source_unit": {"source_kind": "external_markdown"},
+            "entries": [{"id": "ext-a01-001", "duplicate_check": duplicate}],
+        }
+        self.controller._verify_duplicate_metadata(
+            payload,
+            self.root / "work/external-staging/a01.yaml",
+        )
+
+    def make_duplicate_check(
+        self,
+        *,
+        audit: dict,
+        possible_duplicate: bool = False,
+        duplicate_of: str | list[str] | None = None,
+        notes: str | None = None,
+    ) -> dict:
+        return {
+            "possible_duplicate": possible_duplicate,
+            "duplicate_of": duplicate_of,
+            "notes": notes,
+            "audit": audit,
+        }
 
     def tearDown(self) -> None:
         self.tempdir.cleanup()
@@ -696,56 +743,140 @@ class QueueTransitionTests(unittest.TestCase):
         self.assertFalse((self.root / claimed["output_file"]).exists())
         self.assertEqual(self.controller.unit("A01")["status"], "in_progress")
 
-    def test_duplicate_audit_rejects_unindexed_candidate_ids(self) -> None:
-        payload = {
-            "source_unit": {"source_kind": "external_markdown"},
-            "entries": [
-                {
-                    "id": "ext-a01-001",
-                    "duplicate_check": {
-                        "possible_duplicate": False,
-                        "duplicate_of": None,
-                        "notes": "Indexed lookup found no match.",
-                        "audit": {
-                            "query_tags": ["hogwarts"],
-                            "candidate_ids": ["invented-entry"],
-                        },
-                    },
-                }
-            ],
-        }
-        duplicate_index = {"entries": [{"entry_id": "real-entry", "tags": ["hogwarts"]}]}
-
-        with self.assertRaisesRegex(self.queue.QueueError, "candidate_ids"):
-            self.queue.QueueController._verify_duplicate_metadata(
-                payload,
-                self.root / "draft.yaml",
-                duplicate_index,
+    def test_duplicate_audit_rejects_notes_without_structured_candidates(self) -> None:
+        duplicate = self.make_duplicate_check(
+            notes="arbitrary text",
+            audit={"query_tags": ["hogwarts"], "candidate_ids": ["book-001"]},
+        )
+        with self.assertRaisesRegex(self.queue.QueueError, "structured candidates"):
+            self.verify_duplicate(
+                duplicate,
+                [{"entry_id": "book-001", "tags": ["hogwarts"]}],
             )
 
-    def test_duplicate_audit_must_record_latest_index_candidates(self) -> None:
-        payload = {
-            "source_unit": {"source_kind": "external_markdown"},
-            "entries": [
-                {
-                    "id": "ext-a01-001",
-                    "duplicate_check": {
-                        "possible_duplicate": False,
-                        "duplicate_of": None,
-                        "notes": "Indexed lookup found no match.",
-                        "audit": {"query_tags": ["hogwarts"], "candidate_ids": []},
-                    },
-                }
+    def test_duplicate_audit_requires_exact_ranked_candidates(self) -> None:
+        duplicate = self.make_duplicate_check(
+            audit={
+                "query_tags": ["sorting-hat", "selection"],
+                "candidates": [
+                    {"id": "book-002", "disposition": "distinct"},
+                    {"id": "book-001", "disposition": "corroborating"},
+                ],
+            },
+        )
+        with self.assertRaisesRegex(self.queue.QueueError, "ranked candidate list"):
+            self.verify_duplicate(
+                duplicate,
+                [
+                    {"entry_id": "book-001", "tags": ["sorting-hat", "selection"]},
+                    {"entry_id": "book-002", "tags": ["sorting-hat"]},
+                ],
+            )
+
+    def test_duplicate_audit_rejects_unknown_disposition(self) -> None:
+        duplicate = self.make_duplicate_check(
+            audit={
+                "query_tags": ["hogwarts"],
+                "candidates": [{"id": "book-001", "disposition": "maybe"}],
+            },
+        )
+        with self.assertRaisesRegex(self.queue.QueueError, "disposition"):
+            self.verify_duplicate(
+                duplicate,
+                [{"entry_id": "book-001", "tags": ["hogwarts"]}],
+            )
+
+    def test_duplicate_audit_accepts_exact_ranked_nonduplicates(self) -> None:
+        duplicate = self.make_duplicate_check(
+            audit={
+                "query_tags": ["sorting-hat", "selection"],
+                "candidates": [
+                    {"id": "book-001", "disposition": "corroborating"},
+                    {"id": "book-002", "disposition": "distinct"},
+                ],
+            },
+        )
+        self.verify_duplicate(
+            duplicate,
+            [
+                {"entry_id": "book-001", "tags": ["sorting-hat", "selection"]},
+                {"entry_id": "book-002", "tags": ["sorting-hat"]},
+            ],
+        )
+
+    def test_duplicate_audit_accepts_consistent_duplicate_target(self) -> None:
+        duplicate = self.make_duplicate_check(
+            possible_duplicate=True,
+            duplicate_of="book-001",
+            audit={
+                "query_tags": ["sorting-hat"],
+                "candidates": [{"id": "book-001", "disposition": "duplicate"}],
+            },
+        )
+        self.verify_duplicate(
+            duplicate,
+            [{"entry_id": "book-001", "tags": ["sorting-hat"]}],
+        )
+
+    def test_duplicate_audit_accepts_empty_latest_result(self) -> None:
+        duplicate = self.make_duplicate_check(
+            audit={"query_tags": ["sorting-hat"], "candidates": []},
+        )
+        self.verify_duplicate(duplicate, [])
+
+    def test_duplicate_audit_rejects_missing_invented_and_repeated_ids(self) -> None:
+        rows = [
+            {"entry_id": "book-001", "tags": ["sorting-hat", "selection"]},
+            {"entry_id": "book-002", "tags": ["sorting-hat"]},
+        ]
+        cases = {
+            "missing": [{"id": "book-001", "disposition": "distinct"}],
+            "invented": [
+                {"id": "book-001", "disposition": "distinct"},
+                {"id": "invented", "disposition": "distinct"},
+            ],
+            "repeated": [
+                {"id": "book-001", "disposition": "distinct"},
+                {"id": "book-001", "disposition": "corroborating"},
             ],
         }
-        duplicate_index = {"entries": [{"entry_id": "real-entry", "tags": ["hogwarts"]}]}
+        for label, candidates in cases.items():
+            with self.subTest(label=label):
+                duplicate = self.make_duplicate_check(
+                    audit={
+                        "query_tags": ["sorting-hat", "selection"],
+                        "candidates": candidates,
+                    },
+                )
+                with self.assertRaises(self.queue.QueueError):
+                    self.verify_duplicate(duplicate, rows)
 
-        with self.assertRaisesRegex(self.queue.QueueError, "must record latest candidate_ids"):
-            self.queue.QueueController._verify_duplicate_metadata(
-                payload,
-                self.root / "draft.yaml",
-                duplicate_index,
-            )
+    def test_duplicate_audit_rejects_flag_and_target_disagreement(self) -> None:
+        rows = [{"entry_id": "book-001", "tags": ["sorting-hat"]}]
+        cases = [
+            self.make_duplicate_check(
+                audit={
+                    "query_tags": ["sorting-hat"],
+                    "candidates": [
+                        {"id": "book-001", "disposition": "duplicate"}
+                    ],
+                },
+            ),
+            self.make_duplicate_check(
+                possible_duplicate=True,
+                duplicate_of="book-002",
+                audit={
+                    "query_tags": ["sorting-hat"],
+                    "candidates": [
+                        {"id": "book-001", "disposition": "duplicate"}
+                    ],
+                },
+            ),
+        ]
+        for duplicate in cases:
+            with self.subTest(duplicate=duplicate):
+                with self.assertRaises(self.queue.QueueError):
+                    self.verify_duplicate(duplicate, rows)
 
     def test_latest_completed_unit_uses_completion_timestamp_not_queue_order(self) -> None:
         status = self.queue.derive_external_state(

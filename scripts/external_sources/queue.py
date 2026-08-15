@@ -24,8 +24,9 @@ if str(IMPORT_ROOT) not in sys.path:
     sys.path.insert(0, str(IMPORT_ROOT))
 
 try:
-    from scripts import validate_source_yaml
+    from scripts import query_duplicates, validate_source_yaml
 except ModuleNotFoundError:  # Direct script execution.
+    import query_duplicates
     import validate_source_yaml
 
 
@@ -501,17 +502,13 @@ class QueueController:
             self._sync_state(plan)
             return deepcopy(unit)
 
-    @staticmethod
     def _verify_duplicate_metadata(
-        output: dict, output_path: Path, duplicate_index: dict
+        self, output: dict, output_path: Path
     ) -> None:
         source_unit = output.get("source_unit")
         entries = output.get("entries")
         if not isinstance(source_unit, dict) or not isinstance(entries, list):
             raise QueueError(f"invalid source YAML structure: {output_path}")
-        indexed_entries = [
-            row for row in duplicate_index.get("entries") or [] if isinstance(row, dict)
-        ]
         completing_ids = {
             str(entry.get("id") or "") for entry in entries if isinstance(entry, dict)
         }
@@ -519,9 +516,9 @@ class QueueController:
             if not isinstance(entry, dict):
                 raise QueueError(f"entry {index} is not a mapping in {output_path}")
             duplicate = entry.get("duplicate_check")
-            if not isinstance(duplicate, dict) or not str(duplicate.get("notes") or "").strip():
+            if not isinstance(duplicate, dict):
                 raise QueueError(
-                    f"entry {entry.get('id') or index} lacks indexed duplicate-check notes"
+                    f"entry {entry.get('id') or index} lacks duplicate-check metadata"
                 )
             audit = duplicate.get("audit")
             if not isinstance(audit, dict):
@@ -529,43 +526,78 @@ class QueueController:
                     f"entry {entry.get('id') or index} lacks structured duplicate audit"
                 )
             query_tags = audit.get("query_tags")
-            candidate_ids = audit.get("candidate_ids")
+            reviews = audit.get("candidates")
             if (
                 not isinstance(query_tags, list)
                 or not query_tags
                 or not all(isinstance(tag, str) and tag.strip() for tag in query_tags)
-                or not isinstance(candidate_ids, list)
-                or len(candidate_ids) != len(set(candidate_ids))
             ):
                 raise QueueError(
-                    f"entry {entry.get('id') or index} has invalid duplicate audit"
+                    f"entry {entry.get('id') or index} has invalid duplicate audit query_tags"
                 )
-            requested_tags = {tag.strip() for tag in query_tags}
-            available_ids = {
+            if not isinstance(reviews, list):
+                raise QueueError(
+                    f"entry {entry.get('id') or index} lacks structured candidates"
+                )
+            reviewed_ids: list[str] = []
+            dispositions: list[str] = []
+            allowed_dispositions = {"duplicate", "corroborating", "distinct"}
+            for review in reviews:
+                if not isinstance(review, dict):
+                    raise QueueError(
+                        f"entry {entry.get('id') or index} candidate review must be a mapping"
+                    )
+                candidate_id = str(review.get("id") or "").strip()
+                disposition = str(review.get("disposition") or "").strip()
+                if not candidate_id:
+                    raise QueueError(
+                        f"entry {entry.get('id') or index} candidate review lacks id"
+                    )
+                if disposition not in allowed_dispositions:
+                    raise QueueError(
+                        f"entry {entry.get('id') or index} has invalid candidate disposition"
+                    )
+                reviewed_ids.append(candidate_id)
+                dispositions.append(disposition)
+            if len(reviewed_ids) != len(set(reviewed_ids)):
+                raise QueueError(
+                    f"entry {entry.get('id') or index} candidate review IDs must be unique"
+                )
+            query_result = query_duplicates.query_candidates(
+                self.root,
+                tags=[tag.strip() for tag in query_tags],
+                limit=10,
+            )
+            expected_ids = [
                 str(row.get("entry_id") or "")
-                for row in indexed_entries
+                for row in query_result.get("matches") or []
                 if str(row.get("entry_id") or "") not in completing_ids
-                and requested_tags & {str(tag) for tag in row.get("tags") or []}
-            }
-            audited_ids = {str(candidate_id) for candidate_id in candidate_ids}
-            if audited_ids - available_ids:
+            ]
+            if reviewed_ids != expected_ids:
                 raise QueueError(
-                    f"entry {entry.get('id') or index} duplicate audit candidate_ids "
-                    "are absent from the latest duplicate index"
+                    f"entry {entry.get('id') or index} audit does not match latest "
+                    "ranked candidate list"
                 )
-            if available_ids and not audited_ids:
+            duplicate_ids = [
+                candidate_id
+                for candidate_id, disposition in zip(reviewed_ids, dispositions)
+                if disposition == "duplicate"
+            ]
+            possible_duplicate = duplicate.get("possible_duplicate")
+            if not isinstance(possible_duplicate, bool):
                 raise QueueError(
-                    f"entry {entry.get('id') or index} duplicate audit must record "
-                    "latest candidate_ids"
+                    f"entry {entry.get('id') or index} possible_duplicate must be boolean"
                 )
-            if duplicate.get("possible_duplicate") is True and not duplicate.get("duplicate_of"):
+            if possible_duplicate is not bool(duplicate_ids):
                 raise QueueError(
-                    f"entry {entry.get('id') or index} marks a duplicate without duplicate_of"
+                    f"entry {entry.get('id') or index} possible_duplicate disagrees "
+                    "with duplicate dispositions"
                 )
             targets = validate_source_yaml.duplicate_targets(duplicate.get("duplicate_of"))
-            if targets and not set(targets).issubset(audited_ids):
+            if targets != duplicate_ids:
                 raise QueueError(
-                    f"entry {entry.get('id') or index} duplicate_of must appear in audit candidate_ids"
+                    f"entry {entry.get('id') or index} duplicate_of disagrees "
+                    "with duplicate dispositions"
                 )
 
     def _manifest_record(self, unit: dict) -> dict:
@@ -677,13 +709,11 @@ class QueueController:
                 runner(
                     [
                         [python, "scripts/build_duplicate_index.py"],
+                        [python, "scripts/build_tag_index.py"],
                     ],
                     self.root,
                 )
-                duplicate_index_path = self.root / "project-control/duplicate-index.yaml"
-                self._verify_duplicate_metadata(
-                    output, staging_path, load_yaml(duplicate_index_path)
-                )
+                self._verify_duplicate_metadata(output, staging_path)
                 output_path.parent.mkdir(parents=True, exist_ok=True)
                 os.replace(staging_path, output_path)
                 promoted = True

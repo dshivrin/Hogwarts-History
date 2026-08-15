@@ -186,7 +186,7 @@
 
 ### Task 2: Enforce structured duplicate candidate reviews
 
-**Status:** pending
+**Status:** done
 
 **Files:**
 - Modify: `scripts/external_sources/queue.py`
@@ -200,7 +200,7 @@
 - Produces: `QueueController._verify_duplicate_metadata(output: dict, output_path: Path) -> None` with exact ordered-candidate and disposition consistency checks.
 - Schema: `audit: {query_tags: list[str], candidates: list[{id: str, disposition: str}]}`.
 
-- [ ] **Step 1: Change the test fixture to express the desired structured schema**
+- [x] **Step 1: Change the test fixture to express the desired structured schema**
 
   In `QueueTransitionTests.write_staged_output()`, replace:
 
@@ -216,7 +216,7 @@
 
   Ensure the fixture writes both `project-control/tag-index.yaml` and `project-control/duplicate-index.yaml` when a test needs candidates.
 
-- [ ] **Step 2: Add failing tests for exact ordered reviews and consistency**
+- [x] **Step 2: Add failing tests for exact ordered reviews and consistency**
 
   Add these fixture helpers to `QueueTransitionTests`; they write real compact indexes and call the real controller helper:
 
@@ -411,7 +411,7 @@
 
   Test helpers may write fixture indexes, but assertions must target controller behavior rather than mock call counts.
 
-- [ ] **Step 3: Run the structured-audit tests and verify RED**
+- [x] **Step 3: Run the structured-audit tests and verify RED**
 
   Run:
 
@@ -424,7 +424,7 @@
 
   Expected: failures because the current controller accepts `candidate_ids`, ignores disposition, and does not compare ranked query output.
 
-- [ ] **Step 4: Implement exact candidate and disposition verification**
+- [x] **Step 4: Implement exact candidate and disposition verification**
 
   Import the shared module beside the validator import:
 
@@ -485,7 +485,7 @@
 
   Remove the non-empty `notes` requirement. In `complete()`, rebuild both `build_duplicate_index.py` and `build_tag_index.py` before invoking this helper.
 
-- [ ] **Step 5: Run all queue transition tests and verify GREEN**
+- [x] **Step 5: Run all queue transition tests and verify GREEN**
 
   Run:
 
@@ -495,30 +495,17 @@
 
   Expected: every transition and structured-audit test passes.
 
-- [ ] **Step 6: Migrate A01 and worker documentation**
+- [x] **Step 6: Migrate A01 and worker documentation**
 
-  Replace the three A01 `candidate_ids` fields with these exact records:
+  Replace the three A01 `candidate_ids` fields with the exact ranked query results observed during execution:
 
-  ```yaml
-  # ext-a01-001
-  candidates:
-    - id: cos-ch17-006
-      disposition: duplicate
-
-  # ext-a01-002
-  candidates:
-    - id: cos-ch16-007
-      disposition: duplicate
-
-  # ext-a01-003
-  candidates:
-    - id: cos-ch09-006
-      disposition: duplicate
-  ```
+  - `ext-a01-001`: `cos-ch16-003`, `cos-ch17-006`, `cos-ch02-002`, `cos-ch07-006`, `cos-ch08-006`, `cos-ch09-001`, `cos-ch09-002`, `cos-ch09-003`; retain `cos-ch17-006` as `duplicate` and mark the others `distinct`.
+  - `ext-a01-002`: `cos-ch16-006`, `cos-ch16-007`, `cos-ch02-002`, `cos-ch07-006`, `cos-ch08-006`, `cos-ch09-001`, `cos-ch09-002`, `cos-ch09-005`, `cos-ch09-006`; retain `cos-ch16-007` as `duplicate` and mark the others `distinct`.
+  - `ext-a01-003`: `cos-ch09-006`, `cos-ch02-002`, `cos-ch07-006`, `cos-ch08-006`, `cos-ch09-001`, `cos-ch09-002`, `cos-ch09-005`, `cos-ch10-006`, `cos-ch11-006`; retain `cos-ch09-006` as `duplicate` and mark the others `distinct`.
 
   Keep the existing notes as optional context. Update `runtime-contract.md` and the external example in `schema-reference.md` to name the three allowed dispositions, exact ranked result requirement, and optional status of `notes`.
 
-- [ ] **Step 7: Validate the migration and commit**
+- [x] **Step 7: Validate the migration and commit**
 
   Run:
 

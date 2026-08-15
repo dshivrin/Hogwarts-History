@@ -50,8 +50,9 @@ Workers write only their assigned staged YAML path under `work/external-staging/
 2. Run `just query-dupes <tag> <tag>` with the strongest tags and placement terms.
 3. Run `just query-entries <tag>` only when wider indexed context is needed.
 4. Open only source YAML paths returned as likely matches.
-5. Record the indexed comparison in `duplicate_check.notes`, plus `audit.query_tags` and the reviewed `audit.candidate_ids`; set `duplicate_of` when the same claim is already represented. Completion rebuilds the latest duplicate index, excludes the completing entry IDs, and rejects candidate IDs that are not returned by that index.
-6. Do not delete corroborating evidence merely because it overlaps another source.
+5. Record `audit.query_tags` and every candidate from the exact ranked `just query-dupes` result, in returned order, under `audit.candidates`. Give each candidate one disposition: `duplicate` for the same claim, `corroborating` for independent support or extension, or `distinct` for a different claim. Set `possible_duplicate` and `duplicate_of` to exactly match candidates marked `duplicate`. `duplicate_check.notes` is optional human context, not a completion gate.
+6. Completion rebuilds the latest duplicate and tag indexes, excludes the completing entry IDs, reruns the same query with a ten-result limit, and rejects missing, invented, repeated, reordered, or inconsistent candidate reviews.
+7. Do not delete corroborating evidence merely because it overlaps another source.
 
 ## Completion and Status Rules
 

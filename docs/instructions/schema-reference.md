@@ -102,15 +102,18 @@ entries:
     duplicate_check:
       possible_duplicate: false
       duplicate_of: null
-      notes: indexed lookup result
+      notes: optional human context
       audit:
         query_tags:
           - normalized-tag-used-for-latest-index-recheck
-        candidate_ids:
-          - indexed-entry-id-reviewed
+        candidates:
+          - id: indexed-entry-id-reviewed
+            disposition: distinct
     confidence: high
     limitations: source and interpretation limits
 ```
+
+For external evidence, `audit.candidates` must reproduce the exact ranked result from `just query-dupes` with the recorded tags and its default ten-result limit. Allowed dispositions are `duplicate`, `corroborating`, and `distinct`. IDs marked `duplicate` must exactly match `duplicate_of`; `possible_duplicate` is true if and only if at least one candidate is marked `duplicate`. `notes` may explain the judgment but is optional and is never accepted in place of the structured audit.
 
 ## Reference Types
 
