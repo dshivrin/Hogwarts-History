@@ -13128,6 +13128,21 @@ Summary: The available evidence includes 1 source item, led by: The Hog's Head m
   - Corroborates: `ootp-ch15-007`. ootp-ch15-007 records Hermione's first proposal that Harry teach practical Defense; this entry is the first organized meeting, adds cross-House participation, and states the O.W.L. and Voldemort-return rationale.
   - Notes: The group has not yet selected a meeting location or performed any lessons in this chapter.
 
+## Part: Curriculum and Material Culture
+
+### Chapter: Potions Instruction and Materials
+
+#### Section: Animal-Derived Materials
+
+Summary: The available evidence includes 1 source item, led by: Centuries ago, Hogwarts pupils routinely brought boxes of toads for potion work and other charms.
+
+- **Supporting evidence:** Centuries ago, Hogwarts pupils routinely brought boxes of toads for potion work and other charms.
+  - Quote: "they routinely brought boxes of toads to school for use in potions and in other charms"
+  - Source: A21, https://www.harrypotter.com/writing-by-jk-rowling/toads, `sources/external/official-rowling/a21-toads.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The retrospective phrase “centuries ago” supplies no precise dates, and the account does not identify particular recipes or charms.
+
 ## Part: Curriculum, Study, and Practical Magic
 
 ### Chapter: Charms Instruction and Independent Practice
@@ -15467,6 +15482,57 @@ Summary: The available evidence includes 1 source item, led by: A Hatstall is an
   - Reference type: institutional_custom
   - Notes: A 2015 Rowling retrospective supplies the terminology and an approximate frequency, without a dated institutional record or examples beyond those discussed here.
 
+## Part: Part I: Historical and Cultural Background
+
+### Chapter: Folklore and the Wizarding World
+
+#### Section: Familiars in British Folklore
+
+Summary: The available evidence includes 1 source item, led by: In British folklore, familiars were understood as animals or animal-shaped spirits serving witches as servants, messengers, or spies, and were sometimes attributed supernatural or demonic identities.
+
+- **Supporting evidence:** In British folklore, familiars were understood as animals or animal-shaped spirits serving witches as servants, messengers, or spies, and were sometimes attributed supernatural or demonic identities.
+  - Quote: "Familiars are animals (some say animal-shaped spirits) that serve a witch in various ways"
+  - Source: A22, https://www.harrypotter.com/writing-by-jk-rowling/familiars, `sources/external/official-rowling/a22-familiars.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: A retrospective authorial summary of folklore, without named historical sources or dates.
+
+## Part: Part I: Hogwarts and Its Community
+
+### Chapter: Student Life Beyond Lessons
+
+#### Section: Communication Beyond the Castle
+
+Summary: The available evidence includes 4 source items, led by: Despite other magical media, owl post remains the most common long-distance communication method throughout wizarding society.
+
+- **Supporting evidence:** Despite other magical media, owl post remains the most common long-distance communication method throughout wizarding society.
+  - Quote: "the faithful and reliable owl remains the most common method used by wizardkind across the world"
+  - Source: A23, https://www.harrypotter.com/writing-by-jk-rowling/owls, `sources/external/official-rowling/a23-owls.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The article states a general wizarding-world custom and does not specifically date or locate it at Hogwarts.
+
+- **Supporting evidence:** Postal owls can trace an intended witch or wizard from the mystical connection between a person's name and bearer; an address is optional.
+  - Quote: "An owl does not need to know an address"
+  - Source: A23, https://www.harrypotter.com/writing-by-jk-rowling/owls, `sources/external/official-rowling/a23-owls.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The mechanism is explicitly described as mysterious, and the article does not tie the rule to a particular historical period or Hogwarts policy.
+
+- **Supporting evidence:** A recipient can block owl correspondence or selected owls with several protective spell types, though persistent senders can sometimes circumvent person-specific masking.
+  - Quote: "It is possible to protect yourself from all correspondence"
+  - Source: A23, https://www.harrypotter.com/writing-by-jk-rowling/owls, `sources/external/official-rowling/a23-owls.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The source gives broad magical practice and its stated exceptions, but no school-specific application or date.
+
+- **Supporting evidence:** Because trained owls are costly, wizarding families commonly share one bird or use Postal owls rather than maintain an individual owl.
+  - Quote: "it is quite usual for a wizarding family to share a single owl"
+  - Source: A23, https://www.harrypotter.com/writing-by-jk-rowling/owls, `sources/external/official-rowling/a23-owls.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source offers a general social pattern without quantifying costs or identifying a specific time period or Hogwarts household policy.
+
 ## Part: Part I: Hogwarts and Its Setting
 
 ### Chapter: The School and Its Connections
@@ -15944,6 +16010,52 @@ Summary: The available evidence includes 1 source item, led by: Rowling describe
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: portrait_or_ghost_lore
   - Notes: This comparative statement is not dated and does not quantify ghost numbers or define the reporting basis for Britain.
+
+## Part: Part II: The School and Its People
+
+### Chapter: Staff, Caretakers, and School Order
+
+#### Section: Argus Filch and Mrs Norris
+
+Summary: The available evidence includes 1 source item, led by: Mrs Norris most closely performs the role of a traditional familiar, despite belonging to Argus Filch, whom the source calls the castle’s only non-magical inhabitant.
+
+- **Supporting evidence:** Mrs Norris most closely performs the role of a traditional familiar, despite belonging to Argus Filch, whom the source calls the castle’s only non-magical inhabitant.
+  - Quote: "the animal that acts most like a traditional familiar in the entire series is Mrs Norris"
+  - Source: A22, https://www.harrypotter.com/writing-by-jk-rowling/familiars, `sources/external/official-rowling/a22-familiars.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The comparison to a traditional familiar is interpretive authorial commentary rather than an in-universe title or classification.
+
+### Chapter: Students and Daily Life
+
+#### Section: Animals at Hogwarts
+
+Summary: The available evidence includes 2 source items, led by: Rowling explicitly states that traditional familiars do not exist in the Harry Potter world.
+
+- **Supporting evidence:** Rowling explicitly states that traditional familiars do not exist in the Harry Potter world.
+  - Quote: "Familiars, in the strictest sense, do not exist"
+  - Source: A22, https://www.harrypotter.com/writing-by-jk-rowling/familiars, `sources/external/official-rowling/a22-familiars.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: This is an authorial world-building clarification, not an in-universe institutional rule.
+
+- **Supporting evidence:** Hogwarts permits students to bring animals; the cats and rats depicted there are generally pets rather than traditional familiars.
+  - Quote: "Hogwarts students are permitted to bring animals to school with them"
+  - Source: A22, https://www.harrypotter.com/writing-by-jk-rowling/familiars, `sources/external/official-rowling/a22-familiars.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The text names cats and rats but does not provide a complete permitted-animal list or a formal school regulation.
+
+#### Section: Communications and Owl Post
+
+Summary: The available evidence includes 1 source item, led by: Owls function as messengers, but Rowling characterizes this as a highly organised postal service comparable to Muggle pigeon post, not as familiar service.
+
+- **Supporting evidence:** Owls function as messengers, but Rowling characterizes this as a highly organised postal service comparable to Muggle pigeon post, not as familiar service.
+  - Quote: "owls are sent as messengers within the series"
+  - Source: A22, https://www.harrypotter.com/writing-by-jk-rowling/familiars, `sources/external/official-rowling/a22-familiars.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source compares owl post to Muggle pigeon post but does not describe the postal service’s administration or limits.
 
 ## Part: Part III - Students, Status, and Magical Capacity
 
@@ -16719,6 +16831,34 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: school_rule_or_policy
   - Corroborates: `gof-ch12-005`, `cos-ch07-004`. gof-ch12-005 records similar start-of-term rule notices, and cos-ch07-004 records Defense Against the Dark Arts staffing difficulty. This entry adds the 462nd Filch reminder, corridor-magic ban, and Umbridge/Grubbly-Plank appointments for this year.
   - Notes: The full Filch list is not reproduced, and Dumbledore does not say how long Grubbly-Plank will teach.
+
+## Part: School Life and Administration
+
+### Chapter: Admissions and Student Provisioning
+
+#### Section: Approved Student Pets
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts permits three approved types of student pet; the toad has long been the least popular of them.
+
+- **Supporting evidence:** Hogwarts permits three approved types of student pet; the toad has long been the least popular of them.
+  - Quote: "the three approved animals permitted to students as pets at Hogwarts"
+  - Source: A21, https://www.harrypotter.com/writing-by-jk-rowling/toads, `sources/external/official-rowling/a21-toads.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The article does not name the other two permitted animals or date the policy's introduction.
+
+### Chapter: Ministry Regulation and School Practice
+
+#### Section: Animal Welfare Reform
+
+Summary: The available evidence includes 1 source item, led by: Ministry animal-cruelty legislation gradually prohibited the older use of toads, after which live toads became much rarer at Hogwarts except as wild animals on the grounds.
+
+- **Supporting evidence:** Ministry animal-cruelty legislation gradually prohibited the older use of toads, after which live toads became much rarer at Hogwarts except as wild animals on the grounds.
+  - Quote: "such practices were gradually outlawed"
+  - Source: A21, https://www.harrypotter.com/writing-by-jk-rowling/toads, `sources/external/official-rowling/a21-toads.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article gives legislation subsection numbers but no statute title or dates, and it does not establish the pace or scope of enforcement.
 
 ## Part: Schooling at Hogwarts
 

@@ -1,0 +1,272 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A22
+  source_file: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+  title: Familiars
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+  capture_completeness: complete
+  content_sha256: d13c3dd490e046b5dc6b72cd254d9371a60c0845e1fa41235017db33d44cca81
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a22-001
+    source_file: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    source_id: A22
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+    source_section: Author's note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The concept of ‘familiars’ has existed in British folklore
+      end_phrase: the devil himself) in disguise.
+      local_occurrence_note: Opening paragraph of the Author’s note.
+    nearby_context: Rowling first distinguishes historical British-folklore familiars from their later treatment in the Harry Potter setting.
+    match_terms:
+      - familiar-lore
+      - witchcraft
+      - supernatural-belief
+    quote_excerpt_short: Familiars are animals (some say animal-shaped spirits) that serve a witch in various ways
+    source_note: In British folklore, familiars were understood as animals or animal-shaped spirits serving witches as servants, messengers, or spies, and were sometimes attributed supernatural or demonic identities.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - familiar-lore
+      - witchcraft
+      - supernatural-belief
+    candidate_part: 'Part I: Historical and Cultural Background'
+    candidate_chapter: Folklore and the Wizarding World
+    candidate_section: Familiars in British Folklore
+    reason_for_placement: Establishes the real-world folklore meaning that the source uses as its comparison point.
+    relevance_to_hogwarts_a_history: Useful only as contextual background; it is not evidence that Hogwarts itself used traditional familiars.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate shares the focused folklore tags.
+      audit:
+        query_tags:
+          - familiar-lore
+          - supernatural-belief
+          - witchcraft
+        candidates: []
+    confidence: high
+    limitations: A retrospective authorial summary of folklore, without named historical sources or dates.
+
+  - id: ext-a22-002
+    source_file: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    source_id: A22
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+    source_section: Author's note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Familiars, in the strictest sense, do not exist
+      end_phrase: within the world of Harry Potter.
+      local_occurrence_note: First sentence of the second paragraph of the Author’s note.
+    nearby_context: The statement defines the source’s boundary between traditional folklore familiars and the animals seen at Hogwarts.
+    match_terms:
+      - animal-magic
+      - familiars
+      - harry-potter-world
+    quote_excerpt_short: Familiars, in the strictest sense, do not exist
+    source_note: Rowling explicitly states that traditional familiars do not exist in the Harry Potter world.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - animal-magic
+      - familiars
+      - harry-potter-world
+    candidate_part: 'Part II: The School and Its People'
+    candidate_chapter: Students and Daily Life
+    candidate_section: Animals at Hogwarts
+    reason_for_placement: Clarifies that Hogwarts animals should not be described as traditional magical familiars.
+    relevance_to_hogwarts_a_history: A direct authorial qualification for interpreting the role of student animals in descriptions of Hogwarts life.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate shares the focused familiar-definition tags.
+      audit:
+        query_tags:
+          - animal-magic
+          - familiars
+          - harry-potter-world
+        candidates: []
+    confidence: high
+    limitations: This is an authorial world-building clarification, not an in-universe institutional rule.
+
+  - id: ext-a22-003
+    source_file: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    source_id: A22
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+    source_section: Author's note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Although Hogwarts students are permitted to bring animals to school
+      end_phrase: broadly speaking, pets.
+      local_occurrence_note: Middle of the second paragraph of the Author’s note.
+    nearby_context: The source contrasts permitted student animals, specifically the cats and rats seen at school, with traditional familiars.
+    match_terms:
+      - cats-rats
+      - hogwarts-animal-policy
+      - student-pets
+    quote_excerpt_short: Hogwarts students are permitted to bring animals to school with them
+    source_note: Hogwarts permits students to bring animals; the cats and rats depicted there are generally pets rather than traditional familiars.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - cats-rats
+      - hogwarts-animal-policy
+      - student-pets
+    candidate_part: 'Part II: The School and Its People'
+    candidate_chapter: Students and Daily Life
+    candidate_section: Animals at Hogwarts
+    reason_for_placement: Supplies an authorial statement of the school’s ordinary animal allowance and its non-familiar character.
+    relevance_to_hogwarts_a_history: Supports a concise account of student pets while distinguishing that practice from folklore familiar traditions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries corroborate that students travel with and keep pets, but none makes this same authorial policy-and-classification claim.
+      audit:
+        query_tags:
+          - cats-rats
+          - hogwarts-animal-policy
+          - student-pets
+        candidates:
+          - id: ext-a21-001
+            disposition: corroborating
+          - id: gof-ch11-002
+            disposition: corroborating
+          - id: poa-ch04-005
+            disposition: corroborating
+          - id: poa-ch05-001
+            disposition: corroborating
+          - id: poa-ch19-005
+            disposition: corroborating
+    confidence: high
+    limitations: The text names cats and rats but does not provide a complete permitted-animal list or a formal school regulation.
+
+  - id: ext-a22-004
+    source_file: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    source_id: A22
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+    source_section: Author's note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Ironically, the animal that acts most like a traditional familiar
+      end_phrase: Argus Filch.
+      local_occurrence_note: Sentence immediately after the discussion of student pets in the Author’s note.
+    nearby_context: The source identifies a single exceptional animal relationship after stating that Hogwarts animals are generally pets.
+    match_terms:
+      - argus-filch
+      - familiars
+      - mrs-norris
+    quote_excerpt_short: the animal that acts most like a traditional familiar in the entire series is Mrs Norris
+    source_note: Mrs Norris most closely performs the role of a traditional familiar, despite belonging to Argus Filch, whom the source calls the castle’s only non-magical inhabitant.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - argus-filch
+      - familiars
+      - mrs-norris
+    candidate_part: 'Part II: The School and Its People'
+    candidate_chapter: Staff, Caretakers, and School Order
+    candidate_section: Argus Filch and Mrs Norris
+    reason_for_placement: Identifies the exceptional animal-staff relationship that most resembles familiar lore at Hogwarts.
+    relevance_to_hogwarts_a_history: Provides an authorial characterization of Mrs Norris’s unusual role, while preserving the caveat that formal familiars do not exist in this setting.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Book entries corroborate Mrs Norris’s enforcement role; the Marauder’s Map entry concerns Filch alone and is distinct.
+      audit:
+        query_tags:
+          - argus-filch
+          - familiars
+          - mrs-norris
+        candidates:
+          - id: cos-ch08-002
+            disposition: corroborating
+          - id: cos-ch08-006
+            disposition: distinct
+          - id: ext-a11-004
+            disposition: distinct
+          - id: ps-ch08-003
+            disposition: corroborating
+          - id: ps-ch09-005
+            disposition: corroborating
+    confidence: high
+    limitations: The comparison to a traditional familiar is interpretive authorial commentary rather than an in-universe title or classification.
+
+  - id: ext-a22-005
+    source_file: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    source_id: A22
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/familiars
+    source_section: Author's note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It is true that owls are sent as messengers within the series
+      end_phrase: not unlike Muggle pigeon post.
+      local_occurrence_note: Closing sentence of the Author’s note.
+    nearby_context: The source separately explains why the messenger role of owls does not make them traditional familiars.
+    match_terms:
+      - magical-post
+      - messenger-service
+      - owl-post
+    quote_excerpt_short: owls are sent as messengers within the series
+    source_note: Owls function as messengers, but Rowling characterizes this as a highly organised postal service comparable to Muggle pigeon post, not as familiar service.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - magical-post
+      - messenger-service
+      - owl-post
+    candidate_part: 'Part II: The School and Its People'
+    candidate_chapter: Students and Daily Life
+    candidate_section: Communications and Owl Post
+    reason_for_placement: Characterizes owl messaging as an organised communications practice rather than a familiar relationship.
+    relevance_to_hogwarts_a_history: Supports discussion of owl post in Hogwarts life, with a clear distinction from the folklore concept of familiars.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries independently document ordinary owl correspondence; none duplicates this authorial characterization of the service.
+      audit:
+        query_tags:
+          - magical-post
+          - messenger-service
+          - owl-post
+        candidates:
+          - id: cos-ch01-003
+            disposition: corroborating
+          - id: cos-ch01-005
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: corroborating
+          - id: cos-ch02-005
+            disposition: corroborating
+          - id: cos-ch03-003
+            disposition: corroborating
+          - id: cos-ch06-001
+            disposition: corroborating
+          - id: gof-ch02-005
+            disposition: corroborating
+          - id: gof-ch03-002
+            disposition: corroborating
+          - id: gof-ch03-004
+            disposition: corroborating
+          - id: gof-ch05-004
+            disposition: corroborating
+    confidence: high
+    limitations: The source compares owl post to Muggle pigeon post but does not describe the postal service’s administration or limits.

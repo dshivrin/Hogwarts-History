@@ -22054,6 +22054,148 @@ by_entry:
     - sorting
     source_unit: A20
     output_yaml: sources/external/official-rowling/a20-hatstall.yaml
+  ext-a21-001:
+    title: 'Admissions and Student Provisioning: Approved Student Pets'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - hogwarts
+    - pet-policy
+    - student-pets
+    - toads
+    source_unit: A21
+    output_yaml: sources/external/official-rowling/a21-toads.yaml
+  ext-a21-002:
+    title: 'Potions Instruction and Materials: Animal-Derived Materials'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - historical-practice
+    - hogwarts
+    - potions
+    - toads
+    source_unit: A21
+    output_yaml: sources/external/official-rowling/a21-toads.yaml
+  ext-a21-003:
+    title: 'Ministry Regulation and School Practice: Animal Welfare Reform'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - animal-welfare
+    - hogwarts
+    - ministry-legislation
+    - toads
+    source_unit: A21
+    output_yaml: sources/external/official-rowling/a21-toads.yaml
+  ext-a22-001:
+    title: 'Folklore and the Wizarding World: Familiars in British Folklore'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - familiar-lore
+    - supernatural-belief
+    - witchcraft
+    source_unit: A22
+    output_yaml: sources/external/official-rowling/a22-familiars.yaml
+  ext-a22-002:
+    title: 'Students and Daily Life: Animals at Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - animal-magic
+    - familiars
+    - harry-potter-world
+    source_unit: A22
+    output_yaml: sources/external/official-rowling/a22-familiars.yaml
+  ext-a22-003:
+    title: 'Students and Daily Life: Animals at Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - cats-rats
+    - hogwarts-animal-policy
+    - student-pets
+    source_unit: A22
+    output_yaml: sources/external/official-rowling/a22-familiars.yaml
+  ext-a22-004:
+    title: 'Staff, Caretakers, and School Order: Argus Filch and Mrs Norris'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - argus-filch
+    - familiars
+    - mrs-norris
+    source_unit: A22
+    output_yaml: sources/external/official-rowling/a22-familiars.yaml
+  ext-a22-005:
+    title: 'Students and Daily Life: Communications and Owl Post'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - magical-post
+    - messenger-service
+    - owl-post
+    source_unit: A22
+    output_yaml: sources/external/official-rowling/a22-familiars.yaml
+  ext-a23-001:
+    title: 'Student Life Beyond Lessons: Communication Beyond the Castle'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - long-distance-communication
+    - magical-communication
+    - owl-post
+    - wizarding-world
+    source_unit: A23
+    output_yaml: sources/external/official-rowling/a23-owls.yaml
+  ext-a23-002:
+    title: 'Student Life Beyond Lessons: Communication Beyond the Castle'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - magical-communication
+    - magical-names
+    - magical-tracking
+    - owl-post
+    - recipient-tracing
+    source_unit: A23
+    output_yaml: sources/external/official-rowling/a23-owls.yaml
+  ext-a23-003:
+    title: 'Student Life Beyond Lessons: Communication Beyond the Castle'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - correspondence
+    - magical-tracking
+    - owl-post
+    - privacy
+    - protective-magic
+    source_unit: A23
+    output_yaml: sources/external/official-rowling/a23-owls.yaml
+  ext-a23-004:
+    title: 'Student Life Beyond Lessons: Communication Beyond the Castle'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - communication-cost
+    - family-owls
+    - owl-post
+    - postal-service
+    - wizarding-households
+    source_unit: A23
+    output_yaml: sources/external/official-rowling/a23-owls.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -22304,8 +22446,12 @@ by_tag:
   - gof-ch27-006
   - gof-ch37-006
   - poa-ch20-003
+  animal-magic:
+  - ext-a22-002
   animal-transformation:
   - cos-ch12-004
+  animal-welfare:
+  - ext-a21-003
   animated-statues:
   - dh-ch30-006
   - ootp-ch36-004
@@ -22407,6 +22553,7 @@ by_tag:
   - ootp-ch35-007
   argus-filch:
   - ext-a11-004
+  - ext-a22-004
   ariana-dumbledore:
   - dh-ch08-005
   - dh-ch11-006
@@ -23228,6 +23375,8 @@ by_tag:
   - dh-ch28-001
   cats:
   - poa-ch04-005
+  cats-rats:
+  - ext-a22-003
   cauldron:
   - cos-ch01-002
   - poa-ch01-002
@@ -23551,6 +23700,8 @@ by_tag:
   - hbp-ch18-005
   common-room-security:
   - poa-ch13-007
+  communication-cost:
+  - ext-a23-004
   communication-security:
   - dh-ch09-007
   - dh-ch29-003
@@ -23639,6 +23790,7 @@ by_tag:
   - ootp-ch28-003
   - ootp-ch29-007
   correspondence:
+  - ext-a23-003
   - gof-ch27-002
   corridor-battle:
   - hbp-ch28-001
@@ -25159,6 +25311,11 @@ by_tag:
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
+  familiar-lore:
+  - ext-a22-001
+  familiars:
+  - ext-a22-002
+  - ext-a22-004
   family-artifacts:
   - dh-ch10-005
   family-care:
@@ -25176,6 +25333,8 @@ by_tag:
   - cos-ch05-005
   - cos-ch06-001
   - gof-ch05-004
+  family-owls:
+  - ext-a23-004
   family-secrecy:
   - dh-ch08-005
   family-trees:
@@ -26439,6 +26598,8 @@ by_tag:
   - ps-ch03-003
   - ps-ch03-004
   - ps-ch03-005
+  harry-potter-world:
+  - ext-a22-002
   harry-wand:
   - dh-ch17-007
   - dh-ch18-001
@@ -26798,6 +26959,8 @@ by_tag:
   - hbp-ch20-001
   - hbp-ch20-006
   - hbp-ch23-002
+  historical-practice:
+  - ext-a21-002
   historiography:
   - dh-ch25-003
   history-of-magic:
@@ -26924,6 +27087,9 @@ by_tag:
   - ext-a18-001
   - ext-a18-004
   - ext-a20-001
+  - ext-a21-001
+  - ext-a21-002
+  - ext-a21-003
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -26951,6 +27117,8 @@ by_tag:
   hogwarts-alumni:
   - ootp-ch09-007
   - poa-ch10-006
+  hogwarts-animal-policy:
+  - ext-a22-003
   hogwarts-archives:
   - beedle-fm-004
   - beedle-fm-005
@@ -28102,6 +28270,8 @@ by_tag:
   - ps-ch16-007
   london:
   - ootp-ch22-004
+  long-distance-communication:
+  - ext-a23-001
   long-term-care:
   - ootp-ch23-006
   longbottoms:
@@ -28347,6 +28517,8 @@ by_tag:
   magical-communication:
   - dh-ch15-007
   - dh-ch28-003
+  - ext-a23-001
+  - ext-a23-002
   - ootp-ch23-002
   - ootp-ch38-005
   magical-community:
@@ -28512,6 +28684,8 @@ by_tag:
   - poa-ch04-005
   magical-mishaps:
   - hbp-ch15-003
+  magical-names:
+  - ext-a23-002
   magical-oaths:
   - hbp-ch02-006
   - hbp-ch16-001
@@ -28534,6 +28708,8 @@ by_tag:
   magical-portraits:
   - ext-a05-001
   - hbp-ch01-001
+  magical-post:
+  - ext-a22-005
   magical-power:
   - hbp-ch26-005
   magical-powers:
@@ -28624,6 +28800,9 @@ by_tag:
   magical-traces:
   - hbp-ch26-002
   - hbp-ch26-004
+  magical-tracking:
+  - ext-a23-002
+  - ext-a23-003
   magical-transport:
   - dh-ch04-001
   - dh-ch04-004
@@ -28881,6 +29060,8 @@ by_tag:
   - gof-ch26-007
   - gof-ch27-001
   - hbp-ch30-004
+  messenger-service:
+  - ext-a22-005
   metamorph-medals:
   - hbp-ch05-002
   metamorphmagus:
@@ -28980,6 +29161,8 @@ by_tag:
   ministry-law:
   - hbp-ch03-006
   - poa-ch21-004
+  ministry-legislation:
+  - ext-a21-003
   ministry-logistics:
   - gof-ch07-006
   - gof-ch10-002
@@ -29209,6 +29392,7 @@ by_tag:
   mrs-norris:
   - cos-ch08-002
   - cos-ch08-006
+  - ext-a22-004
   - ps-ch08-003
   - ps-ch09-005
   mrs-weasley:
@@ -29786,6 +29970,11 @@ by_tag:
   - cos-ch02-005
   - cos-ch03-003
   - cos-ch06-001
+  - ext-a22-005
+  - ext-a23-001
+  - ext-a23-002
+  - ext-a23-003
+  - ext-a23-004
   - gof-ch02-005
   - gof-ch03-002
   - gof-ch03-004
@@ -30018,6 +30207,8 @@ by_tag:
   - poa-ch08-003
   personal-bequest:
   - dh-ch07-004
+  pet-policy:
+  - ext-a21-001
   peter-pettigrew:
   - ext-a20-005
   - poa-ch10-006
@@ -30282,6 +30473,8 @@ by_tag:
   - dh-ch18-003
   post-riot-cleanup:
   - gof-ch10-001
+  postal-service:
+  - ext-a23-004
   potion:
   - hbp-ch26-006
   potion-ingredients:
@@ -30292,6 +30485,7 @@ by_tag:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch11-002
+  - ext-a21-002
   - gof-ch10-006
   - gof-ch15-002
   - gof-ch18-004
@@ -30452,6 +30646,7 @@ by_tag:
   - gof-ch34-004
   privacy:
   - ext-a17-004
+  - ext-a23-003
   private-instruction:
   - poa-ch20-005
   private-lessons:
@@ -30704,6 +30899,7 @@ by_tag:
   - dh-ch34-007
   - dh-ch35-001
   - dh-ch36-001
+  - ext-a23-003
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -31042,6 +31238,8 @@ by_tag:
   - dh-ch30-001
   reception-customs:
   - dh-ch08-001
+  recipient-tracing:
+  - ext-a23-002
   record-keeping:
   - dh-ch13-001
   recruiting-ground:
@@ -32753,6 +32951,8 @@ by_tag:
   student-permissions:
   - ootp-ch23-003
   student-pets:
+  - ext-a21-001
+  - ext-a22-003
   - gof-ch11-002
   - poa-ch04-005
   - poa-ch05-001
@@ -32983,6 +33183,8 @@ by_tag:
   - gof-ch20-004
   sunday-prophet:
   - ootp-ch38-001
+  supernatural-belief:
+  - ext-a22-001
   supervised-practice:
   - hbp-ch21-001
   supervised-training:
@@ -33284,6 +33486,10 @@ by_tag:
   - poa-ch21-002
   tinderblast:
   - qtta-ch09-005
+  toads:
+  - ext-a21-001
+  - ext-a21-002
+  - ext-a21-003
   toadstool-tales:
   - beedle-ch01-004
   toilet:
@@ -34132,6 +34338,8 @@ by_tag:
   - beedle-ch01-001
   witch-weekly:
   - gof-ch27-003
+  witchcraft:
+  - ext-a22-001
   witherwings:
   - hbp-ch03-006
   - hbp-ch08-007
@@ -34198,6 +34406,7 @@ by_tag:
   - ootp-ch20-003
   wizarding-households:
   - cos-ch02-001
+  - ext-a23-004
   - gof-ch03-002
   - hbp-ch16-001
   wizarding-ideology:
@@ -34266,6 +34475,7 @@ by_tag:
   - dh-ch08-001
   wizarding-world:
   - cos-ch01-003
+  - ext-a23-001
   wizengamot:
   - dh-ch12-007
   - dh-ch18-003

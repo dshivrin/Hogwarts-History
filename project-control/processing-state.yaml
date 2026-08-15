@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A21
-  title: Toads
+  id: A24
+  title: The Floo Network
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
-  output_file: sources/external/official-rowling/a21-toads.yaml
-  staging_file: work/external-staging/a21.yaml
-  manifest_id: external-A21
+  input_path: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+  output_file: sources/external/official-rowling/a24-the-floo-network.yaml
+  staging_file: work/external-staging/a24.yaml
+  manifest_id: external-A24
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 43
+    pending: 40
     in_progress: 0
-    done: 20
+    done: 23
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A21
-    title: Toads
+    id: A24
+    title: The Floo Network
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
-    output_file: sources/external/official-rowling/a21-toads.yaml
-    staging_file: work/external-staging/a21.yaml
-    manifest_id: external-A21
+    input_path: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    output_file: sources/external/official-rowling/a24-the-floo-network.yaml
+    staging_file: work/external-staging/a24.yaml
+    manifest_id: external-A24
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A20
-    title: Hatstall
+    id: A23
+    title: Owls
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
-    output_file: sources/external/official-rowling/a20-hatstall.yaml
-    staging_file: work/external-staging/a20.yaml
-    manifest_id: external-A20
+    input_path: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    output_file: sources/external/official-rowling/a23-owls.yaml
+    staging_file: work/external-staging/a23.yaml
+    manifest_id: external-A23
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A20
-  title: Hatstall
+  id: A23
+  title: Owls
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
-  output_file: sources/external/official-rowling/a20-hatstall.yaml
-  staging_file: work/external-staging/a20.yaml
-  manifest_id: external-A20
+  input_path: resources/external/official-rowling/harrypotter-com/a23-owls.md
+  output_file: sources/external/official-rowling/a23-owls.yaml
+  staging_file: work/external-staging/a23.yaml
+  manifest_id: external-A23
   claimed_by: null
   claimed_at: null

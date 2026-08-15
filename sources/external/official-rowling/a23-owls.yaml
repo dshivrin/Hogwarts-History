@@ -1,0 +1,272 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A23
+  source_file: resources/external/official-rowling/harrypotter-com/a23-owls.md
+  title: Owls
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/owls
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/owls
+  capture_completeness: complete
+  content_sha256: e0618f3f68668664192ee83b721271d0e8d2679d808b0aca1806ea99acaea4b0
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a23-001
+    source_file: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    source_id: A23
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/owls
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In spite of the many alternatives available for magical communication across long distances
+      end_phrase: remains the most common method used by wizardkind across the world
+      local_occurrence_note: Second body paragraph, after the description of owls as servants to witches and wizards.
+    nearby_context: The source contrasts owl post with Patronuses, Floo powder, mirrors, and enchanted coins.
+    match_terms:
+      - owl post
+      - magical communication
+      - long-distance communication
+    quote_excerpt_short: the faithful and reliable owl remains the most common method used by wizardkind across the world
+    source_note: Despite other magical media, owl post remains the most common long-distance communication method throughout wizarding society.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - owl-post
+      - magical-communication
+      - long-distance-communication
+      - wizarding-world
+    candidate_part: 'Part I: Hogwarts and Its Community'
+    candidate_chapter: Student Life Beyond Lessons
+    candidate_section: Communication Beyond the Castle
+    reason_for_placement: Establishes the wider communication system that connects pupils, families, and the school.
+    relevance_to_hogwarts_a_history: Useful contextual evidence for the routine medium by which Hogwarts students and staff communicate beyond the castle; it describes a longstanding general practice rather than a dated school event.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries show particular owl-post uses; this source supplies the general worldwide practice.
+      audit:
+        query_tags:
+          - magical-communication
+          - owl-post
+        candidates:
+          - id: cos-ch01-003
+            disposition: corroborating
+          - id: cos-ch01-005
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: corroborating
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-003
+            disposition: corroborating
+          - id: cos-ch06-001
+            disposition: corroborating
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch28-003
+            disposition: distinct
+          - id: ext-a22-005
+            disposition: corroborating
+          - id: gof-ch02-005
+            disposition: corroborating
+    confidence: high
+    limitations: The article states a general wizarding-world custom and does not specifically date or locate it at Hogwarts.
+
+  - id: ext-a23-002
+    source_file: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    source_id: A23
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/owls
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The mystical association between the name and the human who bears it
+      end_phrase: An owl does not need to know an address
+      local_occurrence_note: Fifth body paragraph, explaining how an owl locates a named recipient.
+    nearby_context: The source says the mechanism is mysterious but allows an owl to connect a name with its bearer and trace that person.
+    match_terms:
+      - owl post
+      - recipient tracing
+      - magical names
+    quote_excerpt_short: An owl does not need to know an address
+    source_note: Postal owls can trace an intended witch or wizard from the mystical connection between a person's name and bearer; an address is optional.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - owl-post
+      - recipient-tracing
+      - magical-communication
+      - magical-names
+      - magical-tracking
+    candidate_part: 'Part I: Hogwarts and Its Community'
+    candidate_chapter: Student Life Beyond Lessons
+    candidate_section: Communication Beyond the Castle
+    reason_for_placement: Explains the operating assumption behind school and family correspondence sent by owl.
+    relevance_to_hogwarts_a_history: Supports interpretation of Hogwarts-era owl correspondence, especially deliveries to recipients without conventional street addresses, while remaining general world-building evidence.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Dumbledore example corroborates rather than repeats the source's general explanation of name-based tracing.
+      audit:
+        query_tags:
+          - owl-post
+          - recipient-tracing
+        candidates:
+          - id: cos-ch01-003
+            disposition: distinct
+          - id: cos-ch01-005
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-003
+            disposition: distinct
+          - id: cos-ch06-001
+            disposition: distinct
+          - id: ext-a22-005
+            disposition: distinct
+          - id: gof-ch02-005
+            disposition: corroborating
+          - id: gof-ch03-002
+            disposition: distinct
+          - id: gof-ch03-004
+            disposition: distinct
+    confidence: high
+    limitations: The mechanism is explicitly described as mysterious, and the article does not tie the rule to a particular historical period or Hogwarts policy.
+
+  - id: ext-a23-003
+    source_file: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    source_id: A23
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/owls
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Should a witch or wizard not wish to be sent letters
+      end_phrase: avoid the attentions of Owl Post
+      local_occurrence_note: Sixth body paragraph, concerning magical measures against correspondence and tracking.
+    nearby_context: The article lists Repelling, Disguising, and Masking Spells and warns that person-specific masking can be bypassed through another sender.
+    match_terms:
+      - owl post
+      - protective magic
+      - correspondence blocking
+    quote_excerpt_short: It is possible to protect yourself from all correspondence
+    source_note: A recipient can block owl correspondence or selected owls with several protective spell types, though persistent senders can sometimes circumvent person-specific masking.
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - owl-post
+      - protective-magic
+      - correspondence
+      - magical-tracking
+      - privacy
+    candidate_part: 'Part I: Hogwarts and Its Community'
+    candidate_chapter: Student Life Beyond Lessons
+    candidate_section: Communication Beyond the Castle
+    reason_for_placement: Qualifies owl post as a communication system with magical privacy and refusal mechanisms.
+    relevance_to_hogwarts_a_history: Provides general context for the limits and security of the correspondence network used by the school community, not evidence of a Hogwarts-specific rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Retrieved candidates address letters, school conduct, or other protections, but none states an owl-post blocking mechanism.
+      audit:
+        query_tags:
+          - owl-post
+          - protective-magic
+        candidates:
+          - id: cos-ch01-003
+            disposition: distinct
+          - id: cos-ch01-005
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-003
+            disposition: distinct
+          - id: cos-ch06-001
+            disposition: distinct
+          - id: dh-ch03-001
+            disposition: distinct
+          - id: dh-ch03-004
+            disposition: distinct
+          - id: dh-ch06-002
+            disposition: distinct
+          - id: dh-ch19-003
+            disposition: distinct
+    confidence: high
+    limitations: The source gives broad magical practice and its stated exceptions, but no school-specific application or date.
+
+  - id: ext-a23-004
+    source_file: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    source_id: A23
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/owls
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Trained owls are expensive
+      end_phrase: only use Postal owls
+      local_occurrence_note: Final main-body paragraph, immediately before the Author’s note.
+    nearby_context: The article identifies cost as the reason families commonly share one owl or rely on postal owls.
+    match_terms:
+      - owl post
+      - wizarding households
+      - postal owls
+    quote_excerpt_short: it is quite usual for a wizarding family to share a single owl
+    source_note: Because trained owls are costly, wizarding families commonly share one bird or use Postal owls rather than maintain an individual owl.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - owl-post
+      - wizarding-households
+      - postal-service
+      - family-owls
+      - communication-cost
+    candidate_part: 'Part I: Hogwarts and Its Community'
+    candidate_chapter: Student Life Beyond Lessons
+    candidate_section: Communication Beyond the Castle
+    reason_for_placement: Adds the household and cost structure behind pupils’ familiar use of owls.
+    relevance_to_hogwarts_a_history: Useful social context for student and family correspondence, but it is a general customary statement rather than evidence of a Hogwarts provision.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing passages show family and household owl use; this source adds cost and the common sharing or postal-service alternatives.
+      audit:
+        query_tags:
+          - owl-post
+          - wizarding-households
+        candidates:
+          - id: gof-ch03-002
+            disposition: corroborating
+          - id: cos-ch01-003
+            disposition: distinct
+          - id: cos-ch01-005
+            disposition: distinct
+          - id: cos-ch02-001
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-003
+            disposition: corroborating
+          - id: cos-ch06-001
+            disposition: distinct
+          - id: ext-a22-005
+            disposition: corroborating
+          - id: gof-ch02-005
+            disposition: distinct
+    confidence: high
+    limitations: The source offers a general social pattern without quantifying costs or identifying a specific time period or Hogwarts household policy.

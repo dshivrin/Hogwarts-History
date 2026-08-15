@@ -377,6 +377,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dumbledore's Army and student-led practical Defense
   - Student-Led Practical Defense in the Umbridge Year
 
+## Curriculum and Material Culture
+
+- Potions Instruction and Materials
+  - Animal-Derived Materials
+
 ## Curriculum, Study, and Practical Magic
 
 - Charms Instruction and Independent Practice
@@ -1368,6 +1373,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hogwarts Customs and Ceremonies
   - Sorting and House Assignment
 
+## Part I: Historical and Cultural Background
+
+- Folklore and the Wizarding World
+  - Familiars in British Folklore
+
+## Part I: Hogwarts and Its Community
+
+- Student Life Beyond Lessons
+  - Communication Beyond the Castle
+
 ## Part I: Hogwarts and Its Setting
 
 - The School and Its Connections
@@ -1453,6 +1468,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House ghosts
   - Moaning Myrtle and school spaces
   - The castle as a home for ghosts
+
+## Part II: The School and Its People
+
+- Staff, Caretakers, and School Order
+  - Argus Filch and Mrs Norris
+- Students and Daily Life
+  - Animals at Hogwarts
+  - Communications and Owl Post
 
 ## Part III - Students, Status, and Magical Capacity
 
@@ -1970,6 +1993,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Start-of-Term Notices
   - Forbidden Objects, Restricted Places, and Yearly Exceptions
   - Rules, Restricted Places, and Staff Announcements
+
+## School Life and Administration
+
+- Admissions and Student Provisioning
+  - Approved Student Pets
+- Ministry Regulation and School Practice
+  - Animal Welfare Reform
 
 ## Schooling at Hogwarts
 

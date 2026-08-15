@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 237
+- Total: 240
 
 ## Entries by Book or External Source
 
@@ -32,6 +32,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A18 — Hogwarts School Subjects: 4
 - A19 — King’s Cross Station: 3
 - A20 — Hatstall: 5
+- A21 — Toads: 3
+- A22 — Familiars: 5
+- A23 — Owls: 4
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -44,27 +47,27 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 510
+- harry_era_confirmation: 515
 - later_editorial_note: 687
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 15
-- pre_1984_historical_candidate: 250
+- pre_1984_historical_candidate: 257
 - unknown_or_uncertain: 3
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 102
+- cross_reference_candidate: 103
 - curriculum_or_subject: 163
-- direct_observed_setting: 67
+- direct_observed_setting: 68
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 261
+- historical_claim: 265
 - house_system: 33
-- institutional_custom: 202
+- institutional_custom: 205
 - magical_architecture: 108
 - portrait_or_ghost_lore: 33
-- school_rule_or_policy: 145
-- security_or_protection: 238
+- school_rule_or_policy: 147
+- security_or_protection: 239
 - weak_context_only: 3
 
 ## Explicit `Hogwarts: A History` References
@@ -77,8 +80,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `A20` — Hatstall, input `resources/external/official-rowling/harrypotter-com/a20-hatstall.md`, output `sources/external/official-rowling/a20-hatstall.yaml`
+- `A23` — Owls, input `resources/external/official-rowling/harrypotter-com/a23-owls.md`, output `sources/external/official-rowling/a23-owls.yaml`
 
 ## Next Pending Unit
 
-- `A21` — Toads, input `resources/external/official-rowling/harrypotter-com/a21-toads.md`, output `sources/external/official-rowling/a21-toads.yaml`
+- `A24` — The Floo Network, input `resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md`, output `sources/external/official-rowling/a24-the-floo-network.yaml`

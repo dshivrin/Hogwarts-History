@@ -1409,16 +1409,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
     manifest_id: external-A21
     output_file: sources/external/official-rowling/a21-toads.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:24:33Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:18:33Z'
+      agent: source-agent-a21
+    - event: completed
+      at: '2026-08-15T15:24:33Z'
     staging_file: work/external-staging/a21.yaml
   - id: A22
     title: Familiars
@@ -1428,16 +1433,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a22-familiars.md
     manifest_id: external-A22
     output_file: sources/external/official-rowling/a22-familiars.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:27:00Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:18:33Z'
+      agent: source-agent-a22
+    - event: completed
+      at: '2026-08-15T15:27:00Z'
     staging_file: work/external-staging/a22.yaml
   - id: A23
     title: Owls
@@ -1447,16 +1457,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a23-owls.md
     manifest_id: external-A23
     output_file: sources/external/official-rowling/a23-owls.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:31:13Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:18:34Z'
+      agent: source-agent-a23
+    - event: completed
+      at: '2026-08-15T15:31:13Z'
     staging_file: work/external-staging/a23.yaml
   - id: A24
     title: The Floo Network

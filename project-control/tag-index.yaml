@@ -521,11 +521,21 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
     - sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  animal-magic:
+    entries:
+    - ext-a22-002
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   animal-transformation:
     entries:
     - cos-ch12-004
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  animal-welfare:
+    entries:
+    - ext-a21-003
+    output_yaml:
+    - sources/external/official-rowling/a21-toads.yaml
   animated-statues:
     entries:
     - dh-ch30-006
@@ -746,8 +756,10 @@ tags:
   argus-filch:
     entries:
     - ext-a11-004
+    - ext-a22-004
     output_yaml:
     - sources/external/official-rowling/a11-the-marauder-s-map.yaml
+    - sources/external/official-rowling/a22-familiars.yaml
   ariana-dumbledore:
     entries:
     - dh-ch08-005
@@ -2491,6 +2503,11 @@ tags:
     - poa-ch04-005
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  cats-rats:
+    entries:
+    - ext-a22-003
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   cauldron:
     entries:
     - cos-ch01-002
@@ -3178,6 +3195,11 @@ tags:
     - poa-ch13-007
     output_yaml:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  communication-cost:
+    entries:
+    - ext-a23-004
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   communication-security:
     entries:
     - dh-ch09-007
@@ -3371,9 +3393,11 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
   correspondence:
     entries:
+    - ext-a23-003
     - gof-ch27-002
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   corridor-battle:
     entries:
     - hbp-ch28-001
@@ -6515,6 +6539,17 @@ tags:
     - gof-ch05-004
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  familiar-lore:
+    entries:
+    - ext-a22-001
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
+  familiars:
+    entries:
+    - ext-a22-002
+    - ext-a22-004
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   family-artifacts:
     entries:
     - dh-ch10-005
@@ -6554,6 +6589,11 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  family-owls:
+    entries:
+    - ext-a23-004
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   family-secrecy:
     entries:
     - dh-ch08-005
@@ -9130,6 +9170,11 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/external/official-rowling/a15-the-original-forty.yaml
+  harry-potter-world:
+    entries:
+    - ext-a22-002
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   harry-wand:
     entries:
     - dh-ch17-007
@@ -9903,6 +9948,11 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+  historical-practice:
+    entries:
+    - ext-a21-002
+    output_yaml:
+    - sources/external/official-rowling/a21-toads.yaml
   historiography:
     entries:
     - dh-ch25-003
@@ -10116,6 +10166,9 @@ tags:
     - ext-a18-001
     - ext-a18-004
     - ext-a20-001
+    - ext-a21-001
+    - ext-a21-002
+    - ext-a21-003
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -10153,6 +10206,7 @@ tags:
     - sources/external/official-rowling/a17-pensieve.yaml
     - sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
+    - sources/external/official-rowling/a21-toads.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -10189,6 +10243,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  hogwarts-animal-policy:
+    entries:
+    - ext-a22-003
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   hogwarts-archives:
     entries:
     - beedle-fm-004
@@ -12648,6 +12707,11 @@ tags:
     - ootp-ch22-004
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  long-distance-communication:
+    entries:
+    - ext-a23-001
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   long-term-care:
     entries:
     - ootp-ch23-006
@@ -13145,6 +13209,8 @@ tags:
     entries:
     - dh-ch15-007
     - dh-ch28-003
+    - ext-a23-001
+    - ext-a23-002
     - ootp-ch23-002
     - ootp-ch38-005
     output_yaml:
@@ -13152,6 +13218,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   magical-community:
     entries:
     - ps-ch02-006
@@ -13510,6 +13577,11 @@ tags:
     - hbp-ch15-003
     output_yaml:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  magical-names:
+    entries:
+    - ext-a23-002
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   magical-oaths:
     entries:
     - hbp-ch02-006
@@ -13560,6 +13632,11 @@ tags:
     output_yaml:
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
+  magical-post:
+    entries:
+    - ext-a22-005
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   magical-power:
     entries:
     - hbp-ch26-005
@@ -13759,6 +13836,12 @@ tags:
     - hbp-ch26-004
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  magical-tracking:
+    entries:
+    - ext-a23-002
+    - ext-a23-003
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   magical-transport:
     entries:
     - dh-ch04-001
@@ -14301,6 +14384,11 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
+  messenger-service:
+    entries:
+    - ext-a22-005
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   metamorph-medals:
     entries:
     - hbp-ch05-002
@@ -14526,6 +14614,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
+  ministry-legislation:
+    entries:
+    - ext-a21-003
+    output_yaml:
+    - sources/external/official-rowling/a21-toads.yaml
   ministry-logistics:
     entries:
     - gof-ch07-006
@@ -14990,12 +15083,14 @@ tags:
     entries:
     - cos-ch08-002
     - cos-ch08-006
+    - ext-a22-004
     - ps-ch08-003
     - ps-ch09-005
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-02/chapter-08-the-deathday-party.yaml
+    - sources/external/official-rowling/a22-familiars.yaml
   mrs-weasley:
     entries:
     - ootp-ch09-003
@@ -16236,6 +16331,11 @@ tags:
     - cos-ch02-005
     - cos-ch03-003
     - cos-ch06-001
+    - ext-a22-005
+    - ext-a23-001
+    - ext-a23-002
+    - ext-a23-003
+    - ext-a23-004
     - gof-ch02-005
     - gof-ch03-002
     - gof-ch03-004
@@ -16278,6 +16378,8 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/external/official-rowling/a22-familiars.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   owl-post-results:
     entries:
     - ootp-ch31-003
@@ -16734,6 +16836,11 @@ tags:
     - dh-ch07-004
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  pet-policy:
+    entries:
+    - ext-a21-001
+    output_yaml:
+    - sources/external/official-rowling/a21-toads.yaml
   peter-pettigrew:
     entries:
     - ext-a20-005
@@ -17315,6 +17422,11 @@ tags:
     - gof-ch10-001
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  postal-service:
+    entries:
+    - ext-a23-004
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   potion:
     entries:
     - hbp-ch26-006
@@ -17334,6 +17446,7 @@ tags:
     - cos-ch09-007
     - cos-ch10-002
     - cos-ch11-002
+    - ext-a21-002
     - gof-ch10-006
     - gof-ch15-002
     - gof-ch18-004
@@ -17398,6 +17511,7 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/external/official-rowling/a21-toads.yaml
   potions-awards:
     entries:
     - hbp-ch25-002
@@ -17673,8 +17787,10 @@ tags:
   privacy:
     entries:
     - ext-a17-004
+    - ext-a23-003
     output_yaml:
     - sources/external/official-rowling/a17-pensieve.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   private-instruction:
     entries:
     - poa-ch20-005
@@ -18174,6 +18290,7 @@ tags:
     - dh-ch34-007
     - dh-ch35-001
     - dh-ch36-001
+    - ext-a23-003
     - gof-ch33-004
     - hbp-ch02-004
     - hbp-ch03-007
@@ -18202,6 +18319,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   protective-objects:
     entries:
     - hbp-ch05-002
@@ -18881,6 +18999,11 @@ tags:
     - dh-ch08-001
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
+  recipient-tracing:
+    entries:
+    - ext-a23-002
+    output_yaml:
+    - sources/external/official-rowling/a23-owls.yaml
   record-keeping:
     entries:
     - dh-ch13-001
@@ -22566,6 +22689,8 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   student-pets:
     entries:
+    - ext-a21-001
+    - ext-a22-003
     - gof-ch11-002
     - poa-ch04-005
     - poa-ch05-001
@@ -22575,6 +22700,8 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a21-toads.yaml
+    - sources/external/official-rowling/a22-familiars.yaml
   student-population:
     entries:
     - ext-a15-002
@@ -23074,6 +23201,11 @@ tags:
     - ootp-ch38-001
     output_yaml:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+  supernatural-belief:
+    entries:
+    - ext-a22-001
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   supervised-practice:
     entries:
     - hbp-ch21-001
@@ -23748,6 +23880,13 @@ tags:
     - qtta-ch09-005
     output_yaml:
     - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  toads:
+    entries:
+    - ext-a21-001
+    - ext-a21-002
+    - ext-a21-003
+    output_yaml:
+    - sources/external/official-rowling/a21-toads.yaml
   toadstool-tales:
     entries:
     - beedle-ch01-004
@@ -25531,6 +25670,11 @@ tags:
     - gof-ch27-003
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  witchcraft:
+    entries:
+    - ext-a22-001
+    output_yaml:
+    - sources/external/official-rowling/a22-familiars.yaml
   witherwings:
     entries:
     - hbp-ch03-006
@@ -25684,12 +25828,14 @@ tags:
   wizarding-households:
     entries:
     - cos-ch02-001
+    - ext-a23-004
     - gof-ch03-002
     - hbp-ch16-001
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   wizarding-ideology:
     entries:
     - ootp-ch09-002
@@ -25837,8 +25983,10 @@ tags:
   wizarding-world:
     entries:
     - cos-ch01-003
+    - ext-a23-001
     output_yaml:
     - sources/book-02/chapter-01-worst-birthday.yaml
+    - sources/external/official-rowling/a23-owls.yaml
   wizengamot:
     entries:
     - dh-ch12-007

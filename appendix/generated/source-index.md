@@ -243,3 +243,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A18`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, 4 entries, 0 explicit references.
 - `A19`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station, 3 entries, 0 explicit references.
 - `A20`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, 5 entries, 0 explicit references.
+- `A21`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/toads, 3 entries, 0 explicit references.
+- `A22`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/familiars, 5 entries, 0 explicit references.
+- `A23`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/owls, 4 entries, 0 explicit references.
