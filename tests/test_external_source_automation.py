@@ -177,6 +177,88 @@ class SourceDiscoveryAndRenderingTests(unittest.TestCase):
         self.assertIn("Source: A01, https://example.test/a01", rendered)
         self.assertNotIn("PDF p. None", rendered)
 
+    def test_appendix_review_label_uses_external_source_metadata(self) -> None:
+        appendices = importlib.import_module("scripts.generate_appendices")
+        entry = {
+            "id": "ext-a01-001",
+            "source_id": "A01",
+            "source_note": "Founder-era Chamber evidence.",
+            "_book": None,
+            "_chapter": None,
+            "_source_title": "Chamber of Secrets",
+        }
+
+        rendered = appendices.entry_label(entry)
+
+        self.assertEqual(
+            rendered,
+            "`ext-a01-001` (A01, Chamber of Secrets): Founder-era Chamber evidence.",
+        )
+        self.assertNotIn("(None, None)", rendered)
+
+    def test_appendix_loader_preserves_external_source_title(self) -> None:
+        appendices = importlib.import_module("scripts.generate_appendices")
+
+        entries = appendices.load_entries()
+        a01_entry = next(entry for entry in entries if entry.get("id") == "ext-a01-001")
+
+        self.assertEqual(a01_entry.get("_source_title"), "Chamber of Secrets")
+
+    def test_project_stats_renders_external_queue_unit_without_page_placeholders(self) -> None:
+        appendices = importlib.import_module("scripts.generate_appendices")
+        source_index = {"processed_units": []}
+        state = {
+            "external_processing": {
+                "last_completed_unit": {
+                    "id": "A01",
+                    "title": "Chamber of Secrets",
+                    "input_path": "resources/external/a01.md",
+                    "output_file": "sources/external/a01.yaml",
+                },
+                "next_pending_unit": {
+                    "id": "A02",
+                    "title": "The Sorting Hat",
+                    "input_path": "resources/external/a02.md",
+                    "output_file": "sources/external/a02.yaml",
+                },
+            },
+            "last_completed_source_unit": {"book": "The Tales of Beedle the Bard"},
+            "current_source_unit": None,
+        }
+
+        original_load_yaml = appendices.load_yaml
+        original_load_processing_state = appendices.load_processing_state
+        appendices.load_yaml = lambda path: source_index
+        appendices.load_processing_state = lambda: state
+        try:
+            rendered = appendices.generate_project_stats(
+                [
+                    {
+                        "id": "ext-a01-001",
+                        "source_id": "A01",
+                        "source_url": "https://example.test/a01",
+                        "_book": None,
+                        "_chapter": None,
+                        "_source_title": "Chamber of Secrets",
+                        "era_classification": "pre_1984_historical_candidate",
+                        "reference_type": "historical_claim",
+                        "duplicate_check": {"possible_duplicate": False},
+                    }
+                ]
+            )
+        finally:
+            appendices.load_yaml = original_load_yaml
+            appendices.load_processing_state = original_load_processing_state
+
+        self.assertIn(
+            "- `A02` — The Sorting Hat, input `resources/external/a02.md`, "
+            "output `sources/external/a02.yaml`",
+            rendered,
+        )
+        self.assertIn("- A01 — Chamber of Secrets: 1", rendered)
+        self.assertNotIn("Unknown", rendered)
+        self.assertNotIn("pages None-None", rendered)
+
 
 class ExternalValidationTests(unittest.TestCase):
     def write_external_fixture(

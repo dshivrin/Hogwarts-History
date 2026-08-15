@@ -10,8 +10,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Total: 218
 
-## Entries by Book
+## Entries by Book or External Source
 
+- A01 — Chamber of Secrets: 3
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -21,7 +22,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Harry Potter and the Prisoner of Azkaban: 145
 - Quidditch Through the Ages: 37
 - The Tales of Beedle the Bard: 29
-- Unknown: 3
 
 ## Entries by Era Classification
 
@@ -56,8 +56,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- The Tales of Beedle the Bard, Back Matter, pages 63-65, `sources/book-beedle/chapter-06-back-matter.yaml`
+- `A01` — Chamber of Secrets, input `resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md`, output `sources/external/official-rowling/a01-chamber-of-secrets.yaml`
 
 ## Next Pending Unit
 
-- None, None, pages None-None, `None`
+- `A02` — The Sorting Hat, input `resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md`, output `sources/external/official-rowling/a02-the-sorting-hat.yaml`
