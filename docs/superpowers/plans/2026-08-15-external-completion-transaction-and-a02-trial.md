@@ -526,7 +526,7 @@
 
 ### Task 3: Restore all generated artifacts after completion failure
 
-**Status:** pending
+**Status:** done
 
 **Files:**
 - Create: `scripts/external_sources/artifact_snapshot.py`
@@ -539,7 +539,7 @@
 - Produces: `CompletionArtifactSnapshot.capture(root: Path) -> CompletionArtifactSnapshot` and `.restore() -> None`.
 - Queue integration: capture before the pre-promotion index rebuild; restore inside the existing unsuccessful-completion `finally` block.
 
-- [ ] **Step 1: Add a failing controller regression test for stale generated artifacts**
+- [x] **Step 1: Add a failing controller regression test for stale generated artifacts**
 
   Add `test_generation_failure_restores_every_generated_artifact`. Keep `source-plan.yaml`, `processing-state.yaml`, and `next-run.md` valid, seed distinctive valid contents into the other generated artifacts, and record every path without using production snapshot code:
 
@@ -610,7 +610,7 @@
   self.assertEqual(self.controller.unit("A01")["status"], "in_progress")
   ```
 
-- [ ] **Step 2: Run the rollback regression test and verify RED**
+- [x] **Step 2: Run the rollback regression test and verify RED**
 
   Run:
 
@@ -620,7 +620,7 @@
 
   Expected: FAIL because one or more indexes, book-seed files, appendices, or the new appendix remain changed.
 
-- [ ] **Step 3: Implement the focused artifact snapshot helper**
+- [x] **Step 3: Implement the focused artifact snapshot helper**
 
   Create `scripts/external_sources/artifact_snapshot.py` with:
 
@@ -706,7 +706,7 @@
 
   Do not recurse outside `appendix/generated`, follow directory symlinks, or delete untracked files elsewhere.
 
-- [ ] **Step 4: Integrate the snapshot into completion**
+- [x] **Step 4: Integrate the snapshot into completion**
 
   Import `CompletionArtifactSnapshot` with the same package/direct-script fallback pattern as other imports. In `complete()`:
 
@@ -725,7 +725,7 @@
 
   Remove the separate `original_plan`, `original_state`, and `original_next_run` byte variables because they are now inside the complete artifact snapshot. Capture must occur before the first `build_duplicate_index.py`/`build_tag_index.py` call.
 
-- [ ] **Step 5: Run rollback and success-path tests and verify GREEN**
+- [x] **Step 5: Run rollback and success-path tests and verify GREEN**
 
   Run:
 
@@ -738,7 +738,7 @@
 
   Expected: all three pass; the failure test proves exact restoration, and success tests prove final artifacts are retained.
 
-- [ ] **Step 6: Record the fixed readiness gates in the original plan**
+- [x] **Step 6: Record the fixed readiness gates in the original plan**
 
   Preserve every original task and checkbox in `2026-08-15-external-source-extraction-automation.md`. Append this dated section:
 
@@ -751,7 +751,7 @@
   - [ ] A02 isolated trial accepted.
   ```
 
-- [ ] **Step 7: Run the full suite and commit the transaction**
+- [x] **Step 7: Run the full suite and commit the transaction**
 
   Run:
 

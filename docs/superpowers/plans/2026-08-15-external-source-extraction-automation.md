@@ -531,3 +531,10 @@
 - [x] Existing book-source behavior and completed queue history remain intact.
 - [x] The supported full validation/test commands pass.
 - [x] A01 is the only completed external unit after the test-agent trial.
+
+## Production-readiness follow-up — 2026-08-15
+
+- [x] Structured candidate dispositions replace free-text duplicate gating.
+- [x] Completion reuses the exact ranked `query-dupes` implementation.
+- [x] Handled post-promotion failures restore all completion-owned artifacts byte-for-byte.
+- [ ] A02 isolated trial accepted.

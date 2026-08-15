@@ -25,7 +25,9 @@ if str(IMPORT_ROOT) not in sys.path:
 
 try:
     from scripts import query_duplicates, validate_source_yaml
+    from scripts.external_sources.artifact_snapshot import CompletionArtifactSnapshot
 except ModuleNotFoundError:  # Direct script execution.
+    from artifact_snapshot import CompletionArtifactSnapshot
     import query_duplicates
     import validate_source_yaml
 
@@ -693,13 +695,12 @@ class QueueController:
                 raise QueueError(f"canonical output path already exists: {output_path}")
             promoted = False
             completed_successfully = False
-            original_plan = self.plan_path.read_bytes()
-            original_state = self.state_path.read_bytes() if self.state_path.exists() else None
-            original_next_run = self.next_run_path.read_bytes() if self.next_run_path.exists() else None
+            artifact_snapshot: CompletionArtifactSnapshot | None = None
             try:
                 output = load_yaml(staging_path)
                 self._verify_assigned_output(unit, output, staging_path)
                 self._validate_staged_output(output, staging_path)
+                artifact_snapshot = CompletionArtifactSnapshot.capture(self.root)
                 python = (
                     str(self.root / ".venv/bin/python")
                     if (self.root / ".venv/bin/python").exists()
@@ -757,17 +758,10 @@ class QueueController:
             except Exception as exc:
                 raise QueueError(f"completion gate failed: {exc}") from exc
             finally:
-                if promoted and not completed_successfully:
-                    os.replace(output_path, staging_path)
-                    atomic_write_text(self.plan_path, original_plan.decode("utf-8"))
-                    if original_state is None:
-                        self.state_path.unlink(missing_ok=True)
-                    else:
-                        atomic_write_text(self.state_path, original_state.decode("utf-8"))
-                    if original_next_run is None:
-                        self.next_run_path.unlink(missing_ok=True)
-                    else:
-                        atomic_write_text(self.next_run_path, original_next_run.decode("utf-8"))
+                if artifact_snapshot is not None and not completed_successfully:
+                    if promoted:
+                        os.replace(output_path, staging_path)
+                    artifact_snapshot.restore()
 
 
 def build_parser() -> argparse.ArgumentParser:

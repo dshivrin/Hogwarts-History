@@ -743,6 +743,74 @@ class QueueTransitionTests(unittest.TestCase):
         self.assertFalse((self.root / claimed["output_file"]).exists())
         self.assertEqual(self.controller.unit("A01")["status"], "in_progress")
 
+    def test_generation_failure_restores_every_generated_artifact(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        draft = self.write_staged_output(claimed)
+        tracked = [
+            "project-control/duplicate-index.yaml",
+            "project-control/entry-index.yaml",
+            "project-control/source-index.yaml",
+            "project-control/tag-index.yaml",
+            "project-control/source-plan.yaml",
+            "project-control/processing-state.yaml",
+            "project-control/next-run.md",
+            "book-seed/hogwarts-a-history-seed.md",
+            "appendix/generated/book-structure-seed.md",
+            "appendix/generated/explicit-hogwarts-a-history-references.md",
+            "appendix/generated/open-questions.md",
+            "appendix/generated/project-stats.md",
+            "appendix/generated/review-flags.md",
+            "appendix/generated/source-index.md",
+        ]
+        seeded = {
+            "project-control/duplicate-index.yaml": "entries: []\n",
+            "project-control/entry-index.yaml": "entries: []\n",
+            "project-control/source-index.yaml": "sources: []\n",
+            "project-control/tag-index.yaml": "tags: {}\n",
+            "book-seed/hogwarts-a-history-seed.md": "# Original book seed\n",
+            "appendix/generated/book-structure-seed.md": "# Original structure\n",
+            "appendix/generated/explicit-hogwarts-a-history-references.md": "# Original references\n",
+            "appendix/generated/open-questions.md": "# Original questions\n",
+            "appendix/generated/project-stats.md": "# Original stats\n",
+            "appendix/generated/review-flags.md": "# Original flags\n",
+            "appendix/generated/source-index.md": "# Original sources\n",
+        }
+        for name, text in seeded.items():
+            path = self.root / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(text, encoding="utf-8")
+        before = {name: (self.root / name).read_bytes() for name in tracked}
+
+        def failing_runner(commands, root):
+            if any(
+                command[-1] == "scripts/generate_appendices.py"
+                for command in commands
+            ):
+                for name in tracked:
+                    path = root / name
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_bytes(f"mutated:{name}".encode("utf-8"))
+                (root / "appendix/generated/unexpected.md").write_text(
+                    "unexpected\n",
+                    encoding="utf-8",
+                )
+                raise RuntimeError("appendix generation failed")
+
+        with self.assertRaisesRegex(self.queue.QueueError, "appendix generation failed"):
+            self.controller.complete("A01", claimed["claim_token"], runner=failing_runner)
+
+        self.assertEqual(
+            {name: (self.root / name).read_bytes() for name in tracked},
+            before,
+        )
+        self.assertFalse((self.root / "appendix/generated/unexpected.md").exists())
+        self.assertTrue(draft.is_file())
+        self.assertFalse((self.root / claimed["output_file"]).exists())
+        self.assertEqual(
+            self.controller.unit("A01")["claim_token"], claimed["claim_token"]
+        )
+        self.assertEqual(self.controller.unit("A01")["status"], "in_progress")
+
     def test_duplicate_audit_rejects_notes_without_structured_candidates(self) -> None:
         duplicate = self.make_duplicate_check(
             notes="arbitrary text",
