@@ -14,6 +14,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - `ext-a06-003` (A06, Hogwarts Ghosts): The Fat Friar is Hufflepuff's ghost; the account attributes his execution to churchmen's suspicion of his magical healing and conjuring.
 - `ext-a06-005` (A06, Hogwarts Ghosts): After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
+- `ext-a17-004` (A17, Pensieve): Pensieves are conventionally buried with their owners, including remaining thoughts and memories, unless the owner directed otherwise.
 
 ## Possible Duplicates
 
@@ -1264,6 +1265,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a09-008` (A09, The Great Lake): Rowling notes that real giant squid exist and humorously speculates that they have magical powers.
 - `ext-a10-004` (A10, Remus Lupin): Lupin became the first werewolf posthumously awarded the Order of Merlin, First Class; the biography says his example helped lessen anti-werewolf stigma.
 - `ext-a14-004` (A14, The Mirror of Erised  ): Dumbledore's alterations made the Mirror both a hiding place and a final moral test.
+- `ext-a15-001` (A15, The Original Forty): Rowling’s early planning notebook recorded forty students in Harry’s year, including the central trio, and assigned them to houses with parentage markers.
+- `ext-a15-002` (A15, The Original Forty): Rowling says she envisaged a substantially larger annual Hogwarts population than forty, but retained a portion of Harry’s peers for narrative continuity in school scenes.
+- `ext-a15-003` (A15, The Original Forty): Rowling cautions that the original roster was revised: some names and parentages changed, some students never appeared, and several background figures later gained developed roles.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-004` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter gives direct evidence that Voldemort believes he has a hidden loyal agent positioned at Hogwarts before the plan against Harry proceeds.
@@ -2153,6 +2157,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a13-003` (A13, Professor Kettleburn): Kettleburn caused a Great Hall fire by enchanting an Ashwinder to perform as the Worm in a school staging of The Fountain of Fair Fortune.
 - `ext-a14-001` (A14, The Mirror of Erised  ): The mirror is ancient, but this official account does not identify either its maker or the route by which it reached Hogwarts.
 - `ext-a14-003` (A14, The Mirror of Erised  ): Before Dumbledore retrieved it, the Mirror had remained in the Room of Requirement for roughly a century.
+- `ext-a15-001` (A15, The Original Forty): Rowling’s early planning notebook recorded forty students in Harry’s year, including the central trio, and assigned them to houses with parentage markers.
+- `ext-a15-003` (A15, The Original Forty): Rowling cautions that the original roster was revised: some names and parentages changed, some students never appeared, and several background figures later gained developed roles.
+- `ext-a16-001` (A16, Peeves): Hogwarts' large adolescent magical population generated a poltergeist, which the account characterises as especially noisy, destructive, and difficult to expel.
+- `ext-a16-003` (A16, Peeves): The account places Peeves in a continuous caretaker problem reaching back to Hankerton Humble, whom it identifies as appointed by the four founders.
+- `ext-a16-005` (A16, Peeves): Eupraxia Mole ended the 1876 standoff through a contract granting Peeves specified privileges; following Carpe's retirement, the account says no later expulsion attempt occurred.
+- `ext-a16-006` (A16, Peeves): Peeves generally observes teachers' classroom authority and is specifically afraid of the Bloody Baron, indicating limited channels for managing him.
+- `ext-a17-001` (A17, Pensieve): The school-owned Pensieve accumulates life-experience memories left by successive headmasters and headmistresses, creating a reference library for the current officeholder.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.

@@ -21737,6 +21737,166 @@ by_entry:
     - revealing-magic
     source_unit: A14
     output_yaml: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  ext-a15-001:
+    title: 'Authorial Development of Hogwarts: The Original Forty'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - authorial-notes
+    - first-year
+    - harry-potter
+    - hogwarts
+    - house-allocation
+    - student-roster
+    source_unit: A15
+    output_yaml: sources/external/official-rowling/a15-the-original-forty.yaml
+  ext-a15-002:
+    title: 'Authorial Development of Hogwarts: Scale of the Student Body'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - authorial-notes
+    - continuity-planning
+    - hogwarts
+    - school-population
+    - student-population
+    - year-cohort
+    source_unit: A15
+    output_yaml: sources/external/official-rowling/a15-the-original-forty.yaml
+  ext-a15-003:
+    title: 'Authorial Development of Hogwarts: Revision and Canonical Caution'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - authorial-notes
+    - character-development
+    - character-revisions
+    - original-forty
+    - parentage
+    - source-criticism
+    source_unit: A15
+    output_yaml: sources/external/official-rowling/a15-the-original-forty.yaml
+  ext-a16-001:
+    title: 'Resident ghosts and poltergeists: The origin and nature of Peeves'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hogwarts
+    - peeves
+    - poltergeist
+    source_unit: A16
+    output_yaml: sources/external/official-rowling/a16-peeves.yaml
+  ext-a16-002:
+    title: 'Resident ghosts and poltergeists: Peeves'' exceptional properties'
+    classification: pre_1984_historical_candidate
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - hogwarts
+    - peeves
+    - poltergeist
+    source_unit: A16
+    output_yaml: sources/external/official-rowling/a16-peeves.yaml
+  ext-a16-003:
+    title: 'Caretakers and castle maintenance: Peeves as a continuing caretaker responsibility'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - caretaker
+    - eupraxia-mole
+    - peeves
+    source_unit: A16
+    output_yaml: sources/external/official-rowling/a16-peeves.yaml
+  ext-a16-004:
+    title: 'Caretakers and castle maintenance: The 1876 Peeves containment crisis'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - '1876'
+    - peeves
+    - rancorous-carpe
+    source_unit: A16
+    output_yaml: sources/external/official-rowling/a16-peeves.yaml
+  ext-a16-005:
+    title: 'Caretakers and castle maintenance: The Eupraxia Mole settlement'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - '1876'
+    - peeves
+    - rancorous-carpe
+    source_unit: A16
+    output_yaml: sources/external/official-rowling/a16-peeves.yaml
+  ext-a16-006:
+    title: 'Discipline and resident inhabitants: Authorities recognised by Peeves'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - authority
+    - bloody-baron
+    - peeves
+    source_unit: A16
+    output_yaml: sources/external/official-rowling/a16-peeves.yaml
+  ext-a17-001:
+    title: 'School Records and Historical Memory: The Hogwarts Pensieve'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - headmasters
+    - hogwarts
+    - institutional-memory
+    - pensieve
+    - school-records
+    source_unit: A17
+    output_yaml: sources/external/official-rowling/a17-pensieve.yaml
+  ext-a17-002:
+    title: 'Ancient Artefacts of Hogwarts: The Hogwarts Pensieve'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - ancient-artifact
+    - founders-era
+    - hogwarts
+    - pensieve
+    - saxon-runes
+    source_unit: A17
+    output_yaml: sources/external/official-rowling/a17-pensieve.yaml
+  ext-a17-003:
+    title: 'Founding Traditions and Legends: The Pensieve Discovery Legend'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - foundation-legend
+    - founders
+    - hogwarts
+    - pensieve
+    - school-site
+    source_unit: A17
+    output_yaml: sources/external/official-rowling/a17-pensieve.yaml
+  ext-a17-004:
+    title: 'School Records and Historical Memory: The Hogwarts Pensieve'
+    classification: unknown_or_uncertain
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - burial-custom
+    - institutional-memory
+    - memory-magic
+    - pensieve
+    - privacy
+    source_unit: A17
+    output_yaml: sources/external/official-rowling/a17-pensieve.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -21746,6 +21906,9 @@ by_tag:
   - beedle-ch01-002
   '1717':
   - beedle-ch04-006
+  '1876':
+  - ext-a16-004
+  - ext-a16-005
   a-history-of-magic:
   - dh-ch08-006
   - dh-ch16-003
@@ -21945,6 +22108,8 @@ by_tag:
   ancestry-proof:
   - dh-ch13-005
   - dh-ch13-007
+  ancient-artifact:
+  - ext-a17-002
   ancient-broom-games:
   - qtta-ch02-001
   ancient-creature:
@@ -22192,6 +22357,12 @@ by_tag:
   - hbp-ch30-006
   - ootp-ch23-007
   - ootp-ch36-007
+  authorial-notes:
+  - ext-a15-001
+  - ext-a15-002
+  - ext-a15-003
+  authority:
+  - ext-a16-006
   avada-kedavra:
   - beedle-ch04-006
   - gof-ch14-005
@@ -22499,6 +22670,7 @@ by_tag:
   - cos-ch08-005
   - dh-ch31-002
   - ext-a06-002
+  - ext-a16-006
   bludgers:
   - cos-ch07-001
   - qtta-ch03-002
@@ -22662,6 +22834,8 @@ by_tag:
   burial:
   - hbp-ch29-007
   - hbp-ch30-005
+  burial-custom:
+  - ext-a17-004
   burrow:
   - dh-ch04-002
   - dh-ch05-002
@@ -22745,6 +22919,7 @@ by_tag:
   - cos-ch04-005
   caretaker:
   - cos-ch08-002
+  - ext-a16-003
   - gof-ch31-001
   - ootp-ch28-003
   - poa-ch07-005
@@ -23016,6 +23191,10 @@ by_tag:
   - gof-ch23-002
   champions-tent:
   - gof-ch20-005
+  character-development:
+  - ext-a15-003
+  character-revisions:
+  - ext-a15-003
   charity-burbage:
   - dh-ch01-006
   - dh-ch06-003
@@ -23267,6 +23446,8 @@ by_tag:
   - qtta-ch04-002
   contact-galleons:
   - hbp-ch25-006
+  continuity-planning:
+  - ext-a15-002
   cormac-mclaggen:
   - hbp-ch11-003
   - hbp-ch11-006
@@ -24683,6 +24864,8 @@ by_tag:
   estate-law:
   - dh-ch07-002
   - dh-ch07-003
+  eupraxia-mole:
+  - ext-a16-003
   europe:
   - gof-ch09-002
   european-cup:
@@ -25016,6 +25199,8 @@ by_tag:
   - ootp-ch23-007
   - poa-ch10-006
   - ps-ch04-005
+  first-year:
+  - ext-a15-001
   first-year-arrival:
   - poa-ch05-005
   - ps-ch06-007
@@ -25197,6 +25382,8 @@ by_tag:
   - ps-ch11-002
   fouls-and-penalties:
   - gof-ch08-005
+  foundation-legend:
+  - ext-a17-003
   founder-relic:
   - dh-ch07-006
   - dh-ch19-004
@@ -25224,9 +25411,12 @@ by_tag:
   - ext-a02-001
   - ext-a02-002
   - ext-a07-005
+  - ext-a17-003
   - gof-ch12-002
   - ootp-ch11-003
   - ootp-ch17-002
+  founders-era:
+  - ext-a17-002
   founders-rift:
   - cos-ch09-004
   founding:
@@ -26030,6 +26220,7 @@ by_tag:
   - dh-ch34-003
   - dh-ch35-001
   - dh-ch36-001
+  - ext-a15-001
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -26199,6 +26390,7 @@ by_tag:
   headmasters:
   - cos-ch09-006
   - ext-a01-003
+  - ext-a17-001
   headmasters-office:
   - ootp-ch27-007
   headmastership:
@@ -26533,6 +26725,13 @@ by_tag:
   - ext-a14-002
   - ext-a14-003
   - ext-a14-005
+  - ext-a15-001
+  - ext-a15-002
+  - ext-a16-001
+  - ext-a16-002
+  - ext-a17-001
+  - ext-a17-002
+  - ext-a17-003
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -26923,6 +27122,8 @@ by_tag:
   - ps-ch15-002
   house:
   - ext-a08-004
+  house-allocation:
+  - ext-a15-001
   house-assignment:
   - ps-ch05-005
   house-banners:
@@ -27272,6 +27473,8 @@ by_tag:
   - dh-ch15-007
   - dh-ch36-006
   - ext-a05-003
+  - ext-a17-001
+  - ext-a17-004
   institutional-secrecy:
   - cos-ch13-005
   intellectual-freedom:
@@ -28443,6 +28646,7 @@ by_tag:
   memory-magic:
   - cos-ch13-004
   - dh-ch33-002
+  - ext-a17-004
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch17-003
@@ -29344,6 +29548,8 @@ by_tag:
   - ootp-ch32-001
   original-draft:
   - ext-a09-006
+  original-forty:
+  - ext-a15-003
   original-order-phoenix:
   - ootp-ch09-007
   original-runes:
@@ -29432,6 +29638,8 @@ by_tag:
   - hbp-ch19-002
   - hbp-ch29-006
   - hbp-ch30-001
+  parentage:
+  - ext-a15-003
   parental-enforcement:
   - hbp-ch17-007
   parental-pressure:
@@ -29535,6 +29743,12 @@ by_tag:
   - cos-ch08-005
   - cos-ch11-006
   - dh-ch32-002
+  - ext-a16-001
+  - ext-a16-002
+  - ext-a16-003
+  - ext-a16-004
+  - ext-a16-005
+  - ext-a16-006
   - gof-ch15-001
   - gof-ch22-003
   - ootp-ch21-003
@@ -29556,6 +29770,10 @@ by_tag:
   pensieve:
   - dh-ch12-002
   - dh-ch33-002
+  - ext-a17-001
+  - ext-a17-002
+  - ext-a17-003
+  - ext-a17-004
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch13-001
@@ -29738,6 +29956,8 @@ by_tag:
   - ootp-ch04-007
   - ootp-ch05-007
   poltergeist:
+  - ext-a16-001
+  - ext-a16-002
   - poa-ch07-005
   - ps-ch08-002
   polyjuice-potion:
@@ -30021,6 +30241,8 @@ by_tag:
   - dh-ch35-002
   - gof-ch34-003
   - gof-ch34-004
+  privacy:
+  - ext-a17-004
   private-instruction:
   - poa-ch20-005
   private-lessons:
@@ -30570,6 +30792,9 @@ by_tag:
   - ext-a08-002
   ragnuk-the-first:
   - dh-ch25-002
+  rancorous-carpe:
+  - ext-a16-004
+  - ext-a16-005
   rats:
   - poa-ch04-005
   ravenclaw:
@@ -30852,6 +31077,8 @@ by_tag:
   - ootp-ch11-003
   salem-witches-institute:
   - gof-ch07-003
+  saxon-runes:
+  - ext-a17-002
   scabbers:
   - poa-ch19-004
   - poa-ch19-006
@@ -31051,6 +31278,8 @@ by_tag:
   school-politics:
   - ootp-ch14-003
   - ootp-ch25-001
+  school-population:
+  - ext-a15-002
   school-preparation:
   - ps-ch09-001
   school-prizes:
@@ -31074,6 +31303,7 @@ by_tag:
   - gof-ch11-005
   - gof-ch28-003
   school-records:
+  - ext-a17-001
   - hbp-ch17-006
   school-recreation:
   - ootp-ch14-004
@@ -31134,6 +31364,8 @@ by_tag:
   - hbp-ch06-007
   school-shopping:
   - hbp-ch06-003
+  school-site:
+  - ext-a17-003
   school-songs:
   - ootp-ch30-003
   school-spectators:
@@ -31815,6 +32047,7 @@ by_tag:
   - dh-ch17-004
   - dh-ch18-002
   - dh-ch18-004
+  - ext-a15-003
   source-dating:
   - beedle-fm-005
   source-history:
@@ -32299,6 +32532,8 @@ by_tag:
   - poa-ch04-005
   - poa-ch05-001
   - poa-ch19-005
+  student-population:
+  - ext-a15-002
   student-possessions:
   - gof-ch04-002
   student-practice:
@@ -32366,6 +32601,8 @@ by_tag:
   student-rights:
   - ootp-ch18-001
   - ootp-ch29-002
+  student-roster:
+  - ext-a15-001
   student-rulebreaking:
   - gof-ch25-001
   - hbp-ch18-004
@@ -33852,6 +34089,8 @@ by_tag:
   yaxley:
   - dh-ch12-004
   - dh-ch14-002
+  year-cohort:
+  - ext-a15-002
   yorkshire:
   - beedle-fm-003
   you-know-who:

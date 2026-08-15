@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 231
+- Total: 234
 
 ## Entries by Book or External Source
 
@@ -26,6 +26,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A12 — Professor McGonagall: 6
 - A13 — Professor Kettleburn: 3
 - A14 — The Mirror of Erised  : 5
+- A15 — The Original Forty: 3
+- A16 — Peeves: 6
+- A17 — Pensieve: 4
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -39,25 +42,25 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 504
-- later_editorial_note: 683
+- later_editorial_note: 686
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 15
-- pre_1984_historical_candidate: 236
-- unknown_or_uncertain: 2
+- pre_1984_historical_candidate: 245
+- unknown_or_uncertain: 3
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 101
+- cross_reference_candidate: 102
 - curriculum_or_subject: 160
 - direct_observed_setting: 67
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 253
+- historical_claim: 259
 - house_system: 29
-- institutional_custom: 198
-- magical_architecture: 107
-- portrait_or_ghost_lore: 32
-- school_rule_or_policy: 144
+- institutional_custom: 201
+- magical_architecture: 108
+- portrait_or_ghost_lore: 33
+- school_rule_or_policy: 145
 - security_or_protection: 237
 - weak_context_only: 2
 
@@ -71,8 +74,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `A14` — The Mirror of Erised  , input `resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md`, output `sources/external/official-rowling/a14-the-mirror-of-erised.yaml`
+- `A17` — Pensieve, input `resources/external/official-rowling/harrypotter-com/a17-pensieve.md`, output `sources/external/official-rowling/a17-pensieve.yaml`
 
 ## Next Pending Unit
 
-- `A15` — The Original Forty, input `resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md`, output `sources/external/official-rowling/a15-the-original-forty.yaml`
+- `A18` — Hogwarts School Subjects, input `resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md`, output `sources/external/official-rowling/a18-hogwarts-school-subjects.yaml`

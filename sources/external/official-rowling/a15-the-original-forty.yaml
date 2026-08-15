@@ -1,0 +1,152 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A15
+  source_file: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+  title: The Original Forty
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty
+  capture_completeness: complete
+  content_sha256: 4d3f366b060b1e5a55433d847ba0f58b8d16455f76e69744c2c9d66aa9eed428
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; extracted retrospective authorial evidence with source limitations retained.
+
+entries:
+  - id: ext-a15-001
+    source_file: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+    source_id: A15
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In one of the books is a list of forty names of students in Harry’s year
+      end_phrase: small symbols beside each name depicting each boy or girl’s parentage.
+      local_occurrence_note: Author’s note, second paragraph; the notebook roster description.
+    nearby_context: Rowling describes an early notebook containing a working list for Harry’s school year.
+    match_terms:
+      - original forty
+      - harry year roster
+      - house allocation
+    quote_excerpt_short: a list of forty names of students in Harry’s year (including Harry, Ron and Hermione), all allocated houses
+    source_note: Rowling’s early planning notebook recorded forty students in Harry’s year, including the central trio, and assigned them to houses with parentage markers.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-notes
+      - first-year
+      - harry-potter
+      - hogwarts
+      - house-allocation
+      - student-roster
+    candidate_part: Editorial Appendix
+    candidate_chapter: Authorial Development of Hogwarts
+    candidate_section: The Original Forty
+    reason_for_placement: This is retrospective source criticism about the planned student body, rather than an in-universe institutional record.
+    relevance_to_hogwarts_a_history: Useful for an editorial note on the construction of Harry’s cohort and house allocations; it should not be presented as an in-universe roll.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed match was returned for the focused roster-and-allocation query.
+      audit:
+        query_tags:
+          - house-allocation
+          - student-roster
+        candidates: []
+    confidence: high
+    limitations: A 2015 retrospective authorial note; it describes a private draft notebook and does not reproduce the house symbols or establish in-universe enrolment figures.
+
+  - id: ext-a15-002
+    source_file: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+    source_id: A15
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: While I imagined that there would be considerably more than forty students in each year at Hogwarts
+      end_phrase: when action was taking place around the school.
+      local_occurrence_note: Author’s note, third paragraph; explanation of why the list was kept.
+    nearby_context: Rowling explains both her larger imagined school population and the practical purpose of tracking selected classmates.
+    match_terms:
+      - student population
+      - hogwarts year
+      - continuity planning
+    quote_excerpt_short: While I imagined that there would be considerably more than forty students in each year at Hogwarts
+    source_note: Rowling says she envisaged a substantially larger annual Hogwarts population than forty, but retained a portion of Harry’s peers for narrative continuity in school scenes.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-notes
+      - continuity-planning
+      - hogwarts
+      - school-population
+      - student-population
+      - year-cohort
+    candidate_part: Editorial Appendix
+    candidate_chapter: Authorial Development of Hogwarts
+    candidate_section: Scale of the Student Body
+    reason_for_placement: The statement qualifies apparent roster size through its authorial-development context.
+    relevance_to_hogwarts_a_history: Supports a carefully qualified editorial discussion of school-size evidence, while making clear that it is authorial intent rather than a census.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed match was returned for the focused population-and-authorial-notes query.
+      audit:
+        query_tags:
+          - authorial-notes
+          - student-population
+        candidates: []
+    confidence: high
+    limitations: This is Rowling’s retrospective account of imagined scale, not a numerical in-universe student count or an identified year’s register.
+
+  - id: ext-a15-003
+    source_file: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+    source_id: A15
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: As the stories evolved, I changed the parentage of some of the original forty.
+      end_phrase: Neville Longbottom, developed into a very important character.
+      local_occurrence_note: Author’s note, fourth paragraph; retrospective account of revisions to the roster.
+    nearby_context: Rowling notes that the original list changed through renamed, unused, and expanded characters as the series developed.
+    match_terms:
+      - character development
+      - original forty revisions
+      - parentage changes
+    quote_excerpt_short: As the stories evolved, I changed the parentage of some of the original forty.
+    source_note: "Rowling cautions that the original roster was revised: some names and parentages changed, some students never appeared, and several background figures later gained developed roles."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-notes
+      - character-development
+      - character-revisions
+      - original-forty
+      - parentage
+      - source-criticism
+    candidate_part: Editorial Appendix
+    candidate_chapter: Authorial Development of Hogwarts
+    candidate_section: Revision and Canonical Caution
+    reason_for_placement: The claim defines the evidentiary limits of using the early roster alongside the published series.
+    relevance_to_hogwarts_a_history: Provides an explicit caution against treating every original-forty annotation as fixed later canon, while preserving the roster’s value as developmental evidence.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed match was returned for the focused character-development-and-authorial-notes query.
+      audit:
+        query_tags:
+          - authorial-notes
+          - character-development
+        candidates: []
+    confidence: high
+    limitations: The source does not enumerate every revision or provide a complete mapping from the notebook roster to final published character details.

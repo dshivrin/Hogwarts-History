@@ -13186,6 +13186,43 @@ Summary: The available evidence includes 1 source item, led by: The private Occl
   - Corroborates: `ootp-ch24-001`, `ootp-ch24-005`, `gof-ch30-002`. ootp-ch24-001 records the private lesson arrangement, ootp-ch24-005 records Snape's explanation of Occlumency and Legilimency, and gof-ch30-002 identifies the Pensieve; this entry adds the Shield Charm reversal and Snape's use of stored thoughts during lessons.
   - Notes: The instruction is secret and exceptional, not part of the regular Hogwarts curriculum.
 
+## Part: Editorial Appendix
+
+### Chapter: Authorial Development of Hogwarts
+
+#### Section: Revision and Canonical Caution
+
+Summary: The available evidence includes 1 source item, led by: Rowling cautions that the original roster was revised: some names and parentages changed, some students never appeared, and several background figures later gained developed roles.
+
+- **Context:** Rowling cautions that the original roster was revised: some names and parentages changed, some students never appeared, and several background figures later gained developed roles.
+  - Quote: "As the stories evolved, I changed the parentage of some of the original forty."
+  - Source: A15, https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty, `sources/external/official-rowling/a15-the-original-forty.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The source does not enumerate every revision or provide a complete mapping from the notebook roster to final published character details.
+
+#### Section: Scale of the Student Body
+
+Summary: The available evidence includes 1 source item, led by: Rowling says she envisaged a substantially larger annual Hogwarts population than forty, but retained a portion of Harry’s peers for narrative continuity in school scenes.
+
+- **Context:** Rowling says she envisaged a substantially larger annual Hogwarts population than forty, but retained a portion of Harry’s peers for narrative continuity in school scenes.
+  - Quote: "While I imagined that there would be considerably more than forty students in each year at Hogwarts"
+  - Source: A15, https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty, `sources/external/official-rowling/a15-the-original-forty.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is Rowling’s retrospective account of imagined scale, not a numerical in-universe student count or an identified year’s register.
+
+#### Section: The Original Forty
+
+Summary: The available evidence includes 1 source item, led by: Rowling’s early planning notebook recorded forty students in Harry’s year, including the central trio, and assigned them to houses with parentage markers.
+
+- **Context:** Rowling’s early planning notebook recorded forty students in Harry’s year, including the central trio, and assigned them to houses with parentage markers.
+  - Quote: "a list of forty names of students in Harry’s year (including Harry, Ron and Hermione), all allocated houses"
+  - Source: A15, https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty, `sources/external/official-rowling/a15-the-original-forty.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: historical_claim
+  - Notes: A 2015 retrospective authorial note; it describes a private draft notebook and does not reproduce the house symbols or establish in-universe enrolment figures.
+
 ## Part: Foundations and Founders
 
 ### Chapter: The Four Founders and Their Legacy
@@ -13200,6 +13237,34 @@ Summary: The available evidence includes 1 source item, led by: A common-room po
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The source identifies the subject and founder status but does not establish when the portrait was installed or whether its depicted cup is a historical object.
+
+## Part: Foundations and Physical Heritage
+
+### Chapter: Ancient Artefacts of Hogwarts
+
+#### Section: The Hogwarts Pensieve
+
+Summary: The available evidence includes 1 source item, led by: The Hogwarts Pensieve is an ornately carved stone object bearing modified Saxon runes and is characterized as older than the school itself.
+
+- **Supporting evidence:** The Hogwarts Pensieve is an ornately carved stone object bearing modified Saxon runes and is characterized as older than the school itself.
+  - Quote: "modified Saxon runes, which mark it as an artefact of immense antiquity that pre-dates the creation of the school."
+  - Source: A17, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, `sources/external/official-rowling/a17-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The article offers no archaeological dating method or explanation of the modified Saxon runes.
+
+### Chapter: Founding Traditions and Legends
+
+#### Section: The Pensieve Discovery Legend
+
+Summary: The available evidence includes 1 source item, led by: An explicitly unsubstantiated legend places the founders' discovery of the Pensieve at the ground later selected for Hogwarts.
+
+- **Supporting evidence:** An explicitly unsubstantiated legend places the founders' discovery of the Pensieve at the ground later selected for Hogwarts.
+  - Quote: "One (unsubstantiated) legend says that the founders discovered the Pensieve half-buried in the ground."
+  - Source: A17, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, `sources/external/official-rowling/a17-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source itself labels this tradition unsubstantiated and gives no independent corroboration.
 
 ## Part: Founders, Headmasters, and Institutional Memory
 
@@ -13903,6 +13968,56 @@ Summary: The available evidence includes 1 source item, led by: The map incorpor
   - Reference type: magical_architecture
   - Notes: The account names the charm and describes its effect but does not provide its method of construction or defined coverage limits.
 
+## Part: Hogwarts governance and staff
+
+### Chapter: Caretakers and castle maintenance
+
+#### Section: Peeves as a continuing caretaker responsibility
+
+Summary: The available evidence includes 1 source item, led by: The account places Peeves in a continuous caretaker problem reaching back to Hankerton Humble, whom it identifies as appointed by the four founders.
+
+- **Supporting evidence:** The account places Peeves in a continuous caretaker problem reaching back to Hankerton Humble, whom it identifies as appointed by the four founders.
+  - Quote: "a pet peeve of every Hogwarts caretaker from Hankerton Humble (appointed by the four founders) onwards."
+  - Source: A16, https://www.harrypotter.com/writing-by-jk-rowling/peeves, `sources/external/official-rowling/a16-peeves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The assertion about Hankerton Humble and founder appointment appears only in this retrospective official account.
+
+#### Section: The 1876 Peeves containment crisis
+
+Summary: The available evidence includes 1 source item, led by: In 1876, caretaker Rancorous Carpe's elaborate containment attempt failed; Peeves escaped armed and prompted a castle evacuation.
+
+- **Supporting evidence:** In 1876, caretaker Rancorous Carpe's elaborate containment attempt failed; Peeves escaped armed and prompted a castle evacuation.
+  - Quote: "The last and most disastrous was made in 1876 by caretaker Rancorous Carpe"
+  - Source: A16, https://www.harrypotter.com/writing-by-jk-rowling/peeves, `sources/external/official-rowling/a16-peeves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The narrative is a single retrospective source and provides no archival text of Carpe's plan or the evacuation.
+
+#### Section: The Eupraxia Mole settlement
+
+Summary: The available evidence includes 1 source item, led by: Eupraxia Mole ended the 1876 standoff through a contract granting Peeves specified privileges; following Carpe's retirement, the account says no later expulsion attempt occurred.
+
+- **Supporting evidence:** Eupraxia Mole ended the 1876 standoff through a contract granting Peeves specified privileges; following Carpe's retirement, the account says no later expulsion attempt occurred.
+  - Quote: "A three-day standoff was ended when the Headmistress of the day, Eupraxia Mole, agreed to sign a contract"
+  - Source: A16, https://www.harrypotter.com/writing-by-jk-rowling/peeves, `sources/external/official-rowling/a16-peeves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The source paraphrases the agreement and does not reproduce the contract or independently corroborate the later policy.
+
+### Chapter: Discipline and resident inhabitants
+
+#### Section: Authorities recognised by Peeves
+
+Summary: The available evidence includes 1 source item, led by: Peeves generally observes teachers' classroom authority and is specifically afraid of the Bloody Baron, indicating limited channels for managing him.
+
+- **Supporting evidence:** Peeves generally observes teachers' classroom authority and is specifically afraid of the Bloody Baron, indicating limited channels for managing him.
+  - Quote: "generally amenable to the strictures of the teachers, agreeing to stay out of their classrooms while they teach."
+  - Source: A16, https://www.harrypotter.com/writing-by-jk-rowling/peeves, `sources/external/official-rowling/a16-peeves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source describes habitual behaviour rather than a formal written authority policy or enforcement mechanism.
+
 ## Part: Hogwarts in Times of Crisis
 
 ### Chapter: Crisis Authority and School Closure
@@ -14214,6 +14329,32 @@ Summary: The available evidence includes 1 source item, led by: During Dumbledor
   - Corroborates: `hbp-ch08-006`, `hbp-ch18-004`, `hbp-ch19-006`. hbp-ch08-006 covers strengthened fortifications and reporting rules; hbp-ch18-004 and hbp-ch19-006 cover Marauder's Map surveillance and blind spots. This entry adds Dumbledore's statement about protections during his absences and the explicit D.A./contact-Galleon watch plan.
   - Notes: The additional protections are not specified, and Harry's plan depends on his inference that Malfoy is the celebrant in the Room of Requirement.
 
+## Part: Hogwarts inhabitants and daily life
+
+### Chapter: Resident ghosts and poltergeists
+
+#### Section: Peeves' exceptional properties
+
+Summary: The available evidence includes 1 source item, led by: Peeves is described as an unusually notorious British poltergeist with a physical form and the ability to become invisible voluntarily.
+
+- **Supporting evidence:** Peeves is described as an unusually notorious British poltergeist with a physical form and the ability to become invisible voluntarily.
+  - Quote: "Unlike the overwhelming majority of his colleagues, Peeves has a physical form, though he is able to become invisible at will."
+  - Source: A16, https://www.harrypotter.com/writing-by-jk-rowling/peeves, `sources/external/official-rowling/a16-peeves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The source gives no independent mechanism or date for these exceptional properties.
+
+#### Section: The origin and nature of Peeves
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts' large adolescent magical population generated a poltergeist, which the account characterises as especially noisy, destructive, and difficult to expel.
+
+- **Supporting evidence:** Hogwarts' large adolescent magical population generated a poltergeist, which the account characterises as especially noisy, destructive, and difficult to expel.
+  - Quote: "a poltergeist would be generated; it was likewise to be expected"
+  - Source: A16, https://www.harrypotter.com/writing-by-jk-rowling/peeves, `sources/external/official-rowling/a16-peeves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: A retrospective official essay supplies the account and does not date Peeves' generation precisely.
+
 ## Part: Hogwarts: A History
 
 ### Chapter: Admission and the First Years
@@ -14377,6 +14518,28 @@ Summary: The available evidence includes 1 source item, led by: The decorated Gr
   - Reference type: house_system
   - Corroborates: `gof-ch12-003`. gof-ch12-003 records House tables and Sorting procedure; this entry corroborates the House system and adds explicit heraldic colors, animals, and the combined Hogwarts coat of arms.
   - Notes: The decorations are for a special Triwizard occasion, though the symbols appear official rather than temporary inventions.
+
+## Part: Institutional Life and Governance
+
+### Chapter: School Records and Historical Memory
+
+#### Section: The Hogwarts Pensieve
+
+Summary: The available evidence includes 2 source items, led by: The school-owned Pensieve accumulates life-experience memories left by successive headmasters and headmistresses, creating a reference library for the current officeholder.
+
+- **Supporting evidence:** The school-owned Pensieve accumulates life-experience memories left by successive headmasters and headmistresses, creating a reference library for the current officeholder.
+  - Quote: "It has been used by a long line of headmasters and headmistresses."
+  - Source: A17, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, `sources/external/official-rowling/a17-pensieve.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article is retrospective and does not identify individual headteachers, dates, or the contents of the deposited memories.
+
+- **Context:** Pensieves are conventionally buried with their owners, including remaining thoughts and memories, unless the owner directed otherwise.
+  - Quote: "any thoughts or memories left inside the Pensieve are likewise interred with their owner."
+  - Source: A17, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, `sources/external/official-rowling/a17-pensieve.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
 
 ## Part: Learning, Books, and Forbidden Knowledge
 

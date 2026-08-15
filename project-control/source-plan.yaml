@@ -1265,16 +1265,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
     manifest_id: external-A15
     output_file: sources/external/official-rowling/a15-the-original-forty.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:01:26Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:55:20Z'
+      agent: source-agent-a15
+    - event: completed
+      at: '2026-08-15T15:01:26Z'
     staging_file: work/external-staging/a15.yaml
   - id: A16
     title: Peeves
@@ -1284,16 +1289,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a16-peeves.md
     manifest_id: external-A16
     output_file: sources/external/official-rowling/a16-peeves.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:03:14Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:55:22Z'
+      agent: source-agent-a16
+    - event: completed
+      at: '2026-08-15T15:03:14Z'
     staging_file: work/external-staging/a16.yaml
   - id: A17
     title: Pensieve
@@ -1303,16 +1313,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
     manifest_id: external-A17
     output_file: sources/external/official-rowling/a17-pensieve.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:05:18Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:55:24Z'
+      agent: source-agent-a17
+    - event: completed
+      at: '2026-08-15T15:05:18Z'
     staging_file: work/external-staging/a17.yaml
   - id: A18
     title: Hogwarts School Subjects

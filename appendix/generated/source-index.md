@@ -237,3 +237,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A12`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, 6 entries, 0 explicit references.
 - `A13`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn, 3 entries, 0 explicit references.
 - `A14`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, 5 entries, 0 explicit references.
+- `A15`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty, 3 entries, 0 explicit references.
+- `A16`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/peeves, 6 entries, 0 explicit references.
+- `A17`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, 4 entries, 0 explicit references.

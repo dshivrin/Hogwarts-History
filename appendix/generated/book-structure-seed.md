@@ -390,10 +390,24 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Private Occlumency Instruction
   - Shield Charm reversal and Pensieve safeguards
 
+## Editorial Appendix
+
+- Authorial Development of Hogwarts
+  - Revision and Canonical Caution
+  - Scale of the Student Body
+  - The Original Forty
+
 ## Foundations and Founders
 
 - The Four Founders and Their Legacy
   - Helga Hufflepuff in House Memory
+
+## Foundations and Physical Heritage
+
+- Ancient Artefacts of Hogwarts
+  - The Hogwarts Pensieve
+- Founding Traditions and Legends
+  - The Pensieve Discovery Legend
 
 ## Founders, Headmasters, and Institutional Memory
 
@@ -580,6 +594,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Castle’s Magical Systems
   - Mapping and Occupant-Tracking Magic
 
+## Hogwarts governance and staff
+
+- Caretakers and castle maintenance
+  - Peeves as a continuing caretaker responsibility
+  - The 1876 Peeves containment crisis
+  - The Eupraxia Mole settlement
+- Discipline and resident inhabitants
+  - Authorities recognised by Peeves
+
 ## Hogwarts in Times of Crisis
 
 - Crisis Authority and School Closure
@@ -617,6 +640,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wartime Security and Student Resistance
   - Headmaster absences and unofficial D.A. watch
 
+## Hogwarts inhabitants and daily life
+
+- Resident ghosts and poltergeists
+  - Peeves' exceptional properties
+  - The origin and nature of Peeves
+
 ## Hogwarts: A History
 
 - Admission and the First Years
@@ -645,6 +674,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - The Four Houses
   - House colors, animals, and the Hogwarts coat of arms
+
+## Institutional Life and Governance
+
+- School Records and Historical Memory
+  - The Hogwarts Pensieve
 
 ## Later Editorial Notes
 

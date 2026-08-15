@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A15
-  title: The Original Forty
+  id: A18
+  title: Hogwarts School Subjects
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
-  output_file: sources/external/official-rowling/a15-the-original-forty.yaml
-  staging_file: work/external-staging/a15.yaml
-  manifest_id: external-A15
+  input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+  output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+  staging_file: work/external-staging/a18.yaml
+  manifest_id: external-A18
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 49
+    pending: 46
     in_progress: 0
-    done: 14
+    done: 17
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A15
-    title: The Original Forty
+    id: A18
+    title: Hogwarts School Subjects
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
-    output_file: sources/external/official-rowling/a15-the-original-forty.yaml
-    staging_file: work/external-staging/a15.yaml
-    manifest_id: external-A15
+    input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+    staging_file: work/external-staging/a18.yaml
+    manifest_id: external-A18
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A14
-    title: 'The Mirror of Erised  '
+    id: A17
+    title: Pensieve
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
-    output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
-    staging_file: work/external-staging/a14.yaml
-    manifest_id: external-A14
+    input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
+    output_file: sources/external/official-rowling/a17-pensieve.yaml
+    staging_file: work/external-staging/a17.yaml
+    manifest_id: external-A17
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A14
-  title: 'The Mirror of Erised  '
+  id: A17
+  title: Pensieve
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
-  output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
-  staging_file: work/external-staging/a14.yaml
-  manifest_id: external-A14
+  input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
+  output_file: sources/external/official-rowling/a17-pensieve.yaml
+  staging_file: work/external-staging/a17.yaml
+  manifest_id: external-A17
   claimed_by: null
   claimed_at: null
