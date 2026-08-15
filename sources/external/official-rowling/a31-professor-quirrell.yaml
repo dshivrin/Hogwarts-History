@@ -1,0 +1,222 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A31
+  source_file: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
+  title: Professor Quirrell
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell
+  capture_completeness: complete
+  content_sha256: 9f72466646bac3a581dca61cc3668fb948b2c8608e0a3c24679759f27e9e48e8
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; extracted Hogwarts-relevant later-material evidence.
+
+entries:
+  - id: ext-a31-001
+    source_file: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
+    source_id: A31
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: clever young wizard who took a ‘Grand Tour’
+      end_phrase: before taking up his teaching post at Hogwarts
+      local_occurrence_note: Opening paragraph, first two sentences.
+    nearby_context: The article introduces Quirrell as Harry's first Defence Against the Dark Arts teacher and explains his everyday turban and public reputation.
+    match_terms:
+      - professor-quirrell
+      - grand-tour
+      - teaching-post
+      - hogwarts
+    quote_excerpt_short: took a ‘Grand Tour’ around the world before taking up his teaching post at Hogwarts
+    source_note: Before joining Hogwarts staff, Quirrell undertook a deliberate worldwide Grand Tour; the article identifies his later post as Defence Against the Dark Arts.
+    reference_type: curriculum_or_subject
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - curriculum
+      - defence-against-dark-arts
+      - hogwarts-teacher
+      - professor-quirrell
+      - travel
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Post-1984 Developments
+    candidate_section: Hogwarts staff careers and appointments
+    reason_for_placement: Documents a named teacher's pre-appointment experience and subject post, but the appointment is part of Harry's later school era.
+    relevance_to_hogwarts_a_history: Useful only as later editorial context on Hogwarts staffing, not as evidence for an original 1984-edition institutional history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries confirm Quirrell's teaching role or other staff travel, but none records his individual pre-appointment Grand Tour.
+      audit:
+        query_tags:
+          - curriculum
+          - defence-against-dark-arts
+          - hogwarts-teacher
+          - professor-quirrell
+          - travel
+        candidates:
+          - id: gof-ch33-002
+            disposition: distinct
+          - id: ps-ch05-004
+            disposition: distinct
+          - id: dh-ch35-006
+            disposition: distinct
+          - id: ext-a14-002
+            disposition: distinct
+          - id: ext-a18-001
+            disposition: distinct
+          - id: ext-a18-002
+            disposition: distinct
+          - id: ext-a18-003
+            disposition: distinct
+          - id: ext-a18-004
+            disposition: distinct
+          - id: gof-ch12-006
+            disposition: distinct
+          - id: gof-ch14-001
+            disposition: distinct
+    confidence: high
+    limitations: Rowling's 2015 retrospective identifies Quirrell's later career; the snapshot does not date the tour or appointment, and the Harry-era post is after a 1984 original-edition cutoff.
+
+  - id: ext-a31-002
+    source_file: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
+    source_id: A31
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: position at Hogwarts, he took immediate possession of Quirrell
+      end_phrase: was incapable of resisting
+      local_occurrence_note: Third paragraph, after Quirrell seeks Voldemort.
+    nearby_context: Rowling says Quirrell sought the weakened Voldemort for importance and skills, then proved unable to control their encounter.
+    match_terms:
+      - professor-quirrell
+      - hogwarts-teacher
+      - voldemort-possession
+      - internal-threat
+    quote_excerpt_short: When Voldemort realised that the young man had a position at Hogwarts, he took immediate possession of Quirrell
+    source_note: Voldemort immediately possessed Quirrell after learning that he held a Hogwarts position, turning an incumbent teacher into an internal threat.
+    reference_type: security_or_protection
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - hogwarts-teacher
+      - internal-threat
+      - possession
+      - professor-quirrell
+      - voldemort
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Post-1984 Developments
+    candidate_section: Internal threats and school security
+    reason_for_placement: Records a post-1984 infiltration of the school through an employee, relevant to retrospective security history.
+    relevance_to_hogwarts_a_history: A later editorial example of a Hogwarts teacher being compromised by Voldemort; excluded from an original 1984 edition.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch33-002
+      notes: The Goblet of Fire entry states the same core possession-based infiltration; this Rowling source adds the immediate trigger and Quirrell's inability to resist.
+      audit:
+        query_tags:
+          - hogwarts-teacher
+          - internal-threat
+          - possession
+          - professor-quirrell
+          - voldemort
+        candidates:
+          - id: gof-ch33-002
+            disposition: duplicate
+          - id: ootp-ch36-006
+            disposition: distinct
+          - id: ootp-ch37-002
+            disposition: distinct
+          - id: ps-ch17-002
+            disposition: corroborating
+          - id: cos-ch02-003
+            disposition: distinct
+          - id: cos-ch17-002
+            disposition: distinct
+          - id: cos-ch17-004
+            disposition: distinct
+          - id: cos-ch18-001
+            disposition: distinct
+          - id: dh-ch03-001
+            disposition: distinct
+          - id: dh-ch03-003
+            disposition: distinct
+    confidence: high
+    limitations: This is a 2015 authorial retrospective on the 1991–92 school year; it does not establish a general staffing safeguard or permit inclusion in a 1984 original edition.
+
+  - id: ext-a31-003
+    source_file: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
+    source_id: A31
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Quirrell is, in effect, turned into a temporary Horcrux by Voldemort
+      end_phrase: leaving the damaged and enfeebled Quirrell to collapse and die
+      local_occurrence_note: Fifth paragraph, explaining the possession's physical consequences.
+    nearby_context: The article distinguishes Quirrell from a conventional soul-loss victim, describes Voldemort occupying his body, and recounts the fatal collapse after Harry's protective magic burns the shared body.
+    match_terms:
+      - professor-quirrell
+      - temporary-horcrux
+      - soul-magic
+      - voldemort-possession
+    quote_excerpt_short: Quirrell is, in effect, turned into a temporary Horcrux by Voldemort
+    source_note: Rowling characterises Voldemort's occupation of Quirrell as making him, in effect, a temporary Horcrux; the strain greatly depletes Quirrell and the shared body's burns precede his death.
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - possession
+      - professor-quirrell
+      - soul-magic
+      - temporary-horcrux
+      - voldemort
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Post-1984 Developments
+    candidate_section: Dark magic and the Quirrell possession
+    reason_for_placement: Provides Rowling's later explanatory framing for a post-1984 Hogwarts security incident and its soul-magic mechanism.
+    relevance_to_hogwarts_a_history: Use as a clearly labelled later editorial cross-reference on the magic involved in Quirrell's infiltration, not as original-edition history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Goblet of Fire entry corroborates the underlying Quirrell-possession incident, but none of the candidates makes Rowling's temporary-Horcrux characterisation.
+      audit:
+        query_tags:
+          - possession
+          - professor-quirrell
+          - soul-magic
+          - temporary-horcrux
+          - voldemort
+        candidates:
+          - id: gof-ch33-002
+            disposition: corroborating
+          - id: dh-ch27-003
+            disposition: distinct
+          - id: ootp-ch36-006
+            disposition: distinct
+          - id: ootp-ch37-002
+            disposition: distinct
+          - id: cos-ch02-003
+            disposition: distinct
+          - id: cos-ch17-002
+            disposition: distinct
+          - id: cos-ch17-004
+            disposition: distinct
+          - id: cos-ch18-001
+            disposition: distinct
+          - id: dh-ch03-001
+            disposition: distinct
+          - id: dh-ch03-003
+            disposition: distinct
+    confidence: high
+    limitations: The phrase “in effect” is Rowling's analogy, not a technical definition equating Quirrell with a conventional Horcrux; it is later-source material about the 1991–92 school year and postdates a 1984 cutoff.

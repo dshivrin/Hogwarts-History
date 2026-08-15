@@ -872,6 +872,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Scrimgeour succession and Prime Minister protection
 - Ministry Structure and Hogwarts Oversight
   - Department levels relevant to school-age magic
+- Post-1984 Developments
+  - Dark magic and the Quirrell possession
+  - Hogwarts staff careers and appointments
+  - Internal threats and school security
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
 - Protective Magic and Security
@@ -1559,6 +1563,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - History of Magic and Historical Instruction
   - Professor Binns as a ghost teacher
 
+## Part III: School Life and Institutions
+
+- Discipline and Student Misconduct
+  - Detention for Damage to the Quidditch Pitch
+- Notable Pupils and Alumni
+  - Gilderoy Lockhart's Ravenclaw Years
+- Student Culture and Communications
+  - Owl Post Disruption in the Great Hall
+  - Proposed School Newsletter
+
 ## Part III: Student Life
 
 - The Four Houses
@@ -1599,6 +1613,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Second Wizarding War
   - The loss of Ministry Time-Turners
 
+## Part IV: The Modern School
+
+- Defence Against the Dark Arts Staffing
+  - Dumbledore's Lockhart Appointment
+  - Lockhart's Classroom Failure
+  - Recruitment Difficulties and Curse Rumours
+
 ## Part V - Magical Creatures, Beings, and Dark Forces
 
 - Inferi and Dark Creature Defense
@@ -1620,6 +1641,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Beauxbatons, the Flamels, and School Grounds
   - Beauxbatons: Geography and Student Catchment
   - Comparative School Populations
+  - Ilvermorny Sorting and Wand Access
+  - Ilvermorny and the Adaptation of the House Model
+  - Ilvermorny as a North American Counterpart
 
 ## People of Hogwarts
 

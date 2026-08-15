@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A30
-  title: Ilvermorny School of Witchcraft and Wizardry
+  id: A33
+  title: Sybill Trelawney
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
-  output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
-  staging_file: work/external-staging/a30.yaml
-  manifest_id: external-A30
+  input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+  output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
+  staging_file: work/external-staging/a33.yaml
+  manifest_id: external-A33
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 34
+    pending: 31
     in_progress: 0
-    done: 29
+    done: 32
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A30
-    title: Ilvermorny School of Witchcraft and Wizardry
+    id: A33
+    title: Sybill Trelawney
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
-    output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
-    staging_file: work/external-staging/a30.yaml
-    manifest_id: external-A30
+    input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+    output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
+    staging_file: work/external-staging/a33.yaml
+    manifest_id: external-A33
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A29
-    title: Beauxbatons Academy of Magic
+    id: A32
+    title: Gilderoy Lockhart
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
-    output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
-    staging_file: work/external-staging/a29.yaml
-    manifest_id: external-A29
+    input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
+    output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+    staging_file: work/external-staging/a32.yaml
+    manifest_id: external-A32
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A29
-  title: Beauxbatons Academy of Magic
+  id: A32
+  title: Gilderoy Lockhart
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
-  output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
-  staging_file: work/external-staging/a29.yaml
-  manifest_id: external-A29
+  input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
+  output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  staging_file: work/external-staging/a32.yaml
+  manifest_id: external-A32
   claimed_by: null
   claimed_at: null

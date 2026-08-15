@@ -22599,6 +22599,170 @@ by_entry:
     - french-ministry
     source_unit: A29
     output_yaml: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
+  ext-a30-001:
+    title: 'International Schools and the Triwizard Tradition: Ilvermorny and the
+      Adaptation of the House Model'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - hogwarts-comparison
+    - house-system
+    - ilvermorny
+    - school-founders
+    source_unit: A30
+    output_yaml: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+  ext-a30-002:
+    title: 'International Schools and the Triwizard Tradition: Ilvermorny as a North
+      American Counterpart'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hogwarts-comparison
+    - ilvermorny
+    - institutional-history
+    - international-schools
+    source_unit: A30
+    output_yaml: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+  ext-a30-003:
+    title: 'International Schools and the Triwizard Tradition: Ilvermorny Sorting
+      and Wand Access'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - hogwarts-comparison
+    - ilvermorny
+    - sorting-ceremony
+    - wand-regulation
+    source_unit: A30
+    output_yaml: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+  ext-a31-001:
+    title: 'Post-1984 Developments: Hogwarts staff careers and appointments'
+    classification: post_1984_excluded_from_original
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - curriculum
+    - defence-against-dark-arts
+    - hogwarts-teacher
+    - professor-quirrell
+    - travel
+    source_unit: A31
+    output_yaml: sources/external/official-rowling/a31-professor-quirrell.yaml
+  ext-a31-002:
+    title: 'Post-1984 Developments: Internal threats and school security'
+    classification: post_1984_excluded_from_original
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - hogwarts-teacher
+    - internal-threat
+    - possession
+    - professor-quirrell
+    - voldemort
+    source_unit: A31
+    output_yaml: sources/external/official-rowling/a31-professor-quirrell.yaml
+  ext-a31-003:
+    title: 'Post-1984 Developments: Dark magic and the Quirrell possession'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - possession
+    - professor-quirrell
+    - soul-magic
+    - temporary-horcrux
+    - voldemort
+    source_unit: A31
+    output_yaml: sources/external/official-rowling/a31-professor-quirrell.yaml
+  ext-a32-001:
+    title: 'Notable Pupils and Alumni: Gilderoy Lockhart''s Ravenclaw Years'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - gilderoy-lockhart
+    - ravenclaw
+    - school-life
+    - schoolwork
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a32-002:
+    title: 'Student Culture and Communications: Proposed School Newsletter'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - gilderoy-lockhart
+    - headmaster
+    - school-newsletter
+    - student-life
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a32-003:
+    title: 'Discipline and Student Misconduct: Detention for Damage to the Quidditch
+      Pitch'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - detention
+    - gilderoy-lockhart
+    - quidditch-pitch
+    - student-discipline
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a32-004:
+    title: 'Student Culture and Communications: Owl Post Disruption in the Great Hall'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - gilderoy-lockhart
+    - great-hall
+    - owls
+    - valentines
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a32-005:
+    title: 'Defence Against the Dark Arts Staffing: Recruitment Difficulties and Curse
+      Rumours'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cursed-position
+    - defence-against-the-dark-arts
+    - gilderoy-lockhart
+    - teacher-recruitment
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a32-006:
+    title: 'Defence Against the Dark Arts Staffing: Dumbledore''s Lockhart Appointment'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dumbledore
+    - gilderoy-lockhart
+    - staff-appointment
+    - teaching-purpose
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a32-007:
+    title: 'Defence Against the Dark Arts Staffing: Lockhart''s Classroom Failure'
+    classification: post_1984_excluded_from_original
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - defence-against-the-dark-arts
+    - gilderoy-lockhart
+    - teaching-quality
+    - unqualified-teaching
+    source_unit: A32
+    output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
 by_tag:
   '1402':
   - ext-a25-003
@@ -24405,6 +24569,7 @@ by_tag:
   - ext-a18-002
   - ext-a18-003
   - ext-a18-004
+  - ext-a31-001
   - gof-ch12-006
   - gof-ch14-001
   - gof-ch15-002
@@ -24441,6 +24606,8 @@ by_tag:
   cursed-objects:
   - hbp-ch12-006
   - hbp-ch12-007
+  cursed-position:
+  - ext-a32-005
   cursed-ring:
   - dh-ch33-006
   cursed-wounds:
@@ -24683,8 +24850,12 @@ by_tag:
   - dh-ch03-002
   deep-vaults:
   - dh-ch26-004
+  defence-against-dark-arts:
+  - ext-a31-001
   defence-against-the-dark-arts:
   - ext-a10-003
+  - ext-a32-005
+  - ext-a32-007
   defenders:
   - dh-ch36-001
   defense-against-the-dark-arts:
@@ -24890,6 +25061,7 @@ by_tag:
   detention:
   - cos-ch05-005
   - cos-ch07-006
+  - ext-a32-003
   - gof-ch13-006
   - gof-ch18-004
   - hbp-ch15-007
@@ -25174,6 +25346,7 @@ by_tag:
   - dh-ch35-003
   - dh-ch35-004
   - ext-a14-004
+  - ext-a32-006
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -26391,6 +26564,13 @@ by_tag:
   - cos-ch04-006
   - cos-ch06-006
   - cos-ch06-007
+  - ext-a32-001
+  - ext-a32-002
+  - ext-a32-003
+  - ext-a32-004
+  - ext-a32-005
+  - ext-a32-006
+  - ext-a32-007
   - ootp-ch23-006
   gillyweed:
   - gof-ch26-004
@@ -26565,6 +26745,7 @@ by_tag:
   - dh-ch36-001
   - dh-ch36-005
   - ext-a13-003
+  - ext-a32-004
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -27132,6 +27313,7 @@ by_tag:
   - cos-ch12-006
   - cos-ch14-006
   - dh-ch07-003
+  - ext-a32-002
   - hbp-ch09-004
   - hbp-ch30-005
   - ootp-ch21-007
@@ -27603,6 +27785,9 @@ by_tag:
   hogwarts-comparison:
   - ext-a29-001
   - ext-a29-002
+  - ext-a30-001
+  - ext-a30-002
+  - ext-a30-003
   hogwarts-correspondence:
   - dh-ch33-004
   hogwarts-danger:
@@ -27788,6 +27973,8 @@ by_tag:
   - hbp-ch23-006
   hogwarts-teacher:
   - dh-ch35-006
+  - ext-a31-001
+  - ext-a31-002
   - gof-ch33-002
   hogwarts-teaching-job:
   - dh-ch31-003
@@ -28118,6 +28305,7 @@ by_tag:
   - ext-a02-001
   - ext-a02-003
   - ext-a26-003
+  - ext-a30-001
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -28209,6 +28397,10 @@ by_tag:
   - ps-ch14-004
   illegal-curses:
   - gof-ch14-002
+  ilvermorny:
+  - ext-a30-001
+  - ext-a30-002
+  - ext-a30-003
   immortality:
   - dh-ch27-003
   impediment-curse:
@@ -28315,6 +28507,7 @@ by_tag:
   - ext-a14-002
   - ext-a19-001
   - ext-a20-001
+  - ext-a30-002
   - hbp-ch29-006
   - ootp-ch22-006
   institutional-memory:
@@ -28353,6 +28546,7 @@ by_tag:
   intermarriage:
   - ootp-ch06-006
   internal-threat:
+  - ext-a31-002
   - gof-ch33-002
   - ps-ch17-002
   international-association-of-quidditch:
@@ -28381,6 +28575,7 @@ by_tag:
   international-schools:
   - ext-a29-001
   - ext-a29-002
+  - ext-a30-002
   international-statute-secrecy:
   - ext-a04-002
   - ext-a24-001
@@ -30537,6 +30732,7 @@ by_tag:
   - poa-ch09-004
   owls:
   - cos-ch04-003
+  - ext-a32-004
   - gof-ch05-002
   - gof-ch06-003
   - hbp-ch05-006
@@ -30992,6 +31188,8 @@ by_tag:
   - ps-ch08-001
   possession:
   - cos-ch17-002
+  - ext-a31-002
+  - ext-a31-003
   - gof-ch33-002
   - ootp-ch36-006
   - ootp-ch37-002
@@ -31320,6 +31518,9 @@ by_tag:
   - ps-ch01-004
   - ps-ch16-006
   professor-quirrell:
+  - ext-a31-001
+  - ext-a31-002
+  - ext-a31-003
   - gof-ch33-002
   - ps-ch05-004
   - ps-ch16-007
@@ -31649,6 +31850,7 @@ by_tag:
   - qtta-ch03-001
   - qtta-ch03-002
   quidditch-pitch:
+  - ext-a32-003
   - ps-ch11-004
   - qtta-ch05-001
   - qtta-ch06-001
@@ -31750,6 +31952,7 @@ by_tag:
   - dh-ch30-001
   - ext-a20-002
   - ext-a20-004
+  - ext-a32-001
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -32117,6 +32320,8 @@ by_tag:
   - ext-a13-003
   school-fees:
   - hbp-ch17-002
+  school-founders:
+  - ext-a30-001
   school-geography:
   - cos-ch05-002
   - ext-a29-001
@@ -32190,6 +32395,8 @@ by_tag:
   - hbp-ch06-001
   - ootp-ch09-004
   - poa-ch01-005
+  school-life:
+  - ext-a32-001
   school-list:
   - gof-ch05-006
   - gof-ch10-007
@@ -32212,6 +32419,8 @@ by_tag:
   - hbp-ch12-004
   - hbp-ch14-002
   - hbp-ch15-004
+  school-newsletter:
+  - ext-a32-002
   school-origins:
   - ext-a02-001
   - ext-a07-005
@@ -32383,6 +32592,8 @@ by_tag:
   - ext-a10-002
   schoolchild-knowledge:
   - beedle-ch04-005
+  schoolwork:
+  - ext-a32-001
   scoring:
   - gof-ch20-007
   - gof-ch26-005
@@ -32981,6 +33192,7 @@ by_tag:
   - ext-a20-005
   sorting-ceremony:
   - cos-ch05-004
+  - ext-a30-003
   - gof-ch12-003
   - hbp-ch08-003
   - ootp-ch19-002
@@ -33020,6 +33232,7 @@ by_tag:
   soul-magic:
   - dh-ch06-007
   - dh-ch27-003
+  - ext-a31-003
   - hbp-ch23-005
   source-criticism:
   - dh-ch02-006
@@ -33136,6 +33349,7 @@ by_tag:
   - poa-ch11-005
   staff-appointment:
   - cos-ch04-006
+  - ext-a32-006
   - gof-ch12-006
   staff-appointments:
   - dh-ch12-001
@@ -33391,6 +33605,7 @@ by_tag:
   - cos-ch18-002
   - dh-ch16-002
   - dh-ch30-002
+  - ext-a32-003
   - hbp-ch24-006
   - ootp-ch01-003
   - ootp-ch02-003
@@ -33465,6 +33680,7 @@ by_tag:
   - hbp-ch22-001
   - hbp-ch25-007
   student-life:
+  - ext-a32-002
   - ootp-ch11-007
   student-lockdown:
   - cos-ch14-004
@@ -33878,6 +34094,8 @@ by_tag:
   teacher-permission:
   - cos-ch09-007
   - cos-ch10-001
+  teacher-recruitment:
+  - ext-a32-005
   teacher-spaces:
   - poa-ch07-006
   teacher-speech:
@@ -33892,6 +34110,10 @@ by_tag:
   - ext-a12-004
   teaching-methods:
   - hbp-ch10-004
+  teaching-purpose:
+  - ext-a32-006
+  teaching-quality:
+  - ext-a32-007
   team-captain:
   - hbp-ch19-005
   team-captains:
@@ -33928,6 +34150,8 @@ by_tag:
   - ext-a25-005
   temporal-magic:
   - ootp-ch35-004
+  temporary-horcrux:
+  - ext-a31-003
   term-boundaries:
   - gof-ch03-003
   - gof-ch04-001
@@ -34202,6 +34426,7 @@ by_tag:
   - gof-ch37-002
   travel:
   - ext-a14-002
+  - ext-a31-001
   travers:
   - dh-ch05-005
   trelawney:
@@ -34437,6 +34662,8 @@ by_tag:
   - hbp-ch03-004
   - hbp-ch21-004
   - ootp-ch06-007
+  unqualified-teaching:
+  - ext-a32-007
   unregistered-animagus:
   - ootp-ch25-007
   unregistered-magic:
@@ -34455,6 +34682,8 @@ by_tag:
   - dh-ch32-001
   vacation:
   - poa-ch03-004
+  valentines:
+  - ext-a32-004
   valentines-day:
   - cos-ch13-003
   - ootp-ch24-003
@@ -34559,6 +34788,8 @@ by_tag:
   - dh-ch35-001
   - dh-ch35-002
   - dh-ch36-001
+  - ext-a31-002
+  - ext-a31-003
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004
@@ -34686,6 +34917,8 @@ by_tag:
   wand-registration:
   - ootp-ch07-002
   - ootp-ch34-002
+  wand-regulation:
+  - ext-a30-003
   wand-repair:
   - dh-ch36-007
   wand-rights:

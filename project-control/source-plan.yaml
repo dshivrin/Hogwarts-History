@@ -1625,16 +1625,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
     manifest_id: external-A30
     output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:08:53Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:01:11Z'
+      agent: source-agent-a30
+    - event: completed
+      at: '2026-08-15T16:08:53Z'
     staging_file: work/external-staging/a30.yaml
   - id: A31
     title: Professor Quirrell
@@ -1644,16 +1649,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
     manifest_id: external-A31
     output_file: sources/external/official-rowling/a31-professor-quirrell.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:26:33Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:01:11Z'
+      agent: source-agent-a31
+    - event: completed
+      at: '2026-08-15T16:26:33Z'
     staging_file: work/external-staging/a31.yaml
   - id: A32
     title: Gilderoy Lockhart
@@ -1663,16 +1673,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
     manifest_id: external-A32
     output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:28:32Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:01:11Z'
+      agent: source-agent-a32
+    - event: completed
+      at: '2026-08-15T16:28:32Z'
     staging_file: work/external-staging/a32.yaml
   - id: A33
     title: Sybill Trelawney

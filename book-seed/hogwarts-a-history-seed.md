@@ -10775,6 +10775,42 @@ Summary: The available evidence includes 1 source item, led by: The Ministry lif
   - Reference type: historical_claim
   - Notes: The lift announcements list offices but do not explain jurisdictional history or all departments on each level.
 
+### Chapter: Post-1984 Developments
+
+#### Section: Dark magic and the Quirrell possession
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterises Voldemort's occupation of Quirrell as making him, in effect, a temporary Horcrux; the strain greatly depletes Quirrell and the shared body's burns precede his death.
+
+- **Context:** Rowling characterises Voldemort's occupation of Quirrell as making him, in effect, a temporary Horcrux; the strain greatly depletes Quirrell and the shared body's burns precede his death.
+  - Quote: "Quirrell is, in effect, turned into a temporary Horcrux by Voldemort"
+  - Source: A31, https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell, `sources/external/official-rowling/a31-professor-quirrell.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The phrase “in effect” is Rowling's analogy, not a technical definition equating Quirrell with a conventional Horcrux; it is later-source material about the 1991–92 school year and postdates a 1984 cutoff.
+
+#### Section: Hogwarts staff careers and appointments
+
+Summary: The available evidence includes 1 source item, led by: Before joining Hogwarts staff, Quirrell undertook a deliberate worldwide Grand Tour; the article identifies his later post as Defence Against the Dark Arts.
+
+- **Context:** Before joining Hogwarts staff, Quirrell undertook a deliberate worldwide Grand Tour; the article identifies his later post as Defence Against the Dark Arts.
+  - Quote: "took a ‘Grand Tour’ around the world before taking up his teaching post at Hogwarts"
+  - Source: A31, https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell, `sources/external/official-rowling/a31-professor-quirrell.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Rowling's 2015 retrospective identifies Quirrell's later career; the snapshot does not date the tour or appointment, and the Harry-era post is after a 1984 original-edition cutoff.
+
+#### Section: Internal threats and school security
+
+Summary: The available evidence includes 1 source item, led by: Voldemort immediately possessed Quirrell after learning that he held a Hogwarts position, turning an incumbent teacher into an internal threat.
+
+- **Corroboration:** Voldemort immediately possessed Quirrell after learning that he held a Hogwarts position, turning an incumbent teacher into an internal threat.
+  - Quote: "When Voldemort realised that the young man had a position at Hogwarts, he took immediate possession of Quirrell"
+  - Source: A31, https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell, `sources/external/official-rowling/a31-professor-quirrell.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `gof-ch33-002`. The Goblet of Fire entry states the same core possession-based infiltration; this Rowling source adds the immediate trigger and Quirrell's inability to resist.
+  - Notes: This is a 2015 authorial retrospective on the 1991–92 school year; it does not establish a general staffing safeguard or permit inclusion in a 1984 original edition.
+
 ### Chapter: Post-1984 Incidents and Confirmations
 
 #### Section: Enchanted Vehicles on Hogwarts Grounds
@@ -16508,6 +16544,58 @@ Summary: The available evidence includes 1 source item, led by: Professor Binns,
   - Corroborates: `ps-ch08-005`. The Philosopher's Stone entry states the same Binns origin and continued teaching; later classroom entries corroborate the subject's routine operation.
   - Notes: This overview does not date Binns's death, appointment, or the beginning of his ghostly teaching.
 
+## Part: Part III: School Life and Institutions
+
+### Chapter: Discipline and Student Misconduct
+
+#### Section: Detention for Damage to the Quidditch Pitch
+
+Summary: The available evidence includes 1 source item, led by: Lockhart was assigned a week of detentions after magically carving his signature in enormous letters on the Quidditch pitch.
+
+- **Supporting evidence:** Lockhart was assigned a week of detentions after magically carving his signature in enormous letters on the Quidditch pitch.
+  - Quote: "He received a week's worth of detentions for magically carving his signature into the Quidditch pitch."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The later retrospective gives the punishment and act but no date, responsible staff member, or rule wording.
+
+### Chapter: Notable Pupils and Alumni
+
+#### Section: Gilderoy Lockhart's Ravenclaw Years
+
+Summary: The available evidence includes 1 source item, led by: Lockhart was sorted into Ravenclaw and initially performed well academically at Hogwarts.
+
+- **Supporting evidence:** Lockhart was sorted into Ravenclaw and initially performed well academically at Hogwarts.
+  - Quote: "Sorted into Ravenclaw house, Lockhart was soon achieving good marks in his schoolwork."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: A 2015 Rowling-authored retrospective; the school years are narrated without precise dates, so the pre-1984 placement is inferential.
+
+### Chapter: Student Culture and Communications
+
+#### Section: Owl Post Disruption in the Great Hall
+
+Summary: The available evidence includes 1 source item, led by: Lockhart sent himself 800 Valentine's cards, producing an owl congestion in the Great Hall severe enough to stop breakfast.
+
+- **Supporting evidence:** Lockhart sent himself 800 Valentine's cards, producing an owl congestion in the Great Hall severe enough to stop breakfast.
+  - Quote: "He sent himself eight hundred Valentine's cards one year."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: A later retrospective recounts a single undated incident; it should not be generalized into a normal Valentine's practice.
+
+#### Section: Proposed School Newsletter
+
+Summary: The available evidence includes 1 source item, led by: As a student, Lockhart urged the Headmaster to establish a school newsletter so that his name and photograph could appear in print.
+
+- **Supporting evidence:** As a student, Lockhart urged the Headmaster to establish a school newsletter so that his name and photograph could appear in print.
+  - Quote: "He lobbied the Headmaster to start a school newsletter."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The account states lobbying, not approval or publication; it is a later retrospective with no date for the proposal.
+
 ## Part: Part III: Student Life
 
 ### Chapter: The Four Houses
@@ -16672,6 +16760,43 @@ Summary: The available evidence includes 1 source item, led by: The Ministry's c
   - Reference type: historical_claim
   - Notes: The relative dating is approximate and the source supplies no detailed account of the fight or inventory.
 
+## Part: Part IV: The Modern School
+
+### Chapter: Defence Against the Dark Arts Staffing
+
+#### Section: Dumbledore's Lockhart Appointment
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore selected Lockhart for the DADA post believing a return to normal school life would expose his fraud.
+
+- **Context:** Dumbledore selected Lockhart for the DADA post believing a return to normal school life would expose his fraud.
+  - Quote: "Dumbledore was convinced that Lockhart needed only to be put back into an ordinary school setting."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The motivation is supplied by a 2015 retrospective and describes a post-1984 appointment, so it is later material rather than original-edition content.
+
+#### Section: Lockhart's Classroom Failure
+
+Summary: The available evidence includes 1 source item, led by: Lockhart's DADA lessons soon displayed his inability to perform the skills he claimed to master in his books.
+
+- **Context:** Lockhart's DADA lessons soon displayed his inability to perform the skills he claimed to master in his books.
+  - Quote: "His classes quickly became a charade."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: This retrospective characterization covers a later Harry-era school year and is not independent of the narrative source it contextualizes.
+
+#### Section: Recruitment Difficulties and Curse Rumours
+
+Summary: The available evidence includes 1 source item, led by: During Lockhart's appointment period, the Defence Against the Dark Arts post was reportedly difficult to fill as rumours of a curse gained traction.
+
+- **Context:** During Lockhart's appointment period, the Defence Against the Dark Arts post was reportedly difficult to fill as rumours of a curse gained traction.
+  - Quote: "It had become almost impossible to persuade anybody else to take the job."
+  - Source: A32, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, `sources/external/official-rowling/a32-gilderoy-lockhart.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is a Rowling retrospective about the later Harry-era; it characterizes a rumour gathering strength and does not establish the curse independently.
+
 ## Part: Part V - Magical Creatures, Beings, and Dark Forces
 
 ### Chapter: Inferi and Dark Creature Defense
@@ -16782,6 +16907,39 @@ Summary: The available evidence includes 1 source item, led by: Rowling explicit
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: historical_claim
   - Notes: The source gives only a relative comparison, with no enrolment figures, measurement date, or stated definition of studentship.
+
+#### Section: Ilvermorny Sorting and Wand Access
+
+Summary: The available evidence includes 1 source item, led by: Rowling contrasts Ilvermorny's carving-based, student-choice house allocation with Hogwarts, and says Rappaport's Law formerly withheld student wands until school arrival and restricted their use away from school until age seventeen.
+
+- **Supporting evidence:** Rowling contrasts Ilvermorny's carving-based, student-choice house allocation with Hogwarts, and says Rappaport's Law formerly withheld student wands until school arrival and restricted their use away from school until age seventeen.
+  - Quote: "The Sorting Ceremony is not the only major difference between Hogwarts and Ilvermorny."
+  - Source: A30, https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny, `sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The account supplies no date for the current carving procedure; its former wand rules ended in 1965 and therefore do not establish present practice.
+
+#### Section: Ilvermorny and the Adaptation of the House Model
+
+Summary: The available evidence includes 1 source item, led by: The proposed Ilvermorny house system deliberately followed the boys' second-hand model of Hogwarts, but assigned four locally meaningful magical creatures rather than Hogwarts founders.
+
+- **Supporting evidence:** The proposed Ilvermorny house system deliberately followed the boys' second-hand model of Hogwarts, but assigned four locally meaningful magical creatures rather than Hogwarts founders.
+  - Quote: "The boys’ ideas of what a magical school ought to be like were based almost entirely on Hogwarts."
+  - Source: A30, https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny, `sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: This is a retrospective Rowling-authored account, not a contemporaneous seventeenth-century record, and it gives no detailed comparison of the two schools' house governance.
+
+#### Section: Ilvermorny as a North American Counterpart
+
+Summary: The available evidence includes 1 source item, led by: The source presents Ilvermorny as a Hogwarts-derived North American counterpart that grew into a boarding school with teachers, dormitories, protective concealment, and an international reputation by the nineteenth century.
+
+- **Supporting evidence:** The source presents Ilvermorny as a Hogwarts-derived North American counterpart that grew into a boarding school with teachers, dormitories, protective concealment, and an international reputation by the nineteenth century.
+  - Quote: "The girl who had dreamed of attending Hogwarts had helped found the North American equivalent."
+  - Source: A30, https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny, `sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source supplies broad stages rather than dates for the expansion, staff recruitment, boarding transition, and international reputation; its explicit North American-equivalent framing is retrospective.
 
 ## Part: People of Hogwarts
 

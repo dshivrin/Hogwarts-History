@@ -252,3 +252,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A27`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, 5 entries, 0 explicit references.
 - `A28`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools, 4 entries, 0 explicit references.
 - `A29`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, 5 entries, 0 explicit references.
+- `A30`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny, 3 entries, 0 explicit references.
+- `A31`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell, 3 entries, 0 explicit references.
+- `A32`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, 7 entries, 0 explicit references.
