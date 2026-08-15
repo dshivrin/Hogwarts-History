@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A02
-  title: The Sorting Hat
+  id: A03
+  title: The Quill of Acceptance and The Book of Admittance
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
-  output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
-  staging_file: work/external-staging/a02.yaml
-  manifest_id: external-A02
+  input_path: resources/external/official-rowling/harrypotter-com/a03-quill-of-acceptance-and-book-of-admittance.md
+  output_file: sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
+  staging_file: work/external-staging/a03.yaml
+  manifest_id: external-A03
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 62
+    pending: 61
     in_progress: 0
-    done: 1
+    done: 2
     blocked: 0
   active_units: []
   next_pending_unit:
+    id: A03
+    title: The Quill of Acceptance and The Book of Admittance
+    status: pending
+    input_path: resources/external/official-rowling/harrypotter-com/a03-quill-of-acceptance-and-book-of-admittance.md
+    output_file: sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
+    staging_file: work/external-staging/a03.yaml
+    manifest_id: external-A03
+    claimed_by: null
+    claimed_at: null
+  last_completed_unit:
     id: A02
     title: The Sorting Hat
-    status: pending
+    status: done
     input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
     output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
     staging_file: work/external-staging/a02.yaml
     manifest_id: external-A02
     claimed_by: null
     claimed_at: null
-  last_completed_unit:
-    id: A01
-    title: Chamber of Secrets
-    status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
-    output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
-    staging_file: work/external-staging/a01.yaml
-    manifest_id: external-A01
-    claimed_by: null
-    claimed_at: null
 last_completed_external_source_unit:
-  id: A01
-  title: Chamber of Secrets
+  id: A02
+  title: The Sorting Hat
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
-  output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
-  staging_file: work/external-staging/a01.yaml
-  manifest_id: external-A01
+  input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+  output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
+  staging_file: work/external-staging/a02.yaml
+  manifest_id: external-A02
   claimed_by: null
   claimed_at: null

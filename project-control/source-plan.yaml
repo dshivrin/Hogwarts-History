@@ -953,16 +953,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
     manifest_id: external-A02
     output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:05:49Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T13:45:05Z'
+      agent: test-agent-a02
+    - event: completed
+      at: '2026-08-15T14:05:49Z'
     staging_file: work/external-staging/a02.yaml
   - id: A03
     title: The Quill of Acceptance and The Book of Admittance

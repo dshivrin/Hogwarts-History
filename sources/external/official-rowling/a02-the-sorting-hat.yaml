@@ -1,0 +1,226 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A02
+  source_file: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+  title: The Sorting Hat
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat
+  capture_completeness: complete
+  content_sha256: ee42cb0b9fed7fac88921f6c142417e5f0265759894564c3feaef226faee4c65
+  processed_date: '2026-08-15'
+  processor_notes: Complete official snapshot read; three institutionally relevant claims extracted, with the out-of-universe author note excluded.
+
+entries:
+- id: ext-a02-001
+  source_file: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+  source_id: A02
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat
+  source_section: The Sorting Hat
+  pdf_page: null
+  printed_page: null
+  extracted_text_lines: null
+  text_anchor:
+    start_phrase: The famous Hogwarts Sorting Hat gives an account
+    end_phrase: each founder’s particular preferences in students
+    local_occurrence_note: Opening paragraph of the main article, before the description of the Hat's abilities.
+  nearby_context: The article presents the Hat's songs as its own account while explicitly framing its original ownership as legend.
+  match_terms:
+  - Sorting Hat
+  - four founders
+  - Godric Gryffindor
+  - jointly enchanted
+  - four houses
+  - founder preferences
+  quote_excerpt_short: jointly enchanted by all four founders
+  source_note: Tradition holds that Gryffindor's former hat was jointly enchanted by the four founders to assign students among their Houses according to their preferred qualities.
+  reference_type: house_system
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - sorting-hat
+  - founders
+  - house-system
+  - godric-gryffindor
+  - four-houses
+  - school-origins
+  candidate_part: Origins of the School
+  candidate_chapter: The Founding of Hogwarts
+  candidate_section: The Sorting Hat's Ownership, Enchantment, and House-Selection Purpose
+  reason_for_placement: The claim connects a founder-owned artifact directly to the origin and intended continuation of the four-House selection system.
+  relevance_to_hogwarts_a_history: This can support a founding-era account of how the founders attempted to preserve their admissions preferences after they could no longer sort pupils themselves.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-002
+    notes: gof-ch12-002 makes the same core founding-enchantment claim through the Hat's song; this official prose carrier adds the explicit qualification that Gryffindor's ownership is legendary.
+    audit:
+      query_tags:
+      - founders
+      - house-system
+      - sorting-hat
+      candidates:
+      - id: gof-ch12-002
+        disposition: duplicate
+      - id: ootp-ch11-003
+        disposition: corroborating
+      - id: dh-ch33-005
+        disposition: distinct
+      - id: dh-ch36-002
+        disposition: distinct
+      - id: gof-ch12-003
+        disposition: distinct
+      - id: ootp-ch19-002
+        disposition: distinct
+      - id: cos-ch05-004
+        disposition: distinct
+      - id: cos-ch09-003
+        disposition: corroborating
+      - id: cos-ch09-004
+        disposition: distinct
+      - id: cos-ch12-001
+        disposition: distinct
+  confidence: high
+  limitations: The ownership and genesis are introduced as legend, and the modern official article does not provide a founding date or identify the source behind the tradition.
+
+- id: ext-a02-002
+  source_file: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+  source_id: A02
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat
+  source_section: The Sorting Hat
+  pdf_page: null
+  printed_page: null
+  extracted_text_lines: null
+  text_anchor:
+    start_phrase: The Sorting Hat is one of the cleverest enchanted objects
+    end_phrase: respond to the thoughts of the wearer
+    local_occurrence_note: Second paragraph of the main article, between the genesis account and the discussion of sorting errors.
+  nearby_context: The article explains the Hat's speech and mind-reading abilities as features of an enchanted object containing the founders' intelligence.
+  match_terms:
+  - intelligence of the four founders
+  - speak
+  - rip near its brim
+  - Legilimency
+  - wearer's thoughts
+  - capabilities or mood
+  quote_excerpt_short: skilled at Legilimency
+  source_note: The Hat contains the four founders' intelligence, speaks through a tear near its brim, uses Legilimency to assess wearers, and can answer their thoughts.
+  reference_type: institutional_custom
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - sorting-hat
+  - founders
+  - enchanted-object
+  - legilimency
+  - magical-artifact
+  - mind-reading
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: The Hat's Intelligence, Speech, and Legilimency
+  reason_for_placement: These capabilities explain the magical mechanism by which the school's recurring House-assignment ceremony can evaluate and converse with each pupil.
+  relevance_to_hogwarts_a_history: This can give a historical edition a concise technical account of the founding artifact's continuing institutional function.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Indexed entries establish the Hat's origin and later responsive acts but do not duplicate this explicit inventory of speech, embedded founder intelligence, Legilimency, and thought response.
+    audit:
+      query_tags:
+      - enchanted-object
+      - founders
+      - legilimency
+      - sorting-hat
+      candidates:
+      - id: gof-ch12-002
+        disposition: corroborating
+      - id: ootp-ch11-003
+        disposition: distinct
+      - id: cos-ch05-004
+        disposition: distinct
+      - id: cos-ch09-003
+        disposition: distinct
+      - id: cos-ch12-001
+        disposition: distinct
+      - id: cos-ch17-005
+        disposition: corroborating
+      - id: cos-ch18-004
+        disposition: distinct
+      - id: dh-ch07-006
+        disposition: distinct
+      - id: dh-ch12-002
+        disposition: distinct
+      - id: dh-ch31-002
+        disposition: distinct
+  confidence: high
+  limitations: The article describes capabilities rather than documenting tests or limits; it does not explain how the founders' intelligence was preserved or how deeply the Hat can read a mind.
+
+- id: ext-a02-003
+  source_file: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+  source_id: A02
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat
+  source_section: The Sorting Hat
+  pdf_page: null
+  printed_page: null
+  extracted_text_lines: null
+  text_anchor:
+    start_phrase: The Sorting Hat is notorious for refusing to admit
+    end_phrase: many centuries it has been at work
+    local_occurrence_note: Third and final paragraph of the main article, immediately before the Author's note.
+  nearby_context: The article contrasts apparent mismatches between House stereotypes and student conduct with its overall assessment that the Hat rarely errs.
+  match_terms:
+  - refusing to admit a mistake
+  - sorting of a student
+  - original decision
+  - errors of judgement
+  - many centuries
+  - House traits
+  quote_excerpt_short: the Hat has made remarkably few errors of judgement
+  source_note: The Hat defends its assignments even when later conduct conflicts with House stereotypes, although the article judges its actual error rate low across centuries of service.
+  reference_type: house_system
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - sorting-hat
+  - house-system
+  - sorting-errors
+  - sorting-decisions
+  - centuries
+  - institutional-continuity
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: Sorting Judgment, Apparent Mismatches, and Institutional Longevity
+  reason_for_placement: The claim qualifies the ceremony's judgment mechanism and describes both its institutional behavior and long operating history.
+  relevance_to_hogwarts_a_history: This can temper a historical explanation of House assignment by distinguishing later stereotype-defying conduct from an acknowledged Sorting error.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Indexed Sorting entries show decisions, procedures, and longevity, but none duplicates the Hat's refusal to concede mistakes together with the official claim of few errors over centuries.
+    audit:
+      query_tags:
+      - centuries
+      - house-system
+      - sorting-errors
+      - sorting-hat
+      candidates:
+      - id: dh-ch33-005
+        disposition: corroborating
+      - id: dh-ch36-002
+        disposition: distinct
+      - id: gof-ch12-002
+        disposition: distinct
+      - id: gof-ch12-003
+        disposition: corroborating
+      - id: ootp-ch11-003
+        disposition: distinct
+      - id: ootp-ch19-002
+        disposition: corroborating
+      - id: cos-ch05-004
+        disposition: corroborating
+      - id: cos-ch09-004
+        disposition: distinct
+      - id: cos-ch12-001
+        disposition: distinct
+      - id: cos-ch17-005
+        disposition: distinct
+  confidence: high
+  limitations: The article gives no quantified error count, named conceded mistake, or formal review process, and its examples use broad House stereotypes rather than case histories.

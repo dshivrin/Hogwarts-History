@@ -20910,6 +20910,50 @@ by_entry:
     - school-searches
     source_unit: A01
     output_yaml: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+  ext-a02-001:
+    title: 'The Founding of Hogwarts: The Sorting Hat''s Ownership, Enchantment, and
+      House-Selection Purpose'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - founders
+    - four-houses
+    - godric-gryffindor
+    - house-system
+    - school-origins
+    - sorting-hat
+    source_unit: A02
+    output_yaml: sources/external/official-rowling/a02-the-sorting-hat.yaml
+  ext-a02-002:
+    title: 'The Sorting Ceremony: The Hat''s Intelligence, Speech, and Legilimency'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - enchanted-object
+    - founders
+    - legilimency
+    - magical-artifact
+    - mind-reading
+    - sorting-hat
+    source_unit: A02
+    output_yaml: sources/external/official-rowling/a02-the-sorting-hat.yaml
+  ext-a02-003:
+    title: 'The Sorting Ceremony: Sorting Judgment, Apparent Mismatches, and Institutional
+      Longevity'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - centuries
+    - house-system
+    - institutional-continuity
+    - sorting-decisions
+    - sorting-errors
+    - sorting-hat
+    source_unit: A02
+    output_yaml: sources/external/official-rowling/a02-the-sorting-hat.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -22087,6 +22131,8 @@ by_tag:
   - ootp-ch33-006
   - ootp-ch38-003
   - ps-ch15-006
+  centuries:
+  - ext-a02-003
   ceremonial-duty:
   - gof-ch22-002
   chamber-crisis:
@@ -23725,6 +23771,8 @@ by_tag:
   - qtta-ch06-009
   enchanted-maze:
   - gof-ch31-005
+  enchanted-object:
+  - ext-a02-002
   enchanted-objects:
   - ootp-ch07-006
   enchanted-quills:
@@ -24325,6 +24373,8 @@ by_tag:
   - cos-ch09-003
   - dh-ch31-002
   - ext-a01-001
+  - ext-a02-001
+  - ext-a02-002
   - gof-ch12-002
   - ootp-ch11-003
   - ootp-ch17-002
@@ -24340,6 +24390,7 @@ by_tag:
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
+  - ext-a02-001
   - gof-ch12-002
   - ps-ch03-001
   four-point-spell:
@@ -24573,6 +24624,7 @@ by_tag:
   - dh-ch16-003
   - dh-ch19-004
   - dh-ch25-002
+  - ext-a02-001
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
@@ -26088,6 +26140,8 @@ by_tag:
   - dh-ch23-001
   - dh-ch33-005
   - dh-ch36-002
+  - ext-a02-001
+  - ext-a02-003
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -26269,6 +26323,8 @@ by_tag:
   - ootp-ch28-004
   - ootp-ch30-002
   - ootp-ch32-006
+  institutional-continuity:
+  - ext-a02-003
   institutional-custom:
   - dh-ch08-001
   - ps-ch07-002
@@ -26570,6 +26626,7 @@ by_tag:
   legend:
   - cos-ch09-005
   legilimency:
+  - ext-a02-002
   - ootp-ch24-005
   - ootp-ch26-005
   leprechaun-gold:
@@ -26890,6 +26947,7 @@ by_tag:
   - dh-ch07-004
   - dh-ch07-005
   - dh-ch19-004
+  - ext-a02-002
   - gof-ch30-002
   - ootp-ch24-004
   - ps-ch12-006
@@ -27455,6 +27513,8 @@ by_tag:
   - ootp-ch05-006
   mimbulus-mimbletonia:
   - ootp-ch10-004
+  mind-reading:
+  - ext-a02-002
   minerva-mcgonagall:
   - beedle-ch04-003
   - beedle-fm-004
@@ -29915,6 +29975,7 @@ by_tag:
   - hbp-ch14-002
   - hbp-ch15-004
   school-origins:
+  - ext-a02-001
   - gof-ch12-002
   - ootp-ch11-003
   school-oversight:
@@ -30634,6 +30695,10 @@ by_tag:
   - hbp-ch08-003
   - ootp-ch19-002
   - ps-ch07-002
+  sorting-decisions:
+  - ext-a02-003
+  sorting-errors:
+  - ext-a02-003
   sorting-expectations:
   - ps-ch06-005
   sorting-hat:
@@ -30646,6 +30711,9 @@ by_tag:
   - dh-ch33-005
   - dh-ch36-002
   - dh-ch36-003
+  - ext-a02-001
+  - ext-a02-002
+  - ext-a02-003
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001

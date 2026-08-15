@@ -2488,6 +2488,11 @@ tags:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  centuries:
+    entries:
+    - ext-a02-003
+    output_yaml:
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   ceremonial-duty:
     entries:
     - gof-ch22-002
@@ -5867,6 +5872,11 @@ tags:
     - gof-ch31-005
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  enchanted-object:
+    entries:
+    - ext-a02-002
+    output_yaml:
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   enchanted-objects:
     entries:
     - ootp-ch07-006
@@ -7160,6 +7170,8 @@ tags:
     - cos-ch09-003
     - dh-ch31-002
     - ext-a01-001
+    - ext-a02-001
+    - ext-a02-002
     - gof-ch12-002
     - ootp-ch11-003
     - ootp-ch17-002
@@ -7170,6 +7182,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   founders-rift:
     entries:
     - cos-ch09-004
@@ -7195,6 +7208,7 @@ tags:
     entries:
     - cos-ch05-004
     - cos-ch09-003
+    - ext-a02-001
     - gof-ch12-002
     - ps-ch03-001
     output_yaml:
@@ -7202,6 +7216,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   four-point-spell:
     entries:
     - gof-ch31-005
@@ -7709,6 +7724,7 @@ tags:
     - dh-ch16-003
     - dh-ch19-004
     - dh-ch25-002
+    - ext-a02-001
     - gof-ch12-002
     - gof-ch30-001
     output_yaml:
@@ -7719,6 +7735,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-19-the-silver-doe.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   godrics-hollow:
     entries:
     - dh-ch08-006
@@ -10787,6 +10804,8 @@ tags:
     - dh-ch23-001
     - dh-ch33-005
     - dh-ch36-002
+    - ext-a02-001
+    - ext-a02-003
     - gof-ch12-002
     - gof-ch12-003
     - gof-ch15-004
@@ -10814,6 +10833,7 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   house-tables:
     entries:
     - cos-ch06-001
@@ -11182,6 +11202,11 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+  institutional-continuity:
+    entries:
+    - ext-a02-003
+    output_yaml:
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   institutional-custom:
     entries:
     - dh-ch08-001
@@ -11861,11 +11886,13 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
   legilimency:
     entries:
+    - ext-a02-002
     - ootp-ch24-005
     - ootp-ch26-005
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   leprechaun-gold:
     entries:
     - gof-ch28-002
@@ -12532,6 +12559,7 @@ tags:
     - dh-ch07-004
     - dh-ch07-005
     - dh-ch19-004
+    - ext-a02-002
     - gof-ch30-002
     - ootp-ch24-004
     - ps-ch12-006
@@ -12542,6 +12570,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-19-the-silver-doe.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   magical-artifacts:
     entries:
     - dh-ch11-007
@@ -13769,6 +13798,11 @@ tags:
     - ootp-ch10-004
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  mind-reading:
+    entries:
+    - ext-a02-002
+    output_yaml:
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   minerva-mcgonagall:
     entries:
     - beedle-ch04-003
@@ -19019,11 +19053,13 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
   school-origins:
     entries:
+    - ext-a02-001
     - gof-ch12-002
     - ootp-ch11-003
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   school-oversight:
     entries:
     - cos-ch14-006
@@ -20534,6 +20570,16 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+  sorting-decisions:
+    entries:
+    - ext-a02-003
+    output_yaml:
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
+  sorting-errors:
+    entries:
+    - ext-a02-003
+    output_yaml:
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   sorting-expectations:
     entries:
     - ps-ch06-005
@@ -20550,6 +20596,9 @@ tags:
     - dh-ch33-005
     - dh-ch36-002
     - dh-ch36-003
+    - ext-a02-001
+    - ext-a02-002
+    - ext-a02-003
     - gof-ch12-002
     - gof-ch12-003
     - gof-ch30-001
@@ -20573,6 +20622,7 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a02-the-sorting-hat.yaml
   soul-fragment:
     entries:
     - dh-ch33-007

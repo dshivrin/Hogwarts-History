@@ -774,7 +774,7 @@
 
 ### Task 4: Record readiness and run isolated A02
 
-**Status:** in progress
+**Status:** done
 
 **Files:**
 - Modify: `docs/superpowers/plans/2026-08-15-external-source-extraction-automation.md`
@@ -804,7 +804,7 @@
 
   Expected: tests pass, source validation passes, the worktree is clean, queue counts are `pending: 62`, `in_progress: 0`, `done: 1`, `blocked: 0`, and A02 is next.
 
-- [ ] **Step 2: Dispatch only the A02 test agent**
+- [x] **Step 2: Dispatch only the A02 test agent**
 
   The coordinating agent claims A02 and supplies the returned token and paths. The test-agent prompt must say:
 
@@ -817,13 +817,13 @@
   Report every file read, every query run, extracted entry count, and unresolved limitation.
   ```
 
-- [ ] **Step 3: Complete A02 through the controller**
+- [x] **Step 3: Complete A02 through the controller**
 
   Copy the runtime-generated `claim_token` returned by the A02 claim into the second argument of `just complete-external`, and record the fully concrete command in the execution ledger before running it. Do not store the token in the plan.
 
   Expected: completion validates the carrier and anchors, verifies the exact structured duplicate audit, promotes only A02, regenerates outputs, and reports A02 as `done`.
 
-- [ ] **Step 4: Review A02 evidence and queue effects**
+- [x] **Step 4: Review A02 evidence and queue effects**
 
   Check each A02 entry against the snapshot text and assert:
 
@@ -837,7 +837,7 @@
 
   If evidence review fails, revert only the A02 trial through a normal Git revert and leave the controller fixes intact.
 
-- [ ] **Step 5: Run final verification and commit A02 separately**
+- [x] **Step 5: Run final verification and commit A02 separately**
 
   Run:
 

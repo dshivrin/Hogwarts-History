@@ -537,4 +537,4 @@
 - [x] Structured candidate dispositions replace free-text duplicate gating.
 - [x] Completion reuses the exact ranked `query-dupes` implementation.
 - [x] Handled post-promotion failures restore all completion-owned artifacts byte-for-byte.
-- [ ] A02 isolated trial accepted.
+- [x] A02 isolated trial accepted.

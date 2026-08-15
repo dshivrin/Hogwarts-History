@@ -47,6 +47,18 @@ Summary: The available evidence includes 1 source item, led by: The Sorting Hat 
   - Corroborates: `cos-ch09-003`. Chamber of Secrets Chapter Nine already gives Binns's founding account; this entry corroborates it through the Sorting Hat and adds House virtues plus the Hat's origin.
   - Notes: The Hat's song is ceremonial and compressed; it does not cite sources or resolve the exact founding date.
 
+#### Section: The Sorting Hat's Ownership, Enchantment, and House-Selection Purpose
+
+Summary: The available evidence includes 1 source item, led by: Tradition holds that Gryffindor's former hat was jointly enchanted by the four founders to assign students among their Houses according to their preferred qualities.
+
+- **Corroboration:** Tradition holds that Gryffindor's former hat was jointly enchanted by the four founders to assign students among their Houses according to their preferred qualities.
+  - Quote: "jointly enchanted by all four founders"
+  - Source: A02, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, `sources/external/official-rowling/a02-the-sorting-hat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `gof-ch12-002`. gof-ch12-002 makes the same core founding-enchantment claim through the Hat's song; this official prose carrier adds the explicit qualification that Gryffindor's ownership is legendary.
+  - Notes: The ownership and genesis are introduced as legend, and the modern official article does not provide a founding date or identify the source behind the tradition.
+
 ### Chapter: The Founders' Rift
 
 #### Section: Admission, Bloodline Ideology, and Slytherin's Departure
@@ -1762,6 +1774,28 @@ Summary: The available evidence includes 1 source item, led by: The robe shop sc
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: institutional_custom
   - Notes: Some claims come from an eleven-year-old prospective student and include prejudice rather than official school policy.
+
+#### Section: Sorting Judgment, Apparent Mismatches, and Institutional Longevity
+
+Summary: The available evidence includes 1 source item, led by: The Hat defends its assignments even when later conduct conflicts with House stereotypes, although the article judges its actual error rate low across centuries of service.
+
+- **Supporting evidence:** The Hat defends its assignments even when later conduct conflicts with House stereotypes, although the article judges its actual error rate low across centuries of service.
+  - Quote: "the Hat has made remarkably few errors of judgement"
+  - Source: A02, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, `sources/external/official-rowling/a02-the-sorting-hat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: The article gives no quantified error count, named conceded mistake, or formal review process, and its examples use broad House stereotypes rather than case histories.
+
+#### Section: The Hat's Intelligence, Speech, and Legilimency
+
+Summary: The available evidence includes 1 source item, led by: The Hat contains the four founders' intelligence, speaks through a tear near its brim, uses Legilimency to assess wearers, and can answer their thoughts.
+
+- **Supporting evidence:** The Hat contains the four founders' intelligence, speaks through a tear near its brim, uses Legilimency to assess wearers, and can answer their thoughts.
+  - Quote: "skilled at Legilimency"
+  - Source: A02, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, `sources/external/official-rowling/a02-the-sorting-hat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The article describes capabilities rather than documenting tests or limits; it does not explain how the founders' intelligence was preserved or how deeply the Hat can read a mind.
 
 #### Section: The Sorting Hat as Magical School Artifact
 

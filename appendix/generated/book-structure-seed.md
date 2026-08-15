@@ -306,6 +306,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - First-Year Lake Crossing
   - House Points and the House Cup
   - Pre-Arrival House Uncertainty
+  - Sorting Judgment, Apparent Mismatches, and Institutional Longevity
+  - The Hat's Intelligence, Speech, and Legilimency
   - The Sorting Hat as Magical School Artifact
   - Warning Songs in Times of School Danger
 
@@ -1256,6 +1258,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Founder Unity, House Ideals, and Slytherin's Departure
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
+  - The Sorting Hat's Ownership, Enchantment, and House-Selection Purpose
 
 ## Part I - Sources And Authorities
 
