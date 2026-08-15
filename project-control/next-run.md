@@ -5,16 +5,16 @@ Generated display only. Source of truth: `project-control/source-plan.yaml`.
 ## External Source Queue
 
 - Total: 63
-- Pending: 58
+- Pending: 55
 - In progress: 0
-- Done: 5
+- Done: 8
 - Blocked: 0
 
 ## Next Pending Unit
 
-- Unit: `A06` — Hogwarts Ghosts
-- Input: `resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md`
-- Output: `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+- Unit: `A09` — The Great Lake
+- Input: `resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md`
+- Output: `sources/external/official-rowling/a09-the-great-lake.yaml`
 
 Claim it with `just claim-external <agent> <unit>`.
 

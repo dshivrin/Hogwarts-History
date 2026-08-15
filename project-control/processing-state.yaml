@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A06
-  title: Hogwarts Ghosts
+  id: A09
+  title: The Great Lake
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
-  output_file: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
-  staging_file: work/external-staging/a06.yaml
-  manifest_id: external-A06
+  input_path: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+  output_file: sources/external/official-rowling/a09-the-great-lake.yaml
+  staging_file: work/external-staging/a09.yaml
+  manifest_id: external-A09
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 58
+    pending: 55
     in_progress: 0
-    done: 5
+    done: 8
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A06
-    title: Hogwarts Ghosts
+    id: A09
+    title: The Great Lake
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
-    output_file: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
-    staging_file: work/external-staging/a06.yaml
-    manifest_id: external-A06
+    input_path: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    output_file: sources/external/official-rowling/a09-the-great-lake.yaml
+    staging_file: work/external-staging/a09.yaml
+    manifest_id: external-A09
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A05
-    title: Hogwarts Portraits
+    id: A08
+    title: The Sword of Gryffindor
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
-    output_file: sources/external/official-rowling/a05-hogwarts-portraits.yaml
-    staging_file: work/external-staging/a05.yaml
-    manifest_id: external-A05
+    input_path: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    output_file: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+    staging_file: work/external-staging/a08.yaml
+    manifest_id: external-A08
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A05
-  title: Hogwarts Portraits
+  id: A08
+  title: The Sword of Gryffindor
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
-  output_file: sources/external/official-rowling/a05-hogwarts-portraits.yaml
-  staging_file: work/external-staging/a05.yaml
-  manifest_id: external-A05
+  input_path: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+  output_file: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  staging_file: work/external-staging/a08.yaml
+  manifest_id: external-A08
   claimed_by: null
   claimed_at: null

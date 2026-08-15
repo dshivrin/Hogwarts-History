@@ -1049,16 +1049,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
     manifest_id: external-A06
     output_file: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:25:39Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:19:19Z'
+      agent: source-agent-a06
+    - event: completed
+      at: '2026-08-15T14:25:39Z'
     staging_file: work/external-staging/a06.yaml
   - id: A07
     title: Hufflepuff Common Room
@@ -1068,16 +1073,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
     manifest_id: external-A07
     output_file: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:29:24Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:19:20Z'
+      agent: source-agent-a07
+    - event: completed
+      at: '2026-08-15T14:29:24Z'
     staging_file: work/external-staging/a07.yaml
   - id: A08
     title: The Sword of Gryffindor
@@ -1087,16 +1097,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
     manifest_id: external-A08
     output_file: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:30:39Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:19:20Z'
+      agent: source-agent-a08
+    - event: completed
+      at: '2026-08-15T14:30:39Z'
     staging_file: work/external-staging/a08.yaml
   - id: A09
     title: The Great Lake

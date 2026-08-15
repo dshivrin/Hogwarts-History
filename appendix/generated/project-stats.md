@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 222
+- Total: 225
 
 ## Entries by Book or External Source
 
@@ -17,6 +17,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A03 — The Quill of Acceptance and The Book of Admittance: 6
 - A04 — The Hogwarts Express: 5
 - A05 — Hogwarts Portraits: 4
+- A06 — Hogwarts Ghosts: 7
+- A07 — Hufflepuff Common Room: 5
+- A08 — The Sword of Gryffindor: 5
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -29,26 +32,27 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 491
+- harry_era_confirmation: 496
 - later_editorial_note: 680
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 13
-- pre_1984_historical_candidate: 209
+- pre_1984_historical_candidate: 219
+- unknown_or_uncertain: 2
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 99
-- curriculum_or_subject: 156
-- direct_observed_setting: 63
+- curriculum_or_subject: 157
+- direct_observed_setting: 64
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 239
-- house_system: 26
+- historical_claim: 244
+- house_system: 28
 - institutional_custom: 193
-- magical_architecture: 102
-- portrait_or_ghost_lore: 27
+- magical_architecture: 104
+- portrait_or_ghost_lore: 32
 - school_rule_or_policy: 144
-- security_or_protection: 234
+- security_or_protection: 235
 
 ## Explicit `Hogwarts: A History` References
 
@@ -56,12 +60,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1012
+- Total: 1017
 
 ## Latest Processed Unit
 
-- `A05` — Hogwarts Portraits, input `resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md`, output `sources/external/official-rowling/a05-hogwarts-portraits.yaml`
+- `A08` — The Sword of Gryffindor, input `resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md`, output `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
 
 ## Next Pending Unit
 
-- `A06` — Hogwarts Ghosts, input `resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md`, output `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+- `A09` — The Great Lake, input `resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md`, output `sources/external/official-rowling/a09-the-great-lake.yaml`

@@ -446,3 +446,5 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Generated From Low-Confidence Entries
 
 - `dh-ch22-004` (Chapter Twenty-Two - The Deathly Hallows): The Snitch does not open in this chapter, so the Stone placement remains a character inference here.
+- `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
+- `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.

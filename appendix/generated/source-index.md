@@ -228,3 +228,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.
 - `A04`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, 5 entries, 0 explicit references.
 - `A05`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, 4 entries, 0 explicit references.
+- `A06`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, 7 entries, 0 explicit references.
+- `A07`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, 5 entries, 0 explicit references.
+- `A08`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, 5 entries, 0 explicit references.

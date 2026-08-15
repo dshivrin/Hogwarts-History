@@ -13186,6 +13186,21 @@ Summary: The available evidence includes 1 source item, led by: The private Occl
   - Corroborates: `ootp-ch24-001`, `ootp-ch24-005`, `gof-ch30-002`. ootp-ch24-001 records the private lesson arrangement, ootp-ch24-005 records Snape's explanation of Occlumency and Legilimency, and gof-ch30-002 identifies the Pensieve; this entry adds the Shield Charm reversal and Snape's use of stored thoughts during lessons.
   - Notes: The instruction is secret and exceptional, not part of the regular Hogwarts curriculum.
 
+## Part: Foundations and Founders
+
+### Chapter: The Four Founders and Their Legacy
+
+#### Section: Helga Hufflepuff in House Memory
+
+Summary: The available evidence includes 1 source item, led by: A common-room portrait identifies Helga Hufflepuff as one of Hogwarts' four founders and depicts her toasting students with a small golden cup.
+
+- **Supporting evidence:** A common-room portrait identifies Helga Hufflepuff as one of Hogwarts' four founders and depicts her toasting students with a small golden cup.
+  - Quote: "shows Helga Hufflepuff, one of the four founders of Hogwarts School"
+  - Source: A07, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, `sources/external/official-rowling/a07-hufflepuff-common-room.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source identifies the subject and founder status but does not establish when the portrait was installed or whether its depicted cup is a historical object.
+
 ## Part: Founders, Headmasters, and Institutional Memory
 
 ### Chapter: Headmasters, Headmistresses, and Their Office
@@ -13638,6 +13653,54 @@ Summary: The available evidence includes 1 source item, led by: When Hogwarts in
   - Corroborates: `cos-ch16-007`. query-dupes chamber-of-secrets plumbing corvinus-gaunt returned cos-ch16-007 (score 2), which maps the plumbing-linked descent; this source adds the eighteenth-century alteration and Corvinus Gaunt's protective intervention.
   - Notes: The source does not identify the exact year, bathroom, or magical method Corvinus Gaunt used to preserve the entrance.
 
+## Part: Hogwarts Castle and Grounds
+
+### Chapter: House Common Rooms and Dormitories
+
+#### Section: Hufflepuff Common Room Entrance
+
+Summary: The available evidence includes 1 source item, led by: The Hufflepuff common room is reached from the kitchens' corridor, where stacked barrels occupy a recessed space.
+
+- **Supporting evidence:** The Hufflepuff common room is reached from the kitchens' corridor, where stacked barrels occupy a recessed space.
+  - Quote: "The Hufflepuff common room is entered from the same corridor as the Hogwarts kitchens."
+  - Source: A07, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, `sources/external/official-rowling/a07-hufflepuff-common-room.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: This is Rowling's retrospective setting description; it does not date the entrance's construction or establish when its arrangement began.
+
+#### Section: Hufflepuff Common Room Interior
+
+Summary: The available evidence includes 1 source item, led by: The entrance leads to a round, low-ceilinged, earth-toned common room with yellow-and-black decoration and round doors to gendered dormitories.
+
+- **Supporting evidence:** The entrance leads to a round, low-ceilinged, earth-toned common room with yellow-and-black decoration and round doors to gendered dormitories.
+  - Quote: "A sloping, earthy passage inside the barrel travels upwards a little way"
+  - Source: A07, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, `sources/external/official-rowling/a07-hufflepuff-common-room.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The description is not an in-story visit and does not establish whether every furnishing persisted unchanged through Hogwarts history.
+
+#### Section: Hufflepuff Entrance Mechanism
+
+Summary: The available evidence includes 1 source item, led by: Access requires tapping a specified barrel in the rhythm of Helga Hufflepuff's name.
+
+- **Supporting evidence:** Access requires tapping a specified barrel in the rhythm of Helga Hufflepuff's name.
+  - Quote: "The barrel two from the bottom, middle of the second row, will open if tapped in the rhythm of ‘Helga Hufflepuff’\*."
+  - Source: A07, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, `sources/external/official-rowling/a07-hufflepuff-common-room.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The source states the mechanism but does not explain its enchantment, administration, or historical origin.
+
+#### Section: Hufflepuff Entrance Security
+
+Summary: The available evidence includes 1 source item, led by: Incorrect barrel selection or tapping count triggers a burst lid that drenches the would-be intruder in vinegar.
+
+- **Supporting evidence:** Incorrect barrel selection or tapping count triggers a burst lid that drenches the would-be intruder in vinegar.
+  - Quote: "tapping on the wrong barrel, or tapping the incorrect number of times, results in one of the other lids bursting off"
+  - Source: A07, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, `sources/external/official-rowling/a07-hufflepuff-common-room.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: This source describes the stated deterrent outcome but does not show its effectiveness in an observed incident.
+
 ## Part: Hogwarts Curriculum and Instruction
 
 ### Chapter: Academic Progression and Examinations
@@ -13679,6 +13742,44 @@ Summary: The available evidence includes 1 source item, led by: The scene confir
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch13-004`. gof-ch13-004 already records fourth-year astrology and calculation-heavy Divination homework; this entry adds the monthly prediction assignment.
   - Notes: The assignment is filtered through Harry and Ron's poor-faith completion of the work.
+
+## Part: Hogwarts Foundations and Material History
+
+### Chapter: Founder Relics and House Memory
+
+#### Section: Goblin Craft and Contested Ownership
+
+Summary: The available evidence includes 1 source item, led by: Ragnuk the First made the sword to Gryffindor's specifications, later attempted to reclaim it by force, and thereby founded a false goblin legend that Gryffindor stole it.
+
+- **Supporting evidence:** Ragnuk the First made the sword to Gryffindor's specifications, later attempted to reclaim it by force, and thereby founded a false goblin legend that Gryffindor stole it.
+  - Quote: "This was the foundation for the false legend of Gryffindor’s theft."
+  - Source: A08, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account explicitly labels the theft tradition false and does not provide a goblin source independent of Rowling's narration.
+
+#### Section: The Sword of Gryffindor
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes the Sword of Gryffindor as a goblin-made, enchanted pure-silver relic, ruby-set in Gryffindor's House color and engraved with Godric Gryffindor's name.
+
+- **Supporting evidence:** Rowling describes the Sword of Gryffindor as a goblin-made, enchanted pure-silver relic, ruby-set in Gryffindor's House color and engraved with Godric Gryffindor's name.
+  - Quote: "Made a thousand years ago by goblins, the magical world’s most skilled metalworkers."
+  - Source: A08, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is Rowling's retrospective exposition; the thousand-year dating is not independently sourced within the snapshot.
+
+#### Section: Worthiness and the Sword’s Return
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that the Sword of Gryffindor returns to worthy members of Gryffindor's House, an idea she links to Excalibur's fitness-to-carry motif.
+
+- **Corroboration:** Rowling states that the Sword of Gryffindor returns to worthy members of Gryffindor's House, an idea she links to Excalibur's fitness-to-carry motif.
+  - Quote: "The sword of Gryffindor’s return to worthy members of its true owner’s house."
+  - Source: A08, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `dh-ch07-006`. dh-ch07-006 makes the same core claim that the sword may present itself to a worthy Gryffindor; this source additionally supplies Rowling's Excalibur framing.
+  - Notes: The Excalibur comparison is an authorial explanation, whereas the return-to-worthy-members claim is the source-grounded fictional fact.
 
 ## Part: Hogwarts Governance and External Oversight
 
@@ -15164,6 +15265,67 @@ Summary: The available evidence includes 1 source item, led by: Some former head
   - Reference type: portrait_or_ghost_lore
   - Notes: The passage indicates possible observation but does not state what any specific portrait heard or later disclosed.
 
+## Part: Part II: The School Community
+
+### Chapter: Resident Ghosts and Institutional Memory
+
+#### Section: House ghosts
+
+Summary: The available evidence includes 4 source items, led by: Hogwarts assigns a ghost to each House; Slytherin's is the Bloody Baron, whose appearance includes silver bloodstains.
+
+- **Corroboration:** Hogwarts assigns a ghost to each House; Slytherin's is the Bloody Baron, whose appearance includes silver bloodstains.
+  - Quote: "Slytherin boasts the Bloody Baron, who is covered in silver bloodstains."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: house_system
+  - Corroborates: `cos-ch08-005`. The Deathday Party entry already records the House-ghost identification; this source independently supplies the Slytherin assignment and visual detail.
+  - Notes: The article presents the House-ghost arrangement without explaining its origin, selection, or date of establishment.
+
+- **Corroboration:** The Fat Friar is Hufflepuff's ghost; the account attributes his execution to churchmen's suspicion of his magical healing and conjuring.
+  - Quote: "Hufflepuff house is haunted by the Fat Friar."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `cos-ch08-005`. The Deathday Party entry duplicates the House-ghost identification but not the biography supplied here.
+  - Notes: The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
+
+- **Supporting evidence:** Gryffindor's Nearly Headless Nick is identified as Sir Nicholas de Mimsy-Porpington; an inexpert execution left him nearly, rather than wholly, decapitated.
+  - Quote: "In life, Nearly Headless Nick was Sir Nicholas de Mimsy-Porpington."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The anecdotal biography gives no date beyond the reference to Henry VII's court and offers no independent documentation of the execution.
+
+- **Supporting evidence:** The Grey Lady is described as the least talkative of Hogwarts' House ghosts and as long-haired and beautiful.
+  - Quote: "The least talkative of the house ghosts is the Grey Lady."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The description does not identify the Grey Lady's House or supply biographical or chronological evidence.
+
+#### Section: Moaning Myrtle and school spaces
+
+Summary: The available evidence includes 1 source item, led by: After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
+
+- **Corroboration:** After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
+  - Quote: "Myrtle was a student at Hogwarts when she died."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `gof-ch25-004`. The Goblet of Fire entry covers Myrtle, Olive Hornby, and bathroom history; other entries extend the bathroom and Chamber context.
+  - Notes: The snapshot does not date Myrtle's death, her return, or the later period described as decades.
+
+#### Section: The castle as a home for ghosts
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes Hogwarts as Britain's most heavily haunted dwelling, where the living generally treat resident ghosts with tolerance and affection.
+
+- **Supporting evidence:** Rowling describes Hogwarts as Britain's most heavily haunted dwelling, where the living generally treat resident ghosts with tolerance and affection.
+  - Quote: "Hogwarts is the most heavily haunted dwelling place in Britain."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: This comparative statement is not dated and does not quantify ghost numbers or define the reporting basis for Britain.
+
 ## Part: Part III - Students, Status, and Magical Capacity
 
 ### Chapter: Age, Qualification, and Magical Recognition
@@ -15326,6 +15488,22 @@ Summary: The available evidence includes 1 source item, led by: The mobile camps
   - Reference type: security_or_protection
   - Corroborates: `dh-ch14-003`, `dh-ch15-001`, `dh-ch16-001`. Prior entries cover the campsite charm routine, repeated recasting, and Ron's inability to locate new camps; this passage adds explicit duration and reliability evidence for the wards.
   - Notes: The exact enchantments are not named in this chapter; details depend on earlier campsite passages.
+
+## Part: Part III: Learning at Hogwarts
+
+### Chapter: History of Magic and Historical Instruction
+
+#### Section: Professor Binns as a ghost teacher
+
+Summary: The available evidence includes 1 source item, led by: Professor Binns, Hogwarts' History of Magic teacher, became a ghost after falling asleep by the staffroom fire and continued teaching.
+
+- **Corroboration:** Professor Binns, Hogwarts' History of Magic teacher, became a ghost after falling asleep by the staffroom fire and continued teaching.
+  - Quote: "He simply got up to give his next class, leaving his body behind."
+  - Source: A06, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `ps-ch08-005`. The Philosopher's Stone entry states the same Binns origin and continued teaching; later classroom entries corroborate the subject's routine operation.
+  - Notes: This overview does not date Binns's death, appointment, or the beginning of his ghostly teaching.
 
 ## Part: Part IV - Architecture, Concealment, and Protective Magic
 
@@ -17226,3 +17404,33 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: security_or_protection
   - Corroborates: `dh-ch14-005`. dh-ch14-005 foreshadows the Taboo through Ron's fear that the name feels jinxed; this entry supplies the formal mechanism, including broken protections and trackability.
   - Notes: The explanation is secondhand from Ron's wider-war reports rather than Ministry or Death Eater technical documentation.
+
+## Part: Wizarding Society Before Secrecy
+
+### Chapter: Relations with the Non-Magical World
+
+#### Section: Defensive Practice Before the Statute
+
+Summary: The available evidence includes 1 source item, led by: Before the International Statute of Secrecy, wizards could use swords for defence against Muggles, and conventional sword duelling remained a skill of gifted wizards including Gryffindor.
+
+- **Supporting evidence:** Before the International Statute of Secrecy, wizards could use swords for defence against Muggles, and conventional sword duelling remained a skill of gifted wizards including Gryffindor.
+  - Quote: "In the days before the International Statute of Secrecy, when wizards mingled freely with Muggles."
+  - Source: A08, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source gives general historical exposition but no date or specific legal formulation for the Statute.
+
+## Part: Wizarding Society and Cultural Relations
+
+### Chapter: Goblins, Wizards, and Material Ownership
+
+#### Section: Competing Ownership Norms
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes incompatible goblin and wizarding ownership norms: militant goblins treat goblin-made objects as theirs despite lifetime transfers, while wizards treat purchase as perpetual ownership.
+
+- **Supporting evidence:** Rowling describes incompatible goblin and wizarding ownership norms: militant goblins treat goblin-made objects as theirs despite lifetime transfers, while wizards treat purchase as perpetual ownership.
+  - Quote: "This is a clash of values without a solution."
+  - Source: A08, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The description foregrounds militant goblin belief and presents a broad cultural contrast, not a comprehensive account of every goblin or wizard legal view.

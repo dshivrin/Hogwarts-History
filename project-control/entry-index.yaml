@@ -21156,6 +21156,224 @@ by_entry:
     - surveillance
     source_unit: A05
     output_yaml: sources/external/official-rowling/a05-hogwarts-portraits.yaml
+  ext-a06-001:
+    title: 'Resident Ghosts and Institutional Memory: The castle as a home for ghosts'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - castle
+    - ghosts
+    - haunted
+    - hogwarts
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a06-002:
+    title: 'Resident Ghosts and Institutional Memory: House ghosts'
+    classification: harry_era_confirmation
+    reference_type: house_system
+    confidence: high
+    tags:
+    - bloody-baron
+    - house-ghost
+    - slytherin
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a06-003:
+    title: 'Resident Ghosts and Institutional Memory: House ghosts'
+    classification: unknown_or_uncertain
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - fat-friar
+    - house-ghost
+    - hufflepuff
+    - wizarding-church-history
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a06-004:
+    title: 'Resident Ghosts and Institutional Memory: House ghosts'
+    classification: pre_1984_historical_candidate
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - gryffindor
+    - house-ghost
+    - nearly-headless-nick
+    - sir-nicholas-de-mimsy-porpington
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a06-005:
+    title: 'Resident Ghosts and Institutional Memory: Moaning Myrtle and school spaces'
+    classification: unknown_or_uncertain
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - ghost
+    - moaning-myrtle
+    - student
+    - toilet
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a06-006:
+    title: 'History of Magic and Historical Instruction: Professor Binns as a ghost
+      teacher'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - ghost
+    - history-of-magic
+    - professor-binns
+    - teacher
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a06-007:
+    title: 'Resident Ghosts and Institutional Memory: House ghosts'
+    classification: harry_era_confirmation
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - grey-lady
+    - hogwarts
+    - house-ghost
+    source_unit: A06
+    output_yaml: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  ext-a07-001:
+    title: 'House Common Rooms and Dormitories: Hufflepuff Common Room Entrance'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - castle-navigation
+    - common-room
+    - entrance
+    - hogwarts-kitchens
+    - hufflepuff
+    - magical-architecture
+    source_unit: A07
+    output_yaml: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+  ext-a07-002:
+    title: 'House Common Rooms and Dormitories: Hufflepuff Entrance Mechanism'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - barrel
+    - common-room
+    - entrance
+    - hufflepuff
+    - rhythm
+    - security
+    source_unit: A07
+    output_yaml: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+  ext-a07-003:
+    title: 'House Common Rooms and Dormitories: Hufflepuff Entrance Security'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - barrel
+    - common-room
+    - hufflepuff
+    - school-security
+    - security
+    - vinegar
+    source_unit: A07
+    output_yaml: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+  ext-a07-004:
+    title: 'House Common Rooms and Dormitories: Hufflepuff Common Room Interior'
+    classification: pre_1984_historical_candidate
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - architecture
+    - common-room
+    - dormitories
+    - hufflepuff
+    - magical-architecture
+    - student-accommodation
+    source_unit: A07
+    output_yaml: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+  ext-a07-005:
+    title: 'The Four Founders and Their Legacy: Helga Hufflepuff in House Memory'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founders
+    - golden-cup
+    - helga-hufflepuff
+    - hufflepuff
+    - portraits
+    - school-origins
+    source_unit: A07
+    output_yaml: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+  ext-a08-001:
+    title: 'Founder Relics and House Memory: The Sword of Gryffindor'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relic
+    - goblin
+    - gryffindor
+    - historical-artifact
+    - sword
+    source_unit: A08
+    output_yaml: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  ext-a08-002:
+    title: 'Founder Relics and House Memory: Goblin Craft and Contested Ownership'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - founder-relic
+    - goblin
+    - gryffindor
+    - ownership
+    - ragnuk
+    source_unit: A08
+    output_yaml: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  ext-a08-003:
+    title: 'Relations with the Non-Magical World: Defensive Practice Before the Statute'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - duelling
+    - godric-gryffindor
+    - statute-secrecy
+    - sword
+    - wizard-muggle
+    source_unit: A08
+    output_yaml: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  ext-a08-004:
+    title: "Founder Relics and House Memory: Worthiness and the Sword\u2019s Return"
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - founder-relic
+    - gryffindor
+    - house
+    - sword
+    - worthy
+    source_unit: A08
+    output_yaml: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  ext-a08-005:
+    title: 'Goblins, Wizards, and Material Ownership: Competing Ownership Norms'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cultural-beliefs
+    - deathly-hallows
+    - goblin
+    - ownership
+    - sword
+    source_unit: A08
+    output_yaml: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -21487,6 +21705,8 @@ by_tag:
   - hbp-ch22-005
   - ootp-ch33-001
   - ootp-ch33-002
+  architecture:
+  - ext-a07-004
   archival-evidence:
   - dh-ch17-004
   - dh-ch20-004
@@ -21668,6 +21888,9 @@ by_tag:
   - beedle-ch05-004
   barnabas-the-barmy:
   - ootp-ch18-006
+  barrel:
+  - ext-a07-002
+  - ext-a07-003
   bartemius-crouch:
   - gof-ch28-005
   barty-crouch:
@@ -21905,6 +22128,7 @@ by_tag:
   bloody-baron:
   - cos-ch08-005
   - dh-ch31-002
+  - ext-a06-002
   bludgers:
   - cos-ch07-001
   - qtta-ch03-002
@@ -22167,6 +22391,7 @@ by_tag:
   castle:
   - cos-ch01-001
   - cos-ch09-003
+  - ext-a06-001
   - gof-ch21-003
   - hbp-ch02-005
   - hbp-ch29-002
@@ -22232,6 +22457,7 @@ by_tag:
   - cos-ch05-006
   - cos-ch12-005
   - dh-ch29-005
+  - ext-a07-001
   - gof-ch21-006
   - gof-ch25-001
   - gof-ch25-005
@@ -22584,6 +22810,10 @@ by_tag:
   common-room:
   - cos-ch05-006
   - cos-ch08-003
+  - ext-a07-001
+  - ext-a07-002
+  - ext-a07-003
+  - ext-a07-004
   - gof-ch17-007
   - gof-ch19-007
   - gof-ch20-004
@@ -22849,6 +23079,8 @@ by_tag:
   - gof-ch21-005
   - poa-ch15-003
   - poa-ch16-005
+  cultural-beliefs:
+  - ext-a08-005
   cultural-memory:
   - beedle-fm-002
   curfew:
@@ -23110,6 +23342,7 @@ by_tag:
   - dh-ch35-005
   - dh-ch35-007
   - dh-ch36-007
+  - ext-a08-005
   deathly-hallows-symbol:
   - dh-ch16-007
   deathstick:
@@ -23513,6 +23746,7 @@ by_tag:
   - ps-ch08-001
   dormitories:
   - cos-ch05-006
+  - ext-a07-004
   - gof-ch12-004
   - ootp-ch17-002
   - ootp-ch23-001
@@ -23578,6 +23812,8 @@ by_tag:
   dueling-club:
   - cos-ch11-003
   - gof-ch34-001
+  duelling:
+  - ext-a08-003
   dumbledore:
   - cos-ch02-003
   - cos-ch04-001
@@ -24020,6 +24256,9 @@ by_tag:
   - cos-ch07-005
   - dh-ch20-002
   - gof-ch04-005
+  entrance:
+  - ext-a07-001
+  - ext-a07-002
   entrance-hall:
   - dh-ch32-003
   - gof-ch12-001
@@ -24209,6 +24448,7 @@ by_tag:
   - dh-ch20-006
   fat-friar:
   - cos-ch08-005
+  - ext-a06-003
   fat-lady:
   - ext-a05-002
   - gof-ch17-007
@@ -24577,6 +24817,9 @@ by_tag:
   - dh-ch07-006
   - dh-ch19-004
   - dh-ch36-003
+  - ext-a08-001
+  - ext-a08-002
+  - ext-a08-004
   founder-relics:
   - dh-ch15-002
   - dh-ch15-006
@@ -24596,6 +24839,7 @@ by_tag:
   - ext-a01-001
   - ext-a02-001
   - ext-a02-002
+  - ext-a07-005
   - gof-ch12-002
   - ootp-ch11-003
   - ootp-ch17-002
@@ -24707,6 +24951,9 @@ by_tag:
   - ootp-ch06-003
   gertie-keddle:
   - qtta-ch03-001
+  ghost:
+  - ext-a06-005
+  - ext-a06-006
   ghost-customs:
   - cos-ch08-004
   - cos-ch08-005
@@ -24724,6 +24971,7 @@ by_tag:
   - dh-ch17-001
   - dh-ch34-005
   - dh-ch36-005
+  - ext-a06-001
   - gof-ch25-004
   - hbp-ch08-003
   - hbp-ch21-006
@@ -24797,6 +25045,10 @@ by_tag:
   - gof-ch17-005
   - gof-ch33-005
   - gof-ch35-002
+  goblin:
+  - ext-a08-001
+  - ext-a08-002
+  - ext-a08-005
   goblin-authority:
   - dh-ch26-004
   goblin-code:
@@ -24846,6 +25098,7 @@ by_tag:
   - dh-ch19-004
   - dh-ch25-002
   - ext-a02-001
+  - ext-a08-003
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
@@ -24870,6 +25123,8 @@ by_tag:
   - ps-ch02-001
   - ps-ch02-005
   - qtta-ch04-003
+  golden-cup:
+  - ext-a07-005
   golden-egg:
   - gof-ch20-006
   - gof-ch20-007
@@ -24992,6 +25247,8 @@ by_tag:
   - gof-ch18-007
   gregory-the-smarmy:
   - ps-ch09-006
+  grey-lady:
+  - ext-a06-007
   greyback:
   - hbp-ch29-001
   grimmauld-place:
@@ -25105,6 +25362,10 @@ by_tag:
   - dh-ch07-006
   - dh-ch10-002
   - dh-ch33-005
+  - ext-a06-004
+  - ext-a08-001
+  - ext-a08-002
+  - ext-a08-004
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -25412,6 +25673,8 @@ by_tag:
   - dh-ch36-007
   hassan-mostafa:
   - gof-ch08-005
+  haunted:
+  - ext-a06-001
   haunted-places:
   - poa-ch14-005
   haunted-reputation:
@@ -25586,6 +25849,7 @@ by_tag:
   - dh-ch31-002
   helga-hufflepuff:
   - dh-ch26-006
+  - ext-a07-005
   - hbp-ch20-005
   hepzibah-smith:
   - dh-ch26-006
@@ -25741,6 +26005,7 @@ by_tag:
   - ext-a01-003
   historical-artifact:
   - dh-ch07-006
+  - ext-a08-001
   historical-instruction:
   - hbp-ch13-001
   historical-method:
@@ -25755,6 +26020,7 @@ by_tag:
   - cos-ch09-002
   - dh-ch10-003
   - dh-ch25-005
+  - ext-a06-006
   - gof-ch15-002
   - gof-ch22-005
   - gof-ch29-002
@@ -25848,6 +26114,8 @@ by_tag:
   - dh-ch28-006
   - dh-ch28-007
   - dh-ch34-003
+  - ext-a06-001
+  - ext-a06-007
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -25980,6 +26248,7 @@ by_tag:
   hogwarts-history:
   - hbp-ch20-005
   hogwarts-kitchens:
+  - ext-a07-001
   - gof-ch12-004
   - gof-ch19-002
   - gof-ch21-002
@@ -26231,6 +26500,8 @@ by_tag:
   hourglasses:
   - ootp-ch38-004
   - ps-ch15-002
+  house:
+  - ext-a08-004
   house-assignment:
   - ps-ch05-005
   house-banners:
@@ -26308,6 +26579,11 @@ by_tag:
   house-entrance:
   - dh-ch29-007
   - dh-ch30-001
+  house-ghost:
+  - ext-a06-002
+  - ext-a06-003
+  - ext-a06-004
+  - ext-a06-007
   house-hourglasses:
   - hbp-ch28-004
   house-identity:
@@ -26418,6 +26694,12 @@ by_tag:
   - poa-ch14-002
   hufflepuff:
   - cos-ch06-002
+  - ext-a06-003
+  - ext-a07-001
+  - ext-a07-002
+  - ext-a07-003
+  - ext-a07-004
+  - ext-a07-005
   - gof-ch06-004
   - gof-ch15-004
   - gof-ch18-002
@@ -27151,6 +27433,8 @@ by_tag:
   - dh-ch31-006
   - dh-ch32-005
   - ext-a01-002
+  - ext-a07-001
+  - ext-a07-004
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -28000,6 +28284,7 @@ by_tag:
   - cos-ch08-005
   - cos-ch15-007
   - cos-ch16-006
+  - ext-a06-005
   - gof-ch25-004
   - gof-ch26-006
   - hbp-ch24-003
@@ -28287,6 +28572,7 @@ by_tag:
   - cos-ch08-001
   - cos-ch08-005
   - cos-ch11-006
+  - ext-a06-004
   - ootp-ch11-004
   - ootp-ch38-006
   - poa-ch08-006
@@ -28657,6 +28943,9 @@ by_tag:
   - poa-ch04-005
   - poa-ch16-001
   - poa-ch22-005
+  ownership:
+  - ext-a08-002
+  - ext-a08-005
   padfoot:
   - poa-ch14-007
   - poa-ch18-006
@@ -29068,6 +29357,7 @@ by_tag:
   - dh-ch33-002
   - ext-a05-002
   - ext-a05-004
+  - ext-a07-005
   - gof-ch17-007
   - gof-ch22-007
   - gof-ch31-001
@@ -29313,6 +29603,7 @@ by_tag:
   - cos-ch09-002
   - cos-ch09-003
   - dh-ch21-005
+  - ext-a06-006
   - gof-ch22-005
   - gof-ch29-002
   - ootp-ch12-003
@@ -29804,6 +30095,8 @@ by_tag:
   - gof-ch28-003
   ragnok:
   - ootp-ch05-004
+  ragnuk:
+  - ext-a08-002
   ragnuk-the-first:
   - dh-ch25-002
   rats:
@@ -29936,6 +30229,8 @@ by_tag:
   - dh-ch35-007
   review-lessons:
   - ootp-ch31-001
+  rhythm:
+  - ext-a07-002
   riddikulus:
   - poa-ch07-007
   riddle:
@@ -30253,6 +30548,7 @@ by_tag:
   - hbp-ch15-004
   school-origins:
   - ext-a02-001
+  - ext-a07-005
   - gof-ch12-002
   - ootp-ch11-003
   school-oversight:
@@ -30333,6 +30629,7 @@ by_tag:
   - gof-ch23-004
   school-security:
   - cos-ch02-002
+  - ext-a07-003
   - gof-ch19-003
   - gof-ch19-006
   - gof-ch19-007
@@ -30591,6 +30888,8 @@ by_tag:
   security:
   - dh-ch23-004
   - ext-a05-002
+  - ext-a07-002
+  - ext-a07-003
   - gof-ch15-006
   - hbp-ch26-003
   - ootp-ch07-002
@@ -30745,6 +31044,8 @@ by_tag:
   - poa-ch12-006
   - poa-ch13-007
   - poa-ch14-001
+  sir-nicholas-de-mimsy-porpington:
+  - ext-a06-004
   sir-patrick-delaney-podmore:
   - cos-ch08-001
   sirius-black:
@@ -30848,6 +31149,7 @@ by_tag:
   - dh-ch10-004
   - dh-ch33-005
   - dh-ch36-002
+  - ext-a06-002
   - gof-ch15-004
   - hbp-ch04-005
   - hbp-ch19-003
@@ -31294,6 +31596,8 @@ by_tag:
   - qtta-ch05-002
   statute-of-secrecy-context:
   - ps-ch14-002
+  statute-secrecy:
+  - ext-a08-003
   stealth:
   - ootp-ch03-004
   stealth-entry:
@@ -31319,7 +31623,10 @@ by_tag:
   - poa-ch21-005
   strengthening-solution:
   - ootp-ch17-005
+  student:
+  - ext-a06-005
   student-accommodation:
+  - ext-a07-004
   - poa-ch18-003
   student-achievement:
   - cos-ch04-003
@@ -31739,6 +32046,10 @@ by_tag:
   - qtta-ch09-005
   sword:
   - cos-ch17-005
+  - ext-a08-001
+  - ext-a08-003
+  - ext-a08-004
+  - ext-a08-005
   sword-of-gryffindor:
   - dh-ch07-006
   - dh-ch12-002
@@ -31794,6 +32105,8 @@ by_tag:
   - gof-ch20-006
   tea-leaves:
   - poa-ch06-003
+  teacher:
+  - ext-a06-006
   teacher-accountability:
   - poa-ch06-007
   - poa-ch07-002
@@ -32003,6 +32316,8 @@ by_tag:
   - qtta-ch09-005
   toadstool-tales:
   - beedle-ch01-004
+  toilet:
+  - ext-a06-005
   tom-riddle:
   - cos-ch13-002
   - cos-ch13-005
@@ -32422,6 +32737,8 @@ by_tag:
   - dh-ch12-005
   - gof-ch16-007
   - gof-ch35-004
+  vinegar:
+  - ext-a07-003
   violet-ribbon-invitations:
   - hbp-ch12-004
   visiting-schools:
@@ -32847,6 +33164,8 @@ by_tag:
   - ootp-ch05-004
   wizard-law:
   - poa-ch02-003
+  wizard-muggle:
+  - ext-a08-003
   wizard-school:
   - cos-ch01-004
   wizarding-belief:
@@ -32859,6 +33178,8 @@ by_tag:
   - beedle-ch04-001
   - beedle-ch05-001
   - beedle-fm-002
+  wizarding-church-history:
+  - ext-a06-003
   wizarding-custom:
   - dh-ch07-001
   wizarding-customs:
@@ -33001,6 +33322,8 @@ by_tag:
   - gof-ch10-005
   - poa-ch14-007
   - poa-ch18-006
+  worthy:
+  - ext-a08-004
   written-papers:
   - ps-ch16-001
   xenophilius-lovegood:

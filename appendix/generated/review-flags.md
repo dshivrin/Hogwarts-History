@@ -12,7 +12,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Unknown Era
 
-No entries currently flagged.
+- `ext-a06-003` (A06, Hogwarts Ghosts): The Fat Friar is Hufflepuff's ghost; the account attributes his execution to churchmen's suspicion of his magical healing and conjuring.
+- `ext-a06-005` (A06, Hogwarts Ghosts): After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
 
 ## Possible Duplicates
 
@@ -299,6 +300,11 @@ No entries currently flagged.
 - `ext-a01-002` (A01, Chamber of Secrets): When Hogwarts installed more elaborate plumbing in the eighteenth century, Corvinus Gaunt secretly preserved access to the Chamber entrance beneath the new bathroom.
 - `ext-a01-003` (A01, Chamber of Secrets): Repeated searches by headmasters, headmistresses, and historians failed because the Chamber could be entered only by a Parselmouth.
 - `ext-a02-001` (A02, The Sorting Hat): Tradition holds that Gryffindor's former hat was jointly enchanted by the four founders to assign students among their Houses according to their preferred qualities.
+- `ext-a06-002` (A06, Hogwarts Ghosts): Hogwarts assigns a ghost to each House; Slytherin's is the Bloody Baron, whose appearance includes silver bloodstains.
+- `ext-a06-003` (A06, Hogwarts Ghosts): The Fat Friar is Hufflepuff's ghost; the account attributes his execution to churchmen's suspicion of his magical healing and conjuring.
+- `ext-a06-005` (A06, Hogwarts Ghosts): After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
+- `ext-a06-006` (A06, Hogwarts Ghosts): Professor Binns, Hogwarts' History of Magic teacher, became a ghost after falling asleep by the staffroom fire and continued teaching.
+- `ext-a08-004` (A08, The Sword of Gryffindor): Rowling states that the Sword of Gryffindor returns to worthy members of Gryffindor's House, an idea she links to Excalibur's fitness-to-carry motif.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.
 - `gof-ch02-001` (Harry Potter and the Goblet of Fire, Chapter Two - The Scar): The chapter treats Harry's lightning scar as a continuing magical trace of Voldemort's curse and records Harry's own link between scar pain and Voldemort's earlier proximity at Hogwarts.
@@ -1798,6 +1804,7 @@ No entries currently flagged.
 - `dh-ch33-004` (Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale): Petunia's rejected appeal shows that a Muggle child could write to Hogwarts's headmaster and receive a personal reply, while the platform scene confirms Lily's first departure by Hogwarts Express.
 - `ext-a04-002` (A04, The Hogwarts Express): The source dates the need for a discreet mass-transport solution to the 1692 Statute of Secrecy, after parents had conveyed children individually.
 - `ext-a04-004` (A04, The Hogwarts Express): The account says the Express's exact origin is unproven, while secret Ministry records describe an alleged operation using 167 Memory Charms and an unprecedented mass Concealment Charm.
+- `ext-a08-003` (A08, The Sword of Gryffindor): Before the International Statute of Secrecy, wizards could use swords for defence against Muggles, and conventional sword duelling remained a skill of gifted wizards including Gryffindor.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch02-003` (Harry Potter and the Goblet of Fire, Chapter Two - The Scar): The chapter combines Muggle cover-story practice for Hogwarts absences with another statement of the underage magic restriction outside school.
@@ -2111,6 +2118,16 @@ No entries currently flagged.
 - `ext-a05-002` (A05, Hogwarts Portraits): An ordinary magical portrait is enchanted to move and echo the subject's phrases and demeanor, but remains the artist's limited representation rather than a fully knowledgeable copy.
 - `ext-a05-003` (A05, Hogwarts Portraits): By tradition, a headmaster or headmistress has a portrait painted before death and trains it privately, allowing knowledge and memories to pass to later officeholders.
 - `ext-a05-004` (A05, Hogwarts Portraits): Some former headmasters' and headmistresses' portraits may listen despite appearing asleep when people enter the headmaster's office, and their full knowledge is closely held.
+- `ext-a06-001` (A06, Hogwarts Ghosts): Rowling describes Hogwarts as Britain's most heavily haunted dwelling, where the living generally treat resident ghosts with tolerance and affection.
+- `ext-a06-005` (A06, Hogwarts Ghosts): After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
+- `ext-a06-006` (A06, Hogwarts Ghosts): Professor Binns, Hogwarts' History of Magic teacher, became a ghost after falling asleep by the staffroom fire and continued teaching.
+- `ext-a06-007` (A06, Hogwarts Ghosts): The Grey Lady is described as the least talkative of Hogwarts' House ghosts and as long-haired and beautiful.
+- `ext-a07-001` (A07, Hufflepuff Common Room): The Hufflepuff common room is reached from the kitchens' corridor, where stacked barrels occupy a recessed space.
+- `ext-a07-002` (A07, Hufflepuff Common Room): Access requires tapping a specified barrel in the rhythm of Helga Hufflepuff's name.
+- `ext-a07-003` (A07, Hufflepuff Common Room): Incorrect barrel selection or tapping count triggers a burst lid that drenches the would-be intruder in vinegar.
+- `ext-a07-004` (A07, Hufflepuff Common Room): The entrance leads to a round, low-ceilinged, earth-toned common room with yellow-and-black decoration and round doors to gendered dormitories.
+- `ext-a07-005` (A07, Hufflepuff Common Room): A common-room portrait identifies Helga Hufflepuff as one of Hogwarts' four founders and depicts her toasting students with a small golden cup.
+- `ext-a08-002` (A08, The Sword of Gryffindor): Ragnuk the First made the sword to Gryffindor's specifications, later attempted to reclaim it by force, and thereby founded a false goblin legend that Gryffindor stole it.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.

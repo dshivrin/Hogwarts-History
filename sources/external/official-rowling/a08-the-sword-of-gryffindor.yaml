@@ -1,0 +1,327 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A08
+  source_file: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+  title: The Sword of Gryffindor
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+  capture_completeness: complete
+  content_sha256: f06671acfbf3abe91e05b3bee75818bb48173c8d9f6ca6bd3f2a6ab09872a260
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a08-001
+    source_file: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    source_id: A08
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Sword of Gryffindor was made a thousand years ago by goblins
+      end_phrase: Godric Gryffindor’s name is engraved just beneath the hilt.
+      local_occurrence_note: Opening paragraph of the body.
+    nearby_context: The opening description identifies the maker, material, decoration, and engraved owner of the founder relic.
+    match_terms:
+      - sword of gryffindor
+      - goblin metalwork
+      - godric gryffindor
+    quote_excerpt_short: Made a thousand years ago by goblins, the magical world’s most skilled metalworkers.
+    source_note: Rowling describes the Sword of Gryffindor as a goblin-made, enchanted pure-silver relic, ruby-set in Gryffindor's House color and engraved with Godric Gryffindor's name.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - sword
+      - gryffindor
+      - goblin
+      - founder-relic
+      - historical-artifact
+    candidate_part: Hogwarts Foundations and Material History
+    candidate_chapter: Founder Relics and House Memory
+    candidate_section: The Sword of Gryffindor
+    reason_for_placement: Establishes the provenance and House symbolism of a major founder relic.
+    relevance_to_hogwarts_a_history: Useful as pre-Harry-era material culture and founder-memory evidence.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries corroborate the sword's later school significance, but not this manufacture-and-material description.
+      audit:
+        query_tags:
+          - goblin
+          - gryffindor
+          - sword
+        candidates:
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch15-002
+            disposition: distinct
+          - id: cos-ch17-005
+            disposition: corroborating
+          - id: cos-ch18-003
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: corroborating
+          - id: dh-ch10-002
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: ext-a06-004
+            disposition: distinct
+          - id: gof-ch05-005
+            disposition: distinct
+    confidence: high
+    limitations: This is Rowling's retrospective exposition; the thousand-year dating is not independently sourced within the snapshot.
+
+  - id: ext-a08-002
+    source_file: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    source_id: A08
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The sword was made to Godric Gryffindor’s specifications by Ragnuk the First
+      end_phrase: persists, in some sections of the goblin community, to this day.
+      local_occurrence_note: Second and third body paragraphs.
+    nearby_context: Rowling presents the original commission and the ensuing goblin accusation as the origin of a continuing contested legend.
+    match_terms:
+      - ragnuk the first
+      - goblin ownership
+      - gryffindor theft legend
+    quote_excerpt_short: This was the foundation for the false legend of Gryffindor’s theft.
+    source_note: Ragnuk the First made the sword to Gryffindor's specifications, later attempted to reclaim it by force, and thereby founded a false goblin legend that Gryffindor stole it.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ragnuk
+      - gryffindor
+      - ownership
+      - goblin
+      - founder-relic
+    candidate_part: Hogwarts Foundations and Material History
+    candidate_chapter: Founder Relics and House Memory
+    candidate_section: Goblin Craft and Contested Ownership
+    reason_for_placement: Connects a founder relic to a long-lived inter-community ownership dispute.
+    relevance_to_hogwarts_a_history: Supports historical treatment of the sword's provenance while preserving the account's contested cultural reception.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed sword entry addresses worthiness rather than Ragnuk's commission, attempted theft, or the legend's origin.
+      audit:
+        query_tags:
+          - gryffindor
+          - ownership
+          - ragnuk
+        candidates:
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch15-002
+            disposition: distinct
+          - id: cos-ch18-003
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: corroborating
+          - id: dh-ch10-002
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: ext-a06-004
+            disposition: distinct
+          - id: gof-ch05-005
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+    confidence: high
+    limitations: The account explicitly labels the theft tradition false and does not provide a goblin source independent of Rowling's narration.
+
+  - id: ext-a08-003
+    source_file: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    source_id: A08
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The question of why a wizard would need a sword
+      end_phrase: Gryffindor among them.
+      local_occurrence_note: Fourth body paragraph.
+    nearby_context: The explanation contrasts everyday defensive practice before the International Statute of Secrecy with later expectations.
+    match_terms:
+      - international statute of secrecy
+      - wizard muggle relations
+      - sword duelling
+    quote_excerpt_short: In the days before the International Statute of Secrecy, when wizards mingled freely with Muggles.
+    source_note: Before the International Statute of Secrecy, wizards could use swords for defence against Muggles, and conventional sword duelling remained a skill of gifted wizards including Gryffindor.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - statute-secrecy
+      - sword
+      - wizard-muggle
+      - duelling
+      - godric-gryffindor
+    candidate_part: Wizarding Society Before Secrecy
+    candidate_chapter: Relations with the Non-Magical World
+    candidate_section: Defensive Practice Before the Statute
+    reason_for_placement: Offers historical context for sword use and pre-Statute wizard–Muggle interaction.
+    relevance_to_hogwarts_a_history: Useful contextual evidence for founder-era martial culture, with no claim that it describes a Hogwarts rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned sword-production entry is a distinct later event and does not duplicate the pre-Statute historical practice.
+      audit:
+        query_tags:
+          - statute-secrecy
+          - sword
+          - wizard-muggle
+        candidates:
+          - id: cos-ch17-005
+            disposition: distinct
+    confidence: high
+    limitations: The source gives general historical exposition but no date or specific legal formulation for the Statute.
+
+  - id: ext-a08-004
+    source_file: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    source_id: A08
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: There have been many enchanted swords in folklore.
+      end_phrase: worthy members of its true owner’s house.
+      local_occurrence_note: Fifth body paragraph, immediately before the Author’s note.
+    nearby_context: Rowling compares the sword to Excalibur and explains that it can return to worthy Gryffindors.
+    match_terms:
+      - worthy gryffindor
+      - sword return
+      - house ownership
+    quote_excerpt_short: The sword of Gryffindor’s return to worthy members of its true owner’s house.
+    source_note: Rowling states that the Sword of Gryffindor returns to worthy members of Gryffindor's House, an idea she links to Excalibur's fitness-to-carry motif.
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - gryffindor
+      - house
+      - sword
+      - worthy
+      - founder-relic
+    candidate_part: Hogwarts Foundations and Material History
+    candidate_chapter: Founder Relics and House Memory
+    candidate_section: Worthiness and the Sword’s Return
+    reason_for_placement: Directly records a House-linked property of a founder relic.
+    relevance_to_hogwarts_a_history: A concise account of the sword's continuing Gryffindor affiliation and selection criterion.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch07-006
+      notes: dh-ch07-006 makes the same core claim that the sword may present itself to a worthy Gryffindor; this source additionally supplies Rowling's Excalibur framing.
+      audit:
+        query_tags:
+          - gryffindor
+          - house
+          - sword
+          - worthy
+        candidates:
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch15-002
+            disposition: distinct
+          - id: cos-ch17-005
+            disposition: corroborating
+          - id: cos-ch18-003
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: duplicate
+          - id: dh-ch10-002
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: ext-a06-004
+            disposition: distinct
+          - id: gof-ch05-005
+            disposition: distinct
+    confidence: high
+    limitations: The Excalibur comparison is an authorial explanation, whereas the return-to-worthy-members claim is the source-grounded fictional fact.
+
+  - id: ext-a08-005
+    source_file: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    source_id: A08
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Within the magical world, physical possession is not necessarily a guarantee of ownership.
+      end_phrase: Griphook demands the sword as payment for his services in *Deathly Hallows*.
+      local_occurrence_note: Final two paragraphs under the Author’s note.
+    nearby_context: Rowling contrasts goblin and wizarding rules of ownership and applies the conflict to Griphook's demand for the sword.
+    match_terms:
+      - goblin ownership
+      - cultural beliefs
+      - deathly hallows
+    quote_excerpt_short: This is a clash of values without a solution.
+    source_note: "Rowling describes incompatible goblin and wizarding ownership norms: militant goblins treat goblin-made objects as theirs despite lifetime transfers, while wizards treat purchase as perpetual ownership."
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - goblin
+      - ownership
+      - cultural-beliefs
+      - deathly-hallows
+      - sword
+    candidate_part: Wizarding Society and Cultural Relations
+    candidate_chapter: Goblins, Wizards, and Material Ownership
+    candidate_section: Competing Ownership Norms
+    reason_for_placement: Explains the cultural framework behind the sword dispute and its Harry-era consequence.
+    relevance_to_hogwarts_a_history: Useful interpretive context for goblin-made founder relics, explicitly qualified as a cultural conflict rather than settled law.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned Hallows entries concern the artifacts and their lore, rather than goblin and wizard ownership norms.
+      audit:
+        query_tags:
+          - cultural-beliefs
+          - deathly-hallows
+          - goblin
+          - ownership
+        candidates:
+          - id: beedle-ch05-002
+            disposition: distinct
+          - id: dh-ch20-004
+            disposition: distinct
+          - id: dh-ch21-001
+            disposition: distinct
+          - id: dh-ch21-002
+            disposition: distinct
+          - id: dh-ch21-003
+            disposition: distinct
+          - id: dh-ch21-004
+            disposition: distinct
+          - id: dh-ch21-006
+            disposition: distinct
+          - id: dh-ch22-001
+            disposition: distinct
+          - id: dh-ch22-003
+            disposition: distinct
+          - id: dh-ch22-004
+            disposition: distinct
+    confidence: high
+    limitations: The description foregrounds militant goblin belief and presents a broad cultural contrast, not a comprehensive account of every goblin or wizard legal view.

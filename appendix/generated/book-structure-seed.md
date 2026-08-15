@@ -390,6 +390,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Private Occlumency Instruction
   - Shield Charm reversal and Pensieve safeguards
 
+## Foundations and Founders
+
+- The Four Founders and Their Legacy
+  - Helga Hufflepuff in House Memory
+
 ## Founders, Headmasters, and Institutional Memory
 
 - Headmasters, Headmistresses, and Their Office
@@ -524,6 +529,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hidden Architecture and Alterations
   - Plumbing, Bathrooms, and the Chamber Entrance
 
+## Hogwarts Castle and Grounds
+
+- House Common Rooms and Dormitories
+  - Hufflepuff Common Room Entrance
+  - Hufflepuff Common Room Interior
+  - Hufflepuff Entrance Mechanism
+  - Hufflepuff Entrance Security
+
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
@@ -532,6 +545,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Fourth-year curse curriculum after Dark creature groundwork
 - Divination and Elective Study
   - Fourth-year prediction homework and student skepticism
+
+## Hogwarts Foundations and Material History
+
+- Founder Relics and House Memory
+  - Goblin Craft and Contested Ownership
+  - The Sword of Gryffindor
+  - Worthiness and the Sword’s Return
 
 ## Hogwarts Governance and External Oversight
 
@@ -1308,6 +1328,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ordinary enchanted portraits
   - Portrait observation in the headmaster's office
 
+## Part II: The School Community
+
+- Resident Ghosts and Institutional Memory
+  - House ghosts
+  - Moaning Myrtle and school spaces
+  - The castle as a home for ghosts
+
 ## Part III - Students, Status, and Magical Capacity
 
 - Age, Qualification, and Magical Recognition
@@ -1334,6 +1361,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
 - Wartime Concealment And Mobile Safe Sites
   - Repeated field wards during flight
+
+## Part III: Learning at Hogwarts
+
+- History of Magic and Historical Instruction
+  - Professor Binns as a ghost teacher
 
 ## Part IV - Architecture, Concealment, and Protective Magic
 
@@ -2166,3 +2198,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wartime Security and Communication
   - Dangerous names and speech-based tracking
   - Taboo on Voldemort's name and speech-based tracking
+
+## Wizarding Society Before Secrecy
+
+- Relations with the Non-Magical World
+  - Defensive Practice Before the Statute
+
+## Wizarding Society and Cultural Relations
+
+- Goblins, Wizards, and Material Ownership
+  - Competing Ownership Norms
