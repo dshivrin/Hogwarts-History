@@ -223,6 +223,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `qtta-ch09`: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, pages 55-59, 7 entries, 0 explicit references.
 - `qtta-ch10`: Quidditch Through the Ages, Chapter Ten - Quidditch Today, pages 59-64, 2 entries, 0 explicit references.
 - `qtta-ch11`: Quidditch Through the Ages, Back Cover, pages 65-65, 1 entries, 0 explicit references.
+- `B01`: Accio Quote, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, 6 entries, 0 explicit references.
 - `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
 - `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
 - `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.
@@ -258,3 +259,5 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A33`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney, 3 entries, 0 explicit references.
 - `A34`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, 4 entries, 0 explicit references.
 - `A35`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy, 2 entries, 0 explicit references.
+- `A36`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby, 2 entries, 0 explicit references.
+- `A37`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/extension-charms, 1 entries, 0 explicit references.

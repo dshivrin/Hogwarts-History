@@ -14,13 +14,14 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A36
-  title: Scottish Rugby
+  id: B02
+  title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"
+    Scholastic.com , 16 October 2000'
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
-  output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
-  staging_file: work/external-staging/a36.yaml
-  manifest_id: external-A36
+  input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+  output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
+  staging_file: work/external-staging/b02.yaml
+  manifest_id: external-B02
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +61,39 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 28
+    pending: 25
     in_progress: 0
-    done: 35
+    done: 38
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A36
-    title: Scottish Rugby
+    id: B02
+    title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"
+      Scholastic.com , 16 October 2000'
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
-    output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
-    staging_file: work/external-staging/a36.yaml
-    manifest_id: external-A36
+    input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
+    staging_file: work/external-staging/b02.yaml
+    manifest_id: external-B02
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A35
-    title: Draco Malfoy
+    id: B01
+    title: Online chat transcript, Scholastic.com , 3 February 2000
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
-    output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
-    staging_file: work/external-staging/a35.yaml
-    manifest_id: external-A35
+    input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+    staging_file: work/external-staging/b01.yaml
+    manifest_id: external-B01
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A35
-  title: Draco Malfoy
+  id: B01
+  title: Online chat transcript, Scholastic.com , 3 February 2000
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
-  output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
-  staging_file: work/external-staging/a35.yaml
-  manifest_id: external-A35
+  input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+  output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  staging_file: work/external-staging/b01.yaml
+  manifest_id: external-B01
   claimed_by: null
   claimed_at: null

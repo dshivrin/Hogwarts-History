@@ -2606,6 +2606,22 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 1
   boundary_summary: Used indexed page range; extracted only pages 65-65.
+- source_unit_id: B01
+  source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: B01
+  source_site: Accio Quote
+  source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
 - source_unit_id: A01
   source_file: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
   book: null
@@ -3166,3 +3182,35 @@ processed_units:
   source_id: A35
   source_site: HarryPotter.com
   source_url: https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy
+- source_unit_id: A36
+  source_file: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a36-scottish-rugby.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A36
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby
+- source_unit_id: A37
+  source_file: resources/external/official-rowling/harrypotter-com/a37-extension-charms.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a37-extension-charms.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 1
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A37
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/extension-charms

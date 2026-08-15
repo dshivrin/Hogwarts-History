@@ -590,6 +590,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Hogwarts Life and Material Culture
+
+- Student Equipment and Travel
+  - Standard-issue school trunks
+
 ## Hogwarts Life and Traditions
 
 - School Gatherings and Performances
@@ -1392,6 +1397,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Named Histories And School-Age Reference Books
   - A History of Magic as a portable reference tradition
 
+## Part I — Hogwarts Castle
+
+- Resident Ghosts and Castle Memory
+  - Ghosthood and posthumous presence
+- The Castle and Its Enchantments
+  - Changeable internal architecture
+  - Magical construction and structural support
+
 ## Part I: Foundations and Governance
 
 - Hogwarts and the Ministry of Magic
@@ -1460,6 +1473,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Life and House Identity
   - Sorting and House Affiliation
 
+## Part II — The School
+
+- Admissions and First-Year Preparation
+  - Locating and inviting prospective pupils
+- Education and Student Life
+  - Curriculum and elective study
+  - Education after graduation
+
 ## Part II: Governance and the Wider Wizarding World
 
 - Secrecy, Ministry Policy, and Hogwarts
@@ -1469,6 +1490,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part II: Institutional History
 
+- Admissions and First-Year Preparation
+  - Exceptional Admission and Sorting Case
+- Hogwarts Customs and Ceremonies
+  - Annual Student Awards
 - Notable Alumni and Staff
   - Minerva McGonagall’s School Years
   - Peter Pettigrew’s School Years

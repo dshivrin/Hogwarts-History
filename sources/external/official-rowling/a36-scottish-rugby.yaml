@@ -1,0 +1,145 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A36
+  source_file: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+  title: Scottish Rugby
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby
+  capture_completeness: complete
+  content_sha256: 2bc528b6eda3b0b4c02739aa92ffcad877b98ced3183b8d8c0bfdc91ca3e6494
+  processed_date: '2026-08-15'
+  processor_notes: Complete A36 snapshot read. Indexed only the exceptional Hogwarts admission/Sorting incident and annual school award; excluded rugby narrative and contemporary authorial humour.
+
+entries:
+  - id: ext-a36-001
+    source_file: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+    source_id: A36
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby
+    source_section: Scottish Rugby
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It had never happened before and it has never happened since
+      end_phrase: left the hall with tears streaming down his face
+      local_occurrence_note: Paragraph recounting Angus Buchanan's exceptional nineteenth-century attempt to join the Sorting ceremony.
+    nearby_context: Angus, a Squib whose siblings forged a Hogwarts letter, reached the Sorting Hat before it identified that he was not a wizard and he left the hall.
+    match_terms:
+      - angus buchanan
+      - squib
+      - admissions
+      - sorting hat
+    quote_excerpt_short: but no wizard
+    source_note: In an exceptional mid-nineteenth-century case, Angus Buchanan, a Squib, reached the Sorting Hat after a forged letter; the Hat identified him as no wizard and he left Hogwarts.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - admissions
+      - nineteenth-century
+      - sorting-hat
+      - squib
+    candidate_part: "Part II: Institutional History"
+    candidate_chapter: Admissions and First-Year Preparation
+    candidate_section: Exceptional Admission and Sorting Case
+    reason_for_placement: Records the only stated instance of a non-magical child reaching the Sorting Hat, making it a qualified historical exception to ordinary admission.
+    relevance_to_hogwarts_a_history: Useful for a pre-1984 history as an explicitly exceptional admission-and-Sorting incident, not as evidence of a general policy for Squibs.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed admissions and Sorting-Hat entries describe ordinary letters, ceremonies, founder ideology, or Hat artifacts, not this exceptional Squib case.
+      audit:
+        query_tags:
+          - admissions
+          - squib
+          - sorting-hat
+          - nineteenth-century
+        candidates:
+          - id: cos-ch01-004
+            disposition: distinct
+          - id: cos-ch05-004
+            disposition: distinct
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch09-004
+            disposition: distinct
+          - id: cos-ch12-001
+            disposition: distinct
+          - id: cos-ch17-005
+            disposition: distinct
+          - id: cos-ch18-004
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+          - id: dh-ch12-002
+            disposition: distinct
+          - id: dh-ch33-003
+            disposition: distinct
+    confidence: high
+    limitations: This 2015 retrospective narrates a single exceptional account without an institutional record, date beyond the mid-nineteenth century, or a general Squib-admissions rule.
+
+  - id: ext-a36-002
+    source_file: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+    source_id: A36
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby
+    source_section: Scottish Rugby
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Angus Buchanan Cup for Outstanding Effort
+      end_phrase: is on its 110th printing
+      local_occurrence_note: Paragraph on Buchanan's posthumous recognition in the wizarding and Muggle worlds.
+    nearby_context: The account says Hogwarts awards the Angus Buchanan Cup for Outstanding Effort every year, alongside the continued publication of Buchanan's book.
+    match_terms:
+      - angus buchanan cup
+      - outstanding effort
+      - annual award
+      - hogwarts custom
+    quote_excerpt_short: is awarded at Hogwarts each year
+    source_note: Hogwarts annually awards the Angus Buchanan Cup for Outstanding Effort in recognition of the Squib sportsman and author.
+    reference_type: institutional_custom
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - angus-buchanan
+      - annual-award
+      - institutional-memory
+      - squib
+    candidate_part: "Part II: Institutional History"
+    candidate_chapter: Hogwarts Customs and Ceremonies
+    candidate_section: Annual Student Awards
+    reason_for_placement: Identifies a recurring Hogwarts award and the historical figure it commemorates.
+    relevance_to_hogwarts_a_history: Useful institutional-custom evidence, but the account does not date the award's creation or establish whether it predates the intended historical cutoff.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned institutional-memory records concern archives, headmaster portraits, or Pensieve practice rather than the Angus Buchanan award.
+      audit:
+        query_tags:
+          - annual-award
+          - angus-buchanan
+          - institutional-memory
+          - squib
+        candidates:
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: dh-ch07-003
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch36-006
+            disposition: distinct
+          - id: ext-a05-003
+            disposition: distinct
+          - id: ext-a17-001
+            disposition: distinct
+          - id: ext-a17-004
+            disposition: distinct
+    confidence: high
+    limitations: The retrospective confirms annual conferral but provides neither the Cup's founding date nor eligibility, selection process, or evidence that it belongs in a pre-1984 edition.

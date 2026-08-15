@@ -1769,16 +1769,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
     manifest_id: external-A36
     output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:46:34Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:40:05Z'
+      agent: source-agent-a36
+    - event: completed
+      at: '2026-08-15T16:46:34Z'
     staging_file: work/external-staging/a36.yaml
   - id: A37
     title: Extension Charms
@@ -1788,16 +1793,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a37-extension-charms.md
     manifest_id: external-A37
     output_file: sources/external/official-rowling/a37-extension-charms.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:48:54Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:40:06Z'
+      agent: source-agent-a37
+    - event: completed
+      at: '2026-08-15T16:48:54Z'
     staging_file: work/external-staging/a37.yaml
   - id: B01
     title: Online chat transcript, Scholastic.com , 3 February 2000
@@ -1807,16 +1817,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
     manifest_id: external-B01
     output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:51:24Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:40:17Z'
+      agent: source-agent-b01
+    - event: completed
+      at: '2026-08-15T16:51:24Z'
     staging_file: work/external-staging/b01.yaml
   - id: B02
     title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"

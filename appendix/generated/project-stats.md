@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 252
+- Total: 255
 
 ## Entries by Book or External Source
 
@@ -47,6 +47,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A33 — Sybill Trelawney: 3
 - A34 — Dolores Umbridge: 4
 - A35 — Draco Malfoy: 2
+- A36 — Scottish Rugby: 2
+- A37 — Extension Charms: 1
+- B01 — Online chat transcript, Scholastic.com , 3 February 2000: 6
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -59,26 +62,26 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 519
-- later_editorial_note: 688
-- original_book_core_candidate: 8
+- harry_era_confirmation: 520
+- later_editorial_note: 690
+- original_book_core_candidate: 10
 - post_1984_excluded_from_original: 30
-- pre_1984_historical_candidate: 276
-- unknown_or_uncertain: 17
+- pre_1984_historical_candidate: 278
+- unknown_or_uncertain: 19
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 107
-- curriculum_or_subject: 165
+- curriculum_or_subject: 166
 - direct_observed_setting: 69
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 289
+- historical_claim: 290
 - house_system: 37
-- institutional_custom: 211
-- magical_architecture: 110
-- portrait_or_ghost_lore: 33
-- school_rule_or_policy: 153
+- institutional_custom: 213
+- magical_architecture: 112
+- portrait_or_ghost_lore: 34
+- school_rule_or_policy: 155
 - security_or_protection: 242
 - weak_context_only: 4
 
@@ -88,12 +91,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1022
+- Total: 1023
 
 ## Latest Processed Unit
 
-- `A35` — Draco Malfoy, input `resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md`, output `sources/external/official-rowling/a35-draco-malfoy.yaml`
+- `B01` — Online chat transcript, Scholastic.com , 3 February 2000, input `resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md`, output `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
 
 ## Next Pending Unit
 
-- `A36` — Scottish Rugby, input `resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md`, output `sources/external/official-rowling/a36-scottish-rugby.yaml`
+- `B02` — "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000, input `resources/external/interviews/accio-quote/b02-scholastic-live-chat.md`, output `sources/external/interviews/b02-scholastic-live-chat.yaml`

@@ -1,0 +1,84 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A37
+  source_file: resources/external/official-rowling/harrypotter-com/a37-extension-charms.md
+  title: Extension Charms
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/extension-charms
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/extension-charms
+  capture_completeness: complete
+  content_sha256: b443ebb8cc33987ffb9251b1a4e50d0d8f41797e3aab6224353f656aa391584b
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and Hogwarts-relevant evidence extracted.
+
+entries:
+  - id: ext-a37-001
+    source_file: resources/external/official-rowling/harrypotter-com/a37-extension-charms.md
+    source_id: A37
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/extension-charms
+    source_section: Main text
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hogwarts school trunks, like the majority of wizarding luggage
+      end_phrase: individually approved for manufacture by the relevant Ministry Department
+      local_occurrence_note: Opening and second paragraphs of the main text, covering the standard Hogwarts trunks and the Ministry approval rule.
+    nearby_context: The source identifies capacity enhancement as standard in Hogwarts school trunks, then explains that the Ministry allows approved manufactured objects, including school trunks, rather than private use.
+    match_terms:
+      - capacity-enhancement
+      - extension-charms
+      - school-trunks
+    quote_excerpt_short: Hogwarts school trunks are issued with capacity enhancing or Extension Charms as standard.
+    source_note: Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
+    reference_type: institutional_custom
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - extension-charms
+      - hogwarts
+      - luggage
+      - ministry-regulation
+      - school-trunks
+    candidate_part: Hogwarts Life and Material Culture
+    candidate_chapter: Student Equipment and Travel
+    candidate_section: Standard-issue school trunks
+    reason_for_placement: The claim concerns a standard item issued for Hogwarts attendance and the regulatory condition that enables its manufacture.
+    relevance_to_hogwarts_a_history: Supports a qualified description of Hogwarts student material provision, without inferring when the standard was adopted.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed candidates concern unrelated Hogwarts facts or general transport regulation, not Hogwarts school trunks or their capacity-enhancement approval.
+      audit:
+        query_tags:
+          - extension-charms
+          - hogwarts
+          - luggage
+          - ministry-regulation
+          - school-trunks
+        candidates:
+          - id: dh-ch01-004
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+          - id: dh-ch27-004
+            disposition: distinct
+    confidence: high
+    limitations: The source does not date the adoption of standard capacity-enhanced trunks or identify the approving Ministry department; the passage also describes a broader Ministry rule rather than a Hogwarts-authored policy.

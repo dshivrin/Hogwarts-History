@@ -20867,6 +20867,73 @@ by_entry:
     - student-reading
     source_unit: qtta-ch11
     output_yaml: sources/book-qtta/chapter-11-back-cover.yaml
+  ext-b01-001:
+    title: 'Education and Student Life: Curriculum and elective study'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - hermione-granger
+    - muggle-studies
+    - optional-subject
+    source_unit: B01
+    output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  ext-b01-002:
+    title: 'Admissions and First-Year Preparation: Locating and inviting prospective
+      pupils'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - admissions-register
+    - eleven-years-old
+    - magical-quill
+    source_unit: B01
+    output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  ext-b01-003:
+    title: 'The Castle and Its Enchantments: Changeable internal architecture'
+    classification: original_book_core_candidate
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - castle-floorplan
+    - moving-rooms
+    - moving-staircase
+    source_unit: B01
+    output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  ext-b01-004:
+    title: 'The Castle and Its Enchantments: Magical construction and structural support'
+    classification: original_book_core_candidate
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - magic-supported-castle
+    - muggle-construction
+    - rambling-castle
+    source_unit: B01
+    output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  ext-b01-005:
+    title: 'Resident Ghosts and Castle Memory: Ghosthood and posthumous presence'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: low
+    tags:
+    - ghost-formation
+    - happiness-after-death
+    - posthumous-choice
+    source_unit: B01
+    output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  ext-b01-006:
+    title: 'Education and Student Life: Education after graduation'
+    classification: later_editorial_note
+    reference_type: school_rule_or_policy
+    confidence: low
+    tags:
+    - higher-education
+    - post-hogwarts-education
+    - wizarding-university
+    source_unit: B01
+    output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -22878,6 +22945,44 @@ by_entry:
     - hogwarts
     source_unit: A35
     output_yaml: sources/external/official-rowling/a35-draco-malfoy.yaml
+  ext-a36-001:
+    title: 'Admissions and First-Year Preparation: Exceptional Admission and Sorting
+      Case'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - admissions
+    - nineteenth-century
+    - sorting-hat
+    - squib
+    source_unit: A36
+    output_yaml: sources/external/official-rowling/a36-scottish-rugby.yaml
+  ext-a36-002:
+    title: 'Hogwarts Customs and Ceremonies: Annual Student Awards'
+    classification: unknown_or_uncertain
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - angus-buchanan
+    - annual-award
+    - institutional-memory
+    - squib
+    source_unit: A36
+    output_yaml: sources/external/official-rowling/a36-scottish-rugby.yaml
+  ext-a37-001:
+    title: 'Student Equipment and Travel: Standard-issue school trunks'
+    classification: unknown_or_uncertain
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - extension-charms
+    - hogwarts
+    - luggage
+    - ministry-regulation
+    - school-trunks
+    source_unit: A37
+    output_yaml: sources/external/official-rowling/a37-extension-charms.yaml
 by_tag:
   '1402':
   - ext-a25-003
@@ -22979,6 +23084,7 @@ by_tag:
   - cos-ch09-004
   - dh-ch33-003
   - dh-ch33-004
+  - ext-a36-001
   - ps-ch03-001
   - ps-ch03-002
   - ps-ch03-003
@@ -22991,6 +23097,8 @@ by_tag:
   - ps-ch05-002
   admissions-context:
   - beedle-ch04-004
+  admissions-register:
+  - ext-b01-002
   admissions-threshold:
   - ext-a03-004
   advanced-defense:
@@ -23129,6 +23237,8 @@ by_tag:
   - poa-ch16-001
   ancient-spells:
   - ootp-ch24-005
+  angus-buchanan:
+  - ext-a36-002
   animagi:
   - ext-a11-001
   - ootp-ch17-007
@@ -23155,6 +23265,8 @@ by_tag:
   animated-statues:
   - dh-ch30-006
   - ootp-ch36-004
+  annual-award:
+  - ext-a36-002
   annual-customs:
   - gof-ch12-003
   anti-apparition:
@@ -23995,6 +24107,8 @@ by_tag:
   - hbp-ch22-003
   castle-entry:
   - dh-ch27-006
+  castle-floorplan:
+  - ext-b01-003
   castle-gates:
   - ootp-ch16-001
   castle-ghosts:
@@ -25800,6 +25914,8 @@ by_tag:
   - gof-ch28-003
   elemental-transfiguration:
   - dh-ch15-003
+  eleven-years-old:
+  - ext-b01-002
   eleventh-birthday:
   - ps-ch03-005
   elixir-of-life:
@@ -26041,6 +26157,8 @@ by_tag:
   - hbp-ch06-007
   - ootp-ch04-006
   - ootp-ch09-003
+  extension-charms:
+  - ext-a37-001
   external-examiners:
   - ootp-ch31-002
   external-guests:
@@ -26637,6 +26755,8 @@ by_tag:
   ghost-customs:
   - cos-ch08-004
   - cos-ch08-005
+  ghost-formation:
+  - ext-b01-005
   ghost-lore:
   - dh-ch31-002
   ghost-society:
@@ -27324,6 +27444,8 @@ by_tag:
   - dh-ch21-001
   hannah-abbott:
   - hbp-ch11-002
+  happiness-after-death:
+  - ext-b01-005
   harry-potter:
   - cos-ch01-004
   - dh-ch01-002
@@ -27625,6 +27747,7 @@ by_tag:
   - ext-a20-002
   - ext-a25-006
   - ext-a25-007
+  - ext-b01-001
   - gof-ch08-003
   - gof-ch09-002
   - hbp-ch04-001
@@ -27714,6 +27837,8 @@ by_tag:
   - dh-ch15-005
   high-table:
   - ps-ch12-003
+  higher-education:
+  - ext-b01-006
   hinkypunks:
   - poa-ch09-005
   - poa-ch10-001
@@ -27873,6 +27998,7 @@ by_tag:
   - ext-a25-007
   - ext-a35-001
   - ext-a35-002
+  - ext-a37-001
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -28656,6 +28782,7 @@ by_tag:
   - ext-a05-003
   - ext-a17-001
   - ext-a17-004
+  - ext-a36-002
   institutional-secrecy:
   - cos-ch13-005
   intellectual-freedom:
@@ -29147,6 +29274,7 @@ by_tag:
   - gof-ch37-007
   - ootp-ch05-004
   luggage:
+  - ext-a37-001
   - gof-ch11-002
   - poa-ch05-001
   - ps-ch06-006
@@ -29240,6 +29368,8 @@ by_tag:
   magic-restriction:
   - cos-ch07-005
   - ootp-ch20-002
+  magic-supported-castle:
+  - ext-b01-004
   magical-ability:
   - beedle-ch04-004
   - ext-a03-003
@@ -29554,6 +29684,8 @@ by_tag:
   - hbp-ch26-005
   magical-powers:
   - ext-a09-008
+  magical-quill:
+  - ext-b01-002
   magical-races:
   - dh-ch25-003
   magical-records:
@@ -30156,6 +30288,7 @@ by_tag:
   ministry-regulation:
   - dh-ch01-004
   - ext-a25-005
+  - ext-a37-001
   ministry-response:
   - gof-ch09-004
   ministry-secrecy:
@@ -30242,11 +30375,14 @@ by_tag:
   - ootp-ch23-004
   moving-pictures:
   - gof-ch02-002
+  moving-rooms:
+  - ext-b01-003
   moving-routes:
   - dh-ch29-005
   moving-staircase:
   - cos-ch11-007
   - cos-ch13-006
+  - ext-b01-003
   - hbp-ch10-002
   - hbp-ch29-005
   mrs-figg:
@@ -30311,6 +30447,8 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch06-007
+  muggle-construction:
+  - ext-b01-004
   muggle-contact:
   - dh-ch33-004
   muggle-culture:
@@ -30414,6 +30552,7 @@ by_tag:
   - dh-ch12-001
   - dh-ch29-002
   - ext-a18-002
+  - ext-b01-001
   - poa-ch04-004
   - poa-ch06-001
   - poa-ch12-007
@@ -30575,6 +30714,7 @@ by_tag:
   - ps-ch11-006
   nineteenth-century:
   - ext-a27-001
+  - ext-a36-001
   no-magic-punishment:
   - cos-ch07-006
   non-human-creatures:
@@ -30710,6 +30850,8 @@ by_tag:
   - ootp-ch10-001
   oppugno:
   - hbp-ch14-007
+  optional-subject:
+  - ext-b01-001
   oral-tradition:
   - beedle-ch03-001
   - beedle-ch05-001
@@ -31341,6 +31483,8 @@ by_tag:
   - dh-ch36-005
   post-dumbledore:
   - hbp-ch30-007
+  post-hogwarts-education:
+  - ext-b01-006
   post-hogwarts-training:
   - ootp-ch03-004
   post-hogwarts-travel:
@@ -31350,6 +31494,8 @@ by_tag:
   - gof-ch10-001
   postal-service:
   - ext-a23-004
+  posthumous-choice:
+  - ext-b01-005
   potion:
   - hbp-ch26-006
   potion-ingredients:
@@ -32083,6 +32229,8 @@ by_tag:
   - ext-a08-002
   ragnuk-the-first:
   - dh-ch25-002
+  rambling-castle:
+  - ext-b01-004
   rancorous-carpe:
   - ext-a16-004
   - ext-a16-005
@@ -32731,6 +32879,8 @@ by_tag:
   - ootp-ch38-007
   - poa-ch05-001
   - ps-ch06-001
+  school-trunks:
+  - ext-a37-001
   school-unity:
   - ootp-ch11-004
   school-vacations:
@@ -33366,6 +33516,7 @@ by_tag:
   - ext-a20-001
   - ext-a20-002
   - ext-a20-003
+  - ext-a36-001
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -33460,6 +33611,9 @@ by_tag:
   sports-security:
   - qtta-ch05-001
   - qtta-ch05-002
+  squib:
+  - ext-a36-001
+  - ext-a36-002
   squib-context:
   - cos-ch08-002
   squibs:
@@ -35475,6 +35629,8 @@ by_tag:
   wizarding-transport:
   - gof-ch01-002
   - qtta-ch01-001
+  wizarding-university:
+  - ext-b01-006
   wizarding-war:
   - ps-ch01-002
   wizarding-wars:

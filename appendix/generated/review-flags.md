@@ -9,6 +9,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Low Confidence
 
 - `dh-ch22-004` (Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows): Harry suspects Dumbledore hid the broken Gaunt ring, and therefore the Resurrection Stone, inside the Snitch whose inscription still resists opening.
+- `ext-b01-005` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript links ghosthood after death to unhappiness, while explicitly withholding the fuller explanation for a later book.
+- `ext-b01-006` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript states that there is no university for wizards, in response to a question about education after Hogwarts.
 
 ## Unknown Era
 
@@ -29,6 +31,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a28-002` (A28, Wizarding Schools): Eleven long-established prestigious wizarding schools are registered with the International Confederation of Wizards; smaller institutions can be unregistered and their standards uncertain.
 - `ext-a28-003` (A28, Wizarding Schools): The source says the locations of the listed schools are secret and that magical education outside Britain, too, has faced Ministry interference or pressure amid broader historical threats.
 - `ext-a28-004` (A28, Wizarding Schools): As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
+- `ext-a36-002` (A36, Scottish Rugby): Hogwarts annually awards the Angus Buchanan Cup for Outstanding Effort in recognition of the Squib sportsman and author.
+- `ext-a37-001` (A37, Extension Charms): Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
 
 ## Possible Duplicates
 
@@ -325,6 +329,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a31-002` (A31, Professor Quirrell): Voldemort immediately possessed Quirrell after learning that he held a Hogwarts position, turning an incumbent teacher into an internal threat.
 - `ext-a34-002` (A34, Dolores Umbridge): Umbridge was appointed Hogwarts Inquisitor, a Ministry-backed role that placed her in authority at the school.
 - `ext-a34-003` (A34, Dolores Umbridge): During a Hogwarts detention, Umbridge compelled Harry to cut 'I must not tell lies' into the back of his hand, leaving a permanent scar.
+- `ext-b01-001` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.
 - `gof-ch02-001` (Harry Potter and the Goblet of Fire, Chapter Two - The Scar): The chapter treats Harry's lightning scar as a continuing magical trace of Voldemort's curse and records Harry's own link between scar pain and Voldemort's earlier proximity at Hogwarts.
@@ -1303,6 +1308,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a34-004` (A34, Dolores Umbridge): Umbridge's Hogwarts tenure ended after she exceeded the remit that Minister Fudge had granted her.
 - `ext-a35-001` (A35, Draco Malfoy): Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
 - `ext-a35-002` (A35, Draco Malfoy): Rowling attributes the successful admission of a group of Death Eaters into Hogwarts to Draco’s plan; Dumbledore was subsequently killed by Snape, not Draco.
+- `ext-b01-005` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript links ghosthood after death to unhappiness, while explicitly withholding the fuller explanation for a later book.
+- `ext-b01-006` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript states that there is no university for wizards, in response to a question about education after Hogwarts.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-004` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter gives direct evidence that Voldemort believes he has a hidden loyal agent positioned at Hogwarts before the plan against Harry proceeds.
@@ -1858,6 +1865,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a22-005` (A22, Familiars): Owls function as messengers, but Rowling characterizes this as a highly organised postal service comparable to Muggle pigeon post, not as familiar service.
 - `ext-a24-002` (A24, The Floo Network): The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.
 - `ext-a28-004` (A28, Wizarding Schools): As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
+- `ext-b01-001` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
+- `ext-b01-004` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch02-003` (Harry Potter and the Goblet of Fire, Chapter Two - The Scar): The chapter combines Muggle cover-story practice for Hogwarts absences with another statement of the underage magic restriction outside school.
@@ -2241,6 +2250,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a32-005` (A32, Gilderoy Lockhart): During Lockhart's appointment period, the Defence Against the Dark Arts post was reportedly difficult to fill as rumours of a curse gained traction.
 - `ext-a33-003` (A33, Sybill Trelawney): Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
 - `ext-a35-001` (A35, Draco Malfoy): Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
+- `ext-a37-001` (A37, Extension Charms): Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
+- `ext-b01-001` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
+- `ext-b01-004` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.

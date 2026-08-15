@@ -14046,6 +14046,21 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
   - Notes: It summarizes wizarding law through a teacher's classroom speech.
 
+## Part: Hogwarts Life and Material Culture
+
+### Chapter: Student Equipment and Travel
+
+#### Section: Standard-issue school trunks
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
+
+- **Context:** Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
+  - Quote: "Hogwarts school trunks are issued with capacity enhancing or Extension Charms as standard."
+  - Source: A37, https://www.harrypotter.com/writing-by-jk-rowling/extension-charms, `sources/external/official-rowling/a37-extension-charms.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source does not date the adoption of standard capacity-enhanced trunks or identify the approving Ministry department; the passage also describes a broader Ministry rule rather than a Hogwarts-authored policy.
+
 ## Part: Hogwarts Life and Traditions
 
 ### Chapter: School Gatherings and Performances
@@ -15629,6 +15644,45 @@ Summary: The available evidence includes 1 source item, led by: Hermione continu
   - Corroborates: `ps-ch06-004`. ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
   - Notes: The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.
 
+## Part: Part I — Hogwarts Castle
+
+### Chapter: Resident Ghosts and Castle Memory
+
+#### Section: Ghosthood and posthumous presence
+
+Summary: The available evidence includes 1 source item, led by: The transcript links ghosthood after death to unhappiness, while explicitly withholding the fuller explanation for a later book.
+
+- **Context:** The transcript links ghosthood after death to unhappiness, while explicitly withholding the fuller explanation for a later book.
+  - Quote: "the happiest people do not become ghosts"
+  - Source: B01, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Reference type: portrait_or_ghost_lore
+  - Notes: Preservation transcription (authority D), not an official first-party page; the answer is deliberately incomplete in 2000 and points readers to a then-unpublished Book VII explanation.
+
+### Chapter: The Castle and Its Enchantments
+
+#### Section: Changeable internal architecture
+
+Summary: The available evidence includes 1 source item, led by: The transcript attributes the absence of a fixed Hogwarts floorplan to mobile staircases and rooms.
+
+- **Supporting evidence:** The transcript attributes the absence of a fixed Hogwarts floorplan to mobile staircases and rooms.
+  - Quote: "the staircases and the rooms keep moving"
+  - Source: B01, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+  - Classification: original_book_core_candidate | Confidence: medium
+  - Reference type: magical_architecture
+  - Notes: Preservation transcription (authority D), not an official first-party page; this is a concise 2000 author visualization rather than a technical architectural specification.
+
+#### Section: Magical construction and structural support
+
+Summary: The available evidence includes 1 source item, led by: The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
+
+- **Supporting evidence:** The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
+  - Quote: "it is supported by magic"
+  - Source: B01, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+  - Classification: original_book_core_candidate | Confidence: medium
+  - Reference type: magical_architecture
+  - Notes: Preservation transcription (authority D), not an official first-party page; the informal 2000 description is author commentary and does not enumerate the castle’s magic or construction history.
+
 ## Part: Part I: Foundations and Governance
 
 ### Chapter: Hogwarts and the Ministry of Magic
@@ -15970,6 +16024,46 @@ Summary: The available evidence includes 1 source item, led by: McGonagall was a
   - Reference type: house_system
   - Notes: A retrospective authorial profile gives no year for the Sorting and does not independently date it.
 
+## Part: Part II — The School
+
+### Chapter: Admissions and First-Year Preparation
+
+#### Section: Locating and inviting prospective pupils
+
+Summary: The available evidence includes 1 source item, led by: The transcript says a Hogwarts quill enters each magical child's name in a parchment book at birth; McGonagall checks it annually and sends owls to children approaching eleven.
+
+- **Supporting evidence:** The transcript says a Hogwarts quill enters each magical child's name in a parchment book at birth; McGonagall checks it annually and sends owls to children approaching eleven.
+  - Quote: "a magical quill which detects the birth of a magical child"
+  - Source: B01, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Preservation transcription (authority D), not an official first-party page; the answer is a short 2000 author statement and should be corroborated by published canon where available.
+
+### Chapter: Education and Student Life
+
+#### Section: Curriculum and elective study
+
+Summary: The available evidence includes 1 source item, led by: The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
+
+- **Corroboration:** The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
+  - Quote: "They can choose to study Muggle subjects."
+  - Source: B01, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Corroborates: `poa-ch04-004`, `cos-ch14-002`. The two duplicate-marked entries cover the same elective Muggle Studies claim; later-war references to the subject are corroborating or distinct context.
+  - Notes: Preservation transcription (authority D), not an official first-party page; the concise 2000 live-chat answer is author commentary and does not independently establish the complete curriculum.
+
+#### Section: Education after graduation
+
+Summary: The available evidence includes 1 source item, led by: The transcript states that there is no university for wizards, in response to a question about education after Hogwarts.
+
+- **Context:** The transcript states that there is no university for wizards, in response to a question about education after Hogwarts.
+  - Quote: "there's no University for Wizards"
+  - Source: B01, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Reference type: school_rule_or_policy
+  - Notes: Preservation transcription (authority D), not an official first-party page; this is a concise 2000 planning-era answer, not a published in-universe institutional source.
+
 ## Part: Part II: Governance and the Wider Wizarding World
 
 ### Chapter: Secrecy, Ministry Policy, and Hogwarts
@@ -16008,6 +16102,32 @@ Summary: The available evidence includes 1 source item, led by: The account says
   - Notes: The source expressly says the train's origin has never been conclusively proven and calls the suspected operation alleged crimes.
 
 ## Part: Part II: Institutional History
+
+### Chapter: Admissions and First-Year Preparation
+
+#### Section: Exceptional Admission and Sorting Case
+
+Summary: The available evidence includes 1 source item, led by: In an exceptional mid-nineteenth-century case, Angus Buchanan, a Squib, reached the Sorting Hat after a forged letter; the Hat identified him as no wizard and he left Hogwarts.
+
+- **Supporting evidence:** In an exceptional mid-nineteenth-century case, Angus Buchanan, a Squib, reached the Sorting Hat after a forged letter; the Hat identified him as no wizard and he left Hogwarts.
+  - Quote: "but no wizard"
+  - Source: A36, https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby, `sources/external/official-rowling/a36-scottish-rugby.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This 2015 retrospective narrates a single exceptional account without an institutional record, date beyond the mid-nineteenth century, or a general Squib-admissions rule.
+
+### Chapter: Hogwarts Customs and Ceremonies
+
+#### Section: Annual Student Awards
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts annually awards the Angus Buchanan Cup for Outstanding Effort in recognition of the Squib sportsman and author.
+
+- **Context:** Hogwarts annually awards the Angus Buchanan Cup for Outstanding Effort in recognition of the Squib sportsman and author.
+  - Quote: "is awarded at Hogwarts each year"
+  - Source: A36, https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby, `sources/external/official-rowling/a36-scottish-rugby.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The retrospective confirms annual conferral but provides neither the Cup's founding date nor eligibility, selection process, or evidence that it belongs in a pre-1984 edition.
 
 ### Chapter: Notable Alumni and Staff
 
