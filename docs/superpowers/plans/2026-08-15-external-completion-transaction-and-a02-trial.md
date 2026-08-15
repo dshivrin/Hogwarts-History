@@ -774,7 +774,7 @@
 
 ### Task 4: Record readiness and run isolated A02
 
-**Status:** pending
+**Status:** in progress
 
 **Files:**
 - Modify: `docs/superpowers/plans/2026-08-15-external-source-extraction-automation.md`
@@ -788,7 +788,7 @@
 - Consumes: the hardened queue controller, active runtime contract, compact query commands, and A02 snapshot.
 - Produces: one reviewed A02 canonical evidence YAML, queue status with A01/A02 done and A03 next, and a separate trial commit.
 
-- [ ] **Step 1: Run the pre-trial readiness gate**
+- [x] **Step 1: Run the pre-trial readiness gate**
 
   Run:
 
