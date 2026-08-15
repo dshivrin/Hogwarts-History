@@ -56,10 +56,29 @@ def write_test_manifest(root: Path, count: int = 5) -> Path:
                 "id": f"external-{logical_id}",
                 "logical_id": logical_id,
                 "title": f"Source {logical_id}",
+                "author": "Test Author",
+                "source_site": "Example.test",
                 "source_class": "official_rowling_original",
                 "authority": "A",
+                "publication_date": "2026-08-15",
+                "original_url": f"https://example.test/{logical_id.lower()}",
+                "retrieval_url": f"https://example.test/{logical_id.lower()}",
+                "capture_completeness": "complete",
                 "local_path": f"resources/external/{logical_id.lower()}.md",
             }
+        )
+        body = f"Evidence body for {logical_id}."
+        records[-1]["sha256"] = hashlib.sha256(body.encode("utf-8")).hexdigest()
+        snapshot = root / records[-1]["local_path"]
+        snapshot.parent.mkdir(parents=True, exist_ok=True)
+        snapshot.write_text(
+            "---\n"
+            f"id: {logical_id}\n"
+            "capture_completeness: complete\n"
+            f"sha256: {records[-1]['sha256']}\n"
+            "---\n\n"
+            f"# Source {logical_id}\n\n{body}\n",
+            encoding="utf-8",
         )
     manifest_path = root / "resources/manifests/external-sources.yaml"
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -373,6 +392,20 @@ class ExternalValidationTests(unittest.TestCase):
         self.assertIn("content_sha256 does not match snapshot body", joined)
         self.assertIn("pdf_page must be null for external evidence", joined)
 
+    def test_external_anchor_must_exist_in_its_snapshot(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            output = self.write_external_fixture(root)
+            payload = load_yaml(output)
+            payload["entries"][0]["text_anchor"]["start_phrase"] = "not in source"
+            output.write_text(
+                yaml.safe_dump(payload, sort_keys=False, allow_unicode=True),
+                encoding="utf-8",
+            )
+            errors = self.validate_fixture(root)
+
+        self.assertIn("text_anchor start_phrase does not occur in snapshot", "\n".join(errors))
+
     def test_external_entries_are_counted_with_book_entries(self) -> None:
         validator = importlib.import_module("scripts.validate_source_yaml")
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -407,6 +440,10 @@ class QueueGenerationTests(unittest.TestCase):
             self.assertIsNone(unit["blocked_reason"])
             self.assertEqual(unit["validation_status"], "not_run")
             self.assertEqual(unit["update_profile"], "canonical_external_evidence")
+            self.assertEqual(
+                unit["staging_file"],
+                f"work/external-staging/{unit['id'].lower()}.yaml",
+            )
 
 
 class QueueTransitionTests(unittest.TestCase):
@@ -437,6 +474,71 @@ class QueueTransitionTests(unittest.TestCase):
         self.queue = queue_module()
         self.controller = self.queue.QueueController(self.root)
         self.controller.initialize()
+
+    def write_staged_output(self, unit: dict) -> Path:
+        manifest = load_yaml(self.root / "resources/manifests/external-sources.yaml")
+        record = next(item for item in manifest["sources"] if item["logical_id"] == unit["id"])
+        source_id = unit["id"]
+        draft = self.root / unit["staging_file"]
+        draft.parent.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "source_unit": {
+                "source_kind": "external_markdown",
+                "source_id": source_id,
+                "source_file": record["local_path"],
+                "title": record["title"],
+                "author": record["author"],
+                "source_site": record["source_site"],
+                "source_class": record["source_class"],
+                "authority": record["authority"],
+                "publication_date": record["publication_date"],
+                "original_url": record["original_url"],
+                "retrieval_url": record["retrieval_url"],
+                "capture_completeness": record["capture_completeness"],
+                "content_sha256": record["sha256"],
+                "processed_date": "2026-08-15",
+                "processor_notes": "Complete assigned snapshot read.",
+            },
+            "entries": [
+                {
+                    "id": f"ext-{source_id.lower()}-001",
+                    "source_file": record["local_path"],
+                    "source_id": source_id,
+                    "source_url": record["original_url"],
+                    "source_section": None,
+                    "pdf_page": None,
+                    "printed_page": None,
+                    "extracted_text_lines": None,
+                    "text_anchor": {
+                        "start_phrase": "Evidence body",
+                        "end_phrase": f"for {source_id}.",
+                        "local_occurrence_note": "Only body paragraph.",
+                    },
+                    "nearby_context": "Example context.",
+                    "match_terms": ["hogwarts"],
+                    "quote_excerpt_short": "Evidence body.",
+                    "source_note": "The source contains evidence.",
+                    "reference_type": "historical_claim",
+                    "era_classification": "pre_1984_historical_candidate",
+                    "topic_tags": ["hogwarts", "history", "example"],
+                    "candidate_part": "Origins",
+                    "candidate_chapter": "Example chapter",
+                    "candidate_section": "Example section",
+                    "reason_for_placement": "It is historical evidence.",
+                    "relevance_to_hogwarts_a_history": "Supports the example section.",
+                    "duplicate_check": {
+                        "possible_duplicate": False,
+                        "duplicate_of": None,
+                        "notes": "Indexed lookup found no match.",
+                        "audit": {"query_tags": ["hogwarts"], "candidate_ids": []},
+                    },
+                    "confidence": "high",
+                    "limitations": "Test carrier only.",
+                }
+            ],
+        }
+        draft.write_text(yaml.safe_dump(payload, sort_keys=False), encoding="utf-8")
+        return draft
 
     def tearDown(self) -> None:
         self.tempdir.cleanup()
@@ -493,27 +595,9 @@ class QueueTransitionTests(unittest.TestCase):
 
     def test_successful_completion_marks_only_claimed_unit_done(self) -> None:
         claimed = self.controller.claim("worker", unit_id="A01")
-        output = self.root / claimed["output_file"]
-        output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(
-            yaml.safe_dump(
-                {
-                    "source_unit": {"source_kind": "external_markdown"},
-                    "entries": [
-                        {
-                            "id": "ext-a01-001",
-                            "topic_tags": ["hogwarts", "history", "example"],
-                            "duplicate_check": {
-                                "possible_duplicate": False,
-                                "duplicate_of": None,
-                                "notes": "Indexed lookup found no match.",
-                            },
-                        }
-                    ],
-                },
-                sort_keys=False,
-            ),
-            encoding="utf-8",
+        self.write_staged_output(claimed)
+        (self.root / "project-control/duplicate-index.yaml").write_text(
+            "entries: []\n", encoding="utf-8"
         )
 
         completed = self.controller.complete(
@@ -527,6 +611,151 @@ class QueueTransitionTests(unittest.TestCase):
         status = self.controller.status()
         self.assertEqual(status["counts"], {"pending": 4, "in_progress": 0, "done": 1, "blocked": 0})
         self.assertEqual(status["next_pending_unit"]["id"], "A02")
+
+    def test_completion_promotes_only_its_staged_draft(self) -> None:
+        first = self.controller.claim("worker-one", unit_id="A01")
+        second = self.controller.claim("worker-two", unit_id="A02")
+        first_draft = self.write_staged_output(first)
+        second_draft = self.write_staged_output(second)
+        (self.root / "project-control/duplicate-index.yaml").write_text(
+            "entries: []\n", encoding="utf-8"
+        )
+
+        self.controller.complete(
+            "A01", first["claim_token"], runner=lambda commands, root: None
+        )
+
+        self.assertTrue((self.root / first["output_file"]).is_file())
+        self.assertFalse(first_draft.exists())
+        self.assertTrue(second_draft.is_file())
+        self.assertFalse((self.root / second["output_file"]).exists())
+        source_files = importlib.import_module("scripts.source_files")
+        discovered = [path.relative_to(self.root).as_posix() for path in source_files.discover_source_yaml(self.root)]
+        self.assertEqual(discovered, [first["output_file"]])
+
+    def test_completion_rejects_tampered_claimed_provenance(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        draft = self.write_staged_output(claimed)
+        payload = load_yaml(draft)
+        payload["source_unit"]["source_site"] = "Wrong carrier"
+        draft.write_text(yaml.safe_dump(payload, sort_keys=False), encoding="utf-8")
+
+        with self.assertRaisesRegex(self.queue.QueueError, "source_site does not match claimed carrier"):
+            self.controller.complete(
+                "A01", claimed["claim_token"], runner=lambda commands, root: None
+            )
+
+        self.assertTrue(draft.is_file())
+        self.assertFalse((self.root / claimed["output_file"]).exists())
+
+    def test_completion_rejects_entries_without_required_tag_count(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        draft = self.write_staged_output(claimed)
+        payload = load_yaml(draft)
+        payload["entries"][0]["topic_tags"] = []
+        draft.write_text(yaml.safe_dump(payload, sort_keys=False), encoding="utf-8")
+
+        with self.assertRaisesRegex(self.queue.QueueError, "topic_tags count must be 3-8"):
+            self.controller.complete(
+                "A01", claimed["claim_token"], runner=lambda commands, root: None
+            )
+
+    def test_completion_generates_reports_from_prospective_done_state(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        self.write_staged_output(claimed)
+        (self.root / "project-control/duplicate-index.yaml").write_text(
+            "entries: []\n", encoding="utf-8"
+        )
+        observed: dict[str, object] = {}
+
+        def runner(commands, root):
+            if any(command[-1] == "scripts/generate_appendices.py" for command in commands):
+                observed.update(load_yaml(root / "project-control/processing-state.yaml"))
+
+        self.controller.complete("A01", claimed["claim_token"], runner=runner)
+
+        self.assertEqual(
+            observed["external_processing"]["last_completed_unit"]["id"], "A01"
+        )
+
+    def test_generation_failure_returns_promoted_draft_to_staging(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        draft = self.write_staged_output(claimed)
+        (self.root / "project-control/duplicate-index.yaml").write_text(
+            "entries: []\n", encoding="utf-8"
+        )
+
+        def failing_runner(commands, root):
+            if any(command[-1] == "scripts/generate_appendices.py" for command in commands):
+                raise RuntimeError("appendix generation failed")
+
+        with self.assertRaisesRegex(self.queue.QueueError, "appendix generation failed"):
+            self.controller.complete("A01", claimed["claim_token"], runner=failing_runner)
+
+        self.assertTrue(draft.is_file())
+        self.assertFalse((self.root / claimed["output_file"]).exists())
+        self.assertEqual(self.controller.unit("A01")["status"], "in_progress")
+
+    def test_duplicate_audit_rejects_unindexed_candidate_ids(self) -> None:
+        payload = {
+            "source_unit": {"source_kind": "external_markdown"},
+            "entries": [
+                {
+                    "id": "ext-a01-001",
+                    "duplicate_check": {
+                        "possible_duplicate": False,
+                        "duplicate_of": None,
+                        "notes": "Indexed lookup found no match.",
+                        "audit": {
+                            "query_tags": ["hogwarts"],
+                            "candidate_ids": ["invented-entry"],
+                        },
+                    },
+                }
+            ],
+        }
+        duplicate_index = {"entries": [{"entry_id": "real-entry", "tags": ["hogwarts"]}]}
+
+        with self.assertRaisesRegex(self.queue.QueueError, "candidate_ids"):
+            self.queue.QueueController._verify_duplicate_metadata(
+                payload,
+                self.root / "draft.yaml",
+                duplicate_index,
+            )
+
+    def test_duplicate_audit_must_record_latest_index_candidates(self) -> None:
+        payload = {
+            "source_unit": {"source_kind": "external_markdown"},
+            "entries": [
+                {
+                    "id": "ext-a01-001",
+                    "duplicate_check": {
+                        "possible_duplicate": False,
+                        "duplicate_of": None,
+                        "notes": "Indexed lookup found no match.",
+                        "audit": {"query_tags": ["hogwarts"], "candidate_ids": []},
+                    },
+                }
+            ],
+        }
+        duplicate_index = {"entries": [{"entry_id": "real-entry", "tags": ["hogwarts"]}]}
+
+        with self.assertRaisesRegex(self.queue.QueueError, "must record latest candidate_ids"):
+            self.queue.QueueController._verify_duplicate_metadata(
+                payload,
+                self.root / "draft.yaml",
+                duplicate_index,
+            )
+
+    def test_latest_completed_unit_uses_completion_timestamp_not_queue_order(self) -> None:
+        status = self.queue.derive_external_state(
+            [
+                {"id": "A01", "status": "done", "completed_at": "2026-08-15T12:00:00Z"},
+                {"id": "A02", "status": "done", "completed_at": "2026-08-15T09:00:00Z"},
+            ]
+        )
+
+        self.assertEqual(status["last_completed_unit"]["id"], "A01")
 
 
 class ExternalQueueDisplayTests(unittest.TestCase):

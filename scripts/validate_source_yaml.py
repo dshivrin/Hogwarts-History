@@ -171,12 +171,14 @@ def validate_external_source_unit(
         errors.append(f"{rel_path}: source_unit content_sha256 must be 64 lowercase hex characters")
 
     source_file = str(source_unit.get("source_file") or "")
+    snapshot_text = ""
     snapshot_path = root / source_file
     if not source_file or not snapshot_path.is_file():
         errors.append(f"{rel_path}: external snapshot does not exist: {source_file!r}")
     else:
         try:
             metadata, actual_hash = snapshot_body_sha256(snapshot_path)
+            snapshot_text = snapshot_path.read_text(encoding="utf-8")
         except Exception as exc:
             errors.append(f"{rel_path}: invalid external snapshot: {exc}")
         else:
@@ -218,6 +220,12 @@ def validate_external_source_unit(
             for key in ("start_phrase", "end_phrase", "local_occurrence_note")
         ):
             errors.append(f"{label}: text_anchor must contain start, end, and occurrence notes")
+        elif snapshot_text:
+            for key in ("start_phrase", "end_phrase"):
+                if str(anchor[key]) not in snapshot_text:
+                    errors.append(
+                        f"{label}: text_anchor {key} does not occur in snapshot"
+                    )
     return errors
 
 

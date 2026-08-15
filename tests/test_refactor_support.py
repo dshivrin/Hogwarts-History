@@ -918,7 +918,8 @@ class RefactorSupportTests(unittest.TestCase):
         ]:
             self.assertIn(text, contract)
 
-        self.assertIn("Workers write only their assigned external YAML", contract)
+        self.assertIn("Workers write only their assigned staged YAML path", contract)
+        self.assertIn("Do not write the canonical output path", contract)
         self.assertIn("Do not scan all canonical source YAML", contract)
         self.assertNotIn("`scripts/query_duplicates.py` for duplicate and context lookup", contract)
         self.assertNotIn("`scripts/query_entries.py` for " "compact entry lookup", contract)

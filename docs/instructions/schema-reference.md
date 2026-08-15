@@ -103,6 +103,11 @@ entries:
       possible_duplicate: false
       duplicate_of: null
       notes: indexed lookup result
+      audit:
+        query_tags:
+          - normalized-tag-used-for-latest-index-recheck
+        candidate_ids:
+          - indexed-entry-id-reviewed
     confidence: high
     limitations: source and interpretation limits
 ```
@@ -145,5 +150,5 @@ Use only:
 - `quote_excerpt_short` must be a short identifying excerpt under 25 words.
 - `source_note` paraphrases the evidence.
 - `candidate_part`, `candidate_chapter`, and `candidate_section` are tentative structure suggestions.
-- `duplicate_check` records whether the same fact already appears elsewhere, without deleting repeated evidence.
+- `duplicate_check` records whether the same fact already appears elsewhere, without deleting repeated evidence. For external queue completion, its `audit.query_tags` and `audit.candidate_ids` record the current compact-index comparison; every listed candidate must be returned by that latest index, and `duplicate_of` must be one of those candidates.
 - `confidence` should be `high`, `medium`, or `low`.

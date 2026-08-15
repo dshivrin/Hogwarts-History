@@ -19,8 +19,17 @@ from typing import Callable, Iterator
 
 import yaml
 
+IMPORT_ROOT = Path(__file__).resolve().parents[2]
+if str(IMPORT_ROOT) not in sys.path:
+    sys.path.insert(0, str(IMPORT_ROOT))
 
-ROOT = Path(__file__).resolve().parents[2]
+try:
+    from scripts import validate_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    import validate_source_yaml
+
+
+ROOT = IMPORT_ROOT
 MAX_IN_PROGRESS = 4
 _THREAD_LOCK = threading.Lock()
 
@@ -56,6 +65,28 @@ def atomic_write_yaml(path: Path, payload: dict) -> None:
         ) as handle:
             temporary_path = Path(handle.name)
             yaml.safe_dump(payload, handle, sort_keys=False, allow_unicode=True)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary_path, path)
+    finally:
+        if temporary_path is not None and temporary_path.exists():
+            temporary_path.unlink()
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as handle:
+            temporary_path = Path(handle.name)
+            handle.write(text)
             handle.flush()
             os.fsync(handle.fileno())
         os.replace(temporary_path, path)
@@ -108,6 +139,7 @@ def build_units(manifest: dict) -> list[dict]:
         output_file = (
             Path("sources/external") / output_group / f"{Path(input_path).stem}.yaml"
         ).as_posix()
+        staging_file = (Path("work/external-staging") / f"{logical_id.lower()}.yaml").as_posix()
         unit = {
             "id": logical_id,
             "title": record.get("title"),
@@ -117,6 +149,7 @@ def build_units(manifest: dict) -> list[dict]:
             "input_path": input_path,
             "manifest_id": manifest_id,
             "output_file": output_file,
+            "staging_file": staging_file,
             "status": "pending",
             "claimed_by": None,
             "claim_token": None,
@@ -151,6 +184,7 @@ def unit_summary(unit: dict, *, include_token: bool = False) -> dict:
         "status",
         "input_path",
         "output_file",
+        "staging_file",
         "manifest_id",
         "claimed_by",
         "claimed_at",
@@ -170,12 +204,17 @@ def derive_external_state(units: list[dict]) -> dict:
     active = [unit_summary(unit) for unit in units if unit.get("status") == "in_progress"]
     next_pending = next((unit for unit in units if unit.get("status") == "pending"), None)
     completed = [unit for unit in units if unit.get("status") == "done"]
+    last_completed = max(
+        completed,
+        key=lambda unit: (str(unit.get("completed_at") or ""), str(unit.get("id") or "")),
+        default=None,
+    )
     return {
         "total_units": len(units),
         "counts": counts,
         "active_units": active,
         "next_pending_unit": unit_summary(next_pending) if next_pending else None,
-        "last_completed_unit": unit_summary(completed[-1]) if completed else None,
+        "last_completed_unit": unit_summary(last_completed) if last_completed else None,
     }
 
 
@@ -310,7 +349,7 @@ class QueueController:
             }
         )
         atomic_write_yaml(self.state_path, state)
-        self.next_run_path.write_text(render_external_next_run(status), encoding="utf-8")
+        atomic_write_text(self.next_run_path, render_external_next_run(status))
         return status
 
     def initialize(self) -> dict:
@@ -325,6 +364,8 @@ class QueueController:
                 if existing_ids != generated_ids:
                     raise QueueError("existing external queue does not match manifest IDs")
                 units = existing["units"]
+                for unit, generated in zip(units, generated_units):
+                    unit.setdefault("staging_file", generated["staging_file"])
             else:
                 units = generated_units
             plan["current_phase"] = "external-source-extraction"
@@ -461,11 +502,19 @@ class QueueController:
             return deepcopy(unit)
 
     @staticmethod
-    def _verify_duplicate_metadata(output: dict, output_path: Path) -> None:
+    def _verify_duplicate_metadata(
+        output: dict, output_path: Path, duplicate_index: dict
+    ) -> None:
         source_unit = output.get("source_unit")
         entries = output.get("entries")
         if not isinstance(source_unit, dict) or not isinstance(entries, list):
             raise QueueError(f"invalid source YAML structure: {output_path}")
+        indexed_entries = [
+            row for row in duplicate_index.get("entries") or [] if isinstance(row, dict)
+        ]
+        completing_ids = {
+            str(entry.get("id") or "") for entry in entries if isinstance(entry, dict)
+        }
         for index, entry in enumerate(entries, start=1):
             if not isinstance(entry, dict):
                 raise QueueError(f"entry {index} is not a mapping in {output_path}")
@@ -474,10 +523,124 @@ class QueueController:
                 raise QueueError(
                     f"entry {entry.get('id') or index} lacks indexed duplicate-check notes"
                 )
+            audit = duplicate.get("audit")
+            if not isinstance(audit, dict):
+                raise QueueError(
+                    f"entry {entry.get('id') or index} lacks structured duplicate audit"
+                )
+            query_tags = audit.get("query_tags")
+            candidate_ids = audit.get("candidate_ids")
+            if (
+                not isinstance(query_tags, list)
+                or not query_tags
+                or not all(isinstance(tag, str) and tag.strip() for tag in query_tags)
+                or not isinstance(candidate_ids, list)
+                or len(candidate_ids) != len(set(candidate_ids))
+            ):
+                raise QueueError(
+                    f"entry {entry.get('id') or index} has invalid duplicate audit"
+                )
+            requested_tags = {tag.strip() for tag in query_tags}
+            available_ids = {
+                str(row.get("entry_id") or "")
+                for row in indexed_entries
+                if str(row.get("entry_id") or "") not in completing_ids
+                and requested_tags & {str(tag) for tag in row.get("tags") or []}
+            }
+            audited_ids = {str(candidate_id) for candidate_id in candidate_ids}
+            if audited_ids - available_ids:
+                raise QueueError(
+                    f"entry {entry.get('id') or index} duplicate audit candidate_ids "
+                    "are absent from the latest duplicate index"
+                )
+            if available_ids and not audited_ids:
+                raise QueueError(
+                    f"entry {entry.get('id') or index} duplicate audit must record "
+                    "latest candidate_ids"
+                )
             if duplicate.get("possible_duplicate") is True and not duplicate.get("duplicate_of"):
                 raise QueueError(
                     f"entry {entry.get('id') or index} marks a duplicate without duplicate_of"
                 )
+            targets = validate_source_yaml.duplicate_targets(duplicate.get("duplicate_of"))
+            if targets and not set(targets).issubset(audited_ids):
+                raise QueueError(
+                    f"entry {entry.get('id') or index} duplicate_of must appear in audit candidate_ids"
+                )
+
+    def _manifest_record(self, unit: dict) -> dict:
+        manifest = load_yaml(self.manifest_path)
+        matches = [
+            record
+            for record in manifest.get("sources") or []
+            if isinstance(record, dict)
+            and record.get("logical_id") == unit.get("id")
+            and record.get("id") == unit.get("manifest_id")
+        ]
+        if len(matches) != 1:
+            raise QueueError(f"manifest has no unique record for unit {unit.get('id')}")
+        return matches[0]
+
+    def _verify_assigned_output(self, unit: dict, output: dict, output_path: Path) -> None:
+        source_unit = output.get("source_unit")
+        entries = output.get("entries")
+        if not isinstance(source_unit, dict) or not isinstance(entries, list):
+            raise QueueError(f"invalid source YAML structure: {output_path}")
+        record = self._manifest_record(unit)
+        expected = {
+            "source_kind": "external_markdown",
+            "source_id": unit.get("id"),
+            "source_file": record.get("local_path"),
+            "title": record.get("title"),
+            "author": record.get("author"),
+            "source_site": record.get("source_site"),
+            "source_class": record.get("source_class"),
+            "authority": record.get("authority"),
+            "publication_date": record.get("publication_date"),
+            "original_url": record.get("original_url"),
+            "retrieval_url": record.get("retrieval_url"),
+            "capture_completeness": record.get("capture_completeness"),
+            "content_sha256": record.get("sha256"),
+        }
+        for key, value in expected.items():
+            if source_unit.get(key) != value:
+                raise QueueError(
+                    f"{output_path}: source_unit {key} does not match claimed carrier"
+                )
+        allowed_urls = {str(record.get("original_url") or ""), str(record.get("retrieval_url") or "")}
+        for index, entry in enumerate(entries, start=1):
+            if not isinstance(entry, dict):
+                raise QueueError(f"{output_path}: entry {index} is not a mapping")
+            if entry.get("source_id") != unit.get("id"):
+                raise QueueError(f"{output_path}: entry {index} source_id does not match claimed unit")
+            if entry.get("source_file") != record.get("local_path"):
+                raise QueueError(f"{output_path}: entry {index} source_file does not match claimed carrier")
+            if str(entry.get("source_url") or "") not in allowed_urls:
+                raise QueueError(f"{output_path}: entry {index} source_url does not match claimed carrier")
+
+    def _validate_staged_output(self, output: dict, output_path: Path) -> None:
+        source_unit = output.get("source_unit") or {}
+        entries = output.get("entries") or []
+        rel_path = output_path.relative_to(self.root).as_posix()
+        errors = validate_source_yaml.validate_external_source_unit(
+            self.root, rel_path, source_unit, entries
+        )
+        for index, entry in enumerate(entries, start=1):
+            if not isinstance(entry, dict):
+                continue
+            label = f"{rel_path}: entry {index}"
+            missing = sorted(validate_source_yaml.ENTRY_REQUIRED - set(entry))
+            if missing:
+                errors.append(f"{label}: missing {', '.join(missing)}")
+            if entry.get("confidence") not in validate_source_yaml.CONFIDENCE_VALUES:
+                errors.append(f"{label}: invalid confidence {entry.get('confidence')!r}")
+            if validate_source_yaml.word_count(entry.get("quote_excerpt_short")) >= 25:
+                errors.append(f"{label}: quote_excerpt_short must be under 25 words")
+            tag_count = len(entry.get("topic_tags") or []) if isinstance(entry.get("topic_tags"), list) else 0
+            if tag_count < 3 or tag_count > 8:
+                errors.append(f"{label}: strict topic_tags count must be 3-8")
+        if errors:
+            raise QueueError("staged output validation failed: " + "; ".join(errors))
 
     def complete(
         self,
@@ -491,10 +654,20 @@ class QueueController:
             unit = self._find_unit(self._units(plan), unit_id)
             self._verify_claim(unit, token)
             output_path = self.root / str(unit.get("output_file") or "")
-            if not output_path.is_file():
-                raise QueueError(f"output YAML does not exist: {output_path}")
+            staging_path = self.root / str(unit.get("staging_file") or "")
+            if not staging_path.is_file():
+                raise QueueError(f"staged output YAML does not exist: {staging_path}")
+            if output_path.exists():
+                raise QueueError(f"canonical output path already exists: {output_path}")
+            promoted = False
+            completed_successfully = False
+            original_plan = self.plan_path.read_bytes()
+            original_state = self.state_path.read_bytes() if self.state_path.exists() else None
+            original_next_run = self.next_run_path.read_bytes() if self.next_run_path.exists() else None
             try:
-                output = load_yaml(output_path)
+                output = load_yaml(staging_path)
+                self._verify_assigned_output(unit, output, staging_path)
+                self._validate_staged_output(output, staging_path)
                 python = (
                     str(self.root / ".venv/bin/python")
                     if (self.root / ".venv/bin/python").exists()
@@ -504,43 +677,67 @@ class QueueController:
                 runner(
                     [
                         [python, "scripts/build_duplicate_index.py"],
-                        [python, "scripts/build_entry_index.py"],
-                        [python, "scripts/build_tag_index.py"],
                     ],
                     self.root,
                 )
-                self._verify_duplicate_metadata(output, output_path)
+                duplicate_index_path = self.root / "project-control/duplicate-index.yaml"
+                self._verify_duplicate_metadata(
+                    output, staging_path, load_yaml(duplicate_index_path)
+                )
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                os.replace(staging_path, output_path)
+                promoted = True
                 runner(
                     [
+                        [python, "scripts/build_duplicate_index.py"],
+                        [python, "scripts/build_entry_index.py"],
+                        [python, "scripts/build_tag_index.py"],
                         [python, "scripts/validate_source_yaml.py"],
+                    ],
+                    self.root,
+                )
+                timestamp = now_utc()
+                unit.setdefault("history", []).append(
+                    {"event": "completed", "at": timestamp}
+                )
+                unit.update(
+                    {
+                        "status": "done",
+                        "claimed_by": None,
+                        "claim_token": None,
+                        "claimed_at": None,
+                        "completed_at": timestamp,
+                        "validation_status": "passed",
+                        "blocked_reason": None,
+                    }
+                )
+                atomic_write_yaml(self.plan_path, plan)
+                self._sync_state(plan)
+                runner(
+                    [
                         [python, "scripts/generate_book_seed.py"],
                         [python, "scripts/generate_appendices.py"],
                     ],
                     self.root,
                 )
+                completed_successfully = True
+                return deepcopy(unit)
             except QueueError:
                 raise
             except Exception as exc:
                 raise QueueError(f"completion gate failed: {exc}") from exc
-
-            timestamp = now_utc()
-            unit.setdefault("history", []).append(
-                {"event": "completed", "at": timestamp}
-            )
-            unit.update(
-                {
-                    "status": "done",
-                    "claimed_by": None,
-                    "claim_token": None,
-                    "claimed_at": None,
-                    "completed_at": timestamp,
-                    "validation_status": "passed",
-                    "blocked_reason": None,
-                }
-            )
-            atomic_write_yaml(self.plan_path, plan)
-            self._sync_state(plan)
-            return deepcopy(unit)
+            finally:
+                if promoted and not completed_successfully:
+                    os.replace(output_path, staging_path)
+                    atomic_write_text(self.plan_path, original_plan.decode("utf-8"))
+                    if original_state is None:
+                        self.state_path.unlink(missing_ok=True)
+                    else:
+                        atomic_write_text(self.state_path, original_state.decode("utf-8"))
+                    if original_next_run is None:
+                        self.next_run_path.unlink(missing_ok=True)
+                    else:
+                        atomic_write_text(self.next_run_path, original_next_run.decode("utf-8"))
 
 
 def build_parser() -> argparse.ArgumentParser:

@@ -19,6 +19,7 @@ next_source_unit:
   status: pending
   input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
   output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
+  staging_file: work/external-staging/a02.yaml
   manifest_id: external-A02
   claimed_by: null
   claimed_at: null
@@ -70,6 +71,7 @@ external_processing:
     status: pending
     input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
     output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
+    staging_file: work/external-staging/a02.yaml
     manifest_id: external-A02
     claimed_by: null
     claimed_at: null
@@ -79,6 +81,7 @@ external_processing:
     status: done
     input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
     output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+    staging_file: work/external-staging/a01.yaml
     manifest_id: external-A01
     claimed_by: null
     claimed_at: null
@@ -88,6 +91,7 @@ last_completed_external_source_unit:
   status: done
   input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
   output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+  staging_file: work/external-staging/a01.yaml
   manifest_id: external-A01
   claimed_by: null
   claimed_at: null
