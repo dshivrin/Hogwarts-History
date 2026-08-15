@@ -13159,6 +13159,32 @@ Summary: The available evidence includes 1 source item, led by: Hermione helps H
   - Corroborates: `gof-ch15-002`, `gof-ch06-003`. gof-ch15-002 records Summoning Charm lesson preparation in the fourth-year workload, and gof-ch06-003 records a non-school use of Accio; this entry adds intensive student practice and long-distance first-task application planning.
   - Notes: The account follows Harry's accelerated practice rather than the ordinary lesson itself, so it should not be treated as a standard syllabus description.
 
+## Part: Customs, Symbols, and Daily Life
+
+### Chapter: Dress, Display, and Wizarding Identity
+
+#### Section: Colour as a public recognition signal
+
+Summary: The available evidence includes 1 source item, led by: The source says witches and wizards often signal their magical identity to one another in public through purple or green clothing, including combinations of both.
+
+- **Context:** The source says witches and wizards often signal their magical identity to one another in public through purple or green clothing, including combinations of both.
+  - Quote: "reveal themselves to each other in public by wearing purple or green"
+  - Source: A26, https://www.harrypotter.com/writing-by-jk-rowling/colours, `sources/external/official-rowling/a26-colours.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This authorial note gives no date, frequency, or evidence that Hogwarts formally adopted the wider social signal.
+
+#### Section: Purple and green moral symbolism
+
+Summary: The available evidence includes 1 source item, led by: The source frames purple and green together as a symbolic contrast between noble or helpful magic and ignoble or destructive magic.
+
+- **Context:** The source frames purple and green together as a symbolic contrast between noble or helpful magic and ignoble or destructive magic.
+  - Quote: "suggestive of both sides of magic"
+  - Source: A26, https://www.harrypotter.com/writing-by-jk-rowling/colours, `sources/external/official-rowling/a26-colours.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source states symbolic associations, not a rule that every purple-and-green use conveys this meaning or a date for the associations.
+
 ## Part: Dark Magic and Wartime Threats
 
 ### Chapter: Horcruxes and Concealed Soul Magic
@@ -14537,6 +14563,17 @@ Summary: The available evidence includes 1 source item, led by: The train scene 
 
 ### Chapter: The Four Houses
 
+#### Section: Colour palettes and elemental associations
+
+Summary: The available evidence includes 1 source item, led by: The source says House colours were selected for elemental associations: Gryffindor red and gold for fire, Slytherin green and silver for water, Hufflepuff yellow and black for earth, and Ravenclaw blue and bronze for air.
+
+- **Supporting evidence:** The source says House colours were selected for elemental associations: Gryffindor red and gold for fire, Slytherin green and silver for water, Hufflepuff yellow and black for earth, and Ravenclaw blue and bronze for air.
+  - Quote: "The four Hogwarts houses have a loose association with the four elements"
+  - Source: A26, https://www.harrypotter.com/writing-by-jk-rowling/colours, `sources/external/official-rowling/a26-colours.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: This official retrospective gives the colour rationale but does not date the choices or independently document the founding-era decision.
+
 #### Section: House colors, animals, and the Hogwarts coat of arms
 
 Summary: The available evidence includes 1 source item, led by: The decorated Great Hall displays each House's colors and animal, plus a larger Hogwarts coat of arms uniting lion, eagle, badger, and snake around an H.
@@ -14548,6 +14585,17 @@ Summary: The available evidence includes 1 source item, led by: The decorated Gr
   - Reference type: house_system
   - Corroborates: `gof-ch12-003`. gof-ch12-003 records House tables and Sorting procedure; this entry corroborates the House system and adds explicit heraldic colors, animals, and the combined Hogwarts coat of arms.
   - Notes: The decorations are for a special Triwizard occasion, though the symbols appear official rather than temporary inventions.
+
+#### Section: Slytherin green and cultural associations
+
+Summary: The available evidence includes 1 source item, led by: The source places Slytherin's green among British associations that include supernatural lore and much Dark magic; it does not state that Slytherin itself is Dark.
+
+- **Context:** The source places Slytherin's green among British associations that include supernatural lore and much Dark magic; it does not state that Slytherin itself is Dark.
+  - Quote: "Green is the colour of much ‘Dark’ magic"
+  - Source: A26, https://www.harrypotter.com/writing-by-jk-rowling/colours, `sources/external/official-rowling/a26-colours.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: house_system
+  - Notes: The article describes associations and deliberately does not establish an intrinsic moral quality for Slytherin or its members.
 
 ## Part: Institutional Life and Governance
 
@@ -15467,6 +15515,52 @@ Summary: The available evidence includes 1 source item, led by: Hermione continu
   - Corroborates: `ps-ch06-004`. ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
   - Notes: The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.
 
+## Part: Part I: Foundations and Governance
+
+### Chapter: Hogwarts and the Ministry of Magic
+
+#### Section: Regulated Magical Transport
+
+Summary: The available evidence includes 1 source item, led by: The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.
+
+- **Context:** The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.
+  - Quote: "connection requires the permission of the Ministry of Magic"
+  - Source: A24, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, `sources/external/official-rowling/a24-the-floo-network.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The article describes general Ministry practice without dating the regulation or identifying a particular Hogwarts fireplace.
+
+### Chapter: Hogwarts and the Wider Wizarding World
+
+#### Section: Magical Transport in Historical Context
+
+Summary: The available evidence includes 1 source item, led by: In 1855, Violet Tillyman was accidentally misdirected through the Floo Network after speaking her destination incoherently, illustrating that spoken-destination errors could have serious consequences.
+
+- **Supporting evidence:** In 1855, Violet Tillyman was accidentally misdirected through the Floo Network after speaking her destination incoherently, illustrating that spoken-destination errors could have serious consequences.
+  - Quote: "The most notorious instance of accidental misdirection happened in 1855"
+  - Source: A24, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, `sources/external/official-rowling/a24-the-floo-network.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is an author-provided retrospective anecdote; it establishes the stated 1855 case but not the frequency of such misdirection.
+
+#### Section: Regulated Magical Transport
+
+Summary: The available evidence includes 2 source items, led by: The Floo Network is described as having been in use for centuries.
+
+- **Supporting evidence:** The Floo Network is described as having been in use for centuries.
+  - Quote: "In use for centuries, the Floo Network"
+  - Source: A24, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, `sources/external/official-rowling/a24-the-floo-network.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: A retrospective official article gives broad system description, not a dated in-universe account of Hogwarts practice.
+
+- **Context:** Beyond domestic homes, the Floo Network includes approximately a thousand connected fireplaces across Britain, including Ministry offices, wizarding shops, and inns.
+  - Quote: "there are around a thousand fireplaces across Britain connected to the Floo Network"
+  - Source: A24, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, `sources/external/official-rowling/a24-the-floo-network.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The approximate nationwide count has no stated date and does not specify its method or all connected location types.
+
 ## Part: Part I: Foundations and Traditions
 
 ### Chapter: Hogwarts Customs and Ceremonies
@@ -15874,6 +15968,21 @@ Summary: The available evidence includes 1 source item, led by: Some former head
   - Reference type: portrait_or_ghost_lore
   - Notes: The passage indicates possible observation but does not state what any specific portrait heard or later disclosed.
 
+## Part: Part II: The Castle and Its Protections
+
+### Chapter: Access, Boundaries, and Communication
+
+#### Section: Fireplace Access and Floo Restrictions
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts fireplaces are normally excluded from the Floo Network, though individual fireplaces have at times been tampered with without staff knowledge.
+
+- **Context:** Hogwarts fireplaces are normally excluded from the Floo Network, though individual fireplaces have at times been tampered with without staff knowledge.
+  - Quote: "The fireplaces of Hogwarts are not generally connected"
+  - Source: A24, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, `sources/external/official-rowling/a24-the-floo-network.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The statement is general and undated; it does not identify which Hogwarts fireplaces were tampered with or when.
+
 ## Part: Part II: The School
 
 ### Chapter: Education and Curriculum
@@ -16010,6 +16119,67 @@ Summary: The available evidence includes 1 source item, led by: Rowling describe
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: portrait_or_ghost_lore
   - Notes: This comparative statement is not dated and does not quantify ghost numbers or define the reporting basis for Britain.
+
+## Part: Part II: The School Through Time
+
+### Chapter: Magical Knowledge and Its Limits
+
+#### Section: Eloise Mintumble and temporal disruption
+
+Summary: The available evidence includes 1 source item, led by: Mintumble's 1402 displacement is said to have changed the lives of people she encountered so profoundly that twenty-five descendants disappeared from the present.
+
+- **Supporting evidence:** Mintumble's 1402 displacement is said to have changed the lives of people she encountered so profoundly that twenty-five descendants disappeared from the present.
+  - Quote: "her five days in the distant past caused great disturbance to the life paths of all those she met"
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The causal account is an in-universe research report and its extraordinary effects are not independently documented in the snapshot.
+
+#### Section: Legal controls after temporal disruption
+
+Summary: The available evidence includes 1 source item, led by: Following Mintumble's recovery, abnormal day lengths reportedly appeared; the Ministry concealed the episode and imposed stringent laws and penalties on time-travel study.
+
+- **Supporting evidence:** Following Mintumble's recovery, abnormal day lengths reportedly appeared; the Ministry concealed the episode and imposed stringent laws and penalties on time-travel study.
+  - Quote: "Tuesday following her reappearance lasted two and a half full days"
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The snapshot does not supply the text, dates, or scope of the resulting laws and penalties.
+
+#### Section: Ministry research into hazardous time magic
+
+Summary: The available evidence includes 1 source item, led by: Department of Mysteries research places the maximum safely relivable interval at approximately five hours and describes contained Hour-Reversal Charms in wearable enchanted hour-glasses.
+
+- **Context:** Department of Mysteries research places the maximum safely relivable interval at approximately five hours and describes contained Hour-Reversal Charms in wearable enchanted hour-glasses.
+  - Quote: "the longest period that may be relived without the possibility of serious harm to the traveller or to time itself is around five hours."
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Official authorial source presents Saul Croaker's account but does not date the research conclusion or identify underlying Ministry records.
+
+#### Section: The abandonment of long-distance time travel
+
+Summary: The available evidence includes 1 source item, led by: Long-distance time-travel experiments were abandoned in 1899 after repeated lethal or catastrophic outcomes for travellers.
+
+- **Supporting evidence:** Long-distance time-travel experiments were abandoned in 1899 after repeated lethal or catastrophic outcomes for travellers.
+  - Quote: "All attempts to travel back further than a few hours have resulted in catastrophic harm to the witch or wizard involved."
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The 1899 policy date is reported through Croaker in an official authorial source rather than a reproduced Ministry decree.
+
+### Chapter: Ministry and Hogwarts
+
+#### Section: Exceptional Ministry authorization for time devices
+
+Summary: The available evidence includes 1 source item, led by: The Ministry surrounds its limited Time-Turner stock with extensive legal controls and normally permits the objects only for minor time-management needs.
+
+- **Context:** The Ministry surrounds its limited Time-Turner stock with extensive legal controls and normally permits the objects only for minor time-management needs.
+  - Quote: "Time-Turners are generally only used to solve the most trivial problems of time management"
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The source describes general Ministry practice without identifying a specific authorization procedure or period.
 
 ## Part: Part II: The School and Its People
 
@@ -16396,6 +16566,34 @@ Summary: The available evidence includes 1 source item, led by: Lupin became the
   - Reference type: historical_claim
   - Notes: The source asserts that the honour helped lift stigma but does not quantify or independently document that social change.
 
+## Part: Part IV: Recent Hogwarts History
+
+### Chapter: Student Life and Exceptional Arrangements
+
+#### Section: Hermione Granger’s Time-Turner accommodation
+
+Summary: The available evidence includes 1 source item, led by: In the author's retrospective account, Hermione returned the sole Time-Turner ever to enter Hogwarts after her exceptional school use.
+
+- **Supporting evidence:** In the author's retrospective account, Hermione returned the sole Time-Turner ever to enter Hogwarts after her exceptional school use.
+  - Quote: "I had Hermione give back the only Time-Turner ever to enter Hogwarts."
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: This is an authorial retrospective statement rather than an in-universe institutional record, and it does not describe the return procedure.
+
+### Chapter: The Second Wizarding War
+
+#### Section: The loss of Ministry Time-Turners
+
+Summary: The available evidence includes 1 source item, led by: The Ministry's complete Time-Turner stock was destroyed in a Department of Mysteries fight roughly three years after Hermione received permission to use one at Hogwarts.
+
+- **Context:** The Ministry's complete Time-Turner stock was destroyed in a Department of Mysteries fight roughly three years after Hermione received permission to use one at Hogwarts.
+  - Quote: "The Ministry’s entire stock of Time-Turners was destroyed during a fight in the Department of Mysteries"
+  - Source: A25, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, `sources/external/official-rowling/a25-time-turner.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The relative dating is approximate and the source supplies no detailed account of the fight or inventory.
+
 ## Part: Part V - Magical Creatures, Beings, and Dark Forces
 
 ### Chapter: Inferi and Dark Creature Defense
@@ -16410,6 +16608,21 @@ Summary: The available evidence includes 1 source item, led by: The final defens
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: The account is combat observation under extreme conditions, not a controlled lesson or formal taxonomy.
+
+## Part: People of Hogwarts
+
+### Chapter: Staff and Their Symbolic Roles
+
+#### Section: Authorial naming symbolism
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that Hagrid's and Dumbledore's first names invoke the alchemical red and white, chosen to signal their complementary characterizations.
+
+- **Context:** Rowling states that Hagrid's and Dumbledore's first names invoke the alchemical red and white, chosen to signal their complementary characterizations.
+  - Quote: "The choice was a nod to alchemy"
+  - Source: A26, https://www.harrypotter.com/writing-by-jk-rowling/colours, `sources/external/official-rowling/a26-colours.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: This retrospective authorial explanation is extra-diegetic and provides no in-universe date or historical record of the names' meaning.
 
 ## Part: Peoples, Beings, and Magical Society
 

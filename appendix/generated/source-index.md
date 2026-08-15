@@ -246,3 +246,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A21`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/toads, 3 entries, 0 explicit references.
 - `A22`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/familiars, 5 entries, 0 explicit references.
 - `A23`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/owls, 4 entries, 0 explicit references.
+- `A24`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, 5 entries, 0 explicit references.
+- `A25`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, 7 entries, 0 explicit references.
+- `A26`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/colours, 5 entries, 0 explicit references.

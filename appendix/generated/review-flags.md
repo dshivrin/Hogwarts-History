@@ -15,6 +15,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a06-003` (A06, Hogwarts Ghosts): The Fat Friar is Hufflepuff's ghost; the account attributes his execution to churchmen's suspicion of his magical healing and conjuring.
 - `ext-a06-005` (A06, Hogwarts Ghosts): After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
 - `ext-a17-004` (A17, Pensieve): Pensieves are conventionally buried with their owners, including remaining thoughts and memories, unless the owner directed otherwise.
+- `ext-a24-002` (A24, The Floo Network): The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.
+- `ext-a24-003` (A24, The Floo Network): Hogwarts fireplaces are normally excluded from the Floo Network, though individual fireplaces have at times been tampered with without staff knowledge.
+- `ext-a24-005` (A24, The Floo Network): Beyond domestic homes, the Floo Network includes approximately a thousand connected fireplaces across Britain, including Ministry offices, wizarding shops, and inns.
+- `ext-a25-001` (A25, Time-Turner): Department of Mysteries research places the maximum safely relivable interval at approximately five hours and describes contained Hour-Reversal Charms in wearable enchanted hour-glasses.
+- `ext-a25-005` (A25, Time-Turner): The Ministry surrounds its limited Time-Turner stock with extensive legal controls and normally permits the objects only for minor time-management needs.
+- `ext-a26-001` (A26, Colours): The source says witches and wizards often signal their magical identity to one another in public through purple or green clothing, including combinations of both.
+- `ext-a26-002` (A26, Colours): The source frames purple and green together as a symbolic contrast between noble or helpful magic and ignoble or destructive magic.
+- `ext-a26-004` (A26, Colours): The source places Slytherin's green among British associations that include supernatural lore and much Dark magic; it does not state that Slytherin itself is Dark.
 
 ## Possible Duplicates
 
@@ -1270,6 +1278,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a15-002` (A15, The Original Forty): Rowling says she envisaged a substantially larger annual Hogwarts population than forty, but retained a portion of Harry’s peers for narrative continuity in school scenes.
 - `ext-a15-003` (A15, The Original Forty): Rowling cautions that the original roster was revised: some names and parentages changed, some students never appeared, and several background figures later gained developed roles.
 - `ext-a18-004` (A18, Hogwarts School Subjects): Rowling’s early development notes used alternate names and requirements, including Herbalism, compulsory first-year Divination and Alchemy, Beasts, and Transfiguration/Metamorphosis.
+- `ext-a25-006` (A25, Time-Turner): The Ministry's complete Time-Turner stock was destroyed in a Department of Mysteries fight roughly three years after Hermione received permission to use one at Hogwarts.
+- `ext-a26-005` (A26, Colours): Rowling states that Hagrid's and Dumbledore's first names invoke the alchemical red and white, chosen to signal their complementary characterizations.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-004` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter gives direct evidence that Voldemort believes he has a hidden loyal agent positioned at Hogwarts before the plan against Harry proceeds.
@@ -1823,6 +1833,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a19-002` (A19, King’s Cross Station): Minister Evangeline Orpington, in office from 1849 to 1855, solved the London-station secrecy problem by adding a concealed King's Cross platform for magical users.
 - `ext-a19-003` (A19, King’s Cross Station): Plain-clothed Ministry employees regularly attend term-time departures and arrivals to alter Muggle memories when magical activity at King's Cross becomes conspicuous.
 - `ext-a22-005` (A22, Familiars): Owls function as messengers, but Rowling characterizes this as a highly organised postal service comparable to Muggle pigeon post, not as familiar service.
+- `ext-a24-002` (A24, The Floo Network): The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch02-003` (Harry Potter and the Goblet of Fire, Chapter Two - The Scar): The chapter combines Muggle cover-story practice for Hogwarts absences with another statement of the underage magic restriction outside school.
@@ -2184,6 +2195,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a23-001` (A23, Owls): Despite other magical media, owl post remains the most common long-distance communication method throughout wizarding society.
 - `ext-a23-002` (A23, Owls): Postal owls can trace an intended witch or wizard from the mystical connection between a person's name and bearer; an address is optional.
 - `ext-a23-004` (A23, Owls): Because trained owls are costly, wizarding families commonly share one bird or use Postal owls rather than maintain an individual owl.
+- `ext-a24-003` (A24, The Floo Network): Hogwarts fireplaces are normally excluded from the Floo Network, though individual fireplaces have at times been tampered with without staff knowledge.
+- `ext-a24-005` (A24, The Floo Network): Beyond domestic homes, the Floo Network includes approximately a thousand connected fireplaces across Britain, including Ministry offices, wizarding shops, and inns.
+- `ext-a25-001` (A25, Time-Turner): Department of Mysteries research places the maximum safely relivable interval at approximately five hours and describes contained Hour-Reversal Charms in wearable enchanted hour-glasses.
+- `ext-a25-004` (A25, Time-Turner): Following Mintumble's recovery, abnormal day lengths reportedly appeared; the Ministry concealed the episode and imposed stringent laws and penalties on time-travel study.
+- `ext-a25-005` (A25, Time-Turner): The Ministry surrounds its limited Time-Turner stock with extensive legal controls and normally permits the objects only for minor time-management needs.
+- `ext-a25-007` (A25, Time-Turner): In the author's retrospective account, Hermione returned the sole Time-Turner ever to enter Hogwarts after her exceptional school use.
+- `ext-a26-003` (A26, Colours): The source says House colours were selected for elemental associations: Gryffindor red and gold for fire, Slytherin green and silver for water, Hufflepuff yellow and black for earth, and Ravenclaw blue and bronze for air.
+- `ext-a26-004` (A26, Colours): The source places Slytherin's green among British associations that include supernatural lore and much Dark magic; it does not state that Slytherin itself is Dark.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.

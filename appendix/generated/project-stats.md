@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 240
+- Total: 243
 
 ## Entries by Book or External Source
 
@@ -35,6 +35,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A21 — Toads: 3
 - A22 — Familiars: 5
 - A23 — Owls: 4
+- A24 — The Floo Network: 5
+- A25 — Time-Turner: 7
+- A26 — Colours: 5
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -47,28 +50,28 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 515
-- later_editorial_note: 687
+- harry_era_confirmation: 516
+- later_editorial_note: 688
 - original_book_core_candidate: 8
-- post_1984_excluded_from_original: 15
-- pre_1984_historical_candidate: 257
-- unknown_or_uncertain: 3
+- post_1984_excluded_from_original: 16
+- pre_1984_historical_candidate: 263
+- unknown_or_uncertain: 11
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 103
+- cross_reference_candidate: 104
 - curriculum_or_subject: 163
 - direct_observed_setting: 68
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 265
-- house_system: 33
+- historical_claim: 275
+- house_system: 35
 - institutional_custom: 205
 - magical_architecture: 108
 - portrait_or_ghost_lore: 33
-- school_rule_or_policy: 147
-- security_or_protection: 239
-- weak_context_only: 3
+- school_rule_or_policy: 149
+- security_or_protection: 240
+- weak_context_only: 4
 
 ## Explicit `Hogwarts: A History` References
 
@@ -80,8 +83,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `A23` — Owls, input `resources/external/official-rowling/harrypotter-com/a23-owls.md`, output `sources/external/official-rowling/a23-owls.yaml`
+- `A26` — Colours, input `resources/external/official-rowling/harrypotter-com/a26-colours.md`, output `sources/external/official-rowling/a26-colours.yaml`
 
 ## Next Pending Unit
 
-- `A24` — The Floo Network, input `resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md`, output `sources/external/official-rowling/a24-the-floo-network.yaml`
+- `A27` — Werewolves, input `resources/external/official-rowling/harrypotter-com/a27-werewolves.md`, output `sources/external/official-rowling/a27-werewolves.yaml`

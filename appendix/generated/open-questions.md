@@ -449,3 +449,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
+- `ext-a24-002` (None): The article describes general Ministry practice without dating the regulation or identifying a particular Hogwarts fireplace.
+- `ext-a24-003` (None): The statement is general and undated; it does not identify which Hogwarts fireplaces were tampered with or when.
+- `ext-a24-005` (None): The approximate nationwide count has no stated date and does not specify its method or all connected location types.
+- `ext-a25-001` (None): Official authorial source presents Saul Croaker's account but does not date the research conclusion or identify underlying Ministry records.
+- `ext-a25-005` (None): The source describes general Ministry practice without identifying a specific authorization procedure or period.
+- `ext-a26-001` (None): This authorial note gives no date, frequency, or evidence that Hogwarts formally adopted the wider social signal.
+- `ext-a26-002` (None): The source states symbolic associations, not a rule that every purple-and-green use conveys this meaning or a date for the associations.
+- `ext-a26-004` (None): The article describes associations and deliberately does not establish an intrinsic moral quality for Slytherin or its members.

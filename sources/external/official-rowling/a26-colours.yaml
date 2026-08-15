@@ -1,0 +1,292 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A26
+  source_file: resources/external/official-rowling/harrypotter-com/a26-colours.md
+  title: Colours
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+  capture_completeness: complete
+  content_sha256: 4e8b692f01509f88ce154a5b0089f77b22b6e04097936dff4a2b3e10471b0cbc
+  processed_date: '2026-08-15'
+  processor_notes: Complete A26 snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a26-001
+    source_file: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    source_id: A26
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Witches and wizards often reveal themselves
+      end_phrase: purple or green, often in combination.
+      local_occurrence_note: Opening sentence of the author’s note.
+    nearby_context: The note describes purple and green as public markers by which magical people can recognize one another.
+    match_terms:
+      - wizarding-colour-signals
+      - purple-green
+      - public-dress
+    quote_excerpt_short: reveal themselves to each other in public by wearing purple or green
+    source_note: The source says witches and wizards often signal their magical identity to one another in public through purple or green clothing, including combinations of both.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - wizarding-colour-signals
+      - purple-green
+      - public-dress
+    candidate_part: Customs, Symbols, and Daily Life
+    candidate_chapter: Dress, Display, and Wizarding Identity
+    candidate_section: Colour as a public recognition signal
+    reason_for_placement: Public use of colour provides evidence for everyday wizarding social signals rather than a Hogwarts-specific rule.
+    relevance_to_hogwarts_a_history: May contextualize student and staff dress conventions when Hogwarts is considered within wider British magical society.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The current compact index returned no candidate for this combined public-dress and colour-signalling claim.
+      audit:
+        query_tags:
+          - public-dress
+          - purple-green
+          - wizarding-colour-signals
+        candidates: []
+    confidence: high
+    limitations: This authorial note gives no date, frequency, or evidence that Hogwarts formally adopted the wider social signal.
+
+  - id: ext-a26-002
+    source_file: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    source_id: A26
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In Britain (and much of Europe)
+      end_phrase: the helpful and the destructive.
+      local_occurrence_note: First paragraph, following the opening description of purple and green clothing.
+    nearby_context: The note contrasts purple's royal and religious associations with green's supernatural, funerary, and Dark-magic associations.
+    match_terms:
+      - colour-symbolism
+      - dark-magic
+      - purple-green
+    quote_excerpt_short: suggestive of both sides of magic
+    source_note: The source frames purple and green together as a symbolic contrast between noble or helpful magic and ignoble or destructive magic.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - colour-symbolism
+      - dark-magic
+      - purple-green
+    candidate_part: Customs, Symbols, and Daily Life
+    candidate_chapter: Dress, Display, and Wizarding Identity
+    candidate_section: Purple and green moral symbolism
+    reason_for_placement: The statement supplies cultural symbolism that can qualify interpretations of colours used in school imagery.
+    relevance_to_hogwarts_a_history: Can provide a clearly labelled cultural context for colour references, without treating colour alone as proof of institutional allegiance or conduct.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned entries concern Dark magic but do not make this claim about purple-and-green symbolism.
+      audit:
+        query_tags:
+          - colour-symbolism
+          - dark-magic
+          - purple-green
+        candidates:
+          - id: beedle-fm-003
+            disposition: distinct
+          - id: cos-ch09-006
+            disposition: distinct
+          - id: dh-ch05-005
+            disposition: distinct
+          - id: dh-ch14-006
+            disposition: distinct
+          - id: dh-ch17-005
+            disposition: distinct
+          - id: dh-ch19-005
+            disposition: distinct
+          - id: dh-ch19-006
+            disposition: distinct
+          - id: hbp-ch18-002
+            disposition: distinct
+          - id: hbp-ch24-004
+            disposition: distinct
+          - id: hbp-ch26-003
+            disposition: distinct
+    confidence: high
+    limitations: The source states symbolic associations, not a rule that every purple-and-green use conveys this meaning or a date for the associations.
+
+  - id: ext-a26-003
+    source_file: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    source_id: A26
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The four Hogwarts houses have a loose association
+      end_phrase: sky and eagle feathers) to air.
+      local_occurrence_note: Second paragraph of the author’s note.
+    nearby_context: The note lists Gryffindor, Slytherin, Hufflepuff, and Ravenclaw colours and connects each House to an element.
+    match_terms:
+      - hogwarts-house-colours
+      - four-elements
+      - house-system
+    quote_excerpt_short: The four Hogwarts houses have a loose association with the four elements
+    source_note: "The source says House colours were selected for elemental associations: Gryffindor red and gold for fire, Slytherin green and silver for water, Hufflepuff yellow and black for earth, and Ravenclaw blue and bronze for air."
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts-house-colours
+      - four-elements
+      - house-system
+    candidate_part: Houses, Heraldry, and School Identity
+    candidate_chapter: The Four Houses
+    candidate_section: Colour palettes and elemental associations
+    reason_for_placement: This is a direct account of the rationale for the four Houses' established colours.
+    relevance_to_hogwarts_a_history: Supports a history of House heraldry by recording the source's elemental explanation for its colour system.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned House-system entries record founding, sorting, identity, or displayed colours; none states this elemental rationale. The Great Hall heraldry entry corroborates the listed House colours.
+      audit:
+        query_tags:
+          - four-elements
+          - hogwarts-house-colours
+          - house-system
+        candidates:
+          - id: cos-ch09-004
+            disposition: distinct
+          - id: dh-ch23-001
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a02-001
+            disposition: distinct
+          - id: ext-a02-003
+            disposition: distinct
+          - id: gof-ch12-002
+            disposition: distinct
+          - id: gof-ch12-003
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: corroborating
+          - id: gof-ch18-002
+            disposition: distinct
+    confidence: high
+    limitations: This official retrospective gives the colour rationale but does not date the choices or independently document the founding-era decision.
+
+  - id: ext-a26-004
+    source_file: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    source_id: A26
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Green has long had a supernatural connection
+      end_phrase: and of Slytherin house.
+      local_occurrence_note: First paragraph, in the discussion of green's associations.
+    nearby_context: The note links green with fairies, misfortune at weddings, Dark magic, the Dark Mark, a Horcrux potion, spells, curses, and Slytherin.
+    match_terms:
+      - slytherin-green
+      - dark-magic
+      - colour-symbolism
+    quote_excerpt_short: Green is the colour of much ‘Dark’ magic
+    source_note: The source places Slytherin's green among British associations that include supernatural lore and much Dark magic; it does not state that Slytherin itself is Dark.
+    reference_type: house_system
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - slytherin-green
+      - dark-magic
+      - colour-symbolism
+    candidate_part: Houses, Heraldry, and School Identity
+    candidate_chapter: The Four Houses
+    candidate_section: Slytherin green and cultural associations
+    reason_for_placement: The source offers a constrained cultural context for one House colour while expressly requiring care against overreading that association.
+    relevance_to_hogwarts_a_history: Useful as a qualified editorial note on Slytherin's visual identity, not as evidence of a collective moral character.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Every returned candidate concerns a different Dark-magic event, object, rule, or text rather than green as a Slytherin colour.
+      audit:
+        query_tags:
+          - colour-symbolism
+          - dark-magic
+          - slytherin-green
+        candidates:
+          - id: beedle-fm-003
+            disposition: distinct
+          - id: cos-ch09-006
+            disposition: distinct
+          - id: dh-ch05-005
+            disposition: distinct
+          - id: dh-ch14-006
+            disposition: distinct
+          - id: dh-ch17-005
+            disposition: distinct
+          - id: dh-ch19-005
+            disposition: distinct
+          - id: dh-ch19-006
+            disposition: distinct
+          - id: hbp-ch18-002
+            disposition: distinct
+          - id: hbp-ch24-004
+            disposition: distinct
+          - id: hbp-ch26-003
+            disposition: distinct
+    confidence: high
+    limitations: The article describes associations and deliberately does not establish an intrinsic moral quality for Slytherin or its members.
+
+  - id: ext-a26-005
+    source_file: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    source_id: A26
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/colours
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Colours also played their part in the naming
+      end_phrase: Harry seeks father figures in his new world.
+      local_occurrence_note: Final paragraph of the author’s note.
+    nearby_context: Rowling explains that Rubeus and Albus mean red and white and relates the names to alchemical symbolism and the characters' complementary traits.
+    match_terms:
+      - hagrid-dumbledore
+      - alchemical-names
+      - character-symbolism
+    quote_excerpt_short: The choice was a nod to alchemy
+    source_note: Rowling states that Hagrid's and Dumbledore's first names invoke the alchemical red and white, chosen to signal their complementary characterizations.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - hagrid-dumbledore
+      - alchemical-names
+      - character-symbolism
+    candidate_part: People of Hogwarts
+    candidate_chapter: Staff and Their Symbolic Roles
+    candidate_section: Authorial naming symbolism
+    reason_for_placement: This is authorial commentary on two central Hogwarts figures, not an in-universe institutional event.
+    relevance_to_hogwarts_a_history: May inform a clearly separated editorial annotation on Hagrid and Dumbledore; it should not be presented as diegetic historical evidence.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The current compact index returned no candidate for this authorial naming explanation.
+      audit:
+        query_tags:
+          - alchemical-names
+          - character-symbolism
+          - hagrid-dumbledore
+        candidates: []
+    confidence: high
+    limitations: This retrospective authorial explanation is extra-diegetic and provides no in-universe date or historical record of the names' meaning.

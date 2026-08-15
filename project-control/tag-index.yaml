@@ -1,6 +1,11 @@
 version: 1
 updated: '2026-08-15'
 tags:
+  '1402':
+    entries:
+    - ext-a25-003
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   '1672':
     entries:
     - beedle-ch04-004
@@ -21,12 +26,22 @@ tags:
     - beedle-ch04-006
     output_yaml:
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  '1855':
+    entries:
+    - ext-a24-004
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   '1876':
     entries:
     - ext-a16-004
     - ext-a16-005
     output_yaml:
     - sources/external/official-rowling/a16-peeves.yaml
+  '1899':
+    entries:
+    - ext-a25-002
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   a-history-of-magic:
     entries:
     - dh-ch08-006
@@ -99,11 +114,21 @@ tags:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  access-restriction:
+    entries:
+    - ext-a24-003
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   accessibility:
     entries:
     - ootp-ch27-001
     output_yaml:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  accessible-travel:
+    entries:
+    - ext-a24-001
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   accidental-horcrux:
     entries:
     - dh-ch35-001
@@ -127,6 +152,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  accidental-misdirection:
+    entries:
+    - ext-a24-004
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   accio:
     entries:
     - gof-ch20-004
@@ -367,6 +397,11 @@ tags:
     - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
     - sources/book-qtta/chapter-00-front-matter.yaml
+  alchemical-names:
+    entries:
+    - ext-a26-005
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   alchemy:
     entries:
     - dh-ch18-003
@@ -1836,6 +1871,11 @@ tags:
     - poa-ch04-001
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  british-fireplaces:
+    entries:
+    - ext-a24-005
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   broderick-bode:
     entries:
     - ootp-ch25-002
@@ -2756,6 +2796,11 @@ tags:
     - ext-a15-003
     output_yaml:
     - sources/external/official-rowling/a15-the-original-forty.yaml
+  character-symbolism:
+    entries:
+    - ext-a26-005
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   charity-burbage:
     entries:
     - dh-ch01-006
@@ -3095,6 +3140,12 @@ tags:
     - hbp-ch11-005
     output_yaml:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  colour-symbolism:
+    entries:
+    - ext-a26-002
+    - ext-a26-004
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   come-and-go-room:
     entries:
     - ootp-ch18-005
@@ -4087,6 +4138,8 @@ tags:
     - dh-ch17-005
     - dh-ch19-005
     - dh-ch19-006
+    - ext-a26-002
+    - ext-a26-004
     - hbp-ch18-002
     - hbp-ch24-004
     - hbp-ch26-003
@@ -4104,6 +4157,7 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-19-the-silver-doe.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/external/official-rowling/a26-colours.yaml
   dark-mark:
     entries:
     - dh-ch30-002
@@ -4688,6 +4742,8 @@ tags:
     entries:
     - beedle-ch04-004
     - dh-ch11-003
+    - ext-a25-001
+    - ext-a25-006
     - gof-ch07-004
     - gof-ch30-004
     - hbp-ch07-003
@@ -4721,6 +4777,7 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   department-regulation-control-magical-creatures:
     entries:
     - ootp-ch33-003
@@ -5853,6 +5910,11 @@ tags:
     - ootp-ch04-006
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  educational-accommodation:
+    entries:
+    - ext-a25-007
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   educational-decrees:
     entries:
     - ootp-ch15-001
@@ -5921,6 +5983,11 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  elective-study:
+    entries:
+    - ext-a25-007
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -5961,6 +6028,11 @@ tags:
     - hbp-ch22-002
     output_yaml:
     - sources/book-06/chapter-22-after-the-burial.yaml
+  eloise-mintumble:
+    entries:
+    - ext-a25-003
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   elphias-doge:
     entries:
     - dh-ch02-001
@@ -5969,6 +6041,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
+  emergency-access:
+    entries:
+    - ext-a24-002
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   emergency-communications:
     entries:
     - ootp-ch22-003
@@ -6952,6 +7029,11 @@ tags:
     - gof-ch19-007
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  fireplace-regulation:
+    entries:
+    - ext-a24-002
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   first-chamber-opening:
     entries:
     - cos-ch17-003
@@ -7130,6 +7212,11 @@ tags:
     - dh-ch04-001
     - dh-ch12-003
     - dh-ch30-004
+    - ext-a24-001
+    - ext-a24-002
+    - ext-a24-003
+    - ext-a24-004
+    - ext-a24-005
     - gof-ch04-004
     - hbp-ch17-001
     - ootp-ch03-003
@@ -7154,6 +7241,7 @@ tags:
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   floo-powder:
     entries:
     - gof-ch04-004
@@ -7503,6 +7591,11 @@ tags:
     - ext-a13-003
     output_yaml:
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
+  four-elements:
+    entries:
+    - ext-a26-003
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   four-houses:
     entries:
     - cos-ch05-004
@@ -8968,6 +9061,11 @@ tags:
     - ootp-ch31-006
     output_yaml:
     - sources/book-05/chapter-31-o-w-l-s.yaml
+  hagrid-dumbledore:
+    entries:
+    - ext-a26-005
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   hagrid-expulsion:
     entries:
     - cos-ch17-003
@@ -9686,6 +9784,8 @@ tags:
     - dh-ch31-005
     - dh-ch35-007
     - ext-a20-002
+    - ext-a25-006
+    - ext-a25-007
     - gof-ch08-003
     - gof-ch09-002
     - hbp-ch04-001
@@ -9711,6 +9811,7 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   hermione-research:
     entries:
     - poa-ch14-003
@@ -10169,6 +10270,7 @@ tags:
     - ext-a21-001
     - ext-a21-002
     - ext-a21-003
+    - ext-a25-007
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -10207,6 +10309,7 @@ tags:
     - sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
     - sources/external/official-rowling/a21-toads.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -10351,6 +10454,11 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
+  hogwarts-fireplaces:
+    entries:
+    - ext-a24-003
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   hogwarts-founders:
     entries:
     - ext-a03-001
@@ -10466,6 +10574,11 @@ tags:
     - hbp-ch20-005
     output_yaml:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  hogwarts-house-colours:
+    entries:
+    - ext-a26-003
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   hogwarts-kitchens:
     entries:
     - ext-a07-001
@@ -10982,6 +11095,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  hour-reversal-charm:
+    entries:
+    - ext-a25-001
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   hourglasses:
     entries:
     - ootp-ch38-004
@@ -11298,6 +11416,7 @@ tags:
     - dh-ch36-002
     - ext-a02-001
     - ext-a02-003
+    - ext-a26-003
     - gof-ch12-002
     - gof-ch12-003
     - gof-ch15-004
@@ -11326,6 +11445,7 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/external/official-rowling/a02-the-sorting-hat.yaml
+    - sources/external/official-rowling/a26-colours.yaml
   house-tables:
     entries:
     - cos-ch06-001
@@ -11867,8 +11987,10 @@ tags:
   international-statute-secrecy:
     entries:
     - ext-a04-002
+    - ext-a24-001
     output_yaml:
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   international-transport:
     entries:
     - gof-ch07-006
@@ -13014,6 +13136,12 @@ tags:
     output_yaml:
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
     - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
+  magical-accidents:
+    entries:
+    - ext-a25-002
+    - ext-a25-003
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   magical-architecture:
     entries:
     - cos-ch11-007
@@ -13137,6 +13265,7 @@ tags:
     - dh-ch29-006
     - dh-ch34-005
     - dh-ch35-003
+    - ext-a25-006
     - ootp-ch06-001
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
@@ -13149,6 +13278,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   magical-barrier:
     entries:
     - cos-ch05-001
@@ -13445,6 +13575,11 @@ tags:
     - ootp-ch22-004
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  magical-infrastructure:
+    entries:
+    - ext-a24-005
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   magical-inheritance:
     entries:
     - beedle-ch04-004
@@ -13478,6 +13613,7 @@ tags:
   magical-law:
     entries:
     - dh-ch07-002
+    - ext-a25-004
     - gof-ch10-004
     - hbp-ch01-002
     - hbp-ch13-005
@@ -13488,6 +13624,7 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   magical-law-enforcement:
     entries:
     - gof-ch27-007
@@ -13511,10 +13648,12 @@ tags:
     entries:
     - beedle-ch04-001
     - beedle-ch04-005
+    - ext-a25-001
     - hbp-ch24-002
     output_yaml:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   magical-literature:
     entries:
     - beedle-ch04-002
@@ -13708,9 +13847,11 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
   magical-safety:
     entries:
+    - ext-a25-005
     - poa-ch21-003
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   magical-saturation:
     entries:
     - gof-ch28-003
@@ -13856,6 +13997,9 @@ tags:
     - ext-a04-003
     - ext-a09-007
     - ext-a19-001
+    - ext-a24-001
+    - ext-a24-003
+    - ext-a24-004
     - gof-ch04-004
     - poa-ch03-002
     output_yaml:
@@ -13870,6 +14014,7 @@ tags:
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   magical-transportation:
     entries:
     - gof-ch06-001
@@ -14510,6 +14655,11 @@ tags:
     - dh-ch11-002
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
+  ministry-cover-up:
+    entries:
+    - ext-a25-004
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   ministry-creature-law:
     entries:
     - ootp-ch33-003
@@ -14540,6 +14690,11 @@ tags:
     - dh-ch11-007
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
+  ministry-experiments:
+    entries:
+    - ext-a25-002
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   ministry-files:
     entries:
     - dh-ch13-004
@@ -14652,6 +14807,8 @@ tags:
     - ext-a04-004
     - ext-a04-005
     - ext-a19-003
+    - ext-a24-002
+    - ext-a24-005
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -14792,6 +14949,7 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   ministry-policy:
     entries:
     - dh-ch11-003
@@ -14859,8 +15017,10 @@ tags:
   ministry-regulation:
     entries:
     - dh-ch01-004
+    - ext-a25-005
     output_yaml:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   ministry-response:
     entries:
     - gof-ch09-004
@@ -14885,6 +15045,11 @@ tags:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-05/chapter-01-dudley-demented.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
+  ministry-stock:
+    entries:
+    - ext-a25-006
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   ministry-surveillance:
     entries:
     - ootp-ch20-002
@@ -15375,6 +15540,7 @@ tags:
     - ext-a04-004
     - ext-a19-002
     - ext-a19-003
+    - ext-a24-002
     - gof-ch01-002
     - gof-ch02-003
     - gof-ch03-002
@@ -15420,6 +15586,7 @@ tags:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -18369,6 +18536,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+  public-dress:
+    entries:
+    - ext-a26-001
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   public-event-security:
     entries:
     - gof-ch08-001
@@ -18485,6 +18657,12 @@ tags:
     - ps-ch16-007
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  purple-green:
+    entries:
+    - ext-a26-001
+    - ext-a26-002
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   pursuit:
     entries:
     - ootp-ch35-003
@@ -20128,6 +20306,7 @@ tags:
     entries:
     - cos-ch02-002
     - ext-a07-003
+    - ext-a24-003
     - gof-ch19-003
     - gof-ch19-006
     - gof-ch19-007
@@ -20152,6 +20331,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   school-security-threat:
     entries:
     - hbp-ch06-007
@@ -21290,6 +21470,11 @@ tags:
     - hbp-ch10-006
     output_yaml:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  slytherin-green:
+    entries:
+    - ext-a26-004
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   slytherin-heir:
     entries:
     - cos-ch17-004
@@ -23595,6 +23780,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  temporal-law:
+    entries:
+    - ext-a25-005
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   temporal-magic:
     entries:
     - ootp-ch35-004
@@ -23825,6 +24015,22 @@ tags:
     - gof-ch03-001
     output_yaml:
     - sources/book-04/chapter-03-the-invitation.yaml
+  time-disturbance:
+    entries:
+    - ext-a25-003
+    - ext-a25-004
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
+  time-magic:
+    entries:
+    - ext-a25-001
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
+  time-management:
+    entries:
+    - ext-a25-005
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   time-out:
     entries:
     - poa-ch09-006
@@ -23837,14 +24043,28 @@ tags:
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  time-travel:
+    entries:
+    - ext-a25-002
+    - ext-a25-003
+    - ext-a25-004
+    output_yaml:
+    - sources/external/official-rowling/a25-time-turner.yaml
   time-turner:
     entries:
+    - ext-a25-001
+    - ext-a25-002
+    - ext-a25-004
+    - ext-a25-005
+    - ext-a25-006
+    - ext-a25-007
     - poa-ch21-002
     - poa-ch21-003
     - poa-ch22-006
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/external/official-rowling/a25-time-turner.yaml
   time-turners:
     entries:
     - ootp-ch35-004
@@ -24807,6 +25027,11 @@ tags:
     - hbp-ch12-004
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
+  violet-tillyman:
+    entries:
+    - ext-a24-004
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   visiting-schools:
     entries:
     - gof-ch15-005
@@ -25733,6 +25958,11 @@ tags:
     - dh-ch02-006
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
+  wizarding-businesses:
+    entries:
+    - ext-a24-005
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   wizarding-celebrations:
     entries:
     - ps-ch01-001
@@ -25752,6 +25982,11 @@ tags:
     - ext-a06-003
     output_yaml:
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+  wizarding-colour-signals:
+    entries:
+    - ext-a26-001
+    output_yaml:
+    - sources/external/official-rowling/a26-colours.yaml
   wizarding-custom:
     entries:
     - dh-ch07-001
@@ -25841,6 +26076,11 @@ tags:
     - ootp-ch09-002
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  wizarding-infrastructure:
+    entries:
+    - ext-a24-001
+    output_yaml:
+    - sources/external/official-rowling/a24-the-floo-network.yaml
   wizarding-institutions:
     entries:
     - ootp-ch22-002

@@ -1481,16 +1481,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
     manifest_id: external-A24
     output_file: sources/external/official-rowling/a24-the-floo-network.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:41:12Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:32:24Z'
+      agent: source-agent-a24
+    - event: completed
+      at: '2026-08-15T15:41:12Z'
     staging_file: work/external-staging/a24.yaml
   - id: A25
     title: Time-Turner
@@ -1500,16 +1505,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
     manifest_id: external-A25
     output_file: sources/external/official-rowling/a25-time-turner.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:43:50Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:32:24Z'
+      agent: source-agent-a25
+    - event: completed
+      at: '2026-08-15T15:43:50Z'
     staging_file: work/external-staging/a25.yaml
   - id: A26
     title: Colours
@@ -1519,16 +1529,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a26-colours.md
     manifest_id: external-A26
     output_file: sources/external/official-rowling/a26-colours.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:46:06Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:32:25Z'
+      agent: source-agent-a26
+    - event: completed
+      at: '2026-08-15T15:46:06Z'
     staging_file: work/external-staging/a26.yaml
   - id: A27
     title: Werewolves

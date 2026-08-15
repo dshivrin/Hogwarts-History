@@ -387,6 +387,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Charms Instruction and Independent Practice
   - Summoning Charms Beyond the Classroom
 
+## Customs, Symbols, and Daily Life
+
+- Dress, Display, and Wizarding Identity
+  - Colour as a public recognition signal
+  - Purple and green moral symbolism
+
 ## Dark Magic and Wartime Threats
 
 - Horcruxes and Concealed Soul Magic
@@ -683,7 +689,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Houses, Heraldry, and School Identity
 
 - The Four Houses
+  - Colour palettes and elemental associations
   - House colors, animals, and the Hogwarts coat of arms
+  - Slytherin green and cultural associations
 
 ## Institutional Life and Governance
 
@@ -1368,6 +1376,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Named Histories And School-Age Reference Books
   - A History of Magic as a portable reference tradition
 
+## Part I: Foundations and Governance
+
+- Hogwarts and the Ministry of Magic
+  - Regulated Magical Transport
+- Hogwarts and the Wider Wizarding World
+  - Magical Transport in Historical Context
+  - Regulated Magical Transport
+
 ## Part I: Foundations and Traditions
 
 - Hogwarts Customs and Ceremonies
@@ -1449,6 +1465,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ordinary enchanted portraits
   - Portrait observation in the headmaster's office
 
+## Part II: The Castle and Its Protections
+
+- Access, Boundaries, and Communication
+  - Fireplace Access and Floo Restrictions
+
 ## Part II: The School
 
 - Education and Curriculum
@@ -1468,6 +1489,16 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House ghosts
   - Moaning Myrtle and school spaces
   - The castle as a home for ghosts
+
+## Part II: The School Through Time
+
+- Magical Knowledge and Its Limits
+  - Eloise Mintumble and temporal disruption
+  - Legal controls after temporal disruption
+  - Ministry research into hazardous time magic
+  - The abandonment of long-distance time travel
+- Ministry and Hogwarts
+  - Exceptional Ministry authorization for time devices
 
 ## Part II: The School and Its People
 
@@ -1545,10 +1576,22 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Recognition and Social Change
   - Posthumous honours
 
+## Part IV: Recent Hogwarts History
+
+- Student Life and Exceptional Arrangements
+  - Hermione Granger’s Time-Turner accommodation
+- The Second Wizarding War
+  - The loss of Ministry Time-Turners
+
 ## Part V - Magical Creatures, Beings, and Dark Forces
 
 - Inferi and Dark Creature Defense
   - Fire, Cold, and Animated Corpses
+
+## People of Hogwarts
+
+- Staff and Their Symbolic Roles
+  - Authorial naming symbolism
 
 ## Peoples, Beings, and Magical Society
 
