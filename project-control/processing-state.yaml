@@ -13,7 +13,15 @@ last_completed_source_unit:
   page_end: 65
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
-next_source_unit: null
+next_source_unit:
+  id: A01
+  title: Chamber of Secrets
+  status: pending
+  input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
+  output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+  manifest_id: external-A01
+  claimed_by: null
+  claimed_at: null
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
@@ -34,6 +42,10 @@ automation_rules:
   update_next_run_file: true
   advance_to_next_chapter: true
   stop_on_schema_error: true
+  max_external_units_in_progress: 4
+  index_first_duplicate_lookup: true
+  workers_write_assigned_yaml_only: true
+  completion_updates_generated_outputs: true
 cleanup_runs:
 - date: '2026-06-20'
   type: appendix_consolidation
@@ -41,3 +53,24 @@ cleanup_runs:
     into cumulative Emerging Parts sections without processing a new source unit.
   source_units_newly_processed: 0
   next_pending_preserved: true
+external_processing:
+  phase: external-source-extraction
+  manifest: resources/manifests/external-sources.yaml
+  max_in_progress: 4
+  total_units: 63
+  counts:
+    pending: 63
+    in_progress: 0
+    done: 0
+    blocked: 0
+  active_units: []
+  next_pending_unit:
+    id: A01
+    title: Chamber of Secrets
+    status: pending
+    input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
+    output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+    manifest_id: external-A01
+    claimed_by: null
+    claimed_at: null
+  last_completed_unit: null

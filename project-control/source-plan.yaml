@@ -4,7 +4,7 @@ project:
   authoritative_state: project-control/processing-state.yaml
   update_note: scripts/update_next_run.py keeps completed chapter status synchronized
     when advancing after a validated extraction.
-current_phase: companion-source-extraction-complete
+current_phase: external-source-extraction
 sources:
 - source_file: pdfs/harrypotter.pdf
   book_group: book-01
@@ -267,7 +267,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
   - number: 5
-    title: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+    title: Chapter Five - Weasleys’ Wizard Wheezes
     status: complete
     output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
   - number: 6
@@ -343,7 +343,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-23-the-yule-ball.yaml
   - number: 24
-    title: "Chapter Twenty-Four - Rita Skeeter\u2019s Scoop"
+    title: Chapter Twenty-Four - Rita Skeeter’s Scoop
     status: complete
     output_file: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   - number: 25
@@ -910,3 +910,1164 @@ sources:
     title: Back Matter
     status: complete
     output_file: sources/book-beedle/chapter-06-back-matter.yaml
+external_sources:
+  schema_version: 1
+  generated_from: resources/manifests/external-sources.yaml
+  max_in_progress: 4
+  update_profiles:
+    canonical_external_evidence:
+      rebuild_indexes: true
+      regenerate_book_seed: true
+      regenerate_appendices: true
+      update_next_run: true
+  units:
+  - id: A01
+    title: Chamber of Secrets
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
+    manifest_id: external-A01
+    output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A02
+    title: The Sorting Hat
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+    manifest_id: external-A02
+    output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A03
+    title: The Quill of Acceptance and The Book of Admittance
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a03-quill-of-acceptance-and-book-of-admittance.md
+    manifest_id: external-A03
+    output_file: sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A04
+    title: The Hogwarts Express
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    manifest_id: external-A04
+    output_file: sources/external/official-rowling/a04-the-hogwarts-express.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A05
+    title: Hogwarts Portraits
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+    manifest_id: external-A05
+    output_file: sources/external/official-rowling/a05-hogwarts-portraits.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A06
+    title: Hogwarts Ghosts
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    manifest_id: external-A06
+    output_file: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A07
+    title: Hufflepuff Common Room
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    manifest_id: external-A07
+    output_file: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A08
+    title: The Sword of Gryffindor
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    manifest_id: external-A08
+    output_file: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A09
+    title: The Great Lake
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    manifest_id: external-A09
+    output_file: sources/external/official-rowling/a09-the-great-lake.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A10
+    title: Remus Lupin
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+    manifest_id: external-A10
+    output_file: sources/external/official-rowling/a10-remus-lupin.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A11
+    title: The Marauder’s Map
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+    manifest_id: external-A11
+    output_file: sources/external/official-rowling/a11-the-marauder-s-map.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A12
+    title: Professor McGonagall
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    manifest_id: external-A12
+    output_file: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A13
+    title: Professor Kettleburn
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
+    manifest_id: external-A13
+    output_file: sources/external/official-rowling/a13-professor-kettleburn.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A14
+    title: 'The Mirror of Erised  '
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    manifest_id: external-A14
+    output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A15
+    title: The Original Forty
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+    manifest_id: external-A15
+    output_file: sources/external/official-rowling/a15-the-original-forty.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A16
+    title: Peeves
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a16-peeves.md
+    manifest_id: external-A16
+    output_file: sources/external/official-rowling/a16-peeves.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A17
+    title: Pensieve
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
+    manifest_id: external-A17
+    output_file: sources/external/official-rowling/a17-pensieve.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A18
+    title: Hogwarts School Subjects
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    manifest_id: external-A18
+    output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A19
+    title: King’s Cross Station
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
+    manifest_id: external-A19
+    output_file: sources/external/official-rowling/a19-king-s-cross-station.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A20
+    title: Hatstall
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    manifest_id: external-A20
+    output_file: sources/external/official-rowling/a20-hatstall.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A21
+    title: Toads
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
+    manifest_id: external-A21
+    output_file: sources/external/official-rowling/a21-toads.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A22
+    title: Familiars
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    manifest_id: external-A22
+    output_file: sources/external/official-rowling/a22-familiars.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A23
+    title: Owls
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    manifest_id: external-A23
+    output_file: sources/external/official-rowling/a23-owls.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A24
+    title: The Floo Network
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    manifest_id: external-A24
+    output_file: sources/external/official-rowling/a24-the-floo-network.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A25
+    title: Time-Turner
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    manifest_id: external-A25
+    output_file: sources/external/official-rowling/a25-time-turner.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A26
+    title: Colours
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    manifest_id: external-A26
+    output_file: sources/external/official-rowling/a26-colours.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A27
+    title: Werewolves
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    manifest_id: external-A27
+    output_file: sources/external/official-rowling/a27-werewolves.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A28
+    title: Wizarding Schools
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+    manifest_id: external-A28
+    output_file: sources/external/official-rowling/a28-wizarding-schools.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A29
+    title: Beauxbatons Academy of Magic
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    manifest_id: external-A29
+    output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A30
+    title: Ilvermorny School of Witchcraft and Wizardry
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+    manifest_id: external-A30
+    output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A31
+    title: Professor Quirrell
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
+    manifest_id: external-A31
+    output_file: sources/external/official-rowling/a31-professor-quirrell.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A32
+    title: Gilderoy Lockhart
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
+    manifest_id: external-A32
+    output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A33
+    title: Sybill Trelawney
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+    manifest_id: external-A33
+    output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A34
+    title: Dolores Umbridge
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+    manifest_id: external-A34
+    output_file: sources/external/official-rowling/a34-dolores-umbridge.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A35
+    title: Draco Malfoy
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+    manifest_id: external-A35
+    output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A36
+    title: Scottish Rugby
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+    manifest_id: external-A36
+    output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: A37
+    title: Extension Charms
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a37-extension-charms.md
+    manifest_id: external-A37
+    output_file: sources/external/official-rowling/a37-extension-charms.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B01
+    title: Online chat transcript, Scholastic.com , 3 February 2000
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    manifest_id: external-B01
+    output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B02
+    title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"
+      Scholastic.com , 16 October 2000'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    manifest_id: external-B02
+    output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B03
+    title: America Online chat transcript, AOL.com , 19 October 2000
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b03-aol-live-chat.md
+    manifest_id: external-B03
+    output_file: sources/external/interviews/b03-aol-live-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B04
+    title: JK Rowling's World Book Day Chat, March 4, 2004
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    manifest_id: external-B04
+    output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B05
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
+      interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+    manifest_id: external-B05
+    output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B06
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
+      interview Joanne Kathleen Rowling: Part Two," The Leaky Cauldron , 16 July 2005'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+    manifest_id: external-B06
+    output_file: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B07
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet
+      interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July
+      2005'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    manifest_id: external-B07
+    output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B08
+    title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    manifest_id: external-B08
+    output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B09
+    title: J.K. Rowling and the Live Chat , Bloomsbury.com, July 30, 2007 (2.00-3.00pm
+      BST).
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    manifest_id: external-B09
+    output_file: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B10
+    title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
+      part one." PotterCast #130 , 17 December 2007.'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+    manifest_id: external-B10
+    output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B11
+    title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],
+      24 June 1997.
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+    manifest_id: external-B11
+    output_file: sources/external/interviews/b11-the-herald-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B12
+    title: Carey, Joanna. "Who hasn't met Harry?" Guardian Unlimited , February 16,
+      1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
+    manifest_id: external-B12
+    output_file: sources/external/interviews/b12-guardian-unlimited-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B13
+    title: Weir, Margaret. "Of magic and single motherhood," Salon , 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b13-salon-interview.md
+    manifest_id: external-B13
+    output_file: sources/external/interviews/b13-salon-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B14
+    title: Barnes and Noble interview, March 19, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+    manifest_id: external-B14
+    output_file: sources/external/interviews/b14-barnes-noble-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B15
+    title: Barnes & Noble chat transcript, Barnes&Noble.com , September 8, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b15-barnes-noble-live-chat.md
+    manifest_id: external-B15
+    output_file: sources/external/interviews/b15-barnes-noble-live-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B16
+    title: Loer, Stephanie. "All about Harry Potter from quidditch to the future of
+      the Sorting Hat," The Boston Globe , October 18, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
+    manifest_id: external-B16
+    output_file: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B17
+    title: Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR
+      Radio), 12 October, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
+    manifest_id: external-B17
+    output_file: sources/external/interviews/b17-the-connection-wbur-radio.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B18
+    title: J.K. Rowling on The Diane Rehm Show, WAMU Radio Washington, D.C. , October
+      20, 1999 (re-broadcast December 24, 1999)
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+    manifest_id: external-B18
+    output_file: sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B19
+    title: '"World Exclusive Interview with J K Rowling," South West News Service
+      , 8 July 2000'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+    manifest_id: external-B19
+    output_file: sources/external/interviews/b19-south-west-news-service-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B20
+    title: Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com ,
+      20 October, 2000
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+    manifest_id: external-B20
+    output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B21
+    title: Raincoast Books interview transcript, Raincoast Books (Canada), March 2001.
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b21-raincoast-books-interview.md
+    manifest_id: external-B21
+    output_file: sources/external/interviews/b21-raincoast-books-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B22
+    title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+    manifest_id: external-B22
+    output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B23
+    title: Red Nose Day Chat, BBC Online , March 12, 2001
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+    manifest_id: external-B23
+    output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B24
+    title: '"Harry Potter and Me" (BBC Christmas Special, British version), BBC ,
+      28 December 2001'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md
+    manifest_id: external-B24
+    output_file: sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B25
+    title: '"Living with Harry Potter"'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+    manifest_id: external-B25
+    output_file: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []
+  - id: B26
+    title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August
+      2, 2006'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+    manifest_id: external-B26
+    output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
+    status: pending
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: null
+    attempts: 0
+    validation_status: not_run
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history: []

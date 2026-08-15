@@ -293,7 +293,7 @@
 
 ### Task 4: Build the manifest-derived lock-safe queue controller
 
-**Status:** in_progress
+**Status:** done
 
 **Files:**
 - Create: `scripts/external_sources/queue.py`
@@ -388,7 +388,7 @@
 
 ### Task 5: Replace the runtime instructions and expose stable recipes
 
-**Status:** pending
+**Status:** in_progress
 
 **Files:**
 - Modify: `docs/instructions/runtime-contract.md`

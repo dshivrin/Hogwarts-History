@@ -11,6 +11,11 @@ import sys
 
 import yaml
 
+try:
+    from scripts.external_sources.queue import render_external_next_run
+except ModuleNotFoundError:  # Direct script execution.
+    from external_sources.queue import render_external_next_run
+
 
 ROOT = Path(__file__).resolve().parents[1]
 PROCESSING_STATE_PATH = ROOT / "project-control" / "processing-state.yaml"
@@ -258,6 +263,9 @@ def advance_state(state: dict) -> dict:
 
 
 def render_next_run(state: dict) -> str:
+    external = state.get("external_processing")
+    if isinstance(external, dict):
+        return render_external_next_run(external)
     current = state.get("current_source_unit")
     if not isinstance(current, dict):
         completed = state.get("last_completed_source_unit") or {}

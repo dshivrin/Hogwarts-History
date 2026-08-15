@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import importlib
 from pathlib import Path
@@ -37,6 +38,36 @@ def snapshot_parts(path: Path) -> tuple[dict, str]:
     _, header, body = text.split("---\n", 2)
     metadata = yaml.safe_load(header) or {}
     return metadata, body.lstrip("\n")
+
+
+def queue_module():
+    try:
+        return importlib.import_module("scripts.external_sources.queue")
+    except ModuleNotFoundError as exc:
+        raise AssertionError("external queue controller must be implemented") from exc
+
+
+def write_test_manifest(root: Path, count: int = 5) -> Path:
+    records = []
+    for number in range(1, count + 1):
+        logical_id = f"A{number:02d}"
+        records.append(
+            {
+                "id": f"external-{logical_id}",
+                "logical_id": logical_id,
+                "title": f"Source {logical_id}",
+                "source_class": "official_rowling_original",
+                "authority": "A",
+                "local_path": f"resources/external/{logical_id.lower()}.md",
+            }
+        )
+    manifest_path = root / "resources/manifests/external-sources.yaml"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        yaml.safe_dump({"schema_version": 1, "sources": records}, sort_keys=False),
+        encoding="utf-8",
+    )
+    return manifest_path
 
 
 class RuntimeBackupAndManifestTests(unittest.TestCase):
@@ -268,6 +299,185 @@ class ExternalValidationTests(unittest.TestCase):
             count = validator.count_source_entries(root)
 
         self.assertEqual(count, 1)
+
+
+class QueueGenerationTests(unittest.TestCase):
+    def test_manifest_builds_exact_deterministic_63_unit_queue(self) -> None:
+        queue = queue_module()
+        manifest = load_yaml(MANIFEST_PATH)
+
+        units = queue.build_units(manifest)
+
+        expected_ids = [f"A{number:02d}" for number in range(1, 38)] + [
+            f"B{number:02d}" for number in range(1, 27)
+        ]
+        self.assertEqual([unit["id"] for unit in units], expected_ids)
+        self.assertEqual(len({unit["input_path"] for unit in units}), 63)
+        self.assertEqual(len({unit["output_file"] for unit in units}), 63)
+        self.assertEqual(len({unit["manifest_id"] for unit in units}), 63)
+        for unit in units:
+            self.assertEqual(unit["status"], "pending")
+            self.assertEqual(unit["attempts"], 0)
+            self.assertIsNone(unit["claimed_by"])
+            self.assertIsNone(unit["claim_token"])
+            self.assertIsNone(unit["claimed_at"])
+            self.assertIsNone(unit["completed_at"])
+            self.assertIsNone(unit["blocked_reason"])
+            self.assertEqual(unit["validation_status"], "not_run")
+            self.assertEqual(unit["update_profile"], "canonical_external_evidence")
+
+
+class QueueTransitionTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.tempdir = tempfile.TemporaryDirectory()
+        self.root = Path(self.tempdir.name)
+        control = self.root / "project-control"
+        control.mkdir(parents=True)
+        (control / "source-plan.yaml").write_text(
+            yaml.safe_dump(
+                {
+                    "project": {"name": "test"},
+                    "current_phase": "book-complete",
+                    "sources": [{"book_group": "book-01", "chapters": []}],
+                },
+                sort_keys=False,
+            ),
+            encoding="utf-8",
+        )
+        (control / "processing-state.yaml").write_text(
+            yaml.safe_dump(
+                {"last_completed_source_unit": {"book_group": "book-01"}},
+                sort_keys=False,
+            ),
+            encoding="utf-8",
+        )
+        write_test_manifest(self.root)
+        self.queue = queue_module()
+        self.controller = self.queue.QueueController(self.root)
+        self.controller.initialize()
+
+    def tearDown(self) -> None:
+        self.tempdir.cleanup()
+
+    def test_simultaneous_claims_are_unique_and_fifth_claim_is_rejected(self) -> None:
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            first, second = list(
+                executor.map(
+                    lambda agent: self.queue.QueueController(self.root).claim(agent),
+                    ["worker-one", "worker-two"],
+                )
+            )
+        self.assertNotEqual(first["id"], second["id"])
+
+        self.controller.claim("worker-three")
+        self.controller.claim("worker-four")
+        before = (self.root / "project-control/source-plan.yaml").read_bytes()
+        with self.assertRaisesRegex(self.queue.QueueError, "four units are already in progress"):
+            self.controller.claim("worker-five")
+        after = (self.root / "project-control/source-plan.yaml").read_bytes()
+        self.assertEqual(before, after)
+
+    def test_claim_tokens_gate_release_and_block_transitions(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        with self.assertRaisesRegex(self.queue.QueueError, "claim token"):
+            self.controller.release("A01", "stale-token", "interrupted")
+
+        released = self.controller.release(
+            "A01", claimed["claim_token"], "worker interrupted"
+        )
+        self.assertEqual(released["status"], "pending")
+        self.assertEqual(released["history"][-1]["event"], "released")
+
+        claimed_again = self.controller.claim("worker", unit_id="A01")
+        with self.assertRaisesRegex(self.queue.QueueError, "non-empty reason"):
+            self.controller.block("A01", claimed_again["claim_token"], " ")
+        blocked = self.controller.block(
+            "A01", claimed_again["claim_token"], "snapshot provenance is ambiguous"
+        )
+        self.assertEqual(blocked["status"], "blocked")
+        self.assertEqual(blocked["blocked_reason"], "snapshot provenance is ambiguous")
+
+    def test_completion_failure_leaves_unit_in_progress(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+
+        with self.assertRaisesRegex(self.queue.QueueError, "output YAML does not exist"):
+            self.controller.complete(
+                "A01", claimed["claim_token"], runner=lambda commands, root: None
+            )
+
+        unit = self.controller.unit("A01")
+        self.assertEqual(unit["status"], "in_progress")
+        self.assertEqual(unit["validation_status"], "not_run")
+
+    def test_successful_completion_marks_only_claimed_unit_done(self) -> None:
+        claimed = self.controller.claim("worker", unit_id="A01")
+        output = self.root / claimed["output_file"]
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(
+            yaml.safe_dump(
+                {
+                    "source_unit": {"source_kind": "external_markdown"},
+                    "entries": [
+                        {
+                            "id": "ext-a01-001",
+                            "topic_tags": ["hogwarts", "history", "example"],
+                            "duplicate_check": {
+                                "possible_duplicate": False,
+                                "duplicate_of": None,
+                                "notes": "Indexed lookup found no match.",
+                            },
+                        }
+                    ],
+                },
+                sort_keys=False,
+            ),
+            encoding="utf-8",
+        )
+
+        completed = self.controller.complete(
+            "A01", claimed["claim_token"], runner=lambda commands, root: None
+        )
+
+        self.assertEqual(completed["status"], "done")
+        self.assertEqual(completed["validation_status"], "passed")
+        self.assertIsNone(completed["claim_token"])
+        self.assertEqual(self.controller.unit("A02")["status"], "pending")
+        status = self.controller.status()
+        self.assertEqual(status["counts"], {"pending": 4, "in_progress": 0, "done": 1, "blocked": 0})
+        self.assertEqual(status["next_pending_unit"]["id"], "A02")
+
+
+class ExternalQueueDisplayTests(unittest.TestCase):
+    def test_next_run_renders_external_counts_and_next_unit(self) -> None:
+        update_next_run = importlib.import_module("scripts.update_next_run")
+        state = {
+            "external_processing": {
+                "total_units": 63,
+                "counts": {
+                    "pending": 63,
+                    "in_progress": 0,
+                    "done": 0,
+                    "blocked": 0,
+                },
+                "active_units": [],
+                "next_pending_unit": {
+                    "id": "A01",
+                    "title": "Chamber of Secrets",
+                    "input_path": "resources/external/a01.md",
+                    "output_file": "sources/external/official-rowling/a01.yaml",
+                },
+                "last_completed_unit": None,
+            },
+            "last_completed_source_unit": {"book": "The Tales of Beedle the Bard"},
+            "current_source_unit": None,
+        }
+
+        rendered = update_next_run.render_next_run(state)
+
+        self.assertIn("## External Source Queue", rendered)
+        self.assertIn("- Pending: 63", rendered)
+        self.assertIn("`A01` — Chamber of Secrets", rendered)
+        self.assertNotIn("No pending source unit remains", rendered)
 
 
 if __name__ == "__main__":

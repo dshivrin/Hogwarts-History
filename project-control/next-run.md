@@ -1,22 +1,23 @@
 # Next Run
 
-Generated display only. Source of truth: `project-control/processing-state.yaml`.
+Generated display only. Source of truth: `project-control/source-plan.yaml`.
 
-## Current Source Unit
+## External Source Queue
 
-No pending source unit remains in `project-control/source-plan.yaml`.
+- Total: 63
+- Pending: 63
+- In progress: 0
+- Done: 0
+- Blocked: 0
 
-## Last Completed Source Unit
+## Next Pending Unit
 
-- Source file: `pdfs/Beedle The Bard_text.pdf`
-- Book group: `book-beedle`
-- Book: The Tales of Beedle the Bard
-- Chapter: Back Matter
-- Page range: 63-65
-- Output YAML: `sources/book-beedle/chapter-06-back-matter.yaml`
+- Unit: `A01` — Chamber of Secrets
+- Input: `resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md`
+- Output: `sources/external/official-rowling/a01-chamber-of-secrets.yaml`
+
+Claim it with `just claim-external <agent> <unit>`.
 
 ## Minimal Context
 
-The planned source sequence is exhausted. Do not start another source-unit extraction
-unless `project-control/source-plan.yaml` is extended or
-`project-control/processing-state.yaml` is deliberately reset to a pending unit.
+Use the active runtime contract and compact query commands. Do not scan all source YAML files.
