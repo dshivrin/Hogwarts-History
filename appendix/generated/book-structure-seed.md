@@ -860,6 +860,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Former staff rumors about Umbridge and the centaur herd
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's attempted removal during the Astronomy O.W.L.
+- Ministry Intervention in School Governance
+  - Attempted removal of Trelawney
 - Ministry Oversight and Student Hearings
   - Visitor entry after hours and security gaps
 - Ministry Pressure and Public Records
@@ -906,6 +908,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bathilda's photographs and Rita Skeeter's source handling
   - Obituary, Biography, and Public Dispute
   - Serialized biography, Bathilda testimony, and Ariana's schooling
+- Staff Culture and Accommodation
+  - Trelawney's isolated tower office
 - Staff, Subjects, and Ministry Inspection
   - Divination inspection and teacher credentials
   - Inspection consequences and probation
@@ -920,6 +924,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Widespread anti-Umbridge sabotage after the Weasley exit
 - Student Welfare and Crisis Response
   - Privacy Instructions and Class Disruption After the Maze Crisis
+- The 1997 Breach of Hogwarts
+  - Death Eater Infiltration and the Astronomy Tower
 - The Battle of Hogwarts and Its Aftermath
   - Cease-fire, triage, and mourning in the Great Hall
   - Great Hall mourning and underage casualties
@@ -1047,6 +1053,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
   - Rita Skeeter's Unregistered Animagus Surveillance
+- The Umbridge Interregnum
+  - Student Enforcement and Proscribed Associations
 - The War Beyond the Gates
   - Ambush Over Muggle Britain
   - Burrow protections broken after the Ministry falls
@@ -1332,6 +1340,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bathilda Bagshot as Neighbor and Historical Source
 - Old Wizarding Families and Artifact Inheritance
   - Peverell descent through vanished male lines
+- Staff Appointments and Protective Patronage
+  - Trelawney's protected appointment
 - The Dumbledore Family Before Hogwarts Headmastership
   - Ariana's attack and family concealment
 - The Fall of Voldemort
@@ -1568,6 +1578,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Discipline and Student Misconduct
   - Detention for Damage to the Quidditch Pitch
 - Notable Pupils and Alumni
+  - Dolores Umbridge's School Record
   - Gilderoy Lockhart's Ravenclaw Years
 - Student Culture and Communications
   - Owl Post Disruption in the Great Hall
@@ -1619,6 +1630,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dumbledore's Lockhart Appointment
   - Lockhart's Classroom Failure
   - Recruitment Difficulties and Curse Rumours
+- Discipline and Ministry Interference
+  - Umbridge's Abusive Detention
+- Ministry Intervention and School Governance
+  - Limits of Inquisitorial Authority
+  - Umbridge's Inquisitorial Appointment
 
 ## Part V - Magical Creatures, Beings, and Dark Forces
 

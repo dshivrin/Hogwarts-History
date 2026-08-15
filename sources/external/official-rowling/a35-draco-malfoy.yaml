@@ -1,0 +1,154 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A35
+  source_file: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+  title: Draco Malfoy
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy
+  capture_completeness: complete
+  content_sha256: 1df3032859380dbef5bddc01975fe75121786aa38ce6ae25a02ce013f285751d
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; retained only Hogwarts governance and security evidence, both from the Harry era.
+
+entries:
+  - id: ext-a35-001
+    source_file: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+    source_id: A35
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: School life took an upturn in Draco’s fifth year.
+      end_phrase: the forbidden organisation, Dumbledore’s Army.
+      local_occurrence_note: Main biographical narrative, paragraph beginning “School life took an upturn”.
+    nearby_context: In Draco’s fifth year, Umbridge is the new Defence Against the Dark Arts teacher and Draco is pleased by her hostility to Harry.
+    match_terms:
+      - draco malfoy
+      - prefect
+      - inquisitorial squad
+      - dumbledore's army
+    quote_excerpt_short: He became a member of Dolores Umbridge’s Inquisitorial Squad.
+    source_note: Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
+    reference_type: school_rule_or_policy
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - draco-malfoy
+      - dumbledores-army
+      - hogwarts
+      - inquisitorial-squad
+      - prefect
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Umbridge Interregnum
+    candidate_section: Student Enforcement and Proscribed Associations
+    reason_for_placement: The passage records a temporary school enforcement body and a student Prefect’s role within it.
+    relevance_to_hogwarts_a_history: Supports a later editorial account of Umbridge-era governance; the fifth-year event occurs during Harry Potter’s schooling and cannot belong to the pre-1984 original.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed evidence overlaps on related governance and resistance topics but does not state Draco’s Inquisitorial Squad membership.
+      audit:
+        query_tags:
+          - draco-malfoy
+          - dumbledores-army
+          - hogwarts
+          - inquisitorial-squad
+          - prefect
+        candidates:
+          - id: dh-ch16-002
+            disposition: corroborating
+          - id: ext-a12-002
+            disposition: corroborating
+          - id: cos-ch04-004
+            disposition: distinct
+          - id: dh-ch05-004
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+    confidence: high
+    limitations: This retrospective official account identifies Draco’s role but does not specify the Squad’s formal powers, rules, or full membership; the event is Harry-era only.
+
+  - id: ext-a35-002
+    source_file: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+    source_id: A35
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Voldemort and Snape underestimated Draco.
+      end_phrase: Dumbledore was, indeed, killed – though not by Draco’s hand.
+      local_occurrence_note: Main biographical narrative, paragraph beginning “Voldemort and Snape underestimated Draco”.
+    nearby_context: The account describes Draco’s undercover work after two failed attempts on Dumbledore’s life.
+    match_terms:
+      - draco malfoy
+      - death eaters
+      - hogwarts
+      - astronomy tower
+      - dumbledore
+    quote_excerpt_short: introduce a whole group of Death Eaters into Hogwarts
+    source_note: Rowling attributes the successful admission of a group of Death Eaters into Hogwarts to Draco’s plan; Dumbledore was subsequently killed by Snape, not Draco.
+    reference_type: security_or_protection
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - astronomy-tower
+      - death-eaters
+      - draco-malfoy
+      - dumbledore
+      - hogwarts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The 1997 Breach of Hogwarts
+    candidate_section: Death Eater Infiltration and the Astronomy Tower
+    reason_for_placement: The claim directly concerns a wartime breach of Hogwarts security and its immediate fatal consequence.
+    relevance_to_hogwarts_a_history: Provides later editorial evidence about a specific 1997 school-security failure; it is far beyond the project’s approximate 1984 cutoff for the original book.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed tower accounts corroborate the breach and killing, while this source specifically attributes the group’s admission to Draco’s plan.
+      audit:
+        query_tags:
+          - astronomy-tower
+          - death-eaters
+          - draco-malfoy
+          - dumbledore
+          - hogwarts
+        candidates:
+          - id: hbp-ch02-002
+            disposition: corroborating
+          - id: hbp-ch27-002
+            disposition: corroborating
+          - id: hbp-ch27-004
+            disposition: corroborating
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+          - id: dh-ch33-006
+            disposition: corroborating
+          - id: gof-ch30-004
+            disposition: distinct
+          - id: hbp-ch02-005
+            disposition: distinct
+          - id: hbp-ch07-007
+            disposition: corroborating
+          - id: hbp-ch27-003
+            disposition: corroborating
+    confidence: high
+    limitations: The source is retrospective and gives no technical account of the access method or Hogwarts’ protective failures; the event is Harry-era and excluded from the pre-1984 original.

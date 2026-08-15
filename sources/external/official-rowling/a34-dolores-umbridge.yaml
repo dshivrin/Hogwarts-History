@@ -1,0 +1,270 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A34
+  source_file: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+  title: Dolores Umbridge
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge
+  capture_completeness: complete
+  content_sha256: 5426dc06c0d18a0a36d724d7f7fe36e8cfd8784cf634b4cdca511b562e84e4f4
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; extracted Hogwarts pupil-office and later Ministry intervention, staff-discipline, and authority claims only.
+
+entries:
+  - id: ext-a34-001
+    source_file: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+    source_id: A34
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: She had not enjoyed her time at school
+      end_phrase: wield power over those
+      local_occurrence_note: Paragraph beginning with Umbridge's appointment as Inquisitor, which retrospectively describes her own school experience.
+    nearby_context: The source contrasts her earlier exclusion from school responsibility with her later enjoyment of authority as Hogwarts Inquisitor.
+    match_terms:
+      - dolores-umbridge
+      - positions-of-responsibility
+      - student-leadership
+    quote_excerpt_short: She had been overlooked for all positions of responsibility.
+    source_note: Umbridge's retrospective school biography says she held no positions of responsibility while a Hogwarts pupil.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - dolores-umbridge
+      - hogwarts-pupil
+      - positions-of-responsibility
+      - student-leadership
+    candidate_part: 'Part III: School Life and Institutions'
+    candidate_chapter: Notable Pupils and Alumni
+    candidate_section: Dolores Umbridge's School Record
+    reason_for_placement: Records a narrowly framed biographical fact about a later Ministry official's experience of Hogwarts pupil authority.
+    relevance_to_hogwarts_a_history: May support a pre-1984 alumnus profile, but does not establish how positions of responsibility were selected or distributed.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries discuss pupil offices or later Umbridge events, not her reported lack of a Hogwarts position.
+      audit:
+        query_tags:
+          - dolores-umbridge
+          - student-leadership
+        candidates:
+          - id: cos-ch04-005
+            disposition: distinct
+          - id: gof-ch05-001
+            disposition: distinct
+          - id: hbp-ch04-004
+            disposition: distinct
+          - id: hbp-ch05-004
+            disposition: distinct
+          - id: hbp-ch06-001
+            disposition: distinct
+          - id: hbp-ch11-003
+            disposition: distinct
+          - id: hbp-ch14-004
+            disposition: distinct
+          - id: ootp-ch08-006
+            disposition: distinct
+          - id: ootp-ch09-005
+            disposition: distinct
+          - id: ootp-ch09-006
+            disposition: distinct
+    confidence: high
+    limitations: The 2015 retrospective gives no school dates or office names; the pre-1984 classification follows the biographical chronology rather than an explicit date.
+
+  - id: ext-a34-002
+    source_file: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+    source_id: A34
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Dolores’s appointment as Inquisitor at Hogwarts
+      end_phrase: given her her due
+      local_occurrence_note: Paragraph after the Ministry-career background, describing Umbridge's appointment and motive for returning to Hogwarts.
+    nearby_context: The author links Umbridge's appointment to her ability to exercise prejudice and cruelty at the school.
+    match_terms:
+      - dolores-umbridge
+      - inquisitor
+      - ministry-intervention
+    quote_excerpt_short: Dolores's appointment as Inquisitor at Hogwarts gave full scope.
+    source_note: Umbridge was appointed Hogwarts Inquisitor, a Ministry-backed role that placed her in authority at the school.
+    reference_type: historical_claim
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - dolores-umbridge
+      - inquisitor
+      - ministry-intervention
+      - school-governance
+    candidate_part: 'Part IV: The Modern School'
+    candidate_chapter: Ministry Intervention and School Governance
+    candidate_section: Umbridge's Inquisitorial Appointment
+    reason_for_placement: Documents the Ministry's later placement of an Inquisitor within Hogwarts authority structures.
+    relevance_to_hogwarts_a_history: Useful corroborating context for the Harry-era Ministry intervention, but excluded from a proposed original 1984 edition.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ootp-ch15-001
+      notes: The Prophet account in ootp-ch15-001 records the same Ministry-created High Inquisitor role; this official retrospective supplies Umbridge's stated personal motive.
+      audit:
+        query_tags:
+          - dolores-umbridge
+          - school-governance
+        candidates:
+          - id: ootp-ch11-006
+            disposition: corroborating
+          - id: ootp-ch12-007
+            disposition: corroborating
+          - id: ootp-ch14-006
+            disposition: corroborating
+          - id: ootp-ch15-001
+            disposition: duplicate
+          - id: ootp-ch18-002
+            disposition: corroborating
+          - id: ootp-ch28-001
+            disposition: corroborating
+          - id: ootp-ch28-002
+            disposition: corroborating
+          - id: beedle-ch02-008
+            disposition: distinct
+          - id: beedle-ch02-009
+            disposition: distinct
+          - id: cos-ch12-006
+            disposition: distinct
+    confidence: high
+    limitations: The snapshot calls the office Inquisitor and supplies no decree number or precise appointment date; the event belongs to the Harry-era school and cannot evidence the original 1984 edition.
+
+  - id: ext-a34-003
+    source_file: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+    source_id: A34
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Scrimgeour was later punished for this oversight
+      end_phrase: during detention
+      local_occurrence_note: Paragraph on Umbridge's Ministry return after Hogwarts, which specifies the detention injury inflicted on Harry.
+    nearby_context: Harry regards the Ministry's failure to punish Umbridge after Hogwarts as evidence of institutional corruption.
+    match_terms:
+      - blood-quill
+      - dolores-umbridge
+      - detention
+    quote_excerpt_short: She forced him to cut the words 'I must not tell lies' on the back of his own hand during detention.
+    source_note: During a Hogwarts detention, Umbridge compelled Harry to cut 'I must not tell lies' into the back of his hand, leaving a permanent scar.
+    reference_type: school_rule_or_policy
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - blood-quill
+      - dolores-umbridge
+      - detention
+      - ministry-intervention
+      - school-discipline
+    candidate_part: 'Part IV: The Modern School'
+    candidate_chapter: Discipline and Ministry Interference
+    candidate_section: Umbridge's Abusive Detention
+    reason_for_placement: Records an exceptional, abusive disciplinary practice imposed by a Ministry-linked Hogwarts authority.
+    relevance_to_hogwarts_a_history: Strong evidence of a later staff disciplinary abuse, expressly not a general Hogwarts detention custom and outside an original 1984 edition.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ootp-ch13-006
+      notes: ootp-ch13-006 records the same blood-quill detention; this retrospective additionally notes the permanent scar and later Ministry non-accountability.
+      audit:
+        query_tags:
+          - dolores-umbridge
+          - detention
+        candidates:
+          - id: ootp-ch12-007
+            disposition: corroborating
+          - id: ootp-ch13-006
+            disposition: duplicate
+          - id: ootp-ch15-004
+            disposition: corroborating
+          - id: cos-ch05-005
+            disposition: distinct
+          - id: cos-ch07-006
+            disposition: distinct
+          - id: ext-a32-003
+            disposition: distinct
+          - id: gof-ch13-006
+            disposition: distinct
+          - id: gof-ch18-004
+            disposition: distinct
+          - id: hbp-ch04-004
+            disposition: distinct
+          - id: hbp-ch05-004
+            disposition: distinct
+    confidence: high
+    limitations: The source supplies no detention date or procedural record; it describes an exceptional abuse rather than an ordinary school policy, and the event is Harry-era.
+
+  - id: ext-a34-004
+    source_file: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+    source_id: A34
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Dolores’s time at Hogwarts ended disastrously
+      end_phrase: return of Lord Voldemort
+      local_occurrence_note: Paragraph immediately after the character assessment, explaining why Umbridge's Hogwarts career ended.
+    nearby_context: The source says that Umbridge exceeded the authority Fudge had granted her and returned to a Ministry in turmoil.
+    match_terms:
+      - dolores-umbridge
+      - ministry-intervention
+      - staff-authority
+    quote_excerpt_short: She overreached the remit Fudge had given her.
+    source_note: Umbridge's Hogwarts tenure ended after she exceeded the remit that Minister Fudge had granted her.
+    reference_type: historical_claim
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - dolores-umbridge
+      - ministry-intervention
+      - school-governance
+      - staff-authority
+    candidate_part: 'Part IV: The Modern School'
+    candidate_chapter: Ministry Intervention and School Governance
+    candidate_section: Limits of Inquisitorial Authority
+    reason_for_placement: Supplies a retrospective assessment of the boundary between a Ministerial appointee's remit and her actions at Hogwarts.
+    relevance_to_hogwarts_a_history: A Harry-era account of failed Ministry intervention; it should remain later editorial context rather than part of an original 1984 history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries corroborate the Ministry intervention and Umbridge's departure, but none makes this same retrospective claim about exceeding Fudge's remit.
+      audit:
+        query_tags:
+          - dolores-umbridge
+          - staff-safety
+        candidates:
+          - id: hbp-ch04-004
+            disposition: corroborating
+          - id: beedle-ch02-004
+            disposition: distinct
+          - id: hbp-ch05-004
+            disposition: corroborating
+          - id: ootp-ch08-006
+            disposition: distinct
+          - id: ootp-ch11-002
+            disposition: corroborating
+          - id: ootp-ch11-006
+            disposition: corroborating
+          - id: ootp-ch12-006
+            disposition: corroborating
+          - id: ootp-ch12-007
+            disposition: corroborating
+          - id: ootp-ch13-006
+            disposition: corroborating
+          - id: ootp-ch14-006
+            disposition: corroborating
+    confidence: high
+    limitations: This later retrospective evaluates her remit without naming the governing decree or stating the exact act that exceeded it; the Hogwarts episode is post-1984.

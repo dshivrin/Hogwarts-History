@@ -323,6 +323,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a13-002` (A13, Professor Kettleburn): Hazardous creature work led Kettleburn to receive at least sixty-two probation periods while employed at Hogwarts, a standing record.
 - `ext-a20-004` (A20, Hatstall): Minerva McGonagall was a true Hatstall: the Hat deliberated for five and a half minutes between Ravenclaw and Gryffindor before placing her in Gryffindor.
 - `ext-a31-002` (A31, Professor Quirrell): Voldemort immediately possessed Quirrell after learning that he held a Hogwarts position, turning an incumbent teacher into an internal threat.
+- `ext-a34-002` (A34, Dolores Umbridge): Umbridge was appointed Hogwarts Inquisitor, a Ministry-backed role that placed her in authority at the school.
+- `ext-a34-003` (A34, Dolores Umbridge): During a Hogwarts detention, Umbridge compelled Harry to cut 'I must not tell lies' into the back of his hand, leaving a permanent scar.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.
 - `gof-ch02-001` (Harry Potter and the Goblet of Fire, Chapter Two - The Scar): The chapter treats Harry's lightning scar as a continuing magical trace of Voldemort's curse and records Harry's own link between scar pain and Voldemort's earlier proximity at Hogwarts.
@@ -1294,6 +1296,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a32-005` (A32, Gilderoy Lockhart): During Lockhart's appointment period, the Defence Against the Dark Arts post was reportedly difficult to fill as rumours of a curse gained traction.
 - `ext-a32-006` (A32, Gilderoy Lockhart): Dumbledore selected Lockhart for the DADA post believing a return to normal school life would expose his fraud.
 - `ext-a32-007` (A32, Gilderoy Lockhart): Lockhart's DADA lessons soon displayed his inability to perform the skills he claimed to master in his books.
+- `ext-a33-002` (A33, Sybill Trelawney): Trelawney is described as socially separate from the other teachers and based in a stuffy, overcrowded tower office.
+- `ext-a33-003` (A33, Sybill Trelawney): Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
+- `ext-a34-002` (A34, Dolores Umbridge): Umbridge was appointed Hogwarts Inquisitor, a Ministry-backed role that placed her in authority at the school.
+- `ext-a34-003` (A34, Dolores Umbridge): During a Hogwarts detention, Umbridge compelled Harry to cut 'I must not tell lies' into the back of his hand, leaving a permanent scar.
+- `ext-a34-004` (A34, Dolores Umbridge): Umbridge's Hogwarts tenure ended after she exceeded the remit that Minister Fudge had granted her.
+- `ext-a35-001` (A35, Draco Malfoy): Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
+- `ext-a35-002` (A35, Draco Malfoy): Rowling attributes the successful admission of a group of Death Eaters into Hogwarts to Draco’s plan; Dumbledore was subsequently killed by Snape, not Draco.
 - `gof-ch01-002` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter shows the Quidditch World Cup creating extraordinary Ministry security pressure, international wizard movement, identity checks, and heightened Muggle-secrecy concerns.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-004` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter gives direct evidence that Voldemort believes he has a hidden loyal agent positioned at Hogwarts before the plan against Harry proceeds.
@@ -2230,6 +2239,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a31-001` (A31, Professor Quirrell): Before joining Hogwarts staff, Quirrell undertook a deliberate worldwide Grand Tour; the article identifies his later post as Defence Against the Dark Arts.
 - `ext-a31-002` (A31, Professor Quirrell): Voldemort immediately possessed Quirrell after learning that he held a Hogwarts position, turning an incumbent teacher into an internal threat.
 - `ext-a32-005` (A32, Gilderoy Lockhart): During Lockhart's appointment period, the Defence Against the Dark Arts post was reportedly difficult to fill as rumours of a curse gained traction.
+- `ext-a33-003` (A33, Sybill Trelawney): Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
+- `ext-a35-001` (A35, Draco Malfoy): Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
 - `gof-ch01-001` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter supplies Muggle-side evidence around the Riddle family deaths: a strange unexplained triple death, Frank Bryce's disputed sighting of a teenage stranger, and a medical report that could not identify a natural or physical cause.
 - `gof-ch01-003` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter establishes Bertha Jorkins as a Ministry information source for Voldemort's plan and gives a concrete claim that strong magical questioning can overcome Memory Charms.
 - `gof-ch01-005` (Harry Potter and the Goblet of Fire, Chapter One - The Riddle House): The chapter independently shows Voldemort communicating with Nagini in snake language, corroborating earlier Parseltongue and Slytherin-heir evidence outside the Chamber context.

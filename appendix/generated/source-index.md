@@ -255,3 +255,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A30`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny, 3 entries, 0 explicit references.
 - `A31`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell, 3 entries, 0 explicit references.
 - `A32`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, 7 entries, 0 explicit references.
+- `A33`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney, 3 entries, 0 explicit references.
+- `A34`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, 4 entries, 0 explicit references.
+- `A35`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy, 2 entries, 0 explicit references.

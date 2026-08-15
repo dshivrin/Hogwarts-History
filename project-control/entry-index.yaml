@@ -22763,6 +22763,121 @@ by_entry:
     - unqualified-teaching
     source_unit: A32
     output_yaml: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+  ext-a33-001:
+    title: 'Staff Appointments and Protective Patronage: Trelawney''s protected appointment'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - dumbledore
+    - hogwarts-staff
+    - prophecy
+    - staff-protection
+    - trelawney
+    source_unit: A33
+    output_yaml: sources/external/official-rowling/a33-sybill-trelawney.yaml
+  ext-a33-002:
+    title: 'Staff Culture and Accommodation: Trelawney''s isolated tower office'
+    classification: post_1984_excluded_from_original
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - hogwarts-staff
+    - staff-isolation
+    - staff-status
+    - tower-office
+    - trelawney
+    source_unit: A33
+    output_yaml: sources/external/official-rowling/a33-sybill-trelawney.yaml
+  ext-a33-003:
+    title: 'Ministry Intervention in School Governance: Attempted removal of Trelawney'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - staff-dismissal
+    - staff-governance
+    - trelawney
+    - umbridge
+    source_unit: A33
+    output_yaml: sources/external/official-rowling/a33-sybill-trelawney.yaml
+  ext-a34-001:
+    title: 'Notable Pupils and Alumni: Dolores Umbridge''s School Record'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - hogwarts-pupil
+    - positions-of-responsibility
+    - student-leadership
+    source_unit: A34
+    output_yaml: sources/external/official-rowling/a34-dolores-umbridge.yaml
+  ext-a34-002:
+    title: 'Ministry Intervention and School Governance: Umbridge''s Inquisitorial
+      Appointment'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - inquisitor
+    - ministry-intervention
+    - school-governance
+    source_unit: A34
+    output_yaml: sources/external/official-rowling/a34-dolores-umbridge.yaml
+  ext-a34-003:
+    title: 'Discipline and Ministry Interference: Umbridge''s Abusive Detention'
+    classification: post_1984_excluded_from_original
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - blood-quill
+    - detention
+    - dolores-umbridge
+    - ministry-intervention
+    - school-discipline
+    source_unit: A34
+    output_yaml: sources/external/official-rowling/a34-dolores-umbridge.yaml
+  ext-a34-004:
+    title: 'Ministry Intervention and School Governance: Limits of Inquisitorial Authority'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dolores-umbridge
+    - ministry-intervention
+    - school-governance
+    - staff-authority
+    source_unit: A34
+    output_yaml: sources/external/official-rowling/a34-dolores-umbridge.yaml
+  ext-a35-001:
+    title: 'The Umbridge Interregnum: Student Enforcement and Proscribed Associations'
+    classification: post_1984_excluded_from_original
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - draco-malfoy
+    - dumbledores-army
+    - hogwarts
+    - inquisitorial-squad
+    - prefect
+    source_unit: A35
+    output_yaml: sources/external/official-rowling/a35-draco-malfoy.yaml
+  ext-a35-002:
+    title: 'The 1997 Breach of Hogwarts: Death Eater Infiltration and the Astronomy
+      Tower'
+    classification: post_1984_excluded_from_original
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - astronomy-tower
+    - death-eaters
+    - draco-malfoy
+    - dumbledore
+    - hogwarts
+    source_unit: A35
+    output_yaml: sources/external/official-rowling/a35-draco-malfoy.yaml
 by_tag:
   '1402':
   - ext-a25-003
@@ -23203,6 +23318,7 @@ by_tag:
   - ootp-ch31-006
   astronomy-tower:
   - beedle-fm-005
+  - ext-a35-002
   - hbp-ch27-002
   - hbp-ch27-003
   - hbp-ch27-004
@@ -23542,6 +23658,7 @@ by_tag:
   blood-purity:
   - beedle-ch02-007
   blood-quill:
+  - ext-a34-003
   - ootp-ch13-006
   blood-replenishing-potion:
   - ootp-ch22-007
@@ -24777,6 +24894,7 @@ by_tag:
   - dh-ch32-001
   - dh-ch34-006
   - dh-ch34-007
+  - ext-a35-002
   - gof-ch09-001
   - gof-ch09-004
   - gof-ch09-007
@@ -25062,6 +25180,7 @@ by_tag:
   - cos-ch05-005
   - cos-ch07-006
   - ext-a32-003
+  - ext-a34-003
   - gof-ch13-006
   - gof-ch18-004
   - hbp-ch15-007
@@ -25215,6 +25334,10 @@ by_tag:
   dolohov:
   - dh-ch09-003
   dolores-umbridge:
+  - ext-a34-001
+  - ext-a34-002
+  - ext-a34-003
+  - ext-a34-004
   - hbp-ch04-004
   - hbp-ch05-004
   - ootp-ch08-006
@@ -25258,6 +25381,8 @@ by_tag:
   - cos-ch04-004
   - dh-ch24-005
   - dh-ch33-006
+  - ext-a35-001
+  - ext-a35-002
   - hbp-ch02-006
   - hbp-ch06-007
   - hbp-ch07-007
@@ -25347,6 +25472,8 @@ by_tag:
   - dh-ch35-004
   - ext-a14-004
   - ext-a32-006
+  - ext-a33-001
+  - ext-a35-002
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -25553,6 +25680,7 @@ by_tag:
   - dh-ch29-004
   - dh-ch30-007
   - dh-ch32-004
+  - ext-a35-001
   - hbp-ch07-004
   - ootp-ch15-007
   - ootp-ch18-007
@@ -27743,6 +27871,8 @@ by_tag:
   - ext-a21-002
   - ext-a21-003
   - ext-a25-007
+  - ext-a35-001
+  - ext-a35-002
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -27930,6 +28060,8 @@ by_tag:
   - cos-ch01-003
   hogwarts-orientation:
   - hbp-ch13-004
+  hogwarts-pupil:
+  - ext-a34-001
   hogwarts-records:
   - hbp-ch25-002
   hogwarts-relations:
@@ -27963,6 +28095,8 @@ by_tag:
   - dh-ch06-003
   - dh-ch11-005
   - ext-a13-001
+  - ext-a33-001
+  - ext-a33-002
   - ps-ch04-001
   hogwarts-student:
   - dh-ch02-001
@@ -28492,7 +28626,10 @@ by_tag:
   - hbp-ch12-005
   inigo-imago:
   - ootp-ch12-005
+  inquisitor:
+  - ext-a34-002
   inquisitorial-squad:
+  - ext-a35-001
   - hbp-ch07-002
   - ootp-ch28-002
   - ootp-ch28-004
@@ -29862,6 +29999,9 @@ by_tag:
   - hbp-ch16-007
   - hbp-ch30-006
   ministry-intervention:
+  - ext-a34-002
+  - ext-a34-003
+  - ext-a34-004
   - gof-ch36-004
   - ootp-ch11-006
   - ootp-ch12-007
@@ -31186,6 +31326,8 @@ by_tag:
   - poa-ch08-007
   - poa-ch11-006
   - ps-ch08-001
+  positions-of-responsibility:
+  - ext-a34-001
   possession:
   - cos-ch17-002
   - ext-a31-002
@@ -31326,6 +31468,7 @@ by_tag:
   prefect:
   - ext-a10-002
   - ext-a12-002
+  - ext-a35-001
   prefect-carriage:
   - hbp-ch07-002
   prefect-lists:
@@ -31584,6 +31727,7 @@ by_tag:
   - dh-ch12-006
   prophecy:
   - dh-ch22-001
+  - ext-a33-001
   - gof-ch10-005
   - hbp-ch05-005
   - hbp-ch07-003
@@ -32293,6 +32437,7 @@ by_tag:
   - ootp-ch11-004
   school-discipline:
   - dh-ch29-002
+  - ext-a34-003
   - gof-ch05-004
   - gof-ch13-006
   - hbp-ch13-005
@@ -32331,6 +32476,8 @@ by_tag:
   - beedle-ch02-009
   - cos-ch12-006
   - cos-ch18-005
+  - ext-a34-002
+  - ext-a34-004
   - gof-ch36-005
   - ootp-ch09-001
   - ootp-ch11-006
@@ -33359,6 +33506,7 @@ by_tag:
   - poa-ch05-007
   - poa-ch17-003
   staff-authority:
+  - ext-a34-004
   - ootp-ch11-006
   staff-authorization:
   - cos-ch11-003
@@ -33373,6 +33521,7 @@ by_tag:
   - beedle-ch02-006
   - ext-a13-002
   staff-dismissal:
+  - ext-a33-003
   - ootp-ch26-006
   - ootp-ch30-005
   staff-duties:
@@ -33384,6 +33533,7 @@ by_tag:
   staff-expertise:
   - poa-ch08-005
   staff-governance:
+  - ext-a33-003
   - gof-ch24-007
   staff-history:
   - gof-ch27-005
@@ -33402,6 +33552,8 @@ by_tag:
   - ootp-ch25-004
   staff-investigation:
   - hbp-ch19-003
+  staff-isolation:
+  - ext-a33-002
   staff-memory:
   - poa-ch10-006
   staff-offices:
@@ -33413,6 +33565,8 @@ by_tag:
   - hbp-ch17-004
   staff-permission:
   - cos-ch07-002
+  staff-protection:
+  - ext-a33-001
   staff-protections:
   - ps-ch14-003
   staff-reporting:
@@ -33436,6 +33590,8 @@ by_tag:
   - hbp-ch04-004
   staff-search:
   - poa-ch09-002
+  staff-status:
+  - ext-a33-002
   staff-substitution:
   - hbp-ch11-004
   - ootp-ch10-006
@@ -33659,6 +33815,7 @@ by_tag:
   - hbp-ch19-006
   student-leadership:
   - cos-ch04-005
+  - ext-a34-001
   - gof-ch05-001
   - hbp-ch06-001
   - hbp-ch11-003
@@ -34364,6 +34521,8 @@ by_tag:
   - hbp-ch30-006
   tower-dormitory:
   - cos-ch01-001
+  tower-office:
+  - ext-a33-002
   tower-stairs:
   - hbp-ch29-004
   trace:
@@ -34430,6 +34589,9 @@ by_tag:
   travers:
   - dh-ch05-005
   trelawney:
+  - ext-a33-001
+  - ext-a33-002
+  - ext-a33-003
   - hbp-ch25-003
   trick-step:
   - gof-ch25-005
@@ -34549,6 +34711,7 @@ by_tag:
   umbridge:
   - dh-ch11-007
   - dh-ch13-003
+  - ext-a33-003
   - hbp-ch07-004
   - ootp-ch16-003
   - ootp-ch16-004

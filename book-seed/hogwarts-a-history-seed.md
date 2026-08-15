@@ -8666,6 +8666,19 @@ Summary: The available evidence includes 1 source item, led by: Hermione finds t
   - Corroborates: `dh-ch21-006`. dh-ch21-006 records Xenophilius's Peverell-origin claim; this entry adds Hermione's genealogy lookup and Harry's Gaunt-ring connection.
   - Notes: The Peverell-Hallows connection remains partly inferential at this point, and Nature's Nobility is summarized rather than quoted directly.
 
+### Chapter: Staff Appointments and Protective Patronage
+
+#### Section: Trelawney's protected appointment
+
+Summary: The available evidence includes 1 source item, led by: After Trelawney's interview revelation, Dumbledore kept her at Hogwarts as protective sanctuary while hoping for later genuine predictions.
+
+- **Supporting evidence:** After Trelawney's interview revelation, Dumbledore kept her at Hogwarts as protective sanctuary while hoping for later genuine predictions.
+  - Quote: "Dumbledore gave her sanctuary at the school, partly to protect her."
+  - Source: A33, https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney, `sources/external/official-rowling/a33-sybill-trelawney.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The exact appointment date is unstated; the pre-1984 placement follows the source's interview-backstory framing and must not be read as a general employment rule.
+
 ### Chapter: The Dumbledore Family Before Hogwarts Headmastership
 
 #### Section: Ariana's attack and family concealment
@@ -10684,6 +10697,19 @@ Summary: The available evidence includes 1 source item, led by: A formal Astrono
   - Corroborates: `ootp-ch30-005`, `ootp-ch26-006`, `ootp-ch30-004`. ootp-ch30-005 records Hagrid expecting dismissal, ootp-ch26-006 records Trelawney's dismissal and castle-residence dispute, and ootp-ch30-004 records covert Hagrid movement under Umbridge pressure; this entry adds the actual nighttime seizure attempt and McGonagall's injury.
   - Notes: Student witnesses observe from the Astronomy Tower at a distance, though the spellfire, dialogue, and aftermath are directly visible or audible.
 
+### Chapter: Ministry Intervention in School Governance
+
+#### Section: Attempted removal of Trelawney
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
+
+- **Context:** Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
+  - Quote: "Dolores Umbridge attempted to oust Sybill from the school."
+  - Source: A33, https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney, `sources/external/official-rowling/a33-sybill-trelawney.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: This authorial retrospective names the event but does not set out its formal legal or administrative mechanism.
+
 ### Chapter: Ministry Oversight and Student Hearings
 
 #### Section: Visitor entry after hours and security gaps
@@ -11099,6 +11125,19 @@ Summary: The available evidence includes 1 source item, led by: A Daily Prophet 
   - Corroborates: `dh-ch02-006`, `dh-ch08-005`, `dh-ch08-006`. Likely continuation of the prior Skeeter biography, Ariana nonattendance, and Bathilda-source entries; this chapter adds the serialized extract text and the previewed Hogwarts installment.
   - Notes: Skeeter's account is explicitly suspect and should not be treated as a reliable finding about Ariana without later corroboration.
 
+### Chapter: Staff Culture and Accommodation
+
+#### Section: Trelawney's isolated tower office
+
+Summary: The available evidence includes 1 source item, led by: Trelawney is described as socially separate from the other teachers and based in a stuffy, overcrowded tower office.
+
+- **Context:** Trelawney is described as socially separate from the other teachers and based in a stuffy, overcrowded tower office.
+  - Quote: "Sybill spends most of her time apart from her colleagues."
+  - Source: A33, https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney, `sources/external/official-rowling/a33-sybill-trelawney.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The source supplies no date and presents a character-focused account; it cannot establish a general Hogwarts rule about teacher housing or staff hierarchy.
+
 ### Chapter: Staff, Subjects, and Ministry Inspection
 
 #### Section: Divination inspection and teacher credentials
@@ -11222,6 +11261,19 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore addre
   - Classification: later_editorial_note | Confidence: high
   - Reference type: institutional_custom
   - Notes: The passage reports Dumbledore's breakfast address indirectly through Ron and Hermione rather than quoting it.
+
+### Chapter: The 1997 Breach of Hogwarts
+
+#### Section: Death Eater Infiltration and the Astronomy Tower
+
+Summary: The available evidence includes 1 source item, led by: Rowling attributes the successful admission of a group of Death Eaters into Hogwarts to Draco’s plan; Dumbledore was subsequently killed by Snape, not Draco.
+
+- **Context:** Rowling attributes the successful admission of a group of Death Eaters into Hogwarts to Draco’s plan; Dumbledore was subsequently killed by Snape, not Draco.
+  - Quote: "introduce a whole group of Death Eaters into Hogwarts"
+  - Source: A35, https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy, `sources/external/official-rowling/a35-draco-malfoy.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The source is retrospective and gives no technical account of the access method or Hogwarts’ protective failures; the event is Harry-era and excluded from the pre-1984 original.
 
 ### Chapter: The Battle of Hogwarts and Its Aftermath
 
@@ -11977,6 +12029,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reve
   - Reference type: security_or_protection
   - Corroborates: `gof-ch18-005`. gof-ch18-005 flags Rita Skeeter's distorted tournament coverage and press access; this entry adds the concealed Animagus method and the later containment that stopped her reporting.
   - Notes: Hermione's account is retrospective, and the passage does not show staff discovering the breach at the time.
+
+### Chapter: The Umbridge Interregnum
+
+#### Section: Student Enforcement and Proscribed Associations
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
+
+- **Context:** Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
+  - Quote: "He became a member of Dolores Umbridge’s Inquisitorial Squad."
+  - Source: A35, https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy, `sources/external/official-rowling/a35-draco-malfoy.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: This retrospective official account identifies Draco’s role but does not specify the Squad’s formal powers, rules, or full membership; the event is Harry-era only.
 
 ### Chapter: The War Beyond the Gates
 
@@ -16561,6 +16626,17 @@ Summary: The available evidence includes 1 source item, led by: Lockhart was ass
 
 ### Chapter: Notable Pupils and Alumni
 
+#### Section: Dolores Umbridge's School Record
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's retrospective school biography says she held no positions of responsibility while a Hogwarts pupil.
+
+- **Supporting evidence:** Umbridge's retrospective school biography says she held no positions of responsibility while a Hogwarts pupil.
+  - Quote: "She had been overlooked for all positions of responsibility."
+  - Source: A34, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, `sources/external/official-rowling/a34-dolores-umbridge.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The 2015 retrospective gives no school dates or office names; the pre-1984 classification follows the biographical chronology rather than an explicit date.
+
 #### Section: Gilderoy Lockhart's Ravenclaw Years
 
 Summary: The available evidence includes 1 source item, led by: Lockhart was sorted into Ravenclaw and initially performed well academically at Hogwarts.
@@ -16796,6 +16872,45 @@ Summary: The available evidence includes 1 source item, led by: During Lockhart'
   - Classification: post_1984_excluded_from_original | Confidence: high
   - Reference type: historical_claim
   - Notes: This is a Rowling retrospective about the later Harry-era; it characterizes a rumour gathering strength and does not establish the curse independently.
+
+### Chapter: Discipline and Ministry Interference
+
+#### Section: Umbridge's Abusive Detention
+
+Summary: The available evidence includes 1 source item, led by: During a Hogwarts detention, Umbridge compelled Harry to cut 'I must not tell lies' into the back of his hand, leaving a permanent scar.
+
+- **Corroboration:** During a Hogwarts detention, Umbridge compelled Harry to cut 'I must not tell lies' into the back of his hand, leaving a permanent scar.
+  - Quote: "She forced him to cut the words 'I must not tell lies' on the back of his own hand during detention."
+  - Source: A34, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, `sources/external/official-rowling/a34-dolores-umbridge.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ootp-ch13-006`. ootp-ch13-006 records the same blood-quill detention; this retrospective additionally notes the permanent scar and later Ministry non-accountability.
+  - Notes: The source supplies no detention date or procedural record; it describes an exceptional abuse rather than an ordinary school policy, and the event is Harry-era.
+
+### Chapter: Ministry Intervention and School Governance
+
+#### Section: Limits of Inquisitorial Authority
+
+Summary: The available evidence includes 1 source item, led by: Umbridge's Hogwarts tenure ended after she exceeded the remit that Minister Fudge had granted her.
+
+- **Context:** Umbridge's Hogwarts tenure ended after she exceeded the remit that Minister Fudge had granted her.
+  - Quote: "She overreached the remit Fudge had given her."
+  - Source: A34, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, `sources/external/official-rowling/a34-dolores-umbridge.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This later retrospective evaluates her remit without naming the governing decree or stating the exact act that exceeded it; the Hogwarts episode is post-1984.
+
+#### Section: Umbridge's Inquisitorial Appointment
+
+Summary: The available evidence includes 1 source item, led by: Umbridge was appointed Hogwarts Inquisitor, a Ministry-backed role that placed her in authority at the school.
+
+- **Corroboration:** Umbridge was appointed Hogwarts Inquisitor, a Ministry-backed role that placed her in authority at the school.
+  - Quote: "Dolores's appointment as Inquisitor at Hogwarts gave full scope."
+  - Source: A34, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, `sources/external/official-rowling/a34-dolores-umbridge.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ootp-ch15-001`. The Prophet account in ootp-ch15-001 records the same Ministry-created High Inquisitor role; this official retrospective supplies Umbridge's stated personal motive.
+  - Notes: The snapshot calls the office Inquisitor and supplies no decree number or precise appointment date; the event belongs to the Harry-era school and cannot evidence the original 1984 edition.
 
 ## Part: Part V - Magical Creatures, Beings, and Dark Forces
 

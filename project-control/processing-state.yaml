@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A33
-  title: Sybill Trelawney
+  id: A36
+  title: Scottish Rugby
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
-  output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
-  staging_file: work/external-staging/a33.yaml
-  manifest_id: external-A33
+  input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+  output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
+  staging_file: work/external-staging/a36.yaml
+  manifest_id: external-A36
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 31
+    pending: 28
     in_progress: 0
-    done: 32
+    done: 35
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A33
-    title: Sybill Trelawney
+    id: A36
+    title: Scottish Rugby
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
-    output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
-    staging_file: work/external-staging/a33.yaml
-    manifest_id: external-A33
+    input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+    output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
+    staging_file: work/external-staging/a36.yaml
+    manifest_id: external-A36
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A32
-    title: Gilderoy Lockhart
+    id: A35
+    title: Draco Malfoy
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
-    output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
-    staging_file: work/external-staging/a32.yaml
-    manifest_id: external-A32
+    input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+    output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
+    staging_file: work/external-staging/a35.yaml
+    manifest_id: external-A35
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A32
-  title: Gilderoy Lockhart
+  id: A35
+  title: Draco Malfoy
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
-  output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
-  staging_file: work/external-staging/a32.yaml
-  manifest_id: external-A32
+  input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+  output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
+  staging_file: work/external-staging/a35.yaml
+  manifest_id: external-A35
   claimed_by: null
   claimed_at: null

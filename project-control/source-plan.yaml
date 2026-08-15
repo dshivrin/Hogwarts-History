@@ -1697,16 +1697,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
     manifest_id: external-A33
     output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:34:54Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:29:21Z'
+      agent: source-agent-a33
+    - event: completed
+      at: '2026-08-15T16:34:54Z'
     staging_file: work/external-staging/a33.yaml
   - id: A34
     title: Dolores Umbridge
@@ -1716,16 +1721,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
     manifest_id: external-A34
     output_file: sources/external/official-rowling/a34-dolores-umbridge.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:36:56Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:29:21Z'
+      agent: source-agent-a34
+    - event: completed
+      at: '2026-08-15T16:36:56Z'
     staging_file: work/external-staging/a34.yaml
   - id: A35
     title: Draco Malfoy
@@ -1735,16 +1745,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
     manifest_id: external-A35
     output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:38:53Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:29:22Z'
+      agent: source-agent-a35
+    - event: completed
+      at: '2026-08-15T16:38:53Z'
     staging_file: work/external-staging/a35.yaml
   - id: A36
     title: Scottish Rugby
