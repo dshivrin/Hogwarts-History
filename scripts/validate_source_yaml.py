@@ -8,19 +8,42 @@ from pathlib import Path
 import re
 import sys
 from typing import Iterable
+import hashlib
 
 import yaml
+
+try:
+    from scripts.source_files import discover_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    from source_files import discover_source_yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
-SOURCE_UNIT_REQUIRED = {
+BOOK_SOURCE_UNIT_REQUIRED = {
     "source_file",
     "book",
     "chapter",
     "chapter_start_pdf_page",
     "chapter_end_pdf_page",
     "processed_date",
+}
+EXTERNAL_SOURCE_UNIT_REQUIRED = {
+    "source_kind",
+    "source_id",
+    "source_file",
+    "title",
+    "author",
+    "source_site",
+    "source_class",
+    "authority",
+    "publication_date",
+    "original_url",
+    "retrieval_url",
+    "capture_completeness",
+    "content_sha256",
+    "processed_date",
+    "processor_notes",
 }
 ENTRY_REQUIRED = {
     "id",
@@ -38,10 +61,26 @@ ENTRY_REQUIRED = {
     "confidence",
     "limitations",
 }
+EXTERNAL_ENTRY_REQUIRED = {
+    "source_file",
+    "source_id",
+    "source_url",
+    "source_section",
+    "printed_page",
+    "extracted_text_lines",
+    "nearby_context",
+    "match_terms",
+    "reason_for_placement",
+    "relevance_to_hogwarts_a_history",
+}
 CONFIDENCE_VALUES = {"high", "medium", "low"}
-SOURCE_NAME_RE = re.compile(
+BOOK_SOURCE_NAME_RE = re.compile(
     r"^book-(?:\d{2}|qtta|beedle)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
 )
+EXTERNAL_SOURCE_NAME_RE = re.compile(
+    r"^external/(?:official-rowling|interviews)/[a-z0-9-]+\.yaml$"
+)
+SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -97,6 +136,91 @@ def rel(path: Path, root: Path) -> str:
         return path.as_posix()
 
 
+def snapshot_body_sha256(path: Path) -> tuple[dict, str]:
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---\n"):
+        raise ValueError("snapshot is missing YAML front matter")
+    _, header, body = text.split("---\n", 2)
+    metadata = yaml.safe_load(header) or {}
+    if not isinstance(metadata, dict):
+        raise ValueError("snapshot front matter must be a mapping")
+    rendered = body.lstrip("\n")
+    if "\n\n" not in rendered:
+        raise ValueError("snapshot is missing the body after its title")
+    source_body = rendered.split("\n\n", 1)[1].rstrip("\n")
+    return metadata, hashlib.sha256(source_body.encode("utf-8")).hexdigest()
+
+
+def validate_external_source_unit(
+    root: Path,
+    rel_path: str,
+    source_unit: dict,
+    entries: list,
+) -> list[str]:
+    errors: list[str] = []
+    source_id = str(source_unit.get("source_id") or "")
+    if not re.fullmatch(r"[AB]\d{2}", source_id):
+        errors.append(f"{rel_path}: source_unit source_id must match A01 or B01 form")
+    if source_unit.get("capture_completeness") != "complete":
+        errors.append(f"{rel_path}: source_unit capture_completeness must be 'complete'")
+    if not source_unit.get("retrieval_url"):
+        errors.append(f"{rel_path}: source_unit retrieval_url must be populated")
+
+    expected_hash = str(source_unit.get("content_sha256") or "")
+    if not SHA256_RE.fullmatch(expected_hash):
+        errors.append(f"{rel_path}: source_unit content_sha256 must be 64 lowercase hex characters")
+
+    source_file = str(source_unit.get("source_file") or "")
+    snapshot_path = root / source_file
+    if not source_file or not snapshot_path.is_file():
+        errors.append(f"{rel_path}: external snapshot does not exist: {source_file!r}")
+    else:
+        try:
+            metadata, actual_hash = snapshot_body_sha256(snapshot_path)
+        except Exception as exc:
+            errors.append(f"{rel_path}: invalid external snapshot: {exc}")
+        else:
+            if actual_hash != expected_hash:
+                errors.append(f"{rel_path}: content_sha256 does not match snapshot body")
+            if metadata.get("sha256") != actual_hash:
+                errors.append(f"{rel_path}: snapshot sha256 does not match snapshot body")
+            if metadata.get("id") != source_id:
+                errors.append(f"{rel_path}: snapshot id does not match source_unit source_id")
+            if metadata.get("capture_completeness") != source_unit.get(
+                "capture_completeness"
+            ):
+                errors.append(
+                    f"{rel_path}: snapshot capture_completeness does not match source_unit"
+                )
+
+    for index, entry in enumerate(entries, start=1):
+        if not isinstance(entry, dict):
+            continue
+        label = f"{rel_path}: entry {index}"
+        missing = sorted(EXTERNAL_ENTRY_REQUIRED - set(entry))
+        if missing:
+            errors.append(f"{label}: missing {', '.join(missing)}")
+        expected_id_prefix = f"ext-{source_id.lower()}-"
+        if not re.fullmatch(rf"{re.escape(expected_id_prefix)}\d{{3}}", str(entry.get("id") or "")):
+            errors.append(f"{label}: external id must match {expected_id_prefix}NNN")
+        if entry.get("source_id") != source_id:
+            errors.append(f"{label}: source_id must match source_unit source_id")
+        if entry.get("source_file") != source_file:
+            errors.append(f"{label}: source_file must match source_unit source_file")
+        if not entry.get("source_url"):
+            errors.append(f"{label}: source_url must be populated")
+        for locator in ("pdf_page", "printed_page", "extracted_text_lines"):
+            if entry.get(locator) is not None:
+                errors.append(f"{label}: {locator} must be null for external evidence")
+        anchor = entry.get("text_anchor")
+        if not isinstance(anchor, dict) or not all(
+            anchor.get(key)
+            for key in ("start_phrase", "end_phrase", "local_occurrence_note")
+        ):
+            errors.append(f"{label}: text_anchor must contain start, end, and occurrence notes")
+    return errors
+
+
 def validate_source_files(
     root: Path,
     strict: bool,
@@ -107,13 +231,15 @@ def validate_source_files(
     seen_ids: dict[str, Path] = {}
     duplicate_refs: list[tuple[Path, str, str]] = []
 
-    for path in sorted((root / "sources").glob("book-*/*.yaml")):
+    for path in discover_source_yaml(root):
         rel_path = rel(path, root)
         source_name = path.relative_to(root / "sources").as_posix()
-        if not SOURCE_NAME_RE.match(source_name):
+        is_external = source_name.startswith("external/")
+        name_re = EXTERNAL_SOURCE_NAME_RE if is_external else BOOK_SOURCE_NAME_RE
+        if not name_re.match(source_name):
             errors.append(
                 f"{rel_path}: source YAML filename must be "
-                "book-XX/chapter-XX-slug.yaml or a supported named companion group"
+                "a supported book chapter or external evidence path"
             )
         try:
             data = load_yaml(path)
@@ -130,12 +256,16 @@ def validate_source_files(
             errors.append(f"{rel_path}: missing source_unit mapping")
             source_unit = {}
         else:
-            missing = sorted(SOURCE_UNIT_REQUIRED - set(source_unit))
+            required = EXTERNAL_SOURCE_UNIT_REQUIRED if is_external else BOOK_SOURCE_UNIT_REQUIRED
+            missing = sorted(required - set(source_unit))
             if missing:
                 errors.append(f"{rel_path}: source_unit missing {', '.join(missing)}")
         if not isinstance(entries, list):
             errors.append(f"{rel_path}: entries must be a list")
             continue
+
+        if is_external:
+            errors.extend(validate_external_source_unit(root, rel_path, source_unit, entries))
 
         for index, entry in enumerate(entries, start=1):
             label = f"{rel_path}: entry {index}"
@@ -208,7 +338,7 @@ def validate_generated_files(root: Path) -> list[str]:
 
 def count_source_entries(root: Path) -> int:
     count = 0
-    for path in sorted((root / "sources").glob("book-*/*.yaml")):
+    for path in discover_source_yaml(root):
         try:
             data = load_yaml(path)
         except Exception:

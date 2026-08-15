@@ -213,7 +213,7 @@
 
 ### Task 3: Extend canonical validation for external web evidence
 
-**Status:** in_progress
+**Status:** done
 
 **Files:**
 - Modify: `scripts/validate_source_yaml.py`
@@ -293,7 +293,7 @@
 
 ### Task 4: Build the manifest-derived lock-safe queue controller
 
-**Status:** pending
+**Status:** in_progress
 
 **Files:**
 - Create: `scripts/external_sources/queue.py`

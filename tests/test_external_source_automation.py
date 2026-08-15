@@ -147,5 +147,128 @@ class SourceDiscoveryAndRenderingTests(unittest.TestCase):
         self.assertNotIn("PDF p. None", rendered)
 
 
+class ExternalValidationTests(unittest.TestCase):
+    def write_external_fixture(
+        self,
+        root: Path,
+        *,
+        content_sha256: str | None = None,
+        pdf_page: int | None = None,
+    ) -> Path:
+        body = "Evidence body."
+        digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+        snapshot_relative = "resources/external/a01-example.md"
+        snapshot = root / snapshot_relative
+        snapshot.parent.mkdir(parents=True, exist_ok=True)
+        snapshot.write_text(
+            "---\n"
+            "id: A01\n"
+            "capture_completeness: complete\n"
+            f"sha256: {digest}\n"
+            "---\n\n"
+            "# Example\n\n"
+            f"{body}\n",
+            encoding="utf-8",
+        )
+        output = root / "sources/external/official-rowling/a01-example.yaml"
+        output.parent.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "source_unit": {
+                "source_kind": "external_markdown",
+                "source_id": "A01",
+                "source_file": snapshot_relative,
+                "title": "Example",
+                "author": "J.K. Rowling",
+                "source_site": "Example",
+                "source_class": "official_rowling_original",
+                "authority": "A",
+                "publication_date": "2015-08-10",
+                "original_url": "https://example.test/a01",
+                "retrieval_url": "https://example.test/a01",
+                "capture_completeness": "complete",
+                "content_sha256": content_sha256 or digest,
+                "processed_date": "2026-08-15",
+                "processor_notes": "Complete snapshot read.",
+            },
+            "entries": [
+                {
+                    "id": "ext-a01-001",
+                    "source_file": snapshot_relative,
+                    "source_id": "A01",
+                    "source_url": "https://example.test/a01",
+                    "source_section": None,
+                    "pdf_page": pdf_page,
+                    "printed_page": None,
+                    "extracted_text_lines": None,
+                    "text_anchor": {
+                        "start_phrase": "Evidence",
+                        "end_phrase": "body.",
+                        "local_occurrence_note": "Only body paragraph.",
+                    },
+                    "nearby_context": "Example context.",
+                    "match_terms": ["evidence"],
+                    "quote_excerpt_short": "Evidence body.",
+                    "source_note": "The source contains evidence.",
+                    "reference_type": "historical_claim",
+                    "era_classification": "pre_1984_historical_candidate",
+                    "topic_tags": ["hogwarts", "history", "example"],
+                    "candidate_part": "Origins",
+                    "candidate_chapter": "Example chapter",
+                    "candidate_section": "Example section",
+                    "reason_for_placement": "It is historical evidence.",
+                    "relevance_to_hogwarts_a_history": "Supports the example section.",
+                    "duplicate_check": {
+                        "possible_duplicate": False,
+                        "duplicate_of": None,
+                        "notes": "Indexed lookup found no match.",
+                    },
+                    "confidence": "high",
+                    "limitations": "Test carrier only.",
+                }
+            ],
+        }
+        output.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True),
+            encoding="utf-8",
+        )
+        return output
+
+    def validate_fixture(self, root: Path) -> list[str]:
+        validator = importlib.import_module("scripts.validate_source_yaml")
+        return validator.validate_source_files(
+            root,
+            False,
+            {"historical_claim"},
+            {"pre_1984_historical_candidate"},
+        )
+
+    def test_valid_external_yaml_with_web_locators_is_accepted(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self.write_external_fixture(root)
+            errors = self.validate_fixture(root)
+
+        self.assertEqual(errors, [])
+
+    def test_external_hash_mismatch_and_pdf_locator_are_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self.write_external_fixture(root, content_sha256="0" * 64, pdf_page=7)
+            errors = self.validate_fixture(root)
+
+        joined = "\n".join(errors)
+        self.assertIn("content_sha256 does not match snapshot body", joined)
+        self.assertIn("pdf_page must be null for external evidence", joined)
+
+    def test_external_entries_are_counted_with_book_entries(self) -> None:
+        validator = importlib.import_module("scripts.validate_source_yaml")
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self.write_external_fixture(root)
+            count = validator.count_source_entries(root)
+
+        self.assertEqual(count, 1)
+
+
 if __name__ == "__main__":
     unittest.main()
