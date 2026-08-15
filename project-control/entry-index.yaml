@@ -20934,6 +20934,148 @@ by_entry:
     - wizarding-university
     source_unit: B01
     output_yaml: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  ext-b02-001:
+    title: 'Student Life and House Identity: Hogwarts Population and Scale'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - hogwarts-enrolment
+    - school-demography
+    - student-population
+    source_unit: B02
+    output_yaml: sources/external/interviews/b02-scholastic-live-chat.yaml
+  ext-b02-002:
+    title: 'Admissions and First-Year Preparation: Education Before Hogwarts'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - attendance-policy
+    - magical-education
+    - muggle-school
+    source_unit: B02
+    output_yaml: sources/external/interviews/b02-scholastic-live-chat.yaml
+  ext-b02-003:
+    title: 'Student Life and House Identity: Quidditch and School Culture'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - quidditch
+    - school-life
+    - school-sport
+    source_unit: B02
+    output_yaml: sources/external/interviews/b02-scholastic-live-chat.yaml
+  ext-b02-004:
+    title: 'Wizarding Society and Muggle Relations: Secrecy, Contact, and Social Prejudice'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - bigotry
+    - magical-muggle-relations
+    - wizarding-society
+    source_unit: B02
+    output_yaml: sources/external/interviews/b02-scholastic-live-chat.yaml
+  ext-b02-005:
+    title: 'Magical Law, Transport, and Secrecy: Apparition Licensing and Enforcement'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - apparition-licensing
+    - magical-transport
+    - ministry-of-magic
+    source_unit: B02
+    output_yaml: sources/external/interviews/b02-scholastic-live-chat.yaml
+  ext-b03-001:
+    title: 'The Castle and Its Enchantments: Changeable internal architecture'
+    classification: original_book_core_candidate
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - castle-floorplan
+    - moving-rooms
+    - moving-staircase
+    source_unit: B03
+    output_yaml: sources/external/interviews/b03-aol-live-chat.yaml
+  ext-b03-002:
+    title: 'Education and Student Life: Teaching staff and appointments'
+    classification: later_editorial_note
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - defense-against-the-dark-arts
+    - faculty
+    - teacher
+    source_unit: B03
+    output_yaml: sources/external/interviews/b03-aol-live-chat.yaml
+  ext-b04-001:
+    title: 'Admissions, Attendance, and Student Life: Pre-Hogwarts Preparation'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - home-education
+    - magical-children
+    - muggle-primary-school
+    - pre-hogwarts-education
+    - weasley-home-schooling
+    source_unit: B04
+    output_yaml: sources/external/interviews/b04-world-book-day-live-chat.yaml
+  ext-b04-002:
+    title: 'Site, Wards, and Public Concealment: Muggle-Facing Appearance'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - enchanted-signage
+    - hogwarts-concealment
+    - muggle-perception
+    - ruined-castle
+    - school-concealment
+    source_unit: B04
+    output_yaml: sources/external/interviews/b04-world-book-day-live-chat.yaml
+  ext-b04-003:
+    title: 'Admissions, Attendance, and Student Life: Muggle-Family Contact'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - admissions-process
+    - hogwarts-admissions
+    - magical-child-notification
+    - muggle-parents
+    - special-messengers
+    source_unit: B04
+    output_yaml: sources/external/interviews/b04-world-book-day-live-chat.yaml
+  ext-b04-004:
+    title: 'Curriculum, Examinations, and Achievement: O.W.L. Assessment'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: low
+    tags:
+    - academic-standards
+    - examinations
+    - hogwarts-assessment
+    - maximum-owls
+    - owls
+    source_unit: B04
+    output_yaml: sources/external/interviews/b04-world-book-day-live-chat.yaml
+  ext-b04-005:
+    title: 'Hogwarts Alumni and the Marauders Era: House Membership'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - gryffindor
+    - hogwarts-alumni
+    - james-potter
+    - remus-lupin
+    - sirius-black
+    source_unit: B04
+    output_yaml: sources/external/interviews/b04-world-book-day-live-chat.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -23031,6 +23173,8 @@ by_tag:
   - ootp-ch12-002
   - ootp-ch13-003
   - poa-ch16-001
+  academic-standards:
+  - ext-b04-004
   access-control:
   - ootp-ch04-002
   - ootp-ch35-001
@@ -23097,6 +23241,8 @@ by_tag:
   - ps-ch05-002
   admissions-context:
   - beedle-ch04-004
+  admissions-process:
+  - ext-b04-003
   admissions-register:
   - ext-b01-002
   admissions-threshold:
@@ -23342,6 +23488,8 @@ by_tag:
   - hbp-ch28-005
   - ootp-ch03-003
   - ootp-ch23-001
+  apparition-licensing:
+  - ext-b02-005
   apparition-points:
   - gof-ch06-002
   appeals:
@@ -23445,6 +23593,8 @@ by_tag:
   - ootp-ch34-002
   - ootp-ch36-001
   - ootp-ch36-004
+  attendance-policy:
+  - ext-b02-002
   auror:
   - gof-ch19-006
   - hbp-ch05-007
@@ -23704,6 +23854,8 @@ by_tag:
   bezoars:
   - hbp-ch18-001
   - hbp-ch18-007
+  bigotry:
+  - ext-b02-004
   bill-weasley:
   - dh-ch25-001
   - dh-ch25-005
@@ -24109,6 +24261,7 @@ by_tag:
   - dh-ch27-006
   castle-floorplan:
   - ext-b01-003
+  - ext-b03-001
   castle-gates:
   - ootp-ch16-001
   castle-ghosts:
@@ -25098,6 +25251,7 @@ by_tag:
   - cos-ch11-003
   - cos-ch18-007
   - dh-ch12-001
+  - ext-b03-002
   - gof-ch11-001
   - gof-ch12-006
   - gof-ch13-007
@@ -25992,6 +26146,8 @@ by_tag:
   - ootp-ch07-006
   enchanted-quills:
   - hbp-ch06-004
+  enchanted-signage:
+  - ext-b04-002
   enchanted-snow:
   - cos-ch12-003
   enchanted-windows:
@@ -26093,6 +26249,7 @@ by_tag:
   examination-hall:
   - ootp-ch31-004
   examinations:
+  - ext-b04-004
   - hbp-ch09-006
   - hbp-ch22-001
   exams:
@@ -26165,6 +26322,8 @@ by_tag:
   - hbp-ch15-004
   extracurriculars:
   - hbp-ch09-002
+  faculty:
+  - ext-b03-002
   faculty-resistance:
   - ootp-ch28-005
   failed-exams:
@@ -27190,6 +27349,7 @@ by_tag:
   - ext-a20-003
   - ext-a20-004
   - ext-a20-005
+  - ext-b04-005
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -28020,10 +28180,12 @@ by_tag:
   - ootp-ch23-001
   - poa-ch09-001
   hogwarts-admissions:
+  - ext-b04-003
   - hbp-ch13-003
   hogwarts-age:
   - dh-ch23-001
   hogwarts-alumni:
+  - ext-b04-005
   - ootp-ch09-007
   - poa-ch10-006
   hogwarts-animal-policy:
@@ -28032,6 +28194,8 @@ by_tag:
   - beedle-fm-004
   - beedle-fm-005
   - dh-ch07-003
+  hogwarts-assessment:
+  - ext-b04-004
   hogwarts-attendance:
   - dh-ch08-005
   - dh-ch11-004
@@ -28044,12 +28208,16 @@ by_tag:
   - ext-a30-001
   - ext-a30-002
   - ext-a30-003
+  hogwarts-concealment:
+  - ext-b04-002
   hogwarts-correspondence:
   - dh-ch33-004
   hogwarts-danger:
   - cos-ch02-002
   hogwarts-education:
   - hbp-ch07-007
+  hogwarts-enrolment:
+  - ext-b02-001
   hogwarts-ethos:
   - cos-ch14-007
   hogwarts-evacuation:
@@ -28277,6 +28445,7 @@ by_tag:
   - hbp-ch14-002
   home-education:
   - dh-ch11-004
+  - ext-b04-001
   home-life-and-social-habits:
   - poa-ch13-005
   homenum-revelio:
@@ -28906,6 +29075,7 @@ by_tag:
   - qtta-fm-004
   - qtta-fm-005
   james-potter:
+  - ext-b04-005
   - hbp-ch16-005
   - ootp-ch29-006
   - ootp-ch38-005
@@ -29468,6 +29638,10 @@ by_tag:
   - ootp-ch29-003
   magical-celebrations:
   - dh-ch08-001
+  magical-child-notification:
+  - ext-b04-003
+  magical-children:
+  - ext-b04-001
   magical-cleanup:
   - dh-ch09-004
   magical-combat:
@@ -29547,6 +29721,7 @@ by_tag:
   magical-education:
   - ext-a28-001
   - ext-a28-002
+  - ext-b02-002
   - gof-ch09-002
   - gof-ch11-004
   magical-entrance:
@@ -29654,6 +29829,8 @@ by_tag:
   - poa-ch04-005
   magical-mishaps:
   - hbp-ch15-003
+  magical-muggle-relations:
+  - ext-b02-004
   magical-names:
   - ext-a23-002
   magical-oaths:
@@ -29796,6 +29973,7 @@ by_tag:
   - ext-a24-001
   - ext-a24-003
   - ext-a24-004
+  - ext-b02-005
   - gof-ch04-004
   - poa-ch03-002
   magical-transportation:
@@ -29943,6 +30121,8 @@ by_tag:
   - hbp-ch12-005
   - ootp-ch05-002
   - ootp-ch06-001
+  maximum-owls:
+  - ext-b04-004
   maze:
   - gof-ch28-004
   - gof-ch31-002
@@ -30181,6 +30361,7 @@ by_tag:
   - ext-a24-002
   - ext-a24-005
   - ext-a27-002
+  - ext-b02-005
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -30377,12 +30558,14 @@ by_tag:
   - gof-ch02-002
   moving-rooms:
   - ext-b01-003
+  - ext-b03-001
   moving-routes:
   - dh-ch29-005
   moving-staircase:
   - cos-ch11-007
   - cos-ch13-006
   - ext-b01-003
+  - ext-b03-001
   - hbp-ch10-002
   - hbp-ch29-005
   mrs-figg:
@@ -30482,12 +30665,18 @@ by_tag:
   - ext-a19-003
   muggle-newspapers:
   - gof-ch30-007
+  muggle-parents:
+  - ext-b04-003
+  muggle-perception:
+  - ext-b04-002
   muggle-persecution:
   - cos-ch09-003
   muggle-police:
   - hbp-ch01-005
   muggle-post:
   - gof-ch03-002
+  muggle-primary-school:
+  - ext-b04-001
   muggle-prime-minister:
   - dh-ch03-002
   muggle-protection:
@@ -30512,6 +30701,7 @@ by_tag:
   - dh-ch02-001
   - dh-ch18-006
   muggle-school:
+  - ext-b02-002
   - ps-ch02-002
   muggle-schools:
   - dh-ch08-005
@@ -31015,6 +31205,7 @@ by_tag:
   owls:
   - cos-ch04-003
   - ext-a32-004
+  - ext-b04-004
   - gof-ch05-002
   - gof-ch06-003
   - hbp-ch05-006
@@ -31607,6 +31798,8 @@ by_tag:
   pre-hogwarts-childhood:
   - ps-ch02-002
   - ps-ch02-006
+  pre-hogwarts-education:
+  - ext-b04-001
   pre-term-residence:
   - poa-ch03-003
   predictions:
@@ -32045,6 +32238,7 @@ by_tag:
   - cos-ch14-003
   - dh-ch07-005
   - dh-ch10-004
+  - ext-b02-003
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -32314,6 +32508,7 @@ by_tag:
   - ext-a10-002
   - ext-a10-003
   - ext-a10-004
+  - ext-b04-005
   - hbp-ch16-003
   - hbp-ch16-005
   - ootp-ch09-006
@@ -32482,6 +32677,8 @@ by_tag:
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002
+  ruined-castle:
+  - ext-b04-002
   rule-breaking:
   - poa-ch18-005
   rule-enforcement:
@@ -32573,6 +32770,8 @@ by_tag:
   - hbp-ch30-007
   school-closure-threat:
   - cos-ch13-005
+  school-concealment:
+  - ext-b04-002
   school-continuity:
   - cos-ch16-001
   school-correspondence:
@@ -32583,6 +32782,8 @@ by_tag:
   - ootp-ch32-002
   school-danger:
   - ootp-ch11-004
+  school-demography:
+  - ext-b02-001
   school-discipline:
   - dh-ch29-002
   - ext-a34-003
@@ -32692,6 +32893,7 @@ by_tag:
   - poa-ch01-005
   school-life:
   - ext-a32-001
+  - ext-b02-003
   school-list:
   - gof-ch05-006
   - gof-ch10-007
@@ -32834,6 +33036,8 @@ by_tag:
   - ootp-ch30-003
   school-spectators:
   - gof-ch35-001
+  school-sport:
+  - ext-b02-003
   school-sport-safety:
   - qtta-ch04-002
   school-standards:
@@ -33254,6 +33458,7 @@ by_tag:
   - dh-ch10-002
   - dh-ch10-003
   - dh-ch33-005
+  - ext-b04-005
   - gof-ch02-006
   - gof-ch18-001
   - gof-ch19-007
@@ -33555,6 +33760,8 @@ by_tag:
   - dh-ch06-005
   special-awards:
   - cos-ch18-003
+  special-messengers:
+  - ext-b04-003
   specialis-revelio:
   - hbp-ch09-007
   spectator-magic:
@@ -34047,6 +34254,7 @@ by_tag:
   - ext-a15-002
   - ext-a29-001
   - ext-a29-002
+  - ext-b02-001
   student-possessions:
   - gof-ch04-002
   student-practice:
@@ -34361,6 +34569,7 @@ by_tag:
   - poa-ch06-003
   teacher:
   - ext-a06-006
+  - ext-b03-002
   teacher-accountability:
   - poa-ch06-007
   - poa-ch07-002
@@ -35365,6 +35574,8 @@ by_tag:
   - ootp-ch06-006
   weasley-fireworks:
   - ootp-ch28-005
+  weasley-home-schooling:
+  - ext-b04-001
   weasley-products:
   - ootp-ch24-007
   weasleys-wizard-wheezes:
@@ -35621,6 +35832,7 @@ by_tag:
   - beedle-ch01-001
   - beedle-ch01-002
   wizarding-society:
+  - ext-b02-004
   - gof-ch08-003
   wizarding-sport:
   - gof-ch03-001

@@ -5,16 +5,16 @@ Generated display only. Source of truth: `project-control/source-plan.yaml`.
 ## External Source Queue
 
 - Total: 63
-- Pending: 25
+- Pending: 22
 - In progress: 0
-- Done: 38
+- Done: 41
 - Blocked: 0
 
 ## Next Pending Unit
 
-- Unit: `B02` — "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000
-- Input: `resources/external/interviews/accio-quote/b02-scholastic-live-chat.md`
-- Output: `sources/external/interviews/b02-scholastic-live-chat.yaml`
+- Unit: `B05` — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005
+- Input: `resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md`
+- Output: `sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml`
 
 Claim it with `just claim-external <agent> <unit>`.
 

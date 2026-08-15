@@ -224,6 +224,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `qtta-ch10`: Quidditch Through the Ages, Chapter Ten - Quidditch Today, pages 59-64, 2 entries, 0 explicit references.
 - `qtta-ch11`: Quidditch Through the Ages, Back Cover, pages 65-65, 1 entries, 0 explicit references.
 - `B01`: Accio Quote, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, 6 entries, 0 explicit references.
+- `B02`: Accio Quote, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, 5 entries, 0 explicit references.
+- `B03`: Accio Quote, https://www.accio-quote.org/articles/2000/1000-aol-chat.htm, 2 entries, 0 explicit references.
+- `B04`: Accio Quote, https://www.accio-quote.org/articles/2004/0304-wbd.htm, 5 entries, 0 explicit references.
 - `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
 - `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
 - `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.

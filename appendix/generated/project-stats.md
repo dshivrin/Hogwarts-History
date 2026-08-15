@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 255
+- Total: 258
 
 ## Entries by Book or External Source
 
@@ -50,6 +50,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A36 — Scottish Rugby: 2
 - A37 — Extension Charms: 1
 - B01 — Online chat transcript, Scholastic.com , 3 February 2000: 6
+- B02 — "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000: 5
+- B03 — America Online chat transcript, AOL.com , 19 October 2000: 2
+- B04 — JK Rowling's World Book Day Chat, March 4, 2004: 5
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -62,27 +65,27 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 520
-- later_editorial_note: 690
-- original_book_core_candidate: 10
+- harry_era_confirmation: 529
+- later_editorial_note: 691
+- original_book_core_candidate: 11
 - post_1984_excluded_from_original: 30
-- pre_1984_historical_candidate: 278
+- pre_1984_historical_candidate: 279
 - unknown_or_uncertain: 19
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 107
-- curriculum_or_subject: 166
+- curriculum_or_subject: 168
 - direct_observed_setting: 69
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 290
+- historical_claim: 293
 - house_system: 37
-- institutional_custom: 213
-- magical_architecture: 112
+- institutional_custom: 214
+- magical_architecture: 113
 - portrait_or_ghost_lore: 34
-- school_rule_or_policy: 155
-- security_or_protection: 242
+- school_rule_or_policy: 159
+- security_or_protection: 243
 - weak_context_only: 4
 
 ## Explicit `Hogwarts: A History` References
@@ -91,12 +94,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1023
+- Total: 1024
 
 ## Latest Processed Unit
 
-- `B01` — Online chat transcript, Scholastic.com , 3 February 2000, input `resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md`, output `sources/external/interviews/b01-scholastic-com-live-chat.yaml`
+- `B04` — JK Rowling's World Book Day Chat, March 4, 2004, input `resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md`, output `sources/external/interviews/b04-world-book-day-live-chat.yaml`
 
 ## Next Pending Unit
 
-- `B02` — "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000, input `resources/external/interviews/accio-quote/b02-scholastic-live-chat.md`, output `sources/external/interviews/b02-scholastic-live-chat.yaml`
+- `B05` — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005, input `resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md`, output `sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml`

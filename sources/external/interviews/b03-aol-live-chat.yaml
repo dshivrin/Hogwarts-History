@@ -1,0 +1,134 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B03
+  source_file: resources/external/interviews/accio-quote/b03-aol-live-chat.md
+  title: America Online chat transcript, AOL.com , 19 October 2000
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '19 October 2000'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2000/1000-aol-chat.htm
+  capture_completeness: complete
+  content_sha256: 065cbdba7e7a26b52890e51a6ac4f2ad2e8590801422e573612142762c12ef59
+  processed_date: '2026-08-15'
+  processor_notes: Complete preserved transcript read; extracts retain the carrier's preservation-transcription authority and interview-era limitations.
+
+entries:
+  - id: ext-b03-001
+    source_file: resources/external/interviews/accio-quote/b03-aol-live-chat.md
+    source_id: B03
+    source_url: https://www.accio-quote.org/articles/2000/1000-aol-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Ms. Rowling, have you ever made a map or blueprint of the school?
+      end_phrase: if anything moves, I can blame it on magic, not my mistakes.
+      local_occurrence_note: Question and answer after the discussion of character-name origins and before the question about book bans.
+    nearby_context: Rowling explains that shifting staircases, rooms that appear unexpectedly, and other moving features prevent a fixed school map, although she keeps floor notes for continuity.
+    match_terms:
+      - moving-staircase
+      - moving-rooms
+      - castle-floorplan
+    quote_excerpt_short: all those staircases keep shifting around and rooms pop out of nowhere
+    source_note: The transcript attributes the absence of a fixed Hogwarts map or blueprint to shifting staircases, rooms that appear unexpectedly, and other magically moving features.
+    reference_type: magical_architecture
+    era_classification: original_book_core_candidate
+    topic_tags:
+      - castle-floorplan
+      - moving-rooms
+      - moving-staircase
+    candidate_part: Part I — Hogwarts Castle
+    candidate_chapter: The Castle and Its Enchantments
+    candidate_section: Changeable internal architecture
+    reason_for_placement: "Describes why Hogwarts lacks a fixed conventional plan: its internal architecture changes through magic."
+    relevance_to_hogwarts_a_history: Useful as preserved interview-era author commentary on the castle's shifting interior, alongside direct narrative evidence and the independently preserved parallel chat answer.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-b01-003
+      notes: B01 records the same authorial explanation that moving staircases and rooms make a fixed Hogwarts floorplan unsuitable; the remaining candidates provide narrower staircase corroboration.
+      audit:
+        query_tags:
+          - castle-floorplan
+          - moving-rooms
+          - moving-staircase
+        candidates:
+          - id: ext-b01-003
+            disposition: duplicate
+          - id: cos-ch11-007
+            disposition: corroborating
+          - id: cos-ch13-006
+            disposition: corroborating
+          - id: hbp-ch10-002
+            disposition: corroborating
+          - id: hbp-ch29-005
+            disposition: corroborating
+    confidence: medium
+    limitations: Preservation transcription (authority D), not an official first-party page; this informal 2000 answer explains the author’s mapping practice rather than providing a stable technical plan of Hogwarts.
+
+  - id: ext-b03-002
+    source_file: resources/external/interviews/accio-quote/b03-aol-live-chat.md
+    source_id: B03
+    source_url: https://www.accio-quote.org/articles/2000/1000-aol-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Is there ever going to be female Defense Against The Dark Arts teacher?
+      end_phrase: that there WILL be.
+      local_occurrence_note: Brief answer following the discussion of the Patronus spell and before the question about Voldemort's future violence.
+    nearby_context: Rowling responds to a question about the gender of a future Defense Against the Dark Arts teacher, framing the answer as a selective preview amid other unanswered future-book questions.
+    match_terms:
+      - defense-against-the-dark-arts
+      - female-teacher
+      - staff-appointment
+    quote_excerpt_short: there WILL be
+    source_note: The transcript forecasts that a woman will serve as a Defense Against the Dark Arts teacher, without identifying her or specifying a term of service.
+    reference_type: curriculum_or_subject
+    era_classification: later_editorial_note
+    topic_tags:
+      - defense-against-the-dark-arts
+      - faculty
+      - teacher
+    candidate_part: Part II — The School
+    candidate_chapter: Education and Student Life
+    candidate_section: Teaching staff and appointments
+    reason_for_placement: Provides a narrow authorial forecast concerning future staffing of a Hogwarts subject.
+    relevance_to_hogwarts_a_history: Retain only as a later editorial note about an anticipated staff appointment, not as contemporaneous in-universe institutional evidence.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed results concern other Defense Against the Dark Arts staffing, lessons, or materials; none states the forecast of a female teacher.
+      audit:
+        query_tags:
+          - defense-against-the-dark-arts
+          - faculty
+          - teacher
+        candidates:
+          - id: cos-ch04-006
+            disposition: distinct
+          - id: cos-ch06-006
+            disposition: distinct
+          - id: cos-ch06-007
+            disposition: distinct
+          - id: cos-ch07-004
+            disposition: distinct
+          - id: cos-ch11-003
+            disposition: distinct
+          - id: cos-ch18-007
+            disposition: distinct
+          - id: dh-ch12-001
+            disposition: distinct
+          - id: ext-a06-006
+            disposition: distinct
+          - id: gof-ch11-001
+            disposition: distinct
+          - id: gof-ch12-006
+            disposition: distinct
+    confidence: medium
+    limitations: Preservation transcription (authority D), not an official first-party page; this is a 2000 author forecast, not a named appointment or published in-universe record.

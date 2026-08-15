@@ -14,14 +14,14 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B02
-  title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"
-    Scholastic.com , 16 October 2000'
+  id: B05
+  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview
+    Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
   status: pending
-  input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
-  output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
-  staging_file: work/external-staging/b02.yaml
-  manifest_id: external-B02
+  input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+  output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
+  staging_file: work/external-staging/b05.yaml
+  manifest_id: external-B05
   claimed_by: null
   claimed_at: null
 indexes:
@@ -61,39 +61,39 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 25
+    pending: 22
     in_progress: 0
-    done: 38
+    done: 41
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B02
-    title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"
-      Scholastic.com , 16 October 2000'
+    id: B05
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
+      interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
     status: pending
-    input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
-    output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
-    staging_file: work/external-staging/b02.yaml
-    manifest_id: external-B02
+    input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+    output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
+    staging_file: work/external-staging/b05.yaml
+    manifest_id: external-B05
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B01
-    title: Online chat transcript, Scholastic.com , 3 February 2000
+    id: B04
+    title: JK Rowling's World Book Day Chat, March 4, 2004
     status: done
-    input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
-    output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
-    staging_file: work/external-staging/b01.yaml
-    manifest_id: external-B01
+    input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
+    staging_file: work/external-staging/b04.yaml
+    manifest_id: external-B04
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B01
-  title: Online chat transcript, Scholastic.com , 3 February 2000
+  id: B04
+  title: JK Rowling's World Book Day Chat, March 4, 2004
   status: done
-  input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
-  output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
-  staging_file: work/external-staging/b01.yaml
-  manifest_id: external-B01
+  input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+  output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
+  staging_file: work/external-staging/b04.yaml
+  manifest_id: external-B04
   claimed_by: null
   claimed_at: null

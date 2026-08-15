@@ -15663,7 +15663,7 @@ Summary: The available evidence includes 1 source item, led by: The transcript l
 
 #### Section: Changeable internal architecture
 
-Summary: The available evidence includes 1 source item, led by: The transcript attributes the absence of a fixed Hogwarts floorplan to mobile staircases and rooms.
+Summary: The available evidence includes 2 source items, led by: The transcript attributes the absence of a fixed Hogwarts floorplan to mobile staircases and rooms.
 
 - **Supporting evidence:** The transcript attributes the absence of a fixed Hogwarts floorplan to mobile staircases and rooms.
   - Quote: "the staircases and the rooms keep moving"
@@ -15671,6 +15671,14 @@ Summary: The available evidence includes 1 source item, led by: The transcript a
   - Classification: original_book_core_candidate | Confidence: medium
   - Reference type: magical_architecture
   - Notes: Preservation transcription (authority D), not an official first-party page; this is a concise 2000 author visualization rather than a technical architectural specification.
+
+- **Corroboration:** The transcript attributes the absence of a fixed Hogwarts map or blueprint to shifting staircases, rooms that appear unexpectedly, and other magically moving features.
+  - Quote: "all those staircases keep shifting around and rooms pop out of nowhere"
+  - Source: B03, https://www.accio-quote.org/articles/2000/1000-aol-chat.htm, `sources/external/interviews/b03-aol-live-chat.yaml`
+  - Classification: original_book_core_candidate | Confidence: medium
+  - Reference type: magical_architecture
+  - Corroborates: `ext-b01-003`. B01 records the same authorial explanation that moving staircases and rooms make a fixed Hogwarts floorplan unsuitable; the remaining candidates provide narrower staircase corroboration.
+  - Notes: Preservation transcription (authority D), not an official first-party page; this informal 2000 answer explains the author’s mapping practice rather than providing a stable technical plan of Hogwarts.
 
 #### Section: Magical construction and structural support
 
@@ -15834,6 +15842,19 @@ Summary: The available evidence includes 1 source item, led by: Ottaline Gambol 
 
 ## Part: Part I: The Castle and Its Grounds
 
+### Chapter: Site, Wards, and Public Concealment
+
+#### Section: Muggle-Facing Appearance
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Muggles perceive Hogwarts as a ruined castle marked with warnings to keep out, describing its public-facing concealment.
+
+- **Supporting evidence:** Rowling says Muggles perceive Hogwarts as a ruined castle marked with warnings to keep out, describing its public-facing concealment.
+  - Quote: "They will see nothing but a ruined castle with large signs on it saying 'keep out, dangerous building.'"
+  - Source: B04, https://www.accio-quote.org/articles/2004/0304-wbd.htm, `sources/external/interviews/b04-world-book-day-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: Authority D preservation transcription of a concise answer; it records the stated appearance but not the mechanism, duration, or legal basis of the concealment.
+
 ### Chapter: The Grounds and the Great Lake
 
 #### Section: Authorial creature note
@@ -15952,6 +15973,34 @@ Summary: The available evidence includes 1 source item, led by: The historical-t
   - Reference type: security_or_protection
   - Notes: The source asserts the protection's long duration but does not date its original imposition or describe its mechanism.
 
+## Part: Part I: The Wizarding World in Context
+
+### Chapter: Magical Law, Transport, and Secrecy
+
+#### Section: Apparition Licensing and Enforcement
+
+Summary: The available evidence includes 1 source item, led by: Rowling says the Ministry monitors Apparition, requires a licence, and can punish misuse of the transport method.
+
+- **Supporting evidence:** Rowling says the Ministry monitors Apparition, requires a licence, and can punish misuse of the transport method.
+  - Quote: "The Ministry of Magic keeps tabs on people apparating."
+  - Source: B02, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, `sources/external/interviews/b02-scholastic-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Preserved transcription with authority D; the response gives a general enforcement description without naming the relevant statute, authority, or procedure.
+
+### Chapter: Wizarding Society and Muggle Relations
+
+#### Section: Secrecy, Contact, and Social Prejudice
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterizes wizard–Muggle relations as uneasy coexistence and frames bigotry as persisting within the magical world.
+
+- **Supporting evidence:** Rowling characterizes wizard–Muggle relations as uneasy coexistence and frames bigotry as persisting within the magical world.
+  - Quote: "Uneasy co-existence!"
+  - Source: B02, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, `sources/external/interviews/b02-scholastic-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Preserved transcription with authority D; the response is a broad authorial characterization, not a dated or exhaustive social history.
+
 ## Part: Part II - Founders, Heirs, and Hidden Histories
 
 ### Chapter: Tom Riddle Before Hogwarts
@@ -16063,6 +16112,17 @@ Summary: The available evidence includes 1 source item, led by: The transcript s
   - Classification: later_editorial_note | Confidence: low
   - Reference type: school_rule_or_policy
   - Notes: Preservation transcription (authority D), not an official first-party page; this is a concise 2000 planning-era answer, not a published in-universe institutional source.
+
+#### Section: Teaching staff and appointments
+
+Summary: The available evidence includes 1 source item, led by: The transcript forecasts that a woman will serve as a Defense Against the Dark Arts teacher, without identifying her or specifying a term of service.
+
+- **Context:** The transcript forecasts that a woman will serve as a Defense Against the Dark Arts teacher, without identifying her or specifying a term of service.
+  - Quote: "there WILL be"
+  - Source: B03, https://www.accio-quote.org/articles/2000/1000-aol-chat.htm, `sources/external/interviews/b03-aol-live-chat.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Notes: Preservation transcription (authority D), not an official first-party page; this is a 2000 author forecast, not a named appointment or published in-universe record.
 
 ## Part: Part II: Governance and the Wider Wizarding World
 
@@ -16218,6 +16278,43 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts firepla
   - Notes: The statement is general and undated; it does not identify which Hogwarts fireplaces were tampered with or when.
 
 ## Part: Part II: The School
+
+### Chapter: Admissions, Attendance, and Student Life
+
+#### Section: Muggle-Family Contact
+
+Summary: The available evidence includes 1 source item, led by: Rowling says special messengers explain Hogwarts and magic to Muggle parents, who have already observed unusual signs in their child.
+
+- **Supporting evidence:** Rowling says special messengers explain Hogwarts and magic to Muggle parents, who have already observed unusual signs in their child.
+  - Quote: "special messengers are sent to explain everything to them"
+  - Source: B04, https://www.accio-quote.org/articles/2004/0304-wbd.htm, `sources/external/interviews/b04-world-book-day-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Authority D preservation transcription; the compact answer does not identify the messengers, formal procedure, or exceptions.
+
+#### Section: Pre-Hogwarts Preparation
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that wizarding children may attend Muggle primary school or be taught at home before Hogwarts, naming the Weasleys as a home-educated example.
+
+- **Supporting evidence:** Rowling states that wizarding children may attend Muggle primary school or be taught at home before Hogwarts, naming the Weasleys as a home-educated example.
+  - Quote: "They can either go to a Muggle primary school or they are educated at home."
+  - Source: B04, https://www.accio-quote.org/articles/2004/0304-wbd.htm, `sources/external/interviews/b04-world-book-day-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Authority D preservation transcription of a brief live-chat answer; it confirms options but gives no dates, eligibility rules, or curriculum.
+
+### Chapter: Curriculum, Examinations, and Achievement
+
+#### Section: O.W.L. Assessment
+
+Summary: The available evidence includes 1 source item, led by: Rowling tentatively says twelve is the maximum number of O.W.L.s a student can achieve.
+
+- **Supporting evidence:** Rowling tentatively says twelve is the maximum number of O.W.L.s a student can achieve.
+  - Quote: "Yes, I think it is off the top of my head."
+  - Source: B04, https://www.accio-quote.org/articles/2004/0304-wbd.htm, `sources/external/interviews/b04-world-book-day-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: curriculum_or_subject
+  - Notes: Authority D preservation transcription; Rowling explicitly qualifies the answer as from memory, and the transcript supplies no subject list or documentary confirmation.
 
 ### Chapter: Education and Curriculum
 
@@ -16414,6 +16511,45 @@ Summary: The available evidence includes 1 source item, led by: The Ministry sur
   - Classification: unknown_or_uncertain | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The source describes general Ministry practice without identifying a specific authorization procedure or period.
+
+## Part: Part II: The School and Its Community
+
+### Chapter: Admissions and First-Year Preparation
+
+#### Section: Education Before Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: Rowling says witches and wizards are not required to attend Muggle school before beginning at Hogwarts.
+
+- **Supporting evidence:** Rowling says witches and wizards are not required to attend Muggle school before beginning at Hogwarts.
+  - Quote: "No, they don't have to."
+  - Source: B02, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, `sources/external/interviews/b02-scholastic-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Preserved transcription with authority D; the short reply establishes only that Muggle-school attendance is not compulsory.
+
+### Chapter: Student Life and House Identity
+
+#### Section: Hogwarts Population and Scale
+
+Summary: The available evidence includes 1 source item, led by: Rowling gives an approximate total Hogwarts student population of one thousand, without a House or year-level breakdown.
+
+- **Supporting evidence:** Rowling gives an approximate total Hogwarts student population of one thousand, without a House or year-level breakdown.
+  - Quote: "There are about a thousand students at Hogwarts."
+  - Source: B02, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, `sources/external/interviews/b02-scholastic-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Preserved Accio Quote transcription rather than a first-party Scholastic record; the answer is approximate and gives no House or year distribution.
+
+#### Section: Quidditch and School Culture
+
+Summary: The available evidence includes 1 source item, led by: Rowling explains Quidditch's prominence at Hogwarts through the wider importance of sport in school life.
+
+- **Supporting evidence:** Rowling explains Quidditch's prominence at Hogwarts through the wider importance of sport in school life.
+  - Quote: "sport is such an important part of life at school"
+  - Source: B02, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, `sources/external/interviews/b02-scholastic-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Preserved transcription with authority D; this is authorial explanation of a narrative institution, not a quantified account of Hogwarts sport.
 
 ## Part: Part II: The School and Its People
 
@@ -16728,6 +16864,21 @@ Summary: The available evidence includes 1 source item, led by: Professor Binns,
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch08-005`. The Philosopher's Stone entry states the same Binns origin and continued teaching; later classroom entries corroborate the subject's routine operation.
   - Notes: This overview does not date Binns's death, appointment, or the beginning of his ghostly teaching.
+
+## Part: Part III: People, Houses, and Institutional Memory
+
+### Chapter: Hogwarts Alumni and the Marauders Era
+
+#### Section: House Membership
+
+Summary: The available evidence includes 1 source item, led by: Rowling explicitly confirms that Sirius Black, Remus Lupin, and James Potter were in Gryffindor.
+
+- **Supporting evidence:** Rowling explicitly confirms that Sirius Black, Remus Lupin, and James Potter were in Gryffindor.
+  - Quote: "This is JK herself saying that they were indeed in Gryffindor!"
+  - Source: B04, https://www.accio-quote.org/articles/2004/0304-wbd.htm, `sources/external/interviews/b04-world-book-day-live-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Authority D preservation transcription of a late-series live chat; the reply confirms House membership but gives no dates, school years, or supporting records.
 
 ## Part: Part III: School Life and Institutions
 

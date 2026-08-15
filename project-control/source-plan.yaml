@@ -1842,16 +1842,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
     manifest_id: external-B02
     output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T16:59:26Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:52:32Z'
+      agent: source-agent-b02
+    - event: completed
+      at: '2026-08-15T16:59:26Z'
     staging_file: work/external-staging/b02.yaml
   - id: B03
     title: America Online chat transcript, AOL.com , 19 October 2000
@@ -1861,16 +1866,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b03-aol-live-chat.md
     manifest_id: external-B03
     output_file: sources/external/interviews/b03-aol-live-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T17:02:02Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:52:32Z'
+      agent: source-agent-b03
+    - event: completed
+      at: '2026-08-15T17:02:02Z'
     staging_file: work/external-staging/b03.yaml
   - id: B04
     title: JK Rowling's World Book Day Chat, March 4, 2004
@@ -1880,16 +1890,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
     manifest_id: external-B04
     output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T17:04:41Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T16:52:33Z'
+      agent: source-agent-b04
+    - event: completed
+      at: '2026-08-15T17:04:41Z'
     staging_file: work/external-staging/b04.yaml
   - id: B05
     title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet

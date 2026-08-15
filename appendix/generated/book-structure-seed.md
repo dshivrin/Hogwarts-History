@@ -1437,6 +1437,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part I: The Castle and Its Grounds
 
+- Site, Wards, and Public Concealment
+  - Muggle-Facing Appearance
 - The Grounds and the Great Lake
   - Authorial creature note
   - Authorial development note
@@ -1453,6 +1455,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Failed Portkey System
 - Castle, Grounds, and Protective Magic
   - Boundaries and Restricted Access
+
+## Part I: The Wizarding World in Context
+
+- Magical Law, Transport, and Secrecy
+  - Apparition Licensing and Enforcement
+- Wizarding Society and Muggle Relations
+  - Secrecy, Contact, and Social Prejudice
 
 ## Part II - Founders, Heirs, and Hidden Histories
 
@@ -1480,6 +1489,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Education and Student Life
   - Curriculum and elective study
   - Education after graduation
+  - Teaching staff and appointments
 
 ## Part II: Governance and the Wider Wizarding World
 
@@ -1513,6 +1523,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part II: The School
 
+- Admissions, Attendance, and Student Life
+  - Muggle-Family Contact
+  - Pre-Hogwarts Preparation
+- Curriculum, Examinations, and Achievement
+  - O.W.L. Assessment
 - Education and Curriculum
   - Advanced and demand-led subjects
   - First-year compulsory subjects
@@ -1540,6 +1555,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The abandonment of long-distance time travel
 - Ministry and Hogwarts
   - Exceptional Ministry authorization for time devices
+
+## Part II: The School and Its Community
+
+- Admissions and First-Year Preparation
+  - Education Before Hogwarts
+- Student Life and House Identity
+  - Hogwarts Population and Scale
+  - Quidditch and School Culture
 
 ## Part II: The School and Its People
 
@@ -1597,6 +1620,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - History of Magic and Historical Instruction
   - Professor Binns as a ghost teacher
+
+## Part III: People, Houses, and Institutional Memory
+
+- Hogwarts Alumni and the Marauders Era
+  - House Membership
 
 ## Part III: School Life and Institutions
 
