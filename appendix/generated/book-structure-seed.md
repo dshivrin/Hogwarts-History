@@ -307,6 +307,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Annual House Assignment in the Great Hall
   - Annual Songs, Scroll, Stool, and House Tables
   - Arrival of First-Year Students
+  - Claims about the Sorting Hat's accuracy
   - Feast setting, House tables, staff table, and unity warnings
   - First-Year Lake Crossing
   - House Points and the House Cup
@@ -412,6 +413,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Revision and Canonical Caution
   - Scale of the Student Body
   - The Original Forty
+  - The Original Forty in the 2005 interview
 
 ## Foundations and Founders
 
@@ -664,6 +666,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Hogwarts inhabitants and daily life
 
 - Resident ghosts and poltergeists
+  - Peeves and the castle's intractable residency
   - Peeves' exceptional properties
   - The origin and nature of Peeves
 
@@ -1437,6 +1440,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part I: The Castle and Its Grounds
 
+- House Common Rooms and Dormitories
+  - Slytherin Common Room Location
 - Site, Wards, and Public Concealment
   - Muggle-Facing Appearance
 - The Grounds and the Great Lake
@@ -1448,6 +1453,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Lake ecology and student contact
   - Lake geography and enchanted water travel
   - The lake as tournament venue
+- Wards, Boundaries, and Controlled Movement
+  - Anti-Disapparition Protection
 
 ## Part I: The School and Its Foundations
 
@@ -1534,8 +1541,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Third-year subject selection
 - Houses and Student Leadership
   - Gryffindor prefects
+- Houses, Sorting, and Student Identity
+  - Elemental House Associations
 - Staff and Teaching
   - Defence Against the Dark Arts appointments
+- Staff, Offices, and Daily Operations
+  - Keeper of Keys Access Function
 - Student Welfare and Accommodation
   - Concealed medical accommodation
 
@@ -1625,6 +1636,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Hogwarts Alumni and the Marauders Era
   - House Membership
+- Hogwarts Leadership and Staff
+  - Headmaster and Deputy Head
 
 ## Part III: School Life and Institutions
 
@@ -1665,10 +1678,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Grounds and the Forbidden Forest
   - Creatures, Secrecy, and Forest Lore
 
+## Part IV: Hogwarts, a History as a Source
+
+- The Book's Narrative Role
+  - Hermione as Expository Reader
+
 ## Part IV: Legacy and Aftermath
 
 - Recognition and Social Change
   - Posthumous honours
+
+## Part IV: Magical History and Wider Context
+
+- The First Wizarding War and Its Legacy
+  - Sacrificial Protection at Godric's Hollow
 
 ## Part IV: Recent Hogwarts History
 
@@ -2503,6 +2526,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Elder Wand Ownership and Allegiance
   - Voldemort's mistaken mastery theory and Snape's death
+
+## Wars and political history
+
+- Voldemort's rise and the First Wizarding War
+  - Fear, naming, and social coercion
 
 ## Wars, Crises, and School Memory
 

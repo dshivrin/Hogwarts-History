@@ -21076,6 +21076,134 @@ by_entry:
     - sirius-black
     source_unit: B04
     output_yaml: sources/external/interviews/b04-world-book-day-live-chat.yaml
+  ext-b05-001:
+    title: 'Hogwarts Leadership and Staff: Headmaster and Deputy Head'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore
+    - leadership
+    - mcgonagall
+    source_unit: B05
+    output_yaml: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b05-002:
+    title: 'The First Wizarding War and Its Legacy: Sacrificial Protection at Godric''s
+      Hollow'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - lily-potter
+    - protective-magic
+    - sacrifice-magic
+    source_unit: B05
+    output_yaml: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b06-001:
+    title: 'Resident ghosts and poltergeists: Peeves and the castle''s intractable
+      residency'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - hogwarts
+    - magical-architecture
+    - peeves
+    source_unit: B06
+    output_yaml: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b06-002:
+    title: 'The Sorting Ceremony: Claims about the Sorting Hat''s accuracy'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: medium
+    tags:
+    - hogwarts
+    - house-system
+    - sorting-hat
+    source_unit: B06
+    output_yaml: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b06-003:
+    title: 'Authorial Development of Hogwarts: The Original Forty in the 2005 interview'
+    classification: later_editorial_note
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - house-allocation
+    - original-forty
+    - student-roster
+    source_unit: B06
+    output_yaml: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b06-004:
+    title: 'Voldemort''s rise and the First Wizarding War: Fear, naming, and social
+      coercion'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore
+    - name-taboo
+    - voldemort
+    source_unit: B06
+    output_yaml: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b07-001:
+    title: 'Houses, Sorting, and Student Identity: Elemental House Associations'
+    classification: original_book_core_candidate
+    reference_type: house_system
+    confidence: medium
+    tags:
+    - four-elements
+    - hogwarts-house-colours
+    - house-system
+    source_unit: B07
+    output_yaml: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b07-002:
+    title: 'House Common Rooms and Dormitories: Slytherin Common Room Location'
+    classification: harry_era_confirmation
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - house-system
+    - slytherin-common-room
+    - under-lake
+    source_unit: B07
+    output_yaml: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b07-003:
+    title: 'Staff, Offices, and Daily Operations: Keeper of Keys Access Function'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - hagrid
+    - hogwarts-access
+    - keeper-of-keys
+    source_unit: B07
+    output_yaml: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b07-004:
+    title: 'The Book''s Narrative Role: Hermione as Expository Reader'
+    classification: later_editorial_note
+    reference_type: explicit_hogwarts_a_history
+    confidence: medium
+    tags:
+    - books
+    - exposition
+    - harry
+    - hogwarts-a-history
+    - ron
+    source_unit: B07
+    output_yaml: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b07-005:
+    title: 'Wards, Boundaries, and Controlled Movement: Anti-Disapparition Protection'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - anti-apparition
+    - apparition
+    - disapparation
+    - hogwarts
+    - security
+    source_unit: B07
+    output_yaml: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -23418,6 +23546,7 @@ by_tag:
   anti-apparition:
   - dh-ch30-004
   - ext-a04-001
+  - ext-b07-005
   - hbp-ch04-001
   - hbp-ch17-002
   - hbp-ch18-003
@@ -23473,6 +23602,7 @@ by_tag:
   - dh-ch16-001
   - dh-ch16-005
   - dh-ch23-005
+  - ext-b07-005
   - gof-ch06-001
   - gof-ch09-004
   - gof-ch15-006
@@ -23994,6 +24124,8 @@ by_tag:
   booklists:
   - hbp-ch06-001
   - poa-ch01-005
+  books:
+  - ext-b07-004
   bookshelves:
   - cos-ch11-005
   boomslang-skin:
@@ -25498,6 +25630,8 @@ by_tag:
   - dh-ch15-004
   disapparate:
   - hbp-ch28-005
+  disapparation:
+  - ext-b07-005
   disapparition:
   - dh-ch03-004
   - dh-ch10-006
@@ -25742,6 +25876,8 @@ by_tag:
   - ext-a32-006
   - ext-a33-001
   - ext-a35-002
+  - ext-b05-001
+  - ext-b06-004
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -26292,6 +26428,8 @@ by_tag:
   - cos-ch09-001
   - dh-ch06-004
   - ps-ch07-001
+  exposition:
+  - ext-b07-004
   expulsion:
   - cos-ch02-005
   - cos-ch05-005
@@ -26807,6 +26945,7 @@ by_tag:
   - ext-a13-003
   four-elements:
   - ext-a26-003
+  - ext-b07-001
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
@@ -27473,6 +27612,7 @@ by_tag:
   - dh-ch32-003
   - dh-ch34-006
   - ext-a13-001
+  - ext-b07-003
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -27606,6 +27746,8 @@ by_tag:
   - hbp-ch11-002
   happiness-after-death:
   - ext-b01-005
+  harry:
+  - ext-b07-004
   harry-potter:
   - cos-ch01-004
   - dh-ch01-002
@@ -28159,6 +28301,9 @@ by_tag:
   - ext-a35-001
   - ext-a35-002
   - ext-a37-001
+  - ext-b06-001
+  - ext-b06-002
+  - ext-b07-005
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -28173,12 +28318,15 @@ by_tag:
   hogwarts-a-history:
   - cos-ch09-001
   - dh-ch06-004
+  - ext-b07-004
   - gof-ch11-005
   - gof-ch15-003
   - gof-ch28-003
   - ootp-ch17-002
   - ootp-ch23-001
   - poa-ch09-001
+  hogwarts-access:
+  - ext-b07-003
   hogwarts-admissions:
   - ext-b04-003
   - hbp-ch13-003
@@ -28314,6 +28462,7 @@ by_tag:
   - hbp-ch20-005
   hogwarts-house-colours:
   - ext-a26-003
+  - ext-b07-001
   hogwarts-kitchens:
   - ext-a07-001
   - gof-ch12-004
@@ -28587,6 +28736,7 @@ by_tag:
   - ext-a08-004
   house-allocation:
   - ext-a15-001
+  - ext-b06-003
   house-assignment:
   - ps-ch05-005
   house-banners:
@@ -28735,6 +28885,9 @@ by_tag:
   - ext-a02-003
   - ext-a26-003
   - ext-a30-001
+  - ext-b06-002
+  - ext-b07-001
+  - ext-b07-002
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -29149,6 +29302,7 @@ by_tag:
   - qtta-ch06-005
   - qtta-ch10-001
   keeper-of-keys:
+  - ext-b07-003
   - ps-ch04-001
   keeper-protection:
   - poa-ch15-007
@@ -29227,6 +29381,7 @@ by_tag:
   - ootp-ch33-003
   leadership:
   - dh-ch35-006
+  - ext-b05-001
   league-cup:
   - qtta-ch07-001
   leaky-cauldron:
@@ -29355,6 +29510,7 @@ by_tag:
   lily-potter:
   - dh-ch17-006
   - dh-ch35-001
+  - ext-b05-002
   - ootp-ch02-004
   - ootp-ch37-005
   - ps-ch01-003
@@ -29566,6 +29722,7 @@ by_tag:
   - ext-a07-004
   - ext-a14-003
   - ext-a29-003
+  - ext-b06-001
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -30130,6 +30287,7 @@ by_tag:
   - gof-ch35-001
   - gof-ch35-004
   mcgonagall:
+  - ext-b05-001
   - hbp-ch12-007
   - hbp-ch24-006
   - hbp-ch29-005
@@ -30793,6 +30951,8 @@ by_tag:
   - dh-ch34-007
   - dh-ch36-003
   - gof-ch01-005
+  name-taboo:
+  - ext-b06-004
   named-book:
   - ps-ch11-002
   named-books:
@@ -31141,6 +31301,7 @@ by_tag:
   - ext-a09-006
   original-forty:
   - ext-a15-003
+  - ext-b06-003
   original-order-phoenix:
   - ootp-ch09-007
   original-runes:
@@ -31347,6 +31508,7 @@ by_tag:
   - ext-a16-004
   - ext-a16-005
   - ext-a16-006
+  - ext-b06-001
   - gof-ch15-001
   - gof-ch22-003
   - ootp-ch21-003
@@ -32119,6 +32281,7 @@ by_tag:
   - dh-ch35-001
   - dh-ch36-001
   - ext-a23-003
+  - ext-b05-002
   - gof-ch33-004
   - hbp-ch02-004
   - hbp-ch03-007
@@ -32621,6 +32784,8 @@ by_tag:
   - cos-ch10-004
   romilda-vane:
   - hbp-ch18-006
+  ron:
+  - ext-b07-004
   ron-weasley:
   - dh-ch07-004
   - dh-ch16-001
@@ -32688,6 +32853,8 @@ by_tag:
   runes:
   - dh-ch07-007
   - dh-ch21-002
+  sacrifice-magic:
+  - ext-b05-002
   sacrificial-protection:
   - dh-ch35-001
   - dh-ch36-001
@@ -33290,6 +33457,7 @@ by_tag:
   - ext-a05-002
   - ext-a07-002
   - ext-a07-003
+  - ext-b07-005
   - gof-ch15-006
   - hbp-ch26-003
   - ootp-ch07-002
@@ -33579,6 +33747,7 @@ by_tag:
   - ps-ch17-005
   slytherin-common-room:
   - cos-ch12-005
+  - ext-b07-002
   slytherin-descendants:
   - hbp-ch10-006
   slytherin-green:
@@ -33722,6 +33891,7 @@ by_tag:
   - ext-a20-002
   - ext-a20-003
   - ext-a36-001
+  - ext-b06-002
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -34324,6 +34494,7 @@ by_tag:
   - ootp-ch29-002
   student-roster:
   - ext-a15-001
+  - ext-b06-003
   student-rulebreaking:
   - gof-ch25-001
   - hbp-ch18-004
@@ -35101,6 +35272,8 @@ by_tag:
   unbreakable-vow:
   - hbp-ch02-006
   - hbp-ch16-001
+  under-lake:
+  - ext-b07-002
   underage-magic:
   - cos-ch01-005
   - cos-ch02-005
@@ -35316,6 +35489,7 @@ by_tag:
   - dh-ch36-001
   - ext-a31-002
   - ext-a31-003
+  - ext-b06-004
   - gof-ch01-001
   - gof-ch01-003
   - gof-ch01-004

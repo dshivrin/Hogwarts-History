@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 258
+- Total: 261
 
 ## Entries by Book or External Source
 
@@ -53,6 +53,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B02 — "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000: 5
 - B03 — America Online chat transcript, AOL.com , 19 October 2000: 2
 - B04 — JK Rowling's World Book Day Chat, March 4, 2004: 5
+- B05 — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005: 2
+- B06 — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part Two," The Leaky Cauldron , 16 July 2005: 4
+- B07 — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005: 5
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -65,11 +68,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 529
-- later_editorial_note: 691
-- original_book_core_candidate: 11
+- harry_era_confirmation: 533
+- later_editorial_note: 693
+- original_book_core_candidate: 12
 - post_1984_excluded_from_original: 30
-- pre_1984_historical_candidate: 279
+- pre_1984_historical_candidate: 283
 - unknown_or_uncertain: 19
 
 ## Entries by Reference Type
@@ -77,29 +80,29 @@ Source data: sources YAML + project-control indexes + structured source data.
 - cross_reference_candidate: 107
 - curriculum_or_subject: 168
 - direct_observed_setting: 69
-- explicit_hogwarts_a_history: 9
+- explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 293
-- house_system: 37
-- institutional_custom: 214
-- magical_architecture: 113
+- historical_claim: 297
+- house_system: 39
+- institutional_custom: 215
+- magical_architecture: 115
 - portrait_or_ghost_lore: 34
 - school_rule_or_policy: 159
-- security_or_protection: 243
+- security_or_protection: 244
 - weak_context_only: 4
 
 ## Explicit `Hogwarts: A History` References
 
-- Total: 9
+- Total: 10
 
 ## Possible Duplicates
 
-- Total: 1024
+- Total: 1028
 
 ## Latest Processed Unit
 
-- `B04` — JK Rowling's World Book Day Chat, March 4, 2004, input `resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md`, output `sources/external/interviews/b04-world-book-day-live-chat.yaml`
+- `B07` — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005, input `resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md`, output `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
 
 ## Next Pending Unit
 
-- `B05` — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005, input `resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md`, output `sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml`
+- `B08` — Edinburgh "cub reporter" press conference, ITV , 16 July 2005, input `resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md`, output `sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml`

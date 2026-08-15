@@ -86,3 +86,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Destination: Sources and Historiography / Hogwarts: A History as an In-Universe Source / Hermione's field copy during the Horcrux hunt
   - Source: PDF p. 3055, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
   - Classification: later_editorial_note | Confidence: high
+
+## Unknown book, Unknown chapter
+
+- `ext-b07-004`
+  - Quote: "Never. It’s a gift to me, because all my exposition can be dressed up"
+  - Evidence note: Rowling says Harry and Ron will never read Hogwarts, a History because Hermione uses it to convey exposition to the reader.
+  - Destination: Part IV: Hogwarts, a History as a Source / The Book's Narrative Role / Hermione as Expository Reader
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium

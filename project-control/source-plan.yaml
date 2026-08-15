@@ -1915,16 +1915,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
     manifest_id: external-B05
     output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T17:12:32Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T17:05:58Z'
+      agent: source-agent-b05
+    - event: completed
+      at: '2026-08-15T17:12:32Z'
     staging_file: work/external-staging/b05.yaml
   - id: B06
     title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
@@ -1935,16 +1940,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
     manifest_id: external-B06
     output_file: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T17:15:23Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T17:05:58Z'
+      agent: source-agent-b06
+    - event: completed
+      at: '2026-08-15T17:15:23Z'
     staging_file: work/external-staging/b06.yaml
   - id: B07
     title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet
@@ -1956,16 +1966,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
     manifest_id: external-B07
     output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T17:18:17Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T17:05:58Z'
+      agent: source-agent-b07
+    - event: completed
+      at: '2026-08-15T17:18:17Z'
     staging_file: work/external-staging/b07.yaml
   - id: B08
     title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005

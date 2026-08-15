@@ -14,14 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B05
-  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview
-    Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
+  id: B08
+  title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005
   status: pending
-  input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
-  output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
-  staging_file: work/external-staging/b05.yaml
-  manifest_id: external-B05
+  input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+  output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+  staging_file: work/external-staging/b08.yaml
+  manifest_id: external-B08
   claimed_by: null
   claimed_at: null
 indexes:
@@ -61,39 +60,41 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 22
+    pending: 19
     in_progress: 0
-    done: 41
+    done: 44
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B05
-    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
-      interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
+    id: B08
+    title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005
     status: pending
-    input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
-    output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
-    staging_file: work/external-staging/b05.yaml
-    manifest_id: external-B05
+    input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+    staging_file: work/external-staging/b08.yaml
+    manifest_id: external-B08
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B04
-    title: JK Rowling's World Book Day Chat, March 4, 2004
+    id: B07
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet
+      interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July
+      2005'
     status: done
-    input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
-    output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
-    staging_file: work/external-staging/b04.yaml
-    manifest_id: external-B04
+    input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+    staging_file: work/external-staging/b07.yaml
+    manifest_id: external-B07
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B04
-  title: JK Rowling's World Book Day Chat, March 4, 2004
+  id: B07
+  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview
+    Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005'
   status: done
-  input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
-  output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
-  staging_file: work/external-staging/b04.yaml
-  manifest_id: external-B04
+  input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+  output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  staging_file: work/external-staging/b07.yaml
+  manifest_id: external-B07
   claimed_by: null
   claimed_at: null

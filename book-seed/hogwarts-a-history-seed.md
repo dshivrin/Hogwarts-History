@@ -1729,6 +1729,17 @@ Summary: The available evidence includes 1 source item, led by: McGonagall prese
   - Reference type: institutional_custom
   - Notes: The chapter confirms the ceremony in Harry-era practice but does not state its origin, age, or whether Hogwarts: A History covers it.
 
+#### Section: Claims about the Sorting Hat's accuracy
+
+Summary: The available evidence includes 1 source item, led by: In this interview, Rowling states that the Sorting Hat has never made an incorrect Sorting decision.
+
+- **Supporting evidence:** In this interview, Rowling states that the Sorting Hat has never made an incorrect Sorting decision.
+  - Quote: "Has the sorting hat ever been wrong? No."
+  - Source: B06, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm, `sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: house_system
+  - Notes: The source is a third-party preservation transcription of a brief interview answer; a later official essay describes remarkably few, rather than no, errors.
+
 #### Section: Feast setting, House tables, staff table, and unity warnings
 
 Summary: The available evidence includes 1 source item, led by: The chapter corroborates the Great Hall start-of-term feast structure, the annual Sorting's public aftermath, the Hat's unity warning, and ghosts' participation in Hall life.
@@ -13393,6 +13404,18 @@ Summary: The available evidence includes 1 source item, led by: Rowling’s earl
   - Reference type: historical_claim
   - Notes: A 2015 retrospective authorial note; it describes a private draft notebook and does not reproduce the house symbols or establish in-universe enrolment figures.
 
+#### Section: The Original Forty in the 2005 interview
+
+Summary: The available evidence includes 1 source item, led by: Rowling says her early planning created forty pupils entering Harry's year, with House allocations, parentage, and basic personal details.
+
+- **Corroboration:** Rowling says her early planning created forty pupils entering Harry's year, with House allocations, parentage, and basic personal details.
+  - Quote: "I created 40 kids who enter Harry's year."
+  - Source: B06, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm, `sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ext-a15-001`. ext-a15-001 gives the same core original-forty roster claim from Rowling's later official retrospective; this earlier interview is an additional lower-authority carrier.
+  - Notes: This preservation transcription records a 2005 authorial explanation, and Rowling expressly says the forty were not necessarily the entire in-universe year or a reliable school-population figure.
+
 ## Part: Foundations and Founders
 
 ### Chapter: The Four Founders and Their Legacy
@@ -14517,6 +14540,17 @@ Summary: The available evidence includes 1 source item, led by: During Dumbledor
 ## Part: Hogwarts inhabitants and daily life
 
 ### Chapter: Resident ghosts and poltergeists
+
+#### Section: Peeves and the castle's intractable residency
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Peeves cannot be removed from Hogwarts and is bound up with the building; Dumbledore can only improve his behaviour temporarily.
+
+- **Supporting evidence:** Rowling says Peeves cannot be removed from Hogwarts and is bound up with the building; Dumbledore can only improve his behaviour temporarily.
+  - Quote: "It comes with the building. You’re stuck."
+  - Source: B06, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm, `sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: magical_architecture
+  - Notes: This is a 2005 interview preserved by a third-party transcription; it supplies no date or mechanism for Peeves' attachment to the castle.
 
 #### Section: Peeves' exceptional properties
 
@@ -15842,6 +15876,19 @@ Summary: The available evidence includes 1 source item, led by: Ottaline Gambol 
 
 ## Part: Part I: The Castle and Its Grounds
 
+### Chapter: House Common Rooms and Dormitories
+
+#### Section: Slytherin Common Room Location
+
+Summary: The available evidence includes 1 source item, led by: Rowling locates the Slytherin common room under the lake.
+
+- **Supporting evidence:** Rowling locates the Slytherin common room under the lake.
+  - Quote: "their common room is under the lake"
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: magical_architecture
+  - Notes: Authority D preservation transcription; the brief answer does not describe the room's entrance, dimensions, or whether under the lake means literally beneath lake water.
+
 ### Chapter: Site, Wards, and Public Concealment
 
 #### Section: Muggle-Facing Appearance
@@ -15944,6 +15991,20 @@ Summary: The available evidence includes 1 source item, led by: In Goblet of Fir
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: historical_claim
   - Notes: This relates to a specific 1994–95 event and does not show that the lake was routinely used as a public arena.
+
+### Chapter: Wards, Boundaries, and Controlled Movement
+
+#### Section: Anti-Disapparition Protection
+
+Summary: The available evidence includes 1 source item, led by: Rowling cites Hogwarts as a place from which people cannot Disapparate, making it unavailable as an escape option at school.
+
+- **Corroboration:** Rowling cites Hogwarts as a place from which people cannot Disapparate, making it unavailable as an escape option at school.
+  - Quote: "within a place that you can’t Disapparate from, like Hogwarts"
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Corroborates: `ootp-ch23-001`. The Order of the Phoenix entry states the same Hogwarts ban on Apparition and Disapparition; related school-protection entries corroborate its operation or exceptions.
+  - Notes: Authority D preservation transcription; the answer names Hogwarts as an example but does not define the full ward boundary, spell mechanism, or stated exceptions.
 
 ## Part: Part I: The School and Its Foundations
 
@@ -16364,6 +16425,20 @@ Summary: The available evidence includes 1 source item, led by: Lupin was sorted
   - Reference type: institutional_custom
   - Notes: The biography does not give the years of Lupin's prefect appointment or its specific duties.
 
+### Chapter: Houses, Sorting, and Student Identity
+
+#### Section: Elemental House Associations
+
+Summary: The available evidence includes 1 source item, led by: Rowling assigns the four Hogwarts Houses to fire, air, earth, and water respectively.
+
+- **Corroboration:** Rowling assigns the four Hogwarts Houses to fire, air, earth, and water respectively.
+  - Quote: "Gryffindor is fire, Ravenclaw is air, Hufflepuff is earth, and Slytherin is water."
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: original_book_core_candidate | Confidence: medium
+  - Reference type: house_system
+  - Corroborates: `ext-a26-003`. The official Rowling colours article records the same four elemental House associations; the other ranked records concern different House-system evidence.
+  - Notes: Authority D preservation transcription of an informal author explanation; it supplies no in-universe date, origin, or formal institutional rationale.
+
 ### Chapter: Staff and Teaching
 
 #### Section: Defence Against the Dark Arts appointments
@@ -16376,6 +16451,19 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore appoi
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: historical_claim
   - Notes: The account summarizes the sequence without identifying the exact academic dates or the full circumstances of the transformation.
+
+### Chapter: Staff, Offices, and Daily Operations
+
+#### Section: Keeper of Keys Access Function
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Hagrid's Keeper of the Keys role includes letting people into and out of Hogwarts.
+
+- **Supporting evidence:** Rowling says Hagrid's Keeper of the Keys role includes letting people into and out of Hogwarts.
+  - Quote: "he will let you in and out of Hogwarts"
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Authority D preservation transcription of an informal answer; Rowling explicitly says the title has only slightly more significance than the access function stated here.
 
 ### Chapter: Student Welfare and Accommodation
 
@@ -16880,6 +16968,19 @@ Summary: The available evidence includes 1 source item, led by: Rowling explicit
   - Reference type: historical_claim
   - Notes: Authority D preservation transcription of a late-series live chat; the reply confirms House membership but gives no dates, school years, or supporting records.
 
+### Chapter: Hogwarts Leadership and Staff
+
+#### Section: Headmaster and Deputy Head
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterizes McGonagall as Dumbledore's worthy second in command, while explicitly distinguishing that position from being his equal.
+
+- **Supporting evidence:** Rowling characterizes McGonagall as Dumbledore's worthy second in command, while explicitly distinguishing that position from being his equal.
+  - Quote: "McGonagall is a very worthy second in command."
+  - Source: B05, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm, `sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Authority D preservation transcription of a spoiler-limited author answer; it offers character-level commentary rather than an institutional role description or dated administrative record.
+
 ## Part: Part III: School Life and Institutions
 
 ### Chapter: Discipline and Student Misconduct
@@ -17064,6 +17165,21 @@ Summary: The available evidence includes 1 source item, led by: A litter of unus
   - Reference type: historical_claim
   - Notes: The account does not date the release, identify the litter, or establish which Forest stories arose from it; its statement that some survive is contemporary to the source narration.
 
+## Part: Part IV: Hogwarts, a History as a Source
+
+### Chapter: The Book's Narrative Role
+
+#### Section: Hermione as Expository Reader
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Harry and Ron will never read Hogwarts, a History because Hermione uses it to convey exposition to the reader.
+
+- **Direct evidence:** Rowling says Harry and Ron will never read Hogwarts, a History because Hermione uses it to convey exposition to the reader.
+  - Quote: "Never. It’s a gift to me, because all my exposition can be dressed up"
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: explicit_hogwarts_a_history
+  - Notes: Authority D preservation transcription; this is authorial commentary about narrative construction, not an in-universe statement by Harry, Ron, or Hermione.
+
 ## Part: Part IV: Legacy and Aftermath
 
 ### Chapter: Recognition and Social Change
@@ -17078,6 +17194,22 @@ Summary: The available evidence includes 1 source item, led by: Lupin became the
   - Classification: post_1984_excluded_from_original | Confidence: high
   - Reference type: historical_claim
   - Notes: The source asserts that the honour helped lift stigma but does not quantify or independently document that social change.
+
+## Part: Part IV: Magical History and Wider Context
+
+### Chapter: The First Wizarding War and Its Legacy
+
+#### Section: Sacrificial Protection at Godric's Hollow
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Lily's protection of Harry depended on her being offered survival and consciously choosing death, a condition she distinguishes from James's unavoidable death.
+
+- **Corroboration:** Rowling says Lily's protection of Harry depended on her being offered survival and consciously choosing death, a condition she distinguishes from James's unavoidable death.
+  - Quote: "She did very consciously lay down her life."
+  - Source: B05, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm, `sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch17-006`. dh-ch17-006 gives direct scene evidence of Lily's choice; dh-ch35-001 independently explains later consequences of her sacrificial protection.
+  - Notes: Authority D preservation transcription, published before the final explanation in the novels; it reports Rowling's distinction but does not provide a full rule set for sacrificial protection.
 
 ## Part: Part IV: Recent Hogwarts History
 
@@ -18947,6 +19079,21 @@ Summary: The available evidence includes 1 source item, led by: Voldemort links 
   - Reference type: historical_claim
   - Corroborates: `dh-ch21-005`, `dh-ch24-006`, `dh-ch24-007`. dh-ch21-005 and dh-ch24-006 establish Elder Wand names and tradition, while dh-ch24-007 records the theft from Dumbledore's tomb. This entry adds Voldemort's explicit mastery theory and his killing of Snape.
   - Notes: Voldemort's explanation is authoritative evidence of his belief, but the chapter later shows his theory is incomplete and mistaken.
+
+## Part: Wars and political history
+
+### Chapter: Voldemort's rise and the First Wizarding War
+
+#### Section: Fear, naming, and social coercion
+
+Summary: The available evidence includes 1 source item, led by: Rowling says fear of Voldemort's name developed gradually as his violence and Dark Arts activity increased; by his Hogwarts teaching-post request, most people avoided it.
+
+- **Supporting evidence:** Rowling says fear of Voldemort's name developed gradually as his violence and Dark Arts activity increased; by his Hogwarts teaching-post request, most people avoided it.
+  - Quote: "With Voldemort? It was gradual. He was killing and doing some pretty evil things."
+  - Source: B06, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm, `sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The preserved interview provides no date for the teaching-post request or quantitative measure of name avoidance, and it predates the later published account of the Second Wizarding War Taboo.
 
 ## Part: Wars, Crises, and School Memory
 
