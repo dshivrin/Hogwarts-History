@@ -1,99 +1,75 @@
 # Runtime Contract
 
-Use this compact contract for routine extraction runs. Read full background or schema files only when this contract says to.
+Use this compact contract for one acquired external-source snapshot per work unit. The completed book-and-companion runtime is preserved at `docs/instructions/archive/runtime-contract-book-and-companion-extraction-2026-08-15.md`.
 
 ## CLI Workflow
 
-Prefer short project recipes over repeated long shell commands.
+- Start with `just brief`, `just next`, and `just external-status`.
+- Claim the next unit with `just claim-external <agent>` or a specific unit with `just claim-external <agent> <unit>`.
+- Recover active claim details with `just current-external` or `just current-external <unit>`.
+- Use `just search "pattern"`, `just query-dupes <tag> <tag>`, and `just query-entries <tag>` for narrow lookup.
+- Use `just validate` to diagnose an assigned YAML before completion when needed.
+- Submit a finished unit with `just complete-external <unit> <claim-token>`.
+- Abandon an interrupted claim with `just release-external <unit> <claim-token> "<reason>"`.
+- Record a source or decision blocker with `just block-external <unit> <claim-token> "<reason>"`.
 
-- Start orientation with `just brief`.
-- Use `just next` for the current next-run display.
-- Use `just search "pattern"` or direct `rg "pattern" path/` before reading broad files.
-- Use `just query-dupes <tag> <tag>` for duplicate lookup after candidate tags are known.
-- Use `just validate` after source YAML changes.
-- Use `just post` after a completed extraction or generator change.
-
-Do not require `yq`; use project Python scripts for YAML.
-Use `jq` only for JSON output.
+Do not require `yq`; use the project commands for YAML state transitions.
 
 ## Required Reads
 
-For a normal run, read only:
+For a normal claimed unit, read only:
 
-1. `docs/instructions/runtime-contract.md`
-2. `project-control/processing-state.yaml`
-3. `.tmp/current-chapter.txt` after extraction
-4. The current output YAML only if it already exists
+1. `docs/instructions/runtime-contract.md`.
+2. `project-control/processing-state.yaml`.
+3. The claim output for the assigned unit, token, input, manifest ID, and output paths.
+4. The complete assigned Markdown snapshot, including its YAML front matter.
+5. The assigned output YAML only if it already exists.
 
-## Conditional Reads
+Read `docs/instructions/schema-reference.md` only for schema uncertainty or a validation failure. Read `docs/instructions/background-guide.md` only for canon, era, or classification ambiguity.
 
-Read these only when needed:
+## Prohibited Broad Reads and Writes
 
-- `docs/instructions/schema-reference.md` for schema uncertainty or validation failure.
-- `docs/instructions/background-guide.md` for canon, era, or classification ambiguity.
-- `just query-dupes <tag> <tag>` for duplicate and context lookup after candidate tags are known.
-- `just query-entries <tag>` for compact entry lookup by tag.
-- Query script source files only when debugging the query tools themselves.
-- Historical YAML files only when a query recipe identifies a likely duplicate.
-- `appendix/generated/*.md` only for human-facing review, not routine extraction.
+Do not scan all canonical source YAML, all external snapshots, the full generated book seed, full appendices, archive directories, or old prompts. Do not open compact index YAML directly during normal extraction; use query commands.
 
-## Prohibited During Normal Runs
+Workers write only their assigned external YAML under `sources/external/`. Workers must not edit the manifest, `source-plan.yaml`, `processing-state.yaml`, `next-run.md`, indexes, appendices, or book seed. Queue completion owns those updates.
 
-Do not read:
+## External Extraction Procedure
 
-- `docs/instructions/archive/`
-- `project-control/archive/`
-- old `next-run N.md` prompts
-- full appendices or non-generated appendix drafts
-- all prior chapter YAML files
-- `chapters-index.md` when page boundaries are present in `processing-state.yaml`
+1. Claim one `pending` unit and retain its claim token.
+2. Read the assigned snapshot body completely.
+3. Extract evidence useful to a future fan edition of *Hogwarts: A History*, preserving source authority and temporal limitations.
+4. Write the exact assigned YAML path with top-level `source_unit` and `entries` keys.
+5. Copy snapshot provenance into the external `source_unit`, including `source_id`, URLs, `capture_completeness`, and the snapshot body hash as `content_sha256`.
+6. Use entry IDs `ext-<logical-id-lower>-NNN`, such as `ext-a01-001`.
+7. Keep `pdf_page`, `printed_page`, and `extracted_text_lines` present and null. Locate evidence with `source_id`, `source_url`, optional `source_section`, and `text_anchor`.
+8. Keep every `quote_excerpt_short` under 25 words. Paraphrase evidence in `source_note`.
 
-## Extraction Procedure
+## Index-First Duplicate Procedure
 
-1. Read `processing-state.yaml`.
-2. Extract the inclusive current page range with `scripts/extract_pages.py`.
-3. Write combined text to `.tmp/current-chapter.txt`.
-4. Identify evidence that supports a future fan edition of `Hogwarts: A History`.
-5. Extract all explicit `Hogwarts: A History` references.
-6. For supporting material, keep only the strongest 3-7 entries unless instructed otherwise.
-7. Use short quotes only; keep `quote_excerpt_short` under 25 words.
+1. Normalize three to eight topic tags for each candidate entry.
+2. Run `just query-dupes <tag> <tag>` with the strongest tags and placement terms.
+3. Run `just query-entries <tag>` only when wider indexed context is needed.
+4. Open only source YAML paths returned as likely matches.
+5. Record the indexed comparison in `duplicate_check.notes`; set `duplicate_of` when the same claim is already represented.
+6. Do not delete corroborating evidence merely because it overlaps another source.
 
-## Duplicate Check Procedure
+## Completion and Status Rules
 
-1. Normalize 3-8 topic tags for each candidate.
-2. Run `just query-dupes <tag> <tag>` with candidate tags and placement terms.
-3. If no likely match appears, mark `possible_duplicate: false`.
-4. If a likely match appears, open only the referenced YAML file and compare evidence.
-5. Do not open full index files during normal extraction.
-6. Record the result in the entry `duplicate_check` block.
-
-## Output Steps
-
-1. Write or update the current chapter YAML path in `processing-state.yaml`.
-2. Keep full chapter YAML self-contained and schema-compliant.
-3. Run `just post`.
-4. Keep `book-seed/hogwarts-a-history-seed.md` as the main human-readable result.
-5. Keep `appendix/generated/*.md` as generated support/reference files.
+- `pending` is claimable; `in_progress` is owned by one token; `done` has passed all gates; `blocked` requires a precise reason.
+- Never edit a status or claim token manually.
+- `just complete-external` verifies token ownership and output existence, validates the YAML and snapshot hash, rebuilds compact indexes, rechecks duplicate metadata, validates again, regenerates the book seed and appendices, and only then marks the unit `done`.
+- A failed completion leaves the unit `in_progress`. Correct the assigned YAML and retry with the same token.
+- Use release for interruption and block only for an actual source, provenance, schema, or human-decision blocker.
 
 ## Validation Checklist
 
-- YAML parses with PyYAML.
-- Required top-level keys exist: `source_unit`, `entries`.
-- Every entry has an `id`, source location, short quote, `source_note`, tags, classification, duplicate check, confidence, and limitations.
-- `reference_type` and `era_classification` use values from `schema-reference.md`.
-- Changed indexes parse as YAML.
-- Generated appendices start with the generated-file notice.
-- Run `just validate` after changing source YAML or generated helper files.
-- Run `just post` when appendices are regenerated or after each completed source unit.
+- The assigned YAML parses with PyYAML and uses the external schema.
+- Source ID, snapshot path, URLs, capture status, and body hash match the assigned carrier.
+- Every entry has complete web locators, anchor phrases, short quote, paraphrase, placement, three to eight tags, classification, duplicate check, confidence, and limitations.
+- Candidate anchor phrases can be found in the assigned snapshot.
+- No generated or queue-owned file was edited by the worker.
+- The completion command succeeds and reports the unit as `done`.
 
 ## Git Backup Rule
 
-After every successful extraction or refactor iteration:
-
-1. Stage only files that belong to the iteration.
-2. Do not stage `.DS_Store`, caches, virtual environments, or unrelated user changes.
-3. Run relevant validation.
-4. Review `git status --short`.
-5. Review the staged diff.
-6. Commit with a concise message.
-7. Push the current branch to `origin`.
+The coordinating agent stages only files belonging to the completed unit, reviews the staged diff, commits with a concise message, and pushes the current branch when requested. A worker must not commit unrelated shared-worktree changes.

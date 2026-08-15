@@ -388,7 +388,7 @@
 
 ### Task 5: Replace the runtime instructions and expose stable recipes
 
-**Status:** in_progress
+**Status:** done
 
 **Files:**
 - Modify: `docs/instructions/runtime-contract.md`
@@ -450,7 +450,7 @@
 
 ### Task 6: Full verification and reversible one-agent trial
 
-**Status:** pending
+**Status:** in_progress
 
 **Files:**
 - Regenerate: `project-control/duplicate-index.yaml`

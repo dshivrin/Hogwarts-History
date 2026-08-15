@@ -905,16 +905,21 @@ class RefactorSupportTests(unittest.TestCase):
         for text in [
             "just brief",
             "just next",
+            "just claim-external",
+            "just current-external",
+            "just complete-external",
+            "just release-external",
+            "just block-external",
             "just search",
             "just query-dupes",
             "just query-entries",
             "just validate",
-            "just post",
             "Do not require `yq`",
         ]:
             self.assertIn(text, contract)
 
-        self.assertIn("3. Run `just post`.", contract)
+        self.assertIn("Workers write only their assigned external YAML", contract)
+        self.assertIn("Do not scan all canonical source YAML", contract)
         self.assertNotIn("`scripts/query_duplicates.py` for duplicate and context lookup", contract)
         self.assertNotIn("`scripts/query_entries.py` for " "compact entry lookup", contract)
         for text in [
@@ -938,6 +943,12 @@ class RefactorSupportTests(unittest.TestCase):
             "indexes:",
             "generate:",
             "post:",
+            "claim-external",
+            "current-external",
+            "complete-external",
+            "release-external",
+            "block-external",
+            "external-status",
             "query-dupes *tags:",
             "query-entries tag:",
         ]:
