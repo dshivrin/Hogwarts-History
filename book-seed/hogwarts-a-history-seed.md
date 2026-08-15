@@ -13811,6 +13811,56 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
   - Notes: It summarizes wizarding law through a teacher's classroom speech.
 
+## Part: Hogwarts Through the Ages
+
+### Chapter: Student Life and Hidden Hogwarts
+
+#### Section: Confiscation and the Map’s Afterlife
+
+Summary: The available evidence includes 1 source item, led by: The Marauder's Map was confiscated by Argus Filch in the four creators' final Hogwarts year, and they did not recover it before their priorities shifted to the rising conflict beyond school.
+
+- **Supporting evidence:** The Marauder's Map was confiscated by Argus Filch in the four creators' final Hogwarts year, and they did not recover it before their priorities shifted to the rising conflict beyond school.
+  - Quote: "The masterpiece of a map was confiscated in Sirius, James, Remus and Peter’s final year"
+  - Source: A11, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, `sources/external/official-rowling/a11-the-marauder-s-map.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source explicitly states that the precise circumstances of the loss are not given in the novels; its reconstruction of the capture is inferential.
+
+#### Section: Rule-Breaking Culture and the Map
+
+Summary: The available evidence includes 1 source item, led by: The Marauder's Map appeared blank until activated by a spoken phrase; its makers used the language and their nicknames as humorous markers of school rule-breaking rather than Dark magic.
+
+- **Supporting evidence:** The Marauder's Map appeared blank until activated by a spoken phrase; its makers used the language and their nicknames as humorous markers of school rule-breaking rather than Dark magic.
+  - Quote: "The ‘no good’ of which they wrote never denoted Dark magic, but school rule-breaking"
+  - Source: A11, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, `sources/external/official-rowling/a11-the-marauder-s-map.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The activation wording and interpretation are reported retrospectively, without a contemporaneous school record.
+
+#### Section: The Marauders and Nocturnal Exploration
+
+Summary: The available evidence includes 1 source item, led by: James Potter, Sirius Black, and Peter Pettigrew learned unregistered Animagus transformations to accompany Remus Lupin safely during full-moon transformations, enabling undetected night exploration of Hogwarts grounds.
+
+- **Supporting evidence:** James Potter, Sirius Black, and Peter Pettigrew learned unregistered Animagus transformations to accompany Remus Lupin safely during full-moon transformations, enabling undetected night exploration of Hogwarts grounds.
+  - Quote: "they sought a way to render his transformations less solitary and painful"
+  - Source: A11, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, `sources/external/official-rowling/a11-the-marauder-s-map.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account is retrospective and does not give calendar dates for the friends' Hogwarts years or their exploration.
+
+### Chapter: The Castle’s Magical Systems
+
+#### Section: Mapping and Occupant-Tracking Magic
+
+Summary: The available evidence includes 1 source item, led by: The map incorporated the Homonculous Charm, allowing its possessor to track every person's movement in Hogwarts Castle; it also rebuffed Severus Snape's attempts to inspect it.
+
+- **Supporting evidence:** The map incorporated the Homonculous Charm, allowing its possessor to track every person's movement in Hogwarts Castle; it also rebuffed Severus Snape's attempts to inspect it.
+  - Quote: "enabling the possessor of the map to track the movements of every person in the castle"
+  - Source: A11, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, `sources/external/official-rowling/a11-the-marauder-s-map.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The account names the charm and describes its effect but does not provide its method of construction or defined coverage limits.
+
 ## Part: Hogwarts in Times of Crisis
 
 ### Chapter: Crisis Authority and School Closure
@@ -15121,6 +15171,98 @@ Summary: The available evidence includes 1 source item, led by: Hermione continu
   - Corroborates: `ps-ch06-004`. ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
   - Notes: The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.
 
+## Part: Part I: The Castle and Its Grounds
+
+### Chapter: The Grounds and the Great Lake
+
+#### Section: Authorial creature note
+
+Summary: The available evidence includes 1 source item, led by: Rowling notes that real giant squid exist and humorously speculates that they have magical powers.
+
+- **Context:** Rowling notes that real giant squid exist and humorously speculates that they have magical powers.
+  - Quote: "I strongly suspect them of having magical powers."
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: The statement about magical powers is expressly Rowling's playful suspicion, not a substantiated claim about real animals or Hogwarts.
+
+#### Section: Authorial development note
+
+Summary: The available evidence includes 1 source item, led by: An original Chamber of Secrets draft would have had Harry and Ron crash the Ford Anglia into the lake and first meet merpeople there; Rowling replaced that scene with the Whomping Willow crash.
+
+- **Context:** An original Chamber of Secrets draft would have had Harry and Ron crash the Ford Anglia into the lake and first meet merpeople there; Rowling replaced that scene with the Whomping Willow crash.
+  - Quote: "I had Harry and Ron crash into the lake in Mr Weasley’s Ford Anglia"
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: This is retrospective authorial drafting commentary, not canonical evidence that the discarded crash or first meeting occurred.
+
+#### Section: Grounds ecology and creature refuge
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts grounds partly function as a reserve for magical creatures that struggle to live in Muggle-inhabited areas.
+
+- **Supporting evidence:** Hogwarts grounds partly function as a reserve for magical creatures that struggle to live in Muggle-inhabited areas.
+  - Quote: "The grounds of Hogwarts function partly as a nature reserve for magical creatures which have difficulty existing in Muggle-inhabited areas."
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: This is a Rowling descriptive statement published in 2015; it does not specify the reserve's legal status, staff, or historical start date.
+
+#### Section: Lake ecology and dangerous residents
+
+Summary: The available evidence includes 1 source item, led by: The Great Lake contains Grindylows, characterized here as vicious small water demons.
+
+- **Supporting evidence:** The Great Lake contains Grindylows, characterized here as vicious small water demons.
+  - Quote: "There are Grindylows (vicious little water demons)"
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The source provides a compact descriptive label rather than a taxonomy, population estimate, or account of Grindylow behavior at Hogwarts.
+
+#### Section: Lake ecology and merpeople
+
+Summary: The available evidence includes 1 source item, led by: The lake's merpeople are identified as a hardy Scottish strain.
+
+- **Supporting evidence:** The lake's merpeople are identified as a hardy Scottish strain.
+  - Quote: "merpeople (of a hardy Scottish strain)"
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: The source calls them a Scottish strain but supplies no name for their settlement, language, governance, or period of residence.
+
+#### Section: Lake ecology and student contact
+
+Summary: The available evidence includes 1 source item, led by: A semi-domesticated giant squid lives in the lake and permits students to tickle its tentacles while it basks in the shallows on sunny days.
+
+- **Supporting evidence:** A semi-domesticated giant squid lives in the lake and permits students to tickle its tentacles while it basks in the shallows on sunny days.
+  - Quote: "a giant squid, which is semi-domesticated"
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source does not establish how often students interact with the squid, whether the practice is supervised, or whether it is an authorized custom.
+
+#### Section: Lake geography and enchanted water travel
+
+Summary: The available evidence includes 1 source item, led by: The Great Lake is presented as a freshwater, landlocked Scottish loch rather than a portal, although an enchanted craft might take a magical shortcut to other waterways.
+
+- **Context:** The Great Lake is presented as a freshwater, landlocked Scottish loch rather than a portal, although an enchanted craft might take a magical shortcut to other waterways.
+  - Quote: "never did develop as a portal to other seas or rivers"
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The freshwater and landlocked description is authorial commentary, while the shortcut is explicitly framed as a possibility inferred from the Durmstrang ship.
+
+#### Section: The lake as tournament venue
+
+Summary: The available evidence includes 1 source item, led by: In Goblet of Fire, the Great Lake is the setting for the Triwizard Tournament's second task.
+
+- **Supporting evidence:** In Goblet of Fire, the Great Lake is the setting for the Triwizard Tournament's second task.
+  - Quote: "The lake is the setting for the second task that the Triwizard competitors must face in *Goblet of Fire*"
+  - Source: A09, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, `sources/external/official-rowling/a09-the-great-lake.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This relates to a specific 1994–95 event and does not show that the lake was routinely used as a public arena.
+
 ## Part: Part I: The School and Its Foundations
 
 ### Chapter: Arrivals, Departures, and the Hogwarts Express
@@ -15264,6 +15406,47 @@ Summary: The available evidence includes 1 source item, led by: Some former head
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: portrait_or_ghost_lore
   - Notes: The passage indicates possible observation but does not state what any specific portrait heard or later disclosed.
+
+## Part: Part II: The School
+
+### Chapter: Houses and Student Leadership
+
+#### Section: Gryffindor prefects
+
+Summary: The available evidence includes 1 source item, led by: Lupin was sorted into Gryffindor and completed his Hogwarts education as a Prefect.
+
+- **Supporting evidence:** Lupin was sorted into Gryffindor and completed his Hogwarts education as a Prefect.
+  - Quote: "Remus finished his school career as a Prefect."
+  - Source: A10, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, `sources/external/official-rowling/a10-remus-lupin.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The biography does not give the years of Lupin's prefect appointment or its specific duties.
+
+### Chapter: Staff and Teaching
+
+#### Section: Defence Against the Dark Arts appointments
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore appointed Lupin Defence Against the Dark Arts teacher with Wolfsbane provision; after his werewolf identity became widely known following a transformation, Lupin resigned.
+
+- **Supporting evidence:** Dumbledore appointed Lupin Defence Against the Dark Arts teacher with Wolfsbane provision; after his werewolf identity became widely known following a transformation, Lupin resigned.
+  - Quote: "Dumbledore offered him the post of Defence Against the Dark Arts teacher."
+  - Source: A10, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, `sources/external/official-rowling/a10-remus-lupin.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account summarizes the sequence without identifying the exact academic dates or the full circumstances of the transformation.
+
+### Chapter: Student Welfare and Accommodation
+
+#### Section: Concealed medical accommodation
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore admitted Lupin to Hogwarts and arranged a spell-guarded Hogsmeade house, reached from the grounds by underground passage, for his monthly transformations.
+
+- **Supporting evidence:** Dumbledore admitted Lupin to Hogwarts and arranged a spell-guarded Hogsmeade house, reached from the grounds by underground passage, for his monthly transformations.
+  - Quote: "Once a month, he would leave for a secure and comfortable house"
+  - Source: A10, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, `sources/external/official-rowling/a10-remus-lupin.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: This retrospective biography does not date the arrangement precisely or name the Hogsmeade house.
 
 ## Part: Part II: The School Community
 
@@ -15588,6 +15771,21 @@ Summary: The available evidence includes 1 source item, led by: The Sword of Gry
   - Reference type: historical_claim
   - Corroborates: `dh-ch14-006`, `dh-ch15-006`, `dh-ch07-006`. Prior entries establish the active locket and the sword's venom/authenticity logic; this entry records the actual destruction event.
   - Notes: The destruction occurs in the Second War and should be excluded from an original pre-1984 edition except as later editorial material.
+
+## Part: Part IV: Legacy and Aftermath
+
+### Chapter: Recognition and Social Change
+
+#### Section: Posthumous honours
+
+Summary: The available evidence includes 1 source item, led by: Lupin became the first werewolf posthumously awarded the Order of Merlin, First Class; the biography says his example helped lessen anti-werewolf stigma.
+
+- **Context:** Lupin became the first werewolf posthumously awarded the Order of Merlin, First Class; the biography says his example helped lessen anti-werewolf stigma.
+  - Quote: "Remus Lupin was posthumously awarded the Order of Merlin, First Class,"
+  - Source: A10, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, `sources/external/official-rowling/a10-remus-lupin.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source asserts that the honour helped lift stigma but does not quantify or independently document that social change.
 
 ## Part: Part V - Magical Creatures, Beings, and Dark Forces
 

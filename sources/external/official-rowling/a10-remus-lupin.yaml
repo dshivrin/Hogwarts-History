@@ -1,0 +1,286 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A10
+  source_file: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+  title: Remus Lupin
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin
+  capture_completeness: complete
+  content_sha256: 079e619f68464d54d9a870de7e021b368213c89538bb50cc76fc3d0a2259f6e6
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a10-001
+    source_file: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+    source_id: A10
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin
+    source_section: Childhood
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Dumbledore explained to the Lupins that he knew what had happened to their son.
+      end_phrase: where he could transform in peace.
+      local_occurrence_note: Childhood section, Dumbledore's explanation of Lupin's admission arrangements.
+    nearby_context: Dumbledore visits the Lupin family shortly before Remus's eleventh birthday and offers him a place at Hogwarts.
+    match_terms:
+      - remus lupin
+      - hogsmeade house
+      - underground passage
+      - werewolf transformation
+    quote_excerpt_short: Once a month, he would leave for a secure and comfortable house
+    source_note: Dumbledore admitted Lupin to Hogwarts and arranged a spell-guarded Hogsmeade house, reached from the grounds by underground passage, for his monthly transformations.
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - remus-lupin
+      - hogsmeade
+      - underground-passage
+      - werewolf
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Student Welfare and Accommodation
+    candidate_section: Concealed medical accommodation
+    reason_for_placement: Documents a headmaster-created accommodation combining secrecy, protected space, and controlled access.
+    relevance_to_hogwarts_a_history: Strong institutional-history evidence for how Hogwarts made exceptional accommodation for a pupil while limiting disclosure of a stigmatized condition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Related entries address Lupin's later accommodation, prejudice, and Hogsmeade, but none state this admission arrangement as the same claim.
+      audit:
+        query_tags:
+          - remus-lupin
+          - hogsmeade
+          - underground-passage
+          - werewolf
+        candidates:
+          - id: poa-ch20-002
+            disposition: corroborating
+          - id: dh-ch11-005
+            disposition: corroborating
+          - id: dh-ch25-001
+            disposition: distinct
+          - id: dh-ch27-006
+            disposition: distinct
+          - id: dh-ch28-001
+            disposition: distinct
+          - id: dh-ch28-002
+            disposition: distinct
+          - id: dh-ch36-004
+            disposition: distinct
+          - id: gof-ch12-005
+            disposition: distinct
+          - id: gof-ch19-001
+            disposition: distinct
+          - id: gof-ch24-005
+            disposition: distinct
+    confidence: high
+    limitations: This retrospective biography does not date the arrangement precisely or name the Hogsmeade house.
+
+  - id: ext-a10-002
+    source_file: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+    source_id: A10
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin
+    source_section: School
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Sorted into Gryffindor house, Remus Lupin was swiftly befriended by two cheerful, confident and rebellious boys, James Potter and Sirius Black.
+      end_phrase: Remus finished his school career as a Prefect.
+      local_occurrence_note: School section, account of Lupin's Gryffindor years and friendships.
+    nearby_context: The narrative recounts Lupin's school friendships, his friends' discovery of his condition, and his completion of Hogwarts.
+    match_terms:
+      - remus lupin
+      - gryffindor
+      - prefect
+      - school years
+    quote_excerpt_short: Remus finished his school career as a Prefect.
+    source_note: Lupin was sorted into Gryffindor and completed his Hogwarts education as a Prefect.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - remus-lupin
+      - gryffindor
+      - prefect
+      - school-years
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Houses and Student Leadership
+    candidate_section: Gryffindor prefects
+    reason_for_placement: Supplies a biographical example of a Gryffindor pupil holding prefect office.
+    relevance_to_hogwarts_a_history: Supports discussion of House affiliation and student leadership in the generation before Harry Potter's schooling.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned entries concern Gryffindor, other prefects, or Lupin in different institutional contexts; none duplicate this combined biographical claim.
+      audit:
+        query_tags:
+          - remus-lupin
+          - gryffindor
+          - prefect
+          - school-years
+        candidates:
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch15-002
+            disposition: distinct
+          - id: cos-ch18-003
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+          - id: dh-ch10-002
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch25-001
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: ext-a06-004
+            disposition: distinct
+    confidence: high
+    limitations: The biography does not give the years of Lupin's prefect appointment or its specific duties.
+
+  - id: ext-a10-003
+    source_file: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+    source_id: A10
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin
+    source_section: Return to Hogwarts
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Once again, Albus Dumbledore changed the course of Remus Lupin’s life when he tracked him down to a tumbledown, semi-derelict cottage in Yorkshire.
+      end_phrase: Remus felt obliged to resign and departed Hogwarts once more.
+      local_occurrence_note: Return to Hogwarts section, covering Lupin's Defence Against the Dark Arts appointment and departure.
+    nearby_context: Dumbledore offers Lupin a teaching post with Wolfsbane supplied by Snape; Lupin's uncontrolled transformation exposes his condition.
+    match_terms:
+      - remus lupin
+      - defence against the dark arts
+      - werewolf
+      - resignation
+    quote_excerpt_short: Dumbledore offered him the post of Defence Against the Dark Arts teacher.
+    source_note: Dumbledore appointed Lupin Defence Against the Dark Arts teacher with Wolfsbane provision; after his werewolf identity became widely known following a transformation, Lupin resigned.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - remus-lupin
+      - defence-against-the-dark-arts
+      - werewolf
+      - resignation
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Staff and Teaching
+    candidate_section: Defence Against the Dark Arts appointments
+    reason_for_placement: Records a specific teacher appointment, exceptional medical provision, and the institutional consequence of public exposure.
+    relevance_to_hogwarts_a_history: Useful for a Harry-era account of staff continuity, the Headmaster's discretion, and prejudice affecting a teacher's tenure.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Multiple book entries corroborate components of Lupin's teaching year and exposure, but this source supplies the integrated appointment-to-resignation account.
+      audit:
+        query_tags:
+          - remus-lupin
+          - defence-against-the-dark-arts
+          - werewolf
+          - resignation
+        candidates:
+          - id: poa-ch20-002
+            disposition: corroborating
+          - id: dh-ch11-005
+            disposition: corroborating
+          - id: dh-ch25-001
+            disposition: distinct
+          - id: gof-ch24-007
+            disposition: distinct
+          - id: hbp-ch16-003
+            disposition: corroborating
+          - id: hbp-ch16-005
+            disposition: distinct
+          - id: ootp-ch09-006
+            disposition: distinct
+          - id: ootp-ch29-006
+            disposition: distinct
+          - id: ootp-ch35-007
+            disposition: distinct
+          - id: poa-ch10-002
+            disposition: distinct
+    confidence: high
+    limitations: The account summarizes the sequence without identifying the exact academic dates or the full circumstances of the transformation.
+
+  - id: ext-a10-004
+    source_file: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+    source_id: A10
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin
+    source_section: Death
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Remus Lupin was posthumously awarded the Order of Merlin, First Class, the first werewolf ever to be accorded this honour.
+      end_phrase: who helped many more than he ever realised.
+      local_occurrence_note: Death section, final paragraph on posthumous recognition and the effect on werewolf stigma.
+    nearby_context: After recounting Lupin's death at the Battle of Hogwarts, the biography describes his posthumous honour and its social effect.
+    match_terms:
+      - remus lupin
+      - order of merlin
+      - werewolf stigma
+    quote_excerpt_short: Remus Lupin was posthumously awarded the Order of Merlin, First Class,
+    source_note: Lupin became the first werewolf posthumously awarded the Order of Merlin, First Class; the biography says his example helped lessen anti-werewolf stigma.
+    reference_type: historical_claim
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - remus-lupin
+      - order-of-merlin
+      - werewolf-stigma
+    candidate_part: 'Part IV: Legacy and Aftermath'
+    candidate_chapter: Recognition and Social Change
+    candidate_section: Posthumous honours
+    reason_for_placement: Preserves a postwar honour and its stated effect on a marginalized group.
+    relevance_to_hogwarts_a_history: A later editorial note, not material for an original pre-1984 edition, but useful to a fan edition's postwar legacy section.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The candidates address related prejudice, Lupin, or the Order of Merlin generally, rather than this specific posthumous award and claimed social effect.
+      audit:
+        query_tags:
+          - remus-lupin
+          - order-of-merlin
+          - werewolf-stigma
+        candidates:
+          - id: dh-ch11-005
+            disposition: corroborating
+          - id: dh-ch25-001
+            disposition: distinct
+          - id: hbp-ch07-006
+            disposition: distinct
+          - id: hbp-ch16-003
+            disposition: distinct
+          - id: hbp-ch16-005
+            disposition: distinct
+          - id: ootp-ch05-007
+            disposition: distinct
+          - id: ootp-ch06-001
+            disposition: distinct
+          - id: ootp-ch09-006
+            disposition: distinct
+          - id: ootp-ch29-006
+            disposition: distinct
+          - id: ootp-ch35-007
+            disposition: distinct
+    confidence: high
+    limitations: The source asserts that the honour helped lift stigma but does not quantify or independently document that social change.

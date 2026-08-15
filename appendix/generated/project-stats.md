@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 225
+- Total: 228
 
 ## Entries by Book or External Source
 
@@ -20,6 +20,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A06 — Hogwarts Ghosts: 7
 - A07 — Hufflepuff Common Room: 5
 - A08 — The Sword of Gryffindor: 5
+- A09 — The Great Lake: 8
+- A10 — Remus Lupin: 4
+- A11 — The Marauder’s Map: 4
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -32,27 +35,28 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 496
-- later_editorial_note: 680
+- harry_era_confirmation: 502
+- later_editorial_note: 683
 - original_book_core_candidate: 8
-- post_1984_excluded_from_original: 13
-- pre_1984_historical_candidate: 219
+- post_1984_excluded_from_original: 14
+- pre_1984_historical_candidate: 225
 - unknown_or_uncertain: 2
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 99
+- cross_reference_candidate: 100
 - curriculum_or_subject: 157
-- direct_observed_setting: 64
+- direct_observed_setting: 67
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 244
+- historical_claim: 249
 - house_system: 28
-- institutional_custom: 193
-- magical_architecture: 104
+- institutional_custom: 196
+- magical_architecture: 105
 - portrait_or_ghost_lore: 32
 - school_rule_or_policy: 144
-- security_or_protection: 235
+- security_or_protection: 236
+- weak_context_only: 2
 
 ## Explicit `Hogwarts: A History` References
 
@@ -64,8 +68,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `A08` — The Sword of Gryffindor, input `resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md`, output `sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml`
+- `A11` — The Marauder’s Map, input `resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md`, output `sources/external/official-rowling/a11-the-marauder-s-map.yaml`
 
 ## Next Pending Unit
 
-- `A09` — The Great Lake, input `resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md`, output `sources/external/official-rowling/a09-the-great-lake.yaml`
+- `A12` — Professor McGonagall, input `resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md`, output `sources/external/official-rowling/a12-professor-mcgonagall.yaml`

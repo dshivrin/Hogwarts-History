@@ -1,0 +1,285 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A11
+  source_file: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+  title: The Marauder’s Map
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map
+  capture_completeness: complete
+  content_sha256: de8b2422e0ba01479388d30cb5454765597ea964260b991c8871c18990a7889b
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a11-001
+    source_file: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+    source_id: A11
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map
+    source_section: The Marauder’s Map
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: James, Sirius and Peter were not initially impelled
+      end_phrase: with the help of James Potter’s Invisibility Cloak
+      local_occurrence_note: Second body paragraph, describing the friends' response to Lupin's lycanthropy and their nocturnal exploration.
+    nearby_context: The account explains why the four Hogwarts friends explored at night and how their Animagus forms and cloak enabled it.
+    match_terms:
+      - unregistered animagi
+      - lycanthropy
+      - nighttime exploration
+      - marauders map
+    quote_excerpt_short: they sought a way to render his transformations less solitary and painful
+    source_note: James Potter, Sirius Black, and Peter Pettigrew learned unregistered Animagus transformations to accompany Remus Lupin safely during full-moon transformations, enabling undetected night exploration of Hogwarts grounds.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - animagi
+      - lycanthropy
+      - marauders-map
+      - night-exploration
+    candidate_part: Hogwarts Through the Ages
+    candidate_chapter: Student Life and Hidden Hogwarts
+    candidate_section: The Marauders and Nocturnal Exploration
+    reason_for_placement: Documents a named group of pupils adapting Hogwarts life and grounds to support a disabled friend.
+    relevance_to_hogwarts_a_history: Useful pre-1984 evidence for student-led magical practice and after-hours engagement with the castle and grounds.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing map and Animagus records corroborate related facts but do not duplicate this account of the friends' purpose and nighttime exploration.
+      audit:
+        query_tags:
+          - animagi
+          - lycanthropy
+          - marauders-map
+          - night-exploration
+        candidates:
+          - id: poa-ch17-005
+            disposition: corroborating
+          - id: dh-ch29-001
+            disposition: distinct
+          - id: dh-ch29-005
+            disposition: distinct
+          - id: gof-ch04-002
+            disposition: distinct
+          - id: gof-ch25-001
+            disposition: distinct
+          - id: gof-ch25-007
+            disposition: distinct
+          - id: gof-ch29-001
+            disposition: distinct
+          - id: gof-ch29-003
+            disposition: distinct
+          - id: hbp-ch18-004
+            disposition: distinct
+          - id: hbp-ch19-006
+            disposition: distinct
+    confidence: high
+    limitations: The account is retrospective and does not give calendar dates for the friends' Hogwarts years or their exploration.
+
+  - id: ext-a11-002
+    source_file: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+    source_id: A11
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map
+    source_section: The Marauder’s Map
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The magic used in the map’s creation is advanced and impressive
+      end_phrase: curiosity of their nemesis, Severus Snape
+      local_occurrence_note: Fourth body paragraph, explaining the map's tracking and anti-Snape enchantments.
+    nearby_context: Rowling identifies the advanced magic embedded in the completed map.
+    match_terms:
+      - homonculous charm
+      - castle surveillance
+      - map enchantment
+      - severus snape
+    quote_excerpt_short: enabling the possessor of the map to track the movements of every person in the castle
+    source_note: The map incorporated the Homonculous Charm, allowing its possessor to track every person's movement in Hogwarts Castle; it also rebuffed Severus Snape's attempts to inspect it.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - castle-surveillance
+      - homonculous-charm
+      - marauders-map
+    candidate_part: Hogwarts Through the Ages
+    candidate_chapter: The Castle’s Magical Systems
+    candidate_section: Mapping and Occupant-Tracking Magic
+    reason_for_placement: Specifies a Hogwarts-focused magical information system created by pupils.
+    relevance_to_hogwarts_a_history: Establishes the map's castle-wide surveillance function and advanced enchantment as pre-1984 school history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Later book entries corroborate the map's surveillance use but do not duplicate this source's explicit identification of the Homonculous Charm.
+      audit:
+        query_tags:
+          - castle-surveillance
+          - homonculous-charm
+          - marauders-map
+        candidates:
+          - id: dh-ch29-001
+            disposition: distinct
+          - id: dh-ch29-005
+            disposition: distinct
+          - id: gof-ch04-002
+            disposition: corroborating
+          - id: gof-ch25-001
+            disposition: corroborating
+          - id: gof-ch25-007
+            disposition: corroborating
+          - id: gof-ch29-001
+            disposition: corroborating
+          - id: gof-ch29-003
+            disposition: corroborating
+          - id: hbp-ch18-004
+            disposition: corroborating
+          - id: hbp-ch19-006
+            disposition: corroborating
+          - id: hbp-ch21-004
+            disposition: corroborating
+    confidence: high
+    limitations: The account names the charm and describes its effect but does not provide its method of construction or defined coverage limits.
+
+  - id: ext-a11-003
+    source_file: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+    source_id: A11
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map
+    source_section: The Marauder’s Map
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Marauder’s Map is a lasting testimony
+      end_phrase: Messrs Moony, Wormtail, Padfoot and Prongs
+      local_occurrence_note: Third body paragraph, describing the map's creators, activation phrase, and school-rule-breaking framing.
+    nearby_context: The map is described as a blank parchment until activated, while its makers' self-presentation is distinguished from Dark magic.
+    match_terms:
+      - activation phrase
+      - school rule-breaking
+      - marauders map
+      - nicknames
+    quote_excerpt_short: The ‘no good’ of which they wrote never denoted Dark magic, but school rule-breaking
+    source_note: The Marauder's Map appeared blank until activated by a spoken phrase; its makers used the language and their nicknames as humorous markers of school rule-breaking rather than Dark magic.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - activation-phrase
+      - marauders-map
+      - school-rule-breaking
+    candidate_part: Hogwarts Through the Ages
+    candidate_chapter: Student Life and Hidden Hogwarts
+    candidate_section: Rule-Breaking Culture and the Map
+    reason_for_placement: Clarifies how the makers framed their illicit school conduct and the map's controlled activation.
+    relevance_to_hogwarts_a_history: Supplies an official retrospective distinction between student misconduct and Dark magic in the Marauders' school-era context.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries describe the map's later use in rule-breaking but do not duplicate the activation mechanism or the source's interpretive framing.
+      audit:
+        query_tags:
+          - activation-phrase
+          - marauders-map
+          - school-rule-breaking
+        candidates:
+          - id: dh-ch29-001
+            disposition: distinct
+          - id: dh-ch29-005
+            disposition: distinct
+          - id: gof-ch04-002
+            disposition: distinct
+          - id: gof-ch25-001
+            disposition: corroborating
+          - id: gof-ch25-007
+            disposition: distinct
+          - id: gof-ch29-001
+            disposition: distinct
+          - id: gof-ch29-003
+            disposition: distinct
+          - id: hbp-ch18-004
+            disposition: distinct
+          - id: hbp-ch19-006
+            disposition: distinct
+          - id: hbp-ch21-004
+            disposition: distinct
+    confidence: high
+    limitations: The activation wording and interpretation are reported retrospectively, without a contemporaneous school record.
+
+  - id: ext-a11-004
+    source_file: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+    source_id: A11
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map
+    source_section: The Marauder’s Map
+    source_class: official_rowling_original
+    authority: A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Although the precise circumstances surrounding the makers’ loss of their map
+      end_phrase: except as a piece of nostalgia
+      local_occurrence_note: Fifth body paragraph, narrating the map's likely confiscation and the makers' changing priorities in their final year.
+    nearby_context: Rowling distinguishes an inference about how the map was lost from the reported final-year confiscation and the creators' later involvement in the Order of the Phoenix.
+    match_terms:
+      - argus filch
+      - confiscation
+      - final year
+      - marauders map
+    quote_excerpt_short: The masterpiece of a map was confiscated in Sirius, James, Remus and Peter’s final year
+    source_note: The Marauder's Map was confiscated by Argus Filch in the four creators' final Hogwarts year, and they did not recover it before their priorities shifted to the rising conflict beyond school.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - argus-filch
+      - confiscation
+      - final-year
+      - marauders-map
+    candidate_part: Hogwarts Through the Ages
+    candidate_chapter: Student Life and Hidden Hogwarts
+    candidate_section: Confiscation and the Map’s Afterlife
+    reason_for_placement: Records the map's school-era disposition through a named member of Hogwarts staff.
+    relevance_to_hogwarts_a_history: Provides a pre-1984 endpoint for the map's original student use, while preserving the source's uncertainty about the exact circumstances.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate concerns the historical confiscation event; the shared map references concern later use or other castle routes.
+      audit:
+        query_tags:
+          - argus-filch
+          - confiscation
+          - final-year
+          - marauders-map
+        candidates:
+          - id: dh-ch29-001
+            disposition: distinct
+          - id: dh-ch29-005
+            disposition: distinct
+          - id: gof-ch04-002
+            disposition: distinct
+          - id: gof-ch25-001
+            disposition: distinct
+          - id: gof-ch25-007
+            disposition: distinct
+          - id: gof-ch29-001
+            disposition: distinct
+          - id: gof-ch29-003
+            disposition: distinct
+          - id: hbp-ch18-004
+            disposition: distinct
+          - id: hbp-ch19-006
+            disposition: distinct
+          - id: hbp-ch21-004
+            disposition: distinct
+    confidence: high
+    limitations: The source explicitly states that the precise circumstances of the loss are not given in the novels; its reconstruction of the capture is inferential.

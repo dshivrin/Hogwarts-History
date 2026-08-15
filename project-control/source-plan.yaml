@@ -1121,16 +1121,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
     manifest_id: external-A09
     output_file: sources/external/official-rowling/a09-the-great-lake.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:38:41Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:31:38Z'
+      agent: source-agent-a09
+    - event: completed
+      at: '2026-08-15T14:38:41Z'
     staging_file: work/external-staging/a09.yaml
   - id: A10
     title: Remus Lupin
@@ -1140,16 +1145,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
     manifest_id: external-A10
     output_file: sources/external/official-rowling/a10-remus-lupin.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:39:47Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:31:39Z'
+      agent: source-agent-a10
+    - event: completed
+      at: '2026-08-15T14:39:47Z'
     staging_file: work/external-staging/a10.yaml
   - id: A11
     title: The Marauder’s Map
@@ -1159,16 +1169,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
     manifest_id: external-A11
     output_file: sources/external/official-rowling/a11-the-marauder-s-map.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:40:54Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:31:39Z'
+      agent: source-agent-a11
+    - event: completed
+      at: '2026-08-15T14:40:54Z'
     staging_file: work/external-staging/a11.yaml
   - id: A12
     title: Professor McGonagall

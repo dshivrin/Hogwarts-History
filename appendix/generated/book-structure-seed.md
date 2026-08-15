@@ -560,6 +560,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Hogwarts Through the Ages
+
+- Student Life and Hidden Hogwarts
+  - Confiscation and the Map’s Afterlife
+  - Rule-Breaking Culture and the Map
+  - The Marauders and Nocturnal Exploration
+- The Castle’s Magical Systems
+  - Mapping and Occupant-Tracking Magic
+
 ## Hogwarts in Times of Crisis
 
 - Crisis Authority and School Closure
@@ -1296,6 +1305,18 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Named Histories And School-Age Reference Books
   - A History of Magic as a portable reference tradition
 
+## Part I: The Castle and Its Grounds
+
+- The Grounds and the Great Lake
+  - Authorial creature note
+  - Authorial development note
+  - Grounds ecology and creature refuge
+  - Lake ecology and dangerous residents
+  - Lake ecology and merpeople
+  - Lake ecology and student contact
+  - Lake geography and enchanted water travel
+  - The lake as tournament venue
+
 ## Part I: The School and Its Foundations
 
 - Arrivals, Departures, and the Hogwarts Express
@@ -1327,6 +1348,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - How magical portraits function
   - Ordinary enchanted portraits
   - Portrait observation in the headmaster's office
+
+## Part II: The School
+
+- Houses and Student Leadership
+  - Gryffindor prefects
+- Staff and Teaching
+  - Defence Against the Dark Arts appointments
+- Student Welfare and Accommodation
+  - Concealed medical accommodation
 
 ## Part II: The School Community
 
@@ -1384,6 +1414,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Parseltongue access and Horcrux resistance
 - The Destruction Of Slytherin's Locket
   - Gryffindor's sword as a Horcrux-destroying weapon
+
+## Part IV: Legacy and Aftermath
+
+- Recognition and Social Change
+  - Posthumous honours
 
 ## Part V - Magical Creatures, Beings, and Dark Forces
 

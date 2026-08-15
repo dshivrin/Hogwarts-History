@@ -156,6 +156,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+  activation-phrase:
+    entries:
+    - ext-a11-003
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   address-tracking:
     entries:
     - ps-ch03-003
@@ -468,6 +473,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
   animagi:
     entries:
+    - ext-a11-001
     - ootp-ch17-007
     - poa-ch06-004
     - poa-ch17-005
@@ -481,6 +487,7 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   animagus:
     entries:
     - beedle-ch04-002
@@ -716,6 +723,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  argus-filch:
+    entries:
+    - ext-a11-004
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   ariana-dumbledore:
     entries:
     - dh-ch08-005
@@ -2400,6 +2412,11 @@ tags:
     - hbp-ch28-003
     output_yaml:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
+  castle-surveillance:
+    entries:
+    - ext-a11-002
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   castle-windows:
     entries:
     - poa-ch21-007
@@ -2596,6 +2613,7 @@ tags:
     - ext-a01-001
     - ext-a01-002
     - ext-a01-003
+    - ext-a09-006
     - hbp-ch17-005
     - hbp-ch19-002
     - hbp-ch23-006
@@ -2618,6 +2636,7 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   champion-points:
     entries:
     - gof-ch31-004
@@ -3201,6 +3220,11 @@ tags:
     - poa-ch14-007
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+  confiscation:
+    entries:
+    - ext-a11-004
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   confundus-charm:
     entries:
     - gof-ch17-005
@@ -4227,6 +4251,11 @@ tags:
     - dh-ch26-004
     output_yaml:
     - sources/book-07/chapter-26-gringotts.yaml
+  defence-against-the-dark-arts:
+    entries:
+    - ext-a10-003
+    output_yaml:
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   defenders:
     entries:
     - dh-ch36-001
@@ -5622,6 +5651,7 @@ tags:
     entries:
     - dh-ch08-002
     - dh-ch18-005
+    - ext-a09-007
     - gof-ch11-004
     - gof-ch12-007
     - gof-ch15-005
@@ -5654,6 +5684,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   dursley-family:
     entries:
     - dh-ch03-001
@@ -6708,6 +6739,11 @@ tags:
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  final-year:
+    entries:
+    - ext-a11-004
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   financial-assistance:
     entries:
     - hbp-ch13-006
@@ -7600,11 +7636,14 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
   giant-squid:
     entries:
+    - ext-a09-004
+    - ext-a09-008
     - gof-ch24-005
     - ps-ch16-002
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   giant-wars:
     entries:
     - ootp-ch12-003
@@ -8074,10 +8113,18 @@ tags:
     - sources/book-04/chapter-23-the-yule-ball.yaml
   great-lake:
     entries:
+    - ext-a09-001
+    - ext-a09-002
+    - ext-a09-003
+    - ext-a09-004
+    - ext-a09-005
+    - ext-a09-006
+    - ext-a09-007
     - poa-ch20-004
     - poa-ch20-007
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   greater-good:
     entries:
     - dh-ch18-006
@@ -8214,6 +8261,7 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
   grindylows:
     entries:
+    - ext-a09-002
     - gof-ch26-006
     - poa-ch08-001
     - poa-ch16-004
@@ -8221,6 +8269,7 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   gringotts:
     entries:
     - dh-ch15-004
@@ -8343,6 +8392,7 @@ tags:
     - ext-a08-001
     - ext-a08-002
     - ext-a08-004
+    - ext-a10-002
     - gof-ch05-005
     - gof-ch06-004
     - gof-ch15-004
@@ -8417,6 +8467,7 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
     - sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   gryffindor-common-room:
     entries:
     - hbp-ch12-007
@@ -9758,6 +9809,7 @@ tags:
     - dh-ch28-001
     - dh-ch28-002
     - dh-ch36-004
+    - ext-a10-001
     - gof-ch12-005
     - gof-ch19-001
     - gof-ch24-005
@@ -9818,6 +9870,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -10068,6 +10121,7 @@ tags:
     entries:
     - cos-ch05-003
     - ext-a04-001
+    - ext-a09-001
     - gof-ch04-003
     - gof-ch15-006
     - gof-ch16-005
@@ -10114,6 +10168,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   hogwarts-headmaster:
     entries:
     - dh-ch02-005
@@ -10459,6 +10514,11 @@ tags:
     - ootp-ch16-003
     output_yaml:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  homonculous-charm:
+    entries:
+    - ext-a11-002
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   honeydukes:
     entries:
     - poa-ch10-004
@@ -12503,6 +12563,11 @@ tags:
     - poa-ch19-001
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  lycanthropy:
+    entries:
+    - ext-a11-001
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   macnair:
     entries:
     - ootp-ch20-005
@@ -12898,6 +12963,11 @@ tags:
     - dh-ch12-007
     - dh-ch20-006
     - dh-ch27-001
+    - ext-a09-001
+    - ext-a09-002
+    - ext-a09-003
+    - ext-a09-004
+    - ext-a09-008
     - gof-ch08-006
     - gof-ch09-005
     - gof-ch19-005
@@ -12946,6 +13016,7 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -13258,6 +13329,11 @@ tags:
     - hbp-ch26-005
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  magical-powers:
+    entries:
+    - ext-a09-008
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   magical-races:
     entries:
     - dh-ch25-003
@@ -13459,6 +13535,7 @@ tags:
     - ext-a04-001
     - ext-a04-002
     - ext-a04-003
+    - ext-a09-007
     - gof-ch04-004
     - poa-ch03-002
     output_yaml:
@@ -13471,6 +13548,7 @@ tags:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   magical-transportation:
     entries:
     - gof-ch06-001
@@ -13620,6 +13698,10 @@ tags:
     entries:
     - dh-ch29-001
     - dh-ch29-005
+    - ext-a11-001
+    - ext-a11-002
+    - ext-a11-003
+    - ext-a11-004
     - gof-ch04-002
     - gof-ch25-001
     - gof-ch25-007
@@ -13661,6 +13743,7 @@ tags:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   marble-staircase:
     entries:
     - gof-ch22-003
@@ -13966,6 +14049,8 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   merpeople:
     entries:
+    - ext-a09-003
+    - ext-a09-006
     - gof-ch25-003
     - gof-ch26-007
     - gof-ch27-001
@@ -13975,6 +14060,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   metamorph-medals:
     entries:
     - hbp-ch05-002
@@ -15042,9 +15128,11 @@ tags:
     entries:
     - beedle-ch04-004
     - dh-ch12-006
+    - ext-a09-008
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   mundungus-fletcher:
     entries:
     - dh-ch05-006
@@ -15126,6 +15214,11 @@ tags:
     - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  nature-reserve:
+    entries:
+    - ext-a09-001
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   nature-s-nobility:
     entries:
     - dh-ch22-002
@@ -15266,6 +15359,11 @@ tags:
     - gof-ch28-002
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  night-exploration:
+    entries:
+    - ext-a11-001
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   night-guard:
     entries:
     - cos-ch16-004
@@ -15664,6 +15762,7 @@ tags:
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
   order-of-merlin:
     entries:
+    - ext-a10-004
     - hbp-ch07-006
     - ootp-ch05-007
     - ootp-ch06-001
@@ -15673,6 +15772,7 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   order-of-suspension:
     entries:
     - cos-ch14-006
@@ -15797,6 +15897,11 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+  original-draft:
+    entries:
+    - ext-a09-006
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   original-order-phoenix:
     entries:
     - ootp-ch09-007
@@ -17145,6 +17250,11 @@ tags:
     - gof-ch14-006
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+  prefect:
+    entries:
+    - ext-a10-002
+    output_yaml:
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   prefect-carriage:
     entries:
     - hbp-ch07-002
@@ -18524,6 +18634,10 @@ tags:
     entries:
     - dh-ch11-005
     - dh-ch25-001
+    - ext-a10-001
+    - ext-a10-002
+    - ext-a10-003
+    - ext-a10-004
     - hbp-ch16-003
     - hbp-ch16-005
     - ootp-ch09-006
@@ -18548,6 +18662,7 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   rennervate:
     entries:
     - gof-ch28-007
@@ -18575,9 +18690,11 @@ tags:
     - sources/book-04/chapter-31-the-third-task.yaml
   resignation:
     entries:
+    - ext-a10-003
     - gof-ch24-007
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   resistance-continuity:
     entries:
     - dh-ch34-002
@@ -19465,6 +19582,11 @@ tags:
     - gof-ch23-005
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+  school-rule-breaking:
+    entries:
+    - ext-a11-003
+    output_yaml:
+    - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   school-rules:
     entries:
     - gof-ch11-003
@@ -19669,6 +19791,11 @@ tags:
     - ps-ch04-004
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  school-years:
+    entries:
+    - ext-a10-002
+    output_yaml:
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   schoolchild-knowledge:
     entries:
     - beedle-ch04-005
@@ -19693,6 +19820,11 @@ tags:
     - qtta-ch06-001
     output_yaml:
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  scottish-strain:
+    entries:
+    - ext-a09-003
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   scrimgeour:
     entries:
     - dh-ch07-002
@@ -19725,6 +19857,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
   second-task:
     entries:
+    - ext-a09-005
     - gof-ch20-007
     - gof-ch21-001
     - gof-ch22-006
@@ -19742,6 +19875,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   second-war:
     entries:
     - dh-ch01-002
@@ -21748,6 +21882,11 @@ tags:
     - ootp-ch19-005
     output_yaml:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  student-custom:
+    entries:
+    - ext-a09-004
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   student-customs:
     entries:
     - gof-ch21-002
@@ -23512,6 +23651,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
   triwizard-tournament:
     entries:
+    - ext-a09-005
     - gof-ch07-007
     - gof-ch11-003
     - gof-ch12-005
@@ -23594,6 +23734,7 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   triwizard-winnings:
     entries:
     - gof-ch37-001
@@ -23814,6 +23955,11 @@ tags:
     - ps-ch06-007
     output_yaml:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
+  underground-passage:
+    entries:
+    - ext-a10-001
+    output_yaml:
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   underground-tunnels:
     entries:
     - cos-ch16-007
@@ -24677,11 +24823,21 @@ tags:
     - dh-ch01-004
     output_yaml:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  water-demons:
+    entries:
+    - ext-a09-002
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   water-trap:
     entries:
     - hbp-ch26-007
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  waterways:
+    entries:
+    - ext-a09-007
+    output_yaml:
+    - sources/external/official-rowling/a09-the-great-lake.yaml
   weasley-family:
     entries:
     - cos-ch04-003
@@ -24746,11 +24902,14 @@ tags:
     - sources/book-03/chapter-01-owl-post.yaml
   werewolf:
     entries:
+    - ext-a10-001
+    - ext-a10-003
     - poa-ch20-002
     - poa-ch22-003
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   werewolf-bite:
     entries:
     - ootp-ch22-007
@@ -24774,8 +24933,10 @@ tags:
   werewolf-stigma:
     entries:
     - dh-ch11-005
+    - ext-a10-004
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/external/official-rowling/a10-remus-lupin.yaml
   werewolves:
     entries:
     - cos-ch15-003

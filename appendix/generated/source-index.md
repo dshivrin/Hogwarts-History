@@ -231,3 +231,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A06`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, 7 entries, 0 explicit references.
 - `A07`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, 5 entries, 0 explicit references.
 - `A08`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, 5 entries, 0 explicit references.
+- `A09`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, 8 entries, 0 explicit references.
+- `A10`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, 4 entries, 0 explicit references.
+- `A11`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, 4 entries, 0 explicit references.
