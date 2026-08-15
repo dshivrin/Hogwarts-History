@@ -50,11 +50,18 @@ def score_entry(entry: dict, tags: set[str], chapter: str | None, section: str |
     return score
 
 
-def query(root: Path, args: argparse.Namespace) -> dict:
+def query_candidates(
+    root: Path,
+    *,
+    tags: list[str],
+    candidate_chapter: str | None = None,
+    candidate_section: str | None = None,
+    limit: int = 10,
+) -> dict:
     control = root / "project-control"
     tag_index = load_yaml(control / "tag-index.yaml")
     duplicate_index = load_yaml(control / "duplicate-index.yaml")
-    requested_tags = {str(tag) for tag in args.tags or []}
+    requested_tags = {str(tag) for tag in tags}
 
     candidate_ids: set[str] = set()
     if requested_tags:
@@ -67,12 +74,19 @@ def query(root: Path, args: argparse.Namespace) -> dict:
         if not isinstance(entry, dict):
             continue
         entry_id = str(entry.get("entry_id") or "")
-        score = score_entry(entry, requested_tags, args.candidate_chapter, args.candidate_section)
+        score = score_entry(
+            entry,
+            requested_tags,
+            candidate_chapter,
+            candidate_section,
+        )
         if requested_tags and entry_id not in candidate_ids and score == 0:
             continue
-        if not requested_tags and score == 0 and (args.candidate_chapter or args.candidate_section):
+        if not requested_tags and score == 0 and (
+            candidate_chapter or candidate_section
+        ):
             continue
-        if not requested_tags and not args.candidate_chapter and not args.candidate_section:
+        if not requested_tags and not candidate_chapter and not candidate_section:
             continue
         if score == 0:
             continue
@@ -91,11 +105,21 @@ def query(root: Path, args: argparse.Namespace) -> dict:
     return {
         "query": {
             "tags": sorted(requested_tags),
-            "candidate_chapter": args.candidate_chapter,
-            "candidate_section": args.candidate_section,
+            "candidate_chapter": candidate_chapter,
+            "candidate_section": candidate_section,
         },
-        "matches": matches[: max(args.limit, 0)],
+        "matches": matches[: max(limit, 0)],
     }
+
+
+def query(root: Path, args: argparse.Namespace) -> dict:
+    return query_candidates(
+        root,
+        tags=list(args.tags or []),
+        candidate_chapter=args.candidate_chapter,
+        candidate_section=args.candidate_section,
+        limit=args.limit,
+    )
 
 
 def main(argv: list[str] | None = None) -> int:

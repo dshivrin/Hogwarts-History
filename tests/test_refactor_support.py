@@ -341,6 +341,81 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertIn("ps-ch07-001", match_ids)
         self.assertNotIn("ps-ch03-001", match_ids)
 
+    def test_query_duplicates_exposes_ranked_limited_candidate_api(self) -> None:
+        query_duplicates = importlib.import_module("scripts.query_duplicates")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            control = root / "project-control"
+            control.mkdir(parents=True)
+            sorting_ids = ["exact-two", "exact-one"] + [
+                f"weak-{number:02d}" for number in range(1, 11)
+            ]
+            (control / "tag-index.yaml").write_text(
+                yaml.safe_dump(
+                    {
+                        "tags": {
+                            "sorting-hat": {"entries": sorting_ids},
+                            "selection": {"entries": ["exact-two"]},
+                        }
+                    },
+                    sort_keys=False,
+                ),
+                encoding="utf-8",
+            )
+            entries = [
+                {
+                    "entry_id": "exact-two",
+                    "canonical_topic": "sorting-hat-selection",
+                    "tags": ["sorting-hat", "selection"],
+                    "source_note": "Matches both requested tags.",
+                    "output_yaml": "sources/book-01/exact-two.yaml",
+                },
+                {
+                    "entry_id": "exact-one",
+                    "canonical_topic": "sorting-hat",
+                    "tags": ["sorting-hat"],
+                    "source_note": "Matches one requested tag.",
+                    "output_yaml": "sources/book-01/exact-one.yaml",
+                },
+            ]
+            entries.extend(
+                {
+                    "entry_id": f"weak-{number:02d}",
+                    "canonical_topic": "sorting-hat",
+                    "tags": ["sorting-hat"],
+                    "source_note": "Matches one requested tag.",
+                    "output_yaml": f"sources/book-01/weak-{number:02d}.yaml",
+                }
+                for number in range(1, 11)
+            )
+            (control / "duplicate-index.yaml").write_text(
+                yaml.safe_dump({"entries": entries}, sort_keys=False),
+                encoding="utf-8",
+            )
+
+            payload = query_duplicates.query_candidates(
+                root,
+                tags=["sorting-hat", "selection"],
+                limit=10,
+            )
+
+        self.assertEqual(
+            [row["entry_id"] for row in payload["matches"]],
+            [
+                "exact-two",
+                "exact-one",
+                "weak-01",
+                "weak-02",
+                "weak-03",
+                "weak-04",
+                "weak-05",
+                "weak-06",
+                "weak-07",
+                "weak-08",
+            ],
+        )
+
     def test_query_entries_filters_by_tag_and_classification(self) -> None:
         query_entries = importlib.import_module("scripts.query_entries")
 

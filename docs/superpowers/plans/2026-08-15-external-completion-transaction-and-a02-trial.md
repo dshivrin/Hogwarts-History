@@ -38,7 +38,7 @@
 
 ### Task 1: Share the exact duplicate-candidate query
 
-**Status:** pending
+**Status:** done
 
 **Files:**
 - Modify: `scripts/query_duplicates.py`
@@ -49,9 +49,9 @@
 - Produces: `query_candidates(root: Path, *, tags: list[str], candidate_chapter: str | None = None, candidate_section: str | None = None, limit: int = 10) -> dict`.
 - Preserves: `query(root: Path, args: argparse.Namespace) -> dict` and the existing CLI output shape.
 
-- [ ] **Step 1: Add a failing test for the shared query API**
+- [x] **Step 1: Add a failing test for the shared query API**
 
-  In `QueryScriptTests` in `tests/test_refactor_support.py`, construct literal tag and duplicate indexes whose scores force the order `exact-two`, `exact-one`, then `weak`, with an eleventh match excluded by `limit=10`. Call:
+  In `RefactorSupportTests` in `tests/test_refactor_support.py`, construct literal tag and duplicate indexes whose scores force the order `exact-two`, `exact-one`, then `weak`, with an eleventh match excluded by `limit=10`. Call:
 
   ```python
   payload = query_duplicates.query_candidates(
@@ -78,17 +78,17 @@
 
   The fixture must use literal expected IDs; do not calculate the expected order with `score_entry()`.
 
-- [ ] **Step 2: Run the focused test and verify RED**
+- [x] **Step 2: Run the focused test and verify RED**
 
   Run:
 
   ```bash
-  .venv/bin/python -m unittest tests.test_refactor_support.QueryScriptTests.test_query_duplicates_exposes_ranked_limited_candidate_api -v
+  .venv/bin/python -m unittest tests.test_refactor_support.RefactorSupportTests.test_query_duplicates_exposes_ranked_limited_candidate_api -v
   ```
 
   Expected: ERROR because `scripts.query_duplicates` has no `query_candidates` attribute.
 
-- [ ] **Step 3: Extract the existing query body into the pure API**
+- [x] **Step 3: Extract the existing query body into the pure API**
 
   Add the exact interface:
 
@@ -167,17 +167,17 @@
 
   Do not change score calculation, alphabetical tie-breaking, tag-index filtering, or CLI serialization.
 
-- [ ] **Step 4: Run focused and existing query tests and verify GREEN**
+- [x] **Step 4: Run focused and existing query tests and verify GREEN**
 
   Run:
 
   ```bash
-  .venv/bin/python -m unittest tests.test_refactor_support.QueryScriptTests -v
+  .venv/bin/python -m unittest tests.test_refactor_support.RefactorSupportTests.test_query_duplicates_exposes_ranked_limited_candidate_api tests.test_refactor_support.RefactorSupportTests.test_query_duplicates_returns_only_matching_tags -v
   ```
 
   Expected: all query-script tests pass with the existing CLI output unchanged.
 
-- [ ] **Step 5: Commit the shared query API**
+- [x] **Step 5: Commit the shared query API**
 
   ```bash
   git add scripts/query_duplicates.py tests/test_refactor_support.py
@@ -524,7 +524,7 @@
 
   ```bash
   .venv/bin/python scripts/validate_source_yaml.py
-  .venv/bin/python -m unittest tests.test_external_source_automation.QueueTransitionTests tests.test_refactor_support.QueryScriptTests -v
+  .venv/bin/python -m unittest tests.test_external_source_automation.QueueTransitionTests tests.test_refactor_support.RefactorSupportTests.test_query_duplicates_exposes_ranked_limited_candidate_api tests.test_refactor_support.RefactorSupportTests.test_query_duplicates_returns_only_matching_tags -v
   git diff --check
   ```
 
