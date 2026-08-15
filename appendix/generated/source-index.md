@@ -225,3 +225,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `qtta-ch11`: Quidditch Through the Ages, Back Cover, pages 65-65, 1 entries, 0 explicit references.
 - `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
 - `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
+- `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.
+- `A04`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, 5 entries, 0 explicit references.
+- `A05`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, 4 entries, 0 explicit references.

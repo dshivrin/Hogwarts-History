@@ -166,6 +166,16 @@ tags:
     - cos-ch12-001
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  admission-finality:
+    entries:
+    - ext-a03-002
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
+  admission-system:
+    entries:
+    - ext-a03-001
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   admissions:
     entries:
     - cos-ch01-004
@@ -196,6 +206,11 @@ tags:
     - beedle-ch04-004
     output_yaml:
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  admissions-threshold:
+    entries:
+    - ext-a03-004
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   advanced-defense:
     entries:
     - hbp-ch05-005
@@ -499,6 +514,7 @@ tags:
   anti-apparition:
     entries:
     - dh-ch30-004
+    - ext-a04-001
     - hbp-ch04-001
     - hbp-ch17-002
     - hbp-ch18-003
@@ -513,6 +529,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   anti-cheating-charms:
     entries:
     - ootp-ch31-003
@@ -1610,6 +1627,16 @@ tags:
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  book-of-admittance:
+    entries:
+    - ext-a03-001
+    - ext-a03-002
+    - ext-a03-003
+    - ext-a03-004
+    - ext-a03-005
+    - ext-a03-006
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   book-protection:
     entries:
     - qtta-fm-005
@@ -2142,6 +2169,11 @@ tags:
     - hbp-ch08-001
     output_yaml:
     - sources/book-06/chapter-08-snape-victorious.yaml
+  castle-completion:
+    entries:
+    - ext-a03-001
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   castle-corridors:
     entries:
     - hbp-ch15-001
@@ -2279,6 +2311,7 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
   castle-protections:
     entries:
+    - ext-a04-001
     - hbp-ch08-002
     - ootp-ch27-007
     - poa-ch09-001
@@ -2288,6 +2321,7 @@ tags:
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   castle-residence:
     entries:
     - ootp-ch26-006
@@ -5900,8 +5934,10 @@ tags:
   enchantment:
     entries:
     - dh-ch26-003
+    - ext-a05-001
     output_yaml:
     - sources/book-07/chapter-26-gringotts.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   enchantments:
     entries:
     - ps-ch13-006
@@ -6375,6 +6411,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
   fat-lady:
     entries:
+    - ext-a05-002
     - gof-ch17-007
     - gof-ch19-007
     - gof-ch22-007
@@ -6399,6 +6436,7 @@ tags:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   fawkes:
     entries:
     - cos-ch17-005
@@ -9006,6 +9044,8 @@ tags:
     - dh-ch15-007
     - dh-ch33-002
     - dh-ch36-006
+    - ext-a05-003
+    - ext-a05-004
     - gof-ch28-006
     - gof-ch29-006
     - gof-ch30-001
@@ -9036,11 +9076,14 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   headmaster-portraits:
     entries:
     - cos-ch12-001
     - cos-ch13-006
     - dh-ch36-006
+    - ext-a05-003
+    - ext-a05-004
     - gof-ch30-001
     - hbp-ch10-003
     - hbp-ch17-003
@@ -9065,6 +9108,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   headmaster-public-cover:
     entries:
     - hbp-ch25-007
@@ -9857,6 +9901,8 @@ tags:
     - cos-ch18-007
     - dh-ch25-007
     - dh-ch33-004
+    - ext-a04-004
+    - ext-a04-005
     - gof-ch03-003
     - gof-ch11-002
     - hbp-ch07-001
@@ -9895,6 +9941,12 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
+  hogwarts-founders:
+    entries:
+    - ext-a03-001
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   hogwarts-four:
     entries:
     - cos-ch17-006
@@ -9918,6 +9970,7 @@ tags:
   hogwarts-grounds:
     entries:
     - cos-ch05-003
+    - ext-a04-001
     - gof-ch04-003
     - gof-ch15-006
     - gof-ch16-005
@@ -9963,6 +10016,7 @@ tags:
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   hogwarts-headmaster:
     entries:
     - dh-ch02-005
@@ -11228,12 +11282,14 @@ tags:
     - dh-ch10-001
     - dh-ch15-007
     - dh-ch36-006
+    - ext-a05-003
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   institutional-secrecy:
     entries:
     - cos-ch13-005
@@ -11351,6 +11407,11 @@ tags:
     - gof-ch08-005
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  international-statute-secrecy:
+    entries:
+    - ext-a04-002
+    output_yaml:
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   international-transport:
     entries:
     - gof-ch07-006
@@ -12470,8 +12531,13 @@ tags:
   magical-ability:
     entries:
     - beedle-ch04-004
+    - ext-a03-003
+    - ext-a03-004
+    - ext-a03-005
+    - ext-a03-006
     output_yaml:
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   magical-architecture:
     entries:
     - cos-ch11-007
@@ -13059,9 +13125,11 @@ tags:
     - sources/book-06/chapter-22-after-the-burial.yaml
   magical-portraits:
     entries:
+    - ext-a05-001
     - hbp-ch01-001
     output_yaml:
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   magical-power:
     entries:
     - hbp-ch26-005
@@ -13265,6 +13333,9 @@ tags:
     - dh-ch12-003
     - dh-ch14-001
     - dh-ch23-005
+    - ext-a04-001
+    - ext-a04-002
+    - ext-a04-003
     - gof-ch04-004
     - poa-ch03-002
     output_yaml:
@@ -13276,6 +13347,7 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   magical-transportation:
     entries:
     - gof-ch06-001
@@ -13685,6 +13757,7 @@ tags:
   memory-charms:
     entries:
     - cos-ch03-004
+    - ext-a04-004
     - gof-ch01-003
     - gof-ch07-001
     - gof-ch09-007
@@ -13697,6 +13770,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   memory-magic:
     entries:
     - cos-ch13-004
@@ -14024,6 +14098,8 @@ tags:
     - dh-ch19-007
     - dh-ch21-007
     - dh-ch33-003
+    - ext-a04-004
+    - ext-a04-005
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -14162,6 +14238,7 @@ tags:
     - sources/book-07/chapter-19-the-silver-doe.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   ministry-policy:
     entries:
     - dh-ch11-003
@@ -14727,6 +14804,8 @@ tags:
     - cos-ch03-004
     - cos-ch05-001
     - dh-ch09-004
+    - ext-a04-002
+    - ext-a04-004
     - gof-ch01-002
     - gof-ch02-003
     - gof-ch03-002
@@ -14770,6 +14849,7 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   muggle-studies:
     entries:
     - cos-ch14-002
@@ -14973,6 +15053,7 @@ tags:
     - dh-ch34-002
     - dh-ch36-002
     - dh-ch36-003
+    - ext-a03-005
     - hbp-ch07-004
     - ootp-ch21-006
     - ootp-ch25-005
@@ -14989,6 +15070,7 @@ tags:
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   newt-courses:
     entries:
     - hbp-ch05-007
@@ -15605,6 +15687,11 @@ tags:
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-26-the-cave.yaml
+  ottaline-gambol:
+    entries:
+    - ext-a04-004
+    output_yaml:
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   out-of-bounds:
     entries:
     - poa-ch19-002
@@ -16488,6 +16575,7 @@ tags:
     - dh-ch04-001
     - dh-ch04-002
     - dh-ch05-002
+    - ext-a04-003
     - gof-ch31-007
     - gof-ch32-001
     - gof-ch33-005
@@ -16507,6 +16595,12 @@ tags:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
+  portkey-sickness:
+    entries:
+    - ext-a04-003
+    output_yaml:
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   portkeys:
     entries:
     - gof-ch06-002
@@ -16518,6 +16612,11 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-05/chapter-03-the-advance-guard.yaml
+  portrait-enchantment:
+    entries:
+    - ext-a05-002
+    output_yaml:
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-guardians:
     entries:
     - poa-ch09-003
@@ -16539,16 +16638,31 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+  portrait-interaction:
+    entries:
+    - ext-a05-001
+    output_yaml:
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
+  portrait-limits:
+    entries:
+    - ext-a05-002
+    output_yaml:
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-lore:
     entries:
     - dh-ch09-006
+    - ext-a05-001
+    - ext-a05-002
     output_yaml:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-mobility:
     entries:
+    - ext-a05-001
     - poa-ch09-003
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-network:
     entries:
     - dh-ch33-002
@@ -16561,6 +16675,16 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+  portrait-sleepiness:
+    entries:
+    - ext-a05-004
+    output_yaml:
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
+  portrait-training:
+    entries:
+    - ext-a05-003
+    output_yaml:
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portraits:
     entries:
     - dh-ch01-001
@@ -16573,6 +16697,8 @@ tags:
     - dh-ch31-004
     - dh-ch32-002
     - dh-ch33-002
+    - ext-a05-002
+    - ext-a05-004
     - gof-ch17-007
     - gof-ch22-007
     - gof-ch31-001
@@ -16603,6 +16729,7 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   possession:
     entries:
     - cos-ch17-002
@@ -17661,10 +17788,12 @@ tags:
   pure-blood-prejudice:
     entries:
     - cos-ch07-003
+    - ext-a04-005
     - gof-ch08-003
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   pureblood-enchantment:
     entries:
     - hbp-ch03-004
@@ -18060,6 +18189,16 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
+  quill-of-acceptance:
+    entries:
+    - ext-a03-001
+    - ext-a03-002
+    - ext-a03-003
+    - ext-a03-004
+    - ext-a03-005
+    - ext-a03-006
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   quills:
     entries:
     - gof-ch04-001
@@ -18717,6 +18856,11 @@ tags:
     - hbp-ch20-004
     output_yaml:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  school-attendance:
+    entries:
+    - ext-a04-005
+    output_yaml:
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   school-autonomy:
     entries:
     - gof-ch36-005
@@ -19345,6 +19489,11 @@ tags:
   school-travel:
     entries:
     - cos-ch05-001
+    - ext-a04-001
+    - ext-a04-002
+    - ext-a04-003
+    - ext-a04-004
+    - ext-a04-005
     - gof-ch11-002
     - gof-ch11-006
     - ootp-ch10-001
@@ -19358,6 +19507,7 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   school-unity:
     entries:
     - ootp-ch11-004
@@ -19738,6 +19888,7 @@ tags:
   security:
     entries:
     - dh-ch23-004
+    - ext-a05-002
     - gof-ch15-006
     - hbp-ch26-003
     - ootp-ch07-002
@@ -19749,6 +19900,7 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   security-boundary:
     entries:
     - ootp-ch24-002
@@ -20823,6 +20975,7 @@ tags:
     entries:
     - dh-ch08-005
     - dh-ch11-006
+    - ext-a03-006
     - ootp-ch02-001
     - ootp-ch08-005
     output_yaml:
@@ -20830,6 +20983,7 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   st-mungos:
     entries:
     - dh-ch08-005
@@ -21347,6 +21501,15 @@ tags:
     - gof-ch19-002
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  student-admission:
+    entries:
+    - ext-a03-002
+    - ext-a03-003
+    - ext-a03-004
+    - ext-a03-005
+    - ext-a03-006
+    output_yaml:
+    - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
   student-age:
     entries:
     - hbp-ch26-005
@@ -21357,6 +21520,11 @@ tags:
     - hbp-ch08-001
     output_yaml:
     - sources/book-06/chapter-08-snape-victorious.yaml
+  student-arrivals:
+    entries:
+    - ext-a04-002
+    output_yaml:
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   student-attacks:
     entries:
     - hbp-ch19-002
@@ -21986,6 +22154,7 @@ tags:
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
   student-transport:
     entries:
+    - ext-a04-005
     - hbp-ch17-001
     - hbp-ch29-007
     - ootp-ch10-007
@@ -22005,6 +22174,7 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   student-travel:
     entries:
     - dh-ch25-007
@@ -22036,6 +22206,11 @@ tags:
     - ootp-ch24-003
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  student-welfare:
+    entries:
+    - ext-a04-003
+    output_yaml:
+    - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   student-withdrawal:
     entries:
     - hbp-ch11-002
@@ -22105,6 +22280,11 @@ tags:
     - ps-ch16-005
     output_yaml:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
+  succession:
+    entries:
+    - ext-a05-003
+    output_yaml:
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   suit-of-armor:
     entries:
     - ps-ch12-006
@@ -22206,11 +22386,13 @@ tags:
     - dh-ch09-007
     - dh-ch13-003
     - dh-ch13-004
+    - ext-a05-004
     - gof-ch37-006
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+    - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   survivor-care:
     entries:
     - gof-ch36-003

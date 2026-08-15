@@ -1,0 +1,263 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A05
+  source_file: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+  title: Hogwarts Portraits
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits
+  capture_completeness: complete
+  content_sha256: 02369fc46d7b517bfb8c5c7aef601e5f6cc4ed5ae146b17f9ad5d1e5a185840d
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a05-001
+    source_file: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+    source_id: A05
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hogwarts portraits are able to talk and move around from picture to picture.
+      end_phrase: power of the witch or wizard painted.
+      local_occurrence_note: Opening paragraph of the snapshot.
+    nearby_context: The article first distinguishes a portrait's basic mobility and speech from the depth of its interaction with viewers.
+    match_terms:
+      - hogwarts portraits
+      - portrait interaction
+      - depicted wizard power
+    quote_excerpt_short: depends not on the skill of the painter, but on the power of the witch or wizard painted.
+    source_note: Hogwarts portraits can speak and move between pictures, but their capacity for substantive interaction depends on the magical power of the depicted subject rather than the painter's skill.
+    reference_type: portrait_or_ghost_lore
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - enchantment
+      - magical-portraits
+      - portrait-lore
+      - portrait-mobility
+      - portrait-interaction
+    candidate_part: 'Part II: The Castle and Its Living Systems'
+    candidate_chapter: Portraits, Ghosts, and the School's Memory
+    candidate_section: How magical portraits function
+    reason_for_placement: Defines the operating limits of the sentient portraits that form part of Hogwarts' everyday environment.
+    relevance_to_hogwarts_a_history: Provides Rowling-authored explanatory lore for interpreting portraits encountered at Hogwarts, while not dating the practice's introduction.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - enchantment
+          - magical-portraits
+          - portrait-lore
+        candidates:
+          - id: dh-ch09-006
+            disposition: distinct
+          - id: dh-ch26-003
+            disposition: distinct
+          - id: hbp-ch01-001
+            disposition: corroborating
+    confidence: high
+    limitations: The source states general portrait lore but does not identify when individual Hogwarts portraits were created.
+
+  - id: ext-a05-002
+    source_file: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+    source_id: A05
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: When a magical portrait is taken, the witch or wizard artist will naturally use enchantments
+      end_phrase: They are only representations of the living subjects as seen by the artist.
+      local_occurrence_note: Second and third paragraphs of the snapshot, covering ordinary portrait enchantment and its limits.
+    nearby_context: The article explains that an artist's enchantments preserve favorite phrases and general demeanor, but do not supply an in-depth version of the living subject.
+    match_terms:
+      - portrait enchantment
+      - artistic representation
+      - portrait limitations
+      - fat lady
+    quote_excerpt_short: They are only representations of the living subjects as seen by the artist.
+    source_note: An ordinary magical portrait is enchanted to move and echo the subject's phrases and demeanor, but remains the artist's limited representation rather than a fully knowledgeable copy.
+    reference_type: portrait_or_ghost_lore
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - fat-lady
+      - portrait-enchantment
+      - portrait-lore
+      - portrait-limits
+      - portraits
+      - security
+    candidate_part: 'Part II: The Castle and Its Living Systems'
+    candidate_chapter: Portraits, Ghosts, and the School's Memory
+    candidate_section: Ordinary enchanted portraits
+    reason_for_placement: Explains the distinction between interactive portrait behavior and a living person's full knowledge or agency.
+    relevance_to_hogwarts_a_history: Clarifies how familiar Hogwarts portraits, including the Fat Lady, should be treated as historical witnesses and institutional actors.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - fat-lady
+          - portraits
+          - security
+        candidates:
+          - id: gof-ch17-007
+            disposition: corroborating
+          - id: gof-ch22-007
+            disposition: corroborating
+          - id: gof-ch31-001
+            disposition: corroborating
+          - id: poa-ch08-004
+            disposition: corroborating
+          - id: poa-ch08-007
+            disposition: corroborating
+          - id: dh-ch01-001
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch12-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+    confidence: high
+    limitations: The general account uses Sir Cadogan and the Fat Lady as illustrations; it does not establish the full history of either portrait's installation at Hogwarts.
+
+  - id: ext-a05-003
+    source_file: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+    source_id: A05
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Traditionally, a headmaster or headmistress is painted before their death.
+      end_phrase: may then be shared through the centuries with their successors in office.
+      local_occurrence_note: Fourth paragraph of the snapshot.
+    nearby_context: The article describes a private process in which a completed headmasterial portrait is trained by its living subject and supplied with useful memories and knowledge.
+    match_terms:
+      - headmaster portraits
+      - institutional memory
+      - succession
+      - portrait training
+    quote_excerpt_short: may then be shared through the centuries with their successors in office.
+    source_note: By tradition, a headmaster or headmistress has a portrait painted before death and trains it privately, allowing knowledge and memories to pass to later officeholders.
+    reference_type: portrait_or_ghost_lore
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - headmaster-office
+      - headmaster-portraits
+      - institutional-memory
+      - portrait-training
+      - succession
+    candidate_part: 'Part II: The Castle and Its Living Systems'
+    candidate_chapter: Portraits, Ghosts, and the School's Memory
+    candidate_section: Headmasterial portraits and succession
+    reason_for_placement: Establishes portraits of former heads as a mechanism for continuity of knowledge within the headmaster's office.
+    relevance_to_hogwarts_a_history: Supplies a direct explanation for the institutional role of former headmasters' and headmistresses' portraits, without identifying the histories of individual sitters.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - headmaster-portraits
+          - institutional-memory
+          - succession
+        candidates:
+          - id: dh-ch36-006
+            disposition: corroborating
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: cos-ch12-001
+            disposition: corroborating
+          - id: cos-ch13-006
+            disposition: corroborating
+          - id: dh-ch07-003
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: corroborating
+          - id: dh-ch15-007
+            disposition: corroborating
+          - id: gof-ch30-001
+            disposition: corroborating
+          - id: hbp-ch10-003
+            disposition: corroborating
+          - id: hbp-ch17-003
+            disposition: corroborating
+    confidence: high
+    limitations: The article calls the practice traditional but does not date its origin or say that every former head followed it.
+
+  - id: ext-a05-004
+    source_file: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+    source_id: A05
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The depth of knowledge and insight contained in some of the headmasters’ and headmistresses’ portraits
+      end_phrase: portraits’ apparent sleepiness when visitors arrive in the office is not necessarily genuine.
+      local_occurrence_note: Final paragraph of the snapshot.
+    nearby_context: The article limits knowledge of headmasterial portraits' insight to incumbents and a few students aware that apparent sleep may be feigned.
+    match_terms:
+      - headmaster office
+      - portrait sleepiness
+      - portrait surveillance
+      - former headmasters
+    quote_excerpt_short: the portraits’ apparent sleepiness when visitors arrive in the office is not necessarily genuine.
+    source_note: Some former headmasters' and headmistresses' portraits may listen despite appearing asleep when people enter the headmaster's office, and their full knowledge is closely held.
+    reference_type: portrait_or_ghost_lore
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - headmaster-office
+      - headmaster-portraits
+      - portrait-sleepiness
+      - portraits
+      - surveillance
+    candidate_part: 'Part II: The Castle and Its Living Systems'
+    candidate_chapter: Portraits, Ghosts, and the School's Memory
+    candidate_section: Portrait observation in the headmaster's office
+    reason_for_placement: Identifies a privacy and observation consideration in the headmaster's office that arises from the portraits' continuing awareness.
+    relevance_to_hogwarts_a_history: Gives a Rowling-authored qualification for interpreting office portraits as potentially observant institutional participants, rather than inert decoration.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - headmaster-office
+          - portrait-sleepiness
+          - surveillance
+        candidates:
+          - id: cos-ch11-007
+            disposition: distinct
+          - id: cos-ch12-001
+            disposition: corroborating
+          - id: cos-ch13-006
+            disposition: corroborating
+          - id: dh-ch09-007
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: corroborating
+          - id: dh-ch12-002
+            disposition: corroborating
+          - id: dh-ch13-003
+            disposition: distinct
+          - id: dh-ch13-004
+            disposition: distinct
+          - id: dh-ch15-006
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: corroborating
+    confidence: high
+    limitations: The passage indicates possible observation but does not state what any specific portrait heard or later disclosed.

@@ -577,6 +577,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wartime Security and Student Resistance
   - Headmaster absences and unofficial D.A. watch
 
+## Hogwarts: A History
+
+- Admission and the First Years
+  - Admission threshold and confirmation
+  - Delayed confirmation of magical ability
+  - Identification of magical children
+  - Safeguards against false admission
+  - The Book and Quill
+- The School's Foundations and Governance
+  - Founder-established admissions instruments
+
 ## Houses and Student Life
 
 - Ravenclaw House
@@ -1265,6 +1276,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Named Histories And School-Age Reference Books
   - A History of Magic as a portable reference tradition
 
+## Part I: The School and Its Foundations
+
+- Arrivals, Departures, and the Hogwarts Express
+  - The Failed Portkey System
+- Castle, Grounds, and Protective Magic
+  - Boundaries and Restricted Access
+
 ## Part II - Founders, Heirs, and Hidden Histories
 
 - Tom Riddle Before Hogwarts
@@ -1274,6 +1292,21 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Gryffindor House And Its Founder Relic
   - Worthiness conditions and Gryffindor qualities
+
+## Part II: Governance and the Wider Wizarding World
+
+- Secrecy, Ministry Policy, and Hogwarts
+  - Mandated Travel on the Hogwarts Express
+  - Statute of Secrecy and School Access
+  - The Uncertain Acquisition of the Hogwarts Express
+
+## Part II: The Castle and Its Living Systems
+
+- Portraits, Ghosts, and the School's Memory
+  - Headmasterial portraits and succession
+  - How magical portraits function
+  - Ordinary enchanted portraits
+  - Portrait observation in the headmaster's office
 
 ## Part III - Students, Status, and Magical Capacity
 

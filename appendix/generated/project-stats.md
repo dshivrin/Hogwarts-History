@@ -8,12 +8,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 219
+- Total: 222
 
 ## Entries by Book or External Source
 
 - A01 — Chamber of Secrets: 3
 - A02 — The Sorting Hat: 3
+- A03 — The Quill of Acceptance and The Book of Admittance: 6
+- A04 — The Hogwarts Express: 5
+- A05 — Hogwarts Portraits: 4
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -30,7 +33,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - later_editorial_note: 680
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 13
-- pre_1984_historical_candidate: 194
+- pre_1984_historical_candidate: 209
 
 ## Entries by Reference Type
 
@@ -39,13 +42,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 63
 - explicit_hogwarts_a_history: 9
 - explicit_in_universe_source: 109
-- historical_claim: 234
+- historical_claim: 239
 - house_system: 26
 - institutional_custom: 193
 - magical_architecture: 102
-- portrait_or_ghost_lore: 23
-- school_rule_or_policy: 139
-- security_or_protection: 233
+- portrait_or_ghost_lore: 27
+- school_rule_or_policy: 144
+- security_or_protection: 234
 
 ## Explicit `Hogwarts: A History` References
 
@@ -57,8 +60,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `A02` — The Sorting Hat, input `resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md`, output `sources/external/official-rowling/a02-the-sorting-hat.yaml`
+- `A05` — Hogwarts Portraits, input `resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md`, output `sources/external/official-rowling/a05-hogwarts-portraits.yaml`
 
 ## Next Pending Unit
 
-- `A03` — The Quill of Acceptance and The Book of Admittance, input `resources/external/official-rowling/harrypotter-com/a03-quill-of-acceptance-and-book-of-admittance.md`, output `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+- `A06` — Hogwarts Ghosts, input `resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md`, output `sources/external/official-rowling/a06-hogwarts-ghosts.yaml`

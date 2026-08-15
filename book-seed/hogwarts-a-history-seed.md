@@ -14021,6 +14021,78 @@ Summary: The available evidence includes 1 source item, led by: During Dumbledor
   - Corroborates: `hbp-ch08-006`, `hbp-ch18-004`, `hbp-ch19-006`. hbp-ch08-006 covers strengthened fortifications and reporting rules; hbp-ch18-004 and hbp-ch19-006 cover Marauder's Map surveillance and blind spots. This entry adds Dumbledore's statement about protections during his absences and the explicit D.A./contact-Galleon watch plan.
   - Notes: The additional protections are not specified, and Harry's plan depends on his inference that Malfoy is the celebrant in the Room of Requirement.
 
+## Part: Hogwarts: A History
+
+### Chapter: Admission and the First Years
+
+#### Section: Admission threshold and confirmation
+
+Summary: The available evidence includes 1 source item, led by: The Quill reacts to even a slight sign of magic, but the Book accepts an inscription only after sufficiently compelling evidence of magical ability.
+
+- **Supporting evidence:** The Quill reacts to even a slight sign of magic, but the Book accepts an inscription only after sufficiently compelling evidence of magical ability.
+  - Quote: "The Book, however, will often snap shut"
+  - Source: A03, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The account summarizes observers' judgment and does not define a measurable evidentiary threshold.
+
+#### Section: Delayed confirmation of magical ability
+
+Summary: The available evidence includes 1 source item, led by: The Quill attempted to enter Neville Longbottom's name at birth, but the Book accepted him only at age eight after he survived a lethal fall.
+
+- **Supporting evidence:** The Quill attempted to enter Neville Longbottom's name at birth, but the Book accepted him only at age eight after he survived a lethal fall.
+  - Quote: "not until he was eight years old did either his disappointed great aunts and uncles"
+  - Source: A03, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is a single illustrative case supplied by the later editorial source rather than a contemporaneous record of Neville's childhood.
+
+#### Section: Identification of magical children
+
+Summary: The available evidence includes 1 source item, led by: When a child first displays magic, the Quill rises and attempts to enter the child's name in the Book.
+
+- **Supporting evidence:** When a child first displays magic, the Quill rises and attempts to enter the child's name in the Book.
+  - Quote: "At the precise moment that a child first exhibits signs of magic"
+  - Source: A03, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The mechanism is described as magical and its underlying operation is explicitly unknown.
+
+#### Section: Safeguards against false admission
+
+Summary: The available evidence includes 1 source item, led by: The Book's strictness is said to prevent Squibs from being admitted, despite residual parental magic sometimes prompting the more sensitive Quill.
+
+- **Supporting evidence:** The Book's strictness is said to prevent Squibs from being admitted, despite residual parental magic sometimes prompting the more sensitive Quill.
+  - Quote: "its track record in keeping Squibs out of Hogwarts is perfect"
+  - Source: A03, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The claimed perfect record is source-authored and no case records or operational statistics are provided.
+
+#### Section: The Book and Quill
+
+Summary: The available evidence includes 1 source item, led by: The Book of Admittance and Quill of Acceptance are the sole process through which Hogwarts selects students.
+
+- **Supporting evidence:** The Book of Admittance and Quill of Acceptance are the sole process through which Hogwarts selects students.
+  - Quote: "they constitute the only process by which students are selected for Hogwarts"
+  - Source: A03, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The source asserts exclusivity but does not describe later logistical steps after a name is entered.
+
+### Chapter: The School's Foundations and Governance
+
+#### Section: Founder-established admissions instruments
+
+Summary: The available evidence includes 1 source item, led by: The four founders placed the Book of Admittance and Quill of Acceptance in a locked Hogwarts tower when the castle was completed.
+
+- **Supporting evidence:** The four founders placed the Book of Admittance and Quill of Acceptance in a locked Hogwarts tower when the castle was completed.
+  - Quote: "the four founders placed it there on completion of the castle"
+  - Source: A03, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, `sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account gives no date for the castle's completion or independent corroboration for the founders' action.
+
 ## Part: Houses and Student Life
 
 ### Chapter: Ravenclaw House
@@ -14948,6 +15020,34 @@ Summary: The available evidence includes 1 source item, led by: Hermione continu
   - Corroborates: `ps-ch06-004`. ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
   - Notes: The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.
 
+## Part: Part I: The School and Its Foundations
+
+### Chapter: Arrivals, Departures, and the Hogwarts Express
+
+#### Section: The Failed Portkey System
+
+Summary: The available evidence includes 1 source item, led by: The interim nationwide Portkey system suffered missed time slots, hard-to-find objects, and widespread nausea; the account says up to one-third of pupils failed to arrive annually.
+
+- **Supporting evidence:** The interim nationwide Portkey system suffered missed time slots, hard-to-find objects, and widespread nausea; the account says up to one-third of pupils failed to arrive annually.
+  - Quote: "Up to a third of students would fail to arrive every year"
+  - Source: A04, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, `sources/external/official-rowling/a04-the-hogwarts-express.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The stated failure rate is attributed to this retrospective account; it does not identify surviving attendance records or the duration of the Portkey arrangement.
+
+### Chapter: Castle, Grounds, and Protective Magic
+
+#### Section: Boundaries and Restricted Access
+
+Summary: The available evidence includes 1 source item, led by: The historical-travel account states that Hogwarts and its grounds have long barred Apparition, making attempted arrival by that method disastrous.
+
+- **Supporting evidence:** The historical-travel account states that Hogwarts and its grounds have long barred Apparition, making attempted arrival by that method disastrous.
+  - Quote: "the castle and grounds have always been protected with Anti-Apparition Charms"
+  - Source: A04, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, `sources/external/official-rowling/a04-the-hogwarts-express.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The source asserts the protection's long duration but does not date its original imposition or describe its mechanism.
+
 ## Part: Part II - Founders, Heirs, and Hidden Histories
 
 ### Chapter: Tom Riddle Before Hogwarts
@@ -14978,6 +15078,91 @@ Summary: The available evidence includes 1 source item, led by: The sword cannot
   - Reference type: house_system
   - Corroborates: `dh-ch07-006`, `cos-ch17-005`, `cos-ch18-004`. Prior entries establish the sword as a historical artifact and its Sorting Hat appearance to a true Gryffindor; this entry adds the Forest of Dean retrieval test and failed Summoning detail.
   - Notes: Harry's reasoning supplies the worthiness interpretation; the scene confirms behavior but not a formal rule text.
+
+## Part: Part II: Governance and the Wider Wizarding World
+
+### Chapter: Secrecy, Ministry Policy, and Hogwarts
+
+#### Section: Mandated Travel on the Hogwarts Express
+
+Summary: The available evidence includes 1 source item, led by: After magical modification and Ministry approval, the Hogwarts Express became compulsory for attendance; objections from pure-blood families were overridden.
+
+- **Supporting evidence:** After magical modification and Ministry approval, the Hogwarts Express became compulsory for attendance; objections from pure-blood families were overridden.
+  - Quote: "students either rode the train or did not attend school"
+  - Source: A04, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, `sources/external/official-rowling/a04-the-hogwarts-express.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The source reports the decree and reaction but does not date it, reproduce its text, or specify any later exceptions.
+
+#### Section: Statute of Secrecy and School Access
+
+Summary: The available evidence includes 1 source item, led by: The source dates the need for a discreet mass-transport solution to the 1692 Statute of Secrecy, after parents had conveyed children individually.
+
+- **Supporting evidence:** The source dates the need for a discreet mass-transport solution to the 1692 Statute of Secrecy, after parents had conveyed children individually.
+  - Quote: "the imposition of the International Statute of Secrecy in 1692"
+  - Source: A04, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, `sources/external/official-rowling/a04-the-hogwarts-express.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source gives the policy date and transport consequence but not the exact legal text or the date the train itself entered service.
+
+#### Section: The Uncertain Acquisition of the Hogwarts Express
+
+Summary: The available evidence includes 1 source item, led by: The account says the Express's exact origin is unproven, while secret Ministry records describe an alleged operation using 167 Memory Charms and an unprecedented mass Concealment Charm.
+
+- **Supporting evidence:** The account says the Express's exact origin is unproven, while secret Ministry records describe an alleged operation using 167 Memory Charms and an unprecedented mass Concealment Charm.
+  - Quote: "the largest ever mass Concealment Charm performed in Britain"
+  - Source: A04, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, `sources/external/official-rowling/a04-the-hogwarts-express.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The source expressly says the train's origin has never been conclusively proven and calls the suspected operation alleged crimes.
+
+## Part: Part II: The Castle and Its Living Systems
+
+### Chapter: Portraits, Ghosts, and the School's Memory
+
+#### Section: Headmasterial portraits and succession
+
+Summary: The available evidence includes 1 source item, led by: By tradition, a headmaster or headmistress has a portrait painted before death and trains it privately, allowing knowledge and memories to pass to later officeholders.
+
+- **Supporting evidence:** By tradition, a headmaster or headmistress has a portrait painted before death and trains it privately, allowing knowledge and memories to pass to later officeholders.
+  - Quote: "may then be shared through the centuries with their successors in office."
+  - Source: A05, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, `sources/external/official-rowling/a05-hogwarts-portraits.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The article calls the practice traditional but does not date its origin or say that every former head followed it.
+
+#### Section: How magical portraits function
+
+Summary: The available evidence includes 1 source item, led by: Hogwarts portraits can speak and move between pictures, but their capacity for substantive interaction depends on the magical power of the depicted subject rather than the painter's skill.
+
+- **Supporting evidence:** Hogwarts portraits can speak and move between pictures, but their capacity for substantive interaction depends on the magical power of the depicted subject rather than the painter's skill.
+  - Quote: "depends not on the skill of the painter, but on the power of the witch or wizard painted."
+  - Source: A05, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, `sources/external/official-rowling/a05-hogwarts-portraits.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The source states general portrait lore but does not identify when individual Hogwarts portraits were created.
+
+#### Section: Ordinary enchanted portraits
+
+Summary: The available evidence includes 1 source item, led by: An ordinary magical portrait is enchanted to move and echo the subject's phrases and demeanor, but remains the artist's limited representation rather than a fully knowledgeable copy.
+
+- **Supporting evidence:** An ordinary magical portrait is enchanted to move and echo the subject's phrases and demeanor, but remains the artist's limited representation rather than a fully knowledgeable copy.
+  - Quote: "They are only representations of the living subjects as seen by the artist."
+  - Source: A05, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, `sources/external/official-rowling/a05-hogwarts-portraits.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The general account uses Sir Cadogan and the Fat Lady as illustrations; it does not establish the full history of either portrait's installation at Hogwarts.
+
+#### Section: Portrait observation in the headmaster's office
+
+Summary: The available evidence includes 1 source item, led by: Some former headmasters' and headmistresses' portraits may listen despite appearing asleep when people enter the headmaster's office, and their full knowledge is closely held.
+
+- **Supporting evidence:** Some former headmasters' and headmistresses' portraits may listen despite appearing asleep when people enter the headmaster's office, and their full knowledge is closely held.
+  - Quote: "the portraits’ apparent sleepiness when visitors arrive in the office is not necessarily genuine."
+  - Source: A05, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, `sources/external/official-rowling/a05-hogwarts-portraits.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The passage indicates possible observation but does not state what any specific portrait heard or later disclosed.
 
 ## Part: Part III - Students, Status, and Magical Capacity
 
