@@ -1553,16 +1553,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
     manifest_id: external-A27
     output_file: sources/external/official-rowling/a27-werewolves.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:54:12Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:47:22Z'
+      agent: source-agent-a27
+    - event: completed
+      at: '2026-08-15T15:54:12Z'
     staging_file: work/external-staging/a27.yaml
   - id: A28
     title: Wizarding Schools
@@ -1572,16 +1577,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
     manifest_id: external-A28
     output_file: sources/external/official-rowling/a28-wizarding-schools.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:57:09Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:47:22Z'
+      agent: source-agent-a28
+    - event: completed
+      at: '2026-08-15T15:57:09Z'
     staging_file: work/external-staging/a28.yaml
   - id: A29
     title: Beauxbatons Academy of Magic
@@ -1591,16 +1601,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
     manifest_id: external-A29
     output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T15:59:54Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T15:47:23Z'
+      agent: source-agent-a29
+    - event: completed
+      at: '2026-08-15T15:59:54Z'
     staging_file: work/external-staging/a29.yaml
   - id: A30
     title: Ilvermorny School of Witchcraft and Wizardry

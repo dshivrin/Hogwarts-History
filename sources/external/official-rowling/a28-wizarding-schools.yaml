@@ -1,0 +1,233 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A28
+  source_file: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+  title: Wizarding Schools
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2016-01-29'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools
+  capture_completeness: complete
+  content_sha256: 44ae54f814c785d192e9e4c262b810554c399056508e27d460a7893dd7cb0964
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and comparative institutional evidence extracted.
+
+entries:
+  - id: ext-a28-001
+    source_file: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+    source_id: A28
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools
+    source_section: Wizarding Schools
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The number of countries that have their own magical school
+      end_phrase: more cost-effective means of educating the young
+      local_occurrence_note: Opening paragraph, the only discussion of home-schooling and correspondence courses.
+    nearby_context: The source contrasts countries with their own magical schools against alternatives used where populations are dispersed or small.
+    match_terms:
+      - magical education
+      - home-schooling
+      - correspondence courses
+    quote_excerpt_short: wizarding populations of most countries choose the option of home-schooling
+    source_note: Most countries lack their own magical school; their wizarding populations commonly use home-schooling, and small or far-flung communities may use correspondence courses.
+    reference_type: institutional_custom
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - correspondence-courses
+      - homeschooling
+      - magical-education
+      - wizarding-populations
+      - wizarding-schools
+    candidate_part: "Part III: Hogwarts in the Wider Wizarding World"
+    candidate_chapter: Wizarding Schools Beyond Britain
+    candidate_section: School provision and alternatives
+    reason_for_placement: Establishes the wider educational landscape against which Hogwarts functions as a national boarding school.
+    relevance_to_hogwarts_a_history: Useful comparative context for explaining that Hogwarts is not the universal wizarding educational model; the source gives no date for this general condition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed school references identify other institutions but do not make the claim about home-schooling or correspondence provision.
+      audit:
+        query_tags:
+          - correspondence-courses
+          - homeschooling
+          - magical-education
+        candidates:
+          - id: gof-ch09-002
+            disposition: corroborating
+          - id: gof-ch11-004
+            disposition: corroborating
+    confidence: high
+    limitations: A 2016 official overview states a broad generalisation, without country-specific data or a date for the described education patterns.
+
+  - id: ext-a28-002
+    source_file: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+    source_id: A28
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools
+    source_section: Wizarding Schools
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: There are eleven long-established and prestigious wizarding schools worldwide
+      end_phrase: International Confederation of Wizards, Educational Office
+      local_occurrence_note: Second paragraph, covering established-school registration and the enquiry route for approval.
+    nearby_context: The source distinguishes eleven registered, long-established schools from smaller institutions that may be unregistered or insufficiently regulated.
+    match_terms:
+      - wizarding schools
+      - International Confederation of Wizards
+      - school registration
+    quote_excerpt_short: eleven long-established and prestigious wizarding schools worldwide, all of which are registered
+    source_note: Eleven long-established prestigious wizarding schools are registered with the International Confederation of Wizards; smaller institutions can be unregistered and their standards uncertain.
+    reference_type: institutional_custom
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - international-confederation
+      - magical-education
+      - school-registration
+      - school-standards
+      - wizarding-schools
+    candidate_part: "Part III: Hogwarts in the Wider Wizarding World"
+    candidate_chapter: Wizarding Schools Beyond Britain
+    candidate_section: International school governance
+    reason_for_placement: Places Hogwarts within an international framework of recognised magical-school institutions and oversight.
+    relevance_to_hogwarts_a_history: Supplies comparative institutional context for Hogwarts's standing as a recognised school, while avoiding any inference that the article dates the registration system or identifies all eleven schools.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries support international-school awareness or the Confederation in other contexts; none makes the same registered-eleven-schools claim.
+      audit:
+        query_tags:
+          - international-confederation
+          - school-registration
+          - wizarding-schools
+        candidates:
+          - id: gof-ch07-003
+            disposition: corroborating
+          - id: gof-ch09-002
+            disposition: corroborating
+          - id: gof-ch11-004
+            disposition: corroborating
+          - id: ootp-ch05-007
+            disposition: distinct
+          - id: ootp-ch11-007
+            disposition: distinct
+          - id: ootp-ch31-007
+            disposition: corroborating
+    confidence: high
+    limitations: The article gives an undated high-level institutional count and registration status, not a list of schools, governing rules, or historical establishment dates.
+
+  - id: ext-a28-003
+    source_file: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+    source_id: A28
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools
+    source_section: Wizarding Schools
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The precise location of each of the following schools is a closely guarded secret
+      end_phrase: subject to Ministry interference or pressure
+      local_occurrence_note: Third paragraph, explaining location secrecy and pressures on magical education.
+    nearby_context: Location secrecy is attributed to risks from Muggles, wizard wars, hostile magical communities, and Ministry pressure, with Britain expressly presented as not unique.
+    match_terms:
+      - school secrecy
+      - Ministry interference
+      - wizarding schools
+    quote_excerpt_short: education of magical youth has been subject to Ministry interference or pressure
+    source_note: The source says the locations of the listed schools are secret and that magical education outside Britain, too, has faced Ministry interference or pressure amid broader historical threats.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - ministry-interference
+      - school-secrecy
+      - school-security
+      - wizarding-schools
+      - wizarding-wars
+    candidate_part: "Part III: Hogwarts in the Wider Wizarding World"
+    candidate_chapter: Hogwarts, Secrecy, and State Pressure
+    candidate_section: Comparative institutional vulnerability
+    reason_for_placement: Extends the history of pressure on Hogwarts by framing institutional secrecy and governmental interference as wider wizarding-school concerns.
+    relevance_to_hogwarts_a_history: Provides explicit comparative context for Ministry pressure on magical education, but does not document a particular Hogwarts intervention or date the external examples.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The candidates independently support school secrecy or Ministry pressure; none states this source's cross-national historical claim.
+      audit:
+        query_tags:
+          - ministry-interference
+          - school-secrecy
+          - wizarding-schools
+        candidates:
+          - id: gof-ch11-004
+            disposition: corroborating
+          - id: gof-ch07-003
+            disposition: corroborating
+          - id: gof-ch09-002
+            disposition: corroborating
+          - id: gof-ch23-004
+            disposition: corroborating
+          - id: hbp-ch16-007
+            disposition: corroborating
+          - id: hbp-ch30-006
+            disposition: corroborating
+    confidence: high
+    limitations: This is an undated overview claim about the listed schools' long histories; it neither identifies affected schools nor specifies the relevant wars, hostile communities, or Ministry actions.
+
+  - id: ext-a28-004
+    source_file: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+    source_id: A28
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools
+    source_section: Wizarding Schools
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: As a general rule, magical schools tend to be situated in landlocked, mountainous areas
+      end_phrase: easier to defend from Dark wizards
+      local_occurrence_note: Closing sentence of the third paragraph, presenting a general location-and-defence pattern.
+    nearby_context: The source qualifies the pattern as a general rule with notable exceptions and connects such locations to access and defensive advantages.
+    match_terms:
+      - wizarding schools
+      - landlocked mountains
+      - Dark wizards
+    quote_excerpt_short: situated in landlocked, mountainous areas
+    source_note: As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
+    reference_type: magical_architecture
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - dark-wizards
+      - landlocked-mountains
+      - magical-school-location
+      - school-security
+      - wizarding-schools
+    candidate_part: "Part III: Hogwarts in the Wider Wizarding World"
+    candidate_chapter: Hogwarts, Secrecy, and State Pressure
+    candidate_section: School siting and defence
+    reason_for_placement: Offers a comparative explanation for defensive siting practices relevant to considering Hogwarts's concealed setting.
+    relevance_to_hogwarts_a_history: Supports a carefully qualified comparison of magical-school siting and security; it does not identify Hogwarts as an instance or override the stated exceptions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed candidates establish international schools or unrelated Dark-wizard context, but none duplicates the general siting-and-defence rationale.
+      audit:
+        query_tags:
+          - dark-wizards
+          - landlocked-mountains
+          - wizarding-schools
+        candidates:
+          - id: gof-ch07-003
+            disposition: corroborating
+          - id: gof-ch09-002
+            disposition: corroborating
+          - id: gof-ch11-001
+            disposition: distinct
+          - id: gof-ch11-004
+            disposition: corroborating
+    confidence: high
+    limitations: A general rule in a 2016 overview, explicitly subject to exceptions; it gives no school-specific locations or construction history.

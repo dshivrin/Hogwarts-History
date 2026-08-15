@@ -11248,6 +11248,19 @@ Summary: The available evidence includes 1 source item, led by: The final counte
   - Corroborates: `dh-ch32-003`, `gof-ch21-006`, `hbp-ch03-005`. dh-ch32-003 records Grawp and giants near the castle, gof-ch21-006 records the kitchens and their house-elves, and hbp-ch03-005 records Kreacher's reassignment to Hogwarts kitchens. This entry adds their collective participation in the final counterattack.
   - Notes: The passage names many groups at once and does not enumerate every individual who entered the final battle.
 
+### Chapter: The Battle of Hogwarts and Its International Participants
+
+#### Section: Fleur Delacour as a Beauxbatons Alumna
+
+Summary: The available evidence includes 1 source item, led by: Rowling identifies Fleur Delacour as a Beauxbatons former student who fought at the Battle of Hogwarts and received bravery medals from both the French and British Ministries of Magic.
+
+- **Context:** Rowling identifies Fleur Delacour as a Beauxbatons former student who fought at the Battle of Hogwarts and received bravery medals from both the French and British Ministries of Magic.
+  - Quote: "Fleur Delacour fought in the world-famous Battle of Hogwarts."
+  - Source: A29, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, `sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: This is a post-1984 outcome and the source does not provide dates, the nature of the medals, or independent evidence for the battle participation.
+
 ### Chapter: The Chamber of Secrets Crisis
 
 #### Section: Early Warnings Before Term
@@ -16429,6 +16442,56 @@ Summary: The available evidence includes 1 source item, led by: After Elphinston
   - Reference type: magical_architecture
   - Notes: The profile provides no layout, date, or evidence that other staff rooms used the same concealed-access arrangement.
 
+## Part: Part III: Hogwarts in the Wider Wizarding World
+
+### Chapter: Hogwarts, Secrecy, and State Pressure
+
+#### Section: Comparative institutional vulnerability
+
+Summary: The available evidence includes 1 source item, led by: The source says the locations of the listed schools are secret and that magical education outside Britain, too, has faced Ministry interference or pressure amid broader historical threats.
+
+- **Context:** The source says the locations of the listed schools are secret and that magical education outside Britain, too, has faced Ministry interference or pressure amid broader historical threats.
+  - Quote: "education of magical youth has been subject to Ministry interference or pressure"
+  - Source: A28, https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools, `sources/external/official-rowling/a28-wizarding-schools.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is an undated overview claim about the listed schools' long histories; it neither identifies affected schools nor specifies the relevant wars, hostile communities, or Ministry actions.
+
+#### Section: School siting and defence
+
+Summary: The available evidence includes 1 source item, led by: As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
+
+- **Context:** As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
+  - Quote: "situated in landlocked, mountainous areas"
+  - Source: A28, https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools, `sources/external/official-rowling/a28-wizarding-schools.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: A general rule in a 2016 overview, explicitly subject to exceptions; it gives no school-specific locations or construction history.
+
+### Chapter: Wizarding Schools Beyond Britain
+
+#### Section: International school governance
+
+Summary: The available evidence includes 1 source item, led by: Eleven long-established prestigious wizarding schools are registered with the International Confederation of Wizards; smaller institutions can be unregistered and their standards uncertain.
+
+- **Context:** Eleven long-established prestigious wizarding schools are registered with the International Confederation of Wizards; smaller institutions can be unregistered and their standards uncertain.
+  - Quote: "eleven long-established and prestigious wizarding schools worldwide, all of which are registered"
+  - Source: A28, https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools, `sources/external/official-rowling/a28-wizarding-schools.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The article gives an undated high-level institutional count and registration status, not a list of schools, governing rules, or historical establishment dates.
+
+#### Section: School provision and alternatives
+
+Summary: The available evidence includes 1 source item, led by: Most countries lack their own magical school; their wizarding populations commonly use home-schooling, and small or far-flung communities may use correspondence courses.
+
+- **Context:** Most countries lack their own magical school; their wizarding populations commonly use home-schooling, and small or far-flung communities may use correspondence courses.
+  - Quote: "wizarding populations of most countries choose the option of home-schooling"
+  - Source: A28, https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools, `sources/external/official-rowling/a28-wizarding-schools.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: A 2016 official overview states a broad generalisation, without country-specific data or a date for the described education patterns.
+
 ## Part: Part III: Learning at Hogwarts
 
 ### Chapter: History of Magic and Historical Instruction
@@ -16551,6 +16614,21 @@ Summary: The available evidence includes 1 source item, led by: The Sword of Gry
   - Corroborates: `dh-ch14-006`, `dh-ch15-006`, `dh-ch07-006`. Prior entries establish the active locket and the sword's venom/authenticity logic; this entry records the actual destruction event.
   - Notes: The destruction occurs in the Second War and should be excluded from an original pre-1984 edition except as later editorial material.
 
+## Part: Part IV: Hogwarts Grounds, Buildings, and Hidden Places
+
+### Chapter: The Grounds and the Forbidden Forest
+
+#### Section: Creatures, Secrecy, and Forest Lore
+
+Summary: The available evidence includes 1 source item, led by: A litter of unusually intelligent wolf cubs from two werewolves was secretly released into the Forbidden Forest with Albus Dumbledore's permission; the source says some still live there.
+
+- **Context:** A litter of unusually intelligent wolf cubs from two werewolves was secretly released into the Forbidden Forest with Albus Dumbledore's permission; the source says some still live there.
+  - Quote: "set free, under conditions of extreme secrecy, in the Forbidden Forest at Hogwarts"
+  - Source: A27, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, `sources/external/official-rowling/a27-werewolves.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account does not date the release, identify the litter, or establish which Forest stories arose from it; its statement that some survive is contemporary to the source narration.
+
 ## Part: Part IV: Legacy and Aftermath
 
 ### Chapter: Recognition and Social Change
@@ -16608,6 +16686,102 @@ Summary: The available evidence includes 1 source item, led by: The final defens
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: security_or_protection
   - Notes: The account is combat observation under extreme conditions, not a controlled lesson or formal taxonomy.
+
+## Part: Part VI: Hogwarts and the Wider Wizarding World
+
+### Chapter: Knowledge, Medicine, and School Safety
+
+#### Section: Wolfsbane and Werewolf Accommodation
+
+Summary: The available evidence includes 1 source item, led by: Several potions intended to soften lycanthropy's effects were devised in the twentieth century's second half, with Wolfsbane identified as the most successful.
+
+- **Context:** Several potions intended to soften lycanthropy's effects were devised in the twentieth century's second half, with Wolfsbane identified as the most successful.
+  - Quote: "The most successful was the Wolfsbane Potion"
+  - Source: A27, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, `sources/external/official-rowling/a27-werewolves.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The phrase second half of the twentieth century spans both sides of 1984, and this source provides no invention date or inventor.
+
+### Chapter: Ministry, Law, and School Context
+
+#### Section: Werewolf Regulation and Social Exclusion
+
+Summary: The available evidence includes 2 source items, led by: A 1637 Ministry Werewolf Code of Conduct failed because affected people would not identify themselves; the later Registry likewise remained incomplete and unreliable.
+
+- **Supporting evidence:** A 1637 Ministry Werewolf Code of Conduct failed because affected people would not identify themselves; the later Registry likewise remained incomplete and unreliable.
+  - Quote: "A Werewolf Code of Conduct was developed in 1637"
+  - Source: A27, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, `sources/external/official-rowling/a27-werewolves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: Rowling calls Ministry policy historically muddled but does not date the Registry, divisional arrangements, or closure of Support Services.
+
+- **Supporting evidence:** Long-standing stigma made werewolves conceal their condition, helping explain why voluntary Ministry registration and support systems did not function as intended.
+  - Quote: "sought to conceal their condition and escape the inevitable shame and exile"
+  - Source: A27, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, `sources/external/official-rowling/a27-werewolves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage describes a broad, long-standing social pattern and does not quantify it or tie it to a named Hogwarts incident.
+
+### Chapter: Wider Wizarding Institutions and Knowledge
+
+#### Section: Magical Creature Scholarship
+
+Summary: The available evidence includes 1 source item, led by: Professor Marlowe Forfang's late-nineteenth-century comprehensive study reported that nearly all examined werewolves had been wizards before being bitten.
+
+- **Supporting evidence:** Professor Marlowe Forfang's late-nineteenth-century comprehensive study reported that nearly all examined werewolves had been wizards before being bitten.
+  - Quote: "undertook the first comprehensive study of their habits"
+  - Source: A27, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, `sources/external/official-rowling/a27-werewolves.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage attributes the finding to Forfang but gives no publication title, methodology, or precise year.
+
+## Part: Part VI: Hogwarts in the Wider Wizarding World
+
+### Chapter: International Schools and the Triwizard Tradition
+
+#### Section: Beauxbatons and Hogwarts: Cordial Rivalry
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterizes Beauxbatons and Hogwarts as historically cordial while retaining a competitive Triwizard rivalry, with sixty-two Beauxbatons wins to sixty-three Hogwarts wins.
+
+- **Supporting evidence:** Rowling characterizes Beauxbatons and Hogwarts as historically cordial while retaining a competitive Triwizard rivalry, with sixty-two Beauxbatons wins to sixty-three Hogwarts wins.
+  - Quote: "Beauxbatons has sixty-two wins to Hogwarts' sixty-three."
+  - Source: A29, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, `sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source does not date the relationship or its cumulative win totals, so it cannot establish the record at a particular historical moment.
+
+#### Section: Beauxbatons, the Flamels, and School Grounds
+
+Summary: The available evidence includes 1 source item, led by: The source says the Flamels met at Beauxbatons when young, that alchemist gold partly funded its castle and grounds, and that its park fountain bears their name and is believed healing and beautifying.
+
+- **Supporting evidence:** The source says the Flamels met at Beauxbatons when young, that alchemist gold partly funded its castle and grounds, and that its park fountain bears their name and is believed healing and beautifying.
+  - Quote: "Nicolas and Perenelle Flamel met at Beauxbatons in their youth."
+  - Source: A29, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, `sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The passage gives no dates for the Flamels' youth or the funding, and labels the funding, fountain properties, and location with reported rather than confirmed language.
+
+#### Section: Beauxbatons: Geography and Student Catchment
+
+Summary: The available evidence includes 1 source item, led by: Rowling places Beauxbatons only tentatively in the Pyrenees and describes a mainly French intake alongside substantial Spanish, Portuguese, Dutch, Luxembourgish, and Belgian attendance.
+
+- **Supporting evidence:** Rowling places Beauxbatons only tentatively in the Pyrenees and describes a mainly French intake alongside substantial Spanish, Portuguese, Dutch, Luxembourgish, and Belgian attendance.
+  - Quote: "Beauxbatons Academy has a preponderance of French students."
+  - Source: A29, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, `sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The location is expressly reported as thought rather than confirmed, and the present-tense description supplies no dates for the student catchment.
+
+#### Section: Comparative School Populations
+
+Summary: The available evidence includes 1 source item, led by: Rowling explicitly states that both Beauxbatons and Durmstrang have larger student bodies than Hogwarts.
+
+- **Supporting evidence:** Rowling explicitly states that both Beauxbatons and Durmstrang have larger student bodies than Hogwarts.
+  - Quote: "Beauxbatons and Durmstrang have a larger studentship than Hogwarts."
+  - Source: A29, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, `sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source gives only a relative comparison, with no enrolment figures, measurement date, or stated definition of studentship.
 
 ## Part: People of Hogwarts
 

@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A27
-  title: Werewolves
+  id: A30
+  title: Ilvermorny School of Witchcraft and Wizardry
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
-  output_file: sources/external/official-rowling/a27-werewolves.yaml
-  staging_file: work/external-staging/a27.yaml
-  manifest_id: external-A27
+  input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+  output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+  staging_file: work/external-staging/a30.yaml
+  manifest_id: external-A30
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 37
+    pending: 34
     in_progress: 0
-    done: 26
+    done: 29
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A27
-    title: Werewolves
+    id: A30
+    title: Ilvermorny School of Witchcraft and Wizardry
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
-    output_file: sources/external/official-rowling/a27-werewolves.yaml
-    staging_file: work/external-staging/a27.yaml
-    manifest_id: external-A27
+    input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+    output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+    staging_file: work/external-staging/a30.yaml
+    manifest_id: external-A30
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A26
-    title: Colours
+    id: A29
+    title: Beauxbatons Academy of Magic
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a26-colours.md
-    output_file: sources/external/official-rowling/a26-colours.yaml
-    staging_file: work/external-staging/a26.yaml
-    manifest_id: external-A26
+    input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
+    staging_file: work/external-staging/a29.yaml
+    manifest_id: external-A29
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A26
-  title: Colours
+  id: A29
+  title: Beauxbatons Academy of Magic
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a26-colours.md
-  output_file: sources/external/official-rowling/a26-colours.yaml
-  staging_file: work/external-staging/a26.yaml
-  manifest_id: external-A26
+  input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+  output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
+  staging_file: work/external-staging/a29.yaml
+  manifest_id: external-A29
   claimed_by: null
   claimed_at: null

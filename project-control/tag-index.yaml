@@ -378,6 +378,7 @@ tags:
     - dh-ch28-005
     - dh-ch35-005
     - dh-ch35-006
+    - ext-a27-004
     - ps-ch01-001
     - ps-ch01-002
     - ps-ch01-003
@@ -397,11 +398,17 @@ tags:
     - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
     - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   alchemical-names:
     entries:
     - ext-a26-005
     output_yaml:
     - sources/external/official-rowling/a26-colours.yaml
+  alchemist-gold:
+    entries:
+    - ext-a29-003
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   alchemy:
     entries:
     - dh-ch18-003
@@ -435,10 +442,12 @@ tags:
   alumni:
     entries:
     - cos-ch04-003
+    - ext-a29-005
     - gof-ch05-001
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   alumni-memory:
     entries:
     - gof-ch31-001
@@ -1337,6 +1346,7 @@ tags:
     - dh-ch36-004
     - dh-ch36-005
     - dh-ch36-006
+    - ext-a29-005
     output_yaml:
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
@@ -1344,6 +1354,7 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   beaded-bag:
     entries:
     - dh-ch09-002
@@ -1368,6 +1379,11 @@ tags:
     - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   beauxbatons:
     entries:
+    - ext-a29-001
+    - ext-a29-002
+    - ext-a29-003
+    - ext-a29-004
+    - ext-a29-005
     - gof-ch09-002
     - gof-ch11-004
     - gof-ch12-007
@@ -1395,6 +1411,7 @@ tags:
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   bedazzling-hex:
     entries:
     - dh-ch21-004
@@ -3449,6 +3466,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/external/official-rowling/a23-owls.yaml
+  correspondence-courses:
+    entries:
+    - ext-a28-001
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   corridor-battle:
     entries:
     - hbp-ch28-001
@@ -4182,9 +4204,11 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
   dark-wizards:
     entries:
+    - ext-a28-004
     - gof-ch11-001
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   darkness-powder:
     entries:
     - hbp-ch29-003
@@ -4984,6 +5008,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+  discrimination:
+    entries:
+    - ext-a27-005
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   disguise:
     entries:
     - dh-ch16-005
@@ -7171,6 +7200,7 @@ tags:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
   fleur-delacour:
     entries:
+    - ext-a29-005
     - gof-ch16-007
     - gof-ch17-001
     - gof-ch35-004
@@ -7178,6 +7208,7 @@ tags:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   flitwick:
     entries:
     - hbp-ch29-004
@@ -7360,6 +7391,7 @@ tags:
     - dh-ch34-005
     - dh-ch34-006
     - dh-ch34-007
+    - ext-a27-004
     - gof-ch04-003
     - gof-ch12-005
     - gof-ch28-005
@@ -7408,6 +7440,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   forbidden-forest-edge:
     entries:
     - gof-ch13-003
@@ -7700,6 +7733,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+  french-ministry:
+    entries:
+    - ext-a29-005
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   front-doors:
     entries:
     - hbp-ch12-002
@@ -9657,6 +9695,11 @@ tags:
     - dh-ch14-001
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
+  healing-magic:
+    entries:
+    - ext-a29-003
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   hedwig:
     entries:
     - cos-ch01-003
@@ -10372,6 +10415,12 @@ tags:
     - gof-ch31-004
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  hogwarts-comparison:
+    entries:
+    - ext-a29-001
+    - ext-a29-002
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   hogwarts-correspondence:
     entries:
     - dh-ch33-004
@@ -10489,6 +10538,7 @@ tags:
     - cos-ch05-003
     - ext-a04-001
     - ext-a09-001
+    - ext-a27-004
     - gof-ch04-003
     - gof-ch15-006
     - gof-ch16-005
@@ -10536,6 +10586,7 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   hogwarts-headmaster:
     entries:
     - dh-ch02-005
@@ -10660,6 +10711,11 @@ tags:
     - hbp-ch25-002
     output_yaml:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+  hogwarts-relations:
+    entries:
+    - ext-a29-004
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   hogwarts-residents:
     entries:
     - ootp-ch38-006
@@ -10849,6 +10905,11 @@ tags:
     - dh-ch09-006
     output_yaml:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+  homeschooling:
+    entries:
+    - ext-a28-001
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   homework:
     entries:
     - cos-ch08-003
@@ -11947,8 +12008,14 @@ tags:
     - gof-ch26-002
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
+  international-competition:
+    entries:
+    - ext-a29-004
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   international-confederation:
     entries:
+    - ext-a28-002
     - ootp-ch05-007
     - ootp-ch11-007
     - ootp-ch31-007
@@ -11956,6 +12023,7 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   international-magical-cooperation:
     entries:
     - gof-ch05-003
@@ -11984,6 +12052,12 @@ tags:
     - gof-ch08-005
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  international-schools:
+    entries:
+    - ext-a29-001
+    - ext-a29-002
+    output_yaml:
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   international-statute-secrecy:
     entries:
     - ext-a04-002
@@ -12436,6 +12510,11 @@ tags:
     - hbp-ch30-003
     output_yaml:
     - sources/book-06/chapter-30-the-white-tomb.yaml
+  landlocked-mountains:
+    entries:
+    - ext-a28-004
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   language-learning:
     entries:
     - ootp-ch30-006
@@ -13159,6 +13238,7 @@ tags:
     - ext-a07-001
     - ext-a07-004
     - ext-a14-003
+    - ext-a29-003
     - gof-ch11-005
     - gof-ch17-007
     - gof-ch21-006
@@ -13228,6 +13308,7 @@ tags:
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   magical-artefacts:
     entries:
     - ext-a14-001
@@ -13401,6 +13482,7 @@ tags:
     - ext-a09-003
     - ext-a09-004
     - ext-a09-008
+    - ext-a27-004
     - gof-ch08-006
     - gof-ch09-005
     - gof-ch19-005
@@ -13450,6 +13532,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -13477,11 +13560,14 @@ tags:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   magical-education:
     entries:
+    - ext-a28-001
+    - ext-a28-002
     - gof-ch09-002
     - gof-ch11-004
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   magical-entrance:
     entries:
     - poa-ch03-003
@@ -13686,9 +13772,11 @@ tags:
     - sources/book-06/chapter-22-after-the-burial.yaml
   magical-medicine:
     entries:
+    - ext-a27-003
     - gof-ch02-005
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   magical-megaphone:
     entries:
     - hbp-ch14-005
@@ -13857,6 +13945,16 @@ tags:
     - gof-ch28-003
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  magical-scholarship:
+    entries:
+    - ext-a27-001
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
+  magical-school-location:
+    entries:
+    - ext-a28-004
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   magical-seals:
     entries:
     - dh-ch22-004
@@ -14228,6 +14326,11 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+  marlowe-forfang:
+    entries:
+    - ext-a27-001
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   mars:
     entries:
     - gof-ch29-005
@@ -14726,11 +14829,13 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
   ministry-interference:
     entries:
+    - ext-a28-003
     - hbp-ch16-007
     - hbp-ch30-006
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   ministry-intervention:
     entries:
     - gof-ch36-004
@@ -14809,6 +14914,7 @@ tags:
     - ext-a19-003
     - ext-a24-002
     - ext-a24-005
+    - ext-a27-002
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -14950,6 +15056,7 @@ tags:
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
     - sources/external/official-rowling/a24-the-floo-network.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   ministry-policy:
     entries:
     - dh-ch11-003
@@ -15868,6 +15975,7 @@ tags:
   nicolas-flamel:
     entries:
     - dh-ch02-002
+    - ext-a29-003
     - ps-ch06-003
     - ps-ch11-007
     - ps-ch13-001
@@ -15876,6 +15984,7 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   niffler:
     entries:
     - ootp-ch30-002
@@ -15949,6 +16058,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-03/chapter-01-owl-post.yaml
+  nineteenth-century:
+    entries:
+    - ext-a27-001
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   no-magic-punishment:
     entries:
     - cos-ch07-006
@@ -17317,6 +17431,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+  policy-history:
+    entries:
+    - ext-a27-002
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   political-conflict:
     entries:
     - beedle-ch02-009
@@ -19222,6 +19341,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  registry:
+    entries:
+    - ext-a27-002
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   regulation:
     entries:
     - gof-ch24-003
@@ -19919,8 +20043,11 @@ tags:
   school-geography:
     entries:
     - cos-ch05-002
+    - ext-a29-001
+    - ext-a29-002
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   school-governance:
     entries:
     - beedle-ch02-008
@@ -20218,6 +20345,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  school-registration:
+    entries:
+    - ext-a28-002
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   school-representative:
     entries:
     - dh-ch33-003
@@ -20235,9 +20367,11 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
   school-rivalry:
     entries:
+    - ext-a29-004
     - gof-ch23-005
     output_yaml:
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   school-rule-breaking:
     entries:
     - ext-a11-003
@@ -20297,16 +20431,20 @@ tags:
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   school-secrecy:
     entries:
+    - ext-a28-003
     - gof-ch11-004
     - gof-ch23-004
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   school-security:
     entries:
     - cos-ch02-002
     - ext-a07-003
     - ext-a24-003
+    - ext-a28-003
+    - ext-a28-004
     - gof-ch19-003
     - gof-ch19-006
     - gof-ch19-007
@@ -20332,6 +20470,7 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
     - sources/external/official-rowling/a24-the-floo-network.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   school-security-threat:
     entries:
     - hbp-ch06-007
@@ -20362,6 +20501,11 @@ tags:
     - qtta-ch04-002
     output_yaml:
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  school-standards:
+    entries:
+    - ext-a28-002
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   school-status:
     entries:
     - ootp-ch05-003
@@ -21678,6 +21822,11 @@ tags:
     - gof-ch16-006
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  social-history:
+    entries:
+    - ext-a27-005
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   sorcerers-stone:
     entries:
     - gof-ch33-002
@@ -22451,6 +22600,11 @@ tags:
     - ootp-ch32-005
     output_yaml:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+  stigma:
+    entries:
+    - ext-a27-005
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   stinksap:
     entries:
     - ootp-ch10-004
@@ -22890,8 +23044,11 @@ tags:
   student-population:
     entries:
     - ext-a15-002
+    - ext-a29-001
+    - ext-a29-002
     output_yaml:
     - sources/external/official-rowling/a15-the-original-forty.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   student-possessions:
     entries:
     - gof-ch04-002
@@ -24444,6 +24601,7 @@ tags:
   triwizard-tournament:
     entries:
     - ext-a09-005
+    - ext-a29-004
     - gof-ch07-007
     - gof-ch11-003
     - gof-ch12-005
@@ -24527,6 +24685,7 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
+    - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   triwizard-winnings:
     entries:
     - gof-ch37-001
@@ -24596,6 +24755,11 @@ tags:
     - gof-ch37-004
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  twentieth-century:
+    entries:
+    - ext-a27-003
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   twigger-90:
     entries:
     - qtta-ch09-007
@@ -25722,6 +25886,11 @@ tags:
     - hbp-ch16-003
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  werewolf-registry:
+    entries:
+    - ext-a27-002
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   werewolf-spy:
     entries:
     - hbp-ch16-004
@@ -25734,10 +25903,25 @@ tags:
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/external/official-rowling/a10-remus-lupin.yaml
+  werewolf-studies:
+    entries:
+    - ext-a27-001
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
+  werewolf-treatment:
+    entries:
+    - ext-a27-003
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   werewolves:
     entries:
     - cos-ch15-003
     - dh-ch01-005
+    - ext-a27-001
+    - ext-a27-002
+    - ext-a27-003
+    - ext-a27-004
+    - ext-a27-005
     - ootp-ch28-007
     - poa-ch09-005
     - poa-ch10-001
@@ -25755,6 +25939,7 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   west-tower:
     entries:
     - gof-ch15-001
@@ -25987,6 +26172,11 @@ tags:
     - ext-a26-001
     output_yaml:
     - sources/external/official-rowling/a26-colours.yaml
+  wizarding-community:
+    entries:
+    - ext-a27-005
+    output_yaml:
+    - sources/external/official-rowling/a27-werewolves.yaml
   wizarding-custom:
     entries:
     - dh-ch07-001
@@ -26135,6 +26325,11 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+  wizarding-populations:
+    entries:
+    - ext-a28-001
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   wizarding-prejudice:
     entries:
     - dh-ch24-003
@@ -26175,6 +26370,10 @@ tags:
     - sources/book-07/chapter-02-in-memoriam.yaml
   wizarding-schools:
     entries:
+    - ext-a28-001
+    - ext-a28-002
+    - ext-a28-003
+    - ext-a28-004
     - gof-ch07-003
     - gof-ch09-002
     - gof-ch11-004
@@ -26182,6 +26381,7 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   wizarding-secrecy:
     entries:
     - beedle-ch01-001
@@ -26215,6 +26415,11 @@ tags:
     - ps-ch01-002
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
+  wizarding-wars:
+    entries:
+    - ext-a28-003
+    output_yaml:
+    - sources/external/official-rowling/a28-wizarding-schools.yaml
   wizarding-weddings:
     entries:
     - dh-ch08-001
@@ -26255,6 +26460,7 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
   wolfsbane-potion:
     entries:
+    - ext-a27-003
     - hbp-ch07-006
     - hbp-ch16-003
     - poa-ch18-002
@@ -26266,6 +26472,7 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/external/official-rowling/a27-werewolves.yaml
   wood-lice:
     entries:
     - ootp-ch13-004

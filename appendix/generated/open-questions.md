@@ -457,3 +457,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a26-001` (None): This authorial note gives no date, frequency, or evidence that Hogwarts formally adopted the wider social signal.
 - `ext-a26-002` (None): The source states symbolic associations, not a rule that every purple-and-green use conveys this meaning or a date for the associations.
 - `ext-a26-004` (None): The article describes associations and deliberately does not establish an intrinsic moral quality for Slytherin or its members.
+- `ext-a27-003` (None): The phrase second half of the twentieth century spans both sides of 1984, and this source provides no invention date or inventor.
+- `ext-a27-004` (None): The account does not date the release, identify the litter, or establish which Forest stories arose from it; its statement that some survive is contemporary to the source narration.
+- `ext-a28-001` (None): A 2016 official overview states a broad generalisation, without country-specific data or a date for the described education patterns.
+- `ext-a28-002` (None): The article gives an undated high-level institutional count and registration status, not a list of schools, governing rules, or historical establishment dates.
+- `ext-a28-003` (None): This is an undated overview claim about the listed schools' long histories; it neither identifies affected schools nor specifies the relevant wars, hostile communities, or Ministry actions.
+- `ext-a28-004` (None): A general rule in a 2016 overview, explicitly subject to exceptions; it gives no school-specific locations or construction history.

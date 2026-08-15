@@ -922,6 +922,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Great Hall reunions and suspension of House seating
   - Harry's sacrificial protection over the defenders
   - Reinforcements and magical residents in the final counterattack
+- The Battle of Hogwarts and Its International Participants
+  - Fleur Delacour as a Beauxbatons Alumna
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
 - The Deathly Hallows and the Horcrux War
@@ -1543,6 +1545,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Staff Residences and Local Connections
   - Staff Rooms and Concealed Access
 
+## Part III: Hogwarts in the Wider Wizarding World
+
+- Hogwarts, Secrecy, and State Pressure
+  - Comparative institutional vulnerability
+  - School siting and defence
+- Wizarding Schools Beyond Britain
+  - International school governance
+  - School provision and alternatives
+
 ## Part III: Learning at Hogwarts
 
 - History of Magic and Historical Instruction
@@ -1571,6 +1582,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Destruction Of Slytherin's Locket
   - Gryffindor's sword as a Horcrux-destroying weapon
 
+## Part IV: Hogwarts Grounds, Buildings, and Hidden Places
+
+- The Grounds and the Forbidden Forest
+  - Creatures, Secrecy, and Forest Lore
+
 ## Part IV: Legacy and Aftermath
 
 - Recognition and Social Change
@@ -1587,6 +1603,23 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Inferi and Dark Creature Defense
   - Fire, Cold, and Animated Corpses
+
+## Part VI: Hogwarts and the Wider Wizarding World
+
+- Knowledge, Medicine, and School Safety
+  - Wolfsbane and Werewolf Accommodation
+- Ministry, Law, and School Context
+  - Werewolf Regulation and Social Exclusion
+- Wider Wizarding Institutions and Knowledge
+  - Magical Creature Scholarship
+
+## Part VI: Hogwarts in the Wider Wizarding World
+
+- International Schools and the Triwizard Tradition
+  - Beauxbatons and Hogwarts: Cordial Rivalry
+  - Beauxbatons, the Flamels, and School Grounds
+  - Beauxbatons: Geography and Student Catchment
+  - Comparative School Populations
 
 ## People of Hogwarts
 

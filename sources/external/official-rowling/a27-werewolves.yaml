@@ -1,0 +1,346 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A27
+  source_file: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+  title: Werewolves
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+  capture_completeness: complete
+  content_sha256: d187ee22dfb8ed4c0f409b9a0e2c33ccc50c5ed97f26e48ff3bafb2115820339
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a27-001
+    source_file: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    source_id: A27
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In the late nineteenth century the great English authority on werewolves
+      end_phrase: Muggles ‘taste’ different to wizards
+      local_occurrence_note: Opening paragraph, after the statement on werewolves' social exclusion.
+    nearby_context: Rowling describes Professor Marlowe Forfang's late-nineteenth-century study and its findings about how werewolves are made.
+    match_terms:
+      - marlowe-forfang
+      - nineteenth-century
+      - werewolves
+    quote_excerpt_short: undertook the first comprehensive study of their habits
+    source_note: Professor Marlowe Forfang's late-nineteenth-century comprehensive study reported that nearly all examined werewolves had been wizards before being bitten.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - magical-scholarship
+      - marlowe-forfang
+      - nineteenth-century
+      - werewolf-studies
+      - werewolves
+    candidate_part: 'Part VI: Hogwarts and the Wider Wizarding World'
+    candidate_chapter: Wider Wizarding Institutions and Knowledge
+    candidate_section: Magical Creature Scholarship
+    reason_for_placement: Documents a named pre-1984 authority and a historical development in wizarding creature scholarship.
+    relevance_to_hogwarts_a_history: Useful contextual history for Hogwarts' creature knowledge, while not asserting that Forfang or his study belonged to Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing records discuss werewolves in Hogwarts curriculum and safety contexts, not Forfang's study.
+      audit:
+        query_tags:
+          - marlowe-forfang
+          - nineteenth-century
+          - werewolves
+        candidates:
+          - id: cos-ch15-003
+            disposition: distinct
+          - id: dh-ch01-005
+            disposition: distinct
+          - id: ootp-ch28-007
+            disposition: distinct
+          - id: poa-ch09-005
+            disposition: distinct
+          - id: poa-ch10-001
+            disposition: distinct
+          - id: poa-ch17-003
+            disposition: distinct
+          - id: poa-ch18-002
+            disposition: distinct
+          - id: poa-ch18-003
+            disposition: distinct
+          - id: poa-ch18-004
+            disposition: distinct
+          - id: ps-ch13-004
+            disposition: distinct
+    confidence: high
+    limitations: The passage attributes the finding to Forfang but gives no publication title, methodology, or precise year.
+
+  - id: ext-a27-002
+    source_file: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    source_id: A27
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A Werewolf Code of Conduct was developed in 1637
+      end_phrase: it was eventually closed down
+      local_occurrence_note: Second paragraph on Ministry policy, from the Code through the closure of Support Services.
+    nearby_context: The Ministry's werewolf policy is described as muddled, with an unsigned 1637 Code, an incomplete Registry, divided offices, and a closed support service.
+    match_terms:
+      - ministry-of-magic
+      - policy
+      - werewolf-registry
+      - werewolves
+    quote_excerpt_short: A Werewolf Code of Conduct was developed in 1637
+    source_note: A 1637 Ministry Werewolf Code of Conduct failed because affected people would not identify themselves; the later Registry likewise remained incomplete and unreliable.
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ministry-of-magic
+      - policy-history
+      - registry
+      - werewolf-registry
+      - werewolves
+    candidate_part: 'Part VI: Hogwarts and the Wider Wizarding World'
+    candidate_chapter: Ministry, Law, and School Context
+    candidate_section: Werewolf Regulation and Social Exclusion
+    reason_for_placement: Supplies institutional legal and administrative context that bears on how Hogwarts could encounter werewolf stigma and disclosure.
+    relevance_to_hogwarts_a_history: Provides wider-government context rather than evidence of a Hogwarts policy; the date establishes the Code but not every later administrative change.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked records address other Ministry policies or Hogwarts creature lore, not the Code or Registry.
+      audit:
+        query_tags:
+          - ministry-of-magic
+          - policy
+          - werewolf-registry
+          - werewolves
+        candidates:
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-004
+            disposition: distinct
+          - id: cos-ch13-007
+            disposition: distinct
+          - id: cos-ch14-005
+            disposition: distinct
+          - id: cos-ch15-003
+            disposition: distinct
+          - id: dh-ch01-005
+            disposition: distinct
+          - id: dh-ch07-002
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+          - id: dh-ch08-007
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+    confidence: high
+    limitations: Rowling calls Ministry policy historically muddled but does not date the Registry, divisional arrangements, or closure of Support Services.
+
+  - id: ext-a27-003
+    source_file: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    source_id: A27
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In the second half of the twentieth century, several potions were devised
+      end_phrase: The most successful was the Wolfsbane Potion
+      local_occurrence_note: Standalone paragraph following the discussion of silver and dittany treatment.
+    nearby_context: Rowling dates several lycanthropy-mitigating potions to the second half of the twentieth century and identifies Wolfsbane as the most successful.
+    match_terms:
+      - twentieth-century
+      - werewolves
+      - wolfsbane-potion
+    quote_excerpt_short: The most successful was the Wolfsbane Potion
+    source_note: Several potions intended to soften lycanthropy's effects were devised in the twentieth century's second half, with Wolfsbane identified as the most successful.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - magical-medicine
+      - twentieth-century
+      - werewolf-treatment
+      - werewolves
+      - wolfsbane-potion
+    candidate_part: 'Part VI: Hogwarts and the Wider Wizarding World'
+    candidate_chapter: Knowledge, Medicine, and School Safety
+    candidate_section: Wolfsbane and Werewolf Accommodation
+    reason_for_placement: Gives historical context for later Hogwarts accommodation of a werewolf, while remaining separate from the school-specific accounts.
+    relevance_to_hogwarts_a_history: Corroborates the broader medical background to Hogwarts werewolf-safety arrangements, but the source does not date the potion closely enough for original-edition eligibility.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Hogwarts records corroborate Wolfsbane's use and later accommodation; this entry uniquely supplies Rowling's broad developmental chronology.
+      audit:
+        query_tags:
+          - twentieth-century
+          - werewolves
+          - wolfsbane-potion
+        candidates:
+          - id: poa-ch18-002
+            disposition: corroborating
+          - id: cos-ch15-003
+            disposition: distinct
+          - id: dh-ch01-005
+            disposition: distinct
+          - id: hbp-ch07-006
+            disposition: corroborating
+          - id: hbp-ch16-003
+            disposition: corroborating
+          - id: ootp-ch28-007
+            disposition: distinct
+          - id: poa-ch09-005
+            disposition: distinct
+          - id: poa-ch10-001
+            disposition: distinct
+          - id: poa-ch17-003
+            disposition: distinct
+          - id: poa-ch18-003
+            disposition: distinct
+    confidence: high
+    limitations: The phrase second half of the twentieth century spans both sides of 1984, and this source provides no invention date or inventor.
+
+  - id: ext-a27-004
+    source_file: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    source_id: A27
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: One curious feature of the condition is that if two werewolves meet and mate
+      end_phrase: highly desirable
+      local_occurrence_note: Final paragraph, from the account of a full-moon mating through the Hogwarts Forbidden Forest explanation.
+    nearby_context: The source says an exceptionally rare werewolf mating produced intelligent wolf cubs; one litter was secretly released into Hogwarts' Forbidden Forest with Dumbledore's permission.
+    match_terms:
+      - albus-dumbledore
+      - forbidden-forest
+      - hogwarts
+      - werewolves
+    quote_excerpt_short: set free, under conditions of extreme secrecy, in the Forbidden Forest at Hogwarts
+    source_note: A litter of unusually intelligent wolf cubs from two werewolves was secretly released into the Forbidden Forest with Albus Dumbledore's permission; the source says some still live there.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - albus-dumbledore
+      - forbidden-forest
+      - hogwarts-grounds
+      - magical-creatures
+      - werewolves
+    candidate_part: 'Part IV: Hogwarts Grounds, Buildings, and Hidden Places'
+    candidate_chapter: The Grounds and the Forbidden Forest
+    candidate_section: Creatures, Secrecy, and Forest Lore
+    reason_for_placement: Directly records a Hogwarts-grounds event and explains part of the Forest's werewolf reputation.
+    relevance_to_hogwarts_a_history: A direct institutional-history candidate, but its timing cannot be placed before 1984 because Dumbledore's permission is undated.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The leading candidate contains student lore about feared Forest werewolves; this source explains a distinct origin for some such stories.
+      audit:
+        query_tags:
+          - albus-dumbledore
+          - forbidden-forest
+          - hogwarts
+          - werewolves
+        candidates:
+          - id: cos-ch15-003
+            disposition: corroborating
+          - id: beedle-ch02-002
+            disposition: distinct
+          - id: beedle-ch02-006
+            disposition: distinct
+          - id: beedle-ch02-008
+            disposition: distinct
+          - id: beedle-ch02-009
+            disposition: distinct
+          - id: beedle-ch03-001
+            disposition: distinct
+          - id: beedle-ch05-001
+            disposition: distinct
+          - id: beedle-fm-001
+            disposition: distinct
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: beedle-fm-005
+            disposition: distinct
+    confidence: high
+    limitations: The account does not date the release, identify the litter, or establish which Forest stories arose from it; its statement that some survive is contemporary to the source narration.
+
+  - id: ext-a27-005
+    source_file: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    source_id: A27
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/werewolves
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: There are werewolves worldwide and they have traditionally been pariahs
+      end_phrase: escape the inevitable shame and exile
+      local_occurrence_note: Opening and second paragraphs, which connect long-standing pariah status to avoidance of official registration.
+    nearby_context: Rowling characterizes werewolves as long-standing wizarding-community pariahs and explains that social shame and exile deterred disclosure to the Ministry.
+    match_terms:
+      - stigma
+      - werewolves
+      - wizarding-community
+    quote_excerpt_short: sought to conceal their condition and escape the inevitable shame and exile
+    source_note: Long-standing stigma made werewolves conceal their condition, helping explain why voluntary Ministry registration and support systems did not function as intended.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - discrimination
+      - social-history
+      - stigma
+      - wizarding-community
+      - werewolves
+    candidate_part: 'Part VI: Hogwarts and the Wider Wizarding World'
+    candidate_chapter: Ministry, Law, and School Context
+    candidate_section: Werewolf Regulation and Social Exclusion
+    reason_for_placement: Gives social context for the risks of disclosure and exclusion that could affect Hogwarts community members.
+    relevance_to_hogwarts_a_history: Background context for school history rather than proof of a specific Hogwarts practice or person.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries show related wartime ideology, curriculum, and staff accommodation, but not the general historical mechanism of registration avoidance.
+      audit:
+        query_tags:
+          - stigma
+          - werewolves
+          - wizarding-community
+        candidates:
+          - id: cos-ch15-003
+            disposition: distinct
+          - id: dh-ch01-005
+            disposition: corroborating
+          - id: ootp-ch28-007
+            disposition: distinct
+          - id: poa-ch09-005
+            disposition: distinct
+          - id: poa-ch10-001
+            disposition: distinct
+          - id: poa-ch17-003
+            disposition: corroborating
+          - id: poa-ch18-002
+            disposition: distinct
+          - id: poa-ch18-003
+            disposition: distinct
+          - id: poa-ch18-004
+            disposition: distinct
+          - id: ps-ch13-004
+            disposition: distinct
+    confidence: high
+    limitations: The passage describes a broad, long-standing social pattern and does not quantify it or tie it to a named Hogwarts incident.
