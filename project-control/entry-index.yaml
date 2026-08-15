@@ -20867,6 +20867,49 @@ by_entry:
     - student-reading
     source_unit: qtta-ch11
     output_yaml: sources/book-qtta/chapter-11-back-cover.yaml
+  ext-a01-001:
+    title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - basilisk
+    - chamber-of-secrets
+    - founders
+    - hidden-chamber
+    - parselmouth
+    - salazar-slytherin
+    source_unit: A01
+    output_yaml: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+  ext-a01-002:
+    title: 'Hidden Architecture and Alterations: Plumbing, Bathrooms, and the Chamber
+      Entrance'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - chamber-of-secrets
+    - corvinus-gaunt
+    - eighteenth-century
+    - hidden-entrance
+    - magical-architecture
+    - plumbing
+    source_unit: A01
+    output_yaml: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+  ext-a01-003:
+    title: 'The Chamber of Secrets: Searches, Denials, and Restricted Access'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - chamber-of-secrets
+    - headmasters
+    - headmistresses
+    - historians
+    - parselmouth
+    - school-searches
+    source_unit: A01
+    output_yaml: sources/external/official-rowling/a01-chamber-of-secrets.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -21395,6 +21438,7 @@ by_tag:
   - cos-ch16-003
   - cos-ch17-002
   - cos-ch17-006
+  - ext-a01-001
   - ootp-ch16-005
   basilisk-fangs:
   - dh-ch31-005
@@ -22081,6 +22125,9 @@ by_tag:
   - cos-ch17-006
   - cos-ch17-007
   - dh-ch31-005
+  - ext-a01-001
+  - ext-a01-002
+  - ext-a01-003
   - hbp-ch17-005
   - hbp-ch19-002
   - hbp-ch23-006
@@ -22390,6 +22437,8 @@ by_tag:
   - ps-ch10-004
   - ps-ch12-001
   - ps-ch14-006
+  corvinus-gaunt:
+  - ext-a01-002
   council-of-magical-law:
   - gof-ch30-003
   - gof-ch30-005
@@ -23580,6 +23629,8 @@ by_tag:
   - ootp-ch28-003
   egbert:
   - beedle-ch05-003
+  eighteenth-century:
+  - ext-a01-002
   eileen-prince:
   - hbp-ch25-002
   - hbp-ch30-002
@@ -24273,6 +24324,7 @@ by_tag:
   founders:
   - cos-ch09-003
   - dh-ch31-002
+  - ext-a01-001
   - gof-ch12-002
   - ootp-ch11-003
   - ootp-ch17-002
@@ -25203,6 +25255,7 @@ by_tag:
   - hbp-ch25-007
   headmasters:
   - cos-ch09-006
+  - ext-a01-003
   headmasters-office:
   - ootp-ch27-007
   headmastership:
@@ -25215,6 +25268,7 @@ by_tag:
   - ootp-ch33-004
   headmistresses:
   - cos-ch09-006
+  - ext-a01-003
   headquarters:
   - dh-ch06-002
   - ootp-ch03-002
@@ -25333,10 +25387,12 @@ by_tag:
   - gof-ch35-002
   hidden-chamber:
   - cos-ch09-005
+  - ext-a01-001
   hidden-door:
   - hbp-ch19-004
   hidden-entrance:
   - cos-ch16-006
+  - ext-a01-002
   hidden-identities:
   - poa-ch17-005
   hidden-magical-history:
@@ -25404,6 +25460,8 @@ by_tag:
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch11-003
+  historians:
+  - ext-a01-003
   historical-artifact:
   - dh-ch07-006
   historical-instruction:
@@ -26798,6 +26856,7 @@ by_tag:
   - dh-ch29-004
   - dh-ch31-006
   - dh-ch32-005
+  - ext-a01-002
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -28314,6 +28373,8 @@ by_tag:
   - poa-ch22-003
   parselmouth:
   - cos-ch11-004
+  - ext-a01-001
+  - ext-a01-003
   - hbp-ch13-007
   parseltongue:
   - cos-ch11-004
@@ -28594,6 +28655,7 @@ by_tag:
   - qtta-ch10-002
   plumbing:
   - cos-ch16-007
+  - ext-a01-002
   - gof-ch25-004
   pluto:
   - ootp-ch35-005
@@ -29672,6 +29734,7 @@ by_tag:
   - cos-ch17-004
   - cos-ch17-006
   - dh-ch36-002
+  - ext-a01-001
   - hbp-ch10-006
   - hbp-ch20-005
   - ootp-ch11-003
@@ -29926,6 +29989,7 @@ by_tag:
   - ootp-ch24-003
   school-searches:
   - cos-ch09-006
+  - ext-a01-003
   school-secrecy:
   - gof-ch11-004
   - gof-ch23-004

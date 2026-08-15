@@ -223,3 +223,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `qtta-ch09`: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, pages 55-59, 7 entries, 0 explicit references.
 - `qtta-ch10`: Quidditch Through the Ages, Chapter Ten - Quidditch Today, pages 59-64, 2 entries, 0 explicit references.
 - `qtta-ch11`: Quidditch Through the Ages, Back Cover, pages 65-65, 1 entries, 0 explicit references.
+- `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.

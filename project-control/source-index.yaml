@@ -2606,3 +2606,19 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 1
   boundary_summary: Used indexed page range; extracted only pages 65-65.
+- source_unit_id: A01
+  source_file: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 3
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A01
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets

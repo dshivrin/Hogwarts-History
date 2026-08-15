@@ -5,16 +5,16 @@ Generated display only. Source of truth: `project-control/source-plan.yaml`.
 ## External Source Queue
 
 - Total: 63
-- Pending: 63
+- Pending: 62
 - In progress: 0
-- Done: 0
+- Done: 1
 - Blocked: 0
 
 ## Next Pending Unit
 
-- Unit: `A01` — Chamber of Secrets
-- Input: `resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md`
-- Output: `sources/external/official-rowling/a01-chamber-of-secrets.yaml`
+- Unit: `A02` — The Sorting Hat
+- Input: `resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md`
+- Output: `sources/external/official-rowling/a02-the-sorting-hat.yaml`
 
 Claim it with `just claim-external <agent> <unit>`.
 

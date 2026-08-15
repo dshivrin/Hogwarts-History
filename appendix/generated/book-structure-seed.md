@@ -517,6 +517,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ariana's portrait tunnel to the Hog's Head
   - Known secret passages sealed under occupation
 
+## Hogwarts Buildings and Grounds
+
+- Hidden Architecture and Alterations
+  - Plumbing, Bathrooms, and the Chamber Entrance
+
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
@@ -1489,8 +1494,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Safe-house barrier around Tonks household
   - Trace Limits and Blocked Magical Transport
 - The Chamber of Secrets
+  - Founder-Built Monster Lair and Restricted Access
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory
+  - Searches, Denials, and Restricted Access
 - The Chamber of Secrets Crisis
   - Aragog's Corrective Testimony
   - Closure and Emergency Departure

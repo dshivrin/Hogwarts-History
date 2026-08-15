@@ -1109,11 +1109,13 @@ tags:
     - cos-ch16-003
     - cos-ch17-002
     - cos-ch17-006
+    - ext-a01-001
     - ootp-ch16-005
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   basilisk-fangs:
     entries:
     - dh-ch31-005
@@ -2535,6 +2537,9 @@ tags:
     - cos-ch17-006
     - cos-ch17-007
     - dh-ch31-005
+    - ext-a01-001
+    - ext-a01-002
+    - ext-a01-003
     - hbp-ch17-005
     - hbp-ch19-002
     - hbp-ch23-006
@@ -2556,6 +2561,7 @@ tags:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   champion-points:
     entries:
     - gof-ch31-004
@@ -3244,6 +3250,11 @@ tags:
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  corvinus-gaunt:
+    entries:
+    - ext-a01-002
+    output_yaml:
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   council-of-magical-law:
     entries:
     - gof-ch30-003
@@ -5642,6 +5653,11 @@ tags:
     - beedle-ch05-003
     output_yaml:
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  eighteenth-century:
+    entries:
+    - ext-a01-002
+    output_yaml:
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   eileen-prince:
     entries:
     - hbp-ch25-002
@@ -7143,6 +7159,7 @@ tags:
     entries:
     - cos-ch09-003
     - dh-ch31-002
+    - ext-a01-001
     - gof-ch12-002
     - ootp-ch11-003
     - ootp-ch17-002
@@ -7152,6 +7169,7 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   founders-rift:
     entries:
     - cos-ch09-004
@@ -9038,8 +9056,10 @@ tags:
   headmasters:
     entries:
     - cos-ch09-006
+    - ext-a01-003
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   headmasters-office:
     entries:
     - ootp-ch27-007
@@ -9067,8 +9087,10 @@ tags:
   headmistresses:
     entries:
     - cos-ch09-006
+    - ext-a01-003
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   headquarters:
     entries:
     - dh-ch06-002
@@ -9322,8 +9344,10 @@ tags:
   hidden-chamber:
     entries:
     - cos-ch09-005
+    - ext-a01-001
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   hidden-door:
     entries:
     - hbp-ch19-004
@@ -9332,8 +9356,10 @@ tags:
   hidden-entrance:
     entries:
     - cos-ch16-006
+    - ext-a01-002
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   hidden-identities:
     entries:
     - poa-ch17-005
@@ -9481,6 +9507,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
+  historians:
+    entries:
+    - ext-a01-003
+    output_yaml:
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   historical-artifact:
     entries:
     - dh-ch07-006
@@ -12427,6 +12458,7 @@ tags:
     - dh-ch29-004
     - dh-ch31-006
     - dh-ch32-005
+    - ext-a01-002
     - gof-ch11-005
     - gof-ch17-007
     - gof-ch21-006
@@ -12493,6 +12525,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -15712,10 +15745,13 @@ tags:
   parselmouth:
     entries:
     - cos-ch11-004
+    - ext-a01-001
+    - ext-a01-003
     - hbp-ch13-007
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   parseltongue:
     entries:
     - cos-ch11-004
@@ -16324,10 +16360,12 @@ tags:
   plumbing:
     entries:
     - cos-ch16-007
+    - ext-a01-002
     - gof-ch25-004
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   pluto:
     entries:
     - ootp-ch35-005
@@ -18583,6 +18621,7 @@ tags:
     - cos-ch17-004
     - cos-ch17-006
     - dh-ch36-002
+    - ext-a01-001
     - hbp-ch10-006
     - hbp-ch20-005
     - ootp-ch11-003
@@ -18594,6 +18633,7 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   salem-witches-institute:
     entries:
     - gof-ch07-003
@@ -19144,8 +19184,10 @@ tags:
   school-searches:
     entries:
     - cos-ch09-006
+    - ext-a01-003
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+    - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   school-secrecy:
     entries:
     - gof-ch11-004

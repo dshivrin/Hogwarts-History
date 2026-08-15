@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 217
+- Total: 218
 
 ## Entries by Book
 
@@ -21,6 +21,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Harry Potter and the Prisoner of Azkaban: 145
 - Quidditch Through the Ages: 37
 - The Tales of Beedle the Bard: 29
+- Unknown: 3
 
 ## Entries by Era Classification
 
@@ -28,7 +29,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - later_editorial_note: 680
 - original_book_core_candidate: 8
 - post_1984_excluded_from_original: 13
-- pre_1984_historical_candidate: 188
+- pre_1984_historical_candidate: 191
 
 ## Entries by Reference Type
 
@@ -40,10 +41,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 - historical_claim: 234
 - house_system: 24
 - institutional_custom: 192
-- magical_architecture: 101
+- magical_architecture: 102
 - portrait_or_ghost_lore: 23
 - school_rule_or_policy: 139
-- security_or_protection: 231
+- security_or_protection: 233
 
 ## Explicit `Hogwarts: A History` References
 
@@ -51,7 +52,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1008
+- Total: 1011
 
 ## Latest Processed Unit
 
@@ -59,4 +60,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Next Pending Unit
 
-- Not recorded.
+- None, None, pages None-None, `None`

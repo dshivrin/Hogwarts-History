@@ -929,16 +929,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
     manifest_id: external-A01
     output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T09:43:33Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T09:32:52Z'
+      agent: a01-trial-agent
+    - event: completed
+      at: '2026-08-15T09:43:33Z'
   - id: A02
     title: The Sorting Hat
     source_kind: external_markdown

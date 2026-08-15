@@ -6812,6 +6812,18 @@ Summary: The available evidence includes 1 source item, led by: Moody says Pius 
 
 ### Chapter: The Chamber of Secrets
 
+#### Section: Founder-Built Monster Lair and Restricted Access
+
+Summary: The available evidence includes 1 source item, led by: Rowling presents the Chamber as Slytherin's founder-era hidden basilisk lair, deliberately restricted to him or his descendants and accessible only to a Parselmouth.
+
+- **Corroboration:** Rowling presents the Chamber as Slytherin's founder-era hidden basilisk lair, deliberately restricted to him or his descendants and accessible only to a Parselmouth.
+  - Quote: "the lair of a monster that he alone"
+  - Source: A01, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, `sources/external/official-rowling/a01-chamber-of-secrets.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `cos-ch17-006`. query-dupes chamber-of-secrets basilisk parselmouth returned cos-ch17-006 (score 2), which observes the Parseltongue-responsive statue and basilisk release; this source corroborates the founder-era purpose and inherited restriction.
+  - Notes: The source describes Slytherin's intentions retrospectively and does not date the Chamber's construction or identify contemporaneous records.
+
 #### Section: Legend, Hidden Room, and Heir Language
 
 Summary: The available evidence includes 1 source item, led by: Binns distinguishes accepted founding history from the Chamber legend and gives the legend's core claims about the hidden chamber, Slytherin's heir, and a concealed horror used to purge the school.
@@ -6833,6 +6845,18 @@ Summary: The available evidence includes 1 source item, led by: Binns states tha
   - Classification: pre_1984_historical_candidate | Confidence: medium
   - Reference type: security_or_protection
   - Notes: Binns's denial is later complicated by the plot; this entry should preserve his pre-confirmation view rather than treat it as final fact.
+
+#### Section: Searches, Denials, and Restricted Access
+
+Summary: The available evidence includes 1 source item, led by: Repeated searches by headmasters, headmistresses, and historians failed because the Chamber could be entered only by a Parselmouth.
+
+- **Corroboration:** Repeated searches by headmasters, headmistresses, and historians failed because the Chamber could be entered only by a Parselmouth.
+  - Quote: "none of them was a Parselmouth"
+  - Source: A01, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, `sources/external/official-rowling/a01-chamber-of-secrets.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Corroborates: `cos-ch09-006`. query-dupes chamber-of-secrets slytherin founders returned cos-ch09-006, and query-dupes chamber-of-secrets plumbing corvinus-gaunt also returned it; this source confirms the repeated searches and supplies the Parselmouth-only explanation.
+  - Notes: The source does not name the searchers, date their investigations, or specify how much of the castle each search covered.
 
 ### Chapter: The War Beyond the Gates
 
@@ -13563,6 +13587,22 @@ Summary: The available evidence includes 1 source item, led by: The route behind
   - Reference type: magical_architecture
   - Corroborates: `dh-ch28-007`. dh-ch28-007 introduces Ariana's portrait tunnel from the Hog's Head; this entry adds its apparent age and Neville's statement that the seven older school passages had been sealed and guarded.
   - Notes: Neville reports the passage closures from lived wartime experience; the chapter does not identify who originally built the Ariana route.
+
+## Part: Hogwarts Buildings and Grounds
+
+### Chapter: Hidden Architecture and Alterations
+
+#### Section: Plumbing, Bathrooms, and the Chamber Entrance
+
+Summary: The available evidence includes 1 source item, led by: When Hogwarts installed more elaborate plumbing in the eighteenth century, Corvinus Gaunt secretly preserved access to the Chamber entrance beneath the new bathroom.
+
+- **Corroboration:** When Hogwarts installed more elaborate plumbing in the eighteenth century, Corvinus Gaunt secretly preserved access to the Chamber entrance beneath the new bathroom.
+  - Quote: "Hogwarts’ plumbing became more elaborate in the eighteenth century"
+  - Source: A01, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, `sources/external/official-rowling/a01-chamber-of-secrets.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Corroborates: `cos-ch16-007`. query-dupes chamber-of-secrets plumbing corvinus-gaunt returned cos-ch16-007 (score 2), which maps the plumbing-linked descent; this source adds the eighteenth-century alteration and Corvinus Gaunt's protective intervention.
+  - Notes: The source does not identify the exact year, bathroom, or magical method Corvinus Gaunt used to preserve the entrance.
 
 ## Part: Hogwarts Curriculum and Instruction
 
