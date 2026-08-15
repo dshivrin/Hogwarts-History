@@ -21562,6 +21562,181 @@ by_entry:
     - marauders-map
     source_unit: A11
     output_yaml: sources/external/official-rowling/a11-the-marauder-s-map.yaml
+  ext-a12-001:
+    title: 'Student Life and House Identity: Sorting and House Affiliation'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: high
+    tags:
+    - hatstall
+    - hogwarts
+    - minerva-mcgonagall
+    - sorting
+    source_unit: A12
+    output_yaml: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  ext-a12-002:
+    title: 'Student Life and Academic Progression: Honours, Prefects, and Head Students'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - head-girl
+    - hogwarts
+    - minerva-mcgonagall
+    - prefect
+    source_unit: A12
+    output_yaml: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  ext-a12-003:
+    title: 'Curriculum and Advanced Magical Study: Transfiguration and Animagus Study'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - animagus
+    - hogwarts
+    - minerva-mcgonagall
+    - transfiguration
+    source_unit: A12
+    output_yaml: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  ext-a12-004:
+    title: 'Professors and Departments: Transfiguration Department Appointments'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - hogwarts
+    - minerva-mcgonagall
+    - teaching
+    - transfiguration
+    source_unit: A12
+    output_yaml: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  ext-a12-005:
+    title: 'Professors and School Life: Staff Residences and Local Connections'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hogsmeade
+    - hogwarts
+    - minerva-mcgonagall
+    - residence
+    source_unit: A12
+    output_yaml: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  ext-a12-006:
+    title: 'Professors and School Life: Staff Rooms and Concealed Access'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - hogsmeade
+    - hogwarts
+    - minerva-mcgonagall
+    - residence
+    source_unit: A12
+    output_yaml: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+  ext-a13-001:
+    title: 'Teaching Staff and School Subjects: Care of Magical Creatures Professorship'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - care-of-magical-creatures
+    - hagrid
+    - hogwarts-staff
+    - kettleburn
+    - staff-succession
+    source_unit: A13
+    output_yaml: sources/external/official-rowling/a13-professor-kettleburn.yaml
+  ext-a13-002:
+    title: 'Teaching Staff and School Subjects: Staff Discipline and Retention'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hazardous-creatures
+    - kettleburn
+    - probation
+    - school-employment
+    - staff-discipline
+    source_unit: A13
+    output_yaml: sources/external/official-rowling/a13-professor-kettleburn.yaml
+  ext-a13-003:
+    title: 'School Gatherings and Performances: The Fountain of Fair Fortune Pantomime'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - ashwinder
+    - fountain-of-fair-fortune
+    - great-hall
+    - kettleburn
+    - school-event
+    - stage-fire
+    source_unit: A13
+    output_yaml: sources/external/official-rowling/a13-professor-kettleburn.yaml
+  ext-a14-001:
+    title: 'The Castle: Ancient artefacts and uncertain origins'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - hogwarts
+    - magical-artefacts
+    - mirror-of-erised
+    - origins
+    source_unit: A14
+    output_yaml: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  ext-a14-002:
+    title: 'School Staff and Traditions: Staff travel and acquired artefacts'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - hogwarts
+    - institutional-history
+    - magical-artefacts
+    - teachers
+    - travel
+    source_unit: A14
+    output_yaml: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  ext-a14-003:
+    title: 'The Castle: The Room of Requirement and long-term concealment'
+    classification: pre_1984_historical_candidate
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - hidden-rooms
+    - hogwarts
+    - magical-architecture
+    - mirror-of-erised
+    - room-of-requirement
+    source_unit: A14
+    output_yaml: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  ext-a14-004:
+    title: 'School Security and Safeguards: Dumbledore''s Mirror safeguards'
+    classification: post_1984_excluded_from_original
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - desire-based-magic
+    - dumbledore
+    - mirror-of-erised
+    - security-or-protection
+    source_unit: A14
+    output_yaml: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  ext-a14-005:
+    title: 'The Castle: Enchanted objects and their uses'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - desire-based-magic
+    - hogwarts
+    - magical-artefacts
+    - mirror-of-erised
+    - revealing-magic
+    source_unit: A14
+    output_yaml: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
 by_tag:
   '1672':
   - beedle-ch04-004
@@ -21800,6 +21975,7 @@ by_tag:
   - beedle-ch04-002
   - beedle-ch04-003
   - beedle-ch04-005
+  - ext-a12-003
   - gof-ch27-006
   - gof-ch37-006
   - poa-ch20-003
@@ -21950,6 +22126,7 @@ by_tag:
   ashwinder:
   - beedle-ch02-003
   - beedle-ch02-004
+  - ext-a13-003
   assassination-attempt:
   - hbp-ch18-007
   assessment:
@@ -22522,6 +22699,7 @@ by_tag:
   - beedle-ch02-006
   - cos-ch08-003
   - cos-ch14-002
+  - ext-a13-001
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
@@ -23758,6 +23936,8 @@ by_tag:
   - gof-ch27-002
   - ootp-ch25-006
   desire-based-magic:
+  - ext-a14-004
+  - ext-a14-005
   - ps-ch17-003
   detection:
   - dh-ch27-006
@@ -24043,6 +24223,7 @@ by_tag:
   - dh-ch33-006
   - dh-ch35-003
   - dh-ch35-004
+  - ext-a14-004
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -25055,6 +25236,8 @@ by_tag:
   - ootp-ch07-003
   - ootp-ch09-002
   - ootp-ch36-004
+  fountain-of-fair-fortune:
+  - ext-a13-003
   four-houses:
   - cos-ch05-004
   - cos-ch09-003
@@ -25388,6 +25571,7 @@ by_tag:
   - dh-ch34-001
   - dh-ch36-001
   - dh-ch36-005
+  - ext-a13-003
   - gof-ch12-001
   - gof-ch12-003
   - gof-ch13-001
@@ -25702,6 +25886,7 @@ by_tag:
   - dh-ch22-007
   - dh-ch32-003
   - dh-ch34-006
+  - ext-a13-001
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -25887,6 +26072,8 @@ by_tag:
   - dh-ch36-007
   hassan-mostafa:
   - gof-ch08-005
+  hatstall:
+  - ext-a12-001
   haunted:
   - ext-a06-001
   haunted-places:
@@ -25895,6 +26082,7 @@ by_tag:
   - poa-ch17-002
   - poa-ch18-004
   hazardous-creatures:
+  - ext-a13-002
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
@@ -25915,6 +26103,7 @@ by_tag:
   - poa-ch09-002
   - poa-ch13-007
   head-girl:
+  - ext-a12-002
   - ootp-ch10-002
   - poa-ch05-006
   - poa-ch09-002
@@ -26172,6 +26361,7 @@ by_tag:
   - ootp-ch18-005
   hidden-rooms:
   - dh-ch27-005
+  - ext-a14-003
   hidden-staircase:
   - gof-ch28-006
   hidden-trapdoor:
@@ -26266,6 +26456,8 @@ by_tag:
   - dh-ch28-002
   - dh-ch36-004
   - ext-a10-001
+  - ext-a12-005
+  - ext-a12-006
   - gof-ch12-005
   - gof-ch19-001
   - gof-ch24-005
@@ -26331,6 +26523,16 @@ by_tag:
   - dh-ch34-003
   - ext-a06-001
   - ext-a06-007
+  - ext-a12-001
+  - ext-a12-002
+  - ext-a12-003
+  - ext-a12-004
+  - ext-a12-005
+  - ext-a12-006
+  - ext-a14-001
+  - ext-a14-002
+  - ext-a14-003
+  - ext-a14-005
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -26533,6 +26735,7 @@ by_tag:
   - dh-ch01-006
   - dh-ch06-003
   - dh-ch11-005
+  - ext-a13-001
   - ps-ch04-001
   hogwarts-student:
   - dh-ch02-001
@@ -27059,6 +27262,7 @@ by_tag:
   - dh-ch08-001
   - ps-ch07-002
   institutional-history:
+  - ext-a14-002
   - hbp-ch29-006
   - ootp-ch22-006
   institutional-memory:
@@ -27262,6 +27466,10 @@ by_tag:
   - dh-ch08-005
   kennilworthy-whisp:
   - qtta-fm-003
+  kettleburn:
+  - ext-a13-001
+  - ext-a13-002
+  - ext-a13-003
   killing-curse:
   - dh-ch17-006
   - gof-ch14-004
@@ -27655,6 +27863,7 @@ by_tag:
   - ext-a01-002
   - ext-a07-001
   - ext-a07-004
+  - ext-a14-003
   - gof-ch11-005
   - gof-ch17-007
   - gof-ch21-006
@@ -27683,6 +27892,10 @@ by_tag:
   - ootp-ch36-001
   - ps-ch07-001
   - ps-ch08-001
+  magical-artefacts:
+  - ext-a14-001
+  - ext-a14-002
+  - ext-a14-005
   magical-artifact:
   - cos-ch17-005
   - dh-ch07-004
@@ -28278,6 +28491,12 @@ by_tag:
   minerva-mcgonagall:
   - beedle-ch04-003
   - beedle-fm-004
+  - ext-a12-001
+  - ext-a12-002
+  - ext-a12-003
+  - ext-a12-004
+  - ext-a12-005
+  - ext-a12-006
   minister-of-magic:
   - cos-ch04-005
   - dh-ch35-006
@@ -28506,6 +28725,10 @@ by_tag:
   mirror:
   - ootp-ch17-007
   mirror-of-erised:
+  - ext-a14-001
+  - ext-a14-003
+  - ext-a14-004
+  - ext-a14-005
   - ps-ch12-006
   - ps-ch17-002
   - ps-ch17-003
@@ -29125,6 +29348,8 @@ by_tag:
   - ootp-ch09-007
   original-runes:
   - beedle-ch03-001
+  origins:
+  - ext-a14-001
   orphanage:
   - hbp-ch13-003
   - hbp-ch26-001
@@ -29744,6 +29969,7 @@ by_tag:
   - gof-ch14-006
   prefect:
   - ext-a10-002
+  - ext-a12-002
   prefect-carriage:
   - hbp-ch07-002
   prefect-lists:
@@ -29837,6 +30063,7 @@ by_tag:
   - ps-ch03-003
   probation:
   - beedle-ch02-006
+  - ext-a13-002
   - ootp-ch17-006
   - ootp-ch25-004
   probity-probes:
@@ -30438,6 +30665,9 @@ by_tag:
   - hbp-ch19-005
   rescue-signal:
   - gof-ch31-003
+  residence:
+  - ext-a12-005
+  - ext-a12-006
   resignation:
   - ext-a10-003
   - gof-ch24-007
@@ -30476,6 +30706,8 @@ by_tag:
   - dh-ch34-004
   - dh-ch34-005
   - dh-ch35-007
+  revealing-magic:
+  - ext-a14-005
   review-lessons:
   - ootp-ch31-001
   rhythm:
@@ -30547,6 +30779,7 @@ by_tag:
   - dh-ch30-007
   - dh-ch31-006
   - dh-ch31-007
+  - ext-a14-003
   - gof-ch23-004
   - hbp-ch18-004
   - hbp-ch19-006
@@ -30691,6 +30924,8 @@ by_tag:
   - ootp-ch28-005
   school-emergency:
   - cos-ch10-006
+  school-employment:
+  - ext-a13-002
   school-entertainment:
   - beedle-ch02-001
   - beedle-ch02-002
@@ -30700,6 +30935,8 @@ by_tag:
   - ps-ch05-007
   school-evacuation:
   - beedle-ch02-004
+  school-event:
+  - ext-a13-003
   school-fees:
   - hbp-ch17-002
   school-geography:
@@ -31155,6 +31392,8 @@ by_tag:
   - ootp-ch24-002
   security-failure:
   - poa-ch22-001
+  security-or-protection:
+  - ext-a14-004
   security-risk:
   - ootp-ch33-002
   security-threat:
@@ -31530,6 +31769,7 @@ by_tag:
   - ps-ch15-007
   sorting:
   - dh-ch36-002
+  - ext-a12-001
   sorting-ceremony:
   - cos-ch05-004
   - gof-ch12-003
@@ -31704,6 +31944,7 @@ by_tag:
   - ootp-ch24-001
   staff-discipline:
   - beedle-ch02-006
+  - ext-a13-002
   staff-dismissal:
   - ootp-ch26-006
   - ootp-ch30-005
@@ -31772,6 +32013,8 @@ by_tag:
   - hbp-ch11-004
   - ootp-ch10-006
   - ootp-ch15-006
+  staff-succession:
+  - ext-a13-001
   staff-table:
   - gof-ch12-006
   - hbp-ch08-003
@@ -31799,6 +32042,7 @@ by_tag:
   - poa-ch21-006
   stage-fire:
   - beedle-ch02-004
+  - ext-a13-003
   stage-magic:
   - beedle-ch02-002
   stagecoaches:
@@ -32418,6 +32662,9 @@ by_tag:
   - gof-ch37-002
   teachers:
   - cos-ch12-002
+  - ext-a14-002
+  teaching:
+  - ext-a12-004
   teaching-methods:
   - hbp-ch10-004
   team-captain:
@@ -32662,6 +32909,8 @@ by_tag:
   - cos-ch06-004
   - dh-ch15-003
   - dh-ch32-002
+  - ext-a12-003
+  - ext-a12-004
   - gof-ch15-002
   - hbp-ch11-001
   - hbp-ch15-003
@@ -32700,6 +32949,8 @@ by_tag:
   - ps-ch16-005
   trauma-aftermath:
   - gof-ch37-002
+  travel:
+  - ext-a14-002
   travers:
   - dh-ch05-005
   trelawney:

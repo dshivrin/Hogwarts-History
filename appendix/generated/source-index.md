@@ -234,3 +234,6 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A09`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, 8 entries, 0 explicit references.
 - `A10`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, 4 entries, 0 explicit references.
 - `A11`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, 4 entries, 0 explicit references.
+- `A12`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, 6 entries, 0 explicit references.
+- `A13`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn, 3 entries, 0 explicit references.
+- `A14`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, 5 entries, 0 explicit references.

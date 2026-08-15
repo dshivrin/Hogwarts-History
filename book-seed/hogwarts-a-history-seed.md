@@ -13811,6 +13811,48 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
   - Notes: It summarizes wizarding law through a teacher's classroom speech.
 
+## Part: Hogwarts Life and Traditions
+
+### Chapter: School Gatherings and Performances
+
+#### Section: The Fountain of Fair Fortune Pantomime
+
+Summary: The available evidence includes 1 source item, led by: Kettleburn caused a Great Hall fire by enchanting an Ashwinder to perform as the Worm in a school staging of The Fountain of Fair Fortune.
+
+- **Supporting evidence:** Kettleburn caused a Great Hall fire by enchanting an Ashwinder to perform as the Worm in a school staging of The Fountain of Fair Fortune.
+  - Quote: "caused the Great Hall to catch fire after enchanting an Ashwinder to play the Worm in a play of ‘The Fountain of Fair Fortune’."
+  - Source: A13, https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn, `sources/external/official-rowling/a13-professor-kettleburn.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is a retrospective official account; it does not independently date the performance or quantify its damage.
+
+## Part: Hogwarts Staff and Governance
+
+### Chapter: Teaching Staff and School Subjects
+
+#### Section: Care of Magical Creatures Professorship
+
+Summary: The available evidence includes 1 source item, led by: Kettleburn taught Care of Magical Creatures at Hogwarts through Harry's third year; Hagrid succeeded him.
+
+- **Supporting evidence:** Kettleburn taught Care of Magical Creatures at Hogwarts through Harry's third year; Hagrid succeeded him.
+  - Quote: "was the Care of Magical Creatures teacher at Hogwarts until Harry’s third year, when he was replaced by Rubeus Hagrid."
+  - Source: A13, https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn, `sources/external/official-rowling/a13-professor-kettleburn.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: This official retrospective profile gives no calendar year for Kettleburn's appointment or retirement.
+
+#### Section: Staff Discipline and Retention
+
+Summary: The available evidence includes 1 source item, led by: Hazardous creature work led Kettleburn to receive at least sixty-two probation periods while employed at Hogwarts, a standing record.
+
+- **Corroboration:** Hazardous creature work led Kettleburn to receive at least sixty-two probation periods while employed at Hogwarts, a standing record.
+  - Quote: "This fact led to no fewer than sixty-two periods of probation during his time of employment at the school."
+  - Source: A13, https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn, `sources/external/official-rowling/a13-professor-kettleburn.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `beedle-ch02-006`. The indexed Beedle entry states the same sixty-two-probation fact; this is official independent carrier support.
+  - Notes: The profile reports the total but does not enumerate the individual probation decisions or their dates.
+
 ## Part: Hogwarts Through the Ages
 
 ### Chapter: Student Life and Hidden Hogwarts
@@ -14230,6 +14272,67 @@ Summary: The available evidence includes 1 source item, led by: The Book of Admi
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: school_rule_or_policy
   - Notes: The source asserts exclusivity but does not describe later logistical steps after a name is entered.
+
+### Chapter: School Security and Safeguards
+
+#### Section: Dumbledore's Mirror safeguards
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore's alterations made the Mirror both a hiding place and a final moral test.
+
+- **Context:** Dumbledore's alterations made the Mirror both a hiding place and a final moral test.
+  - Quote: "does it become a superb hiding place, and the final test for the impure of heart."
+  - Source: A14, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, `sources/external/official-rowling/a14-the-mirror-of-erised.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The account identifies the result of Dumbledore's modifications but not their mechanics or precise date.
+
+### Chapter: School Staff and Traditions
+
+#### Section: Staff travel and acquired artefacts
+
+Summary: The available evidence includes 1 source item, led by: Teachers have repeatedly brought artefacts back from their travels; the article offers this as a possible, not confirmed, explanation for the mirror's arrival.
+
+- **Supporting evidence:** Teachers have repeatedly brought artefacts back from their travels; the article offers this as a possible, not confirmed, explanation for the mirror's arrival.
+  - Quote: "A succession of teachers have brought back interesting artefacts from their travels"
+  - Source: A14, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, `sources/external/official-rowling/a14-the-mirror-of-erised.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: The passage treats the mirror-specific acquisition explanation as conjecture and gives no teachers, dates, or inventory evidence.
+
+### Chapter: The Castle
+
+#### Section: Ancient artefacts and uncertain origins
+
+Summary: The available evidence includes 1 source item, led by: The mirror is ancient, but this official account does not identify either its maker or the route by which it reached Hogwarts.
+
+- **Supporting evidence:** The mirror is ancient, but this official account does not identify either its maker or the route by which it reached Hogwarts.
+  - Quote: "Nobody knows who created it, or how it came to be at Hogwarts School."
+  - Source: A14, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, `sources/external/official-rowling/a14-the-mirror-of-erised.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article states uncertainty rather than supplying a date, maker, or acquisition record.
+
+#### Section: Enchanted objects and their uses
+
+Summary: The available evidence includes 1 source item, led by: Before Dumbledore's intervention, the Mirror was more revealing than an ordinary mirror but was framed as intriguing rather than practically useful.
+
+- **Supporting evidence:** Before Dumbledore's intervention, the Mirror was more revealing than an ordinary mirror but was framed as intriguing rather than practically useful.
+  - Quote: "much more revealing than a normal mirror, it is interesting rather than useful."
+  - Source: A14, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, `sources/external/official-rowling/a14-the-mirror-of-erised.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The evaluation of usefulness is Rowling's retrospective framing rather than an in-universe institutional assessment.
+
+#### Section: The Room of Requirement and long-term concealment
+
+Summary: The available evidence includes 1 source item, led by: Before Dumbledore retrieved it, the Mirror had remained in the Room of Requirement for roughly a century.
+
+- **Supporting evidence:** Before Dumbledore retrieved it, the Mirror had remained in the Room of Requirement for roughly a century.
+  - Quote: "has been languishing in the Room of Requirement for a century or so"
+  - Source: A14, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, `sources/external/official-rowling/a14-the-mirror-of-erised.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The duration is approximate and the article does not identify the room's form or custodians during that period.
 
 ### Chapter: The School's Foundations and Governance
 
@@ -15322,6 +15425,47 @@ Summary: The available evidence includes 1 source item, led by: The sword cannot
   - Corroborates: `dh-ch07-006`, `cos-ch17-005`, `cos-ch18-004`. Prior entries establish the sword as a historical artifact and its Sorting Hat appearance to a true Gryffindor; this entry adds the Forest of Dean retrieval test and failed Summoning detail.
   - Notes: Harry's reasoning supplies the worthiness interpretation; the scene confirms behavior but not a formal rule text.
 
+## Part: Part II — Students and Education
+
+### Chapter: Curriculum and Advanced Magical Study
+
+#### Section: Transfiguration and Animagus Study
+
+Summary: The available evidence includes 1 source item, led by: As a Hogwarts student under Dumbledore's Transfiguration guidance, McGonagall became an Animagus whose distinctive form was logged in the Ministry registry.
+
+- **Supporting evidence:** As a Hogwarts student under Dumbledore's Transfiguration guidance, McGonagall became an Animagus whose distinctive form was logged in the Ministry registry.
+  - Quote: "Under the guidance of her inspirational Transfiguration teacher, Albus Dumbledore, she had managed to become an Animagus;"
+  - Source: A12, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, `sources/external/official-rowling/a12-professor-mcgonagall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The profile does not describe the training process or establish that Animagus work was part of the regular curriculum.
+
+### Chapter: Student Life and Academic Progression
+
+#### Section: Honours, Prefects, and Head Students
+
+Summary: The available evidence includes 1 source item, led by: McGonagall completed Hogwarts with top O.W.L. and N.E.W.T. grades, served as Prefect and Head Girl, and won a Transfiguration award.
+
+- **Supporting evidence:** McGonagall completed Hogwarts with top O.W.L. and N.E.W.T. grades, served as Prefect and Head Girl, and won a Transfiguration award.
+  - Quote: "Prefect, Head Girl, and winner of the *Transfiguration Today* Most Promising Newcomer award."
+  - Source: A12, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, `sources/external/official-rowling/a12-professor-mcgonagall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The profile describes one individual’s record and does not establish the general rules for selecting Prefects or Head Girl.
+
+### Chapter: Student Life and House Identity
+
+#### Section: Sorting and House Affiliation
+
+Summary: The available evidence includes 1 source item, led by: McGonagall was a Hatstall and was ultimately sorted into Gryffindor after prolonged consideration of Ravenclaw.
+
+- **Supporting evidence:** McGonagall was a Hatstall and was ultimately sorted into Gryffindor after prolonged consideration of Ravenclaw.
+  - Quote: "the Sorting Hat, which had been vacillating between the houses of Ravenclaw and Gryffindor, placed Minerva in the latter."
+  - Source: A12, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, `sources/external/official-rowling/a12-professor-mcgonagall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: house_system
+  - Notes: A retrospective authorial profile gives no year for the Sorting and does not independently date it.
+
 ## Part: Part II: Governance and the Wider Wizarding World
 
 ### Chapter: Secrecy, Ministry Policy, and Hogwarts
@@ -15671,6 +15815,45 @@ Summary: The available evidence includes 1 source item, led by: The mobile camps
   - Reference type: security_or_protection
   - Corroborates: `dh-ch14-003`, `dh-ch15-001`, `dh-ch16-001`. Prior entries cover the campsite charm routine, repeated recasting, and Ron's inability to locate new camps; this passage adds explicit duration and reliability evidence for the wards.
   - Notes: The exact enchantments are not named in this chapter; details depend on earlier campsite passages.
+
+## Part: Part III — Staff and Governance
+
+### Chapter: Professors and Departments
+
+#### Section: Transfiguration Department Appointments
+
+Summary: The available evidence includes 1 source item, led by: After two years at the Ministry, McGonagall sought and promptly received a teaching position in Hogwarts' Transfiguration department under Dumbledore.
+
+- **Supporting evidence:** After two years at the Ministry, McGonagall sought and promptly received a teaching position in Hogwarts' Transfiguration department under Dumbledore.
+  - Quote: "The owl returned within hours, offering her a job in the Transfiguration department, under Head of Department, Albus Dumbledore."
+  - Source: A12, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, `sources/external/official-rowling/a12-professor-mcgonagall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: This biographical account names the department head but does not describe formal hiring policy or a date for the appointment.
+
+### Chapter: Professors and School Life
+
+#### Section: Staff Residences and Local Connections
+
+Summary: The available evidence includes 1 source item, led by: During her marriage to Elphinstone Urquart, McGonagall lived in a Hogsmeade cottage from which she could commute to Hogwarts.
+
+- **Supporting evidence:** During her marriage to Elphinstone Urquart, McGonagall lived in a Hogsmeade cottage from which she could commute to Hogwarts.
+  - Quote: "purchased a small cottage in Hogsmeade for the pair of them, whence Minerva could travel easily to work every day."
+  - Source: A12, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, `sources/external/official-rowling/a12-professor-mcgonagall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account concerns one professor and does not establish a general staff-housing practice.
+
+#### Section: Staff Rooms and Concealed Access
+
+Summary: The available evidence includes 1 source item, led by: After Elphinstone's death, McGonagall resumed living in a Hogwarts Castle bedroom reached through a concealed door in her first-floor study.
+
+- **Supporting evidence:** After Elphinstone's death, McGonagall resumed living in a Hogwarts Castle bedroom reached through a concealed door in her first-floor study.
+  - Quote: "returned to her sparse stone-floored bedroom in Hogwarts Castle, accessible through a concealed door in the wall of her first-floor study."
+  - Source: A12, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, `sources/external/official-rowling/a12-professor-mcgonagall.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: magical_architecture
+  - Notes: The profile provides no layout, date, or evidence that other staff rooms used the same concealed-access arrangement.
 
 ## Part: Part III: Learning at Hogwarts
 

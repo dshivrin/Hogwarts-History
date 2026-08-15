@@ -493,6 +493,7 @@ tags:
     - beedle-ch04-002
     - beedle-ch04-003
     - beedle-ch04-005
+    - ext-a12-003
     - gof-ch27-006
     - gof-ch37-006
     - poa-ch20-003
@@ -501,6 +502,7 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   animal-transformation:
     entries:
     - cos-ch12-004
@@ -816,8 +818,10 @@ tags:
     entries:
     - beedle-ch02-003
     - beedle-ch02-004
+    - ext-a13-003
     output_yaml:
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   assassination-attempt:
     entries:
     - hbp-ch18-007
@@ -2025,6 +2029,7 @@ tags:
     - beedle-ch02-006
     - cos-ch08-003
     - cos-ch14-002
+    - ext-a13-001
     - gof-ch13-003
     - gof-ch18-003
     - gof-ch21-004
@@ -2085,6 +2090,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -4634,9 +4640,12 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   desire-based-magic:
     entries:
+    - ext-a14-004
+    - ext-a14-005
     - ps-ch17-003
     output_yaml:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   detection:
     entries:
     - dh-ch27-006
@@ -5209,6 +5218,7 @@ tags:
     - dh-ch33-006
     - dh-ch35-003
     - dh-ch35-004
+    - ext-a14-004
     - gof-ch02-005
     - gof-ch11-001
     - gof-ch12-006
@@ -5441,6 +5451,7 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   dumbledore-absences:
     entries:
     - hbp-ch25-006
@@ -7328,6 +7339,11 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  fountain-of-fair-fortune:
+    entries:
+    - ext-a13-003
+    output_yaml:
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   four-houses:
     entries:
     - cos-ch05-004
@@ -8029,6 +8045,7 @@ tags:
     - dh-ch34-001
     - dh-ch36-001
     - dh-ch36-005
+    - ext-a13-003
     - gof-ch12-001
     - gof-ch12-003
     - gof-ch13-001
@@ -8104,6 +8121,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -8642,6 +8660,7 @@ tags:
     - dh-ch22-007
     - dh-ch32-003
     - dh-ch34-006
+    - ext-a13-001
     - gof-ch11-006
     - gof-ch13-003
     - gof-ch16-006
@@ -8767,6 +8786,7 @@ tags:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   hagrid-cabin:
     entries:
     - gof-ch16-005
@@ -9002,6 +9022,11 @@ tags:
     - gof-ch08-005
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  hatstall:
+    entries:
+    - ext-a12-001
+    output_yaml:
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   haunted:
     entries:
     - ext-a06-001
@@ -9021,6 +9046,7 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
   hazardous-creatures:
     entries:
+    - ext-a13-002
     - gof-ch13-003
     - gof-ch18-003
     - gof-ch21-004
@@ -9030,6 +9056,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   head-boy:
     entries:
     - cos-ch04-003
@@ -9063,6 +9090,7 @@ tags:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
   head-girl:
     entries:
+    - ext-a12-002
     - ootp-ch10-002
     - poa-ch05-006
     - poa-ch09-002
@@ -9070,6 +9098,7 @@ tags:
     - sources/book-03/chapter-05-the-dementor.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   head-of-house:
     entries:
     - gof-ch18-002
@@ -9616,8 +9645,10 @@ tags:
   hidden-rooms:
     entries:
     - dh-ch27-005
+    - ext-a14-003
     output_yaml:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   hidden-staircase:
     entries:
     - gof-ch28-006
@@ -9810,6 +9841,8 @@ tags:
     - dh-ch28-002
     - dh-ch36-004
     - ext-a10-001
+    - ext-a12-005
+    - ext-a12-006
     - gof-ch12-005
     - gof-ch19-001
     - gof-ch24-005
@@ -9871,6 +9904,7 @@ tags:
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/external/official-rowling/a10-remus-lupin.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   hogsmeade-approach:
     entries:
     - ootp-ch24-002
@@ -9926,6 +9960,16 @@ tags:
     - dh-ch34-003
     - ext-a06-001
     - ext-a06-007
+    - ext-a12-001
+    - ext-a12-002
+    - ext-a12-003
+    - ext-a12-004
+    - ext-a12-005
+    - ext-a12-006
+    - ext-a14-001
+    - ext-a14-002
+    - ext-a14-003
+    - ext-a14-005
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -9956,6 +10000,8 @@ tags:
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   hogwarts-a-history:
     entries:
     - cos-ch09-001
@@ -10340,6 +10386,7 @@ tags:
     - dh-ch01-006
     - dh-ch06-003
     - dh-ch11-005
+    - ext-a13-001
     - ps-ch04-001
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
@@ -10347,6 +10394,7 @@ tags:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   hogwarts-student:
     entries:
     - dh-ch02-001
@@ -11450,11 +11498,13 @@ tags:
     - sources/book-07/chapter-08-the-wedding.yaml
   institutional-history:
     entries:
+    - ext-a14-002
     - hbp-ch29-006
     - ootp-ch22-006
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   institutional-memory:
     entries:
     - beedle-fm-004
@@ -11911,6 +11961,13 @@ tags:
     - qtta-fm-003
     output_yaml:
     - sources/book-qtta/chapter-00-front-matter.yaml
+  kettleburn:
+    entries:
+    - ext-a13-001
+    - ext-a13-002
+    - ext-a13-003
+    output_yaml:
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   killing-curse:
     entries:
     - dh-ch17-006
@@ -12739,6 +12796,7 @@ tags:
     - ext-a01-002
     - ext-a07-001
     - ext-a07-004
+    - ext-a14-003
     - gof-ch11-005
     - gof-ch17-007
     - gof-ch21-006
@@ -12807,6 +12865,14 @@ tags:
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  magical-artefacts:
+    entries:
+    - ext-a14-001
+    - ext-a14-002
+    - ext-a14-005
+    output_yaml:
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   magical-artifact:
     entries:
     - cos-ch17-005
@@ -14090,9 +14156,16 @@ tags:
     entries:
     - beedle-ch04-003
     - beedle-fm-004
+    - ext-a12-001
+    - ext-a12-002
+    - ext-a12-003
+    - ext-a12-004
+    - ext-a12-005
+    - ext-a12-006
     output_yaml:
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   minister-of-magic:
     entries:
     - cos-ch04-005
@@ -14560,12 +14633,17 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
   mirror-of-erised:
     entries:
+    - ext-a14-001
+    - ext-a14-003
+    - ext-a14-004
+    - ext-a14-005
     - ps-ch12-006
     - ps-ch17-002
     - ps-ch17-003
     output_yaml:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   mist:
     entries:
     - hbp-ch01-006
@@ -15912,6 +15990,11 @@ tags:
     - beedle-ch03-001
     output_yaml:
     - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+  origins:
+    entries:
+    - ext-a14-001
+    output_yaml:
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   orphanage:
     entries:
     - hbp-ch13-003
@@ -17253,8 +17336,10 @@ tags:
   prefect:
     entries:
     - ext-a10-002
+    - ext-a12-002
     output_yaml:
     - sources/external/official-rowling/a10-remus-lupin.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   prefect-carriage:
     entries:
     - hbp-ch07-002
@@ -17449,12 +17534,14 @@ tags:
   probation:
     entries:
     - beedle-ch02-006
+    - ext-a13-002
     - ootp-ch17-006
     - ootp-ch25-004
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   probity-probes:
     entries:
     - dh-ch26-001
@@ -18688,6 +18775,12 @@ tags:
     - gof-ch31-003
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  residence:
+    entries:
+    - ext-a12-005
+    - ext-a12-006
+    output_yaml:
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   resignation:
     entries:
     - ext-a10-003
@@ -18770,6 +18863,11 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  revealing-magic:
+    entries:
+    - ext-a14-005
+    output_yaml:
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   review-lessons:
     entries:
     - ootp-ch31-001
@@ -18922,6 +19020,7 @@ tags:
     - dh-ch30-007
     - dh-ch31-006
     - dh-ch31-007
+    - ext-a14-003
     - gof-ch23-004
     - hbp-ch18-004
     - hbp-ch19-006
@@ -18954,6 +19053,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   rosmerta:
     entries:
     - hbp-ch27-006
@@ -19241,6 +19341,11 @@ tags:
     - cos-ch10-006
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  school-employment:
+    entries:
+    - ext-a13-002
+    output_yaml:
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   school-entertainment:
     entries:
     - beedle-ch02-001
@@ -19262,6 +19367,11 @@ tags:
     - beedle-ch02-004
     output_yaml:
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  school-event:
+    entries:
+    - ext-a13-003
+    output_yaml:
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   school-fees:
     entries:
     - hbp-ch17-002
@@ -20199,6 +20309,11 @@ tags:
     - poa-ch22-001
     output_yaml:
     - sources/book-03/chapter-22-owl-post-again.yaml
+  security-or-protection:
+    entries:
+    - ext-a14-004
+    output_yaml:
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   security-risk:
     entries:
     - ootp-ch33-002
@@ -21002,8 +21117,10 @@ tags:
   sorting:
     entries:
     - dh-ch36-002
+    - ext-a12-001
     output_yaml:
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   sorting-ceremony:
     entries:
     - cos-ch05-004
@@ -21386,8 +21503,10 @@ tags:
   staff-discipline:
     entries:
     - beedle-ch02-006
+    - ext-a13-002
     output_yaml:
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   staff-dismissal:
     entries:
     - ootp-ch26-006
@@ -21546,6 +21665,11 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  staff-succession:
+    entries:
+    - ext-a13-001
+    output_yaml:
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   staff-table:
     entries:
     - gof-ch12-006
@@ -21602,8 +21726,10 @@ tags:
   stage-fire:
     entries:
     - beedle-ch02-004
+    - ext-a13-003
     output_yaml:
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/external/official-rowling/a13-professor-kettleburn.yaml
   stage-magic:
     entries:
     - beedle-ch02-002
@@ -22964,8 +23090,15 @@ tags:
   teachers:
     entries:
     - cos-ch12-002
+    - ext-a14-002
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  teaching:
+    entries:
+    - ext-a12-004
+    output_yaml:
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   teaching-methods:
     entries:
     - hbp-ch10-004
@@ -23518,6 +23651,8 @@ tags:
     - cos-ch06-004
     - dh-ch15-003
     - dh-ch32-002
+    - ext-a12-003
+    - ext-a12-004
     - gof-ch15-002
     - hbp-ch11-001
     - hbp-ch15-003
@@ -23552,6 +23687,7 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   transfiguration-book:
     entries:
     - cos-ch18-006
@@ -23609,6 +23745,11 @@ tags:
     - gof-ch37-002
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  travel:
+    entries:
+    - ext-a14-002
+    output_yaml:
+    - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   travers:
     entries:
     - dh-ch05-005

@@ -14,13 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: A12
-  title: Professor McGonagall
+  id: A15
+  title: The Original Forty
   status: pending
-  input_path: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
-  output_file: sources/external/official-rowling/a12-professor-mcgonagall.yaml
-  staging_file: work/external-staging/a12.yaml
-  manifest_id: external-A12
+  input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+  output_file: sources/external/official-rowling/a15-the-original-forty.yaml
+  staging_file: work/external-staging/a15.yaml
+  manifest_id: external-A15
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 52
+    pending: 49
     in_progress: 0
-    done: 11
+    done: 14
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: A12
-    title: Professor McGonagall
+    id: A15
+    title: The Original Forty
     status: pending
-    input_path: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
-    output_file: sources/external/official-rowling/a12-professor-mcgonagall.yaml
-    staging_file: work/external-staging/a12.yaml
-    manifest_id: external-A12
+    input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+    output_file: sources/external/official-rowling/a15-the-original-forty.yaml
+    staging_file: work/external-staging/a15.yaml
+    manifest_id: external-A15
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: A11
-    title: The Marauder’s Map
+    id: A14
+    title: 'The Mirror of Erised  '
     status: done
-    input_path: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
-    output_file: sources/external/official-rowling/a11-the-marauder-s-map.yaml
-    staging_file: work/external-staging/a11.yaml
-    manifest_id: external-A11
+    input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+    staging_file: work/external-staging/a14.yaml
+    manifest_id: external-A14
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: A11
-  title: The Marauder’s Map
+  id: A14
+  title: 'The Mirror of Erised  '
   status: done
-  input_path: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
-  output_file: sources/external/official-rowling/a11-the-marauder-s-map.yaml
-  staging_file: work/external-staging/a11.yaml
-  manifest_id: external-A11
+  input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+  output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  staging_file: work/external-staging/a14.yaml
+  manifest_id: external-A14
   claimed_by: null
   claimed_at: null

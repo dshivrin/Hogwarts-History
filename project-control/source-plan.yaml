@@ -1193,16 +1193,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
     manifest_id: external-A12
     output_file: sources/external/official-rowling/a12-professor-mcgonagall.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:49:15Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:41:54Z'
+      agent: source-agent-a12
+    - event: completed
+      at: '2026-08-15T14:49:15Z'
     staging_file: work/external-staging/a12.yaml
   - id: A13
     title: Professor Kettleburn
@@ -1212,16 +1217,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
     manifest_id: external-A13
     output_file: sources/external/official-rowling/a13-professor-kettleburn.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:50:50Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:41:54Z'
+      agent: source-agent-a13
+    - event: completed
+      at: '2026-08-15T14:50:50Z'
     staging_file: work/external-staging/a13.yaml
   - id: A14
     title: 'The Mirror of Erised  '
@@ -1231,16 +1241,21 @@ external_sources:
     input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
     manifest_id: external-A14
     output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T14:52:50Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T14:41:54Z'
+      agent: source-agent-a14
+    - event: completed
+      at: '2026-08-15T14:52:50Z'
     staging_file: work/external-staging/a14.yaml
   - id: A15
     title: The Original Forty

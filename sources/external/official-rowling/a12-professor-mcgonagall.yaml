@@ -1,0 +1,407 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A12
+  source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+  title: Professor McGonagall
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+  capture_completeness: complete
+  content_sha256: 31f4be270450f6984c9bbf0e03e140bdb4518872dcd9ece9ec59ab0d2381038b
+  processed_date: '2026-08-15'
+  processor_notes: Complete A12 snapshot read and grounded institutional evidence extracted.
+
+entries:
+  - id: ext-a12-001
+    source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    source_id: A12
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+    source_section: School Career
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Minerva drew unusual attention to herself on her very first evening
+      end_phrase: placed Minerva in the latter
+      local_occurrence_note: School Career paragraph describing McGonagall's first Hogwarts evening.
+    nearby_context: The Sorting Hat spent five and a half minutes between Ravenclaw and Gryffindor before choosing Gryffindor.
+    match_terms:
+      - minerva mcgonagall
+      - hatstall
+      - sorting hat
+    quote_excerpt_short: the Sorting Hat, which had been vacillating between the houses of Ravenclaw and Gryffindor, placed Minerva in the latter.
+    source_note: McGonagall was a Hatstall and was ultimately sorted into Gryffindor after prolonged consideration of Ravenclaw.
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hatstall
+      - hogwarts
+      - minerva-mcgonagall
+      - sorting
+    candidate_part: Part II — Students and Education
+    candidate_chapter: Student Life and House Identity
+    candidate_section: Sorting and House Affiliation
+    reason_for_placement: Documents an exceptional Sorting decision involving a later long-serving Hogwarts professor.
+    relevance_to_hogwarts_a_history: Useful as retrospective evidence of Sorting Hat deliberation and house assignment before Harry's era.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned McGonagall and Animagus references do not make the Hatstall claim.
+      audit:
+        query_tags:
+          - hatstall
+          - hogwarts
+          - minerva-mcgonagall
+          - sorting
+        candidates:
+          - id: beedle-ch04-003
+            disposition: distinct
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+    confidence: high
+    limitations: A retrospective authorial profile gives no year for the Sorting and does not independently date it.
+
+  - id: ext-a12-002
+    source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    source_id: A12
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+    source_section: School Career
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: By the end of her education at Hogwarts
+      end_phrase: Most Promising Newcomer award
+      local_occurrence_note: School Career paragraph summarising McGonagall's school record.
+    nearby_context: The profile lists examination results, student leadership positions, and a Transfiguration award at the end of her schooling.
+    match_terms:
+      - minerva mcgonagall
+      - prefect
+      - head girl
+    quote_excerpt_short: Prefect, Head Girl, and winner of the *Transfiguration Today* Most Promising Newcomer award.
+    source_note: McGonagall completed Hogwarts with top O.W.L. and N.E.W.T. grades, served as Prefect and Head Girl, and won a Transfiguration award.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - head-girl
+      - hogwarts
+      - minerva-mcgonagall
+      - prefect
+    candidate_part: Part II — Students and Education
+    candidate_chapter: Student Life and Academic Progression
+    candidate_section: Honours, Prefects, and Head Students
+    reason_for_placement: Supplies a documented example of school achievement and student leadership distinctions.
+    relevance_to_hogwarts_a_history: Helps describe the kinds of academic and leadership recognition associated with Hogwarts student progression before Harry's era.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing returned McGonagall references concern Animagus research or archive publication, not her school record.
+      audit:
+        query_tags:
+          - head-girl
+          - hogwarts
+          - minerva-mcgonagall
+          - prefect
+        candidates:
+          - id: beedle-ch04-003
+            disposition: distinct
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+    confidence: high
+    limitations: The profile describes one individual’s record and does not establish the general rules for selecting Prefects or Head Girl.
+
+  - id: ext-a12-003
+    source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    source_id: A12
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+    source_section: School Career
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Under the guidance of her inspirational Transfiguration teacher, Albus Dumbledore
+      end_phrase: Animagus Registry
+      local_occurrence_note: School Career paragraph following the summary of McGonagall's qualifications.
+    nearby_context: The profile says Dumbledore guided McGonagall to become an Animagus and describes her tabby-cat form as logged by the Ministry.
+    match_terms:
+      - animagus
+      - minerva mcgonagall
+      - transfiguration
+    quote_excerpt_short: Under the guidance of her inspirational Transfiguration teacher, Albus Dumbledore, she had managed to become an Animagus;
+    source_note: As a Hogwarts student under Dumbledore's Transfiguration guidance, McGonagall became an Animagus whose distinctive form was logged in the Ministry registry.
+    reference_type: curriculum_or_subject
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - animagus
+      - hogwarts
+      - minerva-mcgonagall
+      - transfiguration
+    candidate_part: Part II — Students and Education
+    candidate_chapter: Curriculum and Advanced Magical Study
+    candidate_section: Transfiguration and Animagus Study
+    reason_for_placement: Connects advanced Transfiguration mentorship at Hogwarts with a regulated Animagus accomplishment.
+    relevance_to_hogwarts_a_history: Provides retrospective evidence that exceptional student Transfiguration could extend to Animagus training, with Ministry registration noted.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The closest returned entries corroborate Animagus practice and McGonagall's later expertise but do not state this educational pathway and registry record.
+      audit:
+        query_tags:
+          - animagus
+          - hogwarts
+          - minerva-mcgonagall
+          - transfiguration
+        candidates:
+          - id: beedle-ch04-002
+            disposition: corroborating
+          - id: beedle-ch04-003
+            disposition: corroborating
+          - id: beedle-ch04-005
+            disposition: corroborating
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: cos-ch06-004
+            disposition: corroborating
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-003
+            disposition: corroborating
+          - id: dh-ch15-007
+            disposition: distinct
+    confidence: high
+    limitations: The profile does not describe the training process or establish that Animagus work was part of the regular curriculum.
+
+  - id: ext-a12-004
+    source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    source_id: A12
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+    source_section: Ministry Career
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Finally, after two years at the Ministry
+      end_phrase: under Head of Department, Albus Dumbledore
+      local_occurrence_note: Final sentence of the Ministry Career section.
+    nearby_context: McGonagall declined a Ministry promotion after two years and received a Hogwarts Transfiguration job offer by return owl.
+    match_terms:
+      - albus dumbledore
+      - minerva mcgonagall
+      - transfiguration department
+    quote_excerpt_short: The owl returned within hours, offering her a job in the Transfiguration department, under Head of Department, Albus Dumbledore.
+    source_note: After two years at the Ministry, McGonagall sought and promptly received a teaching position in Hogwarts' Transfiguration department under Dumbledore.
+    reference_type: curriculum_or_subject
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts
+      - minerva-mcgonagall
+      - teaching
+      - transfiguration
+    candidate_part: Part III — Staff and Governance
+    candidate_chapter: Professors and Departments
+    candidate_section: Transfiguration Department Appointments
+    reason_for_placement: Documents the department structure and recruitment of a major long-serving professor.
+    relevance_to_hogwarts_a_history: Supports a pre-Harry-era account of Transfiguration departmental leadership and McGonagall's return to Hogwarts as a teacher.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned entries refer to Animagus lore, archival work, or classroom practice rather than this appointment.
+      audit:
+        query_tags:
+          - hogwarts
+          - minerva-mcgonagall
+          - teaching
+          - transfiguration
+        candidates:
+          - id: beedle-ch04-002
+            disposition: corroborating
+          - id: beedle-ch04-003
+            disposition: corroborating
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: cos-ch06-004
+            disposition: corroborating
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-003
+            disposition: corroborating
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+    confidence: high
+    limitations: This biographical account names the department head but does not describe formal hiring policy or a date for the appointment.
+
+  - id: ext-a12-005
+    source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    source_id: A12
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+    source_section: Marriage
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Elphinstone, now retired, was beside himself with joy
+      end_phrase: travel easily to work every day
+      local_occurrence_note: Marriage section paragraph after McGonagall accepts Elphinstone Urquart's proposal.
+    nearby_context: After their marriage, Elphinstone purchased the couple a Hogsmeade cottage that allowed McGonagall to commute to work.
+    match_terms:
+      - hogsmeade
+      - minerva mcgonagall
+      - residence
+    quote_excerpt_short: purchased a small cottage in Hogsmeade for the pair of them, whence Minerva could travel easily to work every day.
+    source_note: During her marriage to Elphinstone Urquart, McGonagall lived in a Hogsmeade cottage from which she could commute to Hogwarts.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogsmeade
+      - hogwarts
+      - minerva-mcgonagall
+      - residence
+    candidate_part: Part III — Staff and Governance
+    candidate_chapter: Professors and School Life
+    candidate_section: Staff Residences and Local Connections
+    reason_for_placement: Records a named professor's Hogsmeade residence and daily relationship to the school.
+    relevance_to_hogwarts_a_history: Adds limited pre-Harry-era context on how a Hogwarts professor could live in Hogsmeade while working at the school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Hogsmeade security result and the McGonagall Animagus records do not duplicate this residence claim.
+      audit:
+        query_tags:
+          - hogsmeade
+          - hogwarts
+          - minerva-mcgonagall
+          - residence
+        candidates:
+          - id: dh-ch27-006
+            disposition: distinct
+          - id: beedle-ch04-003
+            disposition: distinct
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+    confidence: high
+    limitations: The account concerns one professor and does not establish a general staff-housing practice.
+
+  - id: ext-a12-006
+    source_file: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    source_id: A12
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall
+    source_section: Marriage
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Minerva could not bear to remain alone in their cottage
+      end_phrase: wall of her first-floor study
+      local_occurrence_note: Marriage section paragraph after Elphinstone Urquart's funeral.
+    nearby_context: Following her husband's accidental death, McGonagall returned to a bedroom in Hogwarts Castle accessed from her study by a concealed door.
+    match_terms:
+      - castle accommodation
+      - concealed door
+      - minerva mcgonagall
+    quote_excerpt_short: returned to her sparse stone-floored bedroom in Hogwarts Castle, accessible through a concealed door in the wall of her first-floor study.
+    source_note: After Elphinstone's death, McGonagall resumed living in a Hogwarts Castle bedroom reached through a concealed door in her first-floor study.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogsmeade
+      - hogwarts
+      - minerva-mcgonagall
+      - residence
+    candidate_part: Part III — Staff and Governance
+    candidate_chapter: Professors and School Life
+    candidate_section: Staff Rooms and Concealed Access
+    reason_for_placement: Identifies a professor's in-castle room and a concealed access route from her study.
+    relevance_to_hogwarts_a_history: Offers bounded evidence of staff accommodation and concealed internal architecture in Hogwarts Castle before Harry's era.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned results concern Hogsmeade security, Animagus lore, or unrelated Hogwarts settings, not this room and concealed-door claim.
+      audit:
+        query_tags:
+          - hogsmeade
+          - hogwarts
+          - minerva-mcgonagall
+          - residence
+        candidates:
+          - id: dh-ch27-006
+            disposition: distinct
+          - id: beedle-ch04-003
+            disposition: distinct
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+    confidence: high
+    limitations: The profile provides no layout, date, or evidence that other staff rooms used the same concealed-access arrangement.

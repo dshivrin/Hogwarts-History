@@ -560,6 +560,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Hogwarts Life and Traditions
+
+- School Gatherings and Performances
+  - The Fountain of Fair Fortune Pantomime
+
+## Hogwarts Staff and Governance
+
+- Teaching Staff and School Subjects
+  - Care of Magical Creatures Professorship
+  - Staff Discipline and Retention
+
 ## Hogwarts Through the Ages
 
 - Student Life and Hidden Hogwarts
@@ -614,6 +625,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Identification of magical children
   - Safeguards against false admission
   - The Book and Quill
+- School Security and Safeguards
+  - Dumbledore's Mirror safeguards
+- School Staff and Traditions
+  - Staff travel and acquired artefacts
+- The Castle
+  - Ancient artefacts and uncertain origins
+  - Enchanted objects and their uses
+  - The Room of Requirement and long-term concealment
 - The School's Foundations and Governance
   - Founder-established admissions instruments
 
@@ -1334,6 +1353,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Gryffindor House And Its Founder Relic
   - Worthiness conditions and Gryffindor qualities
 
+## Part II — Students and Education
+
+- Curriculum and Advanced Magical Study
+  - Transfiguration and Animagus Study
+- Student Life and Academic Progression
+  - Honours, Prefects, and Head Students
+- Student Life and House Identity
+  - Sorting and House Affiliation
+
 ## Part II: Governance and the Wider Wizarding World
 
 - Secrecy, Ministry Policy, and Hogwarts
@@ -1391,6 +1419,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
 - Wartime Concealment And Mobile Safe Sites
   - Repeated field wards during flight
+
+## Part III — Staff and Governance
+
+- Professors and Departments
+  - Transfiguration Department Appointments
+- Professors and School Life
+  - Staff Residences and Local Connections
+  - Staff Rooms and Concealed Access
 
 ## Part III: Learning at Hogwarts
 
