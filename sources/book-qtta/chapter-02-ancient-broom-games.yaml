@@ -1,0 +1,56 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Two - Ancient Broom Games
+  chapter_start_pdf_page: 11
+  chapter_end_pdf_page: 14
+  boundary_confidence: high
+  boundary_notes: Chapter Two begins midway through PDF page 11 and ends on PDF page 14; Chapter Three begins on
+    PDF page 15.
+  processed_date: '2026-08-15'
+  processor_notes: All four image-only pages were rendered and OCRed; the shared Chapter One/Two page and final
+    transition were checked visually.
+entries:
+- id: qtta-ch02-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Two - Ancient Broom Games
+  chapter_start_pdf_page: 11
+  chapter_end_pdf_page: 14
+  pdf_page: 11
+  printed_page: 3
+  extracted_text_lines: OCR lines 270-291
+  text_anchor:
+    start_phrase: Broom sports emerged almost as soon
+    end_phrase: sports we know today
+    local_occurrence_note: Opening of Chapter Two after the closing paragraph of Chapter One.
+  nearby_context: Whisp links the rise of broom sports to the ability to turn and vary speed and height, then introduces
+    extinct and surviving predecessor games.
+  match_terms:
+  - broom sports
+  - turn corners
+  - speed
+  - height
+  - ancient games
+  quote_excerpt_short: Broom sports emerged almost as soon as broomsticks were sufficiently advanced
+  source_note: Organized broom games followed the development of controllable turning, speed, and height, creating
+    the technical precondition for Quidditch.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - ancient-broom-games
+  - flying-broomsticks
+  - quidditch-origins
+  - broom-development
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Origins and Early Development
+  reason_for_placement: The passage directly explains when broom-based recreation became possible.
+  relevance_to_hogwarts_a_history: It provides technological and cultural background for the school sport without
+    importing unrelated professional detail.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Hogwarts entries describe modern flying lessons and matches, not the origins of broom sport.
+  confidence: high
+  limitations: The chapter surveys several regional games but does not connect any one of them directly to Hogwarts.

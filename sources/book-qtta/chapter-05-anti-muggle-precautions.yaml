@@ -1,0 +1,98 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Five - Anti-Muggle Precautions
+  chapter_start_pdf_page: 23
+  chapter_end_pdf_page: 25
+  boundary_confidence: high
+  boundary_notes: Chapter Five begins on PDF page 23 and concludes on PDF page 25, where Chapter Six begins on the
+    same page.
+  processed_date: '2026-08-15'
+  processor_notes: All three image-only pages were rendered and OCRed; the shared Chapter Five/Six page was visually
+    checked.
+entries:
+- id: qtta-ch05-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Five - Anti-Muggle Precautions
+  chapter_start_pdf_page: 23
+  chapter_end_pdf_page: 25
+  pdf_page: 23
+  printed_page: 15
+  extracted_text_lines: OCR lines 605-659
+  text_anchor:
+    start_phrase: first full description of the game of Quidditch
+    end_phrase: play at night
+    local_occurrence_note: Zacharias Mumps's 1398 security instructions.
+  nearby_context: Mumps advises deserted moorland, distance from Muggle habitation, concealment after takeoff, Muggle-Repelling
+    Charms, and night play.
+  match_terms:
+  - 1398
+  - Zacharias Mumps
+  - Muggle-Repelling Charms
+  - permanent pitch
+  quote_excerpt_short: Muggle-Repelling Charms are useful if you are setting up a permanent pitch
+  source_note: By 1398, Quidditch guidance required remote pitches, concealment from Muggles, and Muggle-Repelling
+    Charms for permanent grounds.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-pitch
+  - muggle-repelling-charms
+  - statute-of-secrecy
+  - sports-security
+  - zacharias-mumps
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Pitch and Equipment
+  reason_for_placement: The passage supplies the historical security requirements surrounding permanent Quidditch
+    grounds.
+  relevance_to_hogwarts_a_history: It contextualizes why a school Quidditch pitch must sit within Hogwarts's concealed
+    and protected estate.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Hogwarts pitch entries describe the venue but not the wider history of anti-Muggle siting requirements.
+  confidence: high
+  limitations: The source gives general sporting guidance rather than the specific enchantments used at Hogwarts.
+- id: qtta-ch05-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Five - Anti-Muggle Precautions
+  chapter_start_pdf_page: 23
+  chapter_end_pdf_page: 25
+  pdf_page: 24
+  printed_page: 16
+  extracted_text_lines: OCR lines 634-691
+  text_anchor:
+    start_phrase: International Statute of Wizarding Secrecy of 1692
+    end_phrase: forced to disband
+    local_occurrence_note: Explanation of national enforcement after the Statute.
+  nearby_context: Earlier distance bans proved inadequate, so the Statute made each Ministry responsible and Britain
+    created the Department of Magical Games and Sports.
+  match_terms:
+  - 1692
+  - International Statute
+  - Department of Magical Games and Sports
+  - disband
+  quote_excerpt_short: formation of the Department of Magical Games and Sports
+  source_note: The 1692 Statute made Ministries responsible for magical-sport secrecy; Britain formed the Department
+    of Magical Games and Sports and could disband teams that violated its guidance.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - statute-of-secrecy
+  - department-of-magical-games-and-sports
+  - quidditch-governance
+  - sports-security
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Rules, Fouls, and Officiating
+  reason_for_placement: This establishes the external regulator behind standardized Quidditch rules and security.
+  relevance_to_hogwarts_a_history: It provides the governance context within which Hogwarts plays the national sport.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing school entries show match officiation but not the Department's historical regulatory mandate.
+  confidence: high
+  limitations: The passage does not state how directly the Department supervises Hogwarts's school competition.

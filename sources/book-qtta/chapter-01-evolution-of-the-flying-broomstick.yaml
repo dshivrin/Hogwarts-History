@@ -1,0 +1,99 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter One - The Evolution of the Flying Broomstick
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 11
+  boundary_confidence: high
+  boundary_notes: Chapter One begins on PDF page 9 and ends on PDF page 11, where Chapter Two begins on the same
+    page.
+  processed_date: '2026-08-15'
+  processor_notes: All three image-only pages were rendered and OCRed; the shared Chapter One/Two page was checked
+    against the scan.
+entries:
+- id: qtta-ch01-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter One - The Evolution of the Flying Broomstick
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 11
+  pdf_page: 9
+  printed_page: 1
+  extracted_text_lines: OCR lines 215-240
+  text_anchor:
+    start_phrase: No spell yet devised enables wizards to fly unaided
+    end_phrase: why brooms
+    local_occurrence_note: Opening explanation of magical flight and the broom's ubiquity.
+  nearby_context: Whisp distinguishes unaided human flight from Animagus flight and levitation before asking why
+    brooms became standard transport.
+  match_terms:
+  - unaided flight
+  - broomstick
+  - wizarding transport
+  - levitation
+  quote_excerpt_short: every wizarding household in Britain owns at least one flying broomstick
+  source_note: Broomsticks are presented as the ordinary British means of magical flight because unaided human flight
+    is unavailable and levitation does not provide practical travel.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - flying-broomsticks
+  - magical-flight
+  - broom-history
+  - wizarding-transport
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: Hogwarts flying instruction and Quidditch depend on the wider history of broom flight.
+  relevance_to_hogwarts_a_history: It supplies foundational context for why Hogwarts teaches flight and plays Quidditch
+    on brooms.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing entries show school broom use but do not explain why brooms became standard magical flight equipment.
+  confidence: high
+  limitations: The claim is broad British context and does not date the introduction of broom flight at Hogwarts.
+- id: qtta-ch01-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter One - The Evolution of the Flying Broomstick
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 11
+  pdf_page: 10
+  printed_page: 2
+  extracted_text_lines: OCR lines 241-269
+  text_anchor:
+    start_phrase: discreet, something easy to hide
+    end_phrase: go up, down, and stop
+    local_occurrence_note: Discussion of secrecy, the A.D. 962 record, and the surviving medieval broom.
+  nearby_context: The text links broom selection to concealment from Muggles and describes documentary and museum
+    evidence for early European brooms.
+  match_terms:
+  - A.D. 962
+  - Museum of Quidditch
+  - early brooms
+  - secrecy
+  quote_excerpt_short: using flying broomsticks as early as A.D. 962
+  source_note: European broom flight is documented by A.D. 962; early brooms were discreet but uncomfortable, non-aerodynamic,
+    and limited to one forward speed plus ascent, descent, and stopping.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - flying-broomsticks
+  - broom-history
+  - statute-of-secrecy
+  - museum-of-quidditch
+  - broom-safety
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: The evidence establishes the technological baseline from which school and sporting brooms
+    developed.
+  relevance_to_hogwarts_a_history: It contextualizes modern school brooms and the safety improvements implicit in
+    formal flying lessons.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing entry records the earliest documentary date or the limited controls of medieval brooms.
+  confidence: high
+  limitations: This is European transport history rather than evidence about a particular Hogwarts broom or policy.

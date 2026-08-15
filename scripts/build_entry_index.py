@@ -39,6 +39,8 @@ def source_unit_id(path: Path, chapter_number: int | None) -> str:
         "book-05": "ootp",
         "book-06": "hbp",
         "book-07": "dh",
+        "book-qtta": "qtta",
+        "book-beedle": "beedle",
     }
     book_group = path.parent.name
     prefix = book_prefixes.get(book_group, book_group.replace("book-", "book"))

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-13'
+updated: '2026-08-15'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -19993,7 +19993,889 @@ by_entry:
     - wand-repair
     source_unit: dh-ch36
     output_yaml: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+  beedle-fm-001:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: post_1984_excluded_from_original
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - ancient-runes
+    - hermione-granger
+    - source-provenance
+    - tales-of-beedle-the-bard
+    source_unit: beedle-ch00
+    output_yaml: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  beedle-fm-002:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - bedtime-stories
+    - cultural-memory
+    - hogwarts-students
+    - tales-of-beedle-the-bard
+    - wizarding-childhood
+    source_unit: beedle-ch00
+    output_yaml: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  beedle-fm-003:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beedle-the-bard
+    - dark-magic
+    - fifteenth-century
+    - muggle-relations
+    - wizarding-literature
+    - yorkshire
+    source_unit: beedle-ch00
+    output_yaml: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  beedle-fm-004:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: post_1984_excluded_from_original
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - hogwarts-archives
+    - institutional-memory
+    - minerva-mcgonagall
+    - source-provenance
+    - tales-of-beedle-the-bard
+    source_unit: beedle-ch00
+    output_yaml: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  beedle-fm-005:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - astronomy-tower
+    - dumbledore-death
+    - hogwarts-archives
+    - source-dating
+    source_unit: beedle-ch00
+    output_yaml: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  beedle-ch01-001:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beedle-the-bard
+    - fifteenth-century
+    - muggle-relations
+    - witch-persecution
+    - wizarding-secrecy
+    source_unit: beedle-ch01
+    output_yaml: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  beedle-ch01-002:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - '1689'
+    - anti-muggle-prejudice
+    - folklore-variants
+    - statute-of-secrecy
+    - wizarding-secrecy
+    source_unit: beedle-ch01
+    output_yaml: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  beedle-ch01-003:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - '1675'
+    - anti-muggle-prejudice
+    - brutus-malfoy
+    - secrecy-culture
+    - warlock-at-war
+    - wizarding-periodicals
+    source_unit: beedle-ch01
+    output_yaml: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  beedle-ch01-004:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beatrix-bloxam
+    - censorship
+    - children's-literature
+    - folklore-variants
+    - toadstool-tales
+    source_unit: beedle-ch01
+    output_yaml: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  beedle-ch02-001:
+    title: 'Christmas at Hogwarts: The Fountain of Fair Fortune Pantomime and Ban'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - christmas-pantomime
+    - herbert-beery
+    - herbology
+    - school-entertainment
+    - staff-and-students
+    - yuletide
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-002:
+    title: 'Christmas at Hogwarts: The Fountain of Fair Fortune Pantomime and Ban'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - hogwarts-staff
+    - school-entertainment
+    - stage-magic
+    - transfiguration-teacher
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-003:
+    title: 'Christmas at Hogwarts: The Fountain of Fair Fortune Pantomime and Ban'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - ashwinder
+    - care-of-magical-creatures
+    - engorgement-charm
+    - hogwarts-staff
+    - silvanus-kettleburn
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-004:
+    title: 'Christmas at Hogwarts: The Fountain of Fair Fortune Pantomime and Ban'
+    classification: pre_1984_historical_candidate
+    reference_type: direct_observed_setting
+    confidence: high
+    tags:
+    - ashwinder
+    - great-hall
+    - school-evacuation
+    - staff-safety
+    - stage-fire
+    - student-duel
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-005:
+    title: 'Christmas at Hogwarts: The Fountain of Fair Fortune Pantomime and Ban'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - armando-dippet
+    - great-hall
+    - headmaster-authority
+    - hospital-wing
+    - pantomime
+    - school-ban
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-006:
+    title: 'Christmas at Hogwarts: The Fountain of Fair Fortune Pantomime and Ban'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - armando-dippet
+    - care-of-magical-creatures
+    - probation
+    - silvanus-kettleburn
+    - staff-discipline
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-007:
+    title: 'Library Collections and Restricted Books: Censorship, Board Support, and
+      the Beedle Collection'
+    classification: post_1984_excluded_from_original
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - blood-purity
+    - book-challenge
+    - censorship
+    - hogwarts-library
+    - lucius-malfoy
+    - school-governors
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-008:
+    title: 'Library Collections and Restricted Books: Censorship, Board Support, and
+      the Beedle Collection'
+    classification: post_1984_excluded_from_original
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - censorship
+    - hogwarts-library
+    - intellectual-freedom
+    - school-governance
+    - school-governors
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch02-009:
+    title: 'Headmaster, Governors, and School Oversight: Governor Authority Over the
+      Headmaster'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - headmastership
+    - lucius-malfoy
+    - political-conflict
+    - school-governance
+    - school-governors
+    source_unit: beedle-ch02
+    output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  beedle-ch03-001:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - oral-tradition
+    - original-runes
+    - tales-of-beedle-the-bard
+    - textual-transmission
+    source_unit: beedle-ch03
+    output_yaml: sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+  beedle-ch04-001:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - death
+    - informal-education
+    - magical-limits
+    - tales-of-beedle-the-bard
+    - wizarding-childhood
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch04-002:
+    title: 'Course Structure and Academic Progression: Animagus Study and Self-Transfiguration'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - animagus
+    - concealment
+    - magical-literature
+    - magical-study
+    - ministry-register
+    - transfiguration
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch04-003:
+    title: 'Course Structure and Academic Progression: Animagus Study and Self-Transfiguration'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - animagus
+    - hogwarts-headmistress
+    - minerva-mcgonagall
+    - order-of-the-phoenix
+    - transfiguration-research
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch04-004:
+    title: 'Admissions and First-Year Preparation: Locating Prospective Students'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - '1672'
+    - admissions-context
+    - department-of-mysteries
+    - magical-ability
+    - magical-inheritance
+    - muggles
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch04-005:
+    title: 'Course Structure and Academic Progression: Animagus Study and Self-Transfiguration'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - animagus
+    - magical-limits
+    - schoolchild-knowledge
+    - self-transfiguration
+    - transfiguration-theory
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch04-006:
+    title: 'First-Year Curriculum: Defense Against the Dark Arts Staff and Materials'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - '1717'
+    - avada-kedavra
+    - cruciatus-curse
+    - imperius-curse
+    - unforgivable-curses
+    - wizarding-law
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch05-001:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - aberforth-dumbledore
+    - albus-dumbledore
+    - oral-tradition
+    - tales-of-beedle-the-bard
+    - wizarding-childhood
+    source_unit: beedle-ch05
+    output_yaml: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  beedle-ch05-002:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deathly-hallows
+    - elder-wand
+    - invisibility-cloak
+    - master-of-death
+    - resurrection-stone
+    - wizarding-folklore
+    source_unit: beedle-ch05
+    output_yaml: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  beedle-ch05-003:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - deathstick
+    - egbert
+    - elder-wand
+    - emeric-the-evil
+    - wand-of-destiny
+    - wandlore
+    source_unit: beedle-ch05
+    output_yaml: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  beedle-ch05-004:
+    title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - barnabas-deverill
+    - funeral-customs
+    - godelot
+    - hereward
+    - loxias
+    - wand-compatibility
+    - wandlore
+    source_unit: beedle-ch05
+    output_yaml: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  qtta-fm-001:
+    title: 'Named In-Universe Sources: Quidditch Through the Ages'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - hogwarts-library
+    - library-provenance
+    - quidditch-through-the-ages
+    source_unit: qtta-ch00
+    output_yaml: sources/book-qtta/chapter-00-front-matter.yaml
+  qtta-fm-002:
+    title: 'Named In-Universe Sources: Quidditch Through the Ages'
+    classification: harry_era_confirmation
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - circulation-record
+    - hogwarts-library
+    - irma-pince
+    - quidditch-through-the-ages
+    - student-reading
+    source_unit: qtta-ch00
+    output_yaml: sources/book-qtta/chapter-00-front-matter.yaml
+  qtta-fm-003:
+    title: 'Named In-Universe Sources: Quidditch Through the Ages'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - bathilda-bagshot
+    - kennilworthy-whisp
+    - quidditch-history
+    - quidditch-through-the-ages
+    - source-provenance
+    source_unit: qtta-ch00
+    output_yaml: sources/book-qtta/chapter-00-front-matter.yaml
+  qtta-fm-004:
+    title: 'Named In-Universe Sources: Quidditch Through the Ages'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - hogwarts-library
+    - irma-pince
+    - quidditch-through-the-ages
+    - student-reading
+    source_unit: qtta-ch00
+    output_yaml: sources/book-qtta/chapter-00-front-matter.yaml
+  qtta-fm-005:
+    title: 'Named In-Universe Sources: Quidditch Through the Ages'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - book-protection
+    - hogwarts-library
+    - irma-pince
+    - library-enchantments
+    - school-rules
+    source_unit: qtta-ch00
+    output_yaml: sources/book-qtta/chapter-00-front-matter.yaml
+  qtta-ch01-001:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-history
+    - flying-broomsticks
+    - magical-flight
+    - wizarding-transport
+    source_unit: qtta-ch01
+    output_yaml: sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+  qtta-ch01-002:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-history
+    - broom-safety
+    - flying-broomsticks
+    - museum-of-quidditch
+    - statute-of-secrecy
+    source_unit: qtta-ch01
+    output_yaml: sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+  qtta-ch02-001:
+    title: 'The History and Rules of Quidditch: Origins and Early Development'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - ancient-broom-games
+    - broom-development
+    - flying-broomsticks
+    - quidditch-origins
+    source_unit: qtta-ch02
+    output_yaml: sources/book-qtta/chapter-02-ancient-broom-games.yaml
+  qtta-ch03-001:
+    title: 'The History and Rules of Quidditch: Origins and Early Development'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - gertie-keddle
+    - goal-scoring
+    - quaffle
+    - queerditch-marsh
+    - quidditch-origins
+    source_unit: qtta-ch03
+    output_yaml: sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+  qtta-ch03-002:
+    title: 'The History and Rules of Quidditch: Origins and Early Development'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bludgers
+    - goalposts
+    - player-positions
+    - quidditch-origins
+    - team-practice
+    source_unit: qtta-ch03
+    output_yaml: sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+  qtta-ch04-001:
+    title: 'The History and Rules of Quidditch: The Golden Snitch'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - golden-snidget
+    - golden-snitch
+    - quidditch-history
+    - scoring
+    - seeker
+    source_unit: qtta-ch04
+    output_yaml: sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  qtta-ch04-002:
+    title: 'The History and Rules of Quidditch: The Golden Snitch'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - conservation
+    - golden-snidget
+    - magical-creatures
+    - quidditch-history
+    - school-sport-safety
+    source_unit: qtta-ch04
+    output_yaml: sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  qtta-ch04-003:
+    title: 'The History and Rules of Quidditch: The Golden Snitch'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bowman-wright
+    - enchanted-equipment
+    - godrics-hollow
+    - golden-snitch
+    - quidditch-history
+    source_unit: qtta-ch04
+    output_yaml: sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  qtta-ch05-001:
+    title: 'The History and Rules of Quidditch: Pitch and Equipment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - muggle-repelling-charms
+    - quidditch-pitch
+    - sports-security
+    - statute-of-secrecy
+    - zacharias-mumps
+    source_unit: qtta-ch05
+    output_yaml: sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+  qtta-ch05-002:
+    title: 'The History and Rules of Quidditch: Rules, Fouls, and Officiating'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - department-of-magical-games-and-sports
+    - quidditch-governance
+    - sports-security
+    - statute-of-secrecy
+    source_unit: qtta-ch05
+    output_yaml: sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+  qtta-ch06-001:
+    title: 'The History and Rules of Quidditch: Pitch and Equipment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - goalposts
+    - pitch-dimensions
+    - quidditch-history
+    - quidditch-pitch
+    - scoring-areas
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-002:
+    title: 'The History and Rules of Quidditch: Pitch and Equipment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - daisy-pennifold
+    - enchanted-balls
+    - gripping-charm
+    - quaffle
+    - quidditch-equipment
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-003:
+    title: 'The History and Rules of Quidditch: Pitch and Equipment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beaters
+    - bludgers
+    - enchanted-balls
+    - equipment-safety
+    - quidditch-equipment
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-004:
+    title: 'The History and Rules of Quidditch: Pitch and Equipment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - enchanted-balls
+    - golden-snitch
+    - quidditch-equipment
+    - seeker
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-005:
+    title: 'The History and Rules of Quidditch: Player Positions'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beaters
+    - bludgers
+    - keeper
+    - player-positions
+    - quidditch-rules
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-006:
+    title: 'The History and Rules of Quidditch: Player Positions'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - chasers
+    - player-positions
+    - quidditch-rules
+    - scoring
+    - seeker
+    - stooging
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-007:
+    title: 'The History and Rules of Quidditch: Rules, Fouls, and Officiating'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - penalties
+    - pitch-boundaries
+    - quidditch-rules
+    - team-captains
+    - timeouts
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-008:
+    title: 'The History and Rules of Quidditch: Rules, Fouls, and Officiating'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - match-ending
+    - player-injuries
+    - quidditch-rules
+    - substitutions
+    - wand-use
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-009:
+    title: 'The History and Rules of Quidditch: Rules, Fouls, and Officiating'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - enchanted-equipment
+    - player-safety
+    - quidditch-fouls
+    - quidditch-rules
+    - scoring
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch06-010:
+    title: 'The History and Rules of Quidditch: Rules, Fouls, and Officiating'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - broom-safety
+    - department-of-magical-games-and-sports
+    - officiating
+    - quidditch-referees
+    - quidditch-rules
+    source_unit: qtta-ch06
+    output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  qtta-ch07-001:
+    title: 'The History and Rules of Quidditch: British League and International Play'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - amateur-quidditch
+    - league-cup
+    - quidditch-governance
+    - quidditch-league
+    - wider-wizarding-culture
+    source_unit: qtta-ch07
+    output_yaml: sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
+  qtta-ch08-001:
+    title: 'The History and Rules of Quidditch: British League and International Play'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - european-cup
+    - quidditch-history
+    - quidditch-world-cup
+    - wider-wizarding-culture
+    - world-cup-1473
+    source_unit: qtta-ch08
+    output_yaml: sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
+  qtta-ch09-001:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-history
+    - broom-safety
+    - cushioning-charm
+    - oakshaft-79
+    - racing-brooms
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch09-002:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-control
+    - broom-history
+    - moontrimmer
+    - racing-brooms
+    - silver-arrow
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch09-003:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-control
+    - broom-manufacturing
+    - cleansweep
+    - quidditch-equipment
+    - racing-brooms
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch09-004:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - braking-charm
+    - broom-safety
+    - comet-140
+    - quidditch-equipment
+    - racing-brooms
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch09-005:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-safety
+    - equipment-aging
+    - shooting-star
+    - swiftstick
+    - tinderblast
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch09-006:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-control
+    - nimbus
+    - nimbus-1000
+    - quidditch-equipment
+    - racing-brooms
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch09-007:
+    title: 'The History and Rules of Quidditch: Broom Development and Safety'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broom-safety
+    - equipment-failure
+    - post-1984
+    - racing-brooms
+    - twigger-90
+    source_unit: qtta-ch09
+    output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  qtta-ch10-001:
+    title: 'The History and Rules of Quidditch: Tactical Plays'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - beaters
+    - chasers
+    - formations
+    - keeper
+    - quidditch-tactics
+    - team-practice
+    source_unit: qtta-ch10
+    output_yaml: sources/book-qtta/chapter-10-quidditch-today.yaml
+  qtta-ch10-002:
+    title: 'The History and Rules of Quidditch: Tactical Plays'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - chasers
+    - evasive-flying
+    - player-safety
+    - quidditch-tactics
+    - seeker
+    - snitch-capture
+    source_unit: qtta-ch10
+    output_yaml: sources/book-qtta/chapter-10-quidditch-today.yaml
+  qtta-bc-001:
+    title: 'Named In-Universe Sources: Quidditch Through the Ages'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - hogwarts-library
+    - library-provenance
+    - quidditch-through-the-ages
+    - student-reading
+    source_unit: qtta-ch11
+    output_yaml: sources/book-qtta/chapter-11-back-cover.yaml
 by_tag:
+  '1672':
+  - beedle-ch04-004
+  '1675':
+  - beedle-ch01-003
+  '1689':
+  - beedle-ch01-002
+  '1717':
+  - beedle-ch04-006
   a-history-of-magic:
   - dh-ch08-006
   - dh-ch16-003
@@ -20003,6 +20885,7 @@ by_tag:
   abduction:
   - dh-ch25-007
   aberforth-dumbledore:
+  - beedle-ch05-001
   - dh-ch02-003
   - dh-ch28-002
   - dh-ch28-003
@@ -20074,6 +20957,8 @@ by_tag:
   - ps-ch04-004
   - ps-ch04-006
   - ps-ch05-002
+  admissions-context:
+  - beedle-ch04-004
   advanced-defense:
   - hbp-ch05-005
   advanced-magic:
@@ -20117,6 +21002,15 @@ by_tag:
   albania:
   - dh-ch31-003
   albus-dumbledore:
+  - beedle-ch02-002
+  - beedle-ch02-006
+  - beedle-ch02-008
+  - beedle-ch02-009
+  - beedle-ch03-001
+  - beedle-ch05-001
+  - beedle-fm-001
+  - beedle-fm-004
+  - beedle-fm-005
   - dh-ch02-001
   - dh-ch02-002
   - dh-ch02-003
@@ -20139,6 +21033,7 @@ by_tag:
   - ps-ch01-003
   - ps-ch01-004
   - ps-ch01-005
+  - qtta-fm-004
   alchemy:
   - dh-ch18-003
   - ps-ch13-001
@@ -20161,6 +21056,8 @@ by_tag:
   - hbp-ch07-006
   - hbp-ch14-002
   - hbp-ch15-004
+  amateur-quidditch:
+  - qtta-ch07-001
   amelia-bones:
   - hbp-ch01-005
   - ootp-ch07-001
@@ -20170,6 +21067,8 @@ by_tag:
   ancestry-proof:
   - dh-ch13-005
   - dh-ch13-007
+  ancient-broom-games:
+  - qtta-ch02-001
   ancient-creature:
   - cos-ch15-007
   ancient-magic:
@@ -20178,6 +21077,7 @@ by_tag:
   - hbp-ch20-004
   - ootp-ch37-005
   ancient-runes:
+  - beedle-fm-001
   - ootp-ch10-005
   - poa-ch04-004
   - poa-ch12-007
@@ -20193,6 +21093,9 @@ by_tag:
   - poa-ch19-006
   - poa-ch19-007
   animagus:
+  - beedle-ch04-002
+  - beedle-ch04-003
+  - beedle-ch04-005
   - gof-ch27-006
   - gof-ch37-006
   - poa-ch20-003
@@ -20233,6 +21136,9 @@ by_tag:
   - ootp-ch07-006
   anti-muggle-precautions:
   - gof-ch06-002
+  anti-muggle-prejudice:
+  - beedle-ch01-002
+  - beedle-ch01-003
   anti-muggle-security:
   - gof-ch07-001
   - gof-ch07-002
@@ -20309,6 +21215,8 @@ by_tag:
   - poa-ch12-007
   - poa-ch16-001
   armando-dippet:
+  - beedle-ch02-005
+  - beedle-ch02-006
   - cos-ch17-003
   armor:
   - ps-ch08-001
@@ -20330,6 +21238,9 @@ by_tag:
   - dh-ch21-006
   - dh-ch22-003
   - dh-ch22-004
+  ashwinder:
+  - beedle-ch02-003
+  - beedle-ch02-004
   assassination-attempt:
   - hbp-ch18-007
   assessment:
@@ -20347,6 +21258,7 @@ by_tag:
   astronomy-exam:
   - ootp-ch31-006
   astronomy-tower:
+  - beedle-fm-005
   - hbp-ch27-002
   - hbp-ch27-003
   - hbp-ch27-004
@@ -20395,6 +21307,7 @@ by_tag:
   - ootp-ch23-007
   - ootp-ch36-007
   avada-kedavra:
+  - beedle-ch04-006
   - gof-ch14-005
   - gof-ch34-003
   - hbp-ch27-007
@@ -20455,6 +21368,8 @@ by_tag:
   - ps-ch10-002
   barn-owl:
   - gof-ch18-001
+  barnabas-deverill:
+  - beedle-ch05-004
   barnabas-the-barmy:
   - ootp-ch18-006
   bartemius-crouch:
@@ -20503,6 +21418,7 @@ by_tag:
   - dh-ch18-004
   - dh-ch18-005
   - poa-ch01-001
+  - qtta-fm-003
   bathroom:
   - cos-ch15-007
   - cos-ch16-006
@@ -20539,6 +21455,11 @@ by_tag:
   - dh-ch14-004
   beaters:
   - ootp-ch21-005
+  - qtta-ch06-003
+  - qtta-ch06-005
+  - qtta-ch10-001
+  beatrix-bloxam:
+  - beedle-ch01-004
   beauxbatons:
   - gof-ch09-002
   - gof-ch11-004
@@ -20558,7 +21479,11 @@ by_tag:
   - dh-ch21-004
   bedtime-enforcement:
   - poa-ch13-006
+  bedtime-stories:
+  - beedle-fm-002
   beedle-the-bard:
+  - beedle-ch01-001
+  - beedle-fm-003
   - dh-ch20-004
   - dh-ch21-002
   - dh-ch22-005
@@ -20652,6 +21577,8 @@ by_tag:
   - hbp-ch03-007
   - ootp-ch02-006
   - ootp-ch37-005
+  blood-purity:
+  - beedle-ch02-007
   blood-quill:
   - ootp-ch13-006
   blood-replenishing-potion:
@@ -20683,6 +21610,9 @@ by_tag:
   - dh-ch31-002
   bludgers:
   - cos-ch07-001
+  - qtta-ch03-002
+  - qtta-ch06-003
+  - qtta-ch06-005
   blue-flames:
   - ootp-ch34-003
   board-of-governors:
@@ -20702,9 +21632,13 @@ by_tag:
   - poa-ch16-004
   bogrod:
   - dh-ch26-002
+  book-challenge:
+  - beedle-ch02-007
   book-circulation:
   - cos-ch09-001
   - dh-ch06-004
+  book-protection:
+  - qtta-fm-005
   booklists:
   - hbp-ch06-001
   - poa-ch01-005
@@ -20733,6 +21667,7 @@ by_tag:
   - dh-ch28-006
   bowman-wright:
   - dh-ch16-003
+  - qtta-ch04-003
   bowtruckles:
   - hbp-ch22-006
   - hbp-ch28-006
@@ -20742,6 +21677,8 @@ by_tag:
   brain-room:
   - ootp-ch34-004
   - ootp-ch35-006
+  braking-charm:
+  - qtta-ch09-004
   brazilian-school:
   - gof-ch07-003
   break-in-planning:
@@ -20752,12 +21689,32 @@ by_tag:
   - poa-ch04-001
   broderick-bode:
   - ootp-ch25-002
+  broom-control:
+  - qtta-ch09-002
+  - qtta-ch09-003
+  - qtta-ch09-006
+  broom-development:
+  - qtta-ch02-001
   broom-flight:
   - ootp-ch03-003
   - ootp-ch03-005
+  broom-history:
+  - qtta-ch01-001
+  - qtta-ch01-002
+  - qtta-ch09-001
+  - qtta-ch09-002
   broom-jinx:
   - ps-ch11-006
   - ps-ch17-001
+  broom-manufacturing:
+  - qtta-ch09-003
+  broom-safety:
+  - qtta-ch01-002
+  - qtta-ch06-010
+  - qtta-ch09-001
+  - qtta-ch09-004
+  - qtta-ch09-005
+  - qtta-ch09-007
   broomcare:
   - poa-ch01-007
   - poa-ch02-004
@@ -20786,6 +21743,8 @@ by_tag:
   - ps-ch09-002
   - ps-ch11-001
   - ps-ch16-006
+  brutus-malfoy:
+  - beedle-ch01-003
   bubble-head-charm:
   - ootp-ch30-002
   bubotubers:
@@ -20838,6 +21797,8 @@ by_tag:
   caractacus-burke:
   - hbp-ch13-002
   care-of-magical-creatures:
+  - beedle-ch02-003
+  - beedle-ch02-006
   - cos-ch08-003
   - cos-ch14-002
   - gof-ch13-003
@@ -21055,6 +22016,10 @@ by_tag:
   - ootp-ch12-007
   cellar:
   - dh-ch23-004
+  censorship:
+  - beedle-ch01-004
+  - beedle-ch02-007
+  - beedle-ch02-008
   centaur-divination:
   - ps-ch15-007
   centaur-magic:
@@ -21166,6 +22131,9 @@ by_tag:
   - ootp-ch08-004
   chasers:
   - hbp-ch14-003
+  - qtta-ch06-006
+  - qtta-ch10-001
+  - qtta-ch10-002
   cheating:
   - gof-ch20-002
   - gof-ch24-006
@@ -21177,6 +22145,8 @@ by_tag:
   - hbp-ch16-004
   childhood-history:
   - hbp-ch26-001
+  children's-literature:
+  - beedle-ch01-004
   children-stories:
   - dh-ch07-007
   chocolate-cauldrons:
@@ -21206,6 +22176,10 @@ by_tag:
   - cos-ch12-002
   - poa-ch03-004
   - ps-ch12-001
+  christmas-pantomime:
+  - beedle-ch02-001
+  circulation-record:
+  - qtta-fm-002
   clankers:
   - dh-ch26-004
   class-schedules:
@@ -21244,6 +22218,8 @@ by_tag:
   - hbp-ch18-001
   classroom-supplies:
   - hbp-ch09-005
+  cleansweep:
+  - qtta-ch09-003
   closed-ward:
   - ootp-ch23-006
   clothing:
@@ -21276,6 +22252,8 @@ by_tag:
   - hbp-ch11-005
   come-and-go-room:
   - ootp-ch18-005
+  comet-140:
+  - qtta-ch09-004
   coming-of-age:
   - dh-ch06-001
   - dh-ch07-001
@@ -21348,6 +22326,7 @@ by_tag:
   concealed-staircase:
   - hbp-ch28-003
   concealment:
+  - beedle-ch04-002
   - dh-ch17-003
   - dh-ch21-004
   - dh-ch26-001
@@ -21366,6 +22345,8 @@ by_tag:
   - gof-ch17-005
   conjuration:
   - hbp-ch14-007
+  conservation:
+  - qtta-ch04-002
   contact-galleons:
   - hbp-ch25-006
   cormac-mclaggen:
@@ -21541,6 +22522,7 @@ by_tag:
   crossbow:
   - ootp-ch30-004
   cruciatus-curse:
+  - beedle-ch04-006
   - dh-ch30-002
   - gof-ch14-005
   - gof-ch30-006
@@ -21553,6 +22535,8 @@ by_tag:
   - gof-ch21-005
   - poa-ch15-003
   - poa-ch16-005
+  cultural-memory:
+  - beedle-fm-002
   curfew:
   - dh-ch28-001
   - dh-ch28-002
@@ -21601,6 +22585,8 @@ by_tag:
   curses:
   - gof-ch14-001
   - ps-ch13-003
+  cushioning-charm:
+  - qtta-ch09-001
   d-a:
   - hbp-ch21-004
   - hbp-ch25-006
@@ -21634,6 +22620,8 @@ by_tag:
   - ootp-ch25-007
   - poa-ch12-003
   - poa-ch19-004
+  daisy-pennifold:
+  - qtta-ch06-002
   damocles-belby:
   - hbp-ch07-006
   dangerous-creatures:
@@ -21688,6 +22676,7 @@ by_tag:
   dark-lord:
   - gof-ch28-005
   dark-magic:
+  - beedle-fm-003
   - cos-ch09-006
   - dh-ch05-005
   - dh-ch14-006
@@ -21724,6 +22713,7 @@ by_tag:
   - dh-ch15-004
   - dh-ch23-004
   death:
+  - beedle-ch04-001
   - ootp-ch38-006
   death-chamber:
   - ootp-ch34-005
@@ -21788,6 +22778,7 @@ by_tag:
   deathday-party:
   - cos-ch08-004
   deathly-hallows:
+  - beedle-ch05-002
   - dh-ch20-004
   - dh-ch21-001
   - dh-ch21-002
@@ -21808,6 +22799,7 @@ by_tag:
   deathly-hallows-symbol:
   - dh-ch16-007
   deathstick:
+  - beedle-ch05-003
   - dh-ch21-005
   - dh-ch24-006
   decorations:
@@ -21978,6 +22970,8 @@ by_tag:
   - gof-ch14-007
   department-of-magical-games-and-sports:
   - gof-ch03-001
+  - qtta-ch05-002
+  - qtta-ch06-010
   department-of-magical-law-enforcement:
   - dh-ch12-007
   - hbp-ch10-005
@@ -21986,6 +22980,7 @@ by_tag:
   department-of-magical-transportation:
   - gof-ch06-001
   department-of-mysteries:
+  - beedle-ch04-004
   - dh-ch11-003
   - gof-ch07-004
   - gof-ch30-004
@@ -22441,6 +23436,7 @@ by_tag:
   - dh-ch18-002
   - dh-ch20-004
   dumbledore-death:
+  - beedle-fm-005
   - hbp-ch27-007
   dumbledore-family:
   - dh-ch02-004
@@ -22582,10 +23578,14 @@ by_tag:
   - ootp-ch27-006
   - ootp-ch28-001
   - ootp-ch28-003
+  egbert:
+  - beedle-ch05-003
   eileen-prince:
   - hbp-ch25-002
   - hbp-ch30-002
   elder-wand:
+  - beedle-ch05-002
+  - beedle-ch05-003
   - dh-ch14-007
   - dh-ch21-003
   - dh-ch21-005
@@ -22646,10 +23646,16 @@ by_tag:
   - ootp-ch33-007
   - ootp-ch34-001
   - poa-ch03-002
+  emeric-the-evil:
+  - beedle-ch05-003
   employee-tokens:
   - dh-ch12-003
   empty-classrooms:
   - gof-ch29-004
+  enchanted-balls:
+  - qtta-ch06-002
+  - qtta-ch06-003
+  - qtta-ch06-004
   enchanted-boat:
   - hbp-ch26-004
   - hbp-ch26-005
@@ -22663,6 +23669,9 @@ by_tag:
   - ps-ch07-001
   enchanted-coins:
   - hbp-ch27-006
+  enchanted-equipment:
+  - qtta-ch04-003
+  - qtta-ch06-009
   enchanted-maze:
   - gof-ch31-005
   enchanted-objects:
@@ -22688,6 +23697,7 @@ by_tag:
   end-of-year-tests:
   - gof-ch17-006
   engorgement-charm:
+  - beedle-ch02-003
   - cos-ch07-005
   - dh-ch20-002
   - gof-ch04-005
@@ -22709,6 +23719,12 @@ by_tag:
   - poa-ch04-007
   episkey:
   - hbp-ch14-004
+  equipment-aging:
+  - qtta-ch09-005
+  equipment-failure:
+  - qtta-ch09-007
+  equipment-safety:
+  - qtta-ch06-003
   equipment-storage:
   - cos-ch10-004
   erecto:
@@ -22729,8 +23745,12 @@ by_tag:
   - dh-ch07-003
   europe:
   - gof-ch09-002
+  european-cup:
+  - qtta-ch08-001
   evasive-enchantments:
   - hbp-ch05-005
+  evasive-flying:
+  - qtta-ch10-002
   everard:
   - ootp-ch22-002
   everlasting-ink:
@@ -22927,6 +23947,9 @@ by_tag:
   - dh-ch19-002
   fiendfyre:
   - dh-ch31-007
+  fifteenth-century:
+  - beedle-ch01-001
+  - beedle-fm-003
   fifth-floor:
   - dh-ch29-005
   - gof-ch23-007
@@ -23128,6 +24151,10 @@ by_tag:
   - ps-ch16-005
   flying:
   - ps-ch09-001
+  flying-broomsticks:
+  - qtta-ch01-001
+  - qtta-ch01-002
+  - qtta-ch02-001
   flying-car:
   - cos-ch03-004
   - gof-ch04-003
@@ -23142,6 +24169,9 @@ by_tag:
   foe-glass:
   - gof-ch20-003
   - gof-ch35-005
+  folklore-variants:
+  - beedle-ch01-002
+  - beedle-ch01-004
   food-magic:
   - dh-ch15-003
   food-service:
@@ -23215,6 +24245,8 @@ by_tag:
   - ootp-ch33-002
   formal-occasions:
   - gof-ch10-007
+  formations:
+  - qtta-ch10-001
   fortescue:
   - hbp-ch06-002
   fouls:
@@ -23306,6 +24338,8 @@ by_tag:
   - dh-ch15-004
   full-moon-safety:
   - poa-ch18-002
+  funeral-customs:
+  - beedle-ch05-004
   galatea-merrythought:
   - hbp-ch20-003
   gambling:
@@ -23347,6 +24381,8 @@ by_tag:
   - ootp-ch17-002
   genealogy:
   - ootp-ch06-003
+  gertie-keddle:
+  - qtta-ch03-001
   ghost-customs:
   - cos-ch08-004
   - cos-ch08-005
@@ -23420,6 +24456,11 @@ by_tag:
   glass-orbs:
   - ootp-ch34-007
   - ootp-ch35-002
+  goal-scoring:
+  - qtta-ch03-001
+  goalposts:
+  - qtta-ch03-002
+  - qtta-ch06-001
   goblet-of-fire:
   - gof-ch07-007
   - gof-ch16-002
@@ -23472,6 +24513,8 @@ by_tag:
   - dh-ch25-002
   gobstones-team:
   - hbp-ch25-002
+  godelot:
+  - beedle-ch05-004
   godric-gryffindor:
   - cos-ch18-004
   - dh-ch07-006
@@ -23501,6 +24544,7 @@ by_tag:
   - ps-ch01-005
   - ps-ch02-001
   - ps-ch02-005
+  - qtta-ch04-003
   golden-egg:
   - gof-ch20-006
   - gof-ch20-007
@@ -23512,11 +24556,17 @@ by_tag:
   - gof-ch25-003
   golden-mist:
   - gof-ch31-005
+  golden-snidget:
+  - qtta-ch04-001
+  - qtta-ch04-002
   golden-snitch:
   - dh-ch07-005
   - dh-ch16-003
   - dh-ch22-004
   - dh-ch34-004
+  - qtta-ch04-001
+  - qtta-ch04-003
+  - qtta-ch06-004
   golgomath:
   - ootp-ch20-005
   golpalotts-third-law:
@@ -23538,6 +24588,8 @@ by_tag:
   gray-lady:
   - dh-ch31-002
   great-hall:
+  - beedle-ch02-004
+  - beedle-ch02-005
   - cos-ch01-001
   - cos-ch05-004
   - cos-ch06-001
@@ -23692,6 +24744,8 @@ by_tag:
   - dh-ch23-004
   - dh-ch25-002
   - dh-ch26-007
+  gripping-charm:
+  - qtta-ch06-002
   griselda-marchbanks:
   - ootp-ch31-002
   ground-floor:
@@ -24094,6 +25148,7 @@ by_tag:
   headmaster-approval:
   - poa-ch07-006
   headmaster-authority:
+  - beedle-ch02-005
   - cos-ch14-007
   - cos-ch18-003
   - cos-ch18-005
@@ -24151,6 +25206,7 @@ by_tag:
   headmasters-office:
   - ootp-ch27-007
   headmastership:
+  - beedle-ch02-009
   - cos-ch02-003
   headmistress:
   - hbp-ch29-005
@@ -24202,7 +25258,10 @@ by_tag:
   - hbp-ch20-005
   hepzibah-smith:
   - dh-ch26-006
+  herbert-beery:
+  - beedle-ch02-001
   herbology:
+  - beedle-ch02-001
   - cos-ch06-002
   - cos-ch06-003
   - cos-ch14-001
@@ -24226,6 +25285,8 @@ by_tag:
   - dh-ch32-002
   herbology-homework:
   - hbp-ch25-001
+  hereward:
+  - beedle-ch05-004
   hermione:
   - ps-ch06-004
   hermione-course-load:
@@ -24236,6 +25297,7 @@ by_tag:
   - poa-ch15-004
   - poa-ch16-001
   hermione-granger:
+  - beedle-fm-001
   - cos-ch04-004
   - cos-ch07-003
   - dh-ch07-007
@@ -24479,6 +25541,8 @@ by_tag:
   - ootp-ch09-007
   - poa-ch10-006
   hogwarts-archives:
+  - beedle-fm-004
+  - beedle-fm-005
   - dh-ch07-003
   hogwarts-attendance:
   - dh-ch08-005
@@ -24567,6 +25631,8 @@ by_tag:
   - hbp-ch16-007
   hogwarts-headmasters:
   - ootp-ch06-005
+  hogwarts-headmistress:
+  - beedle-ch04-003
   hogwarts-heads:
   - ootp-ch22-006
   hogwarts-hidden:
@@ -24596,8 +25662,15 @@ by_tag:
   - ps-ch04-002
   - ps-ch04-004
   hogwarts-library:
+  - beedle-ch02-007
+  - beedle-ch02-008
   - dh-ch06-006
   - hbp-ch23-004
+  - qtta-bc-001
+  - qtta-fm-001
+  - qtta-fm-002
+  - qtta-fm-004
+  - qtta-fm-005
   hogwarts-memory:
   - cos-ch01-001
   - gof-ch02-004
@@ -24630,6 +25703,8 @@ by_tag:
   - ps-ch04-005
   - ps-ch05-001
   hogwarts-staff:
+  - beedle-ch02-002
+  - beedle-ch02-003
   - dh-ch01-006
   - dh-ch06-003
   - dh-ch11-005
@@ -24638,6 +25713,7 @@ by_tag:
   - dh-ch02-001
   - dh-ch02-003
   hogwarts-students:
+  - beedle-fm-002
   - dh-ch13-004
   - hbp-ch23-006
   hogwarts-teacher:
@@ -24777,6 +25853,7 @@ by_tag:
   - ootp-ch22-005
   - ootp-ch25-002
   hospital-wing:
+  - beedle-ch02-005
   - cos-ch10-005
   - cos-ch11-006
   - cos-ch13-001
@@ -25046,6 +26123,7 @@ by_tag:
   imperius:
   - dh-ch01-003
   imperius-curse:
+  - beedle-ch04-006
   - dh-ch05-004
   - dh-ch11-002
   - dh-ch26-003
@@ -25109,6 +26187,8 @@ by_tag:
   - hbp-ch07-005
   informal-custom:
   - hbp-ch04-006
+  informal-education:
+  - beedle-ch04-001
   informal-source:
   - poa-ch04-002
   information-control:
@@ -25138,12 +26218,15 @@ by_tag:
   - hbp-ch29-006
   - ootp-ch22-006
   institutional-memory:
+  - beedle-fm-004
   - dh-ch07-003
   - dh-ch10-001
   - dh-ch15-007
   - dh-ch36-006
   institutional-secrecy:
   - cos-ch13-005
+  intellectual-freedom:
+  - beedle-ch02-008
   intelligence:
   - dh-ch01-002
   - hbp-ch02-002
@@ -25214,6 +26297,7 @@ by_tag:
   - gof-ch29-003
   - ootp-ch11-001
   invisibility-cloak:
+  - beedle-ch05-002
   - dh-ch09-002
   - dh-ch16-005
   - dh-ch17-003
@@ -25246,6 +26330,10 @@ by_tag:
   - cos-ch11-005
   invisibility-spell:
   - ootp-ch24-007
+  irma-pince:
+  - qtta-fm-002
+  - qtta-fm-004
+  - qtta-fm-005
   james-potter:
   - hbp-ch16-005
   - ootp-ch29-006
@@ -25317,12 +26405,16 @@ by_tag:
   - hbp-ch14-004
   - ootp-ch13-007
   - ootp-ch14-004
+  - qtta-ch06-005
+  - qtta-ch10-001
   keeper-of-keys:
   - ps-ch04-001
   keeper-protection:
   - poa-ch15-007
   kendra-dumbledore:
   - dh-ch08-005
+  kennilworthy-whisp:
+  - qtta-fm-003
   killing-curse:
   - dh-ch17-006
   - gof-ch14-004
@@ -25387,6 +26479,8 @@ by_tag:
   - ootp-ch33-003
   leadership:
   - dh-ch35-006
+  league-cup:
+  - qtta-ch07-001
   leaky-cauldron:
   - dh-ch09-003
   - hbp-ch06-003
@@ -25477,6 +26571,11 @@ by_tag:
   - ps-ch14-004
   library-conduct:
   - cos-ch11-005
+  library-enchantments:
+  - qtta-fm-005
+  library-provenance:
+  - qtta-bc-001
+  - qtta-fm-001
   library-research:
   - hbp-ch18-002
   library-rules:
@@ -25561,9 +26660,13 @@ by_tag:
   - hbp-ch06-006
   - hbp-ch15-002
   - hbp-ch18-006
+  loxias:
+  - beedle-ch05-004
   loyalty:
   - cos-ch14-007
   lucius-malfoy:
+  - beedle-ch02-007
+  - beedle-ch02-009
   - cos-ch12-006
   - cos-ch14-006
   - cos-ch18-005
@@ -25681,6 +26784,8 @@ by_tag:
   magic-restriction:
   - cos-ch07-005
   - ootp-ch20-002
+  magical-ability:
+  - beedle-ch04-004
   magical-architecture:
   - cos-ch11-007
   - cos-ch17-001
@@ -25816,6 +26921,7 @@ by_tag:
   - ootp-ch30-005
   - ps-ch14-002
   - ps-ch15-007
+  - qtta-ch04-002
   magical-creatures-department:
   - gof-ch24-003
   magical-decorations:
@@ -25842,6 +26948,8 @@ by_tag:
   - dh-ch13-003
   - gof-ch19-003
   - gof-ch25-007
+  magical-flight:
+  - qtta-ch01-001
   magical-fortifications:
   - hbp-ch08-006
   magical-games-and-sports:
@@ -25868,6 +26976,8 @@ by_tag:
   - dh-ch35-005
   magical-hospital:
   - ootp-ch22-004
+  magical-inheritance:
+  - beedle-ch04-004
   magical-injury:
   - gof-ch02-001
   magical-institutions:
@@ -25897,7 +27007,11 @@ by_tag:
   - ootp-ch08-004
   - ootp-ch08-005
   magical-limits:
+  - beedle-ch04-001
+  - beedle-ch04-005
   - hbp-ch24-002
+  magical-literature:
+  - beedle-ch04-002
   magical-locking:
   - gof-ch25-006
   magical-lodging:
@@ -26009,6 +27123,8 @@ by_tag:
   - ootp-ch16-002
   magical-spaces:
   - gof-ch07-002
+  magical-study:
+  - beedle-ch04-002
   magical-surveillance:
   - gof-ch19-003
   - gof-ch25-001
@@ -26148,12 +27264,15 @@ by_tag:
   - dh-ch13-001
   - dh-ch13-006
   master-of-death:
+  - beedle-ch05-002
   - dh-ch21-003
   - dh-ch22-001
   - dh-ch35-003
   match-commentary:
   - poa-ch13-002
   - ps-ch11-005
+  match-ending:
+  - qtta-ch06-008
   match-governance:
   - poa-ch09-006
   match-procedure:
@@ -26277,6 +27396,9 @@ by_tag:
   - ootp-ch05-006
   mimbulus-mimbletonia:
   - ootp-ch10-004
+  minerva-mcgonagall:
+  - beedle-ch04-003
+  - beedle-fm-004
   minister-of-magic:
   - cos-ch04-005
   - dh-ch35-006
@@ -26480,6 +27602,7 @@ by_tag:
   ministry-punishment:
   - hbp-ch13-005
   ministry-register:
+  - beedle-ch04-002
   - poa-ch18-001
   ministry-regulation:
   - dh-ch01-004
@@ -26534,6 +27657,8 @@ by_tag:
   - hbp-ch27-005
   moonstone:
   - ootp-ch12-004
+  moontrimmer:
+  - qtta-ch09-002
   moony:
   - poa-ch14-007
   - poa-ch17-004
@@ -26675,12 +27800,16 @@ by_tag:
   - hbp-ch13-004
   muggle-records:
   - gof-ch01-001
+  muggle-relations:
+  - beedle-ch01-001
+  - beedle-fm-003
   muggle-repelling:
   - dh-ch14-003
   - dh-ch15-001
   - gof-ch11-005
   muggle-repelling-charms:
   - gof-ch08-001
+  - qtta-ch05-001
   muggle-rights:
   - dh-ch02-001
   - dh-ch18-006
@@ -26742,6 +27871,7 @@ by_tag:
   muggle-world:
   - dh-ch09-003
   muggles:
+  - beedle-ch04-004
   - dh-ch12-006
   mundungus-fletcher:
   - dh-ch05-006
@@ -26752,6 +27882,8 @@ by_tag:
   - ootp-ch02-001
   murder-sign:
   - hbp-ch27-002
+  museum-of-quidditch:
+  - qtta-ch01-002
   music:
   - ps-ch16-003
   nagini:
@@ -26859,6 +27991,10 @@ by_tag:
   - ps-ch14-007
   - ps-ch15-001
   - ps-ch16-004
+  nimbus:
+  - qtta-ch09-006
+  nimbus-1000:
+  - qtta-ch09-006
   nimbus-two-thousand:
   - poa-ch01-007
   - ps-ch11-006
@@ -26897,6 +28033,8 @@ by_tag:
   - ootp-ch27-004
   oak-front-doors:
   - hbp-ch28-004
+  oakshaft-79:
+  - qtta-ch09-001
   obedience:
   - hbp-ch03-005
   - hbp-ch19-007
@@ -26935,6 +28073,8 @@ by_tag:
   - ootp-ch32-005
   official-records:
   - ootp-ch37-007
+  officiating:
+  - qtta-ch06-010
   ogg:
   - gof-ch31-001
   old-manors:
@@ -26993,6 +28133,9 @@ by_tag:
   - ootp-ch10-001
   oppugno:
   - hbp-ch14-007
+  oral-tradition:
+  - beedle-ch03-001
+  - beedle-ch05-001
   order-guard:
   - ootp-ch01-002
   - ootp-ch02-001
@@ -27015,6 +28158,7 @@ by_tag:
   order-of-suspension:
   - cos-ch14-006
   order-of-the-phoenix:
+  - beedle-ch04-003
   - dh-ch01-002
   - dh-ch01-003
   - dh-ch03-001
@@ -27085,6 +28229,8 @@ by_tag:
   - ootp-ch32-001
   original-order-phoenix:
   - ootp-ch09-007
+  original-runes:
+  - beedle-ch03-001
   orphanage:
   - hbp-ch13-003
   - hbp-ch26-001
@@ -27150,6 +28296,8 @@ by_tag:
   - poa-ch06-003
   pamphlets:
   - dh-ch13-002
+  pantomime:
+  - beedle-ch02-005
   parcels:
   - ootp-ch29-002
   parent-letters:
@@ -27278,6 +28426,7 @@ by_tag:
   - poa-ch15-007
   - ps-ch13-002
   - ps-ch13-005
+  - qtta-ch06-007
   pensieve:
   - dh-ch12-002
   - dh-ch33-002
@@ -27405,6 +28554,10 @@ by_tag:
   - ootp-ch14-004
   pitch-booking:
   - ootp-ch19-003
+  pitch-boundaries:
+  - qtta-ch06-007
+  pitch-dimensions:
+  - qtta-ch06-001
   pius-thicknesse:
   - dh-ch01-003
   - dh-ch04-001
@@ -27429,8 +28582,16 @@ by_tag:
   - ps-ch17-006
   player-discipline:
   - hbp-ch14-004
+  player-injuries:
+  - qtta-ch06-008
+  player-positions:
+  - qtta-ch03-002
+  - qtta-ch06-005
+  - qtta-ch06-006
   player-safety:
   - poa-ch15-005
+  - qtta-ch06-009
+  - qtta-ch10-002
   plumbing:
   - cos-ch16-007
   - gof-ch25-004
@@ -27442,6 +28603,8 @@ by_tag:
   poisoning:
   - gof-ch19-003
   - hbp-ch19-001
+  political-conflict:
+  - beedle-ch02-009
   political-donations:
   - ootp-ch09-001
   political-pressure:
@@ -27531,6 +28694,8 @@ by_tag:
   - gof-ch33-002
   - ootp-ch36-006
   - ootp-ch37-002
+  post-1984:
+  - qtta-ch09-007
   post-battle:
   - dh-ch36-005
   post-dumbledore:
@@ -27748,6 +28913,7 @@ by_tag:
   - poa-ch02-003
   - ps-ch03-003
   probation:
+  - beedle-ch02-006
   - ootp-ch17-006
   - ootp-ch25-004
   probity-probes:
@@ -28045,8 +29211,12 @@ by_tag:
   - hbp-ch06-006
   quaffle:
   - cos-ch07-001
+  - qtta-ch03-001
+  - qtta-ch06-002
   qualification:
   - hbp-ch26-005
+  queerditch-marsh:
+  - qtta-ch03-001
   questionnaire:
   - dh-ch13-007
   quibbler:
@@ -28119,6 +29289,13 @@ by_tag:
   - poa-ch12-004
   - poa-ch15-004
   - poa-ch15-007
+  quidditch-equipment:
+  - qtta-ch06-002
+  - qtta-ch06-003
+  - qtta-ch06-004
+  - qtta-ch09-003
+  - qtta-ch09-004
+  - qtta-ch09-006
   quidditch-field:
   - gof-ch28-004
   - gof-ch31-002
@@ -28126,28 +29303,55 @@ by_tag:
   - ps-ch11-001
   quidditch-final:
   - poa-ch15-005
+  quidditch-fouls:
+  - qtta-ch06-009
+  quidditch-governance:
+  - qtta-ch05-002
+  - qtta-ch07-001
   quidditch-history:
   - ps-ch11-002
+  - qtta-ch04-001
+  - qtta-ch04-002
+  - qtta-ch04-003
+  - qtta-ch06-001
+  - qtta-ch08-001
+  - qtta-fm-003
   quidditch-injury:
   - cos-ch10-005
   - hbp-ch19-001
+  quidditch-league:
+  - qtta-ch07-001
   quidditch-mascots:
   - gof-ch08-006
   quidditch-match:
   - ps-ch13-005
+  quidditch-origins:
+  - qtta-ch02-001
+  - qtta-ch03-001
+  - qtta-ch03-002
   quidditch-pitch:
   - ps-ch11-004
+  - qtta-ch05-001
+  - qtta-ch06-001
   quidditch-practice:
   - cos-ch01-002
   - cos-ch07-002
   - ootp-ch16-006
   - poa-ch15-004
+  quidditch-referees:
+  - qtta-ch06-010
   quidditch-rules:
   - cos-ch07-001
   - gof-ch08-005
   - ootp-ch19-006
   - poa-ch15-007
   - ps-ch11-005
+  - qtta-ch06-005
+  - qtta-ch06-006
+  - qtta-ch06-007
+  - qtta-ch06-008
+  - qtta-ch06-009
+  - qtta-ch06-010
   quidditch-safety:
   - cos-ch10-004
   - ps-ch11-006
@@ -28158,9 +29362,17 @@ by_tag:
   - ps-ch13-002
   quidditch-stadium:
   - cos-ch10-003
+  quidditch-tactics:
+  - qtta-ch10-001
+  - qtta-ch10-002
   quidditch-through-the-ages:
   - ps-ch09-001
   - ps-ch11-002
+  - qtta-bc-001
+  - qtta-fm-001
+  - qtta-fm-002
+  - qtta-fm-003
+  - qtta-fm-004
   quidditch-world-cup:
   - gof-ch01-002
   - gof-ch03-001
@@ -28179,10 +29391,18 @@ by_tag:
   - gof-ch10-003
   - gof-ch33-004
   - hbp-ch01-003
+  - qtta-ch08-001
   quills:
   - gof-ch04-001
   quirrell:
   - ps-ch13-006
+  racing-brooms:
+  - qtta-ch09-001
+  - qtta-ch09-002
+  - qtta-ch09-003
+  - qtta-ch09-004
+  - qtta-ch09-006
+  - qtta-ch09-007
   radar:
   - gof-ch28-003
   ragnok:
@@ -28310,6 +29530,7 @@ by_tag:
   - ps-ch12-004
   - ps-ch12-005
   resurrection-stone:
+  - beedle-ch05-002
   - dh-ch21-003
   - dh-ch22-002
   - dh-ch22-004
@@ -28482,6 +29703,8 @@ by_tag:
   school-awards:
   - cos-ch13-002
   - hbp-ch20-003
+  school-ban:
+  - beedle-ch02-005
   school-boundaries:
   - hbp-ch28-005
   school-brooms:
@@ -28524,15 +29747,22 @@ by_tag:
   - ootp-ch28-005
   school-emergency:
   - cos-ch10-006
+  school-entertainment:
+  - beedle-ch02-001
+  - beedle-ch02-002
   school-entrance:
   - poa-ch22-002
   school-equipment:
   - ps-ch05-007
+  school-evacuation:
+  - beedle-ch02-004
   school-fees:
   - hbp-ch17-002
   school-geography:
   - cos-ch05-002
   school-governance:
+  - beedle-ch02-008
+  - beedle-ch02-009
   - cos-ch12-006
   - cos-ch18-005
   - gof-ch36-005
@@ -28552,6 +29782,9 @@ by_tag:
   - ootp-ch28-001
   - ootp-ch28-002
   school-governors:
+  - beedle-ch02-007
+  - beedle-ch02-008
+  - beedle-ch02-009
   - cos-ch12-006
   - cos-ch14-005
   - cos-ch14-006
@@ -28682,6 +29915,7 @@ by_tag:
   - ps-ch08-003
   - ps-ch09-005
   - ps-ch12-002
+  - qtta-fm-005
   school-rumor:
   - hbp-ch04-004
   school-safety:
@@ -28717,6 +29951,8 @@ by_tag:
   - ootp-ch30-003
   school-spectators:
   - gof-ch35-001
+  school-sport-safety:
+  - qtta-ch04-002
   school-status:
   - ootp-ch05-003
   school-supplies:
@@ -28756,10 +29992,17 @@ by_tag:
   - ootp-ch11-004
   school-vacations:
   - ps-ch04-004
+  schoolchild-knowledge:
+  - beedle-ch04-005
   scoring:
   - gof-ch20-007
   - gof-ch26-005
   - ps-ch11-005
+  - qtta-ch04-001
+  - qtta-ch06-006
+  - qtta-ch06-009
+  scoring-areas:
+  - qtta-ch06-001
   scrimgeour:
   - dh-ch07-002
   - dh-ch08-007
@@ -28868,6 +30111,8 @@ by_tag:
   - ps-ch13-006
   - ps-ch14-003
   - ps-ch15-003
+  secrecy-culture:
+  - beedle-ch01-003
   secrecy-law:
   - hbp-ch10-005
   secrecy-sensor:
@@ -28961,12 +30206,18 @@ by_tag:
   - gof-ch06-004
   - ootp-ch21-005
   - ps-ch09-003
+  - qtta-ch04-001
+  - qtta-ch06-004
+  - qtta-ch06-006
+  - qtta-ch10-002
   seeker-tactics:
   - poa-ch13-003
   seers:
   - ootp-ch35-002
   self-control:
   - hbp-ch13-005
+  self-transfiguration:
+  - beedle-ch04-005
   senior-students:
   - poa-ch01-004
   serious-bites:
@@ -29033,6 +30284,8 @@ by_tag:
   - hbp-ch06-005
   shield-hats:
   - hbp-ch06-005
+  shooting-star:
+  - qtta-ch09-005
   shrieking-shack:
   - dh-ch32-005
   - dh-ch32-006
@@ -29063,6 +30316,11 @@ by_tag:
   - ps-ch12-004
   silencing-charm:
   - ootp-ch18-003
+  silvanus-kettleburn:
+  - beedle-ch02-003
+  - beedle-ch02-006
+  silver-arrow:
+  - qtta-ch09-002
   silver-doe:
   - dh-ch19-003
   silver-goblets:
@@ -29297,6 +30555,8 @@ by_tag:
   snitch:
   - cos-ch07-001
   - ps-ch13-005
+  snitch-capture:
+  - qtta-ch10-002
   social-attitudes:
   - gof-ch16-006
   sorcerers-stone:
@@ -29342,10 +30602,16 @@ by_tag:
   - dh-ch17-004
   - dh-ch18-002
   - dh-ch18-004
+  source-dating:
+  - beedle-fm-005
   source-history:
   - dh-ch08-004
   - dh-ch08-006
   - dh-ch16-004
+  source-provenance:
+  - beedle-fm-001
+  - beedle-fm-004
+  - qtta-fm-003
   source-reliability:
   - gof-ch15-003
   spattergroit:
@@ -29405,6 +30671,9 @@ by_tag:
   - hbp-ch22-001
   sports-commentary:
   - gof-ch08-004
+  sports-security:
+  - qtta-ch05-001
+  - qtta-ch05-002
   squib-context:
   - cos-ch08-002
   squibs:
@@ -29436,6 +30705,7 @@ by_tag:
   - poa-ch18-002
   - poa-ch20-002
   staff-and-students:
+  - beedle-ch02-001
   - poa-ch11-005
   staff-appointment:
   - cos-ch04-006
@@ -29458,6 +30728,8 @@ by_tag:
   - gof-ch19-004
   staff-delegation:
   - ootp-ch24-001
+  staff-discipline:
+  - beedle-ch02-006
   staff-dismissal:
   - ootp-ch26-006
   - ootp-ch30-005
@@ -29518,6 +30790,7 @@ by_tag:
   staff-rooms:
   - ootp-ch13-005
   staff-safety:
+  - beedle-ch02-004
   - hbp-ch04-004
   staff-search:
   - poa-ch09-002
@@ -29550,6 +30823,10 @@ by_tag:
   - ps-ch08-005
   stag-patronus:
   - poa-ch21-006
+  stage-fire:
+  - beedle-ch02-004
+  stage-magic:
+  - beedle-ch02-002
   stagecoaches:
   - poa-ch05-005
   staggered-entry:
@@ -29583,6 +30860,7 @@ by_tag:
   statue:
   - dh-ch16-006
   statute-of-secrecy:
+  - beedle-ch01-002
   - cos-ch02-005
   - dh-ch16-003
   - dh-ch18-006
@@ -29595,6 +30873,9 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch08-002
   - ootp-ch31-007
+  - qtta-ch01-002
+  - qtta-ch05-001
+  - qtta-ch05-002
   statute-of-secrecy-context:
   - ps-ch14-002
   stealth:
@@ -29615,6 +30896,8 @@ by_tag:
   - ootp-ch28-001
   stone-protection:
   - ps-ch05-001
+  stooging:
+  - qtta-ch06-006
   stopping-knot:
   - dh-ch32-005
   - poa-ch21-005
@@ -29677,6 +30960,8 @@ by_tag:
   - ps-ch13-003
   student-dormitories:
   - poa-ch19-006
+  student-duel:
+  - beedle-ch02-004
   student-enterprise:
   - gof-ch05-002
   student-equipment:
@@ -29804,6 +31089,10 @@ by_tag:
   - dh-ch33-006
   student-reaction:
   - gof-ch13-007
+  student-reading:
+  - qtta-bc-001
+  - qtta-fm-002
+  - qtta-fm-004
   student-rebellion:
   - ootp-ch29-007
   - ootp-ch30-001
@@ -29960,6 +31249,8 @@ by_tag:
   - ootp-ch14-003
   substitute-teacher:
   - gof-ch24-001
+  substitutions:
+  - qtta-ch06-008
   subterranean-chamber:
   - ps-ch16-005
   suit-of-armor:
@@ -30014,6 +31305,8 @@ by_tag:
   suspension:
   - ootp-ch02-003
   - poa-ch19-002
+  swiftstick:
+  - qtta-ch09-005
   sword:
   - cos-ch17-005
   sword-of-gryffindor:
@@ -30050,6 +31343,12 @@ by_tag:
   - dh-ch22-007
   - dh-ch23-001
   tales-of-beedle-the-bard:
+  - beedle-ch03-001
+  - beedle-ch04-001
+  - beedle-ch05-001
+  - beedle-fm-001
+  - beedle-fm-002
+  - beedle-fm-004
   - dh-ch07-007
   - dh-ch21-002
   tallest-tower:
@@ -30127,11 +31426,14 @@ by_tag:
   - gof-ch06-004
   - hbp-ch09-002
   - poa-ch08-002
+  - qtta-ch06-007
   team-practice:
   - hbp-ch14-004
   - poa-ch12-004
   - poa-ch13-001
   - ps-ch13-002
+  - qtta-ch03-002
+  - qtta-ch10-001
   team-replacements:
   - hbp-ch24-007
   team-selection:
@@ -30171,6 +31473,8 @@ by_tag:
   - hbp-ch22-007
   textbooks:
   - ootp-ch09-004
+  textual-transmission:
+  - beedle-ch03-001
   theft:
   - hbp-ch13-005
   theory-centered:
@@ -30257,12 +31561,18 @@ by_tag:
   - ootp-ch35-004
   timed-transport:
   - dh-ch05-002
+  timeouts:
+  - qtta-ch06-007
   timetable:
   - poa-ch22-006
   timetables:
   - hbp-ch11-004
   timetabling:
   - poa-ch21-002
+  tinderblast:
+  - qtta-ch09-005
+  toadstool-tales:
+  - beedle-ch01-004
   tom-riddle:
   - cos-ch13-002
   - cos-ch13-005
@@ -30345,6 +31655,7 @@ by_tag:
   train-ticket:
   - hbp-ch13-006
   transfiguration:
+  - beedle-ch04-002
   - cos-ch06-004
   - dh-ch15-003
   - dh-ch32-002
@@ -30371,6 +31682,12 @@ by_tag:
   - hbp-ch26-006
   transfiguration-punishment:
   - gof-ch13-006
+  transfiguration-research:
+  - beedle-ch04-003
+  transfiguration-teacher:
+  - beedle-ch02-002
+  transfiguration-theory:
+  - beedle-ch04-005
   transfiguration-today:
   - dh-ch18-004
   transfigured-chessmen:
@@ -30484,6 +31801,8 @@ by_tag:
   - ootp-ch32-007
   truth-telling:
   - gof-ch37-004
+  twigger-90:
+  - qtta-ch09-007
   twin-cores:
   - dh-ch18-001
   - dh-ch35-002
@@ -30576,6 +31895,7 @@ by_tag:
   - poa-ch15-003
   - poa-ch16-005
   unforgivable-curses:
+  - beedle-ch04-006
   - dh-ch29-002
   - gof-ch14-005
   - gof-ch27-007
@@ -30813,6 +32133,7 @@ by_tag:
   - dh-ch18-001
   - dh-ch35-002
   wand-compatibility:
+  - beedle-ch05-004
   - dh-ch20-002
   wand-confiscation:
   - ootp-ch32-005
@@ -30841,6 +32162,7 @@ by_tag:
   - gof-ch09-006
   - hbp-ch02-006
   wand-of-destiny:
+  - beedle-ch05-003
   - dh-ch21-005
   - dh-ch24-006
   wand-ownership:
@@ -30864,11 +32186,14 @@ by_tag:
   - ootp-ch13-004
   wand-use:
   - poa-ch20-003
+  - qtta-ch06-008
   wand-verification:
   - dh-ch26-002
   wand-weighing:
   - gof-ch18-006
   wandlore:
+  - beedle-ch05-003
+  - beedle-ch05-004
   - dh-ch20-002
   - dh-ch21-005
   - dh-ch22-005
@@ -30895,6 +32220,8 @@ by_tag:
   wards:
   - dh-ch14-003
   - dh-ch16-001
+  warlock-at-war:
+  - beedle-ch01-003
   warlocks-convention-1709:
   - ps-ch14-002
   wartime-communications:
@@ -31030,6 +32357,9 @@ by_tag:
   - poa-ch19-001
   - poa-ch20-001
   - poa-ch21-005
+  wider-wizarding-culture:
+  - qtta-ch07-001
+  - qtta-ch08-001
   wilbert-slinkhard:
   - ootp-ch12-006
   wingardium-leviosa:
@@ -31067,6 +32397,8 @@ by_tag:
   wit:
   - dh-ch20-007
   - dh-ch31-007
+  witch-persecution:
+  - beedle-ch01-001
   witch-weekly:
   - gof-ch27-003
   witherwings:
@@ -31093,6 +32425,10 @@ by_tag:
   - dh-ch02-006
   wizarding-celebrations:
   - ps-ch01-001
+  wizarding-childhood:
+  - beedle-ch04-001
+  - beedle-ch05-001
+  - beedle-fm-002
   wizarding-custom:
   - dh-ch07-001
   wizarding-customs:
@@ -31111,6 +32447,7 @@ by_tag:
   - cos-ch03-002
   - dh-ch16-007
   wizarding-folklore:
+  - beedle-ch05-002
   - dh-ch07-007
   - dh-ch21-002
   wizarding-genealogy:
@@ -31135,6 +32472,7 @@ by_tag:
   wizarding-inventions:
   - dh-ch20-007
   wizarding-law:
+  - beedle-ch04-006
   - dh-ch09-005
   - dh-ch13-006
   - gof-ch14-003
@@ -31143,8 +32481,12 @@ by_tag:
   - hbp-ch10-005
   - ootp-ch36-002
   - poa-ch21-003
+  wizarding-literature:
+  - beedle-fm-003
   wizarding-news:
   - dh-ch20-003
+  wizarding-periodicals:
+  - beedle-ch01-003
   wizarding-politics:
   - dh-ch18-006
   - dh-ch35-006
@@ -31171,6 +32513,9 @@ by_tag:
   - gof-ch07-003
   - gof-ch09-002
   - gof-ch11-004
+  wizarding-secrecy:
+  - beedle-ch01-001
+  - beedle-ch01-002
   wizarding-society:
   - gof-ch08-003
   wizarding-sport:
@@ -31179,6 +32524,7 @@ by_tag:
   - gof-ch07-002
   wizarding-transport:
   - gof-ch01-002
+  - qtta-ch01-001
   wizarding-war:
   - ps-ch01-002
   wizarding-weddings:
@@ -31218,6 +32564,7 @@ by_tag:
   - dh-ch14-004
   world-cup-1473:
   - ps-ch11-002
+  - qtta-ch08-001
   wormtail:
   - dh-ch23-006
   - gof-ch02-006
@@ -31233,6 +32580,8 @@ by_tag:
   yaxley:
   - dh-ch12-004
   - dh-ch14-002
+  yorkshire:
+  - beedle-fm-003
   you-know-who:
   - dh-ch14-005
   yule-ball:
@@ -31240,3 +32589,7 @@ by_tag:
   - gof-ch22-002
   - gof-ch23-002
   - gof-ch23-003
+  yuletide:
+  - beedle-ch02-001
+  zacharias-mumps:
+  - qtta-ch05-001

@@ -166,11 +166,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - How reliable are Chocolate Frog cards and other magical ephemera as historical sources? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Are *Modern Magical History*, *The Rise and Fall of the Dark Arts*, and *Great Wizarding Events of the Twentieth Century* Hogwarts library holdings, student-owned books, or general wizarding publications? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
-- Was Hermione's copy of *Quidditch Through the Ages* borrowed from the Hogwarts library or brought from another source? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - What library policies govern student access to practical sports and spellcraft books? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Should named in-universe books used by students be indexed separately from explicit *Hogwarts: A History* references? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Is Snape's statement about not taking library books outside the school a formal library rule, an ad hoc penalty, or a misused authority? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
-- Should *Quidditch Through the Ages* be cross-indexed as both a library/source entry and a Quidditch-history source? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - What is the publication status and reliability of *Which Broomstick*, and is it a book, periodical, catalogue, or specialist magazine? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Was *Home Life and Social Habits of British Muggles* a required Muggle Studies text, a library book, or Hermione's personal copy? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - What are the formal access rules and safety measures for the Restricted Section? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
@@ -316,6 +314,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - What is the true origin of the Shrieking Shack's haunted reputation, and when did Hogwarts ghosts begin avoiding it? (tags: `feasts-and-school-traditions`, `feasts-school`, `school-traditions`, `feasts`, `school`, `traditions`)
 - How did the Shrieking Shack's physical damage and boarded windows become interpreted as ghost activity, and who maintained that public story? (tags: `feasts-and-school-traditions`, `feasts-school`, `school-traditions`, `feasts`, `school`, `traditions`)
 - When did the older-student stagecoach route from Hogsmeade station begin, and what later source identifies the invisible pullers? (tags: `feasts-and-school-traditions`, `feasts-school`, `school-traditions`, `feasts`, `school`, `traditions`)
+- In which school year did Herbert Beery stage The Fountain of Fair Fortune pantomime, allowing the event to be placed precisely within the Dippet headmastership and Dumbledore's Transfiguration teaching career? (tags: `feasts-and-school-traditions`, `school-traditions`, `christmas-pantomime`, `herbert-beery`, `armando-dippet`, `albus-dumbledore`; related: `beedle-ch02-001`, `beedle-ch02-002`, `beedle-ch02-005`)
 
 ## Protective Magic and Security
 

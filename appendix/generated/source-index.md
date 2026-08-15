@@ -204,3 +204,22 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `dh-ch34`: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, pages 3566-3577, 7 entries, 0 explicit references.
 - `dh-ch35`: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, pages 3578-3593, 7 entries, 0 explicit references.
 - `dh-ch36`: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, pages 3594-3615, 7 entries, 0 explicit references.
+- `beedle-ch00`: The Tales of Beedle the Bard, Front Matter and Introduction, pages 1-8, 5 entries, 0 explicit references.
+- `beedle-ch01`: The Tales of Beedle the Bard, The Wizard and the Hopping Pot and Commentary, pages 9-18, 4 entries, 0 explicit references.
+- `beedle-ch02`: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, pages 19-30, 9 entries, 0 explicit references.
+- `beedle-ch03`: The Tales of Beedle the Bard, The Warlock's Hairy Heart and Commentary, pages 30-39, 1 entries, 0 explicit references.
+- `beedle-ch04`: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, pages 39-52, 6 entries, 0 explicit references.
+- `beedle-ch05`: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, pages 52-62, 4 entries, 0 explicit references.
+- `beedle-ch06`: The Tales of Beedle the Bard, Back Matter, pages 63-65, 0 entries, 0 explicit references.
+- `qtta-ch00`: Quidditch Through the Ages, Front Matter and Foreword, pages 1-8, 5 entries, 0 explicit references.
+- `qtta-ch01`: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, pages 9-11, 2 entries, 0 explicit references.
+- `qtta-ch02`: Quidditch Through the Ages, Chapter Two - Ancient Broom Games, pages 11-14, 1 entries, 0 explicit references.
+- `qtta-ch03`: Quidditch Through the Ages, Chapter Three - The Game From Queerditch Marsh, pages 15-18, 2 entries, 0 explicit references.
+- `qtta-ch04`: Quidditch Through the Ages, Chapter Four - The Arrival of the Golden Snitch, pages 18-23, 3 entries, 0 explicit references.
+- `qtta-ch05`: Quidditch Through the Ages, Chapter Five - Anti-Muggle Precautions, pages 23-25, 2 entries, 0 explicit references.
+- `qtta-ch06`: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, pages 25-39, 10 entries, 0 explicit references.
+- `qtta-ch07`: Quidditch Through the Ages, Chapter Seven - Quidditch Teams of Britain and Ireland, pages 39-46, 1 entries, 0 explicit references.
+- `qtta-ch08`: Quidditch Through the Ages, Chapter Eight - The Spread of Quidditch Worldwide, pages 46-55, 1 entries, 0 explicit references.
+- `qtta-ch09`: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, pages 55-59, 7 entries, 0 explicit references.
+- `qtta-ch10`: Quidditch Through the Ages, Chapter Ten - Quidditch Today, pages 59-64, 2 entries, 0 explicit references.
+- `qtta-ch11`: Quidditch Through the Ages, Back Cover, pages 65-65, 1 entries, 0 explicit references.

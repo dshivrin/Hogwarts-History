@@ -58,6 +58,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
 - Course Structure and Academic Progression
   - Advanced Defensive Magic
+  - Animagus Study and Self-Transfiguration
   - Defense Against the Dark Arts Creature Sequence
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
@@ -266,6 +267,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Residence and Easter Stays
   - Holiday Residence and Winter Conditions
   - Small-Holiday Meals and Great Hall Layout
+  - The Fountain of Fair Fortune Pantomime and Ban
 - Dress, Uniform, and Formal Occasions
   - Dress Robes on the Fourth-Year School List
 - End-of-Year Feast and House Cup
@@ -1566,6 +1568,15 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Enterprises and Magical Recreation
   - Hogwarts-tested joke products become commercial goods
   - Weasley joke inventions in common-room life
+- The History and Rules of Quidditch
+  - British League and International Play
+  - Broom Development and Safety
+  - Origins and Early Development
+  - Pitch and Equipment
+  - Player Positions
+  - Rules, Fouls, and Officiating
+  - Tactical Plays
+  - The Golden Snitch
 
 ## Rules, Discipline, and Governance
 
@@ -2019,6 +2030,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Archives, Offices, and Private Collections
   - Dumbledore's library and instruments left to Hogwarts
 - Library Collections and Restricted Books
+  - Censorship, Board Support, and the Beedle Collection
   - Evening study, supervision, and examination pressure
   - Physical Boundary and Enforced Restrictions
   - Research, Reference Works, and Teacher Permission
@@ -2040,6 +2052,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Informal Historical Expertise
   - Magical Medical References and Student Problem-Solving
   - Quidditch Books and Moving Illustrations
+  - Quidditch Through the Ages
+  - The Tales of Beedle the Bard
 - Named Sources About Hogwarts
   - Prefect Career Studies
 - Newspapers, Notices, and Public Wizarding Sources

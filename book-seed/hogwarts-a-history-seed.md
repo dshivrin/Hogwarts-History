@@ -1389,6 +1389,53 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Corroborates: `ps-ch12-002`. Book 1 Chapter Twelve records twelve Christmas trees and Great Hall decoration; this entry corroborates the usual twelve-tree pattern and adds corridor holly, mistletoe, and lights in suits of armor.
   - Notes: The chapter still does not date the origin of the decorations or identify who enchants the armor lights.
 
+#### Section: The Fountain of Fair Fortune Pantomime and Ban
+
+Summary: The available evidence includes 6 source items, led by: Hogwarts's only attempted Christmas pantomime began when Herbology master Herbert Beery proposed a Yuletide adaptation for staff and students; he later left for W.A.D.A.
+
+- **Supporting evidence:** Hogwarts's only attempted Christmas pantomime began when Herbology master Herbert Beery proposed a Yuletide adaptation for staff and students; he later left for W.A.D.A.
+  - Quote: "sole attempt to introduce a Christmas pantomime"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 26, `beedle-ch02-001`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The commentary does not give the production's calendar year.
+
+- **Corroboration:** Before becoming headmaster, Dumbledore served as a young Hogwarts Transfiguration teacher and created functional magical stage effects for Beery's production.
+  - Quote: "I was then a young Transfiguration teacher"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 27, `beedle-ch02-002`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch35-006`. The novel confirms Dumbledore chose Hogwarts teaching; this commentary uniquely identifies Transfiguration and his junior role in the production.
+  - Notes: No appointment date or teaching tenure is supplied.
+
+- **Supporting evidence:** Silvanus Kettleburn was Hogwarts's Care of Magical Creatures teacher and supplied an Ashwinder enlarged by charm to play the pantomime's worm.
+  - Quote: "our Care of Magical Creatures teacher, Professor Silvanus Kettleburn"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 27, `beedle-ch02-003`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The source does not explain how the Ashwinder was transported or contained before the performance.
+
+- **Supporting evidence:** The pantomime filled the Great Hall with smoke and burning scenery; a student duel caught Beery in crossfire and forced staff evacuation.
+  - Quote: "the staff had to evacuate the Hall"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 28, `beedle-ch02-004`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: direct_observed_setting
+  - Notes: Dumbledore writes from memory and does not name the student performers.
+
+- **Supporting evidence:** The disaster packed the hospital wing and led Headmaster Armando Dippet to impose a schoolwide ban on future pantomimes, which Dumbledore says persisted.
+  - Quote: "imposed a blanket ban on future pantomimes"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 28, `beedle-ch02-005`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: 'Continues to this day' reflects the time of Dumbledore's commentary, not necessarily the present day of every later edition.
+
+- **Supporting evidence:** Kettleburn accumulated at least sixty-two probation periods; Dippet regarded him as reckless, while Dumbledore later considered him much mellowed.
+  - Quote: "sixty-two periods of probation during his employment"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 28, `beedle-ch02-006`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The footnote is humorous and does not define the procedure or length of a probation period.
+
 #### Section: Annual decorations and corridor routes
 
 Summary: The available evidence includes 1 source item, led by: Hogwarts Christmas decoration is again described as a recurring custom, with Hagrid delivering twelve Great Hall trees, holly and tinsel on stair banisters, candles in armor, mistletoe in corridors, and secret passages used as alternate routes.
@@ -1754,7 +1801,14 @@ Summary: The available evidence includes 1 source item, led by: Nearly Headless 
 
 #### Section: Locating Prospective Students
 
-Summary: The available evidence includes 1 source item, led by: The chapter shows a second letter updating Harry's address from the cupboard to the smallest bedroom after the Dursleys move him.
+Summary: The available evidence includes 2 source items, led by: Department of Mysteries studies dating to 1672 concluded that magical ability is innate rather than teachable to Muggles, though later research allowed hidden ancestry.
+
+- **Supporting evidence:** Department of Mysteries studies dating to 1672 concluded that magical ability is innate rather than teachable to Muggles, though later research allowed hidden ancestry.
+  - Quote: "wizards and witches are born, not created"
+  - Source: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, PDF p. 50, `beedle-ch04-004`, `sources/book-beedle/chapter-04-babbitty-rabbitty.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The editorial footnote summarizes research without naming investigators, methods, or the later studies it mentions.
 
 - **Supporting evidence:** The chapter shows a second letter updating Harry's address from the cupboard to the smallest bedroom after the Dursleys move him.
   - Quote: "The Smallest Bedroom, 4 Privet Drive"
@@ -1965,7 +2019,15 @@ Summary: The available evidence includes 1 source item, led by: The chapter pres
 
 #### Section: Defense Against the Dark Arts Staff and Materials
 
-Summary: The available evidence includes 3 source items, led by: Lockhart's public announcement confirms his appointment as Defense Against the Dark Arts teacher and explains why his books dominate the second-year required list.
+Summary: The available evidence includes 4 source items, led by: The commentary says Cruciatus was legal in Beedle's era and dates the first Unforgivable classification of Cruciatus, Imperius, and Avada Kedavra to 1717.
+
+- **Corroboration:** The commentary says Cruciatus was legal in Beedle's era and dates the first Unforgivable classification of Cruciatus, Imperius, and Avada Kedavra to 1717.
+  - Quote: "first classified as Unforgivable in 1717"
+  - Source: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, PDF p. 52, `beedle-ch04-006`, `sources/book-beedle/chapter-04-babbitty-rabbitty.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch14-005`. The novel's lesson names the curses and modern penalty; this commentary adds the 1717 classification date and earlier legality.
+  - Notes: The date appears in an editorial footnote rather than a reproduced Ministry statute.
 
 - **Corroboration:** Lockhart's public announcement confirms his appointment as Defense Against the Dark Arts teacher and explains why his books dominate the second-year required list.
   - Quote: "taking up the post of Defense Against the Dark Arts teacher"
@@ -2130,6 +2192,32 @@ Summary: The available evidence includes 6 source items, led by: The chapter sho
   - Reference type: explicit_in_universe_source
   - Corroborates: `poa-ch12-007`. Book 3 Chapter Twelve records Hermione's overlapping elective workload and Muggle Studies homework; this entry adds the named Muggle Studies text and a Monday reading deadline.
   - Notes: The chapter does not state whether the book is a required class text, library book, or Hermione's own copy.
+
+#### Section: Animagus Study and Self-Transfiguration
+
+Summary: The available evidence includes 3 source items, led by: Dumbledore calls Babbitty an early literary Animagus reference and says the rare transformation requires extensive practice and is subject to Ministry registration.
+
+- **Corroboration:** Dumbledore calls Babbitty an early literary Animagus reference and says the rare transformation requires extensive practice and is subject to Ministry registration.
+  - Quote: "one of the earliest literary mentions of an Animagus"
+  - Source: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, PDF p. 49, `beedle-ch04-002`, `sources/book-beedle/chapter-04-babbitty-rabbitty.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `gof-ch37-006`. The novel confirms the legal significance of an unregistered Animagus; this commentary adds rarity, training, and early literary history.
+  - Notes: The source does not give the registration procedure or curriculum level at which Animagus theory is taught.
+
+- **Context:** Headmistress McGonagall states that her Animagus ability resulted from extensive Transfiguration research and was not used covertly outside legitimate Order business.
+  - Quote: "extensive researches into all fields of Transfiguration"
+  - Source: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, PDF p. 49, `beedle-ch04-003`, `sources/book-beedle/chapter-04-babbitty-rabbitty.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is a later editorial footnote and does not specify dates, teachers, or research methods.
+
+- **Supporting evidence:** Dumbledore says schoolchildren know that Animagi retain human thought but not speech, whereas ordinary self-Transfiguration produces an animal mind requiring outside reversal.
+  - Quote: "the fundamental difference between being an Animagus and Transfiguring oneself"
+  - Source: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, PDF p. 51, `beedle-ch04-005`, `sources/book-beedle/chapter-04-babbitty-rabbitty.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: 'Every schoolchild' is rhetorical and does not identify a Hogwarts year, textbook, or lesson.
 
 #### Section: Advanced Defensive Magic
 
@@ -3759,7 +3847,15 @@ Summary: The available evidence includes 1 source item, led by: The scene states
 
 #### Section: Governor Authority Over the Headmaster
 
-Summary: The available evidence includes 1 source item, led by: The chapter confirms that Hogwarts has twelve governors and that they can suspend a headmaster through a signed order.
+Summary: The available evidence includes 2 source items, led by: The library dispute began Lucius Malfoy's campaign to remove Dumbledore as headmaster and Dumbledore's effort to remove Malfoy from influence.
+
+- **Corroboration:** The library dispute began Lucius Malfoy's campaign to remove Dumbledore as headmaster and Dumbledore's effort to remove Malfoy from influence.
+  - Quote: "long campaign to have me removed"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 30, `beedle-ch02-009`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch12-006`, `cos-ch14-006`, `cos-ch18-005`. Those entries document Malfoy's pressure, Dumbledore's suspension, recall, and Malfoy's removal; this source supplies the earlier cause claimed by Dumbledore.
+  - Notes: This is Dumbledore's retrospective interpretation of when the mutual campaigns began.
 
 - **Corroboration:** The chapter confirms that Hogwarts has twelve governors and that they can suspend a headmaster through a signed order.
   - Quote: "all twelve signatures on it"
@@ -6925,6 +7021,277 @@ Summary: The available evidence includes 1 source item, led by: Harry receives M
 
 ## Part: Quidditch and School Recreation
 
+### Chapter: The History and Rules of Quidditch
+
+#### Section: Origins and Early Development
+
+Summary: The available evidence includes 3 source items, led by: Organized broom games followed the development of controllable turning, speed, and height, creating the technical precondition for Quidditch.
+
+- **Supporting evidence:** Organized broom games followed the development of controllable turning, speed, and height, creating the technical precondition for Quidditch.
+  - Quote: "Broom sports emerged almost as soon as broomsticks were sufficiently advanced"
+  - Source: Quidditch Through the Ages, Chapter Two - Ancient Broom Games, PDF p. 11, `qtta-ch02-001`, `sources/book-qtta/chapter-02-ancient-broom-games.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The chapter surveys several regional games but does not connect any one of them directly to Hogwarts.
+
+- **Supporting evidence:** An eleventh-century diary records the precursor game at Queerditch Marsh using broomsticks, a large leather ball, passing, and tree-based goals.
+  - Quote: "trying to stick it in trees at either end of the marsh"
+  - Source: Quidditch Through the Ages, Chapter Three - The Game From Queerditch Marsh, PDF p. 15, `qtta-ch03-001`, `sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Keddle is an unsympathetic observer, and Whisp's identification of the game as proto-Quidditch is historical interpretation.
+
+- **Corroboration:** A twelfth-century match had practiced teams, a Chaser-like Catcher, a Bludger-like Blooder, a club-bearing Beater role, and three elevated scoring barrels at each end.
+  - Quote: "The new scoring barrels worked well. Three at each end on stilts"
+  - Source: Quidditch Through the Ages, Chapter Three - The Game From Queerditch Marsh, PDF p. 17, `qtta-ch03-002`, `sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`, `ps-ch11-005`. It is historical antecedent evidence for the same core positions, balls, goal structure, and team play seen in Hogwarts matches.
+  - Notes: Whisp infers the modern roles from archaic names rather than quoting a formal rulebook.
+
+#### Section: The Golden Snitch
+
+Summary: The available evidence includes 3 source items, led by: The 150-point Snitch convention derives from a 1269 match where Barberus Bragge offered 150 Galleons for catching a released Golden Snidget.
+
+- **Corroboration:** The 150-point Snitch convention derives from a 1269 match where Barberus Bragge offered 150 Galleons for catching a released Golden Snidget.
+  - Quote: "awarded an extra one hundred and fifty points"
+  - Source: Quidditch Through the Ages, Chapter Four - The Arrival of the Golden Snitch, PDF p. 20, `qtta-ch04-001`, `sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`. The novel entry states the Hogwarts rule; this companion entry supplies its historical origin.
+  - Notes: The explanation relies on a preserved eyewitness letter interpreted by Whisp.
+
+- **Supporting evidence:** Conservation concerns ended the use of living Snidgets: Elfrida Clagg protected the species, outlawed its killing and use in Quidditch, and prompted a mechanical substitute.
+  - Quote: "made the Golden Snidget a protected species"
+  - Source: Quidditch Through the Ages, Chapter Four - The Arrival of the Golden Snitch, PDF p. 22, `qtta-ch04-002`, `sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The precise date of Clagg's order is described only as the middle of the following century.
+
+- **Corroboration:** Bowman Wright of Godric's Hollow created the Golden Snitch as a walnut-sized, Snidget-weight ball with agile wings and an enchantment keeping it inside the field.
+  - Quote: "walnut-sized ball exactly the weight of a Snidget"
+  - Source: Quidditch Through the Ages, Chapter Four - The Arrival of the Golden Snitch, PDF p. 23, `qtta-ch04-003`, `sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch16-003`, `cos-ch07-001`. Bagshot independently places Wright and Snitch-making at Godric's Hollow; the Hogwarts match explanation corroborates the ball's role.
+  - Notes: The text credits Wright but does not provide a precise invention year.
+
+#### Section: Pitch and Equipment
+
+Summary: The available evidence includes 5 source items, led by: By 1398, Quidditch guidance required remote pitches, concealment from Muggles, and Muggle-Repelling Charms for permanent grounds.
+
+- **Supporting evidence:** By 1398, Quidditch guidance required remote pitches, concealment from Muggles, and Muggle-Repelling Charms for permanent grounds.
+  - Quote: "Muggle-Repelling Charms are useful if you are setting up a permanent pitch"
+  - Source: Quidditch Through the Ages, Chapter Five - Anti-Muggle Precautions, PDF p. 23, `qtta-ch05-001`, `sources/book-qtta/chapter-05-anti-muggle-precautions.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source gives general sporting guidance rather than the specific enchantments used at Hogwarts.
+
+- **Corroboration:** The standard pitch developed from a 500-by-180-foot oval with a central release circle and basket goals; scoring areas appeared by 1620 and fixed hoops replaced baskets in 1883.
+  - Quote: "oval-shaped, five hundred feet long, and a hundred and eighty feet wide"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 25, `qtta-ch06-001`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`, `ps-ch11-004`. The novels show Hogwarts goal hoops and pitch facilities; this entry provides the historical standardized design.
+  - Notes: The chapter does not explicitly state that Hogwarts's pitch measures exactly these dimensions.
+
+- **Corroboration:** The modern Quaffle is a seamless twelve-inch scarlet leather ball with a Gripping Charm and Daisy Pennifold's slow-fall enchantment.
+  - Quote: "modern Quaffle is twelve inches in diameter and seamless"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 28, `qtta-ch06-002`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`. Harry identifies the Quaffle and its scoring role; this companion adds specifications and enchantment history.
+  - Notes: The source does not identify the manufacturer or storage practices for Hogwarts Quaffles.
+
+- **Corroboration:** Bludgers evolved from bewitched rocks through unsuccessful lead balls to ten-inch iron balls that chase the nearest player unless redirected by Beaters.
+  - Quote: "Nowadays all Bludgers are made of iron"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 29, `qtta-ch06-003`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`, `cos-ch10-004`. The novels identify Bludgers and show one dangerously tampered with; this entry supplies normal specifications and behavior.
+  - Notes: The account does not describe Hogwarts inspection or storage procedures for Bludgers.
+
+- **Corroboration:** The Golden Snitch is walnut-sized and deliberately enchanted to evade capture, making Seeker skill rather than passive retrieval central to the game.
+  - Quote: "bewitched to evade capture as long as possible"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 31, `qtta-ch06-004`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `qtta-ch04-003`, `cos-ch07-001`. The invention entry supplies provenance and the novel supplies match function; this section restates the modern specification.
+  - Notes: The chapter does not explain maintenance, replacement, or release procedures at Hogwarts.
+
+#### Section: Player Positions
+
+Summary: The available evidence includes 2 source items, led by: Keepers evolved from all-pitch scorers into goal defenders, while two Beaters protect teammates by redirecting Bludgers with bats and need strength and exceptional balance.
+
+- **Corroboration:** Keepers evolved from all-pitch scorers into goal defenders, while two Beaters protect teammates by redirecting Bludgers with bats and need strength and exceptional balance.
+  - Quote: "Their first duty is to guard their team members from the Bludgers"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 31, `qtta-ch06-005`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`, `ps-ch11-005`. These novel entries establish the roles in school play; the companion adds historical development and skill requirements.
+  - Notes: The gender observation about Beaters describes a tendency, not a rule or Hogwarts selection policy.
+
+- **Corroboration:** Three Chasers pass and score ten-point goals; only the ball carrier may enter the scoring area. The Seeker is normally the fastest flier and a frequent target because catching the Snitch can decide the match.
+  - Quote: "score ten points for every time they get it through one of the goal hoops"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 33, `qtta-ch06-006`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch07-001`, `ps-ch11-005`. The novels corroborate Chaser scoring and Seeker importance during Hogwarts matches.
+  - Notes: The source describes general Quidditch; Hogwarts-specific recruitment and captaincy remain documented by the novels.
+
+#### Section: Rules, Fouls, and Officiating
+
+Summary: The available evidence includes 5 source items, led by: The 1692 Statute made Ministries responsible for magical-sport secrecy; Britain formed the Department of Magical Games and Sports and could disband teams that violated its guidance.
+
+- **Supporting evidence:** The 1692 Statute made Ministries responsible for magical-sport secrecy; Britain formed the Department of Magical Games and Sports and could disband teams that violated its guidance.
+  - Quote: "formation of the Department of Magical Games and Sports"
+  - Source: Quidditch Through the Ages, Chapter Five - Anti-Muggle Precautions, PDF p. 24, `qtta-ch05-002`, `sources/book-qtta/chapter-05-anti-muggle-precautions.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage does not state how directly the Department supervises Hogwarts's school competition.
+
+- **Corroboration:** Department rules require players to stay inside pitch boundaries, give captains sole authority to call timeouts, and isolate a penalty-taking Chaser against the opposing Keeper.
+  - Quote: "The Captain of a team may call for time out"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 35, `qtta-ch06-007`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ps-ch11-005`. The Hogwarts match entry shows a penalty and captain-led play; this source provides the formal procedure.
+  - Notes: The text states national rules and does not discuss any school-level modifications.
+
+- **Corroboration:** Injured players cannot be replaced; carried wands cannot be used against players, brooms, officials, balls, or spectators; play ends with a Snitch catch or both captains' consent.
+  - Quote: "no substitution of players will take place"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 36, `qtta-ch06-008`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch07-001`, `ps-ch11-005`. The novels show Snitch-ended school play and foul enforcement but not the full restrictions stated here.
+  - Notes: The book does not state whether Hogwarts can suspend a match for school emergencies outside these sporting rules.
+
+- **Corroboration:** Ten named common fouls regulate collision, broom interference, Bludger use, elbows, goal defense, Quaffle handling or tampering, Snitch contact, and scoring-area entry.
+  - Quote: "Ten common fouls are listed below"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 37, `qtta-ch06-009`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `ps-ch11-002`, `ps-ch11-005`. Harry reads the book's foul count and a Hogwarts match applies a penalty; this entry supplies the common-foul taxonomy.
+  - Notes: The Department withholds the complete list of seven hundred recorded fouls.
+
+- **Corroboration:** Referees monitor fourteen players, use boundary officials at professional matches, and in Britain must pass flying, written-rule, and temperament tests; security guidelines protect their brooms.
+  - Quote: "watch the antics of fourteen players at once"
+  - Source: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, PDF p. 38, `qtta-ch06-010`, `sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `ps-ch11-005`. The novel confirms Hooch refereeing at Hogwarts; this entry provides general official duties and qualifications.
+  - Notes: Professional boundary officials and Department selection cannot automatically be assumed for school referees.
+
+#### Section: Broom Development and Safety
+
+Summary: The available evidence includes 9 source items, led by: Broomsticks are presented as the ordinary British means of magical flight because unaided human flight is unavailable and levitation does not provide practical travel.
+
+- **Supporting evidence:** Broomsticks are presented as the ordinary British means of magical flight because unaided human flight is unavailable and levitation does not provide practical travel.
+  - Quote: "every wizarding household in Britain owns at least one flying broomstick"
+  - Source: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, PDF p. 9, `qtta-ch01-001`, `sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The claim is broad British context and does not date the introduction of broom flight at Hogwarts.
+
+- **Supporting evidence:** European broom flight is documented by A.D. 962; early brooms were discreet but uncomfortable, non-aerodynamic, and limited to one forward speed plus ascent, descent, and stopping.
+  - Quote: "using flying broomsticks as early as A.D. 962"
+  - Source: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, PDF p. 10, `qtta-ch01-002`, `sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is European transport history rather than evidence about a particular Hogwarts broom or policy.
+
+- **Supporting evidence:** The 1820 Cushioning Charm improved comfort, but nineteenth-century brooms still lacked reliable speed and high-altitude control; the durable Oakshaft 79 traded agility for safety.
+  - Quote: "invention of the Cushioning Charm by Elliot Smethwyck in 1820"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 55, `qtta-ch09-001`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source does not state which historical models, if any, Hogwarts owned.
+
+- **Corroboration:** The 1901 Moontrimmer improved controllable altitude, while Leonard Jewkes's Silver Arrow became the first true high-speed racing-broom forerunner, though artisan production limited supply.
+  - Quote: "true forerunner of the racing broom"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 56, `qtta-ch09-002`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `poa-ch13-001`. Madam Hooch compares Silver Arrows with later school-era models; this entry supplies the Silver Arrow's development history.
+  - Notes: Performance figures are general and do not establish a Hogwarts procurement history.
+
+- **Corroboration:** The 1926 Cleansweep One made purpose-built sporting brooms widely available through mass production and substantially improved cornering.
+  - Quote: "marketed as a racing broom specifically designed for sporting use"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 57, `qtta-ch09-003`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `poa-ch13-001`. The Hogwarts entry confirms Cleansweeps as known school-era models; this source supplies their manufacturing origin.
+  - Notes: The claim that every team adopted Cleansweeps concerns national teams generally, not Hogwarts Houses specifically.
+
+- **Supporting evidence:** The 1929 Comet 140 introduced the patented Horton-Keitch braking charm, reducing overshot goals and offside flight and making control a competitive safety feature.
+  - Quote: "much less likely to overshoot goals or fly offside"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 57, `qtta-ch09-004`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source does not state whether Hogwarts supplied Comets as school brooms.
+
+- **Corroboration:** Mid-century models exposed distinct reliability risks: the resilient Tinderblast lacked speed, the Swiftstick lost power in ascent, and the cheap Shooting Star deteriorated with age.
+  - Quote: "Shooting Star was found to lose speed and height as it aged"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 58, `qtta-ch09-005`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ps-ch09-002`. The novel identifies school brooms used in first-year instruction; this entry explains why model age and performance matter.
+  - Notes: The passage does not identify the models or condition of Hogwarts's school broom inventory.
+
+- **Corroboration:** The 1967 Nimbus 1000 combined 100-mile-per-hour speed, fixed-point turning, reliability, and easy handling, establishing Nimbus as a leading racing-broom maker.
+  - Quote: "capable of turning 360 degrees at a fixed point in mid-air"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 59, `qtta-ch09-006`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `poa-ch01-007`, `cos-ch07-002`. The novels show Nimbus models as prized student and donated team equipment; this entry supplies the line's technical origin.
+  - Notes: Later Nimbus model specifications and Hogwarts purchasing policies are not given.
+
+- **Context:** The 1990 Twigger 90 added a warning whistle and self-straightening brush but warped at high speed, showing that added features did not ensure safe performance.
+  - Quote: "found to warp under high speeds"
+  - Source: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, PDF p. 59, `qtta-ch09-007`, `sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The model postdates the approximate 1984 original-book cutoff and must not enter the original historical body.
+
+#### Section: Tactical Plays
+
+Summary: The available evidence includes 2 source items, led by: Named tactics formalize coordinated Beater strikes, high-speed Keeper defense, and multi-Chaser formations, traps, and passes, showing that advanced Quidditch depends on position-specific team training.
+
+- **Corroboration:** Named tactics formalize coordinated Beater strikes, high-speed Keeper defense, and multi-Chaser formations, traps, and passes, showing that advanced Quidditch depends on position-specific team training.
+  - Quote: "Chasers form an arrowhead pattern and fly together towards the goalposts"
+  - Source: Quidditch Through the Ages, Chapter Ten - Quidditch Today, PDF p. 60, `qtta-ch10-001`, `sources/book-qtta/chapter-10-quidditch-today.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `cos-ch07-002`, `hbp-ch14-004`. The novels show captain-led tactical preparation and role-specific practice; this source names representative advanced plays.
+  - Notes: Most moves are undated, so their availability before the 1984 planning cutoff is not established.
+
+- **Corroboration:** The later catalogue records specialized passing, evasive, defensive, and Seeker deception techniques, including Plumpton's 1921 Snitch catch and the Wronski Feint.
+  - Quote: "Seeker hurtles towards the ground pretending to have seen the Snitch"
+  - Source: Quidditch Through the Ages, Chapter Ten - Quidditch Today, PDF p. 61, `qtta-ch10-002`, `sources/book-qtta/chapter-10-quidditch-today.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `gof-ch08-004`, `hbp-ch14-004`. Existing entries show tactical literacy and risky practice; this source identifies named techniques and their intended effects.
+  - Notes: Except for the Plumpton Pass, the passage does not date the moves or establish which were taught at Hogwarts.
+
+#### Section: British League and International Play
+
+Summary: The available evidence includes 2 source items, led by: Since 1674, Britain and Ireland have limited professional play to thirteen League teams competing annually for the Cup, while compliant amateur games remain permitted.
+
+- **Supporting evidence:** Since 1674, Britain and Ireland have limited professional play to thirteen League teams competing annually for the Cup, while compliant amateur games remain permitted.
+  - Quote: "thirteen best Quidditch teams in Britain and Ireland"
+  - Source: Quidditch Through the Ages, Chapter Seven - Quidditch Teams of Britain and Ireland, PDF p. 39, `qtta-ch07-001`, `sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The companion does not state a formal organizational relationship between Hogwarts teams and the professional League.
+
+- **Corroboration:** The first Quidditch World Cup took place in 1473, later became a four-year event, and was joined by a three-year European Cup established in 1652.
+  - Quote: "year 1473 saw the first ever Quidditch World Cup"
+  - Source: Quidditch Through the Ages, Chapter Eight - The Spread of Quidditch Worldwide, PDF p. 47, `qtta-ch08-001`, `sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ps-ch11-002`. Harry's reading names the 1473 World Cup; this entry supplies the event's place in the international competition chronology.
+  - Notes: The chapter's later worldwide survey includes post-1984 results that are intentionally excluded from the original-book seed.
+
 ### Chapter: House Quidditch Teams
 
 #### Section: First-Year Restrictions and Exceptions
@@ -7427,6 +7794,26 @@ Summary: The available evidence includes 2 source items, led by: The chapter cor
   - Corroborates: `cos-ch09-007`. Chapter Nine already recorded the teacher-signed-note requirement and Moste Potente Potions as the expected Restricted Section source; this entry confirms the book's retrieval and Madam Pince's role.
   - Notes: The passage shows one successful borrowing through a signed note but does not define the full approval policy for all Restricted Section books.
 
+#### Section: Censorship, Board Support, and the Beedle Collection
+
+Summary: The available evidence includes 2 source items, led by: Governor Lucius Malfoy formally demanded that Hogwarts remove the tale because he believed its wizard-Muggle marriage threatened his son's blood-purity beliefs.
+
+- **Corroboration:** Governor Lucius Malfoy formally demanded that Hogwarts remove the tale because he believed its wizard-Muggle marriage threatened his son's blood-purity beliefs.
+  - Quote: "banned from the bookshelves of Hogwarts"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 29, `beedle-ch02-007`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Corroborates: `cos-ch12-006`, `cos-ch14-006`. The novels establish Malfoy's governor role and board power; this commentary adds a specific written censorship demand.
+  - Notes: The quoted letter supplies Malfoy's stated motive but not independent evidence of his son's reading.
+
+- **Corroboration:** Dumbledore refused to remove Beedle from the library, and a majority of Hogwarts governors supported preserving material about Muggle ancestry in students' knowledge.
+  - Quote: "backed by a majority of the Board of Governors"
+  - Source: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, PDF p. 29, `beedle-ch02-008`, `sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `cos-ch14-006`, `cos-ch18-005`. The novels show Board power over the headmaster and later reversal of Malfoy's influence; this source adds majority support in a censorship dispute.
+  - Notes: The commentary gives no vote count, meeting record, or names of supporting governors.
+
 #### Section: Evening study, supervision, and examination pressure
 
 Summary: The available evidence includes 1 source item, led by: The Hogwarts library remains an evening study space under heavy fifth-year workload, with Madam Pince actively supervising students and book handling.
@@ -7500,6 +7887,175 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
   - Reference type: explicit_in_universe_source
   - Corroborates: `ps-ch08-005`. Book 1 Chapter Eight identifies History of Magic and Professor Binns; this entry adds Bathilda Bagshot's named textbook and a specific homework-use excerpt.
   - Notes: The excerpt concerns general magical history rather than Hogwarts history; use it as source-context unless later evidence links Bagshot's textbook directly to Hogwarts institutional history.
+
+#### Section: Quidditch Through the Ages
+
+Summary: The available evidence includes 6 source items, led by: The back cover independently presents the edition as a copy of Hogwarts School Library's volume and says young Quidditch fans consult it almost daily.
+
+- **Corroboration:** The back cover independently presents the edition as a copy of Hogwarts School Library's volume and says young Quidditch fans consult it almost daily.
+  - Quote: "copy of the volume in Hogwarts School Library"
+  - Source: Quidditch Through the Ages, Back Cover, PDF p. 65, `qtta-bc-001`, `sources/book-qtta/chapter-11-back-cover.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `qtta-fm-002`, `qtta-fm-004`, `ps-ch11-002`. This wrapper statement corroborates the internal library plate, Dumbledore's foreword, and Harry's use of the same named work.
+  - Notes: The statement is promotional wrapper copy rather than part of Whisp's historical chapters.
+
+- **Corroboration:** The cover presents this scanned copy of Quidditch Through the Ages as Hogwarts property.
+  - Quote: "PROPERTY HOGWARTS"
+  - Source: Quidditch Through the Ages, Front Matter and Foreword, PDF p. 1, `qtta-fm-001`, `sources/book-qtta/chapter-00-front-matter.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `qtta-fm-002`. The more detailed Hogwarts library plate on the next page independently confirms the ownership mark.
+  - Notes: The cover mark does not identify the acquisition date or whether the copy predates Harry's school years.
+
+- **Corroboration:** The library plate confirms Hogwarts ownership and active student circulation; legible borrowers include Wood, Diggory, Johnson, Granger, and Potter, and Pince signs the warning.
+  - Quote: "Property of Hogwarts School Library"
+  - Source: Quidditch Through the Ages, Front Matter and Foreword, PDF p. 2, `qtta-fm-002`, `sources/book-qtta/chapter-00-front-matter.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `ps-ch09-001`, `ps-ch11-002`. It confirms that the copy used by Hermione and Harry could be a Hogwarts library copy and strengthens both student-use entries.
+  - Notes: Several handwritten names are difficult to read, and the plate does not print a year beside the due dates.
+
+- **Context:** In-universe endorsements frame Whisp's work as researched, instructive, and authoritative on Quidditch origins and history; the endorsers include Bathilda Bagshot and Brutus Scrimgeour.
+  - Quote: "The definitive work on the origins and history of Quidditch"
+  - Source: Quidditch Through the Ages, Front Matter and Foreword, PDF p. 4, `qtta-fm-003`, `sources/book-qtta/chapter-00-front-matter.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: Endorsements are promotional paratext and should not replace evaluation of the book's underlying evidence.
+
+- **Corroboration:** Dumbledore identifies the book as a heavily used Hogwarts library title and says Pince reluctantly allowed one library copy to be reproduced.
+  - Quote: "one of the most popular titles in the Hogwarts school library"
+  - Source: Quidditch Through the Ages, Front Matter and Foreword, PDF p. 7, `qtta-fm-004`, `sources/book-qtta/chapter-00-front-matter.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `qtta-fm-002`, `ps-ch09-001`, `ps-ch11-002`. The foreword corroborates the ownership plate and the novel's scenes of Hermione and Harry using the book.
+  - Notes: The foreword is tied to a later reproduction initiative and does not date the original Hogwarts acquisition.
+
+- **Context:** Hogwarts library books ordinarily carry protective spells, and Pince may add punitive jinxes and fines against mistreatment.
+  - Quote: "removed the usual library book spells from this volume"
+  - Source: Quidditch Through the Ages, Front Matter and Foreword, PDF p. 8, `qtta-fm-005`, `sources/book-qtta/chapter-00-front-matter.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: Dumbledore's warning is humorous and does not distinguish routine enchantments from exceptional jinxes.
+
+#### Section: The Tales of Beedle the Bard
+
+Summary: The available evidence includes 15 source items, led by: In the early fifteenth century, accelerating European witch persecution made Beedle's call for magical aid to Muggles unusually dangerous and culturally dissenting.
+
+- **Supporting evidence:** In the early fifteenth century, accelerating European witch persecution made Beedle's call for magical aid to Muggles unusually dangerous and culturally dissenting.
+  - Quote: "persecution of witches and wizards was gathering pace"
+  - Source: The Tales of Beedle the Bard, The Wizard and the Hopping Pot and Commentary, PDF p. 15, `beedle-ch01-001`, `sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Dumbledore gives a broad European summary rather than named legal records or locations.
+
+- **Supporting evidence:** The commentary dates the International Statute of Wizarding Secrecy to 1689 and links the underground turn to anti-Muggle revisions of Beedle's tale in family circulation.
+  - Quote: "wizardkind voluntarily went underground"
+  - Source: The Tales of Beedle the Bard, The Wizard and the Hopping Pot and Commentary, PDF p. 15, `beedle-ch01-002`, `sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The commentary connects two broad developments but does not prove that the Statute directly caused every revised version.
+
+- **Supporting evidence:** Seventeenth-century concealment made pro-Muggle witches and wizards suspect; Brutus Malfoy's 1675 periodical equated Muggle friendship with inferior magic.
+  - Quote: "Wizarding families began to live double lives"
+  - Source: The Tales of Beedle the Bard, The Wizard and the Hopping Pot and Commentary, PDF p. 16, `beedle-ch01-003`, `sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The quotation represents Brutus Malfoy's polemic, not a measured survey of seventeenth-century opinion.
+
+- **Supporting evidence:** Beatrix Bloxam, author of Toadstool Tales, recast older wizarding stories into sanitized versions that generations of children rejected.
+  - Quote: "took a variety of old stories and rewrote them"
+  - Source: The Tales of Beedle the Bard, The Wizard and the Hopping Pot and Commentary, PDF p. 17, `beedle-ch01-004`, `sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The commentary is openly comic and reports children's reaction impressionistically rather than statistically.
+
+- **Corroboration:** Dumbledore says the tale remained largely unchanged for centuries and that the original-rune text closely matched the version his mother told him.
+  - Quote: "the story as I eventually read it in the original runes"
+  - Source: The Tales of Beedle the Bard, The Warlock's Hairy Heart and Commentary, PDF p. 36, `beedle-ch03-001`, `sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch07-007`. The novel establishes Dumbledore's runic Beedle volume and the collection's childhood status; this commentary adds his personal oral-textual comparison.
+  - Notes: Dumbledore offers his own recollection, and no manuscripts are compared directly in this passage.
+
+- **Corroboration:** Dumbledore says many wizarding children first learned through this tale that magic cannot restore the dead or reunite body and soul.
+  - Quote: "magic could not bring back the dead"
+  - Source: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, PDF p. 48, `beedle-ch04-001`, `sources/book-beedle/chapter-04-babbitty-rabbitty.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `dh-ch21-003`. The novel records the Hallows claim about a Resurrection Stone; this commentary states the wider magical limit against true resurrection.
+  - Notes: Dumbledore generalizes from his generation and does not say how uniformly families used the tale.
+
+- **Corroboration:** Dumbledore first heard the Three Brothers from his mother and chose it most often at bedtime, while Aberforth preferred Grumble the Grubby Goat.
+  - Quote: "the tale I requested more often than any other at bedtime"
+  - Source: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, PDF p. 56, `beedle-ch05-001`, `sources/book-beedle/chapter-05-tale-of-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch07-007`. The novel records Dumbledore's Beedle bequest and wizarding childhood tradition; this commentary gives his personal first encounter and favorite tale.
+  - Notes: Dumbledore supplies no age or date for the bedtime recollection.
+
+- **Corroboration:** A minority tradition reads Beedle's three gifts as real Hallows whose combined ownership makes a person 'master of Death,' contrary to the tale's moral.
+  - Quote: "a curious legend has grown up around this story"
+  - Source: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, PDF p. 56, `beedle-ch05-002`, `sources/book-beedle/chapter-05-tale-of-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-003`. The novel names the three Hallows and master-of-Death claim; Dumbledore's commentary identifies it as a minority legend contradicting the tale's moral.
+  - Notes: The passage does not identify the legend's origin, adherents, or date of formation.
+
+- **Corroboration:** Dumbledore identifies Emeric the Evil as the first well-documented owner of a dangerous elder wand and records Egbert killing him in a duel.
+  - Quote: "first well-documented mention of a wand made of elder"
+  - Source: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, PDF p. 59, `beedle-ch05-003`, `sources/book-beedle/chapter-05-tale-of-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-005`. The novel supplies the larger claimed ownership chain; this commentary marks Emeric as the first well-documented case and distinguishes evidence from legend.
+  - Notes: The passage cannot prove that Emeric's wand was the unique Elder Wand rather than another unusually powerful elder wand.
+
+- **Corroboration:** Wands can learn from their users; second-hand incompatibility and burial or burning with the dead limited succession, while the claimed Elder Wand passed violently through named owners.
+  - Quote: "wands do indeed absorb the expertise of those who use them"
+  - Source: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, PDF p. 60, `beedle-ch05-004`, `sources/book-beedle/chapter-05-tale-of-three-brothers.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `dh-ch21-005`. The novel names much of the chain; this commentary adds general wand-learning and burial customs and Dumbledore's evidentiary caution.
+  - Notes: The evidence spans PDF pages 60-61; several ownership transitions are inferred, and Dumbledore says later history becomes difficult to trace.
+
+- **Corroboration:** This edition presents Hermione Granger's Ancient Runes translation together with Albus Dumbledore's commentary, establishing the textual layers of the named source.
+  - Quote: "Translated from the Ancient Runes by Hermione Granger"
+  - Source: The Tales of Beedle the Bard, Front Matter and Introduction, PDF p. 2, `beedle-fm-001`, `sources/book-beedle/chapter-00-front-matter-and-introduction.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch07-007`. The novel records Dumbledore's runic Beedle bequest to Hermione; this title page confirms the resulting translation and commentary edition.
+  - Notes: The title page does not date Hermione's translation or explain its preparation.
+
+- **Corroboration:** Beedle's tales have served as wizarding bedtime reading for centuries, and at least two tales are familiar to many Hogwarts students.
+  - Quote: "familiar to many of the students at Hogwarts"
+  - Source: The Tales of Beedle the Bard, Front Matter and Introduction, PDF p. 4, `beedle-fm-002`, `sources/book-beedle/chapter-00-front-matter-and-introduction.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Corroborates: `dh-ch07-007`. The novel identifies Beedle as traditional wizarding children's literature; this introduction adds centuries of transmission and explicit Hogwarts familiarity.
+  - Notes: The passage names no course, library copy, or exact proportion of students who knew the tales.
+
+- **Supporting evidence:** Beedle is placed in fifteenth-century Yorkshire; his tales suggest sympathy for Muggles, distrust of Dark Magic, and criticism of cruelty and arrogant magical power.
+  - Quote: "Beedle the Bard lived in the fifteenth century"
+  - Source: The Tales of Beedle the Bard, Front Matter and Introduction, PDF p. 5, `beedle-fm-003`, `sources/book-beedle/chapter-00-front-matter-and-introduction.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The author acknowledges that Beedle's life is obscure and derives much of the characterization from his stories.
+
+- **Corroboration:** Former Headmaster Dumbledore's Beedle notes were found among papers left to the Hogwarts Archives; Headmistress McGonagall later authorized publication beside Hermione's translation.
+  - Quote: "papers that Dumbledore left in his will to the Hogwarts Archives"
+  - Source: The Tales of Beedle the Bard, Front Matter and Introduction, PDF p. 6, `beedle-fm-004`, `sources/book-beedle/chapter-00-front-matter-and-introduction.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch07-003`, `dh-ch07-007`. The novel says Dumbledore left most effects to Hogwarts and bequeathed the runic Beedle volume to Hermione; this source identifies the archived commentary and later permission.
+  - Notes: The introduction does not say whether the commentary was intended for publication.
+
+- **Corroboration:** The surviving commentary appears to have been completed roughly eighteen months before Dumbledore's death at the top of Hogwarts's Astronomy Tower.
+  - Quote: "completed around eighteen months before the tragic events"
+  - Source: The Tales of Beedle the Bard, Front Matter and Introduction, PDF p. 7, `beedle-fm-005`, `sources/book-beedle/chapter-00-front-matter-and-introduction.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `hbp-ch30-005`. The novel records Dumbledore's death and school memorial; this source independently dates the commentary relative to that event.
+  - Notes: The phrase 'as far as we can tell' makes the completion date approximate rather than documentary.
 
 #### Section: Informal Historical Expertise
 

@@ -1,0 +1,60 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Eight - The Spread of Quidditch Worldwide
+  chapter_start_pdf_page: 46
+  chapter_end_pdf_page: 55
+  boundary_confidence: high
+  boundary_notes: Chapter Eight begins on PDF page 46 and ends on PDF page 55, where Chapter Nine begins on the
+    same page.
+  processed_date: '2026-08-15'
+  processor_notes: All ten image-only pages were read. Post-1984 team results and generic club catalog detail were
+    excluded; only the strongest pre-1984 cultural context was retained.
+entries:
+- id: qtta-ch08-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Eight - The Spread of Quidditch Worldwide
+  chapter_start_pdf_page: 46
+  chapter_end_pdf_page: 55
+  pdf_page: 47
+  printed_page: 39
+  extracted_text_lines: OCR lines 1287-1341
+  text_anchor:
+    start_phrase: year 1473 saw the first ever Quidditch World Cup
+    end_phrase: European Cup was established
+    local_occurrence_note: European section after early literary evidence for the game's spread.
+  nearby_context: The first World Cup was European and notorious for new fouls; the competition became quadrennial
+    and the European Cup followed in 1652.
+  match_terms:
+  - 1473
+  - Quidditch World Cup
+  - every four years
+  - 1652
+  - European Cup
+  quote_excerpt_short: year 1473 saw the first ever Quidditch World Cup
+  source_note: The first Quidditch World Cup took place in 1473, later became a four-year event, and was joined
+    by a three-year European Cup established in 1652.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-world-cup
+  - world-cup-1473
+  - european-cup
+  - quidditch-history
+  - wider-wizarding-culture
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: British League and International Play
+  reason_for_placement: It provides concise international chronology relevant to the sport studied and played at
+    Hogwarts.
+  relevance_to_hogwarts_a_history: It gives the wider competitive history that Hogwarts students encounter through
+    library reading and spectator culture.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-002
+    notes: Harry's reading names the 1473 World Cup; this entry supplies the event's place in the international
+      competition chronology.
+  confidence: high
+  limitations: The chapter's later worldwide survey includes post-1984 results that are intentionally excluded from
+    the original-book seed.

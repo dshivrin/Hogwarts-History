@@ -1,0 +1,230 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Front Matter and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  boundary_confidence: high
+  boundary_notes: The cover, Hogwarts library plate, title and publication pages, author note, contents, and foreword
+    occupy PDF pages 1-8; Chapter One begins on PDF page 9.
+  processed_date: '2026-08-15'
+  processor_notes: All eight image-only pages were rendered and OCRed; the cover, handwritten library plate, contents,
+    and foreword were visually checked against the scan.
+entries:
+- id: qtta-fm-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Front Matter and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 1
+  printed_page: null
+  extracted_text_lines: OCR lines 1-6
+  text_anchor:
+    start_phrase: QUIDDITCH THROUGH THE AGES
+    end_phrase: PROPERTY HOGWARTS
+    local_occurrence_note: Front cover ownership mark below the author name.
+  nearby_context: The scanned cover identifies the work and marks the physical copy as Hogwarts property.
+  match_terms:
+  - Quidditch Through the Ages
+  - property
+  - Hogwarts
+  quote_excerpt_short: PROPERTY HOGWARTS
+  source_note: The cover presents this scanned copy of Quidditch Through the Ages as Hogwarts property.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-through-the-ages
+  - hogwarts-library
+  - library-provenance
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: This is direct physical provenance for a named book associated with Hogwarts.
+  relevance_to_hogwarts_a_history: It establishes that Hogwarts holds a copy of a specialist Quidditch history used
+    by students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: qtta-fm-002
+    notes: The more detailed Hogwarts library plate on the next page independently confirms the ownership mark.
+  confidence: high
+  limitations: The cover mark does not identify the acquisition date or whether the copy predates Harry's school
+    years.
+- id: qtta-fm-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Front Matter and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 2
+  printed_page: null
+  extracted_text_lines: OCR lines 8-53
+  text_anchor:
+    start_phrase: Property of Hogwarts School Library
+    end_phrase: Irma Pince, Hogwarts Librarian
+    local_occurrence_note: Library plate on the inside cover, including handwritten borrowers and due dates.
+  nearby_context: The plate records circulation to Hogwarts readers and carries a damage warning signed by the librarian.
+  match_terms:
+  - Hogwarts School Library
+  - borrower
+  - Irma Pince
+  - Granger
+  - Potter
+  quote_excerpt_short: Property of Hogwarts School Library
+  source_note: The library plate confirms Hogwarts ownership and active student circulation; legible borrowers include
+    Wood, Diggory, Johnson, Granger, and Potter, and Pince signs the warning.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch-through-the-ages
+  - hogwarts-library
+  - circulation-record
+  - irma-pince
+  - student-reading
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: The ownership and loan record resolves the named book's institutional provenance and use.
+  relevance_to_hogwarts_a_history: It directly documents a Hogwarts library holding and its popularity among pupils
+    interested in Quidditch.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch09-001
+    - ps-ch11-002
+    notes: It confirms that the copy used by Hermione and Harry could be a Hogwarts library copy and strengthens
+      both student-use entries.
+  confidence: high
+  limitations: Several handwritten names are difficult to read, and the plate does not print a year beside the due
+    dates.
+- id: qtta-fm-003
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Front Matter and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 4
+  printed_page: null
+  extracted_text_lines: OCR lines 65-98
+  text_anchor:
+    start_phrase: Praise for Quidditch Through the Ages
+    end_phrase: Rita Skeeter, Daily Prophet
+    local_occurrence_note: In-universe review page before the author biography.
+  nearby_context: Named historians, specialist writers, periodicals, players, and journalists assess Whisp's book.
+  match_terms:
+  - Bathilda Bagshot
+  - Which Broomstick
+  - definitive work
+  - Kennilworthy Whisp
+  quote_excerpt_short: The definitive work on the origins and history of Quidditch
+  source_note: In-universe endorsements frame Whisp's work as researched, instructive, and authoritative on Quidditch
+    origins and history; the endorsers include Bathilda Bagshot and Brutus Scrimgeour.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-through-the-ages
+  - kennilworthy-whisp
+  - source-provenance
+  - bathilda-bagshot
+  - quidditch-history
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: The review page supplies in-universe reception and authority claims for the source.
+  relevance_to_hogwarts_a_history: 'It helps editors assess the companion as a specialist source without implying
+    that Hogwarts: A History used its wording.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing entries name the book but do not record its in-universe critical reception.
+  confidence: high
+  limitations: Endorsements are promotional paratext and should not replace evaluation of the book's underlying
+    evidence.
+- id: qtta-fm-004
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Front Matter and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 7
+  printed_page: vii
+  extracted_text_lines: OCR lines 148-183
+  text_anchor:
+    start_phrase: one of the most popular titles in the Hogwarts school library
+    end_phrase: persuaded Madam Pince to part with one of her books
+    local_occurrence_note: Opening paragraphs of Dumbledore's foreword.
+  nearby_context: Dumbledore describes demand for the book and explains that Hogwarts's copy was released for reproduction.
+  match_terms:
+  - Hogwarts school library
+  - Madam Pince
+  - popular titles
+  - copied
+  quote_excerpt_short: one of the most popular titles in the Hogwarts school library
+  source_note: Dumbledore identifies the book as a heavily used Hogwarts library title and says Pince reluctantly
+    allowed one library copy to be reproduced.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-through-the-ages
+  - hogwarts-library
+  - albus-dumbledore
+  - irma-pince
+  - student-reading
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: The foreword directly describes the book's place and popularity in the school library.
+  relevance_to_hogwarts_a_history: It resolves the named source's Hogwarts provenance and shows how sports history
+    circulated within the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - qtta-fm-002
+    - ps-ch09-001
+    - ps-ch11-002
+    notes: The foreword corroborates the ownership plate and the novel's scenes of Hermione and Harry using the
+      book.
+  confidence: high
+  limitations: The foreword is tied to a later reproduction initiative and does not date the original Hogwarts acquisition.
+- id: qtta-fm-005
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Front Matter and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 8
+  printed_page: viii
+  extracted_text_lines: OCR lines 184-214
+  text_anchor:
+    start_phrase: removed the usual library book spells from this volume
+    end_phrase: demand a heavy fine
+    local_occurrence_note: Dumbledore's warning near the end of the foreword.
+  nearby_context: Dumbledore says ordinary library spells were removed but warns that Pince adds protective jinxes
+    to books in her care.
+  match_terms:
+  - library book spells
+  - Madam Pince
+  - jinxes
+  - fine
+  quote_excerpt_short: removed the usual library book spells from this volume
+  source_note: Hogwarts library books ordinarily carry protective spells, and Pince may add punitive jinxes and
+    fines against mistreatment.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - hogwarts-library
+  - library-enchantments
+  - irma-pince
+  - book-protection
+  - school-rules
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: The foreword records the physical and magical treatment of this Hogwarts library copy.
+  relevance_to_hogwarts_a_history: It adds concrete evidence about how Hogwarts protects and governs library holdings.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: The prior library-rule entry concerns taking books outside school, not protective spells placed on books.
+  confidence: high
+  limitations: Dumbledore's warning is humorous and does not distinguish routine enchantments from exceptional jinxes.

@@ -39,7 +39,9 @@ ENTRY_REQUIRED = {
     "limitations",
 }
 CONFIDENCE_VALUES = {"high", "medium", "low"}
-SOURCE_NAME_RE = re.compile(r"^book-\d{2}/chapter-\d{2}-[a-z0-9-]+\.yaml$")
+SOURCE_NAME_RE = re.compile(
+    r"^book-(?:\d{2}|qtta|beedle)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
+)
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -109,7 +111,10 @@ def validate_source_files(
         rel_path = rel(path, root)
         source_name = path.relative_to(root / "sources").as_posix()
         if not SOURCE_NAME_RE.match(source_name):
-            errors.append(f"{rel_path}: source YAML filename must be book-XX/chapter-XX-slug.yaml")
+            errors.append(
+                f"{rel_path}: source YAML filename must be "
+                "book-XX/chapter-XX-slug.yaml or a supported named companion group"
+            )
         try:
             data = load_yaml(path)
         except Exception as exc:

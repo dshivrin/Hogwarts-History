@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-13'
+updated: '2026-08-15'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2378,3 +2378,231 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 3594-3615.
+- source_unit_id: beedle-ch00
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 0
+  chapter_title: Front Matter and Introduction
+  page_start: 1
+  page_end: 8
+  output_yaml: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 1-8.
+- source_unit_id: beedle-ch01
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 1
+  chapter_title: The Wizard and the Hopping Pot and Commentary
+  page_start: 9
+  page_end: 18
+  output_yaml: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Used indexed page range; extracted only pages 9-18.
+- source_unit_id: beedle-ch02
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 2
+  chapter_title: The Fountain of Fair Fortune and Commentary
+  page_start: 19
+  page_end: 30
+  output_yaml: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 9
+  boundary_summary: Used indexed page range; extracted only pages 19-30.
+- source_unit_id: beedle-ch03
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 3
+  chapter_title: The Warlock's Hairy Heart and Commentary
+  page_start: 30
+  page_end: 39
+  output_yaml: sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 1
+  boundary_summary: Used indexed page range; extracted only pages 30-39.
+- source_unit_id: beedle-ch04
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 4
+  chapter_title: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  page_start: 39
+  page_end: 52
+  output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 39-52.
+- source_unit_id: beedle-ch05
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 5
+  chapter_title: The Tale of the Three Brothers and Commentary
+  page_start: 52
+  page_end: 62
+  output_yaml: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Used indexed page range; extracted only pages 52-62.
+- source_unit_id: beedle-ch06
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter_number: 6
+  chapter_title: Back Matter
+  page_start: 63
+  page_end: 65
+  output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 0
+  boundary_summary: Used indexed page range; extracted only pages 63-65.
+- source_unit_id: qtta-ch00
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 0
+  chapter_title: Front Matter and Foreword
+  page_start: 1
+  page_end: 8
+  output_yaml: sources/book-qtta/chapter-00-front-matter.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Used indexed page range; extracted only pages 1-8.
+- source_unit_id: qtta-ch01
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 1
+  chapter_title: Chapter One - The Evolution of the Flying Broomstick
+  page_start: 9
+  page_end: 11
+  output_yaml: sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Used indexed page range; extracted only pages 9-11.
+- source_unit_id: qtta-ch02
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 2
+  chapter_title: Chapter Two - Ancient Broom Games
+  page_start: 11
+  page_end: 14
+  output_yaml: sources/book-qtta/chapter-02-ancient-broom-games.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 1
+  boundary_summary: Used indexed page range; extracted only pages 11-14.
+- source_unit_id: qtta-ch03
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 3
+  chapter_title: Chapter Three - The Game From Queerditch Marsh
+  page_start: 15
+  page_end: 18
+  output_yaml: sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Used indexed page range; extracted only pages 15-18.
+- source_unit_id: qtta-ch04
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 4
+  chapter_title: Chapter Four - The Arrival of the Golden Snitch
+  page_start: 18
+  page_end: 23
+  output_yaml: sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 3
+  boundary_summary: Used indexed page range; extracted only pages 18-23.
+- source_unit_id: qtta-ch05
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 5
+  chapter_title: Chapter Five - Anti-Muggle Precautions
+  page_start: 23
+  page_end: 25
+  output_yaml: sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Used indexed page range; extracted only pages 23-25.
+- source_unit_id: qtta-ch06
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 6
+  chapter_title: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  page_start: 25
+  page_end: 39
+  output_yaml: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 10
+  boundary_summary: Used indexed page range; extracted only pages 25-39.
+- source_unit_id: qtta-ch07
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 7
+  chapter_title: Chapter Seven - Quidditch Teams of Britain and Ireland
+  page_start: 39
+  page_end: 46
+  output_yaml: sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 1
+  boundary_summary: Used indexed page range; extracted only pages 39-46.
+- source_unit_id: qtta-ch08
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 8
+  chapter_title: Chapter Eight - The Spread of Quidditch Worldwide
+  page_start: 46
+  page_end: 55
+  output_yaml: sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 1
+  boundary_summary: Used indexed page range; extracted only pages 46-55.
+- source_unit_id: qtta-ch09
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 9
+  chapter_title: Chapter Nine - The Development of the Racing Broom
+  page_start: 55
+  page_end: 59
+  output_yaml: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 55-59.
+- source_unit_id: qtta-ch10
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 10
+  chapter_title: Chapter Ten - Quidditch Today
+  page_start: 59
+  page_end: 64
+  output_yaml: sources/book-qtta/chapter-10-quidditch-today.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Used indexed page range; extracted only pages 59-64.
+- source_unit_id: qtta-ch11
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter_number: 11
+  chapter_title: Back Cover
+  page_start: 65
+  page_end: 65
+  output_yaml: sources/book-qtta/chapter-11-back-cover.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 1
+  boundary_summary: Used indexed page range; extracted only pages 65-65.

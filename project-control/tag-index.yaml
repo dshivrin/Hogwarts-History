@@ -1,6 +1,26 @@
 version: 1
-updated: '2026-08-13'
+updated: '2026-08-15'
 tags:
+  '1672':
+    entries:
+    - beedle-ch04-004
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  '1675':
+    entries:
+    - beedle-ch01-003
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  '1689':
+    entries:
+    - beedle-ch01-002
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  '1717':
+    entries:
+    - beedle-ch04-006
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   a-history-of-magic:
     entries:
     - dh-ch08-006
@@ -20,6 +40,7 @@ tags:
     - sources/book-07/chapter-25-shell-cottage.yaml
   aberforth-dumbledore:
     entries:
+    - beedle-ch05-001
     - dh-ch02-003
     - dh-ch28-002
     - dh-ch28-003
@@ -32,6 +53,7 @@ tags:
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   academic-assessment:
     entries:
     - ootp-ch15-002
@@ -169,6 +191,11 @@ tags:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+  admissions-context:
+    entries:
+    - beedle-ch04-004
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   advanced-defense:
     entries:
     - hbp-ch05-005
@@ -264,6 +291,15 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
   albus-dumbledore:
     entries:
+    - beedle-ch02-002
+    - beedle-ch02-006
+    - beedle-ch02-008
+    - beedle-ch02-009
+    - beedle-ch03-001
+    - beedle-ch05-001
+    - beedle-fm-001
+    - beedle-fm-004
+    - beedle-fm-005
     - dh-ch02-001
     - dh-ch02-002
     - dh-ch02-003
@@ -286,6 +322,7 @@ tags:
     - ps-ch01-003
     - ps-ch01-004
     - ps-ch01-005
+    - qtta-fm-004
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
@@ -294,6 +331,11 @@ tags:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
   alchemy:
     entries:
     - dh-ch18-003
@@ -345,6 +387,11 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  amateur-quidditch:
+    entries:
+    - qtta-ch07-001
+    output_yaml:
+    - sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
   amelia-bones:
     entries:
     - hbp-ch01-005
@@ -365,6 +412,11 @@ tags:
     - dh-ch13-007
     output_yaml:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  ancient-broom-games:
+    entries:
+    - qtta-ch02-001
+    output_yaml:
+    - sources/book-qtta/chapter-02-ancient-broom-games.yaml
   ancient-creature:
     entries:
     - cos-ch15-007
@@ -383,6 +435,7 @@ tags:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
   ancient-runes:
     entries:
+    - beedle-fm-001
     - ootp-ch10-005
     - poa-ch04-004
     - poa-ch12-007
@@ -392,6 +445,7 @@ tags:
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   ancient-spells:
     entries:
     - ootp-ch24-005
@@ -414,6 +468,9 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
   animagus:
     entries:
+    - beedle-ch04-002
+    - beedle-ch04-003
+    - beedle-ch04-005
     - gof-ch27-006
     - gof-ch37-006
     - poa-ch20-003
@@ -421,6 +478,7 @@ tags:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   animal-transformation:
     entries:
     - cos-ch12-004
@@ -509,6 +567,12 @@ tags:
     - gof-ch06-002
     output_yaml:
     - sources/book-04/chapter-06-the-portkey.yaml
+  anti-muggle-prejudice:
+    entries:
+    - beedle-ch01-002
+    - beedle-ch01-003
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   anti-muggle-security:
     entries:
     - gof-ch07-001
@@ -665,9 +729,12 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
   armando-dippet:
     entries:
+    - beedle-ch02-005
+    - beedle-ch02-006
     - cos-ch17-003
     output_yaml:
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   armor:
     entries:
     - ps-ch08-001
@@ -711,6 +778,12 @@ tags:
     output_yaml:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+  ashwinder:
+    entries:
+    - beedle-ch02-003
+    - beedle-ch02-004
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   assassination-attempt:
     entries:
     - hbp-ch18-007
@@ -751,6 +824,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
   astronomy-tower:
     entries:
+    - beedle-fm-005
     - hbp-ch27-002
     - hbp-ch27-003
     - hbp-ch27-004
@@ -763,6 +837,7 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   atrium:
     entries:
     - dh-ch12-006
@@ -851,6 +926,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
   avada-kedavra:
     entries:
+    - beedle-ch04-006
     - gof-ch14-005
     - gof-ch34-003
     - hbp-ch27-007
@@ -858,6 +934,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   azkaban:
     entries:
     - cos-ch12-007
@@ -980,6 +1057,11 @@ tags:
     - gof-ch18-001
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  barnabas-deverill:
+    entries:
+    - beedle-ch05-004
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   barnabas-the-barmy:
     entries:
     - ootp-ch18-006
@@ -1065,6 +1147,7 @@ tags:
     - dh-ch18-004
     - dh-ch18-005
     - poa-ch01-001
+    - qtta-fm-003
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-07/chapter-02-in-memoriam.yaml
@@ -1074,6 +1157,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
   bathroom:
     entries:
     - cos-ch15-007
@@ -1140,8 +1224,18 @@ tags:
   beaters:
     entries:
     - ootp-ch21-005
+    - qtta-ch06-003
+    - qtta-ch06-005
+    - qtta-ch10-001
     output_yaml:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
+  beatrix-bloxam:
+    entries:
+    - beedle-ch01-004
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   beauxbatons:
     entries:
     - gof-ch09-002
@@ -1181,8 +1275,15 @@ tags:
     - poa-ch13-006
     output_yaml:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  bedtime-stories:
+    entries:
+    - beedle-fm-002
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   beedle-the-bard:
     entries:
+    - beedle-ch01-001
+    - beedle-fm-003
     - dh-ch20-004
     - dh-ch21-002
     - dh-ch22-005
@@ -1190,6 +1291,8 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   bell-jar:
     entries:
     - ootp-ch34-007
@@ -1372,6 +1475,11 @@ tags:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+  blood-purity:
+    entries:
+    - beedle-ch02-007
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   blood-quill:
     entries:
     - ootp-ch13-006
@@ -1437,8 +1545,13 @@ tags:
   bludgers:
     entries:
     - cos-ch07-001
+    - qtta-ch03-002
+    - qtta-ch06-003
+    - qtta-ch06-005
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   blue-flames:
     entries:
     - ootp-ch34-003
@@ -1483,6 +1596,11 @@ tags:
     - dh-ch26-002
     output_yaml:
     - sources/book-07/chapter-26-gringotts.yaml
+  book-challenge:
+    entries:
+    - beedle-ch02-007
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   book-circulation:
     entries:
     - cos-ch09-001
@@ -1490,6 +1608,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  book-protection:
+    entries:
+    - qtta-fm-005
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
   booklists:
     entries:
     - hbp-ch06-001
@@ -1555,8 +1678,10 @@ tags:
   bowman-wright:
     entries:
     - dh-ch16-003
+    - qtta-ch04-003
     output_yaml:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   bowtruckles:
     entries:
     - hbp-ch22-006
@@ -1577,6 +1702,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  braking-charm:
+    entries:
+    - qtta-ch09-004
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   brazilian-school:
     entries:
     - gof-ch07-003
@@ -1602,12 +1732,33 @@ tags:
     - ootp-ch25-002
     output_yaml:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  broom-control:
+    entries:
+    - qtta-ch09-002
+    - qtta-ch09-003
+    - qtta-ch09-006
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  broom-development:
+    entries:
+    - qtta-ch02-001
+    output_yaml:
+    - sources/book-qtta/chapter-02-ancient-broom-games.yaml
   broom-flight:
     entries:
     - ootp-ch03-003
     - ootp-ch03-005
     output_yaml:
     - sources/book-05/chapter-03-the-advance-guard.yaml
+  broom-history:
+    entries:
+    - qtta-ch01-001
+    - qtta-ch01-002
+    - qtta-ch09-001
+    - qtta-ch09-002
+    output_yaml:
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   broom-jinx:
     entries:
     - ps-ch11-006
@@ -1615,6 +1766,23 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  broom-manufacturing:
+    entries:
+    - qtta-ch09-003
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  broom-safety:
+    entries:
+    - qtta-ch01-002
+    - qtta-ch06-010
+    - qtta-ch09-001
+    - qtta-ch09-004
+    - qtta-ch09-005
+    - qtta-ch09-007
+    output_yaml:
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   broomcare:
     entries:
     - poa-ch01-007
@@ -1678,6 +1846,11 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+  brutus-malfoy:
+    entries:
+    - beedle-ch01-003
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   bubble-head-charm:
     entries:
     - ootp-ch30-002
@@ -1794,6 +1967,8 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   care-of-magical-creatures:
     entries:
+    - beedle-ch02-003
+    - beedle-ch02-006
     - cos-ch08-003
     - cos-ch14-002
     - gof-ch13-003
@@ -1855,6 +2030,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   career-advice:
     entries:
     - ootp-ch12-002
@@ -2258,6 +2434,14 @@ tags:
     - dh-ch23-004
     output_yaml:
     - sources/book-07/chapter-23-malfoy-manor.yaml
+  censorship:
+    entries:
+    - beedle-ch01-004
+    - beedle-ch02-007
+    - beedle-ch02-008
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   centaur-divination:
     entries:
     - ps-ch15-007
@@ -2470,8 +2654,13 @@ tags:
   chasers:
     entries:
     - hbp-ch14-003
+    - qtta-ch06-006
+    - qtta-ch10-001
+    - qtta-ch10-002
     output_yaml:
     - sources/book-06/chapter-14-felix-felicis.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   cheating:
     entries:
     - gof-ch20-002
@@ -2499,6 +2688,11 @@ tags:
     - hbp-ch26-001
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  children's-literature:
+    entries:
+    - beedle-ch01-004
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   children-stories:
     entries:
     - dh-ch07-007
@@ -2564,6 +2758,16 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
     - sources/book-03/chapter-03-the-knight-bus.yaml
+  christmas-pantomime:
+    entries:
+    - beedle-ch02-001
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  circulation-record:
+    entries:
+    - qtta-fm-002
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
   clankers:
     entries:
     - dh-ch26-004
@@ -2655,6 +2859,11 @@ tags:
     - hbp-ch09-005
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+  cleansweep:
+    entries:
+    - qtta-ch09-003
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   closed-ward:
     entries:
     - ootp-ch23-006
@@ -2731,6 +2940,11 @@ tags:
     - ootp-ch18-005
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+  comet-140:
+    entries:
+    - qtta-ch09-004
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   coming-of-age:
     entries:
     - dh-ch06-001
@@ -2888,6 +3102,7 @@ tags:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
   concealment:
     entries:
+    - beedle-ch04-002
     - dh-ch17-003
     - dh-ch21-004
     - dh-ch26-001
@@ -2903,6 +3118,7 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-26-gringotts.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   concealment-charms:
     entries:
     - ootp-ch26-003
@@ -2928,6 +3144,11 @@ tags:
     - hbp-ch14-007
     output_yaml:
     - sources/book-06/chapter-14-felix-felicis.yaml
+  conservation:
+    entries:
+    - qtta-ch04-002
+    output_yaml:
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   contact-galleons:
     entries:
     - hbp-ch25-006
@@ -3319,6 +3540,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
   cruciatus-curse:
     entries:
+    - beedle-ch04-006
     - dh-ch30-002
     - gof-ch14-005
     - gof-ch30-006
@@ -3336,6 +3558,7 @@ tags:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   crystal-gazing:
     entries:
     - gof-ch21-005
@@ -3345,6 +3568,11 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+  cultural-memory:
+    entries:
+    - beedle-fm-002
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   curfew:
     entries:
     - dh-ch28-001
@@ -3450,6 +3678,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+  cushioning-charm:
+    entries:
+    - qtta-ch09-001
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   d-a:
     entries:
     - hbp-ch21-004
@@ -3519,6 +3752,11 @@ tags:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+  daisy-pennifold:
+    entries:
+    - qtta-ch06-002
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   damocles-belby:
     entries:
     - hbp-ch07-006
@@ -3633,6 +3871,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
   dark-magic:
     entries:
+    - beedle-fm-003
     - cos-ch09-006
     - dh-ch05-005
     - dh-ch14-006
@@ -3655,6 +3894,7 @@ tags:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-19-the-silver-doe.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   dark-mark:
     entries:
     - dh-ch30-002
@@ -3711,9 +3951,11 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
   death:
     entries:
+    - beedle-ch04-001
     - ootp-ch38-006
     output_yaml:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   death-chamber:
     entries:
     - ootp-ch34-005
@@ -3833,6 +4075,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
   deathly-hallows:
     entries:
+    - beedle-ch05-002
     - dh-ch20-004
     - dh-ch21-001
     - dh-ch21-002
@@ -3858,6 +4101,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   deathly-hallows-symbol:
     entries:
     - dh-ch16-007
@@ -3865,11 +4109,13 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
   deathstick:
     entries:
+    - beedle-ch05-003
     - dh-ch21-005
     - dh-ch24-006
     output_yaml:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   decorations:
     entries:
     - gof-ch22-003
@@ -4199,8 +4445,12 @@ tags:
   department-of-magical-games-and-sports:
     entries:
     - gof-ch03-001
+    - qtta-ch05-002
+    - qtta-ch06-010
     output_yaml:
     - sources/book-04/chapter-03-the-invitation.yaml
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   department-of-magical-law-enforcement:
     entries:
     - dh-ch12-007
@@ -4220,6 +4470,7 @@ tags:
     - sources/book-04/chapter-06-the-portkey.yaml
   department-of-mysteries:
     entries:
+    - beedle-ch04-004
     - dh-ch11-003
     - gof-ch07-004
     - gof-ch30-004
@@ -4253,6 +4504,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   department-regulation-control-magical-creatures:
     entries:
     - ootp-ch33-003
@@ -5099,9 +5351,11 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
   dumbledore-death:
     entries:
+    - beedle-fm-005
     - hbp-ch27-007
     output_yaml:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   dumbledore-family:
     entries:
     - dh-ch02-004
@@ -5383,6 +5637,11 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  egbert:
+    entries:
+    - beedle-ch05-003
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   eileen-prince:
     entries:
     - hbp-ch25-002
@@ -5392,6 +5651,8 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
   elder-wand:
     entries:
+    - beedle-ch05-002
+    - beedle-ch05-003
     - dh-ch14-007
     - dh-ch21-003
     - dh-ch21-005
@@ -5414,6 +5675,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   electives:
     entries:
     - cos-ch14-002
@@ -5526,6 +5788,11 @@ tags:
     - sources/book-03/chapter-03-the-knight-bus.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  emeric-the-evil:
+    entries:
+    - beedle-ch05-003
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   employee-tokens:
     entries:
     - dh-ch12-003
@@ -5536,6 +5803,13 @@ tags:
     - gof-ch29-004
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
+  enchanted-balls:
+    entries:
+    - qtta-ch06-002
+    - qtta-ch06-003
+    - qtta-ch06-004
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   enchanted-boat:
     entries:
     - hbp-ch26-004
@@ -5565,6 +5839,13 @@ tags:
     - hbp-ch27-006
     output_yaml:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  enchanted-equipment:
+    entries:
+    - qtta-ch04-003
+    - qtta-ch06-009
+    output_yaml:
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   enchanted-maze:
     entries:
     - gof-ch31-005
@@ -5626,6 +5907,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
   engorgement-charm:
     entries:
+    - beedle-ch02-003
     - cos-ch07-005
     - dh-ch20-002
     - gof-ch04-005
@@ -5633,6 +5915,7 @@ tags:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   entrance-hall:
     entries:
     - dh-ch32-003
@@ -5671,6 +5954,21 @@ tags:
     - hbp-ch14-004
     output_yaml:
     - sources/book-06/chapter-14-felix-felicis.yaml
+  equipment-aging:
+    entries:
+    - qtta-ch09-005
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  equipment-failure:
+    entries:
+    - qtta-ch09-007
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  equipment-safety:
+    entries:
+    - qtta-ch06-003
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   equipment-storage:
     entries:
     - cos-ch10-004
@@ -5719,11 +6017,21 @@ tags:
     - gof-ch09-002
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  european-cup:
+    entries:
+    - qtta-ch08-001
+    output_yaml:
+    - sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
   evasive-enchantments:
     entries:
     - hbp-ch05-005
     output_yaml:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  evasive-flying:
+    entries:
+    - qtta-ch10-002
+    output_yaml:
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   everard:
     entries:
     - ootp-ch22-002
@@ -6161,6 +6469,13 @@ tags:
     - dh-ch31-007
     output_yaml:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  fifteenth-century:
+    entries:
+    - beedle-ch01-001
+    - beedle-fm-003
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   fifth-floor:
     entries:
     - dh-ch29-005
@@ -6582,6 +6897,14 @@ tags:
     - ps-ch09-001
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+  flying-broomsticks:
+    entries:
+    - qtta-ch01-001
+    - qtta-ch01-002
+    - qtta-ch02-001
+    output_yaml:
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+    - sources/book-qtta/chapter-02-ancient-broom-games.yaml
   flying-car:
     entries:
     - cos-ch03-004
@@ -6613,6 +6936,12 @@ tags:
     output_yaml:
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+  folklore-variants:
+    entries:
+    - beedle-ch01-002
+    - beedle-ch01-004
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   food-magic:
     entries:
     - dh-ch15-003
@@ -6757,6 +7086,11 @@ tags:
     - gof-ch10-007
     output_yaml:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  formations:
+    entries:
+    - qtta-ch10-001
+    output_yaml:
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   fortescue:
     entries:
     - hbp-ch06-002
@@ -6963,6 +7297,11 @@ tags:
     - poa-ch18-002
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  funeral-customs:
+    entries:
+    - beedle-ch05-004
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   galatea-merrythought:
     entries:
     - hbp-ch20-003
@@ -7060,6 +7399,11 @@ tags:
     - ootp-ch06-003
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  gertie-keddle:
+    entries:
+    - qtta-ch03-001
+    output_yaml:
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
   ghost-customs:
     entries:
     - cos-ch08-004
@@ -7215,6 +7559,18 @@ tags:
     output_yaml:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
+  goal-scoring:
+    entries:
+    - qtta-ch03-001
+    output_yaml:
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+  goalposts:
+    entries:
+    - qtta-ch03-002
+    - qtta-ch06-001
+    output_yaml:
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   goblet-of-fire:
     entries:
     - gof-ch07-007
@@ -7323,6 +7679,11 @@ tags:
     - hbp-ch25-002
     output_yaml:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+  godelot:
+    entries:
+    - beedle-ch05-004
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   godric-gryffindor:
     entries:
     - cos-ch18-004
@@ -7362,6 +7723,7 @@ tags:
     - ps-ch01-005
     - ps-ch02-001
     - ps-ch02-005
+    - qtta-ch04-003
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-01/chapter-02-vanishing-glass.yaml
@@ -7374,6 +7736,7 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   golden-egg:
     entries:
     - gof-ch20-006
@@ -7396,17 +7759,28 @@ tags:
     - gof-ch31-005
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  golden-snidget:
+    entries:
+    - qtta-ch04-001
+    - qtta-ch04-002
+    output_yaml:
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   golden-snitch:
     entries:
     - dh-ch07-005
     - dh-ch16-003
     - dh-ch22-004
     - dh-ch34-004
+    - qtta-ch04-001
+    - qtta-ch04-003
+    - qtta-ch06-004
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   golgomath:
     entries:
     - ootp-ch20-005
@@ -7456,6 +7830,8 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
   great-hall:
     entries:
+    - beedle-ch02-004
+    - beedle-ch02-005
     - cos-ch01-001
     - cos-ch05-004
     - cos-ch06-001
@@ -7543,6 +7919,7 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   great-hall-feast:
     entries:
     - gof-ch12-004
@@ -7742,6 +8119,11 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-26-gringotts.yaml
+  gripping-charm:
+    entries:
+    - qtta-ch06-002
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   griselda-marchbanks:
     entries:
     - ootp-ch31-002
@@ -8546,6 +8928,7 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
   headmaster-authority:
     entries:
+    - beedle-ch02-005
     - cos-ch14-007
     - cos-ch18-003
     - cos-ch18-005
@@ -8571,6 +8954,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   headmaster-contact:
     entries:
     - gof-ch02-005
@@ -8663,9 +9047,11 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   headmastership:
     entries:
+    - beedle-ch02-009
     - cos-ch02-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   headmistress:
     entries:
     - hbp-ch29-005
@@ -8778,8 +9164,14 @@ tags:
     - dh-ch26-006
     output_yaml:
     - sources/book-07/chapter-26-gringotts.yaml
+  herbert-beery:
+    entries:
+    - beedle-ch02-001
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   herbology:
     entries:
+    - beedle-ch02-001
     - cos-ch06-002
     - cos-ch06-003
     - cos-ch14-001
@@ -8813,6 +9205,7 @@ tags:
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   herbology-defenses:
     entries:
     - dh-ch30-006
@@ -8827,6 +9220,11 @@ tags:
     - hbp-ch25-001
     output_yaml:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+  hereward:
+    entries:
+    - beedle-ch05-004
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   hermione:
     entries:
     - ps-ch06-004
@@ -8848,6 +9246,7 @@ tags:
     - sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
   hermione-granger:
     entries:
+    - beedle-fm-001
     - cos-ch04-004
     - cos-ch07-003
     - dh-ch07-007
@@ -8879,6 +9278,7 @@ tags:
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   hermione-research:
     entries:
     - poa-ch14-003
@@ -9352,9 +9752,12 @@ tags:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
   hogwarts-archives:
     entries:
+    - beedle-fm-004
+    - beedle-fm-005
     - dh-ch07-003
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   hogwarts-attendance:
     entries:
     - dh-ch08-005
@@ -9530,6 +9933,11 @@ tags:
     - ootp-ch06-005
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  hogwarts-headmistress:
+    entries:
+    - beedle-ch04-003
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   hogwarts-heads:
     entries:
     - ootp-ch22-006
@@ -9587,11 +9995,21 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
   hogwarts-library:
     entries:
+    - beedle-ch02-007
+    - beedle-ch02-008
     - dh-ch06-006
     - hbp-ch23-004
+    - qtta-bc-001
+    - qtta-fm-001
+    - qtta-fm-002
+    - qtta-fm-004
+    - qtta-fm-005
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/book-qtta/chapter-11-back-cover.yaml
   hogwarts-memory:
     entries:
     - cos-ch01-001
@@ -9661,6 +10079,8 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
   hogwarts-staff:
     entries:
+    - beedle-ch02-002
+    - beedle-ch02-003
     - dh-ch01-006
     - dh-ch06-003
     - dh-ch11-005
@@ -9670,6 +10090,7 @@ tags:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   hogwarts-student:
     entries:
     - dh-ch02-001
@@ -9678,11 +10099,13 @@ tags:
     - sources/book-07/chapter-02-in-memoriam.yaml
   hogwarts-students:
     entries:
+    - beedle-fm-002
     - dh-ch13-004
     - hbp-ch23-006
     output_yaml:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   hogwarts-teacher:
     entries:
     - dh-ch35-006
@@ -9965,6 +10388,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   hospital-wing:
     entries:
+    - beedle-ch02-005
     - cos-ch10-005
     - cos-ch11-006
     - cos-ch13-001
@@ -10016,6 +10440,7 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   host-school:
     entries:
     - gof-ch17-002
@@ -10537,6 +10962,7 @@ tags:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
   imperius-curse:
     entries:
+    - beedle-ch04-006
     - dh-ch05-004
     - dh-ch11-002
     - dh-ch26-003
@@ -10564,6 +10990,7 @@ tags:
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-26-gringotts.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   impersonation:
     entries:
     - dh-ch05-003
@@ -10671,6 +11098,11 @@ tags:
     - hbp-ch04-006
     output_yaml:
     - sources/book-06/chapter-04-horace-slughorn.yaml
+  informal-education:
+    entries:
+    - beedle-ch04-001
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   informal-source:
     entries:
     - poa-ch04-002
@@ -10735,6 +11167,7 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
   institutional-memory:
     entries:
+    - beedle-fm-004
     - dh-ch07-003
     - dh-ch10-001
     - dh-ch15-007
@@ -10744,11 +11177,17 @@ tags:
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   institutional-secrecy:
     entries:
     - cos-ch13-005
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
+  intellectual-freedom:
+    entries:
+    - beedle-ch02-008
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   intelligence:
     entries:
     - dh-ch01-002
@@ -10917,6 +11356,7 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   invisibility-cloak:
     entries:
+    - beedle-ch05-002
     - dh-ch09-002
     - dh-ch16-005
     - dh-ch17-003
@@ -10972,6 +11412,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   invisibility-section:
     entries:
     - cos-ch11-005
@@ -10982,6 +11423,13 @@ tags:
     - ootp-ch24-007
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  irma-pince:
+    entries:
+    - qtta-fm-002
+    - qtta-fm-004
+    - qtta-fm-005
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
   james-potter:
     entries:
     - hbp-ch16-005
@@ -11137,11 +11585,15 @@ tags:
     - hbp-ch14-004
     - ootp-ch13-007
     - ootp-ch14-004
+    - qtta-ch06-005
+    - qtta-ch10-001
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   keeper-of-keys:
     entries:
     - ps-ch04-001
@@ -11157,6 +11609,11 @@ tags:
     - dh-ch08-005
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
+  kennilworthy-whisp:
+    entries:
+    - qtta-fm-003
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
   killing-curse:
     entries:
     - dh-ch17-006
@@ -11299,6 +11756,11 @@ tags:
     - dh-ch35-006
     output_yaml:
     - sources/book-07/chapter-35-king-s-cross.yaml
+  league-cup:
+    entries:
+    - qtta-ch07-001
+    output_yaml:
+    - sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
   leaky-cauldron:
     entries:
     - dh-ch09-003
@@ -11493,6 +11955,18 @@ tags:
     - cos-ch11-005
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
+  library-enchantments:
+    entries:
+    - qtta-fm-005
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
+  library-provenance:
+    entries:
+    - qtta-bc-001
+    - qtta-fm-001
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/book-qtta/chapter-11-back-cover.yaml
   library-research:
     entries:
     - hbp-ch18-002
@@ -11683,6 +12157,11 @@ tags:
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  loxias:
+    entries:
+    - beedle-ch05-004
+    output_yaml:
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   loyalty:
     entries:
     - cos-ch14-007
@@ -11690,6 +12169,8 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
   lucius-malfoy:
     entries:
+    - beedle-ch02-007
+    - beedle-ch02-009
     - cos-ch12-006
     - cos-ch14-006
     - cos-ch18-005
@@ -11716,6 +12197,7 @@ tags:
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   ludo-bagman:
     entries:
     - gof-ch07-001
@@ -11927,6 +12409,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-05/chapter-20-hagrid-s-tale.yaml
+  magical-ability:
+    entries:
+    - beedle-ch04-004
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   magical-architecture:
     entries:
     - cos-ch11-007
@@ -12181,6 +12668,7 @@ tags:
     - ootp-ch30-005
     - ps-ch14-002
     - ps-ch15-007
+    - qtta-ch04-002
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-01/chapter-15-forbidden-forest.yaml
@@ -12206,6 +12694,7 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   magical-creatures-department:
     entries:
     - gof-ch24-003
@@ -12269,6 +12758,11 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  magical-flight:
+    entries:
+    - qtta-ch01-001
+    output_yaml:
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
   magical-fortifications:
     entries:
     - hbp-ch08-006
@@ -12326,6 +12820,11 @@ tags:
     - ootp-ch22-004
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  magical-inheritance:
+    entries:
+    - beedle-ch04-004
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   magical-injury:
     entries:
     - gof-ch02-001
@@ -12385,9 +12884,17 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
   magical-limits:
     entries:
+    - beedle-ch04-001
+    - beedle-ch04-005
     - hbp-ch24-002
     output_yaml:
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  magical-literature:
+    entries:
+    - beedle-ch04-002
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   magical-locking:
     entries:
     - gof-ch25-006
@@ -12642,6 +13149,11 @@ tags:
     - gof-ch07-002
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
+  magical-study:
+    entries:
+    - beedle-ch04-002
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   magical-surveillance:
     entries:
     - gof-ch19-003
@@ -12927,6 +13439,7 @@ tags:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   master-of-death:
     entries:
+    - beedle-ch05-002
     - dh-ch21-003
     - dh-ch22-001
     - dh-ch35-003
@@ -12934,6 +13447,7 @@ tags:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   match-commentary:
     entries:
     - poa-ch13-002
@@ -12941,6 +13455,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  match-ending:
+    entries:
+    - qtta-ch06-008
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   match-governance:
     entries:
     - poa-ch09-006
@@ -13217,6 +13736,13 @@ tags:
     - ootp-ch10-004
     output_yaml:
     - sources/book-05/chapter-10-luna-lovegood.yaml
+  minerva-mcgonagall:
+    entries:
+    - beedle-ch04-003
+    - beedle-fm-004
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   minister-of-magic:
     entries:
     - cos-ch04-005
@@ -13628,9 +14154,11 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   ministry-register:
     entries:
+    - beedle-ch04-002
     - poa-ch18-001
     output_yaml:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   ministry-regulation:
     entries:
     - dh-ch01-004
@@ -13754,6 +14282,11 @@ tags:
     - ootp-ch12-004
     output_yaml:
     - sources/book-05/chapter-12-professor-umbridge.yaml
+  moontrimmer:
+    entries:
+    - qtta-ch09-002
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   moony:
     entries:
     - poa-ch14-007
@@ -14081,6 +14614,13 @@ tags:
     - gof-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+  muggle-relations:
+    entries:
+    - beedle-ch01-001
+    - beedle-fm-003
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   muggle-repelling:
     entries:
     - dh-ch14-003
@@ -14093,8 +14633,10 @@ tags:
   muggle-repelling-charms:
     entries:
     - gof-ch08-001
+    - qtta-ch05-001
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
   muggle-rights:
     entries:
     - dh-ch02-001
@@ -14226,9 +14768,11 @@ tags:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
   muggles:
     entries:
+    - beedle-ch04-004
     - dh-ch12-006
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   mundungus-fletcher:
     entries:
     - dh-ch05-006
@@ -14249,6 +14793,11 @@ tags:
     - hbp-ch27-002
     output_yaml:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  museum-of-quidditch:
+    entries:
+    - qtta-ch01-002
+    output_yaml:
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
   music:
     entries:
     - ps-ch16-003
@@ -14479,6 +15028,16 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  nimbus:
+    entries:
+    - qtta-ch09-006
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  nimbus-1000:
+    entries:
+    - qtta-ch09-006
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   nimbus-two-thousand:
     entries:
     - poa-ch01-007
@@ -14570,6 +15129,11 @@ tags:
     - hbp-ch28-004
     output_yaml:
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
+  oakshaft-79:
+    entries:
+    - qtta-ch09-001
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   obedience:
     entries:
     - hbp-ch03-005
@@ -14653,6 +15217,11 @@ tags:
     - ootp-ch37-007
     output_yaml:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  officiating:
+    entries:
+    - qtta-ch06-010
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   ogg:
     entries:
     - gof-ch31-001
@@ -14782,6 +15351,13 @@ tags:
     - hbp-ch14-007
     output_yaml:
     - sources/book-06/chapter-14-felix-felicis.yaml
+  oral-tradition:
+    entries:
+    - beedle-ch03-001
+    - beedle-ch05-001
+    output_yaml:
+    - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   order-guard:
     entries:
     - ootp-ch01-002
@@ -14828,6 +15404,7 @@ tags:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
   order-of-the-phoenix:
     entries:
+    - beedle-ch04-003
     - dh-ch01-002
     - dh-ch01-003
     - dh-ch03-001
@@ -14901,6 +15478,7 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   order-security:
     entries:
     - ootp-ch22-003
@@ -14948,6 +15526,11 @@ tags:
     - ootp-ch09-007
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  original-runes:
+    entries:
+    - beedle-ch03-001
+    output_yaml:
+    - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
   orphanage:
     entries:
     - hbp-ch13-003
@@ -15087,6 +15670,11 @@ tags:
     - dh-ch13-002
     output_yaml:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  pantomime:
+    entries:
+    - beedle-ch02-005
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   parcels:
     entries:
     - ootp-ch29-002
@@ -15363,9 +15951,11 @@ tags:
     - poa-ch15-007
     - ps-ch13-002
     - ps-ch13-005
+    - qtta-ch06-007
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   pensieve:
     entries:
     - dh-ch12-002
@@ -15644,6 +16234,16 @@ tags:
     - ootp-ch19-003
     output_yaml:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  pitch-boundaries:
+    entries:
+    - qtta-ch06-007
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  pitch-dimensions:
+    entries:
+    - qtta-ch06-001
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   pius-thicknesse:
     entries:
     - dh-ch01-003
@@ -15699,11 +16299,28 @@ tags:
     - hbp-ch14-004
     output_yaml:
     - sources/book-06/chapter-14-felix-felicis.yaml
+  player-injuries:
+    entries:
+    - qtta-ch06-008
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  player-positions:
+    entries:
+    - qtta-ch03-002
+    - qtta-ch06-005
+    - qtta-ch06-006
+    output_yaml:
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   player-safety:
     entries:
     - poa-ch15-005
+    - qtta-ch06-009
+    - qtta-ch10-002
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   plumbing:
     entries:
     - cos-ch16-007
@@ -15730,6 +16347,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+  political-conflict:
+    entries:
+    - beedle-ch02-009
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   political-donations:
     entries:
     - ootp-ch09-001
@@ -15920,6 +16542,11 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  post-1984:
+    entries:
+    - qtta-ch09-007
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   post-battle:
     entries:
     - dh-ch36-005
@@ -16377,11 +17004,13 @@ tags:
     - sources/book-07/chapter-04-the-seven-potters.yaml
   probation:
     entries:
+    - beedle-ch02-006
     - ootp-ch17-006
     - ootp-ch25-004
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   probity-probes:
     entries:
     - dh-ch26-001
@@ -16999,13 +17628,22 @@ tags:
   quaffle:
     entries:
     - cos-ch07-001
+    - qtta-ch03-001
+    - qtta-ch06-002
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   qualification:
     entries:
     - hbp-ch26-005
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  queerditch-marsh:
+    entries:
+    - qtta-ch03-001
+    output_yaml:
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
   questionnaire:
     entries:
     - dh-ch13-007
@@ -17146,6 +17784,17 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+  quidditch-equipment:
+    entries:
+    - qtta-ch06-002
+    - qtta-ch06-003
+    - qtta-ch06-004
+    - qtta-ch09-003
+    - qtta-ch09-004
+    - qtta-ch09-006
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   quidditch-field:
     entries:
     - gof-ch28-004
@@ -17162,11 +17811,33 @@ tags:
     - poa-ch15-005
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+  quidditch-fouls:
+    entries:
+    - qtta-ch06-009
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  quidditch-governance:
+    entries:
+    - qtta-ch05-002
+    - qtta-ch07-001
+    output_yaml:
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+    - sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
   quidditch-history:
     entries:
     - ps-ch11-002
+    - qtta-ch04-001
+    - qtta-ch04-002
+    - qtta-ch04-003
+    - qtta-ch06-001
+    - qtta-ch08-001
+    - qtta-fm-003
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
   quidditch-injury:
     entries:
     - cos-ch10-005
@@ -17174,6 +17845,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+  quidditch-league:
+    entries:
+    - qtta-ch07-001
+    output_yaml:
+    - sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
   quidditch-mascots:
     entries:
     - gof-ch08-006
@@ -17184,11 +17860,23 @@ tags:
     - ps-ch13-005
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  quidditch-origins:
+    entries:
+    - qtta-ch02-001
+    - qtta-ch03-001
+    - qtta-ch03-002
+    output_yaml:
+    - sources/book-qtta/chapter-02-ancient-broom-games.yaml
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
   quidditch-pitch:
     entries:
     - ps-ch11-004
+    - qtta-ch05-001
+    - qtta-ch06-001
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   quidditch-practice:
     entries:
     - cos-ch01-002
@@ -17200,6 +17888,11 @@ tags:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  quidditch-referees:
+    entries:
+    - qtta-ch06-010
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   quidditch-rules:
     entries:
     - cos-ch07-001
@@ -17207,12 +17900,19 @@ tags:
     - ootp-ch19-006
     - poa-ch15-007
     - ps-ch11-005
+    - qtta-ch06-005
+    - qtta-ch06-006
+    - qtta-ch06-007
+    - qtta-ch06-008
+    - qtta-ch06-009
+    - qtta-ch06-010
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   quidditch-safety:
     entries:
     - cos-ch10-004
@@ -17236,13 +17936,26 @@ tags:
     - cos-ch10-003
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  quidditch-tactics:
+    entries:
+    - qtta-ch10-001
+    - qtta-ch10-002
+    output_yaml:
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   quidditch-through-the-ages:
     entries:
     - ps-ch09-001
     - ps-ch11-002
+    - qtta-bc-001
+    - qtta-fm-001
+    - qtta-fm-002
+    - qtta-fm-003
+    - qtta-fm-004
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/book-qtta/chapter-11-back-cover.yaml
   quidditch-world-cup:
     entries:
     - gof-ch01-002
@@ -17262,6 +17975,7 @@ tags:
     - gof-ch10-003
     - gof-ch33-004
     - hbp-ch01-003
+    - qtta-ch08-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
     - sources/book-04/chapter-03-the-invitation.yaml
@@ -17273,6 +17987,7 @@ tags:
     - sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
   quills:
     entries:
     - gof-ch04-001
@@ -17283,6 +17998,16 @@ tags:
     - ps-ch13-006
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  racing-brooms:
+    entries:
+    - qtta-ch09-001
+    - qtta-ch09-002
+    - qtta-ch09-003
+    - qtta-ch09-004
+    - qtta-ch09-006
+    - qtta-ch09-007
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   radar:
     entries:
     - gof-ch28-003
@@ -17562,6 +18287,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
   resurrection-stone:
     entries:
+    - beedle-ch05-002
     - dh-ch21-003
     - dh-ch22-002
     - dh-ch22-004
@@ -17573,6 +18299,7 @@ tags:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   review-lessons:
     entries:
     - ootp-ch31-001
@@ -17932,6 +18659,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-13-the-very-secret-diary.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  school-ban:
+    entries:
+    - beedle-ch02-005
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   school-boundaries:
     entries:
     - hbp-ch28-005
@@ -18027,6 +18759,12 @@ tags:
     - cos-ch10-006
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+  school-entertainment:
+    entries:
+    - beedle-ch02-001
+    - beedle-ch02-002
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   school-entrance:
     entries:
     - poa-ch22-002
@@ -18037,6 +18775,11 @@ tags:
     - ps-ch05-007
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+  school-evacuation:
+    entries:
+    - beedle-ch02-004
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   school-fees:
     entries:
     - hbp-ch17-002
@@ -18049,6 +18792,8 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
   school-governance:
     entries:
+    - beedle-ch02-008
+    - beedle-ch02-009
     - cos-ch12-006
     - cos-ch18-005
     - gof-ch36-005
@@ -18084,8 +18829,12 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   school-governors:
     entries:
+    - beedle-ch02-007
+    - beedle-ch02-008
+    - beedle-ch02-009
     - cos-ch12-006
     - cos-ch14-005
     - cos-ch14-006
@@ -18103,6 +18852,7 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   school-grounds:
     entries:
     - gof-ch31-002
@@ -18359,6 +19109,7 @@ tags:
     - ps-ch08-003
     - ps-ch09-005
     - ps-ch12-002
+    - qtta-fm-005
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-01/chapter-09-midnight-duel.yaml
@@ -18370,6 +19121,7 @@ tags:
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
   school-rumor:
     entries:
     - hbp-ch04-004
@@ -18447,6 +19199,11 @@ tags:
     - gof-ch35-001
     output_yaml:
     - sources/book-04/chapter-35-veritaserum.yaml
+  school-sport-safety:
+    entries:
+    - qtta-ch04-002
+    output_yaml:
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   school-status:
     entries:
     - ootp-ch05-003
@@ -18533,15 +19290,30 @@ tags:
     - ps-ch04-004
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  schoolchild-knowledge:
+    entries:
+    - beedle-ch04-005
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   scoring:
     entries:
     - gof-ch20-007
     - gof-ch26-005
     - ps-ch11-005
+    - qtta-ch04-001
+    - qtta-ch06-006
+    - qtta-ch06-009
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  scoring-areas:
+    entries:
+    - qtta-ch06-001
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   scrimgeour:
     entries:
     - dh-ch07-002
@@ -18737,6 +19509,11 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+  secrecy-culture:
+    entries:
+    - beedle-ch01-003
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   secrecy-law:
     entries:
     - hbp-ch10-005
@@ -18930,12 +19707,19 @@ tags:
     - gof-ch06-004
     - ootp-ch21-005
     - ps-ch09-003
+    - qtta-ch04-001
+    - qtta-ch06-004
+    - qtta-ch06-006
+    - qtta-ch10-002
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   seeker-tactics:
     entries:
     - poa-ch13-003
@@ -18951,6 +19735,11 @@ tags:
     - hbp-ch13-005
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
+  self-transfiguration:
+    entries:
+    - beedle-ch04-005
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   senior-students:
     entries:
     - poa-ch01-004
@@ -19103,6 +19892,11 @@ tags:
     - hbp-ch06-005
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
+  shooting-star:
+    entries:
+    - qtta-ch09-005
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   shrieking-shack:
     entries:
     - dh-ch32-005
@@ -19171,6 +19965,17 @@ tags:
     - ootp-ch18-003
     output_yaml:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
+  silvanus-kettleburn:
+    entries:
+    - beedle-ch02-003
+    - beedle-ch02-006
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  silver-arrow:
+    entries:
+    - qtta-ch09-002
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   silver-doe:
     entries:
     - dh-ch19-003
@@ -19652,6 +20457,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  snitch-capture:
+    entries:
+    - qtta-ch10-002
+    output_yaml:
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   social-attitudes:
     entries:
     - gof-ch16-006
@@ -19747,6 +20557,11 @@ tags:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  source-dating:
+    entries:
+    - beedle-fm-005
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   source-history:
     entries:
     - dh-ch08-004
@@ -19755,6 +20570,14 @@ tags:
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+  source-provenance:
+    entries:
+    - beedle-fm-001
+    - beedle-fm-004
+    - qtta-fm-003
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-qtta/chapter-00-front-matter.yaml
   source-reliability:
     entries:
     - gof-ch15-003
@@ -19893,6 +20716,12 @@ tags:
     - gof-ch08-004
     output_yaml:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  sports-security:
+    entries:
+    - qtta-ch05-001
+    - qtta-ch05-002
+    output_yaml:
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
   squib-context:
     entries:
     - cos-ch08-002
@@ -19959,9 +20788,11 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
   staff-and-students:
     entries:
+    - beedle-ch02-001
     - poa-ch11-005
     output_yaml:
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   staff-appointment:
     entries:
     - cos-ch04-006
@@ -20011,6 +20842,11 @@ tags:
     - ootp-ch24-001
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  staff-discipline:
+    entries:
+    - beedle-ch02-006
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   staff-dismissal:
     entries:
     - ootp-ch26-006
@@ -20150,9 +20986,11 @@ tags:
     - sources/book-05/chapter-13-detention-with-dolores.yaml
   staff-safety:
     entries:
+    - beedle-ch02-004
     - hbp-ch04-004
     output_yaml:
     - sources/book-06/chapter-04-horace-slughorn.yaml
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   staff-search:
     entries:
     - poa-ch09-002
@@ -20220,6 +21058,16 @@ tags:
     - poa-ch21-006
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  stage-fire:
+    entries:
+    - beedle-ch02-004
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  stage-magic:
+    entries:
+    - beedle-ch02-002
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   stagecoaches:
     entries:
     - poa-ch05-005
@@ -20298,6 +21146,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
   statute-of-secrecy:
     entries:
+    - beedle-ch01-002
     - cos-ch02-005
     - dh-ch16-003
     - dh-ch18-006
@@ -20310,6 +21159,9 @@ tags:
     - ootp-ch02-004
     - ootp-ch08-002
     - ootp-ch31-007
+    - qtta-ch01-002
+    - qtta-ch05-001
+    - qtta-ch05-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
@@ -20321,6 +21173,9 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
   statute-of-secrecy-context:
     entries:
     - ps-ch14-002
@@ -20368,6 +21223,11 @@ tags:
     - ps-ch05-001
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+  stooging:
+    entries:
+    - qtta-ch06-006
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   stopping-knot:
     entries:
     - dh-ch32-005
@@ -20505,6 +21365,11 @@ tags:
     - poa-ch19-006
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  student-duel:
+    entries:
+    - beedle-ch02-004
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
   student-enterprise:
     entries:
     - gof-ch05-002
@@ -20792,6 +21657,14 @@ tags:
     - gof-ch13-007
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  student-reading:
+    entries:
+    - qtta-bc-001
+    - qtta-fm-002
+    - qtta-fm-004
+    output_yaml:
+    - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/book-qtta/chapter-11-back-cover.yaml
   student-rebellion:
     entries:
     - ootp-ch29-007
@@ -21130,6 +22003,11 @@ tags:
     - gof-ch24-001
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  substitutions:
+    entries:
+    - qtta-ch06-008
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   subterranean-chamber:
     entries:
     - ps-ch16-005
@@ -21253,6 +22131,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
     - sources/book-05/chapter-02-a-peck-of-owls.yaml
+  swiftstick:
+    entries:
+    - qtta-ch09-005
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   sword:
     entries:
     - cos-ch17-005
@@ -21324,11 +22207,21 @@ tags:
     - sources/book-07/chapter-23-malfoy-manor.yaml
   tales-of-beedle-the-bard:
     entries:
+    - beedle-ch03-001
+    - beedle-ch04-001
+    - beedle-ch05-001
+    - beedle-fm-001
+    - beedle-fm-002
+    - beedle-fm-004
     - dh-ch07-007
     - dh-ch21-002
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   tallest-tower:
     entries:
     - ps-ch14-006
@@ -21493,22 +22386,28 @@ tags:
     - gof-ch06-004
     - hbp-ch09-002
     - poa-ch08-002
+    - qtta-ch06-007
     output_yaml:
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-04/chapter-06-the-portkey.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   team-practice:
     entries:
     - hbp-ch14-004
     - poa-ch12-004
     - poa-ch13-001
     - ps-ch13-002
+    - qtta-ch03-002
+    - qtta-ch10-001
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-03/chapter-12-the-patronus.yaml
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+    - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+    - sources/book-qtta/chapter-10-quidditch-today.yaml
   team-replacements:
     entries:
     - hbp-ch24-007
@@ -21603,6 +22502,11 @@ tags:
     - ootp-ch09-004
     output_yaml:
     - sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  textual-transmission:
+    entries:
+    - beedle-ch03-001
+    output_yaml:
+    - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
   theft:
     entries:
     - hbp-ch13-005
@@ -21798,6 +22702,11 @@ tags:
     - dh-ch05-002
     output_yaml:
     - sources/book-07/chapter-05-fallen-warrior.yaml
+  timeouts:
+    entries:
+    - qtta-ch06-007
+    output_yaml:
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   timetable:
     entries:
     - poa-ch22-006
@@ -21813,6 +22722,16 @@ tags:
     - poa-ch21-002
     output_yaml:
     - sources/book-03/chapter-21-hermiones-secret.yaml
+  tinderblast:
+    entries:
+    - qtta-ch09-005
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  toadstool-tales:
+    entries:
+    - beedle-ch01-004
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   tom-riddle:
     entries:
     - cos-ch13-002
@@ -21994,6 +22913,7 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   transfiguration:
     entries:
+    - beedle-ch04-002
     - cos-ch06-004
     - dh-ch15-003
     - dh-ch32-002
@@ -22030,6 +22950,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   transfiguration-book:
     entries:
     - cos-ch18-006
@@ -22050,6 +22971,21 @@ tags:
     - gof-ch13-006
     output_yaml:
     - sources/book-04/chapter-13-mad-eye-moody.yaml
+  transfiguration-research:
+    entries:
+    - beedle-ch04-003
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  transfiguration-teacher:
+    entries:
+    - beedle-ch02-002
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  transfiguration-theory:
+    entries:
+    - beedle-ch04-005
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   transfiguration-today:
     entries:
     - dh-ch18-004
@@ -22265,6 +23201,11 @@ tags:
     - gof-ch37-004
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  twigger-90:
+    entries:
+    - qtta-ch09-007
+    output_yaml:
+    - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   twin-cores:
     entries:
     - dh-ch18-001
@@ -22459,6 +23400,7 @@ tags:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
   unforgivable-curses:
     entries:
+    - beedle-ch04-006
     - dh-ch29-002
     - gof-ch14-005
     - gof-ch27-007
@@ -22472,6 +23414,7 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   unicorn-blood:
     entries:
     - ps-ch15-007
@@ -22947,9 +23890,11 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
   wand-compatibility:
     entries:
+    - beedle-ch05-004
     - dh-ch20-002
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   wand-confiscation:
     entries:
     - ootp-ch32-005
@@ -23012,11 +23957,13 @@ tags:
     - sources/book-07/chapter-08-the-wedding.yaml
   wand-of-destiny:
     entries:
+    - beedle-ch05-003
     - dh-ch21-005
     - dh-ch24-006
     output_yaml:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   wand-ownership:
     entries:
     - dh-ch13-007
@@ -23064,8 +24011,10 @@ tags:
   wand-use:
     entries:
     - poa-ch20-003
+    - qtta-ch06-008
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+    - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
   wand-verification:
     entries:
     - dh-ch26-002
@@ -23078,6 +24027,8 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
   wandlore:
     entries:
+    - beedle-ch05-003
+    - beedle-ch05-004
     - dh-ch20-002
     - dh-ch21-005
     - dh-ch22-005
@@ -23097,6 +24048,7 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   wandmakers:
     entries:
     - dh-ch08-003
@@ -23132,6 +24084,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+  warlock-at-war:
+    entries:
+    - beedle-ch01-003
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   warlocks-convention-1709:
     entries:
     - ps-ch14-002
@@ -23410,6 +24367,13 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+  wider-wizarding-culture:
+    entries:
+    - qtta-ch07-001
+    - qtta-ch08-001
+    output_yaml:
+    - sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
+    - sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
   wilbert-slinkhard:
     entries:
     - ootp-ch12-006
@@ -23496,6 +24460,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  witch-persecution:
+    entries:
+    - beedle-ch01-001
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   witch-weekly:
     entries:
     - gof-ch27-003
@@ -23559,6 +24528,15 @@ tags:
     - ps-ch01-001
     output_yaml:
     - sources/book-01/chapter-01-boy-who-lived.yaml
+  wizarding-childhood:
+    entries:
+    - beedle-ch04-001
+    - beedle-ch05-001
+    - beedle-fm-002
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   wizarding-custom:
     entries:
     - dh-ch07-001
@@ -23600,11 +24578,13 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
   wizarding-folklore:
     entries:
+    - beedle-ch05-002
     - dh-ch07-007
     - dh-ch21-002
     output_yaml:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+    - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
   wizarding-genealogy:
     entries:
     - dh-ch10-005
@@ -23656,6 +24636,7 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
   wizarding-law:
     entries:
+    - beedle-ch04-006
     - dh-ch09-005
     - dh-ch13-006
     - gof-ch14-003
@@ -23672,11 +24653,22 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  wizarding-literature:
+    entries:
+    - beedle-fm-003
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   wizarding-news:
     entries:
     - dh-ch20-003
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  wizarding-periodicals:
+    entries:
+    - beedle-ch01-003
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   wizarding-politics:
     entries:
     - dh-ch18-006
@@ -23733,6 +24725,12 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  wizarding-secrecy:
+    entries:
+    - beedle-ch01-001
+    - beedle-ch01-002
+    output_yaml:
+    - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   wizarding-society:
     entries:
     - gof-ch08-003
@@ -23751,8 +24749,10 @@ tags:
   wizarding-transport:
     entries:
     - gof-ch01-002
+    - qtta-ch01-001
     output_yaml:
     - sources/book-04/chapter-01-the-riddle-house.yaml
+    - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
   wizarding-war:
     entries:
     - ps-ch01-002
@@ -23838,8 +24838,10 @@ tags:
   world-cup-1473:
     entries:
     - ps-ch11-002
+    - qtta-ch08-001
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
   wormtail:
     entries:
     - dh-ch23-006
@@ -23874,6 +24876,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+  yorkshire:
+    entries:
+    - beedle-fm-003
+    output_yaml:
+    - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   you-know-who:
     entries:
     - dh-ch14-005
@@ -23888,3 +24895,13 @@ tags:
     output_yaml:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+  yuletide:
+    entries:
+    - beedle-ch02-001
+    output_yaml:
+    - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  zacharias-mumps:
+    entries:
+    - qtta-ch05-001
+    output_yaml:
+    - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml

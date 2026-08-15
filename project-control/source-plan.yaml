@@ -4,7 +4,7 @@ project:
   authoritative_state: project-control/processing-state.yaml
   update_note: scripts/update_next_run.py keeps completed chapter status synchronized
     when advancing after a validated extraction.
-current_phase: automated-book-05-forward-extraction
+current_phase: companion-source-extraction-complete
 sources:
 - source_file: pdfs/harrypotter.pdf
   book_group: book-01
@@ -826,3 +826,87 @@ sources:
     title: Chapter Thirty-Six - The Flaw in the Plan
     status: complete
     output_file: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+- source_file: pdfs/quidditch-through-the-ages.pdf
+  book_group: book-qtta
+  book: Quidditch Through the Ages
+  chapters:
+  - number: 0
+    title: Front Matter and Foreword
+    status: complete
+    output_file: sources/book-qtta/chapter-00-front-matter.yaml
+  - number: 1
+    title: Chapter One - The Evolution of the Flying Broomstick
+    status: complete
+    output_file: sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+  - number: 2
+    title: Chapter Two - Ancient Broom Games
+    status: complete
+    output_file: sources/book-qtta/chapter-02-ancient-broom-games.yaml
+  - number: 3
+    title: Chapter Three - The Game From Queerditch Marsh
+    status: complete
+    output_file: sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+  - number: 4
+    title: Chapter Four - The Arrival of the Golden Snitch
+    status: complete
+    output_file: sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  - number: 5
+    title: Chapter Five - Anti-Muggle Precautions
+    status: complete
+    output_file: sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+  - number: 6
+    title: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+    status: complete
+    output_file: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  - number: 7
+    title: Chapter Seven - Quidditch Teams of Britain and Ireland
+    status: complete
+    output_file: sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
+  - number: 8
+    title: Chapter Eight - The Spread of Quidditch Worldwide
+    status: complete
+    output_file: sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
+  - number: 9
+    title: Chapter Nine - The Development of the Racing Broom
+    status: complete
+    output_file: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  - number: 10
+    title: Chapter Ten - Quidditch Today
+    status: complete
+    output_file: sources/book-qtta/chapter-10-quidditch-today.yaml
+  - number: 11
+    title: Back Cover
+    status: complete
+    output_file: sources/book-qtta/chapter-11-back-cover.yaml
+- source_file: pdfs/Beedle The Bard_text.pdf
+  book_group: book-beedle
+  book: The Tales of Beedle the Bard
+  chapters:
+  - number: 0
+    title: Front Matter and Introduction
+    status: complete
+    output_file: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  - number: 1
+    title: The Wizard and the Hopping Pot and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  - number: 2
+    title: The Fountain of Fair Fortune and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  - number: 3
+    title: The Warlock's Hairy Heart and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+  - number: 4
+    title: Babbitty Rabbitty and Her Cackling Stump and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  - number: 5
+    title: The Tale of the Three Brothers and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  - number: 6
+    title: Back Matter
+    status: complete
+    output_file: sources/book-beedle/chapter-06-back-matter.yaml

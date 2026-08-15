@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 198
+- Total: 217
 
 ## Entries by Book
 
@@ -19,28 +19,30 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Harry Potter and the Order of the Phoenix: 261
 - Harry Potter and the Philosopher's Stone: 104
 - Harry Potter and the Prisoner of Azkaban: 145
+- Quidditch Through the Ages: 37
+- The Tales of Beedle the Bard: 29
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 489
-- later_editorial_note: 674
+- harry_era_confirmation: 491
+- later_editorial_note: 680
 - original_book_core_candidate: 8
-- post_1984_excluded_from_original: 5
-- pre_1984_historical_candidate: 138
+- post_1984_excluded_from_original: 13
+- pre_1984_historical_candidate: 188
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 99
-- curriculum_or_subject: 154
-- direct_observed_setting: 62
+- curriculum_or_subject: 156
+- direct_observed_setting: 63
 - explicit_hogwarts_a_history: 9
-- explicit_in_universe_source: 101
-- historical_claim: 192
+- explicit_in_universe_source: 109
+- historical_claim: 234
 - house_system: 24
-- institutional_custom: 184
+- institutional_custom: 192
 - magical_architecture: 101
 - portrait_or_ghost_lore: 23
-- school_rule_or_policy: 134
+- school_rule_or_policy: 139
 - security_or_protection: 231
 
 ## Explicit `Hogwarts: A History` References
@@ -49,11 +51,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 968
+- Total: 1008
 
 ## Latest Processed Unit
 
-- Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, pages 3594-3615, `sources/book-07/chapter-36-the-flaw-in-the-plan.yaml`
+- The Tales of Beedle the Bard, Back Matter, pages 63-65, `sources/book-beedle/chapter-06-back-matter.yaml`
 
 ## Next Pending Unit
 

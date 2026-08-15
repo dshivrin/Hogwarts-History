@@ -51,6 +51,40 @@ class RefactorSupportTests(unittest.TestCase):
 
             self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 1)
 
+    def test_validate_source_yaml_accepts_named_companion_source_group(self) -> None:
+        """Catches regressions that reject non-novel companion-book groups."""
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_schema_reference(root)
+            source_dir = root / "sources" / "book-qtta"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-01-evolution-of-the-flying-broomstick.yaml").write_text(
+                self._source_yaml("qtta-ch01-001"),
+                encoding="utf-8",
+            )
+            self._write_valid_seed_contract(root)
+
+            self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 0)
+
+    def test_validate_source_yaml_accepts_beedle_companion_source_group(self) -> None:
+        """Catches regressions that reject the Beedle companion-book group."""
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_schema_reference(root)
+            source_dir = root / "sources" / "book-beedle"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-01-wizard-and-hopping-pot.yaml").write_text(
+                self._source_yaml("beedle-ch01-001"),
+                encoding="utf-8",
+            )
+            self._write_valid_seed_contract(root)
+
+            self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 0)
+
     def test_validate_book_seed_accepts_current_contract(self) -> None:
         validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
 
@@ -202,6 +236,84 @@ class RefactorSupportTests(unittest.TestCase):
             entry_index["by_entry"]["ps-ch07-001"]["reference_type"],
             "explicit_hogwarts_a_history",
         )
+
+    def test_build_entry_index_uses_qtta_prefix_for_companion_source_units(self) -> None:
+        """Catches companion units receiving the generic bookqtta identifier."""
+        build_entry_index = importlib.import_module("scripts.build_entry_index")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            source_dir = root / "sources" / "book-qtta"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-01-evolution-of-the-flying-broomstick.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    source_unit:
+                      source_file: pdfs/quidditch-through-the-ages.pdf
+                      book: Quidditch Through the Ages
+                      chapter: Chapter One - The Evolution of the Flying Broomstick
+                      chapter_start_pdf_page: 9
+                      chapter_end_pdf_page: 10
+                      processed_date: '2026-08-15'
+                    entries:
+                    - id: qtta-ch01-001
+                      reference_type: historical_claim
+                      topic_tags:
+                      - flying-broomsticks
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            build_entry_index.ROOT = root
+            build_entry_index.SOURCES_DIR = root / "sources"
+            build_entry_index.ENTRY_INDEX_PATH = root / "project-control" / "entry-index.yaml"
+            build_entry_index.SOURCE_INDEX_PATH = root / "project-control" / "source-index.yaml"
+
+            self.assertEqual(build_entry_index.main(), 0)
+            source_index = yaml.safe_load(build_entry_index.SOURCE_INDEX_PATH.read_text())
+
+        self.assertEqual(source_index["processed_units"][0]["source_unit_id"], "qtta-ch01")
+
+    def test_build_entry_index_uses_beedle_prefix_for_companion_source_units(self) -> None:
+        """Catches companion units receiving the generic bookbeedle identifier."""
+        build_entry_index = importlib.import_module("scripts.build_entry_index")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            source_dir = root / "sources" / "book-beedle"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-01-wizard-and-hopping-pot.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    source_unit:
+                      source_file: pdfs/Beedle The Bard_text.pdf
+                      book: The Tales of Beedle the Bard
+                      chapter: The Wizard and the Hopping Pot
+                      chapter_start_pdf_page: 9
+                      chapter_end_pdf_page: 18
+                      processed_date: '2026-08-15'
+                    entries:
+                    - id: beedle-ch01-001
+                      reference_type: historical_claim
+                      topic_tags:
+                      - wizarding-folklore
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            build_entry_index.ROOT = root
+            build_entry_index.SOURCES_DIR = root / "sources"
+            build_entry_index.ENTRY_INDEX_PATH = root / "project-control" / "entry-index.yaml"
+            build_entry_index.SOURCE_INDEX_PATH = root / "project-control" / "source-index.yaml"
+
+            self.assertEqual(build_entry_index.main(), 0)
+            source_index = yaml.safe_load(build_entry_index.SOURCE_INDEX_PATH.read_text())
+
+        self.assertEqual(source_index["processed_units"][0]["source_unit_id"], "beedle-ch01")
 
     def test_query_duplicates_returns_only_matching_tags(self) -> None:
         query_duplicates = importlib.import_module("scripts.query_duplicates")
@@ -571,6 +683,31 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertNotIn("scripts/query_duplicates.py", next_run)
         self.assertNotIn("Open full index files", next_run)
         self.assertNotIn("project-control/entry-index.yaml`", next_run)
+
+    def test_update_next_run_renders_exhausted_source_plan_without_none_placeholders(self) -> None:
+        """Catches completed projects being rendered as a bogus `None` source unit."""
+        update_next_run = importlib.import_module("scripts.update_next_run")
+
+        rendered = update_next_run.render_next_run(
+            {
+                "last_completed_source_unit": {
+                    "source_file": "pdfs/quidditch-through-the-ages.pdf",
+                    "book_group": "book-qtta",
+                    "book": "Quidditch Through the Ages",
+                    "chapter_number": 11,
+                    "chapter_title": "Back Cover",
+                    "page_start": 65,
+                    "page_end": 65,
+                    "output_yaml": "sources/book-qtta/chapter-11-back-cover.yaml",
+                },
+                "current_source_unit": None,
+                "next_source_unit": None,
+            }
+        )
+
+        self.assertIn("No pending source unit remains", rendered)
+        self.assertIn("Back Cover", rendered)
+        self.assertNotIn("`None`", rendered)
 
     def test_update_next_run_advances_after_valid_current_output(self) -> None:
         update_next_run = importlib.import_module("scripts.update_next_run")

@@ -1,0 +1,52 @@
+source_unit:
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Warlock's Hairy Heart and Commentary
+  chapter_start_pdf_page: 30
+  chapter_end_pdf_page: 39
+  boundary_confidence: high
+  boundary_notes: The tale begins on the right side of shared PDF page 30 and runs through page 35; Dumbledore's commentary occupies pages 36-39, with Babbitty Rabbitty beginning on the right side of page 39.
+  processed_date: '2026-08-15'
+  processor_notes: All pages were rendered and checked against the embedded text; most tale content and general magical philosophy were excluded as weak Hogwarts context.
+entries:
+- id: beedle-ch03-001
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Warlock's Hairy Heart and Commentary
+  chapter_start_pdf_page: 30
+  chapter_end_pdf_page: 39
+  pdf_page: 36
+  printed_page: 54
+  extracted_text_lines: PDF text lines 1383-1414
+  text_anchor:
+    start_phrase: has survived intact through the centuries
+    end_phrase: my mother had told me
+    local_occurrence_note: Opening page of Dumbledore's commentary.
+  nearby_context: Dumbledore compares the stable text he read in the original runes with the version transmitted to him orally as a child.
+  match_terms:
+  - original runes
+  - Dumbledore
+  - mother
+  - centuries
+  - oral tradition
+  quote_excerpt_short: the story as I eventually read it in the original runes
+  source_note: Dumbledore says the tale remained largely unchanged for centuries and that the original-rune text closely matched the version his mother told him.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - tales-of-beedle-the-bard
+  - original-runes
+  - albus-dumbledore
+  - oral-tradition
+  - textual-transmission
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: Dumbledore provides a rare comparison between oral family transmission and the surviving written source.
+  relevance_to_hogwarts_a_history: It strengthens the collection's value as long-lived wizarding cultural evidence familiar to a future headmaster.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch07-007
+    notes: The novel establishes Dumbledore's runic Beedle volume and the collection's childhood status; this commentary adds his personal oral-textual comparison.
+  confidence: high
+  limitations: Dumbledore offers his own recollection, and no manuscripts are compared directly in this passage.

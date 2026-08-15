@@ -1,0 +1,106 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Three - The Game From Queerditch Marsh
+  chapter_start_pdf_page: 15
+  chapter_end_pdf_page: 18
+  boundary_confidence: high
+  boundary_notes: Chapter Three begins on PDF page 15 and ends on PDF page 18, where Chapter Four begins on the same
+    page.
+  processed_date: '2026-08-15'
+  processor_notes: All four image-only pages were rendered and OCRed; the shared Chapter Three/Four page and short
+    quotations were checked against the scan.
+entries:
+- id: qtta-ch03-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Three - The Game From Queerditch Marsh
+  chapter_start_pdf_page: 15
+  chapter_end_pdf_page: 18
+  pdf_page: 15
+  printed_page: 7
+  extracted_text_lines: OCR lines 370-421
+  text_anchor:
+    start_phrase: owe our knowledge of the rude beginnings of Quidditch
+    end_phrase: trying to stick it in trees
+    local_occurrence_note: Chapter opening and first translated extracts from Gertie Keddle's diary.
+  nearby_context: An eleventh-century diary preserved in the Museum of Quidditch describes the recurring marsh game
+    from a hostile neighbor's perspective.
+  match_terms:
+  - Gertie Keddle
+  - Queerditch Marsh
+  - diary
+  - leather ball
+  - trees
+  quote_excerpt_short: trying to stick it in trees at either end of the marsh
+  source_note: An eleventh-century diary records the precursor game at Queerditch Marsh using broomsticks, a large
+    leather ball, passing, and tree-based goals.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - queerditch-marsh
+  - gertie-keddle
+  - quidditch-origins
+  - quaffle
+  - goal-scoring
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Origins and Early Development
+  reason_for_placement: The diary is the book's earliest direct documentary evidence for the game that became Quidditch.
+  relevance_to_hogwarts_a_history: It supplies the historical origin of the sport later institutionalized in Hogwarts
+    House competition.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing entries describe Hogwarts matches but not the eleventh-century documentary origin.
+  confidence: high
+  limitations: Keddle is an unsympathetic observer, and Whisp's identification of the game as proto-Quidditch is
+    historical interpretation.
+- id: qtta-ch03-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Three - The Game From Queerditch Marsh
+  chapter_start_pdf_page: 15
+  chapter_end_pdf_page: 18
+  pdf_page: 17
+  printed_page: 9
+  extracted_text_lines: OCR lines 422-476
+  text_anchor:
+    start_phrase: We enjoyed a spirited game of Kwidditch
+    end_phrase: three at each end on stilts
+    local_occurrence_note: Goodwin Kneen's twelfth-century letter and Whisp's analysis.
+  nearby_context: Kneen describes practiced teams, a Catcher, a Blooder, a club-bearing defender, repeated scoring,
+    and three elevated barrels per end.
+  match_terms:
+  - Goodwin Kneen
+  - Kwidditch
+  - Catcher
+  - Blooder
+  - scoring barrels
+  quote_excerpt_short: The new scoring barrels worked well. Three at each end on stilts
+  source_note: A twelfth-century match had practiced teams, a Chaser-like Catcher, a Bludger-like Blooder, a club-bearing
+    Beater role, and three elevated scoring barrels at each end.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-origins
+  - player-positions
+  - bludgers
+  - goalposts
+  - team-practice
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Origins and Early Development
+  reason_for_placement: The letter shows recognizable rules, roles, equipment, and training developing before the
+    Snitch.
+  relevance_to_hogwarts_a_history: It provides early antecedents for the positions, balls, goals, and team practice
+    seen at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-001
+    - ps-ch11-005
+    notes: It is historical antecedent evidence for the same core positions, balls, goal structure, and team play
+      seen in Hogwarts matches.
+  confidence: high
+  limitations: Whisp infers the modern roles from archaic names rather than quoting a formal rulebook.

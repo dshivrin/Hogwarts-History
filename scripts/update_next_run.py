@@ -258,7 +258,32 @@ def advance_state(state: dict) -> dict:
 
 
 def render_next_run(state: dict) -> str:
-    current = state.get("current_source_unit") or {}
+    current = state.get("current_source_unit")
+    if not isinstance(current, dict):
+        completed = state.get("last_completed_source_unit") or {}
+        return f"""# Next Run
+
+Generated display only. Source of truth: `project-control/processing-state.yaml`.
+
+## Current Source Unit
+
+No pending source unit remains in `project-control/source-plan.yaml`.
+
+## Last Completed Source Unit
+
+- Source file: `{completed.get('source_file')}`
+- Book group: `{completed.get('book_group')}`
+- Book: {completed.get('book')}
+- Chapter: {completed.get('chapter_title')}
+- Page range: {completed.get('page_start')}-{completed.get('page_end')}
+- Output YAML: `{completed.get('output_yaml')}`
+
+## Minimal Context
+
+The planned source sequence is exhausted. Do not start another source-unit extraction
+unless `project-control/source-plan.yaml` is extended or
+`project-control/processing-state.yaml` is deliberately reset to a pending unit.
+"""
     return f"""# Next Run
 
 Generated display only. Source of truth: `project-control/processing-state.yaml`.
