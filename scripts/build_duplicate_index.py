@@ -9,6 +9,11 @@ import re
 
 import yaml
 
+try:
+    from scripts.source_files import discover_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    from source_files import discover_source_yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_DIR = ROOT / "sources"
@@ -36,7 +41,7 @@ def load_yaml(path: Path) -> dict:
 
 def build_entries() -> list[dict]:
     rows: list[dict] = []
-    for path in sorted(SOURCES_DIR.glob("book-*/*.yaml")):
+    for path in discover_source_yaml(ROOT):
         data = load_yaml(path)
         source_unit = data.get("source_unit") or {}
         entries = data.get("entries") or []
@@ -52,8 +57,7 @@ def build_entries() -> list[dict]:
                 entry.get("candidate_section"),
             ]
             canonical_topic = slugify(" ".join(str(p) for p in canonical_parts if p))
-            rows.append(
-                {
+            row = {
                     "entry_id": entry.get("id"),
                     "canonical_topic": canonical_topic,
                     "tags": tags,
@@ -63,7 +67,17 @@ def build_entries() -> list[dict]:
                     "source_note": entry.get("source_note"),
                     "output_yaml": path.relative_to(ROOT).as_posix(),
                 }
+            source_id = entry.get("source_id") or source_unit.get("source_id")
+            source_url = (
+                entry.get("source_url")
+                or source_unit.get("original_url")
+                or source_unit.get("retrieval_url")
             )
+            if source_id:
+                row["source_id"] = source_id
+            if source_url:
+                row["source_url"] = source_url
+            rows.append(row)
     return rows
 
 

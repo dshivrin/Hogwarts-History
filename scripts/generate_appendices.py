@@ -8,6 +8,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from scripts.source_files import discover_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    from source_files import discover_source_yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_DIR = ROOT / "sources"
@@ -36,7 +41,7 @@ def load_yaml(path: Path) -> dict:
 
 
 def source_yaml_files() -> list[Path]:
-    return sorted(SOURCES_DIR.glob("book-*/*.yaml"))
+    return discover_source_yaml(ROOT)
 
 
 def load_entries() -> list[dict]:
@@ -115,9 +120,16 @@ def generate_explicit_references(entries: list[dict]) -> str:
             )
             if destination:
                 lines.append(f"  - Destination: {destination}")
-            lines.append(
-                f"  - Source: PDF p. {entry.get('pdf_page')}, `{entry.get('_output_yaml')}`"
-            )
+            if entry.get("source_url"):
+                lines.append(
+                    f"  - Source: {entry.get('source_id')}, {entry.get('source_url')}, "
+                    f"`{entry.get('_output_yaml')}`"
+                )
+            else:
+                lines.append(
+                    f"  - Source: PDF p. {entry.get('pdf_page')}, "
+                    f"`{entry.get('_output_yaml')}`"
+                )
             lines.append(
                 "  - "
                 f"Classification: {entry.get('era_classification')} | "
@@ -187,14 +199,22 @@ def generate_source_index() -> str:
     source_index = load_yaml(SOURCE_INDEX_PATH)
     lines = ["# Source Index", ""]
     for unit in source_index.get("processed_units") or []:
-        lines.append(
-            "- "
-            f"`{unit.get('source_unit_id')}`: {unit.get('book')}, "
-            f"{unit.get('chapter_title')}, pages "
-            f"{unit.get('page_start')}-{unit.get('page_end')}, "
-            f"{unit.get('candidate_entry_count')} entries, "
-            f"{unit.get('explicit_reference_count')} explicit references."
-        )
+        if unit.get("source_kind") == "external_markdown":
+            lines.append(
+                "- "
+                f"`{unit.get('source_unit_id')}`: {unit.get('source_site')}, "
+                f"{unit.get('source_url')}, {unit.get('candidate_entry_count')} entries, "
+                f"{unit.get('explicit_reference_count')} explicit references."
+            )
+        else:
+            lines.append(
+                "- "
+                f"`{unit.get('source_unit_id')}`: {unit.get('book')}, "
+                f"{unit.get('chapter_title')}, pages "
+                f"{unit.get('page_start')}-{unit.get('page_end')}, "
+                f"{unit.get('candidate_entry_count')} entries, "
+                f"{unit.get('explicit_reference_count')} explicit references."
+            )
     return "\n".join(lines)
 
 

@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import hashlib
+import importlib
 from pathlib import Path
+import tempfile
 import unittest
 
 import yaml
@@ -67,6 +69,82 @@ class RuntimeBackupAndManifestTests(unittest.TestCase):
                 record["sha256"],
                 record["logical_id"],
             )
+
+
+class SourceDiscoveryAndRenderingTests(unittest.TestCase):
+    def test_discovery_returns_book_and_external_yaml_in_stable_order(self) -> None:
+        try:
+            source_files = importlib.import_module("scripts.source_files")
+        except ModuleNotFoundError:
+            self.fail("scripts.source_files must provide canonical source discovery")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            relative_paths = [
+                "sources/external/official-rowling/a01-example.yaml",
+                "sources/book-01/chapter-01-example.yaml",
+                "sources/external/interviews/b01-example.yaml",
+                "sources/ignored/example.yaml",
+            ]
+            for relative_path in relative_paths:
+                path = root / relative_path
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text("source_unit: {}\nentries: []\n", encoding="utf-8")
+
+            discovered = [
+                path.relative_to(root).as_posix()
+                for path in source_files.discover_source_yaml(root)
+            ]
+
+        self.assertEqual(
+            discovered,
+            [
+                "sources/book-01/chapter-01-example.yaml",
+                "sources/external/interviews/b01-example.yaml",
+                "sources/external/official-rowling/a01-example.yaml",
+            ],
+        )
+
+    def test_book_seed_renders_web_provenance_without_pdf_none(self) -> None:
+        generate_book_seed = importlib.import_module("scripts.generate_book_seed")
+        entry = {
+            "id": "ext-a01-001",
+            "source_id": "A01",
+            "source_url": "https://example.test/a01",
+            "_output_yaml": "sources/external/official-rowling/a01-example.yaml",
+            "_book": None,
+            "_chapter": None,
+            "pdf_page": None,
+        }
+
+        rendered = generate_book_seed.format_source_line(entry)
+
+        self.assertEqual(
+            rendered,
+            "Source: A01, https://example.test/a01, "
+            "`sources/external/official-rowling/a01-example.yaml`",
+        )
+        self.assertNotIn("PDF p. None", rendered)
+
+    def test_appendix_explicit_reference_renders_web_provenance(self) -> None:
+        appendices = importlib.import_module("scripts.generate_appendices")
+        entry = {
+            "id": "ext-a01-001",
+            "source_id": "A01",
+            "source_url": "https://example.test/a01",
+            "_output_yaml": "sources/external/official-rowling/a01-example.yaml",
+            "_book": None,
+            "_chapter": None,
+            "reference_type": "explicit_hogwarts_a_history",
+            "pdf_page": None,
+            "era_classification": "pre_1984_historical_candidate",
+            "confidence": "high",
+        }
+
+        rendered = appendices.generate_explicit_references([entry])
+
+        self.assertIn("Source: A01, https://example.test/a01", rendered)
+        self.assertNotIn("PDF p. None", rendered)
 
 
 if __name__ == "__main__":

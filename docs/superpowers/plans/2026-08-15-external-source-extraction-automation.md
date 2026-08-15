@@ -123,7 +123,7 @@
 
 ### Task 2: Unify evidence discovery and web-aware rendering
 
-**Status:** in_progress
+**Status:** done
 
 **Files:**
 - Create: `scripts/source_files.py`
@@ -213,7 +213,7 @@
 
 ### Task 3: Extend canonical validation for external web evidence
 
-**Status:** pending
+**Status:** in_progress
 
 **Files:**
 - Modify: `scripts/validate_source_yaml.py`
