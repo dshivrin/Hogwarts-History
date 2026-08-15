@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "7e9bd4f9eb5cd78cbfda7763b6bbc054ec14a28deb04c0f98928016bb9fa5cbe"
 local_path: "resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md"
 relevance:

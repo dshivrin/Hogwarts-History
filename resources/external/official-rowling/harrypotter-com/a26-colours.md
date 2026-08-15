@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "4e8b692f01509f88ce154a5b0089f77b22b6e04097936dff4a2b3e10471b0cbc"
 local_path: "resources/external/official-rowling/harrypotter-com/a26-colours.md"
 relevance:

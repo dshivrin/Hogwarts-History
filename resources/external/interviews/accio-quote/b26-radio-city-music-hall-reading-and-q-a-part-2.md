@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "19d552cd3b9a72781e79ddd28af4e47d798dfeee145438989ecbb7102bd5be63"
 local_path: "resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md"
 relevance:

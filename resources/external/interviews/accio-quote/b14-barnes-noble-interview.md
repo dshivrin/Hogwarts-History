@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "aa58e4acbced017eb31ff304fa901ad02f9c2c6d60d65d5d5d847a9d1127827a"
 local_path: "resources/external/interviews/accio-quote/b14-barnes-noble-interview.md"
 relevance:

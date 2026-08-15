@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "5ed3e7742bf2559a0f258d557a067c88321655679985b9578ab88dd40a6a4de3"
 local_path: "resources/external/official-rowling/harrypotter-com/a03-quill-of-acceptance-and-book-of-admittance.md"
 relevance:

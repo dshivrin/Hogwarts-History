@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "004e1052722091e1468daf3eb80a50c15cfc6ef04b590eb2b99ca23b8200dc69"
 local_path: "resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md"
 relevance:

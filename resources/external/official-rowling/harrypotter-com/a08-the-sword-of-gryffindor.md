@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "f06671acfbf3abe91e05b3bee75818bb48173c8d9f6ca6bd3f2a6ab09872a260"
 local_path: "resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md"
 relevance:

@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "6df650415e4cd5f07c44e311e61cd6f89cd01d12dad5ec16258517988c9fb695"
 local_path: "resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md"
 relevance:

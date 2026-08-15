@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "ee42cb0b9fed7fac88921f6c142417e5f0265759894564c3feaef226faee4c65"
 local_path: "resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md"
 relevance:

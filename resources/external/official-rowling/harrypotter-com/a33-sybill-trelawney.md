@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "defc732f3245462a26d0ad9ff9e76f65250b3c0c8306d00a92b7bfd08b19c2f1"
 local_path: "resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md"
 relevance:

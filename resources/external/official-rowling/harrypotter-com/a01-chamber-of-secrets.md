@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "06a2a8626f62b40e3000dffbe565fa8180d863c4c3681e5bbfade04ff6f36b0b"
 local_path: "resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md"
 relevance:

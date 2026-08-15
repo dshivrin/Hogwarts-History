@@ -163,7 +163,7 @@ def test_render_snapshot_emits_parseable_metadata_and_body_hash():
         "authority": "A",
         "is_primary": True,
         "is_official": True,
-        "completeness": "complete",
+        "capture_completeness": "complete",
         "retrieved_at": "2026-08-15",
         "relevance": ["hogwarts", "institutional_history", "pre_1984"],
         "notes": "Originally published on Pottermore.",
@@ -181,6 +181,8 @@ def test_render_snapshot_emits_parseable_metadata_and_body_hash():
     assert 'id: "A16"' in header
     assert 'publication_date: "2015-08-10"' in header
     assert 'original_publisher: "HarryPotter.com"' in header
+    assert 'capture_completeness: "complete"' in header
+    assert "\ncompleteness:" not in header
     assert f'sha256: "{hashlib.sha256(extracted["body"].encode("utf-8")).hexdigest()}"' in header
     assert f'local_path: "{record["local_path"]}"' in header
     assert body == "\n# Peeves\n\nOpening paragraph.\n\nBody paragraph.\n"

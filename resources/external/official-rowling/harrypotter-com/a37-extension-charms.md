@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b443ebb8cc33987ffb9251b1a4e50d0d8f41797e3aab6224353f656aa391584b"
 local_path: "resources/external/official-rowling/harrypotter-com/a37-extension-charms.md"
 relevance:

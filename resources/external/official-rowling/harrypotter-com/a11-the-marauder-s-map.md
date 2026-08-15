@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "de8b2422e0ba01479388d30cb5454765597ea964260b991c8871c18990a7889b"
 local_path: "resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md"
 relevance:

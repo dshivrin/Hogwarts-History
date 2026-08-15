@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "35050ce6bdc7de440d80e672286fad3c880b43e46daae735658fcc75f47b09b7"
 local_path: "resources/external/interviews/accio-quote/b15-barnes-noble-live-chat.md"
 relevance:

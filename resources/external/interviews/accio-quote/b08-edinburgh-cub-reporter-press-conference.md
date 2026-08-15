@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "bee13759c07e929b3b285146ceef5707ef91e8863c96b41e5bc2e29f37828101"
 local_path: "resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md"
 relevance:

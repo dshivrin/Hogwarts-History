@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b4e7bd4631c6b94a85e153f0796e88583125892098dab9d288b09a13cf49ddef"
 local_path: "resources/external/official-rowling/harrypotter-com/a17-pensieve.md"
 relevance:

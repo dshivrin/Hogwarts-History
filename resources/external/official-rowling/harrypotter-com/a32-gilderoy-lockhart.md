@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "02cd19499a8625e85b57e14ec718bc2913a3c27bfe9ea563787d78f8817eb109"
 local_path: "resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md"
 relevance:

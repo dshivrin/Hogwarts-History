@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "ee28221765aa951dac9ea33a8fbecda1be1dee74a2956764255ccfaeaece5076"
 local_path: "resources/external/official-rowling/harrypotter-com/a21-toads.md"
 relevance:

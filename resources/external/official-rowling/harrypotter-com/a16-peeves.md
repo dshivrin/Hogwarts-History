@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "57a5ca89692a4b1cff0b72fa3addd6ff5c049b4d08b410535e35695e2a4f80db"
 local_path: "resources/external/official-rowling/harrypotter-com/a16-peeves.md"
 relevance:

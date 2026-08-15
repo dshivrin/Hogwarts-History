@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "5426dc06c0d18a0a36d724d7f7fe36e8cfd8784cf634b4cdca511b562e84e4f4"
 local_path: "resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md"
 relevance:

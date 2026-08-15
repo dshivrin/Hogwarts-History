@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "29fc55858d080d2165df9c71c314d567de65cab230eb2d4b22a0dece71b95129"
 local_path: "resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md"
 relevance:

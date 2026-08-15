@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b246f2ba8a725a257261afec12cdc1af4fd95d26b3eb3be5d74e1c171b58f8a2"
 local_path: "resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md"
 relevance:

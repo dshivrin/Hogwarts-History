@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "9290d32a88b4b331da8f75fe81589003a806a03f0f3e32278cd2b203dcf0622b"
 local_path: "resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md"
 relevance:

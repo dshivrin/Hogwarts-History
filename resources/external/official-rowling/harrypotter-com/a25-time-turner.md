@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "878860dd5c1068a649aa40fb1bcaadb28fd1f7442868e739488d44091154d7fb"
 local_path: "resources/external/official-rowling/harrypotter-com/a25-time-turner.md"
 relevance:

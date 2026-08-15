@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "7ce25ebc7d5ac531578e1831a412b6a563575ae9b10263250d3727c3b6cd45df"
 local_path: "resources/external/interviews/accio-quote/b13-salon-interview.md"
 relevance:

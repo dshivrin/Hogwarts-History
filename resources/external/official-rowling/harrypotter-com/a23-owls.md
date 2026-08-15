@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "e0618f3f68668664192ee83b721271d0e8d2679d808b0aca1806ea99acaea4b0"
 local_path: "resources/external/official-rowling/harrypotter-com/a23-owls.md"
 relevance:

@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "44ae54f814c785d192e9e4c262b810554c399056508e27d460a7893dd7cb0964"
 local_path: "resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md"
 relevance:

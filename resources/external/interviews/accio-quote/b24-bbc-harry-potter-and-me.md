@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b5c52ac9f8f93283e65a63073dbcaa6dd650cd11baf25304bb744e633a887ae1"
 local_path: "resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md"
 relevance:

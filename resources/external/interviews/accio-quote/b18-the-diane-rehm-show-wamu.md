@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "ef112a52d01828b4845b87616a0c09b9b2a49f8d18e3a4a08cae378fd2487625"
 local_path: "resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md"
 relevance:

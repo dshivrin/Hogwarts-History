@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "1df3032859380dbef5bddc01975fe75121786aa38ce6ae25a02ce013f285751d"
 local_path: "resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md"
 relevance:

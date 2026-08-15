@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "eef8c48a69512c6cbc723aefca87a005701514fcc33e02f4d5987eb15b635160"
 local_path: "resources/external/interviews/accio-quote/b11-the-herald-interview.md"
 relevance:

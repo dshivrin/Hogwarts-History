@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "ccdd682cbe741813fc42bf60aa6e69b1fd8f7ea9e7c08be4776b98a9fdd2e05f"
 local_path: "resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md"
 relevance:

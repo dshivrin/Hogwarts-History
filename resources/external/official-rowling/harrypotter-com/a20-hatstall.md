@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "d697f2626b2d7a115ae2366dd75a40b88f67e9a9879f697207f72fba88802b9d"
 local_path: "resources/external/official-rowling/harrypotter-com/a20-hatstall.md"
 relevance:

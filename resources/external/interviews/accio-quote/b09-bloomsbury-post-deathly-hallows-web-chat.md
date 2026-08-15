@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "eb995ba1514b8fba606adc585735368de47f2af705e2a1d153eb29d10dab5836"
 local_path: "resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md"
 relevance:

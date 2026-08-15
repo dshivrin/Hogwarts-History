@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b828eb0e5d49d392cac63fa1874c69cdb48155e3fbdc552db3de1c4ffda54a21"
 local_path: "resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md"
 relevance:

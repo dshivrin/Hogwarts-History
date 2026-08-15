@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "065cbdba7e7a26b52890e51a6ac4f2ad2e8590801422e573612142762c12ef59"
 local_path: "resources/external/interviews/accio-quote/b03-aol-live-chat.md"
 relevance:

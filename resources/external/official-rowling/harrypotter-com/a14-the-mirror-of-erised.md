@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "9c01fe7916833093e806e0b41db1117daf51161de9627a5565a493c6d4093c36"
 local_path: "resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md"
 relevance:

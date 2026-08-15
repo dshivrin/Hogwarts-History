@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "9f72466646bac3a581dca61cc3668fb948b2c8608e0a3c24679759f27e9e48e8"
 local_path: "resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md"
 relevance:

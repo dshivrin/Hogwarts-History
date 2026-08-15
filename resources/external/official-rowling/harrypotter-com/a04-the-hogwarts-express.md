@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "f7455c025ae1aa977a1e344b88879d58376ae481f757ed4d3346451790168d06"
 local_path: "resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md"
 relevance:

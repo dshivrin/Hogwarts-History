@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "ccf84ce776d61c3ba740a210d95f09475411b8abe7c84e5805689d7fddc08fb4"
 local_path: "resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md"
 relevance:

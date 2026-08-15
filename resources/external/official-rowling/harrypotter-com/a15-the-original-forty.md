@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "4d3f366b060b1e5a55433d847ba0f58b8d16455f76e69744c2c9d66aa9eed428"
 local_path: "resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md"
 relevance:

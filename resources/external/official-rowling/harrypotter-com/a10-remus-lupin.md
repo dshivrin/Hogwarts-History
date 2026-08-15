@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "079e619f68464d54d9a870de7e021b368213c89538bb50cc76fc3d0a2259f6e6"
 local_path: "resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md"
 relevance:

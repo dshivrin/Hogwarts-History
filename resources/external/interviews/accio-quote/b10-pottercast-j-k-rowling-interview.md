@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b01cb62131342e0889bd9a91c672a3f95760fa595b0275518650f9cce069375d"
 local_path: "resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md"
 relevance:

@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "d187ee22dfb8ed4c0f409b9a0e2c33ccc50c5ed97f26e48ff3bafb2115820339"
 local_path: "resources/external/official-rowling/harrypotter-com/a27-werewolves.md"
 relevance:

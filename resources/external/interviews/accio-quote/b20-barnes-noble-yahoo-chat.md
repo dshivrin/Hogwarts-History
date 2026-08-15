@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "f6e3716390218bc072278d78173da5ba8552629dcc7a29e74e4d35b7993dc69d"
 local_path: "resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md"
 relevance:

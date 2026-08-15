@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "93b8f7c536b449bb8ed35f3dab24307fede43c3e5ea05da07a8a0dd1a685cf9e"
 local_path: "resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md"
 relevance:

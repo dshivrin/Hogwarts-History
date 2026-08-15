@@ -45,7 +45,7 @@
 
 ### Task 1: Preserve the runtime and migrate capture metadata
 
-**Status:** pending
+**Status:** done
 
 **Files:**
 - Create: `docs/instructions/archive/runtime-contract-book-and-companion-extraction-2026-08-15.md`
@@ -123,7 +123,7 @@
 
 ### Task 2: Unify evidence discovery and web-aware rendering
 
-**Status:** pending
+**Status:** in_progress
 
 **Files:**
 - Create: `scripts/source_files.py`

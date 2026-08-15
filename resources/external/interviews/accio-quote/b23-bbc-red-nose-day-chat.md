@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "a52d919fb36c4069efb8e4de05df65b03592e3b97dcf15ee2a89910c30bb2c14"
 local_path: "resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md"
 relevance:

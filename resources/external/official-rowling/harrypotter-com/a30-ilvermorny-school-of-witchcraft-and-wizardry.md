@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b9784ecacd5b36ccc8584f277f74f39e6edb042df70a5b384cf228f855655646"
 local_path: "resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md"
 relevance:

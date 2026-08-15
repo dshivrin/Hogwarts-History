@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "52f4efbdaf1e7642d0e8ab986e75b65c6dd2b1697586b33825a38d8891acab31"
 local_path: "resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md"
 relevance:

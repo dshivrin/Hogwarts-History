@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "771908986278f8a415e7fb98edfc1331cf3ae24f69fa09be91be464174a5044a"
 local_path: "resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md"
 relevance:

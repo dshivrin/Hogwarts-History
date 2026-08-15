@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "8721c6d5559041772121e6530c83a9e7cbd8a5c8014567826316afb499b4f5dd"
 local_path: "resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md"
 relevance:

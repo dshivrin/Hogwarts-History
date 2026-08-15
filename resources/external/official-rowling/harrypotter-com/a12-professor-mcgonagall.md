@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "31f4be270450f6984c9bbf0e03e140bdb4518872dcd9ece9ec59ab0d2381038b"
 local_path: "resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md"
 relevance:

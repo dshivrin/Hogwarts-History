@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "2bc528b6eda3b0b4c02739aa92ffcad877b98ced3183b8d8c0bfdc91ca3e6494"
 local_path: "resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md"
 relevance:

@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "d6c56f27ecfdead7e3dd236d41435ad7583a9f7685d2993ca4332fb69fcb1a95"
 local_path: "resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md"
 relevance:

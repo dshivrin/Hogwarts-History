@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "b4df868f75bf153308ffb09620696e94db9b8ea0215e4cc1c4136c1a7cf3ddfe"
 local_path: "resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md"
 relevance:

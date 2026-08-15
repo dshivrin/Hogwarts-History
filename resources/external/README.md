@@ -12,6 +12,8 @@ This directory contains a private research corpus built from the acquisition con
 
 Each Markdown snapshot starts with YAML metadata. Its `sha256` is the SHA-256 digest of the normalized source body below the snapshot heading, not of the complete file containing the hash.
 
+`capture_completeness: complete` means the snapshot contains all readable content exposed by the retrieval carrier. It does not mean evidence extraction, corpus discovery, or primary-carrier verification is complete.
+
 The interview files preserve Accio Quote as the retrieval carrier while leaving `original_url` null unless a verified original carrier has been acquired. Their original outlet is recorded separately, and their authority remains `D`; they must not be counted as independent corroboration of a duplicate publisher transcript.
 
 ## Rebuild

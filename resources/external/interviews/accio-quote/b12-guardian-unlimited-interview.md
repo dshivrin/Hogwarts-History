@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "4dc0385c15fc05c7f37600c1e88e14843d5fc1006c7f49c7c80f55f644b3a364"
 local_path: "resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md"
 relevance:

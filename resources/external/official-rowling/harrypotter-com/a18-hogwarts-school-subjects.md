@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "d2d664935a5f77bc259084808783b75d5f7160bacf16b2aefa10229b32c038d9"
 local_path: "resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md"
 relevance:

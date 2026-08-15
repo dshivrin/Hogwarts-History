@@ -229,7 +229,7 @@ def render_snapshot(record: dict[str, Any], extracted: dict[str, Any]) -> str:
         "carrier_type": record.get("carrier_type"),
         "is_primary": record["is_primary"],
         "is_official": record["is_official"],
-        "completeness": record["completeness"],
+        "capture_completeness": record["capture_completeness"],
         "sha256": sha256,
         "local_path": record["local_path"],
         "relevance": record["relevance"],
@@ -298,7 +298,7 @@ def _manifest_yaml(records: list[dict[str, Any]], retrieved_at: str) -> str:
         "carrier_type",
         "is_primary",
         "is_official",
-        "completeness",
+        "capture_completeness",
         "sha256",
         "local_path",
         "relevance",
@@ -368,7 +368,7 @@ def build_corpus(
                 "is_primary": is_official,
                 "is_official": is_official,
                 "carrier_type": "original" if is_official else "preservation_transcript",
-                "completeness": "complete",
+                "capture_completeness": "complete",
                 "retrieved_at": retrieved_at,
                 "relevance": (
                     ["hogwarts", "rowling_original", "institutional_history"]

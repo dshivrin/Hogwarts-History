@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "preservation_transcript"
 is_primary: false
 is_official: false
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "0b08d9fcd873df7374d70644dd57246f55adf64abad38f7f67ee76aeece1cc8c"
 local_path: "resources/external/interviews/accio-quote/b21-raincoast-books-interview.md"
 relevance:

@@ -40,6 +40,7 @@ Of those supplementary entries, 38 public A/B sources were acquired in this pass
 - 37 records are authority A and 26 are authority D.
 - Every manifest local path exists and points to UTF-8 Markdown.
 - Every snapshot has populated provenance fields, a non-empty body, and a matching SHA-256 body digest.
+- Every manifest record and snapshot uses `capture_completeness`; `complete` means all readable content exposed by that retrieval carrier was captured, not that evidence processing or source discovery is finished.
 - The official extractor reads only the first-party article payload; the transcript extractor reads only the Accio `#content` container rather than site navigation or footer chrome.
 - Focused acquisition tests cover catalog parsing, missing URL overrides, duplicate IDs, official extraction, transcript extraction, provenance rendering, corpus writes, and the catalog CLI.
 

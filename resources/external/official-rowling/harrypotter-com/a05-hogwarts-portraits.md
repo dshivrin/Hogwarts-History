@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "02369fc46d7b517bfb8c5c7aef601e5f6cc4ed5ae146b17f9ad5d1e5a185840d"
 local_path: "resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md"
 relevance:

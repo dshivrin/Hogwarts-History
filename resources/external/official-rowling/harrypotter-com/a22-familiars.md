@@ -14,7 +14,7 @@ archive_url: null
 carrier_type: "original"
 is_primary: true
 is_official: true
-completeness: "complete"
+capture_completeness: "complete"
 sha256: "d13c3dd490e046b5dc6b72cd254d9371a60c0845e1fa41235017db33d44cca81"
 local_path: "resources/external/official-rowling/harrypotter-com/a22-familiars.md"
 relevance:
