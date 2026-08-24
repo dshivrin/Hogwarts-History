@@ -409,6 +409,7 @@ tags:
     - dh-ch35-005
     - dh-ch35-006
     - ext-a27-004
+    - ext-b26-001
     - ps-ch01-001
     - ps-ch01-002
     - ps-ch01-003
@@ -428,6 +429,7 @@ tags:
     - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
     - sources/book-qtta/chapter-00-front-matter.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
   alchemical-names:
     entries:
@@ -1112,8 +1114,10 @@ tags:
   author-commentary:
     entries:
     - ext-b14-003
+    - ext-b26-002
     output_yaml:
     - sources/external/interviews/b14-barnes-noble-interview.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   authorial-commentary:
     entries:
     - ext-b12-001
@@ -1911,13 +1915,17 @@ tags:
   book-seven:
     entries:
     - ext-b25-003
+    - ext-b26-002
     output_yaml:
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   book-six:
     entries:
     - ext-b25-003
+    - ext-b26-002
     output_yaml:
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   booklists:
     entries:
     - hbp-ch06-001
@@ -5922,10 +5930,12 @@ tags:
   dumbledore-death:
     entries:
     - beedle-fm-005
+    - ext-b26-002
     - hbp-ch27-007
     output_yaml:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   dumbledore-family:
     entries:
     - dh-ch02-004
@@ -10808,11 +10818,13 @@ tags:
     entries:
     - ext-b04-003
     - ext-b18-003
+    - ext-b26-001
     - hbp-ch13-003
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
     - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   hogwarts-age:
     entries:
     - dh-ch23-001
@@ -12456,11 +12468,13 @@ tags:
     - ext-a19-001
     - ext-a20-001
     - ext-a30-002
+    - ext-b26-001
     - hbp-ch29-006
     - ootp-ch22-006
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
@@ -18480,11 +18494,13 @@ tags:
     entries:
     - ext-b24-002
     - ext-b25-003
+    - ext-b26-002
     - qtta-ch09-007
     output_yaml:
     - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
     - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   post-battle:
     entries:
     - dh-ch36-005
@@ -19344,6 +19360,11 @@ tags:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/external/official-rowling/a33-sybill-trelawney.yaml
+  prospective-pupils:
+    entries:
+    - ext-b26-001
+    output_yaml:
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   protean-charm:
     entries:
     - ootp-ch19-001
@@ -20934,6 +20955,11 @@ tags:
     - ext-a13-002
     output_yaml:
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
+  school-enrollment:
+    entries:
+    - ext-b26-001
+    output_yaml:
+    - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   school-entertainment:
     entries:
     - beedle-ch02-001

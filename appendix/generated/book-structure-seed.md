@@ -418,6 +418,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Editorial Exclusions
 
 - Post-1984 Harry-Era Narrative
+  - Dumbledore's death confirmation
   - Late-series continuity commentary
 
 ## Editorial apparatus
@@ -1633,6 +1634,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gryffindor prefects
 - Houses, Sorting, and Student Identity
   - Elemental House Associations
+- Institutional History and Governance
+  - Admissions and student notification
 - School Life and Daily Rhythms
   - Boarding residence and after-hours life
 - School Staff and Residents

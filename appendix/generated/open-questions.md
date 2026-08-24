@@ -469,6 +469,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b25-001` (None): Accio Quote is a non-primary preservation transcription; this is retrospective authorial explanation, not an independent in-universe record or a dated institutional rule.
 - `ext-b25-002` (None): Accio Quote is a non-primary preservation transcription; the statement is authorial characterization made during an audiobook discussion and supplies no in-universe date or biographical detail.
 - `ext-b25-003` (None): Accio Quote is a non-primary preservation transcription; this is publication-era commentary about planned fiction, not an in-universe historical record.
+- `ext-b26-001` (None): Accio Quote is a non-primary preservation transcription. The speaker describes a published flashback rather than an independent institutional record, does not name the pupil, and does not establish a general procedure.
+- `ext-b26-002` (None): Accio Quote is a non-primary preservation transcription; this is authorial event-era commentary about the later novels, not an in-universe historical record and is outside the pre-1984 scope.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.

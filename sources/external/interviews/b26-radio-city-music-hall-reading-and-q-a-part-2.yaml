@@ -1,0 +1,145 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B26
+  source_file: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+  title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: Radio City Music Hall event
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '2 August 2006'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: 19d552cd3b9a72781e79ddd28af4e47d798dfeee145438989ecbb7102bd5be63
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; one bounded pre-1984 candidate and one explicitly excluded later-series note extracted.
+
+entries:
+  - id: ext-b26-001
+    source_file: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+    source_id: B26
+    source_url: https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html
+    source_section: Rowling reading introduction
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: This concerns a part of the story where Harry goes back in time
+      end_phrase: that he has a place at the school
+      local_occurrence_note: Rowling's introduction immediately before her Half-Blood Prince reading, about 40% through the transcript.
+    nearby_context: Rowling introduces a flashback in which a younger Albus Dumbledore tells a famous future pupil that Hogwarts has offered him a place.
+    match_terms:
+      - hogwarts
+      - albus dumbledore
+      - pupil admission
+      - school place
+    quote_excerpt_short: goes to inform another famous pupil that he has a place at the school.
+    source_note: Rowling describes a past scene in which a younger Dumbledore personally informs a pupil of a Hogwarts place, indicating direct admission notification in that pre-1984 episode.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - hogwarts-admissions
+      - institutional-history
+      - prospective-pupils
+      - school-enrollment
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Institutional History and Governance
+    candidate_section: Admissions and student notification
+    reason_for_placement: The passage offers limited authorial confirmation of a pre-1984 admission encounter involving a Hogwarts representative and a prospective pupil.
+    relevance_to_hogwarts_a_history: Use only as attributed support for a single historical admission episode; it does not establish a general admissions policy, dates, or the pupil's identity.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned entries mention Dumbledore in unrelated staff, archive, governance, or student-history claims rather than this admission-notification episode.
+      audit:
+        query_tags:
+          - albus-dumbledore
+          - hogwarts-admissions
+          - institutional-history
+          - prospective-pupils
+          - school-enrollment
+        candidates:
+          - id: beedle-ch02-002
+            disposition: distinct
+          - id: beedle-ch02-006
+            disposition: distinct
+          - id: beedle-ch02-008
+            disposition: distinct
+          - id: beedle-ch02-009
+            disposition: distinct
+          - id: beedle-ch03-001
+            disposition: distinct
+          - id: beedle-ch05-001
+            disposition: distinct
+          - id: beedle-fm-001
+            disposition: distinct
+          - id: beedle-fm-004
+            disposition: distinct
+          - id: beedle-fm-005
+            disposition: distinct
+          - id: dh-ch02-001
+            disposition: distinct
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription. The speaker describes a published flashback rather than an independent institutional record, does not name the pupil, and does not establish a general procedure.
+
+  - id: ext-b26-002
+    source_file: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+    source_id: B26
+    source_url: https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html
+    source_section: Audience Q&A
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Well, Salman, your opinion, I would say is
+      end_phrase: Dumbledore is definitely ... dead
+      local_occurrence_note: Rowling's answer to Salman and Milan Rushdie's question about Dumbledore and Snape, shortly after the reading.
+    nearby_context: Asked whether Dumbledore's apparent death was a ruse, Rowling explicitly rejects that interpretation while discussing the then-unpublished seventh book.
+    match_terms:
+      - dumbledore death
+      - book six
+      - book seven
+      - author commentary
+    quote_excerpt_short: Dumbledore is definitely ... dead.
+    source_note: Rowling explicitly confirms Dumbledore's death while answering a question about the Book Six ending and the forthcoming seventh book.
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - book-six
+      - book-seven
+      - dumbledore-death
+      - post-1984
+      - author-commentary
+    candidate_part: Editorial Exclusions
+    candidate_chapter: Post-1984 Harry-Era Narrative
+    candidate_section: Dumbledore's death confirmation
+    reason_for_placement: This is direct authorial confirmation of a later Harry-era event, retained only so its exclusion from the pre-1984 history is auditable.
+    relevance_to_hogwarts_a_history: Do not use in the original pre-1984 history; retain solely as an attributed exclusion note concerning later-series narrative.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - beedle-fm-005
+        - hbp-ch27-007
+      notes: The Book Six and Beedle entries already record Dumbledore's death; B25 concerns late-series continuity but not this specific confirmation.
+      audit:
+        query_tags:
+          - book-seven
+          - book-six
+          - dumbledore-death
+        candidates:
+          - id: ext-b25-003
+            disposition: distinct
+          - id: beedle-fm-005
+            disposition: duplicate
+          - id: hbp-ch27-007
+            disposition: duplicate
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription; this is authorial event-era commentary about the later novels, not an in-universe historical record and is outside the pre-1984 scope.

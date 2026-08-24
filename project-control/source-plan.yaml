@@ -2433,14 +2433,19 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
     manifest_id: external-B26
     output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:34:12Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:29:22Z'
+      agent: source-agent-b26
+    - event: completed
+      at: '2026-08-24T05:34:12Z'
     staging_file: work/external-staging/b26.yaml

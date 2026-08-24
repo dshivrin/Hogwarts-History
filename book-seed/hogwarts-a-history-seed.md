@@ -13614,6 +13614,18 @@ Summary: The available evidence includes 1 source item, led by: Rowling says her
 
 ### Chapter: Post-1984 Harry-Era Narrative
 
+#### Section: Dumbledore's death confirmation
+
+Summary: The available evidence includes 1 source item, led by: Rowling explicitly confirms Dumbledore's death while answering a question about the Book Six ending and the forthcoming seventh book.
+
+- **Corroboration:** Rowling explicitly confirms Dumbledore's death while answering a question about the Book Six ending and the forthcoming seventh book.
+  - Quote: "Dumbledore is definitely ... dead."
+  - Source: B26, https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html, `sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: low
+  - Reference type: cross_reference_candidate
+  - Corroborates: `beedle-fm-005`, `hbp-ch27-007`. The Book Six and Beedle entries already record Dumbledore's death; B25 concerns late-series continuity but not this specific confirmation.
+  - Notes: Accio Quote is a non-primary preservation transcription; this is authorial event-era commentary about the later novels, not an in-universe historical record and is outside the pre-1984 scope.
+
 #### Section: Late-series continuity commentary
 
 Summary: The available evidence includes 1 source item, led by: Rowling describes Books Six and Seven as a continuous late-series plot rather than a self-contained adventure.
@@ -16955,6 +16967,19 @@ Summary: The available evidence includes 1 source item, led by: Rowling assigns 
   - Reference type: house_system
   - Corroborates: `ext-a26-003`. The official Rowling colours article records the same four elemental House associations; the other ranked records concern different House-system evidence.
   - Notes: Authority D preservation transcription of an informal author explanation; it supplies no in-universe date, origin, or formal institutional rationale.
+
+### Chapter: Institutional History and Governance
+
+#### Section: Admissions and student notification
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes a past scene in which a younger Dumbledore personally informs a pupil of a Hogwarts place, indicating direct admission notification in that pre-1984 episode.
+
+- **Supporting evidence:** Rowling describes a past scene in which a younger Dumbledore personally informs a pupil of a Hogwarts place, indicating direct admission notification in that pre-1984 episode.
+  - Quote: "goes to inform another famous pupil that he has a place at the school."
+  - Source: B26, https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html, `sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: institutional_custom
+  - Notes: Accio Quote is a non-primary preservation transcription. The speaker describes a published flashback rather than an independent institutional record, does not name the pupil, and does not establish a general procedure.
 
 ### Chapter: School Life and Daily Rhythms
 

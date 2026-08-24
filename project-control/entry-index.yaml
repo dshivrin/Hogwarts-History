@@ -21807,6 +21807,32 @@ by_entry:
     - post-1984
     source_unit: B25
     output_yaml: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  ext-b26-001:
+    title: 'Institutional History and Governance: Admissions and student notification'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: low
+    tags:
+    - albus-dumbledore
+    - hogwarts-admissions
+    - institutional-history
+    - prospective-pupils
+    - school-enrollment
+    source_unit: B26
+    output_yaml: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
+  ext-b26-002:
+    title: 'Post-1984 Harry-Era Narrative: Dumbledore''s death confirmation'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: low
+    tags:
+    - author-commentary
+    - book-seven
+    - book-six
+    - dumbledore-death
+    - post-1984
+    source_unit: B26
+    output_yaml: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -24056,6 +24082,7 @@ by_tag:
   - dh-ch35-005
   - dh-ch35-006
   - ext-a27-004
+  - ext-b26-001
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
@@ -24375,6 +24402,7 @@ by_tag:
   - ootp-ch36-007
   author-commentary:
   - ext-b14-003
+  - ext-b26-002
   authorial-commentary:
   - ext-b12-001
   - ext-b12-002
@@ -24766,8 +24794,10 @@ by_tag:
   - qtta-fm-005
   book-seven:
   - ext-b25-003
+  - ext-b26-002
   book-six:
   - ext-b25-003
+  - ext-b26-002
   booklists:
   - hbp-ch06-001
   - poa-ch01-005
@@ -26690,6 +26720,7 @@ by_tag:
   - dh-ch20-004
   dumbledore-death:
   - beedle-fm-005
+  - ext-b26-002
   - hbp-ch27-007
   dumbledore-family:
   - dh-ch02-004
@@ -29042,6 +29073,7 @@ by_tag:
   hogwarts-admissions:
   - ext-b04-003
   - ext-b18-003
+  - ext-b26-001
   - hbp-ch13-003
   hogwarts-age:
   - dh-ch23-001
@@ -29832,6 +29864,7 @@ by_tag:
   - ext-a19-001
   - ext-a20-001
   - ext-a30-002
+  - ext-b26-001
   - hbp-ch29-006
   - ootp-ch22-006
   institutional-memory:
@@ -32626,6 +32659,7 @@ by_tag:
   post-1984:
   - ext-b24-002
   - ext-b25-003
+  - ext-b26-002
   - qtta-ch09-007
   post-battle:
   - dh-ch36-005
@@ -33043,6 +33077,8 @@ by_tag:
   - ootp-ch37-007
   - ootp-ch38-003
   - poa-ch16-005
+  prospective-pupils:
+  - ext-b26-001
   protean-charm:
   - ootp-ch19-001
   protective-amulets:
@@ -33787,6 +33823,8 @@ by_tag:
   - cos-ch10-006
   school-employment:
   - ext-a13-002
+  school-enrollment:
+  - ext-b26-001
   school-entertainment:
   - beedle-ch02-001
   - beedle-ch02-002
