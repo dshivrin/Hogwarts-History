@@ -2287,16 +2287,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
     manifest_id: external-B20
     output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:15:43Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:10:04Z'
+      agent: source-agent-b20
+    - event: completed
+      at: '2026-08-24T05:15:43Z'
     staging_file: work/external-staging/b20.yaml
   - id: B21
     title: Raincoast Books interview transcript, Raincoast Books (Canada), March 2001.
@@ -2306,16 +2311,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b21-raincoast-books-interview.md
     manifest_id: external-B21
     output_file: sources/external/interviews/b21-raincoast-books-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:17:20Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:10:05Z'
+      agent: source-agent-b21
+    - event: completed
+      at: '2026-08-24T05:17:20Z'
     staging_file: work/external-staging/b21.yaml
   - id: B22
     title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
@@ -2325,16 +2335,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
     manifest_id: external-B22
     output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:18:54Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:10:05Z'
+      agent: source-agent-b22
+    - event: completed
+      at: '2026-08-24T05:18:54Z'
     staging_file: work/external-staging/b22.yaml
   - id: B23
     title: Red Nose Day Chat, BBC Online , March 12, 2001

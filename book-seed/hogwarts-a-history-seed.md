@@ -139,6 +139,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Reference type: direct_observed_setting
   - Notes: The dragon incident is not a normal school practice and should not be generalized into standard Hogwarts creature management.
 
+#### Section: Dangerous Creatures and Forest Placement
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Fluffy was released into the forest under a generalizing comment about dangerous things at Hogwarts, but the stated disposition follows the 1991–92 story.
+
+- **Context:** Rowling says Fluffy was released into the forest under a generalizing comment about dangerous things at Hogwarts, but the stated disposition follows the 1991–92 story.
+  - Quote: "anything that's dangerous ends up in the forest"
+  - Source: B22, https://www.accio-quote.org/articles/2001/0301-bluepeter.htm, `sources/external/interviews/b22-bbc-blue-peter-interview.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: low
+  - Reference type: security_or_protection
+  - Notes: Authority-D preservation transcription; the interview gives no formal policy or date, and the expressly referenced Fluffy event belongs after the pre-1984 scope.
+
 #### Section: Forbidden Forest Paths and Supervised Searches
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives concrete Forbidden Forest geography and a supervised search protocol using paths, student groups, Fang, and colored wand sparks.
@@ -6722,6 +6733,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter reve
   - Reference type: security_or_protection
   - Notes: The chapter has not yet explained Figg's formal status, who organized the watch, or why Mundungus left his post.
 
+#### Section: Mrs Figg's Identity and Later Role
+
+Summary: The available evidence includes 1 source item, led by: Rowling confirms that Arabella Figg and the first book's Mrs Figg are the same person, while deferring her role to the later fifth-book narrative.
+
+- **Context:** Rowling confirms that Arabella Figg and the first book's Mrs Figg are the same person, while deferring her role to the later fifth-book narrative.
+  - Quote: "Arabella Figg is Mrs Figg"
+  - Source: B22, https://www.accio-quote.org/articles/2001/0301-bluepeter.htm, `sources/external/interviews/b22-bbc-blue-peter-interview.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: low
+  - Reference type: cross_reference_candidate
+  - Notes: Authority-D preservation transcription; the remark is retrospective author commentary and explicitly points to post-1984, Book Five material rather than pre-1984 institutional history.
+
 #### Section: Squib Observers and Duty Rotas at Little Whinging
 
 Summary: The available evidence includes 1 source item, led by: The chapter expands the Little Whinging watch by identifying Figg as a Squib observer under Dumbledore's orders and Mundungus as the absent duty guard.
@@ -7145,7 +7167,15 @@ Summary: The available evidence includes 1 source item, led by: Harry receives M
 
 #### Section: Origins and Early Development
 
-Summary: The available evidence includes 3 source items, led by: Organized broom games followed the development of controllable turning, speed, and height, creating the technical precondition for Quidditch.
+Summary: The available evidence includes 4 source items, led by: The interview places Quidditch's origin at unplottable Queerditch Marsh in the eleventh century and describes its evolution from a crude broomstick game.
+
+- **Corroboration:** The interview places Quidditch's origin at unplottable Queerditch Marsh in the eleventh century and describes its evolution from a crude broomstick game.
+  - Quote: "Quidditch started in the 11 th century, at a place called Queerditch Marsh."
+  - Source: B21, https://www.accio-quote.org/articles/2001/0301-raincoast-interview.html, `sources/external/interviews/b21-raincoast-books-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `qtta-ch03-001`. The Queerditch Marsh origin is the same historical claim as qtta-ch03-001; other ranked Quidditch-history entries provide context or different claims.
+  - Notes: This is a 2001 preservation transcription of an interview, not a contemporaneous historical document; later-material answers in the interview were excluded.
 
 - **Supporting evidence:** Organized broom games followed the development of controllable turning, speed, and height, creating the technical precondition for Quidditch.
   - Quote: "Broom sports emerged almost as soon as broomsticks were sufficiently advanced"
@@ -14134,6 +14164,22 @@ Summary: The available evidence includes 1 source item, led by: Incorrect barrel
   - Reference type: security_or_protection
   - Notes: This source describes the stated deterrent outcome but does not show its effectiveness in an observed incident.
 
+## Part: Hogwarts Crises and Institutional Memory
+
+### Chapter: The First Known Chamber Opening
+
+#### Section: Riddle's False Accusation of Hagrid
+
+Summary: The available evidence includes 1 source item, led by: Rowling confirms that Riddle's accusation against Hagrid in the earlier Chamber incident was false rather than evidence that Hagrid raised werewolves.
+
+- **Corroboration:** Rowling confirms that Riddle's accusation against Hagrid in the earlier Chamber incident was false rather than evidence that Hagrid raised werewolves.
+  - Quote: "Riddle was telling lies about Hagrid, just slandering him"
+  - Source: B20, https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html, `sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch15-006`, `hbp-ch17-005`. Two indexed entries state the same false-culprit conclusion; the other results provide related episode context or aftermath.
+  - Notes: The statement is retrospective author commentary preserved by Accio Quote; it does not independently document the full earlier incident.
+
 ## Part: Hogwarts Curriculum and Instruction
 
 ### Chapter: Academic Progression and Examinations
@@ -14288,6 +14334,34 @@ Summary: The available evidence includes 1 source item, led by: Kettleburn cause
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: This is a retrospective official account; it does not independently date the performance or quantify its damage.
+
+## Part: Hogwarts People and Institutions
+
+### Chapter: House Governance and Staff
+
+#### Section: Ravenclaw Head of House
+
+Summary: The available evidence includes 1 source item, led by: Rowling identifies Professor Flitwick as Ravenclaw's Head of House in a statement framed as current school staffing.
+
+- **Context:** Rowling identifies Professor Flitwick as Ravenclaw's Head of House in a statement framed as current school staffing.
+  - Quote: "the head of Ravenclaw is good old Professor Flitwick!"
+  - Source: B20, https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html, `sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: medium
+  - Reference type: house_system
+  - Notes: A preservation transcript supplies a present-tense staffing statement but no appointment chronology; it is retained only as post-1984 excluded context.
+
+### Chapter: Students, Staff, and House Histories
+
+#### Section: Rubeus Hagrid's Gryffindor Education
+
+Summary: The available evidence includes 1 source item, led by: Rowling identifies Hagrid as a former Gryffindor, adding a concise historical House affiliation for his earlier Hogwarts education.
+
+- **Supporting evidence:** Rowling identifies Hagrid as a former Gryffindor, adding a concise historical House affiliation for his earlier Hogwarts education.
+  - Quote: "Hagrid was in Gryffindor, naturally!"
+  - Source: B20, https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html, `sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: house_system
+  - Notes: A preservation transcript records author commentary; it gives no date or corroborating account of Hagrid's enrollment.
 
 ## Part: Hogwarts Staff and Governance
 
@@ -17461,7 +17535,7 @@ Summary: The available evidence includes 1 source item, led by: As a student, Lo
 
 #### Section: Quidditch and School Culture
 
-Summary: The available evidence includes 1 source item, led by: Rowling says her premise for Quidditch was that Hogwarts wizards had long lived inconspicuously alongside humans, so a contemporary spectator sport would draw notice; she therefore made Quidditch a separate flying school sport.
+Summary: The available evidence includes 2 source items, led by: Rowling says her premise for Quidditch was that Hogwarts wizards had long lived inconspicuously alongside humans, so a contemporary spectator sport would draw notice; she therefore made Quidditch a separate flying school sport.
 
 - **Supporting evidence:** Rowling says her premise for Quidditch was that Hogwarts wizards had long lived inconspicuously alongside humans, so a contemporary spectator sport would draw notice; she therefore made Quidditch a separate flying school sport.
   - Quote: "these wizards at Hogwarts had been living for hundreds and hundreds of years in a submerged society"
@@ -17469,6 +17543,13 @@ Summary: The available evidence includes 1 source item, led by: Rowling says her
   - Classification: pre_1984_historical_candidate | Confidence: low
   - Reference type: historical_claim
   - Notes: Authority-D preservation transcription rather than the original outlet; the answer is retrospective authorial design commentary, has no precise in-universe date, and does not independently establish Hogwarts history or continuity.
+
+- **Supporting evidence:** Rowling calls Quidditch wholly invented and says she wanted a game with more than one ball in play, a qualified authorial rationale for its distinctive structure.
+  - Quote: "Completely new. ... I just made it up."
+  - Source: B22, https://www.accio-quote.org/articles/2001/0301-bluepeter.htm, `sources/external/interviews/b22-bbc-blue-peter-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: historical_claim
+  - Notes: Authority-D preservation transcription rather than the original broadcast; this is retrospective author commentary with no precise in-universe date and cannot independently establish Quidditch history.
 
 ### Chapter: The Four Houses
 

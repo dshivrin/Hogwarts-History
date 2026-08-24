@@ -571,6 +571,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hufflepuff Entrance Mechanism
   - Hufflepuff Entrance Security
 
+## Hogwarts Crises and Institutional Memory
+
+- The First Known Chamber Opening
+  - Riddle's False Accusation of Hagrid
+
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
@@ -608,6 +613,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - School Gatherings and Performances
   - The Fountain of Fair Fortune Pantomime
+
+## Hogwarts People and Institutions
+
+- House Governance and Staff
+  - Ravenclaw Head of House
+- Students, Staff, and House Histories
+  - Rubeus Hagrid's Gryffindor Education
 
 ## Hogwarts Staff and Governance
 
@@ -1964,6 +1976,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Dumbledore's Howler and the Privet Drive Residence Requirement
   - Identity Verification After Impersonation
   - Little Whinging Watch and Guard Failure
+  - Mrs Figg's Identity and Later Role
   - Squib Observers and Duty Rotas at Little Whinging
 - Staff Expertise and Magical Surveillance
   - Moody's Dark Detectors in the Classroom Office
@@ -2431,6 +2444,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Room of Requirement as a wartime refuge
   - Variable exits and resealing walls
 - The Grounds and Edge of the Forest
+  - Dangerous Creatures and Forest Placement
   - Forbidden Forest Paths and Supervised Searches
   - Forbidden Forest Paths and Warnings
   - Hagrid's Grounds Duties

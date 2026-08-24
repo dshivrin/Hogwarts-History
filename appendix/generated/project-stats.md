@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 273
+- Total: 276
 
 ## Entries by Book or External Source
 
@@ -68,6 +68,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B17 — Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR Radio), 12 October, 1999: 2
 - B18 — J.K. Rowling on The Diane Rehm Show, WAMU Radio Washington, D.C. , October 20, 1999 (re-broadcast December 24, 1999): 3
 - B19 — "World Exclusive Interview with J K Rowling," South West News Service , 8 July 2000: 2
+- B20 — Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20 October, 2000: 3
+- B21 — Raincoast Books interview transcript, Raincoast Books (Canada), March 2001.: 1
+- B22 — Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001: 3
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -83,24 +86,24 @@ Source data: sources YAML + project-control indexes + structured source data.
 - harry_era_confirmation: 548
 - later_editorial_note: 699
 - original_book_core_candidate: 13
-- post_1984_excluded_from_original: 34
-- pre_1984_historical_candidate: 289
+- post_1984_excluded_from_original: 37
+- pre_1984_historical_candidate: 293
 - unknown_or_uncertain: 22
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 107
+- cross_reference_candidate: 108
 - curriculum_or_subject: 170
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 310
-- house_system: 40
+- historical_claim: 313
+- house_system: 42
 - institutional_custom: 220
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
 - school_rule_or_policy: 162
-- security_or_protection: 246
+- security_or_protection: 247
 - weak_context_only: 9
 
 ## Explicit `Hogwarts: A History` References
@@ -109,12 +112,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1035
+- Total: 1037
 
 ## Latest Processed Unit
 
-- `B19` — "World Exclusive Interview with J K Rowling," South West News Service , 8 July 2000, input `resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md`, output `sources/external/interviews/b19-south-west-news-service-interview.yaml`
+- `B22` — Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001, input `resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md`, output `sources/external/interviews/b22-bbc-blue-peter-interview.yaml`
 
 ## Next Pending Unit
 
-- `B20` — Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20 October, 2000, input `resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md`, output `sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml`
+- `B23` — Red Nose Day Chat, BBC Online , March 12, 2001, input `resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md`, output `sources/external/interviews/b23-bbc-red-nose-day-chat.yaml`

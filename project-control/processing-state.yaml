@@ -14,14 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B20
-  title: Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20
-    October, 2000
+  id: B23
+  title: Red Nose Day Chat, BBC Online , March 12, 2001
   status: pending
-  input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
-  output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
-  staging_file: work/external-staging/b20.yaml
-  manifest_id: external-B20
+  input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+  output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+  staging_file: work/external-staging/b23.yaml
+  manifest_id: external-B23
   claimed_by: null
   claimed_at: null
 indexes:
@@ -61,41 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 7
+    pending: 4
     in_progress: 0
-    done: 56
+    done: 59
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B20
-    title: Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com ,
-      20 October, 2000
+    id: B23
+    title: Red Nose Day Chat, BBC Online , March 12, 2001
     status: pending
-    input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
-    output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
-    staging_file: work/external-staging/b20.yaml
-    manifest_id: external-B20
+    input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+    output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+    staging_file: work/external-staging/b23.yaml
+    manifest_id: external-B23
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B19
-    title: '"World Exclusive Interview with J K Rowling," South West News Service
-      , 8 July 2000'
+    id: B22
+    title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
     status: done
-    input_path: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
-    output_file: sources/external/interviews/b19-south-west-news-service-interview.yaml
-    staging_file: work/external-staging/b19.yaml
-    manifest_id: external-B19
+    input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+    output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+    staging_file: work/external-staging/b22.yaml
+    manifest_id: external-B22
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B19
-  title: '"World Exclusive Interview with J K Rowling," South West News Service ,
-    8 July 2000'
+  id: B22
+  title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
   status: done
-  input_path: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
-  output_file: sources/external/interviews/b19-south-west-news-service-interview.yaml
-  staging_file: work/external-staging/b19.yaml
-  manifest_id: external-B19
+  input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+  output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+  staging_file: work/external-staging/b22.yaml
+  manifest_id: external-B22
   claimed_by: null
   claimed_at: null

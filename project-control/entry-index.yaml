@@ -21629,6 +21629,88 @@ by_entry:
     - school-protection
     source_unit: B19
     output_yaml: sources/external/interviews/b19-south-west-news-service-interview.yaml
+  ext-b20-001:
+    title: 'Students, Staff, and House Histories: Rubeus Hagrid''s Gryffindor Education'
+    classification: pre_1984_historical_candidate
+    reference_type: house_system
+    confidence: medium
+    tags:
+    - gryffindor
+    - hagrid
+    - house-system
+    - pre-harry-history
+    source_unit: B20
+    output_yaml: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+  ext-b20-002:
+    title: 'The First Known Chamber Opening: Riddle''s False Accusation of Hagrid'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - chamber-of-secrets
+    - false-accusation
+    - hagrid
+    - school-history
+    - tom-riddle
+    source_unit: B20
+    output_yaml: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+  ext-b20-003:
+    title: 'House Governance and Staff: Ravenclaw Head of House'
+    classification: post_1984_excluded_from_original
+    reference_type: house_system
+    confidence: medium
+    tags:
+    - flitwick
+    - head-of-house
+    - hogwarts-staff
+    - ravenclaw
+    source_unit: B20
+    output_yaml: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+  ext-b21-001:
+    title: 'The History and Rules of Quidditch: Origins and Early Development'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - eleventh-century
+    - queerditch-marsh
+    - quidditch-history
+    - wizarding-sports
+    source_unit: B21
+    output_yaml: sources/external/interviews/b21-raincoast-books-interview.yaml
+  ext-b22-001:
+    title: 'Student Life and House Identity: Quidditch and School Culture'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - quidditch
+    - rules
+    - sport
+    source_unit: B22
+    output_yaml: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+  ext-b22-002:
+    title: 'The Grounds and Edge of the Forest: Dangerous Creatures and Forest Placement'
+    classification: post_1984_excluded_from_original
+    reference_type: security_or_protection
+    confidence: low
+    tags:
+    - fluffy
+    - forbidden-forest
+    - security
+    source_unit: B22
+    output_yaml: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+  ext-b22-003:
+    title: 'Off-Campus Protection of Students: Mrs Figg''s Identity and Later Role'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: low
+    tags:
+    - arabella-figg
+    - book-five
+    - mrs-figg
+    source_unit: B22
+    output_yaml: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -24058,6 +24140,8 @@ by_tag:
   appeals:
   - poa-ch15-001
   - poa-ch16-002
+  arabella-figg:
+  - ext-b22-003
   aragog:
   - cos-ch15-005
   - cos-ch15-006
@@ -24561,6 +24645,8 @@ by_tag:
   book-circulation:
   - cos-ch09-001
   - dh-ch06-004
+  book-five:
+  - ext-b22-003
   book-of-admittance:
   - ext-a03-001
   - ext-a03-002
@@ -25044,6 +25130,7 @@ by_tag:
   - ext-a01-002
   - ext-a01-003
   - ext-a09-006
+  - ext-b20-002
   - hbp-ch17-005
   - hbp-ch19-002
   - hbp-ch23-006
@@ -26677,6 +26764,8 @@ by_tag:
   - ext-b01-002
   eleventh-birthday:
   - ps-ch03-005
+  eleventh-century:
+  - ext-b21-001
   elf-labour:
   - ext-b10-001
   elixir-of-life:
@@ -26949,6 +27038,8 @@ by_tag:
   fake-wands:
   - gof-ch05-002
   - gof-ch05-004
+  false-accusation:
+  - ext-b20-002
   familiar-lore:
   - ext-a22-001
   familiars:
@@ -27217,6 +27308,7 @@ by_tag:
   - gof-ch17-001
   - gof-ch35-004
   flitwick:
+  - ext-b20-003
   - hbp-ch29-004
   - ootp-ch16-003
   - ootp-ch28-005
@@ -27260,6 +27352,7 @@ by_tag:
   - cos-ch04-006
   - dh-ch08-004
   fluffy:
+  - ext-b22-002
   - ps-ch11-007
   - ps-ch13-006
   - ps-ch14-003
@@ -27308,6 +27401,7 @@ by_tag:
   - dh-ch34-006
   - dh-ch34-007
   - ext-a27-004
+  - ext-b22-002
   - gof-ch04-003
   - gof-ch12-005
   - gof-ch28-005
@@ -27971,6 +28065,7 @@ by_tag:
   - ext-a20-004
   - ext-a20-005
   - ext-b04-005
+  - ext-b20-001
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch15-004
@@ -28096,6 +28191,8 @@ by_tag:
   - dh-ch34-006
   - ext-a13-001
   - ext-b07-003
+  - ext-b20-001
+  - ext-b20-002
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -28330,6 +28427,7 @@ by_tag:
   - poa-ch05-006
   - poa-ch09-002
   head-of-house:
+  - ext-b20-003
   - gof-ch18-002
   - gof-ch36-002
   - hbp-ch05-007
@@ -29055,6 +29153,7 @@ by_tag:
   - ext-a13-001
   - ext-a33-001
   - ext-a33-002
+  - ext-b20-003
   - ps-ch04-001
   hogwarts-student:
   - dh-ch02-001
@@ -29408,6 +29507,7 @@ by_tag:
   - ext-b07-001
   - ext-b07-002
   - ext-b09-005
+  - ext-b20-001
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -31279,6 +31379,7 @@ by_tag:
   - hbp-ch10-002
   - hbp-ch29-005
   mrs-figg:
+  - ext-b22-003
   - ootp-ch01-002
   - ootp-ch02-001
   - ootp-ch08-005
@@ -32522,6 +32623,7 @@ by_tag:
   - ootp-ch13-007
   pre-harry-history:
   - cos-ch15-006
+  - ext-b20-001
   - hbp-ch17-005
   pre-hogwarts-childhood:
   - ps-ch02-002
@@ -32950,6 +33052,7 @@ by_tag:
   qualification:
   - hbp-ch26-005
   queerditch-marsh:
+  - ext-b21-001
   - qtta-ch03-001
   questionnaire:
   - dh-ch13-007
@@ -32973,6 +33076,7 @@ by_tag:
   - ext-b11-002
   - ext-b16-001
   - ext-b18-002
+  - ext-b22-001
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -33047,6 +33151,7 @@ by_tag:
   - qtta-ch05-002
   - qtta-ch07-001
   quidditch-history:
+  - ext-b21-001
   - ps-ch11-002
   - qtta-ch04-001
   - qtta-ch04-002
@@ -33173,6 +33278,7 @@ by_tag:
   - ext-a20-002
   - ext-a20-004
   - ext-a32-001
+  - ext-b20-003
   - gof-ch15-004
   - hbp-ch23-007
   - hbp-ch24-007
@@ -33423,6 +33529,8 @@ by_tag:
   - poa-ch14-006
   - ps-ch12-005
   - ps-ch15-001
+  rules:
+  - ext-b22-001
   rules-of-magic:
   - ext-b14-003
   runes:
@@ -33619,6 +33727,7 @@ by_tag:
   school-history:
   - cos-ch12-007
   - cos-ch18-001
+  - ext-b20-002
   - ootp-ch29-006
   school-identity:
   - dh-ch34-003
@@ -34054,6 +34163,7 @@ by_tag:
   - ext-a07-003
   - ext-b07-005
   - ext-b12-002
+  - ext-b22-002
   - gof-ch15-006
   - hbp-ch26-003
   - ootp-ch07-002
@@ -34585,6 +34695,7 @@ by_tag:
   - hbp-ch22-001
   sport:
   - ext-b16-001
+  - ext-b22-001
   sports-commentary:
   - gof-ch08-004
   sports-security:
@@ -35605,6 +35716,7 @@ by_tag:
   - dh-ch15-002
   - dh-ch26-006
   - dh-ch31-003
+  - ext-b20-002
   - gof-ch01-001
   - hbp-ch13-003
   - hbp-ch13-004
@@ -36627,6 +36739,8 @@ by_tag:
   - gof-ch08-003
   wizarding-sport:
   - gof-ch03-001
+  wizarding-sports:
+  - ext-b21-001
   wizarding-tents:
   - gof-ch07-002
   wizarding-transport:

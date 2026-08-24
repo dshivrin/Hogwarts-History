@@ -5,16 +5,16 @@ Generated display only. Source of truth: `project-control/source-plan.yaml`.
 ## External Source Queue
 
 - Total: 63
-- Pending: 7
+- Pending: 4
 - In progress: 0
-- Done: 56
+- Done: 59
 - Blocked: 0
 
 ## Next Pending Unit
 
-- Unit: `B20` — Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20 October, 2000
-- Input: `resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md`
-- Output: `sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml`
+- Unit: `B23` — Red Nose Day Chat, BBC Online , March 12, 2001
+- Input: `resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md`
+- Output: `sources/external/interviews/b23-bbc-red-nose-day-chat.yaml`
 
 Claim it with `just claim-external <agent> <unit>`.
 
