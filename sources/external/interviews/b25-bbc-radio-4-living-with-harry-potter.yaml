@@ -1,0 +1,195 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B25
+  source_file: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+  title: '"Living with Harry Potter"'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: BBC Radio 4
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '10 December 2005'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2005/1205-bbc-fry.html
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: b4df868f75bf153308ffb09620696e94db9b8ea0215e4cc1c4136c1a7cf3ddfe
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; bounded pre-1984 candidates and one explicitly excluded later-series note extracted.
+
+entries:
+  - id: ext-b25-001
+    source_file: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+    source_id: B25
+    source_url: https://www.accio-quote.org/articles/2005/1205-bbc-fry.html
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: This could not be a day school
+      end_phrase: Muggles didn't come across it all the time.
+      local_occurrence_note: Rowling's answer to Fry's question about Hogwarts as an English boarding-school world, near the start of the transcript.
+    nearby_context: Rowling explains that the plot required children to remain together overnight and that a distant enclosed site limited routine Muggle encounters with magical activity.
+    match_terms:
+      - hogwarts
+      - boarding school
+      - day school
+      - muggles
+    quote_excerpt_short: This could not be a day school.
+    source_note: Rowling says Hogwarts needed to be residential so pupils could remain together overnight and its magical activity could stay out of routine Muggle view.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts
+      - boarding-school
+      - nighttime
+      - muggle-secrecy
+      - authorial-commentary
+    candidate_part: 'Part II: The School'
+    candidate_chapter: School Life and Daily Rhythms
+    candidate_section: Boarding residence and after-hours life
+    reason_for_placement: The statement gives an attributed rationale for the school's residential form and for containing ordinary magical life away from Muggles.
+    relevance_to_hogwarts_a_history: Use as limited authorial commentary compatible with the school’s pre-1984 residential operation; it does not document a dated policy or particular protective mechanism.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-b12-001
+      notes: B12 makes the same authorial boarding-school rationale; the remaining indexed entries concern different school, security, or narrative claims.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - boarding-school
+          - nighttime
+        candidates:
+          - id: ext-b12-001
+            disposition: duplicate
+          - id: ext-b12-002
+            disposition: distinct
+          - id: ext-b12-003
+            disposition: distinct
+          - id: ext-b13-001
+            disposition: distinct
+          - id: ext-b13-002
+            disposition: distinct
+          - id: ext-b13-003
+            disposition: distinct
+          - id: hbp-ch22-003
+            disposition: distinct
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription; this is retrospective authorial explanation, not an independent in-universe record or a dated institutional rule.
+
+  - id: ext-b25-002
+    source_file: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+    source_id: B25
+    source_url: https://www.accio-quote.org/articles/2005/1205-bbc-fry.html
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Because you knew that Hagrid was West Country.
+      end_phrase: Because you knew that Hagrid was West Country.
+      local_occurrence_note: Rowling's response during Fry's discussion of choosing character voices for the audiobook narration.
+    nearby_context: Fry describes choosing a Somerset-like voice for Hagrid; Rowling says Hagrid's West Country identity was the one accent detail she wanted to convey before recording began.
+    match_terms:
+      - hagrid
+      - west country
+      - somerset
+      - audiobook
+    quote_excerpt_short: Hagrid was West Country.
+    source_note: Rowling confirms that Hagrid was conceived as West Country, explaining why she was protective of the regional quality of his audiobook voice.
+    reference_type: cross_reference_candidate
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hagrid
+      - west-country
+      - audiobook
+      - authorial-commentary
+    candidate_part: 'Part II: The School'
+    candidate_chapter: School Staff and Residents
+    candidate_section: Rubeus Hagrid's local identity
+    reason_for_placement: It offers a narrowly bounded authorial characterization for a staff figure with a pre-1984 Hogwarts history.
+    relevance_to_hogwarts_a_history: Use only as attributed character-background commentary in a pre-1984 staff profile; do not infer Hagrid's birthplace, residence, or employment dates from it.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Hagrid entries concern correspondence, discipline, grounds, and wartime events, not his West Country characterization.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - hagrid
+          - west-country
+        candidates:
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch07-005
+            disposition: distinct
+          - id: cos-ch13-005
+            disposition: distinct
+          - id: cos-ch14-005
+            disposition: distinct
+          - id: cos-ch15-004
+            disposition: distinct
+          - id: cos-ch15-005
+            disposition: distinct
+          - id: cos-ch15-006
+            disposition: distinct
+          - id: dh-ch05-003
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch32-003
+            disposition: distinct
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription; the statement is authorial characterization made during an audiobook discussion and supplies no in-universe date or biographical detail.
+
+  - id: ext-b25-003
+    source_file: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+    source_id: B25
+    source_url: https://www.accio-quote.org/articles/2005/1205-bbc-fry.html
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: So much that happens in six relates to what happens in seven.
+      end_phrase: the plot is not over this time and it will continue.
+      local_occurrence_note: Rowling's late-transcript explanation of the planned continuity between the then-unpublished sixth and seventh books.
+    nearby_context: Rowling contrasts the sixth book's ending with the earlier self-contained adventures and says its plot continues into the seventh book.
+    match_terms:
+      - book six
+      - book seven
+      - plot continuity
+      - authorial commentary
+    quote_excerpt_short: So much that happens in six relates to what happens in seven.
+    source_note: Rowling describes Books Six and Seven as a continuous late-series plot rather than a self-contained adventure.
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - book-six
+      - book-seven
+      - plot-structure
+      - post-1984
+      - authorial-commentary
+    candidate_part: Editorial Exclusions
+    candidate_chapter: Post-1984 Harry-Era Narrative
+    candidate_section: Late-series continuity commentary
+    reason_for_placement: This explicitly concerns later Harry-era narrative material and is retained only to make its exclusion from the pre-1984 historical scope auditable.
+    relevance_to_hogwarts_a_history: Do not use in the original pre-1984 history; retain solely as an attributed exclusion note for later-series continuity.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate uses the recorded Book Six, Book Seven, and plot-structure tag combination.
+      audit:
+        query_tags:
+          - book-seven
+          - book-six
+          - plot-structure
+        candidates: []
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription; this is publication-era commentary about planned fiction, not an in-universe historical record.

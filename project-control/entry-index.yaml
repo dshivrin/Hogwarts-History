@@ -21711,6 +21711,102 @@ by_entry:
     - mrs-figg
     source_unit: B22
     output_yaml: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+  ext-b23-001:
+    title: 'Headmasters and School Leadership: Albus Dumbledore: longevity and tenure
+      context'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore
+    - hogwarts-staff
+    - wizard-longevity
+    source_unit: B23
+    output_yaml: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+  ext-b23-002:
+    title: 'Hogwarts and the International Magical World: Other wizarding schools'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - hogwarts
+    - international-magical-education
+    - wizarding-schools
+    source_unit: B23
+    output_yaml: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+  ext-b24-001:
+    title: 'Authorial commentary and source provenance: Platform Nine and Three-Quarters
+      creation note'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - authorial-inspiration
+    - kings-cross-station
+    - platform-nine-and-three-quarters
+    source_unit: B24
+    output_yaml: sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
+  ext-b24-002:
+    title: 'Authorial commentary and source provenance: Dementor creation note'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - authorial-inspiration
+    - dementors
+    - post-1984
+    source_unit: B24
+    output_yaml: sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
+  ext-b24-003:
+    title: 'Authorial commentary and source provenance: Mirror of Erised creation
+      note'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: medium
+    tags:
+    - authorial-inspiration
+    - bereavement
+    - mirror-of-erised
+    source_unit: B24
+    output_yaml: sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
+  ext-b25-001:
+    title: 'School Life and Daily Rhythms: Boarding residence and after-hours life'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: low
+    tags:
+    - authorial-commentary
+    - boarding-school
+    - hogwarts
+    - muggle-secrecy
+    - nighttime
+    source_unit: B25
+    output_yaml: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  ext-b25-002:
+    title: 'School Staff and Residents: Rubeus Hagrid''s local identity'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: low
+    tags:
+    - audiobook
+    - authorial-commentary
+    - hagrid
+    - west-country
+    source_unit: B25
+    output_yaml: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  ext-b25-003:
+    title: 'Post-1984 Harry-Era Narrative: Late-series continuity commentary'
+    classification: post_1984_excluded_from_original
+    reference_type: cross_reference_candidate
+    confidence: low
+    tags:
+    - authorial-commentary
+    - book-seven
+    - book-six
+    - plot-structure
+    - post-1984
+    source_unit: B25
+    output_yaml: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -24242,6 +24338,8 @@ by_tag:
   - ootp-ch36-004
   attendance-policy:
   - ext-b02-002
+  audiobook:
+  - ext-b25-002
   auror:
   - gof-ch19-006
   - hbp-ch05-007
@@ -24284,6 +24382,13 @@ by_tag:
   - ext-b13-001
   - ext-b13-002
   - ext-b13-003
+  - ext-b25-001
+  - ext-b25-002
+  - ext-b25-003
+  authorial-inspiration:
+  - ext-b24-001
+  - ext-b24-002
+  - ext-b24-003
   authorial-note:
   - ext-a18-004
   authorial-notes:
@@ -24500,6 +24605,8 @@ by_tag:
   - ootp-ch25-005
   - ootp-ch36-002
   - ootp-ch36-003
+  bereavement:
+  - ext-b24-003
   bertha-jorkins:
   - gof-ch01-003
   - gof-ch05-003
@@ -24624,6 +24731,7 @@ by_tag:
   - hbp-ch19-002
   boarding-school:
   - ext-b12-001
+  - ext-b25-001
   boats:
   - ext-b10-003
   - ps-ch06-007
@@ -24656,6 +24764,10 @@ by_tag:
   - ext-a03-006
   book-protection:
   - qtta-fm-005
+  book-seven:
+  - ext-b25-003
+  book-six:
+  - ext-b25-003
   booklists:
   - hbp-ch06-001
   - poa-ch01-005
@@ -26037,6 +26149,7 @@ by_tag:
   - dh-ch29-001
   - dh-ch32-004
   - dh-ch34-005
+  - ext-b24-002
   - gof-ch02-006
   - gof-ch14-004
   - gof-ch30-003
@@ -26432,6 +26545,7 @@ by_tag:
   - ext-a35-002
   - ext-b05-001
   - ext-b06-004
+  - ext-b23-001
   - gof-ch02-005
   - gof-ch11-001
   - gof-ch12-006
@@ -28193,6 +28307,7 @@ by_tag:
   - ext-b07-003
   - ext-b20-001
   - ext-b20-002
+  - ext-b25-002
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -28899,6 +29014,8 @@ by_tag:
   - ext-b12-003
   - ext-b16-001
   - ext-b17-002
+  - ext-b23-002
+  - ext-b25-001
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -29154,6 +29271,7 @@ by_tag:
   - ext-a33-001
   - ext-a33-002
   - ext-b20-003
+  - ext-b23-001
   - ps-ch04-001
   hogwarts-student:
   - dh-ch02-001
@@ -29775,6 +29893,8 @@ by_tag:
   - gof-ch37-005
   international-magical-culture:
   - dh-ch08-003
+  international-magical-education:
+  - ext-b23-002
   international-magical-history:
   - dh-ch08-002
   international-quidditch:
@@ -29953,6 +30073,8 @@ by_tag:
   - ootp-ch10-001
   - poa-ch05-001
   - ps-ch06-001
+  kings-cross-station:
+  - ext-b24-001
   kingsley-shacklebolt:
   - dh-ch03-002
   - dh-ch08-007
@@ -31305,6 +31427,7 @@ by_tag:
   - ext-a14-003
   - ext-a14-004
   - ext-a14-005
+  - ext-b24-003
   - ps-ch12-006
   - ps-ch17-002
   - ps-ch17-003
@@ -31529,6 +31652,7 @@ by_tag:
   - ext-a19-002
   - ext-a19-003
   - ext-a24-002
+  - ext-b25-001
   - gof-ch01-002
   - gof-ch02-003
   - gof-ch03-002
@@ -31704,6 +31828,7 @@ by_tag:
   - ps-ch12-005
   nighttime:
   - ext-b12-001
+  - ext-b25-001
   - hbp-ch22-003
   nighttime-prowling:
   - hbp-ch15-007
@@ -32346,6 +32471,7 @@ by_tag:
   - dh-ch33-004
   - ext-a19-002
   - ext-b18-003
+  - ext-b24-001
   - gof-ch11-002
   - hbp-ch07-001
   - ootp-ch10-001
@@ -32365,6 +32491,8 @@ by_tag:
   - poa-ch15-005
   - qtta-ch06-009
   - qtta-ch10-002
+  plot-structure:
+  - ext-b25-003
   plumbing:
   - cos-ch16-007
   - ext-a01-002
@@ -32496,6 +32624,8 @@ by_tag:
   - ootp-ch36-006
   - ootp-ch37-002
   post-1984:
+  - ext-b24-002
+  - ext-b25-003
   - qtta-ch09-007
   post-battle:
   - dh-ch36-005
@@ -36530,6 +36660,8 @@ by_tag:
   - poa-ch18-003
   - poa-ch18-004
   - ps-ch13-004
+  west-country:
+  - ext-b25-002
   west-tower:
   - gof-ch15-001
   - poa-ch21-007
@@ -36610,6 +36742,8 @@ by_tag:
   - ootp-ch05-004
   wizard-law:
   - poa-ch02-003
+  wizard-longevity:
+  - ext-b23-001
   wizard-muggle:
   - ext-a08-003
   wizard-outcasts:
@@ -36727,6 +36861,7 @@ by_tag:
   - ext-a28-003
   - ext-a28-004
   - ext-b19-001
+  - ext-b23-002
   - gof-ch07-003
   - gof-ch09-002
   - gof-ch11-004

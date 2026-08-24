@@ -415,6 +415,18 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Original Forty
   - The Original Forty in the 2005 interview
 
+## Editorial Exclusions
+
+- Post-1984 Harry-Era Narrative
+  - Late-series continuity commentary
+
+## Editorial apparatus
+
+- Authorial commentary and source provenance
+  - Dementor creation note
+  - Mirror of Erised creation note
+  - Platform Nine and Three-Quarters creation note
+
 ## Foundations and Founders
 
 - The Four Founders and Their Legacy
@@ -1517,6 +1529,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Castle, Grounds, and Protective Magic
   - Boundaries and Restricted Access
 
+## Part I: The School in Context
+
+- Hogwarts and the International Magical World
+  - Other wizarding schools
+
 ## Part I: The Wizarding World in Context
 
 - Magical Law, Transport, and Secrecy
@@ -1569,6 +1586,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Minerva McGonagall’s School Years
   - Peter Pettigrew’s School Years
 
+## Part II: People and Governance
+
+- Headmasters and School Leadership
+  - Albus Dumbledore: longevity and tenure context
+
 ## Part II: School Life and Governance
 
 - Admissions and First-Year Preparation
@@ -1613,6 +1635,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Elemental House Associations
 - School Life and Daily Rhythms
   - Boarding residence and after-hours life
+- School Staff and Residents
+  - Rubeus Hagrid's local identity
 - Staff and Teaching
   - Defence Against the Dark Arts appointments
 - Staff, Offices, and Daily Operations

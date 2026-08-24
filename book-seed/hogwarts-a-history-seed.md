@@ -13610,6 +13610,58 @@ Summary: The available evidence includes 1 source item, led by: Rowling says her
   - Corroborates: `ext-a15-001`. ext-a15-001 gives the same core original-forty roster claim from Rowling's later official retrospective; this earlier interview is an additional lower-authority carrier.
   - Notes: This preservation transcription records a 2005 authorial explanation, and Rowling expressly says the forty were not necessarily the entire in-universe year or a reliable school-population figure.
 
+## Part: Editorial Exclusions
+
+### Chapter: Post-1984 Harry-Era Narrative
+
+#### Section: Late-series continuity commentary
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes Books Six and Seven as a continuous late-series plot rather than a self-contained adventure.
+
+- **Context:** Rowling describes Books Six and Seven as a continuous late-series plot rather than a self-contained adventure.
+  - Quote: "So much that happens in six relates to what happens in seven."
+  - Source: B25, https://www.accio-quote.org/articles/2005/1205-bbc-fry.html, `sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: low
+  - Reference type: cross_reference_candidate
+  - Notes: Accio Quote is a non-primary preservation transcription; this is publication-era commentary about planned fiction, not an in-universe historical record.
+
+## Part: Editorial apparatus
+
+### Chapter: Authorial commentary and source provenance
+
+#### Section: Dementor creation note
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes dementors as personified depression and connects their creation to her difficult Edinburgh period.
+
+- **Context:** Rowling describes dementors as personified depression and connects their creation to her difficult Edinburgh period.
+  - Quote: "They are kind of depression personified."
+  - Source: B24, https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm, `sources/external/interviews/b24-bbc-harry-potter-and-me.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The claim is retrospective author commentary in a preservation transcript and has no pre-1984 in-universe date.
+
+#### Section: Mirror of Erised creation note
+
+Summary: The available evidence includes 1 source item, led by: Rowling says her own loss of a parent informed the Mirror of Erised's emotional premise.
+
+- **Context:** Rowling says her own loss of a parent informed the Mirror of Erised's emotional premise.
+  - Quote: "The Mirror of Erised is absolutely entirely drawn from my own experience of losing a parent."
+  - Source: B24, https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm, `sources/external/interviews/b24-bbc-harry-potter-and-me.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: A retrospective preservation transcript records creative inspiration, not independent evidence for the Mirror's in-universe history.
+
+#### Section: Platform Nine and Three-Quarters creation note
+
+Summary: The available evidence includes 1 source item, led by: Rowling says her Platform 9 3/4 visualization mistakenly used Euston's platforms while she was living in Manchester.
+
+- **Context:** Rowling says her Platform 9 3/4 visualization mistakenly used Euston's platforms while she was living in Manchester.
+  - Quote: "I wrongly visualized the platforms, and I was actually thinking of Euston."
+  - Source: B24, https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm, `sources/external/interviews/b24-bbc-harry-potter-and-me.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: A 2001 preservation transcript records retrospective author commentary; it does not establish the in-universe platform's history.
+
 ## Part: Foundations and Founders
 
 ### Chapter: The Four Founders and Their Legacy
@@ -16390,6 +16442,21 @@ Summary: The available evidence includes 1 source item, led by: The historical-t
   - Reference type: security_or_protection
   - Notes: The source asserts the protection's long duration but does not date its original imposition or describe its mechanism.
 
+## Part: Part I: The School in Context
+
+### Chapter: Hogwarts and the International Magical World
+
+#### Section: Other wizarding schools
+
+Summary: The available evidence includes 1 source item, led by: Rowling says that Goblet of Fire had already depicted two other wizarding schools, while declining to plan a separate series about them.
+
+- **Supporting evidence:** Rowling says that Goblet of Fire had already depicted two other wizarding schools, while declining to plan a separate series about them.
+  - Quote: "I've already written about a couple of them, but a whole series, no... I'm loyal to Hogwarts!"
+  - Source: B23, https://www.accio-quote.org/articles/2001/0301-bbc-rednose.htm, `sources/external/interviews/b23-bbc-red-nose-day-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: cross_reference_candidate
+  - Notes: The response identifies neither school and concerns authorial plans; it does not date, describe, or independently establish the schools' histories.
+
 ## Part: Part I: The Wizarding World in Context
 
 ### Chapter: Magical Law, Transport, and Secrecy
@@ -16630,6 +16697,21 @@ Summary: The available evidence includes 1 source item, led by: Peter Pettigrew 
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: house_system
   - Notes: The retrospective gives no exact duration or date for Pettigrew's Sorting and does not independently document the reasons for the two-House deliberation.
+
+## Part: Part II: People and Governance
+
+### Chapter: Headmasters and School Leadership
+
+#### Section: Albus Dumbledore: longevity and tenure context
+
+Summary: The available evidence includes 1 source item, led by: Rowling places Dumbledore at roughly 150 in 2001 and attributes the age to wizards' longer life expectancy than Muggles.
+
+- **Supporting evidence:** Rowling places Dumbledore at roughly 150 in 2001 and attributes the age to wizards' longer life expectancy than Muggles.
+  - Quote: "Dumbledore's about 150 years old... Wizards have a longer life expectancy than us Muggles."
+  - Source: B23, https://www.accio-quote.org/articles/2001/0301-bbc-rednose.htm, `sources/external/interviews/b23-bbc-red-nose-day-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The age is explicitly approximate, and the preservation transcript has authority D rather than primary official status.
 
 ## Part: Part II: School Life and Governance
 
@@ -16878,7 +16960,7 @@ Summary: The available evidence includes 1 source item, led by: Rowling assigns 
 
 #### Section: Boarding residence and after-hours life
 
-Summary: The available evidence includes 1 source item, led by: Rowling presents the boarding-school form as necessary to enable consequential nighttime action in Harry's Hogwarts story.
+Summary: The available evidence includes 2 source items, led by: Rowling presents the boarding-school form as necessary to enable consequential nighttime action in Harry's Hogwarts story.
 
 - **Supporting evidence:** Rowling presents the boarding-school form as necessary to enable consequential nighttime action in Harry's Hogwarts story.
   - Quote: "Hogwarts HAS to be a boarding school - half the important stuff happens at night!"
@@ -16886,6 +16968,27 @@ Summary: The available evidence includes 1 source item, led by: Rowling presents
   - Classification: harry_era_confirmation | Confidence: low
   - Reference type: historical_claim
   - Notes: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; wording and attribution cannot be checked against the original outlet here.
+
+- **Corroboration:** Rowling says Hogwarts needed to be residential so pupils could remain together overnight and its magical activity could stay out of routine Muggle view.
+  - Quote: "This could not be a day school."
+  - Source: B25, https://www.accio-quote.org/articles/2005/1205-bbc-fry.html, `sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: institutional_custom
+  - Corroborates: `ext-b12-001`. B12 makes the same authorial boarding-school rationale; the remaining indexed entries concern different school, security, or narrative claims.
+  - Notes: Accio Quote is a non-primary preservation transcription; this is retrospective authorial explanation, not an independent in-universe record or a dated institutional rule.
+
+### Chapter: School Staff and Residents
+
+#### Section: Rubeus Hagrid's local identity
+
+Summary: The available evidence includes 1 source item, led by: Rowling confirms that Hagrid was conceived as West Country, explaining why she was protective of the regional quality of his audiobook voice.
+
+- **Supporting evidence:** Rowling confirms that Hagrid was conceived as West Country, explaining why she was protective of the regional quality of his audiobook voice.
+  - Quote: "Hagrid was West Country."
+  - Source: B25, https://www.accio-quote.org/articles/2005/1205-bbc-fry.html, `sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: cross_reference_candidate
+  - Notes: Accio Quote is a non-primary preservation transcription; the statement is authorial characterization made during an audiobook discussion and supplies no in-universe date or biographical detail.
 
 ### Chapter: Staff and Teaching
 

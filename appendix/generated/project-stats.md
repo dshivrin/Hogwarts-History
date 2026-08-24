@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 276
+- Total: 279
 
 ## Entries by Book or External Source
 
@@ -71,6 +71,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B20 — Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20 October, 2000: 3
 - B21 — Raincoast Books interview transcript, Raincoast Books (Canada), March 2001.: 1
 - B22 — Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001: 3
+- B23 — Red Nose Day Chat, BBC Online , March 12, 2001: 2
+- B24 — "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001: 3
+- B25 — "Living with Harry Potter": 3
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -83,23 +86,23 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 548
+- harry_era_confirmation: 549
 - later_editorial_note: 699
 - original_book_core_candidate: 13
-- post_1984_excluded_from_original: 37
-- pre_1984_historical_candidate: 293
+- post_1984_excluded_from_original: 41
+- pre_1984_historical_candidate: 296
 - unknown_or_uncertain: 22
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 108
+- cross_reference_candidate: 114
 - curriculum_or_subject: 170
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 313
+- historical_claim: 314
 - house_system: 42
-- institutional_custom: 220
+- institutional_custom: 221
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
 - school_rule_or_policy: 162
@@ -112,12 +115,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1037
+- Total: 1038
 
 ## Latest Processed Unit
 
-- `B22` — Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001, input `resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md`, output `sources/external/interviews/b22-bbc-blue-peter-interview.yaml`
+- `B25` — "Living with Harry Potter", input `resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md`, output `sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml`
 
 ## Next Pending Unit
 
-- `B23` — Red Nose Day Chat, BBC Online , March 12, 2001, input `resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md`, output `sources/external/interviews/b23-bbc-red-nose-day-chat.yaml`
+- `B26` — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006, input `resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md`, output `sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml`

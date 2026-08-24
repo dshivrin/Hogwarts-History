@@ -1031,6 +1031,11 @@ tags:
     - ext-b02-002
     output_yaml:
     - sources/external/interviews/b02-scholastic-live-chat.yaml
+  audiobook:
+    entries:
+    - ext-b25-002
+    output_yaml:
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   auror:
     entries:
     - gof-ch19-006
@@ -1117,9 +1122,20 @@ tags:
     - ext-b13-001
     - ext-b13-002
     - ext-b13-003
+    - ext-b25-001
+    - ext-b25-002
+    - ext-b25-003
     output_yaml:
     - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/interviews/b13-salon-interview.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  authorial-inspiration:
+    entries:
+    - ext-b24-001
+    - ext-b24-002
+    - ext-b24-003
+    output_yaml:
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
   authorial-note:
     entries:
     - ext-a18-004
@@ -1558,6 +1574,11 @@ tags:
     - sources/book-06/chapter-03-will-and-won-t.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+  bereavement:
+    entries:
+    - ext-b24-003
+    output_yaml:
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
   bertha-jorkins:
     entries:
     - gof-ch01-003
@@ -1815,8 +1836,10 @@ tags:
   boarding-school:
     entries:
     - ext-b12-001
+    - ext-b25-001
     output_yaml:
     - sources/external/interviews/b12-guardian-unlimited-interview.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   boats:
     entries:
     - ext-b10-003
@@ -1885,6 +1908,16 @@ tags:
     - qtta-fm-005
     output_yaml:
     - sources/book-qtta/chapter-00-front-matter.yaml
+  book-seven:
+    entries:
+    - ext-b25-003
+    output_yaml:
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  book-six:
+    entries:
+    - ext-b25-003
+    output_yaml:
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   booklists:
     entries:
     - hbp-ch06-001
@@ -4837,6 +4870,7 @@ tags:
     - dh-ch29-001
     - dh-ch32-004
     - dh-ch34-005
+    - ext-b24-002
     - gof-ch02-006
     - gof-ch14-004
     - gof-ch30-003
@@ -4896,6 +4930,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
   dementors-kiss:
     entries:
     - ootp-ch02-005
@@ -5621,6 +5656,7 @@ tags:
     - ext-a35-002
     - ext-b05-001
     - ext-b06-004
+    - ext-b23-001
     - gof-ch02-005
     - gof-ch11-001
     - gof-ch12-006
@@ -5855,6 +5891,7 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+    - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
     - sources/external/official-rowling/a33-sybill-trelawney.yaml
@@ -9277,6 +9314,7 @@ tags:
     - ext-b07-003
     - ext-b20-001
     - ext-b20-002
+    - ext-b25-002
     - gof-ch11-006
     - gof-ch13-003
     - gof-ch16-006
@@ -9404,6 +9442,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
   hagrid-cabin:
     entries:
@@ -10688,6 +10727,8 @@ tags:
     - ext-b12-003
     - ext-b16-001
     - ext-b17-002
+    - ext-b23-002
+    - ext-b25-001
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -10723,6 +10764,8 @@ tags:
     - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
     - sources/external/interviews/b17-the-connection-wbur-radio.yaml
+    - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
     - sources/external/official-rowling/a12-professor-mcgonagall.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
@@ -11232,6 +11275,7 @@ tags:
     - ext-a33-001
     - ext-a33-002
     - ext-b20-003
+    - ext-b23-001
     - ps-ch04-001
     output_yaml:
     - sources/book-01/chapter-04-keeper-of-the-keys.yaml
@@ -11240,6 +11284,7 @@ tags:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
     - sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+    - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
     - sources/external/official-rowling/a33-sybill-trelawney.yaml
   hogwarts-student:
@@ -12556,6 +12601,11 @@ tags:
     - dh-ch08-003
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
+  international-magical-education:
+    entries:
+    - ext-b23-002
+    output_yaml:
+    - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
   international-magical-history:
     entries:
     - dh-ch08-002
@@ -12950,6 +13000,11 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
+  kings-cross-station:
+    entries:
+    - ext-b24-001
+    output_yaml:
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
   kingsley-shacklebolt:
     entries:
     - dh-ch03-002
@@ -15820,12 +15875,14 @@ tags:
     - ext-a14-003
     - ext-a14-004
     - ext-a14-005
+    - ext-b24-003
     - ps-ch12-006
     - ps-ch17-002
     - ps-ch17-003
     output_yaml:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   mist:
     entries:
@@ -16330,6 +16387,7 @@ tags:
     - ext-a19-002
     - ext-a19-003
     - ext-a24-002
+    - ext-b25-001
     - gof-ch01-002
     - gof-ch02-003
     - gof-ch03-002
@@ -16373,6 +16431,7 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
     - sources/external/official-rowling/a24-the-floo-network.yaml
@@ -16712,10 +16771,12 @@ tags:
   nighttime:
     entries:
     - ext-b12-001
+    - ext-b25-001
     - hbp-ch22-003
     output_yaml:
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/external/interviews/b12-guardian-unlimited-interview.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   nighttime-prowling:
     entries:
     - hbp-ch15-007
@@ -18081,6 +18142,7 @@ tags:
     - dh-ch33-004
     - ext-a19-002
     - ext-b18-003
+    - ext-b24-001
     - gof-ch11-002
     - hbp-ch07-001
     - ootp-ch10-001
@@ -18099,6 +18161,7 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
   player-discipline:
     entries:
@@ -18127,6 +18190,11 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
     - sources/book-qtta/chapter-10-quidditch-today.yaml
+  plot-structure:
+    entries:
+    - ext-b25-003
+    output_yaml:
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   plumbing:
     entries:
     - cos-ch16-007
@@ -18410,9 +18478,13 @@ tags:
     - sources/external/official-rowling/a31-professor-quirrell.yaml
   post-1984:
     entries:
+    - ext-b24-002
+    - ext-b25-003
     - qtta-ch09-007
     output_yaml:
     - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+    - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   post-battle:
     entries:
     - dh-ch36-005
@@ -27025,6 +27097,11 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
+  west-country:
+    entries:
+    - ext-b25-002
+    output_yaml:
+    - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   west-tower:
     entries:
     - gof-ch15-001
@@ -27208,6 +27285,11 @@ tags:
     - poa-ch02-003
     output_yaml:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  wizard-longevity:
+    entries:
+    - ext-b23-001
+    output_yaml:
+    - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
   wizard-muggle:
     entries:
     - ext-a08-003
@@ -27470,6 +27552,7 @@ tags:
     - ext-a28-003
     - ext-a28-004
     - ext-b19-001
+    - ext-b23-002
     - gof-ch07-003
     - gof-ch09-002
     - gof-ch11-004
@@ -27478,6 +27561,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/external/interviews/b19-south-west-news-service-interview.yaml
+    - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
     - sources/external/official-rowling/a28-wizarding-schools.yaml
   wizarding-secrecy:
     entries:

@@ -14,13 +14,14 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B23
-  title: Red Nose Day Chat, BBC Online , March 12, 2001
+  id: B26
+  title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August
+    2, 2006'
   status: pending
-  input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
-  output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
-  staging_file: work/external-staging/b23.yaml
-  manifest_id: external-B23
+  input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+  output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
+  staging_file: work/external-staging/b26.yaml
+  manifest_id: external-B26
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,38 +61,39 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 4
+    pending: 1
     in_progress: 0
-    done: 59
+    done: 62
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B23
-    title: Red Nose Day Chat, BBC Online , March 12, 2001
+    id: B26
+    title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August
+      2, 2006'
     status: pending
-    input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
-    output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
-    staging_file: work/external-staging/b23.yaml
-    manifest_id: external-B23
+    input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+    output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
+    staging_file: work/external-staging/b26.yaml
+    manifest_id: external-B26
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B22
-    title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
+    id: B25
+    title: '"Living with Harry Potter"'
     status: done
-    input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
-    output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
-    staging_file: work/external-staging/b22.yaml
-    manifest_id: external-B22
+    input_path: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+    output_file: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+    staging_file: work/external-staging/b25.yaml
+    manifest_id: external-B25
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B22
-  title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
+  id: B25
+  title: '"Living with Harry Potter"'
   status: done
-  input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
-  output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
-  staging_file: work/external-staging/b22.yaml
-  manifest_id: external-B22
+  input_path: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+  output_file: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  staging_file: work/external-staging/b25.yaml
+  manifest_id: external-B25
   claimed_by: null
   claimed_at: null

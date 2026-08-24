@@ -2359,16 +2359,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
     manifest_id: external-B23
     output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:25:22Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:19:46Z'
+      agent: source-agent-b23
+    - event: completed
+      at: '2026-08-24T05:25:22Z'
     staging_file: work/external-staging/b23.yaml
   - id: B24
     title: '"Harry Potter and Me" (BBC Christmas Special, British version), BBC ,
@@ -2379,16 +2384,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md
     manifest_id: external-B24
     output_file: sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:27:02Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:19:47Z'
+      agent: source-agent-b24
+    - event: completed
+      at: '2026-08-24T05:27:02Z'
     staging_file: work/external-staging/b24.yaml
   - id: B25
     title: '"Living with Harry Potter"'
@@ -2398,16 +2408,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
     manifest_id: external-B25
     output_file: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T05:28:32Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T05:19:47Z'
+      agent: source-agent-b25
+    - event: completed
+      at: '2026-08-24T05:28:32Z'
     staging_file: work/external-staging/b25.yaml
   - id: B26
     title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August

@@ -466,6 +466,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b22-001` (None): Authority-D preservation transcription rather than the original broadcast; this is retrospective author commentary with no precise in-universe date and cannot independently establish Quidditch history.
 - `ext-b22-002` (None): Authority-D preservation transcription; the interview gives no formal policy or date, and the expressly referenced Fluffy event belongs after the pre-1984 scope.
 - `ext-b22-003` (None): Authority-D preservation transcription; the remark is retrospective author commentary and explicitly points to post-1984, Book Five material rather than pre-1984 institutional history.
+- `ext-b25-001` (None): Accio Quote is a non-primary preservation transcription; this is retrospective authorial explanation, not an independent in-universe record or a dated institutional rule.
+- `ext-b25-002` (None): Accio Quote is a non-primary preservation transcription; the statement is authorial characterization made during an audiobook discussion and supplies no in-universe date or biographical detail.
+- `ext-b25-003` (None): Accio Quote is a non-primary preservation transcription; this is publication-era commentary about planned fiction, not an in-universe historical record.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
