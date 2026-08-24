@@ -1086,6 +1086,17 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+  authorial-commentary:
+    entries:
+    - ext-b12-001
+    - ext-b12-002
+    - ext-b12-003
+    - ext-b13-001
+    - ext-b13-002
+    - ext-b13-003
+    output_yaml:
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
+    - sources/external/interviews/b13-salon-interview.yaml
   authorial-note:
     entries:
     - ext-a18-004
@@ -1778,6 +1789,11 @@ tags:
     - hbp-ch19-002
     output_yaml:
     - sources/book-06/chapter-19-elf-tails.yaml
+  boarding-school:
+    entries:
+    - ext-b12-001
+    output_yaml:
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
   boats:
     entries:
     - ext-b10-003
@@ -2125,6 +2141,11 @@ tags:
     - poa-ch15-004
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+  bullying:
+    entries:
+    - ext-b11-003
+    output_yaml:
+    - sources/external/interviews/b11-the-herald-interview.yaml
   burial:
     entries:
     - hbp-ch29-007
@@ -5381,6 +5402,7 @@ tags:
     - dh-ch33-006
     - ext-a35-001
     - ext-a35-002
+    - ext-b11-003
     - hbp-ch02-006
     - hbp-ch06-007
     - hbp-ch07-007
@@ -5398,6 +5420,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/interviews/b11-the-herald-interview.yaml
     - sources/external/official-rowling/a35-draco-malfoy.yaml
   dragon:
     entries:
@@ -9482,6 +9505,7 @@ tags:
     - dh-ch35-001
     - dh-ch36-001
     - ext-a15-001
+    - ext-b12-002
     - gof-ch01-004
     - gof-ch02-001
     - gof-ch02-004
@@ -9547,6 +9571,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/official-rowling/a15-the-original-forty.yaml
   harry-potter-world:
     entries:
@@ -10582,6 +10607,10 @@ tags:
     - ext-b06-001
     - ext-b06-002
     - ext-b07-005
+    - ext-b11-001
+    - ext-b12-001
+    - ext-b12-002
+    - ext-b12-003
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -10613,6 +10642,8 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+    - sources/external/interviews/b11-the-herald-interview.yaml
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
     - sources/external/official-rowling/a12-professor-mcgonagall.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
@@ -10723,6 +10754,11 @@ tags:
     - ext-b04-002
     output_yaml:
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
+  hogwarts-conception:
+    entries:
+    - ext-b13-001
+    output_yaml:
+    - sources/external/interviews/b13-salon-interview.yaml
   hogwarts-correspondence:
     entries:
     - dh-ch33-004
@@ -14046,6 +14082,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  magical-geography:
+    entries:
+    - ext-b11-001
+    output_yaml:
+    - sources/external/interviews/b11-the-herald-interview.yaml
   magical-healing:
     entries:
     - dh-ch05-005
@@ -15952,6 +15993,11 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+  muggle-conformity:
+    entries:
+    - ext-b13-003
+    output_yaml:
+    - sources/external/interviews/b13-salon-interview.yaml
   muggle-construction:
     entries:
     - ext-b01-004
@@ -16519,9 +16565,11 @@ tags:
     - sources/book-01/chapter-12-mirror-of-erised.yaml
   nighttime:
     entries:
+    - ext-b12-001
     - hbp-ch22-003
     output_yaml:
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
   nighttime-prowling:
     entries:
     - hbp-ch15-007
@@ -17086,6 +17134,11 @@ tags:
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/book-06/chapter-26-the-cave.yaml
+  orphanhood-themes:
+    entries:
+    - ext-b13-002
+    output_yaml:
+    - sources/external/interviews/b13-salon-interview.yaml
   ottaline-gambol:
     entries:
     - ext-a04-004
@@ -19417,6 +19470,7 @@ tags:
     - dh-ch07-005
     - dh-ch10-004
     - ext-b02-003
+    - ext-b11-002
     - gof-ch05-005
     - gof-ch06-004
     - gof-ch08-004
@@ -19489,6 +19543,7 @@ tags:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/external/interviews/b02-scholastic-live-chat.yaml
+    - sources/external/interviews/b11-the-herald-interview.yaml
   quidditch-ban:
     entries:
     - ootp-ch19-007
@@ -20809,8 +20864,11 @@ tags:
     entries:
     - ext-a32-001
     - ext-b02-003
+    - ext-b11-002
+    - ext-b11-003
     output_yaml:
     - sources/external/interviews/b02-scholastic-live-chat.yaml
+    - sources/external/interviews/b11-the-herald-interview.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   school-list:
     entries:
@@ -20903,9 +20961,11 @@ tags:
     - sources/book-02/chapter-01-worst-birthday.yaml
   school-policy:
     entries:
+    - ext-b12-003
     - gof-ch14-002
     output_yaml:
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
   school-politics:
     entries:
     - ootp-ch14-003
@@ -21046,6 +21106,11 @@ tags:
     - hbp-ch19-002
     output_yaml:
     - sources/book-06/chapter-19-elf-tails.yaml
+  school-sanctuary:
+    entries:
+    - ext-b13-001
+    output_yaml:
+    - sources/external/interviews/b13-salon-interview.yaml
   school-schedule:
     entries:
     - gof-ch15-005
@@ -21132,8 +21197,10 @@ tags:
   school-sport:
     entries:
     - ext-b02-003
+    - ext-b11-002
     output_yaml:
     - sources/external/interviews/b02-scholastic-live-chat.yaml
+    - sources/external/interviews/b11-the-herald-interview.yaml
   school-sport-safety:
     entries:
     - qtta-ch04-002
@@ -21277,6 +21344,11 @@ tags:
     - qtta-ch06-001
     output_yaml:
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  scotland:
+    entries:
+    - ext-b11-001
+    output_yaml:
+    - sources/external/interviews/b11-the-herald-interview.yaml
   scottish-strain:
     entries:
     - ext-a09-003
@@ -21634,6 +21706,7 @@ tags:
     - ext-a07-002
     - ext-a07-003
     - ext-b07-005
+    - ext-b12-002
     - gof-ch15-006
     - hbp-ch26-003
     - ootp-ch07-002
@@ -21646,6 +21719,7 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
   security-boundary:
@@ -23353,6 +23427,11 @@ tags:
     - ootp-ch17-005
     output_yaml:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  strict-rules:
+    entries:
+    - ext-b12-003
+    output_yaml:
+    - sources/external/interviews/b12-guardian-unlimited-interview.yaml
   student:
     entries:
     - ext-a06-005
@@ -24292,6 +24371,11 @@ tags:
     - poa-ch02-002
     output_yaml:
     - sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  surrogate-family:
+    entries:
+    - ext-b13-002
+    output_yaml:
+    - sources/external/interviews/b13-salon-interview.yaml
   surveillance:
     entries:
     - dh-ch09-007
@@ -26912,6 +26996,11 @@ tags:
     - ext-a08-003
     output_yaml:
     - sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  wizard-outcasts:
+    entries:
+    - ext-b13-003
+    output_yaml:
+    - sources/external/interviews/b13-salon-interview.yaml
   wizard-school:
     entries:
     - cos-ch01-004

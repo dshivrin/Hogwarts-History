@@ -1,0 +1,189 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B11
+  source_file: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+  title: 'Johnstone, Anne. "Happy ending, and that''s for beginners." The Herald [Glasgow], 24 June 1997.'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: The Herald
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '24 June 1997'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: eef8c48a69512c6cbc723aefca87a005701514fcc33e02f4d5987eb15b635160
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; extracted claims retain the carrier's authority-D limitations.
+
+entries:
+  - id: ext-b11-001
+    source_file: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+    source_id: B11
+    source_url: https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html
+    source_section: Interview body
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: that leads to Hogwarts School of Wizardry and Witchcraft
+      end_phrase: which Rowling has always imagined is in Scotland
+      local_occurrence_note: First plot-summary paragraph, immediately after Harry's owl-delivered letter is described.
+    nearby_context: The reporter summarizes Harry's route from the Dursleys to Hogwarts and attributes the school's Scottish location to Rowling's imagination.
+    match_terms:
+      - hogwarts
+      - scotland
+      - magical geography
+    quote_excerpt_short: which Rowling has always imagined is in Scotland
+    source_note: The report says Rowling had always imagined Hogwarts as being in Scotland.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - magical-geography
+      - scotland
+    candidate_part: Hogwarts as a Place
+    candidate_chapter: Setting and Geography
+    candidate_section: Scotland
+    reason_for_placement: Provides a location tradition for the school, but only through a preservation transcript's report of author commentary.
+    relevance_to_hogwarts_a_history: Useful as a qualified, later-published confirmation of the imagined location of the Harry-era school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate was returned for the geographic query.
+      audit:
+        query_tags:
+          - magical-geography
+          - scotland
+        candidates: []
+    confidence: medium
+    limitations: Authority-D preservation transcription; the location is reported by the journalist rather than preserved as a direct Rowling quotation, and it is a 1997 publication.
+
+  - id: ext-b11-002
+    source_file: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+    source_id: B11
+    source_url: https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html
+    source_section: Interview body
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: At Hogwarts, where everyone is crazy about Quidditch
+      end_phrase: no one was allowed to fly
+      local_occurrence_note: Paragraph of examples from the book, following the description of Dumbledore and Uncle Vernon's comic details.
+    nearby_context: In a passage about humorous description and dialogue, the reporter presents Quidditch as an all-consuming Hogwarts interest before quoting a joke about a West Ham supporter.
+    match_terms:
+      - quidditch
+      - school life
+      - school sport
+    quote_excerpt_short: At Hogwarts, where everyone is crazy about Quidditch
+    source_note: The report characterizes Quidditch as a pervasive feature of Hogwarts school culture.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - school-life
+      - school-sport
+    candidate_part: Hogwarts Life and Culture
+    candidate_chapter: Student Life and House Identity
+    candidate_section: Quidditch and School Culture
+    reason_for_placement: Records the report's broad characterization of Quidditch's cultural prominence at Hogwarts.
+    relevance_to_hogwarts_a_history: A qualified corroborating description of Harry-era school culture, not evidence for a rule, team structure, or universal literal participation.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The B02 interview independently supports Quidditch's prominence; the remaining results cover associated activities or distinct Quidditch facts.
+      audit:
+        query_tags:
+          - quidditch
+          - school-life
+          - school-sport
+        candidates:
+          - id: ext-b02-003
+            disposition: corroborating
+          - id: cos-ch01-001
+            disposition: corroborating
+          - id: cos-ch07-001
+            disposition: distinct
+          - id: cos-ch14-003
+            disposition: distinct
+          - id: dh-ch07-005
+            disposition: distinct
+          - id: dh-ch10-004
+            disposition: distinct
+          - id: ext-a32-001
+            disposition: distinct
+          - id: gof-ch05-005
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch08-004
+            disposition: distinct
+    confidence: medium
+    limitations: Authority-D preservation transcription; this is the reporter's broad narrative characterization, not a direct Rowling statement, and should not be read as a literal claim about every pupil.
+
+  - id: ext-b11-003
+    source_file: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+    source_id: B11
+    source_url: https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html
+    source_section: Interview body
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The book is also about the abuse of power
+      end_phrase: Draco Malfoy, the school bully
+      local_occurrence_note: Paragraph following Rowling's direct remarks on children, power, and escapism.
+    nearby_context: The reporter moves from Rowling's comments about a powerless child gaining power to a summary of abuse of power by the dark wizard and Draco Malfoy.
+    match_terms:
+      - draco malfoy
+      - bullying
+      - abuse of power
+    quote_excerpt_short: Draco Malfoy, the school bully
+    source_note: The report frames Draco Malfoy as a school bully within the book's broader theme of abuse of power.
+    reference_type: weak_context_only
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - bullying
+      - draco-malfoy
+      - school-life
+    candidate_part: Student Life and Conduct
+    candidate_chapter: Power, Bullying, and Peer Relations
+    candidate_section: Draco Malfoy
+    reason_for_placement: Preserves an early journalistic framing of Draco's school role while keeping it separate from later, specific actions.
+    relevance_to_hogwarts_a_history: May provide qualified context for peer power dynamics in the Harry era, but needs stronger primary corroboration before use as a factual assertion.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned entries concern distinct Draco-related prejudice, wartime, security, oath, and wandlore claims.
+      audit:
+        query_tags:
+          - bullying
+          - draco-malfoy
+        candidates:
+          - id: cos-ch04-004
+            disposition: distinct
+          - id: dh-ch24-005
+            disposition: distinct
+          - id: dh-ch33-006
+            disposition: distinct
+          - id: ext-a35-001
+            disposition: distinct
+          - id: ext-a35-002
+            disposition: distinct
+          - id: hbp-ch02-006
+            disposition: distinct
+          - id: hbp-ch06-007
+            disposition: distinct
+          - id: hbp-ch07-007
+            disposition: distinct
+          - id: hbp-ch15-007
+            disposition: distinct
+          - id: hbp-ch16-002
+            disposition: distinct
+    confidence: low
+    limitations: Authority-D preservation transcription; this is a journalist's thematic characterization, not a direct Rowling quote or independently verified account of a specific incident.

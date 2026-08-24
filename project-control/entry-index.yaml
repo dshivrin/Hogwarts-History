@@ -21375,6 +21375,109 @@ by_entry:
     - traditions
     source_unit: B10
     output_yaml: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  ext-b11-001:
+    title: 'Setting and Geography: Scotland'
+    classification: harry_era_confirmation
+    reference_type: direct_observed_setting
+    confidence: medium
+    tags:
+    - hogwarts
+    - magical-geography
+    - scotland
+    source_unit: B11
+    output_yaml: sources/external/interviews/b11-the-herald-interview.yaml
+  ext-b11-002:
+    title: 'Student Life and House Identity: Quidditch and School Culture'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - quidditch
+    - school-life
+    - school-sport
+    source_unit: B11
+    output_yaml: sources/external/interviews/b11-the-herald-interview.yaml
+  ext-b11-003:
+    title: 'Power, Bullying, and Peer Relations: Draco Malfoy'
+    classification: harry_era_confirmation
+    reference_type: weak_context_only
+    confidence: low
+    tags:
+    - bullying
+    - draco-malfoy
+    - school-life
+    source_unit: B11
+    output_yaml: sources/external/interviews/b11-the-herald-interview.yaml
+  ext-b12-001:
+    title: 'School Life and Daily Rhythms: Boarding residence and after-hours life'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - authorial-commentary
+    - boarding-school
+    - hogwarts
+    - nighttime
+    source_unit: B12
+    output_yaml: sources/external/interviews/b12-guardian-unlimited-interview.yaml
+  ext-b12-002:
+    title: 'Hogwarts as Home: Security and belonging'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - authorial-commentary
+    - harry-potter
+    - hogwarts
+    - security
+    source_unit: B12
+    output_yaml: sources/external/interviews/b12-guardian-unlimited-interview.yaml
+  ext-b12-003:
+    title: 'Governance and Discipline: Rules and institutional order'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: low
+    tags:
+    - authorial-commentary
+    - hogwarts
+    - school-policy
+    - strict-rules
+    source_unit: B12
+    output_yaml: sources/external/interviews/b12-guardian-unlimited-interview.yaml
+  ext-b13-001:
+    title: 'Authorial Commentary: School as Sanctuary and Boarding-School Imagination'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: medium
+    tags:
+    - authorial-commentary
+    - hogwarts-conception
+    - school-sanctuary
+    source_unit: B13
+    output_yaml: sources/external/interviews/b13-salon-interview.yaml
+  ext-b13-002:
+    title: 'Authorial Commentary: Orphanhood, Autonomy, and the Boarding-School Surrogate
+      Family'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: medium
+    tags:
+    - authorial-commentary
+    - orphanhood-themes
+    - surrogate-family
+    source_unit: B13
+    output_yaml: sources/external/interviews/b13-salon-interview.yaml
+  ext-b13-003:
+    title: 'Authorial Commentary: Muggle Conformity and Wizard Otherness'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: medium
+    tags:
+    - authorial-commentary
+    - muggle-conformity
+    - wizard-outcasts
+    source_unit: B13
+    output_yaml: sources/external/interviews/b13-salon-interview.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -23931,6 +24034,13 @@ by_tag:
   - hbp-ch30-006
   - ootp-ch23-007
   - ootp-ch36-007
+  authorial-commentary:
+  - ext-b12-001
+  - ext-b12-002
+  - ext-b12-003
+  - ext-b13-001
+  - ext-b13-002
+  - ext-b13-003
   authorial-note:
   - ext-a18-004
   authorial-notes:
@@ -24269,6 +24379,8 @@ by_tag:
   - ootp-ch34-003
   board-of-governors:
   - hbp-ch19-002
+  boarding-school:
+  - ext-b12-001
   boats:
   - ext-b10-003
   - ps-ch06-007
@@ -24425,6 +24537,8 @@ by_tag:
   - poa-ch21-004
   buckbeak-appeal:
   - poa-ch15-004
+  bullying:
+  - ext-b11-003
   burial:
   - hbp-ch29-007
   - hbp-ch30-005
@@ -25973,6 +26087,7 @@ by_tag:
   - dh-ch33-006
   - ext-a35-001
   - ext-a35-002
+  - ext-b11-003
   - hbp-ch02-006
   - hbp-ch06-007
   - hbp-ch07-007
@@ -27965,6 +28080,7 @@ by_tag:
   - dh-ch35-001
   - dh-ch36-001
   - ext-a15-001
+  - ext-b12-002
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -28511,6 +28627,10 @@ by_tag:
   - ext-b06-001
   - ext-b06-002
   - ext-b07-005
+  - ext-b11-001
+  - ext-b12-001
+  - ext-b12-002
+  - ext-b12-003
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -28567,6 +28687,8 @@ by_tag:
   - ext-a30-003
   hogwarts-concealment:
   - ext-b04-002
+  hogwarts-conception:
+  - ext-b13-001
   hogwarts-correspondence:
   - dh-ch33-004
   hogwarts-danger:
@@ -30133,6 +30255,8 @@ by_tag:
   magical-games-and-sports:
   - gof-ch12-007
   - gof-ch16-002
+  magical-geography:
+  - ext-b11-001
   magical-healing:
   - dh-ch05-005
   magical-historian:
@@ -31023,6 +31147,8 @@ by_tag:
   - ootp-ch03-006
   - ootp-ch04-001
   - ootp-ch06-007
+  muggle-conformity:
+  - ext-b13-003
   muggle-construction:
   - ext-b01-004
   muggle-contact:
@@ -31279,6 +31405,7 @@ by_tag:
   night-patrol:
   - ps-ch12-005
   nighttime:
+  - ext-b12-001
   - hbp-ch22-003
   nighttime-prowling:
   - hbp-ch15-007
@@ -31546,6 +31673,8 @@ by_tag:
   orphanage:
   - hbp-ch13-003
   - hbp-ch26-001
+  orphanhood-themes:
+  - ext-b13-002
   ottaline-gambol:
   - ext-a04-004
   out-of-bounds:
@@ -32643,6 +32772,7 @@ by_tag:
   - dh-ch07-005
   - dh-ch10-004
   - ext-b02-003
+  - ext-b11-002
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -33304,6 +33434,8 @@ by_tag:
   school-life:
   - ext-a32-001
   - ext-b02-003
+  - ext-b11-002
+  - ext-b11-003
   school-list:
   - gof-ch05-006
   - gof-ch10-007
@@ -33344,6 +33476,7 @@ by_tag:
   school-place:
   - cos-ch01-004
   school-policy:
+  - ext-b12-003
   - gof-ch14-002
   school-politics:
   - ootp-ch14-003
@@ -33408,6 +33541,8 @@ by_tag:
   - hbp-ch04-004
   school-safety:
   - hbp-ch19-002
+  school-sanctuary:
+  - ext-b13-001
   school-schedule:
   - gof-ch15-005
   - gof-ch20-005
@@ -33449,6 +33584,7 @@ by_tag:
   - gof-ch35-001
   school-sport:
   - ext-b02-003
+  - ext-b11-002
   school-sport-safety:
   - qtta-ch04-002
   school-standards:
@@ -33515,6 +33651,8 @@ by_tag:
   - qtta-ch06-009
   scoring-areas:
   - qtta-ch06-001
+  scotland:
+  - ext-b11-001
   scottish-strain:
   - ext-a09-003
   scrimgeour:
@@ -33702,6 +33840,7 @@ by_tag:
   - ext-a07-002
   - ext-a07-003
   - ext-b07-005
+  - ext-b12-002
   - gof-ch15-006
   - hbp-ch26-003
   - ootp-ch07-002
@@ -34487,6 +34626,8 @@ by_tag:
   - poa-ch21-005
   strengthening-solution:
   - ootp-ch17-005
+  strict-rules:
+  - ext-b12-003
   student:
   - ext-a06-005
   student-accommodation:
@@ -34912,6 +35053,8 @@ by_tag:
   - ps-ch05-003
   suppressed-contact:
   - poa-ch02-002
+  surrogate-family:
+  - ext-b13-002
   surveillance:
   - dh-ch09-007
   - dh-ch13-003
@@ -36139,6 +36282,8 @@ by_tag:
   - poa-ch02-003
   wizard-muggle:
   - ext-a08-003
+  wizard-outcasts:
+  - ext-b13-003
   wizard-school:
   - cos-ch01-004
   wizarding-belief:

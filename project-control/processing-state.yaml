@@ -14,14 +14,13 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B11
-  title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],
-    24 June 1997.
+  id: B14
+  title: Barnes and Noble interview, March 19, 1999
   status: pending
-  input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
-  output_file: sources/external/interviews/b11-the-herald-interview.yaml
-  staging_file: work/external-staging/b11.yaml
-  manifest_id: external-B11
+  input_path: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+  output_file: sources/external/interviews/b14-barnes-noble-interview.yaml
+  staging_file: work/external-staging/b14.yaml
+  manifest_id: external-B14
   claimed_by: null
   claimed_at: null
 indexes:
@@ -61,41 +60,38 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 16
+    pending: 13
     in_progress: 0
-    done: 47
+    done: 50
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B11
-    title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],
-      24 June 1997.
+    id: B14
+    title: Barnes and Noble interview, March 19, 1999
     status: pending
-    input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
-    output_file: sources/external/interviews/b11-the-herald-interview.yaml
-    staging_file: work/external-staging/b11.yaml
-    manifest_id: external-B11
+    input_path: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+    output_file: sources/external/interviews/b14-barnes-noble-interview.yaml
+    staging_file: work/external-staging/b14.yaml
+    manifest_id: external-B14
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B10
-    title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
-      part one." PotterCast #130 , 17 December 2007.'
+    id: B13
+    title: Weir, Margaret. "Of magic and single motherhood," Salon , 1999
     status: done
-    input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
-    output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
-    staging_file: work/external-staging/b10.yaml
-    manifest_id: external-B10
+    input_path: resources/external/interviews/accio-quote/b13-salon-interview.md
+    output_file: sources/external/interviews/b13-salon-interview.yaml
+    staging_file: work/external-staging/b13.yaml
+    manifest_id: external-B13
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B10
-  title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
-    part one." PotterCast #130 , 17 December 2007.'
+  id: B13
+  title: Weir, Margaret. "Of magic and single motherhood," Salon , 1999
   status: done
-  input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
-  output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
-  staging_file: work/external-staging/b10.yaml
-  manifest_id: external-B10
+  input_path: resources/external/interviews/accio-quote/b13-salon-interview.md
+  output_file: sources/external/interviews/b13-salon-interview.yaml
+  staging_file: work/external-staging/b13.yaml
+  manifest_id: external-B13
   claimed_by: null
   claimed_at: null

@@ -9371,6 +9371,41 @@ Summary: The available evidence includes 1 source item, led by: The chapter pres
   - Reference type: historical_claim
   - Notes: The account is partly based on incomplete or mistaken public belief at this point in the story and must be cross-checked with later chapters before being used as historical fact.
 
+### Chapter: Authorial Commentary
+
+#### Section: Muggle Conformity and Wizard Otherness
+
+Summary: The available evidence includes 1 source item, led by: Rowling says the conspicuous wizards in the Muggle world were intended as unashamed outcasts who unsettle the conventionally minded.
+
+- **Context:** Rowling says the conspicuous wizards in the Muggle world were intended as unashamed outcasts who unsettle the conventionally minded.
+  - Quote: "They are plainly outcasts and comfortable with being so."
+  - Source: B13, https://www.accio-quote.org/articles/1999/0399-salon-weir.htm, `sources/external/interviews/b13-salon-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: weak_context_only
+  - Notes: Accio Quote is a preservation transcription of a 1999 Salon interview, not the original Salon carrier; the wording and the interpretation's attribution require corroboration from a primary or official copy.
+
+#### Section: Orphanhood, Autonomy, and the Boarding-School Surrogate Family
+
+Summary: The available evidence includes 1 source item, led by: Rowling interprets Harry's orphanhood as releasing him from parental expectations and links boarding school with a surrogate family.
+
+- **Context:** Rowling interprets Harry's orphanhood as releasing him from parental expectations and links boarding school with a surrogate family.
+  - Quote: "Harry's status as orphan gives him a freedom other children can only dream about"
+  - Source: B13, https://www.accio-quote.org/articles/1999/0399-salon-weir.htm, `sources/external/interviews/b13-salon-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: weak_context_only
+  - Notes: Accio Quote is a preservation transcription of a 1999 Salon interview, not the original Salon carrier; the claim records attributed authorial interpretation rather than an independently verifiable in-universe fact.
+
+#### Section: School as Sanctuary and Boarding-School Imagination
+
+Summary: The available evidence includes 1 source item, led by: Rowling says she did not want to attend boarding school, but would immediately have chosen Hogwarts.
+
+- **Context:** Rowling says she did not want to attend boarding school, but would immediately have chosen Hogwarts.
+  - Quote: "if it had been Hogwarts, I would have been packed in a moment"
+  - Source: B13, https://www.accio-quote.org/articles/1999/0399-salon-weir.htm, `sources/external/interviews/b13-salon-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: weak_context_only
+  - Notes: Accio Quote is a preservation transcription of a 1999 Salon interview, not the original Salon carrier; wording and speaker attribution should be corroborated before treating this as authoritative commentary.
+
 ### Chapter: Blood Status and Hogwarts Society
 
 #### Section: Academic Merit and Pure-Blood Prejudice
@@ -14184,6 +14219,21 @@ Summary: The available evidence includes 1 source item, led by: Moody names Avad
   - Corroborates: `gof-ch09-007`. gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
   - Notes: It summarizes wizarding law through a teacher's classroom speech.
 
+## Part: Hogwarts Life and Culture
+
+### Chapter: Student Life and House Identity
+
+#### Section: Quidditch and School Culture
+
+Summary: The available evidence includes 1 source item, led by: The report characterizes Quidditch as a pervasive feature of Hogwarts school culture.
+
+- **Supporting evidence:** The report characterizes Quidditch as a pervasive feature of Hogwarts school culture.
+  - Quote: "At Hogwarts, where everyone is crazy about Quidditch"
+  - Source: B11, https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html, `sources/external/interviews/b11-the-herald-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Authority-D preservation transcription; this is the reporter's broad narrative characterization, not a direct Rowling statement, and should not be read as a literal claim about every pupil.
+
 ## Part: Hogwarts Life and Material Culture
 
 ### Chapter: Student Equipment and Travel
@@ -14290,6 +14340,21 @@ Summary: The available evidence includes 1 source item, led by: The map incorpor
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: magical_architecture
   - Notes: The account names the charm and describes its effect but does not provide its method of construction or defined coverage limits.
+
+## Part: Hogwarts as a Place
+
+### Chapter: Setting and Geography
+
+#### Section: Scotland
+
+Summary: The available evidence includes 1 source item, led by: The report says Rowling had always imagined Hogwarts as being in Scotland.
+
+- **Supporting evidence:** The report says Rowling had always imagined Hogwarts as being in Scotland.
+  - Quote: "which Rowling has always imagined is in Scotland"
+  - Source: B11, https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html, `sources/external/interviews/b11-the-herald-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: direct_observed_setting
+  - Notes: Authority-D preservation transcription; the location is reported by the journalist rather than preserved as a direct Rowling quotation, and it is a 1997 publication.
 
 ## Part: Hogwarts governance and staff
 
@@ -16565,6 +16630,19 @@ Summary: The available evidence includes 1 source item, led by: At the end of se
   - Reference type: curriculum_or_subject
   - Notes: The article states the rule but does not give a specific calendar year, class timetable, or individual pupil's selection.
 
+### Chapter: Governance and Discipline
+
+#### Section: Rules and institutional order
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that Hogwarts has strict rules, but the preserved interview gives no specific rule, authority, or enforcement detail.
+
+- **Supporting evidence:** Rowling states that Hogwarts has strict rules, but the preserved interview gives no specific rule, authority, or enforcement detail.
+  - Quote: "there are some very strict rules"
+  - Source: B12, https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm, `sources/external/interviews/b12-guardian-unlimited-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: school_rule_or_policy
+  - Notes: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; the statement is general and does not identify any rule or its historical period.
+
 ### Chapter: Headmasters and School Authority
 
 #### Section: The Headmaster's Phoenix
@@ -16577,6 +16655,19 @@ Summary: The available evidence includes 1 source item, led by: Rowling says Faw
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: historical_claim
   - Notes: Authority D preservation transcription of an informal answer; the claim addresses Fawkes only and cannot establish a broader Hogwarts ownership practice.
+
+### Chapter: Hogwarts as Home
+
+#### Section: Security and belonging
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterizes Hogwarts as providing Harry security, framing this as an authorial belief rather than a described protective mechanism.
+
+- **Supporting evidence:** Rowling characterizes Hogwarts as providing Harry security, framing this as an authorial belief rather than a described protective mechanism.
+  - Quote: "children above all want security, and that's what Hogwarts offers Harry."
+  - Source: B12, https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm, `sources/external/interviews/b12-guardian-unlimited-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: historical_claim
+  - Notes: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; this is a broad authorial interpretation, not an operational account of school security.
 
 ### Chapter: Houses and Student Leadership
 
@@ -16604,6 +16695,19 @@ Summary: The available evidence includes 1 source item, led by: Rowling assigns 
   - Reference type: house_system
   - Corroborates: `ext-a26-003`. The official Rowling colours article records the same four elemental House associations; the other ranked records concern different House-system evidence.
   - Notes: Authority D preservation transcription of an informal author explanation; it supplies no in-universe date, origin, or formal institutional rationale.
+
+### Chapter: School Life and Daily Rhythms
+
+#### Section: Boarding residence and after-hours life
+
+Summary: The available evidence includes 1 source item, led by: Rowling presents the boarding-school form as necessary to enable consequential nighttime action in Harry's Hogwarts story.
+
+- **Supporting evidence:** Rowling presents the boarding-school form as necessary to enable consequential nighttime action in Harry's Hogwarts story.
+  - Quote: "Hogwarts HAS to be a boarding school - half the important stuff happens at night!"
+  - Source: B12, https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm, `sources/external/interviews/b12-guardian-unlimited-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: historical_claim
+  - Notes: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; wording and attribution cannot be checked against the original outlet here.
 
 ### Chapter: Staff and Teaching
 
@@ -18422,6 +18526,21 @@ Summary: The available evidence includes 1 source item, led by: Slughorn's memor
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The evidence is filtered through a memory scene and does not name all boys present.
+
+## Part: Student Life and Conduct
+
+### Chapter: Power, Bullying, and Peer Relations
+
+#### Section: Draco Malfoy
+
+Summary: The available evidence includes 1 source item, led by: The report frames Draco Malfoy as a school bully within the book's broader theme of abuse of power.
+
+- **Supporting evidence:** The report frames Draco Malfoy as a school bully within the book's broader theme of abuse of power.
+  - Quote: "Draco Malfoy, the school bully"
+  - Source: B11, https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html, `sources/external/interviews/b11-the-herald-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: weak_context_only
+  - Notes: Authority-D preservation transcription; this is a journalist's thematic characterization, not a direct Rowling quote or independently verified account of a specific incident.
 
 ## Part: Student Life and House Culture
 

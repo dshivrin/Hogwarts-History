@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 264
+- Total: 267
 
 ## Entries by Book or External Source
 
@@ -59,6 +59,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B08 — Edinburgh "cub reporter" press conference, ITV , 16 July 2005: 4
 - B09 — J.K. Rowling and the Live Chat , Bloomsbury.com, July 30, 2007 (2.00-3.00pm BST).: 7
 - B10 — Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, part one." PotterCast #130 , 17 December 2007.: 3
+- B11 — Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow], 24 June 1997.: 3
+- B12 — Carey, Joanna. "Who hasn't met Harry?" Guardian Unlimited , February 16, 1999: 3
+- B13 — Weir, Margaret. "Of magic and single motherhood," Salon , 1999: 3
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -71,8 +74,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 536
-- later_editorial_note: 696
+- harry_era_confirmation: 542
+- later_editorial_note: 699
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 33
 - pre_1984_historical_candidate: 287
@@ -82,17 +85,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - cross_reference_candidate: 107
 - curriculum_or_subject: 170
-- direct_observed_setting: 69
+- direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 302
+- historical_claim: 304
 - house_system: 40
-- institutional_custom: 217
+- institutional_custom: 218
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
-- school_rule_or_policy: 159
+- school_rule_or_policy: 160
 - security_or_protection: 245
-- weak_context_only: 4
+- weak_context_only: 8
 
 ## Explicit `Hogwarts: A History` References
 
@@ -104,8 +107,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `B10` — Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, part one." PotterCast #130 , 17 December 2007., input `resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md`, output `sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml`
+- `B13` — Weir, Margaret. "Of magic and single motherhood," Salon , 1999, input `resources/external/interviews/accio-quote/b13-salon-interview.md`, output `sources/external/interviews/b13-salon-interview.yaml`
 
 ## Next Pending Unit
 
-- `B11` — Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow], 24 June 1997., input `resources/external/interviews/accio-quote/b11-the-herald-interview.md`, output `sources/external/interviews/b11-the-herald-interview.yaml`
+- `B14` — Barnes and Noble interview, March 19, 1999, input `resources/external/interviews/accio-quote/b14-barnes-noble-interview.md`, output `sources/external/interviews/b14-barnes-noble-interview.yaml`

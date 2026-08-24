@@ -1,0 +1,181 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B13
+  source_file: resources/external/interviews/accio-quote/b13-salon-interview.md
+  title: 'Weir, Margaret. "Of magic and single motherhood," Salon , 1999'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: Salon
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '1999'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/0399-salon-weir.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: 7ce25ebc7d5ac531578e1831a412b6a563575ae9b10263250d3727c3b6cd45df
+  processed_date: '2026-08-24'
+  processor_notes: >-
+    Complete Accio Quote preservation-transcription snapshot read. Entries retain the
+    carrier's lower authority and are limited to explicitly attributed authorial commentary.
+
+entries:
+  - id: ext-b13-001
+    source_file: resources/external/interviews/accio-quote/b13-salon-interview.md
+    source_id: B13
+    source_url: https://www.accio-quote.org/articles/1999/0399-salon-weir.htm
+    source_section: 'Question: Do you see school as a potential sanctuary for children?'
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: 'I went to a "comprehensive" -- a state-run day school.'
+      end_phrase: 'though if it had been Hogwarts, I would have been packed in a moment'
+      local_occurrence_note: Rowling's answer immediately following the sanctuary-for-children question.
+    nearby_context: Rowling contrasts her own state day-school experience with the appeal she attributes to Hogwarts.
+    match_terms:
+      - hogwarts
+      - boarding school
+      - school sanctuary
+    quote_excerpt_short: 'if it had been Hogwarts, I would have been packed in a moment'
+    source_note: Rowling says she did not want to attend boarding school, but would immediately have chosen Hogwarts.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-commentary
+      - hogwarts-conception
+      - school-sanctuary
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Authorial Commentary
+    candidate_section: School as Sanctuary and Boarding-School Imagination
+    reason_for_placement: The statement is retrospective authorial framing of Hogwarts rather than an in-universe institutional fact.
+    relevance_to_hogwarts_a_history: Useful only as a qualified editorial note on Hogwarts's imagined attraction as a school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate matched the source-specific authorial-commentary tag set.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - hogwarts-conception
+          - school-sanctuary
+        candidates:
+          - id: ext-b12-001
+            disposition: corroborating
+          - id: ext-b12-002
+            disposition: corroborating
+          - id: ext-b12-003
+            disposition: distinct
+    confidence: medium
+    limitations: >-
+      Accio Quote is a preservation transcription of a 1999 Salon interview, not the
+      original Salon carrier; wording and speaker attribution should be corroborated before
+      treating this as authoritative commentary.
+
+  - id: ext-b13-002
+    source_file: resources/external/interviews/accio-quote/b13-salon-interview.md
+    source_id: B13
+    source_url: https://www.accio-quote.org/articles/1999/0399-salon-weir.htm
+    source_section: 'Question: boarding-school autonomy and its allure'
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "I think that's definitely true. Harry's status as orphan gives him a freedom"
+      end_phrase: 'where the relationships are less intense and the boundaries perhaps more clearly defined.'
+      local_occurrence_note: Rowling's answer to the question about boarding-school autonomy immediately after the sanctuary exchange.
+    nearby_context: Rowling explains the narrative freedom of orphanhood and compares boarding school to a surrogate family.
+    match_terms:
+      - orphanhood
+      - boarding school
+      - surrogate family
+    quote_excerpt_short: "Harry's status as orphan gives him a freedom other children can only dream about"
+    source_note: Rowling interprets Harry's orphanhood as releasing him from parental expectations and links boarding school with a surrogate family.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-commentary
+      - orphanhood-themes
+      - surrogate-family
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Authorial Commentary
+    candidate_section: Orphanhood, Autonomy, and the Boarding-School Surrogate Family
+    reason_for_placement: This is authorial thematic interpretation, not evidence of a historical Hogwarts policy or event.
+    relevance_to_hogwarts_a_history: Supports a clearly labelled editorial note about the narrative social role of Hogwarts as boarding school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate matched the source-specific authorial-commentary tag set.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - orphanhood-themes
+          - surrogate-family
+        candidates:
+          - id: ext-b12-001
+            disposition: distinct
+          - id: ext-b12-002
+            disposition: corroborating
+          - id: ext-b12-003
+            disposition: distinct
+    confidence: medium
+    limitations: >-
+      Accio Quote is a preservation transcription of a 1999 Salon interview, not the
+      original Salon carrier; the claim records attributed authorial interpretation rather
+      than an independently verifiable in-universe fact.
+
+  - id: ext-b13-003
+    source_file: resources/external/interviews/accio-quote/b13-salon-interview.md
+    source_id: B13
+    source_url: https://www.accio-quote.org/articles/1999/0399-salon-weir.htm
+    source_section: 'Question: wizards as odd in the Muggle world'
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: 'The wizards represent all that the true "muggle" most fears:'
+      end_phrase: 'Nothing is more unnerving to the truly conventional than the unashamed misfit!'
+      local_occurrence_note: Rowling's answer to the question about whether conspicuous wizards evoke homeless people.
+    nearby_context: Rowling rejects a necessary comparison to homeless people and instead describes wizards as comfortable outcasts.
+    match_terms:
+      - muggles
+      - wizards
+      - social outcasts
+    quote_excerpt_short: 'They are plainly outcasts and comfortable with being so.'
+    source_note: Rowling says the conspicuous wizards in the Muggle world were intended as unashamed outcasts who unsettle the conventionally minded.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-commentary
+      - muggle-conformity
+      - wizard-outcasts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Authorial Commentary
+    candidate_section: Muggle Conformity and Wizard Otherness
+    reason_for_placement: The statement explains authorial intent behind a depiction of Muggle–wizard contrast, not a dated historical event.
+    relevance_to_hogwarts_a_history: May inform a qualified editorial note on the cultural framing of magical difference outside Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate matched the source-specific authorial-commentary tag set.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - muggle-conformity
+          - wizard-outcasts
+        candidates:
+          - id: ext-b12-001
+            disposition: distinct
+          - id: ext-b12-002
+            disposition: distinct
+          - id: ext-b12-003
+            disposition: distinct
+    confidence: medium
+    limitations: >-
+      Accio Quote is a preservation transcription of a 1999 Salon interview, not the
+      original Salon carrier; the wording and the interpretation's attribution require
+      corroboration from a primary or official copy.

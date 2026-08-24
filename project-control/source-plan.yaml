@@ -2065,16 +2065,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
     manifest_id: external-B11
     output_file: sources/external/interviews/b11-the-herald-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:24:17Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T04:19:38Z'
+      agent: source-agent-b11
+    - event: completed
+      at: '2026-08-24T04:24:17Z'
     staging_file: work/external-staging/b11.yaml
   - id: B12
     title: Carey, Joanna. "Who hasn't met Harry?" Guardian Unlimited , February 16,
@@ -2085,16 +2090,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
     manifest_id: external-B12
     output_file: sources/external/interviews/b12-guardian-unlimited-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:25:55Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T04:19:39Z'
+      agent: source-agent-b12
+    - event: completed
+      at: '2026-08-24T04:25:55Z'
     staging_file: work/external-staging/b12.yaml
   - id: B13
     title: Weir, Margaret. "Of magic and single motherhood," Salon , 1999
@@ -2104,16 +2114,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b13-salon-interview.md
     manifest_id: external-B13
     output_file: sources/external/interviews/b13-salon-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:27:46Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T04:19:39Z'
+      agent: source-agent-b13
+    - event: completed
+      at: '2026-08-24T04:27:46Z'
     staging_file: work/external-staging/b13.yaml
   - id: B14
     title: Barnes and Noble interview, March 19, 1999

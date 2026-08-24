@@ -594,6 +594,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Hogwarts Life and Culture
+
+- Student Life and House Identity
+  - Quidditch and School Culture
+
 ## Hogwarts Life and Material Culture
 
 - Student Equipment and Travel
@@ -618,6 +623,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Marauders and Nocturnal Exploration
 - The Castle’s Magical Systems
   - Mapping and Occupant-Tracking Magic
+
+## Hogwarts as a Place
+
+- Setting and Geography
+  - Scotland
 
 ## Hogwarts governance and staff
 
@@ -712,6 +722,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Alumni, War Memory, and Unreliable Testimony
   - Black, Potter, and Pettigrew in School Memory
+- Authorial Commentary
+  - Muggle Conformity and Wizard Otherness
+  - Orphanhood, Autonomy, and the Boarding-School Surrogate Family
+  - School as Sanctuary and Boarding-School Imagination
 - Blood Status and Hogwarts Society
   - Academic Merit and Pure-Blood Prejudice
   - Pure-Blood Prejudice Beyond School
@@ -1557,12 +1571,18 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Advanced and demand-led subjects
   - First-year compulsory subjects
   - Third-year subject selection
+- Governance and Discipline
+  - Rules and institutional order
 - Headmasters and School Authority
   - The Headmaster's Phoenix
+- Hogwarts as Home
+  - Security and belonging
 - Houses and Student Leadership
   - Gryffindor prefects
 - Houses, Sorting, and Student Identity
   - Elemental House Associations
+- School Life and Daily Rhythms
+  - Boarding residence and after-hours life
 - Staff and Teaching
   - Defence Against the Dark Arts appointments
 - Staff, Offices, and Daily Operations
@@ -2275,6 +2295,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Informal Power Networks
   - Slughorn's Office and Riddle's School Circle
+
+## Student Life and Conduct
+
+- Power, Bullying, and Peer Relations
+  - Draco Malfoy
 
 ## Student Life and House Culture
 
