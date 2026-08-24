@@ -2138,16 +2138,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
     manifest_id: external-B14
     output_file: sources/external/interviews/b14-barnes-noble-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:34:58Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T04:28:40Z'
+      agent: source-agent-b14
+    - event: completed
+      at: '2026-08-24T04:34:58Z'
     staging_file: work/external-staging/b14.yaml
   - id: B15
     title: Barnes & Noble chat transcript, Barnes&Noble.com , September 8, 1999
@@ -2157,16 +2162,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b15-barnes-noble-live-chat.md
     manifest_id: external-B15
     output_file: sources/external/interviews/b15-barnes-noble-live-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:57:31Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T04:28:41Z'
+      agent: source-agent-b15
+    - event: completed
+      at: '2026-08-24T04:57:31Z'
     staging_file: work/external-staging/b15.yaml
   - id: B16
     title: Loer, Stephanie. "All about Harry Potter from quidditch to the future of
@@ -2177,16 +2187,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
     manifest_id: external-B16
     output_file: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:59:27Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-24T04:28:41Z'
+      agent: source-agent-b16
+    - event: completed
+      at: '2026-08-24T04:59:27Z'
     staging_file: work/external-staging/b16.yaml
   - id: B17
     title: Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR

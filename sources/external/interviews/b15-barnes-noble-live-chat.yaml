@@ -1,0 +1,63 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B15
+  source_file: resources/external/interviews/accio-quote/b15-barnes-noble-live-chat.md
+  title: Barnes & Noble chat transcript, Barnes&Noble.com , September 8, 1999
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: 8 September 1999
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/0999-barnesnoble-staff.htm
+  capture_completeness: complete
+  content_sha256: 35050ce6bdc7de440d80e672286fad3c880b43e46daae735658fcc75f47b09b7
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; extracted the direct Hogwarts geography confirmation.
+
+entries:
+  - id: ext-b15-001
+    source_file: resources/external/interviews/accio-quote/b15-barnes-noble-live-chat.md
+    source_id: B15
+    source_url: https://www.accio-quote.org/articles/1999/0999-barnesnoble-staff.htm
+    source_section: Hogwarts location question
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Is Hogwarts possibly located in Scotland?
+      end_phrase: you do indeed arrive in Scotland.
+      local_occurrence_note: Near the end of the chat, in the reader question that infers the school location from King's Cross and the train journey.
+    nearby_context: A reader asks whether the northbound Hogwarts journey from King's Cross indicates a Scottish location.
+    match_terms:
+      - hogwarts
+      - scotland
+      - king's-cross
+    quote_excerpt_short: You are absolutely right. If you travel north from King's Cross, you do indeed arrive in Scotland.
+    source_note: Rowling confirms the reader's inference that the northbound journey from King's Cross places Hogwarts in Scotland.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts-location
+      - scotland
+      - magical-geography
+    candidate_part: 'Part I: Setting and Geography'
+    candidate_chapter: Setting and Geography
+    candidate_section: Scotland
+    reason_for_placement: The claim establishes the school’s geographic setting.
+    relevance_to_hogwarts_a_history: Useful as a location confirmation for a Hogwarts setting overview, while retaining the transcript's preservation status.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-b11-001
+      notes: The indexed B11 entry makes the same Scotland-location claim from a separate preserved interview carrier.
+      audit:
+        query_tags:
+          - hogwarts-location
+          - magical-geography
+          - scotland
+        candidates:
+          - id: ext-b11-001
+            disposition: duplicate
+    confidence: medium
+    limitations: Authority-D preservation transcription of a 1999 live chat; the original publisher URL is unavailable, and the statement confirms geography without giving a precise site.

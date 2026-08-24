@@ -455,6 +455,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b12-001` (None): Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; wording and attribution cannot be checked against the original outlet here.
 - `ext-b12-002` (None): Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; this is a broad authorial interpretation, not an operational account of school security.
 - `ext-b12-003` (None): Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; the statement is general and does not identify any rule or its historical period.
+- `ext-b14-001` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; the statement is undated author commentary and does not establish a historical period or Hogwarts policy.
+- `ext-b14-002` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; this undated author commentary does not establish an institutionally documented admission rule.
+- `ext-b14-003` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; it is extradiegetic author-process commentary, not independent evidence of magical-world history.
+- `ext-b16-001` (None): Authority-D preservation transcription rather than the original outlet; the answer is retrospective authorial design commentary, has no precise in-universe date, and does not independently establish Hogwarts history or continuity.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.

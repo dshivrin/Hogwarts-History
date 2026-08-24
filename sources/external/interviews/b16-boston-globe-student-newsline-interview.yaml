@@ -1,0 +1,89 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B16
+  source_file: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
+  title: Loer, Stephanie. "All about Harry Potter from quidditch to the future of the Sorting Hat," The Boston Globe , October 18, 1999
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: Boston Globe / Student NewsLine
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '18 October 1999'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/1099-bostonglobe-loer.html
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: d6c56f27ecfdead7e3dd236d41435ad7583a9f7685d2993ca4332fb69fcb1a95
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcription snapshot read; one qualified historical design-rationale claim extracted.
+
+entries:
+  - id: ext-b16-001
+    source_file: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
+    source_id: B16
+    source_url: https://www.accio-quote.org/articles/1999/1099-bostonglobe-loer.html
+    source_section: How did you come up with the game of quidditch?
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Actually, if you think about it, there is quite a bit of logic to the game.
+      end_phrase: I made up the name of the game too, because I liked the sound of the word.
+      local_occurrence_note: Rowling's answer to the student question about creating Quidditch.
+    nearby_context: In a 1999 question-and-answer interview, Rowling explains the narrative premise behind creating Quidditch and making it a distinctive Hogwarts sport.
+    match_terms:
+      - quidditch
+      - hogwarts
+      - submerged society
+      - wizards alongside humans
+    quote_excerpt_short: these wizards at Hogwarts had been living for hundreds and hundreds of years in a submerged society
+    source_note: Rowling says her premise for Quidditch was that Hogwarts wizards had long lived inconspicuously alongside humans, so a contemporary spectator sport would draw notice; she therefore made Quidditch a separate flying school sport.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - quidditch
+      - hogwarts
+      - sport
+      - wizarding-secrecy
+      - hidden-society
+    candidate_part: 'Part III: Student Life'
+    candidate_chapter: Student Life and House Identity
+    candidate_section: Quidditch and School Culture
+    reason_for_placement: The claim contextualizes Quidditch as a distinctive school activity shaped by a long-standing hidden wizarding society.
+    relevance_to_hogwarts_a_history: May serve as a clearly qualified editorial note connecting Hogwarts sport to the setting's implied history of wizarding concealment, not as standalone documentary proof.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries cover Quidditch practice, rules, and broader secrecy history, but none states this same authorial design premise.
+      audit:
+        query_tags:
+          - hogwarts
+          - quidditch
+          - sport
+          - wizarding-secrecy
+        candidates:
+          - id: beedle-ch01-001
+            disposition: distinct
+          - id: beedle-ch01-002
+            disposition: distinct
+          - id: cos-ch01-001
+            disposition: distinct
+          - id: cos-ch07-001
+            disposition: distinct
+          - id: cos-ch14-003
+            disposition: distinct
+          - id: dh-ch07-005
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-004
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+    confidence: low
+    limitations: Authority-D preservation transcription rather than the original outlet; the answer is retrospective authorial design commentary, has no precise in-universe date, and does not independently establish Hogwarts history or continuity.

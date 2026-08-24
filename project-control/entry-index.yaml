@@ -21478,6 +21478,71 @@ by_entry:
     - wizard-outcasts
     source_unit: B13
     output_yaml: sources/external/interviews/b13-salon-interview.yaml
+  ext-b14-001:
+    title: 'Admissions and First-Year Preparation: Magical inheritance and Muggle-born
+      occurrence'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - admissions-context
+    - family-background
+    - magical-ability
+    - magical-inheritance
+    - muggle-born
+    source_unit: B14
+    output_yaml: sources/external/interviews/b14-barnes-noble-interview.yaml
+  ext-b14-002:
+    title: 'Admissions and First-Year Preparation: Age of magical manifestation'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - admissions-context
+    - age-eleven
+    - late-blooming
+    - magic-development
+    - magical-ability
+    source_unit: B14
+    output_yaml: sources/external/interviews/b14-barnes-noble-interview.yaml
+  ext-b14-003:
+    title: 'Rules, Limits, and Magical Practice: Authorial construction of magical
+      rules'
+    classification: unknown_or_uncertain
+    reference_type: weak_context_only
+    confidence: medium
+    tags:
+    - author-commentary
+    - limits-of-magic
+    - magical-world
+    - rules-of-magic
+    - worldbuilding
+    source_unit: B14
+    output_yaml: sources/external/interviews/b14-barnes-noble-interview.yaml
+  ext-b15-001:
+    title: 'Setting and Geography: Scotland'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - hogwarts-location
+    - magical-geography
+    - scotland
+    source_unit: B15
+    output_yaml: sources/external/interviews/b15-barnes-noble-live-chat.yaml
+  ext-b16-001:
+    title: 'Student Life and House Identity: Quidditch and School Culture'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - hidden-society
+    - hogwarts
+    - quidditch
+    - sport
+    - wizarding-secrecy
+    source_unit: B16
+    output_yaml: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -23643,6 +23708,8 @@ by_tag:
   - ps-ch05-002
   admissions-context:
   - beedle-ch04-004
+  - ext-b14-001
+  - ext-b14-002
   admissions-process:
   - ext-b04-003
   admissions-register:
@@ -23675,6 +23742,8 @@ by_tag:
   - hbp-ch08-006
   afterlife:
   - ootp-ch38-006
+  age-eleven:
+  - ext-b14-002
   age-line:
   - gof-ch16-003
   - gof-ch16-004
@@ -24034,6 +24103,8 @@ by_tag:
   - hbp-ch30-006
   - ootp-ch23-007
   - ootp-ch36-007
+  author-commentary:
+  - ext-b14-003
   authorial-commentary:
   - ext-b12-001
   - ext-b12-002
@@ -26792,6 +26863,8 @@ by_tag:
   - ext-a22-004
   family-artifacts:
   - dh-ch10-005
+  family-background:
+  - ext-b14-001
   family-care:
   - gof-ch36-002
   - gof-ch37-001
@@ -28431,6 +28504,8 @@ by_tag:
   hidden-rooms:
   - dh-ch27-005
   - ext-a14-003
+  hidden-society:
+  - ext-b16-001
   hidden-staircase:
   - gof-ch28-006
   hidden-trapdoor:
@@ -28631,6 +28706,7 @@ by_tag:
   - ext-b12-001
   - ext-b12-002
   - ext-b12-003
+  - ext-b16-001
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -28828,6 +28904,8 @@ by_tag:
   - qtta-fm-002
   - qtta-fm-004
   - qtta-fm-005
+  hogwarts-location:
+  - ext-b15-001
   hogwarts-memory:
   - cos-ch01-001
   - gof-ch02-004
@@ -29720,6 +29798,8 @@ by_tag:
   - ext-a28-004
   language-learning:
   - ootp-ch30-006
+  late-blooming:
+  - ext-b14-002
   later-context:
   - cos-ch02-001
   later-editorial-note:
@@ -29868,6 +29948,8 @@ by_tag:
   - ootp-ch02-004
   - ootp-ch37-005
   - ps-ch01-003
+  limits-of-magic:
+  - ext-b14-003
   liquid-luck:
   - hbp-ch09-006
   - hbp-ch14-006
@@ -30040,6 +30122,8 @@ by_tag:
   - ootp-ch20-002
   madness:
   - ootp-ch37-003
+  magic-development:
+  - ext-b14-002
   magic-is-might:
   - dh-ch12-006
   magic-outside-school:
@@ -30056,6 +30140,8 @@ by_tag:
   - ext-a03-004
   - ext-a03-005
   - ext-a03-006
+  - ext-b14-001
+  - ext-b14-002
   magical-accidents:
   - ext-a25-002
   - ext-a25-003
@@ -30257,6 +30343,7 @@ by_tag:
   - gof-ch16-002
   magical-geography:
   - ext-b11-001
+  - ext-b15-001
   magical-healing:
   - dh-ch05-005
   magical-historian:
@@ -30283,6 +30370,7 @@ by_tag:
   - ext-a24-005
   magical-inheritance:
   - beedle-ch04-004
+  - ext-b14-001
   magical-injury:
   - gof-ch02-001
   magical-institution-history:
@@ -30512,6 +30600,8 @@ by_tag:
   - gof-ch35-006
   magical-understanding:
   - gof-ch37-005
+  magical-world:
+  - ext-b14-003
   magick-moste-evile:
   - hbp-ch18-002
   magorian:
@@ -31108,6 +31198,7 @@ by_tag:
   - gof-ch09-001
   muggle-born:
   - dh-ch33-003
+  - ext-b14-001
   muggle-born-register:
   - dh-ch11-003
   - dh-ch12-004
@@ -32773,6 +32864,7 @@ by_tag:
   - dh-ch10-004
   - ext-b02-003
   - ext-b11-002
+  - ext-b16-001
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -33221,6 +33313,8 @@ by_tag:
   - poa-ch14-006
   - ps-ch12-005
   - ps-ch15-001
+  rules-of-magic:
+  - ext-b14-003
   runes:
   - dh-ch07-007
   - dh-ch21-002
@@ -33653,6 +33747,7 @@ by_tag:
   - qtta-ch06-001
   scotland:
   - ext-b11-001
+  - ext-b15-001
   scottish-strain:
   - ext-a09-003
   scrimgeour:
@@ -34369,6 +34464,8 @@ by_tag:
   - gof-ch06-001
   - hbp-ch18-003
   - hbp-ch22-001
+  sport:
+  - ext-b16-001
   sports-commentary:
   - gof-ch08-004
   sports-security:
@@ -36400,6 +36497,7 @@ by_tag:
   wizarding-secrecy:
   - beedle-ch01-001
   - beedle-ch01-002
+  - ext-b16-001
   wizarding-society:
   - ext-b02-004
   - gof-ch08-003
@@ -36456,6 +36554,8 @@ by_tag:
   world-cup-1473:
   - ps-ch11-002
   - qtta-ch08-001
+  worldbuilding:
+  - ext-b14-003
   wormtail:
   - dh-ch23-006
   - gof-ch02-006

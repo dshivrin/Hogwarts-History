@@ -1449,6 +1449,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Hogwarts Customs and Ceremonies
   - Sorting and House Assignment
 
+## Part I: Foundations of the Magical World
+
+- Rules, Limits, and Magical Practice
+  - Authorial construction of magical rules
+
 ## Part I: Historical and Cultural Background
 
 - Folklore and the Wizarding World
@@ -1465,6 +1470,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy at Term-Time Travel
   - The Concealed King's Cross Platform
   - The Hogwarts Express and Hogsmeade Station
+
+## Part I: Setting and Geography
+
+- Setting and Geography
+  - Scotland
 
 ## Part I: The Castle and Its Grounds
 
@@ -1544,6 +1554,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Notable Alumni and Staff
   - Minerva McGonagall’s School Years
   - Peter Pettigrew’s School Years
+
+## Part II: School Life and Governance
+
+- Admissions and First-Year Preparation
+  - Age of magical manifestation
+  - Magical inheritance and Muggle-born occurrence
 
 ## Part II: The Castle and Its Living Systems
 
@@ -1692,6 +1708,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part III: Student Life
 
+- Student Life and House Identity
+  - Quidditch and School Culture
 - The Four Houses
   - Sorting Decisions and House Identity
 

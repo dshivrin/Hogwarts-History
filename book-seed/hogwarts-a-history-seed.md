@@ -15977,6 +15977,21 @@ Summary: The available evidence includes 1 source item, led by: A Hatstall is an
   - Reference type: institutional_custom
   - Notes: A 2015 Rowling retrospective supplies the terminology and an approximate frequency, without a dated institutional record or examples beyond those discussed here.
 
+## Part: Part I: Foundations of the Magical World
+
+### Chapter: Rules, Limits, and Magical Practice
+
+#### Section: Authorial construction of magical rules
+
+Summary: The available evidence includes 1 source item, led by: Rowling says she designed rules and limits for magic before inventing the methods wizards use; she characterizes most of that magic as her invention.
+
+- **Context:** Rowling says she designed rules and limits for magic before inventing the methods wizards use; she characterizes most of that magic as her invention.
+  - Quote: "I spent a lot of time inventing the rules for the magical world so that I knew the limits of magic."
+  - Source: B14, https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html, `sources/external/interviews/b14-barnes-noble-interview.yaml`
+  - Classification: unknown_or_uncertain | Confidence: medium
+  - Reference type: weak_context_only
+  - Notes: Authority-D preservation transcription rather than a primary Barnes and Noble record; it is extradiegetic author-process commentary, not independent evidence of magical-world history.
+
 ## Part: Part I: Historical and Cultural Background
 
 ### Chapter: Folklore and the Wizarding World
@@ -16064,6 +16079,22 @@ Summary: The available evidence includes 1 source item, led by: Ottaline Gambol 
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: An official retrospective identifies the transport origin but supplies no date for Gambol's decision or the Hogsmeade station's construction.
+
+## Part: Part I: Setting and Geography
+
+### Chapter: Setting and Geography
+
+#### Section: Scotland
+
+Summary: The available evidence includes 1 source item, led by: Rowling confirms the reader's inference that the northbound journey from King's Cross places Hogwarts in Scotland.
+
+- **Corroboration:** Rowling confirms the reader's inference that the northbound journey from King's Cross places Hogwarts in Scotland.
+  - Quote: "You are absolutely right. If you travel north from King's Cross, you do indeed arrive in Scotland."
+  - Source: B15, https://www.accio-quote.org/articles/1999/0999-barnesnoble-staff.htm, `sources/external/interviews/b15-barnes-noble-live-chat.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ext-b11-001`. The indexed B11 entry makes the same Scotland-location claim from a separate preserved interview carrier.
+  - Notes: Authority-D preservation transcription of a 1999 live chat; the original publisher URL is unavailable, and the statement confirms geography without giving a precise site.
 
 ## Part: Part I: The Castle and Its Grounds
 
@@ -16478,6 +16509,32 @@ Summary: The available evidence includes 1 source item, led by: Peter Pettigrew 
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: house_system
   - Notes: The retrospective gives no exact duration or date for Pettigrew's Sorting and does not independently document the reasons for the two-House deliberation.
+
+## Part: Part II: School Life and Governance
+
+### Chapter: Admissions and First-Year Preparation
+
+#### Section: Age of magical manifestation
+
+Summary: The available evidence includes 1 source item, led by: Rowling says magic usually manifests before age eleven; exceptional late-life magic can occur only rarely in the world she describes.
+
+- **Context:** Rowling says magic usually manifests before age eleven; exceptional late-life magic can occur only rarely in the world she describes.
+  - Quote: "In my books, magic almost always shows itself in a person before age 11."
+  - Source: B14, https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html, `sources/external/interviews/b14-barnes-noble-interview.yaml`
+  - Classification: unknown_or_uncertain | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Authority-D preservation transcription rather than a primary Barnes and Noble record; this undated author commentary does not establish an institutionally documented admission rule.
+
+#### Section: Magical inheritance and Muggle-born occurrence
+
+Summary: The available evidence includes 1 source item, led by: The interview attributes magical ability to an unknown origin, says it can be inherited, and says some magical people are the only such person in their family.
+
+- **Context:** The interview attributes magical ability to an unknown origin, says it can be inherited, and says some magical people are the only such person in their family.
+  - Quote: "Sometimes it seems to be inherited, but others are the only ones in their family who have the ability."
+  - Source: B14, https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html, `sources/external/interviews/b14-barnes-noble-interview.yaml`
+  - Classification: unknown_or_uncertain | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Authority-D preservation transcription rather than a primary Barnes and Noble record; the statement is undated author commentary and does not establish a historical period or Hogwarts policy.
 
 ## Part: Part II: The Castle and Its Living Systems
 
@@ -17315,6 +17372,19 @@ Summary: The available evidence includes 1 source item, led by: As a student, Lo
   - Notes: The account states lobbying, not approval or publication; it is a later retrospective with no date for the proposal.
 
 ## Part: Part III: Student Life
+
+### Chapter: Student Life and House Identity
+
+#### Section: Quidditch and School Culture
+
+Summary: The available evidence includes 1 source item, led by: Rowling says her premise for Quidditch was that Hogwarts wizards had long lived inconspicuously alongside humans, so a contemporary spectator sport would draw notice; she therefore made Quidditch a separate flying school sport.
+
+- **Supporting evidence:** Rowling says her premise for Quidditch was that Hogwarts wizards had long lived inconspicuously alongside humans, so a contemporary spectator sport would draw notice; she therefore made Quidditch a separate flying school sport.
+  - Quote: "these wizards at Hogwarts had been living for hundreds and hundreds of years in a submerged society"
+  - Source: B16, https://www.accio-quote.org/articles/1999/1099-bostonglobe-loer.html, `sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: historical_claim
+  - Notes: Authority-D preservation transcription rather than the original outlet; the answer is retrospective authorial design commentary, has no precise in-universe date, and does not independently establish Hogwarts history or continuity.
 
 ### Chapter: The Four Houses
 

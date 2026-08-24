@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 267
+- Total: 270
 
 ## Entries by Book or External Source
 
@@ -62,6 +62,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B11 — Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow], 24 June 1997.: 3
 - B12 — Carey, Joanna. "Who hasn't met Harry?" Guardian Unlimited , February 16, 1999: 3
 - B13 — Weir, Margaret. "Of magic and single motherhood," Salon , 1999: 3
+- B14 — Barnes and Noble interview, March 19, 1999: 3
+- B15 — Barnes & Noble chat transcript, Barnes&Noble.com , September 8, 1999: 1
+- B16 — Loer, Stephanie. "All about Harry Potter from quidditch to the future of the Sorting Hat," The Boston Globe , October 18, 1999: 1
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -74,12 +77,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 542
+- harry_era_confirmation: 543
 - later_editorial_note: 699
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 33
-- pre_1984_historical_candidate: 287
-- unknown_or_uncertain: 19
+- pre_1984_historical_candidate: 288
+- unknown_or_uncertain: 22
 
 ## Entries by Reference Type
 
@@ -88,14 +91,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 304
+- historical_claim: 308
 - house_system: 40
 - institutional_custom: 218
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
 - school_rule_or_policy: 160
 - security_or_protection: 245
-- weak_context_only: 8
+- weak_context_only: 9
 
 ## Explicit `Hogwarts: A History` References
 
@@ -103,12 +106,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1033
+- Total: 1034
 
 ## Latest Processed Unit
 
-- `B13` — Weir, Margaret. "Of magic and single motherhood," Salon , 1999, input `resources/external/interviews/accio-quote/b13-salon-interview.md`, output `sources/external/interviews/b13-salon-interview.yaml`
+- `B16` — Loer, Stephanie. "All about Harry Potter from quidditch to the future of the Sorting Hat," The Boston Globe , October 18, 1999, input `resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md`, output `sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml`
 
 ## Next Pending Unit
 
-- `B14` — Barnes and Noble interview, March 19, 1999, input `resources/external/interviews/accio-quote/b14-barnes-noble-interview.md`, output `sources/external/interviews/b14-barnes-noble-interview.yaml`
+- `B17` — Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR Radio), 12 October, 1999, input `resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md`, output `sources/external/interviews/b17-the-connection-wbur-radio.yaml`
