@@ -14,14 +14,14 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B17
-  title: Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR
-    Radio), 12 October, 1999
+  id: B20
+  title: Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20
+    October, 2000
   status: pending
-  input_path: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
-  output_file: sources/external/interviews/b17-the-connection-wbur-radio.yaml
-  staging_file: work/external-staging/b17.yaml
-  manifest_id: external-B17
+  input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+  output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+  staging_file: work/external-staging/b20.yaml
+  manifest_id: external-B20
   claimed_by: null
   claimed_at: null
 indexes:
@@ -61,41 +61,41 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 10
+    pending: 7
     in_progress: 0
-    done: 53
+    done: 56
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B17
-    title: Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR
-      Radio), 12 October, 1999
+    id: B20
+    title: Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com ,
+      20 October, 2000
     status: pending
-    input_path: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
-    output_file: sources/external/interviews/b17-the-connection-wbur-radio.yaml
-    staging_file: work/external-staging/b17.yaml
-    manifest_id: external-B17
+    input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+    output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+    staging_file: work/external-staging/b20.yaml
+    manifest_id: external-B20
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B16
-    title: Loer, Stephanie. "All about Harry Potter from quidditch to the future of
-      the Sorting Hat," The Boston Globe , October 18, 1999
+    id: B19
+    title: '"World Exclusive Interview with J K Rowling," South West News Service
+      , 8 July 2000'
     status: done
-    input_path: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
-    output_file: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
-    staging_file: work/external-staging/b16.yaml
-    manifest_id: external-B16
+    input_path: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+    output_file: sources/external/interviews/b19-south-west-news-service-interview.yaml
+    staging_file: work/external-staging/b19.yaml
+    manifest_id: external-B19
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B16
-  title: Loer, Stephanie. "All about Harry Potter from quidditch to the future of
-    the Sorting Hat," The Boston Globe , October 18, 1999
+  id: B19
+  title: '"World Exclusive Interview with J K Rowling," South West News Service ,
+    8 July 2000'
   status: done
-  input_path: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
-  output_file: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
-  staging_file: work/external-staging/b16.yaml
-  manifest_id: external-B16
+  input_path: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+  output_file: sources/external/interviews/b19-south-west-news-service-interview.yaml
+  staging_file: work/external-staging/b19.yaml
+  manifest_id: external-B19
   claimed_by: null
   claimed_at: null

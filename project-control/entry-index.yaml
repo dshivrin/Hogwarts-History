@@ -21543,6 +21543,92 @@ by_entry:
     - wizarding-secrecy
     source_unit: B16
     output_yaml: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
+  ext-b17-001:
+    title: 'Magical Knowledge and Its Limits: Magical limits and mortality'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - death
+    - magical-limits
+    - natural-law
+    - resurrection
+    source_unit: B17
+    output_yaml: sources/external/interviews/b17-the-connection-wbur-radio.yaml
+  ext-b17-002:
+    title: 'School Staff and Traditions: Staff composition and representation'
+    classification: post_1984_excluded_from_original
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - hogwarts
+    - staff
+    - teachers
+    - women
+    source_unit: B17
+    output_yaml: sources/external/interviews/b17-the-connection-wbur-radio.yaml
+  ext-b18-001:
+    title: 'Holiday Conduct and Underage Magic: Age of Majority and Magic Outside
+      School'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: medium
+    tags:
+    - age-of-majority
+    - hogwarts-duration
+    - magic-outside-school
+    - wizarding-adulthood
+    source_unit: B18
+    output_yaml: sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+  ext-b18-002:
+    title: 'Student Life and House Identity: Quidditch Rules and Scoring'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - quidditch
+    - school-quidditch
+    - scoring
+    - snitch
+    source_unit: B18
+    output_yaml: sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+  ext-b18-003:
+    title: 'Admissions and First-Year Preparation: Acceptance Letters and Departure
+      Instructions'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - hogwarts-admissions
+    - hogwarts-express
+    - hogwarts-letters
+    - platform-nine-and-three-quarters
+    source_unit: B18
+    output_yaml: sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+  ext-b19-001:
+    title: 'Setting and Geography: School Catchment'
+    classification: harry_era_confirmation
+    reference_type: school_rule_or_policy
+    confidence: low
+    tags:
+    - britain
+    - ireland
+    - school-admissions
+    - wizarding-schools
+    source_unit: B19
+    output_yaml: sources/external/interviews/b19-south-west-news-service-interview.yaml
+  ext-b19-002:
+    title: 'Protective Magic and Security: Concealment from Muggles'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: low
+    tags:
+    - castle-enchantments
+    - muggle-visibility
+    - safety-precaution
+    - school-protection
+    source_unit: B19
+    output_yaml: sources/external/interviews/b19-south-west-news-service-interview.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -23749,6 +23835,8 @@ by_tag:
   - gof-ch16-004
   - gof-ch17-002
   - gof-ch17-003
+  age-of-majority:
+  - ext-b18-001
   age-restriction:
   - gof-ch12-007
   - gof-ch17-001
@@ -24532,6 +24620,8 @@ by_tag:
   - hbp-ch24-002
   brick-entrance:
   - poa-ch04-001
+  britain:
+  - ext-b19-001
   british-fireplaces:
   - ext-a24-005
   broderick-bode:
@@ -24752,6 +24842,8 @@ by_tag:
   - dh-ch32-002
   castle-doors:
   - hbp-ch22-003
+  castle-enchantments:
+  - ext-b19-002
   castle-entry:
   - dh-ch27-006
   castle-floorplan:
@@ -25634,6 +25726,7 @@ by_tag:
   - dh-ch23-004
   death:
   - beedle-ch04-001
+  - ext-b17-001
   - ootp-ch38-006
   death-chamber:
   - ootp-ch34-005
@@ -28707,6 +28800,7 @@ by_tag:
   - ext-b12-002
   - ext-b12-003
   - ext-b16-001
+  - ext-b17-002
   - gof-ch02-001
   - gof-ch07-003
   - gof-ch07-007
@@ -28732,6 +28826,7 @@ by_tag:
   - ext-b07-003
   hogwarts-admissions:
   - ext-b04-003
+  - ext-b18-003
   - hbp-ch13-003
   hogwarts-age:
   - dh-ch23-001
@@ -28769,6 +28864,8 @@ by_tag:
   - dh-ch33-004
   hogwarts-danger:
   - cos-ch02-002
+  hogwarts-duration:
+  - ext-b18-001
   hogwarts-education:
   - hbp-ch07-007
   hogwarts-enrolment:
@@ -28792,6 +28889,7 @@ by_tag:
   - ext-a04-005
   - ext-a19-001
   - ext-a19-002
+  - ext-b18-003
   - gof-ch03-003
   - gof-ch11-002
   - hbp-ch07-001
@@ -28886,6 +28984,7 @@ by_tag:
   - cos-ch01-004
   - cos-ch06-005
   - dh-ch33-003
+  - ext-b18-003
   - poa-ch01-003
   - ps-ch03-001
   - ps-ch03-002
@@ -29645,6 +29744,8 @@ by_tag:
   - cos-ch11-005
   invisibility-spell:
   - ootp-ch24-007
+  ireland:
+  - ext-b19-001
   irma-pince:
   - qtta-fm-002
   - qtta-fm-004
@@ -30128,6 +30229,7 @@ by_tag:
   - dh-ch12-006
   magic-outside-school:
   - cos-ch01-005
+  - ext-b18-001
   - gof-ch02-003
   magic-restriction:
   - cos-ch07-005
@@ -30406,6 +30508,7 @@ by_tag:
   - beedle-ch04-001
   - beedle-ch04-005
   - ext-a25-001
+  - ext-b17-001
   - hbp-ch24-002
   magical-literature:
   - beedle-ch04-002
@@ -31366,6 +31469,7 @@ by_tag:
   muggle-visibility:
   - dh-ch04-005
   - dh-ch09-003
+  - ext-b19-002
   muggle-witness:
   - dh-ch09-004
   - ootp-ch01-005
@@ -31418,6 +31522,8 @@ by_tag:
   - ps-ch13-001
   narcissa-malfoy:
   - ootp-ch37-004
+  natural-law:
+  - ext-b17-001
   nature-reserve:
   - ext-a09-001
   nature-s-nobility:
@@ -32138,6 +32244,7 @@ by_tag:
   - cos-ch05-001
   - dh-ch33-004
   - ext-a19-002
+  - ext-b18-003
   - gof-ch11-002
   - hbp-ch07-001
   - ootp-ch10-001
@@ -32865,6 +32972,7 @@ by_tag:
   - ext-b02-003
   - ext-b11-002
   - ext-b16-001
+  - ext-b18-002
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -33190,6 +33298,8 @@ by_tag:
   - hbp-ch18-002
   - ps-ch12-004
   - ps-ch12-005
+  resurrection:
+  - ext-b17-001
   resurrection-stone:
   - beedle-ch05-002
   - dh-ch21-003
@@ -33337,6 +33447,8 @@ by_tag:
   - cos-ch06-003
   - gof-ch13-002
   - hbp-ch14-001
+  safety-precaution:
+  - ext-b19-002
   salamanders:
   - cos-ch08-003
   salazar-slytherin:
@@ -33368,6 +33480,8 @@ by_tag:
   school-absence-cover:
   - dh-ch06-005
   - gof-ch02-003
+  school-admissions:
+  - ext-b19-001
   school-age-youth:
   - dh-ch19-007
   - dh-ch23-001
@@ -33585,6 +33699,7 @@ by_tag:
   school-property:
   - cos-ch05-003
   school-protection:
+  - ext-b19-002
   - gof-ch15-006
   - gof-ch29-001
   - hbp-ch04-001
@@ -33599,6 +33714,8 @@ by_tag:
   school-protections:
   - gof-ch11-005
   - gof-ch28-003
+  school-quidditch:
+  - ext-b18-002
   school-records:
   - ext-a17-001
   - hbp-ch17-006
@@ -33737,6 +33854,7 @@ by_tag:
   schoolwork:
   - ext-a32-001
   scoring:
+  - ext-b18-002
   - gof-ch20-007
   - gof-ch26-005
   - ps-ch11-005
@@ -34323,6 +34441,7 @@ by_tag:
   - hbp-ch05-002
   snitch:
   - cos-ch07-001
+  - ext-b18-002
   - ps-ch13-005
   snitch-capture:
   - qtta-ch10-002
@@ -34498,6 +34617,7 @@ by_tag:
   stadium:
   - gof-ch08-001
   staff:
+  - ext-b17-002
   - ps-ch05-004
   staff-absence:
   - ootp-ch20-006
@@ -35285,6 +35405,7 @@ by_tag:
   teachers:
   - cos-ch12-002
   - ext-a14-002
+  - ext-b17-002
   teaching:
   - ext-a12-004
   teaching-methods:
@@ -36383,6 +36504,8 @@ by_tag:
   - ext-b13-003
   wizard-school:
   - cos-ch01-004
+  wizarding-adulthood:
+  - ext-b18-001
   wizarding-belief:
   - dh-ch21-001
   wizarding-biography:
@@ -36491,6 +36614,7 @@ by_tag:
   - ext-a28-002
   - ext-a28-003
   - ext-a28-004
+  - ext-b19-001
   - gof-ch07-003
   - gof-ch09-002
   - gof-ch11-004
@@ -36539,6 +36663,8 @@ by_tag:
   - poa-ch18-002
   - poa-ch19-001
   - poa-ch20-002
+  women:
+  - ext-b17-002
   wood-lice:
   - ootp-ch13-004
   working-conditions:

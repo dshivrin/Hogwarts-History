@@ -344,6 +344,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-16-the-goblet-of-fire.yaml
     - sources/book-04/chapter-17-the-four-champions.yaml
+  age-of-majority:
+    entries:
+    - ext-b18-001
+    output_yaml:
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   age-restriction:
     entries:
     - gof-ch12-007
@@ -1989,6 +1994,11 @@ tags:
     - poa-ch04-001
     output_yaml:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  britain:
+    entries:
+    - ext-b19-001
+    output_yaml:
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   british-fireplaces:
     entries:
     - ext-a24-005
@@ -2461,6 +2471,11 @@ tags:
     - hbp-ch22-003
     output_yaml:
     - sources/book-06/chapter-22-after-the-burial.yaml
+  castle-enchantments:
+    entries:
+    - ext-b19-002
+    output_yaml:
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   castle-entry:
     entries:
     - dh-ch27-006
@@ -4379,10 +4394,12 @@ tags:
   death:
     entries:
     - beedle-ch04-001
+    - ext-b17-001
     - ootp-ch38-006
     output_yaml:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
   death-chamber:
     entries:
     - ootp-ch34-005
@@ -10635,6 +10652,7 @@ tags:
     - ext-b12-002
     - ext-b12-003
     - ext-b16-001
+    - ext-b17-002
     - gof-ch02-001
     - gof-ch07-003
     - gof-ch07-007
@@ -10669,6 +10687,7 @@ tags:
     - sources/external/interviews/b11-the-herald-interview.yaml
     - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
     - sources/external/official-rowling/a12-professor-mcgonagall.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
@@ -10710,10 +10729,12 @@ tags:
   hogwarts-admissions:
     entries:
     - ext-b04-003
+    - ext-b18-003
     - hbp-ch13-003
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   hogwarts-age:
     entries:
     - dh-ch23-001
@@ -10794,6 +10815,11 @@ tags:
     - cos-ch02-002
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
+  hogwarts-duration:
+    entries:
+    - ext-b18-001
+    output_yaml:
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   hogwarts-education:
     entries:
     - hbp-ch07-007
@@ -10831,6 +10857,7 @@ tags:
     - ext-a04-005
     - ext-a19-001
     - ext-a19-002
+    - ext-b18-003
     - gof-ch03-003
     - gof-ch11-002
     - hbp-ch07-001
@@ -10869,6 +10896,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
   hogwarts-fireplaces:
@@ -11029,6 +11057,7 @@ tags:
     - cos-ch01-004
     - cos-ch06-005
     - dh-ch33-003
+    - ext-b18-003
     - poa-ch01-003
     - ps-ch03-001
     - ps-ch03-002
@@ -11044,6 +11073,7 @@ tags:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-03/chapter-01-owl-post.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   hogwarts-library:
     entries:
     - beedle-ch02-007
@@ -12640,6 +12670,11 @@ tags:
     - ootp-ch24-007
     output_yaml:
     - sources/book-05/chapter-24-occlumency.yaml
+  ireland:
+    entries:
+    - ext-b19-001
+    output_yaml:
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   irma-pince:
     entries:
     - qtta-fm-002
@@ -13686,10 +13721,12 @@ tags:
   magic-outside-school:
     entries:
     - cos-ch01-005
+    - ext-b18-001
     - gof-ch02-003
     output_yaml:
     - sources/book-02/chapter-01-worst-birthday.yaml
     - sources/book-04/chapter-02-the-scar.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   magic-restriction:
     entries:
     - cos-ch07-005
@@ -14265,10 +14302,12 @@ tags:
     - beedle-ch04-001
     - beedle-ch04-005
     - ext-a25-001
+    - ext-b17-001
     - hbp-ch24-002
     output_yaml:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
     - sources/external/official-rowling/a25-time-turner.yaml
   magical-literature:
     entries:
@@ -16339,9 +16378,11 @@ tags:
     entries:
     - dh-ch04-005
     - dh-ch09-003
+    - ext-b19-002
     output_yaml:
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   muggle-witness:
     entries:
     - dh-ch09-004
@@ -16458,6 +16499,11 @@ tags:
     - ootp-ch37-004
     output_yaml:
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
+  natural-law:
+    entries:
+    - ext-b17-001
+    output_yaml:
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
   nature-reserve:
     entries:
     - ext-a09-001
@@ -17993,6 +18039,7 @@ tags:
     - cos-ch05-001
     - dh-ch33-004
     - ext-a19-002
+    - ext-b18-003
     - gof-ch11-002
     - hbp-ch07-001
     - ootp-ch10-001
@@ -18010,6 +18057,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
   player-discipline:
     entries:
@@ -19531,6 +19579,7 @@ tags:
     - ext-b02-003
     - ext-b11-002
     - ext-b16-001
+    - ext-b18-002
     - gof-ch05-005
     - gof-ch06-004
     - gof-ch08-004
@@ -19605,6 +19654,7 @@ tags:
     - sources/external/interviews/b02-scholastic-live-chat.yaml
     - sources/external/interviews/b11-the-herald-interview.yaml
     - sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   quidditch-ban:
     entries:
     - ootp-ch19-007
@@ -20201,6 +20251,11 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  resurrection:
+    entries:
+    - ext-b17-001
+    output_yaml:
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
   resurrection-stone:
     entries:
     - beedle-ch05-002
@@ -20518,6 +20573,11 @@ tags:
     - sources/book-02/chapter-06-gilderoy-lockhart.yaml
     - sources/book-04/chapter-13-mad-eye-moody.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
+  safety-precaution:
+    entries:
+    - ext-b19-002
+    output_yaml:
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   salamanders:
     entries:
     - cos-ch08-003
@@ -20586,6 +20646,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  school-admissions:
+    entries:
+    - ext-b19-001
+    output_yaml:
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   school-age-youth:
     entries:
     - dh-ch19-007
@@ -21063,6 +21128,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
   school-protection:
     entries:
+    - ext-b19-002
     - gof-ch15-006
     - gof-ch29-001
     - hbp-ch04-001
@@ -21083,6 +21149,7 @@ tags:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
   school-protections:
     entries:
     - gof-ch11-005
@@ -21090,6 +21157,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  school-quidditch:
+    entries:
+    - ext-b18-002
+    output_yaml:
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   school-records:
     entries:
     - ext-a17-001
@@ -21393,6 +21465,7 @@ tags:
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   scoring:
     entries:
+    - ext-b18-002
     - gof-ch20-007
     - gof-ch26-005
     - ps-ch11-005
@@ -21405,6 +21478,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   scoring-areas:
     entries:
     - qtta-ch06-001
@@ -22608,10 +22682,12 @@ tags:
   snitch:
     entries:
     - cos-ch07-001
+    - ext-b18-002
     - ps-ch13-005
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   snitch-capture:
     entries:
     - qtta-ch10-002
@@ -22985,9 +23061,11 @@ tags:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   staff:
     entries:
+    - ext-b17-002
     - ps-ch05-004
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
   staff-absence:
     entries:
     - ootp-ch20-006
@@ -24728,8 +24806,10 @@ tags:
     entries:
     - cos-ch12-002
     - ext-a14-002
+    - ext-b17-002
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
   teaching:
     entries:
@@ -27079,6 +27159,11 @@ tags:
     - cos-ch01-004
     output_yaml:
     - sources/book-02/chapter-01-worst-birthday.yaml
+  wizarding-adulthood:
+    entries:
+    - ext-b18-001
+    output_yaml:
+    - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
   wizarding-belief:
     entries:
     - dh-ch21-001
@@ -27320,6 +27405,7 @@ tags:
     - ext-a28-002
     - ext-a28-003
     - ext-a28-004
+    - ext-b19-001
     - gof-ch07-003
     - gof-ch09-002
     - gof-ch11-004
@@ -27327,6 +27413,7 @@ tags:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/external/interviews/b19-south-west-news-service-interview.yaml
     - sources/external/official-rowling/a28-wizarding-schools.yaml
   wizarding-secrecy:
     entries:
@@ -27428,6 +27515,11 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
+  women:
+    entries:
+    - ext-b17-002
+    output_yaml:
+    - sources/external/interviews/b17-the-connection-wbur-radio.yaml
   wood-lice:
     entries:
     - ootp-ch13-004

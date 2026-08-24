@@ -4353,6 +4353,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
 
 ### Chapter: Holiday Conduct and Underage Magic
 
+#### Section: Age of Majority and Magic Outside School
+
+Summary: The available evidence includes 1 source item, led by: Rowling describes Harry's Hogwarts attendance as a seven-year course and says wizarding adulthood at seventeen permits magic outside school.
+
+- **Supporting evidence:** Rowling describes Harry's Hogwarts attendance as a seven-year course and says wizarding adulthood at seventeen permits magic outside school.
+  - Quote: "In my world wizards come of age at 17."
+  - Source: B18, https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm, `sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: school_rule_or_policy
+  - Notes: Preserved Accio Quote transcription with authority D; a 1999 author interview confirms Harry-era policy but provides no historical date, legal source, or pre-1984 evidence.
+
 #### Section: Magic Outside School
 
 Summary: The available evidence includes 1 source item, led by: The chapter states a general rule that underage wizards may not use magic outside school, and shows Harry relying on the Dursleys' ignorance of that rule.
@@ -8225,6 +8236,20 @@ Summary: The available evidence includes 1 source item, led by: The diary presen
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: explicit_in_universe_source
   - Notes: Riddle controls what the diary shows and says; later evidence must test the memory's completeness and reliability.
+
+### Chapter: Magical Knowledge and Its Limits
+
+#### Section: Magical limits and mortality
+
+Summary: The available evidence includes 1 source item, led by: Rowling says she established that magic cannot revive a properly dead person and that this natural law applies to wizards and Muggles alike.
+
+- **Corroboration:** Rowling says she established that magic cannot revive a properly dead person and that this natural law applies to wizards and Muggles alike.
+  - Quote: "magic cannot bring dead people back to life"
+  - Source: B17, https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm, `sources/external/interviews/b17-the-connection-wbur-radio.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: historical_claim
+  - Corroborates: `beedle-ch04-001`. The Beedle commentary is the stronger primary in-universe source for the same no-resurrection rule; this transcript adds only retrospective authorial framing.
+  - Notes: Authority-D preservation transcription rather than the original WBUR carrier; retrospective author commentary has no in-universe date and repeats a stronger in-universe account.
 
 ### Chapter: Magical Sources and Cultural Memory
 
@@ -14828,6 +14853,17 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore's alt
 
 ### Chapter: School Staff and Traditions
 
+#### Section: Staff composition and representation
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that the Hogwarts staff list was designed with an equal number of women and men teaching.
+
+- **Context:** Rowling states that the Hogwarts staff list was designed with an equal number of women and men teaching.
+  - Quote: "exactly 50% women and 50% men as teachers"
+  - Source: B17, https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm, `sources/external/interviews/b17-the-connection-wbur-radio.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: low
+  - Reference type: historical_claim
+  - Notes: Authority-D preservation transcription rather than the original WBUR carrier; the statement is an undated authorial design assertion, does not identify the staff roster, and concerns post-1984 Harry-era material.
+
 #### Section: Staff travel and acquired artefacts
 
 Summary: The available evidence includes 1 source item, led by: Teachers have repeatedly brought artefacts back from their travels; the article offers this as a possible, not confirmed, explanation for the mirror's arrival.
@@ -16084,6 +16120,17 @@ Summary: The available evidence includes 1 source item, led by: Ottaline Gambol 
 
 ### Chapter: Setting and Geography
 
+#### Section: School Catchment
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that Hogwarts serves Britain and Ireland, while American children attend a different school.
+
+- **Supporting evidence:** Rowling states that Hogwarts serves Britain and Ireland, while American children attend a different school.
+  - Quote: "Hogwarts just serves Britain and Ireland."
+  - Source: B19, https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm, `sources/external/interviews/b19-south-west-news-service-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: school_rule_or_policy
+  - Notes: Authority-D preservation transcription rather than the original outlet; the 2000 answer confirms a Harry-era setting detail but gives neither the policy’s origin nor pre-1984 evidence.
+
 #### Section: Scotland
 
 Summary: The available evidence includes 1 source item, led by: Rowling confirms the reader's inference that the northbound journey from King's Cross places Hogwarts in Scotland.
@@ -16931,6 +16978,17 @@ Summary: The available evidence includes 1 source item, led by: The Ministry sur
 
 ### Chapter: Admissions and First-Year Preparation
 
+#### Section: Acceptance Letters and Departure Instructions
+
+Summary: The available evidence includes 1 source item, led by: Rowling's Harry-era summary links Hogwarts acceptance letters to a 1 September departure from platform nine and three-quarters by train.
+
+- **Supporting evidence:** Rowling's Harry-era summary links Hogwarts acceptance letters to a 1 September departure from platform nine and three-quarters by train.
+  - Quote: "telling him he's got a place"
+  - Source: B18, https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm, `sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Preserved Accio Quote transcription with authority D; this is a Harry-era plot summary, not a pre-1984 admissions record or evidence for the platform's historical creation.
+
 #### Section: Education Before Hogwarts
 
 Summary: The available evidence includes 1 source item, led by: Rowling says witches and wizards are not required to attend Muggle school before beginning at Hogwarts.
@@ -16954,6 +17012,17 @@ Summary: The available evidence includes 1 source item, led by: Rowling gives an
   - Classification: harry_era_confirmation | Confidence: medium
   - Reference type: historical_claim
   - Notes: Preserved Accio Quote transcription rather than a first-party Scholastic record; the answer is approximate and gives no House or year distribution.
+
+#### Section: Quidditch Rules and Scoring
+
+Summary: The available evidence includes 1 source item, led by: Rowling says a team can win without catching the Snitch only when it leads by more than 150 points; school matches normally end with a Snitch catch.
+
+- **Supporting evidence:** Rowling says a team can win without catching the Snitch only when it leads by more than 150 points; school matches normally end with a Snitch catch.
+  - Quote: "they have to be more than 150 points up on goals"
+  - Source: B18, https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm, `sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Preserved Accio Quote transcription with authority D; the answer is a concise authorial explanation and does not supply a formal Quidditch rulebook or historical date.
 
 #### Section: Quidditch and School Culture
 
@@ -17279,6 +17348,21 @@ Summary: The available evidence includes 1 source item, led by: Professor Binns,
   - Reference type: curriculum_or_subject
   - Corroborates: `ps-ch08-005`. The Philosopher's Stone entry states the same Binns origin and continued teaching; later classroom entries corroborate the subject's routine operation.
   - Notes: This overview does not date Binns's death, appointment, or the beginning of his ghostly teaching.
+
+## Part: Part III: Magical Architecture and Enchantments
+
+### Chapter: Protective Magic and Security
+
+#### Section: Concealment from Muggles
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Muggles looking toward Hogwarts see an unsafe ruin rather than the castle, describing the concealment as a safety precaution.
+
+- **Supporting evidence:** Rowling says Muggles looking toward Hogwarts see an unsafe ruin rather than the castle, describing the concealment as a safety precaution.
+  - Quote: "as a safety precaution, they see a ruin with a sign saying it's unsafe"
+  - Source: B19, https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm, `sources/external/interviews/b19-south-west-news-service-interview.yaml`
+  - Classification: harry_era_confirmation | Confidence: low
+  - Reference type: security_or_protection
+  - Notes: Authority-D preservation transcription rather than the original outlet; the 2000 answer retrospectively explains a Harry-era depiction and does not establish when the enchantment was created or its full mechanism.
 
 ## Part: Part III: People, Houses, and Institutional Memory
 

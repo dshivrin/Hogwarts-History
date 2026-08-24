@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 270
+- Total: 273
 
 ## Entries by Book or External Source
 
@@ -65,6 +65,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B14 — Barnes and Noble interview, March 19, 1999: 3
 - B15 — Barnes & Noble chat transcript, Barnes&Noble.com , September 8, 1999: 1
 - B16 — Loer, Stephanie. "All about Harry Potter from quidditch to the future of the Sorting Hat," The Boston Globe , October 18, 1999: 1
+- B17 — Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR Radio), 12 October, 1999: 2
+- B18 — J.K. Rowling on The Diane Rehm Show, WAMU Radio Washington, D.C. , October 20, 1999 (re-broadcast December 24, 1999): 3
+- B19 — "World Exclusive Interview with J K Rowling," South West News Service , 8 July 2000: 2
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -77,11 +80,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 543
+- harry_era_confirmation: 548
 - later_editorial_note: 699
 - original_book_core_candidate: 13
-- post_1984_excluded_from_original: 33
-- pre_1984_historical_candidate: 288
+- post_1984_excluded_from_original: 34
+- pre_1984_historical_candidate: 289
 - unknown_or_uncertain: 22
 
 ## Entries by Reference Type
@@ -91,13 +94,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 308
+- historical_claim: 310
 - house_system: 40
-- institutional_custom: 218
+- institutional_custom: 220
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
-- school_rule_or_policy: 160
-- security_or_protection: 245
+- school_rule_or_policy: 162
+- security_or_protection: 246
 - weak_context_only: 9
 
 ## Explicit `Hogwarts: A History` References
@@ -106,12 +109,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1034
+- Total: 1035
 
 ## Latest Processed Unit
 
-- `B16` — Loer, Stephanie. "All about Harry Potter from quidditch to the future of the Sorting Hat," The Boston Globe , October 18, 1999, input `resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md`, output `sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml`
+- `B19` — "World Exclusive Interview with J K Rowling," South West News Service , 8 July 2000, input `resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md`, output `sources/external/interviews/b19-south-west-news-service-interview.yaml`
 
 ## Next Pending Unit
 
-- `B17` — Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR Radio), 12 October, 1999, input `resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md`, output `sources/external/interviews/b17-the-connection-wbur-radio.yaml`
+- `B20` — Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20 October, 2000, input `resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md`, output `sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml`

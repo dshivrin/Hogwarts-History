@@ -459,6 +459,10 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b14-002` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; this undated author commentary does not establish an institutionally documented admission rule.
 - `ext-b14-003` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; it is extradiegetic author-process commentary, not independent evidence of magical-world history.
 - `ext-b16-001` (None): Authority-D preservation transcription rather than the original outlet; the answer is retrospective authorial design commentary, has no precise in-universe date, and does not independently establish Hogwarts history or continuity.
+- `ext-b17-001` (None): Authority-D preservation transcription rather than the original WBUR carrier; retrospective author commentary has no in-universe date and repeats a stronger in-universe account.
+- `ext-b17-002` (None): Authority-D preservation transcription rather than the original WBUR carrier; the statement is an undated authorial design assertion, does not identify the staff roster, and concerns post-1984 Harry-era material.
+- `ext-b19-001` (None): Authority-D preservation transcription rather than the original outlet; the 2000 answer confirms a Harry-era setting detail but gives neither the policy’s origin nor pre-1984 evidence.
+- `ext-b19-002` (None): Authority-D preservation transcription rather than the original outlet; the 2000 answer retrospectively explains a Harry-era depiction and does not establish when the enchantment was created or its full mechanism.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.

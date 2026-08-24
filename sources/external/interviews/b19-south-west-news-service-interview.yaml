@@ -1,0 +1,132 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B19
+  source_file: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+  title: '"World Exclusive Interview with J K Rowling," South West News Service , 8 July 2000'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: South West News Service
+  source_class: preservation_transcription
+  authority: D
+  publication_date: July 2000
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: 9290d32a88b4b331da8f75fe81589003a806a03f0f3e32278cd2b203dcf0622b
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcription snapshot read; two bounded institutional confirmations extracted with their Harry-era dating and carrier limitations retained.
+
+entries:
+  - id: ext-b19-001
+    source_file: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+    source_id: B19
+    source_url: https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm
+    source_section: Can American kids go to Hogwarts?
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Can American kids go to Hogwarts ?
+      end_phrase: Hogwarts just serves Britain and Ireland.
+      local_occurrence_note: Opening question-and-answer pair, immediately after the interviewer’s introduction.
+    nearby_context: Rowling answers a reader question about whether American children may attend Hogwarts and contrasts it with their own school.
+    match_terms:
+      - hogwarts
+      - britain
+      - ireland
+      - school admissions
+    quote_excerpt_short: Hogwarts just serves Britain and Ireland.
+    source_note: Rowling states that Hogwarts serves Britain and Ireland, while American children attend a different school.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - school-admissions
+      - britain
+      - ireland
+      - wizarding-schools
+    candidate_part: 'Part I: Setting and Geography'
+    candidate_chapter: Setting and Geography
+    candidate_section: School Catchment
+    reason_for_placement: The statement defines Hogwarts’s stated regional school catchment.
+    relevance_to_hogwarts_a_history: Useful as a later authorial confirmation of the school’s geographic remit; it should be distinguished from evidence dating the policy before 1984.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The current compact index has no candidate sharing the focused catchment tags.
+      audit:
+        query_tags:
+          - britain
+          - ireland
+          - school-admissions
+        candidates: []
+    confidence: low
+    limitations: Authority-D preservation transcription rather than the original outlet; the 2000 answer confirms a Harry-era setting detail but gives neither the policy’s origin nor pre-1984 evidence.
+
+  - id: ext-b19-002
+    source_file: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+    source_id: B19
+    source_url: https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm
+    source_section: Can Muggles see Hogwarts?
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Can Muggles see Hogwarts ?
+      end_phrase: They can't see it as it really is.
+      local_occurrence_note: Early question-and-answer pair following the school-catchment question.
+    nearby_context: Rowling explains what non-magical people see when looking toward Hogwarts and identifies the effect as a safety precaution.
+    match_terms:
+      - hogwarts
+      - muggles
+      - safety precaution
+      - ruin appearance
+    quote_excerpt_short: as a safety precaution, they see a ruin with a sign saying it's unsafe
+    source_note: Rowling says Muggles looking toward Hogwarts see an unsafe ruin rather than the castle, describing the concealment as a safety precaution.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - muggle-visibility
+      - school-protection
+      - safety-precaution
+      - castle-enchantments
+    candidate_part: 'Part III: Magical Architecture and Enchantments'
+    candidate_chapter: Protective Magic and Security
+    candidate_section: Concealment from Muggles
+    reason_for_placement: The claim describes a protective visual enchantment operating at the school boundary.
+    relevance_to_hogwarts_a_history: Useful as a later confirmation of a likely long-standing protective feature, while its inception remains undated and outside the pre-1984 evidence record.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed Hogwarts protections and general Muggle-visibility entries are related but do not state this visual-concealment effect.
+      audit:
+        query_tags:
+          - muggle-visibility
+          - safety-precaution
+          - school-protection
+        candidates:
+          - id: dh-ch04-005
+            disposition: distinct
+          - id: dh-ch09-003
+            disposition: distinct
+          - id: gof-ch15-006
+            disposition: corroborating
+          - id: gof-ch29-001
+            disposition: corroborating
+          - id: hbp-ch04-001
+            disposition: corroborating
+          - id: hbp-ch08-001
+            disposition: corroborating
+          - id: hbp-ch08-002
+            disposition: corroborating
+          - id: hbp-ch08-006
+            disposition: corroborating
+          - id: hbp-ch11-002
+            disposition: corroborating
+          - id: hbp-ch11-007
+            disposition: corroborating
+    confidence: low
+    limitations: Authority-D preservation transcription rather than the original outlet; the 2000 answer retrospectively explains a Harry-era depiction and does not establish when the enchantment was created or its full mechanism.

@@ -239,6 +239,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `B14`: Accio Quote, https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html, 3 entries, 0 explicit references.
 - `B15`: Accio Quote, https://www.accio-quote.org/articles/1999/0999-barnesnoble-staff.htm, 1 entries, 0 explicit references.
 - `B16`: Accio Quote, https://www.accio-quote.org/articles/1999/1099-bostonglobe-loer.html, 1 entries, 0 explicit references.
+- `B17`: Accio Quote, https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm, 2 entries, 0 explicit references.
+- `B18`: Accio Quote, https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm, 3 entries, 0 explicit references.
+- `B19`: Accio Quote, https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm, 2 entries, 0 explicit references.
 - `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
 - `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
 - `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.

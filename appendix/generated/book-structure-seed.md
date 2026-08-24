@@ -693,6 +693,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - School Security and Safeguards
   - Dumbledore's Mirror safeguards
 - School Staff and Traditions
+  - Staff composition and representation
   - Staff travel and acquired artefacts
 - The Castle
   - Ancient artefacts and uncertain origins
@@ -1474,6 +1475,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Part I: Setting and Geography
 
 - Setting and Geography
+  - School Catchment
   - Scotland
 
 ## Part I: The Castle and Its Grounds
@@ -1626,9 +1628,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Part II: The School and Its Community
 
 - Admissions and First-Year Preparation
+  - Acceptance Letters and Departure Instructions
   - Education Before Hogwarts
 - Student Life and House Identity
   - Hogwarts Population and Scale
+  - Quidditch Rules and Scoring
   - Quidditch and School Culture
 
 ## Part II: The School and Its People
@@ -1687,6 +1691,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - History of Magic and Historical Instruction
   - Professor Binns as a ghost teacher
+
+## Part III: Magical Architecture and Enchantments
+
+- Protective Magic and Security
+  - Concealment from Muggles
 
 ## Part III: People, Houses, and Institutional Memory
 
@@ -2112,6 +2121,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmasters, Ministers, and Public Authority
   - Dumbledore's Refused Political Power
 - Holiday Conduct and Underage Magic
+  - Age of Majority and Magic Outside School
   - Magic Outside School
   - Ministry Warning Letters and Secrecy Law
   - Ministry Warnings and School Return Problems
@@ -2540,6 +2550,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Tournament Research and Restricted-Section Permission
 - Magical Books, Records, and Unreliable Sources
   - The Riddle Diary as Memory Evidence
+- Magical Knowledge and Its Limits
+  - Magical limits and mortality
 - Magical Sources and Cultural Memory
   - Beedle the Bard and wizarding childhood tradition
 - Magical Sources and Unreliable Records
