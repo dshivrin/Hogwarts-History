@@ -418,6 +418,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Foundations and Founders
 
 - The Four Founders and Their Legacy
+  - Helga Hufflepuff and House-Elf Refuge
   - Helga Hufflepuff in House Memory
 
 ## Foundations and Physical Heritage
@@ -499,6 +500,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ghostly return, choice, and limits
   - House Ghosts, Bathroom Hauntings, and Deathday Customs
   - Nearly Headless Nick and Ghost Society
+  - Peeves and the Castle's Intractable Residency
   - Peeves the Poltergeist
   - Wayfinding and Disruption
 
@@ -722,6 +724,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wormtail's silver hand and the cost of mercy
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
+- Defense Against the Dark Arts Staffing
+  - End of the Jinx and Quirrell's Prior Appointment
 - Defense Against the Dark Arts Staffing and Ministry Links
   - Alastor Moody's Auror Record Before Hogwarts
   - Moody's Experience-Based Teaching Reputation
@@ -812,12 +816,16 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Public Truth-Telling Against Ministry Pressure
   - Teacher dismissal versus castle residence
   - Umbridge's Opening Speech and Ministry Interference
+- Headmasters, Headmistresses, and Their Office
+  - Snape's Post-War Portrait Exception
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
 - Hogwarts Under the Carrows
   - Public support, arrests, and Taboo exposure
 - Hogwarts as Home and Historical Memory
   - Abandoned boys and the school as formative home
+- House Identity and Reputation
+  - Later Dilution of Slytherin's Pure-Blood Identity
 - House-Elves and Hogwarts
   - Clothing, Dismissal, and Servitude Norms
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
@@ -882,6 +890,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Scrimgeour succession and Prime Minister protection
 - Ministry Structure and Hogwarts Oversight
   - Department levels relevant to school-age magic
+- Phoenixes and Headmaster Associations
+  - Fawkes's Permanent Departure
 - Post-1984 Developments
   - Dark magic and the Quirrell possession
   - Hogwarts staff careers and appointments
@@ -1070,6 +1080,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Expelliarmus as Harry's wartime signature
   - Family protection cover plans for nonreturning students
   - Hidden prisoner breakouts and Dark Magic wounds
+  - Hypothetical Postwar Hogwarts Graduation
   - Ministry Reliability and Civilian Protection
   - Moody's death and Seven Potters debrief
   - Muggle refuges and Death Eater reach
@@ -1117,6 +1128,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Learning, Books, and Forbidden Knowledge
 
 - Restricted and Banned Magical Subjects
+  - Herpo the Foul and Horcrux Origins
   - Horcrux destruction and soul repair mechanics
   - Horcruxes Beyond Hogwarts Library Detail
   - Horcruxes as a Banned Hogwarts Topic
@@ -1387,6 +1399,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Origins of the School
 
+- Founder Relics and House Memory
+  - The Sorting Hat's Founder Ownership and the Sword Dispute
 - The Founders' Rift
   - Admission, Bloodline Ideology, and Slytherin's Departure
 - The Founding of Hogwarts
@@ -1440,6 +1454,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part I: The Castle and Its Grounds
 
+- Castle Dangers and Protective Limits
+  - Basilisk Gaze and Indirect Viewing
 - House Common Rooms and Dormitories
   - Slytherin Common Room Location
 - Site, Wards, and Public Concealment
@@ -1533,12 +1549,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Admissions, Attendance, and Student Life
   - Muggle-Family Contact
   - Pre-Hogwarts Preparation
+- Curriculum and Teaching Staff
+  - Defence Against the Dark Arts Turnover
 - Curriculum, Examinations, and Achievement
   - O.W.L. Assessment
 - Education and Curriculum
   - Advanced and demand-led subjects
   - First-year compulsory subjects
   - Third-year subject selection
+- Headmasters and School Authority
+  - The Headmaster's Phoenix
 - Houses and Student Leadership
   - Gryffindor prefects
 - Houses, Sorting, and Student Identity
@@ -1680,6 +1700,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part IV: Hogwarts, a History as a Source
 
+- Editorial Notes on School Symbols
+  - Motto Design and Latin Rendering
 - The Book's Narrative Role
   - Hermione as Expository Reader
 
@@ -2345,6 +2367,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Visiting-School Lodging and Hogsmeade Route
 - Grounds, Staff Dwellings, and Creature Care
   - Gamekeeper's cabin during the tower battle
+- House Common Rooms and Dormitories
+  - Hufflepuff Common Room
 - House Common Rooms and Entrances
   - Ravenclaw Tower's question-guarded door
 - Interior Rooms

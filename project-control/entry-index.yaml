@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-15'
+updated: '2026-08-24'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -21204,6 +21204,177 @@ by_entry:
     - security
     source_unit: B07
     output_yaml: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  ext-b08-001:
+    title: 'Castle Dangers and Protective Limits: Basilisk Gaze and Indirect Viewing'
+    classification: harry_era_confirmation
+    reference_type: security_or_protection
+    confidence: medium
+    tags:
+    - basilisk-gaze
+    - basilisk-glasses
+    - hogwarts-student-safety
+    source_unit: B08
+    output_yaml: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+  ext-b08-002:
+    title: 'Curriculum and Teaching Staff: Defence Against the Dark Arts Turnover'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - defense-against-the-dark-arts
+    - jinxed-post
+    - staffing
+    source_unit: B08
+    output_yaml: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+  ext-b08-003:
+    title: 'Headmasters and School Authority: The Headmaster''s Phoenix'
+    classification: harry_era_confirmation
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - dumbledore-possession
+    - fawkes
+    - hogwarts-property
+    source_unit: B08
+    output_yaml: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+  ext-b08-004:
+    title: 'Editorial Notes on School Symbols: Motto Design and Latin Rendering'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: medium
+    tags:
+    - crest
+    - hogwarts-motto
+    - latin
+    source_unit: B08
+    output_yaml: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+  ext-b09-001:
+    title: 'House Common Rooms and Dormitories: Hufflepuff Common Room'
+    classification: original_book_core_candidate
+    reference_type: magical_architecture
+    confidence: medium
+    tags:
+    - common-rooms
+    - hogwarts-architecture
+    - hufflepuff
+    - kitchens
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b09-002:
+    title: 'Resident Ghosts and Poltergeists: Peeves and the Castle''s Intractable
+      Residency'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - hogwarts-residents
+    - magical-institution-history
+    - peeves
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b09-003:
+    title: 'Founder Relics and House Memory: The Sorting Hat''s Founder Ownership
+      and the Sword Dispute'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - godric-gryffindor
+    - gryffindor-sword
+    - hogwarts-founders
+    - sorting-hat
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b09-004:
+    title: 'Defense Against the Dark Arts Staffing: End of the Jinx and Quirrell''s
+      Prior Appointment'
+    classification: post_1984_excluded_from_original
+    reference_type: curriculum_or_subject
+    confidence: medium
+    tags:
+    - curriculum-teaching-post
+    - curse
+    - defense-against-the-dark-arts
+    - later-editorial-notes
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b09-005:
+    title: 'House Identity and Reputation: Later Dilution of Slytherin''s Pure-Blood
+      Identity'
+    classification: later_editorial_note
+    reference_type: house_system
+    confidence: medium
+    tags:
+    - house-system
+    - later-editorial-notes
+    - pure-blood
+    - slytherin
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b09-006:
+    title: 'Phoenixes and Headmaster Associations: Fawkes''s Permanent Departure'
+    classification: post_1984_excluded_from_original
+    reference_type: portrait_or_ghost_lore
+    confidence: medium
+    tags:
+    - fawkes
+    - hogwarts-residents
+    - later-editorial-notes
+    - phoenix
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b09-007:
+    title: 'Headmasters, Headmistresses, and Their Office: Snape''s Post-War Portrait
+      Exception'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: medium
+    tags:
+    - headmaster-office
+    - headmaster-portraits
+    - later-editorial-notes
+    - severus-snape
+    source_unit: B09
+    output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  ext-b10-001:
+    title: 'The Four Founders and Their Legacy: Helga Hufflepuff and House-Elf Refuge'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - elf-labour
+    - founder-era
+    - helga-hufflepuff
+    - house-elves
+    - school-origins
+    source_unit: B10
+    output_yaml: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  ext-b10-002:
+    title: 'Restricted and Banned Magical Subjects: Herpo the Foul and Horcrux Origins'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: low
+    tags:
+    - ancient-dark-magic
+    - forbidden-knowledge
+    - herpo
+    - horcrux
+    - magical-history
+    source_unit: B10
+    output_yaml: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  ext-b10-003:
+    title: 'The War Beyond the Gates: Hypothetical Postwar Hogwarts Graduation'
+    classification: post_1984_excluded_from_original
+    reference_type: institutional_custom
+    confidence: low
+    tags:
+    - boats
+    - graduation
+    - post-war
+    - school-custom
+    - traditions
+    source_unit: B10
+    output_yaml: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -23498,6 +23669,8 @@ by_tag:
   - qtta-ch02-001
   ancient-creature:
   - cos-ch15-007
+  ancient-dark-magic:
+  - ext-b10-002
   ancient-magic:
   - gof-ch20-001
   - gof-ch33-004
@@ -23862,6 +24035,10 @@ by_tag:
   - ootp-ch16-005
   basilisk-fangs:
   - dh-ch31-005
+  basilisk-gaze:
+  - ext-b08-001
+  basilisk-glasses:
+  - ext-b08-001
   basilisk-venom:
   - dh-ch06-007
   - dh-ch15-006
@@ -24093,6 +24270,7 @@ by_tag:
   board-of-governors:
   - hbp-ch19-002
   boats:
+  - ext-b10-003
   - ps-ch06-007
   - ps-ch17-006
   bob-ogden:
@@ -24814,6 +24992,8 @@ by_tag:
   - hbp-ch18-005
   common-room-security:
   - poa-ch13-007
+  common-rooms:
+  - ext-b09-001
   communication-cost:
   - ext-a23-004
   communication-security:
@@ -25016,6 +25196,8 @@ by_tag:
   creature-risk:
   - hbp-ch11-005
   - hbp-ch22-005
+  crest:
+  - ext-b08-004
   crisis-governance:
   - cos-ch14-005
   - poa-ch21-001
@@ -25104,6 +25286,10 @@ by_tag:
   - dh-ch01-006
   curriculum-sequence:
   - poa-ch10-001
+  curriculum-teaching-post:
+  - ext-b09-004
+  curse:
+  - ext-b09-004
   curse-checks:
   - poa-ch12-005
   curse-scars:
@@ -25384,6 +25570,8 @@ by_tag:
   - cos-ch18-007
   - dh-ch12-001
   - ext-b03-002
+  - ext-b08-002
+  - ext-b09-004
   - gof-ch11-001
   - gof-ch12-006
   - gof-ch13-007
@@ -26069,6 +26257,8 @@ by_tag:
   - dh-ch33-007
   - dh-ch36-006
   - dh-ch36-007
+  dumbledore-possession:
+  - ext-b08-003
   dumbledore-protection:
   - hbp-ch16-002
   dumbledore-tomb:
@@ -26208,6 +26398,8 @@ by_tag:
   - ext-b01-002
   eleventh-birthday:
   - ps-ch03-005
+  elf-labour:
+  - ext-b10-001
   elixir-of-life:
   - ps-ch17-003
   elixir-to-induce-euphoria:
@@ -26534,6 +26726,8 @@ by_tag:
   fawkes:
   - cos-ch17-005
   - cos-ch17-007
+  - ext-b08-003
+  - ext-b09-006
   - gof-ch36-003
   - hbp-ch10-003
   - hbp-ch29-002
@@ -26865,6 +27059,8 @@ by_tag:
   - gof-ch24-001
   - gof-ch26-003
   - ootp-ch31-005
+  forbidden-knowledge:
+  - ext-b10-002
   forbidden-objects:
   - gof-ch12-005
   - hbp-ch08-004
@@ -26899,6 +27095,8 @@ by_tag:
   - gof-ch08-005
   foundation-legend:
   - ext-a17-003
+  founder-era:
+  - ext-b10-001
   founder-relic:
   - dh-ch07-006
   - dh-ch19-004
@@ -27206,6 +27404,7 @@ by_tag:
   - dh-ch25-002
   - ext-a02-001
   - ext-a08-003
+  - ext-b09-003
   - gof-ch12-002
   - gof-ch30-001
   godrics-hollow:
@@ -27262,6 +27461,8 @@ by_tag:
   - hbp-ch21-005
   grade-scale:
   - hbp-ch05-006
+  graduation:
+  - ext-b10-003
   graveyard:
   - dh-ch16-007
   - dh-ch17-001
@@ -27537,6 +27738,7 @@ by_tag:
   - ootp-ch21-007
   gryffindor-sword:
   - cos-ch18-004
+  - ext-b09-003
   - gof-ch30-001
   gryffindor-team:
   - ootp-ch14-004
@@ -27906,6 +28108,7 @@ by_tag:
   - dh-ch36-006
   - ext-a05-003
   - ext-a05-004
+  - ext-b09-007
   - gof-ch28-006
   - gof-ch29-006
   - gof-ch30-001
@@ -27923,6 +28126,7 @@ by_tag:
   - dh-ch36-006
   - ext-a05-003
   - ext-a05-004
+  - ext-b09-007
   - gof-ch30-001
   - hbp-ch10-003
   - hbp-ch17-003
@@ -27995,6 +28199,7 @@ by_tag:
   helga-hufflepuff:
   - dh-ch26-006
   - ext-a07-005
+  - ext-b10-001
   - hbp-ch20-005
   hepzibah-smith:
   - dh-ch26-006
@@ -28065,6 +28270,8 @@ by_tag:
   - dh-ch06-004
   - poa-ch09-001
   - ps-ch07-001
+  herpo:
+  - ext-b10-002
   hestia-jones:
   - dh-ch03-002
   hexes:
@@ -28338,6 +28545,8 @@ by_tag:
   - poa-ch10-006
   hogwarts-animal-policy:
   - ext-a22-003
+  hogwarts-architecture:
+  - ext-b09-001
   hogwarts-archives:
   - beedle-fm-004
   - beedle-fm-005
@@ -28408,6 +28617,7 @@ by_tag:
   - ext-a24-003
   hogwarts-founders:
   - ext-a03-001
+  - ext-b09-003
   hogwarts-four:
   - cos-ch17-006
   hogwarts-fund:
@@ -28501,8 +28711,12 @@ by_tag:
   - gof-ch02-004
   hogwarts-messages:
   - cos-ch01-003
+  hogwarts-motto:
+  - ext-b08-004
   hogwarts-orientation:
   - hbp-ch13-004
+  hogwarts-property:
+  - ext-b08-003
   hogwarts-pupil:
   - ext-a34-001
   hogwarts-records:
@@ -28510,6 +28724,8 @@ by_tag:
   hogwarts-relations:
   - ext-a29-004
   hogwarts-residents:
+  - ext-b09-002
+  - ext-b09-006
   - ootp-ch38-006
   hogwarts-return:
   - hbp-ch17-001
@@ -28544,6 +28760,8 @@ by_tag:
   hogwarts-student:
   - dh-ch02-001
   - dh-ch02-003
+  hogwarts-student-safety:
+  - ext-b08-001
   hogwarts-students:
   - beedle-fm-002
   - dh-ch13-004
@@ -28639,6 +28857,7 @@ by_tag:
   - dh-ch34-002
   - dh-ch34-007
   - dh-ch36-003
+  - ext-b10-002
   - hbp-ch26-004
   - hbp-ch26-006
   - hbp-ch26-007
@@ -28778,6 +28997,7 @@ by_tag:
   - dh-ch24-003
   - dh-ch36-004
   - dh-ch36-005
+  - ext-b10-001
   - gof-ch08-002
   - gof-ch09-003
   - gof-ch12-004
@@ -28888,6 +29108,7 @@ by_tag:
   - ext-b06-002
   - ext-b07-001
   - ext-b07-002
+  - ext-b09-005
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch15-004
@@ -28941,6 +29162,7 @@ by_tag:
   - ext-a07-004
   - ext-a07-005
   - ext-a20-003
+  - ext-b09-001
   - gof-ch06-004
   - gof-ch15-004
   - gof-ch18-002
@@ -29243,6 +29465,7 @@ by_tag:
   - dh-ch14-005
   jinxed-post:
   - cos-ch07-004
+  - ext-b08-002
   - hbp-ch08-005
   - hbp-ch20-007
   - poa-ch05-003
@@ -29334,6 +29557,8 @@ by_tag:
   - dh-ch08-007
   - hbp-ch01-007
   - ootp-ch07-005
+  kitchens:
+  - ext-b09-001
   knarls:
   - ootp-ch31-005
   knight-bus:
@@ -29377,6 +29602,13 @@ by_tag:
   - cos-ch02-001
   later-editorial-note:
   - gof-ch32-002
+  later-editorial-notes:
+  - ext-b09-004
+  - ext-b09-005
+  - ext-b09-006
+  - ext-b09-007
+  latin:
+  - ext-b08-004
   law-fifteen-b:
   - ootp-ch33-003
   leadership:
@@ -29920,6 +30152,7 @@ by_tag:
   - dh-ch28-005
   - dh-ch35-003
   - dh-ch35-005
+  - ext-b10-002
   magical-hospital:
   - ootp-ch22-004
   magical-infrastructure:
@@ -29928,6 +30161,8 @@ by_tag:
   - beedle-ch04-004
   magical-injury:
   - gof-ch02-001
+  magical-institution-history:
+  - ext-b09-002
   magical-institutions:
   - dh-ch15-005
   - dh-ch24-002
@@ -31509,6 +31744,7 @@ by_tag:
   - ext-a16-005
   - ext-a16-006
   - ext-b06-001
+  - ext-b09-002
   - gof-ch15-001
   - gof-ch22-003
   - ootp-ch21-003
@@ -31631,6 +31867,7 @@ by_tag:
   - dh-ch36-006
   phoenix:
   - cos-ch17-005
+  - ext-b09-006
   - hbp-ch29-002
   - hbp-ch30-005
   - ootp-ch36-005
@@ -31845,6 +32082,8 @@ by_tag:
   - dh-ch18-003
   post-riot-cleanup:
   - gof-ch10-001
+  post-war:
+  - ext-b10-003
   postal-service:
   - ext-a23-004
   posthumous-choice:
@@ -32338,6 +32577,8 @@ by_tag:
   - cos-ch08-002
   punishments:
   - ootp-ch19-007
+  pure-blood:
+  - ext-b09-005
   pure-blood-families:
   - dh-ch22-002
   - ootp-ch06-006
@@ -32947,6 +33188,8 @@ by_tag:
   - ps-ch03-001
   school-crisis:
   - ootp-ch32-002
+  school-custom:
+  - ext-b10-003
   school-danger:
   - ootp-ch11-004
   school-demography:
@@ -33088,6 +33331,7 @@ by_tag:
   school-origins:
   - ext-a02-001
   - ext-a07-005
+  - ext-b10-001
   - gof-ch12-002
   - ootp-ch11-003
   school-oversight:
@@ -33538,6 +33782,7 @@ by_tag:
   - dh-ch33-006
   - dh-ch34-003
   - dh-ch35-007
+  - ext-b09-007
   - ootp-ch17-005
   - ootp-ch29-006
   - poa-ch18-007
@@ -33726,6 +33971,7 @@ by_tag:
   - dh-ch36-002
   - ext-a06-002
   - ext-a20-005
+  - ext-b09-005
   - gof-ch15-004
   - hbp-ch04-005
   - hbp-ch19-003
@@ -33892,6 +34138,7 @@ by_tag:
   - ext-a20-003
   - ext-a36-001
   - ext-b06-002
+  - ext-b09-003
   - gof-ch12-002
   - gof-ch12-003
   - gof-ch30-001
@@ -34139,6 +34386,7 @@ by_tag:
   - ootp-ch17-005
   staffing:
   - cos-ch07-004
+  - ext-b08-002
   - gof-ch36-005
   - hbp-ch02-003
   - hbp-ch05-004
@@ -35070,6 +35318,8 @@ by_tag:
   - dh-ch20-001
   tradeable-material:
   - dh-ch20-006
+  traditions:
+  - ext-b10-003
   train-ticket:
   - hbp-ch13-006
   transfiguration:

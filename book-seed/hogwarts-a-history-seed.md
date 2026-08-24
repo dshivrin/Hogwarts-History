@@ -72,6 +72,20 @@ Summary: The available evidence includes 1 source item, led by: Binns presents S
   - Reference type: house_system
   - Notes: The passage summarizes a complex historical dispute briefly and does not identify primary sources.
 
+### Chapter: Founder Relics and House Memory
+
+#### Section: The Sorting Hat's Founder Ownership and the Sword Dispute
+
+Summary: The available evidence includes 1 source item, led by: Rowling identifies the Sorting Hat as originally Gryffindor's and frames the sword's ownership dispute as dependent on a goblin view of maker ownership.
+
+- **Corroboration:** Rowling identifies the Sorting Hat as originally Gryffindor's and frames the sword's ownership dispute as dependent on a goblin view of maker ownership.
+  - Quote: "The Sorting Hat was Gryffindor's initially, as you know."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch18-004`, `ext-a02-001`. The entry repeats the established founder ownership and Sword-from-Hat linkage; its goblin-ownership framing is a limited extension.
+  - Notes: Preserved author commentary after the series; it does not independently document the artifact's date, and its ownership discussion is interpretive.
+
 ## Part: The Castle and Its Grounds
 
 ### Chapter: The Lake and Castle Approach
@@ -247,6 +261,20 @@ Summary: The available evidence includes 1 source item, led by: The gamekeeper's
   - Classification: later_editorial_note | Confidence: high
   - Reference type: direct_observed_setting
   - Notes: The passage does not describe repairs, long-term damage, or whether the bowtruckles survived.
+
+### Chapter: House Common Rooms and Dormitories
+
+#### Section: Hufflepuff Common Room
+
+Summary: The available evidence includes 1 source item, led by: Rowling places the Hufflepuff entrance near the kitchens and describes a welcoming yellow interior with underground routes to round-doored dormitories.
+
+- **Corroboration:** Rowling places the Hufflepuff entrance near the kitchens and describes a welcoming yellow interior with underground routes to round-doored dormitories.
+  - Quote: "The Hufflepuff common room is accessed through a portrait near the kitchens."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: original_book_core_candidate | Confidence: medium
+  - Reference type: magical_architecture
+  - Corroborates: `ext-a07-001`, `ext-a07-004`. This lower-authority transcript independently repeats the location and interior facts documented in the official Hufflepuff common-room source.
+  - Notes: A 2007 post-series web chat preserved by Accio Quote, not a contemporaneous in-universe source; the passage does not supply a historical date for these features.
 
 ### Chapter: House Common Rooms and Entrances
 
@@ -5299,6 +5327,18 @@ Summary: The available evidence includes 1 source item, led by: The party identi
   - Corroborates: `ps-ch08-002`. Chapter Eight of Book 1 seeded ghosts and Peeves as Hogwarts residents; this entry adds named House ghosts, Moaning Myrtle's first-floor bathroom haunting, Nick's death date, and deathday-party customs.
   - Notes: The chapter does not explain Myrtle's death, the origin of the haunting, or the formal status of ghost use of school spaces.
 
+#### Section: Peeves and the Castle's Intractable Residency
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterises Peeves as a long-standing chaotic resident of Hogwarts whom the school has been unable to eradicate.
+
+- **Corroboration:** Rowling characterises Peeves as a long-standing chaotic resident of Hogwarts whom the school has been unable to eradicate.
+  - Quote: "He is a spirit of chaos that entered the building long ago."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Corroborates: `ext-b06-001`. The B06 interview records the same claim that Peeves cannot be removed from Hogwarts.
+  - Notes: Preserved 2007 author-chat transcription; the phrase long ago is imprecise and cannot date Peeves's origin without independent evidence.
+
 #### Section: Wayfinding and Disruption
 
 Summary: The available evidence includes 1 source item, led by: Ghosts can glide through doors; Nearly Headless Nick helps new Gryffindors find their way, while Peeves disrupts students with pranks and can move invisibly.
@@ -9421,6 +9461,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter reco
   - Reference type: security_or_protection
   - Notes: The caster is not identified in this chapter, so the entry should not assign responsibility beyond the observed spell and response.
 
+### Chapter: Defense Against the Dark Arts Staffing
+
+#### Section: End of the Jinx and Quirrell's Prior Appointment
+
+Summary: The available evidence includes 1 source item, led by: Rowling retrospectively says the Defense Against the Dark Arts post's jinx ended after Voldemort and that Quirrell had previously taught Muggle Studies rather than D.A.D.A.
+
+- **Context:** Rowling retrospectively says the Defense Against the Dark Arts post's jinx ended after Voldemort and that Quirrell had previously taught Muggle Studies rather than D.A.D.A.
+  - Quote: "He was teaching at Hogwarts for more than a year, but NOT in the post of D.A.D.A. teacher."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Notes: Retrospective 2007 chat testimony preserved by a non-official carrier; it describes post-1984 events and gives no dates for the jinx's lifting or Quirrell's earlier appointment.
+
 ### Chapter: Defense Against the Dark Arts Staffing and Ministry Links
 
 #### Section: Alastor Moody's Auror Record Before Hogwarts
@@ -10309,6 +10362,19 @@ Summary: The available evidence includes 1 source item, led by: Umbridge's first
   - Corroborates: `gof-ch36-005`, `ootp-ch05-007`. gof-ch36-005 records Fudge's threat to revisit school governance, and ootp-ch05-007 records Ministry pressure against Dumbledore. This entry shows the threat becoming an in-school policy speech by Umbridge.
   - Notes: Hermione supplies the plain-language interpretation; Umbridge's speech itself remains coded and does not yet cite a formal decree.
 
+### Chapter: Headmasters, Headmistresses, and Their Office
+
+#### Section: Snape's Post-War Portrait Exception
+
+Summary: The available evidence includes 1 source item, led by: Rowling presents Snape's initial portrait omission as a deliberate post-war exception linked to his abandonment of office, then imagines Harry arranging later inclusion.
+
+- **Context:** Rowling presents Snape's initial portrait omission as a deliberate post-war exception linked to his abandonment of office, then imagines Harry arranging later inclusion.
+  - Quote: "Snape had effectively abandoned his post before dying, so he had not merited inclusion in these august circles."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: portrait_or_ghost_lore
+  - Notes: A preserved post-series author-chat response about a single post-1984 case; it is not a general institutional rule and its later portrait is phrased as Rowling's expectation.
+
 ### Chapter: Hogwarts Staff and Associates Before Harry's Arrival
 
 #### Section: Hagrid's Trusted Mission
@@ -10348,6 +10414,19 @@ Summary: The available evidence includes 1 source item, led by: Harry's final wa
   - Classification: later_editorial_note | Confidence: medium
   - Reference type: cross_reference_candidate
   - Notes: This is Harry's subjective reflection during crisis, not an institutional statement or policy record.
+
+### Chapter: House Identity and Reputation
+
+#### Section: Later Dilution of Slytherin's Pure-Blood Identity
+
+Summary: The available evidence includes 1 source item, led by: Rowling retrospectively characterises earlier Slytherin as a pure-blood bastion, while saying the later children's era has diluted that composition without erasing the House's reputation.
+
+- **Context:** Rowling retrospectively characterises earlier Slytherin as a pure-blood bastion, while saying the later children's era has diluted that composition without erasing the House's reputation.
+  - Quote: "Slytherin has become diluted. It is no longer the pureblood bastion it once was."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: house_system
+  - Notes: A retrospective statement set in a later generation after the original-book cutoff; no date or enrollment evidence is supplied, and the carrier is a preservation transcription.
 
 ### Chapter: House-Elves and Hogwarts Labor
 
@@ -10811,6 +10890,20 @@ Summary: The available evidence includes 1 source item, led by: The Ministry lif
   - Classification: later_editorial_note | Confidence: high
   - Reference type: historical_claim
   - Notes: The lift announcements list offices but do not explain jurisdictional history or all departments on each level.
+
+### Chapter: Phoenixes and Headmaster Associations
+
+#### Section: Fawkes's Permanent Departure
+
+Summary: The available evidence includes 1 source item, led by: Rowling states that Fawkes permanently left Hogwarts after Dumbledore's death, framing the departure as symbolic rather than a transferable succession.
+
+- **Corroboration:** Rowling states that Fawkes permanently left Hogwarts after Dumbledore's death, framing the departure as symbolic rather than a transferable succession.
+  - Quote: "Something had to leave the school for good when Dumbledore died, and I decided that would be Fawkes."
+  - Source: B09, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, `sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: medium
+  - Reference type: portrait_or_ghost_lore
+  - Corroborates: `hbp-ch29-002`. The Prince source directly records Fawkes leaving after Dumbledore; this chat adds Rowling's symbolic explanation.
+  - Notes: Retrospective author commentary preserved in a 2007 transcript; the event is post-1984 and the stated symbolism is interpretive.
 
 ### Chapter: Post-1984 Developments
 
@@ -12126,6 +12219,17 @@ Summary: The available evidence includes 1 source item, led by: Kingsley infers 
   - Corroborates: `hbp-ch24-004`, `hbp-ch28-007`, `ootp-ch25-001`. hbp-ch24-004 records Sectumsempra's cutting effect and treatment, hbp-ch28-007 records Snape's authorship, and ootp-ch25-001 records an earlier public Azkaban breakout report; this entry adds permanent ear loss, Dark Magic non-regrowth, and a suspected censored breakout.
   - Notes: The mass-breakout claim is Kingsley's inference from combat sightings, not a Ministry publication.
 
+#### Section: Hypothetical Postwar Hogwarts Graduation
+
+Summary: The available evidence includes 1 source item, led by: Rowling endorses, as an unrealized idea, graduates leaving Hogwarts by boat; the text does not establish this as an actual school custom.
+
+- **Context:** Rowling endorses, as an unrealized idea, graduates leaving Hogwarts by boat; the text does not establish this as an actual school custom.
+  - Quote: "I think the boats would've been the most poetic and beautiful way."
+  - Source: B10, https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html, `sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: low
+  - Reference type: institutional_custom
+  - Notes: Retrospective authorial speculation about an unwritten scene after the Harry-era timeline; it explicitly does not establish an enacted Hogwarts tradition.
+
 #### Section: Ministry Reliability and Civilian Protection
 
 Summary: The available evidence includes 1 source item, led by: The Order treats the Ministry as unreliable for Dursley protection because of suspected infiltration, while Kingsley is already assigned to protect the Muggle Prime Minister.
@@ -13419,6 +13523,17 @@ Summary: The available evidence includes 1 source item, led by: Rowling says her
 ## Part: Foundations and Founders
 
 ### Chapter: The Four Founders and Their Legacy
+
+#### Section: Helga Hufflepuff and House-Elf Refuge
+
+Summary: The available evidence includes 1 source item, led by: Rowling characterizes Helga Hufflepuff's founder-era response to house-elves as offering refuge and better working conditions, rather than abolition.
+
+- **Supporting evidence:** Rowling characterizes Helga Hufflepuff's founder-era response to house-elves as offering refuge and better working conditions, rather than abolition.
+  - Quote: "Hufflepuff did what was the most moral thing to do at that time."
+  - Source: B10, https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html, `sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Preservation transcription with authority D; Rowling frames the account as a moral interpretation, without identifying a contemporaneous in-universe source or precise date.
 
 #### Section: Helga Hufflepuff in House Memory
 
@@ -14786,6 +14901,17 @@ Summary: The available evidence includes 2 source items, led by: The school-owne
 
 ### Chapter: Restricted and Banned Magical Subjects
 
+#### Section: Herpo the Foul and Horcrux Origins
+
+Summary: The available evidence includes 1 source item, led by: Rowling tentatively identifies Herpo the Foul as the first Horcrux creator and says wizards had long attempted similarly dangerous soul magic.
+
+- **Supporting evidence:** Rowling tentatively identifies Herpo the Foul as the first Horcrux creator and says wizards had long attempted similarly dangerous soul magic.
+  - Quote: "I've got a feeling it was Herpo, which is H-E-R-P-O."
+  - Source: B10, https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html, `sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: low
+  - Reference type: historical_claim
+  - Notes: Rowling expressly presents the identification as a feeling; the preservation transcription supplies no date, independent corroboration, or direct Hogwarts connection.
+
 #### Section: Horcrux destruction and soul repair mechanics
 
 Summary: The available evidence includes 1 source item, led by: Hermione reports that Horcrux creation destabilizes the maker's remaining soul, remorse can reunite it at dangerous cost, and a Horcrux is destroyed only when its enchanted container is damaged beyond magical repair, as with basilisk venom.
@@ -15876,6 +16002,19 @@ Summary: The available evidence includes 1 source item, led by: Ottaline Gambol 
 
 ## Part: Part I: The Castle and Its Grounds
 
+### Chapter: Castle Dangers and Protective Limits
+
+#### Section: Basilisk Gaze and Indirect Viewing
+
+Summary: The available evidence includes 1 source item, led by: Rowling says ordinary glasses do not prevent a basilisk's gaze from harming a viewer; she explains Justin's protection as viewing through several camera lenses rather than directly.
+
+- **Supporting evidence:** Rowling says ordinary glasses do not prevent a basilisk's gaze from harming a viewer; she explains Justin's protection as viewing through several camera lenses rather than directly.
+  - Quote: "glasses alone wouldn't protect you"
+  - Source: B08, https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm, `sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: security_or_protection
+  - Notes: Authority D preservation transcription of retrospective author commentary; the explanation is informal and does not fully define the magical distinction between ordinary lenses and camera lenses.
+
 ### Chapter: House Common Rooms and Dormitories
 
 #### Section: Slytherin Common Room Location
@@ -16364,6 +16503,20 @@ Summary: The available evidence includes 1 source item, led by: Rowling states t
   - Reference type: school_rule_or_policy
   - Notes: Authority D preservation transcription of a brief live-chat answer; it confirms options but gives no dates, eligibility rules, or curriculum.
 
+### Chapter: Curriculum and Teaching Staff
+
+#### Section: Defence Against the Dark Arts Turnover
+
+Summary: The available evidence includes 1 source item, led by: Rowling confirms that Snape will not remain Defence Against the Dark Arts teacher into the next book and that the post will again need a new teacher.
+
+- **Corroboration:** Rowling confirms that Snape will not remain Defence Against the Dark Arts teacher into the next book and that the post will again need a new teacher.
+  - Quote: "There must obviously be a new one."
+  - Source: B08, https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm, `sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch20-007`. The later textual account gives the same one-year turnover claim and its cause; the other ranked records provide related staffing evidence or distinct appointments.
+  - Notes: Authority D preservation transcription of a spoiler-limited answer; it confirms only an imminent vacancy, while the reason and full history are better supported by the published text.
+
 ### Chapter: Curriculum, Examinations, and Achievement
 
 #### Section: O.W.L. Assessment
@@ -16411,6 +16564,19 @@ Summary: The available evidence includes 1 source item, led by: At the end of se
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: The article states the rule but does not give a specific calendar year, class timetable, or individual pupil's selection.
+
+### Chapter: Headmasters and School Authority
+
+#### Section: The Headmaster's Phoenix
+
+Summary: The available evidence includes 1 source item, led by: Rowling says Fawkes belongs to Dumbledore personally rather than to Hogwarts, and was absent from Dippet's study.
+
+- **Supporting evidence:** Rowling says Fawkes belongs to Dumbledore personally rather than to Hogwarts, and was absent from Dippet's study.
+  - Quote: "Fawkes is Dumbledore's possession, not a Hogwarts possession."
+  - Source: B08, https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm, `sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml`
+  - Classification: harry_era_confirmation | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: Authority D preservation transcription of an informal answer; the claim addresses Fawkes only and cannot establish a broader Hogwarts ownership practice.
 
 ### Chapter: Houses and Student Leadership
 
@@ -17166,6 +17332,19 @@ Summary: The available evidence includes 1 source item, led by: A litter of unus
   - Notes: The account does not date the release, identify the litter, or establish which Forest stories arose from it; its statement that some survive is contemporary to the source narration.
 
 ## Part: Part IV: Hogwarts, a History as a Source
+
+### Chapter: Editorial Notes on School Symbols
+
+#### Section: Motto Design and Latin Rendering
+
+Summary: The available evidence includes 1 source item, led by: Rowling says she designed Hogwarts's motto as practical advice and sought a correct Latin translation from a classics professor rather than using mock Latin.
+
+- **Context:** Rowling says she designed Hogwarts's motto as practical advice and sought a correct Latin translation from a classics professor rather than using mock Latin.
+  - Quote: "entirely practical piece of advice for the Hogwarts school motto"
+  - Source: B08, https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm, `sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Reference type: institutional_custom
+  - Notes: Authority D preservation transcription of retrospective author commentary; it describes composition choices rather than an in-universe institutional history.
 
 ### Chapter: The Book's Narrative Role
 

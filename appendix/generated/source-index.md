@@ -230,6 +230,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `B05`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm, 2 entries, 0 explicit references.
 - `B06`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm, 4 entries, 0 explicit references.
 - `B07`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, 5 entries, 1 explicit references.
+- `B08`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm, 4 entries, 0 explicit references.
+- `B09`: Accio Quote, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, 7 entries, 0 explicit references.
+- `B10`: Accio Quote, https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html, 3 entries, 0 explicit references.
 - `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
 - `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
 - `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.

@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-15'
+updated: '2026-08-24'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2718,6 +2718,54 @@ processed_units:
   source_id: B07
   source_site: Accio Quote
   source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+- source_unit_id: B08
+  source_file: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: B08
+  source_site: Accio Quote
+  source_url: https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm
+- source_unit_id: B09
+  source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: B09
+  source_site: Accio Quote
+  source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+- source_unit_id: B10
+  source_file: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  processed_at: '2026-08-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 3
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: B10
+  source_site: Accio Quote
+  source_url: https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html
 - source_unit_id: A01
   source_file: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
   book: null

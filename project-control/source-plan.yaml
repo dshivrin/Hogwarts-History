@@ -1990,16 +1990,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
     manifest_id: external-B08
     output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-15T17:27:08Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T17:19:39Z'
+      agent: source-agent-b08
+    - event: completed
+      at: '2026-08-15T17:27:08Z'
     staging_file: work/external-staging/b08.yaml
   - id: B09
     title: J.K. Rowling and the Live Chat , Bloomsbury.com, July 30, 2007 (2.00-3.00pm
@@ -2010,16 +2015,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
     manifest_id: external-B09
     output_file: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:17:02Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T17:19:40Z'
+      agent: source-agent-b09
+    - event: completed
+      at: '2026-08-24T04:17:02Z'
     staging_file: work/external-staging/b09.yaml
   - id: B10
     title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
@@ -2030,16 +2040,21 @@ external_sources:
     input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
     manifest_id: external-B10
     output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
-    status: pending
+    status: done
     claimed_by: null
     claim_token: null
     claimed_at: null
-    completed_at: null
-    attempts: 0
-    validation_status: not_run
+    completed_at: '2026-08-24T04:18:35Z'
+    attempts: 1
+    validation_status: passed
     blocked_reason: null
     update_profile: canonical_external_evidence
-    history: []
+    history:
+    - event: claimed
+      at: '2026-08-15T17:19:40Z'
+      agent: source-agent-b10
+    - event: completed
+      at: '2026-08-24T04:18:35Z'
     staging_file: work/external-staging/b10.yaml
   - id: B11
     title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],

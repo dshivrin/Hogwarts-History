@@ -1,0 +1,476 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B09
+  source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+  title: J.K. Rowling and the Live Chat , Bloomsbury.com, July 30, 2007 (2.00-3.00pm BST).
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: 30 July 2007
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+  capture_completeness: complete
+  content_sha256: eb995ba1514b8fba606adc585735368de47f2af705e2a1d153eb29d10dab5836
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; extracted bounded Hogwarts setting, history, and later-editorial evidence.
+
+entries:
+  - id: ext-b09-001
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on the Hufflepuff common room
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Hufflepuff common room is accessed through a portrait near the kitchens
+      end_phrase: round doors, like barrel tops
+      local_occurrence_note: Mid-chat response describing the Hufflepuff common-room entrance and interior.
+    nearby_context: Rowling corrects portrait to still-life painting, then describes the room's yellow furnishings, armchairs, tunnels, and round dormitory doors.
+    match_terms:
+      - Hufflepuff common room
+      - kitchens
+      - dormitories
+    quote_excerpt_short: The Hufflepuff common room is accessed through a portrait near the kitchens.
+    source_note: Rowling places the Hufflepuff entrance near the kitchens and describes a welcoming yellow interior with underground routes to round-doored dormitories.
+    reference_type: magical_architecture
+    era_classification: original_book_core_candidate
+    topic_tags:
+      - hufflepuff
+      - common-rooms
+      - hogwarts-architecture
+      - kitchens
+    candidate_part: The Castle and Its Grounds
+    candidate_chapter: House Common Rooms and Dormitories
+    candidate_section: Hufflepuff Common Room
+    reason_for_placement: Provides concrete location and interior details for a House residential space.
+    relevance_to_hogwarts_a_history: Suitable as a core castle-description lead, while retaining the source's preservation-transcription status.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-a07-001
+        - ext-a07-004
+      notes: This lower-authority transcript independently repeats the location and interior facts documented in the official Hufflepuff common-room source.
+      audit:
+        query_tags:
+          - common-rooms
+          - hogwarts-architecture
+          - hufflepuff
+          - kitchens
+        candidates:
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: ext-a06-003
+            disposition: distinct
+          - id: ext-a07-001
+            disposition: duplicate
+          - id: ext-a07-002
+            disposition: distinct
+          - id: ext-a07-003
+            disposition: distinct
+          - id: ext-a07-004
+            disposition: duplicate
+          - id: ext-a07-005
+            disposition: distinct
+          - id: ext-a20-003
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: corroborating
+    confidence: medium
+    limitations: A 2007 post-series web chat preserved by Accio Quote, not a contemporaneous in-universe source; the passage does not supply a historical date for these features.
+
+  - id: ext-b09-002
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on Peeves
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Peeves is not linked to the bloody Baron's story
+      end_phrase: has proved impossible to eradicate
+      local_occurrence_note: Mid-chat response rejecting a link between Peeves and the Bloody Baron's story.
+    nearby_context: Rowling calls Peeves a spirit of chaos, says he entered the castle long ago, and says he cannot be eradicated.
+    match_terms:
+      - Peeves
+      - spirit of chaos
+      - impossible to eradicate
+    quote_excerpt_short: He is a spirit of chaos that entered the building long ago.
+    source_note: Rowling characterises Peeves as a long-standing chaotic resident of Hogwarts whom the school has been unable to eradicate.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - peeves
+      - hogwarts-residents
+      - magical-institution-history
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Resident Ghosts and Poltergeists
+    candidate_section: Peeves and the Castle's Intractable Residency
+    reason_for_placement: Identifies the poltergeist's long-term institutional presence and resistance to removal.
+    relevance_to_hogwarts_a_history: A historical resident profile usable for a pre-1984 account, but best supported by higher-authority corroboration.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-b06-001
+      notes: The B06 interview records the same claim that Peeves cannot be removed from Hogwarts.
+      audit:
+        query_tags:
+          - hogwarts-residents
+          - magical-institution-history
+          - peeves
+        candidates:
+          - id: cos-ch08-005
+            disposition: corroborating
+          - id: cos-ch11-006
+            disposition: distinct
+          - id: dh-ch32-002
+            disposition: distinct
+          - id: ext-a16-001
+            disposition: corroborating
+          - id: ext-a16-002
+            disposition: distinct
+          - id: ext-a16-003
+            disposition: corroborating
+          - id: ext-a16-004
+            disposition: corroborating
+          - id: ext-a16-005
+            disposition: corroborating
+          - id: ext-a16-006
+            disposition: distinct
+          - id: ext-b06-001
+            disposition: duplicate
+    confidence: medium
+    limitations: Preserved 2007 author-chat transcription; the phrase long ago is imprecise and cannot date Peeves's origin without independent evidence.
+
+  - id: ext-b09-003
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on the Sorting Hat and Gryffindor's sword
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Neville, most worthy Gryffindor, asked for help
+      end_phrase: all goblin-made objects really belong to the maker
+      local_occurrence_note: Response explaining the sword's appearance in the Sorting Hat and rejecting Griphook's account of theft.
+    nearby_context: Rowling says the Sorting Hat originally belonged to Gryffindor, that the sword appeared through it for Neville, and that Gryffindor did not steal the sword.
+    match_terms:
+      - Sorting Hat
+      - Godric Gryffindor
+      - Gryffindor's sword
+    quote_excerpt_short: The Sorting Hat was Gryffindor's initially, as you know.
+    source_note: Rowling identifies the Sorting Hat as originally Gryffindor's and frames the sword's ownership dispute as dependent on a goblin view of maker ownership.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - sorting-hat
+      - godric-gryffindor
+      - gryffindor-sword
+      - hogwarts-founders
+    candidate_part: Origins of the School
+    candidate_chapter: Founder Relics and House Memory
+    candidate_section: The Sorting Hat's Founder Ownership and the Sword Dispute
+    reason_for_placement: Links a continuing school artifact to its founder and to a contested founder-relic history.
+    relevance_to_hogwarts_a_history: Useful founder-era context, though the same underlying artifact history is already recorded in stronger evidence.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch18-004
+        - ext-a02-001
+      notes: The entry repeats the established founder ownership and Sword-from-Hat linkage; its goblin-ownership framing is a limited extension.
+      audit:
+        query_tags:
+          - godric-gryffindor
+          - gryffindor-sword
+          - hogwarts-founders
+          - sorting-hat
+        candidates:
+          - id: cos-ch18-004
+            disposition: duplicate
+          - id: gof-ch30-001
+            disposition: corroborating
+          - id: dh-ch07-006
+            disposition: corroborating
+          - id: ext-a02-001
+            disposition: duplicate
+          - id: gof-ch12-002
+            disposition: corroborating
+          - id: cos-ch05-004
+            disposition: distinct
+          - id: cos-ch12-001
+            disposition: distinct
+          - id: cos-ch17-005
+            disposition: corroborating
+          - id: dh-ch12-002
+            disposition: distinct
+          - id: dh-ch16-003
+            disposition: distinct
+    confidence: medium
+    limitations: Preserved author commentary after the series; it does not independently document the artifact's date, and its ownership discussion is interpretive.
+
+  - id: ext-b09-004
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on the Defense Against the Dark Arts post
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Has the jinx on the dada teaching post at hogwarts been lifted
+      end_phrase: He was previously Muggle Studies professor
+      local_occurrence_note: Late-chat question and answer on the post's jinx and Quirrell's prior role.
+    nearby_context: Rowling says the jinx was finally lifted after Voldemort's defeat and distinguishes Quirrell's earlier Muggle Studies appointment from his D.A.D.A. tenure.
+    match_terms:
+      - Defense Against the Dark Arts
+      - jinxed post
+      - Muggle Studies
+    quote_excerpt_short: He was teaching at Hogwarts for more than a year, but NOT in the post of D.A.D.A. teacher.
+    source_note: Rowling retrospectively says the Defense Against the Dark Arts post's jinx ended after Voldemort and that Quirrell had previously taught Muggle Studies rather than D.A.D.A.
+    reference_type: curriculum_or_subject
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - defense-against-the-dark-arts
+      - curriculum-teaching-post
+      - curse
+      - later-editorial-notes
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Defense Against the Dark Arts Staffing
+    candidate_section: End of the Jinx and Quirrell's Prior Appointment
+    reason_for_placement: Clarifies a post-1984 staffing history and the later resolution of a long-running post-specific curse.
+    relevance_to_hogwarts_a_history: Preserve only as a later editorial annotation; both the stated resolution and Quirrell's service lie after the assumed original-book cutoff.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries establish the jinxed-post pattern and later staffing, but none states this combined retrospective resolution and Quirrell distinction.
+      audit:
+        query_tags:
+          - curriculum-teaching-post
+          - curse
+          - defense-against-the-dark-arts
+          - later-editorial-notes
+        candidates:
+          - id: cos-ch04-006
+            disposition: corroborating
+          - id: cos-ch06-006
+            disposition: corroborating
+          - id: cos-ch06-007
+            disposition: distinct
+          - id: cos-ch07-004
+            disposition: corroborating
+          - id: cos-ch11-003
+            disposition: distinct
+          - id: cos-ch18-007
+            disposition: distinct
+          - id: dh-ch12-001
+            disposition: corroborating
+          - id: ext-b03-002
+            disposition: corroborating
+          - id: ext-b08-002
+            disposition: corroborating
+          - id: gof-ch11-001
+            disposition: distinct
+    confidence: medium
+    limitations: Retrospective 2007 chat testimony preserved by a non-official carrier; it describes post-1984 events and gives no dates for the jinx's lifting or Quirrell's earlier appointment.
+
+  - id: ext-b09-005
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on later Slytherin house divisions
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Are house divisions as prevalaent in harry.s children.s hogwarts as in the previous generations
+      end_phrase: hence Albus Potter's fears
+      local_occurrence_note: Response comparing the children's Hogwarts era with earlier generations.
+    nearby_context: In answer about the next generation, Rowling says Slytherin has become less exclusively pure-blood but retains its dark reputation.
+    match_terms:
+      - Slytherin
+      - pureblood bastion
+      - house divisions
+    quote_excerpt_short: Slytherin has become diluted. It is no longer the pureblood bastion it once was.
+    source_note: Rowling retrospectively characterises earlier Slytherin as a pure-blood bastion, while saying the later children's era has diluted that composition without erasing the House's reputation.
+    reference_type: house_system
+    era_classification: later_editorial_note
+    topic_tags:
+      - slytherin
+      - pure-blood
+      - house-system
+      - later-editorial-notes
+    candidate_part: Later Editorial Notes
+    candidate_chapter: House Identity and Reputation
+    candidate_section: Later Dilution of Slytherin's Pure-Blood Identity
+    reason_for_placement: The claim explicitly compares a later school generation with prior House composition and reputation.
+    relevance_to_hogwarts_a_history: Retain as a later editorial comparison, not as evidence that an original pre-1984 edition could report a later change.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed evidence corroborates Slytherin's historical identity and reputation, but this later-generational change is distinct.
+      audit:
+        query_tags:
+          - house-system
+          - later-editorial-notes
+          - pure-blood
+          - slytherin
+        candidates:
+          - id: dh-ch33-005
+            disposition: corroborating
+          - id: dh-ch36-002
+            disposition: corroborating
+          - id: gof-ch15-004
+            disposition: corroborating
+          - id: hbp-ch04-005
+            disposition: corroborating
+          - id: ps-ch05-006
+            disposition: corroborating
+          - id: ps-ch06-005
+            disposition: corroborating
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch09-004
+            disposition: corroborating
+          - id: cos-ch18-004
+            disposition: distinct
+          - id: dh-ch10-002
+            disposition: corroborating
+    confidence: medium
+    limitations: A retrospective statement set in a later generation after the original-book cutoff; no date or enrollment evidence is supplied, and the carrier is a preservation transcription.
+
+  - id: ext-b09-006
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on Fawkes after Dumbledore's death
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Something had to leave the school for good when Dumbledore died
+      end_phrase: expresses this symbolically
+      local_occurrence_note: Response explaining why Fawkes did not return to assist Harry.
+    nearby_context: Rowling says Fawkes's permanent departure was a symbolic expression of the irreplaceable loss of Dumbledore.
+    match_terms:
+      - Fawkes
+      - Dumbledore
+      - phoenix departure
+    quote_excerpt_short: Something had to leave the school for good when Dumbledore died, and I decided that would be Fawkes.
+    source_note: Rowling states that Fawkes permanently left Hogwarts after Dumbledore's death, framing the departure as symbolic rather than a transferable succession.
+    reference_type: portrait_or_ghost_lore
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - fawkes
+      - hogwarts-residents
+      - phoenix
+      - later-editorial-notes
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Phoenixes and Headmaster Associations
+    candidate_section: Fawkes's Permanent Departure
+    reason_for_placement: Records a change in the castle's magical residents caused by a post-1984 death.
+    relevance_to_hogwarts_a_history: Include only as a later editorial note because the departure follows Dumbledore's death during Harry's school era.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch29-002
+      notes: The Prince source directly records Fawkes leaving after Dumbledore; this chat adds Rowling's symbolic explanation.
+      audit:
+        query_tags:
+          - fawkes
+          - hogwarts-residents
+          - later-editorial-notes
+          - phoenix
+        candidates:
+          - id: cos-ch17-005
+            disposition: distinct
+          - id: hbp-ch29-002
+            disposition: duplicate
+          - id: ootp-ch36-005
+            disposition: distinct
+          - id: cos-ch17-007
+            disposition: distinct
+          - id: ext-b08-003
+            disposition: corroborating
+          - id: gof-ch36-003
+            disposition: distinct
+          - id: hbp-ch10-003
+            disposition: corroborating
+          - id: hbp-ch29-005
+            disposition: corroborating
+          - id: hbp-ch30-005
+            disposition: distinct
+          - id: ootp-ch22-003
+            disposition: distinct
+    confidence: medium
+    limitations: Retrospective author commentary preserved in a 2007 transcript; the event is post-1984 and the stated symbolism is interpretive.
+
+  - id: ext-b09-007
+    source_file: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    source_id: B09
+    source_url: https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html
+    source_section: Live chat response on Snape's headmaster portrait
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It was deliberate
+      end_phrase: portrait would appear there in due course
+      local_occurrence_note: Response explaining Snape's initial absence from the headmasters' office portraits.
+    nearby_context: Rowling says Snape had not initially merited inclusion because he abandoned his post, but envisages Harry securing a later portrait.
+    match_terms:
+      - Snape portrait
+      - headmaster's office
+      - headmaster portraits
+    quote_excerpt_short: Snape had effectively abandoned his post before dying, so he had not merited inclusion in these august circles.
+    source_note: Rowling presents Snape's initial portrait omission as a deliberate post-war exception linked to his abandonment of office, then imagines Harry arranging later inclusion.
+    reference_type: portrait_or_ghost_lore
+    era_classification: later_editorial_note
+    topic_tags:
+      - headmaster-portraits
+      - severus-snape
+      - headmaster-office
+      - later-editorial-notes
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Headmasters, Headmistresses, and Their Office
+    candidate_section: Snape's Post-War Portrait Exception
+    reason_for_placement: Supplies a retrospective, case-specific qualification to the headmaster portrait tradition.
+    relevance_to_hogwarts_a_history: Keep only as a later editorial annotation; it concerns post-1984 events and should not be generalized into a portrait-admission rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The index documents the portrait tradition and post-Battle office, but not this specific retrospective exception.
+      audit:
+        query_tags:
+          - headmaster-office
+          - headmaster-portraits
+          - later-editorial-notes
+          - severus-snape
+        candidates:
+          - id: cos-ch12-001
+            disposition: corroborating
+          - id: cos-ch13-006
+            disposition: corroborating
+          - id: dh-ch36-006
+            disposition: corroborating
+          - id: ext-a05-003
+            disposition: corroborating
+          - id: ext-a05-004
+            disposition: corroborating
+          - id: gof-ch30-001
+            disposition: distinct
+          - id: hbp-ch10-003
+            disposition: corroborating
+          - id: hbp-ch29-005
+            disposition: corroborating
+          - id: ootp-ch37-001
+            disposition: corroborating
+          - id: cos-ch11-007
+            disposition: distinct
+    confidence: medium
+    limitations: A preserved post-series author-chat response about a single post-1984 case; it is not a general institutional rule and its later portrait is phrased as Rowling's expectation.

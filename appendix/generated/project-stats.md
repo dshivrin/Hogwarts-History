@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 261
+- Total: 264
 
 ## Entries by Book or External Source
 
@@ -56,6 +56,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B05 — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005: 2
 - B06 — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part Two," The Leaky Cauldron , 16 July 2005: 4
 - B07 — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005: 5
+- B08 — Edinburgh "cub reporter" press conference, ITV , 16 July 2005: 4
+- B09 — J.K. Rowling and the Live Chat , Bloomsbury.com, July 30, 2007 (2.00-3.00pm BST).: 7
+- B10 — Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, part one." PotterCast #130 , 17 December 2007.: 3
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -68,27 +71,27 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 533
-- later_editorial_note: 693
-- original_book_core_candidate: 12
-- post_1984_excluded_from_original: 30
-- pre_1984_historical_candidate: 283
+- harry_era_confirmation: 536
+- later_editorial_note: 696
+- original_book_core_candidate: 13
+- post_1984_excluded_from_original: 33
+- pre_1984_historical_candidate: 287
 - unknown_or_uncertain: 19
 
 ## Entries by Reference Type
 
 - cross_reference_candidate: 107
-- curriculum_or_subject: 168
+- curriculum_or_subject: 170
 - direct_observed_setting: 69
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 109
-- historical_claim: 297
-- house_system: 39
-- institutional_custom: 215
-- magical_architecture: 115
-- portrait_or_ghost_lore: 34
+- historical_claim: 302
+- house_system: 40
+- institutional_custom: 217
+- magical_architecture: 116
+- portrait_or_ghost_lore: 36
 - school_rule_or_policy: 159
-- security_or_protection: 244
+- security_or_protection: 245
 - weak_context_only: 4
 
 ## Explicit `Hogwarts: A History` References
@@ -97,12 +100,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1028
+- Total: 1033
 
 ## Latest Processed Unit
 
-- `B07` — Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005, input `resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md`, output `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+- `B10` — Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, part one." PotterCast #130 , 17 December 2007., input `resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md`, output `sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml`
 
 ## Next Pending Unit
 
-- `B08` — Edinburgh "cub reporter" press conference, ITV , 16 July 2005, input `resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md`, output `sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml`
+- `B11` — Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow], 24 June 1997., input `resources/external/interviews/accio-quote/b11-the-herald-interview.md`, output `sources/external/interviews/b11-the-herald-interview.yaml`

@@ -449,6 +449,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b01-005` (None): Preservation transcription (authority D), not an official first-party page; the answer is deliberately incomplete in 2000 and points readers to a then-unpublished Book VII explanation.
 - `ext-b01-006` (None): Preservation transcription (authority D), not an official first-party page; this is a concise 2000 planning-era answer, not a published in-universe institutional source.
 - `ext-b04-004` (None): Authority D preservation transcription; Rowling explicitly qualifies the answer as from memory, and the transcript supplies no subject list or documentary confirmation.
+- `ext-b10-002` (None): Rowling expressly presents the identification as a feeling; the preservation transcription supplies no date, independent corroboration, or direct Hogwarts connection.
+- `ext-b10-003` (None): Retrospective authorial speculation about an unwritten scene after the Harry-era timeline; it explicitly does not establish an enacted Hogwarts tradition.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.

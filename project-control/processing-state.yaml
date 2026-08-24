@@ -14,13 +14,14 @@ last_completed_source_unit:
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
 current_source_unit: null
 next_source_unit:
-  id: B08
-  title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005
+  id: B11
+  title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],
+    24 June 1997.
   status: pending
-  input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
-  output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
-  staging_file: work/external-staging/b08.yaml
-  manifest_id: external-B08
+  input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+  output_file: sources/external/interviews/b11-the-herald-interview.yaml
+  staging_file: work/external-staging/b11.yaml
+  manifest_id: external-B11
   claimed_by: null
   claimed_at: null
 indexes:
@@ -60,41 +61,41 @@ external_processing:
   max_in_progress: 4
   total_units: 63
   counts:
-    pending: 19
+    pending: 16
     in_progress: 0
-    done: 44
+    done: 47
     blocked: 0
   active_units: []
   next_pending_unit:
-    id: B08
-    title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005
+    id: B11
+    title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],
+      24 June 1997.
     status: pending
-    input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
-    output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
-    staging_file: work/external-staging/b08.yaml
-    manifest_id: external-B08
+    input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+    output_file: sources/external/interviews/b11-the-herald-interview.yaml
+    staging_file: work/external-staging/b11.yaml
+    manifest_id: external-B11
     claimed_by: null
     claimed_at: null
   last_completed_unit:
-    id: B07
-    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet
-      interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July
-      2005'
+    id: B10
+    title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
+      part one." PotterCast #130 , 17 December 2007.'
     status: done
-    input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
-    output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
-    staging_file: work/external-staging/b07.yaml
-    manifest_id: external-B07
+    input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+    output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+    staging_file: work/external-staging/b10.yaml
+    manifest_id: external-B10
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B07
-  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview
-    Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005'
+  id: B10
+  title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
+    part one." PotterCast #130 , 17 December 2007.'
   status: done
-  input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
-  output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
-  staging_file: work/external-staging/b07.yaml
-  manifest_id: external-B07
+  input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+  output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  staging_file: work/external-staging/b10.yaml
+  manifest_id: external-B10
   claimed_by: null
   claimed_at: null
