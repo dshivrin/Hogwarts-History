@@ -75,7 +75,7 @@ EXTERNAL_ENTRY_REQUIRED = {
 }
 CONFIDENCE_VALUES = {"high", "medium", "low"}
 BOOK_SOURCE_NAME_RE = re.compile(
-    r"^book-(?:\d{2}|qtta|beedle)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
+    r"^book-(?:\d{2}|qtta|beedle|fb)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
 )
 EXTERNAL_SOURCE_NAME_RE = re.compile(
     r"^external/(?:official-rowling|interviews)/[a-z0-9-]+\.yaml$"

@@ -1,0 +1,126 @@
+project: Hogwarts A History Seed Builder
+updated: '2026-09-11'
+purpose: Track ready remainder extraction separately from work that has no readable carrier yet.
+ready_extraction:
+  authoritative_plan: project-control/source-plan.yaml
+  book_group: book-fb
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  unit_ids:
+  - FB00
+  - FB01
+  - FB02
+  - FB03
+  - FB04
+  - FB05
+  - FB06
+  - FB07
+  - FB08
+  - FB09
+  status_note: Per-unit status is maintained only in source-plan.yaml; do not duplicate it here.
+blocked_acquisition:
+- id: ACQ-B01-B26-ORIGINAL-CARRIERS
+  title: Recover original publisher and broadcaster carriers for B01-B26
+  status: blocked
+  blocked_reason: The acquired evidence is currently represented by Accio Quote preservation transcripts; lawful original carriers have not been attached.
+  unblock_condition: Recover an original publisher or broadcaster page, transcript, audio, or archived capture with stable provenance.
+  what_to_update:
+  - Attach the carrier to the existing logical B ID; do not create duplicate evidence solely for a second carrier.
+  - Update resources/manifests/external-sources.yaml with carrier provenance and retrieval metadata.
+  - Revalidate the existing canonical B output against the recovered carrier.
+- id: ACQ-OLD-JKR-WEBSITE
+  title: Recover original old J.K. Rowling website items
+  status: blocked
+  blocked_reason: Only discovery indexes are recorded; original archived jkrowling.com captures and complete local text are not acquired.
+  unblock_condition: Recover a lawful archived capture with original URL, capture timestamp, category, title/date, and readable body.
+  what_to_update:
+  - Add a manifest carrier record and immutable local snapshot.
+  - Add a new extraction unit only when it represents a new logical source rather than a duplicate carrier.
+  - Record authority and preservation limitations.
+- id: E01
+  title: Hogwarts - An Incomplete and Unreliable Guide
+  status: blocked
+  blocked_reason: No legitimate readable local edition is registered.
+  unblock_condition: Register a legitimate local edition or lawful readable carrier and map sections to existing HarryPotter.com originals.
+  what_to_update: &published_updates
+  - Register the carrier and provenance in an acquisition manifest.
+  - Define bounded source units with output paths before changing processing-state.yaml.
+  - Check carrier equivalence so duplicate publications do not inflate evidence weight.
+- id: E02
+  title: Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies
+  status: blocked
+  blocked_reason: No legitimate readable local edition is registered.
+  unblock_condition: Register a legitimate local edition or lawful readable carrier and map sections to existing HarryPotter.com originals.
+  what_to_update: *published_updates
+- id: E03
+  title: Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists
+  status: blocked
+  blocked_reason: No legitimate readable local edition is registered.
+  unblock_condition: Register a legitimate local edition or lawful readable carrier and map sections to existing HarryPotter.com originals.
+  what_to_update: *published_updates
+- id: E04
+  title: Fantastic Beasts - The Crimes of Grindelwald, The Original Screenplay
+  status: blocked
+  blocked_reason: No legitimate readable local edition is registered.
+  unblock_condition: Register a legitimate local edition or lawful readable carrier.
+  what_to_update: *published_updates
+- id: E05
+  title: Fantastic Beasts - The Secrets of Dumbledore, The Complete Screenplay
+  status: blocked
+  blocked_reason: No legitimate readable local edition is registered.
+  unblock_condition: Register a legitimate local edition or lawful readable carrier while preserving joint authorship with Steve Kloves.
+  what_to_update: *published_updates
+- id: E06
+  title: Original Famous Wizard Cards
+  status: blocked
+  blocked_reason: Card editions and variants have not been acquired and enumerated locally.
+  unblock_condition: Acquire lawful card images or transcriptions and enumerate their edition/variant provenance.
+  what_to_update: *published_updates
+- id: E07
+  title: Official fan-club Daily Prophet newsletters
+  status: blocked
+  blocked_reason: The four issues are not registered as readable local carriers.
+  unblock_condition: Acquire lawful readable copies, enumerate all four issues, and record continuity cautions.
+  what_to_update: *published_updates
+- id: E08
+  title: 2008 Waterstones prequel in What's Your Story?
+  status: blocked
+  blocked_reason: No legitimate readable local carrier is registered.
+  unblock_condition: Register a lawful readable copy with publication and page provenance.
+  what_to_update: *published_updates
+- id: E09
+  title: Conversations with J.K. Rowling by Lindsey Fraser
+  status: blocked
+  blocked_reason: No legitimate readable local edition is registered.
+  unblock_condition: Register a legitimate local edition and distinguish interviewer text from Rowling quotations.
+  what_to_update: *published_updates
+- id: E10
+  title: J.K. Rowling - A Year in the Life
+  status: blocked
+  blocked_reason: No lawful recording or broadcaster transcript with timestamps is registered.
+  unblock_condition: Register a lawful recording or broadcaster transcript and timestamp the bounded units.
+  what_to_update: *published_updates
+- id: AUDIT-HARRYPOTTER-COM
+  title: Enumerate the complete paginated HarryPotter.com Rowling archive
+  status: blocked
+  blocked_reason: The 37 acquired pages are high-relevance candidates, but archive-wide completeness has not been demonstrated.
+  unblock_condition: Complete an independently recorded pagination audit and identify any new relevant logical sources.
+  what_to_update:
+  - Update the external acquisition report and manifest for newly acquired logical sources.
+  - Add only newly acquired sources to the external queue.
+- id: AUDIT-ACCIO
+  title: Exhaust Accio Quote Hogwarts and chronological indexes
+  status: blocked
+  blocked_reason: Topic and chronological index coverage beyond the acquired B01-B26 set is not proven complete.
+  unblock_condition: Record a complete index audit for 1997-2007 and acquire any newly identified transcripts.
+  what_to_update:
+  - Update the external acquisition report and manifest.
+  - Queue only new logical sources, preserving carrier relationships.
+- id: AUDIT-DATES-AUDIO
+  title: Validate dates and surviving audio carriers
+  status: blocked
+  blocked_reason: B13/B18 dates and B17/B25/B26 audio-carrier recovery remain unresolved.
+  unblock_condition: Locate authoritative date evidence and/or lawful surviving audio.
+  what_to_update:
+  - Correct manifest dates only with cited provenance.
+  - Attach audio as another carrier of the existing logical B source.
+source_backlog_detail: resources/external/unresolved/discovery-backlog.md

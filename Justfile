@@ -60,6 +60,14 @@ post:
 brief:
     just status
 
+# Clear disposable extraction artifacts before rendering the current scanned range
+clean-cache:
+    .venv/bin/python scripts/cleanup_tmp.py
+
+# Validate and complete exactly one current PDF source unit transactionally
+advance-current:
+    .venv/bin/python scripts/complete_current_unit.py
+
 # Claim the next or a specific external source unit
 claim-external agent="codex" unit="":
     .venv/bin/python scripts/external_sources/queue.py claim --agent "{{agent}}" --unit "{{unit}}"

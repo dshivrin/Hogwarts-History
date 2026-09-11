@@ -12,8 +12,28 @@ last_completed_source_unit:
   page_start: 63
   page_end: 65
   output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
-current_source_unit: null
-next_source_unit: null
+current_source_unit:
+  unit_id: FB00
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book_group: book-fb
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 0
+  chapter_title: Front Matter, Contents, Author, and Foreword
+  page_start: 1
+  page_end: 8
+  extraction_mode: rendered_page_images
+  output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+next_source_unit:
+  unit_id: FB01
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book_group: book-fb
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 1
+  chapter_title: About This Book and What Is a Beast?
+  page_start: 9
+  page_end: 13
+  extraction_mode: rendered_page_images
+  output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
@@ -38,6 +58,8 @@ automation_rules:
   index_first_duplicate_lookup: true
   workers_write_assigned_yaml_only: true
   completion_updates_generated_outputs: true
+  scanned_pdf_requires_rendered_page_review: true
+  stop_after_advancing_one_unit: true
 cleanup_runs:
 - date: '2026-06-20'
   type: appendix_consolidation

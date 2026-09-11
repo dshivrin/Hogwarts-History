@@ -4,7 +4,7 @@ project:
   authoritative_state: project-control/processing-state.yaml
   update_note: scripts/update_next_run.py keeps completed chapter status synchronized
     when advancing after a validated extraction.
-current_phase: fantastic-beasts-remainder-extraction
+current_phase: external-source-extraction
 sources:
 - source_file: pdfs/harrypotter.pdf
   book_group: book-01
@@ -910,81 +910,6 @@ sources:
     title: Back Matter
     status: complete
     output_file: sources/book-beedle/chapter-06-back-matter.yaml
-- source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
-  book_group: book-fb
-  book: Fantastic Beasts and Where to Find Them
-  extraction_mode: rendered_page_images
-  chapters:
-  - id: FB00
-    number: 0
-    title: Front Matter, Contents, Author, and Foreword
-    page_start: 1
-    page_end: 8
-    status: in_progress
-    output_file: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
-  - id: FB01
-    number: 1
-    title: About This Book and What Is a Beast?
-    page_start: 9
-    page_end: 13
-    status: pending
-    output_file: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
-  - id: FB02
-    number: 2
-    title: A Brief History of Muggle Awareness of Fantastic Beasts
-    page_start: 14
-    page_end: 15
-    status: pending
-    output_file: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
-  - id: FB03
-    number: 3
-    title: Magical Beasts in Hiding
-    page_start: 16
-    page_end: 20
-    status: pending
-    output_file: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
-  - id: FB04
-    number: 4
-    title: Why Magizoology Matters and Ministry Classifications
-    page_start: 21
-    page_end: 22
-    status: pending
-    output_file: sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
-  - id: FB05
-    number: 5
-    title: A-C Bestiary Entries
-    page_start: 23
-    page_end: 30
-    status: pending
-    output_file: sources/book-fb/chapter-05-bestiary-a-to-c.yaml
-  - id: FB06
-    number: 6
-    title: D-H Bestiary Entries
-    page_start: 31
-    page_end: 43
-    status: pending
-    output_file: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
-  - id: FB07
-    number: 7
-    title: I-Q Bestiary Entries
-    page_start: 44
-    page_end: 56
-    status: pending
-    output_file: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
-  - id: FB08
-    number: 8
-    title: R-Z Bestiary Entries
-    page_start: 57
-    page_end: 64
-    status: pending
-    output_file: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
-  - id: FB09
-    number: 9
-    title: Back Matter
-    page_start: 65
-    page_end: 65
-    status: pending
-    output_file: sources/book-fb/chapter-09-back-matter.yaml
 external_sources:
   schema_version: 1
   generated_from: resources/manifests/external-sources.yaml

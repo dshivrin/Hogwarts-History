@@ -208,6 +208,60 @@ def find_planned_chapter(source_plan: dict | None, unit: dict) -> dict | None:
     return None
 
 
+def find_planned_location(
+    source_plan: dict | None,
+    unit: dict,
+) -> tuple[dict, int] | None:
+    if not source_plan:
+        return None
+    for source in source_plan.get("sources") or []:
+        if source.get("book_group") != unit.get("book_group"):
+            continue
+        for index, chapter in enumerate(source.get("chapters") or []):
+            same_id = unit.get("unit_id") and chapter.get("id") == unit.get("unit_id")
+            same_number = chapter.get("number") == unit.get("chapter_number")
+            if same_id or same_number:
+                return source, index
+    return None
+
+
+def build_planned_unit(source: dict, chapter: dict) -> dict:
+    unit = {
+        "unit_id": chapter.get("id"),
+        "source_file": source.get("source_file"),
+        "book_group": source.get("book_group"),
+        "book": source.get("book"),
+        "chapter_number": chapter.get("number"),
+        "chapter_title": chapter.get("title"),
+        "page_start": chapter.get("page_start"),
+        "page_end": chapter.get("page_end"),
+        "output_yaml": chapter.get("output_file"),
+    }
+    extraction_mode = chapter.get("extraction_mode") or source.get("extraction_mode")
+    if extraction_mode:
+        unit["extraction_mode"] = extraction_mode
+    return unit
+
+
+def following_planned_unit(source_plan: dict | None, unit: dict) -> dict | None:
+    location = find_planned_location(source_plan, unit)
+    if not location:
+        return None
+    source, index = location
+    chapters = source.get("chapters") or []
+    if index + 1 >= len(chapters):
+        return None
+    return build_planned_unit(source, chapters[index + 1])
+
+
+def update_source_plan_in_progress(source_plan: dict, unit: dict) -> bool:
+    chapter = find_planned_chapter(source_plan, unit)
+    if not chapter:
+        return False
+    chapter["status"] = "in_progress"
+    return True
+
+
 def update_source_plan_completed(source_plan: dict, completed_unit: dict) -> bool:
     chapter = find_planned_chapter(source_plan, completed_unit)
     if not chapter:
@@ -223,50 +277,74 @@ def update_source_plan_completed(source_plan: dict, completed_unit: dict) -> boo
 def advance_state(state: dict) -> dict:
     current = state.get("current_source_unit")
     next_unit = state.get("next_source_unit")
-    if not isinstance(current, dict) or not isinstance(next_unit, dict):
-        raise ValueError("processing-state.yaml must define current and next source units")
+    if not isinstance(current, dict):
+        raise ValueError("processing-state.yaml must define a current source unit")
+    if next_unit is not None and not isinstance(next_unit, dict):
+        raise ValueError("processing-state.yaml next source unit must be a mapping or null")
 
     validate_current_output(current)
     source_plan = load_yaml(SOURCE_PLAN_PATH) if SOURCE_PLAN_PATH.exists() else None
-    chapters = parse_chapters_index()
-    next_book_number = book_number_from_group(str(next_unit.get("book_group")))
-
-    next_chapter_number = int(next_unit.get("chapter_number") or 0)
-    following_info = following_chapter_info(
-        chapters,
-        next_book_number,
-        next_chapter_number,
-    )
-    if not following_info:
-        raise ValueError(
-            f"Next source unit after chapter {next_chapter_number} is not known"
-        )
 
     advanced = deepcopy(state)
     completed = deepcopy(current)
     completed.pop("extracted_text_path", None)
     advanced["last_completed_source_unit"] = completed
 
-    new_current = deepcopy(next_unit)
-    new_current.setdefault(
-        "extracted_text_path",
-        current.get("extracted_text_path") or ".tmp/current-chapter.txt",
-    )
-    advanced["current_source_unit"] = new_current
-    advanced["next_source_unit"] = build_unit(new_current, following_info, source_plan)
-
     if source_plan is not None:
         update_source_plan_completed(source_plan, completed)
+
+    if next_unit is None:
+        advanced["current_source_unit"] = None
+        advanced["next_source_unit"] = None
+    else:
+        new_current = deepcopy(next_unit)
+        if new_current.get("extraction_mode") != "rendered_page_images":
+            new_current.setdefault(
+                "extracted_text_path",
+                current.get("extracted_text_path") or ".tmp/current-chapter.txt",
+            )
+        advanced["current_source_unit"] = new_current
+
+        planned_following = following_planned_unit(source_plan, new_current)
+        if planned_following is not None:
+            advanced["next_source_unit"] = planned_following
+        elif str(new_current.get("book_group") or "").startswith("book-") and re.search(
+            r"\d+$", str(new_current.get("book_group") or "")
+        ):
+            chapters = parse_chapters_index()
+            next_book_number = book_number_from_group(str(new_current.get("book_group")))
+            next_chapter_number = int(new_current.get("chapter_number") or 0)
+            following_info = following_chapter_info(
+                chapters,
+                next_book_number,
+                next_chapter_number,
+            )
+            if not following_info:
+                raise ValueError(
+                    f"Next source unit after chapter {next_chapter_number} is not known"
+                )
+            advanced["next_source_unit"] = build_unit(
+                new_current,
+                following_info,
+                source_plan,
+            )
+        else:
+            advanced["next_source_unit"] = None
+
+        if source_plan is not None:
+            update_source_plan_in_progress(source_plan, new_current)
+
+    if source_plan is not None:
         write_yaml(SOURCE_PLAN_PATH, source_plan)
 
     return advanced
 
 
 def render_next_run(state: dict) -> str:
-    external = state.get("external_processing")
-    if isinstance(external, dict):
-        return render_external_next_run(external)
     current = state.get("current_source_unit")
+    external = state.get("external_processing")
+    if not isinstance(current, dict) and isinstance(external, dict):
+        return render_external_next_run(external)
     if not isinstance(current, dict):
         completed = state.get("last_completed_source_unit") or {}
         return f"""# Next Run
@@ -292,6 +370,16 @@ The planned source sequence is exhausted. Do not start another source-unit extra
 unless `project-control/source-plan.yaml` is extended or
 `project-control/processing-state.yaml` is deliberately reset to a pending unit.
 """
+    current_locator = (
+        "- Rendered images: `.tmp/current-source-images/`"
+        if current.get("extraction_mode") == "rendered_page_images"
+        else f"- Extracted text: `{current.get('extracted_text_path', '.tmp/current-chapter.txt')}`"
+    )
+    required_current_read = (
+        "- `.tmp/current-source-images/` after rendering only the current page range"
+        if current.get("extraction_mode") == "rendered_page_images"
+        else "- `.tmp/current-chapter.txt`"
+    )
     return f"""# Next Run
 
 Generated display only. Source of truth: `project-control/processing-state.yaml`.
@@ -303,7 +391,7 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Book: `{current.get('book')}`
 - Chapter: {current.get('chapter_title')}
 - Page range: {current.get('page_start')}-{current.get('page_end')}
-- Extracted text: `{current.get('extracted_text_path', '.tmp/current-chapter.txt')}`
+{current_locator}
 - Output YAML: `{current.get('output_yaml')}`
 
 ## Minimal Context
@@ -312,7 +400,7 @@ Read only:
 
 - `docs/instructions/runtime-contract.md`
 - `project-control/processing-state.yaml`
-- `.tmp/current-chapter.txt`
+{required_current_read}
 - Current output YAML only if it exists
 
 Use `just query-dupes <tag> <tag>` for duplicate and context lookup after candidate

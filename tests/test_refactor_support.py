@@ -85,6 +85,23 @@ class RefactorSupportTests(unittest.TestCase):
 
             self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 0)
 
+    def test_validate_source_yaml_accepts_fantastic_beasts_companion_source_group(self) -> None:
+        """Catches the validator rejecting the queued Fantastic Beasts outputs."""
+        validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_schema_reference(root)
+            source_dir = root / "sources" / "book-fb"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-00-front-matter.yaml").write_text(
+                self._source_yaml("fb-ch00-001"),
+                encoding="utf-8",
+            )
+            self._write_valid_seed_contract(root)
+
+            self.assertEqual(validate_source_yaml.main(["--root", str(root)]), 0)
+
     def test_validate_book_seed_accepts_current_contract(self) -> None:
         validate_source_yaml = importlib.import_module("scripts.validate_source_yaml")
 
@@ -314,6 +331,41 @@ class RefactorSupportTests(unittest.TestCase):
             source_index = yaml.safe_load(build_entry_index.SOURCE_INDEX_PATH.read_text())
 
         self.assertEqual(source_index["processed_units"][0]["source_unit_id"], "beedle-ch01")
+
+    def test_build_entry_index_uses_fb_prefix_for_companion_source_units(self) -> None:
+        """Catches Fantastic Beasts units receiving the generic bookfb identifier."""
+        build_entry_index = importlib.import_module("scripts.build_entry_index")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            source_dir = root / "sources" / "book-fb"
+            source_dir.mkdir(parents=True)
+            (source_dir / "chapter-00-front-matter.yaml").write_text(
+                textwrap.dedent(
+                    """
+                    source_unit:
+                      source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+                      book: Fantastic Beasts and Where to Find Them
+                      chapter: Front Matter
+                      chapter_start_pdf_page: 1
+                      chapter_end_pdf_page: 8
+                      processed_date: '2026-09-11'
+                    entries: []
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            build_entry_index.ROOT = root
+            build_entry_index.SOURCES_DIR = root / "sources"
+            build_entry_index.ENTRY_INDEX_PATH = root / "project-control" / "entry-index.yaml"
+            build_entry_index.SOURCE_INDEX_PATH = root / "project-control" / "source-index.yaml"
+
+            self.assertEqual(build_entry_index.main(), 0)
+            source_index = yaml.safe_load(build_entry_index.SOURCE_INDEX_PATH.read_text())
+
+        self.assertEqual(source_index["processed_units"][0]["source_unit_id"], "fb-ch00")
 
     def test_query_duplicates_returns_only_matching_tags(self) -> None:
         query_duplicates = importlib.import_module("scripts.query_duplicates")
@@ -784,6 +836,38 @@ class RefactorSupportTests(unittest.TestCase):
         self.assertIn("Back Cover", rendered)
         self.assertNotIn("`None`", rendered)
 
+    def test_update_next_run_prefers_current_pdf_over_exhausted_external_queue(self) -> None:
+        """Catches a ready PDF unit being hidden by the completed external queue."""
+        update_next_run = importlib.import_module("scripts.update_next_run")
+
+        rendered = update_next_run.render_next_run(
+            {
+                "external_processing": {
+                    "total_units": 63,
+                    "counts": {"pending": 0, "in_progress": 0, "done": 63, "blocked": 0},
+                    "active_units": [],
+                    "next_pending_unit": None,
+                    "last_completed_unit": {"id": "B26", "title": "Final interview"},
+                },
+                "current_source_unit": {
+                    "unit_id": "FB00",
+                    "source_file": "pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf",
+                    "book_group": "book-fb",
+                    "book": "Fantastic Beasts and Where to Find Them",
+                    "chapter_number": 0,
+                    "chapter_title": "Front Matter, Contents, Author, and Foreword",
+                    "page_start": 1,
+                    "page_end": 8,
+                    "extraction_mode": "rendered_page_images",
+                    "output_yaml": "sources/book-fb/chapter-00-front-matter.yaml",
+                },
+            }
+        )
+
+        self.assertIn("Front Matter, Contents, Author, and Foreword", rendered)
+        self.assertIn("Page range: 1-8", rendered)
+        self.assertNotIn("## External Source Queue", rendered)
+
     def test_update_next_run_advances_after_valid_current_output(self) -> None:
         update_next_run = importlib.import_module("scripts.update_next_run")
 
@@ -973,6 +1057,280 @@ class RefactorSupportTests(unittest.TestCase):
             "Chapter One - Dudley Demented",
         )
 
+    def test_update_next_run_advances_named_companion_from_ordered_plan(self) -> None:
+        """Catches nonnumeric book groups depending on the novel-only chapters index."""
+        update_next_run = importlib.import_module("scripts.update_next_run")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            control_dir = root / "project-control"
+            control_dir.mkdir()
+            state_path = control_dir / "processing-state.yaml"
+            next_run_path = control_dir / "next-run.md"
+            state = {
+                "current_source_unit": {
+                    "unit_id": "FB00",
+                    "source_file": "pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf",
+                    "book_group": "book-fb",
+                    "book": "Fantastic Beasts and Where to Find Them",
+                    "chapter_number": 0,
+                    "chapter_title": "Front Matter",
+                    "page_start": 1,
+                    "page_end": 8,
+                    "output_yaml": "sources/book-fb/chapter-00-front-matter.yaml",
+                },
+                "next_source_unit": {
+                    "unit_id": "FB01",
+                    "source_file": "pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf",
+                    "book_group": "book-fb",
+                    "book": "Fantastic Beasts and Where to Find Them",
+                    "chapter_number": 1,
+                    "chapter_title": "About This Book",
+                    "page_start": 9,
+                    "page_end": 13,
+                    "output_yaml": "sources/book-fb/chapter-01-about-this-book.yaml",
+                },
+            }
+            state_path.write_text(yaml.safe_dump(state, sort_keys=False), encoding="utf-8")
+            output_yaml = root / "sources" / "book-fb" / "chapter-00-front-matter.yaml"
+            output_yaml.parent.mkdir(parents=True)
+            output_yaml.write_text("source_unit: {}\nentries: []\n", encoding="utf-8")
+            plan = {
+                "sources": [
+                    {
+                        "source_file": "pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf",
+                        "book_group": "book-fb",
+                        "book": "Fantastic Beasts and Where to Find Them",
+                        "chapters": [
+                            {
+                                "id": "FB00",
+                                "number": 0,
+                                "title": "Front Matter",
+                                "page_start": 1,
+                                "page_end": 8,
+                                "status": "in_progress",
+                                "output_file": "sources/book-fb/chapter-00-front-matter.yaml",
+                            },
+                            {
+                                "id": "FB01",
+                                "number": 1,
+                                "title": "About This Book",
+                                "page_start": 9,
+                                "page_end": 13,
+                                "status": "pending",
+                                "output_file": "sources/book-fb/chapter-01-about-this-book.yaml",
+                            },
+                            {
+                                "id": "FB02",
+                                "number": 2,
+                                "title": "Muggle Awareness",
+                                "page_start": 14,
+                                "page_end": 15,
+                                "status": "pending",
+                                "output_file": "sources/book-fb/chapter-02-muggle-awareness.yaml",
+                            },
+                        ],
+                    }
+                ]
+            }
+            plan_path = control_dir / "source-plan.yaml"
+            plan_path.write_text(yaml.safe_dump(plan, sort_keys=False), encoding="utf-8")
+
+            update_next_run.ROOT = root
+            update_next_run.PROCESSING_STATE_PATH = state_path
+            update_next_run.NEXT_RUN_PATH = next_run_path
+            update_next_run.CHAPTERS_INDEX_PATH = root / "chapters-index.md"
+            update_next_run.SOURCE_PLAN_PATH = plan_path
+
+            self.assertEqual(update_next_run.main(["--advance-after-success"]), 0)
+            observed_state = yaml.safe_load(state_path.read_text())
+            observed_plan = yaml.safe_load(plan_path.read_text())
+
+        self.assertEqual(observed_state["last_completed_source_unit"]["unit_id"], "FB00")
+        self.assertEqual(observed_state["current_source_unit"]["unit_id"], "FB01")
+        self.assertEqual(observed_state["next_source_unit"]["unit_id"], "FB02")
+        self.assertEqual(observed_plan["sources"][0]["chapters"][0]["status"], "complete")
+        self.assertEqual(observed_plan["sources"][0]["chapters"][1]["status"], "in_progress")
+
+    def test_update_next_run_completes_final_named_companion_unit(self) -> None:
+        """Catches the final PDF unit requiring a nonexistent next pointer."""
+        update_next_run = importlib.import_module("scripts.update_next_run")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            control_dir = root / "project-control"
+            control_dir.mkdir()
+            state_path = control_dir / "processing-state.yaml"
+            next_run_path = control_dir / "next-run.md"
+            current = {
+                "unit_id": "FB09",
+                "source_file": "pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf",
+                "book_group": "book-fb",
+                "book": "Fantastic Beasts and Where to Find Them",
+                "chapter_number": 9,
+                "chapter_title": "Back Matter",
+                "page_start": 65,
+                "page_end": 65,
+                "output_yaml": "sources/book-fb/chapter-09-back-matter.yaml",
+            }
+            state_path.write_text(
+                yaml.safe_dump(
+                    {"current_source_unit": current, "next_source_unit": None},
+                    sort_keys=False,
+                ),
+                encoding="utf-8",
+            )
+            output_yaml = root / current["output_yaml"]
+            output_yaml.parent.mkdir(parents=True)
+            output_yaml.write_text("source_unit: {}\nentries: []\n", encoding="utf-8")
+            plan_path = control_dir / "source-plan.yaml"
+            plan_path.write_text(
+                yaml.safe_dump(
+                    {
+                        "sources": [
+                            {
+                                "source_file": current["source_file"],
+                                "book_group": current["book_group"],
+                                "book": current["book"],
+                                "chapters": [
+                                    {
+                                        "id": "FB09",
+                                        "number": 9,
+                                        "title": "Back Matter",
+                                        "page_start": 65,
+                                        "page_end": 65,
+                                        "status": "in_progress",
+                                        "output_file": current["output_yaml"],
+                                    }
+                                ],
+                            }
+                        ]
+                    },
+                    sort_keys=False,
+                ),
+                encoding="utf-8",
+            )
+
+            update_next_run.ROOT = root
+            update_next_run.PROCESSING_STATE_PATH = state_path
+            update_next_run.NEXT_RUN_PATH = next_run_path
+            update_next_run.CHAPTERS_INDEX_PATH = root / "chapters-index.md"
+            update_next_run.SOURCE_PLAN_PATH = plan_path
+
+            self.assertEqual(update_next_run.main(["--advance-after-success"]), 0)
+            observed_state = yaml.safe_load(state_path.read_text())
+            observed_plan = yaml.safe_load(plan_path.read_text())
+
+        self.assertEqual(observed_state["last_completed_source_unit"]["unit_id"], "FB09")
+        self.assertIsNone(observed_state["current_source_unit"])
+        self.assertIsNone(observed_state["next_source_unit"])
+        self.assertEqual(observed_plan["sources"][0]["chapters"][0]["status"], "complete")
+
+    def test_complete_current_unit_restores_generated_controls_after_failure(self) -> None:
+        """Catches a failed post-advance generation leaving control artifacts stale."""
+        module_spec = importlib.util.find_spec("scripts.complete_current_unit")
+        self.assertIsNotNone(module_spec, "complete_current_unit transaction is missing")
+        complete_current_unit = importlib.import_module("scripts.complete_current_unit")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            current_output = root / "sources" / "book-fb" / "chapter-00-front-matter.yaml"
+            current_output.parent.mkdir(parents=True)
+            current_output.write_text("source_unit: {}\nentries: []\n", encoding="utf-8")
+
+            artifact_paths = [
+                "project-control/duplicate-index.yaml",
+                "project-control/entry-index.yaml",
+                "project-control/source-index.yaml",
+                "project-control/tag-index.yaml",
+                "project-control/source-plan.yaml",
+                "project-control/processing-state.yaml",
+                "project-control/next-run.md",
+                "book-seed/hogwarts-a-history-seed.md",
+                "appendix/generated/project-stats.md",
+            ]
+            for name in artifact_paths:
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(f"original:{name}\n", encoding="utf-8")
+            (root / "project-control" / "processing-state.yaml").write_text(
+                yaml.safe_dump(
+                    {
+                        "current_source_unit": {
+                            "unit_id": "FB00",
+                            "output_yaml": current_output.relative_to(root).as_posix(),
+                        }
+                    },
+                    sort_keys=False,
+                ),
+                encoding="utf-8",
+            )
+            original = {name: (root / name).read_bytes() for name in artifact_paths}
+
+            def failing_runner(commands: list[list[str]], command_root: Path) -> None:
+                self.assertEqual(command_root, root)
+                for name in artifact_paths:
+                    (root / name).write_text(f"mutated:{name}\n", encoding="utf-8")
+                generated = root / "appendix" / "generated" / "partial.md"
+                generated.write_text("partial\n", encoding="utf-8")
+                raise RuntimeError("generation failed")
+
+            with self.assertRaises(complete_current_unit.CompletionError):
+                complete_current_unit.complete(root, runner=failing_runner)
+
+            restored = {name: (root / name).read_bytes() for name in artifact_paths}
+
+        self.assertEqual(restored, original)
+        self.assertFalse((root / "appendix" / "generated" / "partial.md").exists())
+
+    def test_complete_current_unit_rejects_output_outside_assigned_page_range(self) -> None:
+        """Catches a canonical PDF result being advanced under the wrong boundary."""
+        complete_current_unit = importlib.import_module("scripts.complete_current_unit")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            output = root / "sources" / "book-fb" / "chapter-00-front-matter.yaml"
+            output.parent.mkdir(parents=True)
+            output.write_text(
+                textwrap.dedent(
+                    """
+                    source_unit:
+                      source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+                      book: Fantastic Beasts and Where to Find Them
+                      chapter: Front Matter
+                      chapter_start_pdf_page: 1
+                      chapter_end_pdf_page: 9
+                    entries: []
+                    """
+                ).strip()
+                + "\n",
+                encoding="utf-8",
+            )
+            state_path = root / "project-control" / "processing-state.yaml"
+            state_path.parent.mkdir(parents=True)
+            state_path.write_text(
+                yaml.safe_dump(
+                    {
+                        "current_source_unit": {
+                            "unit_id": "FB00",
+                            "source_file": "pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf",
+                            "book_group": "book-fb",
+                            "book": "Fantastic Beasts and Where to Find Them",
+                            "chapter_number": 0,
+                            "chapter_title": "Front Matter",
+                            "page_start": 1,
+                            "page_end": 8,
+                            "output_yaml": output.relative_to(root).as_posix(),
+                        }
+                    },
+                    sort_keys=False,
+                ),
+                encoding="utf-8",
+            )
+
+            with self.assertRaises(complete_current_unit.CompletionError):
+                complete_current_unit.complete(root, runner=lambda commands, command_root: None)
+
     def test_runtime_contract_uses_compact_cli_workflow(self) -> None:
         contract = Path("docs/instructions/runtime-contract.md").read_text(encoding="utf-8")
 
@@ -1010,6 +1368,21 @@ class RefactorSupportTests(unittest.TestCase):
         ]:
             self.assertNotIn(text, contract)
 
+    def test_runtime_contract_supports_one_scanned_pdf_unit_per_run(self) -> None:
+        """Catches the active worker contract hiding or over-processing the FB queue."""
+        contract = Path("docs/instructions/runtime-contract.md").read_text(encoding="utf-8")
+
+        for text in [
+            "current_source_unit",
+            "rendered page image",
+            "pdftoppm",
+            "just advance-current",
+            "Stop the invocation",
+            "Do not begin `next_source_unit`",
+            "project-control/remaining-source-units.yaml",
+        ]:
+            self.assertIn(text, contract)
+
     def test_justfile_exposes_compact_workflow_recipes(self) -> None:
         justfile = Path("Justfile").read_text(encoding="utf-8")
 
@@ -1025,6 +1398,8 @@ class RefactorSupportTests(unittest.TestCase):
             "release-external",
             "block-external",
             "external-status",
+            "clean-cache:",
+            "advance-current:",
             "query-dupes *tags:",
             "query-entries tag:",
         ]:

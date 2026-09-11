@@ -52,6 +52,16 @@ entries:
     limitations:
 ```
 
+For the scanned `book-fb` companion source:
+
+- output paths use `sources/book-fb/chapter-NN-<slug>.yaml`;
+- entry IDs use `fb-chNN-NNN`;
+- `source_unit.source_file` is `pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf`;
+- `chapter_start_pdf_page` and `chapter_end_pdf_page` match the assigned inclusive range;
+- each entry's `pdf_page` identifies the rendered page image that was visually inspected;
+- `text_anchor` records visible local wording from that rendered page;
+- zero entries is valid when the entire assigned range was inspected and no relevant evidence was found.
+
 ### External Markdown sources
 
 ```yaml

@@ -1,48 +1,64 @@
 # Runtime Contract
 
-Use this compact contract for one acquired external-source snapshot per work unit. The completed book-and-companion runtime is preserved at `docs/instructions/archive/runtime-contract-book-and-companion-extraction-2026-08-15.md`.
+Use this dispatcher for exactly one ready source unit per automation invocation. The completed external-only contract is preserved at `docs/instructions/archive/runtime-contract-external-source-extraction-completed-2026-09-11.md`.
+
+## Dispatch Rule
+
+Start with `just brief` and inspect `project-control/processing-state.yaml`.
+
+1. If `current_source_unit` is a mapping, process only that bounded PDF unit with the PDF procedure below.
+2. Otherwise, if `external_processing.next_pending_unit` is present, use the external claim procedure below.
+3. Otherwise, perform no extraction. Report that no ready unit remains and summarize blockers from `project-control/remaining-source-units.yaml`.
+
+Never let an exhausted external queue hide a populated `current_source_unit`.
 
 ## CLI Workflow
 
 - Start with `just brief`, `just next`, and `just external-status`.
-- Claim the next unit with `just claim-external <agent>` or a specific unit with `just claim-external <agent> <unit>`.
-- Recover active claim details with `just current-external` or `just current-external <unit>`.
 - Use `just search "pattern"`, `just query-dupes <tag> <tag>`, and `just query-entries <tag>` for narrow lookup.
-- Use `just validate` for canonical evidence; completion validates the assigned staged YAML before promotion.
-- Submit a finished unit with `just complete-external <unit> <claim-token>`.
-- Abandon an interrupted claim with `just release-external <unit> <claim-token> "<reason>"`.
-- Record a source or decision blocker with `just block-external <unit> <claim-token> "<reason>"`.
+- Use `just validate` for canonical evidence validation.
+- Finish a PDF unit with `just advance-current`; this validates, advances once, regenerates, tests, and restores control/generated artifacts if any completion gate fails.
+- Claim an external unit with `just claim-external <agent>` or `just claim-external <agent> <unit>`.
+- Recover an external claim with `just current-external` or `just current-external <unit>`.
+- Finish an external unit with `just complete-external <unit> <claim-token>`.
+- Abandon or block an external claim with `just release-external` or `just block-external` and the required token/reason.
 
-Do not require `yq`; use the project commands for YAML state transitions.
+Do not require `yq`; use project commands for YAML state transitions.
 
-## Required Reads
+## Required Reads for a PDF Unit
 
-For a normal claimed unit, read only:
+Read only:
 
 1. `docs/instructions/runtime-contract.md`.
 2. `project-control/processing-state.yaml`.
-3. The claim output for the assigned unit, token, input, manifest ID, and output paths.
-4. The complete assigned Markdown snapshot, including its YAML front matter.
-5. The assigned output YAML only if it already exists.
+3. Every rendered page image for the inclusive current range.
+4. The current output YAML only if it already exists.
+5. Individual historical YAML files only when compact query results identify them as candidates.
 
-Read `docs/instructions/schema-reference.md` only for schema uncertainty or a validation failure. Read `docs/instructions/background-guide.md` only for canon, era, or classification ambiguity.
+Read `docs/instructions/schema-reference.md` only for schema uncertainty or validation failure. Read `docs/instructions/background-guide.md` only for canon, era, or classification ambiguity.
 
-## Prohibited Broad Reads and Writes
+## Scanned PDF Procedure
 
-Do not scan all canonical source YAML, all external snapshots, the full generated book seed, full appendices, archive directories, or old prompts. Do not open compact index YAML directly during normal extraction; use query commands.
+The current `Fantastic Beasts and Where to Find Them` carrier is image-only. Empty output from `scripts/extract_pages.py` is not evidence that its pages are empty.
 
-Workers write only their assigned staged YAML path under `work/external-staging/`; staged drafts are deliberately excluded from canonical discovery. Workers must not edit canonical `sources/external/`, the manifest, `source-plan.yaml`, `processing-state.yaml`, `next-run.md`, indexes, appendices, or book seed. Queue completion atomically promotes only the claimed draft after every gate succeeds.
+1. Read `source_file`, `page_start`, and `page_end` from `current_source_unit`.
+2. Clear old disposable cache files with `just clean-cache`.
+3. Create `.tmp/current-source-images/`.
+4. Render only the inclusive current range as rendered page images:
 
-## External Extraction Procedure
+   ```bash
+   pdftoppm -f PAGE_START -l PAGE_END -jpeg -r 180 SOURCE_PDF .tmp/current-source-images/page
+   ```
 
-1. Claim one `pending` unit and retain its claim token.
-2. Read the assigned snapshot body completely.
-3. Extract evidence useful to a future fan edition of *Hogwarts: A History*, preserving source authority and temporal limitations.
-4. Write the exact assigned **staging** YAML path returned by the claim, with top-level `source_unit` and `entries` keys. Do not write the canonical output path.
-5. Copy snapshot provenance into the external `source_unit`, including `source_id`, URLs, `capture_completeness`, and the snapshot body hash as `content_sha256`.
-6. Use entry IDs `ext-<logical-id-lower>-NNN`, such as `ext-a01-001`.
-7. Keep `pdf_page`, `printed_page`, and `extracted_text_lines` present and null. Locate evidence with `source_id`, `source_url`, optional `source_section`, and `text_anchor`.
-8. Keep every `quote_excerpt_short` under 25 words. Paraphrase evidence in `source_note`.
+5. Visually inspect every rendered page image in that directory. Do not use OCR alone and do not render pages outside the current range.
+6. Extract every explicit *Hogwarts: A History* reference. For other material, keep the strongest three to seven relevant entries; `entries: []` is valid when the bounded unit has no relevant evidence.
+7. Write only the exact `output_yaml` path assigned by `current_source_unit`, using top-level `source_unit` and `entries` keys.
+8. Use entry IDs `fb-chNN-NNN`. Preserve the inclusive range in `source_unit`; locate each entry with its exact `pdf_page`, optional printed page, and a local `text_anchor` visible on that page.
+9. Keep each `quote_excerpt_short` under 25 words and paraphrase the evidence in `source_note`.
+10. Run the index-first duplicate procedure below.
+11. Run `just advance-current`. If it fails, correct the current output and retry; the current/next controls are restored automatically.
+12. Review and commit only files belonging to this completed unit.
+13. Stop the invocation after the completion report. Do not begin `next_source_unit`, even if it is now displayed as current.
 
 ## Index-First Duplicate Procedure
 
@@ -50,27 +66,48 @@ Workers write only their assigned staged YAML path under `work/external-staging/
 2. Run `just query-dupes <tag> <tag>` with the strongest tags and placement terms.
 3. Run `just query-entries <tag>` only when wider indexed context is needed.
 4. Open only source YAML paths returned as likely matches.
-5. Record `audit.query_tags` and every candidate from the exact ranked `just query-dupes` result, in returned order, under `audit.candidates`. Give each candidate one disposition: `duplicate` for the same claim, `corroborating` for independent support or extension, or `distinct` for a different claim. Set `possible_duplicate` and `duplicate_of` to exactly match candidates marked `duplicate`. `duplicate_check.notes` is optional human context, not a completion gate.
-6. Completion rebuilds the latest duplicate and tag indexes, excludes the completing entry IDs, reruns the same query with a ten-result limit, and rejects missing, invented, repeated, reordered, or inconsistent candidate reviews.
-7. Do not delete corroborating evidence merely because it overlaps another source.
+5. Record the comparison in `duplicate_check`; keep corroborating evidence when it independently supports or extends a claim.
+6. Do not open full compact index files during normal extraction.
 
-## Completion and Status Rules
+## External Claim Procedure
 
-- `pending` is claimable; `in_progress` is owned by one token; `done` has passed all gates; `blocked` requires a precise reason.
-- Never edit a status or claim token manually.
-- `just complete-external` verifies token ownership and staged output existence, binds the draft to its claimed carrier and snapshot provenance, validates anchors and tag counts, rebuilds/rechecks the latest duplicate index, atomically promotes only that draft, rebuilds canonical indexes, updates completion state, and regenerates the book seed and appendices before marking the unit `done`.
-- A failed completion leaves the unit `in_progress`. Correct the assigned YAML and retry with the same token.
-- Use release for interruption and block only for an actual source, provenance, schema, or human-decision blocker.
+Use this only when no PDF `current_source_unit` exists and the external queue has a pending unit.
 
-## Validation Checklist
+1. Claim one pending unit and retain its token.
+2. Read the complete assigned Markdown snapshot and write only its assigned staging YAML under `work/external-staging/`.
+3. Workers write only their assigned staged YAML path. Do not write the canonical output path.
+4. Preserve snapshot provenance, URLs, `capture_completeness`, source ID, and body hash.
+5. Use `ext-<logical-id-lower>-NNN` IDs and null PDF locators.
+6. Record `audit.query_tags` and every candidate from the exact ranked `just query-dupes` result, in returned order. Give each candidate one disposition: `duplicate`, `corroborating`, or `distinct`. Make `possible_duplicate` and `duplicate_of` agree exactly with candidates marked `duplicate`; free-text notes are optional context, not the audit.
+7. Complete, release, or block the single claim with the project command.
+8. Stop after one external unit.
 
-- The assigned staged YAML parses with PyYAML and uses the external schema.
-- Source ID, snapshot path, URLs, capture status, and body hash match the assigned carrier.
-- Every entry has complete web locators, anchor phrases, short quote, paraphrase, placement, three to eight tags, classification, duplicate check, confidence, and limitations.
-- Candidate anchor phrases can be found in the assigned snapshot.
-- No generated or queue-owned file was edited by the worker.
-- The completion command succeeds and reports the unit as `done`.
+## Prohibited Broad Reads and Writes
+
+Do not scan all canonical source YAML, all external snapshots, the full generated book seed, full appendices, archive directories, old prompts, or the full PDF. Use the assigned source range and compact query commands.
+
+For PDF units, do not manually edit `source-plan.yaml`, `processing-state.yaml`, `next-run.md`, indexes, appendices, or book seed. For external units, do not manually edit queue-owned or generated files.
+
+## Validation and Completion Rules
+
+- A PDF output must parse, contain `source_unit` and `entries`, use its assigned carrier/range, and pass the canonical validator before state advances.
+- `just advance-current` snapshots control and generated artifacts, rebuilds indexes, validates, advances exactly once, regenerates outputs, runs tests, and restores the snapshot after any failure.
+- The current PDF output remains available for correction if a completion gate fails.
+- External completion rebuilds the latest indexes, reruns the recorded ranked duplicate query, and rejects missing, invented, repeated, reordered, or inconsistent candidate reviews.
+- `pending` external units are claimable; `in_progress` external units are token-owned; `done` units passed all gates; `blocked` units require a precise reason.
+- Blocked acquisition rows in `project-control/remaining-source-units.yaml` are not readable extraction units and must never be auto-promoted.
+
+## Run Summary
+
+Report:
+
+- source unit ID and inclusive pages read;
+- source PDF/snapshot and canonical output path as links;
+- entries created and explicit *Hogwarts: A History* reference count;
+- duplicate candidates and open questions;
+- validation/test result and commit ID;
+- exactly one next current unit, or no ready unit plus blocked backlog count.
 
 ## Git Backup Rule
 
-The coordinating agent stages only files belonging to the completed unit, reviews the staged diff, commits with a concise message, and pushes the current branch when requested. A worker must not commit unrelated shared-worktree changes.
+After every successful unit, stage only files belonging to that unit, review the staged diff, commit with a concise message, and push only when requested. Never stage `.DS_Store`, caches, virtual environments, rendered page images, or unrelated user changes.
