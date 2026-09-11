@@ -447,6 +447,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Founding Traditions and Legends
   - The Pensieve Discovery Legend
 
+## Founders, Ancient Magic, and Hidden Dangers
+
+- Serpent Lore and Parselmouth Traditions
+  - Ancient Basilisk breeding tradition
+
 ## Founders, Headmasters, and Institutional Memory
 
 - Headmasters, Headmistresses, and Their Office
@@ -551,6 +556,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Wartime Headmastership and Staff Resistance
   - The sacking of Severus Snape
+
+## Hidden Chambers and Dangerous Creatures
+
+- Chamber of Secrets Evidence
+  - Official creature records versus Hogwarts evidence
 
 ## Hidden Rooms, Passages, and Portrait Routes
 
@@ -758,6 +768,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - School Records and Historical Memory
   - The Hogwarts Pensieve
+
+## International Secrecy and Creature Control
+
+- Magical Creatures and Muggle Exposure
+  - Fines for creature-based secrecy breaches
 
 ## Later Editorial Notes
 
@@ -1283,6 +1298,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmasters' Magical Instruments
   - Dumbledore's Deluminator
 
+## Magical Beings, Beasts, and Classification
+
+- Centaurs and Self-Classification
+  - Respect-based beast status
+
 ## Magical Communities and Families
 
 - Beings, Beasts, and Wizarding Law
@@ -1304,10 +1324,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Family Customs
   - Marriage Ceremonies and Enchanted Receptions
 
+## Magical Creatures and Wizarding Governance
+
+- Regulation of Dangerous Beasts
+  - Wizard-bred monsters and controlled creature trade
+
 ## Magical Creatures and the School Library
 
 - Dangerous Creatures in Study and Tournament Use
   - Dragon Lore in Hogwarts Library Sources
+
+## Magical Creatures on the Hogwarts Grounds
+
+- Forbidden Forest Residents
+  - Student-confirmed Acromantula colony
 
 ## Magical Institutions Beyond Hogwarts
 
@@ -1341,6 +1371,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Concealment After Magical Exposure
   - Memory Charms and scene restoration
+
+## Magical Materials and School Supplies
+
+- Wand Woods and Creature Guardianship
+  - Bowtruckles and wand-wood harvesting
 
 ## Magical Objects and Artifacts
 

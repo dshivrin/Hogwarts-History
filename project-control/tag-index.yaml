@@ -181,16 +181,20 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   acromantula:
     entries:
+    - fb-ch05-001
     - hbp-ch11-005
     - hbp-ch22-005
     output_yaml:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   acromantula-colony:
     entries:
     - cos-ch15-005
+    - fb-ch05-002
     output_yaml:
     - sources/book-02/chapter-15-aragog.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   acromantula-venom:
     entries:
     - hbp-ch22-006
@@ -846,6 +850,7 @@ tags:
     - cos-ch15-005
     - cos-ch15-006
     - dh-ch34-006
+    - fb-ch05-002
     - hbp-ch11-005
     - hbp-ch22-005
     - ootp-ch33-001
@@ -856,6 +861,7 @@ tags:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   architecture:
     entries:
     - ext-a07-004
@@ -1371,11 +1377,14 @@ tags:
     - cos-ch17-002
     - cos-ch17-006
     - ext-a01-001
+    - fb-ch05-003
+    - fb-ch05-004
     - ootp-ch16-005
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-02/chapter-17-the-heir-of-slytherin.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   basilisk-fangs:
     entries:
@@ -1505,6 +1514,11 @@ tags:
     - fb-ch01-002
     output_yaml:
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  beast-classification:
+    entries:
+    - fb-ch05-006
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   beast-division:
     entries:
     - fb-ch00-001
@@ -2068,8 +2082,10 @@ tags:
   bowtruckle:
     entries:
     - fb-ch03-004
+    - fb-ch05-005
     output_yaml:
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   bowtruckles:
     entries:
     - hbp-ch22-006
@@ -2907,6 +2923,11 @@ tags:
     output_yaml:
     - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  centaur:
+    entries:
+    - fb-ch05-006
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   centaur-divination:
     entries:
     - ps-ch15-007
@@ -3023,6 +3044,7 @@ tags:
     - ext-a01-003
     - ext-a09-006
     - ext-b20-002
+    - fb-ch05-004
     - hbp-ch17-005
     - hbp-ch19-002
     - hbp-ch23-006
@@ -3044,6 +3066,7 @@ tags:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
@@ -3274,6 +3297,11 @@ tags:
     - qtta-fm-002
     output_yaml:
     - sources/book-qtta/chapter-00-front-matter.yaml
+  clabbert:
+    entries:
+    - fb-ch05-007
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   clankers:
     entries:
     - dh-ch26-004
@@ -3972,6 +4000,11 @@ tags:
     - gof-ch24-003
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  creature-concealment:
+    entries:
+    - fb-ch05-007
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   creature-conservation:
     entries:
     - fb-ch04-001
@@ -3986,6 +4019,11 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+  creature-custom:
+    entries:
+    - fb-ch05-005
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   creature-divisions:
     entries:
     - fb-ch01-006
@@ -4003,6 +4041,11 @@ tags:
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  creature-history:
+    entries:
+    - fb-ch05-003
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   creature-induced-injuries:
     entries:
     - ootp-ch22-005
@@ -4011,9 +4054,13 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   creature-law:
     entries:
+    - fb-ch05-001
+    - fb-ch05-004
+    - fb-ch05-006
     - poa-ch14-003
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   creature-lifecycle:
     entries:
     - gof-ch26-003
@@ -4541,6 +4588,11 @@ tags:
     output_yaml:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  dark-wizard:
+    entries:
+    - fb-ch05-003
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   dark-wizards:
     entries:
     - ext-a28-004
@@ -6993,9 +7045,11 @@ tags:
     entries:
     - fb-ch00-002
     - fb-ch03-006
+    - fb-ch05-001
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   experimental-charms:
     entries:
     - gof-ch07-004
@@ -7908,6 +7962,7 @@ tags:
     - dh-ch34-007
     - ext-a27-004
     - ext-b22-002
+    - fb-ch05-002
     - gof-ch04-003
     - gof-ch12-005
     - gof-ch28-005
@@ -7956,6 +8011,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/interviews/b22-bbc-blue-peter-interview.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
   forbidden-forest-edge:
@@ -9840,6 +9896,12 @@ tags:
     - fb-ch00-005
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  harry-marginalia:
+    entries:
+    - fb-ch05-002
+    - fb-ch05-004
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   harry-potter:
     entries:
     - cos-ch01-004
@@ -10510,6 +10572,11 @@ tags:
     - ext-b10-002
     output_yaml:
     - sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  herpo-the-foul:
+    entries:
+    - fb-ch05-003
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   hestia-jones:
     entries:
     - dh-ch03-002
@@ -12878,6 +12945,11 @@ tags:
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
     - sources/external/official-rowling/a28-wizarding-schools.yaml
+  international-confederation-of-wizards:
+    entries:
+    - fb-ch05-007
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   international-magical-cooperation:
     entries:
     - gof-ch05-003
@@ -14482,6 +14554,11 @@ tags:
     - fb-ch04-001
     - fb-ch04-002
     - fb-ch04-003
+    - fb-ch05-001
+    - fb-ch05-003
+    - fb-ch05-005
+    - fb-ch05-006
+    - fb-ch05-007
     - gof-ch08-006
     - gof-ch09-005
     - gof-ch19-005
@@ -14532,6 +14609,7 @@ tags:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
     - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
@@ -14610,6 +14688,11 @@ tags:
     - qtta-ch01-001
     output_yaml:
     - sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+  magical-forests:
+    entries:
+    - fb-ch05-005
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   magical-fortifications:
     entries:
     - hbp-ch08-006
@@ -15553,6 +15636,11 @@ tags:
     - fb-ch02-001
     output_yaml:
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  medieval-ban:
+    entries:
+    - fb-ch05-004
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   medieval-sources:
     entries:
     - fb-ch02-002
@@ -15705,6 +15793,7 @@ tags:
     - ext-a09-006
     - fb-ch01-005
     - fb-ch03-005
+    - fb-ch05-006
     - gof-ch25-003
     - gof-ch26-007
     - gof-ch27-001
@@ -15716,6 +15805,7 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
   messenger-service:
     entries:
@@ -16011,6 +16101,7 @@ tags:
     - fb-ch01-006
     - fb-ch03-006
     - fb-ch03-007
+    - fb-ch05-006
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -16152,6 +16243,7 @@ tags:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/interviews/b02-scholastic-live-chat.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
@@ -16219,6 +16311,11 @@ tags:
     - hbp-ch13-005
     output_yaml:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
+  ministry-records:
+    entries:
+    - fb-ch05-004
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   ministry-register:
     entries:
     - beedle-ch04-002
@@ -16512,9 +16609,11 @@ tags:
     - fb-ch02-006
     - fb-ch02-007
     - fb-ch03-004
+    - fb-ch05-007
     output_yaml:
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   muggle-baiting:
     entries:
     - cos-ch03-004
@@ -17317,6 +17416,11 @@ tags:
     - ootp-ch27-002
     output_yaml:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  non-tradeable-goods:
+    entries:
+    - fb-ch05-001
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   nonverbal-magic:
     entries:
     - hbp-ch27-004
@@ -18035,10 +18139,12 @@ tags:
     - cos-ch11-004
     - ext-a01-001
     - ext-a01-003
+    - fb-ch05-003
     - hbp-ch13-007
     output_yaml:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-06/chapter-13-the-secret-riddle.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   parseltongue:
     entries:
@@ -21020,6 +21126,7 @@ tags:
     - dh-ch16-001
     - dh-ch19-006
     - dh-ch31-005
+    - fb-ch05-002
     - ootp-ch09-005
     - ootp-ch30-003
     - ootp-ch35-006
@@ -21031,6 +21138,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-19-the-silver-doe.yaml
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   ronan:
     entries:
     - ootp-ch33-004
@@ -22131,7 +22239,9 @@ tags:
     entries:
     - ext-b11-001
     - ext-b15-001
+    - fb-ch05-002
     output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/interviews/b11-the-herald-interview.yaml
     - sources/external/interviews/b15-barnes-noble-live-chat.yaml
   scottish-strain:
@@ -22343,6 +22453,11 @@ tags:
     - beedle-ch01-003
     output_yaml:
     - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  secrecy-fines:
+    entries:
+    - fb-ch05-007
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   secrecy-law:
     entries:
     - hbp-ch10-005
@@ -26232,6 +26347,11 @@ tags:
     - dh-ch05-005
     output_yaml:
     - sources/book-07/chapter-05-fallen-warrior.yaml
+  tree-guardian:
+    entries:
+    - fb-ch05-005
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   trelawney:
     entries:
     - ext-a33-001
@@ -26680,6 +26800,7 @@ tags:
     entries:
     - cos-ch15-003
     - fb-ch02-001
+    - fb-ch05-006
     - gof-ch24-001
     - gof-ch26-003
     - ootp-ch31-005
@@ -26691,6 +26812,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   uniform:
     entries:
     - ps-ch05-002
@@ -27308,6 +27430,11 @@ tags:
     - gof-ch18-006
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  wand-wood:
+    entries:
+    - fb-ch05-005
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   wandlore:
     entries:
     - beedle-ch05-003
@@ -27836,6 +27963,11 @@ tags:
     - ootp-ch08-004
     output_yaml:
     - sources/book-05/chapter-08-the-hearing.yaml
+  wizard-bred:
+    entries:
+    - fb-ch05-001
+    output_yaml:
+    - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
   wizard-control:
     entries:
     - dh-ch26-001

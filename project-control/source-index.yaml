@@ -2522,6 +2522,18 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 4
   boundary_summary: Used indexed page range; extracted only pages 21-22.
+- source_unit_id: fb-ch05
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 5
+  chapter_title: A-C Bestiary Entries
+  page_start: 23
+  page_end: 30
+  output_yaml: sources/book-fb/chapter-05-bestiary-a-to-c.yaml
+  processed_at: '2026-09-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 23-30.
 - source_unit_id: qtta-ch00
   source_file: pdfs/quidditch-through-the-ages.pdf
   book: Quidditch Through the Ages

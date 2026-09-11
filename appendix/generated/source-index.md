@@ -216,6 +216,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `fb-ch02`: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, pages 14-15, 7 entries, 0 explicit references.
 - `fb-ch03`: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, pages 16-20, 7 entries, 0 explicit references.
 - `fb-ch04`: Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, pages 21-22, 4 entries, 0 explicit references.
+- `fb-ch05`: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, pages 23-30, 7 entries, 0 explicit references.
 - `qtta-ch00`: Quidditch Through the Ages, Front Matter and Foreword, pages 1-8, 5 entries, 0 explicit references.
 - `qtta-ch01`: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, pages 9-11, 2 entries, 0 explicit references.
 - `qtta-ch02`: Quidditch Through the Ages, Chapter Two - Ancient Broom Games, pages 11-14, 1 entries, 0 explicit references.

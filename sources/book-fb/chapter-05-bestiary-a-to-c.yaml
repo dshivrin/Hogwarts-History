@@ -1,0 +1,318 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: A-C Bestiary Entries
+  chapter_start_pdf_page: 23
+  chapter_end_pdf_page: 30
+  boundary_confidence: high
+  boundary_notes: Rendered and visually inspected only the assigned inclusive PDF pages 23-30, covering the opening A-C bestiary entries through the start of Crup.
+  processed_date: '2026-09-11'
+  processor_notes: Scanned-page unit; evidence was transcribed from rendered page images in .tmp/current-source-images/.
+
+entries:
+  - id: fb-ch05-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 23
+    printed_page: 1
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The Acromantula is a monstrous eight-eyed spider"
+      end_phrase: "Ban on Experimental Breeding did not come into effect until this century"
+      local_occurrence_note: Opening Acromantula entry and footnote on printed page 1.
+    nearby_context: The entry gives the Acromantula's XXXXX rating, Borneo origin, near-human intelligence, speech, breeding details, Class A Non-Tradeable egg status, and likely wizard-bred origin.
+    match_terms:
+      - acromantula
+      - wizard-bred
+      - experimental breeding
+      - non-tradeable goods
+      - department for the regulation and control of magical creatures
+    quote_excerpt_short: "This beast is believed to be wizard-bred"
+    source_note: The textbook frames Acromantulas as likely wizard-bred, intelligent, speech-capable XXXXX creatures whose eggs are Class A Non-Tradeable Goods, with the breeding ban postdating the first recorded 1794 sighting.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - acromantula
+      - wizard-bred
+      - experimental-breeding
+      - non-tradeable-goods
+      - creature-law
+      - magical-creatures
+    candidate_part: Magical Creatures and Wizarding Governance
+    candidate_chapter: Regulation of Dangerous Beasts
+    candidate_section: Wizard-bred monsters and controlled creature trade
+    reason_for_placement: This supplies institutional creature-law context for a dangerous species later tied to Hogwarts grounds.
+    relevance_to_hogwarts_a_history: Useful as background for how a Hogwarts-adjacent Acromantula colony fits broader Ministry classification, trade, and breeding law.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Compact duplicate query acromantula/forbidden-forest returned hbp-ch11-005, hbp-ch22-005, cos-ch15-005, cos-ch15-006, dh-ch32-001, and dh-ch34-006 as Forbidden Forest/Aragog contextual matches; this entry adds textbook taxonomy, trade law, and breeding-history context."
+    confidence: high
+    limitations: The visible entry begins on this page and continues on PDF page 24; the page-24 marginalia is captured separately.
+
+  - id: fb-ch05-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 24
+    printed_page: 2
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Rumours that a colony of Acromantula has been established in Scotland"
+      end_phrase: "confirmed by Harry Potter and Ron Weasley"
+      local_occurrence_note: End of Acromantula entry with handwritten annotation above the Ashwinder heading.
+    nearby_context: The printed text says Scottish Acromantula colony rumors are unconfirmed; the student marginalia crosses that out and adds confirmation by Harry Potter and Ron Weasley.
+    match_terms:
+      - acromantula colony
+      - scotland
+      - harry potter
+      - ron weasley
+      - marginalia
+    quote_excerpt_short: "confirmed by Harry Potter and Ron Weasley"
+    source_note: Harry's copy turns the textbook's unconfirmed Scottish Acromantula-colony rumor into a post-Chamber student annotation confirming the colony from Harry and Ron's experience.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - acromantula-colony
+      - scotland
+      - harry-marginalia
+      - ron-weasley
+      - forbidden-forest
+      - aragog
+    candidate_part: Magical Creatures on the Hogwarts Grounds
+    candidate_chapter: Forbidden Forest Residents
+    candidate_section: Student-confirmed Acromantula colony
+    reason_for_placement: The marginalia directly links the textbook's Scotland rumor to Harry-era student knowledge of the Hogwarts-area colony.
+    relevance_to_hogwarts_a_history: Relevant as later-copy evidence confirming a dangerous creature population associated with Hogwarts, though the note itself postdates the original book's historical baseline.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch15-005
+        - cos-ch15-006
+      notes: "Compact duplicate query acromantula/forbidden-forest returned cos-ch15-005 and cos-ch15-006 for Aragog's forest colony and Hagrid's school-era link; the marginalia is corroborating textbook-copy evidence for the same colony tradition."
+    confidence: high
+    limitations: The annotation is later Harry-copy marginalia, not original textbook narration.
+
+  - id: fb-ch05-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 25
+    printed_page: 3
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The first recorded Basilisk was bred by Herpo the Foul"
+      end_phrase: "a gigantic serpent possessed of extraordinarily dangerous powers"
+      local_occurrence_note: Beginning of the Basilisk entry on printed page 3.
+    nearby_context: The entry identifies the Basilisk as XXXXX, attributes the first recorded breeding to Herpo the Foul, and explains the chicken-egg/toad method.
+    match_terms:
+      - basilisk
+      - herpo the foul
+      - parselmouth
+      - dark wizard
+      - king of serpents
+    quote_excerpt_short: "The first recorded Basilisk was bred by Herpo the Foul"
+    source_note: The textbook roots Basilisk lore in Herpo the Foul, a Greek Dark wizard and Parselmouth, who discovered the breeding method for the deadly serpent.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - basilisk
+      - herpo-the-foul
+      - parselmouth
+      - dark-wizard
+      - creature-history
+      - magical-creatures
+    candidate_part: Founders, Ancient Magic, and Hidden Dangers
+    candidate_chapter: Serpent Lore and Parselmouth Traditions
+    candidate_section: Ancient Basilisk breeding tradition
+    reason_for_placement: This supplies pre-Hogwarts magical-creature history that contextualizes Slytherin-linked Basilisk lore.
+    relevance_to_hogwarts_a_history: Useful background for Basilisk origin and Parselmouth association before applying Chamber of Secrets evidence to Hogwarts-specific history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Compact duplicate query basilisk/chamber-secrets returned cos-ch16-003, cos-ch17-006, ext-a01-001, and related Chamber entries; those establish Hogwarts use of a Basilisk, while this entry provides broader ancient creature-history context."
+    confidence: high
+    limitations: This page gives general Basilisk origin lore rather than a direct Hogwarts instance.
+
+  - id: fb-ch05-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 26
+    printed_page: 4
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The creation of Basilisks has been illegal since medieval times"
+      end_phrase: "there have been no recorded sightings of Basilisks in Britain for at least four hundred years"
+      local_occurrence_note: Continuation of Basilisk entry on printed page 4 with Harry-copy marginal note.
+    nearby_context: The entry describes lethal gaze, great age, medieval illegality, enforcement weakness, Parselmouth control limits, and no recorded British sightings for four centuries, annotated "that's what you think."
+    match_terms:
+      - basilisk
+      - medieval illegality
+      - recorded sightings
+      - harry marginalia
+      - department for the regulation and control of magical creatures
+    quote_excerpt_short: "no recorded sightings of Basilisks in Britain"
+    source_note: The textbook says Basilisk creation has been illegal since medieval times and that Britain has no recorded sightings for at least four hundred years; Harry's marginalia challenges that after the Chamber crisis.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - basilisk
+      - creature-law
+      - medieval-ban
+      - chamber-of-secrets
+      - harry-marginalia
+      - ministry-records
+    candidate_part: Hidden Chambers and Dangerous Creatures
+    candidate_chapter: Chamber of Secrets Evidence
+    candidate_section: Official creature records versus Hogwarts evidence
+    reason_for_placement: The official record claim and student marginal correction expose a gap between Ministry creature records and Hogwarts events.
+    relevance_to_hogwarts_a_history: Relevant for discussing why the Chamber Basilisk could remain absent from ordinary British creature records until Harry-era confirmation.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch16-003
+        - cos-ch17-006
+        - ext-a01-001
+      notes: "Compact duplicate query basilisk/chamber-secrets returned Hogwarts Chamber entries for Basilisk identification, release mechanism, and founder-built lair; this entry is marked duplicate/corroborating for the same Chamber Basilisk while preserving the Ministry-records angle."
+    confidence: high
+    limitations: The challenge to the record is handwritten marginalia, so its evidentiary date is Harry-era rather than the textbook's original publication claim.
+
+  - id: fb-ch05-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 27
+    printed_page: 5
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The Bowtruckle is a tree-guardian creature"
+      end_phrase: "remove wand-wood from its tree"
+      local_occurrence_note: Bowtruckle entry on printed page 5.
+    nearby_context: The entry describes Bowtruckles as small, shy tree guardians in western England, southern Germany, and Scandinavian forests, pacified with woodlice so wand wood can be taken.
+    match_terms:
+      - bowtruckle
+      - tree guardian
+      - wand wood
+      - woodlice
+      - forests
+    quote_excerpt_short: "remove wand-wood from its tree"
+    source_note: Bowtruckles guard wand-wood trees and may attack threats to their homes, requiring an offering of woodlice before a witch or wizard removes wand wood.
+    reference_type: cross_reference_candidate
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - bowtruckle
+      - wand-wood
+      - tree-guardian
+      - magical-forests
+      - creature-custom
+      - magical-creatures
+    candidate_part: Magical Materials and School Supplies
+    candidate_chapter: Wand Woods and Creature Guardianship
+    candidate_section: Bowtruckles and wand-wood harvesting
+    reason_for_placement: The entry ties a magical creature to the procurement customs behind wand materials, a recurring Hogwarts supply concern.
+    relevance_to_hogwarts_a_history: Useful context for wand-wood material culture and the creature customs that can sit behind ordinary student wand ownership.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Compact duplicate query bowtruckle/wand-wood returned fb-ch03-004 for Bowtruckles as naturally concealing creatures; this entry is distinct because it records tree-guardian behavior and wand-wood harvesting custom."
+    confidence: high
+    limitations: The entry is general creature-lore evidence, not a direct Hogwarts scene.
+
+  - id: fb-ch05-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 28
+    printed_page: 6
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Being intelligent and capable of speech"
+      end_phrase: "The same applies to merpeople and unicorns"
+      local_occurrence_note: Centaur entry and classification footnote on printed page 6.
+    nearby_context: The entry states that centaurs are intelligent and speech-capable but classified as beasts at their own request, have protected areas in many European countries, and receive XXXX out of respect rather than aggression.
+    match_terms:
+      - centaur
+      - beast classification
+      - ministry of magic
+      - merpeople
+      - unicorns
+    quote_excerpt_short: "by its own request it has been classified as such"
+    source_note: Centaurs are treated as beasts by their own request despite intelligence and speech, and their XXXX rating signals respect rather than ordinary danger; the same rationale applies to merpeople and unicorns.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - centaur
+      - beast-classification
+      - ministry-of-magic
+      - merpeople
+      - unicorns
+      - creature-law
+      - magical-creatures
+    candidate_part: Magical Beings, Beasts, and Classification
+    candidate_chapter: Centaurs and Self-Classification
+    candidate_section: Respect-based beast status
+    reason_for_placement: This is a compact statement of the legal and cultural anomaly behind centaur classification.
+    relevance_to_hogwarts_a_history: Important background for Hogwarts Forest centaurs, whose school-adjacent status depends on respecting their autonomy and classification preferences.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Compact duplicate query centaur/beast-classification returned no matches."
+    confidence: high
+    limitations: The entry describes centaur society generally; it does not name the Hogwarts herd.
+
+  - id: fb-ch05-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A-C Bestiary Entries
+    chapter_start_pdf_page: 23
+    chapter_end_pdf_page: 30
+    pdf_page: 30
+    printed_page: 8
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "American wizards once kept Clabberts in their gardens"
+      end_phrase: "Christmas lights up in June"
+      local_occurrence_note: Clabbert entry on printed page 8, immediately before the Crup heading.
+    nearby_context: The entry describes Clabberts as exported worldwide and explains that their scarlet danger-warning pustules drew Muggle attention, causing the International Confederation of Wizards to introduce fines that largely ended garden keeping.
+    match_terms:
+      - clabbert
+      - secrecy fines
+      - international confederation of wizards
+      - muggle attention
+      - warning creature
+    quote_excerpt_short: "introduced fines which have largely ended this practice"
+    source_note: The International Confederation of Wizards used fines to discourage keeping Clabberts as Muggle-warning garden sentries once their flashing pustules attracted too much Muggle curiosity.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - clabbert
+      - secrecy-fines
+      - international-confederation-of-wizards
+      - muggle-awareness
+      - creature-concealment
+      - magical-creatures
+    candidate_part: International Secrecy and Creature Control
+    candidate_chapter: Magical Creatures and Muggle Exposure
+    candidate_section: Fines for creature-based secrecy breaches
+    reason_for_placement: The entry gives a concrete example of international penalties used to preserve secrecy around magical creatures.
+    relevance_to_hogwarts_a_history: Useful comparative context for how wizarding institutions regulate creature visibility and Muggle exposure beyond Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Compact duplicate query clabbert/secrecy-fines returned no matches."
+    confidence: high
+    limitations: The evidence is international and comparative rather than Hogwarts-specific.

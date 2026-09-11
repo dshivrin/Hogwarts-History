@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf`
 - Book group: `book-fb`
 - Book: `Fantastic Beasts and Where to Find Them`
-- Chapter: A-C Bestiary Entries
-- Page range: 23-30
+- Chapter: D-H Bestiary Entries
+- Page range: 31-43
 - Rendered images: `.tmp/current-source-images/`
-- Output YAML: `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+- Output YAML: `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
 
 ## Minimal Context
 

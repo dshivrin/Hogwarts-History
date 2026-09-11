@@ -13809,6 +13809,21 @@ Summary: The available evidence includes 1 source item, led by: An explicitly un
   - Reference type: historical_claim
   - Notes: The source itself labels this tradition unsubstantiated and gives no independent corroboration.
 
+## Part: Founders, Ancient Magic, and Hidden Dangers
+
+### Chapter: Serpent Lore and Parselmouth Traditions
+
+#### Section: Ancient Basilisk breeding tradition
+
+Summary: The available evidence includes 1 source item, led by: The textbook roots Basilisk lore in Herpo the Foul, a Greek Dark wizard and Parselmouth, who discovered the breeding method for the deadly serpent.
+
+- **Supporting evidence:** The textbook roots Basilisk lore in Herpo the Foul, a Greek Dark wizard and Parselmouth, who discovered the breeding method for the deadly serpent.
+  - Quote: "The first recorded Basilisk was bred by Herpo the Foul"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 25, `fb-ch05-003`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This page gives general Basilisk origin lore rather than a direct Hogwarts instance.
+
 ## Part: Founders, Headmasters, and Institutional Memory
 
 ### Chapter: Headmasters, Headmistresses, and Their Office
@@ -14107,6 +14122,22 @@ Summary: The available evidence includes 1 source item, led by: Snape's headmast
   - Reference type: historical_claim
   - Corroborates: `dh-ch12-001`, `hbp-ch29-004`. dh-ch12-001 records Snape's appointment as headmaster, and hbp-ch29-004 records his previous staff-battle escape; this entry records his direct removal from Hogwarts command.
   - Notes: The scene shows Snape fleeing, but the legal or Ministry status of the headmastership is not formally revoked on-page.
+
+## Part: Hidden Chambers and Dangerous Creatures
+
+### Chapter: Chamber of Secrets Evidence
+
+#### Section: Official creature records versus Hogwarts evidence
+
+Summary: The available evidence includes 1 source item, led by: The textbook says Basilisk creation has been illegal since medieval times and that Britain has no recorded sightings for at least four hundred years; Harry's marginalia challenges that after the Chamber crisis.
+
+- **Corroboration:** The textbook says Basilisk creation has been illegal since medieval times and that Britain has no recorded sightings for at least four hundred years; Harry's marginalia challenges that after the Chamber crisis.
+  - Quote: "no recorded sightings of Basilisks in Britain"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 26, `fb-ch05-004`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch16-003`, `cos-ch17-006`, `ext-a01-001`. Compact duplicate query basilisk/chamber-secrets returned Hogwarts Chamber entries for Basilisk identification, release mechanism, and founder-built lair; this entry is marked duplicate/corroborating for the same Chamber Basilisk while preserving the Ministry-records angle.
+  - Notes: The challenge to the record is handwritten marginalia, so its evidentiary date is Harry-era rather than the textbook's original publication claim.
 
 ## Part: Hidden Rooms, Passages, and Portrait Routes
 
@@ -15267,6 +15298,21 @@ Summary: The available evidence includes 2 source items, led by: The school-owne
   - Reference type: institutional_custom
   - Notes: This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
 
+## Part: International Secrecy and Creature Control
+
+### Chapter: Magical Creatures and Muggle Exposure
+
+#### Section: Fines for creature-based secrecy breaches
+
+Summary: The available evidence includes 1 source item, led by: The International Confederation of Wizards used fines to discourage keeping Clabberts as Muggle-warning garden sentries once their flashing pustules attracted too much Muggle curiosity.
+
+- **Supporting evidence:** The International Confederation of Wizards used fines to discourage keeping Clabberts as Muggle-warning garden sentries once their flashing pustules attracted too much Muggle curiosity.
+  - Quote: "introduced fines which have largely ended this practice"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 30, `fb-ch05-007`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The evidence is international and comparative rather than Hogwarts-specific.
+
 ## Part: Learning, Books, and Forbidden Knowledge
 
 ### Chapter: Restricted and Banned Magical Subjects
@@ -15473,6 +15519,21 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore's Del
   - Reference type: historical_claim
   - Notes: The immediate demonstration shows only light removal and restoration, not the deeper later function of the object.
 
+## Part: Magical Beings, Beasts, and Classification
+
+### Chapter: Centaurs and Self-Classification
+
+#### Section: Respect-based beast status
+
+Summary: The available evidence includes 1 source item, led by: Centaurs are treated as beasts by their own request despite intelligence and speech, and their XXXX rating signals respect rather than ordinary danger; the same rationale applies to merpeople and unicorns.
+
+- **Supporting evidence:** Centaurs are treated as beasts by their own request despite intelligence and speech, and their XXXX rating signals respect rather than ordinary danger; the same rationale applies to merpeople and unicorns.
+  - Quote: "by its own request it has been classified as such"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 28, `fb-ch05-006`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The entry describes centaur society generally; it does not name the Hogwarts herd.
+
 ## Part: Magical Communities and Families
 
 ### Chapter: Beings, Beasts, and Wizarding Law
@@ -15606,6 +15667,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: institutional_custom
   - Notes: The evidence is one Weasley-Delacour wedding and should not be treated as a complete legal account of wizarding marriage.
 
+## Part: Magical Creatures and Wizarding Governance
+
+### Chapter: Regulation of Dangerous Beasts
+
+#### Section: Wizard-bred monsters and controlled creature trade
+
+Summary: The available evidence includes 1 source item, led by: The textbook frames Acromantulas as likely wizard-bred, intelligent, speech-capable XXXXX creatures whose eggs are Class A Non-Tradeable Goods, with the breeding ban postdating the first recorded 1794 sighting.
+
+- **Supporting evidence:** The textbook frames Acromantulas as likely wizard-bred, intelligent, speech-capable XXXXX creatures whose eggs are Class A Non-Tradeable Goods, with the breeding ban postdating the first recorded 1794 sighting.
+  - Quote: "This beast is believed to be wizard-bred"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 23, `fb-ch05-001`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The visible entry begins on this page and continues on PDF page 24; the page-24 marginalia is captured separately.
+
 ## Part: Magical Creatures and the School Library
 
 ### Chapter: Dangerous Creatures in Study and Tournament Use
@@ -15620,6 +15696,22 @@ Summary: The available evidence includes 1 source item, led by: Harry and Hermio
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
+
+## Part: Magical Creatures on the Hogwarts Grounds
+
+### Chapter: Forbidden Forest Residents
+
+#### Section: Student-confirmed Acromantula colony
+
+Summary: The available evidence includes 1 source item, led by: Harry's copy turns the textbook's unconfirmed Scottish Acromantula-colony rumor into a post-Chamber student annotation confirming the colony from Harry and Ron's experience.
+
+- **Corroboration:** Harry's copy turns the textbook's unconfirmed Scottish Acromantula-colony rumor into a post-Chamber student annotation confirming the colony from Harry and Ron's experience.
+  - Quote: "confirmed by Harry Potter and Ron Weasley"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 24, `fb-ch05-002`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `cos-ch15-005`, `cos-ch15-006`. Compact duplicate query acromantula/forbidden-forest returned cos-ch15-005 and cos-ch15-006 for Aragog's forest colony and Hagrid's school-era link; the marginalia is corroborating textbook-copy evidence for the same colony tradition.
+  - Notes: The annotation is later Harry-copy marginalia, not original textbook narration.
 
 ## Part: Magical Institutions Beyond Hogwarts
 
@@ -15830,6 +15922,21 @@ Summary: The available evidence includes 1 source item, led by: The trio use Mem
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The chapter shows Hermione knowing the theory, but it does not identify where she learned it or whether the Memory Charms are fully successful long term.
+
+## Part: Magical Materials and School Supplies
+
+### Chapter: Wand Woods and Creature Guardianship
+
+#### Section: Bowtruckles and wand-wood harvesting
+
+Summary: The available evidence includes 1 source item, led by: Bowtruckles guard wand-wood trees and may attack threats to their homes, requiring an offering of woodlice before a witch or wizard removes wand wood.
+
+- **Supporting evidence:** Bowtruckles guard wand-wood trees and may attack threats to their homes, requiring an offering of woodlice before a witch or wizard removes wand wood.
+  - Quote: "remove wand-wood from its tree"
+  - Source: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, PDF p. 27, `fb-ch05-005`, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The entry is general creature-lore evidence, not a direct Hogwarts scene.
 
 ## Part: Magical Objects and Artifacts
 
