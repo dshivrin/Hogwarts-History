@@ -1505,9 +1505,19 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Part I: Hidden Magical Britain
 
+- Creature Habitats and Protective Enchantments
+  - Safe habitats and charm limits
+- Creature Regulation and Wizarding Public Safety
+  - Breeding, sale, and owner concealment duties
 - International Secrecy and Creature Concealment
+  - Clause 73 and national responsibility
+  - International enforcement and persistent offenders
+  - Natural concealment and Muggle disbelief
+  - Public breaches and emergency memory repair
   - Species selected for concealment
   - The 1692 creature summit
+- Ministry Relations With the Muggle Government
+  - Memory repair and misinformation
 - Muggle Awareness Before Secrecy
   - Medieval memory of magical creatures
   - Misread magical-beast encounters

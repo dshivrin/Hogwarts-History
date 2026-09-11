@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf`
 - Book group: `book-fb`
 - Book: `Fantastic Beasts and Where to Find Them`
-- Chapter: Magical Beasts in Hiding
-- Page range: 16-20
+- Chapter: Why Magizoology Matters and Ministry Classifications
+- Page range: 21-22
 - Rendered images: `.tmp/current-source-images/`
-- Output YAML: `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+- Output YAML: `sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml`
 
 ## Minimal Context
 

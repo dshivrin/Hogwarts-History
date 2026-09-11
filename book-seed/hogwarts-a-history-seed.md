@@ -16323,7 +16323,77 @@ Summary: The available evidence includes 1 source item, led by: Rowling says she
 
 ## Part: Part I: Hidden Magical Britain
 
+### Chapter: Creature Habitats and Protective Enchantments
+
+#### Section: Safe habitats and charm limits
+
+Summary: The available evidence includes 1 source item, led by: Creature concealment relies on safe habitats protected by Muggle-repelling charms, unplottable areas, and supervised reservations, though some creatures can cancel such charms.
+
+- **Supporting evidence:** Creature concealment relies on safe habitats protected by Muggle-repelling charms, unplottable areas, and supervised reservations, though some creatures can cancel such charms.
+  - Quote: "the creation of safe habitats"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 18, `fb-ch03-005`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The passage names habitat tools and examples but does not identify a specific British reservation or Hogwarts enchantment.
+
+### Chapter: Creature Regulation and Wizarding Public Safety
+
+#### Section: Breeding, sale, and owner concealment duties
+
+Summary: The available evidence includes 1 source item, led by: The Department for the Regulation and Control of Magical Creatures monitors beast trade, the 1965 breeding ban outlaws new species, and Hippogriff owners must maintain daily Disillusionment Charms; Harry annotates the ban with a later Hagrid aside.
+
+- **Supporting evidence:** The Department for the Regulation and Control of Magical Creatures monitors beast trade, the 1965 breeding ban outlaws new species, and Hippogriff owners must maintain daily Disillusionment Charms; Harry annotates the ban with a later Hagrid aside.
+  - Quote: "The 1965 Ban on Experimental Breeding"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 19, `fb-ch03-006`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The handwritten Hagrid note is a later reader annotation, and the passage does not identify the legal penalties in detail.
+
 ### Chapter: International Secrecy and Creature Concealment
+
+#### Section: Clause 73 and national responsibility
+
+Summary: The available evidence includes 1 source item, led by: Clause 73, added in 1750, makes each wizarding governing body responsible for concealing, caring for, and controlling magical beasts, beings, and spirits within its borders.
+
+- **Supporting evidence:** Clause 73, added in 1750, makes each wizarding governing body responsible for concealing, caring for, and controlling magical beasts, beings, and spirits within its borders.
+  - Quote: "Clause 73 was inserted"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 16, `fb-ch03-001`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The clause is quoted without explaining its drafting history or national implementation in Britain.
+
+#### Section: International enforcement and persistent offenders
+
+Summary: The available evidence includes 1 source item, led by: The International Confederation fines nations for Clause 73 violations; Tibet and Scotland are named, with yeti sightings prompting a task force and the Loch Ness kelpie evading capture.
+
+- **Supporting evidence:** The International Confederation fines nations for Clause 73 violations; Tibet and Scotland are named, with yeti sightings prompting a task force and the Loch Ness kelpie evading capture.
+  - Quote: "Tibet and Scotland are two of the most persistent offenders"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 17, `fb-ch03-003`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage does not date the fines, identify the task force, or specify whether Scotland is treated separately from wider British authority.
+
+#### Section: Natural concealment and Muggle disbelief
+
+Summary: The available evidence includes 1 source item, led by: Modern Muggle disbelief helps preserve secrecy, and some creatures avoid notice through camouflage, shyness, inaccessible habitats, or resemblance to mundane animals.
+
+- **Supporting evidence:** Modern Muggle disbelief helps preserve secrecy, and some creatures avoid notice through camouflage, shyness, inaccessible habitats, or resemblance to mundane animals.
+  - Quote: "present-day Muggles refuse to believe"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 17, `fb-ch03-004`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The claim is generalized and uses examples rather than a complete classification of all hidden species.
+
+#### Section: Public breaches and emergency memory repair
+
+Summary: The available evidence includes 1 source item, led by: A rogue Welsh Green dragon attacked a Muggle beach at Ilfracombe in 1932; a holidaying wizarding family prevented deaths and used mass Memory Charms.
+
+- **Supporting evidence:** A rogue Welsh Green dragon attacked a Muggle beach at Ilfracombe in 1932; a holidaying wizarding family prevented deaths and used mass Memory Charms.
+  - Quote: "Ilfracombe Incident of 1932"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 16, `fb-ch03-002`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account summarizes the event and awards but does not name the wizarding family.
 
 #### Section: Species selected for concealment
 
@@ -16346,6 +16416,19 @@ Summary: The available evidence includes 1 source item, led by: The Internationa
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The page begins the discussion but does not list the full final rules.
+
+### Chapter: Ministry Relations With the Muggle Government
+
+#### Section: Memory repair and misinformation
+
+Summary: The available evidence includes 1 source item, led by: Memory Charms are the standard repair tool after Muggle exposure, while severe magical-Muggle collisions can involve Obliviators and the Office of Misinformation liaising with the Muggle prime minister.
+
+- **Supporting evidence:** Memory Charms are the standard repair tool after Muggle exposure, while severe magical-Muggle collisions can involve Obliviators and the Office of Misinformation liaising with the Muggle prime minister.
+  - Quote: "a team of trained Obliviators"
+  - Source: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, PDF p. 20, `fb-ch03-007`, `sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The bottom of the page begins the next chapter, so this entry is limited to the completed concealment sections above that heading.
 
 ### Chapter: Muggle Awareness Before Secrecy
 

@@ -2498,6 +2498,18 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 14-15.
+- source_unit_id: fb-ch03
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 3
+  chapter_title: Magical Beasts in Hiding
+  page_start: 16
+  page_end: 20
+  output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  processed_at: '2026-09-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 16-20.
 - source_unit_id: qtta-ch00
   source_file: pdfs/quidditch-through-the-ages.pdf
   book: Quidditch Through the Ages

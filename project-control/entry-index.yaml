@@ -20693,6 +20693,115 @@ by_entry:
     - statute-of-secrecy
     source_unit: fb-ch02
     output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch03-001:
+    title: 'International Secrecy and Creature Concealment: Clause 73 and national
+      responsibility'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - clause-73
+    - international-confederation
+    - magical-creature-concealment
+    - magical-law
+    - statute-of-secrecy
+    - wizarding-governance
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch03-002:
+    title: 'International Secrecy and Creature Concealment: Public breaches and emergency
+      memory repair'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - clause-73
+    - dragons
+    - ilfracombe
+    - memory-charms
+    - muggle-secrecy
+    - order-of-merlin
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch03-003:
+    title: 'International Secrecy and Creature Concealment: International enforcement
+      and persistent offenders'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - clause-73
+    - international-confederation
+    - kelpie
+    - loch-ness
+    - magical-creature-concealment
+    - wizarding-governance
+    - yeti
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch03-004:
+    title: 'International Secrecy and Creature Concealment: Natural concealment and
+      Muggle disbelief'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bowtruckle
+    - camouflage
+    - demiguise
+    - hippogriffs
+    - magical-creature-concealment
+    - muggle-awareness
+    - muggle-disbelief
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch03-005:
+    title: 'Creature Habitats and Protective Enchantments: Safe habitats and charm
+      limits'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - centaurs
+    - dragon-reservations
+    - magical-creature-concealment
+    - merpeople
+    - muggle-repelling-charms
+    - safe-habitats
+    - unplottable
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch03-006:
+    title: 'Creature Regulation and Wizarding Public Safety: Breeding, sale, and owner
+      concealment duties'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - beast-trade
+    - disillusionment-charms
+    - experimental-breeding
+    - hagrid
+    - hippogriffs
+    - magical-creature-regulation
+    - ministry-of-magic
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch03-007:
+    title: 'Ministry Relations With the Muggle Government: Memory repair and misinformation'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - loch-ness
+    - magical-creature-concealment
+    - memory-charms
+    - ministry-of-magic
+    - muggle-government
+    - obliviators
+    - office-of-misinformation
+    source_unit: fb-ch03
+    output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -24901,6 +25010,8 @@ by_tag:
   - fb-ch00-001
   - fb-ch01-006
   - fb-ch01-007
+  beast-trade:
+  - fb-ch03-006
   beasts:
   - fb-ch01-003
   beaters:
@@ -25157,6 +25268,8 @@ by_tag:
   bowman-wright:
   - dh-ch16-003
   - qtta-ch04-003
+  bowtruckle:
+  - fb-ch03-004
   bowtruckles:
   - hbp-ch22-006
   - hbp-ch28-006
@@ -25282,6 +25395,8 @@ by_tag:
   - gof-ch28-001
   cadmus-peverell:
   - dh-ch21-006
+  camouflage:
+  - fb-ch03-004
   campsite:
   - dh-ch14-003
   - dh-ch15-001
@@ -25553,6 +25668,7 @@ by_tag:
   - fb-ch01-005
   - fb-ch01-007
   - fb-ch02-001
+  - fb-ch03-005
   - hbp-ch04-004
   - hbp-ch15-005
   - hbp-ch20-002
@@ -25756,6 +25872,10 @@ by_tag:
   - hbp-ch18-001
   classroom-supplies:
   - hbp-ch09-005
+  clause-73:
+  - fb-ch03-001
+  - fb-ch03-002
+  - fb-ch03-003
   cleansweep:
   - qtta-ch09-003
   closed-ward:
@@ -26564,6 +26684,7 @@ by_tag:
   - poa-ch20-006
   demiguise:
   - dh-ch21-004
+  - fb-ch03-004
   department-for-regulation-and-control-of-magical-creatures:
   - gof-ch08-002
   - gof-ch09-005
@@ -26716,6 +26837,8 @@ by_tag:
   - hbp-ch03-003
   - ootp-ch03-005
   - ootp-ch04-002
+  disillusionment-charms:
+  - fb-ch03-006
   disownment:
   - ootp-ch06-003
   dissendium:
@@ -26860,10 +26983,13 @@ by_tag:
   - gof-ch05-001
   dragon-research:
   - fb-ch00-002
+  dragon-reservations:
+  - fb-ch03-005
   dragons:
   - fb-ch02-001
   - fb-ch02-004
   - fb-ch02-007
+  - fb-ch03-002
   - gof-ch19-004
   - gof-ch19-005
   - gof-ch20-001
@@ -27483,6 +27609,7 @@ by_tag:
   - poa-ch19-003
   experimental-breeding:
   - fb-ch00-002
+  - fb-ch03-006
   experimental-charms:
   - gof-ch07-004
   explicit-reference:
@@ -28714,6 +28841,7 @@ by_tag:
   - ext-b20-001
   - ext-b20-002
   - ext-b25-002
+  - fb-ch03-006
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -29267,6 +29395,8 @@ by_tag:
   hippogriffs:
   - fb-ch00-001
   - fb-ch02-004
+  - fb-ch03-004
+  - fb-ch03-006
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch11-003
@@ -30136,6 +30266,8 @@ by_tag:
   - dh-ch21-006
   - dh-ch22-003
   - dh-ch35-004
+  ilfracombe:
+  - fb-ch03-002
   illegal-creature:
   - ps-ch14-004
   illegal-curses:
@@ -30308,6 +30440,8 @@ by_tag:
   international-confederation:
   - ext-a28-002
   - fb-ch02-006
+  - fb-ch03-001
+  - fb-ch03-003
   - ootp-ch05-007
   - ootp-ch11-007
   - ootp-ch31-007
@@ -30478,6 +30612,8 @@ by_tag:
   - ps-ch04-001
   keeper-protection:
   - poa-ch15-007
+  kelpie:
+  - fb-ch03-003
   kendra-dumbledore:
   - dh-ch08-005
   kennilworthy-whisp:
@@ -30718,6 +30854,9 @@ by_tag:
   - ootp-ch08-006
   living-memory:
   - dh-ch30-003
+  loch-ness:
+  - fb-ch03-003
+  - fb-ch03-007
   locked-door:
   - ootp-ch34-006
   locked-room:
@@ -31033,12 +31172,18 @@ by_tag:
   magical-creature-concealment:
   - fb-ch02-006
   - fb-ch02-007
+  - fb-ch03-001
+  - fb-ch03-003
+  - fb-ch03-004
+  - fb-ch03-005
+  - fb-ch03-007
   magical-creature-law:
   - poa-ch11-003
   magical-creature-misidentification:
   - fb-ch02-002
   magical-creature-regulation:
   - fb-ch00-002
+  - fb-ch03-006
   magical-creatures:
   - cos-ch08-003
   - dh-ch11-005
@@ -31158,6 +31303,7 @@ by_tag:
   magical-law:
   - dh-ch07-002
   - ext-a25-004
+  - fb-ch03-001
   - gof-ch10-004
   - hbp-ch01-002
   - hbp-ch13-005
@@ -31567,6 +31713,8 @@ by_tag:
   memory-charms:
   - cos-ch03-004
   - ext-a04-004
+  - fb-ch03-002
+  - fb-ch03-007
   - gof-ch01-003
   - gof-ch07-001
   - gof-ch09-007
@@ -31609,6 +31757,7 @@ by_tag:
   - ext-a09-003
   - ext-a09-006
   - fb-ch01-005
+  - fb-ch03-005
   - gof-ch25-003
   - gof-ch26-007
   - gof-ch27-001
@@ -31755,6 +31904,8 @@ by_tag:
   - ext-b02-005
   - fb-ch00-001
   - fb-ch01-006
+  - fb-ch03-006
+  - fb-ch03-007
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -31989,6 +32140,7 @@ by_tag:
   - fb-ch02-004
   - fb-ch02-006
   - fb-ch02-007
+  - fb-ch03-004
   muggle-baiting:
   - cos-ch03-004
   - gof-ch09-001
@@ -32048,6 +32200,8 @@ by_tag:
   - dh-ch10-002
   muggle-disasters:
   - hbp-ch01-004
+  muggle-disbelief:
+  - fb-ch03-004
   muggle-effects:
   - hbp-ch01-006
   muggle-family:
@@ -32055,6 +32209,7 @@ by_tag:
   muggle-fireplaces:
   - gof-ch04-004
   muggle-government:
+  - fb-ch03-007
   - hbp-ch01-001
   - hbp-ch01-007
   muggle-guardians:
@@ -32111,6 +32266,7 @@ by_tag:
   - dh-ch15-001
   - gof-ch11-005
   muggle-repelling-charms:
+  - fb-ch03-005
   - gof-ch08-001
   - qtta-ch05-001
   muggle-rights:
@@ -32132,6 +32288,7 @@ by_tag:
   - ext-a19-003
   - ext-a24-002
   - ext-b25-001
+  - fb-ch03-002
   - gof-ch01-002
   - gof-ch02-003
   - gof-ch03-002
@@ -32380,6 +32537,7 @@ by_tag:
   obliviator:
   - gof-ch07-004
   obliviators:
+  - fb-ch03-007
   - hbp-ch01-004
   obscurus-books:
   - fb-ch00-004
@@ -32403,6 +32561,7 @@ by_tag:
   - gof-ch32-001
   - gof-ch34-005
   office-of-misinformation:
+  - fb-ch03-007
   - hbp-ch01-004
   office-protections:
   - ootp-ch37-001
@@ -32495,6 +32654,7 @@ by_tag:
   order-of-merlin:
   - ext-a10-004
   - fb-ch00-002
+  - fb-ch03-002
   - hbp-ch07-006
   - ootp-ch05-007
   - ootp-ch06-001
@@ -34165,6 +34325,8 @@ by_tag:
   sacrificial-protection:
   - dh-ch35-001
   - dh-ch36-001
+  safe-habitats:
+  - fb-ch03-005
   safe-house:
   - dh-ch03-004
   - dh-ch04-002
@@ -35542,6 +35704,7 @@ by_tag:
   - dh-ch18-006
   - dh-ch28-004
   - fb-ch02-007
+  - fb-ch03-001
   - gof-ch04-004
   - hbp-ch01-001
   - hbp-ch01-002
@@ -36718,6 +36881,7 @@ by_tag:
   - gof-ch08-002
   - gof-ch12-004
   unplottable:
+  - fb-ch03-005
   - gof-ch11-005
   - hbp-ch03-004
   - hbp-ch21-004
@@ -37313,6 +37477,8 @@ by_tag:
   wizarding-governance:
   - fb-ch01-002
   - fb-ch02-006
+  - fb-ch03-001
+  - fb-ch03-003
   wizarding-heirlooms:
   - hbp-ch10-006
   - hbp-ch20-005
@@ -37475,6 +37641,8 @@ by_tag:
   - dh-ch14-002
   year-cohort:
   - ext-a15-002
+  yeti:
+  - fb-ch03-003
   yorkshire:
   - beedle-fm-003
   you-know-who:
