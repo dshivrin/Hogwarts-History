@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-24'
+updated: '2026-09-11'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -2462,6 +2462,18 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 0
   boundary_summary: Used indexed page range; extracted only pages 63-65.
+- source_unit_id: fb-ch00
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 0
+  chapter_title: Front Matter, Contents, Author, and Foreword
+  page_start: 1
+  page_end: 8
+  output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  processed_at: '2026-09-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 6
+  boundary_summary: Used indexed page range; extracted only pages 1-8.
 - source_unit_id: qtta-ch00
   source_file: pdfs/quidditch-through-the-ages.pdf
   book: Quidditch Through the Ages

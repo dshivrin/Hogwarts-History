@@ -2624,6 +2624,17 @@ Summary: The available evidence includes 1 source item, led by: Doge describes a
 
 ### Chapter: Care of Magical Creatures
 
+#### Section: Approved textbooks and examination preparation
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore says Fantastic Beasts has long been an approved Hogwarts textbook and credits it with students' strong Care of Magical Creatures examination results.
+
+- **Supporting evidence:** Dumbledore says Fantastic Beasts has long been an approved Hogwarts textbook and credits it with students' strong Care of Magical Creatures examination results.
+  - Quote: "approved textbook at Hogwarts School"
+  - Source: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, PDF p. 7, `fb-ch00-003`, `sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: Dumbledore does not give the first adoption date, edition history, or whether the book was required every year.
+
 #### Section: Bowtruckles and wand-tree ecology
 
 Summary: The available evidence includes 1 source item, led by: The substitute Care of Magical Creatures lesson gives compact creature lore about bowtruckles, including wand-quality tree habitat, food, placation methods, sharp fingers, and a labeled-anatomy practical assignment.
@@ -3460,6 +3471,19 @@ Summary: The available evidence includes 1 source item, led by: Charity Burbage 
   - Classification: later_editorial_note | Confidence: high
   - Reference type: curriculum_or_subject
   - Notes: Voldemort is a hostile speaker, so the wording of Burbage's teaching and article is filtered through his accusation.
+
+### Chapter: Notable Alumni and Professional Pathways
+
+#### Section: Newt Scamander and magizoology careers
+
+Summary: The available evidence includes 1 source item, led by: The author note identifies Newt Scamander as a Hogwarts graduate whose creature expertise led from Ministry creature administration into the Beast Division.
+
+- **Supporting evidence:** The author note identifies Newt Scamander as a Hogwarts graduate whose creature expertise led from Ministry creature administration into the Beast Division.
+  - Quote: "Upon graduation from Hogwarts School"
+  - Source: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, PDF p. 6, `fb-ch00-001`, `sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The note gives no Hogwarts House, exact graduation year, or details of Scamander's school career.
 
 ### Chapter: Potions
 
@@ -14917,6 +14941,43 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts' large 
   - Reference type: historical_claim
   - Notes: A retrospective official essay supplies the account and does not date Peeves' generation precisely.
 
+## Part: Hogwarts, a History as a Source
+
+### Chapter: Companion Books and Editorial Frames
+
+#### Section: Harry's annotated school copy
+
+Summary: The available evidence includes 1 source item, led by: The edition is framed as a duplicate of Harry's annotated copy, with Harry and his friends' marginal notes retained by agreement with Comic Relief and Scamander.
+
+- **Context:** The edition is framed as a duplicate of Harry's annotated copy, with Harry and his friends' marginal notes retained by agreement with Comic Relief and Scamander.
+  - Quote: "duplicate of Harry Potter's own copy"
+  - Source: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, PDF p. 8, `fb-ch00-005`, `sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The foreword does not identify which marginal notes belong to which friend, and the reproduced annotations remain comic editorial material unless individually corroborated.
+
+#### Section: Obscurus Books and Muggle charity editions
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore presents the Comic Relief edition as the first Obscurus title made available to Muggles and urges wizards to recognize Muggle charitable magic.
+
+- **Context:** Dumbledore presents the Comic Relief edition as the first Obscurus title made available to Muggles and urges wizards to recognize Muggle charitable magic.
+  - Quote: "made available to Muggles"
+  - Source: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, PDF p. 7, `fb-ch00-004`, `sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The claim is part of the edition's comic charity frame and does not establish ordinary wizarding publication policy.
+
+#### Section: Sales channels, charity donations, and motto framing
+
+Summary: The available evidence includes 1 source item, led by: The special edition is sold through both Flourish and Blotts and Muggle bookshops, with extra wizarding donations directed through Gringotts and a joking Thief's Curse warning ending in the Hogwarts motto.
+
+- **Context:** The special edition is sold through both Flourish and Blotts and Muggle bookshops, with extra wizarding donations directed through Gringotts and a joking Thief's Curse warning ending in the Hogwarts motto.
+  - Quote: "sold at Flourish and Blotts"
+  - Source: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, PDF p. 8, `fb-ch00-006`, `sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The Thief's Curse appears in a humorous foreword context and should not be treated as a confirmed operational curse without supporting evidence.
+
 ## Part: Hogwarts: A History
 
 ### Chapter: Admission and the First Years
@@ -15614,6 +15675,21 @@ Summary: The available evidence includes 1 source item, led by: The Second War r
   - Classification: later_editorial_note | Confidence: high
   - Reference type: historical_claim
   - Notes: The passage does not specify the exact administrative arrangement replacing goblin control at Gringotts.
+
+## Part: Magical Law and Institutions
+
+### Chapter: Creature Regulation and Wizarding Public Safety
+
+#### Section: Scamander's mid-century regulatory legacy
+
+Summary: The available evidence includes 1 source item, led by: Scamander is credited with creating the Werewolf Register, championing the 1965 Ban on Experimental Breeding, conducting dragon research, and receiving the Order of Merlin for magizoology.
+
+- **Supporting evidence:** Scamander is credited with creating the Werewolf Register, championing the 1965 Ban on Experimental Breeding, conducting dragon research, and receiving the Order of Merlin for magizoology.
+  - Quote: "creation of the Werewolf Register in 1947"
+  - Source: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, PDF p. 6, `fb-ch00-002`, `sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The biography is concise and does not explain the legal text, enforcement, or Hogwarts curricular response to these developments.
 
 ## Part: Magical Law and Secrecy
 

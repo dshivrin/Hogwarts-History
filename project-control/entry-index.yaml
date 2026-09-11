@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-24'
+updated: '2026-09-11'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -20390,6 +20390,100 @@ by_entry:
     - wandlore
     source_unit: beedle-ch05
     output_yaml: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  fb-ch00-001:
+    title: 'Notable Alumni and Professional Pathways: Newt Scamander and magizoology
+      careers'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beast-division
+    - hippogriffs
+    - hogwarts-graduation
+    - house-elf-relocation
+    - magizoology
+    - ministry-of-magic
+    - newt-scamander
+    source_unit: fb-ch00
+    output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  fb-ch00-002:
+    title: 'Creature Regulation and Wizarding Public Safety: Scamander''s mid-century
+      regulatory legacy'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dragon-research
+    - experimental-breeding
+    - magical-creature-regulation
+    - magizoology
+    - newt-scamander
+    - order-of-merlin
+    - werewolf-register
+    source_unit: fb-ch00
+    output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  fb-ch00-003:
+    title: 'Care of Magical Creatures: Approved textbooks and examination preparation'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - care-of-magical-creatures
+    - curriculum
+    - examinations
+    - fantastic-beasts-textbook
+    - hogwarts-textbooks
+    - magical-creatures
+    source_unit: fb-ch00
+    output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  fb-ch00-004:
+    title: 'Companion Books and Editorial Frames: Obscurus Books and Muggle charity
+      editions'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - albus-dumbledore
+    - comic-relief
+    - muggle-publication
+    - muggles
+    - obscurus-books
+    - secrecy
+    - wizarding-publication
+    source_unit: fb-ch00
+    output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  fb-ch00-005:
+    title: 'Companion Books and Editorial Frames: Harry''s annotated school copy'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - annotated-textbooks
+    - fantastic-beasts-textbook
+    - harry-copy
+    - harry-potter
+    - marginalia
+    - newt-scamander
+    - student-notes
+    source_unit: fb-ch00
+    output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  fb-ch00-006:
+    title: 'Companion Books and Editorial Frames: Sales channels, charity donations,
+      and motto framing'
+    classification: later_editorial_note
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - comic-relief
+    - flourish-blotts
+    - gringotts
+    - griphook
+    - hogwarts-motto
+    - muggle-bookshops
+    - thiefs-curse
+    source_unit: fb-ch00
+    output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -24083,6 +24177,8 @@ by_tag:
   - dh-ch35-006
   - ext-a27-004
   - ext-b26-001
+  - fb-ch00-003
+  - fb-ch00-004
   - ps-ch01-001
   - ps-ch01-002
   - ps-ch01-003
@@ -24177,6 +24273,8 @@ by_tag:
   animated-statues:
   - dh-ch30-006
   - ootp-ch36-004
+  annotated-textbooks:
+  - fb-ch00-005
   annual-award:
   - ext-a36-002
   annual-customs:
@@ -24581,6 +24679,8 @@ by_tag:
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
+  beast-division:
+  - fb-ch00-001
   beaters:
   - ootp-ch21-005
   - qtta-ch06-003
@@ -24971,6 +25071,7 @@ by_tag:
   - cos-ch08-003
   - cos-ch14-002
   - ext-a13-001
+  - fb-ch00-003
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
@@ -25455,6 +25556,9 @@ by_tag:
   - ootp-ch18-005
   comet-140:
   - qtta-ch09-004
+  comic-relief:
+  - fb-ch00-004
+  - fb-ch00-006
   coming-of-age:
   - dh-ch06-001
   - dh-ch07-001
@@ -25774,6 +25878,7 @@ by_tag:
   - ext-a18-003
   - ext-a18-004
   - ext-a31-001
+  - fb-ch00-003
   - gof-ch12-006
   - gof-ch14-001
   - gof-ch15-002
@@ -26512,6 +26617,8 @@ by_tag:
   - gof-ch19-005
   dragon-keeping:
   - gof-ch05-001
+  dragon-research:
+  - fb-ch00-002
   dragons:
   - gof-ch19-004
   - gof-ch19-005
@@ -27091,6 +27198,7 @@ by_tag:
   - ootp-ch31-004
   examinations:
   - ext-b04-004
+  - fb-ch00-003
   - hbp-ch09-006
   - hbp-ch22-001
   exams:
@@ -27127,6 +27235,8 @@ by_tag:
   - gof-ch34-003
   - ootp-ch18-007
   - poa-ch19-003
+  experimental-breeding:
+  - fb-ch00-002
   experimental-charms:
   - gof-ch07-004
   explicit-reference:
@@ -27223,6 +27333,9 @@ by_tag:
   - ps-ch15-005
   fantastic-beasts:
   - dh-ch20-006
+  fantastic-beasts-textbook:
+  - fb-ch00-003
+  - fb-ch00-005
   fat-friar:
   - cos-ch08-005
   - ext-a06-003
@@ -27496,6 +27609,8 @@ by_tag:
   flourish-and-blotts:
   - cos-ch04-006
   - dh-ch08-004
+  flourish-blotts:
+  - fb-ch00-006
   fluffy:
   - ext-b22-002
   - ps-ch11-007
@@ -28153,6 +28268,7 @@ by_tag:
   - dh-ch26-007
   - dh-ch27-001
   - dh-ch27-002
+  - fb-ch00-006
   - gof-ch05-001
   - ootp-ch10-005
   - ootp-ch29-003
@@ -28164,6 +28280,7 @@ by_tag:
   - dh-ch23-004
   - dh-ch25-002
   - dh-ch26-007
+  - fb-ch00-006
   gripping-charm:
   - qtta-ch06-002
   griselda-marchbanks:
@@ -28474,6 +28591,8 @@ by_tag:
   - ext-b01-005
   harry:
   - ext-b07-004
+  harry-copy:
+  - fb-ch00-005
   harry-potter:
   - cos-ch01-004
   - dh-ch01-002
@@ -28490,6 +28609,7 @@ by_tag:
   - dh-ch36-001
   - ext-a15-001
   - ext-b12-002
+  - fb-ch00-005
   - gof-ch01-004
   - gof-ch02-001
   - gof-ch02-004
@@ -28885,6 +29005,7 @@ by_tag:
   hippogriff-books:
   - poa-ch15-004
   hippogriffs:
+  - fb-ch00-001
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch11-003
@@ -29169,6 +29290,8 @@ by_tag:
   - ootp-ch24-002
   hogwarts-ghosts:
   - poa-ch14-005
+  hogwarts-graduation:
+  - fb-ch00-001
   hogwarts-grounds:
   - cos-ch05-003
   - ext-a04-001
@@ -29259,6 +29382,7 @@ by_tag:
   - cos-ch01-003
   hogwarts-motto:
   - ext-b08-004
+  - fb-ch00-006
   hogwarts-orientation:
   - hbp-ch13-004
   hogwarts-property:
@@ -29323,6 +29447,8 @@ by_tag:
   - dh-ch31-003
   hogwarts-testing:
   - hbp-ch06-004
+  hogwarts-textbooks:
+  - fb-ch00-003
   hogwarts-victory:
   - gof-ch31-007
   hokey:
@@ -29537,6 +29663,8 @@ by_tag:
   - dh-ch23-005
   house-elf-ownership:
   - hbp-ch03-005
+  house-elf-relocation:
+  - fb-ch00-001
   house-elves:
   - cos-ch02-001
   - cos-ch03-002
@@ -30628,6 +30756,8 @@ by_tag:
   - dh-ch12-005
   magical-creature-law:
   - poa-ch11-003
+  magical-creature-regulation:
+  - fb-ch00-002
   magical-creatures:
   - cos-ch08-003
   - dh-ch11-005
@@ -30640,6 +30770,7 @@ by_tag:
   - ext-a09-004
   - ext-a09-008
   - ext-a27-004
+  - fb-ch00-003
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -30962,6 +31093,9 @@ by_tag:
   - ext-b14-003
   magick-moste-evile:
   - hbp-ch18-002
+  magizoology:
+  - fb-ch00-001
+  - fb-ch00-002
   magorian:
   - ootp-ch30-007
   - ootp-ch33-002
@@ -31042,6 +31176,7 @@ by_tag:
   - gof-ch22-003
   - ps-ch14-006
   marginalia:
+  - fb-ch00-005
   - hbp-ch09-007
   - hbp-ch10-001
   - hbp-ch12-003
@@ -31327,6 +31462,7 @@ by_tag:
   - ext-a24-005
   - ext-a27-002
   - ext-b02-005
+  - fb-ch00-001
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -31556,6 +31692,8 @@ by_tag:
   muggle-baiting:
   - cos-ch03-004
   - gof-ch09-001
+  muggle-bookshops:
+  - fb-ch00-006
   muggle-born:
   - dh-ch33-003
   - ext-b14-001
@@ -31653,6 +31791,8 @@ by_tag:
   - dh-ch06-005
   - dh-ch22-006
   - ootp-ch07-006
+  muggle-publication:
+  - fb-ch00-004
   muggle-raised-students:
   - hbp-ch13-004
   muggle-records:
@@ -31741,6 +31881,7 @@ by_tag:
   - beedle-ch04-004
   - dh-ch12-006
   - ext-a09-008
+  - fb-ch00-004
   mundungus-fletcher:
   - dh-ch05-006
   - dh-ch11-007
@@ -31832,6 +31973,10 @@ by_tag:
   - ootp-ch13-003
   - ootp-ch29-003
   - ootp-ch29-004
+  newt-scamander:
+  - fb-ch00-001
+  - fb-ch00-002
+  - fb-ch00-005
   newt-students:
   - hbp-ch05-006
   newts:
@@ -31929,6 +32074,8 @@ by_tag:
   - gof-ch07-004
   obliviators:
   - hbp-ch01-004
+  obscurus-books:
+  - fb-ch00-004
   occlumency:
   - hbp-ch04-007
   - hbp-ch25-005
@@ -32039,6 +32186,7 @@ by_tag:
   - ootp-ch20-002
   order-of-merlin:
   - ext-a10-004
+  - fb-ch00-002
   - hbp-ch07-006
   - ootp-ch05-007
   - ootp-ch06-001
@@ -34248,6 +34396,7 @@ by_tag:
   - hbp-ch13-006
   secrecy:
   - dh-ch24-004
+  - fb-ch00-004
   - gof-ch19-004
   - gof-ch21-007
   - ootp-ch16-006
@@ -35285,6 +35434,7 @@ by_tag:
   - poa-ch15-002
   - poa-ch16-006
   student-notes:
+  - fb-ch00-005
   - gof-ch29-002
   - ootp-ch12-003
   student-organization:
@@ -35774,6 +35924,8 @@ by_tag:
   - ootp-ch34-001
   thief:
   - dh-ch14-007
+  thiefs-curse:
+  - fb-ch00-006
   thiefs-downfall:
   - dh-ch26-003
   third-floor:
@@ -36671,6 +36823,8 @@ by_tag:
   - hbp-ch29-001
   werewolf-professor:
   - hbp-ch16-003
+  werewolf-register:
+  - fb-ch00-002
   werewolf-registry:
   - ext-a27-002
   werewolf-spy:
@@ -36891,6 +37045,8 @@ by_tag:
   - ootp-ch10-005
   - ootp-ch25-007
   - ootp-ch26-001
+  wizarding-publication:
+  - fb-ch00-004
   wizarding-scholarship:
   - dh-ch02-002
   wizarding-schools:

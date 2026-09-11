@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-24'
+updated: '2026-09-11'
 tags:
   '1402':
     entries:
@@ -410,6 +410,8 @@ tags:
     - dh-ch35-006
     - ext-a27-004
     - ext-b26-001
+    - fb-ch00-003
+    - fb-ch00-004
     - ps-ch01-001
     - ps-ch01-002
     - ps-ch01-003
@@ -428,6 +430,7 @@ tags:
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
     - sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-qtta/chapter-00-front-matter.yaml
     - sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
@@ -629,6 +632,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  annotated-textbooks:
+    entries:
+    - fb-ch00-005
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   annual-award:
     entries:
     - ext-a36-002
@@ -1474,6 +1482,11 @@ tags:
     output_yaml:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+  beast-division:
+    entries:
+    - fb-ch00-001
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   beaters:
     entries:
     - ootp-ch21-005
@@ -2310,6 +2323,7 @@ tags:
     - cos-ch08-003
     - cos-ch14-002
     - ext-a13-001
+    - fb-ch00-003
     - gof-ch13-003
     - gof-ch18-003
     - gof-ch21-004
@@ -2370,6 +2384,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
   career-advice:
     entries:
@@ -3354,6 +3369,12 @@ tags:
     - qtta-ch09-004
     output_yaml:
     - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  comic-relief:
+    entries:
+    - fb-ch00-004
+    - fb-ch00-006
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   coming-of-age:
     entries:
     - dh-ch06-001
@@ -4056,6 +4077,7 @@ tags:
     - ext-a18-003
     - ext-a18-004
     - ext-a31-001
+    - fb-ch00-003
     - gof-ch12-006
     - gof-ch14-001
     - gof-ch15-002
@@ -4084,6 +4106,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
     - sources/external/official-rowling/a31-professor-quirrell.yaml
   curriculum-politics:
@@ -5564,6 +5587,11 @@ tags:
     - gof-ch05-001
     output_yaml:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  dragon-research:
+    entries:
+    - fb-ch00-002
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   dragons:
     entries:
     - gof-ch19-004
@@ -6746,11 +6774,13 @@ tags:
   examinations:
     entries:
     - ext-b04-004
+    - fb-ch00-003
     - hbp-ch09-006
     - hbp-ch22-001
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
   exams:
     entries:
@@ -6823,6 +6853,11 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-05-fallen-warrior.yaml
+  experimental-breeding:
+    entries:
+    - fb-ch00-002
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   experimental-charms:
     entries:
     - gof-ch07-004
@@ -7044,6 +7079,12 @@ tags:
     - dh-ch20-006
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  fantastic-beasts-textbook:
+    entries:
+    - fb-ch00-003
+    - fb-ch00-005
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   fat-friar:
     entries:
     - cos-ch08-005
@@ -7618,6 +7659,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-04-at-flourish-and-blotts.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
+  flourish-blotts:
+    entries:
+    - fb-ch00-006
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   fluffy:
     entries:
     - ext-b22-002
@@ -8956,6 +9002,7 @@ tags:
     - dh-ch26-007
     - dh-ch27-001
     - dh-ch27-002
+    - fb-ch00-006
     - gof-ch05-001
     - ootp-ch10-005
     - ootp-ch29-003
@@ -8973,6 +9020,7 @@ tags:
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-26-gringotts.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   griphook:
     entries:
     - dh-ch15-005
@@ -8980,11 +9028,13 @@ tags:
     - dh-ch23-004
     - dh-ch25-002
     - dh-ch26-007
+    - fb-ch00-006
     output_yaml:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-26-gringotts.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   gripping-charm:
     entries:
     - qtta-ch06-002
@@ -9606,6 +9656,11 @@ tags:
     - ext-b07-004
     output_yaml:
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+  harry-copy:
+    entries:
+    - fb-ch00-005
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   harry-potter:
     entries:
     - cos-ch01-004
@@ -9623,6 +9678,7 @@ tags:
     - dh-ch36-001
     - ext-a15-001
     - ext-b12-002
+    - fb-ch00-005
     - gof-ch01-004
     - gof-ch02-001
     - gof-ch02-004
@@ -9688,6 +9744,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/interviews/b12-guardian-unlimited-interview.yaml
     - sources/external/official-rowling/a15-the-original-forty.yaml
   harry-potter-world:
@@ -10468,12 +10525,14 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
   hippogriffs:
     entries:
+    - fb-ch00-001
     - poa-ch06-006
     - poa-ch11-001
     - poa-ch11-003
     output_yaml:
     - sources/book-03/chapter-06-talons-and-tea-leaves.yaml
     - sources/book-03/chapter-11-the-firebolt.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   historians:
     entries:
     - ext-a01-003
@@ -11021,6 +11080,11 @@ tags:
     - poa-ch14-005
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+  hogwarts-graduation:
+    entries:
+    - fb-ch00-001
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   hogwarts-grounds:
     entries:
     - cos-ch05-003
@@ -11201,7 +11265,9 @@ tags:
   hogwarts-motto:
     entries:
     - ext-b08-004
+    - fb-ch00-006
     output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
   hogwarts-orientation:
     entries:
@@ -11339,6 +11405,11 @@ tags:
     - hbp-ch06-004
     output_yaml:
     - sources/book-06/chapter-06-draco-s-detour.yaml
+  hogwarts-textbooks:
+    entries:
+    - fb-ch00-003
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   hogwarts-victory:
     entries:
     - gof-ch31-007
@@ -11791,6 +11862,11 @@ tags:
     - hbp-ch03-005
     output_yaml:
     - sources/book-06/chapter-03-will-and-won-t.yaml
+  house-elf-relocation:
+    entries:
+    - fb-ch00-001
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   house-elves:
     entries:
     - cos-ch02-001
@@ -14127,6 +14203,11 @@ tags:
     - poa-ch11-003
     output_yaml:
     - sources/book-03/chapter-11-the-firebolt.yaml
+  magical-creature-regulation:
+    entries:
+    - fb-ch00-002
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   magical-creatures:
     entries:
     - cos-ch08-003
@@ -14140,6 +14221,7 @@ tags:
     - ext-a09-004
     - ext-a09-008
     - ext-a27-004
+    - fb-ch00-003
     - gof-ch08-006
     - gof-ch09-005
     - gof-ch19-005
@@ -14187,6 +14269,7 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
@@ -14854,6 +14937,12 @@ tags:
     - hbp-ch18-002
     output_yaml:
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  magizoology:
+    entries:
+    - fb-ch00-001
+    - fb-ch00-002
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   magorian:
     entries:
     - ootp-ch30-007
@@ -15011,6 +15100,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
   marginalia:
     entries:
+    - fb-ch00-005
     - hbp-ch09-007
     - hbp-ch10-001
     - hbp-ch12-003
@@ -15020,6 +15110,7 @@ tags:
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   marlowe-forfang:
     entries:
     - ext-a27-001
@@ -15621,6 +15712,7 @@ tags:
     - ext-a24-005
     - ext-a27-002
     - ext-b02-005
+    - fb-ch00-001
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -15759,6 +15851,7 @@ tags:
     - sources/book-07/chapter-19-the-silver-doe.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/interviews/b02-scholastic-live-chat.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
@@ -16113,6 +16206,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-03-burrow.yaml
     - sources/book-04/chapter-09-the-dark-mark.yaml
+  muggle-bookshops:
+    entries:
+    - fb-ch00-006
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   muggle-born:
     entries:
     - dh-ch33-003
@@ -16338,6 +16436,11 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+  muggle-publication:
+    entries:
+    - fb-ch00-004
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   muggle-raised-students:
     entries:
     - hbp-ch13-004
@@ -16523,9 +16626,11 @@ tags:
     - beedle-ch04-004
     - dh-ch12-006
     - ext-a09-008
+    - fb-ch00-004
     output_yaml:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
   mundungus-fletcher:
     entries:
@@ -16720,6 +16825,13 @@ tags:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  newt-scamander:
+    entries:
+    - fb-ch00-001
+    - fb-ch00-002
+    - fb-ch00-005
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   newt-students:
     entries:
     - hbp-ch05-006
@@ -16949,6 +17061,11 @@ tags:
     - hbp-ch01-004
     output_yaml:
     - sources/book-06/chapter-01-the-other-minister.yaml
+  obscurus-books:
+    entries:
+    - fb-ch00-004
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   occlumency:
     entries:
     - hbp-ch04-007
@@ -17187,6 +17304,7 @@ tags:
   order-of-merlin:
     entries:
     - ext-a10-004
+    - fb-ch00-002
     - hbp-ch07-006
     - ootp-ch05-007
     - ootp-ch06-001
@@ -17196,6 +17314,7 @@ tags:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/external/official-rowling/a10-remus-lupin.yaml
   order-of-suspension:
     entries:
@@ -21835,6 +21954,7 @@ tags:
   secrecy:
     entries:
     - dh-ch24-004
+    - fb-ch00-004
     - gof-ch19-004
     - gof-ch21-007
     - ootp-ch16-006
@@ -21849,6 +21969,7 @@ tags:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-07/chapter-24-the-wandmaker.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   secrecy-culture:
     entries:
     - beedle-ch01-003
@@ -24096,11 +24217,13 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   student-notes:
     entries:
+    - fb-ch00-005
     - gof-ch29-002
     - ootp-ch12-003
     output_yaml:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   student-organization:
     entries:
     - hbp-ch07-004
@@ -25180,6 +25303,11 @@ tags:
     - dh-ch14-007
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
+  thiefs-curse:
+    entries:
+    - fb-ch00-006
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   thiefs-downfall:
     entries:
     - dh-ch26-003
@@ -27069,6 +27197,11 @@ tags:
     - hbp-ch16-003
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  werewolf-register:
+    entries:
+    - fb-ch00-002
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   werewolf-registry:
     entries:
     - ext-a27-002
@@ -27566,6 +27699,11 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  wizarding-publication:
+    entries:
+    - fb-ch00-004
+    output_yaml:
+    - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   wizarding-scholarship:
     entries:
     - dh-ch02-002

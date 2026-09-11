@@ -267,7 +267,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
   - number: 5
-    title: Chapter Five - Weasleys’ Wizard Wheezes
+    title: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
     status: complete
     output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
   - number: 6
@@ -343,7 +343,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-23-the-yule-ball.yaml
   - number: 24
-    title: Chapter Twenty-Four - Rita Skeeter’s Scoop
+    title: "Chapter Twenty-Four - Rita Skeeter\u2019s Scoop"
     status: complete
     output_file: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   - number: 25
@@ -920,14 +920,14 @@ sources:
     title: Front Matter, Contents, Author, and Foreword
     page_start: 1
     page_end: 8
-    status: in_progress
+    status: complete
     output_file: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
   - id: FB01
     number: 1
     title: About This Book and What Is a Beast?
     page_start: 9
     page_end: 13
-    status: pending
+    status: in_progress
     output_file: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   - id: FB02
     number: 2
@@ -1237,7 +1237,7 @@ external_sources:
       at: '2026-08-15T14:39:47Z'
     staging_file: work/external-staging/a10.yaml
   - id: A11
-    title: The Marauder’s Map
+    title: "The Marauder\u2019s Map"
     source_kind: external_markdown
     source_class: official_rowling_original
     authority: A
@@ -1429,7 +1429,7 @@ external_sources:
       at: '2026-08-15T15:13:34Z'
     staging_file: work/external-staging/a18.yaml
   - id: A19
-    title: King’s Cross Station
+    title: "King\u2019s Cross Station"
     source_kind: external_markdown
     source_class: official_rowling_original
     authority: A

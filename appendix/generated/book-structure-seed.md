@@ -28,6 +28,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - After Hogwarts
   - Traditional Graduate Travel
 - Care of Magical Creatures
+  - Approved textbooks and examination preparation
   - Bowtruckles and wand-tree ecology
   - Classroom Creatures and Student Handling
   - Course Books and Dangerous Texts
@@ -149,6 +150,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Unicorn Materials and Centaur Divination
 - Muggle Studies and the Non-Magical World
   - Charity Burbage and Wartime Curriculum Politics
+- Notable Alumni and Professional Pathways
+  - Newt Scamander and magizoology careers
 - Potions
   - Advanced Potion-Brewing and Staff Expertise
   - Cross-House Lessons
@@ -706,6 +709,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Peeves and the castle's intractable residency
   - Peeves' exceptional properties
   - The origin and nature of Peeves
+
+## Hogwarts, a History as a Source
+
+- Companion Books and Editorial Frames
+  - Harry's annotated school copy
+  - Obscurus Books and Muggle charity editions
+  - Sales channels, charity donations, and motto framing
 
 ## Hogwarts: A History
 
@@ -1309,6 +1319,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Gringotts, Goblins, and Wizarding Power
   - Wartime control of Gringotts
+
+## Magical Law and Institutions
+
+- Creature Regulation and Wizarding Public Safety
+  - Scamander's mid-century regulatory legacy
 
 ## Magical Law and Secrecy
 

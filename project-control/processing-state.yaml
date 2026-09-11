@@ -4,15 +4,6 @@ project:
   schema_reference: docs/instructions/schema-reference.md
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
-  source_file: pdfs/Beedle The Bard_text.pdf
-  book_group: book-beedle
-  book: The Tales of Beedle the Bard
-  chapter_number: 6
-  chapter_title: Back Matter
-  page_start: 63
-  page_end: 65
-  output_yaml: sources/book-beedle/chapter-06-back-matter.yaml
-current_source_unit:
   unit_id: FB00
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -23,7 +14,7 @@ current_source_unit:
   page_end: 8
   extraction_mode: rendered_page_images
   output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
-next_source_unit:
+current_source_unit:
   unit_id: FB01
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -34,6 +25,17 @@ next_source_unit:
   page_end: 13
   extraction_mode: rendered_page_images
   output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+next_source_unit:
+  unit_id: FB02
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book_group: book-fb
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 2
+  chapter_title: A Brief History of Muggle Awareness of Fantastic Beasts
+  page_start: 14
+  page_end: 15
+  output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  extraction_mode: rendered_page_images
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
