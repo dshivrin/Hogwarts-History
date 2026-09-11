@@ -32,7 +32,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bowtruckles and wand-tree ecology
   - Classroom Creatures and Student Handling
   - Course Books and Dangerous Texts
+  - Creature catalogues and textbook revision
   - Live Creature Handling and Safety
+  - Magizoology as conservation and magical education
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Care of Magical Creatures and Creature Scholarship
   - Fantastic Beasts as practical reference source
@@ -769,6 +771,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Academic Merit and Pure-Blood Prejudice
   - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
+- Care of Magical Creatures
+  - Hagrid and dangerous creature pedagogy
 - Classrooms, Towers, and Teaching Spaces
   - Classroom eleven and Firenze's adapted Divination room
 - Crisis Evidence and Student Care
@@ -2175,6 +2179,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Creatures, Liability, and External Committees
   - Buckbeak custody and wartime concealment alias
   - Dangerous-Creature Execution Procedure
+  - Ministry creature classifications
 - Crisis Authority and School Closure
   - Reopening deliberation after Dumbledore's murder
   - Wartime attacks and board-of-governors closure pressure

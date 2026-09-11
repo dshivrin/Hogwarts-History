@@ -4,17 +4,6 @@ project:
   schema_reference: docs/instructions/schema-reference.md
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
-  unit_id: FB03
-  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
-  book_group: book-fb
-  book: Fantastic Beasts and Where to Find Them
-  chapter_number: 3
-  chapter_title: Magical Beasts in Hiding
-  page_start: 16
-  page_end: 20
-  output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
-  extraction_mode: rendered_page_images
-current_source_unit:
   unit_id: FB04
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -25,7 +14,7 @@ current_source_unit:
   page_end: 22
   output_yaml: sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   extraction_mode: rendered_page_images
-next_source_unit:
+current_source_unit:
   unit_id: FB05
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -35,6 +24,17 @@ next_source_unit:
   page_start: 23
   page_end: 30
   output_yaml: sources/book-fb/chapter-05-bestiary-a-to-c.yaml
+  extraction_mode: rendered_page_images
+next_source_unit:
+  unit_id: FB06
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book_group: book-fb
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 6
+  chapter_title: D-H Bestiary Entries
+  page_start: 31
+  page_end: 43
+  output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
   extraction_mode: rendered_page_images
 indexes:
   duplicate_index: project-control/duplicate-index.yaml

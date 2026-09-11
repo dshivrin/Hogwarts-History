@@ -2677,6 +2677,17 @@ Summary: The available evidence includes 2 source items, led by: The chapter int
   - Corroborates: `poa-ch01-006`. Book 3 Chapter One introduces The Monster Book of Monsters as a hazardous likely course text; this entry confirms its classroom use and explains the stroking method.
   - Notes: The lesson reflects Hagrid's first day as teacher and may not represent long-standing Care of Magical Creatures pedagogy.
 
+#### Section: Creature catalogues and textbook revision
+
+Summary: The available evidence includes 1 source item, led by: Newt presents Fantastic Beasts as an introductory catalogue of seventy-five species and treats magizoological knowledge as still expanding.
+
+- **Supporting evidence:** Newt presents Fantastic Beasts as an introductory catalogue of seventy-five species and treats magizoological knowledge as still expanding.
+  - Quote: "Seventy-five species are described"
+  - Source: Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, PDF p. 21, `fb-ch04-002`, `sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The exact edition count is part of the book's internal publishing frame and may not identify the edition used by every Hogwarts cohort.
+
 #### Section: Live Creature Handling and Safety
 
 Summary: The available evidence includes 1 source item, led by: The chapter gives detailed practical creature-handling instruction for hippogriffs and shows Hogwarts students learning through supervised contact with dangerous live creatures.
@@ -2688,6 +2699,17 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: curriculum_or_subject
   - Corroborates: `cos-ch08-003`. Book 2 Chapter Eight records Care of Magical Creatures via a salamander taken from class; this entry adds a full live hippogriff lesson, Hagrid's safety instructions, and student riding practice.
   - Notes: This is one teacher's first lesson and the later injury shows that the adequacy of safety procedures is disputed.
+
+#### Section: Magizoology as conservation and magical education
+
+Summary: The available evidence includes 1 source item, led by: Newt says the purpose of protecting and studying fantastic beasts is so later witches and wizards can continue to benefit from them.
+
+- **Supporting evidence:** Newt says the purpose of protecting and studying fantastic beasts is so later witches and wizards can continue to benefit from them.
+  - Quote: "future generations of witches and wizards"
+  - Source: Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, PDF p. 21, `fb-ch04-001`, `sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Notes: The page gives Newt's purpose statement but does not name Hogwarts directly or date when this rationale entered the curriculum.
 
 #### Section: Skrewt Rearing, Experimental Feeding, and Safety Risks
 
@@ -4182,6 +4204,17 @@ Summary: The available evidence includes 1 source item, led by: Fudge reads a fo
   - Reference type: school_rule_or_policy
   - Corroborates: `poa-ch16-002`. Book 3 Chapter Sixteen records Buckbeak's appeal failure and scheduled execution; this entry adds the formal notice, signature, and appointed-executioner procedure.
   - Notes: The source gives only the execution-stage procedure, not the full appeal record or statutory basis.
+
+#### Section: Ministry creature classifications
+
+Summary: The available evidence includes 1 source item, led by: The Department for the Regulation and Control of Magical Creatures assigns classifications to known beasts, beings, and spirits as a danger guide.
+
+- **Supporting evidence:** The Department for the Regulation and Control of Magical Creatures assigns classifications to known beasts, beings, and spirits as a danger guide.
+  - Quote: "perceived dangerousness of a creature"
+  - Source: Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, PDF p. 22, `fb-ch04-003`, `sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The page says the classifications are a guide to perceived dangerousness, not a full legal procedure or school policy.
 
 ### Chapter: Crisis Authority and School Closure
 
@@ -9532,6 +9565,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter defi
   - Reference type: historical_claim
   - Corroborates: `cos-ch04-004`. Chapter Four seeded Lucius Malfoy's blood-status prejudice around Hermione's exam performance; this entry adds the explicit slur, student reaction, and Ron's explanation of Muggle-born, pure-blood, and half-blood terms.
   - Notes: Ron's explanation is informal; later sources should confirm terminology history and distinguish social prejudice from school policy.
+
+### Chapter: Care of Magical Creatures
+
+#### Section: Hagrid and dangerous creature pedagogy
+
+Summary: The available evidence includes 1 source item, led by: The Ministry rating key ranges from XXXXX creatures that kill wizards or cannot be domesticated to X creatures judged boring, with Harry's copy glossing the top class as Hagrid-like.
+
+- **Context:** The Ministry rating key ranges from XXXXX creatures that kill wizards or cannot be domesticated to X creatures judged boring, with Harry's copy glossing the top class as Hagrid-like.
+  - Quote: "Known wizard killer"
+  - Source: Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, PDF p. 22, `fb-ch04-004`, `sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Notes: The Hagrid gloss is marginalia from the reproduced student copy and should be treated separately from Scamander's printed classification text.
 
 ### Chapter: Classrooms, Towers, and Teaching Spaces
 

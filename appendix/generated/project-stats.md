@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 284
+- Total: 285
 
 ## Entries by Book or External Source
 
@@ -75,7 +75,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B24 — "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001: 3
 - B25 — "Living with Harry Potter": 3
 - B26 — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006: 2
-- Fantastic Beasts and Where to Find Them: 27
+- Fantastic Beasts and Where to Find Them: 31
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -89,25 +89,25 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 549
-- later_editorial_note: 703
+- later_editorial_note: 704
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 42
-- pre_1984_historical_candidate: 320
+- pre_1984_historical_candidate: 323
 - unknown_or_uncertain: 22
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 115
-- curriculum_or_subject: 171
+- cross_reference_candidate: 116
+- curriculum_or_subject: 172
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
-- explicit_in_universe_source: 112
+- explicit_in_universe_source: 113
 - historical_claim: 332
 - house_system: 42
 - institutional_custom: 225
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
-- school_rule_or_policy: 163
+- school_rule_or_policy: 164
 - security_or_protection: 248
 - weak_context_only: 9
 
@@ -125,4 +125,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Next Pending Unit
 
-- Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, pages 21-22, `sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml`
+- Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, pages 23-30, `sources/book-fb/chapter-05-bestiary-a-to-c.yaml`

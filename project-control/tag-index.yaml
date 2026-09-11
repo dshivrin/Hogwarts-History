@@ -642,8 +642,10 @@ tags:
   annotated-textbooks:
     entries:
     - fb-ch00-005
+    - fb-ch04-004
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   annual-award:
     entries:
     - ext-a36-002
@@ -1519,8 +1521,10 @@ tags:
   beasts:
     entries:
     - fb-ch01-003
+    - fb-ch04-003
     output_yaml:
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   beaters:
     entries:
     - ootp-ch21-005
@@ -1609,8 +1613,10 @@ tags:
     entries:
     - fb-ch01-003
     - fb-ch01-005
+    - fb-ch04-003
     output_yaml:
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   bell-jar:
     entries:
     - ootp-ch34-007
@@ -2391,6 +2397,7 @@ tags:
     - cos-ch14-002
     - ext-a13-001
     - fb-ch00-003
+    - fb-ch04-004
     - gof-ch13-003
     - gof-ch18-003
     - gof-ch21-004
@@ -2452,6 +2459,7 @@ tags:
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
   career-advice:
     entries:
@@ -3964,6 +3972,11 @@ tags:
     - gof-ch24-003
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  creature-conservation:
+    entries:
+    - fb-ch04-001
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   creature-curriculum:
     entries:
     - ootp-ch13-004
@@ -4369,6 +4382,8 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
   dangerous-creatures:
     entries:
+    - fb-ch04-003
+    - fb-ch04-004
     - hbp-ch01-003
     - hbp-ch03-006
     - poa-ch11-001
@@ -4385,6 +4400,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-06/chapter-03-will-and-won-t.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   dangerous-magic:
     entries:
     - hbp-ch21-002
@@ -5147,6 +5163,11 @@ tags:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
     - sources/external/official-rowling/a25-time-turner.yaml
+  department-regulation-control:
+    entries:
+    - fb-ch04-003
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   department-regulation-control-magical-creatures:
     entries:
     - ootp-ch33-003
@@ -7196,16 +7217,20 @@ tags:
     - dh-ch20-006
     - fb-ch01-001
     - fb-ch02-003
+    - fb-ch04-001
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   fantastic-beasts-textbook:
     entries:
     - fb-ch00-003
     - fb-ch00-005
+    - fb-ch04-002
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   fat-friar:
     entries:
     - cos-ch08-005
@@ -8274,6 +8299,11 @@ tags:
     - beedle-ch05-004
     output_yaml:
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  future-generations:
+    entries:
+    - fb-ch04-001
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   galatea-merrythought:
     entries:
     - hbp-ch20-003
@@ -9521,6 +9551,7 @@ tags:
     - ext-b20-002
     - ext-b25-002
     - fb-ch03-006
+    - fb-ch04-004
     - gof-ch11-006
     - gof-ch13-003
     - gof-ch16-006
@@ -9647,6 +9678,7 @@ tags:
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
@@ -14447,6 +14479,9 @@ tags:
     - fb-ch00-003
     - fb-ch02-001
     - fb-ch02-004
+    - fb-ch04-001
+    - fb-ch04-002
+    - fb-ch04-003
     - gof-ch08-006
     - gof-ch09-005
     - gof-ch19-005
@@ -14496,6 +14531,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
@@ -14529,11 +14565,13 @@ tags:
     - ext-a28-001
     - ext-a28-002
     - ext-b02-002
+    - fb-ch04-001
     - gof-ch09-002
     - gof-ch11-004
     output_yaml:
     - sources/book-04/chapter-09-the-dark-mark.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
     - sources/external/interviews/b02-scholastic-live-chat.yaml
     - sources/external/official-rowling/a28-wizarding-schools.yaml
   magical-entrance:
@@ -15170,9 +15208,12 @@ tags:
     - fb-ch00-001
     - fb-ch00-002
     - fb-ch01-001
+    - fb-ch04-001
+    - fb-ch04-002
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   magorian:
     entries:
     - ootp-ch30-007
@@ -15331,6 +15372,7 @@ tags:
   marginalia:
     entries:
     - fb-ch00-005
+    - fb-ch04-004
     - hbp-ch09-007
     - hbp-ch10-001
     - hbp-ch12-003
@@ -15341,6 +15383,7 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   marlowe-forfang:
     entries:
     - ext-a27-001
@@ -15782,9 +15825,11 @@ tags:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
   ministry-classification:
     entries:
+    - fb-ch04-003
     - ootp-ch21-002
     output_yaml:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   ministry-contacts:
     entries:
     - gof-ch36-006
@@ -17126,9 +17171,12 @@ tags:
     - fb-ch00-002
     - fb-ch00-005
     - fb-ch01-001
+    - fb-ch04-001
+    - fb-ch04-002
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   newt-students:
     entries:
     - hbp-ch05-006
@@ -20854,6 +20902,11 @@ tags:
     - ootp-ch31-001
     output_yaml:
     - sources/book-05/chapter-31-o-w-l-s.yaml
+  revised-editions:
+    entries:
+    - fb-ch04-002
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   rhythm:
     entries:
     - ext-a07-002
@@ -23471,6 +23524,11 @@ tags:
     - hbp-ch09-007
     output_yaml:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
+  species-catalogue:
+    entries:
+    - fb-ch04-002
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   spectator-magic:
     entries:
     - gof-ch08-004
@@ -23578,6 +23636,11 @@ tags:
     - fb-ch01-006
     output_yaml:
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  spirits:
+    entries:
+    - fb-ch04-003
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   splinching:
     entries:
     - dh-ch14-001
@@ -25578,8 +25641,10 @@ tags:
   textbook-history:
     entries:
     - fb-ch01-001
+    - fb-ch04-002
     output_yaml:
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   textbooks:
     entries:
     - ootp-ch09-004
@@ -27787,6 +27852,11 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-26-gringotts.yaml
+  wizard-killer:
+    entries:
+    - fb-ch04-004
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   wizard-law:
     entries:
     - poa-ch02-003
@@ -28277,6 +28347,11 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+  xxxxx-classification:
+    entries:
+    - fb-ch04-004
+    output_yaml:
+    - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   yaxley:
     entries:
     - dh-ch12-004

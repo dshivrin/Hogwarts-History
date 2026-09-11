@@ -20802,6 +20802,66 @@ by_entry:
     - office-of-misinformation
     source_unit: fb-ch03
     output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
+  fb-ch04-001:
+    title: 'Care of Magical Creatures: Magizoology as conservation and magical education'
+    classification: pre_1984_historical_candidate
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - creature-conservation
+    - fantastic-beasts
+    - future-generations
+    - magical-creatures
+    - magical-education
+    - magizoology
+    - newt-scamander
+    source_unit: fb-ch04
+    output_yaml: sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
+  fb-ch04-002:
+    title: 'Care of Magical Creatures: Creature catalogues and textbook revision'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - fantastic-beasts-textbook
+    - magical-creatures
+    - magizoology
+    - newt-scamander
+    - revised-editions
+    - species-catalogue
+    - textbook-history
+    source_unit: fb-ch04
+    output_yaml: sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
+  fb-ch04-003:
+    title: 'Creatures, Liability, and External Committees: Ministry creature classifications'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - beasts
+    - beings
+    - dangerous-creatures
+    - department-regulation-control
+    - magical-creatures
+    - ministry-classification
+    - spirits
+    source_unit: fb-ch04
+    output_yaml: sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
+  fb-ch04-004:
+    title: 'Care of Magical Creatures: Hagrid and dangerous creature pedagogy'
+    classification: later_editorial_note
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - annotated-textbooks
+    - care-of-magical-creatures
+    - dangerous-creatures
+    - hagrid
+    - marginalia
+    - wizard-killer
+    - xxxxx-classification
+    source_unit: fb-ch04
+    output_yaml: sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -24596,6 +24656,7 @@ by_tag:
   - ootp-ch36-004
   annotated-textbooks:
   - fb-ch00-005
+  - fb-ch04-004
   annual-award:
   - ext-a36-002
   annual-customs:
@@ -25014,6 +25075,7 @@ by_tag:
   - fb-ch03-006
   beasts:
   - fb-ch01-003
+  - fb-ch04-003
   beaters:
   - ootp-ch21-005
   - qtta-ch06-003
@@ -25059,6 +25121,7 @@ by_tag:
   beings:
   - fb-ch01-003
   - fb-ch01-005
+  - fb-ch04-003
   bell-jar:
   - ootp-ch34-007
   - ootp-ch35-004
@@ -25420,6 +25483,7 @@ by_tag:
   - cos-ch14-002
   - ext-a13-001
   - fb-ch00-003
+  - fb-ch04-004
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
@@ -26144,6 +26208,8 @@ by_tag:
   - hbp-ch03-006
   creature-breeding:
   - gof-ch24-003
+  creature-conservation:
+  - fb-ch04-001
   creature-curriculum:
   - ootp-ch13-004
   - poa-ch08-001
@@ -26329,6 +26395,8 @@ by_tag:
   damocles-belby:
   - hbp-ch07-006
   dangerous-creatures:
+  - fb-ch04-003
+  - fb-ch04-004
   - hbp-ch01-003
   - hbp-ch03-006
   - poa-ch11-001
@@ -26725,6 +26793,8 @@ by_tag:
   - ootp-ch36-001
   - ootp-ch37-003
   - ootp-ch38-006
+  department-regulation-control:
+  - fb-ch04-003
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -27708,9 +27778,11 @@ by_tag:
   - dh-ch20-006
   - fb-ch01-001
   - fb-ch02-003
+  - fb-ch04-001
   fantastic-beasts-textbook:
   - fb-ch00-003
   - fb-ch00-005
+  - fb-ch04-002
   fat-friar:
   - cos-ch08-005
   - ext-a06-003
@@ -28214,6 +28286,8 @@ by_tag:
   - poa-ch18-002
   funeral-customs:
   - beedle-ch05-004
+  future-generations:
+  - fb-ch04-001
   galatea-merrythought:
   - hbp-ch20-003
   gambling:
@@ -28842,6 +28916,7 @@ by_tag:
   - ext-b20-002
   - ext-b25-002
   - fb-ch03-006
+  - fb-ch04-004
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -31199,6 +31274,9 @@ by_tag:
   - fb-ch00-003
   - fb-ch02-001
   - fb-ch02-004
+  - fb-ch04-001
+  - fb-ch04-002
+  - fb-ch04-003
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -31235,6 +31313,7 @@ by_tag:
   - ext-a28-001
   - ext-a28-002
   - ext-b02-002
+  - fb-ch04-001
   - gof-ch09-002
   - gof-ch11-004
   magical-entrance:
@@ -31526,6 +31605,8 @@ by_tag:
   - fb-ch00-001
   - fb-ch00-002
   - fb-ch01-001
+  - fb-ch04-001
+  - fb-ch04-002
   magorian:
   - ootp-ch30-007
   - ootp-ch33-002
@@ -31607,6 +31688,7 @@ by_tag:
   - ps-ch14-006
   marginalia:
   - fb-ch00-005
+  - fb-ch04-004
   - hbp-ch09-007
   - hbp-ch10-001
   - hbp-ch12-003
@@ -31811,6 +31893,7 @@ by_tag:
   - ootp-ch25-007
   - ootp-ch26-001
   ministry-classification:
+  - fb-ch04-003
   - ootp-ch21-002
   ministry-contacts:
   - gof-ch36-006
@@ -32441,6 +32524,8 @@ by_tag:
   - fb-ch00-002
   - fb-ch00-005
   - fb-ch01-001
+  - fb-ch04-001
+  - fb-ch04-002
   newt-students:
   - hbp-ch05-006
   newts:
@@ -34202,6 +34287,8 @@ by_tag:
   - ext-a14-005
   review-lessons:
   - ootp-ch31-001
+  revised-editions:
+  - fb-ch04-002
   rhythm:
   - ext-a07-002
   riddikulus:
@@ -35433,6 +35520,8 @@ by_tag:
   - ext-b04-003
   specialis-revelio:
   - hbp-ch09-007
+  species-catalogue:
+  - fb-ch04-002
   spectator-magic:
   - gof-ch08-004
   spectator-stands:
@@ -35479,6 +35568,8 @@ by_tag:
   - ps-ch14-006
   spirit-division:
   - fb-ch01-006
+  spirits:
+  - fb-ch04-003
   splinching:
   - dh-ch14-001
   - gof-ch06-001
@@ -36379,6 +36470,7 @@ by_tag:
   - hbp-ch22-007
   textbook-history:
   - fb-ch01-001
+  - fb-ch04-002
   textbooks:
   - ootp-ch09-004
   textual-transmission:
@@ -37419,6 +37511,8 @@ by_tag:
   - dh-ch25-005
   - dh-ch26-007
   - ootp-ch05-004
+  wizard-killer:
+  - fb-ch04-004
   wizard-law:
   - poa-ch02-003
   wizard-longevity:
@@ -37636,6 +37730,8 @@ by_tag:
   - dh-ch20-005
   - dh-ch21-001
   - dh-ch25-006
+  xxxxx-classification:
+  - fb-ch04-004
   yaxley:
   - dh-ch12-004
   - dh-ch14-002

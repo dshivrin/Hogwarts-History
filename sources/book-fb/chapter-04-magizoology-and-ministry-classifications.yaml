@@ -1,0 +1,192 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: Why Magizoology Matters and Ministry Classifications
+  chapter_start_pdf_page: 21
+  chapter_end_pdf_page: 22
+  boundary_confidence: high
+  boundary_notes: Rendered PDF pages 21-22 only; page 21 closes Newt Scamander's chapter on why magizoology matters, and page 22 begins the Ministry classifications section.
+  processed_date: '2026-09-11'
+  processor_notes: Scanned carrier rendered as JPEGs at 180 DPI and visually inspected page by page; no OCR-only extraction was used.
+
+entries:
+  - id: fb-ch04-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Why Magizoology Matters and Ministry Classifications
+    chapter_start_pdf_page: 21
+    chapter_end_pdf_page: 22
+    pdf_page: 21
+    printed_page: xxi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: future generations of witches and wizards
+      end_phrase: privileged to do
+      local_occurrence_note: Opening lines visible at the top of rendered page 21, completing the preceding sentence before Newt introduces the book's scope.
+    nearby_context: Newt frames magizoological study as preserving access to fantastic beasts' beauty and powers for later magical communities.
+    match_terms:
+      - future generations
+      - witches and wizards
+      - fantastic beasts
+      - magizoology
+      - preservation
+      - creature conservation
+    quote_excerpt_short: future generations of witches and wizards
+    source_note: Newt says the purpose of protecting and studying fantastic beasts is so later witches and wizards can continue to benefit from them.
+    reference_type: curriculum_or_subject
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - magizoology
+      - creature-conservation
+      - fantastic-beasts
+      - magical-creatures
+      - newt-scamander
+      - magical-education
+      - future-generations
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures
+    candidate_section: Magizoology as conservation and magical education
+    reason_for_placement: The passage gives the discipline's stated educational and preservation rationale, which can frame Hogwarts creature study beyond classroom handling.
+    relevance_to_hogwarts_a_history: Useful background for a Hogwarts curriculum history explaining why magical creatures became a formal subject with ethical and preservation stakes.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The fantastic-beasts-textbook query returned fb-ch00-003 and fb-ch00-005, but those cover Hogwarts textbook approval and annotated-copy provenance; no returned entry states Newt's conservation rationale.
+    confidence: high
+    limitations: The page gives Newt's purpose statement but does not name Hogwarts directly or date when this rationale entered the curriculum.
+
+  - id: fb-ch04-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Why Magizoology Matters and Ministry Classifications
+    chapter_start_pdf_page: 21
+    chapter_end_pdf_page: 22
+    pdf_page: 21
+    printed_page: xxi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Seventy-five species are described
+      end_phrase: fifty-third revised edition
+      local_occurrence_note: Middle paragraph of rendered page 21, immediately after Newt calls the work an introduction to fantastic beasts.
+    nearby_context: Newt says the book describes seventy-five species while expecting further discoveries and another revised edition.
+    match_terms:
+      - seventy-five species
+      - revised edition
+      - Fantastic Beasts
+      - species discovery
+      - magizoology
+      - field knowledge
+    quote_excerpt_short: Seventy-five species are described
+    source_note: Newt presents Fantastic Beasts as an introductory catalogue of seventy-five species and treats magizoological knowledge as still expanding.
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - fantastic-beasts-textbook
+      - species-catalogue
+      - revised-editions
+      - magizoology
+      - newt-scamander
+      - magical-creatures
+      - textbook-history
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures
+    candidate_section: Creature catalogues and textbook revision
+    reason_for_placement: The passage establishes the scope and revisable nature of a major creature textbook used in Hogwarts study.
+    relevance_to_hogwarts_a_history: Supports discussion of Care of Magical Creatures reference materials as living catalogues rather than fixed lists.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The fantastic-beasts-textbook query returned fb-ch00-003 and fb-ch00-005 as contextual matches; neither records the seventy-five-species scope or expected revised edition.
+    confidence: high
+    limitations: The exact edition count is part of the book's internal publishing frame and may not identify the edition used by every Hogwarts cohort.
+
+  - id: fb-ch04-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Why Magizoology Matters and Ministry Classifications
+    chapter_start_pdf_page: 21
+    chapter_end_pdf_page: 22
+    pdf_page: 22
+    printed_page: xxii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Department for the Regulation and Control
+      end_phrase: perceived dangerousness of a creature
+      local_occurrence_note: First paragraph under the Ministry of Magic Classifications heading on rendered page 22.
+    nearby_context: The page introduces the Ministry scale before listing five rating categories from XXXXX to X.
+    match_terms:
+      - Department for the Regulation and Control of Magical Creatures
+      - Ministry of Magic Classification
+      - beasts
+      - beings
+      - spirits
+      - dangerousness
+    quote_excerpt_short: perceived dangerousness of a creature
+    source_note: The Department for the Regulation and Control of Magical Creatures assigns classifications to known beasts, beings, and spirits as a danger guide.
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ministry-classification
+      - department-regulation-control
+      - beasts
+      - beings
+      - spirits
+      - dangerous-creatures
+      - magical-creatures
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Creatures, Liability, and External Committees
+    candidate_section: Ministry creature classifications
+    reason_for_placement: The classification authority underlies later Hogwarts creature lessons, safety concerns, and creature-law incidents.
+    relevance_to_hogwarts_a_history: Provides the official rating framework a later school history can use when explaining dangerous creature lessons and Ministry oversight.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ministry-classification query returned ootp-ch21-002 as a close later example where Umbridge invokes classification for thestrals; this entry records the underlying scale itself.
+    confidence: high
+    limitations: The page says the classifications are a guide to perceived dangerousness, not a full legal procedure or school policy.
+
+  - id: fb-ch04-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Why Magizoology Matters and Ministry Classifications
+    chapter_start_pdf_page: 21
+    chapter_end_pdf_page: 22
+    pdf_page: 22
+    printed_page: xxii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Known wizard killer
+      end_phrase: Boring
+      local_occurrence_note: Classification table on rendered page 22, with a handwritten marginal note over the XXXXX line.
+    nearby_context: The table defines XXXXX through X ratings; the reproduced marginalia adds a student gloss linking the top danger class to Hagrid's tastes.
+    match_terms:
+      - XXXXX
+      - wizard killer
+      - impossible to train
+      - dangerous
+      - harmless
+      - Hagrid
+      - marginalia
+    quote_excerpt_short: Known wizard killer
+    source_note: The Ministry rating key ranges from XXXXX creatures that kill wizards or cannot be domesticated to X creatures judged boring, with Harry's copy glossing the top class as Hagrid-like.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - xxxxx-classification
+      - wizard-killer
+      - dangerous-creatures
+      - hagrid
+      - marginalia
+      - annotated-textbooks
+      - care-of-magical-creatures
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Care of Magical Creatures
+    candidate_section: Hagrid and dangerous creature pedagogy
+    reason_for_placement: The printed scale supplies rating definitions, while the marginal note is relevant later editorial evidence for how Harry's cohort associated Hagrid with high-risk creatures.
+    relevance_to_hogwarts_a_history: Helps connect the official creature-danger scale to later student experience in Hagrid's Care of Magical Creatures teaching.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The hagrid dangerous-creatures query returned Buckbeak and dangerous-creature hearing entries such as hbp-ch03-006 and poa-ch14-003; those are concrete incidents, while this entry records Harry-copy marginal commentary on the rating key.
+    confidence: high
+    limitations: The Hagrid gloss is marginalia from the reproduced student copy and should be treated separately from Scamander's printed classification text.
