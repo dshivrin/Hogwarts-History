@@ -1503,6 +1503,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Rules, Limits, and Magical Practice
   - Authorial construction of magical rules
 
+## Part I: Hidden Magical Britain
+
+- International Secrecy and Creature Concealment
+  - Species selected for concealment
+  - The 1692 creature summit
+- Muggle Awareness Before Secrecy
+  - Medieval memory of magical creatures
+  - Misread magical-beast encounters
+  - Muggle misidentification of beasts
+- Muggle Persecution and Wizarding Withdrawal
+  - Creature sightings and anti-wizard fear
+- Named Wizarding Historians and School Texts
+  - A History of Magic as a companion authority
+
 ## Part I: Historical and Cultural Background
 
 - Folklore and the Wizarding World

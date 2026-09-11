@@ -1,0 +1,300 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+  chapter_start_pdf_page: 14
+  chapter_end_pdf_page: 15
+  boundary_confidence: high
+  boundary_notes: "Assigned scanned-PDF unit FB02; rendered and visually inspected only PDF pages 14-15."
+  processed_date: '2026-09-11'
+  processor_notes: "Scanned image-only source; entries are drawn from visible rendered pages 14-15. No explicit Hogwarts: A History reference appears in this range."
+
+entries:
+  - id: fb-ch02-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 14
+    printed_page: xiv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Muggles have not always been ignorant"
+      end_phrase: "usually with almost comical inexactitude"
+      local_occurrence_note: "Opening paragraph under the chapter heading on printed page xiv."
+    nearby_context: "Newt frames the chapter as a history of Muggle knowledge before the later organized concealment of magical beasts."
+    match_terms:
+      - muggle-awareness
+      - medieval-art
+      - magical-creatures
+      - fantastic-beasts
+    quote_excerpt_short: "Muggles have not always been ignorant"
+    source_note: "Medieval Muggle art and literature are said to preserve memory of dragons, griffins, unicorns, phoenixes, centaurs, and similar creatures, though inaccurately."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - muggle-awareness
+      - medieval-art
+      - magical-creatures
+      - dragons
+      - griffins
+      - unicorns
+      - centaurs
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Muggle Awareness Before Secrecy"
+    candidate_section: "Medieval memory of magical creatures"
+    reason_for_placement: "Useful background for the pre-Statute conditions that made later magical concealment necessary."
+    relevance_to_hogwarts_a_history: "Supports a historical account of how much Muggles once knew about creatures later studied, hidden, or encountered around Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query muggle-art/magical-creatures returned broad creature and Hogwarts ecology entries only; none duplicates the medieval Muggle-awareness claim."
+    confidence: high
+    limitations: "The passage summarizes a broad historical pattern without dating particular artworks or manuscripts."
+
+  - id: fb-ch02-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 14
+    printed_page: xiv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "a closer examination of Muggle bestiaries"
+      end_phrase: "mistaken for something else"
+      local_occurrence_note: "Second paragraph on printed page xiv, before the Brother Benedict manuscript excerpt."
+    nearby_context: "The chapter contrasts Muggle cultural memory with failures to identify actual magical beasts accurately."
+    match_terms:
+      - muggle-bestiaries
+      - magical-creature-misidentification
+      - medieval-sources
+    quote_excerpt_short: "mistaken for something else"
+    source_note: "Medieval Muggle bestiaries are presented as evidence that many magical beasts either escaped notice or were misidentified."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - muggle-bestiaries
+      - magical-creature-misidentification
+      - medieval-sources
+      - muggle-awareness
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Muggle Awareness Before Secrecy"
+    candidate_section: "Muggle misidentification of beasts"
+    reason_for_placement: "Provides source-method context for evaluating non-wizarding records of magical creatures."
+    relevance_to_hogwarts_a_history: "Helps explain why creature evidence in non-magical sources is unreliable but still historically valuable."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query muggle-awareness/medieval-bestiaries returned no matches."
+    confidence: high
+    limitations: "No specific bestiary is named before the Brother Benedict example."
+
+  - id: fb-ch02-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 15
+    printed_page: xv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Evidently our Muggle friend had unearthed"
+      end_phrase: "in pursuit of its favourite prey, gnomes"
+      local_occurrence_note: "First paragraph on printed page xv, interpreting the Brother Benedict manuscript fragment from the previous page."
+    nearby_context: "The manuscript excerpt describes a talking 'ferret' that injures Brother Benedict in a herb garden."
+    match_terms:
+      - jarvey
+      - gnomes
+      - muggle-misidentification
+      - brother-benedict
+    quote_excerpt_short: "a Jarvey, most likely in pursuit of its favourite prey"
+    source_note: "Newt identifies Brother Benedict's supposed monstrous ferret as a Jarvey, probably hunting gnomes, making the anecdote a case of Muggle misidentification."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - jarvey
+      - gnomes
+      - muggle-misidentification
+      - medieval-sources
+      - fantastic-beasts
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Muggle Awareness Before Secrecy"
+    candidate_section: "Misread magical-beast encounters"
+    reason_for_placement: "Concrete medieval example of a magical creature entering Muggle records under a mistaken identity."
+    relevance_to_hogwarts_a_history: "Offers a model for reading Muggle evidence that might intersect with Hogwarts-era creature lore."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query jarvey/gnomes returned no matches."
+    confidence: high
+    limitations: "The manuscript is quoted only as a fragment, and the identification is Newt's retrospective interpretation."
+
+  - id: fb-ch02-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 15
+    printed_page: xv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Imperfect understanding is often more dangerous"
+      end_phrase: "were contributing to Muggle hysteria"
+      local_occurrence_note: "Second paragraph on printed page xv, immediately after the Jarvey identification."
+    nearby_context: "Newt moves from one mistaken encounter to wider fear of magic and magical beasts."
+    match_terms:
+      - muggle-persecution
+      - witch-hunts
+      - dragons
+      - hippogriffs
+    quote_excerpt_short: "Muggle persecution of wizards at this time"
+    source_note: "Muggle fear of misunderstood magic is linked to intensified persecution of wizards, with dragon and Hippogriff sightings feeding the hysteria."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - muggle-persecution
+      - witch-hunts
+      - dragons
+      - hippogriffs
+      - magical-creatures
+      - muggle-awareness
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Muggle Persecution and Wizarding Withdrawal"
+    candidate_section: "Creature sightings and anti-wizard fear"
+    reason_for_placement: "Connects magical-beast exposure to the hostile climate that preceded wizarding retreat into secrecy."
+    relevance_to_hogwarts_a_history: "Strengthens the historical setting for Hogwarts as an institution shaped by Muggle persecution and secrecy pressures."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query muggle-persecution/magical-creatures returned cos-ch09-003 as related Hogwarts-founding context and broad creature entries, but not this creature-sighting claim."
+    confidence: high
+    limitations: "The exact date range of 'this time' is implied by the surrounding medieval discussion rather than stated precisely."
+
+  - id: fb-ch02-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 15
+    printed_page: xv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Anyone interested in a full account"
+      end_phrase: "Little Red Books, 1947"
+      local_occurrence_note: "Footnote 4 at the bottom of printed page xv."
+    nearby_context: "The footnote qualifies Newt's decision not to cover the bloody period before wizarding retreat into hiding."
+    match_terms:
+      - a-history-of-magic
+      - bathilda-bagshot
+      - in-universe-source
+      - wizarding-history
+    quote_excerpt_short: "consult A History of Magic by Bathilda Bagshot"
+    source_note: "Newt directs readers to Bathilda Bagshot's A History of Magic for a full account of the violent period before wizarding retreat into hiding."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - a-history-of-magic
+      - bathilda-bagshot
+      - in-universe-source
+      - wizarding-history
+      - muggle-persecution
+      - wizarding-secrecy
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Named Wizarding Historians and School Texts"
+    candidate_section: "A History of Magic as a companion authority"
+    reason_for_placement: "Names Bagshot's history as a recommended authority for the wider period around wizarding retreat."
+    relevance_to_hogwarts_a_history: "Not an explicit Hogwarts: A History reference, but it links Fantastic Beasts to a named wizarding-history text central to Hogwarts historical study."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query witch-hunts/a-history-of-magic returned prior Bagshot source entries about Godric's Hollow and textbook use; this Little Red Books 1947 citation is distinct."
+    confidence: high
+    limitations: "The footnote names A History of Magic, not Hogwarts: A History."
+
+  - id: fb-ch02-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 15
+    printed_page: xv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The International Confederation of Wizards"
+      end_phrase: "question of magical creatures"
+      local_occurrence_note: "Middle of printed page xv, after the A History of Magic footnote marker."
+    nearby_context: "Newt shifts from Muggle persecution to wizarding institutional debate over concealing magical creatures."
+    match_terms:
+      - international-confederation
+      - 1692-summit
+      - magical-creature-concealment
+    quote_excerpt_short: "famous summit meeting of 1692"
+    source_note: "The International Confederation of Wizards spent seven contentious weeks at its 1692 summit debating which magical creatures could be concealed and how."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - international-confederation
+      - 1692-summit
+      - magical-creature-concealment
+      - wizarding-governance
+      - muggle-awareness
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "The 1692 creature summit"
+    reason_for_placement: "Documents a specific international governance moment shaping magical-creature secrecy."
+    relevance_to_hogwarts_a_history: "Provides institutional history behind the secrecy framework that later governs creature study and management at Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query international-confederation/1692-summit returned International Confederation context but no existing 1692 magical-creature summit entry."
+    confidence: high
+    limitations: "The page begins the discussion but does not list the full final rules."
+
+  - id: fb-ch02-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+    chapter_start_pdf_page: 14
+    chapter_end_pdf_page: 15
+    pdf_page: 15
+    printed_page: xv
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "At last agreement was reached"
+      end_phrase: "illusion that they had never existed"
+      local_occurrence_note: "Final paragraph on printed page xv, above footnotes 4-6."
+    nearby_context: "The preceding paragraph asks which species could be concealed and notes some non-human participation in the debate."
+    match_terms:
+      - hidden-species
+      - bundimuns
+      - dragons
+      - statute-of-secrecy
+    quote_excerpt_short: "Twenty-seven species, ranging in size from dragons to Bundimuns"
+    source_note: "The 1692 agreement selected twenty-seven species, from dragons to Bundimuns, to be hidden from Muggles so the creatures would appear never to have existed."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hidden-species
+      - bundimuns
+      - dragons
+      - magical-creature-concealment
+      - statute-of-secrecy
+      - muggle-awareness
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "Species selected for concealment"
+    reason_for_placement: "Captures the policy result of the 1692 debate over magical-beast concealment."
+    relevance_to_hogwarts_a_history: "Clarifies the historical secrecy regime under which magical creatures are later categorized, protected, and taught about."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query hidden-species/bundimuns returned no matches; statute-of-secrecy/magical-creatures returned broader secrecy and creature-control entries only."
+    confidence: high
+    limitations: "The assigned page range ends as the agreement is introduced, so later implementation details may appear in the next unit."

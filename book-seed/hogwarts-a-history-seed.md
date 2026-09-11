@@ -16321,6 +16321,93 @@ Summary: The available evidence includes 1 source item, led by: Rowling says she
   - Reference type: weak_context_only
   - Notes: Authority-D preservation transcription rather than a primary Barnes and Noble record; it is extradiegetic author-process commentary, not independent evidence of magical-world history.
 
+## Part: Part I: Hidden Magical Britain
+
+### Chapter: International Secrecy and Creature Concealment
+
+#### Section: Species selected for concealment
+
+Summary: The available evidence includes 1 source item, led by: The 1692 agreement selected twenty-seven species, from dragons to Bundimuns, to be hidden from Muggles so the creatures would appear never to have existed.
+
+- **Supporting evidence:** The 1692 agreement selected twenty-seven species, from dragons to Bundimuns, to be hidden from Muggles so the creatures would appear never to have existed.
+  - Quote: "Twenty-seven species, ranging in size from dragons to Bundimuns"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 15, `fb-ch02-007`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The assigned page range ends as the agreement is introduced, so later implementation details may appear in the next unit.
+
+#### Section: The 1692 creature summit
+
+Summary: The available evidence includes 1 source item, led by: The International Confederation of Wizards spent seven contentious weeks at its 1692 summit debating which magical creatures could be concealed and how.
+
+- **Supporting evidence:** The International Confederation of Wizards spent seven contentious weeks at its 1692 summit debating which magical creatures could be concealed and how.
+  - Quote: "famous summit meeting of 1692"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 15, `fb-ch02-006`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The page begins the discussion but does not list the full final rules.
+
+### Chapter: Muggle Awareness Before Secrecy
+
+#### Section: Medieval memory of magical creatures
+
+Summary: The available evidence includes 1 source item, led by: Medieval Muggle art and literature are said to preserve memory of dragons, griffins, unicorns, phoenixes, centaurs, and similar creatures, though inaccurately.
+
+- **Supporting evidence:** Medieval Muggle art and literature are said to preserve memory of dragons, griffins, unicorns, phoenixes, centaurs, and similar creatures, though inaccurately.
+  - Quote: "Muggles have not always been ignorant"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 14, `fb-ch02-001`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage summarizes a broad historical pattern without dating particular artworks or manuscripts.
+
+#### Section: Misread magical-beast encounters
+
+Summary: The available evidence includes 1 source item, led by: Newt identifies Brother Benedict's supposed monstrous ferret as a Jarvey, probably hunting gnomes, making the anecdote a case of Muggle misidentification.
+
+- **Supporting evidence:** Newt identifies Brother Benedict's supposed monstrous ferret as a Jarvey, probably hunting gnomes, making the anecdote a case of Muggle misidentification.
+  - Quote: "a Jarvey, most likely in pursuit of its favourite prey"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 15, `fb-ch02-003`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The manuscript is quoted only as a fragment, and the identification is Newt's retrospective interpretation.
+
+#### Section: Muggle misidentification of beasts
+
+Summary: The available evidence includes 1 source item, led by: Medieval Muggle bestiaries are presented as evidence that many magical beasts either escaped notice or were misidentified.
+
+- **Supporting evidence:** Medieval Muggle bestiaries are presented as evidence that many magical beasts either escaped notice or were misidentified.
+  - Quote: "mistaken for something else"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 14, `fb-ch02-002`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: No specific bestiary is named before the Brother Benedict example.
+
+### Chapter: Muggle Persecution and Wizarding Withdrawal
+
+#### Section: Creature sightings and anti-wizard fear
+
+Summary: The available evidence includes 1 source item, led by: Muggle fear of misunderstood magic is linked to intensified persecution of wizards, with dragon and Hippogriff sightings feeding the hysteria.
+
+- **Supporting evidence:** Muggle fear of misunderstood magic is linked to intensified persecution of wizards, with dragon and Hippogriff sightings feeding the hysteria.
+  - Quote: "Muggle persecution of wizards at this time"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 15, `fb-ch02-004`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The exact date range of 'this time' is implied by the surrounding medieval discussion rather than stated precisely.
+
+### Chapter: Named Wizarding Historians and School Texts
+
+#### Section: A History of Magic as a companion authority
+
+Summary: The available evidence includes 1 source item, led by: Newt directs readers to Bathilda Bagshot's A History of Magic for a full account of the violent period before wizarding retreat into hiding.
+
+- **Context:** Newt directs readers to Bathilda Bagshot's A History of Magic for a full account of the violent period before wizarding retreat into hiding.
+  - Quote: "consult A History of Magic by Bathilda Bagshot"
+  - Source: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, PDF p. 15, `fb-ch02-005`, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The footnote names A History of Magic, not Hogwarts: A History.
+
 ## Part: Part I: Historical and Cultural Background
 
 ### Chapter: Folklore and the Wizarding World

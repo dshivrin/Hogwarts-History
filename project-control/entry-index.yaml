@@ -20596,6 +20596,103 @@ by_entry:
     - werewolves
     source_unit: fb-ch01
     output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch02-001:
+    title: 'Muggle Awareness Before Secrecy: Medieval memory of magical creatures'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - centaurs
+    - dragons
+    - griffins
+    - magical-creatures
+    - medieval-art
+    - muggle-awareness
+    - unicorns
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch02-002:
+    title: 'Muggle Awareness Before Secrecy: Muggle misidentification of beasts'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - magical-creature-misidentification
+    - medieval-sources
+    - muggle-awareness
+    - muggle-bestiaries
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch02-003:
+    title: 'Muggle Awareness Before Secrecy: Misread magical-beast encounters'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - fantastic-beasts
+    - gnomes
+    - jarvey
+    - medieval-sources
+    - muggle-misidentification
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch02-004:
+    title: 'Muggle Persecution and Wizarding Withdrawal: Creature sightings and anti-wizard
+      fear'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dragons
+    - hippogriffs
+    - magical-creatures
+    - muggle-awareness
+    - muggle-persecution
+    - witch-hunts
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch02-005:
+    title: 'Named Wizarding Historians and School Texts: A History of Magic as a companion
+      authority'
+    classification: later_editorial_note
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - a-history-of-magic
+    - bathilda-bagshot
+    - in-universe-source
+    - muggle-persecution
+    - wizarding-history
+    - wizarding-secrecy
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch02-006:
+    title: 'International Secrecy and Creature Concealment: The 1692 creature summit'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - 1692-summit
+    - international-confederation
+    - magical-creature-concealment
+    - muggle-awareness
+    - wizarding-governance
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  fb-ch02-007:
+    title: 'International Secrecy and Creature Concealment: Species selected for concealment'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bundimuns
+    - dragons
+    - hidden-species
+    - magical-creature-concealment
+    - muggle-awareness
+    - statute-of-secrecy
+    source_unit: fb-ch02
+    output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -24097,6 +24194,8 @@ by_tag:
   - beedle-ch01-003
   '1689':
   - beedle-ch01-002
+  1692-summit:
+  - fb-ch02-006
   '1717':
   - beedle-ch04-006
   '1855':
@@ -24112,6 +24211,7 @@ by_tag:
   - dh-ch16-004
   - dh-ch17-001
   - dh-ch19-001
+  - fb-ch02-005
   abduction:
   - dh-ch25-007
   aberforth-dumbledore:
@@ -24757,6 +24857,7 @@ by_tag:
   - dh-ch18-004
   - dh-ch18-005
   - fb-ch01-004
+  - fb-ch02-005
   - poa-ch01-001
   - qtta-fm-003
   bathroom:
@@ -25155,6 +25256,8 @@ by_tag:
   - poa-ch15-004
   bullying:
   - ext-b11-003
+  bundimuns:
+  - fb-ch02-007
   burdock-muldoon:
   - fb-ch01-003
   - fb-ch01-004
@@ -25449,6 +25552,7 @@ by_tag:
   - fb-ch01-002
   - fb-ch01-005
   - fb-ch01-007
+  - fb-ch02-001
   - hbp-ch04-004
   - hbp-ch15-005
   - hbp-ch20-002
@@ -26757,6 +26861,9 @@ by_tag:
   dragon-research:
   - fb-ch00-002
   dragons:
+  - fb-ch02-001
+  - fb-ch02-004
+  - fb-ch02-007
   - gof-ch19-004
   - gof-ch19-005
   - gof-ch20-001
@@ -27473,6 +27580,7 @@ by_tag:
   fantastic-beasts:
   - dh-ch20-006
   - fb-ch01-001
+  - fb-ch02-003
   fantastic-beasts-textbook:
   - fb-ch00-003
   - fb-ch00-005
@@ -28111,6 +28219,8 @@ by_tag:
   glass-orbs:
   - ootp-ch34-007
   - ootp-ch35-002
+  gnomes:
+  - fb-ch02-003
   goal-scoring:
   - qtta-ch03-001
   goalposts:
@@ -28347,6 +28457,8 @@ by_tag:
   - ext-a06-007
   greyback:
   - hbp-ch29-001
+  griffins:
+  - fb-ch02-001
   grimmauld-place:
   - dh-ch06-002
   - dh-ch09-003
@@ -29109,6 +29221,8 @@ by_tag:
   - ext-a14-003
   hidden-society:
   - ext-b16-001
+  hidden-species:
+  - fb-ch02-007
   hidden-staircase:
   - gof-ch28-006
   hidden-trapdoor:
@@ -29152,6 +29266,7 @@ by_tag:
   - poa-ch15-004
   hippogriffs:
   - fb-ch00-001
+  - fb-ch02-004
   - poa-ch06-006
   - poa-ch11-001
   - poa-ch11-003
@@ -30079,6 +30194,7 @@ by_tag:
   - dh-ch20-006
   - dh-ch21-002
   - fb-ch01-004
+  - fb-ch02-005
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -30191,6 +30307,7 @@ by_tag:
   - ext-a29-004
   international-confederation:
   - ext-a28-002
+  - fb-ch02-006
   - ootp-ch05-007
   - ootp-ch11-007
   - ootp-ch31-007
@@ -30291,6 +30408,8 @@ by_tag:
   - ps-ch04-004
   janus-thickey:
   - ootp-ch23-006
+  jarvey:
+  - fb-ch02-003
   jinx:
   - dh-ch14-005
   jinxed-post:
@@ -30911,8 +31030,13 @@ by_tag:
   - fb-ch01-005
   - fb-ch01-006
   - fb-ch01-007
+  magical-creature-concealment:
+  - fb-ch02-006
+  - fb-ch02-007
   magical-creature-law:
   - poa-ch11-003
+  magical-creature-misidentification:
+  - fb-ch02-002
   magical-creature-regulation:
   - fb-ch00-002
   magical-creatures:
@@ -30928,6 +31052,8 @@ by_tag:
   - ext-a09-008
   - ext-a27-004
   - fb-ch00-003
+  - fb-ch02-001
+  - fb-ch02-004
   - gof-ch08-006
   - gof-ch09-005
   - gof-ch19-005
@@ -31414,6 +31540,11 @@ by_tag:
   - hbp-ch19-001
   medicinal-potion:
   - poa-ch08-005
+  medieval-art:
+  - fb-ch02-001
+  medieval-sources:
+  - fb-ch02-002
+  - fb-ch02-003
   medieval-witch-burning:
   - poa-ch01-001
   - poa-ch04-002
@@ -31852,9 +31983,17 @@ by_tag:
   - hbp-ch12-003
   muggle-artifacts:
   - cos-ch03-004
+  muggle-awareness:
+  - fb-ch02-001
+  - fb-ch02-002
+  - fb-ch02-004
+  - fb-ch02-006
+  - fb-ch02-007
   muggle-baiting:
   - cos-ch03-004
   - gof-ch09-001
+  muggle-bestiaries:
+  - fb-ch02-002
   muggle-bookshops:
   - fb-ch00-006
   muggle-born:
@@ -31934,6 +32073,8 @@ by_tag:
   - hbp-ch01-003
   muggle-memory-modification:
   - ext-a19-003
+  muggle-misidentification:
+  - fb-ch02-003
   muggle-newspapers:
   - gof-ch30-007
   muggle-parents:
@@ -31942,6 +32083,8 @@ by_tag:
   - ext-b04-002
   muggle-persecution:
   - cos-ch09-003
+  - fb-ch02-004
+  - fb-ch02-005
   muggle-police:
   - hbp-ch01-005
   muggle-post:
@@ -35398,6 +35541,7 @@ by_tag:
   - dh-ch16-003
   - dh-ch18-006
   - dh-ch28-004
+  - fb-ch02-007
   - gof-ch04-004
   - hbp-ch01-001
   - hbp-ch01-002
@@ -36560,6 +36704,7 @@ by_tag:
   - hbp-ch22-006
   unicorns:
   - cos-ch15-003
+  - fb-ch02-001
   - gof-ch24-001
   - gof-ch26-003
   - ootp-ch31-005
@@ -37088,6 +37233,8 @@ by_tag:
   wit:
   - dh-ch20-007
   - dh-ch31-007
+  witch-hunts:
+  - fb-ch02-004
   witch-persecution:
   - beedle-ch01-001
   witch-weekly:
@@ -37165,11 +37312,13 @@ by_tag:
   - ootp-ch06-001
   wizarding-governance:
   - fb-ch01-002
+  - fb-ch02-006
   wizarding-heirlooms:
   - hbp-ch10-006
   - hbp-ch20-005
   wizarding-history:
   - dh-ch25-003
+  - fb-ch02-005
   - hbp-ch17-006
   - ootp-ch20-003
   wizarding-households:
@@ -37241,6 +37390,7 @@ by_tag:
   - beedle-ch01-001
   - beedle-ch01-002
   - ext-b16-001
+  - fb-ch02-005
   wizarding-society:
   - ext-b02-004
   - gof-ch08-003
