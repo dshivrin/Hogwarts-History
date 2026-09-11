@@ -1,0 +1,333 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: About This Book and What Is a Beast?
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 13
+  boundary_confidence: high
+  boundary_notes: "Rendered and visually inspected only PDF pages 9-13, covering the introduction's About This Book and What Is a Beast? sections."
+  processed_date: '2026-09-11'
+  processor_notes: "Scanned source unit processed from rendered page images; no explicit Hogwarts: A History references appear in this range."
+
+entries:
+  - id: fb-ch01-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 9
+    printed_page: ix
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The first edition of Fantastic Beasts was commissioned back in 1918
+      end_phrase: Fantastic Beasts is now in its fifty-second edition
+      local_occurrence_note: Lower half of the About This Book page, after Scamander describes years of field travel.
+    nearby_context: "Scamander frames the book as the result of years of travel and research across five continents before explaining its publishing origin."
+    match_terms:
+      - Fantastic Beasts and Where to Find Them
+      - Obscurus Books
+      - Augustus Worme
+      - 1918
+      - 1927
+      - fifty-second edition
+      - magizoology
+    quote_excerpt_short: "commissioned back in 1918"
+    source_note: "Scamander says Augustus Worme of Obscurus Books commissioned the first edition in 1918 and that the book was first published in 1927."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - fantastic-beasts
+      - publication-history
+      - obscurus-books
+      - augustus-worme
+      - magizoology
+      - newt-scamander
+      - textbook-history
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures and Creature Scholarship
+    candidate_section: Publication history of Fantastic Beasts
+    reason_for_placement: "The passage dates the origin and publication of a later Hogwarts-approved creature text."
+    relevance_to_hogwarts_a_history: "Useful for a Hogwarts history as background on when a key Care of Magical Creatures reference work entered wizarding print culture."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "The publication-history query returned a later Hermione use of the book, not its 1918 commission or 1927 publication; Newt queries returned FB00 biography and editorial-frame entries, which are adjacent but not this publication-origin claim."
+    confidence: high
+    limitations: "The page does not state when the book first became a Hogwarts textbook."
+
+  - id: fb-ch01-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 10
+    printed_page: x
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The definition of a beast has caused controversy for centuries
+      end_phrase: which is a beast?
+      local_occurrence_note: Opening of the What Is a Beast? section, beneath a handwritten student note.
+    nearby_context: "The section introduces werewolves, centaurs, and trolls as difficult edge cases for magical-creature classification."
+    match_terms:
+      - beast
+      - being
+      - legal rights
+      - governance
+      - werewolves
+      - centaurs
+      - trolls
+    quote_excerpt_short: "creature worthy of legal rights"
+    source_note: "The introduction defines the being-versus-beast problem as a legal and political classification question, illustrated by werewolves, centaurs, and trolls."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - beast-being-definition
+      - magical-creature-classification
+      - werewolves
+      - centaurs
+      - trolls
+      - legal-rights
+      - wizarding-governance
+    candidate_part: Magical Law and Institutions
+    candidate_chapter: Creature Regulation and Wizarding Public Safety
+    candidate_section: Legal distinction between beings and beasts
+    reason_for_placement: "The passage supplies conceptual legal vocabulary for later creature policy and institutional divisions."
+    relevance_to_hogwarts_a_history: "Provides background for how Hogwarts creature study inherits wider wizarding disputes over intelligence, rights, and danger."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup for beast-being-definition and werewolves-centaurs returned no matches."
+    confidence: high
+    limitations: "This page frames the problem generally before giving the detailed historical settlements on later pages."
+
+  - id: fb-ch01-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 10
+    printed_page: x
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Burdock Muldoon, Chief of the Wizards' Council in the fourteenth century
+      end_phrase: all others to remain beasts
+      local_occurrence_note: Bottom of page x, after the section says early beast classifications were crude.
+    nearby_context: "A footnote identifies the Wizards' Council as preceding the Ministry of Magic."
+    match_terms:
+      - Burdock Muldoon
+      - Wizards' Council
+      - fourteenth century
+      - two legs
+      - being
+      - beasts
+      - Ministry of Magic predecessor
+    quote_excerpt_short: "walked on two legs"
+    source_note: "In the fourteenth century, Wizards' Council chief Burdock Muldoon used a two-legged gait as the criterion for being status."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - burdock-muldoon
+      - wizards-council
+      - magical-creature-classification
+      - beings
+      - beasts
+      - ministry-predecessor
+      - fourteenth-century
+    candidate_part: Magical Law and Institutions
+    candidate_chapter: Creature Regulation and Wizarding Public Safety
+    candidate_section: Wizards' Council classification experiments
+    reason_for_placement: "The decree predates the Ministry and shows an early institutional attempt to codify creature status."
+    relevance_to_hogwarts_a_history: "Useful as historical background for the creature categories later taught and referenced in Hogwarts-adjacent magizoology."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup for burdock-muldoon and wizards-council returned no matches."
+    confidence: high
+    limitations: "The passage does not identify the exact year, meeting location, or legal instrument used for the decree."
+
+  - id: fb-ch01-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 11
+    printed_page: xi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: As Bathilda Bagshot tells us in A History of Magic
+      end_phrase: integrate non-wizard members of the magical community
+      local_occurrence_note: Page xi continues Muldoon's account with a block quotation and its aftermath.
+    nearby_context: "The cited historical account describes a chaotic council summit packed with two-legged creatures brought by goblins."
+    match_terms:
+      - Bathilda Bagshot
+      - A History of Magic
+      - Burdock Muldoon
+      - Wizards' Council
+      - goblins
+      - Diricawls
+      - Fwoopers
+    quote_excerpt_short: "As Bathilda Bagshot tells us"
+    source_note: "Scamander cites Bathilda Bagshot's A History of Magic for the failure of Muldoon's summit and says Muldoon then abandoned non-wizard integration."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - history-of-magic
+      - bathilda-bagshot
+      - burdock-muldoon
+      - wizards-council
+      - goblins
+      - magical-creature-classification
+      - in-universe-source
+    candidate_part: Hogwarts, a History as a Source
+    candidate_chapter: Named Wizarding Historians and School Texts
+    candidate_section: Bathilda Bagshot as a cited historical authority
+    reason_for_placement: "The passage explicitly uses Bagshot's historical textbook as authority for pre-Ministry creature-governance history."
+    relevance_to_hogwarts_a_history: "Shows a named wizarding history text preserving institutional lore that could contextualize Hogwarts History of Magic instruction."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "The history-of-magic query returned existing History of Magic classroom, textbook, and Bathilda entries, but none cover Bagshot's Muldoon summit quotation."
+    confidence: high
+    limitations: "The citation is to A History of Magic, not to Hogwarts: A History."
+
+  - id: fb-ch01-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 12
+    printed_page: xii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Trolls who had been taught a few simple sentences by the goblins
+      end_phrase: unable to converse in anything except Mermish while above water
+      local_occurrence_note: Upper and middle page xii, continuing Madame Elfrida Clagg's language-based definition of beings.
+    nearby_context: "The previous page introduces Clagg's attempt to define beings as those who could speak the human tongue."
+    match_terms:
+      - Madame Elfrida Clagg
+      - beings
+      - human tongue
+      - trolls
+      - ghosts
+      - centaurs
+      - merpeople
+    quote_excerpt_short: "speak the human tongue"
+    source_note: "Clagg's language-based definition also failed: taught trolls disrupted the meeting, ghosts objected to living-centered priorities, and centaurs protested merpeople's exclusion."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - elfrida-clagg
+      - magical-creature-classification
+      - beings
+      - ghosts
+      - centaurs
+      - merpeople
+      - mermish
+    candidate_part: Magical Law and Institutions
+    candidate_chapter: Creature Regulation and Wizarding Public Safety
+    candidate_section: Failed language-based being definition
+    reason_for_placement: "The passage records a second institutional classification attempt and the representational conflicts it created."
+    relevance_to_hogwarts_a_history: "Helps explain why later creature governance needed more nuanced divisions than appearance or speech, useful context for creature studies."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup for elfrida-clagg and beings returned no matches."
+    confidence: high
+    limitations: "The page does not give a date for Clagg's attempt, and part of the setup begins on the previous rendered page."
+
+  - id: fb-ch01-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 12
+    printed_page: xii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Not until 1811 were definitions found
+      end_phrase: the Beast Division, the Being Division and the Spirit Division
+      local_occurrence_note: Lower page xii and footnote 2, where Grogan Stump's settlement and the resulting departmental divisions are stated.
+    nearby_context: "After earlier failed definitions, Grogan Stump introduces an intelligence-and-responsibility criterion acceptable to most of the magical community."
+    match_terms:
+      - 1811
+      - Grogan Stump
+      - Minister for Magic
+      - being definition
+      - Beast Division
+      - Being Division
+      - Spirit Division
+    quote_excerpt_short: "sufficient intelligence to understand the laws"
+    source_note: "In 1811, Grogan Stump defined beings by legal understanding and responsibility, while a footnote says he created today's Beast, Being, and Spirit divisions."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - grogan-stump
+      - magical-creature-classification
+      - creature-divisions
+      - beast-division
+      - being-division
+      - spirit-division
+      - ministry-of-magic
+    candidate_part: Magical Law and Institutions
+    candidate_chapter: Creature Regulation and Wizarding Public Safety
+    candidate_section: Grogan Stump's 1811 creature-law settlement
+    reason_for_placement: "The passage gives the canonical legal definition and departmental structure underlying modern creature regulation."
+    relevance_to_hogwarts_a_history: "Strong institutional background for Hogwarts creature education and for how students would encounter official classifications."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup for grogan-stump and creature-divisions returned no matches."
+    confidence: high
+    limitations: "The note summarizes the departmental creation but does not describe later administrative changes."
+
+  - id: fb-ch01-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: About This Book and What Is a Beast?
+    chapter_start_pdf_page: 9
+    chapter_end_pdf_page: 13
+    pdf_page: 13
+    printed_page: xiii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Naturally, the matter has not rested there
+      end_phrase: noted it in the entry for that creature
+      local_occurrence_note: Main text of page xiii, above the centaur-liaison footnote.
+    nearby_context: "Scamander lists continuing classification disputes involving Muggles, centaurs, werewolves, Acromantulas, Manticores, and sphinxes."
+    match_terms:
+      - Muggles as beasts
+      - centaurs
+      - werewolves
+      - Werewolf Support Services
+      - Werewolf Registry
+      - Werewolf Capture Unit
+      - Acromantulas
+    quote_excerpt_short: "shunted between the Beast and Being divisions"
+    source_note: "Creature classification remains unsettled: centaurs requested beast status, werewolf services and enforcement are split between divisions, and some intelligent dangerous creatures remain beasts."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - magical-creature-classification
+      - centaurs
+      - werewolves
+      - werewolf-registry
+      - beast-division
+      - being-division
+      - centaur-liaison-office
+    candidate_part: Magical Law and Institutions
+    candidate_chapter: Creature Regulation and Wizarding Public Safety
+    candidate_section: Continuing disputes over creature status
+    reason_for_placement: "The passage shows that official creature categories remained politically and administratively unstable after Stump's settlement."
+    relevance_to_hogwarts_a_history: "Useful context for Hogwarts treatment of centaurs, werewolves, and dangerous intelligent creatures in curriculum and school policy."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Werewolf-registry and centaur-liaison queries returned ext-a27-002 and FB00 Beast Division context; these corroborate adjacent Ministry issues but do not duplicate this page's combined classification-status survey."
+    confidence: high
+    limitations: "The passage says 'at the time of writing' without pinning each office arrangement to a precise year."

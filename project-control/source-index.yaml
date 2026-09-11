@@ -2474,6 +2474,18 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 6
   boundary_summary: Used indexed page range; extracted only pages 1-8.
+- source_unit_id: fb-ch01
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 1
+  chapter_title: About This Book and What Is a Beast?
+  page_start: 9
+  page_end: 13
+  output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  processed_at: '2026-09-11'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 9-13.
 - source_unit_id: qtta-ch00
   source_file: pdfs/quidditch-through-the-ages.pdf
   book: Quidditch Through the Ages

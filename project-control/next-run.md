@@ -7,10 +7,10 @@ Generated display only. Source of truth: `project-control/processing-state.yaml`
 - Source file: `pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf`
 - Book group: `book-fb`
 - Book: `Fantastic Beasts and Where to Find Them`
-- Chapter: About This Book and What Is a Beast?
-- Page range: 9-13
+- Chapter: A Brief History of Muggle Awareness of Fantastic Beasts
+- Page range: 14-15
 - Rendered images: `.tmp/current-source-images/`
-- Output YAML: `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+- Output YAML: `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`
 
 ## Minimal Context
 

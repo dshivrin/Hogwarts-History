@@ -20484,6 +20484,118 @@ by_entry:
     - thiefs-curse
     source_unit: fb-ch00
     output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+  fb-ch01-001:
+    title: 'Care of Magical Creatures and Creature Scholarship: Publication history
+      of Fantastic Beasts'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - augustus-worme
+    - fantastic-beasts
+    - magizoology
+    - newt-scamander
+    - obscurus-books
+    - publication-history
+    - textbook-history
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch01-002:
+    title: 'Creature Regulation and Wizarding Public Safety: Legal distinction between
+      beings and beasts'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beast-being-definition
+    - centaurs
+    - legal-rights
+    - magical-creature-classification
+    - trolls
+    - werewolves
+    - wizarding-governance
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch01-003:
+    title: 'Creature Regulation and Wizarding Public Safety: Wizards'' Council classification
+      experiments'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beasts
+    - beings
+    - burdock-muldoon
+    - fourteenth-century
+    - magical-creature-classification
+    - ministry-predecessor
+    - wizards-council
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch01-004:
+    title: 'Named Wizarding Historians and School Texts: Bathilda Bagshot as a cited
+      historical authority'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - bathilda-bagshot
+    - burdock-muldoon
+    - goblins
+    - history-of-magic
+    - in-universe-source
+    - magical-creature-classification
+    - wizards-council
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch01-005:
+    title: 'Creature Regulation and Wizarding Public Safety: Failed language-based
+      being definition'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beings
+    - centaurs
+    - elfrida-clagg
+    - ghosts
+    - magical-creature-classification
+    - mermish
+    - merpeople
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch01-006:
+    title: 'Creature Regulation and Wizarding Public Safety: Grogan Stump''s 1811
+      creature-law settlement'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beast-division
+    - being-division
+    - creature-divisions
+    - grogan-stump
+    - magical-creature-classification
+    - ministry-of-magic
+    - spirit-division
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  fb-ch01-007:
+    title: 'Creature Regulation and Wizarding Public Safety: Continuing disputes over
+      creature status'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beast-division
+    - being-division
+    - centaur-liaison-office
+    - centaurs
+    - magical-creature-classification
+    - werewolf-registry
+    - werewolves
+    source_unit: fb-ch01
+    output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -24465,6 +24577,8 @@ by_tag:
   - ext-b02-002
   audiobook:
   - ext-b25-002
+  augustus-worme:
+  - fb-ch01-001
   auror:
   - gof-ch19-006
   - hbp-ch05-007
@@ -24642,6 +24756,7 @@ by_tag:
   - dh-ch18-002
   - dh-ch18-004
   - dh-ch18-005
+  - fb-ch01-004
   - poa-ch01-001
   - qtta-fm-003
   bathroom:
@@ -24679,8 +24794,14 @@ by_tag:
   beaded-bag:
   - dh-ch09-002
   - dh-ch14-004
+  beast-being-definition:
+  - fb-ch01-002
   beast-division:
   - fb-ch00-001
+  - fb-ch01-006
+  - fb-ch01-007
+  beasts:
+  - fb-ch01-003
   beaters:
   - ootp-ch21-005
   - qtta-ch06-003
@@ -24720,6 +24841,12 @@ by_tag:
   - dh-ch20-004
   - dh-ch21-002
   - dh-ch22-005
+  being-division:
+  - fb-ch01-006
+  - fb-ch01-007
+  beings:
+  - fb-ch01-003
+  - fb-ch01-005
   bell-jar:
   - ootp-ch34-007
   - ootp-ch35-004
@@ -25028,6 +25155,9 @@ by_tag:
   - poa-ch15-004
   bullying:
   - ext-b11-003
+  burdock-muldoon:
+  - fb-ch01-003
+  - fb-ch01-004
   burial:
   - hbp-ch29-007
   - hbp-ch30-005
@@ -25308,12 +25438,17 @@ by_tag:
   - beedle-ch02-008
   centaur-divination:
   - ps-ch15-007
+  centaur-liaison-office:
+  - fb-ch01-007
   centaur-magic:
   - ootp-ch27-003
   centaurs:
   - cos-ch15-003
   - dh-ch36-004
   - dh-ch36-005
+  - fb-ch01-002
+  - fb-ch01-005
+  - fb-ch01-007
   - hbp-ch04-004
   - hbp-ch15-005
   - hbp-ch20-002
@@ -25789,6 +25924,8 @@ by_tag:
   - ootp-ch13-004
   - poa-ch08-001
   - poa-ch09-005
+  creature-divisions:
+  - fb-ch01-006
   creature-feeding:
   - gof-ch22-004
   creature-handling:
@@ -27020,6 +27157,8 @@ by_tag:
   - ext-b21-001
   elf-labour:
   - ext-b10-001
+  elfrida-clagg:
+  - fb-ch01-005
   elixir-of-life:
   - ps-ch17-003
   elixir-to-induce-euphoria:
@@ -27333,6 +27472,7 @@ by_tag:
   - ps-ch15-005
   fantastic-beasts:
   - dh-ch20-006
+  - fb-ch01-001
   fantastic-beasts-textbook:
   - fb-ch00-003
   - fb-ch00-005
@@ -27787,6 +27927,8 @@ by_tag:
   - ps-ch03-001
   four-point-spell:
   - gof-ch31-005
+  fourteenth-century:
+  - fb-ch01-003
   fourth-champion:
   - gof-ch17-001
   fourth-floor:
@@ -27903,6 +28045,7 @@ by_tag:
   - dh-ch34-005
   - dh-ch36-005
   - ext-a06-001
+  - fb-ch01-005
   - gof-ch25-004
   - hbp-ch08-003
   - hbp-ch21-006
@@ -28021,6 +28164,7 @@ by_tag:
   - dh-ch24-003
   - dh-ch25-003
   - dh-ch27-002
+  - fb-ch01-004
   - gof-ch37-007
   - ootp-ch05-004
   - ootp-ch07-003
@@ -28285,6 +28429,8 @@ by_tag:
   - qtta-ch06-002
   griselda-marchbanks:
   - ootp-ch31-002
+  grogan-stump:
+  - fb-ch01-006
   ground-floor:
   - ootp-ch27-001
   grounds:
@@ -29031,6 +29177,7 @@ by_tag:
   - dh-ch10-003
   - dh-ch25-005
   - ext-a06-006
+  - fb-ch01-004
   - gof-ch15-002
   - gof-ch22-005
   - gof-ch29-002
@@ -29931,6 +30078,7 @@ by_tag:
   - dh-ch18-006
   - dh-ch20-006
   - dh-ch21-002
+  - fb-ch01-004
   - gof-ch02-005
   - gof-ch09-002
   - gof-ch09-007
@@ -30328,6 +30476,8 @@ by_tag:
   - poa-ch11-003
   legal-process:
   - hbp-ch20-006
+  legal-rights:
+  - fb-ch01-002
   legal-status:
   - gof-ch14-007
   legend:
@@ -30754,6 +30904,13 @@ by_tag:
   magical-crafts:
   - dh-ch08-003
   - dh-ch12-005
+  magical-creature-classification:
+  - fb-ch01-002
+  - fb-ch01-003
+  - fb-ch01-004
+  - fb-ch01-005
+  - fb-ch01-006
+  - fb-ch01-007
   magical-creature-law:
   - poa-ch11-003
   magical-creature-regulation:
@@ -31096,6 +31253,7 @@ by_tag:
   magizoology:
   - fb-ch00-001
   - fb-ch00-002
+  - fb-ch01-001
   magorian:
   - ootp-ch30-007
   - ootp-ch33-002
@@ -31310,6 +31468,7 @@ by_tag:
   mermaid-portrait:
   - gof-ch25-002
   mermish:
+  - fb-ch01-005
   - gof-ch26-007
   - hbp-ch30-004
   merope-gaunt:
@@ -31318,6 +31477,7 @@ by_tag:
   merpeople:
   - ext-a09-003
   - ext-a09-006
+  - fb-ch01-005
   - gof-ch25-003
   - gof-ch26-007
   - gof-ch27-001
@@ -31463,6 +31623,7 @@ by_tag:
   - ext-a27-002
   - ext-b02-005
   - fb-ch00-001
+  - fb-ch01-006
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -31550,6 +31711,8 @@ by_tag:
   - ootp-ch25-006
   ministry-power:
   - dh-ch11-001
+  ministry-predecessor:
+  - fb-ch01-003
   ministry-procedure:
   - hbp-ch05-003
   ministry-propaganda:
@@ -31977,6 +32140,7 @@ by_tag:
   - fb-ch00-001
   - fb-ch00-002
   - fb-ch00-005
+  - fb-ch01-001
   newt-students:
   - hbp-ch05-006
   newts:
@@ -32076,6 +32240,7 @@ by_tag:
   - hbp-ch01-004
   obscurus-books:
   - fb-ch00-004
+  - fb-ch01-001
   occlumency:
   - hbp-ch04-007
   - hbp-ch25-005
@@ -33314,6 +33479,8 @@ by_tag:
   - hbp-ch02-005
   publication-date:
   - hbp-ch16-006
+  publication-history:
+  - fb-ch01-001
   puffskeins:
   - hbp-ch06-006
   punishment:
@@ -35005,6 +35172,8 @@ by_tag:
   spiral-staircase:
   - gof-ch29-006
   - ps-ch14-006
+  spirit-division:
+  - fb-ch01-006
   splinching:
   - dh-ch14-001
   - gof-ch06-001
@@ -35901,6 +36070,8 @@ by_tag:
   testimony:
   - gof-ch36-004
   - hbp-ch22-007
+  textbook-history:
+  - fb-ch01-001
   textbooks:
   - ootp-ch09-004
   textual-transmission:
@@ -36255,6 +36426,8 @@ by_tag:
   troll-incident:
   - ps-ch10-003
   - ps-ch17-002
+  trolls:
+  - fb-ch01-002
   trophies:
   - ps-ch09-004
   trophy-room:
@@ -36827,6 +37000,7 @@ by_tag:
   - fb-ch00-002
   werewolf-registry:
   - ext-a27-002
+  - fb-ch01-007
   werewolf-spy:
   - hbp-ch16-004
   werewolf-stigma:
@@ -36844,6 +37018,8 @@ by_tag:
   - ext-a27-003
   - ext-a27-004
   - ext-a27-005
+  - fb-ch01-002
+  - fb-ch01-007
   - ootp-ch28-007
   - poa-ch09-005
   - poa-ch10-001
@@ -36987,6 +37163,8 @@ by_tag:
   - dh-ch10-005
   - dh-ch22-002
   - ootp-ch06-001
+  wizarding-governance:
+  - fb-ch01-002
   wizarding-heirlooms:
   - hbp-ch10-006
   - hbp-ch20-005
@@ -37086,6 +37264,9 @@ by_tag:
   wizarding-world:
   - cos-ch01-003
   - ext-a23-001
+  wizards-council:
+  - fb-ch01-003
+  - fb-ch01-004
   wizengamot:
   - dh-ch12-007
   - dh-ch18-003

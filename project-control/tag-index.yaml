@@ -1046,6 +1046,11 @@ tags:
     - ext-b25-002
     output_yaml:
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  augustus-worme:
+    entries:
+    - fb-ch01-001
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   auror:
     entries:
     - gof-ch19-006
@@ -1405,6 +1410,7 @@ tags:
     - dh-ch18-002
     - dh-ch18-004
     - dh-ch18-005
+    - fb-ch01-004
     - poa-ch01-001
     - qtta-fm-003
     output_yaml:
@@ -1416,6 +1422,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-qtta/chapter-00-front-matter.yaml
   bathroom:
     entries:
@@ -1482,11 +1489,24 @@ tags:
     output_yaml:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
     - sources/book-07/chapter-14-the-thief.yaml
+  beast-being-definition:
+    entries:
+    - fb-ch01-002
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   beast-division:
     entries:
     - fb-ch00-001
+    - fb-ch01-006
+    - fb-ch01-007
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  beasts:
+    entries:
+    - fb-ch01-003
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   beaters:
     entries:
     - ootp-ch21-005
@@ -1565,6 +1585,18 @@ tags:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
     - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  being-division:
+    entries:
+    - fb-ch01-006
+    - fb-ch01-007
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
+  beings:
+    entries:
+    - fb-ch01-003
+    - fb-ch01-005
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   bell-jar:
     entries:
     - ootp-ch34-007
@@ -2233,6 +2265,12 @@ tags:
     - ext-b11-003
     output_yaml:
     - sources/external/interviews/b11-the-herald-interview.yaml
+  burdock-muldoon:
+    entries:
+    - fb-ch01-003
+    - fb-ch01-004
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   burial:
     entries:
     - hbp-ch29-007
@@ -2837,6 +2875,11 @@ tags:
     - ps-ch15-007
     output_yaml:
     - sources/book-01/chapter-15-forbidden-forest.yaml
+  centaur-liaison-office:
+    entries:
+    - fb-ch01-007
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   centaur-magic:
     entries:
     - ootp-ch27-003
@@ -2847,6 +2890,9 @@ tags:
     - cos-ch15-003
     - dh-ch36-004
     - dh-ch36-005
+    - fb-ch01-002
+    - fb-ch01-005
+    - fb-ch01-007
     - hbp-ch04-004
     - hbp-ch15-005
     - hbp-ch20-002
@@ -2876,6 +2922,7 @@ tags:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   centuries:
     entries:
     - ext-a02-003
@@ -3886,6 +3933,11 @@ tags:
     - sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
+  creature-divisions:
+    entries:
+    - fb-ch01-006
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   creature-feeding:
     entries:
     - gof-ch22-004
@@ -6358,6 +6410,11 @@ tags:
     - ext-b10-001
     output_yaml:
     - sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  elfrida-clagg:
+    entries:
+    - fb-ch01-005
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   elixir-of-life:
     entries:
     - ps-ch17-003
@@ -7077,8 +7134,10 @@ tags:
   fantastic-beasts:
     entries:
     - dh-ch20-006
+    - fb-ch01-001
     output_yaml:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   fantastic-beasts-textbook:
     entries:
     - fb-ch00-003
@@ -8030,6 +8089,11 @@ tags:
     - gof-ch31-005
     output_yaml:
     - sources/book-04/chapter-31-the-third-task.yaml
+  fourteenth-century:
+    entries:
+    - fb-ch01-003
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   fourth-champion:
     entries:
     - gof-ch17-001
@@ -8293,6 +8357,7 @@ tags:
     - dh-ch34-005
     - dh-ch36-005
     - ext-a06-001
+    - fb-ch01-005
     - gof-ch25-004
     - hbp-ch08-003
     - hbp-ch21-006
@@ -8317,6 +8382,7 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
   ghoul:
     entries:
@@ -8533,6 +8599,7 @@ tags:
     - dh-ch24-003
     - dh-ch25-003
     - dh-ch27-002
+    - fb-ch01-004
     - gof-ch37-007
     - ootp-ch05-004
     - ootp-ch07-003
@@ -8546,6 +8613,7 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   goblinwork:
     entries:
     - dh-ch25-002
@@ -9045,6 +9113,11 @@ tags:
     - ootp-ch31-002
     output_yaml:
     - sources/book-05/chapter-31-o-w-l-s.yaml
+  grogan-stump:
+    entries:
+    - fb-ch01-006
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   ground-floor:
     entries:
     - ootp-ch27-001
@@ -10578,6 +10651,7 @@ tags:
     - dh-ch10-003
     - dh-ch25-005
     - ext-a06-006
+    - fb-ch01-004
     - gof-ch15-002
     - gof-ch22-005
     - gof-ch29-002
@@ -10602,6 +10676,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
   history-of-magic-classroom:
     entries:
@@ -12404,6 +12479,7 @@ tags:
     - dh-ch18-006
     - dh-ch20-006
     - dh-ch21-002
+    - fb-ch01-004
     - gof-ch02-005
     - gof-ch09-002
     - gof-ch09-007
@@ -12429,6 +12505,7 @@ tags:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   individual-desks:
     entries:
     - ootp-ch31-004
@@ -13299,6 +13376,11 @@ tags:
     - hbp-ch20-006
     output_yaml:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  legal-rights:
+    entries:
+    - fb-ch01-002
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   legal-status:
     entries:
     - gof-ch14-007
@@ -14198,6 +14280,16 @@ tags:
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+  magical-creature-classification:
+    entries:
+    - fb-ch01-002
+    - fb-ch01-003
+    - fb-ch01-004
+    - fb-ch01-005
+    - fb-ch01-006
+    - fb-ch01-007
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   magical-creature-law:
     entries:
     - poa-ch11-003
@@ -14941,8 +15033,10 @@ tags:
     entries:
     - fb-ch00-001
     - fb-ch00-002
+    - fb-ch01-001
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   magorian:
     entries:
     - ootp-ch30-007
@@ -15398,11 +15492,13 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   mermish:
     entries:
+    - fb-ch01-005
     - gof-ch26-007
     - hbp-ch30-004
     output_yaml:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   merope-gaunt:
     entries:
     - hbp-ch10-007
@@ -15414,6 +15510,7 @@ tags:
     entries:
     - ext-a09-003
     - ext-a09-006
+    - fb-ch01-005
     - gof-ch25-003
     - gof-ch26-007
     - gof-ch27-001
@@ -15423,6 +15520,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
   messenger-service:
     entries:
@@ -15713,6 +15811,7 @@ tags:
     - ext-a27-002
     - ext-b02-005
     - fb-ch00-001
+    - fb-ch01-006
     - gof-ch01-003
     - gof-ch03-001
     - gof-ch04-003
@@ -15852,6 +15951,7 @@ tags:
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/interviews/b02-scholastic-live-chat.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
@@ -15881,6 +15981,11 @@ tags:
     - dh-ch11-001
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
+  ministry-predecessor:
+    entries:
+    - fb-ch01-003
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   ministry-procedure:
     entries:
     - hbp-ch05-003
@@ -16830,8 +16935,10 @@ tags:
     - fb-ch00-001
     - fb-ch00-002
     - fb-ch00-005
+    - fb-ch01-001
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   newt-students:
     entries:
     - hbp-ch05-006
@@ -17064,8 +17171,10 @@ tags:
   obscurus-books:
     entries:
     - fb-ch00-004
+    - fb-ch01-001
     output_yaml:
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   occlumency:
     entries:
     - hbp-ch04-007
@@ -19677,6 +19786,11 @@ tags:
     - hbp-ch16-006
     output_yaml:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  publication-history:
+    entries:
+    - fb-ch01-001
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   puffskeins:
     entries:
     - hbp-ch06-006
@@ -23258,6 +23372,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-04/chapter-29-the-dream.yaml
+  spirit-division:
+    entries:
+    - fb-ch01-006
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   splinching:
     entries:
     - dh-ch14-001
@@ -25251,6 +25370,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
+  textbook-history:
+    entries:
+    - fb-ch01-001
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   textbooks:
     entries:
     - ootp-ch09-004
@@ -25995,6 +26119,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  trolls:
+    entries:
+    - fb-ch01-002
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   trophies:
     entries:
     - ps-ch09-004
@@ -27205,7 +27334,9 @@ tags:
   werewolf-registry:
     entries:
     - ext-a27-002
+    - fb-ch01-007
     output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
   werewolf-spy:
     entries:
@@ -27238,6 +27369,8 @@ tags:
     - ext-a27-003
     - ext-a27-004
     - ext-a27-005
+    - fb-ch01-002
+    - fb-ch01-007
     - ootp-ch28-007
     - poa-ch09-005
     - poa-ch10-001
@@ -27255,6 +27388,7 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
   west-country:
     entries:
@@ -27570,6 +27704,11 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+  wizarding-governance:
+    entries:
+    - fb-ch01-002
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   wizarding-heirlooms:
     entries:
     - hbp-ch10-006
@@ -27791,6 +27930,12 @@ tags:
     output_yaml:
     - sources/book-02/chapter-01-worst-birthday.yaml
     - sources/external/official-rowling/a23-owls.yaml
+  wizards-council:
+    entries:
+    - fb-ch01-003
+    - fb-ch01-004
+    output_yaml:
+    - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
   wizengamot:
     entries:
     - dh-ch12-007

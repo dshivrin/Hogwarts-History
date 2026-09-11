@@ -212,6 +212,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `beedle-ch05`: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, pages 52-62, 4 entries, 0 explicit references.
 - `beedle-ch06`: The Tales of Beedle the Bard, Back Matter, pages 63-65, 0 entries, 0 explicit references.
 - `fb-ch00`: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, pages 1-8, 6 entries, 0 explicit references.
+- `fb-ch01`: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, pages 9-13, 7 entries, 0 explicit references.
 - `qtta-ch00`: Quidditch Through the Ages, Front Matter and Foreword, pages 1-8, 5 entries, 0 explicit references.
 - `qtta-ch01`: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, pages 9-11, 2 entries, 0 explicit references.
 - `qtta-ch02`: Quidditch Through the Ages, Chapter Two - Ancient Broom Games, pages 11-14, 1 entries, 0 explicit references.

@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 281
+- Total: 282
 
 ## Entries by Book or External Source
 
@@ -75,7 +75,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B24 — "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001: 3
 - B25 — "Living with Harry Potter": 3
 - B26 — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006: 2
-- Fantastic Beasts and Where to Find Them: 6
+- Fantastic Beasts and Where to Find Them: 13
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -92,7 +92,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - later_editorial_note: 702
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 42
-- pre_1984_historical_candidate: 300
+- pre_1984_historical_candidate: 307
 - unknown_or_uncertain: 22
 
 ## Entries by Reference Type
@@ -101,8 +101,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - curriculum_or_subject: 171
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
-- explicit_in_universe_source: 110
-- historical_claim: 316
+- explicit_in_universe_source: 111
+- historical_claim: 322
 - house_system: 42
 - institutional_custom: 224
 - magical_architecture: 116
@@ -125,4 +125,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Next Pending Unit
 
-- Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, pages 9-13, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+- Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, pages 14-15, `sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml`

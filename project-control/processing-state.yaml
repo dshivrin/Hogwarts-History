@@ -4,17 +4,6 @@ project:
   schema_reference: docs/instructions/schema-reference.md
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
-  unit_id: FB00
-  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
-  book_group: book-fb
-  book: Fantastic Beasts and Where to Find Them
-  chapter_number: 0
-  chapter_title: Front Matter, Contents, Author, and Foreword
-  page_start: 1
-  page_end: 8
-  extraction_mode: rendered_page_images
-  output_yaml: sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
-current_source_unit:
   unit_id: FB01
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -25,7 +14,7 @@ current_source_unit:
   page_end: 13
   extraction_mode: rendered_page_images
   output_yaml: sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
-next_source_unit:
+current_source_unit:
   unit_id: FB02
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -35,6 +24,17 @@ next_source_unit:
   page_start: 14
   page_end: 15
   output_yaml: sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
+  extraction_mode: rendered_page_images
+next_source_unit:
+  unit_id: FB03
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book_group: book-fb
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 3
+  chapter_title: Magical Beasts in Hiding
+  page_start: 16
+  page_end: 20
+  output_yaml: sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
   extraction_mode: rendered_page_images
 indexes:
   duplicate_index: project-control/duplicate-index.yaml

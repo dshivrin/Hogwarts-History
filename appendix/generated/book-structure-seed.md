@@ -36,6 +36,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
 - Care of Magical Creatures and Creature Scholarship
   - Fantastic Beasts as practical reference source
+  - Publication history of Fantastic Beasts
 - Care of Magical Creatures and Grounds-Based Teaching
   - Experimental Breeding, Safety, and Oversight
   - O.W.L. practical assessment at the forest edge
@@ -716,6 +717,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry's annotated school copy
   - Obscurus Books and Muggle charity editions
   - Sales channels, charity donations, and motto framing
+- Named Wizarding Historians and School Texts
+  - Bathilda Bagshot as a cited historical authority
 
 ## Hogwarts: A History
 
@@ -1323,7 +1326,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Magical Law and Institutions
 
 - Creature Regulation and Wizarding Public Safety
+  - Continuing disputes over creature status
+  - Failed language-based being definition
+  - Grogan Stump's 1811 creature-law settlement
+  - Legal distinction between beings and beasts
   - Scamander's mid-century regulatory legacy
+  - Wizards' Council classification experiments
 
 ## Magical Law and Secrecy
 

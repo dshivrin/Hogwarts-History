@@ -2714,6 +2714,17 @@ Summary: The available evidence includes 1 source item, led by: Hermione uses Fa
   - Reference type: explicit_in_universe_source
   - Notes: Xenophilius disputes the identification, but Hermione's textbook-based signs and the later danger context support her reading.
 
+#### Section: Publication history of Fantastic Beasts
+
+Summary: The available evidence includes 1 source item, led by: Scamander says Augustus Worme of Obscurus Books commissioned the first edition in 1918 and that the book was first published in 1927.
+
+- **Supporting evidence:** Scamander says Augustus Worme of Obscurus Books commissioned the first edition in 1918 and that the book was first published in 1927.
+  - Quote: "commissioned back in 1918"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 9, `fb-ch01-001`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The page does not state when the book first became a Hogwarts textbook.
+
 ### Chapter: Care of Magical Creatures and Grounds-Based Teaching
 
 #### Section: Experimental Breeding, Safety, and Oversight
@@ -14978,6 +14989,19 @@ Summary: The available evidence includes 1 source item, led by: The special edit
   - Reference type: institutional_custom
   - Notes: The Thief's Curse appears in a humorous foreword context and should not be treated as a confirmed operational curse without supporting evidence.
 
+### Chapter: Named Wizarding Historians and School Texts
+
+#### Section: Bathilda Bagshot as a cited historical authority
+
+Summary: The available evidence includes 1 source item, led by: Scamander cites Bathilda Bagshot's A History of Magic for the failure of Muldoon's summit and says Muldoon then abandoned non-wizard integration.
+
+- **Supporting evidence:** Scamander cites Bathilda Bagshot's A History of Magic for the failure of Muldoon's summit and says Muldoon then abandoned non-wizard integration.
+  - Quote: "As Bathilda Bagshot tells us"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 11, `fb-ch01-004`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Notes: The citation is to A History of Magic, not to Hogwarts: A History.
+
 ## Part: Hogwarts: A History
 
 ### Chapter: Admission and the First Years
@@ -15680,6 +15704,50 @@ Summary: The available evidence includes 1 source item, led by: The Second War r
 
 ### Chapter: Creature Regulation and Wizarding Public Safety
 
+#### Section: Continuing disputes over creature status
+
+Summary: The available evidence includes 1 source item, led by: Creature classification remains unsettled: centaurs requested beast status, werewolf services and enforcement are split between divisions, and some intelligent dangerous creatures remain beasts.
+
+- **Supporting evidence:** Creature classification remains unsettled: centaurs requested beast status, werewolf services and enforcement are split between divisions, and some intelligent dangerous creatures remain beasts.
+  - Quote: "shunted between the Beast and Being divisions"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 13, `fb-ch01-007`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage says 'at the time of writing' without pinning each office arrangement to a precise year.
+
+#### Section: Failed language-based being definition
+
+Summary: The available evidence includes 1 source item, led by: Clagg's language-based definition also failed: taught trolls disrupted the meeting, ghosts objected to living-centered priorities, and centaurs protested merpeople's exclusion.
+
+- **Supporting evidence:** Clagg's language-based definition also failed: taught trolls disrupted the meeting, ghosts objected to living-centered priorities, and centaurs protested merpeople's exclusion.
+  - Quote: "speak the human tongue"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 12, `fb-ch01-005`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The page does not give a date for Clagg's attempt, and part of the setup begins on the previous rendered page.
+
+#### Section: Grogan Stump's 1811 creature-law settlement
+
+Summary: The available evidence includes 1 source item, led by: In 1811, Grogan Stump defined beings by legal understanding and responsibility, while a footnote says he created today's Beast, Being, and Spirit divisions.
+
+- **Supporting evidence:** In 1811, Grogan Stump defined beings by legal understanding and responsibility, while a footnote says he created today's Beast, Being, and Spirit divisions.
+  - Quote: "sufficient intelligence to understand the laws"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 12, `fb-ch01-006`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The note summarizes the departmental creation but does not describe later administrative changes.
+
+#### Section: Legal distinction between beings and beasts
+
+Summary: The available evidence includes 1 source item, led by: The introduction defines the being-versus-beast problem as a legal and political classification question, illustrated by werewolves, centaurs, and trolls.
+
+- **Supporting evidence:** The introduction defines the being-versus-beast problem as a legal and political classification question, illustrated by werewolves, centaurs, and trolls.
+  - Quote: "creature worthy of legal rights"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 10, `fb-ch01-002`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This page frames the problem generally before giving the detailed historical settlements on later pages.
+
 #### Section: Scamander's mid-century regulatory legacy
 
 Summary: The available evidence includes 1 source item, led by: Scamander is credited with creating the Werewolf Register, championing the 1965 Ban on Experimental Breeding, conducting dragon research, and receiving the Order of Merlin for magizoology.
@@ -15690,6 +15758,17 @@ Summary: The available evidence includes 1 source item, led by: Scamander is cre
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The biography is concise and does not explain the legal text, enforcement, or Hogwarts curricular response to these developments.
+
+#### Section: Wizards' Council classification experiments
+
+Summary: The available evidence includes 1 source item, led by: In the fourteenth century, Wizards' Council chief Burdock Muldoon used a two-legged gait as the criterion for being status.
+
+- **Supporting evidence:** In the fourteenth century, Wizards' Council chief Burdock Muldoon used a two-legged gait as the criterion for being status.
+  - Quote: "walked on two legs"
+  - Source: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, PDF p. 10, `fb-ch01-003`, `sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage does not identify the exact year, meeting location, or legal instrument used for the decree.
 
 ## Part: Magical Law and Secrecy
 
