@@ -2546,6 +2546,18 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 31-43.
+- source_unit_id: fb-ch07
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 7
+  chapter_title: I-Q Bestiary Entries
+  page_start: 44
+  page_end: 56
+  output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  processed_at: '2026-09-12'
+  explicit_reference_count: 0
+  candidate_entry_count: 7
+  boundary_summary: Used indexed page range; extracted only pages 44-56.
 - source_unit_id: qtta-ch00
   source_file: pdfs/quidditch-through-the-ages.pdf
   book: Quidditch Through the Ages

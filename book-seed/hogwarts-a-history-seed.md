@@ -13448,6 +13448,21 @@ Summary: The available evidence includes 1 source item, led by: Snape uses Dumbl
   - Corroborates: `ootp-ch24-004`, `ootp-ch26-005`, `gof-ch30-002`. Prior entries identify the Pensieve, its use in Snape's office, and its role in Occlumency safeguards; this entry adds Harry's unauthorized entry into Snape's stored memory and the artifact's relocation into a teacher-office privacy breach.
   - Notes: The chapter shows Dumbledore's Pensieve in Snape's office but does not settle whether the artifact is Dumbledore's personal property or a Hogwarts institutional object.
 
+## Part: Creature Regulation and Wizarding Public Safety
+
+### Chapter: Dangerous Creature Classifications
+
+#### Section: Extreme XXXXX threat examples
+
+Summary: The available evidence includes 1 source item, led by: The Nundu is classified XXXXX and described as a disease-breathing East African beast so dangerous that fewer than a hundred skilled wizards have never subdued one.
+
+- **Supporting evidence:** The Nundu is classified XXXXX and described as a disease-breathing East African beast so dangerous that fewer than a hundred skilled wizards have never subdued one.
+  - Quote: "has never yet been subdued by fewer than a hundred skilled wizards"
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 53, `fb-ch07-005`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The evidence is general taxonomy rather than a Britain- or Hogwarts-specific incident.
+
 ## Part: Crises, Secrets, and Institutional Memory
 
 ### Chapter: The Chamber of Secrets
@@ -13462,6 +13477,21 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore ident
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: historical_claim
   - Notes: Dumbledore did not personally see the diary's Riddle manifestation and relies partly on Harry's earlier report.
+
+## Part: Curriculum and Defensive Magic
+
+### Chapter: Defence Against Dark Creatures
+
+#### Section: Patronus uses beyond Dementors
+
+Summary: The available evidence includes 1 source item, led by: A 1782 account by Flavius Belby establishes the Patronus as the only known spell for repelling a Lethifold after Stunning and Impediment magic failed.
+
+- **Supporting evidence:** A 1782 account by Flavius Belby establishes the Patronus as the only known spell for repelling a Lethifold after Stunning and Impediment magic failed.
+  - Quote: "the Patronus is the only spell known to repel the Lethifold"
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 49, `fb-ch07-003`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage is a textbook-reported historical account rather than a Hogwarts scene, and it does not define the Patronus form used by Belby.
 
 ## Part: Curriculum and Instruction
 
@@ -14118,6 +14148,22 @@ Summary: The available evidence includes 1 source item, led by: Hagrid expects i
   - Reference type: school_rule_or_policy
   - Corroborates: `ootp-ch25-004`, `ootp-ch20-006`, `ootp-ch21-002`. ootp-ch25-004 records Hagrid's probation and continuous inspection, while ootp-ch20-006 and ootp-ch21-002 record earlier scrutiny and inspection; this entry adds Hagrid's own expectation of imminent dismissal and Grubbly-Plank continuity.
   - Notes: The dismissal is anticipated by Hagrid here rather than formally announced in this chapter.
+
+## Part: Headmasters, Headmistresses, and Their Office
+
+### Chapter: Phoenixes and Headmaster Associations
+
+#### Section: General phoenix properties behind Fawkes evidence
+
+Summary: The available evidence includes 1 source item, led by: Phoenixes are gentle, long-lived, flame-regenerating birds that can vanish and reappear, whose song affects courage and fear, and whose tears heal.
+
+- **Corroboration:** Phoenixes are gentle, long-lived, flame-regenerating birds that can vanish and reappear, whose song affects courage and fear, and whose tears heal.
+  - Quote: "Phoenix tears have powerful healing properties."
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 54, `fb-ch07-006`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `cos-ch17-005`, `ootp-ch36-005`, `hbp-ch29-002`. Query phoenix/fawkes returned several Fawkes entries. Those entries document concrete Hogwarts-era phoenix interventions; this textbook entry duplicates/corroborates core properties behind them, especially rebirth, song, and Dumbledore-associated context.
+  - Notes: The entry does not name Fawkes and gives species-level claims rather than observed school events.
 
 ## Part: Headmasters, Staff, and School Governance
 
@@ -16620,6 +16666,18 @@ Summary: The available evidence includes 1 source item, led by: The Internationa
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: historical_claim
   - Notes: The passage does not date the fines, identify the task force, or specify whether Scotland is treated separately from wider British authority.
+
+#### Section: Loch Ness kelpie and Muggle investigation
+
+Summary: The available evidence includes 1 source item, led by: The Loch Ness monster is identified as the world's largest kelpie; International Confederation observers recognized it when it changed from sea-serpent form to otter form around Muggle investigators.
+
+- **Corroboration:** The Loch Ness monster is identified as the world's largest kelpie; International Confederation observers recognized it when it changed from sea-serpent form to otter form around Muggle investigators.
+  - Quote: "The world's largest kelpie is found in Loch Ness, Scotland."
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 46, `fb-ch07-001`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `fb-ch03-003`. Query kelpie/loch-ness returned fb-ch03-003 and fb-ch03-007. fb-ch03-003 already records the Loch Ness kelpie as a Clause 73 offender; this entry corroborates that and adds the observed sea-serpent/otter transformation.
+  - Notes: The passage does not date the observation or identify the International Confederation observers.
 
 #### Section: Natural concealment and Muggle disbelief
 
@@ -19142,6 +19200,34 @@ Summary: The available evidence includes 1 source item, led by: Ministry animal-
   - Reference type: historical_claim
   - Notes: The article gives legislation subsection numbers but no statute title or dates, and it does not establish the pace or scope of enforcement.
 
+## Part: School Life and Material Culture
+
+### Chapter: Pets, Familiars, and Creature Ownership
+
+#### Section: Licensed magical pet species
+
+Summary: The available evidence includes 1 source item, led by: Kneazles can interbreed with cats, require ownership licenses, and attract Muggle interest because of their unusual appearance.
+
+- **Supporting evidence:** Kneazles can interbreed with cats, require ownership licenses, and attract Muggle interest because of their unusual appearance.
+  - Quote: "Licences are required for ownership"
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 47, `fb-ch07-002`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The source does not explicitly name Crookshanks or state how licensing applies to part-Kneazle cats.
+
+### Chapter: Pets, Games, and Informal Student Culture
+
+#### Section: Puffskeins as children's pets
+
+Summary: The available evidence includes 1 source item, led by: Puffskeins are docile, easy-care household creatures beloved by wizarding children; Harry's copy adds a marginal recollection that Fred used one for Bludger practice.
+
+- **Supporting evidence:** Puffskeins are docile, easy-care household creatures beloved by wizarding children; Harry's copy adds a marginal recollection that Fred used one for Bludger practice.
+  - Quote: "remains a highly popular wizarding pet"
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 56, `fb-ch07-007`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The Fred/Bludger detail is handwritten marginalia from Harry's copy and should be treated as Harry-era annotation, not original textbook narration.
+
 ## Part: Schooling at Hogwarts
 
 ### Chapter: Curriculum and Examinations
@@ -20251,6 +20337,18 @@ Summary: The available evidence includes 1 source item, led by: The second task 
   - Reference type: institutional_custom
   - Corroborates: `gof-ch25-003`, `gof-ch20-007`. gof-ch25-003 establishes the lake-merpeople clue and gof-ch20-007 records formal scoring; this entry adds the merpeople settlement, hostage enforcement, Dumbledore's Mermish consultation, Murcus's testimony, and final score rationale.
   - Notes: The merpeople are observed during a staged tournament task, so the scene may emphasize exceptional cooperation rather than everyday relations with Hogwarts.
+
+#### Section: Merpeople classification and community structure
+
+Summary: The available evidence includes 1 source item, led by: Merpeople are described as organized communities with dwellings, regional strains, Mermish language, music, and a self-chosen beast classification despite being status eligibility.
+
+- **Corroboration:** Merpeople are described as organized communities with dwellings, regional strains, Mermish language, music, and a self-chosen beast classification despite being status eligibility.
+  - Quote: "declined 'being' status in favour of a 'beast' classification"
+  - Source: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, PDF p. 51, `fb-ch07-004`, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `fb-ch05-006`, `gof-ch26-007`. Query merpeople/being-status returned external Great Lake, fb-ch01-005, fb-ch05-006, gof-ch26-007, gof-ch27-001, and hbp-ch30-004 matches. fb-ch05-006 already states the self-classification principle; gof-ch26-007 gives observed Hogwarts lake community evidence. This entry is a general species corroboration with extra regional and language context.
+  - Notes: The passage does not identify the Hogwarts lake group specifically; applying it to Hogwarts relies on later lake evidence.
 
 ## Part: The Second War and Hidden Histories
 

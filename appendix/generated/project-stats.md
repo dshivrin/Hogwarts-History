@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 287
+- Total: 288
 
 ## Entries by Book or External Source
 
@@ -75,7 +75,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B24 — "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001: 3
 - B25 — "Living with Harry Potter": 3
 - B26 — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006: 2
-- Fantastic Beasts and Where to Find Them: 45
+- Fantastic Beasts and Where to Find Them: 52
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -88,11 +88,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Entries by Era Classification
 
-- harry_era_confirmation: 553
+- harry_era_confirmation: 554
 - later_editorial_note: 704
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 42
-- pre_1984_historical_candidate: 333
+- pre_1984_historical_candidate: 339
 - unknown_or_uncertain: 22
 
 ## Entries by Reference Type
@@ -102,9 +102,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 114
-- historical_claim: 337
+- historical_claim: 342
 - house_system: 42
-- institutional_custom: 228
+- institutional_custom: 230
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
 - school_rule_or_policy: 164
@@ -117,7 +117,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Possible Duplicates
 
-- Total: 1045
+- Total: 1048
 
 ## Latest Processed Unit
 
@@ -125,4 +125,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Next Pending Unit
 
-- Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, pages 44-56, `sources/book-fb/chapter-07-bestiary-i-to-q.yaml`
+- Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, pages 57-64, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`

@@ -368,10 +368,20 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmaster's Office and Protected Entrances
   - The Pensieve and stored memories
 
+## Creature Regulation and Wizarding Public Safety
+
+- Dangerous Creature Classifications
+  - Extreme XXXXX threat examples
+
 ## Crises, Secrets, and Institutional Memory
 
 - The Chamber of Secrets
   - Riddle's Diary as Weapon and Historical Proof
+
+## Curriculum and Defensive Magic
+
+- Defence Against Dark Creatures
+  - Patronus uses beyond Dementors
 
 ## Curriculum and Instruction
 
@@ -551,6 +561,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Umbridge's authority ends at the centaur boundary
 - Ministry Intervention and Staff Vulnerability
   - Hagrid's expected dismissal and substitute continuity
+
+## Headmasters, Headmistresses, and Their Office
+
+- Phoenixes and Headmaster Associations
+  - General phoenix properties behind Fawkes evidence
 
 ## Headmasters, Staff, and School Governance
 
@@ -1567,6 +1582,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - International Secrecy and Creature Concealment
   - Clause 73 and national responsibility
   - International enforcement and persistent offenders
+  - Loch Ness kelpie and Muggle investigation
   - Natural concealment and Muggle disbelief
   - Public breaches and emergency memory repair
   - Species selected for concealment
@@ -2406,6 +2422,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Ministry Regulation and School Practice
   - Animal Welfare Reform
 
+## School Life and Material Culture
+
+- Pets, Familiars, and Creature Ownership
+  - Licensed magical pet species
+- Pets, Games, and Informal Student Culture
+  - Puffskeins as children's pets
+
 ## Schooling at Hogwarts
 
 - Curriculum and Examinations
@@ -2679,6 +2702,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Lake Ecology, Merpeople, and Dangerous Water Creatures
   - Gillyweed, Grindylows, and Underwater Navigation
   - Merpeople Settlement and Second-Task Cooperation
+  - Merpeople classification and community structure
 
 ## The Library, Books, and Scholarship
 

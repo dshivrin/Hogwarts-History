@@ -21060,6 +21060,107 @@ by_entry:
     - student-marginalia
     source_unit: fb-ch06
     output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch07-001:
+    title: 'International Secrecy and Creature Concealment: Loch Ness kelpie and Muggle
+      investigation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - creature-concealment
+    - international-confederation
+    - kelpie
+    - loch-ness
+    - muggle-investigators
+    - placement-charm
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch07-002:
+    title: 'Pets, Familiars, and Creature Ownership: Licensed magical pet species'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - creature-law
+    - crookshanks
+    - kneazle
+    - licensing
+    - muggle-interest
+    - student-pets
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch07-003:
+    title: 'Defence Against Dark Creatures: Patronus uses beyond Dementors'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dark-creatures
+    - defensive-magic
+    - flavius-belby
+    - lethifold
+    - patronus
+    - spell-limits
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch07-004:
+    title: 'Lake Ecology, Merpeople, and Dangerous Water Creatures: Merpeople classification
+      and community structure'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - beast-classification
+    - being-status
+    - black-lake
+    - mermish
+    - merpeople
+    - non-human-communities
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch07-005:
+    title: 'Dangerous Creature Classifications: Extreme XXXXX threat examples'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dangerous-creatures
+    - magical-disease
+    - ministry-classification
+    - nundu
+    - skilled-wizards
+    - xxxxx-classification
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch07-006:
+    title: 'Phoenixes and Headmaster Associations: General phoenix properties behind
+      Fawkes evidence'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - domestication
+    - fawkes
+    - healing-magic
+    - phoenix
+    - phoenix-song
+    - regeneration
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch07-007:
+    title: 'Pets, Games, and Informal Student Culture: Puffskeins as children''s pets'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - bludger-practice
+    - fred-weasley
+    - marginalia
+    - puffskein
+    - wizarding-children
+    - wizarding-pets
+    source_unit: fb-ch07
+    output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -25272,6 +25373,7 @@ by_tag:
   - fb-ch01-002
   beast-classification:
   - fb-ch05-006
+  - fb-ch07-004
   beast-division:
   - fb-ch00-001
   - fb-ch01-006
@@ -25323,6 +25425,8 @@ by_tag:
   being-division:
   - fb-ch01-006
   - fb-ch01-007
+  being-status:
+  - fb-ch07-004
   beings:
   - fb-ch01-003
   - fb-ch01-005
@@ -25389,6 +25493,7 @@ by_tag:
   black-flames:
   - ps-ch16-007
   black-lake:
+  - fb-ch07-004
   - gof-ch15-007
   - gof-ch21-003
   - gof-ch24-005
@@ -25455,6 +25560,8 @@ by_tag:
   - dh-ch31-002
   - ext-a06-002
   - ext-a16-006
+  bludger-practice:
+  - fb-ch07-007
   bludgers:
   - cos-ch07-001
   - qtta-ch03-002
@@ -26426,6 +26533,7 @@ by_tag:
   - gof-ch24-003
   creature-concealment:
   - fb-ch05-007
+  - fb-ch07-001
   creature-conservation:
   - fb-ch04-001
   - fb-ch06-005
@@ -26453,6 +26561,7 @@ by_tag:
   - fb-ch05-004
   - fb-ch05-006
   - fb-ch06-003
+  - fb-ch07-002
   - poa-ch14-003
   creature-licensing:
   - fb-ch06-001
@@ -26496,6 +26605,7 @@ by_tag:
   crisis-support:
   - cos-ch14-007
   crookshanks:
+  - fb-ch07-002
   - poa-ch19-005
   cross-house:
   - ootp-ch16-004
@@ -26632,6 +26742,7 @@ by_tag:
   - fb-ch04-003
   - fb-ch04-004
   - fb-ch06-003
+  - fb-ch07-005
   - hbp-ch01-003
   - hbp-ch03-006
   - poa-ch11-001
@@ -26671,6 +26782,7 @@ by_tag:
   - hbp-ch23-004
   - ootp-ch36-002
   dark-creatures:
+  - fb-ch07-003
   - gof-ch14-001
   - hbp-ch26-007
   - ootp-ch05-005
@@ -26921,6 +27033,7 @@ by_tag:
   - ootp-ch18-007
   defensive-magic:
   - dh-ch32-004
+  - fb-ch07-003
   - hbp-ch06-005
   - ootp-ch36-003
   - poa-ch19-003
@@ -27240,6 +27353,8 @@ by_tag:
   - ootp-ch32-007
   domestic-herd:
   - ootp-ch20-007
+  domestication:
+  - fb-ch07-006
   doors:
   - ootp-ch34-003
   - ootp-ch34-004
@@ -28055,6 +28170,7 @@ by_tag:
   - cos-ch17-007
   - ext-b08-003
   - ext-b09-006
+  - fb-ch07-006
   - gof-ch36-003
   - hbp-ch10-003
   - hbp-ch29-002
@@ -28255,6 +28371,8 @@ by_tag:
   - ootp-ch34-004
   flame-freezing-charm:
   - poa-ch01-001
+  flavius-belby:
+  - fb-ch07-003
   flesh-memory:
   - dh-ch07-005
   fleur-delacour:
@@ -28515,6 +28633,8 @@ by_tag:
   - ootp-ch29-007
   - ootp-ch30-001
   - ootp-ch38-002
+  fred-weasley:
+  - fb-ch07-007
   free-elf:
   - dh-ch23-005
   free-will:
@@ -29549,6 +29669,7 @@ by_tag:
   - dh-ch14-001
   healing-magic:
   - ext-a29-003
+  - fb-ch07-006
   hedwig:
   - cos-ch01-003
   - ootp-ch18-001
@@ -30776,6 +30897,7 @@ by_tag:
   - fb-ch02-006
   - fb-ch03-001
   - fb-ch03-003
+  - fb-ch07-001
   - ootp-ch05-007
   - ootp-ch11-007
   - ootp-ch31-007
@@ -30951,6 +31073,7 @@ by_tag:
   - poa-ch15-007
   kelpie:
   - fb-ch03-003
+  - fb-ch07-001
   kendra-dumbledore:
   - dh-ch08-005
   kennilworthy-whisp:
@@ -30985,6 +31108,8 @@ by_tag:
   - ext-b09-001
   knarls:
   - ootp-ch31-005
+  kneazle:
+  - fb-ch07-002
   knight-bus:
   - ootp-ch24-002
   - poa-ch03-002
@@ -31097,6 +31222,8 @@ by_tag:
   - dh-ch27-002
   lestranges:
   - ootp-ch08-001
+  lethifold:
+  - fb-ch07-003
   levicorpus:
   - hbp-ch12-003
   - hbp-ch16-005
@@ -31147,6 +31274,7 @@ by_tag:
   - cos-ch10-001
   - ps-ch11-003
   licensing:
+  - fb-ch07-002
   - gof-ch06-001
   liechtenstein:
   - ootp-ch31-007
@@ -31194,6 +31322,7 @@ by_tag:
   loch-ness:
   - fb-ch03-003
   - fb-ch03-007
+  - fb-ch07-001
   locked-door:
   - ootp-ch34-006
   locked-room:
@@ -31576,6 +31705,8 @@ by_tag:
   - hbp-ch13-004
   magical-devices:
   - gof-ch08-004
+  magical-disease:
+  - fb-ch07-005
   magical-education:
   - ext-a28-001
   - ext-a28-002
@@ -31960,6 +32091,7 @@ by_tag:
   marginalia:
   - fb-ch00-005
   - fb-ch04-004
+  - fb-ch07-007
   - hbp-ch09-007
   - hbp-ch10-001
   - hbp-ch12-003
@@ -32103,6 +32235,7 @@ by_tag:
   - gof-ch25-002
   mermish:
   - fb-ch01-005
+  - fb-ch07-004
   - gof-ch26-007
   - hbp-ch30-004
   merope-gaunt:
@@ -32114,6 +32247,7 @@ by_tag:
   - fb-ch01-005
   - fb-ch03-005
   - fb-ch05-006
+  - fb-ch07-004
   - gof-ch25-003
   - gof-ch26-007
   - gof-ch27-001
@@ -32168,6 +32302,7 @@ by_tag:
   - ootp-ch26-001
   ministry-classification:
   - fb-ch04-003
+  - fb-ch07-005
   - ootp-ch21-002
   ministry-contacts:
   - gof-ch36-006
@@ -32583,6 +32718,10 @@ by_tag:
   - hbp-ch04-003
   muggle-hunting:
   - ootp-ch06-005
+  muggle-interest:
+  - fb-ch07-002
+  muggle-investigators:
+  - fb-ch07-001
   muggle-knowledge:
   - ootp-ch02-004
   muggle-liaison:
@@ -32858,6 +32997,8 @@ by_tag:
   - ext-a36-001
   no-magic-punishment:
   - cos-ch07-006
+  non-human-communities:
+  - fb-ch07-004
   non-human-creatures:
   - gof-ch09-005
   non-human-law:
@@ -32888,6 +33029,8 @@ by_tag:
   - ootp-ch24-003
   notice-boards:
   - ootp-ch26-002
+  nundu:
+  - fb-ch07-005
   nurmengard:
   - dh-ch18-007
   - dh-ch23-007
@@ -33282,6 +33425,7 @@ by_tag:
   - dh-ch28-002
   - dh-ch32-004
   - dh-ch34-005
+  - fb-ch07-003
   - ootp-ch01-005
   - ootp-ch02-002
   - ootp-ch02-005
@@ -33440,12 +33584,14 @@ by_tag:
   phoenix:
   - cos-ch17-005
   - ext-b09-006
+  - fb-ch07-006
   - hbp-ch29-002
   - hbp-ch30-005
   - ootp-ch36-005
   phoenix-feather:
   - gof-ch18-007
   phoenix-song:
+  - fb-ch07-006
   - gof-ch34-003
   - hbp-ch29-002
   phoenix-tears:
@@ -33478,6 +33624,8 @@ by_tag:
   - dh-ch01-003
   - dh-ch04-001
   - dh-ch11-002
+  placement-charm:
+  - fb-ch07-001
   planet-room:
   - ootp-ch35-005
   planetary-divination:
@@ -34156,6 +34304,8 @@ by_tag:
   - hbp-ch16-006
   publication-history:
   - fb-ch01-001
+  puffskein:
+  - fb-ch07-007
   puffskeins:
   - hbp-ch06-006
   punishment:
@@ -34482,6 +34632,8 @@ by_tag:
   - ps-ch11-005
   - ps-ch13-002
   - ps-ch13-005
+  regeneration:
+  - fb-ch07-006
   registry:
   - ext-a27-002
   regulation:
@@ -35563,6 +35715,8 @@ by_tag:
   - hbp-ch22-002
   skele-gro:
   - cos-ch10-005
+  skilled-wizards:
+  - fb-ch07-005
   skiving-snackboxes:
   - hbp-ch06-004
   - ootp-ch12-001
@@ -35834,6 +35988,8 @@ by_tag:
   - gof-ch09-006
   spell-intent:
   - ootp-ch36-002
+  spell-limits:
+  - fb-ch07-003
   spellbooks:
   - cos-ch01-002
   - cos-ch03-005
@@ -36316,6 +36472,7 @@ by_tag:
   student-pets:
   - ext-a21-001
   - ext-a22-003
+  - fb-ch07-002
   - gof-ch11-002
   - poa-ch04-005
   - poa-ch05-001
@@ -37844,6 +38001,8 @@ by_tag:
   - beedle-ch04-001
   - beedle-ch05-001
   - beedle-fm-002
+  wizarding-children:
+  - fb-ch07-007
   wizarding-church-history:
   - ext-a06-003
   wizarding-colour-signals:
@@ -37917,6 +38076,8 @@ by_tag:
   - dh-ch20-003
   wizarding-periodicals:
   - beedle-ch01-003
+  wizarding-pets:
+  - fb-ch07-007
   wizarding-politics:
   - dh-ch18-006
   - dh-ch35-006
@@ -38039,6 +38200,7 @@ by_tag:
   - dh-ch25-006
   xxxxx-classification:
   - fb-ch04-004
+  - fb-ch07-005
   yaxley:
   - dh-ch12-004
   - dh-ch14-002
