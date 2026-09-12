@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-11'
+updated: '2026-09-12'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -20964,6 +20964,102 @@ by_entry:
     - secrecy-fines
     source_unit: fb-ch05
     output_yaml: sources/book-fb/chapter-05-bestiary-a-to-c.yaml
+  fb-ch06-001:
+    title: 'Creature Regulation and Domestic Ownership: Licensed ownership near Muggles'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - creature-licensing
+    - crup
+    - department-regulation-control
+    - muggle-secrecy
+    - severing-charm
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch06-002:
+    title: 'Cloaks, Concealment, and Anti-Detection Magic: Creature-derived Invisibility
+      Cloaks'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - concealment
+    - creature-products
+    - demiguise
+    - invisibility-cloak
+    - magical-materials
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch06-003:
+    title: 'Dragons, Trade, and Containment: Dragon parts and egg-trade restrictions'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - creature-law
+    - dangerous-creatures
+    - dragons
+    - magical-materials
+    - non-tradeable-goods
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch06-004:
+    title: 'The Triwizard Year and Magical Creature Hazards: Dragon breeds in textbook
+      and lived school experience'
+    classification: harry_era_confirmation
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - dragons
+    - fantastic-beasts-textbook
+    - hungarian-horntail
+    - norbert
+    - norwegian-ridgeback
+    - student-marginalia
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch06-005:
+    title: 'Dragon Reserves and International Study: Romanian Longhorn conservation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - breeding-programme
+    - creature-conservation
+    - dragon-reservation
+    - romanian-longhorn
+    - tradeable-material
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch06-006:
+    title: 'Controlled Creature Materials: Erumpent horn, tail, and fluid trade'
+    classification: pre_1984_historical_candidate
+    reference_type: explicit_in_universe_source
+    confidence: high
+    tags:
+    - dangerous-objects
+    - erumpent
+    - exploding-fluid
+    - fantastic-beasts-textbook
+    - potions
+    - tradeable-material
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  fb-ch06-007:
+    title: 'Care of Magical Creatures: Hippogriff handling and classroom risk'
+    classification: harry_era_confirmation
+    reference_type: curriculum_or_subject
+    confidence: high
+    tags:
+    - buckbeak
+    - care-of-magical-creatures
+    - creature-handling
+    - hagrid
+    - hippogriff
+    - student-marginalia
+    source_unit: fb-ch06
+    output_yaml: sources/book-fb/chapter-06-bestiary-d-to-h.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -25458,6 +25554,8 @@ by_tag:
   - gof-ch07-003
   break-in-planning:
   - dh-ch25-004
+  breeding-programme:
+  - fb-ch06-005
   brewing-time:
   - hbp-ch24-002
   brick-entrance:
@@ -25529,6 +25627,7 @@ by_tag:
   bubotubers:
   - gof-ch13-002
   buckbeak:
+  - fb-ch06-007
   - gof-ch02-006
   - gof-ch27-006
   - hbp-ch03-006
@@ -25594,6 +25693,7 @@ by_tag:
   - ext-a13-001
   - fb-ch00-003
   - fb-ch04-004
+  - fb-ch06-007
   - gof-ch13-003
   - gof-ch18-003
   - gof-ch21-004
@@ -26184,6 +26284,7 @@ by_tag:
   - dh-ch21-004
   - dh-ch26-001
   - dh-ch26-003
+  - fb-ch06-002
   - hbp-ch04-003
   - ootp-ch03-004
   - ootp-ch03-005
@@ -26327,6 +26428,7 @@ by_tag:
   - fb-ch05-007
   creature-conservation:
   - fb-ch04-001
+  - fb-ch06-005
   creature-curriculum:
   - ootp-ch13-004
   - poa-ch08-001
@@ -26338,6 +26440,7 @@ by_tag:
   creature-feeding:
   - gof-ch22-004
   creature-handling:
+  - fb-ch06-007
   - gof-ch18-003
   - poa-ch06-006
   creature-history:
@@ -26349,9 +26452,14 @@ by_tag:
   - fb-ch05-001
   - fb-ch05-004
   - fb-ch05-006
+  - fb-ch06-003
   - poa-ch14-003
+  creature-licensing:
+  - fb-ch06-001
   creature-lifecycle:
   - gof-ch26-003
+  creature-products:
+  - fb-ch06-002
   creature-regulation:
   - gof-ch10-004
   creature-risk:
@@ -26411,6 +26519,8 @@ by_tag:
   - ootp-ch23-007
   - ootp-ch32-007
   - ootp-ch36-002
+  crup:
+  - fb-ch06-001
   crystal-gazing:
   - gof-ch21-005
   - poa-ch15-003
@@ -26521,6 +26631,7 @@ by_tag:
   dangerous-creatures:
   - fb-ch04-003
   - fb-ch04-004
+  - fb-ch06-003
   - hbp-ch01-003
   - hbp-ch03-006
   - poa-ch11-001
@@ -26537,6 +26648,7 @@ by_tag:
   - ootp-ch35-007
   dangerous-objects:
   - dh-ch20-006
+  - fb-ch06-006
   dangerous-plants:
   - cos-ch06-002
   dark-artifacts:
@@ -26879,6 +26991,7 @@ by_tag:
   demiguise:
   - dh-ch21-004
   - fb-ch03-004
+  - fb-ch06-002
   department-for-regulation-and-control-of-magical-creatures:
   - gof-ch08-002
   - gof-ch09-005
@@ -26921,6 +27034,7 @@ by_tag:
   - ootp-ch38-006
   department-regulation-control:
   - fb-ch04-003
+  - fb-ch06-001
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -27179,6 +27293,8 @@ by_tag:
   - gof-ch05-001
   dragon-research:
   - fb-ch00-002
+  dragon-reservation:
+  - fb-ch06-005
   dragon-reservations:
   - fb-ch03-005
   dragons:
@@ -27186,6 +27302,8 @@ by_tag:
   - fb-ch02-004
   - fb-ch02-007
   - fb-ch03-002
+  - fb-ch06-003
+  - fb-ch06-004
   - gof-ch19-004
   - gof-ch19-005
   - gof-ch20-001
@@ -27723,6 +27841,7 @@ by_tag:
   - poa-ch01-003
   erumpent:
   - dh-ch20-006
+  - fb-ch06-006
   escape:
   - poa-ch20-003
   escape-route:
@@ -27813,6 +27932,8 @@ by_tag:
   - cos-ch09-001
   - dh-ch06-004
   - ps-ch07-001
+  exploding-fluid:
+  - fb-ch06-006
   exposition:
   - ext-b07-004
   expulsion:
@@ -27910,6 +28031,8 @@ by_tag:
   - fb-ch00-003
   - fb-ch00-005
   - fb-ch04-002
+  - fb-ch06-004
+  - fb-ch06-006
   fat-friar:
   - cos-ch08-005
   - ext-a06-003
@@ -29045,6 +29168,7 @@ by_tag:
   - ext-b25-002
   - fb-ch03-006
   - fb-ch04-004
+  - fb-ch06-007
   - gof-ch11-006
   - gof-ch13-003
   - gof-ch16-006
@@ -29597,6 +29721,7 @@ by_tag:
   - poa-ch10-001
   - poa-ch16-004
   hippogriff:
+  - fb-ch06-007
   - hbp-ch03-006
   hippogriff-books:
   - poa-ch15-004
@@ -30459,6 +30584,7 @@ by_tag:
   human-transfiguration:
   - hbp-ch15-003
   hungarian-horntail:
+  - fb-ch06-004
   - gof-ch19-005
   hurling-hex:
   - poa-ch12-005
@@ -30712,6 +30838,7 @@ by_tag:
   - dh-ch34-004
   - dh-ch35-004
   - dh-ch36-007
+  - fb-ch06-002
   - gof-ch04-002
   - gof-ch19-003
   - gof-ch24-004
@@ -31557,6 +31684,8 @@ by_tag:
   magical-maladies:
   - ootp-ch22-005
   magical-materials:
+  - fb-ch06-002
+  - fb-ch06-003
   - hbp-ch22-006
   magical-medicine:
   - ext-a27-003
@@ -32521,6 +32650,7 @@ by_tag:
   - ext-a24-002
   - ext-b25-001
   - fb-ch03-002
+  - fb-ch06-001
   - gof-ch01-002
   - gof-ch02-003
   - gof-ch03-002
@@ -32737,17 +32867,21 @@ by_tag:
   - ootp-ch27-002
   non-tradeable-goods:
   - fb-ch05-001
+  - fb-ch06-003
   nonverbal-magic:
   - hbp-ch27-004
   nonverbal-spells:
   - hbp-ch09-003
   - hbp-ch11-001
   - hbp-ch12-003
+  norbert:
+  - fb-ch06-004
   north-tower:
   - gof-ch13-004
   - gof-ch29-005
   - poa-ch06-002
   norwegian-ridgeback:
+  - fb-ch06-004
   - ps-ch14-004
   notice-board:
   - ootp-ch12-001
@@ -33544,6 +33678,7 @@ by_tag:
   - cos-ch10-002
   - cos-ch11-002
   - ext-a21-002
+  - fb-ch06-006
   - gof-ch10-006
   - gof-ch15-002
   - gof-ch18-004
@@ -34484,6 +34619,8 @@ by_tag:
   - ps-ch06-006
   rogue-bludger:
   - cos-ch10-004
+  romanian-longhorn:
+  - fb-ch06-005
   romilda-vane:
   - hbp-ch18-006
   ron:
@@ -35265,6 +35402,8 @@ by_tag:
   - ext-a18-003
   - ootp-ch29-001
   - ootp-ch31-001
+  severing-charm:
+  - fb-ch06-001
   severus-snape:
   - dh-ch12-001
   - dh-ch16-002
@@ -36134,6 +36273,9 @@ by_tag:
   - poa-ch04-001
   student-lore:
   - cos-ch15-003
+  student-marginalia:
+  - fb-ch06-004
+  - fb-ch06-007
   student-memory:
   - dh-ch34-003
   student-misconduct:
@@ -36837,6 +36979,8 @@ by_tag:
   - dh-ch20-001
   tradeable-material:
   - dh-ch20-006
+  - fb-ch06-005
+  - fb-ch06-006
   traditions:
   - ext-b10-003
   train-ticket:

@@ -609,6 +609,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Academic Progression and Examinations
   - Fourth-year preparation for O.W.L. pressure
+- Care of Magical Creatures
+  - Hippogriff handling and classroom risk
 - Defense Against the Dark Arts
   - Fourth-year curse curriculum after Dark creature groundwork
 - Divination and Elective Study
@@ -1140,6 +1142,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Triwizard Year and Magical Creature Hazards
   - Dragon Assignment and First-Task Order
   - Dragon Breeds, Keepers, and Containment
+  - Dragon breeds in textbook and lived school experience
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
   - Rita Skeeter's Unregistered Animagus Surveillance
@@ -1329,6 +1332,17 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Regulation of Dangerous Beasts
   - Wizard-bred monsters and controlled creature trade
 
+## Magical Creatures and Wizarding Law
+
+- Controlled Creature Materials
+  - Erumpent horn, tail, and fluid trade
+- Creature Regulation and Domestic Ownership
+  - Licensed ownership near Muggles
+- Dragon Reserves and International Study
+  - Romanian Longhorn conservation
+- Dragons, Trade, and Containment
+  - Dragon parts and egg-trade restrictions
+
 ## Magical Creatures and the School Library
 
 - Dangerous Creatures in Study and Tournament Use
@@ -1381,6 +1395,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Cloaks, Concealment, and Anti-Detection
   - True Invisibility Cloaks versus lesser concealment cloaks
+- Cloaks, Concealment, and Anti-Detection Magic
+  - Creature-derived Invisibility Cloaks
 - Communication Artifacts and Wartime Rescue
   - Sirius Black's mirror in Aberforth's keeping
 - Founder Relics, Horcruxes, and Dumbledore's Final Plan

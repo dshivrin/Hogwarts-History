@@ -1,0 +1,314 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: D-H Bestiary Entries
+  chapter_start_pdf_page: 31
+  chapter_end_pdf_page: 43
+  boundary_confidence: high
+  boundary_notes: Rendered and visually inspected only the assigned inclusive PDF pages 31-43, covering the tail end of Crup and the D-H bestiary entries through the start of Horklump.
+  processed_date: '2026-09-12'
+  processor_notes: Scanned-page unit; evidence was transcribed from rendered page images in .tmp/current-source-images/.
+
+entries:
+  - id: fb-ch06-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 31
+    printed_page: 9
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "licences may be obtained from the Department"
+      end_phrase: "lest Muggles notice it"
+      local_occurrence_note: Tail end of the Crup entry at the top of printed page 9.
+    nearby_context: The passage describes Department licensing for Crup ownership in Muggle-inhabited areas and the legal duty to remove Crup tails with a Severing Charm while young.
+    match_terms:
+      - Crup
+      - Department for the Regulation and Control of Magical Creatures
+      - Muggle-inhabited areas
+      - Severing Charm
+      - licences
+    quote_excerpt_short: "Crup owners are legally obliged to remove the Crup's tail"
+    source_note: Crup ownership is legally licensed, with secrecy-focused tail removal required before Muggles notice the creature's nonstandard anatomy.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - crup
+      - creature-licensing
+      - muggle-secrecy
+      - severing-charm
+      - department-regulation-control
+    candidate_part: Magical Creatures and Wizarding Law
+    candidate_chapter: Creature Regulation and Domestic Ownership
+    candidate_section: Licensed ownership near Muggles
+    reason_for_placement: The excerpt shows creature law operating at the household boundary between wizarding ownership and Muggle concealment.
+    relevance_to_hogwarts_a_history: A later creature-law or Care of Magical Creatures section can use this as textbook evidence for licensing and secrecy duties around wizard-bred pets.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query for crup/muggle-inhabited returned no indexed matches.
+    confidence: high
+    limitations: The entry begins before the assigned range, so this record captures only the legally relevant conclusion visible on page 31.
+
+  - id: fb-ch06-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 31
+    printed_page: 9
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The Demiguise is found in the Far East"
+      end_phrase: "the hair may be spun into Invisibility Cloaks"
+      local_occurrence_note: Complete Demiguise entry on printed page 9.
+    nearby_context: The entry describes the Demiguise as a peaceful herbivore that can become invisible when threatened and whose silvery hair is valuable for Invisibility Cloaks.
+    match_terms:
+      - Demiguise
+      - invisibility
+      - Invisibility Cloaks
+      - pelts
+      - silvery hair
+    quote_excerpt_short: "the hair may be spun into Invisibility Cloaks"
+    source_note: The textbook supplies creature-material provenance for ordinary Invisibility Cloaks, distinguishing Demiguise-hair manufacture from unique Hallow claims in later evidence.
+    reference_type: cross_reference_candidate
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - demiguise
+      - invisibility-cloak
+      - magical-materials
+      - concealment
+      - creature-products
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: Cloaks, Concealment, and Anti-Detection Magic
+    candidate_section: Creature-derived Invisibility Cloaks
+    reason_for_placement: The passage gives the textbook baseline for manufactured Invisibility Cloaks before later sources distinguish Harry's inherited Cloak as exceptional.
+    relevance_to_hogwarts_a_history: A later edition can cite this when explaining what an ordinary school-era reader would know about Invisibility Cloak materials.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-004
+      notes: dh-ch21-004 already contrasts Demiguise-hair cloaks with a true Hallow cloak; this entry is corroborating source-text evidence for the Demiguise material itself.
+    confidence: high
+    limitations: The passage does not discuss Harry's Cloak or the Hallows directly.
+
+  - id: fb-ch06-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 32
+    printed_page: 10
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Probably the most famous of all magical beasts"
+      end_phrase: "Class A Non-Tradeable Goods"
+      local_occurrence_note: Opening Dragon entry near the bottom of printed page 10.
+    nearby_context: The dragon entry gives the XXXXX rating, emphasizes handling danger, lists magical uses for body parts, and classifies dragon eggs as restricted goods.
+    match_terms:
+      - dragon
+      - XXXXX classification
+      - dragon eggs
+      - Class A Non-Tradeable Goods
+      - magical properties
+    quote_excerpt_short: "dragon eggs are defined as Class A Non-Tradeable Goods"
+    source_note: Dragons are presented as highly dangerous magical beasts whose body parts have magical properties and whose eggs are Class A Non-Tradeable Goods.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - dragons
+      - non-tradeable-goods
+      - creature-law
+      - magical-materials
+      - dangerous-creatures
+    candidate_part: Magical Creatures and Wizarding Law
+    candidate_chapter: Dragons, Trade, and Containment
+    candidate_section: Dragon parts and egg-trade restrictions
+    reason_for_placement: The passage combines biological danger, economic value, and explicit magical trade classification.
+    relevance_to_hogwarts_a_history: A later creature-law or Triwizard-era section can use this as baseline textbook evidence for why dragon eggs and adult dragons required specialist regulation.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Query returned dh-ch26-004 and dh-ch27-001 for a Gringotts dragon and fb-ch05-001 for Acromantula egg trade; none duplicates the dragon egg classification.
+    confidence: high
+    limitations: The passage names the trade classification but not the enforcing office or penalty.
+
+  - id: fb-ch06-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 34
+    printed_page: 12
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Supposedly the most dangerous of all dragon breeds"
+      end_phrase: "you're not kidding"
+      local_occurrence_note: Hungarian Horntail heading at the foot of printed page 12 with Harry-copy marginalia beside it.
+    nearby_context: The preceding dragon-breed list includes the Common Welsh Green and Hebridean Black; Harry's copy reacts in the margin to the Horntail danger statement, and the next page relabels Norwegian Ridgeback as Baby Norbert.
+    match_terms:
+      - Hungarian Horntail
+      - Common Welsh Green
+      - Hebridean Black
+      - Norwegian Ridgeback
+      - Baby Norbert
+      - Harry marginalia
+    quote_excerpt_short: "you're not kidding"
+    source_note: Harry's copy adds firsthand marginal reactions to the dragon-breed catalogue, linking textbook descriptions of the Hungarian Horntail and Norwegian Ridgeback to later Hogwarts-era dragon encounters.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dragons
+      - hungarian-horntail
+      - norwegian-ridgeback
+      - norbert
+      - student-marginalia
+      - fantastic-beasts-textbook
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Triwizard Year and Magical Creature Hazards
+    candidate_section: Dragon breeds in textbook and lived school experience
+    reason_for_placement: The marginalia turns a textbook taxonomy into direct evidence of how Harry's Hogwarts-era experiences annotated his course reference.
+    relevance_to_hogwarts_a_history: A later edition can cross-reference student textbook marginalia with first-task dragon evidence and Hagrid's illegal dragon-raising episode.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch19-005
+      notes: gof-ch19-005 records the adult first-task breeds and containment on Hogwarts grounds; this entry corroborates breed identity through Harry's annotated coursebook and also points to Norbert.
+    confidence: high
+    limitations: The marginalia is attributed by context to Harry's copy but the page itself does not identify the handwriting.
+
+  - id: fb-ch06-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 36
+    printed_page: 14
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The native territory of the Longhorn"
+      end_phrase: "Class B Tradeable Material"
+      local_occurrence_note: Romanian Longhorn entry in the upper half of printed page 14.
+    nearby_context: The passage says the Romanian Longhorn's native territory has become a major dragon reservation where international wizards study dragons, and that horn trade drove a breeding programme.
+    match_terms:
+      - Romanian Longhorn
+      - dragon reservation
+      - breeding programme
+      - Class B Tradeable Material
+      - horn trade
+    quote_excerpt_short: "world's most important dragon reservation"
+    source_note: The textbook presents Romania as a major dragon reservation and research site, while tying Longhorn conservation to horn trade and a managed breeding programme.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - romanian-longhorn
+      - dragon-reservation
+      - creature-conservation
+      - breeding-programme
+      - tradeable-material
+    candidate_part: Magical Creatures and Wizarding Law
+    candidate_chapter: Dragon Reserves and International Study
+    candidate_section: Romanian Longhorn conservation
+    reason_for_placement: The passage connects dragon conservation, international study, magical-material trade, and active breeding policy.
+    relevance_to_hogwarts_a_history: A later edition can use this as background for Care of Magical Creatures and for Charlie Weasley's Romanian dragon work.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query for romanian-longhorn/dragon-reservation returned no indexed matches.
+    confidence: high
+    limitations: The passage does not date the reserve or identify its governing body.
+
+  - id: fb-ch06-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 38
+    printed_page: 16
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The Erumpent is a large grey African beast"
+      end_phrase: "Dangerous and Subject to Strict Control"
+      local_occurrence_note: Complete Erumpent entry on printed page 16.
+    nearby_context: The entry describes the Erumpent's spell-resistant hide, explosive horn fluid, scarce numbers, and classification of horns, tails, and fluid as controlled tradeable potion materials.
+    match_terms:
+      - Erumpent
+      - Exploding Fluid
+      - potions
+      - Class B Tradeable Materials
+      - strict control
+    quote_excerpt_short: "Exploding Fluid are all used in potions"
+    source_note: Erumpent horns, tails, and Exploding Fluid are treated as dangerous Class B Tradeable Materials used in potions, with the horn's fluid causing injected targets to explode.
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - erumpent
+      - exploding-fluid
+      - potions
+      - tradeable-material
+      - dangerous-objects
+      - fantastic-beasts-textbook
+    candidate_part: Magical Creatures and Wizarding Law
+    candidate_chapter: Controlled Creature Materials
+    candidate_section: Erumpent horn, tail, and fluid trade
+    reason_for_placement: The passage gives the textbook source for a dangerous creature material later recognized in the narrative through Hermione's reference knowledge.
+    relevance_to_hogwarts_a_history: A later edition can connect this textbook evidence to student research habits and the practical dangers of misidentified creature materials.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch20-006
+      notes: dh-ch20-006 records Hermione using Fantastic Beasts to identify an Erumpent horn; this entry is the underlying textbook content that corroborates the classification.
+    confidence: high
+    limitations: The passage gives properties and trade status, not a specific school use of Erumpent material.
+
+  - id: fb-ch06-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: D-H Bestiary Entries
+    chapter_start_pdf_page: 31
+    chapter_end_pdf_page: 43
+    pdf_page: 43
+    printed_page: 21
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "It can be tamed, though this should be attempted only by experts"
+      end_phrase: "Has Hagrid read this book?"
+      local_occurrence_note: Hippogriff entry on printed page 21 with underlining and side-margin note.
+    nearby_context: The entry instructs readers to maintain eye contact and bow before approaching a Hippogriff; the annotated copy questions whether Hagrid read the guidance.
+    match_terms:
+      - Hippogriff
+      - Hagrid
+      - bowing
+      - eye contact
+      - experts
+      - student-marginalia
+    quote_excerpt_short: "Has Hagrid read this book?"
+    source_note: The Hippogriff entry gives formal handling protocol, while the marginal note connects that protocol to Hagrid's teaching and Buckbeak-related school history.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hippogriff
+      - hagrid
+      - buckbeak
+      - care-of-magical-creatures
+      - student-marginalia
+      - creature-handling
+    candidate_part: Hogwarts Curriculum and Instruction
+    candidate_chapter: Care of Magical Creatures
+    candidate_section: Hippogriff handling and classroom risk
+    reason_for_placement: The page links textbook safety guidance to a remembered Hogwarts creature-care lesson through direct student annotation.
+    relevance_to_hogwarts_a_history: A later edition can use this annotated textbook evidence when discussing Hagrid's pedagogy, Hippogriff handling norms, and the Buckbeak incident.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch03-006
+      notes: hbp-ch03-006 records Buckbeak's later custody and alias; this entry is corroborating classroom-source context rather than another custody record.
+    confidence: high
+    limitations: The note does not name Buckbeak directly, so the connection to that incident depends on Harry-era context outside this page.

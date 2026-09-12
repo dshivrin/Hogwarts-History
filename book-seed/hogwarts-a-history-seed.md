@@ -12279,6 +12279,18 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
   - Corroborates: `ps-ch14-002`, `ps-ch14-004`. ps-ch14-002 and ps-ch14-004 cover library dragon sources and Hagrid's illegal Norwegian Ridgeback incident; this entry adds sanctioned tournament dragons, named breeds, keepers, and containment methods.
   - Notes: The evidence is specific to the Triwizard revival and should not be generalized to normal Hogwarts grounds management.
 
+#### Section: Dragon breeds in textbook and lived school experience
+
+Summary: The available evidence includes 1 source item, led by: Harry's copy adds firsthand marginal reactions to the dragon-breed catalogue, linking textbook descriptions of the Hungarian Horntail and Norwegian Ridgeback to later Hogwarts-era dragon encounters.
+
+- **Corroboration:** Harry's copy adds firsthand marginal reactions to the dragon-breed catalogue, linking textbook descriptions of the Hungarian Horntail and Norwegian Ridgeback to later Hogwarts-era dragon encounters.
+  - Quote: "you're not kidding"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 34, `fb-ch06-004`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `gof-ch19-005`. gof-ch19-005 records the adult first-task breeds and containment on Hogwarts grounds; this entry corroborates breed identity through Harry's annotated coursebook and also points to Norbert.
+  - Notes: The marginalia is attributed by context to Harry's copy but the page itself does not identify the handwriting.
+
 ### Chapter: The Triwizard Year and Public Records
 
 #### Section: Press access and distorted champion coverage
@@ -14371,6 +14383,20 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: curriculum_or_subject
   - Notes: The passage reflects one fourth-year cohort and does not prove identical workload patterns in all eras.
 
+### Chapter: Care of Magical Creatures
+
+#### Section: Hippogriff handling and classroom risk
+
+Summary: The available evidence includes 1 source item, led by: The Hippogriff entry gives formal handling protocol, while the marginal note connects that protocol to Hagrid's teaching and Buckbeak-related school history.
+
+- **Corroboration:** The Hippogriff entry gives formal handling protocol, while the marginal note connects that protocol to Hagrid's teaching and Buckbeak-related school history.
+  - Quote: "Has Hagrid read this book?"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 43, `fb-ch06-007`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: harry_era_confirmation | Confidence: high
+  - Reference type: curriculum_or_subject
+  - Corroborates: `hbp-ch03-006`. hbp-ch03-006 records Buckbeak's later custody and alias; this entry is corroborating classroom-source context rather than another custody record.
+  - Notes: The note does not name Buckbeak directly, so the connection to that incident depends on Harry-era context outside this page.
+
 ### Chapter: Defense Against the Dark Arts
 
 #### Section: Fourth-year curse curriculum after Dark creature groundwork
@@ -15682,6 +15708,61 @@ Summary: The available evidence includes 1 source item, led by: The textbook fra
   - Reference type: historical_claim
   - Notes: The visible entry begins on this page and continues on PDF page 24; the page-24 marginalia is captured separately.
 
+## Part: Magical Creatures and Wizarding Law
+
+### Chapter: Controlled Creature Materials
+
+#### Section: Erumpent horn, tail, and fluid trade
+
+Summary: The available evidence includes 1 source item, led by: Erumpent horns, tails, and Exploding Fluid are treated as dangerous Class B Tradeable Materials used in potions, with the horn's fluid causing injected targets to explode.
+
+- **Corroboration:** Erumpent horns, tails, and Exploding Fluid are treated as dangerous Class B Tradeable Materials used in potions, with the horn's fluid causing injected targets to explode.
+  - Quote: "Exploding Fluid are all used in potions"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 38, `fb-ch06-006`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: explicit_in_universe_source
+  - Corroborates: `dh-ch20-006`. dh-ch20-006 records Hermione using Fantastic Beasts to identify an Erumpent horn; this entry is the underlying textbook content that corroborates the classification.
+  - Notes: The passage gives properties and trade status, not a specific school use of Erumpent material.
+
+### Chapter: Creature Regulation and Domestic Ownership
+
+#### Section: Licensed ownership near Muggles
+
+Summary: The available evidence includes 1 source item, led by: Crup ownership is legally licensed, with secrecy-focused tail removal required before Muggles notice the creature's nonstandard anatomy.
+
+- **Supporting evidence:** Crup ownership is legally licensed, with secrecy-focused tail removal required before Muggles notice the creature's nonstandard anatomy.
+  - Quote: "Crup owners are legally obliged to remove the Crup's tail"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 31, `fb-ch06-001`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The entry begins before the assigned range, so this record captures only the legally relevant conclusion visible on page 31.
+
+### Chapter: Dragon Reserves and International Study
+
+#### Section: Romanian Longhorn conservation
+
+Summary: The available evidence includes 1 source item, led by: The textbook presents Romania as a major dragon reservation and research site, while tying Longhorn conservation to horn trade and a managed breeding programme.
+
+- **Supporting evidence:** The textbook presents Romania as a major dragon reservation and research site, while tying Longhorn conservation to horn trade and a managed breeding programme.
+  - Quote: "world's most important dragon reservation"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 36, `fb-ch06-005`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage does not date the reserve or identify its governing body.
+
+### Chapter: Dragons, Trade, and Containment
+
+#### Section: Dragon parts and egg-trade restrictions
+
+Summary: The available evidence includes 1 source item, led by: Dragons are presented as highly dangerous magical beasts whose body parts have magical properties and whose eggs are Class A Non-Tradeable Goods.
+
+- **Supporting evidence:** Dragons are presented as highly dangerous magical beasts whose body parts have magical properties and whose eggs are Class A Non-Tradeable Goods.
+  - Quote: "dragon eggs are defined as Class A Non-Tradeable Goods"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 32, `fb-ch06-003`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The passage names the trade classification but not the enforcing office or penalty.
+
 ## Part: Magical Creatures and the School Library
 
 ### Chapter: Dangerous Creatures in Study and Tournament Use
@@ -15952,6 +16033,20 @@ Summary: The available evidence includes 1 source item, led by: A true Cloak of 
   - Classification: pre_1984_historical_candidate | Confidence: high
   - Reference type: magical_architecture
   - Notes: The technical taxonomy comes from Xenophilius; Ron's later comparison supports but does not fully test every claimed property.
+
+### Chapter: Cloaks, Concealment, and Anti-Detection Magic
+
+#### Section: Creature-derived Invisibility Cloaks
+
+Summary: The available evidence includes 1 source item, led by: The textbook supplies creature-material provenance for ordinary Invisibility Cloaks, distinguishing Demiguise-hair manufacture from unique Hallow claims in later evidence.
+
+- **Corroboration:** The textbook supplies creature-material provenance for ordinary Invisibility Cloaks, distinguishing Demiguise-hair manufacture from unique Hallow claims in later evidence.
+  - Quote: "the hair may be spun into Invisibility Cloaks"
+  - Source: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, PDF p. 31, `fb-ch06-002`, `sources/book-fb/chapter-06-bestiary-d-to-h.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `dh-ch21-004`. dh-ch21-004 already contrasts Demiguise-hair cloaks with a true Hallow cloak; this entry is corroborating source-text evidence for the Demiguise material itself.
+  - Notes: The passage does not discuss Harry's Cloak or the Hallows directly.
 
 ### Chapter: Communication Artifacts and Wartime Rescue
 
