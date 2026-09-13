@@ -21261,6 +21261,35 @@ by_entry:
     - winged-horse
     source_unit: fb-ch08
     output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch09-001:
+    title: 'Companion Books and Editorial Frames: Muggle-facing production provenance'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: high
+    tags:
+    - back-matter
+    - bloomsbury
+    - comic-relief
+    - editorial-frame
+    - muggle-publication
+    - publication-provenance
+    source_unit: fb-ch09
+    output_yaml: sources/book-fb/chapter-09-back-matter.yaml
+  fb-ch09-002:
+    title: 'Companion Books and Editorial Frames: Comic Relief charity edition provenance'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: high
+    tags:
+    - back-matter
+    - charity-edition
+    - comic-relief
+    - j-k-rowling
+    - muggle-publication
+    - publication-provenance
+    - royalties
+    source_unit: fb-ch09
+    output_yaml: sources/book-fb/chapter-09-back-matter.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -25343,6 +25372,9 @@ by_tag:
   - poa-ch22-002
   azkaban-guards:
   - poa-ch04-007
+  back-matter:
+  - fb-ch09-001
+  - fb-ch09-002
   background-reading:
   - ps-ch06-004
   badge:
@@ -25660,6 +25692,8 @@ by_tag:
   - dh-ch31-002
   - ext-a06-002
   - ext-a16-006
+  bloomsbury:
+  - fb-ch09-001
   bludger-practice:
   - fb-ch07-007
   bludgers:
@@ -26247,6 +26281,8 @@ by_tag:
   charity-burbage:
   - dh-ch01-006
   - dh-ch06-003
+  charity-edition:
+  - fb-ch09-002
   charlie-weasley:
   - poa-ch15-004
   - ps-ch14-005
@@ -26406,6 +26442,8 @@ by_tag:
   comic-relief:
   - fb-ch00-004
   - fb-ch00-006
+  - fb-ch09-001
+  - fb-ch09-002
   coming-of-age:
   - dh-ch06-001
   - dh-ch07-001
@@ -27869,6 +27907,8 @@ by_tag:
   - poa-ch03-004
   eavesdropping:
   - ootp-ch04-006
+  editorial-frame:
+  - fb-ch09-001
   educational-accommodation:
   - ext-a25-007
   educational-decrees:
@@ -31110,6 +31150,8 @@ by_tag:
   - qtta-fm-005
   isle-drear:
   - fb-ch08-001
+  j-k-rowling:
+  - fb-ch09-002
   james-potter:
   - ext-b04-005
   - hbp-ch16-005
@@ -32881,6 +32923,8 @@ by_tag:
   - ootp-ch07-006
   muggle-publication:
   - fb-ch00-004
+  - fb-ch09-001
+  - fb-ch09-002
   muggle-raised-students:
   - hbp-ch13-004
   muggle-records:
@@ -34437,6 +34481,9 @@ by_tag:
   - hbp-ch16-006
   publication-history:
   - fb-ch01-001
+  publication-provenance:
+  - fb-ch09-001
+  - fb-ch09-002
   puffskein:
   - fb-ch07-007
   puffskeins:
@@ -34972,6 +35019,8 @@ by_tag:
   - dh-ch29-007
   - dh-ch30-003
   - dh-ch31-002
+  royalties:
+  - fb-ch09-002
   rufus-scrimgeour:
   - hbp-ch01-007
   - hbp-ch03-002

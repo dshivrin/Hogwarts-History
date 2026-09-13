@@ -2570,6 +2570,18 @@ processed_units:
   explicit_reference_count: 0
   candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 57-64.
+- source_unit_id: fb-ch09
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 9
+  chapter_title: Back Matter
+  page_start: 65
+  page_end: 65
+  output_yaml: sources/book-fb/chapter-09-back-matter.yaml
+  processed_at: '2026-09-13'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Used indexed page range; extracted only pages 65-65.
 - source_unit_id: qtta-ch00
   source_file: pdfs/quidditch-through-the-ages.pdf
   book: Quidditch Through the Ages

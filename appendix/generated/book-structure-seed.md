@@ -743,7 +743,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Hogwarts, a History as a Source
 
 - Companion Books and Editorial Frames
+  - Comic Relief charity edition provenance
   - Harry's annotated school copy
+  - Muggle-facing production provenance
   - Obscurus Books and Muggle charity editions
   - Sales channels, charity donations, and motto framing
 - Named Wizarding Historians and School Texts

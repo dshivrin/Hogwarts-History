@@ -15118,6 +15118,17 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts' large 
 
 ### Chapter: Companion Books and Editorial Frames
 
+#### Section: Comic Relief charity edition provenance
+
+Summary: The available evidence includes 1 source item, led by: The back matter states that Rowling donated her royalties from the book to Comic Relief and explains that sales proceeds support anti-poverty work.
+
+- **Context:** The back matter states that Rowling donated her royalties from the book to Comic Relief and explains that sales proceeds support anti-poverty work.
+  - Quote: "giving all her royalties from it to Comic Relief"
+  - Source: Fantastic Beasts and Where to Find Them, Back Matter, PDF p. 65, `fb-ch09-002`, `sources/book-fb/chapter-09-back-matter.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: This is real-world publication context and should not be treated as in-universe historical evidence.
+
 #### Section: Harry's annotated school copy
 
 Summary: The available evidence includes 1 source item, led by: The edition is framed as a duplicate of Harry's annotated copy, with Harry and his friends' marginal notes retained by agreement with Comic Relief and Scamander.
@@ -15128,6 +15139,17 @@ Summary: The available evidence includes 1 source item, led by: The edition is f
   - Classification: later_editorial_note | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: The foreword does not identify which marginal notes belong to which friend, and the reproduced annotations remain comic editorial material unless individually corroborated.
+
+#### Section: Muggle-facing production provenance
+
+Summary: The available evidence includes 1 source item, led by: The acknowledgement page frames the edition as a Bloomsbury and Comic Relief production supported by named publishing, design, sales, marketing, publicity, and editorial contributors.
+
+- **Context:** The acknowledgement page frames the edition as a Bloomsbury and Comic Relief production supported by named publishing, design, sales, marketing, publicity, and editorial contributors.
+  - Quote: "Bloomsbury and Comic Relief"
+  - Source: Fantastic Beasts and Where to Find Them, Back Matter, PDF p. 65, `fb-ch09-001`, `sources/book-fb/chapter-09-back-matter.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: The evidence is editorial back matter and does not describe in-universe Hogwarts institutions or events.
 
 #### Section: Obscurus Books and Muggle charity editions
 

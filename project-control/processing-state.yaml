@@ -4,17 +4,6 @@ project:
   schema_reference: docs/instructions/schema-reference.md
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
-  unit_id: FB08
-  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
-  book_group: book-fb
-  book: Fantastic Beasts and Where to Find Them
-  chapter_number: 8
-  chapter_title: R-Z Bestiary Entries
-  page_start: 57
-  page_end: 64
-  output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
-  extraction_mode: rendered_page_images
-current_source_unit:
   unit_id: FB09
   source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
   book_group: book-fb
@@ -25,6 +14,7 @@ current_source_unit:
   page_end: 65
   output_yaml: sources/book-fb/chapter-09-back-matter.yaml
   extraction_mode: rendered_page_images
+current_source_unit: null
 next_source_unit: null
 indexes:
   duplicate_index: project-control/duplicate-index.yaml

@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 289
+- Total: 290
 
 ## Entries by Book or External Source
 
@@ -75,7 +75,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B24 — "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001: 3
 - B25 — "Living with Harry Potter": 3
 - B26 — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006: 2
-- Fantastic Beasts and Where to Find Them: 59
+- Fantastic Beasts and Where to Find Them: 61
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
@@ -89,7 +89,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 554
-- later_editorial_note: 704
+- later_editorial_note: 706
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 42
 - pre_1984_historical_candidate: 346
@@ -109,7 +109,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - portrait_or_ghost_lore: 36
 - school_rule_or_policy: 165
 - security_or_protection: 249
-- weak_context_only: 9
+- weak_context_only: 11
 
 ## Explicit `Hogwarts: A History` References
 
@@ -125,4 +125,4 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Next Pending Unit
 
-- Fantastic Beasts and Where to Find Them, Back Matter, pages 65-65, `sources/book-fb/chapter-09-back-matter.yaml`
+- Not recorded.

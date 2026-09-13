@@ -1,0 +1,102 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: Back Matter
+  chapter_start_pdf_page: 65
+  chapter_end_pdf_page: 65
+  boundary_confidence: high
+  boundary_notes: Bounded scanned-PDF processing used only the rendered page image for assigned PDF page 65. No following source unit is queued.
+  processed_date: '2026-09-13'
+  processor_notes: "Rendered page 65 only with pdftoppm and visually inspected the page image. No explicit Hogwarts: A History title reference was found; two back-matter provenance entries were retained."
+
+entries:
+  - id: fb-ch09-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Back Matter
+    chapter_start_pdf_page: 65
+    chapter_end_pdf_page: 65
+    pdf_page: 65
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Bloomsbury and Comic Relief would like to say a big thank you
+      end_phrase: booksellers around the world for their support
+      local_occurrence_note: Opening acknowledgements under the With Thanks heading.
+    nearby_context: The back matter credits production, cover design, text design, printing, paper supply, sales, distribution, marketing, publicity, copy-editing, proof-reading, editing, and bookseller support.
+    match_terms:
+      - Bloomsbury
+      - Comic Relief
+      - production
+      - cover design
+      - editor
+      - booksellers
+      - Fantastic Beasts
+    quote_excerpt_short: Bloomsbury and Comic Relief
+    source_note: The acknowledgement page frames the edition as a Bloomsbury and Comic Relief production supported by named publishing, design, sales, marketing, publicity, and editorial contributors.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - bloomsbury
+      - comic-relief
+      - publication-provenance
+      - muggle-publication
+      - back-matter
+      - editorial-frame
+    candidate_part: Hogwarts, a History as a Source
+    candidate_chapter: Companion Books and Editorial Frames
+    candidate_section: Muggle-facing production provenance
+    reason_for_placement: The passage supplies real-world publication context for the companion-book carrier rather than in-universe school history.
+    relevance_to_hogwarts_a_history: Useful only as provenance for the Muggle-facing Fantastic Beasts edition used as a source carrier.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookups for bloomsbury/comic-relief and comic-relief/charity-edition returned fb-ch00-004 and fb-ch00-006; those capture the in-universe charity-edition frame, while this page gives real-world production acknowledgements.
+    confidence: high
+    limitations: The evidence is editorial back matter and does not describe in-universe Hogwarts institutions or events.
+
+  - id: fb-ch09-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Back Matter
+    chapter_start_pdf_page: 65
+    chapter_end_pdf_page: 65
+    pdf_page: 65
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: And of course J. K. Rowling for creating this book
+      end_phrase: Comic Relief is a registered charity, number 326568
+      local_occurrence_note: Closing back-matter paragraphs after the acknowledgements list.
+    nearby_context: The page thanks Rowling for donating royalties, explains Comic Relief's 1985 founding and charitable purpose, and states that worldwide sales support anti-poverty work.
+    match_terms:
+      - J. K. Rowling
+      - royalties
+      - Comic Relief
+      - charity
+      - worldwide sales
+      - Save the Children
+      - Oxfam
+    quote_excerpt_short: giving all her royalties from it to Comic Relief
+    source_note: The back matter states that Rowling donated her royalties from the book to Comic Relief and explains that sales proceeds support anti-poverty work.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - j-k-rowling
+      - royalties
+      - comic-relief
+      - charity-edition
+      - muggle-publication
+      - publication-provenance
+      - back-matter
+    candidate_part: Hogwarts, a History as a Source
+    candidate_chapter: Companion Books and Editorial Frames
+    candidate_section: Comic Relief charity edition provenance
+    reason_for_placement: The passage documents the real-world charitable purpose of the edition that carries the reproduced in-universe textbook.
+    relevance_to_hogwarts_a_history: Useful as source-provenance context for why this Hogwarts textbook material appears in a charity publication available outside the wizarding frame.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for rowling/royalties returned no matches. Comic Relief lookups returned fb-ch00-004 and fb-ch00-006 as related charity-edition framing, not the same royalty-donation claim.
+    confidence: high
+    limitations: This is real-world publication context and should not be treated as in-universe historical evidence.
