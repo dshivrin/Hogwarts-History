@@ -1280,6 +1280,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slytherin Dungeon Entrance and Common Room
 - Protected Offices and Moving Entrances
   - Headmaster's Gargoyle Entrance and Password Changes
+- Protective Magic and Guarded Places
+  - Creature Guardians and Riddle Barriers
 - Pure-Blood Families and School Influence
   - Elite Household Architecture and Portrait Culture
   - Malfoy Manor security and portrait culture under wartime occupation
@@ -1357,6 +1359,16 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Romanian Longhorn conservation
 - Dragons, Trade, and Containment
   - Dragon parts and egg-trade restrictions
+
+## Magical Creatures and Wizarding Society
+
+- Beast Classification and Creature Governance
+  - Dangerous Creature Habitats and Ministry Control
+  - International Creature Protection
+- Creature Ownership and Secrecy Duties
+  - Concealment Duties for Large Flying Beasts
+- Dark Magic, Parseltongue, and Creature Lore
+  - Serpentine Creatures and Dark Wizard Associations
 
 ## Magical Creatures and the School Library
 
@@ -2472,6 +2484,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Newspaper clippings and old award records
   - Old Prophet notices and staff biography research
 
+## Staff and Teaching
+
+- Defence Against the Dark Arts Appointments
+  - Werewolf Risk, Accommodation, and Stigma
+
 ## Staff, Founders, and Notable Residents
 
 - Staff Biographies and Institutional Memory
@@ -2501,6 +2518,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gryffindor's 1996 Cup victory and song reversal
 - The House System
   - Wartime recognition through House points
+
+## Student Life and House Identity
+
+- Quidditch, School Sport, and Magical Equipment
+  - Historical Origins of the Snitch
 
 ## Student Life and Houses
 

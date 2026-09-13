@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-12'
+updated: '2026-09-13'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -21161,6 +21161,106 @@ by_entry:
     - wizarding-pets
     source_unit: fb-ch07
     output_yaml: sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  fb-ch08-001:
+    title: 'Beast Classification and Creature Governance: Dangerous Creature Habitats
+      and Ministry Control'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - department-regulation-control
+    - isle-drear
+    - quintaped
+    - transfiguration
+    - unplottable
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch08-002:
+    title: 'Beast Classification and Creature Governance: International Creature Protection'
+    classification: pre_1984_historical_candidate
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - international-confederation
+    - magical-creature-conservation
+    - protection-laws
+    - ramora
+    - wizard-poachers
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch08-003:
+    title: 'Dark Magic, Parseltongue, and Creature Lore: Serpentine Creatures and
+      Dark Wizard Associations'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - burkina-faso
+    - dark-wizards
+    - ministry-of-magic
+    - parselmouths
+    - runespoor
+    - unplottable
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch08-004:
+    title: 'Quidditch, School Sport, and Magical Equipment: Historical Origins of
+      the Snitch'
+    classification: pre_1984_historical_candidate
+    reference_type: cross_reference_candidate
+    confidence: high
+    tags:
+    - conservation
+    - golden-snidget
+    - golden-snitch
+    - protected-species
+    - quidditch
+    - quidditch-through-the-ages
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch08-005:
+    title: 'Protective Magic and Guarded Places: Creature Guardians and Riddle Barriers'
+    classification: pre_1984_historical_candidate
+    reference_type: security_or_protection
+    confidence: high
+    tags:
+    - guardian
+    - magical-security
+    - riddles
+    - secret-hideaways
+    - sphinx
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch08-006:
+    title: 'Defence Against the Dark Arts Appointments: Werewolf Risk, Accommodation,
+      and Stigma'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - full-moon
+    - harry-copy-marginalia
+    - lycanthropy
+    - magical-creature-classification
+    - werewolf
+    - wolfsbane
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
+  fb-ch08-007:
+    title: 'Creature Ownership and Secrecy Duties: Concealment Duties for Large Flying
+      Beasts'
+    classification: pre_1984_historical_candidate
+    reference_type: school_rule_or_policy
+    confidence: high
+    tags:
+    - concealment
+    - creature-ownership
+    - disillusionment-charm
+    - hippogriff
+    - thestral
+    - winged-horse
+    source_unit: fb-ch08
+    output_yaml: sources/book-fb/chapter-08-bestiary-r-to-z.yaml
   qtta-fm-001:
     title: 'Named In-Universe Sources: Quidditch Through the Ages'
     classification: harry_era_confirmation
@@ -25758,6 +25858,8 @@ by_tag:
   - hbp-ch30-005
   burial-custom:
   - ext-a17-004
+  burkina-faso:
+  - fb-ch08-003
   burrow:
   - dh-ch04-002
   - dh-ch05-002
@@ -26392,6 +26494,7 @@ by_tag:
   - dh-ch26-001
   - dh-ch26-003
   - fb-ch06-002
+  - fb-ch08-007
   - hbp-ch04-003
   - ootp-ch03-004
   - ootp-ch03-005
@@ -26409,6 +26512,7 @@ by_tag:
   conjuration:
   - hbp-ch14-007
   conservation:
+  - fb-ch08-004
   - qtta-ch04-002
   contact-galleons:
   - hbp-ch25-006
@@ -26567,6 +26671,8 @@ by_tag:
   - fb-ch06-001
   creature-lifecycle:
   - gof-ch26-003
+  creature-ownership:
+  - fb-ch08-007
   creature-products:
   - fb-ch06-002
   creature-regulation:
@@ -26825,6 +26931,7 @@ by_tag:
   - fb-ch05-003
   dark-wizards:
   - ext-a28-004
+  - fb-ch08-003
   - gof-ch11-001
   darkness-powder:
   - hbp-ch29-003
@@ -27148,6 +27255,7 @@ by_tag:
   department-regulation-control:
   - fb-ch04-003
   - fb-ch06-001
+  - fb-ch08-001
   department-regulation-control-magical-creatures:
   - ootp-ch33-003
   deputy-headmistress:
@@ -27257,6 +27365,7 @@ by_tag:
   disillusionment-charm:
   - dh-ch21-004
   - dh-ch22-003
+  - fb-ch08-007
   - hbp-ch03-003
   - ootp-ch03-005
   - ootp-ch04-002
@@ -28653,6 +28762,8 @@ by_tag:
   - gof-ch21-002
   fugitives:
   - dh-ch15-004
+  full-moon:
+  - fb-ch08-006
   full-moon-safety:
   - poa-ch18-002
   funeral-customs:
@@ -28904,6 +29015,7 @@ by_tag:
   golden-mist:
   - gof-ch31-005
   golden-snidget:
+  - fb-ch08-004
   - qtta-ch04-001
   - qtta-ch04-002
   golden-snitch:
@@ -28911,6 +29023,7 @@ by_tag:
   - dh-ch16-003
   - dh-ch22-004
   - dh-ch34-004
+  - fb-ch08-004
   - qtta-ch04-001
   - qtta-ch04-003
   - qtta-ch06-004
@@ -29250,6 +29363,8 @@ by_tag:
   - ps-ch11-007
   guarded-travel:
   - ootp-ch10-001
+  guardian:
+  - fb-ch08-005
   guardian-obstruction:
   - cos-ch03-001
   guardian-permission:
@@ -29426,6 +29541,8 @@ by_tag:
   - ext-b07-004
   harry-copy:
   - fb-ch00-005
+  harry-copy-marginalia:
+  - fb-ch08-006
   harry-marginalia:
   - fb-ch05-002
   - fb-ch05-004
@@ -29843,6 +29960,7 @@ by_tag:
   - poa-ch16-004
   hippogriff:
   - fb-ch06-007
+  - fb-ch08-007
   - hbp-ch03-006
   hippogriff-books:
   - poa-ch15-004
@@ -30898,6 +31016,7 @@ by_tag:
   - fb-ch03-001
   - fb-ch03-003
   - fb-ch07-001
+  - fb-ch08-002
   - ootp-ch05-007
   - ootp-ch11-007
   - ootp-ch31-007
@@ -30989,6 +31108,8 @@ by_tag:
   - qtta-fm-002
   - qtta-fm-004
   - qtta-fm-005
+  isle-drear:
+  - fb-ch08-001
   james-potter:
   - ext-b04-005
   - hbp-ch16-005
@@ -31418,6 +31539,7 @@ by_tag:
   - poa-ch19-001
   lycanthropy:
   - ext-a11-001
+  - fb-ch08-006
   macnair:
   - ootp-ch20-005
   - poa-ch16-002
@@ -31635,6 +31757,7 @@ by_tag:
   - fb-ch01-005
   - fb-ch01-006
   - fb-ch01-007
+  - fb-ch08-006
   magical-creature-concealment:
   - fb-ch02-006
   - fb-ch02-007
@@ -31643,6 +31766,8 @@ by_tag:
   - fb-ch03-004
   - fb-ch03-005
   - fb-ch03-007
+  magical-creature-conservation:
+  - fb-ch08-002
   magical-creature-law:
   - poa-ch11-003
   magical-creature-misidentification:
@@ -31908,6 +32033,7 @@ by_tag:
   magical-secrecy:
   - gof-ch08-001
   magical-security:
+  - fb-ch08-005
   - ootp-ch34-006
   - ootp-ch35-003
   - ps-ch09-007
@@ -32399,6 +32525,7 @@ by_tag:
   - fb-ch03-006
   - fb-ch03-007
   - fb-ch05-006
+  - fb-ch08-003
   - gof-ch01-003
   - gof-ch03-001
   - gof-ch04-003
@@ -33358,6 +33485,8 @@ by_tag:
   - ext-a01-003
   - fb-ch05-003
   - hbp-ch13-007
+  parselmouths:
+  - fb-ch08-003
   parseltongue:
   - cos-ch11-004
   - cos-ch16-006
@@ -34217,6 +34346,10 @@ by_tag:
   - ext-b26-001
   protean-charm:
   - ootp-ch19-001
+  protected-species:
+  - fb-ch08-004
+  protection-laws:
+  - fb-ch08-002
   protective-amulets:
   - hbp-ch06-002
   protective-charms:
@@ -34383,6 +34516,7 @@ by_tag:
   - ext-b16-001
   - ext-b18-002
   - ext-b22-001
+  - fb-ch08-004
   - gof-ch05-005
   - gof-ch06-004
   - gof-ch08-004
@@ -34516,6 +34650,7 @@ by_tag:
   - qtta-ch10-001
   - qtta-ch10-002
   quidditch-through-the-ages:
+  - fb-ch08-004
   - ps-ch09-001
   - ps-ch11-002
   - qtta-bc-001
@@ -34551,6 +34686,8 @@ by_tag:
   - ext-a03-006
   quills:
   - gof-ch04-001
+  quintaped:
+  - fb-ch08-001
   quirrell:
   - ps-ch13-006
   racing-brooms:
@@ -34570,6 +34707,8 @@ by_tag:
   - dh-ch25-002
   rambling-castle:
   - ext-b01-004
+  ramora:
+  - fb-ch08-002
   rancorous-carpe:
   - ext-a16-004
   - ext-a16-005
@@ -34742,6 +34881,8 @@ by_tag:
   - hbp-ch23-006
   riddle-family:
   - gof-ch01-001
+  riddles:
+  - fb-ch08-005
   rightful-headmaster:
   - ootp-ch37-001
   rise-and-fall-of-the-dark-arts:
@@ -34849,6 +34990,8 @@ by_tag:
   runes:
   - dh-ch07-007
   - dh-ch21-002
+  runespoor:
+  - fb-ch08-003
   sacrifice-magic:
   - ext-b05-002
   sacrificial-protection:
@@ -35423,6 +35566,8 @@ by_tag:
   secret-headquarters:
   - ootp-ch03-006
   - ootp-ch04-001
+  secret-hideaways:
+  - fb-ch08-005
   secret-keeper:
   - dh-ch06-002
   - dh-ch09-006
@@ -36009,6 +36154,7 @@ by_tag:
   - gof-ch23-003
   - ootp-ch13-002
   sphinx:
+  - fb-ch08-005
   - gof-ch31-006
   spider:
   - gof-ch31-006
@@ -36936,6 +37082,8 @@ by_tag:
   - ootp-ch12-006
   theory-exams:
   - ootp-ch31-003
+  thestral:
+  - fb-ch08-007
   thestrals:
   - dh-ch04-004
   - dh-ch36-004
@@ -37149,6 +37297,7 @@ by_tag:
   - dh-ch32-002
   - ext-a12-003
   - ext-a12-004
+  - fb-ch08-001
   - gof-ch15-002
   - hbp-ch11-001
   - hbp-ch15-003
@@ -37434,6 +37583,8 @@ by_tag:
   - gof-ch12-004
   unplottable:
   - fb-ch03-005
+  - fb-ch08-001
+  - fb-ch08-003
   - gof-ch11-005
   - hbp-ch03-004
   - hbp-ch21-004
@@ -37851,6 +38002,7 @@ by_tag:
   werewolf:
   - ext-a10-001
   - ext-a10-003
+  - fb-ch08-006
   - poa-ch20-002
   - poa-ch22-003
   werewolf-bite:
@@ -37924,6 +38076,8 @@ by_tag:
   - poa-ch05-005
   winged-boars:
   - ootp-ch16-001
+  winged-horse:
+  - fb-ch08-007
   winged-horses:
   - gof-ch15-007
   - gof-ch16-005
@@ -37985,6 +38139,8 @@ by_tag:
   - ext-a08-003
   wizard-outcasts:
   - ext-b13-003
+  wizard-poachers:
+  - fb-ch08-002
   wizard-school:
   - cos-ch01-004
   wizarding-adulthood:
@@ -38158,6 +38314,8 @@ by_tag:
   - ootp-ch14-003
   wizengamot-verdict:
   - ootp-ch08-007
+  wolfsbane:
+  - fb-ch08-006
   wolfsbane-potion:
   - ext-a27-003
   - hbp-ch07-006

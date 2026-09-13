@@ -847,6 +847,19 @@ Summary: The available evidence includes 1 source item, led by: The scene corrob
   - Corroborates: `cos-ch11-007`, `cos-ch12-001`, `cos-ch13-006`. cos-ch11-007 records the passworded gargoyle and moving staircase, cos-ch12-001 adds office interior details, and cos-ch13-006 shows Dippet-era continuity; this entry adds changed-password failure and Snape's staff-side access.
   - Notes: The scene does not enter the office or describe its interior, and it does not state who sets or changes the password.
 
+### Chapter: Protective Magic and Guarded Places
+
+#### Section: Creature Guardians and Riddle Barriers
+
+Summary: The available evidence includes 1 source item, led by: The Sphinx entry presents a millennium-long wizarding custom of using intelligent riddle-setting sphinxes as guardians of valuables and secret hideaways.
+
+- **Supporting evidence:** The Sphinx entry presents a millennium-long wizarding custom of using intelligent riddle-setting sphinxes as guardians of valuables and secret hideaways.
+  - Quote: "used by witches and wizards to guard valuables"
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 61, `fb-ch08-005`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: security_or_protection
+  - Notes: The text does not identify specific sites or dates for the thousand-year guardian tradition.
+
 ### Chapter: Pure-Blood Families and School Influence
 
 #### Section: Elite Household Architecture and Portrait Culture
@@ -15809,6 +15822,58 @@ Summary: The available evidence includes 1 source item, led by: Dragons are pres
   - Reference type: historical_claim
   - Notes: The passage names the trade classification but not the enforcing office or penalty.
 
+## Part: Magical Creatures and Wizarding Society
+
+### Chapter: Beast Classification and Creature Governance
+
+#### Section: Dangerous Creature Habitats and Ministry Control
+
+Summary: The available evidence includes 1 source item, led by: The entry frames Drear as an Unplottable Scottish island and preserves a wizard-family legend about irreversible Transfiguration into Quintapeds, later resistant to Department capture.
+
+- **Supporting evidence:** The entry frames Drear as an Unplottable Scottish island and preserves a wizard-family legend about irreversible Transfiguration into Quintapeds, later resistant to Department capture.
+  - Quote: "Drear has been made unplottable for this reason."
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 57, `fb-ch08-001`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The assigned range begins mid-entry, so the opening Quintaped description and classification are outside this unit.
+
+#### Section: International Creature Protection
+
+Summary: The available evidence includes 1 source item, led by: The International Confederation of Wizards values the Ramora highly enough to establish protective laws against wizard poaching.
+
+- **Supporting evidence:** The International Confederation of Wizards values the Ramora highly enough to establish protective laws against wizard poaching.
+  - Quote: "laws in place to protect the Ramora"
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 58, `fb-ch08-002`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: institutional_custom
+  - Notes: The entry names protective laws but does not specify their dates, enforcement mechanism, or treaty text.
+
+### Chapter: Creature Ownership and Secrecy Duties
+
+#### Section: Concealment Duties for Large Flying Beasts
+
+Summary: The available evidence includes 1 source item, led by: Fantastic Beasts treats winged horses, including Thestrals, as worldwide breeds whose owners have recurring concealment duties comparable to Hippogriff ownership.
+
+- **Supporting evidence:** Fantastic Beasts treats winged horses, including Thestrals, as worldwide breeds whose owners have recurring concealment duties comparable to Hippogriff ownership.
+  - Quote: "required to perform a Disillusionment Charm"
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 64, `fb-ch08-007`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: school_rule_or_policy
+  - Notes: The entry points back to the book's Introduction for the full concealment rule; this unit records only the R-Z cross-reference.
+
+### Chapter: Dark Magic, Parseltongue, and Creature Lore
+
+#### Section: Serpentine Creatures and Dark Wizard Associations
+
+Summary: The available evidence includes 1 source item, led by: The Runespoor entry links a magical creature to national Ministry habitat control, Dark wizard taste, and historical knowledge preserved through Parselmouth records.
+
+- **Supporting evidence:** The Runespoor entry links a magical creature to national Ministry habitat control, Dark wizard taste, and historical knowledge preserved through Parselmouth records.
+  - Quote: "favourite pet of Dark wizards"
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 59, `fb-ch08-003`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The text does not identify named Parselmouth records or particular Dark wizard owners.
+
 ## Part: Magical Creatures and the School Library
 
 ### Chapter: Dangerous Creatures in Study and Tournament Use
@@ -19466,6 +19531,22 @@ Summary: The available evidence includes 1 source item, led by: Hermione's libra
   - Corroborates: `hbp-ch25-002`, `hbp-ch28-007`. hbp-ch25-002 records Hermione's earlier old-Prophet and award-record search for Eileen Prince, and hbp-ch28-007 records Snape's explicit Half-Blood Prince identity; this entry supplies the family-record link that explains the name.
   - Notes: Hermione summarizes the Prophet notices rather than quoting full archival text, and the notices are family records rather than formal Hogwarts files.
 
+## Part: Staff and Teaching
+
+### Chapter: Defence Against the Dark Arts Appointments
+
+#### Section: Werewolf Risk, Accommodation, and Stigma
+
+Summary: The available evidence includes 1 source item, led by: The Werewolf entry distinguishes afflicted humans from the transformed-state beast, notes monthly full-moon danger, and follows a reference to potion-making alleviating symptoms.
+
+- **Corroboration:** The Werewolf entry distinguishes afflicted humans from the transformed-state beast, notes monthly full-moon danger, and follows a reference to potion-making alleviating symptoms.
+  - Quote: "transforms into a murderous beast"
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 64, `fb-ch08-006`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Corroborates: `ext-a10-003`, `poa-ch20-002`. Compact queries `werewolf wolfsbane` and `werewolf classification` returned ext-a10-003 and poa-ch20-002 as closest duplicate/corroborating Hogwarts accommodation evidence; this entry adds the textbook framing and Harry-copy marginal note.
+  - Notes: The visible potion reference spans the page break from printed pages 41-42; this entry anchors the page-64 continuation and summarizes the preceding visible context.
+
 ## Part: Staff, Founders, and Notable Residents
 
 ### Chapter: Staff Biographies and Institutional Memory
@@ -19593,6 +19674,22 @@ Summary: The available evidence includes 1 source item, led by: McGonagall award
   - Reference type: house_system
   - Corroborates: `ps-ch15-002`, `cos-ch18-003`. ps-ch15-002 records hourglasses and major deductions, while cos-ch18-003 records large crisis-related awards; this entry adds cross-House recognition for the Department of Mysteries witnesses during the Second War.
   - Notes: The passage does not say whether the award affects the final House Cup result.
+
+## Part: Student Life and House Identity
+
+### Chapter: Quidditch, School Sport, and Magical Equipment
+
+#### Section: Historical Origins of the Snitch
+
+Summary: The available evidence includes 1 source item, led by: Fantastic Beasts confirms the Snidget as a rare protected species whose endangerment helped replace the living bird with the Golden Snitch in Quidditch.
+
+- **Corroboration:** Fantastic Beasts confirms the Snidget as a rare protected species whose endangerment helped replace the living bird with the Golden Snitch in Quidditch.
+  - Quote: "substitution of the Golden Snitch for the Snidget"
+  - Source: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, PDF p. 61, `fb-ch08-004`, `sources/book-fb/chapter-08-bestiary-r-to-z.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: cross_reference_candidate
+  - Corroborates: `qtta-ch04-002`. Compact query `golden-snidget golden-snitch` returned qtta-ch04-002 as the closest duplicate/corroborating account of Snidget conservation ending live Snidget use in Quidditch; qtta-ch04-001 and qtta-ch04-003 provide adjacent Snitch history.
+  - Notes: Fantastic Beasts summarizes the substitution but does not give the detailed 1269-1362 chronology found in Quidditch Through the Ages.
 
 ## Part: Student Life and Houses
 

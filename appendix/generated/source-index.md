@@ -219,6 +219,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `fb-ch05`: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, pages 23-30, 7 entries, 0 explicit references.
 - `fb-ch06`: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, pages 31-43, 7 entries, 0 explicit references.
 - `fb-ch07`: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, pages 44-56, 7 entries, 0 explicit references.
+- `fb-ch08`: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, pages 57-64, 7 entries, 0 explicit references.
 - `qtta-ch00`: Quidditch Through the Ages, Front Matter and Foreword, pages 1-8, 5 entries, 0 explicit references.
 - `qtta-ch01`: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, pages 9-11, 2 entries, 0 explicit references.
 - `qtta-ch02`: Quidditch Through the Ages, Chapter Two - Ancient Broom Games, pages 11-14, 1 entries, 0 explicit references.
