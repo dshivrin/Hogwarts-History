@@ -1,6 +1,10 @@
 from dataclasses import dataclass
 from enum import Enum
+from pathlib import Path
 import re
+from typing import Sequence
+
+import yaml
 
 
 class BlockKind(str, Enum):
@@ -13,6 +17,114 @@ class BlockKind(str, Enum):
 class SpeechBlock:
     kind: BlockKind
     text: str
+
+
+@dataclass(frozen=True)
+class Pronunciation:
+    term: str
+    replacement: str
+    reason: str
+
+
+@dataclass(frozen=True)
+class SpeechChunk:
+    kind: BlockKind
+    text: str
+    ends_block: bool
+
+
+def load_pronunciations(path: Path) -> list[Pronunciation]:
+    with path.open(encoding="utf-8") as guide:
+        contents = yaml.safe_load(guide)
+
+    if not isinstance(contents, dict):
+        raise ValueError("Pronunciation guide must be a mapping")
+    if type(contents.get("version")) is not int or contents["version"] != 1:
+        raise ValueError("Pronunciation guide must have version 1")
+    substitutions = contents.get("substitutions")
+    if not isinstance(substitutions, list):
+        raise ValueError("Pronunciation guide substitutions must be a list")
+
+    entries: list[Pronunciation] = []
+    terms: set[str] = set()
+    for substitution in substitutions:
+        if not isinstance(substitution, dict):
+            raise ValueError("Each pronunciation substitution must be a mapping")
+        fields = ("term", "replacement", "reason")
+        if any(
+            not isinstance(substitution.get(field), str)
+            or not substitution[field].strip()
+            for field in fields
+        ):
+            raise ValueError("Pronunciation substitutions require non-empty strings")
+        term = substitution["term"]
+        if term in terms:
+            raise ValueError(f"Duplicate pronunciation term: {term}")
+        terms.add(term)
+        entries.append(
+            Pronunciation(
+                term=term,
+                replacement=substitution["replacement"],
+                reason=substitution["reason"],
+            )
+        )
+    return entries
+
+
+def apply_pronunciations(text: str, entries: Sequence[Pronunciation]) -> str:
+    for entry in entries:
+        text = re.sub(
+            rf"(?<!\w){re.escape(entry.term)}(?!\w)", entry.replacement, text
+        )
+    return text
+
+
+def split_sentences(text: str) -> list[str]:
+    normalized = " ".join(text.split())
+    if not normalized:
+        return []
+
+    sentences: list[str] = []
+    start = 0
+    for match in re.finditer(r"[.!?](?:[\"'\u201d\u2019]+)?", normalized):
+        sentence = normalized[start : match.end()].strip()
+        if sentence:
+            sentences.append(sentence)
+        start = match.end()
+    tail = normalized[start:].strip()
+    if tail:
+        sentences.append(tail)
+    return sentences
+
+
+def chunk_blocks(
+    blocks: Sequence[SpeechBlock], max_words: int
+) -> list[SpeechChunk]:
+    if max_words < 1:
+        raise ValueError("max_words must be at least 1")
+
+    chunks: list[SpeechChunk] = []
+    for block in blocks:
+        block_chunks: list[str] = []
+        current_sentences: list[str] = []
+        current_word_count = 0
+        for sentence in split_sentences(block.text):
+            sentence_word_count = len(sentence.split())
+            if sentence_word_count > max_words:
+                raise ValueError("A single sentence exceeds the word limit")
+            if current_sentences and current_word_count + sentence_word_count >= max_words:
+                block_chunks.append(" ".join(current_sentences))
+                current_sentences = []
+                current_word_count = 0
+            current_sentences.append(sentence)
+            current_word_count += sentence_word_count
+        if current_sentences:
+            block_chunks.append(" ".join(current_sentences))
+        chunks.extend(
+            SpeechChunk(block.kind, text, index == len(block_chunks) - 1)
+            for index, text in enumerate(block_chunks)
+        )
+    return chunks
 
 
 def strip_front_matter(text: str) -> str:
