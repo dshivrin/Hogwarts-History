@@ -1,8 +1,12 @@
 import hashlib
+import io
 import unittest
+from contextlib import redirect_stderr
 from pathlib import Path
 import subprocess
 from tempfile import TemporaryDirectory
+from types import ModuleType
+from unittest.mock import patch
 
 import numpy as np
 import yaml
@@ -25,6 +29,7 @@ from authoring.audio.scripts.narrate import (
     markdown_to_blocks,
     resolve_model_revision,
     run_audition,
+    main,
     split_sentences,
     strip_inline_markdown,
     synthesize_chunks,
@@ -269,12 +274,30 @@ class FakeGeneration:
         self.sample_rate = sample_rate
 
 
+class FakeMlxArray:
+    __module__ = "mlx.core"
+
+    def __init__(self, values):
+        self.values = values
+
+    def eval(self):
+        return self.values
+
+
 class FakeKokoroModel:
     def __init__(self, sample_rate):
         self.sample_rate = sample_rate
         self.model_path = "/cache/models--mlx-community--Kokoro-82M-bf16/snapshots/test-revision"
         self.requests = []
 
+    def generate(self, *, text, voice, speed, lang_code):
+        if lang_code != "b":
+            raise AssertionError("British language code was not passed to the model")
+        self.requests.append((text, voice, speed, lang_code))
+        yield FakeGeneration(FakeMlxArray(np.array([0.0, 0.25, -0.25], dtype=np.float32)), self.sample_rate)
+
+
+class FakeNumpyKokoroModel(FakeKokoroModel):
     def generate(self, *, text, voice, speed, lang_code):
         if lang_code != "b":
             raise AssertionError("British language code was not passed to the model")
@@ -315,7 +338,7 @@ class AuditionTests(unittest.TestCase):
         self.temporary_directory.cleanup()
 
     def _evidence(self):
-        return RuntimeEvidence("Device(gpu, 0)", True, {"active_memory": 1}, "numpy.ndarray")
+        return RuntimeEvidence("Device(gpu, 0)", True, {"active_memory": 1}, "mlx.core.array")
 
     def _run_two_sample_audition(self):
         return run_audition(
@@ -403,9 +426,54 @@ class AuditionTests(unittest.TestCase):
 
         self.assertEqual(sample_rate, 24000)
         self.assertEqual([(item.kind, item.ends_block) for item in rendered], [(BlockKind.PARAGRAPH, True)])
-        self.assertEqual(evidence, {"audio_array_type": "numpy.ndarray"})
+        self.assertEqual(evidence, {"audio_array_type": "mlx.core.FakeMlxArray"})
 
     def test_resolve_model_revision_reads_snapshot_path_without_network(self):
         model = type("Model", (), {"model_path": "/cache/models--org--repo/snapshots/abc123"})()
 
         self.assertEqual(resolve_model_revision(model, "org/repo"), "abc123")
+
+    def test_resolve_model_revision_falls_back_to_hub_when_cache_scan_fails(self):
+        hub = ModuleType("huggingface_hub")
+        hub.scan_cache_dir = lambda: (_ for _ in ()).throw(RuntimeError("bad cache"))
+
+        class FakeApi:
+            def model_info(self, model_id):
+                self.model_id = model_id
+                return type("ModelInfo", (), {"sha": "hub-revision"})()
+
+        hub.HfApi = FakeApi
+        with patch.dict("sys.modules", {"huggingface_hub": hub}):
+            self.assertEqual(resolve_model_revision(object(), "org/repo"), "hub-revision")
+
+    def test_main_reports_model_load_errors_without_a_traceback(self):
+        settings_path = self.temp_dir / "settings.yaml"
+        settings_path.write_text(yaml.safe_dump(self.settings), encoding="utf-8")
+        error_output = io.StringIO()
+        with patch("authoring.audio.scripts.narrate.run_audition", side_effect=ModuleNotFoundError("mlx missing")), redirect_stderr(error_output):
+            with self.assertRaises(SystemExit) as raised:
+                main(["--settings", str(settings_path), "audition", "--sample", "bm_daniel=0.96"])
+
+        self.assertEqual(raised.exception.code, 2)
+        self.assertIn("error: mlx missing", error_output.getvalue())
+        self.assertNotIn("Traceback", error_output.getvalue())
+
+    def test_run_audition_rejects_non_gpu_or_non_mlx_evidence_before_artifacts(self):
+        for model, evidence in (
+            (FakeKokoroModel(24000), RuntimeEvidence("Device(cpu, 0)", False, {}, "mlx.core.array")),
+            (FakeNumpyKokoroModel(24000), RuntimeEvidence("Device(gpu, 0)", True, {}, "mlx.core.array")),
+        ):
+            with self.subTest(evidence=evidence, model=type(model).__name__):
+                with self.assertRaisesRegex(RuntimeError, "MLX.*GPU|MLX-generated"):
+                    run_audition(
+                        fixture_path=self.fixture,
+                        sample_specs=[SampleSpec("bm_daniel", 0.96)],
+                        settings=self.settings,
+                        pronunciation_path=self.pronunciations,
+                        output_dir=self.output_dir,
+                        manifest_path=self.manifest,
+                        model_loader=lambda _model_id, model=model: model,
+                        evidence_provider=lambda evidence=evidence: evidence,
+                    )
+                self.assertFalse(self.manifest.exists())
+                self.assertEqual(list(self.output_dir.glob("*.wav")) if self.output_dir.exists() else [], [])
