@@ -106,7 +106,9 @@ def load_pronunciations(path: Path) -> list[Pronunciation]:
 def apply_pronunciations(text: str, entries: Sequence[Pronunciation]) -> str:
     for entry in entries:
         text = re.sub(
-            rf"(?<!\w){re.escape(entry.term)}(?!\w)", entry.replacement, text
+            rf"(?<!\w){re.escape(entry.term)}(?!\w)",
+            lambda _match, replacement=entry.replacement: replacement,
+            text,
         )
     return text
 
@@ -191,10 +193,14 @@ def assemble_audio(
         BlockKind.CHAPTER: "chapter_ms",
     }
     for chunk in chunks:
-        audio = np.asarray(chunk.audio)
-        if audio.ndim != 1 or audio.size == 0 or not np.isfinite(audio).all():
+        try:
+            audio = np.asarray(chunk.audio, dtype=np.float32)
+            valid_audio = audio.ndim == 1 and audio.size > 0 and np.isfinite(audio).all()
+        except (TypeError, ValueError):
+            valid_audio = False
+        if not valid_audio:
             raise ValueError("Rendered chunk audio must be a non-empty finite mono array")
-        parts.append(audio.astype(np.float32, copy=False))
+        parts.append(audio)
         pause_key = (
             ending_pause_keys[chunk.kind]
             if chunk.ends_block
@@ -386,6 +392,7 @@ def _validate_sample_specs(sample_specs: Sequence[SampleSpec]) -> None:
     if not sample_specs:
         raise ValueError("At least one audition sample is required")
     seen: set[tuple[str, float]] = set()
+    filenames: set[str] = set()
     for sample in sample_specs:
         if sample.voice not in APPROVED_VOICES:
             raise ValueError(f"Unsupported British voice: {sample.voice}")
@@ -395,6 +402,10 @@ def _validate_sample_specs(sample_specs: Sequence[SampleSpec]) -> None:
         if request in seen:
             raise ValueError("Duplicate audition voice and speed request")
         seen.add(request)
+        filename = _sample_filename(sample)
+        if filename in filenames:
+            raise ValueError("Duplicate audition output filename")
+        filenames.add(filename)
 
 
 def _module_qualified_type(value: object) -> str:
@@ -526,6 +537,23 @@ def _sample_filename(sample: SampleSpec) -> str:
     return f"{sample.voice.replace('_', '-')}-{round(sample.speed * 100):03d}.wav"
 
 
+def _manifest_path(path: Path) -> str:
+    resolved = path.resolve()
+    try:
+        return resolved.relative_to(DEFAULT_AUDIO_ROOT.resolve()).as_posix()
+    except ValueError:
+        return str(resolved)
+
+
+def _normalize_manifest_path(path: object) -> str | None:
+    if not isinstance(path, str):
+        return None
+    value = Path(path)
+    if value.is_absolute():
+        return _manifest_path(value)
+    return _manifest_path(DEFAULT_AUDIO_ROOT / value)
+
+
 def _load_compatible_manifest(
     manifest_path: Path, model: str, fixture_path: Path, fixture_hash: str
 ) -> list[dict[str, object]]:
@@ -536,7 +564,8 @@ def _load_compatible_manifest(
         raise ValueError("Existing manifest must be a mapping")
     if (
         content.get("model") != model
-        or content.get("fixture_path") != str(fixture_path)
+        or _normalize_manifest_path(content.get("fixture_path"))
+        != _manifest_path(fixture_path)
         or content.get("fixture_sha256") != fixture_hash
     ):
         raise ValueError("Existing manifest is incompatible with this audition")
@@ -592,11 +621,11 @@ def run_audition(
         write_pcm16_wav(output_path, audio, sample_rate)
         facts = inspect_wav(output_path)
         generated_records.append({
-            "fixture_path": str(fixture_path), "fixture_sha256": fixture_hash,
+            "fixture_path": _manifest_path(fixture_path), "fixture_sha256": fixture_hash,
             "python_version": sys.version.split()[0], "mlx_audio_version": _package_version("mlx-audio"),
             "misaki_version": _package_version("misaki"), "model": model_id,
             "model_revision": revision, "voice": sample.voice, "lang_code": settings["lang_code"],
-            "speed": float(sample.speed), "path": str(output_path), "audio": facts,
+            "speed": float(sample.speed), "path": _manifest_path(output_path), "audio": facts,
             "file_sha256": hashlib.sha256(output_path.read_bytes()).hexdigest(),
         })
     for record in generated_records:
@@ -608,7 +637,7 @@ def run_audition(
     manifest_path.write_text(
         yaml.safe_dump(
             {
-                "fixture_path": str(fixture_path),
+                "fixture_path": _manifest_path(fixture_path),
                 "fixture_sha256": fixture_hash,
                 "python_version": sys.version.split()[0],
                 "mlx_audio_version": _package_version("mlx-audio"),

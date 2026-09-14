@@ -113,6 +113,11 @@ class PronunciationTests(unittest.TestCase):
             "Hog-warts and Hogwartsian",
         )
 
+    def test_pronunciation_replacements_treat_backslashes_as_literal_text(self):
+        entries = [Pronunciation("Hogwarts", r"Hog\warts", "literal test")]
+
+        self.assertEqual(apply_pronunciations("Hogwarts", entries), r"Hog\warts")
+
     def test_applying_pronunciations_does_not_change_the_manuscript(self):
         before = MANUSCRIPT_PATH.read_bytes()
         apply_pronunciations(
@@ -208,6 +213,7 @@ class AudioAssemblyTests(unittest.TestCase):
             RenderedChunk(BlockKind.PARAGRAPH, np.ones(4, dtype=np.float32), False),
             RenderedChunk(BlockKind.PARAGRAPH, np.ones(3, dtype=np.float32), True),
             RenderedChunk(BlockKind.SECTION, np.ones(2, dtype=np.float32), True),
+            RenderedChunk(BlockKind.CHAPTER, np.ones(1, dtype=np.float32), True),
         ]
         pauses = {
             "opening_ms": 100,
@@ -220,9 +226,28 @@ class AudioAssemblyTests(unittest.TestCase):
 
         audio = assemble_audio(chunks, sample_rate=1000, pauses=pauses)
 
-        self.assertEqual(len(audio), 100 + 4 + 50 + 3 + 200 + 2 + 300 + 100)
+        self.assertEqual(len(audio), 100 + 4 + 50 + 3 + 200 + 2 + 300 + 1 + 400 + 100)
         self.assertTrue(np.all(audio[:100] == 0))
+        self.assertTrue(np.all(audio[104:154] == 0))
+        self.assertTrue(np.all(audio[157:357] == 0))
+        self.assertTrue(np.all(audio[359:659] == 0))
+        self.assertTrue(np.all(audio[660:1060] == 0))
         self.assertTrue(np.all(audio[-100:] == 0))
+
+    def test_assemble_audio_normalizes_non_numeric_audio_to_value_error(self):
+        with self.assertRaisesRegex(ValueError, "Rendered chunk audio"):
+            assemble_audio(
+                [RenderedChunk(BlockKind.PARAGRAPH, np.array(["not audio"]), True)],
+                sample_rate=24000,
+                pauses={
+                    "opening_ms": 0,
+                    "continuation_ms": 0,
+                    "paragraph_ms": 0,
+                    "section_ms": 0,
+                    "chapter_ms": 0,
+                    "closing_ms": 0,
+                },
+            )
 
     def test_write_pcm16_wav_round_trips_without_clipping(self):
         path = self.temp_dir / "sample.wav"
@@ -378,6 +403,19 @@ class AuditionTests(unittest.TestCase):
         self.assertEqual([record["voice"] for record in records], ["bm_daniel", "bf_emma"])
         self.assertTrue(all(Path(record["path"]).is_file() for record in records))
 
+    def test_run_audition_rejects_colliding_output_names_before_model_loading(self):
+        with self.assertRaisesRegex(ValueError, "output filename"):
+            run_audition(
+                fixture_path=self.fixture,
+                sample_specs=[SampleSpec("bm_daniel", 0.955), SampleSpec("bm_daniel", 0.956)],
+                settings=self.settings,
+                pronunciation_path=self.pronunciations,
+                output_dir=self.output_dir,
+                manifest_path=self.manifest,
+                model_loader=lambda _model_id: (_ for _ in ()).throw(AssertionError("model must not load")),
+                evidence_provider=self._evidence,
+            )
+
     def test_manifest_records_identical_fixture_and_exact_sample_settings(self):
         records = self._run_two_sample_audition()
         manifest = yaml.safe_load(self.manifest.read_text(encoding="utf-8"))
@@ -416,6 +454,56 @@ class AuditionTests(unittest.TestCase):
         ])
         manifest_records = yaml.safe_load(self.manifest.read_text(encoding="utf-8"))["samples"]
         self.assertEqual([record["path"] for record in manifest_records], [record["path"] for record in refreshed])
+
+    def test_relative_manifest_merges_after_project_relocation(self):
+        original_root = self.temp_dir / "original-audio"
+        relocated_root = self.temp_dir / "relocated-audio"
+        original_fixture = original_root / "fixtures/audition-excerpt.txt"
+        original_guide = original_root / "pronunciations.yaml"
+        original_fixture.parent.mkdir(parents=True)
+        original_fixture.write_bytes(self.fixture.read_bytes())
+        original_guide.write_text(self.pronunciations.read_text(encoding="utf-8"), encoding="utf-8")
+        original_manifest = original_root / "samples/audition-manifest.yaml"
+        with patch("authoring.audio.scripts.narrate.DEFAULT_AUDIO_ROOT", original_root):
+            initial = run_audition(
+                original_fixture,
+                [SampleSpec("bm_daniel", 0.96), SampleSpec("bf_emma", 0.96)],
+                self.settings,
+                original_guide,
+                original_root / "samples",
+                original_manifest,
+                lambda _model_id: FakeKokoroModel(24000),
+                self._evidence,
+            )
+        manifest_data = yaml.safe_load(original_manifest.read_text(encoding="utf-8"))
+        self.assertEqual(manifest_data["fixture_path"], "fixtures/audition-excerpt.txt")
+        self.assertEqual({record["path"] for record in initial}, {"samples/bm-daniel-096.wav", "samples/bf-emma-096.wav"})
+        relocated_fixture = relocated_root / "fixtures/audition-excerpt.txt"
+        relocated_fixture.parent.mkdir(parents=True)
+        relocated_fixture.write_bytes(original_fixture.read_bytes())
+        relocated_guide = relocated_root / "pronunciations.yaml"
+        relocated_guide.write_text(original_guide.read_text(encoding="utf-8"), encoding="utf-8")
+        relocated_manifest = relocated_root / "samples/audition-manifest.yaml"
+        relocated_manifest.parent.mkdir(parents=True)
+        manifest_data["fixture_path"] = "fixtures/../fixtures/audition-excerpt.txt"
+        relocated_manifest.write_text(yaml.safe_dump(manifest_data, sort_keys=False), encoding="utf-8")
+
+        with patch("authoring.audio.scripts.narrate.DEFAULT_AUDIO_ROOT", relocated_root):
+            records = run_audition(
+                relocated_fixture,
+                [SampleSpec("bm_daniel", 1.0)],
+                self.settings,
+                relocated_guide,
+                relocated_root / "samples",
+                relocated_manifest,
+                lambda _model_id: FakeKokoroModel(24000),
+                self._evidence,
+            )
+
+        self.assertEqual(
+            [record["path"] for record in records],
+            ["samples/bm-daniel-096.wav", "samples/bf-emma-096.wav", "samples/bm-daniel-100.wav"],
+        )
 
     def test_synthesize_chunks_preserves_semantic_boundaries_and_array_evidence(self):
         chunks = [SpeechChunk(BlockKind.PARAGRAPH, "One sentence.", True)]
