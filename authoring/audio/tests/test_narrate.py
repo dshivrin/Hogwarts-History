@@ -1,15 +1,20 @@
+import hashlib
 import unittest
 from pathlib import Path
 import subprocess
 from tempfile import TemporaryDirectory
 
 import numpy as np
+import yaml
 
 from authoring.audio.scripts.narrate import (
     BlockKind,
     Pronunciation,
     SpeechBlock,
+    SpeechChunk,
     RenderedChunk,
+    RuntimeEvidence,
+    SampleSpec,
     apply_pronunciations,
     assemble_audio,
     chunk_blocks,
@@ -18,8 +23,12 @@ from authoring.audio.scripts.narrate import (
     inspect_wav,
     load_pronunciations,
     markdown_to_blocks,
+    resolve_model_revision,
+    run_audition,
     split_sentences,
     strip_inline_markdown,
+    synthesize_chunks,
+    validate_settings,
     write_pcm16_wav,
 )
 
@@ -252,3 +261,151 @@ class AudioAssemblyTests(unittest.TestCase):
         )
         self.assertEqual(raised.exception.returncode, 23)
         self.assertTrue(output_path.parent.is_dir())
+
+
+class FakeGeneration:
+    def __init__(self, audio, sample_rate):
+        self.audio = audio
+        self.sample_rate = sample_rate
+
+
+class FakeKokoroModel:
+    def __init__(self, sample_rate):
+        self.sample_rate = sample_rate
+        self.model_path = "/cache/models--mlx-community--Kokoro-82M-bf16/snapshots/test-revision"
+        self.requests = []
+
+    def generate(self, *, text, voice, speed, lang_code):
+        if lang_code != "b":
+            raise AssertionError("British language code was not passed to the model")
+        self.requests.append((text, voice, speed, lang_code))
+        yield FakeGeneration(np.array([0.0, 0.25, -0.25], dtype=np.float32), self.sample_rate)
+
+
+class AuditionTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary_directory = TemporaryDirectory()
+        self.temp_dir = Path(self.temporary_directory.name)
+        self.fixture = self.temp_dir / "fixture.txt"
+        self.fixture.write_text("First sentence.\n\nSecond sentence.", encoding="utf-8")
+        self.pronunciations = self.temp_dir / "pronunciations.yaml"
+        self.pronunciations.write_text("version: 1\nsubstitutions: []\n", encoding="utf-8")
+        self.output_dir = self.temp_dir / "samples"
+        self.manifest = self.output_dir / "audition-manifest.yaml"
+        self.settings = {
+            "engine": "kokoro",
+            "model": "mlx-community/Kokoro-82M-bf16",
+            "language": "british-english",
+            "lang_code": "b",
+            "voice": None,
+            "speed": None,
+            "chunking": {"max_words": 160},
+            "pauses": {
+                "opening_ms": 0,
+                "continuation_ms": 0,
+                "paragraph_ms": 0,
+                "section_ms": 0,
+                "chapter_ms": 0,
+                "closing_ms": 0,
+            },
+            "output": {"intermediate": "wav", "listening_copy": "mp3"},
+        }
+
+    def tearDown(self):
+        self.temporary_directory.cleanup()
+
+    def _evidence(self):
+        return RuntimeEvidence("Device(gpu, 0)", True, {"active_memory": 1}, "numpy.ndarray")
+
+    def _run_two_sample_audition(self):
+        return run_audition(
+            fixture_path=self.fixture,
+            sample_specs=[SampleSpec("bm_daniel", 0.96), SampleSpec("bf_emma", 0.96)],
+            settings=self.settings,
+            pronunciation_path=self.pronunciations,
+            output_dir=self.output_dir,
+            manifest_path=self.manifest,
+            model_loader=lambda _model_id: FakeKokoroModel(sample_rate=24000),
+            evidence_provider=self._evidence,
+        )
+
+    def test_run_audition_reuses_one_model_for_multiple_samples(self):
+        loads = 0
+
+        def loader(model_id):
+            nonlocal loads
+            self.assertEqual(model_id, "mlx-community/Kokoro-82M-bf16")
+            loads += 1
+            if loads > 1:
+                raise AssertionError("model loaded more than once")
+            return FakeKokoroModel(sample_rate=24000)
+
+        records = run_audition(
+            fixture_path=self.fixture,
+            sample_specs=[SampleSpec("bm_daniel", 0.96), SampleSpec("bf_emma", 0.96)],
+            settings=self.settings,
+            pronunciation_path=self.pronunciations,
+            output_dir=self.output_dir,
+            manifest_path=self.manifest,
+            model_loader=loader,
+            evidence_provider=self._evidence,
+        )
+
+        self.assertEqual(loads, 1)
+        self.assertEqual([record["voice"] for record in records], ["bm_daniel", "bf_emma"])
+        self.assertTrue(all(Path(record["path"]).is_file() for record in records))
+
+    def test_manifest_records_identical_fixture_and_exact_sample_settings(self):
+        records = self._run_two_sample_audition()
+        manifest = yaml.safe_load(self.manifest.read_text(encoding="utf-8"))
+
+        self.assertEqual(len({record["fixture_sha256"] for record in records}), 1)
+        self.assertEqual({record["lang_code"] for record in records}, {"b"})
+        self.assertEqual({record["speed"] for record in records}, {0.96})
+        self.assertEqual({record["model"] for record in records}, {"mlx-community/Kokoro-82M-bf16"})
+        self.assertEqual(records[0]["fixture_sha256"], hashlib.sha256(self.fixture.read_bytes()).hexdigest())
+        self.assertEqual(manifest["model_revision"], "test-revision")
+        self.assertEqual(manifest["fixture_sha256"], records[0]["fixture_sha256"])
+
+    def test_settings_require_canonical_voice_and_speed_to_remain_null(self):
+        with self.assertRaisesRegex(ValueError, "voice.*null"):
+            validate_settings(dict(self.settings, voice="bm_george"))
+        with self.assertRaisesRegex(ValueError, "speed.*null"):
+            validate_settings(dict(self.settings, speed=0.96))
+
+    def test_run_audition_merges_compatible_existing_manifest_by_output_path(self):
+        initial = self._run_two_sample_audition()
+        refreshed = run_audition(
+            fixture_path=self.fixture,
+            sample_specs=[SampleSpec("bm_daniel", 1.0)],
+            settings=self.settings,
+            pronunciation_path=self.pronunciations,
+            output_dir=self.output_dir,
+            manifest_path=self.manifest,
+            model_loader=lambda _model_id: FakeKokoroModel(sample_rate=24000),
+            evidence_provider=self._evidence,
+        )
+
+        self.assertEqual([record["path"] for record in refreshed], [
+            initial[0]["path"],
+            initial[1]["path"],
+            str((self.output_dir / "bm-daniel-100.wav").resolve()),
+        ])
+        manifest_records = yaml.safe_load(self.manifest.read_text(encoding="utf-8"))["samples"]
+        self.assertEqual([record["path"] for record in manifest_records], [record["path"] for record in refreshed])
+
+    def test_synthesize_chunks_preserves_semantic_boundaries_and_array_evidence(self):
+        chunks = [SpeechChunk(BlockKind.PARAGRAPH, "One sentence.", True)]
+
+        rendered, sample_rate, evidence = synthesize_chunks(
+            FakeKokoroModel(24000), chunks, "bm_daniel", 0.96, "b"
+        )
+
+        self.assertEqual(sample_rate, 24000)
+        self.assertEqual([(item.kind, item.ends_block) for item in rendered], [(BlockKind.PARAGRAPH, True)])
+        self.assertEqual(evidence, {"audio_array_type": "numpy.ndarray"})
+
+    def test_resolve_model_revision_reads_snapshot_path_without_network(self):
+        model = type("Model", (), {"model_path": "/cache/models--org--repo/snapshots/abc123"})()
+
+        self.assertEqual(resolve_model_revision(model, "org/repo"), "abc123")
