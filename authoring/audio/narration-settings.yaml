@@ -1,0 +1,18 @@
+engine: kokoro
+model: mlx-community/Kokoro-82M-bf16
+language: british-english
+lang_code: b
+voice: null
+speed: null
+chunking:
+  max_words: 160
+pauses:
+  opening_ms: 120
+  continuation_ms: 80
+  paragraph_ms: 400
+  section_ms: 1000
+  chapter_ms: 1750
+  closing_ms: 180
+output:
+  intermediate: wav
+  listening_copy: mp3
