@@ -35,9 +35,25 @@ def strip_inline_markdown(text: str) -> str:
     text = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"(?m)^\s*>\s?", "", text)
     text = text.replace("`", "")
-    text = re.sub(r"(?<!\w)(\*\*|__)(?=\S)(.+?)(?<=\S)\1(?!\w)", r"\2", text)
-    text = re.sub(r"(?<!\w)([*_])(?=\S)(.+?)(?<=\S)\1(?!\w)", r"\2", text)
+    text = re.sub(r"(?<!\w)\*\*(?=\S)(.+?)(?<=\S)\*\*(?!\w)", r"\1", text)
+    text = re.sub(
+        r"(?<!\w)__(?=\S)(.+?)(?<=\S)__(?!\w)",
+        _strip_double_underscore_emphasis,
+        text,
+    )
+    text = re.sub(
+        r"(?<![\w_])([*_])(?!_)(?=\S)(.+?)(?<=\S)\1(?![\w_])",
+        r"\2",
+        text,
+    )
     return " ".join(text.split())
+
+
+def _strip_double_underscore_emphasis(match: re.Match[str]) -> str:
+    visible_text = match.group(1)
+    if re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", visible_text):
+        return match.group(0)
+    return visible_text
 
 
 def markdown_to_blocks(markdown: str) -> list[SpeechBlock]:

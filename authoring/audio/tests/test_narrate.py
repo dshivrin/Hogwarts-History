@@ -6,6 +6,7 @@ from authoring.audio.scripts.narrate import (
     SpeechBlock,
     extract_prose_excerpt,
     markdown_to_blocks,
+    strip_inline_markdown,
 )
 
 
@@ -19,6 +20,14 @@ FIXTURE_PATH = REPOSITORY_ROOT / "authoring/audio/fixtures/audition-excerpt.txt"
 
 
 class MarkdownPreparationTests(unittest.TestCase):
+    def test_markdown_preparation_preserves_double_underscore_identifiers(self):
+        self.assertEqual(strip_inline_markdown("__init__"), "__init__")
+        self.assertEqual(strip_inline_markdown("**careful**"), "careful")
+        self.assertEqual(
+            markdown_to_blocks("Call __init__ before use.\n"),
+            [SpeechBlock(BlockKind.PARAGRAPH, "Call __init__ before use.")],
+        )
+
     def test_markdown_to_blocks_removes_blockquote_markers_from_every_line(self):
         self.assertEqual(
             markdown_to_blocks("> First line\n> Second line\n"),
