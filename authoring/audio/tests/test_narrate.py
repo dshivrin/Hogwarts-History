@@ -2,17 +2,23 @@ import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+import numpy as np
+
 from authoring.audio.scripts.narrate import (
     BlockKind,
     Pronunciation,
     SpeechBlock,
+    RenderedChunk,
     apply_pronunciations,
+    assemble_audio,
     chunk_blocks,
     extract_prose_excerpt,
+    inspect_wav,
     load_pronunciations,
     markdown_to_blocks,
     split_sentences,
     strip_inline_markdown,
+    write_pcm16_wav,
 )
 
 
@@ -171,3 +177,46 @@ class ChunkingTests(unittest.TestCase):
     def test_chunk_blocks_rejects_a_non_positive_word_limit(self):
         with self.assertRaisesRegex(ValueError, "max_words"):
             chunk_blocks([SpeechBlock(BlockKind.PARAGRAPH, "One sentence.")], 0)
+
+
+class AudioAssemblyTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary_directory = TemporaryDirectory()
+        self.temp_dir = Path(self.temporary_directory.name)
+
+    def tearDown(self):
+        self.temporary_directory.cleanup()
+
+    def test_assemble_audio_uses_semantic_pauses_and_boundary_silence(self):
+        chunks = [
+            RenderedChunk(BlockKind.PARAGRAPH, np.ones(4, dtype=np.float32), False),
+            RenderedChunk(BlockKind.PARAGRAPH, np.ones(3, dtype=np.float32), True),
+            RenderedChunk(BlockKind.SECTION, np.ones(2, dtype=np.float32), True),
+        ]
+        pauses = {
+            "opening_ms": 100,
+            "continuation_ms": 50,
+            "paragraph_ms": 200,
+            "section_ms": 300,
+            "chapter_ms": 400,
+            "closing_ms": 100,
+        }
+
+        audio = assemble_audio(chunks, sample_rate=1000, pauses=pauses)
+
+        self.assertEqual(len(audio), 100 + 4 + 50 + 3 + 200 + 2 + 300 + 100)
+        self.assertTrue(np.all(audio[:100] == 0))
+        self.assertTrue(np.all(audio[-100:] == 0))
+
+    def test_write_pcm16_wav_round_trips_without_clipping(self):
+        path = self.temp_dir / "sample.wav"
+
+        write_pcm16_wav(
+            path, np.array([0.0, -0.5, 0.5, 0.0], dtype=np.float32), 24000
+        )
+
+        facts = inspect_wav(path)
+        self.assertEqual(facts["sample_rate"], 24000)
+        self.assertEqual(facts["channels"], 1)
+        self.assertEqual(facts["sample_count"], 4)
+        self.assertLessEqual(facts["peak"], 0.951)
