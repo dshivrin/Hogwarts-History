@@ -127,6 +127,12 @@ class PronunciationTests(unittest.TestCase):
 
 
 class ChunkingTests(unittest.TestCase):
+    def test_chunk_blocks_keeps_sentences_that_total_the_word_limit_together(self):
+        chunks = chunk_blocks(
+            [SpeechBlock(BlockKind.PARAGRAPH, "One two. Three.")], max_words=3
+        )
+        self.assertEqual([chunk.text for chunk in chunks], ["One two. Three."])
+
     def test_chunk_blocks_splits_only_between_sentences(self):
         block = SpeechBlock(
             BlockKind.PARAGRAPH,
@@ -134,7 +140,7 @@ class ChunkingTests(unittest.TestCase):
         )
         self.assertEqual(
             [chunk.text for chunk in chunk_blocks([block], max_words=5)],
-            ["One short sentence.", "Another complete sentence.", "Final words."],
+            ["One short sentence.", "Another complete sentence. Final words."],
         )
 
     def test_chunk_blocks_rejects_a_single_sentence_over_the_limit(self):

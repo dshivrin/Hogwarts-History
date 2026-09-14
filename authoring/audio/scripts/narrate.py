@@ -112,7 +112,7 @@ def chunk_blocks(
             sentence_word_count = len(sentence.split())
             if sentence_word_count > max_words:
                 raise ValueError("A single sentence exceeds the word limit")
-            if current_sentences and current_word_count + sentence_word_count >= max_words:
+            if current_sentences and current_word_count + sentence_word_count > max_words:
                 block_chunks.append(" ".join(current_sentences))
                 current_sentences = []
                 current_word_count = 0
