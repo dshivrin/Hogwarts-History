@@ -1,9 +1,13 @@
-from dataclasses import dataclass
+import argparse
+from dataclasses import asdict, dataclass
 from enum import Enum
+import hashlib
+from importlib import metadata
 from pathlib import Path
 import re
 import subprocess
-from typing import Mapping, Sequence
+import sys
+from typing import Callable, Mapping, Sequence
 import wave
 
 import numpy as np
@@ -41,6 +45,24 @@ class RenderedChunk:
     kind: BlockKind
     audio: np.ndarray
     ends_block: bool
+
+
+@dataclass(frozen=True)
+class SampleSpec:
+    voice: str
+    speed: float
+
+
+@dataclass(frozen=True)
+class RuntimeEvidence:
+    device: str
+    gpu_selected: bool
+    metal_telemetry: dict[str, object]
+    audio_array_type: str
+
+
+APPROVED_VOICES = frozenset({"bm_daniel", "bm_george", "bf_alice", "bf_emma"})
+DEFAULT_AUDIO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_pronunciations(path: Path) -> list[Pronunciation]:
@@ -337,3 +359,326 @@ def extract_prose_excerpt(
     if word_count < min_words:
         raise ValueError("Cannot collect the minimum excerpt length")
     return "\n\n".join(selected)
+
+
+def validate_settings(settings: Mapping[str, object]) -> None:
+    if settings.get("engine") != "kokoro":
+        raise ValueError("engine must be kokoro")
+    if settings.get("model") != "mlx-community/Kokoro-82M-bf16":
+        raise ValueError("model must be mlx-community/Kokoro-82M-bf16")
+    if settings.get("language") != "british-english" or settings.get("lang_code") != "b":
+        raise ValueError("language must be british-english with lang_code b")
+    if settings.get("voice") is not None:
+        raise ValueError("voice must remain null in canonical settings")
+    if settings.get("speed") is not None:
+        raise ValueError("speed must remain null in canonical settings")
+    chunking = settings.get("chunking")
+    if not isinstance(chunking, Mapping) or type(chunking.get("max_words")) is not int or chunking["max_words"] < 1:
+        raise ValueError("chunking.max_words must be a positive integer")
+    pauses = settings.get("pauses")
+    if not isinstance(pauses, Mapping):
+        raise ValueError("pauses must be a mapping")
+    # Keep the validation shared with assembly, but fail before model loading.
+    assemble_audio([RenderedChunk(BlockKind.PARAGRAPH, np.array([0.0]), True)], 1, pauses)
+
+
+def _validate_sample_specs(sample_specs: Sequence[SampleSpec]) -> None:
+    if not sample_specs:
+        raise ValueError("At least one audition sample is required")
+    seen: set[tuple[str, float]] = set()
+    for sample in sample_specs:
+        if sample.voice not in APPROVED_VOICES:
+            raise ValueError(f"Unsupported British voice: {sample.voice}")
+        if not isinstance(sample.speed, (int, float)) or isinstance(sample.speed, bool) or not 0.9 <= sample.speed <= 1.05:
+            raise ValueError("sample speed must be between 0.90 and 1.05")
+        request = (sample.voice, float(sample.speed))
+        if request in seen:
+            raise ValueError("Duplicate audition voice and speed request")
+        seen.add(request)
+
+
+def _module_qualified_type(value: object) -> str:
+    value_type = type(value)
+    return f"{value_type.__module__}.{value_type.__qualname__}"
+
+
+def collect_runtime_evidence() -> RuntimeEvidence:
+    """Read MLX device/Metal facts without making MLX a module import dependency."""
+    try:
+        import mlx.core as mx
+    except ImportError:
+        return RuntimeEvidence("unavailable", False, {}, "unavailable")
+
+    device = mx.default_device()
+    try:
+        gpu_selected = device == mx.gpu
+    except Exception:
+        gpu_selected = "gpu" in str(device).lower()
+    telemetry: dict[str, object] = {}
+    metal = getattr(mx, "metal", None)
+    for name in ("device_info", "get_active_memory", "get_cache_memory", "get_peak_memory"):
+        operation = getattr(metal, name, None)
+        if callable(operation):
+            try:
+                telemetry[name.removeprefix("get_")] = operation()
+            except Exception:
+                pass
+    return RuntimeEvidence(str(device), bool(gpu_selected), telemetry, "unavailable")
+
+
+def _revision_from_path(path: object) -> str | None:
+    if not isinstance(path, (str, Path)):
+        return None
+    match = re.search(r"(?:^|[\\/])snapshots[\\/]([^\\/]+)", str(path))
+    return match.group(1) if match else None
+
+
+def resolve_model_revision(model: object, model_id: str) -> str | None:
+    for owner in (getattr(model, "config", None), model):
+        if owner is not None:
+            revision = _revision_from_path(getattr(owner, "model_path", None))
+            if revision:
+                return revision
+    try:
+        from huggingface_hub import HfApi, scan_cache_dir
+
+        cache = scan_cache_dir()
+        for repository in cache.repos:
+            if repository.repo_id == model_id:
+                revisions = list(repository.revisions)
+                if revisions:
+                    return revisions[0].commit_hash
+        # This is intentionally best effort: an offline model can still render.
+        revision = HfApi().model_info(model_id).sha
+        return revision if isinstance(revision, str) else None
+    except Exception:
+        return None
+
+
+def _generation_results(generated: object) -> list[object]:
+    if hasattr(generated, "audio"):
+        return [generated]
+    try:
+        return list(generated)  # type: ignore[arg-type]
+    except TypeError as error:
+        raise ValueError("model.generate() returned no audio result") from error
+
+
+def synthesize_chunks(
+    model: object,
+    chunks: Sequence[SpeechChunk],
+    voice: str,
+    speed: float,
+    lang_code: str,
+) -> tuple[list[RenderedChunk], int, dict[str, str]]:
+    rendered: list[RenderedChunk] = []
+    sample_rate: int | None = None
+    array_types: set[str] = set()
+    for chunk in chunks:
+        generated = model.generate(text=chunk.text, voice=voice, speed=speed, lang_code=lang_code)  # type: ignore[attr-defined]
+        results = _generation_results(generated)
+        if not results:
+            raise ValueError("model.generate() returned no audio result")
+        arrays: list[np.ndarray] = []
+        for result in results:
+            audio = getattr(result, "audio", None)
+            result_rate = getattr(result, "sample_rate", None)
+            if type(result_rate) is not int or result_rate < 1:
+                raise ValueError("generated audio requires a positive sample_rate")
+            if sample_rate is None:
+                sample_rate = result_rate
+            elif sample_rate != result_rate:
+                raise ValueError("generated chunks must use one sample rate")
+            array_types.add(_module_qualified_type(audio))
+            evaluate = getattr(audio, "eval", None)
+            if callable(evaluate):
+                audio = evaluate()
+            array = np.asarray(audio, dtype=np.float32).reshape(-1)
+            if not array.size or not np.isfinite(array).all():
+                raise ValueError("generated audio must be non-empty and finite")
+            arrays.append(array)
+        rendered.append(RenderedChunk(chunk.kind, np.concatenate(arrays), chunk.ends_block))
+    if sample_rate is None:
+        raise ValueError("At least one speech chunk is required")
+    return rendered, sample_rate, {"audio_array_type": ",".join(sorted(array_types))}
+
+
+def _default_model_loader(model_id: str) -> object:
+    from mlx_audio.tts.utils import load_model
+
+    return load_model(model_id)
+
+
+def _package_version(name: str) -> str | None:
+    try:
+        return metadata.version(name)
+    except metadata.PackageNotFoundError:
+        return None
+
+
+def _sample_filename(sample: SampleSpec) -> str:
+    return f"{sample.voice.replace('_', '-')}-{round(sample.speed * 100):03d}.wav"
+
+
+def _load_compatible_manifest(
+    manifest_path: Path, model: str, fixture_path: Path, fixture_hash: str
+) -> list[dict[str, object]]:
+    if not manifest_path.exists():
+        return []
+    content = yaml.safe_load(manifest_path.read_text(encoding="utf-8"))
+    if not isinstance(content, Mapping):
+        raise ValueError("Existing manifest must be a mapping")
+    if (
+        content.get("model") != model
+        or content.get("fixture_path") != str(fixture_path)
+        or content.get("fixture_sha256") != fixture_hash
+    ):
+        raise ValueError("Existing manifest is incompatible with this audition")
+    records = content.get("samples")
+    if not isinstance(records, list) or not all(isinstance(record, dict) and isinstance(record.get("path"), str) for record in records):
+        raise ValueError("Existing manifest samples are invalid")
+    return [dict(record) for record in records]
+
+
+def run_audition(
+    fixture_path: Path,
+    sample_specs: Sequence[SampleSpec],
+    settings: Mapping[str, object],
+    pronunciation_path: Path,
+    output_dir: Path,
+    manifest_path: Path,
+    model_loader: Callable[[str], object] | None = None,
+    evidence_provider: Callable[[], RuntimeEvidence] | None = None,
+) -> list[dict[str, object]]:
+    validate_settings(settings)
+    _validate_sample_specs(sample_specs)
+    fixture_path = fixture_path.resolve()
+    fixture_bytes = fixture_path.read_bytes()
+    fixture_hash = hashlib.sha256(fixture_bytes).hexdigest()
+    pronunciations = load_pronunciations(pronunciation_path)
+    blocks = [SpeechBlock(BlockKind.PARAGRAPH, paragraph) for paragraph in fixture_bytes.decode("utf-8").split("\n\n") if paragraph.strip()]
+    prepared = [SpeechBlock(block.kind, apply_pronunciations(block.text, pronunciations)) for block in blocks]
+    chunks = chunk_blocks(prepared, settings["chunking"]["max_words"])  # type: ignore[index]
+    model_id = str(settings["model"])
+    existing = _load_compatible_manifest(manifest_path, model_id, fixture_path, fixture_hash)
+    loader = model_loader or _default_model_loader
+    model = loader(model_id)
+    revision = resolve_model_revision(model, model_id)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    generated_records: list[dict[str, object]] = []
+    source_array_type = "unavailable"
+    for sample in sample_specs:
+        rendered, sample_rate, synthesis_evidence = synthesize_chunks(model, chunks, sample.voice, float(sample.speed), str(settings["lang_code"]))
+        source_array_type = synthesis_evidence["audio_array_type"]
+        output_path = (output_dir / _sample_filename(sample)).resolve()
+        audio = assemble_audio(rendered, sample_rate, settings["pauses"])  # type: ignore[arg-type]
+        write_pcm16_wav(output_path, audio, sample_rate)
+        facts = inspect_wav(output_path)
+        generated_records.append({
+            "fixture_path": str(fixture_path), "fixture_sha256": fixture_hash,
+            "python_version": sys.version.split()[0], "mlx_audio_version": _package_version("mlx-audio"),
+            "misaki_version": _package_version("misaki"), "model": model_id,
+            "model_revision": revision, "voice": sample.voice, "lang_code": settings["lang_code"],
+            "speed": float(sample.speed), "path": str(output_path), "audio": facts,
+            "file_sha256": hashlib.sha256(output_path.read_bytes()).hexdigest(),
+        })
+    runtime = (evidence_provider or collect_runtime_evidence)()
+    runtime = RuntimeEvidence(runtime.device, runtime.gpu_selected, runtime.metal_telemetry, source_array_type)
+    for record in generated_records:
+        record["runtime_evidence"] = asdict(runtime)
+    replacements = {record["path"]: record for record in generated_records}
+    records = [replacements.pop(record["path"], record) for record in existing]
+    records.extend(replacements.values())
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        yaml.safe_dump(
+            {
+                "fixture_path": str(fixture_path),
+                "fixture_sha256": fixture_hash,
+                "python_version": sys.version.split()[0],
+                "mlx_audio_version": _package_version("mlx-audio"),
+                "misaki_version": _package_version("misaki"),
+                "model": model_id,
+                "model_revision": revision,
+                "samples": records,
+            },
+            sort_keys=False,
+        ),
+        encoding="utf-8",
+    )
+    return records
+
+
+def run_render(
+    markdown_path: Path, output_path: Path, voice: str, speed: float,
+    settings: Mapping[str, object], pronunciation_path: Path, listening_copy: Path | None = None,
+) -> Path:
+    validate_settings(settings)
+    _validate_sample_specs([SampleSpec(voice, speed)])
+    pronunciations = load_pronunciations(pronunciation_path)
+    blocks = [SpeechBlock(block.kind, apply_pronunciations(block.text, pronunciations)) for block in markdown_to_blocks(markdown_path.read_text(encoding="utf-8"))]
+    chunks = chunk_blocks(blocks, settings["chunking"]["max_words"])  # type: ignore[index]
+    model = _default_model_loader(str(settings["model"]))
+    rendered, sample_rate, _ = synthesize_chunks(model, chunks, voice, float(speed), str(settings["lang_code"]))
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    write_pcm16_wav(output_path, assemble_audio(rendered, sample_rate, settings["pauses"]))  # type: ignore[arg-type]
+    if listening_copy is not None:
+        encode_listening_copy(output_path, listening_copy)
+    return output_path
+
+
+def _read_settings(path: Path) -> Mapping[str, object]:
+    settings = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(settings, Mapping):
+        raise ValueError("settings must be a mapping")
+    return settings
+
+
+def _parse_sample(value: str) -> SampleSpec:
+    voice, separator, speed = value.partition("=")
+    if not separator:
+        raise argparse.ArgumentTypeError("sample must use VOICE=SPEED")
+    try:
+        return SampleSpec(voice, float(speed))
+    except ValueError as error:
+        raise argparse.ArgumentTypeError("sample speed must be numeric") from error
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="Render local Kokoro narration")
+    parser.add_argument("--settings", type=Path, default=DEFAULT_AUDIO_ROOT / "narration-settings.yaml")
+    parser.add_argument("--pronunciations", type=Path, default=DEFAULT_AUDIO_ROOT / "pronunciation-guide.yaml")
+    commands = parser.add_subparsers(dest="command", required=True)
+    audition = commands.add_parser("audition")
+    audition.add_argument("--fixture", type=Path, default=DEFAULT_AUDIO_ROOT / "fixtures/audition-excerpt.txt")
+    audition.add_argument("--sample", type=_parse_sample, action="append", required=True)
+    audition.add_argument("--output-dir", type=Path, default=DEFAULT_AUDIO_ROOT / "samples")
+    audition.add_argument("--manifest", type=Path, default=DEFAULT_AUDIO_ROOT / "samples/audition-manifest.yaml")
+    render = commands.add_parser("render")
+    render.add_argument("markdown", type=Path)
+    render.add_argument("--output", type=Path, required=True)
+    render.add_argument("--voice", required=True)
+    render.add_argument("--speed", type=float, required=True)
+    render.add_argument("--listening-copy", type=Path)
+    return parser
+
+
+def main(argv: Sequence[str] | None = None) -> int:
+    parser = build_parser()
+    args = parser.parse_args(argv)
+    try:
+        settings = _read_settings(args.settings)
+        if args.command == "audition":
+            records = run_audition(args.fixture, args.sample, settings, args.pronunciations, args.output_dir, args.manifest)
+            for record in records:
+                print(f"{record['path']} ({record['audio']['duration_seconds']:.2f}s)")
+        else:
+            output = run_render(args.markdown, args.output, args.voice, args.speed, settings, args.pronunciations, args.listening_copy)
+            print(output)
+    except (OSError, ValueError, subprocess.CalledProcessError) as error:
+        parser.error(str(error))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
