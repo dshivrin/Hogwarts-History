@@ -441,13 +441,19 @@ def resolve_model_revision(model: object, model_id: str) -> str | None:
                 return revision
     try:
         from huggingface_hub import HfApi, scan_cache_dir
+    except Exception:
+        return None
 
+    try:
         cache = scan_cache_dir()
         for repository in cache.repos:
             if repository.repo_id == model_id:
                 revisions = list(repository.revisions)
                 if revisions:
                     return revisions[0].commit_hash
+    except Exception:
+        pass
+    try:
         # This is intentionally best effort: an offline model can still render.
         revision = HfApi().model_info(model_id).sha
         return revision if isinstance(revision, str) else None
@@ -564,12 +570,23 @@ def run_audition(
     loader = model_loader or _default_model_loader
     model = loader(model_id)
     revision = resolve_model_revision(model, model_id)
-    output_dir.mkdir(parents=True, exist_ok=True)
-    generated_records: list[dict[str, object]] = []
-    source_array_type = "unavailable"
+    synthesized: list[tuple[SampleSpec, list[RenderedChunk], int]] = []
+    source_array_types: set[str] = set()
     for sample in sample_specs:
         rendered, sample_rate, synthesis_evidence = synthesize_chunks(model, chunks, sample.voice, float(sample.speed), str(settings["lang_code"]))
-        source_array_type = synthesis_evidence["audio_array_type"]
+        source_array_types.update(synthesis_evidence["audio_array_type"].split(","))
+        synthesized.append((sample, rendered, sample_rate))
+    source_array_type = ",".join(sorted(source_array_types))
+    runtime = (evidence_provider or collect_runtime_evidence)()
+    runtime = RuntimeEvidence(runtime.device, runtime.gpu_selected, runtime.metal_telemetry, source_array_type)
+    if not runtime.gpu_selected:
+        raise RuntimeError("MLX default device must select a GPU")
+    if not all(array_type.startswith("mlx.") for array_type in source_array_types):
+        raise RuntimeError("MLX-generated audio is required for a successful audition")
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    generated_records: list[dict[str, object]] = []
+    for sample, rendered, sample_rate in synthesized:
         output_path = (output_dir / _sample_filename(sample)).resolve()
         audio = assemble_audio(rendered, sample_rate, settings["pauses"])  # type: ignore[arg-type]
         write_pcm16_wav(output_path, audio, sample_rate)
@@ -582,8 +599,6 @@ def run_audition(
             "speed": float(sample.speed), "path": str(output_path), "audio": facts,
             "file_sha256": hashlib.sha256(output_path.read_bytes()).hexdigest(),
         })
-    runtime = (evidence_provider or collect_runtime_evidence)()
-    runtime = RuntimeEvidence(runtime.device, runtime.gpu_selected, runtime.metal_telemetry, source_array_type)
     for record in generated_records:
         record["runtime_evidence"] = asdict(runtime)
     replacements = {record["path"]: record for record in generated_records}
@@ -675,7 +690,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         else:
             output = run_render(args.markdown, args.output, args.voice, args.speed, settings, args.pronunciations, args.listening_copy)
             print(output)
-    except (OSError, ValueError, subprocess.CalledProcessError) as error:
+    except Exception as error:
         parser.error(str(error))
     return 0
 
