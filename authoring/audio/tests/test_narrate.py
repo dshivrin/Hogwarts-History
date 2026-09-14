@@ -20,13 +20,18 @@ FIXTURE_PATH = REPOSITORY_ROOT / "authoring/audio/fixtures/audition-excerpt.txt"
 
 
 class MarkdownPreparationTests(unittest.TestCase):
-    def test_markdown_preparation_preserves_double_underscore_identifiers(self):
-        self.assertEqual(strip_inline_markdown("__init__"), "__init__")
+    def test_markdown_preparation_preserves_code_spans_and_strips_emphasis(self):
+        self.assertEqual(
+            strip_inline_markdown(
+                "`__init__` `__future__` `__annotations__` `__builtins__` `__spec__`"
+            ),
+            "__init__ __future__ __annotations__ __builtins__ __spec__",
+        )
         self.assertEqual(strip_inline_markdown("__careful__"), "careful")
         self.assertEqual(strip_inline_markdown("**careful**"), "careful")
         self.assertEqual(
-            markdown_to_blocks("Call __init__ before use.\n"),
-            [SpeechBlock(BlockKind.PARAGRAPH, "Call __init__ before use.")],
+            markdown_to_blocks("Import `__future__` before use.\n"),
+            [SpeechBlock(BlockKind.PARAGRAPH, "Import __future__ before use.")],
         )
 
     def test_markdown_to_blocks_removes_blockquote_markers_from_every_line(self):
