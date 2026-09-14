@@ -1,0 +1,156 @@
+fixture_path: /Users/dima/Documents/Hogwarts History/authoring/audio/fixtures/audition-excerpt.txt
+fixture_sha256: cbe7773891b155bcc6c2f84cf36bed9c926fae1fac70ecc3574b0c401f7abbda
+python_version: 3.12.13
+mlx_audio_version: 0.5.3
+misaki_version: 0.9.4
+model: mlx-community/Kokoro-82M-bf16
+model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+samples:
+- fixture_path: /Users/dima/Documents/Hogwarts History/authoring/audio/fixtures/audition-excerpt.txt
+  fixture_sha256: cbe7773891b155bcc6c2f84cf36bed9c926fae1fac70ecc3574b0c401f7abbda
+  python_version: 3.12.13
+  mlx_audio_version: 0.5.3
+  misaki_version: 0.9.4
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_daniel
+  lang_code: b
+  speed: 0.96
+  path: /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-daniel-096.wav
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 3664200
+    duration_seconds: 152.675
+    peak: 0.6086306571960449
+    non_silent_samples: 3361855
+    finite: true
+    opening_silence_samples: 7879
+    closing_silence_samples: 18215
+  file_sha256: 4e32fe84234df1c9e454887236793579a7ffa471aaae1dec3766ab5d5b9cbe86
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 9945780
+      peak_memory: 3341753400
+    audio_array_type: mlx.core.array
+- fixture_path: /Users/dima/Documents/Hogwarts History/authoring/audio/fixtures/audition-excerpt.txt
+  fixture_sha256: cbe7773891b155bcc6c2f84cf36bed9c926fae1fac70ecc3574b0c401f7abbda
+  python_version: 3.12.13
+  mlx_audio_version: 0.5.3
+  misaki_version: 0.9.4
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  lang_code: b
+  speed: 0.96
+  path: /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-096.wav
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 4366800
+    duration_seconds: 181.95
+    peak: 0.41706594824790955
+    non_silent_samples: 3984064
+    finite: true
+    opening_silence_samples: 7882
+    closing_silence_samples: 18254
+  file_sha256: cb9d89a5941b05b2dca40d0762443dd62c6ea47d1943824996552c9f1e97ca17
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 9945780
+      peak_memory: 3341753400
+    audio_array_type: mlx.core.array
+- fixture_path: /Users/dima/Documents/Hogwarts History/authoring/audio/fixtures/audition-excerpt.txt
+  fixture_sha256: cbe7773891b155bcc6c2f84cf36bed9c926fae1fac70ecc3574b0c401f7abbda
+  python_version: 3.12.13
+  mlx_audio_version: 0.5.3
+  misaki_version: 0.9.4
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bf_alice
+  lang_code: b
+  speed: 0.96
+  path: /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bf-alice-096.wav
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 3906000
+    duration_seconds: 162.75
+    peak: 0.6689351797103882
+    non_silent_samples: 3713647
+    finite: true
+    opening_silence_samples: 7865
+    closing_silence_samples: 18134
+  file_sha256: 6f477ac9ee8ebfbb8731334133b598ba90c36f9dc1b36dc696e394cb28798a98
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 9945780
+      peak_memory: 3341753400
+    audio_array_type: mlx.core.array
+- fixture_path: /Users/dima/Documents/Hogwarts History/authoring/audio/fixtures/audition-excerpt.txt
+  fixture_sha256: cbe7773891b155bcc6c2f84cf36bed9c926fae1fac70ecc3574b0c401f7abbda
+  python_version: 3.12.13
+  mlx_audio_version: 0.5.3
+  misaki_version: 0.9.4
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bf_emma
+  lang_code: b
+  speed: 0.96
+  path: /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bf-emma-096.wav
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 3976800
+    duration_seconds: 165.7
+    peak: 0.6159855723381042
+    non_silent_samples: 3430584
+    finite: true
+    opening_silence_samples: 8496
+    closing_silence_samples: 29738
+  file_sha256: e7d155cf33dd9ceaff6650d31dcc4366bb4fbdd23e8059d8a354e46134097a11
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 9945780
+      peak_memory: 3341753400
+    audio_array_type: mlx.core.array
