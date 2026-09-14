@@ -34,7 +34,9 @@ def strip_inline_markdown(text: str) -> str:
     text = re.sub(r"!\[([^]]*)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"(?m)^\s*>\s?", "", text)
-    text = re.sub(r"[`*_]", "", text)
+    text = text.replace("`", "")
+    text = re.sub(r"(?<!\w)(\*\*|__)(?=\S)(.+?)(?<=\S)\1(?!\w)", r"\2", text)
+    text = re.sub(r"(?<!\w)([*_])(?=\S)(.+?)(?<=\S)\1(?!\w)", r"\2", text)
     return " ".join(text.split())
 
 
@@ -44,7 +46,7 @@ def markdown_to_blocks(markdown: str) -> list[SpeechBlock]:
 
     def flush_prose() -> None:
         if prose_lines:
-            text = strip_inline_markdown(" ".join(prose_lines))
+            text = strip_inline_markdown("\n".join(prose_lines))
             if text:
                 blocks.append(SpeechBlock(BlockKind.PARAGRAPH, text))
             prose_lines.clear()
@@ -55,7 +57,8 @@ def markdown_to_blocks(markdown: str) -> list[SpeechBlock]:
         if heading:
             flush_prose()
             kind = BlockKind.CHAPTER if len(heading.group(1)) == 1 else BlockKind.SECTION
-            text = strip_inline_markdown(heading.group(2))
+            heading_text = re.sub(r"\s+#+\s*$", "", heading.group(2))
+            text = strip_inline_markdown(heading_text)
             if text:
                 blocks.append(SpeechBlock(kind, text))
         elif not line.strip():
