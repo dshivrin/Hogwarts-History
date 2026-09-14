@@ -17,8 +17,10 @@ authoring/audio/.venv/bin/python -m pip install -r authoring/audio/requirements.
 ```
 
 The top-level dependency contract is pinned in `requirements.txt`:
-`mlx-audio==0.5.3`, `misaki[en]==0.9.4`, and `PyYAML==6.0.2`. A later runtime
-task may record the complete resolved environment in `requirements-lock.txt`.
+`mlx-audio==0.5.3`, `misaki[en]==0.9.4`, and `PyYAML==6.0.2`.
+`requirements-lock.txt` is the complete, tested M4 Pro environment snapshot;
+it records the resolved packages from the successful audition rather than
+replacing the portable top-level contract.
 
 ## Test and audition commands
 
@@ -28,6 +30,18 @@ authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py audition \
   --fixture authoring/audio/fixtures/audition-excerpt.txt \
   --sample bm_daniel=0.96 --sample bm_george=0.96 \
   --sample bf_alice=0.96 --sample bf_emma=0.96
+```
+
+The recorded run used CPython `3.12.13`, `mlx-audio 0.5.3`, `misaki 0.9.4`,
+and `PyYAML 6.0.2`; `/opt/homebrew/bin/ffmpeg` and `ffprobe` were version
+`9.0.1`. It used `mlx-community/Kokoro-82M-bf16` at revision
+`a71e4d38b236d968966a2002c4c895dbd12b1c3c`. Verify an existing WAV without
+regenerating it with:
+
+```bash
+/opt/homebrew/bin/ffprobe -v error -show_entries format=duration \
+  -show_entries stream=codec_name,sample_rate,channels -of json SAMPLE.wav
+/opt/homebrew/bin/ffmpeg -v error -i SAMPLE.wav -f null -
 ```
 
 The audition fixture is the exact 442-word first-five-paragraph excerpt. Do
@@ -46,7 +60,18 @@ documented narration-layer substitutions.
 
 Generated output, model caches, Python caches, and generated sample audio are
 ignored by `.gitignore`; `output/.gitkeep` preserves the output directory.
-After the model and voice data have been downloaded once, reruns should use
-the local Hugging Face/MLX cache and require no paid API or subscription. Keep
-the virtual environment and caches under their documented paths, and never
-rewrite the source manuscript as part of narration preparation.
+After the model and voice data have been downloaded once, the model/voice
+files can be reused from the local Hugging Face/MLX cache without a paid API or
+subscription. Keep the virtual environment and caches under their documented
+paths, and never rewrite the source manuscript as part of narration
+preparation.
+
+## Human listening gate
+
+The four approved `0.96` WAVs have technical verification only. This execution
+environment has no audio-return channel, so it has not established comparative
+voice quality, pacing, artifacts, audible pronunciation of `Hogwarts`,
+`Muggle`, or `Muggles`, or awkward spoken sentences. A human must listen to all
+four complete samples before any speed variant, pronunciation substitution, or
+narrator selection. Until then, leave `pronunciation-guide.yaml` empty and
+keep canonical `voice: null` and `speed: null`.
