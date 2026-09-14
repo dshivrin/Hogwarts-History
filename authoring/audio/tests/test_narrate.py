@@ -1,5 +1,6 @@
 import unittest
 from pathlib import Path
+import subprocess
 from tempfile import TemporaryDirectory
 
 import numpy as np
@@ -12,6 +13,7 @@ from authoring.audio.scripts.narrate import (
     apply_pronunciations,
     assemble_audio,
     chunk_blocks,
+    encode_listening_copy,
     extract_prose_excerpt,
     inspect_wav,
     load_pronunciations,
@@ -219,4 +221,34 @@ class AudioAssemblyTests(unittest.TestCase):
         self.assertEqual(facts["sample_rate"], 24000)
         self.assertEqual(facts["channels"], 1)
         self.assertEqual(facts["sample_count"], 4)
+        self.assertTrue(facts["finite"])
+        self.assertEqual(facts["duration_seconds"], 4 / 24000)
+        self.assertEqual(facts["non_silent_samples"], 2)
+        self.assertEqual(facts["opening_silence_samples"], 1)
+        self.assertEqual(facts["closing_silence_samples"], 1)
         self.assertLessEqual(facts["peak"], 0.951)
+
+    def test_encode_listening_copy_surfaces_ffmpeg_failure_with_the_real_command(self):
+        failing_ffmpeg = self.temp_dir / "failing-ffmpeg"
+        failing_ffmpeg.write_text("#!/bin/sh\nexit 23\n", encoding="utf-8")
+        failing_ffmpeg.chmod(0o755)
+        wav_path = self.temp_dir / "input.wav"
+        output_path = self.temp_dir / "nested" / "listening.m4a"
+
+        with self.assertRaises(subprocess.CalledProcessError) as raised:
+            encode_listening_copy(wav_path, output_path, ffmpeg=str(failing_ffmpeg))
+
+        self.assertEqual(
+            raised.exception.cmd,
+            [
+                str(failing_ffmpeg),
+                "-y",
+                "-v",
+                "error",
+                "-i",
+                str(wav_path),
+                str(output_path),
+            ],
+        )
+        self.assertEqual(raised.exception.returncode, 23)
+        self.assertTrue(output_path.parent.is_dir())
