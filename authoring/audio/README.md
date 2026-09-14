@@ -17,7 +17,9 @@ authoring/audio/.venv/bin/python -m pip install -r authoring/audio/requirements.
 ```
 
 The top-level dependency contract is pinned in `requirements.txt`:
-`mlx-audio==0.5.3`, `misaki[en]==0.9.4`, and `PyYAML==6.0.2`.
+`mlx-audio==0.5.3`, `misaki[en]==0.9.4`, the exact `en_core_web_sm` wheel
+needed for British G2P, and `PyYAML==6.0.2`. The G2P asset is installed by the
+requirements command above; it is not an extra manual spaCy step.
 `requirements-lock.txt` is the complete, tested M4 Pro environment snapshot;
 it records the resolved packages from the successful audition rather than
 replacing the portable top-level contract.
