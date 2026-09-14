@@ -19,6 +19,24 @@ FIXTURE_PATH = REPOSITORY_ROOT / "authoring/audio/fixtures/audition-excerpt.txt"
 
 
 class MarkdownPreparationTests(unittest.TestCase):
+    def test_markdown_to_blocks_removes_blockquote_markers_from_every_line(self):
+        self.assertEqual(
+            markdown_to_blocks("> First line\n> Second line\n"),
+            [SpeechBlock(BlockKind.PARAGRAPH, "First line Second line")],
+        )
+
+    def test_markdown_to_blocks_preserves_literal_underscore_characters(self):
+        self.assertEqual(
+            markdown_to_blocks("A snake_case name and *careful* prose.\n"),
+            [SpeechBlock(BlockKind.PARAGRAPH, "A snake_case name and careful prose.")],
+        )
+
+    def test_markdown_to_blocks_removes_closing_atx_heading_markers(self):
+        self.assertEqual(
+            markdown_to_blocks("# A heading #\n"),
+            [SpeechBlock(BlockKind.CHAPTER, "A heading")],
+        )
+
     def test_markdown_to_blocks_removes_development_markup_and_keeps_spoken_text(self):
         source = """---\ndraft: true\n---\n# Chapter One\n\n## Before Hogwarts\n\nA *careful* [history](https://example.test) remains.\n\n<!-- evidence:\nsource-001\n-->\n"""
         self.assertEqual(
