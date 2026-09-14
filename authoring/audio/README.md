@@ -60,11 +60,24 @@ documented narration-layer substitutions.
 
 Generated output, model caches, Python caches, and generated sample audio are
 ignored by `.gitignore`; `output/.gitkeep` preserves the output directory.
-After the model and voice data have been downloaded once, the model/voice
-files can be reused from the local Hugging Face/MLX cache without a paid API or
-subscription. Keep the virtual environment and caches under their documented
-paths, and never rewrite the source manuscript as part of narration
-preparation.
+After the initial successful download has placed the model and requested voice
+files in the local Hugging Face cache, the same audition can be rerun without
+network access. To enforce that condition (and fail rather than download if a
+required cached artifact is missing), prefix the normal CLI invocation with
+`HF_HUB_OFFLINE=1`, for example:
+
+```bash
+HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py audition \
+  --fixture authoring/audio/fixtures/audition-excerpt.txt \
+  --sample bm_daniel=0.96 --sample bm_george=0.96 \
+  --sample bf_alice=0.96 --sample bf_emma=0.96
+```
+
+The revision resolver first uses the loaded model/cache path; if it cannot
+discover a revision locally, its best-effort Hub lookup fails harmlessly in
+offline mode and does not prevent a cached render. Keep the virtual environment
+and caches under their documented paths, and never rewrite the source
+manuscript as part of narration preparation.
 
 ## Human listening gate
 
