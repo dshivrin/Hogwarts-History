@@ -3,6 +3,46 @@ from enum import Enum
 import re
 
 
+_PYTHON_DUNDER_IDENTIFIERS = frozenset(
+    {
+        "__all__",
+        "__bool__",
+        "__call__",
+        "__class__",
+        "__contains__",
+        "__del__",
+        "__delattr__",
+        "__delitem__",
+        "__dict__",
+        "__dir__",
+        "__doc__",
+        "__enter__",
+        "__eq__",
+        "__exit__",
+        "__file__",
+        "__format__",
+        "__getattr__",
+        "__getitem__",
+        "__hash__",
+        "__init__",
+        "__iter__",
+        "__len__",
+        "__main__",
+        "__module__",
+        "__name__",
+        "__ne__",
+        "__new__",
+        "__next__",
+        "__repr__",
+        "__setattr__",
+        "__setitem__",
+        "__slots__",
+        "__str__",
+        "__version__",
+    }
+)
+
+
 class BlockKind(str, Enum):
     CHAPTER = "chapter"
     SECTION = "section"
@@ -50,10 +90,9 @@ def strip_inline_markdown(text: str) -> str:
 
 
 def _strip_double_underscore_emphasis(match: re.Match[str]) -> str:
-    visible_text = match.group(1)
-    if re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", visible_text):
+    if match.group(0) in _PYTHON_DUNDER_IDENTIFIERS:
         return match.group(0)
-    return visible_text
+    return match.group(1)
 
 
 def markdown_to_blocks(markdown: str) -> list[SpeechBlock]:

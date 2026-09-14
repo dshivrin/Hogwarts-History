@@ -22,6 +22,7 @@ FIXTURE_PATH = REPOSITORY_ROOT / "authoring/audio/fixtures/audition-excerpt.txt"
 class MarkdownPreparationTests(unittest.TestCase):
     def test_markdown_preparation_preserves_double_underscore_identifiers(self):
         self.assertEqual(strip_inline_markdown("__init__"), "__init__")
+        self.assertEqual(strip_inline_markdown("__careful__"), "careful")
         self.assertEqual(strip_inline_markdown("**careful**"), "careful")
         self.assertEqual(
             markdown_to_blocks("Call __init__ before use.\n"),
