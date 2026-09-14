@@ -3,46 +3,6 @@ from enum import Enum
 import re
 
 
-_PYTHON_DUNDER_IDENTIFIERS = frozenset(
-    {
-        "__all__",
-        "__bool__",
-        "__call__",
-        "__class__",
-        "__contains__",
-        "__del__",
-        "__delattr__",
-        "__delitem__",
-        "__dict__",
-        "__dir__",
-        "__doc__",
-        "__enter__",
-        "__eq__",
-        "__exit__",
-        "__file__",
-        "__format__",
-        "__getattr__",
-        "__getitem__",
-        "__hash__",
-        "__init__",
-        "__iter__",
-        "__len__",
-        "__main__",
-        "__module__",
-        "__name__",
-        "__ne__",
-        "__new__",
-        "__next__",
-        "__repr__",
-        "__setattr__",
-        "__setitem__",
-        "__slots__",
-        "__str__",
-        "__version__",
-    }
-)
-
-
 class BlockKind(str, Enum):
     CHAPTER = "chapter"
     SECTION = "section"
@@ -71,28 +31,34 @@ def remove_html_comments(text: str) -> str:
 
 
 def strip_inline_markdown(text: str) -> str:
+    code_spans: list[str] = []
+    sentinel = "\0"
+    while sentinel in text:
+        sentinel += "\0"
+
+    def protect_code_span(match: re.Match[str]) -> str:
+        code_spans.append(match.group("content"))
+        return f"{sentinel}{len(code_spans) - 1}{sentinel}"
+
+    text = re.sub(
+        r"(?P<delimiter>`+)(?P<content>.+?)(?P=delimiter)",
+        protect_code_span,
+        text,
+    )
     text = re.sub(r"!\[([^]]*)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"(?m)^\s*>\s?", "", text)
     text = text.replace("`", "")
     text = re.sub(r"(?<!\w)\*\*(?=\S)(.+?)(?<=\S)\*\*(?!\w)", r"\1", text)
-    text = re.sub(
-        r"(?<!\w)__(?=\S)(.+?)(?<=\S)__(?!\w)",
-        _strip_double_underscore_emphasis,
-        text,
-    )
+    text = re.sub(r"(?<!\w)__(?=\S)(.+?)(?<=\S)__(?!\w)", r"\1", text)
     text = re.sub(
         r"(?<![\w_])([*_])(?!_)(?=\S)(.+?)(?<=\S)\1(?![\w_])",
         r"\2",
         text,
     )
+    for index, code_span in enumerate(code_spans):
+        text = text.replace(f"{sentinel}{index}{sentinel}", code_span)
     return " ".join(text.split())
-
-
-def _strip_double_underscore_emphasis(match: re.Match[str]) -> str:
-    if match.group(0) in _PYTHON_DUNDER_IDENTIFIERS:
-        return match.group(0)
-    return match.group(1)
 
 
 def markdown_to_blocks(markdown: str) -> list[SpeechBlock]:
