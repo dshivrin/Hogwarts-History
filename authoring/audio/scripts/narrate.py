@@ -2,8 +2,11 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 import re
-from typing import Sequence
+import subprocess
+from typing import Mapping, Sequence
+import wave
 
+import numpy as np
 import yaml
 
 
@@ -30,6 +33,13 @@ class Pronunciation:
 class SpeechChunk:
     kind: BlockKind
     text: str
+    ends_block: bool
+
+
+@dataclass(frozen=True)
+class RenderedChunk:
+    kind: BlockKind
+    audio: np.ndarray
     ends_block: bool
 
 
@@ -125,6 +135,109 @@ def chunk_blocks(
             for index, text in enumerate(block_chunks)
         )
     return chunks
+
+
+def assemble_audio(
+    chunks: Sequence[RenderedChunk], sample_rate: int, pauses: Mapping[str, int]
+) -> np.ndarray:
+    if not chunks:
+        raise ValueError("At least one rendered chunk is required")
+    if sample_rate < 1:
+        raise ValueError("sample_rate must be positive")
+
+    pause_keys = {
+        "opening_ms",
+        "continuation_ms",
+        "paragraph_ms",
+        "section_ms",
+        "chapter_ms",
+        "closing_ms",
+    }
+    if set(pauses) != pause_keys or any(
+        type(pauses[key]) is not int or pauses[key] < 0 for key in pause_keys
+    ):
+        raise ValueError("pauses must contain non-negative integer millisecond values")
+
+    def silence(milliseconds: int) -> np.ndarray:
+        samples = round(sample_rate * milliseconds / 1000)
+        return np.zeros(samples, dtype=np.float32)
+
+    parts = [silence(pauses["opening_ms"])]
+    ending_pause_keys = {
+        BlockKind.PARAGRAPH: "paragraph_ms",
+        BlockKind.SECTION: "section_ms",
+        BlockKind.CHAPTER: "chapter_ms",
+    }
+    for chunk in chunks:
+        audio = np.asarray(chunk.audio)
+        if audio.ndim != 1 or audio.size == 0 or not np.isfinite(audio).all():
+            raise ValueError("Rendered chunk audio must be a non-empty finite mono array")
+        parts.append(audio.astype(np.float32, copy=False))
+        pause_key = (
+            ending_pause_keys[chunk.kind]
+            if chunk.ends_block
+            else "continuation_ms"
+        )
+        parts.append(silence(pauses[pause_key]))
+    parts.append(silence(pauses["closing_ms"]))
+    return np.concatenate(parts)
+
+
+def write_pcm16_wav(path: Path, audio: np.ndarray, sample_rate: int) -> None:
+    if sample_rate < 1:
+        raise ValueError("sample_rate must be positive")
+    samples = np.asarray(audio, dtype=np.float32).reshape(-1)
+    if samples.size == 0 or not np.isfinite(samples).all():
+        raise ValueError("audio must be non-empty and finite")
+    peak = float(np.max(np.abs(samples)))
+    if peak > 0.95:
+        samples = samples * (0.95 / peak)
+    pcm = np.rint(samples * 32767).astype("<i2")
+    with wave.open(str(path), "wb") as output:
+        output.setnchannels(1)
+        output.setsampwidth(2)
+        output.setframerate(sample_rate)
+        output.writeframes(pcm.tobytes())
+
+
+def inspect_wav(path: Path) -> dict[str, int | float | bool]:
+    with wave.open(str(path), "rb") as input_file:
+        channels = input_file.getnchannels()
+        sample_width = input_file.getsampwidth()
+        sample_rate = input_file.getframerate()
+        sample_count = input_file.getnframes()
+        frames = input_file.readframes(sample_count)
+    if channels != 1 or sample_width != 2:
+        raise ValueError("WAV must be one-channel 16-bit PCM")
+
+    samples = np.frombuffer(frames, dtype="<i2")
+    normalized = samples.astype(np.float32) / 32767
+    non_silent = normalized != 0
+    opening_silence = int(np.argmax(non_silent)) if non_silent.any() else len(samples)
+    closing_silence = (
+        int(np.argmax(non_silent[::-1])) if non_silent.any() else len(samples)
+    )
+    return {
+        "sample_rate": sample_rate,
+        "channels": channels,
+        "sample_count": sample_count,
+        "duration_seconds": sample_count / sample_rate,
+        "peak": float(np.max(np.abs(normalized))) if sample_count else 0.0,
+        "non_silent_samples": int(np.count_nonzero(non_silent)),
+        "finite": bool(np.isfinite(normalized).all()),
+        "opening_silence_samples": opening_silence,
+        "closing_silence_samples": closing_silence,
+    }
+
+
+def encode_listening_copy(
+    wav_path: Path, output_path: Path, ffmpeg: str = "ffmpeg"
+) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        [ffmpeg, "-y", "-v", "error", "-i", str(wav_path), str(output_path)],
+        check=True,
+    )
 
 
 def strip_front_matter(text: str) -> str:
