@@ -59,11 +59,12 @@ environment. Install the stable, exact top-level dependencies:
 
 - `mlx-audio==0.5.3`
 - `misaki[en]==0.9.4`
+- `en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85`
 - `PyYAML==6.0.2`
 
 Use `pip freeze` after successful generation to record the complete resolved
 environment in `requirements-lock.txt`. The short `requirements.txt` remains
-the human-maintained top-level dependency contract.
+the authoritative, human-maintained top-level dependency contract.
 
 Use `espeakng-loader`, installed by the Misaki English extra, for the English
 out-of-dictionary phonemization fallback. Do not install a separate Homebrew
