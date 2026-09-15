@@ -71,8 +71,13 @@ samples/*.opus
 ```text
 mlx-audio==0.5.3
 misaki[en]==0.9.4
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
 PyYAML==6.0.2
 ```
+
+`authoring/audio/requirements.txt` is the authoritative portable dependency
+contract; use it for clean installation rather than relying on this historical
+plan excerpt.
 
 - [ ] **Step 3: Add canonical settings with unset narrator fields**
 
