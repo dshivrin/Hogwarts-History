@@ -79,3 +79,73 @@ No A/B URL failed. The unresolved status is about provenance level, archive comp
 5. B05-B10 and B21-B26 only after multi-part and duplicate-carrier grouping is preserved.
 
 Do not merge any extracted statement into the 1,314-entry evidence seed until that separate phase is explicitly authorized.
+
+---
+
+## Targeted runes, potions, plants, and early-culture supplement
+
+**Retrieval date:** 2026-09-15
+
+**Extraction completed:** 2026-09-16
+
+**Authorization:** Research/evidence-layer task to audit, acquire, and extract the identified official sources without editing `authoring/` or Chapter 1.
+
+### Audit result
+
+The Pensieve source was already present as A17 and fully extracted. Its four entries already distinguish:
+
+- the generations of Hogwarts heads who used it;
+- the carved-stone basin, modified Saxon runes, and explicit pre-Hogwarts date;
+- the unsubstantiated Founders discovery legend;
+- the burial custom associated with the artefact.
+
+No A17 acquisition or evidence changes were required.
+
+The eight other named Rowling Original pages were absent. One official editorial added a distinct, explicitly speculative Ancient Runes claim. All nine missing carriers were fetched from their canonical public HTTPS URLs, returned non-empty official page data, and had unique body hashes, canonical URLs, logical IDs, and local paths relative to the existing 63-source manifest.
+
+| ID | Title | Authority | Class | Evidence entries |
+|---|---|---:|---|---:|
+| A38 | The Potter Family | A | `official_rowling_original` | 5 |
+| A39 | Potions | A | `official_rowling_original` | 4 |
+| A40 | Cauldrons | A | `official_rowling_original` | 4 |
+| A41 | Mr Ollivander | A | `official_rowling_original` | 3 |
+| A42 | Wand Woods | A | `official_rowling_original` | 5 |
+| A43 | Fourteenth Century – Seventeenth Century | A | `official_rowling_original` | 4 |
+| A44 | Seventeenth Century and Beyond | A | `official_rowling_original` | 3 |
+| A45 | Technology | A | `official_rowling_original` | 4 |
+| F01 | The Hogwarts classes that you might have forgotten about | E | `secondary_reference` | 2 |
+| **Supplement total** |  |  |  | **34** |
+
+The Rowling Original page “Alchemy” was also audited because F01 links to it. Its authorial note discusses real-world alchemical symbolism and Rowling's imagined sixth- and seventh-year study. The institutional proposition is already represented by A18-003, and the page does not support F01's distinct editorial statement that alchemy has roots in potion-making. It was therefore not acquired as a repetitive carrier. Other modern listicles and derivative potion pages were likewise excluded where they added no distinct historical, institutional, or source-critical evidence.
+
+### Authority and chronology decisions
+
+- A38-A45 retain authority A and `official_rowling_original`.
+- F01 is stored separately under `official-editorial`, retains authority E and `secondary_reference`, and is not counted as Rowling Original Writing.
+- F01's Bronze/Iron Age runes hypothesis and alchemy description are `weak_context_only`, `later_editorial_note`, and low confidence. Its speculative language is preserved in both entries.
+- A38's Linfred material is twelfth-century, post-foundation comparison rather than pre-Hogwarts evidence.
+- A43 and A44 are later, non-British comparative history and cannot establish early British or Hogwarts practice.
+- Undated technical descriptions in A39, A40, and A42 remain `unknown_or_uncertain` where the sources do not establish origins.
+- A45's pre-Statute transport claim is not narrowed to the tenth century.
+
+### Incremental acquisition support
+
+The existing acquisition runtime now supports selected-ID append operations. It rejects logical-ID, URL, and snapshot-path collisions, writes snapshots and the manifest atomically, and assigns explicit profiles to Rowling Originals, preservation transcripts, and official editorials. Queue initialization appends newly manifested units while preserving completed-unit state and history. The validator and queue route F-family official editorials to their own canonical source group.
+
+### Corpus outcome
+
+- External manifest: 72 records — 45 authority A Rowling Originals, 26 authority D preservation transcripts, and 1 authority E official editorial.
+- External evidence: 72 source units and 276 evidence entries.
+- Full evidence corpus: 299 source units and 1,717 evidence entries.
+- Supplement contribution: 9 source units and 34 evidence entries.
+
+All nine supplement units completed through the canonical claim/stage/complete queue. Duplicate candidates were reviewed and recorded per entry. Canonical duplicate, entry, source, and tag indexes plus the normal seed and appendix artifacts were regenerated.
+
+### Validation evidence
+
+- Canonical source YAML validator: passed.
+- Repository `unittest` suite: 69 tests passed.
+- Focused acquisition and queue `pytest` suite: 47 tests passed.
+- External queue: 72 done, 0 pending, 0 in progress, 0 blocked.
+- `git diff --check`: clean.
+- `authoring/`: no changed paths.

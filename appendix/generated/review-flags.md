@@ -31,6 +31,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b25-003` (B25, "Living with Harry Potter"): Rowling describes Books Six and Seven as a continuous late-series plot rather than a self-contained adventure.
 - `ext-b26-001` (B26, An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006): Rowling describes a past scene in which a younger Dumbledore personally informs a pupil of a Hogwarts place, indicating direct admission notification in that pre-1984 episode.
 - `ext-b26-002` (B26, An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006): Rowling explicitly confirms Dumbledore's death while answering a question about the Book Six ending and the forthcoming seventh book.
+- `ext-f01-001` (F01, The Hogwarts classes that you might have forgotten about): An official editorial speculates that the runic alphabet may derive from Bronze or Iron Age wizarding culture and that the class may study that culture more broadly.
+- `ext-f01-002` (F01, The Hogwarts classes that you might have forgotten about): An official editorial characterizes alchemy as ancient, element-based transmutation with roots in potion-making and chemistry.
 
 ## Unknown Era
 
@@ -53,6 +55,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a28-004` (A28, Wizarding Schools): As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
 - `ext-a36-002` (A36, Scottish Rugby): Hogwarts annually awards the Angus Buchanan Cup for Outstanding Effort in recognition of the Squib sportsman and author.
 - `ext-a37-001` (A37, Extension Charms): Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
+- `ext-a39-001` (A39, Potions): Potion-making is inherently magical and requires wandwork; a Muggle with instructions and ingredients could not reproduce it as ordinary cooking.
+- `ext-a39-002` (A39, Potions): Some potions overlap with spells and charms, while Polyjuice Potion and Felix Felicis exemplify effects that cannot be achieved by other means.
+- `ext-a39-003` (A39, Potions): Potioneering is a recognized branch of magic requiring patience and specialist skill, associated with dangerous substances, status, and effects difficult for non-specialists to reverse.
+- `ext-a40-001` (A40, Cauldrons): Muggles and wizards once used the same suspended cooking pots; wizards retained cauldrons for potion brewing after saucepans and stoves displaced them elsewhere.
+- `ext-a40-002` (A40, Cauldrons): Potion-making requires a naked flame, making the fire-suspended cauldron particularly practical for the craft.
+- `ext-a40-003` (A40, Cauldrons): Common pewter or iron cauldrons carry lightening enchantments, while self-stirring, collapsible, and precious-metal varieties represent specialized or modern forms.
+- `ext-a42-001` (A42, Wand Woods): Wand-quality trees are an exceptional magical minority; recognizing them requires years of experience, with Bowtruckle habitation serving as a practical indicator.
+- `ext-a42-004` (A42, Wand Woods): Wandmakers inherited rhymes and superstitions, but Ollivander distinguishes limited experiential value from baseless claims and explicitly unprovable tradition.
+- `ext-a45-003` (A45, Technology): Wizards legally adapted radios for their own programmes, although Muggle listeners sometimes overheard practical advice about magical plants and garden creatures.
+- `ext-a45-004` (A45, Technology): Twentieth-century wizards adopted Muggle automobiles despite cultural resistance, and the Ministry acquired and magically modified its own fleet.
 - `ext-b14-001` (B14, Barnes and Noble interview, March 19, 1999): The interview attributes magical ability to an unknown origin, says it can be inherited, and says some magical people are the only such person in their family.
 - `ext-b14-002` (B14, Barnes and Noble interview, March 19, 1999): Rowling says magic usually manifests before age eleven; exceptional late-life magic can occur only rarely in the world she describes.
 - `ext-b14-003` (B14, Barnes and Noble interview, March 19, 1999): Rowling says she designed rules and limits for magic before inventing the methods wizards use; she characterizes most of that magic as her invention.
@@ -1358,6 +1370,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a34-004` (A34, Dolores Umbridge): Umbridge's Hogwarts tenure ended after she exceeded the remit that Minister Fudge had granted her.
 - `ext-a35-001` (A35, Draco Malfoy): Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
 - `ext-a35-002` (A35, Draco Malfoy): Rowling attributes the successful admission of a group of Death Eaters into Hogwarts to Draco’s plan; Dumbledore was subsequently killed by Snape, not Draco.
+- `ext-a39-004` (A39, Potions): In authorial commentary, Rowling links dittany to real anti-inflammatory properties and bezoars to a historical belief that bezoar-infused water treated poisoning.
+- `ext-a40-004` (A40, Cauldrons): Rowling's authorial note links cauldrons to centuries of witch imagery, folk and fairy tales, Irish mythic jewels, and the Thirteen Treasures of Britain.
 - `ext-b01-005` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript links ghosthood after death to unhappiness, while explicitly withholding the fuller explanation for a later book.
 - `ext-b01-006` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript states that there is no university for wizards, in response to a question about education after Hogwarts.
 - `ext-b03-002` (B03, America Online chat transcript, AOL.com , 19 October 2000): The transcript forecasts that a woman will serve as a Defense Against the Dark Arts teacher, without identifying her or specifying a term of service.
@@ -1381,6 +1395,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b24-003` (B24, "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001): Rowling says her own loss of a parent informed the Mirror of Erised's emotional premise.
 - `ext-b25-003` (B25, "Living with Harry Potter"): Rowling describes Books Six and Seven as a continuous late-series plot rather than a self-contained adventure.
 - `ext-b26-002` (B26, An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006): Rowling explicitly confirms Dumbledore's death while answering a question about the Book Six ending and the forthcoming seventh book.
+- `ext-f01-001` (F01, The Hogwarts classes that you might have forgotten about): An official editorial speculates that the runic alphabet may derive from Bronze or Iron Age wizarding culture and that the class may study that culture more broadly.
+- `ext-f01-002` (F01, The Hogwarts classes that you might have forgotten about): An official editorial characterizes alchemy as ancient, element-based transmutation with roots in potion-making and chemistry.
 - `fb-ch00-004` (Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword): Dumbledore presents the Comic Relief edition as the first Obscurus title made available to Muggles and urges wizards to recognize Muggle charitable magic.
 - `fb-ch00-005` (Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword): The edition is framed as a duplicate of Harry's annotated copy, with Harry and his friends' marginal notes retained by agreement with Comic Relief and Scamander.
 - `fb-ch00-006` (Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword): The special edition is sold through both Flourish and Blotts and Muggle bookshops, with extra wizarding donations directed through Gringotts and a joking Thief's Curse warning ending in the Hogwarts motto.
@@ -1943,6 +1959,16 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a22-005` (A22, Familiars): Owls function as messengers, but Rowling characterizes this as a highly organised postal service comparable to Muggle pigeon post, not as familiar service.
 - `ext-a24-002` (A24, The Floo Network): The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.
 - `ext-a28-004` (A28, Wizarding Schools): As a qualified general rule, magical schools are placed in landlocked mountainous areas because those regions are difficult for Muggles to access and easier to defend from Dark wizards.
+- `ext-a38-001` (A38, The Potter Family): In twelfth-century Britain, Linfred privately experimented with magic while providing cures to Muggle neighbours who regarded him as an eccentric gardener with unusual plants.
+- `ext-a38-003` (A38, The Potter Family): Wizengamot member Ralston Potter supported the Statute of Secrecy against contemporaries who preferred war with Muggles.
+- `ext-a38-004` (A38, The Potter Family): Wizengamot member Henry Potter publicly opposed a ministerial ban on magical assistance to Muggles during the First World War.
+- `ext-a39-001` (A39, Potions): Potion-making is inherently magical and requires wandwork; a Muggle with instructions and ingredients could not reproduce it as ordinary cooking.
+- `ext-a40-001` (A40, Cauldrons): Muggles and wizards once used the same suspended cooking pots; wizards retained cauldrons for potion brewing after saucepans and stoves displaced them elsewhere.
+- `ext-a44-001` (A44, Seventeenth Century and Beyond): Seventeenth-century European magical migration accompanied No-Maj settlement, with some migrants blending among No-Majs or seeking protection within Native American wizarding communities.
+- `ext-a45-001` (A45, Technology): Before the Statute of Secrecy, wizards and Muggles shared ordinary transport technologies, including horse-drawn carts and sailing ships.
+- `ext-a45-002` (A45, Technology): In the early 1980s, a proposed British wizarding television channel failed when the Ministry judged broadcasts on a Muggle device a serious secrecy risk.
+- `ext-a45-003` (A45, Technology): Wizards legally adapted radios for their own programmes, although Muggle listeners sometimes overheard practical advice about magical plants and garden creatures.
+- `ext-a45-004` (A45, Technology): Twentieth-century wizards adopted Muggle automobiles despite cultural resistance, and the Ministry acquired and magically modified its own fleet.
 - `ext-b01-001` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
 - `ext-b01-004` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
 - `ext-b02-002` (B02, "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000): Rowling says witches and wizards are not required to attend Muggle school before beginning at Hogwarts.
@@ -2360,6 +2386,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a33-003` (A33, Sybill Trelawney): Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
 - `ext-a35-001` (A35, Draco Malfoy): Rowling states that Draco was a Prefect and joined Umbridge’s Inquisitorial Squad, using its authority to investigate the secret student group Dumbledore’s Army.
 - `ext-a37-001` (A37, Extension Charms): Hogwarts school trunks are standardly issued with capacity enhancement; the source places school trunks among the Ministry-approved manufactured objects exempted from the ban on private capacity enhancement.
+- `ext-a38-001` (A38, The Potter Family): In twelfth-century Britain, Linfred privately experimented with magic while providing cures to Muggle neighbours who regarded him as an eccentric gardener with unusual plants.
+- `ext-a38-004` (A38, The Potter Family): Wizengamot member Henry Potter publicly opposed a ministerial ban on magical assistance to Muggles during the First World War.
+- `ext-a38-005` (A38, The Potter Family): Fleamont Potter created and commercialized Sleekeazy's Hair Potion, multiplying the inherited Potter fortune before selling the company on retirement.
+- `ext-a39-002` (A39, Potions): Some potions overlap with spells and charms, while Polyjuice Potion and Felix Felicis exemplify effects that cannot be achieved by other means.
+- `ext-a42-002` (A42, Wand Woods): Geraint Ollivander is identified as a great medieval wandmaker whose written observations on matching cypress wands survived into later family craft knowledge.
+- `ext-a42-004` (A42, Wand Woods): Wandmakers inherited rhymes and superstitions, but Ollivander distinguishes limited experiential value from baseless claims and explicitly unprovable tradition.
+- `ext-a43-004` (A43, Fourteenth Century – Seventeenth Century): Wands originated in Europe and improve magical precision and power, yet Native American Animagi and potion-makers demonstrate that wandless magic can reach high complexity.
+- `ext-a45-001` (A45, Technology): Before the Statute of Secrecy, wizards and Muggles shared ordinary transport technologies, including horse-drawn carts and sailing ships.
 - `ext-b01-001` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
 - `ext-b01-004` (B01, Online chat transcript, Scholastic.com , 3 February 2000): The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
 - `ext-b02-002` (B02, "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000): Rowling says witches and wizards are not required to attend Muggle school before beginning at Hogwarts.
@@ -2391,6 +2425,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b23-002` (B23, Red Nose Day Chat, BBC Online , March 12, 2001): Rowling says that Goblet of Fire had already depicted two other wizarding schools, while declining to plan a separate series about them.
 - `ext-b24-001` (B24, "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001): Rowling says her Platform 9 3/4 visualization mistakenly used Euston's platforms while she was living in Manchester.
 - `ext-b26-001` (B26, An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006): Rowling describes a past scene in which a younger Dumbledore personally informs a pupil of a Hogwarts place, indicating direct admission notification in that pre-1984 episode.
+- `ext-f01-001` (F01, The Hogwarts classes that you might have forgotten about): An official editorial speculates that the runic alphabet may derive from Bronze or Iron Age wizarding culture and that the class may study that culture more broadly.
 - `fb-ch00-002` (Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword): Scamander is credited with creating the Werewolf Register, championing the 1965 Ban on Experimental Breeding, conducting dragon research, and receiving the Order of Merlin for magizoology.
 - `fb-ch00-003` (Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword): Dumbledore says Fantastic Beasts has long been an approved Hogwarts textbook and credits it with students' strong Care of Magical Creatures examination results.
 - `fb-ch00-004` (Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword): Dumbledore presents the Comic Relief edition as the first Obscurus title made available to Muggles and urges wizards to recognize Muggle charitable magic.

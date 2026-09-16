@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 290
+- Total: 299
 
 ## Entries by Book or External Source
 
@@ -49,6 +49,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - A35 — Draco Malfoy: 2
 - A36 — Scottish Rugby: 2
 - A37 — Extension Charms: 1
+- A38 — The Potter Family: 5
+- A39 — Potions: 4
+- A40 — Cauldrons: 4
+- A41 — Mr Ollivander: 3
+- A42 — Wand Woods: 5
+- A43 — Fourteenth Century – Seventeenth Century: 4
+- A44 — Seventeenth Century and Beyond: 3
+- A45 — Technology: 4
 - B01 — Online chat transcript, Scholastic.com , 3 February 2000: 6
 - B02 — "About the Books: transcript of J.K. Rowling's live interview on Scholastic.com," Scholastic.com , 16 October 2000: 5
 - B03 — America Online chat transcript, AOL.com , 19 October 2000: 2
@@ -75,6 +83,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - B24 — "Harry Potter and Me" (BBC Christmas Special, British version), BBC , 28 December 2001: 3
 - B25 — "Living with Harry Potter": 3
 - B26 — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006: 2
+- F01 — The Hogwarts classes that you might have forgotten about: 2
 - Fantastic Beasts and Where to Find Them: 61
 - Harry Potter and the Chamber of Secrets: 115
 - Harry Potter and the Deathly Hallows: 245
@@ -89,11 +98,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 554
-- later_editorial_note: 706
+- later_editorial_note: 710
 - original_book_core_candidate: 13
 - post_1984_excluded_from_original: 42
-- pre_1984_historical_candidate: 346
-- unknown_or_uncertain: 22
+- pre_1984_historical_candidate: 366
+- unknown_or_uncertain: 32
 
 ## Entries by Reference Type
 
@@ -102,14 +111,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - direct_observed_setting: 70
 - explicit_hogwarts_a_history: 10
 - explicit_in_universe_source: 114
-- historical_claim: 345
+- historical_claim: 375
 - house_system: 42
 - institutional_custom: 231
 - magical_architecture: 116
 - portrait_or_ghost_lore: 36
 - school_rule_or_policy: 165
 - security_or_protection: 249
-- weak_context_only: 11
+- weak_context_only: 15
 
 ## Explicit `Hogwarts: A History` References
 
@@ -121,7 +130,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Latest Processed Unit
 
-- `B26` — An Evening with Harry, Carrie and Garp : Readings and questions #2, August 2, 2006, input `resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md`, output `sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml`
+- `F01` — The Hogwarts classes that you might have forgotten about, input `resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md`, output `sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml`
 
 ## Next Pending Unit
 

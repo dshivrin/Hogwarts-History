@@ -4,10 +4,10 @@ Generated display only. Source of truth: `project-control/source-plan.yaml`.
 
 ## External Source Queue
 
-- Total: 63
+- Total: 72
 - Pending: 0
 - In progress: 0
-- Done: 63
+- Done: 72
 - Blocked: 0
 
 ## Next Pending Unit

@@ -1,0 +1,290 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A42
+  source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+  title: Wand Woods
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+  capture_completeness: complete
+  content_sha256: 05a0285f6f66826f27e66f605cb4b7bb3684d147ecf4786fc2200e4d1b4e0112
+  processed_date: '2026-09-15'
+  processor_notes: Complete snapshot read; historical craft, plant, tradition, and commerce evidence was selected without extracting the wood-personality catalogue.
+
+entries:
+  - id: ext-a42-001
+    source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+    source_id: A42
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+    source_section: Introduction
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Only a minority of trees can produce wand-quality wood
+      end_phrase: as they never inhabit mundane trees.
+      local_occurrence_note: Final introductory paragraph before the alphabetical wood catalogue.
+    nearby_context: Ollivander describes wand-tree recognition as an experienced craft and Bowtruckle habitation as a practical sign of magical wood.
+    match_terms:
+      - wand-quality-wood
+      - magical-trees
+      - bowtruckles
+      - craft-knowledge
+    quote_excerpt_short: Only a minority of trees can produce wand-quality wood.
+    source_note: Wand-quality trees are an exceptional magical minority; recognizing them requires years of experience, with Bowtruckle habitation serving as a practical indicator.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - wandmaking
+      - wand-woods
+      - bowtruckles
+      - magical-trees
+      - craft-knowledge
+    candidate_part: Magical Crafts and Material Culture
+    candidate_chapter: Wandcraft
+    candidate_section: Magical Trees and Wood Selection
+    reason_for_placement: Connects plant magic, creature ecology, and the specialist knowledge required to obtain wand material.
+    relevance_to_hogwarts_a_history: Supports wandcraft as learned ecological practice, but supplies no date or direct link to Hogwarts teaching.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The closest book entry corroborates Bowtruckles' association with wand-quality trees; none frames tree selection as a specialist craft.
+      audit:
+        query_tags:
+          - wandmaking
+          - wand-woods
+          - bowtruckles
+        candidates:
+          - id: ext-a41-001
+            disposition: distinct
+          - id: ext-a41-002
+            disposition: distinct
+          - id: ext-a41-003
+            disposition: corroborating
+          - id: hbp-ch22-006
+            disposition: distinct
+          - id: hbp-ch28-006
+            disposition: distinct
+          - id: ootp-ch13-004
+            disposition: corroborating
+          - id: ootp-ch15-006
+            disposition: distinct
+          - id: ootp-ch31-005
+            disposition: distinct
+    confidence: high
+    limitations: The statement describes Ollivander's practice without dating the discovery, transmission, or use of these selection methods.
+
+  - id: ext-a42-002
+    source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+    source_id: A42
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+    source_section: Cypress
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The great medieval wandmaker, Geraint Ollivander, wrote
+      end_phrase: who would die a heroic death.
+      local_occurrence_note: Opening of the Cypress section.
+    nearby_context: A named medieval Ollivander is cited through his own writing as an earlier authority on wand matching.
+    match_terms:
+      - geraint-ollivander
+      - medieval-wandmaker
+      - craft-writing
+      - cypress-wands
+    quote_excerpt_short: The great medieval wandmaker, Geraint Ollivander, wrote.
+    source_note: Geraint Ollivander is identified as a great medieval wandmaker whose written observations on matching cypress wands survived into later family craft knowledge.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - wandmaking
+      - medieval
+      - ollivander
+      - craft-tradition
+      - written-knowledge
+    candidate_part: Medieval Magical Britain
+    candidate_chapter: Crafts and Knowledge
+    candidate_section: Wandmakers and Written Tradition
+    reason_for_placement: Provides named medieval evidence for specialist wandmakers and the preservation of their written craft knowledge.
+    relevance_to_hogwarts_a_history: Establishes medieval wandcraft near the broad institutional era, but does not place Geraint at Hogwarts or date him more precisely.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing Ollivander entries concern Roman family tradition, modern craft, or Harry-era wandlore; none records Geraint's medieval authorship.
+      audit:
+        query_tags:
+          - wandmaking
+          - medieval
+          - ollivander
+        candidates:
+          - id: ext-a41-003
+            disposition: corroborating
+          - id: dh-ch05-007
+            disposition: distinct
+          - id: dh-ch08-003
+            disposition: distinct
+          - id: dh-ch12-005
+            disposition: distinct
+          - id: dh-ch17-007
+            disposition: distinct
+          - id: dh-ch23-004
+            disposition: distinct
+          - id: dh-ch24-005
+            disposition: distinct
+          - id: dh-ch24-006
+            disposition: distinct
+          - id: ext-a41-001
+            disposition: corroborating
+          - id: ext-a41-002
+            disposition: distinct
+    confidence: high
+    limitations: “Medieval” is the only date supplied, and the reported cypress interpretation is craft lore rather than evidence of a dated event.
+
+  - id: ext-a42-003
+    source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+    source_id: A42
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+    source_section: Vine
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The druids considered anything with a woody stem as a tree
+      end_phrase: I have been happy to continue their ancient tradition.
+      local_occurrence_note: Opening two clauses of the Vine section.
+    nearby_context: Ollivander explicitly connects his continued use of vine wood to an ancient druidic classification of woody plants.
+    match_terms:
+      - druids
+      - vine-wands
+      - woody-stems
+      - ancient-tradition
+    quote_excerpt_short: I have been happy to continue their ancient tradition.
+    source_note: Ollivander presents vine wandmaking as a continuation of an ancient druidic tradition that treated any woody-stemmed plant as a tree.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - druids
+      - wandmaking
+      - vine
+      - plants
+      - ancient-tradition
+    candidate_part: Before Hogwarts
+    candidate_chapter: Magic in Ancient Britain
+    candidate_section: Plants and Druidic Craft
+    reason_for_placement: Supplies a specific claimed continuity between ancient plant classification and later British magical craft.
+    relevance_to_hogwarts_a_history: Offers cautious context for pre-institutional plant knowledge, not evidence for a Hogwarts subject or curriculum.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing wandmaking entries do not mention druids, vine wood, or continuity from ancient plant classification.
+      audit:
+        query_tags:
+          - druids
+          - wandmaking
+          - vine
+        candidates:
+          - id: ext-a41-001
+            disposition: distinct
+          - id: ext-a41-002
+            disposition: distinct
+          - id: ext-a41-003
+            disposition: corroborating
+    confidence: medium
+    limitations: “Ancient tradition” is undated and reported by a modern wandmaker; it cannot establish when vine wandmaking began or whether practice was continuous.
+
+  - id: ext-a42-004
+    source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+    source_id: A42
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+    source_section: Ash; Elder; English Oak
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Old superstitions regarding wands rarely bear close examination
+      end_phrase: It is said that Merlin’s wand was of English oak (though his grave has never been found, so this cannot be proven).
+      local_occurrence_note: Related source-critical comments recur in the Ash, Elder, and English Oak sections.
+    nearby_context: Ollivander tests inherited sayings against experience, finding a partial truth in one rhyme but rejecting other traditions as baseless or unprovable.
+    match_terms:
+      - wand-superstition
+      - inherited-rhymes
+      - elder-wand
+      - merlin-tradition
+    quote_excerpt_short: Old superstitions regarding wands rarely bear close examination.
+    source_note: Wandmakers inherited rhymes and superstitions, but Ollivander distinguishes limited experiential value from baseless claims and explicitly unprovable tradition.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - wand-superstition
+      - tradition
+      - oral-culture
+      - source-criticism
+      - wandmaking
+    candidate_part: Historiography and Evidence
+    candidate_chapter: Traditions, Legends, and Claims
+    candidate_section: Testing Wand Lore
+    reason_for_placement: Models how inherited magical tradition should be separated from empirically supported craft knowledge.
+    relevance_to_hogwarts_a_history: Directly supports the project's source-critical method, but does not establish a dated practice at Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entry focuses on a wandmaker testing inherited rhymes and legends against experience and physical evidence.
+      audit:
+        query_tags:
+          - wand-superstition
+          - tradition
+        candidates: []
+    confidence: high
+    limitations: The three examples have different evidentiary status and no transmission dates; this entry records Ollivander's method, not the truth of the rejected lore.
+
+  - id: ext-a42-005
+    source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+    source_id: A42
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+    source_section: Silver Lime
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: This unusual and highly attractive wand wood was greatly in vogue in the nineteenth century.
+      end_phrase: unscrupulous wandmakers dyed substandard woods in an effort to fool purchasers
+      local_occurrence_note: Opening of the Silver Lime section.
+    nearby_context: Status-driven demand exceeded supply, produced counterfeiting, and prompted a public dispute among wandmakers over merchants' claims.
+    match_terms:
+      - silver-lime
+      - nineteenth-century
+      - counterfeit-wand-wood
+      - wandmakers
+    quote_excerpt_short: Demand outstripped supply, and unscrupulous wandmakers dyed substandard woods.
+    source_note: A nineteenth-century fashion for silver-lime wands drove demand beyond supply, encouraged counterfeit dyed woods, and generated commercial dispute among wandmakers.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - silver-lime
+      - wandmakers
+      - commerce
+      - nineteenth-century
+      - counterfeiting
+    candidate_part: Modern Wizarding Britain
+    candidate_chapter: Commerce and Magical Crafts
+    candidate_section: Wand-Wood Fashion and Fraud
+    reason_for_placement: Gives a dated case of fashion, scarcity, fraud, and professional rivalry in a specialist magical trade.
+    relevance_to_hogwarts_a_history: Useful post-foundation evidence for magical material markets, not for early Hogwarts or the origin of wandcraft.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The sole indexed wandmaker candidate concerns international reputation, not nineteenth-century supply, fashion, or fraud.
+      audit:
+        query_tags:
+          - silver-lime
+          - wandmakers
+          - commerce
+        candidates:
+          - id: dh-ch08-003
+            disposition: distinct
+    confidence: high
+    limitations: The source gives no exact years, transaction evidence, or scale for the fad and counterfeiting beyond demand exceeding supply.

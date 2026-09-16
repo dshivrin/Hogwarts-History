@@ -1946,3 +1946,76 @@ https://www.hp-lexicon.org/source/other-canon/dp/dp3/
 https://www.hp-lexicon.org/source/other-canon/dp/dp4/
 https://www.therowlinglibrary.com/j-k-rowling/official-website/
 ```
+
+---
+
+# 26. Runes, Potions, Plants, and Early Magical Culture Supplement
+
+**Authorized:** 2026-09-15
+**Scope:** Acquire only sources absent from the existing external corpus, extract historically meaningful evidence through the canonical queue, and leave manuscript prose untouched.
+
+The pre-acquisition audit found `A17` — Pensieve already captured and fully extracted. The source and its existing structured entries distinguish its pre-Hogwarts carved-stone and modified-Saxon-rune description from the explicitly unsubstantiated founders legend. It must not be acquired again.
+
+## 26.1 Missing J.K. Rowling Originals
+
+### A38 — The Potter Family
+
+https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+
+Preserve Linfred of Stinchcombe as twelfth-century, post-foundation comparative evidence for household experimentation, medicinal service to Muggle neighbours, garden plants, developing remedies, and sales to witches and wizards. Do not backdate his practice to pre-Hogwarts Britain.
+
+### A39 — Potions
+
+https://www.harrypotter.com/writing-by-jk-rowling/potions
+
+Separate in-universe propositions about wandwork, potion effects, and skilled potioneering from the author's real-world commentary about dittany and bezoars.
+
+### A40 — Cauldrons
+
+https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+
+Separate wizarding-world material history and potion practice from the author's real-world folklore commentary.
+
+### A41 — Mr Ollivander
+
+https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+
+Preserve older wandmaking practice, inherited or personally significant core materials, historical craft innovation, and resistance from established practitioners. Do not date illustrative examples unless the source does.
+
+### A42 — Wand Woods
+
+https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+
+Extract only historically useful craft traditions, named older wandmakers, inherited knowledge, and relevant plant/creature material relationships; do not reproduce the modern personality catalogue.
+
+### A43 — Fourteenth Century – Seventeenth Century
+
+https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en
+
+Treat Native American plant magic, potion sophistication, healing, and wandless practice as later, non-British comparative evidence, not direct evidence of pre-Hogwarts British practice.
+
+### A44 — Seventeenth Century and Beyond
+
+https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en
+
+Treat apothecary supply and foraging among unfamiliar magical plants as later comparative evidence. Do not backdate a seventeenth-century supply network into the tenth century.
+
+### A45 — Technology
+
+https://www.harrypotter.com/writing-by-jk-rowling/technology
+
+Preserve the broad pre-Statute sharing of ordinary transport and material technologies while avoiding claims about a precise tenth-century decade.
+
+## 26.2 Official Editorial Context
+
+### F01 — The Hogwarts classes that you might have forgotten about
+
+https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about
+
+Classify this official editorial carrier as `secondary_reference`, authority `E`. Extract only the source-critical Ancient Runes passage, using `weak_context_only`, low confidence, and explicit limitations preserving the article's phrases “it can be presumed” and “perhaps”. It cannot establish Bronze/Iron Age wizarding runes and cannot override `A17`.
+
+## 26.3 Retrieval and Processing
+
+Fetch only `A38`–`A45` and `F01` by direct public HTTPS request to the catalog URLs above. Store raw HTML in a disposable cache, build normalized Markdown snapshots through `scripts/external_sources/build_external_corpus.py --append --ids ...`, and let `scripts/external_sources/queue.py init` append pending units without resetting existing completion history.
+
+Process each new unit through claim, staging, structured duplicate review, and completion. Rebuild and validate the canonical indexes and generated evidence artifacts after extraction. Do not modify `authoring/`.

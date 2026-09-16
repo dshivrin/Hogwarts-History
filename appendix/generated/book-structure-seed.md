@@ -166,6 +166,12 @@ Source data: sources YAML + project-control indexes + structured source data.
   - N.E.W.T. class supplies and advanced potion demonstrations
   - Open-ended advanced brewing exercises
   - Private Stores, Dungeon Lessons, and Antidotes
+- Potions and Practical Magic
+  - Enchanted and Specialized Cauldrons
+  - Potion-Making as Magic
+  - Potioneering Expertise
+  - Potions and Other Magical Methods
+  - Vessels and Heat
 - Potions, Ingredients, and Brewing
   - Felix Felicis constraints and recipe difficulty
 - Potions, Practical Testing, and Discipline
@@ -220,6 +226,12 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Chamber of Secrets References
   - Library Demand for Hogwarts: A History
+
+## Before Hogwarts
+
+- Magic in Ancient Britain
+  - Early Wandcraft
+  - Plants and Druidic Craft
 
 ## Castle Architecture and Daily Operations
 
@@ -362,6 +374,24 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Defense Against the Dark Arts
   - Dueling Club Carryover
   - Unforgivable Curse Instruction and Resistance
+
+## Comparative Magical Education
+
+- Schools and Craft Infrastructure
+  - Ilvermorny's Early Scale
+
+## Comparative Magical Societies
+
+- Magic Within Communities
+  - Healers, Hunters, and Stigma
+- Migration and Concealment
+  - European Settlement in America
+- Plants, Animals, and Potions
+  - Knowledge Beyond Europe
+- Plants, Potions, and Supply
+  - Apothecaries and Frontier Foraging
+- Tools and Technique
+  - European Wands and Wandless Practice
 
 ## Core Castle and Grounds
 
@@ -588,6 +618,13 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Marauders-era O.W.L. exams and grounds culture
 - Marauders-Era Context and Hidden Identities
   - James, Snape, Lily, and retrospective student testimony
+
+## Historiography and Evidence
+
+- Traditions, Legends, and Claims
+  - Editorial Description of Alchemy
+  - Speculation About Ancient Runes
+  - Testing Wand Lore
 
 ## Hogwarts Buildings and Enchantments
 
@@ -1011,6 +1048,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - High Inquisitor control of House teams
 - Snape's Headmastership and the Occupied School
   - Dumbledore's student-protection charge and planned death
+- Sources and Authorial Context
+  - Cauldron Folklore
+  - Real-World Ingredient Traditions
 - Sources for Dumbledore's Life
   - Obituary, Biography, and Public Memory
 - Sources on Dumbledore After His Death
@@ -1346,6 +1386,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Family Customs
   - Marriage Ceremonies and Enchanted Receptions
 
+## Magical Crafts and Material Culture
+
+- Wandcraft
+  - Customer-Supplied Cores
+  - Magical Trees and Wood Selection
+  - Standardization and Innovation
+
 ## Magical Creatures and Wizarding Governance
 
 - Regulation of Dangerous Beasts
@@ -1480,6 +1527,30 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Apparition Training, Licensing, and Risks
   - Emergency treatment after Splinching
 
+## Magical and Muggle Society
+
+- Shared Material Culture
+  - Transport Before Secrecy
+
+## Medieval Magical Britain
+
+- Crafts and Knowledge
+  - Wandmakers and Written Tradition
+
+## Medieval Magical World
+
+- Contact Beyond Britain
+  - Transcontinental Magical Networks
+
+## Modern Wizarding Britain
+
+- Commerce and Magical Crafts
+  - Wand-Wood Fashion and Fraud
+- Technology and Secrecy
+  - Enchanted Motor Vehicles
+  - The Aborted Wizarding Television Service
+  - Wizarding Radio
+
 ## Notable Events Before 1984
 
 - Dark Marks and Wartime Terror
@@ -1505,6 +1576,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Longbottom Aurors and Bellatrix Lestrange
 - Godric's Hollow and the Dumbledore Family
   - Bathilda Bagshot as Neighbor and Historical Source
+- Magic Before and Beyond Hogwarts
+  - Commercial Potion Innovation
+- Magical and Muggle Society
+  - Secrecy and Political Division
+  - Wartime Assistance and Separation
 - Old Wizarding Families and Artifact Inheritance
   - Peverell descent through vanished male lines
 - Staff Appointments and Protective Patronage
@@ -1548,6 +1624,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - Founder Relics and House Memory
   - The Sorting Hat's Founder Ownership and the Sword Dispute
+- Magic Before and Beyond Hogwarts
+  - Household Medicine After the Founding
+  - Household Remedies and Potion Development
+- Magical and Muggle Society
+  - Shared Material Culture
 - The Founders' Rift
   - Admission, Bloodline Ideology, and Slytherin's Departure
 - The Founding of Hogwarts

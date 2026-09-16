@@ -100,11 +100,11 @@ class RuntimeBackupAndManifestTests(unittest.TestCase):
         manifest = load_yaml(MANIFEST_PATH)
         records = manifest["sources"]
 
-        self.assertEqual(len(records), 63)
+        self.assertEqual(len(records), 72)
         self.assertNotIn("\n    completeness:", manifest_text)
-        expected_ids = {f"A{number:02d}" for number in range(1, 38)} | {
+        expected_ids = {f"A{number:02d}" for number in range(1, 46)} | {
             f"B{number:02d}" for number in range(1, 27)
-        }
+        } | {"F01"}
         self.assertEqual({record["logical_id"] for record in records}, expected_ids)
 
         for record in records:
@@ -415,21 +415,78 @@ class ExternalValidationTests(unittest.TestCase):
 
         self.assertEqual(count, 1)
 
+    def test_external_validator_accepts_official_editorial_source_ids(self) -> None:
+        validator = importlib.import_module("scripts.validate_source_yaml")
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            body = "Speculative historical context."
+            digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+            snapshot_relative = (
+                "resources/external/official-editorial/harrypotter-com/"
+                "f01-ancient-runes-editorial.md"
+            )
+            snapshot = root / snapshot_relative
+            snapshot.parent.mkdir(parents=True, exist_ok=True)
+            snapshot.write_text(
+                "---\n"
+                "id: F01\n"
+                "capture_completeness: complete\n"
+                f"sha256: {digest}\n"
+                "---\n\n"
+                "# Ancient Runes editorial\n\n"
+                f"{body}\n",
+                encoding="utf-8",
+            )
+            source_unit = {
+                "source_id": "F01",
+                "source_file": snapshot_relative,
+                "capture_completeness": "complete",
+                "retrieval_url": "https://www.harrypotter.com/features/ancient-runes",
+                "content_sha256": digest,
+            }
+            entries = [
+                {
+                    "id": "ext-f01-001",
+                    "source_id": "F01",
+                    "source_file": snapshot_relative,
+                    "source_url": "https://www.harrypotter.com/features/ancient-runes",
+                    "source_section": "The Study of Ancient Runes",
+                    "pdf_page": None,
+                    "printed_page": None,
+                    "extracted_text_lines": None,
+                    "text_anchor": {
+                        "start_phrase": "Speculative",
+                        "end_phrase": "context.",
+                        "local_occurrence_note": "Only paragraph.",
+                    },
+                    "nearby_context": "Editorial context.",
+                    "match_terms": ["ancient-runes"],
+                    "reason_for_placement": "Preserves explicitly speculative context.",
+                    "relevance_to_hogwarts_a_history": "Weak context only.",
+                }
+            ]
+
+            errors = validator.validate_external_source_unit(
+                root, "sources/external/official-editorial/f01.yaml", source_unit, entries
+            )
+
+        self.assertEqual(errors, [])
+
 
 class QueueGenerationTests(unittest.TestCase):
-    def test_manifest_builds_exact_deterministic_63_unit_queue(self) -> None:
+    def test_manifest_builds_exact_deterministic_72_unit_queue(self) -> None:
         queue = queue_module()
         manifest = load_yaml(MANIFEST_PATH)
 
         units = queue.build_units(manifest)
 
-        expected_ids = [f"A{number:02d}" for number in range(1, 38)] + [
+        expected_ids = [f"A{number:02d}" for number in range(1, 46)] + [
             f"B{number:02d}" for number in range(1, 27)
-        ]
+        ] + ["F01"]
         self.assertEqual([unit["id"] for unit in units], expected_ids)
-        self.assertEqual(len({unit["input_path"] for unit in units}), 63)
-        self.assertEqual(len({unit["output_file"] for unit in units}), 63)
-        self.assertEqual(len({unit["manifest_id"] for unit in units}), 63)
+        self.assertEqual(len({unit["input_path"] for unit in units}), 72)
+        self.assertEqual(len({unit["output_file"] for unit in units}), 72)
+        self.assertEqual(len({unit["manifest_id"] for unit in units}), 72)
         for unit in units:
             self.assertEqual(unit["status"], "pending")
             self.assertEqual(unit["attempts"], 0)
@@ -444,6 +501,32 @@ class QueueGenerationTests(unittest.TestCase):
                 unit["staging_file"],
                 f"work/external-staging/{unit['id'].lower()}.yaml",
             )
+
+    def test_official_editorial_manifest_record_uses_its_own_output_group(self) -> None:
+        queue = queue_module()
+        units = queue.build_units(
+            {
+                "sources": [
+                    {
+                        "id": "external-F01",
+                        "logical_id": "F01",
+                        "title": "Ancient Runes editorial",
+                        "source_class": "secondary_reference",
+                        "authority": "E",
+                        "local_path": (
+                            "resources/external/official-editorial/harrypotter-com/"
+                            "f01-ancient-runes-editorial.md"
+                        ),
+                    }
+                ]
+            }
+        )
+
+        self.assertEqual(units[0]["id"], "F01")
+        self.assertEqual(
+            units[0]["output_file"],
+            "sources/external/official-editorial/f01-ancient-runes-editorial.yaml",
+        )
 
 
 class QueueTransitionTests(unittest.TestCase):
@@ -589,6 +672,52 @@ class QueueTransitionTests(unittest.TestCase):
 
     def tearDown(self) -> None:
         self.tempdir.cleanup()
+
+    def test_initialize_appends_new_manifest_units_without_resetting_completed_history(self) -> None:
+        plan_path = self.root / "project-control/source-plan.yaml"
+        plan = load_yaml(plan_path)
+        existing = plan["external_sources"]["units"][0]
+        existing["status"] = "done"
+        existing["completed_at"] = "2026-08-15T12:00:00Z"
+        existing["history"] = [
+            {"event": "completed", "at": "2026-08-15T12:00:00Z", "agent": "worker"}
+        ]
+        plan_path.write_text(yaml.safe_dump(plan, sort_keys=False), encoding="utf-8")
+
+        manifest_path = self.root / "resources/manifests/external-sources.yaml"
+        manifest = load_yaml(manifest_path)
+        manifest["sources"].append(
+            {
+                "id": "external-F01",
+                "logical_id": "F01",
+                "title": "Ancient Runes editorial",
+                "author": "The Harry Potter Editorial Team",
+                "source_site": "HarryPotter.com",
+                "source_class": "secondary_reference",
+                "authority": "E",
+                "publication_date": "2017-04-03",
+                "original_url": "https://www.harrypotter.com/features/ancient-runes",
+                "retrieval_url": "https://www.harrypotter.com/features/ancient-runes",
+                "capture_completeness": "complete",
+                "sha256": "0" * 64,
+                "local_path": (
+                    "resources/external/official-editorial/harrypotter-com/"
+                    "f01-ancient-runes-editorial.md"
+                ),
+            }
+        )
+        manifest_path.write_text(
+            yaml.safe_dump(manifest, sort_keys=False), encoding="utf-8"
+        )
+
+        initialized = self.controller.initialize()
+
+        units = initialized["units"]
+        preserved = next(unit for unit in units if unit["id"] == "A01")
+        appended = next(unit for unit in units if unit["id"] == "F01")
+        self.assertEqual(preserved["status"], "done")
+        self.assertEqual(preserved["history"][0]["event"], "completed")
+        self.assertEqual(appended["status"], "pending")
 
     def test_simultaneous_claims_are_unique_and_fifth_claim_is_rejected(self) -> None:
         with ThreadPoolExecutor(max_workers=2) as executor:

@@ -86,6 +86,43 @@ Summary: The available evidence includes 1 source item, led by: Rowling identifi
   - Corroborates: `cos-ch18-004`, `ext-a02-001`. The entry repeats the established founder ownership and Sword-from-Hat linkage; its goblin-ownership framing is a limited extension.
   - Notes: Preserved author commentary after the series; it does not independently document the artifact's date, and its ownership discussion is interpretive.
 
+### Chapter: Magic Before and Beyond Hogwarts
+
+#### Section: Household Medicine After the Founding
+
+Summary: The available evidence includes 1 source item, led by: In twelfth-century Britain, Linfred privately experimented with magic while providing cures to Muggle neighbours who regarded him as an eccentric gardener with unusual plants.
+
+- **Supporting evidence:** In twelfth-century Britain, Linfred privately experimented with magic while providing cures to Muggle neighbours who regarded him as an eccentric gardener with unusual plants.
+  - Quote: "His Muggle neighbours often called upon his medicinal services."
+  - Source: A38, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, `sources/external/official-rowling/a38-the-potter-family.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: Linfred lived after Hogwarts was founded; the passage does not identify his schooling or establish any equivalent practice before the school.
+
+#### Section: Household Remedies and Potion Development
+
+Summary: The available evidence includes 1 source item, led by: Wizarding historians credit Linfred's remedies as precursors of Skele-gro and Pepperup Potion, and his sales to witches and wizards made his family wealthy.
+
+- **Supporting evidence:** Wizarding historians credit Linfred's remedies as precursors of Skele-gro and Pepperup Potion, and his sales to witches and wizards made his family wealthy.
+  - Quote: "remedies that evolved into potions still used to this day"
+  - Source: A38, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, `sources/external/official-rowling/a38-the-potter-family.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The credited evolution is retrospective and post-foundation; it gives no recipe history or evidence for potion practice before Hogwarts.
+
+### Chapter: Magical and Muggle Society
+
+#### Section: Shared Material Culture
+
+Summary: The available evidence includes 1 source item, led by: Muggles and wizards once used the same suspended cooking pots; wizards retained cauldrons for potion brewing after saucepans and stoves displaced them elsewhere.
+
+- **Context:** Muggles and wizards once used the same suspended cooking pots; wizards retained cauldrons for potion brewing after saucepans and stoves displaced them elsewhere.
+  - Quote: "Cauldrons were once used by Muggles and wizards alike."
+  - Source: A40, https://www.harrypotter.com/writing-by-jk-rowling/cauldrons, `sources/external/official-rowling/a40-cauldrons.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The relative words “once” and “in time” do not locate this history before Hogwarts or within any particular century.
+
 ## Part: The Castle and Its Grounds
 
 ### Chapter: The Lake and Castle Approach
@@ -3639,6 +3676,63 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: curriculum_or_subject
   - Corroborates: `cos-ch10-002`. Chapter Ten already recorded the distinction between student-store-cupboard ingredients and Snape's private stores; this entry corroborates the private-store evidence and adds the dungeon lesson and Deflating Draught response.
   - Notes: The private-store access here is illicit, so it should not be treated as a normal student procedure.
+
+### Chapter: Potions and Practical Magic
+
+#### Section: Enchanted and Specialized Cauldrons
+
+Summary: The available evidence includes 1 source item, led by: Common pewter or iron cauldrons carry lightening enchantments, while self-stirring, collapsible, and precious-metal varieties represent specialized or modern forms.
+
+- **Context:** Common pewter or iron cauldrons carry lightening enchantments, while self-stirring, collapsible, and precious-metal varieties represent specialized or modern forms.
+  - Quote: "All cauldrons are enchanted to make them lighter to carry."
+  - Source: A40, https://www.harrypotter.com/writing-by-jk-rowling/cauldrons, `sources/external/official-rowling/a40-cauldrons.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: “All cauldrons” and “modern inventions” are broad statements with no effective date or adoption chronology.
+
+#### Section: Potion-Making as Magic
+
+Summary: The available evidence includes 1 source item, led by: Potion-making is inherently magical and requires wandwork; a Muggle with instructions and ingredients could not reproduce it as ordinary cooking.
+
+- **Context:** Potion-making is inherently magical and requires wandwork; a Muggle with instructions and ingredients could not reproduce it as ordinary cooking.
+  - Quote: "There is always some element of wandwork necessary to make a potion."
+  - Source: A39, https://www.harrypotter.com/writing-by-jk-rowling/potions, `sources/external/official-rowling/a39-potions.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This is an undated general proposition and cannot establish when potion-making began or where early practitioners learned it.
+
+#### Section: Potioneering Expertise
+
+Summary: The available evidence includes 1 source item, led by: Potioneering is a recognized branch of magic requiring patience and specialist skill, associated with dangerous substances, status, and effects difficult for non-specialists to reverse.
+
+- **Context:** Potioneering is a recognized branch of magic requiring patience and specialist skill, associated with dangerous substances, status, and effects difficult for non-specialists to reverse.
+  - Quote: "their effects are usually difficult to undo by any but another skilled potioneer"
+  - Source: A39, https://www.harrypotter.com/writing-by-jk-rowling/potions, `sources/external/official-rowling/a39-potions.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article describes an undated social stereotype and technical generality, not the historical formation of the field.
+
+#### Section: Potions and Other Magical Methods
+
+Summary: The available evidence includes 1 source item, led by: Some potions overlap with spells and charms, while Polyjuice Potion and Felix Felicis exemplify effects that cannot be achieved by other means.
+
+- **Context:** Some potions overlap with spells and charms, while Polyjuice Potion and Felix Felicis exemplify effects that cannot be achieved by other means.
+  - Quote: "a few have effects impossible to achieve any other way"
+  - Source: A39, https://www.harrypotter.com/writing-by-jk-rowling/potions, `sources/external/official-rowling/a39-potions.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The statement is undated and identifies only two examples of effects said to be unavailable by other means.
+
+#### Section: Vessels and Heat
+
+Summary: The available evidence includes 1 source item, led by: Potion-making requires a naked flame, making the fire-suspended cauldron particularly practical for the craft.
+
+- **Context:** Potion-making requires a naked flame, making the fire-suspended cauldron particularly practical for the craft.
+  - Quote: "A naked flame is essential for the making of potions."
+  - Source: A40, https://www.harrypotter.com/writing-by-jk-rowling/cauldrons, `sources/external/official-rowling/a40-cauldrons.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: This undated technical statement cannot show when cauldrons or naked-flame potion-making began.
 
 ### Chapter: Potions, Ingredients, and Brewing
 
@@ -8839,6 +8933,43 @@ Summary: The available evidence includes 1 source item, led by: The passage iden
   - Reference type: explicit_in_universe_source
   - Notes: Muriel's claims about what Bathilda told Skeeter are speculative; Doge also questions reliability if Bathilda's memory is failing.
 
+### Chapter: Magic Before and Beyond Hogwarts
+
+#### Section: Commercial Potion Innovation
+
+Summary: The available evidence includes 1 source item, led by: Fleamont Potter created and commercialized Sleekeazy's Hair Potion, multiplying the inherited Potter fortune before selling the company on retirement.
+
+- **Supporting evidence:** Fleamont Potter created and commercialized Sleekeazy's Hair Potion, multiplying the inherited Potter fortune before selling the company on retirement.
+  - Quote: "creating magical Sleekeazy’s Hair Potion"
+  - Source: A38, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, `sources/external/official-rowling/a38-the-potter-family.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article does not date the invention precisely; it is much later than the medieval Linfred material and the foundation of Hogwarts.
+
+### Chapter: Magical and Muggle Society
+
+#### Section: Secrecy and Political Division
+
+Summary: The available evidence includes 1 source item, led by: Wizengamot member Ralston Potter supported the Statute of Secrecy against contemporaries who preferred war with Muggles.
+
+- **Supporting evidence:** Wizengamot member Ralston Potter supported the Statute of Secrecy against contemporaries who preferred war with Muggles.
+  - Quote: "a great supporter of the Statute of Secrecy"
+  - Source: A38, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, `sources/external/official-rowling/a38-the-potter-family.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source records Ralston's political stance but not the detailed arguments, vote, or institutional outcome.
+
+#### Section: Wartime Assistance and Separation
+
+Summary: The available evidence includes 1 source item, led by: Wizengamot member Henry Potter publicly opposed a ministerial ban on magical assistance to Muggles during the First World War.
+
+- **Supporting evidence:** Wizengamot member Henry Potter publicly opposed a ministerial ban on magical assistance to Muggles during the First World War.
+  - Quote: "he publicly condemned then Minister for Magic, Archer Evermonde"
+  - Source: A38, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, `sources/external/official-rowling/a38-the-potter-family.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The event is twentieth-century and far later than Hogwarts's foundation; the source does not describe what assistance was contemplated.
+
 ### Chapter: Old Wizarding Families and Artifact Inheritance
 
 #### Section: Peverell descent through vanished male lines
@@ -11363,6 +11494,30 @@ Summary: The available evidence includes 1 source item, led by: Dumbledore's cur
   - Corroborates: `hbp-ch02-002`, `hbp-ch25-005`, `dh-ch12-001`. hbp-ch02-002 records Snape's Hogwarts spy role, hbp-ch25-005 records Dumbledore's public trust in Snape after the prophecy, and dh-ch12-001 records Snape's later appointment. This entry adds Dumbledore's private instruction to protect students and the planned killing arrangement.
   - Notes: The evidence is from Snape's memory sequence and concerns private plans rather than public school policy.
 
+### Chapter: Sources and Authorial Context
+
+#### Section: Cauldron Folklore
+
+Summary: The available evidence includes 1 source item, led by: Rowling's authorial note links cauldrons to centuries of witch imagery, folk and fairy tales, Irish mythic jewels, and the Thirteen Treasures of Britain.
+
+- **Context:** Rowling's authorial note links cauldrons to centuries of witch imagery, folk and fairy tales, Irish mythic jewels, and the Thirteen Treasures of Britain.
+  - Quote: "Cauldrons have had a magical association for centuries."
+  - Source: A40, https://www.harrypotter.com/writing-by-jk-rowling/cauldrons, `sources/external/official-rowling/a40-cauldrons.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: This is authorial real-world folklore commentary, not in-universe historical evidence.
+
+#### Section: Real-World Ingredient Traditions
+
+Summary: The available evidence includes 1 source item, led by: In authorial commentary, Rowling links dittany to real anti-inflammatory properties and bezoars to a historical belief that bezoar-infused water treated poisoning.
+
+- **Context:** In authorial commentary, Rowling links dittany to real anti-inflammatory properties and bezoars to a historical belief that bezoar-infused water treated poisoning.
+  - Quote: "Dittany, for instance, really does have healing properties."
+  - Source: A39, https://www.harrypotter.com/writing-by-jk-rowling/potions, `sources/external/official-rowling/a39-potions.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Reference type: weak_context_only
+  - Notes: This is authorial real-world commentary, not an in-universe statement or evidence that dittany and bezoars were used in any particular historical period.
+
 ### Chapter: Sources for Dumbledore's Life
 
 #### Section: Obituary, Biography, and Public Memory
@@ -12875,6 +13030,32 @@ Summary: The available evidence includes 1 source item, led by: Rowling’s earl
   - Reference type: weak_context_only
   - Notes: This is a retrospective authorial note about development, not evidence of an in-universe curriculum.
 
+## Part: Before Hogwarts
+
+### Chapter: Magic in Ancient Britain
+
+#### Section: Early Wandcraft
+
+Summary: The available evidence includes 1 source item, led by: Ollivander believes his family reached Britain with the Romans and sold crafted wands to ancient British wizards whose own wands were crude and unreliable.
+
+- **Supporting evidence:** Ollivander believes his family reached Britain with the Romans and sold crafted wands to ancient British wizards whose own wands were crude and unreliable.
+  - Quote: "His earliest forebears in this country arrived with the Romans."
+  - Source: A41, https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander, `sources/external/official-rowling/a41-mr-ollivander.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The source says Ollivander “believes” this account, while the name's proposed origin merely “suggests” Mediterranean ancestry; neither is independently dated proof.
+
+#### Section: Plants and Druidic Craft
+
+Summary: The available evidence includes 1 source item, led by: Ollivander presents vine wandmaking as a continuation of an ancient druidic tradition that treated any woody-stemmed plant as a tree.
+
+- **Supporting evidence:** Ollivander presents vine wandmaking as a continuation of an ancient druidic tradition that treated any woody-stemmed plant as a tree.
+  - Quote: "I have been happy to continue their ancient tradition."
+  - Source: A42, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, `sources/external/official-rowling/a42-wand-woods.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: “Ancient tradition” is undated and reported by a modern wandmaker; it cannot establish when vine wandmaking began or whether practice was continuous.
+
 ## Part: Castle Architecture and Daily Operations
 
 ### Chapter: Bathrooms, Prefect Privileges, and Protected Facilities
@@ -13444,6 +13625,88 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: curriculum_or_subject
   - Corroborates: `gof-ch14-001`, `gof-ch14-004`, `gof-ch14-005`. gof-ch14-001, gof-ch14-004, and gof-ch14-005 establish Moody's classroom framing of Dark curses and Avada Kedavra; this entry records the later survival context in which that instruction mattered.
   - Notes: The scene occurs off campus and reflects an exceptional emergency rather than ordinary classroom practice.
+
+## Part: Comparative Magical Education
+
+### Chapter: Schools and Craft Infrastructure
+
+#### Section: Ilvermorny's Early Scale
+
+Summary: The available evidence includes 1 source item, led by: Early colonial America lacked established wandmakers, while Ilvermorny then consisted of a rough shack with two teachers and two students.
+
+- **Supporting evidence:** Early colonial America lacked established wandmakers, while Ilvermorny then consisted of a rough shack with two teachers and two students.
+  - Quote: "There were no established wandmakers."
+  - Source: A44, https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en, `sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article says “at that time” within a seventeenth-century account but gives no exact year for the infrastructure comparison.
+
+## Part: Comparative Magical Societies
+
+### Chapter: Magic Within Communities
+
+#### Section: Healers, Hunters, and Stigma
+
+Summary: The available evidence includes 1 source item, led by: Some Native American magical people gained respect as healers or hunters within their tribes, while others were stigmatized as possessed by malevolent spirits.
+
+- **Supporting evidence:** Some Native American magical people gained respect as healers or hunters within their tribes, while others were stigmatized as possessed by malevolent spirits.
+  - Quote: "Some witches and wizards were accepted and even lauded within their tribes."
+  - Source: A43, https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en, `sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Reference type: historical_claim
+  - Notes: The account generalizes across diverse communities and supplies neither named peoples nor dates beyond the article's broad fourteenth-to-seventeenth-century frame.
+
+### Chapter: Migration and Concealment
+
+#### Section: European Settlement in America
+
+Summary: The available evidence includes 1 source item, led by: Seventeenth-century European magical migration accompanied No-Maj settlement, with some migrants blending among No-Majs or seeking protection within Native American wizarding communities.
+
+- **Supporting evidence:** Seventeenth-century European magical migration accompanied No-Maj settlement, with some migrants blending among No-Majs or seeking protection within Native American wizarding communities.
+  - Quote: "More witches and wizards of European origin also came to settle in America."
+  - Source: A44, https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en, `sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The account groups migrants and communities broadly and provides no counts, individual journeys, or evidence of direct connection to Britain or Hogwarts.
+
+### Chapter: Plants, Animals, and Potions
+
+#### Section: Knowledge Beyond Europe
+
+Summary: The available evidence includes 1 source item, led by: Native American magical communities possessed notable animal and plant magic, including potion knowledge described as more sophisticated than much contemporary European practice.
+
+- **Supporting evidence:** Native American magical communities possessed notable animal and plant magic, including potion knowledge described as more sophisticated than much contemporary European practice.
+  - Quote: "Its potions in particular being of a sophistication beyond much that was known in Europe."
+  - Source: A43, https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en, `sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: “Beyond much that was known” is comparative rather than comprehensive, and the article names no potion, ingredient, practitioner, or exact date.
+
+### Chapter: Plants, Potions, and Supply
+
+#### Section: Apothecaries and Frontier Foraging
+
+Summary: The available evidence includes 1 source item, led by: Old World apothecaries supplied potion necessities, whereas seventeenth-century magical settlers in America had to forage for ingredients among unfamiliar magical plants.
+
+- **Supporting evidence:** Old World apothecaries supplied potion necessities, whereas seventeenth-century magical settlers in America had to forage for ingredients among unfamiliar magical plants.
+  - Quote: "They had to forage among unfamiliar magical plants."
+  - Source: A44, https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en, `sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source names no apothecary, plant, potion, route of ingredient exchange, or documented adaptation to the unfamiliar flora.
+
+### Chapter: Tools and Technique
+
+#### Section: European Wands and Wandless Practice
+
+Summary: The available evidence includes 1 source item, led by: Wands originated in Europe and improve magical precision and power, yet Native American Animagi and potion-makers demonstrate that wandless magic can reach high complexity.
+
+- **Supporting evidence:** Wands originated in Europe and improve magical precision and power, yet Native American Animagi and potion-makers demonstrate that wandless magic can reach high complexity.
+  - Quote: "The magic wand originated in Europe."
+  - Source: A43, https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en, `sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source provides no inventor, archaeological evidence, or date for the European wand's origin and does not define the scope of “generally held.”
 
 ## Part: Core Castle and Grounds
 
@@ -14254,6 +14517,43 @@ Summary: The available evidence includes 1 source item, led by: Adult Marauders-
   - Reference type: historical_claim
   - Corroborates: `ootp-ch28-007`, `ootp-ch09-006`, `poa-ch18-005`. ootp-ch28-007 records the Pensieve O.W.L. scene, ootp-ch09-006 records Lupin's prefect appointment context, and poa-ch18-005 records Marauders-era Animagus history; this entry adds Sirius and Lupin's retrospective account of James, Snape, Lily, and Lupin's inaction.
   - Notes: Sirius and Lupin are personally invested witnesses defending James, so their retrospective account should be weighed against Snape's memory rather than treated as neutral narration.
+
+## Part: Historiography and Evidence
+
+### Chapter: Traditions, Legends, and Claims
+
+#### Section: Editorial Description of Alchemy
+
+Summary: The available evidence includes 1 source item, led by: An official editorial characterizes alchemy as ancient, element-based transmutation with roots in potion-making and chemistry.
+
+- **Context:** An official editorial characterizes alchemy as ancient, element-based transmutation with roots in potion-making and chemistry.
+  - Quote: "It also had its roots in potion-making and chemistry."
+  - Source: F01, https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about, `sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Reference type: weak_context_only
+  - Notes: This is a secondary editorial summary published after the 1984 scope; it offers no dated evidence, source citation, or basis for the claimed historical relationship.
+
+#### Section: Speculation About Ancient Runes
+
+Summary: The available evidence includes 1 source item, led by: An official editorial speculates that the runic alphabet may derive from Bronze or Iron Age wizarding culture and that the class may study that culture more broadly.
+
+- **Context:** An official editorial speculates that the runic alphabet may derive from Bronze or Iron Age wizarding culture and that the class may study that culture more broadly.
+  - Quote: "It can be presumed that this alphabet once belonged to ancient Bronze/Iron Age wizards."
+  - Source: F01, https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about, `sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Reference type: weak_context_only
+  - Notes: The source is a later official editorial, not Rowling Original Writing, and uses “it can be presumed” and “perhaps”; it cannot date the alphabet or prove Bronze/Iron Age use.
+
+#### Section: Testing Wand Lore
+
+Summary: The available evidence includes 1 source item, led by: Wandmakers inherited rhymes and superstitions, but Ollivander distinguishes limited experiential value from baseless claims and explicitly unprovable tradition.
+
+- **Context:** Wandmakers inherited rhymes and superstitions, but Ollivander distinguishes limited experiential value from baseless claims and explicitly unprovable tradition.
+  - Quote: "Old superstitions regarding wands rarely bear close examination."
+  - Source: A42, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, `sources/external/official-rowling/a42-wand-woods.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The three examples have different evidentiary status and no transmission dates; this entry records Ollivander's method, not the truth of the rejected lore.
 
 ## Part: Hogwarts Buildings and Enchantments
 
@@ -15774,6 +16074,43 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: institutional_custom
   - Notes: The evidence is one Weasley-Delacour wedding and should not be treated as a complete legal account of wizarding marriage.
 
+## Part: Magical Crafts and Material Culture
+
+### Chapter: Wandcraft
+
+#### Section: Customer-Supplied Cores
+
+Summary: The available evidence includes 1 source item, led by: Before Garrick Ollivander's proprietorship, customers often supplied personally meaningful, inherited, or family-endorsed magical substances as wand cores.
+
+- **Supporting evidence:** Before Garrick Ollivander's proprietorship, customers often supplied personally meaningful, inherited, or family-endorsed magical substances as wand cores.
+  - Quote: "A customer would often present the wandmaker with a magical substance."
+  - Source: A41, https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander, `sources/external/official-rowling/a41-mr-ollivander.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: “Prior to” provides relative sequence but no starting date, prevalence outside Ollivander's clientele, or exact end date.
+
+#### Section: Magical Trees and Wood Selection
+
+Summary: The available evidence includes 1 source item, led by: Wand-quality trees are an exceptional magical minority; recognizing them requires years of experience, with Bowtruckle habitation serving as a practical indicator.
+
+- **Context:** Wand-quality trees are an exceptional magical minority; recognizing them requires years of experience, with Bowtruckle habitation serving as a practical indicator.
+  - Quote: "Only a minority of trees can produce wand-quality wood."
+  - Source: A42, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, `sources/external/official-rowling/a42-wand-woods.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The statement describes Ollivander's practice without dating the discovery, transmission, or use of these selection methods.
+
+#### Section: Standardization and Innovation
+
+Summary: The available evidence includes 1 source item, led by: Garrick Ollivander combined powerful cores with selected complementary woods and owner matching; after initial resistance, the method's superior results transformed his craft.
+
+- **Supporting evidence:** Garrick Ollivander combined powerful cores with selected complementary woods and owner matching; after initial resistance, the method's superior results transformed his craft.
+  - Quote: "There was initially substantial resistance to this revolutionary way of crafting wands."
+  - Source: A41, https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander, `sources/external/official-rowling/a41-mr-ollivander.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article gives no year for Garrick Ollivander's proprietorship, the period of resistance, or how broadly rival makers adopted comparable methods.
+
 ## Part: Magical Creatures and Wizarding Governance
 
 ### Chapter: Regulation of Dangerous Beasts
@@ -16489,6 +16826,101 @@ Summary: The available evidence includes 1 source item, led by: Severe Splinchin
   - Reference type: cross_reference_candidate
   - Corroborates: `gof-ch06-001`, `hbp-ch18-003`, `hbp-ch22-001`. Likely related to prior entries on Apparition licensing, lessons, testing, and Splinching risk; this entry adds severe field injury and Dittany treatment after an escape.
   - Notes: The passage shows emergency care by Hermione, not formal Healer procedure or a complete cure.
+
+## Part: Magical and Muggle Society
+
+### Chapter: Shared Material Culture
+
+#### Section: Transport Before Secrecy
+
+Summary: The available evidence includes 1 source item, led by: Before the Statute of Secrecy, wizards and Muggles shared ordinary transport technologies, including horse-drawn carts and sailing ships.
+
+- **Supporting evidence:** Before the Statute of Secrecy, wizards and Muggles shared ordinary transport technologies, including horse-drawn carts and sailing ships.
+  - Quote: "Wizards and Muggles used the same kind of everyday transport."
+  - Source: A45, https://www.harrypotter.com/writing-by-jk-rowling/technology, `sources/external/official-rowling/a45-technology.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: “Prior to” defines only an upper boundary at the Statute; it does not show when particular transports entered use or how uniformly wizards used them.
+
+## Part: Medieval Magical Britain
+
+### Chapter: Crafts and Knowledge
+
+#### Section: Wandmakers and Written Tradition
+
+Summary: The available evidence includes 1 source item, led by: Geraint Ollivander is identified as a great medieval wandmaker whose written observations on matching cypress wands survived into later family craft knowledge.
+
+- **Supporting evidence:** Geraint Ollivander is identified as a great medieval wandmaker whose written observations on matching cypress wands survived into later family craft knowledge.
+  - Quote: "The great medieval wandmaker, Geraint Ollivander, wrote."
+  - Source: A42, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, `sources/external/official-rowling/a42-wand-woods.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: “Medieval” is the only date supplied, and the reported cypress interpretation is craft lore rather than evidence of a dated event.
+
+## Part: Medieval Magical World
+
+### Chapter: Contact Beyond Britain
+
+#### Section: Transcontinental Magical Networks
+
+Summary: The available evidence includes 1 source item, led by: Brooms, Apparition, visions, and premonitions enabled distant wizarding communities to remain in contact from the Middle Ages onward.
+
+- **Supporting evidence:** Brooms, Apparition, visions, and premonitions enabled distant wizarding communities to remain in contact from the Middle Ages onward.
+  - Quote: "Far-flung wizarding communities were in contact with each other from the Middle Ages onwards."
+  - Source: A43, https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en, `sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The claim identifies means and a broad starting period but names no route, frequency, participating institution, or surviving record of contact.
+
+## Part: Modern Wizarding Britain
+
+### Chapter: Commerce and Magical Crafts
+
+#### Section: Wand-Wood Fashion and Fraud
+
+Summary: The available evidence includes 1 source item, led by: A nineteenth-century fashion for silver-lime wands drove demand beyond supply, encouraged counterfeit dyed woods, and generated commercial dispute among wandmakers.
+
+- **Supporting evidence:** A nineteenth-century fashion for silver-lime wands drove demand beyond supply, encouraged counterfeit dyed woods, and generated commercial dispute among wandmakers.
+  - Quote: "Demand outstripped supply, and unscrupulous wandmakers dyed substandard woods."
+  - Source: A42, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, `sources/external/official-rowling/a42-wand-woods.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source gives no exact years, transaction evidence, or scale for the fad and counterfeiting beyond demand exceeding supply.
+
+### Chapter: Technology and Secrecy
+
+#### Section: Enchanted Motor Vehicles
+
+Summary: The available evidence includes 1 source item, led by: Twentieth-century wizards adopted Muggle automobiles despite cultural resistance, and the Ministry acquired and magically modified its own fleet.
+
+- **Context:** Twentieth-century wizards adopted Muggle automobiles despite cultural resistance, and the Ministry acquired and magically modified its own fleet.
+  - Quote: "Eventually even the Ministry of Magic bought a fleet of cars."
+  - Source: A45, https://www.harrypotter.com/writing-by-jk-rowling/technology, `sources/external/official-rowling/a45-technology.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The article gives neither the fleet's acquisition year nor its size, charms, procurement record, or relationship to Hogwarts transport.
+
+#### Section: The Aborted Wizarding Television Service
+
+Summary: The available evidence includes 1 source item, led by: In the early 1980s, a proposed British wizarding television channel failed when the Ministry judged broadcasts on a Muggle device a serious secrecy risk.
+
+- **Supporting evidence:** In the early 1980s, a proposed British wizarding television channel failed when the Ministry judged broadcasts on a Muggle device a serious secrecy risk.
+  - Quote: "The project foundered at an early stage."
+  - Source: A45, https://www.harrypotter.com/writing-by-jk-rowling/technology, `sources/external/official-rowling/a45-technology.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Reference type: historical_claim
+  - Notes: “Early eighties” gives no exact year, and the article provides no formal Ministry instrument, organization membership, or surviving broadcast.
+
+#### Section: Wizarding Radio
+
+Summary: The available evidence includes 1 source item, led by: Wizards legally adapted radios for their own programmes, although Muggle listeners sometimes overheard practical advice about magical plants and garden creatures.
+
+- **Context:** Wizards legally adapted radios for their own programmes, although Muggle listeners sometimes overheard practical advice about magical plants and garden creatures.
+  - Quote: "Many radios have been legally modified by the wizarding community."
+  - Source: A45, https://www.harrypotter.com/writing-by-jk-rowling/technology, `sources/external/official-rowling/a45-technology.yaml`
+  - Classification: unknown_or_uncertain | Confidence: high
+  - Reference type: historical_claim
+  - Notes: The source supplies no introduction date, licensing rule, station name, broadcast archive, or measure of how frequently Muggles heard the programmes.
 
 ## Part: Notable Students and Staff
 

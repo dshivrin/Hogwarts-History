@@ -78,7 +78,7 @@ BOOK_SOURCE_NAME_RE = re.compile(
     r"^book-(?:\d{2}|qtta|beedle|fb)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
 )
 EXTERNAL_SOURCE_NAME_RE = re.compile(
-    r"^external/(?:official-rowling|interviews)/[a-z0-9-]+\.yaml$"
+    r"^external/(?:official-rowling|official-editorial|interviews)/[a-z0-9-]+\.yaml$"
 )
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 
@@ -159,8 +159,8 @@ def validate_external_source_unit(
 ) -> list[str]:
     errors: list[str] = []
     source_id = str(source_unit.get("source_id") or "")
-    if not re.fullmatch(r"[AB]\d{2}", source_id):
-        errors.append(f"{rel_path}: source_unit source_id must match A01 or B01 form")
+    if not re.fullmatch(r"[A-Z]\d{2}", source_id):
+        errors.append(f"{rel_path}: source_unit source_id must match A01-style form")
     if source_unit.get("capture_completeness") != "complete":
         errors.append(f"{rel_path}: source_unit capture_completeness must be 'complete'")
     if not source_unit.get("retrieval_url"):

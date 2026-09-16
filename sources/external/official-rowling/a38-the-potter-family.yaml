@@ -1,0 +1,346 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A38
+  source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+  title: The Potter Family
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-09-21'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+  capture_completeness: complete
+  content_sha256: b4ca9e8123d85d31bf8e9141d778fcf1be6b26b203c9e92880570553b107a481
+  processed_date: '2026-09-15'
+  processor_notes: Complete snapshot read; chronology and in-universe claims separated from later comparison.
+
+entries:
+  - id: ext-a38-001
+    source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+    source_id: A38
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The wizarding family of Potters descends from the twelfth-century wizard Linfred of Stinchcombe
+      end_phrase: behind closed doors he was able to continue the series of experiments that laid the foundation of the Potter family’s fortune.
+      local_occurrence_note: Third body paragraph, from Linfred's introduction through the description of his private experiments.
+    nearby_context: Linfred's Muggle neighbours sought his medicinal help without recognizing the cures or his garden plants as magical.
+    match_terms:
+      - linfred-of-stinchcombe
+      - medicinal-magic
+      - magical-plants
+      - household-experimentation
+    quote_excerpt_short: His Muggle neighbours often called upon his medicinal services.
+    source_note: In twelfth-century Britain, Linfred privately experimented with magic while providing cures to Muggle neighbours who regarded him as an eccentric gardener with unusual plants.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - linfred-potter
+      - healing
+      - magical-plants
+      - household-magic
+      - muggles
+      - twelfth-century
+    candidate_part: Origins of the School
+    candidate_chapter: Magic Before and Beyond Hogwarts
+    candidate_section: Household Medicine After the Founding
+    reason_for_placement: Provides dated medieval evidence for practical magic embedded in a household and local mixed community outside school.
+    relevance_to_hogwarts_a_history: Later comparative evidence showing that medieval practical knowledge could develop outside Hogwarts; it is not evidence of pre-foundation practice.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No candidate describes Linfred's twelfth-century household, garden, or concealed medicinal service.
+      audit:
+        query_tags:
+          - potions
+          - healing
+          - muggles
+        candidates:
+          - id: beedle-ch04-004
+            disposition: distinct
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: dh-ch14-001
+            disposition: distinct
+          - id: ext-a09-008
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: fb-ch00-004
+            disposition: distinct
+          - id: fb-ch06-006
+            disposition: distinct
+    confidence: high
+    limitations: Linfred lived after Hogwarts was founded; the passage does not identify his schooling or establish any equivalent practice before the school.
+
+  - id: ext-a38-002
+    source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+    source_id: A38
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Historians credit Linfred as the originator of a number of remedies that evolved into potions still used to this day
+      end_phrase: His sales of such cures to fellow witches and wizards enabled him to leave a significant pile of gold to each of his seven children upon his death.
+      local_occurrence_note: Final two sentences of the third body paragraph.
+    nearby_context: The claim follows the description of Linfred's concealed household experiments and medicinal work.
+    match_terms:
+      - potion-development
+      - skele-gro
+      - pepperup-potion
+      - cure-sales
+    quote_excerpt_short: remedies that evolved into potions still used to this day
+    source_note: Wizarding historians credit Linfred's remedies as precursors of Skele-gro and Pepperup Potion, and his sales to witches and wizards made his family wealthy.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - linfred-potter
+      - potions
+      - remedies
+      - magical-commerce
+      - twelfth-century
+    candidate_part: Origins of the School
+    candidate_chapter: Magic Before and Beyond Hogwarts
+    candidate_section: Household Remedies and Potion Development
+    reason_for_placement: Documents post-foundation medieval potion innovation and exchange outside a school setting.
+    relevance_to_hogwarts_a_history: Establishes medieval domestic and community potioneering after Hogwarts's founding, useful only as later comparison for Chapter 1.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing candidates concern school recipes, ingredients, or tests rather than the development and sale of Linfred's remedies.
+      audit:
+        query_tags:
+          - potions
+          - remedies
+          - commerce
+        candidates:
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: fb-ch06-006
+            disposition: distinct
+          - id: gof-ch10-006
+            disposition: distinct
+          - id: gof-ch15-002
+            disposition: distinct
+          - id: gof-ch18-004
+            disposition: distinct
+          - id: gof-ch22-005
+            disposition: distinct
+          - id: gof-ch35-007
+            disposition: distinct
+    confidence: high
+    limitations: The credited evolution is retrospective and post-foundation; it gives no recipe history or evidence for potion practice before Hogwarts.
+
+  - id: ext-a38-003
+    source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+    source_id: A38
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Ralston Potter, who was a member from 1612-1652
+      end_phrase: as opposed to declaring war on the Muggles, as more militant members wished to do
+      local_occurrence_note: Sixth body paragraph, within the account of Potter family members on the Wizengamot.
+    nearby_context: Ralston's position is contrasted with militant proposals concerning relations with Muggles.
+    match_terms:
+      - ralston-potter
+      - wizengamot
+      - statute-of-secrecy
+      - muggle-relations
+    quote_excerpt_short: a great supporter of the Statute of Secrecy
+    source_note: Wizengamot member Ralston Potter supported the Statute of Secrecy against contemporaries who preferred war with Muggles.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ralston-potter
+      - wizengamot
+      - statute-of-secrecy
+      - muggle-relations
+      - seventeenth-century
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Magical and Muggle Society
+    candidate_section: Secrecy and Political Division
+    reason_for_placement: Supplies a dated political example of disagreement over how wizarding society should relate to Muggles.
+    relevance_to_hogwarts_a_history: Later historical context for the separation of magical and Muggle society, not direct evidence for the founders' century.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Candidates corroborate the Statute's existence and political controversy but do not duplicate Ralston's dated position.
+      audit:
+        query_tags:
+          - statute-of-secrecy
+          - muggles
+        candidates:
+          - id: beedle-ch01-002
+            disposition: corroborating
+          - id: beedle-ch04-004
+            disposition: distinct
+          - id: cos-ch02-005
+            disposition: corroborating
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: dh-ch16-003
+            disposition: corroborating
+          - id: dh-ch18-006
+            disposition: corroborating
+          - id: dh-ch28-004
+            disposition: distinct
+          - id: ext-a09-008
+            disposition: distinct
+          - id: fb-ch00-004
+            disposition: distinct
+          - id: fb-ch02-007
+            disposition: corroborating
+    confidence: high
+    limitations: The source records Ralston's political stance but not the detailed arguments, vote, or institutional outcome.
+
+  - id: ext-a38-004
+    source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+    source_id: A38
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Henry Potter (Harry to his intimates), who was a direct descendant of Hardwin and Iolanthe, and served on the Wizengamot from 1913-1921.
+      end_phrase: His outspokenness on the behalf of the Muggle community was also a strong contributing factor in the family’s exclusion from the ‘Sacred Twenty-Eight’.
+      local_occurrence_note: Latter half of the sixth body paragraph.
+    nearby_context: Henry's public position is presented as a later Potter family example of support for Muggles.
+    match_terms:
+      - henry-potter
+      - first-world-war
+      - magical-assistance
+      - muggle-relations
+    quote_excerpt_short: he publicly condemned then Minister for Magic, Archer Evermonde
+    source_note: Wizengamot member Henry Potter publicly opposed a ministerial ban on magical assistance to Muggles during the First World War.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - henry-potter
+      - wizengamot
+      - muggle-relations
+      - first-world-war
+      - twentieth-century
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Magical and Muggle Society
+    candidate_section: Wartime Assistance and Separation
+    reason_for_placement: Gives a dated example of continued ethical and political engagement with Muggle society after statutory separation.
+    relevance_to_hogwarts_a_history: Demonstrates later coexistence and political responsibility but says nothing about pre-Hogwarts Britain.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The query candidates concern other secrecy disputes and Muggle encounters, not Henry Potter's wartime protest.
+      audit:
+        query_tags:
+          - statute-of-secrecy
+          - muggles
+        candidates:
+          - id: beedle-ch01-002
+            disposition: distinct
+          - id: beedle-ch04-004
+            disposition: distinct
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: dh-ch16-003
+            disposition: distinct
+          - id: dh-ch18-006
+            disposition: corroborating
+          - id: dh-ch28-004
+            disposition: distinct
+          - id: ext-a09-008
+            disposition: distinct
+          - id: fb-ch00-004
+            disposition: corroborating
+          - id: fb-ch02-007
+            disposition: distinct
+    confidence: high
+    limitations: The event is twentieth-century and far later than Hogwarts's foundation; the source does not describe what assistance was contemplated.
+
+  - id: ext-a38-005
+    source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+    source_id: A38
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It was Fleamont who took the family gold and quadrupled it, by creating magical Sleekeazy’s Hair Potion
+      end_phrase: He sold the company at a vast profit when he retired
+      local_occurrence_note: Seventh body paragraph, after the account of Fleamont's school duelling.
+    nearby_context: The commercial potion is presented as a later continuation of Potter family ingenuity.
+    match_terms:
+      - fleamont-potter
+      - sleekeazys-hair-potion
+      - potion-invention
+      - commercial-magic
+    quote_excerpt_short: creating magical Sleekeazy’s Hair Potion
+    source_note: Fleamont Potter created and commercialized Sleekeazy's Hair Potion, multiplying the inherited Potter fortune before selling the company on retirement.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - fleamont-potter
+      - potions
+      - invention
+      - magical-commerce
+      - twentieth-century
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Magic Before and Beyond Hogwarts
+    candidate_section: Commercial Potion Innovation
+    reason_for_placement: Adds a later example of potion expertise operating as private enterprise rather than classroom practice.
+    relevance_to_hogwarts_a_history: Comparative evidence for potion innovation outside Hogwarts; it cannot establish the antiquity of potion-making.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No candidate duplicates Fleamont's named invention or commercial success.
+      audit:
+        query_tags:
+          - potions
+          - invention
+          - commerce
+        candidates:
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: dh-ch07-004
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: fb-ch06-006
+            disposition: distinct
+          - id: gof-ch10-006
+            disposition: distinct
+          - id: gof-ch15-002
+            disposition: distinct
+          - id: gof-ch18-004
+            disposition: distinct
+          - id: gof-ch22-005
+            disposition: distinct
+    confidence: high
+    limitations: The article does not date the invention precisely; it is much later than the medieval Linfred material and the foundation of Hogwarts.

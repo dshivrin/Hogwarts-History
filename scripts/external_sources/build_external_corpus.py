@@ -6,12 +6,16 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
+import tempfile
 import unicodedata
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
+
+import yaml
 
 
 SOURCE_HEADING_RE = re.compile(r"^### ([A-Z]\d{2}) — (.+)$", re.MULTILINE)
@@ -50,6 +54,44 @@ DEFAULT_URL_OVERRIDES = {
     "B02": "https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm"
 }
 
+SOURCE_PROFILES = {
+    "A": {
+        "extractor": "official",
+        "subdirectory": Path("official-rowling/harrypotter-com"),
+        "source_site": "HarryPotter.com",
+        "source_class": "official_rowling_original",
+        "authority": "A",
+        "is_primary": True,
+        "is_official": True,
+        "carrier_type": "original",
+        "relevance": ["hogwarts", "rowling_original", "institutional_history"],
+        "notes": "Official Rowling Original; carrier may note prior Pottermore publication.",
+    },
+    "B": {
+        "extractor": "accio",
+        "subdirectory": Path("interviews/accio-quote"),
+        "source_site": "Accio Quote",
+        "source_class": "preservation_transcription",
+        "authority": "D",
+        "is_primary": False,
+        "is_official": False,
+        "carrier_type": "preservation_transcript",
+        "relevance": ["hogwarts", "rowling_interview", "author_commentary"],
+    },
+    "F": {
+        "extractor": "official",
+        "subdirectory": Path("official-editorial/harrypotter-com"),
+        "source_site": "HarryPotter.com",
+        "source_class": "secondary_reference",
+        "authority": "E",
+        "is_primary": False,
+        "is_official": True,
+        "carrier_type": "official_editorial",
+        "relevance": ["hogwarts", "official_editorial", "source_critical_context"],
+        "notes": "Official editorial material; preserve speculative language and do not treat as Rowling Original writing.",
+    },
+}
+
 
 def _display_title(source_id: str, heading: str) -> str:
     if source_id.startswith("B") and " — " in heading:
@@ -69,7 +111,7 @@ def parse_plan(
 
     for index, match in enumerate(headings):
         source_id, heading = match.groups()
-        if source_id[:1] not in {"A", "B"}:
+        if source_id[:1] not in SOURCE_PROFILES:
             continue
         if source_id in seen:
             raise ValueError(f"duplicate source id: {source_id}")
@@ -318,6 +360,33 @@ def _manifest_yaml(records: list[dict[str, Any]], retrieved_at: str) -> str:
     return "\n".join(lines)
 
 
+def _atomic_write_text(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as handle:
+            temporary_path = Path(handle.name)
+            handle.write(content)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary_path, path)
+    finally:
+        if temporary_path is not None and temporary_path.exists():
+            temporary_path.unlink()
+
+
+def _normalize_markdown_body(body: str) -> str:
+    """Remove transport-only trailing whitespace without changing line structure."""
+    return "\n".join(line.rstrip() for line in body.splitlines()).strip()
+
+
 def build_corpus(
     *,
     plan_path: Path,
@@ -326,10 +395,52 @@ def build_corpus(
     manifest_path: Path,
     retrieved_at: str,
     url_overrides: dict[str, str] | None = None,
+    selected_ids: set[str] | None = None,
+    append: bool = False,
 ) -> dict[str, Any]:
     """Build Markdown snapshots and a logical-source manifest from cached HTML."""
     candidates = parse_plan(plan_path, url_overrides=url_overrides)
+    if selected_ids is not None:
+        requested = {source_id.upper() for source_id in selected_ids}
+        available = {candidate["id"] for candidate in candidates}
+        missing = sorted(requested - available)
+        if missing:
+            raise ValueError(f"source IDs not found in acquisition plan: {', '.join(missing)}")
+        candidates = [candidate for candidate in candidates if candidate["id"] in requested]
+
     manifest_records: list[dict[str, Any]] = []
+    if append and manifest_path.exists():
+        existing_manifest = yaml.safe_load(manifest_path.read_text(encoding="utf-8")) or {}
+        if not isinstance(existing_manifest, dict) or not isinstance(
+            existing_manifest.get("sources"), list
+        ):
+            raise ValueError("existing external manifest must contain a sources list")
+        manifest_records = list(existing_manifest["sources"])
+
+    existing_ids = {str(record.get("logical_id") or "") for record in manifest_records}
+    existing_urls = {
+        str(value)
+        for record in manifest_records
+        for value in (record.get("original_url"), record.get("retrieval_url"))
+        if value
+    }
+    existing_paths = {str(record.get("local_path") or "") for record in manifest_records}
+    for candidate in candidates:
+        source_id = candidate["id"]
+        if source_id in existing_ids:
+            raise ValueError(f"external source already exists: {source_id}")
+        if candidate["original_url"] in existing_urls:
+            raise ValueError(f"external source URL already exists: {candidate['original_url']}")
+        profile = SOURCE_PROFILES[source_id[0]]
+        candidate_path = (
+            Path(output_root)
+            / profile["subdirectory"]
+            / f"{source_id.lower()}-{_slugify(candidate['title'])}.md"
+        )
+        relative_path = _relative_or_absolute(candidate_path)
+        if relative_path in existing_paths or candidate_path.exists():
+            raise ValueError(f"external snapshot path already exists: {relative_path}")
+
     failed: list[dict[str, str]] = []
 
     for candidate in candidates:
@@ -340,49 +451,46 @@ def build_corpus(
             continue
         try:
             html = _decode_html(cache_path.read_bytes())
-            is_official = source_id.startswith("A")
-            extracted = extract_official(html) if is_official else extract_accio(html)
-            if not is_official:
+            profile = SOURCE_PROFILES[source_id[0]]
+            extracted = (
+                extract_official(html)
+                if profile["extractor"] == "official"
+                else extract_accio(html)
+            )
+            extracted["body"] = _normalize_markdown_body(extracted["body"])
+            if profile["extractor"] == "accio":
                 extracted["author"] = "J.K. Rowling"
                 extracted["publication_date"] = _heading_date(source_id, candidate["heading"])
-            subdirectory = (
-                Path("official-rowling/harrypotter-com")
-                if is_official
-                else Path("interviews/accio-quote")
-            )
             filename = f"{source_id.lower()}-{_slugify(candidate['title'])}.md"
-            output_path = Path(output_root) / subdirectory / filename
+            output_path = Path(output_root) / profile["subdirectory"] / filename
             output_path.parent.mkdir(parents=True, exist_ok=True)
-            publisher = None if is_official else INTERVIEW_PUBLISHERS.get(source_id)
+            publisher = (
+                INTERVIEW_PUBLISHERS.get(source_id)
+                if profile["extractor"] == "accio"
+                else None
+            )
             record = {
                 **candidate,
                 "retrieval_url": candidate["original_url"],
-                "original_url": candidate["original_url"] if is_official else None,
-                "local_path": _relative_or_absolute(output_path),
-                "source_site": "HarryPotter.com" if is_official else "Accio Quote",
-                "original_publisher": publisher,
-                "source_class": (
-                    "official_rowling_original" if is_official else "preservation_transcription"
+                "original_url": (
+                    None if profile["extractor"] == "accio" else candidate["original_url"]
                 ),
-                "authority": "A" if is_official else "D",
-                "is_primary": is_official,
-                "is_official": is_official,
-                "carrier_type": "original" if is_official else "preservation_transcript",
+                "local_path": _relative_or_absolute(output_path),
+                "source_site": profile["source_site"],
+                "original_publisher": publisher,
+                "source_class": profile["source_class"],
+                "authority": profile["authority"],
+                "is_primary": profile["is_primary"],
+                "is_official": profile["is_official"],
+                "carrier_type": profile["carrier_type"],
                 "capture_completeness": "complete",
                 "retrieved_at": retrieved_at,
-                "relevance": (
-                    ["hogwarts", "rowling_original", "institutional_history"]
-                    if is_official
-                    else ["hogwarts", "rowling_interview", "author_commentary"]
-                ),
-                "notes": (
-                    "Official Rowling Original; carrier may note prior Pottermore publication."
-                    if is_official
-                    else f"Accio Quote preservation carrier; original outlet: {publisher or 'unresolved'}."
-                ),
+                "relevance": profile["relevance"],
+                "notes": profile.get("notes")
+                or f"Accio Quote preservation carrier; original outlet: {publisher or 'unresolved'}.",
             }
             snapshot = render_snapshot(record, extracted)
-            output_path.write_text(snapshot, encoding="utf-8")
+            _atomic_write_text(output_path, snapshot)
             body_hash = hashlib.sha256(extracted["body"].strip().encode("utf-8")).hexdigest()
             manifest_records.append(
                 {
@@ -398,11 +506,8 @@ def build_corpus(
         except Exception as exc:  # Keep one bad carrier from discarding successful work.
             failed.append({"id": source_id, "reason": f"{type(exc).__name__}: {exc}"})
 
-    Path(manifest_path).parent.mkdir(parents=True, exist_ok=True)
-    Path(manifest_path).write_text(
-        _manifest_yaml(manifest_records, retrieved_at), encoding="utf-8"
-    )
-    return {"acquired": len(manifest_records), "failed": failed}
+    _atomic_write_text(Path(manifest_path), _manifest_yaml(manifest_records, retrieved_at))
+    return {"acquired": len(candidates) - len(failed), "failed": failed}
 
 
 def _argument_parser() -> argparse.ArgumentParser:
@@ -418,6 +523,8 @@ def _argument_parser() -> argparse.ArgumentParser:
     build.add_argument("--output-root", type=Path, required=True)
     build.add_argument("--manifest", type=Path, required=True)
     build.add_argument("--retrieved-at", required=True)
+    build.add_argument("--ids", nargs="+")
+    build.add_argument("--append", action="store_true")
     return parser
 
 
@@ -434,6 +541,8 @@ def main(argv: list[str] | None = None) -> int:
         manifest_path=args.manifest,
         retrieved_at=args.retrieved_at,
         url_overrides=DEFAULT_URL_OVERRIDES,
+        selected_ids=set(args.ids) if args.ids else None,
+        append=args.append,
     )
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if not result["failed"] else 1

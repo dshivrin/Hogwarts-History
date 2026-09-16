@@ -1,0 +1,246 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A40
+  source_file: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+  title: Cauldrons
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+  capture_completeness: complete
+  content_sha256: 481b82ddf0cc5eca90fa85bcdbf0ad7f6caf0bb84e37fd22fd41d7858b3e351d
+  processed_date: '2026-09-15'
+  processor_notes: Complete snapshot read; wizarding-world material claims and authorial folklore commentary are separate entries.
+
+entries:
+  - id: ext-a40-001
+    source_file: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+    source_id: A40
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Cauldrons were once used by Muggles and wizards alike
+      end_phrase: cauldrons became the sole province of witches and wizards, who continued to brew potions in them.
+      local_occurrence_note: Opening body paragraph.
+    nearby_context: The article traces an ordinary shared cooking vessel into a retained wizarding tool as both communities adopted stoves and saucepans.
+    match_terms:
+      - cauldron-history
+      - shared-material-culture
+      - muggles
+      - potion-brewing
+    quote_excerpt_short: Cauldrons were once used by Muggles and wizards alike.
+    source_note: Muggles and wizards once used the same suspended cooking pots; wizards retained cauldrons for potion brewing after saucepans and stoves displaced them elsewhere.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - cauldrons
+      - potions
+      - muggles
+      - material-culture
+      - shared-technologies
+    candidate_part: Origins of the School
+    candidate_chapter: Magical and Muggle Society
+    candidate_section: Shared Material Culture
+    reason_for_placement: Gives a material example of magical and non-magical people participating in the same ordinary technological history.
+    relevance_to_hogwarts_a_history: Strengthens broad historical coexistence and potion material culture, but the source supplies no date for the transition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The closest entry distinguishes magical potion-making from Muggle cooking; none records the shared history of the vessel itself.
+      audit:
+        query_tags:
+          - cauldrons
+          - potions
+          - muggles
+        candidates:
+          - id: ext-a39-001
+            disposition: corroborating
+          - id: beedle-ch04-004
+            disposition: distinct
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: ext-a09-008
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: ext-a38-001
+            disposition: corroborating
+          - id: ext-a38-002
+            disposition: distinct
+    confidence: high
+    limitations: The relative words “once” and “in time” do not locate this history before Hogwarts or within any particular century.
+
+  - id: ext-a40-002
+    source_file: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+    source_id: A40
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A naked flame is essential for the making of potions
+      end_phrase: which makes cauldrons the most practical pot of all.
+      local_occurrence_note: Second body paragraph.
+    nearby_context: The claim explains the continued practicality of cauldrons for potion-making.
+    match_terms:
+      - naked-flame
+      - potion-making
+      - cauldron
+      - brewing-technique
+    quote_excerpt_short: A naked flame is essential for the making of potions.
+    source_note: Potion-making requires a naked flame, making the fire-suspended cauldron particularly practical for the craft.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - cauldrons
+      - potions
+      - naked-flame
+      - brewing-technique
+      - magical-craft
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions and Practical Magic
+    candidate_section: Vessels and Heat
+    reason_for_placement: Records a concrete technical requirement of potion-making and the material reason for cauldron use.
+    relevance_to_hogwarts_a_history: Supports potion-making as a material craft independent of classroom instruction, without establishing its date.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing potion entries do not state the essential heat source; A39 independently establishes that heat alone is insufficient without magic.
+      audit:
+        query_tags:
+          - potions
+          - naked-flame
+          - cauldrons
+        candidates:
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: ext-a38-002
+            disposition: distinct
+          - id: ext-a38-005
+            disposition: distinct
+          - id: ext-a39-001
+            disposition: corroborating
+          - id: ext-a39-002
+            disposition: distinct
+          - id: ext-a39-003
+            disposition: distinct
+          - id: fb-ch06-006
+            disposition: distinct
+    confidence: high
+    limitations: This undated technical statement cannot show when cauldrons or naked-flame potion-making began.
+
+  - id: ext-a40-003
+    source_file: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+    source_id: A40
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: All cauldrons are enchanted to make them lighter to carry
+      end_phrase: pots of precious metal are also available for the specialist, or the show-off.
+      local_occurrence_note: Third body paragraph immediately before the Author's note.
+    nearby_context: The paragraph moves from common pewter and iron cauldrons to later specialized varieties.
+    match_terms:
+      - enchanted-cauldron
+      - pewter
+      - iron
+      - self-stirring
+      - collapsible
+    quote_excerpt_short: All cauldrons are enchanted to make them lighter to carry.
+    source_note: Common pewter or iron cauldrons carry lightening enchantments, while self-stirring, collapsible, and precious-metal varieties represent specialized or modern forms.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - cauldrons
+      - enchantments
+      - pewter
+      - iron
+      - magical-invention
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions and Practical Magic
+    candidate_section: Enchanted and Specialized Cauldrons
+    reason_for_placement: Records the materials and enchantments of a standard potion vessel and identifies later technological variation.
+    relevance_to_hogwarts_a_history: Useful material-culture context, though the article does not date the lightening charm or individual modern inventions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed enchantment candidates concern unrelated castle protections.
+      audit:
+        query_tags:
+          - cauldrons
+          - enchantments
+          - pewter
+        candidates:
+          - id: ps-ch13-006
+            disposition: distinct
+          - id: ps-ch14-003
+            disposition: distinct
+    confidence: high
+    limitations: “All cauldrons” and “modern inventions” are broad statements with no effective date or adoption chronology.
+
+  - id: ext-a40-004
+    source_file: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+    source_id: A40
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Cauldrons have had a magical association for centuries.
+      end_phrase: the cauldron of Dyrnwch the giant would cook meat for brave men, but not for cowards
+      local_occurrence_note: Author's note following the in-universe technical description.
+    nearby_context: Rowling discusses visual, folk, fairy-tale, Irish mythic, and British legendary associations of cauldrons.
+    match_terms:
+      - cauldron-folklore
+      - fairy-tales
+      - irish-mythology
+      - thirteen-treasures
+    quote_excerpt_short: Cauldrons have had a magical association for centuries.
+    source_note: Rowling's authorial note links cauldrons to centuries of witch imagery, folk and fairy tales, Irish mythic jewels, and the Thirteen Treasures of Britain.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - cauldrons
+      - folklore
+      - authorial
+      - irish-mythology
+      - british-legend
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Sources and Authorial Context
+    candidate_section: Cauldron Folklore
+    reason_for_placement: Separates real-world folkloric inspiration from wizarding-world material history.
+    relevance_to_hogwarts_a_history: Useful only as authorial and comparative folklore context; it does not establish events or practices in magical Britain.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The exact query returned no indexed candidates.
+      audit:
+        query_tags:
+          - cauldrons
+          - folklore
+          - authorial
+        candidates: []
+    confidence: high
+    limitations: This is authorial real-world folklore commentary, not in-universe historical evidence.

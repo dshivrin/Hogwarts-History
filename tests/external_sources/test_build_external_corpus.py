@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from scripts.external_sources.build_external_corpus import (
+    _normalize_markdown_body,
     build_corpus,
     extract_accio,
     extract_official,
@@ -10,6 +11,12 @@ from scripts.external_sources.build_external_corpus import (
     parse_plan,
     render_snapshot,
 )
+
+
+def test_normalize_markdown_body_removes_trailing_whitespace_only():
+    body = "First line.  \n> \nSecond line.\t\n"
+
+    assert _normalize_markdown_body(body) == "First line.\n>\nSecond line."
 
 
 def test_parse_plan_collects_unique_primary_sources_and_applies_url_override(tmp_path: Path):
@@ -78,6 +85,24 @@ https://example.com/duplicate
         assert str(exc) == "duplicate source id: A01"
     else:
         raise AssertionError("duplicate source ID was accepted")
+
+
+def test_parse_plan_accepts_official_editorial_sources(tmp_path: Path):
+    plan = tmp_path / "plan.md"
+    plan.write_text(
+        "### F01 — The Hogwarts classes that you might have forgotten about\n"
+        "https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about\n",
+        encoding="utf-8",
+    )
+
+    assert parse_plan(plan) == [
+        {
+            "id": "F01",
+            "title": "The Hogwarts classes that you might have forgotten about",
+            "heading": "The Hogwarts classes that you might have forgotten about",
+            "original_url": "https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about",
+        }
+    ]
 
 
 def test_extract_official_reads_embedded_article_json_without_page_chrome():
@@ -256,6 +281,118 @@ Discover via Accio.
     assert 'logical_id: "A01"' in manifest_text
     assert 'authority: "A"' in manifest_text
     assert 'authority: "D"' in manifest_text
+
+
+def test_build_corpus_incrementally_appends_selected_editorial_source(tmp_path: Path):
+    plan = tmp_path / "plan.md"
+    plan.write_text(
+        "### A01 — Chamber of Secrets\n"
+        "https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets\n"
+        "### F01 — The Hogwarts classes that you might have forgotten about\n"
+        "https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about\n",
+        encoding="utf-8",
+    )
+    cache = tmp_path / "cache"
+    cache.mkdir()
+    editorial_payload = {
+        "props": {
+            "pageProps": {
+                "content": [
+                    {
+                        "body": {
+                            "displayTitle": "The Hogwarts classes that you might have forgotten about",
+                            "activationDate": "Apr 3rd 2017",
+                            "intro": "Editorial introduction.",
+                            "author": {"title": "The Harry Potter Editorial Team"},
+                            "section": [{"text": "Speculative editorial body."}],
+                        }
+                    }
+                ]
+            }
+        }
+    }
+    (cache / "f01.html").write_text(
+        '<script id="__NEXT_DATA__" type="application/json">'
+        + json.dumps(editorial_payload)
+        + "</script>",
+        encoding="utf-8",
+    )
+    output_root = tmp_path / "resources" / "external"
+    manifest = tmp_path / "resources" / "manifests" / "external-sources.yaml"
+    manifest.parent.mkdir(parents=True)
+    manifest.write_text(
+        "schema_version: 1\n"
+        "retrieved_at: '2026-08-15'\n"
+        "sources:\n"
+        "  - id: external-A01\n"
+        "    logical_id: A01\n"
+        "    title: Chamber of Secrets\n"
+        "    original_url: https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets\n"
+        "    retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets\n"
+        "    local_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md\n",
+        encoding="utf-8",
+    )
+
+    result = build_corpus(
+        plan_path=plan,
+        cache_dir=cache,
+        output_root=output_root,
+        manifest_path=manifest,
+        retrieved_at="2026-09-15",
+        selected_ids={"F01"},
+        append=True,
+    )
+
+    assert result == {"acquired": 1, "failed": []}
+    manifest_text = manifest.read_text(encoding="utf-8")
+    assert manifest_text.count("- id:") == 2
+    assert 'id: "external-A01"' in manifest_text
+    assert 'id: "external-F01"' in manifest_text
+    assert 'source_class: "secondary_reference"' in manifest_text
+    assert 'authority: "E"' in manifest_text
+    snapshot = (
+        output_root
+        / "official-editorial"
+        / "harrypotter-com"
+        / "f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md"
+    )
+    assert snapshot.is_file()
+    assert 'author: "The Harry Potter Editorial Team"' in snapshot.read_text(encoding="utf-8")
+
+
+def test_build_corpus_incremental_mode_rejects_existing_logical_id(tmp_path: Path):
+    plan = tmp_path / "plan.md"
+    plan.write_text(
+        "### A01 — Chamber of Secrets\n"
+        "https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets\n",
+        encoding="utf-8",
+    )
+    manifest = tmp_path / "manifest.yaml"
+    manifest.write_text(
+        "schema_version: 1\n"
+        "sources:\n"
+        "  - id: external-A01\n"
+        "    logical_id: A01\n"
+        "    original_url: https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets\n"
+        "    retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets\n"
+        "    local_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md\n",
+        encoding="utf-8",
+    )
+
+    try:
+        build_corpus(
+            plan_path=plan,
+            cache_dir=tmp_path / "cache",
+            output_root=tmp_path / "resources" / "external",
+            manifest_path=manifest,
+            retrieved_at="2026-09-15",
+            selected_ids={"A01"},
+            append=True,
+        )
+    except ValueError as exc:
+        assert str(exc) == "external source already exists: A01"
+    else:
+        raise AssertionError("incremental acquisition accepted an existing logical ID")
 
 
 def test_catalog_cli_prints_json_records(tmp_path: Path, capsys):

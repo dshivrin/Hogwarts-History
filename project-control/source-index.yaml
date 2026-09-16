@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-13'
+updated: '2026-09-16'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -3142,6 +3142,22 @@ processed_units:
   source_id: B26
   source_site: Accio Quote
   source_url: https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html
+- source_unit_id: F01
+  source_file: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 2
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: F01
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about
 - source_unit_id: A01
   source_file: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
   book: null
@@ -3734,3 +3750,131 @@ processed_units:
   source_id: A37
   source_site: HarryPotter.com
   source_url: https://www.harrypotter.com/writing-by-jk-rowling/extension-charms
+- source_unit_id: A38
+  source_file: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a38-the-potter-family.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A38
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family
+- source_unit_id: A39
+  source_file: resources/external/official-rowling/harrypotter-com/a39-potions.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a39-potions.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A39
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+- source_unit_id: A40
+  source_file: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a40-cauldrons.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A40
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/cauldrons
+- source_unit_id: A41
+  source_file: resources/external/official-rowling/harrypotter-com/a41-mr-ollivander.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a41-mr-ollivander.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 3
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A41
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+- source_unit_id: A42
+  source_file: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a42-wand-woods.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 5
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A42
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/wand-woods
+- source_unit_id: A43
+  source_file: resources/external/official-rowling/harrypotter-com/a43-fourteenth-century-seventeenth-century.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A43
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en
+- source_unit_id: A44
+  source_file: resources/external/official-rowling/harrypotter-com/a44-seventeenth-century-and-beyond.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 3
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A44
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en
+- source_unit_id: A45
+  source_file: resources/external/official-rowling/harrypotter-com/a45-technology.md
+  book: null
+  chapter_number: null
+  chapter_title: null
+  page_start: null
+  page_end: null
+  output_yaml: sources/external/official-rowling/a45-technology.yaml
+  processed_at: '2026-09-15'
+  explicit_reference_count: 0
+  candidate_entry_count: 4
+  boundary_summary: Read the complete acquired Markdown snapshot.
+  source_kind: external_markdown
+  source_id: A45
+  source_site: HarryPotter.com
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/technology

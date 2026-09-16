@@ -259,6 +259,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `B24`: Accio Quote, https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm, 3 entries, 0 explicit references.
 - `B25`: Accio Quote, https://www.accio-quote.org/articles/2005/1205-bbc-fry.html, 3 entries, 0 explicit references.
 - `B26`: Accio Quote, https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html, 2 entries, 0 explicit references.
+- `F01`: HarryPotter.com, https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about, 2 entries, 0 explicit references.
 - `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
 - `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
 - `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.
@@ -296,3 +297,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `A35`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy, 2 entries, 0 explicit references.
 - `A36`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby, 2 entries, 0 explicit references.
 - `A37`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/extension-charms, 1 entries, 0 explicit references.
+- `A38`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, 5 entries, 0 explicit references.
+- `A39`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/potions, 4 entries, 0 explicit references.
+- `A40`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/cauldrons, 4 entries, 0 explicit references.
+- `A41`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander, 3 entries, 0 explicit references.
+- `A42`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, 5 entries, 0 explicit references.
+- `A43`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en, 4 entries, 0 explicit references.
+- `A44`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en, 3 entries, 0 explicit references.
+- `A45`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/technology, 4 entries, 0 explicit references.

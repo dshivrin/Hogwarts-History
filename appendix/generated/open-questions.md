@@ -471,6 +471,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-b25-003` (None): Accio Quote is a non-primary preservation transcription; this is publication-era commentary about planned fiction, not an in-universe historical record.
 - `ext-b26-001` (None): Accio Quote is a non-primary preservation transcription. The speaker describes a published flashback rather than an independent institutional record, does not name the pupil, and does not establish a general procedure.
 - `ext-b26-002` (None): Accio Quote is a non-primary preservation transcription; this is authorial event-era commentary about the later novels, not an in-universe historical record and is outside the pre-1984 scope.
+- `ext-f01-001` (None): The source is a later official editorial, not Rowling Original Writing, and uses “it can be presumed” and “perhaps”; it cannot date the alphabet or prove Bronze/Iron Age use.
+- `ext-f01-002` (None): This is a secondary editorial summary published after the 1984 scope; it offers no dated evidence, source citation, or basis for the claimed historical relationship.
 - `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
 - `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
 - `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
@@ -490,3 +492,13 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `ext-a28-004` (None): A general rule in a 2016 overview, explicitly subject to exceptions; it gives no school-specific locations or construction history.
 - `ext-a36-002` (None): The retrospective confirms annual conferral but provides neither the Cup's founding date nor eligibility, selection process, or evidence that it belongs in a pre-1984 edition.
 - `ext-a37-001` (None): The source does not date the adoption of standard capacity-enhanced trunks or identify the approving Ministry department; the passage also describes a broader Ministry rule rather than a Hogwarts-authored policy.
+- `ext-a39-001` (None): This is an undated general proposition and cannot establish when potion-making began or where early practitioners learned it.
+- `ext-a39-002` (None): The statement is undated and identifies only two examples of effects said to be unavailable by other means.
+- `ext-a39-003` (None): The article describes an undated social stereotype and technical generality, not the historical formation of the field.
+- `ext-a40-001` (None): The relative words “once” and “in time” do not locate this history before Hogwarts or within any particular century.
+- `ext-a40-002` (None): This undated technical statement cannot show when cauldrons or naked-flame potion-making began.
+- `ext-a40-003` (None): “All cauldrons” and “modern inventions” are broad statements with no effective date or adoption chronology.
+- `ext-a42-001` (None): The statement describes Ollivander's practice without dating the discovery, transmission, or use of these selection methods.
+- `ext-a42-004` (None): The three examples have different evidentiary status and no transmission dates; this entry records Ollivander's method, not the truth of the rejected lore.
+- `ext-a45-003` (None): The source supplies no introduction date, licensing rule, station name, broadcast archive, or measure of how frequently Muggles heard the programmes.
+- `ext-a45-004` (None): The article gives neither the fleet's acquisition year nor its size, charms, procurement record, or relationship to Hogwarts transport.

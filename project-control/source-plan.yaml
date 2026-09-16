@@ -4,7 +4,7 @@ project:
   authoritative_state: project-control/processing-state.yaml
   update_note: scripts/update_next_run.py keeps completed chapter status synchronized
     when advancing after a validated extraction.
-current_phase: fantastic-beasts-remainder-extraction
+current_phase: external-source-extraction
 sources:
 - source_file: pdfs/harrypotter.pdf
   book_group: book-01
@@ -267,7 +267,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
   - number: 5
-    title: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+    title: Chapter Five - Weasleys’ Wizard Wheezes
     status: complete
     output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
   - number: 6
@@ -343,7 +343,7 @@ sources:
     status: complete
     output_file: sources/book-04/chapter-23-the-yule-ball.yaml
   - number: 24
-    title: "Chapter Twenty-Four - Rita Skeeter\u2019s Scoop"
+    title: Chapter Twenty-Four - Rita Skeeter’s Scoop
     status: complete
     output_file: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
   - number: 25
@@ -1237,7 +1237,7 @@ external_sources:
       at: '2026-08-15T14:39:47Z'
     staging_file: work/external-staging/a10.yaml
   - id: A11
-    title: "The Marauder\u2019s Map"
+    title: The Marauder’s Map
     source_kind: external_markdown
     source_class: official_rowling_original
     authority: A
@@ -1429,7 +1429,7 @@ external_sources:
       at: '2026-08-15T15:13:34Z'
     staging_file: work/external-staging/a18.yaml
   - id: A19
-    title: "King\u2019s Cross Station"
+    title: King’s Cross Station
     source_kind: external_markdown
     source_class: official_rowling_original
     authority: A
@@ -1884,6 +1884,198 @@ external_sources:
     - event: completed
       at: '2026-08-15T16:48:54Z'
     staging_file: work/external-staging/a37.yaml
+  - id: A38
+    title: The Potter Family
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a38-the-potter-family.md
+    manifest_id: external-A38
+    output_file: sources/external/official-rowling/a38-the-potter-family.yaml
+    staging_file: work/external-staging/a38.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T17:36:32Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T17:33:59Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T17:36:32Z'
+  - id: A39
+    title: Potions
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a39-potions.md
+    manifest_id: external-A39
+    output_file: sources/external/official-rowling/a39-potions.yaml
+    staging_file: work/external-staging/a39.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T17:38:58Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T17:36:46Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T17:38:58Z'
+  - id: A40
+    title: Cauldrons
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a40-cauldrons.md
+    manifest_id: external-A40
+    output_file: sources/external/official-rowling/a40-cauldrons.yaml
+    staging_file: work/external-staging/a40.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T17:41:44Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T17:39:20Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T17:41:44Z'
+  - id: A41
+    title: Mr Ollivander
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a41-mr-ollivander.md
+    manifest_id: external-A41
+    output_file: sources/external/official-rowling/a41-mr-ollivander.yaml
+    staging_file: work/external-staging/a41.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T21:05:46Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T18:48:03Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T21:05:46Z'
+  - id: A42
+    title: Wand Woods
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a42-wand-woods.md
+    manifest_id: external-A42
+    output_file: sources/external/official-rowling/a42-wand-woods.yaml
+    staging_file: work/external-staging/a42.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T21:20:13Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T21:06:06Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T21:20:13Z'
+  - id: A43
+    title: Fourteenth Century – Seventeenth Century
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a43-fourteenth-century-seventeenth-century.md
+    manifest_id: external-A43
+    output_file: sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+    staging_file: work/external-staging/a43.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T21:56:09Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T21:36:54Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T21:56:09Z'
+  - id: A44
+    title: Seventeenth Century and Beyond
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a44-seventeenth-century-and-beyond.md
+    manifest_id: external-A44
+    output_file: sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml
+    staging_file: work/external-staging/a44.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T22:14:06Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T22:12:21Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T22:14:06Z'
+  - id: A45
+    title: Technology
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a45-technology.md
+    manifest_id: external-A45
+    output_file: sources/external/official-rowling/a45-technology.yaml
+    staging_file: work/external-staging/a45.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T22:33:27Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T22:14:27Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T22:33:27Z'
   - id: B01
     title: Online chat transcript, Scholastic.com , 3 February 2000
     source_kind: external_markdown
@@ -2524,3 +2716,27 @@ external_sources:
     - event: completed
       at: '2026-08-24T05:34:12Z'
     staging_file: work/external-staging/b26.yaml
+  - id: F01
+    title: The Hogwarts classes that you might have forgotten about
+    source_kind: external_markdown
+    source_class: secondary_reference
+    authority: E
+    input_path: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+    manifest_id: external-F01
+    output_file: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+    staging_file: work/external-staging/f01.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-09-15T22:52:18Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-09-15T22:33:42Z'
+      agent: codex
+    - event: completed
+      at: '2026-09-15T22:52:18Z'

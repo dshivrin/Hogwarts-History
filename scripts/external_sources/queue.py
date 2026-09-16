@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 import fcntl
 import os
 from pathlib import Path
+import re
 import secrets
 import subprocess
 import sys
@@ -106,7 +107,7 @@ def now_utc() -> str:
 
 def _unit_sort_key(record: dict) -> tuple[str, int]:
     logical_id = str(record.get("logical_id") or "")
-    if len(logical_id) != 3 or logical_id[0] not in {"A", "B"}:
+    if not re.fullmatch(r"[A-Z]\d{2}", logical_id):
         raise QueueError(f"invalid external logical_id: {logical_id!r}")
     try:
         number = int(logical_id[1:])
@@ -134,11 +135,10 @@ def build_units(manifest: dict) -> list[dict]:
         if not manifest_id or not input_path:
             raise QueueError(f"manifest record {logical_id} lacks id or local_path")
         source_class = str(record.get("source_class") or "")
-        output_group = (
-            "official-rowling"
-            if source_class == "official_rowling_original"
-            else "interviews"
-        )
+        output_group = {
+            "official_rowling_original": "official-rowling",
+            "secondary_reference": "official-editorial",
+        }.get(source_class, "interviews")
         output_file = (
             Path("sources/external") / output_group / f"{Path(input_path).stem}.yaml"
         ).as_posix()
@@ -362,13 +362,36 @@ class QueueController:
             generated_units = build_units(manifest)
             existing = plan.get("external_sources")
             if isinstance(existing, dict) and isinstance(existing.get("units"), list):
-                existing_ids = [unit.get("id") for unit in existing["units"]]
-                generated_ids = [unit.get("id") for unit in generated_units]
-                if existing_ids != generated_ids:
-                    raise QueueError("existing external queue does not match manifest IDs")
-                units = existing["units"]
-                for unit, generated in zip(units, generated_units):
-                    unit.setdefault("staging_file", generated["staging_file"])
+                existing_units = existing["units"]
+                existing_by_id = {unit.get("id"): unit for unit in existing_units}
+                if len(existing_by_id) != len(existing_units):
+                    raise QueueError("existing external queue contains duplicate IDs")
+                generated_ids = {unit.get("id") for unit in generated_units}
+                removed_ids = sorted(set(existing_by_id) - generated_ids)
+                if removed_ids:
+                    raise QueueError(
+                        "existing external queue IDs are missing from manifest: "
+                        + ", ".join(str(unit_id) for unit_id in removed_ids)
+                    )
+                units = []
+                for generated in generated_units:
+                    existing_unit = existing_by_id.get(generated.get("id"))
+                    if existing_unit is None:
+                        units.append(generated)
+                        continue
+                    for key in (
+                        "title",
+                        "source_kind",
+                        "source_class",
+                        "authority",
+                        "input_path",
+                        "manifest_id",
+                        "output_file",
+                        "staging_file",
+                        "update_profile",
+                    ):
+                        existing_unit[key] = generated[key]
+                    units.append(existing_unit)
             else:
                 units = generated_units
             plan["current_phase"] = "external-source-extraction"

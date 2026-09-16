@@ -53,33 +53,31 @@ external_processing:
   phase: external-source-extraction
   manifest: resources/manifests/external-sources.yaml
   max_in_progress: 4
-  total_units: 63
+  total_units: 72
   counts:
     pending: 0
     in_progress: 0
-    done: 63
+    done: 72
     blocked: 0
   active_units: []
   next_pending_unit: null
   last_completed_unit:
-    id: B26
-    title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August
-      2, 2006'
+    id: F01
+    title: The Hogwarts classes that you might have forgotten about
     status: done
-    input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
-    output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
-    staging_file: work/external-staging/b26.yaml
-    manifest_id: external-B26
+    input_path: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+    output_file: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+    staging_file: work/external-staging/f01.yaml
+    manifest_id: external-F01
     claimed_by: null
     claimed_at: null
 last_completed_external_source_unit:
-  id: B26
-  title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August
-    2, 2006'
+  id: F01
+  title: The Hogwarts classes that you might have forgotten about
   status: done
-  input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
-  output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
-  staging_file: work/external-staging/b26.yaml
-  manifest_id: external-B26
+  input_path: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+  output_file: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+  staging_file: work/external-staging/f01.yaml
+  manifest_id: external-F01
   claimed_by: null
   claimed_at: null

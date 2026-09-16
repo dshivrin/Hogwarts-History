@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-13'
+updated: '2026-09-16'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -22733,6 +22733,32 @@ by_entry:
     - post-1984
     source_unit: B26
     output_yaml: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
+  ext-f01-001:
+    title: 'Traditions, Legends, and Claims: Speculation About Ancient Runes'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: low
+    tags:
+    - ancient-runes
+    - bronze-age
+    - curriculum
+    - official-editorial
+    - source-criticism
+    source_unit: F01
+    output_yaml: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+  ext-f01-002:
+    title: 'Traditions, Legends, and Claims: Editorial Description of Alchemy'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: low
+    tags:
+    - alchemy
+    - ancient-magic
+    - chemistry
+    - official-editorial
+    - potions
+    source_unit: F01
+    output_yaml: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
   ext-a01-001:
     title: 'The Chamber of Secrets: Founder-Built Monster Lair and Restricted Access'
     classification: pre_1984_historical_candidate
@@ -24782,6 +24808,423 @@ by_entry:
     - school-trunks
     source_unit: A37
     output_yaml: sources/external/official-rowling/a37-extension-charms.yaml
+  ext-a38-001:
+    title: 'Magic Before and Beyond Hogwarts: Household Medicine After the Founding'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - healing
+    - household-magic
+    - linfred-potter
+    - magical-plants
+    - muggles
+    - twelfth-century
+    source_unit: A38
+    output_yaml: sources/external/official-rowling/a38-the-potter-family.yaml
+  ext-a38-002:
+    title: 'Magic Before and Beyond Hogwarts: Household Remedies and Potion Development'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - linfred-potter
+    - magical-commerce
+    - potions
+    - remedies
+    - twelfth-century
+    source_unit: A38
+    output_yaml: sources/external/official-rowling/a38-the-potter-family.yaml
+  ext-a38-003:
+    title: 'Magical and Muggle Society: Secrecy and Political Division'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - muggle-relations
+    - ralston-potter
+    - seventeenth-century
+    - statute-of-secrecy
+    - wizengamot
+    source_unit: A38
+    output_yaml: sources/external/official-rowling/a38-the-potter-family.yaml
+  ext-a38-004:
+    title: 'Magical and Muggle Society: Wartime Assistance and Separation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - first-world-war
+    - henry-potter
+    - muggle-relations
+    - twentieth-century
+    - wizengamot
+    source_unit: A38
+    output_yaml: sources/external/official-rowling/a38-the-potter-family.yaml
+  ext-a38-005:
+    title: 'Magic Before and Beyond Hogwarts: Commercial Potion Innovation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - fleamont-potter
+    - invention
+    - magical-commerce
+    - potions
+    - twentieth-century
+    source_unit: A38
+    output_yaml: sources/external/official-rowling/a38-the-potter-family.yaml
+  ext-a39-001:
+    title: 'Potions and Practical Magic: Potion-Making as Magic'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - magical-craft
+    - muggles
+    - potion-making
+    - potions
+    - wandwork
+    source_unit: A39
+    output_yaml: sources/external/official-rowling/a39-potions.yaml
+  ext-a39-002:
+    title: 'Potions and Practical Magic: Potions and Other Magical Methods'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - charms
+    - felix-felicis
+    - polyjuice-potion
+    - potions
+    - spells
+    source_unit: A39
+    output_yaml: sources/external/official-rowling/a39-potions.yaml
+  ext-a39-003:
+    title: 'Potions and Practical Magic: Potioneering Expertise'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - dangerous-substances
+    - expertise
+    - magical-craft
+    - potioneer
+    - potions
+    source_unit: A39
+    output_yaml: sources/external/official-rowling/a39-potions.yaml
+  ext-a39-004:
+    title: 'Sources and Authorial Context: Real-World Ingredient Traditions'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: high
+    tags:
+    - authorial-research
+    - bezoar
+    - dittany
+    - healing
+    - poison-treatment
+    source_unit: A39
+    output_yaml: sources/external/official-rowling/a39-potions.yaml
+  ext-a40-001:
+    title: 'Magical and Muggle Society: Shared Material Culture'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cauldrons
+    - material-culture
+    - muggles
+    - potions
+    - shared-technologies
+    source_unit: A40
+    output_yaml: sources/external/official-rowling/a40-cauldrons.yaml
+  ext-a40-002:
+    title: 'Potions and Practical Magic: Vessels and Heat'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - brewing-technique
+    - cauldrons
+    - magical-craft
+    - naked-flame
+    - potions
+    source_unit: A40
+    output_yaml: sources/external/official-rowling/a40-cauldrons.yaml
+  ext-a40-003:
+    title: 'Potions and Practical Magic: Enchanted and Specialized Cauldrons'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - cauldrons
+    - enchantments
+    - iron
+    - magical-invention
+    - pewter
+    source_unit: A40
+    output_yaml: sources/external/official-rowling/a40-cauldrons.yaml
+  ext-a40-004:
+    title: 'Sources and Authorial Context: Cauldron Folklore'
+    classification: later_editorial_note
+    reference_type: weak_context_only
+    confidence: high
+    tags:
+    - authorial
+    - british-legend
+    - cauldrons
+    - folklore
+    - irish-mythology
+    source_unit: A40
+    output_yaml: sources/external/official-rowling/a40-cauldrons.yaml
+  ext-a41-001:
+    title: 'Magic in Ancient Britain: Early Wandcraft'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - ancient-britain
+    - magical-craft
+    - ollivander-family
+    - romans
+    - wandmaking
+    source_unit: A41
+    output_yaml: sources/external/official-rowling/a41-mr-ollivander.yaml
+  ext-a41-002:
+    title: 'Wandcraft: Customer-Supplied Cores'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - family-tradition
+    - inheritance
+    - material-culture
+    - wand-cores
+    - wandmaking
+    source_unit: A41
+    output_yaml: sources/external/official-rowling/a41-mr-ollivander.yaml
+  ext-a41-003:
+    title: 'Wandcraft: Standardization and Innovation'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - craftsmanship
+    - innovation
+    - ollivander
+    - trade-secrets
+    - wandmaking
+    source_unit: A41
+    output_yaml: sources/external/official-rowling/a41-mr-ollivander.yaml
+  ext-a42-001:
+    title: 'Wandcraft: Magical Trees and Wood Selection'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - bowtruckles
+    - craft-knowledge
+    - magical-trees
+    - wand-woods
+    - wandmaking
+    source_unit: A42
+    output_yaml: sources/external/official-rowling/a42-wand-woods.yaml
+  ext-a42-002:
+    title: 'Crafts and Knowledge: Wandmakers and Written Tradition'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - craft-tradition
+    - medieval
+    - ollivander
+    - wandmaking
+    - written-knowledge
+    source_unit: A42
+    output_yaml: sources/external/official-rowling/a42-wand-woods.yaml
+  ext-a42-003:
+    title: 'Magic in Ancient Britain: Plants and Druidic Craft'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - ancient-tradition
+    - druids
+    - plants
+    - vine
+    - wandmaking
+    source_unit: A42
+    output_yaml: sources/external/official-rowling/a42-wand-woods.yaml
+  ext-a42-004:
+    title: 'Traditions, Legends, and Claims: Testing Wand Lore'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - oral-culture
+    - source-criticism
+    - tradition
+    - wand-superstition
+    - wandmaking
+    source_unit: A42
+    output_yaml: sources/external/official-rowling/a42-wand-woods.yaml
+  ext-a42-005:
+    title: 'Commerce and Magical Crafts: Wand-Wood Fashion and Fraud'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - commerce
+    - counterfeiting
+    - nineteenth-century
+    - silver-lime
+    - wandmakers
+    source_unit: A42
+    output_yaml: sources/external/official-rowling/a42-wand-woods.yaml
+  ext-a43-001:
+    title: 'Contact Beyond Britain: Transcontinental Magical Networks'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - communication
+    - international
+    - magical-travel
+    - middle-ages
+    - wizarding-communities
+    source_unit: A43
+    output_yaml: sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+  ext-a43-002:
+    title: 'Magic Within Communities: Healers, Hunters, and Stigma'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: medium
+    tags:
+    - healing
+    - magic
+    - native-american
+    - persecution
+    - social-status
+    source_unit: A43
+    output_yaml: sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+  ext-a43-003:
+    title: 'Plants, Animals, and Potions: Knowledge Beyond Europe'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - animal-magic
+    - comparative-magic
+    - native-american
+    - plant-magic
+    - potions
+    source_unit: A43
+    output_yaml: sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+  ext-a43-004:
+    title: 'Tools and Technique: European Wands and Wandless Practice'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - europe
+    - magical-craft
+    - native-american
+    - wand-origin
+    - wandless-magic
+    source_unit: A43
+    output_yaml: sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+  ext-a44-001:
+    title: 'Migration and Concealment: European Settlement in America'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - coexistence
+    - migration
+    - muggles
+    - native-american
+    - seventeenth-century
+    source_unit: A44
+    output_yaml: sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml
+  ext-a44-002:
+    title: 'Plants, Potions, and Supply: Apothecaries and Frontier Foraging'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - apothecary
+    - foraging
+    - magical-plants
+    - material-supply
+    - potions
+    source_unit: A44
+    output_yaml: sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml
+  ext-a44-003:
+    title: 'Schools and Craft Infrastructure: Ilvermorny''s Early Scale'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - ilvermorny
+    - institutional-growth
+    - seventeenth-century
+    - teachers
+    - wandmakers
+    source_unit: A44
+    output_yaml: sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml
+  ext-a45-001:
+    title: 'Shared Material Culture: Transport Before Secrecy'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - material-culture
+    - muggles
+    - shared-technologies
+    - statute-of-secrecy
+    - transport
+    source_unit: A45
+    output_yaml: sources/external/official-rowling/a45-technology.yaml
+  ext-a45-002:
+    title: 'Technology and Secrecy: The Aborted Wizarding Television Service'
+    classification: pre_1984_historical_candidate
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - broadcasting
+    - early-1980s
+    - ministry-of-magic
+    - statute-of-secrecy
+    - television
+    source_unit: A45
+    output_yaml: sources/external/official-rowling/a45-technology.yaml
+  ext-a45-003:
+    title: 'Technology and Secrecy: Wizarding Radio'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - adapted-technology
+    - broadcasting
+    - magical-plants
+    - muggles
+    - radio
+    source_unit: A45
+    output_yaml: sources/external/official-rowling/a45-technology.yaml
+  ext-a45-004:
+    title: 'Technology and Secrecy: Enchanted Motor Vehicles'
+    classification: unknown_or_uncertain
+    reference_type: historical_claim
+    confidence: high
+    tags:
+    - adapted-technology
+    - cars
+    - ministry-of-magic
+    - muggle-technology
+    - twentieth-century
+    source_unit: A45
+    output_yaml: sources/external/official-rowling/a45-technology.yaml
 by_tag:
   '1402':
   - ext-a25-003
@@ -24876,6 +25319,9 @@ by_tag:
   - dh-ch34-006
   activation-phrase:
   - ext-a11-003
+  adapted-technology:
+  - ext-a45-003
+  - ext-a45-004
   address-tracking:
   - ps-ch03-003
   administrative-spaces:
@@ -25003,6 +25449,7 @@ by_tag:
   alchemy:
   - dh-ch18-003
   - ext-a18-003
+  - ext-f01-002
   - ps-ch13-001
   alice-longbottom:
   - ootp-ch23-007
@@ -25037,6 +25484,8 @@ by_tag:
   - dh-ch13-007
   ancient-artifact:
   - ext-a17-002
+  ancient-britain:
+  - ext-a41-001
   ancient-broom-games:
   - qtta-ch02-001
   ancient-creature:
@@ -25044,18 +25493,22 @@ by_tag:
   ancient-dark-magic:
   - ext-b10-002
   ancient-magic:
+  - ext-f01-002
   - gof-ch20-001
   - gof-ch33-004
   - hbp-ch20-004
   - ootp-ch37-005
   ancient-runes:
   - beedle-fm-001
+  - ext-f01-001
   - ootp-ch10-005
   - poa-ch04-004
   - poa-ch12-007
   - poa-ch16-001
   ancient-spells:
   - ootp-ch24-005
+  ancient-tradition:
+  - ext-a42-003
   angus-buchanan:
   - ext-a36-002
   animagi:
@@ -25077,6 +25530,7 @@ by_tag:
   - poa-ch20-003
   animal-magic:
   - ext-a22-002
+  - ext-a43-003
   animal-transformation:
   - cos-ch12-004
   animal-welfare:
@@ -25140,6 +25594,8 @@ by_tag:
   - gof-ch31-001
   apothecaries:
   - hbp-ch11-006
+  apothecary:
+  - ext-a44-002
   apparition:
   - dh-ch01-004
   - dh-ch04-001
@@ -25316,6 +25772,8 @@ by_tag:
   author-commentary:
   - ext-b14-003
   - ext-b26-002
+  authorial:
+  - ext-a40-004
   authorial-commentary:
   - ext-b12-001
   - ext-b12-002
@@ -25336,6 +25794,8 @@ by_tag:
   - ext-a15-001
   - ext-a15-002
   - ext-a15-003
+  authorial-research:
+  - ext-a39-004
   authority:
   - ext-a16-006
   avada-kedavra:
@@ -25589,6 +26049,8 @@ by_tag:
   - gof-ch34-004
   bewitched-sleep:
   - gof-ch27-001
+  bezoar:
+  - ext-a39-004
   bezoars:
   - hbp-ch18-001
   - hbp-ch18-007
@@ -25781,6 +26243,7 @@ by_tag:
   - fb-ch03-004
   - fb-ch05-005
   bowtruckles:
+  - ext-a42-001
   - hbp-ch22-006
   - hbp-ch28-006
   - ootp-ch13-004
@@ -25797,6 +26260,8 @@ by_tag:
   - dh-ch25-004
   breeding-programme:
   - fb-ch06-005
+  brewing-technique:
+  - ext-a40-002
   brewing-time:
   - hbp-ch24-002
   brick-entrance:
@@ -25805,8 +26270,15 @@ by_tag:
   - ext-b19-001
   british-fireplaces:
   - ext-a24-005
+  british-legend:
+  - ext-a40-004
+  broadcasting:
+  - ext-a45-002
+  - ext-a45-003
   broderick-bode:
   - ootp-ch25-002
+  bronze-age:
+  - ext-f01-001
   broom-control:
   - qtta-ch09-002
   - qtta-ch09-003
@@ -25995,6 +26467,8 @@ by_tag:
   - dh-ch29-003
   - dh-ch30-002
   - dh-ch31-007
+  cars:
+  - ext-a45-004
   cassandra-trelawney:
   - ootp-ch15-003
   castle:
@@ -26140,6 +26614,11 @@ by_tag:
   - poa-ch01-002
   cauldron-standards:
   - gof-ch05-003
+  cauldrons:
+  - ext-a40-001
+  - ext-a40-002
+  - ext-a40-003
+  - ext-a40-004
   cave:
   - gof-ch27-006
   - hbp-ch26-001
@@ -26287,6 +26766,7 @@ by_tag:
   - poa-ch15-004
   - ps-ch14-005
   charms:
+  - ext-a39-002
   - gof-ch15-002
   - gof-ch20-004
   - gof-ch26-001
@@ -26315,6 +26795,8 @@ by_tag:
   - gof-ch24-006
   cheering-charms:
   - poa-ch15-003
+  chemistry:
+  - ext-f01-002
   chief-warlock:
   - dh-ch02-005
   child-safety:
@@ -26425,6 +26907,8 @@ by_tag:
   - gof-ch29-006
   code-of-wand-use:
   - gof-ch09-005
+  coexistence:
+  - ext-a44-001
   colin-creevey:
   - cos-ch10-006
   - dh-ch34-001
@@ -26453,6 +26937,8 @@ by_tag:
   - hbp-ch08-004
   - hbp-ch14-005
   - hbp-ch19-005
+  commerce:
+  - ext-a42-005
   committee-for-disposal:
   - poa-ch14-003
   - poa-ch15-001
@@ -26489,6 +26975,8 @@ by_tag:
   - poa-ch13-007
   common-rooms:
   - ext-b09-001
+  communication:
+  - ext-a43-001
   communication-cost:
   - ext-a23-004
   communication-security:
@@ -26504,6 +26992,8 @@ by_tag:
   - ootp-ch32-004
   - ootp-ch32-005
   - ootp-ch37-004
+  comparative-magic:
+  - ext-a43-003
   competition-rules:
   - hbp-ch09-006
   - hbp-ch14-006
@@ -26619,6 +27109,8 @@ by_tag:
   - hbp-ch05-005
   counterfeit-defense:
   - hbp-ch05-002
+  counterfeiting:
+  - ext-a42-005
   counterjinxes:
   - ootp-ch15-004
   - ootp-ch23-004
@@ -26669,6 +27161,12 @@ by_tag:
   - hbp-ch21-003
   crabbe:
   - hbp-ch21-005
+  craft-knowledge:
+  - ext-a42-001
+  craft-tradition:
+  - ext-a42-002
+  craftsmanship:
+  - ext-a41-003
   creature-alias:
   - hbp-ch03-006
   creature-breeding:
@@ -26793,6 +27291,7 @@ by_tag:
   - ext-a18-003
   - ext-a18-004
   - ext-a31-001
+  - ext-f01-001
   - fb-ch00-003
   - gof-ch12-006
   - gof-ch14-001
@@ -26906,6 +27405,8 @@ by_tag:
   - fb-ch06-006
   dangerous-plants:
   - cos-ch06-002
+  dangerous-substances:
+  - ext-a39-003
   dark-artifacts:
   - dh-ch07-002
   - dh-ch23-006
@@ -27418,6 +27919,7 @@ by_tag:
   dittany:
   - dh-ch14-001
   - dh-ch27-001
+  - ext-a39-004
   - hbp-ch24-004
   - ps-ch14-001
   divination:
@@ -27583,6 +28085,8 @@ by_tag:
   dress-robes:
   - gof-ch10-007
   - gof-ch22-001
+  druids:
+  - ext-a42-003
   due-process:
   - ootp-ch08-004
   dueling:
@@ -27898,6 +28402,8 @@ by_tag:
   eagle-knocker:
   - dh-ch29-007
   - dh-ch30-001
+  early-1980s:
+  - ext-a45-002
   early-magic:
   - hbp-ch13-007
   early-notes:
@@ -28054,6 +28560,7 @@ by_tag:
   - dh-ch26-003
   - ext-a05-001
   enchantments:
+  - ext-a40-003
   - ps-ch13-006
   - ps-ch14-003
   end-of-term:
@@ -28119,6 +28626,7 @@ by_tag:
   eupraxia-mole:
   - ext-a16-003
   europe:
+  - ext-a43-004
   - gof-ch09-002
   european-cup:
   - qtta-ch08-001
@@ -28192,6 +28700,8 @@ by_tag:
   - fb-ch05-001
   experimental-charms:
   - gof-ch07-004
+  expertise:
+  - ext-a39-003
   explicit-reference:
   - cos-ch09-001
   - dh-ch06-004
@@ -28278,6 +28788,8 @@ by_tag:
   - ext-a23-004
   family-secrecy:
   - dh-ch08-005
+  family-tradition:
+  - ext-a41-002
   family-trees:
   - dh-ch01-005
   - dh-ch13-005
@@ -28332,6 +28844,7 @@ by_tag:
   feasts:
   - ps-ch12-003
   felix-felicis:
+  - ext-a39-002
   - hbp-ch09-006
   - hbp-ch14-006
   - hbp-ch24-002
@@ -28490,6 +29003,8 @@ by_tag:
   - ootp-ch23-007
   - poa-ch10-006
   - ps-ch04-005
+  first-world-war:
+  - ext-a38-004
   first-year:
   - ext-a15-001
   first-year-arrival:
@@ -28522,6 +29037,8 @@ by_tag:
   - poa-ch01-001
   flavius-belby:
   - fb-ch07-003
+  fleamont-potter:
+  - ext-a38-005
   flesh-memory:
   - dh-ch07-005
   fleur-delacour:
@@ -28604,6 +29121,8 @@ by_tag:
   foe-glass:
   - gof-ch20-003
   - gof-ch35-005
+  folklore:
+  - ext-a40-004
   folklore-variants:
   - beedle-ch01-002
   - beedle-ch01-004
@@ -28612,6 +29131,8 @@ by_tag:
   food-service:
   - gof-ch21-006
   - gof-ch23-003
+  foraging:
+  - ext-a44-002
   forbidden-corridor:
   - ps-ch09-007
   forbidden-forest:
@@ -29824,6 +30345,9 @@ by_tag:
   - ootp-ch25-002
   healing:
   - dh-ch14-001
+  - ext-a38-001
+  - ext-a39-004
+  - ext-a43-002
   healing-magic:
   - ext-a29-003
   - fb-ch07-006
@@ -29841,6 +30365,8 @@ by_tag:
   - ext-a07-005
   - ext-b10-001
   - hbp-ch20-005
+  henry-potter:
+  - ext-a38-004
   hepzibah-smith:
   - dh-ch26-006
   herbert-beery:
@@ -30827,6 +31353,8 @@ by_tag:
   - poa-ch01-007
   - poa-ch08-002
   - ps-ch09-003
+  household-magic:
+  - ext-a38-001
   household-security:
   - hbp-ch05-003
   howler:
@@ -30889,6 +31417,7 @@ by_tag:
   - ext-a30-001
   - ext-a30-002
   - ext-a30-003
+  - ext-a44-003
   immortality:
   - dh-ch27-003
   impediment-curse:
@@ -30978,10 +31507,13 @@ by_tag:
   - gof-ch24-004
   - gof-ch33-003
   inheritance:
+  - ext-a41-002
   - hbp-ch03-004
   - hbp-ch12-005
   inigo-imago:
   - ootp-ch12-005
+  innovation:
+  - ext-a41-003
   inquisitor:
   - ext-a34-002
   inquisitorial-squad:
@@ -30996,6 +31528,8 @@ by_tag:
   institutional-custom:
   - dh-ch08-001
   - ps-ch07-002
+  institutional-growth:
+  - ext-a44-003
   institutional-history:
   - ext-a14-002
   - ext-a19-001
@@ -31044,6 +31578,8 @@ by_tag:
   - ext-a31-002
   - gof-ch33-002
   - ps-ch17-002
+  international:
+  - ext-a43-001
   international-association-of-quidditch:
   - gof-ch08-005
   international-code-of-wizarding-secrecy:
@@ -31102,6 +31638,7 @@ by_tag:
   - hbp-ch28-007
   invention:
   - dh-ch07-004
+  - ext-a38-005
   investigation:
   - ootp-ch07-005
   invisibility:
@@ -31144,10 +31681,14 @@ by_tag:
   - ootp-ch24-007
   ireland:
   - ext-b19-001
+  irish-mythology:
+  - ext-a40-004
   irma-pince:
   - qtta-fm-002
   - qtta-fm-004
   - qtta-fm-005
+  iron:
+  - ext-a40-003
   isle-drear:
   - fb-ch08-001
   j-k-rowling:
@@ -31467,6 +32008,9 @@ by_tag:
   - ps-ch01-003
   limits-of-magic:
   - ext-b14-003
+  linfred-potter:
+  - ext-a38-001
+  - ext-a38-002
   liquid-luck:
   - hbp-ch09-006
   - hbp-ch14-006
@@ -31644,6 +32188,8 @@ by_tag:
   - ootp-ch20-002
   madness:
   - ootp-ch37-003
+  magic:
+  - ext-a43-002
   magic-development:
   - ext-b14-002
   magic-is-might:
@@ -31770,6 +32316,9 @@ by_tag:
   - dh-ch05-004
   - dh-ch05-007
   - dh-ch23-006
+  magical-commerce:
+  - ext-a38-002
+  - ext-a38-005
   magical-communication:
   - dh-ch15-007
   - dh-ch28-003
@@ -31789,6 +32338,12 @@ by_tag:
   - hbp-ch16-001
   magical-control:
   - hbp-ch13-007
+  magical-craft:
+  - ext-a39-001
+  - ext-a39-003
+  - ext-a40-002
+  - ext-a41-001
+  - ext-a43-004
   magical-crafts:
   - dh-ch08-003
   - dh-ch12-005
@@ -31946,6 +32501,8 @@ by_tag:
   - dh-ch12-002
   - dh-ch33-002
   - ootp-ch37-001
+  magical-invention:
+  - ext-a40-003
   magical-law:
   - dh-ch07-002
   - ext-a25-004
@@ -32018,6 +32575,9 @@ by_tag:
   - dh-ch10-002
   magical-plants:
   - cos-ch06-003
+  - ext-a38-001
+  - ext-a44-002
+  - ext-a45-003
   - gof-ch13-002
   - hbp-ch14-001
   - hbp-ch22-004
@@ -32160,9 +32720,13 @@ by_tag:
   - hbp-ch22-001
   - ootp-ch03-003
   - ootp-ch23-001
+  magical-travel:
+  - ext-a43-001
   magical-tree:
   - cos-ch05-003
   - poa-ch10-002
+  magical-trees:
+  - ext-a42-001
   magical-trunk:
   - gof-ch35-006
   magical-understanding:
@@ -32300,9 +32864,14 @@ by_tag:
   - poa-ch15-006
   - ps-ch11-004
   material-culture:
+  - ext-a40-001
+  - ext-a41-002
+  - ext-a45-001
   - hbp-ch12-005
   - ootp-ch05-002
   - ootp-ch06-001
+  material-supply:
+  - ext-a44-002
   maximum-owls:
   - ext-b04-004
   maze:
@@ -32339,6 +32908,8 @@ by_tag:
   - hbp-ch19-001
   medicinal-potion:
   - poa-ch08-005
+  medieval:
+  - ext-a42-002
   medieval-art:
   - fb-ch02-001
   medieval-ban:
@@ -32426,6 +32997,10 @@ by_tag:
   - hbp-ch05-002
   metamorphmagus:
   - ootp-ch03-004
+  middle-ages:
+  - ext-a43-001
+  migration:
+  - ext-a44-001
   millicent-bagnold:
   - ootp-ch05-006
   mimbulus-mimbletonia:
@@ -32561,6 +33136,8 @@ by_tag:
   - ext-a24-002
   - ext-a24-005
   - ext-a27-002
+  - ext-a45-002
+  - ext-a45-004
   - ext-b02-005
   - fb-ch00-001
   - fb-ch01-006
@@ -32932,6 +33509,8 @@ by_tag:
   muggle-relations:
   - beedle-ch01-001
   - beedle-fm-003
+  - ext-a38-003
+  - ext-a38-004
   muggle-repelling:
   - dh-ch14-003
   - dh-ch15-001
@@ -32998,6 +33577,7 @@ by_tag:
   muggle-suburb:
   - ootp-ch01-004
   muggle-technology:
+  - ext-a45-004
   - gof-ch28-003
   muggle-visibility:
   - dh-ch04-005
@@ -33016,6 +33596,12 @@ by_tag:
   - beedle-ch04-004
   - dh-ch12-006
   - ext-a09-008
+  - ext-a38-001
+  - ext-a39-001
+  - ext-a40-001
+  - ext-a44-001
+  - ext-a45-001
+  - ext-a45-003
   - fb-ch00-004
   mundungus-fletcher:
   - dh-ch05-006
@@ -33041,6 +33627,8 @@ by_tag:
   - dh-ch34-007
   - dh-ch36-003
   - gof-ch01-005
+  naked-flame:
+  - ext-a40-002
   name-taboo:
   - ext-b06-004
   named-book:
@@ -33056,6 +33644,11 @@ by_tag:
   - ps-ch13-001
   narcissa-malfoy:
   - ootp-ch37-004
+  native-american:
+  - ext-a43-002
+  - ext-a43-003
+  - ext-a43-004
+  - ext-a44-001
   natural-law:
   - ext-b17-001
   nature-reserve:
@@ -33166,6 +33759,7 @@ by_tag:
   nineteenth-century:
   - ext-a27-001
   - ext-a36-001
+  - ext-a42-005
   no-magic-punishment:
   - cos-ch07-006
   non-human-communities:
@@ -33254,6 +33848,9 @@ by_tag:
   - ootp-ch29-005
   - ootp-ch32-003
   - ootp-ch32-005
+  official-editorial:
+  - ext-f01-001
+  - ext-f01-002
   official-records:
   - ootp-ch37-007
   officiating:
@@ -33286,8 +33883,12 @@ by_tag:
   - dh-ch23-004
   - dh-ch24-005
   - dh-ch24-006
+  - ext-a41-003
+  - ext-a42-002
   - gof-ch18-006
   - gof-ch18-007
+  ollivander-family:
+  - ext-a41-001
   ollivanders:
   - ps-ch05-007
   omnioculars:
@@ -33318,6 +33919,8 @@ by_tag:
   - hbp-ch14-007
   optional-subject:
   - ext-b01-001
+  oral-culture:
+  - ext-a42-004
   oral-tradition:
   - beedle-ch03-001
   - beedle-ch05-001
@@ -33694,6 +34297,8 @@ by_tag:
   - ootp-ch16-001
   - poa-ch01-005
   - poa-ch08-003
+  persecution:
+  - ext-a43-002
   personal-bequest:
   - dh-ch07-004
   pet-policy:
@@ -33728,6 +34333,8 @@ by_tag:
   - dh-ch35-004
   peverell-ring:
   - hbp-ch10-006
+  pewter:
+  - ext-a40-003
   philosopher-stone-protection:
   - ps-ch11-007
   philosopher-stone-protections:
@@ -33805,6 +34412,10 @@ by_tag:
   - gof-ch29-005
   plant-defenses:
   - ootp-ch10-004
+  plant-magic:
+  - ext-a43-003
+  plants:
+  - ext-a42-003
   platform-barrier:
   - cos-ch18-007
   platform-nine-and-three-quarters:
@@ -33840,6 +34451,8 @@ by_tag:
   - gof-ch25-004
   pluto:
   - ootp-ch35-005
+  poison-treatment:
+  - ext-a39-004
   poisoned-mead:
   - hbp-ch18-007
   - hbp-ch27-006
@@ -33870,6 +34483,7 @@ by_tag:
   - dh-ch16-005
   - dh-ch25-004
   - dh-ch26-003
+  - ext-a39-002
   - gof-ch35-006
   - hbp-ch03-003
   - hbp-ch09-005
@@ -33994,11 +34608,25 @@ by_tag:
   - cos-ch11-002
   - gof-ch25-006
   - gof-ch27-004
+  potion-making:
+  - ext-a39-001
+  potioneer:
+  - ext-a39-003
   potions:
   - cos-ch09-007
   - cos-ch10-002
   - cos-ch11-002
   - ext-a21-002
+  - ext-a38-002
+  - ext-a38-005
+  - ext-a39-001
+  - ext-a39-002
+  - ext-a39-003
+  - ext-a40-001
+  - ext-a40-002
+  - ext-a43-003
+  - ext-a44-002
+  - ext-f01-002
   - fb-ch06-006
   - gof-ch10-006
   - gof-ch15-002
@@ -34746,12 +35374,16 @@ by_tag:
   - qtta-ch09-007
   radar:
   - gof-ch28-003
+  radio:
+  - ext-a45-003
   ragnok:
   - ootp-ch05-004
   ragnuk:
   - ext-a08-002
   ragnuk-the-first:
   - dh-ch25-002
+  ralston-potter:
+  - ext-a38-003
   rambling-castle:
   - ext-b01-004
   ramora:
@@ -34833,6 +35465,8 @@ by_tag:
   remedial-potions:
   - ootp-ch24-001
   - ootp-ch28-006
+  remedies:
+  - ext-a38-002
   remorse:
   - dh-ch06-007
   remus-lupin:
@@ -34961,6 +35595,8 @@ by_tag:
   - cos-ch10-004
   romanian-longhorn:
   - fb-ch06-005
+  romans:
+  - ext-a41-001
   romilda-vane:
   - hbp-ch18-006
   ron:
@@ -35739,6 +36375,10 @@ by_tag:
   - dh-ch03-001
   - dh-ch07-001
   - hbp-ch03-007
+  seventeenth-century:
+  - ext-a38-003
+  - ext-a44-001
+  - ext-a44-003
   seventh-floor:
   - hbp-ch10-002
   - hbp-ch21-003
@@ -35771,6 +36411,9 @@ by_tag:
   - hbp-ch15-005
   shared-resources:
   - gof-ch18-001
+  shared-technologies:
+  - ext-a40-001
+  - ext-a45-001
   shell-cottage:
   - dh-ch23-005
   - dh-ch24-001
@@ -35833,6 +36476,8 @@ by_tag:
   - dh-ch23-006
   silver-instruments:
   - hbp-ch10-003
+  silver-lime:
+  - ext-a42-005
   sir-cadogan:
   - dh-ch31-004
   - poa-ch06-002
@@ -36078,6 +36723,8 @@ by_tag:
   - gof-ch16-006
   social-history:
   - ext-a27-005
+  social-status:
+  - ext-a43-002
   sorcerers-stone:
   - gof-ch33-002
   - ps-ch15-007
@@ -36143,6 +36790,8 @@ by_tag:
   - dh-ch18-002
   - dh-ch18-004
   - ext-a15-003
+  - ext-a42-004
+  - ext-f01-001
   source-dating:
   - beedle-fm-005
   source-history:
@@ -36191,6 +36840,8 @@ by_tag:
   - gof-ch04-001
   - gof-ch20-001
   - poa-ch01-002
+  spells:
+  - ext-a39-002
   spellwork:
   - dh-ch20-002
   - gof-ch26-001
@@ -36440,6 +37091,9 @@ by_tag:
   - dh-ch16-003
   - dh-ch18-006
   - dh-ch28-004
+  - ext-a38-003
+  - ext-a45-001
+  - ext-a45-002
   - fb-ch02-007
   - fb-ch03-001
   - gof-ch04-004
@@ -37051,6 +37705,7 @@ by_tag:
   teachers:
   - cos-ch12-002
   - ext-a14-002
+  - ext-a44-003
   - ext-b17-002
   teaching:
   - ext-a12-004
@@ -37092,6 +37747,8 @@ by_tag:
   telephone-box:
   - ootp-ch07-002
   - ootp-ch34-002
+  television:
+  - ext-a45-002
   temporal-law:
   - ext-a25-005
   temporal-magic:
@@ -37331,10 +37988,14 @@ by_tag:
   tracking:
   - dh-ch09-005
   - dh-ch20-001
+  trade-secrets:
+  - ext-a41-003
   tradeable-material:
   - dh-ch20-006
   - fb-ch06-005
   - fb-ch06-006
+  tradition:
+  - ext-a42-004
   traditions:
   - ext-b10-003
   train-ticket:
@@ -37380,6 +38041,8 @@ by_tag:
   - dh-ch18-004
   transfigured-chessmen:
   - ps-ch16-006
+  transport:
+  - ext-a45-001
   trapdoor:
   - ps-ch09-007
   - ps-ch16-005
@@ -37501,8 +38164,14 @@ by_tag:
   - ootp-ch32-007
   truth-telling:
   - gof-ch37-004
+  twelfth-century:
+  - ext-a38-001
+  - ext-a38-002
   twentieth-century:
   - ext-a27-003
+  - ext-a38-004
+  - ext-a38-005
+  - ext-a45-004
   twigger-90:
   - qtta-ch09-007
   twin-cores:
@@ -37708,6 +38377,8 @@ by_tag:
   - dh-ch12-005
   - gof-ch16-007
   - gof-ch35-004
+  vine:
+  - ext-a42-003
   vinegar:
   - ext-a07-003
   violet-ribbon-invitations:
@@ -37861,6 +38532,7 @@ by_tag:
   wand-confiscation:
   - ootp-ch32-005
   wand-cores:
+  - ext-a41-002
   - gof-ch18-007
   - ps-ch05-007
   wand-discipline:
@@ -37888,6 +38560,8 @@ by_tag:
   - beedle-ch05-003
   - dh-ch21-005
   - dh-ch24-006
+  wand-origin:
+  - ext-a43-004
   wand-ownership:
   - dh-ch13-007
   - dh-ch24-005
@@ -37907,6 +38581,8 @@ by_tag:
   - ootp-ch08-007
   wand-sparks:
   - ps-ch15-005
+  wand-superstition:
+  - ext-a42-004
   wand-trees:
   - ootp-ch13-004
   wand-use:
@@ -37918,6 +38594,10 @@ by_tag:
   - gof-ch18-006
   wand-wood:
   - fb-ch05-005
+  wand-woods:
+  - ext-a42-001
+  wandless-magic:
+  - ext-a43-004
   wandlore:
   - beedle-ch05-003
   - beedle-ch05-004
@@ -37933,6 +38613,16 @@ by_tag:
   - gof-ch34-003
   wandmakers:
   - dh-ch08-003
+  - ext-a42-005
+  - ext-a44-003
+  wandmaking:
+  - ext-a41-001
+  - ext-a41-002
+  - ext-a41-003
+  - ext-a42-001
+  - ext-a42-002
+  - ext-a42-003
+  - ext-a42-004
   wands:
   - cos-ch04-002
   - cos-ch06-004
@@ -37941,6 +38631,8 @@ by_tag:
   - poa-ch07-004
   - poa-ch07-005
   - ps-ch05-007
+  wandwork:
+  - ext-a39-001
   warded-gates:
   - dh-ch01-001
   - dh-ch23-002
@@ -38212,6 +38904,8 @@ by_tag:
   - ext-a06-003
   wizarding-colour-signals:
   - ext-a26-001
+  wizarding-communities:
+  - ext-a43-001
   wizarding-community:
   - ext-a27-005
   wizarding-custom:
@@ -38353,6 +39047,8 @@ by_tag:
   wizengamot:
   - dh-ch12-007
   - dh-ch18-003
+  - ext-a38-003
+  - ext-a38-004
   - hbp-ch10-007
   - ootp-ch05-007
   - ootp-ch07-004
@@ -38399,6 +39095,8 @@ by_tag:
   - poa-ch18-006
   worthy:
   - ext-a08-004
+  written-knowledge:
+  - ext-a42-002
   written-papers:
   - ps-ch16-001
   xenophilius-lovegood:
